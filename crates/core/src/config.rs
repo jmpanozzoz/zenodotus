@@ -381,6 +381,14 @@ impl RankingSettings {
         {
             return invalid("ranking.synonyms", "words and synonym lists must not be empty");
         }
+        // Queries are split into lowercase words before synonyms are looked up, so any other key never matches.
+        let one_word = |word: &String| word.chars().all(|c| c.is_alphanumeric() && !c.is_uppercase());
+        if !self.synonyms.keys().all(one_word) {
+            return invalid(
+                "ranking.synonyms",
+                "each word must be one lowercase word of letters and digits, as queries are split",
+            );
+        }
         Ok(())
     }
 }
@@ -828,6 +836,20 @@ source = { kind = "local", path = "/srv/tokio" }
             assert_eq!(
                 settings_error(&format!("[settings.ranking]\nsynonyms = {table}")),
                 message("ranking.synonyms", "words and synonym lists must not be empty")
+            );
+        }
+    }
+
+    #[test]
+    fn synonym_keys_are_single_lowercase_words() {
+        for key in ["useState", "front-end", "two words", "snake_case"] {
+            assert_eq!(
+                settings_error(&format!("[settings.ranking]\nsynonyms = {{ \"{key}\" = [\"x\"] }}")),
+                message(
+                    "ranking.synonyms",
+                    "each word must be one lowercase word of letters and digits, as queries are split"
+                ),
+                "{key}"
             );
         }
     }

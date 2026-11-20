@@ -71,11 +71,13 @@ impl Store {
     /// [`SearchError::IndexEmpty`] when nothing was ever committed, [`SearchError::SchemaMismatch`] when the index
     /// was built by another schema version or other `[settings.index]` values, or an index or I/O error.
     pub fn open(data_dir: &Path, settings: &IndexSettings) -> Result<Self, SearchError> {
-        recover(data_dir)?;
-        let path = data_dir.join(INDEX_DIR);
-        if !path.join("meta.json").is_file() {
-            return Err(SearchError::IndexEmpty);
-        }
+        // Readers never move directories: after a crash between a swap's renames, they read `index.old/`, and only
+        // the writer, which holds the sync lock, repairs the layout.
+        let path = [INDEX_DIR, OLD_INDEX_DIR]
+            .map(|dir| data_dir.join(dir))
+            .into_iter()
+            .find(|path| path.join("meta.json").is_file())
+            .ok_or(SearchError::IndexEmpty)?;
         let index = Index::open_in_dir(&path)?;
         let payload = check(&index, settings)?;
         if payload.is_none() {
@@ -232,11 +234,15 @@ fn term_query(field: Field, text: &str) -> Box<dyn Query> {
     Box::new(TermQuery::new(term(field, text), IndexRecordOption::Basic))
 }
 
-/// Renames `index.old/` back to `index/` when a crash happened between the two renames of a swap.
+/// Repairs a swap that a crash interrupted: renames `index.old/` back to `index/` when only the old index exists,
+/// and deletes `index.old/` when the live index exists beside it. Only the writer calls it.
 fn recover(data_dir: &Path) -> Result<(), SearchError> {
     let live = data_dir.join(INDEX_DIR);
     let old = data_dir.join(OLD_INDEX_DIR);
-    if !live.exists() && old.exists() {
+    if live.exists() {
+        return remove_dir(&old);
+    }
+    if old.exists() {
         fs::rename(&old, &live).map_err(SearchError::io(&old))?;
     }
     Ok(())
@@ -513,6 +519,7 @@ pub fn swap_rebuilt(data_dir: &Path) -> Result<(), SearchError> {
     let old = data_dir.join(OLD_INDEX_DIR);
     let new = data_dir.join(NEW_INDEX_DIR);
     if live.exists() {
+        remove_dir(&old)?;
         fs::rename(&live, &old).map_err(SearchError::io(&live))?;
     }
     fs::rename(&new, &live).map_err(SearchError::io(&new))?;
@@ -986,24 +993,39 @@ mod tests {
     }
 
     #[test]
-    fn a_crash_between_the_renames_is_repaired_at_open() {
+    fn a_crash_between_the_renames_is_read_by_readers_and_repaired_by_the_writer() {
         let dir = TempDir::new().unwrap();
         let a = scope("lib", "1");
         let mut writer = StoreWriter::open(dir.path(), &settings()).unwrap();
         writer.apply(&snapshot(&a, 1), &VersionChanges::default()).unwrap();
         writer.finish().unwrap();
         fs::rename(dir.path().join(INDEX_DIR), dir.path().join(OLD_INDEX_DIR)).unwrap();
-        assert_eq!(
-            Store::open(dir.path(), &settings())
-                .unwrap()
-                .version_states()
-                .unwrap()
-                .len(),
-            1
-        );
-        fs::rename(dir.path().join(INDEX_DIR), dir.path().join(OLD_INDEX_DIR)).unwrap();
+        let reader = Store::open(dir.path(), &settings()).unwrap();
+        assert_eq!(reader.version_states().unwrap().len(), 1);
+        // A reader never moves directories, so it cannot race a swap in progress.
+        assert!(!dir.path().join(INDEX_DIR).exists());
         StoreWriter::open(dir.path(), &settings()).unwrap().finish().unwrap();
         assert!(dir.path().join(INDEX_DIR).exists());
+        assert!(!dir.path().join(OLD_INDEX_DIR).exists());
+    }
+
+    #[test]
+    fn an_old_index_left_beside_the_live_one_does_not_block_the_next_swap() {
+        let dir = TempDir::new().unwrap();
+        let a = scope("lib", "1");
+        let mut writer = StoreWriter::open(dir.path(), &settings()).unwrap();
+        writer.apply(&snapshot(&a, 1), &VersionChanges::default()).unwrap();
+        writer.finish().unwrap();
+        fs::create_dir(dir.path().join(OLD_INDEX_DIR)).unwrap();
+        fs::write(dir.path().join(OLD_INDEX_DIR).join("leftover"), "x").unwrap();
+        let mut rebuild = StoreWriter::rebuild(dir.path(), &settings()).unwrap();
+        rebuild.apply(&snapshot(&a, 2), &VersionChanges::default()).unwrap();
+        rebuild.finish().unwrap();
+        swap_rebuilt(dir.path()).unwrap();
+        assert!(!dir.path().join(OLD_INDEX_DIR).exists());
+        fs::create_dir(dir.path().join(OLD_INDEX_DIR)).unwrap();
+        StoreWriter::open(dir.path(), &settings()).unwrap().finish().unwrap();
+        assert!(!dir.path().join(OLD_INDEX_DIR).exists());
     }
 
     #[cfg(unix)]
@@ -1017,7 +1039,7 @@ mod tests {
         fs::create_dir(locked.join(NEW_INDEX_DIR)).unwrap();
         fs::set_permissions(&locked, fs::Permissions::from_mode(0o500)).unwrap();
         let errors = [
-            Store::open(&locked, &settings()).err().unwrap(),
+            StoreWriter::open(&locked, &settings()).err().unwrap(),
             StoreWriter::rebuild(&locked, &settings()).err().unwrap(),
             StoreWriter::open(&locked.join("sub"), &settings()).err().unwrap(),
         ];

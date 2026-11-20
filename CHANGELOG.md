@@ -21,3 +21,18 @@ and versions follow [Semantic Versioning](https://semver.org/).
   Context7, Grounded Docs and Neuledge Context.
 - Criterion benchmarks and `cargo xtask perf` on MDN's English pages.
 - A multi-stage Dockerfile and a GitHub Actions workflow.
+
+### Fixed
+
+- Request headers that carry credentials are no longer sent to another origin after a redirect.
+- Fetched titles, headings and source references are rendered inside the data markers, not before them.
+- HTML pages keep their documentation root or landmark without navigation, as designed; Readability is the fallback.
+- Sitemaps: CDATA locations are read, nested `<image:loc>` and empty locations are ignored, and a sitemap that is not
+  configured no longer fails a website sync.
+- A GitHub source whose `paths` changed is downloaded again even when the commit did not change.
+- Tarball files that are too large or not UTF-8 keep their previous content instead of being deleted.
+- New ETag and Last-Modified values are stored even when the content did not change.
+- Readers no longer repair the index directory, which could race a rebuild; a leftover `index.old/` no longer
+  blocks the next rebuild.
+- Synonym keys must be single lowercase words, the only form a query can match.
+- The default `max_pages` of a website source is 2,000.

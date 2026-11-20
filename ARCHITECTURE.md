@@ -80,6 +80,8 @@ documents, plus `sync.lock`.
 - `sync` is the only writer. One sync of one version is one atomic Tantivy commit, so a crash leaves either the
   previous index or the new one, and a failed sync leaves the previous index usable.
 - `serve`, `search`, `list` and `status` only read. `serve` reloads on commit, and each request reads one snapshot.
+  Readers never move directories: after a crash between the two renames of a rebuild's swap they read `index.old/`,
+  and the next `sync`, which holds the lock, repairs the layout and deletes any leftover `index.old/`.
 - The commit payload holds the schema version and a hash of `[settings.index]`. A mismatch at open fails with
   `schema_mismatch` and asks for `zenodotus sync --rebuild`, which builds a new index and swaps it in only when every
   version succeeds.
@@ -89,20 +91,29 @@ documents, plus `sync.lock`.
 | Source | Change detection | Deletion evidence |
 |---|---|---|
 | Local | content hash | missing from a complete directory scan |
-| GitHub | the resolved commit; an unchanged commit skips the download | missing from a complete tarball listing |
-| Url | ETag or Last-Modified (304), then content hash | 404 or 410, or removed from the config |
+| GitHub | the resolved commit and the source, `paths` included; both unchanged skip the download | missing from a complete tarball listing |
+| Url | ETag or Last-Modified (304), then content hash and validators | 404 or 410, or removed from the config |
 | LlmsTxt | as Url, for the file and every linked page | missing from the new `llms.txt`, or 404 or 410 |
 | Website | as Url, per page | 404 or 410, or missing from a complete sitemap |
 
-Any other per-document error keeps the previous content and marks the version `partial`. When the listing itself
-cannot be obtained, nothing changes and the version is `failed`.
+Any other per-document error, a tarball file that is too large or not UTF-8 included, keeps the previous content
+and marks the version `partial`. A page whose content is unchanged but whose ETag or Last-Modified changed is stored
+again, so the next sync sends the current validators. When the listing itself cannot be obtained, nothing changes
+and the version is `failed`. For a website, only a configured sitemap is part of the listing: a sitemap found in
+robots.txt that cannot be read is reported and leaves the listing incomplete, a guessed `/sitemap.xml` that cannot
+be read only leaves it incomplete, and so does an index of more than 50 sitemaps. An incomplete listing deletes no
+page for being unreached.
+
+A page that answers 304 is not parsed again, so it adds no links to a crawl without a sitemap. Pages beyond the
+stored ones are then found only through changed pages; `zenodotus sync --rebuild` crawls the site from scratch.
 
 ## Secure fetching
 
 All network access goes through one `Fetcher`:
 
 - `https` only, unless `fetch.allow_http` is set.
-- Redirects are followed by hand, at most 5, and every hop is checked for scheme, allowed host and address.
+- Redirects are followed by hand, at most 5, and every hop is checked for scheme, allowed host and address. Extra
+  request headers, such as the GitHub token, are sent only to the origin of the first request.
 - A resolver guard drops private, loopback, link-local, multicast and reserved addresses, IPv4 and IPv6, and the
   client connects only to addresses that passed, which defeats DNS rebinding. System proxies are disabled so they
   cannot bypass the guard.
@@ -119,8 +130,9 @@ Two tools, built with rmcp 3.11:
 
 - `resolve_library(library_name, query?)`: matches by id, alias, normalized name, prefix, then Jaro-Winkler.
 - `query_docs(library_id, query, version?, language?, max_results?, max_chars?)`: returns structured content and one
-  Markdown block. Each section carries its source reference, version, heading path and score, and is wrapped in
-  `<<<DOC …>>>` markers with a hash, after a preamble saying the content is untrusted data, not instructions.
+  Markdown block. Each section is wrapped in `<<<DOC …>>>` markers with a hash, after a preamble saying the content
+  is untrusted data, not instructions. Its title, heading path and source reference come from the fetched document,
+  so they sit inside the markers with its text; only the rank, score and signals are outside.
 
 An explicit version never falls back to another. Unknown libraries and versions, empty or oversized queries and an
 empty index are tool errors with an actionable message. Over stdio, stdout carries only protocol messages. Over
@@ -134,7 +146,9 @@ token in constant time.
   which lets the model correct itself. `invalid_params` remains for unknown tools.
 - The server holds the data directory rather than an open store, so a server started before the first sync answers
   `index_empty` and picks up the index once it exists.
-- HTML is converted with `dom_smoothie`'s Markdown mode instead of `htmd`, one dependency less.
+- HTML is converted to Markdown with `dom_query`'s serializer, and with `dom_smoothie`'s Markdown mode for pages that
+  need Readability, instead of `htmd`, one dependency less. Content roots are tried most specific first:
+  documentation-framework roots, then `article`, `[role=main]` and `main`.
 - Tarball chunks reach the blocking decompressor through a channel, not `SyncIoBridge`.
 - `Retry-After` HTTP dates are ignored; only seconds are honoured.
 - robots.txt answering 4xx allows everything; 5xx or a network error fails the version, following Google's rules.

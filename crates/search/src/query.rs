@@ -144,7 +144,7 @@ fn word_query(fields: &Fields, word: &str, ranking: &RankingSettings) -> Box<dyn
     let synonyms: Vec<Box<dyn Query>> = ranking
         .synonyms
         .iter()
-        .filter(|(key, _)| key.to_lowercase() == word)
+        .filter(|(key, _)| *key == word)
         .flat_map(|(_, values)| values)
         .map(|synonym| texts(synonym))
         .filter(|words| !words.is_empty())
@@ -721,7 +721,7 @@ mod tests {
         ]);
         let mut ranking = RankingSettings::default();
         ranking.synonyms.insert(
-            "ENV".to_owned(),
+            "env".to_owned(),
             vec!["environment variable".to_owned(), "?".to_owned()],
         );
         ranking
