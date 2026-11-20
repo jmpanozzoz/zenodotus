@@ -40,6 +40,8 @@ and versions follow [Semantic Versioning](https://semver.org/).
 - A website's crawl prefixes match whole path segments (`/docs` no longer covers `/docs-v1/`), and with no
   `allow_prefixes` the crawl covers the start page's directory rather than only paths that begin with its full path.
 - A scored term of a field that the metadata documents share no longer aborts the search.
+- The HTTP transport refuses a request whose `Origin` is not in `allowed_origins`, also when the list is empty; before,
+  an empty list let every origin through.
 - The error of a redirect to a host the source may not reach names the `extra_hosts` remedy only when the host is a
   DNS name, the one kind of host that setting accepts.
 - Request headers that carry credentials are no longer sent to another origin after a redirect.

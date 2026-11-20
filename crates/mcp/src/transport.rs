@@ -58,7 +58,8 @@ pub struct HttpOptions {
     pub listen: SocketAddr,
     /// `Host` values accepted besides [`LOOPBACK_HOSTS`].
     pub allowed_hosts: Vec<String>,
-    /// `Origin` values accepted; any when empty.
+    /// `Origin` values accepted. A request with any other `Origin` is refused, every one when empty; a request
+    /// without one, as MCP clients outside a browser send, passes.
     pub allowed_origins: Vec<String>,
     /// Largest request body, in bytes.
     pub max_body_bytes: usize,
@@ -153,6 +154,7 @@ fn router(options: HttpOptions, server: DocsServer, shutdown: &CancellationToken
         .with_sse_keep_alive(None)
         .with_allowed_hosts(hosts)
         .with_allowed_origins(options.allowed_origins)
+        .enforce_origin_validation()
         .with_max_request_body_bytes(options.max_body_bytes)
         .with_cancellation_token(shutdown.child_token());
     let service = StreamableHttpService::new(
@@ -308,6 +310,14 @@ mod tests {
         for (headers, status) in cases {
             assert_eq!(initialize(&running, headers, INITIALIZE).await, status, "{headers:?}");
         }
+    }
+
+    #[tokio::test]
+    async fn with_no_allowed_origins_a_request_from_a_browser_page_is_rejected() {
+        let running = start(options()).await;
+        assert_eq!(initialize(&running, &[], INITIALIZE).await, Status::OK);
+        let origin: Headers = &[("origin", b"https://evil.example")];
+        assert_eq!(initialize(&running, origin, INITIALIZE).await, Status::FORBIDDEN);
     }
 
     #[tokio::test]

@@ -180,7 +180,8 @@ pub struct HttpSettings {
     pub listen: SocketAddr,
     /// `Host` header values accepted besides the loopback defaults.
     pub allowed_hosts: Vec<String>,
-    /// `Origin` header values accepted.
+    /// `Origin` header values accepted; a request with any other `Origin` is refused, every one when empty. A request
+    /// without `Origin` passes.
     pub allowed_origins: Vec<String>,
     /// Largest request body, in bytes.
     pub max_body_bytes: u64,
