@@ -11,9 +11,6 @@ pub const CODE_WORDS: &str = "code_words";
 /// Name the `code_ident` analyzer is registered under.
 pub const CODE_IDENT: &str = "code_ident";
 
-/// Words emitted whole, before any splitting, when they stand alone.
-const PROTECTED: [&str; 5] = ident::PROTECTED_WORDS;
-
 /// Tokens of this many bytes or more are dropped.
 const MAX_TOKEN_BYTES: usize = 64;
 
@@ -56,7 +53,7 @@ pub fn code_words(text: &str) -> Vec<Token> {
 /// The byte length of the protected word starting at `at`, when one does and no word character follows it.
 fn protected_at(text: &str, at: usize) -> Option<usize> {
     let rest = &text.as_bytes()[at..];
-    PROTECTED
+    ident::PROTECTED_WORDS
         .iter()
         .find(|word| {
             rest.get(..word.len())

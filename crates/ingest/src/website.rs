@@ -11,7 +11,7 @@ use crate::error::IngestError;
 use crate::fetch::{FetchError, FetchRequest, FetchResponse, HostSet};
 use crate::robots::Robots;
 use crate::sitemap::{SitemapEntries, parse_sitemap};
-use crate::source::{Context, Visit, Visiting};
+use crate::source::{Context, Redirect, Visit, Visiting};
 
 /// The most sitemap files read for one site, indexes included.
 pub const MAX_SITEMAPS: usize = 50;
@@ -47,10 +47,12 @@ impl CrawlScope<'_> {
     }
 }
 
-/// Crawls the site from the start page, every stored page and the sitemap's pages, in that order, so that a page
-/// whose only link is on an unchanged (304) page is still revisited, and stored pages come before new ones when
-/// `max_pages` stops the crawl. A page that redirects is indexed under the URL it redirects to. A page is deleted only when it answers 404 or 410, or when it
-/// leaves the crawl scope; absence from a sitemap or from the pages reached is not evidence.
+/// Crawls the site from the start page, then every stored page, the start page's links and the sitemap's pages,
+/// in that order, so that a page whose only link is on an unchanged (304) page is still revisited, and stored pages
+/// come before new ones when `max_pages` stops the crawl. A page that redirects is indexed under the URL it
+/// redirects to, in the same visit. A page is deleted only when it answers 404 or 410, when it leaves the crawl
+/// scope, or when it redirects to a page that left the scope or is indexed already; absence from a sitemap or from
+/// the pages reached is not evidence. A redirect to a page whose fetch failed in this crawl keeps the stored copy.
 ///
 /// # Errors
 /// [`IngestError::ListingUnavailable`] when robots.txt, the configured sitemap or the start page cannot be fetched.
@@ -84,14 +86,16 @@ pub async fn collect_website(ctx: &Context<'_>, site: &Website<'_>) -> Result<Ve
         queue: VecDeque::new(),
         seen: BTreeSet::new(),
         reached: BTreeSet::new(),
+        failed: BTreeSet::new(),
+        visits: 0,
     };
-    crawl.start(site.start_url).await?;
+    let start_links = crawl.start(site.start_url).await?;
     for key in ctx.previous.keys() {
         if let Ok(page) = Url::parse(key.doc_path()) {
             crawl.enqueue(page);
         }
     }
-    for page in sitemap_pages {
+    for page in start_links.into_iter().chain(sitemap_pages) {
         crawl.enqueue(page);
     }
     crawl.run(site.max_pages).await;
@@ -106,34 +110,41 @@ struct Crawl<'a, 'c> {
     changes: VersionChanges,
     queue: VecDeque<Url>,
     seen: BTreeSet<Url>,
+    /// Keys visited or indexed in this crawl.
     reached: BTreeSet<DocKey>,
+    /// Keys whose visit failed in this crawl.
+    failed: BTreeSet<DocKey>,
+    /// Fetches made, which `max_pages` caps; a redirect indexed under its target is one.
+    visits: usize,
 }
 
 impl Crawl<'_, '_> {
-    /// Fetches the start page. When robots.txt disallows it, that is recorded and the crawl goes on from the sitemap.
-    async fn start(&mut self, start: &Url) -> Result<(), IngestError> {
+    /// Fetches the start page and returns its links, which are crawled after the stored pages. When robots.txt
+    /// disallows it, that is recorded and the crawl goes on without it.
+    ///
+    /// # Errors
+    /// [`IngestError::ListingUnavailable`] when the start page cannot be fetched, is gone, or redirects outside the
+    /// crawl scope.
+    async fn start(&mut self, start: &Url) -> Result<Vec<Url>, IngestError> {
         self.seen.insert(start.clone());
         if !self.scope.robots.allowed(start) {
             let error = FetchError::RobotsDisallowed { url: start.to_string() };
             self.changes.errors.push(error.doc_error(start.as_str()));
-            return Ok(());
+            return Ok(Vec::new());
         }
-        match self.visit(start, true).await {
-            Some(Visit::Fetched { links, .. }) => {
-                for link in links {
-                    self.enqueue(link);
-                }
-                Ok(())
-            }
-            Some(Visit::Moved {
-                target,
-                indexed_as,
-                links,
-            }) => {
-                self.moved(target, indexed_as, links);
-                Ok(())
-            }
-            Some(Visit::NotModified) => Ok(()),
+        let visit = self.visit(start, true).await;
+        match &visit {
+            Some(
+                Visit::Fetched { .. }
+                | Visit::NotModified
+                | Visit::Moved {
+                    indexed_as: Some(_), ..
+                },
+            ) => Ok(self.links(visit)),
+            Some(Visit::Moved { target, .. }) => Err(IngestError::listing(
+                start,
+                &format!("the start page redirects to {target}, outside the crawl scope"),
+            )),
             Some(Visit::Gone) => Err(IngestError::listing(start, &"the start page answers 404 or 410")),
             _ => {
                 let reason = self.changes.errors.pop().map(|error| error.message).unwrap_or_default();
@@ -152,35 +163,32 @@ impl Crawl<'_, '_> {
     /// Visits queued pages until the queue is empty or `max_pages` pages were fetched.
     async fn run(&mut self, max_pages: u32) {
         let max_pages = usize::try_from(max_pages).unwrap_or(usize::MAX);
-        while self.reached.len() < max_pages {
+        while self.visits < max_pages {
             let Some(page) = self.queue.pop_front() else {
                 return;
             };
-            match self.visit(&page, false).await {
-                Some(Visit::Fetched { links, .. }) => {
-                    for link in links {
-                        self.enqueue(link);
-                    }
-                }
-                Some(Visit::Moved {
-                    target,
-                    indexed_as,
-                    links,
-                }) => self.moved(target, indexed_as, links),
-                _ => {}
+            let visit = self.visit(&page, false).await;
+            for link in self.links(visit) {
+                self.enqueue(link);
             }
         }
     }
 
-    /// Records a redirect target indexed in the visit that found it, so that it is not fetched again, and queues
-    /// its links.
-    fn moved(&mut self, target: Url, indexed_as: Option<DocKey>, links: Vec<Url>) {
-        if let Some(key) = indexed_as {
-            self.reached.insert(key);
-            self.seen.insert(target);
-        }
-        for link in links {
-            self.enqueue(link);
+    /// The links a visit found. A redirect target indexed in that visit is recorded as reached, so that it is not
+    /// fetched again.
+    fn links(&mut self, visit: Option<Visit>) -> Vec<Url> {
+        match visit {
+            Some(Visit::Fetched { links, .. }) => links,
+            Some(Visit::Moved {
+                target,
+                indexed_as: Some(key),
+                links,
+            }) => {
+                self.reached.insert(key);
+                self.seen.insert(target);
+                links
+            }
+            _ => Vec::new(),
         }
     }
 
@@ -191,12 +199,17 @@ impl Crawl<'_, '_> {
         if !self.reached.insert(doc_key.clone()) {
             return None;
         }
-        let (scope, reached, library) = (self.scope, &self.reached, self.ctx.scope);
-        let accepts = |target: &Url| {
-            scope.contains(target)
-                && DocKey::new(library, target.as_str())
-                    .ok()
-                    .is_none_or(|key| !reached.contains(&key))
+        self.visits += 1;
+        let (scope, reached, failed, library) = (self.scope, &self.reached, &self.failed, self.ctx.scope);
+        let decide = |target: &Url| {
+            if !scope.contains(target) {
+                return Redirect::Drop;
+            }
+            match DocKey::new(library, target.as_str()) {
+                Ok(key) if failed.contains(&key) => Redirect::Keep,
+                Ok(key) if reached.contains(&key) => Redirect::Drop,
+                _ => Redirect::Follow,
+            }
         };
         let visiting = Visiting {
             url: page,
@@ -205,9 +218,13 @@ impl Crawl<'_, '_> {
             max_bytes: self.ctx.settings.page_max_bytes,
             conditional: true,
             report_missing,
-            moves: Some(&accepts),
+            moves: Some(&decide),
         };
-        Some(self.ctx.visit(&visiting, &mut self.changes).await)
+        let visit = self.ctx.visit(&visiting, &mut self.changes).await;
+        if matches!(visit, Visit::Failed) {
+            self.failed.insert(doc_key);
+        }
+        Some(visit)
     }
 
     /// Adds the deletions of stored pages that left the scope.
@@ -490,6 +507,54 @@ mod tests {
     }
 
     #[tokio::test]
+    async fn a_temporary_redirect_indexes_its_target_and_deletes_nothing() {
+        let server = MockServer::start().await;
+        let uri = server.uri();
+        let at = |p: &str| format!("{uri}{p}");
+        serve(&server, "/robots.txt", 404, "text/plain", "").await;
+        serve(&server, "/sitemap.xml", 404, "text/plain", "").await;
+        html(&server, "/docs/", "Home").await;
+        for (from, status, to) in [("/docs/old", 302, "/docs/new"), ("/docs/away", 307, "/blog/x")] {
+            Mock::given(path(from))
+                .respond_with(ResponseTemplate::new(status).insert_header("location", to))
+                .mount(&server)
+                .await;
+        }
+        html(&server, "/docs/new", "New").await;
+        html(&server, "/blog/x", "Blog").await;
+        let start = url(&at("/docs/"));
+        let mut harness = Harness::new();
+        harness.remember(&at("/docs/old"), "old", None);
+        harness.remember(&at("/docs/away"), "away", None);
+        let changes = collect_website(&harness.context(), &site(&start, &[])).await.unwrap();
+        assert_eq!(upserted(&changes), [at("/docs/"), at("/docs/new")]);
+        assert_eq!(paths(&changes.deletions), [] as [&str; 0]);
+    }
+
+    #[tokio::test]
+    async fn a_redirect_to_a_host_the_source_may_not_reach_leaves_the_scope_without_an_error() {
+        let server = MockServer::start().await;
+        let uri = server.uri();
+        let at = |p: &str| format!("{uri}{p}");
+        serve(&server, "/robots.txt", 404, "text/plain", "").await;
+        serve(&server, "/sitemap.xml", 404, "text/plain", "").await;
+        html(&server, "/docs/", "Home").await;
+        for (from, status) in [("/docs/moved", 301), ("/docs/down", 302)] {
+            Mock::given(path(from))
+                .respond_with(ResponseTemplate::new(status).insert_header("location", "https://elsewhere.example/x"))
+                .mount(&server)
+                .await;
+        }
+        let start = url(&at("/docs/"));
+        let mut harness = Harness::new();
+        harness.remember(&at("/docs/moved"), "moved", None);
+        harness.remember(&at("/docs/down"), "down", None);
+        let changes = collect_website(&harness.context(), &site(&start, &[])).await.unwrap();
+        assert_eq!(paths(&changes.deletions), [at("/docs/moved")]);
+        assert_eq!(errors(&changes), [] as [&str; 0]);
+    }
+
+    #[tokio::test]
     async fn a_stored_page_whose_redirect_target_fails_is_kept() {
         let server = MockServer::start().await;
         let uri = server.uri();
@@ -511,6 +576,54 @@ mod tests {
     }
 
     #[tokio::test]
+    async fn a_stored_page_redirecting_to_a_target_that_failed_in_this_crawl_is_kept() {
+        let server = MockServer::start().await;
+        let uri = server.uri();
+        let at = |p: &str| format!("{uri}{p}");
+        serve(&server, "/robots.txt", 404, "text/plain", "").await;
+        serve(&server, "/sitemap.xml", 404, "text/plain", "").await;
+        html(&server, "/docs/", "Home").await;
+        Mock::given(path("/docs/new"))
+            .respond_with(ResponseTemplate::new(500))
+            .up_to_n_times(1)
+            .mount(&server)
+            .await;
+        html(&server, "/docs/new", "New").await;
+        Mock::given(path("/docs/z-old"))
+            .respond_with(ResponseTemplate::new(301).insert_header("location", "/docs/new"))
+            .mount(&server)
+            .await;
+        let start = url(&at("/docs/"));
+        let mut harness = Harness::new();
+        harness.remember(&at("/docs/new"), "new", None);
+        harness.remember(&at("/docs/z-old"), "old", None);
+        let changes = collect_website(&harness.context(), &site(&start, &[])).await.unwrap();
+        assert_eq!(paths(&changes.deletions), [] as [&str; 0]);
+        assert_eq!(errors(&changes), [format!("{} (status)", at("/docs/new"))]);
+    }
+
+    #[tokio::test]
+    async fn stored_pages_are_visited_before_the_links_of_the_start_page() {
+        let server = MockServer::start().await;
+        let uri = server.uri();
+        let at = |p: &str| format!("{uri}{p}");
+        serve(&server, "/robots.txt", 404, "text/plain", "").await;
+        serve(&server, "/sitemap.xml", 404, "text/plain", "").await;
+        html(&server, "/", r#"<a href="/new">n</a>"#).await;
+        html(&server, "/new", "New").await;
+        html(&server, "/stored", "Stored").await;
+        let start = url(&at("/"));
+        let mut harness = Harness::new();
+        harness.remember(&at("/stored"), "old", None);
+        let website = Website {
+            max_pages: 2,
+            ..site(&start, &[])
+        };
+        let changes = collect_website(&harness.context(), &website).await.unwrap();
+        assert_eq!(upserted(&changes), [at("/"), at("/stored")]);
+    }
+
+    #[tokio::test]
     async fn a_redirect_target_is_indexed_in_the_visit_that_found_it_even_at_max_pages() {
         let server = MockServer::start().await;
         let uri = server.uri();
@@ -526,6 +639,8 @@ mod tests {
         let start = url(&at("/docs/"));
         let mut harness = Harness::new();
         harness.remember(&at("/docs/old"), "old", None);
+        harness.remember(&at("/docs/z"), "old", None);
+        html(&server, "/docs/z", "Z").await;
         let website = Website {
             max_pages: 2,
             ..site(&start, &[])
@@ -533,6 +648,27 @@ mod tests {
         let changes = collect_website(&harness.context(), &website).await.unwrap();
         assert_eq!(upserted(&changes), [at("/docs/"), at("/docs/new")]);
         assert_eq!(paths(&changes.deletions), [at("/docs/old").as_str()]);
+        let sources: Vec<&str> = changes.upserts[1]
+            .sections
+            .iter()
+            .map(|section| section.source_ref.as_str())
+            .collect();
+        assert!(
+            sources
+                .iter()
+                .all(|source| source.starts_with(&at("/docs/new")) && !source.contains("#top")),
+            "{sources:?}"
+        );
+        let website = Website {
+            max_pages: 3,
+            ..site(&start, &[])
+        };
+        let changes = collect_website(&harness.context(), &website).await.unwrap();
+        assert_eq!(
+            upserted(&changes),
+            [at("/docs/"), at("/docs/new"), at("/docs/z")],
+            "a redirect is one visit of the max_pages budget"
+        );
     }
 
     #[tokio::test]
@@ -553,6 +689,25 @@ mod tests {
             .await
             .unwrap();
         assert_eq!(upserted(&changes), [at("/docs/"), at("/docs/next")]);
+
+        Mock::given(path("/latest/"))
+            .respond_with(ResponseTemplate::new(301).insert_header("location", "/en/latest/"))
+            .mount(&server)
+            .await;
+        html(&server, "/en/latest/", "Elsewhere").await;
+        let start = url(&at("/latest/"));
+        let mut harness = Harness::new();
+        harness.remember(start.as_str(), "old", None);
+        let error = collect_website(&harness.context(), &site(&start, &[]))
+            .await
+            .unwrap_err();
+        assert_eq!(
+            error.to_string(),
+            format!(
+                "cannot list {start}: the start page redirects to {}, outside the crawl scope",
+                at("/en/latest/")
+            )
+        );
     }
 
     #[tokio::test]
@@ -810,7 +965,7 @@ mod tests {
         ];
         for (routes, configured, error) in cases {
             let (changes, uri) = crawl_with(routes, configured).await;
-            let pages = ["/", "/a", "/stored"].map(|page| format!("{uri}{page}"));
+            let pages = ["/", "/stored", "/a"].map(|page| format!("{uri}{page}"));
             assert_eq!(upserted(&changes), pages, "{routes:?}");
             assert_eq!(paths(&changes.deletions), [] as [&str; 0], "{routes:?}");
             let expected: Vec<String> = error.iter().map(|e| format!("{uri}{e}")).collect();

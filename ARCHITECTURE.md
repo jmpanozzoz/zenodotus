@@ -97,15 +97,20 @@ documents, plus `sync.lock`.
 | LlmsTxt | as Url, for the file and every linked page | missing from the new `llms.txt`, or 404 or 410 |
 | Website | as Url, per page | 404 or 410, or outside the crawl scope |
 
-Any other per-document error, a tarball file that is too large or not UTF-8 included, keeps the previous content
-and marks the version `partial`. A page whose content is unchanged but whose ETag or Last-Modified changed is stored
+Any other per-document error, a tarball file that is too large or not UTF-8 included, keeps the previous content and
+marks the version `partial`. A page whose content is unchanged but whose ETag or Last-Modified changed is stored
 again, so the next sync sends the current validators. When the listing itself cannot be obtained, nothing changes
 and the version is `failed`. A website has no listing that proves a page is gone: a page that answers 304 is not
 parsed again, so it adds no links, and a page linked only from it is never reached through it. Every crawl therefore
-visits the start page, every stored page and the sitemap pages, in that order, and deletes a page only when it
-answers 404 or 410 or falls outside the crawl scope. A page that redirects is indexed under the URL it redirects
-to, from the body the redirect already downloaded, and a stored copy under the old URL is deleted. Only a configured sitemap must be readable: a sitemap found in
-robots.txt that cannot be read is reported and the next one is read, a guessed `/sitemap.xml` that cannot be read
+visits the start page, then every stored page, the start page's links and the sitemap pages, in that order, and
+deletes a page only when it answers 404 or 410 or redirects permanently (301 or 308) outside the crawl scope, to
+another host included. A page that redirects is indexed under the URL it redirects to, from the body the redirect
+already downloaded. A stored copy under the old URL is deleted only when every redirect followed was permanent,
+since a 302, 303 or 307 can be maintenance; if the target's own fetch failed earlier in the crawl, the old copy is
+kept. The stored source URL never carries a fragment from a redirect's `Location`. A redirect is one fetch of the
+`max_pages` budget, and a start page that redirects outside the crawl scope fails the version. Validators are sent
+only to the requested URL, never to a redirect target. Only a configured sitemap must be readable: a sitemap found
+in robots.txt that cannot be read is reported and the next one is read, a guessed `/sitemap.xml` that cannot be read
 is ignored, and an index of more than 50 sitemaps stops reading.
 
 Pages beyond the stored ones are found only through the sitemap and changed pages; `zenodotus sync --rebuild` crawls

@@ -61,6 +61,15 @@ pub enum FetchError {
         /// The URL.
         url: String,
     },
+    /// A redirect leads to a host that is neither one of the source's own URLs nor in its `extra_hosts`. A crawl
+    /// treats it as leaving its scope; every other caller, as [`FetchError::HostNotAllowed`].
+    #[error("redirects to a host this source may not reach")]
+    RedirectedAway {
+        /// The redirect target.
+        url: Url,
+        /// Whether every redirect followed was permanent (301 or 308).
+        permanent: bool,
+    },
     /// The host resolves only to private, loopback or other blocked addresses.
     #[error("the host resolves only to blocked addresses")]
     BlockedAddress {
@@ -134,6 +143,7 @@ impl FetchError {
             | Self::Network { url, .. }
             | Self::RobotsDisallowed { url }
             | Self::Decode { url, .. } => url,
+            Self::RedirectedAway { url, .. } => url.as_str(),
         }
     }
 
@@ -142,7 +152,7 @@ impl FetchError {
     pub const fn kind(&self) -> &'static str {
         match self {
             Self::Scheme { .. } => "scheme",
-            Self::HostNotAllowed { .. } => "host_not_allowed",
+            Self::HostNotAllowed { .. } | Self::RedirectedAway { .. } => "host_not_allowed",
             Self::BlockedAddress { .. } => "blocked_address",
             Self::TooManyRedirects { .. } => "too_many_redirects",
             Self::TooLarge { .. } => "too_large",
@@ -222,6 +232,9 @@ pub struct Body {
     pub bytes: Vec<u8>,
     /// The URL after redirects.
     pub final_url: Url,
+    /// Whether every redirect followed was permanent (301 or 308); true when none was. Only a permanent redirect
+    /// shows that a document moved.
+    pub permanent: bool,
     /// The response validators.
     pub validators: Validators,
     /// The `Content-Type` header.
@@ -266,12 +279,13 @@ pub enum FetchResponse {
 pub struct Stream {
     response: Response,
     final_url: Url,
+    permanent: bool,
     max_bytes: u64,
     read: u64,
 }
 
 impl Stream {
-    fn new(response: Response, final_url: Url, max_bytes: u64) -> Result<Self, FetchError> {
+    fn new(response: Response, final_url: Url, permanent: bool, max_bytes: u64) -> Result<Self, FetchError> {
         if response.content_length().is_some_and(|length| length > max_bytes) {
             return Err(FetchError::TooLarge {
                 url: final_url.to_string(),
@@ -281,6 +295,7 @@ impl Stream {
         Ok(Self {
             response,
             final_url,
+            permanent,
             max_bytes,
             read: 0,
         })
@@ -332,6 +347,7 @@ impl Stream {
         Ok(Body {
             bytes,
             final_url: self.final_url,
+            permanent: self.permanent,
             validators,
             content_type,
         })
@@ -411,8 +427,14 @@ impl Fetcher {
     /// As [`Fetcher::get`].
     pub async fn open(&self, request: &FetchRequest<'_>) -> Result<Opened, FetchError> {
         let mut url = request.url.clone();
-        for _ in 0..=MAX_REDIRECTS {
-            self.check(&url, request.allowed_hosts)?;
+        let mut permanent = true;
+        for hop in 0..=MAX_REDIRECTS {
+            match self.check(&url, request.allowed_hosts) {
+                Err(FetchError::HostNotAllowed { .. }) if hop > 0 => {
+                    return Err(FetchError::RedirectedAway { url, permanent });
+                }
+                checked => checked?,
+            }
             let response = self.send(&url, request).await?;
             let status = response.status();
             if status == StatusCode::NOT_MODIFIED {
@@ -422,6 +444,7 @@ impl Fetcher {
                 return Ok(Opened::Gone);
             }
             if status.is_redirection() {
+                permanent &= matches!(status, StatusCode::MOVED_PERMANENTLY | StatusCode::PERMANENT_REDIRECT);
                 url = redirect_target(&url, &response)?;
                 continue;
             }
@@ -431,7 +454,12 @@ impl Fetcher {
                     status: status.as_u16(),
                 });
             }
-            return Ok(Opened::Stream(Box::new(Stream::new(response, url, request.max_bytes)?)));
+            return Ok(Opened::Stream(Box::new(Stream::new(
+                response,
+                url,
+                permanent,
+                request.max_bytes,
+            )?)));
         }
         Err(FetchError::TooManyRedirects {
             url: request.url.to_string(),
@@ -493,7 +521,8 @@ impl Fetcher {
                 builder = builder.header(*name, value);
             }
         }
-        if let Some(validators) = request.validators {
+        // Validators belong to the requested document, so a redirect target, another document, does not get them.
+        if let Some(validators) = request.validators.filter(|_| url == request.url) {
             if let Some(etag) = &validators.etag {
                 builder = builder.header(IF_NONE_MATCH, etag);
             }
@@ -654,6 +683,13 @@ pub(crate) mod tests {
         let errors = [
             (FetchError::Scheme { url: url() }, "scheme"),
             (FetchError::HostNotAllowed { url: url() }, "host_not_allowed"),
+            (
+                FetchError::RedirectedAway {
+                    url: Url::parse(&url()).unwrap(),
+                    permanent: true,
+                },
+                "host_not_allowed",
+            ),
             (FetchError::BlockedAddress { url: url() }, "blocked_address"),
             (FetchError::TooManyRedirects { url: url() }, "too_many_redirects"),
             (FetchError::TooLarge { url: url(), limit: 9 }, "too_large"),
@@ -728,6 +764,7 @@ pub(crate) mod tests {
         let typed = |content_type: Option<&str>, bytes: &[u8]| Body {
             bytes: bytes.to_vec(),
             final_url: page.clone(),
+            permanent: true,
             validators: Validators::default(),
             content_type: content_type.map(str::to_owned),
         };
@@ -853,6 +890,21 @@ pub(crate) mod tests {
         let at = |route: &str| url(&format!("{}{route}", server.uri()));
         let moved = body(fetch(&fetcher, &at("/old")).await.unwrap());
         assert_eq!((moved.text().unwrap(), &moved.final_url), ("moved", &at("/new")));
+        assert!(moved.permanent);
+        assert!(body(fetch(&fetcher, &at("/new")).await.unwrap()).permanent);
+        for (status, permanent) in [(308, true), (302, false), (303, false), (307, false)] {
+            let route = format!("/via{status}");
+            Mock::given(path(route.as_str()))
+                .respond_with(ResponseTemplate::new(status).insert_header("location", "/old"))
+                .mount(&server)
+                .await;
+            let landed = body(fetch(&fetcher, &at(&route)).await.unwrap());
+            assert_eq!(
+                (landed.final_url.path(), landed.permanent),
+                ("/new", permanent),
+                "{status}"
+            );
+        }
         let kinds = [
             ("/loop0", "too_many_redirects"),
             ("/away", "host_not_allowed"),
@@ -864,12 +916,60 @@ pub(crate) mod tests {
             let error = fetch(&fetcher, &at(route)).await.unwrap_err();
             assert_eq!(error.kind(), kind, "{route}: {error}");
         }
+        Mock::given(path("/away302"))
+            .respond_with(ResponseTemplate::new(302).insert_header("location", "/away"))
+            .mount(&server)
+            .await;
+        for (route, permanent) in [("/away", true), ("/away302", false)] {
+            let error = fetch(&fetcher, &at(route)).await.unwrap_err();
+            let target = url("http://elsewhere.example/x");
+            assert_eq!(error, FetchError::RedirectedAway { url: target, permanent }, "{route}");
+            assert_eq!(error.to_string(), "redirects to a host this source may not reach");
+        }
         assert_eq!(
             fetch(&fetcher, &at("/loop0")).await.unwrap_err().url(),
             at("/loop0").as_str()
         );
         // Five redirects are followed: /loop1 reaches /loop6, which does not exist.
         assert_eq!(fetch(&fetcher, &at("/loop1")).await.unwrap(), FetchResponse::Gone);
+    }
+
+    #[tokio::test]
+    async fn validators_go_only_to_the_requested_url_not_to_a_redirect_target() {
+        let server = MockServer::start().await;
+        Mock::given(path("/old"))
+            .respond_with(ResponseTemplate::new(301).insert_header("location", "/new"))
+            .mount(&server)
+            .await;
+        Mock::given(path("/new"))
+            .and(wiremock::matchers::header("if-none-match", "\"v1\""))
+            .respond_with(ResponseTemplate::new(304))
+            .mount(&server)
+            .await;
+        Mock::given(path("/new"))
+            .respond_with(ResponseTemplate::new(200).set_body_string("new"))
+            .mount(&server)
+            .await;
+        let old = url(&format!("{}/old", server.uri()));
+        let hosts = HostSet::of(&[&old], &[]);
+        let validators = Validators {
+            etag: Some("\"v1\"".to_owned()),
+            last_modified: Some("Wed, 21 Oct 2015 07:28:00 GMT".to_owned()),
+        };
+        let request = FetchRequest {
+            validators: Some(&validators),
+            ..request(&old, &hosts)
+        };
+        let moved = body(fetcher(&local_settings()).get(&request).await.unwrap());
+        assert_eq!(moved.final_url.path(), "/new");
+        let conditional: Vec<(String, bool)> = server
+            .received_requests()
+            .await
+            .unwrap()
+            .iter()
+            .map(|r| (r.url.path().to_owned(), r.headers.contains_key("if-modified-since")))
+            .collect();
+        assert_eq!(conditional, [("/old".to_owned(), true), ("/new".to_owned(), false)]);
     }
 
     #[tokio::test]

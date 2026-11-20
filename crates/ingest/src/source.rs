@@ -117,6 +117,18 @@ pub(crate) enum Visit {
     Failed,
 }
 
+/// What a crawl does with a page that redirects to another URL.
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub(crate) enum Redirect {
+    /// Index the body under the target, and delete a stored copy under the requested URL.
+    Follow,
+    /// Index nothing and delete a stored copy under the requested URL: the target left the scope or is indexed
+    /// already.
+    Drop,
+    /// Index nothing and keep a stored copy under the requested URL: the target failed earlier in this crawl.
+    Keep,
+}
+
 /// How one document is fetched.
 #[derive(Clone, Copy)]
 pub(crate) struct Visiting<'a> {
@@ -133,10 +145,8 @@ pub(crate) struct Visiting<'a> {
     /// Whether a 404 or 410 for a document never stored is an error rather than nothing.
     pub report_missing: bool,
     /// For crawled pages, which are keyed by the URL that serves them: a redirect to another URL means the document
-    /// moved, and this tells whether the target is to be indexed now (in scope and not yet reached). The body is
-    /// then indexed under the target, and a stored copy under the requested URL is deleted. A target not to be
-    /// indexed also deletes that copy: it left the scope or is indexed already. `None` for configured URLs.
-    pub moves: Option<&'a (dyn Fn(&Url) -> bool + Sync)>,
+    /// moved, and this decides what happens to it. `None` for configured URLs.
+    pub moves: Option<&'a (dyn Fn(&Url) -> Redirect + Sync)>,
 }
 
 impl Context<'_> {
@@ -198,22 +208,21 @@ impl Context<'_> {
                 }
                 return Visit::Gone;
             }
+            Err(FetchError::RedirectedAway { url: target, permanent }) if visiting.moves.is_some() => {
+                return stopped_at(target, permanent && previous.is_some(), key, changes);
+            }
             Err(error) => return failed(changes, &error),
         };
+        let mut source_url = body.final_url.clone();
+        source_url.set_fragment(None);
         let mut moved = None;
-        if let Some(accepts) = visiting.moves {
-            let mut target = body.final_url.clone();
-            target.set_fragment(None);
+        if let Some(decide) = visiting.moves {
+            let target = source_url.clone();
             if target != *visiting.url {
-                if !accepts(&target) {
-                    if previous.is_some() {
-                        changes.deletions.push(key.clone());
-                    }
-                    return Visit::Moved {
-                        target,
-                        indexed_as: None,
-                        links: Vec::new(),
-                    };
+                let redirect = decide(&target);
+                if redirect != Redirect::Follow {
+                    let delete = redirect == Redirect::Drop && body.permanent && previous.is_some();
+                    return stopped_at(target, delete, key, changes);
                 }
                 let Some(target_key) = self.doc_key(&target, changes) else {
                     return Visit::Failed;
@@ -237,7 +246,7 @@ impl Context<'_> {
         };
         let fetched = Fetched {
             doc_key: indexed_key,
-            source: SourceRef::Url(body.final_url.as_str()),
+            source: SourceRef::Url(source_url.as_str()),
             text: &markdown,
             etag: body.validators.etag.as_deref(),
             last_modified: body.validators.last_modified.as_deref(),
@@ -248,7 +257,7 @@ impl Context<'_> {
             None => changes.unchanged.push(indexed_key.clone()),
         }
         if let Some((target, target_key)) = moved {
-            if previous.is_some() {
+            if body.permanent && previous.is_some() {
                 changes.deletions.push(key.clone());
             }
             return Visit::Moved {
@@ -258,6 +267,19 @@ impl Context<'_> {
             };
         }
         Visit::Fetched { markdown, links }
+    }
+}
+
+/// The visit of a page whose redirect to `target` is not followed: nothing is indexed, and the stored copy under
+/// `key` is deleted when `delete` holds.
+fn stopped_at(target: Url, delete: bool, key: &DocKey, changes: &mut VersionChanges) -> Visit {
+    if delete {
+        changes.deletions.push(key.clone());
+    }
+    Visit::Moved {
+        target,
+        indexed_as: None,
+        links: Vec::new(),
     }
 }
 

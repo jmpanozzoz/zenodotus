@@ -42,8 +42,17 @@ and versions follow [Semantic Versioning](https://semver.org/).
 - A stored website page linked only from a page that answers 304 is no longer deleted when a sitemap omits it;
   every crawl revisits the stored pages, and only a 404, a 410 or leaving the crawl scope deletes a page.
 - A crawled page that redirects is indexed under the URL it redirects to, in the same visit, and its copy under
-  the old URL is deleted, instead of indexing the target's content twice.
+  the old URL is deleted, instead of indexing the target's content twice. The old copy is kept when the target's
+  own fetch failed earlier in the crawl, and a redirect counts once toward `max_pages`.
+- Only a permanent redirect (301 or 308) deletes the copy under the old URL; a temporary one (302, 303 or 307),
+  which may be maintenance, keeps it. The source URL of a redirected page no longer keeps the `Location` fragment.
+- A crawled page that redirects to a host the source may not reach leaves the crawl scope instead of recording an
+  error, so the version is no longer `partial` on every sync.
+- Stored validators are sent only to the requested URL, so a redirect target cannot answer 304 for a document it
+  never served.
+- A start page that redirects outside the crawl scope fails the version instead of deleting the stored pages.
 - A sitemap listed in robots.txt that cannot be read no longer stops the next listed sitemaps from being read.
-- Stored pages are crawled before sitemap pages, so `max_pages` cuts new pages rather than leaving stored ones stale.
+- Stored pages are crawled before the start page's links and the sitemap pages, so `max_pages` cuts new pages
+  rather than leaving stored ones stale.
 - HTML `header` elements inside the content root are kept, so a Docusaurus page keeps its title.
 - Synonym keys may be words that queries keep whole, such as `node.js` or `c++`.
