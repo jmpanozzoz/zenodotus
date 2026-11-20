@@ -254,7 +254,7 @@ impl Default for IndexSettings {
         Self {
             title_weight: 4,
             heading_weight: 2,
-            symbol_weight: 5,
+            symbol_weight: 4,
             body_weight: 1,
             code_weight: 1,
             path_weight: 1,
@@ -625,7 +625,7 @@ source = { kind = "local", path = "/srv/tokio" }
             (settings.ranking.symbol_boost - 0.5).abs() < f32::EPSILON,
             "tuned in iteration 7"
         );
-        assert_eq!(settings.index.symbol_weight, 5);
+        assert_eq!(settings.index.symbol_weight, 4, "tuned in iteration 12");
         assert!(settings.user_agent.starts_with("zenodotus/0."));
     }
 
@@ -871,27 +871,27 @@ source = { kind = "local", path = "/srv/tokio" }
         assert_eq!(base.hash().len(), 64);
         let variants = [
             IndexSettings {
-                title_weight: 5,
+                title_weight: base.title_weight + 1,
                 ..base.clone()
             },
             IndexSettings {
-                heading_weight: 3,
+                heading_weight: base.heading_weight + 1,
                 ..base.clone()
             },
             IndexSettings {
-                symbol_weight: 6,
+                symbol_weight: base.symbol_weight + 1,
                 ..base.clone()
             },
             IndexSettings {
-                body_weight: 2,
+                body_weight: base.body_weight + 1,
                 ..base.clone()
             },
             IndexSettings {
-                code_weight: 2,
+                code_weight: base.code_weight + 1,
                 ..base.clone()
             },
             IndexSettings {
-                path_weight: 2,
+                path_weight: base.path_weight + 1,
                 ..base.clone()
             },
         ];

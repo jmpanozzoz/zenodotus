@@ -41,7 +41,7 @@ pub fn init_template() -> String {
 # Changing a weight requires `zenodotus sync --rebuild`.
 # title_weight = 4
 # heading_weight = 2
-# symbol_weight = 5
+# symbol_weight = 4
 
 # [[library]]
 # id = \"tokio\"
