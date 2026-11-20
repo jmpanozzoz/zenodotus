@@ -2,7 +2,7 @@
 # pinned to an exact commit, so `zenodotus sync --config eval/corpus.toml` rebuilds the same index anywhere.
 
 [settings]
-data_dir = "target/eval-data"
+data_dir = "../target/eval-data"
 
 [[library]]
 id = "fastapi"

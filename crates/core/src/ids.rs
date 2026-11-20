@@ -86,7 +86,7 @@ impl Version {
 }
 
 /// One library at one version: the unit that is synced, filtered on and reported.
-#[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord, Hash)]
+#[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord, Hash, Serialize, Deserialize)]
 pub struct Scope {
     /// The library.
     pub library: LibraryId,
@@ -102,10 +102,22 @@ impl Scope {
     }
 }
 
+impl fmt::Display for LibraryId {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        f.write_str(&self.0)
+    }
+}
+
+impl fmt::Display for Version {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        f.write_str(&self.0)
+    }
+}
+
 impl fmt::Display for Scope {
     /// Renders `library@version`.
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        write!(f, "{}@{}", self.library.as_str(), self.version.as_str())
+        write!(f, "{}@{}", self.library, self.version)
     }
 }
 
@@ -402,5 +414,11 @@ mod tests {
             v: T,
         }
         toml::from_str::<Wrapper<T>>(&format!("v = {literal}")).map(|w| w.v)
+    }
+
+    #[test]
+    fn ids_display_as_their_text() {
+        assert_eq!(LibraryId::parse("a/b").unwrap().to_string(), "a/b");
+        assert_eq!(Version::parse("1.0").unwrap().to_string(), "1.0");
     }
 }
