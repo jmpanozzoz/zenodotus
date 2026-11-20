@@ -224,13 +224,13 @@ impl Context<'_> {
         // Validators belong to the URL that answered. A document kept under a URL that redirected elsewhere stores
         // none, since they would go back to that URL, which may be another origin, or answer 304 to a date it never
         // served; such a document is downloaded in full on every sync.
-        let own_validators = moved.is_some() || source_url == *visiting.url;
+        let own_validators = (moved.is_some() || source_url == *visiting.url).then_some(&body.validators);
         let fetched = Fetched {
             doc_key: indexed_key,
             source: SourceRef::Url(source_url.as_str()),
             text: &markdown,
-            etag: body.validators.etag.as_deref().filter(|_| own_validators),
-            last_modified: body.validators.last_modified.as_deref().filter(|_| own_validators),
+            etag: own_validators.and_then(|own| own.etag.as_deref()),
+            last_modified: own_validators.and_then(|own| own.last_modified.as_deref()),
             fetched_at: self.clock.now(),
         };
         match document::build(self.scope, &fetched, indexed_previous, &self.rules) {

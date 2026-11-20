@@ -63,10 +63,7 @@ pub enum FetchError {
     },
     /// A redirect leads to a host that is neither one of the source's own URLs nor in its `extra_hosts`. A crawl
     /// treats it as leaving its scope; every other caller, as [`FetchError::HostNotAllowed`].
-    #[error(
-        "redirects to {}, a host this source may not reach; add it to `extra_hosts` to follow it",
-        url.host_str().unwrap_or_default()
-    )]
+    #[error("{}", redirected_away(url))]
     RedirectedAway {
         /// The redirect target.
         url: Url,
@@ -130,6 +127,19 @@ pub enum FetchError {
         /// What was wrong.
         message: String,
     },
+}
+
+/// The message of [`FetchError::RedirectedAway`], which follows the target URL in a document error. Only a DNS name can
+/// be added to `extra_hosts`, so only a DNS name gets that advice.
+fn redirected_away(url: &Url) -> String {
+    match url.host() {
+        Some(Host::Domain(name)) => {
+            format!(
+                "reached by a redirect, on a host this source may not reach; add {name} to `extra_hosts` to follow it"
+            )
+        }
+        _ => "reached by a redirect to a URL this source may not reach".to_owned(),
+    }
 }
 
 impl FetchError {
@@ -861,6 +871,20 @@ pub(crate) mod tests {
         );
     }
 
+    #[test]
+    fn a_redirect_to_a_host_that_is_not_a_dns_name_gets_no_extra_hosts_advice() {
+        for target in ["http://[::1]/x", "file:///etc/passwd"] {
+            let error = FetchError::RedirectedAway {
+                url: url(target),
+                permanent: true,
+            };
+            assert_eq!(
+                error.to_string(),
+                "reached by a redirect to a URL this source may not reach"
+            );
+        }
+    }
+
     #[tokio::test]
     async fn redirects_are_followed_and_checked_hop_by_hop() {
         let server = MockServer::start().await;
@@ -952,7 +976,7 @@ pub(crate) mod tests {
             assert_eq!(error, FetchError::RedirectedAway { url: target, permanent }, "{route}");
             assert_eq!(
                 error.to_string(),
-                "redirects to elsewhere.example, a host this source may not reach; add it to `extra_hosts` to follow it"
+                "reached by a redirect, on a host this source may not reach; add elsewhere.example to `extra_hosts` to follow it"
             );
         }
         assert_eq!(

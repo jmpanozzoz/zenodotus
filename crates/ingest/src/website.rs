@@ -44,9 +44,16 @@ impl CrawlScope<'_> {
         matches!(url.scheme(), "http" | "https")
             && url.host_str() == self.start.host_str()
             && url.port_or_known_default() == self.start.port_or_known_default()
-            && (url == self.start || self.prefixes.iter().any(|prefix| url.path().starts_with(prefix)))
+            && (url == self.start || self.prefixes.iter().any(|prefix| under(url.path(), prefix)))
             && self.robots.allowed(url)
     }
+}
+
+/// Whether `path` is `prefix` or lies under it, on a path-segment boundary: `/docs` covers `/docs/x` but not
+/// `/docs-v1/x`.
+fn under(path: &str, prefix: &str) -> bool {
+    path.strip_prefix(prefix)
+        .is_some_and(|rest| prefix.ends_with('/') || rest.is_empty() || rest.starts_with('/'))
 }
 
 /// Crawls the site from the start page, then every stored page, the start page's links and the sitemap's pages,
@@ -69,7 +76,8 @@ pub async fn collect_website(ctx: &Context<'_>, site: &Website<'_>) -> Result<Ve
     let mut sitemap_errors = Vec::new();
     let sitemap_pages = sitemap_pages(ctx, site, &robots, &hosts, &mut sitemap_errors).await?;
     let prefixes = if site.allow_prefixes.is_empty() {
-        vec![site.start_url.path()]
+        let path = site.start_url.path();
+        vec![&path[..=path.rfind('/').unwrap_or_default()]]
     } else {
         site.allow_prefixes.iter().map(String::as_str).collect()
     };
@@ -820,6 +828,39 @@ mod tests {
             .unwrap();
         assert_eq!(paths(&changes.unchanged), [start.as_str()]);
         assert_eq!(paths(&changes.deletions), [] as [&str; 0]);
+    }
+
+    #[tokio::test]
+    async fn prefixes_match_whole_path_segments_and_default_to_the_start_directory() {
+        let server = MockServer::start().await;
+        let uri = server.uri();
+        serve(&server, "/robots.txt", 404, "text/plain", "").await;
+        serve(&server, "/sitemap.xml", 404, "text/plain", "").await;
+        let links =
+            r#"<a href="/docs/guide">g</a> <a href="/docs-v1/x">x</a> <a href="/api">a</a> <a href="/api/y">y</a>"#;
+        html(&server, "/docs/intro", links).await;
+        for page in ["/docs/guide", "/docs-v1/x", "/api", "/api/y"] {
+            html(&server, page, "Page").await;
+        }
+        let start = url(&format!("{uri}/docs/intro"));
+        let harness = Harness::new();
+        let changes = collect_website(&harness.context(), &site(&start, &[])).await.unwrap();
+        assert_eq!(
+            upserted(&changes),
+            [format!("{uri}/docs/intro"), format!("{uri}/docs/guide")]
+        );
+        let prefixes = ["/api".to_owned()];
+        let changes = collect_website(&harness.context(), &site(&start, &prefixes))
+            .await
+            .unwrap();
+        assert_eq!(
+            upserted(&changes),
+            [
+                format!("{uri}/docs/intro"),
+                format!("{uri}/api"),
+                format!("{uri}/api/y")
+            ]
+        );
     }
 
     #[tokio::test]

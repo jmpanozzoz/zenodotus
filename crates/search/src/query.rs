@@ -285,8 +285,12 @@ impl Bm25StatisticsProvider for SectionStatistics<'_> {
         Ok(self.sections)
     }
 
+    /// Capped at the section count: Tantivy asserts that no term is in more documents than the corpus holds, and a
+    /// term of a field the metadata documents share, such as `scope`, is. Only section-only fields are scored today,
+    /// with the filters on shared fields wrapped in [`ConstScoreQuery`]; the cap keeps a scored shared field from
+    /// aborting the request.
     fn doc_freq(&self, term: &Term) -> tantivy::Result<u64> {
-        self.searcher.doc_freq(term)
+        Ok(self.searcher.doc_freq(term)?.min(self.sections))
     }
 }
 
@@ -852,6 +856,27 @@ mod tests {
         };
         assert_eq!(scores(&alone).len(), 2);
         assert_eq!(scores(&alone), scores(&crowded));
+    }
+
+    #[test]
+    fn a_scored_term_of_a_field_the_metadata_documents_share_does_not_abort_the_search() {
+        let fixture = one_version(&[section(&lib(), "a.md", 0, &["Tasks"], "Spawn a task.")]);
+        let fields = fixture.store.fields();
+        let query = BooleanQuery::new(vec![
+            (
+                Occur::Must,
+                Box::new(ConstScoreQuery::new(
+                    term_query(fields.kind, KIND_SECTION, IndexRecordOption::Basic),
+                    0.0,
+                )),
+            ),
+            (
+                Occur::Must,
+                term_query(fields.scope, &lib().to_string(), IndexRecordOption::WithFreqs),
+            ),
+        ]);
+        let hits = top_sections(&fixture.store, &fixture.store.searcher(), &query, 10).unwrap();
+        assert_eq!(hits.len(), 1);
     }
 
     #[test]

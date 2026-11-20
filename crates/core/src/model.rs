@@ -169,13 +169,18 @@ fn is_relative_inner_path(path: &str) -> bool {
     !path.starts_with('/') && !path.contains('\\') && path.split('/').all(|part| part != "..")
 }
 
-/// Every URL must use `http` or `https`.
-fn check_web_urls<'a>(mut urls: impl Iterator<Item = &'a Url>) -> Result<(), &'static str> {
-    if urls.all(|url| matches!(url.scheme(), "http" | "https")) {
-        Ok(())
-    } else {
-        Err("URLs must use http or https")
+/// Every URL must use `http` or `https` and have no fragment: a fragment names no other resource, and a configured
+/// URL is compared with the URL that answered it.
+fn check_web_urls<'a>(urls: impl Iterator<Item = &'a Url>) -> Result<(), &'static str> {
+    for url in urls {
+        if !matches!(url.scheme(), "http" | "https") {
+            return Err("URLs must use http or https");
+        }
+        if url.fragment().is_some() {
+            return Err("URLs must not have a fragment");
+        }
     }
+    Ok(())
 }
 
 /// The lowercase hex SHA-256 of `text`, used to detect changed documents and duplicate sections.
@@ -487,6 +492,18 @@ mod tests {
             (
                 r#"{ kind = "website", start_url = "https://x.dev/", sitemap = "file:///s.xml" }"#,
                 "URLs must use http or https",
+            ),
+            (
+                r#"{ kind = "url", urls = ["https://x.dev/a", "https://x.dev/b#v2"] }"#,
+                "URLs must not have a fragment",
+            ),
+            (
+                r#"{ kind = "llms_txt", url = "https://x.dev/llms.txt#" }"#,
+                "URLs must not have a fragment",
+            ),
+            (
+                r#"{ kind = "website", start_url = "https://x.dev/#top" }"#,
+                "URLs must not have a fragment",
             ),
             (
                 r#"{ kind = "website", start_url = "https://x.dev/", allow_prefixes = ["docs"] }"#,

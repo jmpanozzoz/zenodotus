@@ -34,8 +34,14 @@ and versions follow [Semantic Versioning](https://semver.org/).
 ### Fixed
 
 - A configured URL that redirects no longer stores the target's ETag and Last-Modified, which went back to the
-  requested URL on the next sync.
-- A redirect to a host the source may not reach names that host and the `extra_hosts` remedy in its error.
+  requested URL on the next sync. An index synced before this fix keeps those validators until `sync --rebuild`.
+- A configured URL with a fragment is rejected when the config is checked; before, it never kept its ETag and
+  Last-Modified, and a website's start page with one failed the crawl as a redirect outside its scope.
+- A website's crawl prefixes match whole path segments (`/docs` no longer covers `/docs-v1/`), and with no
+  `allow_prefixes` the crawl covers the start page's directory rather than only paths that begin with its full path.
+- A scored term of a field that the metadata documents share no longer aborts the search.
+- The error of a redirect to a host the source may not reach names the `extra_hosts` remedy only when the host is a
+  DNS name, the one kind of host that setting accepts.
 - Request headers that carry credentials are no longer sent to another origin after a redirect.
 - A website whose start page lies outside its `allow_prefixes` keeps the start page; before, one sync indexed it and
   the next deleted it.

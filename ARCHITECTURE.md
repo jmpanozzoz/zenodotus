@@ -71,7 +71,9 @@ Tantivy has no BM25F and no separate query-time analyzer, so zenodotus works aro
   the k-th, so no tie straddles the cut.
 
 Corpus statistics are global to the index and count only section documents: the state documents of each document
-and version have no searchable text and are left out. Scores still depend on every other section indexed.
+and version have no searchable text and are left out. Scores still depend on every other section indexed. The
+section count and each term's document count include sections deleted but not yet merged away, so they stay on one
+basis; only fields that sections alone carry are scored, and the filters on shared fields add no score.
 
 ## Storage and processes
 
@@ -94,7 +96,7 @@ documents, plus `sync.lock`.
 |---|---|---|
 | Local | content hash | missing from a complete directory scan |
 | GitHub | the resolved commit and the source, `paths` included; both unchanged skip the download | missing from a complete tarball listing |
-| Url | ETag or Last-Modified (304), then content hash and validators | 404 or 410, or removed from the config |
+| Url | ETag or Last-Modified (304) when the URL answered without redirecting, then content hash | 404 or 410, or removed from the config |
 | LlmsTxt | as Url, for the file and every linked page | missing from the new `llms.txt`, or 404 or 410 |
 | Website | as Url, per page | 404 or 410, or a permanent redirect outside the crawl scope or to a page already reached |
 
@@ -135,8 +137,9 @@ All network access goes through one `Fetcher`:
 - Size caps apply while streaming: pages, documents, tarballs, tar entries, total kept bytes, entry count, and a
   decompressed-size cap of 16 times the tarball cap against gzip bombs.
 - Tar entries with absolute or `..` paths, symlinks and hardlinks are skipped; local sources never follow symlinks.
-- Website crawls honour robots.txt and Crawl-delay, space requests per host and stay under `allow_prefixes`; the start
-  page is exempt from `allow_prefixes`, not from robots.txt.
+- Website crawls honour robots.txt and Crawl-delay, space requests per host and stay under `allow_prefixes`, matched
+  on whole path segments (the start page's directory when none is given); the start page is exempt from
+  `allow_prefixes`, not from robots.txt. Configured URLs may not carry a fragment.
 - Retries cover connection errors, 429 and 5xx, with exponential backoff, deterministic jitter and `Retry-After`
   in seconds.
 
