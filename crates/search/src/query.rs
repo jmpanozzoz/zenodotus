@@ -3,7 +3,9 @@
 use std::collections::HashSet;
 
 use tantivy::collector::TopDocs;
-use tantivy::query::{BooleanQuery, BoostQuery, ConstScoreQuery, Occur, PhraseQuery, Query, TermQuery};
+use tantivy::query::{
+    Bm25StatisticsProvider, BooleanQuery, BoostQuery, ConstScoreQuery, Occur, PhraseQuery, Query, TermQuery,
+};
 use tantivy::schema::{Field, IndexRecordOption};
 use tantivy::{Searcher, Term};
 use zenodotus_core::config::RankingSettings;
@@ -259,6 +261,35 @@ fn cut_score(scores: &[f32], k: usize) -> f32 {
     scores.get(k - 1).copied().unwrap_or(f32::MIN)
 }
 
+/// BM25 statistics over the section documents alone. Tantivy counts every index document, and the `doc_state` and
+/// `version_state` documents have no searchable text: counting them would inflate every IDF and shrink the average
+/// field length, so a section's score would depend on how many documents and versions the index holds.
+struct SectionStatistics<'a> {
+    searcher: &'a Searcher,
+    sections: u64,
+}
+
+impl<'a> SectionStatistics<'a> {
+    fn new(store: &Store, searcher: &'a Searcher) -> tantivy::Result<Self> {
+        let sections = searcher.doc_freq(&Term::from_field_text(store.fields().kind, KIND_SECTION))?;
+        Ok(Self { searcher, sections })
+    }
+}
+
+impl Bm25StatisticsProvider for SectionStatistics<'_> {
+    fn total_num_tokens(&self, field: Field) -> tantivy::Result<u64> {
+        self.searcher.total_num_tokens(field)
+    }
+
+    fn total_num_docs(&self) -> tantivy::Result<u64> {
+        Ok(self.sections)
+    }
+
+    fn doc_freq(&self, term: &Term) -> tantivy::Result<u64> {
+        self.searcher.doc_freq(term)
+    }
+}
+
 /// The best `k` sections for `query`, ordered by score, then by chunk id. Ties at the cut are fetched whole first,
 /// so the result does not depend on the order in which the index visits documents.
 ///
@@ -267,9 +298,11 @@ fn cut_score(scores: &[f32], k: usize) -> f32 {
 /// An index error, or a corrupt payload.
 pub fn top_sections(store: &Store, searcher: &Searcher, query: &dyn Query, k: usize) -> Result<Vec<Hit>, SearchError> {
     let k = k.max(1);
+    let statistics = SectionStatistics::new(store, searcher)?;
     let mut limit = first_limit(k);
     let found = loop {
-        let found = searcher.search(query, &TopDocs::with_limit(limit).order_by_score())?;
+        let collector = TopDocs::with_limit(limit).order_by_score();
+        let found = searcher.search_with_statistics_provider(query, &collector, &statistics)?;
         let scores: Vec<f32> = found.iter().map(|&(score, _)| score).collect();
         if holds_all_ties(&scores, k, limit) {
             break found;
@@ -791,6 +824,34 @@ mod tests {
         let boosted_result = query_docs(&fixture.store, &quoted, &RankingSettings::default()).unwrap();
         assert_eq!(sources(&boosted_result)[0], "local:plain.md");
         assert!(boosted_result.results[0].score > flat_result.results[0].score);
+    }
+
+    #[test]
+    fn scores_ignore_the_metadata_documents_of_the_index() {
+        let sections = [
+            section(&lib(), "short.md", 0, &["Tasks"], "Spawn a task."),
+            section(
+                &lib(),
+                "long.md",
+                0,
+                &["Tasks"],
+                "Spawn a task on the runtime, then wait for the task to finish before the runtime shuts down.",
+            ),
+        ];
+        let alone = one_version(&sections);
+        let mut versions = vec![version_state(&lib())];
+        versions.extend((0..20).map(|n| version_state(&scope(&format!("other{n}"), "1"))));
+        let crowded = fixture(&sections, &versions);
+
+        let scores = |fixture: &Fixture| -> Vec<f32> {
+            run(fixture, "spawn task runtime")
+                .results
+                .iter()
+                .map(|item| item.score)
+                .collect()
+        };
+        assert_eq!(scores(&alone).len(), 2);
+        assert_eq!(scores(&alone), scores(&crowded));
     }
 
     #[test]
