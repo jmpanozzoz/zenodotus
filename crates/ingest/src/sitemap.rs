@@ -63,7 +63,7 @@ fn parse_xml(bytes: &[u8]) -> Result<SitemapEntries, String> {
                 "urlset" | "sitemapindex" => has_root = true,
                 "url" => parent = Some(Parent::Url),
                 "sitemap" => parent = Some(Parent::Sitemap),
-                "loc" if parent.is_some() => loc = Some(String::new()),
+                "loc" => loc = Some(String::new()),
                 _ => {}
             },
             Event::Text(text) => {
@@ -166,6 +166,7 @@ mod tests {
     fn gzip_files_are_decompressed_within_the_limit() {
         let compressed = gzip(URLSET.as_bytes());
         assert_eq!(parse_sitemap(&compressed, 10_000).unwrap().pages.len(), 2);
+        assert_eq!(parse_sitemap(&compressed, URLSET.len() as u64).unwrap().pages.len(), 2);
         let limit = URLSET.len() as u64 - 1;
         assert_eq!(
             parse_sitemap(&compressed, limit).unwrap_err(),

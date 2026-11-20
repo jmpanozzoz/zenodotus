@@ -155,6 +155,7 @@ mod tests {
         assert_eq!(parts("std::sync::Arc"), ["std", "sync", "Arc"]);
         assert_eq!(parts("a->b#c.d"), ["a", "b", "c", "d"]);
         assert_eq!(parts("plain"), ["plain"]);
+        assert_eq!(parts("$el.get_user"), ["$el", "get_user"]);
     }
 
     #[test]

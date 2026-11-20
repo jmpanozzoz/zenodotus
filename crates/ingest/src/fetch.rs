@@ -583,11 +583,12 @@ pub(crate) mod tests {
         Fetcher::new(settings, "zenodotus-test", Arc::new(SystemResolve)).unwrap()
     }
 
-    /// Answers every name with fixed addresses.
-    struct Fixed(Vec<IpAddr>);
+    /// Answers every name with fixed addresses, counting the lookups.
+    struct Fixed(Vec<IpAddr>, std::sync::atomic::AtomicUsize);
 
     impl Resolve for Fixed {
         fn resolve<'a>(&'a self, _host: &'a str) -> BoxFuture<'a, io::Result<Vec<IpAddr>>> {
+            self.1.fetch_add(1, std::sync::atomic::Ordering::SeqCst);
             Box::pin(async move { Ok(self.0.clone()) })
         }
     }
@@ -904,6 +905,10 @@ pub(crate) mod tests {
         let fetcher = fetcher(&local_settings());
         let error = fetch(&fetcher, &raw_server(long).await).await.unwrap_err();
         assert_eq!(error.kind(), "too_large");
+        let mut exact = unsized_body.to_vec();
+        exact.extend(std::iter::repeat_n(b'x', 1000));
+        let exact = fetch(&fetcher, &raw_server(exact.leak()).await).await.unwrap();
+        assert_eq!(body(exact).bytes.len(), 1000);
         let truncated = raw_server(b"HTTP/1.1 200 OK\r\ncontent-length: 100\r\n\r\nshort").await;
         let error = fetch(&fetcher, &truncated).await.unwrap_err();
         assert_eq!(error.kind(), "network", "{error}");
@@ -931,6 +936,10 @@ pub(crate) mod tests {
             .respond_with(ResponseTemplate::new(429).insert_header("retry-after", "0"))
             .mount(&server)
             .await;
+        Mock::given(path("/forbidden"))
+            .respond_with(ResponseTemplate::new(403))
+            .mount(&server)
+            .await;
         let settings = FetchSettings {
             retries: 1,
             ..local_settings()
@@ -945,7 +954,16 @@ pub(crate) mod tests {
                 status: 429
             }
         );
-        assert_eq!(server.received_requests().await.unwrap().len(), 4);
+        // Other statuses are final: /forbidden is asked once.
+        assert_eq!(fetch(&fetcher, &at("/forbidden")).await.unwrap_err().kind(), "status");
+        let asked: Vec<String> = server
+            .received_requests()
+            .await
+            .unwrap()
+            .iter()
+            .map(|request| request.url.path().to_owned())
+            .collect();
+        assert_eq!(asked, ["/flaky", "/flaky", "/busy", "/busy", "/forbidden"]);
     }
 
     #[tokio::test]
@@ -1012,17 +1030,21 @@ pub(crate) mod tests {
             .await;
         let port = server.address().port();
         let page = url(&format!("http://docs.example:{port}/a"));
-        let loopback = || Arc::new(Fixed(vec![IpAddr::from([127, 0, 0, 1])]));
+        let loopback = || Arc::new(Fixed(vec![IpAddr::from([127, 0, 0, 1])], 0.into()));
         let guarded = FetchSettings {
             allow_http: true,
             host_interval_ms: 0,
             ..FetchSettings::default()
         };
-        let fetcher = Fetcher::new(&guarded, "zenodotus-test", loopback()).unwrap();
+        let resolver = loopback();
+        let fetcher = Fetcher::new(&guarded, "zenodotus-test", resolver.clone()).unwrap();
         assert_eq!(
             fetch(&fetcher, &page).await.unwrap_err(),
             FetchError::BlockedAddress { url: page.to_string() }
         );
+        // A blocked address is final: it is not retried, although the settings allow retries.
+        assert!(guarded.retries > 0);
+        assert_eq!(resolver.1.load(std::sync::atomic::Ordering::SeqCst), 1);
         let open = Fetcher::new(&local_settings(), "zenodotus-test", loopback()).unwrap();
         assert_eq!(body(fetch(&open, &page).await.unwrap()).bytes, b"reached");
     }

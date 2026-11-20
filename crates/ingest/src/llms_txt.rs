@@ -144,6 +144,32 @@ mod tests {
     }
 
     #[tokio::test]
+    async fn linked_pages_are_conditional_and_capped_at_the_page_size() {
+        let server = MockServer::start().await;
+        let uri = server.uri();
+        serve(&server, "/llms.txt", 200, "# Lib\n\n- [A](/a.md)\n- [Big](/big.md)\n").await;
+        Mock::given(path("/a.md"))
+            .and(wiremock::matchers::header("if-none-match", "\"v1\""))
+            .respond_with(ResponseTemplate::new(304))
+            .mount(&server)
+            .await;
+        serve(&server, "/a.md", 200, "# A changed\n").await;
+        serve(&server, "/big.md", 200, &"x".repeat(64)).await;
+        let at = |p: &str| url(&format!("{uri}{p}"));
+        let mut harness = Harness::with_settings(FetchSettings {
+            page_max_bytes: 32,
+            ..local_settings()
+        });
+        harness.remember(at("/a.md").as_str(), "# A\n", Some("\"v1\""));
+        let changes = collect_llms_txt(&harness.context(), &at("/llms.txt")).await.unwrap();
+        assert!(changes.listing_complete);
+        assert_eq!(paths(&changes.unchanged), [at("/a.md").as_str()]);
+        let upserted: Vec<&str> = changes.upserts.iter().map(|doc| doc.state.doc_key.doc_path()).collect();
+        assert_eq!(upserted, [at("/llms.txt").as_str()]);
+        assert_eq!(errors(&changes), [format!("{} (too_large)", at("/big.md"))]);
+    }
+
+    #[tokio::test]
     async fn a_missing_or_failing_file_makes_the_listing_unavailable() {
         let server = MockServer::start().await;
         serve(&server, "/gone.txt", 404, "").await;

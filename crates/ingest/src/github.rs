@@ -605,6 +605,28 @@ mod tests {
         );
     }
 
+    #[test]
+    fn a_tarball_exactly_at_its_limits_is_read() {
+        let data = tarball(&[
+            ("o-n-0123456/docs/a.md", EntryType::Regular, b"12345"),
+            ("o-n-0123456/docs/b.md", EntryType::Regular, b"123"),
+        ]);
+        let limits = TarLimits {
+            entry_max_bytes: 5,
+            total_max_bytes: 8,
+            max_entries: 2,
+            expanded_max_bytes: 1 << 20,
+        };
+        let listing = read_tarball(&data[..], &["docs".to_owned()], limits).unwrap();
+        let files: Vec<(&str, &str)> = listing
+            .files
+            .iter()
+            .map(|file| (file.path.as_str(), file.text.as_str()))
+            .collect();
+        assert_eq!(files, [("docs/a.md", "12345"), ("docs/b.md", "123")]);
+        assert_eq!(listing.errors, []);
+    }
+
     #[tokio::test]
     async fn a_decompression_bomb_is_stopped() {
         let zeros = vec![0_u8; 1_000_000];
