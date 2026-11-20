@@ -70,7 +70,8 @@ Tantivy has no BM25F and no separate query-time analyzer, so zenodotus works aro
 - **Determinism.** Ties break on the section's `chunk_id`, and the top-k fetch keeps paging while the next hit ties
   the k-th, so no tie straddles the cut.
 
-Corpus statistics are global to the index, so scores depend on everything else indexed.
+Corpus statistics are global to the index and count only section documents: the state documents of each document
+and version have no searchable text and are left out. Scores still depend on every other section indexed.
 
 ## Storage and processes
 

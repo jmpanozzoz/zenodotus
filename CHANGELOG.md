@@ -28,6 +28,8 @@ and versions follow [Semantic Versioning](https://semver.org/).
   under the API's unauthenticated rate limit.
 - The default `symbol_weight` is 4 instead of 5 (improvement-loop iteration 12, MRR@10 +0.8% on the dev set). An
   index built with the old default asks for `sync --rebuild`.
+- BM25 counts only section documents: the per-document and per-version state no longer enters the document count
+  and the average field length (improvement-loop iteration 14, MRR@10 +0.3% on the dev set). No rebuild needed.
 
 ### Fixed
 
