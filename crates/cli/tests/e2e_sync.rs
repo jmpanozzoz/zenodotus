@@ -204,6 +204,7 @@ async fn an_incremental_resync_fetches_only_what_changed_and_keeps_pages_that_fa
     );
     assert_eq!(sections(&fourth), sections(&third));
     assert!(fourth.contains("  last error: cannot list "), "{fourth}");
-    assert!(fourth.contains("/sitemap.xml: HTTP status 500"), "{fourth}");
+    // A guessed `/sitemap.xml` that fails only leaves the listing incomplete; the missing start page fails it.
+    assert!(fourth.contains("/docs/: the start page answers 404 or 410"), "{fourth}");
     assert!(home.search("sprocket").await.contains("redesigned sprocket"));
 }

@@ -24,7 +24,7 @@ pub struct Fetched<'a> {
     pub fetched_at: Timestamp,
 }
 
-/// Parses and sections `fetched`, unless `previous` already has the same content hash.
+/// Parses and sections `fetched`, unless `previous` already has the same content hash and the same validators.
 #[must_use]
 pub fn build(
     scope: &Scope,
@@ -33,7 +33,12 @@ pub fn build(
     rules: &SectionRules,
 ) -> Option<Document> {
     let hash = content_hash(fetched.text);
-    if previous.is_some_and(|state| state.content_hash == hash) {
+    let unchanged = |state: &DocState| {
+        state.content_hash == hash
+            && state.etag.as_deref() == fetched.etag
+            && state.last_modified.as_deref() == fetched.last_modified
+    };
+    if previous.is_some_and(unchanged) {
         return None;
     }
     let parsed = markdown::parse(fetched.doc_key.doc_path(), fetched.text);
@@ -78,6 +83,19 @@ mod tests {
         assert_eq!(document.sections.len(), 1);
         assert_eq!(document.sections[0].source_ref, "https://x.dev/page#page");
         assert!(build(&scope, &fetched, Some(&document.state), &SectionRules::default()).is_none());
+        // The same text with new validators is stored again, so later requests send the current ones.
+        for (etag, last_modified) in [(Some("\"v2\""), fetched.last_modified), (fetched.etag, None)] {
+            let revalidated = Fetched {
+                etag,
+                last_modified,
+                ..fetched
+            };
+            let document = build(&scope, &revalidated, Some(&document.state), &SectionRules::default()).unwrap();
+            assert_eq!(
+                (document.state.etag.as_deref(), document.state.last_modified.as_deref()),
+                (etag, last_modified)
+            );
+        }
         let mut stale = document.state;
         stale.content_hash = content_hash("old");
         assert!(build(&scope, &fetched, Some(&stale), &SectionRules::default()).is_some());

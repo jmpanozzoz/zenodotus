@@ -666,7 +666,7 @@ mod tests {
             .await;
         assert_eq!(
             added,
-            "Added a@1 from github:o/r@v1; run `zenodotus sync a` to index it\n"
+            "Added a@1 from github:o/r@v1 (docs); run `zenodotus sync a` to index it\n"
         );
         for (id, flags) in [
             ("b", &["--url", "https://b.dev/a.md", "https://b.dev/c.md"][..]),
@@ -687,7 +687,7 @@ mod tests {
         assert_eq!(
             sources,
             [
-                "github:o/r@v1",
+                "github:o/r@v1 (docs)",
                 "url:https://b.dev/a.md (+1 more)",
                 "llms_txt:https://c.dev/llms.txt",
                 "website:https://d.dev/docs/",

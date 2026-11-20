@@ -51,7 +51,8 @@ impl Default for GitHub {
 
 /// Resolves the reference to a commit and indexes the repository's Markdown files under `paths` at that commit.
 /// When the commit equals the last one synced, every stored document is confirmed without downloading anything.
-/// The tarball lists every file, so a stored document missing from it is deleted.
+/// The tarball lists every file, so a stored document missing from it is deleted; one that is present but cannot be
+/// read keeps its previous content.
 ///
 /// # Errors
 /// [`IngestError::ListingUnavailable`] when the commit cannot be resolved or the tarball cannot be read in full.
@@ -74,8 +75,13 @@ pub async fn collect_github(
     }
     let tarball = endpoint(&ctx.github.codeload, repo.split('/').chain(["tar.gz", &commit]));
     let listing = download(ctx, &tarball, &hosts, paths).await?;
+    // A file that is listed but could not be read keeps its previous content, so it is not deleted.
+    let mut listed: BTreeSet<DocKey> = listing
+        .errors
+        .iter()
+        .filter_map(|error| DocKey::new(ctx.scope, &error.doc_path).ok())
+        .collect();
     changes.errors = listing.errors;
-    let mut listed = BTreeSet::new();
     for file in &listing.files {
         let doc_key = match DocKey::new(ctx.scope, &file.path) {
             Ok(doc_key) => doc_key,
@@ -459,6 +465,8 @@ mod tests {
         harness.github.token = Some("secret".to_owned());
         harness.remember("docs/a.md", "# A\n\nAlpha\n", None);
         harness.remember("docs/removed.md", "old", None);
+        harness.remember("docs/big.md", "# Big\n\nThe last good version\n", None);
+        harness.remember("docs/latin1.md", "# Latin\n", None);
         let docs = ["/docs/".to_owned()];
         let changes = collect_github(&harness.context(), "o/n", Some("release/v1"), &docs)
             .await
@@ -472,6 +480,7 @@ mod tests {
             format!("https://github.com/o/n/blob/{SHA}/docs/b.mdx#b")
         );
         assert_eq!(paths(&changes.unchanged), ["docs/a.md"]);
+        // Files that could not be read keep their previous content: only the removed file is deleted.
         assert_eq!(paths(&changes.deletions), ["docs/removed.md"]);
         assert_eq!(
             errors(&changes),

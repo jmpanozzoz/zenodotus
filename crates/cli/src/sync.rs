@@ -230,11 +230,7 @@ fn select<'a>(config: &'a Config, selection: Selection<'_>) -> Result<Vec<Target
 async fn sync_version(writer: &mut StoreWriter, target: &Target<'_>, run: &Run<'_>) -> Result<VersionReport, AppError> {
     let snapshot = target.snapshot(run.clock.now());
     let previous = writer.store().doc_states(&snapshot.scope)?;
-    let previous_commit = writer
-        .store()
-        .version_state(&snapshot.scope)?
-        .filter(|state| state.outcome == Outcome::Ok)
-        .and_then(|state| state.resolved_commit);
+    let previous_commit = reusable_commit(writer.store().version_state(&snapshot.scope)?, &snapshot.source);
     match collect(target, run, &previous, previous_commit.as_deref()).await {
         Ok(changes) => {
             let state = writer.apply(&snapshot, &changes)?;
@@ -254,6 +250,14 @@ async fn sync_version(writer: &mut StoreWriter, target: &Target<'_>, run: &Run<'
             failed: 0,
         }),
     }
+}
+
+/// The commit of the last sync, when it succeeded on the same source: an unchanged commit then needs no download.
+/// A different source, such as other `paths`, must be read again even at the same commit.
+fn reusable_commit(state: Option<VersionState>, source: &str) -> Option<String> {
+    state
+        .filter(|state| state.outcome == Outcome::Ok && state.source == source)
+        .and_then(|state| state.resolved_commit)
 }
 
 /// Lists and reads the documents of one version.
@@ -281,4 +285,53 @@ async fn collect(
     source::collect(&target.spec.source, &ctx)
         .await
         .map_err(|error| error.to_string())
+}
+
+#[cfg(test)]
+mod tests {
+    use zenodotus_core::ids::{LibraryId, Scope, Version};
+    use zenodotus_core::time::Timestamp;
+
+    use super::*;
+
+    fn state(source: &str, outcome: Outcome, commit: Option<&str>) -> VersionState {
+        let scope = Scope::new(LibraryId::parse("lib").unwrap(), Version::parse("1").unwrap());
+        VersionState {
+            scope,
+            name: "lib".to_owned(),
+            description: String::new(),
+            aliases: Vec::new(),
+            homepage: None,
+            license: None,
+            source: source.to_owned(),
+            default: true,
+            list_order: 0,
+            revision: 1,
+            last_success: None,
+            last_attempt: Timestamp::from_unix(0),
+            last_verified: None,
+            outcome,
+            last_error: None,
+            document_count: 0,
+            section_count: 0,
+            resolved_commit: commit.map(str::to_owned),
+        }
+    }
+
+    #[test]
+    fn only_a_successful_sync_of_the_same_source_lends_its_commit() {
+        let source = "github:a/b (docs)";
+        let reuse = |state| reusable_commit(state, source);
+        assert_eq!(
+            reuse(Some(state(source, Outcome::Ok, Some("c1")))),
+            Some("c1".to_owned())
+        );
+        assert_eq!(
+            reuse(Some(state("github:a/b (docs, guide)", Outcome::Ok, Some("c1")))),
+            None
+        );
+        assert_eq!(reuse(Some(state(source, Outcome::Partial, Some("c1")))), None);
+        assert_eq!(reuse(Some(state(source, Outcome::Ok, None))), None);
+        assert_eq!(reuse(None), None);
+    }
 }

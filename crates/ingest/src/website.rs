@@ -5,12 +5,12 @@ use std::collections::{BTreeSet, VecDeque};
 
 use url::Url;
 use zenodotus_core::ids::DocKey;
-use zenodotus_core::model::VersionChanges;
+use zenodotus_core::model::{DocError, VersionChanges};
 
 use crate::error::IngestError;
 use crate::fetch::{FetchError, FetchRequest, FetchResponse, HostSet};
 use crate::robots::Robots;
-use crate::sitemap::parse_sitemap;
+use crate::sitemap::{SitemapEntries, parse_sitemap};
 use crate::source::{Context, Visit, Visiting};
 
 /// The most sitemap files read for one site, indexes included.
@@ -52,7 +52,7 @@ impl CrawlScope<'_> {
 /// was not reached; only then are unreached pages deleted.
 ///
 /// # Errors
-/// [`IngestError::ListingUnavailable`] when robots.txt, the sitemap or the start page cannot be fetched.
+/// [`IngestError::ListingUnavailable`] when robots.txt, the configured sitemap or the start page cannot be fetched.
 pub async fn collect_website(ctx: &Context<'_>, site: &Website<'_>) -> Result<VersionChanges, IngestError> {
     let own: Vec<&Url> = std::iter::once(site.start_url).chain(site.sitemap).collect();
     let hosts = HostSet::of(&own, ctx.extra_hosts);
@@ -60,7 +60,8 @@ pub async fn collect_website(ctx: &Context<'_>, site: &Website<'_>) -> Result<Ve
     if let (Some(delay), Some(host)) = (robots.crawl_delay(), site.start_url.host_str()) {
         ctx.fetcher.slow_down(host, delay);
     }
-    let sitemap_pages = sitemap_pages(ctx, site, &robots, &hosts).await?;
+    let mut sitemap_errors = Vec::new();
+    let sitemaps = sitemap_pages(ctx, site, &robots, &hosts, &mut sitemap_errors).await?;
     let prefixes = if site.allow_prefixes.is_empty() {
         vec![site.start_url.path()]
     } else {
@@ -75,15 +76,18 @@ pub async fn collect_website(ctx: &Context<'_>, site: &Website<'_>) -> Result<Ve
         ctx,
         hosts: &hosts,
         scope: &scope,
-        changes: VersionChanges::default(),
+        changes: VersionChanges {
+            errors: sitemap_errors,
+            ..VersionChanges::default()
+        },
         queue: VecDeque::new(),
         seen: BTreeSet::new(),
         reached: BTreeSet::new(),
     };
     crawl.start(site.start_url).await?;
-    let complete_listing = sitemap_pages.is_some();
-    for page in sitemap_pages.iter().flatten() {
-        crawl.enqueue(page.clone());
+    let complete_listing = sitemaps.complete;
+    for page in sitemaps.pages {
+        crawl.enqueue(page);
     }
     if !complete_listing {
         for key in ctx.previous.keys() {
@@ -215,50 +219,96 @@ fn at_root(start: &Url, path: &str) -> Url {
     url
 }
 
+/// Where the sitemaps being read come from.
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+enum SitemapOrigin {
+    /// The source's `sitemap`: failing to read it fails the version.
+    Configured,
+    /// robots.txt's `Sitemap:` lines: a failure is reported and leaves the listing incomplete.
+    Listed,
+    /// The guess `/sitemap.xml`: a failure only leaves the listing incomplete.
+    Guessed,
+}
+
+/// The page URLs the site's sitemaps list, and whether every sitemap was read.
+#[derive(Debug, Default)]
+struct SitemapListing {
+    pages: Vec<Url>,
+    complete: bool,
+}
+
 /// Every page URL of the site's sitemaps, following indexes: the configured sitemap, else those robots.txt lists,
-/// else `/sitemap.xml`. `None` when there is no configured or listed sitemap and `/sitemap.xml` does not exist.
+/// else `/sitemap.xml`. Only a configured sitemap that cannot be read fails; otherwise the listing is incomplete,
+/// so no page is deleted for being unreached, and failures of listed sitemaps or of more than [`MAX_SITEMAPS`]
+/// files are added to `errors`.
 async fn sitemap_pages(
     ctx: &Context<'_>,
     site: &Website<'_>,
     robots: &Robots,
     hosts: &HostSet,
-) -> Result<Option<Vec<Url>>, IngestError> {
+    errors: &mut Vec<DocError>,
+) -> Result<SitemapListing, IngestError> {
     let listed = robots.sitemaps(site.start_url);
-    let (mut queue, optional): (VecDeque<Url>, bool) = match site.sitemap {
-        Some(sitemap) => (VecDeque::from([sitemap.clone()]), false),
-        None if !listed.is_empty() => (listed.into(), false),
-        None => (VecDeque::from([at_root(site.start_url, "/sitemap.xml")]), true),
+    let (mut queue, origin) = match site.sitemap {
+        Some(sitemap) => (VecDeque::from([sitemap.clone()]), SitemapOrigin::Configured),
+        None if !listed.is_empty() => (listed.into(), SitemapOrigin::Listed),
+        None => (
+            VecDeque::from([at_root(site.start_url, "/sitemap.xml")]),
+            SitemapOrigin::Guessed,
+        ),
     };
-    let mut pages = Vec::new();
+    let mut listing = SitemapListing::default();
     let mut read = 0;
     while let Some(sitemap) = queue.pop_front() {
         if read == MAX_SITEMAPS {
-            return Err(IngestError::listing(
-                &sitemap,
-                &format!("more than {MAX_SITEMAPS} sitemaps"),
-            ));
+            errors.push(sitemap_error(&sitemap, &format!("more than {MAX_SITEMAPS} sitemaps")));
+            return Ok(listing);
         }
         read += 1;
-        let request = FetchRequest {
-            url: &sitemap,
-            allowed_hosts: hosts,
-            max_bytes: ctx.settings.document_max_bytes,
-            validators: None,
-            timeout: ctx.timeout(),
-            headers: &[],
+        let entries = match read_sitemap(ctx, &sitemap, hosts).await {
+            Ok(entries) => entries,
+            Err(reason) => {
+                match origin {
+                    SitemapOrigin::Configured => return Err(IngestError::listing(&sitemap, &reason)),
+                    SitemapOrigin::Listed => errors.push(sitemap_error(&sitemap, &reason)),
+                    SitemapOrigin::Guessed => tracing::debug!(%sitemap, reason, "no usable sitemap"),
+                }
+                return Ok(listing);
+            }
         };
-        let body = match ctx.fetcher.get(&request).await {
-            Ok(FetchResponse::Body(body)) => body,
-            Ok(_) if optional => return Ok(None),
-            Ok(_) => return Err(IngestError::listing(&sitemap, &"not found (HTTP 404 or 410)")),
-            Err(error) => return Err(IngestError::listing(&sitemap, &error)),
-        };
-        let entries = parse_sitemap(&body.bytes, ctx.settings.document_max_bytes)
-            .map_err(|reason| IngestError::listing(&sitemap, &reason))?;
-        pages.extend(entries.pages.iter().filter_map(|page| sitemap.join(page).ok()));
+        listing
+            .pages
+            .extend(entries.pages.iter().filter_map(|page| sitemap.join(page).ok()));
         queue.extend(entries.sitemaps.iter().filter_map(|nested| sitemap.join(nested).ok()));
     }
-    Ok(Some(pages))
+    listing.complete = true;
+    Ok(listing)
+}
+
+/// Fetches and parses one sitemap; the reason it cannot be read otherwise.
+async fn read_sitemap(ctx: &Context<'_>, sitemap: &Url, hosts: &HostSet) -> Result<SitemapEntries, String> {
+    let request = FetchRequest {
+        url: sitemap,
+        allowed_hosts: hosts,
+        max_bytes: ctx.settings.document_max_bytes,
+        validators: None,
+        timeout: ctx.timeout(),
+        headers: &[],
+    };
+    match ctx.fetcher.get(&request).await {
+        Ok(FetchResponse::Body(body)) => parse_sitemap(&body.bytes, ctx.settings.document_max_bytes),
+        Ok(_) => Err("not found (HTTP 404 or 410)".to_owned()),
+        Err(error) => Err(error.to_string()),
+    }
+}
+
+/// The error recorded for a sitemap that could not be used.
+fn sitemap_error(sitemap: &Url, reason: &str) -> DocError {
+    DocError {
+        doc_path: sitemap.to_string(),
+        kind: "sitemap".to_owned(),
+        message: format!("{sitemap}: {reason}; the listing is incomplete"),
+    }
 }
 
 #[cfg(test)]
@@ -539,13 +589,8 @@ mod tests {
             "cannot list /map.xml: HTTP status 500"
         );
         assert_eq!(
-            failure(&[ok_robots, ("/sitemap.xml", 200, "<html/>")], None).await,
-            "cannot list /sitemap.xml: not a sitemap: no <urlset> or <sitemapindex> element"
-        );
-        let looping = "<sitemapindex><sitemap><loc>/sitemap.xml</loc></sitemap></sitemapindex>";
-        assert_eq!(
-            failure(&[ok_robots, ("/sitemap.xml", 200, looping)], None).await,
-            format!("cannot list /sitemap.xml: more than {MAX_SITEMAPS} sitemaps")
+            failure(&[ok_robots, ("/map.xml", 200, "<html/>")], Some("/map.xml")).await,
+            "cannot list /map.xml: not a sitemap: no <urlset> or <sitemapindex> element"
         );
         let empty = "<urlset></urlset>";
         assert_eq!(
@@ -555,6 +600,87 @@ mod tests {
         assert_eq!(
             failure(&[ok_robots, ("/sitemap.xml", 200, empty), ("/", 404, "")], None).await,
             "cannot list /: the start page answers 404 or 410"
+        );
+    }
+
+    /// The `message (kind)` of every error.
+    fn messages(changes: &VersionChanges) -> Vec<String> {
+        changes
+            .errors
+            .iter()
+            .map(|error| format!("{} ({})", error.message, error.kind))
+            .collect()
+    }
+
+    /// Crawls a site whose start page links to `/a`, with `/stored` remembered from an earlier sync.
+    async fn crawl_with(routes: &[(&str, u16, &str)], configured_sitemap: Option<&str>) -> (VersionChanges, String) {
+        let server = MockServer::start().await;
+        let uri = server.uri();
+        for (route, status, body) in routes {
+            serve(&server, route, *status, "application/xml", &body.replace("{uri}", &uri)).await;
+        }
+        html(&server, "/", r#"<a href="/a">a</a>"#).await;
+        html(&server, "/a", "A").await;
+        html(&server, "/stored", "S").await;
+        let start = url(&format!("{uri}/"));
+        let configured = configured_sitemap.map(|p| url(&format!("{uri}{p}")));
+        let mut harness = Harness::new();
+        harness.remember(&format!("{uri}/stored"), "old", None);
+        let website = Website {
+            sitemap: configured.as_ref(),
+            ..site(&start, &[])
+        };
+        let changes = collect_website(&harness.context(), &website).await.unwrap();
+        (changes, uri)
+    }
+
+    #[tokio::test]
+    async fn sitemaps_that_are_not_configured_only_make_the_listing_incomplete() {
+        type Case<'a> = (&'a [(&'a str, u16, &'a str)], Option<&'a str>, Option<&'a str>);
+        let looping = "<sitemapindex><sitemap><loc>/index.xml</loc></sitemap></sitemapindex>";
+        let cases: [Case<'_>; 4] = [
+            (
+                &[("/robots.txt", 404, ""), ("/sitemap.xml", 200, "<html/>")],
+                None,
+                None,
+            ),
+            (&[("/robots.txt", 404, ""), ("/sitemap.xml", 503, "")], None, None),
+            (
+                &[
+                    ("/robots.txt", 200, "Sitemap: {uri}/listed.xml"),
+                    ("/listed.xml", 500, ""),
+                ],
+                None,
+                Some("/listed.xml: HTTP status 500; the listing is incomplete (sitemap)"),
+            ),
+            (
+                &[("/robots.txt", 404, ""), ("/index.xml", 200, looping)],
+                Some("/index.xml"),
+                Some("/index.xml: more than 50 sitemaps; the listing is incomplete (sitemap)"),
+            ),
+        ];
+        for (routes, configured, error) in cases {
+            let (changes, uri) = crawl_with(routes, configured).await;
+            assert!(!changes.listing_complete, "{routes:?}");
+            let pages = ["/", "/a", "/stored"].map(|page| format!("{uri}{page}"));
+            assert_eq!(upserted(&changes), pages, "{routes:?}");
+            assert_eq!(paths(&changes.deletions), [] as [&str; 0], "{routes:?}");
+            let expected: Vec<String> = error.iter().map(|e| format!("{uri}{e}")).collect();
+            assert_eq!(messages(&changes), expected, "{routes:?}");
+        }
+    }
+
+    #[tokio::test]
+    async fn a_listed_sitemap_on_another_host_is_reported() {
+        let routes = [("/robots.txt", 200, "Sitemap: https://cdn.example/sitemap.xml")];
+        let (changes, _) = crawl_with(&routes, None).await;
+        assert!(!changes.listing_complete);
+        assert_eq!(
+            messages(&changes),
+            [
+                "https://cdn.example/sitemap.xml: the host is not one this source may reach; the listing is \
+                 incomplete (sitemap)"
+            ]
         );
     }
 

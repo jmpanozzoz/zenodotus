@@ -1,7 +1,7 @@
-//! From an HTML page to Markdown and its links. The main content is found by a port of Mozilla's Readability, and the
-//! page title becomes a front-matter `title`.
+//! From an HTML page to Markdown and its links. The main content is the page's documentation root or landmark, or
+//! what a port of Mozilla's Readability finds when it has neither, and the page title becomes a front-matter `title`.
 
-use dom_query::Document;
+use dom_query::{Document, Selection};
 use dom_smoothie::{Config, Readability, TextMode};
 use url::Url;
 
@@ -15,21 +15,33 @@ pub struct Page {
     pub links: Vec<Url>,
 }
 
-/// Converts `html`, fetched from `url`. Readability fails only on pages without any text, which become empty.
+/// Elements that hold a page's main content, most specific first: documentation-framework roots (`Docusaurus`,
+/// `MkDocs`, `VitePress`, `Sphinx`), then the HTML landmarks.
+const CONTENT_ROOTS: [&str; 7] = [
+    ".theme-doc-markdown",
+    ".md-content",
+    ".vp-doc",
+    "div.body",
+    "article",
+    "[role=main]",
+    "main",
+];
+
+/// Page furniture removed from the content root before conversion.
+const CHROME: &str = "nav, header, footer, aside, script, style, .toc, .sidebar";
+
+/// Converts `html`, fetched from `url`. The content root is the first of [`CONTENT_ROOTS`] the page has, without
+/// [`CHROME`]; a page with none goes through Readability, which fails only on pages without any text, which become
+/// empty.
 #[must_use]
 pub fn html_to_markdown(html: &str, url: &Url) -> Page {
     let document = Document::from(html);
     let links = links(&document, url);
     let title = one_line(&document.select("head title").text());
-    let config = Config {
-        text_mode: TextMode::Markdown,
-        keep_classes: true,
-        ..Config::default()
+    let content = match root_markdown(&document) {
+        Some(content) => content,
+        None => readability_markdown(document, url),
     };
-    let content = Readability::with_document(document, Some(url.as_str()), Some(config))
-        .and_then(|mut readability| readability.parse())
-        .map(|article| article.text_content.to_string())
-        .unwrap_or_default();
     let content = content.trim();
     let markdown = if title.is_empty() {
         format!("{content}\n")
@@ -37,6 +49,29 @@ pub fn html_to_markdown(html: &str, url: &Url) -> Page {
         format!("---\ntitle: {title}\n---\n\n{content}\n")
     };
     Page { markdown, links }
+}
+
+/// The Markdown of the page's content root without its chrome, or `None` when the page has no content root.
+fn root_markdown(document: &Document) -> Option<String> {
+    let root = CONTENT_ROOTS
+        .iter()
+        .map(|selector| document.select(selector).first())
+        .find(Selection::exists)?;
+    root.select(CHROME).remove();
+    root.nodes().first().map(|node| node.md(None).to_string())
+}
+
+/// The main content Readability finds in `document`, as Markdown; empty when it finds none.
+fn readability_markdown(document: Document, url: &Url) -> String {
+    let config = Config {
+        text_mode: TextMode::Markdown,
+        keep_classes: true,
+        ..Config::default()
+    };
+    Readability::with_document(document, Some(url.as_str()), Some(config))
+        .and_then(|mut readability| readability.parse())
+        .map(|article| article.text_content.to_string())
+        .unwrap_or_default()
 }
 
 /// `text` with runs of whitespace, line breaks included, collapsed into single spaces.
@@ -139,5 +174,59 @@ shutting down. See <a href="../select/#cancel">select</a> and <a href="mailto:x@
         );
         assert_eq!(page.markdown, "Short **note**.\n");
         assert_eq!(page.links, []);
+    }
+
+    #[test]
+    fn a_documentation_root_is_kept_without_its_navigation() {
+        let html = r#"<html><head><title>Hooks</title></head><body>
+<nav class="navbar"><a href="/docs/">Docs</a></nav>
+<div class="sidebar">Sidebar entry</div>
+<main><div class="theme-doc-markdown">
+<h1>Hooks</h1><div class="toc">On this page</div>
+<p>Call <code>useState</code> at the top level.</p>
+<pre><code class="language-js">const [a, setA] = useState(0);</code></pre>
+<aside>Related posts</aside><script>track()</script>
+</div><footer>Edit this page</footer></main>
+</body></html>"#;
+        let page = html_to_markdown(html, &url("https://react.example/hooks"));
+        let markdown = &page.markdown;
+        assert!(markdown.starts_with("---\ntitle: Hooks\n---\n\n# Hooks"), "{markdown}");
+        assert!(markdown.contains("Call `useState` at the top level."), "{markdown}");
+        assert!(
+            markdown.contains("```js\nconst [a, setA] = useState(0);\n```"),
+            "{markdown}"
+        );
+        for chrome in [
+            "Docs",
+            "Sidebar entry",
+            "On this page",
+            "Related posts",
+            "track()",
+            "Edit this page",
+        ] {
+            assert!(!markdown.contains(chrome), "{chrome} in {markdown}");
+        }
+    }
+
+    #[test]
+    fn the_most_specific_root_wins_and_short_main_content_is_kept() {
+        let roots = [
+            (
+                "<main><p>Outer</p><article><p>Inner article.</p></article></main>",
+                "Inner article.",
+            ),
+            (r#"<div role="main"><p>Role main.</p></div>"#, "Role main."),
+            ("<main><h2>Tiny</h2><p>One line.</p></main>", "## Tiny\n\nOne line."),
+            (
+                r#"<div class="md-content"><p>MkDocs.</p></div><main><p>Main.</p></main>"#,
+                "MkDocs.",
+            ),
+            (r#"<div class="vp-doc"><p>VitePress.</p></div>"#, "VitePress."),
+            (r#"<div class="body"><p>Sphinx.</p></div>"#, "Sphinx."),
+        ];
+        for (body, expected) in roots {
+            let page = html_to_markdown(&format!("<html><body>{body}</body></html>"), &url("https://x.example/"));
+            assert_eq!(page.markdown, format!("{expected}\n"), "{body}");
+        }
     }
 }

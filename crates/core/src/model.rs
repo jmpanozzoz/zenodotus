@@ -11,7 +11,7 @@ use crate::ids::{ChunkId, DocKey, Scope, to_hex};
 use crate::time::Timestamp;
 
 /// Default page cap for a [`SourceSpec::Website`] crawl.
-pub const DEFAULT_MAX_PAGES: u32 = 1000;
+pub const DEFAULT_MAX_PAGES: u32 = 2000;
 
 /// Where the documents of one library version come from.
 ///
@@ -130,10 +130,15 @@ impl SourceSpec {
     pub fn describe(&self) -> String {
         match self {
             Self::Local { path, .. } => format!("local:{}", path.display()),
-            Self::GitHub { repo, reference, .. } => match reference {
-                Some(reference) => format!("github:{repo}@{reference}"),
-                None => format!("github:{repo}"),
-            },
+            Self::GitHub { repo, reference, paths } => {
+                let at = reference.as_ref().map(|r| format!("@{r}")).unwrap_or_default();
+                let within = if paths.is_empty() {
+                    String::new()
+                } else {
+                    format!(" ({})", paths.join(", "))
+                };
+                format!("github:{repo}{at}{within}")
+            }
             Self::Url { urls } => match urls.as_slice() {
                 [only] => format!("url:{only}"),
                 [first, rest @ ..] => format!("url:{first} (+{} more)", rest.len()),
@@ -408,6 +413,7 @@ mod tests {
                 max_pages: DEFAULT_MAX_PAGES
             }
         );
+        assert_eq!(DEFAULT_MAX_PAGES, 2000, "the design's default");
     }
 
     #[test]
@@ -507,6 +513,10 @@ mod tests {
             "github:a/b@v1"
         );
         assert_eq!(describe(r#"{ kind = "github", repo = "a/b" }"#), "github:a/b");
+        assert_eq!(
+            describe(r#"{ kind = "github", repo = "a/b", reference = "v1", paths = ["docs", "guide"] }"#),
+            "github:a/b@v1 (docs, guide)"
+        );
         assert_eq!(
             describe(r#"{ kind = "url", urls = ["https://x.dev/a"] }"#),
             "url:https://x.dev/a"

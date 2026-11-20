@@ -52,21 +52,31 @@ fn parse_xml(bytes: &[u8]) -> Result<SitemapEntries, String> {
     let mut buffer = Vec::new();
     let mut entries = SitemapEntries::default();
     let mut has_root = false;
-    let mut parent = None;
+    let mut depth = 0_usize;
+    // The open `<url>` or `<sitemap>` element and its depth: only a `<loc>` directly inside it counts.
+    let mut parent: Option<(Parent, usize)> = None;
     let mut loc: Option<String> = None;
     loop {
         let event = reader
             .read_event_into(&mut buffer)
             .map_err(|error| format!("invalid XML: {error}"))?;
         match event {
-            Event::Start(element) => match element.local_name().as_ref() {
-                "urlset" | "sitemapindex" => has_root = true,
-                "url" => parent = Some(Parent::Url),
-                "sitemap" => parent = Some(Parent::Sitemap),
-                "loc" => loc = Some(String::new()),
-                _ => {}
-            },
+            Event::Start(element) => {
+                depth += 1;
+                match element.local_name().as_ref() {
+                    "urlset" | "sitemapindex" => has_root = true,
+                    "url" => parent = Some((Parent::Url, depth)),
+                    "sitemap" => parent = Some((Parent::Sitemap, depth)),
+                    "loc" if parent.is_some_and(|(_, at)| at + 1 == depth) => loc = Some(String::new()),
+                    _ => {}
+                }
+            }
             Event::Text(text) => {
+                if let Some(loc) = &mut loc {
+                    loc.push_str(&text.into_inner());
+                }
+            }
+            Event::CData(text) => {
                 if let Some(loc) = &mut loc {
                     loc.push_str(&text.into_inner());
                 }
@@ -76,19 +86,25 @@ fn parse_xml(bytes: &[u8]) -> Result<SitemapEntries, String> {
                     loc.push_str(&resolve_reference(&reference.into_inner()));
                 }
             }
-            Event::End(element) => match element.local_name().as_ref() {
-                "loc" => {
-                    if let (Some(text), Some(parent)) = (loc.take(), parent) {
-                        let list = match parent {
-                            Parent::Url => &mut entries.pages,
-                            Parent::Sitemap => &mut entries.sitemaps,
-                        };
-                        list.push(text.trim().to_owned());
+            Event::End(element) => {
+                match element.local_name().as_ref() {
+                    "loc" => {
+                        if let (Some(text), Some((parent, _))) = (loc.take(), parent) {
+                            let list = match parent {
+                                Parent::Url => &mut entries.pages,
+                                Parent::Sitemap => &mut entries.sitemaps,
+                            };
+                            let text = text.trim();
+                            if !text.is_empty() {
+                                list.push(text.to_owned());
+                            }
+                        }
                     }
+                    "url" | "sitemap" => parent = None,
+                    _ => {}
                 }
-                "url" | "sitemap" => parent = None,
-                _ => {}
-            },
+                depth -= 1;
+            }
             Event::Eof => break,
             _ => {}
         }
@@ -139,6 +155,21 @@ mod tests {
                 ],
                 sitemaps: Vec::new(),
             }
+        );
+    }
+
+    #[test]
+    fn cdata_locs_are_read_and_nested_or_empty_locs_ignored() {
+        let urlset = r#"<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+            xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+          <url><loc><![CDATA[https://docs.example/a?x=1&y=2]]></loc>
+            <image:image><image:loc>https://docs.example/img/a.svg</image:loc></image:image></url>
+          <url><loc>  </loc><lastmod><![CDATA[2026-01-01]]></lastmod></url>
+          <url><extra><loc>https://docs.example/nested</loc></extra></url>
+        </urlset>"#;
+        assert_eq!(
+            parse_sitemap(urlset.as_bytes(), 10_000).unwrap().pages,
+            ["https://docs.example/a?x=1&y=2"]
         );
     }
 
