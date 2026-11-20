@@ -104,7 +104,8 @@ pub(crate) mod tests {
         }
     }
 
-    /// One document per text, each with one section.
+    /// One document per text, each with one section. A text that starts with `# ` gives its first line as the title,
+    /// otherwise the title is the document path; the words with `::` are the section's symbols.
     fn documents(scope: &Scope, texts: &[String]) -> Vec<Document> {
         texts
             .iter()
@@ -123,11 +124,20 @@ pub(crate) mod tests {
                         chunk_id: ChunkId::derive(scope, &doc_path, 0),
                         doc_key: DocKey::new(scope, &doc_path).unwrap(),
                         ordinal: 0,
-                        title: doc_path.clone(),
+                        title: text
+                            .lines()
+                            .next()
+                            .and_then(|line| line.strip_prefix("# "))
+                            .unwrap_or(&doc_path)
+                            .to_owned(),
                         heading_path: Vec::new(),
                         text: text.clone(),
                         code_languages: Vec::new(),
-                        symbols: Vec::new(),
+                        symbols: text
+                            .split_whitespace()
+                            .filter(|word| word.contains("::"))
+                            .map(str::to_owned)
+                            .collect(),
                         source_ref: format!("local:{doc_path}"),
                         content_hash: content_hash(text),
                     }],

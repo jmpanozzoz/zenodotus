@@ -218,6 +218,26 @@ impl McpClient {
             latency,
         })
     }
+
+    /// The names of the server's tools.
+    ///
+    /// # Errors
+    ///
+    /// A message when the listing fails.
+    pub async fn list_tools(&self) -> Result<Vec<String>, String> {
+        let tools = self
+            .service
+            .list_all_tools()
+            .await
+            .map_err(|error| format!("tools/list: {error}"))?;
+        Ok(tools.into_iter().map(|tool| tool.name.into_owned()).collect())
+    }
+
+    /// Ends the session and waits for a child server to exit after its stdin closes.
+    pub async fn close(self) {
+        // The session is over either way; a failed join only means the task had already ended.
+        let _ = self.service.cancel().await;
+    }
 }
 
 /// The text blocks of `result`, joined by line breaks.

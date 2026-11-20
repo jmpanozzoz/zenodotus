@@ -1,2 +1,5 @@
 [alias]
 xtask = "run --quiet -p xtask --"
+# The coverage gate. Its only exclusion is xtask/src/perf.rs, which does nothing but drive cargo, GNU time,
+# hyperfine and a network download of the performance corpus; its output is reviewed in every perf report.
+coverage = "llvm-cov --workspace --fail-under-lines 100 --fail-under-functions 100 --ignore-filename-regex xtask/src/perf\\.rs"

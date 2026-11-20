@@ -62,6 +62,17 @@ pub enum EvalError {
     /// `validate` rejected some questions.
     #[error("{0} question(s) failed validation")]
     Invalid(usize),
+    /// A performance config does not list the library to measure.
+    #[error("{library} is not a library of {}", config.display())]
+    NoLibrary {
+        /// The config.
+        config: PathBuf,
+        /// The library id.
+        library: String,
+    },
+    /// The zenodotus server under measurement could not start or failed a call.
+    #[error("the zenodotus server failed: {0}")]
+    Server(String),
 }
 
 impl EvalError {
@@ -129,6 +140,17 @@ mod tests {
                 "vite@latest: every corpus version must be a GitHub source with exactly one path",
             ),
             (EvalError::Invalid(2), "2 question(s) failed validation"),
+            (
+                EvalError::NoLibrary {
+                    config: PathBuf::from("target/perf/zenodotus.toml"),
+                    library: "mdn".to_owned(),
+                },
+                "mdn is not a library of target/perf/zenodotus.toml",
+            ),
+            (
+                EvalError::Server("query_docs: timeout".to_owned()),
+                "the zenodotus server failed: query_docs: timeout",
+            ),
         ];
         for (error, message) in cases {
             assert_eq!(error.to_string(), message);

@@ -1,0 +1,261 @@
+//! `cargo xtask perf`: builds the MDN performance index and measures zenodotus on it with external tools.
+//!
+//! This module only orchestrates `cargo`, `zenodotus`, `zenodotus-eval`, GNU `time` and `hyperfine`, so it is the
+//! one file excluded from coverage. Everything it reports is printed by those tools or read from their files.
+
+use std::fmt::Write as _;
+use std::path::{Path, PathBuf};
+use std::process::{Command, ExitCode};
+use std::time::Instant;
+
+/// The pinned `mdn/content` commit of the performance corpus.
+const MDN_COMMIT: &str = "defd0924e23d3a2bbaec3dfe079a1f201b536abe";
+
+/// The performance config. The tarball limits are raised for `mdn/content`, which is larger than the defaults
+/// allow; the data directory is relative to the config.
+const CONFIG: &str = "# The performance corpus of `cargo xtask perf`: MDN's English pages at a pinned commit.
+
+[settings]
+data_dir = \"data\"
+
+[settings.fetch]
+tarball_max_bytes = 2147483648
+tar_total_max_bytes = 4294967296
+tar_max_entries = 1000000
+tarball_timeout_secs = 1800
+
+[[library]]
+id = \"mdn\"
+name = \"MDN Web Docs\"
+[[library.version]]
+version = \"latest\"
+source = { kind = \"github\", repo = \"mdn/content\", reference = \"COMMIT\", paths = [\"files/en-us\"] }
+";
+
+/// GNU `time`.
+const TIME: &str = "/usr/bin/time";
+
+/// The paths `perf` works with.
+struct Paths {
+    root: PathBuf,
+    dir: PathBuf,
+    config: PathBuf,
+    zenodotus: PathBuf,
+    eval: PathBuf,
+    queries: PathBuf,
+}
+
+impl Paths {
+    fn new(root: &Path) -> Self {
+        let dir = root.join("target/perf");
+        Self {
+            root: root.to_owned(),
+            config: dir.join("zenodotus.toml"),
+            zenodotus: root.join("target/release/zenodotus"),
+            eval: root.join("target/release/zenodotus-eval"),
+            queries: root.join("eval/perf_queries.txt"),
+            dir,
+        }
+    }
+}
+
+/// Runs `command` in `dir`, failing on a non-zero exit, and returns its stdout.
+fn run(command: &mut Command, dir: &Path) -> Result<String, String> {
+    let shown = format!("{command:?}");
+    let output = command
+        .current_dir(dir)
+        .output()
+        .map_err(|error| format!("cannot run {shown}: {error}"))?;
+    if !output.status.success() {
+        return Err(format!(
+            "{shown} exited with {}: {}",
+            output.status,
+            String::from_utf8_lossy(&output.stderr).trim()
+        ));
+    }
+    Ok(String::from_utf8_lossy(&output.stdout).into_owned())
+}
+
+/// The value after `label` in a GNU `time -v` report.
+fn time_field<'a>(report: &'a str, label: &str) -> Option<&'a str> {
+    report
+        .lines()
+        .find_map(|line| line.trim().strip_prefix(label))
+        .map(str::trim)
+}
+
+/// Runs `zenodotus sync` under `time -v` and returns the report and the wall-clock seconds.
+fn timed_sync(paths: &Paths, name: &str) -> Result<(String, f64), String> {
+    let report = paths.dir.join(format!("{name}-time.txt"));
+    let start = Instant::now();
+    run(
+        Command::new(TIME)
+            .arg("-v")
+            .arg("-o")
+            .arg(&report)
+            .arg(&paths.zenodotus)
+            .arg("--config")
+            .arg(&paths.config)
+            .arg("sync"),
+        &paths.root,
+    )?;
+    let seconds = start.elapsed().as_secs_f64();
+    let text =
+        std::fs::read_to_string(&report).map_err(|error| format!("cannot read {}: {error}", report.display()))?;
+    Ok((text, seconds))
+}
+
+/// The total size in bytes of the files under `dir`.
+fn size_of(dir: &Path) -> u64 {
+    std::fs::read_dir(dir).map_or(0, |entries| {
+        entries
+            .filter_map(Result::ok)
+            .map(|entry| match entry.file_type() {
+                Ok(kind) if kind.is_dir() => size_of(&entry.path()),
+                Ok(_) => entry.metadata().map_or(0, |metadata| metadata.len()),
+                Err(_) => 0,
+            })
+            .sum()
+    })
+}
+
+/// The section count `zenodotus status` reports.
+fn sections(status: &str) -> Option<u64> {
+    status
+        .lines()
+        .find_map(|line| line.split_once(" documents, ")?.1.strip_suffix(" sections"))
+        .and_then(|count| count.parse().ok())
+}
+
+/// The machine: CPU, cores, memory, kernel and compiler.
+fn machine(root: &Path) -> String {
+    let cpuinfo = std::fs::read_to_string("/proc/cpuinfo").unwrap_or_default();
+    let cpu = cpuinfo
+        .lines()
+        .find_map(|line| line.strip_prefix("model name"))
+        .and_then(|line| line.split_once(':'))
+        .map_or("unknown", |(_, name)| name.trim());
+    let meminfo = std::fs::read_to_string("/proc/meminfo").unwrap_or_default();
+    let memory = meminfo
+        .lines()
+        .find_map(|line| line.strip_prefix("MemTotal:"))
+        .map_or("unknown", str::trim);
+    let threads = std::thread::available_parallelism().map_or(0, std::num::NonZero::get);
+    let kernel = run(Command::new("uname").arg("-srm"), root).unwrap_or_default();
+    let rustc = run(Command::new("rustc").arg("-V"), root).unwrap_or_default();
+    format!(
+        "CPU: {cpu}, {threads} threads\nMemory: {memory}\nKernel: {}\nCompiler: {}\n",
+        kernel.trim(),
+        rustc.trim()
+    )
+}
+
+/// Runs `perf` when `args` ask for it, as `perf [--reuse]`; `None` for any other task.
+pub fn dispatch(args: &[String], root: &Path) -> Option<ExitCode> {
+    if args.first().map(String::as_str) != Some("perf") {
+        return None;
+    }
+    Some(match perf(root, args[1..].iter().any(|arg| arg == "--reuse")) {
+        Ok(()) => ExitCode::SUCCESS,
+        Err(message) => {
+            eprintln!("error: {message}");
+            ExitCode::FAILURE
+        }
+    })
+}
+
+/// Builds the index unless `reuse` and it exists, measures, and prints the results.
+fn perf(root: &Path, reuse: bool) -> Result<(), String> {
+    let paths = Paths::new(root);
+    std::fs::create_dir_all(&paths.dir).map_err(|error| format!("cannot create {}: {error}", paths.dir.display()))?;
+    let cargo = std::env::var_os("CARGO").unwrap_or_else(|| "cargo".into());
+    println!("Building release binaries");
+    run(
+        Command::new(&cargo).args(["build", "--release", "--bin", "zenodotus", "--bin", "zenodotus-eval"]),
+        root,
+    )?;
+    std::fs::write(&paths.config, CONFIG.replace("COMMIT", MDN_COMMIT))
+        .map_err(|error| format!("cannot write {}: {error}", paths.config.display()))?;
+    let data = paths.dir.join("data");
+    let mut report = machine(root);
+    if !(reuse && data.exists()) {
+        // A fresh build times indexing from scratch, download included.
+        let _ = std::fs::remove_dir_all(&data);
+        println!("Syncing mdn/content@{MDN_COMMIT} (download and indexing)");
+        let (time, seconds) = timed_sync(&paths, "sync")?;
+        let status = run(
+            Command::new(&paths.zenodotus)
+                .arg("--config")
+                .arg(&paths.config)
+                .arg("status"),
+            root,
+        )?;
+        let count = sections(&status).unwrap_or(0);
+        let _ = write!(
+            report,
+            "\nInitial sync: {seconds:.1} s for {count} sections, {:.0} sections/s, download included\n\
+             Peak RSS while syncing: {} KiB\n",
+            u32::try_from(count).map_or(0.0, f64::from) / seconds,
+            time_field(&time, "Maximum resident set size (kbytes):").unwrap_or("unknown"),
+        );
+    }
+    println!("Re-syncing with no upstream change");
+    let (time, seconds) = timed_sync(&paths, "resync")?;
+    let _ = write!(
+        report,
+        "Re-sync with no upstream change: {seconds:.2} s, peak RSS {} KiB\nIndex size on disk: {:.1} MiB\n",
+        time_field(&time, "Maximum resident set size (kbytes):").unwrap_or("unknown"),
+        f64::from(u32::try_from(size_of(&data) / 1024).unwrap_or(u32::MAX)) / 1024.0,
+    );
+    if !paths.queries.exists() {
+        println!("Generating {}", paths.queries.display());
+        let queries = run(
+            Command::new(&paths.eval)
+                .arg("perf-queries")
+                .arg("--config")
+                .arg(&paths.config),
+            root,
+        )?;
+        std::fs::write(&paths.queries, queries)
+            .map_err(|error| format!("cannot write {}: {error}", paths.queries.display()))?;
+    }
+    println!("Timing cold start with hyperfine");
+    let cold_start = format!(
+        "{} cold-start --config {} --zenodotus {}",
+        paths.eval.display(),
+        paths.config.display(),
+        paths.zenodotus.display()
+    );
+    let hyperfine = run(
+        Command::new("hyperfine")
+            .args(["-N", "--warmup", "3", "--runs", "30", "--export-json"])
+            .arg(paths.dir.join("cold-start.json"))
+            .arg(&cold_start),
+        root,
+    )?;
+    let _ = write!(
+        report,
+        "\nCold start, serve to first tools/list (hyperfine):\n{hyperfine}"
+    );
+    println!("Measuring query latency and peak RSS while serving");
+    let latency = run(
+        Command::new(&paths.eval)
+            .arg("perf")
+            .arg("--config")
+            .arg(&paths.config)
+            .arg("--queries")
+            .arg(&paths.queries)
+            .arg("--zenodotus")
+            .arg(&paths.zenodotus)
+            .arg("--time")
+            .arg(TIME)
+            .arg("--out")
+            .arg(&paths.dir),
+        root,
+    )?;
+    let _ = write!(report, "\n{latency}");
+    let summary = paths.dir.join("summary.txt");
+    std::fs::write(&summary, &report).map_err(|error| format!("cannot write {}: {error}", summary.display()))?;
+    println!("\n{report}");
+    Ok(())
+}

@@ -8,6 +8,7 @@ use zenodotus_core::time::Clock;
 
 use crate::corpus::{Corpus, ScopeCase};
 use crate::error::EvalError;
+use crate::perf::{self, PerfIndex, PerfPlan};
 use crate::questions::{self, Question, Set};
 use crate::report::{SystemResult, compose, render, write};
 use crate::run::{Record, evaluate};
@@ -42,6 +43,83 @@ pub enum Command {
     Run(RunArgs),
     /// Runs systems on a question set: every system on the test set unless told otherwise.
     Compare(RunArgs),
+    /// Measures query latency and the server's peak RSS on a performance index.
+    Perf(PerfArgs),
+    /// Prints the performance workload, generated from a performance index.
+    PerfQueries(IndexArgs),
+    /// Starts `serve` and waits for its first `tools/list` response, for timing with hyperfine.
+    ColdStart(ServeArgs),
+}
+
+/// The set and systems `run` uses unless told otherwise.
+pub const RUN_DEFAULTS: (Set, &[SystemName]) = (Set::Dev, &[SystemName::Zenodotus]);
+
+/// The set and systems `compare` uses unless told otherwise.
+pub const COMPARE_DEFAULTS: (Set, &[SystemName]) = (Set::Test, &SystemName::ALL);
+
+/// A performance index.
+#[derive(Debug, Args)]
+pub struct IndexArgs {
+    /// The performance config.
+    #[arg(long, default_value = "target/perf/zenodotus.toml")]
+    pub config: PathBuf,
+    /// The library to measure.
+    #[arg(long, default_value = "mdn")]
+    pub library: String,
+}
+
+/// A server to start.
+#[derive(Debug, Args)]
+pub struct ServeArgs {
+    /// The config it serves.
+    #[arg(long, default_value = "target/perf/zenodotus.toml")]
+    pub config: PathBuf,
+    /// The zenodotus binary.
+    #[arg(long, default_value = "target/release/zenodotus")]
+    pub zenodotus: PathBuf,
+}
+
+/// The options of `perf`.
+#[derive(Debug, Args)]
+pub struct PerfArgs {
+    /// The index and library.
+    #[command(flatten)]
+    pub index: IndexArgs,
+    /// The workload: one query per line.
+    #[arg(long, default_value = "eval/perf_queries.txt")]
+    pub queries: PathBuf,
+    /// The zenodotus binary.
+    #[arg(long, default_value = "target/release/zenodotus")]
+    pub zenodotus: PathBuf,
+    /// GNU `time`, run around the server to measure its peak RSS.
+    #[arg(long)]
+    pub time: Option<PathBuf>,
+    /// Where `perf.json` and the `time` report go.
+    #[arg(long, default_value = "target/perf")]
+    pub out: PathBuf,
+    /// Untimed calls before timing.
+    #[arg(long, default_value_t = perf::WARMUP)]
+    pub warmup: usize,
+    /// Timed passes over the workload.
+    #[arg(long, default_value_t = perf::ROUNDS)]
+    pub rounds: usize,
+}
+
+impl PerfArgs {
+    /// The measurement these options describe.
+    #[must_use]
+    pub fn plan(self) -> PerfPlan {
+        PerfPlan {
+            config: self.index.config,
+            library: self.index.library,
+            queries: self.queries,
+            zenodotus: self.zenodotus,
+            time: self.time,
+            out: self.out,
+            warmup: self.warmup,
+            rounds: self.rounds,
+        }
+    }
 }
 
 /// A system the harness can run.
@@ -138,9 +216,10 @@ pub struct Plan {
 }
 
 impl Plan {
-    /// Resolves `args`, filling in `set` and `systems` when they are not given.
+    /// Resolves `args`, filling in the set and systems of `defaults` when they are not given.
     #[must_use]
-    pub fn new(args: RunArgs, set: Set, systems: &[SystemName]) -> Self {
+    pub fn new(args: RunArgs, defaults: (Set, &[SystemName])) -> Self {
+        let (set, systems) = defaults;
         let mut chosen = if args.systems.is_empty() {
             systems.to_vec()
         } else {
@@ -164,26 +243,30 @@ impl Plan {
     }
 }
 
-impl Command {
-    /// The run this command asks for, with its own defaults, or `None` for `validate`.
-    #[must_use]
-    pub fn plan(self) -> Option<Plan> {
-        match self {
-            Self::Validate => None,
-            Self::Run(args) => Some(Plan::new(args, Set::Dev, &[SystemName::Zenodotus])),
-            Self::Compare(args) => Some(Plan::new(args, Set::Test, &SystemName::ALL)),
-        }
-    }
-}
-
 /// Runs `cli`, returning the text to print and how it ended.
 pub async fn run(cli: Cli, clock: &dyn Clock) -> (String, Result<(), EvalError>) {
-    let Some(plan) = cli.command.plan() else {
-        let mut text = String::new();
-        let result = check(&cli.root, &cli.sources, &mut text);
-        return (text, result);
+    let result = match cli.command {
+        Command::Validate => {
+            let mut text = String::new();
+            let result = check(&cli.root, &cli.sources, &mut text);
+            return (text, result);
+        }
+        Command::Run(args) => execute(&cli.root, &cli.sources, &Plan::new(args, RUN_DEFAULTS), clock).await,
+        Command::Compare(args) => execute(&cli.root, &cli.sources, &Plan::new(args, COMPARE_DEFAULTS), clock).await,
+        Command::Perf(args) => perf::measure(&args.plan()).await.map(|report| perf::render(&report)),
+        Command::PerfQueries(args) => PerfIndex::open(&args.config, &args.library)
+            .and_then(|index| index.workload())
+            .map(|queries| queries.iter().flat_map(|query| [query.as_str(), "\n"]).collect()),
+        Command::ColdStart(args) => perf::cold_start(&Launcher::new(args.zenodotus), &args.config)
+            .await
+            .map(|elapsed| {
+                format!(
+                    "tools/list answered {:.1} ms after start\n",
+                    elapsed.as_secs_f64() * 1000.0
+                )
+            }),
     };
-    match execute(&cli.root, &cli.sources, &plan, clock).await {
+    match result {
         Ok(text) => (text, Ok(())),
         Err(error) => (String::new(), Err(error)),
     }
@@ -294,13 +377,28 @@ mod tests {
         Cli::try_parse_from(std::iter::once("zenodotus-eval").chain(args.iter().copied())).unwrap()
     }
 
-    fn plan_of(args: &[&str]) -> Plan {
-        parse(args).command.plan().unwrap()
+    /// The options of `run` and `compare` alone.
+    #[derive(Debug, Parser)]
+    struct RunOnly {
+        #[command(flatten)]
+        args: RunArgs,
+    }
+
+    /// The options of `perf` alone.
+    #[derive(Debug, Parser)]
+    struct PerfOnly {
+        #[command(flatten)]
+        args: PerfArgs,
+    }
+
+    fn plan_of(args: &[&str], defaults: (Set, &[SystemName])) -> Plan {
+        let parsed = RunOnly::try_parse_from(std::iter::once("run").chain(args[1..].iter().copied())).unwrap();
+        Plan::new(parsed.args, defaults)
     }
 
     #[test]
     fn run_and_compare_fill_in_their_own_defaults() {
-        let plan = plan_of(&["run"]);
+        let plan = plan_of(&["run"], RUN_DEFAULTS);
         assert_eq!(
             (plan.set, plan.systems.as_slice()),
             (Set::Dev, &[SystemName::Zenodotus][..])
@@ -312,23 +410,26 @@ mod tests {
         assert_eq!(plan.tools.context7_url, context7::DEFAULT_URL);
         assert_eq!(plan.tools.work, Path::new("target/eval-work"));
         assert_eq!(plan.out, Path::new("eval/results"));
-        let plan = plan_of(&["compare"]);
+        let plan = plan_of(&["compare"], COMPARE_DEFAULTS);
         assert_eq!((plan.set, plan.systems.as_slice()), (Set::Test, &SystemName::ALL[..]));
-        let plan = plan_of(&[
-            "compare",
-            "--set",
-            "dev",
-            "--system",
-            "neuledge-context,zenodotus",
-            "--system",
-            "grounded-docs",
-            "--system",
-            "zenodotus",
-            "--context7-api-key",
-            "key",
-            "--npx",
-            "/opt/npx",
-        ]);
+        let plan = plan_of(
+            &[
+                "compare",
+                "--set",
+                "dev",
+                "--system",
+                "neuledge-context,zenodotus",
+                "--system",
+                "grounded-docs",
+                "--system",
+                "zenodotus",
+                "--context7-api-key",
+                "key",
+                "--npx",
+                "/opt/npx",
+            ],
+            COMPARE_DEFAULTS,
+        );
         assert_eq!(plan.set, Set::Dev);
         assert_eq!(
             plan.systems,
@@ -343,7 +444,7 @@ mod tests {
         let names: Vec<&str> = SystemName::ALL.iter().map(|system| system.name()).collect();
         assert_eq!(names, ["zenodotus", "context7", "grounded-docs", "neuledge-context"]);
         assert!(Cli::try_parse_from(["zenodotus-eval", "run", "--system", "bing"]).is_err());
-        assert!(parse(&["validate"]).command.plan().is_none());
+        assert!(matches!(parse(&["validate"]).command, Command::Validate));
     }
 
     /// One question line on `tokio` that needs `needle`.
@@ -521,5 +622,70 @@ mod tests {
         let (text, result) = run(tail("run", "zenodotus"), &clock).await;
         assert_eq!(text, "");
         assert!(matches!(result, Err(EvalError::Parse { .. })));
+    }
+
+    #[tokio::test]
+    async fn the_performance_commands_measure_print_and_fail() {
+        let (root, config) = crate::perf::tests::indexed();
+        let config = config.to_string_lossy().into_owned();
+        let stub = stub_program().to_string_lossy().into_owned();
+        let clock = FixedClock::new(Timestamp::from_unix(0));
+        let cli =
+            |args: &[&str]| Cli::try_parse_from(std::iter::once("zenodotus-eval").chain(args.iter().copied())).unwrap();
+        let (text, result) = run(
+            cli(&["perf-queries", "--config", &config, "--library", "tokio"]),
+            &clock,
+        )
+        .await;
+        result.unwrap();
+        assert_eq!(
+            text,
+            "Spawn with task::spawn\ndoc27.md page27::run\ndoc90.md page90::run\n"
+        );
+        let (text, result) = run(cli(&["cold-start", "--config", &config, "--zenodotus", &stub]), &clock).await;
+        result.unwrap();
+        assert!(
+            text.starts_with("tools/list answered ") && text.ends_with(" ms after start\n"),
+            "{text}"
+        );
+        let queries = root.path().join("queries.txt");
+        std::fs::write(&queries, "page\n").unwrap();
+        let out = root.path().join("perf").to_string_lossy().into_owned();
+        let perf = [
+            "perf",
+            "--config",
+            &config,
+            "--library",
+            "tokio",
+            "--queries",
+            queries.to_str().unwrap(),
+            "--zenodotus",
+            &stub,
+            "--out",
+            &out,
+            "--warmup",
+            "1",
+            "--rounds",
+            "2",
+        ];
+        let (text, result) = run(cli(&perf), &clock).await;
+        result.unwrap();
+        assert!(text.starts_with("tokio: 150 sections, 1 queries\n"), "{text}");
+        assert!(text.contains("| stdio MCP | 2 | "), "{text}");
+        let (text, result) = run(
+            cli(&["perf-queries", "--config", &config, "--library", "react"]),
+            &clock,
+        )
+        .await;
+        assert_eq!(text, "");
+        assert!(matches!(result, Err(EvalError::NoLibrary { .. })));
+        assert!(matches!(cli(&["perf"]).command, Command::Perf(_)));
+        let plan = PerfOnly::try_parse_from(["perf"]).unwrap().args.plan();
+        assert_eq!(plan.config, Path::new("target/perf/zenodotus.toml"));
+        assert_eq!((plan.library.as_str(), plan.warmup, plan.rounds), ("mdn", 1_000, 10));
+        assert_eq!(
+            (plan.queries.to_str(), plan.time),
+            (Some("eval/perf_queries.txt"), None)
+        );
     }
 }

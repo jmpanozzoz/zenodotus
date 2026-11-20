@@ -580,6 +580,29 @@ source = { kind = "local", path = "/srv/tokio" }
     }
 
     #[test]
+    fn the_shipped_example_is_valid() {
+        let config = parse(include_str!("../../../examples/zenodotus.toml")).unwrap();
+        let ids: Vec<&str> = config.libraries.iter().map(|library| library.id.as_str()).collect();
+        assert_eq!(ids, ["tokio", "pydantic", "my-project", "vite", "fastapi", "mdn-fetch"]);
+        let kinds: Vec<&str> = config
+            .libraries
+            .iter()
+            .flat_map(|library| &library.versions)
+            .map(|version| match version.source {
+                SourceSpec::Local { .. } => "local",
+                SourceSpec::GitHub { .. } => "github",
+                SourceSpec::Url { .. } => "url",
+                SourceSpec::LlmsTxt { .. } => "llms_txt",
+                SourceSpec::Website { .. } => "website",
+            })
+            .collect();
+        assert_eq!(
+            kinds,
+            ["github", "github", "github", "local", "llms_txt", "url", "website"]
+        );
+    }
+
+    #[test]
     fn an_empty_file_gives_every_default() {
         let config = parse("").unwrap();
         assert_eq!(config, Config::default());

@@ -5,7 +5,8 @@
   STUB_PREPARE_EXIT (default 0), printing "stub prepare failed" to stderr when that is not 0.
 - With a `serve` or `mcp` argument it is an MCP server on stdio. `tools/call` logs the call, then answers with the
   text of $STUB_DIR/<tool>.txt and the JSON of $STUB_DIR/<tool>.json when they exist. An argument value "fail"
-  makes the call return a tool error; "crash" makes the server exit without answering.
+  makes the call return a tool error; "crash" makes the server exit without answering. `tools/list` lists the comma-separated
+  names in STUB_TOOLS, by default `resolve_library` and `query_docs`; STUB_TOOLS=error makes it fail.
 - Anything else exits with status 2.
 
 Every log line goes to $STUB_DIR/calls.log as JSON; without STUB_DIR nothing is logged and no response is canned.
@@ -68,6 +69,12 @@ def serve():
                 "capabilities": {"tools": {}},
                 "serverInfo": {"name": "stub", "version": "0"},
             }
+        elif method == "tools/list" and os.environ.get("STUB_TOOLS") == "error":
+            send({"jsonrpc": "2.0", "id": message["id"], "error": {"code": -32603, "message": "stub listing failure"}})
+            continue
+        elif method == "tools/list":
+            names = os.environ.get("STUB_TOOLS", "resolve_library,query_docs").split(",")
+            result = {"tools": [{"name": name, "inputSchema": {"type": "object"}} for name in names]}
         elif method == "tools/call":
             result = call_tool(message["params"])
         else:

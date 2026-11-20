@@ -1,4 +1,4 @@
-//! Repository tasks for zenodotus: `check-repo` and `check-errors`.
+//! Repository tasks for zenodotus: `check-repo`, `check-errors` and `perf`.
 #![forbid(unsafe_code)]
 #![deny(missing_docs)]
 #![allow(
@@ -8,6 +8,7 @@
 )]
 
 mod errors;
+mod perf;
 mod repo;
 
 use std::path::Path;
@@ -17,7 +18,8 @@ use repo::SourceFile;
 
 fn main() -> ExitCode {
     let root = Path::new(env!("CARGO_MANIFEST_DIR")).parent().unwrap_or(Path::new("."));
-    run(&std::env::args().skip(1).collect::<Vec<_>>(), root)
+    let args: Vec<String> = std::env::args().skip(1).collect();
+    perf::dispatch(&args, root).unwrap_or_else(|| run(&args, root))
 }
 
 /// Runs one task by name and reports its violations.
@@ -26,7 +28,7 @@ fn run(args: &[String], root: &Path) -> ExitCode {
         Some("check-repo") => repo::check,
         Some("check-errors") => errors::check,
         _ => {
-            eprintln!("usage: cargo xtask <check-repo | check-errors>");
+            eprintln!("usage: cargo xtask <check-repo | check-errors | perf [--reuse]>");
             return ExitCode::from(2);
         }
     };

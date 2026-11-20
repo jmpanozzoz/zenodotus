@@ -8,6 +8,6 @@ fn an_unknown_task_exits_with_a_usage_error() {
     assert_eq!(output.status.code(), Some(2));
     assert_eq!(
         String::from_utf8(output.stderr).unwrap(),
-        "usage: cargo xtask <check-repo | check-errors>\n"
+        "usage: cargo xtask <check-repo | check-errors | perf [--reuse]>\n"
     );
 }

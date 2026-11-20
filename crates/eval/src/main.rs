@@ -8,6 +8,7 @@ mod corpus;
 mod error;
 mod judge;
 mod metrics;
+mod perf;
 mod questions;
 mod report;
 mod run;
