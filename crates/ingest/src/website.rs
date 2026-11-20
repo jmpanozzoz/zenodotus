@@ -37,12 +37,14 @@ struct CrawlScope<'a> {
 }
 
 impl CrawlScope<'_> {
-    /// Same scheme family, host and port as the start page, under a prefix, and allowed by robots.txt.
+    /// Same scheme family, host and port as the start page, under a prefix or the start page itself, and allowed by
+    /// robots.txt. The start page is always visited, so a start page outside the prefixes would otherwise be indexed
+    /// by one sync and deleted by the next.
     fn contains(&self, url: &Url) -> bool {
         matches!(url.scheme(), "http" | "https")
             && url.host_str() == self.start.host_str()
             && url.port_or_known_default() == self.start.port_or_known_default()
-            && self.prefixes.iter().any(|prefix| url.path().starts_with(prefix))
+            && (url == self.start || self.prefixes.iter().any(|prefix| url.path().starts_with(prefix)))
             && self.robots.allowed(url)
     }
 }
@@ -802,6 +804,24 @@ mod tests {
         };
         let changes = collect_website(&harness.context(), &website).await.unwrap();
         assert_eq!(upserted(&changes), [at("/"), at("/a")]);
+    }
+
+    #[tokio::test]
+    async fn a_start_page_outside_the_prefixes_stays_in_the_scope() {
+        let server = MockServer::start().await;
+        let uri = server.uri();
+        serve(&server, "/robots.txt", 404, "text/plain", "").await;
+        serve(&server, "/sitemap.xml", 404, "text/plain", "").await;
+        serve(&server, "/", 304, "text/html", "").await;
+        let start = url(&format!("{uri}/"));
+        let prefixes = ["/docs/".to_owned()];
+        let mut harness = Harness::new();
+        harness.remember(start.as_str(), "old", Some("\"v1\""));
+        let changes = collect_website(&harness.context(), &site(&start, &prefixes))
+            .await
+            .unwrap();
+        assert_eq!(paths(&changes.unchanged), [start.as_str()]);
+        assert_eq!(paths(&changes.deletions), [] as [&str; 0]);
     }
 
     #[tokio::test]
