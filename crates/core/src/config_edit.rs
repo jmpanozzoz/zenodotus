@@ -33,7 +33,7 @@ pub fn init_template() -> String {
 # allowed_origins = []
 
 [settings.ranking]
-# symbol_boost = 1.0
+# symbol_boost = 0.5
 # phrase_boost = 1.0
 # quoted_phrase_boost = 2.0
 # synonyms = { env = [\"environment\"] }

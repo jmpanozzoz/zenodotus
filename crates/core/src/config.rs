@@ -222,7 +222,7 @@ pub struct RankingSettings {
 impl Default for RankingSettings {
     fn default() -> Self {
         Self {
-            symbol_boost: 1.0,
+            symbol_boost: 0.5,
             phrase_boost: 1.0,
             quoted_phrase_boost: 2.0,
             language_boost: 1.0,
@@ -621,6 +621,10 @@ source = { kind = "local", path = "/srv/tokio" }
         assert_eq!(settings.http.listen.to_string(), "127.0.0.1:8080");
         assert_eq!(settings.http.max_in_flight, 64);
         assert!((settings.ranking.quoted_phrase_boost - 2.0).abs() < f32::EPSILON);
+        assert!(
+            (settings.ranking.symbol_boost - 0.5).abs() < f32::EPSILON,
+            "tuned in iteration 7"
+        );
         assert_eq!(settings.index.symbol_weight, 5);
         assert!(settings.user_agent.starts_with("zenodotus/0."));
     }
