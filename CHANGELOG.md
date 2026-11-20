@@ -32,6 +32,8 @@ and versions follow [Semantic Versioning](https://semver.org/).
   and the average field length (improvement-loop iteration 14, MRR@10 +0.3% on the dev set). No rebuild needed.
 - Searches no longer filter on the document kind: the required word group already matches only sections
   (improvement-loop iteration 17, identical results, p50 −17% and p95 −20% in `cargo xtask perf`). No rebuild needed.
+- The default `title_weight` is 3 instead of 4 (improvement-loop iteration 19, MRR@10 +0.01% on the dev set). An
+  index built with the old default asks for `sync --rebuild`.
 
 ### Fixed
 
