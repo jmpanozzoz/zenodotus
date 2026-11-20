@@ -1,0 +1,11 @@
+# Context7 library ids used by `zenodotus-eval compare`, pinned on 2026-11-20 to the first result that
+# Context7's own `resolve-library-id` returned for each library name.
+# Pydantic 1.10.24 is not offered; v1.10.18 is the closest 1.10 release Context7 lists.
+
+[libraries]
+fastapi = "/websites/fastapi_tiangolo"
+nextjs = "/vercel/next.js"
+tokio = "/websites/rs_tokio"
+vite = "/vitejs/vite"
+"pydantic@2.12" = "/pydantic/pydantic/v2.12.5"
+"pydantic@1.10" = "/pydantic/pydantic/v1.10.18"
