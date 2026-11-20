@@ -390,6 +390,8 @@ impl StoreWriter {
     ///
     /// An index error, or a corrupt payload. What was staged is rolled back, as in [`StoreWriter::apply`].
     pub fn record_failure(&mut self, snapshot: &VersionState, error: &str) -> Result<VersionState, SearchError> {
+        // A failed `apply` may have committed before its reader reload failed; the record must carry what is stored.
+        self.store.reload()?;
         let mut state = self.carried_state(snapshot)?;
         state.outcome = Outcome::Failed;
         state.last_error = Some(error.to_owned());
@@ -626,12 +628,14 @@ mod tests {
 
     /// A read-only index directory makes the commit fail. Root ignores the permission, so these tests need a
     /// regular user.
+    #[cfg(unix)]
     fn read_only(dir: &TempDir, read_only: bool) {
         use std::os::unix::fs::PermissionsExt;
         let mode = if read_only { 0o555 } else { 0o755 };
         fs::set_permissions(dir.path().join(INDEX_DIR), fs::Permissions::from_mode(mode)).unwrap();
     }
 
+    #[cfg(unix)]
     #[test]
     fn a_failed_commit_leaves_nothing_staged_for_the_failure_record() {
         let dir = TempDir::new().unwrap();
@@ -653,6 +657,7 @@ mod tests {
         assert_eq!(section_texts(writer.store(), &a), ["kept"]);
     }
 
+    #[cfg(unix)]
     #[test]
     fn a_failure_record_that_cannot_be_committed_leaves_the_previous_record() {
         let dir = TempDir::new().unwrap();
@@ -670,6 +675,7 @@ mod tests {
         assert_eq!((stored.outcome, stored.section_count), (Outcome::Ok, 1));
     }
 
+    #[cfg(unix)]
     #[test]
     fn a_failed_commit_keeps_the_pruned_scopes_for_the_next_one() {
         let dir = TempDir::new().unwrap();

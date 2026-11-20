@@ -28,7 +28,7 @@ const CONTENT_ROOTS: [&str; 7] = [
 ];
 
 /// Page furniture removed from the content root before conversion.
-const CHROME: &str = "nav, header, footer, aside, script, style, .toc, .sidebar";
+const CHROME: &str = "nav, footer, aside, script, style, .toc, .sidebar";
 
 /// Converts `html`, fetched from `url`. The content root is the first of [`CONTENT_ROOTS`] the page has, without
 /// [`CHROME`]; a page with none goes through Readability, which fails only on pages without any text, which become
@@ -182,7 +182,7 @@ shutting down. See <a href="../select/#cancel">select</a> and <a href="mailto:x@
 <nav class="navbar"><a href="/docs/">Docs</a></nav>
 <div class="sidebar">Sidebar entry</div>
 <main><div class="theme-doc-markdown">
-<h1>Hooks</h1><div class="toc">On this page</div>
+<header><h1>Hooks</h1></header><div class="toc">On this page</div>
 <p>Call <code>useState</code> at the top level.</p>
 <pre><code class="language-js">const [a, setA] = useState(0);</code></pre>
 <aside>Related posts</aside><script>track()</script>

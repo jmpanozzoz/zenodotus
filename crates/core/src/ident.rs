@@ -5,6 +5,9 @@
 
 use std::ops::Range;
 
+/// Words that queries and documents keep whole, before any splitting, when they stand alone.
+pub const PROTECTED_WORDS: [&str; 5] = ["c++", "c#", "f#", ".net", "node.js"];
+
 /// Separators that join identifiers into one qualified expression, longest first.
 pub const SEPARATORS: [&str; 4] = ["::", "->", ".", "#"];
 

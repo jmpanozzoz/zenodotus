@@ -12,7 +12,7 @@ pub const CODE_WORDS: &str = "code_words";
 pub const CODE_IDENT: &str = "code_ident";
 
 /// Words emitted whole, before any splitting, when they stand alone.
-const PROTECTED: [&str; 5] = ["c++", "c#", "f#", ".net", "node.js"];
+const PROTECTED: [&str; 5] = ident::PROTECTED_WORDS;
 
 /// Tokens of this many bytes or more are dropped.
 const MAX_TOKEN_BYTES: usize = 64;

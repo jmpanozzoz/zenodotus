@@ -103,6 +103,8 @@ pub(crate) enum Visit {
     NotModified,
     /// The server answered 404 or 410.
     Gone,
+    /// The URL redirects to another page, given without its fragment; nothing was indexed under it.
+    Moved(Url),
     /// The fetch failed; the error is recorded.
     Failed,
 }
@@ -122,6 +124,9 @@ pub(crate) struct Visiting<'a> {
     pub conditional: bool,
     /// Whether a 404 or 410 for a document never stored is an error rather than nothing.
     pub report_missing: bool,
+    /// Whether a redirect to another URL means the document moved: it is then not indexed under this key, and a
+    /// stored copy is deleted. Crawled pages are keyed by the URL that serves them; configured URLs are not.
+    pub follows_moves: bool,
 }
 
 impl Context<'_> {
@@ -185,6 +190,16 @@ impl Context<'_> {
             }
             Err(error) => return failed(changes, &error),
         };
+        if visiting.follows_moves {
+            let mut target = body.final_url.clone();
+            target.set_fragment(None);
+            if target != *visiting.url {
+                if previous.is_some() {
+                    changes.deletions.push(key.clone());
+                }
+                return Visit::Moved(target);
+            }
+        }
         let text = match body.text() {
             Ok(text) => text,
             Err(error) => return failed(changes, &error),
@@ -330,6 +345,7 @@ pub(crate) mod tests {
             max_bytes: 1000,
             conditional: true,
             report_missing: true,
+            follows_moves: false,
         }
     }
 

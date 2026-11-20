@@ -9,6 +9,7 @@ use sha2::{Digest, Sha256};
 use url::Url;
 
 use crate::error::CoreError;
+use crate::ident::PROTECTED_WORDS;
 use crate::ids::{LibraryId, Version, to_hex};
 use crate::model::SourceSpec;
 
@@ -382,11 +383,14 @@ impl RankingSettings {
             return invalid("ranking.synonyms", "words and synonym lists must not be empty");
         }
         // Queries are split into lowercase words before synonyms are looked up, so any other key never matches.
-        let one_word = |word: &String| word.chars().all(|c| c.is_alphanumeric() && !c.is_uppercase());
+        let one_word = |word: &String| {
+            PROTECTED_WORDS.contains(&word.as_str()) || word.chars().all(|c| c.is_alphanumeric() && !c.is_uppercase())
+        };
         if !self.synonyms.keys().all(one_word) {
             return invalid(
                 "ranking.synonyms",
-                "each word must be one lowercase word of letters and digits, as queries are split",
+                "each word must be one lowercase word of letters and digits, or a word queries keep whole such as \
+                 `node.js`, as queries are split",
             );
         }
         Ok(())
@@ -846,15 +850,20 @@ source = { kind = "local", path = "/srv/tokio" }
 
     #[test]
     fn synonym_keys_are_single_lowercase_words() {
-        for key in ["useState", "front-end", "two words", "snake_case"] {
+        for key in ["useState", "front-end", "two words", "snake_case", "Node.js"] {
             assert_eq!(
                 settings_error(&format!("[settings.ranking]\nsynonyms = {{ \"{key}\" = [\"x\"] }}")),
                 message(
                     "ranking.synonyms",
-                    "each word must be one lowercase word of letters and digits, as queries are split"
+                    "each word must be one lowercase word of letters and digits, or a word queries keep whole such \
+                     as `node.js`, as queries are split"
                 ),
                 "{key}"
             );
+        }
+        for key in PROTECTED_WORDS {
+            let text = format!("[settings.ranking]\nsynonyms = {{ \"{key}\" = [\"x\"] }}");
+            assert!(parse(&text).is_ok(), "{key}");
         }
     }
 

@@ -29,6 +29,7 @@ pub async fn collect_urls(ctx: &Context<'_>, urls: &[Url]) -> VersionChanges {
             max_bytes: ctx.settings.document_max_bytes,
             conditional: true,
             report_missing: true,
+            follows_moves: false,
         };
         ctx.visit(&visiting, &mut changes).await;
     }

@@ -47,8 +47,9 @@ impl CrawlScope<'_> {
     }
 }
 
-/// Crawls the site from the start page, the sitemap's pages and every stored page, so that a page whose only link
-/// is on an unchanged (304) page is still revisited. A page is deleted only when it answers 404 or 410, or when it
+/// Crawls the site from the start page, every stored page and the sitemap's pages, in that order, so that a page
+/// whose only link is on an unchanged (304) page is still revisited, and stored pages come before new ones when
+/// `max_pages` stops the crawl. A page that redirects is indexed under the URL it redirects to. A page is deleted only when it answers 404 or 410, or when it
 /// leaves the crawl scope; absence from a sitemap or from the pages reached is not evidence.
 ///
 /// # Errors
@@ -85,13 +86,13 @@ pub async fn collect_website(ctx: &Context<'_>, site: &Website<'_>) -> Result<Ve
         reached: BTreeSet::new(),
     };
     crawl.start(site.start_url).await?;
-    for page in sitemap_pages {
-        crawl.enqueue(page);
-    }
     for key in ctx.previous.keys() {
         if let Ok(page) = Url::parse(key.doc_path()) {
             crawl.enqueue(page);
         }
+    }
+    for page in sitemap_pages {
+        crawl.enqueue(page);
     }
     crawl.run(site.max_pages).await;
     Ok(crawl.finish())
@@ -124,6 +125,10 @@ impl Crawl<'_, '_> {
                 }
                 Ok(())
             }
+            Some(Visit::Moved(target)) => {
+                self.enqueue(target);
+                Ok(())
+            }
             Some(Visit::NotModified) => Ok(()),
             Some(Visit::Gone) => Err(IngestError::listing(start, &"the start page answers 404 or 410")),
             _ => {
@@ -147,10 +152,14 @@ impl Crawl<'_, '_> {
             let Some(page) = self.queue.pop_front() else {
                 return;
             };
-            if let Some(Visit::Fetched { links, .. }) = self.visit(&page, false).await {
-                for link in links {
-                    self.enqueue(link);
+            match self.visit(&page, false).await {
+                Some(Visit::Fetched { links, .. }) => {
+                    for link in links {
+                        self.enqueue(link);
+                    }
                 }
+                Some(Visit::Moved(target)) => self.enqueue(target),
+                _ => {}
             }
         }
     }
@@ -166,6 +175,7 @@ impl Crawl<'_, '_> {
             max_bytes: self.ctx.settings.page_max_bytes,
             conditional: true,
             report_missing,
+            follows_moves: true,
         };
         Some(self.ctx.visit(&visiting, &mut self.changes).await)
     }
@@ -244,7 +254,8 @@ async fn sitemap_pages(
     let mut read = 0;
     while let Some(sitemap) = queue.pop_front() {
         if read == MAX_SITEMAPS {
-            errors.push(sitemap_error(&sitemap, &format!("more than {MAX_SITEMAPS} sitemaps")));
+            let reason = format!("more than {MAX_SITEMAPS} sitemaps; later sitemaps were not read");
+            errors.push(sitemap_error(&sitemap, &reason));
             return Ok(pages);
         }
         read += 1;
@@ -256,7 +267,7 @@ async fn sitemap_pages(
                     SitemapOrigin::Listed => errors.push(sitemap_error(&sitemap, &reason)),
                     SitemapOrigin::Guessed => tracing::debug!(%sitemap, reason, "no usable sitemap"),
                 }
-                return Ok(pages);
+                continue;
             }
         };
         pages.extend(entries.pages.iter().filter_map(|page| sitemap.join(page).ok()));
@@ -287,7 +298,7 @@ fn sitemap_error(sitemap: &Url, reason: &str) -> DocError {
     DocError {
         doc_path: sitemap.to_string(),
         kind: "sitemap".to_owned(),
-        message: format!("{sitemap}: {reason}; later sitemaps were not read"),
+        message: format!("{sitemap}: {reason}"),
     }
 }
 
@@ -410,6 +421,49 @@ mod tests {
     }
 
     #[tokio::test]
+    async fn a_page_that_redirects_is_indexed_under_its_target_and_its_old_key_deleted() {
+        let server = MockServer::start().await;
+        let uri = server.uri();
+        let at = |p: &str| format!("{uri}{p}");
+        serve(&server, "/robots.txt", 404, "text/plain", "").await;
+        serve(&server, "/sitemap.xml", 404, "text/plain", "").await;
+        html(&server, "/docs/", r#"<a href="/docs/short">s</a>"#).await;
+        for (from, to) in [("/docs/old", "/docs/new"), ("/docs/short", "/docs/new")] {
+            Mock::given(path(from))
+                .respond_with(ResponseTemplate::new(301).insert_header("location", to))
+                .mount(&server)
+                .await;
+        }
+        html(&server, "/docs/new", "New").await;
+        let start = url(&at("/docs/"));
+        let mut harness = Harness::new();
+        harness.remember(&at("/docs/old"), "old", None);
+        let changes = collect_website(&harness.context(), &site(&start, &[])).await.unwrap();
+        assert_eq!(upserted(&changes), [at("/docs/"), at("/docs/new")]);
+        assert_eq!(paths(&changes.deletions), [at("/docs/old").as_str()]);
+        assert!(changes.errors.is_empty(), "{:?}", errors(&changes));
+    }
+
+    #[tokio::test]
+    async fn a_start_page_that_redirects_is_crawled_from_its_target() {
+        let server = MockServer::start().await;
+        let uri = server.uri();
+        let at = |p: &str| format!("{uri}{p}");
+        serve(&server, "/robots.txt", 404, "text/plain", "").await;
+        serve(&server, "/sitemap.xml", 404, "text/plain", "").await;
+        Mock::given(path("/docs"))
+            .respond_with(ResponseTemplate::new(301).insert_header("location", "/docs/"))
+            .mount(&server)
+            .await;
+        html(&server, "/docs/", "Home").await;
+        let start = url(&at("/docs"));
+        let changes = collect_website(&Harness::new().context(), &site(&start, &[]))
+            .await
+            .unwrap();
+        assert_eq!(upserted(&changes), [at("/docs/")]);
+    }
+
+    #[tokio::test]
     async fn without_a_sitemap_stored_pages_are_revisited_and_never_deleted_for_being_unreached() {
         let server = MockServer::start().await;
         let uri = server.uri();
@@ -445,7 +499,7 @@ mod tests {
     }
 
     #[tokio::test]
-    async fn max_pages_stops_the_crawl_and_leaves_the_listing_incomplete() {
+    async fn max_pages_stops_the_crawl_after_the_stored_pages() {
         let server = MockServer::start().await;
         let uri = server.uri();
         let at = |p: &str| format!("{uri}{p}");
@@ -460,6 +514,7 @@ mod tests {
         .await;
         html(&server, "/", "home").await;
         html(&server, "/a", "A").await;
+        html(&server, "/c", "C").await;
         let start = url(&at("/"));
         let configured = url(&at("/map.xml"));
         let mut harness = Harness::new();
@@ -470,12 +525,12 @@ mod tests {
             ..site(&start, &[])
         };
         let changes = collect_website(&harness.context(), &website).await.unwrap();
-        assert_eq!(upserted(&changes), [at("/"), at("/a")]);
+        assert_eq!(upserted(&changes), [at("/"), at("/c")]);
         assert_eq!(paths(&changes.deletions), [] as [&str; 0]);
     }
 
     #[tokio::test]
-    async fn a_crawl_that_ends_exactly_at_max_pages_is_complete() {
+    async fn a_crawl_that_ends_exactly_at_max_pages_reaches_every_page() {
         let server = MockServer::start().await;
         let uri = server.uri();
         let at = |p: &str| format!("{uri}{p}");
@@ -653,7 +708,7 @@ mod tests {
                     ("/listed.xml", 500, ""),
                 ],
                 None,
-                Some("/listed.xml: HTTP status 500; later sitemaps were not read (sitemap)"),
+                Some("/listed.xml: HTTP status 500 (sitemap)"),
             ),
             (
                 &[("/robots.txt", 404, ""), ("/index.xml", 200, looping)],
@@ -672,15 +727,23 @@ mod tests {
     }
 
     #[tokio::test]
-    async fn a_listed_sitemap_on_another_host_is_reported() {
-        let routes = [("/robots.txt", 200, "Sitemap: https://cdn.example/sitemap.xml")];
-        let (changes, _) = crawl_with(&routes, None).await;
+    async fn a_listed_sitemap_on_another_host_is_reported_and_the_next_one_read() {
+        let robots = "Sitemap: https://cdn.example/sitemap.xml\nSitemap: {uri}/pages.xml";
+        let pages = "<urlset><url><loc>{uri}/listed</loc></url></urlset>";
+        let routes = [
+            ("/robots.txt", 200, robots),
+            ("/pages.xml", 200, pages),
+            ("/listed", 200, "# Listed"),
+        ];
+        let (changes, uri) = crawl_with(&routes, None).await;
         assert_eq!(
             messages(&changes),
-            [
-                "https://cdn.example/sitemap.xml: the host is not one this source may reach; later sitemaps \
-                 were not read (sitemap)"
-            ]
+            ["https://cdn.example/sitemap.xml: the host is not one this source may reach (sitemap)"]
+        );
+        assert!(
+            upserted(&changes).contains(&format!("{uri}/listed").as_str()),
+            "{:?}",
+            upserted(&changes)
         );
     }
 
