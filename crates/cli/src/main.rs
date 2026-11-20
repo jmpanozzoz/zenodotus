@@ -10,6 +10,7 @@ use tracing_subscriber::EnvFilter;
 use zenodotus::app::{Context, run};
 use zenodotus::args::Cli;
 use zenodotus_core::time::SystemClock;
+use zenodotus_ingest::github::GitHub;
 
 /// The environment variable that sets the log filter, such as `info` or `zenodotus_mcp=debug`.
 const LOG_VARIABLE: &str = "ZENODOTUS_LOG";
@@ -30,6 +31,7 @@ fn main() -> ExitCode {
     let mut ctx = Context {
         env: &env,
         clock: &SystemClock,
+        github: &GitHub::default(),
         out: &mut stdout,
     };
     match runtime.block_on(run(cli, &mut ctx)) {

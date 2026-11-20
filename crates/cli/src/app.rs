@@ -12,6 +12,7 @@ use zenodotus_core::config_edit::{LibraryMeta, add_version, init_template, write
 use zenodotus_core::ids::{LibraryId, Version};
 use zenodotus_core::model::{DEFAULT_MAX_PAGES, SourceSpec, VersionState};
 use zenodotus_core::time::Clock;
+use zenodotus_ingest::github::GitHub;
 use zenodotus_mcp::render::query_markdown;
 use zenodotus_mcp::server::{MAX_CHARS, MAX_RESULTS, bounded};
 use zenodotus_mcp::transport::{HttpOptions, HttpServer, MCP_PATH, serve_stdio};
@@ -23,10 +24,13 @@ use zenodotus_search::store::{INDEX_DIR, Store};
 use crate::args::{AddArgs, Cli, Command, SearchArgs, ServeArgs, SyncArgs};
 use crate::error::AppError;
 use crate::output;
-use crate::sync::{self, Paths, Selection};
+use crate::sync::{self, Paths, Selection, Sources};
 
 /// The environment variable holding the HTTP bearer token.
 pub const TOKEN_VARIABLE: &str = "ZENODOTUS_HTTP_TOKEN";
+
+/// The environment variable holding a GitHub token, which only raises the API rate limit.
+pub const GITHUB_TOKEN_VARIABLE: &str = "GITHUB_TOKEN";
 
 /// What a command reads and writes besides its arguments.
 pub struct Context<'a> {
@@ -34,6 +38,8 @@ pub struct Context<'a> {
     pub env: Env<'a>,
     /// The wall clock.
     pub clock: &'a dyn Clock,
+    /// The GitHub endpoints; the token comes from [`GITHUB_TOKEN_VARIABLE`].
+    pub github: &'a GitHub,
     /// Where results go; logs and errors go to stderr.
     pub out: &'a mut dyn Write,
 }
@@ -49,7 +55,7 @@ pub async fn run(cli: Cli, ctx: &mut Context<'_>) -> Result<(), AppError> {
         Command::Init => init(&config_path, ctx),
         Command::Add(args) => add(&config_path, &args, ctx),
         Command::List(flag) => list(&config_path, flag.json, ctx),
-        Command::Sync(args) => sync_command(&config_path, &args, ctx),
+        Command::Sync(args) => sync_command(&config_path, &args, ctx).await,
         Command::Search(args) => search(&config_path, &args, ctx),
         Command::Serve(args) => serve(&config_path, &args, ctx).await,
         Command::Status(flag) => status(&config_path, flag.json, ctx),
@@ -190,7 +196,7 @@ fn directory_size(path: &Path) -> Result<u64, AppError> {
 }
 
 /// `sync`.
-fn sync_command(config_path: &Path, args: &SyncArgs, ctx: &mut Context<'_>) -> Result<(), AppError> {
+async fn sync_command(config_path: &Path, args: &SyncArgs, ctx: &mut Context<'_>) -> Result<(), AppError> {
     let (config, data_dir) = load(config_path, ctx.env)?;
     let selection = match (args.id.as_deref(), args.version.as_deref()) {
         _ if args.rebuild => Selection::Rebuild,
@@ -202,7 +208,15 @@ fn sync_command(config_path: &Path, args: &SyncArgs, ctx: &mut Context<'_>) -> R
         config: config_path,
         data_dir: &data_dir,
     };
-    let report = sync::sync(&config, paths, selection, ctx.clock)?;
+    let github = GitHub {
+        token: (ctx.env)(GITHUB_TOKEN_VARIABLE).filter(|token| !token.is_empty()),
+        ..ctx.github.clone()
+    };
+    let sources = Sources {
+        clock: ctx.clock,
+        github: &github,
+    };
+    let report = sync::sync(&config, paths, selection, sources).await?;
     write!(ctx.out, "{}", output::sync_text(&report))?;
     if report.abandoned {
         return Err(AppError::RebuildAbandoned { count: report.failed() });
@@ -270,9 +284,20 @@ mod tests {
     use tempfile::TempDir;
     use zenodotus_core::CoreError;
     use zenodotus_core::time::{FixedClock, Timestamp};
+    use zenodotus_ingest::IngestError;
 
     use super::*;
     use crate::lock::SyncLock;
+
+    /// GitHub endpoints that the default fetch settings refuse before connecting, because they use `http`.
+    fn unreachable_github() -> GitHub {
+        let local = Url::parse("http://127.0.0.1:9/").unwrap();
+        GitHub {
+            api: local.clone(),
+            codeload: local,
+            token: None,
+        }
+    }
 
     /// A home directory with a docs tree; the config lives at `<home>/zenodotus.toml`.
     struct Home {
@@ -316,11 +341,16 @@ mod tests {
 
         async fn run_argv(&self, argv: &[&str], out: &mut dyn Write) -> Result<(), AppError> {
             let home = self.dir.path().display().to_string();
-            let env = move |name: &str| (name == "HOME").then(|| home.clone());
+            let env = move |name: &str| match name {
+                "HOME" => Some(home.clone()),
+                GITHUB_TOKEN_VARIABLE => Some("test-token".to_owned()),
+                _ => None,
+            };
             let clock = FixedClock::new(Timestamp::from_unix(1_700_000_000));
             let mut ctx = Context {
                 env: &env,
                 clock: &clock,
+                github: &unreachable_github(),
                 out,
             };
             run(Cli::try_parse_from(argv).unwrap(), &mut ctx).await
@@ -499,7 +529,8 @@ mod tests {
         assert!(lines[2].starts_with("  last error: source directory "), "{out}");
         assert_eq!(
             lines[4],
-            "  last error: github:owner/repo sources are not supported by this build"
+            "  last error: cannot list http://127.0.0.1:9/repos/owner/repo/commits/HEAD: \
+             the scheme is not allowed; only https URLs are fetched"
         );
         home.write("docs/huge.md", &"x".repeat(20));
         let config = std::fs::read_to_string(home.path("zenodotus.toml")).unwrap();
@@ -507,6 +538,17 @@ mod tests {
         std::fs::write(home.path("zenodotus.toml"), config).unwrap();
         let error = home.fail(&["sync", "tokio"]).await;
         assert!(matches!(error, AppError::Incomplete { count: 1 }), "{error}");
+    }
+
+    #[tokio::test]
+    async fn a_user_agent_that_cannot_be_sent_stops_the_sync() {
+        let home = Home::new().with_tokio().await;
+        let config = std::fs::read_to_string(home.path("zenodotus.toml")).unwrap();
+        let config = config.replace("[settings]\n", "[settings]\nuser_agent = \"bad\\u0001agent\"\n");
+        std::fs::write(home.path("zenodotus.toml"), config).unwrap();
+        let error = home.fail(&["sync"]).await;
+        assert!(matches!(error, AppError::Ingest(IngestError::Client { .. })), "{error}");
+        assert_eq!(error.exit_code(), 1);
     }
 
     #[tokio::test]
@@ -674,6 +716,7 @@ mod tests {
         let mut ctx = Context {
             env: &env,
             clock: &clock,
+            github: &unreachable_github(),
             out: &mut out,
         };
         let error = run(Cli::try_parse_from(["zenodotus", "list"]).unwrap(), &mut ctx)

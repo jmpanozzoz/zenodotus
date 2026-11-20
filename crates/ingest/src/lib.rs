@@ -5,9 +5,20 @@
 
 pub mod document;
 pub mod error;
+pub mod fetch;
+pub mod github;
+pub mod guard;
+pub mod html;
+pub mod llms_txt;
 pub mod local;
 pub mod markdown;
+pub mod retry;
+pub mod robots;
 pub mod sectioner;
+pub mod sitemap;
+pub mod source;
 pub mod symbols;
+pub mod url;
+pub mod website;
 
 pub use error::IngestError;

@@ -159,7 +159,7 @@ fn read(file: &ListedFile, max_bytes: u64) -> Result<String, DocError> {
 }
 
 /// Whether `relative` has a Markdown extension, ignoring ASCII case.
-fn is_markdown(relative: &str) -> bool {
+pub(crate) fn is_markdown(relative: &str) -> bool {
     Path::new(relative)
         .extension()
         .is_some_and(|ext| MARKDOWN_EXTENSIONS.iter().any(|md| ext.eq_ignore_ascii_case(md)))

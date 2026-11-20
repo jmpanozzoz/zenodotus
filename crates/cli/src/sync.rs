@@ -1,14 +1,18 @@
 //! `sync`: ingest every selected version and apply it to the index, one commit per version.
 
 use std::collections::BTreeMap;
-use std::path::{Path, PathBuf};
+use std::path::Path;
+use std::sync::Arc;
 
 use zenodotus_core::config::{Config, LibrarySpec, VersionSpec};
 use zenodotus_core::ids::{DocKey, LibraryId, Scope};
-use zenodotus_core::model::{DocState, Outcome, SourceSpec, VersionChanges, VersionState};
+use zenodotus_core::model::{DocState, Outcome, VersionChanges, VersionState};
 use zenodotus_core::time::{Clock, Timestamp};
-use zenodotus_ingest::local::{Limits, LocalSource, collect_local};
+use zenodotus_ingest::fetch::Fetcher;
+use zenodotus_ingest::github::GitHub;
+use zenodotus_ingest::guard::SystemResolve;
 use zenodotus_ingest::sectioner::SectionRules;
+use zenodotus_ingest::source::{self, Context};
 use zenodotus_search::store::{StoreWriter, discard_rebuilt, swap_rebuilt};
 
 use crate::error::AppError;
@@ -121,20 +125,47 @@ pub struct Paths<'a> {
     pub data_dir: &'a Path,
 }
 
+/// What every version of a sync reads its documents with.
+#[derive(Clone, Copy)]
+pub struct Sources<'a> {
+    /// The time source.
+    pub clock: &'a dyn Clock,
+    /// The GitHub endpoints and token.
+    pub github: &'a GitHub,
+}
+
+/// What [`sync_version`] needs besides the target.
+struct Run<'a> {
+    config: &'a Config,
+    config_path: &'a Path,
+    clock: &'a dyn Clock,
+    fetcher: &'a Fetcher,
+    github: &'a GitHub,
+}
+
 /// Syncs the `selection` of `config`, holding the sync lock throughout.
 ///
 /// # Errors
 ///
 /// [`AppError::Busy`] when another sync runs, [`AppError::Usage`] or [`AppError::Core`] for a selection that is not
-/// configured, and [`AppError::Search`] for index failures. Versions that end `partial` or `failed`, and an abandoned
-/// rebuild, are only reported.
-pub fn sync(
+/// configured, [`AppError::Ingest`] when the HTTP client cannot be built, and [`AppError::Search`] for index failures.
+/// Versions that end `partial` or `failed`, and an abandoned rebuild, are only reported.
+pub async fn sync(
     config: &Config,
     paths: Paths<'_>,
     selection: Selection<'_>,
-    clock: &dyn Clock,
+    sources: Sources<'_>,
 ) -> Result<SyncReport, AppError> {
     let targets = select(config, selection)?;
+    let settings = &config.settings;
+    let fetcher = Fetcher::new(&settings.fetch, &settings.user_agent, Arc::new(SystemResolve))?;
+    let run = Run {
+        config,
+        config_path: paths.config,
+        clock: sources.clock,
+        fetcher: &fetcher,
+        github: sources.github,
+    };
     let _lock = SyncLock::acquire(paths.data_dir)?;
     let rebuild = selection == Selection::Rebuild;
     let mut writer = if rebuild {
@@ -151,9 +182,7 @@ pub fn sync(
         }
     }
     for target in &targets {
-        report
-            .versions
-            .push(sync_version(&mut writer, target, config, paths.config, clock)?);
+        report.versions.push(sync_version(&mut writer, target, &run).await?);
     }
     writer.finish()?;
     if rebuild {
@@ -198,16 +227,15 @@ fn select<'a>(config: &'a Config, selection: Selection<'_>) -> Result<Vec<Target
 
 /// Ingests one version and applies it in one commit; a version whose documents cannot be listed is recorded as
 /// `failed` without touching its sections.
-fn sync_version(
-    writer: &mut StoreWriter,
-    target: &Target<'_>,
-    config: &Config,
-    config_path: &Path,
-    clock: &dyn Clock,
-) -> Result<VersionReport, AppError> {
-    let snapshot = target.snapshot(clock.now());
+async fn sync_version(writer: &mut StoreWriter, target: &Target<'_>, run: &Run<'_>) -> Result<VersionReport, AppError> {
+    let snapshot = target.snapshot(run.clock.now());
     let previous = writer.store().doc_states(&snapshot.scope)?;
-    match collect(target, config, config_path, &previous, clock) {
+    let previous_commit = writer
+        .store()
+        .version_state(&snapshot.scope)?
+        .filter(|state| state.outcome == Outcome::Ok)
+        .and_then(|state| state.resolved_commit);
+    match collect(target, run, &previous, previous_commit.as_deref()).await {
         Ok(changes) => {
             let state = writer.apply(&snapshot, &changes)?;
             Ok(VersionReport {
@@ -229,33 +257,28 @@ fn sync_version(
 }
 
 /// Lists and reads the documents of one version.
-fn collect(
+async fn collect(
     target: &Target<'_>,
-    config: &Config,
-    config_path: &Path,
+    run: &Run<'_>,
     previous: &BTreeMap<DocKey, DocState>,
-    clock: &dyn Clock,
+    previous_commit: Option<&str>,
 ) -> Result<VersionChanges, String> {
-    let SourceSpec::Local { path, include, exclude } = &target.spec.source else {
-        return Err(format!(
-            "{} sources are not supported by this build",
-            target.spec.source.describe()
-        ));
-    };
-    let root = local_root(config_path, path);
-    let source = LocalSource {
-        root: &root,
-        include,
-        exclude,
-    };
-    let limits = Limits {
-        max_bytes: config.settings.fetch.page_max_bytes,
+    let scope = target.scope();
+    let settings = &run.config.settings;
+    let ctx = Context {
+        scope: &scope,
+        previous,
+        previous_commit,
+        clock: run.clock,
+        fetcher: run.fetcher,
+        settings: &settings.fetch,
+        user_agent: &settings.user_agent,
         rules: SectionRules::default(),
+        extra_hosts: &target.spec.extra_hosts,
+        base_dir: run.config_path.parent().unwrap_or(Path::new("")),
+        github: run.github,
     };
-    collect_local(&target.scope(), &source, previous, clock, &limits).map_err(|error| error.to_string())
-}
-
-/// A local source root: `path` itself when absolute, otherwise taken from the config file's directory.
-fn local_root(config_path: &Path, path: &Path) -> PathBuf {
-    config_path.parent().unwrap_or(Path::new("")).join(path)
+    source::collect(&target.spec.source, &ctx)
+        .await
+        .map_err(|error| error.to_string())
 }

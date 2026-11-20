@@ -3,6 +3,7 @@
 use std::path::PathBuf;
 
 use zenodotus_core::CoreError;
+use zenodotus_ingest::IngestError;
 use zenodotus_mcp::ServeError;
 use zenodotus_search::SearchError;
 
@@ -18,6 +19,9 @@ pub enum AppError {
     /// The index cannot be read or written.
     #[error(transparent)]
     Search(#[from] SearchError),
+    /// The HTTP client for remote sources cannot be built.
+    #[error(transparent)]
+    Ingest(#[from] IngestError),
     /// The MCP server cannot start or failed.
     #[error(transparent)]
     Serve(#[from] ServeError),
@@ -65,7 +69,7 @@ impl AppError {
             Self::Search(SearchError::Locked) | Self::Busy { .. } => 4,
             Self::Search(SearchError::SchemaMismatch { .. }) | Self::Serve(ServeError::InsecureBind { .. }) => 2,
             Self::Incomplete { .. } | Self::RebuildAbandoned { .. } => 3,
-            Self::Search(_) | Self::Serve(_) | Self::Io { .. } | Self::Output(_) => 1,
+            Self::Search(_) | Self::Serve(_) | Self::Ingest(_) | Self::Io { .. } | Self::Output(_) => 1,
         }
     }
 
