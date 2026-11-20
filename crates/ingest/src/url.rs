@@ -76,4 +76,19 @@ mod tests {
         assert_eq!(errors(&changes).len(), 1);
         assert!(errors(&changes)[0].ends_with("(invalid_path)"));
     }
+
+    #[tokio::test]
+    async fn a_configured_url_that_redirects_to_another_host_is_an_error_and_keeps_its_copy() {
+        let server = MockServer::start().await;
+        Mock::given(path("/doc.md"))
+            .respond_with(ResponseTemplate::new(301).insert_header("location", "https://elsewhere.example/doc.md"))
+            .mount(&server)
+            .await;
+        let doc = url(&format!("{}/doc.md", server.uri()));
+        let mut harness = Harness::new();
+        harness.remember(doc.as_str(), "old", None);
+        let changes = collect_urls(&harness.context(), std::slice::from_ref(&doc)).await;
+        assert_eq!(paths(&changes.deletions), [] as [&str; 0]);
+        assert_eq!(errors(&changes), [format!("{doc} (host_not_allowed)")]);
+    }
 }
