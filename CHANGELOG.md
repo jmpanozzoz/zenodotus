@@ -30,6 +30,8 @@ and versions follow [Semantic Versioning](https://semver.org/).
   index built with the old default asks for `sync --rebuild`.
 - BM25 counts only section documents: the per-document and per-version state no longer enters the document count
   and the average field length (improvement-loop iteration 14, MRR@10 +0.3% on the dev set). No rebuild needed.
+- Searches no longer filter on the document kind: the required word group already matches only sections
+  (improvement-loop iteration 17, identical results, p50 −17% and p95 −20% in `cargo xtask perf`). No rebuild needed.
 
 ### Fixed
 
