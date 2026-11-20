@@ -10,7 +10,7 @@ use zenodotus_core::config::RankingSettings;
 use zenodotus_core::ids::Scope;
 use zenodotus_core::model::{Section, VersionState};
 
-use crate::analyzer::{code_ident, code_words};
+use crate::analyzer::{code_ident, code_words, query_symbols};
 use crate::error::SearchError;
 use crate::fences::split_code;
 use crate::render_model::{Notice, NoticeKind, QueryDocsResult, ResultItem, Signal, SyncStatus, VersionResolution};
@@ -50,7 +50,7 @@ pub struct Analyzed {
     pub required: Vec<String>,
     /// Distinct stop words that only add to the score, when there are non-stop words.
     pub optional: Vec<String>,
-    /// Identifier terms, as `code_ident` emits them.
+    /// Exact-symbol terms: the expressions of the query that look like code, as `query_symbols` emits them.
     pub identifiers: Vec<String>,
     /// The words of each "quoted" part with two or more words.
     pub quoted: Vec<Vec<String>>,
@@ -100,7 +100,7 @@ pub fn analyze(query: &str) -> Result<Analyzed, SearchError> {
     } else {
         (stop, Vec::new())
     };
-    let mut identifiers = code_ident(query);
+    let mut identifiers = query_symbols(query);
     identifiers.truncate(MAX_QUERY_TERMS);
     let quoted = query
         .split('"')
@@ -635,7 +635,7 @@ mod tests {
         );
         assert_eq!(analyzed.required, ["use", "tokio", "spawn", "blocking", "tasks", "x"]);
         assert_eq!(analyzed.optional, ["how", "do", "i", "with", "and"]);
-        assert!(analyzed.identifiers.contains(&"tokio.spawn".to_owned()));
+        assert_eq!(analyzed.identifiers, ["tokio.spawn"]);
         assert_eq!(analyzed.quoted, [["blocking", "tasks"]]);
         assert!(analyzed.has_content_words);
 
@@ -653,7 +653,7 @@ mod tests {
         assert!(analyze(&longest).is_ok());
         let error = analyze(&format!("{longest}x")).unwrap_err();
         assert_eq!(error.to_string(), "the query has 1001 characters; the limit is 1000");
-        let many: Vec<String> = (0..100).map(|i| format!("w{i}")).collect();
+        let many: Vec<String> = (0..100).map(|i| format!("w_{i}")).collect();
         let analyzed = analyze(&many.join(" ")).unwrap();
         assert_eq!(
             (analyzed.words.len(), analyzed.identifiers.len()),

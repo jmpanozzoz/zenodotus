@@ -131,6 +131,27 @@ pub fn code_ident(text: &str) -> Vec<String> {
     terms
 }
 
+/// The exact-symbol terms of a query: the [`code_ident`] terms of each expression that looks like code
+/// ([`ident::is_symbol_like`]), keeping only the qualified forms of a qualified expression. Plain words and the bare
+/// last part of a path are left to the full-text field, which already scores them.
+#[must_use]
+pub fn query_symbols(text: &str) -> Vec<String> {
+    let mut terms: Vec<String> = Vec::new();
+    for range in ident::expressions(text) {
+        let expression = &text[range];
+        if !ident::is_symbol_like(expression) {
+            continue;
+        }
+        let qualified = ident::parts(expression).len() > 1;
+        for term in code_ident(expression) {
+            if (!qualified || term.contains('.')) && !terms.contains(&term) {
+                terms.push(term);
+            }
+        }
+    }
+    terms
+}
+
 /// A token stream over precomputed tokens.
 #[derive(Debug)]
 pub struct Tokens {
@@ -302,6 +323,21 @@ mod tests {
         assert_eq!(code_ident("a + b"), ["a", "b"]);
         assert_eq!(code_ident("__"), [] as [String; 0]);
         assert_eq!(code_ident("—"), [] as [String; 0]);
+    }
+
+    #[test]
+    fn query_symbols_are_only_what_looks_like_code_in_its_qualified_forms() {
+        assert_eq!(
+            query_symbols("run my own validator function on a query"),
+            [] as [String; 0]
+        );
+        assert_eq!(query_symbols("How do I use tokio::spawn here"), ["tokio.spawn"]);
+        assert_eq!(query_symbols("std::sync::Arc"), ["std.sync.arc", "sync.arc"]);
+        assert_eq!(
+            query_symbols("BaseModel with validate_call, again validate_call"),
+            ["basemodel", "validate_call", "validatecall"]
+        );
+        assert_eq!(query_symbols("node->next_item"), ["node.next_item", "node.nextitem"]);
     }
 
     #[test]
