@@ -83,8 +83,9 @@ documents, plus `sync.lock`.
   Readers never move directories: after a crash between the two renames of a rebuild's swap they read `index.old/`,
   and the next `sync`, which holds the lock, repairs the layout and deletes any leftover `index.old/`.
 - The commit payload holds the schema version and a hash of `[settings.index]`. A mismatch at open fails with
-  `schema_mismatch` and asks for `zenodotus sync --rebuild`, which builds a new index and swaps it in only when every
-  version succeeds.
+  `schema_mismatch` and asks for `zenodotus sync --rebuild`, which builds a new index and swaps it in when no version
+  fails. Documents that fail during a rebuild are absent from the new index until a later sync reads them. A running
+  server keeps the store it opened, so restart it after a rebuild; plain syncs need no restart.
 
 ## Incremental sync
 

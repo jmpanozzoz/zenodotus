@@ -231,25 +231,39 @@ async fn sync_version(writer: &mut StoreWriter, target: &Target<'_>, run: &Run<'
     let snapshot = target.snapshot(run.clock.now());
     let previous = writer.store().doc_states(&snapshot.scope)?;
     let previous_commit = reusable_commit(writer.store().version_state(&snapshot.scope)?, &snapshot.source);
-    match collect(target, run, &previous, previous_commit.as_deref()).await {
-        Ok(changes) => {
-            let state = writer.apply(&snapshot, &changes)?;
-            Ok(VersionReport {
-                state,
-                upserted: changes.upserts.len(),
-                deleted: changes.deletions.len(),
-                unchanged: changes.unchanged.len(),
-                failed: changes.errors.len(),
-            })
-        }
-        Err(error) => Ok(VersionReport {
-            state: writer.record_failure(&snapshot, &error)?,
-            upserted: 0,
-            deleted: 0,
-            unchanged: 0,
-            failed: 0,
-        }),
-    }
+    let collected = collect(target, run, &previous, previous_commit.as_deref()).await;
+    settle(writer, &snapshot, collected)
+}
+
+/// Stores the outcome of one version: its changes in one commit, or a `failed` record when its documents could not
+/// be listed or the commit could not be made. Only a failure to store that record stops the sync.
+fn settle(
+    writer: &mut StoreWriter,
+    snapshot: &VersionState,
+    collected: Result<VersionChanges, String>,
+) -> Result<VersionReport, AppError> {
+    let error = match collected {
+        Ok(changes) => match writer.apply(snapshot, &changes) {
+            Ok(state) => {
+                return Ok(VersionReport {
+                    state,
+                    upserted: changes.upserts.len(),
+                    deleted: changes.deletions.len(),
+                    unchanged: changes.unchanged.len(),
+                    failed: changes.errors.len(),
+                });
+            }
+            Err(error) => format!("cannot apply the changes: {error}"),
+        },
+        Err(error) => error,
+    };
+    Ok(VersionReport {
+        state: writer.record_failure(snapshot, &error)?,
+        upserted: 0,
+        deleted: 0,
+        unchanged: 0,
+        failed: 0,
+    })
 }
 
 /// The commit of the last sync, when it succeeded on the same source: an unchanged commit then needs no download.
@@ -289,7 +303,9 @@ async fn collect(
 
 #[cfg(test)]
 mod tests {
+    use zenodotus_core::config::IndexSettings;
     use zenodotus_core::ids::{LibraryId, Scope, Version};
+    use zenodotus_core::model::Document;
     use zenodotus_core::time::Timestamp;
 
     use super::*;
@@ -316,6 +332,42 @@ mod tests {
             section_count: 0,
             resolved_commit: commit.map(str::to_owned),
         }
+    }
+
+    #[test]
+    fn a_change_set_that_cannot_be_applied_is_recorded_as_failed() {
+        let dir = tempfile::TempDir::new().unwrap();
+        let mut writer = StoreWriter::open(dir.path(), &IndexSettings::default()).unwrap();
+        let snapshot = state("local:docs", Outcome::Ok, None);
+        let other = Scope::new(LibraryId::parse("other").unwrap(), Version::parse("1").unwrap());
+        let foreign = Document {
+            state: DocState {
+                doc_key: DocKey::new(&other, "a.md").unwrap(),
+                etag: None,
+                last_modified: None,
+                content_hash: "0".repeat(64),
+                fetched_at: Timestamp::from_unix(0),
+            },
+            sections: Vec::new(),
+        };
+        let changes = VersionChanges {
+            upserts: vec![foreign],
+            listing_complete: true,
+            ..VersionChanges::default()
+        };
+        let report = settle(&mut writer, &snapshot, Ok(changes)).unwrap();
+        assert_eq!(report.state.outcome, Outcome::Failed);
+        let error = report.state.last_error.unwrap();
+        assert!(error.starts_with("cannot apply the changes: "), "{error}");
+        assert_eq!(
+            (report.upserted, report.deleted, report.unchanged, report.failed),
+            (0, 0, 0, 0)
+        );
+        let listing = settle(&mut writer, &snapshot, Err("cannot list x: gone".to_owned())).unwrap();
+        assert_eq!(listing.state.last_error.as_deref(), Some("cannot list x: gone"));
+        let applied = settle(&mut writer, &snapshot, Ok(VersionChanges::default())).unwrap();
+        assert_eq!(applied.state.outcome, Outcome::Ok);
+        writer.finish().unwrap();
     }
 
     #[test]

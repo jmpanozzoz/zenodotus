@@ -25,6 +25,7 @@ and versions follow [Semantic Versioning](https://semver.org/).
 ### Fixed
 
 - Request headers that carry credentials are no longer sent to another origin after a redirect.
+- A version whose changes cannot be stored is recorded as `failed`, and the sync goes on with the next version.
 - Fetched titles, headings and source references are rendered inside the data markers, not before them.
 - HTML pages keep their documentation root or landmark without navigation, as designed; Readability is the fallback.
 - Sitemaps: CDATA locations are read, nested `<image:loc>` and empty locations are ignored, and a sitemap that is not
