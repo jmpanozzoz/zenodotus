@@ -49,7 +49,7 @@ impl Default for GitHub {
     }
 }
 
-/// Resolves the reference to a commit and indexes the repository's Markdown files under `paths` at that commit.
+/// Resolves the reference to a commit (a full commit id is used as is, without asking the API) and indexes the repository's Markdown files under `paths` at that commit.
 /// When the commit equals the last one synced, every stored document is confirmed without downloading anything.
 /// The tarball lists every file, so a stored document missing from it is deleted; one that is present but cannot be
 /// read keeps its previous content.
@@ -63,7 +63,10 @@ pub async fn collect_github(
     paths: &[String],
 ) -> Result<VersionChanges, IngestError> {
     let hosts = HostSet::of(&[&ctx.github.api, &ctx.github.codeload], ctx.extra_hosts);
-    let commit = resolve_commit(ctx, repo, reference.unwrap_or("HEAD"), &hosts).await?;
+    let commit = match reference {
+        Some(reference) if is_commit_id(reference) => reference.to_owned(),
+        reference => resolve_commit(ctx, repo, reference.unwrap_or("HEAD"), &hosts).await?,
+    };
     let mut changes = VersionChanges {
         resolved_commit: Some(commit.clone()),
         ..VersionChanges::default()
@@ -155,11 +158,16 @@ async fn resolve_commit(
         Err(error) => return Err(IngestError::listing(&url, &error)),
     };
     let commit = String::from_utf8_lossy(&body.bytes).trim().to_owned();
-    if commit.len() == 40 && commit.bytes().all(|byte| matches!(byte, b'0'..=b'9' | b'a'..=b'f')) {
+    if is_commit_id(&commit) {
         Ok(commit)
     } else {
         Err(IngestError::listing(&url, &"the answer is not a commit id"))
     }
+}
+
+/// Whether `text` is a full commit id: 40 lowercase hex digits.
+fn is_commit_id(text: &str) -> bool {
+    text.len() == 40 && text.bytes().all(|byte| matches!(byte, b'0'..=b'9' | b'a'..=b'f'))
 }
 
 /// One Markdown file of the tarball.
@@ -489,6 +497,25 @@ mod tests {
             ]
         );
         assert_eq!(changes.errors[0].message, "300 bytes exceeds the limit of 200");
+    }
+
+    #[tokio::test]
+    async fn a_reference_that_is_a_commit_id_is_used_without_asking_the_api() {
+        let server = MockServer::start().await;
+        Mock::given(wiremock::matchers::path_regex("^/api/"))
+            .respond_with(ResponseTemplate::new(500))
+            .expect(0)
+            .mount(&server)
+            .await;
+        serve_tarball(&server, 200, repository(), 1).await;
+        let mut harness = Harness::with_settings(settings());
+        github(&server, &mut harness);
+        let docs = ["docs".to_owned()];
+        let changes = collect_github(&harness.context(), "o/n", Some(SHA), &docs)
+            .await
+            .unwrap();
+        assert_eq!(changes.resolved_commit.as_deref(), Some(SHA));
+        assert_ne!(changes.upserts.len(), 0);
     }
 
     #[tokio::test]

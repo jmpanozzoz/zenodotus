@@ -22,6 +22,11 @@ and versions follow [Semantic Versioning](https://semver.org/).
 - Criterion benchmarks and `cargo xtask perf` on MDN's English pages.
 - A multi-stage Dockerfile and a GitHub Actions workflow.
 
+### Changed
+
+- A GitHub `reference` that is a full commit id is used without asking the API, so pinned sources sync
+  under the API's unauthenticated rate limit.
+
 ### Fixed
 
 - Request headers that carry credentials are no longer sent to another origin after a redirect.
