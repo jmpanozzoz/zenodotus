@@ -12,7 +12,7 @@ use zenodotus_core::config::RankingSettings;
 use zenodotus_core::ids::Scope;
 use zenodotus_core::model::{Section, VersionState};
 
-use crate::analyzer::{code_ident, code_words, query_symbols, stem};
+use crate::analyzer::{code_ident, code_words, query_symbols};
 use crate::error::SearchError;
 use crate::fences::split_code;
 use crate::render_model::{Notice, NoticeKind, QueryDocsResult, ResultItem, Signal, SyncStatus, VersionResolution};
@@ -123,11 +123,6 @@ fn term_query(field: Field, text: &str, option: IndexRecordOption) -> Box<dyn Qu
     Box::new(TermQuery::new(Term::from_field_text(field, text), option))
 }
 
-/// The full-text term of `word`, stemmed as the index stems it.
-fn word_term(fields: &Fields, word: &str) -> Box<dyn Query> {
-    term_query(fields.combined, &stem(word), IndexRecordOption::WithFreqs)
-}
-
 fn boosted(query: Box<dyn Query>, boost: f32) -> Box<dyn Query> {
     Box::new(BoostQuery::new(query, boost))
 }
@@ -136,14 +131,14 @@ fn boosted(query: Box<dyn Query>, boost: f32) -> Box<dyn Query> {
 fn phrase(fields: &Fields, words: &[String]) -> Box<dyn Query> {
     let terms = words
         .iter()
-        .map(|word| Term::from_field_text(fields.combined, &stem(word)))
+        .map(|word| Term::from_field_text(fields.combined, word))
         .collect();
     Box::new(PhraseQuery::new(terms))
 }
 
 /// The clause for one required or optional word: the word itself, or the word or any of its synonyms.
 fn word_query(fields: &Fields, word: &str, ranking: &RankingSettings) -> Box<dyn Query> {
-    let exact = word_term(fields, word);
+    let exact = term_query(fields.combined, word, IndexRecordOption::WithFreqs);
     let synonyms: Vec<Box<dyn Query>> = ranking
         .synonyms
         .iter()
@@ -152,7 +147,7 @@ fn word_query(fields: &Fields, word: &str, ranking: &RankingSettings) -> Box<dyn
         .map(|synonym| texts(synonym))
         .filter(|words| !words.is_empty())
         .map(|words| match words.as_slice() {
-            [one] => word_term(fields, one),
+            [one] => term_query(fields.combined, one, IndexRecordOption::WithFreqs),
             _ => phrase(fields, &words),
         })
         .collect();
@@ -219,7 +214,10 @@ pub fn build(
         Box::new(BooleanQuery::with_minimum_required_clauses(group, minimum)),
     ));
     for word in &analyzed.optional {
-        clauses.push((Occur::Should, word_term(fields, word)));
+        clauses.push((
+            Occur::Should,
+            term_query(fields.combined, word, IndexRecordOption::WithFreqs),
+        ));
     }
     for identifier in &analyzed.identifiers {
         clauses.extend(boosted_clause(ranking.symbol_boost, || {
@@ -854,29 +852,6 @@ mod tests {
         };
         assert_eq!(scores(&alone).len(), 2);
         assert_eq!(scores(&alone), scores(&crowded));
-    }
-
-    #[test]
-    fn inflected_words_match_their_stems_in_text_phrases_and_stop_words() {
-        let sections = [
-            section(&lib(), "load.md", 0, &["Startup"], "Loading models once."),
-            section(&lib(), "plain.md", 0, &["Wombat"], "A wombat."),
-            section(&lib(), "does.md", 0, &["Wombat"], "It does."),
-        ];
-        let fixture = one_version(&sections);
-        // Neither word appears as written: only the stems match.
-        assert_eq!(sources(&run(&fixture, "loads model")), ["local:load.md"]);
-        let flat = RankingSettings {
-            quoted_phrase_boost: 0.0,
-            ..RankingSettings::default()
-        };
-        let quoted = request("\"loaded model\"");
-        let boosted = query_docs(&fixture.store, &quoted, &RankingSettings::default()).unwrap();
-        let unboosted = query_docs(&fixture.store, &quoted, &flat).unwrap();
-        assert!(boosted.results[0].score > unboosted.results[0].score);
-        // The stop word `does` is stemmed to `doe` in the index and must be on the query side too.
-        let result = run(&fixture, "does wombat");
-        assert_eq!(sources(&result), ["local:does.md", "local:plain.md"]);
     }
 
     #[test]
