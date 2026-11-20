@@ -45,7 +45,8 @@ and versions follow [Semantic Versioning](https://semver.org/).
   the old URL is deleted, instead of indexing the target's content twice. The old copy is kept when the target's
   own fetch failed earlier in the crawl, and a redirect counts once toward `max_pages`.
 - Only a permanent redirect (301 or 308) deletes the copy under the old URL; a temporary one (302, 303 or 307),
-  which may be maintenance, keeps it. The source URL of a redirected page no longer keeps the `Location` fragment.
+  which may be maintenance, keeps it, also when it leads to a 404 or 410. The source URL of a redirected page no
+  longer keeps the `Location` fragment.
 - A crawled page that redirects to a host the source may not reach leaves the crawl scope instead of recording an
   error, so the version is no longer `partial` on every sync.
 - Stored validators are sent only to the requested URL, so a redirect target cannot answer 304 for a document it

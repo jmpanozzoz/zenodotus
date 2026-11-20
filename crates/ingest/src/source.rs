@@ -120,10 +120,11 @@ pub(crate) enum Visit {
 /// What a crawl does with a page that redirects to another URL.
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub(crate) enum Redirect {
-    /// Index the body under the target, and delete a stored copy under the requested URL.
+    /// Index the body under the target, and delete a stored copy under the requested URL when every redirect
+    /// followed was permanent.
     Follow,
-    /// Index nothing and delete a stored copy under the requested URL: the target left the scope or is indexed
-    /// already.
+    /// Index nothing and delete a stored copy under the requested URL when every redirect followed was permanent:
+    /// the target left the scope or is indexed already.
     Drop,
     /// Index nothing and keep a stored copy under the requested URL: the target failed earlier in this crawl.
     Keep,
@@ -144,8 +145,8 @@ pub(crate) struct Visiting<'a> {
     pub conditional: bool,
     /// Whether a 404 or 410 for a document never stored is an error rather than nothing.
     pub report_missing: bool,
-    /// For crawled pages, which are keyed by the URL that serves them: a redirect to another URL means the document
-    /// moved, and this decides what happens to it. `None` for configured URLs.
+    /// For crawled pages, which are keyed by the URL that serves them: a permanent redirect to another URL means the
+    /// document moved, and this decides what happens to it. `None` for configured URLs.
     pub moves: Option<&'a (dyn Fn(&Url) -> Redirect + Sync)>,
 }
 

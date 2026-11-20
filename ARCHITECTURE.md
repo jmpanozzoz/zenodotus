@@ -106,12 +106,13 @@ visits the start page, then every stored page, the start page's links and the si
 deletes a page only when it answers 404 or 410 or redirects permanently (301 or 308) outside the crawl scope, to
 another host included. A page that redirects is indexed under the URL it redirects to, from the body the redirect
 already downloaded. A stored copy under the old URL is deleted only when every redirect followed was permanent,
-since a 302, 303 or 307 can be maintenance; if the target's own fetch failed earlier in the crawl, the old copy is
-kept. The stored source URL never carries a fragment from a redirect's `Location`. A redirect is one fetch of the
-`max_pages` budget, and a start page that redirects outside the crawl scope fails the version. Validators are sent
-only to the requested URL, never to a redirect target. Only a configured sitemap must be readable: a sitemap found
-in robots.txt that cannot be read is reported and the next one is read, a guessed `/sitemap.xml` that cannot be read
-is ignored, and an index of more than 50 sitemaps stops reading.
+since a 302, 303 or 307 can be maintenance, and a 404 or 410 reached through one deletes nothing either; if the
+target's own fetch failed earlier in the crawl, the old copy is kept. The stored source URL never carries a fragment
+from a redirect's `Location`. A redirect is one fetch of the `max_pages` budget (page visits; robots.txt and
+sitemaps do not count), and a start page that redirects outside the crawl scope fails the version. Validators are
+sent only to the requested URL, never to a redirect target. Only a configured sitemap must be readable: a sitemap
+found in robots.txt that cannot be read is reported and the next one is read, a guessed `/sitemap.xml` that cannot
+be read is ignored, and an index of more than 50 sitemaps stops reading.
 
 Pages beyond the stored ones are found only through the sitemap and changed pages; `zenodotus sync --rebuild` crawls
 the site from scratch.

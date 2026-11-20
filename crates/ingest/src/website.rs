@@ -51,8 +51,9 @@ impl CrawlScope<'_> {
 /// in that order, so that a page whose only link is on an unchanged (304) page is still revisited, and stored pages
 /// come before new ones when `max_pages` stops the crawl. A page that redirects is indexed under the URL it
 /// redirects to, in the same visit. A page is deleted only when it answers 404 or 410, when it leaves the crawl
-/// scope, or when it redirects to a page that left the scope or is indexed already; absence from a sitemap or from
-/// the pages reached is not evidence. A redirect to a page whose fetch failed in this crawl keeps the stored copy.
+/// scope, or when it redirects permanently (301 or 308 on every hop) to a page that left the scope or is indexed
+/// already; absence from a sitemap or from the pages reached is not evidence. A temporary redirect, or one to a
+/// page whose fetch failed in this crawl, keeps the stored copy.
 ///
 /// # Errors
 /// [`IngestError::ListingUnavailable`] when robots.txt, the configured sitemap or the start page cannot be fetched.
@@ -514,7 +515,11 @@ mod tests {
         serve(&server, "/robots.txt", 404, "text/plain", "").await;
         serve(&server, "/sitemap.xml", 404, "text/plain", "").await;
         html(&server, "/docs/", "Home").await;
-        for (from, status, to) in [("/docs/old", 302, "/docs/new"), ("/docs/away", 307, "/blog/x")] {
+        for (from, status, to) in [
+            ("/docs/old", 302, "/docs/new"),
+            ("/docs/away", 307, "/blog/x"),
+            ("/docs/down", 302, "/docs/maintenance"),
+        ] {
             Mock::given(path(from))
                 .respond_with(ResponseTemplate::new(status).insert_header("location", to))
                 .mount(&server)
@@ -526,9 +531,11 @@ mod tests {
         let mut harness = Harness::new();
         harness.remember(&at("/docs/old"), "old", None);
         harness.remember(&at("/docs/away"), "away", None);
+        harness.remember(&at("/docs/down"), "down", None);
         let changes = collect_website(&harness.context(), &site(&start, &[])).await.unwrap();
         assert_eq!(upserted(&changes), [at("/docs/"), at("/docs/new")]);
         assert_eq!(paths(&changes.deletions), [] as [&str; 0]);
+        assert_eq!(errors(&changes), [format!("{} (status)", at("/docs/down"))]);
     }
 
     #[tokio::test]

@@ -90,7 +90,8 @@ pub enum FetchError {
         /// The limit.
         limit: u64,
     },
-    /// An HTTP status that is neither success, redirect, 304, 404 nor 410, or a 429 or 5xx after every retry.
+    /// An HTTP status that is neither success, redirect, 304, 404 nor 410, a 429 or 5xx after every retry, or a 404
+    /// or 410 reached through a temporary redirect.
     #[error("HTTP status {status}")]
     Status {
         /// The URL.
@@ -268,7 +269,7 @@ impl Body {
 pub enum FetchResponse {
     /// 304: the stored validators are current.
     NotModified,
-    /// 404 or 410: the document is gone.
+    /// 404 or 410, directly or through permanent redirects only: the document is gone.
     Gone,
     /// The body.
     Body(Body),
@@ -359,7 +360,7 @@ impl Stream {
 pub enum Opened {
     /// 304: the stored validators are current.
     NotModified,
-    /// 404 or 410: the document is gone.
+    /// 404 or 410, directly or through permanent redirects only: the document is gone.
     Gone,
     /// A successful response, its body not read yet.
     Stream(Box<Stream>),
@@ -429,19 +430,23 @@ impl Fetcher {
         let mut url = request.url.clone();
         let mut permanent = true;
         for hop in 0..=MAX_REDIRECTS {
-            match self.check(&url, request.allowed_hosts) {
-                Err(FetchError::HostNotAllowed { .. }) if hop > 0 => {
-                    return Err(FetchError::RedirectedAway { url, permanent });
-                }
-                checked => checked?,
+            if hop > 0 && !request.allowed_hosts.contains(url.host_str().unwrap_or_default()) {
+                return Err(FetchError::RedirectedAway { url, permanent });
             }
+            self.check(&url, request.allowed_hosts)?;
             let response = self.send(&url, request).await?;
             let status = response.status();
             if status == StatusCode::NOT_MODIFIED {
                 return Ok(Opened::NotModified);
             }
             if status == StatusCode::NOT_FOUND || status == StatusCode::GONE {
-                return Ok(Opened::Gone);
+                if permanent {
+                    return Ok(Opened::Gone);
+                }
+                return Err(FetchError::Status {
+                    url: url.to_string(),
+                    status: status.as_u16(),
+                });
             }
             if status.is_redirection() {
                 permanent &= matches!(status, StatusCode::MOVED_PERMANENTLY | StatusCode::PERMANENT_REDIRECT);
@@ -886,8 +891,23 @@ pub(crate) mod tests {
             .respond_with(redirect("http://[::1"))
             .mount(&server)
             .await;
+        let here = url(&server.uri());
+        Mock::given(path("/ftp-here"))
+            .respond_with(redirect(&format!("ftp://{}/x", here.host_str().unwrap())))
+            .mount(&server)
+            .await;
+        for (route, status) in [("/via301-to-missing", 301), ("/via302-to-missing", 302)] {
+            Mock::given(path(route))
+                .respond_with(ResponseTemplate::new(status).insert_header("location", "/missing-target"))
+                .mount(&server)
+                .await;
+        }
         let fetcher = fetcher(&local_settings());
         let at = |route: &str| url(&format!("{}{route}", server.uri()));
+        assert_eq!(
+            fetch(&fetcher, &at("/via301-to-missing")).await.unwrap(),
+            FetchResponse::Gone
+        );
         let moved = body(fetch(&fetcher, &at("/old")).await.unwrap());
         assert_eq!((moved.text().unwrap(), &moved.final_url), ("moved", &at("/new")));
         assert!(moved.permanent);
@@ -908,7 +928,9 @@ pub(crate) mod tests {
         let kinds = [
             ("/loop0", "too_many_redirects"),
             ("/away", "host_not_allowed"),
-            ("/ftp", "scheme"),
+            ("/ftp", "host_not_allowed"),
+            ("/ftp-here", "scheme"),
+            ("/via302-to-missing", "status"),
             ("/nowhere", "status"),
             ("/broken", "status"),
         ];
@@ -1113,9 +1135,9 @@ pub(crate) mod tests {
 
     #[tokio::test]
     async fn refused_connections_are_retried_then_reported() {
-        let listener = std::net::TcpListener::bind("127.0.0.1:0").unwrap();
-        let closed = url(&format!("http://{}/doc", listener.local_addr().unwrap()));
-        drop(listener);
+        // Port 1 needs privileges to listen on, so nothing answers there; a port freed by the test itself could be
+        // taken by a parallel test.
+        let closed = url("http://127.0.0.1:1/doc");
         let settings = FetchSettings {
             retries: 1,
             ..local_settings()
