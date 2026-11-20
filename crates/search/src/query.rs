@@ -257,6 +257,12 @@ fn holds_all_ties(scores: &[f32], k: usize, limit: usize) -> bool {
     scores.len() < limit || scores[limit - 1] < scores[k - 1]
 }
 
+/// How many hits the first search fetches: one past the cut, so that a `k`-th score with no tie is proven in one
+/// search.
+fn first_limit(k: usize) -> usize {
+    k + 1
+}
+
 /// The lowest score kept: the `k`-th, or every score when fewer than `k` documents matched.
 fn cut_score(scores: &[f32], k: usize) -> f32 {
     scores.get(k - 1).copied().unwrap_or(f32::MIN)
@@ -270,7 +276,7 @@ fn cut_score(scores: &[f32], k: usize) -> f32 {
 /// An index error, or a corrupt payload.
 pub fn top_sections(store: &Store, searcher: &Searcher, query: &dyn Query, k: usize) -> Result<Vec<Hit>, SearchError> {
     let k = k.max(1);
-    let mut limit = k;
+    let mut limit = first_limit(k);
     let found = loop {
         let found = searcher.search(query, &TopDocs::with_limit(limit).order_by_score())?;
         let scores: Vec<f32> = found.iter().map(|&(score, _)| score).collect();
@@ -1043,6 +1049,14 @@ mod tests {
         assert!(holds_all_ties(&[3.0, 2.0, 1.0, 0.5], 1, 4));
         assert_eq!(cut_score(&[3.0, 2.0, 1.0], 2), 2.0);
         assert_eq!(cut_score(&[3.0, 2.0, 1.0], 4), f32::MIN);
+    }
+
+    #[test]
+    fn the_first_search_fetches_one_hit_past_the_cut_so_distinct_scores_settle_at_once() {
+        assert_eq!(first_limit(1), 2);
+        assert_eq!(first_limit(10), 11);
+        assert!(holds_all_ties(&[3.0, 2.0, 1.0], 2, first_limit(2)));
+        assert!(!holds_all_ties(&[3.0, 2.0, 2.0], 2, first_limit(2)));
     }
 
     fn hit_costing(chars: usize) -> Hit {
