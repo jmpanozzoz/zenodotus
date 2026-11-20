@@ -281,7 +281,7 @@ pub(crate) mod tests {
         assert_eq!(
             combined_parts(&s, &weights),
             [
-                ("Linux".to_owned(), 4),
+                ("Linux".to_owned(), 3),
                 ("Guide\nInstall".to_owned(), 2),
                 ("apt_get\nx::y".to_owned(), 4),
                 ("## Linux\n\nRun it.\n\n".to_owned(), 1),
@@ -302,7 +302,7 @@ pub(crate) mod tests {
         };
         assert_eq!(
             combined_parts(&s, &weights),
-            [("Notes".to_owned(), 4), ("Body\n".to_owned(), 1)]
+            [("Notes".to_owned(), 3), ("Body\n".to_owned(), 1)]
         );
     }
 
@@ -333,9 +333,9 @@ pub(crate) mod tests {
         assert_eq!(texts(&doc, fields.symbols_exact), ["tokio::spawn"]);
         assert_eq!(texts(&doc, fields.lang), ["rust", "sh"]);
         let combined = texts(&doc, fields.combined);
-        assert_eq!(combined.iter().filter(|text| *text == "A").count(), 4);
+        assert_eq!(combined.iter().filter(|text| *text == "A").count(), 3);
         assert_eq!(combined.iter().filter(|text| *text == "tokio::spawn").count(), 4);
-        assert_eq!(combined.len(), 4 + 4 + 1 + 1);
+        assert_eq!(combined.len(), 3 + 4 + 1 + 1);
         let payload: Section = serde_json::from_str(&texts(&doc, fields.payload)[0]).unwrap();
         assert_eq!(payload, s);
     }

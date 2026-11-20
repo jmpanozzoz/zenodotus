@@ -39,7 +39,7 @@ pub fn init_template() -> String {
 
 [settings.index]
 # Changing a weight requires `zenodotus sync --rebuild`.
-# title_weight = 4
+# title_weight = 3
 # heading_weight = 2
 # symbol_weight = 4
 
@@ -308,7 +308,7 @@ mod tests {
             text.ends_with("source = { kind = \"local\", path = \"/srv/docs\" }\n"),
             "{text}"
         );
-        let weighted = text.replace("# title_weight = 4", "title_weight = 5");
+        let weighted = text.replace("# title_weight = 3", "title_weight = 5");
         assert_eq!(Config::parse(&path, &weighted).unwrap().settings.index.title_weight, 5);
     }
 

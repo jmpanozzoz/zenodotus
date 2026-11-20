@@ -582,7 +582,7 @@ mod tests {
         let home = Home::new().with_tokio().await;
         home.ok(&["sync"]).await;
         let config = std::fs::read_to_string(home.path("zenodotus.toml")).unwrap();
-        let weighted = config.replace("# title_weight = 4", "title_weight = 5");
+        let weighted = config.replace("# title_weight = 3", "title_weight = 5");
         std::fs::write(home.path("zenodotus.toml"), &weighted).unwrap();
         let error = home.fail(&["search", "tokio", "spawn"]).await;
         assert!(

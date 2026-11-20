@@ -253,7 +253,7 @@ pub struct IndexSettings {
 impl Default for IndexSettings {
     fn default() -> Self {
         Self {
-            title_weight: 4,
+            title_weight: 3,
             heading_weight: 2,
             symbol_weight: 4,
             body_weight: 1,
@@ -627,6 +627,7 @@ source = { kind = "local", path = "/srv/tokio" }
             "tuned in iteration 7"
         );
         assert_eq!(settings.index.symbol_weight, 4, "tuned in iteration 12");
+        assert_eq!(settings.index.title_weight, 3, "tuned in iteration 19");
         assert!(settings.user_agent.starts_with("zenodotus/0."));
     }
 
