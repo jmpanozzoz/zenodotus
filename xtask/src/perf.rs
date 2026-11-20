@@ -119,12 +119,38 @@ fn size_of(dir: &Path) -> u64 {
     })
 }
 
-/// The section count `zenodotus status` reports.
-fn sections(status: &str) -> Option<u64> {
-    status
-        .lines()
-        .find_map(|line| line.split_once(" documents, ")?.1.strip_suffix(" sections"))
-        .and_then(|count| count.parse().ok())
+/// The document and section counts `zenodotus status` reports, from its `…, N documents, M sections` line.
+fn counts(status: &str) -> Option<(u64, u64)> {
+    status.lines().find_map(|line| {
+        let (before, after) = line.split_once(" documents, ")?;
+        let documents = before.rsplit(' ').next()?.parse().ok()?;
+        let sections = after.strip_suffix(" sections")?.parse().ok()?;
+        Some((documents, sections))
+    })
+}
+
+/// User plus system CPU seconds in a GNU `time -v` report.
+fn cpu_seconds(report: &str) -> Option<f64> {
+    let field = |label| time_field(report, label)?.parse::<f64>().ok();
+    Some(field("User time (seconds):")? + field("System time (seconds):")?)
+}
+
+/// Copies the files of this run into `target/perf/runs/<UTC time>/`, since the next run overwrites them, and returns
+/// that directory.
+fn keep_run(paths: &Paths) -> Result<PathBuf, String> {
+    let stamp = run(Command::new("date").args(["-u", "+%Y-%m-%dT%H-%M-%SZ"]), &paths.root)?;
+    let kept = paths.dir.join("runs").join(stamp.trim());
+    std::fs::create_dir_all(&kept).map_err(|error| format!("cannot create {}: {error}", kept.display()))?;
+    let entries =
+        std::fs::read_dir(&paths.dir).map_err(|error| format!("cannot read {}: {error}", paths.dir.display()))?;
+    for entry in entries.filter_map(Result::ok) {
+        let path = entry.path();
+        if path.is_file() {
+            std::fs::copy(&path, kept.join(entry.file_name()))
+                .map_err(|error| format!("cannot copy {}: {error}", path.display()))?;
+        }
+    }
+    Ok(kept)
 }
 
 /// The machine: CPU, cores, memory, kernel and compiler.
@@ -190,12 +216,17 @@ fn perf(root: &Path, reuse: bool) -> Result<(), String> {
                 .arg("status"),
             root,
         )?;
-        let count = sections(&status).unwrap_or(0);
+        let (documents, count) = counts(&status).unwrap_or_default();
+        let documents = f64::from(u32::try_from(documents).unwrap_or(0));
+        let cpu = cpu_seconds(&time).unwrap_or(f64::NAN);
         let _ = write!(
             report,
             "\nInitial sync: {seconds:.1} s for {count} sections, {:.0} sections/s, download included\n\
+             Indexing throughput: {documents:.0} documents in {cpu:.2} CPU s (user + system), {:.1} documents per CPU \
+             second\n\
              Peak RSS while syncing: {} KiB\n",
             u32::try_from(count).map_or(0.0, f64::from) / seconds,
+            documents / cpu,
             time_field(&time, "Maximum resident set size (kbytes):").unwrap_or("unknown"),
         );
     }
@@ -256,6 +287,7 @@ fn perf(root: &Path, reuse: bool) -> Result<(), String> {
     let _ = write!(report, "\n{latency}");
     let summary = paths.dir.join("summary.txt");
     std::fs::write(&summary, &report).map_err(|error| format!("cannot write {}: {error}", summary.display()))?;
-    println!("\n{report}");
+    let kept = keep_run(&paths)?;
+    println!("\n{report}\nThis run's files: {}", kept.display());
     Ok(())
 }
