@@ -261,8 +261,6 @@ pub struct VersionChanges {
     pub deletions: Vec<DocKey>,
     /// Documents that failed and keep their previous content.
     pub errors: Vec<DocError>,
-    /// Whether the listing of documents was complete, so missing documents count as deleted.
-    pub listing_complete: bool,
     /// The commit a GitHub reference resolved to.
     pub resolved_commit: Option<String>,
 }

@@ -572,7 +572,6 @@ mod tests {
     fn upserts(documents: Vec<Document>) -> VersionChanges {
         VersionChanges {
             upserts: documents,
-            listing_complete: true,
             ..VersionChanges::default()
         }
     }

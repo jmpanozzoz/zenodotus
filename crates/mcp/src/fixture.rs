@@ -90,7 +90,6 @@ pub fn write_index(data_dir: &Path) {
     for (state, sections) in libraries {
         let changes = VersionChanges {
             upserts: vec![document(&state.scope, "guide.md", &sections)],
-            listing_complete: true,
             ..VersionChanges::default()
         };
         writer.apply(&state, &changes).unwrap();

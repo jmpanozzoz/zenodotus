@@ -85,7 +85,6 @@ fn revision_changes(revision: u64) -> VersionChanges {
         .collect();
     VersionChanges {
         upserts,
-        listing_complete: true,
         ..VersionChanges::default()
     }
 }

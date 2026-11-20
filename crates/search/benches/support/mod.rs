@@ -78,7 +78,6 @@ pub fn changes(documents: usize, sections: usize) -> VersionChanges {
         .collect();
     VersionChanges {
         upserts,
-        listing_complete: true,
         ..VersionChanges::default()
     }
 }

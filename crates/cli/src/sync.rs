@@ -352,7 +352,6 @@ mod tests {
         };
         let changes = VersionChanges {
             upserts: vec![foreign],
-            listing_complete: true,
             ..VersionChanges::default()
         };
         let report = settle(&mut writer, &snapshot, Ok(changes)).unwrap();

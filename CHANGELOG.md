@@ -37,3 +37,5 @@ and versions follow [Semantic Versioning](https://semver.org/).
   blocks the next rebuild.
 - Synonym keys must be single lowercase words, the only form a query can match.
 - The default `max_pages` of a website source is 2,000.
+- A stored website page linked only from a page that answers 304 is no longer deleted when a sitemap omits it;
+  every crawl revisits the stored pages, and only a 404, a 410 or leaving the crawl scope deletes a page.

@@ -65,7 +65,6 @@ pub async fn collect_github(
     let hosts = HostSet::of(&[&ctx.github.api, &ctx.github.codeload], ctx.extra_hosts);
     let commit = resolve_commit(ctx, repo, reference.unwrap_or("HEAD"), &hosts).await?;
     let mut changes = VersionChanges {
-        listing_complete: true,
         resolved_commit: Some(commit.clone()),
         ..VersionChanges::default()
     };
@@ -472,7 +471,6 @@ mod tests {
             .await
             .unwrap();
         assert_eq!(changes.resolved_commit.as_deref(), Some(SHA));
-        assert!(changes.listing_complete);
         let upserted: Vec<&str> = changes.upserts.iter().map(|doc| doc.state.doc_key.doc_path()).collect();
         assert_eq!(upserted, ["docs/b.mdx"]);
         assert_eq!(

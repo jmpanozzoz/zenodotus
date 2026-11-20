@@ -13,10 +13,7 @@ use crate::source::{Context, Visiting};
 pub async fn collect_urls(ctx: &Context<'_>, urls: &[Url]) -> VersionChanges {
     let own: Vec<&Url> = urls.iter().collect();
     let hosts = HostSet::of(&own, ctx.extra_hosts);
-    let mut changes = VersionChanges {
-        listing_complete: true,
-        ..VersionChanges::default()
-    };
+    let mut changes = VersionChanges::default();
     let mut listed = BTreeSet::new();
     for url in urls {
         let Some(doc_key) = ctx.doc_key(url, &mut changes) else {
@@ -69,7 +66,6 @@ mod tests {
         harness.remember("https://old.example/dropped.md", "old", None);
         let urls = [full.clone(), full.clone(), removed.clone(), long];
         let changes = collect_urls(&harness.context(), &urls).await;
-        assert!(changes.listing_complete);
         assert_eq!(changes.upserts.len(), 1);
         assert_eq!(changes.upserts[0].state.doc_key.doc_path(), full.as_str());
         assert_eq!(

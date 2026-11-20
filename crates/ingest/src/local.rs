@@ -59,10 +59,7 @@ pub fn collect_local(
     let exclude = glob_set(source.exclude)?;
     let mut files = Vec::new();
     walk(source.root, "", &mut files)?;
-    let mut changes = VersionChanges {
-        listing_complete: true,
-        ..VersionChanges::default()
-    };
+    let mut changes = VersionChanges::default();
     let mut listed = BTreeSet::new();
     for file in files {
         let selected = is_markdown(&file.relative)
@@ -271,7 +268,6 @@ mod tests {
             .map(|d| d.state.doc_key.doc_path().to_owned())
             .collect();
         assert_eq!(upserted, ["a/y.markdown", "a/z.MDX", "b.md"]);
-        assert!(changes.listing_complete);
         assert_eq!(changes.outcome(), Outcome::Ok);
         assert_eq!(changes.upserts[2].state.fetched_at, Timestamp::from_unix(50));
         assert_eq!(changes.upserts[2].sections[0].source_ref, "local:b.md");

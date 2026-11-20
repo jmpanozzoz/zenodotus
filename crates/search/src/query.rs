@@ -578,7 +578,6 @@ mod tests {
                 .collect();
             let changes = VersionChanges {
                 upserts,
-                listing_complete: true,
                 ..VersionChanges::default()
             };
             writer.apply(state, &changes).unwrap();

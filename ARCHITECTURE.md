@@ -34,7 +34,7 @@ Store::doc_states(scope) ──► the previous state of every document (ETag, L
 ingest::collect   Local | GitHub | Url | LlmsTxt | Website
    │  discover → fetch → parse (Markdown, or HTML converted to Markdown) → sectionize
    ▼
-VersionChanges { upserts, unchanged, deletions, errors, listing_complete, resolved_commit }
+VersionChanges { upserts, unchanged, deletions, errors, resolved_commit }
    │
    ▼
 Store::apply      one Tantivy commit per version: delete changed and deleted documents by key,
@@ -95,18 +95,20 @@ documents, plus `sync.lock`.
 | GitHub | the resolved commit and the source, `paths` included; both unchanged skip the download | missing from a complete tarball listing |
 | Url | ETag or Last-Modified (304), then content hash and validators | 404 or 410, or removed from the config |
 | LlmsTxt | as Url, for the file and every linked page | missing from the new `llms.txt`, or 404 or 410 |
-| Website | as Url, per page | 404 or 410, or missing from a complete sitemap |
+| Website | as Url, per page | 404 or 410, or outside the crawl scope |
 
 Any other per-document error, a tarball file that is too large or not UTF-8 included, keeps the previous content
 and marks the version `partial`. A page whose content is unchanged but whose ETag or Last-Modified changed is stored
 again, so the next sync sends the current validators. When the listing itself cannot be obtained, nothing changes
-and the version is `failed`. For a website, only a configured sitemap is part of the listing: a sitemap found in
-robots.txt that cannot be read is reported and leaves the listing incomplete, a guessed `/sitemap.xml` that cannot
-be read only leaves it incomplete, and so does an index of more than 50 sitemaps. An incomplete listing deletes no
-page for being unreached.
+and the version is `failed`. A website has no listing that proves a page is gone: a page that answers 304 is not
+parsed again, so it adds no links, and a page linked only from it is never reached through it. Every crawl therefore
+visits the start page, the sitemap pages and every stored page, and deletes a page only when it answers 404 or 410
+or falls outside the crawl scope. Only a configured sitemap must be readable: a sitemap found in robots.txt that
+cannot be read is reported, a guessed `/sitemap.xml` that cannot be read is ignored, and an index of more than 50
+sitemaps stops reading.
 
-A page that answers 304 is not parsed again, so it adds no links to a crawl without a sitemap. Pages beyond the
-stored ones are then found only through changed pages; `zenodotus sync --rebuild` crawls the site from scratch.
+Pages beyond the stored ones are found only through the sitemap and changed pages; `zenodotus sync --rebuild` crawls
+the site from scratch.
 
 ## Secure fetching
 
@@ -153,7 +155,8 @@ token in constant time.
 - Tarball chunks reach the blocking decompressor through a channel, not `SyncIoBridge`.
 - `Retry-After` HTTP dates are ignored; only seconds are honoured.
 - robots.txt answering 4xx allows everything; 5xx or a network error fails the version, following Google's rules.
-- With a complete sitemap, stored pages the crawl did not reach are deleted; without one, they are revisited.
+- Stored pages are always revisited, and a page the crawl did not reach is never deleted for that: with 304 answers,
+  a complete sitemap does not prove that an unlisted page is gone.
 - The evaluation talks to every system, zenodotus included, over stdio MCP, so local latencies compare like for
   like. Context7 is reached over its public Streamable HTTP endpoint.
 - The concurrency limit of the HTTP transport is wired but no test proves it, because stateless JSON requests finish

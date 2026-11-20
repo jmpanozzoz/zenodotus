@@ -47,9 +47,9 @@ impl CrawlScope<'_> {
     }
 }
 
-/// Crawls the site. A page is deleted when it answers 404 or 410, when it leaves the crawl scope, or, after a
-/// complete crawl, when it was not reached. The crawl is complete when a sitemap was read in full and `max_pages`
-/// was not reached; only then are unreached pages deleted.
+/// Crawls the site from the start page, the sitemap's pages and every stored page, so that a page whose only link
+/// is on an unchanged (304) page is still revisited. A page is deleted only when it answers 404 or 410, or when it
+/// leaves the crawl scope; absence from a sitemap or from the pages reached is not evidence.
 ///
 /// # Errors
 /// [`IngestError::ListingUnavailable`] when robots.txt, the configured sitemap or the start page cannot be fetched.
@@ -61,7 +61,7 @@ pub async fn collect_website(ctx: &Context<'_>, site: &Website<'_>) -> Result<Ve
         ctx.fetcher.slow_down(host, delay);
     }
     let mut sitemap_errors = Vec::new();
-    let sitemaps = sitemap_pages(ctx, site, &robots, &hosts, &mut sitemap_errors).await?;
+    let sitemap_pages = sitemap_pages(ctx, site, &robots, &hosts, &mut sitemap_errors).await?;
     let prefixes = if site.allow_prefixes.is_empty() {
         vec![site.start_url.path()]
     } else {
@@ -85,19 +85,16 @@ pub async fn collect_website(ctx: &Context<'_>, site: &Website<'_>) -> Result<Ve
         reached: BTreeSet::new(),
     };
     crawl.start(site.start_url).await?;
-    let complete_listing = sitemaps.complete;
-    for page in sitemaps.pages {
+    for page in sitemap_pages {
         crawl.enqueue(page);
     }
-    if !complete_listing {
-        for key in ctx.previous.keys() {
-            if let Ok(page) = Url::parse(key.doc_path()) {
-                crawl.enqueue(page);
-            }
+    for key in ctx.previous.keys() {
+        if let Ok(page) = Url::parse(key.doc_path()) {
+            crawl.enqueue(page);
         }
     }
-    let truncated = crawl.run(site.max_pages).await;
-    Ok(crawl.finish(complete_listing && !truncated))
+    crawl.run(site.max_pages).await;
+    Ok(crawl.finish())
 }
 
 /// The state of one crawl.
@@ -143,16 +140,12 @@ impl Crawl<'_, '_> {
         }
     }
 
-    /// Visits queued pages until the queue is empty or `max_pages` pages were fetched; returns whether pages were
-    /// left over.
-    async fn run(&mut self, max_pages: u32) -> bool {
+    /// Visits queued pages until the queue is empty or `max_pages` pages were fetched.
+    async fn run(&mut self, max_pages: u32) {
         let max_pages = usize::try_from(max_pages).unwrap_or(usize::MAX);
-        loop {
-            if self.reached.len() >= max_pages {
-                return !self.queue.is_empty();
-            }
+        while self.reached.len() < max_pages {
             let Some(page) = self.queue.pop_front() else {
-                return false;
+                return;
             };
             if let Some(Visit::Fetched { links, .. }) = self.visit(&page, false).await {
                 for link in links {
@@ -177,17 +170,15 @@ impl Crawl<'_, '_> {
         Some(self.ctx.visit(&visiting, &mut self.changes).await)
     }
 
-    /// Adds the deletions of stored pages that left the scope, or that a complete crawl did not reach.
-    fn finish(mut self, listing_complete: bool) -> VersionChanges {
+    /// Adds the deletions of stored pages that left the scope.
+    fn finish(mut self) -> VersionChanges {
         let deleted: BTreeSet<DocKey> = self.changes.deletions.iter().cloned().collect();
         for key in self.ctx.previous.keys() {
             let in_scope = Url::parse(key.doc_path()).is_ok_and(|page| self.scope.contains(&page));
-            let unreached = listing_complete && !self.reached.contains(key);
-            if (!in_scope || unreached) && !deleted.contains(key) {
+            if !in_scope && !deleted.contains(key) {
                 self.changes.deletions.push(key.clone());
             }
         }
-        self.changes.listing_complete = listing_complete;
         self.changes
     }
 }
@@ -224,30 +215,22 @@ fn at_root(start: &Url, path: &str) -> Url {
 enum SitemapOrigin {
     /// The source's `sitemap`: failing to read it fails the version.
     Configured,
-    /// robots.txt's `Sitemap:` lines: a failure is reported and leaves the listing incomplete.
+    /// robots.txt's `Sitemap:` lines: a failure is reported, and the pages read so far are kept.
     Listed,
-    /// The guess `/sitemap.xml`: a failure only leaves the listing incomplete.
+    /// The guess `/sitemap.xml`: a failure is ignored, and the pages read so far are kept.
     Guessed,
 }
 
-/// The page URLs the site's sitemaps list, and whether every sitemap was read.
-#[derive(Debug, Default)]
-struct SitemapListing {
-    pages: Vec<Url>,
-    complete: bool,
-}
-
-/// Every page URL of the site's sitemaps, following indexes: the configured sitemap, else those robots.txt lists,
-/// else `/sitemap.xml`. Only a configured sitemap that cannot be read fails; otherwise the listing is incomplete,
-/// so no page is deleted for being unreached, and failures of listed sitemaps or of more than [`MAX_SITEMAPS`]
-/// files are added to `errors`.
+/// The page URLs of the site's sitemaps, following indexes: the configured sitemap, else those robots.txt lists,
+/// else `/sitemap.xml`. Only a configured sitemap that cannot be read fails; reading otherwise stops at the first
+/// failure, and failures of listed sitemaps or of more than [`MAX_SITEMAPS`] files are added to `errors`.
 async fn sitemap_pages(
     ctx: &Context<'_>,
     site: &Website<'_>,
     robots: &Robots,
     hosts: &HostSet,
     errors: &mut Vec<DocError>,
-) -> Result<SitemapListing, IngestError> {
+) -> Result<Vec<Url>, IngestError> {
     let listed = robots.sitemaps(site.start_url);
     let (mut queue, origin) = match site.sitemap {
         Some(sitemap) => (VecDeque::from([sitemap.clone()]), SitemapOrigin::Configured),
@@ -257,12 +240,12 @@ async fn sitemap_pages(
             SitemapOrigin::Guessed,
         ),
     };
-    let mut listing = SitemapListing::default();
+    let mut pages = Vec::new();
     let mut read = 0;
     while let Some(sitemap) = queue.pop_front() {
         if read == MAX_SITEMAPS {
             errors.push(sitemap_error(&sitemap, &format!("more than {MAX_SITEMAPS} sitemaps")));
-            return Ok(listing);
+            return Ok(pages);
         }
         read += 1;
         let entries = match read_sitemap(ctx, &sitemap, hosts).await {
@@ -273,16 +256,13 @@ async fn sitemap_pages(
                     SitemapOrigin::Listed => errors.push(sitemap_error(&sitemap, &reason)),
                     SitemapOrigin::Guessed => tracing::debug!(%sitemap, reason, "no usable sitemap"),
                 }
-                return Ok(listing);
+                return Ok(pages);
             }
         };
-        listing
-            .pages
-            .extend(entries.pages.iter().filter_map(|page| sitemap.join(page).ok()));
+        pages.extend(entries.pages.iter().filter_map(|page| sitemap.join(page).ok()));
         queue.extend(entries.sitemaps.iter().filter_map(|nested| sitemap.join(nested).ok()));
     }
-    listing.complete = true;
-    Ok(listing)
+    Ok(pages)
 }
 
 /// Fetches and parses one sitemap; the reason it cannot be read otherwise.
@@ -307,7 +287,7 @@ fn sitemap_error(sitemap: &Url, reason: &str) -> DocError {
     DocError {
         doc_path: sitemap.to_string(),
         kind: "sitemap".to_owned(),
-        message: format!("{sitemap}: {reason}; the listing is incomplete"),
+        message: format!("{sitemap}: {reason}; later sitemaps were not read"),
     }
 }
 
@@ -353,7 +333,7 @@ mod tests {
     }
 
     #[tokio::test]
-    async fn a_complete_crawl_follows_the_sitemap_index_and_links_and_deletes_unreached_pages() {
+    async fn a_crawl_follows_the_sitemap_index_and_links_and_deletes_gone_or_out_of_scope_pages() {
         let server = MockServer::start().await;
         let uri = server.uri();
         let at = |p: &str| format!("{uri}{p}");
@@ -383,6 +363,7 @@ mod tests {
         .await;
         html(&server, "/docs/b", "B").await;
         serve(&server, "/docs/gone", 404, "text/html", "").await;
+        serve(&server, "/docs/unreached", 410, "text/html", "").await;
         let start = url(&at("/docs/"));
         let mut harness = Harness::new();
         harness.remember(&at("/docs/gone"), "old", None);
@@ -390,18 +371,42 @@ mod tests {
         harness.remember(&at("/blog/old"), "old", None);
         harness.remember("not a url", "old", None);
         let changes = collect_website(&harness.context(), &site(&start, &[])).await.unwrap();
-        assert!(changes.listing_complete);
         assert_eq!(upserted(&changes), [at("/docs/"), at("/docs/b"), at("/docs/a")]);
         assert_eq!(
             paths(&changes.deletions),
             [
                 at("/docs/gone").as_str(),
-                &at("/blog/old"),
                 &at("/docs/unreached"),
+                &at("/blog/old"),
                 "not a url"
             ]
         );
         assert!(changes.errors.is_empty(), "{:?}", errors(&changes));
+    }
+
+    #[tokio::test]
+    async fn a_stored_page_linked_only_from_an_unchanged_page_survives_a_complete_sitemap() {
+        let server = MockServer::start().await;
+        let uri = server.uri();
+        let at = |p: &str| format!("{uri}{p}");
+        serve(&server, "/robots.txt", 404, "text/plain", "").await;
+        serve(
+            &server,
+            "/sitemap.xml",
+            200,
+            "application/xml",
+            &sitemap(&[at("/docs/")]),
+        )
+        .await;
+        serve(&server, "/docs/", 304, "text/html", "").await;
+        serve(&server, "/docs/linked", 304, "text/html", "").await;
+        let start = url(&at("/docs/"));
+        let mut harness = Harness::new();
+        harness.remember(&at("/docs/"), "home", Some("\"v1\""));
+        harness.remember(&at("/docs/linked"), "linked", Some("\"v1\""));
+        let changes = collect_website(&harness.context(), &site(&start, &[])).await.unwrap();
+        assert_eq!(paths(&changes.deletions), [] as [&str; 0]);
+        assert_eq!(paths(&changes.unchanged), [at("/docs/").as_str(), &at("/docs/linked")]);
     }
 
     #[tokio::test]
@@ -419,7 +424,6 @@ mod tests {
         harness.remember(&at("/flaky"), "old", None);
         harness.remember("not a url", "old", None);
         let changes = collect_website(&harness.context(), &site(&start, &[])).await.unwrap();
-        assert!(!changes.listing_complete);
         assert_eq!(upserted(&changes), [at("/"), at("/guide")]);
         assert_eq!(paths(&changes.deletions), ["not a url"]);
         assert_eq!(errors(&changes), [format!("{} (status)", at("/flaky"))]);
@@ -466,7 +470,6 @@ mod tests {
             ..site(&start, &[])
         };
         let changes = collect_website(&harness.context(), &website).await.unwrap();
-        assert!(!changes.listing_complete);
         assert_eq!(upserted(&changes), [at("/"), at("/a")]);
         assert_eq!(paths(&changes.deletions), [] as [&str; 0]);
     }
@@ -487,7 +490,6 @@ mod tests {
             ..site(&start, &[])
         };
         let changes = collect_website(&harness.context(), &website).await.unwrap();
-        assert!(changes.listing_complete);
         assert_eq!(upserted(&changes), [at("/"), at("/a")]);
     }
 
@@ -635,7 +637,7 @@ mod tests {
     }
 
     #[tokio::test]
-    async fn sitemaps_that_are_not_configured_only_make_the_listing_incomplete() {
+    async fn sitemaps_that_are_not_configured_fail_without_failing_the_crawl() {
         type Case<'a> = (&'a [(&'a str, u16, &'a str)], Option<&'a str>, Option<&'a str>);
         let looping = "<sitemapindex><sitemap><loc>/index.xml</loc></sitemap></sitemapindex>";
         let cases: [Case<'_>; 4] = [
@@ -651,17 +653,16 @@ mod tests {
                     ("/listed.xml", 500, ""),
                 ],
                 None,
-                Some("/listed.xml: HTTP status 500; the listing is incomplete (sitemap)"),
+                Some("/listed.xml: HTTP status 500; later sitemaps were not read (sitemap)"),
             ),
             (
                 &[("/robots.txt", 404, ""), ("/index.xml", 200, looping)],
                 Some("/index.xml"),
-                Some("/index.xml: more than 50 sitemaps; the listing is incomplete (sitemap)"),
+                Some("/index.xml: more than 50 sitemaps; later sitemaps were not read (sitemap)"),
             ),
         ];
         for (routes, configured, error) in cases {
             let (changes, uri) = crawl_with(routes, configured).await;
-            assert!(!changes.listing_complete, "{routes:?}");
             let pages = ["/", "/a", "/stored"].map(|page| format!("{uri}{page}"));
             assert_eq!(upserted(&changes), pages, "{routes:?}");
             assert_eq!(paths(&changes.deletions), [] as [&str; 0], "{routes:?}");
@@ -674,12 +675,11 @@ mod tests {
     async fn a_listed_sitemap_on_another_host_is_reported() {
         let routes = [("/robots.txt", 200, "Sitemap: https://cdn.example/sitemap.xml")];
         let (changes, _) = crawl_with(&routes, None).await;
-        assert!(!changes.listing_complete);
         assert_eq!(
             messages(&changes),
             [
-                "https://cdn.example/sitemap.xml: the host is not one this source may reach; the listing is \
-                 incomplete (sitemap)"
+                "https://cdn.example/sitemap.xml: the host is not one this source may reach; later sitemaps \
+                 were not read (sitemap)"
             ]
         );
     }

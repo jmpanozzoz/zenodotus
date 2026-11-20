@@ -39,10 +39,7 @@ pub fn parse_links(text: &str, base: &Url) -> Vec<Url> {
 /// [`IngestError::ListingUnavailable`] when the file itself cannot be fetched.
 pub async fn collect_llms_txt(ctx: &Context<'_>, url: &Url) -> Result<VersionChanges, IngestError> {
     let hosts = HostSet::of(&[url], ctx.extra_hosts);
-    let mut changes = VersionChanges {
-        listing_complete: true,
-        ..VersionChanges::default()
-    };
+    let mut changes = VersionChanges::default();
     let Some(file_key) = ctx.doc_key(url, &mut changes) else {
         return Err(IngestError::listing(url, &changes.errors[0].message));
     };
@@ -162,7 +159,6 @@ mod tests {
         });
         harness.remember(at("/a.md").as_str(), "# A\n", Some("\"v1\""));
         let changes = collect_llms_txt(&harness.context(), &at("/llms.txt")).await.unwrap();
-        assert!(changes.listing_complete);
         assert_eq!(paths(&changes.unchanged), [at("/a.md").as_str()]);
         let upserted: Vec<&str> = changes.upserts.iter().map(|doc| doc.state.doc_key.doc_path()).collect();
         assert_eq!(upserted, [at("/llms.txt").as_str()]);

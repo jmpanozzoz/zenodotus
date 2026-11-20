@@ -151,7 +151,6 @@ pub(crate) mod tests {
         let mut writer = StoreWriter::open(data_dir, settings).unwrap();
         let changes = VersionChanges {
             upserts: documents(scope, texts),
-            listing_complete: true,
             ..VersionChanges::default()
         };
         writer.apply(&version_state(scope), &changes).unwrap();
