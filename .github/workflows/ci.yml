@@ -29,7 +29,7 @@ jobs:
         run: cargo clippy --workspace --all-targets -- -D warnings -W clippy::pedantic
       - name: Repository rules (Markdown allowlist, no task markers)
         run: cargo xtask check-repo
-      - name: Every error variant has a test that asserts it
+      - name: Every error variant is named in a test
         run: cargo xtask check-errors
       - name: Tests with 100% line and function coverage
         run: cargo coverage

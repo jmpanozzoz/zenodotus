@@ -35,7 +35,7 @@ pub struct Fields {
     pub scope: Field,
     /// The source document, on sections and `doc_state` documents.
     pub doc_key: Field,
-    /// The section id, used to break score ties.
+    /// The section id. Stored for inspection; ties break on the payload's `chunk_id`, not on this field.
     pub chunk_id: Field,
     /// Every part of a section, each repeated by its index weight.
     pub combined: Field,

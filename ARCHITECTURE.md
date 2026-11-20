@@ -138,7 +138,8 @@ All network access goes through one `Fetcher`:
   decompressed-size cap of 16 times the tarball cap against gzip bombs.
 - Tar entries with absolute or `..` paths, symlinks and hardlinks are skipped; local sources never follow symlinks.
 - Website crawls honour robots.txt and Crawl-delay, space requests per host and stay under `allow_prefixes`, matched
-  on whole path segments (the start page's directory when none is given); the start page is exempt from
+  on whole path segments (the start page's directory when none is given, which is the whole host for a start page one
+  segment deep; a prefix ending in `/` also covers its bare path); the start page is exempt from
   `allow_prefixes`, not from robots.txt. Configured URLs may not carry a fragment.
 - Retries cover connection errors, 429 and 5xx, with exponential backoff, deterministic jitter and `Retry-After`
   in seconds.
@@ -183,6 +184,8 @@ token in constant time.
 
 `cargo xtask check-repo` enforces the Markdown allowlist, the absence of task markers and debugging macros, printing
 only from the CLI output module, the evaluation report and `xtask`, and `#![forbid(unsafe_code)]` with `#![deny(missing_docs)]` in every crate root.
-`cargo xtask check-errors` checks that every error variant is asserted by a test. `cargo coverage` requires 100% of
-lines and functions; its one exclusion, `xtask/src/perf.rs`, only orchestrates external tools, and every number it
-reports is measured by tested code in `zenodotus-eval`, by GNU time or by hyperfine.
+`cargo xtask check-errors` checks that every error variant is named in at least one test; that the test asserts it is
+checked by reading. `cargo coverage` requires 100% of lines and functions; its one exclusion, `xtask/src/perf.rs`,
+drives cargo, GNU time, hyperfine and the corpus download, and parses `zenodotus status` and the `time -v` report for
+the documents-per-CPU-second figure; it fails the run when it cannot parse them, and its output is reviewed in every
+perf report.

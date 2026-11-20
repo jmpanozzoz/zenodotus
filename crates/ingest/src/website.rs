@@ -23,8 +23,8 @@ pub struct Website<'a> {
     pub start_url: &'a Url,
     /// The configured sitemap, if any.
     pub sitemap: Option<&'a Url>,
-    /// URL path prefixes a page must lie under, on whole path segments; empty means the start page's directory, or
-    /// the start path itself when that directory is the site root.
+    /// URL path prefixes a page must lie under, on whole path segments; empty means the start page's directory,
+    /// which is the whole host for a start page one segment deep.
     pub allow_prefixes: &'a [String],
     /// The most pages to fetch.
     pub max_pages: u32,
@@ -50,19 +50,15 @@ impl CrawlScope<'_> {
     }
 }
 
-/// The crawl scope when `allow_prefixes` is empty: the start page's directory (`/docs/` for `/docs/intro`), or the
-/// start path itself when that directory is the site root (`/docs` for `/docs`), so that a start page one segment
-/// deep does not open the crawl to the whole host.
-fn default_prefix(path: &str) -> &str {
-    let directory = &path[..=path.rfind('/').unwrap_or_default()];
-    if directory == "/" { path } else { directory }
-}
-
 /// Whether `path` is `prefix` or lies under it, on a path-segment boundary: `/docs` covers `/docs/x` but not
-/// `/docs-v1/x`.
+/// `/docs-v1/x`, and `/docs/` also covers its bare path `/docs`, to which servers often redirect it.
 fn under(path: &str, prefix: &str) -> bool {
-    path.strip_prefix(prefix)
-        .is_some_and(|rest| prefix.ends_with('/') || rest.is_empty() || rest.starts_with('/'))
+    prefix
+        .strip_suffix('/')
+        .is_some_and(|bare| !bare.is_empty() && path == bare)
+        || path
+            .strip_prefix(prefix)
+            .is_some_and(|rest| prefix.ends_with('/') || rest.is_empty() || rest.starts_with('/'))
 }
 
 /// Crawls the site from the start page, then every stored page, the start page's links and the sitemap's pages,
@@ -85,7 +81,8 @@ pub async fn collect_website(ctx: &Context<'_>, site: &Website<'_>) -> Result<Ve
     let mut sitemap_errors = Vec::new();
     let sitemap_pages = sitemap_pages(ctx, site, &robots, &hosts, &mut sitemap_errors).await?;
     let prefixes = if site.allow_prefixes.is_empty() {
-        vec![default_prefix(site.start_url.path())]
+        let path = site.start_url.path();
+        vec![&path[..=path.rfind('/').unwrap_or_default()]]
     } else {
         site.allow_prefixes.iter().map(String::as_str).collect()
     };
@@ -839,19 +836,37 @@ mod tests {
     }
 
     #[tokio::test]
-    async fn a_start_page_one_segment_deep_scopes_the_crawl_to_itself_not_the_whole_host() {
+    async fn a_start_page_one_segment_deep_scopes_the_whole_host_and_a_directory_prefix_covers_its_bare_path() {
         let server = MockServer::start().await;
         let uri = server.uri();
         serve(&server, "/robots.txt", 404, "text/plain", "").await;
         serve(&server, "/sitemap.xml", 404, "text/plain", "").await;
-        html(&server, "/docs", r#"<a href="/docs/a">a</a> <a href="/other">o</a>"#).await;
-        for page in ["/docs/a", "/other"] {
+        html(
+            &server,
+            "/introduction",
+            r#"<a href="quickstart">q</a> <a href="/docs/">d</a>"#,
+        )
+        .await;
+        html(&server, "/docs/", r#"<a href="/docs">bare</a> <a href="/other">o</a>"#).await;
+        for page in ["/quickstart", "/docs", "/other"] {
             html(&server, page, "Page").await;
         }
-        let start = url(&format!("{uri}/docs"));
         let harness = Harness::new();
+        let start = url(&format!("{uri}/introduction"));
         let changes = collect_website(&harness.context(), &site(&start, &[])).await.unwrap();
-        assert_eq!(upserted(&changes), [format!("{uri}/docs"), format!("{uri}/docs/a")]);
+        assert_eq!(
+            upserted(&changes),
+            [
+                format!("{uri}/introduction"),
+                format!("{uri}/quickstart"),
+                format!("{uri}/docs/"),
+                format!("{uri}/docs"),
+                format!("{uri}/other")
+            ]
+        );
+        let start = url(&format!("{uri}/docs/"));
+        let changes = collect_website(&harness.context(), &site(&start, &[])).await.unwrap();
+        assert_eq!(upserted(&changes), [format!("{uri}/docs/"), format!("{uri}/docs")]);
     }
 
     #[tokio::test]

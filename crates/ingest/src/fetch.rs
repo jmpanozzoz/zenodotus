@@ -130,7 +130,7 @@ pub enum FetchError {
 }
 
 /// The message of [`FetchError::RedirectedAway`]. It names the target, since it follows the requested URL in a
-/// listing error. Only a DNS name can be added to `extra_hosts`, so only a DNS name gets that advice.
+/// listing error; a document error uses it alone. Only a DNS name can be added to `extra_hosts`, so only a DNS name gets that advice.
 fn redirected_away(url: &Url) -> String {
     match url.host() {
         Some(Host::Domain(name)) => format!(
@@ -182,7 +182,11 @@ impl FetchError {
         DocError {
             doc_path: doc_path.to_owned(),
             kind: self.kind().to_owned(),
-            message: format!("{}: {self}", self.url()),
+            message: match self {
+                // Its message already names the target, which is its URL.
+                Self::RedirectedAway { .. } => self.to_string(),
+                _ => format!("{}: {self}", self.url()),
+            },
         }
     }
 }
@@ -739,7 +743,12 @@ pub(crate) mod tests {
             assert_eq!(error.url(), "https://docs.example/a");
             let doc = error.doc_error("a.md");
             assert_eq!((doc.doc_path.as_str(), doc.kind.as_str()), ("a.md", kind));
-            assert_eq!(doc.message, format!("https://docs.example/a: {error}"));
+            let expected = if matches!(error, FetchError::RedirectedAway { .. }) {
+                error.to_string()
+            } else {
+                format!("https://docs.example/a: {error}")
+            };
+            assert_eq!(doc.message, expected);
         }
         assert_eq!(
             FetchError::TooLarge { url: url(), limit: 9 }.to_string(),
@@ -867,6 +876,18 @@ pub(crate) mod tests {
                 status: 403
             }
         );
+    }
+
+    #[test]
+    fn the_document_error_of_a_redirect_away_names_its_target_once() {
+        let target = url("http://elsewhere.example/x");
+        let error = FetchError::RedirectedAway {
+            url: target.clone(),
+            permanent: false,
+        };
+        let message = error.doc_error("doc.md").message;
+        assert_eq!(message.matches(target.as_str()).count(), 1, "{message}");
+        assert_eq!(message, error.to_string());
     }
 
     #[test]
