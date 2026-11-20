@@ -1,7 +1,11 @@
 //! The two analyzers of the index: `code_words` for the full-text field and `code_ident` for whole identifiers.
 //!
-//! Queries are analysed with the same functions, [`code_words`] and [`code_ident`], so index and query terms agree.
+//! Queries are analysed with the same functions, [`code_words`] and [`code_ident`], and every query term of the
+//! full-text field goes through [`stem`], as the index's words do, so index and query terms agree.
 
+use std::sync::LazyLock;
+
+use rust_stemmers::{Algorithm, Stemmer};
 use tantivy::Index;
 use tantivy::tokenizer::{TextAnalyzer, Token, TokenStream, Tokenizer};
 use zenodotus_core::ident;
@@ -10,6 +14,19 @@ use zenodotus_core::ident;
 pub const CODE_WORDS: &str = "code_words";
 /// Name the `code_ident` analyzer is registered under.
 pub const CODE_IDENT: &str = "code_ident";
+
+/// The English Snowball stemmer of the full-text field.
+static ENGLISH: LazyLock<Stemmer> = LazyLock::new(|| Stemmer::create(Algorithm::English));
+
+/// The stem of a word of [`code_words`]: English Snowball, except that protected words stay whole (`node.js` would
+/// otherwise lose its `s`).
+#[must_use]
+pub fn stem(word: &str) -> String {
+    if ident::PROTECTED_WORDS.contains(&word) {
+        return word.to_owned();
+    }
+    ENGLISH.stem(word).into_owned()
+}
 
 /// Tokens of this many bytes or more are dropped.
 const MAX_TOKEN_BYTES: usize = 64;
@@ -177,7 +194,7 @@ impl TokenStream for Tokens {
     }
 }
 
-/// The `code_words` analyzer.
+/// The `code_words` analyzer of the full-text field: [`code_words`], then [`stem`].
 #[derive(Debug, Clone, Copy, Default)]
 pub struct CodeWordsTokenizer;
 
@@ -185,7 +202,11 @@ impl Tokenizer for CodeWordsTokenizer {
     type TokenStream<'a> = Tokens;
 
     fn token_stream<'a>(&'a mut self, text: &'a str) -> Tokens {
-        Tokens::new(code_words(text))
+        let mut tokens = code_words(text);
+        for token in &mut tokens {
+            token.text = stem(&token.text);
+        }
+        Tokens::new(tokens)
     }
 }
 
@@ -287,6 +308,19 @@ mod tests {
                 ("c++", 9, 12, 3, 1)
             ]
         );
+    }
+
+    #[test]
+    fn the_index_analyzer_stems_words_but_not_protected_ones() {
+        let mut tokenizer = CodeWordsTokenizer;
+        let mut stream = tokenizer.token_stream("Loading keys, stops C++ and Node.js");
+        let mut stemmed = Vec::new();
+        while stream.advance() {
+            stemmed.push(stream.token().text.clone());
+        }
+        assert_eq!(stemmed, ["load", "key", "stop", "c++", "and", "node.js"]);
+        assert_eq!(stem("dumped"), "dump");
+        assert_eq!(stem("c#"), "c#");
     }
 
     #[test]
