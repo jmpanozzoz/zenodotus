@@ -26,6 +26,8 @@ and versions follow [Semantic Versioning](https://semver.org/).
 
 - Request headers that carry credentials are no longer sent to another origin after a redirect.
 - A version whose changes cannot be stored is recorded as `failed`, and the sync goes on with the next version.
+- A commit that fails, for example on a full disk, is rolled back, so the next commit no longer carries its staged
+  deletions; before, recording the version as `failed` could delete pages it meant to keep.
 - Fetched titles, headings and source references are rendered inside the data markers, not before them.
 - HTML pages keep their documentation root or landmark without navigation, as designed; Readability is the fallback.
 - Sitemaps: CDATA locations are read, nested `<image:loc>` and empty locations are ignored, and a sitemap that is not

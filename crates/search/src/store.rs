@@ -344,8 +344,10 @@ impl StoreWriter {
     ///
     /// # Errors
     ///
-    /// [`SearchError::ForeignDocument`] when a document belongs to another scope, or an index error. Nothing is
-    /// committed then.
+    /// [`SearchError::ForeignDocument`] when a document belongs to another scope, or an index error. Everything
+    /// staged is rolled back then, so a later commit cannot carry part of this run. Nothing is committed, unless the
+    /// error comes from reloading the readers after a durable commit: the changes are then stored although the call
+    /// fails.
     pub fn apply(&mut self, snapshot: &VersionState, changes: &VersionChanges) -> Result<VersionState, SearchError> {
         let scope = &snapshot.scope;
         let mut state = self.carried_state(snapshot)?;
@@ -374,11 +376,10 @@ impl StoreWriter {
             ));
         }
         state.resolved_commit = changes.resolved_commit.clone().or(state.resolved_commit);
-        if let Err(error) = self.stage_changes(scope, changes) {
-            self.writer.rollback()?;
-            return Err(error);
-        }
-        self.commit_with_state(&state)?;
+        let committed = self
+            .stage_changes(scope, changes)
+            .and_then(|()| self.commit_with_state(&state));
+        self.rolled_back(committed)?;
         Ok(state)
     }
 
@@ -387,12 +388,13 @@ impl StoreWriter {
     ///
     /// # Errors
     ///
-    /// An index error, or a corrupt payload.
+    /// An index error, or a corrupt payload. What was staged is rolled back, as in [`StoreWriter::apply`].
     pub fn record_failure(&mut self, snapshot: &VersionState, error: &str) -> Result<VersionState, SearchError> {
         let mut state = self.carried_state(snapshot)?;
         state.outcome = Outcome::Failed;
         state.last_error = Some(error.to_owned());
-        self.commit_with_state(&state)?;
+        let committed = self.commit_with_state(&state);
+        self.rolled_back(committed)?;
         Ok(state)
     }
 
@@ -420,7 +422,8 @@ impl StoreWriter {
     /// An index error.
     pub fn commit(&mut self) -> Result<(), SearchError> {
         self.stage_prune();
-        self.commit_staged()
+        let committed = self.commit_staged();
+        self.rolled_back(committed)
     }
 
     /// Stages a raw index document, to build corrupt indexes in tests.
@@ -486,6 +489,15 @@ impl StoreWriter {
             self.writer
                 .delete_term(term(self.store.fields.scope, &scope.to_string()));
         }
+    }
+
+    /// Discards everything staged when `result` is an error, so that a later commit cannot carry part of a failed
+    /// one. Marks left by [`StoreWriter::prune`] stay and are staged again by the next commit.
+    fn rolled_back(&mut self, result: Result<(), SearchError>) -> Result<(), SearchError> {
+        if result.is_err() {
+            self.writer.rollback()?;
+        }
+        result
     }
 
     /// Replaces the sync record of `state`'s scope, then commits everything staged.
@@ -610,6 +622,79 @@ mod tests {
             Store::open(dir.path(), &settings()),
             Err(SearchError::IndexEmpty)
         ));
+    }
+
+    /// A read-only index directory makes the commit fail. Root ignores the permission, so these tests need a
+    /// regular user.
+    fn read_only(dir: &TempDir, read_only: bool) {
+        use std::os::unix::fs::PermissionsExt;
+        let mode = if read_only { 0o555 } else { 0o755 };
+        fs::set_permissions(dir.path().join(INDEX_DIR), fs::Permissions::from_mode(mode)).unwrap();
+    }
+
+    #[test]
+    fn a_failed_commit_leaves_nothing_staged_for_the_failure_record() {
+        let dir = TempDir::new().unwrap();
+        let a = scope("lib", "1");
+        let mut writer = StoreWriter::open(dir.path(), &settings()).unwrap();
+        writer
+            .apply(&snapshot(&a, 1), &upserts(vec![document(&a, "x.md", &["kept"])]))
+            .unwrap();
+        read_only(&dir, true);
+        let changes = VersionChanges {
+            deletions: vec![DocKey::new(&a, "x.md").unwrap()],
+            ..upserts(vec![document(&a, "y.md", &["lost"])])
+        };
+        let failed = writer.apply(&snapshot(&a, 2), &changes);
+        read_only(&dir, false);
+        assert!(failed.is_err(), "{failed:?}");
+        let recorded = writer.record_failure(&snapshot(&a, 2), "disk full").unwrap();
+        assert_eq!((recorded.section_count, recorded.outcome), (1, Outcome::Failed));
+        assert_eq!(section_texts(writer.store(), &a), ["kept"]);
+    }
+
+    #[test]
+    fn a_failure_record_that_cannot_be_committed_leaves_the_previous_record() {
+        let dir = TempDir::new().unwrap();
+        let a = scope("lib", "1");
+        let mut writer = StoreWriter::open(dir.path(), &settings()).unwrap();
+        writer
+            .apply(&snapshot(&a, 1), &upserts(vec![document(&a, "x.md", &["kept"])]))
+            .unwrap();
+        read_only(&dir, true);
+        let failed = writer.record_failure(&snapshot(&a, 2), "disk full");
+        read_only(&dir, false);
+        assert!(failed.is_err(), "{failed:?}");
+        writer.commit().unwrap();
+        let stored = writer.store().version_state(&a).unwrap().unwrap();
+        assert_eq!((stored.outcome, stored.section_count), (Outcome::Ok, 1));
+    }
+
+    #[test]
+    fn a_failed_commit_keeps_the_pruned_scopes_for_the_next_one() {
+        let dir = TempDir::new().unwrap();
+        let (a, b) = (scope("lib", "1"), scope("lib", "2"));
+        let mut writer = StoreWriter::open(dir.path(), &settings()).unwrap();
+        for version in [&a, &b] {
+            writer
+                .apply(
+                    &snapshot(version, 1),
+                    &upserts(vec![document(version, "x.md", &["text"])]),
+                )
+                .unwrap();
+        }
+        assert_eq!(
+            writer.prune(std::slice::from_ref(&a)).unwrap(),
+            std::slice::from_ref(&b)
+        );
+        read_only(&dir, true);
+        let failed = writer.commit();
+        read_only(&dir, false);
+        assert!(failed.is_err(), "{failed:?}");
+        assert!(writer.store().version_state(&b).unwrap().is_some());
+        writer.commit().unwrap();
+        assert!(writer.store().version_state(&b).unwrap().is_none());
+        assert_eq!(section_texts(writer.store(), &a), ["text"]);
     }
 
     #[test]
