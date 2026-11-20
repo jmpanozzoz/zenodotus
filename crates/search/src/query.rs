@@ -190,19 +190,14 @@ pub fn build(
     ranking: &RankingSettings,
 ) -> BooleanQuery {
     let basic = IndexRecordOption::Basic;
-    let mut clauses: Vec<(Occur, Box<dyn Query>)> = vec![
-        (
-            Occur::Must,
-            Box::new(ConstScoreQuery::new(term_query(fields.kind, KIND_SECTION, basic), 0.0)),
-        ),
-        (
-            Occur::Must,
-            Box::new(ConstScoreQuery::new(
-                term_query(fields.scope, &scope.to_string(), basic),
-                0.0,
-            )),
-        ),
-    ];
+    // No `kind = section` filter: the required group below matches only `combined`, which only sections carry.
+    let mut clauses: Vec<(Occur, Box<dyn Query>)> = vec![(
+        Occur::Must,
+        Box::new(ConstScoreQuery::new(
+            term_query(fields.scope, &scope.to_string(), basic),
+            0.0,
+        )),
+    )];
     let group: Vec<(Occur, Box<dyn Query>)> = analyzed
         .required
         .iter()
@@ -1107,7 +1102,7 @@ mod tests {
         let analyzed = analyze("how tokio::spawn \"run tests\"").unwrap();
         let count =
             |ranking: &RankingSettings| build(&fields, &analyzed, &lib(), Some("Rust"), ranking).clauses().len();
-        let base = 3 + analyzed.optional.len();
+        let base = 2 + analyzed.optional.len();
         assert_eq!(
             count(&RankingSettings::default()),
             base + analyzed.identifiers.len() + 2,
@@ -1125,7 +1120,7 @@ mod tests {
             build(&fields, &single, &lib(), None, &RankingSettings::default())
                 .clauses()
                 .len(),
-            3 + single.identifiers.len()
+            2 + single.identifiers.len()
         );
     }
 
