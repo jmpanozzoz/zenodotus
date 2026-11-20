@@ -149,6 +149,7 @@ async fn resolve_commit(
         allowed_hosts: hosts,
         max_bytes: COMMIT_MAX_BYTES,
         validators: None,
+        validators_follow_redirects: false,
         timeout: ctx.timeout(),
         headers: &headers,
     };
@@ -203,6 +204,7 @@ async fn download(ctx: &Context<'_>, url: &Url, hosts: &HostSet, paths: &[String
         allowed_hosts: hosts,
         max_bytes: fetch.tarball_max_bytes,
         validators: None,
+        validators_follow_redirects: false,
         timeout: Duration::from_secs(fetch.tarball_timeout_secs),
         headers: &[],
     };

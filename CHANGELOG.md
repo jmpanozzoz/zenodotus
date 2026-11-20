@@ -26,10 +26,16 @@ and versions follow [Semantic Versioning](https://semver.org/).
 
 - A GitHub `reference` that is a full commit id is used without asking the API, so pinned sources sync
   under the API's unauthenticated rate limit.
+- The default `symbol_weight` is 4 instead of 5 (improvement-loop iteration 12, MRR@10 +0.8% on the dev set). An
+  index built with the old default asks for `sync --rebuild`.
 
 ### Fixed
 
 - Request headers that carry credentials are no longer sent to another origin after a redirect.
+- A configured URL or `llms.txt` link that redirects sends its stored validators to the target again, so an
+  unchanged document answers 304 instead of being downloaded on every sync.
+- A link found by a crawl that redirects temporarily to a 404 is ignored, as a direct 404 is, instead of making
+  every sync `partial`.
 - A version whose changes cannot be stored is recorded as `failed`, and the sync goes on with the next version.
 - A commit that fails, for example on a full disk, is rolled back, so the next commit no longer carries its staged
   deletions; before, recording the version as `failed` could delete pages it meant to keep.

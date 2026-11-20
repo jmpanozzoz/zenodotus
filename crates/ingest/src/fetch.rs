@@ -220,6 +220,10 @@ pub struct FetchRequest<'a> {
     pub max_bytes: u64,
     /// Validators for a conditional request.
     pub validators: Option<&'a Validators>,
+    /// Whether a redirect target gets the validators too: true when the document keeps its key across redirects
+    /// (configured URLs, `llms.txt` links), false when it is keyed by the URL that serves it (crawled pages), where
+    /// a target is another document.
+    pub validators_follow_redirects: bool,
     /// The timeout of each attempt, body included.
     pub timeout: Duration,
     /// Extra request headers, sent only to the origin of `url`.
@@ -526,8 +530,11 @@ impl Fetcher {
                 builder = builder.header(*name, value);
             }
         }
-        // Validators belong to the requested document, so a redirect target, another document, does not get them.
-        if let Some(validators) = request.validators.filter(|_| url == request.url) {
+        // Validators belong to the requested document, so a redirect target gets them only when it is that document.
+        if let Some(validators) = request
+            .validators
+            .filter(|_| request.validators_follow_redirects || url == request.url)
+        {
             if let Some(etag) = &validators.etag {
                 builder = builder.header(IF_NONE_MATCH, etag);
             }
@@ -640,6 +647,7 @@ pub(crate) mod tests {
             allowed_hosts: hosts,
             max_bytes: 1000,
             validators: None,
+            validators_follow_redirects: false,
             timeout: Duration::from_secs(5),
             headers: &[],
         }
@@ -957,7 +965,7 @@ pub(crate) mod tests {
     }
 
     #[tokio::test]
-    async fn validators_go_only_to_the_requested_url_not_to_a_redirect_target() {
+    async fn validators_go_to_a_redirect_target_only_when_it_is_the_same_document() {
         let server = MockServer::start().await;
         Mock::given(path("/old"))
             .respond_with(ResponseTemplate::new(301).insert_header("location", "/new"))
@@ -978,12 +986,18 @@ pub(crate) mod tests {
             etag: Some("\"v1\"".to_owned()),
             last_modified: Some("Wed, 21 Oct 2015 07:28:00 GMT".to_owned()),
         };
-        let request = FetchRequest {
+        let fetcher = fetcher(&local_settings());
+        let crawled = FetchRequest {
             validators: Some(&validators),
             ..request(&old, &hosts)
         };
-        let moved = body(fetcher(&local_settings()).get(&request).await.unwrap());
+        let moved = body(fetcher.get(&crawled).await.unwrap());
         assert_eq!(moved.final_url.path(), "/new");
+        let configured = FetchRequest {
+            validators_follow_redirects: true,
+            ..crawled
+        };
+        assert_eq!(fetcher.get(&configured).await.unwrap(), FetchResponse::NotModified);
         let conditional: Vec<(String, bool)> = server
             .received_requests()
             .await
@@ -991,7 +1005,15 @@ pub(crate) mod tests {
             .iter()
             .map(|r| (r.url.path().to_owned(), r.headers.contains_key("if-modified-since")))
             .collect();
-        assert_eq!(conditional, [("/old".to_owned(), true), ("/new".to_owned(), false)]);
+        assert_eq!(
+            conditional,
+            [
+                ("/old".to_owned(), true),
+                ("/new".to_owned(), false),
+                ("/old".to_owned(), true),
+                ("/new".to_owned(), true)
+            ]
+        );
     }
 
     #[tokio::test]

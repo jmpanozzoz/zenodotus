@@ -249,6 +249,7 @@ async fn fetch_robots(ctx: &Context<'_>, start: &Url, hosts: &HostSet) -> Result
         allowed_hosts: hosts,
         max_bytes: ctx.settings.page_max_bytes,
         validators: None,
+        validators_follow_redirects: false,
         timeout: ctx.timeout(),
         headers: &[],
     };
@@ -331,6 +332,7 @@ async fn read_sitemap(ctx: &Context<'_>, sitemap: &Url, hosts: &HostSet) -> Resu
         allowed_hosts: hosts,
         max_bytes: ctx.settings.document_max_bytes,
         validators: None,
+        validators_follow_redirects: false,
         timeout: ctx.timeout(),
         headers: &[],
     };

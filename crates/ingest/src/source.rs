@@ -1,6 +1,7 @@
 //! One entry point for every source kind, and the fetch-and-record step the remote sources share.
 
 use std::collections::BTreeMap;
+use std::ops::ControlFlow;
 use std::path::Path;
 use std::time::Duration;
 
@@ -12,7 +13,7 @@ use zenodotus_core::time::Clock;
 
 use crate::document::{self, Fetched};
 use crate::error::IngestError;
-use crate::fetch::{FetchError, FetchRequest, FetchResponse, Fetcher, HostSet, Validators};
+use crate::fetch::{Body, FetchError, FetchRequest, FetchResponse, Fetcher, HostSet, Validators};
 use crate::github::{self, GitHub};
 use crate::html::html_to_markdown;
 use crate::llms_txt::collect_llms_txt;
@@ -145,8 +146,9 @@ pub(crate) struct Visiting<'a> {
     pub conditional: bool,
     /// Whether a 404 or 410 for a document never stored is an error rather than nothing.
     pub report_missing: bool,
-    /// For crawled pages, which are keyed by the URL that serves them: a permanent redirect to another URL means the
-    /// document moved, and this decides what happens to it. `None` for configured URLs.
+    /// For crawled pages, which are keyed by the URL that serves them: decides what a redirect to another URL does,
+    /// temporary or permanent; only a permanent one deletes a stored copy. `None` for configured URLs and `llms.txt`
+    /// links, which keep their key across redirects.
     pub moves: Option<&'a (dyn Fn(&Url) -> Redirect + Sync)>,
 }
 
@@ -180,39 +182,15 @@ impl Context<'_> {
             allowed_hosts: visiting.hosts,
             max_bytes: visiting.max_bytes,
             validators: validators.as_ref(),
+            // A crawled page is keyed by the URL that serves it, so its redirect target is another document.
+            validators_follow_redirects: visiting.moves.is_none(),
             timeout: self.timeout(),
             headers: &[],
         };
-        let doc_path = key.doc_path();
-        let failed = |changes: &mut VersionChanges, error: &FetchError| {
-            changes.errors.push(error.doc_error(doc_path));
-            Visit::Failed
-        };
-        let body = match self.fetcher.get(&request).await {
-            Ok(FetchResponse::Body(body)) => body,
-            Ok(FetchResponse::NotModified) if previous.is_some() => {
-                changes.unchanged.push(key.clone());
-                return Visit::NotModified;
-            }
-            Ok(FetchResponse::NotModified) => {
-                let error = FetchError::Status {
-                    url: visiting.url.to_string(),
-                    status: 304,
-                };
-                return failed(changes, &error);
-            }
-            Ok(FetchResponse::Gone) => {
-                if previous.is_some() {
-                    changes.deletions.push(key.clone());
-                } else if visiting.report_missing {
-                    changes.errors.push(not_found(doc_path));
-                }
-                return Visit::Gone;
-            }
-            Err(FetchError::RedirectedAway { url: target, permanent }) if visiting.moves.is_some() => {
-                return stopped_at(target, permanent && previous.is_some(), key, changes);
-            }
-            Err(error) => return failed(changes, &error),
+        let answer = self.fetcher.get(&request).await;
+        let body = match settle(visiting, previous.is_some(), answer, changes) {
+            ControlFlow::Continue(body) => body,
+            ControlFlow::Break(visit) => return visit,
         };
         let mut source_url = body.final_url.clone();
         source_url.set_fragment(None);
@@ -233,7 +211,10 @@ impl Context<'_> {
         }
         let text = match body.text() {
             Ok(text) => text,
-            Err(error) => return failed(changes, &error),
+            Err(error) => {
+                changes.errors.push(error.doc_error(key.doc_path()));
+                return Visit::Failed;
+            }
         };
         let (markdown, links) = if body.is_html() {
             let page = html_to_markdown(text, &body.final_url);
@@ -269,6 +250,47 @@ impl Context<'_> {
         }
         Visit::Fetched { markdown, links }
     }
+}
+
+/// The visit of a fetch that brought no body, recorded in `changes`, or the body: an unchanged document for a 304 of
+/// a stored document, a deletion for a 404 or 410 of a stored document, and an error otherwise.
+fn settle(
+    visiting: &Visiting<'_>,
+    stored: bool,
+    answer: Result<FetchResponse, FetchError>,
+    changes: &mut VersionChanges,
+) -> ControlFlow<Visit, Body> {
+    let key = visiting.doc_key;
+    let error = match answer {
+        Ok(FetchResponse::Body(body)) => return ControlFlow::Continue(body),
+        Ok(FetchResponse::NotModified) if stored => {
+            changes.unchanged.push(key.clone());
+            return ControlFlow::Break(Visit::NotModified);
+        }
+        Ok(FetchResponse::NotModified) => FetchError::Status {
+            url: visiting.url.to_string(),
+            status: 304,
+        },
+        Ok(FetchResponse::Gone) => {
+            if stored {
+                changes.deletions.push(key.clone());
+            } else if visiting.report_missing {
+                changes.errors.push(not_found(key.doc_path()));
+            }
+            return ControlFlow::Break(Visit::Gone);
+        }
+        // The fetcher reports a 404 or 410 behind a temporary redirect as a status error, since it is no evidence
+        // against a stored copy; for a page never stored and not asked for, it is nothing.
+        Err(FetchError::Status { status: 404 | 410, .. }) if !stored && !visiting.report_missing => {
+            return ControlFlow::Break(Visit::Gone);
+        }
+        Err(FetchError::RedirectedAway { url: target, permanent }) if visiting.moves.is_some() => {
+            return ControlFlow::Break(stopped_at(target, permanent && stored, key, changes));
+        }
+        Err(error) => error,
+    };
+    changes.errors.push(error.doc_error(key.doc_path()));
+    ControlFlow::Break(Visit::Failed)
 }
 
 /// The visit of a page whose redirect to `target` is not followed: nothing is indexed, and the stored copy under
@@ -436,12 +458,19 @@ pub(crate) mod tests {
             .respond_with(ResponseTemplate::new(200).set_body_raw(vec![0xff, 0xfe], "text/plain"))
             .mount(&server)
             .await;
+        for route in ["/via302-stored", "/via302", "/via302-quiet"] {
+            Mock::given(path(route))
+                .respond_with(ResponseTemplate::new(302).insert_header("location", "/nowhere"))
+                .mount(&server)
+                .await;
+        }
         let base = url(&server.uri());
         let mut harness = Harness::new();
         let at = |p: &str| base.join(p).unwrap();
         harness.remember(at("/same").as_str(), "# Same\n", None);
         harness.remember(at("/cached").as_str(), "old", Some("\"v1\""));
         harness.remember(at("/gone").as_str(), "old", None);
+        harness.remember(at("/via302-stored").as_str(), "old", None);
         let ctx = harness.context();
         let hosts = HostSet::of(&[&base], &[]);
         let mut changes = VersionChanges::default();
@@ -468,6 +497,11 @@ pub(crate) mod tests {
         assert_eq!(run("/never-quiet", false).await, Visit::Gone);
         assert_eq!(run("/broken", true).await, Visit::Failed);
         assert_eq!(run("/binary", true).await, Visit::Failed);
+        // A 404 behind a temporary redirect is not evidence: a stored copy is kept with an error, a page asked for
+        // by name is an error, and a page never stored and not asked for is nothing, as a direct 404 would be.
+        assert_eq!(run("/via302-stored", true).await, Visit::Failed);
+        assert_eq!(run("/via302", true).await, Visit::Failed);
+        assert_eq!(run("/via302-quiet", false).await, Visit::Gone);
         drop(run);
         assert_eq!(changes.upserts.len(), 1);
         assert_eq!(changes.upserts[0].state.doc_key.doc_path(), at("/page").as_str());
@@ -483,6 +517,8 @@ pub(crate) mod tests {
                 format!("{} (not_found)", at("/never")),
                 format!("{} (status)", at("/broken")),
                 format!("{} (decode)", at("/binary")),
+                format!("{} (status)", at("/via302-stored")),
+                format!("{} (status)", at("/via302")),
             ]
         );
         assert_eq!(
@@ -490,6 +526,30 @@ pub(crate) mod tests {
             format!("{}: not found (HTTP 404 or 410)", at("/never"))
         );
         assert_eq!(changes.outcome(), Outcome::Partial);
+    }
+
+    #[tokio::test]
+    async fn a_configured_url_that_redirects_sends_its_validators_to_the_target() {
+        let server = MockServer::start().await;
+        Mock::given(path("/guide"))
+            .respond_with(ResponseTemplate::new(301).insert_header("location", "/v2/guide"))
+            .mount(&server)
+            .await;
+        Mock::given(path("/v2/guide"))
+            .and(wiremock::matchers::header("if-none-match", "\"v1\""))
+            .respond_with(ResponseTemplate::new(304))
+            .mount(&server)
+            .await;
+        let target = url(&format!("{}/guide", server.uri()));
+        let mut harness = Harness::new();
+        harness.remember(target.as_str(), "old", Some("\"v1\""));
+        let ctx = harness.context();
+        let hosts = HostSet::of(&[&target], &[]);
+        let mut changes = VersionChanges::default();
+        let key = ctx.doc_key(&target, &mut changes).unwrap();
+        let visit = ctx.visit(&visiting(&target, &key, &hosts), &mut changes).await;
+        assert_eq!(visit, Visit::NotModified);
+        assert_eq!(paths(&changes.unchanged), [target.as_str()]);
     }
 
     #[tokio::test]

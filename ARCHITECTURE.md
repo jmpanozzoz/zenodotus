@@ -103,14 +103,16 @@ again, so the next sync sends the current validators. When the listing itself ca
 and the version is `failed`. A website has no listing that proves a page is gone: a page that answers 304 is not
 parsed again, so it adds no links, and a page linked only from it is never reached through it. Every crawl therefore
 visits the start page, then every stored page, the start page's links and the sitemap pages, in that order, and
-deletes a page only when it answers 404 or 410 or redirects permanently (301 or 308) outside the crawl scope, to
-another host included. A page that redirects is indexed under the URL it redirects to, from the body the redirect
+deletes a page only when it answers 404 or 410, or redirects permanently (301 or 308) outside the crawl scope (to
+another host included) or to a page already indexed in this crawl. A page that redirects is indexed under the URL it redirects to, from the body the redirect
 already downloaded. A stored copy under the old URL is deleted only when every redirect followed was permanent,
-since a 302, 303 or 307 can be maintenance, and a 404 or 410 reached through one deletes nothing either; if the
-target's own fetch failed earlier in the crawl, the old copy is kept. The stored source URL never carries a fragment
+since a 302, 303 or 307 can be maintenance, and a 404 or 410 reached through one deletes nothing either: it is an
+error for a stored page and nothing for a page found only through a link, as a direct 404 is; if the target's own
+fetch failed earlier in the crawl, the old copy is kept. The stored source URL never carries a fragment
 from a redirect's `Location`. A redirect is one fetch of the `max_pages` budget (page visits; robots.txt and
-sitemaps do not count), and a start page that redirects outside the crawl scope fails the version. Validators are
-sent only to the requested URL, never to a redirect target. Only a configured sitemap must be readable: a sitemap
+sitemaps do not count), and a start page that redirects outside the crawl scope fails the version. A crawled page's
+validators are sent only to the requested URL, since its redirect target is another document; a configured URL or
+an `llms.txt` link keeps its key across redirects, so its target gets them too. Only a configured sitemap must be readable: a sitemap
 found in robots.txt that cannot be read is reported and the next one is read, a guessed `/sitemap.xml` that cannot
 be read is ignored, and an index of more than 50 sitemaps stops reading.
 
