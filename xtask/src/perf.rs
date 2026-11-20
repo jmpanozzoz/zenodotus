@@ -1,12 +1,15 @@
 //! `cargo xtask perf`: builds the MDN performance index and measures zenodotus on it with external tools.
 //!
 //! This module only orchestrates `cargo`, `zenodotus`, `zenodotus-eval`, GNU `time` and `hyperfine`, so it is the
-//! one file excluded from coverage. Everything it reports is printed by those tools or read from their files.
+//! one file excluded from coverage. Everything it reports is printed by those tools, read from their files, or
+//! computed by the tested functions of `perf_report`.
 
 use std::fmt::Write as _;
 use std::path::{Path, PathBuf};
 use std::process::{Command, ExitCode};
 use std::time::Instant;
+
+use crate::perf_report::{belongs_to_run, counts, cpu_seconds, time_field, time_report};
 
 /// The pinned `mdn/content` commit of the performance corpus.
 const MDN_COMMIT: &str = "defd0924e23d3a2bbaec3dfe079a1f201b536abe";
@@ -76,17 +79,9 @@ fn run(command: &mut Command, dir: &Path) -> Result<String, String> {
     Ok(String::from_utf8_lossy(&output.stdout).into_owned())
 }
 
-/// The value after `label` in a GNU `time -v` report.
-fn time_field<'a>(report: &'a str, label: &str) -> Option<&'a str> {
-    report
-        .lines()
-        .find_map(|line| line.trim().strip_prefix(label))
-        .map(str::trim)
-}
-
 /// Runs `zenodotus sync` under `time -v` and returns the report and the wall-clock seconds.
 fn timed_sync(paths: &Paths, name: &str) -> Result<(String, f64), String> {
-    let report = paths.dir.join(format!("{name}-time.txt"));
+    let report = paths.dir.join(time_report(name));
     let start = Instant::now();
     run(
         Command::new(TIME)
@@ -119,22 +114,6 @@ fn size_of(dir: &Path) -> u64 {
     })
 }
 
-/// The document and section counts `zenodotus status` reports, from its `…, N documents, M sections` line.
-fn counts(status: &str) -> Option<(u32, u32)> {
-    status.lines().find_map(|line| {
-        let (before, after) = line.split_once(" documents, ")?;
-        let documents = before.rsplit(' ').next()?.parse().ok()?;
-        let sections = after.strip_suffix(" sections")?.parse().ok()?;
-        Some((documents, sections))
-    })
-}
-
-/// User plus system CPU seconds in a GNU `time -v` report.
-fn cpu_seconds(report: &str) -> Option<f64> {
-    let field = |label| time_field(report, label)?.parse::<f64>().ok();
-    Some(field("User time (seconds):")? + field("System time (seconds):")?)
-}
-
 /// Copies this run's files into `target/perf/runs/<UTC time>/`, since the next run overwrites them, and returns that
 /// directory. A run that did not sync (`--reuse` with an index) leaves out `sync-time.txt`, which an earlier run wrote.
 fn keep_run(paths: &Paths, synced: bool) -> Result<PathBuf, String> {
@@ -145,7 +124,7 @@ fn keep_run(paths: &Paths, synced: bool) -> Result<PathBuf, String> {
         std::fs::read_dir(&paths.dir).map_err(|error| format!("cannot read {}: {error}", paths.dir.display()))?;
     for entry in entries.filter_map(Result::ok) {
         let path = entry.path();
-        if path.is_file() && (synced || entry.file_name() != "sync-time.txt") {
+        if path.is_file() && belongs_to_run(&entry.file_name().to_string_lossy(), synced) {
             std::fs::copy(&path, kept.join(entry.file_name()))
                 .map_err(|error| format!("cannot copy {}: {error}", path.display()))?;
         }

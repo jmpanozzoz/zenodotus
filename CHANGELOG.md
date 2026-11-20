@@ -34,6 +34,9 @@ and versions follow [Semantic Versioning](https://semver.org/).
   (improvement-loop iteration 17, identical results, p50 −17% and p95 −20% in `cargo xtask perf`). No rebuild needed.
 - The default `title_weight` is 3 instead of 4 (improvement-loop iteration 19, MRR@10 +0.01% on the dev set). An
   index built with the old default asks for `sync --rebuild`.
+- A website with no `allow_prefixes` whose start page is one segment deep (`/docs`, `/introduction`) now crawls the
+  whole host, the start page's directory, so that sites keeping every page at the root are crawled whole; set
+  `allow_prefixes = ["/docs"]` to keep such a crawl to one section.
 
 ### Fixed
 
@@ -43,9 +46,9 @@ and versions follow [Semantic Versioning](https://semver.org/).
 - A configured URL with a fragment is rejected when the config is checked; before, it never kept its ETag and
   Last-Modified, and a website's start page with one failed the crawl as a redirect outside its scope.
 - A website's crawl prefixes match whole path segments (`/docs` no longer covers `/docs-v1/`), and with no
-  `allow_prefixes` the crawl covers the start page's directory rather than only paths that begin with its full path,
-  which is the whole host for a start page one segment deep (`/introduction`); a prefix that ends in `/` also covers
-  its bare path (`/docs/` covers `/docs`). Stored pages outside the new scope are deleted on the next sync.
+  `allow_prefixes` the crawl covers the start page's directory rather than only paths that begin with its full path
+  (a start page one segment deep is under Changed); a prefix that ends in `/` also covers its bare path (`/docs/`
+  covers `/docs`), to which servers often redirect it. Stored pages outside the new scope are deleted on the next sync.
 - A scored term of a field that the metadata documents share no longer aborts the search.
 - The HTTP transport refuses a request whose `Origin` is not in `allowed_origins`, also when the list is empty; before,
   an empty list let every origin through.

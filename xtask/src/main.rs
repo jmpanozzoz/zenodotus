@@ -9,6 +9,7 @@
 
 mod errors;
 mod perf;
+mod perf_report;
 mod repo;
 
 use std::path::Path;

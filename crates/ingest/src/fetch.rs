@@ -130,7 +130,8 @@ pub enum FetchError {
 }
 
 /// The message of [`FetchError::RedirectedAway`]. It names the target, since it follows the requested URL in a
-/// listing error; a document error uses it alone. Only a DNS name can be added to `extra_hosts`, so only a DNS name gets that advice.
+/// listing error; a document error uses it alone. Only a DNS name can be added to `extra_hosts`, so only a DNS name
+/// gets that advice.
 fn redirected_away(url: &Url) -> String {
     match url.host() {
         Some(Host::Domain(name)) => format!(
@@ -743,12 +744,10 @@ pub(crate) mod tests {
             assert_eq!(error.url(), "https://docs.example/a");
             let doc = error.doc_error("a.md");
             assert_eq!((doc.doc_path.as_str(), doc.kind.as_str()), ("a.md", kind));
-            let expected = if matches!(error, FetchError::RedirectedAway { .. }) {
-                error.to_string()
-            } else {
-                format!("https://docs.example/a: {error}")
-            };
-            assert_eq!(doc.message, expected);
+            // A redirect away names its target in its own message; its own test covers that document error.
+            if !matches!(error, FetchError::RedirectedAway { .. }) {
+                assert_eq!(doc.message, format!("https://docs.example/a: {error}"));
+            }
         }
         assert_eq!(
             FetchError::TooLarge { url: url(), limit: 9 }.to_string(),

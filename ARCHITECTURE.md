@@ -186,6 +186,5 @@ token in constant time.
 only from the CLI output module, the evaluation report and `xtask`, and `#![forbid(unsafe_code)]` with `#![deny(missing_docs)]` in every crate root.
 `cargo xtask check-errors` checks that every error variant is named in at least one test; that the test asserts it is
 checked by reading. `cargo coverage` requires 100% of lines and functions; its one exclusion, `xtask/src/perf.rs`,
-drives cargo, GNU time, hyperfine and the corpus download, and parses `zenodotus status` and the `time -v` report for
-the documents-per-CPU-second figure; it fails the run when it cannot parse them, and its output is reviewed in every
-perf report.
+only orchestrates external tools; every number it reports is measured by tested code in `zenodotus-eval`, by GNU
+time or by hyperfine, or computed by the tested parsers of `xtask/src/perf_report.rs`.
