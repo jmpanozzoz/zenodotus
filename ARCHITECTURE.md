@@ -66,7 +66,7 @@ Tantivy has no BM25F and no separate query-time analyzer, so zenodotus works aro
   form, which would inflate document length. `code_ident` indexes whole identifiers joined by `::`, `.`, `#` or
   `->`, every qualified suffix (`std.sync.arc`, `sync.arc`, `arc`) and the snake-joined form, into `symbols_exact`.
 - **Queries are built in code**, never through Tantivy's query parser: non-stop words must match, stop words and
-  exact symbols, phrases, quoted phrases and the requested code language add score.
+  exact symbols, quoted phrases and the requested code language add score.
 - **Determinism.** Ties break on the section's `chunk_id`, and the top-k fetch keeps paging while the next hit ties
   the k-th, so no tie straddles the cut.
 

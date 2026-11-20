@@ -206,8 +206,6 @@ impl Default for HttpSettings {
 pub struct RankingSettings {
     /// Boost of exact identifier matches on `symbols_exact`.
     pub symbol_boost: f32,
-    /// Boost of the unquoted multi-word phrase on `combined`, slop 2; 0 disables it.
-    pub phrase_boost: f32,
     /// Boost of `"quoted"` phrases, slop 0.
     pub quoted_phrase_boost: f32,
     /// Boost of sections with code in the requested `language`; 0 disables it.
@@ -224,7 +222,6 @@ impl Default for RankingSettings {
     fn default() -> Self {
         Self {
             symbol_boost: 0.5,
-            phrase_boost: 1.0,
             quoted_phrase_boost: 2.0,
             language_boost: 1.0,
             min_should_match: 0.0,
@@ -363,7 +360,6 @@ impl RankingSettings {
         let invalid = |field, reason| Err(CoreError::InvalidSettings { field, reason });
         for (field, boost) in [
             ("ranking.symbol_boost", self.symbol_boost),
-            ("ranking.phrase_boost", self.phrase_boost),
             ("ranking.quoted_phrase_boost", self.quoted_phrase_boost),
             ("ranking.language_boost", self.language_boost),
         ] {
@@ -675,6 +671,7 @@ source = { kind = "local", path = "/srv/tokio" }
             "[settings",
             "[settings]\ncolour = 1",
             "[settings.fetch]\nretry = 1",
+            "[settings.ranking]\nphrase_boost = 1.0",
             "[[library]]\nid = \"Bad Id\"\n",
             "[[library]]\nid = \"a\"\nhome = \"x\"\n",
         ] {
@@ -809,7 +806,7 @@ source = { kind = "local", path = "/srv/tokio" }
 
     #[test]
     fn boosts_must_be_finite_and_not_negative() {
-        for key in ["symbol_boost", "phrase_boost", "quoted_phrase_boost", "language_boost"] {
+        for key in ["symbol_boost", "quoted_phrase_boost", "language_boost"] {
             for value in ["-1.0", "nan", "inf"] {
                 assert_eq!(
                     settings_error(&format!("[settings.ranking]\n{key} = {value}")),

@@ -24,8 +24,6 @@ pub const MAX_QUERY_CHARS: usize = 1000;
 pub const MAX_QUERY_TERMS: usize = 64;
 /// The boost of a synonym relative to the word it stands for.
 const SYNONYM_BOOST: f32 = 0.5;
-/// Slop of the phrase built from all the query's words.
-const PHRASE_SLOP: u32 = 2;
 
 /// English function words, sorted. They are optional clauses: a section that matches only these is never a result.
 const STOP_WORDS: [&str; 52] = [
@@ -127,15 +125,13 @@ fn boosted(query: Box<dyn Query>, boost: f32) -> Box<dyn Query> {
     Box::new(BoostQuery::new(query, boost))
 }
 
-/// A phrase over `words` in `combined`. `words` has at least two entries.
-fn phrase(fields: &Fields, words: &[String], slop: u32) -> Box<dyn Query> {
+/// The exact phrase `words` in `combined`. `words` has at least two entries.
+fn phrase(fields: &Fields, words: &[String]) -> Box<dyn Query> {
     let terms = words
         .iter()
         .map(|word| Term::from_field_text(fields.combined, word))
         .collect();
-    let mut query = PhraseQuery::new(terms);
-    query.set_slop(slop);
-    Box::new(query)
+    Box::new(PhraseQuery::new(terms))
 }
 
 /// The clause for one required or optional word: the word itself, or the word or any of its synonyms.
@@ -150,7 +146,7 @@ fn word_query(fields: &Fields, word: &str, ranking: &RankingSettings) -> Box<dyn
         .filter(|words| !words.is_empty())
         .map(|words| match words.as_slice() {
             [one] => term_query(fields.combined, one, IndexRecordOption::WithFreqs),
-            _ => phrase(fields, &words, 0),
+            _ => phrase(fields, &words),
         })
         .collect();
     if synonyms.is_empty() {
@@ -226,13 +222,8 @@ pub fn build(
             term_query(fields.symbols_exact, identifier, IndexRecordOption::WithFreqs)
         }));
     }
-    if analyzed.words.len() >= 2 {
-        clauses.extend(boosted_clause(ranking.phrase_boost, || {
-            phrase(fields, &analyzed.words, PHRASE_SLOP)
-        }));
-    }
     for words in &analyzed.quoted {
-        clauses.extend(boosted_clause(ranking.quoted_phrase_boost, || phrase(fields, words, 0)));
+        clauses.extend(boosted_clause(ranking.quoted_phrase_boost, || phrase(fields, words)));
     }
     if let Some(language) = language {
         clauses.extend(boosted_clause(ranking.language_boost, || {
@@ -790,7 +781,6 @@ mod tests {
 
         let flat = RankingSettings {
             symbol_boost: 0.0,
-            phrase_boost: 0.0,
             quoted_phrase_boost: 0.0,
             language_boost: 0.0,
             ..RankingSettings::default()
@@ -1020,11 +1010,11 @@ mod tests {
         let base = 3 + analyzed.optional.len();
         assert_eq!(
             count(&RankingSettings::default()),
-            base + analyzed.identifiers.len() + 3
+            base + analyzed.identifiers.len() + 2,
+            "a symbol, the quoted phrase and the language; the unquoted words add no phrase clause"
         );
         let off = RankingSettings {
             symbol_boost: 0.0,
-            phrase_boost: 0.0,
             quoted_phrase_boost: 0.0,
             language_boost: 0.0,
             ..RankingSettings::default()

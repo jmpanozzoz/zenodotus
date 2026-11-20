@@ -34,7 +34,6 @@ pub fn init_template() -> String {
 
 [settings.ranking]
 # symbol_boost = 0.5
-# phrase_boost = 1.0
 # quoted_phrase_boost = 2.0
 # synonyms = { env = [\"environment\"] }
 
