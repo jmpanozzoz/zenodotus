@@ -131,10 +131,8 @@ fn merge(outlines: Vec<Outline>, text: &str) -> Vec<Outline> {
         if let Some(start) = carried_start.take() {
             outline.range.start = start;
         }
-        let body = &text[outline.range.clone()];
-        let is_preamble = outline.anchor.is_none();
-        if is_preamble {
-            if !body.trim().is_empty() {
+        if outline.anchor.is_none() {
+            if !text[outline.range.clone()].trim().is_empty() {
                 merged.push(outline);
             }
             continue;

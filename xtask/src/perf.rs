@@ -135,9 +135,10 @@ fn cpu_seconds(report: &str) -> Option<f64> {
     Some(field("User time (seconds):")? + field("System time (seconds):")?)
 }
 
-/// Copies the files of this run into `target/perf/runs/<UTC time>/`, since the next run overwrites them, and returns
-/// that directory.
-fn keep_run(paths: &Paths) -> Result<PathBuf, String> {
+/// Copies the files this run wrote (modified since `started`) into `target/perf/runs/<UTC time>/`, since the next run
+/// overwrites them, and returns that directory. A `--reuse` run skips the initial sync, so the previous run's
+/// `sync-time.txt` is left out.
+fn keep_run(paths: &Paths, started: std::time::SystemTime) -> Result<PathBuf, String> {
     let stamp = run(Command::new("date").args(["-u", "+%Y-%m-%dT%H-%M-%SZ"]), &paths.root)?;
     let kept = paths.dir.join("runs").join(stamp.trim());
     std::fs::create_dir_all(&kept).map_err(|error| format!("cannot create {}: {error}", kept.display()))?;
@@ -145,7 +146,11 @@ fn keep_run(paths: &Paths) -> Result<PathBuf, String> {
         std::fs::read_dir(&paths.dir).map_err(|error| format!("cannot read {}: {error}", paths.dir.display()))?;
     for entry in entries.filter_map(Result::ok) {
         let path = entry.path();
-        if path.is_file() {
+        let fresh = entry
+            .metadata()
+            .and_then(|metadata| metadata.modified())
+            .is_ok_and(|modified| modified >= started);
+        if path.is_file() && fresh {
             std::fs::copy(&path, kept.join(entry.file_name()))
                 .map_err(|error| format!("cannot copy {}: {error}", path.display()))?;
         }
@@ -192,6 +197,7 @@ pub fn dispatch(args: &[String], root: &Path) -> Option<ExitCode> {
 
 /// Builds the index unless `reuse` and it exists, measures, and prints the results.
 fn perf(root: &Path, reuse: bool) -> Result<(), String> {
+    let started = std::time::SystemTime::now();
     let paths = Paths::new(root);
     std::fs::create_dir_all(&paths.dir).map_err(|error| format!("cannot create {}: {error}", paths.dir.display()))?;
     let cargo = std::env::var_os("CARGO").unwrap_or_else(|| "cargo".into());
@@ -216,9 +222,9 @@ fn perf(root: &Path, reuse: bool) -> Result<(), String> {
                 .arg("status"),
             root,
         )?;
-        let (documents, count) = counts(&status).unwrap_or_default();
+        let (documents, count) = counts(&status).ok_or("cannot read the document and section counts from `status`")?;
         let documents = f64::from(u32::try_from(documents).unwrap_or(0));
-        let cpu = cpu_seconds(&time).unwrap_or(f64::NAN);
+        let cpu = cpu_seconds(&time).ok_or("cannot read the user and system CPU time of the sync")?;
         let _ = write!(
             report,
             "\nInitial sync: {seconds:.1} s for {count} sections, {:.0} sections/s, download included\n\
@@ -287,7 +293,7 @@ fn perf(root: &Path, reuse: bool) -> Result<(), String> {
     let _ = write!(report, "\n{latency}");
     let summary = paths.dir.join("summary.txt");
     std::fs::write(&summary, &report).map_err(|error| format!("cannot write {}: {error}", summary.display()))?;
-    let kept = keep_run(&paths)?;
+    let kept = keep_run(&paths, started)?;
     println!("\n{report}\nThis run's files: {}", kept.display());
     Ok(())
 }

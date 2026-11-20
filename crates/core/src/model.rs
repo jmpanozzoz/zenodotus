@@ -59,7 +59,8 @@ pub enum SourceSpec {
         /// The sitemap; found through robots.txt or `/sitemap.xml` when absent.
         #[serde(default, skip_serializing_if = "Option::is_none")]
         sitemap: Option<Url>,
-        /// URL path prefixes a page must start with; empty means the path of `start_url`.
+        /// URL path prefixes a page must lie under, on whole path segments; empty means the start page's directory,
+        /// or the start path itself when that directory is the site root.
         #[serde(default, skip_serializing_if = "Vec::is_empty")]
         allow_prefixes: Vec<String>,
         /// The most pages to fetch.

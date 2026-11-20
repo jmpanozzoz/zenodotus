@@ -340,6 +340,14 @@ pub(crate) mod tests {
         assert_eq!(payload, s);
     }
 
+    /// The query has no `kind` filter: a metadata document stays out of every result only because it carries none
+    /// of the fields the required word group and the scored clauses read.
+    fn assert_no_scored_fields(fields: &Fields, doc: &TantivyDocument) {
+        for field in [fields.combined, fields.symbols_exact, fields.lang] {
+            assert_eq!(texts(doc, field), [] as [std::string::String; 0]);
+        }
+    }
+
     #[test]
     fn metadata_documents_carry_their_payload() {
         let (_, fields) = build_schema();
@@ -352,6 +360,7 @@ pub(crate) mod tests {
             fetched_at: Timestamp::from_unix(5),
         };
         let doc = fields.doc_state_document(&scope, &state);
+        assert_no_scored_fields(&fields, &doc);
         assert_eq!(texts(&doc, fields.kind), ["doc_state"]);
         assert_eq!(texts(&doc, fields.key), [doc_state_key(&state.doc_key)]);
         assert_eq!(texts(&doc, fields.scope), ["lib@2.0"]);
@@ -361,6 +370,7 @@ pub(crate) mod tests {
 
         let record = version_state(&scope);
         let doc = fields.version_state_document(&record);
+        assert_no_scored_fields(&fields, &doc);
         assert_eq!(texts(&doc, fields.kind), ["version_state"]);
         assert_eq!(texts(&doc, fields.key), ["vs\u{1f}lib@2.0"]);
         assert_eq!(texts(&doc, fields.scope), ["lib@2.0"]);

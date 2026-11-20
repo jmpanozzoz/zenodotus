@@ -129,16 +129,14 @@ pub enum FetchError {
     },
 }
 
-/// The message of [`FetchError::RedirectedAway`], which follows the target URL in a document error. Only a DNS name can
-/// be added to `extra_hosts`, so only a DNS name gets that advice.
+/// The message of [`FetchError::RedirectedAway`]. It names the target, since it follows the requested URL in a
+/// listing error. Only a DNS name can be added to `extra_hosts`, so only a DNS name gets that advice.
 fn redirected_away(url: &Url) -> String {
     match url.host() {
-        Some(Host::Domain(name)) => {
-            format!(
-                "reached by a redirect, on a host this source may not reach; add {name} to `extra_hosts` to follow it"
-            )
-        }
-        _ => "reached by a redirect to a URL this source may not reach".to_owned(),
+        Some(Host::Domain(name)) => format!(
+            "a redirect leads to {url}, on a host this source may not reach; add {name} to `extra_hosts` to follow it"
+        ),
+        _ => format!("a redirect leads to {url}, a URL this source may not reach"),
     }
 }
 
@@ -880,7 +878,7 @@ pub(crate) mod tests {
             };
             assert_eq!(
                 error.to_string(),
-                "reached by a redirect to a URL this source may not reach"
+                format!("a redirect leads to {}, a URL this source may not reach", url(target))
             );
         }
     }
@@ -976,7 +974,8 @@ pub(crate) mod tests {
             assert_eq!(error, FetchError::RedirectedAway { url: target, permanent }, "{route}");
             assert_eq!(
                 error.to_string(),
-                "reached by a redirect, on a host this source may not reach; add elsewhere.example to `extra_hosts` to follow it"
+                "a redirect leads to http://elsewhere.example/x, on a host this source may not reach; add elsewhere.example \
+                 to `extra_hosts` to follow it"
             );
         }
         assert_eq!(

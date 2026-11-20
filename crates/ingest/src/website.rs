@@ -23,7 +23,8 @@ pub struct Website<'a> {
     pub start_url: &'a Url,
     /// The configured sitemap, if any.
     pub sitemap: Option<&'a Url>,
-    /// URL path prefixes a page must start with; empty means the path of `start_url`.
+    /// URL path prefixes a page must lie under, on whole path segments; empty means the start page's directory, or
+    /// the start path itself when that directory is the site root.
     pub allow_prefixes: &'a [String],
     /// The most pages to fetch.
     pub max_pages: u32,
@@ -47,6 +48,14 @@ impl CrawlScope<'_> {
             && (url == self.start || self.prefixes.iter().any(|prefix| under(url.path(), prefix)))
             && self.robots.allowed(url)
     }
+}
+
+/// The crawl scope when `allow_prefixes` is empty: the start page's directory (`/docs/` for `/docs/intro`), or the
+/// start path itself when that directory is the site root (`/docs` for `/docs`), so that a start page one segment
+/// deep does not open the crawl to the whole host.
+fn default_prefix(path: &str) -> &str {
+    let directory = &path[..=path.rfind('/').unwrap_or_default()];
+    if directory == "/" { path } else { directory }
 }
 
 /// Whether `path` is `prefix` or lies under it, on a path-segment boundary: `/docs` covers `/docs/x` but not
@@ -76,8 +85,7 @@ pub async fn collect_website(ctx: &Context<'_>, site: &Website<'_>) -> Result<Ve
     let mut sitemap_errors = Vec::new();
     let sitemap_pages = sitemap_pages(ctx, site, &robots, &hosts, &mut sitemap_errors).await?;
     let prefixes = if site.allow_prefixes.is_empty() {
-        let path = site.start_url.path();
-        vec![&path[..=path.rfind('/').unwrap_or_default()]]
+        vec![default_prefix(site.start_url.path())]
     } else {
         site.allow_prefixes.iter().map(String::as_str).collect()
     };
@@ -828,6 +836,22 @@ mod tests {
             .unwrap();
         assert_eq!(paths(&changes.unchanged), [start.as_str()]);
         assert_eq!(paths(&changes.deletions), [] as [&str; 0]);
+    }
+
+    #[tokio::test]
+    async fn a_start_page_one_segment_deep_scopes_the_crawl_to_itself_not_the_whole_host() {
+        let server = MockServer::start().await;
+        let uri = server.uri();
+        serve(&server, "/robots.txt", 404, "text/plain", "").await;
+        serve(&server, "/sitemap.xml", 404, "text/plain", "").await;
+        html(&server, "/docs", r#"<a href="/docs/a">a</a> <a href="/other">o</a>"#).await;
+        for page in ["/docs/a", "/other"] {
+            html(&server, page, "Page").await;
+        }
+        let start = url(&format!("{uri}/docs"));
+        let harness = Harness::new();
+        let changes = collect_website(&harness.context(), &site(&start, &[])).await.unwrap();
+        assert_eq!(upserted(&changes), [format!("{uri}/docs"), format!("{uri}/docs/a")]);
     }
 
     #[tokio::test]
