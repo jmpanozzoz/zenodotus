@@ -211,7 +211,7 @@ pub struct FetchRequest<'a> {
     pub validators: Option<&'a Validators>,
     /// The timeout of each attempt, body included.
     pub timeout: Duration,
-    /// Extra request headers.
+    /// Extra request headers, sent only to the origin of `url`.
     pub headers: &'a [(&'static str, String)],
 }
 
@@ -487,8 +487,11 @@ impl Fetcher {
 
     fn build(&self, url: &Url, request: &FetchRequest<'_>) -> reqwest::RequestBuilder {
         let mut builder = self.client.get(url.clone()).timeout(request.timeout);
-        for (name, value) in request.headers {
-            builder = builder.header(*name, value);
+        // Extra headers can carry credentials, so a redirect to another origin does not get them.
+        if url.origin() == request.url.origin() {
+            for (name, value) in request.headers {
+                builder = builder.header(*name, value);
+            }
         }
         if let Some(validators) = request.validators {
             if let Some(etag) = &validators.etag {
@@ -867,6 +870,48 @@ pub(crate) mod tests {
         );
         // Five redirects are followed: /loop1 reaches /loop6, which does not exist.
         assert_eq!(fetch(&fetcher, &at("/loop1")).await.unwrap(), FetchResponse::Gone);
+    }
+
+    #[tokio::test]
+    async fn extra_headers_are_not_sent_to_another_origin() {
+        let first = MockServer::start().await;
+        let second = MockServer::start().await;
+        let redirect = |to: String| ResponseTemplate::new(302).insert_header("location", to.as_str());
+        Mock::given(path("/start"))
+            .respond_with(redirect(format!("{}/same", first.uri())))
+            .mount(&first)
+            .await;
+        Mock::given(path("/same"))
+            .respond_with(redirect(format!("{}/other", second.uri())))
+            .mount(&first)
+            .await;
+        Mock::given(path("/other"))
+            .respond_with(ResponseTemplate::new(200).set_body_string("landed"))
+            .mount(&second)
+            .await;
+        let start = url(&format!("{}/start", first.uri()));
+        let hosts = HostSet::of(&[&start], &[]);
+        let headers = [("authorization", "Bearer secret".to_owned())];
+        let request = FetchRequest {
+            headers: &headers,
+            ..request(&start, &hosts)
+        };
+        let landed = body(fetcher(&local_settings()).get(&request).await.unwrap());
+        assert_eq!(landed.text().unwrap(), "landed");
+        let authorized = |requests: Vec<wiremock::Request>| -> Vec<(String, bool)> {
+            requests
+                .iter()
+                .map(|r| (r.url.path().to_owned(), r.headers.contains_key("authorization")))
+                .collect()
+        };
+        assert_eq!(
+            authorized(first.received_requests().await.unwrap()),
+            [("/start".to_owned(), true), ("/same".to_owned(), true)]
+        );
+        assert_eq!(
+            authorized(second.received_requests().await.unwrap()),
+            [("/other".to_owned(), false)]
+        );
     }
 
     #[tokio::test]

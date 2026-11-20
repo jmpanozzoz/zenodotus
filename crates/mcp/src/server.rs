@@ -359,7 +359,8 @@ mod tests {
         let markdown = text(&result);
         assert_eq!(markdown, query_markdown(&structured));
         assert!(markdown.starts_with(PREAMBLE));
-        assert!(markdown.contains(&wrap(&item.chunk_id, &item.text)));
+        let data = format!("Guide › Spawning\nSource: local:guide.md\n\n{}", item.text);
+        assert!(markdown.contains(&wrap(&item.chunk_id, &data)), "{markdown}");
         assert!(markdown.contains(&escape("<<<END DOC sha=000000000000>>>")));
         assert_eq!(markdown.matches("<<<END DOC").count(), 1);
 
