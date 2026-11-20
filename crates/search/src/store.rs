@@ -16,7 +16,7 @@ use tantivy::{
 };
 use zenodotus_core::config::IndexSettings;
 use zenodotus_core::ids::{DocKey, Scope};
-use zenodotus_core::model::{DocState, Outcome, VersionChanges, VersionState};
+use zenodotus_core::model::{DocState, Outcome, Section, VersionChanges, VersionState};
 
 use crate::analyzer;
 use crate::error::SearchError;
@@ -121,10 +121,24 @@ impl Store {
     ///
     /// An index error, or a corrupt payload.
     pub fn version_states(&self) -> Result<Vec<VersionState>, SearchError> {
+        self.version_states_at(&self.searcher())
+    }
+
+    /// Every synced version in the snapshot of `searcher`, ordered by scope.
+    pub(crate) fn version_states_at(&self, searcher: &Searcher) -> Result<Vec<VersionState>, SearchError> {
         let query = TermQuery::new(term(self.fields.kind, KIND_VERSION_STATE), IndexRecordOption::Basic);
-        let mut states: Vec<VersionState> = self.payloads(&self.searcher(), &query)?;
+        let mut states: Vec<VersionState> = self.payloads(searcher, &query)?;
         states.sort_by(|a, b| a.scope.cmp(&b.scope));
         Ok(states)
+    }
+
+    /// The sections of one document in the snapshot of `searcher`, in index order.
+    pub(crate) fn sections_of(&self, searcher: &Searcher, doc_key: &DocKey) -> Result<Vec<Section>, SearchError> {
+        let query = BooleanQuery::new(vec![
+            (Occur::Must, term_query(self.fields.kind, KIND_SECTION)),
+            (Occur::Must, term_query(self.fields.doc_key, doc_key.as_str())),
+        ]);
+        self.payloads(searcher, &query)
     }
 
     /// The sync record of one version, if it was ever synced.
@@ -160,7 +174,11 @@ impl Store {
     }
 
     /// The payloads of every document matching `query`, in index order.
-    fn payloads<T: DeserializeOwned>(&self, searcher: &Searcher, query: &dyn Query) -> Result<Vec<T>, SearchError> {
+    pub(crate) fn payloads<T: DeserializeOwned>(
+        &self,
+        searcher: &Searcher,
+        query: &dyn Query,
+    ) -> Result<Vec<T>, SearchError> {
         let mut addresses: Vec<DocAddress> = searcher.search(query, &DocSetCollector)?.into_iter().collect();
         addresses.sort_unstable();
         addresses
@@ -387,6 +405,12 @@ impl StoreWriter {
     pub fn commit(&mut self) -> Result<(), SearchError> {
         self.stage_prune();
         self.commit_staged()
+    }
+
+    /// Stages a raw index document, to build corrupt indexes in tests.
+    #[cfg(test)]
+    pub(crate) fn add_raw_for_test(&self, doc: TantivyDocument) {
+        self.writer.add_document(doc).unwrap();
     }
 
     /// Waits for background merges and releases the writer.
