@@ -1,6 +1,7 @@
 //! `check-repo`: repository hygiene rules that CI enforces.
 
 /// One tracked file: its path relative to the repository root, with `/` separators, and its text.
+#[derive(Debug)]
 pub struct SourceFile {
     /// Path relative to the repository root.
     pub path: String,

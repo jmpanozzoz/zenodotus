@@ -129,18 +129,22 @@ fn add_to_document(
     spec: &VersionSpec,
 ) -> Result<(), CoreError> {
     let version_table = version_table(library, spec)?;
+    let trailing = doc.trailing().as_str().unwrap_or_default().to_owned();
     let libraries = array_of_tables(doc.as_table_mut(), "library", path)?;
     let found = libraries
         .iter_mut()
         .find(|table| table.get("id").and_then(Item::as_str) == Some(library.as_str()));
     let Some(entry) = found else {
+        // Comments that end the file follow the last table; a new library goes after them.
         let mut table = Table::new();
+        table.decor_mut().set_prefix(format!("{trailing}\n"));
         table.insert("id", value(library.as_str()));
         apply_meta(&mut table, meta);
         let mut versions = ArrayOfTables::new();
         versions.push(version_table);
         table.insert("version", Item::ArrayOfTables(versions));
         libraries.push(table);
+        doc.set_trailing("");
         return Ok(());
     };
     apply_meta(entry, meta);
@@ -290,6 +294,23 @@ mod tests {
              [[library.version]]\nversion = \"1.40\"\ndefault = true\n\
              source = { kind = \"local\", path = \"/srv/docs\" }\nextra_hosts = [\"cdn.tokio.rs\"]\n"
         );
+    }
+
+    #[test]
+    fn comments_that_end_the_file_stay_above_a_new_library() {
+        let (_dir, path) = config_file(&init_template());
+        add_version(&path, &id("tokio"), LibraryMeta::default(), &spec("1", true)).unwrap();
+        let text = std::fs::read_to_string(&path).unwrap();
+        assert!(
+            text.contains("[settings.index]\n# Changing a weight requires"),
+            "{text}"
+        );
+        assert!(
+            text.ends_with("source = { kind = \"local\", path = \"/srv/docs\" }\n"),
+            "{text}"
+        );
+        let weighted = text.replace("# title_weight = 4", "title_weight = 5");
+        assert_eq!(Config::parse(&path, &weighted).unwrap().settings.index.title_weight, 5);
     }
 
     #[test]

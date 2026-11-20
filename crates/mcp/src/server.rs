@@ -116,17 +116,26 @@ impl From<SearchError> for Failure {
     }
 }
 
-/// `value` if it lies in `range` (min, max, default), the default if it is absent, or an `invalid_argument` failure.
-fn bounded(name: &str, value: Option<u64>, (min, max, default): (u64, u64, u64)) -> Result<usize, Failure> {
+/// `value`, or the default when it is absent, if it lies in `range` (min, max, default).
+///
+/// # Errors
+///
+/// A message naming `name` and the range when the value is outside it.
+pub fn bounded(name: &str, value: Option<u64>, (min, max, default): (u64, u64, u64)) -> Result<usize, String> {
     let value = value.unwrap_or(default);
     if (min..=max).contains(&value) {
         // The range fits in `usize` on every supported target.
         return Ok(usize::try_from(value).unwrap_or(usize::MAX));
     }
-    Err(Failure::Domain {
+    Err(format!("{name} must be between {min} and {max}; got {value}"))
+}
+
+/// An `invalid_argument` failure with `message`.
+const fn invalid_argument(message: String) -> Failure {
+    Failure::Domain {
         code: "invalid_argument",
-        message: format!("{name} must be between {min} and {max}; got {value}"),
-    })
+        message,
+    }
 }
 
 /// The tool result for `outcome`: the structured content plus its Markdown on success, an error result for domain
@@ -210,8 +219,8 @@ impl DocsServer {
             query: &input.query,
             version: input.version.as_deref(),
             language: input.language.as_deref(),
-            max_results: bounded("max_results", input.max_results, MAX_RESULTS)?,
-            max_chars: bounded("max_chars", input.max_chars, MAX_CHARS)?,
+            max_results: bounded("max_results", input.max_results, MAX_RESULTS).map_err(invalid_argument)?,
+            max_chars: bounded("max_chars", input.max_chars, MAX_CHARS).map_err(invalid_argument)?,
         };
         let store = self.index.store()?;
         Ok(query::query_docs(store, &request, &self.index.ranking)?)

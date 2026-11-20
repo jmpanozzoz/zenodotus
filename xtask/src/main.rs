@@ -154,6 +154,27 @@ mod tests {
     }
 
     #[test]
+    fn git_that_cannot_start_is_reported() {
+        let missing = std::env::temp_dir().join("zenodotus-xtask-missing-dir");
+        let error = load_files(&missing).unwrap_err();
+        assert!(error.starts_with("cannot run git: "), "{error}");
+    }
+
+    #[test]
+    fn staged_files_missing_from_disk_are_skipped() {
+        let dir = repo_with(&[("README.md", "# x"), ("gone.rs", "")]);
+        let git = Command::new("git")
+            .args(["add", "gone.rs"])
+            .current_dir(dir.path())
+            .status()
+            .unwrap();
+        assert!(git.success());
+        std::fs::remove_file(dir.path().join("gone.rs")).unwrap();
+        let paths: Vec<String> = load_files(dir.path()).unwrap().into_iter().map(|f| f.path).collect();
+        assert_eq!(paths, ["README.md"]);
+    }
+
+    #[test]
     fn outside_a_git_repository_loading_fails() {
         let dir = tempfile::tempdir().unwrap();
         assert!(load_files(dir.path()).is_err());
