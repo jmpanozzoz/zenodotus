@@ -165,6 +165,16 @@ impl Store {
         Ok(states.into_iter().map(|state| (state.doc_key.clone(), state)).collect())
     }
 
+    /// Every section of one version, in index order.
+    ///
+    /// # Errors
+    ///
+    /// An index error, or a corrupt payload.
+    pub fn sections(&self, scope: &Scope) -> Result<Vec<Section>, SearchError> {
+        let query = self.kind_in_scope(KIND_SECTION, scope);
+        self.payloads(&self.searcher(), &query)
+    }
+
     /// Documents of `kind` in `scope`.
     pub(crate) fn kind_in_scope(&self, kind: &str, scope: &Scope) -> BooleanQuery {
         BooleanQuery::new(vec![
@@ -567,10 +577,8 @@ mod tests {
     }
 
     fn section_texts(store: &Store, scope: &Scope) -> Vec<String> {
-        let searcher = store.searcher();
-        let query = store.kind_in_scope(KIND_SECTION, scope);
         let mut texts: Vec<String> = store
-            .payloads::<zenodotus_core::model::Section>(&searcher, &query)
+            .sections(scope)
             .unwrap()
             .into_iter()
             .map(|section| section.text)

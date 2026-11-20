@@ -4,6 +4,10 @@
 [settings]
 data_dir = "../target/eval-data"
 
+# The vercel/next.js tarball holds about 60,000 entries; the default cap of 50,000 would stop it.
+[settings.fetch]
+tar_max_entries = 200000
+
 [[library]]
 id = "fastapi"
 name = "FastAPI"

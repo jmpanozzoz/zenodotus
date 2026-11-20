@@ -1,0 +1,221 @@
+
+------------------------------------------------------------
+Result 1: file:///corpus/tokio/content/blog/2022-10-announcing-async-backtrace.md
+
+---
+date: "2022-10-27"
+title: "Announcing async-backtrace"
+description: "October 27, 2022"
+---
+Today, we are happy to announce the initial release of [**async-backtrace**](https://crates.io/crates/async-backtrace), a crate that enables you to efficiently track and view the state of asynchronous tasks in your application.
+In synchronous, multi-threaded applications, you can investigate deadlocks by inspecting stack traces of all running threads. Unfortunately, this approach breaks down for most asynchronous Rust applications, since suspended tasks — tasks that are not actively being polled — are invisible to traditional stack traces. The `async-backtrace` crate fills this gap, allowing you see the state of these hidden tasks. It is architected to be highly efficient without configuration, and is suitable for deployment in production environments.
+This crate complements (but is not yet integrated with) the [`tracing`](https://github.com/tokio-rs/tracing) library and [`tokio-console`](https://github.com/tokio-rs/console). Use `async-backtrace` for a birds-eye view of task state in your application, and [`tracing`](https://github.com/tokio-rs/tracing) for isolating the inputs that lead to that state. If your application uses the tokio runtime, you can use [`tokio-console`](https://github.com/tokio-rs/console) for a deeper look into your application's interactions with tokio's synchronization primitives.
+## Getting Started
+To use `async-backtrace`, first add the crate to your `Cargo.toml` file:
+```toml
+[dependencies]
+async-backtrace = "0.2"
+```
+Then, to include your `async fn`s in async task traces, simply annotate them with `#[async_backtrace::framed]` and call [`taskdump_tree`](https://docs.rs/async-backtrace/0.2.0/async_backtrace/fn.taskdump_tree.html) to receive pretty-printed trees of your application's tasks. For instance:
+
+```rust
+#[tokio::main(flavor = "current_thread")]
+async fn main() {
+    tokio::select! {
+        // run the following branches in order of their appearance
+        biased;
+
+        // spawn task #1
+        _ = tokio::spawn(foo()) => { unreachable!() }
+
+        // spawn task #2
+        _ = tokio::spawn(foo()) => { unreachable!() }
+
+        // print the running tasks
+        _ = tokio::spawn(async {}) => {
+            println!("{}", async_backtrace::taskdump_tree(true));
+        }
+    };
+}
+
+#[async_backtrace::framed]
+async fn foo() {
+    bar().await;
+}
+
+#[async_backtrace::framed]
+async fn bar() {
+    baz().await;
+}
+
+#[async_backtrace::framed]
+async fn baz() {
+    std::future::pending::<()>().await
+}
+```
+Running the above example prints the trees:
+```text
+╼ multiple::foo::{{closure}} at backtrace/examples/multiple.rs:22:1
+  └╼ multiple::bar::{{closure}} at backtrace/examples/multiple.rs:27:1
+     └╼ multiple::baz::{{closure}} at backtrace/examples/multiple.rs:32:1
+╼ multiple::foo::{{closure}} at backtrace/examples/multiple.rs:22:1
+  └╼ multiple::bar::{{closure}} at backtrace/examples/multiple.rs:27:1
+     └╼ multiple::baz::{{closure}} at backtrace/examples/multiple.rs:32:1
+```
+See [here](https://github.com/tokio-rs/async-backtrace/blob/main/backtrace/examples) for more examples!
+
+------------------------------------------------------------
+Result 2: file:///corpus/tokio/content/tokio/tutorial/select.md
+
+---
+title: "Select"
+---
+So far, when we wanted to add concurrency to the system, we spawned a new task. We will now cover some additional ways to concurrently execute asynchronous code with Tokio.
+# tokio::select!
+The `tokio::select!` macro allows waiting on multiple async computations and returns when a **single** computation completes.
+For example:
+```rust
+use tokio::sync::oneshot;
+
+#[tokio::main]
+async fn main() {
+    let (tx1, rx1) = oneshot::channel();
+    let (tx2, rx2) = oneshot::channel();
+
+    tokio::spawn(async {
+        let _ = tx1.send("one");
+    });
+
+    tokio::spawn(async {
+        let _ = tx2.send("two");
+    });
+
+    tokio::select! {
+        val = rx1 => {
+            println!("rx1 completed first with {:?}", val);
+        }
+        val = rx2 => {
+            println!("rx2 completed first with {:?}", val);
+        }
+    }
+}
+```
+Two oneshot channels are used. Either channel could complete first. The `select!` statement awaits on both channels and binds `val` to the value returned by the task. When either `tx1` or `tx2` complete, the associated block is executed.
+The branch that **does not** complete is dropped. In the example, the computation is awaiting the `oneshot::Receiver` for each channel. The `oneshot::Receiver` for the channel that did not complete yet is dropped.
+## Cancellation
+With asynchronous Rust, cancellation is performed by dropping a future. Recall from ["Async in depth"](async), async Rust operation are implemented using futures and futures are lazy. The operation only proceeds when the future is polled. If the future is dropped, the operation cannot proceed because all associated state has been dropped.
+That said, sometimes an asynchronous operation will spawn background tasks or start other operation that run in the background. For example, in the above example, a task is spawned to send a message back. Usually, the task will perform some computation to generate the value.
+Futures or other types can implement `Drop` to cleanup background resources. Tokio's `oneshot::Receiver` implements `Drop` by sending a closed notification to the `Sender` half. The sender half can receive this notification and abort the in-progress operation by dropping it.
+
+```rust
+use tokio::sync::oneshot;
+
+async fn some_operation() -> String {
+    // Compute value here
+# "wut".to_string()
+}
+
+#[tokio::main]
+async fn main() {
+    let (mut tx1, rx1) = oneshot::channel();
+    let (tx2, rx2) = oneshot::channel();
+
+    tokio::spawn(async {
+        // Select on the operation and the oneshot's
+        // `closed()` notification.
+        tokio::select! {
+            val = some_operation() => {
+                let _ = tx1.send(val);
+            }
+            _ = tx1.closed() => {
+                // `some_operation()` is canceled, the
+                // task completes and `tx1` is dropped.
+            }
+        }
+    });
+
+    tokio::spawn(async {
+        let _ = tx2.send("two");
+    });
+
+    tokio::select! {
+        val = rx1 => {
+            println!("rx1 completed first with {:?}", val);
+        }
+        val = rx2 => {
+            println!("rx2 completed first with {:?}", val);
+        }
+    }
+}
+```
+
+# Syntax
+The `select!` macro can handle more than two branches. The current limit is 64 branches. Each branch is structured as:
+```text
+<pattern> = <async expression> => <handler>,
+```
+When the `select` macro is evaluated, all the `<async expression>`s are aggregated and executed concurrently. When an expression completes, the result is matched against `<pattern>`. If the result matches the pattern, then all remaining async expressions are dropped and `<handler>` is executed. The `<handler>` expression has access to any bindings established by `<pattern>`.
+The basic case for `<pattern>` is a variable name, the result of the async expression is bound to the variable name and `<handler>` has access to that variable. This is why, in the original example, `val` was used for `<pattern>` and `<handler>` was able to access `val`.
+If `<pattern>` **does not** match the result of the async computation, then the remaining async expressions continue to execute concurrently until the next one completes. At this time, the same logic is applied to that result.
+Because `select!` takes any async expression, it is possible to define more complicated computations to select on.
+Here, we select on the output of a `oneshot` channel and a TCP connection.
+
+```rust
+use tokio::net::TcpStream;
+use tokio::sync::oneshot;
+
+#[tokio::main]
+async fn main() {
+    let (tx, rx) = oneshot::channel();
+
+    // Spawn a task that sends a message over the oneshot
+    tokio::spawn(async move {
+        tx.send("done").unwrap();
+    });
+
+    tokio::select! {
+        socket = TcpStream::connect("localhost:3465") => {
+            println!("Socket connected {:?}", socket);
+        }
+        msg = rx => {
+            println!("received message first {:?}", msg);
+        }
+    }
+}
+```
+Here, we select on a oneshot and accepting sockets from a `TcpListener`.
+```rust
+use tokio::net::TcpListener;
+use tokio::sync::oneshot;
+use std::io;
+
+#[tokio::main]
+async fn main() -> io::Result<()> {
+    let (tx, rx) = oneshot::channel();
+
+    tokio::spawn(async move {
+        tx.send(()).unwrap();
+    });
+
+    let mut listener = TcpListener::bind("localhost:3465").await?;
+
+    tokio::select! {
+        _ = async {
+            loop {
+                let (socket, _) = listener.accept().await?;
+                tokio::spawn(async move { process(socket) });
+            }
+
+            // Help the rust type inferencer out
+            Ok::<_, io::Error>(())
+        } => {}
+        _ = rx => {
+            println!("terminating accept loop");
+        }
+    }
+
+    Ok(())
+}
+# async fn process(_: tokio::net::TcpStream) {}
+```
+The accept loop runs until an error is encountered or `rx` receives a value. The `_` pattern indicates that we have no interest in the return value of the async computation.

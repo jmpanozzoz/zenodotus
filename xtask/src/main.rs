@@ -175,6 +175,16 @@ mod tests {
     }
 
     #[test]
+    fn an_unreadable_file_fails_loading() {
+        use std::os::unix::fs::PermissionsExt as _;
+        let dir = repo_with(&[("secret.rs", "")]);
+        let path = dir.path().join("secret.rs");
+        std::fs::set_permissions(&path, std::fs::Permissions::from_mode(0o000)).unwrap();
+        let error = load_files(dir.path()).unwrap_err();
+        assert!(error.starts_with("cannot read secret.rs: "), "{error}");
+    }
+
+    #[test]
     fn outside_a_git_repository_loading_fails() {
         let dir = tempfile::tempdir().unwrap();
         assert!(load_files(dir.path()).is_err());
