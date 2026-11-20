@@ -33,6 +33,9 @@ and versions follow [Semantic Versioning](https://semver.org/).
 
 ### Fixed
 
+- A configured URL that redirects no longer stores the target's ETag and Last-Modified, which went back to the
+  requested URL on the next sync.
+- A redirect to a host the source may not reach names that host and the `extra_hosts` remedy in its error.
 - Request headers that carry credentials are no longer sent to another origin after a redirect.
 - A website whose start page lies outside its `allow_prefixes` keeps the start page; before, one sync indexed it and
   the next deleted it.

@@ -63,7 +63,10 @@ pub enum FetchError {
     },
     /// A redirect leads to a host that is neither one of the source's own URLs nor in its `extra_hosts`. A crawl
     /// treats it as leaving its scope; every other caller, as [`FetchError::HostNotAllowed`].
-    #[error("redirects to a host this source may not reach")]
+    #[error(
+        "redirects to {}, a host this source may not reach; add it to `extra_hosts` to follow it",
+        url.host_str().unwrap_or_default()
+    )]
     RedirectedAway {
         /// The redirect target.
         url: Url,
@@ -947,7 +950,10 @@ pub(crate) mod tests {
             let error = fetch(&fetcher, &at(route)).await.unwrap_err();
             let target = url("http://elsewhere.example/x");
             assert_eq!(error, FetchError::RedirectedAway { url: target, permanent }, "{route}");
-            assert_eq!(error.to_string(), "redirects to a host this source may not reach");
+            assert_eq!(
+                error.to_string(),
+                "redirects to elsewhere.example, a host this source may not reach; add it to `extra_hosts` to follow it"
+            );
         }
         assert_eq!(
             fetch(&fetcher, &at("/loop0")).await.unwrap_err().url(),

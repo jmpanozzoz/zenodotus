@@ -96,7 +96,7 @@ documents, plus `sync.lock`.
 | GitHub | the resolved commit and the source, `paths` included; both unchanged skip the download | missing from a complete tarball listing |
 | Url | ETag or Last-Modified (304), then content hash and validators | 404 or 410, or removed from the config |
 | LlmsTxt | as Url, for the file and every linked page | missing from the new `llms.txt`, or 404 or 410 |
-| Website | as Url, per page | 404 or 410, or outside the crawl scope |
+| Website | as Url, per page | 404 or 410, or a permanent redirect outside the crawl scope or to a page already reached |
 
 Any other per-document error, a tarball file that is too large or not UTF-8 included, keeps the previous content and
 marks the version `partial`. A page whose content is unchanged but whose ETag or Last-Modified changed is stored
@@ -105,7 +105,7 @@ the version is `failed`. A website has no listing that proves a page is gone: a 
 again, so it adds no links, and a page linked only from it is never reached through it. Every crawl therefore visits
 the start page, then every stored page, the start page's links and the sitemap pages, in that order, and deletes a
 page only when it answers 404 or 410, or redirects permanently (301 or 308) outside the crawl scope (to another host
-included) or to a page already indexed in this crawl. A page that redirects is indexed under the URL it redirects to,
+included) or to a page already reached in this crawl. A page that redirects is indexed under the URL it redirects to,
 from the body the redirect already downloaded. A stored copy under the old URL is deleted only when every redirect
 followed was permanent, since a 302, 303 or 307 can be maintenance, and a 404 or 410 reached through one deletes
 nothing either: it is an error for a stored page and nothing for a page never stored (found through a link or a
@@ -113,7 +113,9 @@ sitemap), as a direct 404 is; if the target's own fetch failed earlier in the cr
 source URL never carries a fragment from a redirect's `Location`. A redirect is one fetch of the `max_pages` budget
 (page visits; robots.txt and sitemaps do not count), and a start page that redirects outside the crawl scope fails the
 version. Validators are sent only to the requested URL, never to a redirect target: the target may be another
-resource, where a date validator could answer 304 for content it never sent, or another origin. Only a configured
+resource, where a date validator could answer 304 for content it never sent, or another origin. For the same reason
+a document kept under a URL that redirected stores none of the target's validators, so it is downloaded in full on
+every sync. Only a configured
 sitemap must be readable: a sitemap found in robots.txt that cannot be read is reported and the next one is read, a
 guessed `/sitemap.xml` that cannot be read is ignored, and an index of more than 50 sitemaps stops reading.
 
@@ -134,7 +136,7 @@ All network access goes through one `Fetcher`:
   decompressed-size cap of 16 times the tarball cap against gzip bombs.
 - Tar entries with absolute or `..` paths, symlinks and hardlinks are skipped; local sources never follow symlinks.
 - Website crawls honour robots.txt and Crawl-delay, space requests per host and stay under `allow_prefixes`; the start
-  page is always in the crawl scope.
+  page is exempt from `allow_prefixes`, not from robots.txt.
 - Retries cover connection errors, 429 and 5xx, with exponential backoff, deterministic jitter and `Retry-After`
   in seconds.
 

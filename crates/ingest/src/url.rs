@@ -91,4 +91,45 @@ mod tests {
         assert_eq!(paths(&changes.deletions), [] as [&str; 0]);
         assert_eq!(errors(&changes), [format!("{doc} (host_not_allowed)")]);
     }
+
+    #[tokio::test]
+    async fn a_configured_url_that_redirects_stores_no_validators_of_its_target() {
+        let server = MockServer::start().await;
+        Mock::given(path("/doc.md"))
+            .respond_with(ResponseTemplate::new(302).insert_header("location", "/target.md"))
+            .mount(&server)
+            .await;
+        for page in ["/target.md", "/direct.md"] {
+            Mock::given(path(page))
+                .respond_with(
+                    ResponseTemplate::new(200)
+                        .set_body_raw("# Doc\n\nText\n", "text/plain")
+                        .insert_header("etag", "\"target\"")
+                        .insert_header("last-modified", "Wed, 21 Oct 2015 07:28:00 GMT"),
+                )
+                .mount(&server)
+                .await;
+        }
+        let doc = url(&format!("{}/doc.md", server.uri()));
+        let direct = url(&format!("{}/direct.md", server.uri()));
+        let harness = Harness::new();
+        let changes = collect_urls(&harness.context(), &[doc.clone(), direct.clone()]).await;
+        let validators = |key: &Url| {
+            let state = &changes
+                .upserts
+                .iter()
+                .find(|document| document.state.doc_key.doc_path() == key.as_str())
+                .unwrap()
+                .state;
+            (state.etag.clone(), state.last_modified.clone())
+        };
+        assert_eq!(validators(&doc), (None, None));
+        assert_eq!(
+            validators(&direct),
+            (
+                Some("\"target\"".to_owned()),
+                Some("Wed, 21 Oct 2015 07:28:00 GMT".to_owned())
+            )
+        );
+    }
 }

@@ -221,12 +221,16 @@ impl Context<'_> {
             Some((_, target_key)) => (target_key, self.previous.get(target_key)),
             None => (key, previous),
         };
+        // Validators belong to the URL that answered. A document kept under a URL that redirected elsewhere stores
+        // none, since they would go back to that URL, which may be another origin, or answer 304 to a date it never
+        // served; such a document is downloaded in full on every sync.
+        let own_validators = moved.is_some() || source_url == *visiting.url;
         let fetched = Fetched {
             doc_key: indexed_key,
             source: SourceRef::Url(source_url.as_str()),
             text: &markdown,
-            etag: body.validators.etag.as_deref(),
-            last_modified: body.validators.last_modified.as_deref(),
+            etag: body.validators.etag.as_deref().filter(|_| own_validators),
+            last_modified: body.validators.last_modified.as_deref().filter(|_| own_validators),
             fetched_at: self.clock.now(),
         };
         match document::build(self.scope, &fetched, indexed_previous, &self.rules) {
