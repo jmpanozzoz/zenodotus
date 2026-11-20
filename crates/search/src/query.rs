@@ -855,6 +855,20 @@ mod tests {
     }
 
     #[test]
+    fn a_rarer_term_weighs_more_than_a_common_one() {
+        // Both sections hold both words, once and twice in opposite ways, at the same length: only the words' document
+        // frequencies can separate them.
+        let mut sections = vec![
+            section(&lib(), "rare.md", 0, &["Notes"], "quokka quokka wombat"),
+            section(&lib(), "common.md", 0, &["Notes"], "wombat wombat quokka"),
+        ];
+        sections.extend((0..6).map(|n| section(&lib(), &format!("filler{n}.md"), 0, &["Notes"], "wombat")));
+        let result = run(&one_version(&sections), "quokka wombat");
+        assert_eq!(sources(&result)[..2], ["local:rare.md", "local:common.md"]);
+        assert!(result.results[0].score > result.results[1].score);
+    }
+
+    #[test]
     fn versions_are_queried_in_isolation() {
         let (one, two) = (scope("lib", "1"), scope("lib", "2"));
         let mut second = version_state(&two);
