@@ -17,16 +17,11 @@ const MAX_SECTION_LEVEL: u8 = 4;
 pub struct SectionRules {
     /// Sections longer than this, in characters, are split.
     pub max_chars: usize,
-    /// Sections shorter than this merge into the next one; 0 disables merging by size.
-    pub merge_below_chars: usize,
 }
 
 impl Default for SectionRules {
     fn default() -> Self {
-        Self {
-            max_chars: 6000,
-            merge_below_chars: 0,
-        }
+        Self { max_chars: 6000 }
     }
 }
 
@@ -60,7 +55,7 @@ pub fn sectionize(
     let doc_path = doc_key.doc_path();
     let title = parsed.title.clone().unwrap_or_else(|| file_stem(doc_path));
     let mut sections = Vec::new();
-    for outline in merge(outline(parsed), &parsed.text, rules) {
+    for outline in merge(outline(parsed), &parsed.text) {
         let parts = split(&outline.range, parsed, rules.max_chars);
         let numbered = parts.len() > 1;
         for (index, range) in parts.into_iter().enumerate() {
@@ -127,8 +122,8 @@ fn outline(parsed: &ParsedDoc) -> Vec<Outline> {
     outlines
 }
 
-/// Drops a blank preamble and merges heading-only (or, with `merge_below_chars`, short) sections into the next.
-fn merge(outlines: Vec<Outline>, text: &str, rules: &SectionRules) -> Vec<Outline> {
+/// Drops a blank preamble and merges heading-only sections into the next.
+fn merge(outlines: Vec<Outline>, text: &str) -> Vec<Outline> {
     let count = outlines.len();
     let mut merged: Vec<Outline> = Vec::with_capacity(count);
     let mut carried_start: Option<usize> = None;
@@ -144,8 +139,7 @@ fn merge(outlines: Vec<Outline>, text: &str, rules: &SectionRules) -> Vec<Outlin
             }
             continue;
         }
-        let too_small = body.chars().count() < rules.merge_below_chars;
-        if (!outline.has_content || too_small) && index + 1 < count {
+        if !outline.has_content && index + 1 < count {
             carried_start = Some(outline.range.start);
         } else {
             merged.push(outline);
@@ -233,13 +227,13 @@ mod tests {
         Scope::new(LibraryId::parse("lib").unwrap(), Version::parse("1").unwrap())
     }
 
-    fn sections_with(path: &str, text: &str, rules: &SectionRules) -> Vec<Section> {
+    fn sections_with(path: &str, text: &str, rules: SectionRules) -> Vec<Section> {
         let key = DocKey::new(&scope(), path).unwrap();
-        sectionize(&scope(), &key, SourceRef::Local(path), &parse(path, text), rules)
+        sectionize(&scope(), &key, SourceRef::Local(path), &parse(path, text), &rules)
     }
 
     fn sections(text: &str) -> Vec<Section> {
-        sections_with("guide/intro.md", text, &SectionRules::default())
+        sections_with("guide/intro.md", text, SectionRules::default())
     }
 
     fn fixture(name: &str) -> String {
@@ -288,14 +282,7 @@ mod tests {
 
     #[test]
     fn code_stays_with_the_paragraph_before_it() {
-        let found = sections_with(
-            "a.md",
-            &fixture("code_after_prose.md"),
-            &SectionRules {
-                max_chars: 120,
-                merge_below_chars: 0,
-            },
-        );
+        let found = sections_with("a.md", &fixture("code_after_prose.md"), SectionRules { max_chars: 120 });
         for section in &found {
             assert!(!section.text.starts_with("```"), "{}", section.text);
         }
@@ -306,14 +293,7 @@ mod tests {
 
     #[test]
     fn long_sections_split_into_numbered_parts() {
-        let found = sections_with(
-            "a.md",
-            &fixture("long_section.md"),
-            &SectionRules {
-                max_chars: 300,
-                merge_below_chars: 0,
-            },
-        );
+        let found = sections_with("a.md", &fixture("long_section.md"), SectionRules { max_chars: 300 });
         let titles: Vec<&str> = found.iter().map(|s| s.heading_path[0].as_str()).collect();
         assert_eq!(titles, ["Long (part 1)", "Long (part 2)", "Long (part 3)"]);
         assert!(found.iter().all(|s| s.text.chars().count() <= 300));
@@ -323,14 +303,7 @@ mod tests {
     fn a_block_longer_than_the_limit_is_its_own_part() {
         let long = "x".repeat(50);
         let text = format!("# T\n\n{long}\n\nshort\n");
-        let found = sections_with(
-            "a.md",
-            &text,
-            &SectionRules {
-                max_chars: 20,
-                merge_below_chars: 0,
-            },
-        );
+        let found = sections_with("a.md", &text, SectionRules { max_chars: 20 });
         let texts: Vec<&str> = found.iter().map(|s| s.text.as_str()).collect();
         assert_eq!(texts, ["# T", long.as_str(), "short"]);
     }
@@ -338,20 +311,13 @@ mod tests {
     #[test]
     fn an_untitled_split_preamble_numbers_the_document_title() {
         let text = format!("{}\n\n{}\n", "a".repeat(30), "b".repeat(30));
-        let found = sections_with(
-            "docs/page.md",
-            &text,
-            &SectionRules {
-                max_chars: 40,
-                merge_below_chars: 0,
-            },
-        );
+        let found = sections_with("docs/page.md", &text, SectionRules { max_chars: 40 });
         assert_eq!(outline_of(&found), ["page (part 1) | ", "page (part 2) | "]);
     }
 
     #[test]
     fn front_matter_titles_every_section() {
-        let found = sections_with("guide/page.mdx", &fixture("front_matter.mdx"), &SectionRules::default());
+        let found = sections_with("guide/page.mdx", &fixture("front_matter.mdx"), SectionRules::default());
         assert!(found.iter().all(|s| s.title == "Front matter page"));
         assert!(found.iter().all(|s| !s.text.contains("import ")));
     }
@@ -375,35 +341,6 @@ mod tests {
     fn a_blank_preamble_is_dropped_and_a_real_one_kept() {
         assert_eq!(outline_of(&sections("\n\n# A\n\ntext\n")), ["A | A"]);
         assert_eq!(outline_of(&sections("Intro text.\n\n# A\n\ntext\n")), ["A | ", "A | A"]);
-    }
-
-    #[test]
-    fn merge_below_chars_merges_short_sections() {
-        let text = "# A\n\nx\n\n# B\n\nlonger text here\n";
-        let found = sections_with(
-            "a.md",
-            text,
-            &SectionRules {
-                max_chars: 6000,
-                merge_below_chars: 10,
-            },
-        );
-        assert_eq!(outline_of(&found), ["A | B"]);
-        assert!(found[0].text.starts_with("# A"));
-    }
-
-    #[test]
-    fn a_section_exactly_at_the_merge_threshold_stays() {
-        let text = "# A\n\nx\n\n# B\n\nlonger text here\n";
-        let found = sections_with(
-            "a.md",
-            text,
-            &SectionRules {
-                max_chars: 6000,
-                merge_below_chars: 8,
-            },
-        );
-        assert_eq!(outline_of(&found), ["A | A", "A | B"]);
     }
 
     #[test]
@@ -465,14 +402,12 @@ mod tests {
         fn sections_cover_every_non_blank_byte_once(
             lines in proptest::collection::vec(markdown_line(), 0..40),
             max_chars in 10usize..400,
-            merge_below in 0usize..30,
         ) {
             let text = lines.join("\n");
             let parsed = parse("p.md", &text);
-            let rules = SectionRules { max_chars, merge_below_chars: merge_below };
             let mut covered = vec![0u8; parsed.text.len()];
-            for outline in merge(outline(&parsed), &parsed.text, &rules) {
-                for range in split(&outline.range, &parsed, rules.max_chars) {
+            for outline in merge(outline(&parsed), &parsed.text) {
+                for range in split(&outline.range, &parsed, max_chars) {
                     for byte in &mut covered[range] {
                         *byte += 1;
                     }
