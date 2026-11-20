@@ -235,7 +235,7 @@ impl Default for RankingSettings {
 #[derive(Debug, Clone, PartialEq, Eq, Hash, Serialize, Deserialize)]
 #[serde(default, deny_unknown_fields)]
 pub struct IndexSettings {
-    /// Repetitions of the section's own heading.
+    /// Repetitions of the section's own heading, or of the document title for a section before the first heading.
     pub title_weight: u32,
     /// Repetitions of the document title and the ancestor headings.
     pub heading_weight: u32,

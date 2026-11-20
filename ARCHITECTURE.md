@@ -107,14 +107,14 @@ page only when it answers 404 or 410, or redirects permanently (301 or 308) outs
 included) or to a page already indexed in this crawl. A page that redirects is indexed under the URL it redirects to,
 from the body the redirect already downloaded. A stored copy under the old URL is deleted only when every redirect
 followed was permanent, since a 302, 303 or 307 can be maintenance, and a 404 or 410 reached through one deletes
-nothing either: it is an error for a stored page and nothing for a page found only through a link, as a direct 404 is;
-if the target's own fetch failed earlier in the crawl, the old copy is kept. The stored source URL never carries a
-fragment from a redirect's `Location`. A redirect is one fetch of the `max_pages` budget (page visits; robots.txt and
-sitemaps do not count), and a start page that redirects outside the crawl scope fails the version. A crawled page's
-validators are sent only to the requested URL, since its redirect target is another document; a configured URL or an
-`llms.txt` link keeps its key across redirects, so its target gets them too. Only a configured sitemap must be
-readable: a sitemap found in robots.txt that cannot be read is reported and the next one is read, a guessed
-`/sitemap.xml` that cannot be read is ignored, and an index of more than 50 sitemaps stops reading.
+nothing either: it is an error for a stored page and nothing for a page never stored (found through a link or a
+sitemap), as a direct 404 is; if the target's own fetch failed earlier in the crawl, the old copy is kept. The stored
+source URL never carries a fragment from a redirect's `Location`. A redirect is one fetch of the `max_pages` budget
+(page visits; robots.txt and sitemaps do not count), and a start page that redirects outside the crawl scope fails the
+version. Validators are sent only to the requested URL, never to a redirect target: the target may be another
+resource, where a date validator could answer 304 for content it never sent, or another origin. Only a configured
+sitemap must be readable: a sitemap found in robots.txt that cannot be read is reported and the next one is read, a
+guessed `/sitemap.xml` that cannot be read is ignored, and an index of more than 50 sitemaps stops reading.
 
 Pages beyond the stored ones are found only through the sitemap and changed pages; `zenodotus sync --rebuild` crawls
 the site from scratch.

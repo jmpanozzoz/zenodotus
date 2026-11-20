@@ -32,8 +32,6 @@ and versions follow [Semantic Versioning](https://semver.org/).
 ### Fixed
 
 - Request headers that carry credentials are no longer sent to another origin after a redirect.
-- A configured URL or `llms.txt` link that redirects sends its stored validators to the target again, so an
-  unchanged document answers 304 instead of being downloaded on every sync.
 - A website whose start page lies outside its `allow_prefixes` keeps the start page; before, one sync indexed it and
   the next deleted it.
 - A link found by a crawl that redirects temporarily to a 404 is ignored, as a direct 404 is, instead of making

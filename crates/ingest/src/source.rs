@@ -182,8 +182,6 @@ impl Context<'_> {
             allowed_hosts: visiting.hosts,
             max_bytes: visiting.max_bytes,
             validators: validators.as_ref(),
-            // A crawled page is keyed by the URL that serves it, so its redirect target is another document.
-            validators_follow_redirects: visiting.moves.is_none(),
             timeout: self.timeout(),
             headers: &[],
         };
@@ -211,10 +209,7 @@ impl Context<'_> {
         }
         let text = match body.text() {
             Ok(text) => text,
-            Err(error) => {
-                changes.errors.push(error.doc_error(key.doc_path()));
-                return Visit::Failed;
-            }
+            Err(error) => return failed(key, &error, changes),
         };
         let (markdown, links) = if body.is_html() {
             let page = html_to_markdown(text, &body.final_url);
@@ -289,8 +284,13 @@ fn settle(
         }
         Err(error) => error,
     };
+    ControlFlow::Break(failed(key, &error, changes))
+}
+
+/// The visit of a document whose fetch failed with `error`, recorded in `changes`; its stored copy is kept.
+fn failed(key: &DocKey, error: &FetchError, changes: &mut VersionChanges) -> Visit {
     changes.errors.push(error.doc_error(key.doc_path()));
-    ControlFlow::Break(Visit::Failed)
+    Visit::Failed
 }
 
 /// The visit of a page whose redirect to `target` is not followed: nothing is indexed, and the stored copy under
@@ -526,30 +526,6 @@ pub(crate) mod tests {
             format!("{}: not found (HTTP 404 or 410)", at("/never"))
         );
         assert_eq!(changes.outcome(), Outcome::Partial);
-    }
-
-    #[tokio::test]
-    async fn a_configured_url_that_redirects_sends_its_validators_to_the_target() {
-        let server = MockServer::start().await;
-        Mock::given(path("/guide"))
-            .respond_with(ResponseTemplate::new(301).insert_header("location", "/v2/guide"))
-            .mount(&server)
-            .await;
-        Mock::given(path("/v2/guide"))
-            .and(wiremock::matchers::header("if-none-match", "\"v1\""))
-            .respond_with(ResponseTemplate::new(304))
-            .mount(&server)
-            .await;
-        let target = url(&format!("{}/guide", server.uri()));
-        let mut harness = Harness::new();
-        harness.remember(target.as_str(), "old", Some("\"v1\""));
-        let ctx = harness.context();
-        let hosts = HostSet::of(&[&target], &[]);
-        let mut changes = VersionChanges::default();
-        let key = ctx.doc_key(&target, &mut changes).unwrap();
-        let visit = ctx.visit(&visiting(&target, &key, &hosts), &mut changes).await;
-        assert_eq!(visit, Visit::NotModified);
-        assert_eq!(paths(&changes.unchanged), [target.as_str()]);
     }
 
     #[tokio::test]
