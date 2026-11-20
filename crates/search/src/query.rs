@@ -163,6 +163,11 @@ fn word_query(fields: &Fields, word: &str, ranking: &RankingSettings) -> Box<dyn
     Box::new(BooleanQuery::new(clauses))
 }
 
+/// An optional clause of `make()` boosted by `boost`, or none when `boost` is 0, which disables it.
+fn boosted_clause(boost: f32, make: impl FnOnce() -> Box<dyn Query>) -> Option<(Occur, Box<dyn Query>)> {
+    (boost > 0.0).then(|| (Occur::Should, boosted(make(), boost)))
+}
+
 /// How many of `count` required words must match.
 fn minimum_should_match(fraction: f32, count: usize) -> usize {
     let count_f64 = f64::from(u32::try_from(count).unwrap_or(u32::MAX));
@@ -216,29 +221,23 @@ pub fn build(
             term_query(fields.combined, word, IndexRecordOption::WithFreqs),
         ));
     }
-    if ranking.symbol_boost > 0.0 {
-        for identifier in &analyzed.identifiers {
-            let query = term_query(fields.symbols_exact, identifier, IndexRecordOption::WithFreqs);
-            clauses.push((Occur::Should, boosted(query, ranking.symbol_boost)));
-        }
+    for identifier in &analyzed.identifiers {
+        clauses.extend(boosted_clause(ranking.symbol_boost, || {
+            term_query(fields.symbols_exact, identifier, IndexRecordOption::WithFreqs)
+        }));
     }
-    if analyzed.words.len() >= 2 && ranking.phrase_boost > 0.0 {
-        clauses.push((
-            Occur::Should,
-            boosted(phrase(fields, &analyzed.words, PHRASE_SLOP), ranking.phrase_boost),
-        ));
+    if analyzed.words.len() >= 2 {
+        clauses.extend(boosted_clause(ranking.phrase_boost, || {
+            phrase(fields, &analyzed.words, PHRASE_SLOP)
+        }));
     }
-    if ranking.quoted_phrase_boost > 0.0 {
-        for words in &analyzed.quoted {
-            clauses.push((
-                Occur::Should,
-                boosted(phrase(fields, words, 0), ranking.quoted_phrase_boost),
-            ));
-        }
+    for words in &analyzed.quoted {
+        clauses.extend(boosted_clause(ranking.quoted_phrase_boost, || phrase(fields, words, 0)));
     }
-    if let Some(language) = language.filter(|_| ranking.language_boost > 0.0) {
-        let query = term_query(fields.lang, &language.to_lowercase(), basic);
-        clauses.push((Occur::Should, boosted(query, ranking.language_boost)));
+    if let Some(language) = language {
+        clauses.extend(boosted_clause(ranking.language_boost, || {
+            term_query(fields.lang, &language.to_lowercase(), basic)
+        }));
     }
     BooleanQuery::new(clauses)
 }
@@ -252,6 +251,17 @@ pub struct Hit {
     pub score: f32,
 }
 
+/// Whether `scores`, the best `limit` scores in descending order, include every score that ties with the `k`-th:
+/// either fewer than `limit` documents matched, or the last fetched score is below the `k`-th.
+fn holds_all_ties(scores: &[f32], k: usize, limit: usize) -> bool {
+    scores.len() < limit || scores[limit - 1] < scores[k - 1]
+}
+
+/// The lowest score kept: the `k`-th, or every score when fewer than `k` documents matched.
+fn cut_score(scores: &[f32], k: usize) -> f32 {
+    scores.get(k - 1).copied().unwrap_or(f32::MIN)
+}
+
 /// The best `k` sections for `query`, ordered by score, then by chunk id. Ties at the cut are fetched whole first,
 /// so the result does not depend on the order in which the index visits documents.
 ///
@@ -260,15 +270,16 @@ pub struct Hit {
 /// An index error, or a corrupt payload.
 pub fn top_sections(store: &Store, searcher: &Searcher, query: &dyn Query, k: usize) -> Result<Vec<Hit>, SearchError> {
     let k = k.max(1);
-    let mut limit = k + 1;
+    let mut limit = k;
     let found = loop {
         let found = searcher.search(query, &TopDocs::with_limit(limit).order_by_score())?;
-        if found.len() < limit || found[limit - 1].0 < found[k - 1].0 {
+        let scores: Vec<f32> = found.iter().map(|&(score, _)| score).collect();
+        if holds_all_ties(&scores, k, limit) {
             break found;
         }
         limit *= 2;
     };
-    let cut = found.get(k - 1).map_or(f32::MIN, |&(score, _)| score);
+    let cut = cut_score(&found.iter().map(|&(score, _)| score).collect::<Vec<f32>>(), k);
     let mut hits = found
         .into_iter()
         .filter(|&(score, _)| score >= cut)
@@ -941,6 +952,10 @@ mod tests {
                 .ends_with("may not answer it. Other indexed versions: 2, 0.")
         );
         assert_eq!(run(&fixture, "alpha delta").notice, None);
+        assert_eq!(
+            run(&fixture, "alpha delta epsilon").notice.map(|n| n.kind),
+            Some(NoticeKind::WeakMatch)
+        );
 
         let lonely = one_version(&[section(&lib(), "a.md", 0, &["A"], "alpha")]);
         let result = run(&lonely, "omega");
@@ -989,6 +1004,76 @@ mod tests {
             "## Lengthy\n\nA much longer introduction to things.\n"
         );
         assert_eq!(text_of("last", &expand), "## Last\n\nShort intro.\n");
+    }
+
+    #[test]
+    fn zero_boosts_drop_their_clauses() {
+        let (_, fields) = crate::schema::build_schema();
+        let analyzed = analyze("how tokio::spawn \"run tests\"").unwrap();
+        let count =
+            |ranking: &RankingSettings| build(&fields, &analyzed, &lib(), Some("Rust"), ranking).clauses().len();
+        let base = 3 + analyzed.optional.len();
+        assert_eq!(
+            count(&RankingSettings::default()),
+            base + analyzed.identifiers.len() + 3
+        );
+        let off = RankingSettings {
+            symbol_boost: 0.0,
+            phrase_boost: 0.0,
+            quoted_phrase_boost: 0.0,
+            language_boost: 0.0,
+            ..RankingSettings::default()
+        };
+        assert_eq!(count(&off), base);
+        let single = analyze("tokio").unwrap();
+        assert_eq!(
+            build(&fields, &single, &lib(), None, &RankingSettings::default())
+                .clauses()
+                .len(),
+            3 + single.identifiers.len()
+        );
+    }
+
+    #[test]
+    fn tie_checks_compare_the_last_fetched_score_with_the_kth() {
+        assert!(holds_all_ties(&[3.0, 2.0, 1.0], 2, 3));
+        assert!(!holds_all_ties(&[3.0, 2.0, 2.0], 2, 3));
+        assert!(holds_all_ties(&[3.0, 2.0], 2, 3));
+        assert!(!holds_all_ties(&[3.0, 2.0, 1.0], 3, 3));
+        assert!(holds_all_ties(&[3.0, 2.0, 1.0, 0.5], 1, 4));
+        assert_eq!(cut_score(&[3.0, 2.0, 1.0], 2), 2.0);
+        assert_eq!(cut_score(&[3.0, 2.0, 1.0], 4), f32::MIN);
+    }
+
+    fn hit_costing(chars: usize) -> Hit {
+        let mut s = section(&lib(), "a.md", 0, &[], "");
+        s.text = "x".repeat(chars);
+        s.title = String::new();
+        s.source_ref = String::new();
+        Hit { section: s, score: 1.0 }
+    }
+
+    #[test]
+    fn cost_counts_text_title_headings_and_source() {
+        let mut hit = hit_costing(5);
+        hit.section.title = "abc".to_owned();
+        hit.section.heading_path = vec!["de".to_owned(), "f".to_owned()];
+        hit.section.source_ref = "local:é".to_owned();
+        assert_eq!(cost(&hit), 5 + 3 + 3 + 7);
+    }
+
+    #[test]
+    fn the_budget_drops_whole_hits_from_the_tail() {
+        let fitted = |max_chars| {
+            let mut hits: Vec<Hit> = (0..4).map(|_| hit_costing(10)).collect();
+            fit_budget(&mut hits, max_chars);
+            hits.len()
+        };
+        assert_eq!(fitted(20), 2);
+        assert_eq!(fitted(25), 2);
+        assert_eq!(fitted(40), 4);
+        assert_eq!(fitted(39), 3);
+        assert_eq!(fitted(0), 1);
     }
 
     #[test]

@@ -1,0 +1,8 @@
+# cargo-mutants configuration.
+#
+# Excluded functions, each with the reason no deterministic test can tell a mutant apart:
+#
+# - StoreWriter::finish waits for background merges before the writer is released. Replacing it with Ok(()) drops
+#   the writer instead, which also releases the lock and leaves every committed document in place; only the number
+#   of segment files, and how soon merges end, differ, and both depend on thread timing.
+exclude_re = ["StoreWriter::finish"]
