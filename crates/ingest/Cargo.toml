@@ -1,0 +1,13 @@
+[package]
+name = "zenodotus-ingest"
+description = "Documentation sources, secure fetching, parsing and sectioning for zenodotus"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
