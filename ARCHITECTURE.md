@@ -104,7 +104,7 @@ and the version is `failed`. A website has no listing that proves a page is gone
 parsed again, so it adds no links, and a page linked only from it is never reached through it. Every crawl therefore
 visits the start page, every stored page and the sitemap pages, in that order, and deletes a page only when it
 answers 404 or 410 or falls outside the crawl scope. A page that redirects is indexed under the URL it redirects
-to, and a stored copy under the old URL is deleted. Only a configured sitemap must be readable: a sitemap found in
+to, from the body the redirect already downloaded, and a stored copy under the old URL is deleted. Only a configured sitemap must be readable: a sitemap found in
 robots.txt that cannot be read is reported and the next one is read, a guessed `/sitemap.xml` that cannot be read
 is ignored, and an index of more than 50 sitemaps stops reading.
 

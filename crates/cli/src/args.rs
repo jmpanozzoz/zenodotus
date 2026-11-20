@@ -106,7 +106,7 @@ pub struct SyncArgs {
     /// Only this version of the library.
     #[arg(long, requires = "id")]
     pub version: Option<String>,
-    /// Rebuild the whole index from scratch, replacing it only if every version succeeds.
+    /// Rebuild the whole index from scratch, replacing it unless a version fails (a `partial` version still counts).
     #[arg(long, conflicts_with_all = ["id", "version"])]
     pub rebuild: bool,
 }

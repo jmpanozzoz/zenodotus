@@ -50,7 +50,7 @@ pub async fn collect_llms_txt(ctx: &Context<'_>, url: &Url) -> Result<VersionCha
         max_bytes: ctx.settings.document_max_bytes,
         conditional: false,
         report_missing: true,
-        follows_moves: false,
+        moves: None,
     };
     let Visit::Fetched { markdown, .. } = ctx.visit(&file, &mut changes).await else {
         let reason = changes

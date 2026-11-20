@@ -125,8 +125,12 @@ impl Crawl<'_, '_> {
                 }
                 Ok(())
             }
-            Some(Visit::Moved(target)) => {
-                self.enqueue(target);
+            Some(Visit::Moved {
+                target,
+                indexed_as,
+                links,
+            }) => {
+                self.moved(target, indexed_as, links);
                 Ok(())
             }
             Some(Visit::NotModified) => Ok(()),
@@ -158,16 +162,42 @@ impl Crawl<'_, '_> {
                         self.enqueue(link);
                     }
                 }
-                Some(Visit::Moved(target)) => self.enqueue(target),
+                Some(Visit::Moved {
+                    target,
+                    indexed_as,
+                    links,
+                }) => self.moved(target, indexed_as, links),
                 _ => {}
             }
         }
     }
 
-    /// Fetches one page and records it; `None` when its URL cannot be a key.
+    /// Records a redirect target indexed in the visit that found it, so that it is not fetched again, and queues
+    /// its links.
+    fn moved(&mut self, target: Url, indexed_as: Option<DocKey>, links: Vec<Url>) {
+        if let Some(key) = indexed_as {
+            self.reached.insert(key);
+            self.seen.insert(target);
+        }
+        for link in links {
+            self.enqueue(link);
+        }
+    }
+
+    /// Fetches one page and records it; `None` when its URL cannot be a key or it was already indexed as the
+    /// target of a redirect.
     async fn visit(&mut self, page: &Url, report_missing: bool) -> Option<Visit> {
         let doc_key = self.ctx.doc_key(page, &mut self.changes)?;
-        self.reached.insert(doc_key.clone());
+        if !self.reached.insert(doc_key.clone()) {
+            return None;
+        }
+        let (scope, reached, library) = (self.scope, &self.reached, self.ctx.scope);
+        let accepts = |target: &Url| {
+            scope.contains(target)
+                && DocKey::new(library, target.as_str())
+                    .ok()
+                    .is_none_or(|key| !reached.contains(&key))
+        };
         let visiting = Visiting {
             url: page,
             doc_key: &doc_key,
@@ -175,7 +205,7 @@ impl Crawl<'_, '_> {
             max_bytes: self.ctx.settings.page_max_bytes,
             conditional: true,
             report_missing,
-            follows_moves: true,
+            moves: Some(&accepts),
         };
         Some(self.ctx.visit(&visiting, &mut self.changes).await)
     }
@@ -225,15 +255,15 @@ fn at_root(start: &Url, path: &str) -> Url {
 enum SitemapOrigin {
     /// The source's `sitemap`: failing to read it fails the version.
     Configured,
-    /// robots.txt's `Sitemap:` lines: a failure is reported, and the pages read so far are kept.
+    /// robots.txt's `Sitemap:` lines: a failure is reported, and the next sitemap is read.
     Listed,
     /// The guess `/sitemap.xml`: a failure is ignored, and the pages read so far are kept.
     Guessed,
 }
 
 /// The page URLs of the site's sitemaps, following indexes: the configured sitemap, else those robots.txt lists,
-/// else `/sitemap.xml`. Only a configured sitemap that cannot be read fails; reading otherwise stops at the first
-/// failure, and failures of listed sitemaps or of more than [`MAX_SITEMAPS`] files are added to `errors`.
+/// else `/sitemap.xml`. Only a configured sitemap that cannot be read fails; any other failure skips that sitemap.
+/// Failures of listed sitemaps, and reading stopped after [`MAX_SITEMAPS`] files, are added to `errors`.
 async fn sitemap_pages(
     ctx: &Context<'_>,
     site: &Website<'_>,
@@ -427,21 +457,82 @@ mod tests {
         let at = |p: &str| format!("{uri}{p}");
         serve(&server, "/robots.txt", 404, "text/plain", "").await;
         serve(&server, "/sitemap.xml", 404, "text/plain", "").await;
-        html(&server, "/docs/", r#"<a href="/docs/short">s</a>"#).await;
-        for (from, to) in [("/docs/old", "/docs/new"), ("/docs/short", "/docs/new")] {
+        let long = format!("/docs/{}", "x".repeat(1100));
+        let links = r#"<a href="/docs/short">s</a> <a href="/docs/new">n</a> <a href="/docs/again">a</a>
+            <a href="/docs/long">l</a>"#;
+        html(&server, "/docs/", links).await;
+        for (from, to) in [
+            ("/docs/old", "/docs/new"),
+            ("/docs/short", "/docs/new"),
+            ("/docs/again", "/docs/new"),
+            ("/docs/long", long.as_str()),
+        ] {
             Mock::given(path(from))
                 .respond_with(ResponseTemplate::new(301).insert_header("location", to))
                 .mount(&server)
                 .await;
         }
-        html(&server, "/docs/new", "New").await;
+        html(&server, "/docs/new", r#"New <a href="/docs/">home</a>"#).await;
+        html(&server, &long, "Long").await;
+        let start = url(&at("/docs/"));
+        let mut harness = Harness::new();
+        harness.remember(&at("/docs/old"), "old", None);
+        harness.remember(&at("/docs/long"), "old", None);
+        let changes = collect_website(&harness.context(), &site(&start, &[])).await.unwrap();
+        assert_eq!(upserted(&changes), [at("/docs/"), at("/docs/new")]);
+        assert_eq!(paths(&changes.deletions), [at("/docs/old").as_str()]);
+        assert_eq!(errors(&changes).len(), 1, "{:?}", errors(&changes));
+        assert!(
+            errors(&changes)[0].ends_with("(invalid_path)"),
+            "{:?}",
+            errors(&changes)
+        );
+    }
+
+    #[tokio::test]
+    async fn a_stored_page_whose_redirect_target_fails_is_kept() {
+        let server = MockServer::start().await;
+        let uri = server.uri();
+        let at = |p: &str| format!("{uri}{p}");
+        serve(&server, "/robots.txt", 404, "text/plain", "").await;
+        serve(&server, "/sitemap.xml", 404, "text/plain", "").await;
+        html(&server, "/docs/", "Home").await;
+        Mock::given(path("/docs/old"))
+            .respond_with(ResponseTemplate::new(301).insert_header("location", "/docs/new"))
+            .mount(&server)
+            .await;
+        serve(&server, "/docs/new", 500, "text/html", "").await;
         let start = url(&at("/docs/"));
         let mut harness = Harness::new();
         harness.remember(&at("/docs/old"), "old", None);
         let changes = collect_website(&harness.context(), &site(&start, &[])).await.unwrap();
+        assert_eq!(paths(&changes.deletions), [] as [&str; 0]);
+        assert_eq!(errors(&changes), [format!("{} (status)", at("/docs/old"))]);
+    }
+
+    #[tokio::test]
+    async fn a_redirect_target_is_indexed_in_the_visit_that_found_it_even_at_max_pages() {
+        let server = MockServer::start().await;
+        let uri = server.uri();
+        let at = |p: &str| format!("{uri}{p}");
+        serve(&server, "/robots.txt", 404, "text/plain", "").await;
+        serve(&server, "/sitemap.xml", 404, "text/plain", "").await;
+        html(&server, "/docs/", "Home").await;
+        Mock::given(path("/docs/old"))
+            .respond_with(ResponseTemplate::new(301).insert_header("location", "/docs/new#top"))
+            .mount(&server)
+            .await;
+        html(&server, "/docs/new", "New").await;
+        let start = url(&at("/docs/"));
+        let mut harness = Harness::new();
+        harness.remember(&at("/docs/old"), "old", None);
+        let website = Website {
+            max_pages: 2,
+            ..site(&start, &[])
+        };
+        let changes = collect_website(&harness.context(), &website).await.unwrap();
         assert_eq!(upserted(&changes), [at("/docs/"), at("/docs/new")]);
         assert_eq!(paths(&changes.deletions), [at("/docs/old").as_str()]);
-        assert!(changes.errors.is_empty(), "{:?}", errors(&changes));
     }
 
     #[tokio::test]
@@ -455,12 +546,13 @@ mod tests {
             .respond_with(ResponseTemplate::new(301).insert_header("location", "/docs/"))
             .mount(&server)
             .await;
-        html(&server, "/docs/", "Home").await;
+        html(&server, "/docs/", r#"Home <a href="/docs/next">next</a>"#).await;
+        html(&server, "/docs/next", "Next").await;
         let start = url(&at("/docs"));
         let changes = collect_website(&Harness::new().context(), &site(&start, &[]))
             .await
             .unwrap();
-        assert_eq!(upserted(&changes), [at("/docs/")]);
+        assert_eq!(upserted(&changes), [at("/docs/"), at("/docs/next")]);
     }
 
     #[tokio::test]

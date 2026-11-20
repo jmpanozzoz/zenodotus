@@ -41,8 +41,8 @@ and versions follow [Semantic Versioning](https://semver.org/).
 - The default `max_pages` of a website source is 2,000.
 - A stored website page linked only from a page that answers 304 is no longer deleted when a sitemap omits it;
   every crawl revisits the stored pages, and only a 404, a 410 or leaving the crawl scope deletes a page.
-- A crawled page that redirects is indexed under the URL it redirects to, and its copy under the old URL is
-  deleted, instead of indexing the target's content twice.
+- A crawled page that redirects is indexed under the URL it redirects to, in the same visit, and its copy under
+  the old URL is deleted, instead of indexing the target's content twice.
 - A sitemap listed in robots.txt that cannot be read no longer stops the next listed sitemaps from being read.
 - Stored pages are crawled before sitemap pages, so `max_pages` cuts new pages rather than leaving stored ones stale.
 - HTML `header` elements inside the content root are kept, so a Docusaurus page keeps its title.

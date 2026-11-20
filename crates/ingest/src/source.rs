@@ -103,14 +103,22 @@ pub(crate) enum Visit {
     NotModified,
     /// The server answered 404 or 410.
     Gone,
-    /// The URL redirects to another page, given without its fragment; nothing was indexed under it.
-    Moved(Url),
+    /// The URL redirects to `target`, given without its fragment. Nothing is indexed under the requested URL; when
+    /// `indexed_as` is set, the body was indexed under that key, the target's, and `links` are its links.
+    Moved {
+        /// Where the URL redirects.
+        target: Url,
+        /// The key the body was indexed under, if it was.
+        indexed_as: Option<DocKey>,
+        /// The links of the indexed body; empty otherwise.
+        links: Vec<Url>,
+    },
     /// The fetch failed; the error is recorded.
     Failed,
 }
 
 /// How one document is fetched.
-#[derive(Debug, Clone, Copy)]
+#[derive(Clone, Copy)]
 pub(crate) struct Visiting<'a> {
     /// The document URL, which is also its document path.
     pub url: &'a Url,
@@ -124,9 +132,11 @@ pub(crate) struct Visiting<'a> {
     pub conditional: bool,
     /// Whether a 404 or 410 for a document never stored is an error rather than nothing.
     pub report_missing: bool,
-    /// Whether a redirect to another URL means the document moved: it is then not indexed under this key, and a
-    /// stored copy is deleted. Crawled pages are keyed by the URL that serves them; configured URLs are not.
-    pub follows_moves: bool,
+    /// For crawled pages, which are keyed by the URL that serves them: a redirect to another URL means the document
+    /// moved, and this tells whether the target is to be indexed now (in scope and not yet reached). The body is
+    /// then indexed under the target, and a stored copy under the requested URL is deleted. A target not to be
+    /// indexed also deletes that copy: it left the scope or is indexed already. `None` for configured URLs.
+    pub moves: Option<&'a (dyn Fn(&Url) -> bool + Sync)>,
 }
 
 impl Context<'_> {
@@ -190,14 +200,25 @@ impl Context<'_> {
             }
             Err(error) => return failed(changes, &error),
         };
-        if visiting.follows_moves {
+        let mut moved = None;
+        if let Some(accepts) = visiting.moves {
             let mut target = body.final_url.clone();
             target.set_fragment(None);
             if target != *visiting.url {
-                if previous.is_some() {
-                    changes.deletions.push(key.clone());
+                if !accepts(&target) {
+                    if previous.is_some() {
+                        changes.deletions.push(key.clone());
+                    }
+                    return Visit::Moved {
+                        target,
+                        indexed_as: None,
+                        links: Vec::new(),
+                    };
                 }
-                return Visit::Moved(target);
+                let Some(target_key) = self.doc_key(&target, changes) else {
+                    return Visit::Failed;
+                };
+                moved = Some((target, target_key));
             }
         }
         let text = match body.text() {
@@ -210,17 +231,31 @@ impl Context<'_> {
         } else {
             (text.to_owned(), Vec::new())
         };
+        let (indexed_key, indexed_previous) = match &moved {
+            Some((_, target_key)) => (target_key, self.previous.get(target_key)),
+            None => (key, previous),
+        };
         let fetched = Fetched {
-            doc_key: key,
+            doc_key: indexed_key,
             source: SourceRef::Url(body.final_url.as_str()),
             text: &markdown,
             etag: body.validators.etag.as_deref(),
             last_modified: body.validators.last_modified.as_deref(),
             fetched_at: self.clock.now(),
         };
-        match document::build(self.scope, &fetched, previous, &self.rules) {
+        match document::build(self.scope, &fetched, indexed_previous, &self.rules) {
             Some(document) => changes.upserts.push(document),
-            None => changes.unchanged.push(key.clone()),
+            None => changes.unchanged.push(indexed_key.clone()),
+        }
+        if let Some((target, target_key)) = moved {
+            if previous.is_some() {
+                changes.deletions.push(key.clone());
+            }
+            return Visit::Moved {
+                target,
+                indexed_as: Some(target_key),
+                links,
+            };
         }
         Visit::Fetched { markdown, links }
     }
@@ -345,7 +380,7 @@ pub(crate) mod tests {
             max_bytes: 1000,
             conditional: true,
             report_missing: true,
-            follows_moves: false,
+            moves: None,
         }
     }
 
