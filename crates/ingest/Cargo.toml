@@ -11,3 +11,11 @@ authors.workspace = true
 workspace = true
 
 [dependencies]
+globset = "0.4.21"
+pulldown-cmark = { version = "0.13.6", default-features = false }
+thiserror = "2.0.21"
+zenodotus-core = { version = "0.1.0", path = "../core" }
+
+[dev-dependencies]
+proptest = "1.12.0"
+tempfile = "3.27.0"
