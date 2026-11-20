@@ -14,7 +14,7 @@ allow_private_networks = false
 # `zenodotus serve --http` listens here; loopback only by default.
 listen = "127.0.0.1:8080"
 
-# A GitHub repository pinned to a tag, indexing one directory of Markdown.
+# A GitHub repository at its default branch, indexing one directory of Markdown.
 [[library]]
 id = "tokio"
 name = "Tokio"

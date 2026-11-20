@@ -1,0 +1,154 @@
+# Architecture
+
+zenodotus indexes documentation into a local Tantivy index and serves it over MCP. Retrieval is lexical and
+deterministic: no language model, no embeddings and no inference run anywhere. The same index files and the same
+request produce a byte-identical response.
+
+## Workspace
+
+```text
+crates/
+  core     zenodotus-core     ids, settings, library config, domain types, clock; config load and edit
+  ingest   zenodotus-ingest   sources, secure fetching, Markdown and HTML parsing, sectioning, change detection
+  search   zenodotus-search   the Tantivy store: schema, analyzers, apply, query, resolve
+  mcp      zenodotus-mcp      the rmcp server: tools, rendering, stdio and Streamable HTTP transports
+  cli      zenodotus          the binary: commands, sync orchestration, output
+  eval     zenodotus-eval     (not published) retrieval evaluation, competitor comparison, performance runs
+xtask                         (not published) repository checks and `cargo xtask perf`
+```
+
+Dependencies point one way. `core` depends on nothing internal; `ingest` and `search` depend only on `core`; `mcp`
+depends on `core` and `search`; `cli` depends on all four. `ingest` never touches storage: it returns a
+`VersionChanges` value and `search` applies it in one commit, so the write path is testable without a network and
+the read path without parsing.
+
+## Data flow
+
+```text
+zenodotus.toml ([settings] + [[library]])
+   │  zenodotus sync            (takes data_dir/sync.lock; a second sync exits with code 4)
+   ▼
+Store::doc_states(scope) ──► the previous state of every document (ETag, Last-Modified, content hash)
+   │
+   ▼
+ingest::collect   Local | GitHub | Url | LlmsTxt | Website
+   │  discover → fetch → parse (Markdown, or HTML converted to Markdown) → sectionize
+   ▼
+VersionChanges { upserts, unchanged, deletions, errors, listing_complete, resolved_commit }
+   │
+   ▼
+Store::apply      one Tantivy commit per version: delete changed and deleted documents by key,
+   │              add their new sections, replace the version's state record
+   ▼
+Store::query / Store::resolve  ◄── the MCP tools and `zenodotus search`
+```
+
+## Sections
+
+A document is split at every heading of level 1 to 4. A section keeps its heading path, its code blocks and the
+paragraph that introduces each code block. A section longer than 6,000 characters splits at paragraph boundaries,
+never inside a code fence. Front matter and MDX import, export and self-closing component lines are removed.
+HTML pages are reduced to their main content (`main`, `article`, documentation-framework roots, or a Readability
+port when none exists) and converted to Markdown before sectioning.
+
+Symbols are extracted deterministically from inline code that looks like an identifier, from the first line of each
+code block and from identifier-like headings.
+
+## Ranking
+
+Tantivy has no BM25F and no separate query-time analyzer, so zenodotus works around both.
+
+- **Term-frequency injection.** The multi-valued field `combined` receives the title and heading path, the symbols,
+  the body and the document path's words, each repeated by its `[settings.index]` weight, inside one length
+  normalization. This approximates BM25F ([Robertson et al., CIKM 2004](https://ir.webis.de/anthology/2004.cikm_conference-2004.6);
+  [Sourcegraph's report](https://sourcegraph.com/blog/keeping-it-boring-and-relevant-with-bm25f)).
+- **Two analyzers.** `code_words` splits on punctuation, camelCase, acronyms and `_` without stacking the original
+  form, which would inflate document length. `code_ident` indexes whole identifiers joined by `::`, `.`, `#` or
+  `->`, every qualified suffix (`std.sync.arc`, `sync.arc`, `arc`) and the snake-joined form, into `symbols_exact`.
+- **Queries are built in code**, never through Tantivy's query parser: non-stop words must match, stop words and
+  exact symbols, phrases, quoted phrases and the requested code language add score.
+- **Determinism.** Ties break on the section's `chunk_id`, and the top-k fetch keeps paging while the next hit ties
+  the k-th, so no tie straddles the cut.
+
+Corpus statistics are global to the index, so scores depend on everything else indexed.
+
+## Storage and processes
+
+The data directory holds one Tantivy index for all libraries, with section, document-state and version-state
+documents, plus `sync.lock`.
+
+- `sync` is the only writer. One sync of one version is one atomic Tantivy commit, so a crash leaves either the
+  previous index or the new one, and a failed sync leaves the previous index usable.
+- `serve`, `search`, `list` and `status` only read. `serve` reloads on commit, and each request reads one snapshot.
+- The commit payload holds the schema version and a hash of `[settings.index]`. A mismatch at open fails with
+  `schema_mismatch` and asks for `zenodotus sync --rebuild`, which builds a new index and swaps it in only when every
+  version succeeds.
+
+## Incremental sync
+
+| Source | Change detection | Deletion evidence |
+|---|---|---|
+| Local | content hash | missing from a complete directory scan |
+| GitHub | the resolved commit; an unchanged commit skips the download | missing from a complete tarball listing |
+| Url | ETag or Last-Modified (304), then content hash | 404 or 410, or removed from the config |
+| LlmsTxt | as Url, for the file and every linked page | missing from the new `llms.txt`, or 404 or 410 |
+| Website | as Url, per page | 404 or 410, or missing from a complete sitemap |
+
+Any other per-document error keeps the previous content and marks the version `partial`. When the listing itself
+cannot be obtained, nothing changes and the version is `failed`.
+
+## Secure fetching
+
+All network access goes through one `Fetcher`:
+
+- `https` only, unless `fetch.allow_http` is set.
+- Redirects are followed by hand, at most 5, and every hop is checked for scheme, allowed host and address.
+- A resolver guard drops private, loopback, link-local, multicast and reserved addresses, IPv4 and IPv6, and the
+  client connects only to addresses that passed, which defeats DNS rebinding. System proxies are disabled so they
+  cannot bypass the guard.
+- Size caps apply while streaming: pages, documents, tarballs, tar entries, total kept bytes, entry count, and a
+  decompressed-size cap of 16 times the tarball cap against gzip bombs.
+- Tar entries with absolute or `..` paths, symlinks and hardlinks are skipped; local sources never follow symlinks.
+- Website crawls honour robots.txt and Crawl-delay, space requests per host and stay under `allow_prefixes`.
+- Retries cover connection errors, 429 and 5xx, with exponential backoff, deterministic jitter and `Retry-After`
+  in seconds.
+
+## MCP server
+
+Two tools, built with rmcp 3.11:
+
+- `resolve_library(library_name, query?)`: matches by id, alias, normalized name, prefix, then Jaro-Winkler.
+- `query_docs(library_id, query, version?, language?, max_results?, max_chars?)`: returns structured content and one
+  Markdown block. Each section carries its source reference, version, heading path and score, and is wrapped in
+  `<<<DOC …>>>` markers with a hash, after a preamble saying the content is untrusted data, not instructions.
+
+An explicit version never falls back to another. Unknown libraries and versions, empty or oversized queries and an
+empty index are tool errors with an actionable message. Over stdio, stdout carries only protocol messages. Over
+Streamable HTTP, the server binds to loopback by default, refuses a non-loopback bind without
+`ZENODOTUS_HTTP_TOKEN`, checks Host and Origin, caps request bodies and concurrent requests, and compares the bearer
+token in constant time.
+
+## Decisions that differ from the first design
+
+- Malformed tool arguments come back as tool errors rather than `invalid_params`: rmcp 3.11 follows MCP SEP-1303,
+  which lets the model correct itself. `invalid_params` remains for unknown tools.
+- The server holds the data directory rather than an open store, so a server started before the first sync answers
+  `index_empty` and picks up the index once it exists.
+- HTML is converted with `dom_smoothie`'s Markdown mode instead of `htmd`, one dependency less.
+- Tarball chunks reach the blocking decompressor through a channel, not `SyncIoBridge`.
+- `Retry-After` HTTP dates are ignored; only seconds are honoured.
+- robots.txt answering 4xx allows everything; 5xx or a network error fails the version, following Google's rules.
+- With a complete sitemap, stored pages the crawl did not reach are deleted; without one, they are revisited.
+- The evaluation talks to every system, zenodotus included, over stdio MCP, so local latencies compare like for
+  like. Context7 is reached over its public Streamable HTTP endpoint.
+- The concurrency limit of the HTTP transport is wired but no test proves it, because stateless JSON requests finish
+  too fast to hold one in flight.
+- Resolution accuracy (whether `resolve_library` finds the intended library) is not measured.
+
+## Quality gates
+
+`cargo xtask check-repo` enforces the Markdown allowlist, the absence of task markers and debugging macros, printing
+only from the CLI output module, the evaluation report and `xtask`, and `#![forbid(unsafe_code)]` with `#![deny(missing_docs)]` in every crate root.
+`cargo xtask check-errors` checks that every error variant is asserted by a test. `cargo coverage` requires 100% of
+lines and functions; its one exclusion, `xtask/src/perf.rs`, only orchestrates external tools, and every number it
+reports is measured by tested code in `zenodotus-eval`, by GNU time or by hyperfine.
