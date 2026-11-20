@@ -71,10 +71,9 @@ pub fn parse(doc_path: &str, text: &str) -> ParsedDoc {
         body.to_owned()
     };
     let mut builder = Builder::default();
-    let options = Options::ENABLE_TABLES
-        | Options::ENABLE_HEADING_ATTRIBUTES
-        | Options::ENABLE_STRIKETHROUGH
-        | Options::ENABLE_TASKLISTS;
+    let mut options = Options::empty();
+    options.insert(Options::ENABLE_HEADING_ATTRIBUTES);
+    options.insert(Options::ENABLE_STRIKETHROUGH);
     for (event, range) in Parser::new_ext(&text, options).into_offset_iter() {
         builder.event(event, range);
     }
@@ -274,7 +273,7 @@ fn title_value(line: &str) -> Option<String> {
 fn strip_mdx(text: &str) -> String {
     let mut kept = String::with_capacity(text.len());
     let mut fence: Option<&str> = None;
-    let mut in_statement = false;
+    let mut open_braces = 0;
     for line in text.split_inclusive('\n') {
         let trimmed = line.trim();
         if let Some(marker) = fence {
@@ -284,15 +283,15 @@ fn strip_mdx(text: &str) -> String {
             kept.push_str(line);
             continue;
         }
-        if in_statement {
-            in_statement = !(trimmed.contains("} from") || trimmed.starts_with('}'));
+        if open_braces > 0 {
+            open_braces = brace_balance(open_braces, trimmed);
             continue;
         }
         if let Some(marker) = ["```", "~~~"].into_iter().find(|m| trimmed.starts_with(m)) {
             fence = Some(marker);
             kept.push_str(line);
         } else if is_module_statement(trimmed) {
-            in_statement = continues_on_next_line(trimmed);
+            open_braces = brace_balance(0, trimmed);
         } else if !is_self_closing_component(trimmed) {
             kept.push_str(line);
         }
@@ -305,13 +304,9 @@ fn is_module_statement(line: &str) -> bool {
     line.starts_with("import ") || line.starts_with("import{") || line.starts_with("export ")
 }
 
-/// Whether a module statement goes on: an import with no `from` and no quoted module yet, or an export that opens a
-/// brace.
-fn continues_on_next_line(statement: &str) -> bool {
-    if statement.starts_with("export ") {
-        return statement.ends_with('{');
-    }
-    !(statement.contains(" from ") || statement.contains('"') || statement.contains('\''))
+/// Braces still open after `line`, given `open` before it. A module statement continues while braces are open.
+fn brace_balance(open: usize, line: &str) -> usize {
+    (open + line.matches('{').count()).saturating_sub(line.matches('}').count())
 }
 
 /// A line that is exactly one self-closing JSX component, such as `<Callout type="info" />`.
@@ -430,11 +425,24 @@ mod tests {
 
     #[test]
     fn mdx_statements_and_self_closing_components_are_removed() {
-        let text = "import { A,\n  B } from './x'\nimport C from 'c'\nexport const meta = {}\n\n# Title\n\n<Callout type=\"info\" />\n\n<Tabs>\nKept\n</Tabs>\n\n```js\nimport x from 'y'\n<Foo />\n```\n\n~~~\nexport y\n~~~\nimport{z} from 'z'\nimport {\n  w,\n} from 'w'\nexport const m = {\n  a: 1,\n}\nimport './side.css'\nend\n";
+        let text = "import { A,\n  B } from './x'\nimport C from 'c'\nexport const meta = {}\n\n# Title\n\n<Callout type=\"info\" />\n\n<Tabs>\nKept\n</Tabs>\n\n```js\nimport x from 'y'\n<Foo />\n```\n\n~~~\nexport y\n~~~\nimport{z} from 'z'\nimport {\n  w,\n} from 'w'\nexport const m = {\n  a: 1,\n}\nimport './side.css'\nexport const deep = {\n  nested: {\n    a: 1,\n  },\n}\nend\n";
         let doc = parse("page.MDX", text);
         assert_eq!(
             doc.text,
             "\n# Title\n\n\n<Tabs>\nKept\n</Tabs>\n\n```js\nimport x from 'y'\n<Foo />\n```\n\n~~~\nexport y\n~~~\nend\n"
+        );
+    }
+
+    #[test]
+    fn strikethrough_is_removed_from_heading_text() {
+        assert_eq!(kinds(&parse("a.md", "## ~~Old~~ API\n")), ["h2:Old API#old-api"]);
+    }
+
+    #[test]
+    fn rules_inside_containers_are_not_top_level_blocks() {
+        assert_eq!(
+            kinds(&parse("a.md", "> quote\n>\n> ---\n\n- a\n\n  ***\n")),
+            ["prose", "prose"]
         );
     }
 

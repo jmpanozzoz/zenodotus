@@ -342,6 +342,7 @@ mod tests {
         let dir = tempfile::tempdir().unwrap();
         let root = dir.path();
         write(root, "big.md", &[b'a'; 2000]);
+        write(root, "limit.md", &[b'a'; 1024]);
         write(root, "bad.md", b"# \xff\xfe\n");
         let previous_key = DocKey::new(&scope(), "big.md").unwrap();
         let previous = BTreeMap::from([(

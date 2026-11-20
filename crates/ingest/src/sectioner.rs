@@ -159,14 +159,12 @@ fn merge(outlines: Vec<Outline>, text: &str, rules: &SectionRules) -> Vec<Outlin
 fn split(range: &Range<usize>, parsed: &ParsedDoc, max_chars: usize) -> Vec<Range<usize>> {
     let mut bounds = vec![range.start];
     bounds.extend(
-        parsed
-            .blocks
-            .iter()
-            .filter(|block| block.range.start > range.start && block.range.start < range.end)
+        blocks_in(parsed, range)
             .filter(|block| !matches!(block.kind, BlockKind::Code { .. }))
             .map(|block| block.range.start),
     );
     bounds.push(range.end);
+    bounds.dedup();
     let chars = |part: &Range<usize>| parsed.text[part.clone()].chars().count();
     let mut parts: Vec<Range<usize>> = Vec::new();
     for piece in bounds.windows(2).map(|pair| pair[0]..pair[1]) {
@@ -392,6 +390,20 @@ mod tests {
         );
         assert_eq!(outline_of(&found), ["A | B"]);
         assert!(found[0].text.starts_with("# A"));
+    }
+
+    #[test]
+    fn a_section_exactly_at_the_merge_threshold_stays() {
+        let text = "# A\n\nx\n\n# B\n\nlonger text here\n";
+        let found = sections_with(
+            "a.md",
+            text,
+            &SectionRules {
+                max_chars: 6000,
+                merge_below_chars: 8,
+            },
+        );
+        assert_eq!(outline_of(&found), ["A | A", "A | B"]);
     }
 
     #[test]
