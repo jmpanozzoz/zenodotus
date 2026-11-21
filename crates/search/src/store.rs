@@ -31,10 +31,8 @@ pub const NEW_INDEX_DIR: &str = "index.new";
 /// Where the live index waits while a rebuilt one takes its place.
 pub const OLD_INDEX_DIR: &str = "index.old";
 
-/// Indexing threads of the writer, fixed so that the segment layout does not depend on the machine's core count.
-const WRITER_THREADS: usize = 4;
-/// Memory the index writer may use before it flushes a segment, shared by its threads: 64 MiB each.
-const WRITER_MEMORY_BYTES: usize = 256 << 20;
+/// Memory the index writer may use before it flushes a segment.
+const WRITER_MEMORY_BYTES: usize = 64 << 20;
 /// Fraction of deleted documents above which a segment is merged.
 const DELETED_RATIO_BEFORE_MERGE: f32 = 0.1;
 
@@ -320,10 +318,7 @@ impl StoreWriter {
             Index::create_in_dir(path, build_schema().0)?
         };
         let store = Store::with_reader(index, ReloadPolicy::Manual)?;
-        let writer: IndexWriter = store
-            .index
-            .writer_with_num_threads(WRITER_THREADS, WRITER_MEMORY_BYTES)
-            .map_err(writer_error)?;
+        let writer: IndexWriter = store.index.writer(WRITER_MEMORY_BYTES).map_err(writer_error)?;
         let mut policy = LogMergePolicy::default();
         policy.set_del_docs_ratio_before_merge(DELETED_RATIO_BEFORE_MERGE);
         writer.set_merge_policy(Box::new(policy));
@@ -974,11 +969,6 @@ mod tests {
         ));
         let other = writer_error(TantivyError::InvalidArgument("x".to_owned()));
         assert!(matches!(other, SearchError::Index(_)));
-    }
-
-    #[test]
-    fn the_writer_has_four_threads_of_64_mib() {
-        assert_eq!((WRITER_THREADS, WRITER_MEMORY_BYTES / WRITER_THREADS), (4, 64 << 20));
     }
 
     #[test]
