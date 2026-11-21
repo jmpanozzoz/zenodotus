@@ -11,6 +11,7 @@ pub mod fences;
 pub mod ident;
 pub mod ids;
 pub mod model;
+pub mod plan;
 pub mod runtime;
 pub mod time;
 pub mod version;
