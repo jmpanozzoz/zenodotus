@@ -6,11 +6,32 @@ use std::path::Path;
 use serde::Deserialize;
 use serde::de::DeserializeOwned;
 
+use crate::Source;
 use crate::error::LockfileError;
 
 pub(crate) mod bun_lock;
+pub(crate) mod cargo_lock;
+pub(crate) mod composer_lock;
+pub(crate) mod csproj;
+pub(crate) mod directory_packages;
+pub(crate) mod gemfile_lock;
+pub(crate) mod go_mod;
+pub(crate) mod gradle_build;
+pub(crate) mod gradle_catalog;
+pub(crate) mod gradle_lockfile;
 pub(crate) mod npm_lock;
+pub(crate) mod package_resolved;
+pub(crate) mod nuget_lock;
+pub(crate) mod pdm_lock;
+pub(crate) mod pipfile_lock;
 pub(crate) mod pnpm_lock;
+pub(crate) mod poetry_lock;
+pub(crate) mod pom;
+pub(crate) mod pubspec_lock;
+pub(crate) mod requirements;
+pub(crate) mod sln;
+pub(crate) mod uv_lock;
+pub(crate) mod xml;
 pub(crate) mod yarn_lock;
 
 /// A parse error in `file` at `line`.
@@ -19,6 +40,15 @@ pub(crate) fn parse_error(file: &Path, line: Option<u64>, message: impl Into<Str
         file: file.to_path_buf(),
         line,
         message: message.into(),
+    }
+}
+
+/// A git source written `<url>#<commit>`.
+pub(crate) fn git_fragment(url: &str) -> Source {
+    let (url, commit) = url.split_once('#').unwrap_or((url, ""));
+    Source::Git {
+        url: url.to_owned(),
+        commit: commit.to_owned(),
     }
 }
 

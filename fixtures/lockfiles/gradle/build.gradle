@@ -1,0 +1,25 @@
+// Hand-written sample of a Groovy build script; it is read as text and never evaluated.
+plugins {
+    id 'java'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:33.2.1-jre'
+    implementation("org.slf4j:slf4j-api:2.0.13")
+    testImplementation(platform("org.junit:junit-bom:5.10.2"))
+    api "com.squareup.okhttp3:okhttp:$okhttpVersion"
+    compileOnly 'org.projectlombok:lombok:1.18.32:sources@jar'
+    runtimeOnly group: 'org.postgresql', name: 'postgresql', version: '42.7.3'
+    implementation project(':core')
+    implementation libs.guava
+    // implementation 'commented.out:artifact:1.0'
+    /* implementation 'block.comment:artifact:1.0' */
+    * 'javadoc.style:artifact:1.0'
+    "not:a:call:1.0"
+}

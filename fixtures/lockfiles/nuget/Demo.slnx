@@ -1,0 +1,12 @@
+<!-- Hand-written sample; the .slnx layout is UNVERIFIED against a recorded Visual Studio file. -->
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/App/App.csproj" />
+    <Folder Name="/src/libs/">
+      <Project Path="src\Lib\Lib.fsproj" />
+    </Folder>
+  </Folder>
+  <Project Path="tools/Tool.vbproj" />
+  <Project Path="docs/readme.txt" />
+  <Project />
+</Solution>

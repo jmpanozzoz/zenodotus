@@ -1,0 +1,17 @@
+# Hand-written sample of a requirements file.
+-r requirements-base.txt
+--requirement=extra/more.txt
+-c constraints.txt
+--hash-checking-is-not-an-option-here
+
+requests==2.32.3 \
+    --hash=sha256:0000 \
+    --hash=sha256:1111
+Django[argon2,bcrypt] == 5.0.6 ; python_version >= "3.10"  # web framework
+numpy>=1.26
+pandas==2.2.*
+attrs==23.2.0,<24
+-e git+https://github.com/acme/widget.git@0123456789abcdef0123456789abcdef01234567#egg=widget
+local-lib @ file:///srv/local-lib
+typing_extensions==4.12.2#not-a-comment
+zope.interface===6.4

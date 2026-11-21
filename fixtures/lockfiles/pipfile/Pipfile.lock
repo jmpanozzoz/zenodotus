@@ -1,0 +1,29 @@
+{
+    "_meta": {
+        "hash": { "sha256": "0000" },
+        "pipfile-spec": 6,
+        "requires": { "python_version": "3.11" },
+        "sources": [
+            { "name": "pypi", "url": "https://pypi.org/simple", "verify_ssl": true },
+            { "name": "acme", "url": "https://pypi.acme.dev/simple", "verify_ssl": true }
+        ]
+    },
+    "default": {
+        "glab-lib": {
+            "git": "https://gitlab.com/acme/glab-lib.git",
+            "ref": "89abcdef0123456789abcdef0123456789abcdef"
+        },
+        "internal-tools": { "hashes": [], "index": "acme", "version": "==2.0.0" },
+        "local-lib": { "editable": true, "path": "../local-lib" },
+        "requests": { "hashes": ["sha256:0000"], "index": "pypi", "markers": "python_version >= '3.8'", "version": "==2.32.3" },
+        "unpinned": { "hashes": [] },
+        "widget": {
+            "git": "https://github.com/acme/widget.git",
+            "ref": "0123456789abcdef0123456789abcdef01234567"
+        }
+    },
+    "develop": {
+        "pytest": { "hashes": [], "version": "==8.2.2" },
+        "requests": { "hashes": [], "index": "pypi", "version": "==2.32.3" }
+    }
+}

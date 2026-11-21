@@ -76,6 +76,17 @@ impl Entry {
         }
     }
 
+    /// A package with any source; a git one keeps no version, since its commit is the version.
+    pub(crate) fn from_source(ecosystem: Ecosystem, name: String, version: Option<String>, source: Source) -> Self {
+        let version = if matches!(source, Source::Git { .. }) { None } else { version };
+        Self {
+            ecosystem,
+            name,
+            version,
+            source,
+        }
+    }
+
     /// A package pinned to `commit` of the git repository at `url`.
     pub(crate) fn git(ecosystem: Ecosystem, name: &str, url: &str, commit: &str) -> Self {
         Self {

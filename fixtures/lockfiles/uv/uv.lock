@@ -1,0 +1,45 @@
+# Hand-written sample of a uv.lock (lockfile version 1).
+version = 1
+requires-python = ">=3.10"
+
+[[package]]
+name = "anyio"
+version = "4.4.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [{ name = "idna" }]
+
+[[package]]
+name = "demo"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [{ name = "anyio" }, { name = "widget" }]
+
+[[package]]
+name = "glab-lib"
+version = "1.0.0"
+source = { git = "https://gitlab.com/acme/glab-lib?rev=main#89abcdef0123456789abcdef0123456789abcdef" }
+
+[[package]]
+name = "Idna"
+version = "3.7"
+source = { registry = "https://pypi.org/simple" }
+
+[[package]]
+name = "internal-tools"
+version = "2.0.0"
+source = { registry = "https://pypi.acme.dev/simple" }
+
+[[package]]
+name = "local-lib"
+version = "0.0.1"
+source = { directory = "../local-lib" }
+
+[[package]]
+name = "widget"
+version = "0.4.0"
+source = { git = "https://github.com/acme/widget?tag=v0.4.0#0123456789abcdef0123456789abcdef01234567" }
+
+[[package]]
+name = "wheel-only"
+version = "1.0.0"
+source = { url = "https://files.pythonhosted.org/packages/wheel_only-1.0.0-py3-none-any.whl" }

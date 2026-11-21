@@ -1,0 +1,22 @@
+# Hand-written sample of a Gradle version catalog.
+[versions]
+guava = "33.2.1-jre"
+junit = { strictly = "5.10.2" }
+kotlin = { require = "2.0.0", prefer = "2.0.0" }
+ranged = { strictly = "[1.0, 2.0[", prefer = "1.5" }
+
+[libraries]
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+jackson-bom = { module = "com.fasterxml.jackson:jackson-bom", version = "2.17.1" }
+junit-api = { group = "org.junit.jupiter", name = "junit-jupiter-api", version.ref = "junit" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+missing-ref = { module = "com.example:missing", version.ref = "nope" }
+okhttp = "com.squareup.okhttp3:okhttp:4.12.0"
+ranged-lib = { module = "com.example:ranged", version.ref = "ranged" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version = { strictly = "[2.9, 3[", prefer = "2.11.0" } }
+slf4j = { module = "org.slf4j:slf4j-api" }
+broken = { name = "no-group" }
+short = "not-a-coordinate"
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
