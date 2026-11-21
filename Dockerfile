@@ -3,6 +3,9 @@
 # Build stage: the toolchain pinned by rust-toolchain.toml, on Debian bookworm.
 FROM rust:1.100-slim-bookworm AS build
 WORKDIR /src
+# The image's toolchain is the one rust-toolchain.toml pins; naming it here skips that file's rustfmt, clippy and
+# llvm-tools components, which building does not need and rustup would otherwise download.
+ENV RUSTUP_TOOLCHAIN=1.100.0
 COPY . .
 RUN cargo build --release --locked --bin zenodotus
 
