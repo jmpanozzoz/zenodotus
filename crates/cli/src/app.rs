@@ -20,9 +20,10 @@ use zenodotus_search::SearchError;
 use zenodotus_search::query::{QueryRequest, query_docs};
 use zenodotus_search::store::{INDEX_DIR, Store};
 
-use crate::args::{AddArgs, Cli, Command, SearchArgs, ServeArgs, SyncArgs};
+use crate::args::{AddArgs, Cli, Command, SearchArgs, ServeArgs, SetupArgs, SyncArgs};
 use crate::error::AppError;
 use crate::output;
+use crate::setup::{self, Server};
 use crate::sync::{self, Paths, Selection, Sources};
 
 /// The environment variable holding the HTTP bearer token.
@@ -49,15 +50,17 @@ pub struct Context<'a> {
 ///
 /// The failure of the command; [`AppError::exit_code`] gives the process exit code.
 pub async fn run(cli: Cli, ctx: &mut Context<'_>) -> Result<(), AppError> {
-    let config_path = locate_config(cli.config.as_deref(), ctx.env)?;
-    match cli.command {
-        Command::Init => init(&config_path, ctx),
-        Command::Add(args) => add(&config_path, &args, ctx),
-        Command::List(flag) => list(&config_path, flag.json, ctx),
-        Command::Sync(args) => sync_command(&config_path, &args, ctx).await,
-        Command::Search(args) => search(&config_path, &args, ctx),
-        Command::Serve(args) => serve(&config_path, &args, ctx).await,
-        Command::Status(flag) => status(&config_path, flag.json, ctx),
+    let env = ctx.env;
+    let config_path = || locate_config(cli.config.as_deref(), env);
+    match &cli.command {
+        Command::Init => init(&config_path()?, ctx),
+        Command::Add(args) => add(&config_path()?, args, ctx),
+        Command::List(flag) => list(&config_path()?, flag.json, ctx),
+        Command::Sync(args) => sync_command(&config_path()?, args, ctx).await,
+        Command::Search(args) => search(&config_path()?, args, ctx),
+        Command::Serve(args) => serve(&config_path()?, args, ctx).await,
+        Command::Status(flag) => status(&config_path()?, flag.json, ctx),
+        Command::Setup(args) => setup(cli.config.as_deref(), args, ctx),
     }
 }
 
@@ -248,6 +251,31 @@ fn search(config_path: &Path, args: &SearchArgs, ctx: &mut Context<'_>) -> Resul
     } else {
         write!(ctx.out, "{}", query_markdown(&result))?;
     }
+    Ok(())
+}
+
+/// `setup`: how to register the server with a client, or, with `--write`, the edit of its config file.
+fn setup(config: Option<&Path>, args: &SetupArgs, ctx: &mut Context<'_>) -> Result<(), AppError> {
+    let program = match &args.command {
+        Some(path) => path.clone(),
+        None => std::env::current_exe().map_err(AppError::Output)?,
+    };
+    let server = Server::new(&program, config);
+    if !args.write {
+        write!(ctx.out, "{}", setup::instructions(args.client, &server, ctx.env)?)?;
+        return Ok(());
+    }
+    let written = setup::write(args.client, &server, ctx.env, ctx.clock)?;
+    let verb = if written.replaced {
+        "Replaced the zenodotus entry in"
+    } else {
+        "Added zenodotus to"
+    };
+    write!(ctx.out, "{verb} {}", written.path.display())?;
+    if let Some(backup) = &written.backup {
+        write!(ctx.out, "; the previous file is at {}", backup.display())?;
+    }
+    writeln!(ctx.out, ".")?;
     Ok(())
 }
 
@@ -814,6 +842,71 @@ mod tests {
             matches!(error, AppError::Serve(ServeError::InsecureBind { .. })),
             "{error}"
         );
+    }
+
+    #[tokio::test]
+    async fn setup_prints_instructions_and_writes_behind_a_flag() {
+        let home = Home::new();
+        let printed = home
+            .run_argv(
+                &["zenodotus", "setup", "claude-code", "--command", "/opt/zenodotus"],
+                &mut Vec::new(),
+            )
+            .await;
+        assert!(printed.is_ok());
+        let mut out = Vec::new();
+        home.run_argv(
+            &["zenodotus", "setup", "cursor", "--command", "/opt/zenodotus"],
+            &mut out,
+        )
+        .await
+        .unwrap();
+        let text = String::from_utf8(out).unwrap();
+        assert!(text.starts_with("Cursor reads "), "{text}");
+        assert!(!home.path(".cursor/mcp.json").exists(), "printing writes nothing");
+        let written = home
+            .ok(&["setup", "cursor", "--command", "/opt/zenodotus", "--write"])
+            .await;
+        let path = home.path(".cursor/mcp.json");
+        assert_eq!(written, format!("Added zenodotus to {}.\n", path.display()));
+        let config = home.path("zenodotus.toml");
+        let entry: serde_json::Value = serde_json::from_str(&std::fs::read_to_string(&path).unwrap()).unwrap();
+        assert_eq!(
+            entry["mcpServers"]["zenodotus"]["args"],
+            serde_json::json!(["--config", config.display().to_string(), "serve"])
+        );
+        let again = home
+            .ok(&["setup", "cursor", "--command", "/opt/zenodotus", "--write"])
+            .await;
+        assert_eq!(
+            again,
+            format!(
+                "Replaced the zenodotus entry in {0}; the previous file is at {0}.1700000000.bak.\n",
+                path.display()
+            )
+        );
+    }
+
+    #[tokio::test]
+    async fn setup_defaults_to_this_executable_and_needs_no_config() {
+        let mut out = Vec::new();
+        let env = |_: &str| None;
+        let clock = FixedClock::new(Timestamp::from_unix(0));
+        let mut ctx = Context {
+            env: &env,
+            clock: &clock,
+            github: &unreachable_github(),
+            out: &mut out,
+        };
+        run(
+            Cli::try_parse_from(["zenodotus", "setup", "generic"]).unwrap(),
+            &mut ctx,
+        )
+        .await
+        .unwrap();
+        let text = String::from_utf8(out).unwrap();
+        let exe = std::env::current_exe().unwrap().display().to_string();
+        assert!(text.contains(&exe), "{text}");
     }
 
     #[test]

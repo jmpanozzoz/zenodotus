@@ -16,6 +16,7 @@ serde_json = "1.0.154"
 thiserror = "2.0.21"
 tokio = { version = "1.54.1", features = ["rt-multi-thread", "macros", "signal"] }
 tokio-util = "0.7.20"
+toml_edit = "0.25.19"
 tracing-subscriber = { version = "0.3.23", default-features = false, features = ["fmt", "env-filter", "ansi"] }
 url = "2.5.8"
 zenodotus-core = { version = "0.1.0", path = "../core" }

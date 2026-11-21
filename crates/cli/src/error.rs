@@ -39,6 +39,14 @@ pub enum AppError {
         /// The underlying error.
         source: std::io::Error,
     },
+    /// An MCP client's config file is not valid JSON or TOML of the expected shape; it is left unchanged.
+    #[error("{path} cannot be edited: {reason}; it was left unchanged")]
+    ClientConfig {
+        /// The client's config file.
+        path: PathBuf,
+        /// What is wrong with it.
+        reason: String,
+    },
     /// The command's output cannot be written.
     #[error("cannot write the output: {0}")]
     Output(#[from] std::io::Error),
@@ -67,7 +75,9 @@ impl AppError {
                 _ => 2,
             },
             Self::Search(SearchError::Locked) | Self::Busy { .. } => 4,
-            Self::Search(SearchError::SchemaMismatch { .. }) | Self::Serve(ServeError::InsecureBind { .. }) => 2,
+            Self::Search(SearchError::SchemaMismatch { .. })
+            | Self::Serve(ServeError::InsecureBind { .. })
+            | Self::ClientConfig { .. } => 2,
             Self::Incomplete { .. } | Self::RebuildAbandoned { .. } => 3,
             Self::Search(_) | Self::Serve(_) | Self::Ingest(_) | Self::Io { .. } | Self::Output(_) => 1,
         }

@@ -7,6 +7,7 @@ pub mod args;
 pub mod error;
 pub mod lock;
 pub mod output;
+pub mod setup;
 pub mod sync;
 
 pub use error::AppError;

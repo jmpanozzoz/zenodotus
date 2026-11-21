@@ -6,6 +6,8 @@ use std::path::PathBuf;
 use clap::{Args, Parser, Subcommand};
 use zenodotus_mcp::server::{MAX_CHARS, MAX_RESULTS};
 
+use crate::setup::Client;
+
 /// Deterministic documentation retrieval over MCP.
 #[derive(Debug, Parser)]
 #[command(name = "zenodotus", version, about)]
@@ -36,6 +38,22 @@ pub enum Command {
     Serve(ServeArgs),
     /// Show the sync status of every indexed version and the index size.
     Status(JsonFlag),
+    /// Show how to register zenodotus with an MCP client, or edit the client's config with --write.
+    Setup(SetupArgs),
+}
+
+/// `setup`.
+#[derive(Debug, Args)]
+pub struct SetupArgs {
+    /// The MCP client.
+    #[arg(value_enum)]
+    pub client: Client,
+    /// Edit the client's config file, after backing it up, instead of printing instructions.
+    #[arg(long)]
+    pub write: bool,
+    /// The executable the client starts; this executable by default.
+    #[arg(long, value_name = "PATH")]
+    pub command: Option<PathBuf>,
 }
 
 /// `--json`.
