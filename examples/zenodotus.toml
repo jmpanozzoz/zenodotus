@@ -1,0 +1,66 @@
+# An example zenodotus configuration with one library per kind of source.
+# Copy it to ~/.config/zenodotus/zenodotus.toml (or pass --config), then run `zenodotus sync`.
+
+[settings]
+# Where the index lives; relative paths are relative to this file.
+data_dir = "~/.local/share/zenodotus"
+
+[settings.fetch]
+# Plain http:// and private or loopback addresses stay refused unless allowed here.
+allow_http = false
+allow_private_networks = false
+
+[settings.http]
+# `zenodotus serve --http` listens here; loopback only by default.
+listen = "127.0.0.1:8080"
+
+# A GitHub repository at its default branch, indexing one directory of Markdown.
+[[library]]
+id = "tokio"
+name = "Tokio"
+description = "An asynchronous runtime for Rust"
+[[library.version]]
+version = "latest"
+default = true
+source = { kind = "github", repo = "tokio-rs/website", paths = ["content"] }
+
+# Two versions of one library: queries name a version, or get the default one.
+[[library]]
+id = "pydantic"
+name = "Pydantic"
+[[library.version]]
+version = "2.12"
+default = true
+source = { kind = "github", repo = "pydantic/pydantic", reference = "v2.12.5", paths = ["docs"] }
+[[library.version]]
+version = "1.10"
+source = { kind = "github", repo = "pydantic/pydantic", reference = "v1.10.24", paths = ["docs"] }
+
+# Markdown files on disk, such as your own project's docs.
+[[library]]
+id = "my-project"
+[[library.version]]
+version = "main"
+source = { kind = "local", path = "../my-project/docs", exclude = ["drafts/**"] }
+
+# An llms.txt index and the Markdown pages it links to.
+[[library]]
+id = "vite"
+[[library.version]]
+version = "latest"
+source = { kind = "llms_txt", url = "https://vite.dev/llms.txt" }
+
+# Markdown documents at fixed URLs.
+[[library]]
+id = "fastapi"
+[[library.version]]
+version = "latest"
+source = { kind = "url", urls = ["https://raw.githubusercontent.com/fastapi/fastapi/master/docs/en/docs/tutorial/first-steps.md"] }
+
+# An HTML documentation website, crawled by sitemap and links within a path prefix.
+[[library]]
+id = "mdn-fetch"
+name = "MDN Fetch API"
+[[library.version]]
+version = "latest"
+source = { kind = "website", start_url = "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API", allow_prefixes = ["/en-US/docs/Web/API/Fetch_API"], max_pages = 200 }

@@ -1,0 +1,98 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  gates:
+    name: gates 1 to 6 (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, macos-15]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      # rust-toolchain.toml pins the compiler and its components.
+      - run: rustup show active-toolchain
+      - uses: Swatinem/rust-cache@v2
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: cargo-llvm-cov,cargo-deny,cargo-machete
+      - name: Format
+        run: cargo fmt --check
+      - name: Clippy, which also denies todo!, unimplemented!, dbg! and printing in library code
+        run: cargo clippy --workspace --all-targets -- -D warnings -W clippy::pedantic
+      - name: Repository rules (Markdown allowlist, no task markers)
+        run: cargo xtask check-repo
+      - name: Every error variant is named in a test
+        run: cargo xtask check-errors
+      - name: Tests with 100% line and function coverage
+        run: cargo coverage
+      - name: Release build
+        run: cargo build --release
+      - name: Documentation
+        run: cargo doc --workspace --no-deps
+        env:
+          RUSTDOCFLAGS: -D warnings
+      - name: Licenses, advisories and sources
+        run: cargo deny check
+      - name: Unused dependencies
+        run: cargo machete
+
+  windows:
+    name: build and test (windows-2025)
+    runs-on: windows-2025
+    steps:
+      - uses: actions/checkout@v4
+      - run: rustup show active-toolchain
+      - uses: Swatinem/rust-cache@v2
+      - name: Build
+        run: cargo build --workspace --all-targets
+      - name: Test
+        run: cargo test --workspace
+
+  install-script:
+    name: install script (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, macos-15]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: sh scripts/test-install.sh
+
+  msrv:
+    name: minimum supported Rust version
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: rustup toolchain install 1.89 --profile minimal
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo +1.89 check --workspace --all-targets
+
+  mutants:
+    name: mutation testing
+    runs-on: ubuntu-24.04
+    if: github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Swatinem/rust-cache@v2
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: cargo-mutants
+      - run: cargo mutants -p zenodotus-core -p zenodotus-ingest -p zenodotus-search -j 2 --timeout 120
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mutants.out
+          path: mutants.out

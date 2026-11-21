@@ -1,0 +1,243 @@
+### spawn
+
+Source: https://docs.rs/tokio/latest/tokio/task/fn.spawn.html
+
+Spawns a new asynchronous task, returning a JoinHandle for it. The provided future will start running in the background immediately when spawn is called, even if you don't await the returned JoinHandle.
+
+```APIDOC
+## Function spawn
+
+### Description
+Spawns a new asynchronous task, returning a `JoinHandle` for it. The provided future will start running in the background immediately when `spawn` is called, even if you don't await the returned `JoinHandle`.
+
+### Signature
+```rust
+pub fn spawn<F>(future: F) -> JoinHandle<F::Output> ⓘ
+where
+    F: Future + Send + 'static,
+    F::Output: Send + 'static,
+```
+
+### Parameters
+- **future** (F) - Required - The future to spawn as a new task. Must implement `Future + Send + 'static`.
+
+### Returns
+- **JoinHandle<F::Output>** - A handle to the spawned task, which can be awaited to retrieve the task's output.
+
+### Availability
+Available on **crate feature `rt`** only.
+
+### Behavior
+- The provided future will start running in the background immediately when `spawn` is called, even if you don't await the returned `JoinHandle`.
+- Spawning a task enables the task to execute concurrently to other tasks. The spawned task may execute on the current thread, or it may be sent to a different thread to be executed. The specifics depend on the current `Runtime` configuration.
+- In a running runtime, the task will start immediately in the background. On a blocked runtime, the user must drive the runtime forward (for example, by calling `Runtime::block_on`).
+- It is guaranteed that spawn will not synchronously poll the task being spawned. This means that calling spawn while holding a lock does not pose a risk of deadlocking with the spawned task.
+- There is no guarantee that a spawned task will execute to completion. When a runtime is shutdown, all outstanding tasks are dropped, regardless of the lifecycle of that task.
+
+### Requirements
+- This function must be called from the context of a Tokio runtime. Tasks running on the Tokio runtime are always inside its context, but you can also enter the context using the `Runtime::enter` method.
+
+### Panics
+- Panics if called from **outside** of the Tokio runtime.
+
+### Using `!Send` values from a task
+The task supplied to `spawn` must implement `Send`. However, it is possible to **use** `!Send` values from the task as long as they only exist between calls to `.await`.
+
+### Examples
+
+#### Example: Spawning a task to process each connection
+```rust
+use tokio::net::{TcpListener, TcpStream};
+
+use std::io;
+
+async fn process(socket: TcpStream) {
+    // ...
+}
+
+#[tokio::main]
+async fn main() -> io::Result<()> {
+    let listener = TcpListener::bind("127.0.0.1:8080").await?;
+
+    loop {
+        let (socket, _) = listener.accept().await?;
+
+        tokio::spawn(async move {
+            // Process each socket concurrently.
+            process(socket).await
+        });
+    }
+}
+```
+
+#### Example: Running multiple tasks in parallel and receiving their results
+```rust
+async fn my_background_op(id: i32) -> String {
+    let s = format!("Starting background task {}.", id);
+    println!("{}", s);
+    s
+}
+
+let ops = vec![1, 2, 3];
+let mut tasks = Vec::with_capacity(ops.len());
+for op in ops {
+    // This call will make them start running in the background
+    // immediately.
+    tasks.push(tokio::spawn(my_background_op(op)));
+}
+
+let mut outputs = Vec::with_capacity(tasks.len());
+for task in tasks {
+    outputs.push(task.await.unwrap());
+}
+println!("{:?}", outputs);
+```
+
+This example pushes the tasks to `outputs` in the order they were started in. If you do not care about the ordering of the outputs, then you can also use a `JoinSet`.
+
+#### Example: Using `!Send` values from a task (works)
+```rust
+use tokio::task;
+
+use std::rc::Rc;
+
+fn use_rc(rc: Rc<()>) {
+    // Do stuff w/ rc
+}
+
+tokio::spawn(async {
+    // Force the `Rc` to stay in a scope with no `.await`
+    {
+        let rc = Rc::new(());
+        use_rc(rc.clone());
+    }
+
+    task::yield_now().await;
+}).await.unwrap();
+```
+
+#### Example: Using `!Send` values from a task (does not work)
+```rust
+use tokio::task;
+
+use std::rc::Rc;
+
+fn use_rc(rc: Rc<()>) {
+    // Do stuff w/ rc
+}
+
+#[tokio::main]
+async fn main() {
+    tokio::spawn(async {
+        let rc = Rc::new(());
+
+        task::yield_now().await;
+
+        use_rc(rc.clone());
+    }).await.unwrap();
+}
+```
+
+Holding on to a `!Send` value across calls to `.await` will result in an unfriendly compile error message similar to:
+
+```text
+`[... some type ...]` cannot be sent between threads safely
+```
+
+or:
+
+```text
+error[E0391]: cycle detected when processing `main`
+```
+```
+
+--------------------------------
+
+### task::spawn
+
+Source: https://docs.rs/tokio/latest/tokio/task/index.html
+
+Spawns a new asynchronous task, similar to std::thread::spawn. Takes an async block or future and returns a JoinHandle to await the task's output.
+
+```APIDOC
+## task::spawn
+
+### Description
+Spawns a new asynchronous task, similar to `std::thread::spawn`. Takes an async block or future and returns a `JoinHandle` to await the task's output.
+
+### Method
+`spawn`
+
+### Parameters
+- **future** (Future) - Required - The async block or future to run concurrently.
+
+### Returns
+- **JoinHandle** - A future that resolves to the task's output or a `JoinError` if the task panics.
+
+### Example
+```rust
+use tokio::task;
+
+task::spawn(async {
+    // perform some work here...
+});
+```
+```
+
+--------------------------------
+
+### Spawn a task with task::spawn
+
+Source: https://docs.rs/tokio/latest/tokio/task/index.html
+
+Use task::spawn to run an async block concurrently, similar to std::thread::spawn. Requires the "rt" feature flag.
+
+```rust
+use tokio::task;
+
+task::spawn(async {
+    // perform some work here...
+});
+```
+
+--------------------------------
+
+### spawn
+
+Source: https://docs.rs/tokio/latest/tokio/task/index.html
+
+Spawns a new asynchronous task, returning a JoinHandle for it. This function is used to execute a future concurrently on the Tokio runtime.
+
+```APIDOC
+## spawn
+
+### Description
+Spawns a new asynchronous task, returning a `JoinHandle` for it.
+
+### Function Signature
+`pub fn spawn<T>(task: T) -> JoinHandle<T::Output> where T: Future + Send + 'static, T::Output: Send + 'static`
+
+### Parameters
+- **task** (Future) - Required - The future to spawn.
+
+### Returns
+- **JoinHandle** - An owned permission to join on the task (await its termination).
+```
+
+--------------------------------
+
+### Spawning a Task with task::spawn
+
+Source: https://docs.rs/tokio/latest/src/tokio/task/mod.rs.html
+
+Creates a new task to run an async block concurrently. This is the async equivalent of std::thread::spawn and returns a JoinHandle.
+
+```rust
+use tokio::task;
+
+# async fn doc() {
+task::spawn(async {
+    // perform some work here...
+});
+# }
+```

@@ -1,0 +1,58 @@
+# Evaluation corpus for `zenodotus-eval`. This file is a regular zenodotus config: every library is a GitHub source
+# pinned to an exact commit, so `zenodotus sync --config eval/corpus.toml` rebuilds the same index anywhere.
+
+[settings]
+data_dir = "../target/eval-data"
+
+# The vercel/next.js tarball holds about 60,000 entries; the default cap of 50,000 would stop it.
+[settings.fetch]
+tar_max_entries = 200000
+
+[[library]]
+id = "fastapi"
+name = "FastAPI"
+description = "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+[[library.version]]
+version = "latest"
+default = true
+source = { kind = "github", repo = "fastapi/fastapi", reference = "05e6df7e906c3decba377c37548019973f40bf15", paths = ["docs/en/docs"] }
+
+[[library]]
+id = "nextjs"
+name = "Next.js"
+description = "The React framework for the web"
+aliases = ["next.js", "next"]
+[[library.version]]
+version = "latest"
+default = true
+source = { kind = "github", repo = "vercel/next.js", reference = "6ffff50557d2b7dd94cfa6a6c80b80085f20117e", paths = ["docs"] }
+
+[[library]]
+id = "tokio"
+name = "Tokio"
+description = "An asynchronous runtime for Rust: tutorial and topic guides from tokio.rs"
+[[library.version]]
+version = "latest"
+default = true
+source = { kind = "github", repo = "tokio-rs/website", reference = "71cdb3858fbb943843e8cf0e8baf547fe22180f7", paths = ["content"] }
+
+[[library]]
+id = "vite"
+name = "Vite"
+description = "Next generation frontend tooling"
+[[library.version]]
+version = "latest"
+default = true
+source = { kind = "github", repo = "vitejs/vite", reference = "3567471998e3da315675086f44368e266c9c0e33", paths = ["docs"] }
+
+[[library]]
+id = "pydantic"
+name = "Pydantic"
+description = "Data validation using Python type hints"
+[[library.version]]
+version = "2.12"
+default = true
+source = { kind = "github", repo = "pydantic/pydantic", reference = "bd2d0dd0137dfa1a8fdff2529b9dfb1547980150", paths = ["docs"] }
+[[library.version]]
+version = "1.10"
+source = { kind = "github", repo = "pydantic/pydantic", reference = "ebb3e81419f8a1c0b4976b91a22bfb17a3ddf23c", paths = ["docs"] }

@@ -1,0 +1,23 @@
+[package]
+name = "zenodotus-core"
+description = "Domain model, identifiers and configuration for zenodotus"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+serde = { version = "1.0.229", features = ["derive"] }
+sha2 = "0.11.1"
+thiserror = "2.0.21"
+toml = "1.2.1"
+toml_edit = { version = "0.25.19", features = ["serde"] }
+url = { version = "2.5.8", features = ["serde"] }
+
+[dev-dependencies]
+proptest = "1.12.0"
+tempfile = "3.27.0"

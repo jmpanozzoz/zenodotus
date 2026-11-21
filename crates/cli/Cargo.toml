@@ -1,0 +1,32 @@
+[package]
+name = "zenodotus"
+description = "Deterministic documentation retrieval over MCP"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+clap = { version = "4.6.9", features = ["derive", "env"] }
+serde_json = "1.0.154"
+thiserror = "2.0.21"
+tokio = { version = "1.54.1", features = ["rt-multi-thread", "macros", "signal"] }
+tokio-util = "0.7.20"
+toml_edit = "0.25.19"
+tracing-subscriber = { version = "0.3.23", default-features = false, features = ["fmt", "env-filter", "ansi"] }
+url = "2.5.8"
+zenodotus-core = { version = "0.1.0", path = "../core" }
+zenodotus-ingest = { version = "0.1.0", path = "../ingest" }
+zenodotus-mcp = { version = "0.1.0", path = "../mcp" }
+zenodotus-search = { version = "0.1.0", path = "../search" }
+
+[dev-dependencies]
+rmcp = { version = "=3.11.0", features = ["client", "transport-child-process", "transport-streamable-http-client-reqwest"] }
+serde_json = "1.0.154"
+tempfile = "3.27.0"
+tokio = { version = "1.54.1", features = ["io-util", "process"] }
+wiremock = "0.6.5"
