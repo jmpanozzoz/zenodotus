@@ -50,14 +50,21 @@ and versions follow [Semantic Versioning](https://semver.org/).
   (a start page one segment deep is under Changed); a prefix that ends in `/` also covers its bare path (`/docs/`
   covers `/docs`), to which servers often redirect it. Stored pages outside the new scope are deleted on the next sync.
 - A scored term of a field that the metadata documents share no longer aborts the search.
-- MDX stripping follows MDX's own rule for `import`/`export` blocks, and no longer removes content it should keep.
+- MDX stripping follows MDX's own rule for `import`/`export` blocks, and removes much less content it should keep.
   - A block starts at the beginning of a line with the keyword and whitespace, and ends at a blank line. While its
     braces are open it runs on across a blank line, but only into a line that is indented or starts with a closing
     bracket, so a stray brace cannot drop the rest of a page.
-  - Known limits: only braces are counted, not `(` or `[`, and braces inside strings count too. A block that spans a
-    blank line can therefore end early and leave JavaScript in the indexed text, and a stray brace can take an
-    indented paragraph after the block with it. Text written directly under a block, with no blank line between,
-    goes with the block, as it does in MDX, which rejects such a file.
+  - Known limits of this line scanner, which cannot match MDX's JavaScript parser:
+    - only braces are counted, not `(` or `[`, and braces inside strings, comments and regexes count too, so a block
+      that spans a blank line can end early and leave JavaScript in the indexed text, or take an indented paragraph
+      after it;
+    - after a blank line, an unindented continuation (a function body written at column 0) ends the block;
+    - text written directly under a block, with no blank line between, goes with it, as it does in MDX, which
+      rejects such a file; a code fence there is read as part of the block;
+    - an apostrophe inside a tag's `{…}` comment keeps a component line, and a component that spans lines is kept;
+    - a fence indented 4 or more spaces or by a tab (in a nested list or indented JSX) is not seen as one, though MDX
+      reads it as a fence, so component lines in it, and `import`/`export` lines at column 0, are removed;
+    - a tab after `import` or `export` starts a block, where MDX may read a paragraph.
   - "export your data" or "import the file" is prose, and an import block that never names its module is kept.
   - Code fences use the `CommonMark` rule the search uses: a fence closes only on a fence of the same character at
     least as long with nothing after it, so a four-backtick example holding a three-backtick block stays whole.
