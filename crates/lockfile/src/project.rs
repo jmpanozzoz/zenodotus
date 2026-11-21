@@ -966,7 +966,7 @@ mod tests {
     }
 
     #[test]
-    fn git_and_private_dependencies_become_diagnostics() {
+    fn github_and_private_dependencies_become_diagnostics() {
         let dir = project(&[
             (
                 "Cargo.lock",

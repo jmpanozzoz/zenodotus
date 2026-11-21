@@ -257,7 +257,7 @@ mod tests {
     }
 
     #[test]
-    fn git_dependencies_on_github_pin_the_commit_and_other_hosts_are_unsupported() {
+    fn github_dependencies_pin_the_commit_and_other_git_hosts_are_unsupported() {
         let commit = "0123456789abcdef0123456789abcdef01234567";
         for url in [
             "git+https://github.com/Acme/Widget.git",
