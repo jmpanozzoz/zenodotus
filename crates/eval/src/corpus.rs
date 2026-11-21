@@ -63,11 +63,14 @@ struct Context7File {
     libraries: BTreeMap<String, String>,
 }
 
-/// `path` made absolute against the current directory, with its `..` components resolved lexically. Competitors get
-/// the copies as `file://` URLs and match patterns against them, where a literal `..` would not stand for its parent.
-fn absolute_normal(path: &Path) -> PathBuf {
-    // `absolute` fails only on an empty path, which stays empty.
-    let absolute = std::path::absolute(path).unwrap_or_else(|_| path.to_path_buf());
+/// `path` as competitors get it: its real path when it exists, so that it holds no symbolic link, which Grounded Docs
+/// refuses; otherwise absolute against the current directory with its `..` components resolved lexically, since
+/// competitors match patterns against `file://` URLs, where a literal `..` would not stand for its parent.
+fn resolved(path: &Path) -> Result<PathBuf, EvalError> {
+    if let Ok(real) = std::fs::canonicalize(path) {
+        return Ok(real);
+    }
+    let absolute = std::path::absolute(path).map_err(EvalError::io(path))?;
     let mut normal = PathBuf::new();
     for component in absolute.components() {
         if component == Component::ParentDir {
@@ -76,7 +79,7 @@ fn absolute_normal(path: &Path) -> PathBuf {
             normal.push(component);
         }
     }
-    normal
+    Ok(normal)
 }
 
 impl Corpus {
@@ -87,7 +90,7 @@ impl Corpus {
     /// A config error, [`EvalError::Io`] or [`EvalError::Parse`] for `context7.toml`, and
     /// [`EvalError::UnsupportedSource`] for a version that is not a GitHub source with one path.
     pub fn load(root: &Path, sources: &Path) -> Result<Self, EvalError> {
-        let sources = absolute_normal(sources);
+        let sources = resolved(sources)?;
         let config_path = root.join("eval").join("corpus.toml");
         let config = Config::load(&config_path)?;
         let data_dir = config.settings.data_dir(&config_path, &|_| None)?;
@@ -303,12 +306,21 @@ source = { kind = "github", repo = "pydantic/pydantic", reference = "ghi", paths
     }
 
     #[test]
-    fn a_relative_sources_path_becomes_absolute_without_parent_components() {
+    fn sources_become_real_or_absolute_paths_without_parent_components() {
         let root = Path::new(env!("CARGO_MANIFEST_DIR")).join("../..");
         let corpus = Corpus::load(&root, Path::new("copies/../sources")).unwrap();
         let expected = std::env::current_dir().unwrap().join("sources/fastapi");
         assert_eq!(corpus.scopes[0].checkout, expected);
-        assert_eq!(absolute_normal(Path::new("/a/b/../../../c")), Path::new("/c"));
-        assert_eq!(absolute_normal(Path::new("")), Path::new(""));
+        assert_eq!(
+            resolved(Path::new("/nonexistent/b/../../../c")).unwrap(),
+            Path::new("/c")
+        );
+        let error = Corpus::load(&root, Path::new("")).unwrap_err();
+        assert!(matches!(error, EvalError::Io { .. }), "{error}");
+        let dir = tempfile::tempdir().unwrap();
+        std::fs::create_dir(dir.path().join("real")).unwrap();
+        std::os::unix::fs::symlink(dir.path().join("real"), dir.path().join("link")).unwrap();
+        let real = std::fs::canonicalize(dir.path().join("real")).unwrap();
+        assert_eq!(resolved(&dir.path().join("link")).unwrap(), real);
     }
 }

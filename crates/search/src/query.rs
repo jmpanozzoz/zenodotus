@@ -251,6 +251,12 @@ fn first_limit(k: usize) -> usize {
     k + 1
 }
 
+/// How many hits the next search fetches after `limit` fell short of the ties: twice as many, so that a long run of
+/// ties takes a number of searches logarithmic in its length.
+fn next_limit(limit: usize) -> usize {
+    limit * 2
+}
+
 /// The lowest score kept: the `k`-th, or every score when fewer than `k` documents matched.
 fn cut_score(scores: &[f32], k: usize) -> f32 {
     scores.get(k - 1).copied().unwrap_or(f32::MIN)
@@ -306,7 +312,7 @@ pub fn top_sections(store: &Store, searcher: &Searcher, query: &dyn Query, k: us
         if holds_all_ties(&scores, k, limit) {
             break found;
         }
-        limit *= 2;
+        limit = next_limit(limit);
     };
     let cut = cut_score(&found.iter().map(|&(score, _)| score).collect::<Vec<f32>>(), k);
     let mut hits = found
@@ -1139,6 +1145,7 @@ mod tests {
     fn the_first_search_fetches_one_hit_past_the_cut_so_distinct_scores_settle_at_once() {
         assert_eq!(first_limit(1), 2);
         assert_eq!(first_limit(10), 11);
+        assert_eq!(next_limit(11), 22);
         assert!(holds_all_ties(&[3.0, 2.0, 1.0], 2, first_limit(2)));
         assert!(!holds_all_ties(&[3.0, 2.0, 2.0], 2, first_limit(2)));
     }

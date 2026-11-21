@@ -93,17 +93,21 @@ impl Grounded {
                 Some(pages) if pages > 1 => {}
                 Some(pages) => {
                     return Err(SystemUnavailable(format!(
-                        "cannot index {}: Grounded Docs indexed {pages} pages from {}; it skips every path under a \
+                        "cannot index {}: Grounded Docs indexed {pages} page{} from {}; it skips every path under a \
                          folder its default exclusions name, such as `target`, `build`, `test`, `out` or `old`, so \
                          check the sources out elsewhere",
                         case.key,
+                        if pages == 1 { "" } else { "s" },
                         docs.display()
                     )));
                 }
                 None => {
                     return Err(SystemUnavailable(format!(
-                        "cannot index {}: Grounded Docs did not print how many pages it indexed",
-                        case.key
+                        "cannot index {}: Grounded Docs did not print how many pages it indexed from {}; it printed: \
+                         {}",
+                        case.key,
+                        docs.display(),
+                        stdout.trim()
                     )));
                 }
             }
@@ -277,23 +281,30 @@ mod tests {
         checkouts(&corpus);
         let work = root.path().join("work");
         let mut errors = Vec::new();
-        for pages in ["1", "none"] {
+        for pages in ["1", "0", "none"] {
             let (_dir, mut launcher) = stub();
             launcher.env.push(("STUB_SCRAPED_PAGES".to_owned(), pages.to_owned()));
             errors.push(Grounded::start(&launcher, &corpus, &work).await.err().unwrap().0);
         }
+        let docs = corpus.scopes[0].docs();
+        for (error, indexed) in errors.iter().zip(["1 page", "0 pages"]) {
+            assert_eq!(
+                *error,
+                format!(
+                    "cannot index tokio: Grounded Docs indexed {indexed} from {}; it skips every path under a folder \
+                     its default exclusions name, such as `target`, `build`, `test`, `out` or `old`, so check the \
+                     sources out elsewhere",
+                    docs.display()
+                )
+            );
+        }
         assert_eq!(
-            errors[0],
+            errors[2],
             format!(
-                "cannot index tokio: Grounded Docs indexed 1 pages from {}; it skips every path under a folder its \
-                 default exclusions name, such as `target`, `build`, `test`, `out` or `old`, so check the sources out \
-                 elsewhere",
-                corpus.scopes[0].docs().display()
+                "cannot index tokio: Grounded Docs did not print how many pages it indexed from {}; it printed: \
+                 Scraping job started with ID: 1",
+                docs.display()
             )
-        );
-        assert_eq!(
-            errors[1],
-            "cannot index tokio: Grounded Docs did not print how many pages it indexed"
         );
         let mut relative = corpus.clone();
         relative.scopes[0].checkout = PathBuf::from("src");

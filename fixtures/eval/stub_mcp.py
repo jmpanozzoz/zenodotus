@@ -3,7 +3,8 @@
 
 - With a `scrape` or `add` argument it acts as an indexing command: it logs its arguments and exits with
   STUB_PREPARE_EXIT (default 0), printing "stub prepare failed" to stderr when that is not 0. A `scrape` prints
-  "Successfully scraped N pages" with N from STUB_SCRAPED_PAGES (default 2); the value "none" prints nothing.
+  "Successfully scraped N pages" with N from STUB_SCRAPED_PAGES (default 2); the value "none" prints a job line
+  without a count instead.
 - With a `serve` or `mcp` argument it is an MCP server on stdio. `tools/call` logs the call, then answers with the
   text of $STUB_DIR/<tool>.txt and the JSON of $STUB_DIR/<tool>.json when they exist. An argument value "fail"
   makes the call return a tool error; "crash" makes the server exit without answering. `tools/list` lists the comma-separated
@@ -89,8 +90,8 @@ def main():
     if "scrape" in arguments or "add" in arguments:
         log({"argv": arguments, "env": {k: v for k, v in os.environ.items() if k in ("HOME", "npm_config_cache") or k.startswith("DOCS_MCP_")}})
         pages = os.environ.get("STUB_SCRAPED_PAGES", "2")
-        if "scrape" in arguments and pages != "none":
-            sys.stdout.write(f"Successfully scraped {pages} pages\n")
+        if "scrape" in arguments:
+            sys.stdout.write("Scraping job started with ID: 1\n" if pages == "none" else f"Successfully scraped {pages} pages\n")
         code = int(os.environ.get("STUB_PREPARE_EXIT", "0"))
         if code:
             sys.stderr.write("stub prepare failed\n")

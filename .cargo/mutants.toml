@@ -5,7 +5,4 @@
 # - StoreWriter::finish waits for background merges before the writer is released. Replacing it with Ok(()) drops
 #   the writer instead, which also releases the lock and leaves every committed document in place; only the number
 #   of segment files, and how soon merges end, differ, and both depend on thread timing.
-#
-# - top_sections doubles its collector limit until every hit tied at the cut is fetched. Growing it by 2 instead stops
-#   at the same condition with the same hits; only the number of searches differs, which no result exposes.
-exclude_re = ["StoreWriter::finish", 'replace \*= with \+= in top_sections']
+exclude_re = ["StoreWriter::finish"]

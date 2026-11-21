@@ -7,7 +7,7 @@ COPY . .
 # The channel rust-toolchain.toml pins, named through RUSTUP_TOOLCHAIN so that rustup skips that file's rustfmt, clippy
 # and llvm-tools components, which building does not need and it would otherwise download.
 RUN toolchain="$(sed -n 's/^channel = "\(.*\)"$/\1/p' rust-toolchain.toml)" \
-    && test -n "$toolchain" \
+    && { test -n "$toolchain" || { echo 'no `channel = "..."` line in rust-toolchain.toml' >&2; exit 1; }; } \
     && RUSTUP_TOOLCHAIN="$toolchain" cargo build --release --locked --bin zenodotus
 
 # Runtime stage: glibc and CA certificates only, no shell, running as an unprivileged user.
