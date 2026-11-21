@@ -136,7 +136,7 @@ fn shown(command: &Command) -> String {
 /// # Errors
 ///
 /// [`SystemUnavailable`] with the reason when the path cannot be resolved (it is missing, or a folder on the way
-/// cannot be searched) or is not a folder.
+/// cannot be searched) or is not a folder; a path that resolves but then cannot be inspected also reads as not a folder.
 pub fn local_docs(case: &ScopeCase) -> Result<PathBuf, SystemUnavailable> {
     let docs = case.docs();
     let problem = match std::fs::canonicalize(&docs) {

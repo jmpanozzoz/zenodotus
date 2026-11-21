@@ -55,7 +55,7 @@ and versions follow [Semantic Versioning](https://semver.org/).
   `compare` now reports Grounded Docs as not run when it indexes one page or fewer, or does not print a page count,
   naming the folder, and gives it the docs folder's real path (no `..` components or symbolic links, which it
   refuses) as a percent-encoded `file://` URL.
-- `compare` reports a local copy that cannot be resolved (missing, or unreadable) or is not a folder with the reason, for Grounded Docs and Neuledge.
+- `compare` reports a local copy that cannot be resolved (missing, or behind a folder that cannot be searched) or is not a folder with the reason, for Grounded Docs and Neuledge.
 - The HTTP transport refuses a request whose `Origin` is not in `allowed_origins`, also when the list is empty; before,
   an empty list let every origin through.
 - The error of a redirect to a host the source may not reach names the redirect's target once, and names the

@@ -16,8 +16,8 @@ bytes, verbatim from the source, with a link back to it.
 
 ## Install
 
-From source, with rustup, which downloads the toolchain `rust-toolchain.toml` pins (Rust 1.100) when you build in
-the repository; the crates themselves need Rust 1.89 or later:
+From source, with Rust 1.89 or later (inside the repository, rustup switches to the toolchain `rust-toolchain.toml`
+pins, Rust 1.100 with rustfmt, clippy and llvm-tools; set `RUSTUP_TOOLCHAIN` to build with another):
 
 ```bash
 cargo install --locked --path crates/cli
@@ -86,12 +86,12 @@ token. Only loopback `Host` headers (`localhost`, `127.0.0.1`, `::1`) are accept
 server by another name or address need it in `allowed_hosts` under `[settings.http]`, and a request that sends an
 `Origin` needs it in `allowed_origins`.
 
-The container keeps its config and index in `/data` and runs as an unprivileged user (65532), which cannot write
-to a host folder you own; run it as yourself instead. Put a `zenodotus.toml` with `data_dir = "/data"` in the
-folder, index, then serve:
+The container reads `/data/zenodotus.toml` and runs as an unprivileged user (65532), which cannot write to a host
+folder you own; run it as yourself instead. The config must set `data_dir = "/data"` (the container user has no home
+directory), and its `--path` sources must point at folders mounted into the container, since paths resolve inside
+it. With that config in `./data`, index, then serve:
 
 ```bash
-mkdir data && cp zenodotus.toml data/
 docker run --rm --user "$(id -u):$(id -g)" -v "$PWD/data:/data" zenodotus sync
 docker run --user "$(id -u):$(id -g)" -v "$PWD/data:/data" -e ZENODOTUS_HTTP_TOKEN=change-me -p 8080:8080 \
   zenodotus serve --http 0.0.0.0:8080
