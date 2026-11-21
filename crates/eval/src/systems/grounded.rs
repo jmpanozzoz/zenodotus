@@ -179,7 +179,7 @@ mod tests {
         let calls = calls(&dir);
         let store = work.join("grounded");
         let store = store.to_str().unwrap();
-        let tokio = std::fs::canonicalize(corpus.scopes[0].docs()).unwrap();
+        let tokio = super::super::local_docs(&corpus.scopes[0]).unwrap();
         assert_eq!(
             calls[0]["argv"],
             json!([
@@ -280,7 +280,7 @@ mod tests {
             launcher.env.push(("STUB_SCRAPED_PAGES".to_owned(), pages.to_owned()));
             errors.push(Grounded::start(&launcher, &corpus, &work).await.err().unwrap().0);
         }
-        let docs = std::fs::canonicalize(corpus.scopes[0].docs()).unwrap();
+        let docs = super::super::local_docs(&corpus.scopes[0]).unwrap();
         for (error, indexed) in errors.iter().zip(["1 page", "0 pages"]) {
             assert_eq!(
                 *error,

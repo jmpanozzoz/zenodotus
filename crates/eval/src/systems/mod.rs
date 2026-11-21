@@ -138,14 +138,16 @@ fn shown(command: &Command) -> String {
 /// [`SystemUnavailable`] when the folder does not exist.
 pub fn local_docs(case: &ScopeCase) -> Result<PathBuf, SystemUnavailable> {
     let docs = case.docs();
-    match std::fs::canonicalize(&docs) {
-        Ok(real) if real.is_dir() => Ok(real),
-        _ => Err(SystemUnavailable(format!(
-            "no local copy of {} at {}; fetch the corpus sources first",
-            case.key,
-            docs.display()
-        ))),
-    }
+    let problem = match std::fs::canonicalize(&docs) {
+        Ok(real) if real.is_dir() => return Ok(real),
+        Ok(_) => "not a folder".to_owned(),
+        Err(error) => error.to_string(),
+    };
+    Err(SystemUnavailable(format!(
+        "no local copy of {} at {} ({problem}); fetch the corpus sources first",
+        case.key,
+        docs.display()
+    )))
 }
 
 /// The response to one tool call.
@@ -285,9 +287,13 @@ pub(crate) mod tests {
             local_docs(tokio).unwrap(),
             std::fs::canonicalize(real.join("content")).unwrap()
         );
-        tokio.path = "missing".to_owned();
-        let error = local_docs(tokio).unwrap_err();
-        assert!(error.0.starts_with("no local copy of tokio at "), "{error:?}");
+        std::fs::write(real.join("file.md"), "").unwrap();
+        for (path, problem) in [("file.md", "(not a folder)"), ("missing", "(No such file or directory")] {
+            tokio.path = path.to_owned();
+            let error = local_docs(tokio).unwrap_err();
+            assert!(error.0.starts_with("no local copy of tokio at "), "{error:?}");
+            assert!(error.0.contains(problem), "{error:?}");
+        }
     }
 
     /// The stand-in program in `fixtures/eval/stub_mcp.py`.

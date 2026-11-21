@@ -53,8 +53,8 @@ and versions follow [Semantic Versioning](https://semver.org/).
 - `zenodotus-eval` keeps the corpus sources in `zenodotus-eval-sources` next to the repository root by default, not
   under `target/`, whose paths Grounded Docs skips: it used to index one empty page and score 0 on every question.
   `compare` now reports Grounded Docs as not run when it indexes one page or fewer, or does not print a page count,
-  naming the folder, and gives every competitor the docs folder's real path (no `..` components or symbolic links,
-  which Grounded Docs refuses), as a percent-encoded `file://` URL for Grounded Docs.
+  naming the folder, and gives it the docs folder's real path (no `..` components or symbolic links, which it
+  refuses) as a percent-encoded `file://` URL. A missing local copy is reported with the reason.
 - The HTTP transport refuses a request whose `Origin` is not in `allowed_origins`, also when the list is empty; before,
   an empty list let every origin through.
 - The error of a redirect to a host the source may not reach names the redirect's target once, and names the
