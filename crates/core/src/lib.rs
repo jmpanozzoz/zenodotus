@@ -13,6 +13,7 @@ pub mod ids;
 pub mod model;
 pub mod runtime;
 pub mod time;
+pub mod version;
 
 pub use ecosystem::Ecosystem;
 pub use error::CoreError;
