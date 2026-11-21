@@ -110,7 +110,8 @@ impl Version {
 
 /// A canonical ID such as `npm:react` or `runtime:rust`: an ecosystem prefix and a package name in that ecosystem's
 /// grammar (design §6.2).
-#[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord, Hash)]
+#[derive(Debug, Clone, PartialEq, Eq, PartialOrd, Ord, Hash, Serialize, Deserialize)]
+#[serde(try_from = "String", into = "String")]
 pub struct CanonicalId {
     ecosystem: Ecosystem,
     text: String,
@@ -557,6 +558,19 @@ impl TryFrom<String> for LibraryId {
 impl From<LibraryId> for String {
     fn from(id: LibraryId) -> Self {
         id.0
+    }
+}
+
+impl TryFrom<String> for CanonicalId {
+    type Error = CoreError;
+    fn try_from(value: String) -> Result<Self, Self::Error> {
+        Self::parse(&value)
+    }
+}
+
+impl From<CanonicalId> for String {
+    fn from(id: CanonicalId) -> Self {
+        id.text
     }
 }
 

@@ -8,9 +8,10 @@ use serde::{Deserialize, Serialize};
 use sha2::{Digest, Sha256};
 use url::Url;
 
+use crate::ecosystem::Ecosystem;
 use crate::error::CoreError;
 use crate::ident::PROTECTED_WORDS;
-use crate::ids::{LibraryId, Version, to_hex};
+use crate::ids::{CanonicalId, LibraryId, Scope, Version, to_hex};
 use crate::model::SourceSpec;
 
 /// Reads one environment variable; injected so that tests control the environment.
@@ -20,6 +21,12 @@ pub type Env<'a> = &'a dyn Fn(&str) -> Option<String>;
 pub const MAX_INDEX_WEIGHT: u32 = 16;
 /// Largest accepted `settings.fetch.retries`.
 pub const MAX_RETRIES: u32 = 10;
+/// The `max_chars` a `query_docs` call gets when it names none.
+pub const DEFAULT_MAX_CHARS: u64 = 12_000;
+/// The least interval between two requests to a host that the host table (design §11.2) does not list, in ms.
+pub const DEFAULT_HOST_INTERVAL_MS: u64 = 1_000;
+/// Hosts whose published rate allows a shorter interval than [`DEFAULT_HOST_INTERVAL_MS`], with that interval in ms.
+const HOST_TABLE_MS: [(&str, u64); 2] = [("rubygems.org", 100), ("pkg.go.dev", 100)];
 
 /// The whole configuration file.
 #[derive(Debug, Clone, Default, PartialEq, Serialize, Deserialize)]
@@ -39,6 +46,9 @@ pub struct Config {
 pub struct LibrarySpec {
     /// The library id.
     pub id: LibraryId,
+    /// The canonical ID whose lookups at one of the configured versions resolve to this library (design §6.4).
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub canonical: Option<CanonicalId>,
     /// Display name; the id when absent.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub name: Option<String>,
@@ -99,6 +109,20 @@ pub struct Settings {
     pub ranking: RankingSettings,
     /// `[settings.index]`.
     pub index: IndexSettings,
+    /// A recipes checkout that replaces the built-in snapshot; for contributors.
+    pub recipes_dir: Option<PathBuf>,
+    /// Whether every network request is refused.
+    pub offline: bool,
+    /// Where downloaded artifacts are cached; see [`Settings::artifacts_dir`].
+    pub artifacts_dir: Option<PathBuf>,
+    /// Canonical ID prefixes, such as `npm:@acme/`, that are never looked up in a public registry.
+    pub private_scopes: Vec<String>,
+    /// Hosts rewritten to another base URL after every check, for tests and mirrors.
+    pub host_overrides: BTreeMap<String, Url>,
+    /// `[settings.on_demand]`.
+    pub on_demand: OnDemandSettings,
+    /// `[settings.service]`.
+    pub service: ServiceSettings,
 }
 
 impl Default for Settings {
@@ -106,13 +130,88 @@ impl Default for Settings {
         Self {
             data_dir: None,
             user_agent: format!(
-                "zenodotus/{} (+https://github.com/zenodotus-docs/zenodotus)",
+                "zenodotus/{} (+https://github.com/jmpanozzoz/zenodotus)",
                 env!("CARGO_PKG_VERSION")
             ),
             fetch: FetchSettings::default(),
             http: HttpSettings::default(),
             ranking: RankingSettings::default(),
             index: IndexSettings::default(),
+            recipes_dir: None,
+            offline: false,
+            artifacts_dir: None,
+            private_scopes: Vec::new(),
+            host_overrides: BTreeMap::new(),
+            on_demand: OnDemandSettings::default(),
+            service: ServiceSettings::default(),
+        }
+    }
+}
+
+/// `[settings.on_demand]`: indexing a library the first time it is asked for.
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(default, deny_unknown_fields)]
+pub struct OnDemandSettings {
+    /// Whether an unindexed library is indexed when asked for.
+    pub enabled: bool,
+    /// How long a query waits for the first answer, in seconds.
+    pub wait_secs: u64,
+}
+
+impl Default for OnDemandSettings {
+    fn default() -> Self {
+        Self {
+            enabled: true,
+            wait_secs: 45,
+        }
+    }
+}
+
+/// `[settings.service]`: the background service's budgets and load gate.
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(default, deny_unknown_fields)]
+pub struct ServiceSettings {
+    /// Most bytes of indexed text before eviction.
+    pub disk_cap_bytes: u64,
+    /// Most bytes of cached artifacts.
+    pub artifacts_cap_bytes: u64,
+    /// Time between two cycles, in seconds.
+    pub poll_secs: u64,
+    /// Most downloads at once.
+    pub max_downloads: u64,
+    /// Most bytes downloaded per second.
+    pub max_bandwidth_bytes_per_sec: u64,
+    /// How many of each ecosystem's most used libraries to index ahead; 0 disables it.
+    pub top_n: u64,
+    /// Days between two checks of a runtime's sources.
+    pub runtime_recheck_days: u64,
+    /// Time between two load samples, in seconds.
+    pub sample_secs: u64,
+    /// The load window, in seconds.
+    pub window_secs: u64,
+    /// CPU idle share, in percent, above which a cycle may start.
+    pub idle_start_pct: u8,
+    /// CPU idle share, in percent, below which a running cycle pauses.
+    pub idle_pause_pct: u8,
+    /// The process niceness of the installed service.
+    pub nice: i8,
+}
+
+impl Default for ServiceSettings {
+    fn default() -> Self {
+        Self {
+            disk_cap_bytes: 2_147_483_648,
+            artifacts_cap_bytes: 4_294_967_296,
+            poll_secs: 60,
+            max_downloads: 2,
+            max_bandwidth_bytes_per_sec: 2_097_152,
+            top_n: 0,
+            runtime_recheck_days: 7,
+            sample_secs: 10,
+            window_secs: 60,
+            idle_start_pct: 30,
+            idle_pause_pct: 50,
+            nice: 19,
         }
     }
 }
@@ -145,8 +244,10 @@ pub struct FetchSettings {
     pub request_timeout_secs: u64,
     /// Timeout of one tarball download.
     pub tarball_timeout_secs: u64,
-    /// Least time between two requests to the same host, in milliseconds.
+    /// Least time between two requests to the same host, in milliseconds; it can only lengthen the host table's.
     pub host_interval_ms: u64,
+    /// Per-host intervals, in milliseconds; each can only lengthen the host table's.
+    pub host_intervals_ms: BTreeMap<String, u64>,
     /// Retries after a timeout, a connection error or a 5xx answer.
     pub retries: u32,
 }
@@ -166,7 +267,8 @@ impl Default for FetchSettings {
             connect_timeout_secs: 10,
             request_timeout_secs: 60,
             tarball_timeout_secs: 300,
-            host_interval_ms: 500,
+            host_interval_ms: DEFAULT_HOST_INTERVAL_MS,
+            host_intervals_ms: BTreeMap::new(),
             retries: 3,
         }
     }
@@ -317,6 +419,11 @@ impl Settings {
             ("fetch.tarball_timeout_secs", fetch.tarball_timeout_secs),
             ("http.max_body_bytes", self.http.max_body_bytes),
             ("http.max_in_flight", self.http.max_in_flight),
+            ("service.poll_secs", self.service.poll_secs),
+            ("service.max_downloads", self.service.max_downloads),
+            ("service.runtime_recheck_days", self.service.runtime_recheck_days),
+            ("service.sample_secs", self.service.sample_secs),
+            ("service.window_secs", self.service.window_secs),
         ] {
             if value == 0 {
                 return invalid(field, "must be at least 1");
@@ -334,7 +441,81 @@ impl Settings {
         if self.index.body_weight == 0 {
             return invalid("index.body_weight", "must be at least 1");
         }
+        self.validate_v2()
+    }
+
+    /// Checks the settings added in v2.
+    fn validate_v2(&self) -> Result<(), CoreError> {
+        let invalid = |field, reason| Err(CoreError::InvalidSettings { field, reason });
+        for (field, pct) in [
+            ("service.idle_start_pct", self.service.idle_start_pct),
+            ("service.idle_pause_pct", self.service.idle_pause_pct),
+        ] {
+            if pct > 100 {
+                return invalid(field, "must be at most 100");
+            }
+        }
+        if !(-20..=19).contains(&self.service.nice) {
+            return invalid("service.nice", "must be between -20 and 19");
+        }
+        let web = |url: &Url| matches!(url.scheme(), "http" | "https");
+        if !self
+            .host_overrides
+            .iter()
+            .all(|(host, url)| is_host_name(host) && web(url))
+        {
+            return invalid(
+                "host_overrides",
+                "keys must be host names and values `http` or `https` URLs",
+            );
+        }
+        let ecosystem_prefix = |scope: &String| {
+            scope
+                .split_once(':')
+                .is_some_and(|(prefix, _)| Ecosystem::from_prefix(prefix).is_some())
+        };
+        if !self.private_scopes.iter().all(ecosystem_prefix) {
+            return invalid(
+                "private_scopes",
+                "each entry must start with an ecosystem prefix such as `npm:`",
+            );
+        }
         Ok(())
+    }
+
+    /// Warnings about values that have no effect: intervals below the host table, which only lengthens.
+    #[must_use]
+    pub fn warnings(&self) -> Vec<String> {
+        let mut warnings = Vec::new();
+        let configured = self.fetch.host_interval_ms;
+        if configured < DEFAULT_HOST_INTERVAL_MS {
+            warnings.push(format!(
+                "settings.fetch.host_interval_ms = {configured} is below the {DEFAULT_HOST_INTERVAL_MS} ms every host \
+                 gets; {DEFAULT_HOST_INTERVAL_MS} ms applies"
+            ));
+        }
+        for (host, &configured) in &self.fetch.host_intervals_ms {
+            let table = table_interval_ms(host);
+            if configured < table && !is_loopback(host) {
+                warnings.push(format!(
+                    "settings.fetch.host_intervals_ms.{host:?} = {configured} is below the {table} ms of the host \
+                     table; {table} ms applies"
+                ));
+            }
+        }
+        warnings
+    }
+
+    /// The artifact cache: `artifacts_dir` when set, resolved like [`Settings::data_dir`], else
+    /// `<cache dir>/zenodotus/artifacts` (see [`cache_dir`]).
+    ///
+    /// # Errors
+    /// [`CoreError::NoLocation`] when the path needs a variable that is unset.
+    pub fn artifacts_dir(&self, config_path: &Path, env: Env<'_>) -> Result<PathBuf, CoreError> {
+        match &self.artifacts_dir {
+            Some(dir) => resolve_dir(dir, config_path, env, "artifacts directory"),
+            None => Ok(cache_dir(env)?.join("zenodotus/artifacts")),
+        }
     }
 
     /// The data directory: `data_dir` when set (`~/` expands to `$HOME`; a relative path is taken from the config
@@ -354,11 +535,85 @@ impl Settings {
             }
             return Ok(home()?.join(".local/share/zenodotus"));
         };
-        if let Ok(rest) = dir.strip_prefix("~") {
-            return Ok(home()?.join(rest));
-        }
-        Ok(config_path.parent().unwrap_or(Path::new("")).join(dir))
+        resolve_dir(dir, config_path, env, "data directory")
     }
+}
+
+/// A configured directory: `~/` expands to `$HOME`, and a relative path is taken from the config file's directory.
+fn resolve_dir(dir: &Path, config_path: &Path, env: Env<'_>, what: &'static str) -> Result<PathBuf, CoreError> {
+    if let Ok(rest) = dir.strip_prefix("~") {
+        let home = var(env, "HOME").ok_or(CoreError::NoLocation { what })?;
+        return Ok(PathBuf::from(home).join(rest));
+    }
+    Ok(config_path.parent().unwrap_or(Path::new("")).join(dir))
+}
+
+/// The interval the host table (design §11.2) gives `host`, in milliseconds.
+#[must_use]
+pub fn table_interval_ms(host: &str) -> u64 {
+    HOST_TABLE_MS
+        .iter()
+        .find(|(listed, _)| *listed == host)
+        .map_or(DEFAULT_HOST_INTERVAL_MS, |(_, interval)| *interval)
+}
+
+/// Whether `host` is a loopback IP address, which takes the configured interval alone.
+fn is_loopback(host: &str) -> bool {
+    let bare = host.trim_start_matches('[').trim_end_matches(']');
+    bare.parse::<std::net::IpAddr>().is_ok_and(|ip| ip.is_loopback())
+}
+
+/// An operating system, for the per-user directories that differ between them.
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum Os {
+    /// Linux and other Unix systems.
+    Linux,
+    /// macOS.
+    Macos,
+    /// Windows.
+    Windows,
+}
+
+impl Os {
+    /// The operating system this binary was built for.
+    #[cfg(windows)]
+    pub const CURRENT: Self = Self::Windows;
+    /// The operating system this binary was built for.
+    #[cfg(target_os = "macos")]
+    pub const CURRENT: Self = Self::Macos;
+    /// The operating system this binary was built for.
+    #[cfg(not(any(windows, target_os = "macos")))]
+    pub const CURRENT: Self = Self::Linux;
+}
+
+/// The per-user cache directory (design §16), fixed whatever the config: `~/.cache` on Linux, ignoring
+/// `XDG_CACHE_HOME`; `~/Library/Caches` on macOS; `%LOCALAPPDATA%` on Windows. Only the test-only
+/// `ZENODOTUS_CACHE_DIR` overrides it.
+///
+/// # Errors
+/// [`CoreError::NoLocation`] when the variable it comes from is unset.
+pub fn cache_dir(env: Env<'_>) -> Result<PathBuf, CoreError> {
+    cache_dir_on(Os::CURRENT, env)
+}
+
+/// [`cache_dir`] as it is on `os`.
+///
+/// # Errors
+/// As [`cache_dir`].
+pub fn cache_dir_on(os: Os, env: Env<'_>) -> Result<PathBuf, CoreError> {
+    let missing = CoreError::NoLocation {
+        what: "cache directory",
+    };
+    if let Some(dir) = var(env, "ZENODOTUS_CACHE_DIR") {
+        return Ok(PathBuf::from(dir));
+    }
+    let home = || var(env, "HOME").map(PathBuf::from);
+    match os {
+        Os::Linux => home().map(|home| home.join(".cache")),
+        Os::Macos => home().map(|home| home.join("Library/Caches")),
+        Os::Windows => var(env, "LOCALAPPDATA").map(PathBuf::from),
+    }
+    .ok_or(missing)
 }
 
 impl RankingSettings {
@@ -462,6 +717,17 @@ impl Config {
         Ok(())
     }
 
+    /// The configured scope a canonical ID names at `version`: the library that declares `canonical` and lists that
+    /// version (design §6.4). `None` sends the lookup to the catalog.
+    #[must_use]
+    pub fn configured_scope(&self, canonical: &CanonicalId, version: &Version) -> Option<Scope> {
+        self.libraries
+            .iter()
+            .filter(|library| library.canonical.as_ref() == Some(canonical))
+            .find(|library| library.versions.iter().any(|spec| &spec.version == version))
+            .map(|library| Scope::new(library.id.clone(), version.clone()))
+    }
+
     /// The library with id `id`.
     ///
     /// # Errors
@@ -542,6 +808,7 @@ fn var(env: Env<'_>, name: &str) -> Option<String> {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::ids::{CanonicalId, Scope};
 
     const EXAMPLE: &str = r#"
 # Comments are allowed anywhere.
@@ -638,6 +905,277 @@ source = { kind = "local", path = "/srv/tokio" }
         assert_eq!(settings.index.symbol_weight, 4, "tuned in iteration 12");
         assert_eq!(settings.index.title_weight, 3, "tuned in iteration 19");
         assert!(settings.user_agent.starts_with("zenodotus/0."));
+        assert_eq!(
+            settings.user_agent,
+            format!(
+                "zenodotus/{} (+https://github.com/jmpanozzoz/zenodotus)",
+                env!("CARGO_PKG_VERSION")
+            )
+        );
+        assert_eq!(settings.fetch.host_interval_ms, 1_000);
+        assert!(settings.fetch.host_intervals_ms.is_empty());
+        assert_eq!(settings.recipes_dir, None);
+        assert!(!settings.offline);
+        assert_eq!(settings.artifacts_dir, None);
+        assert_eq!(settings.private_scopes, Vec::<String>::new());
+        assert!(settings.host_overrides.is_empty());
+        assert_eq!(
+            settings.on_demand,
+            OnDemandSettings {
+                enabled: true,
+                wait_secs: 45
+            }
+        );
+        assert_eq!(
+            settings.service,
+            ServiceSettings {
+                disk_cap_bytes: 2_147_483_648,
+                artifacts_cap_bytes: 4_294_967_296,
+                poll_secs: 60,
+                max_downloads: 2,
+                max_bandwidth_bytes_per_sec: 2_097_152,
+                top_n: 0,
+                runtime_recheck_days: 7,
+                sample_secs: 10,
+                window_secs: 60,
+                idle_start_pct: 30,
+                idle_pause_pct: 50,
+                nice: 19,
+            }
+        );
+        assert_eq!(DEFAULT_MAX_CHARS, 12_000);
+        assert_eq!(settings.warnings(), Vec::<String>::new());
+    }
+
+    const V2_SETTINGS: &str = r#"
+[settings]
+recipes_dir = "~/src/zenodotus/recipes"
+offline = true
+artifacts_dir = "/home/u/.cache/zenodotus/artifacts"
+private_scopes = ["npm:@acme/", "maven:com.acme."]
+
+[settings.fetch]
+host_interval_ms = 1500
+host_intervals_ms = { "docs.example.org" = 2000 }
+
+[settings.host_overrides]
+"registry.npmjs.org" = "http://127.0.0.1:4873"
+
+[settings.on_demand]
+enabled = false
+wait_secs = 20
+
+[settings.service]
+poll_secs = 30
+top_n = 100
+nice = 10
+
+[[library]]
+id = "react"
+canonical = "npm:react"
+
+[[library.version]]
+version = "19.1.0"
+source = { kind = "local", path = "docs" }
+"#;
+
+    #[test]
+    fn parses_the_v2_keys() {
+        let config = parse(V2_SETTINGS).unwrap();
+        let settings = &config.settings;
+        assert_eq!(settings.recipes_dir, Some(PathBuf::from("~/src/zenodotus/recipes")));
+        assert!(settings.offline);
+        assert_eq!(
+            settings.artifacts_dir,
+            Some(PathBuf::from("/home/u/.cache/zenodotus/artifacts"))
+        );
+        assert_eq!(settings.private_scopes, ["npm:@acme/", "maven:com.acme."]);
+        assert_eq!(settings.fetch.host_interval_ms, 1_500);
+        assert_eq!(settings.fetch.host_intervals_ms["docs.example.org"], 2_000);
+        assert_eq!(
+            settings.host_overrides["registry.npmjs.org"].as_str(),
+            "http://127.0.0.1:4873/"
+        );
+        assert!(!settings.on_demand.enabled);
+        assert_eq!(settings.on_demand.wait_secs, 20);
+        assert_eq!(settings.service.poll_secs, 30);
+        assert_eq!(settings.service.top_n, 100);
+        assert_eq!(settings.service.nice, 10);
+        assert_eq!(settings.service.max_downloads, 2);
+        assert_eq!(
+            config.libraries[0].canonical.as_ref().map(CanonicalId::as_str),
+            Some("npm:react")
+        );
+        let text = toml::to_string(&config).unwrap();
+        assert_eq!(parse(&text).unwrap(), config);
+        for text in [
+            "[settings.on_demand]\nwait = 1",
+            "[settings.service]\npoll = 1",
+            "[[library]]\nid = \"a\"\ncanonical = \"cobol:a\"\n",
+        ] {
+            assert!(matches!(parse(text), Err(CoreError::ConfigParse { .. })), "{text}");
+        }
+    }
+
+    #[test]
+    fn a_configured_canonical_id_resolves_to_the_slug_scope_at_its_versions_only() {
+        let config = parse(V2_SETTINGS).unwrap();
+        let react = CanonicalId::parse("npm:react").unwrap();
+        let at = |version| config.configured_scope(&react, &Version::parse(version).unwrap());
+        assert_eq!(
+            at("19.1.0"),
+            Some(Scope::new(
+                LibraryId::parse("react").unwrap(),
+                Version::parse("19.1.0").unwrap()
+            ))
+        );
+        assert_eq!(at("18.3.1"), None);
+        let vue = CanonicalId::parse("npm:vue").unwrap();
+        assert_eq!(config.configured_scope(&vue, &Version::parse("19.1.0").unwrap()), None);
+
+        assert!(matches!(
+            parse("[[library]]\nid = \"react\"\ncanonical = \"npm:react\"\n"),
+            Err(CoreError::NoVersions { library }) if library == "react"
+        ));
+    }
+
+    #[test]
+    fn new_settings_are_checked() {
+        for (key, value) in [("idle_start_pct", "101"), ("idle_pause_pct", "101")] {
+            assert_eq!(
+                settings_error(&format!("[settings.service]\n{key} = {value}")),
+                message(&format!("service.{key}"), "must be at most 100")
+            );
+        }
+        for key in [
+            "poll_secs",
+            "max_downloads",
+            "sample_secs",
+            "window_secs",
+            "runtime_recheck_days",
+        ] {
+            assert_eq!(
+                settings_error(&format!("[settings.service]\n{key} = 0")),
+                message(&format!("service.{key}"), "must be at least 1")
+            );
+        }
+        for nice in ["-21", "20"] {
+            assert_eq!(
+                settings_error(&format!("[settings.service]\nnice = {nice}")),
+                message("service.nice", "must be between -20 and 19")
+            );
+        }
+        assert!(parse("[settings.service]\nnice = -20\nidle_start_pct = 100").is_ok());
+        for overrides in [
+            r#""bad host" = "http://127.0.0.1:1""#,
+            r#""a.org" = "ftp://127.0.0.1/""#,
+        ] {
+            assert_eq!(
+                settings_error(&format!("[settings.host_overrides]\n{overrides}")),
+                message(
+                    "host_overrides",
+                    "keys must be host names and values `http` or `https` URLs"
+                )
+            );
+        }
+        for scope in ["", "react", "cobol:x"] {
+            assert_eq!(
+                settings_error(&format!("[settings]\nprivate_scopes = [\"{scope}\"]")),
+                message(
+                    "private_scopes",
+                    "each entry must start with an ecosystem prefix such as `npm:`"
+                )
+            );
+        }
+        assert!(parse("[settings]\nprivate_scopes = [\"pypi:\"]").is_ok());
+    }
+
+    #[test]
+    fn intervals_below_the_host_table_warn() {
+        let config = parse(
+            "[settings.fetch]\nhost_interval_ms = 500\n\
+             host_intervals_ms = { \"crates.io\" = 500, \"docs.example.org\" = 2000, \"rubygems.org\" = 100, \
+             \"pkg.go.dev\" = 50, \"127.0.0.1\" = 100, \"[::1]\" = 100 }",
+        )
+        .unwrap();
+        assert_eq!(
+            config.settings.warnings(),
+            [
+                "settings.fetch.host_interval_ms = 500 is below the 1000 ms every host gets; 1000 ms applies",
+                "settings.fetch.host_intervals_ms.\"crates.io\" = 500 is below the 1000 ms of the host table; 1000 ms \
+                 applies",
+                "settings.fetch.host_intervals_ms.\"pkg.go.dev\" = 50 is below the 100 ms of the host table; 100 ms \
+                 applies",
+            ]
+        );
+        assert_eq!(table_interval_ms("crates.io"), 1_000);
+        assert_eq!(table_interval_ms("rubygems.org"), 100);
+        assert_eq!(table_interval_ms("pkg.go.dev"), 100);
+        assert_eq!(table_interval_ms("docs.example.org"), 1_000);
+    }
+
+    #[test]
+    fn the_cache_directory_is_fixed_per_user() {
+        let home = env(&[
+            ("HOME", "/home/u"),
+            ("XDG_CACHE_HOME", "/xdg"),
+            ("LOCALAPPDATA", "C:\\L"),
+        ]);
+        assert_eq!(cache_dir_on(Os::Linux, &home).unwrap(), Path::new("/home/u/.cache"));
+        assert_eq!(
+            cache_dir_on(Os::Macos, &home).unwrap(),
+            Path::new("/home/u/Library/Caches")
+        );
+        assert_eq!(cache_dir_on(Os::Windows, &home).unwrap(), Path::new("C:\\L"));
+        assert_eq!(cache_dir(&home).unwrap(), Path::new("/home/u/.cache"));
+        let test_only = env(&[("ZENODOTUS_CACHE_DIR", "/tmp/c"), ("HOME", "/home/u")]);
+        for os in [Os::Linux, Os::Macos, Os::Windows] {
+            assert_eq!(cache_dir_on(os, &test_only).unwrap(), Path::new("/tmp/c"));
+            assert!(matches!(
+                cache_dir_on(os, &env(&[("ZENODOTUS_CACHE_DIR", "")])),
+                Err(CoreError::NoLocation {
+                    what: "cache directory"
+                })
+            ));
+        }
+    }
+
+    #[test]
+    fn artifacts_dir_resolves_like_data_dir() {
+        let config_path = Path::new("/etc/z/zenodotus.toml");
+        let with = |dir: Option<&str>| Settings {
+            artifacts_dir: dir.map(PathBuf::from),
+            ..Settings::default()
+        };
+        let home = env(&[("HOME", "/home/u")]);
+        assert_eq!(
+            with(Some("/abs")).artifacts_dir(config_path, &home).unwrap(),
+            Path::new("/abs")
+        );
+        assert_eq!(
+            with(Some("rel")).artifacts_dir(config_path, &home).unwrap(),
+            Path::new("/etc/z/rel")
+        );
+        assert_eq!(
+            with(Some("~/a")).artifacts_dir(config_path, &home).unwrap(),
+            Path::new("/home/u/a")
+        );
+        assert_eq!(
+            with(None).artifacts_dir(config_path, &home).unwrap(),
+            Path::new("/home/u/.cache/zenodotus/artifacts")
+        );
+        assert_eq!(
+            with(None)
+                .artifacts_dir(config_path, &env(&[("ZENODOTUS_CACHE_DIR", "/tmp/c")]))
+                .unwrap(),
+            Path::new("/tmp/c/zenodotus/artifacts")
+        );
+        for dir in [None, Some("~/a")] {
+            assert!(matches!(
+                with(dir).artifacts_dir(config_path, &env(&[])),
+                Err(CoreError::NoLocation { .. })
+            ));
+        }
     }
 
     #[test]
