@@ -27,7 +27,7 @@ pub const MAX_QUERY_TERMS: usize = 64;
 /// The boost of a synonym relative to the word it stands for.
 const SYNONYM_BOOST: f32 = 0.5;
 
-/// English function words, sorted. Next to other words they neither select nor score sections.
+/// English function words, sorted. They are optional clauses: a section that matches only these is never a result.
 const STOP_WORDS: [&str; 52] = [
     "a", "about", "an", "and", "are", "as", "at", "be", "by", "can", "could", "do", "does", "for", "from", "has",
     "have", "how", "i", "if", "in", "into", "is", "it", "its", "me", "my", "of", "on", "or", "should", "so", "some",
@@ -48,7 +48,7 @@ pub struct Analyzed {
     pub words: Vec<String>,
     /// Distinct words of which enough must match: the non-stop words, or the stop words when there are no others.
     pub required: Vec<String>,
-    /// Distinct stop words next to non-stop words; they take no part in the query.
+    /// Distinct stop words that only add to the score, when there are non-stop words.
     pub optional: Vec<String>,
     /// Exact-symbol terms: the expressions of the query that look like code, as `query_symbols` emits them.
     pub identifiers: Vec<String>,
@@ -243,6 +243,12 @@ pub fn build(
     ));
     for word in demoted {
         clauses.push((Occur::Should, word_query(fields, word, ranking)));
+    }
+    for word in &analyzed.optional {
+        clauses.push((
+            Occur::Should,
+            term_query(fields.combined, word, IndexRecordOption::WithFreqs),
+        ));
     }
     for identifier in &analyzed.identifiers {
         clauses.extend(boosted_clause(ranking.symbol_boost, || {
@@ -773,17 +779,6 @@ mod tests {
     }
 
     #[test]
-    fn stop_words_add_no_score_next_to_other_words() {
-        let s = lib();
-        let fixture = one_version(&[
-            section(&s, "a.md", 0, &["A"], "how to spawn a task"),
-            section(&s, "b.md", 0, &["B"], "spawn"),
-        ]);
-        let scores = |query: &str| -> Vec<f32> { run(&fixture, query).results.iter().map(|item| item.score).collect() };
-        assert_eq!(scores("how to spawn"), scores("spawn"));
-    }
-
-    #[test]
     fn min_should_match_requires_more_words() {
         let s = lib();
         let fixture = one_version(&[
@@ -1246,7 +1241,7 @@ mod tests {
                 .clauses()
                 .len()
         };
-        let base = 2;
+        let base = 2 + analyzed.optional.len();
         assert_eq!(
             count(&RankingSettings::default()),
             base + analyzed.identifiers.len() + 2,
