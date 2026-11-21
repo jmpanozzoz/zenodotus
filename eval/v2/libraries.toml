@@ -1,0 +1,334 @@
+# The M6 benchmark's libraries: six per ecosystem of the frozen set (zenodotus-design/v2/research.md B1).
+# `tags` are Stack Overflow tags, all of which a question must carry; `docs` are the documentation hosts (and
+# optional path prefixes) an accepted answer must link to for its question to count. The list was fixed before any
+# question was fetched and before any v2 ranking or resolution code existed.
+
+[[library]]
+id = "npm:react"
+tags = ["reactjs"]
+docs = ["react.dev/", "legacy.reactjs.org/docs/", "reactjs.org/docs/"]
+
+[[library]]
+id = "npm:express"
+tags = ["express"]
+docs = ["expressjs.com/"]
+
+[[library]]
+id = "npm:axios"
+tags = ["axios"]
+docs = ["axios-http.com/", "github.com/axios/axios"]
+
+[[library]]
+id = "npm:lodash"
+tags = ["lodash"]
+docs = ["lodash.com/docs"]
+
+[[library]]
+id = "npm:vue"
+tags = ["vue.js"]
+docs = ["vuejs.org/", "v2.vuejs.org/", "v3.vuejs.org/"]
+
+[[library]]
+id = "npm:next"
+tags = ["next.js"]
+docs = ["nextjs.org/docs"]
+
+[[library]]
+id = "pypi:fastapi"
+tags = ["fastapi"]
+docs = ["fastapi.tiangolo.com/"]
+
+[[library]]
+id = "pypi:django"
+tags = ["django"]
+docs = ["docs.djangoproject.com/"]
+
+[[library]]
+id = "pypi:flask"
+tags = ["flask"]
+docs = ["flask.palletsprojects.com/"]
+
+[[library]]
+id = "pypi:pandas"
+tags = ["pandas"]
+docs = ["pandas.pydata.org/docs", "pandas.pydata.org/pandas-docs"]
+
+[[library]]
+id = "pypi:requests"
+tags = ["python-requests"]
+docs = ["requests.readthedocs.io/", "docs.python-requests.org/", "2.python-requests.org/"]
+
+[[library]]
+id = "pypi:sqlalchemy"
+tags = ["sqlalchemy"]
+docs = ["docs.sqlalchemy.org/"]
+
+[[library]]
+id = "maven:org.springframework.boot:spring-boot"
+tags = ["spring-boot"]
+docs = ["docs.spring.io/spring-boot/"]
+
+[[library]]
+id = "maven:com.fasterxml.jackson.core:jackson-databind"
+tags = ["jackson"]
+docs = ["fasterxml.github.io/jackson-databind/", "github.com/FasterXML/jackson-databind", "javadoc.io/doc/com.fasterxml.jackson.core/"]
+
+[[library]]
+id = "maven:org.junit.jupiter:junit-jupiter-api"
+tags = ["junit5"]
+docs = ["junit.org/junit5/docs/", "docs.junit.org/"]
+
+[[library]]
+id = "maven:org.hibernate.orm:hibernate-core"
+tags = ["hibernate"]
+docs = ["docs.jboss.org/hibernate/", "hibernate.org/orm/documentation/"]
+
+[[library]]
+id = "maven:com.google.guava:guava"
+tags = ["guava"]
+docs = ["guava.dev/", "github.com/google/guava/wiki", "google.github.io/guava/"]
+
+[[library]]
+id = "maven:com.squareup.okhttp3:okhttp"
+tags = ["okhttp"]
+docs = ["square.github.io/okhttp/"]
+
+[[library]]
+id = "nuget:newtonsoft.json"
+tags = ["json.net"]
+docs = ["newtonsoft.com/json/help", "www.newtonsoft.com/json/help"]
+
+[[library]]
+id = "nuget:microsoft.entityframeworkcore"
+tags = ["entity-framework-core"]
+docs = ["learn.microsoft.com/en-us/ef/core/", "docs.microsoft.com/en-us/ef/core/"]
+
+[[library]]
+id = "nuget:automapper"
+tags = ["automapper"]
+docs = ["docs.automapper.org/", "automapper.readthedocs.io/"]
+
+[[library]]
+id = "nuget:serilog"
+tags = ["serilog"]
+docs = ["github.com/serilog/serilog/wiki", "serilog.net/"]
+
+[[library]]
+id = "nuget:xunit"
+tags = ["xunit"]
+docs = ["xunit.net/docs/"]
+
+[[library]]
+id = "nuget:dapper"
+tags = ["dapper"]
+docs = ["github.com/DapperLib/Dapper", "www.learndapper.com/", "github.com/StackExchange/Dapper"]
+
+[[library]]
+id = "go:github.com/gin-gonic/gin"
+tags = ["go-gin"]
+docs = ["gin-gonic.com/", "pkg.go.dev/github.com/gin-gonic/gin", "godoc.org/github.com/gin-gonic/gin", "github.com/gin-gonic/gin"]
+
+[[library]]
+id = "go:gorm.io/gorm"
+tags = ["go-gorm"]
+docs = ["gorm.io/docs/", "gorm.io/"]
+
+[[library]]
+id = "go:github.com/spf13/cobra"
+tags = ["go-cobra"]
+docs = ["cobra.dev/", "pkg.go.dev/github.com/spf13/cobra", "github.com/spf13/cobra"]
+
+[[library]]
+id = "go:github.com/stretchr/testify"
+tags = ["testify"]
+docs = ["pkg.go.dev/github.com/stretchr/testify", "godoc.org/github.com/stretchr/testify", "github.com/stretchr/testify"]
+
+[[library]]
+id = "go:github.com/labstack/echo/v4"
+tags = ["go-echo"]
+docs = ["echo.labstack.com/", "pkg.go.dev/github.com/labstack/echo"]
+
+[[library]]
+id = "go:github.com/spf13/viper"
+tags = ["viper-go"]
+docs = ["pkg.go.dev/github.com/spf13/viper", "godoc.org/github.com/spf13/viper", "github.com/spf13/viper"]
+
+[[library]]
+id = "crates:tokio"
+tags = ["rust-tokio"]
+docs = ["docs.rs/tokio", "tokio.rs/tokio/"]
+
+[[library]]
+id = "crates:serde"
+tags = ["serde"]
+docs = ["docs.rs/serde", "serde.rs/", "docs.serde.rs/"]
+
+[[library]]
+id = "crates:reqwest"
+tags = ["reqwest"]
+docs = ["docs.rs/reqwest"]
+
+[[library]]
+id = "crates:clap"
+tags = ["clap"]
+docs = ["docs.rs/clap"]
+
+[[library]]
+id = "crates:actix-web"
+tags = ["actix-web"]
+docs = ["actix.rs/docs", "docs.rs/actix-web"]
+
+[[library]]
+id = "crates:axum"
+tags = ["rust-axum"]
+docs = ["docs.rs/axum"]
+
+[[library]]
+id = "packagist:laravel/framework"
+tags = ["laravel"]
+docs = ["laravel.com/docs"]
+
+[[library]]
+id = "packagist:symfony/symfony"
+tags = ["symfony"]
+docs = ["symfony.com/doc/"]
+
+[[library]]
+id = "packagist:guzzlehttp/guzzle"
+tags = ["guzzle"]
+docs = ["docs.guzzlephp.org/", "guzzle.readthedocs.io/"]
+
+[[library]]
+id = "packagist:phpunit/phpunit"
+tags = ["phpunit"]
+docs = ["docs.phpunit.de/", "phpunit.readthedocs.io/", "phpunit.de/manual/"]
+
+[[library]]
+id = "packagist:doctrine/orm"
+tags = ["doctrine-orm"]
+docs = ["www.doctrine-project.org/projects/doctrine-orm/", "doctrine-orm.readthedocs.io/"]
+
+[[library]]
+id = "packagist:monolog/monolog"
+tags = ["monolog"]
+docs = ["github.com/Seldaek/monolog"]
+
+[[library]]
+id = "rubygems:rails"
+tags = ["ruby-on-rails"]
+docs = ["guides.rubyonrails.org/", "api.rubyonrails.org/"]
+
+[[library]]
+id = "rubygems:rspec"
+tags = ["rspec"]
+docs = ["rspec.info/", "relishapp.com/rspec", "rubydoc.info/gems/rspec"]
+
+[[library]]
+id = "rubygems:devise"
+tags = ["devise"]
+docs = ["github.com/heartcombo/devise", "github.com/plataformatec/devise", "rubydoc.info/github/heartcombo/devise"]
+
+[[library]]
+id = "rubygems:sidekiq"
+tags = ["sidekiq"]
+docs = ["github.com/sidekiq/sidekiq/wiki", "github.com/mperham/sidekiq/wiki"]
+
+[[library]]
+id = "rubygems:nokogiri"
+tags = ["nokogiri"]
+docs = ["nokogiri.org/"]
+
+[[library]]
+id = "rubygems:puma"
+tags = ["puma"]
+docs = ["puma.io/", "github.com/puma/puma"]
+
+[[library]]
+id = "pub:provider"
+tags = ["flutter-provider"]
+docs = ["pub.dev/packages/provider", "pub.dev/documentation/provider/"]
+
+[[library]]
+id = "pub:dio"
+tags = ["dio"]
+docs = ["pub.dev/packages/dio", "pub.dev/documentation/dio/"]
+
+[[library]]
+id = "pub:http"
+tags = ["dart-http"]
+docs = ["pub.dev/packages/http", "pub.dev/documentation/http/"]
+
+[[library]]
+id = "pub:flutter_riverpod"
+tags = ["riverpod"]
+docs = ["riverpod.dev/", "pub.dev/documentation/riverpod/", "pub.dev/documentation/flutter_riverpod/"]
+
+[[library]]
+id = "pub:flutter_bloc"
+tags = ["flutter-bloc"]
+docs = ["bloclibrary.dev/", "pub.dev/documentation/flutter_bloc/", "pub.dev/packages/flutter_bloc"]
+
+[[library]]
+id = "pub:get_it"
+tags = ["flutter-getit"]
+docs = ["pub.dev/packages/get_it", "pub.dev/documentation/get_it/"]
+
+[[library]]
+id = "swift:github.com/alamofire/alamofire"
+tags = ["alamofire"]
+docs = ["github.com/Alamofire/Alamofire", "alamofire.github.io/Alamofire/"]
+
+[[library]]
+id = "swift:github.com/apple/swift-nio"
+tags = ["swift-nio"]
+docs = ["swiftpackageindex.com/apple/swift-nio", "apple.github.io/swift-nio/"]
+
+[[library]]
+id = "swift:github.com/vapor/vapor"
+tags = ["vapor"]
+docs = ["docs.vapor.codes/"]
+
+[[library]]
+id = "swift:github.com/onevcat/kingfisher"
+tags = ["kingfisher"]
+docs = ["github.com/onevcat/Kingfisher", "swiftpackageindex.com/onevcat/Kingfisher"]
+
+[[library]]
+id = "swift:github.com/snapkit/snapkit"
+tags = ["snapkit"]
+docs = ["github.com/SnapKit/SnapKit", "snapkit.github.io/SnapKit/"]
+
+[[library]]
+id = "swift:github.com/realm/realm-swift"
+tags = ["realm"]
+docs = ["www.mongodb.com/docs/realm/sdk/swift/", "docs.mongodb.com/realm/sdk/swift/", "realm.io/docs/swift/"]
+
+[[library]]
+id = "github:nlohmann/json"
+tags = ["nlohmann-json"]
+docs = ["json.nlohmann.me/", "github.com/nlohmann/json"]
+
+[[library]]
+id = "github:fmtlib/fmt"
+tags = ["fmt"]
+docs = ["fmt.dev/"]
+
+[[library]]
+id = "github:catchorg/catch2"
+tags = ["catch2"]
+docs = ["github.com/catchorg/Catch2"]
+
+[[library]]
+id = "github:google/googletest"
+tags = ["googletest"]
+docs = ["google.github.io/googletest/", "github.com/google/googletest"]
+
+[[library]]
+id = "github:gabime/spdlog"
+tags = ["spdlog"]
+docs = ["github.com/gabime/spdlog"]
+
+[[library]]
+id = "github:pybind/pybind11"
+tags = ["pybind11"]
+docs = ["pybind11.readthedocs.io/"]

@@ -12,6 +12,7 @@ mod perf;
 mod questions;
 mod report;
 mod run;
+mod sourcing;
 mod systems;
 mod validate;
 
