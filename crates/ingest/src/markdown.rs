@@ -271,14 +271,14 @@ fn title_value(line: &str) -> Option<String> {
     (!unquoted.is_empty()).then(|| unquoted.to_owned())
 }
 
-/// Removes MDX `import`/`export` statements and self-closing JSX component lines outside code fences. A statement
-/// starts at the beginning of a line, as MDX requires, and runs on while its braces are open or, for an import, until
-/// its module is named. A statement still open at the end of the text was not one, and its lines are kept.
+/// Removes MDX `import`/`export` blocks and self-closing JSX component lines outside code fences. As in MDX, a block
+/// starts at the beginning of a line with the keyword and a space, and ends at a blank line; while its braces are open
+/// it runs on across a blank line into a line that is indented or starts with a closing bracket. An import block that
+/// never names its module was prose, and is kept.
 fn strip_mdx(text: &str) -> String {
     let mut kept = String::with_capacity(text.len());
     let mut fence: Option<Fence> = None;
-    let mut statement: Option<Statement> = None;
-    let mut held = String::new();
+    let mut block: Option<EsmBlock> = None;
     for line in text.split_inclusive('\n') {
         if let Some(open) = fence {
             if open.is_closed_by(line) {
@@ -287,64 +287,70 @@ fn strip_mdx(text: &str) -> String {
             kept.push_str(line);
             continue;
         }
-        if let Some(open) = statement {
-            if open.is_abandoned_by(line) {
-                kept.push_str(&held);
-                held.clear();
-                statement = None;
-            } else {
-                statement = open.continued_by(line.trim());
-                held.push_str(line);
-                if statement.is_none() {
-                    held.clear();
-                }
+        if let Some(mut open) = block.take() {
+            if line.trim().is_empty() && open.open_braces == 0 {
+                open.finish(&mut kept);
+                kept.push_str(line);
                 continue;
             }
+            if line.trim().is_empty() {
+                open.blanks.push_str(line);
+                block = Some(open);
+                continue;
+            }
+            if open.blanks.is_empty() || line.starts_with(char::is_whitespace) || line.starts_with(['}', ')', ']']) {
+                open.extend(line);
+                block = Some(open);
+                continue;
+            }
+            open.finish(&mut kept);
         }
         if let Some(open) = Fence::opened_by(line) {
             fence = Some(open);
             kept.push_str(line);
-        } else if let Some(open) = Statement::started_by(line) {
-            statement = open.continued_by("");
-            if statement.is_some() {
-                held.push_str(line);
-            }
+        } else if let Some(open) = EsmBlock::started_by(line) {
+            block = Some(open);
         } else if !is_self_closing_component(line) {
             kept.push_str(line);
         }
     }
-    if statement.is_some() {
-        kept.push_str(&held);
+    if let Some(open) = block {
+        open.finish(&mut kept);
     }
     kept
 }
 
-/// An MDX module statement still being read: its open braces, and whether it is an import whose module is not named
-/// yet.
-#[derive(Clone, Copy)]
-struct Statement {
+/// An MDX `import`/`export` block being read.
+struct EsmBlock {
+    /// The block's lines so far.
+    lines: String,
+    /// Blank lines read after them, which belong to the block only if a continuation line follows.
+    blanks: String,
+    /// Braces still open.
     open_braces: usize,
-    awaiting_module: bool,
+    /// Whether the block is an import that must name its module to be one.
+    needs_module: bool,
 }
 
-impl Statement {
-    /// The statement `line` starts, if any: `import` followed by a module, a binding list or a default binding, or
-    /// `export` followed by a declaration. Prose such as "import the file" or "export your data" starts none.
+impl EsmBlock {
+    /// The block `line` starts, if any: `import` and a space followed by a module, a binding list or a default
+    /// binding, or `export` and a space followed by a declaration. Prose such as "import the file" or "export your
+    /// data" starts none.
     fn started_by(line: &str) -> Option<Self> {
-        let line = line.trim_end();
-        let started = |awaiting_module| {
-            Some(Self {
-                open_braces: brace_balance(0, line),
-                awaiting_module,
-            })
+        let trimmed = line.trim_end();
+        let started = |needs_module| Self {
+            lines: line.to_owned(),
+            blanks: String::new(),
+            open_braces: brace_balance(0, line),
+            needs_module,
         };
-        if let Some(rest) = line.strip_prefix("import") {
+        if let Some(rest) = trimmed.strip_prefix("import") {
             let tail = rest.trim_start();
-            if tail.len() == rest.len() && !rest.starts_with('{') {
+            if tail.len() == rest.len() {
                 return None;
             }
             if tail.starts_with(['"', '\'']) {
-                return started(false);
+                return Some(started(false));
             }
             let bindings = tail.strip_prefix("type ").map_or(tail, str::trim_start);
             let after_name = bindings.trim_start_matches(|c: char| c.is_ascii_alphanumeric() || c == '_' || c == '$');
@@ -352,11 +358,9 @@ impl Statement {
                 && (after_name.trim().is_empty()
                     || after_name.trim_start().starts_with(',')
                     || names_module(after_name));
-            return (bindings.starts_with(['{', '*']) || default_binding || names_module(tail))
-                .then(|| started(!names_module(tail)))
-                .flatten();
+            return (bindings.starts_with(['{', '*']) || default_binding || names_module(tail)).then(|| started(true));
         }
-        let rest = line.strip_prefix("export")?;
+        let rest = trimmed.strip_prefix("export")?;
         let tail = rest.trim_start();
         let word = tail.split([' ', '\t', '{', '*', '(']).next().unwrap_or_default();
         let declaration = tail.starts_with(['{', '*'])
@@ -364,29 +368,24 @@ impl Statement {
                 word,
                 "default" | "const" | "let" | "var" | "function" | "async" | "class" | "type" | "interface" | "enum"
             );
-        (tail.len() < rest.len() && declaration)
-            .then(|| started(false))
-            .flatten()
+        (tail.len() < rest.len() && declaration).then(|| started(false))
     }
 
-    /// Whether `line` shows that an import still waiting for its module was prose after all: with no braces open, a
-    /// continuation line is indented or starts with `from`, a brace or a comma, and does not open a code fence.
-    fn is_abandoned_by(self, line: &str) -> bool {
-        self.awaiting_module
-            && self.open_braces == 0
-            && (Fence::opened_by(line).is_some()
-                || !(line.starts_with(char::is_whitespace)
-                    || line.starts_with(['{', '}', ','])
-                    || line.starts_with("from")))
+    /// Adds a continuation `line`, after any blank lines read before it.
+    fn extend(&mut self, line: &str) {
+        self.lines.push_str(&self.blanks);
+        self.blanks.clear();
+        self.lines.push_str(line);
+        self.open_braces = brace_balance(self.open_braces, line);
     }
 
-    /// The statement after `line`, or `None` when it ends there.
-    fn continued_by(self, line: &str) -> Option<Self> {
-        let next = Self {
-            open_braces: brace_balance(self.open_braces, line),
-            awaiting_module: self.awaiting_module && !names_module(line),
-        };
-        (next.open_braces > 0 || next.awaiting_module).then_some(next)
+    /// Ends the block: its lines are dropped, unless it is an import that never named its module, and the blank lines
+    /// after it are kept.
+    fn finish(self, kept: &mut String) {
+        if self.needs_module && !names_module(&self.lines) {
+            kept.push_str(&self.lines);
+        }
+        kept.push_str(&self.blanks);
     }
 }
 
@@ -402,28 +401,25 @@ fn brace_balance(open: usize, line: &str) -> usize {
     (open + line.matches('{').count()).saturating_sub(line.matches('}').count())
 }
 
-/// A line, indented by at most three spaces and no tab, that holds only JSX tags, starts with a capitalised tag and
-/// ends with `/>`, such as `<Callout type="info" />`. A line with text outside its tags, such as
-/// `<Note>text</Note> <Br />`, is kept.
+/// A line that holds only JSX tags, starts with a capitalised tag and ends with `/>`, such as
+/// `<Callout type="info" />`; MDX has no indented code, so indentation does not matter. A line with text outside its
+/// tags, such as `<Note>text</Note> <Br />`, is kept.
 fn is_self_closing_component(line: &str) -> bool {
     let trimmed = line.trim();
-    let indent = &line[..line.len() - line.trim_start().len()];
-    indent.len() <= 3
-        && !indent.contains('\t')
-        && trimmed
-            .strip_prefix('<')
-            .is_some_and(|rest| rest.starts_with(|c: char| c.is_ascii_uppercase()))
+    trimmed
+        .strip_prefix('<')
+        .is_some_and(|rest| rest.starts_with(|c: char| c.is_ascii_uppercase()))
         && trimmed.ends_with("/>")
         && !has_text_outside_tags(trimmed)
 }
 
 /// Whether `line` has anything but whitespace outside its `<…>` tags. Inside a tag, quoted values and `{…}`
-/// expressions may hold `<` and `>`.
+/// expressions may hold `<` and `>`; a quote or brace left open makes the line count as text, so it is kept.
 fn has_text_outside_tags(line: &str) -> bool {
     let mut in_tag = false;
     let mut quote: Option<char> = None;
     let mut braces = 0_usize;
-    line.chars().any(|c| {
+    let text = line.chars().any(|c| {
         if let Some(open) = quote {
             quote = (c != open).then_some(open);
         } else if in_tag {
@@ -439,7 +435,8 @@ fn has_text_outside_tags(line: &str) -> bool {
             return !in_tag && !c.is_whitespace();
         }
         false
-    })
+    });
+    text || quote.is_some() || braces > 0
 }
 
 #[cfg(test)]
@@ -551,12 +548,12 @@ mod tests {
     }
 
     #[test]
-    fn mdx_statements_and_self_closing_components_are_removed() {
-        let text = "import { A,\n  B } from './x'\nimport C from 'c'\nexport const meta = {}\n\n# Title\n\n<Callout type=\"info\" />\n\n<Tabs>\nKept\n</Tabs>\n\n```js\nimport x from 'y'\n<Foo />\n```\n\n~~~\nexport y\n~~~\nimport{z} from 'z'\nimport {\n  w,\n} from 'w'\nexport const m = {\n  a: 1,\n}\nimport './side.css'\nexport const deep = {\n  nested: {\n    a: 1,\n  },\n}\nend\n";
+    fn mdx_blocks_and_self_closing_components_are_removed() {
+        let text = "import { A,\n  B } from './x'\nimport C from 'c'\nexport const meta = {}\n\n# Title\n\n<Callout type=\"info\" />\n\n<Tabs>\nKept\n</Tabs>\n\n```js\nimport x from 'y'\n<Foo />\n```\n\n~~~\nexport y\n~~~\nimport{z} from 'z'\n\nimport {\n  w,\n} from 'w'\nexport const m = {\n  a: 1,\n}\nimport './side.css'\n\nexport const deep = {\n  nested: {\n    a: 1,\n  },\n}\n\nend\n";
         let doc = parse("page.MDX", text);
         assert_eq!(
             doc.text,
-            "\n# Title\n\n\n<Tabs>\nKept\n</Tabs>\n\n```js\nimport x from 'y'\n<Foo />\n```\n\n~~~\nexport y\n~~~\nend\n"
+            "\n# Title\n\n\n<Tabs>\nKept\n</Tabs>\n\n```js\nimport x from 'y'\n<Foo />\n```\n\n~~~\nexport y\n~~~\nimport{z} from 'z'\n\n\n\nend\n"
         );
     }
 
@@ -569,27 +566,43 @@ mod tests {
     #[test]
     fn a_fence_line_with_text_after_the_marker_does_not_close_it() {
         let text = "```md\n```js title\nimport x from 'y'\n```\n";
-        let doc = parse("page.mdx", text);
-        assert_eq!(doc.text, "```md\n```js title\nimport x from 'y'\n```\n");
+        assert_eq!(parse("page.mdx", text).text, text);
     }
 
     #[test]
     fn prose_that_starts_with_import_or_export_is_kept() {
-        let text = "export your data with the CLI:\n\nimport the file in the dashboard.\n";
-        assert_eq!(parse("page.mdx", text).text, text);
         for text in [
-            "import everything\nThen run it.\n",
+            "export your data with the CLI:\n\nimport the file in the dashboard.\n",
+            "import everything\nThen run it.\n\nMore\n",
             "Then run it.\nimport Everything\n",
             "important: exports are hoisted\n",
+            "exportconst value = 1\n",
+            "import \nfrom 'x'\n",
+            "import ,x\nfrom 'y'\n",
+            "import everything\n\"Quoted\" is prose\nMore\n",
         ] {
             assert_eq!(parse("page.mdx", text).text, text);
         }
     }
 
     #[test]
-    fn a_statement_runs_until_its_braces_balance_across_blank_lines_and_apostrophes() {
-        let text = "export function Demo() {\n  const x = 1\n\n  return <div>{x}</div>\n}\n\nexport const Note = () => { return <p>Don't do it</p> }\nKept\n";
-        assert_eq!(parse("page.mdx", text).text, "\nKept\n");
+    fn a_block_ends_at_a_blank_line_once_its_braces_balance() {
+        let text = "export function Demo() {\n  const x = 1\n\n  return <div>{x}</div>\n}\n\nexport const Note = () => { return <p>Don't do it</p> }\n\nKept\n";
+        assert_eq!(parse("page.mdx", text).text, "\n\nKept\n");
+    }
+
+    #[test]
+    fn a_stray_brace_cannot_carry_a_block_past_a_paragraph() {
+        let text = "export const open = \"{\";\n\n# Install\n\nUse `}` to close it.\n";
+        assert_eq!(parse("page.mdx", text).text, "\n# Install\n\nUse `}` to close it.\n");
+        let text = "export const meta = {\n  sep: \"}\",\n  title: \"x\"\n}\n\nText\n";
+        assert_eq!(parse("page.mdx", text).text, "\nText\n");
+    }
+
+    #[test]
+    fn a_block_runs_to_its_blank_line_whatever_its_lines_hold() {
+        let text = "export default\nfunction Layout({ children }) {\n  return <div>{children}</div>\n}\n\nimport { a } from\n  'x'\n\nText\n";
+        assert_eq!(parse("page.mdx", text).text, "\n\nText\n");
     }
 
     #[test]
@@ -604,50 +617,16 @@ mod tests {
 
     #[test]
     fn export_takes_any_whitespace_and_imports_may_span_lines() {
-        let text = "export\tconst a = 1\nimport Foo,\n  { bar } from 'x'\nimport Baz\n  from \"baz\"\nimport _\n  from 'lodash'\nimport $t\n  from 'i18n'\nimport Qux\nfrom 'qux'\nText\n";
-        assert_eq!(parse("page.mdx", text).text, "Text\n");
-    }
-
-    #[test]
-    fn an_import_that_turns_out_to_be_prose_gives_its_lines_back() {
-        for text in [
-            "import everything\nThen import x from 'y' in code.\n",
-            "import \nfrom 'x'\n",
-            "exportconst value = 1\n",
-            "import ,x\nfrom 'y'\n",
-            "import everything\n\"Quoted\" is prose\nMore\n",
-            "import everything\n  ```js\n  import a from 'b'\n  ```\nText\n",
-        ] {
-            assert_eq!(parse("page.mdx", text).text, text);
-        }
-    }
-
-    #[test]
-    fn a_statement_still_open_at_the_end_keeps_its_lines() {
-        let text = "export const open = \"{\";\n\n# Install\n\nRun it.\n";
-        assert_eq!(parse("page.mdx", text).text, text);
-    }
-
-    #[test]
-    fn a_keyword_at_the_end_of_the_line_starts_a_statement() {
-        assert_eq!(parse("page.mdx", "export default\nexport async\nText\n").text, "Text\n");
-    }
-
-    #[test]
-    fn a_tag_ends_only_outside_its_expressions_and_tabs_indent_code() {
-        let text = "<Button onClick={() => alert('hi')} />\n<Chart data={a > b} label={`>`} />\n\t<Br />\n<Br data={x} /> text <Br />\nText\n";
-        assert_eq!(
-            parse("page.mdx", text).text,
-            "\t<Br />\n<Br data={x} /> text <Br />\nText\n"
-        );
+        let text = "export\tconst a = 1\n\nimport Foo,\n  { bar } from 'x'\nimport Baz\n  from \"baz\"\n\nimport _\n  from 'lodash'\n\nimport $t\n  from 'i18n'\n\nimport Qux\nfrom 'qux'\n\nimport \"./polyfill\"\n\nText\n";
+        assert_eq!(parse("page.mdx", text).text, "\n\n\n\n\n\nText\n");
     }
 
     #[test]
     fn a_component_line_is_removed_only_when_it_carries_no_text() {
-        let text = "<Note>Requires v2</Note> <Br />\n<Br /> <Br />\n<Code snippet=\"</div>\" />\n    <Br />\n";
+        let text = "<Note>Requires v2</Note> <Br />\n<Br /> <Br />\n<Code snippet=\"</div>\" />\n    <Br />\n\t<Br />\n<Button onClick={() => alert('hi')} />\n<Chart data={a > b} label={`>`} />\n<Br data={x} /> text <Br />\n<Badge value={/* don't */ 1} /> Requires v2 <Br />\n<Foo a={x /> Important note <Br />\nText\n";
         assert_eq!(
             parse("page.mdx", text).text,
-            "<Note>Requires v2</Note> <Br />\n    <Br />\n"
+            "<Note>Requires v2</Note> <Br />\n<Br data={x} /> text <Br />\n<Badge value={/* don't */ 1} /> Requires v2 <Br />\n<Foo a={x /> Important note <Br />\nText\n"
         );
     }
 
