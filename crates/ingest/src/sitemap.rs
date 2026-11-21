@@ -174,6 +174,18 @@ mod tests {
     }
 
     #[test]
+    fn a_loc_after_a_sibling_counts_and_one_after_its_url_closed_does_not() {
+        let urlset = r#"<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+          <url><lastmod>2026-01-01</lastmod><loc>https://docs.example/after-lastmod</loc></url>
+          <url><loc>https://docs.example/b</loc></url><group><loc>https://docs.example/outside</loc></group>
+        </urlset>"#;
+        assert_eq!(
+            parse_sitemap(urlset.as_bytes(), 10_000).unwrap().pages,
+            ["https://docs.example/after-lastmod", "https://docs.example/b"]
+        );
+    }
+
+    #[test]
     fn an_index_lists_sitemaps() {
         let index = r#"<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
             <sitemap><loc>https://docs.example/s1.xml</loc></sitemap>

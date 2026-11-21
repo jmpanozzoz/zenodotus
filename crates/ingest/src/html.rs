@@ -177,6 +177,22 @@ shutting down. See <a href="../select/#cancel">select</a> and <a href="mailto:x@
     }
 
     #[test]
+    fn a_page_without_a_content_root_keeps_its_code_block_languages() {
+        let html = r#"<html><head><title>Install</title></head><body><div id="content">
+<p>Install the package with pip, then import it in your application module before the first request.</p>
+<pre><code class="language-python">import fastapi
+app = fastapi.FastAPI()</code></pre>
+</div></body></html>"#;
+        let page = html_to_markdown(html, &url("https://docs.example/install"));
+        assert!(
+            page.markdown
+                .contains("```python\nimport fastapi\napp = fastapi.FastAPI()\n```"),
+            "{}",
+            page.markdown
+        );
+    }
+
+    #[test]
     fn a_documentation_root_is_kept_without_its_navigation() {
         let html = r#"<html><head><title>Hooks</title></head><body>
 <nav class="navbar"><a href="/docs/">Docs</a></nav>
