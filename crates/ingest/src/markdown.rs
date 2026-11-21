@@ -589,6 +589,8 @@ mod tests {
     fn a_block_ends_at_a_blank_line_once_its_braces_balance() {
         let text = "export function Demo() {\n  const x = 1\n\n  return <div>{x}</div>\n}\n\nexport const Note = () => { return <p>Don't do it</p> }\n\nKept\n";
         assert_eq!(parse("page.mdx", text).text, "\n\nKept\n");
+        let text = "export const a = { b: 1 }\n\n  An indented paragraph\n";
+        assert_eq!(parse("page.mdx", text).text, "\n  An indented paragraph\n");
     }
 
     #[test]
