@@ -6,8 +6,9 @@ zenodotus indexes the documentation you choose (GitHub repositories, local folde
 or documentation websites) into a local index, and serves it to coding agents through two MCP tools,
 `resolve_library` and `query_docs`. Retrieval is lexical and code-aware. There is no language model, no embedding and
 no inference anywhere: with the same binary, ranking settings and index, the same question always returns the same
-bytes. Each section comes back with its source reference, as the source's Markdown without front matter and MDX
-import, export and self-closing component lines; HTML pages are reduced to their main content and converted to Markdown.
+bytes. Each section comes back with its source reference, as the source's Markdown without a leading `---` front
+matter block and, in `.mdx` files, without `import`/`export` statements and self-closing component lines; HTML pages
+are reduced to their main content and converted to Markdown.
 
 - **Self-hosted and offline.** One binary and one index directory. After a sync, queries need no network.
 - **Versions are explicit.** Index several versions of a library; a query that names a version never gets another.
