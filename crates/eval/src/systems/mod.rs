@@ -129,21 +129,23 @@ fn shown(command: &Command) -> String {
         .join(" ")
 }
 
-/// The documentation folder of the local copy of `case`.
+/// The documentation folder of the local copy of `case`, as its real path: absolute, without `..` components or
+/// symbolic links. Competitors get it as a `file://` URL and match patterns against it, and Grounded Docs refuses a
+/// path through a symbolic link.
 ///
 /// # Errors
 ///
 /// [`SystemUnavailable`] when the folder does not exist.
 pub fn local_docs(case: &ScopeCase) -> Result<PathBuf, SystemUnavailable> {
     let docs = case.docs();
-    if docs.is_dir() {
-        return Ok(docs);
+    match std::fs::canonicalize(&docs) {
+        Ok(real) if real.is_dir() => Ok(real),
+        _ => Err(SystemUnavailable(format!(
+            "no local copy of {} at {}; fetch the corpus sources first",
+            case.key,
+            docs.display()
+        ))),
     }
-    Err(SystemUnavailable(format!(
-        "no local copy of {} at {}; fetch the corpus sources first",
-        case.key,
-        docs.display()
-    )))
 }
 
 /// The response to one tool call.
@@ -270,6 +272,23 @@ pub(crate) mod tests {
     use tempfile::TempDir;
 
     use super::*;
+
+    #[test]
+    fn a_local_copy_is_its_real_path() {
+        let (root, mut corpus) = crate::corpus::tests::corpus();
+        let real = root.path().join("real");
+        std::fs::create_dir_all(real.join("content")).unwrap();
+        std::os::unix::fs::symlink(&real, root.path().join("link")).unwrap();
+        let tokio = &mut corpus.scopes[0];
+        tokio.checkout = root.path().join("link/../link");
+        assert_eq!(
+            local_docs(tokio).unwrap(),
+            std::fs::canonicalize(real.join("content")).unwrap()
+        );
+        tokio.path = "missing".to_owned();
+        let error = local_docs(tokio).unwrap_err();
+        assert!(error.0.starts_with("no local copy of tokio at "), "{error:?}");
+    }
 
     /// The stand-in program in `fixtures/eval/stub_mcp.py`.
     pub(crate) fn stub_program() -> PathBuf {

@@ -2,7 +2,7 @@
 //! a commit, and `eval/context7.toml`, the Context7 library id of each version.
 
 use std::collections::BTreeMap;
-use std::path::{Component, Path, PathBuf};
+use std::path::{Path, PathBuf};
 
 use serde::Deserialize;
 use zenodotus_core::config::{Config, IndexSettings};
@@ -27,7 +27,7 @@ pub struct ScopeCase {
     pub scope: Scope,
     /// `library` when the library has one version, else `library@version`; the key of `context7.toml`.
     pub key: String,
-    /// The local copy of the source at its pinned commit: `<sources>/<key with @ replaced by ->`, absolute.
+    /// The local copy of the source at its pinned commit: `<sources>/<key with @ replaced by ->`.
     pub checkout: PathBuf,
     /// The documentation folder inside the checkout.
     pub path: String,
@@ -63,25 +63,6 @@ struct Context7File {
     libraries: BTreeMap<String, String>,
 }
 
-/// `path` as competitors get it: its real path when it exists, so that it holds no symbolic link, which Grounded Docs
-/// refuses; otherwise absolute against the current directory with its `..` components resolved lexically, since
-/// competitors match patterns against `file://` URLs, where a literal `..` would not stand for its parent.
-fn resolved(path: &Path) -> Result<PathBuf, EvalError> {
-    if let Ok(real) = std::fs::canonicalize(path) {
-        return Ok(real);
-    }
-    let absolute = std::path::absolute(path).map_err(EvalError::io(path))?;
-    let mut normal = PathBuf::new();
-    for component in absolute.components() {
-        if component == Component::ParentDir {
-            normal.pop();
-        } else {
-            normal.push(component);
-        }
-    }
-    Ok(normal)
-}
-
 impl Corpus {
     /// Loads the corpus under the repository `root`. The local copies of the sources live under `sources`.
     ///
@@ -90,7 +71,6 @@ impl Corpus {
     /// A config error, [`EvalError::Io`] or [`EvalError::Parse`] for `context7.toml`, and
     /// [`EvalError::UnsupportedSource`] for a version that is not a GitHub source with one path.
     pub fn load(root: &Path, sources: &Path) -> Result<Self, EvalError> {
-        let sources = resolved(sources)?;
         let config_path = root.join("eval").join("corpus.toml");
         let config = Config::load(&config_path)?;
         let data_dir = config.settings.data_dir(&config_path, &|_| None)?;
@@ -303,24 +283,5 @@ source = { kind = "github", repo = "pydantic/pydantic", reference = "ghi", paths
         let corpus = Corpus::load(&root, &root.join("../zenodotus-eval-sources")).unwrap();
         assert!(corpus.scopes.len() >= 6);
         assert!(corpus.scopes.iter().all(|case| case.context7.is_some()));
-    }
-
-    #[test]
-    fn sources_become_real_or_absolute_paths_without_parent_components() {
-        let root = Path::new(env!("CARGO_MANIFEST_DIR")).join("../..");
-        let corpus = Corpus::load(&root, Path::new("copies/../sources")).unwrap();
-        let expected = std::env::current_dir().unwrap().join("sources/fastapi");
-        assert_eq!(corpus.scopes[0].checkout, expected);
-        assert_eq!(
-            resolved(Path::new("/nonexistent/b/../../../c")).unwrap(),
-            Path::new("/c")
-        );
-        let error = Corpus::load(&root, Path::new("")).unwrap_err();
-        assert!(matches!(error, EvalError::Io { .. }), "{error}");
-        let dir = tempfile::tempdir().unwrap();
-        std::fs::create_dir(dir.path().join("real")).unwrap();
-        std::os::unix::fs::symlink(dir.path().join("real"), dir.path().join("link")).unwrap();
-        let real = std::fs::canonicalize(dir.path().join("real")).unwrap();
-        assert_eq!(resolved(&dir.path().join("link")).unwrap(), real);
     }
 }

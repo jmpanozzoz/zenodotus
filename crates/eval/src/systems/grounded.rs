@@ -60,12 +60,8 @@ impl Grounded {
         let _ = std::fs::remove_dir_all(&store);
         for case in &corpus.scopes {
             let docs = super::local_docs(case)?;
-            // `--sources` is absolute (see `Corpus::load`); the URL percent-encodes the path.
-            let url = Url::from_file_path(&docs)
-                .map_err(|()| {
-                    SystemUnavailable(format!("cannot index {}: {} is not absolute", case.key, docs.display()))
-                })?
-                .to_string();
+            // The URL percent-encodes the path.
+            let url = Url::from_file_path(&docs).expect("a real path is absolute").to_string();
             let mut args = vec![
                 "scrape".to_owned(),
                 case.library.clone(),
@@ -103,11 +99,11 @@ impl Grounded {
                 }
                 None => {
                     return Err(SystemUnavailable(format!(
-                        "cannot index {}: Grounded Docs did not print how many pages it indexed from {}; it printed: \
-                         {}",
+                        "cannot index {}: Grounded Docs did not print how many pages it indexed from {}; its output \
+                         ended with {:?}",
                         case.key,
                         docs.display(),
-                        stdout.trim()
+                        stdout.trim().lines().next_back().unwrap_or_default()
                     )));
                 }
             }
@@ -147,8 +143,6 @@ impl RetrievalSystem for Grounded {
 
 #[cfg(test)]
 mod tests {
-    use std::path::PathBuf;
-
     use serde_json::Value;
 
     use super::*;
@@ -185,7 +179,7 @@ mod tests {
         let calls = calls(&dir);
         let store = work.join("grounded");
         let store = store.to_str().unwrap();
-        let tokio = corpus.scopes[0].docs();
+        let tokio = std::fs::canonicalize(corpus.scopes[0].docs()).unwrap();
         assert_eq!(
             calls[0]["argv"],
             json!([
@@ -286,7 +280,7 @@ mod tests {
             launcher.env.push(("STUB_SCRAPED_PAGES".to_owned(), pages.to_owned()));
             errors.push(Grounded::start(&launcher, &corpus, &work).await.err().unwrap().0);
         }
-        let docs = corpus.scopes[0].docs();
+        let docs = std::fs::canonicalize(corpus.scopes[0].docs()).unwrap();
         for (error, indexed) in errors.iter().zip(["1 page", "0 pages"]) {
             assert_eq!(
                 *error,
@@ -301,17 +295,11 @@ mod tests {
         assert_eq!(
             errors[2],
             format!(
-                "cannot index tokio: Grounded Docs did not print how many pages it indexed from {}; it printed: \
-                 Scraping job started with ID: 1",
+                "cannot index tokio: Grounded Docs did not print how many pages it indexed from {}; its output ended \
+                 with \"Scraping job started with ID: 1\"",
                 docs.display()
             )
         );
-        let mut relative = corpus.clone();
-        relative.scopes[0].checkout = PathBuf::from("src");
-        relative.scopes[0].path = "systems".to_owned();
-        let (_dir, launcher) = stub();
-        let error = Grounded::start(&launcher, &relative, &work).await.err().unwrap();
-        assert_eq!(error.0, "cannot index tokio: src/systems is not absolute");
         assert_eq!(scraped_pages("x\n Successfully scraped 12 pages\n"), Some(12));
         assert_eq!(scraped_pages("Successfully scraped many pages"), None);
         assert_eq!(scraped_pages("Successfully scraped 1 page"), None);

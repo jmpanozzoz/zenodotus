@@ -1142,10 +1142,14 @@ mod tests {
     }
 
     #[test]
+    fn the_limit_doubles_so_a_long_run_of_ties_takes_logarithmically_many_searches() {
+        assert_eq!(next_limit(11), 22);
+    }
+
+    #[test]
     fn the_first_search_fetches_one_hit_past_the_cut_so_distinct_scores_settle_at_once() {
         assert_eq!(first_limit(1), 2);
         assert_eq!(first_limit(10), 11);
-        assert_eq!(next_limit(11), 22);
         assert!(holds_all_ties(&[3.0, 2.0, 1.0], 2, first_limit(2)));
         assert!(!holds_all_ties(&[3.0, 2.0, 2.0], 2, first_limit(2)));
     }

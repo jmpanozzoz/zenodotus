@@ -5,7 +5,8 @@ FROM rust:1.100-slim-bookworm AS build
 WORKDIR /src
 COPY . .
 # The channel rust-toolchain.toml pins, named through RUSTUP_TOOLCHAIN so that rustup skips that file's rustfmt, clippy
-# and llvm-tools components, which building does not need and it would otherwise download.
+# and llvm-tools components, which building does not need and it would otherwise download. Keep the FROM tag on the
+# same version: a mismatch still builds with the pinned compiler, after downloading it.
 RUN toolchain="$(sed -n 's/^channel = "\(.*\)"$/\1/p' rust-toolchain.toml)" \
     && { test -n "$toolchain" || { echo 'no `channel = "..."` line in rust-toolchain.toml' >&2; exit 1; }; } \
     && RUSTUP_TOOLCHAIN="$toolchain" cargo build --release --locked --bin zenodotus
