@@ -5,6 +5,7 @@
 
 pub mod config;
 pub mod config_edit;
+pub mod ecosystem;
 pub mod error;
 pub mod fences;
 pub mod ident;
@@ -12,5 +13,6 @@ pub mod ids;
 pub mod model;
 pub mod time;
 
+pub use ecosystem::Ecosystem;
 pub use error::CoreError;
 pub use ids::{ChunkId, DocKey, LibraryId, Scope, Version};
