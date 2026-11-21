@@ -8,7 +8,7 @@ request produce a byte-identical response.
 
 ```text
 crates/
-  core     zenodotus-core     ids, settings, library config, domain types, clock; config load and edit
+  core     zenodotus-core     ids, settings, library config, domain types, clock; config load and edit; the code-fence rule
   ingest   zenodotus-ingest   sources, secure fetching, Markdown and HTML parsing, sectioning, change detection
   search   zenodotus-search   the Tantivy store: schema, analyzers, apply, query, resolve
   mcp      zenodotus-mcp      the rmcp server: tools, rendering, stdio and Streamable HTTP transports

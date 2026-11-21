@@ -50,12 +50,13 @@ and versions follow [Semantic Versioning](https://semver.org/).
   (a start page one segment deep is under Changed); a prefix that ends in `/` also covers its bare path (`/docs/`
   covers `/docs`), to which servers often redirect it. Stored pages outside the new scope are deleted on the next sync.
 - A scored term of a field that the metadata documents share no longer aborts the search.
-- MDX stripping no longer removes content it should keep: a code fence closes only on a fence of the same character
-  at least as long, with nothing after it, so a four-backtick example holding a three-backtick block stays whole;
-  lines such as "export your data" are prose, not statements; braces inside string literals no longer extend a
-  statement, and a blank line always ends one; a line that also closes a tag, such as `<Note>text</Note> <Br />`,
-  is kept. A front matter block after a byte order mark is read. Pages that hit these cases change on the next
-  `sync --rebuild`.
+- MDX stripping no longer removes content it should keep. It now finds code fences with the same `CommonMark` rule
+  the search uses: a fence opens on a line indented by at most three spaces, and closes only on a fence of the same
+  character at least as long with nothing after it, so a four-backtick example holding a three-backtick block stays
+  whole. Statements start at the beginning of a line: "export your data" or "import the file" is prose, not a
+  statement, and an `import` whose module never follows is kept. A line that holds text outside its tags, such as
+  `<Note>text</Note> <Br />`, is kept. Imports that span lines and `export` followed by a tab are removed. A front
+  matter block after a byte order mark is read. Pages that hit these cases change on the next `sync --rebuild`.
 - `zenodotus-eval` keeps the corpus sources in `zenodotus-eval-sources` next to the repository root by default, not
   under `target/`, whose paths Grounded Docs skips: it used to index one empty page and score 0 on every question.
   `compare` now reports Grounded Docs as not run when it indexes one page or fewer, or does not print a page count,

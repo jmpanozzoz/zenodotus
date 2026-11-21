@@ -14,11 +14,11 @@ use zenodotus_core::model::{Section, VersionState};
 
 use crate::analyzer::{code_ident, code_words, query_symbols};
 use crate::error::SearchError;
-use crate::fences::split_code;
 use crate::render_model::{Notice, NoticeKind, QueryDocsResult, ResultItem, Signal, SyncStatus, VersionResolution};
 use crate::resolve::resolve_version;
 use crate::schema::{Fields, KIND_SECTION};
 use crate::store::Store;
+use zenodotus_core::fences::split_code;
 
 /// Queries longer than this many characters are refused.
 pub const MAX_QUERY_CHARS: usize = 1000;

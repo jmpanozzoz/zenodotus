@@ -1,4 +1,5 @@
-//! Splits section Markdown into prose and fenced code, so each can carry its own weight and signal.
+//! `CommonMark` code fences: splitting section Markdown into prose and fenced code, so each can carry its own weight
+//! and signal, and the fence rule itself for line-by-line scanners.
 
 /// The prose and the fenced code of a section, each in document order. Fence lines themselves are in neither.
 #[derive(Debug, Default, PartialEq, Eq)]
@@ -10,10 +11,24 @@ pub struct Split {
 }
 
 /// An open fence: its character and length.
-#[derive(Clone, Copy)]
-struct Fence {
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub struct Fence {
     marker: char,
     len: usize,
+}
+
+impl Fence {
+    /// The fence `line` opens, if any: three or more backticks or tildes, indented by at most three spaces.
+    #[must_use]
+    pub fn opened_by(line: &str) -> Option<Self> {
+        fence_of(line)
+    }
+
+    /// Whether `line` closes this fence: the same character, at least as long, and nothing after it.
+    #[must_use]
+    pub fn is_closed_by(self, line: &str) -> bool {
+        fence_of(line).is_some_and(|fence| closes(self, fence, line))
+    }
 }
 
 /// Splits `text` at `CommonMark` code fences: three or more backticks or tildes, indented by at most three spaces. A

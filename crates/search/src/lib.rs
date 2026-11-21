@@ -4,7 +4,6 @@
 
 pub mod analyzer;
 pub mod error;
-pub mod fences;
 pub mod query;
 pub mod render_model;
 pub mod resolve;

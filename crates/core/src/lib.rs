@@ -6,6 +6,7 @@
 pub mod config;
 pub mod config_edit;
 pub mod error;
+pub mod fences;
 pub mod ident;
 pub mod ids;
 pub mod model;

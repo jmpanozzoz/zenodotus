@@ -8,7 +8,7 @@ use zenodotus_core::ids::{DocKey, Scope};
 use zenodotus_core::model::{DocState, Section, VersionState};
 
 use crate::analyzer::{CODE_IDENT, CODE_WORDS};
-use crate::fences::split_code;
+use zenodotus_core::fences::split_code;
 
 /// Version of the schema and of the way documents are built. Stored in every commit payload; a different value at
 /// open time means the index must be rebuilt.
