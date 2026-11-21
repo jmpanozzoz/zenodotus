@@ -68,6 +68,16 @@ fn closes(current: Fence, fence: Fence, line: &str) -> bool {
 mod tests {
     use super::*;
 
+    #[test]
+    fn a_fence_opens_and_closes_by_the_commonmark_rule() {
+        let fence = Fence::opened_by("   ````md\n").unwrap();
+        assert_eq!(Fence::opened_by("    ```\n"), None);
+        assert!(!fence.is_closed_by("```\n"));
+        assert!(!fence.is_closed_by("````js\n"));
+        assert!(!fence.is_closed_by("text\n"));
+        assert!(fence.is_closed_by("`````  \n"));
+    }
+
     fn split(text: &str) -> (String, String) {
         let Split { prose, code } = split_code(text);
         (prose, code)

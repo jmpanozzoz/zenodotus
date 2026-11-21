@@ -593,14 +593,28 @@ mod tests {
 
     #[test]
     fn export_takes_any_whitespace_and_imports_may_span_lines() {
-        let text = "export\tconst a = 1\nimport Foo,\n  { bar } from 'x'\nimport Baz\n  from \"baz\"\nText\n";
+        let text = "export\tconst a = 1\nimport Foo,\n  { bar } from 'x'\nimport Baz\n  from \"baz\"\nimport _\n  from 'lodash'\nimport $t\n  from 'i18n'\nText\n";
         assert_eq!(parse("page.mdx", text).text, "Text\n");
     }
 
     #[test]
+    fn an_import_that_turns_out_to_be_prose_gives_its_lines_back() {
+        for text in [
+            "import everything\nThen import x from 'y' in code.\n",
+            "import \nfrom 'x'\n",
+            "exportconst value = 1\n",
+        ] {
+            assert_eq!(parse("page.mdx", text).text, text);
+        }
+    }
+
+    #[test]
     fn a_component_line_is_removed_only_when_it_carries_no_text() {
-        let text = "<Note>Requires v2</Note> <Br />\n<Br />\n<Code snippet=\"</div>\" />\n";
-        assert_eq!(parse("page.mdx", text).text, "<Note>Requires v2</Note> <Br />\n");
+        let text = "<Note>Requires v2</Note> <Br />\n<Br /> <Br />\n<Code snippet=\"</div>\" />\n    <Br />\n";
+        assert_eq!(
+            parse("page.mdx", text).text,
+            "<Note>Requires v2</Note> <Br />\n    <Br />\n"
+        );
     }
 
     #[test]
