@@ -268,38 +268,18 @@ fn cut_score(scores: &[f32], k: usize) -> f32 {
 struct SectionStatistics<'a> {
     searcher: &'a Searcher,
     sections: u64,
-    combined: Field,
-    combined_length_factor: f32,
 }
 
 impl<'a> SectionStatistics<'a> {
-    fn new(store: &Store, searcher: &'a Searcher, combined_length_factor: f32) -> tantivy::Result<Self> {
+    fn new(store: &Store, searcher: &'a Searcher) -> tantivy::Result<Self> {
         let sections = searcher.doc_freq(&Term::from_field_text(store.fields().kind, KIND_SECTION))?;
-        Ok(Self {
-            searcher,
-            sections,
-            combined: store.fields().combined,
-            combined_length_factor,
-        })
+        Ok(Self { searcher, sections })
     }
 }
 
 impl Bm25StatisticsProvider for SectionStatistics<'_> {
-    /// Scaled by `combined_length_factor` for `combined`: Tantivy divides the total by the document count to get the
-    /// average length, so the factor scales the average length the length penalty compares against.
-    #[expect(
-        clippy::cast_possible_truncation,
-        clippy::cast_sign_loss,
-        clippy::cast_precision_loss,
-        reason = "a token total far below 2^53 times a validated positive factor; Tantivy rounds it to f32 anyway"
-    )]
     fn total_num_tokens(&self, field: Field) -> tantivy::Result<u64> {
-        let total = self.searcher.total_num_tokens(field)?;
-        if field == self.combined {
-            Ok((total as f64 * f64::from(self.combined_length_factor)) as u64)
-        } else {
-            Ok(total)
-        }
+        self.searcher.total_num_tokens(field)
     }
 
     fn total_num_docs(&self) -> tantivy::Result<u64> {
@@ -316,21 +296,14 @@ impl Bm25StatisticsProvider for SectionStatistics<'_> {
 }
 
 /// The best `k` sections for `query`, ordered by score, then by chunk id. Ties at the cut are fetched whole first,
-/// so the result does not depend on the order in which the index visits documents. `combined_length_factor` scales
-/// the average length of `combined` in the BM25 statistics.
+/// so the result does not depend on the order in which the index visits documents.
 ///
 /// # Errors
 ///
 /// An index error, or a corrupt payload.
-pub fn top_sections(
-    store: &Store,
-    searcher: &Searcher,
-    query: &dyn Query,
-    k: usize,
-    combined_length_factor: f32,
-) -> Result<Vec<Hit>, SearchError> {
+pub fn top_sections(store: &Store, searcher: &Searcher, query: &dyn Query, k: usize) -> Result<Vec<Hit>, SearchError> {
     let k = k.max(1);
-    let statistics = SectionStatistics::new(store, searcher, combined_length_factor)?;
+    let statistics = SectionStatistics::new(store, searcher)?;
     let mut limit = first_limit(k);
     let found = loop {
         let collector = TopDocs::with_limit(limit).order_by_score();
@@ -536,13 +509,7 @@ pub fn query_docs(
     let states = store.version_states_at(&searcher)?;
     let (state, resolution) = resolve_version(&states, request.library_id, request.version)?;
     let query = build(store.fields(), &analyzed, &state.scope, request.language, ranking);
-    let mut hits = top_sections(
-        store,
-        &searcher,
-        &query,
-        request.max_results,
-        ranking.combined_length_factor,
-    )?;
+    let mut hits = top_sections(store, &searcher, &query, request.max_results)?;
     dedup(&mut hits);
     expand_adjacent(store, &searcher, &mut hits, ranking.adjacent_max_prose_chars)?;
     fit_budget(&mut hits, request.max_chars);
@@ -909,46 +876,8 @@ mod tests {
                 term_query(fields.scope, &lib().to_string(), IndexRecordOption::WithFreqs),
             ),
         ]);
-        let hits = top_sections(&fixture.store, &fixture.store.searcher(), &query, 10, 1.0).unwrap();
+        let hits = top_sections(&fixture.store, &fixture.store.searcher(), &query, 10).unwrap();
         assert_eq!(hits.len(), 1);
-    }
-
-    #[test]
-    fn the_length_factor_scales_only_the_combined_token_total() {
-        let fixture = one_version(&[section(&lib(), "a.md", 0, &["Notes"], "quokka wombat numbat")]);
-        let searcher = fixture.store.searcher();
-        let fields = fixture.store.fields();
-        let plain = SectionStatistics::new(&fixture.store, &searcher, 1.0).unwrap();
-        let scaled = SectionStatistics::new(&fixture.store, &searcher, 4.0).unwrap();
-        let combined = plain.total_num_tokens(fields.combined).unwrap();
-        assert!(combined > 0);
-        assert_eq!(scaled.total_num_tokens(fields.combined).unwrap(), combined * 4);
-        assert_eq!(
-            scaled.total_num_tokens(fields.symbols_exact).unwrap(),
-            plain.total_num_tokens(fields.symbols_exact).unwrap()
-        );
-    }
-
-    #[test]
-    fn the_length_factor_reaches_the_scores() {
-        let fixture = one_version(&[
-            section(&lib(), "short.md", 0, &["Notes"], "quokka"),
-            section(
-                &lib(),
-                "long.md",
-                0,
-                &["Notes"],
-                "quokka wombat numbat dingo echidna platypus",
-            ),
-        ]);
-        let score = |ranking: &RankingSettings| {
-            query_docs(&fixture.store, &request("quokka"), ranking).unwrap().results[1].score
-        };
-        let weak = RankingSettings {
-            combined_length_factor: 4.0,
-            ..RankingSettings::default()
-        };
-        assert!(score(&weak) > score(&RankingSettings::default()));
     }
 
     #[test]
