@@ -1,0 +1,6 @@
+# Hand-written sample: a workspace root with only tooling, and one member.
+[workspace]
+members = ["crates/app"]
+
+[workspace.dependencies]
+anyhow = "1"

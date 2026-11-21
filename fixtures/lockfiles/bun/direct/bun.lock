@@ -1,0 +1,20 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "demo",
+      "devDependencies": { "typescript": "^5.4.5" },
+    },
+    "packages/app": {
+      "name": "app",
+      "dependencies": { "react": "^18.3.1" },
+    },
+  },
+  "packages": {
+    "app": ["app@workspace:packages/app"],
+    "js-tokens": ["js-tokens@4.0.0", "", {}, "sha512-AAAA"],
+    "loose-envify": ["loose-envify@1.4.0", "", { "dependencies": { "js-tokens": "^3.0.0 || ^4.0.0" } }, "sha512-BBBB"],
+    "react": ["react@18.3.1", "", { "dependencies": { "loose-envify": "^1.1.0" } }, "sha512-CCCC"],
+    "typescript": ["typescript@5.4.5", "", {}, "sha512-DDDD"],
+  }
+}

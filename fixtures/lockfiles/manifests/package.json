@@ -1,0 +1,22 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["packages/*", "tools/cli"],
+  "engines": { "node": ">=20.11" },
+  "dependencies": {
+    "react": "^18.2.0",
+    "@acme/ui": "workspace:*",
+    "local-lib": "file:../local-lib",
+    "linked": "link:../linked",
+    "old-name": "npm:new-name@^2.0.0",
+    "scoped-alias": "npm:@scope/real@1.0.0",
+    "widget": "github:acme/widget",
+    "git-dep": "git+https://example.com/a.git",
+    "shorthand": "acme/repo#main",
+    "tarball": "https://example.com/t.tgz"
+  },
+  "devDependencies": { "vitest": "^1.6.0" },
+  "optionalDependencies": { "fsevents": "^2.3.3" },
+  "peerDependencies": { "react-dom": "^18.0.0" }
+}

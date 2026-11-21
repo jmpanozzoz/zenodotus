@@ -1,0 +1,12 @@
+{
+    "name": "acme/demo",
+    "require": {
+        "php": "^8.2",
+        "ext-json": "*",
+        "lib-pcre": "*",
+        "composer-plugin-api": "^2.0",
+        "laravel/framework": "^11.0",
+        "monolog/monolog": "^3.6"
+    },
+    "require-dev": { "phpunit/phpunit": "^11.2" }
+}

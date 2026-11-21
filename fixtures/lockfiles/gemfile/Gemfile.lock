@@ -1,0 +1,46 @@
+GIT
+  remote: https://github.com/acme/widget.git
+  revision: 0123456789abcdef0123456789abcdef01234567
+  branch: main
+  specs:
+    widget (0.4.0)
+      rack (>= 2.0)
+
+GIT
+  remote: https://gitlab.com/acme/glab-lib.git
+  revision: 89abcdef0123456789abcdef0123456789abcdef
+  specs:
+    glab-lib (1.0.0)
+
+PATH
+  remote: .
+  specs:
+    demo (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    nokogiri (1.16.6-x86_64-linux)
+      racc (~> 1.4)
+    racc (1.8.0)
+    rack (3.1.3)
+
+GEM
+  remote: https://gems.acme.dev/
+  specs:
+    acme-internal (2.0.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  acme-internal!
+  nokogiri
+  rack (~> 3.1)
+  widget!
+
+RUBY VERSION
+   ruby 3.3.2p78
+
+BUNDLED WITH
+   2.5.11

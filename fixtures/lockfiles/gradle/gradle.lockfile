@@ -1,0 +1,9 @@
+# This is a hand-written sample of a Gradle dependency lockfile.
+# Manual edits can break the build and are not advised.
+com.google.guava:failureaccess:1.0.2=compileClasspath,runtimeClasspath
+com.google.guava:guava:33.2.1-jre=compileClasspath,runtimeClasspath
+org.junit.jupiter:junit-jupiter-api:5.10.2=testCompileClasspath
+
+not-a-coordinate=runtimeClasspath
+too:many:colons:here:x=runtimeClasspath
+empty=annotationProcessor,testAnnotationProcessor

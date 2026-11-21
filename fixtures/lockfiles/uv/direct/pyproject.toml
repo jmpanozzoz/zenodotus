@@ -1,0 +1,12 @@
+# Hand-written sample: a project whose names differ in case and separators from the lockfile's.
+[project]
+name = "demo"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "Requests>=2.32",
+    "widget @ git+https://github.com/acme/widget@0123456789abcdef0123456789abcdef01234567",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]

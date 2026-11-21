@@ -1,0 +1,39 @@
+{
+    "_readme": ["Hand-written sample of a composer.lock."],
+    "content-hash": "0000",
+    "packages": [
+        {
+            "name": "laravel/framework",
+            "version": "v11.10.0",
+            "source": { "type": "git", "url": "https://github.com/laravel/framework.git", "reference": "aaaa" },
+            "dist": { "type": "zip", "url": "https://api.github.com/repos/laravel/framework/zipball/aaaa" },
+            "type": "library"
+        },
+        {
+            "name": "acme/widget",
+            "version": "dev-main",
+            "source": { "type": "git", "url": "https://github.com/acme/widget.git", "reference": "0123456789abcdef0123456789abcdef01234567" },
+            "type": "library"
+        },
+        {
+            "name": "acme/local",
+            "version": "dev-main",
+            "dist": { "type": "path", "url": "../local", "reference": "bbbb" },
+            "type": "library"
+        },
+        {
+            "name": "acme/dev-no-source",
+            "version": "dev-feature",
+            "type": "library"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "phpunit/phpunit",
+            "version": "11.2.1",
+            "source": { "type": "git", "url": "https://github.com/sebastianbergmann/phpunit.git", "reference": "cccc" },
+            "type": "library"
+        }
+    ],
+    "platform": { "php": "^8.2" }
+}

@@ -1,0 +1,33 @@
+# Hand-written sample of a pubspec.yaml.
+name: demo
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  collection:
+  acme_internal:
+    hosted: https://pub.acme.dev
+    version: ^2.0.0
+  acme_other:
+    hosted:
+      name: acme_other
+      url: https://pub.acme.dev
+    version: ^1.0.0
+  explicit_public:
+    hosted: https://pub.dev
+    version: ^1.0.0
+  hosted_name_only:
+    hosted:
+      name: hosted_name_only
+    version: ^1.0.0
+  plain_table:
+    version: ^3.0.0
+  widget:
+    git:
+      url: https://github.com/acme/widget.git
+  local_lib:
+    path: ../local_lib
+dev_dependencies:
+  test: ^1.25.0

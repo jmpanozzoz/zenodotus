@@ -1,0 +1,60 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+      local-utils:
+        specifier: workspace:*
+        version: link:packages/local-utils
+      styled:
+        specifier: ^6.0.0
+        version: 6.1.0(react@18.2.0)
+      old-name:
+        specifier: npm:renamed@^2.0.0
+        version: renamed@2.0.1
+    devDependencies:
+      typescript:
+        specifier: ^5.4.0
+        version: 5.4.5
+
+  packages/web:
+    dependencies:
+      react:
+        specifier: ^17.0.0
+        version: 17.0.2
+
+packages:
+
+  '@acme/secret@1.0.0':
+    resolution: {integrity: sha512-EEEE, tarball: https://npm.acme.dev/@acme/secret/-/secret-1.0.0.tgz}
+
+  '@babel/core@7.24.0':
+    resolution: {integrity: sha512-FFFF}
+    engines: {node: '>=6.9.0'}
+
+  local-dir@file:vendor/local-dir:
+    resolution: {directory: vendor/local-dir, type: directory}
+
+  react@17.0.2:
+    resolution: {integrity: sha512-AAAA}
+
+  styled@6.1.0:
+    resolution: {integrity: sha512-CCCC}
+    peerDependencies:
+      react: '>=16'
+
+  tarball-dep@https://codeload.github.com/acme/tarball-dep/tar.gz/89abcdef0123456789abcdef0123456789abcdef:
+    resolution: {tarball: https://codeload.github.com/acme/tarball-dep/tar.gz/89abcdef0123456789abcdef0123456789abcdef}
+    version: 0.2.0
+
+  widget@git+https://github.com/acme/widget.git#0123456789abcdef0123456789abcdef01234567:
+    resolution: {commit: 0123456789abcdef0123456789abcdef01234567, repo: https://github.com/acme/widget.git, type: git}
+    version: 0.4.0

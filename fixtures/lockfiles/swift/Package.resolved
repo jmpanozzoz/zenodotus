@@ -1,0 +1,36 @@
+{
+  "originHash" : "0000",
+  "pins" : [
+    {
+      "identity" : "swift-nio",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-nio.git",
+      "state" : {
+        "revision" : "0123456789abcdef0123456789abcdef01234567",
+        "version" : "2.65.0"
+      }
+    },
+    {
+      "identity" : "glab-kit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitlab.com/acme/glab-kit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "89abcdef0123456789abcdef0123456789abcdef"
+      }
+    },
+    {
+      "identity" : "local-kit",
+      "kind" : "localSourceControl",
+      "location" : "/Users/dev/local-kit",
+      "state" : { "revision" : "fedcba9876543210fedcba9876543210fedcba98" }
+    },
+    {
+      "identity" : "acme.registry-kit",
+      "kind" : "registry",
+      "location" : "",
+      "state" : { "version" : "1.0.0" }
+    }
+  ],
+  "version" : 3
+}
