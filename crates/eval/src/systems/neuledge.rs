@@ -197,7 +197,7 @@ mod tests {
         let (_dir, mut launcher) = stub();
         let work = root.path().join("work");
         let error = Neuledge::start(&launcher, &corpus, &work).await.err().unwrap();
-        assert!(error.0.starts_with("no local copy of tokio at "), "{error:?}");
+        assert!(error.0.starts_with("no usable local copy of tokio at "), "{error:?}");
         for case in &corpus.scopes {
             std::fs::create_dir_all(case.docs()).unwrap();
         }

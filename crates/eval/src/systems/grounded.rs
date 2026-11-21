@@ -179,7 +179,7 @@ mod tests {
         let calls = calls(&dir);
         let store = work.join("grounded");
         let store = store.to_str().unwrap();
-        let tokio = super::super::local_docs(&corpus.scopes[0]).unwrap();
+        let tokio = std::fs::canonicalize(corpus.scopes[0].docs()).unwrap();
         assert_eq!(
             calls[0]["argv"],
             json!([
@@ -246,7 +246,7 @@ mod tests {
         let (_dir, mut launcher) = stub();
         let work = root.path().join("work");
         let error = Grounded::start(&launcher, &corpus, &work).await.err().unwrap();
-        assert!(error.0.starts_with("no local copy of tokio at "), "{error:?}");
+        assert!(error.0.starts_with("no usable local copy of tokio at "), "{error:?}");
         checkouts(&corpus);
         launcher.env.push(("STUB_PREPARE_EXIT".to_owned(), "1".to_owned()));
         let error = Grounded::start(&launcher, &corpus, &work).await.err().unwrap();
@@ -280,7 +280,7 @@ mod tests {
             launcher.env.push(("STUB_SCRAPED_PAGES".to_owned(), pages.to_owned()));
             errors.push(Grounded::start(&launcher, &corpus, &work).await.err().unwrap().0);
         }
-        let docs = super::super::local_docs(&corpus.scopes[0]).unwrap();
+        let docs = std::fs::canonicalize(corpus.scopes[0].docs()).unwrap();
         for (error, indexed) in errors.iter().zip(["1 page", "0 pages"]) {
             assert_eq!(
                 *error,

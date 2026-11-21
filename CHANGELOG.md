@@ -54,7 +54,8 @@ and versions follow [Semantic Versioning](https://semver.org/).
   under `target/`, whose paths Grounded Docs skips: it used to index one empty page and score 0 on every question.
   `compare` now reports Grounded Docs as not run when it indexes one page or fewer, or does not print a page count,
   naming the folder, and gives it the docs folder's real path (no `..` components or symbolic links, which it
-  refuses) as a percent-encoded `file://` URL. A missing local copy is reported with the reason.
+  refuses) as a percent-encoded `file://` URL. For every competitor, a local copy that is missing, unreadable or not a
+  folder is reported with the reason.
 - The HTTP transport refuses a request whose `Origin` is not in `allowed_origins`, also when the list is empty; before,
   an empty list let every origin through.
 - The error of a redirect to a host the source may not reach names the redirect's target once, and names the

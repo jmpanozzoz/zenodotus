@@ -566,7 +566,7 @@ mod tests {
         assert!(text.contains("| zenodotus | 1 | 0 | 0 | 1.000 ["), "{text}");
         assert!(text.contains("| context7 | 1 | 0 | 0 | 1.000 ["), "{text}");
         assert!(
-            text.contains("| grounded-docs | not run: no local copy of tokio at "),
+            text.contains("| grounded-docs | not run: no usable local copy of tokio at "),
             "{text}"
         );
         assert!(text.contains("Goal 4: "), "{text}");

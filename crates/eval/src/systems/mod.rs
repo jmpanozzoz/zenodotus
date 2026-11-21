@@ -130,12 +130,13 @@ fn shown(command: &Command) -> String {
 }
 
 /// The documentation folder of the local copy of `case`, as its real path: absolute, without `..` components or
-/// symbolic links. Competitors get it as a `file://` URL and match patterns against it, and Grounded Docs refuses a
-/// path through a symbolic link.
+/// symbolic links. Grounded Docs gets it as a `file://` URL, matches its exclusions against it, and refuses a path
+/// through a symbolic link; Neuledge only needs the folder to exist, and is given the checkout as configured.
 ///
 /// # Errors
 ///
-/// [`SystemUnavailable`] when the folder does not exist.
+/// [`SystemUnavailable`] with the reason when the folder cannot be resolved (it is missing or unreadable) or is not a
+/// folder.
 pub fn local_docs(case: &ScopeCase) -> Result<PathBuf, SystemUnavailable> {
     let docs = case.docs();
     let problem = match std::fs::canonicalize(&docs) {
@@ -144,7 +145,7 @@ pub fn local_docs(case: &ScopeCase) -> Result<PathBuf, SystemUnavailable> {
         Err(error) => error.to_string(),
     };
     Err(SystemUnavailable(format!(
-        "no local copy of {} at {} ({problem}); fetch the corpus sources first",
+        "no usable local copy of {} at {}: {problem}; CONTRIBUTING says how to fetch the corpus sources",
         case.key,
         docs.display()
     )))
@@ -288,11 +289,16 @@ pub(crate) mod tests {
             std::fs::canonicalize(real.join("content")).unwrap()
         );
         std::fs::write(real.join("file.md"), "").unwrap();
-        for (path, problem) in [("file.md", "(not a folder)"), ("missing", "(No such file or directory")] {
+        let not_found = std::fs::metadata(real.join("missing")).unwrap_err().to_string();
+        for (path, problem) in [("file.md", "not a folder"), ("missing", not_found.as_str())] {
             tokio.path = path.to_owned();
-            let error = local_docs(tokio).unwrap_err();
-            assert!(error.0.starts_with("no local copy of tokio at "), "{error:?}");
-            assert!(error.0.contains(problem), "{error:?}");
+            assert_eq!(
+                local_docs(tokio).unwrap_err().0,
+                format!(
+                    "no usable local copy of tokio at {}: {problem}; CONTRIBUTING says how to fetch the corpus sources",
+                    tokio.docs().display()
+                )
+            );
         }
     }
 
