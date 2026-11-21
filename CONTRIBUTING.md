@@ -61,9 +61,9 @@ checkpoint and final reports and never chooses a change.
 
 1. Check out every corpus source at its pinned commit. `eval/corpus.toml` lists each repository, commit and docs
    path; each source goes to `<sources>/<library>` (or `<library>-<version>` for a library with several versions).
-   `<sources>` is `--sources`, by default `../zenodotus-eval-sources`, next to the repository: Grounded Docs skips
-   every path under a folder such as `target`, `build` or `test`, so the copies must not live under one. For
-   example:
+   `<sources>` is `--sources`, by default `zenodotus-eval-sources` next to the repository root (`--root`): Grounded
+   Docs skips every path under a folder its default exclusions name, such as `target`, `build`, `test`, `out` or
+   `old`, so the copies must not live under one. For example, from the repository root:
 
    ```bash
    mkdir -p ../zenodotus-eval-sources/tokio

@@ -2,7 +2,7 @@
 //! a commit, and `eval/context7.toml`, the Context7 library id of each version.
 
 use std::collections::BTreeMap;
-use std::path::{Path, PathBuf};
+use std::path::{Component, Path, PathBuf};
 
 use serde::Deserialize;
 use zenodotus_core::config::{Config, IndexSettings};
@@ -63,6 +63,22 @@ struct Context7File {
     libraries: BTreeMap<String, String>,
 }
 
+/// `path` made absolute against the current directory, with its `..` components resolved lexically. Competitors get
+/// the copies as `file://` URLs and match patterns against them, where a literal `..` would not stand for its parent.
+fn absolute_normal(path: &Path) -> PathBuf {
+    // `absolute` fails only on an empty path, which stays empty.
+    let absolute = std::path::absolute(path).unwrap_or_else(|_| path.to_path_buf());
+    let mut normal = PathBuf::new();
+    for component in absolute.components() {
+        if component == Component::ParentDir {
+            normal.pop();
+        } else {
+            normal.push(component);
+        }
+    }
+    normal
+}
+
 impl Corpus {
     /// Loads the corpus under the repository `root`. The local copies of the sources live under `sources`.
     ///
@@ -71,8 +87,7 @@ impl Corpus {
     /// A config error, [`EvalError::Io`] or [`EvalError::Parse`] for `context7.toml`, and
     /// [`EvalError::UnsupportedSource`] for a version that is not a GitHub source with one path.
     pub fn load(root: &Path, sources: &Path) -> Result<Self, EvalError> {
-        // Competitors get the copies as absolute paths and `file://` URLs; `absolute` fails only on an empty path.
-        let sources = std::path::absolute(sources).unwrap_or(sources.to_path_buf());
+        let sources = absolute_normal(sources);
         let config_path = root.join("eval").join("corpus.toml");
         let config = Config::load(&config_path)?;
         let data_dir = config.settings.data_dir(&config_path, &|_| None)?;
@@ -190,7 +205,8 @@ source = { kind = "github", repo = "pydantic/pydantic", reference = "ghi", paths
             CONFIG,
             "[libraries]\ntokio = \"/websites/rs_tokio\"\n\"pydantic@2.12\" = \"/pydantic/pydantic/v2.12.5\"\n",
         );
-        let corpus = Corpus::load(root.path(), &root.path().join("sources")).unwrap();
+        // A space in the path checks that competitors get it percent-encoded in URLs and verbatim elsewhere.
+        let corpus = Corpus::load(root.path(), &root.path().join("eval sources")).unwrap();
         (root, corpus)
     }
 
@@ -204,11 +220,11 @@ source = { kind = "github", repo = "pydantic/pydantic", reference = "ghi", paths
         let tokio = &corpus.scopes[0];
         assert_eq!((tokio.name.as_str(), tokio.version.as_str()), ("Tokio", "latest"));
         assert_eq!(tokio.scope.to_string(), "tokio@latest");
-        assert_eq!(tokio.docs(), root.path().join("sources/tokio/content"));
+        assert_eq!(tokio.docs(), root.path().join("eval sources/tokio/content"));
         assert_eq!(tokio.context7.as_deref(), Some("/websites/rs_tokio"));
         let old = &corpus.scopes[1];
         assert_eq!(old.name, "pydantic");
-        assert_eq!(old.checkout, root.path().join("sources/pydantic-1.10"));
+        assert_eq!(old.checkout, root.path().join("eval sources/pydantic-1.10"));
         assert_eq!(old.context7, None);
     }
 
@@ -281,17 +297,18 @@ source = { kind = "github", repo = "pydantic/pydantic", reference = "ghi", paths
     #[test]
     fn the_committed_corpus_loads() {
         let root = Path::new(env!("CARGO_MANIFEST_DIR")).join("../..");
-        let corpus = Corpus::load(&root, &root.join("target/eval-sources")).unwrap();
+        let corpus = Corpus::load(&root, &root.join("../zenodotus-eval-sources")).unwrap();
         assert!(corpus.scopes.len() >= 6);
         assert!(corpus.scopes.iter().all(|case| case.context7.is_some()));
     }
 
     #[test]
-    fn a_relative_sources_path_becomes_absolute() {
-        // Tests run in the crate directory.
+    fn a_relative_sources_path_becomes_absolute_without_parent_components() {
         let root = Path::new(env!("CARGO_MANIFEST_DIR")).join("../..");
-        let corpus = Corpus::load(&root, Path::new("sources")).unwrap();
+        let corpus = Corpus::load(&root, Path::new("copies/../sources")).unwrap();
         let expected = std::env::current_dir().unwrap().join("sources/fastapi");
         assert_eq!(corpus.scopes[0].checkout, expected);
+        assert_eq!(absolute_normal(Path::new("/a/b/../../../c")), Path::new("/c"));
+        assert_eq!(absolute_normal(Path::new("")), Path::new(""));
     }
 }

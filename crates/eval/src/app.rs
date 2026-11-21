@@ -26,10 +26,10 @@ pub struct Cli {
     /// The repository root, which holds `eval/`.
     #[arg(long, default_value = ".")]
     pub root: PathBuf,
-    /// Where the corpus sources are checked out, one directory per version. Not under `target/`, `build/` or
-    /// `test/`: Grounded Docs skips paths under such folders.
-    #[arg(long, default_value = "../zenodotus-eval-sources")]
-    pub sources: PathBuf,
+    /// Where the corpus sources are checked out, one directory per version; by default `zenodotus-eval-sources` next
+    /// to the repository root. Not under a folder Grounded Docs skips, such as `target/`, `build/` or `test/`.
+    #[arg(long)]
+    pub sources: Option<PathBuf>,
     /// What to do.
     #[command(subcommand)]
     pub command: Command,
@@ -244,16 +244,27 @@ impl Plan {
     }
 }
 
+impl Cli {
+    /// `--sources`, or `zenodotus-eval-sources` next to `--root` when it is not given.
+    #[must_use]
+    pub fn sources(&self) -> PathBuf {
+        self.sources
+            .clone()
+            .unwrap_or_else(|| self.root.join("..").join("zenodotus-eval-sources"))
+    }
+}
+
 /// Runs `cli`, returning the text to print and how it ended.
 pub async fn run(cli: Cli, clock: &dyn Clock) -> (String, Result<(), EvalError>) {
+    let sources = cli.sources();
     let result = match cli.command {
         Command::Validate => {
             let mut text = String::new();
-            let result = check(&cli.root, &cli.sources, &mut text);
+            let result = check(&cli.root, &sources, &mut text);
             return (text, result);
         }
-        Command::Run(args) => execute(&cli.root, &cli.sources, &Plan::new(args, RUN_DEFAULTS), clock).await,
-        Command::Compare(args) => execute(&cli.root, &cli.sources, &Plan::new(args, COMPARE_DEFAULTS), clock).await,
+        Command::Run(args) => execute(&cli.root, &sources, &Plan::new(args, RUN_DEFAULTS), clock).await,
+        Command::Compare(args) => execute(&cli.root, &sources, &Plan::new(args, COMPARE_DEFAULTS), clock).await,
         Command::Perf(args) => perf::measure(&args.plan()).await.map(|report| perf::render(&report)),
         Command::PerfQueries(args) => PerfIndex::open(&args.config, &args.library)
             .and_then(|index| index.workload())
@@ -376,6 +387,18 @@ mod tests {
 
     fn parse(args: &[&str]) -> Cli {
         Cli::try_parse_from(std::iter::once("zenodotus-eval").chain(args.iter().copied())).unwrap()
+    }
+
+    #[test]
+    fn the_sources_default_to_a_folder_next_to_the_root() {
+        assert_eq!(
+            parse(&["--root", "/repo/zenodotus", "validate"]).sources(),
+            Path::new("/repo/zenodotus/../zenodotus-eval-sources")
+        );
+        assert_eq!(
+            parse(&["--root", "/repo", "--sources", "copies", "validate"]).sources(),
+            Path::new("copies")
+        );
     }
 
     /// The options of `run` and `compare` alone.
@@ -580,7 +603,7 @@ mod tests {
             "--root".to_owned(),
             root.path().to_string_lossy().into_owned(),
             "--sources".to_owned(),
-            root.path().join("sources").to_string_lossy().into_owned(),
+            root.path().join("eval sources").to_string_lossy().into_owned(),
         ];
         let tail = |command: &str, system: &str| -> Cli {
             let mut args: Vec<String> = base.to_vec();

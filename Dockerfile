@@ -3,11 +3,12 @@
 # Build stage: the toolchain pinned by rust-toolchain.toml, on Debian bookworm.
 FROM rust:1.100-slim-bookworm AS build
 WORKDIR /src
-# The image's toolchain is the one rust-toolchain.toml pins; naming it here skips that file's rustfmt, clippy and
-# llvm-tools components, which building does not need and rustup would otherwise download.
-ENV RUSTUP_TOOLCHAIN=1.100.0
 COPY . .
-RUN cargo build --release --locked --bin zenodotus
+# The channel rust-toolchain.toml pins, named through RUSTUP_TOOLCHAIN so that rustup skips that file's rustfmt, clippy
+# and llvm-tools components, which building does not need and it would otherwise download.
+RUN toolchain="$(sed -n 's/^channel = "\(.*\)"$/\1/p' rust-toolchain.toml)" \
+    && test -n "$toolchain" \
+    && RUSTUP_TOOLCHAIN="$toolchain" cargo build --release --locked --bin zenodotus
 
 # Runtime stage: glibc and CA certificates only, no shell, running as an unprivileged user.
 FROM gcr.io/distroless/cc-debian12:nonroot
