@@ -189,6 +189,9 @@ fn exceeds_share(doc_freq: u64, sections: u64, share: f32) -> bool {
 /// The required words of `analyzed` that more than `ranking.common_word_share` of the sections contain, counted as
 /// the scorer counts them. [`build`] turns them into optional clauses.
 ///
+/// None is common in a query of stop words only, when `min_should_match` is above 0 (it counts every required word),
+/// for a word with synonyms (its clause matches more than the word), or when every required word would be.
+///
 /// # Errors
 ///
 /// An index error.
@@ -198,20 +201,28 @@ pub fn common_words(
     analyzed: &Analyzed,
     ranking: &RankingSettings,
 ) -> Result<Vec<String>, SearchError> {
+    if !analyzed.has_content_words || ranking.min_should_match > 0.0 {
+        return Ok(Vec::new());
+    }
     let statistics = SectionStatistics::new(store, searcher)?;
     let mut common = Vec::new();
     for word in &analyzed.required {
+        if ranking.synonyms.contains_key(word) {
+            continue;
+        }
         let doc_freq = searcher.doc_freq(&Term::from_field_text(store.fields().combined, word))?;
         if exceeds_share(doc_freq, statistics.sections, ranking.common_word_share) {
             common.push(word.clone());
         }
     }
+    if common.len() == analyzed.required.len() {
+        common.clear();
+    }
     Ok(common)
 }
 
 /// Builds the query for `analyzed` in `scope`, as described in the design's query construction. The required words
-/// in `common` become optional clauses, and `min_should_match` counts the others; with every required word in
-/// `common`, nothing matches.
+/// in `common` become optional clauses, and `min_should_match` counts the others.
 #[must_use]
 pub fn build(
     fields: &Fields,
@@ -554,8 +565,8 @@ pub fn query_docs(
         ranking,
     );
     let mut hits = top_sections(store, &searcher, &query, request.max_results)?;
-    if hits.is_empty() && !common.is_empty() {
-        // No section matches a word that is not common: the common words are required again.
+    if hits.len() < request.max_results.max(1) && !common.is_empty() {
+        // Fewer sections than asked for match a word that is not common: the common words count again.
         let query = build(store.fields(), &analyzed, &[], &state.scope, request.language, ranking);
         hits = top_sections(store, &searcher, &query, request.max_results)?;
     }
@@ -827,44 +838,47 @@ mod tests {
     fn common_words_only_add_to_the_score() {
         let s = lib();
         let fixture = one_version(&[
-            section(&s, "a.md", 0, &["A"], "alpha common usual"),
+            section(&s, "a.md", 0, &["A"], "alpha common"),
             section(&s, "b.md", 0, &["B"], "common bravo"),
             section(&s, "c.md", 0, &["C"], "common charlie"),
-            section(&s, "d.md", 0, &["D"], "other"),
+            section(
+                &s,
+                "e.md",
+                0,
+                &["E"],
+                "alpha lorem ipsum dolor sit amet consectetur adipiscing elit sed eiusmod tempor incididunt",
+            ),
+            section(&s, "f.md", 0, &["F"], "foxtrot"),
+            section(&s, "g.md", 0, &["G"], "golf"),
+            section(&s, "h.md", 0, &["H"], "hotel"),
+            section(&s, "i.md", 0, &["I"], "india"),
         ]);
-        let with_share = |share: f32| {
-            let mut ranking = RankingSettings {
+        let ask = |query: &str, max_results: usize, share: f32| {
+            let request = QueryRequest {
+                max_results,
+                ..request(query)
+            };
+            let ranking = RankingSettings {
                 common_word_share: share,
                 ..RankingSettings::default()
             };
-            ranking.synonyms.insert("common".to_owned(), vec!["usual".to_owned()]);
-            ranking
+            query_docs(&fixture.store, &request, &ranking).unwrap()
         };
-        let demoted = query_docs(&fixture.store, &request("alpha common"), &with_share(0.5)).unwrap();
-        assert_eq!(sources(&demoted), ["local:a.md"], "common is in 3 of 4 sections");
-        let kept = query_docs(&fixture.store, &request("alpha common"), &with_share(1.0)).unwrap();
-        assert_eq!(sources(&kept), ["local:a.md", "local:b.md", "local:c.md"]);
+        // `common` is in 3 of 8 sections (0.375), `alpha` in 2 (0.25).
+        let demoted = ask("alpha common", 2, 0.25);
+        assert_eq!(sources(&demoted), ["local:a.md", "local:e.md"]);
+        let kept = ask("alpha common", 2, 1.0);
+        assert_eq!(sources(&kept), ["local:a.md", "local:b.md"], "b outranks the long e");
+        assert_eq!(demoted.results[0].score, kept.results[0].score);
         assert_eq!(
-            demoted.results[0].score, kept.results[0].score,
-            "the synonym moves with its word"
-        );
-        let at_share = query_docs(&fixture.store, &request("alpha common"), &with_share(0.75)).unwrap();
-        assert_eq!(
-            sources(&at_share),
+            sources(&ask("alpha common", 2, 0.375)),
             sources(&kept),
-            "a word in exactly the share stays required"
+            "a word at the share stays"
         );
-        let alone = query_docs(&fixture.store, &request("common"), &with_share(0.5)).unwrap();
         assert_eq!(
-            sources(&alone),
-            ["local:a.md", "local:b.md", "local:c.md"],
-            "when every word is common, all stay required"
-        );
-        let absent = query_docs(&fixture.store, &request("common zulu"), &with_share(0.5)).unwrap();
-        assert_eq!(
-            sources(&absent),
-            sources(&kept),
-            "when no section has another word, the common ones are required again"
+            sources(&ask("alpha common", 5, 0.25)),
+            sources(&ask("alpha common", 5, 1.0)),
+            "fewer hits than asked for: every word is required again"
         );
     }
 
@@ -872,34 +886,61 @@ mod tests {
     fn common_words_are_counted_against_sections_only() {
         let s = lib();
         let fixture = one_version(&[
-            section(&s, "a.md", 0, &["A"], "alpha common"),
-            section(&s, "b.md", 0, &["B"], "common"),
-            section(&s, "c.md", 0, &["C"], "other"),
+            section(&s, "a.md", 0, &["A"], "alpha common how"),
+            section(&s, "b.md", 0, &["B"], "common how"),
+            section(&s, "c.md", 0, &["C"], "other to"),
             section(&s, "d.md", 0, &["D"], "other"),
         ]);
+        let searcher = fixture.store.searcher();
+        let words = |query: &str, ranking: &RankingSettings| {
+            common_words(&fixture.store, &searcher, &analyze(query).unwrap(), ranking).unwrap()
+        };
         let ranking = RankingSettings {
             common_word_share: 0.4,
             ..RankingSettings::default()
         };
-        let searcher = fixture.store.searcher();
-        let analyzed = analyze("alpha common").unwrap();
         assert_eq!(
-            common_words(&fixture.store, &searcher, &analyzed, &ranking).unwrap(),
+            words("alpha common", &ranking),
             ["common"],
             "2 of 4 sections, though the index also holds a version-state document"
         );
-        let none = RankingSettings {
-            common_word_share: 0.5,
-            ..RankingSettings::default()
-        };
         let no_words: [&str; 0] = [];
+        let at_share = RankingSettings {
+            common_word_share: 0.5,
+            ..ranking.clone()
+        };
+        assert_eq!(words("alpha common", &at_share), no_words);
+        assert_eq!(words("common", &ranking), no_words, "every required word is common");
         assert_eq!(
-            common_words(&fixture.store, &searcher, &analyzed, &none).unwrap(),
-            no_words
+            words("how to", &ranking),
+            no_words,
+            "the stop words of a stop-word query stay required"
+        );
+        let strict = RankingSettings {
+            min_should_match: 0.5,
+            ..ranking.clone()
+        };
+        assert_eq!(
+            words("alpha common", &strict),
+            no_words,
+            "min_should_match counts every word"
+        );
+        let mut synonyms = ranking.clone();
+        synonyms.synonyms.insert("common".to_owned(), vec!["usual".to_owned()]);
+        assert_eq!(
+            words("alpha common", &synonyms),
+            no_words,
+            "a word with synonyms stays required"
         );
         let empty = one_version(&[]);
         assert_eq!(
-            common_words(&empty.store, &empty.store.searcher(), &analyzed, &ranking).unwrap(),
+            common_words(
+                &empty.store,
+                &empty.store.searcher(),
+                &analyze("alpha").unwrap(),
+                &ranking
+            )
+            .unwrap(),
             no_words
         );
     }

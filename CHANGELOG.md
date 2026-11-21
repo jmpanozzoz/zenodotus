@@ -33,9 +33,12 @@ and versions follow [Semantic Versioning](https://semver.org/).
 - Searches no longer filter on the document kind: the required word group already matches only sections
   (improvement-loop iteration 17, identical results, p50 −17% and p95 −20% in `cargo xtask perf`). No rebuild needed.
 - A non-stop query word found in more than a fifth of the sections no longer decides which sections are candidates:
-  it only adds to the score of sections that match another word, and when none does, every word is required again
-  (`[settings.ranking] common_word_share`, default 0.2; 1 restores the old behaviour). Improvement-loop iteration 23:
-  identical dev results, p50 −22% and p95 −30% in `cargo xtask perf`. No rebuild needed.
+  it only adds to the score of sections that match another word (`[settings.ranking] common_word_share`, default
+  0.2; 1 restores the old behaviour). When fewer sections than asked for match, every word counts again, and no word
+  is set aside in a query of stop words only, with `min_should_match` above 0, or when it has synonyms. The share is
+  counted over the whole index, so which sections match also depends on the other libraries indexed.
+  Improvement-loop iteration 23: identical dev results, p50 −22% and p95 −30% in `cargo xtask perf`. No rebuild
+  needed.
 - The default `title_weight` is 3 instead of 4 (improvement-loop iteration 19, MRR@10 +0.01% on the dev set). An
   index built with the old default asks for `sync --rebuild`.
 - A website with no `allow_prefixes` whose start page is one segment deep (`/docs`, `/introduction`) now crawls the

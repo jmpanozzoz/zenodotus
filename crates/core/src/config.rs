@@ -213,8 +213,9 @@ pub struct RankingSettings {
     pub language_boost: f32,
     /// Fraction of non-stop words that must match; 0 means at least one.
     pub min_should_match: f32,
-    /// Largest share of the sections a non-stop word may appear in and still be required. A word in more sections
-    /// only adds to the score, unless every non-stop word does; 1 disables it.
+    /// Largest share of the sections a non-stop word may appear in and still decide which sections are candidates. A
+    /// word in more sections only adds to the score, unless every non-stop word is in more, the word has synonyms,
+    /// `min_should_match` is above 0, or fewer sections than asked for match; 1 disables it.
     pub common_word_share: f32,
     /// Most prose characters between a section and the code block that continues it; 0 disables the expansion.
     pub adjacent_max_prose_chars: u64,
