@@ -11,8 +11,10 @@ pub mod fences;
 pub mod ident;
 pub mod ids;
 pub mod model;
+pub mod runtime;
 pub mod time;
 
 pub use ecosystem::Ecosystem;
 pub use error::CoreError;
-pub use ids::{ChunkId, DocKey, LibraryId, Scope, Version};
+pub use ids::{CanonicalId, ChunkId, DocKey, LibraryId, LibraryRef, Scope, Version};
+pub use runtime::Runtime;

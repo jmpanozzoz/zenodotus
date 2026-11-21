@@ -13,6 +13,14 @@ pub enum CoreError {
         /// Which rule it breaks.
         reason: &'static str,
     },
+    /// A canonical ID breaks the grammar of design §6.2.
+    #[error("invalid canonical id {value:?}: {reason}")]
+    InvalidCanonicalId {
+        /// The rejected value.
+        value: String,
+        /// Which rule it breaks.
+        reason: &'static str,
+    },
     /// A version string breaks the version rules.
     #[error("invalid version {value:?}: {reason}")]
     InvalidVersion {
