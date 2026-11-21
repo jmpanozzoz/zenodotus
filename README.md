@@ -5,8 +5,8 @@ Deterministic documentation retrieval for AI agents, over MCP.
 zenodotus indexes the documentation you choose (GitHub repositories, local folders, Markdown URLs, `llms.txt` files
 or documentation websites) into a local index, and serves it to coding agents through two MCP tools,
 `resolve_library` and `query_docs`. Retrieval is lexical and code-aware. There is no language model, no embedding and
-no inference anywhere: the same index and the same question always return the same bytes, verbatim from the source,
-with a link back to it.
+no inference anywhere: with the same binary, ranking settings and index, the same question always returns the same
+bytes, verbatim from the source, with a link back to it.
 
 - **Self-hosted and offline.** One binary and one index directory. After a sync, queries need no network.
 - **Versions are explicit.** Index several versions of a library; a query that names a version never gets another.
@@ -16,7 +16,8 @@ with a link back to it.
 
 ## Install
 
-From source, with Rust 1.89 or later:
+From source, with rustup, which downloads the toolchain `rust-toolchain.toml` pins (Rust 1.100) when you build in
+the repository; the crates themselves need Rust 1.89 or later:
 
 ```bash
 cargo install --locked --path crates/cli
@@ -48,7 +49,8 @@ zenodotus status
 | `init` | Write a commented config and create the data directory |
 | `add <id> --version V (--path \| --github \| --url \| --llms-txt \| --website) …` | Add a library or a version, keeping the file's comments |
 | `list` | Configured libraries and versions, with their indexed status |
-| `sync [<id>] [--version V] [--rebuild]` | Index every configured version; without `<id>`, also drop versions no longer configured |
+| `sync [<id> [--version V]]` | Index every configured version, one library or one version; without `<id>`, also drop versions no longer configured |
+| `sync --rebuild` | Rebuild the whole index from scratch; it takes no `<id>` or `--version` |
 | `search <id> <query…>` | Query from the terminal, as `query_docs` does |
 | `serve [--http [ADDR]]` | Serve MCP over stdio, or Streamable HTTP |
 | `status` | Sync status of every version and the index size |
@@ -80,13 +82,20 @@ Cursor (`.cursor/mcp.json`):
 
 For a shared server, run `zenodotus serve --http` (loopback, `127.0.0.1:8080` by default) and point clients at
 `http://127.0.0.1:8080/mcp`. Binding any other address requires `ZENODOTUS_HTTP_TOKEN`, sent by clients as a bearer
-token. In the container:
+token. Only loopback `Host` headers (`localhost`, `127.0.0.1`, `::1`) are accepted by default: clients that reach the
+server by another name or address need it in `allowed_hosts` under `[settings.http]`, and a request that sends an
+`Origin` needs it in `allowed_origins`.
+
+The container keeps its config and index in `/data` and runs as an unprivileged user (65532), which cannot write
+to a host folder you own; run it as yourself instead. Put a `zenodotus.toml` with `data_dir = "/data"` in the
+folder, index, then serve:
 
 ```bash
-docker run -v "$PWD/data:/data" -e ZENODOTUS_HTTP_TOKEN=change-me -p 8080:8080 zenodotus serve --http 0.0.0.0:8080
+mkdir data && cp zenodotus.toml data/
+docker run --rm --user "$(id -u):$(id -g)" -v "$PWD/data:/data" zenodotus sync
+docker run --user "$(id -u):$(id -g)" -v "$PWD/data:/data" -e ZENODOTUS_HTTP_TOKEN=change-me -p 8080:8080 \
+  zenodotus serve --http 0.0.0.0:8080
 ```
-
-with `/data/zenodotus.toml` setting `data_dir = "/data"`.
 
 ## Tools
 
@@ -118,7 +127,8 @@ these questions (0.877 against 0.785), but 65 questions cannot rule out a small 
 full response size (0.923), with responses more than twice as long; cut to Context7's median response size (about
 1,105 tokens), Recall@5 is 0.862 for zenodotus, 0.769 for Context7 and 0.723 for Grounded Docs.
 
-Scores depend on the questions, written for this project, and on everything else in the index. The harness, the
+Scores depend on the questions, written for this project, and on everything else in the index. Questions we wrote
+may favour lexical retrieval: each is judged by the API names and code its answer must contain. The harness, the
 questions and the raw results format are in this repository, so you can rerun it; see
 [CONTRIBUTING.md](CONTRIBUTING.md).
 
