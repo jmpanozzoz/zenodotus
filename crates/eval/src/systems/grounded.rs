@@ -4,6 +4,7 @@
 use std::path::Path;
 
 use serde_json::json;
+use url::Url;
 
 use super::{Launcher, McpClient, QueryFailure, Ranked, RetrievalSystem, SystemUnavailable, object, run};
 use crate::corpus::{Corpus, ScopeCase};
@@ -24,34 +25,15 @@ pub fn split_results(text: &str) -> Vec<String> {
         .collect()
 }
 
-/// Folder names that Grounded Docs excludes by default wherever they appear in a path (its
-/// `DEFAULT_FOLDER_EXCLUSIONS`), so a local copy under one of them is indexed as one empty page and every search finds
-/// nothing. `target` is the one the default `--sources` lies under.
-pub const EXCLUDED_FOLDERS: [&str; 17] = [
-    "archive",
-    "archived",
-    "deprecated",
-    "legacy",
-    "old",
-    "outdated",
-    "previous",
-    "superseded",
-    "test",
-    "tests",
-    "__tests__",
-    "spec",
-    "dist",
-    "build",
-    "out",
-    "target",
-    ".next",
-];
-
-/// The first folder of `docs` that Grounded Docs would exclude, if any.
-fn excluded_folder(docs: &Path) -> Option<String> {
-    docs.components()
-        .map(|component| component.as_os_str().to_string_lossy().into_owned())
-        .find(|name| EXCLUDED_FOLDERS.contains(&name.as_str()))
+/// The page count of Grounded Docs' `Successfully scraped N pages` line, if `stdout` has one.
+fn scraped_pages(stdout: &str) -> Option<u64> {
+    stdout.lines().find_map(|line| {
+        let rest = line.trim().strip_prefix("Successfully scraped ")?;
+        rest.strip_suffix(" pages")
+            .or_else(|| rest.strip_suffix(" page"))?
+            .parse()
+            .ok()
+    })
 }
 
 /// A Grounded Docs server on its own store.
@@ -81,15 +63,12 @@ impl Grounded {
         let _ = std::fs::remove_dir_all(&store);
         for case in &corpus.scopes {
             let docs = super::local_docs(case)?;
-            if let Some(name) = excluded_folder(&docs) {
-                return Err(SystemUnavailable(format!(
-                    "cannot index {}: Grounded Docs skips every path under a `{name}` folder, and {} is under one; \
-                     check the sources out elsewhere and pass `--sources`",
-                    case.key,
-                    docs.display()
-                )));
-            }
-            let url = format!("file://{}", docs.display());
+            // `--sources` is absolute (see `Corpus::load`); the URL percent-encodes the path.
+            let url = Url::from_file_path(&docs)
+                .map_err(|()| {
+                    SystemUnavailable(format!("cannot index {}: {} is not absolute", case.key, docs.display()))
+                })?
+                .to_string();
             let mut args = vec![
                 "scrape".to_owned(),
                 case.library.clone(),
@@ -107,9 +86,23 @@ impl Grounded {
             command
                 .env("DOCS_MCP_TELEMETRY", "false")
                 .env("DOCS_MCP_SCRAPER_SECURITY_FILE_ACCESS_ALLOWED_ROOTS", &docs);
-            run(command)
+            let stdout = run(command)
                 .await
                 .map_err(|error| SystemUnavailable(format!("cannot index {}: {error}", case.key)))?;
+            // Grounded Docs skips files under folders such as `target`, `build` or `test` anywhere in their path, and
+            // then indexes the folder as one empty page; that would score as an empty index.
+            match scraped_pages(&stdout) {
+                Some(pages) if pages > 1 => {}
+                pages => {
+                    return Err(SystemUnavailable(format!(
+                        "cannot index {}: Grounded Docs indexed {} pages from {}; it skips paths under folders such \
+                         as `target`, `build` or `test`, so check the sources out elsewhere",
+                        case.key,
+                        pages.map_or_else(|| "an unknown number of".to_owned(), |pages| pages.to_string()),
+                        docs.display()
+                    )));
+                }
+            }
         }
         let mut args = vec!["mcp", "--protocol", "stdio", "--read-only"]
             .into_iter()
@@ -146,6 +139,8 @@ impl RetrievalSystem for Grounded {
 
 #[cfg(test)]
 mod tests {
+    use std::path::PathBuf;
+
     use serde_json::Value;
 
     use super::*;
@@ -254,31 +249,48 @@ mod tests {
         let error = Grounded::start(&launcher, &corpus, &work).await.err().unwrap();
         assert!(error.0.starts_with("cannot index tokio: "), "{error:?}");
         assert!(error.0.ends_with(": stub prepare failed"), "{error:?}");
-        let error = Grounded::start(&Launcher::new("/bin/true"), &corpus, &work)
-            .await
-            .err()
-            .unwrap();
-        assert!(error.0.starts_with("/bin/true mcp --protocol stdio"), "{error:?}");
-    }
-
-    #[tokio::test]
-    async fn a_local_copy_under_a_folder_grounded_docs_excludes_makes_it_unavailable() {
-        let (root, mut corpus) = corpus();
-        let checkout = root.path().join("target/eval-sources/tokio");
-        corpus.scopes[0].checkout.clone_from(&checkout);
-        checkouts(&corpus);
-        let (_dir, launcher) = stub();
-        let error = Grounded::start(&launcher, &corpus, &root.path().join("work"))
-            .await
-            .err()
-            .unwrap();
+        // A program that indexes every scope, then exits at once instead of serving. `sh` reads the script, so it is
+        // never executed while another test thread may still hold it open for writing.
+        let script = root.path().join("indexes-then-exits.sh");
+        std::fs::write(&script, "echo 'Successfully scraped 2 pages'\n").unwrap();
+        let launcher = Launcher {
+            prefix: vec![script.to_string_lossy().into_owned()],
+            ..Launcher::new("/bin/sh")
+        };
+        let error = Grounded::start(&launcher, &corpus, &work).await.err().unwrap();
         assert!(
             error
                 .0
-                .starts_with("cannot index tokio: Grounded Docs skips every path under a `target` folder"),
+                .starts_with(&format!("/bin/sh {} mcp --protocol stdio", script.display())),
             "{error:?}"
         );
-        assert_eq!(excluded_folder(Path::new("/home/u/sources/tokio/content")), None);
-        assert_eq!(excluded_folder(Path::new("/srv/build/x")).as_deref(), Some("build"));
+    }
+
+    #[tokio::test]
+    async fn an_index_of_one_page_or_an_unreadable_count_makes_it_unavailable() {
+        let (root, corpus) = corpus();
+        checkouts(&corpus);
+        let work = root.path().join("work");
+        for (pages, shown) in [("1", "1"), ("none", "an unknown number of")] {
+            let (_dir, mut launcher) = stub();
+            launcher.env.push(("STUB_SCRAPED_PAGES".to_owned(), pages.to_owned()));
+            let error = Grounded::start(&launcher, &corpus, &work).await.err().unwrap();
+            assert_eq!(
+                error.0,
+                format!(
+                    "cannot index tokio: Grounded Docs indexed {shown} pages from {}; it skips paths under folders \
+                     such as `target`, `build` or `test`, so check the sources out elsewhere",
+                    corpus.scopes[0].docs().display()
+                )
+            );
+        }
+        let mut relative = corpus.clone();
+        relative.scopes[0].checkout = PathBuf::from("src");
+        relative.scopes[0].path = "systems".to_owned();
+        let (_dir, launcher) = stub();
+        let error = Grounded::start(&launcher, &relative, &work).await.err().unwrap();
+        assert_eq!(error.0, "cannot index tokio: src/systems is not absolute");
+        assert_eq!(scraped_pages("x\n Successfully scraped 1 page\n"), Some(1));
+        assert_eq!(scraped_pages("Successfully scraped many pages"), None);
     }
 }

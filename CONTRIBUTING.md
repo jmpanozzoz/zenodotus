@@ -61,8 +61,9 @@ checkpoint and final reports and never chooses a change.
 
 1. Check out every corpus source at its pinned commit. `eval/corpus.toml` lists each repository, commit and docs
    path; each source goes to `<sources>/<library>` (or `<library>-<version>` for a library with several versions).
-   `<sources>` defaults to `target/eval-sources`, but Grounded Docs skips every path under a `target`, `build`,
-   `dist`, `out` or `test` folder, so for `compare` check them out elsewhere and pass `--sources`, for example:
+   `<sources>` is `--sources`, by default `../zenodotus-eval-sources`, next to the repository: Grounded Docs skips
+   every path under a folder such as `target`, `build` or `test`, so the copies must not live under one. For
+   example:
 
    ```bash
    mkdir -p ../zenodotus-eval-sources/tokio
@@ -82,7 +83,7 @@ checkpoint and final reports and never chooses a change.
 
    ```bash
    target/release/zenodotus-eval run                  # zenodotus on the dev set
-   target/release/zenodotus-eval --sources ../zenodotus-eval-sources compare   # every system on the test set
+   target/release/zenodotus-eval compare              # every system on the test set
    ```
 
    `compare` needs Node 20 or later for Grounded Docs and Neuledge Context, which it starts with `npx` (the same

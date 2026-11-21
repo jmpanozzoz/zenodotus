@@ -26,8 +26,9 @@ pub struct Cli {
     /// The repository root, which holds `eval/`.
     #[arg(long, default_value = ".")]
     pub root: PathBuf,
-    /// Where the corpus sources are checked out, one directory per version.
-    #[arg(long, default_value = "target/eval-sources")]
+    /// Where the corpus sources are checked out, one directory per version. Not under `target/`, `build/` or
+    /// `test/`: Grounded Docs skips paths under such folders.
+    #[arg(long, default_value = "../zenodotus-eval-sources")]
     pub sources: PathBuf,
     /// What to do.
     #[command(subcommand)]

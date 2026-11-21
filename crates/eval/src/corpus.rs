@@ -27,7 +27,7 @@ pub struct ScopeCase {
     pub scope: Scope,
     /// `library` when the library has one version, else `library@version`; the key of `context7.toml`.
     pub key: String,
-    /// The local copy of the source at its pinned commit: `<sources>/<key with @ replaced by ->`.
+    /// The local copy of the source at its pinned commit: `<sources>/<key with @ replaced by ->`, absolute.
     pub checkout: PathBuf,
     /// The documentation folder inside the checkout.
     pub path: String,
@@ -71,6 +71,8 @@ impl Corpus {
     /// A config error, [`EvalError::Io`] or [`EvalError::Parse`] for `context7.toml`, and
     /// [`EvalError::UnsupportedSource`] for a version that is not a GitHub source with one path.
     pub fn load(root: &Path, sources: &Path) -> Result<Self, EvalError> {
+        // Competitors get the copies as absolute paths and `file://` URLs; `absolute` fails only on an empty path.
+        let sources = std::path::absolute(sources).unwrap_or(sources.to_path_buf());
         let config_path = root.join("eval").join("corpus.toml");
         let config = Config::load(&config_path)?;
         let data_dir = config.settings.data_dir(&config_path, &|_| None)?;
@@ -282,5 +284,14 @@ source = { kind = "github", repo = "pydantic/pydantic", reference = "ghi", paths
         let corpus = Corpus::load(&root, &root.join("target/eval-sources")).unwrap();
         assert!(corpus.scopes.len() >= 6);
         assert!(corpus.scopes.iter().all(|case| case.context7.is_some()));
+    }
+
+    #[test]
+    fn a_relative_sources_path_becomes_absolute() {
+        // Tests run in the crate directory.
+        let root = Path::new(env!("CARGO_MANIFEST_DIR")).join("../..");
+        let corpus = Corpus::load(&root, Path::new("sources")).unwrap();
+        let expected = std::env::current_dir().unwrap().join("sources/fastapi");
+        assert_eq!(corpus.scopes[0].checkout, expected);
     }
 }

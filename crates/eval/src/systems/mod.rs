@@ -100,19 +100,19 @@ impl Launcher {
     }
 }
 
-/// Runs `command` to completion.
+/// Runs `command` to completion and returns its stdout.
 ///
 /// # Errors
 ///
 /// A message with the command and the last line of its stderr when it cannot start or exits unsuccessfully.
-pub async fn run(mut command: Command) -> Result<(), String> {
+pub async fn run(mut command: Command) -> Result<String, String> {
     let shown = shown(&command);
     let output = command
         .output()
         .await
         .map_err(|error| format!("cannot start {shown}: {error}"))?;
     if output.status.success() {
-        return Ok(());
+        return Ok(String::from_utf8_lossy(&output.stdout).into_owned());
     }
     let stderr = String::from_utf8_lossy(&output.stderr);
     let last = stderr.lines().rev().find(|line| !line.trim().is_empty()).unwrap_or("");
@@ -137,9 +137,7 @@ fn shown(command: &Command) -> String {
 pub fn local_docs(case: &ScopeCase) -> Result<PathBuf, SystemUnavailable> {
     let docs = case.docs();
     if docs.is_dir() {
-        // Grounded Docs takes the folder as a `file://` URL, which needs an absolute path; `absolute` fails only on
-        // an empty path, which is not a directory.
-        return Ok(std::path::absolute(&docs).unwrap_or(docs));
+        return Ok(docs);
     }
     Err(SystemUnavailable(format!(
         "no local copy of {} at {}; fetch the corpus sources first",
@@ -273,18 +271,6 @@ pub(crate) mod tests {
 
     use super::*;
 
-    #[test]
-    fn a_local_copy_under_a_relative_sources_path_is_given_as_an_absolute_path() {
-        let (_root, corpus) = crate::corpus::tests::corpus();
-        let mut case = corpus.scopes[0].clone();
-        // Tests run in the crate directory, which holds `src/systems`.
-        case.checkout = PathBuf::from("src");
-        case.path = "systems".to_owned();
-        let docs = local_docs(&case).unwrap();
-        assert!(docs.is_absolute(), "{}", docs.display());
-        assert_eq!(docs, std::env::current_dir().unwrap().join("src/systems"));
-    }
-
     /// The stand-in program in `fixtures/eval/stub_mcp.py`.
     pub(crate) fn stub_program() -> PathBuf {
         Path::new(env!("CARGO_MANIFEST_DIR")).join("../../fixtures/eval/stub_mcp.py")
@@ -330,7 +316,8 @@ pub(crate) mod tests {
     #[tokio::test]
     async fn run_reports_how_a_command_failed() {
         let (dir, mut launcher) = stub();
-        run(launcher.command(&["scrape", "lib"])).await.unwrap();
+        let stdout = run(launcher.command(&["scrape", "lib"])).await.unwrap();
+        assert_eq!(stdout, "Successfully scraped 2 pages\n");
         assert_eq!(calls(&dir)[0]["argv"], json!(["scrape", "lib"]));
         launcher.env.push(("STUB_PREPARE_EXIT".to_owned(), "3".to_owned()));
         let error = run(launcher.command(&["add"])).await.unwrap_err();
