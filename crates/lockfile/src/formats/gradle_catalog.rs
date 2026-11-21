@@ -101,7 +101,10 @@ pub(crate) fn parse(text: &str, file: &Path) -> Result<Vec<Entry>, LockfileError
                         (None, Some(group), Some(name)) => format!("{group}:{name}"),
                         _ => return None,
                     };
-                    (name, version.as_ref().and_then(|version| resolve(version, &catalog.versions)))
+                    (
+                        name,
+                        version.as_ref().and_then(|version| resolve(version, &catalog.versions)),
+                    )
                 }
             };
             Some(Entry::registry(Ecosystem::Maven, &name, version))
@@ -140,6 +143,9 @@ mod tests {
     #[test]
     fn malformed_toml_is_a_parse_error_with_a_line() {
         let error = parse("[libraries]\na = \"x:y:1\"\nb = {\n", Path::new("libs.versions.toml")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: Some(3), .. })), "{error:?}");
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: Some(3), .. })),
+            "{error:?}"
+        );
     }
 }

@@ -120,14 +120,26 @@ mod tests {
                 registry("ansi-regex", "6.0.1"),
                 registry("bundled", "1.0.0"),
                 with_version(
-                    Entry::git(Ecosystem::Npm, "glab-lib", "git+https://gitlab.com/acme/glab-lib.git",
-                        "89abcdef0123456789abcdef0123456789abcdef"),
+                    Entry::git(
+                        Ecosystem::Npm,
+                        "glab-lib",
+                        "git+https://gitlab.com/acme/glab-lib.git",
+                        "89abcdef0123456789abcdef0123456789abcdef"
+                    ),
                     "1.0.0"
                 ),
                 registry("left-pad", "1.3.0"),
                 registry("real-package", "2.0.0"),
                 registry("string-width", "4.2.3"),
-                with_version(Entry::git(Ecosystem::Npm, "widget", "git+ssh://git@github.com/acme/widget.git", WIDGET), "0.4.0"),
+                with_version(
+                    Entry::git(
+                        Ecosystem::Npm,
+                        "widget",
+                        "git+ssh://git@github.com/acme/widget.git",
+                        WIDGET
+                    ),
+                    "0.4.0"
+                ),
                 registry("ansi-regex", "5.0.1"),
             ]
         );
@@ -135,25 +147,44 @@ mod tests {
 
     #[test]
     fn a_version_1_lockfile_is_a_parse_error() {
-        let error = parse("{\"lockfileVersion\": 1, \"dependencies\": {}}", Path::new("package-lock.json")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: None, .. })), "{error:?}");
+        let error = parse(
+            "{\"lockfileVersion\": 1, \"dependencies\": {}}",
+            Path::new("package-lock.json"),
+        )
+        .err();
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: None, .. })),
+            "{error:?}"
+        );
         assert!(parse("[]", Path::new("package-lock.json")).is_err());
     }
 
     #[test]
     fn npm_resolved_forms_map_to_sources() {
-        assert_eq!(npm_resolved("https://registry.npmjs.org/a/-/a-1.tgz"), Some(Source::Registry));
+        assert_eq!(
+            npm_resolved("https://registry.npmjs.org/a/-/a-1.tgz"),
+            Some(Source::Registry)
+        );
         assert_eq!(
             npm_resolved("github:acme/widget#abc"),
-            Some(Source::Git { url: "https://github.com/acme/widget".to_owned(), commit: "abc".to_owned() })
+            Some(Source::Git {
+                url: "https://github.com/acme/widget".to_owned(),
+                commit: "abc".to_owned()
+            })
         );
         assert_eq!(
             npm_resolved("git://example.com/a.git#abc"),
-            Some(Source::Git { url: "git://example.com/a.git".to_owned(), commit: "abc".to_owned() })
+            Some(Source::Git {
+                url: "git://example.com/a.git".to_owned(),
+                commit: "abc".to_owned()
+            })
         );
         assert_eq!(
             npm_resolved("git+https://github.com/a/b.git"),
-            Some(Source::Git { url: "git+https://github.com/a/b.git".to_owned(), commit: String::new() })
+            Some(Source::Git {
+                url: "git+https://github.com/a/b.git".to_owned(),
+                commit: String::new()
+            })
         );
         for local in ["file:../x", "link:../x", "workspace:*", "packages/x"] {
             assert_eq!(npm_resolved(local), None, "{local}");

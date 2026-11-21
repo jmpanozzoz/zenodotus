@@ -63,12 +63,15 @@ mod tests {
         )
         .unwrap();
         assert_eq!(single.frameworks, ["net6.0"]);
-        assert!(single.entries.is_empty());
+        assert_eq!(single.entries.len(), 0);
     }
 
     #[test]
     fn malformed_xml_is_a_parse_error() {
         let error = parse("<Project>\n<a>\n</b>", Path::new("a.csproj")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: Some(3), .. })), "{error:?}");
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: Some(3), .. })),
+            "{error:?}"
+        );
     }
 }

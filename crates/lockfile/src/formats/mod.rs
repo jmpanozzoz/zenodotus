@@ -19,9 +19,10 @@ pub(crate) mod go_mod;
 pub(crate) mod gradle_build;
 pub(crate) mod gradle_catalog;
 pub(crate) mod gradle_lockfile;
+pub(crate) mod manifests;
 pub(crate) mod npm_lock;
-pub(crate) mod package_resolved;
 pub(crate) mod nuget_lock;
+pub(crate) mod package_resolved;
 pub(crate) mod pdm_lock;
 pub(crate) mod pipfile_lock;
 pub(crate) mod pnpm_lock;
@@ -123,13 +124,11 @@ mod tests {
     }
 
     fn line_of<T: std::fmt::Debug>(result: Result<T, LockfileError>) -> Option<u64> {
-        match result {
-            Err(LockfileError::Parse { file, line, .. }) => {
-                assert_eq!(file, Path::new("x"));
-                line
-            }
-            other => panic!("expected a parse error, got {other:?}"),
-        }
+        let error = result.unwrap_err();
+        assert_eq!(error.cause(), crate::Cause::Parse, "{error}");
+        let diagnostic = crate::Diagnostic::from(error);
+        assert_eq!(diagnostic.file, Path::new("x"));
+        diagnostic.line
     }
 
     #[test]
@@ -179,7 +178,17 @@ mod tests {
         for index in 0..100_000 {
             let _ = writeln!(text, "  p{index}@1.0.0: {{resolution: {{integrity: x}}}}");
         }
-        let decoded: std::collections::BTreeMap<String, serde::de::IgnoredAny> = yaml(&text, Path::new("x")).unwrap();
-        assert_eq!(decoded.len(), 1);
+        let decoded: serde_json::Value = yaml(&text, Path::new("x")).unwrap();
+        assert_eq!(decoded["packages"].as_object().map(serde_json::Map::len), Some(100_000));
+    }
+
+    #[test]
+    fn one_yaml_type_meets_success_the_budget_and_a_parse_error() {
+        use serde::de::IgnoredAny;
+        let bomb = include_str!("../../../../fixtures/lockfiles/pnpm/anchor-bomb.yaml");
+        assert!(yaml::<IgnoredAny>("a: 1\n", Path::new("x")).is_ok());
+        let budget = yaml::<IgnoredAny>(bomb, Path::new("x")).unwrap_err();
+        assert_eq!(budget.cause(), crate::Cause::YamlBudget);
+        assert!(line_of(yaml::<IgnoredAny>("a: 1\nb: [\n", Path::new("x"))).is_some());
     }
 }

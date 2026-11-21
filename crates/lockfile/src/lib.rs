@@ -5,11 +5,18 @@
 pub mod diagnostics;
 pub mod error;
 mod formats;
+mod members;
 mod private;
+mod project;
 mod read;
+mod roots;
+mod runtime;
 
 pub use diagnostics::{Diagnostic, DiagnosticKind};
-pub use error::LockfileError;
+pub use error::{Cause, LockfileError};
+pub use project::{Project, ProjectCache, RuntimeVersion, read_project};
+pub use roots::{has_project_marker, select_root, working_directory_root};
+pub use runtime::{Requested, Runtime};
 
 use serde::Serialize;
 use zenodotus_core::Ecosystem;
@@ -78,7 +85,11 @@ impl Entry {
 
     /// A package with any source; a git one keeps no version, since its commit is the version.
     pub(crate) fn from_source(ecosystem: Ecosystem, name: String, version: Option<String>, source: Source) -> Self {
-        let version = if matches!(source, Source::Git { .. }) { None } else { version };
+        let version = if matches!(source, Source::Git { .. }) {
+            None
+        } else {
+            version
+        };
         Self {
             ecosystem,
             name,

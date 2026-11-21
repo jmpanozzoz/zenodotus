@@ -3,8 +3,8 @@
 
 use std::path::Path;
 
-use quick_xml::events::{BytesStart, Event};
 use quick_xml::escape::resolve_predefined_entity;
+use quick_xml::events::{BytesStart, Event};
 use quick_xml::{Reader, XmlVersion};
 
 use super::{line_at, parse_error};
@@ -108,15 +108,32 @@ pub(crate) fn parse(text: &str, file: &Path) -> Result<Element, LockfileError> {
                 let element = stack.pop().unwrap_or_default();
                 close(&mut stack, &mut root, element)
             }
-            Ok(Event::Text(content)) => Ok(append(&mut stack, &content.into_inner())),
-            Ok(Event::CData(content)) => Ok(append(&mut stack, &content.into_inner())),
-            Ok(Event::GeneralRef(reference)) => Ok(append(&mut stack, &resolve_reference(&reference.into_inner()))),
+            Ok(Event::Text(content)) => {
+                append(&mut stack, &content.into_inner());
+                Ok(())
+            }
+            Ok(Event::CData(content)) => {
+                append(&mut stack, &content.into_inner());
+                Ok(())
+            }
+            Ok(Event::GeneralRef(reference)) => {
+                append(&mut stack, &resolve_reference(&reference.into_inner()));
+                Ok(())
+            }
             Ok(Event::Eof) => break,
             Ok(_) => Ok(()),
         };
         step.map_err(|message| {
-            let at = if message.starts_with("a document type") { start } else { reader.buffer_position() };
-            parse_error(file, Some(line_at(text, usize::try_from(at).unwrap_or(usize::MAX))), message)
+            let at = if message.starts_with("a document type") {
+                start
+            } else {
+                reader.buffer_position()
+            };
+            parse_error(
+                file,
+                Some(line_at(text, usize::try_from(at).unwrap_or(usize::MAX))),
+                message,
+            )
         })?;
     }
     let eof = Some(line_at(text, text.len()));
@@ -139,13 +156,11 @@ mod tests {
     use std::path::Path;
 
     fn parse_error_line(text: &str) -> Option<u64> {
-        match parse(text, Path::new("pom.xml")) {
-            Err(LockfileError::Parse { file, line, .. }) => {
-                assert_eq!(file, Path::new("pom.xml"));
-                line
-            }
-            other => panic!("expected a parse error, got {other:?}"),
-        }
+        let error = parse(text, Path::new("pom.xml")).unwrap_err();
+        assert_eq!(error.cause(), crate::Cause::Parse, "{error}");
+        let diagnostic = crate::Diagnostic::from(error);
+        assert_eq!(diagnostic.file, Path::new("pom.xml"));
+        diagnostic.line
     }
 
     #[test]
@@ -160,7 +175,10 @@ mod tests {
         assert_eq!(root.attribute("a"), Some("x & y"));
         assert_eq!(root.attribute("b"), None);
         assert_eq!(root.child_text("v"), Some("1<2AB&nbsp;"));
-        assert_eq!(root.children_named("v").map(|v| v.text.as_str()).collect::<Vec<_>>(), ["1<2AB&nbsp;", "<raw>"]);
+        assert_eq!(
+            root.children_named("v").map(|v| v.text.as_str()).collect::<Vec<_>>(),
+            ["1<2AB&nbsp;", "<raw>"]
+        );
         assert_eq!(root.child("e").and_then(|e| e.attribute("k")), Some("1"));
         assert_eq!(root.child_text("w"), Some("t"));
         assert!(root.child("missing").is_none());
@@ -187,5 +205,14 @@ mod tests {
         assert_eq!(parse_error_line(&deep), Some(1));
         let fine = "<a>".repeat(MAX_DEPTH) + &"</a>".repeat(MAX_DEPTH);
         assert!(parse(&fine, Path::new("pom.xml")).is_ok());
+    }
+
+    #[test]
+    fn a_malformed_attribute_is_a_parse_error() {
+        assert_eq!(parse_error_line("<project>\n<a b=\"&bogus;\"/>\n</project>\n"), Some(2));
+        assert_eq!(
+            parse_error_line("<project>\n\n<a b=\"1\" b=\"2\"/>\n</project>\n"),
+            Some(3)
+        );
     }
 }

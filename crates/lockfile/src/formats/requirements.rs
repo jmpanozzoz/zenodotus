@@ -79,7 +79,7 @@ fn exact_pin(line: &str) -> Option<(&str, String)> {
     exact.then(|| (name, version.to_owned()))
 }
 
-/// The exact pins and `-r` includes of a requirements file. An index option naming a host other than PyPI makes every
+/// The exact pins and `-r` includes of a requirements file. An index option naming a host other than the Python Package Index makes every
 /// pin of the file private, since pip may install any of them from it.
 pub(crate) fn parse(text: &str) -> Requirements {
     let mut requirements = Requirements::default();
@@ -99,7 +99,9 @@ pub(crate) fn parse(text: &str) -> Requirements {
                 _ => {}
             }
         } else if let Some((name, version)) = exact_pin(&logical) {
-            requirements.entries.push(Entry::registry(Ecosystem::Pypi, name, Some(&version)));
+            requirements
+                .entries
+                .push(Entry::registry(Ecosystem::Pypi, name, Some(&version)));
         }
     }
     if let Some(url) = private_index {
@@ -136,26 +138,43 @@ mod tests {
         assert_eq!(
             requirements.includes,
             [
-                Include { path: "requirements-base.txt".to_owned(), line: 2 },
-                Include { path: "extra/more.txt".to_owned(), line: 3 },
+                Include {
+                    path: "requirements-base.txt".to_owned(),
+                    line: 2
+                },
+                Include {
+                    path: "extra/more.txt".to_owned(),
+                    line: 3
+                },
             ]
         );
     }
 
     #[test]
     fn a_private_index_makes_every_pin_of_the_file_private() {
-        for option in ["-i https://pypi.acme.dev/simple", "--index-url=https://pypi.acme.dev/simple",
-            "--extra-index-url https://pypi.acme.dev/simple"]
-        {
+        for option in [
+            "-i https://pypi.acme.dev/simple",
+            "--index-url=https://pypi.acme.dev/simple",
+            "--extra-index-url https://pypi.acme.dev/simple",
+        ] {
             let requirements = parse(&format!("a==1\n{option}\n"));
             let private = Entry {
-                source: Source::Private { url: "https://pypi.acme.dev/simple".to_owned() },
+                source: Source::Private {
+                    url: "https://pypi.acme.dev/simple".to_owned(),
+                },
                 ..pin("a", "1")
             };
             assert_eq!(requirements.entries, [private], "{option}");
         }
         let public = parse("--index-url https://pypi.org/simple\n-r\na==1\n");
         assert_eq!(public.entries, [pin("a", "1")]);
-        assert!(public.includes.is_empty());
+        assert_eq!(public.includes.len(), 0);
+    }
+
+    #[test]
+    fn a_continuation_at_the_end_of_the_file_still_counts() {
+        let parsed = parse("six==1.16.0\nrequests==2.32.3 \\");
+        let names: Vec<&str> = parsed.entries.iter().map(|entry| entry.name.as_str()).collect();
+        assert_eq!(names, ["six", "requests"]);
     }
 }

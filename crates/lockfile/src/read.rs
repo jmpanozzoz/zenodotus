@@ -14,6 +14,9 @@ pub(crate) const OTHER_LIMIT: u64 = 16 << 20;
 /// The most files read in one root.
 pub(crate) const MAX_FILES: usize = 64;
 
+/// How much of `Package.swift` is read: its first line, at most 1 KiB (design §8.2).
+pub(crate) const HEAD_LIMIT: u64 = 1 << 10;
+
 /// JSON lockfiles, which get the larger limit.
 const JSON_LOCKFILES: [&str; 7] = [
     "package-lock.json",
@@ -51,7 +54,7 @@ fn same_file(_checked: &fs::Metadata, opened: &fs::Metadata) -> bool {
 /// Reads files under one root and counts what it reads.
 pub(crate) struct Files {
     root: PathBuf,
-    files_read: usize,
+    count: usize,
     bytes_read: u64,
 }
 
@@ -60,14 +63,14 @@ impl Files {
     pub(crate) fn new(root: &Path) -> Self {
         Self {
             root: root.to_path_buf(),
-            files_read: 0,
+            count: 0,
             bytes_read: 0,
         }
     }
 
     /// The number of files opened so far.
     pub(crate) fn files_read(&self) -> usize {
-        self.files_read
+        self.count
     }
 
     /// The number of bytes read so far.
@@ -77,6 +80,28 @@ impl Files {
 
     /// Reads `path`, relative to the root, as UTF-8 text of at most `limit` bytes; `None` when it does not exist.
     pub(crate) fn read(&mut self, path: &Path, limit: u64) -> Result<Option<String>, LockfileError> {
+        let Some(bytes) = self.read_bytes(path, limit, true)? else {
+            return Ok(None);
+        };
+        String::from_utf8(bytes).map(Some).map_err(|_| LockfileError::Parse {
+            file: path.to_path_buf(),
+            line: None,
+            message: "not UTF-8".to_owned(),
+        })
+    }
+
+    /// Reads the first `bytes` bytes of `path`, whatever its size, as text; a character cut at the end is dropped.
+    pub(crate) fn read_head(&mut self, path: &Path, bytes: u64) -> Result<Option<String>, LockfileError> {
+        let Some(head) = self.read_bytes(path, bytes, false)? else {
+            return Ok(None);
+        };
+        let valid = std::str::from_utf8(&head).map_or_else(|error| error.valid_up_to(), str::len);
+        Ok(Some(String::from_utf8_lossy(&head[..valid]).into_owned()))
+    }
+
+    /// Opens `path` after the checks of design §8.3 and reads at most `limit` bytes; with `whole`, a file whose
+    /// metadata size is over `limit` is refused before any byte is read.
+    fn read_bytes(&mut self, path: &Path, limit: u64, whole: bool) -> Result<Option<Vec<u8>>, LockfileError> {
         let full = self.root.join(path);
         let io = |source| LockfileError::Io {
             path: path.to_path_buf(),
@@ -99,35 +124,29 @@ impl Files {
         }
         // A FIFO is refused here, before `open` could block on it.
         let checked = last.filter(fs::Metadata::is_file).ok_or_else(not_regular)?;
-        if checked.len() > limit {
+        if whole && checked.len() > limit {
             return Err(LockfileError::TooLarge {
                 path: path.to_path_buf(),
                 size: checked.len(),
                 limit,
             });
         }
-        if self.files_read >= MAX_FILES {
+        if self.count >= MAX_FILES {
             return Err(LockfileError::FileLimit {
                 path: path.to_path_buf(),
                 limit: MAX_FILES,
             });
         }
-        self.files_read += 1;
+        self.count += 1;
         let file = fs::File::open(&full).map_err(io)?;
         let opened = file.metadata().map_err(io)?;
         // The file opened must be the one checked: a swap between the check and the open is refused.
-        let file = Some(file)
-            .filter(|_| same_file(&checked, &opened))
-            .ok_or_else(not_regular)?;
+        same_file(&checked, &opened).then_some(()).ok_or_else(not_regular)?;
         // A file that grew since the check is cut at the limit and then fails to parse.
         let mut bytes = Vec::new();
         file.take(limit).read_to_end(&mut bytes).map_err(io)?;
         self.bytes_read += bytes.len() as u64;
-        String::from_utf8(bytes).map(Some).map_err(|_| LockfileError::Parse {
-            file: path.to_path_buf(),
-            line: None,
-            message: "not UTF-8".to_owned(),
-        })
+        Ok(Some(bytes))
     }
 }
 
@@ -329,5 +348,32 @@ mod tests {
             None,
             "absent files still answer"
         );
+    }
+
+    #[test]
+    fn hostile_a_2_kib_first_line_of_package_swift_is_cut_at_1_kib() {
+        let dir = root();
+        let line = format!(
+            "// swift-tools-version:5.9 {}\nimport PackageDescription\n",
+            "x".repeat(2048)
+        );
+        fs::write(dir.path().join("Package.swift"), &line).unwrap();
+        let mut files = Files::new(dir.path());
+        let head = files
+            .read_head(Path::new("Package.swift"), HEAD_LIMIT)
+            .unwrap()
+            .unwrap();
+        assert_eq!(head.len(), 1024);
+        assert!(head.starts_with("// swift-tools-version:5.9 xxx") && !head.contains('\n'));
+        assert_eq!(files.bytes_read(), 1024);
+        assert_eq!(files.files_read(), 1);
+        // A character cut by the limit is dropped rather than failing the read.
+        fs::write(dir.path().join("Package.swift"), format!("{}é", "x".repeat(1023))).unwrap();
+        let head = files
+            .read_head(Path::new("Package.swift"), HEAD_LIMIT)
+            .unwrap()
+            .unwrap();
+        assert_eq!(head, "x".repeat(1023));
+        assert_eq!(files.read_head(Path::new("absent.swift"), HEAD_LIMIT).unwrap(), None);
     }
 }

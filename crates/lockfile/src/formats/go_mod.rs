@@ -14,7 +14,7 @@ pub(crate) struct GoMod {
 }
 
 /// Each directive as its verb and its arguments, unquoted; block lines carry the block's verb.
-fn directives(text: &str) -> Vec<(&str, Vec<&str>)> {
+pub(crate) fn directives(text: &str) -> Vec<(&str, Vec<&str>)> {
     let mut directives = Vec::new();
     let mut block: Option<&str> = None;
     for line in text.lines() {
@@ -98,9 +98,15 @@ mod tests {
     }
 
     #[test]
+    fn a_replace_with_a_malformed_left_side_replaces_nothing() {
+        let module = parse("require a v1.0.0\nreplace a v1.0.0 extra => b v2.0.0\nreplace => c v3.0.0\n");
+        assert_eq!(module.entries, [Entry::registry(Ecosystem::Go, "a", Some("v1.0.0"))]);
+    }
+
+    #[test]
     fn a_file_without_a_go_directive_has_none() {
         let module = parse("module a\nrequire b\nrequire (\n)\n");
-        assert!(module.entries.is_empty());
+        assert_eq!(module.entries.len(), 0);
         assert_eq!(module.go, None);
     }
 }

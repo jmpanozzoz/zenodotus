@@ -7,7 +7,7 @@ use super::gradle_lockfile::coordinate;
 use crate::Entry;
 
 /// The quoted strings of `text`, in `'…'` or `"…"`; an unterminated one is dropped.
-fn quoted(text: &str) -> Vec<&str> {
+pub(crate) fn quoted(text: &str) -> Vec<&str> {
     let mut strings = Vec::new();
     let mut rest = text;
     while let Some(start) = rest.find(['\'', '"']) {
@@ -72,6 +72,6 @@ mod tests {
 
     #[test]
     fn an_unterminated_string_is_ignored() {
-        assert!(parse("implementation 'a:b:1.0").is_empty());
+        assert_eq!(parse("implementation 'a:b:1.0").len(), 0);
     }
 }

@@ -10,7 +10,10 @@ use crate::error::LockfileError;
 use crate::{Entry, Source};
 
 /// The crates.io index, as a git and as a sparse registry.
-const CRATES_IO: &[&str] = &["https://github.com/rust-lang/crates.io-index", "https://index.crates.io/"];
+const CRATES_IO: &[&str] = &[
+    "https://github.com/rust-lang/crates.io-index",
+    "https://index.crates.io/",
+];
 
 #[derive(Deserialize)]
 struct Lockfile {
@@ -36,14 +39,21 @@ pub(crate) fn parse(text: &str, file: &Path) -> Result<Vec<Entry>, LockfileError
             let source = if let Some(url) = source.strip_prefix("git+") {
                 git_fragment(url)
             } else {
-                let url = source.strip_prefix("registry+").or_else(|| source.strip_prefix("sparse+"))?;
+                let url = source
+                    .strip_prefix("registry+")
+                    .or_else(|| source.strip_prefix("sparse+"))?;
                 if CRATES_IO.contains(&url) {
                     Source::Registry
                 } else {
                     Source::Private { url: url.to_owned() }
                 }
             };
-            Some(Entry::from_source(Ecosystem::Crates, package.name, Some(package.version), source))
+            Some(Entry::from_source(
+                Ecosystem::Crates,
+                package.name,
+                Some(package.version),
+                source,
+            ))
         })
         .collect())
 }
@@ -70,7 +80,9 @@ mod tests {
                     "89abcdef0123456789abcdef0123456789abcdef"
                 ),
                 Entry {
-                    source: Source::Private { url: "https://my.registry.example/index".to_owned() },
+                    source: Source::Private {
+                        url: "https://my.registry.example/index".to_owned()
+                    },
                     ..crates("internal", "2.0.0")
                 },
                 crates("serde", "1.0.203"),
@@ -88,8 +100,11 @@ mod tests {
     #[test]
     fn an_unknown_source_kind_is_skipped_and_malformed_toml_has_a_line() {
         let text = "[[package]]\nname = \"a\"\nversion = \"1\"\nsource = \"path+file:///x\"\n";
-        assert!(parse(text, Path::new("Cargo.lock")).unwrap().is_empty());
+        assert_eq!(parse(text, Path::new("Cargo.lock")).unwrap().len(), 0);
         let error = parse("version = 4\n\n[[package]]\nname = 1\n", Path::new("Cargo.lock")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: Some(4), .. })), "{error:?}");
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: Some(4), .. })),
+            "{error:?}"
+        );
     }
 }

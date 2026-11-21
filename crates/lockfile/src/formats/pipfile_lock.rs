@@ -75,7 +75,10 @@ pub(crate) fn parse(text: &str, file: &Path) -> Result<Vec<Entry>, LockfileError
                 None => index_url(&lockfile.meta.sources, package.index.as_deref())
                     .map_or(Source::Registry, |url| registry_source(url, PYPI_HOSTS)),
             };
-            let version = package.version.as_deref().and_then(|version| version.strip_prefix("=="));
+            let version = package
+                .version
+                .as_deref()
+                .and_then(|version| version.strip_prefix("=="));
             Entry::from_source(Ecosystem::Pypi, name.clone(), version.map(str::to_owned), source)
         })
         .collect())
@@ -104,7 +107,9 @@ mod tests {
                     "89abcdef0123456789abcdef0123456789abcdef"
                 ),
                 Entry {
-                    source: Source::Private { url: "https://pypi.acme.dev/simple".to_owned() },
+                    source: Source::Private {
+                        url: "https://pypi.acme.dev/simple".to_owned()
+                    },
                     ..registry("internal-tools", "2.0.0")
                 },
                 registry("requests", "2.32.3"),
@@ -132,7 +137,10 @@ mod tests {
         };
         assert_eq!(
             entries,
-            [private("a", "1", "https://pypi.corp.example/simple"), private("b", "2", "gone")]
+            [
+                private("a", "1", "https://pypi.corp.example/simple"),
+                private("b", "2", "gone")
+            ]
         );
         let bare = parse(r#"{"default": {"a": {"version": "==1"}}}"#, Path::new("Pipfile.lock")).unwrap();
         assert_eq!(bare, [Entry::registry(Ecosystem::Pypi, "a", Some("1"))]);
@@ -141,6 +149,9 @@ mod tests {
     #[test]
     fn malformed_json_is_a_parse_error_with_a_line() {
         let error = parse("{\n\"default\": {\n\"a\": }\n}", Path::new("Pipfile.lock")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: Some(3), .. })), "{error:?}");
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: Some(3), .. })),
+            "{error:?}"
+        );
     }
 }

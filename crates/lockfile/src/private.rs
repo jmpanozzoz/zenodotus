@@ -11,7 +11,7 @@ use crate::{Dependency, Diagnostic, DiagnosticKind, Entry, Options, Source};
 pub(crate) const NPM_REGISTRIES: &[&str] = &["registry.npmjs.org", "registry.yarnpkg.com"];
 /// The public Python package index and its file host.
 pub(crate) const PYPI_HOSTS: &[&str] = &["pypi.org", "files.pythonhosted.org"];
-/// The public RubyGems host.
+/// The public Ruby gem host.
 pub(crate) const RUBYGEMS_HOSTS: &[&str] = &["rubygems.org"];
 /// The public pub.dev hosts.
 pub(crate) const PUB_HOSTS: &[&str] = &["pub.dev", "pub.dartlang.org"];
@@ -22,12 +22,11 @@ const MAX_VERSION_LEN: usize = 128;
 
 /// The host and the path of `url`, for `scheme://[user@]host[:port]/path` and scp-style `user@host:path`.
 fn split_url(url: &str) -> Option<(&str, &str)> {
-    let (authority, path) = match url.split_once("://") {
-        Some((_, rest)) => rest.split_at(rest.find(['/', '?', '#']).unwrap_or(rest.len())),
-        None => {
-            let (user_host, path) = url.split_once(':')?;
-            (user_host.rsplit_once('@')?.1, path)
-        }
+    let (authority, path) = if let Some((_, rest)) = url.split_once("://") {
+        rest.split_at(rest.find(['/', '?', '#']).unwrap_or(rest.len()))
+    } else {
+        let (user_host, path) = url.split_once(':')?;
+        (user_host.rsplit_once('@')?.1, path)
     };
     let host_port = authority.rsplit_once('@').map_or(authority, |(_, host)| host);
     let host = host_port.split(':').next().unwrap_or_default();
@@ -121,7 +120,7 @@ fn go_private(patterns: &[String], module: &str) -> bool {
 }
 
 /// The dependency `entry` names, or the diagnostic that keeps it out (design §8.5).
-pub(crate) fn resolve(entry: Entry, file: &Path, options: &Options) -> Result<Dependency, Diagnostic> {
+pub(crate) fn resolve(entry: &Entry, file: &Path, options: &Options) -> Result<Dependency, Diagnostic> {
     let diagnostic = |kind, message: String| Diagnostic::dependency(file.to_path_buf(), kind, &entry.name, message);
     let (ecosystem, name, version) = match &entry.source {
         Source::Private { url } => {
@@ -131,16 +130,16 @@ pub(crate) fn resolve(entry: Entry, file: &Path, options: &Options) -> Result<De
                 format!("{host} is not the public registry"),
             ));
         }
-        Source::Git { url, commit } => match github_repo(url) {
-            Some(repo) => (Ecosystem::Github, repo, Some(commit.clone())),
-            None => {
+        Source::Git { url, commit } => {
+            let Some(repo) = github_repo(url) else {
                 let host = host(url).unwrap_or(url);
                 return Err(diagnostic(
                     DiagnosticKind::UnsupportedGitHost,
                     format!("git dependency on {host}: only github.com repositories are supported"),
                 ));
-            }
-        },
+            };
+            (Ecosystem::Github, repo, Some(commit.clone()))
+        }
         Source::Registry => (
             entry.ecosystem,
             canonical_name(entry.ecosystem, &entry.name),
@@ -199,11 +198,11 @@ mod tests {
         options
     }
 
-    fn ok(entry: Entry) -> Dependency {
+    fn ok(entry: &Entry) -> Dependency {
         resolve(entry, Path::new("f"), &options()).unwrap()
     }
 
-    fn diagnostic(entry: Entry) -> (DiagnosticKind, Option<String>) {
+    fn diagnostic(entry: &Entry) -> (DiagnosticKind, Option<String>) {
         let diagnostic = resolve(entry, Path::new("f"), &options()).unwrap_err();
         assert_eq!(diagnostic.file, Path::new("f"));
         (diagnostic.kind, diagnostic.name)
@@ -245,11 +244,11 @@ mod tests {
     #[test]
     fn registry_entries_become_dependencies_and_keep_absent_versions() {
         assert_eq!(
-            ok(Entry::registry(Ecosystem::Pypi, "Flask", Some("3.0.0"))),
+            ok(&Entry::registry(Ecosystem::Pypi, "Flask", Some("3.0.0"))),
             dependency(Ecosystem::Pypi, "flask", Some("3.0.0"))
         );
         assert_eq!(
-            ok(Entry::registry(Ecosystem::Npm, "react", None)),
+            ok(&Entry::registry(Ecosystem::Npm, "react", None)),
             dependency(Ecosystem::Npm, "react", None)
         );
         assert_eq!(dependency(Ecosystem::Npm, "@a/b", None).canonical_id(), "npm:@a/b");
@@ -267,7 +266,7 @@ mod tests {
             "https://www.github.com/acme/widget/tree/main",
         ] {
             assert_eq!(
-                ok(Entry::git(Ecosystem::Crates, "widget", url, commit)),
+                ok(&Entry::git(Ecosystem::Crates, "widget", url, commit)),
                 dependency(Ecosystem::Github, "acme/widget", Some(commit)),
                 "{url}"
             );
@@ -278,7 +277,7 @@ mod tests {
             "not a url",
         ] {
             assert_eq!(
-                diagnostic(Entry::git(Ecosystem::Crates, "widget", url, commit)),
+                diagnostic(&Entry::git(Ecosystem::Crates, "widget", url, commit)),
                 (DiagnosticKind::UnsupportedGitHost, Some("widget".to_owned())),
                 "{url}"
             );
@@ -293,31 +292,31 @@ mod tests {
         from_private_registry.source = Source::Private {
             url: "https://npm.acme.dev/x".to_owned(),
         };
-        assert_eq!(diagnostic(from_private_registry), private);
+        assert_eq!(diagnostic(&from_private_registry), private);
         assert_eq!(
-            diagnostic(entry(Ecosystem::Npm, "@acme/x")).0,
+            diagnostic(&entry(Ecosystem::Npm, "@acme/x")).0,
             DiagnosticKind::PrivateDependency
         );
         assert_eq!(
-            diagnostic(entry(Ecosystem::Nuget, "Acme.X")).0,
+            diagnostic(&entry(Ecosystem::Nuget, "Acme.X")).0,
             DiagnosticKind::PrivateDependency
         );
-        assert_eq!(ok(entry(Ecosystem::Nuget, "AcmeX")).name, "acmex");
+        assert_eq!(ok(&entry(Ecosystem::Nuget, "AcmeX")).name, "acmex");
         for module in [
             "git.corp.example.com/team/x",
             "github.com/acme/x",
             "github.com/acme/x/v2",
         ] {
             assert_eq!(
-                diagnostic(entry(Ecosystem::Go, module)).0,
+                diagnostic(&entry(Ecosystem::Go, module)).0,
                 DiagnosticKind::PrivateDependency,
                 "{module}"
             );
         }
         for module in ["github.com/acmeco/x", "corp.example.com/x", "github.com/other/x"] {
-            assert_eq!(ok(entry(Ecosystem::Go, module)).name, module);
+            assert_eq!(ok(&entry(Ecosystem::Go, module)).name, module);
         }
-        assert_eq!(ok(entry(Ecosystem::Npm, "acme")).name, "acme");
+        assert_eq!(ok(&entry(Ecosystem::Npm, "acme")).name, "acme");
     }
 
     #[test]
@@ -325,7 +324,7 @@ mod tests {
         let long = "a".repeat(215);
         for name in ["", "a b", "a\u{1f}b", "../x", "a/../b", "/a", "a/", long.as_str()] {
             assert_eq!(
-                diagnostic(Entry::registry(Ecosystem::Npm, name, Some("1"))).0,
+                diagnostic(&Entry::registry(Ecosystem::Npm, name, Some("1"))).0,
                 DiagnosticKind::ParseError,
                 "{name:?}"
             );
@@ -333,14 +332,14 @@ mod tests {
         let long_version = "1".repeat(129);
         for version in ["", "1 0", "1/0", "${x}", long_version.as_str()] {
             assert_eq!(
-                diagnostic(Entry::registry(Ecosystem::Npm, "a", Some(version))).0,
+                diagnostic(&Entry::registry(Ecosystem::Npm, "a", Some(version))).0,
                 DiagnosticKind::ParseError,
                 "{version:?}"
             );
         }
         assert!(
             resolve(
-                Entry::registry(Ecosystem::Pypi, "a", Some("1!2.0")),
+                &Entry::registry(Ecosystem::Pypi, "a", Some("1!2.0")),
                 Path::new("f"),
                 &options()
             )
@@ -348,14 +347,14 @@ mod tests {
         );
         assert!(
             resolve(
-                Entry::registry(Ecosystem::Npm, &"a".repeat(214), Some(&"1".repeat(128))),
+                &Entry::registry(Ecosystem::Npm, &"a".repeat(214), Some(&"1".repeat(128))),
                 Path::new("f"),
                 &options()
             )
             .is_ok()
         );
         assert_eq!(
-            diagnostic(Entry::git(
+            diagnostic(&Entry::git(
                 Ecosystem::Npm,
                 "w",
                 "https://github.com/a/b",

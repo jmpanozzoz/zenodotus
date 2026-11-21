@@ -31,14 +31,20 @@ fn entry(dependency: &Element, properties: Option<&Element>) -> Option<Entry> {
         .child_text("version")
         .and_then(|version| interpolate(version, properties))
         .filter(|version| !version.contains(['[', '(', ',']));
-    Some(Entry::registry(Ecosystem::Maven, &format!("{group}:{artifact}"), version.as_deref()))
+    Some(Entry::registry(
+        Ecosystem::Maven,
+        &format!("{group}:{artifact}"),
+        version.as_deref(),
+    ))
 }
 
 /// The managed dependencies, then the dependencies, in file order.
 pub(crate) fn parse(text: &str, file: &Path) -> Result<Vec<Entry>, LockfileError> {
     let project = xml::parse(text, file)?;
     let properties = project.child("properties");
-    let managed = project.child("dependencyManagement").and_then(|management| management.child("dependencies"));
+    let managed = project
+        .child("dependencyManagement")
+        .and_then(|management| management.child("dependencies"));
     Ok(managed
         .into_iter()
         .chain(project.child("dependencies"))
@@ -78,8 +84,11 @@ mod tests {
 
     #[test]
     fn a_pom_without_dependencies_has_none_and_malformed_xml_is_a_parse_error() {
-        assert!(parse("<project/>", Path::new("pom.xml")).unwrap().is_empty());
+        assert_eq!(parse("<project/>", Path::new("pom.xml")).unwrap().len(), 0);
         let error = parse("<project>\n<dependencies>\n</project>", Path::new("pom.xml")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: Some(3), .. })), "{error:?}");
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: Some(3), .. })),
+            "{error:?}"
+        );
     }
 }

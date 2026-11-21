@@ -23,7 +23,11 @@ struct Lockfile {
 pub(crate) fn parse(text: &str, file: &Path) -> Result<Vec<Entry>, LockfileError> {
     let plain = strip_jsonc(text);
     let lockfile: Lockfile = json(&plain, file)?;
-    Ok(lockfile.packages.values().filter_map(|package| entry(package)).collect())
+    Ok(lockfile
+        .packages
+        .values()
+        .filter_map(|package| entry(package))
+        .collect())
 }
 
 /// The entry of one `packages` array; workspace, file and link packages are skipped.
@@ -56,21 +60,30 @@ fn entry(package: &[Value]) -> Option<Entry> {
 /// JSON from JSONC: comments outside strings are removed (keeping their newlines, so lines still match), then
 /// trailing commas before `}` or `]`.
 fn strip_jsonc(text: &str) -> String {
-    let without_comments = scan(text.as_bytes(), |bytes, index, out| match (bytes[index], bytes.get(index + 1)) {
-        (b'/', Some(b'/')) => bytes[index..].iter().position(|&b| b == b'\n').map_or(bytes.len(), |end| index + end),
-        (b'/', Some(b'*')) => {
-            let end = bytes[index + 2..]
-                .windows(2)
-                .position(|pair| pair == b"*/")
-                .map_or(bytes.len(), |end| index + 2 + end + 2);
-            out.extend(bytes[index..end].iter().filter(|&&b| b == b'\n'));
-            end
+    let without_comments = scan(text.as_bytes(), |bytes, index, out| {
+        match (bytes[index], bytes.get(index + 1)) {
+            (b'/', Some(b'/')) => bytes[index..]
+                .iter()
+                .position(|&b| b == b'\n')
+                .map_or(bytes.len(), |end| index + end),
+            (b'/', Some(b'*')) => {
+                let end = bytes[index + 2..]
+                    .windows(2)
+                    .position(|pair| pair == b"*/")
+                    .map_or(bytes.len(), |end| index + 2 + end + 2);
+                out.extend(bytes[index..end].iter().filter(|&&b| b == b'\n'));
+                end
+            }
+            _ => index,
         }
-        _ => index,
     });
     let plain = scan(&without_comments, |bytes, index, _| {
         let next = bytes[index + 1..].iter().find(|b| !b.is_ascii_whitespace());
-        if bytes[index] == b',' && matches!(next, Some(b'}' | b']')) { index + 1 } else { index }
+        if bytes[index] == b',' && matches!(next, Some(b'}' | b']')) {
+            index + 1
+        } else {
+            index
+        }
     });
     String::from_utf8(plain).unwrap_or_default()
 }
@@ -158,6 +171,9 @@ mod tests {
     #[test]
     fn malformed_json_is_a_parse_error_on_the_original_line() {
         let error = parse("{\n// comment\n\"packages\": {\"a\": [1,]],\n}", Path::new("bun.lock")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: Some(3), .. })), "{error:?}");
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: Some(3), .. })),
+            "{error:?}"
+        );
     }
 }

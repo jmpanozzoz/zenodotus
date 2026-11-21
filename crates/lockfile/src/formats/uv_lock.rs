@@ -40,12 +40,20 @@ pub(crate) fn parse(text: &str, file: &Path) -> Result<Vec<Entry>, LockfileError
             let source = match package.source {
                 None => Source::Registry,
                 Some(PackageSource { git: Some(git), .. }) => git_fragment(&git),
-                Some(PackageSource { registry: Some(url), .. } | PackageSource { url: Some(url), .. }) => {
-                    registry_source(&url, PYPI_HOSTS)
-                }
+                Some(
+                    PackageSource {
+                        registry: Some(url), ..
+                    }
+                    | PackageSource { url: Some(url), .. },
+                ) => registry_source(&url, PYPI_HOSTS),
                 Some(_) => return None,
             };
-            Some(Entry::from_source(Ecosystem::Pypi, package.name, package.version, source))
+            Some(Entry::from_source(
+                Ecosystem::Pypi,
+                package.name,
+                package.version,
+                source,
+            ))
         })
         .collect())
 }
@@ -75,7 +83,9 @@ mod tests {
                 ),
                 registry("Idna", "3.7"),
                 Entry {
-                    source: Source::Private { url: "https://pypi.acme.dev/simple".to_owned() },
+                    source: Source::Private {
+                        url: "https://pypi.acme.dev/simple".to_owned()
+                    },
                     ..registry("internal-tools", "2.0.0")
                 },
                 Entry::git(
@@ -94,6 +104,9 @@ mod tests {
         let entries = parse("[[package]]\nname = \"a\"\nversion = \"1\"\n", Path::new("uv.lock")).unwrap();
         assert_eq!(entries, [Entry::registry(Ecosystem::Pypi, "a", Some("1"))]);
         let error = parse("version = 1\n[[package]]\nname = \n", Path::new("uv.lock")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: Some(3), .. })), "{error:?}");
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: Some(3), .. })),
+            "{error:?}"
+        );
     }
 }

@@ -100,8 +100,14 @@ mod tests {
     #[test]
     fn a_file_without_pins_is_a_parse_error() {
         let error = parse("{\"version\": 2}", Path::new("Package.resolved")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: None, .. })), "{error:?}");
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: None, .. })),
+            "{error:?}"
+        );
         let error = parse("{\n\"pins\": 1}", Path::new("Package.resolved")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: Some(2), .. })), "{error:?}");
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: Some(2), .. })),
+            "{error:?}"
+        );
     }
 }

@@ -27,7 +27,10 @@ impl Section<'_> {
     /// The source of the gems listed in this section; `None` for `PATH` and non-source sections.
     fn source(&self) -> Option<Source> {
         match self.name {
-            "GEM" => Some(self.remote.map_or(Source::Registry, |remote| registry_source(remote, RUBYGEMS_HOSTS))),
+            "GEM" => Some(
+                self.remote
+                    .map_or(Source::Registry, |remote| registry_source(remote, RUBYGEMS_HOSTS)),
+            ),
             "GIT" => Some(Source::Git {
                 url: self.remote.unwrap_or_default().to_owned(),
                 commit: self.revision.unwrap_or_default().to_owned(),
@@ -53,7 +56,9 @@ pub(crate) fn parse(text: &str) -> GemfileLock {
             section.revision = Some(revision.trim());
         } else if section.name == "RUBY VERSION" {
             let version = line.trim().strip_prefix("ruby ").map(|version| {
-                let end = version.find(|c: char| !(c.is_ascii_digit() || c == '.')).unwrap_or(version.len());
+                let end = version
+                    .find(|c: char| !(c.is_ascii_digit() || c == '.'))
+                    .unwrap_or(version.len());
                 version[..end].to_owned()
             });
             lock.ruby = version;
@@ -107,7 +112,9 @@ mod tests {
                 gem("racc", "1.8.0"),
                 gem("rack", "3.1.3"),
                 Entry {
-                    source: Source::Private { url: "https://gems.acme.dev/".to_owned() },
+                    source: Source::Private {
+                        url: "https://gems.acme.dev/".to_owned()
+                    },
                     ..gem("acme-internal", "2.0.0")
                 },
             ]

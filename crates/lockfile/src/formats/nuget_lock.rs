@@ -60,7 +60,14 @@ mod tests {
 
     #[test]
     fn malformed_json_is_a_parse_error_with_a_line() {
-        let error = parse("{\n\"dependencies\": {\n\"net8.0\": 5\n}}", Path::new("packages.lock.json")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: Some(3), .. })), "{error:?}");
+        let error = parse(
+            "{\n\"dependencies\": {\n\"net8.0\": 5\n}}",
+            Path::new("packages.lock.json"),
+        )
+        .err();
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: Some(3), .. })),
+            "{error:?}"
+        );
     }
 }

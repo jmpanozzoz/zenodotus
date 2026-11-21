@@ -79,3 +79,105 @@ pub enum LockfileError {
         source: std::io::Error,
     },
 }
+
+/// Why a diagnostic was raised, without the details: one value per [`LockfileError`] variant. It lets a caller tell a
+/// symlink from an oversized file, which share the kind `skipped_file`.
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
+pub enum Cause {
+    /// [`LockfileError::NotRegularFile`].
+    NotRegularFile,
+    /// [`LockfileError::TooLarge`].
+    TooLarge,
+    /// [`LockfileError::PathEscapesRoot`].
+    PathEscapesRoot,
+    /// [`LockfileError::GlobRefused`].
+    GlobRefused,
+    /// [`LockfileError::FileLimit`].
+    FileLimit,
+    /// [`LockfileError::TooManyMembers`].
+    TooManyMembers,
+    /// [`LockfileError::Parse`].
+    Parse,
+    /// [`LockfileError::YamlBudget`].
+    YamlBudget,
+    /// [`LockfileError::Io`].
+    Io,
+}
+
+impl LockfileError {
+    /// The variant, without its details.
+    #[must_use]
+    pub const fn cause(&self) -> Cause {
+        match self {
+            Self::NotRegularFile { .. } => Cause::NotRegularFile,
+            Self::TooLarge { .. } => Cause::TooLarge,
+            Self::PathEscapesRoot { .. } => Cause::PathEscapesRoot,
+            Self::GlobRefused { .. } => Cause::GlobRefused,
+            Self::FileLimit { .. } => Cause::FileLimit,
+            Self::TooManyMembers { .. } => Cause::TooManyMembers,
+            Self::Parse { .. } => Cause::Parse,
+            Self::YamlBudget { .. } => Cause::YamlBudget,
+            Self::Io { .. } => Cause::Io,
+        }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn every_error_has_its_own_cause() {
+        let path = || PathBuf::from("f");
+        let errors = [
+            LockfileError::NotRegularFile { path: path() },
+            LockfileError::TooLarge {
+                path: path(),
+                size: 2,
+                limit: 1,
+            },
+            LockfileError::PathEscapesRoot {
+                file: path(),
+                member: "..".to_owned(),
+            },
+            LockfileError::GlobRefused {
+                file: path(),
+                pattern: "**".to_owned(),
+            },
+            LockfileError::FileLimit {
+                path: path(),
+                limit: 64,
+            },
+            LockfileError::TooManyMembers {
+                file: path(),
+                limit: 64,
+            },
+            LockfileError::Parse {
+                file: path(),
+                line: Some(3),
+                message: "bad".to_owned(),
+            },
+            LockfileError::YamlBudget { file: path() },
+            LockfileError::Io {
+                path: path(),
+                source: std::io::Error::other("denied"),
+            },
+        ];
+        let causes: Vec<Cause> = errors.iter().map(LockfileError::cause).collect();
+        assert_eq!(
+            causes,
+            [
+                Cause::NotRegularFile,
+                Cause::TooLarge,
+                Cause::PathEscapesRoot,
+                Cause::GlobRefused,
+                Cause::FileLimit,
+                Cause::TooManyMembers,
+                Cause::Parse,
+                Cause::YamlBudget,
+                Cause::Io,
+            ]
+        );
+        assert_eq!(errors[6].to_string(), "f:3: bad");
+    }
+}

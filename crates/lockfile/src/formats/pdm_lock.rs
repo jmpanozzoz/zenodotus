@@ -91,6 +91,9 @@ mod tests {
     #[test]
     fn malformed_toml_is_a_parse_error_with_a_line() {
         let error = parse("[metadata]\n\n[[package]\n", Path::new("pdm.lock")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: Some(3), .. })), "{error:?}");
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: Some(3), .. })),
+            "{error:?}"
+        );
     }
 }

@@ -6,7 +6,10 @@ use crate::Entry;
 
 /// Whether `part` is a Maven group or artifact id, `[A-Za-z0-9._-]+`.
 fn is_id(part: &str) -> bool {
-    !part.is_empty() && part.bytes().all(|b| b.is_ascii_alphanumeric() || matches!(b, b'.' | b'_' | b'-'))
+    !part.is_empty()
+        && part
+            .bytes()
+            .all(|b| b.is_ascii_alphanumeric() || matches!(b, b'.' | b'_' | b'-'))
 }
 
 /// The `group:artifact` name and the version of a coordinate `group:artifact:version[:classifier][@extension]`.

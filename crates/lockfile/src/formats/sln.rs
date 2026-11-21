@@ -59,6 +59,9 @@ mod tests {
             ["src/App/App.csproj", "src/Lib/Lib.fsproj", "tools/Tool.vbproj"]
         );
         let error = parse_slnx("<Solution>\n<Project>\n", Path::new("Demo.slnx")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: Some(3), .. })), "{error:?}");
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: Some(3), .. })),
+            "{error:?}"
+        );
     }
 }

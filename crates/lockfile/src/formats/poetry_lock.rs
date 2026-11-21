@@ -31,7 +31,7 @@ struct PackageSource {
     resolved_reference: Option<String>,
 }
 
-/// Every package from PyPI, another index or git; directory, file and URL packages are local code.
+/// Every package from the Python Package Index, another index or git; directory, file and URL packages are local code.
 pub(crate) fn parse(text: &str, file: &Path) -> Result<Vec<Entry>, LockfileError> {
     let lockfile: Lockfile = toml(text, file)?;
     Ok(lockfile
@@ -49,7 +49,12 @@ pub(crate) fn parse(text: &str, file: &Path) -> Result<Vec<Entry>, LockfileError
                     _ => return None,
                 },
             };
-            Some(Entry::from_source(Ecosystem::Pypi, package.name, package.version, source))
+            Some(Entry::from_source(
+                Ecosystem::Pypi,
+                package.name,
+                package.version,
+                source,
+            ))
         })
         .collect())
 }
@@ -78,7 +83,9 @@ mod tests {
                     "89abcdef0123456789abcdef0123456789abcdef"
                 ),
                 Entry {
-                    source: Source::Private { url: "https://pypi.acme.dev/simple".to_owned() },
+                    source: Source::Private {
+                        url: "https://pypi.acme.dev/simple".to_owned()
+                    },
                     ..registry("internal-tools", "2.0.0")
                 },
                 registry("requests", "2.32.3"),
@@ -96,6 +103,9 @@ mod tests {
     #[test]
     fn malformed_toml_is_a_parse_error_with_a_line() {
         let error = parse("[[package]]\nname = \"a\"\nversion = [\n", Path::new("poetry.lock")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: Some(3), .. })), "{error:?}");
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: Some(3), .. })),
+            "{error:?}"
+        );
     }
 }

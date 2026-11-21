@@ -33,7 +33,9 @@ fn spec_name(spec: &str) -> Option<&str> {
 /// The `commit=` parameter of a Berry git resolution's fragment.
 fn berry_commit(url: &str) -> Option<&str> {
     let fragment = url.split_once('#')?.1;
-    fragment.split('&').find_map(|parameter| parameter.strip_prefix("commit="))
+    fragment
+        .split('&')
+        .find_map(|parameter| parameter.strip_prefix("commit="))
 }
 
 /// One v1 block: its first spec and the fields that matter.
@@ -163,14 +165,19 @@ mod tests {
                 with_source(
                     "@acme/secret",
                     "1.0.0",
-                    Source::Private { url: "https://npm.acme.dev/@acme/secret/-/secret-1.0.0.tgz#cccc".to_owned() }
+                    Source::Private {
+                        url: "https://npm.acme.dev/@acme/secret/-/secret-1.0.0.tgz#cccc".to_owned()
+                    }
                 ),
                 with_source("widget", "0.4.0", git("https://github.com/acme/widget", WIDGET)),
                 registry("renamed", "2.0.1"),
                 with_source(
                     "glab",
                     "1.0.0",
-                    git("git+https://gitlab.com/acme/glab.git", "89abcdef0123456789abcdef0123456789abcdef")
+                    git(
+                        "git+https://gitlab.com/acme/glab.git",
+                        "89abcdef0123456789abcdef0123456789abcdef"
+                    )
                 ),
             ]
         );
@@ -193,7 +200,10 @@ mod tests {
     #[test]
     fn a_v1_field_outside_a_block_is_a_parse_error_with_its_line() {
         let error = parse("# yarn lockfile v1\n  version \"1\"\n", Path::new("yarn.lock")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: Some(2), .. })), "{error:?}");
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: Some(2), .. })),
+            "{error:?}"
+        );
     }
 
     #[test]

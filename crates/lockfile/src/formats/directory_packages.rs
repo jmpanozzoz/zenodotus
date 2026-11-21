@@ -9,7 +9,7 @@ use crate::Entry;
 use crate::error::LockfileError;
 
 /// The items called one of `kinds` in every `<ItemGroup>` of `project`: the id from `Include`, the version from the
-/// `Version` or `VersionOverride` attribute or a `<Version>` child. An MSBuild property (`$(X)`) or a range leaves
+/// `Version` or `VersionOverride` attribute or a `<Version>` child. A build property (`$(X)`) or a range leaves
 /// the version out.
 pub(crate) fn package_items(project: &Element, kinds: &[&str]) -> Vec<Entry> {
     project
@@ -60,7 +60,14 @@ mod tests {
 
     #[test]
     fn malformed_xml_is_a_parse_error() {
-        let error = parse("<Project>\n<ItemGroup>\n</Project>", Path::new("Directory.Packages.props")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: Some(3), .. })), "{error:?}");
+        let error = parse(
+            "<Project>\n<ItemGroup>\n</Project>",
+            Path::new("Directory.Packages.props"),
+        )
+        .err();
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: Some(3), .. })),
+            "{error:?}"
+        );
     }
 }

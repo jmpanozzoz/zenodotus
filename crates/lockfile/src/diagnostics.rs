@@ -5,7 +5,7 @@ use std::path::PathBuf;
 
 use serde::Serialize;
 
-use crate::error::LockfileError;
+use crate::error::{Cause, LockfileError};
 
 /// What a diagnostic reports.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize)]
@@ -36,6 +36,10 @@ pub struct Diagnostic {
     pub name: Option<String>,
     /// A human-readable explanation.
     pub message: String,
+    /// The error behind a `skipped_file` or `parse_error` diagnostic; `None` for a dependency diagnostic. It is not
+    /// serialized: the kind and the message are the wire form.
+    #[serde(skip)]
+    pub cause: Option<Cause>,
 }
 
 impl Diagnostic {
@@ -47,6 +51,7 @@ impl Diagnostic {
             kind,
             name: Some(name.to_owned()),
             message,
+            cause: None,
         }
     }
 }
@@ -54,6 +59,7 @@ impl Diagnostic {
 impl From<LockfileError> for Diagnostic {
     fn from(error: LockfileError) -> Self {
         let message = error.to_string();
+        let cause = Some(error.cause());
         let (file, line, kind) = match error {
             LockfileError::NotRegularFile { path }
             | LockfileError::TooLarge { path, .. }
@@ -71,6 +77,7 @@ impl From<LockfileError> for Diagnostic {
             kind,
             name: None,
             message,
+            cause,
         }
     }
 }

@@ -76,7 +76,9 @@ mod tests {
             parse(SAMPLE, Path::new("pubspec.lock")).unwrap(),
             [
                 Entry {
-                    source: Source::Private { url: "https://pub.acme.dev".to_owned() },
+                    source: Source::Private {
+                        url: "https://pub.acme.dev".to_owned()
+                    },
                     ..package("acme_internal", "2.0.0")
                 },
                 package("collection", "1.18.0"),
@@ -100,8 +102,18 @@ mod tests {
     #[test]
     fn a_hosted_package_without_a_url_is_public_and_malformed_yaml_has_a_line() {
         let text = "packages:\n  a:\n    source: hosted\n    description: a\n    version: \"1.0.0\"\n";
-        assert_eq!(parse(text, Path::new("pubspec.lock")).unwrap(), [Entry::registry(Ecosystem::Pub, "a", Some("1.0.0"))]);
-        let error = parse("packages:\n  a:\n    source: [1]\n    description: a\n", Path::new("pubspec.lock")).err();
-        assert!(matches!(error, Some(LockfileError::Parse { line: Some(3), .. })), "{error:?}");
+        assert_eq!(
+            parse(text, Path::new("pubspec.lock")).unwrap(),
+            [Entry::registry(Ecosystem::Pub, "a", Some("1.0.0"))]
+        );
+        let error = parse(
+            "packages:\n  a:\n    source: [1]\n    description: a\n",
+            Path::new("pubspec.lock"),
+        )
+        .err();
+        assert!(
+            matches!(error, Some(LockfileError::Parse { line: Some(3), .. })),
+            "{error:?}"
+        );
     }
 }

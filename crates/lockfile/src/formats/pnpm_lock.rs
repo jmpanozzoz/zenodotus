@@ -150,7 +150,9 @@ mod tests {
                 with_source(
                     "@acme/secret",
                     "1.0.0",
-                    Source::Private { url: "https://npm.acme.dev/@acme/secret/-/secret-1.0.0.tgz".to_owned() }
+                    Source::Private {
+                        url: "https://npm.acme.dev/@acme/secret/-/secret-1.0.0.tgz".to_owned()
+                    }
                 ),
                 registry("@babel/core", "7.24.0"),
                 registry("react", "17.0.2"),
@@ -180,7 +182,11 @@ mod tests {
         let text = include_str!("../../../../fixtures/lockfiles/pnpm/pnpm-lock-v6.yaml");
         assert_eq!(
             parse(text, Path::new("pnpm-lock.yaml")).unwrap(),
-            [registry("lodash", "4.17.21"), registry("@types/node", "20.11.0"), registry("lodash", "4.17.21")]
+            [
+                registry("lodash", "4.17.21"),
+                registry("@types/node", "20.11.0"),
+                registry("lodash", "4.17.21")
+            ]
         );
     }
 
