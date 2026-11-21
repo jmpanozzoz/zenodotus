@@ -7,6 +7,12 @@ and versions follow [Semantic Versioning](https://semver.org/).
 
 ### Added
 
+- `zenodotus setup <client>` for Claude Code, Cursor, Codex, VS Code and any stdio client: it prints the registration
+  command or config entry, and with `--write` edits the client's config file after a timestamped backup.
+- Release builds for Linux (x86_64 and aarch64, static musl), macOS (x86_64 and arm64) and Windows (x86_64), with
+  SHA-256 checksums and GitHub build-provenance attestations, and `install.sh`, which checks the checksum and installs
+  into `~/.local/bin` without root.
+- CI runs the quality gates on Linux and macOS, and builds and tests on Windows.
 - `zenodotus` CLI: `init`, `add`, `list`, `sync`, `search`, `serve` and `status`.
 - Sources: local directories, GitHub repositories at a branch, tag or commit, Markdown URLs, `llms.txt` files and
   documentation websites.

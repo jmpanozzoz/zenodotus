@@ -18,6 +18,21 @@ are reduced to their main content and converted to Markdown.
 
 ## Install
 
+On Linux (x86_64, aarch64) and macOS (Intel, Apple silicon), the install script downloads the latest release,
+checks its SHA-256 and installs the binary into `~/.local/bin`, without root:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/jmpanozzoz/zenodotus/main/install.sh | sh
+```
+
+`ZENODOTUS_VERSION=v0.1.0` pins a release and `ZENODOTUS_INSTALL_DIR` changes the directory. On Windows, download
+`zenodotus-x86_64-pc-windows-msvc.zip` from the [releases page](https://github.com/jmpanozzoz/zenodotus/releases) and
+check it against its `.sha256` file. Every archive carries a GitHub build-provenance attestation:
+
+```bash
+gh attestation verify zenodotus-x86_64-unknown-linux-musl.tar.gz --repo jmpanozzoz/zenodotus
+```
+
 From source, with Rust 1.89 or later (inside the repository, rustup switches to the toolchain `rust-toolchain.toml`
 pins, Rust 1.100 with rustfmt, clippy and llvm-tools; set `RUSTUP_TOOLCHAIN` to build with another):
 
@@ -56,31 +71,26 @@ zenodotus status
 | `search <id> <query…>` | Query from the terminal, as `query_docs` does |
 | `serve [--http [ADDR]]` | Serve MCP over stdio, or Streamable HTTP |
 | `status` | Sync status of every version and the index size |
+| `setup <client> [--write] [--command PATH]` | Register zenodotus with an MCP client, or edit its config file after a backup |
 
 Large repositories may need higher fetch limits, for example `tar_max_entries` under `[settings.fetch]` for
 `vercel/next.js`, whose tarball holds about 60,000 entries against a default cap of 50,000.
 
 ## Connect an agent
 
-Claude Code:
+`zenodotus setup <client>` prints the exact command or config entry for `claude-code`, `cursor`, `codex`, `vscode`
+(Copilot) or `generic` (any client that starts MCP servers over stdio), with the path of the installed binary:
 
 ```bash
-claude mcp add zenodotus -- zenodotus serve
+zenodotus setup claude-code    # claude mcp add --scope user zenodotus -- /home/you/.local/bin/zenodotus serve
+zenodotus setup cursor --write # adds the entry to ~/.cursor/mcp.json, after a timestamped backup
 ```
 
-Codex (`~/.codex/config.toml`):
-
-```toml
-[mcp_servers.zenodotus]
-command = "zenodotus"
-args = ["serve"]
-```
-
-Cursor (`.cursor/mcp.json`):
-
-```json
-{ "mcpServers": { "zenodotus": { "command": "zenodotus", "args": ["serve"] } } }
-```
+`--write` edits the config file of Cursor (`~/.cursor/mcp.json`), Codex (`$CODEX_HOME/config.toml`, by default
+`~/.codex/config.toml`) or VS Code (`$COPILOT_HOME/mcp-config.json`, by default `~/.copilot/mcp-config.json`). It
+copies the file to `<file>.<unix time>.bak` first, keeps every other server, and leaves a file that is not valid JSON
+or TOML untouched. A JSON file is rewritten with its keys sorted. Claude Code keeps its own config, so for it
+`setup` only prints the `claude mcp add` command.
 
 For a shared server, run `zenodotus serve --http` (loopback, `127.0.0.1:8080` by default) and point clients at
 `http://127.0.0.1:8080/mcp`. Binding any other address requires `ZENODOTUS_HTTP_TOKEN`, sent by clients as a bearer
