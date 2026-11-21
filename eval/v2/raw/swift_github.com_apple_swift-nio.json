@@ -1,0 +1,825 @@
+{
+  "library": "swift:github.com/apple/swift-nio",
+  "fetched_at": "2026-11-21T17:28:30Z",
+  "questions": [
+    {
+      "question_id": 59119038,
+      "title": "How to use EventLoopFuture in Swift properly?",
+      "accepted_answer_id": 59245791,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/59119038/how-to-use-eventloopfuture-in-swift-properly",
+      "owner": {
+        "display_name": "Maklaus",
+        "link": "https://stackoverflow.com/users/4833237/maklaus"
+      }
+    },
+    {
+      "question_id": 66359560,
+      "title": "Running actions after file stream in Vapor 4",
+      "accepted_answer_id": 67552596,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/66359560/running-actions-after-file-stream-in-vapor-4",
+      "owner": {
+        "display_name": "MAH",
+        "link": "https://stackoverflow.com/users/2888911/mah"
+      }
+    },
+    {
+      "question_id": 51625050,
+      "title": "Creating and consuming a cursor with Vapor 3",
+      "accepted_answer_id": 51628920,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/51625050/creating-and-consuming-a-cursor-with-vapor-3",
+      "owner": {
+        "display_name": "David Monagle",
+        "link": "https://stackoverflow.com/users/600871/david-monagle"
+      }
+    },
+    {
+      "question_id": 59030946,
+      "title": "How do I make the app allow incoming network connections with SwiftNIO?",
+      "accepted_answer_id": 59033429,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/59030946/how-do-i-make-the-app-allow-incoming-network-connections-with-swiftnio",
+      "owner": {
+        "display_name": "user10471707",
+        "link": null
+      }
+    },
+    {
+      "question_id": 66534661,
+      "title": "How do I get `Data` objects into Swift-NIO without making copies?",
+      "accepted_answer_id": 66535327,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/66534661/how-do-i-get-data-objects-into-swift-nio-without-making-copies",
+      "owner": {
+        "display_name": "James Bucanek",
+        "link": "https://stackoverflow.com/users/5484406/james-bucanek"
+      }
+    },
+    {
+      "question_id": 72005208,
+      "title": "Vapor Swift How to Configure Client Connection Timeout",
+      "accepted_answer_id": 72026768,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/72005208/vapor-swift-how-to-configure-client-connection-timeout",
+      "owner": {
+        "display_name": "Wendell",
+        "link": "https://stackoverflow.com/users/9948663/wendell"
+      }
+    },
+    {
+      "question_id": 49265262,
+      "title": "writeDataUnsupported in ChannelInboundHandler (Swift-NIO)",
+      "accepted_answer_id": 49392960,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/49265262/writedataunsupported-in-channelinboundhandler-swift-nio",
+      "owner": {
+        "display_name": "Damiaan Dufaux",
+        "link": "https://stackoverflow.com/users/2616297/damiaan-dufaux"
+      }
+    },
+    {
+      "question_id": 53466997,
+      "title": "Using SwiftNIO and SwiftNIOHTTP2 as an HTTP2 client",
+      "accepted_answer_id": 53468765,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/53466997/using-swiftnio-and-swiftniohttp2-as-an-http2-client",
+      "owner": {
+        "display_name": "strnmn",
+        "link": "https://stackoverflow.com/users/2657815/strnmn"
+      }
+    },
+    {
+      "question_id": 58548813,
+      "title": "SwiftNIO: Send and receive UDP broadcast",
+      "accepted_answer_id": 58549673,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/58548813/swiftnio-send-and-receive-udp-broadcast",
+      "owner": {
+        "display_name": "Lupurus",
+        "link": "https://stackoverflow.com/users/2062613/lupurus"
+      }
+    },
+    {
+      "question_id": 60574239,
+      "title": "Chained Throwing Futures in SwiftNIO &amp; Vapor",
+      "accepted_answer_id": 60574947,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/60574239/chained-throwing-futures-in-swiftnio-vapor",
+      "owner": {
+        "display_name": "GingerBreadMane",
+        "link": "https://stackoverflow.com/users/245948/gingerbreadmane"
+      }
+    },
+    {
+      "question_id": 64852971,
+      "title": "Swift-NIO + WebSocket-Kit: Proper Setup/Cleanup in a Mac App",
+      "accepted_answer_id": 64856268,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/64852971/swift-nio-websocket-kit-proper-setup-cleanup-in-a-mac-app",
+      "owner": {
+        "display_name": "Bryan",
+        "link": "https://stackoverflow.com/users/463439/bryan"
+      }
+    },
+    {
+      "question_id": 62212957,
+      "title": "Getting all values for [EventLoopFuture] before proceeding",
+      "accepted_answer_id": 62213364,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/62212957/getting-all-values-for-eventloopfuture-before-proceeding",
+      "owner": {
+        "display_name": "niklassaers",
+        "link": "https://stackoverflow.com/users/80246/niklassaers"
+      }
+    },
+    {
+      "question_id": 62788064,
+      "title": "iOS 13 Certificate Pinning with Weak Cipher stopped working But works fine in iOS 12",
+      "accepted_answer_id": 62873792,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/62788064/ios-13-certificate-pinning-with-weak-cipher-stopped-working-but-works-fine-in-io",
+      "owner": {
+        "display_name": "iTag",
+        "link": "https://stackoverflow.com/users/3326506/itag"
+      }
+    },
+    {
+      "question_id": 76534719,
+      "title": "EventLoopFuture causing `Invalid state: unable to write message`",
+      "accepted_answer_id": 76535053,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/76534719/eventloopfuture-causing-invalid-state-unable-to-write-message",
+      "owner": {
+        "display_name": "sbarow",
+        "link": "https://stackoverflow.com/users/1186243/sbarow"
+      }
+    },
+    {
+      "question_id": 56658067,
+      "title": "Apple SwiftNIO in CloudRun - is this possible?",
+      "accepted_answer_id": 56658210,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/56658067/apple-swiftnio-in-cloudrun-is-this-possible",
+      "owner": {
+        "display_name": "thstart",
+        "link": "https://stackoverflow.com/users/456710/thstart"
+      }
+    },
+    {
+      "question_id": 57580061,
+      "title": "How to use worker queues in SwiftNIO?",
+      "accepted_answer_id": 57581343,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/57580061/how-to-use-worker-queues-in-swiftnio",
+      "owner": {
+        "display_name": "John Doe",
+        "link": "https://stackoverflow.com/users/10900045/john-doe"
+      }
+    },
+    {
+      "question_id": 59718703,
+      "title": "Swift-NIO TCP Client auto reconnect",
+      "accepted_answer_id": 59751225,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/59718703/swift-nio-tcp-client-auto-reconnect",
+      "owner": {
+        "display_name": "mymbrooks",
+        "link": "https://stackoverflow.com/users/2563692/mymbrooks"
+      }
+    },
+    {
+      "question_id": 59976127,
+      "title": "Rewriting looping blocking code to SwiftNIO style non-blocking code",
+      "accepted_answer_id": 59976506,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/59976127/rewriting-looping-blocking-code-to-swiftnio-style-non-blocking-code",
+      "owner": {
+        "display_name": "niklassaers",
+        "link": "https://stackoverflow.com/users/80246/niklassaers"
+      }
+    },
+    {
+      "question_id": 63022090,
+      "title": "Error when mapping an EventLoopFuture&lt;Type&gt; to an expected Type",
+      "accepted_answer_id": 63035031,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/63022090/error-when-mapping-an-eventloopfuturetype-to-an-expected-type",
+      "owner": {
+        "display_name": "DIV",
+        "link": "https://stackoverflow.com/users/12106958/div"
+      }
+    },
+    {
+      "question_id": 68290563,
+      "title": "channelRead not being called in Swift-NIO Datagram&#39;s ChannelInboundHandler",
+      "accepted_answer_id": 68291046,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/68290563/channelread-not-being-called-in-swift-nio-datagrams-channelinboundhandler",
+      "owner": {
+        "display_name": "Nick",
+        "link": "https://stackoverflow.com/users/2070111/nick"
+      }
+    },
+    {
+      "question_id": 70266983,
+      "title": "Swift Vapor 4 upload , validate , resize an image file",
+      "accepted_answer_id": 70308301,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/70266983/swift-vapor-4-upload-validate-resize-an-image-file",
+      "owner": {
+        "display_name": "mercury",
+        "link": "https://stackoverflow.com/users/4034825/mercury"
+      }
+    },
+    {
+      "question_id": 70414821,
+      "title": "Best practice for sending to connected clients",
+      "accepted_answer_id": 70414989,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/70414821/best-practice-for-sending-to-connected-clients",
+      "owner": {
+        "display_name": "user17718216",
+        "link": null
+      }
+    },
+    {
+      "question_id": 79687489,
+      "title": "Is it safe to transform a struct directly to Data",
+      "accepted_answer_id": 79687577,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/79687489/is-it-safe-to-transform-a-struct-directly-to-data",
+      "owner": {
+        "display_name": "klaaspieter",
+        "link": "https://stackoverflow.com/users/1555903/klaaspieter"
+      }
+    },
+    {
+      "question_id": 53430784,
+      "title": "Add multiple channel pipeline handlers in SwiftNIO similarly as Java Netty",
+      "accepted_answer_id": 53433857,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/53430784/add-multiple-channel-pipeline-handlers-in-swiftnio-similarly-as-java-netty",
+      "owner": {
+        "display_name": "Rui Huang",
+        "link": "https://stackoverflow.com/users/4177480/rui-huang"
+      }
+    },
+    {
+      "question_id": 57574726,
+      "title": "Why is Swift NIO example uses HTTP/2 to HTTP/1 protocol conversion?",
+      "accepted_answer_id": 57574944,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/57574726/why-is-swift-nio-example-uses-http-2-to-http-1-protocol-conversion",
+      "owner": {
+        "display_name": "John Doe",
+        "link": "https://stackoverflow.com/users/10900045/john-doe"
+      }
+    },
+    {
+      "question_id": 58216770,
+      "title": "SwiftNIO: connect is not working if the code is in a class",
+      "accepted_answer_id": 58216981,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/58216770/swiftnio-connect-is-not-working-if-the-code-is-in-a-class",
+      "owner": {
+        "display_name": "Lupurus",
+        "link": "https://stackoverflow.com/users/2062613/lupurus"
+      }
+    },
+    {
+      "question_id": 59434813,
+      "title": "How to use async-http-client",
+      "accepted_answer_id": 59434881,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/59434813/how-to-use-async-http-client",
+      "owner": {
+        "display_name": "Arnold Schmid",
+        "link": "https://stackoverflow.com/users/4837217/arnold-schmid"
+      }
+    },
+    {
+      "question_id": 59634043,
+      "title": "Digest Authentication using async-http-client",
+      "accepted_answer_id": 59635499,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/59634043/digest-authentication-using-async-http-client",
+      "owner": {
+        "display_name": "Arnold Schmid",
+        "link": "https://stackoverflow.com/users/4837217/arnold-schmid"
+      }
+    },
+    {
+      "question_id": 61048732,
+      "title": "TLS CA certificate SSL Pinning using SWIFT-NIO-SSL",
+      "accepted_answer_id": 61049357,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/61048732/tls-ca-certificate-ssl-pinning-using-swift-nio-ssl",
+      "owner": {
+        "display_name": "BlackPearl12",
+        "link": "https://stackoverflow.com/users/5501433/blackpearl12"
+      }
+    },
+    {
+      "question_id": 64126461,
+      "title": "Write a CircularBuffer (swift-nio) to a file in Swift using OutputStream?",
+      "accepted_answer_id": 64127072,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/64126461/write-a-circularbuffer-swift-nio-to-a-file-in-swift-using-outputstream",
+      "owner": {
+        "display_name": "jiko",
+        "link": "https://stackoverflow.com/users/9078901/jiko"
+      }
+    },
+    {
+      "question_id": 64866225,
+      "title": "SwiftNIO: Sent package partially received",
+      "accepted_answer_id": 64892095,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/64866225/swiftnio-sent-package-partially-received",
+      "owner": {
+        "display_name": "Valerio Schips",
+        "link": "https://stackoverflow.com/users/8019174/valerio-schips"
+      }
+    },
+    {
+      "question_id": 65673626,
+      "title": "Does SwiftNIO have a mechanism similar to GCD barriers?",
+      "accepted_answer_id": 65674577,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/65673626/does-swiftnio-have-a-mechanism-similar-to-gcd-barriers",
+      "owner": {
+        "display_name": "user14873944",
+        "link": null
+      }
+    },
+    {
+      "question_id": 65779808,
+      "title": "Swift NIO EventLoopFuture chain not completing",
+      "accepted_answer_id": 65782634,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/65779808/swift-nio-eventloopfuture-chain-not-completing",
+      "owner": {
+        "display_name": "Jerry",
+        "link": "https://stackoverflow.com/users/491754/jerry"
+      }
+    },
+    {
+      "question_id": 66540151,
+      "title": "Remote connection using SwiftNIO SSH",
+      "accepted_answer_id": 66588113,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/66540151/remote-connection-using-swiftnio-ssh",
+      "owner": {
+        "display_name": "Avneet Singh",
+        "link": "https://stackoverflow.com/users/7353793/avneet-singh"
+      }
+    },
+    {
+      "question_id": 69141348,
+      "title": "Swift-NIO based proxy reconfigures pipeline on every incoming request",
+      "accepted_answer_id": 69177629,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/69141348/swift-nio-based-proxy-reconfigures-pipeline-on-every-incoming-request",
+      "owner": {
+        "display_name": "WilliamVH",
+        "link": "https://stackoverflow.com/users/7085222/williamvh"
+      }
+    },
+    {
+      "question_id": 69788095,
+      "title": "Handle Swift-nio server-side TCP connection event and send context data to client",
+      "accepted_answer_id": 69788938,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/69788095/handle-swift-nio-server-side-tcp-connection-event-and-send-context-data-to-clien",
+      "owner": {
+        "display_name": "Jeff Pedigo",
+        "link": "https://stackoverflow.com/users/13995847/jeff-pedigo"
+      }
+    },
+    {
+      "question_id": 70446866,
+      "title": "Is is possible to open SwiftNIO based server socket within XCTest test app?",
+      "accepted_answer_id": 70447456,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/70446866/is-is-possible-to-open-swiftnio-based-server-socket-within-xctest-test-app",
+      "owner": {
+        "display_name": "Tibor Kiss",
+        "link": "https://stackoverflow.com/users/1290047/tibor-kiss"
+      }
+    },
+    {
+      "question_id": 71431197,
+      "title": "How to transfer data between SwiftNIO TCP-server and Python based TCP-client?",
+      "accepted_answer_id": 71431459,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/71431197/how-to-transfer-data-between-swiftnio-tcp-server-and-python-based-tcp-client",
+      "owner": {
+        "display_name": "spt025",
+        "link": "https://stackoverflow.com/users/1515891/spt025"
+      }
+    },
+    {
+      "question_id": 72147166,
+      "title": "How to Connect to MySQL database using Swift-Nio",
+      "accepted_answer_id": 72147493,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/72147166/how-to-connect-to-mysql-database-using-swift-nio",
+      "owner": {
+        "display_name": "iDeveloper",
+        "link": "https://stackoverflow.com/users/14164618/ideveloper"
+      }
+    },
+    {
+      "question_id": 72856708,
+      "title": "Appropriate background mode for Swift NIO client",
+      "accepted_answer_id": 72856777,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/72856708/appropriate-background-mode-for-swift-nio-client",
+      "owner": {
+        "display_name": "szagun",
+        "link": "https://stackoverflow.com/users/18929659/szagun"
+      }
+    },
+    {
+      "question_id": 73544486,
+      "title": "SwiftNIO: How &quot;expensive&quot; is transformation in each ChannelHandler?",
+      "accepted_answer_id": 73545164,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/73544486/swiftnio-how-expensive-is-transformation-in-each-channelhandler",
+      "owner": {
+        "display_name": "J&#225;nos",
+        "link": "https://stackoverflow.com/users/239219/j%c3%a1nos"
+      }
+    },
+    {
+      "question_id": 73709279,
+      "title": "Property does not persist in array?",
+      "accepted_answer_id": 73709706,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/73709279/property-does-not-persist-in-array",
+      "owner": {
+        "display_name": "cj-",
+        "link": "https://stackoverflow.com/users/10152911/cj"
+      }
+    },
+    {
+      "question_id": 78582969,
+      "title": "Can I connect to a Swift gRPC server over a local network via Bonjour (zeroconf)?",
+      "accepted_answer_id": 78583095,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/78582969/can-i-connect-to-a-swift-grpc-server-over-a-local-network-via-bonjour-zeroconf",
+      "owner": {
+        "display_name": "justinrschmidt",
+        "link": "https://stackoverflow.com/users/20649244/justinrschmidt"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 79687577,
+      "body": "<p>In a word, no. The code you posted copies the bytes of the internal representation of the structure into Data.</p>\n<p>If you only hold that locally in memory then it might be safe, but if you send it over the network, or save it, you run the risk of compatibility issues. The way a structure is mapped into memory is not guaranteed to be stable across language versions, OS versions, processors, or platforms. Things like the memory size, byte ordering, and word alignment of the values can change without warning.</p>\n<p>If you're looking to see the in-memory representation of a structure then the code you show would be useful. In most other cases it makes more sense to use some sort of platform-independent data serialization.</p>\n",
+      "owner": {
+        "display_name": "Duncan C",
+        "link": "https://stackoverflow.com/users/205185/duncan-c"
+      }
+    },
+    {
+      "answer_id": 78583095,
+      "body": "<p>This is a missing feature, I think. Please file a bug report on the gRPC-swift repo, it should be fairly easy to add.</p>\n",
+      "owner": {
+        "display_name": "Lukasa",
+        "link": "https://stackoverflow.com/users/1401686/lukasa"
+      }
+    },
+    {
+      "answer_id": 76535053,
+      "body": "<p>I'm pretty sure you end up re-ordering messages. Usually, a gRPC request/response will be <code>.metadata(...)</code> followed by <code>.message(...)</code> and finally <code>.end</code>. And the order is important. If you disobey the correct order, you'll get into an illegal state.</p>\n<p>So what could happen to you is the following:</p>\n<ol>\n<li>you receive a <code>.metadata(...)</code> which you don't immediately forward because you asynchronously get the auth token</li>\n<li>you receive the <code>.message(...)</code> which you immediately forward</li>\n<li>(irrelevant because we're already in a bad state) you finish the async auth and forward the augmented <code>.metadata(...)</code></li>\n</ol>\n<p>See what's going on now? You might be forwarding <code>.message</code> <em>before</em> <code>.metadata</code> which is illegal and would get you into that state.</p>\n<p>So how can you fix this? I think you need to manually buffer all further <code>part</code>s you receive until you managed to get the augmented <code>.metadata(...)</code> one out. That's not incredibly hard but also kinda annoying.</p>\n<p>This issue is very similar to what you're doing btw: <a href=\"https://github.com/grpc/grpc-swift/issues/1181\" rel=\"nofollow noreferrer\">https://github.com/grpc/grpc-swift/issues/1181</a></p>\n<p>Particularly this snippet from @glbrntt's response</p>\n<blockquote>\n<p>You'll also have to make sure that within your interceptor you appropriately buffer any request parts to ensure that request parts are sent in the correct oder (i.e. you could receive a request message to send before the asynchronous code to fetch a token has completed).</p>\n</blockquote>\n<hr />\n<p>I filed a number of bugs on gRPC Swift about this:</p>\n<ul>\n<li><a href=\"https://github.com/grpc/grpc-swift/issues/1618\" rel=\"nofollow noreferrer\">https://github.com/grpc/grpc-swift/issues/1618</a></li>\n<li><a href=\"https://github.com/grpc/grpc-swift/issues/1619\" rel=\"nofollow noreferrer\">https://github.com/grpc/grpc-swift/issues/1619</a></li>\n<li><a href=\"https://github.com/grpc/grpc-swift/issues/1620\" rel=\"nofollow noreferrer\">https://github.com/grpc/grpc-swift/issues/1620</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 73709706,
+      "body": "<p>Your struct <code>Receiver</code> is a value type. Everytime it is passed it gets copied (a new instance is created). Manipulating it will alter only the new instance. You avoided that by using <code>inout</code> parameters.</p>\n<p>But with:</p>\n<pre><code>receivers.append(entry)\n</code></pre>\n<p>you are appending a new instance to the array. Modifing <code>entry</code> later on will not affect the instance in the array.</p>\n<p>In this case you should use a <code>class</code>.</p>\n<pre><code>class Receiver {\n    var timeout: Scheduled&lt;Any&gt;?\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "burnsi",
+        "link": "https://stackoverflow.com/users/6950415/burnsi"
+      }
+    },
+    {
+      "answer_id": 73545164,
+      "body": "<p>I think it's useful to use things like an <code>UppercasingHandler</code> when trying to learn and understand SwiftNIO. In the real world however, this is too fine grained for a <code>ChannelHandler</code>.</p>\n<p>Typically, the use-case for a <code>ChannelHandler</code> is usually one of the following (not exhaustive):</p>\n<ul>\n<li>a whole network protocol (example <a href=\"https://github.com/apple/swift-nio-ssl/blob/main/Sources/NIOSSL/NIOSSLClientHandler.swift#L56\" rel=\"nofollow noreferrer\"><code>NIOSSLClientHandler</code></a> which adds TLS for a client connection)</li>\n<li>added value that may be useful with multiple protocols (such as the <code>BackpressureHandler</code>)</li>\n<li>added value that may be useful for debugging (example <a href=\"https://github.com/apple/swift-nio-extras/blob/main/Sources/NIOExtras/WritePCAPHandler.swift#L124\" rel=\"nofollow noreferrer\"><code>NIOWritePCAPHandler</code></a>)</li>\n</ul>\n<p>So whilst the overhead of a <code>ChannelHandler</code> isn't huge, it is definitely not completely free and I would recommend not overusing them. Abstraction is useful but even in a SwiftNIO-based application or library we should try to express everything as <code>ChannelHandler</code>s in a <code>ChannelPipeline</code>.</p>\n<p>The value-add of having something in a <code>ChannelHandler</code> is mostly around reusability (the HTTP/1, HTTP/2, ... implementations don't need to know about TLS), testability (we can test a network protocol without actually needing a network connection) and debuggability (if something goes wrong, we can easily log the inputs/outputs of a <code>ChannelHandler</code>).</p>\n<p>The <code>NIOWritePCAPHandler</code> for example is a great example: In most cases, we don't need it. But if something goes wrong, we can add it in between a TLS handler and say the HTTP/2 handler(s) and we get a plaintext <code>.pcap</code> file without having to touch any code apart from the code that inserts it into the <code>ChannelPipeline</code> which can even be done dynamically after the TCP connection is already established.</p>\n<p>There's absolutely nothing wrong with a very short <code>ChannelPipeline</code>. Many great examples have just a few handlers, for example:</p>\n<p>TLS handler &lt;--&gt; network protocol handler(s) [HTTP/1.1 for example] &lt;--&gt; application handler (business logic)</p>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 72856777,
+      "body": "<p>You haven't overlooked something and this applies to everything, not just SwiftNIO-using apps. On iOS, if an app goes into the background then it will be stopped and network connections will die at some point.</p>\n<p>The only way around that are the mainly VoIP exceptions you mention in (2) which you have to specifically request from Apple.</p>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 72147493,
+      "body": "<p>In the app sandbox, you'll need to enable &quot;Outgoing connections (client)&quot; and then it should work.</p>\n<p><a href=\"https://i.sstatic.net/R2lcV.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/R2lcV.png\" alt=\"outgoing connections\" /></a></p>\n<p>Unfortunately, because of a <a href=\"https://github.com/apple/swift/issues/58724\" rel=\"nofollow noreferrer\">Swift bug</a> the error printout of Swift errors isn't actually useful if you do <code>localizedDescription</code>. To see the actual error, you'd need to put something like a <code>print(error)</code> in your error handler.</p>\n<p>See how in the screenshot below, the <code>print(error)</code> prints actually useful text like <code>connect(descriptor:addr:size:): Operation not permitted (errno: 1)</code> if I don't check the &quot;Outgoing connections (client)&quot;?</p>\n<p><a href=\"https://i.sstatic.net/efYqt.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/efYqt.png\" alt=\"XCode console\" /></a></p>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 72026768,
+      "body": "<p>Vapor does not expose a per request timeout on the client. You can drop down to use AsyncHTTPClient directly with <code>request.application.http.client</code> and use it <a href=\"https://github.com/swift-server/async-http-client#using-swift-concurrency\" rel=\"nofollow noreferrer\">per the docs</a> to pass a timeout.</p>\n<p>Alternatively you can set a global timeout in <strong>configure.swift</strong> with <code>app.http.client.configuration.timeout</code>. That defaults to a 10s connect timeout but no read timeout.</p>\n<p>Finally you could also reduce the amount of data you're pulling down if the API supports something like pagination</p>\n",
+      "owner": {
+        "display_name": "0xTim",
+        "link": "https://stackoverflow.com/users/1823705/0xtim"
+      }
+    },
+    {
+      "answer_id": 71431459,
+      "body": "<p>If I were you, I'd use HTTP using the <a href=\"https://vapor.codes\" rel=\"nofollow noreferrer\">Vapor</a> web server and any Python HTTP library such as <a href=\"https://docs.python-requests.org/en/master/\" rel=\"nofollow noreferrer\"><code>requests</code></a>. If you do that, then your job will be pretty straightforward. The Vapor community is also super helpful in their <a href=\"http://vapor.team/\" rel=\"nofollow noreferrer\">Discord chat</a>.</p>\n<p>If you really want to do this in a low-level library like SwiftNIO then that's of course possible but you'll need to design a so called &quot;wire protocol&quot; for the framing (ie. when does one JSON message start and end). SwiftNIO is very well equipped for these things but you'll likely need to learn a bunch of things.</p>\n<p>You could for example use NIO Extras' <a href=\"https://github.com/apple/swift-nio-extras/blob/main/Sources/NIOExtras/LineBasedFrameDecoder.swift#L33\" rel=\"nofollow noreferrer\"><code>LineBasedFrameDecoder</code></a> and send each JSON (make sure it doesn't contain newlines) followed by a <code>\\n</code>. Or you could say that you prepend the JSON by say a 32 bit length field (which you could decode using the <a href=\"https://github.com/apple/swift-nio-extras/blob/main/Sources/NIOExtras/LengthFieldBasedFrameDecoder.swift#L74\" rel=\"nofollow noreferrer\"><code>LengthFieldBasedFrameDecoder</code></a>. There are many options...</p>\n<p>You could also implement <a href=\"https://www.jsonrpc.org\" rel=\"nofollow noreferrer\">JSON-RPC</a> and you could get some inside in <a href=\"https://github.com/apple/swift-nio-examples/tree/main/json-rpc\" rel=\"nofollow noreferrer\">this example</a> which is also explained in <a href=\"https://www.youtube.com/watch?v=Rlhlc6NaO4w\" rel=\"nofollow noreferrer\">this talk</a>.</p>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 70447456,
+      "body": "<p>Yes, that is possible, you can find many examples of this in the <a href=\"https://github.com/swift-server/async-http-client\" rel=\"nofollow noreferrer\">AsyncHTTPClient</a> and SwiftNIO test suites.</p>\n<p>The reason that yours doesn't work is because you shut down the <code>MultiThreadedEventLoopGroup</code> right after binding the socket. So essentially you're starting everything up and then you shut it down again.</p>\n<p>Also, for unit tests, I'd recommend binding to <code>127.0.0.1</code> only because you probably don't want connections from elsewhere. Another good idea is to use an ephemeral port, ie. have the system pick a free, random port automatically. You can achieve this by specifying port <code>0</code>. After you <code>bind</code> the server <code>Channel</code> you can then interrogate the server channel by using <code>serverChannel.localAddress?.port!</code> about the port it picked.</p>\n<p>Here's a full example with a client and a server in a test case.</p>\n<pre class=\"lang-swift prettyprint-override\"><code>import XCTest\nimport NIO\n\nfinal class ExampleTests: XCTestCase {\n    // We keep the `EventLoopGroup` where all the I/O runs alive during the test\n    private var group: EventLoopGroup!\n    \n    // Same for the server channel.\n    private var serverChannel: Channel!\n    private var serverAddress: SocketAddress {\n        return self.serverChannel.localAddress!\n    }\n    \n    // We set up the server in `setUp`...\n    override func setUp() {\n        self.group = MultiThreadedEventLoopGroup(numberOfThreads: 1)\n        XCTAssertNoThrow(self.serverChannel = try ServerBootstrap(group: self.group)\n            .childChannelInitializer { channel in\n                channel.pipeline.addHandler(UppercasingHandler())\n            }\n            .bind(host: &quot;127.0.0.1&quot;, port: 0) // port 0 means: pick a free port.\n            .wait())\n    }\n    \n    // ... and tear it down in `tearDown`.\n    override func tearDown() {\n        XCTAssertNoThrow(try self.serverChannel?.close().wait())\n        XCTAssertNoThrow(try self.group?.syncShutdownGracefully())\n    }\n    \n    func testExample() throws {\n        // Here we just bootstrap a little client that sends &quot;Hello world!\\n&quot;\n        let clientChannel = try ClientBootstrap(group: self.group)\n            .channelInitializer { channel in\n                channel.pipeline.addHandler(PrintEverythingHandler())\n            }\n            .connect(to: self.serverAddress)\n            .wait()\n        \n        XCTAssertNoThrow(try clientChannel\n                            .writeAndFlush(ByteBuffer(string: &quot;Hello world!\\n&quot;))\n                            .wait())\n        XCTAssertNoThrow(try clientChannel.closeFuture.wait())\n    }\n}\n\n// Just a handler that uses the C `toupper` function which uppercases characters.\nfinal class UppercasingHandler: ChannelInboundHandler {\n    typealias InboundIn = ByteBuffer\n    typealias OutboundOut = ByteBuffer\n    \n    func channelRead(context: ChannelHandlerContext, data: NIOAny) {\n        let inBuffer = self.unwrapInboundIn(data)\n        var outBuffer = context.channel.allocator.buffer(capacity: inBuffer.readableBytes)\n        \n        // Here we just upper case each byte using the C stdlib's `toupper` function.\n        outBuffer.writeBytes(inBuffer.readableBytesView.map { UInt8(toupper(CInt($0))) })\n        \n        context.writeAndFlush(self.wrapOutboundOut(outBuffer),\n                              promise: nil)\n    }\n    \n    // We want to close the connection on any error really.\n    func errorCaught(context: ChannelHandlerContext, error: Error) {\n        print(&quot;server: unexpected error \\(error), closing&quot;)\n        context.close(promise: nil)\n    }\n}\n\n// This handler just prints everything using the `write` system call. And closes the connection on a newline.\nfinal class PrintEverythingHandler: ChannelInboundHandler {\n    typealias InboundIn = ByteBuffer\n    \n    func channelRead(context: ChannelHandlerContext, data: NIOAny) {\n        let inBuffer = self.unwrapInboundIn(data)\n        \n        guard inBuffer.readableBytes &gt; 0 else {\n            return\n        }\n        \n        // We're using Unsafe* stuff here because we're using the `write` system call, which is a C function.\n        _ = inBuffer.withUnsafeReadableBytes { ptr in\n            write(STDOUT_FILENO, ptr.baseAddress!, ptr.count)\n        }\n        \n        // If we see a newline, then let's actually close the connection...\n        if inBuffer.readableBytesView.contains(UInt8(ascii: &quot;\\n&quot;)) {\n            print(&quot;found newline, closing...&quot;)\n            context.close(promise: nil)\n        }\n    }\n    \n    func errorCaught(context: ChannelHandlerContext, error: Error) {\n        print(&quot;client: unexpected error \\(error), closing&quot;)\n        context.close(promise: nil)\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 70414989,
+      "body": "<p>Your questions aren't stupid at all!</p>\n<ol>\n<li><p>Yeah, sharing a <code>ChannelHandler</code> probably counts as &quot;not recommended&quot;. But not because it doesn't work, it's more that it's unusual and probably not something other NIO programmers would expect. But if you're comfortable with it, it's fine. If you're high-performance enough that you worry about the exact number of allocations per <code>Channel</code> then you may be able to save some by sharing handlers. But I really wouldn't optimise the prematurely.</p>\n<p>If you didn't want to share handlers, then you could use multiple handlers that share a reference to some kind of <em>coordinator</em> object. Don't get me wrong, it's really still the same thing: One shared reference across multiple network connections. The only real difference is that testing that may be a little easier and it would possibly feel more natural to other NIO programmers. (In any case be careful to either make sure that all those <code>Channel</code>s are on the same <code>EventLoop</code> or to use external synchronisation (with say a lock, which might not be ideal from a performance point of view).</p>\n</li>\n<li><p><code>write</code> just <em>enqueues</em> some data to be written. <code>flush</code> makes SwiftNIO attempt to send all the previously written data. <code>writeAndFlush</code> simply calls <code>write</code> and then <code>flush</code>.</p>\n<p>Why does NIO distinguish between <code>write</code> and <code>flush</code> at all? In high-performance networking applications, the biggest overhead might be the syscall overhead. And to send data over TCP, SwiftNIO has to do a syscall (<code>write</code>, <code>writev</code>, <code>send</code>, ...).</p>\n<p>Any SwiftNIO program will work if you just ignore <code>write</code> and <code>flush</code> and always use <code>writeAndFlush</code>. But, if the network is keeping up, this will cost you one syscall per <code>writeAndFlush</code> call. In many cases however, a library/app that's using SwiftNIO already knows that it wants to enqueue multiple bits of data to be sent over the network. And in that case doing say three <code>writeAndFlush</code> in a row would be wasteful. If would be much better to accumulate the three bits of data and then send them all in one syscall using a &quot;vector write&quot; (e.g. <code>writev</code> syscall). And that's exactly what SwiftNIO would do if you did say <code>write</code>, <code>write</code>, <code>write</code>, <code>flush</code>. So the three writes will all be sent using one <code>writev</code> system call. SwiftNIO will simply get the three pointers to the bits of data and hand them to the kernel which then attempts to send them over the network.</p>\n<p>You can take this even a little further. Let's assume you're a high-performance server and you want to respond to a flood of incoming requests. You'll get your requests from the client over <code>channelRead</code>. If you're now able to reply synchronously, you could just <code>write</code> them responses (which will enqueue) them. And once you get <code>channelReadComplete</code> (which marks the end of a &quot;read burst&quot;) you can <code>flush</code>. That would allow you to respond to as many requests as you can get in a single read burst using just <em>one</em> <code>writev</code> syscall. This can be quite an important optimisation in certain scenarios.</p>\n</li>\n</ol>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 70308301,
+      "body": "<p>After Two Days of Testing, I am able to do that using <a href=\"https://github.com/twostraws/SwiftGD\" rel=\"nofollow noreferrer\">SwiftGD</a>, So I came up with this .. hope it is useful.</p>\n<p><strong>Image Validation</strong></p>\n<pre><code>// Do not forget to decode the image to File type Not Data type\nlet img = team.img\n\nif img.data.readableBytes &gt; 1000000  {\n    errors.append( &quot;error ... image size should not exceed 1 mb&quot;)\n}\n\nif ![&quot;png&quot;, &quot;jpeg&quot;, &quot;jpg&quot;].contains(img.extension?.lowercased()) {\n    errors.append(&quot;extension is not acceptable&quot;)\n}\n\n    let imageNewNameAndExtension = &quot;\\(UUID())&quot;+&quot;.\\(img.extension!.lowercased())&quot;\n</code></pre>\n<p><strong>The upload an resize part</strong></p>\n<pre><code>// The upload Path\n        let path = req.application.directory.publicDirectory + &quot;uploads/&quot; + imageNewNameAndExtension\n// The path to save the resized img\n        let newPath = req.application.directory.publicDirectory + &quot;uploads/teams/&quot; + imageNewNameAndExtension\n        \n        // SwiftNIO File handle\n        let handle = try await req.application.fileio.openFile(path: path,mode: .write,flags:.allowFileCreation(posixMode:0x744),eventLoop: req.eventLoop).get()\n        \n        // Save the file to the server\n    req.application.fileio.write(fileHandle:handle,buffer:img.data,eventLoop: req.eventLoop).whenSuccess { _ in\n// SwiftGD part to resize the image\n            let url = URL(fileURLWithPath: path)\n            let newUrl = URL(fileURLWithPath: newPath)\n            let image = Image(url: url)\n            if let im = image {\n                if let mg = im.resizedTo(width: 250, height: 250){\n                    mg.write(to: newUrl)\n                }\n            }\n            \n            try? handle.close()\n        }\n</code></pre>\n",
+      "owner": {
+        "display_name": "mercury",
+        "link": "https://stackoverflow.com/users/4034825/mercury"
+      }
+    },
+    {
+      "answer_id": 69788938,
+      "body": "<p>You can put a ChannelHandler into the pipeline of newly connected sockets using <code>channel.pipeline.addHandler(MyHandler())</code> in <code>childChannelInitializer</code> that just sends data using <code>context.writeAndFlush</code> when your ChannelHandler receives the <code>channelActive</code> event. SwiftNIO will send this right when the TCP connection is up.</p>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 69177629,
+      "body": "<p>This question was handled on the swift Forums\n<a href=\"https://forums.swift.org/t/swift-nio-based-proxy-reconfigures-pipeline-on-every-incoming-request/52043\" rel=\"nofollow noreferrer\">https://forums.swift.org/t/swift-nio-based-proxy-reconfigures-pipeline-on-every-incoming-request/52043</a></p>\n<p>Answer by Lukasa:</p>\n<blockquote>\n<p>This is expected behaviour.\nHTTP/2 is multiplexed: this means you can run multiple request/response sequences over the same TCP connection. This manifests in SwiftNIO HTTP/2 in the form of the &quot;stream channel initializer&quot;: this is called once per stream creation. The stream channel initializer here is the trailing closure being passed to configureCommonHTTPServerPipeline.</p>\n</blockquote>\n<blockquote>\n<p>If you would like to create the handlers only once, you can do that. But now your handlers need to support being involved in multiple concurrent requests and responses.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "WilliamVH",
+        "link": "https://stackoverflow.com/users/7085222/williamvh"
+      }
+    },
+    {
+      "answer_id": 58549673,
+      "body": "<p>Yes, that's possible also there's not much support in SwiftNIO to make this easy.\nSee below for a commented example which will send <code>HELLO WORLD</code> once a second to <code>en0</code>'s broadcast address and port 37020.</p>\n<pre class=\"lang-swift prettyprint-override\"><code>import NIO\n\nlet group = MultiThreadedEventLoopGroup(numberOfThreads: 1)\ndefer {\n    try! group.syncShutdownGracefully()\n}\n\nlet matchingInterfaces = try System.enumerateInterfaces().filter {\n    // find an IPv4 interface named en0 that has a broadcast address.\n    $0.name == &quot;en0&quot; &amp;&amp; $0.broadcastAddress != nil\n}\n\nguard let en0Interface = matchingInterfaces.first, let broadcastAddress = en0Interface.broadcastAddress else {\n    print(&quot;ERROR: No suitable interface found. en0 matches \\(matchingInterfaces)&quot;)\n    exit(1)\n}\n\n// let's bind the server socket\nlet server = try! DatagramBootstrap(group: group)\n    // enable broadast\n    .channelOption(ChannelOptions.socket(SOL_SOCKET, SO_BROADCAST), value: 1)\n    .bind(to: en0Interface.address)\n    .wait()\nprint(&quot;bound to \\(server.localAddress!)&quot;)\n\nvar buffer = server.allocator.buffer(capacity: 32)\nbuffer.writeString(&quot;HELLO WORLD!&quot;)\n\nvar destAddr = broadcastAddress\ndestAddr.port = 37020 // we're sending to port 37020\n\n// now let's just send the buffer once a second.\ngroup.next().scheduleRepeatedTask(initialDelay: .seconds(1),\n                                  delay: .seconds(1),\n                                  notifying: nil) { task in\n    server.writeAndFlush(AddressedEnvelope(remoteAddress: destAddr,data: buffer)).map {\n        print(&quot;message sent to \\(destAddr)&quot;)\n    }.whenFailure { error in\n        print(&quot;ERROR: \\(error)&quot;)\n        // and stop if there's an error.\n        task.cancel()\n        server.close(promise: nil)\n    }\n}\n\ntry server.closeFuture.wait()\n</code></pre>\n<p>In case you want to bind to <code>0.0.0.0</code> and send to <code>255.255.255.255</code> you can use this</p>\n<pre class=\"lang-swift prettyprint-override\"><code>import NIO\n\nlet group = MultiThreadedEventLoopGroup(numberOfThreads: 1)\ndefer {\n    try! group.syncShutdownGracefully()\n}\n\n// let's bind the server socket\nlet server = try! DatagramBootstrap(group: group)\n    // enable broadast\n    .channelOption(ChannelOptions.socket(SOL_SOCKET, SO_BROADCAST), value: 1)\n    .bind(to: .init(ipAddress: &quot;0.0.0.0&quot;, port: 0))\n    .wait()\nprint(&quot;bound to \\(server.localAddress!)&quot;)\n\nvar buffer = server.allocator.buffer(capacity: 32)\nbuffer.writeString(&quot;HELLO WORLD!&quot;)\n\n// we're sending to port 37020\nlet destPort = 37020\nlet destAddress = try SocketAddress(ipAddress: &quot;255.255.255.255&quot;, port: destPort)\n\n// now let's just send the buffer once a second.\ngroup.next().scheduleRepeatedTask(initialDelay: .seconds(1),\n                                  delay: .seconds(1),\n                                  notifying: nil) { task in\n    server.writeAndFlush(AddressedEnvelope(remoteAddress: destAddress, data: buffer)).map {\n        print(&quot;message sent to \\(destAddress)&quot;)\n    }.whenFailure { error in\n        print(&quot;ERROR: \\(error)&quot;)\n        // and stop if there's an error.\n        task.cancel()\n        server.close(promise: nil)\n    }\n}\ntry server.closeFuture.wait()\n</code></pre>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 68291046,
+      "body": "<p>I'm assuming you're using Vapor 4 which is based on SwiftNIO 2. And in NIO 2, the <code>ChannelHandlerContext</code> variable is called <code>context</code> and not <code>ctx</code>. So if you just rename all your <code>ctx</code> to <code>context</code>, I'd assume it'll work.</p>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 67552596,
+      "body": "<p>As of a recent release of Vapor, there is now an optional handler that you can use to preform actions on success / failure of download.</p>\n<pre><code>let response = request.fileio.streamFile(at: somepath) { result in\n    switch result {\n        case .success(): //do success processing\n        case .failure(let error): // do failure processing and can print(error)\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "MAH",
+        "link": "https://stackoverflow.com/users/2888911/mah"
+      }
+    },
+    {
+      "answer_id": 66588113,
+      "body": "<p>The implementation is here: <a href=\"https://github.com/apple/swift-nio-ssh\" rel=\"nofollow noreferrer\">https://github.com/apple/swift-nio-ssh</a>. There are some examples in the repository.</p>\n",
+      "owner": {
+        "display_name": "Lukasa",
+        "link": "https://stackoverflow.com/users/1401686/lukasa"
+      }
+    },
+    {
+      "answer_id": 66535327,
+      "body": "<p>You'll need to <code>import NIOFoundationCompat</code> to get any of NIO's method that work with <code>Foundation</code> data types such as <code>Data</code> (or <code>JSONDecoder</code>/<code>JSONEncoder</code>). <code>NIOFoundationCompat</code> is just another module of the <code>swift-nio</code> package so you won't need another dependency.</p>\n<p>But just to be clear, under the hood, there will always be copies but probably you don't need to worry about them, copies are extremely fast on today's CPUs. If you absolutely want to avoid copies, you'll need to create <code>ByteBuffer</code>s straight away. To help you with that, you may want to add where you get your data from that you want to send over the network.</p>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 65782634,
+      "body": "<p>As we figured out together in the comments, it looks like <code>try remoteApi.shutdown()</code> is blocking which prevents anything further from happening.</p>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 65674577,
+      "body": "<p>Yes, SwiftNIO and GCD can absolutely co-exist.</p>\n<p>SwiftNIO is a non-blocking and asynchronous networking framework such that you can run an arbitrary number of tasks/network connections/... on a very small number of threads.</p>\n<p>In fact, you can run any correct SwiftNIO program on just 1 thread (which can even be the main thread if you so choose) and it will work just fine. The only reason to even allow SwiftNIO to use more than one thread is to make use of the CPU resources you pay for anyway. So for example, let's assume you're implementing a network server that is supposed to handle 100,000 connections concurrently and you machine has 4 CPUs. You could totally handle all those 100,000 connections on just one thread and the program would work fine but you would only use one of your four available cores. That makes the program unnecessarily slow and you waste four CPU cores. In this example, I would then recommend to spawn an <code>EventLoopGroup</code> with 4 threads, then 100,000 connections will then be round-robin'd across the four loops meaning that each loop (and therefore thread) should get about 25,000 connections and you have a chance to use all your available hardware resources.</p>\n<p>Regarding your other question on when to trigger one operation after a number of other operations have succeeded: When using SwiftNIO, your operations probably look something like <code>func myOperation() -&gt; EventLoopFuture&lt;Void&gt;</code>, now let's assume you wanted to run <code>myOperation</code> 100 times concurrently and then print &quot;Hello World!&quot; once they have all succeeded. How you'd do that in NIO would be:</p>\n<pre><code>// Spawn `myOperation` 100 times, the array will contain 100 futures which\n// will contain the result (or failure) of the 100 runs of `myOperation`.\nlet hundredOps = (0..&lt;100).map { _ in\n    myOperation()\n}\n\n// Now we do the &quot;barrier&quot;:\nEventLoopFuture&lt;Void&gt;\n    // using `andAllSucceed` we create one future\n    // that will be fulfilled when all of the 100 futures from above are succeeded.\n    .andAllSucceed(hundredOps, on: eventLoop)\n    // And once that &quot;overall future&quot; is succeeded, we print &quot;Hello World!&quot;\n    .whenSuccess {\n        print(&quot;Hello World!&quot;)\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 64892095,
+      "body": "<p>Assuming you're using TCP (that is, using <code>ClientBootstrap</code>), you cannot expect that the boundaries of messages sent by the server will be reflected in your reads. TCP is &quot;stream-oriented&quot;: this means that the messages don't have boundaries at all, they behave just like a stream of data. In the NIO case, that means you would expect to see <em>another</em> read shortly after that contains more data.</p>\n<p>The initial <code>ByteBuffer</code> capacity used for reads is controlled by the <code>RecvByteBufferAllocator</code> used by the <code>Channel</code>. This can be overridden:</p>\n<pre><code>ClientBootstrap(group: group)\n    .channelOption(ChannelOptions.recvAllocator, \n                   AdaptiveRecvByteBufferAllocator(minimum: 1024, initial: 1024, maximum: 65536))\n</code></pre>\n<p>The standard defaults for the <code>AdaptiveRecvByteBufferAllocator</code> in NIO 2.23.0 are a minimum size of 64 bytes, an initial size of 1024 bytes, and a maximum size of 65536 bytes. In general we don't recommend overriding these defaults unless you need to: for TCP NIO will ensure the buffer is appropriately sized for the reads we're seeing.</p>\n",
+      "owner": {
+        "display_name": "Lukasa",
+        "link": "https://stackoverflow.com/users/1401686/lukasa"
+      }
+    },
+    {
+      "answer_id": 64856268,
+      "body": "<blockquote>\n<p>In the test() function, I send some text to all connected clients. I am unsure if this is thread-safe and correct. Can I store the WebSocket instances as I'm doing here and message them from the main thread of my application?</p>\n</blockquote>\n<p>Exactly as you're doing here, yes, that should be safe. <code>ws.eventLoop.execute</code> will execute that block on the event loop thread belonging to that WebSocket connection. This will be safe.</p>\n<blockquote>\n<p>When I call shutdownGracefully() on the associated EventLoopGroup, is that server cleaned up correctly? (I can confirm that port 5759 is free again after this shutdown, so I'm guessing everything is cleaned up?)</p>\n</blockquote>\n<p>Yes. <code>shutdownGracefully</code> forces all connections and listening sockets closed.</p>\n",
+      "owner": {
+        "display_name": "Lukasa",
+        "link": "https://stackoverflow.com/users/1401686/lukasa"
+      }
+    },
+    {
+      "answer_id": 64127072,
+      "body": "<p><a href=\"https://github.com/apple/swift-nio/blob/main/Sources/NIO/CircularBuffer.swift\" rel=\"nofollow noreferrer\"><code>CircularBuffer</code></a> is a struct with an internal <code>ContiguousArray</code> for the element storage. <code>ContiguousArray</code> is also a struct, with internal pointers to the actual element storage.</p>\n<p>Your current code produce garbage  because it returns the memory representation of the <code>struct CircularBuffer</code> itself, and not the bytes of the elements which it represents.</p>\n<p>As a collection, <code>CircularBuffer</code> has a <code>withContiguousStorageIfAvailable()</code> method which calls a closure with a pointer to the element storage <em>if such contiguous storage exists.</em> The closure is called with an <code>UnsafeBufferPointer</code> argument from which you can obtain the <code>baseAddress</code>:</p>\n<pre><code>var buffer: CircularBuffer&lt;UInt8&gt; = ...\nlet os: OutputStream = ...\n// ...\nlet amountWritten =  buffer.withContiguousStorageIfAvailable {\n    os.write($0.baseAddress!, maxLength: $0.count)\n}\n</code></pre>\n<p>But there is a problem: <code>CircularBuffer</code> just inherits the default implementation from <code>Sequence</code> which returns <code>nil</code> without calling the closure. This is a <a href=\"https://github.com/apple/swift-nio/issues/1215\" rel=\"nofollow noreferrer\">known issue</a>. So the above code would compile, but not work.</p>\n<p>A simple way (at the cost of copying the contents) would be to use that you can initialize an array from a collection:</p>\n<pre><code>var buffer: CircularBuffer&lt;UInt8&gt; = ...\nlet os: OutputStream = ...\n// ...\nlet contents = Array(buffer)\nlet amountWritten = os.write(contents, maxLength: contents.count)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Martin R",
+        "link": "https://stackoverflow.com/users/1187415/martin-r"
+      }
+    },
+    {
+      "answer_id": 63035031,
+      "body": "<p>Your issue is that your <code>PageContext</code> type has properties of types <code>[Post]</code> and <code>[Categories]</code>, but you are trying to initialize a <code>PageContext</code> using <code>EventLoopFuture&lt;[Post]&gt;</code> and <code>EventLoopFuture&lt;[Categories]&gt;</code>. What you can do is use NIO's <code>.and</code> method to combine 2 <code>EventLoopFuture</code> objects into 1:</p>\n<pre><code>posts.and(categories) // EventLoopFuture&lt;([Post], [Categories])&gt;\n</code></pre>\n<p>You can then map on this new <code>EventLoopFuture</code> to get the tuple and create your <code>PageContext</code> instance:</p>\n<pre><code>return posts.and(categories).flatMap { posts, categories in\n    let returnContext = PageContext(posts: posts, categories: categories, title: &quot;Blog Posts&quot;)\n    return req.view.render(&quot;Blog/Frontend/Blog&quot;, context)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Caleb Kleveter",
+        "link": "https://stackoverflow.com/users/5236226/caleb-kleveter"
+      }
+    },
+    {
+      "answer_id": 62873792,
+      "body": "<p>Network framework uses BoringSSL internally. On trying to connect with the <strong>weak cipher(TLS_DHE_RSA_WITH_AES_256_GCM_SHA384) that is not supported on iOS 13.0</strong> and above, BoringSSL does not drop the handshake, but instead vends a default cipher array comprising of</p>\n<pre><code>\nTLS_AES_128_GCM_SHA256,\nTLS_AES_256_GCM_SHA384,\nTLS_CHACHA20_POLY1305_SHA256,\nTLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384,\nTLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,\nTLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384,\nTLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256,\nTLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA,\nTLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA,\nTLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256,\nTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,\nTLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,\nTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,\nTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,\nTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,\nTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,\nTLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256,\nTLS_RSA_WITH_AES_256_GCM_SHA384,\nTLS_RSA_WITH_AES_128_GCM_SHA256,\nTLS_RSA_WITH_AES_256_CBC_SHA256,\nTLS_RSA_WITH_AES_128_CBC_SHA256,\nTLS_RSA_WITH_AES_256_CBC_SHA,\nTLS_RSA_WITH_AES_128_CBC_SHA,\nTLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA,\nTLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA,\nTLS_RSA_WITH_3DES_EDE_CBC_SHA\n\n</code></pre>\n<p>The only solution to this is to please try to implement any of the above ciphers on the server side.</p>\n",
+      "owner": {
+        "display_name": "Subha_26",
+        "link": "https://stackoverflow.com/users/10093134/subha-26"
+      }
+    },
+    {
+      "answer_id": 62213364,
+      "body": "<p><code>EventLoopFuture</code>'s got a <a href=\"https://apple.github.io/swift-nio/docs/current/NIO/Classes/EventLoopFuture.html#/s:3NIO15EventLoopFutureC6reduce4into_2on_ACyxGx_SayACyqd__GGAA0bC0_pyxz_qd__tctlFZ\" rel=\"noreferrer\"><code>reduce(into: ...)</code></a> method that can be used quite well for that purpose (and other tasks where you want to accumulate multiple values):</p>\n\n<pre><code>let futureOfStrings: EventLoopFuture&lt;[String]&gt; =\n    EventLoopFuture&lt;String&gt;.reduce(into: Array&lt;String&gt;(),\n                                   futures: myArrayFutureStrings,\n                                   on: someEventLoop,\n                                   { array, nextValue in array.append(nextValue) })   \n</code></pre>\n\n<p>To specifically turn <code>[EventLoopFuture&lt;Something&gt;]</code> into <code>EventLoopFuture&lt;[Something]&gt;</code> you can also use the shorter <a href=\"https://apple.github.io/swift-nio/docs/current/NIO/Classes/EventLoopFuture.html#/s:3NIO15EventLoopFutureC14whenAllSucceed_2onACySayxGGSayACyxGG_AA0bC0_ptFZ\" rel=\"noreferrer\"><code>whenAllSucceed</code></a></p>\n\n<pre><code>let futureOfStrings: EventLoopFuture&lt;[String]&gt; =\n    EventLoopFuture&lt;String&gt;.whenAllSucceed(myStringFutures, on: someEventLoop)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 61049357,
+      "body": "<p>I'm not 100% sure if that's what you're asking but are you trying to connect to a server using a custom CA, you probably want the following <code>TLSConfiguraion</code>:</p>\n\n<pre class=\"lang-swift prettyprint-override\"><code>var tlsConfiguration = TLSConfiguration.forClient()\ntlsConfiguration.trustRoots = .file(\"/tmp/the-ca.pem\") // the CA\n</code></pre>\n\n<p>If you want to verify the certificate chain the the server provides, you should use <a href=\"https://apple.github.io/swift-nio-ssl/docs/current/NIOSSL/Classes/NIOSSLClientHandler.html#/s:6NIOSSL19NIOSSLClientHandlerC7context14serverHostname26customVerificationCallbackAcA13NIOSSLContextC_SSSgySayAA17NIOSSLCertificateCG_3NIO16EventLoopPromiseVyAA24NIOSSLVerificationResultOGtctKcfc\" rel=\"nofollow noreferrer\"><code>NIOSSLClientHandler(context:serverHostname:customVerificationCallback:)</code></a> when creating the <code>NIOSSLClientHandler</code> that you put in your pipeline. The last argument is a <a href=\"https://apple.github.io/swift-nio-ssl/docs/current/NIOSSL/Typealiases.html#/s:6NIOSSL32NIOSSLCustomVerificationCallbacka\" rel=\"nofollow noreferrer\"><code>NIOSSLCustomVerificationCallbackack</code></a> which allows completely overriding the certificate verification logic of BoringSSL, it gets presented the whole certificate chain the remote peer provided.</p>\n\n<p>(Just in case you don't use NIO directly but through another library such as Vapor or AsyncHTTPClient, the above doesn't necessarily make any sense because you don't add the <code>NIOSSLClientHandler</code> yourself.)</p>\n\n<p>At this point, just using a <code>TLSConfiguration</code> does not allow you to implement certificate pinning. You could in theory implement it using the <code>NIOSSLCustomVerificationCallbackack</code> but in practise this may be hard depending on how exactly you're planning to pin.</p>\n\n<p>If you provide some more detail what exactly you want to achieve, I'm happy to expand a bit on this.</p>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 60574947,
+      "body": "<p>The property of <code>map</code> is that it will just transform a value on the “success path”. Your transformation may however fail which means that you presumably want the future to fail too.</p>\n\n<p>Whenever you want to transform a value with a function that either succeeds or fails you need to use one of the <code>flatMap*</code> functions.</p>\n\n<p>In your case, try replacing <code>map</code> with <code>flatMapThrowing</code> and then it should work.</p>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 59976506,
+      "body": "<p>Generally, loops in synchronous programming are turned into recursion to get the same effect with asynchronous programming that uses futures (and also in functional programming).</p>\n\n<p>So your function could look like this:</p>\n\n<pre><code>func readAllNonBlocking(on eventLoop: EventLoop) -&gt; EventLoopFuture&lt;[Byte]&gt; {\n    // The accumulated chunks\n    var accumulatedChunks: [Byte] = []\n\n    // The promise that will hold the overall result\n    let promise = eventLoop.makePromise(of: [Byte].self)\n\n    // We turn the loop into recursion:\n    func loop() {\n        // First, we call `read` to read in the next chunk and hop\n        // over to `eventLoop` so we can safely write to `accumulatedChunks`\n        // without a lock.\n        read().hop(to: eventLoop).map { nextChunk in\n            // Next, we just append the chunk to the accumulation\n            accumulatedChunks.append(contentsOf: nextChunk)\n            guard nextChunk.count &gt; 0 else {\n                promise.succeed(accumulatedChunks)\n                return\n            }\n            // and if it wasn't empty, we loop again.\n            loop()\n        }.cascadeFailure(to: promise) // if anything goes wrong, we fail the whole thing.\n    }\n\n    loop() // Let's kick everything off.\n\n    return promise.futureResult\n}\n</code></pre>\n\n<p>I would like to add two things however:</p>\n\n<p>First, what you're implementing above is to simply read in everything until you see EOF, if that piece of software is exposed to the internet, you should definitely add a limit on how many bytes to hold in memory maximally.</p>\n\n<p>Secondly, SwiftNIO is an event driven system so if you were to read these bytes with SwiftNIO, the program would actually look slightly differently. If you're interested what it looks like to simply accumulate all bytes until EOF in SwiftNIO, it's this:</p>\n\n<pre><code>struct AccumulateUntilEOF: ByteToMessageDecoder {\n    typealias InboundOut = ByteBuffer\n\n    func decode(context: ChannelHandlerContext, buffer: inout ByteBuffer) throws -&gt; DecodingState {\n        // `decode` will be called if new data is coming in.\n        // We simply return `.needMoreData` because always need more data because our message end is EOF.\n        // ByteToMessageHandler will automatically accumulate everything for us because we tell it that we need more\n        // data to decode a message.\n        return .needMoreData\n    }\n\n    func decodeLast(context: ChannelHandlerContext, buffer: inout ByteBuffer, seenEOF: Bool) throws -&gt; DecodingState {\n        // `decodeLast` will be called if NIO knows that this is the _last_ time a decode function is called. Usually,\n        // this is because of EOF or an error.\n        if seenEOF {\n            // This is what we've been waiting for, `buffer` should contain all bytes, let's fire them through\n            // the pipeline.\n            context.fireChannelRead(self.wrapInboundOut(buffer))\n        } else {\n            // Odd, something else happened, probably an error or we were just removed from the pipeline. `buffer`\n            // will now contain what we received so far but maybe we should just drop it on the floor.\n        }\n        buffer.clear()\n        return .needMoreData\n    }\n}\n</code></pre>\n\n<p>If you wanted to make a whole program out of this with SwiftNIO, here's an example that is a server which accepts all data until it sees EOF and then literally just writes back the number of received bytes :). Of course, in the real world you would never hold on to all the received bytes to count them (you could just add each individual piece) but I guess it serves as an example.</p>\n\n<pre><code>import NIO\n\nlet group = MultiThreadedEventLoopGroup(numberOfThreads: 1)\ndefer {\n    try! group.syncShutdownGracefully()\n}\n\nstruct AccumulateUntilEOF: ByteToMessageDecoder {\n    typealias InboundOut = ByteBuffer\n\n    func decode(context: ChannelHandlerContext, buffer: inout ByteBuffer) throws -&gt; DecodingState {\n        // `decode` will be called if new data is coming in.\n        // We simply return `.needMoreData` because always need more data because our message end is EOF.\n        // ByteToMessageHandler will automatically accumulate everything for us because we tell it that we need more\n        // data to decode a message.\n        return .needMoreData\n    }\n\n    func decodeLast(context: ChannelHandlerContext, buffer: inout ByteBuffer, seenEOF: Bool) throws -&gt; DecodingState {\n        // `decodeLast` will be called if NIO knows that this is the _last_ time a decode function is called. Usually,\n        // this is because of EOF or an error.\n        if seenEOF {\n            // This is what we've been waiting for, `buffer` should contain all bytes, let's fire them through\n            // the pipeline.\n            context.fireChannelRead(self.wrapInboundOut(buffer))\n        } else {\n            // Odd, something else happened, probably an error or we were just removed from the pipeline. `buffer`\n            // will now contain what we received so far but maybe we should just drop it on the floor.\n        }\n        buffer.clear()\n        return .needMoreData\n    }\n}\n\n// Just an example \"business logic\" handler. It will wait for one message\n// and just write back the length.\nfinal class SendBackLengthOfFirstInput: ChannelInboundHandler {\n    typealias InboundIn = ByteBuffer\n    typealias OutboundOut = ByteBuffer\n\n    func channelRead(context: ChannelHandlerContext, data: NIOAny) {\n        // Once we receive the message, we allocate a response buffer and just write the length of the received\n        // message in there. We then also close the channel.\n        let allData = self.unwrapInboundIn(data)\n        var response = context.channel.allocator.buffer(capacity: 10)\n        response.writeString(\"\\(allData.readableBytes)\\n\")\n        context.writeAndFlush(self.wrapOutboundOut(response)).flatMap {\n            context.close(mode: .output)\n        }.whenSuccess {\n            context.close(promise: nil)\n        }\n    }\n\n    func errorCaught(context: ChannelHandlerContext, error: Error) {\n        print(\"ERROR: \\(error)\")\n        context.channel.close(promise: nil)\n    }\n}\n\nlet server = try ServerBootstrap(group: group)\n    // Allow us to reuse the port after the process quits.\n    .serverChannelOption(ChannelOptions.socket(.init(SOL_SOCKET), .init(SO_REUSEADDR)), value: 1)\n    // We should allow half-closure because we want to write back after having received an EOF on the input\n    .childChannelOption(ChannelOptions.allowRemoteHalfClosure, value: true)\n    // Our program consists of two parts:\n    .childChannelInitializer { channel in\n        channel.pipeline.addHandlers([\n            // 1: The accumulate everything until EOF handler\n            ByteToMessageHandler(AccumulateUntilEOF(),\n                                 // We want 1 MB of buffering max. If you remove this parameter, it'll also\n                                 // buffer indefinitely.\n                                 maximumBufferSize: 1024 * 1024),\n            // 2: Our \"business logic\"\n            SendBackLengthOfFirstInput()\n        ])\n    }\n    // Let's bind port 9999\n    .bind(to: SocketAddress(ipAddress: \"127.0.0.1\", port: 9999))\n    .wait()\n\n// This will never return.\ntry server.closeFuture.wait()\n</code></pre>\n\n<p>Demo:</p>\n\n<pre><code>$ echo -n \"hello world\" | nc localhost 9999\n11\n</code></pre>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 59751225,
+      "body": "<p>The solution for SwiftNIO will require your handler to attach callbacks to the future returned from <code>connect</code>. These callbacks can close over the repeating task, and so can cancel it when a connection completes. For example:</p>\n\n<pre class=\"lang-swift prettyprint-override\"><code>import Foundation\nimport NIO\n\nfinal class Reconnector {\n    private var task: RepeatedTask? = nil\n    private let bootstrap: ClientBootstrap\n\n    init(bootstrap: ClientBootstrap) {\n        self.bootstrap = bootstrap\n    }\n\n    func reconnect(on loop: EventLoop) {\n        self.task = loop.scheduleRepeatedTask(initialDelay: .seconds(0), delay: .seconds(10)) { task in\n            print(\"reconnecting\")\n            try self._tryReconnect()\n        }\n    }\n\n    private func _tryReconnect() throws {\n        try self.bootstrap.connect(host: SystemUtil.getConfig(key: \"IP\") as! String, port: SystemUtil.getConfig(key: \"TCPPort\") as! Int).whenSuccess { _ in\n            print(\"reconnect successful!\")\n            self.task?.cancel()\n            self.task = nil\n        }\n    }\n}\n\nclass MessageHandler: ChannelInboundHandler {\n    let notificationMessage = NSNotification.Name(rawValue: \"Location\")\n    public typealias InboundIn = ByteBuffer\n    public typealias OutboundOut = ByteBuffer\n    private var numBytes = 0\n    private let reconnect: Reconnector\n\n    init(bootstrap: ClientBootstrap) {\n        self.reconnector = Reconnector(bootstrap: bootstrap)\n    }\n\n    func channelInactive(context: ChannelHandlerContext) {\n        self.reconnector.reconnect()\n        context.fireChannelInactive()\n    }\n\n    public func channelRead(context: ChannelHandlerContext, data: NIOAny) {\n        var buffer = unwrapInboundIn(data)\n        let readableBytes = buffer.readableBytes\n        if let message = buffer.readString(length: readableBytes) {\n            print(message)\n            let dictMessage = [\"Location\": message]\n            NotificationCenter.default.post(name: notificationMessage , object:MessageHandler.self, userInfo: dictMessage)\n        }\n    }\n\n    public func errorCaught(context: ChannelHandlerContext, error: Error) {\n        print(\"error: \", error)\n\n        // As we are not really interested getting notified on success or failure we just pass nil as promise to\n        // reduce allocations.\n        context.close(promise: nil)\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Lukasa",
+        "link": "https://stackoverflow.com/users/1401686/lukasa"
+      }
+    },
+    {
+      "answer_id": 59635499,
+      "body": "<p>I’m afraid that at the moment you do need to make a new request from your delegate. Currently there is no way to automatically send a new request.</p>\n",
+      "owner": {
+        "display_name": "Lukasa",
+        "link": "https://stackoverflow.com/users/1401686/lukasa"
+      }
+    },
+    {
+      "answer_id": 59434881,
+      "body": "<p>It is because the main thread is getting executed before the request is done so no print statement will get called unless you ask the main thread to wait for the httpclient</p>\n\n<p><a href=\"https://github.com/swift-server/async-http-client/issues/129\" rel=\"nofollow noreferrer\">https://github.com/swift-server/async-http-client/issues/129</a></p>\n",
+      "owner": {
+        "display_name": "Hadi Haidar",
+        "link": "https://stackoverflow.com/users/11338123/hadi-haidar"
+      }
+    },
+    {
+      "answer_id": 59245791,
+      "body": "<p>I have one very concrete suggestion, followed by a few general ones. The first, most concrete suggestion is that if you aren't writing NIO code, you probably don't need to create <code>EventLoop</code>s at all. grpc-swift will create its own event loops, and you can simply use those for callback management.</p>\n\n<p>This lets you refactor your <code>readItem</code> code to simply be:</p>\n\n<pre class=\"lang-swift prettyprint-override\"><code>func readItem(id: Int64, eventLoop: EventLoop) -&gt; EventLoopFuture&lt;V1_ReadResponse&gt; {\n    var request = V1_ReadRequest()\n    request.api = \"v1\"\n    request.id = id\n\n    let call = client.read(request, callOptions: callOptions) // client - GRPCClient initialized in the singleton\n    return call.response\n}\n</code></pre>\n\n<p>This is a great simplification of your code, and lets you defer essentially all of the complicated work of managing event loops to grpc-swift, so you can worry about your application code.</p>\n\n<p>Otherwise, here are a few general suggestions:</p>\n\n<h3>Don't shut down event loops you don't own</h3>\n\n<p>At the top of <code>readItem</code> you have this code:</p>\n\n<pre class=\"lang-swift prettyprint-override\"><code>// TODO: Is this the right place?\ndefer {\n    try? eventLoop.syncShutdownGracefully()\n}\n</code></pre>\n\n<p>You can see I deleted it in my example above. That's because this is not the right place for this. Event loops are long-lived objects: they are expensive to construct and shut down, so you want to do that very rarely. In general, you want your event loops to be constructed and owned by a fairly high level object (like an <code>AppDelegate</code>, or some high-level view controller or <code>View</code>). They will then be \"borrowed\" by other components in the system. For your specific app, as I've noted, you probably want your event loops to be owned by grpc-swift, and so you shouldn't be shutting down <em>any</em> event loops, but in general if you take this policy, then a clear rule applies: if you didn't create the <code>EventLoop</code>, don't shut it down. It's not yours, you're just borrowing it.</p>\n\n<p>In fact, in NIO 2.5.0 the NIO team <a href=\"https://github.com/apple/swift-nio/pull/1055\" rel=\"noreferrer\">made it an error</a> to shut down an event loop in this way: if you replaced <code>try?</code> with <code>try!</code> you'd be seeing crashes in your application.</p>\n\n<h3>EventLoopGroups are top-level objects</h3>\n\n<p>In your <code>MyView.getItem</code> function you create a <code>MultiThreadedEventLoopGroup</code>. My advice above is for you to not create your own event loops at all, but if you're going to, this isn't a great place to do so.</p>\n\n<p>For SwiftUI, the best thing to do is to have your <code>EventLoopGroup</code> be an <code>EnvironmentObject</code> that is injected into the view hierarchy by the <code>AppDelegate</code>. Every view that needs an <code>EventLoopGroup</code> can then arrange to extract one from the environment, which allows you to share the event loops across all views in your application.</p>\n\n<h3>Thread safety</h3>\n\n<p><code>EventLoopGroup</code>s use a private pool of their own threads to execute callbacks and application work on. In <code>getItem</code> you modify the view state from within one of these future callbacks, instead of from the main queue.</p>\n\n<p>You should use <code>DispatchQueue.main.async { }</code> to rejoin the main queue before modifying your state. You may want to wrap this in a helper function like this:</p>\n\n<pre class=\"lang-swift prettyprint-override\"><code>extension EventLoopFuture {\n    func always&lt;T&gt;(queue: DispatchQueue, _ body: (Result&lt;T&gt;) -&gt; Void) {\n        return self.always { result in\n            queue.async { body(result) }\n        }\n    }\n}\n</code></pre>\n\n<h3>Callback refactoring</h3>\n\n<p>As a minor quality of life thing, this block of code could be refactored from:</p>\n\n<pre class=\"lang-swift prettyprint-override\"><code>let res = try? response.get()                \nif let resExist = res {\n    self.itemTitle = resExist.item.title\n}\n\n_ = response.mapError{ (err: Error) -&gt; Error in\n    print(\"[Error] Connection error or item not found: \\(err)\")\n    return err\n}\n</code></pre>\n\n<p>to this:</p>\n\n<pre class=\"lang-swift prettyprint-override\"><code>switch response {\ncase .success(let response):\n    self.itemTitle = response.item.title\ncase .failure(let err):\n    print(\"[Error] Connection error or item not found: \\(err)\")\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Lukasa",
+        "link": "https://stackoverflow.com/users/1401686/lukasa"
+      }
+    },
+    {
+      "answer_id": 59033429,
+      "body": "<p>I looked at the <a href=\"http://www.alwaysrightinstitute.com/nio-on-the-client/\" rel=\"nofollow noreferrer\">tutorial</a> and I think you need to bind to <code>0.0.0.0</code> instead of <code>localhost</code>. Doesn't have to do with capabilities nor ATS.</p>\n",
+      "owner": {
+        "display_name": "Unpunny",
+        "link": "https://stackoverflow.com/users/10471679/unpunny"
+      }
+    },
+    {
+      "answer_id": 58216981,
+      "body": "<p>In what context is the original code running? It's unusual to see a <code>defer</code> in an init method, particularly right at the end - it will be executed as soon as init is finished, whereas the defer in your original code will be executed <em>after</em> the do / catch block is performed.</p>\n\n<p>You probably want the shutdown code to be in the <code>deinit</code> method of your <code>Client</code> class. </p>\n",
+      "owner": {
+        "display_name": "jrturton",
+        "link": "https://stackoverflow.com/users/852828/jrturton"
+      }
+    },
+    {
+      "answer_id": 57574944,
+      "body": "<p>HTTP/2 is HTTP(/1) semantics over multiple streams in a single TCP connection (and a new wire protocol). As an option, SwiftNIO therefore can allow you to use the HTTP(/1) data types to handle HTTP/2. That allows you to fully re-use your server/client implementations that you wrote using SwiftNIO and HTTP/1 for HTTP/2 too which for most people is a benefit.</p>\n\n<p>That translation however is absolutely not required. If you prefer to operate on <a href=\"https://apple.github.io/swift-nio-http2/docs/current/NIOHTTP2/Structs/HTTP2Frame/FramePayload.html\" rel=\"nofollow noreferrer\">HTTP2 frames</a> directly, you don't need to add the <code>HTTP2ToHTTP1ServerCodec</code> to your pipeline.</p>\n\n<hr>\n\n<p><em>Later edit</em>: I should also point out that the <code>HTTP2toHTTP1ServerCodec</code> is actually quite a simple piece of code that literally just translates the inbound and outbound messages between HTTP/2 frames and HTTP/1 message parts. <a href=\"https://github.com/apple/swift-nio-http2/blob/master/Sources/NIOHTTP2/HTTP2ToHTTP1Codec.swift#L126-L198\" rel=\"nofollow noreferrer\">Code is here</a>.</p>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 57581343,
+      "body": "<p>The rules in SwiftNIO are:</p>\n\n<ul>\n<li>operations on <code>Channel</code>s are thread-safe, so you can do them from any thread or queue</li>\n<li>operations on <code>ChannelHandlerContext</code> are <em>not</em> thread-safe and should only be done from within the <code>ChannelHandler</code>. All of the <code>ChannelHandler</code>'s events are called on the right <code>EventLoop</code>.</li>\n</ul>\n\n<p>So your example is almost correct, just make sure to only use the <code>Channel</code> and never the <code>ChannelHandlerContext</code> from a <code>DispatchQueue</code> or any other thread (that isn't the channel's <code>EventLoop</code>).</p>\n\n<pre><code>let channel = context.channel // save on the EventLoop\nchannel.getOption(HTTP2StreamChannelOptions.streamID).flatMap { streamID -&gt; EventLoopFuture&lt;Void&gt; in\n    DispatchQueue.global().async {\n        self.send(\"hello world new ok\", to: channel).flatMap {\n            channel.writeAndFlush(HTTPServerResponsePart.end(nil))\n        }.whenComplete {\n            channel.close(promise: nil)\n        }\n    }\n}\n</code></pre>\n\n<p>There's one assumption I'm making here which is that <code>self.send</code> is okay with being called from any thread and doesn't use <code>ChannelHandlerContext</code> that you might have stored on <code>self</code>. To assess if <code>self.send</code> is okay here, I'd need to know what exactly it does.</p>\n\n<hr>\n\n<p>As an aside, in your first code snippet, you have a redundant <code>eventloop.execute</code>:</p>\n\n<pre><code>public func channelRead(context: ChannelHandlerContext, data: NIOAny) {\n   // eventLoop.execute not necessary here\n   context.channel.getOption(HTTP2StreamChannelOptions.streamID).flatMap { streamID -&gt; EventLoopFuture&lt;Void&gt; in \n        // ...\n        var buffer = context.channel.allocator.buffer(capacity: respBody.count)\n        buffer.writeString(respBody)        \n        context.channel.write(self.wrapOutboundOut(HTTPServerResponsePart.body(.byteBuffer(buffer))), promise: nil)\n        return context.channel.writeAndFlush(self.wrapOutboundOut(HTTPServerResponsePart.end(nil)))\n    }.whenComplete { _ in\n        context.close(promise: nil)\n    }\n}\n</code></pre>\n\n<p>The <code>context.eventLoop.execute</code> is unnecessary because any event on a <code>ChannelHandler</code> is <em>always</em> invoked in the correct <code>EventLoop</code>.</p>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 56658210,
+      "body": "<p>Cloud Run doesn't support streaming HTTP/2. It should have up to date ciphers.</p>\n\n<p>I have run Swift on Cloud Run (<a href=\"https://github.com/mcdonamp/running-swift\" rel=\"nofollow noreferrer\">here's an example</a> using Protobufs and client/server swift). It uses Kitura.</p>\n\n<p>Run will likely be cheaper than GCF and GAE, due to concurrency and no billing cliff. Cold start performance will likely be similar across Go and Swift because they're both launching binaries, but I admit I have't </p>\n\n<p>ATS shouldn't be an issue since Run does SSL for you (and <code>.app</code> domains are pretty neat in that I believe they require SSL and HSTS).</p>\n",
+      "owner": {
+        "display_name": "Mike McDonald",
+        "link": "https://stackoverflow.com/users/3875023/mike-mcdonald"
+      }
+    },
+    {
+      "answer_id": 53468765,
+      "body": "<p>That's a very good question! Let's first analyse why this is more complicated than sending a HTTP/1.x request. Broadly speaking these issues fall into two categories:</p>\n\n<ol>\n<li>NIO at the moment makes it more complicated than necessary, therefore much of what I'll write further down can be unintuitive at times. I'm one of the NIO core team and even I had to dig through quite a bit of code to get this fully working, mostly because we still don't have doc generation for <a href=\"https://github.com/apple/swift-nio-ssl/issues/35\" rel=\"noreferrer\"><code>swift-nio-ssl</code></a> and <a href=\"https://github.com/apple/swift-nio-http2/issues/22\" rel=\"noreferrer\"><code>swift-nio-http2</code></a> on <a href=\"http://docs.swiftnio.io\" rel=\"noreferrer\">http://docs.swiftnio.io</a> .</li>\n<li>HTTP/2 is just much more complicated than HTTP/1 and NIO is more a toolbox that can be used to build HTTP clients so we need to use a bunch of tools together to get it all working.</li>\n</ol>\n\n<p>I'll focus on the necessary complexity (2) here and will file bugs/fixes for (1). Let's check what tools we need from the NIO toolbox to get this working:</p>\n\n<ol>\n<li>TLS. No real-world HTTP/2 server will allow you to speak HTTP/2 over plaintext</li>\n<li>ALPN. HTTP/1 and HTTP/2 share the same port (usually <code>443</code>) so we need to tell the server that we want to speak HTTP/2 because for backwards compatibility the default remains HTTP/1. We can do this using a mechanism called <a href=\"https://en.wikipedia.org/wiki/Application-Layer_Protocol_Negotiation\" rel=\"noreferrer\">ALPN (Application-layer Protocol Negotiation)</a>, the other option would be to perform a HTTP/1 upgrade to HTTP2 but that's both more complicated and less performant so let's not do this here</li>\n<li>some HTTP/2 tools: a) open a new HTTP/2 b) HTTP/2 to HTTP/1 message translation c) HTTP/2 multiplexing</li>\n</ol>\n\n<p>The code in your question contains the most important bits, namely 3b and 3c of the above list. But we need to add 1, 2 and 3a so let's do this :)</p>\n\n<p>Let's start with 2) ALPN:</p>\n\n<pre><code>let tlsConfig = TLSConfiguration.forClient(applicationProtocols: [\"h2\"])\nlet sslContext = try SSLContext(configuration: tlsConfig)\n</code></pre>\n\n<p>This is an SSL configuration with the <code>\"h2\"</code> ALPN protocol identifier there which will tell the server that we want to speak HTTP/2 as documented in the <a href=\"https://http2.github.io/http2-spec/#versioning\" rel=\"noreferrer\">HTTP/2 spec</a>.</p>\n\n<p>Ok, let's add TLS with the <code>sslContext</code> set up before:</p>\n\n<pre><code>let sslHandler = try! OpenSSLClientHandler(context: sslContext, serverHostname: hostname)\n</code></pre>\n\n<p>It's also important that we tell the <code>OpenSSLClientHandler</code> the server's hostname so it can validate the certificate properly.</p>\n\n<p>Lastly we need to do 3a (creating a new HTTP/2 stream to issue our request on) which can be easily done using a <code>ChannelHandler</code>:</p>\n\n<pre><code>/// Creates a new HTTP/2 stream when our channel is active and adds the `SendAGETRequestHandler` so a request is sent.\nfinal class CreateRequestStreamHandler: ChannelInboundHandler {\n    typealias InboundIn = Never\n\n    private let multiplexer: HTTP2StreamMultiplexer\n    private let responseReceivedPromise: EventLoopPromise&lt;[HTTPClientResponsePart]&gt;\n\n    init(multiplexer: HTTP2StreamMultiplexer, responseReceivedPromise: EventLoopPromise&lt;[HTTPClientResponsePart]&gt;) {\n        self.multiplexer = multiplexer\n        self.responseReceivedPromise = responseReceivedPromise\n    }\n\n    func channelActive(ctx: ChannelHandlerContext) {\n        func requestStreamInitializer(channel: Channel, streamID: HTTP2StreamID) -&gt; EventLoopFuture&lt;Void&gt; {\n            return channel.pipeline.addHandlers([HTTP2ToHTTP1ClientCodec(streamID: streamID, httpProtocol: .https),\n                                                 SendAGETRequestHandler(responseReceivedPromise: self.responseReceivedPromise)],\n                                                first: false)\n        }\n\n        // this is the most important line: When the channel is active we add the `HTTP2ToHTTP1ClientCodec` to deal in HTTP/1 messages as well as the `SendAGETRequestHandler` which will send a request.\n        self.multiplexer.createStreamChannel(promise: nil, requestStreamInitializer)\n    }\n}\n</code></pre>\n\n<p>Okay, that's the scaffolding done. The <code>SendAGETRequestHandler</code> is the last part which is a handler that will be added as soon as the new HTTP/2 stream that we have opened before has been opened successfully. To see the full response, I also implemented accumulating all bits of the response together into a promise:</p>\n\n<pre><code>/// Fires off a GET request when our stream is active and collects all response parts into a promise.\n///\n/// - warning: This will read the whole response into memory and delivers it into a promise.\nfinal class SendAGETRequestHandler: ChannelInboundHandler {\n    typealias InboundIn = HTTPClientResponsePart\n    typealias OutboundOut = HTTPClientRequestPart\n\n    private let responseReceivedPromise: EventLoopPromise&lt;[HTTPClientResponsePart]&gt;\n    private var responsePartAccumulator: [HTTPClientResponsePart] = []\n\n    init(responseReceivedPromise: EventLoopPromise&lt;[HTTPClientResponsePart]&gt;) {\n        self.responseReceivedPromise = responseReceivedPromise\n    }\n\n    func channelActive(ctx: ChannelHandlerContext) {\n        assert(ctx.channel.parent!.isActive)\n        var reqHead = HTTPRequestHead(version: .init(major: 2, minor: 0), method: .GET, uri: \"/\")\n        reqHead.headers.add(name: \"Host\", value: hostname)\n        ctx.write(self.wrapOutboundOut(.head(reqHead)), promise: nil)\n        ctx.writeAndFlush(self.wrapOutboundOut(.end(nil)), promise: nil)\n    }\n\n    func channelRead(ctx: ChannelHandlerContext, data: NIOAny) {\n        let resPart = self.unwrapInboundIn(data)\n        self.responsePartAccumulator.append(resPart)\n        if case .end = resPart {\n            self.responseReceivedPromise.succeed(result: self.responsePartAccumulator)\n        }\n    }\n}\n</code></pre>\n\n<p>To finish it up, let's set up the client's channel pipeline:</p>\n\n<pre><code>let bootstrap = ClientBootstrap(group: group)\n    .channelInitializer { channel in\n        let myEventLoop = channel.eventLoop\n        let sslHandler = try! OpenSSLClientHandler(context: sslContext, serverHostname: hostname)\n        let http2Parser = HTTP2Parser(mode: .client)\n        let http2Multiplexer = HTTP2StreamMultiplexer { (channel, streamID) -&gt; EventLoopFuture&lt;Void&gt; in\n            return myEventLoop.newSucceededFuture(result: ())\n        }\n        return channel.pipeline.addHandlers([sslHandler,\n                                             http2Parser,\n                                             http2Multiplexer,\n                                             CreateRequestStreamHandler(multiplexer: http2Multiplexer,\n                                                                        responseReceivedPromise: responseReceivedPromise),\n                                             CollectErrorsAndCloseStreamHandler(responseReceivedPromise: responseReceivedPromise)],\n                                            first: false).map {\n\n        }\n}\n</code></pre>\n\n<p>To see a fully working example, I put something together a PR for <a href=\"https://github.com/apple/swift-nio-examples/pull/6/files\" rel=\"noreferrer\"><code>swift-nio-examples/http2-client</code></a>.</p>\n\n<p>Oh, and the reason that NIO was claiming that the other end isn't speaking HTTP/2 properly was the lack of TLS. There was no <code>OpenSSLHandler</code> so NIO was speaking plaintext HTTP/2 to a remote end which was speaking TLS and then the two peers don't understand each other :).</p>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 53433857,
+      "body": "<p>Right, let me go through all the handlers you add to your pipeline in Netty:</p>\n\n<ul>\n<li><code>IdleStateHandler</code>: <a href=\"https://apple.github.io/swift-nio/docs/current/NIO/Classes/IdleStateHandler.html\" rel=\"nofollow noreferrer\">available</a> with <code>import NIO</code> from the <code>swift-nio</code> package</li>\n<li><code>LengthFieldBasedFrameDecoder</code>: right now <a href=\"https://github.com/apple/swift-nio-extras/pull/17\" rel=\"nofollow noreferrer\">in a PR</a> but will be available shortly through <code>import NIOExtras</code> from the <code>swift-nio-extras</code> package</li>\n<li><code>ProtobufDecoder</code>, <code>LengthFieldPrepender</code>, <code>ProtobufEncoder</code>: all currently unavailable but straightforward to implement:</li>\n</ul>\n\n<p><code>LengthFieldPrepender</code>:</p>\n\n<pre><code>    final class LengthFieldPrepender&lt;IntType: FixedWidthInteger&gt;: ChannelOutboundHandler {\n        // we send send and receive ByteBuffers\n        typealias OutboundIn = ByteBuffer\n        typealias OutboundOut = ByteBuffer\n\n        private let endianness: Endianness\n        private var buf: ByteBuffer?\n\n        init(type: IntType.Type = IntType.self, endianness: Endianness = .big) {\n            self.endianness = endianness\n        }\n\n        func handlerAdded(ctx: ChannelHandlerContext) {\n            self.buf = ctx.channel.allocator.buffer(capacity: 8)\n        }\n\n        func write(ctx: ChannelHandlerContext, data: NIOAny, promise: EventLoopPromise&lt;Void&gt;?) {\n            let incomingData = self.unwrapOutboundIn(data)\n\n            // we cache `self.buf` so we might get lucky and save an allocation here if the previous buffer has been fully written already\n            self.buf!.clear()\n            // write the length as the right type\n            self.buf!.write(integer: IntType(incomingData.readableBytes), endianness: self.endianness)\n            ctx.write(self.wrapOutboundOut(self.buf!), promise: nil)\n            // write the actual data\n            ctx.write(data, promise: promise)\n        }\n    }\n</code></pre>\n\n<p><code>ProtobufDecoder</code>:</p>\n\n<pre><code>    import SwiftProtobuf\n    import NIOFoundationCompat // for ByteBuffer.readData\n\n    final class ProtobufDecoder&lt;Msg: SwiftProtobuf.Message&gt;: ChannelInboundHandler {\n        typealias InboundIn = ByteBuffer\n        typealias InboundOut = Msg\n\n        func channelRead(ctx: ChannelHandlerContext, data: NIOAny) {\n            var buffer = self.unwrapInboundIn(data)\n            let data = buffer.readData(length: buffer.readableBytes)!\n            do {\n                // pretty straightforward here, just call the message type's initialiser\n                let req = try Msg(serializedData: data)\n                ctx.fireChannelRead(self.wrapInboundOut(req))\n            } catch {\n                ctx.fireErrorCaught(error)\n            }\n        }\n    }\n</code></pre>\n\n<p><code>ProtobufEncoder</code>:</p>\n\n<pre><code>    import NIOFoundationCompat\n    import SwiftProtobuf\n\n    final class ProtobufEncoder&lt;Msg: SwiftProtobuf.Message&gt;: ChannelOutboundHandler {\n        typealias OutboundIn = Msg\n        typealias OutboundOut = ByteBuffer\n\n        private var buf: ByteBuffer?\n\n        func handlerAdded(ctx: ChannelHandlerContext) {\n            self.buf = ctx.channel.allocator.buffer(capacity: 4096)\n        }\n\n        func write(ctx: ChannelHandlerContext, data: NIOAny, promise: EventLoopPromise&lt;Void&gt;?) {\n            let msg = self.unwrapOutboundIn(data)\n            self.buf!.clear()\n            do {\n                // just use SwiftProtobuf's nice encoder\n                self.buf!.write(bytes: try msg.serializedData())\n                ctx.write(self.wrapOutboundOut(self.buf!), promise: promise)\n            } catch {\n                ctx.fireErrorCaught(error)\n            }\n        }\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 51628920,
+      "body": "<p>Ok, so as you know, the problem lies in these lines:</p>\n\n<pre><code>while ... {\n    ...\n    try connection.raw(\"...\").all(decoding: RecRegAction.self).wait()\n    ...\n}\n</code></pre>\n\n<p>you want to wait for a <em>number of results</em> and therefore you use a <code>while</code> loop and <code>.wait()</code> for all the intermediate results. Essentially, this is turning asynchronous code into synchronous code <em>on the event loop</em>. That is likely leading to deadlocks and will for sure stall other connections which is why SwiftNIO tries to detect that and give you that error. I won't go into the details why it's stalling other connections or why this is likely to lead to deadlocks in this answer.</p>\n\n<p>Let's see what options we have to fix this issue:</p>\n\n<ol>\n<li>as you say, we could just have this <code>.wait()</code> on another thread that isn't one of the event loop threads. For this <em>any</em> non-<code>EventLoop</code> thread would do: Either a <code>DispatchQueue</code> or you could use the <code>BlockingIOThreadPool</code> (which does not run on an <code>EventLoop</code>)</li>\n<li>we could rewrite your code to be asynchronous</li>\n</ol>\n\n<p>Both solutions will work but (1) is really not advisable as you would burn a whole (kernel) thread just to wait for the results. And both <code>Dispatch</code> and <code>BlockingIOThreadPool</code> have a <em>finite</em> number of threads they're willing to spawn so if you do that often enough you might run out of threads so it'll take even longer.</p>\n\n<p>So let's look into how we can call an asynchronous function multiple times whilst accumulating the intermediate results. And then if we have accumulated all the intermediate results continue with all the results.</p>\n\n<p>To make things easier let's look at a function that is very similar to yours. We assume this function to be provided just like in your code</p>\n\n<pre><code>/// delivers partial results (integers) and `nil` if no further elements are available\nfunc deliverPartialResult() -&gt; EventLoopFuture&lt;Int?&gt; {\n    ...\n}\n</code></pre>\n\n<p>what we would like now is a new function</p>\n\n<pre><code>func deliverFullResult() -&gt; EventLoopFuture&lt;[Int]&gt;\n</code></pre>\n\n<p>please note how the <code>deliverPartialResult</code> returns one integer each time and <code>deliverFullResult</code> delivers an array of integers (ie. all the integers). Ok, so how do we write <code>deliverFullResult</code> <em>without</em> calling <code>deliverPartialResult().wait()</code>?</p>\n\n<p>What about this:</p>\n\n<pre><code>func accumulateResults(eventLoop: EventLoop,\n                       partialResultsSoFar: [Int],\n                       getPartial: @escaping () -&gt; EventLoopFuture&lt;Int?&gt;) -&gt; EventLoopFuture&lt;[Int]&gt; {\n    // let's run getPartial once\n    return getPartial().then { partialResult in\n        // we got a partial result, let's check what it is\n        if let partialResult = partialResult {\n            // another intermediate results, let's accumulate and call getPartial again\n            return accumulateResults(eventLoop: eventLoop,\n                                     partialResultsSoFar: partialResultsSoFar + [partialResult],\n                                     getPartial: getPartial)\n        } else {\n            // we've got all the partial results, yay, let's fulfill the overall future\n            return eventLoop.newSucceededFuture(result: partialResultsSoFar)\n        }\n    }\n}\n</code></pre>\n\n<p>Given <code>accumulateResults</code>, implementing <code>deliverFullResult</code> is not too hard anymore:</p>\n\n<pre><code>func deliverFullResult() -&gt; EventLoopFuture&lt;[Int]&gt; {\n    return accumulateResults(eventLoop: myCurrentEventLoop,\n                             partialResultsSoFar: [],\n                             getPartial: deliverPartialResult)\n}\n</code></pre>\n\n<p>But let's look more into what <code>accumulateResults</code> does:</p>\n\n<ol>\n<li>it invokes <code>getPartial</code> once, then when it calls back it</li>\n<li>checks if we have\n\n<ul>\n<li>a partial result in which case we remember it alongside the other <code>partialResultsSoFar</code> and go back to (1)</li>\n<li><code>nil</code> which means <code>partialResultsSoFar</code> is all we get and we return a new succeeded future with everything we have collected so far</li>\n</ul></li>\n</ol>\n\n<p>that's already it really. What we did here is to turn the synchronous loop into asynchronous recursion.</p>\n\n<p>Ok, we looked at a lot of code but how does this relate to your function now?</p>\n\n<p>Believe it or not but this should actually work (untested):</p>\n\n<pre><code>accumulateResults(eventLoop: el, partialResultsSoFar: []) {\n    connection.raw(\"FETCH \\(chunkSize) FROM \\(cursorName)\")\n              .all(decoding: RecRegAction.self)\n              .map { results -&gt; Int? in\n        if results.count &gt; 0 {\n            return results.count\n        } else {\n            return nil\n        }\n   }\n}.map { allResults in\n    return allResults.reduce(0, +)\n}\n</code></pre>\n\n<p>The result of all this will be an <code>EventLoopFuture&lt;Int&gt;</code> which carries the sum of all the intermediate <code>result.count</code>.</p>\n\n<p>Sure, we first collect all your counts into an array to then sum it up (<code>allResults.reduce(0, +)</code>) at the end which is a bit wasteful but also not the end of the world. I left it this way because that makes <code>accumulateResults</code> be usable in other cases where you want to accumulate partial results in an array.</p>\n\n<p>Now one last thing, a real <code>accumulateResults</code> function would probably be generic over the element type and also we can eliminate the <code>partialResultsSoFar</code> parameter for the outer function. What about this?</p>\n\n<pre><code>func accumulateResults&lt;T&gt;(eventLoop: EventLoop,\n                          getPartial: @escaping () -&gt; EventLoopFuture&lt;T?&gt;) -&gt; EventLoopFuture&lt;[T]&gt; {\n    // this is an inner function just to hide it from the outside which carries the accumulator\n    func accumulateResults&lt;T&gt;(eventLoop: EventLoop,\n                              partialResultsSoFar: [T] /* our accumulator */,\n                              getPartial: @escaping () -&gt; EventLoopFuture&lt;T?&gt;) -&gt; EventLoopFuture&lt;[T]&gt; {\n        // let's run getPartial once\n        return getPartial().then { partialResult in\n            // we got a partial result, let's check what it is\n            if let partialResult = partialResult {\n                // another intermediate results, let's accumulate and call getPartial again\n                return accumulateResults(eventLoop: eventLoop,\n                                         partialResultsSoFar: partialResultsSoFar + [partialResult],\n                                         getPartial: getPartial)\n            } else {\n                // we've got all the partial results, yay, let's fulfill the overall future\n                return eventLoop.newSucceededFuture(result: partialResultsSoFar)\n            }\n        }\n    }\n    return accumulateResults(eventLoop: eventLoop, partialResultsSoFar: [], getPartial: getPartial)\n}\n</code></pre>\n\n<p><strong>EDIT</strong>: After your edit your question suggests that you do not actually want to accumulate the intermediate results. So my guess is that instead, you want to do some processing after every intermediate result has been received. If that's what you want to do, maybe try this:</p>\n\n<pre><code>func processPartialResults&lt;T, V&gt;(eventLoop: EventLoop,\n                                 process: @escaping (T) -&gt; EventLoopFuture&lt;V&gt;,\n                                 getPartial: @escaping () -&gt; EventLoopFuture&lt;T?&gt;) -&gt; EventLoopFuture&lt;V?&gt; {\n    func processPartialResults&lt;T, V&gt;(eventLoop: EventLoop,\n                                     soFar: V?,\n                                     process: @escaping (T) -&gt; EventLoopFuture&lt;V&gt;,\n                                     getPartial: @escaping () -&gt; EventLoopFuture&lt;T?&gt;) -&gt; EventLoopFuture&lt;V?&gt; {\n        // let's run getPartial once\n        return getPartial().then { partialResult in\n            // we got a partial result, let's check what it is\n            if let partialResult = partialResult {\n                // another intermediate results, let's call the process function and move on\n                return process(partialResult).then { v in\n                    return processPartialResults(eventLoop: eventLoop, soFar: v, process: process, getPartial: getPartial)\n                }\n            } else {\n                // we've got all the partial results, yay, let's fulfill the overall future\n                return eventLoop.newSucceededFuture(result: soFar)\n            }\n        }\n    }\n    return processPartialResults(eventLoop: eventLoop, soFar: nil, process: process, getPartial: getPartial)\n}\n</code></pre>\n\n<p>This will (as before) run <code>getPartial</code> until it returns <code>nil</code> but instead of accumulating all of <code>getPartial</code>'s results, it calls <code>process</code> which gets the partial result and can do some further processing. The next <code>getPartial</code> call will happen when the <code>EventLoopFuture</code> <code>process</code> returns is fulfilled.</p>\n\n<p>Is that closer to what you would like?</p>\n\n<p>Notes: I used SwiftNIO's <code>EventLoopFuture</code> type here, in Vapor you would just use <code>Future</code> instead but the remainder of the code should be the same.</p>\n",
+      "owner": {
+        "display_name": "Johannes Weiss",
+        "link": "https://stackoverflow.com/users/55925/johannes-weiss"
+      }
+    },
+    {
+      "answer_id": 49392960,
+      "body": "<p>For <code>DatagramChannel</code> you need to wrap your <code>ByteBuffer</code> into an <code>AddressEnvelope</code>. Which also means your ChannelInboundHandler should operate on <code>AddressedEnvelope&lt;ByteBuffer&gt;</code>.</p>\n",
+      "owner": {
+        "display_name": "Norman Maurer",
+        "link": "https://stackoverflow.com/users/1074097/norman-maurer"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1908 @@
+{
+  "library": "nuget:xunit",
+  "fetched_at": "2026-11-21T17:28:17Z",
+  "questions": [
+    {
+      "question_id": 45017295,
+      "title": "Assert an Exception using XUnit",
+      "accepted_answer_id": 45017575,
+      "score": 300,
+      "link": "https://stackoverflow.com/questions/45017295/assert-an-exception-using-xunit",
+      "owner": {
+        "display_name": "wandermonk",
+        "link": "https://stackoverflow.com/users/3957182/wandermonk"
+      }
+    },
+    {
+      "question_id": 4421328,
+      "title": "How do I skip specific tests in xUnit based on current platform",
+      "accepted_answer_id": 4421941,
+      "score": 197,
+      "link": "https://stackoverflow.com/questions/4421328/how-do-i-skip-specific-tests-in-xunit-based-on-current-platform",
+      "owner": {
+        "display_name": "metdos",
+        "link": "https://stackoverflow.com/users/311762/metdos"
+      }
+    },
+    {
+      "question_id": 419659,
+      "title": "xUnit : Assert two List&lt;T&gt; are equal?",
+      "accepted_answer_id": 419717,
+      "score": 179,
+      "link": "https://stackoverflow.com/questions/419659/xunit-assert-two-listt-are-equal",
+      "owner": {
+        "display_name": "Petar Petrov",
+        "link": "https://stackoverflow.com/users/42377/petar-petrov"
+      }
+    },
+    {
+      "question_id": 46653557,
+      "title": "What&#39;s the idiomatic way to verify collection size in xUnit?",
+      "accepted_answer_id": 46654308,
+      "score": 176,
+      "link": "https://stackoverflow.com/questions/46653557/whats-the-idiomatic-way-to-verify-collection-size-in-xunit",
+      "owner": {
+        "display_name": "Tomas Aschan",
+        "link": "https://stackoverflow.com/users/38055/tomas-aschan"
+      }
+    },
+    {
+      "question_id": 29560011,
+      "title": "Visual Studio 2015 or 2017 does not discover unit tests",
+      "accepted_answer_id": 29589576,
+      "score": 170,
+      "link": "https://stackoverflow.com/questions/29560011/visual-studio-2015-or-2017-does-not-discover-unit-tests",
+      "owner": {
+        "display_name": "Fred Kleuver",
+        "link": "https://stackoverflow.com/users/1014758/fred-kleuver"
+      }
+    },
+    {
+      "question_id": 11241781,
+      "title": "Python unittests in Jenkins?",
+      "accepted_answer_id": 19126329,
+      "score": 161,
+      "link": "https://stackoverflow.com/questions/11241781/python-unittests-in-jenkins",
+      "owner": {
+        "display_name": "erikbstack",
+        "link": "https://stackoverflow.com/users/131120/erikbstack"
+      }
+    },
+    {
+      "question_id": 22093843,
+      "title": "Pass complex parameters to [Theory]",
+      "accepted_answer_id": 22093968,
+      "score": 158,
+      "link": "https://stackoverflow.com/questions/22093843/pass-complex-parameters-to-theory",
+      "owner": {
+        "display_name": "zchpit",
+        "link": "https://stackoverflow.com/users/1615452/zchpit"
+      }
+    },
+    {
+      "question_id": 55497800,
+      "title": "Populate IConfiguration for unit tests",
+      "accepted_answer_id": 55497919,
+      "score": 128,
+      "link": "https://stackoverflow.com/questions/55497800/populate-iconfiguration-for-unit-tests",
+      "owner": {
+        "display_name": "monty",
+        "link": "https://stackoverflow.com/users/639019/monty"
+      }
+    },
+    {
+      "question_id": 32256451,
+      "title": "What happened to Assert.DoesNotThrowAsync() in xUnit?",
+      "accepted_answer_id": 65258419,
+      "score": 112,
+      "link": "https://stackoverflow.com/questions/32256451/what-happened-to-assert-doesnotthrowasync-in-xunit",
+      "owner": {
+        "display_name": "der_michael",
+        "link": "https://stackoverflow.com/users/1117968/der-michael"
+      }
+    },
+    {
+      "question_id": 66307477,
+      "title": "How to verify ILogger&lt;T&gt;.Log extension method has been called using Moq?",
+      "accepted_answer_id": 66307704,
+      "score": 97,
+      "link": "https://stackoverflow.com/questions/66307477/how-to-verify-iloggert-log-extension-method-has-been-called-using-moq",
+      "owner": {
+        "display_name": "Question3r",
+        "link": "https://stackoverflow.com/users/7764329/question3r"
+      }
+    },
+    {
+      "question_id": 147969,
+      "title": "Is it idiomatic Ruby to add an assert( ) method to Ruby&#39;s Kernel class?",
+      "accepted_answer_id": 1261375,
+      "score": 94,
+      "link": "https://stackoverflow.com/questions/147969/is-it-idiomatic-ruby-to-add-an-assert-method-to-rubys-kernel-class",
+      "owner": {
+        "display_name": "Andrew Harmel-Law",
+        "link": "https://stackoverflow.com/users/2455/andrew-harmel-law"
+      }
+    },
+    {
+      "question_id": 9190330,
+      "title": "Is there a set of &quot;Lorem ipsums&quot; files for testing character encoding issues?",
+      "accepted_answer_id": 9311446,
+      "score": 87,
+      "link": "https://stackoverflow.com/questions/9190330/is-there-a-set-of-lorem-ipsums-files-for-testing-character-encoding-issues",
+      "owner": {
+        "display_name": "Fabian Barney",
+        "link": "https://stackoverflow.com/users/582675/fabian-barney"
+      }
+    },
+    {
+      "question_id": 11135337,
+      "title": "XUnit Assertion for checking equality of objects",
+      "accepted_answer_id": 11135468,
+      "score": 84,
+      "link": "https://stackoverflow.com/questions/11135337/xunit-assertion-for-checking-equality-of-objects",
+      "owner": {
+        "display_name": "inquisitive",
+        "link": "https://stackoverflow.com/users/167169/inquisitive"
+      }
+    },
+    {
+      "question_id": 5376605,
+      "title": "Unit test exception messages with xUnit",
+      "accepted_answer_id": 6043029,
+      "score": 84,
+      "link": "https://stackoverflow.com/questions/5376605/unit-test-exception-messages-with-xunit",
+      "owner": {
+        "display_name": "sduplooy",
+        "link": "https://stackoverflow.com/users/31770/sduplooy"
+      }
+    },
+    {
+      "question_id": 42203169,
+      "title": "How to implement XUnit descriptive Assert message?",
+      "accepted_answer_id": 42204780,
+      "score": 83,
+      "link": "https://stackoverflow.com/questions/42203169/how-to-implement-xunit-descriptive-assert-message",
+      "owner": {
+        "display_name": "g.pickardou",
+        "link": "https://stackoverflow.com/users/1157814/g-pickardou"
+      }
+    },
+    {
+      "question_id": 51489111,
+      "title": "How to Unit Test with ActionResult&lt;T&gt;?",
+      "accepted_answer_id": 51489502,
+      "score": 70,
+      "link": "https://stackoverflow.com/questions/51489111/how-to-unit-test-with-actionresultt",
+      "owner": {
+        "display_name": "Richard Collette",
+        "link": "https://stackoverflow.com/users/107683/richard-collette"
+      }
+    },
+    {
+      "question_id": 51155987,
+      "title": "The following constructor parameters did not have matching fixture data",
+      "accepted_answer_id": 51165997,
+      "score": 66,
+      "link": "https://stackoverflow.com/questions/51155987/the-following-constructor-parameters-did-not-have-matching-fixture-data",
+      "owner": {
+        "display_name": "MePengusta",
+        "link": "https://stackoverflow.com/users/8353039/mepengusta"
+      }
+    },
+    {
+      "question_id": 34610133,
+      "title": "xUnit Equivalent of MSTest&#39;s Assert.Inconclusive",
+      "accepted_answer_id": 35866216,
+      "score": 64,
+      "link": "https://stackoverflow.com/questions/34610133/xunit-equivalent-of-mstests-assert-inconclusive",
+      "owner": {
+        "display_name": "Muhammad Rehan Saeed",
+        "link": "https://stackoverflow.com/users/1212017/muhammad-rehan-saeed"
+      }
+    },
+    {
+      "question_id": 21291151,
+      "title": "How can I stop the Visual Studio Test Runner when a test hangs",
+      "accepted_answer_id": 21291262,
+      "score": 56,
+      "link": "https://stackoverflow.com/questions/21291151/how-can-i-stop-the-visual-studio-test-runner-when-a-test-hangs",
+      "owner": {
+        "display_name": "citykid",
+        "link": "https://stackoverflow.com/users/857848/citykid"
+      }
+    },
+    {
+      "question_id": 47828374,
+      "title": "Xunit 2.3.0 Unable to pass dates as inline params",
+      "accepted_answer_id": 47835325,
+      "score": 55,
+      "link": "https://stackoverflow.com/questions/47828374/xunit-2-3-0-unable-to-pass-dates-as-inline-params",
+      "owner": {
+        "display_name": "Wijitha",
+        "link": "https://stackoverflow.com/users/1686073/wijitha"
+      }
+    },
+    {
+      "question_id": 42262651,
+      "title": "How do you filter xunit tests by trait with &quot;dotnet test&quot;?",
+      "accepted_answer_id": 42287012,
+      "score": 55,
+      "link": "https://stackoverflow.com/questions/42262651/how-do-you-filter-xunit-tests-by-trait-with-dotnet-test",
+      "owner": {
+        "display_name": "natemcmaster",
+        "link": "https://stackoverflow.com/users/2526265/natemcmaster"
+      }
+    },
+    {
+      "question_id": 11205659,
+      "title": "how to debug with xUnit?",
+      "accepted_answer_id": 11205725,
+      "score": 54,
+      "link": "https://stackoverflow.com/questions/11205659/how-to-debug-with-xunit",
+      "owner": {
+        "display_name": "chronodekar",
+        "link": "https://stackoverflow.com/users/198660/chronodekar"
+      }
+    },
+    {
+      "question_id": 43680174,
+      "title": "Entity Framework Core: Log queries for a single db context instance",
+      "accepted_answer_id": 66525886,
+      "score": 51,
+      "link": "https://stackoverflow.com/questions/43680174/entity-framework-core-log-queries-for-a-single-db-context-instance",
+      "owner": {
+        "display_name": "codeape",
+        "link": "https://stackoverflow.com/users/3571/codeape"
+      }
+    },
+    {
+      "question_id": 47894776,
+      "title": "Xunit Unit Tests will not run",
+      "accepted_answer_id": 48333576,
+      "score": 51,
+      "link": "https://stackoverflow.com/questions/47894776/xunit-unit-tests-will-not-run",
+      "owner": {
+        "display_name": "CMR",
+        "link": "https://stackoverflow.com/users/6490119/cmr"
+      }
+    },
+    {
+      "question_id": 46926852,
+      "title": "xunit constructor runs before each test",
+      "accepted_answer_id": 46974218,
+      "score": 50,
+      "link": "https://stackoverflow.com/questions/46926852/xunit-constructor-runs-before-each-test",
+      "owner": {
+        "display_name": "Mojtaba Khooryani",
+        "link": "https://stackoverflow.com/users/3826059/mojtaba-khooryani"
+      }
+    },
+    {
+      "question_id": 4183656,
+      "title": "How to attach a message to RSpec check?",
+      "accepted_answer_id": 4183970,
+      "score": 46,
+      "link": "https://stackoverflow.com/questions/4183656/how-to-attach-a-message-to-rspec-check",
+      "owner": {
+        "display_name": "Alexey",
+        "link": "https://stackoverflow.com/users/126529/alexey"
+      }
+    },
+    {
+      "question_id": 37169164,
+      "title": "How to combine AutoDataAttribute with InlineData",
+      "accepted_answer_id": 37169582,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/37169164/how-to-combine-autodataattribute-with-inlinedata",
+      "owner": {
+        "display_name": "zlZimon",
+        "link": "https://stackoverflow.com/users/3253917/zlzimon"
+      }
+    },
+    {
+      "question_id": 41302319,
+      "title": "ExpectedException xunit .net core",
+      "accepted_answer_id": 41303035,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/41302319/expectedexception-xunit-net-core",
+      "owner": {
+        "display_name": "Timur Lemeshko",
+        "link": "https://stackoverflow.com/users/1111823/timur-lemeshko"
+      }
+    },
+    {
+      "question_id": 15092438,
+      "title": "Using ReSharper, how to show debug output during a long-running unit test?",
+      "accepted_answer_id": 55696958,
+      "score": 43,
+      "link": "https://stackoverflow.com/questions/15092438/using-resharper-how-to-show-debug-output-during-a-long-running-unit-test",
+      "owner": {
+        "display_name": "Matt Johnson-Pint",
+        "link": "https://stackoverflow.com/users/634824/matt-johnson-pint"
+      }
+    },
+    {
+      "question_id": 39378873,
+      "title": "How to get content value in Xunit when result returned in IActionResult type",
+      "accepted_answer_id": 39380332,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/39378873/how-to-get-content-value-in-xunit-when-result-returned-in-iactionresult-type",
+      "owner": {
+        "display_name": "Julie C.",
+        "link": "https://stackoverflow.com/users/6506156/julie-c"
+      }
+    },
+    {
+      "question_id": 15547383,
+      "title": "Comparing Two objects using Assert.AreEqual()",
+      "accepted_answer_id": 15547824,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/15547383/comparing-two-objects-using-assert-areequal",
+      "owner": {
+        "display_name": "Vishweshwar Kapse",
+        "link": "https://stackoverflow.com/users/2010194/vishweshwar-kapse"
+      }
+    },
+    {
+      "question_id": 69991983,
+      "title": "Deps File Missing for Dotnet 6 Integration Tests",
+      "accepted_answer_id": 70026704,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/69991983/deps-file-missing-for-dotnet-6-integration-tests",
+      "owner": {
+        "display_name": "anon_241C427E5F7241D3A70ED4967",
+        "link": null
+      }
+    },
+    {
+      "question_id": 57063306,
+      "title": "How do I create .NET framework 4.6 version of XUnit project in Visual Studio 2019?",
+      "accepted_answer_id": 57063368,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/57063306/how-do-i-create-net-framework-4-6-version-of-xunit-project-in-visual-studio-201",
+      "owner": {
+        "display_name": "Ross Gustafson",
+        "link": "https://stackoverflow.com/users/1608969/ross-gustafson"
+      }
+    },
+    {
+      "question_id": 50921675,
+      "title": "Dependency injection in Xunit project",
+      "accepted_answer_id": 50922017,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/50921675/dependency-injection-in-xunit-project",
+      "owner": {
+        "display_name": "Bob5421",
+        "link": "https://stackoverflow.com/users/4746206/bob5421"
+      }
+    },
+    {
+      "question_id": 12379949,
+      "title": "How to run setup code only once in an xUnit.net test",
+      "accepted_answer_id": 12380351,
+      "score": 33,
+      "link": "https://stackoverflow.com/questions/12379949/how-to-run-setup-code-only-once-in-an-xunit-net-test",
+      "owner": {
+        "display_name": "Chris",
+        "link": "https://stackoverflow.com/users/518341/chris"
+      }
+    },
+    {
+      "question_id": 6509327,
+      "title": "xUnit framework: Equivalent of [TestFixtureSetUp] of NUnit in XUnit?",
+      "accepted_answer_id": 6515367,
+      "score": 33,
+      "link": "https://stackoverflow.com/questions/6509327/xunit-framework-equivalent-of-testfixturesetup-of-nunit-in-xunit",
+      "owner": {
+        "display_name": "user819492",
+        "link": null
+      }
+    },
+    {
+      "question_id": 46749152,
+      "title": "xUnit - Display test names for theory memberdata (TestCase)",
+      "accepted_answer_id": 46750224,
+      "score": 32,
+      "link": "https://stackoverflow.com/questions/46749152/xunit-display-test-names-for-theory-memberdata-testcase",
+      "owner": {
+        "display_name": "Reft",
+        "link": "https://stackoverflow.com/users/3276084/reft"
+      }
+    },
+    {
+      "question_id": 41462468,
+      "title": ".Net core library: How to test private methods using xUnit",
+      "accepted_answer_id": 41462971,
+      "score": 32,
+      "link": "https://stackoverflow.com/questions/41462468/net-core-library-how-to-test-private-methods-using-xunit",
+      "owner": {
+        "display_name": "Perez Lamed van Niekerk",
+        "link": "https://stackoverflow.com/users/5161333/perez-lamed-van-niekerk"
+      }
+    },
+    {
+      "question_id": 36629391,
+      "title": "How to mock ActionExecutingContext with Moq?",
+      "accepted_answer_id": 39491397,
+      "score": 31,
+      "link": "https://stackoverflow.com/questions/36629391/how-to-mock-actionexecutingcontext-with-moq",
+      "owner": {
+        "display_name": "yokomizor",
+        "link": "https://stackoverflow.com/users/2213855/yokomizor"
+      }
+    },
+    {
+      "question_id": 16484839,
+      "title": "Get name of running test in Xunit",
+      "accepted_answer_id": 26042654,
+      "score": 30,
+      "link": "https://stackoverflow.com/questions/16484839/get-name-of-running-test-in-xunit",
+      "owner": {
+        "display_name": "Julian Lettner",
+        "link": "https://stackoverflow.com/users/271968/julian-lettner"
+      }
+    },
+    {
+      "question_id": 53955469,
+      "title": "&quot;dotnet test&quot;: how to run xunit tests projects in parallel?",
+      "accepted_answer_id": 53957938,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/53955469/dotnet-test-how-to-run-xunit-tests-projects-in-parallel",
+      "owner": {
+        "display_name": "Deivydas Voroneckis",
+        "link": "https://stackoverflow.com/users/4333033/deivydas-voroneckis"
+      }
+    },
+    {
+      "question_id": 15513030,
+      "title": "How to compare lists using fluent-assertions?",
+      "accepted_answer_id": 15516453,
+      "score": 28,
+      "link": "https://stackoverflow.com/questions/15513030/how-to-compare-lists-using-fluent-assertions",
+      "owner": {
+        "display_name": "setebos",
+        "link": "https://stackoverflow.com/users/837813/setebos"
+      }
+    },
+    {
+      "question_id": 57001556,
+      "title": "Unsupported expression: Non-overridable members (here: ) may not be used in setup / verification expressions",
+      "accepted_answer_id": 57001746,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/57001556/unsupported-expression-non-overridable-members-here-may-not-be-used-in-setu",
+      "owner": {
+        "display_name": "chandra sekhar",
+        "link": "https://stackoverflow.com/users/11770301/chandra-sekhar"
+      }
+    },
+    {
+      "question_id": 46169169,
+      "title": ".net core 2.0 ConfigureLogging xunit test",
+      "accepted_answer_id": 46172875,
+      "score": 26,
+      "link": "https://stackoverflow.com/questions/46169169/net-core-2-0-configurelogging-xunit-test",
+      "owner": {
+        "display_name": "Mads",
+        "link": "https://stackoverflow.com/users/146533/mads"
+      }
+    },
+    {
+      "question_id": 45127849,
+      "title": "Xunit Namespace Could not be Found in Visual Studio Code",
+      "accepted_answer_id": 45128357,
+      "score": 26,
+      "link": "https://stackoverflow.com/questions/45127849/xunit-namespace-could-not-be-found-in-visual-studio-code",
+      "owner": {
+        "display_name": "areller",
+        "link": "https://stackoverflow.com/users/4158603/areller"
+      }
+    },
+    {
+      "question_id": 55923307,
+      "title": "xUnit test using data coming from external file",
+      "accepted_answer_id": 55924060,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/55923307/xunit-test-using-data-coming-from-external-file",
+      "owner": {
+        "display_name": "Ruber",
+        "link": "https://stackoverflow.com/users/10453057/ruber"
+      }
+    },
+    {
+      "question_id": 38596406,
+      "title": "xUnit Assert.All() async",
+      "accepted_answer_id": 75135666,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/38596406/xunit-assert-all-async",
+      "owner": {
+        "display_name": "J2ghz",
+        "link": "https://stackoverflow.com/users/4363604/j2ghz"
+      }
+    },
+    {
+      "question_id": 598863,
+      "title": "Why Fit/FitNesse?",
+      "accepted_answer_id": 598926,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/598863/why-fit-fitnesse",
+      "owner": {
+        "display_name": "Artem Tikhomirov",
+        "link": "https://stackoverflow.com/users/2313/artem-tikhomirov"
+      }
+    },
+    {
+      "question_id": 58913741,
+      "title": "Output logs to Xunit using Serilog Static Logger",
+      "accepted_answer_id": 59567049,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/58913741/output-logs-to-xunit-using-serilog-static-logger",
+      "owner": {
+        "display_name": "aspirant_sensei",
+        "link": "https://stackoverflow.com/users/1018912/aspirant-sensei"
+      }
+    },
+    {
+      "question_id": 54064138,
+      "title": "How to pass parameters to the dotnet test command while using NUnit or XUnit",
+      "accepted_answer_id": 57638525,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/54064138/how-to-pass-parameters-to-the-dotnet-test-command-while-using-nunit-or-xunit",
+      "owner": {
+        "display_name": "Tobias von Falkenhayn",
+        "link": "https://stackoverflow.com/users/5036476/tobias-von-falkenhayn"
+      }
+    },
+    {
+      "question_id": 51544883,
+      "title": "How can I pass values to xUnit tests that accept a nullable decimal?",
+      "accepted_answer_id": 51563271,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/51544883/how-can-i-pass-values-to-xunit-tests-that-accept-a-nullable-decimal",
+      "owner": {
+        "display_name": "Bob Horn",
+        "link": "https://stackoverflow.com/users/279516/bob-horn"
+      }
+    },
+    {
+      "question_id": 49934707,
+      "title": "Automapper in xUnit testing and .NET Core 2.0",
+      "accepted_answer_id": 49940581,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/49934707/automapper-in-xunit-testing-and-net-core-2-0",
+      "owner": {
+        "display_name": "Bharat",
+        "link": "https://stackoverflow.com/users/5816119/bharat"
+      }
+    },
+    {
+      "question_id": 43460880,
+      "title": "asp.net core testing controller with IStringLocalizer",
+      "accepted_answer_id": 43461506,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/43460880/asp-net-core-testing-controller-with-istringlocalizer",
+      "owner": {
+        "display_name": "Артём Игнатьев",
+        "link": "https://stackoverflow.com/users/7546500/%d0%90%d1%80%d1%82%d1%91%d0%bc-%d0%98%d0%b3%d0%bd%d0%b0%d1%82%d1%8c%d0%b5%d0%b2"
+      }
+    },
+    {
+      "question_id": 43249816,
+      "title": "Mocking MediatR 3 with Moq",
+      "accepted_answer_id": 43252064,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/43249816/mocking-mediatr-3-with-moq",
+      "owner": {
+        "display_name": "Steve Pettifer",
+        "link": "https://stackoverflow.com/users/60602/steve-pettifer"
+      }
+    },
+    {
+      "question_id": 42467244,
+      "title": "xUnit and multiple data records for a test",
+      "accepted_answer_id": 42467249,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/42467244/xunit-and-multiple-data-records-for-a-test",
+      "owner": {
+        "display_name": "RecursEve",
+        "link": "https://stackoverflow.com/users/7624737/recurseve"
+      }
+    },
+    {
+      "question_id": 1250062,
+      "title": "In xUnit.net, is it possible to run tests in order?",
+      "accepted_answer_id": 1250305,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/1250062/in-xunit-net-is-it-possible-to-run-tests-in-order",
+      "owner": {
+        "display_name": "Lance Fisher",
+        "link": "https://stackoverflow.com/users/571/lance-fisher"
+      }
+    },
+    {
+      "question_id": 43011072,
+      "title": ".net core projects code coverage visual studio 2017",
+      "accepted_answer_id": 47144991,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/43011072/net-core-projects-code-coverage-visual-studio-2017",
+      "owner": {
+        "display_name": "Hung Cao",
+        "link": "https://stackoverflow.com/users/6535426/hung-cao"
+      }
+    },
+    {
+      "question_id": 42938879,
+      "title": "Can&#39;t get xUnit tests to run with .NET Core",
+      "accepted_answer_id": 42942592,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/42938879/cant-get-xunit-tests-to-run-with-net-core",
+      "owner": {
+        "display_name": "Gigi",
+        "link": "https://stackoverflow.com/users/983064/gigi"
+      }
+    },
+    {
+      "question_id": 46228134,
+      "title": "How to set up the DbContext in xUnit test project properly?",
+      "accepted_answer_id": 46228260,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/46228134/how-to-set-up-the-dbcontext-in-xunit-test-project-properly",
+      "owner": {
+        "display_name": "ca9163d9",
+        "link": "https://stackoverflow.com/users/825920/ca9163d9"
+      }
+    },
+    {
+      "question_id": 46162940,
+      "title": "How to unit test ActionFilterAttribute",
+      "accepted_answer_id": 46163116,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/46162940/how-to-unit-test-actionfilterattribute",
+      "owner": {
+        "display_name": "ovation22",
+        "link": "https://stackoverflow.com/users/8530080/ovation22"
+      }
+    },
+    {
+      "question_id": 31850910,
+      "title": "What is the preferred way to handle multiple test cases in Xunit?",
+      "accepted_answer_id": 31850985,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/31850910/what-is-the-preferred-way-to-handle-multiple-test-cases-in-xunit",
+      "owner": {
+        "display_name": "08Dc91wk",
+        "link": "https://stackoverflow.com/users/2664670/08dc91wk"
+      }
+    },
+    {
+      "question_id": 10015689,
+      "title": "What is the reference source for a standard XUnit report XML",
+      "accepted_answer_id": 10240939,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/10015689/what-is-the-reference-source-for-a-standard-xunit-report-xml",
+      "owner": {
+        "display_name": "Johannes",
+        "link": "https://stackoverflow.com/users/536874/johannes"
+      }
+    },
+    {
+      "question_id": 1479361,
+      "title": "What is the community-preferred Ruby unit testing framework?",
+      "accepted_answer_id": 1479404,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/1479361/what-is-the-community-preferred-ruby-unit-testing-framework",
+      "owner": {
+        "display_name": "Jon Homan",
+        "link": "https://stackoverflow.com/users/7589/jon-homan"
+      }
+    },
+    {
+      "question_id": 57823568,
+      "title": "How to provide List&lt;int&gt; for a data theory ? &quot;InlineData&quot;",
+      "accepted_answer_id": 57824314,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/57823568/how-to-provide-listint-for-a-data-theory-inlinedata",
+      "owner": {
+        "display_name": "Ayoub Salhi",
+        "link": "https://stackoverflow.com/users/6107599/ayoub-salhi"
+      }
+    },
+    {
+      "question_id": 32702969,
+      "title": "How to make xUnit to run a Theory parallel?",
+      "accepted_answer_id": 32836174,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/32702969/how-to-make-xunit-to-run-a-theory-parallel",
+      "owner": {
+        "display_name": "Stanislav Ilichev",
+        "link": "https://stackoverflow.com/users/4107009/stanislav-ilichev"
+      }
+    },
+    {
+      "question_id": 8163023,
+      "title": "why xunit not allow test a method with parameters?",
+      "accepted_answer_id": 8167475,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/8163023/why-xunit-not-allow-test-a-method-with-parameters",
+      "owner": {
+        "display_name": "Cheung",
+        "link": "https://stackoverflow.com/users/83952/cheung"
+      }
+    },
+    {
+      "question_id": 57094898,
+      "title": "How can I throw Exception for async function using Moq",
+      "accepted_answer_id": 57097065,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/57094898/how-can-i-throw-exception-for-async-function-using-moq",
+      "owner": {
+        "display_name": "chandra sekhar",
+        "link": "https://stackoverflow.com/users/11770301/chandra-sekhar"
+      }
+    },
+    {
+      "question_id": 46605860,
+      "title": "Unit Tests in Visual Studio Tools for Docker?",
+      "accepted_answer_id": 76095772,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/46605860/unit-tests-in-visual-studio-tools-for-docker",
+      "owner": {
+        "display_name": "Matt DeKrey",
+        "link": "https://stackoverflow.com/users/195653/matt-dekrey"
+      }
+    },
+    {
+      "question_id": 23824660,
+      "title": "xUnit Async Test Not Working Properly",
+      "accepted_answer_id": 23827505,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/23824660/xunit-async-test-not-working-properly",
+      "owner": {
+        "display_name": "bahadir arslan",
+        "link": "https://stackoverflow.com/users/423699/bahadir-arslan"
+      }
+    },
+    {
+      "question_id": 70402945,
+      "title": "Mocking issue: Can not instantiate proxy of class: Microsoft.AspNetCore.Identity.UserManager`",
+      "accepted_answer_id": 70467204,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/70402945/mocking-issue-can-not-instantiate-proxy-of-class-microsoft-aspnetcore-identity",
+      "owner": {
+        "display_name": "MB_18",
+        "link": "https://stackoverflow.com/users/7826774/mb-18"
+      }
+    },
+    {
+      "question_id": 46269931,
+      "title": "How can I use IConfiguration from my integration tests?",
+      "accepted_answer_id": 46270215,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/46269931/how-can-i-use-iconfiguration-from-my-integration-tests",
+      "owner": {
+        "display_name": "Steven",
+        "link": "https://stackoverflow.com/users/295302/steven"
+      }
+    },
+    {
+      "question_id": 31967975,
+      "title": "How to capture output with XUnit 2.0 and FSharp style tests",
+      "accepted_answer_id": 31968816,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/31967975/how-to-capture-output-with-xunit-2-0-and-fsharp-style-tests",
+      "owner": {
+        "display_name": "bradgonesurfing",
+        "link": "https://stackoverflow.com/users/158285/bradgonesurfing"
+      }
+    },
+    {
+      "question_id": 26898553,
+      "title": "IsType&lt;T&gt; and IsType(object, object) throwing IsTypeException",
+      "accepted_answer_id": 26925780,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/26898553/istypet-and-istypeobject-object-throwing-istypeexception",
+      "owner": {
+        "display_name": "Peppermintology",
+        "link": "https://stackoverflow.com/users/281278/peppermintology"
+      }
+    },
+    {
+      "question_id": 60203610,
+      "title": "Publishing xunit test results in Azure Devops fails with &quot;No Result Found to Publish&quot;",
+      "accepted_answer_id": 60236389,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/60203610/publishing-xunit-test-results-in-azure-devops-fails-with-no-result-found-to-pub",
+      "owner": {
+        "display_name": "bamchris",
+        "link": "https://stackoverflow.com/users/11655834/bamchris"
+      }
+    },
+    {
+      "question_id": 54792658,
+      "title": ".Net Core Integration TestServer with Generic IHostBuilder",
+      "accepted_answer_id": 54837381,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/54792658/net-core-integration-testserver-with-generic-ihostbuilder",
+      "owner": {
+        "display_name": "Fearware",
+        "link": "https://stackoverflow.com/users/3753889/fearware"
+      }
+    },
+    {
+      "question_id": 51546452,
+      "title": "Test Exceptions in Xunit ()",
+      "accepted_answer_id": 51546572,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/51546452/test-exceptions-in-xunit",
+      "owner": {
+        "display_name": "superninja",
+        "link": "https://stackoverflow.com/users/9324000/superninja"
+      }
+    },
+    {
+      "question_id": 38063903,
+      "title": "VS 2013 MSTest vs nUnit vs xUnit",
+      "accepted_answer_id": 38064899,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/38063903/vs-2013-mstest-vs-nunit-vs-xunit",
+      "owner": {
+        "display_name": "Nakul Shukla",
+        "link": "https://stackoverflow.com/users/6518604/nakul-shukla"
+      }
+    },
+    {
+      "question_id": 32157494,
+      "title": "How to determine the version of MSBuild an assembly was built with?",
+      "accepted_answer_id": 32157733,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/32157494/how-to-determine-the-version-of-msbuild-an-assembly-was-built-with",
+      "owner": {
+        "display_name": "James Ko",
+        "link": "https://stackoverflow.com/users/4077294/james-ko"
+      }
+    },
+    {
+      "question_id": 32068303,
+      "title": "Let xUnit combine parameters",
+      "accepted_answer_id": 32075212,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/32068303/let-xunit-combine-parameters",
+      "owner": {
+        "display_name": "Stijn Van Antwerpen",
+        "link": "https://stackoverflow.com/users/2968001/stijn-van-antwerpen"
+      }
+    },
+    {
+      "question_id": 25768102,
+      "title": "Combinatorial data in xUnit.NET?",
+      "accepted_answer_id": 33104672,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/25768102/combinatorial-data-in-xunit-net",
+      "owner": {
+        "display_name": "Lilith River",
+        "link": "https://stackoverflow.com/users/166893/lilith-river"
+      }
+    },
+    {
+      "question_id": 16446130,
+      "title": "Unit Testing on Controller that uses AutoMapper",
+      "accepted_answer_id": 16468617,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/16446130/unit-testing-on-controller-that-uses-automapper",
+      "owner": {
+        "display_name": "Steven",
+        "link": "https://stackoverflow.com/users/2362687/steven"
+      }
+    },
+    {
+      "question_id": 59350689,
+      "title": "Visual Studio 2019 Test Explorer puts all tests under &quot;Not Run Tests&quot;",
+      "accepted_answer_id": 59895267,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/59350689/visual-studio-2019-test-explorer-puts-all-tests-under-not-run-tests",
+      "owner": {
+        "display_name": "Abhi",
+        "link": "https://stackoverflow.com/users/6399560/abhi"
+      }
+    },
+    {
+      "question_id": 58628889,
+      "title": "ASP.NET Core Testing - get NullReferenceException when initializing InMemory SQLite dbcontext in fixture",
+      "accepted_answer_id": 58633169,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/58628889/asp-net-core-testing-get-nullreferenceexception-when-initializing-inmemory-sql",
+      "owner": {
+        "display_name": "Laurie Dickinson",
+        "link": "https://stackoverflow.com/users/1352258/laurie-dickinson"
+      }
+    },
+    {
+      "question_id": 43082094,
+      "title": "Use multiple collectionfixture on my test class in xUnit 2.x",
+      "accepted_answer_id": 43117377,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/43082094/use-multiple-collectionfixture-on-my-test-class-in-xunit-2-x",
+      "owner": {
+        "display_name": "user2225263",
+        "link": "https://stackoverflow.com/users/2225263/user2225263"
+      }
+    },
+    {
+      "question_id": 41529659,
+      "title": "How to run Parameterized Tests with fixture member values in Google Test (gtest)?",
+      "accepted_answer_id": 41573209,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/41529659/how-to-run-parameterized-tests-with-fixture-member-values-in-google-test-gtest",
+      "owner": {
+        "display_name": "Nikita",
+        "link": "https://stackoverflow.com/users/1907877/nikita"
+      }
+    },
+    {
+      "question_id": 40880699,
+      "title": "Running xUnit on Visual Studio for Mac",
+      "accepted_answer_id": 41008373,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/40880699/running-xunit-on-visual-studio-for-mac",
+      "owner": {
+        "display_name": "Zorthgo",
+        "link": "https://stackoverflow.com/users/4375197/zorthgo"
+      }
+    },
+    {
+      "question_id": 37479643,
+      "title": "Unable to get ConfigurationBuilder to read from appsettings.json in xunit class library in ASP.NET Core 1.0 RC2",
+      "accepted_answer_id": 37482827,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/37479643/unable-to-get-configurationbuilder-to-read-from-appsettings-json-in-xunit-class",
+      "owner": {
+        "display_name": "Blake Rivell",
+        "link": "https://stackoverflow.com/users/5678853/blake-rivell"
+      }
+    },
+    {
+      "question_id": 37323364,
+      "title": ".NET Core 1.0 - How to run &quot;All tests in Solution&quot; with xUnit command line",
+      "accepted_answer_id": 37618578,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/37323364/net-core-1-0-how-to-run-all-tests-in-solution-with-xunit-command-line",
+      "owner": {
+        "display_name": "Bruno Garcia",
+        "link": "https://stackoverflow.com/users/1977143/bruno-garcia"
+      }
+    },
+    {
+      "question_id": 35026735,
+      "title": "In F# how do you pass a collection to xUnit&#39;s InlineData attribute",
+      "accepted_answer_id": 35127997,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/35026735/in-f-how-do-you-pass-a-collection-to-xunits-inlinedata-attribute",
+      "owner": {
+        "display_name": "Mike Harris",
+        "link": "https://stackoverflow.com/users/2370606/mike-harris"
+      }
+    },
+    {
+      "question_id": 28102392,
+      "title": "XUnit nuget failing (visual studio 2013) xunit.core already has dependency defined",
+      "accepted_answer_id": 28102393,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/28102392/xunit-nuget-failing-visual-studio-2013-xunit-core-already-has-dependency-defin",
+      "owner": {
+        "display_name": "pashute",
+        "link": "https://stackoverflow.com/users/141947/pashute"
+      }
+    },
+    {
+      "question_id": 60892055,
+      "title": "Azure Devops UnitTest not finding &quot;.deps.json&quot; file",
+      "accepted_answer_id": 60938146,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/60892055/azure-devops-unittest-not-finding-deps-json-file",
+      "owner": {
+        "display_name": "Celdus",
+        "link": "https://stackoverflow.com/users/3450059/celdus"
+      }
+    },
+    {
+      "question_id": 56989674,
+      "title": "Can not instantiate proxy of class. Could not find a parameterless constructor",
+      "accepted_answer_id": 56990682,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/56989674/can-not-instantiate-proxy-of-class-could-not-find-a-parameterless-constructor",
+      "owner": {
+        "display_name": "chandra sekhar",
+        "link": "https://stackoverflow.com/users/11770301/chandra-sekhar"
+      }
+    },
+    {
+      "question_id": 55412776,
+      "title": "How to mock UserManager&lt;IdentityUser&gt;",
+      "accepted_answer_id": 55413067,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/55412776/how-to-mock-usermanageridentityuser",
+      "owner": {
+        "display_name": "Linda Lawton - DaImTo",
+        "link": "https://stackoverflow.com/users/1841839/linda-lawton-daimto"
+      }
+    },
+    {
+      "question_id": 30556152,
+      "title": "xUnit.net v2 not discovering .NET Core Tests in Visual Studio 2015",
+      "accepted_answer_id": 30557081,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/30556152/xunit-net-v2-not-discovering-net-core-tests-in-visual-studio-2015",
+      "owner": {
+        "display_name": "Sul Aga",
+        "link": "https://stackoverflow.com/users/2919398/sul-aga"
+      }
+    },
+    {
+      "question_id": 16909998,
+      "title": "What would be an equivalent of Nunit&#39;s Assert.That in Xunit?",
+      "accepted_answer_id": 16910471,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/16909998/what-would-be-an-equivalent-of-nunits-assert-that-in-xunit",
+      "owner": {
+        "display_name": "DoodleKana",
+        "link": "https://stackoverflow.com/users/1022837/doodlekana"
+      }
+    },
+    {
+      "question_id": 11013025,
+      "title": "How to test for exceptions thrown using xUnit, SubSpec and FakeItEasy",
+      "accepted_answer_id": 14909590,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/11013025/how-to-test-for-exceptions-thrown-using-xunit-subspec-and-fakeiteasy",
+      "owner": {
+        "display_name": "m_collard",
+        "link": "https://stackoverflow.com/users/1453366/m-collard"
+      }
+    },
+    {
+      "question_id": 59372493,
+      "title": "Override jest-junit default output location?",
+      "accepted_answer_id": 59393443,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/59372493/override-jest-junit-default-output-location",
+      "owner": {
+        "display_name": "matsev",
+        "link": "https://stackoverflow.com/users/303598/matsev"
+      }
+    },
+    {
+      "question_id": 57342026,
+      "title": "Could not load file or assembly Microsoft.VisualStudio.Coverage.Analysis in Visual Studio 2019 16.2",
+      "accepted_answer_id": 57744781,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/57342026/could-not-load-file-or-assembly-microsoft-visualstudio-coverage-analysis-in-visu",
+      "owner": {
+        "display_name": "Miq",
+        "link": "https://stackoverflow.com/users/7717185/miq"
+      }
+    },
+    {
+      "question_id": 54977531,
+      "title": "How to read .runsettings test parameter in xUnit fixture",
+      "accepted_answer_id": 55079340,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/54977531/how-to-read-runsettings-test-parameter-in-xunit-fixture",
+      "owner": {
+        "display_name": "user1672994",
+        "link": "https://stackoverflow.com/users/1672994/user1672994"
+      }
+    },
+    {
+      "question_id": 51503531,
+      "title": "An exception occurred while invoking executor &#39;executor://xunit/VsTestRunner2/uap&#39;: Could not load file or assembly &#39;System.IO.FileSystem",
+      "accepted_answer_id": 51623724,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/51503531/an-exception-occurred-while-invoking-executor-executor-xunit-vstestrunner2-ua",
+      "owner": {
+        "display_name": "R&#233;gis NIOX",
+        "link": "https://stackoverflow.com/users/1568323/r%c3%a9gis-niox"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 419717,
+      "body": "<h3>2025-09-24 update</h3>\n<p><a href=\"https://github.com/AwesomeAssertions/AwesomeAssertions\" rel=\"nofollow noreferrer\">AwesomeAssertions</a> has <a href=\"https://awesomeassertions.org/collections/\" rel=\"nofollow noreferrer\">collection</a> assertions and is a free alternative to FluentAssertions mentioned below.</p>\n<h3>2021-Apr-01 update</h3>\n<p>I recommend using FluentAssertions. It has a vast IntelliSense-friendly assertion library for many use cases including collections</p>\n<pre><code>collection.Should().Equal(1, 2, 5, 8);\ncollection.Should().NotEqual(8, 2, 3, 5);\ncollection.Should().BeEquivalentTo(8, 2, 1, 5);\n</code></pre>\n<hr />\n<h3>Original answer</h3>\n<p><strong>xUnit.Net</strong> recognizes collections so you just need to do</p>\n<pre><code>Assert.Equal(expected, actual); // Order is important\n</code></pre>\n<p>You can see other available collection assertions in <a href=\"https://github.com/xunit/assert.xunit/blob/master/CollectionAsserts.cs\" rel=\"nofollow noreferrer\">CollectionAsserts.cs</a></p>\n<p>For <strong>NUnit</strong> library collection comparison methods are</p>\n<pre><code>CollectionAssert.AreEqual(IEnumerable, IEnumerable) // For sequences, order matters\n</code></pre>\n<p>and</p>\n<pre><code>CollectionAssert.AreEquivalent(IEnumerable, IEnumerable) // For sets, order doesn't matter\n</code></pre>\n<p>More details here: <a href=\"https://docs.nunit.org/articles/nunit/writing-tests/assertions/classic-assertions/Collection-Assert.html\" rel=\"nofollow noreferrer\">CollectionAssert</a></p>\n<p><strong>MbUnit</strong> also has collection assertions similar to NUnit: <a href=\"https://github.com/Gallio/mbunit-v3/blob/master/src/MbUnit/MbUnit/Framework/Assert.Collections.cs\" rel=\"nofollow noreferrer\">Assert.Collections.cs</a></p>\n",
+      "owner": {
+        "display_name": "Konstantin Spirin",
+        "link": "https://stackoverflow.com/users/1423922/konstantin-spirin"
+      }
+    },
+    {
+      "answer_id": 42467249,
+      "body": "<p>You'd be better of using a specialised construct in xUnit, called a <code>Theory</code>, that handles so called &quot;Data Driven Tests&quot;.\nDecorate your testmethod with the <code>Theory</code> attribute and then make sure to return a <code>static</code> &quot;member&quot; with input parameters and the expected result as you already kind of did with the TestData class. See the example below, and ref to the xUnit documentation: <a href=\"https://xunit.net/docs/getting-started/netfx/visual-studio#write-first-theory\" rel=\"nofollow noreferrer\">&quot;Writing your first theory&quot;</a>.</p>\n<p>I would thus refactor your code like below. Firstly decorating the test with the attributes <code>Theory</code> and <code>MemberData</code> and adding parameters to your test &quot;@base&quot;, &quot;exponent&quot; and &quot;expectedResult&quot; - as you had in your <code>TestData</code> class. <code>xUnit</code> won't allow you to use the TestData class, it only accepts an <code>IEnumerable&lt;object&gt;</code> and requires it to be static, but the benefit to a foreach loop construct is that all the tests are ran seperately. And <strong>for each run with a specific data set</strong> you'll get a green or red flag!</p>\n<pre><code>public class PowerOfTests\n{\n    [Theory]\n    [MemberData(nameof(PowerOfTestData))]\n    public void PowerOfTest(int @base, int exponent, int expected) {\n        Assert.Equal(expected, CalcPowerOf(@base, exponent));\n    }\n\n    public static IEnumerable&lt;object[]&gt; PowerOfTestData() {\n        yield return new object[] { 0, 0, 0 };\n        yield return new object[] { 0, 1, 0 };\n        yield return new object[] { 2, 0, 1 };\n        yield return new object[] { 2, 1, 2 };\n        yield return new object[] { 2, 2, 4 };\n        yield return new object[] { 5, 2, 25 };\n        yield return new object[] { 5, 3, 125 };\n        yield return new object[] { 5, 4, 625 };\n    }\n}\n</code></pre>\n<p>The <code>TheoryData</code> Type is a little nicer:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>public static TheoryData&lt;int, int, int&gt; Data =&gt;\n    new TheoryData&lt;int, int, int&gt;\n        {\n            { 0, 0, 0 },\n            { 0, 1, 0 },\n            // etc.\n        };\n\n</code></pre>\n<p>Theory Data can even be defined in a type using inheritance:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>public class PowTestData : TheoryData&lt;int, int, int&gt;\n{\n    public PowTestData()\n    {\n        Add(0, 0, 0);\n        Add(0, 1, 0);\n        // etc.\n    }\n}\n\n\n// Usage:\n[Theory]\n[ClassData(typeof(PowTestData))]\npublic void PowerOfTest(int @base, int exponent, int expected) {\n    //...\n}\n</code></pre>\n<p>Alternatively, <code>[InlineData]</code> can be used:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>[Theory]\n[InlineData(0, 0, 0)]\n[InlineData(0, 1, 0)]\n[InlineData(2, 0, 1)]\n[InlineData(2, 1, 2)]\n[InlineData(2, 2, 4)]\n[InlineData(5, 2, 25)]\n[InlineData(5, 3, 125)]\n[InlineData(5, 4, 625)]\npublic void PowerOfTest(int @base, int exponent, int expected) {\n    Assert.Equal(expected, CalcPowerOf(@base, exponent));\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Yves Schelpe",
+        "link": "https://stackoverflow.com/users/1155847/yves-schelpe"
+      }
+    },
+    {
+      "answer_id": 6043029,
+      "body": "<p>I think it is correct to test for both Exception type and message. And both are easy in xUnit:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>var exception = Assert.Throws&lt;AuthenticationException&gt;(() =&gt; DoSomething());\nAssert.Equal(message, exception.Message);\n</code></pre>\n",
+      "owner": {
+        "display_name": "serhii123",
+        "link": "https://stackoverflow.com/users/229949/serhii123"
+      }
+    },
+    {
+      "answer_id": 47835325,
+      "body": "<p>The root problem here is that the <code>InlineDataAttribute</code> construction syntax is fiddly and has corner cases. Also, ultimately everything needs to be tunnelled through attributes. xUnit.NET has a variety of constructs that are more powerful than <code>InlineData</code>, that can be used instead of it, which will handle any type (for your case, the <code>DateTime</code>).</p>\n<p>If you're OK with having to repeat yourself on the type names, <a href=\"https://stackoverflow.com/a/57789025/11635\">xUnit's built-in <code>TheoryData</code> is the best tool for lists of things that you want to use full C# syntax to define</a>. The cleanest usage looks like this:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>public static TheoryData&lt;string, string, int, string, DateTime, DateTime&gt; Cases =\n    new()\n    {\n        { &quot;title 1&quot;, &quot;testing 1&quot;, 1, &quot;Educational&quot;, new DateTime(2017, 3, 1), new DateTime(2018, 12, 31) },\n        { &quot;title 2&quot;, &quot;testing 2&quot;, 2, &quot;Self Employment&quot;, new DateTime(2017, 2, 1), new DateTime(2018, 2, 28) }\n    };\n\n[Theory, MemberData(nameof(Cases))]\npublic async Task WhenPassingCorrectData_SuccessfullyCreate(\n    string title, \n    string description, \n    int categoryId, \n    string category, \n    DateTime startDate, \n    DateTime endDate)\n{\n}\n</code></pre>\n<p>See <a href=\"https://andrewlock.net/creating-strongly-typed-xunit-theory-test-data-with-theorydata/\" rel=\"noreferrer\">this great post from Andrew Lock for a rundown on <code>TheoryData</code></a>. TL;DR there is a <code>.Add</code> on <code>TheoryData</code>, and the <code>new() {}</code> initialization expression will call <code>.Add</code> on it for each row you add.</p>\n<hr />\n<p>With <a href=\"https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions\" rel=\"noreferrer\">C# 12 Collection Expressions</a>, it can be done like this, but there's less type checking <em>(but you also don't need to repeat the type names from the argument list)</em> :-</p>\n<pre class=\"lang-cs prettyprint-override\"><code>// NB C# 12 Collection Expressions - see below for backcompat version if not building with v8 SDK\npublic static readonly object[][] Cases =\n[\n    [&quot;title 1&quot;, &quot;testing 1&quot;, 1, &quot;Educational&quot;, new DateTime(2017, 3, 1), new DateTime(2018, 12, 31)],\n    [&quot;title 2&quot;, &quot;testing 2&quot;, 2, &quot;Self Employment&quot;, new DateTime(2017, 2, 1), new DateTime(2018, 2, 28)]\n];      \n\n</code></pre>\n<p>(This leans on a long-standing xUnit feature - <code>MemberData</code> and friends ultimately feed everything through to the runner as an <code>object[]</code>.)</p>\n<hr />\n<p>If you're not on the .NET 8 SDK, the best syntax for the <code>Cases</code> is sadly:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>public static readonly object[][] Cases =\n{\n  new object[] { &quot;title 1&quot;, &quot;testing 1&quot;, 1, &quot;Educational&quot;, \n                  new DateTime(2017,3,1), new DateTime(2018,12,31)},\n  new object[] { &quot;title 2&quot;, &quot;testing 2&quot;, 2, &quot;Self Employment&quot;, \n                  new DateTime(2017, 2, 1), new DateTime(2018, 2, 28)}\n};\n</code></pre>\n<hr />\n<p>ASIDE: You can also make the property return <code>IEnumerable&lt;object[]&gt;</code>, which you'd typically do with <a href=\"http://hamidmosalla.com/2017/02/25/xunit-theory-working-with-inlinedata-memberdata-classdata/\" rel=\"noreferrer\"><code>yield return</code> enumerator syntax</a>, but I believe the above is the most legible syntax C# has to offer for it pre C# 12 / .NET 8.</p>\n<hr />\n<p>Really ugly hack:</p>\n<pre><code>static TheoryData&lt;T1, T2, T3, T4, T5, T6&gt; MakeTheoryData&lt;T1, T2, T3, T4, T5, T6&gt;(IEnumerable&lt;(T1, T2, T3, T4, T5, T6)&gt; values)\n{\n    var tmp = new TheoryData&lt;T1, T2, T3, T4, T5, T6&gt;();\n    foreach(var (t1, t2, t3, t4, t5, t6) in values)\n        tmp.Add(t1, t2, t3, t4, t5, t6);\n    return tmp;\n}\n\npublic static TheoryData&lt;string, string, int, string, DateTime, DateTime&gt; Cases = MakeTheoryData(\n    [\n        ( &quot;title 1&quot;, &quot;testing 1&quot;, 1, &quot;Educational&quot;, new DateTime(2017, 3, 1), new DateTime(2018, 12, 31) ),\n        ( &quot;title 2&quot;, &quot;testing 2&quot;, 2, &quot;Self Employment&quot;, new DateTime(2017, 2, 1), new DateTime(2018, 2, 28) )\n    ]);\n</code></pre>\n<p>As of 2.6.6, <code>TheoryData</code> <a href=\"https://github.com/xunit/xunit/issues/2854\" rel=\"noreferrer\">has a constructor that can be used with collection constructors:</a>, which lets you avoid having a <code>MakeTheoryData</code>:</p>\n<pre><code>public static TheoryData&lt;string, string, int, string, DateTime, DateTime&gt; Cases =\n    [\n        ( &quot;title 1&quot;, &quot;testing 1&quot;, 1, &quot;Educational&quot;, new DateTime(2017, 3, 1), new DateTime(2018, 12, 31) ),\n        ( &quot;title 2&quot;, &quot;testing 2&quot;, 2, &quot;Self Employment&quot;, new DateTime(2017, 2, 1), new DateTime(2018, 2, 28) )\n    ];\n</code></pre>\n<hr />\n<p>Finally, <a href=\"https://github.com/xunit/xunit/issues/2836#issuecomment-1841542051\" rel=\"noreferrer\">for V3 a tuple collection syntax like the previous one, but without the <code>MakeTheoryData</code> helper comes out fo the box</a></p>\n",
+      "owner": {
+        "display_name": "Ruben Bartelink",
+        "link": "https://stackoverflow.com/users/11635/ruben-bartelink"
+      }
+    },
+    {
+      "answer_id": 35127997,
+      "body": "<p><code>InlineDataAttribute</code> leans on the C# <code>params</code> mechanism. This is what enables the default syntax of InlineData in C# :-</p>\n<pre><code>[InlineData(1,2)]\n</code></pre>\n<p>Your version with array construction:-</p>\n<pre><code>[InlineData( new object[] {1,2})]\n</code></pre>\n<p>is simply what the compiler translates the above into. The minute you go further, you'll run into the same restrictions on what the CLI will actually enable - the bottom line is that at the IL level, using attribute constructors implies that everything needs to be boiled down to constants at compile time. The F# equivalent of the above syntax is simply: <code>[&lt;InlineData(1,2)&gt;]</code>, so the direct answer to your question is:</p>\n<pre><code>module UsingInlineData =\n    [&lt;Theory&gt;]\n    [&lt;InlineData(1, 2)&gt;]  \n    [&lt;InlineData(1, 1)&gt;]  \n    let v4 (a : int, b : int) : unit = Assert.NotEqual(a, b)\n</code></pre>\n<hr />\n<p>I was unable to avoid riffing on @bytebuster's example though :) If we define a helper:-</p>\n<pre><code>type ClassDataBase(generator : obj [] seq) = \n    interface seq&lt;obj []&gt; with\n        member this.GetEnumerator() = generator.GetEnumerator()\n        member this.GetEnumerator() = \n            generator.GetEnumerator() :&gt; System.Collections.IEnumerator\n</code></pre>\n<p>Then (if we are willing to forgo laziness), we can abuse <code>list</code> to avoid having to use <code>seq</code> / <code>yield</code> to win the code golf:-</p>\n<pre><code>type MyArrays1() = \n    inherit ClassDataBase([ [| 3; 4 |]; [| 32; 42 |] ])\n\n[&lt;Theory&gt;]\n[&lt;ClassData(typeof&lt;MyArrays1&gt;)&gt;]\nlet v1 (a : int, b : int) : unit = Assert.NotEqual(a, b)\n</code></pre>\n<p>But the raw syntax of <code>seq</code> can be made sufficiently clean, so no real need to use it as above, instead we do:</p>\n<pre><code>let values : obj[] seq = \n    seq { \n        yield [| 3; 4 |] \n        yield [| 32; 42 |] // in recent versions of F#, `yield` is optional in seq too\n    }\n\ntype ValuesAsClassData() = \n    inherit ClassDataBase(values)\n\n[&lt;Theory; ClassData(typeof&lt;ValuesAsClassData&gt;)&gt;]\nlet v2 (a : int, b : int) : unit = Assert.NotEqual(a, b)\n</code></pre>\n<hr />\n<p>However, most idiomatic with xUnit v2 for me is to use straight <code>MemberData</code>  (which is like xUnit v1's <code>PropertyData</code> but generalized to also work on fields) :-</p>\n<pre><code>[&lt;Theory; MemberData(&quot;values&quot;)&gt;]\nlet v3 (a : int, b : int) : unit = Assert.NotEqual(a, b)\n</code></pre>\n<p>The key thing to get right is to put the <code>: seq&lt;obj&gt;</code> (or <code>: obj[] seq</code>) on the declaration of the sequence or xUnit will throw at you.</p>\n<hr />\n<p>Later versions of xUnit 2 include a typed TheoryData, which lets you write:</p>\n<pre><code>type Values() as this =\n    inherit TheoryData&lt;int,int&gt;()\n    do  this.Add(3, 4)\n        this.Add(32, 42)\n\n[&lt;Theory; ClassData(typeof&lt;Values&gt;)&gt;]\nlet v2 (a : int, b : int) : unit = Assert.NotEqual(a, b)\n</code></pre>\n<p>That also type-checks each argument.</p>\n<p><a href=\"https://github.com/xunit/xunit/issues/2854\" rel=\"nofollow noreferrer\">Current xUnit v2 releases let you replace the <code>Add</code> with constructor calls</a>, e.g.:</p>\n<pre><code>type Values() =\n    inherit TheoryData&lt;_, _&gt;([\n        3, 4\n        32, 42 ])\n\n[&lt;Theory; ClassData(typeof&lt;Values&gt;)&gt;]\nlet v2 (a : int, b : int) : unit = Assert.NotEqual(a, b)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ruben Bartelink",
+        "link": "https://stackoverflow.com/users/11635/ruben-bartelink"
+      }
+    },
+    {
+      "answer_id": 66307704,
+      "body": "<p>You can't mock extension methods.</p>\n<p>Instead of mocking</p>\n<pre><code>logger.LogError(...)\n</code></pre>\n<p>You need to mock the interface method</p>\n<pre><code>void Log&lt;TState&gt;(LogLevel logLevel, EventId eventId, TState state, Exception exception, Func&lt;TState, Exception, string&gt; formatter);\n</code></pre>\n<p>LogError actually calls that interface method like this</p>\n<pre><code>logger.Log(LogLevel.Error, 0, new FormattedLogValues(message, args), null, (state, ex) =&gt; state.ToString());\n</code></pre>\n<p>So you need to mock</p>\n<pre><code> _loggerMock.Verify(logger =&gt; logger.Log(It.Is(LogLevel.Error), It.Is(0), It.IsAny&lt;FormattedLogValues&gt;(), It.IsAny&lt;Exception&gt;(), It.IsAny&lt;Func&lt;TState, Exception, string&gt;&gt;()), Times.Once);\n</code></pre>\n<p><strong>Disclaimer</strong> I didn't verify the code</p>\n<p><strong>Edit</strong> after the comment from pinkfloydx33, I set up a test example in .net50 and came to the following answer</p>\n<p>With the most recent framework the FormattedLogValues class has been made internal. So you can't use this with the generic Moq.It members. But Moq has an alternate way to do this (this <a href=\"https://stackoverflow.com/a/58413842/1077228\">answer</a> also mentioned the solution)</p>\n<p>For a call to the logger like this</p>\n<pre><code>_logger.LogError(&quot;myMessage&quot;);\n</code></pre>\n<p>You need to verify like this</p>\n<pre><code>_loggerMock.Verify(logger =&gt; logger.Log(\n        It.Is&lt;LogLevel&gt;(logLevel =&gt; logLevel == LogLevel.Error),\n        It.Is&lt;EventId&gt;(eventId =&gt; eventId.Id == 0),\n        It.Is&lt;It.IsAnyType&gt;((@object, @type) =&gt; @object.ToString() == &quot;myMessage&quot; &amp;&amp; @type.Name == &quot;FormattedLogValues&quot;),\n        It.IsAny&lt;Exception&gt;(),\n        It.IsAny&lt;Func&lt;It.IsAnyType, Exception, string&gt;&gt;()),\n    Times.Once);\n</code></pre>\n<p>You use the It.IsAnyType for types where you don't have access to. And if you need to restrict the verification you can add a func&lt;object, type&gt; to check if the type is what you expect or cast it to the public interface and validate any public members it has.</p>\n<p>When you work with a string message and some parameters you need to cast the object of type FormattedLogValues to interface IReadOnlyList&lt;KeyValuePair&lt;string, object?&gt;&gt; and verify the string/values of the different parameters.</p>\n<p><strong>Please read the remark from pcdev in the comments about the FormattedLogValues and its behaviour to format the message!</strong></p>\n",
+      "owner": {
+        "display_name": "verbedr",
+        "link": "https://stackoverflow.com/users/1077228/verbedr"
+      }
+    },
+    {
+      "answer_id": 32075212,
+      "body": "<p>Turns out that there is something called the <code>MemberData</code> attribute.</p>\n<pre><code> [Theory]\n [MemberData(nameof(AllCombinations))]        \n public void TestAllValues(string x, int y)\n {\n</code></pre>\n<p>Where you can generate all desired combinations.</p>\n<pre><code> public static IEnumerable&lt;object[]&gt;AllCombinations{\n    get \n    {\n        foreach(var c in generateCombinations()){\n           yield return new object [] { c.Letter, c.Number}\n        }\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Stijn Van Antwerpen",
+        "link": "https://stackoverflow.com/users/2968001/stijn-van-antwerpen"
+      }
+    },
+    {
+      "answer_id": 46974218,
+      "body": "<p>You can use Xunit Class fixtures. When using a class fixture, xUnit.net will ensure that the fixture instance will be created before any of the tests have run, and once all the tests have finished, it will clean up the fixture object by calling Dispose, if present. For example:</p>\n<pre><code>//similar to base class\npublic class DatabaseFixture : IDisposable\n{\n    public SqlConnection Db { get; private set; }\n    public DatabaseFixture()\n    {\n        Db = new SqlConnection(&quot;MyConnectionString&quot;);\n\n        // initialize data in the test database\n    }\n\n    public void Dispose()\n    {\n        // clean up test data from the database\n    }\n}\n\n//Class where you want to use shared class instance\npublic class MyDatabaseTests : IClassFixture&lt;DatabaseFixture&gt;\n{\n    DatabaseFixture dbFixture;\n\n    public MyDatabaseTests(DatabaseFixture fixture)\n    {\n        this.dbFixture = fixture;\n    }\n\n    // write tests, using dbFixture.Db to get access to the SQL Server\n}\n</code></pre>\n<p>For each test, it will create a new instance of MyDatabaseTests, and pass the shared instance of DatabaseFixture to the constructor.</p>\n<p>Xunit Documentation <a href=\"https://xunit.net/docs/shared-context\" rel=\"nofollow noreferrer\">here</a>.</p>\n<p>Hope it helps.</p>\n<p><strong>Edit 28/10</strong>\nFor multiple fixtures you can create a class which encapsulates the other two fixtures as below and create startup fixture to run before db fixture:</p>\n<pre><code>public class SecurityTestsFixture : IDisposable\n{\n    public DatabaseFixture Dbfixture { get; private set; }\n    public StartupTestFixture Startupfixture { get; private set; }\n\n    public SecurityTestsFixture()\n    {\n        Startupfixture = new StartupTestFixture();\n        Dbfixture = new DatabaseFixture(Startupfixture);\n    }\n\n    public void Dispose()\n    {\n        // clean up code\n        Dbfixture.Dispose();\n    }\n\n    public class StartupTestFixture\n    {\n        public string SqlConnString { get; private set; }\n        public StartupTestFixture()\n        {\n            SqlConnString = ConfigurationManager.AppSettings[&quot;SqlConnectionString&quot;];\n\n            // other startup code\n        }\n    }\n\n    public class DatabaseFixture : IDisposable\n    {\n        public SqlConnection Db { get; private set; }\n        public DatabaseFixture(StartupTestFixture sFixture)\n        {\n            Db = new SqlConnection(sFixture.SqlConnString);\n\n            // initialize data in the test database\n        }\n\n        public void Dispose()\n        {\n            // clean up test data from the database\n        }\n    }\n}\n</code></pre>\n<p>and test class:</p>\n<pre><code>public class Xunittests : IClassFixture&lt;SecurityTestsFixture&gt;\n{\n    SecurityTestsFixture _securityFixture;\n    public Xunittests(SecurityTestsFixture securityfixture)\n    {\n        _securityFixture = securityfixture;\n    }\n\n    [Fact(DisplayName = &quot;Successful response Test1&quot;)]\n    public void SuccessfulResponseTest1()\n    {\n        var db = _securityFixture.Dbfixture.Db;\n        //var users = db.Users.FirstOrDefault(x =&gt; x.Name == &quot;...&quot;);\n        Assert.Equal(&quot;test&quot;, &quot;test&quot;);\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Shah",
+        "link": "https://stackoverflow.com/users/746544/shah"
+      }
+    },
+    {
+      "answer_id": 76095772,
+      "body": "<p>This might come a little late, but this can now be done using the <a href=\"https://learn.microsoft.com/en-us/visualstudio/test/remote-testing?view=vs-2022\" rel=\"nofollow noreferrer\">Remote Testing</a> functionality that is available in Visual Studio starting from version 17.5.</p>\n<p>As stated in the documentation, you'll need to configure your test environments first.</p>\n<p>To run your tests on a Docker container, your <code>testEnvironments.json</code> file may look as follows:</p>\n<pre class=\"lang-json prettyprint-override\"><code>{\n  &quot;version&quot;: &quot;1&quot;,\n  &quot;environments&quot;: [\n    {\n      &quot;name&quot;: &quot;Docker dotnet/sdk&quot;,\n      &quot;type&quot;: &quot;docker&quot;,\n      &quot;dockerImage&quot;: &quot;mcr.microsoft.com/dotnet/sdk&quot;\n    }\n  ]\n}\n</code></pre>\n<p>The nicest part is that you can keep managing and running your tests from the Test Explorer as Visual Studio is taking care of spinning the Docker container for you.</p>\n<p>You'll also need to make sure your local Docker daemon is running.</p>\n",
+      "owner": {
+        "display_name": "simone.tino",
+        "link": "https://stackoverflow.com/users/1287916/simone-tino"
+      }
+    },
+    {
+      "answer_id": 57638525,
+      "body": "<p>If you want to avoid a runsettings file, you can use this workaround. One of the recommended ways of passing parameters, is through environment variables. So in your C# nunit (or xunit) file, you can do something like:</p>\n<pre><code>// in mytest.cs\nvar user = Environment.GetEnvironmentVariable(&quot;TestUser&quot;);\nvar password = Environment.GetEnvironmentVariable(&quot;TestPassword&quot;);\nvar url = Environment.GetEnvironmentVariable(&quot;TestUrl&quot;);\n</code></pre>\n<p>If you do not want to definitively set your environment variables, remember you can always set them temporarily for just your session process. One way of doing this, is by creating a simple cmd file</p>\n<pre><code>#launchtests.cmd\nsetlocal\nset TestUser='pete001'\nset TestPassword='secret'\nset TestUrl='http://testserver.local/login'\ndotnet test mytest.csproj\n</code></pre>\n<p>And now the fun part. You can parameterize every aspect of this. So you can change it to:</p>\n<pre><code>#run wity launchtests.cmd pete001 secret 'http://testserver.local/login'\nsetlocal\nset TestUser=%1\nset TestPassword=%2\nset TestUrl=%3\ndotnet test mytest.csproj\n</code></pre>\n<p>Or if you want to launch the test from an Azure DevOps (fka VSTS or TFS) pipeline, you can simply use the $(...) notation to inline variables, even if they're marked secret and/or come from Azure KeyVault.</p>\n<pre><code>#In Azure DevOps, variables not marked as secret are already added to the environment\nset TestPassword=$(TestPassword)\ndotnet test $(Build.SourcesDirectory)\\MyCompany.MyProduct.UITests\\MyTest.csproj --configuration $(BuildConfiguration) --collect &quot;Code Coverage&quot; --logger trx --results-directory $(Agent.TempDirectory)\n</code></pre>\n<p><a href=\"https://i.sstatic.net/Z63xh.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/Z63xh.png\" alt=\"run Azure DevOps command task\" /></a></p>\n",
+      "owner": {
+        "display_name": "realbart",
+        "link": "https://stackoverflow.com/users/1677285/realbart"
+      }
+    },
+    {
+      "answer_id": 75135666,
+      "body": "<p>As for 2023, accepted answer is no longer true, xunit team added <code>Assert.AllAsync</code>:\n<a href=\"https://github.com/xunit/xunit/discussions/2498\" rel=\"noreferrer\">https://github.com/xunit/xunit/discussions/2498</a></p>\n",
+      "owner": {
+        "display_name": "Mr Patience",
+        "link": "https://stackoverflow.com/users/6841224/mr-patience"
+      }
+    },
+    {
+      "answer_id": 50922017,
+      "body": "<p>You can implement your own service provider to resolve <code>DbContext</code>.</p>\n<pre class=\"lang-cs prettyprint-override\"><code>public class DbFixture\n{\n    public DbFixture()\n    {\n        var serviceCollection = new ServiceCollection();\n        serviceCollection\n            .AddDbContext&lt;SomeContext&gt;(options =&gt; options.UseSqlServer(&quot;connection string&quot;),\n                ServiceLifetime.Transient);\n\n        ServiceProvider = serviceCollection.BuildServiceProvider();\n    }\n\n    public ServiceProvider ServiceProvider { get; private set; }\n}\n\npublic class UnitTest1 : IClassFixture&lt;DbFixture&gt;\n{\n    private ServiceProvider _serviceProvider;\n\n    public UnitTest1(DbFixture fixture)\n    {\n        _serviceProvider = fixture.ServiceProvider;\n    }\n\n    [Fact]\n    public void Test1()\n    {\n        using (var context = _serviceProvider.GetService&lt;SomeContext&gt;())\n        {\n        }\n    }\n} \n</code></pre>\n<p>But bear in your mind using EF inside a unit test is not a good idea and it's better to mock DbContext.</p>\n<p><a href=\"https://dzone.com/articles/the-anatomy-of-good-unit-testing\" rel=\"nofollow noreferrer\">The Anatomy of Good Unit Testing\n</a></p>\n",
+      "owner": {
+        "display_name": "Mohsen Esmailpour",
+        "link": "https://stackoverflow.com/users/1385614/mohsen-esmailpour"
+      }
+    },
+    {
+      "answer_id": 6515367,
+      "body": "<p>There is no direct equivalent of <code>[TestFixtureSetUp]</code> in XUnit, but you can achieve similar functionality. <a href=\"https://xunit.net/docs/comparisons\" rel=\"nofollow noreferrer\">This page</a> lays out the translation between NUnit and XUnit (as well as a couple other C#/.NET test frameworks).  However, XUnit largely got rid of setups/teardowns (<a href=\"http://jamesnewkirk.typepad.com/posts/2007/09/why-you-should-.html\" rel=\"nofollow noreferrer\">this article</a> explains why that decision was made). Instead, you need the test suite to implement an interface called <code>IUseFixture&lt;T&gt;</code> which can initialize some data for the fixture.</p>\n<p>You might also want to read <a href=\"http://blog.benhall.me.uk/2008/01/introduction-to-xunit.html\" rel=\"nofollow noreferrer\">this overview of XUnit</a>, written from the perspective somebody coming from an NUnit/MbUnit background.</p>\n",
+      "owner": {
+        "display_name": "Laepdjek",
+        "link": "https://stackoverflow.com/users/798694/laepdjek"
+      }
+    },
+    {
+      "answer_id": 55497919,
+      "body": "<p>You can use <code>MemoryConfigurationBuilderExtensions</code> to provide it via a dictionary.</p>\n<pre class=\"lang-cs prettyprint-override\"><code>using Microsoft.Extensions.Configuration;\n\nvar myConfiguration = new Dictionary&lt;string, string&gt;\n{\n    {&quot;Key1&quot;, &quot;Value1&quot;},\n    {&quot;Nested:Key1&quot;, &quot;NestedValue1&quot;},\n    {&quot;Nested:Key2&quot;, &quot;NestedValue2&quot;}\n};\n\nvar configuration = new ConfigurationBuilder()\n    .AddInMemoryCollection(myConfiguration)\n    .Build();\n</code></pre>\n<p>The equivalent JSON would be:</p>\n<pre class=\"lang-json prettyprint-override\"><code>{\n  &quot;Key1&quot;: &quot;Value1&quot;,\n  &quot;Nested&quot;: {\n    &quot;Key1&quot;: &quot;NestedValue1&quot;,\n    &quot;Key2&quot;: &quot;NestedValue2&quot;\n  }\n}\n</code></pre>\n<p>The equivalent Environment Variables would be (assuming no prefix / case insensitive):</p>\n<pre><code>Key1=Value1\nNested__Key1=NestedValue1\nNested__Key2=NestedValue2\n</code></pre>\n<p>The equivalent Command Line parameters would be:</p>\n<pre><code>dotnet myapp.dll \\\n  -- \\\n  --Key1=Value1 \\\n  --Nested:Key1=NestedValue1 \\\n  --Nested:Key2=NestedValue2\n</code></pre>\n",
+      "owner": {
+        "display_name": "Matthew",
+        "link": "https://stackoverflow.com/users/507793/matthew"
+      }
+    },
+    {
+      "answer_id": 31850985,
+      "body": "<p>You can use the <a href=\"https://hamidmosalla.com/2017/02/25/xunit-theory-working-with-inlinedata-memberdata-classdata\" rel=\"noreferrer\"><code>Theory</code></a> attribute to the same effect:</p>\n<pre><code>[Theory()]\n[InlineData(null)]\n[InlineData(&quot;&quot;)]\n[InlineData(&quot;     &quot;)]\npublic void Constructor_InvalidName_ExceptionThrown(string name)\n{\n    Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; new Foo(name));\n}\n</code></pre>\n<hr />\n<p><strike>I am not sure if xUnit has am attribute equivalent to <code>ExpectedException</code> however. If there is, <a href=\"http://jakegoulding.com/blog/2012/09/26/be-careful-when-using-junit-expected-exceptions/\" rel=\"noreferrer\">I would not use it</a>.</strike></p>\n<p>There <strong>used</strong> to be an  <code>ExpectedException</code> attribute in xUnit but it has since been <a href=\"https://xunit.github.io/docs/comparisons.html#note1\" rel=\"noreferrer\">deprecated in favour of <code>Assert.Throws</code></a>.</p>\n",
+      "owner": {
+        "display_name": "Alex Booker",
+        "link": "https://stackoverflow.com/users/5147646/alex-booker"
+      }
+    },
+    {
+      "answer_id": 57824314,
+      "body": "<p>This cannot be accomplished with <code>InlineData</code> you can only do this with <code>MemberData</code>, <code>PropertyData</code> or <code>ClassData</code> see the <code>MemberData</code> example below.</p>\n<pre><code>[MemberData(nameof(Data))]\npublic void VerifyGetCarListAsync(int? colorID, List&lt;int&gt; carIDs, int? sellerID){\n    // test code\n}\n\n\npublic static IEnumerable&lt;object[]&gt; Data(){\n    yield return new object[] { null, new List&lt;int&gt;{ 42, 2112 }, null };\n    yield return new object[] { 1, new List&lt;int&gt;{ 43, 2112 }, null };\n    yield return new object[] { null, new List&lt;int&gt;{ 44, 2112 }, 6 };\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ids van der Zee",
+        "link": "https://stackoverflow.com/users/6685592/ids-van-der-zee"
+      }
+    },
+    {
+      "answer_id": 46172875,
+      "body": "<p>xUnit has changed in version 2 to no longer capture the standard output for tests:</p>\n<blockquote>\n<p>If you used xUnit.net 1.x, you may have previously been writing output to <code>Console</code>, <code>Debug</code>, or <code>Trace</code>. When xUnit.net v2 shipped with parallelization turned on by default, this output capture mechanism was no longer appropriate; it is impossible to know which of the many tests that could be running in parallel were responsible for writing to those shared resources.</p>\n</blockquote>\n<p>Instead, you are now supposed to use <a href=\"https://xunit.net/docs/capturing-output.html\" rel=\"noreferrer\">an explicit mechanism</a> to write to the test output. Basically, instead of writing to the console, you are writing to a special <code>ITestOutputHelper</code>.</p>\n<p>Of course, this output mechanism is not supported by default with ASP.NET Core logging. Fortunately, writing a logging provider for the test output isn’t too difficult. I’ve just implemented a quick provider and included it in my answer below. You can use it like this:</p>\n<pre><code>public class Example\n{\n    private readonly ILogger&lt;Example&gt; _logger;\n\n    public Example(ITestOutputHelper testOutputHelper)\n    {\n        var loggerFactory = LoggerFactory.Create(l =&gt;\n        {\n            l.AddProvider(new XunitLoggerProvider(testOutputHelper));\n        });\n        _logger = loggerFactory.CreateLogger&lt;Example&gt;();\n    }\n\n    [Fact]\n    public void Test()\n    {\n        _logger.LogDebug(&quot;Foo bar baz&quot;);\n    }\n}\n</code></pre>\n<p>Note that you usually should avoid creating a complete dependency injection container in unit tests. Having DI in unit tests is usually a sign that your unit test is not a <em>unit</em> test but instead an integration test. In a unit test, you should only test one particular unit and pass all its dependencies explicitly—more than often just as a mock. As you can see in the example above, creating a logger is actually a very simple thing to do without DI.</p>\n<hr />\n<p>As promised, this is the <code>XunitLoggerProvider</code> and the <code>XunitLogger</code> which you need to run the code shown above, and to integrate the <code>Microsoft.Extensions.Logging</code> framework with xUnit test output:</p>\n<pre><code>public class XunitLoggerProvider : ILoggerProvider\n{\n    private readonly ITestOutputHelper _testOutputHelper;\n\n    public XunitLoggerProvider(ITestOutputHelper testOutputHelper)\n    {\n        _testOutputHelper = testOutputHelper;\n    }\n\n    public ILogger CreateLogger(string categoryName)\n        =&gt; new XunitLogger(_testOutputHelper, categoryName);\n\n    public void Dispose()\n    { }\n}\n\npublic class XunitLogger : ILogger\n{\n    private readonly ITestOutputHelper _testOutputHelper;\n    private readonly string _categoryName;\n\n    public XunitLogger(ITestOutputHelper testOutputHelper, string categoryName)\n    {\n        _testOutputHelper = testOutputHelper;\n        _categoryName = categoryName;\n    }\n\n    public IDisposable BeginScope&lt;TState&gt;(TState state)\n        =&gt; NoopDisposable.Instance;\n\n    public bool IsEnabled(LogLevel logLevel)\n        =&gt; true;\n\n    public void Log&lt;TState&gt;(LogLevel logLevel, EventId eventId, TState state, Exception exception, Func&lt;TState, Exception, string&gt; formatter)\n    {\n        _testOutputHelper.WriteLine($&quot;{_categoryName} [{eventId}] {formatter(state, exception)}&quot;);\n        if (exception != null)\n            _testOutputHelper.WriteLine(exception.ToString());\n    }\n\n    private class NoopDisposable : IDisposable\n    {\n        public static readonly NoopDisposable Instance = new NoopDisposable();\n        public void Dispose()\n        { }\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "poke",
+        "link": "https://stackoverflow.com/users/216074/poke"
+      }
+    },
+    {
+      "answer_id": 70467204,
+      "body": "<p>You can mock classes with <code>Moq</code>. You just need to create a new <code>Mock</code> with valid constructor parameters.\nIn your case:</p>\n<pre><code>var userManagerMock = new Mock&lt;UserManager&lt;User&gt;&gt;(Mock.Of&lt;IUserStore&lt;User&gt;&gt;(), null, null, null, null, null, null, null, null);\n</code></pre>\n<p>When creating new mock for class, Moq uses one of the constructors of the class, in the <code>UserManager</code> class, there is a single constructor with 9 parameters:</p>\n<pre><code>UserManager&lt;TUser&gt;(IUserStore&lt;TUser&gt;, IOptions&lt;IdentityOptions&gt;, IPasswordHasher&lt;TUser&gt;, IEnumerable&lt;IUserValidator&lt;TUser&gt;&gt;, IEnumerable&lt;IPasswordValidator&lt;TUser&gt;&gt;, ILookupNormalizer, IdentityErrorDescriber, IServiceProvider, ILogger&lt;UserManager&lt;TUser&gt;&gt;)\n</code></pre>\n<p>The only parameter that is mandatory is the first one, all the others you can pass <code>null</code> value.</p>\n<p>Now you can setup any virtual method or property.</p>\n<p><strong>Full example:</strong></p>\n<pre><code>[TestMethod]\npublic void MockUserManager()\n{\n    // Arrange\n    var userManagerMock = new Mock&lt;UserManager&lt;User&gt;&gt;(Mock.Of&lt;IUserStore&lt;User&gt;&gt;(), null, null, null, null, null, null, null, null);\n    userManagerMock.Setup(x =&gt; x.CheckPasswordAsync(It.IsAny&lt;User&gt;(), It.IsAny&lt;string&gt;())).ReturnsAsync(true);\n\n    // Act\n    var res = userManagerMock.Object.CheckPasswordAsync(new User(), &quot;123456&quot;).Result;\n\n    // Assert\n    Assert.IsTrue(res);\n}\n\npublic class User\n{\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "itaiy",
+        "link": "https://stackoverflow.com/users/7122901/itaiy"
+      }
+    },
+    {
+      "answer_id": 45017575,
+      "body": "<p>The <a href=\"https://github.com/xunit/assert.xunit/blob/main/ExceptionAsserts.cs#L27\" rel=\"noreferrer\">Assert.Throws</a> expression will catch the exception and assert the type. You are however calling the method under test outside of the assert expression and thus failing the test case.</p>\n<pre><code>[Fact]\npublic void ProfileRepository_GetSettingsForUserIDWithInvalidArguments_ThrowsArgumentException()\n{\n    //arrange\n    ProfileRepository profiles = new ProfileRepository();\n    // act &amp; assert\n    Assert.Throws&lt;ArgumentException&gt;(() =&gt; profiles.GetSettingsForUserID(&quot;&quot;));\n}\n</code></pre>\n<p>If bent on following AAA you can extract the action into its own variable.</p>\n<pre><code>[Fact]\npublic void ProfileRepository_GetSettingsForUserIDWithInvalidArguments_ThrowsArgumentException()\n{\n    //arrange\n    ProfileRepository profiles = new ProfileRepository();\n    //act\n    Action act = () =&gt; profiles.GetSettingsForUserID(&quot;&quot;);\n    //assert\n    ArgumentException exception = Assert.Throws&lt;ArgumentException&gt;(act);\n    //The thrown exception can be used for even more detailed assertions.\n    Assert.Equal(&quot;expected error message here&quot;, exception.Message);\n}\n</code></pre>\n<p>Note how the exception can also be used for more detailed assertions</p>\n<p>If testing asynchronously, <a href=\"https://github.com/xunit/assert.xunit/blob/main/ExceptionAsserts.cs#L70\" rel=\"noreferrer\">Assert.ThrowsAsync</a> follows similarly to the previously given example, except that the assertion should be awaited,</p>\n<pre><code>public async Task Some_Async_Test() {\n\n    //...\n\n    //Act\n    Func&lt;Task&gt; act = () =&gt; subject.SomeMethodAsync();\n\n    //Assert\n    var exception = await Assert.ThrowsAsync&lt;InvalidOperationException&gt;(act);\n\n    //...\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nkosi",
+        "link": "https://stackoverflow.com/users/5233410/nkosi"
+      }
+    },
+    {
+      "answer_id": 70026704,
+      "body": "<p>You are probably targeting the wrong namespace for Program in your test file (like I was).</p>\n<p>I had to add the following at the end of my Program.cs file (last line) to make it visible to my test projects needing it:</p>\n<pre><code>public partial class Program { }\n</code></pre>\n<p>An example can be found here: <a href=\"https://github.com/DamianEdwards/MinimalApiPlayground/blob/main/src/MinimalApiPlayground/Program.cs\" rel=\"noreferrer\">minimal api testing example</a></p>\n",
+      "owner": {
+        "display_name": "PmanAce",
+        "link": "https://stackoverflow.com/users/1867682/pmanace"
+      }
+    },
+    {
+      "answer_id": 22093968,
+      "body": "<p>There are many <code>xxxxData</code> attributes in XUnit. Check out for example the <code>MemberData</code> attribute.</p>\n<p>You can implement a property that returns <code>IEnumerable&lt;object[]&gt;</code>. Each <code>object[]</code> that this method generates will be then &quot;unpacked&quot; as a parameters for a single call to your <code>[Theory]</code> method.</p>\n<p>See i.e. <a href=\"http://www.tomdupont.net/2012/04/xunit-theory-data-driven-unit-test.html\" rel=\"noreferrer\">these examples from here</a></p>\n<p>Here are some examples, just for a quick glance.</p>\n<p><strong>MemberData Example: just here at hand</strong></p>\n<pre><code>public class StringTests2\n{\n    [Theory, MemberData(nameof(SplitCountData))]\n    public void SplitCount(string input, int expectedCount)\n    {\n        var actualCount = input.Split(' ').Count();\n        Assert.Equal(expectedCount, actualCount);\n    }\n \n    public static IEnumerable&lt;object[]&gt; SplitCountData =&gt; \n        new List&lt;object[]&gt;\n        {\n            new object[] { &quot;xUnit&quot;, 1 },\n            new object[] { &quot;is fun&quot;, 2 },\n            new object[] { &quot;to test with&quot;, 3 }\n        };\n}\n</code></pre>\n<p>XUnit &lt; 2.0: Another option is <code>ClassData</code>, which works the same, but allows to easily share the 'generators' between tests in different classes/namespaces, and also separates the 'data generators' from the actual test methods.</p>\n<p><strong>ClassData Example</strong></p>\n<pre><code>public class StringTests3\n{\n    [Theory, ClassData(typeof(IndexOfData))]\n    public void IndexOf(string input, char letter, int expected)\n    {\n        var actual = input.IndexOf(letter);\n        Assert.Equal(expected, actual);\n    }\n}\n \npublic class IndexOfData : IEnumerable&lt;object[]&gt;\n{\n    private readonly List&lt;object[]&gt; _data = new List&lt;object[]&gt;\n    {\n        new object[] { &quot;hello world&quot;, 'w', 6 },\n        new object[] { &quot;goodnight moon&quot;, 'w', -1 }\n    };\n \n    public IEnumerator&lt;object[]&gt; GetEnumerator()\n    { return _data.GetEnumerator(); }\n \n    IEnumerator IEnumerable.GetEnumerator()\n    { return GetEnumerator(); }\n}\n</code></pre>\n<p>XUnit &gt;= 2.0: Instead of <code>ClassData</code>, now there's an 'overload' of [MemberData] that allows to use static members from other classes. Examples below have been updated to use it, since XUnit &lt; 2.x is pretty ancient now.\nAnother option is <code>ClassData</code>, which works the same, but allows to easily share the 'generators' between tests in different classes/namespaces, and also separates the 'data generators' from the actual test methods.</p>\n<p><strong>MemberData Example: look there to another type</strong></p>\n<pre><code>public class StringTests3\n{\n    [Theory, MemberData(nameof(IndexOfData.SplitCountData), MemberType = typeof(IndexOfData))]\n    public void IndexOf(string input, char letter, int expected)\n    {\n        var actual = input.IndexOf(letter);\n        Assert.Equal(expected, actual);\n    }\n}\n \npublic class IndexOfData : IEnumerable&lt;object[]&gt;\n{\n    public static IEnumerable&lt;object[]&gt; SplitCountData =&gt; \n        new List&lt;object[]&gt;\n        {\n            new object[] { &quot;hello world&quot;, 'w', 6 },\n            new object[] { &quot;goodnight moon&quot;, 'w', -1 }\n        };\n}\n</code></pre>\n<p><em>Disclaimer :)</em></p>\n<p><em>Last time checked @20210903 with dotnetfiddle.net on C# 5.0 and xunit 2.4.1 .. and failed. I couldn't mix-in a test-runner into that fiddle. But at least it compiled fine. Note that this was originally written years ago, things changed a little. I fixed them according to my hunch and comments. So.. it may contain inobvious typos, otherwise obvious bugs that would instantly pop up at runtime, and traces of milk &amp; nuts.</em></p>\n",
+      "owner": {
+        "display_name": "quetzalcoatl",
+        "link": "https://stackoverflow.com/users/717732/quetzalcoatl"
+      }
+    },
+    {
+      "answer_id": 4183970,
+      "body": "<p>For RSpec 3+:</p>\n<p>The message could be customized as a string or using a proc(check the reference).</p>\n<pre class=\"lang-ruby prettyprint-override\"><code>expect(1).to eq(2), 'one is not two!'\n</code></pre>\n<blockquote>\n<p>Customized message\nRSpec tries to provide useful failure messages, but for cases in which you want more\nspecific information, you can define your own message right in the example. This works for\nany matcher other than the operator matchers.</p>\n</blockquote>\n<p><a href=\"https://relishapp.com/rspec/rspec-expectations/docs/customized-message\" rel=\"nofollow noreferrer\">source @ relishapp</a></p>\n<hr />\n<p>For older RSpec versions</p>\n<p><a href=\"http://rdoc.info/gems/rspec/1.3.1/Kernel#should-instance_method\" rel=\"nofollow noreferrer\"><code>should</code></a> and <a href=\"http://rdoc.info/gems/rspec/1.3.1/Kernel#should_not-instance_method\" rel=\"nofollow noreferrer\"><code>should_not</code></a> take a second argument (<code>message</code>) that overrides the matcher’s default message.</p>\n<pre class=\"lang-ruby prettyprint-override\"><code>1.should be(2), 'one is not two!'\n</code></pre>\n<p>The default messages are usually pretty useful though.</p>\n",
+      "owner": {
+        "display_name": "Chris Johnsen",
+        "link": "https://stackoverflow.com/users/193688/chris-johnsen"
+      }
+    },
+    {
+      "answer_id": 66525886,
+      "body": "<p>For EF Core 5.0 <a href=\"https://learn.microsoft.com/en-us/ef/core/logging-events-diagnostics/simple-logging\" rel=\"noreferrer\">Simple Logging</a> (what a name!) was introduced</p>\n<blockquote>\n<p>EF Core logs can be accessed from any type of application through the use of LogTo when configuring a DbContext instance. This configuration is commonly done in an override of DbContext.OnConfiguring. For example:</p>\n</blockquote>\n<pre><code>protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)\n    =&gt; optionsBuilder.LogTo(Console.WriteLine);\n</code></pre>\n<blockquote>\n<p>Alternately, LogTo can be called as part of AddDbContext or when creating a DbContextOptions instance to pass to the DbContext constructor.</p>\n</blockquote>\n<p>Writing to a file. But I'd rather inject some kind of logger into db context and use it instead of writing logging logic inside of context.</p>\n<pre><code>private readonly StreamWriter _logStream = new StreamWriter(&quot;mylog.txt&quot;, append: true);\n\nprotected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)\n    =&gt; optionsBuilder.LogTo(_logStream.WriteLine);\n\npublic override void Dispose()\n{\n    base.Dispose();\n    _logStream.Dispose();\n}\n\npublic override async ValueTask DisposeAsync()\n{\n    await base.DisposeAsync();\n    await _logStream.DisposeAsync();\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Yehor Androsov",
+        "link": "https://stackoverflow.com/users/7313094/yehor-androsov"
+      }
+    },
+    {
+      "answer_id": 43117377,
+      "body": "<p>See <a href=\"https://xunit.net/docs/shared-context\" rel=\"noreferrer\">https://xunit.net/docs/shared-context</a></p>\n<p>A single test class can only be in <em>one</em> Test Collection (which is why there is such a constraint on the Attribute).</p>\n<p>The solution is to declare a single 'virtual' Test Collection, which declares the two fixtures that a test in such a collection should have controlled access to via <code>ICollectionFixture&lt;X&gt;</code>s.</p>\n<p>When this is in place, the Test Class ctor is furnished with any of the Fixture instances as needed.</p>\n<p>(You can also use an <code>IClassFixture</code> at the Test Class level to declare stuff outside of the Collection [but such Fixtures will be spun up/down] per execution of tests in that Test Class as opposed to ones at Test Collection level which will be spun up/down just the once for the entire run and handed to all Test Classes in the collection as they take their turn to access the Collection Fixture])</p>\n",
+      "owner": {
+        "display_name": "Ruben Bartelink",
+        "link": "https://stackoverflow.com/users/11635/ruben-bartelink"
+      }
+    },
+    {
+      "answer_id": 4421941,
+      "body": "<p>I would avoid externalising skipping tests (i.e. a config/command file if it's possible). This somewhat goes against making the tests easy to run and trustworthy. Making the tests ignored in code is the safest approach when other people start to get involved.</p>\n<p>I could see a number of options, here are two that involve modification of existing code.</p>\n<h3>Option 1 - Most intrusive, compile time platform detection</h3>\n<p>In the VS Solution, define another configuration that defines a precompiler flag <code>MONOWIN</code> (just so that it's explicitly a flag the says that it is for code compiled on Windows for use on Mono).</p>\n<p>Then define an attribute that will make the test ignored when compiled for Mono:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>public class IgnoreOnMonoFactAttribute : FactAttribute {\n#if MONOWIN\n    public IgnoreOnMonoFactAttribute() {\n        Skip = &quot;Ignored on Mono&quot;;\n    }\n#endif\n}\n</code></pre>\n<p>It's actually hard to find any advantages to this method as it involves mocking with the original solution and adds another confiration that needs to be supported.</p>\n<h3>Option 2 - somewhat intrusive - runtime platform detection</h3>\n<p>Here is a similar solution to option1, except no separate configuration is required:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>public class IgnoreOnMonoFactAttribute : FactAttribute {\n\n    public IgnoreOnMonoFactAttribute() {\n        if(IsRunningOnMono()) {\n            Skip = &quot;Ignored on Mono&quot;;\n        }\n    }\n    /// &lt;summary&gt;\n    /// Determine if runtime is Mono.\n    /// Taken from http://stackoverflow.com/questions/721161\n    /// &lt;/summary&gt;\n    /// &lt;returns&gt;True if being executed in Mono, false otherwise.&lt;/returns&gt;\n    public static bool IsRunningOnMono() {\n        return Type.GetType(&quot;Mono.Runtime&quot;) != null;\n    }\n}\n</code></pre>\n<h3>Note 1</h3>\n<p>xUnit runner will run a method twice if it is marked with <code>[Fact]</code> and <code>[IgnoreOnMonoFact]</code>. (CodeRush doesn't do that, in this case I assume xUnit is correct). This means that any tests methods must have <code>[Fact]</code> replaced with <code>[IgnoreOnMonoFact]</code></p>\n<h3>Note 2</h3>\n<p>CodeRush test runner still ran the <code>[IgnoreOnMonoFact]</code> test, but it did ignore the <code>[Fact(Skip=&quot;reason&quot;)]</code> test. I assume it is due to CodeRush reflecting xUnit and not actually running it with the aid of xUnit libraries. This works fine with xUnit runner.</p>\n",
+      "owner": {
+        "display_name": "Igor Zevaka",
+        "link": "https://stackoverflow.com/users/129404/igor-zevaka"
+      }
+    },
+    {
+      "answer_id": 35866216,
+      "body": "<p>One way is to use the <code>Skip</code> parameter within the <code>Fact</code> or <code>Theory</code> attributes.</p>\n<pre class=\"lang-cs prettyprint-override\"><code>[Fact(Skip = &quot;It's not ready yet&quot;)]\npublic void ReplaceTokensUnfinished()\n{\n    var original = &quot;&quot;;\n    var expected = &quot;&quot;;\n    var tokenReplacer = new TokenReplacer();\n    var result = tokenReplacer.ReplaceTokens(original, _tokens); // (_tokens is initialised in a constructor)\n    Assert.Equal(result, expected);\n}\n</code></pre>\n<p>Which gives this result when run:</p>\n<p><a href=\"https://i.sstatic.net/mhsML.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/mhsML.png\" alt=\"enter image description here\" /></a></p>\n",
+      "owner": {
+        "display_name": "testpattern",
+        "link": "https://stackoverflow.com/users/1326235/testpattern"
+      }
+    },
+    {
+      "answer_id": 23827505,
+      "body": "<p>The problem is that <code>async void</code> method does not return a <code>Task</code> object which xUnit could possibly examine for exceptions. xUnit cannot even track the completion of a particular <code>async void</code> method, as opposed to an <code>async Task</code> method.</p>\n<p>Moreover, <code>async void</code> methods do not throw exceptions on the same stack frame, even for exceptions thrown from the synchronous part of the method. Rather, exceptions are propagated to the current synchronization context via <code>SynchronizationContext.Post</code> (in case <code>SynchronizationContext.Current != null</code>), or otherwise via <code>ThreadPool.QueueUserWorkItem</code>. This behavior is different from <code>async Task</code> methods, <a href=\"https://stackoverflow.com/q/22369179/1768303\">more details</a>. It's possible to track the total number of the pending <code>async void</code> methods (via <code>SynchronizationContext.OperationStarted</code>/<code>OperationCompleted</code>), but not individual methods.</p>\n<p>So, changing the <code>XunitTestMethod_Async</code> method's signature from <code>async void</code> to <code>async Task</code> should solve the problem.</p>\n<p><strong>Updated</strong>, it's 2019 and as @maracuja-juice points out, both <code>async void</code> tests now fail, as they original should have behaved. xUnit team has implemented <a href=\"https://github.com/xunit/xunit/blob/master/src/xunit.execution/Sdk/AsyncTestSyncContext.cs\" rel=\"nofollow noreferrer\"><code>AsyncTestSyncContext</code></a>, their special flavor of synchronization context, an instance of which they use to individually track each <code>async void</code> call and capture any exceptions.</p>\n",
+      "owner": {
+        "display_name": "noseratio",
+        "link": "https://stackoverflow.com/users/1768303/noseratio"
+      }
+    },
+    {
+      "answer_id": 51563271,
+      "body": "<p>As indicated in the comments, you can't use a <code>decimal</code> here because <code>decimal</code> is not one of the types that's allowed in attribute parameter values.</p>\n<p>However, xUnit provides a more flexible way to pass parameter values to test methods, using <code>ClassData</code>:</p>\n<pre><code>[Theory]\n[ClassData(typeof(FooDataGenerator))]\npublic void FooWithFilter(string fooId, decimal? amount)\n</code></pre>\n<p>To use this, you simply need to define a class that extends <code>IEnumerable&lt;object[]&gt;</code> and produces the input values you want:</p>\n<pre><code>public class FooDataGenerator : IEnumerable&lt;object[]&gt;\n{\n    private readonly List&lt;object[]&gt; _data = new List&lt;object[]&gt;\n    {\n        new object[] {&quot;123&quot;, null},\n        new object[] {&quot;123&quot;, 610M}\n    };\n\n    public IEnumerator&lt;object[]&gt; GetEnumerator() =&gt; _data.GetEnumerator();\n\n    IEnumerator IEnumerable.GetEnumerator() =&gt; GetEnumerator();\n}\n</code></pre>\n<p>Some further references on the various ways of passing values to xUnit tests:<br />\n<a href=\"https://andrewlock.net/creating-parameterised-tests-in-xunit-with-inlinedata-classdata-and-memberdata/\" rel=\"noreferrer\">Creating Parameterised tests in xUnit</a><br />\n<a href=\"http://hamidmosalla.com/2017/02/25/xunit-theory-working-with-inlinedata-memberdata-classdata/\" rel=\"noreferrer\">xUnit Theory: Working With InlineData, MemberData, ClassData</a></p>\n",
+      "owner": {
+        "display_name": "JLRishe",
+        "link": "https://stackoverflow.com/users/1945651/jlrishe"
+      }
+    },
+    {
+      "answer_id": 53957938,
+      "body": "<p>There is currently no supported way to pass flags to <code>dotnet test</code>. You must use <a href=\"https://xunit.net/docs/configuration-files\" rel=\"noreferrer\">configuration files</a> instead.</p>\n<p>xunit.runner.json:</p>\n<pre><code>{\n    &quot;parallelizeAssembly&quot;: true\n}\n</code></pre>\n<p><code>parallelizeAssembly</code> defaults to <code>false</code></p>\n<blockquote>\n<p>Set this to true if this assembly is willing to participate in parallelization with other assemblies. Test runners can use this information to automatically enable parallelization across assemblies if all the assemblies agree to it.</p>\n</blockquote>\n<p><code>parallelizeTestCollections</code> defaults to <code>true</code></p>\n<blockquote>\n<p>Set this to true if the assembly is willing to run tests inside this assembly in parallel against each other. Tests in the same test collection will be run sequentially against each other, but tests in different test collections will be run in parallel against each other. Set this to false to disable all parallelization within this test assembly.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "rickvdbosch",
+        "link": "https://stackoverflow.com/users/1945525/rickvdbosch"
+      }
+    },
+    {
+      "answer_id": 65258419,
+      "body": "<p>OP is asking about async, but if anyone else got here looking for non-async equivalent then:</p>\n<pre><code>[Fact]\npublic void TestConstructorDoesNotThrow()\n{\n    var exception = Record.Exception(() =&gt; new MyClass());\n    Assert.Null(exception);\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "RJFalconer",
+        "link": "https://stackoverflow.com/users/28411/rjfalconer"
+      }
+    },
+    {
+      "answer_id": 57097065,
+      "body": "<p>Considering the asynchronous nature of the code under test, it would be better if the test code be asynchronous as well. Moq is async capable</p>\n<pre><code>[Fact]\npublic async Task CreateCSVFile_Failure() {\n    //Arrange\n    var dtData = new DataTable();\n    string fileName = &quot;&quot;;\n    var mockClient = new Mock&lt;IHttpHandler&gt;();\n\n    this._iADLS_Operations = new ADLS_Operations(mockClient.Object);\n\n    mockClient\n        .Setup(repo =&gt; repo.PostAsync(It.IsAny&lt;string&gt;(), It.IsAny&lt;HttpContent&gt;(), It.IsAny&lt;string&gt;()))\n        .ReturnsAsync(new HttpResponseMessage(HttpStatusCode.BadRequest));\n\n    mockClient\n        .Setup(repo =&gt; repo.SendAsync(It.IsAny&lt;HttpRequestMessage&gt;(), It.IsAny&lt;string&gt;()))\n        .ThrowsAsync(new Exception(&quot;Some message here&quot;));\n\n    //Act \n    Func&lt;Task&gt; act = () =&gt; this._iADLS_Operations.CreateCSVFile(dtData, fileName);\n\n    //Assert\n    Exception ex = await Assert.ThrowsAsync&lt;Exception&gt;(act);\n    Assert.Contains(&quot;Exception occurred while executing method:&quot;, ex.Message);\n}\n</code></pre>\n<p>Note the use of Moq's <code>ReturnsAsync</code> and <code>ThrowsAsync</code> in the setup, along with xUnit's <code>Assert.ThrowsAsync</code></p>\n<p>This now allows you to avoid making blocking calls like <code>.Result</code> which could potentially lead to deadlocks.</p>\n",
+      "owner": {
+        "display_name": "Nkosi",
+        "link": "https://stackoverflow.com/users/5233410/nkosi"
+      }
+    },
+    {
+      "answer_id": 41462971,
+      "body": "<p>A quick solution is to make <code>private</code> members that you want to test <code>internal</code>.</p>\n<p>You can then add an <code>InternalsVisibleTo</code> attribute to your main library's AssemblyInfo.cs.  This will allow your test library (and no other library, without reflection) access to the internal methods/classes in your main library.</p>\n<p>e.g.</p>\n<pre><code>[assembly: InternalsVisibleTo(&quot;Library.Tests&quot;)]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Patrick McDonald",
+        "link": "https://stackoverflow.com/users/61989/patrick-mcdonald"
+      }
+    },
+    {
+      "answer_id": 26925780,
+      "body": "<p>The first argument for Assert.IsType should be the object itself not its type, the following should not throw:</p>\n<pre><code>var expected = typeof(List&lt;MyClass&gt;);\nvar actual = Method();\n\nAssert.IsType&lt;List&lt;MyClass&gt;&gt;(actual);\nAssert.IsType(expected, actual);\n</code></pre>\n",
+      "owner": {
+        "display_name": "robi-y",
+        "link": "https://stackoverflow.com/users/4388/robi-y"
+      }
+    },
+    {
+      "answer_id": 42287012,
+      "body": "<p>I found the answer  (<strong>only</strong> tests attributed <code>[Trait(\"TraitName\", \"TraitValue\")]</code> are executed):</p>\n\n<pre><code>dotnet test --filter TraitName=TraitValue\n</code></pre>\n\n<p>Alternatively, you can filter by <em>not</em> having a trait value (tests attributed <code>[Trait(\"TraitName\", \"TraitValue\")]</code> are execluded from run) </p>\n\n<pre><code>dotnet test --filter TraitName!=TraitValue\n</code></pre>\n\n<p>In my example above, this means I can run:</p>\n\n<pre><code>dotnet test --filter Color=Blue\n</code></pre>\n\n<p>More docs here: <a href=\"https://github.com/Microsoft/vstest-docs/blob/master/docs/filter.md\" rel=\"noreferrer\">https://github.com/Microsoft/vstest-docs/blob/master/docs/filter.md</a></p>\n",
+      "owner": {
+        "display_name": "natemcmaster",
+        "link": "https://stackoverflow.com/users/2526265/natemcmaster"
+      }
+    },
+    {
+      "answer_id": 60938146,
+      "body": "<p>There were two issues with this Problem:</p>\n\n<ol>\n<li>The found unit test was located in the \"<strong>/obj/release</strong>\" folder, but into this folder no *.deps.json files are copied. In the build-task you can see that the *.deps.json were successfully build and copied:</li>\n</ol>\n\n<blockquote>\n  <p>Copying file from\n  \"d:\\a\\1\\s\\APPNAME\\bin\\Release\\netcoreapp3.1\\APPNAME.deps.json\" to\n  \"d:\\a\\1\\s...\"</p>\n</blockquote>\n\n<ol start=\"2\">\n<li>The second issue I had, was that a reference in the unit test was referencing a .NET Standard 2.1 Solution, which seems not to include any *.deps.json in the output.</li>\n</ol>\n\n<p>Here is my fixed yaml file:</p>\n\n<pre class=\"lang-yaml prettyprint-override\"><code># UnitTests\n- task: VSBuild@1\n  displayName: 'Build Test'\n  inputs:\n    solution: '**/APPNAME.UnitTests.csproj'\n    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation=\"$(Build.ArtifactStagingDirectory)\"'\n    platform: '$(buildPlatform)'\n    configuration: '$(buildConfiguration)'\n\n- task: VSTest@2\n  inputs:\n    testSelector: testAssemblies\n    testAssemblyVer2: 'APPNAME\\bin\\Release\\netcoreapp3.1\\APPNAME.UnitTests.dll' #Full path to test dll\n    testFiltercriteria: FullyQualifiedName~APPNAME.UnitTests # Further namespace filter\n    runInParallel: false\n    platform: '$(buildPlatform)'\n    configuration: '$(buildConfiguration)'\n    diagnosticsEnabled: true\n</code></pre>\n",
+      "owner": {
+        "display_name": "Celdus",
+        "link": "https://stackoverflow.com/users/3450059/celdus"
+      }
+    },
+    {
+      "answer_id": 46163116,
+      "body": "<p>Create an instance of the context pass it to the filter and assert the expected behavior</p>\n\n<p>For example</p>\n\n<pre class=\"lang-cs prettyprint-override\"><code>[TestClass]\npublic class ValidateModelAttributeTest {\n    [TestMethod]\n    public void Invalid_ModelState_Should_Return_BadRequestObjectResult() {\n        //Arrange\n        var modelState = new ModelStateDictionary();\n        modelState.AddModelError(\"\", \"error\");\n        var httpContext = new DefaultHttpContext();\n        var context = new ActionExecutingContext(\n            new ActionContext(\n                httpContext: httpContext,\n                routeData: new RouteData(),\n                actionDescriptor: new ActionDescriptor(),\n                modelState: modelState\n            ),\n            new List&lt;IFilterMetadata&gt;(),\n            new Dictionary&lt;string, object&gt;(),\n            new Mock&lt;Controller&gt;().Object);\n\n        var sut = new ValidateModelAttribute();\n\n        //Act\n        sut.OnActionExecuting(context);\n\n        //Assert\n        context.Result.Should().NotBeNull()\n            .And.BeOfType&lt;BadRequestObjectResult&gt;();\n    }\n} \n</code></pre>\n",
+      "owner": {
+        "display_name": "Nkosi",
+        "link": "https://stackoverflow.com/users/5233410/nkosi"
+      }
+    },
+    {
+      "answer_id": 60236389,
+      "body": "<p>I found a workaround to the problem which does not really solve the xunit publish issue but I can live with that. </p>\n\n<p>The Xunit test result I would like to publish is from a testcafe runner which has many reporting possibilities. I switched to <a href=\"https://www.npmjs.com/package/testcafe-reporter-junit\" rel=\"noreferrer\">testcafe-reporter-junit</a> and exported a junit test report. Then using the test publisher for junit files and everything works.</p>\n\n<p>Since switching to VSTest also resolved it maybe it is just the xunit test publisher which has an issue.</p>\n",
+      "owner": {
+        "display_name": "bamchris",
+        "link": "https://stackoverflow.com/users/11655834/bamchris"
+      }
+    },
+    {
+      "answer_id": 57001746,
+      "body": "<p>The <strong><code>moq</code></strong> use <a href=\"http://www.castleproject.org/projects/dynamicproxy/\" rel=\"noreferrer\">dynamic proxy</a> to create wrapper around mocked type in order to be able to intercept calls and change the behaviour of the invoked methods.</p>\n\n<p>How proxy is built?</p>\n\n<ul>\n<li>If you mocking <code>interface</code> proxy is just an implementation of the interface</li>\n<li>If you have <code>class</code> the proxy is override of the class</li>\n</ul>\n\n<hr>\n\n<p>Question: Could you mock <code>sealed class</code> or non <code>virtual</code>(<code>abstract</code>) method?</p>\n\n<p>You guess, no. There is no way to create wrapper around it using dynamic proxy. <strong><code>moq</code></strong> itself suggesting the same, if you look at the error:</p>\n\n<blockquote>\n  <p>Non-overridable members (here:\n  BlobServiceProvider.GetBlockBlobContainer) may not be used in setup</p>\n</blockquote>\n\n<hr>\n\n<p>To answer your question, either you need to extract the <code>interface</code> out of your provider and mock it or mark the method as virtual. Personaly, I do prefer option with the <code>interface</code> but it might requre some refactoring and DI.</p>\n",
+      "owner": {
+        "display_name": "Johnny",
+        "link": "https://stackoverflow.com/users/3311799/johnny"
+      }
+    },
+    {
+      "answer_id": 1250305,
+      "body": "<p>There is a sample in our Samples project named PrioritizedFixtureSample which allows you to control the ordering of tests.</p>\n\n<p>See the samples in our latest release: <a href=\"https://xunit.net/#releases\" rel=\"nofollow noreferrer\">https://xunit.net/#releases</a></p>\n",
+      "owner": {
+        "display_name": "Brad Wilson",
+        "link": "https://stackoverflow.com/users/1554/brad-wilson"
+      }
+    },
+    {
+      "answer_id": 59895267,
+      "body": "<p>Upgrade the nuget package <strong>Microsoft.NET.Test.Sdk</strong> to version 16.4.0 (or newer).</p>\n\n<p>When creating a new xunit project in vs2019, the version of Microsoft.NET.Test.Sdk installed is 16.2.0, which xunit.runner.visualstudio (v2.4.0 or newer) doesn't seem to work in.</p>\n",
+      "owner": {
+        "display_name": "Jammyjamjamman",
+        "link": "https://stackoverflow.com/users/12774800/jammyjamjamman"
+      }
+    },
+    {
+      "answer_id": 59567049,
+      "body": "<p>The <a href=\"https://github.com/trbenning/serilog-sinks-xunit\" rel=\"noreferrer\">Serilog.Sinks.XUnit</a> nuget package makes it easy to accomplish this. Reference the nuget in your project. Then you can use the static logger in the test:</p>\n\n<pre><code>using Serilog;\nusing Xunit;\nusing Xunit.Abstractions;\n\nnamespace XunitToSerilog\n{\n    public class SampleTest\n    {\n        public SampleTest(ITestOutputHelper output)\n        {\n            Log.Logger = new LoggerConfiguration()\n            // add the xunit test output sink to the serilog logger\n            // https://github.com/trbenning/serilog-sinks-xunit#serilog-sinks-xunit\n            .WriteTo.TestOutput(output)\n            .CreateLogger();\n        }\n\n        [Fact]\n        public void Test1()\n        {\n            Log.Information(\"goes to test output\");\n        }\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "rachri",
+        "link": "https://stackoverflow.com/users/6898158/rachri"
+      }
+    },
+    {
+      "answer_id": 59393443,
+      "body": "<h2>Solution</h2>\n\n<p>change <code>package.json</code> script from</p>\n\n<pre><code>\"scripts\": {\n  \"test\": \"jest --ci --reporters=default --reporters=jest-junit\"\n},\n</code></pre>\n\n<p>to just </p>\n\n<pre><code>\"scripts\": {\n  \"test\": \"jest --ci\"\n},\n</code></pre>\n\n<hr>\n\n<h2>Explanation</h2>\n\n<p>The problem is that reporters configuration have been provided to both the <code>jest.config.js</code> file as well as cli arguments to the <code>test</code> script in package.json. The CLI options has higher precedence and does not provide the <code>outputDirectory</code> and <code>outputName</code>, the test result will revert to the default <code>junit.xml</code>.</p>\n",
+      "owner": {
+        "display_name": "matsev",
+        "link": "https://stackoverflow.com/users/303598/matsev"
+      }
+    },
+    {
+      "answer_id": 39491397,
+      "body": "<p>I just stumbled on the same problem and solved it in this way.</p>\n\n<pre class=\"lang-cs prettyprint-override\"><code>[Fact]\npublic void ValidateModelAttributes_SetsResultToBadRequest_IfModelIsInvalid()\n{\n    var validationFilter = new ValidationFilter();\n    var modelState = new ModelStateDictionary();\n    modelState.AddModelError(\"name\", \"invalid\");\n\n    var actionContext = new ActionContext(\n        Mock.Of&lt;HttpContext&gt;(),\n        Mock.Of&lt;RouteData&gt;(),\n        Mock.Of&lt;ActionDescriptor&gt;(),\n        modelState\n    );\n\n    var actionExecutingContext = new ActionExecutingContext(\n        actionContext,\n        new List&lt;IFilterMetadata&gt;(),\n        new Dictionary&lt;string, object&gt;(),\n        Mock.Of&lt;Controller&gt;()\n    );\n\n    validationFilter.OnActionExecuting(actionExecutingContext);\n\n    Assert.IsType&lt;BadRequestObjectResult&gt;(actionExecutingContext.Result);\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "christofferh",
+        "link": "https://stackoverflow.com/users/1110534/christofferh"
+      }
+    },
+    {
+      "answer_id": 57744781,
+      "body": "<h1>Microsoft response</h1>\n<p>According to Microsoft response on bug report (<a href=\"https://developercommunity.visualstudio.com/content/problem/676360/cannot-open-coverage-file-from-visual-studio-2019.html\" rel=\"noreferrer\">https://developercommunity.visualstudio.com/content/problem/676360/cannot-open-coverage-file-from-visual-studio-2019.html</a>) it turns out, that opening Coverage files is feature of Enterprise edition only.</p>\n<p>Reason why it was (and is) working on 2017 Community and Professional and 2019 &lt;16.2 was a glitch, that after running all tests, the missing assembly was loaded and coverage could be opened.</p>\n<h2>TL;DR:</h2>\n<p>To bring back opening coverage files on Professional (and perhaps Community as well, didn't test it), we need to add <code>;Extensions\\TestPlatform</code> at the end of <code>&lt;probing privatePath=&quot;&quot;/&gt;</code> list in <code>%USERPROFILE%\\AppData\\Local\\Microsoft\\VisualStudio\\16.0_</code>somehash<code>\\devenv.exe.config</code> file.</p>\n<p>or....</p>\n<p>Copy</p>\n<pre><code>Common7/IDE/Extensions/TestPlatform/Microsoft.VisualStudio.Coverage.Analysis.dll\nCommon7/IDE/Extensions/TestPlatform/Microsoft.VisualStudio.Coverage.Interop.dll\n</code></pre>\n<p>to</p>\n<pre><code>Common7/IDE/PrivateAssemblies\n</code></pre>\n<h1>Background</h1>\n<p>To open coverage file, as error states, dll file is required. That file, in Enterprise Edition, is located and loaded from: <code>Common7/IDE/PrivateAssemblies/Microsoft.VisualStudio.Coverage.Analysis.dll</code></p>\n<p>However, same file is in <code>Common7\\IDE\\Extensions\\TestPlatform</code>. So we have required assembly file, but devenv doesn't know it is there.</p>\n<p>In <code>%USERPROFILE%\\AppData\\Local\\Microsoft\\VisualStudio\\</code> there are subfolders like 16.0_hash which contain <code>devenv.exe.config</code> files specifying required assembles and their locations.<br />\nIn each of the file there's also <code>&lt;probing&gt;</code> entry that specifies additional locations to tell devenv.exe where to look for dll assemblies. Enterprise and Professional has equal entry, but since Enterprise version has missing file in <code>PrivateAssemblies</code> folder, which is on this list, devenv is loading it.\nSo we need either to copy dll files from TestExtensions to PrivateAssemblies or add the folder path to probing list.</p>\n",
+      "owner": {
+        "display_name": "Miq",
+        "link": "https://stackoverflow.com/users/7717185/miq"
+      }
+    },
+    {
+      "answer_id": 58633169,
+      "body": "<p>My bad. I had installed Microsoft.Data.Sqlite.Core version 3.0.0 when I needed version 2.2.6 and I had not installed Microsoft.Data.Sqlite 2.2.6, which I have since installed. It's working now.</p>\n\n<p>Also, FYI: both .UseSqlite(\"Data Source=:memory:\") and .UseSqlite(\"DataSource=:memory:\") work.</p>\n",
+      "owner": {
+        "display_name": "Laurie Dickinson",
+        "link": "https://stackoverflow.com/users/1352258/laurie-dickinson"
+      }
+    },
+    {
+      "answer_id": 56990682,
+      "body": "<p>The problem is that <strong><code>moq</code></strong> cannot create <code>CloudBlobClient</code> as it has no parameterless constructor. However <strong><code>moq</code></strong> is capable of creating the object without parameterless constructor but you need to provide arguments. </p>\n\n<p>The simplest approach is to use <a href=\"https://learn.microsoft.com/en-us/dotnet/api/microsoft.azure.storage.blob.cloudblobclient.-ctor?view=azure-dotnet#Microsoft_Azure_Storage_Blob_CloudBlobClient__ctor_System_Uri_System_Net_Http_DelegatingHandler_\" rel=\"noreferrer\">this</a> constructor </p>\n\n<pre><code>public CloudBlobClient (\n    Uri baseUri, System.Net.Http.DelegatingHandler delegatingHandler = null);\n</code></pre>\n\n<p>and provide the <code>Uri</code>. </p>\n\n<p>Something like:</p>\n\n<pre><code>var mockCloudBlobClient = new Mock&lt;CloudBlobClient&gt;(new Uri(\"http://mytest\"));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Johnny",
+        "link": "https://stackoverflow.com/users/3311799/johnny"
+      }
+    },
+    {
+      "answer_id": 42942592,
+      "body": "<blockquote>\n  <p>Changing the test project from Class Library (.NET Standard) to Class Library (.NET Core) fixed the problem. I still don't get why this is supposed to make a difference.</p>\n</blockquote>\n\n<p>Unit tests are applications that we run. To build such an application, we must specify a runtime and application model. When we target .NET Standard, the runtime and application model are ambiguous; MSBuild does not know whether to build against .NET Framework, .NET Core, Mono/Xamarin, or another .NET Standard compliant platform. Targeting .NET Core provides the required input to MSBuild, which now knows how to resolve all the referenced assemblies/projects and choose the appropriate framework version. </p>\n\n<blockquote>\n  <p>But that was never the case. In the past, you would always use a class library for unit tests; it was never considered an application that you could run, but rather a collection of classes and methods that you would feed into a test runner.</p>\n</blockquote>\n\n<p>In the past we did not have .NET Standard, which is an ambiguous target. When MSBuild sees .NET Standard it needs more information. \"Okay, which .NET  Standard compliant runtime do you want to use to produce the runnable output?\" If for instance we had targeted <code>netstandard1.2</code>, then MSBuild would not know whether to build against .NET Core 1.0, .NET Framework 4.5.1, Windows 8.1, or the several other <code>netstandard1.2</code> compliant platforms. </p>\n\n<p><a href=\"https://i.sstatic.net/Ad0ap.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/Ad0ap.png\" alt=\"enter image description here\"></a></p>\n\n<blockquote>\n  <p>Starting test execution, please wait... Could not find testhost.dll for source '[...].Tests.dll'. Make sure test project has a nuget reference of package \"microsoft.testplatform.testhost\".</p>\n</blockquote>\n\n<p>If we do not specify <code>netcoreapp</code>, then MSBuild assumes that we are using the full framework. In that case, it expects the target assemblies, including <code>testhost.dll</code>, to be in the <code>bin</code>. If they are not (and they will not be if we built against .NET Standard), then we will receive the above error.</p>\n",
+      "owner": {
+        "display_name": "Shaun Luttin",
+        "link": "https://stackoverflow.com/users/1108891/shaun-luttin"
+      }
+    },
+    {
+      "answer_id": 57063368,
+      "body": "<ul>\n<li><p>First use the <code>xUnit Test Project (.NET Core)</code> project template.</p></li>\n<li><p>Then go edit the .csproj file and change <code>&lt;TargetFramework&gt;netcoreapp2.2&lt;/TargetFramework&gt;</code> to <code>&lt;TargetFramework&gt;net462&lt;/TargetFramework&gt;</code>.</p></li>\n<li><p>That's it. :)</p></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Matt Johnson-Pint",
+        "link": "https://stackoverflow.com/users/634824/matt-johnson-pint"
+      }
+    },
+    {
+      "answer_id": 55696958,
+      "body": "<p><a href=\"https://github.com/SimonCropp/XunitLogger\" rel=\"nofollow noreferrer\">XunitLogger</a> uses <code>AsyncLocal&lt;T&gt;</code> to keep track of the logging context so calls to <code>Trace.Writeline</code> and <code>Console.Writeline</code> can be routed to the correct instance of <code>ITestOutputHelper</code>. </p>\n\n<p>Usage: </p>\n\n<pre><code>static class ClassBeingTested\n{\n    public static void Method()\n    {\n        Trace.WriteLine(\"From Trace\");\n        Console.WriteLine(\"From Console\");\n        Console.Error.WriteLine(\"From Console Error\");\n    }\n}\n\npublic class TestBaseSample  :\n    XunitLoggingBase\n{\n    [Fact]\n    public void Write_lines()\n    {\n        WriteLine(\"From Test\");\n        ClassBeingTested.Method();\n\n        var logs = XunitLogger.Logs;\n\n        Assert.Contains(\"From Test\", logs);\n        Assert.Contains(\"From Trace\", logs);\n        Assert.Contains(\"From Console\", logs);\n        Assert.Contains(\"From Console Error\", logs);\n    }\n\n    public TestBaseSample(ITestOutputHelper output) :\n        base(output)\n    {\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Simon",
+        "link": "https://stackoverflow.com/users/53158/simon"
+      }
+    },
+    {
+      "answer_id": 55924060,
+      "body": "<p>I believe the cleanest way is using <code>ClassData</code> for that so that you can populate data for your test from wherever you like. Consider this:</p>\n\n<pre><code>public class TestData : IEnumerable&lt;object[]&gt; \n{\n    private IEnumerable&lt;object[]&gt; ReadFile() \n    {\n        //read your file\n    }\n\n    public IEnumerator&lt;object[]&gt; GetEnumerator() \n    {\n        var items = ReadFile();\n        return items.GetEnumerator();\n    }\n\n    IEnumerator IEnumerable.GetEnumerator() =&gt; GetEnumerator();\n}\n</code></pre>\n\n<p>Of course, you could just populate data from a file during <a href=\"https://medium.com/@pjbgf/title-testing-code-ocd-and-the-aaa-pattern-df453975ab80\" rel=\"noreferrer\">the Arrange phase of your test</a> and then just loop your test method over the data. But in that case, you would lose the advantage of detecting all failing tests instead of just the first.</p>\n",
+      "owner": {
+        "display_name": "Bohdan Stupak",
+        "link": "https://stackoverflow.com/users/11306392/bohdan-stupak"
+      }
+    },
+    {
+      "answer_id": 46270215,
+      "body": "<blockquote>\n  <p>The appsettings.json file is just in my test project root, do you know an easy way to get the current project path so that I don't have to hard-code that value</p>\n</blockquote>\n\n<p>Set the <code>Build Action</code> property of the file to <code>Content</code> so it will copy to output directory so it is moved to the bin when testing and then you can use the original config code with the <code>.SetBasePath(Directory.GetCurrentDirectory())</code></p>\n\n<pre><code>public async Task GetUserShouldReturnOk() {\n    var userId = new Guid();\n    var configuration = new ConfigurationBuilder()\n            .SetBasePath(Directory.GetCurrentDirectory())\n            .AddJsonFile(\"appsettings.json\")\n            .Build();\n\n    var controller = new MyController(\n        new MyRepository(configuration));\n\n    var result = await controller.GetUser(userId);\n\n    Assert.IsType&lt;OkResult&gt;(result);\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nkosi",
+        "link": "https://stackoverflow.com/users/5233410/nkosi"
+      }
+    },
+    {
+      "answer_id": 55413067,
+      "body": "<p>You just do </p>\n\n<pre><code>// Arrange\nvar mockUser = new Mock&lt;UserManager&lt;IdentityUser&gt;&gt;();\n\nvar controller = new SweetController(mockUser.Object);\n</code></pre>\n\n<p>You don't need </p>\n\n<pre><code>var userManager = new UserManager(mockRepo.Object);  &lt;-- error here see image below\n</code></pre>\n\n<p>at all. <code>mockUser</code> is already the mocked <code>UserManager&lt;T&gt;</code>, which you place a mocked instance via <code>mock.Object</code>.</p>\n\n<p>When you mock an object you don't have to instantiate it with all of its dependencies (that would be integration test), that's the point of mocking (along with making methods return a desired value and do behavior tests to make sure your tested code has called a specific method with specific parameter of the mocked object).</p>\n\n<p>Of course per se the above code won't work, since you didn't setup any test conditions/returns for <code>FindByIdAsync</code> and <code>IsInRoleAsync</code>. You have to setup these with </p>\n\n<pre><code>mockUser.Setup( userManager =&gt; userManager.FindByIdAsync(It.IsAny&lt;string&gt;()))\n    .ReturnsAsync(new IdentityUser { ... });\nmockUser.Setup( userManager =&gt; userManager.IsInRoleAsync(It.IsAny&lt;IdentityUser&gt;(), \"SweetTooth\"))\n    .ReturnsAsync(true);\n</code></pre>\n\n<p>Then whenever the mock is called it returns your predefined user and a predefined result.</p>\n",
+      "owner": {
+        "display_name": "Tseng",
+        "link": "https://stackoverflow.com/users/455493/tseng"
+      }
+    },
+    {
+      "answer_id": 55079340,
+      "body": "<p>Currently, I implemented the scenario using Environment Variable but still not happy to define the connection string as a environment variable using powershell in build task and read it in through code during unit test execution. I was thinking if there could be another way of achieving it..</p>\n\n<p>Below snapshot shows how the build tasks are configured currently as workaround to achieve the desired:\n<a href=\"https://i.sstatic.net/hglPD.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/hglPD.png\" alt=\"enter image description here\"></a></p>\n\n<p>And code to read the value as</p>\n\n<pre><code>var serviceEndpoint = Environment.GetEnvironmentVariable(\"CosmosDbEmulatorEndpointEnvironmentVariable\");\n</code></pre>\n\n<p>Since, UnitTest task provides the option to pass .runsettings/.testsettings with option to override the test run parameters so was thinking it something can be achieved using those options.</p>\n",
+      "owner": {
+        "display_name": "user1672994",
+        "link": "https://stackoverflow.com/users/1672994/user1672994"
+      }
+    },
+    {
+      "answer_id": 54837381,
+      "body": "<p>I finally got how to do it in 3.0.\nHere's the full walkthrough on how to do it for anyone that needs the solution :</p>\n\n<ol>\n<li><p>You need to have atleast <strong>.Net Core 3.0.0-preview2</strong>, since they added the <code>WebApplicationFactory</code> with <code>IHostbuilder</code> in this preview (<a href=\"https://github.com/aspnet/AspNetCore/pull/6585\" rel=\"nofollow noreferrer\">https://github.com/aspnet/AspNetCore/pull/6585</a>). You can find it here : <a href=\"https://dotnet.microsoft.com/download/dotnet-core/3.0\" rel=\"nofollow noreferrer\">https://dotnet.microsoft.com/download/dotnet-core/3.0</a></p></li>\n<li><p>Upgrade atleast theses packages to version 3.0.0 (<a href=\"https://github.com/aspnet/AspNetCore/issues/3756\" rel=\"nofollow noreferrer\">https://github.com/aspnet/AspNetCore/issues/3756</a> and <a href=\"https://github.com/aspnet/AspNetCore/issues/3755\" rel=\"nofollow noreferrer\">https://github.com/aspnet/AspNetCore/issues/3755</a>):</p>\n\n<ul>\n<li><code>Microsoft.AspNetCore.App Version=3.0.0-preview-19075-0444</code></li>\n<li><code>Microsoft.AspNetCore.Mvc.Testing Version= 3.0.0-preview-19075-0444</code></li>\n<li><code>Microsoft.Extensions.Hosting Version=3.0.0-preview.19074.2</code></li>\n</ul></li>\n<li><p>Remove now deprecated packages that are now included in <code>Microsoft.AspNetCore.App</code>:</p>\n\n<ul>\n<li><code>Microsoft.AspNetCore Version=2.2.0</code></li>\n<li><code>Microsoft.AspNetCore.CookiePolicy Version=2.2.0</code></li>\n<li><code>Microsoft.AspNetCore.HttpsPolicy Version=2.2.0</code></li>\n<li><code>Microsoft.AspNetCore.Identity Version=2.2.0</code></li>\n</ul></li>\n<li><p>If your were using <code>services.AddIdentity</code> in your <code>WebApplicationFactory&lt;Startup&gt;</code> builder, you'll need to delete it. Otherwise, you'll have a new error saying that you have <strong>already use that scheme</strong> for <code>Identity.Application</code>. It looks like the new <code>WebApplicationFactory</code> is using the one from <code>Startup.cs</code> now.</p></li>\n</ol>\n\n<p>I had nothing else to modify.\nHope it will be helpful for some people !</p>\n\n<p><strong>Update :</strong></p>\n\n<p>It was working well until I had to use another Integration C# file (e.g <code>LoginTest.cs</code> and <code>ManageTest.cs</code>). The problem was that when I ran my test, it would infinitly loop until I pressed CTRL + C.\nAfter that, it would display an <strong>Access Denied</strong> error.</p>\n\n<p>Once again, I had to remove something from my <code>WebApplicationFactory</code>, the seeds : </p>\n\n<pre><code>            try\n            {\n                // Seed the database with test data.\n                var userManager = scopedServices.GetRequiredService&lt;UserManager&lt;ApplicationUser&gt;&gt;();\n                AppIdentityDbContextSeed.SeedAsync(userManager).GetAwaiter().GetResult();\n            }\n            catch (Exception ex)\n            {\n                logger.LogError(ex, $\"An error occurred seeding the database with test messages. Error: {ex.Message}\");\n            }\n</code></pre>\n\n<p>It looks like the new <code>WebApplicationFactory</code> was trying to recreate the usermanager for each factories. I replaced my seeded user accounts with Guid.NewGuid().</p>\n\n<p>Took me a while to figure it out. Hope it might help someone, once again.</p>\n",
+      "owner": {
+        "display_name": "Fearware",
+        "link": "https://stackoverflow.com/users/3753889/fearware"
+      }
+    },
+    {
+      "answer_id": 598926,
+      "body": "<p>The whole point is to work <strong>with</strong> non-programmers, often even completely non-technical people like prospect users of a business application, on what application should do and then put it into tests. While making tests work is certainly too complicated for them, they should be able to discuss tables of sample data filled out in e.g. Word. And the great thing is, unlike traditional specification, those documents live with your application because automated tests force you to update them.</p>\n\n<p>See <a href=\"http://fit.c2.com/wiki.cgi?IntroductionToFit\" rel=\"nofollow noreferrer\">Introduction To Fit</a> and <a href=\"http://fit.c2.com/wiki.cgi?FitWorkflow\" rel=\"nofollow noreferrer\">Fit Workflow</a> by James Shore and follow links to the rest of documentation if you want.</p>\n\n<hr>\n\n<p><strong>Update:</strong> Depends on what you mean by business rules? ;-) Some people would understand it very narrowly (like in business rules engines etc), others---very broadly.</p>\n\n<p>As I see it, Fit is a tool that allows you to write down business (as in domain) use cases with rich realistic examples in a document, which the end users or domain experts (in some domains) can understand, verify and discuss. At the same time these examples are in machine readable form so they can be used to drive automated testing, You neither write the document entirely by yourself, nor requre them to do it. Instead it's a product of callaboration and discussion that reflects growing understanding of what application is going to do, on both sides. Examples get richer as you progress and more corner cases are resolved.</p>\n\n<p>What application will do, not how, is important. It's a form of functional spec. As such it's rather broad and not really organized by modules but rather usage scenarios.</p>\n\n<p>The tests that come out of examples will test external behavior of application in aspects important from business point of view. Yes, you might call it business rules. But lets look at Diego Jancic's example of credit scoring, just with a little twist. What if part of fit document is 1) listing attributes and their scores and then 2) providing client data and checking results, Then which are the actual business rules: scoring table (attributes and their scores) or application logic computing the score for each client (based on scoring table)? And which are tested? </p>\n\n<p>Fit/FitNesse tests seem more suitable for acceptance testing. Other tests (when you don't care about cooperation with clients, users, domain experts, etc., you just want to automate testing) probably will be easier to write and maintain in more traditional ways. xUnit is nice for unit testing and api tests. Each web framework should have some tool for web app/service testing integrated in its modify-build-test-deploy cycle, eg. django has its little test client. You've lots to chose from.</p>\n\n<p>And you always can write your own tool (or preferably tweak some existing) to better fit (pun intended) some testing in your particular domain of interest.</p>\n\n<hr>\n\n<p>One more general thought. It's often (not always!!!) better to encode your tests, \"business rules\" and just about anything, in some form of well defined data that is interpreted by some simple, generic piece of code. Then it's easy to use the data in some other way: generate documentation, migrate to new testing framework, port application to new environment/programming language, use to check conformance with some external rules or other system (just use your imagination). It's much harder to pull such information out from code, eg. simple hardcoded unit tests or business rules.</p>\n\n<p>Fit stores test cases as data. In very specific format because of how it's intended to be used, but still. Your domain specific tests may use different formats like simple CSV, JSON or YAML.</p>\n",
+      "owner": {
+        "display_name": "Tomek Szpakowicz",
+        "link": "https://stackoverflow.com/users/69585/tomek-szpakowicz"
+      }
+    },
+    {
+      "answer_id": 51623724,
+      "body": "<p>I hit this same problem and solved it by changing the \"Path to custom test adapters\" to point specifically to the correct test adapter by setting it to \"Source\\packages\\xunit.runner.visualstudio.2.4.0\\build_common\".  (You should modify the path to account for where the packages folder is in your repository.)</p>\n\n<p>This apparently happens because by default VSTS tries to be helpful and scans the entire working directory structure for test adapters and loads <strong>all</strong> of them, but the xUnit Visual Studio test adapter Nuget package installs test adaptors for .Net Core and UWP as well, so VSTS happily loads them and they blow up.</p>\n",
+      "owner": {
+        "display_name": "Eric Lee",
+        "link": "https://stackoverflow.com/users/1174561/eric-lee"
+      }
+    },
+    {
+      "answer_id": 51546572,
+      "body": "<p>The test is not awaiting the <code>Task&lt;Exception&gt;</code> returned from <code>Record.ExceptionAsync</code> so the following assertion is actually being done on the <code>Task</code> itself. </p>\n\n<p>Also the method under test consumes the <code>DocumentClientException</code> and throws a new exception of <code>InvalidOperationException</code> so that is the type that should be expected.</p>\n\n<pre><code>[Fact]\npublic async virtual Task Test_Exception() {\n    //Arrange\n    var queryString = \"SELECT * FROM c\";\n\n    //Act\n    var exception = await Record.ExceptionAsync(() =&gt;\n        classname.RunSQLQueryAsync(queryString));\n\n    //Assert\n    Assert.NotNull(exception);\n    Assert.IsType&lt;InvalidOperationException&gt;(exception);\n}\n</code></pre>\n\n<p>Note the await before the <code>Record.ExceptionAsync</code></p>\n\n<p>The assumption is also that the class under test has been setup with a mocked dependency that will throw the desired exception in the <code>//do something</code> part of the provided snippet.</p>\n",
+      "owner": {
+        "display_name": "Nkosi",
+        "link": "https://stackoverflow.com/users/5233410/nkosi"
+      }
+    },
+    {
+      "answer_id": 51489502,
+      "body": "<p>At run time your original code under test would still work because of the implicit conversion.</p>\n\n<p>But based on the provided debugger image it looks like the test was asserting on the wrong property of the result.</p>\n\n<p>So while changing the method under test allowed the test to pass, it would have worked when run live either way</p>\n\n<p><code>ActioResult&lt;TValue&gt;</code> has two properties that are set depending on what is returned from the action that uses it.</p>\n\n<pre><code>/// &lt;summary&gt;\n/// Gets the &lt;see cref=\"ActionResult\"/&gt;.\n/// &lt;/summary&gt;\npublic ActionResult Result { get; }\n\n/// &lt;summary&gt;\n/// Gets the value.\n/// &lt;/summary&gt;\npublic TValue Value { get; }\n</code></pre>\n\n<p><a href=\"https://github.com/aspnet/Mvc/blob/master/src/Microsoft.AspNetCore.Mvc.Core/ActionResultOfT.cs\" rel=\"noreferrer\">Source</a></p>\n\n<p>So when the controller action returned using <code>Ok()</code> it would set the <code>ActionResult&lt;int&gt;.Result</code> property of the action result via implicit conversion.</p>\n\n<pre><code>public static implicit operator ActionResult&lt;TValue&gt;(ActionResult result)\n{\n    return new ActionResult&lt;TValue&gt;(result);\n}\n</code></pre>\n\n<p>But the test was asserting the <code>Value</code> property (refer to image in OP), which in this case was not being set.</p>\n\n<p>Without having to modify the code under test to satisfy the test it could have accessed the <code>Result</code> property and make assertions on that value</p>\n\n<pre><code>[Fact]\npublic async Task GetLocationsCountAsync_WhenCalled_ReturnsLocationsCount() {\n    //Arrange\n    _locationsService\n        .Setup(_ =&gt; _.GetLocationsCountAsync(It.IsAny&lt;string&gt;()))\n        .ReturnsAsync(10);\n    var controller = new LocationsController(_locationsService.Object, null) {\n        ControllerContext = { HttpContext = SetupHttpContext().Object }\n    };\n\n    //Act\n    var actionResult = await controller.GetLocationsCountAsync();\n\n    //Assert\n    var result = actionResult.Result as OkObjectResult;\n    result.Should().NotBeNull();\n    result.Value.Should().Be(10);\n\n    VerifyAll();\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nkosi",
+        "link": "https://stackoverflow.com/users/5233410/nkosi"
+      }
+    },
+    {
+      "answer_id": 51165997,
+      "body": "<p>For the testing framework, you need the mocking library to inject a mock object through DI in your testing classes. You can use Nmock, Moq or any other mocking library to setup the constructor injection.</p>\n\n<p><a href=\"https://www.c-sharpcorner.com/uploadfile/john_charles/mocking-in-net-with-moq/\" rel=\"noreferrer\">https://www.c-sharpcorner.com/uploadfile/john_charles/mocking-in-net-with-moq/</a></p>\n\n<p><a href=\"http://nmock.sourceforge.net/quickstart.html\" rel=\"noreferrer\">http://nmock.sourceforge.net/quickstart.html</a></p>\n",
+      "owner": {
+        "display_name": "Gaurav Jalan",
+        "link": "https://stackoverflow.com/users/7166609/gaurav-jalan"
+      }
+    },
+    {
+      "answer_id": 49940581,
+      "body": "<p>Finally it worked for me, I followed this way <a href=\"https://stackoverflow.com/questions/49708895/how-to-write-xunit-test-for-net-core-2-0-service-that-uses-automapper-and-depen?rq=1\">How to Write xUnit Test for .net core 2.0 Service that uses AutoMapper and Dependency Injection?</a> </p>\n\n<p>Here I am posting my answer and Test Class so if needed other SO's can use.</p>\n\n<pre><code>public class SchedulesControllerTests\n{\n    [Fact]\n    public void CanGet()\n    {\n        try\n        {\n            //Arrange\n            //Repository\n            Mock&lt;IScheduleRepository&gt; mockRepo = new Mock&lt;IScheduleRepository&gt;();\n            var schedules = new List&lt;Schedule&gt;(){\n                new Schedule() { Id=1, Title = \"Schedule1\" },\n                new Schedule() { Id=2, Title = \"Schedule2\" },\n                new Schedule() { Id=3, Title = \"Schedule3\" }\n            };\n\n            mockRepo.Setup(m =&gt; m.items).Returns(value: schedules);\n\n            //auto mapper configuration\n            var mockMapper = new MapperConfiguration(cfg =&gt;\n            {\n                cfg.AddProfile(new AutoMapperProfile());\n            });\n            var mapper = mockMapper.CreateMapper();\n\n            SchedulesController controller = new SchedulesController(repository: mockRepo.Object, mapper: mapper);\n\n            //Act\n            var result = controller.Get();\n\n            //Assert\n            var okResult = result as OkObjectResult;\n            if (okResult != null)\n                Assert.NotNull(okResult);\n\n            var model = okResult.Value as IEnumerable&lt;ScheduleDto&gt;;\n            if (model.Count() &gt; 0)\n            {\n                Assert.NotNull(model);\n\n                var expected = model?.FirstOrDefault().Title;\n                var actual = schedules?.FirstOrDefault().Title;\n\n                Assert.Equal(expected: expected, actual: actual);\n            }\n        }\n        catch (Exception ex)\n        {\n            //Assert\n            Assert.False(false, ex.Message);\n        }\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Bharat",
+        "link": "https://stackoverflow.com/users/5816119/bharat"
+      }
+    },
+    {
+      "answer_id": 41008373,
+      "body": "<p>[Update: 2018-04-11]</p>\n\n<p>Visual Studio for Mac now has built-in support for xUnit. </p>\n\n<p>[Original Post]</p>\n\n<p>Ok, so for anyone searching for this. Basically Visual Studio for Mac is not currently compatible with xUnit. I spoke to the xUnit core team, and they have no plans on supporting Visual studio for Mac. You can follow the conversation <a href=\"https://github.com/xunit/xunit/issues/1043\" rel=\"nofollow noreferrer\">HERE</a>. I also spoke to the xamarinstudio.xunit plugin team. And they said that they are planning on supporting it if VS for Mac doesn't out of the box. But that we will have to wait a little bit to see what the requirements are. You can follow the conversation <a href=\"https://github.com/xunit/xamarinstudio.xunit/issues/50\" rel=\"nofollow noreferrer\">HERE</a></p>\n",
+      "owner": {
+        "display_name": "Zorthgo",
+        "link": "https://stackoverflow.com/users/4375197/zorthgo"
+      }
+    },
+    {
+      "answer_id": 48333576,
+      "body": "<p>I had the same problem and I fixed it by updating Visual Studio 2017 from 15.5.2 to 15.5.4 and updating my test project references from:</p>\n\n<pre><code>&lt;ItemGroup&gt;\n    &lt;PackageReference Include=\"Microsoft.NET.Test.Sdk\" Version=\"15.3.0-preview-20170628-02\" /&gt;\n    &lt;PackageReference Include=\"xunit\" Version=\"2.2.0\" /&gt;\n    &lt;PackageReference Include=\"xunit.runner.visualstudio\" Version=\"2.2.0\" /&gt;\n&lt;/ItemGroup&gt;\n</code></pre>\n\n<p>to:</p>\n\n<pre><code>&lt;ItemGroup&gt;\n    &lt;PackageReference Include=\"xunit\" Version=\"2.3.1\" /&gt;\n    &lt;PackageReference Include=\"xunit.runner.visualstudio\" Version=\"2.3.1\" /&gt;\n&lt;/ItemGroup&gt;\n</code></pre>\n\n<p>And restarting Visual Studio (apparently VS caches and uses the previous version even after you've updated).</p>\n\n<p>Not sure if one of the 3 things or the combination of them fixed it.</p>\n",
+      "owner": {
+        "display_name": "Xavier Poinas",
+        "link": "https://stackoverflow.com/users/77004/xavier-poinas"
+      }
+    },
+    {
+      "answer_id": 14909590,
+      "body": "<p>I would do it like this:</p>\n\n<pre><code>\"Given a Options presenter\"\n    .Context(() =&gt;\n        presenter = new OptionsPresenter(view,\n                                         (IOptionsModel)null,\n                                         service));\n\n\"with the Save method called to save the option values\"\n    .Do(() =&gt; \n        exception = Record.Exception(() =&gt; presenter.Save()));\n\n\"expect an ValidationException to be thrown\"\n    .Observation(() =&gt;\n        Assert.IsType&lt;ValidationException&gt;(exception)\n     );\n\n\"expect an service.SaveOptions method not to be called\"\n    .Observation(() =&gt;\n        A.CallTo(() =&gt; service.SaveOptions(A&lt;IOptionsModel&gt;.Ignored)).MustNotHaveHappened()\n     );\n</code></pre>\n\n<p>Or better still, switching SubSpec for <a href=\"http://nuget.org/packages/Xbehave\" rel=\"nofollow noreferrer\">xBehave.net</a> and introducing <a href=\"http://nuget.org/packages/FluentAssertions\" rel=\"nofollow noreferrer\">FluentAssertions</a>:-</p>\n\n<pre><code>\"Given an options presenter\"\n    .x(() =&gt; presenter = new OptionsPresenter(view, (IOptionsModel)null, service));\n\n\"When saving the options presenter\"\n    .x(() =&gt; exception = Record.Exception(() =&gt; presenter.Save()));\n\n\"Then a validation exception is thrown\"\n    .x(() =&gt; exception.Should().BeOfType&lt;ValiationException&gt;());\n\n\"And the options model must not be saved\"\n    .x(() =&gt; A.CallTo(() =&gt;\n        service.SaveOptions(A&lt;IOptionsModel&gt;.Ignored)).MustNotHaveHappened());\n</code></pre>\n",
+      "owner": {
+        "display_name": "Adam Ralph",
+        "link": "https://stackoverflow.com/users/49241/adam-ralph"
+      }
+    },
+    {
+      "answer_id": 47144991,
+      "body": "<p>Even with the \"fixed\" version I had issues (Only able to see code coverage for the test projects, not the actual projects I was testing). To workaround the problem I removed the <code>&lt;DebugType&gt;Full&lt;/DebugType&gt;</code> from the test project.</p>\n\n<p>So, as a summary:</p>\n\n<ol>\n<li><p>Add package Microsoft.CodeCoverage (1.0.3) into your test project.</p></li>\n<li><p>Add the <code>&lt;DebugType&gt;Full&lt;/DebugType&gt;</code> tag on the .csproj file <strong>on\nthe projects we want to see code coverage values</strong> (inside <code>&lt;PropertyGroup&gt;</code> as explained on the <a href=\"https://github.com/Microsoft/vstest-docs/blob/master/docs/analyze.md#coverage\" rel=\"noreferrer\">vstest github link</a>).</p></li>\n<li>Run unit tests.</li>\n<li>On the \"Test Explorer\" select passed unit tests, right click -> \"Analyze Code Coverage for Selected Tests\".</li>\n<li>You should see code coverage for your assemblies.</li>\n</ol>\n\n<p>My setup (Minimal setup?)</p>\n\n<ul>\n<li>xunit (2.3.1)</li>\n<li>xunit.runner.visualstudio (2.3.1)</li>\n<li>Microsoft.NET.Test.Sdk (15.3.0)</li>\n<li>Microsoft.CodeCoverage (1.0.3)</li>\n<li>Visual Studio Enterprise 2017 (15.4.1)</li>\n</ul>\n",
+      "owner": {
+        "display_name": "JDC",
+        "link": "https://stackoverflow.com/users/1959740/jdc"
+      }
+    },
+    {
+      "answer_id": 26042654,
+      "body": "<p>You can use <code>BeforeAfterTestAttribute</code> to resolve your case. There are some ways to address your issue using Xunit, which would be to make sub-class of TestClassCommand, or FactAttribute and TestCommand, but  I think that <code>BeforeAfterTestAttribute</code> is the simplest way. Check out the code below.</p>\n\n<pre><code>public class TestWithCommonSetupAndTearDown\n{\n    [Fact]\n    [DisplayTestMethodName]\n    public void Blub()\n    {\n    }\n\n    private class DisplayTestMethodNameAttribute : BeforeAfterTestAttribute\n    {\n        public override void Before(MethodInfo methodUnderTest)\n        {\n            var nameOfRunningTest = \"TODO\";\n            Console.WriteLine(\"Setup for test '{0}.'\", methodUnderTest.Name);\n        }\n\n        public override void After(MethodInfo methodUnderTest)\n        {\n            var nameOfRunningTest = \"TODO\";\n            Console.WriteLine(\"TearDown for test '{0}.'\", methodUnderTest.Name);\n        }\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jin-Wook Chung",
+        "link": "https://stackoverflow.com/users/799734/jin-wook-chung"
+      }
+    },
+    {
+      "answer_id": 32157733,
+      "body": "<p>MSBuild is based on tasks and targets. You can see what it looks like in a .csproj, usually at the end. The task object is defined in the version of MSBuild you are using, located in, for example, <code>C:\\Program Files (x86)\\MSBuild\\12.0\\Bin</code>.</p>\n\n<p>Version of MSBuild typically follows the .NET framework like this:</p>\n\n<pre><code>version 1.0: 2006\nversion 2.0:\nversion 3.5: 2011\n</code></pre>\n\n<p>You probably miss the right version of MSBuild. Or you can try with a different version than <code>ToolsVersion=\"14.0\"</code>.</p>\n",
+      "owner": {
+        "display_name": "dolomitt",
+        "link": "https://stackoverflow.com/users/3029134/dolomitt"
+      }
+    },
+    {
+      "answer_id": 46750224,
+      "body": "<blockquote>\n<p><em>Currently I can only see one test in the test explorer even tho I have 6 tests in the test case.</em></p>\n</blockquote>\n<p>This is because your test data is not considered serializable by xUnit.net. See this issue: <a href=\"https://github.com/xunit/xunit/issues/1473\" rel=\"noreferrer\">https://github.com/xunit/xunit/issues/1473</a></p>\n<p>The salient details are:</p>\n<blockquote>\n<h2>The short answer</h2>\n<p>If some of your theory data can't be &quot;serialized&quot; by xUnit.net, then\nit cannot be encapsulated into the serialization of a test case which\nwe're required to do for the Visual Studio test runner.</p>\n<h2>The long answer</h2>\n<p>In the Visual Studio test runner, test cases are discovered in one\nprocess, and executed in another. Therefore, test cases must be able\nto be turned into an unqualified string representation (aka,\n&quot;serialized&quot;) in order to be run. We can also serialize at the test\nmethod level, because that just involves knowing the type and method\nname (both strings). When you start putting data into the mix, we need\nto ensure we know how to serialize that data; if we can't serialize\n<em><strong>all</strong></em> of the data for a theory, then we have to fall back to just a single method (which we know we can serialize).</p>\n</blockquote>\n<p>The full answer contains more detail.</p>\n<blockquote>\n<p><em>In NUnit you can easily set each test name in the test case using the SetName function in a TestCaseData class.</em></p>\n<p><em>Does xUnit have a similar function for this?</em></p>\n</blockquote>\n<p>Not at this time.</p>\n",
+      "owner": {
+        "display_name": "Brad Wilson",
+        "link": "https://stackoverflow.com/users/1554/brad-wilson"
+      }
+    },
+    {
+      "answer_id": 46654308,
+      "body": "<p>Xunit offers quick fixes for most of its warnings, so you should be able to see what it thinks is \"right\".</p>\n\n<p><a href=\"https://i.sstatic.net/QT1O3.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/QT1O3.png\" alt=\"xunit\"></a></p>\n\n<p>In your case, it wants you to use <code>Assert.Single</code> since you are expecting exactly one item. If you were asserting an arbitrary number, like 412, then it would not give you a warning about using <code>Count</code>. It will only suggest using <code>Single</code> if you are expecting one item, or <code>Empty</code> if you are expecting no items.</p>\n",
+      "owner": {
+        "display_name": "vcsjones",
+        "link": "https://stackoverflow.com/users/492405/vcsjones"
+      }
+    },
+    {
+      "answer_id": 46228260,
+      "body": "<p>I found a way to do it.</p>\n\n<pre><code>var dbOption = new DbContextOptionsBuilder&lt;MyDbContext&gt;()\n    .UseSqlServer(\"....\")\n    .Options;\n</code></pre>\n",
+      "owner": {
+        "display_name": "ca9163d9",
+        "link": "https://stackoverflow.com/users/825920/ca9163d9"
+      }
+    },
+    {
+      "answer_id": 31968816,
+      "body": "<p>If xUnit does not have any alternative mechanism for injection of the parameters, then I guess the only option is to define the tests as methods in an F# object type. I also prefer writing tests as functions using <code>let</code>, but the following simple object type does not look too bad:</p>\n\n<pre><code>open Swensen.Unquote\nopen Xunit\nopen Xunit.Abstractions\n\ntype MyTests(output:ITestOutputHelper) =\n\n    [&lt;Fact&gt;]\n    member __.``SomeFunction should return 10`` () =\n        let a = SomeFunction()\n        output.WriteLine(\"Some function returned {0}\", a)\n        test &lt;@ a = 10 @&gt;\n</code></pre>\n\n<p>It would be nice if xUnit supported some other option for this - I suspect that they might be open to suggestions, if it is something that would not be too awkward (perhaps using a method parameter?)</p>\n\n<p>But unless xUnit adds support for some other method, I think you'll need to use F# object with methods.</p>\n",
+      "owner": {
+        "display_name": "Tomas Petricek",
+        "link": "https://stackoverflow.com/users/33518/tomas-petricek"
+      }
+    },
+    {
+      "answer_id": 45128357,
+      "body": "<p>I tried opening the test project directly with vscode (instead of opening the root project that contains the test project in a sub folder) and now vscode recognizes Xunit.</p>\n\n<p>I then opened the root project with vscode again, added Xunit to the root project's csproj file, ran \"dotnet restore\" in the root project and now Xunit is recognized in the test project.</p>\n\n<p>The thing is that vscode (or is it Omnisharp? i'm not sure) probably looks only at the root csproj file and ignores any csproj file that happens to be in a sub folder.</p>\n",
+      "owner": {
+        "display_name": "areller",
+        "link": "https://stackoverflow.com/users/4158603/areller"
+      }
+    },
+    {
+      "answer_id": 43461506,
+      "body": "<p>Setup the mock to return your expected result.</p>\n\n<pre><code>var mock = new Mock&lt;IStringLocalizer&lt;HomeController&gt;&gt;();\nstring key = \"Hello my dear friend!\";\nvar localizedString = new LocalizedString(key, key);\nmock.Setup(_ =&gt; _[key]).Returns(localizedString);\n\n_localizer = mock.Object;\n_controller = new HomeController(_localizer);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nkosi",
+        "link": "https://stackoverflow.com/users/5233410/nkosi"
+      }
+    },
+    {
+      "answer_id": 43252064,
+      "body": "<p>You need to handle the await of the async operation of the <code>Send</code> methods as they return tasks. </p>\n\n<pre><code>/// &lt;summary&gt;\n/// Asynchronously send a request to a single handler\n/// &lt;/summary&gt;\n/// &lt;typeparam name=\"TResponse\"&gt;Response type&lt;/typeparam&gt;\n/// &lt;param name=\"request\"&gt;Request object&lt;/param&gt;\n/// &lt;param name=\"cancellationToken\"&gt;Optional cancellation token&lt;/param&gt;\n/// &lt;returns&gt;A task that represents the send operation. The task result contains the handler response&lt;/returns&gt;\nTask&lt;TResponse&gt; Send&lt;TResponse&gt;(IRequest&lt;TResponse&gt; request, CancellationToken cancellationToken = default(CancellationToken));\n\n/// &lt;summary&gt;\n/// Asynchronously send a request to a single handler without expecting a response\n/// &lt;/summary&gt;\n/// &lt;param name=\"request\"&gt;Request object&lt;/param&gt;\n/// &lt;param name=\"cancellationToken\"&gt;Optional cancellation token&lt;/param&gt;\n/// &lt;returns&gt;A task that represents the send operation.&lt;/returns&gt;\nTask Send(IRequest request, CancellationToken cancellationToken = default(CancellationToken));\n</code></pre>\n\n<p>That means you need to have the mock return a task to allow the async process to continue the flow</p>\n\n<pre><code>mediator\n    .Setup(m =&gt; m.Send(It.IsAny&lt;TransferNotificationCommand&gt;(), It.IsAny&lt;CancellationToken&gt;()))\n    .ReturnsAsync(new Notification()) //&lt;-- return Task to allow await to continue\n    .Verifiable(\"Notification was not sent.\");\n\n//...other code removed for brevity\n\nmediator.Verify(x =&gt; x.Send(It.IsAny&lt;CreateIsaTransferNotificationCommand&gt;(), It.IsAny&lt;CancellationToken&gt;()), Times.Once());\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nkosi",
+        "link": "https://stackoverflow.com/users/5233410/nkosi"
+      }
+    },
+    {
+      "answer_id": 42204780,
+      "body": "<p>Use the suggestions provided at the link. Like <a href=\"http://www.fluentassertions.com/\" rel=\"noreferrer\">fluent assertions</a> or create your own assertion that wraps the <code>Assert.True or Assert.False</code> which were left with their message overloads. \nIt was mentioned further down </p>\n\n<p><a href=\"https://github.com/xunit/xunit/issues/350#issuecomment-199982253\" rel=\"noreferrer\">Quote</a></p>\n\n<blockquote>\n  <p>You can provide messages to Assert.True and .False. If you simply\n  cannot live without messages (and refuse to use a different\n  assertion), you could always fall back to:</p>\n\n<pre><code>Assert.True(number == 2, \"This is my message\");\n</code></pre>\n</blockquote>\n\n<p><a href=\"https://github.com/xunit/xunit/issues/350#issuecomment-78211410\" rel=\"noreferrer\">Quote:</a></p>\n\n<blockquote>\n  <p>If you really want to have messages you could add <a href=\"http://www.fluentassertions.com/\" rel=\"noreferrer\">Fluent\n  Assertions</a> or maybe\n  <a href=\"https://github.com/xbehave/xbehave.net/wiki/Writing-scenarios\" rel=\"noreferrer\">xbehave</a>\n  to your test projects and use their syntax.\n  Fluent Assertions even throws xunit.net exceptions if it encounters its presence.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Nkosi",
+        "link": "https://stackoverflow.com/users/5233410/nkosi"
+      }
+    },
+    {
+      "answer_id": 41573209,
+      "body": "<p>I think you need to use <a href=\"https://github.com/google/googletest/blob/master/googletest/docs/AdvancedGuide.md#how-to-write-value-parameterized-tests\" rel=\"noreferrer\"><code>::testing::Combine</code></a>.</p>\n\n<p>And change the parameters from <code>float</code> to <code>std::tuple&lt;float, float OtherFixture::*&gt;</code>. </p>\n\n<pre><code>using OtherFixtureMemberAndValue = std::tuple&lt;float, float OtherFixture::*&gt;;\n\nstruct MyFixture : OtherFixture, ::testing::WithParamInterface&lt;OtherFixtureMemberAndValue&gt;\n{\n    float a = std::get&lt;0&gt;(GetParam());\n    auto&amp; memberToTest()\n    {\n        return this-&gt;*std::get&lt;1&gt;(GetParam());\n    }\n\n\n};\n</code></pre>\n\n<p>To define set of parameters use this approach:</p>\n\n<pre><code>const auto membersToTest = testing::Values(\n     &amp;OtherFixture::a, \n     &amp;OtherFixture::b, \n     &amp;OtherFixture::c\n);\n\nconst auto floatValuesToTest = testing::Values(\n    2.1, \n    3.2\n    //  ... \n );\n\nINSTANTIATE_TEST_CASE_P(AllMembers,\n                        MyFixture,\n                        testing::Combine(floatValuesToTest, membersToTest));\n</code></pre>\n\n<p>Then you can write your tests generic with respect to members of <code>OtherFixture</code>:</p>\n\n<pre><code>TEST_P(MyFixture, test)\n{\n    ASSERT_EQ(a, memberToTest());\n}\n</code></pre>\n\n<p>I would also advice that you wrote <a href=\"https://github.com/google/googletest/blob/master/googletest/docs/AdvancedGuide.md#teaching-google-test-how-to-print-your-values\" rel=\"noreferrer\"><code>PrintTo</code></a> for <code>float OtherFixture::*</code>:</p>\n\n<pre><code>void PrintTo(float OtherFixture::*member, std::ostream* os)\n{\n    if (member == &amp;OtherFixture::a)\n        *os &lt;&lt; \"&amp;OtherFixture::a\";\n    else if (member == &amp;OtherFixture::b)\n        *os &lt;&lt; \"&amp;OtherFixture::b\";\n    else if (member == &amp;OtherFixture::c)\n        *os &lt;&lt; \"&amp;OtherFixture::c\";\n    else\n        *os &lt;&lt; \"&amp;OtherFixture::? = \" &lt;&lt; member;\n\n}\n</code></pre>\n\n<p>In this way you get nice message in case of failure:</p>\n\n<blockquote>\n  <p>[  FAILED  ] AllMembers/MyFixture.test/5, where GetParam() = (3.2,\n  &amp;OtherFixture::c)</p>\n</blockquote>\n\n<p>comparing to nasty, meaningless message w/o PrintTo:</p>\n\n<blockquote>\n  <p>[  FAILED  ] AllMembers/MyFixture.test/5, where GetParam() = (3.2,\n  4-byte object &lt;10-00 00-00>)</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "PiotrNycz",
+        "link": "https://stackoverflow.com/users/1463922/piotrnycz"
+      }
+    },
+    {
+      "answer_id": 41303035,
+      "body": "<p>Use <code>Assert.Throws</code> on code where exception expected:</p>\n\n<pre><code>[Fact]\npublic void TestMethod1_Error_twoMathces()\n{\n    var message = \"some text\";\n    var parser = new MessageTypeParser();\n    Assert.Throws&lt;MessageTypeParserException&gt;(() =&gt; parser.GetType(message));\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dmitry",
+        "link": "https://stackoverflow.com/users/460298/dmitry"
+      }
+    },
+    {
+      "answer_id": 29589576,
+      "body": "<h3>EDIT 2016-10-19 (PowerShell script)</h3>\n\n<p>This issue still returns every now and then. I wrote a small PowerShell snippet to automate clearing the relevant cache/temp folder/files for me. I'm sharing it here for future readers:</p>\n\n<pre><code>@(\n\"$env:TEMP\"\n\"$env:LOCALAPPDATA\\Microsoft\\UnitTest\"\n\"$env:LOCALAPPDATA\\Microsoft\\VisualStudio\\14.0\\1033\\SpecificFolderCache.xml\"\n\"$env:LOCALAPPDATA\\Microsoft\\VisualStudio\\14.0\\1033\\ProjectTemplateMRU.xml\"\n\"$env:LOCALAPPDATA\\Microsoft\\VisualStudio\\14.0\\ComponentModelCache\"\n\"$env:LOCALAPPDATA\\Microsoft\\VisualStudio\\14.0\\Designer\\ShadowCache\"\n\"$env:LOCALAPPDATA\\Microsoft\\VisualStudio\\14.0\\ImageLibrary\\cache\"\n\"$env:LOCALAPPDATA\\Microsoft\\VisualStudio Services\\6.0\\Cache\"\n\"$env:LOCALAPPDATA\\Microsoft\\WebsiteCache\"\n\"$env:LOCALAPPDATA\\NuGet\\Cache\"\n) |% { Remove-Item -Path $_ -Recurse -Force }\n</code></pre>\n\n<p>Make sure to close Visual Studio beforehand and it's probably a good idea to reboot afterwards.</p>\n\n<p>Deleting the TEMP folder may not be necessary and may in some cases even be undesirable, so I would recommend trying without clearing the TEMP folder first. Just omit the <code>\"$env:TEMP\"</code>.</p>\n\n<h3>Original answer 2015-04-12</h3>\n\n<p>The problem was \"solved\" after a thorough cleaning of Visual Studio-related temp/cache folders.</p>\n\n<p>Since I did not have the time to go through everything one-by-one and then test in-between, I unfortunately don't know which one actually caused the problem.</p>\n\n<p>These are the exact steps I've taken:</p>\n\n<ol>\n<li>Closed Visual Studio</li>\n<li>Used CCleaner to clear system and browser <code>temp</code> files/folders</li>\n<li><p>Manually cleared/deleted the following files/folders:</p>\n\n<ul>\n<li><code>%USERPROFILE%\\AppData\\Local\\assembly</code></li>\n<li><code>%USERPROFILE%\\AppData\\Local\\Microsoft\\UnitTest</code></li>\n<li><code>%USERPROFILE%\\AppData\\Local\\Microsoft\\VisualStudio\\14.0\\1033\\SpecificFolderCache.xml</code></li>\n<li><code>%USERPROFILE%\\AppData\\Local\\Microsoft\\VisualStudio\\14.0\\1033\\ProjectTemplateMRU.xml</code></li>\n<li><code>%USERPROFILE%\\AppData\\Local\\Microsoft\\VisualStudio\\14.0\\ComponentModelCache</code></li>\n<li><code>%USERPROFILE%\\AppData\\Local\\Microsoft\\VisualStudio\\14.0\\Designer\\ShadowCache</code></li>\n<li><code>%USERPROFILE%\\AppData\\Local\\Microsoft\\VisualStudio\\14.0\\ImageLibrary\\cache</code></li>\n<li><code>%USERPROFILE%\\AppData\\Local\\Microsoft\\VisualStudio Services\\6.0\\Cache</code></li>\n<li><code>%USERPROFILE%\\AppData\\Local\\Microsoft\\WebsiteCache</code></li>\n<li><code>%USERPROFILE%\\AppData\\Local\\NuGet\\Cache</code></li>\n<li><code>%USERPROFILE%\\AppData\\Local\\Temp</code></li>\n</ul></li>\n</ol>\n",
+      "owner": {
+        "display_name": "Fred Kleuver",
+        "link": "https://stackoverflow.com/users/1014758/fred-kleuver"
+      }
+    },
+    {
+      "answer_id": 39380332,
+      "body": "<p>Depends on what you expect returned. From previous example you used an action like this.</p>\n\n<pre><code>[HttpGet(\"{id}\")]\npublic IActionResult Get(string id) {        \n    var r = unitOfWork.Resources.Get(id);\n\n    unitOfWork.Complete();\n\n    Models.Resource result = ConvertResourceFromCoreToApi(r);\n\n    if (result == null) {\n        return NotFound();\n    } else {\n        return Ok(result);\n    }        \n}\n</code></pre>\n\n<p>That method will either return a <code>OkObjectResult</code> or a <code>NotFoundResult</code>. If the expectation of the method under test is for it to return <code>Ok()</code> then you need to cast the result in the test to what you expect and then do your assertions on that</p>\n\n<pre><code>public void GetTest_Given_Id_Should_Return_OkObjectResult_With_Resource() {\n    //Arrange\n    var expected = \"test\";\n    var controller = new ResourcesController(mockDb);\n\n    //Act\n    var actionResult = controller.Get(\"1\");\n\n    //Assert\n    var okObjectResult = actionResult as OkObjectResult;\n    Assert.NotNull(okObjectResult);\n\n    var model = okObjectResult.Value as Models.Resource;\n    Assert.NotNull(model);\n\n    var actual = model.Description;\n    Assert.Equal(expected, actual);\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nkosi",
+        "link": "https://stackoverflow.com/users/5233410/nkosi"
+      }
+    },
+    {
+      "answer_id": 38064899,
+      "body": "<p>I am biased because I work on NUnit, but the advantage of NUnit or xUnit is that both frameworks offer more functionality like data driven tests, parallel execution and a host of advanced features.</p>\n\n<p>That said, there is nothing wrong with MSTest especially if your team is not very experienced with unit testing. It is well integrated with Visual Studio and with TFS, so adding tests is fairly painless. Both NUnit and xUnit integrate well too, but they may require more setup.</p>\n\n<p>Go ahead and start with MSTest. It is an easy introduction to unit testing. If you start running into some of the limitations of MSTest, then it is a fairly easy migration to NUnit or xUnit. For simple cases, it is just a matter of changing your NuGet packages and then find/replace the attributes.</p>\n\n<p>When it comes to choosing between xUnit and NUnit, both are great choices but each has a different philosophy. NUnit tends to be more flexible and allows for a range of testing styles and can be used for integration tests. It is however flexible enough to allow you to shoot yourself in the foot and allows you to write tests that purists would frown upon. NUnit leaves the choice up to you.</p>\n\n<p>xUnit however tends to be a bit more opinionated and pushes you towards the 'pit of success' with unit testing. In my experience, it is great for green field projects, but it can make testing some poorly architected brown-field projects difficult without refactoring.</p>\n\n<p>In the end, you can't go wrong with any of these test frameworks.</p>\n",
+      "owner": {
+        "display_name": "Rob Prouse",
+        "link": "https://stackoverflow.com/users/30827/rob-prouse"
+      }
+    },
+    {
+      "answer_id": 37618578,
+      "body": "<p>Since it's been almost a month and no answer, I'll at least share what I've been doing. (this won't be relevant once Visual Studio \"15\" RTM is launched because <a href=\"https://blogs.msdn.microsoft.com/dotnet/2016/05/23/changes-to-project-json/\" rel=\"noreferrer\">project.json is dead</a>)</p>\n\n<p>Simply using a <code>for</code> loop on all project.json:</p>\n\n<p>Locally, from the <em>test</em> directory, I just run:</p>\n\n<pre><code>for /f %a in ('dir /b /s project.json ^| find /v \"TestUtilities\"') do dotnet test %a\n</code></pre>\n\n<p>Running it on all <em>project.json</em> except where the path has: <em>TestUtilities</em></p>\n\n<p>Mind that on <strong>TeamCity</strong> you need to escape % (and in scripts you need double: %%) so it goes by:</p>\n\n<pre><code>for /f %%%a in ('dir /b /s project.json ^| find /v \"TestUtilities\"') do dotnet test %%%a\n</code></pre>\n\n<p>Note the %%%. Since % in TeamCity is used for variables, the third % escapes it.</p>\n",
+      "owner": {
+        "display_name": "Bruno Garcia",
+        "link": "https://stackoverflow.com/users/1977143/bruno-garcia"
+      }
+    },
+    {
+      "answer_id": 37482827,
+      "body": "<p>This is a simple issue, you need to have the <code>appsetting.json</code> also exist under the <strong>xunit</strong> project. Or you need to use a relative path pointing to where the <code>appsettings.json</code> exists in the other project.</p>\n\n<pre><code>public class TestFixture : IDisposable\n{\n    public IConfigurationRoot Configuration { get; set; }\n    public MyFixture()\n    {\n        var builder = new ConfigurationBuilder()\n            .AddJsonFile(\"../../OtherProj/src/OtherProj/appsettings.json\", \n                         optional: true, reloadOnChange: true);\n        Configuration = builder.Build();\n    }\n\n    public void Dispose() {  }\n}\n</code></pre>\n\n<p>Ideally, you'd simply have your own config file local to the test project. In my <strong>ASP.NET Core RC2</strong> database test project, my fixture looks like this:</p>\n\n<pre><code>public DatabaseFixture()\n{\n    var builder =\n        new ConfigurationBuilder()\n            .AddJsonFile(\"testsettings.json\")\n            .AddEnvironmentVariables();\n   // Omitted...\n}\n</code></pre>\n\n<p>Where the <code>testsettings.json</code> is the test specific config, local to the project.</p>\n\n<p><strong>Update</strong></p>\n\n<p>In your <code>project.json</code> ensure that you're marking the <code>appsettings.json</code> as <code>copyToOutput</code>. Look at the <a href=\"http://json.schemastore.org/project-1.0.0-rc2\">schema store</a> for the details.</p>\n\n<pre><code>\"buildOptions\": {\n  \"copyToOutput\": {\n    \"include\": [ \"appsettings.json\" ]\n  }\n},\n</code></pre>\n",
+      "owner": {
+        "display_name": "David Pine",
+        "link": "https://stackoverflow.com/users/2410379/david-pine"
+      }
+    },
+    {
+      "answer_id": 37169582,
+      "body": "<p>You'll have to create your own <code>InlineAutoMoqDataAttribute</code>, similar to this:</p>\n\n<pre><code>public class InlineAutoMoqDataAttribute : InlineAutoDataAttribute\n{\n    public InlineAutoMoqDataAttribute(params object[] objects) : base(new AutoMoqDataAttribute(), objects) { }\n}\n</code></pre>\n\n<p>and you'd use it like this:</p>\n\n<pre><code>[Theory]\n[InlineAutoMoqData(3,4)]\n[InlineAutoMoqData(33,44)]\n[InlineAutoMoqData(13,14)]\npublic void SomeUnitTest(int DataFrom, int OtherData, [Frozen]Mock&lt;ISomeInterface&gt; theInterface, MySut sut)\n{\n     // actual test omitted\n}\n</code></pre>\n\n<p>Note that the inlined data, the ints in this case, must be the first parameters of the test method.\nAll the other parameters will be provided by <code>AutoFixture</code>.</p>\n",
+      "owner": {
+        "display_name": "Marcio Rinaldi",
+        "link": "https://stackoverflow.com/users/1304306/marcio-rinaldi"
+      }
+    },
+    {
+      "answer_id": 11135468,
+      "body": "<p>You need to have a custom comparer to achieve this, when you compare objects otherwise they are checked on the basis of whether they are referring to the same object in memory. To override this behavior you need to override the <code>Equals</code> and <code>GetHashCode</code> method and then you could do:</p>\n\n<pre><code>Assert.True(obj1.Equals(obj2));\n</code></pre>\n\n<p>Here is an MSDN page abt overloading Equals method: <a href=\"http://msdn.microsoft.com/en-us/library/ms173147(v=vs.80).aspx\" rel=\"noreferrer\">http://msdn.microsoft.com/en-us/library/ms173147(v=vs.80).aspx</a></p>\n\n<p>Also apt the comment on the question: <a href=\"https://stackoverflow.com/questions/2734914/whats-the-difference-between-iequatable-and-just-overriding-object-equals\">What&#39;s the difference between IEquatable and just overriding Object.Equals()?</a></p>\n",
+      "owner": {
+        "display_name": "Baz1nga",
+        "link": "https://stackoverflow.com/users/350374/baz1nga"
+      }
+    },
+    {
+      "answer_id": 1261375,
+      "body": "<p>No it's not a best practice. The best analogy to assert() in Ruby is just raising</p>\n\n<pre><code> raise \"This is wrong\" unless expr\n</code></pre>\n\n<p>and you can implement your own exceptions if you want to provide for more specific exception handling</p>\n",
+      "owner": {
+        "display_name": "Julik",
+        "link": "https://stackoverflow.com/users/153886/julik"
+      }
+    },
+    {
+      "answer_id": 15516453,
+      "body": "<p>Not right now. We do have the new <a href=\"http://www.continuousimprover.com/2012/09/asserting-object-graph-equivalence.html\" rel=\"noreferrer\">equivalency assertion</a> syntax of FA 2.0, but that will also verify if the objects appear in the right order. For FA 2.1 I'm trying to support that, but I'm not sure yet if that will work. It basically means it has to compare the entire object graph behind a collection item with the object graphs for each and every other item in the collection. Surely it will be rather slow.</p>\n",
+      "owner": {
+        "display_name": "Dennis Doomen",
+        "link": "https://stackoverflow.com/users/253961/dennis-doomen"
+      }
+    },
+    {
+      "answer_id": 15547824,
+      "body": "<p>If you are using <code>NUnit</code> this is what the documentation says</p>\n\n<blockquote>\n  <p>Starting with version 2.2, special provision is also made for\n  comparing single-dimensioned arrays. Two arrays will be treated as\n  equal by Assert.AreEqual if they are the same length and each of the\n  corresponding elements is equal. Note: Multi-dimensioned arrays,\n  nested arrays (arrays of arrays) and other collection types such as\n  ArrayList are not currently supported.</p>\n</blockquote>\n\n<p>In general if you are comparing two objects and you want to have value based equality you must override the <code>Equals</code> method.</p>\n\n<p>To achieve what you are looking for try something like this:</p>\n\n<pre><code>class Person \n{\n    public string Firstname {get; set;}\n    public string Lastname {get; set;} \n\n    public override bool Equals(object other) \n    {\n      var toCompareWith = other as Person;\n      if (toCompareWith == null) \n        return false;\n      return this.Firstname ==  toCompareWith.Firstname &amp;&amp; \n          this.Lastname ==  toCompareWith.Lastname; \n    }\n}  \n</code></pre>\n\n<p>and in your unit test:</p>\n\n<pre><code>Assert.AreEqual(expectedList.ToArray(), actualList.ToArray());\n</code></pre>\n",
+      "owner": {
+        "display_name": "anouar.bagari",
+        "link": "https://stackoverflow.com/users/874571/anouar-bagari"
+      }
+    },
+    {
+      "answer_id": 33104672,
+      "body": "<p>This is perhaps a correct response...</p>\n\n<p><a href=\"https://github.com/AArnott/Xunit.Combinatorial\" rel=\"noreferrer\">https://github.com/AArnott/Xunit.Combinatorial</a></p>\n",
+      "owner": {
+        "display_name": "George",
+        "link": "https://stackoverflow.com/users/1612190/george"
+      }
+    },
+    {
+      "answer_id": 32836174,
+      "body": "<p>This is not currently possible as of xUnit 2.1. According to the <a href=\"https://xunit.github.io/docs/running-tests-in-parallel.html\" rel=\"noreferrer\">parallelization docs</a>, </p>\n\n<blockquote>\n  <p>By default, each test class is a unique test collection. Tests within the same test class will not run in parallel against each other.</p>\n</blockquote>\n\n<p>What the docs don't make explicitly clear is:</p>\n\n<ul>\n<li>the smallest \"parallelizable\" unit in xUnit is a collection</li>\n<li>there's no way for tests in the same class to be in different collections</li>\n</ul>\n\n<p>By extension, it's impossible to have parallelized theories because theories can't be split across multiple classes.</p>\n\n<hr>\n\n<p>In your case, this means you have at least two options:</p>\n\n<ul>\n<li><p>Refactor your code under test so that whatever is taking so much time is abstracted away. For example, let's say you have to run some business logic and then make a database call. If you can separate the testable business logic into another class, you can run your theory against that (not in parallel, but in &lt;1 ms), and separately test the slow data access code.</p></li>\n<li><p>If you have sufficiently few test cases, just make a new class per test case and use <code>Fact</code> instead of <code>Theory</code>. You can even put them all in a single file. It's more verbose, and you lose the \"cool\" factor of using theories, but you'll get parallel execution.</p></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Nate Barbettini",
+        "link": "https://stackoverflow.com/users/3191599/nate-barbettini"
+      }
+    },
+    {
+      "answer_id": 30557081,
+      "body": "<p>I manage to get this to work by making sure that all the packages in all the solution projects reference the same version.</p>\n\n<p>This happened to me because I was referencing the latest versions as you can see from project.json.</p>\n\n<p>One other thing I did is never reference individual packages which fits the purpose only. For example in my business project I am creating a middleware and I was referencing Microsoft.AspNet.Http because I don't need the full MVC package. This caused issues in the test project so I added Microsoft.AspNet.MVC to any project that needs any sort of Http interaction i.e. httpcontext.</p>\n\n<p>This may not be the ideal fix but it did work for me. I hope this helps someone else experiencing the same issue.</p>\n",
+      "owner": {
+        "display_name": "Sul Aga",
+        "link": "https://stackoverflow.com/users/2919398/sul-aga"
+      }
+    },
+    {
+      "answer_id": 28102393,
+      "body": "<p>When I changed the Nuget option (up on top left above the the results and to the left of search) back from {include prerelease} to {stable only} everything works ok.</p>\n\n<p>I needed the {include prerelease} for installing the {xunit.runner.visualstudio} which lets you run tests in the <em>visual studio Test Explorer</em> available from the Visual studio menu: <strong><em>Test/Windows/Show Test Explorer</em></strong>.</p>\n",
+      "owner": {
+        "display_name": "pashute",
+        "link": "https://stackoverflow.com/users/141947/pashute"
+      }
+    },
+    {
+      "answer_id": 19126329,
+      "body": "<h1>sample tests:</h1>\n\n<p>tests.py:</p>\n\n<pre><code># tests.py\n\nimport random\ntry:\n    import unittest2 as unittest\nexcept ImportError:\n    import unittest\n\nclass SimpleTest(unittest.TestCase):\n    @unittest.skip(\"demonstrating skipping\")\n    def test_skipped(self):\n        self.fail(\"shouldn't happen\")\n\n    def test_pass(self):\n        self.assertEqual(10, 7 + 3)\n\n    def test_fail(self):\n        self.assertEqual(11, 7 + 3)\n</code></pre>\n\n<h1><a href=\"http://pytest.org/latest/usage.html#creating-junitxml-format-files\">JUnit with pytest</a></h1>\n\n<p>run the tests with:</p>\n\n<pre><code>py.test --junitxml results.xml tests.py\n</code></pre>\n\n<p>results.xml:</p>\n\n<pre><code>&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;\n&lt;testsuite errors=\"0\" failures=\"1\" name=\"pytest\" skips=\"1\" tests=\"2\" time=\"0.097\"&gt;\n    &lt;testcase classname=\"tests.SimpleTest\" name=\"test_fail\" time=\"0.000301837921143\"&gt;\n        &lt;failure message=\"test failure\"&gt;self = &amp;lt;tests.SimpleTest testMethod=test_fail&amp;gt;\n\n    def test_fail(self):\n&amp;gt;       self.assertEqual(11, 7 + 3)\nE       AssertionError: 11 != 10\n\ntests.py:16: AssertionError&lt;/failure&gt;\n    &lt;/testcase&gt;\n    &lt;testcase classname=\"tests.SimpleTest\" name=\"test_pass\" time=\"0.000109910964966\"/&gt;\n    &lt;testcase classname=\"tests.SimpleTest\" name=\"test_skipped\" time=\"0.000164031982422\"&gt;\n        &lt;skipped message=\"demonstrating skipping\" type=\"pytest.skip\"&gt;/home/damien/test-env/lib/python2.6/site-packages/_pytest/unittest.py:119: Skipped: demonstrating skipping&lt;/skipped&gt;\n    &lt;/testcase&gt;\n&lt;/testsuite&gt;\n</code></pre>\n\n<h1><a href=\"http://nose.readthedocs.org/en/latest/plugins/xunit.html\">JUnit with nose</a></h1>\n\n<p>run the tests with:</p>\n\n<pre><code>nosetests --with-xunit\n</code></pre>\n\n<p>nosetests.xml:</p>\n\n<pre><code>&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;\n&lt;testsuite name=\"nosetests\" tests=\"3\" errors=\"0\" failures=\"1\" skip=\"1\"&gt;\n    &lt;testcase classname=\"tests.SimpleTest\" name=\"test_fail\" time=\"0.000\"&gt;\n        &lt;failure type=\"exceptions.AssertionError\" message=\"11 != 10\"&gt;\n            &lt;![CDATA[Traceback (most recent call last):\nFile \"/opt/python-2.6.1/lib/python2.6/site-packages/unittest2-0.5.1-py2.6.egg/unittest2/case.py\", line 340, in run\ntestMethod()\nFile \"/home/damien/tests.py\", line 16, in test_fail\nself.assertEqual(11, 7 + 3)\nFile \"/opt/python-2.6.1/lib/python2.6/site-packages/unittest2-0.5.1-py2.6.egg/unittest2/case.py\", line 521, in assertEqual\nassertion_func(first, second, msg=msg)\nFile \"/opt/python-2.6.1/lib/python2.6/site-packages/unittest2-0.5.1-py2.6.egg/unittest2/case.py\", line 514, in _baseAssertEqual\nraise self.failureException(msg)\nAssertionError: 11 != 10\n]]&gt;\n        &lt;/failure&gt;\n    &lt;/testcase&gt;\n    &lt;testcase classname=\"tests.SimpleTest\" name=\"test_pass\" time=\"0.000\"&gt;&lt;/testcase&gt;\n    &lt;testcase classname=\"tests.SimpleTest\" name=\"test_skipped\" time=\"0.000\"&gt;\n        &lt;skipped type=\"nose.plugins.skip.SkipTest\" message=\"demonstrating skipping\"&gt;\n            &lt;![CDATA[SkipTest: demonstrating skipping\n]]&gt;\n        &lt;/skipped&gt;\n    &lt;/testcase&gt;\n&lt;/testsuite&gt;\n</code></pre>\n\n<h1><a href=\"http://nose2.readthedocs.org/en/latest/plugins/junitxml.html\">JUnit with nose2</a></h1>\n\n<p>You would need to use the <code>nose2.plugins.junitxml</code> plugin. You can configure <code>nose2</code> with a config file like you would normally do, or with the <code>--plugin</code> command-line option.</p>\n\n<p>run the tests with:</p>\n\n<pre><code>nose2 --plugin nose2.plugins.junitxml --junit-xml tests\n</code></pre>\n\n<p>nose2-junit.xml:</p>\n\n<pre><code>&lt;testsuite errors=\"0\" failures=\"1\" name=\"nose2-junit\" skips=\"1\" tests=\"3\" time=\"0.001\"&gt;\n  &lt;testcase classname=\"tests.SimpleTest\" name=\"test_fail\" time=\"0.000126\"&gt;\n    &lt;failure message=\"test failure\"&gt;Traceback (most recent call last):\n  File \"/Users/damien/Work/test2/tests.py\", line 18, in test_fail\n    self.assertEqual(11, 7 + 3)\nAssertionError: 11 != 10\n&lt;/failure&gt;\n  &lt;/testcase&gt;\n  &lt;testcase classname=\"tests.SimpleTest\" name=\"test_pass\" time=\"0.000095\" /&gt;\n  &lt;testcase classname=\"tests.SimpleTest\" name=\"test_skipped\" time=\"0.000058\"&gt;\n    &lt;skipped /&gt;\n  &lt;/testcase&gt;\n&lt;/testsuite&gt;\n</code></pre>\n\n<h1><a href=\"https://github.com/danielfm/unittest-xml-reporting\">JUnit with unittest-xml-reporting</a></h1>\n\n<p>Append the following to <code>tests.py</code></p>\n\n<pre><code>if __name__ == '__main__':\n    import xmlrunner\n    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))\n</code></pre>\n\n<p>run the tests with:</p>\n\n<pre><code>python tests.py\n</code></pre>\n\n<p>test-reports/TEST-SimpleTest-20131001140629.xml:</p>\n\n<pre><code>&lt;?xml version=\"1.0\" ?&gt;\n&lt;testsuite errors=\"1\" failures=\"0\" name=\"SimpleTest-20131001140629\" tests=\"3\" time=\"0.000\"&gt;\n    &lt;testcase classname=\"SimpleTest\" name=\"test_pass\" time=\"0.000\"/&gt;\n    &lt;testcase classname=\"SimpleTest\" name=\"test_fail\" time=\"0.000\"&gt;\n        &lt;error message=\"11 != 10\" type=\"AssertionError\"&gt;\n&lt;![CDATA[Traceback (most recent call last):\n  File \"tests.py\", line 16, in test_fail\n    self.assertEqual(11, 7 + 3)\nAssertionError: 11 != 10\n]]&gt;     &lt;/error&gt;\n    &lt;/testcase&gt;\n    &lt;testcase classname=\"SimpleTest\" name=\"test_skipped\" time=\"0.000\"&gt;\n        &lt;skipped message=\"demonstrating skipping\" type=\"skip\"/&gt;\n    &lt;/testcase&gt;\n    &lt;system-out&gt;\n&lt;![CDATA[]]&gt;    &lt;/system-out&gt;\n    &lt;system-err&gt;\n&lt;![CDATA[]]&gt;    &lt;/system-err&gt;\n&lt;/testsuite&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "dnozay",
+        "link": "https://stackoverflow.com/users/1733117/dnozay"
+      }
+    },
+    {
+      "answer_id": 21291262,
+      "body": "<p>You can click \"Cancel\" in Test Explorer:</p>\n\n<p><img src=\"https://i.sstatic.net/qgc8e.png\" alt=\"enter image description here\"></p>\n\n<p>Show Test Explorer by going to TEST > Windows > Test Explorer.</p>\n\n<p>This is in Visual Studio 2013.</p>\n\n<p>Instructions for other versions of VS can be found <a href=\"http://msdn.microsoft.com/en-us/library/ms182471(v=vs.100).aspx\" rel=\"noreferrer\">here</a></p>\n",
+      "owner": {
+        "display_name": "Codeman",
+        "link": "https://stackoverflow.com/users/598637/codeman"
+      }
+    },
+    {
+      "answer_id": 8167475,
+      "body": "<p>Also you can use <code>[Theory]</code> instead of <code>[Fact]</code>. It will allow you to create test methods with different parameters.\nE.g.</p>\n\n<pre><code>[Theory]\n[InlineData(1, \"22\")]\n[InlineData(-1, \"23\")]\n[InlineData(0, \"-25\")]\npublic void test(int number1, string number2)\n{\n    int result = number1 + Convert.ToInt32(number2);\n    Assert.IsType(Type.GetType(\"Int32\"), result);\n}\n</code></pre>\n\n<p>p.s. With xUnit it would be better to make test methods public.</p>\n",
+      "owner": {
+        "display_name": "Alina",
+        "link": "https://stackoverflow.com/users/842282/alina"
+      }
+    },
+    {
+      "answer_id": 16910471,
+      "body": "<p>You might be looking for:</p>\n\n<pre><code>Assert.IsType&lt;TypeNotRegisteredException&gt;(exception);\n</code></pre>\n\n<p>Let me know if this is close to what you're looking for.</p>\n",
+      "owner": {
+        "display_name": "Matt Wilson",
+        "link": "https://stackoverflow.com/users/2441482/matt-wilson"
+      }
+    },
+    {
+      "answer_id": 16468617,
+      "body": "<p>In your test you need to create a mocked version of your <code>IMapper</code> interface otherwise you aren't unit testing, you're integration testing. Then you just need to do a simple <code>mockMapper.Setup(m =&gt; m.Map(something, somethingElse)).Returns(anotherThing)</code>.</p>\n\n<p>If you want to use the real AutoMapper implementation in your tests then you need to set it up first. Your tests will not automatically pick up your <code>Global.asax</code>, you'll have to set up the mappings in the tests as well. When I'm integration testing like this I normally have a static <code>AutoMapperConfiguration.Configure()</code> method that I call in a test fixture setup. For NUnit this is the <code>[TestFixtureSetUp]</code> method, I think for xUnit you just put it in the constructor.</p>\n",
+      "owner": {
+        "display_name": "Adam Rodger",
+        "link": "https://stackoverflow.com/users/429541/adam-rodger"
+      }
+    },
+    {
+      "answer_id": 1479404,
+      "body": "<p>You can stick to <code>Test::Unit</code> or you can have nice extensions to it using <a href=\"https://github.com/thoughtbot/shoulda\" rel=\"noreferrer\">Shoulda</a> or some cool contexts using <a href=\"https://github.com/jm/context\" rel=\"noreferrer\">Context</a>.</p>\n\n<p>On the other side, if you prefer BDD then you can safely stick to <a href=\"http://rspec.info/\" rel=\"noreferrer\">RSpec</a>.</p>\n\n<p>As for for acceptance testing use <a href=\"http://cukes.info/\" rel=\"noreferrer\">Cucumber</a> .</p>\n",
+      "owner": {
+        "display_name": "khelll",
+        "link": "https://stackoverflow.com/users/124504/khelll"
+      }
+    },
+    {
+      "answer_id": 12380351,
+      "body": "<p>Following the guidance in this <a href=\"http://xunit.codeplex.com/discussions/354663\">xUnit discussion topic</a>, it looks like you need to implement a constructor on the Fixture and also implement IDisposable. Here's a complete sample that behaves the way you want:</p>\n\n<pre><code>using System;\nusing System.Diagnostics;\nusing Xunit;\nusing Xunit.Sdk;\n\nnamespace xUnitSample\n{\n    public class SomeFixture : IDisposable\n    {\n        public SomeFixture()\n        {\n            Console.WriteLine(\"SomeFixture ctor: This should only be run once\");\n        }\n\n        public void SomeMethod()\n        {\n            Console.WriteLine(\"SomeFixture::SomeMethod()\");\n        }\n\n        public void Dispose()\n        {\n            Console.WriteLine(\"SomeFixture: Disposing SomeFixture\");\n        }\n    }\n\n    public class TestSample : IUseFixture&lt;SomeFixture&gt;, IDisposable\n    {\n        public void SetFixture(SomeFixture data)\n        {\n            Console.WriteLine(\"TestSample::SetFixture(): Calling SomeMethod\");\n            data.SomeMethod();\n        }\n\n        public TestSample()\n        {\n            Console.WriteLine(\"This should be run once before every test \" + DateTime.Now.Ticks);\n        }\n\n        [Fact]\n        public void Test1()\n        {\n            Console.WriteLine(\"This is test one.\");\n        }\n\n        [Fact]\n        public void Test2()\n        {\n            Console.WriteLine(\"This is test two.\");\n        }\n\n        public void Dispose()\n        {\n            Console.WriteLine(\"Disposing\");\n        }\n    }\n}\n</code></pre>\n\n<p>When running this from the console runner, you'll see the following output:</p>\n\n<blockquote>\n  <p>D:\\xUnit>xunit.console.clr4.exe test.dll /html foo.htm xUnit.net\n  console test runner (64-bit .NET 4.0.30319.17929) Copyright (C)\n  2007-11 Microsoft Corporation.</p>\n  \n  <p>xunit.dll:     Version 1.9.1.1600 Test assembly: test.dll</p>\n  \n  <p>SomeFixture ctor: This should only be run once </p>\n  \n  <p>Tests complete: 2 of 2</p>\n  \n  <p>SomeFixture: Disposing SomeFixture </p>\n  \n  <p>2 total, 0 failed, 0 skipped, took 0.686 seconds</p>\n</blockquote>\n\n<p>Then, when you crack open the test output file foo.htm, you'll see the other test output.</p>\n",
+      "owner": {
+        "display_name": "nithins",
+        "link": "https://stackoverflow.com/users/201382/nithins"
+      }
+    },
+    {
+      "answer_id": 11205725,
+      "body": "<p>I've not tested this but you should be able to attach visual studio to the xUnit GUI and debug from there. </p>\n\n<p>From the Debug menu select 'attach to process', locate the name of the executable in the list and click attach. Set breakpoints in the unit test as required and run the test from the GUI. The breakpoint should be hit as expected.</p>\n",
+      "owner": {
+        "display_name": "Dave",
+        "link": "https://stackoverflow.com/users/255608/dave"
+      }
+    },
+    {
+      "answer_id": 10240939,
+      "body": "<p><a href=\"http://reflex.gforge.inria.fr/xunit.html#xunitReport\" rel=\"noreferrer\">http://reflex.gforge.inria.fr/xunit.html#xunitReport</a></p>\n",
+      "owner": {
+        "display_name": "Shnitzel",
+        "link": "https://stackoverflow.com/users/1345713/shnitzel"
+      }
+    },
+    {
+      "answer_id": 9311446,
+      "body": "<p>How about trying to use the <a href=\"http://userguide.icu-project.org/\">ICU</a> test suite files? I don't know if they are what you need for your test, but they seem to have pretty complete from/to UTF mapping files at least: <a href=\"http://source.icu-project.org/repos/icu/data/trunk/charset/data/ucm/\">Link to the repo for ICU test files</a> </p>\n",
+      "owner": {
+        "display_name": "Daniel Teply",
+        "link": "https://stackoverflow.com/users/402805/daniel-teply"
+      }
+    }
+  ]
+}

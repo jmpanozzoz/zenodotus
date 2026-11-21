@@ -1,0 +1,1908 @@
+{
+  "library": "maven:com.fasterxml.jackson.core:jackson-databind",
+  "fetched_at": "2026-11-21T17:28:13Z",
+  "questions": [
+    {
+      "question_id": 6349421,
+      "title": "How to use Jackson to deserialise an array of objects",
+      "accepted_answer_id": 6349488,
+      "score": 1134,
+      "link": "https://stackoverflow.com/questions/6349421/how-to-use-jackson-to-deserialise-an-array-of-objects",
+      "owner": {
+        "display_name": "Ollie Edwards",
+        "link": "https://stackoverflow.com/users/111082/ollie-edwards"
+      }
+    },
+    {
+      "question_id": 11757487,
+      "title": "How to tell Jackson to ignore a field during serialization if its value is null?",
+      "accepted_answer_id": 11761975,
+      "score": 901,
+      "link": "https://stackoverflow.com/questions/11757487/how-to-tell-jackson-to-ignore-a-field-during-serialization-if-its-value-is-null",
+      "owner": {
+        "display_name": "ams",
+        "link": "https://stackoverflow.com/users/438319/ams"
+      }
+    },
+    {
+      "question_id": 5455014,
+      "title": "Ignoring new fields on JSON objects using Jackson",
+      "accepted_answer_id": 5455563,
+      "score": 783,
+      "link": "https://stackoverflow.com/questions/5455014/ignoring-new-fields-on-json-objects-using-jackson",
+      "owner": {
+        "display_name": "Hadi Eskandari",
+        "link": "https://stackoverflow.com/users/54538/hadi-eskandari"
+      }
+    },
+    {
+      "question_id": 21120999,
+      "title": "Representing null in JSON",
+      "accepted_answer_id": 21121267,
+      "score": 684,
+      "link": "https://stackoverflow.com/questions/21120999/representing-null-in-json",
+      "owner": {
+        "display_name": "pherris",
+        "link": "https://stackoverflow.com/users/1861459/pherris"
+      }
+    },
+    {
+      "question_id": 3325387,
+      "title": "Infinite Recursion with Jackson JSON and Hibernate JPA issue",
+      "accepted_answer_id": 3329629,
+      "score": 561,
+      "link": "https://stackoverflow.com/questions/3325387/infinite-recursion-with-jackson-json-and-hibernate-jpa-issue",
+      "owner": {
+        "display_name": "Ta Sas",
+        "link": "https://stackoverflow.com/users/268098/ta-sas"
+      }
+    },
+    {
+      "question_id": 3907929,
+      "title": "Should I declare Jackson&#39;s ObjectMapper as a static field?",
+      "accepted_answer_id": 3909846,
+      "score": 490,
+      "link": "https://stackoverflow.com/questions/3907929/should-i-declare-jacksons-objectmapper-as-a-static-field",
+      "owner": {
+        "display_name": "Cheok Yan Cheng",
+        "link": "https://stackoverflow.com/users/72437/cheok-yan-cheng"
+      }
+    },
+    {
+      "question_id": 7625783,
+      "title": "JsonMappingException: No suitable constructor found for type [simple type, class ]: can not instantiate from JSON object",
+      "accepted_answer_id": 7626872,
+      "score": 481,
+      "link": "https://stackoverflow.com/questions/7625783/jsonmappingexception-no-suitable-constructor-found-for-type-simple-type-class",
+      "owner": {
+        "display_name": "Lucky Murari",
+        "link": "https://stackoverflow.com/users/616412/lucky-murari"
+      }
+    },
+    {
+      "question_id": 12505141,
+      "title": "Only using @JsonIgnore during serialization, but not deserialization",
+      "accepted_answer_id": 12505165,
+      "score": 460,
+      "link": "https://stackoverflow.com/questions/12505141/only-using-jsonignore-during-serialization-but-not-deserialization",
+      "owner": {
+        "display_name": "chubbsondubs",
+        "link": "https://stackoverflow.com/users/155020/chubbsondubs"
+      }
+    },
+    {
+      "question_id": 2378402,
+      "title": "Jackson Vs. Gson",
+      "accepted_answer_id": 2378615,
+      "score": 412,
+      "link": "https://stackoverflow.com/questions/2378402/jackson-vs-gson",
+      "owner": {
+        "display_name": "Suraj Chandran",
+        "link": "https://stackoverflow.com/users/119772/suraj-chandran"
+      }
+    },
+    {
+      "question_id": 27952472,
+      "title": "serialize/deserialize java 8 java.time with Jackson JSON mapper",
+      "accepted_answer_id": 27952529,
+      "score": 394,
+      "link": "https://stackoverflow.com/questions/27952472/serialize-deserialize-java-8-java-time-with-jackson-json-mapper",
+      "owner": {
+        "display_name": "Alexander Taylor",
+        "link": "https://stackoverflow.com/users/345648/alexander-taylor"
+      }
+    },
+    {
+      "question_id": 8367312,
+      "title": "Serializing with Jackson (JSON) - getting &quot;No serializer found&quot;?",
+      "accepted_answer_id": 8395924,
+      "score": 392,
+      "link": "https://stackoverflow.com/questions/8367312/serializing-with-jackson-json-getting-no-serializer-found",
+      "owner": {
+        "display_name": "Ted",
+        "link": "https://stackoverflow.com/users/178143/ted"
+      }
+    },
+    {
+      "question_id": 53191468,
+      "title": "No Creators, like default construct, exist): cannot deserialize from Object value (no delegate- or property-based Creator",
+      "accepted_answer_id": 53192674,
+      "score": 380,
+      "link": "https://stackoverflow.com/questions/53191468/no-creators-like-default-construct-exist-cannot-deserialize-from-object-valu",
+      "owner": {
+        "display_name": "Jos&#233; Nobre",
+        "link": "https://stackoverflow.com/users/5927732/jos%c3%a9-nobre"
+      }
+    },
+    {
+      "question_id": 16428817,
+      "title": "Convert a Map&lt;String, String&gt; to a POJO",
+      "accepted_answer_id": 16430704,
+      "score": 323,
+      "link": "https://stackoverflow.com/questions/16428817/convert-a-mapstring-string-to-a-pojo",
+      "owner": {
+        "display_name": "user86834",
+        "link": "https://stackoverflow.com/users/2267717/user86834"
+      }
+    },
+    {
+      "question_id": 15786129,
+      "title": "Converting Java objects to JSON with Jackson",
+      "accepted_answer_id": 15786175,
+      "score": 318,
+      "link": "https://stackoverflow.com/questions/15786129/converting-java-objects-to-json-with-jackson",
+      "owner": {
+        "display_name": "JustTheAverageGirl",
+        "link": "https://stackoverflow.com/users/2100155/justtheaveragegirl"
+      }
+    },
+    {
+      "question_id": 12583638,
+      "title": "When is the @JsonProperty property used and what is it used for?",
+      "accepted_answer_id": 12583772,
+      "score": 307,
+      "link": "https://stackoverflow.com/questions/12583638/when-is-the-jsonproperty-property-used-and-what-is-it-used-for",
+      "owner": {
+        "display_name": "blue-sky",
+        "link": "https://stackoverflow.com/users/470184/blue-sky"
+      }
+    },
+    {
+      "question_id": 1688099,
+      "title": "Converting JSON data to Java object",
+      "accepted_answer_id": 1688182,
+      "score": 304,
+      "link": "https://stackoverflow.com/questions/1688099/converting-json-data-to-java-object",
+      "owner": {
+        "display_name": "Faiyet",
+        "link": "https://stackoverflow.com/users/127160/faiyet"
+      }
+    },
+    {
+      "question_id": 12468764,
+      "title": "Jackson enum Serializing and DeSerializer",
+      "accepted_answer_id": 20421494,
+      "score": 295,
+      "link": "https://stackoverflow.com/questions/12468764/jackson-enum-serializing-and-deserializer",
+      "owner": {
+        "display_name": "pookieman",
+        "link": "https://stackoverflow.com/users/1376000/pookieman"
+      }
+    },
+    {
+      "question_id": 3653996,
+      "title": "How to parse a JSON string into JsonNode in Jackson?",
+      "accepted_answer_id": 9599585,
+      "score": 283,
+      "link": "https://stackoverflow.com/questions/3653996/how-to-parse-a-json-string-into-jsonnode-in-jackson",
+      "owner": {
+        "display_name": "fadmaa",
+        "link": "https://stackoverflow.com/users/368760/fadmaa"
+      }
+    },
+    {
+      "question_id": 2525042,
+      "title": "How to convert a JSON string to a Map&lt;String, String&gt; with Jackson JSON",
+      "accepted_answer_id": 2525152,
+      "score": 278,
+      "link": "https://stackoverflow.com/questions/2525042/how-to-convert-a-json-string-to-a-mapstring-string-with-jackson-json",
+      "owner": {
+        "display_name": "adamJLev",
+        "link": "https://stackoverflow.com/users/26192/adamjlev"
+      }
+    },
+    {
+      "question_id": 19711695,
+      "title": "Convert JsonNode into POJO",
+      "accepted_answer_id": 28714523,
+      "score": 242,
+      "link": "https://stackoverflow.com/questions/19711695/convert-jsonnode-into-pojo",
+      "owner": {
+        "display_name": "Alexandre",
+        "link": "https://stackoverflow.com/users/995548/alexandre"
+      }
+    },
+    {
+      "question_id": 7105745,
+      "title": "How to specify jackson to only use fields - preferably globally",
+      "accepted_answer_id": 7108530,
+      "score": 240,
+      "link": "https://stackoverflow.com/questions/7105745/how-to-specify-jackson-to-only-use-fields-preferably-globally",
+      "owner": {
+        "display_name": "Michael Wiles",
+        "link": "https://stackoverflow.com/users/117839/michael-wiles"
+      }
+    },
+    {
+      "question_id": 28802544,
+      "title": "Java 8 LocalDate Jackson format",
+      "accepted_answer_id": 28803634,
+      "score": 235,
+      "link": "https://stackoverflow.com/questions/28802544/java-8-localdate-jackson-format",
+      "owner": {
+        "display_name": "JAB",
+        "link": "https://stackoverflow.com/users/550889/jab"
+      }
+    },
+    {
+      "question_id": 7263282,
+      "title": "How to change a field name in JSON using Jackson",
+      "accepted_answer_id": 7272468,
+      "score": 231,
+      "link": "https://stackoverflow.com/questions/7263282/how-to-change-a-field-name-in-json-using-jackson",
+      "owner": {
+        "display_name": "Ali",
+        "link": "https://stackoverflow.com/users/611600/ali"
+      }
+    },
+    {
+      "question_id": 14515994,
+      "title": "Convert JSON String to Pretty Print JSON output using Jackson",
+      "accepted_answer_id": 14532435,
+      "score": 228,
+      "link": "https://stackoverflow.com/questions/14515994/convert-json-string-to-pretty-print-json-output-using-jackson",
+      "owner": {
+        "display_name": "arsenal",
+        "link": "https://stackoverflow.com/users/663148/arsenal"
+      }
+    },
+    {
+      "question_id": 10519265,
+      "title": "Jackson overcoming underscores in favor of camel-case",
+      "accepted_answer_id": 10519316,
+      "score": 223,
+      "link": "https://stackoverflow.com/questions/10519265/jackson-overcoming-underscores-in-favor-of-camel-case",
+      "owner": {
+        "display_name": "user1384991",
+        "link": "https://stackoverflow.com/users/1384991/user1384991"
+      }
+    },
+    {
+      "question_id": 11828368,
+      "title": "Convert Java Object to JsonNode in Jackson",
+      "accepted_answer_id": 11828920,
+      "score": 220,
+      "link": "https://stackoverflow.com/questions/11828368/convert-java-object-to-jsonnode-in-jackson",
+      "owner": {
+        "display_name": "Max Schmidt",
+        "link": "https://stackoverflow.com/users/946328/max-schmidt"
+      }
+    },
+    {
+      "question_id": 8560348,
+      "title": "Different names of JSON property during serialization and deserialization",
+      "accepted_answer_id": 8560615,
+      "score": 220,
+      "link": "https://stackoverflow.com/questions/8560348/different-names-of-json-property-during-serialization-and-deserialization",
+      "owner": {
+        "display_name": "kiRach",
+        "link": "https://stackoverflow.com/users/760085/kirach"
+      }
+    },
+    {
+      "question_id": 12463049,
+      "title": "Date format Mapping to JSON Jackson",
+      "accepted_answer_id": 12463731,
+      "score": 218,
+      "link": "https://stackoverflow.com/questions/12463049/date-format-mapping-to-json-jackson",
+      "owner": {
+        "display_name": "Kevin Rave",
+        "link": "https://stackoverflow.com/users/668650/kevin-rave"
+      }
+    },
+    {
+      "question_id": 32270422,
+      "title": "Jackson renames primitive boolean field by removing &#39;is&#39;",
+      "accepted_answer_id": 38969817,
+      "score": 206,
+      "link": "https://stackoverflow.com/questions/32270422/jackson-renames-primitive-boolean-field-by-removing-is",
+      "owner": {
+        "display_name": "iCode",
+        "link": "https://stackoverflow.com/users/2189617/icode"
+      }
+    },
+    {
+      "question_id": 16089651,
+      "title": "Jackson serialization: ignore empty values (or null)",
+      "accepted_answer_id": 16089705,
+      "score": 193,
+      "link": "https://stackoverflow.com/questions/16089651/jackson-serialization-ignore-empty-values-or-null",
+      "owner": {
+        "display_name": "Shinnyx",
+        "link": "https://stackoverflow.com/users/1935299/shinnyx"
+      }
+    },
+    {
+      "question_id": 30997362,
+      "title": "How to modify JsonNode in Java?",
+      "accepted_answer_id": 30997696,
+      "score": 191,
+      "link": "https://stackoverflow.com/questions/30997362/how-to-modify-jsonnode-in-java",
+      "owner": {
+        "display_name": "mstfdz",
+        "link": "https://stackoverflow.com/users/2598194/mstfdz"
+      }
+    },
+    {
+      "question_id": 17617370,
+      "title": "Pretty printing JSON from Jackson 2.2&#39;s ObjectMapper",
+      "accepted_answer_id": 17617958,
+      "score": 182,
+      "link": "https://stackoverflow.com/questions/17617370/pretty-printing-json-from-jackson-2-2s-objectmapper",
+      "owner": {
+        "display_name": "Anthony Atkinson",
+        "link": "https://stackoverflow.com/users/1428643/anthony-atkinson"
+      }
+    },
+    {
+      "question_id": 7421474,
+      "title": "How can I tell jackson to ignore a property for which I don&#39;t have control over the source code?",
+      "accepted_answer_id": 7422285,
+      "score": 180,
+      "link": "https://stackoverflow.com/questions/7421474/how-can-i-tell-jackson-to-ignore-a-property-for-which-i-dont-have-control-over",
+      "owner": {
+        "display_name": "maverick",
+        "link": "https://stackoverflow.com/users/344220/maverick"
+      }
+    },
+    {
+      "question_id": 19333106,
+      "title": "Issue with parsing the content from JSON file with Jackson &amp; message- JsonMappingException -Cannot deserialize as out of START_ARRAY token",
+      "accepted_answer_id": 19410946,
+      "score": 179,
+      "link": "https://stackoverflow.com/questions/19333106/issue-with-parsing-the-content-from-json-file-with-jackson-message-jsonmappin",
+      "owner": {
+        "display_name": "JJD",
+        "link": "https://stackoverflow.com/users/356895/jjd"
+      }
+    },
+    {
+      "question_id": 16788213,
+      "title": "Jackson how to transform JsonNode to ArrayNode without casting?",
+      "accepted_answer_id": 16793133,
+      "score": 178,
+      "link": "https://stackoverflow.com/questions/16788213/jackson-how-to-transform-jsonnode-to-arraynode-without-casting",
+      "owner": {
+        "display_name": "Konrad H&#246;ffner",
+        "link": "https://stackoverflow.com/users/398963/konrad-h%c3%b6ffner"
+      }
+    },
+    {
+      "question_id": 20837856,
+      "title": "Can not deserialize instance of java.util.ArrayList out of START_OBJECT token",
+      "accepted_answer_id": 20838816,
+      "score": 177,
+      "link": "https://stackoverflow.com/questions/20837856/can-not-deserialize-instance-of-java-util-arraylist-out-of-start-object-token",
+      "owner": {
+        "display_name": "isah",
+        "link": "https://stackoverflow.com/users/1154065/isah"
+      }
+    },
+    {
+      "question_id": 24157817,
+      "title": "Jackson databind enum case insensitive",
+      "accepted_answer_id": 44217670,
+      "score": 175,
+      "link": "https://stackoverflow.com/questions/24157817/jackson-databind-enum-case-insensitive",
+      "owner": {
+        "display_name": "tom91136",
+        "link": "https://stackoverflow.com/users/896997/tom91136"
+      }
+    },
+    {
+      "question_id": 18313323,
+      "title": "How do I call the default deserializer from a custom deserializer in Jackson",
+      "accepted_answer_id": 18405958,
+      "score": 161,
+      "link": "https://stackoverflow.com/questions/18313323/how-do-i-call-the-default-deserializer-from-a-custom-deserializer-in-jackson",
+      "owner": {
+        "display_name": "Pablo Jomer",
+        "link": "https://stackoverflow.com/users/1511332/pablo-jomer"
+      }
+    },
+    {
+      "question_id": 15261456,
+      "title": "How do I disable fail_on_empty_beans in Jackson?",
+      "accepted_answer_id": 15261908,
+      "score": 161,
+      "link": "https://stackoverflow.com/questions/15261456/how-do-i-disable-fail-on-empty-beans-in-jackson",
+      "owner": {
+        "display_name": "bharal",
+        "link": "https://stackoverflow.com/users/1061426/bharal"
+      }
+    },
+    {
+      "question_id": 21920367,
+      "title": "Why when a constructor is annotated with @JsonCreator, its arguments must be annotated with @JsonProperty?",
+      "accepted_answer_id": 22013603,
+      "score": 159,
+      "link": "https://stackoverflow.com/questions/21920367/why-when-a-constructor-is-annotated-with-jsoncreator-its-arguments-must-be-ann",
+      "owner": {
+        "display_name": "Ori Popowski",
+        "link": "https://stackoverflow.com/users/1038182/ori-popowski"
+      }
+    },
+    {
+      "question_id": 6846244,
+      "title": "Jackson and generic type reference",
+      "accepted_answer_id": 6852184,
+      "score": 156,
+      "link": "https://stackoverflow.com/questions/6846244/jackson-and-generic-type-reference",
+      "owner": {
+        "display_name": "techzen",
+        "link": "https://stackoverflow.com/users/25713/techzen"
+      }
+    },
+    {
+      "question_id": 10308452,
+      "title": "How to convert the following json string to java object?",
+      "accepted_answer_id": 10324007,
+      "score": 155,
+      "link": "https://stackoverflow.com/questions/10308452/how-to-convert-the-following-json-string-to-java-object",
+      "owner": {
+        "display_name": "Rolando",
+        "link": "https://stackoverflow.com/users/971888/rolando"
+      }
+    },
+    {
+      "question_id": 30362446,
+      "title": "Deserialize JSON with Jackson into Polymorphic Types - A Complete Example is giving me a compile error",
+      "accepted_answer_id": 30386694,
+      "score": 147,
+      "link": "https://stackoverflow.com/questions/30362446/deserialize-json-with-jackson-into-polymorphic-types-a-complete-example-is-giv",
+      "owner": {
+        "display_name": "Jon Driscoll",
+        "link": "https://stackoverflow.com/users/4920067/jon-driscoll"
+      }
+    },
+    {
+      "question_id": 37010891,
+      "title": "How to map a nested value to a property using Jackson annotations?",
+      "accepted_answer_id": 41383076,
+      "score": 144,
+      "link": "https://stackoverflow.com/questions/37010891/how-to-map-a-nested-value-to-a-property-using-jackson-annotations",
+      "owner": {
+        "display_name": "kenske",
+        "link": "https://stackoverflow.com/users/1180762/kenske"
+      }
+    },
+    {
+      "question_id": 4783421,
+      "title": "How can I include raw JSON in an object using Jackson?",
+      "accepted_answer_id": 4786270,
+      "score": 136,
+      "link": "https://stackoverflow.com/questions/4783421/how-can-i-include-raw-json-in-an-object-using-jackson",
+      "owner": {
+        "display_name": "bhilstrom",
+        "link": "https://stackoverflow.com/users/203593/bhilstrom"
+      }
+    },
+    {
+      "question_id": 19272830,
+      "title": "Order of JSON objects using Jackson&#39;s ObjectMapper",
+      "accepted_answer_id": 19272931,
+      "score": 134,
+      "link": "https://stackoverflow.com/questions/19272830/order-of-json-objects-using-jacksons-objectmapper",
+      "owner": {
+        "display_name": "justSaid",
+        "link": "https://stackoverflow.com/users/775987/justsaid"
+      }
+    },
+    {
+      "question_id": 7161638,
+      "title": "How do I use a custom Serializer with Jackson?",
+      "accepted_answer_id": 7168386,
+      "score": 134,
+      "link": "https://stackoverflow.com/questions/7161638/how-do-i-use-a-custom-serializer-with-jackson",
+      "owner": {
+        "display_name": "Jonas",
+        "link": "https://stackoverflow.com/users/213269/jonas"
+      }
+    },
+    {
+      "question_id": 18805455,
+      "title": "Setting default values to null fields when mapping with Jackson",
+      "accepted_answer_id": 18806773,
+      "score": 133,
+      "link": "https://stackoverflow.com/questions/18805455/setting-default-values-to-null-fields-when-mapping-with-jackson",
+      "owner": {
+        "display_name": "gookman",
+        "link": "https://stackoverflow.com/users/2294202/gookman"
+      }
+    },
+    {
+      "question_id": 9829403,
+      "title": "Deserialize JSON to ArrayList&lt;POJO&gt; using Jackson",
+      "accepted_answer_id": 9829502,
+      "score": 133,
+      "link": "https://stackoverflow.com/questions/9829403/deserialize-json-to-arraylistpojo-using-jackson",
+      "owner": {
+        "display_name": "tacos_tacos_tacos",
+        "link": "https://stackoverflow.com/users/843477/tacos-tacos-tacos"
+      }
+    },
+    {
+      "question_id": 27577701,
+      "title": "Jackson ObjectMapper - specify serialization order of object properties",
+      "accepted_answer_id": 27577739,
+      "score": 132,
+      "link": "https://stackoverflow.com/questions/27577701/jackson-objectmapper-specify-serialization-order-of-object-properties",
+      "owner": {
+        "display_name": "Lizzy",
+        "link": "https://stackoverflow.com/users/909876/lizzy"
+      }
+    },
+    {
+      "question_id": 37841373,
+      "title": "java.lang.IllegalArgumentException: No converter found for return value of type",
+      "accepted_answer_id": 37842512,
+      "score": 131,
+      "link": "https://stackoverflow.com/questions/37841373/java-lang-illegalargumentexception-no-converter-found-for-return-value-of-type",
+      "owner": {
+        "display_name": "Marc",
+        "link": "https://stackoverflow.com/users/912495/marc"
+      }
+    },
+    {
+      "question_id": 28324352,
+      "title": "How to customise the Jackson JSON mapper implicitly used by Spring Boot?",
+      "accepted_answer_id": 28324976,
+      "score": 130,
+      "link": "https://stackoverflow.com/questions/28324352/how-to-customise-the-jackson-json-mapper-implicitly-used-by-spring-boot",
+      "owner": {
+        "display_name": "Jonik",
+        "link": "https://stackoverflow.com/users/56285/jonik"
+      }
+    },
+    {
+      "question_id": 26925058,
+      "title": "No content to map due to end-of-input jackson parser",
+      "accepted_answer_id": 26926871,
+      "score": 127,
+      "link": "https://stackoverflow.com/questions/26925058/no-content-to-map-due-to-end-of-input-jackson-parser",
+      "owner": {
+        "display_name": "Swapnil Kadam",
+        "link": "https://stackoverflow.com/users/1441732/swapnil-kadam"
+      }
+    },
+    {
+      "question_id": 12046786,
+      "title": "Jackson JSON custom serialization for certain fields",
+      "accepted_answer_id": 12046979,
+      "score": 127,
+      "link": "https://stackoverflow.com/questions/12046786/jackson-json-custom-serialization-for-certain-fields",
+      "owner": {
+        "display_name": "Steve Kuo",
+        "link": "https://stackoverflow.com/users/24396/steve-kuo"
+      }
+    },
+    {
+      "question_id": 28821715,
+      "title": "java.lang.ClassCastException: java.util.LinkedHashMap cannot be cast to com.testing.models.Account",
+      "accepted_answer_id": 28821825,
+      "score": 123,
+      "link": "https://stackoverflow.com/questions/28821715/java-lang-classcastexception-java-util-linkedhashmap-cannot-be-cast-to-com-test",
+      "owner": {
+        "display_name": "Passionate Engineer",
+        "link": "https://stackoverflow.com/users/841090/passionate-engineer"
+      }
+    },
+    {
+      "question_id": 12750681,
+      "title": "Cannot construct instance of - Jackson",
+      "accepted_answer_id": 12751959,
+      "score": 123,
+      "link": "https://stackoverflow.com/questions/12750681/cannot-construct-instance-of-jackson",
+      "owner": {
+        "display_name": "Danilo M.",
+        "link": "https://stackoverflow.com/users/1538732/danilo-m"
+      }
+    },
+    {
+      "question_id": 15430715,
+      "title": "Casting LinkedHashMap to Complex Object",
+      "accepted_answer_id": 15453159,
+      "score": 115,
+      "link": "https://stackoverflow.com/questions/15430715/casting-linkedhashmap-to-complex-object",
+      "owner": {
+        "display_name": "tarka",
+        "link": "https://stackoverflow.com/users/1349281/tarka"
+      }
+    },
+    {
+      "question_id": 7854030,
+      "title": "Configuring ObjectMapper in Spring",
+      "accepted_answer_id": 32842962,
+      "score": 115,
+      "link": "https://stackoverflow.com/questions/7854030/configuring-objectmapper-in-spring",
+      "owner": {
+        "display_name": "Steve Eastwood",
+        "link": "https://stackoverflow.com/users/813118/steve-eastwood"
+      }
+    },
+    {
+      "question_id": 7246157,
+      "title": "How to parse a JSON string to an array using Jackson",
+      "accepted_answer_id": 7246510,
+      "score": 113,
+      "link": "https://stackoverflow.com/questions/7246157/how-to-parse-a-json-string-to-an-array-using-jackson",
+      "owner": {
+        "display_name": "mmutilva",
+        "link": "https://stackoverflow.com/users/26699/mmutilva"
+      }
+    },
+    {
+      "question_id": 21384820,
+      "title": "Is there a jackson datatype module for JDK8 java.time?",
+      "accepted_answer_id": 32202201,
+      "score": 112,
+      "link": "https://stackoverflow.com/questions/21384820/is-there-a-jackson-datatype-module-for-jdk8-java-time",
+      "owner": {
+        "display_name": "Brett Ryan",
+        "link": "https://stackoverflow.com/users/140037/brett-ryan"
+      }
+    },
+    {
+      "question_id": 4982340,
+      "title": "Jackson + Builder Pattern?",
+      "accepted_answer_id": 21624629,
+      "score": 112,
+      "link": "https://stackoverflow.com/questions/4982340/jackson-builder-pattern",
+      "owner": {
+        "display_name": "Gili",
+        "link": "https://stackoverflow.com/users/14731/gili"
+      }
+    },
+    {
+      "question_id": 31689107,
+      "title": "Deserializing an enum with Jackson",
+      "accepted_answer_id": 31689416,
+      "score": 106,
+      "link": "https://stackoverflow.com/questions/31689107/deserializing-an-enum-with-jackson",
+      "owner": {
+        "display_name": "jwilner",
+        "link": "https://stackoverflow.com/users/1567452/jwilner"
+      }
+    },
+    {
+      "question_id": 21708339,
+      "title": "Avoid Jackson serialization on non fetched lazy objects",
+      "accepted_answer_id": 21760361,
+      "score": 102,
+      "link": "https://stackoverflow.com/questions/21708339/avoid-jackson-serialization-on-non-fetched-lazy-objects",
+      "owner": {
+        "display_name": "r1ckr",
+        "link": "https://stackoverflow.com/users/1416034/r1ckr"
+      }
+    },
+    {
+      "question_id": 15931082,
+      "title": "How to deserialize a class with overloaded constructors using JsonCreator",
+      "accepted_answer_id": 15931483,
+      "score": 102,
+      "link": "https://stackoverflow.com/questions/15931082/how-to-deserialize-a-class-with-overloaded-constructors-using-jsoncreator",
+      "owner": {
+        "display_name": "geejay",
+        "link": "https://stackoverflow.com/users/142668/geejay"
+      }
+    },
+    {
+      "question_id": 20578846,
+      "title": "Ignore missing properties during Jackson JSON deserialization in Java",
+      "accepted_answer_id": 20671202,
+      "score": 97,
+      "link": "https://stackoverflow.com/questions/20578846/ignore-missing-properties-during-jackson-json-deserialization-in-java",
+      "owner": {
+        "display_name": "user379151",
+        "link": "https://stackoverflow.com/users/379151/user379151"
+      }
+    },
+    {
+      "question_id": 7766791,
+      "title": "Serializing enums with Jackson",
+      "accepted_answer_id": 7768423,
+      "score": 97,
+      "link": "https://stackoverflow.com/questions/7766791/serializing-enums-with-jackson",
+      "owner": {
+        "display_name": "Nofate",
+        "link": "https://stackoverflow.com/users/488443/nofate"
+      }
+    },
+    {
+      "question_id": 44589381,
+      "title": "How to convert JSON string into List of Java object?",
+      "accepted_answer_id": 44589454,
+      "score": 96,
+      "link": "https://stackoverflow.com/questions/44589381/how-to-convert-json-string-into-list-of-java-object",
+      "owner": {
+        "display_name": "Nitesh",
+        "link": "https://stackoverflow.com/users/2767195/nitesh"
+      }
+    },
+    {
+      "question_id": 8108887,
+      "title": "Generics with Spring RESTTemplate",
+      "accepted_answer_id": 21158245,
+      "score": 94,
+      "link": "https://stackoverflow.com/questions/8108887/generics-with-spring-resttemplate",
+      "owner": {
+        "display_name": "kamaci",
+        "link": "https://stackoverflow.com/users/453596/kamaci"
+      }
+    },
+    {
+      "question_id": 45662820,
+      "title": "How to set format of string for java.time.Instant using objectMapper?",
+      "accepted_answer_id": 45674593,
+      "score": 91,
+      "link": "https://stackoverflow.com/questions/45662820/how-to-set-format-of-string-for-java-time-instant-using-objectmapper",
+      "owner": {
+        "display_name": "Uladzislau Kaminski",
+        "link": "https://stackoverflow.com/users/5380897/uladzislau-kaminski"
+      }
+    },
+    {
+      "question_id": 11503604,
+      "title": "how to create insert new nodes in JsonNode?",
+      "accepted_answer_id": 11509576,
+      "score": 91,
+      "link": "https://stackoverflow.com/questions/11503604/how-to-create-insert-new-nodes-in-jsonnode",
+      "owner": {
+        "display_name": "Dexter Cato",
+        "link": "https://stackoverflow.com/users/1355102/dexter-cato"
+      }
+    },
+    {
+      "question_id": 9381665,
+      "title": "How can we configure the internal Jackson mapper when using RestTemplate?",
+      "accepted_answer_id": 9381832,
+      "score": 91,
+      "link": "https://stackoverflow.com/questions/9381665/how-can-we-configure-the-internal-jackson-mapper-when-using-resttemplate",
+      "owner": {
+        "display_name": "Usman Ismail",
+        "link": "https://stackoverflow.com/users/706727/usman-ismail"
+      }
+    },
+    {
+      "question_id": 38424383,
+      "title": "How to distinguish between null and not provided values for partial updates in Spring Rest Controller",
+      "accepted_answer_id": 38428940,
+      "score": 87,
+      "link": "https://stackoverflow.com/questions/38424383/how-to-distinguish-between-null-and-not-provided-values-for-partial-updates-in-s",
+      "owner": {
+        "display_name": "Danilo Cianciulli",
+        "link": "https://stackoverflow.com/users/4146710/danilo-cianciulli"
+      }
+    },
+    {
+      "question_id": 33611199,
+      "title": "Jackson - @JsonTypeInfo property is being mapped as null?",
+      "accepted_answer_id": 33611726,
+      "score": 87,
+      "link": "https://stackoverflow.com/questions/33611199/jackson-jsontypeinfo-property-is-being-mapped-as-null",
+      "owner": {
+        "display_name": "jscherman",
+        "link": "https://stackoverflow.com/users/2601512/jscherman"
+      }
+    },
+    {
+      "question_id": 21987295,
+      "title": "Using Spring RestTemplate in generic method with generic parameter",
+      "accepted_answer_id": 21988799,
+      "score": 87,
+      "link": "https://stackoverflow.com/questions/21987295/using-spring-resttemplate-in-generic-method-with-generic-parameter",
+      "owner": {
+        "display_name": "Artyom Kozhemiakin",
+        "link": "https://stackoverflow.com/users/1563543/artyom-kozhemiakin"
+      }
+    },
+    {
+      "question_id": 19564711,
+      "title": "JSON Jackson parse different keys into same field",
+      "accepted_answer_id": 47591804,
+      "score": 87,
+      "link": "https://stackoverflow.com/questions/19564711/json-jackson-parse-different-keys-into-same-field",
+      "owner": {
+        "display_name": "DArkO",
+        "link": "https://stackoverflow.com/users/448192/darko"
+      }
+    },
+    {
+      "question_id": 26766256,
+      "title": "Convert JsonNode object to Map",
+      "accepted_answer_id": 28167365,
+      "score": 86,
+      "link": "https://stackoverflow.com/questions/26766256/convert-jsonnode-object-to-map",
+      "owner": {
+        "display_name": "visc",
+        "link": "https://stackoverflow.com/users/4102299/visc"
+      }
+    },
+    {
+      "question_id": 18611565,
+      "title": "How do I correctly reuse Jackson ObjectMapper?",
+      "accepted_answer_id": 18615839,
+      "score": 86,
+      "link": "https://stackoverflow.com/questions/18611565/how-do-i-correctly-reuse-jackson-objectmapper",
+      "owner": {
+        "display_name": "nickebbitt",
+        "link": "https://stackoverflow.com/users/2323210/nickebbitt"
+      }
+    },
+    {
+      "question_id": 38705890,
+      "title": "What is the difference between ObjectNode and JsonNode in Jackson?",
+      "accepted_answer_id": 38706226,
+      "score": 84,
+      "link": "https://stackoverflow.com/questions/38705890/what-is-the-difference-between-objectnode-and-jsonnode-in-jackson",
+      "owner": {
+        "display_name": "THIS USER NEEDS HELP",
+        "link": "https://stackoverflow.com/users/3831137/this-user-needs-help"
+      }
+    },
+    {
+      "question_id": 14714328,
+      "title": "Jackson: How to add custom property to the JSON without modifying the POJO",
+      "accepted_answer_id": 14752292,
+      "score": 83,
+      "link": "https://stackoverflow.com/questions/14714328/jackson-how-to-add-custom-property-to-the-json-without-modifying-the-pojo",
+      "owner": {
+        "display_name": "Alex Vayda",
+        "link": "https://stackoverflow.com/users/96766/alex-vayda"
+      }
+    },
+    {
+      "question_id": 25510083,
+      "title": "Cannot deserialize instance of object out of START_ARRAY token in Spring Webservice",
+      "accepted_answer_id": 25512128,
+      "score": 82,
+      "link": "https://stackoverflow.com/questions/25510083/cannot-deserialize-instance-of-object-out-of-start-array-token-in-spring-webserv",
+      "owner": {
+        "display_name": "Daram",
+        "link": "https://stackoverflow.com/users/3597295/daram"
+      }
+    },
+    {
+      "question_id": 27746750,
+      "title": "Exception in thread &quot;main&quot; java.lang.NoSuchMethodError: com.fasterxml.jackson.core.JsonFactory.requiresPropertyOrdering()Z",
+      "accepted_answer_id": 29137413,
+      "score": 79,
+      "link": "https://stackoverflow.com/questions/27746750/exception-in-thread-main-java-lang-nosuchmethoderror-com-fasterxml-jackson-co",
+      "owner": {
+        "display_name": "jbakirov",
+        "link": "https://stackoverflow.com/users/4413101/jbakirov"
+      }
+    },
+    {
+      "question_id": 25693309,
+      "title": "Using Jackson ObjectMapper with Java 8 Optional values",
+      "accepted_answer_id": 27271865,
+      "score": 78,
+      "link": "https://stackoverflow.com/questions/25693309/using-jackson-objectmapper-with-java-8-optional-values",
+      "owner": {
+        "display_name": "asieira",
+        "link": "https://stackoverflow.com/users/2482776/asieira"
+      }
+    },
+    {
+      "question_id": 6371092,
+      "title": "Can not find a (Map) Key deserializer for type [simple type, class ...]",
+      "accepted_answer_id": 6374578,
+      "score": 78,
+      "link": "https://stackoverflow.com/questions/6371092/can-not-find-a-map-key-deserializer-for-type-simple-type-class",
+      "owner": {
+        "display_name": "Mick Knutson",
+        "link": "https://stackoverflow.com/users/318852/mick-knutson"
+      }
+    },
+    {
+      "question_id": 8320993,
+      "title": "Jackson: What happens if a property is missing?",
+      "accepted_answer_id": 9010622,
+      "score": 77,
+      "link": "https://stackoverflow.com/questions/8320993/jackson-what-happens-if-a-property-is-missing",
+      "owner": {
+        "display_name": "Gili",
+        "link": "https://stackoverflow.com/users/14731/gili"
+      }
+    },
+    {
+      "question_id": 5591967,
+      "title": "How to deserialize JS date using Jackson?",
+      "accepted_answer_id": 5598277,
+      "score": 77,
+      "link": "https://stackoverflow.com/questions/5591967/how-to-deserialize-js-date-using-jackson",
+      "owner": {
+        "display_name": "Varun Achar",
+        "link": "https://stackoverflow.com/users/652895/varun-achar"
+      }
+    },
+    {
+      "question_id": 36252556,
+      "title": "Jackson deserialize ISO8601 formatted date-time into Java8 Instant",
+      "accepted_answer_id": 36253614,
+      "score": 76,
+      "link": "https://stackoverflow.com/questions/36252556/jackson-deserialize-iso8601-formatted-date-time-into-java8-instant",
+      "owner": {
+        "display_name": "Krešimir Nesek",
+        "link": "https://stackoverflow.com/users/2092870/kre%c5%a1imir-nesek"
+      }
+    },
+    {
+      "question_id": 40967921,
+      "title": "Create JSON object using Jackson in Java",
+      "accepted_answer_id": 40968542,
+      "score": 74,
+      "link": "https://stackoverflow.com/questions/40967921/create-json-object-using-jackson-in-java",
+      "owner": {
+        "display_name": "Shashank Shekher",
+        "link": "https://stackoverflow.com/users/2752862/shashank-shekher"
+      }
+    },
+    {
+      "question_id": 31319358,
+      "title": "JsonManagedReference vs JsonBackReference",
+      "accepted_answer_id": 31319631,
+      "score": 74,
+      "link": "https://stackoverflow.com/questions/31319358/jsonmanagedreference-vs-jsonbackreference",
+      "owner": {
+        "display_name": "ooozguuur",
+        "link": "https://stackoverflow.com/users/1638718/ooozguuur"
+      }
+    },
+    {
+      "question_id": 47982148,
+      "title": "Usage of Jackson @JsonProperty annotation for kotlin data classes",
+      "accepted_answer_id": 47984845,
+      "score": 73,
+      "link": "https://stackoverflow.com/questions/47982148/usage-of-jackson-jsonproperty-annotation-for-kotlin-data-classes",
+      "owner": {
+        "display_name": "Mike",
+        "link": "https://stackoverflow.com/users/5177660/mike"
+      }
+    },
+    {
+      "question_id": 30205006,
+      "title": "Why does Jackson 2 not recognize the first capital letter if the leading camel case word is only a single letter long?",
+      "accepted_answer_id": 30207335,
+      "score": 73,
+      "link": "https://stackoverflow.com/questions/30205006/why-does-jackson-2-not-recognize-the-first-capital-letter-if-the-leading-camel-c",
+      "owner": {
+        "display_name": "Hazok",
+        "link": "https://stackoverflow.com/users/644035/hazok"
+      }
+    },
+    {
+      "question_id": 17542240,
+      "title": "How to serialize only the ID of a child with Jackson",
+      "accepted_answer_id": 17583175,
+      "score": 73,
+      "link": "https://stackoverflow.com/questions/17542240/how-to-serialize-only-the-id-of-a-child-with-jackson",
+      "owner": {
+        "display_name": "Pete",
+        "link": "https://stackoverflow.com/users/872975/pete"
+      }
+    },
+    {
+      "question_id": 21787128,
+      "title": "How to unit-test Jackson JsonSerializer and JsonDeserializer",
+      "accepted_answer_id": 37001410,
+      "score": 71,
+      "link": "https://stackoverflow.com/questions/21787128/how-to-unit-test-jackson-jsonserializer-and-jsondeserializer",
+      "owner": {
+        "display_name": "gue",
+        "link": "https://stackoverflow.com/users/371661/gue"
+      }
+    },
+    {
+      "question_id": 11319445,
+      "title": "Java to Jackson JSON serialization: Money fields",
+      "accepted_answer_id": 11540939,
+      "score": 71,
+      "link": "https://stackoverflow.com/questions/11319445/java-to-jackson-json-serialization-money-fields",
+      "owner": {
+        "display_name": "ControlAltDel",
+        "link": "https://stackoverflow.com/users/1291492/controlaltdel"
+      }
+    },
+    {
+      "question_id": 14588727,
+      "title": "Can not deserialize instance of java.util.ArrayList out of VALUE_STRING",
+      "accepted_answer_id": 16071898,
+      "score": 70,
+      "link": "https://stackoverflow.com/questions/14588727/can-not-deserialize-instance-of-java-util-arraylist-out-of-value-string",
+      "owner": {
+        "display_name": "Manolo",
+        "link": "https://stackoverflow.com/users/2022175/manolo"
+      }
+    },
+    {
+      "question_id": 14343477,
+      "title": "How do you globally set Jackson to ignore unknown properties within Spring?",
+      "accepted_answer_id": 14343479,
+      "score": 70,
+      "link": "https://stackoverflow.com/questions/14343477/how-do-you-globally-set-jackson-to-ignore-unknown-properties-within-spring",
+      "owner": {
+        "display_name": "jnrcorp",
+        "link": "https://stackoverflow.com/users/1027971/jnrcorp"
+      }
+    },
+    {
+      "question_id": 48330613,
+      "title": "ObjectMapper can&#39;t deserialize without default constructor after upgrade to Spring Boot 2",
+      "accepted_answer_id": 48543627,
+      "score": 69,
+      "link": "https://stackoverflow.com/questions/48330613/objectmapper-cant-deserialize-without-default-constructor-after-upgrade-to-spri",
+      "owner": {
+        "display_name": "solomkinmv",
+        "link": "https://stackoverflow.com/users/4859182/solomkinmv"
+      }
+    },
+    {
+      "question_id": 45447276,
+      "title": "What are @JsonTypeInfo and @JsonSubTypes used for in jackson",
+      "accepted_answer_id": 45447923,
+      "score": 69,
+      "link": "https://stackoverflow.com/questions/45447276/what-are-jsontypeinfo-and-jsonsubtypes-used-for-in-jackson",
+      "owner": {
+        "display_name": "Harshit",
+        "link": "https://stackoverflow.com/users/6046655/harshit"
+      }
+    },
+    {
+      "question_id": 19760138,
+      "title": "Parsing JSON in Java without knowing JSON format",
+      "accepted_answer_id": 19760249,
+      "score": 69,
+      "link": "https://stackoverflow.com/questions/19760138/parsing-json-in-java-without-knowing-json-format",
+      "owner": {
+        "display_name": "whyceewhite",
+        "link": "https://stackoverflow.com/users/2333544/whyceewhite"
+      }
+    },
+    {
+      "question_id": 15303110,
+      "title": "Jackson JSON field mapping capitalization?",
+      "accepted_answer_id": 15303228,
+      "score": 69,
+      "link": "https://stackoverflow.com/questions/15303110/jackson-json-field-mapping-capitalization",
+      "owner": {
+        "display_name": "shaz",
+        "link": "https://stackoverflow.com/users/346624/shaz"
+      }
+    },
+    {
+      "question_id": 11376304,
+      "title": "Right way to write JSON deserializer in Spring or extend it",
+      "accepted_answer_id": 11377362,
+      "score": 69,
+      "link": "https://stackoverflow.com/questions/11376304/right-way-to-write-json-deserializer-in-spring-or-extend-it",
+      "owner": {
+        "display_name": "gc5",
+        "link": "https://stackoverflow.com/users/41977/gc5"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 9381832,
+      "body": "<p>The default <code>RestTemplate</code> constructor registers a set of <code>HttpMessageConverter</code>s:</p>\n<pre><code>this.messageConverters.add(new ByteArrayHttpMessageConverter());\nthis.messageConverters.add(new StringHttpMessageConverter());\nthis.messageConverters.add(new ResourceHttpMessageConverter());\nthis.messageConverters.add(new SourceHttpMessageConverter());\nthis.messageConverters.add(new XmlAwareFormHttpMessageConverter());\nif (jaxb2Present) {\n    this.messageConverters.add(new Jaxb2RootElementHttpMessageConverter());\n}\nif (jacksonPresent) {\n    this.messageConverters.add(new MappingJacksonHttpMessageConverter());\n}\nif (romePresent) {\n    this.messageConverters.add(new AtomFeedHttpMessageConverter());\n    this.messageConverters.add(new RssChannelHttpMessageConverter());\n}\n</code></pre>\n<p>The <code>MappingJacksonHttpMessageConverter</code> in turns, creates <code>ObjectMapper</code> instance directly. You can either find this converter and replace <code>ObjectMapper</code> or register a new one before it. This should work:</p>\n<pre><code>@Bean\npublic RestOperations restOperations() {\n    RestTemplate rest = new RestTemplate();\n    //this is crucial!\n    rest.getMessageConverters().add(0, mappingJacksonHttpMessageConverter());\n    return rest;\n}\n\n@Bean\npublic MappingJacksonHttpMessageConverter mappingJacksonHttpMessageConverter() {\n    MappingJacksonHttpMessageConverter converter = new MappingJacksonHttpMessageConverter();\n    converter.setObjectMapper(myObjectMapper());\n    return converter;\n}\n\n@Bean\npublic ObjectMapper myObjectMapper() {\n    //your custom ObjectMapper here\n}\n</code></pre>\n<p>In XML it is something along these lines:</p>\n<pre><code>&lt;bean id=&quot;restOperations&quot; class=&quot;org.springframework.web.client.RestTemplate&quot;&gt;\n    &lt;property name=&quot;messageConverters&quot;&gt;\n        &lt;util:list&gt;\n            &lt;bean class=&quot;org.springframework.http.converter.ByteArrayHttpMessageConverter&quot;/&gt;\n            &lt;bean class=&quot;org.springframework.http.converter.StringHttpMessageConverter&quot;/&gt;\n            &lt;bean class=&quot;org.springframework.http.converter.ResourceHttpMessageConverter&quot;/&gt;\n            &lt;bean class=&quot;org.springframework.http.converter.xml.SourceHttpMessageConverter&quot;/&gt;\n            &lt;bean class=&quot;org.springframework.http.converter.xml.XmlAwareFormHttpMessageConverter&quot;/&gt;\n            &lt;bean class=&quot;org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter&quot;/&gt;\n            &lt;bean class=&quot;org.springframework.http.converter.json.MappingJacksonHttpMessageConverter&quot;&gt;\n                &lt;property name=&quot;objectMapper&quot; ref=&quot;customObjectMapper&quot;/&gt;\n            &lt;/bean&gt;\n        &lt;/util:list&gt;\n    &lt;/property&gt;\n&lt;/bean&gt;\n\n&lt;bean id=&quot;customObjectMapper&quot; class=&quot;org.codehaus.jackson.map.ObjectMapper&quot;/&gt;\n</code></pre>\n<p>Note that the translation isn't really 1:1 - I have to explicitly create <code>messageConverters</code> list in XML while with <code>@Configuration</code> approach I could reference existing one and simply modify it. But this should work.</p>\n",
+      "owner": {
+        "display_name": "Tomasz Nurkiewicz",
+        "link": "https://stackoverflow.com/users/605744/tomasz-nurkiewicz"
+      }
+    },
+    {
+      "answer_id": 31319631,
+      "body": "<blockquote>\n<p><code>@JsonManagedReference</code> is the forward part of reference – the one that\ngets serialized normally.</p>\n<p><code>@JsonBackReference</code> is the back part of\nreference – it will be omitted from serialization.</p>\n</blockquote>\n<p>So they depend on the direction of your relationship:</p>\n<pre><code>public class User {\n    public int id;\n    public String name;\n \n    @JsonManagedReference\n    public List&lt;Item&gt; userItems; \n} \n\npublic class Item {\n    public int id;\n    public String itemName;\n \n    @JsonBackReference\n    public User owner; \n }\n</code></pre>\n<p>A useful guide for more details: <a href=\"https://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion\" rel=\"nofollow noreferrer\">https://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion</a></p>\n",
+      "owner": {
+        "display_name": "David",
+        "link": "https://stackoverflow.com/users/367141/david"
+      }
+    },
+    {
+      "answer_id": 12046979,
+      "body": "<p>You can implement a custom serializer as follows:</p>\n<pre><code>import com.fasterxml.jackson.databind.JsonSerializer\nimport com.fasterxml.jackson.databind.SerializerProvider\nimport com.fasterxml.jackson.core.JsonGenerator\n\npublic class Person {\n    public String name;\n    public int age;\n    @JsonSerialize(using = IntToStringSerializer.class, as=String.class)\n    public int favoriteNumber:\n}\n\n \npublic class IntToStringSerializer extends JsonSerializer&lt;Integer&gt; {\n  \n    @Override\n    public void serialize(Integer tmpInt, \n                          JsonGenerator jsonGenerator, \n                          SerializerProvider serializerProvider) \n                          throws IOException, JsonProcessingException {\n        jsonGenerator.writeObject(tmpInt.toString());\n    }\n}\n</code></pre>\n<p>Java should handle the autoboxing from <code>int</code> to <code>Integer</code> for you.</p>\n",
+      "owner": {
+        "display_name": "Kevin Bowersox",
+        "link": "https://stackoverflow.com/users/714969/kevin-bowersox"
+      }
+    },
+    {
+      "answer_id": 2525152,
+      "body": "<p><em>[Update Sept 2020] Although my original answer here, from many years ago, seems to be helpful and is still getting upvotes, I now use the GSON library from Google, which I find to be more intuitive.</em></p>\n<p>I've got the following code:</p>\n<pre><code>public void testJackson() throws IOException {  \n    ObjectMapper mapper = new ObjectMapper(); \n    File from = new File(&quot;albumnList.txt&quot;); \n    TypeReference&lt;HashMap&lt;String,Object&gt;&gt; typeRef \n            = new TypeReference&lt;HashMap&lt;String,Object&gt;&gt;() {};\n\n    HashMap&lt;String,Object&gt; o = mapper.readValue(from, typeRef); \n    System.out.println(&quot;Got &quot; + o); \n}   \n</code></pre>\n<p>It's reading from a file, but <code>mapper.readValue()</code> will also accept an <code>InputStream</code> and you can obtain an <code>InputStream</code> from a string by using the following:</p>\n<pre><code>new ByteArrayInputStream(astring.getBytes(&quot;UTF-8&quot;)); \n</code></pre>\n<p>There's a bit more explanation about the mapper on <a href=\"https://djna.wordpress.com/2010/03/12/json-strings-no-rest-using-the-jackson-parser/\" rel=\"noreferrer\">my blog</a>.</p>\n",
+      "owner": {
+        "display_name": "djna",
+        "link": "https://stackoverflow.com/users/82511/djna"
+      }
+    },
+    {
+      "answer_id": 53192674,
+      "body": "<p><strong>Reason:</strong>\nThis error occurs because Jackson Library doesn't know how to create your model which doesn't have an empty constructor and the model contains a constructor with parameters that didn't annotate its parameters with <code>@JsonProperty(&quot;field_name&quot;)</code>. By default Java compiler creates an empty constructor if you didn't add a constructor to your class.</p>\n<p><strong>Solution:</strong>\nAdd an empty constructor to your model or annotate constructor parameters with <code>@JsonProperty(&quot;field_name&quot;)</code></p>\n<p>If you use a Kotlin data class then also can annotate with <code>@JsonProperty(&quot;field_name&quot;)</code> or register <a href=\"https://github.com/FasterXML/jackson-module-kotlin\" rel=\"noreferrer\">jackson module kotlin</a> to <code>ObjectMapper</code>.</p>\n<p>You can create your models using <a href=\"http://www.jsonschema2pojo.org/\" rel=\"noreferrer\">http://www.jsonschema2pojo.org/</a>.</p>\n",
+      "owner": {
+        "display_name": "Bek",
+        "link": "https://stackoverflow.com/users/8942811/bek"
+      }
+    },
+    {
+      "answer_id": 16793133,
+      "body": "<p>Yes, the Jackson manual parser design is quite different from other libraries. In particular, you will notice that <code>JsonNode</code> has most of the functions that you would typically associate with array nodes from other APIs. As such, you do not need to cast to an <code>ArrayNode</code> to use. Here's an example:</p>\n<p><em><strong>JSON:</strong></em></p>\n<pre><code>{\n    &quot;objects&quot; : [&quot;One&quot;, &quot;Two&quot;, &quot;Three&quot;]\n}\n</code></pre>\n<p><em><strong>Code:</strong></em></p>\n<pre><code>final String json = &quot;{\\&quot;objects\\&quot; : [\\&quot;One\\&quot;, \\&quot;Two\\&quot;, \\&quot;Three\\&quot;]}&quot;;\n\nfinal JsonNode arrNode = new ObjectMapper().readTree(json).get(&quot;objects&quot;);\nif (arrNode.isArray()) {\n    for (final JsonNode objNode : arrNode) {\n        System.out.println(objNode);\n    }\n}\n</code></pre>\n<p>Output:</p>\n<blockquote>\n<p>&quot;One&quot;<br>\n&quot;Two&quot;<br>\n&quot;Three&quot;<br></p>\n</blockquote>\n<p>Note the use of <code>isArray</code> to verify that the node is actually an array before iterating. The check is not necessary if you are absolutely confident in your data structure, but it's available should you need it (and this is no different from most other JSON libraries).</p>\n",
+      "owner": {
+        "display_name": "Perception",
+        "link": "https://stackoverflow.com/users/680925/perception"
+      }
+    },
+    {
+      "answer_id": 33611726,
+      "body": "<p>Finally, I've found the solution in the <a href=\"https://fasterxml.github.io/jackson-annotations/javadoc/2.4/com/fasterxml/jackson/annotation/JsonTypeInfo.html\" rel=\"noreferrer\">API Doc</a></p>\n<blockquote>\n<p>Note on visibility of type identifier: by default, deserialization\n(use during reading of JSON) of type identifier is completely handled\nby Jackson, and is not passed to deserializers. However, if so\ndesired, it is possible to define property visible = true in which\ncase property will be passed as-is to deserializers (and set via\nsetter or field) on deserialization.</p>\n</blockquote>\n<p>So the solution was simply adding the '<em>visible</em>' attribute as follows</p>\n<pre><code>@JsonTypeInfo(  \n    use = JsonTypeInfo.Id.NAME,  \n    include = JsonTypeInfo.As.PROPERTY,  \n    property = &quot;exercise_type&quot;,\n    visible = true)  \n@JsonSubTypes({  \n    @Type(value = ExerciseChoiceResponseDTO.class, name = &quot;CHOICE&quot;),  \n    @Type(value = ExerciseQuestionResponseDTO.class, name = &quot;QUESTION&quot;)})  \npublic abstract class ExerciseMixIn  \n{}  \n</code></pre>\n",
+      "owner": {
+        "display_name": "jscherman",
+        "link": "https://stackoverflow.com/users/2601512/jscherman"
+      }
+    },
+    {
+      "answer_id": 30386694,
+      "body": "<p>As promised, I'm putting an example for how to use annotations to serialize/deserialize polymorphic objects, I based this example in the <code>Animal</code> class from the tutorial you were reading.</p>\n<p>First of all your <code>Animal</code> class with the Json Annotations for the subclasses.</p>\n<pre><code>import com.fasterxml.jackson.annotation.JsonIgnoreProperties;\nimport com.fasterxml.jackson.annotation.JsonSubTypes;\nimport com.fasterxml.jackson.annotation.JsonTypeInfo;\n\n@JsonIgnoreProperties(ignoreUnknown = true)\n@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY)\n@JsonSubTypes({\n    @JsonSubTypes.Type(value = Dog.class, name = &quot;Dog&quot;),\n\n    @JsonSubTypes.Type(value = Cat.class, name = &quot;Cat&quot;) }\n)\npublic abstract class Animal {\n\n    private String name;\n\n    public String getName() {\n        return name;\n    }\n\n    public void setName(String name) {\n        this.name = name;\n    }\n    \n}\n</code></pre>\n<p>Then your subclasses, <code>Dog</code> and <code>Cat</code>.</p>\n<pre><code>public class Dog extends Animal {\n\n    private String breed;\n\n    public Dog() {\n\n    }\n\n    public Dog(String name, String breed) {\n        setName(name);\n        setBreed(breed);\n    }\n\n    public String getBreed() {\n        return breed;\n    }\n\n    public void setBreed(String breed) {\n        this.breed = breed;\n    }\n}\n\npublic class Cat extends Animal {\n\n    public String getFavoriteToy() {\n        return favoriteToy;\n    }\n\n    public Cat() {}\n\n    public Cat(String name, String favoriteToy) {\n        setName(name);\n        setFavoriteToy(favoriteToy);\n    }\n\n    public void setFavoriteToy(String favoriteToy) {\n        this.favoriteToy = favoriteToy;\n    }\n\n    private String favoriteToy;\n\n}\n</code></pre>\n<p>As you can see, there is nothing special for <code>Cat</code> and <code>Dog</code>, the only one that know about them is the <code>abstract</code> class <code>Animal</code>, so when deserializing, you'll target to <code>Animal</code> and the <code>ObjectMapper</code> will return the actual instance as you can see in the following test:</p>\n<pre><code>public class Test {\n\n    public static void main(String[] args) {\n\n        ObjectMapper objectMapper = new ObjectMapper();\n\n        Animal myDog = new Dog(&quot;ruffus&quot;,&quot;english shepherd&quot;);\n\n        Animal myCat = new Cat(&quot;goya&quot;, &quot;mice&quot;);\n\n        try {\n            String dogJson = objectMapper.writeValueAsString(myDog);\n\n            System.out.println(dogJson);\n\n            Animal deserializedDog = objectMapper.readValue(dogJson, Animal.class);\n\n            System.out.println(&quot;Deserialized dogJson Class: &quot; + deserializedDog.getClass().getSimpleName());\n\n            String catJson = objectMapper.writeValueAsString(myCat);\n\n            Animal deseriliazedCat = objectMapper.readValue(catJson, Animal.class);\n\n            System.out.println(&quot;Deserialized catJson Class: &quot; + deseriliazedCat.getClass().getSimpleName());\n\n\n\n        } catch (Exception e) {\n            e.printStackTrace();\n        }\n\n    }\n}\n</code></pre>\n<p>Output after running the <code>Test</code> class:</p>\n<p><code>{&quot;@type&quot;:&quot;Dog&quot;,&quot;name&quot;:&quot;ruffus&quot;,&quot;breed&quot;:&quot;english shepherd&quot;}</code></p>\n<p><code>Deserialized dogJson Class: Dog</code></p>\n<p><code>{&quot;@type&quot;:&quot;Cat&quot;,&quot;name&quot;:&quot;goya&quot;,&quot;favoriteToy&quot;:&quot;mice&quot;}</code></p>\n<p><code>Deserialized catJson Class: Cat</code></p>\n",
+      "owner": {
+        "display_name": "jbarrueta",
+        "link": "https://stackoverflow.com/users/2579786/jbarrueta"
+      }
+    },
+    {
+      "answer_id": 20838816,
+      "body": "<p>The problem is the JSON - this cannot, by default, be deserialized into a <code>Collection</code> because it's not actually a JSON Array - that would look like this:</p>\n<pre><code>[\n    {\n        &quot;name&quot;: &quot;Test order1&quot;,\n        &quot;detail&quot;: &quot;ahk ks&quot;\n    },\n    {\n        &quot;name&quot;: &quot;Test order2&quot;,\n        &quot;detail&quot;: &quot;Fisteku&quot;\n    }\n]\n</code></pre>\n<p>Since you're not controlling the exact process of deserialization (RestEasy does) - <strong>a first option</strong> would be to simply inject the JSON as a <code>String</code> and then take control of the deserialization process:</p>\n<pre><code>Collection&lt;COrder&gt; readValues = new ObjectMapper().readValue(\n    jsonAsString, new TypeReference&lt;Collection&lt;COrder&gt;&gt;() { }\n);\n</code></pre>\n<p>You would loose a bit of the convenience of not having to do that yourself, but you would easily sort out the problem.</p>\n<p><strong>Another option</strong> - if you cannot change the JSON - would be to construct a wrapper to fit the structure of your JSON input - and use that instead of <code>Collection&lt;COrder&gt;</code>.</p>\n",
+      "owner": {
+        "display_name": "Eugen",
+        "link": "https://stackoverflow.com/users/370481/eugen"
+      }
+    },
+    {
+      "answer_id": 11761975,
+      "body": "<p>To suppress serializing properties with null values using Jackson &gt;2.0, you can <a href=\"http://fasterxml.github.io/jackson-annotations/javadoc/2.6/com/fasterxml/jackson/annotation/JsonInclude.Include.html\" rel=\"noreferrer\">configure the <code>ObjectMapper</code> directly</a>, or make use of the <a href=\"http://fasterxml.github.io/jackson-annotations/javadoc/2.6/com/fasterxml/jackson/annotation/JsonInclude.html\" rel=\"noreferrer\"><code>@JsonInclude</code></a> annotation:</p>\n<pre><code>mapper.setSerializationInclusion(Include.NON_NULL);\n</code></pre>\n<p>or:</p>\n<pre><code>@JsonInclude(Include.NON_NULL)\nclass Foo\n{\n  String bar;\n}\n</code></pre>\n<p>Alternatively, you could use <code>@JsonInclude</code> in a getter so that the attribute would be shown if the value is not null.</p>\n<p>A more complete example is available in <a href=\"https://stackoverflow.com/questions/11449211/how-to-prevent-null-values-inside-a-map-and-null-fields-inside-a-bean-from-getti/11464975#11464975\">my answer</a> to <a href=\"https://stackoverflow.com/questions/11449211/\">How to prevent null values inside a Map and null fields inside a bean from getting serialized through Jackson</a>.</p>\n",
+      "owner": {
+        "display_name": "Programmer Bruce",
+        "link": "https://stackoverflow.com/users/750987/programmer-bruce"
+      }
+    },
+    {
+      "answer_id": 12505165,
+      "body": "<p>Exactly how to do this depends on the version of Jackson that you're using. This changed around version <em>1.9</em>, before that, you could do this by adding <code>@JsonIgnore</code> to the getter.</p>\n<p>Which you've tried:</p>\n<blockquote>\n<p>Add @JsonIgnore on the getter method only</p>\n</blockquote>\n<p>Do this, <em>and also</em> add a specific <code>@JsonProperty</code> annotation for your JSON &quot;password&quot; field name to the setter method for the password on your object.</p>\n<p>More recent versions of Jackson have added <code>READ_ONLY</code> and <code>WRITE_ONLY</code> annotation arguments for <code>JsonProperty</code>. So you could also do something like:</p>\n<pre><code>@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)\nprivate String password;\n</code></pre>\n<p>Docs can be found <a href=\"http://fasterxml.github.io/jackson-annotations/javadoc/2.6/com/fasterxml/jackson/annotation/JsonProperty.Access.html\" rel=\"noreferrer\">here</a>.</p>\n",
+      "owner": {
+        "display_name": "pb2q",
+        "link": "https://stackoverflow.com/users/275567/pb2q"
+      }
+    },
+    {
+      "answer_id": 15786175,
+      "body": "<p>To convert your <code>object</code> in JSON with Jackson:</p>\n<pre><code>import com.fasterxml.jackson.databind.ObjectMapper; \nimport com.fasterxml.jackson.databind.ObjectWriter; \n\nObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();\nString json = ow.writeValueAsString(object);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jean Logeart",
+        "link": "https://stackoverflow.com/users/749588/jean-logeart"
+      }
+    },
+    {
+      "answer_id": 28324976,
+      "body": "<p>You can configure property inclusion, and numerous other settings, via <code>application.properties</code>:</p>\n<pre class=\"lang-properties prettyprint-override\"><code>spring.jackson.default-property-inclusion=non_null\n</code></pre>\n<p>There's a table in <a href=\"https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto-customize-the-jackson-objectmapper\" rel=\"noreferrer\">the documentation</a> that lists all of the properties that can be used.</p>\n<p>If you want more control, you can also customize Spring Boot's configuration programatically using a <code>Jackson2ObjectMapperBuilderCustomizer</code> bean, as described in the <a href=\"https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto-customize-the-jackson-objectmapper\" rel=\"noreferrer\">documentation</a>:</p>\n<blockquote>\n<p>The context’s <code>Jackson2ObjectMapperBuilder</code> can be customized by one or more <code>Jackson2ObjectMapperBuilderCustomizer</code> beans. Such customizer beans can be ordered (Boot’s own customizer has an order of 0), letting additional customization be applied both before and after Boot’s customization.</p>\n</blockquote>\n<p>Lastly, if you don't want any of Boot's configuration and want to take complete control over how the <code>ObjectMapper</code> is configured, declare your own <code>Jackson2ObjectMapperBuilder</code> bean:</p>\n<pre class=\"lang-java prettyprint-override\"><code>@Bean\nJackson2ObjectMapperBuilder objectMapperBuilder() {\n    Jackson2ObjectMapperBuilder builder = new Jackson2ObjectMapperBuilder();\n    // Configure the builder to suit your needs\n    return builder;\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Andy Wilkinson",
+        "link": "https://stackoverflow.com/users/1384297/andy-wilkinson"
+      }
+    },
+    {
+      "answer_id": 32202201,
+      "body": "<p>As already mentioned, <a href=\"https://github.com/FasterXML/jackson-datatype-jsr310\" rel=\"noreferrer\">Jackson-Datatype-JSR310</a> provides support for Java 8 Time.</p>\n<p>Since Jackson 2.6.0 the &quot;old&quot; JSR310Module is deprecated. It is replaced by JavaTimeModule. Maven dependency is the same (you can find the current version in <a href=\"https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr310\" rel=\"noreferrer\">Maven Central</a>):</p>\n<pre><code>&lt;dependency&gt;\n    &lt;groupId&gt;com.fasterxml.jackson.datatype&lt;/groupId&gt;\n    &lt;artifactId&gt;jackson-datatype-jsr310&lt;/artifactId&gt;\n    &lt;version&gt;2.6.0&lt;/version&gt;\n&lt;/dependency&gt;\n</code></pre>\n<p>You have to register the module like this:</p>\n<pre><code>ObjectMapper mapper = new ObjectMapper();\nmapper.registerModule(new JavaTimeModule());\n</code></pre>\n<p>Or like this:</p>\n<pre><code>ObjectMapper mapper = new ObjectMapper(); \nmapper.findAndRegisterModules();\n</code></pre>\n<p>Or like this (since 2.10 possible):</p>\n<pre><code>ObjectMapper mapper = JsonMapper.builder()\n        .findAndAddModules()\n        .build();\n</code></pre>\n<blockquote>\n<p>Note that as of 2.6, this module does NOT support auto-registration, because of existence of legacy version, JSR310Module. Legacy version has the same functionality, but slightly different default configuration: see com.fasterxml.jackson.datatype.jsr310.<a href=\"https://github.com/FasterXML/jackson-datatype-jsr310/blob/master/src/main/java/com/fasterxml/jackson/datatype/jsr310/JSR310Module.java\" rel=\"noreferrer\">JSR310Module</a> for details.</p>\n</blockquote>\n<p><a href=\"https://github.com/FasterXML/jackson-datatype-jsr310/blob/master/src/main/java/com/fasterxml/jackson/datatype/jsr310/JavaTimeModule.java\" rel=\"noreferrer\">JavaTimeModule Source at GitHub</a></p>\n<p><a href=\"https://github.com/FasterXML/jackson-modules-java8/tree/master/datetime#usage\" rel=\"noreferrer\">JavaTimeModule Usage</a></p>\n",
+      "owner": {
+        "display_name": "PhilippS",
+        "link": "https://stackoverflow.com/users/3393289/philipps"
+      }
+    },
+    {
+      "answer_id": 27577739,
+      "body": "<p>From the <a href=\"https://www.javadoc.io/doc/com.fasterxml.jackson.core/jackson-annotations/latest/com/fasterxml/jackson/annotation/JsonPropertyOrder.html\" rel=\"noreferrer\">Jackson Annotations documentation</a>:</p>\n<pre><code>// ensure that &quot;id&quot; and &quot;name&quot; are output before other properties\n@JsonPropertyOrder({ &quot;id&quot;, &quot;name&quot; })\n\n// order any properties that don't have explicit setting using alphabetic order\n@JsonPropertyOrder(alphabetic=true)\n</code></pre>\n",
+      "owner": {
+        "display_name": "wgitscht",
+        "link": "https://stackoverflow.com/users/4347478/wgitscht"
+      }
+    },
+    {
+      "answer_id": 38706226,
+      "body": "<p><code>JsonNode</code> is a base class that <code>ObjectNode</code> and <code>ArrayNode</code> extend. <code>JsonNode</code> represents any valid Json structure whereas <code>ObjectNode</code> and <code>ArrayNode</code> are particular implementations for objects (aka maps) and arrays, respectively.</p>\n<p><code>ArrayNode</code> has specific methods for dealing with arrays such as <code>get(index i)</code> E.g. you cannot get an item at a specific index in a <code>JsonNode</code> or <code>ObjectNode</code> but you can in an <code>ArrayNode</code>.</p>\n",
+      "owner": {
+        "display_name": "bhspencer",
+        "link": "https://stackoverflow.com/users/2556520/bhspencer"
+      }
+    },
+    {
+      "answer_id": 40968542,
+      "body": "<p>Try this:</p>\n<pre><code>ObjectMapper mapper = new ObjectMapper();\nObjectNode rootNode = mapper.createObjectNode();\n\nObjectNode childNode1 = mapper.createObjectNode();\nchildNode1.put(&quot;name1&quot;, &quot;val1&quot;);\nchildNode1.put(&quot;name2&quot;, &quot;val2&quot;);\n\nrootNode.set(&quot;obj1&quot;, childNode1);\n\nObjectNode childNode2 = mapper.createObjectNode();\nchildNode2.put(&quot;name3&quot;, &quot;val3&quot;);\nchildNode2.put(&quot;name4&quot;, &quot;val4&quot;);\n\nrootNode.set(&quot;obj2&quot;, childNode2);\n\nObjectNode childNode3 = mapper.createObjectNode();\nchildNode3.put(&quot;name5&quot;, &quot;val5&quot;);\nchildNode3.put(&quot;name6&quot;, &quot;val6&quot;);\n    \nrootNode.set(&quot;obj3&quot;, childNode3);\n\n\nString jsonString = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(rootNode);\nSystem.out.println(jsonString);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sachin Gupta",
+        "link": "https://stackoverflow.com/users/4702544/sachin-gupta"
+      }
+    },
+    {
+      "answer_id": 3329629,
+      "body": "<p>You may use <code>@JsonIgnore</code> to break the cycle (<a href=\"https://github.com/FasterXML/jackson-annotations#annotations-for-ignoring-properties\" rel=\"noreferrer\">reference</a>).</p>\n<p>You need to import <code>org.codehaus.jackson.annotate.JsonIgnore</code> (legacy versions) or <code>com.fasterxml.jackson.annotation.JsonIgnore</code> (current versions).</p>\n",
+      "owner": {
+        "display_name": "axtavt",
+        "link": "https://stackoverflow.com/users/103154/axtavt"
+      }
+    },
+    {
+      "answer_id": 44217670,
+      "body": "<h2>Jackson 2.9</h2>\n<p>This is now very simple, using <code>jackson-databind</code> 2.9.0 and above</p>\n<pre><code>ObjectMapper objectMapper = new ObjectMapper();\nobjectMapper.enable(MapperFeature.ACCEPT_CASE_INSENSITIVE_ENUMS);\n\n// objectMapper now deserializes enums in a case-insensitive manner\n</code></pre>\n<hr />\n<p><em>Full example with tests</em></p>\n<pre><code>import com.fasterxml.jackson.databind.MapperFeature;\nimport com.fasterxml.jackson.databind.ObjectMapper;\n\npublic class Main {\n\n  private enum TestEnum { ONE }\n  private static class TestObject { public TestEnum testEnum; }\n\n  public static void main (String[] args) {\n    ObjectMapper objectMapper = new ObjectMapper();\n    objectMapper.enable(MapperFeature.ACCEPT_CASE_INSENSITIVE_ENUMS);\n\n    try {\n      TestObject uppercase = \n        objectMapper.readValue(&quot;{ \\&quot;testEnum\\&quot;: \\&quot;ONE\\&quot; }&quot;, TestObject.class);\n      TestObject lowercase = \n        objectMapper.readValue(&quot;{ \\&quot;testEnum\\&quot;: \\&quot;one\\&quot; }&quot;, TestObject.class);\n      TestObject mixedcase = \n        objectMapper.readValue(&quot;{ \\&quot;testEnum\\&quot;: \\&quot;oNe\\&quot; }&quot;, TestObject.class);\n\n      if (uppercase.testEnum != TestEnum.ONE) throw new Exception(&quot;cannot deserialize uppercase value&quot;);\n      if (lowercase.testEnum != TestEnum.ONE) throw new Exception(&quot;cannot deserialize lowercase value&quot;);\n      if (mixedcase.testEnum != TestEnum.ONE) throw new Exception(&quot;cannot deserialize mixedcase value&quot;);\n\n      System.out.println(&quot;Success: all deserializations worked&quot;);\n    } catch (Exception e) {\n      e.printStackTrace();\n    }\n  }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "davnicwil",
+        "link": "https://stackoverflow.com/users/1082449/davnicwil"
+      }
+    },
+    {
+      "answer_id": 30207335,
+      "body": "<p>The problem you are seeing is due to the fact that Jackson uses Java Bean naming conventions to figure out the the Json properties in a Java class.</p>\n<p>Here is a <a href=\"http://futuretask.blogspot.com/2005/01/java-tip-6-dont-capitalize-first-two.html\" rel=\"noreferrer\">reference</a> of the specific problem you see, the recommendation is not to capitalize either of the first two letters in your field. If you use an IDE like IntelliJ or eclipse and let the IDE generate the setters for you, you will notice the same &quot;behavior&quot; occurs, you will end up with the following methods:</p>\n<pre><code>public void setaLogId(String aLogId) {\n    this.aLogId = aLogId;\n}\n\npublic String getaLogId() {\n    return aLogId;\n}\n</code></pre>\n<p>Hence, when you change the &quot;L&quot; to lower case Jackson was able to figure it out the field you wanted to map.</p>\n<p>Having said the above, you still have the alternative to use the &quot;aLogId&quot; field name and make Jackson work all you have to do is use the <code>@JsonProperty</code> annotation with the <code>aLogId</code> in it.</p>\n<pre><code>@JsonProperty(&quot;aLogId&quot;)\nprivate String aLogId;\n</code></pre>\n<p>The following test code is to show how this will work:</p>\n<pre><code>import com.fasterxml.jackson.annotation.JsonProperty;\nimport com.fasterxml.jackson.databind.ObjectMapper;\n\npublic class Test {\n\n    @JsonProperty(&quot;aLogId&quot;)\n    private String aLogId;\n\n    public void setaLogId(String aLogId) {\n        this.aLogId = aLogId;\n    }\n\n    public String getaLogId() {\n        return aLogId;\n    }\n\n    public static void main(String[] args) {\n\n        ObjectMapper objectMapper = new ObjectMapper();\n\n        Test test = new Test();\n\n        test.setaLogId(&quot;anId&quot;);\n\n        try {\n            System.out.println(&quot;Serialization test: &quot; + objectMapper.writeValueAsString(test));\n\n\n            String json = &quot;{\\&quot;aLogId\\&quot;:\\&quot;anotherId\\&quot;}&quot;;\n\n            Test anotherTest = objectMapper.readValue(json, Test.class);\n\n            System.out.println(&quot;Deserialization test: &quot; +anotherTest.getaLogId());\n\n        } catch (Exception e) {\n            e.printStackTrace();\n        }\n\n    }\n}\n</code></pre>\n<p>The output of the test is:</p>\n<p><code>Serialization test: {&quot;aLogId&quot;:&quot;anId&quot;}</code></p>\n<p><code>Deserialization test: anotherId</code></p>\n",
+      "owner": {
+        "display_name": "jbarrueta",
+        "link": "https://stackoverflow.com/users/2579786/jbarrueta"
+      }
+    },
+    {
+      "answer_id": 37842512,
+      "body": "<p>The problem was that one of the nested objects in <code>Foo</code> didn't have any <code>getter/setter</code></p>\n",
+      "owner": {
+        "display_name": "Marc",
+        "link": "https://stackoverflow.com/users/912495/marc"
+      }
+    },
+    {
+      "answer_id": 36253614,
+      "body": "<p>You need to set the explicit time zone via <code>XXX</code> in your modell  class:</p>\n\n<pre><code>@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = \"yyyy-MM-dd'T'HH:mm:ss.SSSXXX\")\n</code></pre>\n\n<p>(see: <a href=\"https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html\" rel=\"noreferrer\">https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html</a>)</p>\n",
+      "owner": {
+        "display_name": "Meiko Rachimow",
+        "link": "https://stackoverflow.com/users/1677033/meiko-rachimow"
+      }
+    },
+    {
+      "answer_id": 16089705,
+      "body": "<p>You have the annotation in the wrong place - it needs to be on the class, not the field. i.e: </p>\n\n<pre><code>@JsonInclude(Include.NON_NULL) //or Include.NON_EMPTY, if that fits your use case \npublic static class Request {\n  // ...\n}\n</code></pre>\n\n<p>As noted in comments, in versions below 2.x the syntax for this annotation is: </p>\n\n<pre><code>@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL) // or JsonSerialize.Inclusion.NON_EMPTY\n</code></pre>\n\n<p>The other option is to configure the <code>ObjectMapper</code> directly, simply by calling \n<code>mapper.setSerializationInclusion(Include.NON_NULL);</code></p>\n\n<p>(for the record, I think the popularity of this answer is an indication that this annotation <em>should</em> be applicable on a field-by-field basis, @fasterxml)</p>\n",
+      "owner": {
+        "display_name": "drew moore",
+        "link": "https://stackoverflow.com/users/1988693/drew-moore"
+      }
+    },
+    {
+      "answer_id": 28803634,
+      "body": "<p>I was never able to get this to work simple using annotations. To get it to work, I created a <a href=\"http://docs.oracle.com/javaee/7/api/javax/ws/rs/ext/ContextResolver.html\" rel=\"noreferrer\"><code>ContextResolver</code></a> for <code>ObjectMapper</code>, then I added the <code>JSR310Module</code> (<strong>update: now it is <code>JavaTimeModule</code> instead</strong>), along with one more caveat, which was the need to set write-date-as-timestamp to false.  See more at <a href=\"https://github.com/FasterXML/jackson-datatype-jsr310\" rel=\"noreferrer\">the documentation for the JSR310 module</a>. Here's an example of what I used.</p>\n\n<p>Dependency</p>\n\n<pre><code>&lt;dependency&gt;\n    &lt;groupId&gt;com.fasterxml.jackson.datatype&lt;/groupId&gt;\n    &lt;artifactId&gt;jackson-datatype-jsr310&lt;/artifactId&gt;\n    &lt;version&gt;2.4.0&lt;/version&gt;\n&lt;/dependency&gt;\n</code></pre>\n\n<p><sup><strong>Note:</strong> One problem I faced with this is that the <code>jackson-annotation</code> version pulled in by another dependency, used version 2.3.2, which cancelled out the 2.4 required by the <code>jsr310</code>. What happened was I got a NoClassDefFound for <code>ObjectIdResolver</code>, which is a 2.4 class. So I just needed to line up the included dependency versions</sup></p>\n\n<p>ContextResolver</p>\n\n<pre><code>import com.fasterxml.jackson.databind.ObjectMapper;\nimport com.fasterxml.jackson.databind.SerializationFeature;\nimport com.fasterxml.jackson.datatype.jsr310.JSR310Module;\nimport javax.ws.rs.ext.ContextResolver;\nimport javax.ws.rs.ext.Provider;\n\n@Provider\npublic class ObjectMapperContextResolver implements ContextResolver&lt;ObjectMapper&gt; {  \n    private final ObjectMapper MAPPER;\n\n    public ObjectMapperContextResolver() {\n        MAPPER = new ObjectMapper();\n        // Now you should use JavaTimeModule instead\n        MAPPER.registerModule(new JSR310Module());\n        MAPPER.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);\n    }\n\n    @Override\n    public ObjectMapper getContext(Class&lt;?&gt; type) {\n        return MAPPER;\n    }  \n}\n</code></pre>\n\n<p>Resource class</p>\n\n<pre><code>@Path(\"person\")\npublic class LocalDateResource {\n\n    @GET\n    @Produces(MediaType.APPLICATION_JSON)\n    public Response getPerson() {\n        Person person = new Person();\n        person.birthDate = LocalDate.now();\n        return Response.ok(person).build();\n    }\n\n    @POST\n    @Consumes(MediaType.APPLICATION_JSON)\n    public Response createPerson(Person person) {\n        return Response.ok(\n                DateTimeFormatter.ISO_DATE.format(person.birthDate)).build();\n    }\n\n    public static class Person {\n        public LocalDate birthDate;\n    }\n}\n</code></pre>\n\n<p>Test</p>\n\n<blockquote>\n  <p><code>curl -v http://localhost:8080/api/person</code><br/>\n  <strong>Result:</strong> <code>{\"birthDate\":\"2015-03-01\"}</code></p>\n  \n  <p><code>curl -v -POST -H \"Content-Type:application/json\" -d \"{\\\"birthDate\\\":\\\"2015-03-01\\\"}\" http://localhost:8080/api/person</code><br/>\n  <strong>Result:</strong> <code>2015-03-01</code></p>\n</blockquote>\n\n<hr>\n\n<p>See also <a href=\"https://stackoverflow.com/a/27772267/2587435\"><strong>here</strong></a> for JAXB solution.</p>\n\n<h3>UPDATE</h3>\n\n<p>The <code>JSR310Module</code> is deprecated as of version 2.7 of Jackson. Instead, you should register the module <code>JavaTimeModule</code>. It is still the same dependency.</p>\n",
+      "owner": {
+        "display_name": "Paul Samsotha",
+        "link": "https://stackoverflow.com/users/2587435/paul-samsotha"
+      }
+    },
+    {
+      "answer_id": 16071898,
+      "body": "<p>This is the solution for my old question:</p>\n\n<p>I implemented my own <code>ContextResolver</code> in order to enable the <code>DeserializationConfig.Feature.ACCEPT_SINGLE_VALUE_AS_ARRAY</code> feature.</p>\n\n<pre><code>package org.lig.hadas.services.mapper;\n\nimport javax.ws.rs.Produces;\nimport javax.ws.rs.core.MediaType;\nimport javax.ws.rs.ext.ContextResolver;\nimport javax.ws.rs.ext.Provider;\n\nimport org.codehaus.jackson.map.DeserializationConfig;\nimport org.codehaus.jackson.map.ObjectMapper;\n\n@Produces(MediaType.APPLICATION_JSON)\n@Provider\npublic class ObjectMapperProvider implements ContextResolver&lt;ObjectMapper&gt;\n{\n   ObjectMapper mapper;\n\n   public ObjectMapperProvider(){\n       mapper = new ObjectMapper();\n       mapper.configure(DeserializationConfig.Feature.ACCEPT_SINGLE_VALUE_AS_ARRAY, true);\n   }\n   @Override\n   public ObjectMapper getContext(Class&lt;?&gt; type) {\n       return mapper;\n   }\n}\n</code></pre>\n\n<p>And in the <code>web.xml</code> I registered my package into the servlet definition...</p>\n\n<pre><code>&lt;servlet&gt;\n    &lt;servlet-name&gt;...&lt;/servlet-name&gt;\n    &lt;servlet-class&gt;com.sun.jersey.spi.container.servlet.ServletContainer&lt;/servlet-class&gt;\n    &lt;init-param&gt;\n        &lt;param-name&gt;com.sun.jersey.config.property.packages&lt;/param-name&gt;\n        &lt;param-value&gt;...;org.lig.hadas.services.mapper&lt;/param-value&gt;        \n    &lt;/init-param&gt;\n    ...\n&lt;/servlet&gt;\n</code></pre>\n\n<p>... all the rest is transparently done by jersey/jackson.</p>\n",
+      "owner": {
+        "display_name": "Manolo",
+        "link": "https://stackoverflow.com/users/2022175/manolo"
+      }
+    },
+    {
+      "answer_id": 15303228,
+      "body": "<p>Since your setter method is named <code>setMDReqID(…)</code> Jackson assumes the variable is named <code>mDReqID</code> because of the Java <em>naming conventions</em> (variables should start with lower case letters).</p>\n\n<p>If you really want a capital letter use the <a href=\"http://fasterxml.github.com/jackson-annotations/javadoc/2.1.0/com/fasterxml/jackson/annotation/JsonProperty.html\" rel=\"noreferrer\"><em>@JsonProperty</em></a> annotation on the <em>setter</em> (or - for serialization - on the <em>getter</em>) like this: </p>\n\n<pre><code>@JsonProperty(\"MDReqID\")\npublic void setMDReqID(String MDReqID) {\n    this.MDReqID = MDReqID;\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "nutlike",
+        "link": "https://stackoverflow.com/users/2021412/nutlike"
+      }
+    },
+    {
+      "answer_id": 7108530,
+      "body": "<p>You can configure individual ObjectMappers like this:</p>\n\n<pre><code>ObjectMapper mapper  = new ObjectMapper();\nmapper.setVisibility(mapper.getSerializationConfig().getDefaultVisibilityChecker()\n                .withFieldVisibility(JsonAutoDetect.Visibility.ANY)\n                .withGetterVisibility(JsonAutoDetect.Visibility.NONE)\n                .withSetterVisibility(JsonAutoDetect.Visibility.NONE)\n                .withCreatorVisibility(JsonAutoDetect.Visibility.NONE));\n</code></pre>\n\n<p>If you want it set globally, I usually access a configured mapper through a wrapper class.</p>\n",
+      "owner": {
+        "display_name": "Tim Helmstedt",
+        "link": "https://stackoverflow.com/users/264043/tim-helmstedt"
+      }
+    },
+    {
+      "answer_id": 28167365,
+      "body": "<p>Got here trying to find the answer myself. Dug a little deeper and found a bit the answer <a href=\"https://stackoverflow.com/questions/11828368/convert-java-object-to-jsonnode-in-jackson\">here</a></p>\n\n<p>Basically just use the <code>ObjectMapper</code> to convert the value for you:</p>\n\n<pre><code>ObjectMapper mapper = new ObjectMapper();\nMap&lt;String, Object&gt; result = mapper.convertValue(jsonNode, new TypeReference&lt;Map&lt;String, Object&gt;&gt;(){});\n</code></pre>\n",
+      "owner": {
+        "display_name": "mhogerheijde",
+        "link": "https://stackoverflow.com/users/1208786/mhogerheijde"
+      }
+    },
+    {
+      "answer_id": 48543627,
+      "body": "<p>Due to breaking changes in Lombok version 1.16.20 you need to set the following property in your <code>lombok.config</code> file (if you don't have this file you can create it in your project root):</p>\n\n<pre><code>lombok.anyConstructor.addConstructorProperties=true\n</code></pre>\n\n<p>This is described in the Lombok changelog: <a href=\"https://projectlombok.org/changelog\" rel=\"noreferrer\">https://projectlombok.org/changelog</a>.</p>\n\n<p>After that the @Value should be accepted again by Jackson.</p>\n\n<p>You may be interested in following the related GitHub issue here, although it's about <code>@Data</code>: <a href=\"https://github.com/rzwitserloot/lombok/issues/1563\" rel=\"noreferrer\">https://github.com/rzwitserloot/lombok/issues/1563</a></p>\n",
+      "owner": {
+        "display_name": "Tobias",
+        "link": "https://stackoverflow.com/users/634265/tobias"
+      }
+    },
+    {
+      "answer_id": 47984845,
+      "body": "<p><code>@JsonProperty</code> annotations in your code are all put on private fields within your data class and by default Jackson doesn't scan private fields for annotations. You have to instruct it to do otherwise by putting <code>@JsonAutoDetect</code> annotation:</p>\n\n<pre><code>@JsonAutoDetect(fieldVisibility = Visibility.ANY)\ndata class CurrencyInfo(\n    @JsonProperty(\"currency_info\") var currencyInfo: CurrencyInfoItem?\n)\n</code></pre>\n\n<p>or alternatively you can move your annotations on accessor methods:</p>\n\n<pre><code>data class CurrencyInfo(\n    @get:JsonProperty(\"currency_info\") var currencyInfo: CurrencyInfoItem?\n)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alex",
+        "link": "https://stackoverflow.com/users/1439771/alex"
+      }
+    },
+    {
+      "answer_id": 44589454,
+      "body": "<p>You are asking Jackson to parse a <code>StudentList</code>. Tell it to parse a <code>List</code> (of students) instead. Since <code>List</code> is generic you will typically use a <a href=\"https://fasterxml.github.io/jackson-core/javadoc/2.9/com/fasterxml/jackson/core/type/TypeReference.html\" rel=\"noreferrer\">TypeReference</a></p>\n\n<pre><code>List&lt;Student&gt; participantJsonList = mapper.readValue(jsonString, new TypeReference&lt;List&lt;Student&gt;&gt;(){});\n</code></pre>\n",
+      "owner": {
+        "display_name": "Manos Nikolaidis",
+        "link": "https://stackoverflow.com/users/1413133/manos-nikolaidis"
+      }
+    },
+    {
+      "answer_id": 20421494,
+      "body": "<p>The serializer / deserializer solution pointed out by <a href=\"https://stackoverflow.com/a/13368831/814702\"><em>@xbakesx</em></a> is an excellent one if you wish to completely decouple your <em>enum</em> class from its JSON representation.</p>\n\n<p>Alternatively, if you prefer a self-contained solution, an implementation based on <code>@JsonCreator</code> and <code>@JsonValue</code> annotations would be more convenient.</p>\n\n<p>So leveraging on the example by <a href=\"https://stackoverflow.com/a/17420756/814702\"><em>@Stanley</em></a> the following is a complete self-contained solution (Java 6, Jackson 1.9):</p>\n\n<pre><code>public enum DeviceScheduleFormat {\n\n    Weekday,\n    EvenOdd,\n    Interval;\n\n    private static Map&lt;String, DeviceScheduleFormat&gt; namesMap = new HashMap&lt;String, DeviceScheduleFormat&gt;(3);\n\n    static {\n        namesMap.put(\"weekday\", Weekday);\n        namesMap.put(\"even-odd\", EvenOdd);\n        namesMap.put(\"interval\", Interval);\n    }\n\n    @JsonCreator\n    public static DeviceScheduleFormat forValue(String value) {\n        return namesMap.get(StringUtils.lowerCase(value));\n    }\n\n    @JsonValue\n    public String toValue() {\n        for (Entry&lt;String, DeviceScheduleFormat&gt; entry : namesMap.entrySet()) {\n            if (entry.getValue() == this)\n                return entry.getKey();\n        }\n\n        return null; // or fail\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Agust&#237; S&#225;nchez",
+        "link": "https://stackoverflow.com/users/791694/agust%c3%ad-s%c3%a1nchez"
+      }
+    },
+    {
+      "answer_id": 12463731,
+      "body": "<blockquote>\n  <p>What is the formatting I need to use to carry out conversion with Jackson? Is Date a good field type for this?</p>\n</blockquote>\n\n<p><code>Date</code> is a fine field type for this. You can make the JSON parse-able pretty easily by using <code>ObjectMapper.setDateFormat</code>:</p>\n\n<pre><code>DateFormat df = new SimpleDateFormat(\"yyyy-MM-dd HH:mm a z\");\nmyObjectMapper.setDateFormat(df);\n</code></pre>\n\n<blockquote>\n  <p>In general, is there a way to process the variables before they get mapped to Object members by Jackson? Something like, changing the format, calculations, etc.</p>\n</blockquote>\n\n<p>Yes. You have a few options, including implementing a custom <code>JsonDeserializer</code>, e.g. extending <code>JsonDeserializer&lt;Date&gt;</code>. <a href=\"https://github.com/FasterXML/jackson-docs/wiki/JacksonHowToCustomSerializers\" rel=\"noreferrer\">This</a> is a good start.</p>\n",
+      "owner": {
+        "display_name": "pb2q",
+        "link": "https://stackoverflow.com/users/275567/pb2q"
+      }
+    },
+    {
+      "answer_id": 9829502,
+      "body": "<p>You can deserialize directly to a list by using the <code>TypeReference</code> wrapper. An example method:</p>\n\n<pre><code>public static &lt;T&gt; T fromJSON(final TypeReference&lt;T&gt; type,\n      final String jsonPacket) {\n   T data = null;\n\n   try {\n      data = new ObjectMapper().readValue(jsonPacket, type);\n   } catch (Exception e) {\n      // Handle the problem\n   }\n   return data;\n}\n</code></pre>\n\n<p>And is used thus:</p>\n\n<pre><code>final String json = \"\";\nSet&lt;POJO&gt; properties = fromJSON(new TypeReference&lt;Set&lt;POJO&gt;&gt;() {}, json);\n</code></pre>\n\n<p><a href=\"https://fasterxml.github.io/jackson-core/javadoc/2.3.0/com/fasterxml/jackson/core/type/TypeReference.html\" rel=\"noreferrer\">TypeReference Javadoc</a></p>\n",
+      "owner": {
+        "display_name": "Perception",
+        "link": "https://stackoverflow.com/users/680925/perception"
+      }
+    },
+    {
+      "answer_id": 21121267,
+      "body": "<p>Let's evaluate the parsing of each:</p>\n<p><a href=\"http://jsfiddle.net/brandonscript/Y2dGv/\" rel=\"noreferrer\">http://jsfiddle.net/brandonscript/Y2dGv/</a></p>\n<pre><code>var json1 = '{}';\nvar json2 = '{&quot;myCount&quot;: null}';\nvar json3 = '{&quot;myCount&quot;: 0}';\nvar json4 = '{&quot;myString&quot;: &quot;&quot;}';\nvar json5 = '{&quot;myString&quot;: &quot;null&quot;}';\nvar json6 = '{&quot;myArray&quot;: []}';\n\nconsole.log(JSON.parse(json1)); // {}\nconsole.log(JSON.parse(json2)); // {myCount: null}\nconsole.log(JSON.parse(json3)); // {myCount: 0}\nconsole.log(JSON.parse(json4)); // {myString: &quot;&quot;}\nconsole.log(JSON.parse(json5)); // {myString: &quot;null&quot;}\nconsole.log(JSON.parse(json6)); // {myArray: []}\n</code></pre>\n<hr />\n<blockquote>\n<h2>The <strong>tl;dr</strong> here:</h2>\n<p>The fragment in the <em>json2</em> variable is the way <a href=\"http://www.json.org/\" rel=\"noreferrer\">the JSON spec</a> indicates <code>null</code> should be represented. But as always, it depends on what you're doing -- sometimes the &quot;right&quot; way to do it doesn't always work for your situation. Use your judgement and make an informed decision.</p>\n</blockquote>\n<hr />\n<p><strong>JSON1 <code>{}</code></strong></p>\n<p>This returns an empty object. There is no data there, and it's only going to tell you that whatever key you're looking for (be it <code>myCount</code> or something else) is of type <code>undefined</code>.</p>\n<hr />\n<p><strong>JSON2 <code>{&quot;myCount&quot;: null}</code></strong></p>\n<p>In this case, <code>myCount</code> is actually defined, albeit its value is <code>null</code>. This is <em>not</em> the same as both &quot;not <code>undefined</code> and not <code>null</code>&quot;, and if you were testing for one condition or the other, this might succeed whereas JSON1 would fail.</p>\n<p>This is the definitive way to represent <code>null</code> per <a href=\"http://www.json.org/\" rel=\"noreferrer\">the JSON spec</a>.</p>\n<hr />\n<p><strong>JSON3 <code>{&quot;myCount&quot;: 0}</code></strong></p>\n<p>In this case, myCount is 0. That's not the same as <code>null</code>, and it's not the same as <code>false</code>. If your conditional statement evaluates <code>myCount &gt; 0</code>, then this might be worthwhile to have. Moreover, if you're running calculations based on the value here, 0 could be useful. If you're trying to test for <code>null</code> however, this is actually not going to work at all.</p>\n<hr />\n<p><strong>JSON4 <code>{&quot;myString&quot;: &quot;&quot;}</code></strong></p>\n<p>In this case, you're getting an empty string. Again, as with JSON2, it's defined, but it's empty. You could test for <code>if (obj.myString == &quot;&quot;)</code> but you could not test for <code>null</code> or <code>undefined</code>.</p>\n<hr />\n<p><strong>JSON5 <code>{&quot;myString&quot;: &quot;null&quot;}</code></strong></p>\n<p>This is probably going to get you in trouble, because you're setting the <em>string</em> value to null; in this case, <code>obj.myString == &quot;null&quot;</code> however it is <em>not</em> <code>== null</code>.</p>\n<hr />\n<p><strong>JSON6 <code>{&quot;myArray&quot;: []}</code></strong></p>\n<p>This will tell you that your array <code>myArray</code> exists, but it's empty. This is useful if you're trying to perform a count or evaluation on <code>myArray</code>. For instance, say you wanted to evaluate the number of photos a user posted - you could do <code>myArray.length</code> and it would return <code>0</code>: defined, but no photos posted.</p>\n",
+      "owner": {
+        "display_name": "brandonscript",
+        "link": "https://stackoverflow.com/users/1214800/brandonscript"
+      }
+    },
+    {
+      "answer_id": 7422285,
+      "body": "<p>You can use <a href=\"https://github.com/FasterXML/jackson-docs/wiki/JacksonMixInAnnotations\" rel=\"noreferrer\">Jackson Mixins</a>. For example:</p>\n\n<pre><code>class YourClass {\n  public int ignoreThis() { return 0; }    \n}\n</code></pre>\n\n<p>With this Mixin</p>\n\n<pre><code>abstract class MixIn {\n  @JsonIgnore abstract int ignoreThis(); // we don't need it!  \n}\n</code></pre>\n\n<p>With this:</p>\n\n<pre><code>objectMapper.getSerializationConfig().addMixInAnnotations(YourClass.class, MixIn.class);\n</code></pre>\n\n<p>Edit:</p>\n\n<p>Thanks to the comments, with Jackson 2.5+, the API has changed and should be called with <code>objectMapper.addMixIn(Class&lt;?&gt; target, Class&lt;?&gt; mixinSource)</code></p>\n",
+      "owner": {
+        "display_name": "Amir Raminfar",
+        "link": "https://stackoverflow.com/users/419075/amir-raminfar"
+      }
+    },
+    {
+      "answer_id": 27271865,
+      "body": "<p>You could use <a href=\"https://github.com/FasterXML/jackson-datatype-jdk8\" rel=\"noreferrer\">jackson-datatype-jdk8</a> which is described as:</p>\n\n<blockquote>\n  <p>Support for new JDK8-specific types, such as Optional</p>\n</blockquote>\n\n<p>In order to do this:</p>\n\n<ul>\n<li>add <code>com.fasterxml.jackson.datatype:jackson-datatype-jdk8</code> as a dependency</li>\n<li>register the module with your object mapper: <code>objectMapper.registerModule(new Jdk8Module());</code></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Jonas",
+        "link": "https://stackoverflow.com/users/25194/jonas"
+      }
+    },
+    {
+      "answer_id": 26926871,
+      "body": "<pre><code>import com.fasterxml.jackson.core.JsonParser.Feature;\nimport com.fasterxml.jackson.databind.ObjectMapper;\n\nStatusResponses loginValidator = null;\n\nObjectMapper objectMapper = new ObjectMapper();\nobjectMapper.configure(Feature.AUTO_CLOSE_SOURCE, true);\n\ntry {\n    String res = result.getResponseAsString();//{\"status\":\"true\",\"msg\":\"success\"}\n    loginValidator = objectMapper.readValue(res, StatusResponses.class);//replaced result.getResponseAsString() with res\n} catch (Exception e) {\n    e.printStackTrace();\n}\n</code></pre>\n\n<p>Don't know how it worked and why it worked? :( but it worked</p>\n",
+      "owner": {
+        "display_name": "Swapnil Kadam",
+        "link": "https://stackoverflow.com/users/1441732/swapnil-kadam"
+      }
+    },
+    {
+      "answer_id": 8395924,
+      "body": "<p>As already described, the default configuration of an <code>ObjectMapper</code> instance is to only access properties that are public fields or have public getters/setters.  An alternative to changing the class definition to make a field public or to provide a public getter/setter is to specify (to the underlying <code>VisibilityChecker</code>) a different property visibility rule.  Jackson 1.9 provides the <code>ObjectMapper.setVisibility()</code> convenience method for doing so.  For the example in the original question, I'd likely configure this as</p>\n\n<pre><code>myObjectMapper.setVisibility(JsonMethod.FIELD, Visibility.ANY);\n</code></pre>\n\n<p>For Jackson >2.0:</p>\n\n<pre><code>myObjectMapper.setVisibility(PropertyAccessor.FIELD, Visibility.ANY);\n</code></pre>\n\n<p>For more information and details on related configuration options, I recommend reviewing <a href=\"http://fasterxml.github.io/jackson-databind/javadoc/2.5/com/fasterxml/jackson/databind/ObjectMapper.html#setVisibility(com.fasterxml.jackson.annotation.PropertyAccessor,%20com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility)\" rel=\"noreferrer\">the JavaDocs on <code>ObjectMapper.setVisibility()</code></a>.</p>\n",
+      "owner": {
+        "display_name": "Programmer Bruce",
+        "link": "https://stackoverflow.com/users/750987/programmer-bruce"
+      }
+    },
+    {
+      "answer_id": 28821825,
+      "body": "<p>The issue's coming from Jackson. When it doesn't have enough information on what class to deserialize to, it uses <code>LinkedHashMap</code>.  </p>\n\n<p>Since you're not informing Jackson of the element type of your <code>ArrayList</code>, it doesn't know that you want to deserialize into an <code>ArrayList</code> of <code>Account</code>s.  So it falls back to the default.</p>\n\n<p>Instead, you could probably use <code>as(JsonNode.class)</code>, and then deal with the <code>ObjectMapper</code> in a richer manner than rest-assured allows.  Something like this:</p>\n\n<pre><code>ObjectMapper mapper = new ObjectMapper();\n\nJsonNode accounts = given().when().expect().statusCode(expectedResponseCode)\n    .get(\"accounts/\" + newClub.getOwner().getCustId() + \"/clubs\")\n    .as(JsonNode.class);\n\n\n//Jackson's use of generics here are completely unsafe, but that's another issue\nList&lt;Account&gt; accountList = mapper.convertValue(\n    accounts, \n    new TypeReference&lt;List&lt;Account&gt;&gt;(){}\n);\n\nassertThat(accountList.get(0).getId()).isEqualTo(expectedId);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mark Peters",
+        "link": "https://stackoverflow.com/users/228171/mark-peters"
+      }
+    },
+    {
+      "answer_id": 12751959,
+      "body": "<p>You cannot instantiate an abstract class, Jackson neither.\nYou should give Jackson information on how to instantiate MyAbstractClass with a concrete type.</p>\n\n<p>See this answer on stackoverflow: <a href=\"https://stackoverflow.com/questions/5489532/jackson-json-library-how-to-instantiate-a-class-that-contains-abstract-fields\">Jackson JSON library: how to instantiate a class that contains abstract fields</a></p>\n\n<p>And maybe also see <a href=\"https://github.com/FasterXML/jackson-docs/wiki/JacksonPolymorphicDeserialization\" rel=\"noreferrer\">Jackson Polymorphic Deserialization</a></p>\n",
+      "owner": {
+        "display_name": "jlabedo",
+        "link": "https://stackoverflow.com/users/1537710/jlabedo"
+      }
+    },
+    {
+      "answer_id": 25512128,
+      "body": "<p>Your json contains an array, but you're trying to parse it as an object.\nThis error occurs because objects must start with <code>{</code>.</p>\n\n<p>You have 2 options:</p>\n\n<ol>\n<li><p>You can get rid of the <code>ShopContainer</code> class and use <code>Shop[]</code> instead</p>\n\n<pre><code>ShopContainer response  = restTemplate.getForObject(\n    url, ShopContainer.class);\n</code></pre>\n\n<p>replace with</p>\n\n<pre><code>Shop[] response  = restTemplate.getForObject(url, Shop[].class);\n</code></pre>\n\n<p>and then make your desired object from it. </p></li>\n<li><p>You can change your server to return an object instead of a list</p>\n\n<pre><code>return mapper.writerWithDefaultPrettyPrinter().writeValueAsString(list);\n</code></pre>\n\n<p>replace with</p>\n\n<pre><code>return mapper.writerWithDefaultPrettyPrinter().writeValueAsString(\n    new ShopContainer(list));\n</code></pre></li>\n</ol>\n",
+      "owner": {
+        "display_name": "Ordon",
+        "link": "https://stackoverflow.com/users/2129681/ordon"
+      }
+    },
+    {
+      "answer_id": 11828920,
+      "body": "<p>As of Jackson 1.6, you can use:</p>\n\n<pre><code>JsonNode node = mapper.valueToTree(map);\n</code></pre>\n\n<p>or</p>\n\n<pre><code>JsonNode node = mapper.convertValue(object, JsonNode.class);\n</code></pre>\n\n<p>Source: <a href=\"https://stackoverflow.com/questions/6967583/jackson-is-there-a-way-to-serialize-pojos-directly-to-treemodel\">is there a way to serialize pojo's directly to treemodel?</a></p>\n",
+      "owner": {
+        "display_name": "Max Schmidt",
+        "link": "https://stackoverflow.com/users/946328/max-schmidt"
+      }
+    },
+    {
+      "answer_id": 5598277,
+      "body": "<p>I found a work around but with this I'll need to annotate each date's setter throughout the project. Is there a way in which I can specify the format while creating the ObjectMapper?</p>\n\n<p>Here's what I did:</p>\n\n<pre><code>public class CustomJsonDateDeserializer extends JsonDeserializer&lt;Date&gt;\n{\n    @Override\n    public Date deserialize(JsonParser jsonParser,\n            DeserializationContext deserializationContext) throws IOException, JsonProcessingException {\n\n        SimpleDateFormat format = new SimpleDateFormat(\"yyyy-MM-dd'T'HH:mm:ss\");\n        String date = jsonParser.getText();\n        try {\n            return format.parse(date);\n        } catch (ParseException e) {\n            throw new RuntimeException(e);\n        }\n\n    }\n\n}\n</code></pre>\n\n<p>And annotated each Date field's setter method with this:</p>\n\n<pre><code>@JsonDeserialize(using = CustomJsonDateDeserializer.class)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Varun Achar",
+        "link": "https://stackoverflow.com/users/652895/varun-achar"
+      }
+    },
+    {
+      "answer_id": 7272468,
+      "body": "<p>Have you tried using @JsonProperty?</p>\n\n<pre><code>@Entity\npublic class City {\n   @id\n   Long id;\n   String name;\n\n   @JsonProperty(\"label\")\n   public String getName() { return name; }\n\n   public void setName(String name){ this.name = name; }\n\n   @JsonProperty(\"value\")\n   public Long getId() { return id; }\n\n   public void setId(Long id){ this.id = id; }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Henrik Barratt Due",
+        "link": "https://stackoverflow.com/users/253994/henrik-barratt-due"
+      }
+    },
+    {
+      "answer_id": 47591804,
+      "body": "<p>Well, as only deserialization is your concern, <a href=\"http://static.javadoc.io/com.fasterxml.jackson.core/jackson-annotations/2.9.3/com/fasterxml/jackson/annotation/JsonAlias.html\" rel=\"noreferrer\"><code>@JsonAlias</code></a> introduced in <code>2.9</code> is perfect for this situation. You can do something like this:</p>\n\n<pre><code>@JsonAlias({\"cover_asset\", \"asset\"})\nprivate Asset asset;\n</code></pre>\n\n<p><a href=\"http://static.javadoc.io/com.fasterxml.jackson.core/jackson-annotations/2.9.3/com/fasterxml/jackson/annotation/JsonAlias.html\" rel=\"noreferrer\"><code>@JsonAlias</code> docs</a>:</p>\n\n<blockquote>\n  <p>Annotation that can be used to define one or more alternative names\n  for a property, accepted during deserialization as alternative to the\n  official name. Alias information is also exposed during POJO\n  introspection, but has no effect during serialization where primary\n  name is always used.</p>\n</blockquote>\n\n<p>Note: Make sure you update all related dependencies(<code>annotations</code>, <code>core</code>, <code>databind</code>) if you are using them. Updating just <code>annotations</code> without others threw me runtime error.</p>\n",
+      "owner": {
+        "display_name": "Vikas Prasad",
+        "link": "https://stackoverflow.com/users/1781024/vikas-prasad"
+      }
+    },
+    {
+      "answer_id": 37001410,
+      "body": "<p><strong>JsonSerializer</strong></p>\n\n<p>The example is serialising a <code>LocalDateTime</code> but this can replaced by the required type.</p>\n\n<pre class=\"lang-java prettyprint-override\"><code>@Test\npublic void serialises_LocalDateTime() throws JsonProcessingException, IOException {\n    Writer jsonWriter = new StringWriter();\n    JsonGenerator jsonGenerator = new JsonFactory().createGenerator(jsonWriter);\n    SerializerProvider serializerProvider = new ObjectMapper().getSerializerProvider();\n    new LocalDateTimeJsonSerializer().serialize(LocalDateTime.of(2000, Month.JANUARY, 1, 0, 0), jsonGenerator, serializerProvider);\n    jsonGenerator.flush();\n    assertThat(jsonWriter.toString(), is(equalTo(\"\\\"2000-01-01T00:00:00\\\"\")));\n}\n</code></pre>\n\n<p><strong>JsonDeserializer</strong></p>\n\n<p>The example is deserialising a <code>Number</code> but this can replaced by the required type.</p>\n\n<pre class=\"lang-java prettyprint-override\"><code>    private ObjectMapper mapper;\n    private CustomerNumberDeserialiser deserializer;\n\n    @Before\n    public void setup() {\n        mapper = new ObjectMapper();\n        deserializer = new CustomerNumberDeserialiser();\n    }\n\n    @Test\n    public void floating_point_string_deserialises_to_Double_value() {\n        String json = String.format(\"{\\\"value\\\":%s}\", \"\\\"1.1\\\"\");\n        Number deserialisedNumber = deserialiseNumber(json);\n        assertThat(deserialisedNumber, instanceOf(Double.class));\n        assertThat(deserialisedNumber, is(equalTo(1.1d)));\n    }\n\n    @SneakyThrows({JsonParseException.class, IOException.class})\n    private Number deserialiseNumber(String json) {\n        InputStream stream = new ByteArrayInputStream(json.getBytes(StandardCharsets.UTF_8));\n        JsonParser parser = mapper.getFactory().createParser(stream);\n        DeserializationContext ctxt = mapper.getDeserializationContext();\n        parser.nextToken();\n        parser.nextToken();\n        parser.nextToken();\n        return deserializer.deserialize(parser, ctxt);\n    }\n</code></pre>\n\n<p><strong>UPDATE</strong></p>\n\n<p>When upgrading to jackson 2.9.3 I received a <code>NullPointerException</code> in <code>DeserializationContext</code> in <code>isEnabled(MapperFeature feature)</code> when deserialising strings to numbers because <code>new ObjectMapper()</code> initialises <code>_config</code> to <code>null</code>.</p>\n\n<p>To get around this, I used <a href=\"https://stackoverflow.com/questions/14292863/how-to-mock-a-final-class-with-mockito/40018295#40018295\">this</a> SO answer to spy on the <code>final</code> class <code>DeserializationContext</code>:</p>\n\n<pre><code>DeserializationContext ctxt = spy(mapper.getDeserializationContext());\ndoReturn(true).when(ctxt).isEnabled(any(MapperFeature.class));\n</code></pre>\n\n<p>I feel there must be a better way, so please comment if you have one.</p>\n",
+      "owner": {
+        "display_name": "Robert Bain",
+        "link": "https://stackoverflow.com/users/3506000/robert-bain"
+      }
+    },
+    {
+      "answer_id": 7768423,
+      "body": "<p>Finally I found solution myself.</p>\n\n<p>I had to annotate enum with <code>@JsonSerialize(using = OrderTypeSerializer.class)</code> and implement  custom serializer:</p>\n\n<pre><code>public class OrderTypeSerializer extends JsonSerializer&lt;OrderType&gt; {\n\n  @Override\n  public void serialize(OrderType value, JsonGenerator generator,\n            SerializerProvider provider) throws IOException,\n            JsonProcessingException {\n\n    generator.writeStartObject();\n    generator.writeFieldName(\"id\");\n    generator.writeNumber(value.getId());\n    generator.writeFieldName(\"name\");\n    generator.writeString(value.getName());\n    generator.writeEndObject();\n  }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nofate",
+        "link": "https://stackoverflow.com/users/488443/nofate"
+      }
+    },
+    {
+      "answer_id": 7246510,
+      "body": "<p>I finally got it:</p>\n\n<pre><code>ObjectMapper objectMapper = new ObjectMapper();\nTypeFactory typeFactory = objectMapper.getTypeFactory();\nList&lt;SomeClass&gt; someClassList = objectMapper.readValue(jsonString, typeFactory.constructCollectionType(List.class, SomeClass.class));\n</code></pre>\n",
+      "owner": {
+        "display_name": "mmutilva",
+        "link": "https://stackoverflow.com/users/26699/mmutilva"
+      }
+    },
+    {
+      "answer_id": 27952529,
+      "body": "<p>There's no need to use custom serializers/deserializers here. Use <a href=\"https://github.com/FasterXML/jackson-modules-java8\" rel=\"noreferrer\">jackson-modules-java8's datetime module</a>:</p>\n\n<blockquote>\n  <p>Datatype module to make Jackson recognize Java 8 Date &amp; Time API data types (JSR-310).</p>\n</blockquote>\n\n<p><a href=\"https://fasterxml.github.io/jackson-modules-java8/javadoc/datetime/2.9/com/fasterxml/jackson/datatype/jsr310/JavaTimeModule.html\" rel=\"noreferrer\">This module adds support for quite a few classes:</a></p>\n\n<ul>\n<li>Duration</li>\n<li>Instant</li>\n<li>LocalDateTime</li>\n<li>LocalDate</li>\n<li>LocalTime</li>\n<li>MonthDay</li>\n<li>OffsetDateTime</li>\n<li>OffsetTime</li>\n<li>Period</li>\n<li>Year</li>\n<li>YearMonth</li>\n<li>ZonedDateTime</li>\n<li>ZoneId</li>\n<li>ZoneOffset</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Matt Ball",
+        "link": "https://stackoverflow.com/users/139010/matt-ball"
+      }
+    },
+    {
+      "answer_id": 12583772,
+      "body": "<p>Here's a good example. I use it to rename the variable because the JSON is coming from a <code>.Net</code> environment where properties start with an upper-case letter.</p>\n\n<pre><code>public class Parameter {\n  @JsonProperty(\"Name\")\n  public String name;\n  @JsonProperty(\"Value\")\n  public String value; \n}\n</code></pre>\n\n<p>This correctly parses to/from the JSON:</p>\n\n<pre><code>\"Parameter\":{\n  \"Name\":\"Parameter-Name\",\n  \"Value\":\"Parameter-Value\"\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "OldCurmudgeon",
+        "link": "https://stackoverflow.com/users/823393/oldcurmudgeon"
+      }
+    },
+    {
+      "answer_id": 45674593,
+      "body": "<p>One solution is to use <a href=\"https://github.com/FasterXML/jackson-modules-java8\" rel=\"noreferrer\">jackson-modules-java8</a>. Then you can add a <code>JavaTimeModule</code> to your object mapper:</p>\n\n<pre><code>ObjectMapper objectMapper = new ObjectMapper();\n\nJavaTimeModule module = new JavaTimeModule();\nobjectMapper.registerModule(module);\n</code></pre>\n\n<p>By default the <code>Instant</code> is serialized as the epoch value (seconds and nanoseconds in a single number):</p>\n\n<pre><code>{\"createdDate\":1502713067.720000000}\n</code></pre>\n\n<p>You can change that by setting in the object mapper:</p>\n\n<pre><code>objectMapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);\n</code></pre>\n\n<p>This will produce the output:</p>\n\n<pre><code>{\"createdDate\":\"2017-08-14T12:17:47.720Z\"}\n</code></pre>\n\n<p>Both formats above are deserialized without any additional configuration.</p>\n\n<p>To change the serialization format, just add a <code>JsonFormat</code> annotation to the field:</p>\n\n<pre><code>@JsonFormat(pattern = \"yyyy-MM-dd HH:mm:ss\", timezone = \"UTC\")\nprivate Instant createdDate;\n</code></pre>\n\n<p>You need to set the timezone, otherwise the <code>Instant</code> can't be serialized properly (it throws an exception). The output will be:</p>\n\n<pre><code>{\"createdDate\":\"2017-08-14 12:17:47\"}\n</code></pre>\n\n<hr>\n\n<p>Another alternative, if you don't want to (or can't) use java8 modules, is to create a custom serializer and deserializer, using a <code>java.time.format.DateTimeFormatter</code>:</p>\n\n<pre><code>public class MyCustomSerializer extends JsonSerializer&lt;Instant&gt; {\n\n    private DateTimeFormatter fmt = DateTimeFormatter.ofPattern(\"yyyy-MM-dd HH:mm:ss\").withZone(ZoneOffset.UTC);\n\n    @Override\n    public void serialize(Instant value, JsonGenerator gen, SerializerProvider serializers) throws IOException, JsonProcessingException {\n        String str = fmt.format(value);\n\n        gen.writeString(str);\n    }\n}\n\npublic class MyCustomDeserializer extends JsonDeserializer&lt;Instant&gt; {\n\n    private DateTimeFormatter fmt = DateTimeFormatter.ofPattern(\"yyyy-MM-dd HH:mm:ss\").withZone(ZoneOffset.UTC);\n\n    @Override\n    public Instant deserialize(JsonParser p, DeserializationContext ctxt) throws IOException, JsonProcessingException {\n        return Instant.from(fmt.parse(p.getText()));\n    }\n}\n</code></pre>\n\n<p>Then you annotate the field with those custom classes:</p>\n\n<pre><code>@JsonDeserialize(using = MyCustomDeserializer.class)\n@JsonSerialize(using = MyCustomSerializer.class)\nprivate Instant createdDate;\n</code></pre>\n\n<p>The output will be:</p>\n\n<pre><code>{\"createdDate\":\"2017-08-14 12:17:47\"}\n</code></pre>\n\n<hr>\n\n<p>One detail is that in the serialized string you're discarding the fraction of second (everything after the decimal point). So, when deserializing, this information can't be recovered (it'll be set to zero).</p>\n\n<p>In the example above, the original <code>Instant</code> is <code>2017-08-14T12:17:47.720Z</code>, but the serialized string is <code>2017-08-14 12:17:47</code> (without the fraction of seconds), so when deserialized the resulting <code>Instant</code> is <code>2017-08-14T12:17:47Z</code> (the <code>.720</code> milliseconds are lost).</p>\n",
+      "owner": {
+        "display_name": "user7605325",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 45447923,
+      "body": "<p>The purpose of these annotations is to support <em>polymorphism</em> on deserialization.  When deserializing the actual code being executed will know the <em>class</em> of what it expects.  E.g., the type of some field being deserialized into.  But if that class has subclasses (i.e., subtypes) how does the generic Jackson deserializer know which actual class the string being deserialized is?  It's got to create an instance of some concrete type (the class or one of its subclasses) and fill it up.  The only way it can know which one to create is if that information is <em>written</em> into the serialization in the first place.</p>\n\n<p>As <a href=\"https://stackoverflow.com/a/31666888/751579\">this answer</a> says there are three ways to do it - you pick the one that's appropriate for your use case.  <code>@JsonTypeInfo</code> + <code>@JsonSubtypes</code> is one of those ways - it works great when you know, at compile time, all of the possible subtypes that could exist for the class in question.</p>\n",
+      "owner": {
+        "display_name": "davidbak",
+        "link": "https://stackoverflow.com/users/751579/davidbak"
+      }
+    },
+    {
+      "answer_id": 21988799,
+      "body": "<p>No, it is not a bug. It is a result of how the <code>ParameterizedTypeReference</code> hack works. </p>\n\n<p>If you look at its implementation, it uses <a href=\"http://docs.oracle.com/javase/7/docs/api/java/lang/Class.html#getGenericSuperclass%28%29\" rel=\"noreferrer\"><code>Class#getGenericSuperclass()</code></a> which states</p>\n\n<blockquote>\n  <p>Returns the Type representing the direct superclass of the entity\n  (class, interface, primitive type or void) represented by this Class.</p>\n  \n  <p>If the superclass is a parameterized type, <strong>the <code>Type</code> object returned\n  must accurately reflect the actual type parameters used in the source\n  code.</strong></p>\n</blockquote>\n\n<p>So, if you use </p>\n\n<pre><code>new ParameterizedTypeReference&lt;ResponseWrapper&lt;MyClass&gt;&gt;() {}\n</code></pre>\n\n<p>it will accurately return a <code>Type</code> for <code>ResponseWrapper&lt;MyClass&gt;</code>. </p>\n\n<p>If you use </p>\n\n<pre><code>new ParameterizedTypeReference&lt;ResponseWrapper&lt;T&gt;&gt;() {}\n</code></pre>\n\n<p>it will accurately return a <code>Type</code> for <code>ResponseWrapper&lt;T&gt;</code> because that is how it appears in the source code.</p>\n\n<p>When Spring sees <code>T</code>, which is actually a <code>TypeVariable</code> object, it doesn't know the type to use, so it uses its default.</p>\n\n<p>You cannot use <code>ParameterizedTypeReference</code> the way you are proposing, making it generic in the sense of accepting any type. Consider writing a <code>Map</code> with key <code>Class</code> mapped to a predefined <code>ParameterizedTypeReference</code> for that class.</p>\n\n<p>You can subclass <code>ParameterizedTypeReference</code> and override its <code>getType</code> method to return an appropriately created <code>ParameterizedType</code>, <a href=\"https://stackoverflow.com/a/29547365/438154\">as suggested by IonSpin</a>.</p>\n",
+      "owner": {
+        "display_name": "Sotirios Delimanolis",
+        "link": "https://stackoverflow.com/users/438154/sotirios-delimanolis"
+      }
+    },
+    {
+      "answer_id": 3909846,
+      "body": "<p>Yes, that is safe and recommended.</p>\n\n<p>The only caveat from the page you referred is that you can't be modifying configuration of the mapper once it is shared; but you are not changing configuration so that is fine. If you did need to change configuration, you would do that from the static block and it would be fine as well.</p>\n\n<p><strong>EDIT</strong>: (2013/10)</p>\n\n<p>With 2.0 and above, above can be augmented by noting that there is an even better way: use <code>ObjectWriter</code> and <code>ObjectReader</code> objects, which can be constructed by <code>ObjectMapper</code>.\nThey are fully immutable, thread-safe, meaning that it is not even theoretically possible to cause thread-safety issues (which can occur with <code>ObjectMapper</code> if code tries to re-configure instance).</p>\n",
+      "owner": {
+        "display_name": "StaxMan",
+        "link": "https://stackoverflow.com/users/59501/staxman"
+      }
+    },
+    {
+      "answer_id": 31689416,
+      "body": "<p><strong>EDIT:</strong> Starting from Jackson 2.6, you can use <code>@JsonProperty</code> on each element of the enum to specify its serialization/deserialization value (<a href=\"https://github.com/FasterXML/jackson-databind/issues/677\" rel=\"noreferrer\">see here</a>):</p>\n\n<pre><code>public enum Status {\n    @JsonProperty(\"ready\")\n    READY,\n    @JsonProperty(\"notReady\")\n    NOT_READY,\n    @JsonProperty(\"notReadyAtAll\")\n    NOT_READY_AT_ALL;\n}\n</code></pre>\n\n<hr>\n\n<p>(The rest of this answer is still valid for older versions of Jackson)</p>\n\n<p>You should use <code>@JsonCreator</code> to annotate a static method that receives a <code>String</code> argument. That's what Jackson calls a <em>factory method</em>:</p>\n\n<pre><code>public enum Status {\n    READY(\"ready\"),\n    NOT_READY(\"notReady\"),\n    NOT_READY_AT_ALL(\"notReadyAtAll\");\n\n    private static Map&lt;String, Status&gt; FORMAT_MAP = Stream\n        .of(Status.values())\n        .collect(Collectors.toMap(s -&gt; s.formatted, Function.identity()));\n\n    private final String formatted;\n\n    Status(String formatted) {\n        this.formatted = formatted;\n    }\n\n    @JsonCreator // This is the factory method and must be static\n    public static Status fromString(String string) {\n        return Optional\n            .ofNullable(FORMAT_MAP.get(string))\n            .orElseThrow(() -&gt; new IllegalArgumentException(string));\n    }\n}\n</code></pre>\n\n<p>This is the test:</p>\n\n<pre><code>ObjectMapper mapper = new ObjectMapper();\n\nStatus s1 = mapper.readValue(\"\\\"ready\\\"\", Status.class);\nStatus s2 = mapper.readValue(\"\\\"notReadyAtAll\\\"\", Status.class);\n\nSystem.out.println(s1); // READY\nSystem.out.println(s2); // NOT_READY_AT_ALL\n</code></pre>\n\n<p>As the factory method expects a <code>String</code>, you have to use JSON valid syntax for strings, which is to have the value quoted.</p>\n",
+      "owner": {
+        "display_name": "fps",
+        "link": "https://stackoverflow.com/users/1876620/fps"
+      }
+    },
+    {
+      "answer_id": 41383076,
+      "body": "<p>You can achieve this like that:</p>\n\n<pre><code>String brandName;\n\n@JsonProperty(\"brand\")\nprivate void unpackNameFromNestedObject(Map&lt;String, String&gt; brand) {\n    brandName = brand.get(\"name\");\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jacek Grobelny",
+        "link": "https://stackoverflow.com/users/7354710/jacek-grobelny"
+      }
+    },
+    {
+      "answer_id": 5455563,
+      "body": "<p>Jackson provides an annotation that can be used on class level (<a href=\"http://fasterxml.github.io/jackson-annotations/javadoc/2.7/com/fasterxml/jackson/annotation/JsonIgnoreProperties.html\" rel=\"noreferrer\">JsonIgnoreProperties</a>). </p>\n\n<p>Add the following to the top of your class (<em>not</em> to individual methods):</p>\n\n<pre><code>@JsonIgnoreProperties(ignoreUnknown = true)\npublic class Foo {\n    ...\n}\n</code></pre>\n\n<p>Depending on the jackson version you are using you would have to use a different import in the current version it is:</p>\n\n<pre><code>import com.fasterxml.jackson.annotation.JsonIgnoreProperties;\n</code></pre>\n\n<p>in older versions it has been:</p>\n\n<pre><code>import org.codehaus.jackson.annotate.JsonIgnoreProperties;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Hadi Eskandari",
+        "link": "https://stackoverflow.com/users/54538/hadi-eskandari"
+      }
+    },
+    {
+      "answer_id": 30997696,
+      "body": "<p><code>JsonNode</code> is immutable and is intended for parse operation.  However, it can be cast into <code>ObjectNode</code> (and <code>ArrayNode</code>) that allow mutations:</p>\n\n<pre><code>((ObjectNode)jsonNode).put(\"value\", \"NO\");\n</code></pre>\n\n<p>For an array, you can use:</p>\n\n<pre><code>((ObjectNode)jsonNode).putArray(\"arrayName\").add(object.ge‌​tValue());\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sharon Ben Asher",
+        "link": "https://stackoverflow.com/users/4790924/sharon-ben-asher"
+      }
+    },
+    {
+      "answer_id": 38969817,
+      "body": "<p>This is a slightly late answer, but may be useful for anyone else coming to this page.</p>\n\n<p>A simple solution to changing the name that Jackson will use for when serializing to JSON is to use the <a href=\"https://github.com/FasterXML/jackson-annotations/wiki/Jackson-Annotations#property-naming\" rel=\"noreferrer\">@JsonProperty</a> annotation, so your example would become:</p>\n\n<pre><code>public class MyResponse implements Serializable {\n\n    private boolean isSuccess;\n\n    @JsonProperty(value=\"isSuccess\")        \n    public boolean isSuccess() {\n        return isSuccess;\n    }\n\n    public void setSuccess(boolean isSuccess) {\n        this.isSuccess = isSuccess;\n    }\n}\n</code></pre>\n\n<p>This would then be serialised to JSON as <code>{\"isSuccess\":true}</code>, but has the advantage of not having to modify your getter method name.</p>\n\n<p>Note that in this case you could also write the annotation as <code>@JsonProperty(\"isSuccess\")</code> as it only has the single <code>value</code> element</p>\n",
+      "owner": {
+        "display_name": "Scott",
+        "link": "https://stackoverflow.com/users/6528465/scott"
+      }
+    },
+    {
+      "answer_id": 21624629,
+      "body": "<p>As long as you are using Jackson 2+, then there is now <a href=\"http://wiki.fasterxml.com/JacksonFeatureBuilderPattern\">built in support for this</a>.</p>\n\n<p>First you need to add this annotation to your <code>Address</code> class:</p>\n\n<pre><code>@JsonDeserialize(builder = Address.Builder.class)\n</code></pre>\n\n<p>Then you need to add this annotation to your <code>Builder</code> class: </p>\n\n<pre><code>@JsonPOJOBuilder(buildMethodName = \"create\", withPrefix = \"set\")\n</code></pre>\n\n<p>You can skip this second annotation if you are happy to rename your Builder's create method to build, and your Builder's setters to be prefixed to with, instead of set.</p>\n\n<p>Full example:</p>\n\n<pre><code>@JsonDeserialize(builder = Address.Builder.class)\npublic class Address\n{\n  private Address(Map&lt;LocationType, String&gt; components)\n  ...\n\n  @JsonPOJOBuilder(buildMethodName = \"create\", withPrefix = \"set\")\n  public static class Builder\n  {\n    public Builder setCity(String value);\n    public Builder setCountry(String value);\n    public Address create();\n  }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rupert Madden-Abbott",
+        "link": "https://stackoverflow.com/users/236587/rupert-madden-abbott"
+      }
+    },
+    {
+      "answer_id": 38428940,
+      "body": "<p>Actually,if ignore the validation,you can solve your problem like this.</p>\n\n<pre><code>   public class BusDto {\n       private Map&lt;String, Object&gt; changedAttrs = new HashMap&lt;&gt;();\n\n       /* getter and setter */\n   }\n</code></pre>\n\n<ul>\n<li>First, write a super class for your dto,like BusDto.</li>\n<li>Second, change your dto to extend the super class, and change the\ndto's set method,to put the attribute name and value to the\nchangedAttrs(beacause the spring would invoke the set when the\nattribute has value no matter null or not null).</li>\n<li>Third,traversal the map.</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Demon Coldmist",
+        "link": "https://stackoverflow.com/users/6228266/demon-coldmist"
+      }
+    },
+    {
+      "answer_id": 11377362,
+      "body": "<p>I've searched a lot and the best way I've found so far is on this <a href=\"https://www.sghill.net/how-do-i-write-a-jackson-json-serializer-deserializer.html\" rel=\"noreferrer\">article</a>:</p>\n\n<p><strong>Class to serialize</strong></p>\n\n<pre><code>package net.sghill.example;\n\nimport net.sghill.example.UserDeserializer\nimport net.sghill.example.UserSerializer\nimport org.codehaus.jackson.map.annotate.JsonDeserialize;\nimport org.codehaus.jackson.map.annotate.JsonSerialize;\n\n@JsonDeserialize(using = UserDeserializer.class)\npublic class User {\n    private ObjectId id;\n    private String   username;\n    private String   password;\n\n    public User(ObjectId id, String username, String password) {\n        this.id = id;\n        this.username = username;\n        this.password = password;\n    }\n\n    public ObjectId getId()       { return id; }\n    public String   getUsername() { return username; }\n    public String   getPassword() { return password; }\n}\n</code></pre>\n\n<p><strong>Deserializer class</strong></p>\n\n<pre><code>package net.sghill.example;\n\nimport net.sghill.example.User;\nimport org.codehaus.jackson.JsonNode;\nimport org.codehaus.jackson.JsonParser;\nimport org.codehaus.jackson.ObjectCodec;\nimport org.codehaus.jackson.map.DeserializationContext;\nimport org.codehaus.jackson.map.JsonDeserializer;\n\nimport java.io.IOException;\n\npublic class UserDeserializer extends JsonDeserializer&lt;User&gt; {\n\n    @Override\n    public User deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {\n        ObjectCodec oc = jsonParser.getCodec();\n        JsonNode node = oc.readTree(jsonParser);\n        return new User(null, node.get(\"username\").getTextValue(), node.get(\"password\").getTextValue());\n    }\n}\n</code></pre>\n\n<p>Edit:\nAlternatively you can look at <a href=\"http://www.baeldung.com/jackson-deserialization\" rel=\"noreferrer\">this article</a> which uses new versions of com.fasterxml.jackson.databind.JsonDeserializer.</p>\n",
+      "owner": {
+        "display_name": "gc5",
+        "link": "https://stackoverflow.com/users/41977/gc5"
+      }
+    },
+    {
+      "answer_id": 14532435,
+      "body": "<p>To indent any old JSON, just bind it as <code>Object</code>, like:</p>\n\n<pre><code>Object json = mapper.readValue(input, Object.class);\n</code></pre>\n\n<p>and then write it out with indentation:</p>\n\n<pre><code>String indented = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(json);\n</code></pre>\n\n<p>this avoids your having to define actual POJO to map data to.</p>\n\n<p>Or you can use <code>JsonNode</code> (JSON Tree) as well.</p>\n",
+      "owner": {
+        "display_name": "StaxMan",
+        "link": "https://stackoverflow.com/users/59501/staxman"
+      }
+    },
+    {
+      "answer_id": 1688182,
+      "body": "<blockquote>\n<p><em>I looked at Google's Gson as a potential JSON plugin. Can anyone offer some form of guidance as to how I can generate Java from this JSON string?</em></p>\n</blockquote>\n<p><a href=\"http://code.google.com/p/google-gson/\" rel=\"noreferrer\">Google Gson</a> supports generics and nested beans. The <code>[]</code> in JSON represents an array and should map to a Java collection such as <a href=\"http://docs.oracle.com/javase/6/docs/api/java/util/List.html\" rel=\"noreferrer\"><code>List</code></a> or just a plain Java array. The <code>{}</code> in JSON represents an object and should map to a Java <a href=\"http://docs.oracle.com/javase/6/docs/api/java/util/Map.html\" rel=\"noreferrer\"><code>Map</code></a> or just some JavaBean class.</p>\n<p>You have a JSON object with several properties of which the <code>groups</code> property represents an array of nested objects of the very same type. This can be parsed with Gson the following way:</p>\n<pre><code>package com.stackoverflow.q1688099;\n\nimport java.util.List;\nimport com.google.gson.Gson;\n\npublic class Test {\n\n    public static void main(String... args) throws Exception {\n        String json = \n            &quot;{&quot;\n                + &quot;'title': 'Computing and Information systems',&quot;\n                + &quot;'id' : 1,&quot;\n                + &quot;'children' : 'true',&quot;\n                + &quot;'groups' : [{&quot;\n                    + &quot;'title' : 'Level one CIS',&quot;\n                    + &quot;'id' : 2,&quot;\n                    + &quot;'children' : 'true',&quot;\n                    + &quot;'groups' : [{&quot;\n                        + &quot;'title' : 'Intro To Computing and Internet',&quot;\n                        + &quot;'id' : 3,&quot;\n                        + &quot;'children': 'false',&quot;\n                        + &quot;'groups':[]&quot;\n                    + &quot;}]&quot; \n                + &quot;}]&quot;\n            + &quot;}&quot;;\n\n        // Now do the magic.\n        Data data = new Gson().fromJson(json, Data.class);\n\n        // Show it.\n        System.out.println(data);\n    }\n\n}\n\nclass Data {\n    private String title;\n    private Long id;\n    private Boolean children;\n    private List&lt;Data&gt; groups;\n\n    public String getTitle() { return title; }\n    public Long getId() { return id; }\n    public Boolean getChildren() { return children; }\n    public List&lt;Data&gt; getGroups() { return groups; }\n\n    public void setTitle(String title) { this.title = title; }\n    public void setId(Long id) { this.id = id; }\n    public void setChildren(Boolean children) { this.children = children; }\n    public void setGroups(List&lt;Data&gt; groups) { this.groups = groups; }\n    \n    public String toString() {\n        return String.format(&quot;title:%s,id:%d,children:%s,groups:%s&quot;, title, id, children, groups);\n    }\n}\n</code></pre>\n<p>Fairly simple, isn't it? Just have a suitable JavaBean and call <a href=\"http://google-gson.googlecode.com/svn/tags/1.3/docs/javadocs/com/google/gson/Gson.html#fromJson%28java.lang.String,%20java.lang.Class%29\" rel=\"noreferrer\"><code>Gson#fromJson()</code></a>.</p>\n<h3>See also:</h3>\n<ul>\n<li><a href=\"http://json.org/\" rel=\"noreferrer\">Json.org</a> - Introduction to JSON</li>\n<li><a href=\"https://github.com/google/gson/blob/master/UserGuide.md\" rel=\"noreferrer\">Gson User Guide</a> - Introduction to Gson</li>\n</ul>\n",
+      "owner": {
+        "display_name": "BalusC",
+        "link": "https://stackoverflow.com/users/157882/balusc"
+      }
+    },
+    {
+      "answer_id": 16430704,
+      "body": "<p>Well, you can achieve that with Jackson, too. (and it seems to be more comfortable since you were considering using jackson).</p>\n\n<p>Use <code>ObjectMapper</code>'s <a href=\"https://fasterxml.github.io/jackson-databind/javadoc/2.5/com/fasterxml/jackson/databind/ObjectMapper.html#convertValue%28java.lang.Object,%20java.lang.Class%29\" rel=\"noreferrer\"><code>convertValue</code></a> method:</p>\n\n<pre><code>final ObjectMapper mapper = new ObjectMapper(); // jackson's objectmapper\nfinal MyPojo pojo = mapper.convertValue(map, MyPojo.class);\n</code></pre>\n\n<p>No need to convert into JSON string or something else; direct conversion does much faster.</p>\n",
+      "owner": {
+        "display_name": "Jongwook Choi",
+        "link": "https://stackoverflow.com/users/1534182/jongwook-choi"
+      }
+    },
+    {
+      "answer_id": 32842962,
+      "body": "<p>Using Spring Boot (1.2.4) and Jackson (2.4.6) the following annotation based configuration worked for me.</p>\n\n<pre><code>@Configuration\npublic class JacksonConfiguration {\n\n    @Bean\n    public ObjectMapper objectMapper() {\n        ObjectMapper mapper = new ObjectMapper();\n        mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);\n        mapper.configure(MapperFeature.DEFAULT_VIEW_INCLUSION, true);\n\n        return mapper;\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alex",
+        "link": "https://stackoverflow.com/users/4550654/alex"
+      }
+    },
+    {
+      "answer_id": 15261908,
+      "body": "<p>You can do this per class or globally, I believe.</p>\n\n<p>For per class, try @JsonSerialize above class declaration.</p>\n\n<p>For a mapper, here's one example:</p>\n\n<pre class=\"lang-java prettyprint-override\"><code>ObjectMapper mapper = new ObjectMapper();\nmapper.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false);\n// do various things, perhaps:\nString someJsonString = mapper.writeValueAsString(someClassInstance);\nSomeClass someClassInstance = mapper.readValue(someJsonString, SomeClass.class)\n</code></pre>\n\n<p>The StackOverflow link below also has an example for a Spring project.</p>\n\n<p>For REST with Jersey, I don't remember off the top off my head, but I believe it's similar.</p>\n\n<hr>\n\n<p>Couple of links I dug up: (edited 1st link due to Codehaus shutting down).</p>\n\n<ul>\n<li><a href=\"https://web.archive.org/web/20150513164332/https://jira.codehaus.org/browse/JACKSON-201\" rel=\"noreferrer\">https://web.archive.org/web/20150513164332/https://jira.codehaus.org/browse/JACKSON-201</a></li>\n<li><a href=\"https://stackoverflow.com/questions/5110586/jackson-serializationconfig\">Jackson serializationConfig</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Pancakeo",
+        "link": "https://stackoverflow.com/users/1608386/pancakeo"
+      }
+    },
+    {
+      "answer_id": 9599585,
+      "body": "<p>A slight variation on Richards answer but <code>readTree</code> can take a string so you can simplify it to:</p>\n\n<pre><code>ObjectMapper mapper = new ObjectMapper();\nJsonNode actualObj = mapper.readTree(\"{\\\"k1\\\":\\\"v1\\\"}\");\n</code></pre>\n",
+      "owner": {
+        "display_name": "slashnick",
+        "link": "https://stackoverflow.com/users/21030/slashnick"
+      }
+    },
+    {
+      "answer_id": 29137413,
+      "body": "<p>I was getting the exactly same issue. I was using Maven for dependency management and had added dependency for jackson-databind module only like this </p>\n\n<pre><code>&lt;dependency&gt;\n    &lt;groupId&gt;com.fasterxml.jackson.core&lt;/groupId&gt;\n    &lt;artifactId&gt;jackson-databind&lt;/artifactId&gt;\n    &lt;version&gt;${jackson.version}&lt;/version&gt;\n&lt;/dependency&gt;\n</code></pre>\n\n<p>and then I resolved it by doing this.. I added its transitive dependencies explicitly with the same jackson.version mentioned for each of them in the pom.xml file, as guided <a href=\"https://github.com/FasterXML/jackson-databind/#get-it\">here</a> </p>\n\n<pre><code>&lt;dependency&gt;\n    &lt;groupId&gt;com.fasterxml.jackson.core&lt;/groupId&gt;\n    &lt;artifactId&gt;jackson-annotations&lt;/artifactId&gt;\n    &lt;version&gt;${jackson.version}&lt;/version&gt;\n&lt;/dependency&gt;\n&lt;dependency&gt;\n    &lt;groupId&gt;com.fasterxml.jackson.core&lt;/groupId&gt;\n    &lt;artifactId&gt;jackson-core&lt;/artifactId&gt;\n    &lt;version&gt;${jackson.version}&lt;/version&gt;\n&lt;/dependency&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Priya Aggarwal",
+        "link": "https://stackoverflow.com/users/1101678/priya-aggarwal"
+      }
+    },
+    {
+      "answer_id": 28714523,
+      "body": "<p>In Jackson 2.4, you can convert as follows:</p>\n\n<pre><code>MyClass newJsonNode = jsonObjectMapper.treeToValue(someJsonNode, MyClass.class);\n</code></pre>\n\n<p>where <code>jsonObjectMapper</code> is a Jackson <code>ObjectMapper</code>.</p>\n\n<hr>\n\n<p>In older versions of Jackson, it would be</p>\n\n<pre><code>MyClass newJsonNode = jsonObjectMapper.readValue(someJsonNode, MyClass.class);\n</code></pre>\n",
+      "owner": {
+        "display_name": "icedtrees",
+        "link": "https://stackoverflow.com/users/2869635/icedtrees"
+      }
+    },
+    {
+      "answer_id": 2378615,
+      "body": "<p>I did this research the last week and I ended up with the same 2 libraries. As I'm using Spring 3 (that adopts Jackson in its default Json view '<a href=\"http://static.springsource.org/spring/docs/3.0.0.RC2/javadoc-api/org/springframework/web/servlet/view/json/MappingJacksonJsonView.html\" rel=\"noreferrer\">JacksonJsonView</a>') it was more natural for me to do the same. The 2 lib are pretty much the same... at the end they simply map to a json file! :) </p>\n\n<p>Anyway as you said <strong>Jackson</strong> has a + in performance and that's very important for me. The project is also quite active as you can see from <a href=\"https://github.com/FasterXML/jackson\" rel=\"noreferrer\">their web page</a> and that's a very good sign as well.<br></p>\n",
+      "owner": {
+        "display_name": "mickthompson",
+        "link": "https://stackoverflow.com/users/109970/mickthompson"
+      }
+    },
+    {
+      "answer_id": 6349488,
+      "body": "<p>First create a mapper :</p>\n\n<pre><code>import com.fasterxml.jackson.databind.ObjectMapper;// in play 2.3\nObjectMapper mapper = new ObjectMapper();\n</code></pre>\n\n<p>As Array:</p>\n\n<pre><code>MyClass[] myObjects = mapper.readValue(json, MyClass[].class);\n</code></pre>\n\n<p>As List:</p>\n\n<pre><code>List&lt;MyClass&gt; myObjects = mapper.readValue(jsonInput, new TypeReference&lt;List&lt;MyClass&gt;&gt;(){});\n</code></pre>\n\n<p>Another way to specify the List type:</p>\n\n<pre><code>List&lt;MyClass&gt; myObjects = mapper.readValue(jsonInput, mapper.getTypeFactory().constructCollectionType(List.class, MyClass.class));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Programmer Bruce",
+        "link": "https://stackoverflow.com/users/750987/programmer-bruce"
+      }
+    },
+    {
+      "answer_id": 19760249,
+      "body": "<p>Take a look at  <a href=\"http://wiki.fasterxml.com/JacksonTreeModel\" rel=\"noreferrer\">Jacksons built-in tree model feature</a>.</p>\n\n<p>And your code will be:</p>\n\n<pre><code>public void parse(String json)  {\n       JsonFactory factory = new JsonFactory();\n\n       ObjectMapper mapper = new ObjectMapper(factory);\n       JsonNode rootNode = mapper.readTree(json);  \n\n       Iterator&lt;Map.Entry&lt;String,JsonNode&gt;&gt; fieldsIterator = rootNode.fields();\n       while (fieldsIterator.hasNext()) {\n\n           Map.Entry&lt;String,JsonNode&gt; field = fieldsIterator.next();\n           System.out.println(\"Key: \" + field.getKey() + \"\\tValue:\" + field.getValue());\n       }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "user987339",
+        "link": "https://stackoverflow.com/users/987339/user987339"
+      }
+    },
+    {
+      "answer_id": 22013603,
+      "body": "<p>Jackson has to know in what order to pass fields from a JSON object to the constructor.\nIt is not possible to access parameter names in Java using reflection - that's why you have to repeat this information in annotations.</p>\n",
+      "owner": {
+        "display_name": "Lukasz Wiktor",
+        "link": "https://stackoverflow.com/users/853558/lukasz-wiktor"
+      }
+    },
+    {
+      "answer_id": 21760361,
+      "body": "<p>I finally found the solution! thanks to indybee for giving me a clue.</p>\n\n<p>The tutorial <a href=\"http://blog.pastelstudios.com/2012/03/12/spring-3-1-hibernate-4-jackson-module-hibernate/\">Spring 3.1, Hibernate 4 and Jackson-Module-Hibernate</a> have a good solution for Spring 3.1 and earlier versions. But since version 3.1.2 Spring have his own <strong>MappingJackson2HttpMessageConverter</strong> with almost the same functionality as the one in the tutorial, so we don't need to create this custom HTTPMessageConverter.</p>\n\n<p>With javaconfig we don't need to create a <strong>HibernateAwareObjectMapper</strong> too, we just need to add the <strong>Hibernate4Module</strong> to the default <strong>MappingJackson2HttpMessageConverter</strong> that Spring already have and add it to the HttpMessageConverters of the application, so we need to:</p>\n\n<ol>\n<li><p>Extend our spring config class from <strong>WebMvcConfigurerAdapter</strong> and override the method <strong>configureMessageConverters</strong>. </p></li>\n<li><p>On that method add the <strong>MappingJackson2HttpMessageConverter</strong> with the <strong>Hibernate4Module</strong> registered in a previus method.</p></li>\n</ol>\n\n<p>Our config class should look like this:</p>\n\n<pre><code>@Configuration\n@EnableWebMvc\npublic class MyConfigClass extends WebMvcConfigurerAdapter{\n\n    //More configuration....\n\n    /* Here we register the Hibernate4Module into an ObjectMapper, then set this custom-configured ObjectMapper\n     * to the MessageConverter and return it to be added to the HttpMessageConverters of our application*/\n    public MappingJackson2HttpMessageConverter jacksonMessageConverter(){\n        MappingJackson2HttpMessageConverter messageConverter = new MappingJackson2HttpMessageConverter();\n\n        ObjectMapper mapper = new ObjectMapper();\n        //Registering Hibernate4Module to support lazy objects\n        mapper.registerModule(new Hibernate4Module());\n\n        messageConverter.setObjectMapper(mapper);\n        return messageConverter;\n\n    }\n\n    @Override\n    public void configureMessageConverters(List&lt;HttpMessageConverter&lt;?&gt;&gt; converters) {\n        //Here we add our custom-configured HttpMessageConverter\n        converters.add(jacksonMessageConverter());\n        super.configureMessageConverters(converters);\n    }\n\n    //More configuration....\n}\n</code></pre>\n\n<p>If you have an xml configuration, you don't need to create your own MappingJackson2HttpMessageConverter either, but you do need to create the personalized mapper that appears in the tutorial (HibernateAwareObjectMapper), so your xml config should look like this:</p>\n\n<pre><code>&lt;mvc:message-converters&gt;\n    &lt;bean class=\"org.springframework.http.converter.json.MappingJackson2HttpMessageConverter\"&gt;\n        &lt;property name=\"objectMapper\"&gt;\n            &lt;bean class=\"com.pastelstudios.json.HibernateAwareObjectMapper\" /&gt;\n        &lt;/property&gt;\n    &lt;/bean&gt;\n&lt;/mvc:message-converters&gt;\n</code></pre>\n\n<p>Hope this answer be understandable and helps someone find the solution for this problem, any questions feel free to ask!</p>\n",
+      "owner": {
+        "display_name": "r1ckr",
+        "link": "https://stackoverflow.com/users/1416034/r1ckr"
+      }
+    },
+    {
+      "answer_id": 7626872,
+      "body": "<p>So, finally I realized what the problem is. It is not a Jackson configuration issue as I doubted.</p>\n\n<p>Actually the problem was in <strong>ApplesDO</strong> Class:</p>\n\n<pre><code>public class ApplesDO {\n\n    private String apple;\n\n    public String getApple() {\n        return apple;\n    }\n\n    public void setApple(String apple) {\n        this.apple = apple;\n    }\n\n    public ApplesDO(CustomType custom) {\n        //constructor Code\n    }\n}\n</code></pre>\n\n<p>There was a custom constructor defined for the class making it the default constructor. Introducing a dummy constructor has made the error to go away:</p>\n\n<pre><code>public class ApplesDO {\n\n    private String apple;\n\n    public String getApple() {\n        return apple;\n    }\n\n    public void setApple(String apple) {\n        this.apple = apple;\n    }\n\n    public ApplesDO(CustomType custom) {\n        //constructor Code\n    }\n\n    //Introducing the dummy constructor\n    public ApplesDO() {\n    }\n\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Lucky Murari",
+        "link": "https://stackoverflow.com/users/616412/lucky-murari"
+      }
+    },
+    {
+      "answer_id": 21158245,
+      "body": "<p>ParameterizedTypeReference has been introduced in 3.2 M2 to workaround this issue.</p>\n\n<pre><code>Wrapper&lt;Model&gt; response = restClient.exchange(loginUrl, \n                          HttpMethod.GET, \n                          null, \n                          new ParameterizedTypeReference&lt;Wrapper&lt;Model&gt;&gt;() {}).getBody();\n</code></pre>\n\n<p>However, the postForObject/getForObject variant was not introduced.</p>\n",
+      "owner": {
+        "display_name": "Manimaran Selvan",
+        "link": "https://stackoverflow.com/users/159964/manimaran-selvan"
+      }
+    },
+    {
+      "answer_id": 20671202,
+      "body": "<p>I think what you want is</p>\n\n<pre><code>@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)\npublic class Person {\n  ...\n}\n</code></pre>\n\n<p>that's the Jackson 1.x way.  I think there's a new way in 2.x.  Something like</p>\n\n<pre><code>@JsonInclude(Include.NON_NULL)\npublic class Person {\n  ...\n}\n</code></pre>\n\n<p>These will tell Jackson to only serialize values that are not null, and don't complain when deserializing a missing value.  I think it will just set it to the Java default.</p>\n",
+      "owner": {
+        "display_name": "pedorro",
+        "link": "https://stackoverflow.com/users/945742/pedorro"
+      }
+    },
+    {
+      "answer_id": 19410946,
+      "body": "<p>Your JSON string is malformed: the type of <code>center</code> is an array of invalid objects. Replace <code>[</code> and <code>]</code> with <code>{</code> and <code>}</code> in the JSON string around <code>longitude</code> and <code>latitude</code> so they will be objects:</p>\n\n<pre><code>[\n    {\n        \"name\" : \"New York\",\n        \"number\" : \"732921\",\n        \"center\" : {\n                \"latitude\" : 38.895111, \n                \"longitude\" : -77.036667\n            }\n    },\n    {\n        \"name\" : \"San Francisco\",\n        \"number\" : \"298732\",\n        \"center\" : {\n                \"latitude\" : 37.783333, \n                \"longitude\" : -122.416667\n            }\n    }\n]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Katona",
+        "link": "https://stackoverflow.com/users/594406/katona"
+      }
+    },
+    {
+      "answer_id": 6374578,
+      "body": "<p>By default, Jackson tries to serialize Java Maps as JSON Objects (key/value pairs), so Map key object must be somehow serialized as a String; and there must be matching (and registered) key deserializer. Default configuration only supports a small set of JDK types (String, numbers, enum).\nSo mapper has no idea as to how to take a String and create AutoHandlingSlotKey out of it.\n(in fact I am surprised that serializer did not fail for same reason)</p>\n\n<p>Two obvious ways to solve this are:</p>\n\n<ul>\n<li>Implement and register a \"key deserializer\"</li>\n<li>Implement and register a custom deserializer for Maps.</li>\n</ul>\n\n<p>In your case it is probably easier to do former. You may also want to implement custom key serializer, to ensure keys are serializer in proper format.</p>\n\n<p>The easiest way to register serializers and deserializers is by <a href=\"http://wiki.fasterxml.com/JacksonFeatureModules\" rel=\"noreferrer\">Module interface</a> that was added in Jackson 1.7 (and extended in 1.8 to support key serializers/deserializers).</p>\n",
+      "owner": {
+        "display_name": "StaxMan",
+        "link": "https://stackoverflow.com/users/59501/staxman"
+      }
+    },
+    {
+      "answer_id": 19272931,
+      "body": "<pre><code>@JsonPropertyOrder({ \"id\", \"label\", \"target\", \"source\", \"attributes\" })\npublic class Relation { ... }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Andrey Atapin",
+        "link": "https://stackoverflow.com/users/349820/andrey-atapin"
+      }
+    },
+    {
+      "answer_id": 18806773,
+      "body": "<p>There is no annotation to set default value.<br>\nYou can set default value only on java class level: </p>\n\n<pre><code>public class JavaObject \n{\n    public String notNullMember;\n\n    public String optionalMember = \"Value\";\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ilya",
+        "link": "https://stackoverflow.com/users/1143825/ilya"
+      }
+    },
+    {
+      "answer_id": 18615839,
+      "body": "<p>It's fine to use a single instance per application provided you don't call any configuration methods after it's been made visible i.e. you should do all your initialization inside a static block.</p>\n",
+      "owner": {
+        "display_name": "RokL",
+        "link": "https://stackoverflow.com/users/784043/rokl"
+      }
+    },
+    {
+      "answer_id": 18405958,
+      "body": "<p>As StaxMan already suggested you can do this by writing a <code>BeanDeserializerModifier</code> and registering it via <code>SimpleModule</code>. The following example should work:</p>\n\n<pre><code>public class UserEventDeserializer extends StdDeserializer&lt;User&gt; implements ResolvableDeserializer\n{\n  private static final long serialVersionUID = 7923585097068641765L;\n\n  private final JsonDeserializer&lt;?&gt; defaultDeserializer;\n\n  public UserEventDeserializer(JsonDeserializer&lt;?&gt; defaultDeserializer)\n  {\n    super(User.class);\n    this.defaultDeserializer = defaultDeserializer;\n  }\n\n  @Override public User deserialize(JsonParser jp, DeserializationContext ctxt)\n      throws IOException, JsonProcessingException\n  {\n    User deserializedUser = (User) defaultDeserializer.deserialize(jp, ctxt);\n\n    // Special logic\n\n    return deserializedUser;\n  }\n\n  // for some reason you have to implement ResolvableDeserializer when modifying BeanDeserializer\n  // otherwise deserializing throws JsonMappingException??\n  @Override public void resolve(DeserializationContext ctxt) throws JsonMappingException\n  {\n    ((ResolvableDeserializer) defaultDeserializer).resolve(ctxt);\n  }\n\n\n  public static void main(String[] args) throws JsonParseException, JsonMappingException, IOException\n  {\n    SimpleModule module = new SimpleModule();\n    module.setDeserializerModifier(new BeanDeserializerModifier()\n    {\n      @Override public JsonDeserializer&lt;?&gt; modifyDeserializer(DeserializationConfig config, BeanDescription beanDesc, JsonDeserializer&lt;?&gt; deserializer)\n      {\n        if (beanDesc.getBeanClass() == User.class)\n          return new UserEventDeserializer(deserializer);\n        return deserializer;\n      }\n    });\n\n\n    ObjectMapper mapper = new ObjectMapper();\n    mapper.registerModule(module);\n    User user = mapper.readValue(new File(\"test.json\"), User.class);\n  }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "schummar",
+        "link": "https://stackoverflow.com/users/1581999/schummar"
+      }
+    },
+    {
+      "answer_id": 17617958,
+      "body": "<p>You can enable pretty-printing by setting the <code>SerializationFeature.INDENT_OUTPUT</code> on your <code>ObjectMapper</code> like so:</p>\n\n<pre><code>mapper.enable(SerializationFeature.INDENT_OUTPUT);\n</code></pre>\n",
+      "owner": {
+        "display_name": "gregwhitaker",
+        "link": "https://stackoverflow.com/users/73446/gregwhitaker"
+      }
+    },
+    {
+      "answer_id": 17583175,
+      "body": "<p>There are couple of ways. First one is to use <code>@JsonIgnoreProperties</code> to remove properties from a child, like so:</p>\n\n<pre><code>public class Parent {\n   @JsonIgnoreProperties({\"name\", \"description\" }) // leave \"id\" and whatever child has\n   public Child child; // or use for getter or setter\n}\n</code></pre>\n\n<p>another possibility, if Child object is always serialized as id:</p>\n\n<pre><code>public class Child {\n    // use value of this property _instead_ of object\n    @JsonValue\n    public int id;\n}\n</code></pre>\n\n<p>and one more approach is to use <code>@JsonIdentityInfo</code> </p>\n\n<pre><code>public class Parent {\n   @JsonIdentityInfo(generator=ObjectIdGenerators.PropertyGenerator.class, property=\"id\")\n   @JsonIdentityReference(alwaysAsId=true) // otherwise first ref as POJO, others as id\n   public Child child; // or use for getter or setter\n\n   // if using 'PropertyGenerator', need to have id as property -- not the only choice\n   public int id;\n}\n</code></pre>\n\n<p>which would also work for serialization, and ignore properties other than id. Result would not be wrapped as Object however.</p>\n",
+      "owner": {
+        "display_name": "StaxMan",
+        "link": "https://stackoverflow.com/users/59501/staxman"
+      }
+    },
+    {
+      "answer_id": 15931483,
+      "body": "<p>Though its not properly documented, you can only have one creator per type. You can have as many constructors as you want in your type, but only one of them should have a <code>@JsonCreator</code> annotation on it.</p>\n",
+      "owner": {
+        "display_name": "Perception",
+        "link": "https://stackoverflow.com/users/680925/perception"
+      }
+    },
+    {
+      "answer_id": 15453159,
+      "body": "<p>You can use <code>ObjectMapper.convertValue()</code>, either value by value or even for the whole list. But you need to know the type to convert to:</p>\n\n<pre><code>POJO pojo = mapper.convertValue(singleObject, POJO.class);\n// or:\nList&lt;POJO&gt; pojos = mapper.convertValue(listOfObjects, new TypeReference&lt;List&lt;POJO&gt;&gt;() { });\n</code></pre>\n\n<p>this is functionally same as if you did:</p>\n\n<pre><code>byte[] json = mapper.writeValueAsBytes(singleObject);\nPOJO pojo = mapper.readValue(json, POJO.class);\n</code></pre>\n\n<p>but avoids actual serialization of data as JSON, instead using an in-memory event sequence as the intermediate step.</p>\n",
+      "owner": {
+        "display_name": "StaxMan",
+        "link": "https://stackoverflow.com/users/59501/staxman"
+      }
+    },
+    {
+      "answer_id": 14752292,
+      "body": "<p>After looking more on the <em>Jackson</em> source code I concluded that it's simply impossible to achieve without writing my own <code>BeanSerializer</code>, <code>BeanSerializerBuilder</code> and <code>BeanSerializerFactory</code> and provide some extension points like:</p>\n\n<pre><code>/*\n/**********************************************************\n/* Extension points\n/**********************************************************\n */\n\nprotected void beforeEndObject(T bean, JsonGenerator jgen, SerializerProvider provider) throws IOException, JSONException {\n    // May be overridden\n}\n\nprotected void afterStartObject(T bean, JsonGenerator jgen, SerializerProvider provider) throws IOException, JSONException {\n    // May be overridden\n}\n</code></pre>\n\n<p>Unfortunately I had to copy and paste entire <em>Jackson</em>'s <code>BeanSerializer</code> source code to <code>MyCustomBeanSerializer</code> because the former is not developed for extensions declaring all the fields and some important methods (like <code>serialize(...)</code>) as <code>final</code></p>\n",
+      "owner": {
+        "display_name": "Alex Vayda",
+        "link": "https://stackoverflow.com/users/96766/alex-vayda"
+      }
+    },
+    {
+      "answer_id": 14343479,
+      "body": "<p>This can be achieved using spring's MethodInvokingFactoryBean:</p>\n\n<pre><code>&lt;!-- Jackson Mapper --&gt;\n&lt;bean id=\"jacksonObjectMapper\" class=\"org.codehaus.jackson.map.ObjectMapper\" /&gt;\n&lt;bean class=\"org.springframework.beans.factory.config.MethodInvokingFactoryBean\"&gt;\n    &lt;property name=\"targetObject\" ref=\"jacksonObjectMapper\" /&gt;\n    &lt;property name=\"targetMethod\" value=\"configure\" /&gt;\n    &lt;property name=\"arguments\"&gt;\n        &lt;list&gt;\n            &lt;value type=\"org.codehaus.jackson.map.DeserializationConfig.Feature\"&gt;FAIL_ON_UNKNOWN_PROPERTIES&lt;/value&gt;\n            &lt;value&gt;false&lt;/value&gt;\n        &lt;/list&gt;\n    &lt;/property&gt;\n&lt;/bean&gt;\n</code></pre>\n\n<p>This can be wired to a RestTemplate like this:</p>\n\n<pre><code>&lt;bean id=\"restTemplate\" class=\"org.springframework.web.client.RestTemplate\"&gt;\n    &lt;property name=\"messageConverters\"&gt;\n        &lt;list&gt;\n            &lt;bean class=\"org.springframework.http.converter.json.MappingJacksonHttpMessageConverter\"&gt;\n                &lt;property name=\"objectMapper\" ref=\"jacksonObjectMapper\" /&gt;\n            &lt;/bean&gt;\n        &lt;/list&gt;\n    &lt;/property&gt;\n&lt;/bean&gt;\n</code></pre>\n\n<p>It can also be injected directly into the message converters for use with Spring MVC:</p>\n\n<pre><code>&lt;mvc:annotation-driven&gt;\n    &lt;mvc:message-converters&gt;\n        &lt;!-- Jackson converter for HTTP messages --&gt;\n        &lt;bean class=\"org.springframework.http.converter.json.MappingJacksonHttpMessageConverter\"&gt;\n            &lt;property name=\"objectMapper\" ref=\"jacksonObjectMapper\" /&gt;\n        &lt;/bean&gt;\n    &lt;/mvc:message-converters&gt;\n&lt;/mvc:annotation-driven&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "jnrcorp",
+        "link": "https://stackoverflow.com/users/1027971/jnrcorp"
+      }
+    },
+    {
+      "answer_id": 6852184,
+      "body": "<p>This is a well-known problem with Java type erasure: T is just a type variable, and you must indicate actual class, usually as Class argument. Without such information, best that can be done is to use bounds; and plain T is roughly same as 'T extends Object'. And Jackson will then bind JSON Objects as Maps.</p>\n\n<p>In this case, tester method needs to have access to Class, and you can construct </p>\n\n<pre><code>JavaType type = mapper.getTypeFactory().\n  constructCollectionType(List.class, Foo.class)\n</code></pre>\n\n<p>and then</p>\n\n<pre><code>List&lt;Foo&gt; list = mapper.readValue(new File(\"input.json\"), type);\n</code></pre>\n",
+      "owner": {
+        "display_name": "StaxMan",
+        "link": "https://stackoverflow.com/users/59501/staxman"
+      }
+    },
+    {
+      "answer_id": 11540939,
+      "body": "<p>You can use a custom serializer at your money field. Here's an example with a MoneyBean. The field <em>amount</em> gets annotated with <em>@JsonSerialize(using=...)</em>.</p>\n\n<pre><code>public class MoneyBean {\n    //...\n\n    @JsonProperty(\"amountOfMoney\")\n    @JsonSerialize(using = MoneySerializer.class)\n    private BigDecimal amount;\n\n    //getters/setters...\n}\n\npublic class MoneySerializer extends JsonSerializer&lt;BigDecimal&gt; {\n    @Override\n    public void serialize(BigDecimal value, JsonGenerator jgen, SerializerProvider provider) throws IOException,\n            JsonProcessingException {\n        // put your desired money style here\n        jgen.writeString(value.setScale(2, BigDecimal.ROUND_HALF_UP).toString());\n    }\n}\n</code></pre>\n\n<p>That's it. A BigDecimal is now printed in the right way. I used a simple testcase to show it:</p>\n\n<pre><code>@Test\npublic void jsonSerializationTest() throws Exception {\n     MoneyBean m = new MoneyBean();\n     m.setAmount(new BigDecimal(\"20.3\"));\n\n     ObjectMapper mapper = new ObjectMapper();\n     assertEquals(\"{\\\"amountOfMoney\\\":\\\"20.30\\\"}\", mapper.writeValueAsString(m));\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Steve",
+        "link": "https://stackoverflow.com/users/279452/steve"
+      }
+    },
+    {
+      "answer_id": 11509576,
+      "body": "<p>These methods are in <code>ObjectNode</code>: the division is such that most read operations are included in <code>JsonNode</code>, but mutations in <code>ObjectNode</code> and <code>ArrayNode</code>.</p>\n\n<p>Note that you can just change first line to be:</p>\n\n<pre><code>ObjectNode jNode = mapper.createObjectNode();\n// version ObjectMapper has should return ObjectNode type\n</code></pre>\n\n<p>or</p>\n\n<pre><code>ObjectNode jNode = (ObjectNode) objectCodec.createObjectNode();\n// ObjectCodec is in core part, must be of type JsonNode so need cast\n</code></pre>\n",
+      "owner": {
+        "display_name": "StaxMan",
+        "link": "https://stackoverflow.com/users/59501/staxman"
+      }
+    },
+    {
+      "answer_id": 10519316,
+      "body": "<p>You should use the <code>@JsonProperty</code> on the field you want to change the default name mapping.</p>\n\n<pre><code>class User{\n    @JsonProperty(\"first_name\")\n    protected String firstName;\n    protected String getFirstName(){return firstName;}\n}\n</code></pre>\n\n<p>For more info: the <a href=\"http://jackson.codehaus.org/1.1.2/javadoc/org/codehaus/jackson/annotate/JsonProperty.html\" rel=\"noreferrer\">API</a></p>\n",
+      "owner": {
+        "display_name": "Alex",
+        "link": "https://stackoverflow.com/users/20634/alex"
+      }
+    },
+    {
+      "answer_id": 10324007,
+      "body": "<p>No need to go with GSON for this; Jackson can do either plain Maps/Lists:</p>\n\n<pre><code>ObjectMapper mapper = new ObjectMapper();\nMap&lt;String,Object&gt; map = mapper.readValue(json, Map.class);\n</code></pre>\n\n<p>or more convenient JSON Tree:</p>\n\n<pre><code>JsonNode rootNode = mapper.readTree(json);\n</code></pre>\n\n<p>By the way, there is no reason why you could not actually create Java classes and do it (IMO) more conveniently:</p>\n\n<pre><code>public class Library {\n  @JsonProperty(\"libraryname\")\n  public String name;\n\n  @JsonProperty(\"mymusic\")\n  public List&lt;Song&gt; songs;\n}\npublic class Song {\n  @JsonProperty(\"Artist Name\") public String artistName;\n  @JsonProperty(\"Song Name\") public String songName;\n}\n\nLibrary lib = mapper.readValue(jsonString, Library.class);\n</code></pre>\n",
+      "owner": {
+        "display_name": "StaxMan",
+        "link": "https://stackoverflow.com/users/59501/staxman"
+      }
+    },
+    {
+      "answer_id": 9010622,
+      "body": "<p>Summarizing excellent answers by <a href=\"https://stackoverflow.com/a/8321074/14731\">Programmer Bruce</a> and <a href=\"https://stackoverflow.com/a/8321255/14731\">StaxMan</a>:</p>\n\n<ol>\n<li><p>Missing properties referenced by the constructor are assigned a default value <a href=\"http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html\" rel=\"noreferrer\">as defined by Java</a>.</p></li>\n<li><p>You can use setter methods to differentiate between properties that are implicitly or explicitly set. Setter methods are only invoked for properties with explicit values. Setter methods can keep track of whether a property was explicitly set using a boolean flag (e.g. <code>isValueSet</code>).</p></li>\n</ol>\n",
+      "owner": {
+        "display_name": "Gili",
+        "link": "https://stackoverflow.com/users/14731/gili"
+      }
+    },
+    {
+      "answer_id": 8560615,
+      "body": "<p>Just tested and this works:</p>\n\n<pre><code>public class Coordinates {\n    byte red;\n\n    @JsonProperty(\"r\")\n    public byte getR() {\n      return red;\n    }\n\n    @JsonProperty(\"red\")\n    public void setRed(byte red) {\n      this.red = red;\n    }\n}\n</code></pre>\n\n<p>The idea is that method names should be different, so jackson parses it as different fields, not as one field.</p>\n\n<p>Here is test code:</p>\n\n<pre><code>Coordinates c = new Coordinates();\nc.setRed((byte) 5);\n\nObjectMapper mapper = new ObjectMapper();\nSystem.out.println(\"Serialization: \" + mapper.writeValueAsString(c));\n\nCoordinates r = mapper.readValue(\"{\\\"red\\\":25}\",Coordinates.class);\nSystem.out.println(\"Deserialization: \" + r.getR());\n</code></pre>\n\n<p>Result:</p>\n\n<pre><code>Serialization: {\"r\":5}\nDeserialization: 25\n</code></pre>\n",
+      "owner": {
+        "display_name": "bezmax",
+        "link": "https://stackoverflow.com/users/43677/bezmax"
+      }
+    },
+    {
+      "answer_id": 7168386,
+      "body": "<p>As mentioned, @JsonValue is a good way. But if you don't mind a custom serializer, there's no need to write one for Item but rather one for User -- if so, it'd be as simple as:</p>\n\n<pre><code>public void serialize(Item value, JsonGenerator jgen,\n    SerializerProvider provider) throws IOException,\n    JsonProcessingException {\n  jgen.writeNumber(id);\n}\n</code></pre>\n\n<p>Yet another possibility is to implement <code>JsonSerializable</code>, in which case no registration is needed.</p>\n\n<p>As to error; that is weird -- you probably want to upgrade to a later version. But it is also safer to extend <code>org.codehaus.jackson.map.ser.SerializerBase</code> as it will have standard implementations of non-essential methods (i.e. everything but actual serialization call).</p>\n",
+      "owner": {
+        "display_name": "StaxMan",
+        "link": "https://stackoverflow.com/users/59501/staxman"
+      }
+    },
+    {
+      "answer_id": 4786270,
+      "body": "<p>@JsonRawValue is intended for serialization-side only, since the reverse direction is a bit trickier to handle. In effect it was added to allow injecting pre-encoded content.</p>\n\n<p>I guess it would be possible to add support for reverse, although that would be quite awkward: content will have to be parsed, and then re-written back to \"raw\" form, which may or may not be the same (since character quoting may differ).\nThis for general case. But perhaps it would make sense for some subset of problems.</p>\n\n<p>But I think a work-around for your specific case would be to specify type as 'java.lang.Object', since this should work ok: for serialization, String will be output as is, and for deserialization, it will be deserialized as a Map. Actually you might want to have separate getter/setter if so; getter would return String for serialization (and needs @JsonRawValue); and setter would take either Map or Object. You could re-encode it to a String if that makes sense.</p>\n",
+      "owner": {
+        "display_name": "StaxMan",
+        "link": "https://stackoverflow.com/users/59501/staxman"
+      }
+    }
+  ]
+}

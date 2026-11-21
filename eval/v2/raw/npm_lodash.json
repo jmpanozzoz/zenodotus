@@ -1,0 +1,1908 @@
+{
+  "library": "npm:lodash",
+  "fetched_at": "2026-11-21T17:28:06Z",
+  "questions": [
+    {
+      "question_id": 13789618,
+      "title": "Differences between Lodash and Underscore.js",
+      "accepted_answer_id": 13898916,
+      "score": 1727,
+      "link": "https://stackoverflow.com/questions/13789618/differences-between-lodash-and-underscore-js",
+      "owner": {
+        "display_name": "Brian M. Hunt",
+        "link": "https://stackoverflow.com/users/19212/brian-m-hunt"
+      }
+    },
+    {
+      "question_id": 19965844,
+      "title": "Lodash - difference between .extend() / .assign() and .merge()",
+      "accepted_answer_id": 19966511,
+      "score": 532,
+      "link": "https://stackoverflow.com/questions/19965844/lodash-difference-between-extend-assign-and-merge",
+      "owner": {
+        "display_name": "JDillon522",
+        "link": "https://stackoverflow.com/users/2109585/jdillon522"
+      }
+    },
+    {
+      "question_id": 31683075,
+      "title": "How to do a deep comparison between 2 objects with lodash?",
+      "accepted_answer_id": 31683111,
+      "score": 516,
+      "link": "https://stackoverflow.com/questions/31683075/how-to-do-a-deep-comparison-between-2-objects-with-lodash",
+      "owner": {
+        "display_name": "JLavoie",
+        "link": "https://stackoverflow.com/users/2414919/jlavoie"
+      }
+    },
+    {
+      "question_id": 53949393,
+      "title": "Can&#39;t perform a React state update on an unmounted component",
+      "accepted_answer_id": 60907638,
+      "score": 436,
+      "link": "https://stackoverflow.com/questions/53949393/cant-perform-a-react-state-update-on-an-unmounted-component",
+      "owner": {
+        "display_name": "Igor Soloydenko",
+        "link": "https://stackoverflow.com/users/482868/igor-soloydenko"
+      }
+    },
+    {
+      "question_id": 31740155,
+      "title": "Lodash remove duplicates from array",
+      "accepted_answer_id": 31740263,
+      "score": 383,
+      "link": "https://stackoverflow.com/questions/31740155/lodash-remove-duplicates-from-array",
+      "owner": {
+        "display_name": "ChrisRich",
+        "link": "https://stackoverflow.com/users/1365028/chrisrich"
+      }
+    },
+    {
+      "question_id": 35136306,
+      "title": "What happened to Lodash _.pluck?",
+      "accepted_answer_id": 35136589,
+      "score": 336,
+      "link": "https://stackoverflow.com/questions/35136306/what-happened-to-lodash-pluck",
+      "owner": {
+        "display_name": "sfletche",
+        "link": "https://stackoverflow.com/users/379512/sfletche"
+      }
+    },
+    {
+      "question_id": 35206125,
+      "title": "How can I find and update values in an array of objects?",
+      "accepted_answer_id": 35206193,
+      "score": 307,
+      "link": "https://stackoverflow.com/questions/35206125/how-can-i-find-and-update-values-in-an-array-of-objects",
+      "owner": {
+        "display_name": "user3712353",
+        "link": "https://stackoverflow.com/users/3712353/user3712353"
+      }
+    },
+    {
+      "question_id": 34660265,
+      "title": "Importing lodash into angular2 + typescript application",
+      "accepted_answer_id": 39209948,
+      "score": 306,
+      "link": "https://stackoverflow.com/questions/34660265/importing-lodash-into-angular2-typescript-application",
+      "owner": {
+        "display_name": "Davy",
+        "link": "https://stackoverflow.com/users/1854793/davy"
+      }
+    },
+    {
+      "question_id": 35250500,
+      "title": "Correct way to import lodash",
+      "accepted_answer_id": 35251059,
+      "score": 299,
+      "link": "https://stackoverflow.com/questions/35250500/correct-way-to-import-lodash",
+      "owner": {
+        "display_name": "Bill",
+        "link": "https://stackoverflow.com/users/409275/bill"
+      }
+    },
+    {
+      "question_id": 30812765,
+      "title": "How to remove undefined and null values from an object using lodash?",
+      "accepted_answer_id": 33432857,
+      "score": 267,
+      "link": "https://stackoverflow.com/questions/30812765/how-to-remove-undefined-and-null-values-from-an-object-using-lodash",
+      "owner": {
+        "display_name": "JLavoie",
+        "link": "https://stackoverflow.com/users/2414919/jlavoie"
+      }
+    },
+    {
+      "question_id": 30726830,
+      "title": "How to filter keys of an object with lodash?",
+      "accepted_answer_id": 30727745,
+      "score": 237,
+      "link": "https://stackoverflow.com/questions/30726830/how-to-filter-keys-of-an-object-with-lodash",
+      "owner": {
+        "display_name": "Freewind",
+        "link": "https://stackoverflow.com/users/342235/freewind"
+      }
+    },
+    {
+      "question_id": 38323880,
+      "title": "Error: EACCES: permission denied",
+      "accepted_answer_id": 38334318,
+      "score": 235,
+      "link": "https://stackoverflow.com/questions/38323880/error-eacces-permission-denied",
+      "owner": {
+        "display_name": "xruptronics",
+        "link": "https://stackoverflow.com/users/6569634/xruptronics"
+      }
+    },
+    {
+      "question_id": 43479464,
+      "title": "How to Import a Single Lodash Function?",
+      "accepted_answer_id": 43479515,
+      "score": 227,
+      "link": "https://stackoverflow.com/questions/43479464/how-to-import-a-single-lodash-function",
+      "owner": {
+        "display_name": "cvdv",
+        "link": "https://stackoverflow.com/users/4852449/cvdv"
+      }
+    },
+    {
+      "question_id": 28354725,
+      "title": "LoDash: Get an array of values from an array of object properties",
+      "accepted_answer_id": 28354808,
+      "score": 211,
+      "link": "https://stackoverflow.com/questions/28354725/lodash-get-an-array-of-values-from-an-array-of-object-properties",
+      "owner": {
+        "display_name": "YarGnawh",
+        "link": "https://stackoverflow.com/users/1563181/yargnawh"
+      }
+    },
+    {
+      "question_id": 24674630,
+      "title": "transform object to array with lodash",
+      "accepted_answer_id": 24674700,
+      "score": 210,
+      "link": "https://stackoverflow.com/questions/24674630/transform-object-to-array-with-lodash",
+      "owner": {
+        "display_name": "siavolt",
+        "link": "https://stackoverflow.com/users/3776269/siavolt"
+      }
+    },
+    {
+      "question_id": 45470575,
+      "title": "Angular 4 HttpClient Query Parameters",
+      "accepted_answer_id": 45470576,
+      "score": 207,
+      "link": "https://stackoverflow.com/questions/45470575/angular-4-httpclient-query-parameters",
+      "owner": {
+        "display_name": "joshrathke",
+        "link": "https://stackoverflow.com/users/1625304/joshrathke"
+      }
+    },
+    {
+      "question_id": 21281286,
+      "title": "How can I remove an element from a list, with lodash?",
+      "accepted_answer_id": 21281418,
+      "score": 204,
+      "link": "https://stackoverflow.com/questions/21281286/how-can-i-remove-an-element-from-a-list-with-lodash",
+      "owner": {
+        "display_name": "Samantha J T Star",
+        "link": "https://stackoverflow.com/users/975566/samantha-j-t-star"
+      }
+    },
+    {
+      "question_id": 38084396,
+      "title": "Lodash title case (uppercase first letter of every word)",
+      "accepted_answer_id": 38084493,
+      "score": 199,
+      "link": "https://stackoverflow.com/questions/38084396/lodash-title-case-uppercase-first-letter-of-every-word",
+      "owner": {
+        "display_name": "brandonscript",
+        "link": "https://stackoverflow.com/users/1214800/brandonscript"
+      }
+    },
+    {
+      "question_id": 34189370,
+      "title": "How to repeat an element n times using JSX and Lodash",
+      "accepted_answer_id": 34189653,
+      "score": 196,
+      "link": "https://stackoverflow.com/questions/34189370/how-to-repeat-an-element-n-times-using-jsx-and-lodash",
+      "owner": {
+        "display_name": "StillDead",
+        "link": "https://stackoverflow.com/users/4535042/stilldead"
+      }
+    },
+    {
+      "question_id": 31054021,
+      "title": "How to use lodash to find and return an object from Array?",
+      "accepted_answer_id": 31054082,
+      "score": 195,
+      "link": "https://stackoverflow.com/questions/31054021/how-to-use-lodash-to-find-and-return-an-object-from-array",
+      "owner": {
+        "display_name": "Leon Gaban",
+        "link": "https://stackoverflow.com/users/168738/leon-gaban"
+      }
+    },
+    {
+      "question_id": 29951293,
+      "title": "Using lodash to compare jagged arrays (items existence without order)",
+      "accepted_answer_id": 29951380,
+      "score": 195,
+      "link": "https://stackoverflow.com/questions/29951293/using-lodash-to-compare-jagged-arrays-items-existence-without-order",
+      "owner": {
+        "display_name": "pQuestions123",
+        "link": "https://stackoverflow.com/users/4410701/pquestions123"
+      }
+    },
+    {
+      "question_id": 22928841,
+      "title": "lodash multi-column sortBy",
+      "accepted_answer_id": 29082994,
+      "score": 195,
+      "link": "https://stackoverflow.com/questions/22928841/lodash-multi-column-sortby",
+      "owner": {
+        "display_name": "nhaa123",
+        "link": "https://stackoverflow.com/users/102797/nhaa123"
+      }
+    },
+    {
+      "question_id": 25171143,
+      "title": "How do I use the includes method in lodash to check if an object is in the collection?",
+      "accepted_answer_id": 25171174,
+      "score": 193,
+      "link": "https://stackoverflow.com/questions/25171143/how-do-i-use-the-includes-method-in-lodash-to-check-if-an-object-is-in-the-colle",
+      "owner": {
+        "display_name": "Conrad.Dean",
+        "link": "https://stackoverflow.com/users/656833/conrad-dean"
+      }
+    },
+    {
+      "question_id": 27641731,
+      "title": "is there a function in lodash to replace matched item",
+      "accepted_answer_id": 27641860,
+      "score": 181,
+      "link": "https://stackoverflow.com/questions/27641731/is-there-a-function-in-lodash-to-replace-matched-item",
+      "owner": {
+        "display_name": "Vishal Seth",
+        "link": "https://stackoverflow.com/users/195435/vishal-seth"
+      }
+    },
+    {
+      "question_id": 37585309,
+      "title": "Replacing objects in array",
+      "accepted_answer_id": 37585362,
+      "score": 171,
+      "link": "https://stackoverflow.com/questions/37585309/replacing-objects-in-array",
+      "owner": {
+        "display_name": "Michael",
+        "link": "https://stackoverflow.com/users/1067943/michael"
+      }
+    },
+    {
+      "question_id": 21310946,
+      "title": "Loop through properties in JavaScript object with Lodash",
+      "accepted_answer_id": 21311009,
+      "score": 160,
+      "link": "https://stackoverflow.com/questions/21310946/loop-through-properties-in-javascript-object-with-lodash",
+      "owner": {
+        "display_name": "user3111277",
+        "link": "https://stackoverflow.com/users/3111277/user3111277"
+      }
+    },
+    {
+      "question_id": 43371092,
+      "title": "use Lodash to sort array of object by value",
+      "accepted_answer_id": 43371146,
+      "score": 158,
+      "link": "https://stackoverflow.com/questions/43371092/use-lodash-to-sort-array-of-object-by-value",
+      "owner": {
+        "display_name": "user4831663",
+        "link": null
+      }
+    },
+    {
+      "question_id": 23600897,
+      "title": "using lodash .groupBy. how to add your own keys for grouped output?",
+      "accepted_answer_id": 23600960,
+      "score": 156,
+      "link": "https://stackoverflow.com/questions/23600897/using-lodash-groupby-how-to-add-your-own-keys-for-grouped-output",
+      "owner": {
+        "display_name": "user1767105",
+        "link": "https://stackoverflow.com/users/1767105/user1767105"
+      }
+    },
+    {
+      "question_id": 19023226,
+      "title": "Map over object preserving keys",
+      "accepted_answer_id": 19023387,
+      "score": 155,
+      "link": "https://stackoverflow.com/questions/19023226/map-over-object-preserving-keys",
+      "owner": {
+        "display_name": "xuanji",
+        "link": "https://stackoverflow.com/users/910052/xuanji"
+      }
+    },
+    {
+      "question_id": 54666401,
+      "title": "How to use throttle or debounce with React Hook?",
+      "accepted_answer_id": 54666498,
+      "score": 153,
+      "link": "https://stackoverflow.com/questions/54666401/how-to-use-throttle-or-debounce-with-react-hook",
+      "owner": {
+        "display_name": "Alexandre Annic",
+        "link": "https://stackoverflow.com/users/5735030/alexandre-annic"
+      }
+    },
+    {
+      "question_id": 37848030,
+      "title": "Lodash : how to do a case insensitive sorting on a collection using orderBy?",
+      "accepted_answer_id": 37848098,
+      "score": 128,
+      "link": "https://stackoverflow.com/questions/37848030/lodash-how-to-do-a-case-insensitive-sorting-on-a-collection-using-orderby",
+      "owner": {
+        "display_name": "WhiteEleven",
+        "link": "https://stackoverflow.com/users/6471120/whiteeleven"
+      }
+    },
+    {
+      "question_id": 40329742,
+      "title": "Removing object properties with Lodash",
+      "accepted_answer_id": 40329942,
+      "score": 121,
+      "link": "https://stackoverflow.com/questions/40329742/removing-object-properties-with-lodash",
+      "owner": {
+        "display_name": "Alaksandar Jesus Gene",
+        "link": "https://stackoverflow.com/users/2491541/alaksandar-jesus-gene"
+      }
+    },
+    {
+      "question_id": 26795643,
+      "title": "How to convert object containing Objects into array of objects",
+      "accepted_answer_id": 40242405,
+      "score": 108,
+      "link": "https://stackoverflow.com/questions/26795643/how-to-convert-object-containing-objects-into-array-of-objects",
+      "owner": {
+        "display_name": "Nick Div",
+        "link": "https://stackoverflow.com/users/1787314/nick-div"
+      }
+    },
+    {
+      "question_id": 12931828,
+      "title": "Convert returned JSON Object Properties to (lower first) camelCase",
+      "accepted_answer_id": 26215431,
+      "score": 107,
+      "link": "https://stackoverflow.com/questions/12931828/convert-returned-json-object-properties-to-lower-first-camelcase",
+      "owner": {
+        "display_name": "Jon Wells",
+        "link": "https://stackoverflow.com/users/874927/jon-wells"
+      }
+    },
+    {
+      "question_id": 8566667,
+      "title": "Split JavaScript array in chunks using Lodash",
+      "accepted_answer_id": 29081184,
+      "score": 107,
+      "link": "https://stackoverflow.com/questions/8566667/split-javascript-array-in-chunks-using-lodash",
+      "owner": {
+        "display_name": "Cesar Canassa",
+        "link": "https://stackoverflow.com/users/360829/cesar-canassa"
+      }
+    },
+    {
+      "question_id": 24306290,
+      "title": "lodash debounce not working in anonymous function",
+      "accepted_answer_id": 24321972,
+      "score": 100,
+      "link": "https://stackoverflow.com/questions/24306290/lodash-debounce-not-working-in-anonymous-function",
+      "owner": {
+        "display_name": "Kristian Barrett",
+        "link": "https://stackoverflow.com/users/1387545/kristian-barrett"
+      }
+    },
+    {
+      "question_id": 18881487,
+      "title": "Why is lodash.each faster than native forEach?",
+      "accepted_answer_id": 18884620,
+      "score": 83,
+      "link": "https://stackoverflow.com/questions/18881487/why-is-lodash-each-faster-than-native-foreach",
+      "owner": {
+        "display_name": "Matt Zukowski",
+        "link": "https://stackoverflow.com/users/233370/matt-zukowski"
+      }
+    },
+    {
+      "question_id": 32965688,
+      "title": "Comparing two arrays of objects, and exclude the elements who match values into new array in JS",
+      "accepted_answer_id": 32966051,
+      "score": 79,
+      "link": "https://stackoverflow.com/questions/32965688/comparing-two-arrays-of-objects-and-exclude-the-elements-who-match-values-into",
+      "owner": {
+        "display_name": "Leo",
+        "link": "https://stackoverflow.com/users/1803345/leo"
+      }
+    },
+    {
+      "question_id": 37073774,
+      "title": "Using lodash push to an array only if value doesn&#39;t exist?",
+      "accepted_answer_id": 37073878,
+      "score": 77,
+      "link": "https://stackoverflow.com/questions/37073774/using-lodash-push-to-an-array-only-if-value-doesnt-exist",
+      "owner": {
+        "display_name": "Max Lynn",
+        "link": "https://stackoverflow.com/users/5070590/max-lynn"
+      }
+    },
+    {
+      "question_id": 35590543,
+      "title": "How do you chain functions using lodash?",
+      "accepted_answer_id": 35590589,
+      "score": 77,
+      "link": "https://stackoverflow.com/questions/35590543/how-do-you-chain-functions-using-lodash",
+      "owner": {
+        "display_name": "Datsik",
+        "link": "https://stackoverflow.com/users/2128168/datsik"
+      }
+    },
+    {
+      "question_id": 17096988,
+      "title": "Lodash: how do I use filter when I have nested Object?",
+      "accepted_answer_id": 17098250,
+      "score": 77,
+      "link": "https://stackoverflow.com/questions/17096988/lodash-how-do-i-use-filter-when-i-have-nested-object",
+      "owner": {
+        "display_name": "daydreamer",
+        "link": "https://stackoverflow.com/users/379235/daydreamer"
+      }
+    },
+    {
+      "question_id": 35182904,
+      "title": "Filtering array of objects with lodash based on property value",
+      "accepted_answer_id": 35183231,
+      "score": 76,
+      "link": "https://stackoverflow.com/questions/35182904/filtering-array-of-objects-with-lodash-based-on-property-value",
+      "owner": {
+        "display_name": "sarsnake",
+        "link": "https://stackoverflow.com/users/57997/sarsnake"
+      }
+    },
+    {
+      "question_id": 37694243,
+      "title": "Using lodash in all of vue component template",
+      "accepted_answer_id": 43556280,
+      "score": 75,
+      "link": "https://stackoverflow.com/questions/37694243/using-lodash-in-all-of-vue-component-template",
+      "owner": {
+        "display_name": "antoniputra",
+        "link": "https://stackoverflow.com/users/2230192/antoniputra"
+      }
+    },
+    {
+      "question_id": 40965727,
+      "title": "Sort array of objects with date field by date",
+      "accepted_answer_id": 40965804,
+      "score": 72,
+      "link": "https://stackoverflow.com/questions/40965727/sort-array-of-objects-with-date-field-by-date",
+      "owner": {
+        "display_name": "wonder95",
+        "link": "https://stackoverflow.com/users/391054/wonder95"
+      }
+    },
+    {
+      "question_id": 35502450,
+      "title": "lodash _.find all matches",
+      "accepted_answer_id": 35502881,
+      "score": 67,
+      "link": "https://stackoverflow.com/questions/35502450/lodash-find-all-matches",
+      "owner": {
+        "display_name": "Andurit",
+        "link": "https://stackoverflow.com/users/2584910/andurit"
+      }
+    },
+    {
+      "question_id": 23862119,
+      "title": "How to make lodash work with Angular JS?",
+      "accepted_answer_id": 25086064,
+      "score": 67,
+      "link": "https://stackoverflow.com/questions/23862119/how-to-make-lodash-work-with-angular-js",
+      "owner": {
+        "display_name": "diegoaguilar",
+        "link": "https://stackoverflow.com/users/742560/diegoaguilar"
+      }
+    },
+    {
+      "question_id": 39127565,
+      "title": "Merge Array of Objects by Property using Lodash",
+      "accepted_answer_id": 39127782,
+      "score": 65,
+      "link": "https://stackoverflow.com/questions/39127565/merge-array-of-objects-by-property-using-lodash",
+      "owner": {
+        "display_name": "benjiman",
+        "link": "https://stackoverflow.com/users/1372783/benjiman"
+      }
+    },
+    {
+      "question_id": 17251764,
+      "title": "lodash Filter collection using array of values",
+      "accepted_answer_id": 18830961,
+      "score": 64,
+      "link": "https://stackoverflow.com/questions/17251764/lodash-filter-collection-using-array-of-values",
+      "owner": {
+        "display_name": "Amitava",
+        "link": "https://stackoverflow.com/users/878286/amitava"
+      }
+    },
+    {
+      "question_id": 21851974,
+      "title": "Lodash .clone and .cloneDeep behaviors",
+      "accepted_answer_id": 21855227,
+      "score": 63,
+      "link": "https://stackoverflow.com/questions/21851974/lodash-clone-and-clonedeep-behaviors",
+      "owner": {
+        "display_name": "GG.",
+        "link": "https://stackoverflow.com/users/652669/gg"
+      }
+    },
+    {
+      "question_id": 28947253,
+      "title": "Sort array with lodash by value (integer)",
+      "accepted_answer_id": 28948824,
+      "score": 61,
+      "link": "https://stackoverflow.com/questions/28947253/sort-array-with-lodash-by-value-integer",
+      "owner": {
+        "display_name": "Merc",
+        "link": "https://stackoverflow.com/users/1121268/merc"
+      }
+    },
+    {
+      "question_id": 21536627,
+      "title": "What&#39;s the difference between transform and reduce in lodash",
+      "accepted_answer_id": 21536978,
+      "score": 61,
+      "link": "https://stackoverflow.com/questions/21536627/whats-the-difference-between-transform-and-reduce-in-lodash",
+      "owner": {
+        "display_name": "Kris Erickson",
+        "link": "https://stackoverflow.com/users/3798/kris-erickson"
+      }
+    },
+    {
+      "question_id": 44312924,
+      "title": "Filter array of objects whose any properties contains a value",
+      "accepted_answer_id": 44313087,
+      "score": 59,
+      "link": "https://stackoverflow.com/questions/44312924/filter-array-of-objects-whose-any-properties-contains-a-value",
+      "owner": {
+        "display_name": "L&#233;o Coco",
+        "link": "https://stackoverflow.com/users/6068447/l%c3%a9o-coco"
+      }
+    },
+    {
+      "question_id": 36294134,
+      "title": "Lodash debounce with React Input",
+      "accepted_answer_id": 36295651,
+      "score": 59,
+      "link": "https://stackoverflow.com/questions/36294134/lodash-debounce-with-react-input",
+      "owner": {
+        "display_name": "Michael Kaufman",
+        "link": "https://stackoverflow.com/users/862524/michael-kaufman"
+      }
+    },
+    {
+      "question_id": 37922967,
+      "title": "Exclude some properties in comparison using isEqual() of lodash",
+      "accepted_answer_id": 37934915,
+      "score": 58,
+      "link": "https://stackoverflow.com/questions/37922967/exclude-some-properties-in-comparison-using-isequal-of-lodash",
+      "owner": {
+        "display_name": "Marco Santos",
+        "link": "https://stackoverflow.com/users/5622012/marco-santos"
+      }
+    },
+    {
+      "question_id": 33266946,
+      "title": "How to stop lodash.js _.each loop?",
+      "accepted_answer_id": 33266963,
+      "score": 56,
+      "link": "https://stackoverflow.com/questions/33266946/how-to-stop-lodash-js-each-loop",
+      "owner": {
+        "display_name": "Michael",
+        "link": "https://stackoverflow.com/users/1067943/michael"
+      }
+    },
+    {
+      "question_id": 23254881,
+      "title": "Difference between _.forEach and _.forOwn in lodash",
+      "accepted_answer_id": 23387961,
+      "score": 54,
+      "link": "https://stackoverflow.com/questions/23254881/difference-between-foreach-and-forown-in-lodash",
+      "owner": {
+        "display_name": "Novellizator",
+        "link": "https://stackoverflow.com/users/919348/novellizator"
+      }
+    },
+    {
+      "question_id": 21088845,
+      "title": "Can I debounce or throttle a watched &lt;input&gt; in AngularJS using _lodash?",
+      "accepted_answer_id": 21090587,
+      "score": 54,
+      "link": "https://stackoverflow.com/questions/21088845/can-i-debounce-or-throttle-a-watched-input-in-angularjs-using-lodash",
+      "owner": {
+        "display_name": "user1943020",
+        "link": null
+      }
+    },
+    {
+      "question_id": 39246101,
+      "title": "Deep Merge using Lodash",
+      "accepted_answer_id": 39257322,
+      "score": 51,
+      "link": "https://stackoverflow.com/questions/39246101/deep-merge-using-lodash",
+      "owner": {
+        "display_name": "benjiman",
+        "link": "https://stackoverflow.com/users/1372783/benjiman"
+      }
+    },
+    {
+      "question_id": 37523996,
+      "title": "lodash: check object is empty",
+      "accepted_answer_id": 37524088,
+      "score": 50,
+      "link": "https://stackoverflow.com/questions/37523996/lodash-check-object-is-empty",
+      "owner": {
+        "display_name": "Meldum",
+        "link": "https://stackoverflow.com/users/6400056/meldum"
+      }
+    },
+    {
+      "question_id": 35562307,
+      "title": "&quot;Count where&quot; in a collection",
+      "accepted_answer_id": 35562989,
+      "score": 50,
+      "link": "https://stackoverflow.com/questions/35562307/count-where-in-a-collection",
+      "owner": {
+        "display_name": "swelet",
+        "link": "https://stackoverflow.com/users/2768271/swelet"
+      }
+    },
+    {
+      "question_id": 47809666,
+      "title": "Lodash debounce not working in React",
+      "accepted_answer_id": 47809802,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/47809666/lodash-debounce-not-working-in-react",
+      "owner": {
+        "display_name": "user818700",
+        "link": null
+      }
+    },
+    {
+      "question_id": 46202704,
+      "title": "How to break _.forEach in lodash?",
+      "accepted_answer_id": 46202731,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/46202704/how-to-break-foreach-in-lodash",
+      "owner": {
+        "display_name": "Mangesh Darekar",
+        "link": "https://stackoverflow.com/users/8573877/mangesh-darekar"
+      }
+    },
+    {
+      "question_id": 45178621,
+      "title": "How to correctly use Vue JS watch with lodash debounce",
+      "accepted_answer_id": 45178679,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/45178621/how-to-correctly-use-vue-js-watch-with-lodash-debounce",
+      "owner": {
+        "display_name": "Artur Grigio",
+        "link": "https://stackoverflow.com/users/2321515/artur-grigio"
+      }
+    },
+    {
+      "question_id": 31136422,
+      "title": "Flatten array with objects into 1 object",
+      "accepted_answer_id": 31136464,
+      "score": 48,
+      "link": "https://stackoverflow.com/questions/31136422/flatten-array-with-objects-into-1-object",
+      "owner": {
+        "display_name": "Szymon Toda",
+        "link": "https://stackoverflow.com/users/1368173/szymon-toda"
+      }
+    },
+    {
+      "question_id": 28719795,
+      "title": "Lodash sort collection based on external array",
+      "accepted_answer_id": 28719938,
+      "score": 48,
+      "link": "https://stackoverflow.com/questions/28719795/lodash-sort-collection-based-on-external-array",
+      "owner": {
+        "display_name": "silintzir",
+        "link": "https://stackoverflow.com/users/1827711/silintzir"
+      }
+    },
+    {
+      "question_id": 19313164,
+      "title": "Sort items in an array by more than one field with lodash",
+      "accepted_answer_id": 24111473,
+      "score": 48,
+      "link": "https://stackoverflow.com/questions/19313164/sort-items-in-an-array-by-more-than-one-field-with-lodash",
+      "owner": {
+        "display_name": "Andreas K&#246;berle",
+        "link": "https://stackoverflow.com/users/184883/andreas-k%c3%b6berle"
+      }
+    },
+    {
+      "question_id": 40656124,
+      "title": "Lodash / javascript : Compare two collections and return the differences",
+      "accepted_answer_id": 40656292,
+      "score": 47,
+      "link": "https://stackoverflow.com/questions/40656124/lodash-javascript-compare-two-collections-and-return-the-differences",
+      "owner": {
+        "display_name": "Nacim Idjakirene",
+        "link": "https://stackoverflow.com/users/2125067/nacim-idjakirene"
+      }
+    },
+    {
+      "question_id": 36606105,
+      "title": "lodash orderBy on nested property",
+      "accepted_answer_id": 36606220,
+      "score": 47,
+      "link": "https://stackoverflow.com/questions/36606105/lodash-orderby-on-nested-property",
+      "owner": {
+        "display_name": "Sudhakar",
+        "link": "https://stackoverflow.com/users/1105556/sudhakar"
+      }
+    },
+    {
+      "question_id": 25764719,
+      "title": "Update if exists or add new element to array of objects - elegant way in javascript + lodash",
+      "accepted_answer_id": 25765351,
+      "score": 47,
+      "link": "https://stackoverflow.com/questions/25764719/update-if-exists-or-add-new-element-to-array-of-objects-elegant-way-in-javascr",
+      "owner": {
+        "display_name": "ganqqwerty",
+        "link": "https://stackoverflow.com/users/420034/ganqqwerty"
+      }
+    },
+    {
+      "question_id": 15642494,
+      "title": "Find property by name in a deep object",
+      "accepted_answer_id": 15643385,
+      "score": 47,
+      "link": "https://stackoverflow.com/questions/15642494/find-property-by-name-in-a-deep-object",
+      "owner": {
+        "display_name": "Shanimal",
+        "link": "https://stackoverflow.com/users/511795/shanimal"
+      }
+    },
+    {
+      "question_id": 67823035,
+      "title": "How to make Lodash sortBy() to sort data to descending order?",
+      "accepted_answer_id": 67823441,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/67823035/how-to-make-lodash-sortby-to-sort-data-to-descending-order",
+      "owner": {
+        "display_name": "Nine3KiD",
+        "link": "https://stackoverflow.com/users/6148572/nine3kid"
+      }
+    },
+    {
+      "question_id": 41210867,
+      "title": "React Native: Using lodash debounce",
+      "accepted_answer_id": 58594890,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/41210867/react-native-using-lodash-debounce",
+      "owner": {
+        "display_name": "Norfeldt",
+        "link": "https://stackoverflow.com/users/618099/norfeldt"
+      }
+    },
+    {
+      "question_id": 40710628,
+      "title": "How to convert snake_case to camelCase?",
+      "accepted_answer_id": 40710684,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/40710628/how-to-convert-snake-case-to-camelcase",
+      "owner": {
+        "display_name": "Jwqq",
+        "link": "https://stackoverflow.com/users/6480044/jwqq"
+      }
+    },
+    {
+      "question_id": 41138820,
+      "title": "lodash orderby with null and real values not ordering correctly",
+      "accepted_answer_id": 41139912,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/41138820/lodash-orderby-with-null-and-real-values-not-ordering-correctly",
+      "owner": {
+        "display_name": "Ben Cameron",
+        "link": "https://stackoverflow.com/users/574130/ben-cameron"
+      }
+    },
+    {
+      "question_id": 36429732,
+      "title": "How make lodash _.replace all occurrence in a string?",
+      "accepted_answer_id": 36429733,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/36429732/how-make-lodash-replace-all-occurrence-in-a-string",
+      "owner": {
+        "display_name": "Anthony",
+        "link": "https://stackoverflow.com/users/2733216/anthony"
+      }
+    },
+    {
+      "question_id": 35325767,
+      "title": "Map an array of arrays",
+      "accepted_answer_id": 35325938,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/35325767/map-an-array-of-arrays",
+      "owner": {
+        "display_name": "bwbrowning",
+        "link": "https://stackoverflow.com/users/506898/bwbrowning"
+      }
+    },
+    {
+      "question_id": 35214757,
+      "title": "Where is _.pluck() in lodash version 4?",
+      "accepted_answer_id": 35214766,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/35214757/where-is-pluck-in-lodash-version-4",
+      "owner": {
+        "display_name": "Joe Hawkins",
+        "link": "https://stackoverflow.com/users/2411859/joe-hawkins"
+      }
+    },
+    {
+      "question_id": 31973278,
+      "title": "Iterate an array as a pair (current, next) in JavaScript",
+      "accepted_answer_id": 31973533,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/31973278/iterate-an-array-as-a-pair-current-next-in-javascript",
+      "owner": {
+        "display_name": "therealrootuser",
+        "link": "https://stackoverflow.com/users/3161093/therealrootuser"
+      }
+    },
+    {
+      "question_id": 31681732,
+      "title": "lodash: Get duplicate values from an array",
+      "accepted_answer_id": 31681942,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/31681732/lodash-get-duplicate-values-from-an-array",
+      "owner": {
+        "display_name": "zianwar",
+        "link": "https://stackoverflow.com/users/3235127/zianwar"
+      }
+    },
+    {
+      "question_id": 30107463,
+      "title": "Find object by match property in nested array",
+      "accepted_answer_id": 30111321,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/30107463/find-object-by-match-property-in-nested-array",
+      "owner": {
+        "display_name": "helion3",
+        "link": "https://stackoverflow.com/users/143269/helion3"
+      }
+    },
+    {
+      "question_id": 24560892,
+      "title": "Sort array of JavaScript objects by property value",
+      "accepted_answer_id": 24561031,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/24560892/sort-array-of-javascript-objects-by-property-value",
+      "owner": {
+        "display_name": "user70192",
+        "link": "https://stackoverflow.com/users/70192/user70192"
+      }
+    },
+    {
+      "question_id": 23921647,
+      "title": "Lo-Dash, difference between array and collection",
+      "accepted_answer_id": 23922041,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/23921647/lo-dash-difference-between-array-and-collection",
+      "owner": {
+        "display_name": "aug2uag",
+        "link": "https://stackoverflow.com/users/1546710/aug2uag"
+      }
+    },
+    {
+      "question_id": 40819973,
+      "title": "Typescript type casting when destructuring",
+      "accepted_answer_id": 40821882,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/40819973/typescript-type-casting-when-destructuring",
+      "owner": {
+        "display_name": "Alkis Kalogeris",
+        "link": "https://stackoverflow.com/users/1138559/alkis-kalogeris"
+      }
+    },
+    {
+      "question_id": 37065663,
+      "title": "Array of object deep comparison with lodash",
+      "accepted_answer_id": 37066038,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/37065663/array-of-object-deep-comparison-with-lodash",
+      "owner": {
+        "display_name": "Archer",
+        "link": "https://stackoverflow.com/users/198087/archer"
+      }
+    },
+    {
+      "question_id": 29282273,
+      "title": "Filtering object properties based on value",
+      "accepted_answer_id": 29288142,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/29282273/filtering-object-properties-based-on-value",
+      "owner": {
+        "display_name": "user3598395",
+        "link": "https://stackoverflow.com/users/3598395/user3598395"
+      }
+    },
+    {
+      "question_id": 53212020,
+      "title": "Get list of duplicate objects in an array of objects",
+      "accepted_answer_id": 53212154,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/53212020/get-list-of-duplicate-objects-in-an-array-of-objects",
+      "owner": {
+        "display_name": "josh_boaz",
+        "link": "https://stackoverflow.com/users/2747920/josh-boaz"
+      }
+    },
+    {
+      "question_id": 40836239,
+      "title": "Set all Object keys to false",
+      "accepted_answer_id": 40836350,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/40836239/set-all-object-keys-to-false",
+      "owner": {
+        "display_name": "chefcurry7",
+        "link": "https://stackoverflow.com/users/5241780/chefcurry7"
+      }
+    },
+    {
+      "question_id": 40139667,
+      "title": "Lodash group by multiple properties if property value is true",
+      "accepted_answer_id": 40140347,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/40139667/lodash-group-by-multiple-properties-if-property-value-is-true",
+      "owner": {
+        "display_name": "neridaj",
+        "link": "https://stackoverflow.com/users/772264/neridaj"
+      }
+    },
+    {
+      "question_id": 37276787,
+      "title": "Lodash map and return unique",
+      "accepted_answer_id": 37276912,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/37276787/lodash-map-and-return-unique",
+      "owner": {
+        "display_name": "stackunderflow",
+        "link": "https://stackoverflow.com/users/3241177/stackunderflow"
+      }
+    },
+    {
+      "question_id": 28044373,
+      "title": "Use Lo-Dash merge without modifying underlying object",
+      "accepted_answer_id": 28044419,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/28044373/use-lo-dash-merge-without-modifying-underlying-object",
+      "owner": {
+        "display_name": "JacobF",
+        "link": "https://stackoverflow.com/users/2139452/jacobf"
+      }
+    },
+    {
+      "question_id": 43384596,
+      "title": "Can you please explain Lodash Iteratee function in English?",
+      "accepted_answer_id": 43395675,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/43384596/can-you-please-explain-lodash-iteratee-function-in-english",
+      "owner": {
+        "display_name": "johnwick0831",
+        "link": "https://stackoverflow.com/users/3814557/johnwick0831"
+      }
+    },
+    {
+      "question_id": 43249707,
+      "title": "&quot;Continue&quot; in Lodash forEach",
+      "accepted_answer_id": 43249745,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/43249707/continue-in-lodash-foreach",
+      "owner": {
+        "display_name": "IceWhisper",
+        "link": "https://stackoverflow.com/users/2279567/icewhisper"
+      }
+    },
+    {
+      "question_id": 37615086,
+      "title": "How to filter a dictionary by value in JavaScript?",
+      "accepted_answer_id": 37615234,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/37615086/how-to-filter-a-dictionary-by-value-in-javascript",
+      "owner": {
+        "display_name": "neo33",
+        "link": "https://stackoverflow.com/users/5636645/neo33"
+      }
+    },
+    {
+      "question_id": 28461014,
+      "title": "Using lodash to check whether an array has duplicate values",
+      "accepted_answer_id": 28461122,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/28461014/using-lodash-to-check-whether-an-array-has-duplicate-values",
+      "owner": {
+        "display_name": "nackjicholson",
+        "link": "https://stackoverflow.com/users/1196339/nackjicholson"
+      }
+    },
+    {
+      "question_id": 76030996,
+      "title": "How to use debounce with useQuery in React Query?",
+      "accepted_answer_id": 76031705,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/76030996/how-to-use-debounce-with-usequery-in-react-query",
+      "owner": {
+        "display_name": "Tiramisu",
+        "link": "https://stackoverflow.com/users/21659811/tiramisu"
+      }
+    },
+    {
+      "question_id": 71401443,
+      "title": "Differences between Lodash and Ramda",
+      "accepted_answer_id": 71403954,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/71401443/differences-between-lodash-and-ramda",
+      "owner": {
+        "display_name": "Jose Andr&#233;s",
+        "link": "https://stackoverflow.com/users/11026428/jose-andr%c3%a9s"
+      }
+    },
+    {
+      "question_id": 36259921,
+      "title": "NodeJS find object in array by value of a key",
+      "accepted_answer_id": 36260104,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/36259921/nodejs-find-object-in-array-by-value-of-a-key",
+      "owner": {
+        "display_name": "Ariel Weinberger",
+        "link": "https://stackoverflow.com/users/6050908/ariel-weinberger"
+      }
+    },
+    {
+      "question_id": 52852167,
+      "title": "How to use lodash-es in typescript correctly?",
+      "accepted_answer_id": 52855863,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/52852167/how-to-use-lodash-es-in-typescript-correctly",
+      "owner": {
+        "display_name": "Freewind",
+        "link": "https://stackoverflow.com/users/342235/freewind"
+      }
+    },
+    {
+      "question_id": 48668430,
+      "title": "Add property to object only if value is defined",
+      "accepted_answer_id": 48668526,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/48668430/add-property-to-object-only-if-value-is-defined",
+      "owner": {
+        "display_name": "Fr&#233;d&#233;ric Espiau",
+        "link": "https://stackoverflow.com/users/8934148/fr%c3%a9d%c3%a9ric-espiau"
+      }
+    },
+    {
+      "question_id": 16229479,
+      "title": "How to perform union or intersection on an array of arrays with Underscore.js",
+      "accepted_answer_id": 16229480,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/16229479/how-to-perform-union-or-intersection-on-an-array-of-arrays-with-underscore-js",
+      "owner": {
+        "display_name": "Nandeep Mali",
+        "link": "https://stackoverflow.com/users/1505757/nandeep-mali"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 28461122,
+      "body": "<p>You can use <code>uniq</code> to check:</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"false\" data-babel=\"false\" data-babel-preset-react=\"false\" data-babel-preset-ts=\"false\">\n<div class=\"snippet-code\">\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>function hasDuplicates(a) {\n  return _.uniq(a).length !== a.length; \n}\n\nvar a = [1,2,1,3,4,5];\nvar b = [1,2,3,4,5,6];\n\ndocument.write(hasDuplicates(a), ',',hasDuplicates(b));</code></pre>\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"http://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.1.0/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\n</div>\n</div>\n</p>\n",
+      "owner": {
+        "display_name": "agershun",
+        "link": "https://stackoverflow.com/users/3320509/agershun"
+      }
+    },
+    {
+      "answer_id": 54666498,
+      "body": "<p>From the 2025 the best pattern I saw yet is(and other users noticed that below, please upvote their answers not mine):</p>\n<pre><code>  const [search, setSearch] = useState('')\n\n  const onSearch = useMemo(\n    () =&gt;\n      debounce((phrase: string) =&gt; {\n        setSearch(phrase)\n      }, SEARCH_DELAY),\n    [],\n  )\n\n  useEffect(() =&gt; {\n    return () =&gt; onSearch.cancel()\n  }, [onSearch])\n</code></pre>\n<p>For controlled component, though, we don't want to have a delay between keypress and character appearing in the field. In this case you may have <em>two</em> different state - one for the field value which is updated immediately and another - debounced - for a search value.</p>\n<p>There were other users were noticing this approach, but my answer is listed first and I want to communicate that old answer is not relevant any more(or have never been?).</p>\n<p><strong>original answer below</strong></p>\n<p>you may(and probably need) <a href=\"https://reactjs.org/docs/hooks-faq.html#is-there-something-like-instance-variables\" rel=\"nofollow noreferrer\"><code>useRef</code></a> to store value between renders. Just like it's <a href=\"https://overreacted.io/making-setinterval-declarative-with-react-hooks/\" rel=\"nofollow noreferrer\">suggested for timers</a></p>\n<p>Something like that</p>\n<pre><code>const App = () =&gt; {\n  const [value, setValue] = useState(0)\n  const throttled = useRef(throttle((newValue) =&gt; console.log(newValue), 1000))\n  \n  useEffect(() =&gt; throttled.current(value), [value])\n  \n  return (\n    &lt;button onClick={() =&gt; setValue(value + 1)}&gt;{value}&lt;/button&gt;\n  )\n}\n</code></pre>\n<p><strong>As for <code>useCallback</code>:</strong></p>\n<p>It may work too as</p>\n<pre><code>const throttled = useCallback(throttle(newValue =&gt; console.log(newValue), 1000), []);\n</code></pre>\n<p>But if we try to recreate callback once <code>value</code> is changed:</p>\n<pre><code>const throttled = useCallback(throttle(() =&gt; console.log(value), 1000), [value]);\n</code></pre>\n<p>we may find it does not delay execution: once <code>value</code> is changed callback is immediately re-created and executed.</p>\n<p>So I see <code>useCallback</code> in case of delayed run does not provide significant advantage. It's up to you.</p>\n<p>[UPD] initially it was</p>\n<pre><code>  const throttled = useRef(throttle(() =&gt; console.log(value), 1000))\n  \n  useEffect(throttled.current, [value])\n</code></pre>\n<p>but that way <code>throttled.current</code> has bound to initial <code>value</code>(of 0) by closure. So it was never changed even on next renders.</p>\n<p>So be careful while pushing functions into <code>useRef</code> because of closure feature.</p>\n",
+      "owner": {
+        "display_name": "skyboyer",
+        "link": "https://stackoverflow.com/users/2071697/skyboyer"
+      }
+    },
+    {
+      "answer_id": 35206193,
+      "body": "<p>You can use <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex\" rel=\"noreferrer\">findIndex</a> to find the index in the array of the object and replace it as required:</p>\n<pre><code>var item = {...}\nvar items = [{id:2}, {id:2}, {id:2}];\n\nvar foundIndex = items.findIndex(x =&gt; x.id == item.id);\nitems[foundIndex] = item;\n</code></pre>\n<p>This assumes unique IDs. If your IDs are duplicated (as in your example), it's probably better if you use <code>forEach</code>:</p>\n<pre><code>items.forEach((element, index) =&gt; {\n    if(element.id === item.id) {\n        items[index] = item;\n    }\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "CodingIntrigue",
+        "link": "https://stackoverflow.com/users/571194/codingintrigue"
+      }
+    },
+    {
+      "answer_id": 31681942,
+      "body": "<p>You can use this:</p>\n<pre class=\"lang-js prettyprint-override\"><code>_.filter(arr, (val, i, iteratee) =&gt; _.includes(iteratee, val, i + 1))\n</code></pre>\n<p>or without using lodash, you can use plain JavaScript:</p>\n<pre class=\"lang-js prettyprint-override\"><code>arr.filter((val, i) =&gt; arr.includes(val, i + 1))\n</code></pre>\n<p><strong>Note</strong>: that if a number appears more than two times in your array you can always use <code>_.uniq</code>.</p>\n",
+      "owner": {
+        "display_name": "saadel",
+        "link": "https://stackoverflow.com/users/5061111/saadel"
+      }
+    },
+    {
+      "answer_id": 35251059,
+      "body": "<p><code>import has from 'lodash/has';</code> is better because lodash holds all its functions in a single file, so rather than import the whole 'lodash' library at 100k, it's better to just import lodash's <code>has</code> function which is maybe 2k.</p>\n",
+      "owner": {
+        "display_name": "Bill",
+        "link": "https://stackoverflow.com/users/409275/bill"
+      }
+    },
+    {
+      "answer_id": 53212154,
+      "body": "<p>You can use <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce\" rel=\"nofollow noreferrer\"><code>Array#reduce</code></a> to make a counter lookup table based on the <code>id</code> key, then use <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter\" rel=\"nofollow noreferrer\"><code>Array#filter</code></a> to remove any items that appeared only once in the lookup table. Time complexity is O(n).</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>const values = [{id: 10, name: 'someName1'}, {id: 10, name: 'someName2'}, {id: 11, name:'someName3'}, {id: 12, name: 'someName4'}];\n\nconst lookup = values.reduce((a, e) =&gt; {\n  a[e.id] = ++a[e.id] || 0;\n  return a;\n}, {});\n\nconsole.log(values.filter(e =&gt; lookup[e.id]));</code></pre>\r\n</div>\r\n</div>\r\n</p>\n<p>You can simplify this if your browser supports <code>Object.groupBy</code>:</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>const values = [{id: 10, name: 'someName1'}, {id: 10, name: 'someName2'}, {id: 11, name:'someName3'}, {id: 12, name: 'someName4'}];\n\nconst lookup = Object.groupBy(values, e =&gt; e.id);\nconsole.log(values.filter(e =&gt; lookup[e.id].length &gt; 1));</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "ggorlen",
+        "link": "https://stackoverflow.com/users/6243352/ggorlen"
+      }
+    },
+    {
+      "answer_id": 58594890,
+      "body": "<p>Use the <code>useCallback</code> React hook.</p>\n<p>After trying many different approaches, I found using <code>useCallback</code> to be the simplest and most efficient at solving the multiple calls problem.</p>\n<p>As per the <a href=\"https://reactjs.org/docs/hooks-reference.html#usecallback\" rel=\"noreferrer\">Hooks API documentation</a>,</p>\n<blockquote>\n<p><code>useCallback</code> will return a memorized version of the callback that only changes if one of the dependencies has changed.</p>\n</blockquote>\n<p>Passing an empty array as a dependency makes sure the callback is called only once. Here's a simple implementation.</p>\n<pre><code>import React, { useCallback } from &quot;react&quot;;\nimport { debounce } from &quot;lodash&quot;;\n\nconst handler = useCallback(debounce(someFunction, 2000), []);\n    \nconst onChange = (event) =&gt; {\n    // perform any event related action here\n    \n    handler();\n };\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sameer Ingavale",
+        "link": "https://stackoverflow.com/users/12146436/sameer-ingavale"
+      }
+    },
+    {
+      "answer_id": 31136464,
+      "body": "<p>Use <a href=\"https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign\" rel=\"noreferrer\"><code>Object.assign</code></a>:</p>\n<pre><code>let merged = Object.assign({}, ...arr); // ES6 (2015) syntax\n\nvar merged = Object.assign.apply(Object, arr); // ES5 syntax\n</code></pre>\n<p>Note that <code>Object.assign</code> is not yet implemented in many environment and you might need to polyfill it (either with core-js, another polyfill or using the polyfill on MDN).</p>\n<p>You mentioned lodash, so it's worth pointing out it comes with a <code>_.assign</code> function for this purpose that does the same thing:</p>\n<pre><code> var merged = _.assign.apply(_, [{ a: 1 }, { b: 2 }, { c: 3 }]);\n</code></pre>\n<p>But I really recommend the new standard library way.</p>\n",
+      "owner": {
+        "display_name": "Benjamin Gruenbaum",
+        "link": "https://stackoverflow.com/users/1348195/benjamin-gruenbaum"
+      }
+    },
+    {
+      "answer_id": 76031705,
+      "body": "<p>You can utilize the <a href=\"https://usehooks.com/useDebounce/\" rel=\"noreferrer\">useDebounce</a> hook to trigger a <code>queryKey</code> update in react-query instead of using the <code>debounce</code> function from the Underscore library.</p>\n<p>For example:</p>\n<pre><code>const [searchParams, setSearchParams] = useDebounce([category_id, sortPrice, minPrice, maxPrice, page, categoryFilters], 1000)\nconst productsQuery = useQuery({ queryKey: ['products', ...searchParams], queryFn: fetchProducts, keepPreviousData: true, staleTime: 1000 });\n\n</code></pre>\n<p><code>useDebounce</code> is applied to the searchParams array, which includes variables like category_id, sortPrice, minPrice, maxPrice, page, and categoryFilters.</p>\n<p>The debounce delay is set to 1000 milliseconds (1 second). The productsQuery then uses the debounced search parameters in its query key, ensuring that the <code>fetchProducts</code> function is only called when the debounced search parameters change.</p>\n<p>You can find a working <code>useDebounce</code> example in this <a href=\"https://codesandbox.io/s/ted8o\" rel=\"noreferrer\">codesandbox example</a></p>\n",
+      "owner": {
+        "display_name": "Cody Chang",
+        "link": "https://stackoverflow.com/users/13896680/cody-chang"
+      }
+    },
+    {
+      "answer_id": 71403954,
+      "body": "<p><strong>Dislaimer</strong>: I'm one of the founders and chief maintainers of Ramda, so I'm sure this answer will include some personal bias.  I'll try hard not to let it get out of hand.</p>\n<h2>Overview</h2>\n<p>As to this part of the question:</p>\n<blockquote>\n<p>Which one is better?</p>\n</blockquote>\n<p>There is no way anyone here can answer that definitively.  It depends on your requirements, your history, your programming taste, and a million even more fuzzy factors.</p>\n<p>I'm biased in favor of Ramda, of course, but I still won't try to tell you which one is better.</p>\n<p>But there are significant overlaps in capability between these two and significant differences in underlying philosophy.</p>\n<p>Both are grab-bags of utility function, with little or no cohesion between the functions.  That is, they are <em>libraries</em> and not <em>frameworks</em>.  They don't at all try to determine how you write or organize your code.</p>\n<p>They have a great deal of overlap.  Among the 305 current lodash functions and the 261 current Ramda ones, there are 103 with shared names, and almost always, similar purpose.  Probably half the remaining functions are found in the other library under different names.</p>\n<h2>A Brief History</h2>\n<p>Although there were some experimental functional libraries before it, <a href=\"https://underscorejs.org/\" rel=\"noreferrer\">Underscore</a> was the one that brought many of these concepts to the mainstream of Javascript.  It stood alone for a while as the undisputed leader in this space.</p>\n<p>But there were problems with its performance.  Eventually <a href=\"https://lodash.com/\" rel=\"noreferrer\">lodash</a> was created in large part to try to do the same thing with better performance.  By creating custom versions of classic functions like <code>map</code>, rather than defaulting to the JS engine's built-in ones, lodash was quickly able to outperform Underscore.  But it started as a drop-in replacement for Underscore, and kept that focus for a long while.</p>\n<p>The <a href=\"https://ramdajs.com\" rel=\"noreferrer\">Ramda</a> founders were impressed with the ideas in Reginald Braithwaite's <em><a href=\"https://leanpub.com/javascript-allonge\" rel=\"noreferrer\">JavaScript Allongé</a></em> and created Ramda as an educational tool to help turn these ideas into a pragmatic library.  They were less focused on performance, and more on a clean API and functional composition, as well as immutable data and side-effect-free coding.  Through an odd series of events, it eventually grew quite popular.</p>\n<p>These days you don't hear much about Underscore.  It's still out there, and still used a fair bit, but you don't hear much buzz.  For most users, lodash fills that space well.  Ramda grew quickly, but seems to have settled down at about 20 - 25% of <a href=\"https://npm-stat.com/charts.html?package=ramda&amp;package=lodash&amp;package=underscore&amp;from=2016-01-01&amp;to=2022-03-07\" rel=\"noreferrer\">the downloads</a> that lodash gets.  But all three libraries continue to grow in capability and in usage, with Underscore and Ramda about the same usage, far below lodash.</p>\n<p>At one point, lodash created a version that tries to take into account some of Ramda's core concerns.  I personally have never used <a href=\"https://github.com/lodash/lodash/wiki/FP-Guide\" rel=\"noreferrer\">lodash-fp</a> so I can't speak to how successfully it does this.</p>\n<h2>Philosophy</h2>\n<h3>lodash</h3>\n<p>Lodash focuses on flexibility and performance.  Its focus, as its creator <a href=\"https://github.com/ramda/ramda/issues/452#issuecomment-59665088\" rel=\"noreferrer\">once described</a>, is on</p>\n<blockquote>\n<p>providing quality utility methods to as many devs as possible with a focus on consistency, compatibility, customization, and performance.</p>\n</blockquote>\n<p>While no general-purpose library can ever be quite as fast as custom-written code, lodash gets as close as possible.</p>\n<p>And lodash is flexible.  I <a href=\"https://fr.umio.us/the-philosophy-of-ramda/\" rel=\"noreferrer\">wrote</a> several years ago</p>\n<blockquote>\n<p>Consider lodash's <code>filter</code>: It accepts an array, object, or string for its collection, a function, object, string, or nothing at all for its callback, and an object or nothing at all for its <code>thisArg</code>. You're getting 3 * 4 * 2 = 24 functions in one!</p>\n</blockquote>\n<h3>Ramda</h3>\n<p>Ramda is less concerned with performance, and more with simple and clean API design.  The idea for Ramda is that a function should do one thing only, and should have a single clear interface.  Ramda's <code>filter</code> function takes a predicate function and an object of a filterable type, and returns another object of that type.  (Of course this raises the question of what constitutes a filterable type, but that's for its documentation.)</p>\n<p>Ramda's focus is on making it simple to compose functions, to work as though all data is immutable, and to avoid side-effects.  It also incorporates other functional programming concerns, such as supplying lenses and working with the algebraic types of the <a href=\"https://github.com/fantasyland/fantasy-land\" rel=\"noreferrer\">FantasyLand specification</a>.</p>\n<h2>Key Differences</h2>\n<ul>\n<li><p>Lodash (ignoring lodash-fp) functions mostly take their data first, followed by those things that work on the data, followed sometimes by optional arguments that change the behavior.  Ramda puts the arguments least likely to change first, and those most likely to change last.  This means that in data-transformation functions the data is last.  And Ramda avoid optional arguments altogether.</p>\n</li>\n<li><p>Ramda curries all its functions, as well as nearly all the functions it returns to you.  Lodash has a <code>curry</code> function, but you would need to call it explicitly.  This is fairly central to Ramda's ideas on function composition.</p>\n</li>\n<li><p>Lodash focuses on <em>reference</em>-equality.  Ramda focuses on <em>value</em>-equality.  So while these are similar:</p>\n<pre class=\"lang-js prettyprint-override\"><code>// lodash\n_.union ([1, 2, 3, 4, 5], [2, 3, 5, 7, 11]) //=&gt; [1, 2, 3, 4, 5, 7, 11]\n_.intersection ([1, 2, 3, 4, 5], [2, 3, 5, 7, 11]) //=&gt; [2, 3, 5]\n\n// Ramda\nR.union ([1, 2, 3, 4, 5], [2, 3, 5, 7, 11]) //=&gt; [1, 2, 3, 4, 5, 7, 11]\nR.intersection ([1, 2, 3, 4, 5], [2, 3, 5, 7, 11]) //=&gt; [2, 3, 5]\n</code></pre>\n<p>these act very differently:</p>\n<pre class=\"lang-js prettyprint-override\"><code>// lodash\n_.union (\n  [{x: 1}, {x: 2}, {x: 3}, {x: 4}, {x: 5}], \n  [{x: 2}, {x: 3}, {x: 5}, {x: 7}, {x: 11}]\n)\n//=&gt; [{x: 1}, {x: 2}, {x: 3}, {x: 4}, {x: 5}, {x: 2}, {x: 3}, {x: 5}, {x: 7}, {x: 11}]\n_.intersection (\n  [{x: 1}, {x: 2}, {x: 3}, {x: 4}, {x: 5}], \n  [{x: 2}, {x: 3}, {x: 5}, {x: 7}, {x: 11}]\n) //=&gt; []\n\n// Ramda\nR.union (\n  [{x: 1}, {x: 2}, {x: 3}, {x: 4}, {x: 5}], \n  [{x: 2}, {x: 3}, {x: 5}, {x: 7}, {x: 11}]\n)\n//=&gt; [{x: 1}, {x: 2}, {x: 3}, {x: 4}, {x: 5}, {x: 7}, {x: 11}]\nR.intersection (\n  [{x: 1}, {x: 2}, {x: 3}, {x: 4}, {x: 5}], \n  [{x: 2}, {x: 3}, {x: 5}, {x: 7}, {x: 11}]\n) //=&gt; [x: 2}, {x: 3}, {x: 5}]\n</code></pre>\n<p>This difference is significant.  Ramda's design is more closely aligned\nwith functional systems, but it comes at a large performance price whenever equality-checking is involved.  Lodash is perhaps two orders of magnitude faster than Ramda for such tasks.</p>\n</li>\n<li><p>Ramda is chiefly designed to build functions through composition, in short or long pipelines.  Lodash is chiefly designed to work with imperative code.  You can use either library for either job, but typical Ramda code might look like</p>\n<pre class=\"lang-js prettyprint-override\"><code>const myFn = R.pipe (\n  R.fn1,\n  R.fn2 ('arg1', 'arg2'),\n  R.fn3 ('arg3'),\n  R.fn4\n)\n</code></pre>\n<p>where the equivalent lodash code might look like</p>\n<pre class=\"lang-js prettyprint-override\"><code>const myFn = (x, y) =&gt; {\n  const var1 = _.fn1 (x, y)\n  const var2 = _.fn2 (var1, 'arg1', 'arg2')\n  const var3 = _.fn3 (var2, 'arg3')\n  return _.fn4 (var3)\n}\n</code></pre>\n</li>\n<li><p>Lodash's focus on performance means that it will supply many well-optimized functions for tasks.  For instance, Lodash has all of these functions: <code>isArguments</code>, <code>isArray</code>, <code>isArrayBuffer</code>, <code>isArrayLike</code>, <code>isArrayLikeObject</code>, <code>isBoolean</code>, <code>isBuffer</code>, <code>isDate</code>, <code>isElement</code>, <code>isEqual</code>, <code>isEqualWith</code>, <code>isError</code>, <code>isFinite</code>, <code>isFunction</code>, <code>isInteger</code>, <code>isLength</code>, <code>isMap</code>, <code>isMatch</code>, <code>isMatchWith</code>, <code>isNaN</code>, <code>isNative</code>, <code>isNull</code>, <code>isNumber</code>, <code>isObject</code>, <code>isObjectLike</code>, <code>isPlainObject</code>, <code>isRegExp</code>, <code>isSafeInteger</code>, <code>isSet</code>, <code>isString</code>, <code>isSymbol</code>, <code>isTypedArray</code>, <code>isUndefined</code>, <code>isWeakMap</code>, <code>isWeakSet</code>.</p>\n<p>Ramda, by contrast expects you to supply more arguments to common functions.  It has only <code>is</code>, <code>isEmpty</code>, and <code>isNil</code>.  But it's <code>is</code> handles\nnearly all the cases above, either by calling explicitly: <code>is (Array, [1, 2, 3])</code> or by partially applying to make a reusable function <code>const isArray = is (Array)</code></p>\n</li>\n</ul>\n<p>Some of these differences presumably vanish with lodash-fp.  But I don't get any real sense that lodash-fp is a major part of the landscape.  And for lodash proper, we can see that the libraries are quite different.</p>\n<h2>Performance</h2>\n<p>The question asked about benchmarks.  I know of no comprehensive benchmark suite.  Anecdotally, it seems except when the issue of value-equality vs reference-equality is involved, lodash is 10 - 20% faster at most tasks.  Ramda is not as hyper-optimized as lodash, but it is written with performance in mind, so long as its other more fundamental criteria are met.</p>\n<p>In those cases that <em>do</em> involve value-vs-reference equality, the lodash team can point to much higher speeds, but the Ramda team would probably respond that getting the wrong answer quickly is hardly a win.</p>\n<h2>Target Audience</h2>\n<p>Underscore helped bring functional programming tools to Javascript.  It is a general-purpose utility library, and was designed for any JS developer who wants to be more productive.  Lodash inherited this focus.  Both are written with developer ergonomics a central focus.</p>\n<p>Ramda has a much more restricted audience.  It is for those who want to take not just specific tools from functional programming, but who want to take its more fundamental ideas such as functional purity and data immutability.  It is aimed both at JS developers who want to move to a more FP style and at those from FP language who want to use JS in a familiar manner.  It is written with simplicity a central focus.</p>\n<h2>Summary</h2>\n<p>These libraries overlap a great deal in functionality.  But their designs, their underlying philosophies, and their developer experience are quite different.</p>\n<p>If you're choosing between them, there is a right answer for you, based on the above, but there is no clear definitive best library for everyone.</p>\n<p>And you should also consider whether you need one at all.  It's not hard to develop your own list of reusable functions to be included in whatever projects need them.  The platform has become much more capable than when these libraries were conceived.</p>\n",
+      "owner": {
+        "display_name": "Scott Sauyet",
+        "link": "https://stackoverflow.com/users/1243641/scott-sauyet"
+      }
+    },
+    {
+      "answer_id": 60907638,
+      "body": "<p>Here is a <strong>React Hooks</strong> specific solution for</p>\n<h3>Error</h3>\n<blockquote>\n<p>Warning: Can't perform a React state update on an unmounted component.</p>\n</blockquote>\n<h3>Solution</h3>\n<p>You can declare <code>let isMounted = true</code> inside <code>useEffect</code>, which will be changed in the <a href=\"https://reactjs.org/docs/hooks-effect.html#effects-with-cleanup\" rel=\"noreferrer\">cleanup callback</a>, as soon as the component is unmounted. Before state updates, you now check this variable conditionally:</p>\n<pre><code>useEffect(() =&gt; {\n  let isMounted = true;               // note mutable flag\n  someAsyncOperation().then(data =&gt; {\n    if (isMounted) setState(data);    // add conditional check\n  })\n  return () =&gt; { isMounted = false }; // cleanup toggles value, if unmounted\n}, []);                               // adjust dependencies to your needs\n</code></pre>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"true\" data-console=\"true\" data-babel=\"true\">\r\n<div class=\"snippet-code snippet-currently-hidden\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>const Parent = () =&gt; {\n  const [mounted, setMounted] = useState(true);\n  return (\n    &lt;div&gt;\n      Parent:\n      &lt;button onClick={() =&gt; setMounted(!mounted)}&gt;\n        {mounted ? \"Unmount\" : \"Mount\"} Child\n      &lt;/button&gt;\n      {mounted &amp;&amp; &lt;Child /&gt;}\n      &lt;p&gt;\n        Unmount Child, while it is still loading. It won't set state later on,\n        so no error is triggered.\n      &lt;/p&gt;\n    &lt;/div&gt;\n  );\n};\n\nconst Child = () =&gt; {\n  const [state, setState] = useState(\"loading (4 sec)...\");\n  useEffect(() =&gt; {\n    let isMounted = true;\n    fetchData();\n    return () =&gt; {\n      isMounted = false;\n    };\n\n    // simulate some Web API fetching\n    function fetchData() {\n      setTimeout(() =&gt; {\n        // drop \"if (isMounted)\" to trigger error again \n        // (take IDE, doesn't work with stack snippet)\n        if (isMounted) setState(\"data fetched\")\n        else console.log(\"aborted setState on unmounted component\")\n      }, 4000);\n    }\n  }, []);\n\n  return &lt;div&gt;Child: {state}&lt;/div&gt;;\n};\n\nReactDOM.render(&lt;Parent /&gt;, document.getElementById(\"root\"));</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/react/16.13.0/umd/react.production.min.js\" integrity=\"sha256-32Gmw5rBDXyMjg/73FgpukoTZdMrxuYW7tj8adbN8z4=\" crossorigin=\"anonymous\"&gt;&lt;/script&gt;\n&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.0/umd/react-dom.production.min.js\" integrity=\"sha256-bjQ42ac3EN0GqK40pC9gGi/YixvKyZ24qMP/9HiGW7w=\" crossorigin=\"anonymous\"&gt;&lt;/script&gt;\n&lt;div id=\"root\"&gt;&lt;/div&gt;\n&lt;script&gt;var { useReducer, useEffect, useState, useRef } = React&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n<h3>Extension: Custom <code>useAsync</code> Hook</h3>\n<p>We can encapsulate all the boilerplate into a custom Hook, that automatically aborts async functions in case the component unmounts or dependency values have changed before:</p>\n<pre><code>function useAsync(asyncFn, onSuccess) {\n  useEffect(() =&gt; {\n    let isActive = true;\n    asyncFn().then(data =&gt; {\n      if (isActive) onSuccess(data);\n    });\n    return () =&gt; { isActive = false };\n  }, [asyncFn, onSuccess]);\n}\n</code></pre>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"true\" data-console=\"true\" data-babel=\"true\">\r\n<div class=\"snippet-code snippet-currently-hidden\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>// custom Hook for automatic abortion on unmount or dependency change\n// You might add onFailure for promise errors as well.\nfunction useAsync(asyncFn, onSuccess) {\n  useEffect(() =&gt; {\n    let isActive = true;\n    asyncFn().then(data =&gt; {\n      if (isActive) onSuccess(data)\n      else console.log(\"aborted setState on unmounted component\")\n    });\n    return () =&gt; {\n      isActive = false;\n    };\n  }, [asyncFn, onSuccess]);\n}\n\nconst Child = () =&gt; {\n  const [state, setState] = useState(\"loading (4 sec)...\");\n  useAsync(simulateFetchData, setState);\n  return &lt;div&gt;Child: {state}&lt;/div&gt;;\n};\n\nconst Parent = () =&gt; {\n  const [mounted, setMounted] = useState(true);\n  return (\n    &lt;div&gt;\n      Parent:\n      &lt;button onClick={() =&gt; setMounted(!mounted)}&gt;\n        {mounted ? \"Unmount\" : \"Mount\"} Child\n      &lt;/button&gt;\n      {mounted &amp;&amp; &lt;Child /&gt;}\n      &lt;p&gt;\n        Unmount Child, while it is still loading. It won't set state later on,\n        so no error is triggered.\n      &lt;/p&gt;\n    &lt;/div&gt;\n  );\n};\n\nconst simulateFetchData = () =&gt; new Promise(\n  resolve =&gt; setTimeout(() =&gt; resolve(\"data fetched\"), 4000));\n\nReactDOM.render(&lt;Parent /&gt;, document.getElementById(\"root\"));</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/react/16.13.0/umd/react.production.min.js\" integrity=\"sha256-32Gmw5rBDXyMjg/73FgpukoTZdMrxuYW7tj8adbN8z4=\" crossorigin=\"anonymous\"&gt;&lt;/script&gt;\n&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.0/umd/react-dom.production.min.js\" integrity=\"sha256-bjQ42ac3EN0GqK40pC9gGi/YixvKyZ24qMP/9HiGW7w=\" crossorigin=\"anonymous\"&gt;&lt;/script&gt;\n&lt;div id=\"root\"&gt;&lt;/div&gt;\n&lt;script&gt;var { useReducer, useEffect, useState, useRef } = React&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n<p>More on effect cleanups: <a href=\"https://overreacted.io/a-complete-guide-to-useeffect/#so-what-about-cleanup\" rel=\"noreferrer\">Overreacted: A Complete Guide to useEffect</a></p>\n",
+      "owner": {
+        "display_name": "ford04",
+        "link": "https://stackoverflow.com/users/5669456/ford04"
+      }
+    },
+    {
+      "answer_id": 40242405,
+      "body": "<p>This works for me</p>\n<p><code>var newArrayDataOfOjbect = Object.values(data)</code></p>\n<p><em>In additional if you have key - value object try:</em></p>\n<pre><code>const objOfObjs = {\n   &quot;one&quot;: {&quot;id&quot;: 3},\n   &quot;two&quot;: {&quot;id&quot;: 4},\n};\n\nconst arrayOfObj = Object.entries(objOfObjs).map((e) =&gt; ( { [e[0]]: e[1] } ));\n\n</code></pre>\n<p><strong>will return:</strong></p>\n<pre><code>[\n  {\n    &quot;one&quot;: {\n      &quot;id&quot;: 3\n    }\n  },\n  {\n    &quot;two&quot;: {\n      &quot;id&quot;: 4\n    }\n  }\n]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Thierry",
+        "link": "https://stackoverflow.com/users/3691544/thierry"
+      }
+    },
+    {
+      "answer_id": 33432857,
+      "body": "<p>If you want to remove all <em><a href=\"https://stackoverflow.com/a/19839953/16940\">falsey</a></em> values then the most compact way is:</p>\n<p>For <strong>Lodash 4.x and later</strong>:</p>\n<pre><code>_.pickBy({ a: null, b: 1, c: undefined }, _.identity);\n&gt;&gt; Object {b: 1}\n</code></pre>\n<p>For <em>legacy</em> Lodash 3.x:</p>\n<pre><code>_.pick(obj, _.identity);\n\n_.pick({ a: null, b: 1, c: undefined }, _.identity);\n&gt;&gt; Object {b: 1}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Tx3",
+        "link": "https://stackoverflow.com/users/253793/tx3"
+      }
+    },
+    {
+      "answer_id": 67823441,
+      "body": "<p>From the <a href=\"https://lodash.com/docs/4.17.15#sortBy\" rel=\"noreferrer\">lodash documentation</a> we find this when searching for <code>_.sortBy</code>: &quot;Creates an array of elements, sorted in ascending order by the results of running each element in a collection thru each iteratee. &quot;</p>\n<p>From that we can see that <code>_.sortBy</code> will always return an sorted array in ascending order.</p>\n<p>What you can try is to use <a href=\"https://lodash.com/docs/4.17.15#orderBy\" rel=\"noreferrer\"><code>_.orderBy</code></a> instead like this:\n<code>_.orderBy(users, 'age', 'desc');</code></p>\n",
+      "owner": {
+        "display_name": "Munge",
+        "link": "https://stackoverflow.com/users/3551664/munge"
+      }
+    },
+    {
+      "answer_id": 24321972,
+      "body": "<p>As Palpatim explained, the reason lies in the fact that <code>_.debounce(...)</code> returns a function, which when invoked does its magic.</p>\n<p>Therefore in your <code>#anonFunction</code> example, you have a key listener, which when invoked does nothing but return a function to the invoker, which does nothing with the return values from the event listener.</p>\n<p>This is a snippet of the <code>_.debounce(...)</code> definition:</p>\n<pre><code>_.debounce\nfunction (func, wait, immediate) {\n    var timeout;\n    return function() {\n      var context = this, args = arguments;\n      var later = function() {\n        timeout = null;\n        if (!immediate) func.apply(context, args);\n      };\n      if (immediate &amp;&amp; !timeout) func.apply(context, args);\n      clearTimeout(timeout);\n      timeout = setTimeout(later, wait);\n    };\n  } \n</code></pre>\n<p>Your key event listener must invoke the returned function from <code>_.debounce(...)</code>, or you can do as in your non-anonymous example and use the returned function from the <code>_.debounce(...)</code> call as your event listener.</p>\n",
+      "owner": {
+        "display_name": "Michael Dahl",
+        "link": "https://stackoverflow.com/users/3049845/michael-dahl"
+      }
+    },
+    {
+      "answer_id": 23600960,
+      "body": "<p>You can do it like this in both Underscore and Lodash (3.x and 4.x).</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var data = [{\n  \"name\": \"jim\",\n  \"color\": \"blue\",\n  \"age\": \"22\"\n}, {\n  \"name\": \"Sam\",\n  \"color\": \"blue\",\n  \"age\": \"33\"\n}, {\n  \"name\": \"eddie\",\n  \"color\": \"green\",\n  \"age\": \"77\"\n}];\n\nconsole.log(\n  _.chain(data)\n    // Group the elements of Array based on `color` property\n    .groupBy(\"color\")\n    // `key` is group's name (color), `value` is the array of objects\n    .map((value, key) =&gt; ({ color: key, users: value }))\n    .value()\n);</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n<hr />\n<p><strong>Original Answer</strong></p>\n<pre><code>var result = _.chain(data)\n    .groupBy(&quot;color&quot;)\n    .pairs()\n    .map(function(currentItem) {\n        return _.object(_.zip([&quot;color&quot;, &quot;users&quot;], currentItem));\n    })\n    .value();\nconsole.log(result);\n</code></pre>\n<p><a href=\"http://jsfiddle.net/thefourtheye/WYCF8/\" rel=\"noreferrer\">Online Demo</a></p>\n<p><strong>Note:</strong> Lodash 4.0 onwards, the <code>.pairs</code> function has been renamed to <a href=\"https://lodash.com/docs#toPairs\" rel=\"noreferrer\"><code>_.toPairs()</code></a></p>\n",
+      "owner": {
+        "display_name": "thefourtheye",
+        "link": "https://stackoverflow.com/users/1903116/thefourtheye"
+      }
+    },
+    {
+      "answer_id": 29288142,
+      "body": "<h2>Lodash 4.0</h2>\n<p>Lodash 4.0 has <code>_.pick</code>, which takes an array of properties, and <code>_.pickBy</code> which takes a function as an argument and returns an object only containing the keys for which that function returns truthy which is what we want here, so it'd be:</p>\n<pre><code>filtered = _.pickBy(obj, function(value, key) {return value;})\n</code></pre>\n<p>Or, since <code>_.pickBy</code> defaults to using <code>_.identity</code> as it's second argument, (and that's essentially what we've written above,) it can just be written as:</p>\n<pre><code>filtered = _.pickBy(obj);\n</code></pre>\n<h2>Underscore or Lodash prior to version 4.0</h2>\n<p>In underscore and old versions of lodash, there's just a single <code>_.pick</code>, which has both behaviors of <code>_.pick</code> and <code>_.pickWith</code> from v4. So you can do:</p>\n<pre><code>filtered = _.pick(obj, function(value, key) {return value;})\n</code></pre>\n<p>Or more succinctly:</p>\n<pre><code>filtered = _.pick(obj, _.identity)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Retsam",
+        "link": "https://stackoverflow.com/users/79247/retsam"
+      }
+    },
+    {
+      "answer_id": 33266963,
+      "body": "<pre><code>return false;\n</code></pre>\n<p>Use this in a lodash <code>each</code> to break.</p>\n<p>EDIT: I have seen the title changed to underscore. Is it underscore or lodash? As I pointed out above you can break an <code>each</code> in lodash but underscore I believe emulates <code>forEach</code> which natively doesn't provide that.</p>\n",
+      "owner": {
+        "display_name": "AtheistP3ace",
+        "link": "https://stackoverflow.com/users/1240676/atheistp3ace"
+      }
+    },
+    {
+      "answer_id": 40656292,
+      "body": "<pre><code>var presents = _.intersectionWith(array1, array2, _.isEqual);\nvar dif = _.differenceWith(array1, array2, _.isEqual);\n</code></pre>\n<p><strong>_.differenceWith is only available since 4.0.0 lodash version</strong></p>\n",
+      "owner": {
+        "display_name": "stasovlas",
+        "link": "https://stackoverflow.com/users/1988157/stasovlas"
+      }
+    },
+    {
+      "answer_id": 13898916,
+      "body": "<p>I created Lodash to provide more consistent cross-environment iteration support for arrays, strings, objects, and <code>arguments</code> objects<sup>1</sup>. It has since become a superset of Underscore.js, providing more consistent API behavior, more <a href=\"http://lodash.com\" rel=\"noreferrer\">features</a> (like AMD support, deep clone, and deep merge), more thorough <a href=\"http://lodash.com/docs\" rel=\"noreferrer\">documentation</a> and unit tests (tests which run in <a href=\"https://en.wikipedia.org/wiki/Node.js\" rel=\"noreferrer\">Node.js</a>, <a href=\"https://github.com/ringo/ringojs\" rel=\"noreferrer\">RingoJS</a>, <a href=\"https://en.wikipedia.org/wiki/Rhino_%28JavaScript_engine%29\" rel=\"noreferrer\">Rhino</a>, <a href=\"https://github.com/tlrobinson/narwhal\" rel=\"noreferrer\">Narwhal</a>, <a href=\"https://en.wikipedia.org/wiki/PhantomJS\" rel=\"noreferrer\">PhantomJS</a>, and browsers), better overall performance and optimizations for large arrays/object iteration, and more flexibility with <a href=\"http://lodash.com/\" rel=\"noreferrer\">custom builds</a> and template pre-compilation utilities.</p>\n<p>Because Lodash is updated more frequently than Underscore.js, a <code>lodash underscore</code> build <a href=\"http://lodash.com/\" rel=\"noreferrer\">is provided</a> to ensure compatibility with the latest stable version of Underscore.js.</p>\n<p>At one point I was even given <a href=\"https://s3.amazonaws.com/f.cl.ly/items/2e0O0S010f2A3s1W283U/push_access.png?v=ba693725\" rel=\"noreferrer\">push access</a> to Underscore.js, in part because Lodash is responsible for raising more than 30 issues; landing bug fixes, new features, and performance gains in Underscore.js v1.4.x+.</p>\n<p>In addition, there are at least three <a href=\"https://en.wikipedia.org/wiki/Backbone.js\" rel=\"noreferrer\">Backbone.js</a> boilerplates that include Lodash by default and Lodash is now mentioned in Backbone.js’s official <a href=\"http://backbonejs.org/#downloads\" rel=\"noreferrer\">documentation</a>.</p>\n<p>Check out Kit Cambridge's post, <em><a href=\"https://web.archive.org/web/20180101093627/http://kitcambridge.be/blog/say-hello-to-lo-dash/\" rel=\"noreferrer\">Say &quot;Hello&quot; to Lo-Dash</a></em>, for a deeper breakdown on the differences between Lodash and Underscore.js.</p>\n<p>Footnotes:</p>\n<ol>\n<li>Underscore.js has inconsistent support for arrays, strings, objects, and <code>arguments</code> objects. In newer browsers, Underscore.js methods ignore <a href=\"http://www.2ality.com/2012/06/dense-arrays.html\" rel=\"noreferrer\">holes in arrays</a>, &quot;Objects&quot; methods iterate <code>arguments</code> objects, strings are treated as array-like, and methods correctly iterate functions (ignoring their &quot;prototype&quot; property) and objects (iterating shadowed properties like &quot;toString&quot; and &quot;valueOf&quot;), while in older browsers they will not. Also, Underscore.js methods, like <code>_.clone</code>, preserve holes in arrays, while others like <code>_.flatten</code> don't.</li>\n</ol>\n",
+      "owner": {
+        "display_name": "John-David Dalton",
+        "link": "https://stackoverflow.com/users/166625/john-david-dalton"
+      }
+    },
+    {
+      "answer_id": 36606220,
+      "body": "<p>It seems that you are ordering by the wrong property <code>value</code>.</p>\n<pre><code>_.orderBy(list, item =&gt; item.age.milliseconds, ['desc']);\n</code></pre>\n",
+      "owner": {
+        "display_name": "JesusTinoco",
+        "link": "https://stackoverflow.com/users/4509510/jesustinoco"
+      }
+    },
+    {
+      "answer_id": 31740263,
+      "body": "<p><code>_.unique</code> no longer works for the current version of Lodash as version 4.0.0 has <a href=\"https://github.com/lodash/lodash/wiki/Changelog#jan-12-2016--diff--docs\" rel=\"noreferrer\">this breaking change</a>. The functionality of <code>_.unique</code> was splitted into <code>_.uniq</code>, <code>_.sortedUniq</code>, <code>_.sortedUniqBy</code>, and <code>_.uniqBy</code>.</p>\n<p>You could use <code>_.uniqBy</code> like this:</p>\n<pre><code>_.uniqBy(data, function (e) {\n  return e.id;\n});\n</code></pre>\n<p>...or like this:</p>\n<pre><code>_.uniqBy(data, 'id');\n</code></pre>\n<p>Documentation: <a href=\"https://lodash.com/docs#uniqBy\" rel=\"noreferrer\">https://lodash.com/docs#uniqBy</a></p>\n<hr/>\n<p><strong>For older versions of Lodash (&lt; 4.0.0 ):</strong></p>\n<p>Assuming that the data should be uniqued by each object's <code>id</code> property and your data is stored in <code>data</code> variable, you can use the <a href=\"https://lodash.com/3.10.1#uniq\" rel=\"noreferrer\"><code>_.unique()</code></a> function like this:</p>\n<pre><code>_.unique(data, function (e) {\n  return e.id;\n});\n</code></pre>\n<p>Or simply like this:</p>\n<pre><code>_.uniq(data, 'id');\n</code></pre>\n",
+      "owner": {
+        "display_name": "ntalbs",
+        "link": "https://stackoverflow.com/users/1513384/ntalbs"
+      }
+    },
+    {
+      "answer_id": 40329942,
+      "body": "<p>Get a list of properties from <code>model</code> using <a href=\"https://lodash.com/docs/4.16.4#keys\" rel=\"noreferrer\"><code>_.keys()</code></a>, and use <a href=\"https://lodash.com/docs/4.16.4#pick\" rel=\"noreferrer\"><code>_.pick()</code></a> to extract the properties from <code>credentials</code> to a new object:</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var model = {\n   fname:null,\n   lname:null\n};\n\nvar credentials = {\n    fname:\"xyz\",\n    lname:\"abc\",\n    age:23\n};\n\nvar result = _.pick(credentials, _.keys(model));\n\nconsole.log(result);</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.4/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n<p>If you don't want to use Lodash, you can use <a href=\"https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/keys\" rel=\"noreferrer\"><code>Object.keys()</code></a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce\" rel=\"noreferrer\"><code>Array.prototype.reduce()</code></a>:</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var model = {\n   fname:null,\n   lname:null\n};\n\nvar credentials = {\n    fname:\"xyz\",\n    lname:\"abc\",\n    age:23\n};\n\nvar result = Object.keys(model).reduce(function(obj, key) {\n  obj[key] = credentials[key];\n  return obj;\n}, {});\n\nconsole.log(result);</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Ori Drori",
+        "link": "https://stackoverflow.com/users/5157454/ori-drori"
+      }
+    },
+    {
+      "answer_id": 31683111,
+      "body": "<p>An easy and elegant solution is to use <a href=\"https://lodash.com/docs/4.17.4#isEqual\" rel=\"noreferrer\"><code>_.isEqual</code></a>, which performs a deep comparison:</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var a = {};\nvar b = {};\n\na.prop1 = 2;\na.prop2 = { prop3: 2 };\n\nb.prop1 = 2;\nb.prop2 = { prop3: 3 };\n\nconsole.log(_.isEqual(a, b)); // returns false if different</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n<p>However, this solution doesn't show which property is different.</p>\n",
+      "owner": {
+        "display_name": "JLavoie",
+        "link": "https://stackoverflow.com/users/2414919/jlavoie"
+      }
+    },
+    {
+      "answer_id": 40965804,
+      "body": "<p>You don't really need lodash. You can use JavaScript's <code>Array.prototype.sort</code> method.</p>\n\n<p>You'll need to create <code>Date</code> objects from your date strings before you can compare them.</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var myArray = [{\r\n  name: \"Joe Blow\",\r\n  date: \"Mon Oct 31 2016 00:00:00 GMT-0700 (PDT)\"\r\n}, {\r\n  name: \"Sam Snead\",\r\n  date: \"Sun Oct 30 2016 00:00:00 GMT-0700 (PDT)\"\r\n}, {\r\n  name: \"John Smith\",\r\n  date: \"Sat Oct 29 2016 00:00:00 GMT-0700 (PDT)\"\r\n}];\r\n\r\nmyArray.sort(function compare(a, b) {\r\n  var dateA = new Date(a.date);\r\n  var dateB = new Date(b.date);\r\n  return dateA - dateB;\r\n});\r\n\r\nconsole.log(myArray);</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Punit",
+        "link": "https://stackoverflow.com/users/6008014/punit"
+      }
+    },
+    {
+      "answer_id": 27641860,
+      "body": "<p>In your case all you need to do is to find object in array and use <code>Array.prototype.splice()</code> method, read more details <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice\" rel=\"noreferrer\">here</a>:</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"false\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var arr = [{id: 1, name: \"Person 1\"}, {id:2, name:\"Person 2\"}];\r\n\r\n// Find item index using _.findIndex (thanks @AJ Richardson for comment)\r\nvar index = _.findIndex(arr, {id: 1});\r\n\r\n// Replace item at index using native splice\r\narr.splice(index, 1, {id: 100, name: 'New object.'});\r\n\r\n// \"console.log\" result\r\ndocument.write(JSON.stringify( arr ));</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "dfsq",
+        "link": "https://stackoverflow.com/users/949476/dfsq"
+      }
+    },
+    {
+      "answer_id": 31973533,
+      "body": "<p>Just make the \"ugly\" part into a function and then it looks nice:</p>\n\n<pre><code>arr = [1, 2, 3, 4];\n\nfunction pairwise(arr, func){\n    for(var i=0; i &lt; arr.length - 1; i++){\n        func(arr[i], arr[i + 1])\n    }\n}\n\npairwise(arr, function(current, next){\n    console.log(current, next)\n})\n</code></pre>\n\n<p>You can even slightly modify it to be able to make iterate all i, i+n pairs, not just the next one:</p>\n\n<pre><code>function pairwise(arr, func, skips){\n    skips = skips || 1;\n    for(var i=0; i &lt; arr.length - skips; i++){\n        func(arr[i], arr[i + skips])\n    }\n}\n\npairwise([1, 2, 3, 4, 5, 6, 7], function(current,next){\n    console.log(current, next) // displays (1, 3), (2, 4), (3, 5) , (4, 6), (5, 7)\n}, 2)\n</code></pre>\n",
+      "owner": {
+        "display_name": "juvian",
+        "link": "https://stackoverflow.com/users/3308055/juvian"
+      }
+    },
+    {
+      "answer_id": 29081184,
+      "body": "<p>Take a look at lodash' <strong>chunk</strong>: <a href=\"https://lodash.com/docs#chunk\" rel=\"noreferrer\">https://lodash.com/docs#chunk</a></p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>const data = [\"a1\", \"a2\", \"a3\", \"a4\", \"a5\", \"a6\", \"a7\", \"a8\", \"a9\", \"a10\", \"a11\", \"a12\", \"a13\"];\r\nconst chunks = _.chunk(data, 3);\r\nconsole.log(chunks);\r\n// [\r\n//  [\"a1\", \"a2\", \"a3\"],\r\n//  [\"a4\", \"a5\", \"a6\"],\r\n//  [\"a7\", \"a8\", \"a9\"],\r\n//  [\"a10\", \"a11\", \"a12\"],\r\n//  [\"a13\"]\r\n// ]</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Edo",
+        "link": "https://stackoverflow.com/users/971091/edo"
+      }
+    },
+    {
+      "answer_id": 21281418,
+      "body": "<p>As lyyons pointed out in the comments, more idiomatic and lodashy way to do this would be to use <a href=\"http://lodash.com/docs#remove\" rel=\"noreferrer\"><code>_.remove</code></a>, like this</p>\n\n<pre><code>_.remove(obj.subTopics, {\n    subTopicId: stToDelete\n});\n</code></pre>\n\n<p>Apart from that, you can pass a predicate function whose result will be used to determine if the current element has to be removed or not.</p>\n\n<pre><code>_.remove(obj.subTopics, function(currentObject) {\n    return currentObject.subTopicId === stToDelete;\n});\n</code></pre>\n\n<hr>\n\n<p>Alternatively, you can create a new array by filtering the old one with <a href=\"https://lodash.com/docs#filter\" rel=\"noreferrer\"><code>_.filter</code></a> and assign it to the same object, like this</p>\n\n<pre><code>obj.subTopics = _.filter(obj.subTopics, function(currentObject) {\n    return currentObject.subTopicId !== stToDelete;\n});\n</code></pre>\n\n<p>Or</p>\n\n<pre><code>obj.subTopics = _.filter(obj.subTopics, {subTopicId: stToKeep});\n</code></pre>\n",
+      "owner": {
+        "display_name": "thefourtheye",
+        "link": "https://stackoverflow.com/users/1903116/thefourtheye"
+      }
+    },
+    {
+      "answer_id": 40710684,
+      "body": "<p>Use <code>_.mapKeys()</code> instead of <code>_.mapValues()</code>:</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var data = {\r\n   'id': '123',\r\n   'employee_name': 'John',\r\n   'employee_type': 'new'  \r\n};\r\n\r\nvar newObj = _.mapKeys(data, (value, key) =&gt; _.camelCase(key));\r\n\r\nconsole.log('newObj: ', newObj);</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n\n<p>If you need to ignore the redundant <code>value</code> param, you can use <a href=\"https://lodash.com/docs/4.17.10#rearg\" rel=\"noreferrer\"><code>_.rearg()</code></a> on <code>_.camelCase()</code> to generate a function that takes the 2nd param (the <code>key</code>) instead of the 1st param (the <code>value</code>).</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var data = {\r\n   'id': '123',\r\n   'employee_name': 'John',\r\n   'employee_type': 'new'  \r\n};\r\n\r\nvar newObj = _.mapKeys(data, _.rearg(_.camelCase, 1));\r\n\r\nconsole.log('newObj: ', newObj);</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.2/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Ori Drori",
+        "link": "https://stackoverflow.com/users/5157454/ori-drori"
+      }
+    },
+    {
+      "answer_id": 43371146,
+      "body": "<p>This method <code>orderBy</code> does not change the input array,\nyou have to assign the result to your array :</p>\n\n<pre><code>var chars = this.state.characters;\n\nchars = _.orderBy(chars, ['name'],['asc']); // Use Lodash to sort array by 'name'\n\n this.setState({characters: chars})\n</code></pre>\n",
+      "owner": {
+        "display_name": "Art&#233;mis Young",
+        "link": "https://stackoverflow.com/users/4281653/art%c3%a9mis-young"
+      }
+    },
+    {
+      "answer_id": 37615234,
+      "body": "<p>You could use <code>reduce</code> again to achieve that in plain JavaScript:</p>\n\n<pre><code>var filtered = Object.keys(dict).reduce(function (filtered, key) {\n    if (dict[key] &gt; 1) filtered[key] = dict[key];\n    return filtered;\n}, {});\n</code></pre>\n\n<p>With some ES6 features, such as arrow functions, spread syntax, <code>Object.entries</code>, ... it can look like this:</p>\n\n<pre><code>var filtered = Object.assign({}, ...\n    Object.entries(dict).filter(([k,v]) =&gt; v&gt;1).map(([k,v]) =&gt; ({[k]:v}))\n);\n</code></pre>\n\n<p>Or using the newer <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries\" rel=\"noreferrer\"><code>Object.fromEntries</code></a>:</p>\n\n<pre><code>var filtered = Object.fromEntries(Object.entries(dict).filter(([k,v]) =&gt; v&gt;1));\n</code></pre>\n\n<h3>Using Lodash</h3>\n\n<p>There were a few issues with your attempt with lodash:</p>\n\n<ul>\n<li><code>_.find</code> is not intended for returning an object that takes a selection of key/values from a given object. You would need <code>_.pickBy</code> for that.</li>\n<li>Your object values do not have a <code>frecuency</code> property; they are primitive values, so you should just have to return <code>user &gt; 1</code></li>\n</ul>\n\n<p>Lodash code:</p>\n\n<pre><code>var filtered = _.pickBy(dict, function(user) {\n  return user &gt; 1;\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "trincot",
+        "link": "https://stackoverflow.com/users/5459839/trincot"
+      }
+    },
+    {
+      "answer_id": 29951380,
+      "body": "<p>If you sort the outer array, you can use <a href=\"https://lodash.com/docs#isEqual\" rel=\"noreferrer\"><code>_.isEqual()</code></a> since the inner array is already sorted.</p>\n\n<pre><code>var array1 = [['a', 'b'], ['b', 'c']];\nvar array2 = [['b', 'c'], ['a', 'b']];\n_.isEqual(array1.sort(), array2.sort()); //true\n</code></pre>\n\n<p>Note that <code>.sort()</code> will mutate the arrays. If that's a problem for you, make a copy first using (for example) <code>.slice()</code> or the spread operator (<code>...</code>).</p>\n\n<p>Or, do as Daniel Budick recommends in a comment below:</p>\n\n<pre><code>_.isEqual(_.sortBy(array1), _.sortBy(array2))\n</code></pre>\n\n<p>Lodash's <code>sortBy()</code> will not mutate the array.</p>\n",
+      "owner": {
+        "display_name": "Trott",
+        "link": "https://stackoverflow.com/users/436641/trott"
+      }
+    },
+    {
+      "answer_id": 43479515,
+      "body": "<p>You can install <code>lodash.isequal</code> as a single module without installing the whole <em>lodash</em> package like so:</p>\n\n<pre><code>npm install --save lodash.isequal\n</code></pre>\n\n<p>When using ECMAScript 5 and CommonJS modules, you then import it like this:</p>\n\n<pre><code>var isEqual = require('lodash.isequal');\n</code></pre>\n\n<p>Using ES6 modules, this would be:</p>\n\n<pre><code>import isEqual from 'lodash.isequal';\n</code></pre>\n\n<p>And you can use it in your code:</p>\n\n<pre><code>const obj1 = {username: 'peter'};\nconst obj2 = {username: 'peter'};\nconst obj3 = {username: 'gregory'};\n\nisEqual(obj1, obj2) // returns true\nisEqual(obj1, obj3) // returns false\n</code></pre>\n\n<p>Source: <a href=\"https://www.npmjs.com/package/lodash.isequal\" rel=\"noreferrer\">Lodash documentation</a></p>\n\n<p>After importing, you can use the <code>isEqual</code> function in your code. Note that it is not a part of an object named <code>_</code> if you import it this way, so you \n<em>don't</em> reference it with <code>_.isEqual</code>, but directly with <code>isEqual</code>.</p>\n\n<p><strong>Alternative: Using <code>lodash-es</code></strong></p>\n\n<p>As pointed out by <a href=\"https://stackoverflow.com/a/50402664/1253156\">@kimamula</a>:</p>\n\n<p>With webpack 4 and <a href=\"https://www.npmjs.com/package/lodash-es\" rel=\"noreferrer\">lodash-es</a> 4.17.7 and higher, this code works.</p>\n\n<pre><code>import { isEqual } from 'lodash-es';\n</code></pre>\n\n<p>This is because webpack 4 supports the <a href=\"https://webpack.js.org/guides/tree-shaking/#mark-the-file-as-side-effect-free\" rel=\"noreferrer\">sideEffects</a> flag and <code>lodash-es</code> 4.17.7 and higher includes the flag (which is set to <code>false</code>).</p>\n\n<p><strong>Why Not Use the Version With the Slash?</strong>\nOther answers to this question suggest that you can also use a dash instead of a dot, like so:</p>\n\n<pre><code>import isEqual from 'lodash/isequal';\n</code></pre>\n\n<p>This works, too, but there are two minor drawbacks:</p>\n\n<ul>\n<li>You have to install the whole <em>lodash</em> package (<code>npm install --save lodash</code>), not just the small separate <em>lodash.isequal</em> package; storage space is cheap and CPUs are fast, so you may not care about this</li>\n<li>The resulting bundle when using tools like webpack will be slightly bigger; I found out that bundle sizes with a minimal code example of <code>isEqual</code> are on average 28% bigger (tried webpack 2 and webpack 3, with or without Babel, with or without Uglify)</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Patrick Hund",
+        "link": "https://stackoverflow.com/users/1253156/patrick-hund"
+      }
+    },
+    {
+      "answer_id": 45470576,
+      "body": "<p>I ended up finding it through the IntelliSense on the <code>get()</code> function. So, I'll post it here for anyone who is looking for similar information.</p>\n\n<p>Anyways, the syntax is nearly identical, but slightly different. Instead of using <code>URLSearchParams()</code> the parameters need to be initialized as <code>HttpParams()</code> and the property within the <code>get()</code> function is now called <code>params</code> instead of <code>search</code>.</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>import { HttpClient, HttpParams } from '@angular/common/http';\n</code></pre>\n\n<pre class=\"lang-js prettyprint-override\"><code>getLogs(logNamespace): Observable&lt;any&gt; {\n\n    // Setup log namespace query parameter\n    let params = new HttpParams().set('logNamespace', logNamespace);\n\n    return this._HttpClient.get(`${API_URL}/api/v1/data/logs`, { params: params })\n}\n</code></pre>\n\n<p>I actually prefer this syntax as its a little more parameter agnostic. I also refactored the code to make it slightly more abbreviated.</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>getLogs(logNamespace): Observable&lt;any&gt; {\n\n    return this._HttpClient.get(`${API_URL}/api/v1/data/logs`, {\n        params: new HttpParams().set('logNamespace', logNamespace)\n    })\n}\n</code></pre>\n\n<p><strong>Multiple Parameters</strong></p>\n\n<p>The best way I have found thus far is to define a <code>Params</code> object with all of the parameters I want to define defined within. As @estus pointed out in the comment below, there are a lot of great answers in <a href=\"https://stackoverflow.com/questions/45459532/why-httpparams-doesnt-work-in-multiple-line-in-angular-4-3/45459672#45459672\">This Question</a> as to how to assign multiple parameters.</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>getLogs(parameters) {\n\n    // Initialize Params Object\n    let params = new HttpParams();\n\n    // Begin assigning parameters\n    params = params.append('firstParameter', parameters.valueOne);\n    params = params.append('secondParameter', parameters.valueTwo);\n\n    // Make the API call using the new parameters.\n    return this._HttpClient.get(`${API_URL}/api/v1/data/logs`, { params: params })\n</code></pre>\n\n<p><strong>Multiple Parameters with Conditional Logic</strong></p>\n\n<p>Another thing I often do with multiple parameters is allow the use of multiple parameters without requiring their presence in every call. Using Lodash, it's pretty simple to conditionally add/remove parameters from calls to the API. The exact functions used in Lodash or Underscores, or vanilla JS may vary depending on your application, but I have found that checking for property definition works pretty well. The function below will only pass parameters that have corresponding properties within the parameters variable passed into the function.</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>getLogs(parameters) {\n\n    // Initialize Params Object\n    let params = new HttpParams();\n\n    // Begin assigning parameters\n    if (!_.isUndefined(parameters)) {\n        params = _.isUndefined(parameters.valueOne) ? params : params.append('firstParameter', parameters.valueOne);\n        params = _.isUndefined(parameters.valueTwo) ? params : params.append('secondParameter', parameters.valueTwo);\n    }\n\n    // Make the API call using the new parameters.\n    return this._HttpClient.get(`${API_URL}/api/v1/data/logs`, { params: params })\n</code></pre>\n",
+      "owner": {
+        "display_name": "joshrathke",
+        "link": "https://stackoverflow.com/users/1625304/joshrathke"
+      }
+    },
+    {
+      "answer_id": 52855863,
+      "body": "<p><code>ts-node</code> compiles <code>.ts</code> files as they are loaded.  It doesn't touch <code>.js</code> files; either they must already be in a form understood by Node.js (e.g., no ES6 <code>import</code> statements) or you must use a separate mechanism to transform them, such as the <a href=\"https://babeljs.io/docs/en/next/babel-register\" rel=\"nofollow noreferrer\"><code>@babel/register</code> require hook</a> (essentially the same thing that is used by <code>babel-node</code>).  You would still need to configure <code>@babel/register</code> not to ignore <code>node_modules</code>, as described in the <a href=\"https://stackoverflow.com/a/52853609\">other answer</a>.  The advice from the other answer to just use <code>lodash</code> instead of <code>lodash-es</code> is good.</p>\n",
+      "owner": {
+        "display_name": "Matt McCutchen",
+        "link": "https://stackoverflow.com/users/4468617/matt-mccutchen"
+      }
+    },
+    {
+      "answer_id": 37066038,
+      "body": "<p>You can make use of <a href=\"https://lodash.com/docs#differenceWith\" rel=\"noreferrer\">differenceWith()</a> with an <a href=\"https://lodash.com/docs#isEqual\" rel=\"noreferrer\">isEqual()</a> comparator, and invoke <a href=\"https://lodash.com/docs#isEmpty\" rel=\"noreferrer\">isEmpty</a> to check if they are equal or not.</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"false\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var isArrayEqual = function(x, y) {\r\n  return _(x).differenceWith(y, _.isEqual).isEmpty();\r\n};\r\n\r\nvar result1 = isArrayEqual(\r\n  [{a:1, b:2}, {c:3, d:4}],\r\n  [{b:2, a:1}, {d:4, c:3}]\r\n);\r\n\r\nvar result2 = isArrayEqual(\r\n  [{a:1, b:2, c: 1}, {c:3, d:4}],\r\n  [{b:2, a:1}, {d:4, c:3}]\r\n);\r\n\r\ndocument.write([\r\n  '&lt;div&gt;&lt;label&gt;result1: ', result1, '&lt;/label&gt;&lt;/div&gt;',\r\n  '&lt;div&gt;&lt;label&gt;result2: ', result2, '&lt;/label&gt;&lt;/div&gt;',\r\n].join(''));</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.11.2/lodash.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n\n<p><strong>UPDATE June 22, 2018</strong></p>\n\n<p>This update is in response to the comment below:</p>\n\n<blockquote>\n  <p>@ryeballar if any of the array is undefined it returns true. How would\n  you solve this. Thanks in advance buddy</p>\n</blockquote>\n\n<p>As stated in the <code>differenceWith</code> documentation:</p>\n\n<blockquote>\n  <p>The order and references of result values are determined by the first\n  array.</p>\n</blockquote>\n\n<p>This means that as long as all the items in the first array will match everything else in the second array, then the resulting array from the <code>differenceWith</code> invocation will be empty. </p>\n\n<p>An alternative solution that truly solves the problem is to use <a href=\"https://lodash.com/docs/4.17.10#xorWith\" rel=\"noreferrer\"><code>xorWith()</code></a> with the same chain of functions from the solution above.</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var isArrayEqual = function(x, y) {\r\n  return _(x).xorWith(y, _.isEqual).isEmpty();\r\n};\r\n\r\nvar result1 = isArrayEqual(\r\n  [{a:1, b:2}, {c:3, d:4}],\r\n  [{b:2, a:1}, {d:4, c:3}]\r\n);\r\n\r\nvar result2 = isArrayEqual(\r\n  [{a:1, b:2, c: 1}, {c:3, d:4}],\r\n  [{b:2, a:1}, {d:4, c:3}]\r\n);\r\n\r\nvar result3 = isArrayEqual(\r\n  [{a:1, b:2, c: 1}, {c:3, d:4}],\r\n  [{b:2, a:1}, {d:4, c:3}, undefined]\r\n);\r\n\r\nconsole.log('result1:', result1);\r\nconsole.log('result2:', result2);\r\nconsole.log('result3:', result3);</code></pre>\r\n<pre class=\"snippet-code-css lang-css prettyprint-override\"><code>.as-console-wrapper{min-height:100%;top:0}</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "ryeballar",
+        "link": "https://stackoverflow.com/users/3450034/ryeballar"
+      }
+    },
+    {
+      "answer_id": 43556280,
+      "body": "<p>Some of the current answers may work in your scenario, but they have downsides:</p>\n\n<ul>\n<li>Adding to the <code>window</code> object means your Vue project can't be server rendered, because servers don't have access to the <code>window</code> object.</li>\n<li>Importing in every file works fine, but it can be a pain if you have to remember to do it in every file.</li>\n</ul>\n\n<p>An alternative approach is to add your library to the Vue prototype. All components inherit from this so they will now all be able to access your library from the <code>this</code> keyword.</p>\n\n<pre><code>import _ from 'lodash';    \nObject.defineProperty(Vue.prototype, '$_', { value: _ });\n</code></pre>\n\n<p>Now lodash is available as an instance method for all components. In a .vue file you can do this without importing anything:</p>\n\n<pre><code>export default {\n  created() {\n    console.log(this.$_.isEmpty(null));\n  }\n}\n</code></pre>\n\n<p>The advantage of using <code>Object.defineProperty</code> rather than a normal property assignment is that you can define a descriptor which allows you to make the property read-only, which it will be by default. This stops consuming components from overwriting it.</p>\n\n<p>This is more thoroughly explained in <a href=\"https://vuejsdevelopers.com/2017/04/22/vue-js-libraries-plugins/?jsdojo_id=solip\" rel=\"noreferrer\">this blog post</a> (which I wrote).</p>\n\n<p><strong>Note</strong>: The downside to this approach is that you get the entire Lodash library, even if you only need one or two functions. If that's a problem, best to use <code>import { reduce, whatever } from \"lodash\";</code> at the top of the file requiring it.</p>\n",
+      "owner": {
+        "display_name": "anthonygore",
+        "link": "https://stackoverflow.com/users/2278963/anthonygore"
+      }
+    },
+    {
+      "answer_id": 39209948,
+      "body": "<p>Here is how to do this as of Typescript 2.0:\n(tsd and typings are being deprecated in favor of the following):</p>\n\n<pre><code>$ npm install --save lodash\n\n# This is the new bit here: \n$ npm install --save-dev @types/lodash\n</code></pre>\n\n<p>Then, in your .ts file: </p>\n\n<p>Either:</p>\n\n<pre><code>import * as _ from \"lodash\";\n</code></pre>\n\n<p>Or (as suggested by @Naitik):</p>\n\n<pre><code>import _ from \"lodash\";\n</code></pre>\n\n<p>I'm not positive what the difference is. We use and prefer the first syntax. However, some report that the first syntax doesn't work for them, and someone else has commented that the latter syntax is incompatible with lazy loaded webpack modules. YMMV.</p>\n\n<p>Edit on Feb 27th, 2017:</p>\n\n<p>According to @Koert below, <code>import * as _ from \"lodash\";</code> is the only working syntax as of Typescript 2.2.1, lodash 4.17.4, and @types/lodash 4.14.53. He says that the other suggested import syntax gives the error \"has no default export\".</p>\n",
+      "owner": {
+        "display_name": "Taytay",
+        "link": "https://stackoverflow.com/users/544130/taytay"
+      }
+    },
+    {
+      "answer_id": 31054082,
+      "body": "<p>The argument passed to the callback is one of the elements of the array. The elements of your array are objects of the form <code>{description: ..., id: ...}</code>.</p>\n\n<pre><code>var delete_id = _.result(_.find(savedViews, function(obj) {\n    return obj.description === view;\n}), 'id');\n</code></pre>\n\n<p>Yet another alternative from the docs you linked to (lodash v3):</p>\n\n<pre><code>_.find(savedViews, 'description', view);\n</code></pre>\n\n<p>Lodash v4:</p>\n\n<pre><code>_.find(savedViews, ['description', view]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Felix Kling",
+        "link": "https://stackoverflow.com/users/218196/felix-kling"
+      }
+    },
+    {
+      "answer_id": 36295651,
+      "body": "<p>The debounce function can be passed inline in the JSX or set directly as a class method as seen here: </p>\n\n<pre><code>search: _.debounce(function(e) {\n  console.log('Debounced Event:', e);\n}, 1000)\n</code></pre>\n\n<p><strong>Fiddle:</strong> <a href=\"https://jsfiddle.net/woodenconsulting/69z2wepo/36453/\" rel=\"noreferrer\">https://jsfiddle.net/woodenconsulting/69z2wepo/36453/</a></p>\n\n<p>If you're using es2015+ you can define your debounce method directly, in your <code>constructor</code> or in a lifecycle method like <code>componentWillMount</code>.</p>\n\n<p><strong>Examples:</strong></p>\n\n<pre><code>class DebounceSamples extends React.Component {\n  constructor(props) {\n    super(props);\n\n    // Method defined in constructor, alternatively could be in another lifecycle method\n    // like componentWillMount\n    this.search = _.debounce(e =&gt; {\n      console.log('Debounced Event:', e);\n    }, 1000);\n  }\n\n  // Define the method directly in your class\n  search = _.debounce((e) =&gt; {\n    console.log('Debounced Event:', e);\n  }, 1000)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jeff Wooden",
+        "link": "https://stackoverflow.com/users/1146602/jeff-wooden"
+      }
+    },
+    {
+      "answer_id": 47809802,
+      "body": "<p>The problem occurs because you aren't calling the debounce function, you could do in the following manner</p>\n\n<pre><code>export default class componentName extends Component {\n  constructor(props) {\n    super(props);\n    this.state = {\n      value: this.props.value || null\n    }\n    this.servicesValue = _.debounce(this.servicesValue, 1000);\n  }\n\n  onChange(value) {\n    this.setState({ value });\n    this.servicesValue(value);\n  }\n  servicesValue = (value) =&gt; {\n      Services.setValue(value)\n  }\n  render() {\n    return (\n      &lt;div&gt;\n        &lt;input \n          onChange={(event, value) =&gt; this.onChange(value)}\n          value={this.state.value}\n        /&gt;\n      &lt;/div&gt;\n    )\n  }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Shubham Khatri",
+        "link": "https://stackoverflow.com/users/5928186/shubham-khatri"
+      }
+    },
+    {
+      "answer_id": 43395675,
+      "body": "<p>An iteratee is basically a function. When you call lodash's <a href=\"https://lodash.com/docs/4.17.4#iteratee\" rel=\"noreferrer\"><strong>iteratee</strong></a> function it returns a function that can be used later in the code. </p>\n\n<p>There are 3 different type of iteratee which I'll describe in turn, using the following objects in the example code.</p>\n\n<pre><code>let mary = {\n    name: 'mary',\n    gender: 'female',\n    age: 25,\n    job: {\n        title: 'teacher',\n        salary: 10000\n    }\n}\n\nlet dave = {\n    name: 'dave',\n    gender: 'male',\n    age: 27\n}\n\nlet oswald = {\n    name: 'oswald',\n    gender: 'male',\n    age: 25\n}\n\nlet people = [mary, dave, oswald];\n</code></pre>\n\n<h1>1. Property iteratee</h1>\n\n<p>When <a href=\"https://lodash.com/docs/4.17.4#iteratee\" rel=\"noreferrer\"><strong>iteratee</strong></a> is called with a string, it returns a function that will return the property  of an object with the key of the supplied string.</p>\n\n<p>e.g. </p>\n\n<pre><code>let getAge = _.iteratee('age');\n</code></pre>\n\n<p>What we end up with here is a function that returns the age property of an \nobject. Something similar to:</p>\n\n<pre><code>function getAge(object){\n    return object['age'];\n}\n</code></pre>\n\n<p>So we can use <code>getAge</code> to return the age of people:</p>\n\n<pre><code>let marysage = getAge(mary);\nlet davesage = getAge(dave);\n</code></pre>\n\n<p>The string can also be a path to a property:</p>\n\n<pre><code>let jobtitle = _.iteratee('job.title');\n</code></pre>\n\n<h1>2. Matches iteratee</h1>\n\n<p>When <a href=\"https://lodash.com/docs/4.17.4#iteratee\" rel=\"noreferrer\"><strong>iteratee</strong></a> is called with an object, it returns a predicate (returns true or false) if an object has a matching key with the given value.</p>\n\n<p>e.g.</p>\n\n<pre><code>let is25 = _.iteratee({age: 25});\n\nlet isMary25 = is25(mary);\nlet isDave25 = is25(dave);\n</code></pre>\n\n<p>The matches iteratee is not restricted to a single property. It can take multiple keys and values:</p>\n\n<pre><code>let isFemaleAged25 = _.iteratee({gender: 'female', age: 25});\n</code></pre>\n\n<h1>3. Matches property iteratee</h1>\n\n<p>This is similar to the matches iteratee but is created when <a href=\"https://lodash.com/docs/4.17.4#iteratee\" rel=\"noreferrer\"><strong>iteratee</strong></a> is called with an array of keys and values.</p>\n\n<p>The <code>is25</code> function created above could also be created like so:</p>\n\n<pre><code>let is25 = _.iteratee(['age', 25]);\n</code></pre>\n\n<p>The properties can also be a path to a key, something which cannot be done using the matches iteratee:</p>\n\n<pre><code>let isTeacherAged25 = _.iteratee(['age', 25, 'job.title', 'teacher'])\n</code></pre>\n\n<h1>Using iteratees</h1>\n\n<p>Most of the time you won't call the <a href=\"https://lodash.com/docs/4.17.4#iteratee\" rel=\"noreferrer\"><strong>iteratee</strong></a> function directly. Lodash will use the function internally when you call a function that can take an iteratee.</p>\n\n<p>e.g.</p>\n\n<pre><code>let names = _.map(people, 'name'); // =&gt; ['mary', 'dave', 'oswald']\n</code></pre>\n\n<p>Here lodash will call <code>iteratee</code> with the string <code>name</code> and use it as the function to call map.</p>\n\n<pre><code>let peopleAged25 = _.filter(people, {age: 25 }); // mary and oswald\n</code></pre>\n\n<p>Here lodash will call <code>iteratee</code> with the object <code>{age: 25}</code> and use it as the function to filter the people collection.</p>\n",
+      "owner": {
+        "display_name": "Gruff Bunny",
+        "link": "https://stackoverflow.com/users/1141370/gruff-bunny"
+      }
+    },
+    {
+      "answer_id": 26215431,
+      "body": "<p>Here's a reliable, recursive function that will properly camelCase all of a JavaScript object's properties:</p>\n\n<pre><code>function toCamel(o) {\n  var newO, origKey, newKey, value\n  if (o instanceof Array) {\n    return o.map(function(value) {\n        if (typeof value === \"object\") {\n          value = toCamel(value)\n        }\n        return value\n    })\n  } else {\n    newO = {}\n    for (origKey in o) {\n      if (o.hasOwnProperty(origKey)) {\n        newKey = (origKey.charAt(0).toLowerCase() + origKey.slice(1) || origKey).toString()\n        value = o[origKey]\n        if (value instanceof Array || (value !== null &amp;&amp; value.constructor === Object)) {\n          value = toCamel(value)\n        }\n        newO[newKey] = value\n      }\n    }\n  }\n  return newO\n}\n</code></pre>\n\n<p>Test:</p>\n\n<pre><code>var obj = {\n  'FirstName': 'John',\n  'LastName': 'Smith',\n  'BirthDate': new Date(),\n  'ArrayTest': ['one', 'TWO', 3],\n  'ThisKey': {\n    'This-Sub-Key': 42\n  }\n}\n\nconsole.log(JSON.stringify(toCamel(obj)))\n</code></pre>\n\n<p>Output: </p>\n\n<pre><code>{\n    \"firstName\":\"John\",\n    \"lastName\":\"Smith\",\n    \"birthDate\":\"2017-02-13T19:02:09.708Z\",\n    \"arrayTest\": [\n        \"one\", \n        \"TWO\", \n        3\n    ],\n    \"thisKey\":{\n        \"this-Sub-Key\":42\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "brandonscript",
+        "link": "https://stackoverflow.com/users/1214800/brandonscript"
+      }
+    },
+    {
+      "answer_id": 48668526,
+      "body": "<p>You could also do the Object-test with <code>Object(value) === value</code> and perform the conditional assignment with <code>Object.assign</code>:</p>\n\n<pre><code>Object.assign(destination, Object(value) === value &amp;&amp; { value });\n</code></pre>\n\n<p>Whether this is \"better\" is debatable. Pick what you like most and best suits your expectations. </p>\n",
+      "owner": {
+        "display_name": "trincot",
+        "link": "https://stackoverflow.com/users/5459839/trincot"
+      }
+    },
+    {
+      "answer_id": 21855227,
+      "body": "<p>Thanks to Gruff Bunny and Louis' comments, I found the source of the issue.</p>\n\n<p>As I use Backbone.js too, I loaded a special build of Lodash compatible with Backbone and Underscore that disables some features. In this example:</p>\n\n<pre><code>var clone = _.clone(data, true);\n\ndata[1].values.d = 'x';\n</code></pre>\n\n<ul>\n<li><a href=\"http://jsfiddle.net/u2Ufk/\" rel=\"noreferrer\">with the Normal build</a>: <code>_.isEqual(data, clone) === false</code></li>\n<li><a href=\"http://jsfiddle.net/U4MTL/\" rel=\"noreferrer\">with the Underscore build</a>: <code>_.isEqual(data, clone) === true</code></li>\n</ul>\n\n<p>I just replaced the Underscore build with the Normal build in my Backbone application and the application is still working. So I can now use the Lodash .clone with the expected behaviour.</p>\n\n<p><strong>Edit 2018:</strong> the Underscore build <a href=\"https://lodash.com/custom-builds\" rel=\"noreferrer\">doesn't seem to exist anymore</a>. If you are reading this in 2018, you could be interested by <a href=\"https://github.com/lodash/lodash/wiki/Migrating\" rel=\"noreferrer\">this documentation</a> (Backbone and Lodash).</p>\n",
+      "owner": {
+        "display_name": "GG.",
+        "link": "https://stackoverflow.com/users/652669/gg"
+      }
+    },
+    {
+      "answer_id": 35502881,
+      "body": "<p>Just use <code>_.filter</code> - it returns all matched items.</p>\n\n<p><a href=\"https://lodash.com/docs/4.17.4#filter\" rel=\"noreferrer\">_.filter</a></p>\n\n<blockquote>\n  <p>Iterates over elements of collection, returning an array of all elements predicate returns truthy for. The predicate is invoked with three arguments: (value, index|key, collection).</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "stasovlas",
+        "link": "https://stackoverflow.com/users/1988157/stasovlas"
+      }
+    },
+    {
+      "answer_id": 28354808,
+      "body": "<p>Since version v4.x you should use <a href=\"https://lodash.com/docs#map\" rel=\"noreferrer\"><code>_.map</code></a>:</p>\n\n<pre><code>_.map(users, 'id'); // [12, 14, 16, 18]\n</code></pre>\n\n<p>this way it is corresponds to native <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map\" rel=\"noreferrer\">Array.prototype.map</a> method where you would write (ES2015 syntax):</p>\n\n<pre><code>users.map(user =&gt; user.id); // [12, 14, 16, 18]\n</code></pre>\n\n<p>Before v4.x you could use <a href=\"https://github.com/lodash/lodash/blob/3.10.1/doc/README.md#_pluckcollection-path\" rel=\"noreferrer\"><code>_.pluck</code></a> the same way:</p>\n\n<pre><code>_.pluck(users, 'id'); // [12, 14, 16, 18]\n</code></pre>\n",
+      "owner": {
+        "display_name": "dfsq",
+        "link": "https://stackoverflow.com/users/949476/dfsq"
+      }
+    },
+    {
+      "answer_id": 25171174,
+      "body": "<p>The <a href=\"https://lodash.com/docs/4.17.4#includes\" rel=\"noreferrer\"><code>includes</code></a> (formerly called <code>contains</code> and <code>include</code>) method compares objects by reference (or more precisely, with <code>===</code>). Because the two object literals of <code>{\"b\": 2}</code> in your example represent <em>different</em> instances, they are not equal. Notice:</p>\n\n<pre><code>({\"b\": 2} === {\"b\": 2})\n&gt; false\n</code></pre>\n\n<p>However, this will work because there is only one instance of <code>{\"b\": 2}</code>:</p>\n\n<pre><code>var a = {\"a\": 1}, b = {\"b\": 2};\n_.includes([a, b], b);\n&gt; true\n</code></pre>\n\n<p>On the other hand, the <a href=\"https://lodash.com/docs/3.10.1#where\" rel=\"noreferrer\"><code>where</code></a>(deprecated in v4) and <a href=\"https://lodash.com/docs/4.17.4#find\" rel=\"noreferrer\"><code>find</code></a> methods compare objects by their properties, so they don't require reference equality. As an alternative to <code>includes</code>, you might want to try <a href=\"https://lodash.com/docs/4.17.4#some\" rel=\"noreferrer\"><code>some</code></a> (also aliased as <code>any</code>):</p>\n\n<pre><code>_.some([{\"a\": 1}, {\"b\": 2}], {\"b\": 2})\n&gt; true\n</code></pre>\n",
+      "owner": {
+        "display_name": "p.s.w.g",
+        "link": "https://stackoverflow.com/users/1715579/p-s-w-g"
+      }
+    },
+    {
+      "answer_id": 46202731,
+      "body": "<p>To finish <code>lodash#forEach</code> method use <code>return false;</code> statement:</p>\n\n<pre><code>_.forEach(oIncludedFileMap, function(aIncludedFiles, sKey) {\n  if  (aIncludedFiles == null) {\n    return false;\n  }\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "alexmac",
+        "link": "https://stackoverflow.com/users/1093582/alexmac"
+      }
+    },
+    {
+      "answer_id": 24111473,
+      "body": "<p>This is much easier in a current version of lodash (2.4.1).  You can just do this:</p>\n\n<pre><code>var data = [\n    {a: 'a', b: 2},\n    {a: 'a', b: 1},\n    {a: 'b', b: 5},\n    {a: 'a', b: 3},\n];\n\ndata = _.sortBy(data, [\"a\", \"b\"]);  //key point: Passing in an array of key names\n\n_.map(data, function(element) {console.log(element.a + \" \" + element.b);});\n</code></pre>\n\n<p>And it will output this to the console:</p>\n\n<pre><code>\"a 1\"\n\"a 2\"\n\"a 3\"\n\"b 5\"\n</code></pre>\n\n<p><em>Warning: See the comments below. This looks like it was briefly called <code>sortByAll</code> in version 3, but now it's back to <a href=\"https://lodash.com/docs#sortBy\" rel=\"noreferrer\"><code>sortBy</code></a> instead.</em></p>\n",
+      "owner": {
+        "display_name": "Daniel Kaplan",
+        "link": "https://stackoverflow.com/users/61624/daniel-kaplan"
+      }
+    },
+    {
+      "answer_id": 45178679,
+      "body": "<p>Your watch should look like this.</p>\n\n<pre><code>watch: {\n    searchStr: _.debounce(function(newVal){\n      this.checkSearchStr(newVal)\n    }, 100)\n},\n</code></pre>\n\n<p>This is a bit unusual, however. I don't see why you would want to debounce a watch. Possibly you would rather just debounce the <code>checkSearchStr</code> method.</p>\n\n<pre><code>watch: {\n    searchStr(newVal){\n      this.checkSearchStr(newVal)\n    }\n},\n\nmethods: {\n    checkSearchStr: _.debounce(function(string) {\n        console.log(this.foo) \n        console.log(this.$store.dispatch('someMethod',string)) \n    }, 100)\n}\n</code></pre>\n\n<p>One other thing I would like to point out; no where in the code is <code>searchStr</code> defined. When you watch a value with Vue, you are watching a data or computed property. As you have currently defined it, the watch on <code>searchStr</code> will never execute.</p>\n",
+      "owner": {
+        "display_name": "Bert",
+        "link": "https://stackoverflow.com/users/38065/bert"
+      }
+    },
+    {
+      "answer_id": 39257322,
+      "body": "<p>You can turn both arrays into objects using <a href=\"https://lodash.com/docs#keyBy\" rel=\"noreferrer\"><code>_.keyBy(arr, 'label')</code></a>, and then merge deep using <a href=\"https://lodash.com/docs#merge\" rel=\"noreferrer\"><code>_.merge()</code></a>:</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var originalAddresses = [{\r\n  label: 'home',\r\n  address: {\r\n    city: 'London',\r\n    zipCode: '12345'\r\n  }\r\n}, {\r\n  label: 'work',\r\n  address: {\r\n    city: 'New York',\r\n    zipCode: '54321'\r\n  }\r\n}];\r\n\r\nvar updatedAddresses = [{\r\n  label: 'home',\r\n  address: {\r\n    city: 'London (Central)',\r\n    country: 'UK'\r\n  }\r\n}, {\r\n  label: 'spain',\r\n  address: {\r\n    city: 'Madrid',\r\n    zipCode: '55555'\r\n  }\r\n}];\r\n\r\nvar result = _.values(_.merge(\r\n  _.keyBy(originalAddresses, 'label'),\r\n  _.keyBy(updatedAddresses, 'label')\r\n));\r\n\r\nconsole.log(result);</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.15.0/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Ori Drori",
+        "link": "https://stackoverflow.com/users/5157454/ori-drori"
+      }
+    },
+    {
+      "answer_id": 21311009,
+      "body": "<p>Yes you can and lodash is not needed... i.e.</p>\n\n<pre><code>for (var key in myObject.options) {\n  // check also if property is not inherited from prototype\n  if (myObject.options.hasOwnProperty(key)) { \n    var value = myObject.options[key];\n  }\n}\n</code></pre>\n\n<p><strong>Edit</strong>: the accepted answer (<a href=\"https://lodash.com/docs#forOwn\" rel=\"noreferrer\">_.forOwn()</a>) should be <a href=\"https://stackoverflow.com/a/21311045/528262\">https://stackoverflow.com/a/21311045/528262</a></p>\n",
+      "owner": {
+        "display_name": "stecb",
+        "link": "https://stackoverflow.com/users/528262/stecb"
+      }
+    },
+    {
+      "answer_id": 35590589,
+      "body": "<p>To chain with lodash, you first have to wrap the object:</p>\n\n<pre><code>_(foundUser).assignIn(rows[0]).omit(['blah']).value();\n</code></pre>\n\n<p>Further clarification:</p>\n\n<p>The <code>_</code> creates a lodash object which allows for implicit method chaining. Implicit method chaining means that in certain circumstances it may return a primitive value, in others it may return a lodash object that you need to unwrap by calling <code>.value()</code> on it.</p>\n\n<p>If you'd use <code>_.chain(...)</code>, you'd be creating a lodash object with explicit method chaining. The result is always a wrapped value and always needs to be unwrapped by calling <code>.value()</code> on it.</p>\n\n<p>For further reference here are the links to the documentation:</p>\n\n<p><a href=\"https://lodash.com/docs#chain\" rel=\"noreferrer\">Explicit chaining in Lodash</a> </p>\n\n<p><a href=\"https://lodash.com/docs#lodash\" rel=\"noreferrer\">Implicit chaining in Lodash</a></p>\n",
+      "owner": {
+        "display_name": "Kenneth",
+        "link": "https://stackoverflow.com/users/1816704/kenneth"
+      }
+    },
+    {
+      "answer_id": 44313087,
+      "body": "<p>You could filter it and search just for one occurence of the search string.</p>\n\n<p>Methods used:</p>\n\n<ul>\n<li><p><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter\" rel=\"noreferrer\"><code>Array#filter</code></a>, just for filtering an array with conditions,</p></li>\n<li><p><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys\" rel=\"noreferrer\"><code>Object.keys</code></a> for getting all property names of the object,</p></li>\n<li><p><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some\" rel=\"noreferrer\"><code>Array#some</code></a> for iterating the keys and exit loop if found,</p></li>\n<li><p><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase\" rel=\"noreferrer\"><code>String#toLowerCase</code></a> for getting comparable values,</p></li>\n<li><p><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes\" rel=\"noreferrer\"><code>String#includes</code></a> for checking two string, if one contains the other.</p></li>\n</ul>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>function filterByValue(array, string) {\r\n    return array.filter(o =&gt;\r\n        Object.keys(o).some(k =&gt; o[k].toLowerCase().includes(string.toLowerCase())));\r\n}\r\n\r\nconst arrayOfObject = [{ name: 'Paul', country: 'Canada', }, { name: 'Lea', country: 'Italy', }, { name: 'John', country: 'Italy' }];\r\n\r\nconsole.log(filterByValue(arrayOfObject, 'lea')); // [{name: 'Lea', country: 'Italy'}]\r\nconsole.log(filterByValue(arrayOfObject, 'ita')); // [{name: 'Lea', country: 'Italy'}, {name: 'John', country: 'Italy'}]</code></pre>\r\n<pre class=\"snippet-code-css lang-css prettyprint-override\"><code>.as-console-wrapper { max-height: 100% !important; top: 0; }</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Nina Scholz",
+        "link": "https://stackoverflow.com/users/1447675/nina-scholz"
+      }
+    },
+    {
+      "answer_id": 29082994,
+      "body": "<p>As of <strong>lodash 3.5.0</strong> you can use <a href=\"https://lodash.com/docs#sortByOrder\" rel=\"noreferrer\">sortByOrder</a> (renamed <a href=\"https://lodash.com/docs#orderBy\" rel=\"noreferrer\">orderBy</a> in v4.3.0):</p>\n\n<pre><code>var data = _.sortByOrder(array_of_objects, ['type','name'], [true, false]);\n</code></pre>\n\n<p>Since <strong>version 3.10.0</strong> you can even use standard semantics for ordering (asc, desc):</p>\n\n<pre><code>var data = _.sortByOrder(array_of_objects, ['type','name'], ['asc', 'desc']);\n</code></pre>\n\n<p>In <strong>version 4</strong> of lodash this method has been renamed <a href=\"https://lodash.com/docs#orderBy\" rel=\"noreferrer\">orderBy</a>:</p>\n\n<pre><code>var data = _.orderBy(array_of_objects, ['type','name'], ['asc', 'desc']);\n</code></pre>\n",
+      "owner": {
+        "display_name": "djskinner",
+        "link": "https://stackoverflow.com/users/120497/djskinner"
+      }
+    },
+    {
+      "answer_id": 24674700,
+      "body": "<p>You can do</p>\n\n<pre><code>var arr = _.values(obj);\n</code></pre>\n\n<p>For documentation see <a href=\"http://lodash.com/docs#values\" rel=\"noreferrer\">here.</a></p>\n",
+      "owner": {
+        "display_name": "Daniel Schmidt",
+        "link": "https://stackoverflow.com/users/1559386/daniel-schmidt"
+      }
+    },
+    {
+      "answer_id": 43249745,
+      "body": "<blockquote>\n  <p>In Lodash, on the other hand, returning false tells _.forEach() that this iteration will be the last. Is there a way to make the \"continue\" behavior also functional in Lodash?</p>\n</blockquote>\n\n<p>You could return <code>true</code>, or just a single <code>return</code> (which returns <code>undefined</code>), this value is different from <a href=\"https://lodash.com/docs/4.17.4#forEach\" rel=\"noreferrer\">needed <code>false</code></a> for <em>\"exit iteration early by explicitly returning <code>false</code>.\"</em></p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>_.forEach([1, 2, 3, 4, 5], function (a) {\r\n    if (a &lt; 3) return;       // continue\r\n    console.log(a);\r\n    if (a &gt; 3) return false; // break\r\n    // return undefined;     // continue, undefined is the standard value of ending a function\r\n});</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.15.0/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Nina Scholz",
+        "link": "https://stackoverflow.com/users/1447675/nina-scholz"
+      }
+    },
+    {
+      "answer_id": 41139912,
+      "body": "<p>The code I needed looks like this...</p>\n\n<pre><code>_.orderBy(this.myArray, [( o ) =&gt; { return o.myProperty || ''}], ['desc']); \n</code></pre>\n",
+      "owner": {
+        "display_name": "Ben Cameron",
+        "link": "https://stackoverflow.com/users/574130/ben-cameron"
+      }
+    },
+    {
+      "answer_id": 19023387,
+      "body": "<p>With <strong>Underscore</strong></p>\n\n<p>Underscore provides a function <a href=\"http://underscorejs.org/#mapObject\"><code>_.mapObject</code></a> to map the values and preserve the keys.</p>\n\n<pre><code>_.mapObject({ one: 1, two: 2, three: 3 }, function (v) { return v * 3; });\n\n// =&gt; { one: 3, two: 6, three: 9 }\n</code></pre>\n\n<p><kbd><strong><a href=\"http://jsfiddle.net/tANuM/81\">DEMO</a></strong></kbd></p>\n\n<hr>\n\n<p>With <strong>Lodash</strong></p>\n\n<p>Lodash provides a function <a href=\"https://lodash.com/docs#mapValues\"><code>_.mapValues</code></a> to map the values and preserve the keys.</p>\n\n<pre><code>_.mapValues({ one: 1, two: 2, three: 3 }, function (v) { return v * 3; });\n\n// =&gt; { one: 3, two: 6, three: 9 }\n</code></pre>\n\n<p><kbd><strong><a href=\"https://jsfiddle.net/rgzsu1tL/1\">DEMO</a></strong></kbd></p>\n",
+      "owner": {
+        "display_name": "GG.",
+        "link": "https://stackoverflow.com/users/652669/gg"
+      }
+    },
+    {
+      "answer_id": 40836350,
+      "body": "<p>Using lodash, <code>mapValues</code> is a graceful, loop-free way:</p>\n\n\n\n<pre><code>filter = {\n    \"ID\": false,\n    \"Name\": true,\n    \"Role\": false,\n    \"Sector\": true,\n    \"Code\": false\n};\n\nfilter = _.mapValues(filter, () =&gt; false);\n</code></pre>\n\n<p>If you want to do this with Underscore.js, there is an equivalent, but with a slightly different name:</p>\n\n<pre><code>filter = _.mapObject(filter, () =&gt; false);\n</code></pre>\n\n<p>In either case, the value of <code>filter</code> will be set to:</p>\n\n<pre><code>{ ID: false, \n  Name: false, \n  Role: false, \n  Sector: false, \n  Code: false }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jonathan Eunice",
+        "link": "https://stackoverflow.com/users/240490/jonathan-eunice"
+      }
+    },
+    {
+      "answer_id": 40821882,
+      "body": "<p>If Typescript can not deduce the type of the result of groupBy you could try asserting it yourself.</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>function groupBy(o: any) {\n    return o; // return any\n}\n\nlet x = { a: 1, b: \"1\" }\n\n// we know better than tsc and assert the type\nlet {a, b} = &lt;{ a: number, b: string }&gt;groupBy(x);\n</code></pre>\n\n\n",
+      "owner": {
+        "display_name": "toskv",
+        "link": "https://stackoverflow.com/users/5152732/toskv"
+      }
+    },
+    {
+      "answer_id": 35183231,
+      "body": "<p>Lodash has a \"map\" function that works just like jQuerys:</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"false\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var myArr =  [{ name: \"john\", age:23 },\r\n              { name: \"john\", age:43 },\r\n              { name: \"jimi\", age:10 },\r\n              { name: \"bobi\", age:67 }];\r\n\r\nvar johns = _.map(myArr, function(o) {\r\n    if (o.name == \"john\") return o;\r\n});\r\n\r\n// Remove undefines from the array\r\njohns = _.without(johns, undefined)</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Dustin Poissant",
+        "link": "https://stackoverflow.com/users/2082141/dustin-poissant"
+      }
+    },
+    {
+      "answer_id": 18830961,
+      "body": "<p>If you're going to use this sort of pattern a lot, you could create a mixin like the following, though, it isn't doing anything fundementally different than your original code. It just makes it more developer friendly.</p>\n\n<pre><code>_.mixin({\n  'findByValues': function(collection, property, values) {\n    return _.filter(collection, function(item) {\n      return _.contains(values, item[property]);\n    });\n  }\n});\n</code></pre>\n\n<p>Then you can use it like this.</p>\n\n<pre><code>var collections = [\n    {id: 1, name: 'xyz'}, \n    {id: 2,  name: 'ds'},\n    {id: 3,  name: 'rtrt'},\n    {id: 4,  name: 'nhf'},\n    {id: 5,  name: 'qwe'}\n];\n\nvar filtered = _.findByValues(collections, \"id\", [1,3,4]);\n</code></pre>\n\n<p><strong>Update</strong> - This above answer is old and clunky. Please use the <a href=\"https://stackoverflow.com/a/33878221/5651\">answer from Adam Boduch</a> for a much more elegant solution.</p>\n\n<pre><code>_(collections)\n  .keyBy('id') // or .indexBy() if using lodash 3.x\n  .at(ids)\n  .value();\n</code></pre>\n",
+      "owner": {
+        "display_name": "jessegavin",
+        "link": "https://stackoverflow.com/users/5651/jessegavin"
+      }
+    },
+    {
+      "answer_id": 30727745,
+      "body": "<p><strong>Lodash has a <a href=\"https://lodash.com/docs#pickBy\" rel=\"noreferrer\"><code>_.pickBy</code></a> function</strong> which does exactly what you're looking for.</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var thing = {\r\n  \"a\": 123,\r\n  \"b\": 456,\r\n  \"abc\": 6789\r\n};\r\n\r\nvar result = _.pickBy(thing, function(value, key) {\r\n  return _.startsWith(key, \"a\");\r\n});\r\n\r\nconsole.log(result.abc) // 6789\r\nconsole.log(result.b)   // undefined</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdn.jsdelivr.net/lodash/4.16.4/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "serg10",
+        "link": "https://stackoverflow.com/users/1853/serg10"
+      }
+    },
+    {
+      "answer_id": 40140347,
+      "body": "<p>Since you're already using lodash, you can take advantage of the <a href=\"https://lodash.com/docs/4.16.4#filter\" rel=\"noreferrer\">_.filter</a> function. This will return only the items where <code>selected</code> is true.</p>\n\n<pre><code>var selectedVehicles = _.filter(response.vehicleTypes, 'selected');\n</code></pre>\n\n<p>Now that you have the <code>selectedVehicles</code> array, you can use your original code for grouping by the <code>makeCode</code>.</p>\n\n<pre><code>selectedVehicles = _.groupBy(selectedVehicles, function(item) {\n  return item.makeCode;\n});\n</code></pre>\n\n<p>This returns an object, so we will need to iterate through those keys, and perform our second <code>groupBy</code></p>\n\n<pre><code>_.forEach(selectedVehicles, function(value, key) {\n  selectedVehicles[key] = _.groupBy(selectedVehicles[key], function(item) {\n    return item.modelCode;\n  });\n});\n</code></pre>\n\n<p>From this you will have an object of the form. I'll leave it to you to get the count from each array.</p>\n\n<pre><code>{ 'Make-A': { 'Model-a': [ ... ] },\n  'Make-B': { 'Model-c': [ ... ] },\n  'Make-C': { 'Model-b': [ ..., ... ] } }\n</code></pre>\n",
+      "owner": {
+        "display_name": "mguida",
+        "link": "https://stackoverflow.com/users/3711733/mguida"
+      }
+    },
+    {
+      "answer_id": 37073878,
+      "body": "<p>The <code>Set</code> feature introduced by ES6 would do exactly that.</p>\n\n<pre><code>var s = new Set();\n\n// Adding alues\ns.add('hello');\ns.add('world');\ns.add('hello'); // already exists\n\n// Removing values\ns.delete('world');\n\nvar array = Array.from(s);\n</code></pre>\n\n<p>Or if you want to keep using regular Arrays</p>\n\n<pre><code>function add(array, value) {\n  if (array.indexOf(value) === -1) {\n    array.push(value);\n  }\n}\n\nfunction remove(array, value) {\n  var index = array.indexOf(value);\n  if (index !== -1) {\n    array.splice(index, 1);\n  }\n}\n</code></pre>\n\n<p>Using vanilla JS over Lodash is a good practice. It removes a dependency, forces you to understand your code, and often is more performant.</p>\n",
+      "owner": {
+        "display_name": "floribon",
+        "link": "https://stackoverflow.com/users/1501926/floribon"
+      }
+    },
+    {
+      "answer_id": 39127782,
+      "body": "<p><a href=\"https://lodash.com/docs#unionBy\"><code>_.unionBy()</code></a>:<br>\nThis method is like _.union except that it accepts iteratee which is invoked for each element of each arrays to generate the criterion by which uniqueness is computed. <strong>Result values are chosen from the first array in which the value occurs</strong>.</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var original = [\r\n  { label: 'private', value: 'private@johndoe.com' },\r\n  { label: 'work', value: 'work@johndoe.com' }\r\n];\r\n\r\nvar update = [\r\n  { label: 'private', value: 'me@johndoe.com' },\r\n  { label: 'school', value: 'schol@johndoe.com' }\r\n];\r\n\r\nvar result = _.unionBy(update, original, \"label\");\r\n\r\nconsole.log(result);</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.15.0/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Andreas",
+        "link": "https://stackoverflow.com/users/402037/andreas"
+      }
+    },
+    {
+      "answer_id": 38334318,
+      "body": "<p>Creating <em>package.json</em> using <em>npm init</em> solved my issue.</p>\n",
+      "owner": {
+        "display_name": "xruptronics",
+        "link": "https://stackoverflow.com/users/6569634/xruptronics"
+      }
+    },
+    {
+      "answer_id": 38084493,
+      "body": "<p>This can be done with a small modification of <a href=\"https://lodash.com/docs#startCase\"><code>startCase</code></a>:</p>\n\n<pre><code>_.startCase(_.toLower(str));\n</code></pre>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"true\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code snippet-currently-hidden\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>console.log(_.startCase(_.toLower(\"This string ShouLD be ALL in title CASe\")));</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "castletheperson",
+        "link": "https://stackoverflow.com/users/5743988/castletheperson"
+      }
+    },
+    {
+      "answer_id": 37934915,
+      "body": "<p>You can use <a href=\"https://lodash.com/docs#omit\">omit()</a> to remove specific properties in an object.</p>\n\n<pre><code>var result = _.isEqual(\n  _.omit(obj1, ['creation', 'deletion']),\n  _.omit(obj2, ['creation', 'deletion'])\n);\n</code></pre>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"true\" data-console=\"true\">\r\n<div class=\"snippet-code snippet-currently-hidden\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var obj1 = {\r\n  name: \"James\",\r\n  age: 17,\r\n  creation: \"13-02-2016\",\r\n  deletion: \"13-04-2016\"\r\n};\r\n\r\nvar obj2 = {\r\n  name: \"Maria\",\r\n  age: 17,\r\n  creation: \"13-02-2016\",\r\n  deletion: \"13-04-2016\"\r\n};\r\n\r\nvar result = _.isEqual(\r\n  _.omit(obj1, ['creation', 'deletion']),\r\n  _.omit(obj2, ['creation', 'deletion'])\r\n);\r\n\r\nconsole.log(result);</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "ryeballar",
+        "link": "https://stackoverflow.com/users/3450034/ryeballar"
+      }
+    },
+    {
+      "answer_id": 37848098,
+      "body": "<p>The <a href=\"https://lodash.com/docs#orderBy\" rel=\"noreferrer\">documentation</a> specifies that you can pass a function as \"iteratee\":</p>\n\n<blockquote>\n  <p>[iteratees=[_.identity]] (Array[]|Function[]|Object[]|string[]): The iteratees to sort by.</p>\n</blockquote>\n\n<p>So you can do</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>const users = [\r\n  { name: 'A', age: 48 },\r\n  { name: 'B', age: 34 },\r\n  { name: 'b', age: 40 },\r\n  { name: 'a', age: 36 }\r\n];\r\n\r\nconst sortedUsers = _.orderBy(users, [user =&gt; user.name.toLowerCase()], ['desc']);\r\nconsole.log(sortedUsers);</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Felix Kling",
+        "link": "https://stackoverflow.com/users/218196/felix-kling"
+      }
+    },
+    {
+      "answer_id": 37585362,
+      "body": "<p>You can use <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map\" rel=\"noreferrer\"><code>Array#map</code></a> with <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find\" rel=\"noreferrer\"><code>Array#find</code></a>.</p>\n\n<pre><code>arr1.map(obj =&gt; arr2.find(o =&gt; o.id === obj.id) || obj);\n</code></pre>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"true\" data-console=\"true\">\r\n<div class=\"snippet-code snippet-currently-hidden\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var arr1 = [{\r\n    id: '124',\r\n    name: 'qqq'\r\n}, {\r\n    id: '589',\r\n    name: 'www'\r\n}, {\r\n    id: '45',\r\n    name: 'eee'\r\n}, {\r\n    id: '567',\r\n    name: 'rrr'\r\n}];\r\n\r\nvar arr2 = [{\r\n    id: '124',\r\n    name: 'ttt'\r\n}, {\r\n    id: '45',\r\n    name: 'yyy'\r\n}];\r\n\r\nvar res = arr1.map(obj =&gt; arr2.find(o =&gt; o.id === obj.id) || obj);\r\n\r\nconsole.log(res);</code></pre>\r\n</div>\r\n</div>\r\n</p>\n\n<p>Here, <code>arr2.find(o =&gt; o.id === obj.id)</code> will return the element i.e. object from <code>arr2</code> if the <code>id</code> is found in the <code>arr2</code>. If not, then the same element in <code>arr1</code> i.e. <code>obj</code> is returned.</p>\n",
+      "owner": {
+        "display_name": "Tushar",
+        "link": "https://stackoverflow.com/users/2025923/tushar"
+      }
+    },
+    {
+      "answer_id": 30111321,
+      "body": "<p>Here's what I came up with:</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>_.find(modules, _.flow(\n    _.property('submodules'),\n    _.partialRight(_.some, { id: 2 })\n));\n// → { name: 'Module1', ... }\n</code></pre>\n\n<p>Using <a href=\"https://lodash.com/docs#flow\" rel=\"noreferrer\">flow()</a>, you can construct a callback function that does what you need. When call, the data <em>flows</em> through each function. The first thing you want is the <code>submodules</code> property, and you can get that using the <a href=\"https://lodash.com/docs#property\" rel=\"noreferrer\">property()</a> function.</p>\n\n<p>The the submodules array is then fed into <a href=\"https://lodash.com/docs#some\" rel=\"noreferrer\">some()</a>, which returns true if it contains the submodule you're after, in this case, ID <code>2</code>.</p>\n\n<p>Replace <code>find()</code> with <code>filter()</code> if you're looking for multiple modules, and not just the first one found.</p>\n",
+      "owner": {
+        "display_name": "Adam Boduch",
+        "link": "https://stackoverflow.com/users/4606858/adam-boduch"
+      }
+    },
+    {
+      "answer_id": 37524088,
+      "body": "<p>Your example object <em>is <strong>not</strong> empty</em> so instead perhaps you want to test if all properties are <em>undefined</em></p>\n\n<pre><code>let o = {foo: undefined};\n!_.values(o).some(x =&gt; x !== undefined); // true\n</code></pre>\n",
+      "owner": {
+        "display_name": "Paul S.",
+        "link": "https://stackoverflow.com/users/1615483/paul-s"
+      }
+    },
+    {
+      "answer_id": 37276912,
+      "body": "<p>Many ways, but <code>uniq()</code> isn't a method on array, it's a lodash method.</p>\n\n<pre><code>_.uniq(_.map(data, 'usernames'))\n</code></pre>\n\n<p>Or:</p>\n\n<pre><code>_.chain(data).map('usernames').uniq().value()\n</code></pre>\n\n<p>(The second is untested and possibly wrong, but it's close.)</p>\n\n<p>As mentioned in the comment, depending on what your data actually <em>is</em>, you could do this all in one shot without first pulling out whatever <code>usernames</code> is.</p>\n",
+      "owner": {
+        "display_name": "Dave Newton",
+        "link": "https://stackoverflow.com/users/438992/dave-newton"
+      }
+    },
+    {
+      "answer_id": 36429733,
+      "body": "<p>you have to use the RegExp with global option offered by lodash.</p>\n\n<p>so just use </p>\n\n<pre><code>var text = \"azertyazerty\";\n_.replace(text,new RegExp(\"az\",\"g\"),\"qu\")\n</code></pre>\n\n<p>to return <code>quertyquerty</code></p>\n",
+      "owner": {
+        "display_name": "Anthony",
+        "link": "https://stackoverflow.com/users/2733216/anthony"
+      }
+    },
+    {
+      "answer_id": 36260104,
+      "body": "<p>Using lodash and an arrow function, it should be as simple as;</p>\n\n<pre><code>var picked = lodash.filter(arr, x =&gt; x.city === 'Amsterdam');\n</code></pre>\n\n<p>...or alternately with object notation;</p>\n\n<pre><code>var picked = lodash.filter(arr, { 'city': 'Amsterdam' } );\n</code></pre>\n\n<p>Note: The above answer used to be based on <code>pickBy</code>, which as @torazaburo points out below was not a good choice for the use case.</p>\n",
+      "owner": {
+        "display_name": "Joachim Isaksson",
+        "link": "https://stackoverflow.com/users/477878/joachim-isaksson"
+      }
+    },
+    {
+      "answer_id": 23387961,
+      "body": "<p>The difference lies in that if the collection over which you are iterating is an object which  has a <code>length</code> property, then the <code>_.forEach()</code> will iterate over it as if it were an array, whereas the <code>_.forOwn()</code> will iterate over it like an object.</p>\n\n\n\n<p>Assume you have the object:</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>a = {\n  x: 100, \n  y: 200, \n  length: 2\n}\n</code></pre>\n\n<p>If you iterate over it as:</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>_.forEach(a, function(val, key) {\n  console.log('a[' + key + '] = ' + val); \n});\n</code></pre>\n\n<p>you'll get output:</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>a[0] = undefined\na[1] = undefined \n</code></pre>\n\n<p>whereas iterating over it with <code>_.forOwn()</code> you'll get the more reasonable:</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>a[x] = 100\na[y] = 200\na[length] = 2\n</code></pre>\n",
+      "owner": {
+        "display_name": "thalisk",
+        "link": "https://stackoverflow.com/users/1787400/thalisk"
+      }
+    },
+    {
+      "answer_id": 35562989,
+      "body": "<p>Below you can find an easy way to achieve that using the <a href=\"https://lodash.com/docs#filter\" rel=\"noreferrer\">filter</a> method:</p>\n\n<pre><code>var b = _.filter(a, function(o) { if (o.a &lt; 4) return o }).length;\n</code></pre>\n",
+      "owner": {
+        "display_name": "JesusTinoco",
+        "link": "https://stackoverflow.com/users/4509510/jesustinoco"
+      }
+    },
+    {
+      "answer_id": 35325938,
+      "body": "<p>You can make your code much cleaner with ES2015 arrow functions:</p>\n\n<pre><code>var array = [[1, 2], [3, 4]];\nvar double = x =&gt; x * 2;\nvar doubledArray = _.map( array, subarray =&gt; _.map( subarray, double ));\n</code></pre>\n\n<p>Using vanilla JS:</p>\n\n<pre><code>var array = [[1, 2], [3, 4]];\nvar double = x =&gt; x * 2;\nvar doubledArray = array.map( subarray =&gt; subarray.map( double ));\n</code></pre>\n",
+      "owner": {
+        "display_name": "TbWill4321",
+        "link": "https://stackoverflow.com/users/1677925/tbwill4321"
+      }
+    },
+    {
+      "answer_id": 35214766,
+      "body": "<p>Looks like <code>_.map(users, 'firstName');</code> should cover it.</p>\n",
+      "owner": {
+        "display_name": "Joe Hawkins",
+        "link": "https://stackoverflow.com/users/2411859/joe-hawkins"
+      }
+    },
+    {
+      "answer_id": 35136589,
+      "body": "<p>Ah-ha!  The <a href=\"https://github.com/lodash/lodash/wiki/Changelog\" rel=\"noreferrer\">Lodash Changelog</a> says it all...</p>\n\n<p>\"Removed <code>_.pluck</code> in favor of <code>_.map</code> with iteratee shorthand\"</p>\n\n<pre><code>var objects = [{ 'a': 1 }, { 'a': 2 }];\n\n// in 3.10.1\n_.pluck(objects, 'a'); // → [1, 2]\n_.map(objects, 'a'); // → [1, 2]\n\n// in 4.0.0\n_.map(objects, 'a'); // → [1, 2]\n</code></pre>\n",
+      "owner": {
+        "display_name": "sfletche",
+        "link": "https://stackoverflow.com/users/379512/sfletche"
+      }
+    },
+    {
+      "answer_id": 34189653,
+      "body": "<p>Here you go:</p>\n\n<pre><code>let card = [];\n_.times(8, () =&gt; {\n  card.push(&lt;span className=\"busterCards\"&gt;♦&lt;/span&gt;);\n});\n</code></pre>\n\n<p>You may want to add key to each <code>span</code> element so React won't complain about missing the key attribute:</p>\n\n<pre><code>let card = [];\n_.times(8, (i) =&gt; {\n  card.push(&lt;span className=\"busterCards\" key={i}&gt;♦&lt;/span&gt;);\n});\n</code></pre>\n\n<p>For more info about <code>.times</code>, refer here: <a href=\"https://lodash.com/docs#times\" rel=\"noreferrer\">https://lodash.com/docs#times</a></p>\n",
+      "owner": {
+        "display_name": "Long Nguyen",
+        "link": "https://stackoverflow.com/users/5572893/long-nguyen"
+      }
+    },
+    {
+      "answer_id": 19966511,
+      "body": "<p>Here's how <code>extend</code>/<code>assign</code> works: For each property in source, copy its value as-is to destination. if property values themselves are objects, there is no recursive traversal of their properties. Entire object would be taken from source and set in to destination.</p>\n\n<p>Here's how <code>merge</code> works: For each property in source, check if that property is object itself. If it is then go down recursively and try to map child object properties from source to destination. So essentially we merge object hierarchy from source to destination. While for <code>extend</code>/<code>assign</code>, it's simple one level copy of properties from source to destination.</p>\n\n<p>Here's simple JSBin that would make this crystal clear:\n<a href=\"http://jsbin.com/uXaqIMa/2/edit?js,console\">http://jsbin.com/uXaqIMa/2/edit?js,console</a></p>\n\n<p>Here's more elaborate version that includes array in the example as well:\n<a href=\"http://jsbin.com/uXaqIMa/1/edit?js,console\">http://jsbin.com/uXaqIMa/1/edit?js,console</a></p>\n",
+      "owner": {
+        "display_name": "Shital Shah",
+        "link": "https://stackoverflow.com/users/207661/shital-shah"
+      }
+    },
+    {
+      "answer_id": 21090587,
+      "body": "<p>Is that what are you looking for?</p>\n\n<pre><code>$scope.$watch(\"id\", _.debounce(function (id) {\n    // Code that does something based on $scope.id\n    // This code will be invoked after 1 second from the last time 'id' has changed.\n}, 1000));\n</code></pre>\n\n<p>Note, however, that if you want to change $scope inside that function you should wrap it <code>$scope.$apply(...)</code> as unless <code>_.debounce</code> function uses <code>$timeout</code> internally (which as far as I understand it doesn't do) Angular will not be aware of the changes you did on the <code>$scope</code>.</p>\n\n<p><strong>UPDATE</strong></p>\n\n<p>As to the updated question - yes you need to wrap the entire callback function body with    </p>\n\n<p><code>$scope.$apply()</code>:</p>\n\n<pre><code>$scope.$watch(\"id\", _.debounce(function (id) {\n    // This code will be invoked after 1 second from the last time 'id' has changed.\n    $scope.$apply(function(){\n        // Code that does something based on $scope.id\n    })\n}, 1000));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alex Vayda",
+        "link": "https://stackoverflow.com/users/96766/alex-vayda"
+      }
+    },
+    {
+      "answer_id": 32966051,
+      "body": "<p>Just using the <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods\" rel=\"noreferrer\">Array iteration methods</a> built into JS is fine for this:</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var result1 = [\r\n    {id:1, name:'Sandra', type:'user', username:'sandra'},\r\n    {id:2, name:'John', type:'admin', username:'johnny2'},\r\n    {id:3, name:'Peter', type:'user', username:'pete'},\r\n    {id:4, name:'Bobby', type:'user', username:'be_bob'}\r\n];\r\n\r\nvar result2 = [\r\n    {id:2, name:'John', email:'johnny@example.com'},\r\n    {id:4, name:'Bobby', email:'bobby@example.com'}\r\n];\r\n\r\nvar props = ['id', 'name'];\r\n\r\nvar result = result1.filter(function(o1){\r\n    // filter out (!) items in result2\r\n    return !result2.some(function(o2){\r\n        return o1.id === o2.id;          // assumes unique id\r\n    });\r\n}).map(function(o){\r\n    // use reduce to make objects with only the required properties\r\n    // and map to apply this to the filtered array as a whole\r\n    return props.reduce(function(newo, name){\r\n        newo[name] = o[name];\r\n        return newo;\r\n    }, {});\r\n});\r\n\r\ndocument.body.innerHTML = '&lt;pre&gt;' + JSON.stringify(result, null, 4) +\r\n        '&lt;/pre&gt;';</code></pre>\r\n</div>\r\n</div>\r\n</p>\n\n<p>If you are doing this a lot, then by all means look at external libraries to help you out, but it's worth learning the basics first, and the basics will serve you well here.</p>\n",
+      "owner": {
+        "display_name": "1983",
+        "link": "https://stackoverflow.com/users/1094311/1983"
+      }
+    },
+    {
+      "answer_id": 28948824,
+      "body": "<p>You can use the <a href=\"https://lodash.com/docs#sortBy\">sortBy()</a> function here. You don't have to specify a key, as it will fall back to <a href=\"https://lodash.com/docs#identity\">identity()</a>.</p>\n\n<pre><code>var myArray = [ 3, 4, 2, 9, 4, 2 ];\n\n_.sortBy(myArray);\n// → [ 2, 2, 3, 4, 4, 9 ]\n\n_(myArray).sortBy().take(3).value();\n// → [ 2, 2, 3 ]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Adam Boduch",
+        "link": "https://stackoverflow.com/users/4606858/adam-boduch"
+      }
+    },
+    {
+      "answer_id": 28719938,
+      "body": "<pre><code>var sortedCollection = _.sortBy(collection, function(item){\n  return firstArray.indexOf(item.guid)\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "idbehold",
+        "link": "https://stackoverflow.com/users/1397319/idbehold"
+      }
+    },
+    {
+      "answer_id": 28044419,
+      "body": "<p>Simply provide an empty object as the target (<a href=\"https://lodash.com/docs#merge\"><code>merge</code> supports more than one <code>source</code> value</a>):</p>\n\n<pre><code>var result = _.merge({}, obj, source);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sean Vieira",
+        "link": "https://stackoverflow.com/users/135978/sean-vieira"
+      }
+    },
+    {
+      "answer_id": 25765351,
+      "body": "<p>You can <strong>use an object instead of an array</strong>:</p>\n\n<pre><code>var hash = {\n  '1': {uid: 1, name: \"bla\", description: \"cucu\"},\n  '2': {uid: 2, name: \"smth else\", description: \"cucarecu\"}\n};\n</code></pre>\n\n<p><strong>The keys are the uids</strong>. Now your function <code>addOrReplace</code> is simple like this:</p>\n\n<pre><code>function addOrReplace(hash, object) {\n    hash[object.uid] = object;\n}\n</code></pre>\n\n<hr>\n\n<p><strong>UPDATE</strong></p>\n\n<p>It's also possible to <strong>use an object as an index</strong> in addition to the array.<br>\nThis way you've got <strong>fast lookups</strong> and also a working array:</p>\n\n<pre><code>var arr = [],\n    arrIndex = {};\n\naddOrReplace({uid: 1, name: \"bla\", description: \"cucu\"});\naddOrReplace({uid: 2, name: \"smth else\", description: \"cucarecu\"});\naddOrReplace({uid: 1, name: \"bli\", description: \"cici\"});\n\nfunction addOrReplace(object) {\n    var index = arrIndex[object.uid];\n    if(index === undefined) {\n        index = arr.length;\n        arrIndex[object.uid] = index;\n    }\n    arr[index] = object;\n}\n</code></pre>\n\n<p>Take a look at the <strong><a href=\"http://jsfiddle.net/5Ls4pf1y/\" rel=\"noreferrer\">jsfiddle-demo</a></strong> (an object-oriented solution you'll find <a href=\"http://jsfiddle.net/rorywpxj/\" rel=\"noreferrer\">here</a>)</p>\n",
+      "owner": {
+        "display_name": "friedi",
+        "link": "https://stackoverflow.com/users/2422977/friedi"
+      }
+    },
+    {
+      "answer_id": 21536978,
+      "body": "<p>I like to dive into the source code before I pull in utilities. For lo-dash this can be difficult as there is a ton of abstracted internal functionality in all the utilities.</p>\n\n<ul>\n<li><a href=\"https://github.com/lodash/lodash/blob/2.4.1/dist/lodash.js#L2870-L2889\">transform source</a></li>\n<li><a href=\"https://github.com/lodash/lodash/blob/2.4.1/dist/lodash.js#L3721-L3744\">reduce source</a></li>\n</ul>\n\n<p>So the obvious differences are:</p>\n\n<ul>\n<li>If you dont specify the <em>accumulator</em> (commonly referred to as <em>memo</em>\nif you're used to underscore), <code>_.transform</code> will guess if you want\nan array or object while reduce will make the accumulator the initial item of the collection.  </li>\n</ul>\n\n<p>Example, array or object map via <code>transform</code>:</p>\n\n<pre><code>_.transform([1, 2, 3], function(memo, val, idx) {\n    memo[idx] = val + 5;\n});\n// =&gt; [6, 7, 8]\n</code></pre>\n\n<p>Versus reduce (note, you have to know the input type!)</p>\n\n<pre><code>_.reduce([1, 2, 3], function(memo, val, idx) {\n    memo[idx] = val + 5;\n    return memo;\n}, []);\n</code></pre>\n\n<p>So while with reduce the below will compute the sum of an array, this wouldn't be possible with transform as <code>a</code> will be an array.</p>\n\n<pre><code>var sum = _.reduce([1, 2, 3, 4], function(a, b) {\n    return a + b;\n});\n</code></pre>\n\n<ul>\n<li>Another big difference is you don't have to return the accumulator with <code>transform</code> and the accumulator can't change value (ie it will always be the same array). I'd say this is the biggest advantage of the function as I've often forgotten to return the accumulator using reduce.</li>\n</ul>\n\n<p>For example if you wanted to convert an array to dictionary of values with reduce you would write code like the following:  </p>\n\n<pre><code>_.reduce([1, 2, 3, 4, 5], function(memo, idx) {\n   memo[idx] = true;\n   return memo;\n}, {});\n</code></pre>\n\n<p>Whereas with transform we can write this very nicely without needing to return the accumulator like in reduce</p>\n\n<pre><code>_.transform([1, 2, 3, 4, 5], function(memo, idx) {\n   memo[idx] = true;\n}, {});\n</code></pre>\n\n<ul>\n<li>Another distinction is we can exit the transform iteration by returning false.</li>\n</ul>\n\n<p>Overall, I'd say reduce is a more flexible method, as you have more control over the accumulator, but transform can be used to write equivalent code for some cases in a simpler style.</p>\n",
+      "owner": {
+        "display_name": "megawac",
+        "link": "https://stackoverflow.com/users/1517919/megawac"
+      }
+    },
+    {
+      "answer_id": 25086064,
+      "body": "<p>I prefer to introduce '_' globally and injectable for tests, see my answer to this question\n<a href=\"https://stackoverflow.com/questions/14968297/use-underscore-inside-controllers/23984685#23984685\">Use underscore inside controllers</a></p>\n\n<pre><code>var myapp = angular.module('myApp', [])\n  // allow DI for use in controllers, unit tests\n  .constant('_', window._)\n  // use in views, ng-repeat=\"x in _.range(3)\"\n  .run(function ($rootScope) {\n     $rootScope._ = window._;\n  });\n</code></pre>\n",
+      "owner": {
+        "display_name": "wires",
+        "link": "https://stackoverflow.com/users/72787/wires"
+      }
+    },
+    {
+      "answer_id": 24561031,
+      "body": "<p>I just went through lodash doc, and perhaps you <a href=\"http://lodash.com/docs#sortBy\" rel=\"noreferrer\">could try <code>sortBy</code></a> </p>\n\n<p>Try it: <a href=\"http://jsfiddle.net/3Wza8/\" rel=\"noreferrer\">http://jsfiddle.net/3Wza8/</a></p>\n\n<pre><code>var myObjects = [\n    { id: '1', username: 'bill.jones', active: true, createdon: new Date('03/29/2014') },\n    { id: '2', username: 'woohoo', active: true, createdon: new Date('03/28/2014') },\n    { id: '3', username: 'someuser', active: true, createdon: new Date('03/30/2014') }\n];\n\nmyObjects = _.sortBy(myObjects, 'createdon');\n\n_.forEach(myObjects, function (result) {\n    console.log(result);\n});\n</code></pre>\n\n<p>EDIT: as Cookie Monster pointed out, it's important that your <code>createdon</code> field is a Date, and not a string.</p>\n",
+      "owner": {
+        "display_name": "lcoderre",
+        "link": "https://stackoverflow.com/users/1253087/lcoderre"
+      }
+    },
+    {
+      "answer_id": 23922041,
+      "body": "<p>It's a good idea to look at the more elaborate <a href=\"http://underscorejs.org/#collections\" rel=\"noreferrer\">Underscore.js documentation</a>, from which this distinction is derived. It states:</p>\n\n<blockquote>\n  <p>Collection functions work on arrays, objects, and array-like objects such as <code>arguments</code>, NodeList and similar. But it works by duck-typing, so avoid passing objects with a numeric <code>length</code> property.</p>\n</blockquote>\n\n<p>Basically, \"collections\" are things that implement some kind of \"iterable\" interface, and they internally use the same iteration method (though Lodash source is a bit more convoluted than Underscore). All the \"collection methods\" do work both on arrays and objects (and a few more iterable things), while the array methods should only be used on arrays (or maybe everything with <code>.length</code> and numeric indices), and the object methods work on any objects.</p>\n",
+      "owner": {
+        "display_name": "Bergi",
+        "link": "https://stackoverflow.com/users/1048572/bergi"
+      }
+    },
+    {
+      "answer_id": 18884620,
+      "body": "<p><code>_.each()</code> is not fully compatible to <code>[].forEach()</code>. See the following example:</p>\n\n<pre><code>var a = ['a0'];\na[3] = 'a3';\n_.each(a, console.log); // runs 4 times\na.forEach(console.log); // runs twice -- that's just how [].forEach() is specified\n</code></pre>\n\n<p><a href=\"http://jsfiddle.net/BhrT3/\" rel=\"noreferrer\">http://jsfiddle.net/BhrT3/</a></p>\n\n<p>So lodash's implementation is missing an <code>if (... in ...)</code> check, which might explain the performance difference.</p>\n\n<hr>\n\n<p>As noted in the comments above, the difference to native <code>for</code> is mainly caused by the additional function lookup in your test. Use this version to get more accurate results:</p>\n\n<pre><code>for (var ix = 0, len = a.length; ix &lt; len; ix++) {\n  cb(a[ix]);\n}\n</code></pre>\n\n<p><a href=\"http://jsperf.com/lo-dash-each-vs-native-foreach/15\" rel=\"noreferrer\">http://jsperf.com/lo-dash-each-vs-native-foreach/15</a></p>\n",
+      "owner": {
+        "display_name": "user123444555621",
+        "link": "https://stackoverflow.com/users/27862/user123444555621"
+      }
+    },
+    {
+      "answer_id": 17098250,
+      "body": "<pre><code>_.filter(summary.data, function(item){\n  return item.category.parent === 'Food';\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "idbehold",
+        "link": "https://stackoverflow.com/users/1397319/idbehold"
+      }
+    },
+    {
+      "answer_id": 16229480,
+      "body": "<p>One can use <code>apply</code> to pass an arbitrary number of arguments to a method.</p>\n\n<p>For union:</p>\n\n<pre><code>// Outputs [1, 4, 5, 6, 2, 3, 7]\nvar selectedUnion = _.union.apply(_, selected);\n</code></pre>\n\n<p>For intersection:</p>\n\n<pre><code>// Outputs [1]\nvar selectedIntersection = _.intersection.apply(_, selected);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nandeep Mali",
+        "link": "https://stackoverflow.com/users/1505757/nandeep-mali"
+      }
+    },
+    {
+      "answer_id": 15643385,
+      "body": "<p>This should do it:</p>\n\n<pre><code>function fn(obj, key) {\n    if (_.has(obj, key)) // or just (key in obj)\n        return [obj];\n    // elegant:\n    return _.flatten(_.map(obj, function(v) {\n        return typeof v == \"object\" ? fn(v, key) : [];\n    }), true);\n\n    // or efficient:\n    var res = [];\n    _.forEach(obj, function(v) {\n        if (typeof v == \"object\" &amp;&amp; (v = fn(v, key)).length)\n            res.push.apply(res, v);\n    });\n    return res;\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Bergi",
+        "link": "https://stackoverflow.com/users/1048572/bergi"
+      }
+    }
+  ]
+}

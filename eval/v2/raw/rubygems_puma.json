@@ -1,0 +1,1908 @@
+{
+  "library": "rubygems:puma",
+  "fetched_at": "2026-11-21T17:28:27Z",
+  "questions": [
+    {
+      "question_id": 31039998,
+      "title": "Rails: Address already in use - bind(2) (Errno::EADDRINUSE)",
+      "accepted_answer_id": 31040382,
+      "score": 182,
+      "link": "https://stackoverflow.com/questions/31039998/rails-address-already-in-use-bind2-errnoeaddrinuse",
+      "owner": {
+        "display_name": "Cornelius Wilson",
+        "link": "https://stackoverflow.com/users/935206/cornelius-wilson"
+      }
+    },
+    {
+      "question_id": 24280743,
+      "title": "What is the difference between Workers and Threads in Puma",
+      "accepted_answer_id": 29772470,
+      "score": 86,
+      "link": "https://stackoverflow.com/questions/24280743/what-is-the-difference-between-workers-and-threads-in-puma",
+      "owner": {
+        "display_name": "Nick Ginanto",
+        "link": "https://stackoverflow.com/users/972789/nick-ginanto"
+      }
+    },
+    {
+      "question_id": 29547314,
+      "title": "How to restart puma after deploy?",
+      "accepted_answer_id": 29547487,
+      "score": 57,
+      "link": "https://stackoverflow.com/questions/29547314/how-to-restart-puma-after-deploy",
+      "owner": {
+        "display_name": "Roman N",
+        "link": "https://stackoverflow.com/users/391635/roman-n"
+      }
+    },
+    {
+      "question_id": 50516699,
+      "title": "Why do I need Nginx with Puma?",
+      "accepted_answer_id": 50517532,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/50516699/why-do-i-need-nginx-with-puma",
+      "owner": {
+        "display_name": "gylaz",
+        "link": "https://stackoverflow.com/users/373522/gylaz"
+      }
+    },
+    {
+      "question_id": 27801185,
+      "title": "ActiveRecord::ConnectionTimeoutError: could not obtain a database connection within 5.000 seconds (waited 5.000 seconds)",
+      "accepted_answer_id": 27990374,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/27801185/activerecordconnectiontimeouterror-could-not-obtain-a-database-connection-wit",
+      "owner": {
+        "display_name": "Catfish",
+        "link": "https://stackoverflow.com/users/222403/catfish"
+      }
+    },
+    {
+      "question_id": 21605318,
+      "title": "How can I serve requests concurrently with Rails 4?",
+      "accepted_answer_id": 30228125,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/21605318/how-can-i-serve-requests-concurrently-with-rails-4",
+      "owner": {
+        "display_name": "Fredrik",
+        "link": "https://stackoverflow.com/users/9191/fredrik"
+      }
+    },
+    {
+      "question_id": 13365940,
+      "title": "How do I get &#39;puma&#39; to start, automatically, when I run `rails server` (like Thin does)",
+      "accepted_answer_id": 15384996,
+      "score": 31,
+      "link": "https://stackoverflow.com/questions/13365940/how-do-i-get-puma-to-start-automatically-when-i-run-rails-server-like-thi",
+      "owner": {
+        "display_name": "Matt Scilipoti",
+        "link": "https://stackoverflow.com/users/232247/matt-scilipoti"
+      }
+    },
+    {
+      "question_id": 18575235,
+      "title": "What do multi-processes VS multi-threaded servers most benefit from?",
+      "accepted_answer_id": 18575671,
+      "score": 28,
+      "link": "https://stackoverflow.com/questions/18575235/what-do-multi-processes-vs-multi-threaded-servers-most-benefit-from",
+      "owner": {
+        "display_name": "CodeOverload",
+        "link": "https://stackoverflow.com/users/241654/codeoverload"
+      }
+    },
+    {
+      "question_id": 42263023,
+      "title": "ActionCable no longer working in production environment",
+      "accepted_answer_id": 42704812,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/42263023/actioncable-no-longer-working-in-production-environment",
+      "owner": {
+        "display_name": "edwardmp",
+        "link": "https://stackoverflow.com/users/1422070/edwardmp"
+      }
+    },
+    {
+      "question_id": 31005743,
+      "title": "How to monitor a puma server?",
+      "accepted_answer_id": 34241995,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/31005743/how-to-monitor-a-puma-server",
+      "owner": {
+        "display_name": "Tal",
+        "link": "https://stackoverflow.com/users/1802462/tal"
+      }
+    },
+    {
+      "question_id": 19946153,
+      "title": "How do I use puma&#39;s configuration file?",
+      "accepted_answer_id": 21348873,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/19946153/how-do-i-use-pumas-configuration-file",
+      "owner": {
+        "display_name": "Starkers",
+        "link": "https://stackoverflow.com/users/2069715/starkers"
+      }
+    },
+    {
+      "question_id": 35959490,
+      "title": "Rails server doesn&#39;t see code changes and reload files",
+      "accepted_answer_id": 35960442,
+      "score": 26,
+      "link": "https://stackoverflow.com/questions/35959490/rails-server-doesnt-see-code-changes-and-reload-files",
+      "owner": {
+        "display_name": "mparkitny",
+        "link": "https://stackoverflow.com/users/3648015/mparkitny"
+      }
+    },
+    {
+      "question_id": 24385407,
+      "title": "PG::TRDeadlockDetected: ERROR: deadlock detected",
+      "accepted_answer_id": 26926635,
+      "score": 26,
+      "link": "https://stackoverflow.com/questions/24385407/pgtrdeadlockdetected-error-deadlock-detected",
+      "owner": {
+        "display_name": "Railsana",
+        "link": "https://stackoverflow.com/users/1014898/railsana"
+      }
+    },
+    {
+      "question_id": 52862529,
+      "title": "No such file or directory @ rb_sysopen - tmp/pids/puma.pid",
+      "accepted_answer_id": 52862530,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/52862529/no-such-file-or-directory-rb-sysopen-tmp-pids-puma-pid",
+      "owner": {
+        "display_name": "Ramon Marques",
+        "link": "https://stackoverflow.com/users/3100462/ramon-marques"
+      }
+    },
+    {
+      "question_id": 17450672,
+      "title": "how to start puma with unix socket",
+      "accepted_answer_id": 17451342,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/17450672/how-to-start-puma-with-unix-socket",
+      "owner": {
+        "display_name": "Thrikal Samy",
+        "link": "https://stackoverflow.com/users/2485464/thrikal-samy"
+      }
+    },
+    {
+      "question_id": 28367069,
+      "title": "How can I detect whether my code is running &quot;inside&quot; Sidekiq server or Puma?",
+      "accepted_answer_id": 28370539,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/28367069/how-can-i-detect-whether-my-code-is-running-inside-sidekiq-server-or-puma",
+      "owner": {
+        "display_name": "Daniel Magliola",
+        "link": "https://stackoverflow.com/users/3314/daniel-magliola"
+      }
+    },
+    {
+      "question_id": 28598269,
+      "title": "Change local web server back to WEBrick in Rails from Puma",
+      "accepted_answer_id": 28598445,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/28598269/change-local-web-server-back-to-webrick-in-rails-from-puma",
+      "owner": {
+        "display_name": "james",
+        "link": "https://stackoverflow.com/users/2731253/james"
+      }
+    },
+    {
+      "question_id": 17902386,
+      "title": "Is puma the ONLY multi-threaded rails 4 http server?",
+      "accepted_answer_id": 18438902,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/17902386/is-puma-the-only-multi-threaded-rails-4-http-server",
+      "owner": {
+        "display_name": "Daniel",
+        "link": "https://stackoverflow.com/users/200394/daniel"
+      }
+    },
+    {
+      "question_id": 39136408,
+      "title": "Rails server start/stop",
+      "accepted_answer_id": 39136611,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/39136408/rails-server-start-stop",
+      "owner": {
+        "display_name": "user6586190",
+        "link": null
+      }
+    },
+    {
+      "question_id": 16063117,
+      "title": "How to configure Rails with Puma to use SSL?",
+      "accepted_answer_id": 31939157,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/16063117/how-to-configure-rails-with-puma-to-use-ssl",
+      "owner": {
+        "display_name": "omninonsense",
+        "link": "https://stackoverflow.com/users/2133758/omninonsense"
+      }
+    },
+    {
+      "question_id": 31862949,
+      "title": "Puma - show full logs when run server with config file",
+      "accepted_answer_id": 31863033,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/31862949/puma-show-full-logs-when-run-server-with-config-file",
+      "owner": {
+        "display_name": "ExiRe",
+        "link": "https://stackoverflow.com/users/561626/exire"
+      }
+    },
+    {
+      "question_id": 63278694,
+      "title": "Thin and Puma fail with similar issues - ERROR: Failed to build gem native extension on Mac with OpenSSL@1.1",
+      "accepted_answer_id": 63293582,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/63278694/thin-and-puma-fail-with-similar-issues-error-failed-to-build-gem-native-exten",
+      "owner": {
+        "display_name": "David Cruwys",
+        "link": "https://stackoverflow.com/users/473923/david-cruwys"
+      }
+    },
+    {
+      "question_id": 43862767,
+      "title": "How to know the number of active threads in Puma",
+      "accepted_answer_id": 48324812,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/43862767/how-to-know-the-number-of-active-threads-in-puma",
+      "owner": {
+        "display_name": "fguillen",
+        "link": "https://stackoverflow.com/users/316700/fguillen"
+      }
+    },
+    {
+      "question_id": 43640261,
+      "title": "Is RAILS_MAX_THREADS something that Puma will set and scale during build time , or should I set it?",
+      "accepted_answer_id": 44049249,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/43640261/is-rails-max-threads-something-that-puma-will-set-and-scale-during-build-time",
+      "owner": {
+        "display_name": "Michael",
+        "link": "https://stackoverflow.com/users/205052/michael"
+      }
+    },
+    {
+      "question_id": 37112804,
+      "title": "An unhandled lowlevel error occurred. The application logs may have details",
+      "accepted_answer_id": 37115581,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/37112804/an-unhandled-lowlevel-error-occurred-the-application-logs-may-have-details",
+      "owner": {
+        "display_name": "Tudor S.",
+        "link": "https://stackoverflow.com/users/3427461/tudor-s"
+      }
+    },
+    {
+      "question_id": 30522387,
+      "title": "How to check Rails app&#39;s thread safety for Puma",
+      "accepted_answer_id": 30524630,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/30522387/how-to-check-rails-apps-thread-safety-for-puma",
+      "owner": {
+        "display_name": "Pahlevi Fikri Auliya",
+        "link": "https://stackoverflow.com/users/701589/pahlevi-fikri-auliya"
+      }
+    },
+    {
+      "question_id": 17903689,
+      "title": "Puma Cluster configuration on Heroku",
+      "accepted_answer_id": 18002584,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/17903689/puma-cluster-configuration-on-heroku",
+      "owner": {
+        "display_name": "Miiller",
+        "link": "https://stackoverflow.com/users/1109811/miiller"
+      }
+    },
+    {
+      "question_id": 18398626,
+      "title": "why did gitlab 6 switch back to unicorn?",
+      "accepted_answer_id": 25349086,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/18398626/why-did-gitlab-6-switch-back-to-unicorn",
+      "owner": {
+        "display_name": "Litmus",
+        "link": "https://stackoverflow.com/users/1243123/litmus"
+      }
+    },
+    {
+      "question_id": 36785877,
+      "title": "Puma &quot;Terminating timed out worker&quot; after rendering HTML",
+      "accepted_answer_id": 37700664,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/36785877/puma-terminating-timed-out-worker-after-rendering-html",
+      "owner": {
+        "display_name": "Disha",
+        "link": "https://stackoverflow.com/users/3101782/disha"
+      }
+    },
+    {
+      "question_id": 38302492,
+      "title": "How to get systemd to restart Rails App with Puma",
+      "accepted_answer_id": 38303466,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/38302492/how-to-get-systemd-to-restart-rails-app-with-puma",
+      "owner": {
+        "display_name": "WagnerMatosUK",
+        "link": "https://stackoverflow.com/users/1000514/wagnermatosuk"
+      }
+    },
+    {
+      "question_id": 28741287,
+      "title": "Using Rails and Puma with subdomains lvh.me?",
+      "accepted_answer_id": 28745407,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/28741287/using-rails-and-puma-with-subdomains-lvh-me",
+      "owner": {
+        "display_name": "userden",
+        "link": "https://stackoverflow.com/users/3016477/userden"
+      }
+    },
+    {
+      "question_id": 25225444,
+      "title": "How to run rails puma server with config file using &#39;rails s puma&#39;",
+      "accepted_answer_id": 25225656,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/25225444/how-to-run-rails-puma-server-with-config-file-using-rails-s-puma",
+      "owner": {
+        "display_name": "Subtletree",
+        "link": "https://stackoverflow.com/users/2511083/subtletree"
+      }
+    },
+    {
+      "question_id": 22119574,
+      "title": "Where does Puma log to",
+      "accepted_answer_id": 22120126,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/22119574/where-does-puma-log-to",
+      "owner": {
+        "display_name": "alexjfno1",
+        "link": "https://stackoverflow.com/users/1208894/alexjfno1"
+      }
+    },
+    {
+      "question_id": 64259474,
+      "title": "Unable to run Puma as daemon OptionParser::AmbiguousOption: ambiguous option: -d",
+      "accepted_answer_id": 64275233,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/64259474/unable-to-run-puma-as-daemon-optionparserambiguousoption-ambiguous-option-d",
+      "owner": {
+        "display_name": "Jun Dalisay",
+        "link": "https://stackoverflow.com/users/1835311/jun-dalisay"
+      }
+    },
+    {
+      "question_id": 24691560,
+      "title": "nginx redirects POST requests to GET request",
+      "accepted_answer_id": 24707711,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/24691560/nginx-redirects-post-requests-to-get-request",
+      "owner": {
+        "display_name": "Zhomart",
+        "link": "https://stackoverflow.com/users/1723012/zhomart"
+      }
+    },
+    {
+      "question_id": 50651571,
+      "title": "How do I make Rails.cache (in-memory cache) work with Puma?",
+      "accepted_answer_id": 50746055,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/50651571/how-do-i-make-rails-cache-in-memory-cache-work-with-puma",
+      "owner": {
+        "display_name": "Dave",
+        "link": "https://stackoverflow.com/users/1235929/dave"
+      }
+    },
+    {
+      "question_id": 27465544,
+      "title": "Cannot build puma gem on OS X Yosemite",
+      "accepted_answer_id": 29222494,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/27465544/cannot-build-puma-gem-on-os-x-yosemite",
+      "owner": {
+        "display_name": "fearless_fool",
+        "link": "https://stackoverflow.com/users/558639/fearless-fool"
+      }
+    },
+    {
+      "question_id": 43926898,
+      "title": "How can I configure puma when running Capybara?",
+      "accepted_answer_id": 43927448,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/43926898/how-can-i-configure-puma-when-running-capybara",
+      "owner": {
+        "display_name": "John Bachir",
+        "link": "https://stackoverflow.com/users/168143/john-bachir"
+      }
+    },
+    {
+      "question_id": 40412611,
+      "title": "In Puma, how do I calculate DB connections?",
+      "accepted_answer_id": 40425160,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/40412611/in-puma-how-do-i-calculate-db-connections",
+      "owner": {
+        "display_name": "Tallboy",
+        "link": "https://stackoverflow.com/users/794481/tallboy"
+      }
+    },
+    {
+      "question_id": 35928227,
+      "title": "Rails 5 Action Cable deployment with Nginx, Puma &amp; Redis",
+      "accepted_answer_id": 36044400,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/35928227/rails-5-action-cable-deployment-with-nginx-puma-redis",
+      "owner": {
+        "display_name": "ollpu",
+        "link": "https://stackoverflow.com/users/3719597/ollpu"
+      }
+    },
+    {
+      "question_id": 61063319,
+      "title": "How to force Puma start in single mode on Rails?",
+      "accepted_answer_id": 61063422,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/61063319/how-to-force-puma-start-in-single-mode-on-rails",
+      "owner": {
+        "display_name": "pierrecode",
+        "link": "https://stackoverflow.com/users/13239375/pierrecode"
+      }
+    },
+    {
+      "question_id": 42142503,
+      "title": "Rails server returning HTTP status 0",
+      "accepted_answer_id": 42878384,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/42142503/rails-server-returning-http-status-0",
+      "owner": {
+        "display_name": "Brad",
+        "link": "https://stackoverflow.com/users/227615/brad"
+      }
+    },
+    {
+      "question_id": 41140312,
+      "title": "Cannot create systemd script for Puma",
+      "accepted_answer_id": 41190201,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/41140312/cannot-create-systemd-script-for-puma",
+      "owner": {
+        "display_name": "Gowtham",
+        "link": "https://stackoverflow.com/users/2277817/gowtham"
+      }
+    },
+    {
+      "question_id": 20801734,
+      "title": "Error while starting Puma server with workers",
+      "accepted_answer_id": 20802704,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/20801734/error-while-starting-puma-server-with-workers",
+      "owner": {
+        "display_name": "hadzy",
+        "link": "https://stackoverflow.com/users/2442720/hadzy"
+      }
+    },
+    {
+      "question_id": 18592865,
+      "title": "Server Sent Events and Rails Streaming",
+      "accepted_answer_id": 19296360,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/18592865/server-sent-events-and-rails-streaming",
+      "owner": {
+        "display_name": "tompave",
+        "link": "https://stackoverflow.com/users/1586221/tompave"
+      }
+    },
+    {
+      "question_id": 70028324,
+      "title": "nginx permission denied accessing puma socket that does exist in the correct location",
+      "accepted_answer_id": 70574879,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/70028324/nginx-permission-denied-accessing-puma-socket-that-does-exist-in-the-correct-loc",
+      "owner": {
+        "display_name": "jamesc",
+        "link": "https://stackoverflow.com/users/847116/jamesc"
+      }
+    },
+    {
+      "question_id": 41860718,
+      "title": "action cable subscribing locally, but not on heroku",
+      "accepted_answer_id": 42010676,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/41860718/action-cable-subscribing-locally-but-not-on-heroku",
+      "owner": {
+        "display_name": "gwalshington",
+        "link": "https://stackoverflow.com/users/5079196/gwalshington"
+      }
+    },
+    {
+      "question_id": 59083939,
+      "title": "How to fix issue with bundler requiring latest version of gem when I need to require a different version?",
+      "accepted_answer_id": 61296313,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/59083939/how-to-fix-issue-with-bundler-requiring-latest-version-of-gem-when-i-need-to-req",
+      "owner": {
+        "display_name": "Arran Scott",
+        "link": "https://stackoverflow.com/users/1912804/arran-scott"
+      }
+    },
+    {
+      "question_id": 21213343,
+      "title": "`rails server puma` vs. `puma`",
+      "accepted_answer_id": 21218048,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/21213343/rails-server-puma-vs-puma",
+      "owner": {
+        "display_name": "John Bachir",
+        "link": "https://stackoverflow.com/users/168143/john-bachir"
+      }
+    },
+    {
+      "question_id": 15749327,
+      "title": "Sinatra streaming with Puma?",
+      "accepted_answer_id": 15922541,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/15749327/sinatra-streaming-with-puma",
+      "owner": {
+        "display_name": "Ilya O.",
+        "link": "https://stackoverflow.com/users/1763937/ilya-o"
+      }
+    },
+    {
+      "question_id": 75143415,
+      "title": "How to analyze ruby on rails memory leak?",
+      "accepted_answer_id": 75216785,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/75143415/how-to-analyze-ruby-on-rails-memory-leak",
+      "owner": {
+        "display_name": "RanH",
+        "link": "https://stackoverflow.com/users/437997/ranh"
+      }
+    },
+    {
+      "question_id": 74160636,
+      "title": "NoMethodError: undefined method `strings&#39; for Puma::Events:Class",
+      "accepted_answer_id": 74997679,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/74160636/nomethoderror-undefined-method-strings-for-pumaeventsclass",
+      "owner": {
+        "display_name": "Cody",
+        "link": "https://stackoverflow.com/users/6759431/cody"
+      }
+    },
+    {
+      "question_id": 69718732,
+      "title": "Address already in use for puma-dev",
+      "accepted_answer_id": 69718911,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/69718732/address-already-in-use-for-puma-dev",
+      "owner": {
+        "display_name": "ogirginc",
+        "link": "https://stackoverflow.com/users/4565485/ogirginc"
+      }
+    },
+    {
+      "question_id": 62458471,
+      "title": "Is establish_connection on worker boot still required on Rails 6 and Puma?",
+      "accepted_answer_id": 63956960,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/62458471/is-establish-connection-on-worker-boot-still-required-on-rails-6-and-puma",
+      "owner": {
+        "display_name": "collimarco",
+        "link": "https://stackoverflow.com/users/51387/collimarco"
+      }
+    },
+    {
+      "question_id": 49360715,
+      "title": "Elastic Beanstalk: customize Puma configuration",
+      "accepted_answer_id": 49410280,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/49360715/elastic-beanstalk-customize-puma-configuration",
+      "owner": {
+        "display_name": "Marcus Ilgner",
+        "link": "https://stackoverflow.com/users/1257094/marcus-ilgner"
+      }
+    },
+    {
+      "question_id": 48922907,
+      "title": "SignalException in at_exit on AWS ECS",
+      "accepted_answer_id": 50157201,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/48922907/signalexception-in-at-exit-on-aws-ecs",
+      "owner": {
+        "display_name": "iGEL",
+        "link": "https://stackoverflow.com/users/362378/igel"
+      }
+    },
+    {
+      "question_id": 48816533,
+      "title": "Table name corruption errors in ActiveRecord",
+      "accepted_answer_id": 49051299,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/48816533/table-name-corruption-errors-in-activerecord",
+      "owner": {
+        "display_name": "Harish Shetty",
+        "link": "https://stackoverflow.com/users/163203/harish-shetty"
+      }
+    },
+    {
+      "question_id": 39799926,
+      "title": "puma: puma.sock No such file or directory",
+      "accepted_answer_id": 39827491,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/39799926/puma-puma-sock-no-such-file-or-directory",
+      "owner": {
+        "display_name": "Pavel",
+        "link": "https://stackoverflow.com/users/5225464/pavel"
+      }
+    },
+    {
+      "question_id": 35041614,
+      "title": "RoR 5.0.0 ActionCable wss WebSocket handshake: Unexpected response code: 301",
+      "accepted_answer_id": 35269819,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/35041614/ror-5-0-0-actioncable-wss-websocket-handshake-unexpected-response-code-301",
+      "owner": {
+        "display_name": "Jim Tebstone",
+        "link": "https://stackoverflow.com/users/5816670/jim-tebstone"
+      }
+    },
+    {
+      "question_id": 23125369,
+      "title": "How to set Rails dev server to webbrick instead of Puma",
+      "accepted_answer_id": 23125762,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/23125369/how-to-set-rails-dev-server-to-webbrick-instead-of-puma",
+      "owner": {
+        "display_name": "bobbdelsol",
+        "link": "https://stackoverflow.com/users/2406315/bobbdelsol"
+      }
+    },
+    {
+      "question_id": 21755590,
+      "title": "Puma / missing logs",
+      "accepted_answer_id": 21756034,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/21755590/puma-missing-logs",
+      "owner": {
+        "display_name": "astropanic",
+        "link": "https://stackoverflow.com/users/130024/astropanic"
+      }
+    },
+    {
+      "question_id": 19730551,
+      "title": "Rails 4 API deployment example to Amazon EC2 using Capistrano 3, Nginx, Puma, GitHub, and RVM?",
+      "accepted_answer_id": 38548738,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/19730551/rails-4-api-deployment-example-to-amazon-ec2-using-capistrano-3-nginx-puma-gi",
+      "owner": {
+        "display_name": "Chris",
+        "link": "https://stackoverflow.com/users/287340/chris"
+      }
+    },
+    {
+      "question_id": 46964129,
+      "title": "Rails 5.1 ActiveJob on Puma development not performing specific enqueued job",
+      "accepted_answer_id": 47001961,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/46964129/rails-5-1-activejob-on-puma-development-not-performing-specific-enqueued-job",
+      "owner": {
+        "display_name": "mtrolle",
+        "link": "https://stackoverflow.com/users/996000/mtrolle"
+      }
+    },
+    {
+      "question_id": 38424680,
+      "title": "Puma not creating socket at defined location when started with `rails server`",
+      "accepted_answer_id": 38443677,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/38424680/puma-not-creating-socket-at-defined-location-when-started-with-rails-server",
+      "owner": {
+        "display_name": "user2490003",
+        "link": "https://stackoverflow.com/users/2490003/user2490003"
+      }
+    },
+    {
+      "question_id": 32423919,
+      "title": "Why does ruby rails need puma or unicorn?",
+      "accepted_answer_id": 32424120,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/32423919/why-does-ruby-rails-need-puma-or-unicorn",
+      "owner": {
+        "display_name": "Kiwo Tew",
+        "link": "https://stackoverflow.com/users/4961557/kiwo-tew"
+      }
+    },
+    {
+      "question_id": 26006487,
+      "title": "Are there still benefits to running JRuby vs. the latest MRI with Puma?",
+      "accepted_answer_id": 30228655,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/26006487/are-there-still-benefits-to-running-jruby-vs-the-latest-mri-with-puma",
+      "owner": {
+        "display_name": "JP Silvashy",
+        "link": "https://stackoverflow.com/users/103739/jp-silvashy"
+      }
+    },
+    {
+      "question_id": 25467567,
+      "title": "How scalable are server-sent events in Rails?",
+      "accepted_answer_id": 25857365,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/25467567/how-scalable-are-server-sent-events-in-rails",
+      "owner": {
+        "display_name": "Ten Bitcomb",
+        "link": "https://stackoverflow.com/users/3141240/ten-bitcomb"
+      }
+    },
+    {
+      "question_id": 23698342,
+      "title": "Rails app 502 with AWS Elastic Beanstalk running Puma &amp; Nginx",
+      "accepted_answer_id": 24940220,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/23698342/rails-app-502-with-aws-elastic-beanstalk-running-puma-nginx",
+      "owner": {
+        "display_name": "Stefan",
+        "link": "https://stackoverflow.com/users/1127025/stefan"
+      }
+    },
+    {
+      "question_id": 22219499,
+      "title": "Disable Rack::CommonLogger without monkey patching",
+      "accepted_answer_id": 22228736,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/22219499/disable-rackcommonlogger-without-monkey-patching",
+      "owner": {
+        "display_name": "nicohvi",
+        "link": "https://stackoverflow.com/users/809904/nicohvi"
+      }
+    },
+    {
+      "question_id": 16647089,
+      "title": "cannot load such file -- rack/handler/puma",
+      "accepted_answer_id": 16656270,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/16647089/cannot-load-such-file-rack-handler-puma",
+      "owner": {
+        "display_name": "Sir l33tname",
+        "link": "https://stackoverflow.com/users/1279355/sir-l33tname"
+      }
+    },
+    {
+      "question_id": 66951971,
+      "title": "How to get Puma and Nginx to run in Rails production?",
+      "accepted_answer_id": 66952127,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/66951971/how-to-get-puma-and-nginx-to-run-in-rails-production",
+      "owner": {
+        "display_name": "listenlight",
+        "link": "https://stackoverflow.com/users/522560/listenlight"
+      }
+    },
+    {
+      "question_id": 61308587,
+      "title": "What does Early termination of worker puma log mean and why is it happening?",
+      "accepted_answer_id": 61328117,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/61308587/what-does-early-termination-of-worker-puma-log-mean-and-why-is-it-happening",
+      "owner": {
+        "display_name": "robskrob",
+        "link": "https://stackoverflow.com/users/2524631/robskrob"
+      }
+    },
+    {
+      "question_id": 49915326,
+      "title": "Rails 5 server hangs when receives multiple requests at once",
+      "accepted_answer_id": 60472993,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/49915326/rails-5-server-hangs-when-receives-multiple-requests-at-once",
+      "owner": {
+        "display_name": "dcporter7",
+        "link": "https://stackoverflow.com/users/7629239/dcporter7"
+      }
+    },
+    {
+      "question_id": 44763777,
+      "title": "Capistrano puma:restart not working, but puma:start does",
+      "accepted_answer_id": 44796030,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/44763777/capistrano-pumarestart-not-working-but-pumastart-does",
+      "owner": {
+        "display_name": "arunt",
+        "link": "https://stackoverflow.com/users/5793791/arunt"
+      }
+    },
+    {
+      "question_id": 38815051,
+      "title": "Puma without nginx - multiple ruby applications on the same IP:PORT",
+      "accepted_answer_id": 38844314,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/38815051/puma-without-nginx-multiple-ruby-applications-on-the-same-ipport",
+      "owner": {
+        "display_name": "I&#39;m Mo",
+        "link": "https://stackoverflow.com/users/6688130/im-mo"
+      }
+    },
+    {
+      "question_id": 37668906,
+      "title": "Rails/Nginx/Capistrano/Puma: (111: Connection refused) while connecting to upstream",
+      "accepted_answer_id": 38686792,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/37668906/rails-nginx-capistrano-puma-111-connection-refused-while-connecting-to-upstr",
+      "owner": {
+        "display_name": "user2985898",
+        "link": "https://stackoverflow.com/users/2985898/user2985898"
+      }
+    },
+    {
+      "question_id": 36479060,
+      "title": "Cannot run localhost:3000 : white empty page is rendered",
+      "accepted_answer_id": 36482802,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/36479060/cannot-run-localhost3000-white-empty-page-is-rendered",
+      "owner": {
+        "display_name": "L.D",
+        "link": "https://stackoverflow.com/users/3374733/l-d"
+      }
+    },
+    {
+      "question_id": 34991868,
+      "title": "How can I set up a local SSL certificate and a Rails application?",
+      "accepted_answer_id": 36813125,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/34991868/how-can-i-set-up-a-local-ssl-certificate-and-a-rails-application",
+      "owner": {
+        "display_name": "ftshtw",
+        "link": "https://stackoverflow.com/users/5686527/ftshtw"
+      }
+    },
+    {
+      "question_id": 34646977,
+      "title": "Puma restart fails on reboot using EC2 + Rails + Nginx + Capistrano",
+      "accepted_answer_id": 34669568,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/34646977/puma-restart-fails-on-reboot-using-ec2-rails-nginx-capistrano",
+      "owner": {
+        "display_name": "Augusto Samam&#233; Barrientos",
+        "link": "https://stackoverflow.com/users/4759794/augusto-samam%c3%a9-barrientos"
+      }
+    },
+    {
+      "question_id": 32533886,
+      "title": "Why does puma not have a `before_fork` method like Unicorn?",
+      "accepted_answer_id": 40224782,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/32533886/why-does-puma-not-have-a-before-fork-method-like-unicorn",
+      "owner": {
+        "display_name": "user2490003",
+        "link": "https://stackoverflow.com/users/2490003/user2490003"
+      }
+    },
+    {
+      "question_id": 31387301,
+      "title": "Is it normal for Rails application to keep so many idle Puma and Postgres connections?",
+      "accepted_answer_id": 32253217,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/31387301/is-it-normal-for-rails-application-to-keep-so-many-idle-puma-and-postgres-connec",
+      "owner": {
+        "display_name": "Stpn",
+        "link": "https://stackoverflow.com/users/861181/stpn"
+      }
+    },
+    {
+      "question_id": 29995995,
+      "title": "Heroku memory issues using puma",
+      "accepted_answer_id": 38619979,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/29995995/heroku-memory-issues-using-puma",
+      "owner": {
+        "display_name": "BryanP",
+        "link": "https://stackoverflow.com/users/1048879/bryanp"
+      }
+    },
+    {
+      "question_id": 28062592,
+      "title": "Symbol lookup error since upgrading to Ruby 2.2.0",
+      "accepted_answer_id": 30170444,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/28062592/symbol-lookup-error-since-upgrading-to-ruby-2-2-0",
+      "owner": {
+        "display_name": "Kokizzu",
+        "link": "https://stackoverflow.com/users/1620210/kokizzu"
+      }
+    },
+    {
+      "question_id": 25756491,
+      "title": "Rails app running on puma and nginx keeps dying every few hours with Bad Gateway",
+      "accepted_answer_id": 25838814,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/25756491/rails-app-running-on-puma-and-nginx-keeps-dying-every-few-hours-with-bad-gateway",
+      "owner": {
+        "display_name": "Catfish",
+        "link": "https://stackoverflow.com/users/222403/catfish"
+      }
+    },
+    {
+      "question_id": 24363956,
+      "title": "Error deploying rails app on puma in Heroku",
+      "accepted_answer_id": 24405687,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/24363956/error-deploying-rails-app-on-puma-in-heroku",
+      "owner": {
+        "display_name": "Anadi Misra",
+        "link": "https://stackoverflow.com/users/281870/anadi-misra"
+      }
+    },
+    {
+      "question_id": 19232756,
+      "title": "Want to use Redis on Heroku (Redis::CannotConnectError ( Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)) )",
+      "accepted_answer_id": 19232803,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/19232756/want-to-use-redis-on-heroku-rediscannotconnecterror-error-connecting-to-red",
+      "owner": {
+        "display_name": "Yuki Ishikawa",
+        "link": "https://stackoverflow.com/users/2644914/yuki-ishikawa"
+      }
+    },
+    {
+      "question_id": 68636095,
+      "title": "How can a Rails app run with Puma alone by default - without a web server",
+      "accepted_answer_id": 68639741,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/68636095/how-can-a-rails-app-run-with-puma-alone-by-default-without-a-web-server",
+      "owner": {
+        "display_name": "Mason",
+        "link": "https://stackoverflow.com/users/8435379/mason"
+      }
+    },
+    {
+      "question_id": 65571755,
+      "title": "Capistrano: puma:start not recognized after updating gem versions",
+      "accepted_answer_id": 65658417,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/65571755/capistrano-pumastart-not-recognized-after-updating-gem-versions",
+      "owner": {
+        "display_name": "Sara Fuerst",
+        "link": "https://stackoverflow.com/users/3435610/sara-fuerst"
+      }
+    },
+    {
+      "question_id": 61017325,
+      "title": "How to configure Puma for a Hanami Application?",
+      "accepted_answer_id": 61125795,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/61017325/how-to-configure-puma-for-a-hanami-application",
+      "owner": {
+        "display_name": "wuarmin",
+        "link": "https://stackoverflow.com/users/5662805/wuarmin"
+      }
+    },
+    {
+      "question_id": 59363126,
+      "title": "Puma Systemd configuration for Rails not working",
+      "accepted_answer_id": 59363127,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/59363126/puma-systemd-configuration-for-rails-not-working",
+      "owner": {
+        "display_name": "Promise Preston",
+        "link": "https://stackoverflow.com/users/10907864/promise-preston"
+      }
+    },
+    {
+      "question_id": 53155045,
+      "title": "Rubymine: debugging using installed Puma-dev?",
+      "accepted_answer_id": 54138675,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/53155045/rubymine-debugging-using-installed-puma-dev",
+      "owner": {
+        "display_name": "Joachim_42he",
+        "link": "https://stackoverflow.com/users/10563496/joachim-42he"
+      }
+    },
+    {
+      "question_id": 52917614,
+      "title": "How to pass Puma::Configuration to Sinatra?",
+      "accepted_answer_id": 53113412,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/52917614/how-to-pass-pumaconfiguration-to-sinatra",
+      "owner": {
+        "display_name": "yegor256",
+        "link": "https://stackoverflow.com/users/187141/yegor256"
+      }
+    },
+    {
+      "question_id": 35383550,
+      "title": "How to automatically launch browser when rails server starts?",
+      "accepted_answer_id": 35383773,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/35383550/how-to-automatically-launch-browser-when-rails-server-starts",
+      "owner": {
+        "display_name": "dwkns",
+        "link": "https://stackoverflow.com/users/1772521/dwkns"
+      }
+    },
+    {
+      "question_id": 35311998,
+      "title": "How many Puma Cluster Workers are recommended?",
+      "accepted_answer_id": 35312998,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/35311998/how-many-puma-cluster-workers-are-recommended",
+      "owner": {
+        "display_name": "dan_0",
+        "link": "https://stackoverflow.com/users/1481184/dan-0"
+      }
+    },
+    {
+      "question_id": 33246470,
+      "title": "Sinatra app on Heroku responds with Forbidden if I follow links",
+      "accepted_answer_id": 33247331,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/33246470/sinatra-app-on-heroku-responds-with-forbidden-if-i-follow-links",
+      "owner": {
+        "display_name": "Malte Schmitz",
+        "link": "https://stackoverflow.com/users/3527849/malte-schmitz"
+      }
+    },
+    {
+      "question_id": 30901149,
+      "title": "&quot;bash: bundle: command not found&quot; - cap aborted",
+      "accepted_answer_id": 30902527,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/30901149/bash-bundle-command-not-found-cap-aborted",
+      "owner": {
+        "display_name": "Arup Rakshit",
+        "link": "https://stackoverflow.com/users/2767755/arup-rakshit"
+      }
+    },
+    {
+      "question_id": 29169098,
+      "title": "rails nginx puma duplicate upstream &quot;puma&quot; in /etc/nginx/sites-enabled",
+      "accepted_answer_id": 29179260,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/29169098/rails-nginx-puma-duplicate-upstream-puma-in-etc-nginx-sites-enabled",
+      "owner": {
+        "display_name": "4itosik",
+        "link": "https://stackoverflow.com/users/3209339/4itosik"
+      }
+    },
+    {
+      "question_id": 27953026,
+      "title": "Streaming with ActionController::Live not working in production",
+      "accepted_answer_id": 27955564,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/27953026/streaming-with-actioncontrollerlive-not-working-in-production",
+      "owner": {
+        "display_name": "ardavis",
+        "link": "https://stackoverflow.com/users/214812/ardavis"
+      }
+    },
+    {
+      "question_id": 24183377,
+      "title": "Puma installation error on windows",
+      "accepted_answer_id": 28388372,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/24183377/puma-installation-error-on-windows",
+      "owner": {
+        "display_name": "Shashank",
+        "link": "https://stackoverflow.com/users/2088263/shashank"
+      }
+    },
+    {
+      "question_id": 19069232,
+      "title": "Using Puma and Sidekiq in a backend Rails app",
+      "accepted_answer_id": 19075131,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/19069232/using-puma-and-sidekiq-in-a-backend-rails-app",
+      "owner": {
+        "display_name": "AdamNYC",
+        "link": "https://stackoverflow.com/users/927667/adamnyc"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 18002584,
+      "body": "<blockquote>\n<p>a) Do I need the before_fork / after_fork configuration like in\nUnicorn, since the Cluster workers are forked?.</p>\n</blockquote>\n<p>Normally no, but since you're using <code>preload_app</code>, yes. Preloading the app gets an instance up and running and then forks the memory space for the workers; the result is your initializers only get ran once (possibly allocating db connections and such). In this instance, your <code>on_worker_boot</code> code is appropriate. If you're not using <code>preload_app</code>, then each worker boots itself, in which case using an initializer would be ideal for setting up the custom connection like you're doing. In fact, without <code>preload_app</code>, your <code>on_worker_boot</code> block would error out because at that point ActiveRecord and friends aren't even loaded.</p>\n<blockquote>\n<p>b) How do I tune my thread count depending on my application - what\nwould be the reason to drop it down? / In what cases would it make a\ndifference? Isn't 0:16 already optimized?</p>\n</blockquote>\n<p>On Heroku (and my testing), you're better off matching your <code>min</code>/<code>max</code> threads, with <code>max</code> &lt;= <code>DB_POOL</code> setting. The <code>min</code> threads allows your application to spin down resources when not under load, which is normally great to free up resources on the server, but likely less needed on Heroku; that dyno is already dedicated to serving web requests, so may as well have them up and ready. While setting your <code>max</code> threads &lt;= your <code>DB_POOL</code> environment variable isn't required, you run the risk of consuming all your database connections in the pool, then you have a thread wanting a connection but can't get it, and you can get the old &quot;ActiveRecord::ConnectionTimeoutError - could not obtain a database connection within 5 seconds.&quot; error. This depends on your application though, you very well could have <code>max</code> &gt; <code>DB_POOL</code> and be fine. I would say your <code>DB_POOL</code> should be at least the same as your <code>min</code> threads value, even though your connections are not eagerly loaded (5:5 threads wont open 5 connections if your app never hits the database).</p>\n<blockquote>\n<p>c) The Heroku database allows 500 connections. What would be a good\nvalue for DB_POOL depending on thread, worker and dyno count? - Does\nevery thread per worker per dyno require a sole DB connection when\nworking parallely?</p>\n</blockquote>\n<p>The <a href=\"https://devcenter.heroku.com/articles/heroku-postgres-plans\" rel=\"nofollow noreferrer\">Production Tier</a> allows 500, to be clear :)</p>\n<p>Every thread per worker per dyno <em>could</em> consume a connection, depending on if they're all trying to access the database at the same time. Usually the connections are reused once they're done, but as I mentioned in <code>b)</code>, if your threads are greater than your pool you can have a bad time. The connections will be reused, all of this is handled by ActiveRecord, but sometimes not ideally. Sometimes connections go idle, or die, and that's why turning on the Reaper is suggested, to detect and reclaim dead connections.</p>\n",
+      "owner": {
+        "display_name": "catsby",
+        "link": "https://stackoverflow.com/users/95741/catsby"
+      }
+    },
+    {
+      "answer_id": 22120126,
+      "body": "<p><strong>New answer</strong></p>\n<p>The repo's <a href=\"https://github.com/puma/puma/blob/master/README.md#configuration-file\" rel=\"nofollow noreferrer\">README</a> includes a section on configuration. The repo also includes an example &quot;QC&quot; environment config located at <a href=\"https://github.com/puma/puma/blob/master/examples/qc_config.rb\" rel=\"nofollow noreferrer\">examples/qc_config.rb</a>.</p>\n<p>Default configuration values are located in <a href=\"https://github.com/puma/puma/blob/61c6213fbab/lib/puma/configuration.rb#L182-L204\" rel=\"nofollow noreferrer\">puma/lib/puma/configuration.rb</a> for reference.</p>\n<p>Some configuration values aren't well documented, but are detailed in the <a href=\"https://github.com/puma/puma/blob/4172f187b8fadcc9db641dfd1c109b9630243960/lib/puma/dsl.rb#L547\" rel=\"nofollow noreferrer\">puma/lib/puma/dsl.rb</a> definition!</p>\n<p>Thanks to @MDickten for noticing that the links had broken!</p>\n<p>For example:</p>\n<pre><code># example_config.rb\n#\n# Redirect STDOUT and STDERR to files specified. The 3rd parameter\n# (“append”) specifies whether the output is appended, the default is “false”.\n\n\nstdout_redirect '/u/apps/lolcat/log/stdout', '/u/apps/lolcat/log/stderr'\nstdout_redirect '/u/apps/lolcat/log/stdout', '/u/apps/lolcat/log/stderr', true\n</code></pre>\n<p><strong>Old answer</strong></p>\n<p>Check the example <a href=\"https://github.com/puma/puma/blob/master/examples/config.rb#L49\" rel=\"nofollow noreferrer\">config.rb</a> as recommended on the repo's <a href=\"https://github.com/puma/puma/blob/master/README.md\" rel=\"nofollow noreferrer\">README</a>.</p>\n<p>As shown there:</p>\n<pre><code># Redirect STDOUT and STDERR to files specified. The 3rd parameter\n# (“append”) specifies whether the output is appended, the default is “false”.\n\n\nstdout_redirect '/u/apps/lolcat/log/stdout', '/u/apps/lolcat/log/stderr'\nstdout_redirect '/u/apps/lolcat/log/stdout', '/u/apps/lolcat/log/stderr', true\n</code></pre>\n",
+      "owner": {
+        "display_name": "Momer",
+        "link": "https://stackoverflow.com/users/1162491/momer"
+      }
+    },
+    {
+      "answer_id": 59363127,
+      "body": "<p><strong>Here's how I fixed it:</strong></p>\n<ol>\n<li><p>Install <a href=\"https://rubygems.org/gems/puma\" rel=\"nofollow noreferrer\">Puma</a> if it is not already installed.</p>\n</li>\n<li><p>Run the command <code>which puma</code> to print the installation directory of the puma server on your machine, which is usually installed in <code>/home/your-username/.rbenv/shims/puma</code> directory.</p>\n</li>\n<li><p>Open the <code>puma.service</code> file located at <code>/etc/systemd/system/puma.service</code> by the running the command below:</p>\n<p><code>sudo nano /etc/systemd/system/puma.service</code></p>\n</li>\n<li><p>Copy the Puma service configuration file below into it and save.</p>\n</li>\n</ol>\n<p><strong>Puma Service Configuration</strong></p>\n<pre><code>[Unit]\nDescription=Puma HTTP Server\nAfter=network.target\n\n[Service]\n# Foreground process (do not use --daemon in ExecStart or config.rb)\nType=simple\n\n# Preferably configure a non-privileged user\nUser=deploy\n\n# The path to the your application code root directory\nWorkingDirectory=/home/deploy/my-app\n\n# The command to start Puma\nExecStart=/home/deploy/.rbenv/shims/puma -C /home/deploy/my-app/config/puma.rb\n\n# The command to stop Puma\nExecStop=/home/deploy/.rbenv/shims/puma -S /home/deploy/my-app/config/puma.rb\n\n# Path to PID file so that systemd knows which is the master process\nPIDFile=/home/deploy/my-app/tmp/pids/puma.pid\n\n# Should systemd restart puma?\n# Use &quot;no&quot; (the default) to ensure no interference when using\n# stop/start/restart via `pumactl`.  The &quot;on-failure&quot; setting might\n# work better for this purpose, but you must test it.\n# Use &quot;always&quot; if only `systemctl` is used for start/stop/restart, and\n# reconsider if you actually need the forking config.\nRestart=always\n\n[Install]\nWantedBy=multi-user.target\n</code></pre>\n<p><strong>Note:</strong></p>\n<ul>\n<li>For <code>ExecStart</code>: ExecStart=/your-puma-directory-path -C /your-app-puma-config-file-path</li>\n<li>For <code>ExecStop</code>: ExecStop=/your-puma-directory-path -S /your-app-puma-config-file-path</li>\n<li>There is no need to define <code>ExecReload</code> or <code>ExecRestart</code>, they work out of the box.</li>\n</ul>\n<p>You can now start the puma server using the command:</p>\n<pre><code>sudo systemctl start puma\n</code></pre>\n<p>OR restart the puma server using the command:</p>\n<pre><code>sudo systemctl restart puma\n</code></pre>\n<p>OR check the status puma server using the command:</p>\n<pre><code>sudo systemctl status puma\n</code></pre>\n<p>OR stop the puma server using the command:</p>\n<pre><code>sudo systemctl stop puma\n</code></pre>\n<p>That's all.</p>\n<p><strong>I hope this helps</strong></p>\n",
+      "owner": {
+        "display_name": "Promise Preston",
+        "link": "https://stackoverflow.com/users/10907864/promise-preston"
+      }
+    },
+    {
+      "answer_id": 75216785,
+      "body": "<p>It seems from the statistics in the question that most objects get freed properly by the memory allocator.</p>\n<p>However - when you have a lot of repeated allocations, the system's <code>malloc</code> can sometimes (and often does) hold the memory without releasing it to the system (Ruby isn't aware of this memory that is considered &quot;free&quot;).</p>\n<p>This is done for 2 main reasons:</p>\n<ol>\n<li><p>Most importantly: <a href=\"https://cpp4arduino.com/2018/11/06/what-is-heap-fragmentation.html\" rel=\"nofollow noreferrer\">heap fragmentation</a> (the allocator is unable to free the memory and unable to use parts of it for future allocations).</p>\n</li>\n<li><p>The system's memory allocator knows it would probably need this memory again soon (that's in relation to the part of the memory that can be freed and doesn't suffer from fragmentation).</p>\n</li>\n</ol>\n<p>This can be solved by trying to replace the system's memory allocator with an allocator that's tuned for your specific needs (i.e., <code>jamalloc</code>, such as suggested <a href=\"https://medium.com/rubyinside/how-we-halved-our-memory-consumption-in-rails-with-jemalloc-86afa4e54aa3\" rel=\"nofollow noreferrer\">here</a> and <a href=\"https://storck.io/posts/psa-switch-ruby-docker-to-jemalloc-now/\" rel=\"nofollow noreferrer\">here</a> and asked about <a href=\"https://stackoverflow.com/questions/61249255/do-i-need-to-build-ruby-with-jemalloc-and-use-the-gem-if-im-using-a-heroku-buil\">here</a>).</p>\n<p>You could also try to use gems that have a custom memory allocator when using C extensions (the <code>iodine</code> gem does that, but you could make other gems do it too).</p>\n<p>This approach should help mitigate the issue, but the fact is that some of your gems appear memory hungry... I mean...:</p>\n<ul>\n<li><p>is the <code>maxmind-db</code> gem using 106,497,060 bytes (106MB) of memory or did it allocate that number of objects?</p>\n</li>\n<li><p>and why is <code>psych</code> so hungry? are there any roundtrips between data and YAML that could be skipped?</p>\n</li>\n<li><p>there seems to be a lot of user agent strings stored concurrently... (the <code>user_agent_parser</code> gem)... maybe you could make a cache of these strings instead of having a lot of duplicates. For example, you could make a <code>Set</code> of these strings and replace each String object with the object in the Set. This way equal strings would point at the same object (preventing some object duplication and freeing up some memory).</p>\n</li>\n</ul>\n<blockquote>\n<p><strong>Is it Puma</strong>?</p>\n</blockquote>\n<p>Probably not.</p>\n<p>Although I am the author of the <code>iodine</code> web server, I really love the work the Puma team did over the years and think it's a super solid server for what it offers. I really doubt the leak is from the server, but you can always switch and see what happens.</p>\n<hr />\n<h3>Re: the difference between the Linux report and the Ruby profiler</h3>\n<p>The difference is in the memory held by <code>malloc</code> - &quot;free&quot; memory that isn't returned to the system but Ruby doesn't know about.</p>\n<p>Ruby profilers test the memory Ruby allocated (&quot;live&quot; memory, if you will). They have access to the number of objects allocated and the memory held by those objects.</p>\n<p>The <code>malloc</code> library isn't part of Ruby. It's part of the C runtime library on top of which Ruby sits.</p>\n<p>There's memory allocated for the process by <code>malloc</code> that isn't used by Ruby. That memory is either waiting to be used (retained by <code>malloc</code> for future use) or waiting to be released back to the system (or fragmented and lost for the moment).</p>\n<p>That difference between what Ruby uses and what <code>malloc</code> holds should explain the difference between The Linux reporting and the Ruby profiling reporting.</p>\n<p>Some gems might be using their own custom made memory allocator (i.e., <code>iodine</code> does that). These behave the same as <code>malloc</code> in the sense that the memory they hold will not show up in the Ruby profiler (at least not completely).</p>\n",
+      "owner": {
+        "display_name": "Myst",
+        "link": "https://stackoverflow.com/users/4025095/myst"
+      }
+    },
+    {
+      "answer_id": 74997679,
+      "body": "<p>Update <code>capybara</code> gem, I've updated from 3.37.1 to 3.38.0 and it fixed the issue</p>\n",
+      "owner": {
+        "display_name": "Lev Lukomskyi",
+        "link": "https://stackoverflow.com/users/406642/lev-lukomskyi"
+      }
+    },
+    {
+      "answer_id": 70574879,
+      "body": "<p>This problem ended up being related to the folder permissions for the users home folder and specifically a change in the way Ububntu 20.10 sets permissions differently to previous versions of ubuntu, or at least a difference in the way the DigitalOcean setup scripts behave.\nThis was resolved with a simple command line <code>chmod o=rx</code> from the <code>/home</code> against the user folder concerned e.g.</p>\n<pre><code>cd /home\nchmod o=rx the_home_folder_for_user\n</code></pre>\n",
+      "owner": {
+        "display_name": "jamesc",
+        "link": "https://stackoverflow.com/users/847116/jamesc"
+      }
+    },
+    {
+      "answer_id": 69718911,
+      "body": "<h2>Why</h2>\n<p>Well, this is interesting. I did not think of searching for  <code>lsof</code>'s <code>COMMAND</code> column, before.</p>\n<p>Turns out, <code>ControlCe</code> means &quot;Control Center&quot; and beginning with Monterey, macOS does listen ports <code>5000</code> &amp; <code>7000</code> on default.</p>\n<h2>Solution</h2>\n<ol>\n<li>Go to System Preferences &gt; Sharing</li>\n<li>Uncheck <code>AirPlay Receiver</code>.</li>\n<li>Now, you should be able to restart <code>puma</code> as usual.</li>\n</ol>\n<p>Source: <a href=\"https://developer.apple.com/forums/thread/682332\" rel=\"noreferrer\">https://developer.apple.com/forums/thread/682332</a></p>\n",
+      "owner": {
+        "display_name": "ogirginc",
+        "link": "https://stackoverflow.com/users/4565485/ogirginc"
+      }
+    },
+    {
+      "answer_id": 52862530,
+      "body": "<p>Could solve it manually creating the necessary folders, then the server process could create the pid file.</p>\n<pre><code>mkdir -p tmp/pids\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ramon Marques",
+        "link": "https://stackoverflow.com/users/3100462/ramon-marques"
+      }
+    },
+    {
+      "answer_id": 68639741,
+      "body": "<p>The distinction between a &quot;web server&quot; and an &quot;application server&quot; is rather muddy and has a lot of implicit (and mostly historical) baggage.</p>\n<p>Generally, a web server is understood as a software which communicates via HTTP (or HTTPS) to clients and send static files as a response to requests.</p>\n<p>An application server on the other hand often does not communicate directly with clients (but instead with intermediate server systems in front of it, such as loadbalancers, proxy servers or well, web servers) and its main function is to respond to requests with dynamically generated content. Application servers sometimes communicate with those intermediate servers using protocols other than HTTP, such as FCGI or AJP.</p>\n<p>Often, we will see classic webservers (such as nginx, Apache, lighttpd) used together with an application server such as Puma, Unicorn, Thin, or Passenger. The reason for that is that those webservers are more efficient in serving static files than the application servers which are more geared towards helping the application generate dynamic responses. Also, web servers might be better suited than application servers for buffering requests and responses from clients without using a lot of resources.</p>\n<p>With that being said, in the last couple of decades, it became increasingly common to just use HTTP everywhere rather than to use e.g. FCGI internally. Thus, application servers are generally able to speak to HTTP clients on their own without strictly requiring an additional web server. Often, these application servers can also serve static files directly and thus take on most features of a webserver too.</p>\n<p>However, as written above, most webservers are magnitudes faster and more scalable when serving static files. Also, some application servers such as Unicorn are not intended to be exposed to clients directly since Unicorn does not buffer requests and responses efficiently. Instead, they rely on a frontend server such as nginx for that.</p>\n<p>Thus, as a conclusion: most Ruby application servers can be used without a webserver directly. With e.g. Puma this will work quite okay. To more efficiently serve static assets, or to loadbalance or protect your application, you can also introduce a webserver / proxy in front of your application server such as nginx or Apache.</p>\n",
+      "owner": {
+        "display_name": "Holger Just",
+        "link": "https://stackoverflow.com/users/421705/holger-just"
+      }
+    },
+    {
+      "answer_id": 38844314,
+      "body": "<p>You can't, Puma is an application server.</p>\n<p>On the TCP/IP stack each application gets assigned to a port so that a received packet can be proxied to the application that's expecting it. Imagine that multiple applications live on the same port: There would be no way for an application to know if the receiving packet is really intended for it or for another application on the same port.</p>\n<p>That's why we use proxies and reverse proxies. Nginx, being a reverse proxy, resolves the requested URL to an application and proxies the request to it. It's a single application that receives all incoming packets on a given port and then proxies them to an application on another port or socket.</p>\n<p>To have multiple web servers on the same port you would have to have a reverse proxy such as Nginx or HAproxy in-front of them.</p>\n",
+      "owner": {
+        "display_name": "Stanko",
+        "link": "https://stackoverflow.com/users/1419458/stanko"
+      }
+    },
+    {
+      "answer_id": 31939157,
+      "body": "<p>Combining certificate and bundle will work only if you use nginx.</p>\n<p>Without nginx, you can use <code>ca</code> and <code>verify_mode</code> options:</p>\n<pre><code>rails s puma -b 'ssl://0.0.0.0:9292?key=path_to_key.key&amp;cert=path_to_cert.crt&amp;verify_mode=none&amp;ca=path_to_root_bundle.crt'\n</code></pre>\n<p>Source: <a href=\"https://github.com/puma/puma/blob/master/lib/puma/binder.rb\" rel=\"noreferrer\">https://github.com/puma/puma/blob/master/lib/puma/binder.rb</a></p>\n",
+      "owner": {
+        "display_name": "Alexandre S",
+        "link": "https://stackoverflow.com/users/2969233/alexandre-s"
+      }
+    },
+    {
+      "answer_id": 66952127,
+      "body": "<p>First thing first, in your <strong>/etc/nginx/sites-enabled/mysite.com</strong></p>\n<p><strong>First step</strong></p>\n<p>change</p>\n<pre><code>upstream puma {\n  server unix:///root/mysite/tmp/sockets/mysite.sock;\n}\n</code></pre>\n<p>to</p>\n<pre><code>upstream puma {\n  server 0.0.0.0:9838; # port number in which your puma server starts\n}\n</code></pre>\n<p>After changing your <strong>/etc/nginx/sites-enabled/mysite.com</strong> It should look like the following.</p>\n<pre><code>upstream puma {\n  server 0.0.0.0:9838;\n}\n\nserver {\n    server_name  mysite.com www.mysite.com;\n    client_max_body_size 200m;\n    gzip             on;\n    gzip_comp_level  4;\n    gzip_min_length  1000;\n    gzip_proxied     expired no-cache no-store private auth;\n    gzip_types       text/plain application/javascript application/json application/x-javascript text/xml text/css application/xml text/javascript;\n\n    root /root/mysite/public;\n\n    location / {\n      try_files $uri/index.html $uri @app;\n    }\n\n    location  ~* ^/assets {\n      root /root/mysite/public;\n      expires 1y;\n      add_header Cache-Control public;\n      add_header Last-Modified &quot;&quot;;\n      add_header ETag &quot;&quot;;\n      break;\n    }\n\n    error_page 500 502 503 504 /500.html;\n\n    location @app {\n      proxy_pass http://puma;\n\n      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;\n      proxy_set_header X-Forwarded-Proto $scheme;\n      proxy_set_header X-Forwarded-Proto https;\n      proxy_set_header Host $http_host;\n      proxy_redirect off;\n    }\n\n    location ~ /.well-known {\n      allow all;\n    }\n\n\n    listen 443 ssl; # managed by Certbot\n    ssl_certificate /etc/letsencrypt/live/mysite.com/fullchain.pem; # managed by Certbot\n    ssl_certificate_key /etc/letsencrypt/live/mysite.com/privkey.pem; # managed by Certbot\n    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot\n    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot\n}\n\n\nserver {\n    if ($host = mysite.com) {\n        return 301 https://$host$request_uri;\n    } # managed by Certbot\n\n    if ($host = www.mysite.com) {\n        return 301 https://$host$request_uri;\n    } # managed by Certbot\n\n\n    server_name  mysite.com www.mysite.com;\n    listen 80;\n    return 404; # managed by Certbot\n}\n</code></pre>\n<p><strong>Second step</strong></p>\n<p>Then run <code>gem install foreman</code> to install foreman library. To know more about foreman click <a href=\"https://www.theforeman.org/\" rel=\"noreferrer\">here</a>.</p>\n<p><strong>Third step</strong></p>\n<p>Create <code>Procfile</code> in your project root directory and paste the below content</p>\n<pre><code>web: RAILS_ENV=production bundle exec puma -e  production -p 9838 -d -S  ~/puma -C config/puma.rb\n</code></pre>\n<p><strong>Final step</strong></p>\n<p>Run <code>foreman start</code> to start the puma server and there you go, you will be able to see your application running.</p>\n",
+      "owner": {
+        "display_name": "Tashi Dendup",
+        "link": "https://stackoverflow.com/users/8427339/tashi-dendup"
+      }
+    },
+    {
+      "answer_id": 65658417,
+      "body": "<p>If you look at the diff of the version you've used before vs. the version you're using now (<a href=\"https://github.com/seuros/capistrano-puma/compare/v3.1.1...v5.0.2\" rel=\"noreferrer\">https://github.com/seuros/capistrano-puma/compare/v3.1.1...v5.0.2</a>), you can see that the <code>puma:start</code> command (together with others) was apparently removed from the main <code>puma.rake</code> and instead moved to the the pluggable adapters for daemonization and systemd respectively. Judging by the readme (<a href=\"https://github.com/seuros/capistrano-puma#usage\" rel=\"noreferrer\">https://github.com/seuros/capistrano-puma#usage</a>), Puma 5+ only allows systemd (see <a href=\"https://github.com/puma/puma/pull/2170\" rel=\"noreferrer\">https://github.com/puma/puma/pull/2170</a>), so you'll have to add <code>install_plugin Capistrano::Puma::Systemd</code> to your Capistrano setup (and of course make sure that your setup runs systemd properly).</p>\n<p>If you can't/don't want to use systemd and want to stick with Puma's classic daemonization, you'll have to go with Puma 4 (<code>gem 'puma', '&lt; 5'</code> in your <code>Gemfile</code>) until you're ready to upgrade.</p>\n",
+      "owner": {
+        "display_name": "Clemens Kofler",
+        "link": "https://stackoverflow.com/users/8271939/clemens-kofler"
+      }
+    },
+    {
+      "answer_id": 44049249,
+      "body": "<p>Puma has two parameters actually, the number of threads and the number of workers. If we slightly change the default <code>puma.rb</code>, it will look like that:</p>\n<pre class=\"lang-rb prettyprint-override\"><code># WORKERS_NUM is not a default env variable name\nworkers Integer(ENV['WORKERS_NUM'] || 1)\nmax_threads_count = Integer(ENV['RAILS_MAX_THREADS'] || 1)\nmin_threads_count = max_threads_count\nthreads min_threads_count, max_threads_count\n</code></pre>\n<p>The number of workers is the number of separate processes that Puma spawns for you. Usually, it is a good idea to set it equal to the number of processor cores you have on your server. You could spawn more of them to allow for more requests to be processed simultaneously, but workers create additional memory overhead – each worker spins up a copy of your rails app, so usually, you would use threads to achieve higher throughput.</p>\n<p><code>RAILS_MAX_THREADS</code> is a way to set the number of threads each of your workers will use under the hood. In the example above, the <code>min_threads_count</code> is equal to the <code>max_threads_count</code>, so the number of threads is constant. If you set them to be different, it is going to scale from the min to the max, but I haven't seen it in the wild.</p>\n<p>There are several reasons to limit the number of threads – your interpreter and response times:</p>\n<ol>\n<li>If you use MRI, your threads are limited by GIL, so they're not run in parallel. MRI imitates parallel execution by context switching. A big number of threads will allow for much more simultaneous connections, but the average response time will increase because of the GIL.</li>\n<li>Platform limits: i.e. heroku has thread number limits <a href=\"https://devcenter.heroku.com/articles/dynos#process-thread-limits\" rel=\"noreferrer\">https://devcenter.heroku.com/articles/dynos#process-thread-limits</a>, linux limits only the number of processes <a href=\"https://stackoverflow.com/questions/344203/maximum-number-of-threads-per-process-in-linux\">Maximum number of threads per process in Linux?</a>.</li>\n<li>When the code isn't thread-safe, there is a chance that using more than one thread will result in unpredictable problems. That's actually my case, so I didn't experiment much with the number of threads.</li>\n</ol>\n<p>There was also an argument that slow IO blocks ruby process and doesn't allow context switching (i.e. calls to external services, or generating large files on the fly), but it turns out not to be true <a href=\"http://yehudakatz.com/2010/08/14/threads-in-ruby-enough-already/\" rel=\"noreferrer\">http://yehudakatz.com/2010/08/14/threads-in-ruby-enough-already/</a>. But optimizing your architecture to do as much work in the background, as possible is always a good idea.</p>\n<p><a href=\"https://stackoverflow.com/a/41886275/1285763\">This answer</a> will help you to find out a perfect combination of the number of threads vs the number of workers given your hardware.</p>\n<p><a href=\"http://deliveroo.engineering/2016/12/21/unicorn-vs-puma-rails-server-benchmarks.html\" rel=\"noreferrer\">This shows</a> how the benchmarking could be done to find the exact numbers.</p>\n<p>To sum up:\n<code>WORKERS_NUM</code> multiplied by <code>RAILS_MAX_THREADS</code> gives you a maximum number of simultaneous connections that can be processed by puma. If the number is too low, your users will see timeouts during load spikes. To achieve the best performance given you use MRI, you need to set <code>WORKERS_NUM</code> to the number of cores and find optimal <code>RAILS_MAX_THREADS</code> based on average response time during performance tests.</p>\n",
+      "owner": {
+        "display_name": "Nikolay Shebanov",
+        "link": "https://stackoverflow.com/users/1285763/nikolay-shebanov"
+      }
+    },
+    {
+      "answer_id": 64275233,
+      "body": "<p><strong>Context: Quick links:</strong></p>\n<p>Daemonize option has been removed without replacement as of Puma 5.0.0 (Source: <a href=\"https://github.com/puma/puma/blob/master/History.md\" rel=\"noreferrer\">https://github.com/puma/puma/blob/master/History.md</a>)</p>\n<p>You may refer this section for daemonization in their documentation: <a href=\"https://github.com/puma/puma/blob/master/docs/deployment.md#should-i-daemonize\" rel=\"noreferrer\">https://github.com/puma/puma/blob/master/docs/deployment.md#should-i-daemonize</a></p>\n<p><strong>Solution:</strong>\nCreate a systemd service for puma depending on your OS distro.</p>\n<p>Configure your environment in config/puma in your app directory.</p>\n<p>Add a service file named puma.service in <code>/etc/systemd/system</code> (the path works for me on SLES15).</p>\n<p>Here is a sample that works for me (replace text within &lt;&gt; as per your needs):</p>\n<pre><code>[Unit]\nDescription=Puma HTTP Server\nAfter=network.target\nStartLimitIntervalSec=0\n\n[Service]\nType=simple\nUser=&lt;UserForPuma&gt;\nWorkingDirectory=&lt;YourAppDir&gt;\nEnvironment=RAILS_MASTER_KEY=&lt;EncryptionKeyIfUsedByRailsApp&gt;\nExecStart=/usr/bin/rails s puma -b 'ssl://127.0.0.1:3000?key=&lt;path_to_privatekey.key&gt;&amp;cert=&lt;path_to_certificate.crt&gt;' -e production\nRestart=always\nRestartSec=2\nKillMode=process\n\n[Install]\nWantedBy=multi-user.target\n</code></pre>\n<p>Save the above content as a file named puma.service in the directory path mentioned above.\nAfter this just enable and start the service:</p>\n<pre><code># systemctl daemon-reload\n# systemctl --now enable puma.service\n\nCreated symlink /etc/systemd/system/multi-user.target.wants/puma.service → /etc/systemd/system/puma.service.\n\n# systemctl status puma\n\n● puma.service - Puma HTTP Server\n   Loaded: loaded (/etc/systemd/system/puma.service; enabled; vendor preset: disabled)\n   Active: active (running) since Fri 2020-10-09 12:59:28 CEST; 7s ago\n Main PID: 2854 (ruby.ruby2.5)\n    Tasks: 21\n   CGroup: /system.slice/puma.service\n           ├─2854 puma 5.0.2 (ssl://127.0.0.1:3000?key=&lt;your_key_path.key&gt;&amp;cert=&lt;your_cert_path.crt&gt;) [rails-app-dir]\n           ├─2865 puma: cluster worker 0: 2854 [rails-app-dir]\n           └─2871 puma: cluster worker 1: 2854 [rails-app-dir]\n</code></pre>\n<p>Check puma status:\n<code>ps -ef | grep puma</code></p>\n<p>This should now show running puma processes (main process and worker processes).</p>\n<p>Here is a link for beginners on how to create a systemd service:\n<a href=\"https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6\" rel=\"noreferrer\">https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6</a></p>\n<p>Systemd docs:</p>\n<ul>\n<li><a href=\"https://www.freedesktop.org/software/systemd/man/systemd.unit.html\" rel=\"noreferrer\">https://www.freedesktop.org/software/systemd/man/systemd.unit.html</a></li>\n<li><a href=\"https://www.freedesktop.org/software/systemd/man/systemd.service.html\" rel=\"noreferrer\">https://www.freedesktop.org/software/systemd/man/systemd.service.html</a></li>\n</ul>\n<p>Sorry but I am not a Windows person, but I believe that the idea is same. Anyone working in Windows may try creating a bat file and running it in the background as a Windows service.\nHope that helps.</p>\n",
+      "owner": {
+        "display_name": "Zeeshan",
+        "link": "https://stackoverflow.com/users/815906/zeeshan"
+      }
+    },
+    {
+      "answer_id": 63956960,
+      "body": "<p>This <code>establish_connection</code> call is no longer needed, assuming you're running Rails 5.2+.</p>\n<p>The config code for the Puma-maintained plugin for best practices Puma configuration on Heroku (it lives <a href=\"https://github.com/puma/puma-heroku\" rel=\"noreferrer\">here</a>) currently includes the following:</p>\n<pre class=\"lang-rb prettyprint-override\"><code># Not necessary in Rails 5.2+, see https://github.com/rails/rails/pull/29807\nif defined?(::ActiveRecord) &amp;&amp; defined?(::ActiveRecord::Base) &amp;&amp; Gem::Version.new(Rails.version) &lt; Gem::Version.new('5.2.0')\n    c.before_fork { ActiveRecord::Base.connection_pool.disconnect! }\n    c.on_worker_boot { ActiveRecord::Base.establish_connection }\nend\n</code></pre>\n<p>Note the comment here. A little more digging on the linked PR and some PRs it linked me to led to the PR that actually removes the need for this stuff: <a href=\"https://github.com/rails/rails/pull/31241\" rel=\"noreferrer\">https://github.com/rails/rails/pull/31241</a>. In this PR, the question is explicitly asked,</p>\n<blockquote>\n<p>Does this mean that if we have existing before_fork and on_worker_boot blocks in our pre-Rails 5.2.0 puma.rb file, we can now simply remove those blocks after upgrading to Rails 5.2.0?</p>\n</blockquote>\n<p>And the answer, my friend, is...</p>\n<blockquote>\n<p>Yes. (Assuming they're doing AR connection management, of course.)\nThey're perfectly safe to leave there, so it's not called out in the upgrade guide, but they should no longer be necessary.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "dmarklein",
+        "link": "https://stackoverflow.com/users/4917063/dmarklein"
+      }
+    },
+    {
+      "answer_id": 40425160,
+      "body": "<p>Actually I found the answer explained well here... <a href=\"https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server#database-connections\" rel=\"noreferrer\">https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server#database-connections</a></p>\n<hr />\n<p>As you add more concurrency to your application, it will need more connections to your database. A good formula for determining the number of connections each application will require is to multiply the <code>RAILS_MAX_THREADS</code> by the <code>WEB_CONCURRENCY</code>. This combination will determine the number of connections each dyno will consume.</p>\n<p>Rails maintains its database connection pool, with a new pool created for each worker process. Threads within a worker will operate on the same pool. Make sure there are enough connections inside of your Rails database connection pool so that <code>RAILS_MAX_THREADS</code> number of connections can be used. If you see this error:</p>\n<pre><code>ActiveRecord::ConnectionTimeoutError - could not obtain a database connection within 5 seconds\n</code></pre>\n<p>This error is an indication that your Rails connection pool is too low. For an in-depth look at these topics, please read the Dev Center article <a href=\"https://devcenter.heroku.com/articles/concurrency-and-database-connections#threaded-servers\" rel=\"noreferrer\">Concurrency and Database Connections</a>.</p>\n",
+      "owner": {
+        "display_name": "Tallboy",
+        "link": "https://stackoverflow.com/users/794481/tallboy"
+      }
+    },
+    {
+      "answer_id": 63293582,
+      "body": "<p>The Puma team pointed me to a <a href=\"https://github.com/puma/puma/issues/2304#issuecomment-664448309\" rel=\"noreferrer\">temporary solution</a> for compiling puma.</p>\n<pre><code>gem install puma:4.3.5 -- --with-cflags=&quot;-Wno-error=implicit-function-declaration&quot;\n</code></pre>\n<p>I used this variant for the latest version</p>\n<pre><code>gem install puma -- --with-cflags=&quot;-Wno-error=implicit-function-declaration&quot;\n</code></pre>\n<p>I was also able to use this same technique to with thin, but I have not tested whether the gem works.</p>\n<pre><code>gem install thin -- --with-cflags=&quot;-Wno-error=implicit-function-declaration&quot;\n</code></pre>\n",
+      "owner": {
+        "display_name": "David Cruwys",
+        "link": "https://stackoverflow.com/users/473923/david-cruwys"
+      }
+    },
+    {
+      "answer_id": 31040382,
+      "body": "<p>You need to use <code>kill -9 59780</code> with <code>59780</code> replaced with found PID number (use <code>lsof -wni tcp:3000</code> to see which process used <code>3000</code> port and get the process PID).</p>\n\n<p>Or you can just modify your puma config change the tcp port <code>tcp://127.0.0.1:3000</code> from <code>3000</code> to <code>9292</code> or other port that not been used.</p>\n\n<p>Or you can start your rails app by using:</p>\n\n<pre><code>bundle exec puma -C config/puma.rb -b tcp://127.0.0.1:3001\n</code></pre>\n",
+      "owner": {
+        "display_name": "Zoker",
+        "link": "https://stackoverflow.com/users/3604993/zoker"
+      }
+    },
+    {
+      "answer_id": 61328117,
+      "body": "<p>Ok so this took a lot of debugging and going down a lot of different rabbit holes. The problem was very painfully simple. I created a class which I misspelled and called, <code>GetLitsingsResponse</code>. After changing the class back to <code>GetListingsResponse</code> Puma works just fine in my remote AWS Elastic beanstalk environment. It's very strange out locally on my Mac OS Puma had no problem. But in the 64bit Amazon Linux 2018.03 v2.11.4 running Ruby 2.6 (Puma) platform Puma would not function normally. </p>\n",
+      "owner": {
+        "display_name": "robskrob",
+        "link": "https://stackoverflow.com/users/2524631/robskrob"
+      }
+    },
+    {
+      "answer_id": 61296313,
+      "body": "<p>What is happening here is basically you have several versions of the gem in your system.</p>\n\n<p>Most of the time it did not cause issues because <code>bundle exec</code> will dynamically load required versions for your application.</p>\n\n<p>In some cases gems will have binary files included. It such case <code>bundle exec</code> will not help because you can have only one version linked in one moment.</p>\n\n<p>Basically, if you want to call the binary by alias you have to use separate gemset for each application.</p>\n\n<p>If you want to keep all the gems in one place you can call binary files directly.</p>\n\n<p>In your case it will be:</p>\n\n<pre class=\"lang-sh prettyprint-override\"><code>RAILS_ENV=dev3 bundle exec pumactl _0.1.0_ -F ./config/puma.rb\n</code></pre>\n\n<p>The <code>_&lt;version&gt;_</code> construction allows you to specify version of the binary file you want to run.</p>\n\n<p>You can create your custom binary as well, like <code>fake_pumactl</code> inside the project which will check the <code>Gemfile.lock</code> and automatically proxy your call to the library and specify version automatically for you. Another way is to parse gem version by shell script and put this script instead of <code>_&lt;version&gt;_</code> in your call.</p>\n\n<p>Here is the brief example</p>\n\n<pre class=\"lang-sh prettyprint-override\"><code>$ gem install puma\nFetching puma-4.3.3.gem\n\n$ gem install puma -v 4.3.0\nFetching puma-4.3.0.gem\n\n$ pumactl -v\n4.3.3\n\n$ pumactl _4.3.0_ -v\n4.3.0\n\n$ ruby -v\nruby 2.6.3p62\n\n$ export puma_version=_4.3.0_\n$ pumactl ${puma_version} -v\n4.3.0\n</code></pre>\n\n<p><code>puma_version</code> variable can be defined from result of a bash command which will extract the gem version from <code>Gemfile.lock</code>.</p>\n",
+      "owner": {
+        "display_name": "achempion",
+        "link": "https://stackoverflow.com/users/1507066/achempion"
+      }
+    },
+    {
+      "answer_id": 61125795,
+      "body": "<p>With the help of a fellow at <a href=\"https://gitter.im/hanami/chat\" rel=\"noreferrer\">hanami/chat</a>, I ended up with following Puma config:</p>\n\n<pre class=\"lang-rb prettyprint-override\"><code>require_relative './environment'\nworkers 2\n\nthreads_count = 5\nthreads threads_count, threads_count\n\ndaemonize true\n\npreload_app!\n\nrackup      DefaultRackup\nport        2300\nenvironment 'production'\n\non_worker_boot do\n  Hanami.boot\nend\n</code></pre>\n\n<p>Here are infos which helped me to come to the conclusion:</p>\n\n<p><a href=\"https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server#on-worker-boot\" rel=\"noreferrer\">puma and rails</a></p>\n\n<p><a href=\"https://github.com/hanami/hanami/blob/master/lib/hanami.rb#L124\" rel=\"noreferrer\">definition of Hanami.boot</a></p>\n\n<p><a href=\"https://github.com/hanami/model/blob/31566f1449a84c156b00188b785dc6aafd76416d/lib/hanami/model.rb#L84\" rel=\"noreferrer\">definition of Hanami.disconnect</a></p>\n",
+      "owner": {
+        "display_name": "wuarmin",
+        "link": "https://stackoverflow.com/users/5662805/wuarmin"
+      }
+    },
+    {
+      "answer_id": 61063422,
+      "body": "<p>Find this line in <code>config/puma.rb</code>. It's usually commented.</p>\n\n<pre><code># workers ENV.fetch(\"WEB_CONCURRENCY\") { 2 }\n</code></pre>\n\n<p>If it's uncommented then just comment it or make it like below </p>\n\n<pre><code>workers ENV.fetch(\"WEB_CONCURRENCY\") { 0 }\n</code></pre>\n\n<p>Then puma will start in single mode.</p>\n",
+      "owner": {
+        "display_name": "Rafayet Monon",
+        "link": "https://stackoverflow.com/users/7903039/rafayet-monon"
+      }
+    },
+    {
+      "answer_id": 60472993,
+      "body": "<p>It's been nearly 2 years but I finally happened to stumble upon what had been causing my issue.</p>\n\n<p>Basically it boiled down to a method in my code not being thread-safe. Since my <code>current_user</code> variable was only accessible from my controller, I had a before_action on my base controller to assign the current user to <code>User.current</code> so that I could access the current user globally via <code>User.current</code>, not just in my controllers. </p>\n\n<p>So PLEASE make sure you're not dynamically updating classes like I this in your controllers. It is not thread-safe. I ended up following this thread-safe solution instead for my particular case: <a href=\"https://stackoverflow.com/a/2513456/7629239\">https://stackoverflow.com/a/2513456/7629239</a></p>\n",
+      "owner": {
+        "display_name": "dcporter7",
+        "link": "https://stackoverflow.com/users/7629239/dcporter7"
+      }
+    },
+    {
+      "answer_id": 15384996,
+      "body": "<p>After some digging, I've found this answer: <a href=\"https://stackoverflow.com/a/14911994/604526\">https://stackoverflow.com/a/14911994/604526</a></p>\n\n<p>To make Puma the default, paste this code into script/rails above require 'rails/commands':</p>\n\n<pre><code>require 'rack/handler'\nRack::Handler::WEBrick = Rack::Handler.get(:puma)\n</code></pre>\n\n<p>Puma is the default server now if you use <code>rails s</code></p>\n\n<pre><code>rails s\n=&gt; Booting Puma\n=&gt; Rails 3.2.12 application starting in development on http://0.0.0.0:3000\n=&gt; Call with -d to detach\n=&gt; Ctrl-C to shutdown server\nConnecting to database specified by database.yml\nPuma 1.6.3 starting...\n* Min threads: 0, max threads: 16\n* Environment: development\n* Listening on tcp://0.0.0.0:3000\n</code></pre>\n\n<h2>Rails 4</h2>\n\n<p>With Rails 4 you simply have to add the puma-gem to the Gemfile. (Tested with Rails 4.0.2 and Puma 2.6.0)</p>\n",
+      "owner": {
+        "display_name": "Simon Woker",
+        "link": "https://stackoverflow.com/users/604526/simon-woker"
+      }
+    },
+    {
+      "answer_id": 28598445,
+      "body": "<p>To run the local server in development with webrick you should only have to specify it when running <code>rails server</code>:</p>\n\n<pre><code>rails server webrick\n</code></pre>\n\n<p>You may get it to default back to webrick again if you move puma to the production group of your Gemfile:</p>\n\n<pre><code>group :production do\n  gem 'puma'\nend\n</code></pre>\n\n<p>Then bundle without the production group:</p>\n\n<pre><code>bundle install --without production\n</code></pre>\n",
+      "owner": {
+        "display_name": "infused",
+        "link": "https://stackoverflow.com/users/2456433/infused"
+      }
+    },
+    {
+      "answer_id": 54138675,
+      "body": "<p>This is possible with <a href=\"https://www.jetbrains.com/help/ruby/debugging-code.html#9c9bdbd4\" rel=\"noreferrer\">remote debugging</a>.  To configure, you have to make some changes to your app:</p>\n\n<ol>\n<li><p>Add <code>export RUBY_DEBUG_PORT=1234</code> to <code>.env</code> or <code>.powenv</code> or any file puma-dev <a href=\"https://github.com/puma/puma-dev#configuration\" rel=\"noreferrer\">will load an environment variable from</a>.  Feel free to use whatever port you'd like, although RubyMine uses 1234 by default.</p></li>\n<li><p>Add the <code>ruby-debug-ide</code> and <code>debase</code> gems to your project's Gemfile.</p></li>\n<li><p>Add an initializer to your project to initialize remote debugging, like so:</p>\n\n<pre><code>if Rails.env.development? &amp;&amp; ENV['RUBY_DEBUG_PORT']\n  Debugger.start_server nil, ENV['RUBY_DEBUG_PORT'].to_i\nend\n</code></pre></li>\n<li>Restart puma-dev.</li>\n<li>Go to Edit Configurations in RubyMine and add a \"Ruby remote debug\" config. Name it whatever you'd like. Change the port to the port you set via <code>RUBY_DEBUG_PORT</code>. Set your local and remote root folders to your project root. </li>\n<li>Select your newly created configuration and click the Debug button.  It should connect to the debugger running in your puma-dev process.</li>\n</ol>\n",
+      "owner": {
+        "display_name": "Jim Ryan",
+        "link": "https://stackoverflow.com/users/1293749/jim-ryan"
+      }
+    },
+    {
+      "answer_id": 53113412,
+      "body": "<p>Configuration is tightly connected to a way in which you run <code>puma</code> server.</p>\n\n<p>The standard way to run <code>puma</code> - <code>puma</code> CLI command. In order to configure <code>puma</code> config file <code>config/puma.rb</code> or <code>config/puma/&lt;environment&gt;.rb</code> should be provided (see <a href=\"https://github.com/puma/puma/blob/master/examples/config.rb\" rel=\"noreferrer\">example</a>).</p>\n\n<p>But you asked how to pass <code>Puma::Configuration</code> object to <code>puma</code>. I wonder why you need it but AFAIK you need to run <code>puma</code> server programmatically in your application code with <code>Puma::Launcher</code>(see <a href=\"https://github.com/puma/puma/blob/master/lib/puma/launcher.rb#L39\" rel=\"noreferrer\">source code</a>)</p>\n\n<pre><code>conf = Puma::Configuration.new do |user_config|\n  user_config.threads 1, 10\n  user_config.app do |env|\n    [200, {}, [\"hello world\"]]\n  end\n end\nPuma::Launcher.new(conf, events: Puma::Events.stdio).run\n</code></pre>\n\n<p><code>user_config.app</code> may be any callable object (compatible with <code>Rack</code> interface) like Sinatra application.</p>\n\n<p>Hope it's helpful.</p>\n",
+      "owner": {
+        "display_name": "andrykonchin",
+        "link": "https://stackoverflow.com/users/219594/andrykonchin"
+      }
+    },
+    {
+      "answer_id": 48324812,
+      "body": "<p>To quickly answer the question, the number of threads used by a\nprocess running on a given PID, can be obtained using the\nfollowing :</p>\n\n<pre><code>% ps -h -o nlwp &lt;pid&gt;\n</code></pre>\n\n<p>This will just return you the total number of threads used by the\nprocess. The option <code>-h</code> removes the headers and the option <code>-o nlwp</code>\nformats the output of <code>ps</code> such that it only outputs the <em>Number of Light Weight Processes</em> (NLWP) or threads. Example, when only a single process <code>puma</code> is running and its PID is obtained with <code>pgrep</code>, you get:</p>\n\n<pre><code>% ps -h -o nlwp $(pgrep puma)\n   4\n</code></pre>\n\n<p><strong>What is the difference between process, thread and light-weight process?</strong></p>\n\n<p>This question has been answered already in various places\n[See <a href=\"https://stackoverflow.com/questions/200469/what-is-the-difference-between-a-process-and-a-thread\">here</a>, <a href=\"https://stackoverflow.com/questions/10484355/what-the-difference-between-lightweight-process-and-thread\">here</a> and <a href=\"https://www.thegeekstuff.com/2013/11/linux-process-and-threads/\" rel=\"noreferrer\">the excellent geekstuff\narticle</a>]. The quick, short and ugly version is :</p>\n\n<ul>\n<li><p>a <em>process</em> is essentially any running instance of a program.</p></li>\n<li><p>a <em>thread</em> is a flow of execution of the process. A process\ncontaining multiple execution-flows is known as multi-threaded\nprocess and shares its resources amongst its threads (memory,\nopen files, io, ...). The Linux kernel has no knowledge of what\n<code>threads</code> are and only knows processes. In the past,\nmulti-threading was handled on a user level and not kernel\nlevel. This made it hard for the kernel to do proper process\nmanagement.</p></li>\n<li><p>Enter <em>lightweight processes</em> (LWP). This is essentially the\nanswer to the issue with threads. Each thread is considered to\nbe an LWP on kernel level. The main difference between a\nprocess and an LWP is that the LWP shares resources. In other words, an <em>Light Weight Process</em> is kernel-speak for what users call a <em>thread</em>.</p></li>\n</ul>\n\n<p><strong>Can <code>ps</code> show information about threads or LWP's?</strong></p>\n\n<p>The <code>ps</code> command or <em>process status</em> command provides information\nabout the currently running processes including their corresponding\nLWPs or threads. To do this, it makes use of the <code>/proc</code> directory\nwhich is a virtual filesystem and regarded as the control and\ninformation centre of the kernel. [See <a href=\"https://www.kernel.org/doc/Documentation/filesystems/proc.txt\" rel=\"noreferrer\">here</a> and <a href=\"https://unix.stackexchange.com/questions/262177/how-does-the-ps-command-work\">here</a>].</p>\n\n<p>By default <code>ps</code> will not give you any information about the LWPs,\nhowever, adding the option <code>-L</code> and <code>-m</code> to the command generally does\nthe trick.</p>\n\n<blockquote>\n  <p><strong><code>man ps :: THREAD DISPLAY</code></strong></p>\n\n<pre><code>   H      Show threads as if they were processes.\n   -L     Show threads, possibly with LWP and NLWP columns.\n   m      Show threads after processes.\n   -m     Show threads after processes.\n   -T     Show threads, possibly with SPID column.\n</code></pre>\n</blockquote>\n\n<p>For a single process <code>puma</code> with pid given by <code>pgrep puma</code></p>\n\n<pre><code>% ps -fL $(pgrep puma)\nUID        PID  PPID   LWP  C NLWP STIME TTY      STAT   TIME CMD\nkvantour  2160  2876  2160  0    4 15:22 pts/39   Sl+    0:00 ./puma\nkvantour  2160  2876  2161 99    4 15:22 pts/39   Rl+    0:14 ./puma\nkvantour  2160  2876  2162 99    4 15:22 pts/39   Rl+    0:14 ./puma\nkvantour  2160  2876  2163 99    4 15:22 pts/39   Rl+    0:14 ./puma\n</code></pre>\n\n<p>however, adding the <code>-m</code> option clearly gives a nicer overview. This\nis especially handy when multiple processes are running with the same\nname.</p>\n\n<pre><code>% ps -fmL $(pgrep puma)\nUID        PID  PPID   LWP  C NLWP STIME TTY      STAT   TIME CMD\nkvantour  2160  2876     -  0    4 15:22 pts/39   -      0:44 ./puma\nkvantour     -     -  2160  0    - 15:22 -        Sl+    0:00 -     \nkvantour     -     -  2161 99    - 15:22 -        Rl+    0:14 -     \nkvantour     -     -  2162 99    - 15:22 -        Rl+    0:14 -     \nkvantour     -     -  2163 99    - 15:22 -        Rl+    0:14 -     \n</code></pre>\n\n<p>In this example, you see that process <code>puma</code> with PID 2160 runs with 4\nthreads (NLWP) having the ID's 2160--2163. Under <code>STAT</code> you see two different values <code>Sl+</code> and 'Rl+'. Here the <code>l</code> is an indicator for <code>multi-threaded</code>. <code>S</code> and <code>R</code> stand for <em>interruptible sleep (waiting for an event to complete)</em> and respectively <em>running</em>. So we see that 3 of the 4 threads are running at 99% CPU and one thread is sleeping.\nYou also see the total accumulated CPU time (44s) while a single thread only runs for 14s.</p>\n\n<p>Another way to obtain information is by directly using the format\nspecifiers with <code>-o</code> or <code>-O</code>.</p>\n\n<blockquote>\n  <p><strong><code>man ps :: STANDARD FORMAT SPECIFIERS</code></strong></p>\n\n<pre><code>   lwp    lightweight process (thread) ID of the dispatchable\n          entity (alias spid, tid).  See tid for additional\n          information.  Show threads as if they were processes.\n   nlwp   number of lwps (threads) in the process.  (alias thcount).\n</code></pre>\n</blockquote>\n\n<p>So you can use any of <code>lwp</code>,<code>spid</code> or <code>tid</code> and <code>nlwp</code> or <code>thcount</code>.</p>\n\n<p>If you only want to get the number of threads of a process called\n<code>puma</code>, you can use :</p>\n\n<pre><code>% ps -o nlwp $(pgrep puma)\nNLWP\n   4\n</code></pre>\n\n<p>or if you don't like the header </p>\n\n<pre><code>% ps -h -o nlwp $(pgrep puma)\n   4\n</code></pre>\n\n<p>You can get a bit more information with :</p>\n\n<pre><code>% ps -O nlwp $(pgrep puma)\nPID   NLWP S TTY          TIME COMMAND\n19304    4 T pts/39   00:00:00 ./puma\n</code></pre>\n\n<p>Finally, you can combine the flags with <code>ps aux</code> to list the threads.</p>\n\n<pre><code> % ps aux -L\nUSER       PID   LWP %CPU NLWP %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND\n...\nkvantour  1618  1618  0.0    4  0.0  33260  1436 pts/39   Sl+  15:17   0:00 ./puma\nkvantour  1618  1619 99.8    4  0.0  33260  1436 pts/39   Rl+  15:17   0:14 ./puma\nkvantour  1618  1620 99.8    4  0.0  33260  1436 pts/39   Rl+  15:17   0:14 ./puma\nkvantour  1618  1621 99.8    4  0.0  33260  1436 pts/39   Rl+  15:17   0:14 ./puma\n...\n</code></pre>\n\n<p><strong>Can <code>top</code> show information about threads or LWP's?</strong></p>\n\n<p><code>top</code> has the option to show threads by hitting <code>H</code> in the interactive mode or by launching top with <code>top -H</code>. The problem is that it lists the threads as processes (similar to <code>ps -fH</code>).</p>\n\n<pre><code>% top\ntop - 09:42:10 up 17 days, 3 min,  1 user,  load average: 3.35, 3.33, 2.75\nTasks: 353 total,   3 running, 347 sleeping,   3 stopped,   0 zombie\n%Cpu(s): 75.5 us,  0.6 sy,  0.5 ni, 22.6 id,  0.0 wa,  0.0 hi,  0.8 si,  0.0 st\nKiB Mem : 16310772 total,  8082152 free,  3662436 used,  4566184 buff/cache\nKiB Swap:  4194300 total,  4194300 free,        0 used. 11363832 avail Mem \n\n  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND\n  868 kvantour  20   0   33268   1436   1308 S 299.7  0.0  46:16.22 puma\n 1163 root      20   0  920488 282524 258436 S   2.0  1.7 124:48.32 Xorg\n ...\n</code></pre>\n\n<p>Here you see that <code>puma</code> runs at about 300% CPU for an accumulated time of 46:16.22. There is, however, no indicator that this is a threaded process. The only indicator is the CPU usage, however, this could be below 100% if 3 threads are \"sleeping\"? Furthermore, the status flag states <code>S</code> which indicates that the first thread is asleep. Hitting <code>H</code> give you then</p>\n\n<pre><code>% top -H\ntop - 09:48:30 up 17 days, 10 min,  1 user,  load average: 3.18, 3.44, 3.02\nThreads: 918 total,   5 running, 910 sleeping,   3 stopped,   0 zombie\n%Cpu(s): 75.6 us,  0.2 sy,  0.1 ni, 23.9 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st\nKiB Mem : 16310772 total,  8062296 free,  3696164 used,  4552312 buff/cache\nKiB Swap:  4194300 total,  4194300 free,        0 used. 11345440 avail Mem \n\n  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND\n  870 kvantour  20   0   33268   1436   1308 R 99.9  0.0  21:45.35 puma\n  869 kvantour  20   0   33268   1436   1308 R 99.7  0.0  21:45.43 puma\n  872 kvantour  20   0   33268   1436   1308 R 99.7  0.0  21:45.31 puma\n 1163 root      20   0  920552 282288 258200 R  2.0  1.7 124:52.05 Xorg \n  ...\n</code></pre>\n\n<p>Now we see only 3 threads. As one of the Threads is \"sleeping\", it is way down the bottom as <code>top</code> sorts by CPU usage.</p>\n\n<p>In order to see all threads, it is best to ask top to display a specific <code>pid</code> (for a single process):</p>\n\n<pre><code>% top -H -p $(pgrep puma)\ntop - 09:52:48 up 17 days, 14 min,  1 user,  load average: 3.31, 3.38, 3.10\nThreads:   4 total,   3 running,   1 sleeping,   0 stopped,   0 zombie\n%Cpu(s): 75.5 us,  0.1 sy,  0.2 ni, 23.6 id,  0.0 wa,  0.0 hi,  0.7 si,  0.0 st\nKiB Mem : 16310772 total,  8041048 free,  3706460 used,  4563264 buff/cache\nKiB Swap:  4194300 total,  4194300 free,        0 used. 11325008 avail Mem \n\n  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND\n  869 kvantour  20   0   33268   1436   1308 R 99.9  0.0  26:03.37 puma\n  870 kvantour  20   0   33268   1436   1308 R 99.9  0.0  26:03.30 puma\n  872 kvantour  20   0   33268   1436   1308 R 99.9  0.0  26:03.22 puma\n  868 kvantour  20   0   33268   1436   1308 S  0.0  0.0   0:00.00 puma\n</code></pre>\n\n<p>When you have multiple processes running, you might be interested in hitting <code>f</code> and toggle <code>PGRP</code> on. This shows the Group PID of the process. (PID in ps where PID in top is LWP in ps).</p>\n\n<p><strong>How do I get the thread count without using <code>ps</code> or <code>top</code>?</strong></p>\n\n<p>The file <code>/proc/$PID/status</code> contains a line stating how many threads\nthe process with PID <code>$PID</code> is using.</p>\n\n<pre><code>% grep Threads /proc/19304/status\nThreads:        4\n</code></pre>\n\n<p><strong>General comments</strong></p>\n\n<ul>\n<li>It is possible that you do not find the process of another user\nand therefore cannot get the number of threads that process is using. This could be due to the <a href=\"https://superuser.com/questions/199044/is-it-possible-to-hide-a-process-from-the-listing-of-ps-or-top-on-linux\">mount options of <code>/proc/</code></a> (hidepid=2).</li>\n</ul>\n\n<p><strong>Used example program:</strong></p>\n\n<pre><code>#include &lt;omp.h&gt;\n#include &lt;stdio.h&gt;\n#include &lt;stdlib.h&gt;\n\nint main (int argc, char *argv[]) {\nchar c = 0;\n#pragma omp parallel shared(c)   {\n    int i = 0;\n    if (omp_get_thread_num() == 0) {\n      printf(\"Read character from input : \");\n      c = getchar();\n    } else {\n      while (c == 0) i++;\n      printf(\"Total sum is on thread %d : %d\\n\", omp_get_thread_num(), i);\n    }\n  }\n}\n</code></pre>\n\n<p>compiled with <code>gcc -o puma --openmp</code></p>\n",
+      "owner": {
+        "display_name": "kvantour",
+        "link": "https://stackoverflow.com/users/8344060/kvantour"
+      }
+    },
+    {
+      "answer_id": 50746055,
+      "body": "<p>You can't use <code>memory_store</code> with puma running in clustered mode (i.e. with multiple workers). It says so <a href=\"http://guides.rubyonrails.org/caching_with_rails.html#activesupport-cache-memorystore\" rel=\"noreferrer\">right here in the Rails guide</a>. You can't share memory between separate processes, so this clearly stands to reason.</p>\n\n<p>If reducing puma workers down to 1 is not an option, then consider using Redis or Memcached instead. The documentation in the Rails guide is quite complete in this regard - you'll need to add a gem or two to your <code>Gemfile</code>, and update <code>config.cache_store</code>. You will need to install the relevant service on the box, or alternatively there are plenty of hosted service providers that will manage it for you (Heroku Redis, Redis To Go, Memcachier etc)</p>\n",
+      "owner": {
+        "display_name": "gwcodes",
+        "link": "https://stackoverflow.com/users/7671538/gwcodes"
+      }
+    },
+    {
+      "answer_id": 50517532,
+      "body": "<p>Nginx is a web server and puma is an application server.\nBoth have their advantages, and you need both.</p>\n\n<p>Some examples:</p>\n\n<ul>\n<li><p>Static redirects- you could setup your nginx to redirect all <code>http</code> traffic to the same url with <code>https</code>. This way such trivial requests will never hit your app server.</p></li>\n<li><p>Multipart upload- Nginx is better suited to handle multipart uploads. Nginx will combine all the requests and send it as a single file to puma.</p></li>\n<li><p>Serving static assets- It is recommended to serve static assets (those in <code>/public/</code> endpoint in rails) via a webserver without loading your app server.</p></li>\n<li><p>There are some basic DDoS protections built-in in nginx.</p></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Vedant Agarwala",
+        "link": "https://stackoverflow.com/users/1396264/vedant-agarwala"
+      }
+    },
+    {
+      "answer_id": 50157201,
+      "body": "<p>Seems like Honeybadger is reporting the signal exception, but should ignore it. And it will with the next release after 3.3.0 (not yet released) <a href=\"https://github.com/honeybadger-io/honeybadger-ruby/pull/269\" rel=\"nofollow noreferrer\">https://github.com/honeybadger-io/honeybadger-ruby/pull/269</a></p>\n",
+      "owner": {
+        "display_name": "iGEL",
+        "link": "https://stackoverflow.com/users/362378/igel"
+      }
+    },
+    {
+      "answer_id": 49410280,
+      "body": "<p>We use Ruby+Passenger, but it sounds similar enough to your situation. We need to customize the nginx configuration file stored at <code>/opt/elasticbeanstalk/support/conf/nginx_config.erb</code>, so we do it via <code>.ebextensions</code> and <code>sed</code>.</p>\n\n<p>Here's an example to get you started:</p>\n\n<p><strong>.ebextensions/01-edit-nginx.config</strong></p>\n\n<pre><code>container_commands:\n  01backup_config:\n    command: \"cp -n /opt/elasticbeanstalk/support/conf/nginx_config.erb /opt/elasticbeanstalk/support/conf/nginx_config.erb.original\"\n  02edit_config:\n    command: \"sh -c \\\"sed '/string_to_insert_text_after/ i\\\n\\    text_to_be_inserted;' /opt/elasticbeanstalk/support/conf/nginx_config.erb.original &gt; /opt/elasticbeanstalk/support/conf/nginx_config.erb\\\"\"\n</code></pre>\n\n<p>This will make a backup copy of the configuration file (without overwriting it if it already exists, thanks to the <code>-n</code> flag) and then insert the line \"text_to_be_inserted\" after the line \"string_to_insert_text_after\". You can pipe multiple <code>sed</code> commands together to insert multiple lines.</p>\n",
+      "owner": {
+        "display_name": "Brian",
+        "link": "https://stackoverflow.com/users/4638378/brian"
+      }
+    },
+    {
+      "answer_id": 49051299,
+      "body": "<p>I'm hazarding a guess here, based on <a href=\"https://stackoverflow.com/a/45984855/4025095\">this possibly related error</a>...</p>\n\n<p>But you might be either:</p>\n\n<ol>\n<li>calling <code>fork</code> within your application; OR</li>\n<li>calling ActiveRecord routines (using database calls) before the server (puma) is forking it's worker processes (during the app initialization).</li>\n</ol>\n\n<p>Either of these will break ActiveRecord's synchronization and cause multiple processes to share the database connection pool without synchronizing it's use (resulting in interlaced and corrupt database commands).</p>\n\n<p>If you are using <code>fork</code>, make sure to close all the ActiveRecord database connections and reinitialize the connection pool (there's a function call that does it, but I don't remember it of the top of my head, maybe <code>ActiveRecord.disconnect!</code> or <code>ActiveRecord.connection_pool.disconnect!</code>).</p>\n\n<p>Otherwise, before running Puma (either during the initialization process or using Puma's <code>after_fork</code>), close all the ActiveRecord database connections and reinitialize the connection pool.</p>\n",
+      "owner": {
+        "display_name": "Myst",
+        "link": "https://stackoverflow.com/users/4025095/myst"
+      }
+    },
+    {
+      "answer_id": 15922541,
+      "body": "<p>I believe the issue revolves around sinatra-sse's <a href=\"https://github.com/radiospiel/sinatra-sse/blob/master/lib/sinatra/sse.rb#L67\" rel=\"nofollow noreferrer\">explicit use</a> of the EventMachine library, which it <a href=\"https://github.com/radiospiel/sinatra-sse/blob/master/sinatra-sse.gemspec#L18-L19\" rel=\"nofollow noreferrer\">does not list as a dependency</a>. It does, however, list Thin in its <a href=\"https://github.com/radiospiel/sinatra-sse/blob/master/Gemfile#L10\" rel=\"nofollow noreferrer\">Gemfile</a> and EventMachine is a core dependency of <a href=\"https://github.com/macournoyer/thin/blob/master/thin.gemspec#L23\" rel=\"nofollow noreferrer\">Thin</a>. </p>\n\n<p>Puma's concurrency model is <a href=\"https://github.com/puma/puma#description\" rel=\"nofollow noreferrer\">quite different</a>. In fact, you'll find the following statement right at the top of the project's <a href=\"https://github.com/puma/puma/blob/master/README.md\" rel=\"nofollow noreferrer\">README</a>:</p>\n\n<blockquote>\n  <p>Puma still improves MRI's throughput by allowing blocking IO to be run concurrently (EventMachine-based servers such as Thin turn off this ability, requiring you to use special libraries).</p>\n</blockquote>\n\n<p><strong>EDIT</strong></p>\n\n<p>If you're interested in learning more about Rack, Rails, Puma, and SSE, you might enjoy <a href=\"http://tenderlovemaking.com/2012/07/30/is-it-live.html\" rel=\"nofollow noreferrer\">this great blog post</a> by Aaron Patterson, a Ruby/Rails core member and all-around swell guy.</p>\n",
+      "owner": {
+        "display_name": "ezkl",
+        "link": "https://stackoverflow.com/users/118912/ezkl"
+      }
+    },
+    {
+      "answer_id": 47001961,
+      "body": "<p>Okay, so I finally found a way to debug this issue.</p>\n\n<p>By creating an initializer file in <code>config/initializers</code> with this line:\n<code>Concurrent.use_stdlib_logger(Logger::DEBUG)</code></p>\n\n<p>I now get error data output to my console.</p>\n\n<pre><code>[ActiveJob] Enqueued FooBaaJob (Job ID: ...) to Async(default) with arguments: #&lt;GlobalID:0...0 @uri=#&lt;URI::GID gid://test-app/FooBaa/8&gt;&gt;\n[2017-10-29 16:10:56.676] DEBUG -- : Error while trying to deserialize arguments: Couldn't find FooBaa with 'id'=8 (ActiveJob::DeserializationError)\n</code></pre>\n\n<p><em>The second line is the result of adding the <code>Concurrent.use_stdlib_logger(Logger::DEBUG)</code> initiator file.</em></p>\n\n<p>In my case I'm initiating the job in an <code>after_create</code> in my model and I'm guessing the job executions happens instantaneously in a manner, that results in the record not fully being committed to the sqlite db yet when ActiveJob is trying to load it. It did test this on MySQL as well, same result.</p>\n\n<p>Rails 5.0 introduced <code>after_[create|update|destroy]_commit</code>, so changing my <code>after_create</code> to <code>after_create_commit</code> fixed my issue and the job is now running as expected each time I'm trying.</p>\n\n<p>For earlier versions of Rails you could have moved to <code>after_commit</code> with an <code>on: :create</code> argument or similar.</p>\n",
+      "owner": {
+        "display_name": "mtrolle",
+        "link": "https://stackoverflow.com/users/996000/mtrolle"
+      }
+    },
+    {
+      "answer_id": 28370539,
+      "body": "<p>You use <a href=\"https://github.com/mperham/sidekiq/blob/528ca61ab270198fe56f65bbf35265790e3ae748/lib/sidekiq.rb#L87\" rel=\"noreferrer\"><code>Sidekiq.server?</code></a> which returns <code>nil</code> when not running inside the Sidekiq process itself.</p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 42704812,
+      "body": "<p>I can now safely conclude this is a bug, probably in Rails/ActionCable itself. This is corroborated by other reports and as I told at one point it worked fine, this was when I used Rails <code>5.0.0.1</code>. When I updated to <code>5.0.1</code> it broke and it remains broken on <code>5.0.2</code>. I'm opening an issue on the GitHub <a href=\"https://github.com/rails/rails/issues/28362\" rel=\"nofollow noreferrer\">issue tracker</a> of the Rails project.</p>\n\n<p>Edit July 2017: Rails did change something as to how it reads and writes to the Rack socket, however the actual webserver software you use needs to support these nonblocking read and write methods. In my case, Puma did not at that time hence websockets didn't work. For Puma there is now a new release with a workaround for this issue.</p>\n",
+      "owner": {
+        "display_name": "edwardmp",
+        "link": "https://stackoverflow.com/users/1422070/edwardmp"
+      }
+    },
+    {
+      "answer_id": 44796030,
+      "body": "<p>As pointed out in the comments by Matt, this seems to be a reported bug. I have monkey patched the puma:restart task as a temporary solution until this gets fixed.</p>\n\n<p>I have created /lib/capistrano/tasks/overwrite_restart.rake:</p>\n\n<pre><code>namespace :puma do\n  Rake::Task[:restart].clear_actions\n\n  desc \"Overwritten puma:restart task\"\n  task :restart do\n    puts \"Overwriting puma:restart to ensure that puma is running. Effectively, we are just starting Puma.\"\n    puts \"A solution to this should be found.\"\n    invoke 'puma:stop'\n    invoke 'puma:start'\n  end\nend\n</code></pre>\n\n<p>As an alternative, I guess we could overwrite the :register_hooks method in the capistrano-puma gem, and replace <code>puma:restart</code> with <code>puma:stop</code> and <code>puma:start</code>.</p>\n",
+      "owner": {
+        "display_name": "arunt",
+        "link": "https://stackoverflow.com/users/5793791/arunt"
+      }
+    },
+    {
+      "answer_id": 43927448,
+      "body": "<p>Generally with Capybara you configure the server in a register_server block.  The :puma server definition Capybara provides is</p>\n\n<pre><code>Capybara.register_server :puma do |app, port, host|\n  require 'rack/handler/puma'\n  Rack::Handler::Puma.run(app, Host: host, Port: port, Threads: \"0:4\")\nend\n</code></pre>\n\n<p>If you're using Rails 5.1 system testing it has added a layer of abstraction on top of that with server configuration being done in\nActionDispatch::SystemTesting::Server#register which is defined as</p>\n\n<pre><code>def register\n  Capybara.register_server :rails_puma do |app, port, host|\n    Rack::Handler::Puma.run(app, Port: port, Threads: \"0:1\")\n  end\nend\n</code></pre>\n\n<p>Either way you should be able to either overwrite one of the current server registrations</p>\n\n<pre><code>Capybara.register_server :rails_puma do |app, port,host|\n  Rack::Handler::Puma.run(app, ...custom settings...)\nend\n</code></pre>\n\n<p>or configure your own </p>\n\n<pre><code>Capybara.register_server :my_custom_puma do |app, port, host|\n  Rack::Handler::Puma.run(app, ...custom settings...)\nend\n\nCapybara.server = :my_custom_puma\n</code></pre>\n",
+      "owner": {
+        "display_name": "Thomas Walpole",
+        "link": "https://stackoverflow.com/users/2709090/thomas-walpole"
+      }
+    },
+    {
+      "answer_id": 42878384,
+      "body": "<p>Found that this is an issue with our Rails logging setup. By correlating these logs to our nginx access logs, I can see that a 302 is actually being returned to the client. This was commonly happening when the CSRF protection failed.</p>\n\n<p>It looks like this is caused by a lograge (gem) bug: <a href=\"https://github.com/roidrage/lograge/issues/67\" rel=\"noreferrer\">https://github.com/roidrage/lograge/issues/67</a></p>\n",
+      "owner": {
+        "display_name": "Brad",
+        "link": "https://stackoverflow.com/users/227615/brad"
+      }
+    },
+    {
+      "answer_id": 42010676,
+      "body": "<p>The issue was my host is the heroku app, but the requests were coming from the custom domain.</p>\n\n<p>To solve:</p>\n\n<p><code>heroku config:set RAILS_HOST \"http://www.example.com\"</code></p>\n\n<p>And then in production.rb:</p>\n\n<p><code>config.action_cable.url = \"wss://#{ENV['RAILS_HOST']}/cable\"</code></p>\n",
+      "owner": {
+        "display_name": "gwalshington",
+        "link": "https://stackoverflow.com/users/5079196/gwalshington"
+      }
+    },
+    {
+      "answer_id": 36813125,
+      "body": "<ol>\n<li>Yes you can.  Here is a gist explaining the process:</li>\n</ol>\n\n<p><a href=\"https://gist.github.com/tadast/9932075\" rel=\"noreferrer\">https://gist.github.com/tadast/9932075</a></p>\n\n<ol start=\"2\">\n<li><p>My procfile contains an entry that looks like this:</p>\n\n<p>server: rails server puma -b 'ssl://0.0.0.0:3000?key=server.key&amp;cert=server.crt'</p></li>\n</ol>\n\n<p>This seems to work for me.  I also set </p>\n\n<pre><code>config.force_ssl = true \n</code></pre>\n\n<p>in config/application.rb</p>\n\n<p>I gathered info about it from all these places:</p>\n\n<p><a href=\"https://github.com/puma/puma\" rel=\"noreferrer\">https://github.com/puma/puma</a></p>\n\n<p><a href=\"http://www.railway.at/2013/02/12/using-ssl-in-your-local-rails-environment/\" rel=\"noreferrer\">http://www.railway.at/2013/02/12/using-ssl-in-your-local-rails-environment/</a></p>\n\n<p><a href=\"http://www.panozzaj.com/blog/2013/08/12/how-to-set-up-local-https-development/\" rel=\"noreferrer\">http://www.panozzaj.com/blog/2013/08/12/how-to-set-up-local-https-development/</a></p>\n\n<p><a href=\"http://www.eq8.eu/blogs/14-config-force_ssl-is-different-than-controller-force_ssl\" rel=\"noreferrer\">http://www.eq8.eu/blogs/14-config-force_ssl-is-different-than-controller-force_ssl</a></p>\n",
+      "owner": {
+        "display_name": "Chris Valentine",
+        "link": "https://stackoverflow.com/users/1658796/chris-valentine"
+      }
+    },
+    {
+      "answer_id": 41190201,
+      "body": "<p>I found the problem and changed the ExecStart as mentioned below and it worked like a charm:</p>\n\n<pre><code>ExecStart=/home/username/.rbenv/shims/bundle exec puma -e production -C ./config/puma.rb config.ru\nPIDFile=/home/username/appdir/shared/tmp/pids/puma.pid\n</code></pre>\n\n<p><code>bundle</code> should be taken from the rbenv shims and also the puma's config file (<code>config/puma.rb</code>) and application's config file (<code>config.ru</code>) can be given in relative path.</p>\n",
+      "owner": {
+        "display_name": "Gowtham",
+        "link": "https://stackoverflow.com/users/2277817/gowtham"
+      }
+    },
+    {
+      "answer_id": 40224782,
+      "body": "<p>In fact, it now has this feature: <a href=\"https://github.com/puma/puma/pull/754\" rel=\"noreferrer\">https://github.com/puma/puma/pull/754</a></p>\n",
+      "owner": {
+        "display_name": "michael",
+        "link": "https://stackoverflow.com/users/1334746/michael"
+      }
+    },
+    {
+      "answer_id": 39827491,
+      "body": "<p>Capfile:</p>\n\n<p><code>require 'capistrano/puma'</code></p>\n\n<p>it helped me</p>\n",
+      "owner": {
+        "display_name": "Pavel",
+        "link": "https://stackoverflow.com/users/5225464/pavel"
+      }
+    },
+    {
+      "answer_id": 18438902,
+      "body": "<p>No. In alphabetical order:</p>\n<ul>\n<li><strong><a href=\"https://github.com/boazsegev/iodine\" rel=\"noreferrer\"><code>Iodine</code></a></strong> a HTTP / Websocket Server &amp; EventMachine alternative (kqueue/epoll based)</li>\n<li><strong><a href=\"https://github.com/postmodern/net-http-server\" rel=\"noreferrer\"><code>Net::HTTP::Server</code></a></strong>, despite the lack of advertising, supports multithreading</li>\n<li><strong><a href=\"https://www.phusionpassenger.com/\" rel=\"noreferrer\">Phusion Passenger</a></strong> has supported multithreading  <a href=\"http://blog.phusion.nl/2012/08/03/why-rails-4-live-streaming-is-a-big-deal/\" rel=\"noreferrer\">since v4 beta</a></li>\n<li><strong><a href=\"http://rainbows.rubyforge.org/\" rel=\"noreferrer\">Rainbows!</a></strong> supports multiple concurrency models, including multithreading</li>\n<li><strong><a href=\"https://github.com/celluloid/reel/\" rel=\"noreferrer\">Reel</a></strong> is a <a href=\"http://celluloid.io/\" rel=\"noreferrer\">Celluloid</a>-backed &quot;evented&quot; server, which &quot;also works great for multithreaded applications and provides traditional multithreaded blocking I/O support too&quot;</li>\n<li><strong><a href=\"http://code.macournoyer.com/thin/\" rel=\"noreferrer\">Thin</a></strong> has a threaded mode, which can be enabled by passing <code>--threaded</code> or by setting <code>threaded: true</code> in the appropriate configuration file (e.g. <code>bundle exec thin start --threaded</code>)</li>\n<li><strong><a href=\"http://ruby-doc.org/stdlib-2.1.0/libdoc/webrick/rdoc/WEBrick.html\" rel=\"noreferrer\">WEBrick</a></strong> is on its own multithreaded, so it's not fair to eliminate it as an option; if you're using the Rails-embedded version, you'll need to <a href=\"https://stackoverflow.com/a/20940926/504845\">monkey-patch <code>Rails::Server</code> to enable multi-threading</a></li>\n<li><strong><a href=\"http://zbatery.bogomip.org/\" rel=\"noreferrer\">Zbatery</a></strong> is based on Rainbows! and supports all concurrency models that Rainbows! supports</li>\n</ul>\n<p>Note that currently <em><strong>MRI Ruby runs only one thread runs at a time</strong></em> due to its <a href=\"https://en.wikipedia.org/wiki/Global_Interpreter_Lock\" rel=\"noreferrer\">global interpreter lock (GIL)</a>.  You'll only be truly able to exploit multithreading by using a different Ruby runtime such as <a href=\"http://jruby.org/\" rel=\"noreferrer\">JRuby</a> or <a href=\"http://rubini.us/\" rel=\"noreferrer\">Rubinius</a>, which provide access to native threads. If you decide to go with JRuby, there are several <a href=\"https://github.com/jruby/jruby/wiki/Servers\" rel=\"noreferrer\">JVM-dependent servers worth exploring</a>.</p>\n",
+      "owner": {
+        "display_name": "fny",
+        "link": "https://stackoverflow.com/users/390897/fny"
+      }
+    },
+    {
+      "answer_id": 29772470,
+      "body": "<p>As the other answer states, this <a href=\"https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server\" rel=\"noreferrer\">Heroku article</a> is pretty good with explanations of certain configuration items.</p>\n\n<p>However if you need to tune your application on Heroku, or anywhere, then it pays to know how things work.</p>\n\n<p>I think you are almost correct when you say \"a worker is a thread inside the puma process\", I believe a worker is an operating system level process forked from puma which then can use threads internally.</p>\n\n<p>As far as I understand - puma will fork its operating system process however many times you set via <code>workers</code> configuration to respond to http requests. This gives you parallelism in terms of handling multiple requests but this will usually take up more memory as it will 'copy' your application code for each worker.</p>\n\n<p>Each puma worker will then use multiple threads within its OS process depending on the <code>threads</code> configuration. These add concurrency by allowing the puma process to respond to multiple requests itself so that if one thread is blocked, ie processing a request, it can handle a new request with another thread. As stated, this requires your entire application to be threadsafe so that, for example any global configuration from one request does not 'leak' into another.</p>\n\n<p>You would tune puma so that the number of workers was adequate for the number of CPUs and memory available and then tune the threads dependant on how much you would want to saturate the host running your application and how your application behaves - more does not always equal faster/more request throughput.</p>\n",
+      "owner": {
+        "display_name": "robert_murray",
+        "link": "https://stackoverflow.com/users/734939/robert-murray"
+      }
+    },
+    {
+      "answer_id": 39136611,
+      "body": "<p>you can run it in background by writing</p>\n\n<pre><code>daemonize true\n</code></pre>\n\n<p>in your puma.rb file </p>\n\n<p>To stop you need to find your running puma process</p>\n\n<pre><code> ps aux | grep puma\n</code></pre>\n\n<p>then you need to kill the main process</p>\n\n<pre><code> sudo kill -9 your process id\n</code></pre>\n\n<p>to start you need to type  </p>\n\n<pre><code> puma -C config/puma.rb \n</code></pre>\n",
+      "owner": {
+        "display_name": "kajal ojha",
+        "link": "https://stackoverflow.com/users/3283795/kajal-ojha"
+      }
+    },
+    {
+      "answer_id": 38686792,
+      "body": "<p>So the solution was to restart puma.</p>\n\n<pre><code>cap production deploy:restart\n</code></pre>\n\n<p>Every time I reboot the server, I need to restart puma as well.</p>\n",
+      "owner": {
+        "display_name": "user2985898",
+        "link": "https://stackoverflow.com/users/2985898/user2985898"
+      }
+    },
+    {
+      "answer_id": 38619979,
+      "body": "<p>In the end I had to go to a dyno type (Performance Large) with more RAM to accommodate the memory caching that Ruby/Rails was doing. I couldn't find a way to stop it from peaking around 2.5GB, but it did indeed level off after that.</p>\n",
+      "owner": {
+        "display_name": "BryanP",
+        "link": "https://stackoverflow.com/users/1048879/bryanp"
+      }
+    },
+    {
+      "answer_id": 38548738,
+      "body": "<p>This question is pretty old but I have the exact same setup: Capistrano 3, Puma and nginx so I figure it may still help someone, especially since Puma is now the default for Rails 5. My project is not open source so I can't point to a Github public repository, but here is my complete Capistrano configuration for anyone to take a look. It has been working flawlessly for months now.</p>\n\n<p>To properly start Puma in the production server upon EC2 reboot / new instance creation, take a look at my answer here: </p>\n\n<p><a href=\"https://stackoverflow.com/questions/34646977/puma-restart-fails-on-reboot-using-ec2-rails-nginx-capistrano?rq=1\">Puma restart fails on reboot using EC2 + Rails + Nginx + Capistrano</a></p>\n\n<p><strong>#config/puma.rb</strong></p>\n\n<pre><code>workers Integer(ENV['WEB_CONCURRENCY'] || 2)\nthreads_count = Integer(ENV['MAX_THREADS'] || 5)\nthreads threads_count, threads_count\n\npreload_app!\n\nrackup      DefaultRackup\nport        ENV['PORT']     || 3000\nenvironment ENV['RACK_ENV'] || 'development'\n\non_worker_boot do\n  # Worker specific setup for Rails 4.1+\n  # See: https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server#on-worker-boot\n  ActiveRecord::Base.establish_connection\nend\n</code></pre>\n\n<p><strong>#config/deploy.rb</strong></p>\n\n<pre><code># config valid only for current version of Capistrano\nlock '3.4.0'\n\nset :application, 'deseov12'\nset :repo_url, 'git@bitbucket.org:augustosamame/deseov12.git'\nset :user, 'deploy'\n\nset :branch, :master\nset :deploy_to, '/home/deploy/deseov12'\nset :rails_env, 'production'\nset :pty, true\nset :linked_files, %w{config/database.yml config/application.yml}\nset :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}\nset :keep_releases, 3\nset :rvm_type, :user\nset :rvm_ruby_version, 'ruby-2.2.4' # Edit this if you are using MRI Ruby\nset :delayed_job_command, \"bin/delayed_job\"\n\nset :puma_rackup, -&gt; { File.join(current_path, 'config.ru') }\nset :puma_state, \"#{shared_path}/tmp/pids/puma.state\"\nset :puma_pid, \"#{shared_path}/tmp/pids/puma.pid\"\nset :puma_bind, \"unix://#{shared_path}/tmp/sockets/puma.sock\"    #accept array for multi-bind\nset :puma_conf, \"#{shared_path}/puma.rb\"\nset :puma_access_log, \"#{shared_path}/log/puma_error.log\"\nset :puma_error_log, \"#{shared_path}/log/puma_access.log\"\nset :puma_role, :app\nset :puma_env, fetch(:rack_env, fetch(:rails_env, 'production'))\nset :puma_threads, [0, 8]\nset :puma_workers, 0\nset :puma_worker_timeout, nil\nset :puma_init_active_record, true\nset :puma_preload_app, false\n\n#load 'lib/capistrano/tasks/seed.rb'\nnamespace :db do\n  desc 'Resets DB without create/drop'\n  task :nuke do\n    on primary :db do\n      within release_path do\n        with rails_env: fetch(:stage) do\n          execute :rake, 'db:reset db:migrate db:seed'\n        end\n      end\n    end\n  end\nend\n# Default branch is :master\n# ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp\n\n# Default deploy_to directory is /var/www/my_app_name\n# set :deploy_to, '/var/www/my_app_name'\n\n# Default value for :scm is :git\n# set :scm, :git\n\n# Default value for :format is :pretty\n# set :format, :pretty\n\n# Default value for :log_level is :debug\n# set :log_level, :debug\n\n# Default value for :pty is false\n# set :pty, true\n\n# Default value for :linked_files is []\n# set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')\n\n# Default value for linked_dirs is []\n# set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')\n\n# Default value for default_env is {}\n# set :default_env, { path: \"/opt/ruby/bin:$PATH\" }\n\n# Default value for keep_releases is 5\n# set :keep_releases, 5\n\nnamespace :puma do\n  desc 'Create Directories for Puma Pids and Socket'\n  task :make_dirs do\n    on roles(:app) do\n      execute \"mkdir #{shared_path}/tmp/sockets -p\"\n      execute \"mkdir #{shared_path}/tmp/pids -p\"\n    end\n  end\n\n  before :start, :make_dirs\nend\n\nnamespace :deploy do\n\n  after :restart, :clear_cache do\n    on roles(:web), in: :groups, limit: 3, wait: 10 do\n      # Here we can do anything such as:\n      # within release_path do\n      #   execute :rake, 'cache:clear'\n      # end\n    end\n  end\n\nend\n</code></pre>\n\n<p><strong>#Capfile</strong></p>\n\n<pre><code># Load DSL and set up stages\nrequire 'capistrano/setup'\n\n# Include default deployment tasks\nrequire 'capistrano/deploy'\n\n# Include tasks from other gems included in your Gemfile\n#\n# For documentation on these, see for example:\n#\n#   https://github.com/capistrano/rvm\n#   https://github.com/capistrano/rbenv\n#   https://github.com/capistrano/chruby\n#   https://github.com/capistrano/bundler\n#   https://github.com/capistrano/rails\n#   https://github.com/capistrano/passenger\n#\n\nrequire 'capistrano/rvm'\nrequire 'capistrano/bundler'\nrequire 'capistrano/rails/assets'\nrequire 'capistrano/rails/migrations'\nrequire 'capistrano/puma'\nrequire 'capistrano/delayed-job'\n# require 'capistrano/passenger'\n# require 'capistrano/rbenv'\n# require 'capistrano/chruby'\n\n# Load custom tasks from `lib/capistrano/tasks` if you have any defined\nDir.glob('lib/capistrano/tasks/*.rake').each { |r| import r }\n</code></pre>\n\n<p><strong>#config/deploy/production.rb</strong></p>\n\n<pre><code># server-based syntax\n# ======================\n# Defines a single server with a list of roles and multiple properties.\n# You can define all roles on a single server, or split them:\n\n# server 'example.com', user: 'deploy', roles: %w{app db web}, my_property: :my_value\n# server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value\n# server 'db.example.com', user: 'deploy', roles: %w{db}\n# your actual server ip address should go here:\nserver 'xx.xx.xx.xxx', user: 'deploy', roles: %w{web app db} #Deploy\n# server 'xx.xx.xx.xxx', user: 'deploy', roles: %w{web app db} #Prod\n</code></pre>\n\n<p><strong>#lib/capistrano/tasks</strong></p>\n\n<pre><code>namespace :deploy do\n  desc 'Runs rake db:seed for SeedMigrations data'\n  task :seed =&gt; [:set_rails_env] do\n    on primary fetch(:migration_role) do\n      within release_path do\n        with rails_env: fetch(:rails_env) do\n          execute :rake, \"db:seed\"\n        end\n      end\n    end\n  end\n\n  after 'deploy:migrate', 'deploy:seed'\n\n  desc 'Set config/puma.rb-symlink for upstart'\n    task :pumaconfigln do\n      on roles(:app) do\n        execute \"ln -s #{sharedpath}/puma.rb #{fetch(:deployto)}/current/config/puma.rb\"\n      end\n    end\n\n  after :finishing, :pumaconfigln\n\nend\n</code></pre>\n\n<p>Nginx Server configuration:</p>\n\n<p><strong>#etc/nginx/sites-enabled/default</strong></p>\n\n<pre><code># You may add here your\n# server {\n#   ...\n# }\n# statements for each of your virtual hosts to this file\n\n##\n# You should look at the following URL's in order to grasp a solid understanding\n# of Nginx configuration files in order to fully unleash the power of Nginx.\n# http://wiki.nginx.org/Pitfalls\n# http://wiki.nginx.org/QuickStart\n# http://wiki.nginx.org/Configuration\n#\n# Generally, you will want to move this file somewhere, and start with a clean\n# file but keep this around for reference. Or just disable in sites-enabled.\n#\n# Please see /usr/share/doc/nginx-doc/examples/ for more detailed examples.\n##\n\nupstream app {\n  # Path to Puma SOCK file, as defined previously\n  server unix:/home/deploy/deseov12/shared/tmp/sockets/puma.sock fail_timeout=0;\n}\n\nserver {\n  listen 80;\n  server_name localhost;\n\n  root /home/deploy/deseov12/current/public;\n\n  try_files $uri/index.html $uri @app;\n\n  location / {\n    proxy_set_header X-Forwarded-Proto $scheme;\n    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;\n    proxy_set_header X-Real-IP $remote_addr;\n    proxy_set_header Host $host;\n    proxy_redirect off;\n    proxy_http_version 1.1;\n    proxy_set_header Connection '';\n    proxy_pass http://app;\n  }\n\n  location ~ ^/(assets|fonts|system)/|favicon.ico|robots.txt {\n    gzip_static on;\n    expires max;\n    add_header Cache-Control public;\n  }\n\n  error_page 500 502 503 504 /500.html;\n  client_max_body_size 4G;\n  keepalive_timeout 10;\n}\n\nserver {\n  listen 443 default ssl;\n  server_name lodeseo.com;\n\n  root /home/deploy/deseov12/current/public;\n\n  ssl on;\n  ssl_certificate /etc/nginx/ssl/www_lodeseo_com_bundle.crt;\n  ssl_certificate_key /etc/nginx/ssl/www_lodeseo_com.key;\n\n  ssl_session_timeout  5m;\n\n  ssl_protocols TLSv1 TLSv1.1 TLSv1.2;\n  ssl_ciphers 'EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH';\n  #ssl_ciphers  HIGH:!aNULL:!MD5;\n  ssl_prefer_server_ciphers   on;\n  ssl_session_cache shared:SSL:10m;\n  ssl_dhparam /etc/ssl/certs/dhparam.pem;\n\n  location ~ ^/(assets|fonts|system)/|favicon.ico|robots.txt {\n    gzip_static on;\n    expires max;\n    add_header Cache-Control public;\n  }\n\n\n  try_files $uri/index.html $uri @app;\n  location @app {\n    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;\n    proxy_set_header Host $host;\n\n    proxy_set_header X-Forwarded-Proto https;\n    #proxy_set_header X-Forwarded-Proto $scheme;\n    proxy_redirect off;\n    proxy_pass http://app;\n  }\n}\n\n\n    # Only for nginx-naxsi used with nginx-naxsi-ui : process denied requests\n    #location /RequestDenied {\n    #   proxy_pass http://127.0.0.1:8080;\n    #}\n\n    #error_page 404 /404.html;\n\n    # redirect server error pages to the static page /50x.html\n    #\n    #error_page 500 502 503 504 /50x.html;\n    #location = /50x.html {\n    #   root /usr/share/nginx/html;\n    #}\n\n    # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000\n    #\n    #location ~ \\.php$ {\n    #   fastcgi_split_path_info ^(.+\\.php)(/.+)$;\n    #   # NOTE: You should have \"cgi.fix_pathinfo = 0;\" in php.ini\n    #\n    #   # With php5-cgi alone:\n    #   fastcgi_pass 127.0.0.1:9000;\n    #   # With php5-fpm:\n    #   fastcgi_pass unix:/var/run/php5-fpm.sock;\n    #   fastcgi_index index.php;\n    #   include fastcgi_params;\n    #}\n\n    # deny access to .htaccess files, if Apache's document root\n    # concurs with nginx's one\n    #\n    #location ~ /\\.ht {\n    #   deny all;\n    #}\n\n\n\n# another virtual host using mix of IP-, name-, and port-based configuration\n#\n#server {\n#   listen 8000;\n#   listen somename:8080;\n#   server_name somename alias another.alias;\n#   root html;\n#   index index.html index.htm;\n#\n#   location / {\n#       try_files $uri $uri/ =404;\n#   }\n#}\n\n\n# HTTPS server\n#\n#server {\n#   listen 443;\n#   server_name localhost;\n#\n#   root html;\n#   index index.html index.htm;\n#\n#   ssl on;\n#   ssl_certificate cert.pem;\n#   ssl_certificate_key cert.key;\n#\n#   ssl_session_timeout 5m;\n#\n#   ssl_protocols SSLv3 TLSv1 TLSv1.1 TLSv1.2;\n#   ssl_ciphers \"HIGH:!aNULL:!MD5 or HIGH:!aNULL:!MD5:!3DES\";\n#   ssl_prefer_server_ciphers on;\n#\n#   location / {\n#       try_files $uri $uri/ =404;\n#   }\n#}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Augusto Samam&#233; Barrientos",
+        "link": "https://stackoverflow.com/users/4759794/augusto-samam%c3%a9-barrientos"
+      }
+    },
+    {
+      "answer_id": 38443677,
+      "body": "<p>Are you sure you are running Puma with that configuration? I don't think <code>rails server</code> is the proper way to start Puma in a production environment.</p>\n\n<p>I would use this instead:</p>\n\n<pre><code>RACK_ENV=production bundle exec puma -C config/puma.rb\n</code></pre>\n\n<p>Once you get this working manually, then use the <code>--daemon</code> flag to keep the server running in the background.</p>\n\n<p>Also, where is <code>shared_dir</code> defined in your <code>config/puma.rb</code>? Perhaps you omitted the part of the file, but if not, make sure you insert the correct value.</p>\n",
+      "owner": {
+        "display_name": "Matt Brictson",
+        "link": "https://stackoverflow.com/users/4625365/matt-brictson"
+      }
+    },
+    {
+      "answer_id": 38303466,
+      "body": "<p>Have you looked into <a href=\"http://blog.daviddollar.org/2011/05/06/introducing-foreman.html\" rel=\"nofollow\">Foreman</a> ?\nForeman makes it easy to start and stop your application if it has multiple processes.\nIncidentally it also provides an <a href=\"http://ddollar.github.io/foreman/#EXPORTING\" rel=\"nofollow\">export</a> function that can generate some <code>systemd</code> or <code>upstart</code> scripts for you to (re)start and stop your application.</p>\n\n<p>As you are already using capistrano you can use <a href=\"https://github.com/hyperoslo/capistrano-foreman\" rel=\"nofollow\">capistrano-foreman</a> to integrate all this nicely with capistrano.</p>\n\n<p>I hope you find some use in these resources</p>\n",
+      "owner": {
+        "display_name": "Erik Deijl",
+        "link": "https://stackoverflow.com/users/1435433/erik-deijl"
+      }
+    },
+    {
+      "answer_id": 37700664,
+      "body": "<p>For now I moved to EC2 as EBS issues weren't getting solved.\nI had the same issue on EC2 but I could fix it as I access my machine.</p>\n\n<p>Puma workers were timing out because my assets weren't precompiled.\nEverytime I take a new build on server, I have to run the following :</p>\n\n<pre><code>RAILS_ENV=production rake assets:precompile\n</code></pre>\n",
+      "owner": {
+        "display_name": "Disha",
+        "link": "https://stackoverflow.com/users/3101782/disha"
+      }
+    },
+    {
+      "answer_id": 37115581,
+      "body": "<p>This is because you haven't set your secret key correctly. Double check your config/secrets.yml file: It should be something like this:</p>\n\n<p><code>production:\n  secret_key_base: &lt;%= ENV[\"SECRET_KEY_BASE\"] %&gt;</code></p>\n\n<p>Then in your droplet, you can run <code>bundle exec rake secret</code> to get your secret key. There are options like <code>dotenv</code> which is a useful gem that loads the contents of a .env file into ENV.</p>\n",
+      "owner": {
+        "display_name": "pyfl88",
+        "link": "https://stackoverflow.com/users/4509585/pyfl88"
+      }
+    },
+    {
+      "answer_id": 36482802,
+      "body": "<p>It may happen in locally in dev and never in \"prod\" i.e. Heroku due to a bug when stopping Puma. Some times some processes are not killed due to:</p>\n\n<pre><code>levi-test-01 liviu-mac $ rails s\n=&gt; Booting Puma\n=&gt; Rails 4.2.6 application starting in development on http://localhost:3000\n=&gt; Run `rails server -h` for more startup options\n=&gt; Ctrl-C to shutdown server\n[4589] Puma starting in cluster mode...\n[4589] * Version 3.3.0 (ruby 2.3.0-p0), codename: Jovial Platypus\n[4589] * Min threads: 5, max threads: 5\n[4589] * Environment: development\n[4589] * Process workers: 2\n[4589] * Preloading application\n[4589] * Listening on tcp://localhost:3000\n[4589] Use Ctrl-C to stop\n[4589] - Worker 1 (pid: 4603) booted, phase: 0\n[4589] - Worker 0 (pid: 4602) booted, phase: 0\n^C[4589] - Gracefully shutting down workers...\n/Users/liviu-mac/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rack-1.6.4/lib/rack/server.rb:355:in `delete': No such file or directory @ unlink_internal - /Users/liviu-mac/ror/levi-test-01/tmp/pids/server.pid (Errno::ENOENT)\n    from /Users/liviu-mac/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rack-1.6.4/lib/rack/server.rb:355:in `block in write_pid'\n    from /Users/liviu-mac/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.3.0/lib/puma/cluster.rb:120:in `fork'\n    from /Users/liviu-mac/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.3.0/lib/puma/cluster.rb:120:in `block in spawn_workers'\n    from /Users/liviu-mac/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.3.0/lib/puma/cluster.rb:116:in `times'\n    from /Users/liviu-mac/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.3.0/lib/puma/cluster.rb:116:in `spawn_workers'\n    from /Users/liviu-mac/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.3.0/lib/puma/cluster.rb:418:in `run'\n    from /Users/liviu-mac/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.3.0/lib/puma/launcher.rb:172:in `run'\n    from /Users/liviu-mac/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.3.0/lib/rack/handler/puma.rb:51:in `run'\n    from /Users/liviu-mac/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/rack-1.6.4/lib/rack/server.rb:286:in `start'\n    from /Users/liviu-mac/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-4.2.6/lib/rails/commands/server.rb:80:in `start'\n    from /Users/liviu-mac/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:80:in `block in server'\n</code></pre>\n\n<p>Running a command like this:</p>\n\n<pre><code>levi-test-01 liviu-mac $ lsof -i :3000\n</code></pre>\n\n<p>lists all remaining processes using <code>port 3000</code>.</p>\n\n<p>A command like </p>\n\n<pre><code>levi-test-01 liviu-mac $ kill -9 PID\n</code></pre>\n\n<p>solves the problem.</p>\n",
+      "owner": {
+        "display_name": "L.D",
+        "link": "https://stackoverflow.com/users/3374733/l-d"
+      }
+    },
+    {
+      "answer_id": 36044400,
+      "body": "<p>Finally, I got it working! I've been trying various things for about a week...</p>\n\n<p>The 301-redirects were caused by nginx actually trying to redirect the browser to /cable/ instead of /cable. This is because I had specified /cable/ instead of /cable in the <code>location</code> stanza! I got the idea from <a href=\"https://stackoverflow.com/a/25502657/3719597\">this answer</a>.</p>\n",
+      "owner": {
+        "display_name": "ollpu",
+        "link": "https://stackoverflow.com/users/3719597/ollpu"
+      }
+    },
+    {
+      "answer_id": 35960442,
+      "body": "<p>I've solved my problem adding below line to the <code>development.rb</code> file.</p>\n\n<pre><code>config.reload_classes_only_on_change = false\n</code></pre>\n",
+      "owner": {
+        "display_name": "mparkitny",
+        "link": "https://stackoverflow.com/users/3648015/mparkitny"
+      }
+    },
+    {
+      "answer_id": 35383773,
+      "body": "<p>Putting it into <code>config.ru</code> would work, after the <code>run Rails.application</code> line. By the time that returns, your app is ready to go. To run it only in <code>development</code>, check the <code>Rails.env</code>.</p>\n\n<pre><code>require ::File.expand_path('../config/environment', __FILE__)\nrun Rails.application\nLaunchy.open(\"http://localhost:3000\") if Rails.env.development?\n</code></pre>\n\n<p>This is easy, but it feels dirty to me to have this sitting in your app. Better would be a small script that starts your server, waits a moment, then launches the browser.</p>\n",
+      "owner": {
+        "display_name": "Kristj&#225;n",
+        "link": "https://stackoverflow.com/users/802618/kristj%c3%a1n"
+      }
+    },
+    {
+      "answer_id": 35312998,
+      "body": "<p>There's no recommended number of Puma workers, it's a matter for tuning your code and resources to match your application's load.</p>\n\n<p>Running multiple Puma instance on a single server is exactly what the cluster mode was designed for, so it's a good idea. But note that puma allows for two different levels of concurrency configuration - number of threads per worker and number of workers - it's important to understand each of this options to get the most out of your resources.</p>\n\n<p>I suggest reading the following:\n<a href=\"https://github.com/jrochkind/fake_work_app\" rel=\"noreferrer\">https://github.com/jrochkind/fake_work_app</a></p>\n\n<p>It's a comparison of various Ruby web servers but I'm referencing it here because it explains very well the level and method of concurrency each of the servers supply, including puma.      </p>\n",
+      "owner": {
+        "display_name": "Dani",
+        "link": "https://stackoverflow.com/users/1612193/dani"
+      }
+    },
+    {
+      "answer_id": 35269819,
+      "body": "<p>I <strong>solved</strong> adding phusion passenger.</p>\n\n<p>nginx config is now :</p>\n\n<pre><code>server{\nlisten 80;\npassenger_enabled on;\npassenger_app_env production;\npassenger_ruby /../ruby-2.3.0/ruby;\nroot /path to application/public;\nclient_max_body_size 4G;\nkeepalive_timeout 10;\n[...]\n\n   location /cable{\n        passenger_app_group_name websocket;\n        passenger_force_max_concurrent_requests_per_process 0;\n   } \n}\n</code></pre>\n\n<p>You have to <strong>remove</strong> default folder config/redis/cable.yml and move that file to /config only.</p>\n\n<p>For SSL just enable default ssl options and it will works .-)</p>\n\n<p>Thanks everyone for the help</p>\n",
+      "owner": {
+        "display_name": "Jim Tebstone",
+        "link": "https://stackoverflow.com/users/5816670/jim-tebstone"
+      }
+    },
+    {
+      "answer_id": 34669568,
+      "body": "<p>This is finally solved after a lot of research. It turns out the issue was threefold: </p>\n\n<p>1) the proper environment was not being set when running the upstart script\n2) the actual production puma.rb configuration file when using capistrano can be found in the home/deploy/deseov12/shared directory not in the /current/ directory\n3) not demonizing the puma server properly</p>\n\n<p>To solve these issues:</p>\n\n<p>1) This line should be added to the start of the script in /etc/init/puma.conf and /home/deploy/puma.conf:</p>\n\n<pre><code>env RACK_ENV=\"production\"\n</code></pre>\n\n<p>2) and 3) this line  </p>\n\n<pre><code>exec bundle exec puma -C current/config/puma.rb\n</code></pre>\n\n<p>should be replaced with this one</p>\n\n<pre><code>exec bundle exec puma -C /home/deploy/deseov12/shared/puma.rb --daemon\n</code></pre>\n\n<p>After doing this, the puma server starts properly on reboot or new instance generation. Hope this helps someone avoid hours of troubleshooting.</p>\n",
+      "owner": {
+        "display_name": "Augusto Samam&#233; Barrientos",
+        "link": "https://stackoverflow.com/users/4759794/augusto-samam%c3%a9-barrientos"
+      }
+    },
+    {
+      "answer_id": 34241995,
+      "body": "<p><em>Maybe</em></p>\n\n<pre><code>$ touch /path/to/your/stats.txt\n$ puma -S /path/to/your/stats.txt\n</code></pre>\n\n<p>in another terminal  </p>\n\n<pre><code>$ watch cat /path/to/your/stats.txt\n</code></pre>\n\n<p>Results in:  </p>\n\n<pre><code>---\npid: 14364\nconfig: !ruby/object:Puma::Configuration\n  cli_options: \n  conf: \n  options:\n    :min_threads: 0\n    :max_threads: 16\n    :quiet: false\n    :debug: false\n    :binds:\n    - tcp://0.0.0.0:9292\n    :workers: 0\n    :daemon: false\n    :mode: :http\n    :before_fork: []\n    :worker_timeout: 60\n    :worker_boot_timeout: 60\n    :worker_shutdown_timeout: 30\n    :state: /path/to/your/stats.txt\n    :config_file: \n    :control_auth_token: 21c9241912a8e0e7ddaabac667ff5682\n    :tag: solar\n    :environment: development\n</code></pre>\n\n<p>But that looks static :(</p>\n\n<p>Starting your app via puma like this:  </p>\n\n<pre><code>$ puma -S /path/to/your/stats.txt -C config/puma.rb --control tcp://0.0.0.0:9191 --control-token foo config.ru\n</code></pre>\n\n<p>allows you later to query per your webbrowser:</p>\n\n<pre><code>$ http://localhost:9191/stats?token=foo\nor\n$ pumactl -C tcp://0.0.0.0:9191 -T foo stats\n</code></pre>\n\n<p>Resulting in:  </p>\n\n<pre><code>{ \"workers\": 3, \"phase\": 0, \"booted_workers\": 3 }\n</code></pre>\n\n<p>Which looks more dynamic...</p>\n\n<p><strong>Edit_0:</strong></p>\n\n<p>As workers are processes, one could also leverage tools provided by the operating system to gather information, e.g. on Linux:  </p>\n\n<p>Starting a puma instance:</p>\n\n<pre><code>puma -S p/stats.txt -C config/puma.rb --control tcp://0.0.0.0:9191 --control-token foo config.ru \n[1908] Puma starting in cluster mode...\n[1908] * Version 2.15.3 (ruby 2.1.5-p273), codename: Autumn Arbor Airbrush\n[1908] * Min threads: 8, max threads: 32\n[1908] * Environment: development\n[1908] * Process workers: 3\n[1908] * Preloading application\n[1908] * Listening on tcp://0.0.0.0:9292\n[1908] Use Ctrl-C to stop\n[1908] * Starting control server on tcp://0.0.0.0:9191\n[1908] - Worker 0 (pid: 1921) booted, phase: 0\n[1908] - Worker 1 (pid: 1929) booted, phase: 0\n[1908] - Worker 2 (pid: 1937) booted, phase: 0\n</code></pre>\n\n<p>Using top to investigate workers:</p>\n\n<pre><code>$ top -p1921 -p1929 -p1937 -n 1\n</code></pre>\n\n<p>gives us  </p>\n\n<pre><code>Tasks:   3 total,   0 running,   3 sleeping,   0 stopped,   0 zombie\n%Cpu(s):  8.4 us,  1.5 sy,  0.0 ni, 88.9 id,  1.2 wa,  0.0 hi,  0.0 si,  0.0 st\nKiB Mem:   4058820 total,  1626576 used,  2432244 free,    56456 buffers\nKiB Swap:  9609212 total,        0 used,  9609212 free.   424948 cached Mem\n\n  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND     \n 1921 benjamin  20   0 1171600  85484   3116 S   0.0  2.1   0:00.38 puma        \n 1929 benjamin  20   0 1171600  85264   2884 S   0.0  2.1   0:00.37 puma        \n 1937 benjamin  20   0 1171600  85264   2884 S   0.0  2.1   0:00.42 puma\n</code></pre>\n\n<p>from which one can parse out relevant information like CPU or RAM utilization.</p>\n",
+      "owner": {
+        "display_name": "benjamin",
+        "link": "https://stackoverflow.com/users/384052/benjamin"
+      }
+    },
+    {
+      "answer_id": 30228125,
+      "body": "<p>I invite you to read about the configuration options of <code>config.threadsafe!</code> in this article <a href=\"http://tenderlovemaking.com/2012/06/18/removing-config-threadsafe.html\" rel=\"noreferrer\">Removing config.threadsafe!</a>\nIt will help you to understand better the options of <code>config.threadsafe!</code>, in particular to allow concurrency.</p>\n\n<p>In Rails 4 <code>config.threadsafe!</code> is set by default.</p>\n\n<hr>\n\n<h2>Now to the answer</h2>\n\n<p>In Rails 4 requests are wrapped around a Mutex by the Rack::Lock middleware in DEV environments by default.</p>\n\n<p>If you want to <strong>enable concurrency</strong> you can set <strong><code>config.allow_concurrency=true</code></strong>. This will disable the Rack::Lock middleware. I would not delete it as mentioned in another answer to your question; that looks like a hack to me.</p>\n\n<blockquote>\n  <p><strong>Note</strong>: If you have <code>config.cache_classes=true</code> then an assignment to <code>config.allow_concurrency</code> (Rack::Lock request mutex) won't take\n  effect, concurrent requests are allowed by default. If you have\n  <code>config.cache_classes=false</code>, then you can set\n  <code>config.allow_concurrency</code> to either <code>true</code> or <code>false</code>. In DEV\n  environment you would want to have it like this</p>\n\n<pre><code>config.cache_classes=false\nconfig.allow_concurrency=true\n</code></pre>\n  \n  <p>The statement: <em>Which means that if config.cache_classes = false\n  (which it is by default in dev env) we can't have concurrent\n  requests.</em> is not correct.</p>\n</blockquote>\n\n<h2>Appendix</h2>\n\n<p>You can refer to <a href=\"https://stackoverflow.com/a/30097643/1566187\">this answer</a>, which sets up an experiment testing concurrency using MRI and JRuby. The results are surprising. MRI was faster than JRuby.</p>\n\n<p>The experiment with MRI concurrency is <a href=\"https://github.com/Elyasin/limitedBandwidthMRI\" rel=\"noreferrer\">on GitHub</a>.\nThe experiment only tests concurrent request. There are no race conditions in the controller. However, I think it is not too difficult to implement example from the article above to test race conditions in a controller.</p>\n",
+      "owner": {
+        "display_name": "Ely",
+        "link": "https://stackoverflow.com/users/1566187/ely"
+      }
+    },
+    {
+      "answer_id": 32424120,
+      "body": "<p>This is not entirely correct, to run PHP with apache you will need either the apache <a href=\"https://stackoverflow.com/a/2712839/270280\">mod_php</a> or run it as a <a href=\"http://php-fpm.org/\" rel=\"nofollow noreferrer\">FastCGI module</a>. For Nginx the latter <a href=\"http://wiki.nginx.org/Configuration#PHP_via_FastCGI\" rel=\"nofollow noreferrer\">seems to be the norm</a>.</p>\n\n<p>For Ruby there's <a href=\"https://www.phusionpassenger.com/\" rel=\"nofollow noreferrer\">Phusion Passenger</a> that fills this role, and supports both apache and nginx. On apache it runs as a plugin module just the way mod_php does. For Nginx I'm not sure.</p>\n\n<p>You may want to run your ruby applications using a dedicated application server, however. This is where Unicorn, Puma etc comes in. There's nothing preventing you from doing a similar setup for php, but it's less common.</p>\n\n<p>Another thing which makes php easier to deploy in many cases is that most distros and server installs come with apache and nginx already set up to handle php, while you need to set this up on your own for ruby.</p>\n\n<p>Once set up Passenger makes deploying ruby apps almost (but not quite) as simple as deploying php apps.</p>\n",
+      "owner": {
+        "display_name": "harald",
+        "link": "https://stackoverflow.com/users/270280/harald"
+      }
+    },
+    {
+      "answer_id": 33247331,
+      "body": "<p>This is a feature of Rack protection that seems to be enabled automatically if you set the content type to JSON. It can be disabled by</p>\n\n<pre><code>set :protection, :except =&gt; [:json_csrf]\n</code></pre>\n\n<p>as described for example in this question on <a href=\"https://stackoverflow.com/questions/10509774/sinatra-and-rack-protection-setting\">Sinatra and Rack protection</a>.</p>\n",
+      "owner": {
+        "display_name": "Malte Schmitz",
+        "link": "https://stackoverflow.com/users/3527849/malte-schmitz"
+      }
+    },
+    {
+      "answer_id": 32253217,
+      "body": "<p>If the number of processes matches your concurrency configuration i would say that's ok, if it keeps growing with every request then you may have an issue with processes hanging. The default for puma i believe is 16. It also looks like you are using clustered mode so it would have multiple processes and multiple threads per process.</p>\n",
+      "owner": {
+        "display_name": "dinomix",
+        "link": "https://stackoverflow.com/users/5264870/dinomix"
+      }
+    },
+    {
+      "answer_id": 31863033,
+      "body": "<p>The logs are in <code>log/&lt;rails env&gt;.log</code>. So you could (in a separate tab / window) run:</p>\n\n<pre><code>tail -f log/development.log\n</code></pre>\n\n<p>And you'll see all your output. If you want the output from rails merged into the puma logs, you could always have rails log to <code>STDOUT</code>:</p>\n\n<pre><code>config.logger = Logger.new(STDOUT)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ian Selby",
+        "link": "https://stackoverflow.com/users/142223/ian-selby"
+      }
+    },
+    {
+      "answer_id": 30902527,
+      "body": "<p>Here is what I have now which resolved the issue. I got help from <a href=\"https://stackoverflow.com/users/644810/rustam-a-gasanov\">Rustam A. Gasanov</a> to make it working. Thanks a lot!!</p>\n\n<p><strong>deploy.rb</strong></p>\n\n<pre><code># config valid only for current version of Capistrano\nlock '3.4.0'\n\nset :stage, 'production'\nset :application, \"gobgob-ror\"\nset :repo_url, 'git@github.com:narhamah/gobgob-ror.git'\nset :rvm_type, :user\nset :rvm_ruby_version, 'ruby-2.2.2@gobgob'\nset :rvm_binary, '~/.rvm/bin/rvm'\n\n# Default branch is :master\n# ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp\n\n# Default deploy_to directory is /var/www/my_app_name\nset :deploy_to, '/home/ubuntu/gobgob-ror'\n\n# Default value for :scm is :git\nset :scm, :git\nset :branch, \"master\"\n\n#set :user, \"ubuntu\"\nset :use_sudo, false\nset :rails_env, \"production\"\nset :deploy_via, :remote_cache\nset :ssh_options, { user: 'ubuntu', :forward_agent =&gt; true, :port =&gt; 22, keys: [\"#{ENV['HOME']}/.ssh/id_rsa\"]}\n\n\n# Default value for :format is :pretty\n# set :format, :pretty\n\n# Default value for :log_level is :debug\n# set :log_level, :debug\n\n# Default value for :pty is false\nset :pty, true\nserver \"xx.xx.xxx.xxx\", roles: [:app, :web, :db], :primary =&gt; true\n\nset :normalize_asset_timestamps, %{public/images public/javascripts public/stylesheets}\n# Default value for :linked_files is []\nset :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')\n\n# Default value for linked_dirs is []\nset :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')\n\n# Default value for default_env is {}\n# set :default_env, { path: \"/opt/ruby/bin:$PATH\" }\n\n# Default value for keep_releases is 5\nset :keep_releases, 5\n\nnamespace :deploy do\n  desc \"Start the application\"\n  task :start do\n    on roles(:app) do\n      execute \"cd #{current_path} &amp;&amp; RAILS_ENV=#{fetch(:stage)} #{fetch(:rvm_binary)} #{fetch(:rvm_ruby_version)} do bundle exec puma -b 'unix://#{shared_path}/sockets/puma.sock' -S #{shared_path}/sockets/puma.state --control 'unix://#{shared_path}/sockets/pumactl.sock' &gt;&gt; #{shared_path}/log/puma-#{fetch(:stage)}.log 2&gt;&amp;1 &amp;\", :pty =&gt; false\n    end\n  end\n\n  desc \"Stop the application\"\n  task :stop do\n    on roles =&gt; :app  do\n      execute \"cd #{current_path} &amp;&amp; RAILS_ENV=#{fetch(:stage)} #{fetch(:rvm_binary)} #{fetch(:rvm_ruby_version)} do bundle exec pumactl -S #{shared_path}/pids/puma.state stop\"\n    end\n  end\n\n  desc \"Restart the application\"\n  task :restart do\n    on roles(:app) do\n      execute \"cd #{current_path} &amp;&amp; RAILS_ENV=#{fetch(:stage)} #{fetch(:rvm_binary)} #{fetch(:rvm_ruby_version)} do bundle exec pumactl -S #{shared_path}/pids/puma.state restart\"\n    end\n  end\n\n  desc \"Status of the application\"\n  task :status do \n    on roles(:app) do\n      execute \"cd #{current_path} &amp;&amp; RAILS_ENV=#{fetch(:stage)} #{fetch(:rvm_binary)} #{fetch(:rvm_ruby_version)} do bundle exec pumactl -S #{shared_path}/pids/puma.state stats\"\n    end\n  end\nend\n\nafter \"deploy\", \"deploy:restart\"\nafter \"deploy\", \"deploy:cleanup\"\n</code></pre>\n\n<p>Last output which confirmed it works..</p>\n\n<pre><code>INFO [12d4a428] Running /usr/bin/env cd /home/ubuntu/gobgob-ror/current &amp;&amp; RAILS_ENV=production ~/.rvm/bin/rvm ruby-2.2.2@gobgob do bundle exec pumactl -S /home/ubuntu/gobgob-ror/shared/pids/puma.state restart on xx.xx.xxx.xxx\nDEBUG [12d4a428] Command: cd /home/ubuntu/gobgob-ror/current &amp;&amp; RAILS_ENV=production ~/.rvm/bin/rvm ruby-2.2.2@gobgob do bundle exec pumactl -S /home/ubuntu/gobgob-ror/shared/pids/puma.state restart\nDEBUG [12d4a428]        Command restart sent success\nDEBUG [12d4a428]\nINFO [12d4a428] Finished in 1.379 seconds with exit status 0 (successful).\n[arup@gobgob-ror (master)]$\n</code></pre>\n",
+      "owner": {
+        "display_name": "Arup Rakshit",
+        "link": "https://stackoverflow.com/users/2767755/arup-rakshit"
+      }
+    },
+    {
+      "answer_id": 30524630,
+      "body": "<p>Thread safety can not be detected in general. If there was some way to detect it automatically, probably your compiler/interpreter would warn you about it.\n<a href=\"http://en.wikipedia.org/wiki/Race_condition#Computing\" rel=\"nofollow\">Race conditions</a> can not be detected by automatic systems, they can be even hard to reproduce.</p>\n\n<p>Depending on your interpreter:</p>\n\n<ul>\n<li><code>CRuby</code> has <a href=\"http://en.wikipedia.org/wiki/Global_Interpreter_Lock\" rel=\"nofollow\">GIL</a>, so using <code>Puma</code> with it is pointless. </li>\n<li>If you are using <code>JRuby</code> or <code>Rubinius</code> than you can probably benefit from <code>Puma</code> and most probably the gems you use have documented their methods/classes thread-safety. In this case all you need is to check your code.</li>\n</ul>\n",
+      "owner": {
+        "display_name": "hahcho",
+        "link": "https://stackoverflow.com/users/2813071/hahcho"
+      }
+    },
+    {
+      "answer_id": 30228655,
+      "body": "<blockquote>\n  <p>Does the latest version of MRI negate the need to adopt JRuby to\n  achieve the same benefits that native threads give you?</p>\n</blockquote>\n\n<p>The answer is no. It does not negate the need, and it depends on your application as mentioned in other answers.</p>\n\n<p>Also, JRuby does not allow you to run in cluster mode, but that is not really a problem in regards to your question, because it is multithreaded and parallel.\nSimply run in Single mode with as many threads as you need. It should be perfectly fine, if not even more lightweight.</p>\n\n<hr>\n\n<p>Let me give you some references that give more insight and allow you to dig further.</p>\n\n<p>This <a href=\"https://stackoverflow.com/a/30097643/1566187\">answer</a> discusses experiments with MRI and JRuby testing concurrent requests using Puma (up to 40 threads). It is quite comprehensive.</p>\n\n<p>The experiments are available on GitHub, <a href=\"https://github.com/Elyasin/limitedBandwidthMRI\" rel=\"nofollow noreferrer\">MRI</a> and <a href=\"https://github.com/Elyasin/limitedBandwidthJRuby\" rel=\"nofollow noreferrer\">JRuby</a>.</p>\n\n<p>The caveat is that it only tests concurrent requests, but does not have a race condition in the controller. However, I think you could implement the test from this article <a href=\"http://tenderlovemaking.com/2012/06/18/removing-config-threadsafe.html\" rel=\"nofollow noreferrer\">Removing config.threadsafe!</a> without too much effort.</p>\n\n<p>The difference between JRuby and MRI is that JRuby can execute code in parallel. MRI is limited by the GIL and only one thread at a time can be executed. You can read more information about the GIL in this article <a href=\"http://www.jstorimer.com/blogs/workingwithcode/8085491-nobody-understands-the-gil\" rel=\"nofollow noreferrer\">Nobody understands the GIL</a>.</p>\n\n<p>The results are quite surprising. MRI is faster than JRuby. Feel free to improve and add race conditions.</p>\n\n<p>Note that both are multi-threaded and not thread safe. The difference really is that MRI cannot execute code in parallel and JRuby can.</p>\n\n<hr>\n\n<p>You might be tempted to say why I answer \"No\" if the experiment shows that MRI is faster.</p>\n\n<p>I think we need more experiments and in particular real world applications.</p>\n\n<p>If you believe that JRuby should be faster because it can execute code in parallel then reasons could be:</p>\n\n<ul>\n<li>The experiments should be executed in a highly parallel environment\nto be able leverage the potential of JRuby.</li>\n<li>It could be the web server itself. Maybe Puma does not leverage the full potential of JRuby. MRI has a GIL, so why is it faster than JRuby in handling requests?</li>\n<li>Other factors might be relevant that are more in depth and we did not discover yet...</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Ely",
+        "link": "https://stackoverflow.com/users/1566187/ely"
+      }
+    },
+    {
+      "answer_id": 30170444,
+      "body": "<p>The <code>pg</code> gem prior to version 0.14.1 uses the method <code>rb_thread_select</code>. This method was removed in Ruby 2.2. According to <a href=\"https://bitbucket.org/ged/ruby-pg/src/b859963462b23f3f07e05eadef59a678b87d9477/History.rdoc?at=default\">their history file</a>, version 0.15.0 released in March 2013 does not use it anymore:</p>\n\n<pre><code>== v0.15.0 [2013-03-03] Michael Granger &lt;ged@FaerieMUD.org&gt;\n\n[...]\n\nEnhancements:\n\n- Make use of rb_thread_fd_select() on Ruby 1.9 and avoid deprecated\n  rb_thread_select().\n\n[...]\n</code></pre>\n\n<p>So you may be using an old <code>pg</code> gem. Upgrading this gem to at least 0.15.0 should fix your issue.</p>\n",
+      "owner": {
+        "display_name": "cbliard",
+        "link": "https://stackoverflow.com/users/177665/cbliard"
+      }
+    },
+    {
+      "answer_id": 29547487,
+      "body": "<p>You can restart manually using the following command</p>\n\n<pre><code>bundle exec pumactl -P /home/deploy/.pids/puma.pid restart\n</code></pre>\n\n<p>Make sure you point to the correct pid path.</p>\n",
+      "owner": {
+        "display_name": "JamesDullaghan",
+        "link": "https://stackoverflow.com/users/1899465/jamesdullaghan"
+      }
+    },
+    {
+      "answer_id": 29222494,
+      "body": "<p>Turns out this was a bug in puma versions 2.9.2+ and has been fixed in version 2.11.0.  For details, see <a href=\"https://github.com/puma/puma/issues/627\" rel=\"nofollow\">https://github.com/puma/puma/issues/627</a> and <a href=\"https://github.com/puma/puma/pull/628\" rel=\"nofollow\">https://github.com/puma/puma/pull/628</a>.</p>\n\n<p>(Note to unix users: if you're still having trouble, make sure you've have libssl-dev installed first.)</p>\n",
+      "owner": {
+        "display_name": "fearless_fool",
+        "link": "https://stackoverflow.com/users/558639/fearless-fool"
+      }
+    },
+    {
+      "answer_id": 29179260,
+      "body": "<p>Puma works with any proper configured project :) You can configure named upstream (upstream puma) just once, not with every server configuration. If you need different puma instances for each server, just setup upstreams with different names.</p>\n\n<pre><code>upstream puma_vsejalreg {\n  server unix://...PATH.../vsejalreg-puma.sock;\n}\nupstream puma_register {\n  server unix://...PATH.../register-puma.sock;\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Aleksey Deryagin",
+        "link": "https://stackoverflow.com/users/644386/aleksey-deryagin"
+      }
+    },
+    {
+      "answer_id": 28745407,
+      "body": "<p>Rails provide only one way to specify binding host (through <a href=\"https://github.com/rails/rails/blob/4954417f69b406fe4e4d14a467be76b1b3b0144c/railties/lib/rails/commands/server.rb#L27\" rel=\"noreferrer\">-b, --binding argument</a>).</p>\n\n<p>So, I think you have only one simple and appropriate way to resolve your problem. You should create bash/sh alias for running Rails:</p>\n\n<pre><code>alias lvh='rails s -p 3000 -b lvh.me'\n</code></pre>\n",
+      "owner": {
+        "display_name": "Maxim",
+        "link": "https://stackoverflow.com/users/2398521/maxim"
+      }
+    },
+    {
+      "answer_id": 28388372,
+      "body": "<p>I ran <code>bundle update</code> before <code>bundle install</code> and that solved the issue for me.</p>\n\n<p>I'm not sure if that was the only thing that helped, as I manually updated puma before that, using these steps:</p>\n\n<ol>\n<li>Checked which version of openssl Ruby is using by running <code>ruby -v -ropenssl -e \"puts OpenSSL::OPENSSL_VERSION\"</code></li>\n<li>Downloaded the right openssl version from\n<a href=\"http://packages.openknapsack.org/openssl/openssl-1.0.0o-x86-windows.tar.lzma\">http://packages.openknapsack.org/openssl/openssl-1.0.0o-x86-windows.tar.lzma</a>\n(got the link from <a href=\"https://github.com/hicknhack-software/rails-disco/wiki/Installing-puma-on-windows\">https://github.com/hicknhack-software/rails-disco/wiki/Installing-puma-on-windows</a> and edited it based on the output of #1).</li>\n<li>Extracted openssl using <a href=\"http://www.7-zip.org\">http://www.7-zip.org</a> to C:\\RailsInstaller\\openssl</li>\n<li><code>gem install puma -- --with-opt-dir=C:/RailsInstaller/openssl</code></li>\n</ol>\n",
+      "owner": {
+        "display_name": "Anis Abboud",
+        "link": "https://stackoverflow.com/users/812936/anis-abboud"
+      }
+    },
+    {
+      "answer_id": 27990374,
+      "body": "<p>With the help of the devise guys' I think I finally got this issue figured out. It seemed that by using custom error pages with it's own controller, I wasn't skipping the before_action <code>get_new_messages</code>. So the very simple fix was to add:</p>\n\n<pre><code>skip_before_filter :get_new_messages\n</code></pre>\n\n<p>to my custom error controller.</p>\n\n<p>This issue explains in detail the reason behind this: <a href=\"https://github.com/plataformatec/devise/issues/3422\" rel=\"nofollow\">https://github.com/plataformatec/devise/issues/3422</a></p>\n",
+      "owner": {
+        "display_name": "Catfish",
+        "link": "https://stackoverflow.com/users/222403/catfish"
+      }
+    },
+    {
+      "answer_id": 27955564,
+      "body": "<p>I had a similar issue with a recent project. I found it was my nginx config.</p>\n\n<p>Add the following to the location section:</p>\n\n<pre><code>proxy_set_header Connection '';\nproxy_http_version 1.1;\nchunked_transfer_encoding off;\nproxy_buffering off;\nproxy_cache off;\n</code></pre>\n\n<p>This information was obtained from the following Stack Overflow discussion:</p>\n\n<p><a href=\"https://stackoverflow.com/questions/13672743/eventsource-server-sent-events-through-nginx\">EventSource / Server-Sent Events through Nginx</a></p>\n\n<p>Hope this helps.</p>\n",
+      "owner": {
+        "display_name": "pvawser",
+        "link": "https://stackoverflow.com/users/3427010/pvawser"
+      }
+    },
+    {
+      "answer_id": 26926635,
+      "body": "<p><strong>I might have found a solution to my question:</strong> I had some queries outside of my controllers (custom middleware), which seem to have caused the problem.</p>\n\n<p>If you have queries outside of controllers (ActiveMailer could also cause this problem), put your code in a <code>ActiveRecord::Base.connection_pool.with_connection</code> block:</p>\n\n<pre><code>ActiveRecord::Base.connection_pool.with_connection do\n  # code\nend\n</code></pre>\n\n<p>ActiveRecord’s with_connection method yields a database connection from its pool to the block. When the block finishes, the connection is automatically checked back into the pool, avoiding connection leaks.</p>\n\n<p>I hope this helps some of you!</p>\n",
+      "owner": {
+        "display_name": "Railsana",
+        "link": "https://stackoverflow.com/users/1014898/railsana"
+      }
+    },
+    {
+      "answer_id": 25857365,
+      "body": "<p>If Puma creates a new thread for each connection, don't use it. Not only do you plan for hundreds of thousands users at once but provided it's going to be a web application, users can have multiple instances open in multiple browser tabs. Even <a href=\"http://dev.w3.org/html5/eventsource/#authoring-notes\" rel=\"noreferrer\">the SSE specification warns against the &quot;multiple tabs&quot; problem</a> because browsers may have their own limits of the number of simultaneous connections to one host:</p>\n<blockquote>\n<p>Clients that support HTTP's per-server connection limitation might run\ninto trouble when opening multiple pages from a site if each page has\nan EventSource to the same domain. Authors can avoid this using the\nrelatively complex mechanism of using unique domain names per\nconnection, or by allowing the user to enable or disable the\nEventSource functionality on a per-page basis, or by sharing a single\nEventSource object using a shared worker.</p>\n</blockquote>\n<p>Use an evented server where connections do not block. The above-mentioned gevent, something built on Node JS or something else in Ruby (which I don't know and thus can't recommend anything).</p>\n<p>For other readers who land on this page and might get confused, Rich Peck's answer is wrong. Server-Sent Events don't rely on long polling, nor do they send requests every couple of seconds. They are long-lived HTTP connections without the need to reopen the connection after every event. There are no &quot;constant requests to the server&quot;.</p>\n",
+      "owner": {
+        "display_name": "Martin",
+        "link": "https://stackoverflow.com/users/718951/martin"
+      }
+    },
+    {
+      "answer_id": 25838814,
+      "body": "<p>It seems this is actually an issue with ruby 2.1 (specifically i'm using 2.1.2) and its garbage collection.</p>\n\n<p>A google search like this seems to have lots of various threads on it <a href=\"http://bit.ly/1s2vBC0\" rel=\"nofollow\">http://bit.ly/1s2vBC0</a></p>\n\n<p>Here's a ruby bug ticket on the issue: <a href=\"https://bugs.ruby-lang.org/issues/9607\" rel=\"nofollow\">https://bugs.ruby-lang.org/issues/9607</a></p>\n",
+      "owner": {
+        "display_name": "Catfish",
+        "link": "https://stackoverflow.com/users/222403/catfish"
+      }
+    },
+    {
+      "answer_id": 25349086,
+      "body": "<p>GitLab B.V. CEO here, I agree with Hongli his comment that \"If there are issues then they are likely in Gitlab's code.\". We tried to fix them but GitLab is one of the largest open source Rails applications and the issues where hard to reproduce. So in the end we opted for the most pragmatic solution, switching back to Unicorn. We love Puma, Unicorn and Passenger and think they are all fantastic pieces of software.</p>\n",
+      "owner": {
+        "display_name": "Sytse Sijbrandij",
+        "link": "https://stackoverflow.com/users/613240/sytse-sijbrandij"
+      }
+    },
+    {
+      "answer_id": 25225656,
+      "body": "<p>It is not possible to use <code>rails s puma</code> to load your puma configuration file, as confirmed here <a href=\"https://github.com/puma/puma/issues/512\" rel=\"nofollow noreferrer\">https://github.com/puma/puma/issues/512</a>, you might want to take a look at a similar question here <a href=\"https://stackoverflow.com/questions/13365940/how-do-i-get-puma-to-start-automatically-when-i-run-rails-server-like-thi\">How do I get &#39;puma&#39; to start, automatically, when I run `rails server` (like Thin does)</a> where this is discussed</p>\n",
+      "owner": {
+        "display_name": "Robert Christopher",
+        "link": "https://stackoverflow.com/users/3886729/robert-christopher"
+      }
+    },
+    {
+      "answer_id": 17451342,
+      "body": "<p>To start puma with socket binding just use <code>/tmp</code> directory:</p>\n\n<pre><code>bundle exec puma -e development -b unix:///tmp/my_app.sock\n</code></pre>\n\n<p>To access application through domain name you should use something like <code>nginx</code> and do configuration for it.</p>\n\n<p>To install <code>nginx</code> in Ubuntu just run next command:</p>\n\n<pre><code>sudo apt-get install nginx\n</code></pre>\n\n<p>Run <code>sudo nano /etc/nginx/sites-available/my_app.conf</code> and place configuration below into this file (Ctrl + X, Y - to save changes):</p>\n\n<pre><code>upstream my_app {\n  server              unix:///tmp/my_app.sock;\n}\n\nserver {\n  listen              *:80;\n  server_name         my_app.com;\n\n  access_log          /var/log/nginx/my_app-access.log;\n\n  location /favicon.ico {\n    root              /var/www/my_app/public/assets/favicon.ico;\n    gzip_static       on;\n    expires           max;\n    add_header        Cache-Control public;\n  }\n\n  location / {\n    root              /var/www/my_app/public;\n    try_files         $uri @app;\n    gzip_static       on;\n    expires           max;\n    add_header        Cache-Control public;\n  }\n\n  location @app {\n    proxy_pass        http://my_app;\n    proxy_set_header  X-Real-IP  $remote_addr;\n    proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;\n    proxy_set_header  X-Forwarded-Proto http;\n    proxy_set_header  Host $http_host;\n    proxy_redirect    off;\n    proxy_next_upstream error timeout invalid_header http_502;\n  }   \n}\n</code></pre>\n\n<p>You should change <code>/var/www/my_app</code> and <code>my_app.com</code> to appropriate values.</p>\n\n<p>Add symlink into enabled sites <code>sudo ln -fns /etc/nginx/sites-available/my_app.conf /etc/nginx/sites-enabled/</code></p>\n\n<p>Restart nginx: <code>sudo service nginx restart</code>.</p>\n\n<p>Link your domain name to server IP (via <code>hosts</code>-file or DNS-provider).</p>\n",
+      "owner": {
+        "display_name": "Viacheslav Molokov",
+        "link": "https://stackoverflow.com/users/226367/viacheslav-molokov"
+      }
+    },
+    {
+      "answer_id": 24940220,
+      "body": "<p>This issue does not present itself with the newest version - 64bit Amazon Linux 2014.03 v1.0.5 running Ruby 2.0 (Puma)</p>\n",
+      "owner": {
+        "display_name": "Stefan",
+        "link": "https://stackoverflow.com/users/1127025/stefan"
+      }
+    },
+    {
+      "answer_id": 24707711,
+      "body": "<p>I've found solution. When I did <code>POST</code> request, I used url which ends with slash, like <code>http://myapp.com/tasks/easy_task/calculate/</code></p>\n\n<p>When I used url without slash in the end, like <code>http://myapp.com/tasks/easy_task/calculate</code> everything works perfectly!</p>\n\n<p>I think it is because of this rule</p>\n\n<pre><code>rewrite ^/(.*)/$ /$1 permanent; # Truncate trailing slashes\n</code></pre>\n\n<p>I am closing this issue. Tomorrow.</p>\n",
+      "owner": {
+        "display_name": "Zhomart",
+        "link": "https://stackoverflow.com/users/1723012/zhomart"
+      }
+    },
+    {
+      "answer_id": 24405687,
+      "body": "<p>I just had right the same issue as you.</p>\n\n<p>It seems like its related to the duplicate definition of the port</p>\n\n<p>First in the <code>Procfile</code> and later in the <code>config/puma.rb</code> file</p>\n\n<p>I removed the port from the <code>Procfile</code> (as well as the environment), as this is already defined in <code>config/puma.rb</code>.</p>\n\n<pre><code>web: bundle exec puma -C config/puma.rb\n</code></pre>\n",
+      "owner": {
+        "display_name": "tmaier",
+        "link": "https://stackoverflow.com/users/745570/tmaier"
+      }
+    },
+    {
+      "answer_id": 16656270,
+      "body": "<ol>\n<li><p>Sandbox the gems so they don't get mixed up with those installed by Rubygems.</p>\n\n<p>Remove current bundler stuff with</p>\n\n<pre class=\"lang-none prettyprint-override\"><code>rm -rf .bundle Gemfile.lock bin vendor\n</code></pre>\n\n<p>and then run </p>\n\n<pre><code>bundle install --binstubs --path vendor\n</code></pre>\n\n<p>This installs all gems into <code>vendor/RUBY-ENGINE/VERSION/</code> and all executables into the <code>bin</code> dir. These are separate from the ones installed via the <code>gem</code> command, which will be system wide.</p></li>\n<li><p>Run using <code>bundle exec</code>, but since the <code>--binstubs</code> command was used you can instead run </p>\n\n<pre><code>bin/rackup config.ru\n</code></pre></li>\n</ol>\n\n<p>By using <code>bundle exec</code> or one of the executables from <code>bin/</code> you're telling Bundler to only use the gems that <strong><em>it</em></strong> installed. If you installed Puma with Bundler then it will install the Puma handler with the Rack that Bundler installed. But, you'll probably have another version of Rack installed by Rubygems (via <code>gem install rack -r</code>) that <em>doesn't</em> have the handler. To get the right one, sandbox your project's gems and always run stuff from the <code>bin/</code> directory. If you need the <code>ruby</code> command then use <code>bundle exec ruby…</code> and Bundler will load the correct gems for the project.</p>\n\n<p>I do this with every project now and only install gems via <code>gem install…</code> if I need them system wide. It also makes sure you don't miss any gems out of the Gemfile because you had them already available on your system - no nasty surprises on deployment!</p>\n",
+      "owner": {
+        "display_name": "ian",
+        "link": "https://stackoverflow.com/users/335847/ian"
+      }
+    },
+    {
+      "answer_id": 23125762,
+      "body": "<p>Just use puma in production mode. In your gemfile change <code>gem 'puma'</code> with</p>\n\n<pre><code>#Gemfile\ngroup :production do\n  gem 'puma'\nend\n</code></pre>\n\n<p>and then run <code>bundle install --without production</code> to install the gem .</p>\n",
+      "owner": {
+        "display_name": "Monideep",
+        "link": "https://stackoverflow.com/users/2300000/monideep"
+      }
+    },
+    {
+      "answer_id": 22228736,
+      "body": "<p>Puma <a href=\"https://github.com/puma/puma/blob/v2.8.0/lib/puma/configuration.rb#L113-116\" rel=\"noreferrer\">adds logging middleware</a> to your app if you are in development mode and haven’t set the <code>--quiet</code> option.</p>\n\n<p>To stop Puma logging in development, pass the <code>-q</code> or <code>--quiet</code> option on the command line:</p>\n\n<pre><code>puma -p 3001 -q\n</code></pre>\n\n<p>or if you are using a Puma config file, add <code>quiet</code> to it. </p>\n",
+      "owner": {
+        "display_name": "matt",
+        "link": "https://stackoverflow.com/users/214790/matt"
+      }
+    },
+    {
+      "answer_id": 21756034,
+      "body": "<p>Rails has a seperate log file and doesn't log to the puma log. By default, Rails logs to a file in <code>logs/&lt;environment&gt;.log</code>, e.g. <code>log/production.log</code></p>\n",
+      "owner": {
+        "display_name": "Holger Just",
+        "link": "https://stackoverflow.com/users/421705/holger-just"
+      }
+    },
+    {
+      "answer_id": 21348873,
+      "body": "<p>I was also stuck trying to find documentation on the config file for puma but I did find <a href=\"https://github.com/puma/puma/blob/f22dc6172235a57c56c28e3074c76ce421170b1c/examples/config.rb#L37\">the all-in-one config.ru</a> file useful. I've formatted it here for future reference:</p>\n\n<pre><code># The directory to operate out of.\n# The default is the current directory.\n\ndirectory '/u/apps/lolcat'\n\n# Load “path” as a rackup file.\n# The default is “config.ru”.\n\nrackup '/u/apps/lolcat/config.ru'\n\n# Set the environment in which the rack's app will run. The value must be a string.\n# The default is “development”.\n\nenvironment 'production'\n\n# Daemonize the server into the background. Highly suggest that\n# this be combined with “pidfile” and “stdout_redirect”.\n# The default is “false”.\n\ndaemonize\ndaemonize false\n\n# Store the pid of the server in the file at “path”.\n\npidfile '/u/apps/lolcat/tmp/pids/puma.pid'\n\n# Use “path” as the file to store the server info state. This is\n# used by “pumactl” to query and control the server.\n\nstate_path '/u/apps/lolcat/tmp/pids/puma.state'\n\n# Redirect STDOUT and STDERR to files specified. The 3rd parameter\n# (“append”) specifies whether the output is appended, the default is\n# “false”.\n\nstdout_redirect '/u/apps/lolcat/log/stdout', '/u/apps/lolcat/log/stderr'\nstdout_redirect '/u/apps/lolcat/log/stdout', '/u/apps/lolcat/log/stderr', true\n\n# Disable request logging.\n# The default is “false”.\n\nquiet\n\n# Configure “min” to be the minimum number of threads to use to answer\n# requests and “max” the maximum.\n# The default is “0, 16”.\n\nthreads 0, 16\n\n# Bind the server to “url”. “tcp://”, “unix://” and “ssl://” are the only\n# accepted protocols.\n# The default is “tcp://0.0.0.0:9292”.\n\nbind 'tcp://0.0.0.0:9292'\nbind 'unix:///var/run/puma.sock'\nbind 'unix:///var/run/puma.sock?umask=0777'\nbind 'ssl://127.0.0.1:9292?key=path_to_key&amp;cert=path_to_cert'\n\n# Listens on port 7001\n# The default is 9292\nport 7001\n\n# Instead of “bind 'ssl://127.0.0.1:9292?key=path_to_key&amp;cert=path_to_cert'” you\n# can also use the “ssl_bind” option.\n\n ssl_bind '127.0.0.1', '9292', { key: path_to_key, cert: path_to_cert }\n\n# Code to run before doing a restart. This code should\n# close log files, database connections, etc.\n\n# This can be called multiple times to add code each time.\n\non_restart do\n  puts 'On restart...'\nend\n\n# Command to use to restart puma. This should be just how to\n# load puma itself (ie. 'ruby -Ilib bin/puma'), not the arguments\n# to puma, as those are the same as the original process.\n\nrestart_command '/u/app/lolcat/bin/restart_puma'\n\n# === Cluster mode ===\n\n# How many worker processes to run.\n# The default is “0”.\n\nworkers 2\n\n# Code to run when a worker boots to setup the process before booting\n# the app.\n# This can be called multiple times to add hooks.\n\non_worker_boot do\n  puts 'On worker boot...'\nend\n\n# === Puma control rack application ===\n\n# Start the puma control rack application on “url”. This application can\n# be communicated with to control the main server. Additionally, you can\n# provide an authentication token, so all requests to the control server\n# will need to include that token as a query parameter. This allows for\n# simple authentication.\n\n# Check out https://github.com/puma/puma/blob/master/lib/puma/app/status.rb\n# to see what the app has available.\n\nactivate_control_app 'unix:///var/run/pumactl.sock'\nactivate_control_app 'unix:///var/run/pumactl.sock', { auth_token: '12345' }\nactivate_control_app 'unix:///var/run/pumactl.sock', { no_token: true }\n</code></pre>\n\n<p>Those settings would then go in a ruby file (e.g. config/puma.rb) and then as Starkers says, you can run it with </p>\n\n<blockquote>\n  <p>puma -C config/puma.rb</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Richard Nienaber",
+        "link": "https://stackoverflow.com/users/9539/richard-nienaber"
+      }
+    },
+    {
+      "answer_id": 21218048,
+      "body": "<p>When you use <code>rails s &lt;server&gt;</code>, the server is launched from the Rails command and is aware of the Rails environment.</p>\n\n<p>This makes possible, for example, to use any of the features and flags offered by the <code>rails server command</code>.</p>\n\n<pre><code>rails s --help\nUsage: rails server [mongrel, thin, etc] [options]\n    -p, --port=port                  Runs Rails on the specified port.\n                                     Default: 3000\n    -b, --binding=ip                 Binds Rails to the specified ip.\n                                     Default: 0.0.0.0\n    -c, --config=file                Use custom rackup configuration file\n    -d, --daemon                     Make server run as a Daemon.\n    -u, --debugger                   Enable ruby-debugging for the server.\n    -e, --environment=name           Specifies the environment to run this server under (test/development/production).\n                                     Default: development\n    -P, --pid=pid                    Specifies the PID file.\n                                     Default: tmp/pids/server.pid\n\n    -h, --help                       Show this help message.\n</code></pre>\n\n<p>For instance, you can attach a debugger to the session passing <code>--debugger</code> or daemonize the server.</p>\n\n<p>The second advantage is that you can version the <code>Puma</code> instance, since you will have to list the gem in the <code>Gemfile</code>. This is already true if you start it with <code>bundle exec</code> like you are doing.</p>\n\n<p>Conversely, when you simply run <code>$ puma</code> (or <code>$ bundle exec puma</code>) you're not passing through the Rails system. <code>Puma</code> will try to find a rack bootstrap file and will use it (it works because Rails provides a <code>config.ru</code> script in the application root.</p>\n\n<p>Generally speaking, there is no real difference if you don't need to pass specific options to the server. I like puma and I tend to use it in some projects even when on production we use Unicorn, thus running <code>$ puma</code> as a standalone command is handy because I don't need to add it to the <code>Gemfile</code>.</p>\n\n<p>However, I would probably go with <code>$ rails s puma</code> if my entire stack uses <code>Puma</code>. This is also the <a href=\"https://github.com/puma/puma#rails\" rel=\"noreferrer\">command suggested in the documentation</a>.</p>\n",
+      "owner": {
+        "display_name": "Simone Carletti",
+        "link": "https://stackoverflow.com/users/123527/simone-carletti"
+      }
+    },
+    {
+      "answer_id": 20802704,
+      "body": "<p>To cite from <a href=\"https://github.com/puma/puma#platform-constraints\" rel=\"noreferrer\">the Puma README</a>:</p>\n<blockquote>\n<p>Because of various platforms not being implement certain things, the following differences occur when Puma is used on different platforms:</p>\n<ul>\n<li><strong>JRuby, Windows</strong>: server sockets are not seamless on restart, they must be closed and reopened. These platforms have no way to pass descriptors into a new process that is exposed to ruby</li>\n<li><strong>JRuby, Windows</strong>: cluster mode is not supported due to a lack of fork(2)</li>\n<li><strong>Windows</strong>: daemon mode is not supported due to a lack of fork(2)</li>\n</ul>\n</blockquote>\n<p>As it clearly states, cluster mode (i.e. running a single puma instance with multiple workers)  and daemon mode (detaching from the shell after starting) are not supported on Windows.</p>\n<p>You should either use a differt OS (e.g. Linux) or use Puma in single-worker mode. You could manually start multiple Puma instance on different ports and loadbalance between them though, even on Windows. You just need a frontend loadbalancer for that and it isn't as seamless as the native cluster mode builtin to Puma.</p>\n",
+      "owner": {
+        "display_name": "Holger Just",
+        "link": "https://stackoverflow.com/users/421705/holger-just"
+      }
+    },
+    {
+      "answer_id": 19296360,
+      "body": "<p>The way that SSEs are built is by the client opening a connection to the server, which is then left open until the server has some data to send. This is part of the SSE spec, and not a thing specific to ActionController::Live. It's effectively the same as long-polling, but with the connection not being closed after the first bit of data is returned, and with the mechanism built into the browser.</p>\n\n<p>As such, the only way it can be implemented is by having multiple open client connections to the webserver which sit there indefinitely. As to what resources are required to deal with them, I'm not sure, as I've not yet tried to benchmark this, but it'll need enough servers for Puma to keep open thousands of connections if you have that many users with a page open.</p>\n\n<p>The default limit for puma is 16 concurrent connections. Several blogs posts about setting up SSEs for Rails mention upping this to a larger value, but none that I've found suggest what this higher value should be. They do mention that the number of DB connections will need to be the same, as each Rails thread keeps one running. Sort of sounds like an expensive way to run things. </p>\n\n<p>\"Run a benchmark\" is the only answer really.</p>\n\n<p>I can't comment as to reverse proxying as I've not tried it, but as SSEs are done over standard HTTP, I shouldn't think it'll need any special setup.</p>\n",
+      "owner": {
+        "display_name": "Matt Gibson",
+        "link": "https://stackoverflow.com/users/693349/matt-gibson"
+      }
+    },
+    {
+      "answer_id": 19232803,
+      "body": "<p>You're trying to connect to your own computer (note 127.0.0.1 == localhost). I'm guessing that's not the Redis server you're looking for :)</p>\n\n<p>Looks like <code>ENV[\"REDISTOGO_URL\"]</code> isn't properly set.</p>\n\n<hr>\n\n<p>Also, just a  side note, look up <a href=\"https://devcenter.heroku.com/articles/redistogo\" rel=\"nofollow\">Redis To Go</a> if you haven't already, which is what most people use as a Redis server in conjunction with Heroku.</p>\n",
+      "owner": {
+        "display_name": "varatis",
+        "link": "https://stackoverflow.com/users/872150/varatis"
+      }
+    },
+    {
+      "answer_id": 19075131,
+      "body": "<p>Yes, you probably do want to use Puma and Sidekiq.  There are really two issues at play here.  </p>\n\n<p>Concurrency (as it seems you already know) is the number of web requests that can be handled simultaneously.  Using an app server like Puma or Unicorn will definitely help you get better concurrency than the default web brick server.  </p>\n\n<p>The other issue at play is the length of time that it takes your server to process a web request.</p>\n\n<p>The reason that these two things are related is that number or requests per second that your app can process is a function of both the average processing time for each request and the number of worker processes that are accepting requests.  Say your average response time is 100ms.  Then a single web worker can process 10 requests per second.  If you have 5 workers, then you can handle 50 requests per second.  If your average response time is 500ms, then you can handle 2 reqs/sec with a single worker, and 10 reqs/sec with 5 workers.</p>\n\n<p>Interacting with external APIs can be slow at times, and in the worst cases it can be very unreliable with unresponsive servers on the remote end, or network outages or slowdowns.  Sidekiq is a great way to insulate your application (and your end users) from the possibility that the remote API is responding slowly.  Imagine that the remote API is running slowly for some reason and that the average response time from it has slowed down to 2 seconds per request.  In that case you'd only be able to handle 2.5 reqs/sec with 5 workers.  With anymore traffic than that your end users might start to have a long wait time before any page on your app could respond, even those that don't make remote API calls, because all of your web workers might be waiting for the slow remote API to respond.  As traffic continues to increase your users would start getting connection timeouts.</p>\n\n<p>The idea with using Sidekiq is that you separate the time spent waiting on the external API from your web workers.  You'd basically take the request for data from your user, pass it to Sidekiq, and then immediately return a response to the user that basically says \"we're processing your request\".  Sidekiq can then pick up the job and make the external request.  After it has the data it can save that data back into your application.  Then you can use web sockets to push a notification to the user that the data is ready.  Or even push the data directly to them and update the page accordingly.  (You could also use polling to have the page continually asking \"is it ready yet?\", but that gets very inefficient very quickly.)</p>\n\n<p>I hope this makes sense.  Let me know if you have any questions.</p>\n",
+      "owner": {
+        "display_name": "Jeremy Green",
+        "link": "https://stackoverflow.com/users/631187/jeremy-green"
+      }
+    },
+    {
+      "answer_id": 18575671,
+      "body": "<p>Unicorn is process based, which means that each instance of ruby will have to exist <strong>in its own process</strong>. That can be in the area of 500mb's for each process, which will quickly drain system resources. Puma, being thread based, won't use the same amount of memory to THEORETICALLY attain the same amount of concurrency.</p>\n\n<p><strong>Unicorn</strong>, being that multiple processes are run, will have parallelism between the different processes. This is limited by your CPU cores (more cores can run more processes at the same time), but the kernel will switch between active processes so more than 4 or 8 processes (however many cores you have) can be run. You will be limited by your machine's memory. Until recently, ruby was not copy-on-write friendly, which meant that EVERY process had its own inherited memory (unicorn is a preforking server). Ruby 2.0 is copy-on-write friendly, which could mean that unicorn won't actually have to load all of the children processes in memory. I'm not 100% clear on this. Read about copy on write, and check out jessie storimer's awesome book 'working with unix processes'. I'm pretty sure he covered it in there.</p>\n\n<p>Puma is a threaded server. MRI Ruby, because of the global interpreter lock (GIL), <strong>can only run a single CPU bound task</strong> at a time (cf. ruby tapas episode 127, parallel fib). It will context switch between the threads, but as long as it is a CPU bound task (e.g. data processing) it will only ever run a single thread of execution. This gets interesting if you run your server with a different implementation of Ruby, like JRuby or Rubinius. They do not have the GIL, and can process a great deal of information in parallel. JRuby is pretty speedy, and while Rubinius is slow compared to MRI, multithreaded Rubinius processes data faster than MRI. During non-blocking IO, however, (e.g. writing to a database, making a web request), MRI will context switch to a non-executing thread and do work there, and then switch back to the previous thread when information has been returned.</p>\n\n<p>For <strong>Unicorn</strong>, I would say the bottleneck is memory and clock speed. For <strong>Puma</strong>, I would say the bottleneck is your choice of interpreter (MRI vs Rubinius or JRuby) and the type of work your server is doing (lots of cpu bound tasks vs non-blocking IO).</p>\n\n<p>There are tons of great resources on this debate. Check out Jessie Storimer's books on these topics, <a href=\"http://www.jstorimer.com/products/working-with-ruby-threads\" rel=\"noreferrer\">working with ruby threads</a> and <a href=\"http://www.jstorimer.com/products/working-with-unix-processes\" rel=\"noreferrer\">working with unix processes</a>; <a href=\"http://tomayko.com/writings/unicorn-is-unix\" rel=\"noreferrer\">read this quick summary of preforking servers</a> by ryan tomayko, and google around for more info.</p>\n\n<p>I don't know what the best worker amount is for Unicorn or Puma in your case. The best thing to do is <strong>run performance tests and do what is right for you</strong>. There is no one size fits all. (although I think the puma standard is to use a pool of 16 threads and lock it at that)</p>\n",
+      "owner": {
+        "display_name": "Stuart Nelson",
+        "link": "https://stackoverflow.com/users/1227292/stuart-nelson"
+      }
+    }
+  ]
+}

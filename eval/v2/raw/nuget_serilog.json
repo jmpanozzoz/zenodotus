@@ -1,0 +1,1908 @@
+{
+  "library": "nuget:serilog",
+  "fetched_at": "2026-11-21T17:28:16Z",
+  "questions": [
+    {
+      "question_id": 42079956,
+      "title": "Suppress SQL Queries logging in Entity Framework core",
+      "accepted_answer_id": 49560845,
+      "score": 127,
+      "link": "https://stackoverflow.com/questions/42079956/suppress-sql-queries-logging-in-entity-framework-core",
+      "owner": {
+        "display_name": "vmg",
+        "link": "https://stackoverflow.com/users/250849/vmg"
+      }
+    },
+    {
+      "question_id": 37657320,
+      "title": "How to override ASP.NET Core configuration array settings using environment variables",
+      "accepted_answer_id": 37657321,
+      "score": 122,
+      "link": "https://stackoverflow.com/questions/37657320/how-to-override-asp-net-core-configuration-array-settings-using-environment-vari",
+      "owner": {
+        "display_name": "James Skimming",
+        "link": "https://stackoverflow.com/users/495964/james-skimming"
+      }
+    },
+    {
+      "question_id": 61544047,
+      "title": "Use Serilog with Microsoft.Extensions.Logging.ILogger",
+      "accepted_answer_id": 61544154,
+      "score": 79,
+      "link": "https://stackoverflow.com/questions/61544047/use-serilog-with-microsoft-extensions-logging-ilogger",
+      "owner": {
+        "display_name": "morteng",
+        "link": "https://stackoverflow.com/users/1573728/morteng"
+      }
+    },
+    {
+      "question_id": 46516359,
+      "title": "Filter Serilog logs to different sinks depending on context source?",
+      "accepted_answer_id": 53446856,
+      "score": 78,
+      "link": "https://stackoverflow.com/questions/46516359/filter-serilog-logs-to-different-sinks-depending-on-context-source",
+      "owner": {
+        "display_name": "David Nordvall",
+        "link": "https://stackoverflow.com/users/20398/david-nordvall"
+      }
+    },
+    {
+      "question_id": 38684375,
+      "title": "Serilog&#39;s AddSerilog is not recognized",
+      "accepted_answer_id": 39443530,
+      "score": 54,
+      "link": "https://stackoverflow.com/questions/38684375/serilogs-addserilog-is-not-recognized",
+      "owner": {
+        "display_name": "ashilon",
+        "link": "https://stackoverflow.com/users/3384667/ashilon"
+      }
+    },
+    {
+      "question_id": 32108148,
+      "title": "Serilog RollingFile",
+      "accepted_answer_id": 32108361,
+      "score": 51,
+      "link": "https://stackoverflow.com/questions/32108148/serilog-rollingfile",
+      "owner": {
+        "display_name": "TechNerd",
+        "link": "https://stackoverflow.com/users/3851306/technerd"
+      }
+    },
+    {
+      "question_id": 27888715,
+      "title": "Add custom properties to Serilog",
+      "accepted_answer_id": 27892076,
+      "score": 50,
+      "link": "https://stackoverflow.com/questions/27888715/add-custom-properties-to-serilog",
+      "owner": {
+        "display_name": "Marius Schulz",
+        "link": "https://stackoverflow.com/users/362634/marius-schulz"
+      }
+    },
+    {
+      "question_id": 64678766,
+      "title": ".NET Core - Serilog - IHostBuilder does not contain a definiton of UseSerilog()",
+      "accepted_answer_id": 64680393,
+      "score": 47,
+      "link": "https://stackoverflow.com/questions/64678766/net-core-serilog-ihostbuilder-does-not-contain-a-definiton-of-useserilog",
+      "owner": {
+        "display_name": "phil123456",
+        "link": "https://stackoverflow.com/users/14027870/phil123456"
+      }
+    },
+    {
+      "question_id": 52046747,
+      "title": "Different Minimum Level Logs Serilog",
+      "accepted_answer_id": 52046879,
+      "score": 46,
+      "link": "https://stackoverflow.com/questions/52046747/different-minimum-level-logs-serilog",
+      "owner": {
+        "display_name": "jollyroger23",
+        "link": "https://stackoverflow.com/users/6216549/jollyroger23"
+      }
+    },
+    {
+      "question_id": 51261177,
+      "title": "Add Username into Serilog",
+      "accepted_answer_id": 51261432,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/51261177/add-username-into-serilog",
+      "owner": {
+        "display_name": "Muflix",
+        "link": "https://stackoverflow.com/users/2333663/muflix"
+      }
+    },
+    {
+      "question_id": 25323607,
+      "title": "Exception destructuring in Serilog",
+      "accepted_answer_id": 25333146,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/25323607/exception-destructuring-in-serilog",
+      "owner": {
+        "display_name": "Vagif Abilov",
+        "link": "https://stackoverflow.com/users/223675/vagif-abilov"
+      }
+    },
+    {
+      "question_id": 26572225,
+      "title": "Serilog in Windows-Service not writing to logfile",
+      "accepted_answer_id": 30050124,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/26572225/serilog-in-windows-service-not-writing-to-logfile",
+      "owner": {
+        "display_name": "Gope",
+        "link": "https://stackoverflow.com/users/312815/gope"
+      }
+    },
+    {
+      "question_id": 47576733,
+      "title": "C# ASP.NET Core Serilog add class name and method to log",
+      "accepted_answer_id": 47592587,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/47576733/c-asp-net-core-serilog-add-class-name-and-method-to-log",
+      "owner": {
+        "display_name": "Jeroen",
+        "link": "https://stackoverflow.com/users/7610030/jeroen"
+      }
+    },
+    {
+      "question_id": 40701230,
+      "title": "Solving error - Unable to resolve service for type &#39;Serilog.ILogger&#39;",
+      "accepted_answer_id": 40701621,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/40701230/solving-error-unable-to-resolve-service-for-type-serilog-ilogger",
+      "owner": {
+        "display_name": "Sanket",
+        "link": "https://stackoverflow.com/users/5802115/sanket"
+      }
+    },
+    {
+      "question_id": 25283749,
+      "title": "Which Serilog sink to use for sending to Logstash?",
+      "accepted_answer_id": 25299679,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/25283749/which-serilog-sink-to-use-for-sending-to-logstash",
+      "owner": {
+        "display_name": "Vagif Abilov",
+        "link": "https://stackoverflow.com/users/223675/vagif-abilov"
+      }
+    },
+    {
+      "question_id": 38481227,
+      "title": "Serilog : Log to different files",
+      "accepted_answer_id": 38491795,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/38481227/serilog-log-to-different-files",
+      "owner": {
+        "display_name": "Shetty",
+        "link": "https://stackoverflow.com/users/119211/shetty"
+      }
+    },
+    {
+      "question_id": 71599246,
+      "title": "How to configure and use Serilog in ASP.NET Core 6?",
+      "accepted_answer_id": 71599384,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/71599246/how-to-configure-and-use-serilog-in-asp-net-core-6",
+      "owner": {
+        "display_name": "ˈvɔlə",
+        "link": "https://stackoverflow.com/users/1865613/%cb%88v%c9%94l%c9%99"
+      }
+    },
+    {
+      "question_id": 29470863,
+      "title": "Serilog - Output/Enrich All Messages with MethodName from which log entry was Called",
+      "accepted_answer_id": 29501667,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/29470863/serilog-output-enrich-all-messages-with-methodname-from-which-log-entry-was-ca",
+      "owner": {
+        "display_name": "Aaron Glover",
+        "link": "https://stackoverflow.com/users/4022049/aaron-glover"
+      }
+    },
+    {
+      "question_id": 48591809,
+      "title": "How to add my own properties to Serilog output template",
+      "accepted_answer_id": 48594025,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/48591809/how-to-add-my-own-properties-to-serilog-output-template",
+      "owner": {
+        "display_name": "Steven",
+        "link": "https://stackoverflow.com/users/295302/steven"
+      }
+    },
+    {
+      "question_id": 71209486,
+      "title": "How to handle deprecation of IWebHostBuilder.UseSerilog() when IWebHostBuilder is still needed?",
+      "accepted_answer_id": 71340555,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/71209486/how-to-handle-deprecation-of-iwebhostbuilder-useserilog-when-iwebhostbuilder-i",
+      "owner": {
+        "display_name": "daniel327",
+        "link": "https://stackoverflow.com/users/2291911/daniel327"
+      }
+    },
+    {
+      "question_id": 28292601,
+      "title": "Serilog - multiple log files",
+      "accepted_answer_id": 28334074,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/28292601/serilog-multiple-log-files",
+      "owner": {
+        "display_name": "Anton Kiprianov",
+        "link": "https://stackoverflow.com/users/4522874/anton-kiprianov"
+      }
+    },
+    {
+      "question_id": 44577336,
+      "title": "How do I automatically tail (delete) older logs using Serilog in a .Net WPF application?",
+      "accepted_answer_id": 44577536,
+      "score": 31,
+      "link": "https://stackoverflow.com/questions/44577336/how-do-i-automatically-tail-delete-older-logs-using-serilog-in-a-net-wpf-appl",
+      "owner": {
+        "display_name": "JohnB",
+        "link": "https://stackoverflow.com/users/784988/johnb"
+      }
+    },
+    {
+      "question_id": 48196790,
+      "title": "Why isn&#39;t Serilog writing Debug messages even when the level is set to Debug?",
+      "accepted_answer_id": 48196986,
+      "score": 30,
+      "link": "https://stackoverflow.com/questions/48196790/why-isnt-serilog-writing-debug-messages-even-when-the-level-is-set-to-debug",
+      "owner": {
+        "display_name": "shawn1874",
+        "link": "https://stackoverflow.com/users/2993440/shawn1874"
+      }
+    },
+    {
+      "question_id": 73997580,
+      "title": "What is the difference between AddSerilog and UseSerilog in .NET 6 Web API?",
+      "accepted_answer_id": 74894430,
+      "score": 28,
+      "link": "https://stackoverflow.com/questions/73997580/what-is-the-difference-between-addserilog-and-useserilog-in-net-6-web-api",
+      "owner": {
+        "display_name": "user246392",
+        "link": "https://stackoverflow.com/users/246392/user246392"
+      }
+    },
+    {
+      "question_id": 35567814,
+      "title": "Is it possible to display Serilog log in the program&#39;s GUI?",
+      "accepted_answer_id": 35570138,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/35567814/is-it-possible-to-display-serilog-log-in-the-programs-gui",
+      "owner": {
+        "display_name": "TheColonel26",
+        "link": "https://stackoverflow.com/users/2226152/thecolonel26"
+      }
+    },
+    {
+      "question_id": 41414796,
+      "title": "How to get Microsoft.Extensions.Logging&lt;T&gt; in console application using Serilog and AutoFac?",
+      "accepted_answer_id": 41416371,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/41414796/how-to-get-microsoft-extensions-loggingt-in-console-application-using-serilog",
+      "owner": {
+        "display_name": "gdoron",
+        "link": "https://stackoverflow.com/users/601179/gdoron"
+      }
+    },
+    {
+      "question_id": 48470090,
+      "title": "serilog format SourceContext for showing only assembly name",
+      "accepted_answer_id": 48473441,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/48470090/serilog-format-sourcecontext-for-showing-only-assembly-name",
+      "owner": {
+        "display_name": "mnieto",
+        "link": "https://stackoverflow.com/users/777551/mnieto"
+      }
+    },
+    {
+      "question_id": 23637669,
+      "title": "How to use Serilog ForContext",
+      "accepted_answer_id": 23721956,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/23637669/how-to-use-serilog-forcontext",
+      "owner": {
+        "display_name": "Marco",
+        "link": "https://stackoverflow.com/users/344520/marco"
+      }
+    },
+    {
+      "question_id": 30849166,
+      "title": "How to turn off Serilog?",
+      "accepted_answer_id": 30864356,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/30849166/how-to-turn-off-serilog",
+      "owner": {
+        "display_name": "bowlturner",
+        "link": "https://stackoverflow.com/users/3825871/bowlturner"
+      }
+    },
+    {
+      "question_id": 72722971,
+      "title": "Getting error when upgrading from Serilog.Sinks.ApplicationInsights v3.1 to v4.0",
+      "accepted_answer_id": 72820164,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/72722971/getting-error-when-upgrading-from-serilog-sinks-applicationinsights-v3-1-to-v4-0",
+      "owner": {
+        "display_name": "Alex Monkey",
+        "link": "https://stackoverflow.com/users/7340458/alex-monkey"
+      }
+    },
+    {
+      "question_id": 47770579,
+      "title": "ASP.NET Core 2.0 using Serilog to log stacktrace when exception is thrown",
+      "accepted_answer_id": 47771450,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/47770579/asp-net-core-2-0-using-serilog-to-log-stacktrace-when-exception-is-thrown",
+      "owner": {
+        "display_name": "Jeroen",
+        "link": "https://stackoverflow.com/users/7610030/jeroen"
+      }
+    },
+    {
+      "question_id": 58913741,
+      "title": "Output logs to Xunit using Serilog Static Logger",
+      "accepted_answer_id": 59567049,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/58913741/output-logs-to-xunit-using-serilog-static-logger",
+      "owner": {
+        "display_name": "aspirant_sensei",
+        "link": "https://stackoverflow.com/users/1018912/aspirant-sensei"
+      }
+    },
+    {
+      "question_id": 59681394,
+      "title": "Correctly Injecting Serilog into .net core classes as Microsoft.Extentions.Logging.ILogger - Not ASP .Net Core",
+      "accepted_answer_id": 59681991,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/59681394/correctly-injecting-serilog-into-net-core-classes-as-microsoft-extentions-loggi",
+      "owner": {
+        "display_name": "Gaz83",
+        "link": "https://stackoverflow.com/users/1255136/gaz83"
+      }
+    },
+    {
+      "question_id": 39337745,
+      "title": "Serilog + serilog-sinks-elasticsearch +ElasticSearch Auth",
+      "accepted_answer_id": 60268186,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/39337745/serilog-serilog-sinks-elasticsearch-elasticsearch-auth",
+      "owner": {
+        "display_name": "Phil",
+        "link": "https://stackoverflow.com/users/2400560/phil"
+      }
+    },
+    {
+      "question_id": 49822263,
+      "title": "Configure Serilog File sink to use one log file per application run",
+      "accepted_answer_id": 49824247,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/49822263/configure-serilog-file-sink-to-use-one-log-file-per-application-run",
+      "owner": {
+        "display_name": "IgorStack",
+        "link": "https://stackoverflow.com/users/1279519/igorstack"
+      }
+    },
+    {
+      "question_id": 61411759,
+      "title": "Serilog DI in ASP.NET Core, which ILogger interface to inject?",
+      "accepted_answer_id": 61413261,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/61411759/serilog-di-in-asp-net-core-which-ilogger-interface-to-inject",
+      "owner": {
+        "display_name": "g.pickardou",
+        "link": "https://stackoverflow.com/users/1157814/g-pickardou"
+      }
+    },
+    {
+      "question_id": 67540739,
+      "title": "Is it possible to use Serilog with OpenTelemetry?",
+      "accepted_answer_id": 67549254,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/67540739/is-it-possible-to-use-serilog-with-opentelemetry",
+      "owner": {
+        "display_name": "Xavier John",
+        "link": "https://stackoverflow.com/users/1394827/xavier-john"
+      }
+    },
+    {
+      "question_id": 71034036,
+      "title": "How to setup Serilog with Azure Functions v4 correctly?",
+      "accepted_answer_id": 71061052,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/71034036/how-to-setup-serilog-with-azure-functions-v4-correctly",
+      "owner": {
+        "display_name": "mikehachen",
+        "link": "https://stackoverflow.com/users/9252500/mikehachen"
+      }
+    },
+    {
+      "question_id": 38029980,
+      "title": "What is Serilog destructuring?",
+      "accepted_answer_id": 38030428,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/38029980/what-is-serilog-destructuring",
+      "owner": {
+        "display_name": "BanksySan",
+        "link": "https://stackoverflow.com/users/442351/banksysan"
+      }
+    },
+    {
+      "question_id": 52116114,
+      "title": "Serilog ReadFrom Configuration",
+      "accepted_answer_id": 52117401,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/52116114/serilog-readfrom-configuration",
+      "owner": {
+        "display_name": "j-hurst",
+        "link": "https://stackoverflow.com/users/5664890/j-hurst"
+      }
+    },
+    {
+      "question_id": 52340167,
+      "title": "How to write Serilog output to console in Visual Studio Unit Tests?",
+      "accepted_answer_id": 52349349,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/52340167/how-to-write-serilog-output-to-console-in-visual-studio-unit-tests",
+      "owner": {
+        "display_name": "Mojmir",
+        "link": "https://stackoverflow.com/users/5724101/mojmir"
+      }
+    },
+    {
+      "question_id": 61907115,
+      "title": "Using serilog with azure application insights and .Net core",
+      "accepted_answer_id": 61949957,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/61907115/using-serilog-with-azure-application-insights-and-net-core",
+      "owner": {
+        "display_name": "Bunty Choudhary",
+        "link": "https://stackoverflow.com/users/10289897/bunty-choudhary"
+      }
+    },
+    {
+      "question_id": 63573551,
+      "title": "How to add &#39;request body&#39; in serilog&#39;s output .net core?",
+      "accepted_answer_id": 65061880,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/63573551/how-to-add-request-body-in-serilogs-output-net-core",
+      "owner": {
+        "display_name": "OguzKaanAkyalcin",
+        "link": "https://stackoverflow.com/users/13064668/oguzkaanakyalcin"
+      }
+    },
+    {
+      "question_id": 28094303,
+      "title": "How to output event source Class Name in serilog RollingFile outputTemplate?",
+      "accepted_answer_id": 28144319,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/28094303/how-to-output-event-source-class-name-in-serilog-rollingfile-outputtemplate",
+      "owner": {
+        "display_name": "Ajay Jadhav",
+        "link": "https://stackoverflow.com/users/1264361/ajay-jadhav"
+      }
+    },
+    {
+      "question_id": 29756043,
+      "title": "Serilog with Autofac",
+      "accepted_answer_id": 29756122,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/29756043/serilog-with-autofac",
+      "owner": {
+        "display_name": "DarthVader",
+        "link": "https://stackoverflow.com/users/177883/darthvader"
+      }
+    },
+    {
+      "question_id": 42929070,
+      "title": "Is it safe to use a static `Serilog.ILogger`",
+      "accepted_answer_id": 42937947,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/42929070/is-it-safe-to-use-a-static-serilog-ilogger",
+      "owner": {
+        "display_name": "James World",
+        "link": "https://stackoverflow.com/users/87427/james-world"
+      }
+    },
+    {
+      "question_id": 46255928,
+      "title": "Serilog is not writing log to Seq until Log.CloseAndFlush() is invoked",
+      "accepted_answer_id": 46260268,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/46255928/serilog-is-not-writing-log-to-seq-until-log-closeandflush-is-invoked",
+      "owner": {
+        "display_name": "Hasibul",
+        "link": "https://stackoverflow.com/users/353913/hasibul"
+      }
+    },
+    {
+      "question_id": 47036442,
+      "title": "Change / override log event level in Serilog",
+      "accepted_answer_id": 47046128,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/47036442/change-override-log-event-level-in-serilog",
+      "owner": {
+        "display_name": "Tam&#225;s Deme",
+        "link": "https://stackoverflow.com/users/4788286/tam%c3%a1s-deme"
+      }
+    },
+    {
+      "question_id": 49226533,
+      "title": "How to get current Serilog MinimumLevel",
+      "accepted_answer_id": 49228186,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/49226533/how-to-get-current-serilog-minimumlevel",
+      "owner": {
+        "display_name": "andre_ss6",
+        "link": "https://stackoverflow.com/users/2267418/andre-ss6"
+      }
+    },
+    {
+      "question_id": 52887406,
+      "title": "How to force Serilog to log only my custom log messages",
+      "accepted_answer_id": 52887689,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/52887406/how-to-force-serilog-to-log-only-my-custom-log-messages",
+      "owner": {
+        "display_name": "Dmitry Stepanov",
+        "link": "https://stackoverflow.com/users/2925794/dmitry-stepanov"
+      }
+    },
+    {
+      "question_id": 56156809,
+      "title": "OpenTracing doesn&#39;t send logs with Serilog",
+      "accepted_answer_id": 56227367,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/56156809/opentracing-doesnt-send-logs-with-serilog",
+      "owner": {
+        "display_name": "Darkside",
+        "link": "https://stackoverflow.com/users/6692626/darkside"
+      }
+    },
+    {
+      "question_id": 60228026,
+      "title": "Serilog - how to customize date in rolling file name?",
+      "accepted_answer_id": 60228667,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/60228026/serilog-how-to-customize-date-in-rolling-file-name",
+      "owner": {
+        "display_name": "Phil K",
+        "link": "https://stackoverflow.com/users/1847261/phil-k"
+      }
+    },
+    {
+      "question_id": 30637416,
+      "title": "How can I add a named property that is not part of the message template?",
+      "accepted_answer_id": 30639107,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/30637416/how-can-i-add-a-named-property-that-is-not-part-of-the-message-template",
+      "owner": {
+        "display_name": "tsimbalar",
+        "link": "https://stackoverflow.com/users/474763/tsimbalar"
+      }
+    },
+    {
+      "question_id": 35672897,
+      "title": "One logger for a multi-project solution",
+      "accepted_answer_id": 35688350,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/35672897/one-logger-for-a-multi-project-solution",
+      "owner": {
+        "display_name": "TheColonel26",
+        "link": "https://stackoverflow.com/users/2226152/thecolonel26"
+      }
+    },
+    {
+      "question_id": 38760381,
+      "title": "Multiple filters for one logger with Serilog",
+      "accepted_answer_id": 38785632,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/38760381/multiple-filters-for-one-logger-with-serilog",
+      "owner": {
+        "display_name": "Carsten Franke",
+        "link": "https://stackoverflow.com/users/4944034/carsten-franke"
+      }
+    },
+    {
+      "question_id": 52084651,
+      "title": "How to exclude specific exception types from Serilog?",
+      "accepted_answer_id": 52084954,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/52084651/how-to-exclude-specific-exception-types-from-serilog",
+      "owner": {
+        "display_name": "Jimmy Jacques",
+        "link": "https://stackoverflow.com/users/7274267/jimmy-jacques"
+      }
+    },
+    {
+      "question_id": 53112340,
+      "title": "Invalid cast from &#39;System.String&#39; to &#39;Serilog.Core.IDestructuringPolicy&#39;",
+      "accepted_answer_id": 53129881,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/53112340/invalid-cast-from-system-string-to-serilog-core-idestructuringpolicy",
+      "owner": {
+        "display_name": "Kirsten",
+        "link": "https://stackoverflow.com/users/1592821/kirsten"
+      }
+    },
+    {
+      "question_id": 57272654,
+      "title": "Inject Serilog&#39;s ILogger interface in ASP .NET Core Web API Controller",
+      "accepted_answer_id": 57284388,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/57272654/inject-serilogs-ilogger-interface-in-asp-net-core-web-api-controller",
+      "owner": {
+        "display_name": "Lindsey1986",
+        "link": "https://stackoverflow.com/users/5650824/lindsey1986"
+      }
+    },
+    {
+      "question_id": 62953942,
+      "title": "Is it possible to change colors in serilog?",
+      "accepted_answer_id": 62955743,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/62953942/is-it-possible-to-change-colors-in-serilog",
+      "owner": {
+        "display_name": "Notbad",
+        "link": "https://stackoverflow.com/users/574633/notbad"
+      }
+    },
+    {
+      "question_id": 65628193,
+      "title": "Getting an instance of the Serilog logger without DI",
+      "accepted_answer_id": 65631652,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/65628193/getting-an-instance-of-the-serilog-logger-without-di",
+      "owner": {
+        "display_name": "Q-bertsuit",
+        "link": "https://stackoverflow.com/users/1235291/q-bertsuit"
+      }
+    },
+    {
+      "question_id": 29472488,
+      "title": "Serilog - Possible to Change DateTime/Timestamp Format in RollingFile Sink",
+      "accepted_answer_id": 29501700,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/29472488/serilog-possible-to-change-datetime-timestamp-format-in-rollingfile-sink",
+      "owner": {
+        "display_name": "Aaron Glover",
+        "link": "https://stackoverflow.com/users/4022049/aaron-glover"
+      }
+    },
+    {
+      "question_id": 38119647,
+      "title": "ASP.NET Core 1.0 logging",
+      "accepted_answer_id": 42216069,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/38119647/asp-net-core-1-0-logging",
+      "owner": {
+        "display_name": "Avishekh Bharati",
+        "link": "https://stackoverflow.com/users/5109842/avishekh-bharati"
+      }
+    },
+    {
+      "question_id": 46629489,
+      "title": "Serilog With API App in Azure",
+      "accepted_answer_id": 46642420,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/46629489/serilog-with-api-app-in-azure",
+      "owner": {
+        "display_name": "ZENIT",
+        "link": "https://stackoverflow.com/users/1054316/zenit"
+      }
+    },
+    {
+      "question_id": 55474771,
+      "title": "How to config `Serilog` to write to the application directory with the cofig file?",
+      "accepted_answer_id": 55483935,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/55474771/how-to-config-serilog-to-write-to-the-application-directory-with-the-cofig-fil",
+      "owner": {
+        "display_name": "mosakashaka",
+        "link": "https://stackoverflow.com/users/1668670/mosakashaka"
+      }
+    },
+    {
+      "question_id": 57414016,
+      "title": "Overriding MinimumLevel doesn&#39;t work in Serilog",
+      "accepted_answer_id": 57419911,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/57414016/overriding-minimumlevel-doesnt-work-in-serilog",
+      "owner": {
+        "display_name": "Kristian Sik",
+        "link": "https://stackoverflow.com/users/11016690/kristian-sik"
+      }
+    },
+    {
+      "question_id": 57460579,
+      "title": "How do I get a serilog enricher to work with dependency injection while keeping it on startup?",
+      "accepted_answer_id": 57488163,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/57460579/how-do-i-get-a-serilog-enricher-to-work-with-dependency-injection-while-keeping",
+      "owner": {
+        "display_name": "NibblyPig",
+        "link": "https://stackoverflow.com/users/174375/nibblypig"
+      }
+    },
+    {
+      "question_id": 41331079,
+      "title": "Does ASP.NET Core&#39;s built-in logging make NLog/Serilog/etc obsolete?",
+      "accepted_answer_id": 41331599,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/41331079/does-asp-net-cores-built-in-logging-make-nlog-serilog-etc-obsolete",
+      "owner": {
+        "display_name": "grokky",
+        "link": "https://stackoverflow.com/users/7059613/grokky"
+      }
+    },
+    {
+      "question_id": 50679571,
+      "title": "How do I interpret Serilog configuration in ASP.NET Core 2.1?",
+      "accepted_answer_id": 50680201,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/50679571/how-do-i-interpret-serilog-configuration-in-asp-net-core-2-1",
+      "owner": {
+        "display_name": "Harris",
+        "link": "https://stackoverflow.com/users/198893/harris"
+      }
+    },
+    {
+      "question_id": 50728639,
+      "title": "Serilog and .NET Core 2.1 HostBuilder Configuration",
+      "accepted_answer_id": 51012829,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/50728639/serilog-and-net-core-2-1-hostbuilder-configuration",
+      "owner": {
+        "display_name": "Mr. T",
+        "link": "https://stackoverflow.com/users/2078975/mr-t"
+      }
+    },
+    {
+      "question_id": 53796152,
+      "title": "What does &quot;Using&quot; in Serilog JSON configuration do?",
+      "accepted_answer_id": 53797248,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/53796152/what-does-using-in-serilog-json-configuration-do",
+      "owner": {
+        "display_name": "Mohammed Noureldin",
+        "link": "https://stackoverflow.com/users/1988508/mohammed-noureldin"
+      }
+    },
+    {
+      "question_id": 53933661,
+      "title": "Does Serilog.Sinks.Console sink get any benefits from wrapping to Serilog.Sinks.Async sink?",
+      "accepted_answer_id": 53935578,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/53933661/does-serilog-sinks-console-sink-get-any-benefits-from-wrapping-to-serilog-sinks",
+      "owner": {
+        "display_name": "Frank59",
+        "link": "https://stackoverflow.com/users/1735047/frank59"
+      }
+    },
+    {
+      "question_id": 60076922,
+      "title": "Serilog logging web-api methods, adding context properties inside middleware",
+      "accepted_answer_id": 60096660,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/60076922/serilog-logging-web-api-methods-adding-context-properties-inside-middleware",
+      "owner": {
+        "display_name": "Vladimir",
+        "link": "https://stackoverflow.com/users/2800691/vladimir"
+      }
+    },
+    {
+      "question_id": 66550450,
+      "title": "How to use Expression Template with appSettings in Serilog",
+      "accepted_answer_id": 66557212,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/66550450/how-to-use-expression-template-with-appsettings-in-serilog",
+      "owner": {
+        "display_name": "mberube.Net",
+        "link": "https://stackoverflow.com/users/112259/mberube-net"
+      }
+    },
+    {
+      "question_id": 71220619,
+      "title": "Use serilog as logging provider in blazor webassembly client app",
+      "accepted_answer_id": 71299669,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/71220619/use-serilog-as-logging-provider-in-blazor-webassembly-client-app",
+      "owner": {
+        "display_name": "Disti",
+        "link": "https://stackoverflow.com/users/5573170/disti"
+      }
+    },
+    {
+      "question_id": 25477415,
+      "title": "How can I reconfigure Serilog without restarting the application?",
+      "accepted_answer_id": 25821762,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/25477415/how-can-i-reconfigure-serilog-without-restarting-the-application",
+      "owner": {
+        "display_name": "Robin van der Knaap",
+        "link": "https://stackoverflow.com/users/426840/robin-van-der-knaap"
+      }
+    },
+    {
+      "question_id": 47176191,
+      "title": "How to remove properties from log entries in ASP.Net Core",
+      "accepted_answer_id": 47191498,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/47176191/how-to-remove-properties-from-log-entries-in-asp-net-core",
+      "owner": {
+        "display_name": "Andrew",
+        "link": "https://stackoverflow.com/users/5403411/andrew"
+      }
+    },
+    {
+      "question_id": 48251515,
+      "title": "Serilog not creating log file when running on Linux",
+      "accepted_answer_id": 54385106,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/48251515/serilog-not-creating-log-file-when-running-on-linux",
+      "owner": {
+        "display_name": "rjovic",
+        "link": "https://stackoverflow.com/users/294278/rjovic"
+      }
+    },
+    {
+      "question_id": 49700265,
+      "title": "Remove new lines from Message and Exception",
+      "accepted_answer_id": 49739064,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/49700265/remove-new-lines-from-message-and-exception",
+      "owner": {
+        "display_name": "Andrew Radford",
+        "link": "https://stackoverflow.com/users/4212174/andrew-radford"
+      }
+    },
+    {
+      "question_id": 55376786,
+      "title": "Multiple Serilog Loggers",
+      "accepted_answer_id": 55386113,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/55376786/multiple-serilog-loggers",
+      "owner": {
+        "display_name": "dmoore1181",
+        "link": "https://stackoverflow.com/users/2793683/dmoore1181"
+      }
+    },
+    {
+      "question_id": 57791868,
+      "title": "BeginScope with Serilog",
+      "accepted_answer_id": 57796572,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/57791868/beginscope-with-serilog",
+      "owner": {
+        "display_name": "Menelaos Vergis",
+        "link": "https://stackoverflow.com/users/1503307/menelaos-vergis"
+      }
+    },
+    {
+      "question_id": 60130441,
+      "title": "Unable to use Serilog with .Net Core 3 IHostBuilder",
+      "accepted_answer_id": 60138900,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/60130441/unable-to-use-serilog-with-net-core-3-ihostbuilder",
+      "owner": {
+        "display_name": "Jeff Finn",
+        "link": "https://stackoverflow.com/users/883102/jeff-finn"
+      }
+    },
+    {
+      "question_id": 66317482,
+      "title": "Serilog only logs first element of array",
+      "accepted_answer_id": 66319385,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/66317482/serilog-only-logs-first-element-of-array",
+      "owner": {
+        "display_name": "Fabian",
+        "link": "https://stackoverflow.com/users/12898326/fabian"
+      }
+    },
+    {
+      "question_id": 68718377,
+      "title": "How to prevent Serilog from logging every little step as information automatically?",
+      "accepted_answer_id": 68718709,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/68718377/how-to-prevent-serilog-from-logging-every-little-step-as-information-automatical",
+      "owner": {
+        "display_name": "Question3r",
+        "link": "https://stackoverflow.com/users/7764329/question3r"
+      }
+    },
+    {
+      "question_id": 30765731,
+      "title": "Specify directory for Serilog rolling file path",
+      "accepted_answer_id": 30792263,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/30765731/specify-directory-for-serilog-rolling-file-path",
+      "owner": {
+        "display_name": "Glenn Doten",
+        "link": "https://stackoverflow.com/users/277774/glenn-doten"
+      }
+    },
+    {
+      "question_id": 37620823,
+      "title": "Serilog&#39;s ILogger injected using Log.ForContext&lt;T&gt;, where T is the consumer",
+      "accepted_answer_id": 37628224,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/37620823/serilogs-ilogger-injected-using-log-forcontextt-where-t-is-the-consumer",
+      "owner": {
+        "display_name": "jameskind",
+        "link": "https://stackoverflow.com/users/245443/jameskind"
+      }
+    },
+    {
+      "question_id": 39838497,
+      "title": "How do I pass a dependency to a Serilog Enricher?",
+      "accepted_answer_id": 39838714,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/39838497/how-do-i-pass-a-dependency-to-a-serilog-enricher",
+      "owner": {
+        "display_name": "user2023861",
+        "link": "https://stackoverflow.com/users/2023861/user2023861"
+      }
+    },
+    {
+      "question_id": 45312584,
+      "title": "Serilog structured data pretty print?",
+      "accepted_answer_id": 45328532,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/45312584/serilog-structured-data-pretty-print",
+      "owner": {
+        "display_name": "jeanfrg",
+        "link": "https://stackoverflow.com/users/2889498/jeanfrg"
+      }
+    },
+    {
+      "question_id": 46583905,
+      "title": "Serilog is logging type rather than object content",
+      "accepted_answer_id": 46587259,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/46583905/serilog-is-logging-type-rather-than-object-content",
+      "owner": {
+        "display_name": "Rob Bowman",
+        "link": "https://stackoverflow.com/users/41169/rob-bowman"
+      }
+    },
+    {
+      "question_id": 50088805,
+      "title": "Using Serilog with .Net core and App Insights",
+      "accepted_answer_id": 50164132,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/50088805/using-serilog-with-net-core-and-app-insights",
+      "owner": {
+        "display_name": "frosty",
+        "link": "https://stackoverflow.com/users/2720421/frosty"
+      }
+    },
+    {
+      "question_id": 52057533,
+      "title": "Serilog.Sinks.MSSqlServer not filling custom columns",
+      "accepted_answer_id": 52062133,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/52057533/serilog-sinks-mssqlserver-not-filling-custom-columns",
+      "owner": {
+        "display_name": "Ernst",
+        "link": "https://stackoverflow.com/users/8829682/ernst"
+      }
+    },
+    {
+      "question_id": 59917704,
+      "title": "Serilog, Change the loglevel at runtime for a specific namespace (&gt; MinimumLevel)",
+      "accepted_answer_id": 62074296,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/59917704/serilog-change-the-loglevel-at-runtime-for-a-specific-namespace-minimumlevel",
+      "owner": {
+        "display_name": "Marco",
+        "link": "https://stackoverflow.com/users/227402/marco"
+      }
+    },
+    {
+      "question_id": 61816775,
+      "title": "C# Serilog: how to log with String interpolation and keep argument names in message templates?",
+      "accepted_answer_id": 61816776,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/61816775/c-serilog-how-to-log-with-string-interpolation-and-keep-argument-names-in-mess",
+      "owner": {
+        "display_name": "Artem",
+        "link": "https://stackoverflow.com/users/1830814/artem"
+      }
+    },
+    {
+      "question_id": 62212569,
+      "title": "How to get Serilog to use custom enricher from json config file",
+      "accepted_answer_id": 63886684,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/62212569/how-to-get-serilog-to-use-custom-enricher-from-json-config-file",
+      "owner": {
+        "display_name": "Paulus",
+        "link": "https://stackoverflow.com/users/444620/paulus"
+      }
+    },
+    {
+      "question_id": 65628288,
+      "title": "Serilog : choose which sink to log at runtime",
+      "accepted_answer_id": 65632945,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/65628288/serilog-choose-which-sink-to-log-at-runtime",
+      "owner": {
+        "display_name": "Kurt Colemonts",
+        "link": "https://stackoverflow.com/users/4180672/kurt-colemonts"
+      }
+    },
+    {
+      "question_id": 55142205,
+      "title": "Serilog PushProperty in appsettings-configuration not working",
+      "accepted_answer_id": 55202474,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/55142205/serilog-pushproperty-in-appsettings-configuration-not-working",
+      "owner": {
+        "display_name": "CribAd",
+        "link": "https://stackoverflow.com/users/10428762/cribad"
+      }
+    },
+    {
+      "question_id": 56902157,
+      "title": "In Serilog, how can I remove empty brackets from JSON formatted log messages when using {Properties} format specifier?",
+      "accepted_answer_id": 76004001,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/56902157/in-serilog-how-can-i-remove-empty-brackets-from-json-formatted-log-messages-whe",
+      "owner": {
+        "display_name": "Rob L",
+        "link": "https://stackoverflow.com/users/2672137/rob-l"
+      }
+    },
+    {
+      "question_id": 57070972,
+      "title": "How to add a serilog logger to a GenericHost Project in C#",
+      "accepted_answer_id": 57116871,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/57070972/how-to-add-a-serilog-logger-to-a-generichost-project-in-c",
+      "owner": {
+        "display_name": "Hassan Ahmadi",
+        "link": "https://stackoverflow.com/users/10181884/hassan-ahmadi"
+      }
+    },
+    {
+      "question_id": 57526622,
+      "title": "How to setup configuration in .NET Framework for Serilog",
+      "accepted_answer_id": 57527169,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/57526622/how-to-setup-configuration-in-net-framework-for-serilog",
+      "owner": {
+        "display_name": "Ross Gustafson",
+        "link": "https://stackoverflow.com/users/1608969/ross-gustafson"
+      }
+    },
+    {
+      "question_id": 59749077,
+      "title": "Can Serilog destructure complex objects passed to BeginScope?",
+      "accepted_answer_id": 59753000,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/59749077/can-serilog-destructure-complex-objects-passed-to-beginscope",
+      "owner": {
+        "display_name": "AroglDarthu",
+        "link": "https://stackoverflow.com/users/2100623/arogldarthu"
+      }
+    },
+    {
+      "question_id": 65899872,
+      "title": "Serilog different levels for different sinks",
+      "accepted_answer_id": 65903008,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/65899872/serilog-different-levels-for-different-sinks",
+      "owner": {
+        "display_name": "nen",
+        "link": "https://stackoverflow.com/users/504839/nen"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 74894430,
+      "body": "<p><strong>NOTE THIS ANSWER IS NOW OUT OF DATE</strong><br />\nRefer to the answer below from @MikeHaas for latest version of Serilog</p>\n<p><strong>There is a huge difference.</strong> 🙂</p>\n<p>The <code>.AddSerilog()</code> provider <em>adds</em> a Serilog provider as one of potentially many providers.  With the following configuration, the Microsoft logger will first log to the Console provider, then to the Serilog provider:</p>\n<pre><code>.ConfigureLogging(logging =&gt; logging.AddConsole().AddSerilog())\n</code></pre>\n<p>The <code>.UseSerilog()</code> configures Serilog as the <em>only</em> provider.  The following will send all logs to Serilog <em>regardless</em> of whether you've configured the logging pipeline:</p>\n<pre><code>.UseSerilog();\n</code></pre>\n<p>The difference really boils down to using Micosoft's pluggable model or using Serilog's pluggable model.</p>\n<p>Typically you wouldn't use <code>.AddSerilog()</code> as the Serilog library is really intended to be used as the sole provider with one or more &quot;sinks&quot;, but there may be cases where you need to log to a particular destination for which there exists a Micosoft ILogger and ILoggerProvider, but for which no Serilog sink exists (and you don't want to have to write it yourself).  In such cases, you might choose to add Serilog as an additional provider.</p>\n",
+      "owner": {
+        "display_name": "Derek Greer",
+        "link": "https://stackoverflow.com/users/1219618/derek-greer"
+      }
+    },
+    {
+      "answer_id": 30864356,
+      "body": "<p>Log levels can be modified at runtime with <code>LoggingLevelSwitch</code>:</p>\n<pre><code>var ls = new LoggingLevelSwitch();\n\nLog.Logger = new LoggerConfiguration()\n   .MinimumLevel.ControlledBy(ls)\n   .WriteTo.MSSqlServer(...)\n   .CreateLogger();\n</code></pre>\n<p>Logging will initially be at the <code>Information</code> level, you can change this via the switch:</p>\n<pre><code>ls.MinimumLevel = LevelAlias.Off;\n</code></pre>\n<p>...will turn logging off.</p>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 37657321,
+      "body": "<p>After looking at the configuration in the debugger I found the answer.</p>\n<ul>\n<li><code>Serilog__WriteTo__0__Args__path</code> (All platforms)</li>\n<li><code>Serilog:WriteTo:0:Args:path</code> (Windows)</li>\n<li><code>Serilog--WriteTo--0--Args--path</code> (sourced From Azure Key Vault)</li>\n</ul>\n<blockquote>\n<p>Note: The <a href=\"https://learn.microsoft.com/en-gb/aspnet/core/fundamentals/configuration/\" rel=\"noreferrer\">Configuration in ASP.NET Core</a> documentation now covers this.</p>\n</blockquote>\n<p>So I need to use the array index (zero-based) as if it were a name.</p>\n<p>Here is the screenshot of the debugger, also (thanks to <a href=\"https://stackoverflow.com/users/149064/victor-hurdugaci\">Victor Hurdugaci</a> in the comments), the <a href=\"https://github.com/dotnet/runtime/blob/v9.0.0/src/libraries/Microsoft.Extensions.Configuration.Binder/tests/Common/ConfigurationBinderTests.Collections.cs#L134-L136\" rel=\"noreferrer\">unit tests</a> are a good place to look for examples.</p>\n<p><a href=\"https://i.sstatic.net/pbWZt.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/pbWZt.png\" alt=\"configuration in the debugger\" /></a></p>\n",
+      "owner": {
+        "display_name": "James Skimming",
+        "link": "https://stackoverflow.com/users/495964/james-skimming"
+      }
+    },
+    {
+      "answer_id": 71299669,
+      "body": "<p>I've been able to add Serilog to my client application logging providers by adding the <strong>Serilog.Extensions.Logging</strong> NuGet package.</p>\n<p>Then I used the following code:</p>\n<pre><code>using Serilog;\nusing Serilog.Core;\nusing Serilog.Extensions.Logging;\n\nvar builder = WebAssemblyHostBuilder.CreateDefault(args);\n\n/* ... */\n\n/* Serilog configuration\n * here I use BrowserHttp sink to send log entries to my Server app\n */\nvar levelSwitch = new LoggingLevelSwitch();\nLog.Logger = new LoggerConfiguration()\n    .MinimumLevel.ControlledBy(levelSwitch)\n    .Enrich.WithProperty(&quot;InstanceId&quot;, Guid.NewGuid().ToString(&quot;n&quot;))\n    .WriteTo.BrowserHttp(endpointUrl: $&quot;{builder.HostEnvironment.BaseAddress}ingest&quot;, controlLevelSwitch: levelSwitch)\n    .CreateLogger();\n\n/* this is used instead of .UseSerilog to add Serilog to providers */\nbuilder.Services.AddLogging(loggingBuilder =&gt; loggingBuilder.AddSerilog(dispose: true));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Disti",
+        "link": "https://stackoverflow.com/users/5573170/disti"
+      }
+    },
+    {
+      "answer_id": 67549254,
+      "body": "<p>A Serilog sink for opentelemetry has been created and can be found at this GitHub repository: <a href=\"https://github.com/serilog/serilog-sinks-opentelemetry\" rel=\"nofollow noreferrer\">https://github.com/serilog/serilog-sinks-opentelemetry</a>.</p>\n",
+      "owner": {
+        "display_name": "Xavier John",
+        "link": "https://stackoverflow.com/users/1394827/xavier-john"
+      }
+    },
+    {
+      "answer_id": 71340555,
+      "body": "<p>I was able to get this to work by switching to <code>IHostBuilder</code> instead of <code>IWebHostBuilder</code>. The key in my case was to call <code>ConfigureWebHostDefaults</code> (or <code>ConfigureWebHost</code>), where you can then utilize an <code>IWebHostBuilder</code>.</p>\n<p>In this way, I could call <code>UseSerilog</code> on the <code>IHostBuilder</code> while still utilizing the <code>Startup</code> class as before with an <code>IWebHostBuilder</code>.</p>\n<p>Example:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>public static void Main(string[] args)\n{\n    // temp initial logging\n    Log.Logger = new LoggerConfiguration()\n        .WriteTo.Console()\n        .CreateBootstrapLogger();\n\n    using var app =\n        Host.CreateDefaultBuilder(args)\n            .ConfigureWebHostDefaults(webHostBuilder\n                =&gt; webHostBuilder.ConfigureAppConfiguration((hostingContext, config) =&gt;\n                        _ = config.SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)\n                            .AddJsonFile(&quot;appsettings.json&quot;, false, true))\n                    .UseStartup&lt;Startup&gt;())\n            .UseSerilog(\n                (hostingContext, loggerConfig) =&gt;\n                    loggerConfig\n                        .ReadFrom.Configuration(hostingContext.Configuration)\n                        .Enrich.FromLogContext(),\n                writeToProviders: true)\n            .Build();\n    app.Run();\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "daniel327",
+        "link": "https://stackoverflow.com/users/2291911/daniel327"
+      }
+    },
+    {
+      "answer_id": 30050124,
+      "body": "<p>I had a very similar issue. In my case, the problem was with relative paths.\nI just had to specify the absolute path. Now it works like a charm.</p>\n<pre class=\"lang-cs prettyprint-override\"><code>WriteTo.RollingFile(\n  AppDomain.CurrentDomain.BaseDirectory + &quot;\\\\logs\\\\log-{Date}.log&quot;\n)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Michael",
+        "link": "https://stackoverflow.com/users/878457/michael"
+      }
+    },
+    {
+      "answer_id": 61949957,
+      "body": "<p>Please follow the steps below:</p>\n<p><strong>First, in stall the following packages:</strong></p>\n<p><a href=\"https://www.nuget.org/packages/Microsoft.ApplicationInsights.AspNetCore/2.14.0\" rel=\"noreferrer\">Microsoft.ApplicationInsights.AspNetCore, version 2.14.0</a></p>\n<p><a href=\"https://www.nuget.org/packages/Serilog.AspNetCore/3.2.0\" rel=\"noreferrer\">Serilog.AspNetCore, version 3.2.0</a></p>\n<p><a href=\"https://www.nuget.org/packages/Serilog.Sinks.ApplicationInsights/\" rel=\"noreferrer\">Serilog.Sinks.ApplicationInsights, version 3.1.0</a></p>\n<p><a href=\"https://www.nuget.org/packages/Serilog.Settings.Configuration/\" rel=\"noreferrer\">Serilog.Settings.Configuration, version 3.1.0</a></p>\n<p><strong>In Program.cs:</strong></p>\n<pre><code>public class Program\n{     \n    public static void Main(string[] args)\n    {\n        CreateHostBuilder(args).Build().Run();\n    }\n\n    public static IHostBuilder CreateHostBuilder(string[] args) =&gt;\n        Host.CreateDefaultBuilder(args)\n            .ConfigureWebHostDefaults(webBuilder =&gt;\n            {\n                webBuilder.UseStartup&lt;Startup&gt;();\n            })\n           .UseSerilog((hostingContext, loggerConfiguration) =&gt; loggerConfiguration\n                    .ReadFrom.Configuration(hostingContext.Configuration)\n                    .WriteTo.ApplicationInsights(new TelemetryConfiguration{ ConnectionString = &quot;xxxxxxxxx&quot; },TelemetryConverter.Traces)\n             );                \n}\n</code></pre>\n<p><strong>In controller.cs</strong>:</p>\n<p><a href=\"https://i.sstatic.net/zUeOE.jpg\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/zUeOE.jpg\" alt=\"enter image description here\" /></a></p>\n<p><strong>The test result</strong>:</p>\n<p><a href=\"https://i.sstatic.net/nKvfk.jpg\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/nKvfk.jpg\" alt=\"enter image description here\" /></a></p>\n",
+      "owner": {
+        "display_name": "Ivan Glasenberg",
+        "link": "https://stackoverflow.com/users/10185816/ivan-glasenberg"
+      }
+    },
+    {
+      "answer_id": 52117401,
+      "body": "<p>I configure it like that:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>return WebHost.CreateDefaultBuilder(args)\n            .UseStartup&lt;Startup&gt;()\n            .UseSerilog((hostingContext, loggerConfiguration) =&gt; loggerConfiguration\n                .ReadFrom.Configuration(hostingContext.Configuration))\n            .Build();\n</code></pre>\n<p>by default <code>Serilog</code> look for <code>Serilog</code> section in configuration</p>\n",
+      "owner": {
+        "display_name": "agua from mars",
+        "link": "https://stackoverflow.com/users/2940908/agua-from-mars"
+      }
+    },
+    {
+      "answer_id": 63886684,
+      "body": "<p>Even though the problem has been already solved I want to put my 2 cents regarding this problem.</p>\n<p>Whenever you create a custom <code>Enricher</code> you have two options how you can register that:</p>\n<ul>\n<li>Either via code</li>\n<li>or via configuration</li>\n</ul>\n<h2>Via Code</h2>\n<h3>Enricher</h3>\n<pre class=\"lang-cs prettyprint-override\"><code>public class UtcTimestampEnricher : ILogEventEnricher\n{\n    public void Enrich(LogEvent logEvent, ILogEventPropertyFactory pf)\n    {\n      ...\n    }\n}\n</code></pre>\n<h3>Registration</h3>\n<pre class=\"lang-cs prettyprint-override\"><code>Log.Logger = new LoggerConfiguration()\n    .Enrich.With&lt;UtcTimestampEnricher&gt;()\n    .CreateLogger()\n</code></pre>\n<h2>Via Configuration</h2>\n<h3>Enricher</h3>\n<pre class=\"lang-cs prettyprint-override\"><code>public class UtcTimestampEnricher : ILogEventEnricher\n{\n    public void Enrich(LogEvent logEvent, ILogEventPropertyFactory pf)\n    {\n      ...\n    }\n}\n</code></pre>\n<h3>Registration helper</h3>\n<pre class=\"lang-cs prettyprint-override\"><code>public static class LoggingExtensions\n{\n    public static LoggerConfiguration WithUtcTimestamp(\n        this LoggerEnrichmentConfiguration enrich)\n    {\n        if (enrich == null)\n            throw new ArgumentNullException(nameof(enrich));\n\n        return enrich.With&lt;UtcTimestampEnricher&gt;();\n    }\n}\n</code></pre>\n<h3>Registration</h3>\n<pre class=\"lang-json prettyprint-override\"><code>{\n  &quot;Serilog&quot;: {\n    ...,\n    &quot;Using&quot;: [ &quot;Your.Assembly.Name&quot; ],\n    &quot;Enrich&quot;: [ &quot;FromLogContext&quot;, &quot;WithUtcTimestamp&quot; ]\n  },\n</code></pre>\n<p>So, as you can see what you need to register is the registration helper method (not the enricher itself) in case of configuration based setup.</p>\n",
+      "owner": {
+        "display_name": "Peter Csala",
+        "link": "https://stackoverflow.com/users/13268855/peter-csala"
+      }
+    },
+    {
+      "answer_id": 76004001,
+      "body": "<p>I finally figured this out thanks to @Kraego. Here is how you can setup your logger using the <code>Serilog.Expressions</code> NuGet package:</p>\n<pre><code>var logger = new LoggerConfiguration()\n            .WriteTo.Console(\n                new ExpressionTemplate(\n                    &quot;{@t:yyyy-MM-dd HH:mm:ss.fff} [{@l}] {#if SourceContext is not null} ({SourceContext}){#end}\\n{@m}{#if @x is not null}\\n{@p}{#end}\\n{@x}\\n&quot;,\n                    theme: TemplateTheme.Literate))\n            .CreateLogger();\n</code></pre>\n<p>In my case, I only wanted to print the properties (<code>@p</code>) in the case of an Exception, otherwise I just wanted the rendered message. Sample usage:</p>\n<pre><code>logger.LogDebug(&quot;Sending {Count} records to Kafka broker for asset {AssetId}, session: {SessionId}&quot;, 1000, 1234, 5678);\n\nlogger.LogWarning(exception, &quot;An Exception was thrown during the processing of Data Source: {DataSource}. Retry attempt {Retry}/{MaxRetries}&quot;, &quot;MyFileName.gz&quot;, 1, 3);\n</code></pre>\n<p>and their corresponding output:</p>\n<pre><code>2023-04-13 05:34:38.543 [Debug]  [MyNamespace.Pipeline.Kafka.KafkaMessagePublisher]\nSending 1000 records to Kafka broker for asset 1234, session: 5678\n\n\n2023-04-13 05:34:39.666 [Warning]  [MyNamespace.Importer.Core.Processors.ProcessorPipeline]\nAn Exception was thrown during the processing of Data Source: MyFileName.gz. Retry attempt 1/3\n&lt;CUSTOM EXCEPTION PROPERTIES&gt;\n&lt;STACK TRACE&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rob L",
+        "link": "https://stackoverflow.com/users/2672137/rob-l"
+      }
+    },
+    {
+      "answer_id": 71061052,
+      "body": "<p>Got it! After replacing all <code>ILogger</code> with <code>ILogger&lt;T&gt;</code> and removing the line <code>builder.Services.AddSingleton&lt;ILoggerProvider&gt;(sp =&gt; new SerilogLoggerProvider(Log.Logger, true));</code> everything worked as expected.</p>\n<p>Startup.cs</p>\n<pre><code>Log.Logger = new LoggerConfiguration()\n          .MinimumLevel.Override(&quot;Microsoft&quot;, LogEventLevel.Warning)\n          .MinimumLevel.Override(&quot;Worker&quot;, LogEventLevel.Warning)\n          .MinimumLevel.Override(&quot;Host&quot;, LogEventLevel.Warning)\n          .MinimumLevel.Override(&quot;System&quot;, LogEventLevel.Error)\n          .MinimumLevel.Override(&quot;Function&quot;, LogEventLevel.Error)\n          .MinimumLevel.Override(&quot;Azure.Storage.Blobs&quot;, LogEventLevel.Error)\n          .MinimumLevel.Override(&quot;Azure.Core&quot;, LogEventLevel.Error)\n          .Enrich.WithProperty(&quot;Application&quot;, $&quot;xxxxx.AzureFunctions.{builder.GetContext().EnvironmentName}&quot;)\n          .Enrich.FromLogContext()\n          .Enrich.WithExceptionDetails(new DestructuringOptionsBuilder()\n            .WithDefaultDestructurers()\n            .WithDestructurers(new[] { new SqlExceptionDestructurer() }))\n          .WriteTo.Seq(builder.GetContext().EnvironmentName.Equals(&quot;Development&quot;, StringComparison.OrdinalIgnoreCase) ? &quot;http://localhost:5341/&quot; : &quot;https://xxxxxx.xx:5341/&quot;, LogEventLevel.Verbose)\n          .WriteTo.Console(theme: SystemConsoleTheme.Literate)\n          .CreateLogger();\n      \n      builder.Services.AddLogging(lb =&gt;\n      {\n        lb.AddSerilog(Log.Logger, true);\n      });\n</code></pre>\n",
+      "owner": {
+        "display_name": "mikehachen",
+        "link": "https://stackoverflow.com/users/9252500/mikehachen"
+      }
+    },
+    {
+      "answer_id": 53446856,
+      "body": "<p>I completed this work today, and thought that I'd provide a proper answer since it took me quite a few posts, issues and other pages to work through to get this sorted out.</p>\n<p>It's useful to have all the logs, but I also wanted to log only my API code separately, and omit the <code>Microsoft.</code> namespace logs. The JSON config to do that looks like this:</p>\n<pre><code>  &quot;Serilog&quot;: {\n    &quot;Using&quot;: [ &quot;Serilog.Sinks.File&quot; ],\n    &quot;MinimumLevel&quot;: &quot;Debug&quot;,\n    &quot;WriteTo&quot;: [\n      {\n        &quot;Name&quot;: &quot;File&quot;,\n        &quot;Args&quot;: {\n          &quot;path&quot;: &quot;/var/logs/system.log&quot;,\n          ... //other unrelated file config\n        }\n      },\n      {\n        &quot;Name&quot;: &quot;Logger&quot;,\n        &quot;Args&quot;: {\n          &quot;configureLogger&quot;: {\n            &quot;WriteTo&quot;: [\n              {\n                &quot;Name&quot;: &quot;File&quot;,\n                &quot;Args&quot;: {\n                  &quot;path&quot;: &quot;/var/logs/api.log&quot;,\n                  ... //other unrelated file config\n                }\n              }\n            ],\n            &quot;Filter&quot;: [\n              {\n                &quot;Name&quot;: &quot;ByExcluding&quot;,\n                &quot;Args&quot;: {\n                  &quot;expression&quot;: &quot;StartsWith(SourceContext, 'Microsoft.')&quot;\n                }\n              }\n            ]\n          }\n        }\n      }\n    ],\n    &quot;Enrich&quot;: [ &quot;FromLogContext&quot;, &quot;WithMachineName&quot;, &quot;WithThreadId&quot; ]\n    ... //Destructure and other config\n  }\n</code></pre>\n<p>The top-level <code>WriteTo</code> is the first simple, global, sink. All log events write to this. If you add a <code>Filter</code> section on the same level as this, it will affect all configured <code>WriteTo</code> elements.</p>\n<p>Then I configure another <code>WriteTo</code> as a <code>Logger</code> (not <code>File</code>), but the <code>Args</code> for this looks different and has a <code>configureLogger</code> element which serves the same purpose as <code>Serilog</code> on the top level, that is to say, it is the top level of the sub-logger. This means that you can easily split out the config for this into a separate file and add it additionally in the config builder (see bottom).</p>\n<p>From here, this sub-logger works the same way: You can configure multiple <code>WriteTo</code>s, and the <code>Filter</code> element on this level will affect only this sub-logger.</p>\n<p>Simply add more <code>&quot;Name&quot;: &quot;Logger&quot;</code> elements to the top level <code>WriteTo</code> section and setup filters for each one separately.</p>\n<p><strong>Note</strong>\nIt is also important to note that, even though you are doing all this in config and not referencing a single bit of the <code>Serilog.Expressions</code> package in your code, you still have to add the NuGet reference to that package. <em>It doesn't work without the package reference</em>.</p>\n<p><strong>About splitting the config:</strong></p>\n<p>If I have to add more loggers, I would definitely split out the different loggers into separate files for clarity, e.g.</p>\n<p>appsettings.json:</p>\n<pre><code>  &quot;Serilog&quot;: {\n    &quot;Using&quot;: [ &quot;Serilog.Sinks.File&quot; ],\n    &quot;MinimumLevel&quot;: &quot;Error&quot;,\n    &quot;WriteTo&quot;: [\n      {\n        &quot;Name&quot;: &quot;File&quot;,\n        &quot;Args&quot;: {\n          &quot;path&quot;: &quot;/var/logs/system.log&quot;,\n          ...\n        }\n      },\n      {\n        &quot;Name&quot;: &quot;Logger&quot;,\n        &quot;Args&quot;: {\n          &quot;configureLogger&quot;: {} // leave this empty\n        }\n      }\n    ],\n    &quot;Enrich&quot;: [ &quot;FromLogContext&quot;, &quot;WithMachineName&quot;, &quot;WithThreadId&quot; ],\n    ...\n</code></pre>\n<p>apilogger.json:</p>\n<pre><code>{\n  &quot;Serilog:WriteTo:1:Args:configureLogger&quot;: {   //notice this key\n    &quot;WriteTo&quot;: [\n      {\n        &quot;Name&quot;: &quot;File&quot;,\n        &quot;Args&quot;: {\n          &quot;path&quot;: &quot;/var/logs/api_separateFile.log&quot;,\n          ...\n        }\n      }\n    ],\n    &quot;Filter&quot;: [\n      {\n        &quot;Name&quot;: &quot;ByExcluding&quot;,\n        &quot;Args&quot;: {\n          &quot;expression&quot;: &quot;StartsWith(SourceContext, 'Microsoft.')&quot;\n        }\n      }\n    ]\n  }\n}\n</code></pre>\n<p>And then adjust my <code>IWebHost</code> builder to include the additional config:</p>\n<pre><code>    WebHost.CreateDefaultBuilder(args)\n        .ConfigureAppConfiguration((hostingContext, config) =&gt;\n        {\n            config.AddJsonFile(&quot;apilogger.json&quot;, optional: false, reloadOnChange: false);\n        })\n        .UseStartup&lt;Startup&gt;();\n</code></pre>\n<p>This way it is easier to understand, read and maintain.</p>\n",
+      "owner": {
+        "display_name": "helloserve",
+        "link": "https://stackoverflow.com/users/767302/helloserve"
+      }
+    },
+    {
+      "answer_id": 72820164,
+      "body": "<p>So I just spent a good chunk of time debugging this, because I also ran into the issue.  I'll admit I should have look at the git log for the app insights sink, because the offending commit is right here</p>\n<p><a href=\"https://github.com/serilog-contrib/serilog-sinks-applicationinsights/commit/8e4e26a8fdfa12da6ed15afcc94889e5f399ff97#diff-bc9f0e00aaa0aef88484faa764a62f13d26f07bf6c2b6df21cd8d893aa47c2e0\" rel=\"noreferrer\">https://github.com/serilog-contrib/serilog-sinks-applicationinsights/commit/8e4e26a8fdfa12da6ed15afcc94889e5f399ff97#diff-bc9f0e00aaa0aef88484faa764a62f13d26f07bf6c2b6df21cd8d893aa47c2e0</a></p>\n<p>They adjusted their namespaces, which causes the Serilog Configuration binding not to be able to find the type <code>Serilog.Sinks.ApplicationInsights.Sinks.ApplicationInsights.TelemetryConverters.TraceTelemetryConverter</code> anymore.  Instead the namespace is <code>Serilog.Sinks.ApplicationInsights.TelemetryConverters.TraceTelemetryConverter</code> as shown in the commit I linked.</p>\n<p>Hope this helps</p>\n",
+      "owner": {
+        "display_name": "Darrien Singleton",
+        "link": "https://stackoverflow.com/users/12661776/darrien-singleton"
+      }
+    },
+    {
+      "answer_id": 71599384,
+      "body": "<p>You'll need to make sure you have the following packages installed:</p>\n<ul>\n<li>Serilog</li>\n<li>Serilog.Extensions.Hosting (this provides the <code>.UseSerilog</code> extension method. If you have the Serilog.AspNetCore package, you do not need to explicitly include this)</li>\n</ul>\n<p>Then you'll need a <code>using</code>:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>using Serilog;\n</code></pre>\n<p>Which should allow you to access <code>.UseSerilog</code> via <code>builder.Host</code>:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>using Serilog;\n\nvar builder = WebApplication.CreateBuilder(args);\nbuilder.Host.UseSerilog();\nvar app = builder.Build();\n\napp.MapGet(&quot;/&quot;, () =&gt; &quot;Hello World!&quot;);\n\napp.Run();\n</code></pre>\n<p>You can use a different overload to get the hosting context, services, and configuration. From there you can configure sinks, etc.:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>builder.Host.UseSerilog((hostContext, services, configuration) =&gt; {\n    configuration.WriteTo.Console();\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "ProgrammingLlama",
+        "link": "https://stackoverflow.com/users/3181933/programmingllama"
+      }
+    },
+    {
+      "answer_id": 66557212,
+      "body": "<p><strong>As of version 3.3.0</strong> of <em>Serilog.Settings.Configuration</em>, this is now possible:</p>\n<pre class=\"lang-json prettyprint-override\"><code>{\n  &quot;Name&quot;: &quot;Console&quot;,\n  &quot;Args&quot;: {\n    &quot;formatter&quot;: {\n      &quot;type&quot;: &quot;Serilog.Templates.ExpressionTemplate, Serilog.Expressions&quot;,\n      &quot;template&quot;: &quot;[{@t:HH:mm:ss} {@l:u3} {Coalesce(SourceContext, '&lt;none&gt;')}] {@m}\\n{@x}&quot;\n    }\n  }\n}\n</code></pre>\n<p><strong>For earlier versions</strong> there's no direct support, but if you put the template into a static property somewhere:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>public static class Formatters\n{\n    public static ITextFormatter Output { get; } = new ExpressionTemplate(...);\n}\n</code></pre>\n<p>Then you can pass that value through JSON configuration by naming the static property:</p>\n<pre><code>{\n    &quot;Name&quot;: &quot;Console&quot;,\n    &quot;Args&quot;: { &quot;formatter&quot;&quot; &quot;YourApp.Formatters::Output, YourApp&quot; }\n}\n</code></pre>\n<p>(Check the arguments accepted by the sink to see what the name of the formatter argument is - but it should be <code>formatter</code> as above in most cases.)</p>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 60138900,
+      "body": "<p>You do not have to instantiate an instance of a Logger in that way. Instead you can use LoggerConfiguration and its builder methods to create a logger. You can then initialize the static logger on Log.Logger. Calling UseSerilog without any argument should be enough.</p>\n<pre class=\"lang-cs prettyprint-override\"><code>public class Program\n{\n    public static void Main(string[] args)\n    {\n        Log.Logger = new LoggerConfiguration()\n            .MinimumLevel.Debug()\n            .WriteTo.Console()\n            .CreateLogger();\n\n        try\n        {\n            Log.Information(&quot;app starting&quot;);\n            CreateHostBuilder(args).Build().Run();\n            Log.Information(&quot;app terminated&quot;);\n        }\n        catch (Exception e)\n        {\n            Log.Fatal(&quot;app crashed&quot;, e);\n        }\n        \n    }\n\n    public static IHostBuilder CreateHostBuilder(string[] args) =&gt;\n        Host.CreateDefaultBuilder(args)\n            .UseServiceProviderFactory(new AutofacServiceProviderFactory())\n            .ConfigureWebHostDefaults(webBuilder =&gt;\n            {\n                webBuilder.UseStartup&lt;Startup&gt;();\n            })\n            .UseSerilog();\n}\n</code></pre>\n<p>Configuration Basics:\n<a href=\"https://github.com/serilog/serilog/wiki/Configuration-Basics\" rel=\"noreferrer\">https://github.com/serilog/serilog/wiki/Configuration-Basics</a></p>\n<p>Setting up a new Console app:\n<a href=\"https://github.com/serilog/serilog/wiki/Getting-Started#example-application\" rel=\"noreferrer\">https://github.com/serilog/serilog/wiki/Getting-Started#example-application</a></p>\n<p>You need to take on a dependency on Serilog.Extensions.Hosting to be able to call UseSerilog on the Host builder.</p>\n",
+      "owner": {
+        "display_name": "sarvasana",
+        "link": "https://stackoverflow.com/users/1259750/sarvasana"
+      }
+    },
+    {
+      "answer_id": 61544154,
+      "body": "<p>In the <code>Serilog.Extensions.Logging</code> assembly there is a extension method on <code>IloggingBuilder</code> called <code>AddSerilog</code> (it's in the Serilog namespace) that will allow you to use Serilog for logging. For example:</p>\n<p><strong>.NET Core 2.2 and earlier (using <code>WebHost</code>):</strong></p>\n<pre class=\"lang-cs prettyprint-override\"><code>WebHost.CreateDefaultBuilder(args)\n    .ConfigureLogging(logging =&gt;\n    {\n        logging.ClearProviders();\n        logging.AddSerilog();\n    });\n</code></pre>\n<p><strong>.NET Core 3.1 and later (using generic <code>Host</code> for either web or console apps):</strong></p>\n<pre class=\"lang-cs prettyprint-override\"><code>Host.CreateDefaultBuilder(args)\n    .ConfigureWebHostDefaults(webBuilder =&gt; webBuilder.UseStartup&lt;Startup&gt;()})\n    .UseSerilog();\n</code></pre>\n<p>Now the <code>ILogger</code> and <code>ILogger&lt;&gt;</code> implementation will call into Serilog.</p>\n",
+      "owner": {
+        "display_name": "Sean",
+        "link": "https://stackoverflow.com/users/26095/sean"
+      }
+    },
+    {
+      "answer_id": 68718709,
+      "body": "<p>These logs are being written by the ASP .NET host with the level <code>Information</code> and thus Serilog receives them as <code>Information</code> as well.</p>\n<p>What you can do, is override the <code>MinimumLevel</code> for different sources, so that you can continue to receive <code>Information</code>-level logs written by some sources, whilst ignoring <code>Information</code>-level logs written by the host.</p>\n<p>Here's an example that:</p>\n<ul>\n<li>Sets the overall <code>MinimumLevel</code> to <code>Information</code></li>\n<li>Overrides the <code>MinimumLevel</code> to <code>Warning</code> only for logs coming from the <code>Microsoft</code> source</li>\n<li>Overrides the <code>MinimumLevel</code> to <code>Information</code> only for logs coming from the <code>Microsoft.Hosting.Lifetime</code> source</li>\n</ul>\n<p>e.g.</p>\n<pre><code>Log.Logger = new LoggerConfiguration()\n    .MinimumLevel.Information()\n    .MinimumLevel.Override(&quot;Microsoft&quot;, LogEventLevel.Warning)\n    .MinimumLevel.Override(&quot;Microsoft.Hosting.Lifetime&quot;, LogEventLevel.Information)\n    .WriteTo.Console()\n    .CreateLogger();\n</code></pre>\n<p>You can also configure these source overrides via <code>appSettings.json</code>:</p>\n<pre><code>{\n  &quot;Serilog&quot;: {\n    &quot;MinimumLevel&quot;: {\n      &quot;Default&quot;: &quot;Information&quot;,\n      &quot;Override&quot;: {\n        &quot;Microsoft&quot;: &quot;Warning&quot;,\n        &quot;Microsoft.Hosting.Lifetime&quot;: &quot;Information&quot;\n      }\n    }\n  },\n  &quot;AllowedHosts&quot;: &quot;*&quot;\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Augusto Proiete",
+        "link": "https://stackoverflow.com/users/211672/augusto-proiete"
+      }
+    },
+    {
+      "answer_id": 66319385,
+      "body": "<p>I was able to reproduce your issue. Issue was flagged by Resharper as shown in the screenshot below.</p>\n<p><a href=\"https://i.sstatic.net/22ZsN.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/22ZsN.png\" alt=\"enter image description here\" /></a></p>\n<p>If we enter the source for LoggerExtensions#LogInformation, it has the following signature:</p>\n<pre><code>public static void LogInformation(this ILogger logger, string message, params object[] args)\n</code></pre>\n<p>The last parameter is <code>params object[] args</code>, and when passing in a single array, this method believes the array is a list of parameters and casts the array to <code>object[]</code>, while your intention was to pass in the array as a parameter. This is confirmed by changing the template like this:</p>\n<pre><code>_logger.LogInformation(&quot;Log stuff: {FirstElement} {SecondElement}&quot;, myArray); \n</code></pre>\n<p>which will output <code>Log stuff: foo bar</code>. The above code has the same logic and behaviour as this:</p>\n<pre><code>_logger.LogInformation(&quot;Log stuff: {FirstElement} {SecondElement}&quot;, &quot;foo&quot;, &quot;bar&quot;);\n</code></pre>\n<p>Changing the array to e.g. a list or, as @IharYakimush suggests, simply cast array to <code>object</code>, does the trick because the collection will now be treated as a parameter, not a list of parameters.</p>\n<pre><code>_logger.LogInformation(&quot;Log stuff: {MyArray}&quot;, (object)myArray);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Roar S.",
+        "link": "https://stackoverflow.com/users/14072498/roar-s"
+      }
+    },
+    {
+      "answer_id": 57419911,
+      "body": "<p>You are overriding the <code>MinimumLevel</code> <strong>only</strong> for log messages sent from a <code>SourceContext</code> with the name <code>LogTest</code>, as per your configuration....</p>\n<pre><code>&quot;Override&quot;: {\n  &quot;LogTest&quot;: &quot;Information&quot;\n}\n</code></pre>\n<p>A simple call to <code>Log.Information(&quot;Information&quot;)</code> like you're doing will not have the source context set, therefore the override doesn't apply... You have to create the context first.</p>\n<pre><code>var contextLog = Log.ForContext(&quot;SourceContext&quot;, &quot;LogTest&quot;);\ncontextLog.Information(&quot;This shows up because of the override!&quot;);\ncontextLog.Information(&quot;... And this too!&quot;);\n\nLog.Information(&quot;This does **not** show, because SourceContext != 'LogTest'&quot;);\n</code></pre>\n<p>You can read more about <a href=\"https://github.com/serilog/serilog/wiki/Writing-Log-Events#source-contexts\" rel=\"noreferrer\"><code>SourceContext</code></a> in the documentation:\n<a href=\"https://github.com/serilog/serilog/wiki/Writing-Log-Events#source-contexts\" rel=\"noreferrer\">https://github.com/serilog/serilog/wiki/Writing-Log-Events#source-contexts</a></p>\n",
+      "owner": {
+        "display_name": "Augusto Proiete",
+        "link": "https://stackoverflow.com/users/211672/augusto-proiete"
+      }
+    },
+    {
+      "answer_id": 65632945,
+      "body": "<p>In Serilog you can do this separation via <a href=\"http://nblumhardt.com/2016/07/serilog-2-write-to-logger/\" rel=\"noreferrer\">sub-loggers</a> using <a href=\"https://github.com/serilog/serilog/wiki/Configuration-Basics#filters\" rel=\"noreferrer\">filters</a> or via <a href=\"https://github.com/serilog/serilog-sinks-map\" rel=\"noreferrer\">Serilog.Sinks.Map</a>, using <a href=\"https://github.com/serilog/serilog/wiki/Enrichment#the-logcontext\" rel=\"noreferrer\">context properties</a> to decide which logger will include or exclude certain messages.</p>\n<p>The example below defines that all log events will be written to both the Console and to a File, by default, however if the log event has a property called <code>FileOnly</code> in the log context, it will not be written to the Console, and likewise if the log event has a property called <code>ConsoleOnly</code>, it will not be written to the File.</p>\n<pre><code>using Serilog;\nusing Serilog.Context;\nusing Serilog.Filters;\n// ...\n\nLog.Logger = new LoggerConfiguration()\n    .MinimumLevel.Verbose()\n    .Enrich.FromLogContext()\n    .WriteTo.Logger(c =&gt;\n        c.Filter.ByExcluding(Matching.WithProperty(&quot;FileOnly&quot;))\n            .WriteTo.Console())\n    .WriteTo.Logger(c =&gt;\n        c.Filter.ByExcluding(Matching.WithProperty(&quot;ConsoleOnly&quot;))\n            .WriteTo.File(&quot;C:\\\\Temp\\\\SerilogTests.txt&quot;))\n    .CreateLogger();\n\n// Writes to both Console &amp; File\nLog.Information(&quot;Hello, world! (Console and File)&quot;);\n\nusing (LogContext.PushProperty(&quot;ConsoleOnly&quot;, value: true))\n{\n    // Writes only to the Console\n    Log.Information(&quot;Hello, world! (Console)&quot;);\n}\n\nusing (LogContext.PushProperty(&quot;FileOnly&quot;, value: true))\n{\n    // Writes only to the File\n    Log.Information(&quot;Hello, world! (File Only)&quot;);\n}\n\nLog.CloseAndFlush();\n</code></pre>\n<p>N.B.: Ideally you'll come up with better property names that are more generic, so that when you are writing logs within your application it doesn't have to know anything about &quot;Console&quot; or &quot;File&quot;. e.g. You could have a property called <code>Secret</code> or <code>Classified</code> and decide where to write the logs based on the presence of this property or not.</p>\n<p>There are different ways to add properties to a log event, including adding the property in the message template directly when you <code>Log.Information</code>, etc., via <a href=\"https://github.com/serilog/serilog/wiki/Enrichment#the-logcontext\" rel=\"noreferrer\"><code>LogContext.PushProperty</code></a> as in the example above, and vi <a href=\"https://github.com/serilog/serilog/wiki/Writing-Log-Events#source-contexts\" rel=\"noreferrer\"><code>Log.ForContext</code></a>.</p>\n<p>You can see other examples of filtering, sub-loggers, and Serilog.Sinks.Map here:</p>\n<ul>\n<li><a href=\"https://stackoverflow.com/a/65346576/211672\">Serilog : how to NOT log some requests (or to log with different levels)</a></li>\n<li><a href=\"https://stackoverflow.com/a/62069498/211672\">Serilog - Separate files for Information, exception using appsetting.json</a></li>\n<li><a href=\"https://stackoverflow.com/a/65366432/211672\">Serilog clobbering over multiple logs?</a></li>\n<li><a href=\"https://stackoverflow.com/a/65293823/211672\">Serilog filter by method name</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Augusto Proiete",
+        "link": "https://stackoverflow.com/users/211672/augusto-proiete"
+      }
+    },
+    {
+      "answer_id": 65903008,
+      "body": "<p>You can set a value for <code>restrictedToMinimumLevel</code> for each sink, to raise the minimum level that it should log.</p>\n<p>It's explained in the documentation with examples:</p>\n<p><a href=\"https://github.com/serilog/serilog/wiki/Configuration-Basics#overriding-per-sink\" rel=\"noreferrer\">https://github.com/serilog/serilog/wiki/Configuration-Basics#overriding-per-sink</a></p>\n<pre><code>Log.Logger = new LoggerConfiguration()\n    .MinimumLevel.Debug()\n    .WriteTo.File(&quot;log.txt&quot;)\n    .WriteTo.Console(restrictedToMinimumLevel: LogEventLevel.Information)\n    .CreateLogger();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Augusto Proiete",
+        "link": "https://stackoverflow.com/users/211672/augusto-proiete"
+      }
+    },
+    {
+      "answer_id": 65631652,
+      "body": "<p>Serilog allows events to be tagged with their source, generally speaking the name of the class writing them. You can do that using one of the <code>ForContext</code> methods of the <code>Log</code> class.</p>\n<p>In your examples above, it would something like this:</p>\n<pre><code>private static readonly ILogger log = Log.ForContext&lt;Program&gt;();\n</code></pre>\n<p>or</p>\n<pre><code>private static readonly ILogger log = Log.ForContext(typeof(Program));\n</code></pre>\n<p>The event written will include a property <code>SourceContext</code> with value <code>&quot;MyNamespace.MyClass&quot;</code> that can later be used to filter out noisy events, or selectively write them to particular sinks.</p>\n<hr />\n<p>Documentation: <a href=\"https://github.com/serilog/serilog/wiki/Writing-Log-Events#source-contexts\" rel=\"noreferrer\">https://github.com/serilog/serilog/wiki/Writing-Log-Events#source-contexts</a></p>\n",
+      "owner": {
+        "display_name": "Augusto Proiete",
+        "link": "https://stackoverflow.com/users/211672/augusto-proiete"
+      }
+    },
+    {
+      "answer_id": 62955743,
+      "body": "<p>Yes, the way to change colors when using the Console sink is through <a href=\"https://github.com/serilog/serilog-sinks-console#themes\" rel=\"noreferrer\">themes</a>. You can try one of the built-in ones, or create your own.</p>\n<p>The Console sink will colorize output by default:</p>\n<p><a href=\"https://github.com/serilog/serilog-sinks-console#themes\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/Dakaz.png\" alt=\"Colorized Console\" /></a></p>\n<p>Themes can be specified when configuring the sink:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>    .WriteTo.Console(theme: AnsiConsoleTheme.Code)\n</code></pre>\n<p>The following built-in themes are available as of this writing:</p>\n<ul>\n<li><code>ConsoleTheme.None</code> - no styling</li>\n<li><code>SystemConsoleTheme.Literate</code> - styled to replicate <em>Serilog.Sinks.Literate</em>, using the <code>System.Console</code> coloring modes supported on all Windows/.NET targets; <strong>this is the default when no theme is specified</strong></li>\n<li><code>SystemConsoleTheme.Grayscale</code> - a theme using only shades of gray, white, and black</li>\n<li><code>AnsiConsoleTheme.Literate</code> - an ANSI 16-color version of the &quot;literate&quot; theme; we expect to update this to use 256-colors for a more refined look in future</li>\n<li><code>AnsiConsoleTheme.Grayscale</code> - an ANSI 256-color version of the &quot;grayscale&quot; theme</li>\n<li><code>AnsiConsoleTheme.Code</code> - an ANSI 256-color Visual Studio Code-inspired theme</li>\n</ul>\n<p>Adding a new theme is straightforward; examples can be found in the <a href=\"https://github.com/serilog/serilog-sinks-console/blob/dev/src/Serilog.Sinks.Console/Sinks/SystemConsole/Themes/SystemConsoleThemes.cs\" rel=\"noreferrer\"><code>SystemConsoleThemes</code></a> and <a href=\"https://github.com/serilog/serilog-sinks-console/blob/dev/src/Serilog.Sinks.Console/Sinks/SystemConsole/Themes/AnsiConsoleThemes.cs\" rel=\"noreferrer\"><code>AnsiConsoleThemes</code></a> classes.</p>\n",
+      "owner": {
+        "display_name": "Augusto Proiete",
+        "link": "https://stackoverflow.com/users/211672/augusto-proiete"
+      }
+    },
+    {
+      "answer_id": 65061880,
+      "body": "<p>I wrote a custom middleware to capture both HTTP requests and responses. It is compatible with ASP.NET Core 3.X and should also work with 2.X and .NET 5.0, although I haven't tested it with those framework versions.</p>\n<p>Here's the link to my git repo: <a href=\"https://github.com/matthew-daddario/AspNetCoreRequestResponseLogger\" rel=\"noreferrer\">https://github.com/matthew-daddario/AspNetCoreRequestResponseLogger</a></p>\n<p>The relevant code is this:</p>\n<pre><code>    public class RequestResponseLoggerMiddleware\n{\n    private readonly RequestDelegate _next;\n    private readonly bool _isRequestResponseLoggingEnabled;\n\n    public RequestResponseLoggerMiddleware(RequestDelegate next, IConfiguration config)\n    {\n        _next = next;\n        _isRequestResponseLoggingEnabled = config.GetValue&lt;bool&gt;(&quot;EnableRequestResponseLogging&quot;, false);\n    }\n\n    public async Task InvokeAsync(HttpContext httpContext)\n    {\n        // Middleware is enabled only when the EnableRequestResponseLogging config value is set.\n        if (_isRequestResponseLoggingEnabled)\n        {\n            Console.WriteLine($&quot;HTTP request information:\\n&quot; +\n                $&quot;\\tMethod: {httpContext.Request.Method}\\n&quot; +\n                $&quot;\\tPath: {httpContext.Request.Path}\\n&quot; +\n                $&quot;\\tQueryString: {httpContext.Request.QueryString}\\n&quot; +\n                $&quot;\\tHeaders: {FormatHeaders(httpContext.Request.Headers)}\\n&quot; +\n                $&quot;\\tSchema: {httpContext.Request.Scheme}\\n&quot; +\n                $&quot;\\tHost: {httpContext.Request.Host}\\n&quot; +\n                $&quot;\\tBody: {await ReadBodyFromRequest(httpContext.Request)}&quot;);\n\n            // Temporarily replace the HttpResponseStream, which is a write-only stream, with a MemoryStream to capture it's value in-flight.\n            var originalResponseBody = httpContext.Response.Body;\n            using var newResponseBody = new MemoryStream();\n            httpContext.Response.Body = newResponseBody;\n\n            // Call the next middleware in the pipeline\n            await _next(httpContext);\n\n            newResponseBody.Seek(0, SeekOrigin.Begin);\n            var responseBodyText = await new StreamReader(httpContext.Response.Body).ReadToEndAsync();\n\n            Console.WriteLine($&quot;HTTP request information:\\n&quot; +\n                $&quot;\\tStatusCode: {httpContext.Response.StatusCode}\\n&quot; +\n                $&quot;\\tContentType: {httpContext.Response.ContentType}\\n&quot; +\n                $&quot;\\tHeaders: {FormatHeaders(httpContext.Response.Headers)}\\n&quot; +\n                $&quot;\\tBody: {responseBodyText}&quot;);\n\n            newResponseBody.Seek(0, SeekOrigin.Begin);\n            await newResponseBody.CopyToAsync(originalResponseBody);\n        }\n        else\n        {\n            await _next(httpContext);\n        }\n    }\n\n    private static string FormatHeaders(IHeaderDictionary headers) =&gt; string.Join(&quot;, &quot;, headers.Select(kvp =&gt; $&quot;{{{kvp.Key}: {string.Join(&quot;, &quot;, kvp.Value)}}}&quot;));\n\n    private static async Task&lt;string&gt; ReadBodyFromRequest(HttpRequest request)\n    {\n        // Ensure the request's body can be read multiple times (for the next middlewares in the pipeline).\n        request.EnableBuffering();\n\n        using var streamReader = new StreamReader(request.Body, leaveOpen: true);\n        var requestBody = await streamReader.ReadToEndAsync();\n\n        // Reset the request's body stream position for next middleware in the pipeline.\n        request.Body.Position = 0;\n        return requestBody;\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "matthewd98",
+        "link": "https://stackoverflow.com/users/14730095/matthewd98"
+      }
+    },
+    {
+      "answer_id": 41416371,
+      "body": "<p><code>Microsoft.Extensions.Logging</code> (see <a href=\"https://github.com/dotnet/runtime/blob/master/src/libraries/Microsoft.Extensions.Logging/src/LoggerFactory.cs\" rel=\"noreferrer\">source</a>) is not part of ASP.NET Core and can run independently of it. All you need to do is to register the <code>ILoggerFactory</code> and <code>ILogger&lt;&gt;</code> interface.</p>\n<p>The <code>ILoggerFactory</code> <a href=\"https://github.com/dotnet/runtime/blob/a057f27e860c1a59aa12e7dd9be028fba82b037f/src/libraries/Microsoft.Extensions.Logging.Abstractions/src/LoggerT.cs#L22\" rel=\"noreferrer\">is used by</a> <code>Logger&lt;T&gt;</code> to instantiate the actual logger.</p>\n<p>When using the Logging extension in console applications, its recommended still to use the <code>IServiceCollection</code>, as this allows you to use the <code>IServiceCollection</code> <a href=\"https://github.com/dotnet/runtime/blob/a057f27e860c1a59aa12e7dd9be028fba82b037f/src/libraries/Microsoft.Extensions.Logging/src/LoggingServiceCollectionExtensions.cs#L32\" rel=\"noreferrer\">extension methods</a> to register all packages which support this pattern.</p>\n<pre><code>var services = new ServiceCollection();\nservices.AddLogging();\n\n// Initialize Autofac\nvar builder = new ContainerBuilder();\n// Use the Populate method to register services which were registered\n// to IServiceCollection\nbuilder.Populate(services);\n\n// Build the final container\nIContainer container = builder.Build();\n</code></pre>\n<p>This is the recommended approach, as you won't have to think in detail which classes need to registered for libraries which have <code>Microsoft.Extensions.DependencyInjection</code> integration support.</p>\n<p>But of course you can also register it manually, but when a change happens to the <code>Microsoft.Extensions.Logging</code> library (new dependency added), you won't get it and first have to figure out or dig <a href=\"https://github.com/dotnet/runtime/blob/6072e4d3a7a2a1493f514cdf4be75a3d56580e84/src/libraries/Microsoft.Extensions.Logging/src/LoggingServiceCollectionExtensions.cs#L41-L42\" rel=\"noreferrer\">into the source code</a> to find the error.</p>\n<pre><code>builder.RegisterType&lt;LoggerFactory&gt;()\n    .As&lt;ILoggerFactory&gt;()\n    .SingleInstance();\nbuilder.RegisterGeneric(typeof(Logger&lt;&gt;))\n    .As(typeof(ILogger&lt;&gt;))\n    .SingleInstance();\n</code></pre>\n<p>All that remains is to register the logger types after the container has been built or before your application starts:</p>\n<pre><code>var loggerFactory = container.Resolve&lt;ILoggerFactory&gt;();\nloggerFactory.AddConsole()\n    .AddSerilog();\n</code></pre>\n<p>and in your services inject <code>ILogger&lt;MyService&gt;</code> as usual.</p>\n",
+      "owner": {
+        "display_name": "Tseng",
+        "link": "https://stackoverflow.com/users/455493/tseng"
+      }
+    },
+    {
+      "answer_id": 64680393,
+      "body": "<p>Answer provided by Alex Lyalka : packages were missing</p>\n<pre><code>dotnet add package Serilog.AspNetCore\n</code></pre>\n",
+      "owner": {
+        "display_name": "phil123456",
+        "link": "https://stackoverflow.com/users/14027870/phil123456"
+      }
+    },
+    {
+      "answer_id": 32108361,
+      "body": "<p>Try below:</p>\n<pre><code> var log = new LoggerConfiguration()\n          .MinimumLevel.Debug()\n          .WriteTo.File(@&quot;f:\\log\\log.txt&quot;, rollingInterval: RollingInterval.Day) \n          .CreateLogger();\n</code></pre>\n<p>The log file name  will be automatically log-20150819.txt etc. You do not need to specify the date.Old files will be cleaned up as per retainedFileCountLimit - default is 31.</p>\n",
+      "owner": {
+        "display_name": "Infinity Challenger",
+        "link": "https://stackoverflow.com/users/518978/infinity-challenger"
+      }
+    },
+    {
+      "answer_id": 47046128,
+      "body": "<p>It's possible, but not entirely straightforward, so strap yourself in!</p>\n<h3>1. Create a sink wrapper</h3>\n<p>Instead of an enricher, you'll need to create a wrapper around the target sink. The wrapper will receive events from the logging pipeline, (fairly cheaply) create new events with identical properties, and forward them to the actual sink:</p>\n<pre><code>class LevelBoostingWrapper : ILogEventSink, IDisposable\n{\n    readonly ILogEventSink _wrappedSink;\n\n    public LevelBoostingWrapper(ILogEventSink wrappedSink)\n    {\n        _wrappedSink = wrappedSink;\n    }\n\n    public void Emit(LogEvent logEvent)\n    {\n        if (logEvent.Level == LogEventLevel.Warning)\n        {\n            var boosted = new LogEvent(\n                logEvent.Timestamp,\n                LogEventLevel.Error, // &lt;- the boost\n                logEvent.Exception,\n                logEvent.MessageTemplate,\n                logEvent.Properties\n                    .Select(kvp =&gt; new LogEventProperty(kvp.Key, kvp.Value)));\n\n            _wrappedSink.Emit(boosted);\n        }\n        else\n        {\n            _wrappedSink.Emit(logEvent);\n        }\n    }\n\n    public void Dispose()\n    {\n        (_wrappedSink as IDisposable)?.Dispose();\n    }\n}\n</code></pre>\n<p>The actual criterion for deciding which events to modify is up to you, of course.</p>\n<h3>2. Hook the wrapper into the configuration syntax</h3>\n<p>This little extension makes it more pleasant to set up the wrapper:</p>\n<pre><code>static class LoggerSinkConfigurationExtensions\n{\n    public static LoggerConfiguration Boosted(\n        this LoggerSinkConfiguration lsc,\n        Action&lt;LoggerSinkConfiguration&gt; writeTo)\n    {\n        return LoggerSinkConfiguration.Wrap(\n            lsc,\n            wrapped =&gt; new LevelBoostingWrapper(wrapped),\n            writeTo);\n    }\n}\n</code></pre>\n<h3>3. Add the wrapper to the configuration</h3>\n<p>Finally, in the logger configuration, apply the wrapper:</p>\n<pre><code>Log.Logger = new LoggerConfiguration()\n    .WriteTo.Boosted(wt =&gt; wt.Console())\n    .CreateLogger();\n\nLog.Information(&quot;This will be unchanged&quot;);\nLog.Warning(&quot;This will be boosted to Error&quot;);\n       \nLog.CloseAndFlush();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 51261432,
+      "body": "<p>You can create a middleware to put required property to LogContext.</p>\n<pre><code>public class LogUserNameMiddleware\n{\n    private readonly RequestDelegate next;\n\n    public LogUserNameMiddleware(RequestDelegate next)\n    {\n        this.next = next;\n    }\n\n    public Task Invoke(HttpContext context)\n    {\n        LogContext.PushProperty(&quot;UserName&quot;, context.User.Identity.Name);\n\n        return next(context);\n    }\n}\n</code></pre>\n<p>Also you need to add the following to your logger configuration:</p>\n<pre><code>.Enrich.FromLogContext()\n</code></pre>\n<p>In Startup add the middleware <code>LogUserNameMiddleware</code>, and also note that the middleware should be added after <code>UserAuthentication</code>, in order to have <code>context.User.Identity</code> initialized</p>\n<p>e.g.</p>\n<pre><code>    app.UseAuthentication();     \n\n    app.UseMiddleware&lt;LogUserNameMiddleware&gt;();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alex Riabov",
+        "link": "https://stackoverflow.com/users/9608718/alex-riabov"
+      }
+    },
+    {
+      "answer_id": 62074296,
+      "body": "<p>Each of your <code>MinimumLevel.Override</code> can have its own <code>LoggingLevelSwitch</code>, which allows you to control the log level for each particular override at run-time.</p>\n\n<p>Create individual <code>LoggingLevelSwitch</code> for each override that you intend to modify whilst the app is running, and store these instances in a place that you can access from other parts of your application, which will allow you to change the <code>MinimumLevel</code> of these <code>LoggingLevelSwitch</code>(es).</p>\n\n<p>e.g.</p>\n\n<pre><code>public class LoggingLevelSwitches\n{\n    // Logging level switch that will be used for the \"Microsoft\" namespace\n    public static readonly LoggingLevelSwitch MicrosoftLevelSwitch\n        = new LoggingLevelSwitch(LogEventLevel.Warning);\n\n    // Logging level switch that will be used for the \"Microsoft.Hosting.Lifetime\" namespace\n    public static readonly LoggingLevelSwitch MicrosoftHostingLifetimeLevelSwitch\n        = new LoggingLevelSwitch(LogEventLevel.Information);\n}\n</code></pre>\n\n<p>Configure your Serilog logging pipeline to use these <code>LoggingLevelSwitch</code> instances:</p>\n\n<pre><code>static void Main(string[] args)\n{\n    Log.Logger = new LoggerConfiguration()\n        .MinimumLevel.Override(\"Microsoft\", LoggingLevelSwitches.MicrosoftLevelSwitch)\n        .MinimumLevel.Override(\"Microsoft.Hosting.Lifetime\",\n            LoggingLevelSwitches.MicrosoftHostingLifetimeLevelSwitch)\n        .Enrich.FromLogContext()\n        .CreateLogger();\n\n    // ...\n}\n</code></pre>\n\n<p>Then somewhere in your application, for example, in the code that handles your application configuration that can be changed at run-time, update the <code>LoggingLevelSwitch</code> instance(s) to the new <code>LogEventLevel</code> that you want:</p>\n\n<pre><code>public class AppSettings\n{\n    void ChangeLoggingEventLevel()\n    {\n        LoggingLevelSwitches.MicrosoftHostingLifetimeLevelSwitch\n            .MinimumLevel = LogEventLevel.Error;\n\n        LoggingLevelSwitches.MicrosoftHostingLifetimeLevelSwitch\n            .MinimumLevel = LogEventLevel.Warning;\n\n        // ...\n    }\n}\n</code></pre>\n\n<hr>\n\n<p>As you can see, the <code>LogEventLevel</code> is controlled by the <code>LoggingLevelSwitch</code> instances, so it's up to you to decide where in your application (and how) these instances will be modified, to affect the logging pipeline.</p>\n\n<p>The example above I'm assuming you have a screen (or API) in your application that a user would be able to configure the logging levels.</p>\n\n<p>If you don't have that, then another approach is to have a background thread that periodically checks a configuration file, an environment variable, or query a database, etc. to determine what these logging levels should be.</p>\n\n<p>If you're using a .NET Core Host, you can use the <a href=\"https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-3.1\" rel=\"noreferrer\">Options pattern</a> which can handle the refresh of the configuration for you, and allow you to execute code when the configuration changes (where you'd change the <code>MinimumLevel</code> of your <code>LoggingLevelSwitch</code>(es) you have.</p>\n",
+      "owner": {
+        "display_name": "Augusto Proiete",
+        "link": "https://stackoverflow.com/users/211672/augusto-proiete"
+      }
+    },
+    {
+      "answer_id": 52084954,
+      "body": "<p><strong>EDIT</strong></p>\n\n<p>Let me clarify that I was mostly thinking about the production code where I still stand on what I wrote before that every unhandled exception should be logged by the logger to be able to catch some edge cases that normally you would never predict. If you disagree please write down a comment so we can discuss it. For other environments e.g localhost you can use the <a href=\"https://stackoverflow.com/a/58368351/9918730\">Grzegorz Smulko answer</a></p>\n\n<p><strong>ANSWER:</strong></p>\n\n<blockquote>\n  <p>Is there a way in Serilog to exclude a specific exception type from\n  being logged?</p>\n</blockquote>\n\n<p>I would just create an empty catch for that specific type of exception and do just nothing inside the body e.g.</p>\n\n<pre><code>try\n{\n    // invoke some function/s\n}\ncatch (BlahException)\n{\n    // do nothing\n}\ncatch (Exception e)\n{\n    Log.Fatal(ex, \"Host terminated unexpectedly\");\n    // do something\n}\nfinally\n{\n    Log.CloseAndFlush();\n}\n</code></pre>\n\n<p>If you want to ignore more exceptions I would create some extra function which checks if you want to log this type of error or not.</p>\n\n<pre><code>// list of error codes:\n// https://learn.microsoft.com/en-gb/windows/desktop/Debug/system-error-codes\npublic static bool IgnoreError(int errorCode)\n{\n    switch (errorCode)\n    {\n        case 16389:\n            return true;\n        case 16387:\n            return true;\n        default:\n            return false;\n    }\n}\n</code></pre>\n\n<p>then inside the catch block, you can pass the exception code to this method. e.g.</p>\n\n<pre><code>try\n{\n    throw new ArgumentNullException(\"value\");\n}\ncatch (Exception e) \n{\n    // Using an AND operation will retrieve the error code from the HRESULT:\n    if (IgnoreError(e.HResult &amp; 0xFFFF))\n    {\n        return;\n    }\n    Log.Fatal(e, \"message\");\n}\n</code></pre>\n\n<p>I think <strong>every unhandled exception should be logged by logger because this is its main responsibility</strong>. I can't see any advantage to ignore logging unhandled exception and there shouldn't be such a setting, this is just too scary! If you know that exception can occur in a given place, then you should create the try and catch blocks to catch as many expected exceptions as possible. Then you can make a decision if you want to ignore some specific exception or no in the catch block.</p>\n",
+      "owner": {
+        "display_name": "Marcin Piwowarski",
+        "link": "https://stackoverflow.com/users/9918730/marcin-piwowarski"
+      }
+    },
+    {
+      "answer_id": 61816776,
+      "body": "<p><a href=\"https://gist.github.com/artemious7/c7d9856e128a8b2e9e92d096ca0e69ee#file-serilog-loggerstringinterpolationextensions-cs\" rel=\"noreferrer\">Add this file</a> to your project. It has <code>ILogger</code> extension methods <code>VerboseInterpolated()</code>, <code>DebugInterpolated()</code> and so on. There are also <a href=\"https://gist.github.com/artemious7/c7d9856e128a8b2e9e92d096ca0e69ee#file-serilog-loggerstringinterpolationtests-cs\" rel=\"noreferrer\">unit tests here</a>. </p>\n\n<h2>Usage with format string</h2>\n\n<pre><code>string name = \"John\";\n// add 'Interpolated' to method name: InformationInterpolated() instead of Information()\n// add name of the property after the expression. Name is passed to the logger\nlogger.InformationInterpolated($\"length of name '{name:name}' is {name.Length:Length}\");\n</code></pre>\n\n<p><strong>But be careful</strong>:  it's all too easy to use the wrong method. If you accidentally use the Serilog's method, for example <code>logger.Debug($\"length = {length:propertyNameForLogger}\")</code>, it will log <code>length = propertyNameForLogger</code>, so <em>no argument value</em> will be logged. This is due to <code>propertyNameForLogger</code> is <em>format</em> for your value.</p>\n\n<h2>Usage with anonymous types</h2>\n\n<pre><code>string name = \"John\";\n// add 'Interpolated' to method name: InformationInterpolated() instead of Information()\n// create an anonymous object with 'new { propertyName }'. \n// It's much slower because of using Reflection, but allows to write the variable name only once. \nlogger.InformationInterpolated($\"length of name '{new { name }}' is {new { name.Length }}\");\n// you can also specify other property names\nlogger.InformationInterpolated($\"length of name '{new { userName = name }}' is {new { lengthOfName = name.Length }}\");\n</code></pre>\n",
+      "owner": {
+        "display_name": "Artem",
+        "link": "https://stackoverflow.com/users/1830814/artem"
+      }
+    },
+    {
+      "answer_id": 61413261,
+      "body": "<p>Choosing which interface to use <strong>within your application</strong> is a matter of taste, really. If you prefer Serilog's <code>ILogger</code> shorter method names (e.g. <code>log.Error</code> vs <code>log.LogError</code>), go with that, otherwise use the Microsoft's generic <code>ILogger&lt;&gt;</code>. You have control over all the dependencies you use in your own projects, so there's no strong technical reason to prefer one over the other.</p>\n\n<p>You might be interested in reading this issue on Serilog's repo:</p>\n\n<blockquote>\n  <p><a href=\"https://github.com/serilog/serilog-aspnetcore/issues/104\" rel=\"noreferrer\">Should I use Microsoft.Extensions.Logging.ILogger or Serilog.ILogger?</a>.</p>\n</blockquote>\n\n<p>I personally use Serilog's <code>ILogger</code> across all my projects not only because I do prefer the shorter method names, but also because I prefer <em>not</em> to inject a logger in every single constructor of every class, and it's also easy to have a <a href=\"https://github.com/serilog/serilog/wiki/Writing-Log-Events#source-contexts\" rel=\"noreferrer\">contextual logger for every class</a> using <code>Log.ForContext&lt;&gt;</code>, which is useful when troubleshooting issues. E.g.</p>\n\n<pre><code>public class SomeService\n{\n    private readonly ILogger _log = Log.ForContext&lt;SomeService&gt;();\n    // ...\n}\n\npublic class SomeRepository\n{\n    private readonly ILogger _log = Log.ForContext&lt;SomeRepository&gt;();\n    // ...\n}\n</code></pre>\n\n<hr>\n\n<p><strong>If you were developing a library</strong> though, I'd recommend using Microsoft's generic <code>ILogger&lt;&gt;</code>, of course, instead of taking a dependency on <code>Serilog</code> and force consumers of your library to also take a dependency on <code>Serilog</code>.</p>\n\n<hr>\n\n<p><code>Log.Logger</code> is thread-safe, thus registering as a singleton as you are doing above is correct if you want all classes to share the same instance (<a href=\"https://github.com/serilog/serilog/wiki/Writing-Log-Events#source-contexts\" rel=\"noreferrer\">without <code>SourceContext</code>s</a>) - nothing wrong with that.</p>\n",
+      "owner": {
+        "display_name": "Augusto Proiete",
+        "link": "https://stackoverflow.com/users/211672/augusto-proiete"
+      }
+    },
+    {
+      "answer_id": 49560845,
+      "body": "<p>Don't know if this is still an active question, but this is my solution, override the minimum level for \"Microsoft.EntityFrameworkCore.Database.Command\"</p>\n\n<pre><code> Log.Logger = new LoggerConfiguration()\n            .MinimumLevel.ControlledBy(loggingLevelSwitch)\n            .MinimumLevel.Override(\"Microsoft.EntityFrameworkCore.Database.Command\", Serilog.Events.LogEventLevel.Warning)\n            .Enrich.WithProperty(\"app\", environment.ApplicationName)\n            .Enrich.FromLogContext()\n            .WriteTo.RollingFile($\"./Logs/{environment.ApplicationName}\")\n            .CreateLogger();\n</code></pre>\n\n<p>you can also have this on the appconfig.json</p>\n\n<pre><code>\"Serilog\": {\n    \"Using\": [ \"Serilog.Sinks.Console\" ],\n    \"MinimumLevel\": {\n      \"Default\": \"Verbose\",\n      \"Override\": {\n        \"Microsoft\": \"Warning\",\n        \"Microsoft.EntityFrameworkCore.Database.Command\": \"Warning\"\n      }\n    },\n    \"WriteTo\": [\n      {\n        \"Name\": \"Console\",\n        \"Args\": {\n          \"outputTemplate\": \"[{Timestamp:u}] [{Level:u3}] {SourceContext} {Message:lj}{NewLine}{Exception}\"\n        }\n      },\n    ],\n    \"Enrich\": [ \"FromLogContext\", \"WithExceptionDetails\" ]\n  }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Santiago Robledo",
+        "link": "https://stackoverflow.com/users/4163090/santiago-robledo"
+      }
+    },
+    {
+      "answer_id": 60268186,
+      "body": "<p>I struggled to find a good solution for this too. Adding the username/password to the url definitely does work but somehow doesnt feel right.</p>\n\n<p>This worked for me:</p>\n\n<pre><code>.WriteTo.Elasticsearch(new ElasticsearchSinkOptions(new Uri(\"https://your-deployment.westeurope.azure.elastic-cloud.com:9243\"))\n{\n  ...,\n  ModifyConnectionSettings = x =&gt; x.BasicAuthentication(\"elastic\", \"your-password\"),\n})\n</code></pre>\n",
+      "owner": {
+        "display_name": "Yashvit",
+        "link": "https://stackoverflow.com/users/77241/yashvit"
+      }
+    },
+    {
+      "answer_id": 60228667,
+      "body": "<p>This is not currently supported by the <a href=\"https://github.com/serilog/serilog-sinks-file\" rel=\"noreferrer\">Serilog.Sinks.File</a> sink. If you really want this feature, you can try to <a href=\"https://github.com/serilog/serilog-sinks-file/pulls\" rel=\"noreferrer\">send a pull-request</a>, or fork the repository and use your own custom implementation.</p>\n\n<p>Links you might be interested in:</p>\n\n<ul>\n<li><a href=\"https://github.com/serilog/serilog-sinks-file/issues/64\" rel=\"noreferrer\">Support {Date} for log path</a></li>\n<li><a href=\"https://github.com/serilog/serilog/issues/612\" rel=\"noreferrer\">Serilog {Date} format when using RollingFile</a></li>\n<li><a href=\"https://github.com/serilog/serilog-sinks-file/pull/84\" rel=\"noreferrer\">Ability to use DateTime format strings in Rolling File Sinks file names</a></li>\n<li><a href=\"https://github.com/serilog/serilog-sinks-file/issues/125\" rel=\"noreferrer\">Support for path by date</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Augusto Proiete",
+        "link": "https://stackoverflow.com/users/211672/augusto-proiete"
+      }
+    },
+    {
+      "answer_id": 60096660,
+      "body": "<p>After collecting informations from several posts, and customizing it to my needs, I have found a way to log both request and response body data as properties of serilog log structure.</p>\n\n<p>I didn't find a way to log both request and response body in one place only (in the <code>Invoke</code> method of the middleware), but I found a workaround. Because of the nature of the request processing pipeline, here is what I had to do:</p>\n\n<p>Code in the <code>Startup.cs</code>:</p>\n\n<pre class=\"lang-cs prettyprint-override\"><code>app.UseMiddleware&lt;RequestResponseLoggingMiddleware&gt;();\napp.UseSerilogRequestLogging(opts =&gt; opts.EnrichDiagnosticContext = LogHelper.EnrichFromRequest);\n</code></pre>\n\n<ul>\n<li><p>I have used <code>LogHelper</code> class for enriching request properties, just as described in the <a href=\"https://andrewlock.net/using-serilog-aspnetcore-in-asp-net-core-3-logging-the-selected-endpoint-name-with-serilog/\" rel=\"noreferrer\">Andrew Locks post</a>.</p></li>\n<li><p>when request processing hits the middleware, in the middleware's <code>Invoke</code> method I am reading <strong>only request body data</strong>, and setting this value to a static string property that I've added to <code>LogHelper</code> class. This way I have read and stored request body data as string, and can add it as enricher when <code>LogHelper.EnrichFromRequest</code> method gets called</p></li>\n<li><p>after reading request body data, I am copying a pointer to the original response body stream</p></li>\n<li><p><code>await _next(context);</code> gets called next, <code>context.Response</code> is populated, and request processing exits out from middleware's <code>Invoke</code> method, and goes to <code>LogHelper.EnrichFromRequest</code></p></li>\n<li><p>at this moment <code>LogHelper.EnrichFromRequest</code> is executing, <strong>reading response body data</strong> now, and setting it as enricher, as well as previously stored request body data and some additional properties</p></li>\n<li><p>processing returns to middleware <code>Invoke</code> method (right after <code>await _next(context);</code>), and copying the contents of the new memory stream (which contains the response) to the original stream,</p></li>\n</ul>\n\n<p>Following is the code described above in <code>LogHelper.cs</code> and <code>RequestResponseLoggingMiddleware.cs</code> classes:</p>\n\n<p>LogHelper.cs:</p>\n\n<pre class=\"lang-cs prettyprint-override\"><code>public static class LogHelper\n{\n    public static string RequestPayload = \"\";\n\n    public static async void EnrichFromRequest(IDiagnosticContext diagnosticContext, HttpContext httpContext)\n    {\n        var request = httpContext.Request;\n\n        diagnosticContext.Set(\"RequestBody\", RequestPayload);\n\n        string responseBodyPayload = await ReadResponseBody(httpContext.Response);\n        diagnosticContext.Set(\"ResponseBody\", responseBodyPayload);\n\n        // Set all the common properties available for every request\n        diagnosticContext.Set(\"Host\", request.Host);\n        diagnosticContext.Set(\"Protocol\", request.Protocol);\n        diagnosticContext.Set(\"Scheme\", request.Scheme);\n\n        // Only set it if available. You're not sending sensitive data in a querystring right?!\n        if (request.QueryString.HasValue)\n        {\n            diagnosticContext.Set(\"QueryString\", request.QueryString.Value);\n        }\n\n        // Set the content-type of the Response at this point\n        diagnosticContext.Set(\"ContentType\", httpContext.Response.ContentType);\n\n        // Retrieve the IEndpointFeature selected for the request\n        var endpoint = httpContext.GetEndpoint();\n        if (endpoint is object) // endpoint != null\n        {\n            diagnosticContext.Set(\"EndpointName\", endpoint.DisplayName);\n        }\n    }\n\n    private static async Task&lt;string&gt; ReadResponseBody(HttpResponse response)\n    {\n        response.Body.Seek(0, SeekOrigin.Begin);\n        string responseBody = await new StreamReader(response.Body).ReadToEndAsync();\n        response.Body.Seek(0, SeekOrigin.Begin);\n\n        return $\"{responseBody}\";\n    }\n}\n</code></pre>\n\n<p>RequestResponseLoggingMiddleware.cs:</p>\n\n<pre class=\"lang-cs prettyprint-override\"><code>public class RequestResponseLoggingMiddleware\n{\n    private readonly RequestDelegate _next;\n\n    public RequestResponseLoggingMiddleware(RequestDelegate next)\n    {\n        _next = next;\n    }\n\n    public async Task Invoke(HttpContext context)\n    {\n        // Read and log request body data\n        string requestBodyPayload = await ReadRequestBody(context.Request);\n        LogHelper.RequestPayload = requestBodyPayload;\n\n        // Read and log response body data\n        // Copy a pointer to the original response body stream\n        var originalResponseBodyStream = context.Response.Body;\n\n        // Create a new memory stream...\n        using (var responseBody = new MemoryStream())\n        {\n            // ...and use that for the temporary response body\n            context.Response.Body = responseBody;\n\n            // Continue down the Middleware pipeline, eventually returning to this class\n            await _next(context);\n\n            // Copy the contents of the new memory stream (which contains the response) to the original stream, which is then returned to the client.\n            await responseBody.CopyToAsync(originalResponseBodyStream);\n        }\n    }\n\n    private async Task&lt;string&gt; ReadRequestBody(HttpRequest request)\n    {\n        HttpRequestRewindExtensions.EnableBuffering(request);\n\n        var body = request.Body;\n        var buffer = new byte[Convert.ToInt32(request.ContentLength)];\n        await request.Body.ReadAsync(buffer, 0, buffer.Length);\n        string requestBody = Encoding.UTF8.GetString(buffer);\n        body.Seek(0, SeekOrigin.Begin);\n        request.Body = body;\n\n        return $\"{requestBody}\";\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Vladimir",
+        "link": "https://stackoverflow.com/users/2800691/vladimir"
+      }
+    },
+    {
+      "answer_id": 59753000,
+      "body": "<p>The complex type will get destructured if the key is prefixed with an <code>@</code> character.\nSo:</p>\n\n<p><code>using (logger.BeginScope(new Dictionary&lt;string, object&gt; { { \"@Data\", data } }))</code></p>\n\n<p>does the trick :-)</p>\n",
+      "owner": {
+        "display_name": "AroglDarthu",
+        "link": "https://stackoverflow.com/users/2100623/arogldarthu"
+      }
+    },
+    {
+      "answer_id": 59681991,
+      "body": "<p>You need to wrap the Serilog logger into <code>Microsoft.Extensions.Logging.LoggerFactory</code>. This is exactly what happens when same is used in DI in ASP.NET.</p>\n\n<p>Like this : </p>\n\n<pre><code>Serilog.Core.Logger serilog = ...;\n\nvar loggerFactory = new LoggerFactory()\n    .AddSerilog(serilog);\n\nMicrosoft.Extensions.Logging.ILogger logger = loggerFactory.CreateLogger(\"Logger\");\n</code></pre>\n\n<p>This needs <code>Serilog.Extensions.Logging</code> NuGet package.</p>\n",
+      "owner": {
+        "display_name": "Euphoric",
+        "link": "https://stackoverflow.com/users/463623/euphoric"
+      }
+    },
+    {
+      "answer_id": 59567049,
+      "body": "<p>The <a href=\"https://github.com/trbenning/serilog-sinks-xunit\" rel=\"noreferrer\">Serilog.Sinks.XUnit</a> nuget package makes it easy to accomplish this. Reference the nuget in your project. Then you can use the static logger in the test:</p>\n\n<pre><code>using Serilog;\nusing Xunit;\nusing Xunit.Abstractions;\n\nnamespace XunitToSerilog\n{\n    public class SampleTest\n    {\n        public SampleTest(ITestOutputHelper output)\n        {\n            Log.Logger = new LoggerConfiguration()\n            // add the xunit test output sink to the serilog logger\n            // https://github.com/trbenning/serilog-sinks-xunit#serilog-sinks-xunit\n            .WriteTo.TestOutput(output)\n            .CreateLogger();\n        }\n\n        [Fact]\n        public void Test1()\n        {\n            Log.Information(\"goes to test output\");\n        }\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "rachri",
+        "link": "https://stackoverflow.com/users/6898158/rachri"
+      }
+    },
+    {
+      "answer_id": 40701621,
+      "body": "<p>Try to do following thing in your controller.</p>\n\n<pre class=\"lang-c# prettyprint-override\"><code>    ILogger&lt;HomeController&gt; logger = null;\n    public HomeController(ILogger&lt;HomeController&gt; _logger)\n    {\n        logger = _logger;\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "dotnetstep",
+        "link": "https://stackoverflow.com/users/385326/dotnetstep"
+      }
+    },
+    {
+      "answer_id": 48594025,
+      "body": "<p>If you want to add properties that aren't part of the message template, then you need to enrich the log context. That means adding the FromLogContext enricher, and adding your properties to your logged event a bit differently.</p>\n\n<pre><code>Log.Logger = new LoggerConfiguration()\n    .Enrich.FromLogContext()\n    .MinimumLevel.Information()\n    .WriteTo.Console(outputTemplate:\n    \"[{Timestamp:HH:mm:ss} {Level:u3}] {UserId} {Event} - {Message}{NewLine}{Exception}\")\n    .CreateLogger();\n\nusing (LogContext.PushProperty(\"UserId\", \"123\"))\nusing (LogContext.PushProperty(\"Event\", \"Test Event\"))\n{\n    Log.Information(\"Here is my message about order {OrderNumber}\", 567);\n    Log.Information(\"Here is my message about product {ProductId}\", \"SomeProduct\");\n}\n</code></pre>\n\n<p>You can learn more about enrichment in <a href=\"https://github.com/serilog/serilog/wiki/Enrichment\" rel=\"noreferrer\">the documentation</a>.</p>\n\n<p>Now I'm not sure about Loggly. I've never used it before. But you don't even need to modify the output template if you're using Seq (which is from the creators of Serilog and works best with it). Properties added will automatically be available for each event.</p>\n\n<p>As Nicholas Blumhardt pointed out via comment, if you just need to one-off add a property to a single logged event, you can do that as well. I sometimes do this when I have a lot of properties for events that don't necessarily need to show up in the message, and only apply to this single event.</p>\n\n<pre><code>Log\n   .ForContext(\"OrderNumber\", orderNumber)\n   .ForContext(\"UserId\", user.Id)\n   .Information(\"Order submitted\");\n</code></pre>\n",
+      "owner": {
+        "display_name": "mason",
+        "link": "https://stackoverflow.com/users/1139830/mason"
+      }
+    },
+    {
+      "answer_id": 57796572,
+      "body": "<p>Yes, Serilog has a native equivalent of this feature, called using <code>LogContext.PushProperty()</code>.</p>\n\n<p>To enable this, you first must add <code>Enrich.FromLogContext()</code> to your Serilog <code>LoggerConfiguration</code>, for example:</p>\n\n<pre class=\"lang-cs prettyprint-override\"><code>Log.Logger = new LoggerConfiguration()\n    .Enrich.FromLogContext() // &lt;- this line\n    .WriteTo.Console(outputTemplate: \"[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj} \" +\n                                     \"{Properties:j}{NewLine}{Exception}\"))\n    .CreateLogger();\n</code></pre>\n\n<p>Then, to push properties onto the context (equivalent to <code>ILogger.BeginScope()</code>), use:</p>\n\n<pre class=\"lang-cs prettyprint-override\"><code>using (LogContext.PushProperty(\"OrderId\", 1234))\n{\n    Log.Information(\"Processing a new order\");\n    // ...etc\n}\n</code></pre>\n\n<p>The configuration above includes <code>{Properties:j}</code> to ensure all event properties, such as those from the log context, are included in the output. How you'll view the additional properties will depend upon which sink you're using.</p>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 57527169,
+      "body": "<p>After more investigating (and I can't believe I missed this earlier), the documentation <a href=\"https://github.com/serilog/serilog/wiki/AppSettings\" rel=\"noreferrer\">here</a> states you can edit the web.config file. In case anyone is looking for the configuration for web.config, there you go.</p>\n",
+      "owner": {
+        "display_name": "Ross Gustafson",
+        "link": "https://stackoverflow.com/users/1608969/ross-gustafson"
+      }
+    },
+    {
+      "answer_id": 57488163,
+      "body": "<p>I would suggest using a simple middleware that you insert in the ASP .NET Core pipeline, to enrich Serilog's <a href=\"https://github.com/serilog/serilog/wiki/Enrichment#the-logcontext\" rel=\"noreferrer\">LogContext</a> with the data you want, using the dependencies that you need, letting the ASP .NET Core dependency injection resolve the dependencies for you...</p>\n\n<p>e.g. Assuming <code>IUserDataService</code> is a service that you can use to get the data you need, to enrich the log, the middleware would look something like this:</p>\n\n<pre><code>public class UserDataLoggingMiddleware\n{\n    private readonly RequestDelegate _next;\n\n    public UserDataLoggingMiddleware(RequestDelegate next)\n    {\n        _next = next;\n    }\n\n    public async Task Invoke(HttpContext context, IUserDataService userDataService)\n    {\n        var userData = await userDataService.GetAsync();\n\n        // Add user data to logging context\n        using (LogContext.PushProperty(\"UserData\", userData))\n        {\n            await _next.Invoke(context);\n        }\n    }\n}\n</code></pre>\n\n<p><code>LogContext.PushProperty</code> above is doing the enrichment, adding a property called <code>UserData</code> to the log context of the current execution.</p>\n\n<p>ASP .NET Core takes care of resolving <code>IUserDataService</code> as long as you registered it in your <code>Startup.ConfigureServices</code>.</p>\n\n<p>Of course, for this to work, you'll have to:</p>\n\n<p>1. Tell Serilog to enrich the log from the Log context, by calling <code>Enrich.FromLogContext()</code>. e.g.</p>\n\n<pre><code>Log.Logger = new LoggerConfiguration()\n    .ReadFrom.Configuration(Configuration)\n    .Enrich.FromLogContext() // &lt;&lt;======================\n    .WriteTo.Console(\n        outputTemplate: \"[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj} \" +\n                        \"{Properties:j}{NewLine}{Exception}\")\n    .CreateLogger();\n</code></pre>\n\n<p>2. Add your middleware to the pipeline, in your <code>Startup.Configure</code>. e.g.</p>\n\n<pre><code>public void Configure(IApplicationBuilder app, IHostingEnvironment env)\n{\n    // ...\n\n    app.UseMiddleware&lt;UserDataLoggingMiddleware&gt;();\n\n    // ...\n\n    app.UseMvc();\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Augusto Proiete",
+        "link": "https://stackoverflow.com/users/211672/augusto-proiete"
+      }
+    },
+    {
+      "answer_id": 57284388,
+      "body": "<p>If you prefer <code>ILogger</code> instead of <code>ILogger&lt;HomeController&gt;</code>, you could try to register <code>ILogger</code>.   </p>\n\n<p>Here are two options to use <code>Serialog.Information</code>.   </p>\n\n<ol>\n<li><p>Use <code>Log.Logger</code>   </p>\n\n<pre><code>Log.Logger.Information(\"Information Log from Log.Logger\");\n</code></pre></li>\n<li><p>Register <code>ILogger</code> </p>\n\n<pre><code>//Startup.cs\nservices.AddSingleton(Log.Logger);\n\n//Use\npublic class HomeController : Controller\n{\n    private readonly ILogger _logger;\n    public HomeController(ILogger logger)\n    {\n        _logger = logger;\n    }\n    public IActionResult Index()\n    {\n        _logger.Information(\"Inform ILog from ILogger\");\n        return View();\n    }        \n}\n</code></pre></li>\n</ol>\n",
+      "owner": {
+        "display_name": "Edward",
+        "link": "https://stackoverflow.com/users/6265620/edward"
+      }
+    },
+    {
+      "answer_id": 57116871,
+      "body": "<p>Thanks to both answers, I need to use both <code>Serilog.Extensions.Hosting</code> and <code>Serilog.Sinks.RollingFile</code>.  Then it needs to create a logger object so it can be added to host builder, As shown below : </p>\n\n<pre><code>var logger = new LoggerConfiguration().WriteTo.RollingFile(\n                outputTemplate: outputTemplate,\n                restrictedToMinimumLevel: LogEventLevel.Information,\n                pathFormat: Path.Combine(loggingDirectory, \"systemlog-{Date}.text\")\n            .CreateLogger();\n</code></pre>\n\n<p>Note that <code>pathFormat</code> argument are useful and important.It consists of path and format which is described adequately in <a href=\"https://github.com/serilog/serilog-sinks-rollingfile\" rel=\"noreferrer\">Serilog.Sinks.RollingFile</a>( Filename format specifiers). Here i use {Date} format after path which means : It creates a file per day. <code>Filenames</code> use the yyyyMMdd format. </p>\n\n<p>After creating logger with such a config it needs to be added into <code>HostBuilder</code> like this:</p>\n\n<pre><code>var host = new HostBuilder()\n            .ConfigureLogging((context, builder) =&gt;\n            {\n                builder.AddConsole();\n                builder.AddSerilog(logger);\n                //....&lt;- some other option here\n            })\n            .Build();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Hassan Ahmadi",
+        "link": "https://stackoverflow.com/users/10181884/hassan-ahmadi"
+      }
+    },
+    {
+      "answer_id": 56227367,
+      "body": "<p>This is a limitation in the Serilog logger factory implementation; in particular, Serilog currently ignores added providers and assumes that Serilog Sinks will replace them instead.</p>\n\n<p>So, the solutions is implementaion a simple <code>WriteTo.OpenTracing()</code> method to connect Serilog directly to <code>OpenTracing</code></p>\n\n<pre><code>public class OpenTracingSink : ILogEventSink\n{\n    private readonly ITracer _tracer;\n    private readonly IFormatProvider _formatProvider;\n\n    public OpenTracingSink(ITracer tracer, IFormatProvider formatProvider)\n    {\n        _tracer = tracer;\n        _formatProvider = formatProvider;\n    }\n\n    public void Emit(LogEvent logEvent)\n    {\n        ISpan span = _tracer.ActiveSpan;\n\n        if (span == null)\n        {\n            // Creating a new span for a log message seems brutal so we ignore messages if we can't attach it to an active span.\n            return;\n        }\n\n        var fields = new Dictionary&lt;string, object&gt;\n        {\n            { \"component\", logEvent.Properties[\"SourceContext\"] },\n            { \"level\", logEvent.Level.ToString() }\n        };\n\n        fields[LogFields.Event] = \"log\";\n\n        try\n        {\n            fields[LogFields.Message] = logEvent.RenderMessage(_formatProvider);\n            fields[\"message.template\"] = logEvent.MessageTemplate.Text;\n\n            if (logEvent.Exception != null)\n            {\n                fields[LogFields.ErrorKind] = logEvent.Exception.GetType().FullName;\n                fields[LogFields.ErrorObject] = logEvent.Exception;\n            }\n\n            if (logEvent.Properties != null)\n            {\n                foreach (var property in logEvent.Properties)\n                {\n                    fields[property.Key] = property.Value;\n                }\n            }\n        }\n        catch (Exception logException)\n        {\n            fields[\"mbv.common.logging.error\"] = logException.ToString();\n        }\n\n        span.Log(fields);\n    }\n}\n\npublic static class OpenTracingSinkExtensions\n{\n    public static LoggerConfiguration OpenTracing(\n              this LoggerSinkConfiguration loggerConfiguration,\n              IFormatProvider formatProvider = null)\n    {\n        return loggerConfiguration.Sink(new OpenTracingSink(GlobalTracer.Instance, formatProvider));\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Darkside",
+        "link": "https://stackoverflow.com/users/6692626/darkside"
+      }
+    },
+    {
+      "answer_id": 28334074,
+      "body": "<p>I think you need:</p>\n\n<pre><code>.ByIncludingOnly(evt =&gt; evt.Level == LogEventLevel.Warning)\n</code></pre>\n\n<p><strong>Edit:</strong></p>\n\n<p>In many cases it's now more succinct to use <a href=\"https://github.com/serilog/serilog-sinks-map\" rel=\"noreferrer\"><em>Serilog.Sinks.Map</em></a>. With it, the example can be written as:</p>\n\n<pre><code>Log.Logger = new LoggerConfiuration()\n    .WriteTo.Map(\n        evt =&gt; evt.Level,\n        (level, wt) =&gt; wt.RollingFile(\"Logs\\\\\" + level + \"-{Date}.log\"))\n    .CreateLogger();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 55483935,
+      "body": "<p>Configuring path like <code>Logs/log.txt</code> will write log files under <code>logs</code> folder in working directory</p>\n\n<pre><code>\"WriteTo\": [\n  {\n    \"Name\": \"File\",\n    \"Args\": {\n      \"path\": \"Logs/log.txt\"\n    }\n  }\n</code></pre>\n\n<p>Also you can check <a href=\"https://stackoverflow.com/a/54993335/3134112\">this answer</a> for another option </p>\n",
+      "owner": {
+        "display_name": "ElasticCode",
+        "link": "https://stackoverflow.com/users/3134112/elasticcode"
+      }
+    },
+    {
+      "answer_id": 55386113,
+      "body": "<p>I believe that the answer to this question is to use subloggers, rather than separate loggers. I have found that you can do <code>.WriteTo.Logger</code> and filter further in there. I will accept this as the answer if nobody else has a better solution (and of course if I am able to get it to work). I need to be able to filter on the controller or action name, which at this time I have a second stack overflow question out to figure out how to get that data. <a href=\"https://stackoverflow.com/q/55359440/2793683\">Serilog with Asp.net Web Api not using enricher</a></p>\n",
+      "owner": {
+        "display_name": "dmoore1181",
+        "link": "https://stackoverflow.com/users/2793683/dmoore1181"
+      }
+    },
+    {
+      "answer_id": 55202474,
+      "body": "<p>You need to add only <code>.Enrich.FromLogContext()</code> when initializing Serilog in <code>Program.cs</code></p>\n\n<pre><code>Log.Logger = new LoggerConfiguration()\n        .ReadFrom.Configuration(configuration)\n        .Enrich.FromLogContext()\n        .CreateLogger();\n</code></pre>\n\n<p>Check <a href=\"https://github.com/serilog/serilog-aspnetcore#inline-initialization\" rel=\"noreferrer\">Inline initialization</a> in <em>Serilog.AspNetCore</em> documentation.</p>\n",
+      "owner": {
+        "display_name": "ElasticCode",
+        "link": "https://stackoverflow.com/users/3134112/elasticcode"
+      }
+    },
+    {
+      "answer_id": 41331599,
+      "body": "<p>The ASP.NET logging is a common (logging) interface and log implementation. </p>\n\n<p>You could use the common interface and 3rd party library (e.g NLog) together as the infrastructure is prepared for that. </p>\n\n<p>If you take NLog over the built-in logging implementation you win:</p>\n\n<ul>\n<li>changing configuration on-the-fly (while running application without restart)</li>\n<li>more targets (e.g. database, file). There is no file target in the built-in: <a href=\"https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging\" rel=\"nofollow noreferrer\">https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging</a>. <strike>The mail target in NLog isn't in .NET Standard yet, but it's planned.</strike> The mail target is there for .NET Standard 2 and for .NET Standard 1 there is NLog.MailKit</li>\n<li>more options in targets (e.g. file archiving) </li>\n<li>writing extra context info, like <code>${processid}</code></li>\n<li>as we invest a lot of in performance optimization, I would expect performance. </li>\n<li>async logging - which isn't in ASP.NET logging as far as I know. </li>\n<li>advanced features like buffering, fallbacks &amp; limiting your logs, filter conditions with context info, writing concurrent to one file etc. </li>\n<li>NLog is easier to extend (not only targets but also layout renderers, layouts etc.)</li>\n<li>possibility for structural logging (Serilog, NLog 4.5)</li>\n</ul>\n\n<p>But as always, if you don't need these features then maybe less (libraries) is more. </p>\n",
+      "owner": {
+        "display_name": "Julian",
+        "link": "https://stackoverflow.com/users/201303/julian"
+      }
+    },
+    {
+      "answer_id": 54385106,
+      "body": "<p>Just fixed this same problem with this configuration:</p>\n\n<pre><code>public static IWebHostBuilder CreateWebHostBuilder(string[] args) =&gt;\n    WebHost.CreateDefaultBuilder(args)\n        .ConfigureAppConfiguration((hostingContext, config) =&gt;\n        {\n            Log.Logger = new LoggerConfiguration()\n                .WriteTo\n                .File(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, \"logs/.log\"), rollingInterval: RollingInterval.Day)\n                .CreateLogger();\n        })\n        .ConfigureLogging((hostingContext, logging) =&gt;\n        {\n            logging.AddConfiguration(hostingContext.Configuration.GetSection(\"Logging\"));\n            logging.AddSerilog(dispose: true);\n        })\n        .UseStartup&lt;Startup&gt;();\n</code></pre>\n\n<p>Pay special attention to <code>AppDomain.CurrentDomain.BaseDirectory</code>. This will point to your Linux deploy folder. I guess it's possible to read the folder from a config file too.</p>\n\n<p>I also had to create the folder manually, as pointed out by Nicholas (thank you!, not only for this), but not the file.</p>\n",
+      "owner": {
+        "display_name": "DavidC",
+        "link": "https://stackoverflow.com/users/1863970/davidc"
+      }
+    },
+    {
+      "answer_id": 53935578,
+      "body": "<p>The <code>Async</code> Sink takes the already-captured <code>LogEvent</code> items and shifts them to a single background processor from multiple foreground threads using a <code>ConcurrentQueue</code> Producer/Consumer collection. In general that's a good thing for stable throughput esp with that throughput of events.</p>\n\n<p>Also if sending to >1 sink, shifting to a background thread which will be scheduled as necessary focusing on that workload (i.e., paths propagating to sinks being in cache) can be good if you have enough cores available and/or Sinks block even momentarily.</p>\n\n<p>Having said that, to base anything of this information is premature optimization.</p>\n\n<hr>\n\n<p>Console sinks and their ability to ingest efficiently without blocking if you don't put an <code>Async</code> in front, always Depends a lot - for example, hosting environments typically synthesize a <code>stdout</code> that buffers efficiently. When that works well, adding an <code>Async</code> in front of the Console sink is merely going to prolong object lifetimes without much benefit vs allowing each thread submit to the Console sink directly.</p>\n\n<hr>\n\n<p>So, it depends - IME feeding everything to <code>Async</code> and doing all processing there (e.g. writing to a buffered file, emitting every <code>.5s</code> (perhaps to a sidecar process that forwards to your log store)) can work well. The bottom line is that a good load generator rig is a very useful thing for any high throughput app. Once you have one, you can experiment - I've seen 30% throughput gains from reorganizing the exact same output and how it's scheduled (admittedly I also switched to Serilog during that transition - you're unlikely to see anything of that order).</p>\n",
+      "owner": {
+        "display_name": "Ruben Bartelink",
+        "link": "https://stackoverflow.com/users/11635/ruben-bartelink"
+      }
+    },
+    {
+      "answer_id": 53797248,
+      "body": "<p>This is covered in the documentation for <a href=\"https://github.com/serilog/serilog-settings-configuration\" rel=\"noreferrer\"><code>Serilog.Settings.Configuration</code></a>:</p>\n\n<blockquote>\n  <p>(This package implements a convention using <code>DependencyContext</code> to find any package with <code>Serilog</code> anywhere in the name and pulls configuration methods from it, so the <code>Using</code> example above is redundant.)</p>\n</blockquote>\n\n<p>This means that it's used to define which packages are used for locating Serilog sinks, but it's redundant when using the <code>Serilog.Settings.Configuration</code> package.</p>\n\n<hr>\n\n<p><strong>More Information</strong></p>\n\n<p>I've had a look at the Serilog source code in order to be able to provide more information on exactly what <code>Using</code> does and why it might be needed in the first place. I hope the following explanation is helpful.</p>\n\n<p>Consider the following code-based setup:</p>\n\n<pre><code>Log.Logger = new LoggerConfiguration()\n    .WriteTo.Console()\n    .CreateLogger();\n</code></pre>\n\n<p>In this example, <code>Console</code> is an extension method for <code>LoggerSinkConfiguration</code> (and so it takes, as its first parameter, an instance of <code>LoggerSinkConfiguration</code>). When using this code-based approach, the code will only compile if this extension method can be found within a referenced assembly.</p>\n\n<p>Next, consider the following approach, which uses the <code>IConfiguration</code>-based approach:</p>\n\n<pre><code>Log.Logger = new LoggerConfiguration()\n    .ReadFrom.Configuration(someConfiguration)\n    .CreateLogger();\n</code></pre>\n\n<pre class=\"lang-json prettyprint-override\"><code>{\n    \"Serilog\": {\n        \"Using\": [\"Serilog.Sinks.Console\"], // Redundant.\n        \"WriteTo\": [\"Console\"]\n    }\n}\n</code></pre>\n\n<p>In this example, the compilation process has no knowledge of what the JSON string value <code>\"Console\"</code> refers to and so there's a need for a process that can go from the string <code>\"Console\"</code> to the <code>Console()</code> extension method mentioned above. In order to do that, Serilog needs to first <em>find</em> the extension method <em>at runtime</em> (which, in this example, lives in the <code>Serilog.Sinks.Console</code> assembly).</p>\n\n<p>This finding process is done using reflection, which does a bit of assembly scanning to <a href=\"https://github.com/serilog/serilog/blob/master/src/Serilog/Settings/KeyValuePairs/CallableConfigurationMethodFinder.cs#L40\" rel=\"noreferrer\">find <code>public static</code> methods that take as their first parameter a <code>LoggerSinkConfiguration</code></a>. The <code>Using</code> directive you've asked about in your question is a <a href=\"https://github.com/serilog/serilog-settings-configuration/blob/master/src/Serilog.Settings.Configuration/Settings/Configuration/ConfigurationReader.cs#L272\" rel=\"noreferrer\">mechanism for helping determine exactly which assemblies should be scanned</a> when looking for these extension methods.</p>\n\n<p>As the documentation states, the <code>IConfiguration</code>-based approach uses <code>DependencyContext</code> in order to <a href=\"https://github.com/serilog/serilog-settings-configuration/blob/master/src/Serilog.Settings.Configuration/Settings/Configuration/ConfigurationReader.cs#L297\" rel=\"noreferrer\">automatically scan assemblies that have <code>Serilog</code> in their name</a>. Because <code>Serilog.Sinks.Console</code> <em>does</em> have <code>Serilog</code> in its name, there's no need to add this to the <code>Using</code> directive. You also have the option to <a href=\"https://github.com/serilog/serilog-settings-configuration/blob/master/src/Serilog.Settings.Configuration/ConfigurationLoggerConfigurationExtensions.cs#L47\" rel=\"noreferrer\">provide your own <code>DependencyContext</code> instance</a> when using this approach and so you might then need to be explicit about which assemblies to scan when looking for sinks.</p>\n",
+      "owner": {
+        "display_name": "Kirk Larkin",
+        "link": "https://stackoverflow.com/users/2630078/kirk-larkin"
+      }
+    },
+    {
+      "answer_id": 53129881,
+      "body": "<p>I try to set up a new .NET Core 2.1 Console project called <a href=\"https://github.com/kennyzx/DotNetCore/tree/master/UseSerilog\" rel=\"noreferrer\">UseSerilog</a> and I can reproduce the issue. </p>\n\n<p>After I remove the <code>Destructure</code> and <code>Filter</code> sections from the configuration then the app begins to work.</p>\n\n<p>Then I check the source code of the <code>Serilog.Settings.Configuration</code> package, I find <a href=\"https://github.com/serilog/serilog-settings-configuration/commit/43345f15222cfc8a9188f16b023f44d3bf9c43e7\" rel=\"noreferrer\">this commit</a>, and I come to conclusion that you need to write some code in order to make it work like this way.</p>\n\n<p>For the below configuration, you are expected to write a <code>CustomPolicy</code> class in the \"Sample\" namespace that implements <code>IDestructuringPolicy</code>.</p>\n\n<pre><code>{\n    \"Name\": \"With\",\n    \"Args\": { \"policy\": \"Sample.CustomPolicy, Sample\" }\n}\n</code></pre>\n\n<p>If you remove this, and leave <code>Destructure</code> as below, it is working.</p>\n\n<pre><code>\"Destructure\": [\n  {\n    \"Name\": \"ToMaximumDepth\",\n    \"Args\": { \"maximumDestructuringDepth\": 3 }\n  },\n  {\n    \"Name\": \"ToMaximumStringLength\",\n    \"Args\": { \"maximumStringLength\": 10 }\n  },\n  {\n    \"Name\": \"ToMaximumCollectionCount\",\n    \"Args\": { \"maximumCollectionCount\": 5 }\n  }\n]\n</code></pre>\n\n<p>Hope this finding helps you.</p>\n",
+      "owner": {
+        "display_name": "kennyzx",
+        "link": "https://stackoverflow.com/users/815938/kennyzx"
+      }
+    },
+    {
+      "answer_id": 52887689,
+      "body": "<p>You can override category-level log messages in your <code>appsettings.json</code>. For example, the following <code>appsettings.json</code> sets <code>Microsoft</code> log messages to only log out for those considered <code>Error</code>:</p>\n\n<pre class=\"lang-json prettyprint-override\"><code>\"Serilog\": {\n    \"MinimumLevel\": {\n        \"Default\": \"Information\",\n        \"Override\": {\n            \"Microsoft\": \"Error\"\n        }\n    },\n    ...\n}\n</code></pre>\n\n<p>The property of interest here is <code>Override</code>, which represents an object where the properties are category <em>prefixes</em> and the values are the <a href=\"https://github.com/serilog/serilog/wiki/Configuration-Basics#minimum-level\" rel=\"noreferrer\">Serilog log level</a> to use.</p>\n\n<p>Because your own custom log message will not be logged under a <code>Microsoft</code> category, you will still see <em>that</em> in the output.</p>\n",
+      "owner": {
+        "display_name": "Kirk Larkin",
+        "link": "https://stackoverflow.com/users/2630078/kirk-larkin"
+      }
+    },
+    {
+      "answer_id": 52349349,
+      "body": "<p>Ok I found a solution. </p>\n\n<p>You have to include package <code>Serilog.Sinks.Debug</code> (<a href=\"https://github.com/serilog/serilog-sinks-debug\" rel=\"noreferrer\">here</a>) into your project and initialize it with <code>WriteTo.Debug()</code>.</p>\n",
+      "owner": {
+        "display_name": "Mojmir",
+        "link": "https://stackoverflow.com/users/5724101/mojmir"
+      }
+    },
+    {
+      "answer_id": 52062133,
+      "body": "<p>The latest stable version of <code>Serilog.Sinks.MSSqlServer (5.1.2)</code> doesn't have <code>Microsoft.Extensions.Configuration</code> support. The same with the latest stable version of  <code>Serilog.Settings.Configuration (2.6.1)</code> (<a href=\"https://github.com/serilog/serilog-sinks-mssqlserver#serilog-configuration-package-net-standard--net-core\" rel=\"noreferrer\">ref</a>). </p>\n\n<p>Updating to pre-release versions <code>Serilog.Sinks.MSSqlServer 5.1.3-dev-00204</code> and <code>Serilog.Settings.Configuration 3.0.0-dev-00119</code> solves this issue.</p>\n",
+      "owner": {
+        "display_name": "Alex Riabov",
+        "link": "https://stackoverflow.com/users/9608718/alex-riabov"
+      }
+    },
+    {
+      "answer_id": 52046879,
+      "body": "<p>The setting you're looking for is <code>restrictedToMinimumLevel</code>. This GitHub <a href=\"https://github.com/serilog/serilog-settings-configuration/issues/19\" rel=\"noreferrer\">issue</a> shows some examples of this, but for your example, you just need to add <code>restrictedToMinimumLevel</code> to your <code>Args</code> for <code>RollingFile</code>:</p>\n\n<pre><code>\"Serilog\": {\n    \"Using\": [ \"Serilog.Sinks.Console\" ],\n    \"MinimumLevel\": \"Debug\",\n    \"WriteTo\": [\n      {\n        \"Name\": \"RollingFile\",\n        \"IsJson\": true,\n        \"Args\": {\n          \"pathFormat\": \"C:\\\\Logs\\\\Log-{Hour}.json\",\n          \"formatter\": \"Serilog.Formatting.Json.JsonFormatter, Serilog\",\n          \"restrictedToMinimumLevel\": \"Warning\"\n        }\n      },\n      {\n        \"Name\": \"Console\"\n      }\n    ]\n  },\n</code></pre>\n",
+      "owner": {
+        "display_name": "Kirk Larkin",
+        "link": "https://stackoverflow.com/users/2630078/kirk-larkin"
+      }
+    },
+    {
+      "answer_id": 51012829,
+      "body": "<blockquote>\n  <p>What I'm looking for is a way, from within the .ConfigureLogging() method to access a ServiceProvider instance so I can get the registered ILogger</p>\n</blockquote>\n\n<p>You can access the <code>ServiceProvider</code> from within the <code>ConfigureLogging()</code> method via <code>ILoggingBuilder.Services.BuildServiceProvider()</code>. Like so:</p>\n\n<pre><code>//...\n\nprivate static async Task Main(string[] args)\n{\n    var hostBuilder = new HostBuilder()\n        .ConfigureServices((hostContext, services) =&gt;\n        {\n            services.AddSingleton&lt;ILogger&gt;(BuildLogger);\n\n            // other services here \n        })\n        .ConfigureLogging((hostContext, loggingBuilder) =&gt;\n            loggingBuilder.AddSerilog(\n                loggingBuilder\n                    .Services.BuildServiceProvider().GetRequiredService&lt;ILogger&gt;(),\n                dispose: true));\n\n    await hostBuilder.RunConsoleAsync();\n}\n\n...//\n</code></pre>\n",
+      "owner": {
+        "display_name": "Corbett Stevens",
+        "link": "https://stackoverflow.com/users/6055707/corbett-stevens"
+      }
+    },
+    {
+      "answer_id": 50680201,
+      "body": "<p>Although you've added configuration to <code>appsettings.json</code> for overriding the Serilog logging levels, you've not actually passed said configuration into Serilog. At the simplest level, this requires you to install the <a href=\"https://www.nuget.org/packages/Serilog.Settings.Configuration\" rel=\"noreferrer\">Serilog.Settings.Configuration</a> nuget package. Once you've done that, you can add a call to <code>ReadFrom.Configuration</code>, like so:</p>\n\n<pre><code>var logger = new LoggerConfiguration()\n    .ReadFrom.Configuration(Configuration.GetSection(\"Logging\"))\n    .Enrich.FromLogContext()\n    // ...\n</code></pre>\n\n<p>This is all you need in order to get your configuration into Serilog, but you do have other issues with how you're still using <code>ILoggerFactory</code> inside of <code>Configure</code> (<a href=\"https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-2.1&amp;tabs=aspnetcore2x#how-to-add-providers\" rel=\"noreferrer\">this changed in ASP.NET Core 2.0</a>). One of the issues this is likely causing for you is that both ASP.NET Core's Console provider and the Serilog Console sink are writing logs. If you need help with any of that, it's well documented online, but of course you can create additional Stack Overflow questions if absolutely necessary.</p>\n\n<p>Nicholas Blumhardt <a href=\"https://nblumhardt.com/2017/08/use-serilog/\" rel=\"noreferrer\">blogged</a> about the ASP.NET Core 2.0 logging changes - This is a useful read that should help simplify your Serilog + ASP.NET Core experience greatly.</p>\n",
+      "owner": {
+        "display_name": "Kirk Larkin",
+        "link": "https://stackoverflow.com/users/2630078/kirk-larkin"
+      }
+    },
+    {
+      "answer_id": 50164132,
+      "body": "<p>If you are using ILogger in .Net core for logging purposes, those message can be directed to Application Insights with the <a href=\"https://github.com/Microsoft/ApplicationInsights-aspnetcore/wiki/Logging\" rel=\"nofollow noreferrer\">following modification</a> of startup.cs:</p>\n\n<pre><code>public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)\n{\n/*...existing code..*/\n            loggerFactory.AddApplicationInsights(app.ApplicationServices, LogLevel.Warning);\n}\n</code></pre>\n\n<p>If you employ your own correlation ID, you can modify Application Insights correlation IDs accordingly in <code>Context.Operation</code> field of telemetry item  with your own <a href=\"https://github.com/Microsoft/ApplicationInsights-aspnetcore/wiki/Custom-Configuration#configure-telemetry-initializers\" rel=\"nofollow noreferrer\">Telemetry Initializer</a> or pass those values in the <a href=\"https://learn.microsoft.com/en-us/azure/application-insights/application-insights-correlation\" rel=\"nofollow noreferrer\">respective headers</a> (<code>Request-ID</code> (global ID) and <code>Correlation-Context</code> (name-value pairs)) in the requests to this app - AI will pick up correlation IDs from those.</p>\n\n<p>The end to end transaction is supposed to be displayed together (Requests/Dependencies and Exceptions) on a timeline in the details view of Application Insights telemetry. With you own correlation IDs it should work as well if they are in there from the very beginning of transaction (e.g. in the first component) - otherwise injecting them in the middle will break the chain.</p>\n",
+      "owner": {
+        "display_name": "Dmitry Matveev",
+        "link": "https://stackoverflow.com/users/4812747/dmitry-matveev"
+      }
+    },
+    {
+      "answer_id": 49824247,
+      "body": "<p>Configure the <a href=\"https://github.com/serilog/serilog-sinks-file\" rel=\"noreferrer\"><code>Serilog.Sinks.File</code></a> sink without any rolling period or size limit, and add the timestamp to the log filename when you configure logging at startup:</p>\n\n<pre class=\"lang-cs prettyprint-override\"><code>string timestamp = DateTime.Now.ToString(\"yyyyMMdd_HHmm\");\nvar log = new LoggerConfiguration()\n    .WriteTo.File($\"log{timestamp}.txt\")\n    .CreateLogger();\n</code></pre>\n\n<p>Per the <a href=\"https://github.com/serilog/serilog-sinks-file#serilogsinksfile-----\" rel=\"noreferrer\">Rolling Policies</a> section of the README:</p>\n\n<blockquote>\n  <p>Specifying both <code>rollingInterval</code> and <code>rollOnFileSizeLimit</code> will cause both policies to be applied, while <em><strong>specifying neither will result in all events being written to a single file.</strong></em></p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "McGuireV10",
+        "link": "https://stackoverflow.com/users/152997/mcguirev10"
+      }
+    },
+    {
+      "answer_id": 49739064,
+      "body": "<p>After digging into this for a while, I was able to come up with an answer. Andy West's answer pointed me in the right direction.</p>\n\n<p>There are two separate issues here: CRLFs in the message and CRLFs in the exception.</p>\n\n<p>I was able to solve the message problem by changing \"{Message}\" to \"{Message:j}\" in the outputTemplate.</p>\n\n<p>Changing the exception was a little trickier. I had to add an enricher:</p>\n\n<pre><code>class ExceptionEnricher : ILogEventEnricher\n{\n    public void Enrich(LogEvent logEvent, ILogEventPropertyFactory propertyFactory)\n    {\n        if (logEvent.Exception == null)\n            return;\n\n        var logEventProperty = propertyFactory.CreateProperty(\"EscapedException\", logEvent.Exception.ToString().Replace(\"\\r\\n\", \"\\\\r\\\\n\"));\n        logEvent.AddPropertyIfAbsent(logEventProperty);\n    }        \n}\n</code></pre>\n\n<p>This adds and new property called EscapedException. This has to be added to the configuration with .Enrich.With().</p>\n\n<p>Then I replaced \"{Exception}\" with \"{EscapedException}\" in the outputTemplate.</p>\n",
+      "owner": {
+        "display_name": "Andrew Radford",
+        "link": "https://stackoverflow.com/users/4212174/andrew-radford"
+      }
+    },
+    {
+      "answer_id": 49228186,
+      "body": "<p>Though it is slightly indirect, you can use <code>IsEnabled</code> to check this level by level:</p>\n\n<pre><code>Log.IsEnabled(LogEventLevel.Debug)\n</code></pre>\n\n<p>This is usually enough for these kinds of scenarios. If you really need the precise minimum level, you can try the various <code>LogEventLevel</code> members individually to figure it out. <code>IsEnabled()</code> is very fast, so checking a few levels this way won't show up on your performance radar.</p>\n\n<p>Keep in mind that the minimum level can still be overridden per source context (i.e. with <code>MinimumLevel.Override()</code>).</p>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 48473441,
+      "body": "<p>When you use injected <code>ILogger&lt;T&gt;</code>, under the hood Serilog logger is created by <a href=\"https://github.com/serilog/serilog-extensions-logging/blob/dev/src/Serilog.Extensions.Logging/Extensions/Logging/SerilogLoggerProvider.cs\" rel=\"noreferrer\">SerilogLoggerProvider</a> that implements <code>ILoggerProvider</code> interface. This interface has the only method:</p>\n\n<pre><code>public interface ILoggerProvider : IDisposable\n{\n    ILogger CreateLogger(string categoryName);\n}\n</code></pre>\n\n<p>The passed <code>categoryName</code> is used as value for <code>{SourceContext}</code> property in message format. And ASP.NET Core passes it as fully-qualified name (e.g. <code>FlickPopper.API.Controllers.ValuesController</code>).</p>\n\n<p>So this string value should be fixed not in Serilog code or configuration, but in ASP.NET Core logging infrastructure.</p>\n\n<p>The responsible class for creation of that value in first place is <code>Logger&lt;T&gt;</code> class. Instances of <code>Logger&lt;T&gt;</code> are instantiated when you inject <code>ILogger&lt;T&gt;</code> into your classes. Here is <a href=\"https://github.com/aspnet/Logging/blob/dev/src/Microsoft.Extensions.Logging.Abstractions/LoggerOfT.cs\" rel=\"noreferrer\">source code</a> of its constructor:</p>\n\n<pre><code>public class Logger&lt;T&gt; : ILogger&lt;T&gt;\n{\n    public Logger(ILoggerFactory factory)\n    {\n        if (factory == null)\n        {\n            throw new ArgumentNullException(nameof(factory));\n        }\n\n        _logger = factory.CreateLogger(TypeNameHelper.GetTypeDisplayName(typeof(T)));\n    }\n\n    //  ...\n}\n</code></pre>\n\n<p>That call to <code>TypeNameHelper.GetTypeDisplayName(typeof(T))</code> returns fully-qualified name that then is passed to <code>ILoggerFactory</code> and eventually to <code>SerilogLoggerProvider</code>.</p>\n\n<p>So if you want to change that behavior and adjust the <code>categoryName</code> passed to <code>ILoggerFactory</code>, you should have your own implementation of <code>ILogger&lt;T&gt;</code> that makes required call to <code>ILoggerFactory.CreateLogger()</code>. It's not that difficult, because <code>Logger&lt;T&gt;</code> class is very thin and is based on <code>Microsoft.Extensions.Logging.Logger</code> implementation. Here is the class that is a copy of <code>Logger&lt;T&gt;</code> except for one line producing logger category name:</p>\n\n<pre><code>public class LoggerEx&lt;T&gt; : ILogger&lt;T&gt;\n{\n    private readonly ILogger _logger;\n\n    public LoggerEx(ILoggerFactory factory)\n    {\n        if (factory == null)\n        {\n            throw new ArgumentNullException(nameof(factory));\n        }\n\n        _logger = factory.CreateLogger(typeof(T).Assembly.GetName().Name);\n    }\n\n    IDisposable ILogger.BeginScope&lt;TState&gt;(TState state)\n    {\n        return _logger.BeginScope(state);\n    }\n\n    bool ILogger.IsEnabled(LogLevel logLevel)\n    {\n        return _logger.IsEnabled(logLevel);\n    }\n\n    void ILogger.Log&lt;TState&gt;(LogLevel logLevel, EventId eventId, TState state, Exception exception, Func&lt;TState, Exception, string&gt; formatter)\n    {\n        _logger.Log(logLevel, eventId, state, exception, formatter);\n    }\n}\n</code></pre>\n\n<p>You should also replace the standard implementation of <code>ILogger&lt;T&gt;</code> with this one in your services registration:</p>\n\n<p><code>services.AddSingleton(typeof(ILogger&lt;&gt;), typeof(LoggerEx&lt;&gt;));</code></p>\n\n<p>Now the instances of <code>LoggerEx&lt;T&gt;</code> will be injected to the controllers and <code>{SourceContext}</code> will have a value you built:</p>\n\n<blockquote>\n  <p>2018-01-27 09:54:21 [INF] [TestProject.TestApplication] Hello!</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "CodeFuller",
+        "link": "https://stackoverflow.com/users/5740031/codefuller"
+      }
+    },
+    {
+      "answer_id": 48196986,
+      "body": "<p>I think it would need to be this...</p>\n\n<pre><code>LogEventLevel level = LogEventLevel.Information;\n#if DEBUG\n            level = LogEventLevel.Debug;\n#endif\n\n        UsageLogger = new LoggerConfiguration()\n    #if DEBUG\n    .MinimumLevel.Debug()\n    #endif\n           .Enrich.With(new ThreadIdEnricher())\n           .WriteTo.File(\"UsageLogging.txt\", restrictedToMinimumLevel: level, outputTemplate: LogTemplate, rollingInterval: RollingInterval.Day)\n           .Enrich.With(new ThreadIdEnricher())\n           .WriteTo.Console(restrictedToMinimumLevel: level, outputTemplate: LogTemplate)\n           .Enrich.With(new ThreadIdEnricher())\n            .CreateLogger();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Paul M",
+        "link": "https://stackoverflow.com/users/88289/paul-m"
+      }
+    },
+    {
+      "answer_id": 47771450,
+      "body": "<p><code>LogError</code> extension method has following overrides:</p>\n\n<pre><code>public static void LogError(this ILogger logger, Exception exception, string message, params object[] args);\npublic static void LogError(this ILogger logger, string message, params object[] args);\n</code></pre>\n\n<p>When you call</p>\n\n<p><code>_log.LogError(\"Exception thrown when trying to convert customer viewmodel to model or getting data from the database with id: \" + id, ex);</code></p>\n\n<p>you actually use the second one and <code>ex</code> object is passed just as parameter for formatting. As far as your message does not have formatting items, passed exception is just ignored.</p>\n\n<p>To fix the problem just switch arguments in your call, exception should be the first:</p>\n\n<pre><code>_log.LogError(ex, \"Exception thrown when trying to convert customer viewmodel to model or getting data from the database with id: \" + id);\n</code></pre>\n",
+      "owner": {
+        "display_name": "CodeFuller",
+        "link": "https://stackoverflow.com/users/5740031/codefuller"
+      }
+    },
+    {
+      "answer_id": 47592587,
+      "body": "<p>I solved this issue by using a combination of <a href=\"https://stackoverflow.com/a/47578083/7610030\">Jordan's</a> answer and <a href=\"https://stackoverflow.com/a/41170364/7610030\">this</a> answer.</p>\n\n<p>I changed my Loggerconfiguration by adding the logcontext through <a href=\"https://github.com/serilog/serilog/wiki/Enrichment#the-logcontext\" rel=\"noreferrer\">enrichment</a> and I added the property 'method' to my outputTemplate:</p>\n\n<pre><code>var logger = new LoggerConfiguration()\n    .MinimumLevel.Verbose()\n    .MinimumLevel.Override(\"Microsoft\", LogEventLevel.Warning)\n    .Enrich.FromLogContext()\n    .WriteTo.RollingFile(Configuration.GetValue&lt;string&gt;(\"LogFilePath\") + \"-{Date}.txt\", LogEventLevel.Information, \n        outputTemplate: \"{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level}] ({SourceContext}.{Method}) {Message}{NewLine}{Exception}\")\n    .CreateLogger();\n</code></pre>\n\n<p>The Enrich.FromLogContext enables properties to be pushed to the outputTemplate by using the LogContext.PushProperty() method. In this case for the 'method' property (notice the {Method} in the outputTemplate). </p>\n\n<p>Example for <strong>async</strong> methods:</p>\n\n<pre><code>using (LogContext.PushProperty(\"Method\", new LogAsyncMethods().GetActualAsyncMethodName()))\n{\n    _log.LogInformation(\"Log message.\");\n}\n</code></pre>\n\n<p>Where GetActualAsyncMethodName() is written like this:</p>\n\n<pre><code>public static string GetActualAsyncMethodName([CallerMemberName]string name = null) =&gt; name;\n</code></pre>\n\n<p>This works fine for <strong>async</strong> methods.</p>\n\n<p>Now for <strong>non-async</strong> methods this works fine:</p>\n\n<pre><code>using (LogContext.PushProperty(\"Method\", System.Reflection.MethodBase.GetCurrentMethod().Name))\n{\n    _log.LogInformation(\"Changing of customer name succeeded\");\n}\n</code></pre>\n\n<p>Now the method name is being displayed in the logging. The SourceContext adds the namespace + the class and by adding \".{Method}\" it will result in:</p>\n\n<blockquote>\n  <p>Namespace.ClassName.MethodName</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Jeroen",
+        "link": "https://stackoverflow.com/users/7610030/jeroen"
+      }
+    },
+    {
+      "answer_id": 47191498,
+      "body": "<p>This can be achieved by plugging an enricher into the logging pipeline:</p>\n\n<pre><code>.Enrich.With(new RemovePropertiesEnricher())\n</code></pre>\n\n<p>Where:</p>\n\n<pre><code>class RemovePropertiesEnricher : ILogEventEnricher\n{\n    public void Enrich(LogEvent le, ILogEventPropertyFactory lepf)\n    {\n        le.RemovePropertyIfPresent(\"SourceContext\");\n        le.RemovePropertyIfPresent(\"RequestId\");\n        le.RemovePropertyIfPresent(\"RequestPath\");\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 46642420,
+      "body": "<p>As far as I know, Serilog.Sinks.Console will write log events to the Windows Console. But if you publish the application to azure, we will not see the console directly.</p>\n\n<p>I suggest you could consider using <a href=\"https://github.com/serilog/serilog-sinks-rollingfile\" rel=\"noreferrer\">Serilog.Sinks.RollingFile</a> or <a href=\"https://github.com/serilog/serilog-sinks-applicationinsights#serilogsinksapplicationinsights\" rel=\"noreferrer\">Serilog.Sinks.ApplicationInsights</a> instead of the console to write log events .</p>\n\n<p>About how to use Serilog.Sinks.RollingFile or Serilog.Sinks.ApplicationInsights, you could refer to below codes.</p>\n\n<p>Firstly, install the <a href=\"https://www.nuget.org/packages/Serilog.AspNetCore\" rel=\"noreferrer\">Serilog.AspNetCore</a> and <a href=\"https://www.nuget.org/packages/Serilog.Sinks.RollingFile/\" rel=\"noreferrer\">Serilog.Sinks.RollingFile</a> package from Nuget.</p>\n\n<p>Then you could use below codes to log the information.</p>\n\n<pre><code>    //if you want to use ApplicationInsights just change the write to's method as Serilog.Sinks.ApplicationInsights links shows\n    Log.Logger = new LoggerConfiguration()\n       .MinimumLevel.Debug()\n       .MinimumLevel.Override(\"Microsoft\", LogEventLevel.Information)\n       .Enrich.FromLogContext()\n       .WriteTo.RollingFile(\"log-{Date}.txt\")\n       .CreateLogger();\n\n    Log.Information(\"This will be written to the rolling file set\");\n</code></pre>\n\n<p>It will auto create txt file to log the events.</p>\n\n<p>Result like this, you could find it in the application wwwrot path:</p>\n\n<p><a href=\"https://i.sstatic.net/9LjwG.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/9LjwG.png\" alt=\"enter image description here\"></a></p>\n\n<hr>\n\n<p>Update:</p>\n\n<p>If you want to use Serilog to log the logs to the azure log stream, you need firstly enable the 'Diagnostic logs' in web app. Then you could use Serilog to log the file to the azure default 'Diagnostic logs' folder. e.g: D:\\home\\LogFiles\\http\\RawLogs. Then the log will show in the Log Streaming. </p>\n\n<p>Use below codes to test:</p>\n\n<pre><code>        Log.Logger = new LoggerConfiguration()\n          .MinimumLevel.Debug()\n          .MinimumLevel.Override(\"Microsoft\", LogEventLevel.Information)\n          .Enrich.FromLogContext()\n          .WriteTo.File(@\"D:\\home\\LogFiles\\http\\RawLogs\\log.txt\")\n          .CreateLogger();\n\n        Log.Information(\"This will be written to the rolling file set\");\n</code></pre>\n\n<p>And enable the Diagnostics logs.</p>\n\n<p><a href=\"https://i.sstatic.net/wjn5m.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/wjn5m.png\" alt=\"enter image description here\"></a></p>\n\n<p>Then open the Log stream and locate the Application logs.</p>\n\n<p>You could find the log has already log into the log-steam.</p>\n\n<p><a href=\"https://i.sstatic.net/TKUnL.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/TKUnL.png\" alt=\"enter image description here\"></a></p>\n\n<p>The folder:</p>\n\n<p><a href=\"https://i.sstatic.net/O4eH9.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/O4eH9.png\" alt=\"enter image description here\"></a></p>\n",
+      "owner": {
+        "display_name": "Brando Zhang",
+        "link": "https://stackoverflow.com/users/7609093/brando-zhang"
+      }
+    },
+    {
+      "answer_id": 46587259,
+      "body": "<p>here is <a href=\"https://github.com/serilog/serilog/wiki/Structured-Data\" rel=\"noreferrer\">Serilog documentation</a> </p>\n\n<blockquote>\n  <p>For this task, Serilog provides the @ destructuring operator.</p>\n</blockquote>\n\n<pre><code>var sensorInput = new { Latitude = 25, Longitude = 134 };\nLog.Information(\"Processing {@SensorInput}\", sensorInput);\n</code></pre>\n\n<p>as you can see to do destructuring you have to set @ before key name. This is missed in your sample code</p>\n\n<pre><code>logger.Debug(\"Employee details {Employee}\", employee);\n</code></pre>\n",
+      "owner": {
+        "display_name": "oleksa",
+        "link": "https://stackoverflow.com/users/940182/oleksa"
+      }
+    },
+    {
+      "answer_id": 46260268,
+      "body": "<p><code>Log.CloseAndFlush()</code> only needs to be called once in a console application, before the application exits. It's a \"shutdown\" method that ensures any buffered events are processed before the application exits.</p>\n\n<p>The Serilog <a href=\"https://github.com/serilog/serilog/wiki/Lifecycle-of-Loggers\" rel=\"noreferrer\">Lifecycle of Loggers</a> documentation has some more detail on <code>CloseAndFlush()</code>.</p>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 45328532,
+      "body": "<p>I seem to recall that we had to do a custom formatter at work a few years ago to modify the default json output from serilog. I do not remember the exact problem we had.</p>\n\n<p>You could take a look at, <a href=\"https://github.com/serilog/serilog/wiki/Formatting-Output\" rel=\"nofollow noreferrer\">https://github.com/serilog/serilog/wiki/Formatting-Output</a>, if you haven't already</p>\n\n<p>I have started using <a href=\"https://getseq.net/\" rel=\"nofollow noreferrer\">https://getseq.net/</a> to look at the structured output during development, I would highly recommend it.</p>\n",
+      "owner": {
+        "display_name": "Christian Sparre",
+        "link": "https://stackoverflow.com/users/489210/christian-sparre"
+      }
+    },
+    {
+      "answer_id": 44577536,
+      "body": "<p><a href=\"https://github.com/serilog/serilog-sinks-rollingfile/blob/dev/README.md\" rel=\"noreferrer\">https://github.com/serilog/serilog-sinks-rollingfile/blob/dev/README.md</a>\nLook there. You can configure autocreation of a new log file every day and also you can set how many of them you want to be kept</p>\n",
+      "owner": {
+        "display_name": "Kirhgoph",
+        "link": "https://stackoverflow.com/users/7710443/kirhgoph"
+      }
+    },
+    {
+      "answer_id": 39443530,
+      "body": "<p>You may forget this following line in project.json</p>\n\n<p><code>\"Serilog.Extensions.Logging\": \"1.0.0\",</code></p>\n\n<p>See also <a href=\"https://carlos.mendible.com/2016/09/19/step-step-serilog-asp-net-core/\" rel=\"noreferrer\">https://carlos.mendible.com/2016/09/19/step-step-serilog-asp-net-core/</a></p>\n",
+      "owner": {
+        "display_name": "Teerachai",
+        "link": "https://stackoverflow.com/users/6820990/teerachai"
+      }
+    },
+    {
+      "answer_id": 42937947,
+      "body": "<p>Yes, <code>ILogger</code>s in Serilog are always safe to use concurrently from multiple threads.</p>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 42216069,
+      "body": "<p>I just did a bunch of research on this topic for a blog post on ASP.NET Core logging. I looked at the built in logging as well as NLog, SeriLog, and log4net. </p>\n\n<p>Basically what I found is the the built in ILoggerFactory works fine but does has one glaring problem: <strong>it won't write to file</strong>. It supports Console, Debug, ETW, and some other providers, but not files. I assume because files are quite complicated when you have to start worrying about max file sizes, rotations, and all the other stuff that goes with it. </p>\n\n<p>The built in logging works great for .NET internals and since they don't need to write to files, it really isn't a limitation for the .NET team. Serilog and NLog both provide little extensions to enable the file writing. Of course those libraries also provide a lot more functionality across the board.</p>\n\n<p>Serilog's extension requires one line of code and it adds file logging. You can read about it here: <a href=\"https://github.com/serilog/serilog-extensions-logging-file\" rel=\"nofollow noreferrer\">https://github.com/serilog/serilog-extensions-logging-file</a></p>\n\n<p>Here is my blog post about ASP.NET Core logging if it helps: <a href=\"https://stackify.com/asp-net-core-logging-what-changed/\" rel=\"nofollow noreferrer\">https://stackify.com/asp-net-core-logging-what-changed/</a></p>\n\n<p>I'd say if you have really simple logging needs you can make the built-in logging work, with the File extension. As soon as you want to get in to any advanced functions like controlling the output format, logging to external services, file rotation, max file size, etc, you will want to use NLog or Serilog.</p>\n",
+      "owner": {
+        "display_name": "Matt Watson",
+        "link": "https://stackoverflow.com/users/884742/matt-watson"
+      }
+    },
+    {
+      "answer_id": 25821762,
+      "body": "<p>Use <code>LoggingLevelSwitch</code> for this:</p>\n\n<pre><code>// Set initial level\nvar levelSwitch = new LoggingLevelSwitch(LogEventLevel.Warning);\n\nLog.Logger = new LoggerConfiguration()\n  .MinimumLevel.ControlledBy(levelSwitch)\n  .WriteTo.Console()\n  .CreateLogger();\n\nLog.Debug(\"This is not shown\");\n\nlevelSwitch.MinimumLevel = LogEventLevel.Debug;\n\nLog.Debug(\"This will now be shown, since the level has changed\");\n</code></pre>\n\n<p>When the `levelSwitch.MinimumLevel is changed, the logger will pick up the new minimum level setting.</p>\n\n<h3>For Serilog 1.4.10 and earlier</h3>\n\n<p>Serilog doesn't bake this in as a first-class notion.</p>\n\n<p>This can be emulated using a filter:</p>\n\n<pre><code>// Stored e.g. in a static field\nvolatile LogEventLevel minLevel;\n\nLog.Logger = new LoggerConfiguration()\n    .Filter.ByExcluding(evt =&gt; (int)evt.Level &lt; (int)minLevel)\n    .CreateLogger();\n</code></pre>\n\n<p>It'd be up to you to determine how <code>minLevel</code> gets modified as the app runs.</p>\n\n<p>This approach isn't as efficient as setting the minimum level natively since the events will be generated in all cases, but the actual overhead shouldn't be huge.</p>\n\n<p>Depending on the sinks you're using, an alternative is to simply create multiple loggers, and choose between them:</p>\n\n<pre><code>var minVerboseLogger = new LoggerConfiguration()\n    .MinimumLevel.Verbose()\n    .CreateLogger();\n\nvar minWarningLogger = new LoggerConfiguration()\n    .MinimumLevel.Warning()\n    .CreateLogger();\n\n// Somewhere else:\npublic ILogger Log\n{\n    get { return isVerbose ? minVerboseLogger : minWarningLogger; }\n}\n</code></pre>\n\n<p>The second approach is preferable, but won't behave nicely if the two loggers need to share the same log file. If you need to write to a file in both cases, chain the higher-level logger to the lower one, e.g.:</p>\n\n<pre><code>var minWarningLogger = new LoggerConfiguration()\n    .MinimumLevel.Warning()\n    .WriteTo.Sink((ILogEventSink)minVerboseLogger)\n    .CreateLogger();\n</code></pre>\n\n<p>Admittedly this is more complex than the NLog approach you linked; I'll give some thought as to how we might make it smoother.</p>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 39838714,
+      "body": "<p>You can use the <code>.With()</code> method without the generic to pass an instance of your enricher. So in your example, it would be:</p>\n\n<pre><code>var instance = new MySerilogEnricher(myDependency);\nvar log = new LoggerConfiguration()\n    .Enrich.With(instance)\n    .ReadAppSettings()\n    .CreateLogger();\n</code></pre>\n",
+      "owner": {
+        "display_name": "rmc00",
+        "link": "https://stackoverflow.com/users/207980/rmc00"
+      }
+    },
+    {
+      "answer_id": 30639107,
+      "body": "<p>I could figure it out on my own!</p>\n\n<p>You can use the fluent method <code>.ForContext(propertyName, propertyValue)</code> on a single call to one of the <code>.LogXXX()</code> methods.</p>\n\n<p>For instance : </p>\n\n<pre><code>logger.ForContext(\"User\", user)\n      .Information(\"Doing stuff {Foo} with the thing {Bar}\", foo, bar)\n</code></pre>\n\n<p>The property added to the event only apply to the event, and they are no longer present on the next call to the <code>logger.LogXXX()</code> method</p>\n\n<p><strong>UPDATE</strong></p>\n\n<p>The article by Nicholas Blumhardt explains it quite well : <a href=\"https://nblumhardt.com/2016/08/context-and-correlation-structured-logging-concepts-in-net-5/\" rel=\"noreferrer\">Context and correlation – structured logging concepts in .NET (5)</a></p>\n",
+      "owner": {
+        "display_name": "tsimbalar",
+        "link": "https://stackoverflow.com/users/474763/tsimbalar"
+      }
+    },
+    {
+      "answer_id": 38785632,
+      "body": "<p>Serilog will also do this as you describe, by filtering by namespace:</p>\n\n<pre><code>var isController = Matching.FromSource(\"MyApp.Controllers\");\nvar isService = Matching.FromSource(\"MyApp.Services\");\n\nLog.Logger = new LoggerConfiguration()\n    .MinimumLevel.Verbose()\n    .WriteTo.RollingFile(\"d:/logs/recon-api-all-{Date}.log\")\n    .WriteTo.Logger(l =&gt; l\n        .Filter.ByIncludingOnly(isController)\n        .WriteTo.RollingFile(\"d:/logs/recon-api-controller-{Date}.log\"))\n    .WriteTo.Logger(l =&gt; l\n        .Filter.ByIncludingOnly(isService)\n        .WriteTo.RollingFile(\"d:/logs/recon-api-service-{Date}.log\"))\n    .WriteTo.Logger(l =&gt; l\n        .Filter.ByExcluding(e =&gt; isController(e) || iService(e))\n        .WriteTo.RollingFile(\"d:/logs/recon-api-other-{Date}.log\"))\n    .CreateLogger();\n</code></pre>\n\n<p>If the controllers and services aren't identifiable by namespace, you can write a lambda function in place of <code>isController</code> or <code>isService</code> to identify them.</p>\n\n<p>(Your scenario might be better suited to a logging format that permits easier filtering, so that you can selectively view controller events, service events and so-on by filtering <em>after</em> the fact. Check out the other Serilog <a href=\"https://github.com/serilog/serilog/wiki/Provided-Sinks\" rel=\"noreferrer\">provided sinks</a> for some options.)</p>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 38491795,
+      "body": "<p>You can do this by first making sure the performance counter events are tagged with either a particular property value (<code>OpenMappedContext()</code> in LibLog) or from a particular type/namespace.</p>\n\n<pre><code>var log = LogProvider.For&lt;MyApp.Performance.SomeCounter&gt;()\nlog.Info(...);\n</code></pre>\n\n<p>When configuring Serilog, a <a href=\"http://nblumhardt.com/2016/07/serilog-2-write-to-logger/\" rel=\"noreferrer\">sub-logger</a> with filter applied can send just the required events to the second file.</p>\n\n<pre><code>Log.Logger = new LoggerConfiguration()\n    .WriteTo.Logger(lc =&gt; lc\n        .Filter.ByExcluding(Matching.FromSource(\"MyApp.Performance\"))\n        .WriteTo.File(\"first.json\", new JsonFormatter()))\n    .WriteTo.Logger(lc =&gt; lc\n        .Filter.ByIncludingOnly(Matching.FromSource(\"MyApp.Performance\"))\n        .WriteTo.File(\"second.json\", new JsonFormatter()))\n    .CreateLogger();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 38030428,
+      "body": "<p>Look closely, and you'll see that it is not the same output.</p>\n\n<p>The <code>@</code> operator in front of Dummy tells Serilog to serialize the object passed in, rather than convert it using <code>ToString()</code>, which is what happens on your first example without using the <code>@</code> operator.</p>\n\n<hr>\n\n<p>Your log event in the first example will end up with a property like (here in JSON):</p>\n\n<pre><code>{\n  \"Dummy\": \"{ Foo = Bar, Date = 25/06/2016 16:20:30 }\"\n}\n</code></pre>\n\n<p>Using {@Dummy} will cause the parameter to be serialized as structured data:</p>\n\n<pre><code>{\n  \"Dummy\":\n  {\n    \"Foo\": \"Bar\",\n    \"Date\": \"25/06/2016 16:20:30\"\n  }\n}\n</code></pre>\n\n<hr>\n\n<p><a href=\"https://stackoverflow.com/a/24653956/211672\">Comment from Nicholas Blumhardt</a> (creator of Serilog):</p>\n\n<blockquote>\n  <p>Where appropriate, using the <code>@</code> operator is much more useful for\n  manipulation/analysis.</p>\n  \n  <p>The reason for this \"opt-in\" requirement is that most types in .NET\n  programs convert nicely into strings, but aren't cleanly/meaningfully\n  serializable. By opting in to serialization with @ you're saying: \"I\n  know what I'm doing, serialize this object!\" :)</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Augusto Proiete",
+        "link": "https://stackoverflow.com/users/211672/augusto-proiete"
+      }
+    },
+    {
+      "answer_id": 37628224,
+      "body": "<p>I have integrated Serilog with Simple Injector with the following code based on @Steven genius answer on StackOverflow: <a href=\"https://stackoverflow.com/questions/5646820/logger-wrapper-best-practice\">logger wrapper best practice</a></p>\n\n<pre><code>public interface ILogger\n{\n    void Log(LogEntry entry);\n}\n\npublic class SerilogLogger&lt;T&gt; : ILogger\n{\n    private readonly Serilog.ILogger _logger;\n\n    public SerilogLogger()\n    {\n        _logger = new LoggerConfiguration()\n            .WriteTo\n            .Trace(LogEventLevel.Information)\n            .CreateLogger()\n            .ForContext(typeof (T));\n    }\n\n    public void Log(LogEntry entry)\n    {\n        /* Logging abstraction handling */\n    }\n}\n\npublic static class ContainerExtensions {\n\n    public static void RegisterLogging(this Container container)\n    {\n        container.RegisterConditional(\n            typeof(ILogger),\n            c =&gt; typeof(SerilogLogger&lt;&gt;).MakeGenericType(c.Consumer.ImplementationType),\n            Lifestyle.Singleton,\n            c =&gt; true);\n    }\n\n}\n</code></pre>\n\n<p>In your Composition Root:</p>\n\n<pre><code>var container = new Container();\ncontainer.RegisterLogging();\n</code></pre>\n",
+      "owner": {
+        "display_name": "janhartmann",
+        "link": "https://stackoverflow.com/users/99395/janhartmann"
+      }
+    },
+    {
+      "answer_id": 35688350,
+      "body": "<p>Serilog lets you use a logger configuration per program; though it's possible to adjust logging class-by-class this is usually done after the fact with filtering and so-on.</p>\n\n<p>The recommended approach is:</p>\n\n<p>Set up Serilog as the first thing in <code>Program.Main()</code> or wherever your app's entry point is:</p>\n\n<pre><code>Log.Logger = new LoggerConfiguration()\n  .WriteTo.Sink1()\n  .WriteTo.Sink2()\n  .CreateLogger();\n</code></pre>\n\n<p>Notice this sets up the static <code>Log</code> class. Elsewhere in your app you can now write:</p>\n\n<pre><code>Log.Information(\"This is a message\");\n</code></pre>\n\n<p>and the message will be passed to both sinks. You can avoid the static <code>Log</code> and instead pass <code>ILogger</code> around, but unless you have strong preferences here, the static option is less hassle.</p>\n\n<p>XML/<code>appSettings</code> configuration doesn't change any of this. It just moves some details to the config file, so changing the first block of code to:</p>\n\n<pre><code>Log.Logger = new LoggerConfiguration()\n  .ReadFrom.AppSettings()\n  .CreateLogger();\n</code></pre>\n\n<p>And adding:</p>\n\n<pre><code>&lt;add key=\"serilog:write-to:Sink1\" /&gt;\n&lt;add key=\"serilog:write-to:Sink2\" /&gt;\n</code></pre>\n\n<p>to <code>App.config</code> will have the same effect. Configuration in code is often less hassle (fewer moving parts) if you can avoid the XML.</p>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 35570138,
+      "body": "<p>Serilog provides the <code>ILogEventSink</code> extension point for this. You can use it to add log events to a list, or render them onto a <code>TextWriter</code> somewhere.</p>\n\n<p>There are varying degrees of sophistication possible, depending on your needs. This one (based on <code>ConsoleSink</code>) should get you going:</p>\n\n<pre><code>class InMemorySink : ILogEventSink\n{\n    readonly ITextFormatter _textFormatter = new MessageTemplateTextFormatter(\"{Timestamp} [{Level}] {Message}{Exception}\");\n\n    public ConcurrentQueue&lt;string&gt; Events { get; } = new ConcurrentQueue&lt;string&gt;();\n\n    public void Emit(LogEvent logEvent)\n    {\n        if (logEvent == null) throw new ArgumentNullException(nameof(logEvent));\n        var renderSpace = new StringWriter();\n        _textFormatter.Format(logEvent, renderSpace);\n        Events.Enqueue(renderSpace.ToString());\n    }\n}\n</code></pre>\n\n<p>Then hooking it up means creating an instance:</p>\n\n<pre><code>var sink = new InMemorySink();\nLog.Logger = new LoggerConfiguration()\n    .WriteTo.Sink(sink)\n    .CreateLogger();\n</code></pre>\n\n<p>Then, it's up to your app to figure out how to load <code>sink.Events</code> into the text box when it is shown.</p>\n\n<p>Adding some code to limit the size of the queue in <code>Emit()</code> is a good idea.</p>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 30792263,
+      "body": "<p>The best place for services to write their logs is <code>%PROGRAMDATA%</code> which, by default, is in <code>C:\\ProgramData\\</code>.</p>\n\n<p>Try:</p>\n\n<pre><code>&lt;add key=\"serilog:write-to:RollingFile.pathFormat\"\n     value=\"%PROGRAMDATA%\\ServerService\\Logs\\log-{Date}.txt\" /&gt;\n</code></pre>\n\n<p>(<code>Program Files</code> is usually considered to be read-only, and writing stuff here will lead to oddities being left behind unexpectedly during uninstall.)</p>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 29756122,
+      "body": "<p>Maybe this helps:</p>\n\n<pre><code>builder.Register&lt;ILogger&gt;((c, p) =&gt;\n{\n    return new LoggerConfiguration()\n      .WriteTo.RollingFile(\n        AppDomain.CurrentDomain.GetData(\"DataDirectory\").ToString() + \"/Log-{Date}.txt\")\n      .CreateLogger();\n}).SingleInstance();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Fka",
+        "link": "https://stackoverflow.com/users/1617002/fka"
+      }
+    },
+    {
+      "answer_id": 29501700,
+      "body": "<p>You can specify the <code>outputTemplate</code> parameter to the <code>.RollingFile()</code> configuration method:</p>\n\n<pre><code>.WriteTo.RollingFile(\n    outputTemplate: \"{Timestamp:yyyy-MM-dd HH:mm:ss.fff} [{Level}] {Message}{NewLine}{Exception}\")\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 29501667,
+      "body": "<p>It's possible to do this with an enricher by reflecting over the call stack, but very expensive to do so, so Serilog doesn't offer it.</p>\n\n<p>Instead you can use something like:</p>\n\n<pre><code>Logger.Here().Information(\"Hello, world!\");\n</code></pre>\n\n<p>and implement the <code>Here()</code> method as an extension method on <code>ILogger</code>:</p>\n\n<pre><code>&lt;Extension&gt;\nPublic Sub Here(ByVal logger as ILogger,\n    &lt;CallerMemberName&gt; Optional memberName As String = Nothing)\n\n    Return logger.ForContext(\"MemberName\", memberName)\nEnd Sub \n</code></pre>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 28144319,
+      "body": "<p>The property name is called <code>SourceContext</code> - so:</p>\n\n<pre><code>value=\"{Timestamp:HH:mm:ss} [{Level}] [{SourceContext}] {Message}{NewLine}{Exception}\"\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 27892076,
+      "body": "<p>This is as simple as:</p>\n\n<pre><code>Log.ForContext(\"BirthDate\", person.BirthDate)\n   .Information(\"New user: {FirstName:l} {LastName:l}\",\n                           person.FirstName, person.LastName);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 25333146,
+      "body": "<p>There's a <a href=\"https://groups.google.com/forum/#!searchin/getseq/enhance$20exception/getseq/rsAL4u3JpLM/PrszbPbtEb0J\">forum thread discussing this</a>, in which a couple of solutions are presented. Thomas Bolon has created an 'exception destructuring' extension you can find <a href=\"https://gist.github.com/tbolon/81dca3e2777d42c0108e\">in a Gist</a>.</p>\n\n<p>In this case you use only this syntax:</p>\n\n<pre><code>logger.Debug(exception, \"This is an exception\");\n</code></pre>\n\n<p>There's no need to add the exception into the format string.</p>\n\n<p>To ensure the exception is printed to text sinks, just make sure <code>{Exception}</code> is included in the output template. The standard built-in ones already have this, e.g.:</p>\n\n<pre><code>outputTemplate: \"{Timestamp} [{Level}] {Message}{NewLine}{Exception}\";\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    },
+    {
+      "answer_id": 25299679,
+      "body": "<p>I received a suggestion from Nicholas Blumhardt (Serilog creator) to use RollingFileSink with JsonFormatter.</p>\n",
+      "owner": {
+        "display_name": "Vagif Abilov",
+        "link": "https://stackoverflow.com/users/223675/vagif-abilov"
+      }
+    },
+    {
+      "answer_id": 23721956,
+      "body": "<p>Not all properties attached to a log event will be rendered by all sinks attached to the logger; the file sink used here only includes the timestamp, level, message and so-on.</p>\n\n<p>To get the report ID into the file, include it in the sink's <code>outputTemplate</code>:</p>\n\n<pre><code>var logger = new LoggerConfiguration()\n  .WriteTo.File(@\"C:\\Log.txt\",\n    outputTemplate: \"{Timestamp:u} [{Level}] ({ReportId}) {Message}{NewLine}{Exception}\")\n  .CreateLogger()\n  .ForContext(\"ReportId\", 10);\n\nlogger.Information(\"Test\"); \n</code></pre>\n\n<p>This will include the report ID in each message.</p>\n\n<p><code>ForContext</code> is usually used to create a short temporary scope; if you want the same property on all messages you can use <code>Enrich.WithProperty()</code>:</p>\n\n<pre><code>var logger = new LoggerConfiguration()\n  .Enrich.WithProperty(\"ReportId\", 10);\n  .WriteTo.File(@\"C:\\Log.txt\",\n    outputTemplate: \"{Timestamp:u} [{Level}] ({ReportId}) {Message}{NewLine}{Exception}\")\n  .CreateLogger()\n</code></pre>\n\n<p>Flat files are a great way to get up and running quickly with structured logs, but using a data store more suited to structured storage, e.g. <code>CouchDB</code>, <code>RavenDB</code> or <code>Seq</code>, will make it much nicer to view and correlate events based on property values.</p>\n",
+      "owner": {
+        "display_name": "Nicholas Blumhardt",
+        "link": "https://stackoverflow.com/users/138206/nicholas-blumhardt"
+      }
+    }
+  ]
+}

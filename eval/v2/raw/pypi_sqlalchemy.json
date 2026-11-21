@@ -1,0 +1,1908 @@
+{
+  "library": "pypi:sqlalchemy",
+  "fetched_at": "2026-11-21T17:28:11Z",
+  "questions": [
+    {
+      "question_id": 4201455,
+      "title": "SQLAlchemy: What&#39;s the difference between flush() and commit()?",
+      "accepted_answer_id": 4202016,
+      "score": 724,
+      "link": "https://stackoverflow.com/questions/4201455/sqlalchemy-whats-the-difference-between-flush-and-commit",
+      "owner": {
+        "display_name": "AP257",
+        "link": "https://stackoverflow.com/users/267831/ap257"
+      }
+    },
+    {
+      "question_id": 4186062,
+      "title": "SQLAlchemy ORDER BY DESCENDING?",
+      "accepted_answer_id": 4186078,
+      "score": 686,
+      "link": "https://stackoverflow.com/questions/4186062/sqlalchemy-order-by-descending",
+      "owner": {
+        "display_name": "AP257",
+        "link": "https://stackoverflow.com/users/267831/ap257"
+      }
+    },
+    {
+      "question_id": 1958219,
+      "title": "How to convert SQLAlchemy row object to a Python dict?",
+      "accepted_answer_id": 1960546,
+      "score": 478,
+      "link": "https://stackoverflow.com/questions/1958219/how-to-convert-sqlalchemy-row-object-to-a-python-dict",
+      "owner": {
+        "display_name": "Anurag Uniyal",
+        "link": "https://stackoverflow.com/users/6946/anurag-uniyal"
+      }
+    },
+    {
+      "question_id": 2128505,
+      "title": "Difference between filter and filter_by in SQLAlchemy",
+      "accepted_answer_id": 2128558,
+      "score": 435,
+      "link": "https://stackoverflow.com/questions/2128505/difference-between-filter-and-filter-by-in-sqlalchemy",
+      "owner": {
+        "display_name": "bodacydo",
+        "link": "https://stackoverflow.com/users/257942/bodacydo"
+      }
+    },
+    {
+      "question_id": 8603088,
+      "title": "SQLAlchemy IN clause",
+      "accepted_answer_id": 8603129,
+      "score": 427,
+      "link": "https://stackoverflow.com/questions/8603088/sqlalchemy-in-clause",
+      "owner": {
+        "display_name": "wonzbak",
+        "link": "https://stackoverflow.com/users/913797/wonzbak"
+      }
+    },
+    {
+      "question_id": 17972020,
+      "title": "How to execute raw SQL in Flask-SQLAlchemy app",
+      "accepted_answer_id": 17987782,
+      "score": 345,
+      "link": "https://stackoverflow.com/questions/17972020/how-to-execute-raw-sql-in-flask-sqlalchemy-app",
+      "owner": {
+        "display_name": "starwing123",
+        "link": "https://stackoverflow.com/users/1848523/starwing123"
+      }
+    },
+    {
+      "question_id": 5631078,
+      "title": "SQLAlchemy: print the actual query",
+      "accepted_answer_id": 5698357,
+      "score": 332,
+      "link": "https://stackoverflow.com/questions/5631078/sqlalchemy-print-the-actual-query",
+      "owner": {
+        "display_name": "bukzor",
+        "link": "https://stackoverflow.com/users/146821/bukzor"
+      }
+    },
+    {
+      "question_id": 13370317,
+      "title": "SQLAlchemy default DateTime",
+      "accepted_answer_id": 13370382,
+      "score": 331,
+      "link": "https://stackoverflow.com/questions/13370317/sqlalchemy-default-datetime",
+      "owner": {
+        "display_name": "Brandon O&#39;Rourke",
+        "link": "https://stackoverflow.com/users/135199/brandon-orourke"
+      }
+    },
+    {
+      "question_id": 7942547,
+      "title": "Using OR in SQLAlchemy",
+      "accepted_answer_id": 7942571,
+      "score": 327,
+      "link": "https://stackoverflow.com/questions/7942547/using-or-in-sqlalchemy",
+      "owner": {
+        "display_name": "JiminyCricket",
+        "link": "https://stackoverflow.com/users/305633/jiminycricket"
+      }
+    },
+    {
+      "question_id": 34322471,
+      "title": "SQLAlchemy: engine, connection and session difference",
+      "accepted_answer_id": 34364247,
+      "score": 322,
+      "link": "https://stackoverflow.com/questions/34322471/sqlalchemy-engine-connection-and-session-difference",
+      "owner": {
+        "display_name": "ololobus",
+        "link": "https://stackoverflow.com/users/978424/ololobus"
+      }
+    },
+    {
+      "question_id": 5022066,
+      "title": "How to serialize SqlAlchemy result to JSON?",
+      "accepted_answer_id": 10664192,
+      "score": 319,
+      "link": "https://stackoverflow.com/questions/5022066/how-to-serialize-sqlalchemy-result-to-json",
+      "owner": {
+        "display_name": "Zelid",
+        "link": "https://stackoverflow.com/users/118657/zelid"
+      }
+    },
+    {
+      "question_id": 10059345,
+      "title": "sqlalchemy unique across multiple columns",
+      "accepted_answer_id": 10061143,
+      "score": 276,
+      "link": "https://stackoverflow.com/questions/10059345/sqlalchemy-unique-across-multiple-columns",
+      "owner": {
+        "display_name": "Ominus",
+        "link": "https://stackoverflow.com/users/761029/ominus"
+      }
+    },
+    {
+      "question_id": 9667138,
+      "title": "How to update SQLAlchemy row entry?",
+      "accepted_answer_id": 9667308,
+      "score": 271,
+      "link": "https://stackoverflow.com/questions/9667138/how-to-update-sqlalchemy-row-entry",
+      "owner": {
+        "display_name": "webminal.org",
+        "link": "https://stackoverflow.com/users/246365/webminal-org"
+      }
+    },
+    {
+      "question_id": 27158573,
+      "title": "How to delete a record by id in Flask-SQLAlchemy",
+      "accepted_answer_id": 27159298,
+      "score": 231,
+      "link": "https://stackoverflow.com/questions/27158573/how-to-delete-a-record-by-id-in-flask-sqlalchemy",
+      "owner": {
+        "display_name": "Sergey",
+        "link": "https://stackoverflow.com/users/3074419/sergey"
+      }
+    },
+    {
+      "question_id": 2546207,
+      "title": "Does SQLAlchemy have an equivalent of Django&#39;s get_or_create?",
+      "accepted_answer_id": 2587041,
+      "score": 222,
+      "link": "https://stackoverflow.com/questions/2546207/does-sqlalchemy-have-an-equivalent-of-djangos-get-or-create",
+      "owner": {
+        "display_name": "FogleBird",
+        "link": "https://stackoverflow.com/users/90308/foglebird"
+      }
+    },
+    {
+      "question_id": 11530196,
+      "title": "Flask SQLAlchemy query, specify column names",
+      "accepted_answer_id": 12054872,
+      "score": 216,
+      "link": "https://stackoverflow.com/questions/11530196/flask-sqlalchemy-query-specify-column-names",
+      "owner": {
+        "display_name": "Matthew Scragg",
+        "link": "https://stackoverflow.com/users/1221902/matthew-scragg"
+      }
+    },
+    {
+      "question_id": 5033547,
+      "title": "SQLAlchemy: cascade delete",
+      "accepted_answer_id": 5034070,
+      "score": 199,
+      "link": "https://stackoverflow.com/questions/5033547/sqlalchemy-cascade-delete",
+      "owner": {
+        "display_name": "carl",
+        "link": "https://stackoverflow.com/users/82322/carl"
+      }
+    },
+    {
+      "question_id": 21784851,
+      "title": "sqlalchemy IS NOT NULL select",
+      "accepted_answer_id": 21784915,
+      "score": 196,
+      "link": "https://stackoverflow.com/questions/21784851/sqlalchemy-is-not-null-select",
+      "owner": {
+        "display_name": "salamey",
+        "link": "https://stackoverflow.com/users/1734229/salamey"
+      }
+    },
+    {
+      "question_id": 1316952,
+      "title": "sqlalchemy flush() and get inserted id?",
+      "accepted_answer_id": 1325560,
+      "score": 195,
+      "link": "https://stackoverflow.com/questions/1316952/sqlalchemy-flush-and-get-inserted-id",
+      "owner": {
+        "display_name": "Eloff",
+        "link": "https://stackoverflow.com/users/152580/eloff"
+      }
+    },
+    {
+      "question_id": 6699360,
+      "title": "Flask-SQLalchemy update a row&#39;s information",
+      "accepted_answer_id": 6701188,
+      "score": 194,
+      "link": "https://stackoverflow.com/questions/6699360/flask-sqlalchemy-update-a-rows-information",
+      "owner": {
+        "display_name": "pocorschi",
+        "link": "https://stackoverflow.com/users/845313/pocorschi"
+      }
+    },
+    {
+      "question_id": 4617291,
+      "title": "How do I get a raw, compiled SQL query from a SQLAlchemy expression?",
+      "accepted_answer_id": 25563491,
+      "score": 194,
+      "link": "https://stackoverflow.com/questions/4617291/how-do-i-get-a-raw-compiled-sql-query-from-a-sqlalchemy-expression",
+      "owner": {
+        "display_name": "cce",
+        "link": "https://stackoverflow.com/users/112380/cce"
+      }
+    },
+    {
+      "question_id": 23103962,
+      "title": "How to write DataFrame to postgres table",
+      "accepted_answer_id": 23104436,
+      "score": 191,
+      "link": "https://stackoverflow.com/questions/23103962/how-to-write-dataframe-to-postgres-table",
+      "owner": {
+        "display_name": "m9_psy",
+        "link": "https://stackoverflow.com/users/1185696/m9-psy"
+      }
+    },
+    {
+      "question_id": 29525808,
+      "title": "SQLAlchemy ORM conversion to pandas DataFrame",
+      "accepted_answer_id": 29528804,
+      "score": 187,
+      "link": "https://stackoverflow.com/questions/29525808/sqlalchemy-orm-conversion-to-pandas-dataframe",
+      "owner": {
+        "display_name": "Jared",
+        "link": "https://stackoverflow.com/users/1556228/jared"
+      }
+    },
+    {
+      "question_id": 6506578,
+      "title": "How to create a new database using SQLAlchemy?",
+      "accepted_answer_id": 8977109,
+      "score": 182,
+      "link": "https://stackoverflow.com/questions/6506578/how-to-create-a-new-database-using-sqlalchemy",
+      "owner": {
+        "display_name": "Anand Chitipothu",
+        "link": "https://stackoverflow.com/users/189776/anand-chitipothu"
+      }
+    },
+    {
+      "question_id": 6473925,
+      "title": "SQLAlchemy - Getting a list of tables",
+      "accepted_answer_id": 6474046,
+      "score": 177,
+      "link": "https://stackoverflow.com/questions/6473925/sqlalchemy-getting-a-list-of-tables",
+      "owner": {
+        "display_name": "sidewinder",
+        "link": "https://stackoverflow.com/users/614954/sidewinder"
+      }
+    },
+    {
+      "question_id": 1052148,
+      "title": "Group by &amp; count function in sqlalchemy",
+      "accepted_answer_id": 4086229,
+      "score": 177,
+      "link": "https://stackoverflow.com/questions/1052148/group-by-count-function-in-sqlalchemy",
+      "owner": {
+        "display_name": "Nazmul Hasan",
+        "link": "https://stackoverflow.com/users/309111/nazmul-hasan"
+      }
+    },
+    {
+      "question_id": 22252397,
+      "title": "ImportError: No module named MySQLdb",
+      "accepted_answer_id": 22252975,
+      "score": 176,
+      "link": "https://stackoverflow.com/questions/22252397/importerror-no-module-named-mysqldb",
+      "owner": {
+        "display_name": "user3182194",
+        "link": "https://stackoverflow.com/users/3182194/user3182194"
+      }
+    },
+    {
+      "question_id": 24612395,
+      "title": "How do I execute inserts and updates in an Alembic upgrade script?",
+      "accepted_answer_id": 24623979,
+      "score": 175,
+      "link": "https://stackoverflow.com/questions/24612395/how-do-i-execute-inserts-and-updates-in-an-alembic-upgrade-script",
+      "owner": {
+        "display_name": "Arek S",
+        "link": "https://stackoverflow.com/users/2743105/arek-s"
+      }
+    },
+    {
+      "question_id": 12223335,
+      "title": "SQLAlchemy: Creating vs. Reusing a Session",
+      "accepted_answer_id": 12223711,
+      "score": 173,
+      "link": "https://stackoverflow.com/questions/12223335/sqlalchemy-creating-vs-reusing-a-session",
+      "owner": {
+        "display_name": "javex",
+        "link": "https://stackoverflow.com/users/1326104/javex"
+      }
+    },
+    {
+      "question_id": 20642497,
+      "title": "SQLAlchemy query to return only n results?",
+      "accepted_answer_id": 20644100,
+      "score": 171,
+      "link": "https://stackoverflow.com/questions/20642497/sqlalchemy-query-to-return-only-n-results",
+      "owner": {
+        "display_name": "Xar",
+        "link": "https://stackoverflow.com/users/433737/xar"
+      }
+    },
+    {
+      "question_id": 270879,
+      "title": "Efficiently updating database using SQLAlchemy ORM",
+      "accepted_answer_id": 278606,
+      "score": 165,
+      "link": "https://stackoverflow.com/questions/270879/efficiently-updating-database-using-sqlalchemy-orm",
+      "owner": {
+        "display_name": "John Fouhy",
+        "link": "https://stackoverflow.com/users/15154/john-fouhy"
+      }
+    },
+    {
+      "question_id": 2950385,
+      "title": "Debugging (displaying) SQL command sent to the db by SQLAlchemy",
+      "accepted_answer_id": 2950685,
+      "score": 164,
+      "link": "https://stackoverflow.com/questions/2950385/debugging-displaying-sql-command-sent-to-the-db-by-sqlalchemy",
+      "owner": {
+        "display_name": "morpheous",
+        "link": "https://stackoverflow.com/users/312675/morpheous"
+      }
+    },
+    {
+      "question_id": 16573095,
+      "title": "Case Insensitive Flask-SQLAlchemy Query",
+      "accepted_answer_id": 16573690,
+      "score": 161,
+      "link": "https://stackoverflow.com/questions/16573095/case-insensitive-flask-sqlalchemy-query",
+      "owner": {
+        "display_name": "Ganye",
+        "link": "https://stackoverflow.com/users/1324596/ganye"
+      }
+    },
+    {
+      "question_id": 8895208,
+      "title": "SQLAlchemy: how to filter date field?",
+      "accepted_answer_id": 8898533,
+      "score": 161,
+      "link": "https://stackoverflow.com/questions/8895208/sqlalchemy-how-to-filter-date-field",
+      "owner": {
+        "display_name": "Vitalii Ponomar",
+        "link": "https://stackoverflow.com/users/848550/vitalii-ponomar"
+      }
+    },
+    {
+      "question_id": 39869793,
+      "title": "When do I need to use sqlalchemy back_populates?",
+      "accepted_answer_id": 39870250,
+      "score": 160,
+      "link": "https://stackoverflow.com/questions/39869793/when-do-i-need-to-use-sqlalchemy-back-populates",
+      "owner": {
+        "display_name": "Liqang Liu",
+        "link": "https://stackoverflow.com/users/5157801/liqang-liu"
+      }
+    },
+    {
+      "question_id": 16573802,
+      "title": "Flask-SQLAlchemy how to delete all rows in a single table",
+      "accepted_answer_id": 16573863,
+      "score": 153,
+      "link": "https://stackoverflow.com/questions/16573802/flask-sqlalchemy-how-to-delete-all-rows-in-a-single-table",
+      "owner": {
+        "display_name": "SeanPlusPlus",
+        "link": "https://stackoverflow.com/users/1322427/seanplusplus"
+      }
+    },
+    {
+      "question_id": 8561470,
+      "title": "SqlAlchemy - Filtering by Relationship Attribute",
+      "accepted_answer_id": 8562155,
+      "score": 152,
+      "link": "https://stackoverflow.com/questions/8561470/sqlalchemy-filtering-by-relationship-attribute",
+      "owner": {
+        "display_name": "user1105851",
+        "link": "https://stackoverflow.com/users/1105851/user1105851"
+      }
+    },
+    {
+      "question_id": 2676133,
+      "title": "Best way to do enum in Sqlalchemy?",
+      "accepted_answer_id": 2676213,
+      "score": 152,
+      "link": "https://stackoverflow.com/questions/2676133/best-way-to-do-enum-in-sqlalchemy",
+      "owner": {
+        "display_name": "Timmy",
+        "link": "https://stackoverflow.com/users/101823/timmy"
+      }
+    },
+    {
+      "question_id": 48242324,
+      "title": "Undo last Alembic migration",
+      "accepted_answer_id": 48242325,
+      "score": 150,
+      "link": "https://stackoverflow.com/questions/48242324/undo-last-alembic-migration",
+      "owner": {
+        "display_name": "Mark Amery",
+        "link": "https://stackoverflow.com/users/1709587/mark-amery"
+      }
+    },
+    {
+      "question_id": 3325467,
+      "title": "SQLAlchemy equivalent to SQL &quot;LIKE&quot; statement",
+      "accepted_answer_id": 3325497,
+      "score": 145,
+      "link": "https://stackoverflow.com/questions/3325467/sqlalchemy-equivalent-to-sql-like-statement",
+      "owner": {
+        "display_name": "Gary Oldfaber",
+        "link": "https://stackoverflow.com/users/272666/gary-oldfaber"
+      }
+    },
+    {
+      "question_id": 7102754,
+      "title": "jsonify a SQLAlchemy result set in Flask",
+      "accepted_answer_id": 7103486,
+      "score": 140,
+      "link": "https://stackoverflow.com/questions/7102754/jsonify-a-sqlalchemy-result-set-in-flask",
+      "owner": {
+        "display_name": "mal-wan",
+        "link": "https://stackoverflow.com/users/125430/mal-wan"
+      }
+    },
+    {
+      "question_id": 6750017,
+      "title": "How to query database by id using SqlAlchemy?",
+      "accepted_answer_id": 6756723,
+      "score": 135,
+      "link": "https://stackoverflow.com/questions/6750017/how-to-query-database-by-id-using-sqlalchemy",
+      "owner": {
+        "display_name": "user507220",
+        "link": null
+      }
+    },
+    {
+      "question_id": 6626810,
+      "title": "Multiple columns index when using the declarative ORM extension of sqlalchemy",
+      "accepted_answer_id": 6627154,
+      "score": 134,
+      "link": "https://stackoverflow.com/questions/6626810/multiple-columns-index-when-using-the-declarative-orm-extension-of-sqlalchemy",
+      "owner": {
+        "display_name": "yorjo",
+        "link": "https://stackoverflow.com/users/549190/yorjo"
+      }
+    },
+    {
+      "question_id": 20744277,
+      "title": "SQLAlchemy create_all() does not create tables",
+      "accepted_answer_id": 20749534,
+      "score": 133,
+      "link": "https://stackoverflow.com/questions/20744277/sqlalchemy-create-all-does-not-create-tables",
+      "owner": {
+        "display_name": "Paul",
+        "link": "https://stackoverflow.com/users/1858864/paul"
+      }
+    },
+    {
+      "question_id": 1423804,
+      "title": "Writing a connection string when password contains special characters",
+      "accepted_answer_id": 1424009,
+      "score": 133,
+      "link": "https://stackoverflow.com/questions/1423804/writing-a-connection-string-when-password-contains-special-characters",
+      "owner": {
+        "display_name": "KeyboardInterrupt",
+        "link": "https://stackoverflow.com/users/84372/keyboardinterrupt"
+      }
+    },
+    {
+      "question_id": 18998010,
+      "title": "flake8 complains on boolean comparison &quot;==&quot; in filter clause",
+      "accepted_answer_id": 18998106,
+      "score": 131,
+      "link": "https://stackoverflow.com/questions/18998010/flake8-complains-on-boolean-comparison-in-filter-clause",
+      "owner": {
+        "display_name": "Jruv",
+        "link": "https://stackoverflow.com/users/243099/jruv"
+      }
+    },
+    {
+      "question_id": 2537471,
+      "title": "method of iterating over sqlalchemy model&#39;s defined columns?",
+      "accepted_answer_id": 2540598,
+      "score": 130,
+      "link": "https://stackoverflow.com/questions/2537471/method-of-iterating-over-sqlalchemy-models-defined-columns",
+      "owner": {
+        "display_name": "Rick",
+        "link": "https://stackoverflow.com/users/159689/rick"
+      }
+    },
+    {
+      "question_id": 12941416,
+      "title": "How to count rows with SELECT COUNT(*) with SQLAlchemy?",
+      "accepted_answer_id": 12942437,
+      "score": 123,
+      "link": "https://stackoverflow.com/questions/12941416/how-to-count-rows-with-select-count-with-sqlalchemy",
+      "owner": {
+        "display_name": "tiho",
+        "link": "https://stackoverflow.com/users/832057/tiho"
+      }
+    },
+    {
+      "question_id": 9298296,
+      "title": "SQLAlchemy support of Postgres Schemas",
+      "accepted_answer_id": 9299021,
+      "score": 123,
+      "link": "https://stackoverflow.com/questions/9298296/sqlalchemy-support-of-postgres-schemas",
+      "owner": {
+        "display_name": "eleddy",
+        "link": "https://stackoverflow.com/users/123848/eleddy"
+      }
+    },
+    {
+      "question_id": 22698478,
+      "title": "What is the difference between the declarative_base() and db.Model?",
+      "accepted_answer_id": 22700629,
+      "score": 118,
+      "link": "https://stackoverflow.com/questions/22698478/what-is-the-difference-between-the-declarative-base-and-db-model",
+      "owner": {
+        "display_name": "drs",
+        "link": "https://stackoverflow.com/users/1484957/drs"
+      }
+    },
+    {
+      "question_id": 7478403,
+      "title": "SQLAlchemy classes across files",
+      "accepted_answer_id": 7479122,
+      "score": 117,
+      "link": "https://stackoverflow.com/questions/7478403/sqlalchemy-classes-across-files",
+      "owner": {
+        "display_name": "joveha",
+        "link": "https://stackoverflow.com/users/40668/joveha"
+      }
+    },
+    {
+      "question_id": 9766940,
+      "title": "How to create an SQL View with SQLAlchemy?",
+      "accepted_answer_id": 9769411,
+      "score": 116,
+      "link": "https://stackoverflow.com/questions/9766940/how-to-create-an-sql-view-with-sqlalchemy",
+      "owner": {
+        "display_name": "Thibaut D.",
+        "link": "https://stackoverflow.com/users/1189089/thibaut-d"
+      }
+    },
+    {
+      "question_id": 8645250,
+      "title": "How to close sqlalchemy connection in MySQL",
+      "accepted_answer_id": 8705750,
+      "score": 116,
+      "link": "https://stackoverflow.com/questions/8645250/how-to-close-sqlalchemy-connection-in-mysql",
+      "owner": {
+        "display_name": "martincho",
+        "link": "https://stackoverflow.com/users/908773/martincho"
+      }
+    },
+    {
+      "question_id": 8551952,
+      "title": "How to get last record",
+      "accepted_answer_id": 8551979,
+      "score": 115,
+      "link": "https://stackoverflow.com/questions/8551952/how-to-get-last-record",
+      "owner": {
+        "display_name": "Dmitrijs Zubriks",
+        "link": "https://stackoverflow.com/users/726117/dmitrijs-zubriks"
+      }
+    },
+    {
+      "question_id": 9353822,
+      "title": "Connecting postgresql with sqlalchemy",
+      "accepted_answer_id": 9353830,
+      "score": 114,
+      "link": "https://stackoverflow.com/questions/9353822/connecting-postgresql-with-sqlalchemy",
+      "owner": {
+        "display_name": "Jack_of_All_Trades",
+        "link": "https://stackoverflow.com/users/1128618/jack-of-all-trades"
+      }
+    },
+    {
+      "question_id": 25668092,
+      "title": "Flask sqlalchemy many-to-many insert data",
+      "accepted_answer_id": 25669256,
+      "score": 112,
+      "link": "https://stackoverflow.com/questions/25668092/flask-sqlalchemy-many-to-many-insert-data",
+      "owner": {
+        "display_name": "Sigils",
+        "link": "https://stackoverflow.com/users/1731280/sigils"
+      }
+    },
+    {
+      "question_id": 5733113,
+      "title": "SQLAlchemy versioning cares about class import order",
+      "accepted_answer_id": 7141163,
+      "score": 112,
+      "link": "https://stackoverflow.com/questions/5733113/sqlalchemy-versioning-cares-about-class-import-order",
+      "owner": {
+        "display_name": "Nick Holden",
+        "link": "https://stackoverflow.com/users/441462/nick-holden"
+      }
+    },
+    {
+      "question_id": 21738944,
+      "title": "How to close a SQLAlchemy session?",
+      "accepted_answer_id": 21742461,
+      "score": 111,
+      "link": "https://stackoverflow.com/questions/21738944/how-to-close-a-sqlalchemy-session",
+      "owner": {
+        "display_name": "fedorqui",
+        "link": "https://stackoverflow.com/users/1983854/fedorqui"
+      }
+    },
+    {
+      "question_id": 7389759,
+      "title": "memory-efficient built-in SqlAlchemy iterator/generator?",
+      "accepted_answer_id": 7390660,
+      "score": 111,
+      "link": "https://stackoverflow.com/questions/7389759/memory-efficient-built-in-sqlalchemy-iterator-generator",
+      "owner": {
+        "display_name": "Paul",
+        "link": "https://stackoverflow.com/users/789927/paul"
+      }
+    },
+    {
+      "question_id": 39619353,
+      "title": "How to perform a left join in SQLALchemy?",
+      "accepted_answer_id": 39669377,
+      "score": 110,
+      "link": "https://stackoverflow.com/questions/39619353/how-to-perform-a-left-join-in-sqlalchemy",
+      "owner": {
+        "display_name": "user1742188",
+        "link": "https://stackoverflow.com/users/1742188/user1742188"
+      }
+    },
+    {
+      "question_id": 8253978,
+      "title": "SQLAlchemy, get object not bound to a Session",
+      "accepted_answer_id": 8254472,
+      "score": 108,
+      "link": "https://stackoverflow.com/questions/8253978/sqlalchemy-get-object-not-bound-to-a-session",
+      "owner": {
+        "display_name": "Sardathrion - against SE abuse",
+        "link": "https://stackoverflow.com/users/232794/sardathrion-against-se-abuse"
+      }
+    },
+    {
+      "question_id": 60805,
+      "title": "Getting random row through SQLAlchemy",
+      "accepted_answer_id": 60815,
+      "score": 107,
+      "link": "https://stackoverflow.com/questions/60805/getting-random-row-through-sqlalchemy",
+      "owner": {
+        "display_name": "cnu",
+        "link": "https://stackoverflow.com/users/1448/cnu"
+      }
+    },
+    {
+      "question_id": 5602918,
+      "title": "Select NULL Values in SQLAlchemy",
+      "accepted_answer_id": 5632224,
+      "score": 106,
+      "link": "https://stackoverflow.com/questions/5602918/select-null-values-in-sqlalchemy",
+      "owner": {
+        "display_name": "Jerry",
+        "link": "https://stackoverflow.com/users/162742/jerry"
+      }
+    },
+    {
+      "question_id": 27884268,
+      "title": "Return Pandas dataframe from PostgreSQL query with sqlalchemy",
+      "accepted_answer_id": 27889674,
+      "score": 101,
+      "link": "https://stackoverflow.com/questions/27884268/return-pandas-dataframe-from-postgresql-query-with-sqlalchemy",
+      "owner": {
+        "display_name": "lmart999",
+        "link": "https://stackoverflow.com/users/3422206/lmart999"
+      }
+    },
+    {
+      "question_id": 18110033,
+      "title": "Getting first row from sqlalchemy",
+      "accepted_answer_id": 18110236,
+      "score": 97,
+      "link": "https://stackoverflow.com/questions/18110033/getting-first-row-from-sqlalchemy",
+      "owner": {
+        "display_name": "Asken",
+        "link": "https://stackoverflow.com/users/450274/asken"
+      }
+    },
+    {
+      "question_id": 35918605,
+      "title": "How to delete a table in SQLAlchemy?",
+      "accepted_answer_id": 35918731,
+      "score": 96,
+      "link": "https://stackoverflow.com/questions/35918605/how-to-delete-a-table-in-sqlalchemy",
+      "owner": {
+        "display_name": "fedorqui",
+        "link": "https://stackoverflow.com/users/1983854/fedorqui"
+      }
+    },
+    {
+      "question_id": 22355890,
+      "title": "SQLAlchemy multiple foreign keys in one mapped class to the same primary key",
+      "accepted_answer_id": 22357235,
+      "score": 96,
+      "link": "https://stackoverflow.com/questions/22355890/sqlalchemy-multiple-foreign-keys-in-one-mapped-class-to-the-same-primary-key",
+      "owner": {
+        "display_name": "lukik",
+        "link": "https://stackoverflow.com/users/1082673/lukik"
+      }
+    },
+    {
+      "question_id": 10822635,
+      "title": "Get the number of rows in table using SQLAlchemy",
+      "accepted_answer_id": 10822842,
+      "score": 95,
+      "link": "https://stackoverflow.com/questions/10822635/get-the-number-of-rows-in-table-using-sqlalchemy",
+      "owner": {
+        "display_name": "dbmikus",
+        "link": "https://stackoverflow.com/users/179352/dbmikus"
+      }
+    },
+    {
+      "question_id": 18199053,
+      "title": "Example of what SQLAlchemy can do, and Django ORM cannot",
+      "accepted_answer_id": 18207001,
+      "score": 94,
+      "link": "https://stackoverflow.com/questions/18199053/example-of-what-sqlalchemy-can-do-and-django-orm-cannot",
+      "owner": {
+        "display_name": "limasxgoesto0",
+        "link": "https://stackoverflow.com/users/1038783/limasxgoesto0"
+      }
+    },
+    {
+      "question_id": 15791760,
+      "title": "How can I do multiple &quot;order_by&quot; in Flask-SQLAlchemy?",
+      "accepted_answer_id": 15792183,
+      "score": 94,
+      "link": "https://stackoverflow.com/questions/15791760/how-can-i-do-multiple-order-by-in-flask-sqlalchemy",
+      "owner": {
+        "display_name": "No&#233; Malzieu",
+        "link": "https://stackoverflow.com/users/1809736/no%c3%a9-malzieu"
+      }
+    },
+    {
+      "question_id": 14845203,
+      "title": "Altering an Enum field using Alembic",
+      "accepted_answer_id": 14845740,
+      "score": 93,
+      "link": "https://stackoverflow.com/questions/14845203/altering-an-enum-field-using-alembic",
+      "owner": {
+        "display_name": "bboe",
+        "link": "https://stackoverflow.com/users/176978/bboe"
+      }
+    },
+    {
+      "question_id": 1078383,
+      "title": "Sqlalchemy - Difference between query and query.all in for loops",
+      "accepted_answer_id": 1080152,
+      "score": 93,
+      "link": "https://stackoverflow.com/questions/1078383/sqlalchemy-difference-between-query-and-query-all-in-for-loops",
+      "owner": {
+        "display_name": "Tom",
+        "link": "https://stackoverflow.com/users/115846/tom"
+      }
+    },
+    {
+      "question_id": 16589208,
+      "title": "AttributeError while querying: Neither &#39;InstrumentedAttribute&#39; object nor &#39;Comparator&#39; has an attribute",
+      "accepted_answer_id": 24763356,
+      "score": 92,
+      "link": "https://stackoverflow.com/questions/16589208/attributeerror-while-querying-neither-instrumentedattribute-object-nor-compa",
+      "owner": {
+        "display_name": "Bleeding Fingers",
+        "link": "https://stackoverflow.com/users/1309352/bleeding-fingers"
+      }
+    },
+    {
+      "question_id": 24872541,
+      "title": "Could not assemble any primary key columns for mapped table",
+      "accepted_answer_id": 26029844,
+      "score": 90,
+      "link": "https://stackoverflow.com/questions/24872541/could-not-assemble-any-primary-key-columns-for-mapped-table",
+      "owner": {
+        "display_name": "Michael Samoylov",
+        "link": "https://stackoverflow.com/users/465623/michael-samoylov"
+      }
+    },
+    {
+      "question_id": 11769366,
+      "title": "Why is SQLAlchemy insert with sqlite 25 times slower than using sqlite3 directly?",
+      "accepted_answer_id": 11769768,
+      "score": 89,
+      "link": "https://stackoverflow.com/questions/11769366/why-is-sqlalchemy-insert-with-sqlite-25-times-slower-than-using-sqlite3-directly",
+      "owner": {
+        "display_name": "braddock",
+        "link": "https://stackoverflow.com/users/150132/braddock"
+      }
+    },
+    {
+      "question_id": 6455560,
+      "title": "How to get column names from SQLAlchemy result (declarative syntax)",
+      "accepted_answer_id": 6456360,
+      "score": 89,
+      "link": "https://stackoverflow.com/questions/6455560/how-to-get-column-names-from-sqlalchemy-result-declarative-syntax",
+      "owner": {
+        "display_name": "Sukumar",
+        "link": "https://stackoverflow.com/users/67781/sukumar"
+      }
+    },
+    {
+      "question_id": 6501583,
+      "title": "SQLAlchemy + SQL Injection",
+      "accepted_answer_id": 6501664,
+      "score": 88,
+      "link": "https://stackoverflow.com/questions/6501583/sqlalchemy-sql-injection",
+      "owner": {
+        "display_name": "Mike",
+        "link": "https://stackoverflow.com/users/357024/mike"
+      }
+    },
+    {
+      "question_id": 32311366,
+      "title": "alembic util command error can&#39;t find identifier",
+      "accepted_answer_id": 32356600,
+      "score": 87,
+      "link": "https://stackoverflow.com/questions/32311366/alembic-util-command-error-cant-find-identifier",
+      "owner": {
+        "display_name": "Andr&#233; Heringer",
+        "link": "https://stackoverflow.com/users/4882895/andr%c3%a9-heringer"
+      }
+    },
+    {
+      "question_id": 2175355,
+      "title": "Selecting distinct column values in SQLAlchemy/Elixir",
+      "accepted_answer_id": 2175393,
+      "score": 87,
+      "link": "https://stackoverflow.com/questions/2175355/selecting-distinct-column-values-in-sqlalchemy-elixir",
+      "owner": {
+        "display_name": "David Z",
+        "link": "https://stackoverflow.com/users/56541/david-z"
+      }
+    },
+    {
+      "question_id": 19699756,
+      "title": "Flask-SQLAlchemy - Greater than or equal to",
+      "accepted_answer_id": 19701709,
+      "score": 85,
+      "link": "https://stackoverflow.com/questions/19699756/flask-sqlalchemy-greater-than-or-equal-to",
+      "owner": {
+        "display_name": "Ben Kilah",
+        "link": "https://stackoverflow.com/users/1000654/ben-kilah"
+      }
+    },
+    {
+      "question_id": 10572498,
+      "title": "ImportError: No module named sqlalchemy",
+      "accepted_answer_id": 10593364,
+      "score": 85,
+      "link": "https://stackoverflow.com/questions/10572498/importerror-no-module-named-sqlalchemy",
+      "owner": {
+        "display_name": "webminal.org",
+        "link": "https://stackoverflow.com/users/246365/webminal-org"
+      }
+    },
+    {
+      "question_id": 17652937,
+      "title": "How to build a flask application around an already existing database?",
+      "accepted_answer_id": 17653975,
+      "score": 84,
+      "link": "https://stackoverflow.com/questions/17652937/how-to-build-a-flask-application-around-an-already-existing-database",
+      "owner": {
+        "display_name": "Indradhanush Gupta",
+        "link": "https://stackoverflow.com/users/1773961/indradhanush-gupta"
+      }
+    },
+    {
+      "question_id": 32938475,
+      "title": "Flask-SQLAlchemy check if row exists in table",
+      "accepted_answer_id": 32952421,
+      "score": 83,
+      "link": "https://stackoverflow.com/questions/32938475/flask-sqlalchemy-check-if-row-exists-in-table",
+      "owner": {
+        "display_name": "Pav Sidhu",
+        "link": "https://stackoverflow.com/users/2961662/pav-sidhu"
+      }
+    },
+    {
+      "question_id": 6519546,
+      "title": "scoped_session(sessionmaker()) or plain sessionmaker() in sqlalchemy?",
+      "accepted_answer_id": 6519855,
+      "score": 82,
+      "link": "https://stackoverflow.com/questions/6519546/scoped-sessionsessionmaker-or-plain-sessionmaker-in-sqlalchemy",
+      "owner": {
+        "display_name": "skoovill",
+        "link": "https://stackoverflow.com/users/820917/skoovill"
+      }
+    },
+    {
+      "question_id": 6587879,
+      "title": "How to elegantly check the existence of an object/instance/variable and simultaneously assign it to variable if it exists in python?",
+      "accepted_answer_id": 16003360,
+      "score": 81,
+      "link": "https://stackoverflow.com/questions/6587879/how-to-elegantly-check-the-existence-of-an-object-instance-variable-and-simultan",
+      "owner": {
+        "display_name": "Aufwind",
+        "link": "https://stackoverflow.com/users/641514/aufwind"
+      }
+    },
+    {
+      "question_id": 48006551,
+      "title": "Speeding up pandas.DataFrame.to_sql with fast_executemany of pyODBC",
+      "accepted_answer_id": 48861231,
+      "score": 80,
+      "link": "https://stackoverflow.com/questions/48006551/speeding-up-pandas-dataframe-to-sql-with-fast-executemany-of-pyodbc",
+      "owner": {
+        "display_name": "J.K.",
+        "link": "https://stackoverflow.com/users/940490/j-k"
+      }
+    },
+    {
+      "question_id": 16151729,
+      "title": "AttributeError: &#39;int&#39; object has no attribute &#39;_sa_instance_state&#39;",
+      "accepted_answer_id": 16152945,
+      "score": 80,
+      "link": "https://stackoverflow.com/questions/16151729/attributeerror-int-object-has-no-attribute-sa-instance-state",
+      "owner": {
+        "display_name": "Ganye",
+        "link": "https://stackoverflow.com/users/1324596/ganye"
+      }
+    },
+    {
+      "question_id": 13190392,
+      "title": "How can I bind a list to a parameter in a custom query in SQLAlchemy?",
+      "accepted_answer_id": 39414254,
+      "score": 80,
+      "link": "https://stackoverflow.com/questions/13190392/how-can-i-bind-a-list-to-a-parameter-in-a-custom-query-in-sqlalchemy",
+      "owner": {
+        "display_name": "Anthony Kong",
+        "link": "https://stackoverflow.com/users/58129/anthony-kong"
+      }
+    },
+    {
+      "question_id": 5018694,
+      "title": "how to pass a not like operator in a sqlalchemy ORM query",
+      "accepted_answer_id": 5019427,
+      "score": 80,
+      "link": "https://stackoverflow.com/questions/5018694/how-to-pass-a-not-like-operator-in-a-sqlalchemy-orm-query",
+      "owner": {
+        "display_name": "J&#233;r&#244;me Pigeot",
+        "link": "https://stackoverflow.com/users/200865/j%c3%a9r%c3%b4me-pigeot"
+      }
+    },
+    {
+      "question_id": 2193670,
+      "title": "catching SQLAlchemy exceptions",
+      "accepted_answer_id": 2193712,
+      "score": 80,
+      "link": "https://stackoverflow.com/questions/2193670/catching-sqlalchemy-exceptions",
+      "owner": {
+        "display_name": "khelll",
+        "link": "https://stackoverflow.com/users/124504/khelll"
+      }
+    },
+    {
+      "question_id": 9447629,
+      "title": "MongoKit vs MongoEngine vs Flask-MongoAlchemy for Flask",
+      "accepted_answer_id": 9447775,
+      "score": 79,
+      "link": "https://stackoverflow.com/questions/9447629/mongokit-vs-mongoengine-vs-flask-mongoalchemy-for-flask",
+      "owner": {
+        "display_name": "oscarmlage",
+        "link": "https://stackoverflow.com/users/611180/oscarmlage"
+      }
+    },
+    {
+      "question_id": 6297404,
+      "title": "Multi-threaded use of SQLAlchemy",
+      "accepted_answer_id": 18265238,
+      "score": 79,
+      "link": "https://stackoverflow.com/questions/6297404/multi-threaded-use-of-sqlalchemy",
+      "owner": {
+        "display_name": "maaudet",
+        "link": "https://stackoverflow.com/users/451938/maaudet"
+      }
+    },
+    {
+      "question_id": 4763472,
+      "title": "SQLAlchemy, clear database content but don&#39;t drop the schema",
+      "accepted_answer_id": 5003705,
+      "score": 79,
+      "link": "https://stackoverflow.com/questions/4763472/sqlalchemy-clear-database-content-but-dont-drop-the-schema",
+      "owner": {
+        "display_name": "Juliusz Gonera",
+        "link": "https://stackoverflow.com/users/365238/juliusz-gonera"
+      }
+    },
+    {
+      "question_id": 414952,
+      "title": "SQLAlchemy DateTime timezone",
+      "accepted_answer_id": 462028,
+      "score": 79,
+      "link": "https://stackoverflow.com/questions/414952/sqlalchemy-datetime-timezone",
+      "owner": {
+        "display_name": "alif",
+        "link": "https://stackoverflow.com/users/12650/alif"
+      }
+    },
+    {
+      "question_id": 52431208,
+      "title": "SQLAlchemy &quot;default&quot; vs &quot;server_default&quot; performance",
+      "accepted_answer_id": 54495140,
+      "score": 78,
+      "link": "https://stackoverflow.com/questions/52431208/sqlalchemy-default-vs-server-default-performance",
+      "owner": {
+        "display_name": "benvc",
+        "link": "https://stackoverflow.com/users/9958942/benvc"
+      }
+    },
+    {
+      "question_id": 16433338,
+      "title": "Inserting new records with one-to-many relationship in sqlalchemy",
+      "accepted_answer_id": 16434931,
+      "score": 78,
+      "link": "https://stackoverflow.com/questions/16433338/inserting-new-records-with-one-to-many-relationship-in-sqlalchemy",
+      "owner": {
+        "display_name": "wanderlust",
+        "link": "https://stackoverflow.com/users/885210/wanderlust"
+      }
+    },
+    {
+      "question_id": 9187530,
+      "title": "Using alias() for &#39;select as&#39; in SQLAlchemy",
+      "accepted_answer_id": 9187589,
+      "score": 78,
+      "link": "https://stackoverflow.com/questions/9187530/using-alias-for-select-as-in-sqlalchemy",
+      "owner": {
+        "display_name": "Vishakh",
+        "link": "https://stackoverflow.com/users/1193814/vishakh"
+      }
+    },
+    {
+      "question_id": 39773560,
+      "title": "SQLAlchemy: How do you delete multiple rows without querying",
+      "accepted_answer_id": 39774354,
+      "score": 77,
+      "link": "https://stackoverflow.com/questions/39773560/sqlalchemy-how-do-you-delete-multiple-rows-without-querying",
+      "owner": {
+        "display_name": "supreme Pooba",
+        "link": "https://stackoverflow.com/users/2989320/supreme-pooba"
+      }
+    },
+    {
+      "question_id": 16093475,
+      "title": "Flask SQLAlchemy querying a column with &quot;not equals&quot;",
+      "accepted_answer_id": 16093713,
+      "score": 77,
+      "link": "https://stackoverflow.com/questions/16093475/flask-sqlalchemy-querying-a-column-with-not-equals",
+      "owner": {
+        "display_name": "SeanPlusPlus",
+        "link": "https://stackoverflow.com/users/1322427/seanplusplus"
+      }
+    },
+    {
+      "question_id": 8588126,
+      "title": "SQLAlchemy or psycopg2?",
+      "accepted_answer_id": 8588766,
+      "score": 77,
+      "link": "https://stackoverflow.com/questions/8588126/sqlalchemy-or-psycopg2",
+      "owner": {
+        "display_name": "Homunculus Reticulli",
+        "link": "https://stackoverflow.com/users/962891/homunculus-reticulli"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 10822842,
+      "body": "<p>This should work</p>\n<pre class=\"lang-python prettyprint-override\"><code>rows = session.query(Congress).count()\n</code></pre>\n<p>Another way related to my first try:</p>\n<pre class=\"lang-python prettyprint-override\"><code>from sqlalchemy import func\n\nrows = session.query(func.count(Congress.id)).scalar()\n</code></pre>\n",
+      "owner": {
+        "display_name": "Diego Navarro",
+        "link": "https://stackoverflow.com/users/933059/diego-navarro"
+      }
+    },
+    {
+      "answer_id": 2540598,
+      "body": "<p>You could use the following function:</p>\n<pre><code>def __unicode__(self):\n    return &quot;[%s(%s)]&quot; % (\n        self.__class__.__name__,\n        &quot;, &quot;.join(\n            &quot;%s=%s&quot; % (k, self.__dict__[k])\n            for k in sorted(self.__dict__)\n            if &quot;_sa_&quot; != k[:4]\n        ),\n    )\n</code></pre>\n<p>It will exclude SA <em>magic</em> attributes, but will not exclude the relations. So basically it might load the dependencies, parents, children etc, which is definitely not desirable.</p>\n<p>But it is actually much easier because if you inherit from <code>Base</code>, you have a <code>__table__</code> attribute, so that you can do:</p>\n<pre><code>for c in JobStatus.__table__.columns:\n    print c\n\nfor c in JobStatus.__table__.foreign_keys:\n    print c\n</code></pre>\n<p>See <a href=\"https://stackoverflow.com/questions/2441796/how-to-discover-table-properties-from-sqlalchemy-mapped-object/2448930#2448930\">How to discover table properties from SQLAlchemy mapped object</a> - similar question.</p>\n<p><strong>Edit by Mike:</strong> Please see functions such as <a href=\"http://docs.sqlalchemy.org/en/rel_0_8/orm/mapper_config.html#sqlalchemy.orm.mapper.Mapper.c\" rel=\"nofollow noreferrer\">Mapper.c</a> and <a href=\"http://docs.sqlalchemy.org/en/rel_0_8/orm/mapper_config.html#sqlalchemy.orm.mapper.Mapper.mapped_table\" rel=\"nofollow noreferrer\">Mapper.mapped_table</a>.  If using 0.8 and higher also see <a href=\"http://docs.sqlalchemy.org/en/rel_0_8/orm/mapper_config.html#sqlalchemy.orm.mapper.Mapper.attrs\" rel=\"nofollow noreferrer\">Mapper.attrs</a> and related functions.</p>\n<p>Example for <a href=\"http://docs.sqlalchemy.org/en/latest/orm/mapping_api.html#sqlalchemy.orm.mapper.Mapper.attrs\" rel=\"nofollow noreferrer\">Mapper.attrs</a>:</p>\n<pre><code>from sqlalchemy import inspect\nmapper = inspect(JobStatus)\nfor column in mapper.attrs:\n    print column.key\n</code></pre>\n",
+      "owner": {
+        "display_name": "van",
+        "link": "https://stackoverflow.com/users/99594/van"
+      }
+    },
+    {
+      "answer_id": 22252975,
+      "body": "<p>If you're having issues compiling the binary extension, or on a platform where you can't, you can try using the pure Python <a href=\"https://github.com/PyMySQL/PyMySQL\" rel=\"nofollow noreferrer\"><code>PyMySQL</code></a> bindings.</p>\n<p>Simply <code>pip install pymysql</code> and switch your SQLAlchemy URI to start like this:</p>\n<pre><code>SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://.....'\n</code></pre>\n<p>There are some <a href=\"http://docs.sqlalchemy.org/en/rel_0_9/dialects/mysql.html#module-sqlalchemy.dialects.mysql.pymysql\" rel=\"nofollow noreferrer\">other drivers</a> you could also try.</p>\n",
+      "owner": {
+        "display_name": "DazWorrall",
+        "link": "https://stackoverflow.com/users/1949092/dazworrall"
+      }
+    },
+    {
+      "answer_id": 17987782,
+      "body": "<p>SQLAlchemy 2.0:</p>\n<pre class=\"lang-py prettyprint-override\"><code>with engine.connect() as connection:\n    result = connection.execute(text('SELECT * FROM your_table'))\n    # do something with the result..\n</code></pre>\n<p>SQLAlchemy 1.x:</p>\n<pre><code>from sqlalchemy import text\n\nsql = text('select name from penguins')\nresult = db.engine.execute(sql)\nnames = [row[0] for row in result]\nprint names\n</code></pre>\n<p>Note that <code>db.engine.execute()</code> is &quot;connectionless&quot;, which is <a href=\"https://docs.sqlalchemy.org/en/14/core/connections.html#connectionless-execution-implicit-execution\" rel=\"noreferrer\">deprecated in SQLAlchemy 2.0</a>.</p>\n",
+      "owner": {
+        "display_name": "Miguel Grinberg",
+        "link": "https://stackoverflow.com/users/904393/miguel-grinberg"
+      }
+    },
+    {
+      "answer_id": 8977109,
+      "body": "<p>On postgres, three databases are normally present by default.  If you are able to connect as a superuser (eg, the <code>postgres</code> role), then you can connect to the <code>postgres</code> or <code>template1</code> databases.  The default pg_hba.conf permits only the unix user named <code>postgres</code> to use the <code>postgres</code> role, so the simplest thing is to just become that user.  At any rate, create an engine as usual with a user that has the permissions to create a database:</p>\n<pre><code>&gt;&gt;&gt; engine = sqlalchemy.create_engine(&quot;postgresql://postgres@/postgres&quot;)\n</code></pre>\n<p>You cannot use <code>engine.execute()</code> however, because postgres does not allow you to create databases inside transactions, and sqlalchemy always tries to run queries in a transaction.  To get around this, get the underlying connection from the engine:</p>\n<pre><code>&gt;&gt;&gt; conn = engine.connect()\n</code></pre>\n<p>But the connection will still be inside a transaction, so you have to end the open transaction with a <code>commit</code>:</p>\n<pre><code>&gt;&gt;&gt; conn.execute(&quot;commit&quot;)\n</code></pre>\n<p>And you can then proceed to create the database using the proper PostgreSQL command for it.</p>\n<pre><code>&gt;&gt;&gt; conn.execute(&quot;create database test&quot;)\n&gt;&gt;&gt; conn.close()\n</code></pre>\n",
+      "owner": {
+        "display_name": "SingleNegationElimination",
+        "link": "https://stackoverflow.com/users/65696/singlenegationelimination"
+      }
+    },
+    {
+      "answer_id": 6456360,
+      "body": "<p>The difference is between ORM and non-ORM, not declarative, which is just a helper for the ORM.</p>\n<p>Query has an attribute <code>column_descriptions</code> that was added for this purpose:</p>\n<p><a href=\"https://docs.sqlalchemy.org/en/20/orm/queryguide/query.html#sqlalchemy.orm.Query.column_descriptions\" rel=\"nofollow noreferrer\">https://docs.sqlalchemy.org/en/20/orm/queryguide/query.html#sqlalchemy.orm.Query.column_descriptions</a></p>\n",
+      "owner": {
+        "display_name": "zzzeek",
+        "link": "https://stackoverflow.com/users/34549/zzzeek"
+      }
+    },
+    {
+      "answer_id": 7390660,
+      "body": "<p>Most DBAPI implementations fully buffer rows as they are fetched - so usually, before the SQLAlchemy ORM even gets a hold of one result, the whole result set is in memory.</p>\n<p>But then, the way <code>Query</code> works is that it fully loads the given result set by default before returning to you your objects.  The rationale here regards queries that are more than simple SELECT statements. For example, in joins to other tables that may return the same object identity multiple times in one result set (common with eager loading), the full set of rows needs to be in memory so that the correct results can be returned otherwise collections and such might be only partially populated.</p>\n<p>So <code>Query</code> offers an option to change this behavior through <a href=\"http://www.sqlalchemy.org/docs/orm/query.html?highlight=yield_per#sqlalchemy.orm.query.Query.yield_per\" rel=\"nofollow noreferrer\"><code>yield_per()</code></a>.  This call will cause the <code>Query</code> to yield rows in batches, where you give it the batch size.  As the docs state, this is only appropriate if you aren't doing any kind of eager loading of collections so it's basically if you really know what you're doing.   Also, if the underlying DBAPI pre-buffers rows, there will still be that memory overhead so the approach only scales slightly better than not using it.</p>\n<p>I hardly ever use <code>yield_per()</code>; instead, I use a better version of the LIMIT approach you suggest above using window functions.   LIMIT and OFFSET have a huge problem that very large OFFSET values cause the query to get slower and slower, as an OFFSET of N causes it to page through N rows - it's like doing the same query fifty times instead of one, each time reading a larger and larger number of rows.   With a window-function approach, I pre-fetch a set of &quot;window&quot; values that refer to chunks of the table I want to select.  I then emit individual SELECT statements that each pull from one of those windows at a time.</p>\n<p>The window function approach is <a href=\"https://github.com/sqlalchemy/sqlalchemy/wiki/RangeQuery-and-WindowedRangeQuery\" rel=\"nofollow noreferrer\">on the wiki</a> and I use it with great success.</p>\n<p>Also note: not all databases support window functions; you need Postgresql, Oracle, or SQL Server.  IMHO using at least Postgresql is definitely worth it - if you're using a relational database, you might as well use the best.</p>\n",
+      "owner": {
+        "display_name": "zzzeek",
+        "link": "https://stackoverflow.com/users/34549/zzzeek"
+      }
+    },
+    {
+      "answer_id": 8898533,
+      "body": "<p>In fact, your query is right except for the typo: your filter is excluding all records: you should change the <code>&lt;=</code> for <code>&gt;=</code> and vice versa:</p>\n<pre class=\"lang-py prettyprint-override\"><code>qry = DBSession.query(User).filter(\n        and_(User.birthday &lt;= '1988-01-17', User.birthday &gt;= '1985-01-17'))\n# or same:\nqry = DBSession.query(User).filter(User.birthday &lt;= '1988-01-17').\\\n        filter(User.birthday &gt;= '1985-01-17')\n</code></pre>\n<p>Also you can use <code>between</code>:</p>\n<pre><code>qry = DBSession.query(User).filter(User.birthday.between('1985-01-17', '1988-01-17'))\n</code></pre>\n",
+      "owner": {
+        "display_name": "van",
+        "link": "https://stackoverflow.com/users/99594/van"
+      }
+    },
+    {
+      "answer_id": 25563491,
+      "body": "<p><a href=\"http://nicolascadou.com/blog/2014/01/printing-actual-sqlalchemy-queries/\" rel=\"noreferrer\">This blogpost by Nicolas Cadou</a> provides an updated answer.</p>\n<p>Quoting from the blog post, this is suggested and worked for me:</p>\n<blockquote>\n<pre><code>from sqlalchemy.dialects import postgresql\nprint str(q.statement.compile(dialect=postgresql.dialect()))\n</code></pre>\n</blockquote>\n<p>Where q is defined as:</p>\n<blockquote>\n<pre><code>q = DBSession.query(model.Name).distinct(model.Name.value) \\\n             .order_by(model.Name.value)\n</code></pre>\n</blockquote>\n<p>Or just any kind of <code>session.query()</code>.</p>\n",
+      "owner": {
+        "display_name": "AndyBarr",
+        "link": "https://stackoverflow.com/users/3140578/andybarr"
+      }
+    },
+    {
+      "answer_id": 7103486,
+      "body": "<p>It seems that you actually haven't executed your query. Try following:</p>\n<pre><code>return jsonify(json_list = qryresult.all())\n</code></pre>\n<p><strong>[Edit]</strong>: Problem with jsonify is, that usually the objects cannot be jsonified automatically. Even Python's datetime fails ;)</p>\n<p>What I have done in the past, is adding an extra property (like <code>serialize</code>) to classes that need to be serialized.</p>\n<pre><code>def dump_datetime(value):\n    &quot;&quot;&quot;Deserialize datetime object into string form for JSON processing.&quot;&quot;&quot;\n    if value is None:\n        return None\n    return [value.strftime(&quot;%Y-%m-%d&quot;), value.strftime(&quot;%H:%M:%S&quot;)]\n\nclass Foo(db.Model):\n    # ... SQLAlchemy defs here..\n    def __init__(self, ...):\n       # self.foo = ...\n       pass\n\n    @property\n    def serialize(self):\n       &quot;&quot;&quot;Return object data in easily serializable format&quot;&quot;&quot;\n       return {\n           'id'         : self.id,\n           'modified_at': dump_datetime(self.modified_at),\n           # This is an example how to deal with Many2Many relations\n           'many2many'  : self.serialize_many2many\n       }\n    @property\n    def serialize_many2many(self):\n       &quot;&quot;&quot;\n       Return object's relations in easily serializable format.\n       NB! Calls many2many's serialize property.\n       &quot;&quot;&quot;\n       return [ item.serialize for item in self.many2many]\n</code></pre>\n<p>And now for views I can just do:</p>\n<pre><code>return jsonify(json_list=[i.serialize for i in qryresult.all()])\n</code></pre>\n<p><strong>[Edit 2019]</strong>:\nIn case you have more complex objects or circular references, use a library like <a href=\"https://marshmallow.readthedocs.io\" rel=\"nofollow noreferrer\">marshmallow</a>).</p>\n",
+      "owner": {
+        "display_name": "plaes",
+        "link": "https://stackoverflow.com/users/157176/plaes"
+      }
+    },
+    {
+      "answer_id": 9187589,
+      "body": "<p>You actually want the <a href=\"https://docs.sqlalchemy.org/en/13/core/metadata.html?highlight=label#sqlalchemy.schema.Column.label\" rel=\"noreferrer\"><code>label</code></a> method.</p>\n<pre class=\"lang-py prettyprint-override\"><code>result = dbsession.query(\n    Shares.price,\n    func.sum(Shares.quantity).label(&quot;Total sold&quot;)\n) \\\n.filter(Shares.company== 'Google') \\\n.group_by(Shares.price).all()\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sean Vieira",
+        "link": "https://stackoverflow.com/users/135978/sean-vieira"
+      }
+    },
+    {
+      "answer_id": 1424009,
+      "body": "<p>You need to URL-encode the password portion of the connect string:</p>\n<pre><code>from urllib.parse import quote_plus\nfrom sqlalchemy.engine import create_engine\nengine = create_engine(&quot;postgres://user:%s@host/database&quot; % quote_plus(&quot;p@ss&quot;))\n</code></pre>\n<p>If you look at the implementation of the class used in SQLAlchemy to represent database connection URLs (in <a href=\"https://github.com/sqlalchemy/sqlalchemy/blob/main/lib/sqlalchemy/engine/url.py\" rel=\"noreferrer\"><code>sqlalchemy/engine/url.py</code></a>), you can see that they use the same method to escape passwords when converting the URL instances into strings.</p>\n",
+      "owner": {
+        "display_name": "rcoder",
+        "link": "https://stackoverflow.com/users/153943/rcoder"
+      }
+    },
+    {
+      "answer_id": 20749534,
+      "body": "<p>You should put your model class before <code>create_all()</code> call, like this:</p>\n<pre class=\"lang-py prettyprint-override\"><code>from flask import Flask\nfrom flask_sqlalchemy import SQLAlchemy\n\napp = Flask(__name__)\n\napp.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://login:pass@localhost/flask_app'\ndb = SQLAlchemy(app)\n\nclass User(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(80), unique=True)\n    email = db.Column(db.String(120), unique=True)\n\n    def __init__(self, username, email):\n        self.username = username\n        self.email = email\n\n    def __repr__(self):\n        return '&lt;User %r&gt;' % self.username\n\nwith app.app_context():\n    db.create_all()\n\n    db.session.add(User('admin', 'admin@example.com'))\n    db.session.add(User('guest', 'guest@example.com'))\n    db.session.commit()\n\n    users = User.query.all()\n    print(users)\n</code></pre>\n<p>If your models are declared in a separate module, import them before calling <code>create_all()</code>.</p>\n<p>Say, the <code>User</code> model is in a file called <code>models.py</code>,</p>\n<pre class=\"lang-py prettyprint-override\"><code>from flask import Flask\nfrom flask_sqlalchemy import SQLAlchemy\n\napp = Flask(__name__)\n\napp.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://login:pass@localhost/flask_app'\ndb = SQLAlchemy(app)\n\n# See important note below\nfrom models import User\n\nwith app.app_context():\n    db.create_all()\n\n    db.session.add(User('admin', 'admin@example.com'))\n    db.session.add(User('guest', 'guest@example.com'))\n    db.session.commit()\n    \n    users = User.query.all()\n    print(users)\n</code></pre>\n<p><strong>Important note:</strong> It is important that you import your models after initializing the <code>db</code> object since, in your <code>models.py</code> you also need to import the <code>db</code> object from this module.</p>\n",
+      "owner": {
+        "display_name": "rocknrollnerd",
+        "link": "https://stackoverflow.com/users/2405210/rocknrollnerd"
+      }
+    },
+    {
+      "answer_id": 5632224,
+      "body": "<p>For <strong>SQLAlchemy 0.7.9 and newer</strong>\nPlease use the <a href=\"https://stackoverflow.com/a/44679356/99594\">answer from @jsnow</a>. !!!</p>\n<p>For <strong>SQLAlchemy 0.7.8 and older</strong></p>\n<p>(as indicated by <a href=\"https://stackoverflow.com/users/2572431/augurar\">@augurar</a>): Because <em>sqlalchemy</em> uses <em>magic methods (operator overloading)</em> to create <code>SQL</code> constructs, it can only handle operator such as <code>!=</code> or <code>==</code>, but is not able to work with <code>is</code> (which is a very valid Python construct).</p>\n<p>Therefore, to make it work with sqlalchemy, you should use:</p>\n<pre><code>...filter(or_(people.marriage_status!='married', people.marriage_status == None))\n</code></pre>\n<p>, basically replace the <code>is None</code> with <code>== None</code>. In this case your query will be translated properly to the following SQL:</p>\n<pre><code>SELECT people.name AS people_name, people.marriage_status AS people_marriage_status \nFROM people \nWHERE people.marriage_status IS NULL OR people.marriage_status != ?\n</code></pre>\n<p>See <code>IS NULL</code> in the <a href=\"http://docs.sqlalchemy.org/en/latest/orm/tutorial.html#common-filter-operators\" rel=\"noreferrer\">documentation</a>.</p>\n",
+      "owner": {
+        "display_name": "van",
+        "link": "https://stackoverflow.com/users/99594/van"
+      }
+    },
+    {
+      "answer_id": 8588766,
+      "body": "<p>SQLAlchemy is a ORM, psycopg2 is a database driver. These are completely different things:  SQLAlchemy <strong>generates</strong> SQL statements and psycopg2 sends SQL statements to the database. SQLAlchemy depends on psycopg2 or other database drivers to communicate with the database!</p>\n<p>As a rather complex software layer SQLAlchemy does add some overhead but it also is a huge boost to development speed, at least once you learned the library. SQLAlchemy is an excellent library and will teach you the whole ORM concept, but if you don't want to generate SQL statements to begin with then you don't want SQLAlchemy.</p>\n",
+      "owner": {
+        "display_name": "Jochen Ritzel",
+        "link": "https://stackoverflow.com/users/95612/jochen-ritzel"
+      }
+    },
+    {
+      "answer_id": 9769411,
+      "body": "<p><strong>Update:</strong> SQLAlchemy now has a great usage recipe <a href=\"https://github.com/sqlalchemy/sqlalchemy/wiki/Views\" rel=\"noreferrer\">here</a> on this topic, which I recommend. It covers different SQL Alchemy versions up to the latest and has ORM integration (see comments below this answer and other answers). And if you look through the version history, you can also learn why using <code>literal_binds</code> is iffy (in a nutshell: binding parameters should be left to the database), but still arguably any other solution would make most users of the recipe not happy. I leave the below answer mostly for historical reasons.</p>\n<p><strong>Original answer:</strong> Creating a (read-only non-materialized) view is not supported out of the box as far as I know. But adding this functionality in SQLAlchemy 0.7 is straightforward (similar to the example I gave <a href=\"https://stackoverflow.com/a/9597404/92092\">here</a>). You just have to write a <a href=\"http://docs.sqlalchemy.org/en/latest/core/compiler.html\" rel=\"noreferrer\">compiler extension</a> <code>CreateView</code>. With this extension, you can then write (assuming that <code>t</code> is a table object with a column <code>id</code>)</p>\n<pre><code>createview = CreateView('viewname', t.select().where(t.c.id&gt;5))\nengine.execute(createview)\n\nv = Table('viewname', metadata, autoload=True)\nfor r in engine.execute(v.select()):\n    print r\n</code></pre>\n<p>Here is a working example:</p>\n<pre><code>from sqlalchemy import Table\nfrom sqlalchemy.ext.compiler import compiles\nfrom sqlalchemy.sql.expression import Executable, ClauseElement\n\nclass CreateView(Executable, ClauseElement):\n    def __init__(self, name, select):\n        self.name = name\n        self.select = select\n\n@compiles(CreateView)\ndef visit_create_view(element, compiler, **kw):\n    return &quot;CREATE VIEW %s AS %s&quot; % (\n         element.name,\n         compiler.process(element.select, literal_binds=True)\n         )\n\n# test data\nfrom sqlalchemy import MetaData, Column, Integer\nfrom sqlalchemy.engine import create_engine\nengine = create_engine('sqlite://')\nmetadata = MetaData(engine)\nt = Table('t',\n          metadata,\n          Column('id', Integer, primary_key=True),\n          Column('number', Integer))\nt.create()\nengine.execute(t.insert().values(id=1, number=3))\nengine.execute(t.insert().values(id=9, number=-3))\n\n# create view\ncreateview = CreateView('viewname', t.select().where(t.c.id&gt;5))\nengine.execute(createview)\n\n# reflect view and print result\nv = Table('viewname', metadata, autoload=True)\nfor r in engine.execute(v.select()):\n    print r\n</code></pre>\n<p>If you want, you can also specialize for a dialect, e.g.</p>\n<pre><code>@compiles(CreateView, 'sqlite')\ndef visit_create_view(element, compiler, **kw):\n    return &quot;CREATE VIEW IF NOT EXISTS %s AS %s&quot; % (\n         element.name,\n         compiler.process(element.select, literal_binds=True)\n         )\n</code></pre>\n",
+      "owner": {
+        "display_name": "stephan",
+        "link": "https://stackoverflow.com/users/92092/stephan"
+      }
+    },
+    {
+      "answer_id": 9299021,
+      "body": "<p>well there's a few ways to go at this and it depends on how your app is structured.  Here is the most basic way:</p>\n<pre><code>meta = MetaData(schema=&quot;client1&quot;)\n</code></pre>\n<p>If the way your app runs is one &quot;client&quot; at a time within the whole application, you're done.</p>\n<p>But what may be wrong with that here is, every Table from that MetaData is on that schema.  If you want one application to support multiple clients simultaneously (usually what &quot;multitenant&quot; means), this would be unwieldy since you'd need to create a copy of the MetaData and dupe out all the mappings for each client.   This approach can be done, if you really want to, the way it works is you'd access each client with a particular mapped class like:</p>\n<pre><code>client1_foo = Client1Foo()\n</code></pre>\n<p>and in that case you'd be working with the &quot;entity name&quot; recipe at <a href=\"http://www.sqlalchemy.org/trac/wiki/UsageRecipes/EntityName\" rel=\"noreferrer\">http://www.sqlalchemy.org/trac/wiki/UsageRecipes/EntityName</a> in conjunction with <code>sometable.tometadata()</code> (see <a href=\"http://docs.sqlalchemy.org/en/latest/core/metadata.html#sqlalchemy.schema.Table.tometadata\" rel=\"noreferrer\">http://docs.sqlalchemy.org/en/latest/core/metadata.html#sqlalchemy.schema.Table.tometadata</a>).</p>\n<p>So let's say the way it really works is multiple clients within the app, but only one at a time per thread.   Well actually, the easiest way to do that in Postgresql would be to set the search path when you start working with a connection:</p>\n<pre class=\"lang-py prettyprint-override\"><code># start request\n\n# new session\nsess = Session()\n\n# set the search path\nsess.execute(&quot;SET search_path TO client1&quot;)\n\n# do stuff with session\n\n# close it.  if you're using connection pooling, the\n# search path is still set up there, so you might want to \n# revert it first\nsess.close()\n</code></pre>\n<p>The final approach would be to override the compiler using the @compiles extension to stick the &quot;schema&quot; name in within statements.   This is doable, but would be tricky as there's not a consistent hook for everywhere &quot;Table&quot; is generated.   Your best bet is probably setting the search path on each request.</p>\n",
+      "owner": {
+        "display_name": "zzzeek",
+        "link": "https://stackoverflow.com/users/34549/zzzeek"
+      }
+    },
+    {
+      "answer_id": 4086229,
+      "body": "<p>The <a href=\"http://www.sqlalchemy.org/docs/orm/tutorial.html#counting\" rel=\"noreferrer\">documentation on counting</a> says that for <code>group_by</code> queries it is better to use <code>func.count()</code>:</p>\n<pre><code>from sqlalchemy import func\nsession.query(Table.column, \n   func.count(Table.column)).group_by(Table.column).all()\n</code></pre>\n",
+      "owner": {
+        "display_name": "miniwark",
+        "link": "https://stackoverflow.com/users/467661/miniwark"
+      }
+    },
+    {
+      "answer_id": 2587041,
+      "body": "<p>That's basically the way to do it, there is no shortcut readily available AFAIK.</p>\n<p>You could generalize it ofcourse:</p>\n<pre><code>def get_or_create(session, model, defaults=None, **kwargs):\n    instance = session.query(model).filter_by(**kwargs).one_or_none()\n    if instance:\n        return instance, False\n    else:\n        params = {k: v for k, v in kwargs.items() if not isinstance(v, ClauseElement)}\n        params.update(defaults or {})\n        instance = model(**params)\n        try:\n            session.add(instance)\n            session.commit()\n        except Exception:  # The actual exception depends on the specific database so we catch all exceptions. This is similar to the official documentation: https://docs.sqlalchemy.org/en/latest/orm/session_transaction.html\n            session.rollback()\n            instance = session.query(model).filter_by(**kwargs).one()\n            return instance, False\n        else:\n            return instance, True\n</code></pre>\n<hr />\n<h2>2020 update (Python 3.9+ ONLY)</h2>\n<p>Here is a cleaner version with Python 3.9's <a href=\"https://www.python.org/dev/peps/pep-0584/\" rel=\"noreferrer\">the new dict union operator (|=)</a></p>\n<pre><code>def get_or_create(session, model, defaults=None, **kwargs):\n    instance = session.query(model).filter_by(**kwargs).one_or_none()\n    if instance:\n        return instance, False\n    else:\n        kwargs |= defaults or {}\n        instance = model(**kwargs)\n        try:\n            session.add(instance)\n            session.commit()\n        except Exception:  # The actual exception depends on the specific database so we catch all exceptions. This is similar to the official documentation: https://docs.sqlalchemy.org/en/latest/orm/session_transaction.html\n            session.rollback()\n            instance = session.query(model).filter_by(**kwargs).one()\n            return instance, False\n        else:\n            return instance, True\n</code></pre>\n<h2>Note:</h2>\n<p>Similar to the Django version this will catch duplicate key constraints and similar errors. If your get or create is not guaranteed to return a single result it can still result in race conditions.</p>\n<p>To alleviate some of that issue you would need to add another <code>one_or_none()</code> style fetch right after the <code>session.commit()</code>. This still is no 100% guarantee against race conditions unless you also use a <code>with_for_update()</code> or serializable transaction mode.</p>\n",
+      "owner": {
+        "display_name": "Wolph",
+        "link": "https://stackoverflow.com/users/54017/wolph"
+      }
+    },
+    {
+      "answer_id": 39414254,
+      "body": "<p><code>psycopg2</code> now supports <a href=\"http://initd.org/psycopg/docs/usage.html#python-types-adaptation\" rel=\"noreferrer\">type adaptation</a>, which allows, among other things, the ability to pass a list into a single parameterized value in the query. This also works in SQLAlchemy, at the very least for raw-SQL-esque queries to a PostgreSQL database (I don't have access to other database types, so I don't know if <code>sqlalchemy</code> will respect this convention for other databases, but my inclination<sup>citation needed</sup> is that it will work).</p>\n<pre><code>some_ids = [1, 2, 3, 4]\nquery = &quot;SELECT * FROM my_table t WHERE t.id = ANY(:ids);&quot;\nconn.execute(sqlalchemy.text(query), ids=some_ids)\n## runs just fine\n</code></pre>\n<p>I found that without the wrapper call to <code>sqlalchemy.text</code>, it gave a <code>ProgrammingError: syntax error at or near &quot;:&quot;</code>.</p>\n",
+      "owner": {
+        "display_name": "dwanderson",
+        "link": "https://stackoverflow.com/users/2272638/dwanderson"
+      }
+    },
+    {
+      "answer_id": 48242325,
+      "body": "<p>Assuming that you only want to go back <em>one</em> revision, use <a href=\"http://alembic.zzzcomputing.com/en/latest/tutorial.html#downgrading\" rel=\"noreferrer\"><code>alembic downgrade</code></a> with a <a href=\"http://alembic.zzzcomputing.com/en/latest/tutorial.html#relative-migration-identifiers\" rel=\"noreferrer\">relative migration identifier</a> of -1:</p>\n<pre><code>alembic downgrade -1\n</code></pre>\n<p>This will run the <code>downgrade()</code> method of your latest revision and update the <code>alembic_version</code> table to indicate the revision you're now at.</p>\n<p>If you need to go back multiple migrations, run</p>\n<pre><code>alembic history\n</code></pre>\n<p>to view a list of all the migrations in your project (from newest to oldest), then copy and paste the identifier of the migration you want to go back to:</p>\n<pre><code>alembic downgrade 8ac14e223d1e\n</code></pre>\n<p>There's currently no command to <em>delete</em> migrations from your versions directory, so if you want to completely wipe away all trace of your bad migration, you'll need to delete the version file (like <code>4c009570237e_add_widget_table.py</code>) manually.</p>\n",
+      "owner": {
+        "display_name": "Mark Amery",
+        "link": "https://stackoverflow.com/users/1709587/mark-amery"
+      }
+    },
+    {
+      "answer_id": 21784915,
+      "body": "<p><code>column_obj != None</code> will produce a <a href=\"http://docs.sqlalchemy.org/core/sqlelement.html#sqlalchemy.sql.expression.ColumnElement.__ne__\" rel=\"noreferrer\"><code>IS NOT NULL</code> constraint</a>:</p>\n<blockquote>\n<p>In a column context, produces the clause <code>a != b</code>. If the target is <code>None</code>, produces a <code>IS NOT NULL</code>.</p>\n</blockquote>\n<p>or use <a href=\"https://docs.sqlalchemy.org/core/sqlelement.html#sqlalchemy.sql.expression.ColumnElement.is_not\" rel=\"noreferrer\"><code>is_not()</code></a><sup>*</sup>:</p>\n<blockquote>\n<p>Implement the <code>IS NOT</code> operator.</p>\n<p>Normally, <code>IS NOT</code> is generated automatically when comparing to a value of <code>None</code>, which resolves to <code>NULL</code>. However, explicit usage of <code>IS NOT</code> may be desirable if comparing to boolean values on certain platforms.</p>\n</blockquote>\n<p>Demo:</p>\n<pre class=\"lang-py prettyprint-override\"><code>&gt;&gt;&gt; from sqlalchemy.sql import column\n&gt;&gt;&gt; column('YourColumn') != None\n&lt;sqlalchemy.sql.elements.BinaryExpression object at 0x10f81aa90&gt;\n&gt;&gt;&gt; print(column('YourColumn') != None)\n&quot;YourColumn&quot; IS NOT NULL\n&gt;&gt;&gt; column('YourColumn').is_not(None)\n&lt;sqlalchemy.sql.elements.BinaryExpression object at 0x11081edf0&gt;\n&gt;&gt;&gt; print(column('YourColumn').is_not(None))\n&quot;YourColumn&quot; IS NOT NULL\n</code></pre>\n<p>You can't use <code>is not None</code> here, because the <a href=\"https://docs.python.org/3/reference/expressions.html#is-not\" rel=\"noreferrer\"><code>is not</code> object identity inequality test</a> can't be overloaded the way <code>!=</code> can; you'll just get <code>True</code> instead as a <code>ColumnClause</code> instance is not the same object as the <code>None</code> singleton:</p>\n<pre><code>&gt;&gt;&gt; column('YourColumn') is not None\nTrue\n</code></pre>\n<hr />\n<p><sup>*)</sup> The method was formerly named <code>isnot()</code> and was renamed in SQLAlchemy 1.4. The old name is still available for backwards compatibility.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 16434931,
+      "body": "<p>You dont need to write a constructor, you can either treat the <code>addresses</code> property on a <code>Person</code> instance as a list:</p>\n<pre><code>a = Address(email='foo@bar.com')\np = Person(name='foo')\np.addresses.append(a)\n</code></pre>\n<p>Or you can pass a list of addresses to the <code>Person</code> constructor</p>\n<pre><code>a = Address(email='foo@bar.com')\np = Person(name='foo', addresses=[a])\n</code></pre>\n<p>In either case you can then access the addresses on your <code>Person</code> instance like so:</p>\n<pre><code>db.session.add(p)\ndb.session.add(a)\ndb.session.commit()\nprint(p.addresses.count()) # 1\nprint(p.addresses[0]) # &lt;Address object at 0x10c098ed0&gt;\nprint(p.addresses.filter_by(email='foo@bar.com').count()) # 1\n</code></pre>\n",
+      "owner": {
+        "display_name": "DazWorrall",
+        "link": "https://stackoverflow.com/users/1949092/dazworrall"
+      }
+    },
+    {
+      "answer_id": 15792183,
+      "body": "<p>This should work</p>\n<pre><code>User.query.order_by(User.popularity.desc(), User.date_created.desc()).limit(10).all()\n</code></pre>\n",
+      "owner": {
+        "display_name": "codegeek",
+        "link": "https://stackoverflow.com/users/1572562/codegeek"
+      }
+    },
+    {
+      "answer_id": 6756723,
+      "body": "<p>Query has a <a href=\"https://docs.sqlalchemy.org/en/stable/orm/query.html#sqlalchemy.orm.Query.get\" rel=\"noreferrer\">get function</a> that supports querying by the primary key of the table, which I assume that <code>id</code> is.</p>\n<p>For example, to query for an object with ID of 23:</p>\n<pre class=\"lang-py prettyprint-override\"><code>User.query.get(23)\n</code></pre>\n<hr />\n<p>Note: As a few other commenters and answers have mentioned, this is not simply shorthand for &quot;Perform a query filtering on the primary key&quot;. Depending on the state of the SQLAlchemy session, running this code may query the database and return a new instance, or it may return an instance of an object queried earlier in your code without actually querying the database. If you have not already done so, consider reading the <a href=\"https://docs.sqlalchemy.org/en/latest/orm/session_basics.html#is-the-session-a-cache\" rel=\"noreferrer\">documentation on the SQLAlchemy Session</a> to understand the ramifications.</p>\n",
+      "owner": {
+        "display_name": "Mark Hildreth",
+        "link": "https://stackoverflow.com/users/272520/mark-hildreth"
+      }
+    },
+    {
+      "answer_id": 20644100,
+      "body": "<p>for <code>sqlalchemy &gt;= 1.0.13</code>\nUse the <a href=\"http://docs.sqlalchemy.org/en/latest/orm/query.html#sqlalchemy.orm.query.Query.limit\" rel=\"noreferrer\">limit</a> method.</p>\n<pre><code>query(Model).filter(something).limit(5).all()\n</code></pre>\n",
+      "owner": {
+        "display_name": "jkmacc",
+        "link": "https://stackoverflow.com/users/745557/jkmacc"
+      }
+    },
+    {
+      "answer_id": 32952421,
+      "body": "<p>Since you only want to see if the user exists, you don't want to query the entire object. Only query the id, it exists if the scalar return is not None.</p>\n<pre><code>exists = db.session.query(User.id).filter_by(name='davidism').first() is not None\n</code></pre>\n<pre class=\"lang-sql prettyprint-override\"><code>SELECT user.id AS user_id \nFROM user \nWHERE user.name = ?\n</code></pre>\n<p>If you know <code>name</code> (or whatever field you're querying) is unique, you can use <code>scalar</code> instead of <code>first</code>.</p>\n<p>The second query you showed also works fine, Flask-SQLAlchemy does nothing to prevent any type of query that SQLAlchemy can make. This returns <code>False</code> or <code>True</code> instead of <code>None</code> or an id like above, but it is <em>slightly</em> more expensive because it uses a subquery.</p>\n<pre><code>exists = db.session.query(db.exists().where(User.name == 'davidism')).scalar()\n</code></pre>\n<pre class=\"lang-sql prettyprint-override\"><code>SELECT EXISTS (SELECT * \nFROM user \nWHERE user.name = ?) AS anon_1\n</code></pre>\n",
+      "owner": {
+        "display_name": "davidism",
+        "link": "https://stackoverflow.com/users/400617/davidism"
+      }
+    },
+    {
+      "answer_id": 23104436,
+      "body": "<p>Starting from pandas 0.14 (released end of May 2014), postgresql is supported. The <code>sql</code> module now uses <code>sqlalchemy</code> to support different database flavors. You can pass a sqlalchemy engine for a postgresql database (see <a href=\"http://pandas.pydata.org/pandas-docs/stable/io.html#io-sql\" rel=\"noreferrer\">docs</a>). E.g.:</p>\n<pre><code>from sqlalchemy import create_engine\nengine = create_engine('postgresql://username:password@localhost:5432/mydatabase')\ndf.to_sql('table_name', engine)\n</code></pre>\n<hr />\n<p>You are correct that in pandas up to version 0.13.1 postgresql was not supported. If you need to use an older version of pandas, here is a patched version of <code>pandas.io.sql</code>: <a href=\"https://gist.github.com/jorisvandenbossche/10841234\" rel=\"noreferrer\">https://gist.github.com/jorisvandenbossche/10841234</a>.<br />\nI wrote this a time ago, so cannot fully guarantee that it always works, buth the basis should be there). If you put that file in your working directory and import it, then you should be able to do (where <code>con</code> is a postgresql connection):</p>\n<pre><code>import sql  # the patched version (file is named sql.py)\nsql.write_frame(df, 'table_name', con, flavor='postgresql')\n</code></pre>\n",
+      "owner": {
+        "display_name": "joris",
+        "link": "https://stackoverflow.com/users/653364/joris"
+      }
+    },
+    {
+      "answer_id": 12942437,
+      "body": "<p>I managed to render the following SELECT with SQLAlchemy on both layers.</p>\n<pre><code>SELECT count(*) AS count_1\nFROM &quot;table&quot;\n</code></pre>\n<h2>Usage from the SQL Expression layer</h2>\n<pre><code>from sqlalchemy import select, func, Integer, Table, Column, MetaData\n\nmetadata = MetaData()\n\ntable = Table(&quot;table&quot;, metadata,\n              Column('primary_key', Integer),\n              Column('other_column', Integer)  # just to illustrate\n             )   \n\nprint select([func.count()]).select_from(table)\n</code></pre>\n<h2>Usage from the ORM layer</h2>\n<p>You just subclass <code>Query</code> (you have probably anyway) and provide a specialized <code>count()</code> method, like this one.</p>\n<pre><code>from sqlalchemy.sql.expression import func\n\nclass BaseQuery(Query):\n    def count_star(self):\n        count_query = (self.statement.with_only_columns([func.count()])\n                       .order_by(None))\n        return self.session.execute(count_query).scalar()\n</code></pre>\n<p>Please note that <code>order_by(None)</code> resets the ordering of the query, which is irrelevant to the counting.</p>\n<p>Using this method you can have a <code>count(*)</code> on any ORM Query, that will honor all the <code>filter</code> and<code>join</code> conditions already specified.</p>\n",
+      "owner": {
+        "display_name": "pi.",
+        "link": "https://stackoverflow.com/users/15274/pi"
+      }
+    },
+    {
+      "answer_id": 39870250,
+      "body": "<p>If you use <code>backref</code> you don't need to declare the relationship on the second table.</p>\n<pre><code>class Parent(Base):\n    __tablename__ = 'parent'\n    id = Column(Integer, primary_key=True)\n    children = relationship(&quot;Child&quot;, backref=&quot;parent&quot;)\n\nclass Child(Base):\n    __tablename__ = 'child'\n    id = Column(Integer, primary_key=True)\n    parent_id = Column(Integer, ForeignKey('parent.id'))\n</code></pre>\n<p>If you're <em>not</em> using <code>backref</code>, and defining the <code>relationship</code>'s separately, then if you don't use <code>back_populates</code>, sqlalchemy won't know to connect the relationships, so that modifying one also modifies the other.</p>\n<p>So, in your example, where you've defined the <code>relationship</code>'s separately, but didn't provide a <code>back_populates</code> argument, modifying one field wouldn't automatically update the other in your transaction.</p>\n<pre><code>&gt;&gt;&gt; parent = Parent()\n&gt;&gt;&gt; child = Child()\n&gt;&gt;&gt; child.parent = parent\n&gt;&gt;&gt; print(parent.children)\n[]\n</code></pre>\n<p>See how it didn't automatically fill out the <code>children</code> field?</p>\n<p>Now, if you supply a <code>back_populates</code> argument, sqlalchemy will connect the fields.</p>\n<pre><code>class Parent(Base):\n    __tablename__ = 'parent'\n    id = Column(Integer, primary_key=True)\n    children = relationship(&quot;Child&quot;, back_populates=&quot;parent&quot;)\n\nclass Child(Base):\n    __tablename__ = 'child'\n    id = Column(Integer, primary_key=True)\n    parent_id = Column(Integer, ForeignKey('parent.id'))\n    parent = relationship(&quot;Parent&quot;, back_populates=&quot;children&quot;)\n</code></pre>\n<p>So now we get</p>\n<pre><code>&gt;&gt;&gt; parent = Parent()\n&gt;&gt;&gt; child = Child()\n&gt;&gt;&gt; child.parent = parent\n&gt;&gt;&gt; print(parent.children)\n[Child(...)]\n</code></pre>\n<p>Sqlalchemy knows these two fields are related now, and will update each as the other is updated.  It's worth noting that using <code>backref</code> will do this, too.  Using <code>back_populates</code> is nice if you want to define the relationships on every class, so it's easy to see all the fields just be glancing at the model class, instead of having to look at other classes that define fields via backref.</p>\n",
+      "owner": {
+        "display_name": "Brendan Abel",
+        "link": "https://stackoverflow.com/users/1547004/brendan-abel"
+      }
+    },
+    {
+      "answer_id": 2676213,
+      "body": "<p>SQLAlchemy has an Enum type since 0.6: \n<a href=\"http://docs.sqlalchemy.org/en/latest/core/type_basics.html?highlight=enum#sqlalchemy.types.Enum\" rel=\"noreferrer\">http://docs.sqlalchemy.org/en/latest/core/type_basics.html?highlight=enum#sqlalchemy.types.Enum</a></p>\n\n<p>Although I would only recommend its usage if your database has a native enum type. Otherwise I would personally just use an int.</p>\n",
+      "owner": {
+        "display_name": "Wolph",
+        "link": "https://stackoverflow.com/users/54017/wolph"
+      }
+    },
+    {
+      "answer_id": 6474046,
+      "body": "<p>All of the tables are collected in the <code>tables</code> attribute of the SQLAlchemy MetaData object.  To get a list of the names of those tables:</p>\n\n<pre><code>&gt;&gt;&gt; metadata.tables.keys()\n['posts', 'comments', 'users']\n</code></pre>\n\n<p>If you're using the declarative extension, then you probably aren't managing the metadata yourself.  Fortunately, the metadata is still present on the baseclass, </p>\n\n<pre><code>&gt;&gt;&gt; Base = sqlalchemy.ext.declarative.declarative_base()\n&gt;&gt;&gt; Base.metadata\nMetaData(None)\n</code></pre>\n\n<p>If you are trying to figure out what tables are present in your database, even among the ones you haven't even told SQLAlchemy about yet, then you can use table reflection.  SQLAlchemy will then inspect the database and update the metadata with all of the missing tables.</p>\n\n<pre><code>&gt;&gt;&gt; metadata.reflect(engine)\n</code></pre>\n\n<p>For Postgres, if you have multiple schemas, you'll need to loop thru all the schemas in the engine:</p>\n\n<pre><code>from sqlalchemy import inspect\ninspector = inspect(engine)\nschemas = inspector.get_schema_names()\n\nfor schema in schemas:\n    print(\"schema: %s\" % schema)\n    for table_name in inspector.get_table_names(schema=schema):\n        for column in inspector.get_columns(table_name, schema=schema):\n            print(\"Column: %s\" % column)\n</code></pre>\n",
+      "owner": {
+        "display_name": "SingleNegationElimination",
+        "link": "https://stackoverflow.com/users/65696/singlenegationelimination"
+      }
+    },
+    {
+      "answer_id": 16573863,
+      "body": "<p>Try <a href=\"http://docs.sqlalchemy.org/en/latest/orm/query.html#sqlalchemy.orm.query.Query.delete\" rel=\"noreferrer\"><code>delete</code></a>:</p>\n\n<pre><code>models.User.query.delete()\n</code></pre>\n\n<p>From <a href=\"http://docs.sqlalchemy.org/en/latest/orm/query.html#sqlalchemy.orm.query.Query.delete\" rel=\"noreferrer\">the docs</a>: <code>Returns the number of rows deleted, excluding any cascades.</code></p>\n",
+      "owner": {
+        "display_name": "DazWorrall",
+        "link": "https://stackoverflow.com/users/1949092/dazworrall"
+      }
+    },
+    {
+      "answer_id": 39774354,
+      "body": "<p>Yep! You can call <code>delete()</code> on the table object with an associated where clause. </p>\n\n<p>Something like this:</p>\n\n<pre><code>stmt = Users.__table__.delete().where(Users.id.in_(subquery...))\n</code></pre>\n\n<p>(and then don't forget to execute the statement: <code>engine.execute(stmt)</code>)</p>\n\n<p><a href=\"http://docs.sqlalchemy.org/en/latest/core/selectable.html#sqlalchemy.sql.expression.TableClause.delete\" rel=\"noreferrer\">source</a></p>\n",
+      "owner": {
+        "display_name": "dizzyf",
+        "link": "https://stackoverflow.com/users/6754140/dizzyf"
+      }
+    },
+    {
+      "answer_id": 27159298,
+      "body": "<p>You can do this,</p>\n\n<pre><code>User.query.filter_by(id=123).delete()\n</code></pre>\n\n<p>or</p>\n\n<pre><code>User.query.filter(User.id == 123).delete()\n</code></pre>\n\n<p><strong>Make sure to <code>commit</code> for <code>delete()</code> to take effect.</strong></p>\n",
+      "owner": {
+        "display_name": "adarsh",
+        "link": "https://stackoverflow.com/users/1068887/adarsh"
+      }
+    },
+    {
+      "answer_id": 1325560,
+      "body": "<p>Your sample code should have worked as it is. SQLAlchemy should be providing a value for <code>f.id</code>, assuming its an autogenerating primary-key column.  Primary-key attributes are populated immediately within the <code>flush()</code> process as they are generated, and no call to <code>commit()</code> should be required.  So the answer here lies in one or more of the following:</p>\n\n<ol>\n<li>The details of your mapping</li>\n<li>If there are any odd quirks of the backend in use (such as, SQLite doesn't generate integer values for a composite primary key)</li>\n<li>What the emitted SQL says when you turn on echo</li>\n</ol>\n",
+      "owner": {
+        "display_name": "zzzeek",
+        "link": "https://stackoverflow.com/users/34549/zzzeek"
+      }
+    },
+    {
+      "answer_id": 6519855,
+      "body": "<p>Reading the <a href=\"http://www.sqlalchemy.org/docs/06/orm/session.html?highlight=scoped_session#unitofwork-contextual\" rel=\"noreferrer\">documentation</a> is recommended:</p>\n\n<blockquote>\n  <p>the <code>scoped_session()</code> function is provided which produces a thread-managed registry of <code>Session</code> objects. It is commonly used in web applications so that a single global variable can be used to safely represent transactional sessions with sets of objects, localized to a single thread.</p>\n</blockquote>\n\n<p>In short, use <code>scoped_session()</code> for thread safety.</p>\n",
+      "owner": {
+        "display_name": "tuomur",
+        "link": "https://stackoverflow.com/users/202775/tuomur"
+      }
+    },
+    {
+      "answer_id": 18265238,
+      "body": "<p>Session objects are <strong>not</strong> thread-safe, but are <strong>thread-local</strong>. <a href=\"http://docs.sqlalchemy.org/en/latest/orm/contextual.html\" rel=\"noreferrer\">From the docs:</a></p>\n<blockquote>\n<p>&quot;The <code>Session</code> object is entirely designed to be used in a <strong>non-concurrent</strong> fashion, which in terms of multithreading means &quot;only in one thread at a time&quot; .. some process needs to be in place such that mutltiple calls across many threads don’t actually get a handle to the same session. We call this notion <strong>thread local storage</strong>.&quot;</p>\n</blockquote>\n<p>If you don't want to do the work of managing threads and sessions yourself, SQLAlchemy has the <code>ScopedSession</code> object to take care of this for you:</p>\n<blockquote>\n<p>The <code>ScopedSession</code> object by default uses <a href=\"https://docs.python.org/3/library/threading.html#threading.local\" rel=\"noreferrer\">threading.local()</a> as storage, so that a single <code>Session</code> is maintained for all who call upon the <code>ScopedSession</code> registry, but only within the scope of a single thread. Callers who call upon the registry in a different thread get a Session instance that is local to that other thread.</p>\n<p>Using this technique, the <code>ScopedSession</code> provides a quick and relatively simple way of providing a single, global object in an application that is safe to be called upon from multiple threads.</p>\n</blockquote>\n<p>See the examples in <a href=\"http://docs.sqlalchemy.org/en/latest/orm/contextual.html\" rel=\"noreferrer\">Contextual/Thread-local Sessions</a> for setting up your own thread-safe sessions:</p>\n<pre><code># set up a scoped_session\nfrom sqlalchemy.orm import scoped_session\nfrom sqlalchemy.orm import sessionmaker\n\nsession_factory = sessionmaker(bind=some_engine)\nSession = scoped_session(session_factory)\n\n# now all calls to Session() will create a thread-local session\nsome_session = Session()\n\n# you can now use some_session to run multiple queries, etc.\n# remember to close it when you're finished!\nSession.remove()\n</code></pre>\n",
+      "owner": {
+        "display_name": "culix",
+        "link": "https://stackoverflow.com/users/28037/culix"
+      }
+    },
+    {
+      "answer_id": 3325497,
+      "body": "<p>Each column has <code>like()</code> method, which can be used in <code>query.filter()</code>. Given a search string, add a <code>%</code> character on either side to search as a substring in both directions.</p>\n\n<pre><code>tag = request.form[\"tag\"]\nsearch = \"%{}%\".format(tag)\nposts = Post.query.filter(Post.tags.like(search)).all()\n</code></pre>\n",
+      "owner": {
+        "display_name": "Daniel Kluev",
+        "link": "https://stackoverflow.com/users/396811/daniel-kluev"
+      }
+    },
+    {
+      "answer_id": 278606,
+      "body": "<p>SQLAlchemy's ORM is meant to be used together with the SQL layer, not hide it. But you do have to keep one or two things in mind when using the ORM and plain SQL in the same transaction. Basically, from one side, ORM data modifications will only hit the database when you flush the changes from your session. From the other side, SQL data manipulation statements don't affect the objects that are in your session.</p>\n\n<p>So if you say</p>\n\n<pre><code>for c in session.query(Stuff).all():\n    c.foo = c.foo+1\nsession.commit()\n</code></pre>\n\n<p>it will do what it says, go fetch all the objects from the database, modify all the objects and then when it's time to flush the changes to the database, update the rows one by one.</p>\n\n<p>Instead you should do this:</p>\n\n<pre><code>session.execute(update(stuff_table, values={stuff_table.c.foo: stuff_table.c.foo + 1}))\nsession.commit()\n</code></pre>\n\n<p>This will execute as one query as you would expect, and because at least the default session configuration expires all data in the session on commit you don't have any stale data issues.</p>\n\n<p>In the almost-released 0.5 series you could also use this method for updating:</p>\n\n<pre><code>session.query(Stuff).update({Stuff.foo: Stuff.foo + 1})\nsession.commit()\n</code></pre>\n\n<p>That will basically run the same SQL statement as the previous snippet, but also select the changed rows and expire any stale data in the session. If you know you aren't using any session data after the update you could also add <code>synchronize_session=False</code> to the update statement and get rid of that select.</p>\n",
+      "owner": {
+        "display_name": "Ants Aasma",
+        "link": "https://stackoverflow.com/users/107366/ants-aasma"
+      }
+    },
+    {
+      "answer_id": 48861231,
+      "body": "<p><strong>EDIT (2019-03-08):</strong> Gord Thompson commented below with good news from the update logs of sqlalchemy: <em>Since SQLAlchemy 1.3.0, released 2019-03-04, sqlalchemy now supports <code>engine = create_engine(sqlalchemy_url, fast_executemany=True)</code> for the <code>mssql+pyodbc</code> dialect. I.e., it is no longer necessary to define a function and use <code>@event.listens_for(engine, 'before_cursor_execute')</code></em> Meaning the below function can be removed and only the flag needs to be set in the create_engine statement - and still retaining the speed-up.</p>\n\n<p><strong>Original Post:</strong></p>\n\n<p>Just made an account to post this. I wanted to comment beneath the above thread as it's a followup on the already provided answer. The solution above worked for me with the Version 17 SQL driver on a Microsft SQL storage writing from a Ubuntu based install.</p>\n\n<p>The complete code I used to speed things up significantly (talking >100x speed-up) is below. This is a turn-key snippet provided that you alter the connection string with your relevant details. To the poster above, thank you very much for the solution as I was looking quite some time for this already.</p>\n\n<pre><code>import pandas as pd\nimport numpy as np\nimport time\nfrom sqlalchemy import create_engine, event\nfrom urllib.parse import quote_plus\n\n\nconn =  \"DRIVER={ODBC Driver 17 for SQL Server};SERVER=IP_ADDRESS;DATABASE=DataLake;UID=USER;PWD=PASS\"\nquoted = quote_plus(conn)\nnew_con = 'mssql+pyodbc:///?odbc_connect={}'.format(quoted)\nengine = create_engine(new_con)\n\n\n@event.listens_for(engine, 'before_cursor_execute')\ndef receive_before_cursor_execute(conn, cursor, statement, params, context, executemany):\n    print(\"FUNC call\")\n    if executemany:\n        cursor.fast_executemany = True\n\n\ntable_name = 'fast_executemany_test'\ndf = pd.DataFrame(np.random.random((10**4, 100)))\n\n\ns = time.time()\ndf.to_sql(table_name, engine, if_exists = 'replace', chunksize = None)\nprint(time.time() - s)\n</code></pre>\n\n<p>Based on the comments below I wanted to take some time to explain some limitations about the pandas <code>to_sql</code> implementation and the way the query is handled. There are 2 things that might cause the <code>MemoryError</code> being raised afaik: </p>\n\n<p>1) Assuming you're writing to a remote SQL storage. When you try to write a large pandas DataFrame with the <code>to_sql</code> method it converts the entire dataframe into a list of values. This transformation takes up way more RAM than the original DataFrame does (on top of it, as the old DataFrame still remains present in RAM). This list is provided to the final <code>executemany</code> call for your ODBC connector. I think the ODBC connector has some troubles handling such large queries. A way to solve this is to provide the <code>to_sql</code> method a chunksize argument (10**5 seems to be around optimal giving about 600 mbit/s (!) write speeds on a 2 CPU 7GB ram MSSQL Storage application from Azure - can't recommend Azure btw). So the first limitation, being the query size, can be circumvented by providing a <code>chunksize</code> argument. However, this won't enable you to write a dataframe the size of 10**7 or larger, (at least not on the VM I am working with which has ~55GB RAM), being issue nr 2.       </p>\n\n<p>This can be circumvented by breaking up the DataFrame with <code>np.split</code> (being 10**6 size DataFrame chunks) These can be written away iteratively. I will try to make a pull request when I have a solution ready for the <code>to_sql</code> method in the core of pandas itself so you won't have to do this pre-breaking up every time. Anyhow I ended up writing a function similar (not turn-key) to the following:       </p>\n\n<pre><code>import pandas as pd\nimport numpy as np\n\ndef write_df_to_sql(df, **kwargs):\n    chunks = np.split(df, df.shape()[0] / 10**6)\n    for chunk in chunks:\n        chunk.to_sql(**kwargs)\n    return True\n</code></pre>\n\n<p>A more complete example of the above snippet can be viewed here: <a href=\"https://gitlab.com/timelord/timelord/blob/master/timelord/utils/connector.py\" rel=\"noreferrer\">https://gitlab.com/timelord/timelord/blob/master/timelord/utils/connector.py</a></p>\n\n<p>It's a class I wrote that incorporates the patch and eases some of the necessary overhead that comes with setting up connections with SQL. Still have to write some documentation. Also I was planning on contributing the patch to pandas itself but haven't found a nice way yet on how to do so.</p>\n\n<p>I hope this helps.</p>\n",
+      "owner": {
+        "display_name": "hetspookjee",
+        "link": "https://stackoverflow.com/users/9379162/hetspookjee"
+      }
+    },
+    {
+      "answer_id": 16093713,
+      "body": "<p>The <a href=\"https://docs.sqlalchemy.org/en/latest/orm/query.html#sqlalchemy.orm.query.Query.filter_by\" rel=\"noreferrer\"><code>filter_by()</code></a> method takes a sequence of keyword arguments, so you always have to use <code>=</code> with it.</p>\n\n<p>You want to use the <a href=\"https://docs.sqlalchemy.org/en/latest/orm/query.html#sqlalchemy.orm.query.Query.filter\" rel=\"noreferrer\"><code>filter()</code></a> method which allows for <code>!=</code>:</p>\n\n<pre><code>seats = Seat.query.filter(Seat.invite != None).all()\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nathan Villaescusa",
+        "link": "https://stackoverflow.com/users/264837/nathan-villaescusa"
+      }
+    },
+    {
+      "answer_id": 25669256,
+      "body": "<p>You don't need to add anything directly to your association table, SQLAlchemy will do that. This is more or less from <a href=\"https://docs.sqlalchemy.org/en/latest/orm/basic_relationships.html#many-to-many\" rel=\"noreferrer\">SQLAlchemy documentations</a>:</p>\n\n<pre><code>association_table = db.Table('association', db.Model.metadata,\n    db.Column('left_id', db.Integer, db.ForeignKey('left.id')),\n    db.Column('right_id', db.Integer, db.ForeignKey('right.id'))\n)\n\nclass Parent(db.Model):\n    __tablename__ = 'left'\n    id = db.Column(db.Integer, primary_key=True)\n    children = db.relationship(\"Child\",\n                    secondary=association_table)\n\nclass Child(db.Model):\n    __tablename__ = 'right'\n    id = db.Column(db.Integer, primary_key=True)\n\n\np = Parent()\nc = Child()\np.children.append(c)\ndb.session.add(p)\ndb.session.commit()\n</code></pre>\n\n<p>Therefore your sample would be like this:</p>\n\n<pre><code>student_identifier = db.Table('student_identifier',\n    db.Column('class_id', db.Integer, db.ForeignKey('classes.class_id')),\n    db.Column('user_id', db.Integer, db.ForeignKey('students.user_id'))\n)\n\nclass Student(db.Model):\n    __tablename__ = 'students'\n    user_id = db.Column(db.Integer, primary_key=True)\n    user_fistName = db.Column(db.String(64))\n    user_lastName = db.Column(db.String(64))\n    user_email = db.Column(db.String(128), unique=True)\n\n\nclass Class(db.Model):\n    __tablename__ = 'classes'\n    class_id = db.Column(db.Integer, primary_key=True)\n    class_name = db.Column(db.String(128), unique=True)\n    students = db.relationship(\"Student\",\n                               secondary=student_identifier)\n\ns = Student()\nc = Class()\nc.students.append(s)\ndb.session.add(c)\ndb.session.commit()\n</code></pre>\n",
+      "owner": {
+        "display_name": "mehdix",
+        "link": "https://stackoverflow.com/users/157216/mehdix"
+      }
+    },
+    {
+      "answer_id": 54495140,
+      "body": "<p>It is impossible to give you a 'this is faster' answer, because performance <strong>per default value expression</strong> can vary widely, both on the server and in Python. A function to retrieve the current time behaves differently from a scalar default value.</p>\n\n<p>Next, you must realise that defaults can be provided in <strong>five</strong> different ways:</p>\n\n<ul>\n<li><a href=\"https://docs.sqlalchemy.org/en/latest/core/defaults.html#scalar-defaults\" rel=\"noreferrer\">Client-side scalar defaults</a>. A fixed value, such a <code>0</code> or <code>True</code>. The value is used in an <code>INSERT</code> statement.</li>\n<li><a href=\"https://docs.sqlalchemy.org/en/latest/core/defaults.html#client-invoked-sql-expressions\" rel=\"noreferrer\">Client-side Python function</a>. Called each time a default is needed, produces the value to insert, used the same way as a scalar default from there on out. These can be <a href=\"https://docs.sqlalchemy.org/en/latest/core/defaults.html#context-sensitive-default-functions\" rel=\"noreferrer\">context sensitive</a> (have access to the current execution context with values to be inserted).</li>\n<li><a href=\"https://docs.sqlalchemy.org/en/latest/core/defaults.html#client-invoked-sql-expressions\" rel=\"noreferrer\">Client-side SQL expression</a>; this generates an extra piece of <a href=\"https://docs.sqlalchemy.org/en/latest/core/tutorial.html\" rel=\"noreferrer\">SQL expression</a> that is then used in the query and executed on the server to produce a value.</li>\n<li><a href=\"https://docs.sqlalchemy.org/en/latest/core/defaults.html#server-invoked-ddl-explicit-default-expressions\" rel=\"noreferrer\">Server-side DLL expression</a> are SQL expressions that are then stored in the table definition, so are part of the schema. The server uses these to fill a value for any columns omitted from <code>INSERT</code> statements, or when a column value is set to <code>DEFAULT</code> in an <code>INSERT</code> or <code>UPDATE</code> statement.</li>\n<li><a href=\"https://docs.sqlalchemy.org/en/latest/core/defaults.html#marking-implicitly-generated-values-timestamps-and-triggered-columns\" rel=\"noreferrer\">Server-side implicit defaults or triggers</a>, where other DLL such as triggers or specific database features provide a default value for columns. </li>\n</ul>\n\n<p>Note that when it comes to a SQL expression determining the default value, be that a client-side SQL expression, a server-side DLL expression, or a trigger, it makes very little difference to a database where the default value expression is coming from. The query executor will need to know how to produce values for a given column, once that's parsed out of the DML statement or the schema definition, the server still has to execute the expression for each row.</p>\n\n<p>Choosing between these options is rarely going to be based on performance alone, performance should <em>at most</em> be but one of multiple aspects you consider. There are many factors involved here: </p>\n\n<ul>\n<li><code>default</code> with a scalar or Python function directly produces a Python default value, then sends the new value to the server when inserting. Python code can access the default value before the data is inserted into the database.</li>\n<li><p>A client-side SQL expression, a <code>server_default</code> value, and server-side implicit defaults and triggers all have the server generate the default, which then must be fetched by the client if you want to be able to access it in the same SQLAlchemy session. You can't access the value until the object has been inserted into the database.</p>\n\n<p>Depending on the exact query and database support, SQLAlchemy may have to make <em>extra</em> SQL queries to either generate a default before the <code>INSERT</code> statement or run a separate <code>SELECT</code> afterwards to fetch the defaults that have been inserted. You can control when this happens (directly when inserting or on first access after flushing, with the <a href=\"https://docs.sqlalchemy.org/en/latest/orm/mapping_api.html#sqlalchemy.orm.mapper.params.eager_defaults\" rel=\"noreferrer\"><code>eager_defaults</code> mapper configuration</a>).</p></li>\n<li>If you have multiple clients on different platforms accessing the same database, a <code>server_default</code> or other default attached to the schema (such as a trigger) ensures that all clients will use the same defaults, regardless, while defaults implemented in Python can't be accessed by other platforms.</li>\n</ul>\n\n<p>When using PostgreSQL, SQLAlchemy can make use of <a href=\"https://www.postgresql.org/docs/9.3/dml-returning.html\" rel=\"noreferrer\">the <code>RETURNING</code> clause for DML statements</a>, which gives a client access to server-side generated defaults in a single step.</p>\n\n<p>So when using a <code>server_default</code> column default that calculates a new value for each row (not a scalar value), you save a small amount of Python-side time, and save a small amount of network bandwidth as you are not sending data for that column over to the database. The database <em>could</em> be faster creating that same value, or it could be slower; it largely depends on the type of operation. If you need to have access to the generated default value from Python, in the same transaction, you do then have to wait for a return stream of data, parsed out by SQLAlchemy. All these details <em>can</em> become insignificant compared to everything else that happens around inserting or updating rows, however.</p>\n\n<p>Do understand that a ORM is <em>not suitable to be used for high-performance bulk row inserts or updates</em>; quoting from the <a href=\"https://docs.sqlalchemy.org/en/latest/faq/performance.html#i-m-inserting-400-000-rows-with-the-orm-and-it-s-really-slow\" rel=\"noreferrer\">SQAlchemy <em>Performance</em> FAQ entry</a>:</p>\n\n<blockquote>\n  <p>The SQLAlchemy ORM uses the unit of work pattern when synchronizing changes to the database. This pattern goes far beyond simple “inserts” of data. It includes that attributes which are assigned on objects are received using an attribute instrumentation system which tracks changes on objects as they are made, includes that all rows inserted are tracked in an identity map which has the effect that for each row SQLAlchemy must retrieve its “last inserted id” if not already given, and also involves that rows to be inserted are scanned and sorted for dependencies as needed. Objects are also subject to a fair degree of bookkeeping in order to keep all of this running, which for a very large number of rows at once can create an inordinate amount of time spent with large data structures, hence it’s best to chunk these.</p>\n  \n  <p>Basically, unit of work is a large degree of automation in order to automate the task of persisting a complex object graph into a relational database with no explicit persistence code, and this automation has a price.</p>\n  \n  <p>ORMs are basically not intended for high-performance bulk inserts - this is the whole reason SQLAlchemy offers the Core in addition to the ORM as a first-class component.</p>\n</blockquote>\n\n<p>Because an ORM like SQLAlchemy comes with a hefty overhead price, any performance differences between a server-side or Python-side default quickly disappears in the noise of ORM operations.</p>\n\n<p>So if you are concerned about performance for large-quantity insert or update operations, you would want to use <a href=\"https://docs.sqlalchemy.org/en/latest/orm/persistence_techniques.html#bulk-operations\" rel=\"noreferrer\">bulk operations</a> for those, and enable the <a href=\"https://docs.sqlalchemy.org/en/latest/dialects/postgresql.html#psycopg2-batch-mode\" rel=\"noreferrer\"><code>psycopg2</code> batch execution helpers</a> to really get a speed boost. When using these bulk operations, I'd expect server-side defaults to improve performance just by saving bandwidth moving row data from Python to the server, but how much depends on the exact nature of the default values.</p>\n\n<p>If ORM insert and update performance outside of bulk operations is a big issue for you, you need to <em>test your specific options</em>. I'd start with the <a href=\"https://docs.sqlalchemy.org/en/latest/orm/examples.html#module-examples.performance\" rel=\"noreferrer\">SQLAlchemy <code>examples.performance</code> package</a> and <a href=\"https://docs.sqlalchemy.org/en/latest/orm/examples.html#writing-your-own-suites\" rel=\"noreferrer\">add your own test suite</a> using two models that differ only in a single <code>server_default</code> and <code>default</code> configuration.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 39669377,
+      "body": "<p>The <code>isouter=True</code> flag will produce a <code>LEFT OUTER JOIN</code> which is the same as a <code>LEFT JOIN</code>.</p>\n\n<p>With your code:</p>\n\n<pre><code>(sa.select([idc.c.Code])\n        .select_from(\n            t1.join(t2, and_(t1.c.attr == 1, t2.c.attr2 = 1))\n            .join(t3, t3.c.Code == t1.c.Code, isouter=True)))\n</code></pre>\n\n<p>Declarative example:</p>\n\n<pre><code>session = scoped_session(sessionmaker())\nsession.query(Model).join(AnotherModel, AnotherModel.model_id == Model.id, isouter=True)\n</code></pre>\n",
+      "owner": {
+        "display_name": "user1742188",
+        "link": "https://stackoverflow.com/users/1742188/user1742188"
+      }
+    },
+    {
+      "answer_id": 1080152,
+      "body": "<p>Nope, there is no difference in DB traffic. The difference is just that <code>for row in session.Query(Model1)</code> does the ORM work on each row when it is about to give it to you, while <code>for row in session.Query(Model1).all()</code> does the ORM work on all rows, before starting to give them to you.</p>\n\n<p>Note that <code>q.all()</code> is just sugar for <code>list(q)</code>, i.e. collecting everything yielded by the generator into a list. Here is the <a href=\"https://github.com/zzzeek/sqlalchemy/blob/master/lib/sqlalchemy/orm/query.py\" rel=\"noreferrer\">source code</a> for it, in the <code>Query</code> class (find <code>def all</code> in the linked source):</p>\n\n<pre><code>def all(self):\n    \"\"\"Return the results represented by this ``Query`` as a list.\n\n    This results in an execution of the underlying query.\n\n    \"\"\"\n    return list(self)\n</code></pre>\n\n<p>... where <code>self</code>, the query object, is an iterable, i.e. has an <code>__iter__</code> method.</p>\n\n<p>So logically the two ways are exactly the same in terms of DB traffic; both end up calling <code>query.__iter__()</code> to get a row iterator, and <code>next()</code>ing their way through it.</p>\n\n<p>The practical difference is that the former <em>can</em> start giving you rows as soon as their data has arrived, “streaming” the DB result set to you, with less memory use and latency. I can't state for sure that all the current engine implementations do that (I hope they do!). In any case the latter version prevents that efficiency, for no good reason.</p>\n",
+      "owner": {
+        "display_name": "Gunnlaugur Briem",
+        "link": "https://stackoverflow.com/users/74683/gunnlaugur-briem"
+      }
+    },
+    {
+      "answer_id": 10664192,
+      "body": "<h1>A flat implementation</h1>\n\n<p>You could use something like this:</p>\n\n<pre><code>from sqlalchemy.ext.declarative import DeclarativeMeta\n\nclass AlchemyEncoder(json.JSONEncoder):\n\n    def default(self, obj):\n        if isinstance(obj.__class__, DeclarativeMeta):\n            # an SQLAlchemy class\n            fields = {}\n            for field in [x for x in dir(obj) if not x.startswith('_') and x != 'metadata']:\n                data = obj.__getattribute__(field)\n                try:\n                    json.dumps(data) # this will fail on non-encodable values, like other classes\n                    fields[field] = data\n                except TypeError:\n                    fields[field] = None\n            # a json-encodable dict\n            return fields\n\n        return json.JSONEncoder.default(self, obj)\n</code></pre>\n\n<p>and then convert to JSON using:</p>\n\n<pre><code>c = YourAlchemyClass()\nprint json.dumps(c, cls=AlchemyEncoder)\n</code></pre>\n\n<p>It will ignore fields that are not encodable (set them to 'None').</p>\n\n<p>It doesn't auto-expand relations (since this could lead to self-references, and loop forever).</p>\n\n<h1>A recursive, non-circular implementation</h1>\n\n<p>If, however, you'd rather loop forever, you could use:</p>\n\n<pre><code>from sqlalchemy.ext.declarative import DeclarativeMeta\n\ndef new_alchemy_encoder():\n    _visited_objs = []\n\n    class AlchemyEncoder(json.JSONEncoder):\n        def default(self, obj):\n            if isinstance(obj.__class__, DeclarativeMeta):\n                # don't re-visit self\n                if obj in _visited_objs:\n                    return None\n                _visited_objs.append(obj)\n\n                # an SQLAlchemy class\n                fields = {}\n                for field in [x for x in dir(obj) if not x.startswith('_') and x != 'metadata']:\n                    fields[field] = obj.__getattribute__(field)\n                # a json-encodable dict\n                return fields\n\n            return json.JSONEncoder.default(self, obj)\n\n    return AlchemyEncoder\n</code></pre>\n\n<p>And then encode objects using:</p>\n\n<pre><code>print json.dumps(e, cls=new_alchemy_encoder(), check_circular=False)\n</code></pre>\n\n<p>This would encode all children, and all their children, and all their children... Potentially encode your entire database, basically. When it reaches something its encoded before, it will encode it as 'None'.</p>\n\n<h1>A recursive, possibly-circular, selective implementation</h1>\n\n<p>Another alternative, probably better, is to be able to specify the fields you want to expand:</p>\n\n<pre><code>def new_alchemy_encoder(revisit_self = False, fields_to_expand = []):\n    _visited_objs = []\n\n    class AlchemyEncoder(json.JSONEncoder):\n        def default(self, obj):\n            if isinstance(obj.__class__, DeclarativeMeta):\n                # don't re-visit self\n                if revisit_self:\n                    if obj in _visited_objs:\n                        return None\n                    _visited_objs.append(obj)\n\n                # go through each field in this SQLalchemy class\n                fields = {}\n                for field in [x for x in dir(obj) if not x.startswith('_') and x != 'metadata']:\n                    val = obj.__getattribute__(field)\n\n                    # is this field another SQLalchemy object, or a list of SQLalchemy objects?\n                    if isinstance(val.__class__, DeclarativeMeta) or (isinstance(val, list) and len(val) &gt; 0 and isinstance(val[0].__class__, DeclarativeMeta)):\n                        # unless we're expanding this field, stop here\n                        if field not in fields_to_expand:\n                            # not expanding this field: set it to None and continue\n                            fields[field] = None\n                            continue\n\n                    fields[field] = val\n                # a json-encodable dict\n                return fields\n\n            return json.JSONEncoder.default(self, obj)\n\n    return AlchemyEncoder\n</code></pre>\n\n<p>You can now call it with:</p>\n\n<pre><code>print json.dumps(e, cls=new_alchemy_encoder(False, ['parents']), check_circular=False)\n</code></pre>\n\n<p>To only expand SQLAlchemy fields called 'parents', for example.</p>\n",
+      "owner": {
+        "display_name": "Sasha B",
+        "link": "https://stackoverflow.com/users/1332819/sasha-b"
+      }
+    },
+    {
+      "answer_id": 24763356,
+      "body": "<p>This is because you are trying to access <code>bar</code> from the <code>FooBar</code> class rather than a <code>FooBar</code> instance. The <code>FooBar</code> class does not have any <code>bar</code> objects associated with it--<code>bar</code> is just an sqlalchemy <em>InstrumentedAttribute</em>. This is why you get the error:</p>\n\n<pre><code>AttributeError: Neither 'InstrumentedAttribute' object nor 'Comparator' object associated with FooBar.bar has an attribute 'foo'\n</code></pre>\n\n<p>You will get the same error by typing <code>FooBar.bar.foo.name</code> outside the sqlalchemy query.</p>\n\n<p>The solution is to call the <code>Foo</code> class directly:</p>\n\n<pre><code>ses.query(FooBar).join(Bar).join(Foo).filter(Foo.name == \"blah\")\n</code></pre>\n",
+      "owner": {
+        "display_name": "ostrokach",
+        "link": "https://stackoverflow.com/users/2063031/ostrokach"
+      }
+    },
+    {
+      "answer_id": 24623979,
+      "body": "<p>What you are asking for is a <em>data migration</em>, as opposed to the <em>schema migration</em> that is most prevalent in the Alembic docs.</p>\n<p>This answer assumes you are using declarative (as opposed to class-Mapper-Table or core) to define your models.  It should be relatively straightforward to adapt this to the other forms.</p>\n<p>Note that Alembic provides some basic data functions: <a href=\"http://alembic.zzzcomputing.com/en/latest/ops.html#alembic.operations.Operations.bulk_insert\" rel=\"noreferrer\"><code>op.bulk_insert()</code></a> and <a href=\"http://alembic.zzzcomputing.com/en/latest/ops.html#alembic.operations.Operations.execute\" rel=\"noreferrer\"><code>op.execute()</code></a>.  If the operations are fairly minimal, use those.  If the migration requires relationships or other complex interactions, I prefer to use the full power of models and sessions as described below.</p>\n<p>The following is an example migration script that sets up some declarative models that will be used to manipulate data in a session.  The key points are:</p>\n<ol>\n<li><p>Define the basic models you need, with the columns you'll need.  You don't need every column, just the primary key and the ones you'll be using.</p>\n</li>\n<li><p>Within the upgrade function, use <a href=\"http://alembic.zzzcomputing.com/en/latest/ops.html#alembic.operations.Operations.get_bind\" rel=\"noreferrer\"><code>op.get_bind()</code></a> to get the current connection, and make a session with it.</p>\n<ul>\n<li>Or use <code>bind.execute()</code> to use SQLAlchemy's lower level to write SQL queries directly. This is useful for simple migrations.</li>\n</ul>\n</li>\n<li><p>Use the models and session as you normally would in your application.</p>\n</li>\n</ol>\n\n<pre><code>&quot;&quot;&quot;create teams table\n\nRevision ID: 169ad57156f0\nRevises: 29b4c2bfce6d\nCreate Date: 2014-06-25 09:00:06.784170\n&quot;&quot;&quot;\n\nrevision = '169ad57156f0'\ndown_revision = '29b4c2bfce6d'\n\nfrom alembic import op\nimport sqlalchemy as sa\nfrom sqlalchemy import orm\nfrom sqlalchemy.ext.declarative import declarative_base\n\nBase = declarative_base()\n\n\nclass Player(Base):\n    __tablename__ = 'players'\n\n    id = sa.Column(sa.Integer, primary_key=True)\n    name = sa.Column(sa.String, nullable=False)\n    team_name = sa.Column('team', sa.String, nullable=False)\n    team_id = sa.Column(sa.Integer, sa.ForeignKey('teams.id'), nullable=False)\n\n    team = orm.relationship('Team', backref='players')\n\n\nclass Team(Base):\n    __tablename__ = 'teams'\n\n    id = sa.Column(sa.Integer, primary_key=True)\n    name = sa.Column(sa.String, nullable=False, unique=True)\n\n\ndef upgrade():\n    bind = op.get_bind()\n    session = orm.Session(bind=bind)\n\n    # create the teams table and the players.team_id column\n    Team.__table__.create(bind)\n    op.add_column('players', sa.Column('team_id', sa.ForeignKey('teams.id'), nullable=False)\n\n    # create teams for each team name\n    teams = {name: Team(name=name) for name in session.query(Player.team).distinct()}\n    session.add_all(teams.values())\n\n    # set player team based on team name\n    for player in session.query(Player):\n        player.team = teams[player.team_name]\n\n    session.commit()\n\n    # don't need team name now that team relationship is set\n    op.drop_column('players', 'team')\n\n\ndef downgrade():\n    bind = op.get_bind()\n    session = orm.Session(bind=bind)\n\n    # re-add the players.team column\n    op.add_column('players', sa.Column('team', sa.String, nullable=False)\n\n    # set players.team based on team relationship\n    for player in session.query(Player):\n        player.team_name = player.team.name\n\n    session.commit()\n\n    op.drop_column('players', 'team_id')\n    op.drop_table('teams')\n</code></pre>\n<p>The migration defines separate models because the models in your code represent the <em>current state</em> of the database, while the migrations represent <em>steps along the way</em>. Your database might be in any state along that path, so the models might not sync up with the database yet. Unless you're very careful, using the real models directly will cause problems with missing columns, invalid data, etc. It's clearer to explicitly state exactly what columns and models you will use in the migration.</p>\n",
+      "owner": {
+        "display_name": "davidism",
+        "link": "https://stackoverflow.com/users/400617/davidism"
+      }
+    },
+    {
+      "answer_id": 22700629,
+      "body": "<p>Looking in the Flask-SQLAlchemy source code the <code>db.Model</code> class is initialized as follows:</p>\n\n<pre><code>self.Model = self.make_declarative_base()\n</code></pre>\n\n<p>And here is the <code>make_declarative_base()</code> method:</p>\n\n<pre><code>def make_declarative_base(self):\n    \"\"\"Creates the declarative base.\"\"\"\n    base = declarative_base(cls=Model, name='Model',\n                            metaclass=_BoundDeclarativeMeta)\n    base.query = _QueryProperty(self)\n    return base\n</code></pre>\n\n<p>The <code>_BoundDeclarativeMeta</code> metaclass is a subclass of SQLAlchemy's <code>DeclarativeMeta</code>, it simply adds support for computing a default value for <code>__tablename__</code> (the table name) and also to handle binds.</p>\n\n<p>The <code>base.query</code> property enables Flask-SQLAlchemy based models to access a query object as <code>Model.query</code> instead of SQLAlchemy's <code>session.query(Model)</code>.</p>\n\n<p>The <code>_QueryProperty</code> query class is also subclassed from SQLAlchemy's query. The Flask-SQLAlchemy subclass adds three additional query methods that do not exist in SQLAlchemy: <code>get_or_404()</code>, <code>first_or_404()</code> and <code>paginate()</code>.</p>\n\n<p>I believe these are the only differences.</p>\n",
+      "owner": {
+        "display_name": "Miguel Grinberg",
+        "link": "https://stackoverflow.com/users/904393/miguel-grinberg"
+      }
+    },
+    {
+      "answer_id": 60815,
+      "body": "<p>This is very much a database-specific issue.</p>\n\n<p>I know that PostgreSQL, SQLite, MySQL, and Oracle have the ability to order by a random function, so you can use this in SQLAlchemy:</p>\n\n<pre><code>from  sqlalchemy.sql.expression import func, select\n\nselect.order_by(func.random()) # for PostgreSQL, SQLite\n\nselect.order_by(func.rand()) # for MySQL\n\nselect.order_by('dbms_random.value') # For Oracle\n</code></pre>\n\n<p>Next, you need to limit the query by the number of records you need (for example using <code>.limit()</code>).</p>\n\n<p>Bear in mind that at least in PostgreSQL, selecting random record has severe perfomance issues; <a href=\"http://www.depesz.com/index.php/2007/09/16/my-thoughts-on-getting-random-row/\" rel=\"noreferrer\">here</a> is good article about it.</p>\n",
+      "owner": {
+        "display_name": "Łukasz",
+        "link": "https://stackoverflow.com/users/4999/%c5%81ukasz"
+      }
+    },
+    {
+      "answer_id": 17653975,
+      "body": "<p>I'd say your question has nothing to do with flask at all. For example, you don't have a problem with the templates, routes, views or logon decorators.</p>\n\n<p>Where you struggle at is at SQLAlchemy.</p>\n\n<p>So my suggestion is to ignore Flask for a while and get used to SQLAlchemy first. You need to get used to your existing database and how to access it from SQLAlchemy. Use some MySQL documentation tool to find your way around this. The start with something like this (note that it has nothing to do with Flask ask all ... yet):</p>\n\n<pre><code>#!/usr/bin/python\n# -*- mode: python -*-\n\nfrom sqlalchemy import create_engine\nfrom sqlalchemy.ext.declarative import declarative_base\n\nengine = create_engine('sqlite:///webmgmt.db', convert_unicode=True, echo=False)\nBase = declarative_base()\nBase.metadata.reflect(engine)\n\n\nfrom sqlalchemy.orm import relationship, backref\n\nclass Users(Base):\n    __table__ = Base.metadata.tables['users']\n\n\nif __name__ == '__main__':\n    from sqlalchemy.orm import scoped_session, sessionmaker, Query\n    db_session = scoped_session(sessionmaker(bind=engine))\n    for item in db_session.query(Users.id, Users.name):\n        print item\n</code></pre>\n\n<p>In the line \"<code>engine =</code>\" you need to provide your path to your MySQL database, so that SQLAlchemy finds it. In my case I used a pre-existing sqlite3 database.</p>\n\n<p>In the line \"<code>class Users(Base)</code>\" you need to use one of existing tables in your MySQL database. I knew that my sqlite3 database had a table named \"users\".</p>\n\n<p>After this point, SQLalchemy knows how to connect to your MySQL database and it knows about one of the tables. You need now to add all the other tables that you care for. Finally, you need to specify relationships to SQLalchemy. Here I mean things like one-to-one, one-to-many, many-to-many, parent-child and so on. The SQLAlchemy web site contains a rather lenghty section about this.</p>\n\n<p>After the line \"<code>if __name__ == '__main__'</code>\" just comes some test code. It will be executed if I don't import my python script, but run. Here you see that I create a DB session and is that for a very simply query.</p>\n\n<p>My suggestion is that you first read about the important parts of SQLAlchemy's documentation, for example the descriptive table definition, the relationship model and how to query. Once you know this, you can change the last part of my example into a controller (e.g. using Python's <code>yield</code> method) and write a view that uses that controller.                      </p>\n",
+      "owner": {
+        "display_name": "HolgerSchurig",
+        "link": "https://stackoverflow.com/users/2554244/holgerschurig"
+      }
+    },
+    {
+      "answer_id": 26029844,
+      "body": "<p>You cannot have two primary keys in a table. Instead, you must use a compound primary key.\nThis can be done by adding a <code>PrimaryKeyConstraint</code> in your model as below (remember to add a comma before closing the bracket in <code>__table_args__</code>:</p>\n\n<pre><code>from db import PrimaryKeyConstraint\n\nclass EssayStateAssociations(db.Model):\n    __tablename__ = 'essay_associations'\n    __table_args__ = (\n        PrimaryKeyConstraint('application_essay_id', 'theme_essay_id'),\n    )\n\n    application_essay_id = db.Column(\n        db.Integer,\n        db.ForeignKey(\"application_essay.id\"))\n    theme_essay_id = db.Column(\n        db.Integer,\n        db.ForeignKey(\"theme_essay.id\"))\n    state = db.Column(db.String, default=\"pending\")\n</code></pre>\n",
+      "owner": {
+        "display_name": "Minh Pham",
+        "link": "https://stackoverflow.com/users/1319879/minh-pham"
+      }
+    },
+    {
+      "answer_id": 22357235,
+      "body": "<p>Tried removing quotes from the foreign_keys and making them a list. From official documentation on <a href=\"http://docs.sqlalchemy.org/en/latest/orm/join_conditions.html#handling-multiple-join-paths\" rel=\"noreferrer\"><code>Relationship Configuration: Handling Multiple Join Paths</code></a></p>\n\n<blockquote>\n  <p>Changed in version 0.8: <code>relationship()</code> can resolve ambiguity between\n  foreign key targets on the basis of the <code>foreign_keys</code> argument alone;\n  the <code>primaryjoin</code> argument is no longer needed in this situation.</p>\n</blockquote>\n\n<hr>\n\n<p>Self-contained code below works with <code>sqlalchemy&gt;=0.9</code>:</p>\n\n<pre><code>from sqlalchemy import create_engine, Column, Integer, String, ForeignKey\nfrom sqlalchemy.orm import relationship, scoped_session, sessionmaker\nfrom sqlalchemy.ext.declarative import declarative_base\n\nengine = create_engine(u'sqlite:///:memory:', echo=True)\nsession = scoped_session(sessionmaker(bind=engine))\nBase = declarative_base()\n\n#The business case here is that a company can be a stakeholder in another company.\nclass Company(Base):\n    __tablename__ = 'company'\n    id = Column(Integer, primary_key=True)\n    name = Column(String(50), nullable=False)\n\nclass Stakeholder(Base):\n    __tablename__ = 'stakeholder'\n    id = Column(Integer, primary_key=True)\n    company_id = Column(Integer, ForeignKey('company.id'), nullable=False)\n    stakeholder_id = Column(Integer, ForeignKey('company.id'), nullable=False)\n    company = relationship(\"Company\", foreign_keys=[company_id])\n    stakeholder = relationship(\"Company\", foreign_keys=[stakeholder_id])\n\nBase.metadata.create_all(engine)\n\n# simple query test\nq1 = session.query(Company).all()\nq2 = session.query(Stakeholder).all()\n</code></pre>\n",
+      "owner": {
+        "display_name": "van",
+        "link": "https://stackoverflow.com/users/99594/van"
+      }
+    },
+    {
+      "answer_id": 8603129,
+      "body": "<p>How about </p>\n\n<pre><code>session.query(MyUserClass).filter(MyUserClass.id.in_((123,456))).all()\n</code></pre>\n\n<p><strong>edit</strong>: Without the ORM, it would be </p>\n\n<pre><code>session.execute(\n    select(\n        [MyUserTable.c.id, MyUserTable.c.name], \n        MyUserTable.c.id.in_((123, 456))\n    )\n).fetchall()\n</code></pre>\n\n<p><a href=\"http://docs.sqlalchemy.org/en/rel_0_8/core/expression_api.html#sqlalchemy.sql.expression.select\" rel=\"noreferrer\"><code>select()</code></a> takes two parameters, the first one is a list of fields to retrieve, the second one is the <code>where</code> condition. You can access all fields on a table object via the <code>c</code> (or <code>columns</code>) property.</p>\n",
+      "owner": {
+        "display_name": "Simon",
+        "link": "https://stackoverflow.com/users/22404/simon"
+      }
+    },
+    {
+      "answer_id": 5003705,
+      "body": "<p>I asked about the same thing on the SQLAlchemy Google group, and I got a recipe that appears to work well (all my tables are emptied). See <a href=\"http://groups.google.com/group/sqlalchemy/browse_thread/thread/f3f24131164eb93\" rel=\"noreferrer\">the thread</a> for reference.</p>\n\n<p>My code (excerpt) looks like this:</p>\n\n<pre><code>import contextlib\nfrom sqlalchemy import MetaData\n\nmeta = MetaData()\n\nwith contextlib.closing(engine.connect()) as con:\n    trans = con.begin()\n    for table in reversed(meta.sorted_tables):\n        con.execute(table.delete())\n    trans.commit()\n</code></pre>\n\n<p>Edit: I modified the code to delete tables in reverse order; supposedly this should ensure that children are deleted before parents.</p>\n",
+      "owner": {
+        "display_name": "aknuds1",
+        "link": "https://stackoverflow.com/users/265261/aknuds1"
+      }
+    },
+    {
+      "answer_id": 4202016,
+      "body": "<p>A Session object is basically an ongoing transaction of changes to a database (update, insert, delete). These operations aren't persisted to the database until they are committed (if your program aborts for some reason in mid-session transaction, any uncommitted changes within are lost).</p>\n\n<p>The session object registers transaction operations with <code>session.add()</code>, but doesn't yet communicate them to the database until <code>session.flush()</code> is called. </p>\n\n<p><code>session.flush()</code> communicates a series of operations to the database (insert, update, delete). The database maintains them as pending operations in a transaction. The changes aren't persisted permanently to disk, or visible to other transactions until the database receives a COMMIT for the current transaction (which is what <code>session.commit()</code> does).</p>\n\n<p><code>session.commit()</code> commits (persists) those changes to the database.</p>\n\n<p><code>flush()</code> is <em>always</em> called as part of a call to <code>commit()</code> (<a href=\"http://docs.sqlalchemy.org/en/latest/orm/session_basics.html#committing\" rel=\"noreferrer\">1</a>).</p>\n\n<p>When you use a Session object to query the database, the query will return results both from the database and from the flushed parts of the uncommitted transaction it holds. By default, Session objects <code>autoflush</code> their operations, but this can be disabled.</p>\n\n<p>Hopefully this example will make this clearer:</p>\n\n<pre><code>#---\ns = Session()\n\ns.add(Foo('A')) # The Foo('A') object has been added to the session.\n                # It has not been committed to the database yet,\n                #   but is returned as part of a query.\nprint 1, s.query(Foo).all()\ns.commit()\n\n#---\ns2 = Session()\ns2.autoflush = False\n\ns2.add(Foo('B'))\nprint 2, s2.query(Foo).all() # The Foo('B') object is *not* returned\n                             #   as part of this query because it hasn't\n                             #   been flushed yet.\ns2.flush()                   # Now, Foo('B') is in the same state as\n                             #   Foo('A') was above.\nprint 3, s2.query(Foo).all() \ns2.rollback()                # Foo('B') has not been committed, and rolling\n                             #   back the session's transaction removes it\n                             #   from the session.\nprint 4, s2.query(Foo).all()\n\n#---\nOutput:\n1 [&lt;Foo('A')&gt;]\n2 [&lt;Foo('A')&gt;]\n3 [&lt;Foo('A')&gt;, &lt;Foo('B')&gt;]\n4 [&lt;Foo('A')&gt;]\n</code></pre>\n",
+      "owner": {
+        "display_name": "snapshoe",
+        "link": "https://stackoverflow.com/users/452174/snapshoe"
+      }
+    },
+    {
+      "answer_id": 34364247,
+      "body": "<p><strong>A one-line overview:</strong> </p>\n\n<p>The behavior of <code>execute()</code> is same in all the cases, but they are 3 different methods, in <code>Engine</code>, <code>Connection</code>, and <code>Session</code> classes.</p>\n\n<p><strong>What exactly is <code>execute()</code>:</strong></p>\n\n<p>To understand behavior of <code>execute()</code> we need to look into the <code>Executable</code> class. <code>Executable</code> is a superclass for all “statement” types of objects, including select(), delete(),update(), insert(), text() - in simplest words possible, an <code>Executable</code> is a SQL expression construct supported in SQLAlchemy.</p>\n\n<p>In all the cases the <code>execute()</code> method takes the SQL text or constructed SQL expression i.e. any of the variety of SQL expression constructs supported in SQLAlchemy and returns query results (a <code>ResultProxy</code> - Wraps a <code>DB-API</code> cursor object to provide easier access to row columns.) </p>\n\n<hr>\n\n<p><strong>To clarify it further (only for conceptual clarification, not a recommended approach)</strong>:</p>\n\n<p>In addition to <code>Engine.execute()</code> (connectionless execution), <code>Connection.execute()</code>, and <code>Session.execute()</code>, it is also possible to use the <code>execute()</code> directly on any <code>Executable</code> construct. The <code>Executable</code> class has it's own implementation of <code>execute()</code> - As per official documentation, one line description about what the <code>execute()</code> does is \"<strong>Compile and execute this <code>Executable</code></strong>\". In this case we need to explicitly bind the <code>Executable</code> (SQL expression construct) with a <code>Connection</code> object or, <code>Engine</code> object (which implicitly get a <code>Connection</code> object), so the <code>execute()</code> will know where to execute the <code>SQL</code>.</p>\n\n<p>The following example demonstrates it well - Given a table as below:</p>\n\n<pre><code>from sqlalchemy import MetaData, Table, Column, Integer\n\nmeta = MetaData()\nusers_table = Table('users', meta,\n    Column('id', Integer, primary_key=True),\n    Column('name', String(50)))\n</code></pre>\n\n<p><strong>Explicit execution</strong> i.e. <code>Connection.execute()</code> - passing the SQL text or constructed SQL expression to the <code>execute()</code> method of <code>Connection</code>:</p>\n\n<pre><code>engine = create_engine('sqlite:///file.db')\nconnection = engine.connect()\nresult = connection.execute(users_table.select())\nfor row in result:\n    # ....\nconnection.close()\n</code></pre>\n\n<p><strong>Explicit connectionless execution</strong> i.e. <code>Engine.execute()</code> - passing the SQL text or constructed SQL expression directly to the <code>execute()</code> method of Engine:</p>\n\n<pre><code>engine = create_engine('sqlite:///file.db')\nresult = engine.execute(users_table.select())\nfor row in result:\n    # ....\nresult.close()\n</code></pre>\n\n<p><strong>Implicit execution</strong> i.e. <code>Executable.execute()</code> - is also connectionless, and calls the <code>execute()</code> method of the <code>Executable</code>, that is, it calls <code>execute()</code> method directly on the <code>SQL</code> expression construct (an instance of <code>Executable</code>) itself.</p>\n\n<pre><code>engine = create_engine('sqlite:///file.db')\nmeta.bind = engine\nresult = users_table.select().execute()\nfor row in result:\n    # ....\nresult.close()\n</code></pre>\n\n<p>Note: Stated the implicit execution example for the purpose of clarification - this way of execution is highly not recommended - as per <a href=\"http://docs.sqlalchemy.org/en/rel_1_0/core/connections.html#connectionless-execution-implicit-execution\" rel=\"noreferrer\">docs</a>:</p>\n\n<blockquote>\n  <p>“implicit execution” is a very old usage pattern that in most cases is\n  more confusing than it is helpful, and its usage is discouraged. Both\n  patterns seem to encourage the overuse of expedient “short cuts” in\n  application design which lead to problems later on.</p>\n</blockquote>\n\n<hr>\n\n<h2>Your questions:</h2>\n\n<blockquote>\n  <p>As I understand if someone use engine.execute it creates connection,\n  opens session (Alchemy cares about it for you) and executes query.</p>\n</blockquote>\n\n<p>You're right for the part \"if someone use <code>engine.execute</code> it creates <code>connection</code> \" but not for \"opens <code>session</code> (Alchemy cares about it for you) and executes query \" - Using <code>Engine.execute()</code> and <code>Connection.execute()</code> is (almost) one the same thing, in formal, <code>Connection</code> object gets created implicitly, and in later case we explicitly instantiate it. What really happens in this case is:</p>\n\n<pre><code>`Engine` object (instantiated via `create_engine()`) -&gt; `Connection` object (instantiated via `engine_instance.connect()`) -&gt; `connection.execute({*SQL expression*})`\n</code></pre>\n\n<blockquote>\n  <p>But is there a global difference between these three ways of\n  performing such task?</p>\n</blockquote>\n\n<p>At DB layer it's exactly the same thing, all of them are executing SQL (text expression or various SQL expression constructs). From application's point of view there are two options:</p>\n\n<ul>\n<li>Direct execution - Using <code>Engine.execute()</code> or <code>Connection.execute()</code></li>\n<li>Using <code>sessions</code> - efficiently handles transaction as single\nunit-of-work, with ease via <code>session.add()</code>, <code>session.rollback()</code>, <code>session.commit()</code>, <code>session.close()</code>. It is the way to interact with the DB in case of ORM i.e. mapped tables. Provides <a href=\"http://docs.sqlalchemy.org/en/rel_1_0/core/connections.html#\" rel=\"noreferrer\">identity_map</a> for instantly getting already accessed or newly created/added objects during a single request.</li>\n</ul>\n\n<p><code>Session.execute()</code> ultimately uses <code>Connection.execute()</code> statement execution method in order to execute the SQL statement. Using <code>Session</code> object is SQLAlchemy ORM's recommended way for an application to interact with the database.</p>\n\n<p>An excerpt from the <a href=\"http://docs.sqlalchemy.org/en/rel_1_0/core/connections.html#\" rel=\"noreferrer\">docs</a>:</p>\n\n<blockquote>\n  <p>Its important to note that when using the SQLAlchemy ORM, these\n  objects are not generally accessed; instead, the Session object is\n  used as the interface to the database. However, for applications that\n  are built around direct usage of textual SQL statements and/or SQL\n  expression constructs without involvement by the ORM’s higher level\n  management services, the Engine and Connection are king (and queen?) -\n  read on.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Nabeel Ahmed",
+        "link": "https://stackoverflow.com/users/1384641/nabeel-ahmed"
+      }
+    },
+    {
+      "answer_id": 4186078,
+      "body": "<pre><code>from sqlalchemy import desc\nsomeselect.order_by(desc(table1.mycol))\n</code></pre>\n\n<p><a href=\"http://docs.sqlalchemy.org/en/latest/core/sqlelement.html#sqlalchemy.sql.expression.desc\" rel=\"noreferrer\">Usage</a> from @jpmc26</p>\n",
+      "owner": {
+        "display_name": "AP257",
+        "link": "https://stackoverflow.com/users/267831/ap257"
+      }
+    },
+    {
+      "answer_id": 35918731,
+      "body": "<p>Just call <code>drop()</code> against the table object.\nFrom <a href=\"http://docs.sqlalchemy.org/en/latest/core/metadata.html#sqlalchemy.schema.Table.drop\" rel=\"noreferrer\">the docs</a>: </p>\n\n<blockquote>\n  <p>Issue a DROP statement for this Table, using the given Connectable for connectivity.</p>\n</blockquote>\n\n<p>In your case it should be:</p>\n\n<pre><code>User.__table__.drop()\n</code></pre>\n\n<hr>\n\n<p>If you get an exception like:</p>\n\n<blockquote>\n<pre><code>sqlalchemy.exc.UnboundExecutionError: Table object 'my_users' is not bound to an Engine or Connection. Execution can not proceed without a database to execute against\n</code></pre>\n</blockquote>\n\n<p>You need to pass the engine:</p>\n\n<pre><code>User.__table__.drop(engine)\n</code></pre>\n",
+      "owner": {
+        "display_name": "daveoncode",
+        "link": "https://stackoverflow.com/users/267719/daveoncode"
+      }
+    },
+    {
+      "answer_id": 2128558,
+      "body": "<p><code>filter_by</code> is used for simple queries on the column names using regular kwargs, like</p>\n\n<p><code>db.users.filter_by(name='Joe')</code></p>\n\n<p>The same can be accomplished with <code>filter</code>, not using kwargs, but instead using the '==' equality operator, which has been overloaded on the db.users.name object:</p>\n\n<p><code>db.users.filter(db.users.name=='Joe')</code></p>\n\n<p>You can also write more powerful queries using <code>filter</code>, such as expressions like:</p>\n\n<p><code>db.users.filter(or_(db.users.name=='Ryan', db.users.country=='England'))</code></p>\n",
+      "owner": {
+        "display_name": "Daniel",
+        "link": "https://stackoverflow.com/users/243238/daniel"
+      }
+    },
+    {
+      "answer_id": 18110236,
+      "body": "<p>Use  <a href=\"http://docs.sqlalchemy.org/en/latest/orm/query.html#sqlalchemy.orm.query.Query.one\" rel=\"noreferrer\"><code>query.one()</code></a> to get one, and <em>exactly</em> one result. In all other cases it will raise an exception you can handle:</p>\n\n<pre><code>from sqlalchemy.orm.exc import NoResultFound\nfrom sqlalchemy.orm.exc import MultipleResultsFound\n\ntry:\n    user = session.query(User).one()\nexcept MultipleResultsFound, e:\n    print e\n    # Deal with it\nexcept NoResultFound, e:\n    print e\n    # Deal with that as well\n</code></pre>\n\n<p>There's also <a href=\"http://docs.sqlalchemy.org/en/rel_0_8/orm/query.html#sqlalchemy.orm.query.Query.first\" rel=\"noreferrer\"><code>query.first()</code></a>, which will give you just the first result of possibly many, without raising those exceptions. But since you want to deal with the case of there being no result or more than you thought, <a href=\"http://docs.sqlalchemy.org/en/rel_0_8/orm/query.html#sqlalchemy.orm.query.Query.one\" rel=\"noreferrer\"><code>query.one()</code></a> is exactly what you should use.</p>\n",
+      "owner": {
+        "display_name": "Lukas Graf",
+        "link": "https://stackoverflow.com/users/1599111/lukas-graf"
+      }
+    },
+    {
+      "answer_id": 29528804,
+      "body": "<p>Below should work in most cases:</p>\n\n<pre><code>df = pd.read_sql(query.statement, query.session.bind)\n</code></pre>\n\n<p>See <a href=\"http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_sql.html\" rel=\"noreferrer\"><code>pandas.read_sql</code></a> documentation for more information on the parameters.</p>\n",
+      "owner": {
+        "display_name": "van",
+        "link": "https://stackoverflow.com/users/99594/van"
+      }
+    },
+    {
+      "answer_id": 14845740,
+      "body": "<p>I decided to try to follow the <a href=\"https://stackoverflow.com/questions/1771543/postgresql-updating-an-enum-type\">postgres approach</a> as directly as possible and came up with the following migration.</p>\n\n<pre><code>from alembic import op\nimport sqlalchemy as sa\n\nold_options = ('nonexistent_executable', 'signal', 'success', 'timed_out')\nnew_options = sorted(old_options + ('output_limit_exceeded',))\n\nold_type = sa.Enum(*old_options, name='status')\nnew_type = sa.Enum(*new_options, name='status')\ntmp_type = sa.Enum(*new_options, name='_status')\n\ntcr = sa.sql.table('testcaseresult',\n                   sa.Column('status', new_type, nullable=False))\n\n\ndef upgrade():\n    # Create a tempoary \"_status\" type, convert and drop the \"old\" type\n    tmp_type.create(op.get_bind(), checkfirst=False)\n    op.execute('ALTER TABLE testcaseresult ALTER COLUMN status TYPE _status'\n               ' USING status::text::_status')\n    old_type.drop(op.get_bind(), checkfirst=False)\n    # Create and convert to the \"new\" status type\n    new_type.create(op.get_bind(), checkfirst=False)\n    op.execute('ALTER TABLE testcaseresult ALTER COLUMN status TYPE status'\n               ' USING status::text::status')\n    tmp_type.drop(op.get_bind(), checkfirst=False)\n\n\ndef downgrade():\n    # Convert 'output_limit_exceeded' status into 'timed_out'\n    op.execute(tcr.update().where(tcr.c.status==u'output_limit_exceeded')\n               .values(status='timed_out'))\n    # Create a tempoary \"_status\" type, convert and drop the \"new\" type\n    tmp_type.create(op.get_bind(), checkfirst=False)\n    op.execute('ALTER TABLE testcaseresult ALTER COLUMN status TYPE _status'\n               ' USING status::text::_status')\n    new_type.drop(op.get_bind(), checkfirst=False)\n    # Create and convert to the \"old\" status type\n    old_type.create(op.get_bind(), checkfirst=False)\n    op.execute('ALTER TABLE testcaseresult ALTER COLUMN status TYPE status'\n               ' USING status::text::status')\n    tmp_type.drop(op.get_bind(), checkfirst=False)\n</code></pre>\n\n<p>It appears that alembic has no direct support for the <code>USING</code> statement in its <code>alter_table</code> method.</p>\n",
+      "owner": {
+        "display_name": "bboe",
+        "link": "https://stackoverflow.com/users/176978/bboe"
+      }
+    },
+    {
+      "answer_id": 10061143,
+      "body": "<p>Extract from the <a href=\"http://docs.sqlalchemy.org/en/latest/core/metadata.html#sqlalchemy.schema.Column\" rel=\"noreferrer\">documentation</a> of the <code>Column</code>:</p>\n\n<blockquote>\n  <p><strong>unique</strong> – When True, indicates that this column contains a unique\n  constraint, or if <em>index</em> is True as well, indicates that the Index\n  should be created with the unique flag. To specify multiple columns in\n  the constraint/index or to specify an explicit name, use the\n  <a href=\"http://docs.sqlalchemy.org/en/latest/core/constraints.html#sqlalchemy.schema.UniqueConstraint\" rel=\"noreferrer\">UniqueConstraint</a> or <a href=\"http://docs.sqlalchemy.org/en/latest/core/constraints.html#sqlalchemy.schema.Index\" rel=\"noreferrer\">Index</a> constructs explicitly.</p>\n</blockquote>\n\n<p>As these belong to a Table and not to a mapped Class, one declares those in the table definition, or if using declarative as in the <code>__table_args__</code>:</p>\n\n<pre><code># version1: table definition\nmytable = Table('mytable', meta,\n    # ...\n    Column('customer_id', Integer, ForeignKey('customers.customer_id')),\n    Column('location_code', Unicode(10)),\n\n    UniqueConstraint('customer_id', 'location_code', name='uix_1')\n    )\n# or the index, which will ensure uniqueness as well\nIndex('myindex', mytable.c.customer_id, mytable.c.location_code, unique=True)\n\n\n# version2: declarative\nclass Location(Base):\n    __tablename__ = 'locations'\n    id = Column(Integer, primary_key = True)\n    customer_id = Column(Integer, ForeignKey('customers.customer_id'), nullable=False)\n    location_code = Column(Unicode(10), nullable=False)\n    __table_args__ = (UniqueConstraint('customer_id', 'location_code', name='_customer_location_uc'),\n                     )\n</code></pre>\n",
+      "owner": {
+        "display_name": "van",
+        "link": "https://stackoverflow.com/users/99594/van"
+      }
+    },
+    {
+      "answer_id": 6701188,
+      "body": "<p>Retrieve an object using the <a href=\"http://flask-sqlalchemy.pocoo.org/2.1/queries/#querying-records\" rel=\"noreferrer\">tutorial shown in the Flask-SQLAlchemy documentation</a>. Once you have the entity that you want to change, change the entity itself. Then, <code>db.session.commit()</code>.</p>\n\n<p>For example:</p>\n\n<pre><code>admin = User.query.filter_by(username='admin').first()\nadmin.email = 'my_new_email@example.com'\ndb.session.commit()\n\nuser = User.query.get(5)\nuser.name = 'New Name'\ndb.session.commit()\n</code></pre>\n\n<p>Flask-SQLAlchemy is based on SQLAlchemy, so be sure to check out the <a href=\"http://www.sqlalchemy.org/docs/\" rel=\"noreferrer\">SQLAlchemy Docs</a> as well.</p>\n",
+      "owner": {
+        "display_name": "Mark Hildreth",
+        "link": "https://stackoverflow.com/users/272520/mark-hildreth"
+      }
+    },
+    {
+      "answer_id": 18998106,
+      "body": "<p>That's because SQLAlchemy filters are one of the few places where <code>== False</code> actually makes sense. <strong>Everywhere else</strong> you should <em>not</em> use it.</p>\n\n<p>Add a <code># noqa</code> comment to the line and be done with it.</p>\n\n<p>Or you can use <a href=\"http://docs.sqlalchemy.org/en/rel_1_0/core/sqlelement.html#sqlalchemy.sql.expression.false\" rel=\"noreferrer\"><code>sqlalchemy.sql.expression.false</code></a>:</p>\n\n<pre><code>from sqlalchemy.sql.expression import false\n\nTestCase.obsoleted == false()\n</code></pre>\n\n<p>where <code>false()</code> returns the right value for your session SQL dialect. There is a matching <a href=\"http://docs.sqlalchemy.org/en/rel_1_0/core/sqlelement.html?highlight=true#sqlalchemy.sql.expression.true\" rel=\"noreferrer\"><code>sqlalchemy.expression.true</code></a>.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 2950685,
+      "body": "<p>In addition to <code>echo</code> parameter of <code>create_engine()</code> there is a more flexible way: configuring <code>logging</code> to echo engine statements:</p>\n\n<pre><code>import logging\nlogging.basicConfig()\nlogging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)\n</code></pre>\n\n<p>See <a href=\"http://docs.sqlalchemy.org/en/latest/core/engines.html#configuring-logging\" rel=\"noreferrer\">Configuring Logging</a> section of documentation for more information.</p>\n",
+      "owner": {
+        "display_name": "Denis Otkidach",
+        "link": "https://stackoverflow.com/users/168352/denis-otkidach"
+      }
+    },
+    {
+      "answer_id": 9353830,
+      "body": "<p>Yes, psycopg2 are basically the Python drivers for PostgreSQL that need to be installed separately.</p>\n\n<p>A list of valid connection strings can be found here, yours is a bit off (you need to the username, the password and hostname as specified in the link below):</p>\n\n<p><a href=\"http://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql\" rel=\"noreferrer\">http://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql</a></p>\n",
+      "owner": {
+        "display_name": "Uku Loskit",
+        "link": "https://stackoverflow.com/users/358328/uku-loskit"
+      }
+    },
+    {
+      "answer_id": 8254472,
+      "body": "<p>If you want a bunch of objects produced by querying a session to be usable outside the scope of the session, you need to <a href=\"http://docs.sqlalchemy.org/en/latest/orm/session_state_management.html#expunging\" rel=\"noreferrer\">expunge</a> them for the session.</p>\n\n<p>In your first function example, you will need to add a line:</p>\n\n<pre><code>session.expunge_all()\n</code></pre>\n\n<p>before</p>\n\n<pre><code>session.close()\n</code></pre>\n\n<p>More generally, let's say the session is not closed right away, like in the first example. Perhaps this is a session that is kept active during entire duration of a web request or something like that. In such cases, you don't want to do <code>expunge_all</code>. You will want to be more surgical:</p>\n\n<pre><code>for item in lst:\n    session.expunge(item)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Pavel Repin",
+        "link": "https://stackoverflow.com/users/43151/pavel-repin"
+      }
+    },
+    {
+      "answer_id": 6501664,
+      "body": "<blockquote>\n  <p>If you have any \"special\" characters (such as semicolons or\n  apostrophes) in your data, they will\n  be automatically quoted for you by the\n  SQLEngine object, so you don't have to\n  worry about quoting. This also means\n  that unless you deliberately bypass\n  SQLAlchemy's quoting mechanisms,\n  SQL-injection attacks are basically\n  impossible.</p>\n</blockquote>\n\n<p>[per <a href=\"http://www.rmunn.com/sqlalchemy-tutorial/tutorial.html\" rel=\"noreferrer\">http://www.rmunn.com/sqlalchemy-tutorial/tutorial.html</a>]</p>\n",
+      "owner": {
+        "display_name": "user2665694",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 12054872,
+      "body": "<p>You can use the <code>with_entities()</code> method to restrict which columns you'd like to return in the result. (<a href=\"http://docs.sqlalchemy.org/en/latest/orm/query.html#sqlalchemy.orm.query.Query.with_entities\" rel=\"noreferrer\">documentation</a>) </p>\n\n<pre><code>result = SomeModel.query.with_entities(SomeModel.col1, SomeModel.col2)\n</code></pre>\n\n<p>Depending on your requirements, you may also find <a href=\"http://docs.sqlalchemy.org/en/latest/orm/loading_columns.html#deferred\" rel=\"noreferrer\" title=\"SQLAlchemy deferred column loading\">deferreds</a> useful.  They allow you to return the full object but restrict the columns that come over the wire.</p>\n",
+      "owner": {
+        "display_name": "David McKeone",
+        "link": "https://stackoverflow.com/users/589362/david-mckeone"
+      }
+    },
+    {
+      "answer_id": 16573690,
+      "body": "<p>You can do it by using either the <code>lower</code> or <code>upper</code> functions in your filter:</p>\n\n<pre><code>from sqlalchemy import func\nuser = models.User.query.filter(func.lower(User.username) == func.lower(\"GaNyE\")).first()\n</code></pre>\n\n<p>Another option is to do searching using <code>ilike</code> instead of <code>like</code>:</p>\n\n<pre><code>.query.filter(Model.column.ilike(\"ganye\"))\n</code></pre>\n",
+      "owner": {
+        "display_name": "plaes",
+        "link": "https://stackoverflow.com/users/157176/plaes"
+      }
+    },
+    {
+      "answer_id": 32356600,
+      "body": "<p>Alembic stores the version history in your database. Hence it is using the value stored in your database to search for the revision. The version number for my personal database is stored in the table <code>alembic_version</code>: </p>\n\n<pre><code>mysql&gt; SELECT * FROM alembic_version;\n+-------------+\n| version_num |\n+-------------+\n| c8ad125e063 |\n+-------------+\n1 row in set (0.00 sec)\n</code></pre>\n\n<p>Hint: Use the command <code>SHOW TABLES</code> if it's a SQL based database to see the tables.</p>\n\n<p>To solve your problem simply use the command:</p>\n\n<pre><code>DROP TABLE alembic_version;\n</code></pre>\n\n<p>Or whatever the name of database version table is.\nAnd then you need to re-init the migration folder using the command:</p>\n\n<pre><code>python manage.py db init\n</code></pre>\n\n<p>And then creating a new migration:</p>\n\n<pre><code>python manage.py db migrate\n</code></pre>\n\n<p>And then you should be good to go with working migrations in alembic.</p>\n",
+      "owner": {
+        "display_name": "SirKaiserKai",
+        "link": "https://stackoverflow.com/users/2812587/sirkaiserkai"
+      }
+    },
+    {
+      "answer_id": 21742461,
+      "body": "<p>There's a central confusion here over the word \"session\".   I'm not sure here, but it appears like you may be confusing the <a href=\"http://docs.sqlalchemy.org/en/latest/orm/session.html\">SQLAlchemy Session</a> with a <a href=\"https://dev.mysql.com/doc/refman/5.1/en/set-statement.html\">MySQL @@session</a>, which refers to the scope of when you first make a connection to MySQL and when you disconnect.</p>\n\n<p>These two concepts are <strong>not the same</strong>.  A SQLAlchemy Session generally represents the scope of <strong>one or more transactions</strong>, upon a particular database connection.</p>\n\n<p>Therefore, the answer to your question as literally asked, is to call <code>session.close()</code>, that is, \"how to properly close a SQLAlchemy session\".</p>\n\n<p>However, the rest of your question indicates you'd like some functionality whereby when a particular <code>Session</code> is closed, you'd like the actual DBAPI connection to be closed as well.</p>\n\n<p>What this basically means is that you wish to disable <a href=\"http://docs.sqlalchemy.org/en/latest/core/pooling.html\">connection pooling</a>.  Which as other answers mention, easy enough, <a href=\"http://docs.sqlalchemy.org/en/latest/core/pooling.html#switching-pool-implementations\">use NullPool</a>.</p>\n",
+      "owner": {
+        "display_name": "zzzeek",
+        "link": "https://stackoverflow.com/users/34549/zzzeek"
+      }
+    },
+    {
+      "answer_id": 5698357,
+      "body": "<p>This works in python 2 and 3 and is a bit cleaner than before, but requires SA>=1.0.</p>\n\n<pre><code>from sqlalchemy.engine.default import DefaultDialect\nfrom sqlalchemy.sql.sqltypes import String, DateTime, NullType\n\n# python2/3 compatible.\nPY3 = str is not bytes\ntext = str if PY3 else unicode\nint_type = int if PY3 else (int, long)\nstr_type = str if PY3 else (str, unicode)\n\n\nclass StringLiteral(String):\n    \"\"\"Teach SA how to literalize various things.\"\"\"\n    def literal_processor(self, dialect):\n        super_processor = super(StringLiteral, self).literal_processor(dialect)\n\n        def process(value):\n            if isinstance(value, int_type):\n                return text(value)\n            if not isinstance(value, str_type):\n                value = text(value)\n            result = super_processor(value)\n            if isinstance(result, bytes):\n                result = result.decode(dialect.encoding)\n            return result\n        return process\n\n\nclass LiteralDialect(DefaultDialect):\n    colspecs = {\n        # prevent various encoding explosions\n        String: StringLiteral,\n        # teach SA about how to literalize a datetime\n        DateTime: StringLiteral,\n        # don't format py2 long integers to NULL\n        NullType: StringLiteral,\n    }\n\n\ndef literalquery(statement):\n    \"\"\"NOTE: This is entirely insecure. DO NOT execute the resulting strings.\"\"\"\n    import sqlalchemy.orm\n    if isinstance(statement, sqlalchemy.orm.Query):\n        statement = statement.statement\n    return statement.compile(\n        dialect=LiteralDialect(),\n        compile_kwargs={'literal_binds': True},\n    ).string\n</code></pre>\n\n<p>Demo:</p>\n\n<pre><code># coding: UTF-8\nfrom datetime import datetime\nfrom decimal import Decimal\n\nfrom literalquery import literalquery\n\n\ndef test():\n    from sqlalchemy.sql import table, column, select\n\n    mytable = table('mytable', column('mycol'))\n    values = (\n        5,\n        u'snowman: ☃',\n        b'UTF-8 snowman: \\xe2\\x98\\x83',\n        datetime.now(),\n        Decimal('3.14159'),\n        10 ** 20,  # a long integer\n    )\n\n    statement = select([mytable]).where(mytable.c.mycol.in_(values)).limit(1)\n    print(literalquery(statement))\n\n\nif __name__ == '__main__':\n    test()\n</code></pre>\n\n<p>Gives this output: (tested in python 2.7 and 3.4)</p>\n\n<pre><code>SELECT mytable.mycol\nFROM mytable\nWHERE mytable.mycol IN (5, 'snowman: ☃', 'UTF-8 snowman: ☃',\n      '2015-06-24 18:09:29.042517', 3.14159, 100000000000000000000)\n LIMIT 1\n</code></pre>\n",
+      "owner": {
+        "display_name": "bukzor",
+        "link": "https://stackoverflow.com/users/146821/bukzor"
+      }
+    },
+    {
+      "answer_id": 12223711,
+      "body": "<p><code>sessionmaker()</code> is a factory, it's there to encourage placing configuration options for creating new <code>Session</code> objects in just one place.   It is optional, in that you could just as easily call <code>Session(bind=engine, expire_on_commit=False)</code> anytime you needed a new <code>Session</code>, except that its verbose and redundant, and I wanted to stop the proliferation of small-scale \"helpers\" that each approached the issue of this redundancy in some new and more confusing way.</p>\n\n<p>So <code>sessionmaker()</code> is just a tool to help you create <code>Session</code> objects when you need them.</p>\n\n<p>Next part.   I think the question is, what's the difference between making a new <code>Session()</code> at various points versus just using one all the way through.  The answer, not very much.   <code>Session</code> is a container for all the objects you put into it, and then it also keeps track of an open transaction.  At the moment you call <code>rollback()</code> or <code>commit()</code>, the transaction is over, and the <code>Session</code> has no connection to the database until it is called upon to emit SQL again.   The links it holds to your mapped objects are weak referencing, provided the objects are clean of pending changes, so even in that regard the <code>Session</code> will empty itself out back to a brand new state when your application loses all references to mapped objects.  If you leave it with its default <code>\"expire_on_commit\"</code> setting, then all the objects are expired after a commit.  If that <code>Session</code> hangs around for five or twenty minutes, and all kinds of things have changed in the database the next time you use it, it will load all brand new state the next time you access those objects even though they've been sitting in memory for twenty minutes.</p>\n\n<p>In web applications, we usually say, hey why don't you make a brand new <code>Session</code> on each request, rather than using the same one over and over again.  This practice ensures that the new request begins \"clean\".  If some objects from the previous request haven't been garbage collected yet, and if maybe you've turned off <code>\"expire_on_commit\"</code>, maybe some state from the previous request is still hanging around, and that state might even be pretty old.   If you're careful to leave <code>expire_on_commit</code> turned on and to definitely call <code>commit()</code> or <code>rollback()</code> at request end, then it's fine, but if you start with a brand new <code>Session</code>, then there's not even any question that you're starting clean.   So the idea to start each request with a new <code>Session</code> is really just the simplest way to make sure you're starting fresh, and to make the usage of <code>expire_on_commit</code> pretty much optional, as this flag can incur a lot of extra SQL for an operation that calls <code>commit()</code> in the middle of a series of operations.   Not sure if this answers your question.</p>\n\n<p>The next round is what you mention about threading.   If your app is multithreaded, we recommend making sure the <code>Session</code> in use is local to...something.   <code>scoped_session()</code> by default makes it local to the current thread.  In a web app, local to the request is in fact even better.   Flask-SQLAlchemy actually sends a custom \"scope function\" to <code>scoped_session()</code> so that you get a request-scoped session.  The average Pyramid application sticks the Session into the \"request\" registry.   When using schemes like these, the \"create new Session on request start\" idea continues to look like the most straightforward way to keep things straight.</p>\n",
+      "owner": {
+        "display_name": "zzzeek",
+        "link": "https://stackoverflow.com/users/34549/zzzeek"
+      }
+    },
+    {
+      "answer_id": 11769768,
+      "body": "<p>The SQLAlchemy ORM uses the <a href=\"http://martinfowler.com/eaaCatalog/unitOfWork.html\" rel=\"noreferrer\">unit of work</a> pattern when synchronizing changes to the database.  This pattern goes far beyond simple \"inserts\" of data.   It includes that attributes which are assigned on objects are received using an attribute instrumentation system which tracks changes on objects as they are made, includes that all rows inserted are tracked in an <a href=\"http://martinfowler.com/eaaCatalog/identityMap.html\" rel=\"noreferrer\">identity map</a> which has the effect that for each row SQLAlchemy must retrieve its \"last inserted id\" if not already given, and also involves that rows to be inserted are scanned and sorted for dependencies as needed.  Objects are also subject to a fair degree of bookkeeping in order to keep all of this running, which for a very large number of rows at once can create an inordinate amount of time spent with large data structures, hence it's best to chunk these.</p>\n\n<p>Basically, unit of work is a large degree of automation in order to automate the task of persisting a complex object graph into a relational database with no explicit persistence code, and this automation has a price.</p>\n\n<p>So ORMs are basically not intended for high-performance bulk inserts.   This is the whole reason why SQLAlchemy has <em>two</em> separate libraries, which you'll note if you look at <a href=\"http://docs.sqlalchemy.org/en/latest/index.html\" rel=\"noreferrer\">http://docs.sqlalchemy.org/en/latest/index.html</a> you'll see two distinct halves to the index page - one for the ORM and one for the Core.  You cannot use SQLAlchemy effectively without understanding both.</p>\n\n<p>For the use case of fast bulk inserts, SQLAlchemy provides the <a href=\"http://docs.sqlalchemy.org/en/latest/core/tutorial.html\" rel=\"noreferrer\">core</a>, which is the SQL generation and execution system that the ORM builds on top of.   Using this system effectively we can produce an INSERT that is competitive with the raw SQLite version.    The script below illustrates this, as well as an ORM version that pre-assigns primary key identifiers so that the ORM can use executemany() to insert rows.  Both ORM versions chunk the flushes at 1000 records at a time as well which has a significant performance impact.</p>\n\n<p>Runtimes observed here are:</p>\n\n<pre><code>SqlAlchemy ORM: Total time for 100000 records 16.4133379459 secs\nSqlAlchemy ORM pk given: Total time for 100000 records 9.77570986748 secs\nSqlAlchemy Core: Total time for 100000 records 0.568737983704 secs\nsqlite3: Total time for 100000 records 0.595796823502 sec\n</code></pre>\n\n<p>script:</p>\n\n<pre><code>import time\nimport sqlite3\n\nfrom sqlalchemy.ext.declarative import declarative_base\nfrom sqlalchemy import Column, Integer, String,  create_engine\nfrom sqlalchemy.orm import scoped_session, sessionmaker\n\nBase = declarative_base()\nDBSession = scoped_session(sessionmaker())\n\nclass Customer(Base):\n    __tablename__ = \"customer\"\n    id = Column(Integer, primary_key=True)\n    name = Column(String(255))\n\ndef init_sqlalchemy(dbname = 'sqlite:///sqlalchemy.db'):\n    global engine\n    engine = create_engine(dbname, echo=False)\n    DBSession.remove()\n    DBSession.configure(bind=engine, autoflush=False, expire_on_commit=False)\n    Base.metadata.drop_all(engine)\n    Base.metadata.create_all(engine)\n\ndef test_sqlalchemy_orm(n=100000):\n    init_sqlalchemy()\n    t0 = time.time()\n    for i in range(n):\n        customer = Customer()\n        customer.name = 'NAME ' + str(i)\n        DBSession.add(customer)\n        if i % 1000 == 0:\n            DBSession.flush()\n    DBSession.commit()\n    print \"SqlAlchemy ORM: Total time for \" + str(n) + \" records \" + str(time.time() - t0) + \" secs\"\n\ndef test_sqlalchemy_orm_pk_given(n=100000):\n    init_sqlalchemy()\n    t0 = time.time()\n    for i in range(n):\n        customer = Customer(id=i+1, name=\"NAME \" + str(i))\n        DBSession.add(customer)\n        if i % 1000 == 0:\n            DBSession.flush()\n    DBSession.commit()\n    print \"SqlAlchemy ORM pk given: Total time for \" + str(n) + \" records \" + str(time.time() - t0) + \" secs\"\n\ndef test_sqlalchemy_core(n=100000):\n    init_sqlalchemy()\n    t0 = time.time()\n    engine.execute(\n        Customer.__table__.insert(),\n        [{\"name\":'NAME ' + str(i)} for i in range(n)]\n    )\n    print \"SqlAlchemy Core: Total time for \" + str(n) + \" records \" + str(time.time() - t0) + \" secs\"\n\ndef init_sqlite3(dbname):\n    conn = sqlite3.connect(dbname)\n    c = conn.cursor()\n    c.execute(\"DROP TABLE IF EXISTS customer\")\n    c.execute(\"CREATE TABLE customer (id INTEGER NOT NULL, name VARCHAR(255), PRIMARY KEY(id))\")\n    conn.commit()\n    return conn\n\ndef test_sqlite3(n=100000, dbname = 'sqlite3.db'):\n    conn = init_sqlite3(dbname)\n    c = conn.cursor()\n    t0 = time.time()\n    for i in range(n):\n        row = ('NAME ' + str(i),)\n        c.execute(\"INSERT INTO customer (name) VALUES (?)\", row)\n    conn.commit()\n    print \"sqlite3: Total time for \" + str(n) + \" records \" + str(time.time() - t0) + \" sec\"\n\nif __name__ == '__main__':\n    test_sqlalchemy_orm(100000)\n    test_sqlalchemy_orm_pk_given(100000)\n    test_sqlalchemy_core(100000)\n    test_sqlite3(100000)\n</code></pre>\n\n<p>See also:  <a href=\"http://docs.sqlalchemy.org/en/latest/faq/performance.html\" rel=\"noreferrer\">http://docs.sqlalchemy.org/en/latest/faq/performance.html</a></p>\n",
+      "owner": {
+        "display_name": "zzzeek",
+        "link": "https://stackoverflow.com/users/34549/zzzeek"
+      }
+    },
+    {
+      "answer_id": 27889674,
+      "body": "<p>You are bitten by the case (in)sensitivity issues with PostgreSQL. If you quote the table name in the query, it will work:</p>\n\n<pre><code>df = pd.read_sql_query('select * from \"Stat_Table\"',con=engine)\n</code></pre>\n\n<p>But personally, I would advise to just always use lower case table names (and column names), also when writing the table to the database to prevent such issues.</p>\n\n<hr>\n\n<p>From the PostgreSQL docs (<a href=\"http://www.postgresql.org/docs/8.0/static/sql-syntax.html#SQL-SYNTAX-IDENTIFIERS\" rel=\"noreferrer\">http://www.postgresql.org/docs/8.0/static/sql-syntax.html#SQL-SYNTAX-IDENTIFIERS</a>):</p>\n\n<blockquote>\n  <p>Quoting an identifier also makes it case-sensitive, whereas unquoted names are always folded to lower case</p>\n</blockquote>\n\n<p>To explain a bit more: you have written a table with the name <code>Stat_Table</code> to the database (and sqlalchemy will quote this name, so it will be written as \"Stat_Table\" in the postgres database). When doing the query <code>'select * from Stat_Table'</code> the unquoted table name will be converted to lower case <code>stat_table</code>, and so you get the message that this table is not found. </p>\n\n<p>See eg also <a href=\"https://stackoverflow.com/questions/20878932/are-postgresql-column-names-case-sensitive\">Are PostgreSQL column names case-sensitive?</a></p>\n",
+      "owner": {
+        "display_name": "joris",
+        "link": "https://stackoverflow.com/users/653364/joris"
+      }
+    },
+    {
+      "answer_id": 2193712,
+      "body": "<p>From <a href=\"https://github.com/zzzeek/sqlalchemy/blob/master/lib/sqlalchemy/exc.py#L10\" rel=\"noreferrer\">the source</a>:</p>\n\n<blockquote>\n  <p>The base exception class is\n  <code>SQLAlchemyError</code>.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "stephan",
+        "link": "https://stackoverflow.com/users/92092/stephan"
+      }
+    },
+    {
+      "answer_id": 1960546,
+      "body": "<p>I couldn't get a good answer so I use this:</p>\n\n<pre><code>def row2dict(row):\n    d = {}\n    for column in row.__table__.columns:\n        d[column.name] = str(getattr(row, column.name))\n\n    return d\n</code></pre>\n\n<p>Edit: if above function is too long and not suited for some tastes here is a one liner (python 2.7+)</p>\n\n<pre><code>row2dict = lambda r: {c.name: str(getattr(r, c.name)) for c in r.__table__.columns}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Anurag Uniyal",
+        "link": "https://stackoverflow.com/users/6946/anurag-uniyal"
+      }
+    },
+    {
+      "answer_id": 8562155,
+      "body": "<p>Use method <a href=\"http://www.sqlalchemy.org/docs/orm/internals.html?highlight=has#sqlalchemy.orm.properties.RelationshipProperty.Comparator.has\"><code>has()</code></a> of relationship (more readable):</p>\n\n<pre><code>patients = Patient.query.filter(Patient.mother.has(phenoscore=10))\n</code></pre>\n\n<p>or join (usually faster):</p>\n\n<pre><code>patients = Patient.query.join(Patient.mother, aliased=True)\\\n                    .filter_by(phenoscore=10)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Denis Otkidach",
+        "link": "https://stackoverflow.com/users/168352/denis-otkidach"
+      }
+    },
+    {
+      "answer_id": 13370382,
+      "body": "<p><code>DateTime</code> doesn't have a default key as an input. The default key should be an input to the <code>Column</code> function. Try this:</p>\n\n<pre><code>import datetime\nfrom sqlalchemy import Column, Integer, DateTime\nfrom sqlalchemy.ext.declarative import declarative_base\n\nBase = declarative_base()\n\nclass Test(Base):\n    __tablename__ = 'test'\n\n    id = Column(Integer, primary_key=True)\n    created_date = Column(DateTime, default=datetime.datetime.utcnow)\n</code></pre>\n",
+      "owner": {
+        "display_name": "PearsonArtPhoto",
+        "link": "https://stackoverflow.com/users/544198/pearsonartphoto"
+      }
+    },
+    {
+      "answer_id": 19701709,
+      "body": "<p>You want <code>filter</code>, not <code>filter_by</code>:</p>\n\n<pre><code>Invoice.query.filter(Invoice.invoicedate &gt;= date.today())\n</code></pre>\n\n<p>See <a href=\"https://stackoverflow.com/questions/2128505/whats-the-difference-between-filter-and-filter-by-in-sqlalchemy\">this answer</a> for more on <code>filter</code> vs <code>filter_by</code></p>\n",
+      "owner": {
+        "display_name": "DazWorrall",
+        "link": "https://stackoverflow.com/users/1949092/dazworrall"
+      }
+    },
+    {
+      "answer_id": 18207001,
+      "body": "<p>This is dangerously close to being non-constructive, but I'll bite.</p>\n\n<p>Suppose we need to maintain inventories of certain items for a number of different, let's say, accounts. DDL follows:</p>\n\n<pre><code>CREATE TABLE account (\n    id serial PRIMARY KEY,\n    ...\n);\n\nCREATE TABLE item (\n    id serial PRIMARY KEY,\n    name text NOT NULL,\n    ...\n);\n\nCREATE TABLE inventory (\n    account_id integer NOT NULL REFERENCES account(id),\n    item_id integer NOT NULL REFERENCES item(id),\n    amount integer NOT NULL DEFAULT 0 CHECK (amount &gt;= 0),\n    PRIMARY KEY (account_id, item_id)\n);\n</code></pre>\n\n<p>First of all, Django ORM can't work with composite primary keys. Yes, you can always add a surrogate key and unique constraint, but that's one more column and one more index than you actually need. For a big table with a small number of columns this would add noticeable size and performance overhead. Also, ORMs generally have trouble with identity mapping using anything other than primary key.</p>\n\n<p>Now, let's say we want to query each item in the inventory of given account accompanied by its quantity, but also include all items not present there with quantity set to 0. And then sort this in descending order by quantity. Corresponding SQL:</p>\n\n<pre><code>SELECT item.id, item.name, ..., coalesce(inventory.amount, 0) AS amount\n    FROM item LEFT OUTER JOIN inventory\n        ON item.id = inventory.item_id AND inventory.team_id = ?\n    ORDER BY amount DESC;\n</code></pre>\n\n<p>There is no way to express outer join with custom condition in Django ORM. Yes, you can make two simple separate queries and perform join by hand in Python loop. And performance probably won't suffer much <em>in this particular case</em>. But that's beside the point because results of <em>every</em> query could be reproduced on the application side using only basic <code>SELECT</code>s.</p>\n\n<p>With SQLAlchemy:</p>\n\n<pre><code>class Account(Base):\n    __tablename__ = 'account'\n    id = Column(Integer, primary_key=True)\n    ...\n\nclass Item(Base):\n    __tablename__ = 'item'\n    id = Column(Integer, primary_key=True)\n    name = Column(String, nullable=False)\n    ...\n\nclass Inventory(Base):\n    __tablename__ = 'inventory'\n    account_id = Column(Integer, ForeignKey('account.id'), primary_key=True,\n            nullable=False)\n    account = relationship(Account)\n    item_id = Column(Integer, ForeignKey('item.id'), primary_key=True,\n            nullable=False)\n    item = relationship(Item)\n    amount = Column(Integer, CheckConstraint('amount &gt;= 0'), nullable=False,\n            default=0)\n\naccount = session.query(Account).get(some_id)\nresult = (session\n    .query(Item, func.coalesce(Inventory.amount, 0).label('amount'))\n    .outerjoin(Inventory,\n        and_(Item.id==Inventory.item_id, Inventory.account==account))\n    .order_by(desc('amount'))\n    .all())\n</code></pre>\n\n<p>As a side note, SQLAlchemy makes dictionary based collections very easy. With addition of the following code to the <code>Account</code> model you make relationship with <code>Inventory</code> appear as what it is: a mapping from items to their quantity.</p>\n\n<pre><code>items = relationship('Inventory',\n    collection_class=attribute_mapped_collection('item_id'))\ninventory = association_proxy('items', 'amount',\n    creator=lambda k, v: Inventory(item_id=k, amount=v))\n</code></pre>\n\n<p>This enables you to write code such as:</p>\n\n<pre><code>account.inventory[item_id] += added_value\n</code></pre>\n\n<p>that transparently inserts or updates entries in the <code>inventory</code> table.</p>\n\n<p>Complex joins, subqueries, window aggregates — Django ORM fails to deal with anything of that without falling back to raw SQL.</p>\n",
+      "owner": {
+        "display_name": "rkhayrov",
+        "link": "https://stackoverflow.com/users/200540/rkhayrov"
+      }
+    },
+    {
+      "answer_id": 16152945,
+      "body": "<p>the problem is this:</p>\n\n<pre><code>post = Post(body=form.body.data,\n            timestamp=datetime.utcnow(),\n            thread=thread.id,\n            author=g.user.id)\n</code></pre>\n\n<p>you want to work with ORM objects, not primary key columns:</p>\n\n<pre><code>post = Post(body=form.body.data,\n            timestamp=datetime.utcnow(),\n            thread=thread,\n            author=g.user)\n</code></pre>\n\n<p>the error means that an integer is being interpreted as an ORM object.</p>\n",
+      "owner": {
+        "display_name": "zzzeek",
+        "link": "https://stackoverflow.com/users/34549/zzzeek"
+      }
+    },
+    {
+      "answer_id": 16003360,
+      "body": "<p>You want to execute a Exist query to be efficient</p>\n\n<pre><code>(ret, ), = Session.query(exists().where(SomeObject.field==value))\n</code></pre>\n\n<p>Mike Bayer explain it in his blog post:<br>\n<a href=\"http://techspot.zzzeek.org/2008/09/09/selecting-booleans/\" rel=\"noreferrer\">http://techspot.zzzeek.org/2008/09/09/selecting-booleans/</a></p>\n\n<p>You can use scalar if you don't want to have a tuple as result:</p>\n\n<pre><code>ret = Session.query(exists().where(SomeObject.field==value)).scalar()\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rachid",
+        "link": "https://stackoverflow.com/users/379891/rachid"
+      }
+    },
+    {
+      "answer_id": 10593364,
+      "body": "<p>Okay,I have re-installed the package via pip even that didn't help. And then I rsync'ed the entire /usr/lib/python-2.7 directory from other working machine with similar configuration to\nthe current machine.It started working. I don't have any idea ,what was wrong with my setup. I see some difference \"print sys.path\" output earlier and now. but now my issue is resolved by this work around.</p>\n\n<p>EDIT:Found the real solution for my setup. upgrading \"sqlalchemy only doesn't solve the issue\" I also need to upgrade <code>flask-sqlalchemy</code> that resolved the issue.</p>\n",
+      "owner": {
+        "display_name": "webminal.org",
+        "link": "https://stackoverflow.com/users/246365/webminal-org"
+      }
+    },
+    {
+      "answer_id": 9447775,
+      "body": "<p>I have invested a lot of time evaluating the popular Python ORMs for MongoDB. This was an exhaustive exercise, as I really wanted to pick one.</p>\n\n<p>My conclusion is that an ORM removes the fun out of MongoDB. None feels natural, they impose restrictions similar to the ones which made me move away from relational databases in the first place.</p>\n\n<p>Again, I really wanted to use an ORM, but now I am convinced that using <code>pymongo</code> directly is the way to go. Now, I follow a pattern which embraces MongoDB, <code>pymongo</code>, and Python. </p>\n\n<p>A Resource Oriented Architecture leads to very natural representations. For instance, take the following User resource:</p>\n\n<pre><code>from werkzeug.wrappers import Response\nfrom werkzeug.exceptions import NotFound\n\nUsers = pymongo.Connection(\"localhost\", 27017)[\"mydb\"][\"users\"]\n\n\nclass User(Resource):\n\n    def GET(self, request, username):\n        spec = {\n            \"_id\": username,\n            \"_meta.active\": True\n        }\n        # this is a simple call to pymongo - really, do\n        # we need anything else?\n        doc = Users.find_one(spec)\n        if not doc:\n            return NotFound(username)\n        payload, mimetype = representation(doc, request.accept)\n        return Response(payload, mimetype=mimetype, status=200)\n\n    def PUT(self, request, username):\n        spec = {\n            \"_id\": username,\n            \"_meta.active\": True\n        }\n        operation = {\n            \"$set\": request.json,\n        }\n        # this call to pymongo will return the updated document (implies safe=True)\n        doc = Users.update(spec, operation, new=True)\n        if not doc:\n            return NotFound(username)\n        payload, mimetype = representation(doc, request.accept)\n        return Response(payload, mimetype=mimetype, status=200)\n</code></pre>\n\n<p>The <code>Resource</code> base class looks like</p>\n\n<pre><code>class Resource(object):\n\n    def GET(self, request, **kwargs):\n        return NotImplemented()\n\n    def HEAD(self, request, **kwargs):\n        return NotImplemented()\n\n    def POST(self, request, **kwargs):\n        return NotImplemented()\n\n    def DELETE(self, request, **kwargs):\n        return NotImplemented()\n\n    def PUT(self, request, **kwargs):\n        return NotImplemented()\n\n    def __call__(self, request, **kwargs):\n        handler = getattr(self, request.method)\n        return handler(request, **kwargs)\n</code></pre>\n\n<p>Notice that I use the <code>WSGI</code> spec directly, and leverage <code>Werkzeug</code> where possible (by the way, I think that <code>Flask</code> adds an unnecessary complication to <code>Werkzeug</code>).</p>\n\n<p>The function <code>representation</code> takes the request's <code>Accept</code> headers, and produces a suitable representation (for example, <code>application/json</code>, or <code>text/html</code>). It is not difficult to implement. It also adds the <code>Last-Modified</code> header.</p>\n\n<p>Of course, your input needs to be sanitized, and the code, as presented, will not work (I mean it as an example, but it is not difficult to understand my point).</p>\n\n<p>Again, I tried everything, but this architecture made my code flexible, simple, and extensible.</p>\n",
+      "owner": {
+        "display_name": "Escualo",
+        "link": "https://stackoverflow.com/users/104427/escualo"
+      }
+    },
+    {
+      "answer_id": 9667308,
+      "body": "<pre><code>user.no_of_logins += 1\nsession.commit()\n</code></pre>\n",
+      "owner": {
+        "display_name": "Denis",
+        "link": "https://stackoverflow.com/users/438882/denis"
+      }
+    },
+    {
+      "answer_id": 8705750,
+      "body": "<p>Here's how to write that code correctly:</p>\n\n<pre><code>db = create_engine('mysql://root@localhost/test_database')\nfor i in range(1,2000):\n    conn = db.connect()\n    #some simple data operations\n    conn.close()\ndb.dispose()\n</code></pre>\n\n<p>That is, the <code>Engine</code> is a <em>factory</em> for connections as well as a <em>pool</em> of connections, not the connection itself.   When you say <code>conn.close()</code>, the connection is <em>returned to the connection pool within the Engine</em>, not actually closed.</p>\n\n<p>If you do want the connection to be actually closed, that is, not pooled, disable pooling via <code>NullPool</code>:</p>\n\n<pre><code>from sqlalchemy.pool import NullPool\ndb = create_engine('mysql://root@localhost/test_database', poolclass=NullPool)\n</code></pre>\n\n<p>With the above <code>Engine</code> configuration, each call to <code>conn.close()</code> will close the underlying DBAPI connection.</p>\n\n<p>If OTOH you actually want to connect to <em>different</em> databases on each call, that is, your hardcoded <code>\"localhost/test_database\"</code> is just an example and you actually have lots of different databases, then the approach using <code>dispose()</code> is fine; it will close out every connection that is not checked out from the pool.</p>\n\n<p>In all of the above cases, the important thing is that the <code>Connection</code> object is closed via <code>close()</code>.   If you're using any kind of \"connectionless\" execution, that is <code>engine.execute()</code> or <code>statement.execute()</code>, the <code>ResultProxy</code> object returned from that execute call should be fully read, or otherwise explicitly closed via <code>close()</code>.   A <code>Connection</code> or <code>ResultProxy</code> that's still open will prohibit the <code>NullPool</code> or <code>dispose()</code> approaches from closing every last connection.</p>\n",
+      "owner": {
+        "display_name": "zzzeek",
+        "link": "https://stackoverflow.com/users/34549/zzzeek"
+      }
+    },
+    {
+      "answer_id": 8551979,
+      "body": "<p>Take a look at <a href=\"http://www.sqlalchemy.org/docs/orm/query.html#sqlalchemy.orm.query.Query.first\"><code>Query.first()</code></a>. If you specify a <a href=\"http://www.sqlalchemy.org/docs/orm/query.html#sqlalchemy.orm.query.Query.order_by\">sort</a> on the right column, the first will be your last. An example could look like this:</p>\n\n<pre><code>obj = session.query(ObjectRes).order_by(ObjectRes.id.desc()).first()\n</code></pre>\n",
+      "owner": {
+        "display_name": "miku",
+        "link": "https://stackoverflow.com/users/89391/miku"
+      }
+    },
+    {
+      "answer_id": 7942571,
+      "body": "<p>From the <a href=\"http://www.sqlalchemy.org/docs/orm/tutorial.html#common-filter-operators\">tutorial</a>:</p>\n\n<pre><code>from sqlalchemy import or_\nfilter(or_(User.name == 'ed', User.name == 'wendy'))\n</code></pre>\n",
+      "owner": {
+        "display_name": "Bastien L&#233;onard",
+        "link": "https://stackoverflow.com/users/88851/bastien-l%c3%a9onard"
+      }
+    },
+    {
+      "answer_id": 7479122,
+      "body": "<p>The simplest solution to your problem will be to take <code>Base</code> out of the module that imports <code>A</code>, <code>B</code> and <code>C</code>;  Break the cyclic import.  </p>\n\n<h2>base.py</h2>\n\n<pre><code>from sqlalchemy.ext.declarative import declarative_base\nBase = declarative_base()\n</code></pre>\n\n<h2>a.py</h2>\n\n<pre><code>from sqlalchemy import *\nfrom base import Base\nfrom sqlalchemy.orm import relationship\n\nclass A(Base):\n    __tablename__ = \"A\"\n    id  = Column(Integer, primary_key=True)\n    Bs  = relationship(\"B\", backref=\"A.id\")\n    Cs  = relationship(\"C\", backref=\"A.id\")\n</code></pre>\n\n<h2>b.py</h2>\n\n<pre><code>from sqlalchemy import *\nfrom base import Base\n\nclass B(Base):\n    __tablename__ = \"B\"\n    id    = Column(Integer, primary_key=True)\n    A_id  = Column(Integer, ForeignKey(\"A.id\"))\n</code></pre>\n\n<h2>c.py</h2>\n\n<pre><code>from sqlalchemy import *\nfrom base import Base\n\nclass C(Base):\n    __tablename__ = \"C\"    \n    id    = Column(Integer, primary_key=True)\n    A_id  = Column(Integer, ForeignKey(\"A.id\"))\n</code></pre>\n\n<h2>main.py</h2>\n\n<pre><code>from sqlalchemy import create_engine\nfrom sqlalchemy.orm import relationship, backref, sessionmaker\n\nimport base\n\n\nimport a\nimport b\nimport c\n\nengine = create_engine(\"sqlite:///:memory:\")\nbase.Base.metadata.create_all(engine, checkfirst=True)\nSession = sessionmaker(bind=engine)\nsession = Session()\n\na1 = a.A()\nb1 = b.B()\nb2 = b.B()\nc1 = c.C()\nc2 = c.C()\n\na1.Bs.append(b1)\na1.Bs.append(b2)    \na1.Cs.append(c1)\na1.Cs.append(c2)    \nsession.add(a1)\nsession.commit()\n</code></pre>\n\n<p>Works on my machine:</p>\n\n<pre><code>$ python main.py ; echo $?\n0\n</code></pre>\n",
+      "owner": {
+        "display_name": "SingleNegationElimination",
+        "link": "https://stackoverflow.com/users/65696/singlenegationelimination"
+      }
+    },
+    {
+      "answer_id": 7141163,
+      "body": "<blockquote>\n  <p>I fixed the problem by putting the try: except stuff in a lambda and\n  running them all after all the imports have happened. </p>\n</blockquote>\n\n<p>Great!</p>\n",
+      "owner": {
+        "display_name": "Davide Tonietto",
+        "link": "https://stackoverflow.com/users/117700/davide-tonietto"
+      }
+    },
+    {
+      "answer_id": 6627154,
+      "body": "<p>those are just <code>Column</code> objects, index=True flag works normally:</p>\n\n<pre><code>class A(Base):\n    __tablename__ = 'table_A'\n    id = Column(Integer, primary_key=True)\n    a = Column(String(32), index=True)\n    b = Column(String(32), index=True)\n</code></pre>\n\n<p>if you'd like a composite index, again <code>Table</code> is present here as usual you just don't have to declare it, everything works the same (make sure you're on recent 0.6 or 0.7 for the declarative A.a wrapper to be interpreted as a <code>Column</code> after the class declaration is complete):</p>\n\n<pre><code>class A(Base):\n    __tablename__ = 'table_A'\n    id = Column(Integer, primary_key=True)\n    a = Column(String(32))\n    b = Column(String(32))\n\nIndex('my_index', A.a, A.b)\n</code></pre>\n\n<p>In 0.7 the <code>Index</code> can be in the <code>Table</code> arguments too, which with declarative is via <code>__table_args__</code>:</p>\n\n<pre><code>class A(Base):\n    __tablename__ = 'table_A'\n    id = Column(Integer, primary_key=True)\n    a = Column(String(32))\n    b = Column(String(32))\n    __table_args__ = (Index('my_index', \"a\", \"b\"), )\n</code></pre>\n",
+      "owner": {
+        "display_name": "zzzeek",
+        "link": "https://stackoverflow.com/users/34549/zzzeek"
+      }
+    },
+    {
+      "answer_id": 5034070,
+      "body": "<p>The problem is that sqlalchemy considers <code>Child</code> as the parent, because that is where you defined your relationship (it doesn't care that you called it \"Child\" of course).</p>\n\n<p>If you define the relationship on the <code>Parent</code> class instead, it will work:</p>\n\n<pre><code>children = relationship(\"Child\", cascade=\"all,delete\", backref=\"parent\")\n</code></pre>\n\n<p>(note <code>\"Child\"</code> as a string: this is allowed when using the declarative style, so that you are able to refer to a class that is not yet defined)</p>\n\n<p>You might want to add <code>delete-orphan</code> as well (<code>delete</code> causes children to be deleted when the parent gets deleted, <code>delete-orphan</code> also deletes any children that were \"removed\" from the parent, even if the parent is not deleted)</p>\n\n<p>EDIT: just found out: if you <em>really</em> want to define the relationship on the <code>Child</code> class, you can do so, but you will have to define the cascade <strong>on the backref</strong> (by creating the backref explicitly), like this:</p>\n\n<pre><code>parent = relationship(Parent, backref=backref(\"children\", cascade=\"all,delete\"))\n</code></pre>\n\n<p>(implying <code>from sqlalchemy.orm import backref</code>)</p>\n",
+      "owner": {
+        "display_name": "Steven",
+        "link": "https://stackoverflow.com/users/601581/steven"
+      }
+    },
+    {
+      "answer_id": 5019427,
+      "body": "<p>Just negate the filter:</p>\n\n<pre><code>MyModel.query.filter(sqlalchemy.not_(Mymodel.name.contains('a_string')))\n</code></pre>\n",
+      "owner": {
+        "display_name": "Maxim Sloyko",
+        "link": "https://stackoverflow.com/users/141906/maxim-sloyko"
+      }
+    },
+    {
+      "answer_id": 2175393,
+      "body": "<p>You can query column properties of mapped classes and the Query class has a generative <code>distinct()</code> method:</p>\n\n<pre><code>for value in Session.query(Table.column).distinct():\n     pass\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ants Aasma",
+        "link": "https://stackoverflow.com/users/107366/ants-aasma"
+      }
+    },
+    {
+      "answer_id": 462028,
+      "body": "<p><a href=\"http://www.postgresql.org/docs/8.3/interactive/datatype-datetime.html#DATATYPE-TIMEZONES\" rel=\"noreferrer\">http://www.postgresql.org/docs/8.3/interactive/datatype-datetime.html#DATATYPE-TIMEZONES</a></p>\n\n<blockquote>\n  <p>All timezone-aware dates and times are stored internally in UTC. They are converted to local time in the zone specified by the timezone configuration parameter before being displayed to the client. </p>\n</blockquote>\n\n<p>The only way to store it with postgresql is to store it separately.</p>\n",
+      "owner": {
+        "display_name": "iny",
+        "link": "https://stackoverflow.com/users/27067/iny"
+      }
+    }
+  ]
+}

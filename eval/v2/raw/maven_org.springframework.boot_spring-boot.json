@@ -1,0 +1,1908 @@
+{
+  "library": "maven:org.springframework.boot:spring-boot",
+  "fetched_at": "2026-11-21T17:28:12Z",
+  "questions": [
+    {
+      "question_id": 21083170,
+      "title": "How to configure port for a Spring Boot application",
+      "accepted_answer_id": 21083284,
+      "score": 1122,
+      "link": "https://stackoverflow.com/questions/21083170/how-to-configure-port-for-a-spring-boot-application",
+      "owner": {
+        "display_name": "Paul Verest on LinkedIn",
+        "link": "https://stackoverflow.com/users/482717/paul-verest-on-linkedin"
+      }
+    },
+    {
+      "question_id": 30528255,
+      "title": "How to access a value defined in the application.properties file in Spring Boot",
+      "accepted_answer_id": 30528430,
+      "score": 592,
+      "link": "https://stackoverflow.com/questions/30528255/how-to-access-a-value-defined-in-the-application-properties-file-in-spring-boot",
+      "owner": {
+        "display_name": "Qasim",
+        "link": "https://stackoverflow.com/users/4617914/qasim"
+      }
+    },
+    {
+      "question_id": 30118683,
+      "title": "How can I log SQL statements in Spring Boot?",
+      "accepted_answer_id": 31249985,
+      "score": 557,
+      "link": "https://stackoverflow.com/questions/30118683/how-can-i-log-sql-statements-in-spring-boot",
+      "owner": {
+        "display_name": "Oleg Pavliv",
+        "link": "https://stackoverflow.com/users/59704/oleg-pavliv"
+      }
+    },
+    {
+      "question_id": 20485059,
+      "title": "How can I set the logging level with application.properties?",
+      "accepted_answer_id": 20488306,
+      "score": 514,
+      "link": "https://stackoverflow.com/questions/20485059/how-can-i-set-the-logging-level-with-application-properties",
+      "owner": {
+        "display_name": "zeodtr",
+        "link": "https://stackoverflow.com/users/3004042/zeodtr"
+      }
+    },
+    {
+      "question_id": 38723833,
+      "title": "What is the purpose of mvnw and mvnw.cmd files?",
+      "accepted_answer_id": 38723930,
+      "score": 463,
+      "link": "https://stackoverflow.com/questions/38723833/what-is-the-purpose-of-mvnw-and-mvnw-cmd-files",
+      "owner": {
+        "display_name": "shaunthomas999",
+        "link": "https://stackoverflow.com/users/844890/shaunthomas999"
+      }
+    },
+    {
+      "question_id": 27405713,
+      "title": "Running code after Spring Boot starts",
+      "accepted_answer_id": 27405775,
+      "score": 461,
+      "link": "https://stackoverflow.com/questions/27405713/running-code-after-spring-boot-starts",
+      "owner": {
+        "display_name": "stewsters",
+        "link": "https://stackoverflow.com/users/884203/stewsters"
+      }
+    },
+    {
+      "question_id": 77171270,
+      "title": "Compilation error after upgrading to JDK 21 - &quot;NoSuchFieldError: JCImport does not have member field JCTree qualid&quot;",
+      "accepted_answer_id": 77171271,
+      "score": 399,
+      "link": "https://stackoverflow.com/questions/77171270/compilation-error-after-upgrading-to-jdk-21-nosuchfielderror-jcimport-does-n",
+      "owner": {
+        "display_name": "Honza Zidek",
+        "link": "https://stackoverflow.com/users/2886891/honza-zidek"
+      }
+    },
+    {
+      "question_id": 51221777,
+      "title": "Failed to configure a DataSource: &#39;url&#39; attribute is not specified and no embedded datasource could be configured",
+      "accepted_answer_id": 52387470,
+      "score": 394,
+      "link": "https://stackoverflow.com/questions/51221777/failed-to-configure-a-datasource-url-attribute-is-not-specified-and-no-embedd",
+      "owner": {
+        "display_name": "Jeff Cook",
+        "link": "https://stackoverflow.com/users/6872018/jeff-cook"
+      }
+    },
+    {
+      "question_id": 32997352,
+      "title": "What is the difference between putting a property on application.yml or bootstrap.yml in spring boot?",
+      "accepted_answer_id": 35545152,
+      "score": 392,
+      "link": "https://stackoverflow.com/questions/32997352/what-is-the-difference-between-putting-a-property-on-application-yml-or-bootstra",
+      "owner": {
+        "display_name": "Rys",
+        "link": "https://stackoverflow.com/users/2217011/rys"
+      }
+    },
+    {
+      "question_id": 26548505,
+      "title": "org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when &#39;hibernate.dialect&#39; not set",
+      "accepted_answer_id": 26549096,
+      "score": 384,
+      "link": "https://stackoverflow.com/questions/26548505/org-hibernate-hibernateexception-access-to-dialectresolutioninfo-cannot-be-null",
+      "owner": {
+        "display_name": "Kleber Mota",
+        "link": "https://stackoverflow.com/users/2692962/kleber-mota"
+      }
+    },
+    {
+      "question_id": 30337582,
+      "title": "Spring Boot configure and use two data sources",
+      "accepted_answer_id": 30344608,
+      "score": 361,
+      "link": "https://stackoverflow.com/questions/30337582/spring-boot-configure-and-use-two-data-sources",
+      "owner": {
+        "display_name": "juventus",
+        "link": "https://stackoverflow.com/users/4905269/juventus"
+      }
+    },
+    {
+      "question_id": 31038250,
+      "title": "Setting active profile and config location from command line in Spring Boot",
+      "accepted_answer_id": 31057742,
+      "score": 357,
+      "link": "https://stackoverflow.com/questions/31038250/setting-active-profile-and-config-location-from-command-line-in-spring-boot",
+      "owner": {
+        "display_name": "ferrari16",
+        "link": "https://stackoverflow.com/users/2360694/ferrari16"
+      }
+    },
+    {
+      "question_id": 39738901,
+      "title": "How do I activate a Spring Boot profile when running from IntelliJ?",
+      "accepted_answer_id": 44374099,
+      "score": 339,
+      "link": "https://stackoverflow.com/questions/39738901/how-do-i-activate-a-spring-boot-profile-when-running-from-intellij",
+      "owner": {
+        "display_name": "dleerob",
+        "link": "https://stackoverflow.com/users/1783198/dleerob"
+      }
+    },
+    {
+      "question_id": 30549489,
+      "title": "What is this spring.jpa.open-in-view=true property in Spring Boot?",
+      "accepted_answer_id": 30554785,
+      "score": 334,
+      "link": "https://stackoverflow.com/questions/30549489/what-is-this-spring-jpa-open-in-view-true-property-in-spring-boot",
+      "owner": {
+        "display_name": "Carlos Alberto",
+        "link": "https://stackoverflow.com/users/1732123/carlos-alberto"
+      }
+    },
+    {
+      "question_id": 29669393,
+      "title": "Override default Spring-Boot application.properties settings in Junit Test",
+      "accepted_answer_id": 29673732,
+      "score": 306,
+      "link": "https://stackoverflow.com/questions/29669393/override-default-spring-boot-application-properties-settings-in-junit-test",
+      "owner": {
+        "display_name": "FrVaBe",
+        "link": "https://stackoverflow.com/users/367285/frvabe"
+      }
+    },
+    {
+      "question_id": 28664064,
+      "title": "Spring boot - Not a managed type",
+      "accepted_answer_id": 28668674,
+      "score": 302,
+      "link": "https://stackoverflow.com/questions/28664064/spring-boot-not-a-managed-type",
+      "owner": {
+        "display_name": "user1578872",
+        "link": "https://stackoverflow.com/users/1578872/user1578872"
+      }
+    },
+    {
+      "question_id": 22380119,
+      "title": "Why does my Spring Boot App always shutdown immediately after starting?",
+      "accepted_answer_id": 22409655,
+      "score": 295,
+      "link": "https://stackoverflow.com/questions/22380119/why-does-my-spring-boot-app-always-shutdown-immediately-after-starting",
+      "owner": {
+        "display_name": "johnsam",
+        "link": "https://stackoverflow.com/users/965229/johnsam"
+      }
+    },
+    {
+      "question_id": 32922914,
+      "title": "Difference between Spring MVC and Spring Boot",
+      "accepted_answer_id": 32923000,
+      "score": 289,
+      "link": "https://stackoverflow.com/questions/32922914/difference-between-spring-mvc-and-spring-boot",
+      "owner": {
+        "display_name": "Gero",
+        "link": "https://stackoverflow.com/users/963546/gero"
+      }
+    },
+    {
+      "question_id": 44200720,
+      "title": "Difference between @Mock, @MockBean and Mockito.mock()",
+      "accepted_answer_id": 44200907,
+      "score": 285,
+      "link": "https://stackoverflow.com/questions/44200720/difference-between-mock-mockbean-and-mockito-mock",
+      "owner": {
+        "display_name": "Doug",
+        "link": "https://stackoverflow.com/users/3915006/doug"
+      }
+    },
+    {
+      "question_id": 26699385,
+      "title": "Spring Boot YAML configuration for a list of strings",
+      "accepted_answer_id": 26700938,
+      "score": 271,
+      "link": "https://stackoverflow.com/questions/26699385/spring-boot-yaml-configuration-for-a-list-of-strings",
+      "owner": {
+        "display_name": "Bahadır Yağan",
+        "link": "https://stackoverflow.com/users/3812/bahad%c4%b1r-ya%c4%9fan"
+      }
+    },
+    {
+      "question_id": 40384056,
+      "title": "Consider defining a bean of type &#39;package&#39; in your configuration [Spring-Boot]",
+      "accepted_answer_id": 40388609,
+      "score": 251,
+      "link": "https://stackoverflow.com/questions/40384056/consider-defining-a-bean-of-type-package-in-your-configuration-spring-boot",
+      "owner": {
+        "display_name": "Mike3355",
+        "link": "https://stackoverflow.com/users/4753897/mike3355"
+      }
+    },
+    {
+      "question_id": 20405474,
+      "title": "Add context path to Spring Boot application",
+      "accepted_answer_id": 20418450,
+      "score": 244,
+      "link": "https://stackoverflow.com/questions/20405474/add-context-path-to-spring-boot-application",
+      "owner": {
+        "display_name": "CorreyS",
+        "link": "https://stackoverflow.com/users/2077246/correys"
+      }
+    },
+    {
+      "question_id": 24074749,
+      "title": "Spring Boot - Cannot determine embedded database driver class for database type NONE",
+      "accepted_answer_id": 24086178,
+      "score": 242,
+      "link": "https://stackoverflow.com/questions/24074749/spring-boot-cannot-determine-embedded-database-driver-class-for-database-type",
+      "owner": {
+        "display_name": "quarks",
+        "link": "https://stackoverflow.com/users/785349/quarks"
+      }
+    },
+    {
+      "question_id": 39084491,
+      "title": "Unable to find a @SpringBootConfiguration when doing a JpaTest",
+      "accepted_answer_id": 39084906,
+      "score": 242,
+      "link": "https://stackoverflow.com/questions/39084491/unable-to-find-a-springbootconfiguration-when-doing-a-jpatest",
+      "owner": {
+        "display_name": "Thomas Billet",
+        "link": "https://stackoverflow.com/users/2295156/thomas-billet"
+      }
+    },
+    {
+      "question_id": 32201441,
+      "title": "How do I retrieve query parameters in a Spring Boot controller?",
+      "accepted_answer_id": 32202493,
+      "score": 231,
+      "link": "https://stackoverflow.com/questions/32201441/how-do-i-retrieve-query-parameters-in-a-spring-boot-controller",
+      "owner": {
+        "display_name": "Mehandi Hassan",
+        "link": "https://stackoverflow.com/users/3967531/mehandi-hassan"
+      }
+    },
+    {
+      "question_id": 21317006,
+      "title": "Spring Boot - parent pom when you already have a parent pom",
+      "accepted_answer_id": 21318359,
+      "score": 224,
+      "link": "https://stackoverflow.com/questions/21317006/spring-boot-parent-pom-when-you-already-have-a-parent-pom",
+      "owner": {
+        "display_name": "Scott C.",
+        "link": "https://stackoverflow.com/users/2336284/scott-c"
+      }
+    },
+    {
+      "question_id": 23217002,
+      "title": "How do I tell Spring Boot which main class to use for the executable jar?",
+      "accepted_answer_id": 23217203,
+      "score": 219,
+      "link": "https://stackoverflow.com/questions/23217002/how-do-i-tell-spring-boot-which-main-class-to-use-for-the-executable-jar",
+      "owner": {
+        "display_name": "Thilo",
+        "link": "https://stackoverflow.com/users/14955/thilo"
+      }
+    },
+    {
+      "question_id": 21503883,
+      "title": "Spring Boot application as a Service",
+      "accepted_answer_id": 30497095,
+      "score": 218,
+      "link": "https://stackoverflow.com/questions/21503883/spring-boot-application-as-a-service",
+      "owner": {
+        "display_name": "MariuszS",
+        "link": "https://stackoverflow.com/users/516167/mariuszs"
+      }
+    },
+    {
+      "question_id": 36387265,
+      "title": "Disable all Database related auto configuration in Spring Boot",
+      "accepted_answer_id": 36403349,
+      "score": 212,
+      "link": "https://stackoverflow.com/questions/36387265/disable-all-database-related-auto-configuration-in-spring-boot",
+      "owner": {
+        "display_name": "yuva",
+        "link": "https://stackoverflow.com/users/2323097/yuva"
+      }
+    },
+    {
+      "question_id": 25869428,
+      "title": "Classpath resource not found when running as jar",
+      "accepted_answer_id": 25873705,
+      "score": 211,
+      "link": "https://stackoverflow.com/questions/25869428/classpath-resource-not-found-when-running-as-jar",
+      "owner": {
+        "display_name": "gyoder",
+        "link": "https://stackoverflow.com/users/843273/gyoder"
+      }
+    },
+    {
+      "question_id": 32927937,
+      "title": "How to set base url for rest in spring boot?",
+      "accepted_answer_id": 42811503,
+      "score": 206,
+      "link": "https://stackoverflow.com/questions/32927937/how-to-set-base-url-for-rest-in-spring-boot",
+      "owner": {
+        "display_name": "Teimuraz",
+        "link": "https://stackoverflow.com/users/3256597/teimuraz"
+      }
+    },
+    {
+      "question_id": 37285016,
+      "title": "What is username and password when starting Spring Boot with Tomcat?",
+      "accepted_answer_id": 37288790,
+      "score": 206,
+      "link": "https://stackoverflow.com/questions/37285016/what-is-username-and-password-when-starting-spring-boot-with-tomcat",
+      "owner": {
+        "display_name": "Gustavo",
+        "link": "https://stackoverflow.com/users/6287214/gustavo"
+      }
+    },
+    {
+      "question_id": 28902374,
+      "title": "Spring Boot REST service exception handling",
+      "accepted_answer_id": 30193013,
+      "score": 205,
+      "link": "https://stackoverflow.com/questions/28902374/spring-boot-rest-service-exception-handling",
+      "owner": {
+        "display_name": "astrien",
+        "link": "https://stackoverflow.com/users/462771/astrien"
+      }
+    },
+    {
+      "question_id": 50231736,
+      "title": "ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean",
+      "accepted_answer_id": 50250910,
+      "score": 203,
+      "link": "https://stackoverflow.com/questions/50231736/applicationcontextexception-unable-to-start-servletwebserverapplicationcontext",
+      "owner": {
+        "display_name": "Vijayant Bhatia",
+        "link": "https://stackoverflow.com/users/8866740/vijayant-bhatia"
+      }
+    },
+    {
+      "question_id": 35856454,
+      "title": "Difference between Interceptor and Filter in Spring MVC",
+      "accepted_answer_id": 35856496,
+      "score": 202,
+      "link": "https://stackoverflow.com/questions/35856454/difference-between-interceptor-and-filter-in-spring-mvc",
+      "owner": {
+        "display_name": "rpieniazek",
+        "link": "https://stackoverflow.com/users/4544269/rpieniazek"
+      }
+    },
+    {
+      "question_id": 36151421,
+      "title": "Could not autowire field:RestTemplate in Spring boot application",
+      "accepted_answer_id": 36151777,
+      "score": 199,
+      "link": "https://stackoverflow.com/questions/36151421/could-not-autowire-fieldresttemplate-in-spring-boot-application",
+      "owner": {
+        "display_name": "Khuzi",
+        "link": "https://stackoverflow.com/users/4835230/khuzi"
+      }
+    },
+    {
+      "question_id": 23027315,
+      "title": "Does application.yml support environment variables?",
+      "accepted_answer_id": 23027709,
+      "score": 196,
+      "link": "https://stackoverflow.com/questions/23027315/does-application-yml-support-environment-variables",
+      "owner": {
+        "display_name": "Marcel Overdijk",
+        "link": "https://stackoverflow.com/users/1458877/marcel-overdijk"
+      }
+    },
+    {
+      "question_id": 25356781,
+      "title": "Spring Boot Remove Whitelabel Error Page",
+      "accepted_answer_id": 25362790,
+      "score": 196,
+      "link": "https://stackoverflow.com/questions/25356781/spring-boot-remove-whitelabel-error-page",
+      "owner": {
+        "display_name": "Yasitha Waduge",
+        "link": "https://stackoverflow.com/users/1199267/yasitha-waduge"
+      }
+    },
+    {
+      "question_id": 28392231,
+      "title": "How to determine programmatically the current active profile using Spring boot",
+      "accepted_answer_id": 28392257,
+      "score": 189,
+      "link": "https://stackoverflow.com/questions/28392231/how-to-determine-programmatically-the-current-active-profile-using-spring-boot",
+      "owner": {
+        "display_name": "rayman",
+        "link": "https://stackoverflow.com/users/260511/rayman"
+      }
+    },
+    {
+      "question_id": 25283198,
+      "title": "Spring Boot + JPA : Column name annotation ignored",
+      "accepted_answer_id": 38875123,
+      "score": 187,
+      "link": "https://stackoverflow.com/questions/25283198/spring-boot-jpa-column-name-annotation-ignored",
+      "owner": {
+        "display_name": "Kamil",
+        "link": "https://stackoverflow.com/users/777344/kamil"
+      }
+    },
+    {
+      "question_id": 21783391,
+      "title": "Spring Boot: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean",
+      "accepted_answer_id": 21783745,
+      "score": 185,
+      "link": "https://stackoverflow.com/questions/21783391/spring-boot-unable-to-start-embeddedwebapplicationcontext-due-to-missing-embedd",
+      "owner": {
+        "display_name": "Kumite",
+        "link": "https://stackoverflow.com/users/2334539/kumite"
+      }
+    },
+    {
+      "question_id": 31318107,
+      "title": "Spring Boot: Cannot access REST Controller on localhost (404)",
+      "accepted_answer_id": 31318789,
+      "score": 183,
+      "link": "https://stackoverflow.com/questions/31318107/spring-boot-cannot-access-rest-controller-on-localhost-404",
+      "owner": {
+        "display_name": "mchlfchr",
+        "link": "https://stackoverflow.com/users/1654284/mchlfchr"
+      }
+    },
+    {
+      "question_id": 47835901,
+      "title": "How to start up spring-boot application via command line?",
+      "accepted_answer_id": 47836135,
+      "score": 182,
+      "link": "https://stackoverflow.com/questions/47835901/how-to-start-up-spring-boot-application-via-command-line",
+      "owner": {
+        "display_name": "user4900074",
+        "link": "https://stackoverflow.com/users/4900074/user4900074"
+      }
+    },
+    {
+      "question_id": 39690094,
+      "title": "Spring-boot default profile for integration tests",
+      "accepted_answer_id": 39690595,
+      "score": 180,
+      "link": "https://stackoverflow.com/questions/39690094/spring-boot-default-profile-for-integration-tests",
+      "owner": {
+        "display_name": "Piotr Zakrzewski",
+        "link": "https://stackoverflow.com/users/854603/piotr-zakrzewski"
+      }
+    },
+    {
+      "question_id": 27381781,
+      "title": "Java Spring Boot: How to map my app root (“/”) to index.html?",
+      "accepted_answer_id": 27383522,
+      "score": 177,
+      "link": "https://stackoverflow.com/questions/27381781/java-spring-boot-how-to-map-my-app-root-to-index-html",
+      "owner": {
+        "display_name": "Shoham",
+        "link": "https://stackoverflow.com/users/1297578/shoham"
+      }
+    },
+    {
+      "question_id": 54536895,
+      "title": "Cannot be cast to class - they are in unnamed module of loader &#39;app&#39;",
+      "accepted_answer_id": 57753612,
+      "score": 175,
+      "link": "https://stackoverflow.com/questions/54536895/cannot-be-cast-to-class-they-are-in-unnamed-module-of-loader-app",
+      "owner": {
+        "display_name": "Cisco",
+        "link": "https://stackoverflow.com/users/2382650/cisco"
+      }
+    },
+    {
+      "question_id": 31082981,
+      "title": "Spring Boot Adding Http Request Interceptors",
+      "accepted_answer_id": 31083263,
+      "score": 172,
+      "link": "https://stackoverflow.com/questions/31082981/spring-boot-adding-http-request-interceptors",
+      "owner": {
+        "display_name": "hrishikeshp19",
+        "link": "https://stackoverflow.com/users/929701/hrishikeshp19"
+      }
+    },
+    {
+      "question_id": 22944144,
+      "title": "Programmatically shut down Spring Boot application",
+      "accepted_answer_id": 22944850,
+      "score": 171,
+      "link": "https://stackoverflow.com/questions/22944144/programmatically-shut-down-spring-boot-application",
+      "owner": {
+        "display_name": "Axel Fontaine",
+        "link": "https://stackoverflow.com/users/350428/axel-fontaine"
+      }
+    },
+    {
+      "question_id": 23984009,
+      "title": "Disable Logback in SpringBoot",
+      "accepted_answer_id": 23991715,
+      "score": 171,
+      "link": "https://stackoverflow.com/questions/23984009/disable-logback-in-springboot",
+      "owner": {
+        "display_name": "F.O.O",
+        "link": "https://stackoverflow.com/users/1464389/f-o-o"
+      }
+    },
+    {
+      "question_id": 24292373,
+      "title": "Spring Boot Rest Controller how to return different HTTP status codes?",
+      "accepted_answer_id": 24292707,
+      "score": 164,
+      "link": "https://stackoverflow.com/questions/24292373/spring-boot-rest-controller-how-to-return-different-http-status-codes",
+      "owner": {
+        "display_name": "Marco",
+        "link": "https://stackoverflow.com/users/185432/marco"
+      }
+    },
+    {
+      "question_id": 21271468,
+      "title": "Spring @PropertySource using YAML",
+      "accepted_answer_id": 26840503,
+      "score": 163,
+      "link": "https://stackoverflow.com/questions/21271468/spring-propertysource-using-yaml",
+      "owner": {
+        "display_name": "checketts",
+        "link": "https://stackoverflow.com/users/970308/checketts"
+      }
+    },
+    {
+      "question_id": 26105061,
+      "title": "Spring Boot without the web server",
+      "accepted_answer_id": 26105252,
+      "score": 161,
+      "link": "https://stackoverflow.com/questions/26105061/spring-boot-without-the-web-server",
+      "owner": {
+        "display_name": "Michael",
+        "link": "https://stackoverflow.com/users/534994/michael"
+      }
+    },
+    {
+      "question_id": 44096708,
+      "title": "How to debug spring-boot application with IntelliJ IDEA community Edition?",
+      "accepted_answer_id": 44446503,
+      "score": 157,
+      "link": "https://stackoverflow.com/questions/44096708/how-to-debug-spring-boot-application-with-intellij-idea-community-edition",
+      "owner": {
+        "display_name": "Ville Miekk-oja",
+        "link": "https://stackoverflow.com/users/4662347/ville-miekk-oja"
+      }
+    },
+    {
+      "question_id": 44839753,
+      "title": "Returning JSON object as response in Spring Boot",
+      "accepted_answer_id": 44842806,
+      "score": 156,
+      "link": "https://stackoverflow.com/questions/44839753/returning-json-object-as-response-in-spring-boot",
+      "owner": {
+        "display_name": "iwekesi",
+        "link": "https://stackoverflow.com/users/6179988/iwekesi"
+      }
+    },
+    {
+      "question_id": 29956175,
+      "title": "JSON Java 8 LocalDateTime format in Spring Boot",
+      "accepted_answer_id": 29959842,
+      "score": 155,
+      "link": "https://stackoverflow.com/questions/29956175/json-java-8-localdatetime-format-in-spring-boot",
+      "owner": {
+        "display_name": "Erik Pragt",
+        "link": "https://stackoverflow.com/users/323221/erik-pragt"
+      }
+    },
+    {
+      "question_id": 52656517,
+      "title": "No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor",
+      "accepted_answer_id": 58490797,
+      "score": 154,
+      "link": "https://stackoverflow.com/questions/52656517/no-serializer-found-for-class-org-hibernate-proxy-pojo-bytebuddy-bytebuddyinterc",
+      "owner": {
+        "display_name": "Ayoub k",
+        "link": "https://stackoverflow.com/users/10257611/ayoub-k"
+      }
+    },
+    {
+      "question_id": 41092751,
+      "title": "Spring injects dependencies in constructor without @Autowired annotation",
+      "accepted_answer_id": 41092831,
+      "score": 153,
+      "link": "https://stackoverflow.com/questions/41092751/spring-injects-dependencies-in-constructor-without-autowired-annotation",
+      "owner": {
+        "display_name": "winter",
+        "link": "https://stackoverflow.com/users/1652248/winter"
+      }
+    },
+    {
+      "question_id": 26881739,
+      "title": "Unable to get spring boot to automatically create database schema",
+      "accepted_answer_id": 26902713,
+      "score": 152,
+      "link": "https://stackoverflow.com/questions/26881739/unable-to-get-spring-boot-to-automatically-create-database-schema",
+      "owner": {
+        "display_name": "napentathol",
+        "link": "https://stackoverflow.com/users/3064251/napentathol"
+      }
+    },
+    {
+      "question_id": 40274353,
+      "title": "How to use LocalDateTime RequestParam in Spring? I get &quot;Failed to convert String to LocalDateTime&quot;",
+      "accepted_answer_id": 40276418,
+      "score": 152,
+      "link": "https://stackoverflow.com/questions/40274353/how-to-use-localdatetime-requestparam-in-spring-i-get-failed-to-convert-string",
+      "owner": {
+        "display_name": "Kery Hu",
+        "link": "https://stackoverflow.com/users/5097551/kery-hu"
+      }
+    },
+    {
+      "question_id": 67663728,
+      "title": "Spring Boot 2.5.0 generates plain.jar file. Can I remove it?",
+      "accepted_answer_id": 67663956,
+      "score": 150,
+      "link": "https://stackoverflow.com/questions/67663728/spring-boot-2-5-0-generates-plain-jar-file-can-i-remove-it",
+      "owner": {
+        "display_name": "Tien Do Nam",
+        "link": "https://stackoverflow.com/users/11127438/tien-do-nam"
+      }
+    },
+    {
+      "question_id": 30312058,
+      "title": "Spring Boot - How to get the running port",
+      "accepted_answer_id": 30312990,
+      "score": 149,
+      "link": "https://stackoverflow.com/questions/30312058/spring-boot-how-to-get-the-running-port",
+      "owner": {
+        "display_name": "Tucker",
+        "link": "https://stackoverflow.com/users/639868/tucker"
+      }
+    },
+    {
+      "question_id": 47487609,
+      "title": "Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test",
+      "accepted_answer_id": 47487712,
+      "score": 149,
+      "link": "https://stackoverflow.com/questions/47487609/unable-to-find-a-springbootconfiguration-you-need-to-use-contextconfiguration",
+      "owner": {
+        "display_name": "lapots",
+        "link": "https://stackoverflow.com/users/1432980/lapots"
+      }
+    },
+    {
+      "question_id": 56142369,
+      "title": "Why am I getting Unknown error in line 1 of pom.xml?",
+      "accepted_answer_id": 56275263,
+      "score": 148,
+      "link": "https://stackoverflow.com/questions/56142369/why-am-i-getting-unknown-error-in-line-1-of-pom-xml",
+      "owner": {
+        "display_name": "Shravani",
+        "link": "https://stackoverflow.com/users/10101824/shravani"
+      }
+    },
+    {
+      "question_id": 30761253,
+      "title": "Remove &quot;Using default security password&quot; on Spring Boot",
+      "accepted_answer_id": 30768011,
+      "score": 145,
+      "link": "https://stackoverflow.com/questions/30761253/remove-using-default-security-password-on-spring-boot",
+      "owner": {
+        "display_name": "Carlos Alberto",
+        "link": "https://stackoverflow.com/users/1732123/carlos-alberto"
+      }
+    },
+    {
+      "question_id": 40902280,
+      "title": "What is the recommended project structure for spring boot rest projects?",
+      "accepted_answer_id": 55590796,
+      "score": 144,
+      "link": "https://stackoverflow.com/questions/40902280/what-is-the-recommended-project-structure-for-spring-boot-rest-projects",
+      "owner": {
+        "display_name": "chip",
+        "link": "https://stackoverflow.com/users/1000281/chip"
+      }
+    },
+    {
+      "question_id": 24917194,
+      "title": "Spring Boot - inject map from application.yml",
+      "accepted_answer_id": 24921330,
+      "score": 142,
+      "link": "https://stackoverflow.com/questions/24917194/spring-boot-inject-map-from-application-yml",
+      "owner": {
+        "display_name": "levant pied",
+        "link": "https://stackoverflow.com/users/3821009/levant-pied"
+      }
+    },
+    {
+      "question_id": 19498378,
+      "title": "Setting Precedence of Multiple @ControllerAdvice @ExceptionHandlers",
+      "accepted_answer_id": 19500823,
+      "score": 140,
+      "link": "https://stackoverflow.com/questions/19498378/setting-precedence-of-multiple-controlleradvice-exceptionhandlers",
+      "owner": {
+        "display_name": "DeejUK",
+        "link": "https://stackoverflow.com/users/774395/deejuk"
+      }
+    },
+    {
+      "question_id": 42839126,
+      "title": "@ConfigurationProperties Spring Boot Configuration Annotation Processor not found in classpath",
+      "accepted_answer_id": 46305808,
+      "score": 140,
+      "link": "https://stackoverflow.com/questions/42839126/configurationproperties-spring-boot-configuration-annotation-processor-not-foun",
+      "owner": {
+        "display_name": "Boaris",
+        "link": "https://stackoverflow.com/users/4725496/boaris"
+      }
+    },
+    {
+      "question_id": 28042426,
+      "title": "Spring Boot - Error creating bean with name &#39;dataSource&#39; defined in class path resource",
+      "accepted_answer_id": 31199853,
+      "score": 138,
+      "link": "https://stackoverflow.com/questions/28042426/spring-boot-error-creating-bean-with-name-datasource-defined-in-class-path-r",
+      "owner": {
+        "display_name": "J.Olufsen",
+        "link": "https://stackoverflow.com/users/480632/j-olufsen"
+      }
+    },
+    {
+      "question_id": 25764459,
+      "title": "Spring Boot application.properties value not populating",
+      "accepted_answer_id": 25765032,
+      "score": 136,
+      "link": "https://stackoverflow.com/questions/25764459/spring-boot-application-properties-value-not-populating",
+      "owner": {
+        "display_name": "grahamrb",
+        "link": "https://stackoverflow.com/users/141708/grahamrb"
+      }
+    },
+    {
+      "question_id": 32196451,
+      "title": "Environment Specific application.properties file in Spring Boot application",
+      "accepted_answer_id": 32197312,
+      "score": 136,
+      "link": "https://stackoverflow.com/questions/32196451/environment-specific-application-properties-file-in-spring-boot-application",
+      "owner": {
+        "display_name": "user3534483",
+        "link": "https://stackoverflow.com/users/3534483/user3534483"
+      }
+    },
+    {
+      "question_id": 24655684,
+      "title": "Spring Boot default H2 jdbc connection (and H2 console)",
+      "accepted_answer_id": 24727653,
+      "score": 135,
+      "link": "https://stackoverflow.com/questions/24655684/spring-boot-default-h2-jdbc-connection-and-h2-console",
+      "owner": {
+        "display_name": "Aaron Zeckoski",
+        "link": "https://stackoverflow.com/users/1519434/aaron-zeckoski"
+      }
+    },
+    {
+      "question_id": 35742920,
+      "title": "Overriding beans in Integration tests",
+      "accepted_answer_id": 41455418,
+      "score": 135,
+      "link": "https://stackoverflow.com/questions/35742920/overriding-beans-in-integration-tests",
+      "owner": {
+        "display_name": "mvlupan",
+        "link": "https://stackoverflow.com/users/1165292/mvlupan"
+      }
+    },
+    {
+      "question_id": 38711871,
+      "title": "Load different application.yml in SpringBoot Test",
+      "accepted_answer_id": 73555043,
+      "score": 135,
+      "link": "https://stackoverflow.com/questions/38711871/load-different-application-yml-in-springboot-test",
+      "owner": {
+        "display_name": "Exia",
+        "link": "https://stackoverflow.com/users/1522378/exia"
+      }
+    },
+    {
+      "question_id": 32968530,
+      "title": "HikariCP - connection is not available",
+      "accepted_answer_id": 34198653,
+      "score": 134,
+      "link": "https://stackoverflow.com/questions/32968530/hikaricp-connection-is-not-available",
+      "owner": {
+        "display_name": "dfche",
+        "link": "https://stackoverflow.com/users/2000169/dfche"
+      }
+    },
+    {
+      "question_id": 37404703,
+      "title": "Spring Boot how to hide passwords in properties file",
+      "accepted_answer_id": 37424296,
+      "score": 132,
+      "link": "https://stackoverflow.com/questions/37404703/spring-boot-how-to-hide-passwords-in-properties-file",
+      "owner": {
+        "display_name": "user1340582",
+        "link": "https://stackoverflow.com/users/1340582/user1340582"
+      }
+    },
+    {
+      "question_id": 23515295,
+      "title": "Spring Boot and how to configure connection details to MongoDB?",
+      "accepted_answer_id": 23515586,
+      "score": 131,
+      "link": "https://stackoverflow.com/questions/23515295/spring-boot-and-how-to-configure-connection-details-to-mongodb",
+      "owner": {
+        "display_name": "Marco",
+        "link": "https://stackoverflow.com/users/185432/marco"
+      }
+    },
+    {
+      "question_id": 35232827,
+      "title": "Spring Boot Unit Test ignores logging.level",
+      "accepted_answer_id": 35254610,
+      "score": 131,
+      "link": "https://stackoverflow.com/questions/35232827/spring-boot-unit-test-ignores-logging-level",
+      "owner": {
+        "display_name": "Michael Hegner",
+        "link": "https://stackoverflow.com/users/3837078/michael-hegner"
+      }
+    },
+    {
+      "question_id": 37841373,
+      "title": "java.lang.IllegalArgumentException: No converter found for return value of type",
+      "accepted_answer_id": 37842512,
+      "score": 131,
+      "link": "https://stackoverflow.com/questions/37841373/java-lang-illegalargumentexception-no-converter-found-for-return-value-of-type",
+      "owner": {
+        "display_name": "Marc",
+        "link": "https://stackoverflow.com/users/912495/marc"
+      }
+    },
+    {
+      "question_id": 42365266,
+      "title": "Call another rest api from my server in Spring-Boot",
+      "accepted_answer_id": 42370974,
+      "score": 131,
+      "link": "https://stackoverflow.com/questions/42365266/call-another-rest-api-from-my-server-in-spring-boot",
+      "owner": {
+        "display_name": "Mahdi",
+        "link": "https://stackoverflow.com/users/1498586/mahdi"
+      }
+    },
+    {
+      "question_id": 28324352,
+      "title": "How to customise the Jackson JSON mapper implicitly used by Spring Boot?",
+      "accepted_answer_id": 28324976,
+      "score": 130,
+      "link": "https://stackoverflow.com/questions/28324352/how-to-customise-the-jackson-json-mapper-implicitly-used-by-spring-boot",
+      "owner": {
+        "display_name": "Jonik",
+        "link": "https://stackoverflow.com/users/56285/jonik"
+      }
+    },
+    {
+      "question_id": 37052857,
+      "title": "Spring: overriding one application.property from command line",
+      "accepted_answer_id": 37053004,
+      "score": 130,
+      "link": "https://stackoverflow.com/questions/37052857/spring-overriding-one-application-property-from-command-line",
+      "owner": {
+        "display_name": "clueless user",
+        "link": "https://stackoverflow.com/users/4005260/clueless-user"
+      }
+    },
+    {
+      "question_id": 42937577,
+      "title": "&quot;Unable to find main class&quot; with Maven on spring-boot project in Eclipse",
+      "accepted_answer_id": 55459645,
+      "score": 130,
+      "link": "https://stackoverflow.com/questions/42937577/unable-to-find-main-class-with-maven-on-spring-boot-project-in-eclipse",
+      "owner": {
+        "display_name": "Alex",
+        "link": "https://stackoverflow.com/users/3628679/alex"
+      }
+    },
+    {
+      "question_id": 49654143,
+      "title": "Spring Security 5: &#39;There is no PasswordEncoder mapped for the id &quot;null&quot;&#39;",
+      "accepted_answer_id": 49683417,
+      "score": 130,
+      "link": "https://stackoverflow.com/questions/49654143/spring-security-5-there-is-no-passwordencoder-mapped-for-the-id-null",
+      "owner": {
+        "display_name": "Jimmy",
+        "link": "https://stackoverflow.com/users/3855773/jimmy"
+      }
+    },
+    {
+      "question_id": 22684807,
+      "title": "Spring Boot JPA - configuring auto reconnect",
+      "accepted_answer_id": 22687418,
+      "score": 128,
+      "link": "https://stackoverflow.com/questions/22684807/spring-boot-jpa-configuring-auto-reconnect",
+      "owner": {
+        "display_name": "stoffer",
+        "link": "https://stackoverflow.com/users/898773/stoffer"
+      }
+    },
+    {
+      "question_id": 18992880,
+      "title": "exclude @Component from @ComponentScan",
+      "accepted_answer_id": 18993306,
+      "score": 127,
+      "link": "https://stackoverflow.com/questions/18992880/exclude-component-from-componentscan",
+      "owner": {
+        "display_name": "ykaganovich",
+        "link": "https://stackoverflow.com/users/10026/ykaganovich"
+      }
+    },
+    {
+      "question_id": 26490967,
+      "title": "How do I configure HikariCP in my Spring Boot app in my application.properties files?",
+      "accepted_answer_id": 33213802,
+      "score": 126,
+      "link": "https://stackoverflow.com/questions/26490967/how-do-i-configure-hikaricp-in-my-spring-boot-app-in-my-application-properties-f",
+      "owner": {
+        "display_name": "Kevin M",
+        "link": "https://stackoverflow.com/users/179058/kevin-m"
+      }
+    },
+    {
+      "question_id": 48954087,
+      "title": "Intellij IDEA complains cannot resolve spring boot properties but they work fine",
+      "accepted_answer_id": 50776393,
+      "score": 126,
+      "link": "https://stackoverflow.com/questions/48954087/intellij-idea-complains-cannot-resolve-spring-boot-properties-but-they-work-fine",
+      "owner": {
+        "display_name": "Stoopkid",
+        "link": "https://stackoverflow.com/users/2480560/stoopkid"
+      }
+    },
+    {
+      "question_id": 25399400,
+      "title": "Maximum (client request) thread pool size in spring",
+      "accepted_answer_id": 25401832,
+      "score": 125,
+      "link": "https://stackoverflow.com/questions/25399400/maximum-client-request-thread-pool-size-in-spring",
+      "owner": {
+        "display_name": "Sagar",
+        "link": "https://stackoverflow.com/users/2187707/sagar"
+      }
+    },
+    {
+      "question_id": 34617152,
+      "title": "How to re-create database before each test in Spring?",
+      "accepted_answer_id": 37246354,
+      "score": 125,
+      "link": "https://stackoverflow.com/questions/34617152/how-to-re-create-database-before-each-test-in-spring",
+      "owner": {
+        "display_name": "Dims",
+        "link": "https://stackoverflow.com/users/258483/dims"
+      }
+    },
+    {
+      "question_id": 32770884,
+      "title": "Breakpoint at &quot;throw new SilentExitException()&quot; in Eclipse + Spring Boot",
+      "accepted_answer_id": 32788203,
+      "score": 124,
+      "link": "https://stackoverflow.com/questions/32770884/breakpoint-at-throw-new-silentexitexception-in-eclipse-spring-boot",
+      "owner": {
+        "display_name": "Bruno De Freitas Barros",
+        "link": "https://stackoverflow.com/users/1807416/bruno-de-freitas-barros"
+      }
+    },
+    {
+      "question_id": 38117717,
+      "title": "What is the best way to return different types of ResponseEntity in Spring-Boot (Error Handling for REST with Spring)",
+      "accepted_answer_id": 50053782,
+      "score": 124,
+      "link": "https://stackoverflow.com/questions/38117717/what-is-the-best-way-to-return-different-types-of-responseentity-in-spring-boot",
+      "owner": {
+        "display_name": "Saveendra Ekanayake",
+        "link": "https://stackoverflow.com/users/3103802/saveendra-ekanayake"
+      }
+    },
+    {
+      "question_id": 63521181,
+      "title": "Java file outside of source root intelliJ",
+      "accepted_answer_id": 64023602,
+      "score": 124,
+      "link": "https://stackoverflow.com/questions/63521181/java-file-outside-of-source-root-intellij",
+      "owner": {
+        "display_name": "Abhishek",
+        "link": "https://stackoverflow.com/users/8037862/abhishek"
+      }
+    },
+    {
+      "question_id": 25079244,
+      "title": "How to pass JVM options from bootRun",
+      "accepted_answer_id": 25079415,
+      "score": 123,
+      "link": "https://stackoverflow.com/questions/25079244/how-to-pass-jvm-options-from-bootrun",
+      "owner": {
+        "display_name": "Evgeny",
+        "link": "https://stackoverflow.com/users/456143/evgeny"
+      }
+    },
+    {
+      "question_id": 36501017,
+      "title": "Maven resource filtering not working - because of spring boot dependency",
+      "accepted_answer_id": 36503333,
+      "score": 123,
+      "link": "https://stackoverflow.com/questions/36501017/maven-resource-filtering-not-working-because-of-spring-boot-dependency",
+      "owner": {
+        "display_name": "Jay",
+        "link": "https://stackoverflow.com/users/1781611/jay"
+      }
+    },
+    {
+      "question_id": 49088847,
+      "title": "After Spring Boot 2.0 migration: jdbcUrl is required with driverClassName",
+      "accepted_answer_id": 49122638,
+      "score": 123,
+      "link": "https://stackoverflow.com/questions/49088847/after-spring-boot-2-0-migration-jdbcurl-is-required-with-driverclassname",
+      "owner": {
+        "display_name": "Batuhan K&#246;k",
+        "link": "https://stackoverflow.com/users/5232584/batuhan-k%c3%b6k"
+      }
+    },
+    {
+      "question_id": 50772230,
+      "title": "How to do bulk (multi row) inserts with JpaRepository?",
+      "accepted_answer_id": 50882952,
+      "score": 123,
+      "link": "https://stackoverflow.com/questions/50772230/how-to-do-bulk-multi-row-inserts-with-jparepository",
+      "owner": {
+        "display_name": "Tobias Hermann",
+        "link": "https://stackoverflow.com/users/1866775/tobias-hermann"
+      }
+    },
+    {
+      "question_id": 24113939,
+      "title": "How to debug Spring Boot application with Eclipse?",
+      "accepted_answer_id": 24114612,
+      "score": 122,
+      "link": "https://stackoverflow.com/questions/24113939/how-to-debug-spring-boot-application-with-eclipse",
+      "owner": {
+        "display_name": "JeffLL",
+        "link": "https://stackoverflow.com/users/2987388/jeffll"
+      }
+    },
+    {
+      "question_id": 28647136,
+      "title": "How to disable &#39;X-Frame-Options&#39; response header in Spring Security?",
+      "accepted_answer_id": 28649205,
+      "score": 122,
+      "link": "https://stackoverflow.com/questions/28647136/how-to-disable-x-frame-options-response-header-in-spring-security",
+      "owner": {
+        "display_name": "Bravo",
+        "link": "https://stackoverflow.com/users/3371414/bravo"
+      }
+    },
+    {
+      "question_id": 29479814,
+      "title": "Spring MVC or Spring Boot",
+      "accepted_answer_id": 35996408,
+      "score": 122,
+      "link": "https://stackoverflow.com/questions/29479814/spring-mvc-or-spring-boot",
+      "owner": {
+        "display_name": "Diego",
+        "link": "https://stackoverflow.com/users/1289081/diego"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 38723930,
+      "body": "<p>These files are from <a href=\"https://github.com/apache/maven-wrapper\" rel=\"nofollow noreferrer\">Maven wrapper</a> (now officially by apache/maven; old repo <a href=\"https://github.com/takari/maven-wrapper\" rel=\"nofollow noreferrer\">here</a>). It works similarly to the <a href=\"https://docs.gradle.org/current/userguide/gradle_wrapper.html\" rel=\"nofollow noreferrer\">Gradle wrapper</a>.</p>\n<p>This allows you to run the Maven project without having Maven installed and present on the path. It downloads the correct Maven version if it's not found (as far as I know by default in your user home directory).</p>\n<p>Official Maven Docs for the wrapper: <a href=\"https://maven.apache.org/tools/wrapper/\" rel=\"nofollow noreferrer\">https://maven.apache.org/tools/wrapper/</a></p>\n<p>The <code>mvnw</code> file is for Linux (bash) and the <code>mvnw.cmd</code> is for the Windows environment.</p>\n<hr />\n<p>To create or update all necessary Maven Wrapper files execute the following command:</p>\n<pre class=\"lang-bash prettyprint-override\"><code>mvn -N wrapper:wrapper\n</code></pre>\n<p>To use a different version of maven you can specify the version as follows:</p>\n<pre class=\"lang-bash prettyprint-override\"><code>mvn -N wrapper:wrapper -Dmaven=3.3.3\n</code></pre>\n<p>Both commands require maven on <code>PATH</code> (add the path to maven <code>bin</code> to <code>Path</code> on System Variables) if you already have mvnw in your project you can use <code>./mvnw</code> instead of <code>mvn</code> in the commands.</p>\n",
+      "owner": {
+        "display_name": "Dodge",
+        "link": "https://stackoverflow.com/users/1659588/dodge"
+      }
+    },
+    {
+      "answer_id": 23515586,
+      "body": "<p>Just to quote <a href=\"https://docs.spring.io/spring-boot/docs/current/reference/html/data.html#data.nosql.mongodb.connecting\" rel=\"nofollow noreferrer\">Boot Docs</a>:</p>\n<blockquote>\n<p>You can set <code>spring.mongodb.uri</code> property to change the url, or alternatively specify a <code>host/port</code>. For example, you might declare the following in your <code>application.properties</code>:</p>\n</blockquote>\n<pre><code>spring.mongodb.host=mongoserver\nspring.mongodb.port=27017\n</code></pre>\n<p>All available options for <code>spring.data.mongodb</code> prefix are fields of <code>MongoProperties</code>:</p>\n<pre><code>private String host;\n\nprivate int port = DBPort.PORT;\n\nprivate String uri = &quot;mongodb://localhost/test&quot;;\n\nprivate String database;\n\nprivate String gridFsDatabase;\n\nprivate String username;\n\nprivate char[] password;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Artem Bilan",
+        "link": "https://stackoverflow.com/users/2756547/artem-bilan"
+      }
+    },
+    {
+      "answer_id": 55590796,
+      "body": "<p>From the <a href=\"https://docs.spring.io/spring-boot/reference/using/structuring-your-code.html#using.structuring-your-code.locating-the-main-class\" rel=\"nofollow noreferrer\">docs</a>:</p>\n<blockquote>\n<p>The following listing shows a typical layout:</p>\n<pre><code>com\n+- example\n    +- myapplication\n        +- MyApplication.java\n        |\n        +- customer\n        |   +- Customer.java\n        |   +- CustomerController.java\n        |   +- CustomerService.java\n        |   +- CustomerRepository.java\n        |\n        +- order\n            +- Order.java\n            +- OrderController.java\n            +- OrderService.java\n            +- OrderRepository.java\n</code></pre>\n<p>The <code>MyApplication.java</code> file would declare the <code>main</code> method, along with the basic <code>@SpringBootApplication</code>, as follows:</p>\n<pre class=\"lang-java prettyprint-override\"><code>import org.springframework.boot.SpringApplication;\nimport org.springframework.boot.autoconfigure.SpringBootApplication;\n\n@SpringBootApplication\npublic class MyApplication {\n\n   public static void main(String[] args) {\n       SpringApplication.run(MyApplication.class, args);\n   }\n\n}\n</code></pre>\n</blockquote>\n",
+      "owner": {
+        "display_name": "NdamuleloNemakh",
+        "link": "https://stackoverflow.com/users/5232639/ndamulelonemakh"
+      }
+    },
+    {
+      "answer_id": 26840503,
+      "body": "<p>Spring-boot has a helper for this, just add</p>\n<pre><code>@ContextConfiguration(initializers = ConfigFileApplicationContextInitializer.class)\n</code></pre>\n<p>at the top of your test classes or an abstract test superclass.</p>\n<p>Edit: I wrote this answer five years ago. It doesn't work with recent versions of Spring Boot. This is what I do now (please translate the Kotlin to Java if necessary):</p>\n<pre><code>@TestPropertySource(locations=[&quot;classpath:application.yml&quot;])\n@ContextConfiguration(\n        initializers=[ConfigFileApplicationContextInitializer::class]\n)\n</code></pre>\n<p>is added to the top, then</p>\n<pre><code>@Configuration\nopen class TestConfig {\n    @Bean\n    open fun propertiesResolver(): PropertySourcesPlaceholderConfigurer {\n        return PropertySourcesPlaceholderConfigurer()\n    }\n}\n</code></pre>\n<p>to the context.</p>\n",
+      "owner": {
+        "display_name": "Ola Sundell",
+        "link": "https://stackoverflow.com/users/1042503/ola-sundell"
+      }
+    },
+    {
+      "answer_id": 35254610,
+      "body": "<p>Okay what I did now, in all modules I configured it as follows:</p>\n<p><strong><code>src/main/resources</code>:</strong><br />\nI use logging configuration in <code>application.properties</code> like <code>logging.level.*</code> as described in the question.</p>\n<p><strong><code>src/test/resources</code>:</strong><br />\nI use <code>logback-test.xml</code> like:</p>\n<pre class=\"lang-xml prettyprint-override\"><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;\n&lt;configuration&gt;\n    &lt;include resource=&quot;org/springframework/boot/logging/logback/base.xml&quot; /&gt;\n    &lt;logger name=&quot;*.myapp&quot; level=&quot;error&quot; /&gt;\n    &lt;logger name=&quot;org.springframework.core &quot; level=&quot;error&quot; /&gt;\n    &lt;logger name=&quot;org.springframework.beans&quot; level=&quot;error&quot; /&gt;\n    &lt;logger name=&quot;org.springframework.context&quot; level=&quot;error&quot; /&gt;\n    &lt;logger name=&quot;org.springframework.transaction&quot; level=&quot;error&quot; /&gt;\n    &lt;logger name=&quot;org.springframework.web&quot; level=&quot;error&quot; /&gt;\n    &lt;logger name=&quot;org.springframework.test&quot; level=&quot;error&quot; /&gt;\n    &lt;logger name=&quot;org.hibernate&quot; level=&quot;error&quot; /&gt;\n&lt;/configuration&gt;\n</code></pre>\n<p>But I still don't understand, why in few modules I could use <code>application.properties</code>, but in another module it is ignored... But for now it works for me as it is.</p>\n<p>But maybe few hints with background knowledge are still welcome.</p>\n<p>I dont mark my answer as solution, because it still feels like a workaround.</p>\n",
+      "owner": {
+        "display_name": "Michael Hegner",
+        "link": "https://stackoverflow.com/users/3837078/michael-hegner"
+      }
+    },
+    {
+      "answer_id": 26700938,
+      "body": "<p>My <em>guess</em> is, that the <code>@Value</code> can not cope with &quot;complex&quot; types.  You can go with a prop class like this:</p>\n<pre class=\"lang-none prettyprint-override\"><code>@Component\n@ConfigurationProperties('ignore')\nclass IgnoreSettings {\n    List&lt;String&gt; filenames\n}\n</code></pre>\n<p><strong>Please note:</strong> This code is <em>Groovy</em> - <strong>not Java</strong> - to keep the example short!  See the comments for tips how to adopt.</p>\n<p>See the complete example <a href=\"https://github.com/christoph-frick/so-springboot-yaml-string-list\" rel=\"nofollow noreferrer\">https://github.com/christoph-frick/so-springboot-yaml-string-list</a></p>\n",
+      "owner": {
+        "display_name": "cfrick",
+        "link": "https://stackoverflow.com/users/3181392/cfrick"
+      }
+    },
+    {
+      "answer_id": 30312990,
+      "body": "<p>Thanks to @Dirk Lachowski for pointing me in the right direction.  The solution isn't as elegant as I would have liked, but I got it working.  Reading the spring docs, I can listen on the EmbeddedServletContainerInitializedEvent and get the port once the server is up and running.  Here's what it looks like -</p>\n<pre><code>import org.springframework.boot.context.embedded.EmbeddedServletContainerInitializedEvent;\nimport org.springframework.context.ApplicationListener;\nimport org.springframework.stereotype.Component;\n\n@Component\npublic class MyListener implements ApplicationListener&lt;EmbeddedServletContainerInitializedEvent&gt; {\n\n  @Override\n  public void onApplicationEvent(final EmbeddedServletContainerInitializedEvent event) {\n    int thePort = event.getEmbeddedServletContainer().getPort();\n  }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Tucker",
+        "link": "https://stackoverflow.com/users/639868/tucker"
+      }
+    },
+    {
+      "answer_id": 77171271,
+      "body": "<p>The culprit is Lombok. The minimal Lombok version compatible with JDK 21 is <code>1.18.30</code>.</p>\n<p>This implies that the minimal Spring Boot version is <code>3.1.4</code>, unless you want to meddle with the Spring Boot dependency management and set the Lombok version in your project differently from the Spring Boot <a href=\"https://www.baeldung.com/spring-maven-bom\" rel=\"noreferrer\">BOM</a> defined in <code>spring-boot-dependencies</code>.</p>\n<p>See: <em><a href=\"https://github.com/projectlombok/lombok/issues/3393\" rel=\"noreferrer\">[BUG] Lombok 1.8.26 incompatible with JDK 21 #3393</a></em></p>\n<p>Although certainly it is <em>possible</em> to set the your own Lombok version, differently than in the Spring Boot BOM, the <a href=\"https://docs.spring.io/spring-boot/how-to/build.html#howto.build.customize-dependency-versions\" rel=\"noreferrer\">Spring Boot documentation</a> on Customize Dependency Versions itself warns against it:</p>\n<blockquote>\n<p><strong>WARNING</strong>: Each Spring Boot release is designed and tested against this specific set of third-party dependencies. Overriding versions may cause compatibility issues.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Honza Zidek",
+        "link": "https://stackoverflow.com/users/2886891/honza-zidek"
+      }
+    },
+    {
+      "answer_id": 73555043,
+      "body": "<p>I have tested @IlyaSerbis answer and it is working for me. I am using Spring Boot 2.3.</p>\n<p>I have tested these scenarios and it worked.</p>\n<p><strong>Scenario1 -</strong> First I have created an <code>application.yml</code> file for jUnit purpose and put it under the <code>src/test/resources/config</code> directory (the same directory as the main <code>application.yml</code> file) where it completely replaces the original yaml file (not overwrite). That means it will not use any of the properties mentioned in <code>application.yml</code> of the <code>src/main/resources/config</code> directory (main directory).</p>\n<p><strong>Note:</strong> In <code>Scenario1</code>, the path of <code>application.yml</code> in <code>main</code> and <code>test</code> need to be exactly same. If <code>src/main/resources/config/application.yml</code> then <code>src/test/resources/config/application.yml</code>. If <code>src/main/resources/application.yml</code> then <code>src/test/resources/application.yml</code></p>\n<p><strong>Scenario2 -</strong> Then I created the <code>application-test.yml</code> file instead of the <code>application.yml</code> file under the <code>src/test/resources/config</code> directory and using the <code>@ActiveProfiles(&quot;test&quot;)</code> annotation, I could see jUnit taking property values from the <code>application-test.yml</code> file (overwriting <code>application.yml</code> for common properties) and then taking values from <code>application.yml</code> as well that are not defined in <code>application-test.yml</code>.</p>\n",
+      "owner": {
+        "display_name": "Surya",
+        "link": "https://stackoverflow.com/users/8169680/surya"
+      }
+    },
+    {
+      "answer_id": 30528430,
+      "body": "<p>You can use the <code>@Value</code> annotation and access the property in whichever Spring bean you're using</p>\n<pre><code>@Value(&quot;${userBucket.path}&quot;)\nprivate String userBucketPath;\n</code></pre>\n<p>The <a href=\"https://docs.spring.io/spring-boot/reference/features/external-config.html\" rel=\"noreferrer\">Externalized Configuration</a> section of the Spring Boot docs, explains all the details that you might need.</p>\n",
+      "owner": {
+        "display_name": "Master Slave",
+        "link": "https://stackoverflow.com/users/1000933/master-slave"
+      }
+    },
+    {
+      "answer_id": 27383522,
+      "body": "<p>It would have worked out of the box if you hadn't used <code>@EnableWebMvc</code> annotation. When you do that you switch off all the things that Spring Boot does for you in <code>WebMvcAutoConfiguration</code>. You could remove that annotation, or you could add back the view controller that you switched off (in your <code>WebMvcConfigurer</code>):</p>\n<pre><code>@Override\npublic void addViewControllers(ViewControllerRegistry registry) {\n    registry.addViewController(&quot;/&quot;).setViewName(&quot;forward:/index.html&quot;);\n}\n</code></pre>\n<p>With more recent Spring Boot versions (3.2.3 or above) you can still do the above, but there is an alternative which is recommended by the Spring MVC developers, which is to use a <code>@Bean</code> of type <code>RouterFunction</code>. For example:</p>\n<pre><code>static import org.springframework.web.servlet.function.RequestPredicates.path;\n...\n@Bean\nRouterFunction&lt;ServerResponse&gt; spaRouter() {\n    ClassPathResource index = new ClassPathResource(&quot;static/index.html&quot;);\n    return route().resource(path(&quot;/&quot;), index).build();\n}\n</code></pre>\n<p>That's a really simple example, fixing a problem that didn't exist (OP erased autoconfiguration that already covered it). A more realistic example would be something like this:</p>\n<pre><code>import static org.springframework.web.reactive.function.server.RequestPredicates.path;\nimport static org.springframework.web.reactive.function.server.RequestPredicates.pathExtension;\nimport static org.springframework.web.reactive.function.server.RouterFunctions.route;\n// ...\n@Bean\nRouterFunction&lt;ServerResponse&gt; spaRouter() {\n    ClassPathResource index = new ClassPathResource(&quot;static/index.html&quot;);\n    List&lt;String&gt; extensions = Arrays.asList(&quot;js&quot;, &quot;css&quot;, &quot;ico&quot;, &quot;png&quot;, &quot;jpg&quot;, &quot;gif&quot;);\n    RequestPredicate spaPredicate = path(&quot;/api/**&quot;).or(path(&quot;/error&quot;)).or(pathExtension(extensions::contains)).negate();\n    return route().resource(spaPredicate, index).build();;\n}\n</code></pre>\n<p>It filters out requests for api or error output, and also for common static filenames, and directs all other requests that are not handled elsewhere to the home page. That's a common scenario that isn't handled by autoconfiguration.</p>\n",
+      "owner": {
+        "display_name": "Dave Syer",
+        "link": "https://stackoverflow.com/users/1259109/dave-syer"
+      }
+    },
+    {
+      "answer_id": 22409655,
+      "body": "<p>Resolution: the app is not a webapp because it doesn't have an embedded container (e.g. Tomcat) on the classpath. Adding one fixed it. If you are using <strong>Maven</strong>, then add this in <code>pom.xml</code>:</p>\n<pre><code>&lt;dependency&gt;\n    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;\n    &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;\n&lt;/dependency&gt;\n</code></pre>\n<p>For <strong>Gradle</strong> (<code>build.gradle</code>) it looks like</p>\n<pre><code>dependencies {\n    implementation 'org.springframework.boot:spring-boot-starter-web'\n}\n</code></pre>\n<p>OLD: For older versions of <strong>Gradle</strong> (<code>build.gradle</code>) it would be</p>\n<pre><code>dependencies {\n    compile 'org.springframework.boot:spring-boot-starter-web'\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dave Syer",
+        "link": "https://stackoverflow.com/users/1259109/dave-syer"
+      }
+    },
+    {
+      "answer_id": 52387470,
+      "body": "<p>check your application.properties</p>\n<p>changing</p>\n<pre><code>spring.datasource.driverClassName=com.mysql.jdbc.Driver\n</code></pre>\n<p>to</p>\n<pre><code>spring.datasource.driver-class-name=com.mysql.jdbc.Driver\n</code></pre>\n<p>worked for me. Full config:</p>\n<pre><code>spring.datasource.url=jdbc:mysql://localhost:3306/db\nspring.datasource.username=\nspring.datasource.password=   \nspring.datasource.driver-class-name=com.mysql.jdbc.Driver\nspring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect\nspring.jpa.generate-ddl=true\nspring.jpa.hibernate.ddl-auto=update\n</code></pre>\n",
+      "owner": {
+        "display_name": "jarosik",
+        "link": "https://stackoverflow.com/users/2165744/jarosik"
+      }
+    },
+    {
+      "answer_id": 40388609,
+      "body": "<p>It might be because the project has been broken down into different modules:</p>\n<pre><code>@SpringBootApplication\n@ComponentScan({&quot;com.delivery.request&quot;})\n@EntityScan(&quot;com.delivery.domain&quot;)\n@EnableJpaRepositories(&quot;com.delivery.repository&quot;)\npublic class WebServiceApplication extends SpringBootServletInitializer {\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mike3355",
+        "link": "https://stackoverflow.com/users/4753897/mike3355"
+      }
+    },
+    {
+      "answer_id": 47487712,
+      "body": "<p>When Spring Boot starts, it scans the classpath from top to bottom of the project to find the config file. Your config is under another files and that is a reason of the problem. Move you config higher up to the <em>monolith</em> package and everything will be fine.</p>\n",
+      "owner": {
+        "display_name": "Yuriy Tsarkov",
+        "link": "https://stackoverflow.com/users/7214142/yuriy-tsarkov"
+      }
+    },
+    {
+      "answer_id": 40276418,
+      "body": "<p><strong>TL;DR</strong> - you can capture it as a string with just <code>@RequestParam</code>, or you can have Spring additionally parse the string into a java date / time class via <code>@DateTimeFormat</code> on the parameter as well.</p>\n<p>The <code>@RequestParam</code> is enough to grab the date you supply after the = sign. However, it comes into the method as a <code>String</code>. That is why it is throwing the cast exception.</p>\n<p>There are a few ways to achieve this:</p>\n<ol>\n<li>Parse the date yourself, grabbing the value as a string.</li>\n</ol>\n<pre class=\"lang-java prettyprint-override\"><code>@GetMapping(&quot;/test&quot;)\npublic Page&lt;User&gt; get(@RequestParam(value=&quot;start&quot;, required = false) String start){\n\n    //Create a DateTimeFormatter with your required format:\n    DateTimeFormatter dateTimeFormat = \n            new DateTimeFormatter(DateTimeFormatter.BASIC_ISO_DATE);\n\n    //Next parse the date from the @RequestParam, specifying the TO type as a TemporalQuery:\n   LocalDateTime date = dateTimeFormat.parse(start, LocalDateTime::from);\n    \n    //Do the rest of your code...\n}\n</code></pre>\n<ol start=\"2\">\n<li>Leverage Spring's ability to automatically parse and expect date formats:</li>\n</ol>\n<pre class=\"lang-java prettyprint-override\"><code>@GetMapping(&quot;/test&quot;)\npublic void processDateTime(@RequestParam(&quot;start&quot;) \n                            @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) \n                            LocalDateTime date) {\n        // The rest of your code (Spring already parsed the date).\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Bwvolleyball",
+        "link": "https://stackoverflow.com/users/3859199/bwvolleyball"
+      }
+    },
+    {
+      "answer_id": 37246354,
+      "body": "<p>Actually, I think you want this:</p>\n<pre><code>@DirtiesContext(classMode = ClassMode.BEFORE_EACH_TEST_METHOD)\n</code></pre>\n<p>javadoc: <a href=\"http://docs.spring.io/autorepo/docs/spring-framework/4.2.6.RELEASE/javadoc-api/org/springframework/test/annotation/DirtiesContext.html\" rel=\"noreferrer\">Annotation Type DirtiesContext</a></p>\n<blockquote>\n<p><strong>@DirtiesContext</strong> may be used as a class-level and method-level\nannotation within the same class. In such scenarios, the\nApplicationContext will be marked as dirty after any such annotated\nmethod as well as after the entire class. If the\nDirtiesContext.ClassMode is set to AFTER_EACH_TEST_METHOD, the context\nwill be marked dirty after each test method in the class.</p>\n</blockquote>\n<p>You put it on your Test class.</p>\n",
+      "owner": {
+        "display_name": "Raphael Amoedo",
+        "link": "https://stackoverflow.com/users/4857050/raphael-amoedo"
+      }
+    },
+    {
+      "answer_id": 37424296,
+      "body": "<p>You can use <strong>Jasypt</strong> to encrypt properties, so you could have your property like this:</p>\n<pre><code>db.password=ENC(XcBjfjDDjxeyFBoaEPhG14wEzc6Ja+Xx+hNPrJyQT88=)\n</code></pre>\n<p>Jasypt allows you to encrypt your properties using different algorithms, once you get the encrypted property you put inside the <code>ENC(...)</code>. For instance, you can encrypt this way through Jasypt using the terminal:</p>\n<pre><code>encrypted-pwd$ java -cp ~/.m2/repository/org/jasypt/jasypt/1.9.2/jasypt-1.9.2.jar  org.jasypt.intf.cli.JasyptPBEStringEncryptionCLI input=&quot;contactspassword&quot; password=supersecretz algorithm=PBEWithMD5AndDES\n\n----ENVIRONMENT-----------------\n\nRuntime: Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 24.45-b08\n\n\n\n----ARGUMENTS-------------------\n\nalgorithm: PBEWithMD5AndDES\ninput: contactspassword\npassword: supersecretz\n\n\n\n----OUTPUT----------------------\n\nXcBjfjDDjxeyFBoaEPhG14wEzc6Ja+Xx+hNPrJyQT88=\n</code></pre>\n<p>To easily configure it with Spring Boot you can use its starter <a href=\"https://github.com/ulisesbocchio/jasypt-spring-boot\" rel=\"noreferrer\">jasypt-spring-boot-starter</a> with group ID <code>com.github.ulisesbocchio</code></p>\n<p>Keep in mind, that you will need to start your application using the same <em>password</em> you used to encrypt the properties. So, you can start your app this way:</p>\n<pre><code>mvn -Djasypt.encryptor.password=supersecretz spring-boot:run\n</code></pre>\n<p>Or using the environment variable (thanks to spring boot relaxed binding):</p>\n<pre><code>export JASYPT_ENCRYPTOR_PASSWORD=supersecretz\nmvn spring-boot:run\n</code></pre>\n<p>You can check below link for more details:</p>\n<p><a href=\"https://www.north-47.com/knowledge-base/spring-boot-password-encryption-with-jasypt/\" rel=\"noreferrer\">https://www.north-47.com/knowledge-base/spring-boot-password-encryption-with-jasypt/</a></p>\n<p>To use your encrypted properties in your app just use it as usual, use either method you like (Spring Boot wires the magic, anyway the property must be of course in the classpath):</p>\n<p>Using <code>@Value</code> annotation</p>\n<pre><code>@Value(&quot;${db.password}&quot;)\nprivate String password;\n</code></pre>\n<p>Or using <code>Environment</code></p>\n<pre><code>@Autowired\nprivate Environment environment;\n\npublic void doSomething(Environment env) {\n    System.out.println(env.getProperty(&quot;db.password&quot;));\n}\n</code></pre>\n<p>Update: for production environment, to avoid exposing the password in the command line, since you can query the processes with <code>ps</code>, previous commands with <code>history</code>, etc etc. You could:</p>\n<ul>\n<li><p>Create a script like this: <code>touch setEnv.sh</code></p>\n</li>\n<li><p>Edit <code>setEnv.sh</code> to export the <code>JASYPT_ENCRYPTOR_PASSWORD</code> variable</p>\n<blockquote>\n<p>#!/bin/bash</p>\n<p>export JASYPT_ENCRYPTOR_PASSWORD=supersecretz</p>\n</blockquote>\n</li>\n<li><p>Execute the file with <code>. setEnv.sh</code></p>\n</li>\n<li><p>Run the app in background with <code>mvn spring-boot:run &amp;</code></p>\n</li>\n<li><p>Delete the file <code>setEnv.sh</code></p>\n</li>\n<li><p>Unset the previous environment variable with: <code>unset JASYPT_ENCRYPTOR_PASSWORD</code></p>\n</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Federico Piazza",
+        "link": "https://stackoverflow.com/users/710099/federico-piazza"
+      }
+    },
+    {
+      "answer_id": 25401832,
+      "body": "<p>Assuming that you're using embedded Tomcat, Spring Boot provides a property to control the size of the client request thread pool. Its default value is zero which leaves Tomcat to use its default of 200. If you're using Spring Boot 2.3 or later, this property is named <a href=\"https://docs.spring.io/spring-boot/docs/2.7.x/reference/html/application-properties.html#application-properties.server.server.tomcat.threads.max\" rel=\"noreferrer\"><code>server.tomcat.threads.max</code></a>. In earlier versions of Spring Boot, the property is named <a href=\"https://docs.spring.io/spring-boot/docs/2.2.x/reference/html/appendix-application-properties.html#common-application-properties-server\" rel=\"noreferrer\"><code>server.tomcat.max-threads</code></a>.</p>\n<p>To customise the size of this thread pool you should specify a non-zero value for the property in your <code>application.properties</code> or <code>application.yml</code> file.</p>\n",
+      "owner": {
+        "display_name": "Andy Wilkinson",
+        "link": "https://stackoverflow.com/users/1384297/andy-wilkinson"
+      }
+    },
+    {
+      "answer_id": 36403349,
+      "body": "<p>The way I would do similar thing is:</p>\n<pre><code>@Configuration\n@EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class, DataSourceTransactionManagerAutoConfiguration.class, HibernateJpaAutoConfiguration.class})\n@Profile (&quot;client_app_profile_name&quot;)\npublic class ClientAppConfiguration {\n    //it can be left blank\n}\n</code></pre>\n<p>Write similar one for the server app (without excludes).</p>\n<p>Last step is to disable Auto Configuration from main spring boot class:</p>\n<pre><code>@SpringBootApplication\npublic class SomeApplication extends SpringBootServletInitializer {\n\n    public static void main(String[] args) {\n        SpringApplication.run(SomeApplication.class);\n    }\n\n    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {\n        return application.sources(SomeApplication.class);\n    }\n}\n</code></pre>\n<p>Change: <code>@SpringBootApplication</code> into:</p>\n<pre><code>@Configuration \n@ComponentScan\n</code></pre>\n<p>This should do the job. Now, the dependencies that I excluded in the example might be incomplete. They were enough for me, but im not sure if its all to completely disable database related libraries. Check the list below to be sure:</p>\n<p><a href=\"http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#auto-configuration-classes\" rel=\"noreferrer\">http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#auto-configuration-classes</a></p>\n",
+      "owner": {
+        "display_name": "patrykos91",
+        "link": "https://stackoverflow.com/users/2630520/patrykos91"
+      }
+    },
+    {
+      "answer_id": 30193013,
+      "body": "<p><strong>New answer (2016-04-20)</strong></p>\n<p>Using Spring Boot 1.3.1.RELEASE</p>\n<p><strong>New Step 1 -</strong> It is easy and less intrusive to add the following properties to the application.properties:</p>\n<pre><code>spring.mvc.throw-exception-if-no-handler-found=true\nspring.resources.add-mappings=false\n</code></pre>\n<blockquote>\n<p>Much easier than modifying the existing DispatcherServlet instance (as below)! - JO'</p>\n</blockquote>\n<p>If working with a full RESTful Application, it is very important to disable the automatic mapping of static resources since if you are using Spring Boot's default configuration for handling static resources then the resource handler will be handling the request (it's ordered last and mapped to /** which means that it picks up any requests that haven't been handled by any other handler in the application) so the dispatcher servlet doesn't get a chance to throw an exception.</p>\n<hr />\n<p><strong>New Answer (2015-12-04)</strong></p>\n<p>Using Spring Boot 1.2.7.RELEASE</p>\n<p><strong>New Step 1 -</strong> I found a much less intrusive way of setting the &quot;throExceptionIfNoHandlerFound&quot; flag.  Replace the DispatcherServlet replacement code below (Step 1) with this in your application initialization class:</p>\n<pre><code>@ComponentScan()\n@EnableAutoConfiguration\npublic class MyApplication extends SpringBootServletInitializer {\n    private static Logger LOG = LoggerFactory.getLogger(MyApplication.class);\n    public static void main(String[] args) {\n        ApplicationContext ctx = SpringApplication.run(MyApplication.class, args);\n        DispatcherServlet dispatcherServlet = (DispatcherServlet)ctx.getBean(&quot;dispatcherServlet&quot;);\n        dispatcherServlet.setThrowExceptionIfNoHandlerFound(true);\n    }\n</code></pre>\n<p>In this case, we're setting the flag on the existing DispatcherServlet, which preserves any auto-configuration by the Spring Boot framework.</p>\n<p>One more thing I've found - the @EnableWebMvc annotation is deadly to Spring Boot.  Yes, that annotation enables things like being able to catch all the controller exceptions as described below, but it also kills a LOT of the helpful auto-configuration that Spring Boot would normally provide.  Use that annotation with extreme caution when you use Spring Boot.</p>\n<hr />\n<p><strong>Original Answer:</strong></p>\n<p>After a lot more research and following up on the solutions posted here (thanks for the help!) and no small amount of runtime tracing into the Spring code, I finally found a configuration that will handle all Exceptions (not Errors, but read on) including 404s.</p>\n<p><strong>Step 1 -</strong> tell SpringBoot to stop using MVC for &quot;handler not found&quot; situations.  We want Spring to throw an exception instead of returning to the client a view redirect to &quot;/error&quot;.  To do this, you need to have an entry in one of your configuration classes:</p>\n<pre><code>// NEW CODE ABOVE REPLACES THIS! (2015-12-04)\n@Configuration\npublic class MyAppConfig {\n    @Bean  // Magic entry \n    public DispatcherServlet dispatcherServlet() {\n        DispatcherServlet ds = new DispatcherServlet();\n        ds.setThrowExceptionIfNoHandlerFound(true);\n        return ds;\n    }\n}\n</code></pre>\n<p>The downside of this is that it replaces the default dispatcher servlet. This hasn't been a problem for us yet, with no side effects or execution problems showing up.  If you're going to do anything else with the dispatcher servlet for other reasons, this is the place to do them.</p>\n<p><strong>Step 2 -</strong> Now that spring boot will throw an exception when no handler is found, that exception can be handled with any others in a unified exception handler:</p>\n<pre><code>@EnableWebMvc\n@ControllerAdvice\npublic class ServiceExceptionHandler extends ResponseEntityExceptionHandler {\n\n    @ExceptionHandler(Throwable.class)\n    @ResponseBody\n    ResponseEntity&lt;Object&gt; handleControllerException(HttpServletRequest req, Throwable ex) {\n        ErrorResponse errorResponse = new ErrorResponse(ex);\n        if(ex instanceof ServiceException) {\n            errorResponse.setDetails(((ServiceException)ex).getDetails());\n        }\n        if(ex instanceof ServiceHttpException) {\n            return new ResponseEntity&lt;Object&gt;(errorResponse,((ServiceHttpException)ex).getStatus());\n        } else {\n            return new ResponseEntity&lt;Object&gt;(errorResponse,HttpStatus.INTERNAL_SERVER_ERROR);\n        }\n    }\n\n    @Override\n    protected ResponseEntity&lt;Object&gt; handleNoHandlerFoundException(NoHandlerFoundException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {\n        Map&lt;String,String&gt; responseBody = new HashMap&lt;&gt;();\n        responseBody.put(&quot;path&quot;,request.getContextPath());\n        responseBody.put(&quot;message&quot;,&quot;The URL you have reached is not in service at this time (404).&quot;);\n        return new ResponseEntity&lt;Object&gt;(responseBody,HttpStatus.NOT_FOUND);\n    }\n    ...\n}\n</code></pre>\n<p>Keep in mind that I think the &quot;@EnableWebMvc&quot; annotation is significant here.  It seems that none of this works without it.  And that's it - your Spring boot app will now catch all exceptions, including 404s, in the above handler class and you may do with them as you please.</p>\n<p>One last point - there doesn't seem to be a way to get this to catch thrown Errors.  I have a wacky idea of using aspects to catch errors and turn them into Exceptions that the above code can then deal with, but I have not yet had time to actually try implementing that.</p>\n<p>Any comments/corrections/enhancements will be appreciated.</p>\n",
+      "owner": {
+        "display_name": "astrien",
+        "link": "https://stackoverflow.com/users/462771/astrien"
+      }
+    },
+    {
+      "answer_id": 36151777,
+      "body": "<p>It's exactly what the error says. You didn't create any <code>RestTemplate</code> bean, so it can't autowire any. If you need a <code>RestTemplate</code> you'll have to provide one. For example, add the following to <strong>TestMicroServiceApplication.java</strong>:</p>\n<pre class=\"lang-java prettyprint-override\"><code>@Bean\npublic RestTemplate restTemplate() {\n    return new RestTemplate();\n}\n</code></pre>\n<p>Since Spring boot 1.4, there's also a convenient builder that you can autowire and use to create a <code>RestTemplate</code> bean. The benefit is that you can use the builder pattern to register interceptors, customizers, ... .</p>\n<pre class=\"lang-java prettyprint-override\"><code>@Bean\npublic RestTemplate restTemplate(RestTemplateBuilder builder) {\n    return builder.build();\n}\n</code></pre>\n<p>Note, in earlier versions of the Spring cloud starter for Eureka, a <code>RestTemplate</code> bean was created for you, but this is no longer true.</p>\n",
+      "owner": {
+        "display_name": "Dimitri Mestdagh",
+        "link": "https://stackoverflow.com/users/1915448/dimitri-mestdagh"
+      }
+    },
+    {
+      "answer_id": 21083284,
+      "body": "<p>As <a href=\"http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto-change-the-http-port\" rel=\"noreferrer\">said in docs</a> either set <code>server.port</code> as system property using command line option to jvm <code>-Dserver.port=8090</code> or add <code>application.properties</code> in <code>/src/main/resources/</code> with</p>\n<pre><code>server.port=8090\n</code></pre>\n<p>For a random port use:</p>\n<pre><code>server.port=0\n</code></pre>\n<p>Similarly add <code>application.yml</code> in <code>/src/main/resources/</code> with:</p>\n<pre><code>server:\n  port: 8090\n</code></pre>\n",
+      "owner": {
+        "display_name": "Paul Verest on LinkedIn",
+        "link": "https://stackoverflow.com/users/482717/paul-verest-on-linkedin"
+      }
+    },
+    {
+      "answer_id": 31249985,
+      "body": "<p>Try using this in your properties file:</p>\n<pre><code>logging.level.org.hibernate.SQL=DEBUG\nlogging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE\n</code></pre>\n",
+      "owner": {
+        "display_name": "Paul Woods",
+        "link": "https://stackoverflow.com/users/1189806/paul-woods"
+      }
+    },
+    {
+      "answer_id": 50882952,
+      "body": "<p>To get a bulk insert with Spring Boot and Spring Data JPA you need only two things:</p>\n<ol>\n<li><p>set the option <code>spring.jpa.properties.hibernate.jdbc.batch_size</code> to appropriate value you need (for example: 20).</p>\n</li>\n<li><p>use <code>saveAll()</code> method of your repo with the list of entities prepared for inserting.</p>\n</li>\n</ol>\n<p>Working example is <a href=\"https://github.com/Cepr0/sb-jpa-batch-insert-demo\" rel=\"noreferrer\">here</a>.</p>\n<p>Regarding the transformation of the insert statement into something like this:</p>\n<pre><code>INSERT INTO table VALUES (1, 2), (3, 4), (5, 6)\n</code></pre>\n<p>the such is available in PostgreSQL: you can set the option <code>reWriteBatchedInserts</code> to true in jdbc connection string:</p>\n<pre><code>jdbc:postgresql://localhost:5432/db?reWriteBatchedInserts=true\n</code></pre>\n<p>then jdbc driver will do <a href=\"https://vladmihalcea.com/postgresql-multi-row-insert-rewritebatchedinserts-property/\" rel=\"noreferrer\">this transformation</a>.</p>\n<p>Additional info about batching you can find <a href=\"https://vladmihalcea.com/how-to-batch-insert-and-update-statements-with-hibernate/\" rel=\"noreferrer\">here</a>.</p>\n<p><strong>UPDATED</strong></p>\n<p>Demo project in Kotlin: <a href=\"https://github.com/Cepr0/sb-kotlin-batch-insert-demo\" rel=\"noreferrer\">sb-kotlin-batch-insert-demo</a></p>\n<p><strong>UPDATED</strong></p>\n<blockquote>\n<p><a href=\"https://docs.jboss.org/hibernate/orm/4.3/manual/en-US/html/ch15.html\" rel=\"noreferrer\">Hibernate disables insert batching at the JDBC level transparently if you use an <code>IDENTITY</code> identifier generator.</a></p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Cepr0",
+        "link": "https://stackoverflow.com/users/5380322/cepr0"
+      }
+    },
+    {
+      "answer_id": 31199853,
+      "body": "<p>Looks like the initial problem is with the auto-config.</p>\n<p>If you don't need the datasource, simply remove it from the auto-config process:</p>\n<pre><code>@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})\n</code></pre>\n<p>Edit:\nIf using @SpringBootApplication in your main class:</p>\n<pre><code>@SpringBootApplication(exclude={DataSourceAutoConfiguration.class})\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jason Warner",
+        "link": "https://stackoverflow.com/users/4234794/jason-warner"
+      }
+    },
+    {
+      "answer_id": 23027709,
+      "body": "<p>Try <code>${OPENSHIFT_DIY_PORT}</code> (the usual Spring placeholder notation). See <a href=\"https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#features.external-config.files.property-placeholders\" rel=\"noreferrer\">here</a> for docs.</p>\n",
+      "owner": {
+        "display_name": "Dave Syer",
+        "link": "https://stackoverflow.com/users/1259109/dave-syer"
+      }
+    },
+    {
+      "answer_id": 64023602,
+      "body": "<p>If you do an 'import from git', IntelliJ doesn't import the project structure from maven (or gradle) automatically.</p>\n<p>One way to do this afterwards is to right-click on the pom.xml file in the root directory, and select 'Add as maven project'. Then the folders will be marked correctly, and dependent libraries will be imported. There should be no need to mark individual source folders manually.</p>\n<p>I prefer to do a git clone outside of IntelliJ, and afterwards open the project in IntelliJ from the local filesystem, then IntelliJ imports the maven project structure automatically.</p>\n",
+      "owner": {
+        "display_name": "GeertPt",
+        "link": "https://stackoverflow.com/users/1032890/geertpt"
+      }
+    },
+    {
+      "answer_id": 25873705,
+      "body": "<p><a href=\"https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/core/io/Resource.html#getFile--\" rel=\"noreferrer\"><code>resource.getFile()</code></a> expects the resource itself to be available on the file system, i.e. it can't be nested inside a jar file. This is why it works when you run your application in STS (Spring Tool Suite) but doesn't work once you've built your application and run it from the executable jar. Rather than using <code>getFile()</code> to access the resource's contents, I'd recommend using <a href=\"https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/core/io/InputStreamSource.html#getInputStream--\" rel=\"noreferrer\"><code>getInputStream()</code></a> instead. That'll allow you to read the resource's content regardless of where it's located.</p>\n",
+      "owner": {
+        "display_name": "Andy Wilkinson",
+        "link": "https://stackoverflow.com/users/1384297/andy-wilkinson"
+      }
+    },
+    {
+      "answer_id": 29959842,
+      "body": "<p><strong>update</strong>: Spring Boot 2.x doesn't require this configuration anymore. I've written <a href=\"https://jworks.io/formatting-a-java-8-localdatetime-in-json-with-spring-boot/\" rel=\"noreferrer\">a more up to date answer here</a>.</p>\n<hr />\n<p><em>(This is the way of doing it before Spring Boot 2.x, it might be useful for people working on an older version of Spring Boot)</em></p>\n<p>I finally found <a href=\"http://blog.chris-ritchie.com/2014/09/java-8-localdate-with-jackson-serialize.html\" rel=\"noreferrer\">here</a> how to do it. To fix it, I needed another dependency:</p>\n<pre><code>compile(&quot;com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.4.0&quot;)\n</code></pre>\n<p>By including this dependency, Spring will automatically register a converter for it, as described <a href=\"http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/http/converter/json/Jackson2ObjectMapperFactoryBean.html\" rel=\"noreferrer\">here</a>. After that, you need to add the following to application.properties:</p>\n<pre><code>spring.jackson.serialization.write_dates_as_timestamps=false\n</code></pre>\n<p>This will ensure that a correct converter is used, and dates will be printed in the format of <code>2016-03-16T13:56:39.492</code></p>\n<p>Annotations are only needed in case you want to change the date format.</p>\n",
+      "owner": {
+        "display_name": "Erik Pragt",
+        "link": "https://stackoverflow.com/users/323221/erik-pragt"
+      }
+    },
+    {
+      "answer_id": 38875123,
+      "body": "<p>For Hibernate 5, I solved this issue by adding the following lines in my application.properties file:</p>\n<pre><code>spring.jpa.hibernate.naming.implicit-strategy=org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl\nspring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl\n</code></pre>\n",
+      "owner": {
+        "display_name": "teteArg",
+        "link": "https://stackoverflow.com/users/1526853/tetearg"
+      }
+    },
+    {
+      "answer_id": 67663956,
+      "body": "<p>It was a change in Spring Boot 2.5.0.</p>\n<p>As @ThomasKläger pointed out: You can set it in the <code>build.gradle</code> configuration.</p>\n<p>build.gradle</p>\n<pre><code>jar {\n    enabled = false\n}\n</code></pre>\n<p>For Kotlin devs:</p>\n<pre><code>tasks.getByName&lt;Jar&gt;(&quot;jar&quot;) {\n    enabled = false\n}\n</code></pre>\n<p>Alternatively, you can run the <code>bootJar</code> task. It produces only the default runnable jar.</p>\n",
+      "owner": {
+        "display_name": "Tien Do Nam",
+        "link": "https://stackoverflow.com/users/11127438/tien-do-nam"
+      }
+    },
+    {
+      "answer_id": 26902713,
+      "body": "<p>There are several possible causes:</p>\n<ol>\n<li><p>Your entity classes are in the same  or in a sub-package relative one where you have you class with <code>@EnableAutoConfiguration.</code> If not then your spring app does not see them and hence will not create anything in db</p>\n</li>\n<li><p>Check your config, it seems that you are using some hibernate specific options, try to replace them with:</p>\n<pre><code>spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect\nspring.jpa.hibernate.ddl-auto=update\nspring.datasource.driverClassName=com.mysql.cj.jdbc.Driver\nspring.datasource.url=jdbc:mysql://localhost:3306/test\nspring.datasource.username=test\nspring.datasource.password=\n</code></pre>\n</li>\n</ol>\n<p>**note that the manual loading of the driver class is unnecessary because it's automatically registered, so don't bother yourself with it</p>\n<ol start=\"3\">\n<li>Your <code>application.properties</code> must be in <code>src/main/resources</code> folder.</li>\n</ol>\n<p>If you did not specify dialect correctly it might try to default to bundled together with boot in-memory database and (as it was with me) I could see that it tries to connect to local <code>HSQL</code> (see console output) instance and fail at updating the schema.</p>\n",
+      "owner": {
+        "display_name": "borys86",
+        "link": "https://stackoverflow.com/users/642513/borys86"
+      }
+    },
+    {
+      "answer_id": 55459645,
+      "body": "<p>Just for someone who faced with similar problem. I added <code>spring-boot-maven-plugin</code> in parent POM in section <code>pluginManagement</code> section like this:</p>\n<pre><code> &lt;build&gt;\n    &lt;pluginManagement&gt;\n        &lt;plugins&gt;\n            &lt;plugin&gt;\n                &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;\n                &lt;artifactId&gt;spring-boot-maven-plugin&lt;/artifactId&gt;\n            &lt;/plugin&gt;\n        &lt;/plugins&gt;\n    &lt;/pluginManagement&gt;\n&lt;/build&gt;\n</code></pre>\n<p>Then I added the plugin only in the modules using it (in <code>plugin</code> section).The project has been successfully built after that.</p>\n",
+      "owner": {
+        "display_name": "Vladimir Lebedev",
+        "link": "https://stackoverflow.com/users/4071520/vladimir-lebedev"
+      }
+    },
+    {
+      "answer_id": 20418450,
+      "body": "<p>Why are you trying to roll your own solution. Spring-boot already supports that.</p>\n<p>If you don't already have one, add an <code>application.properties</code> file to <code>src\\main\\resources</code>. In that properties file, add 2 properties:</p>\n<pre><code>server.contextPath=/mainstay\nserver.port=12378\n</code></pre>\n<p><strong>UPDATE (Spring Boot 2.0)</strong></p>\n<p>As of Spring Boot 2.0 (due to the support of both Spring MVC and Spring WebFlux) the <code>contextPath</code> has been changed to the following:</p>\n<pre><code>server.servlet.context-path=/mainstay\n</code></pre>\n<p>You can then remove your configuration for the custom servlet container. If you need to do some post processing on the container you can add a <code>EmbeddedServletContainerCustomizer</code> implementation to your configuration (for instance to add the error pages).</p>\n<p>Basically the properties inside the <code>application.properties</code> serve as a default you can always override them by using another <code>application.properties</code> next to the artifact you deliver or by adding JVM parameters (<code>-Dserver.port=6666</code>).</p>\n<p>See also <a href=\"http://docs.spring.io/spring-boot/docs/current/reference/html\" rel=\"noreferrer\">The Reference Guide</a> especially the <a href=\"https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#common-application-properties\" rel=\"noreferrer\">properties</a> section.</p>\n<p>The class <a href=\"https://github.com/spring-projects/spring-boot/blob/master/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/web/ServerProperties.java\" rel=\"noreferrer\"><code>ServerProperties</code></a> implements the <code>EmbeddedServletContainerCustomizer</code>. The default for <code>contextPath</code> is <code>&quot;&quot;</code>. In your code sample you are setting the <code>contextPath</code> directly on the <code>TomcatEmbeddedServletContainerFactory</code>. Next the <code>ServerProperties</code> instance will process this instance and reset it from your path to <code>&quot;&quot;</code>. (<a href=\"https://github.com/spring-projects/spring-boot/blob/master/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/web/ServerProperties.java#L110\" rel=\"noreferrer\">This line</a> does a <code>null</code> check but as the default is <code>&quot;&quot;</code> it always fail and set the context to <code>&quot;&quot;</code> and thus overriding yours).</p>\n",
+      "owner": {
+        "display_name": "M. Deinum",
+        "link": "https://stackoverflow.com/users/2696260/m-deinum"
+      }
+    },
+    {
+      "answer_id": 28324976,
+      "body": "<p>You can configure property inclusion, and numerous other settings, via <code>application.properties</code>:</p>\n<pre class=\"lang-properties prettyprint-override\"><code>spring.jackson.default-property-inclusion=non_null\n</code></pre>\n<p>There's a table in <a href=\"https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto-customize-the-jackson-objectmapper\" rel=\"noreferrer\">the documentation</a> that lists all of the properties that can be used.</p>\n<p>If you want more control, you can also customize Spring Boot's configuration programatically using a <code>Jackson2ObjectMapperBuilderCustomizer</code> bean, as described in the <a href=\"https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto-customize-the-jackson-objectmapper\" rel=\"noreferrer\">documentation</a>:</p>\n<blockquote>\n<p>The context’s <code>Jackson2ObjectMapperBuilder</code> can be customized by one or more <code>Jackson2ObjectMapperBuilderCustomizer</code> beans. Such customizer beans can be ordered (Boot’s own customizer has an order of 0), letting additional customization be applied both before and after Boot’s customization.</p>\n</blockquote>\n<p>Lastly, if you don't want any of Boot's configuration and want to take complete control over how the <code>ObjectMapper</code> is configured, declare your own <code>Jackson2ObjectMapperBuilder</code> bean:</p>\n<pre class=\"lang-java prettyprint-override\"><code>@Bean\nJackson2ObjectMapperBuilder objectMapperBuilder() {\n    Jackson2ObjectMapperBuilder builder = new Jackson2ObjectMapperBuilder();\n    // Configure the builder to suit your needs\n    return builder;\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Andy Wilkinson",
+        "link": "https://stackoverflow.com/users/1384297/andy-wilkinson"
+      }
+    },
+    {
+      "answer_id": 58490797,
+      "body": "<p>I came across this error while doing a tutorial with spring repository. It turned out that the error was made at the stage of building the service class for my entity.</p>\n<p>In your serviceImpl class, you probably have something like:</p>\n<pre><code>    @Override\n    public YourEntityClass findYourEntityClassById(Long id) {\n      return YourEntityClassRepositorie.getOne(id);\n    }\n</code></pre>\n<p>Change this to:</p>\n<pre><code>    @Override\n    public YourEntityClass findYourEntityClassById(Long id) {\n      return YourEntityClassRepositorie.findById(id).get();\n    }\n</code></pre>\n<p>Basically getOne is a lazy load operation. Thus you get only a reference (a proxy) to the entity. That means no DB access is actually made. Only when you call it's properties then it will query the DB. findByID does the call 'eagerly'/immediately when you call it, thus you have the actual entity fully populated.</p>\n<p>Take a look at this: <a href=\"https://www.javacodemonk.com/difference-between-getone-and-findbyid-in-spring-data-jpa-3a96c3ff\" rel=\"noreferrer\">Link to the difference between getOne &amp; findByID</a></p>\n",
+      "owner": {
+        "display_name": "Szelek",
+        "link": "https://stackoverflow.com/users/9818388/szelek"
+      }
+    },
+    {
+      "answer_id": 49122638,
+      "body": "<p>In case you do need to define <code>dataSource()</code>, for example when you have multiple data sources, you can use:</p>\n<pre><code>@Autowired Environment env;\n\n@Primary\n@Bean\npublic DataSource customDataSource() {\n\n    DriverManagerDataSource dataSource = new DriverManagerDataSource();\n    dataSource.setDriverClassName(env.getProperty(&quot;custom.datasource.driver-class-name&quot;));\n    dataSource.setUrl(env.getProperty(&quot;custom.datasource.url&quot;));\n    dataSource.setUsername(env.getProperty(&quot;custom.datasource.username&quot;));\n    dataSource.setPassword(env.getProperty(&quot;custom.datasource.password&quot;));\n\n    return dataSource;\n\n}\n</code></pre>\n<p>By setting up the <code>dataSource</code> yourself (instead of using <code>DataSourceBuilder</code>), it fixed my problem which you also had.</p>\n<p>The always knowledgeable <a href=\"http://www.baeldung.com/spring-data-jpa-multiple-databases\" rel=\"noreferrer\">Baeldung</a> has a tutorial which explains in depth.</p>\n",
+      "owner": {
+        "display_name": "BigJ",
+        "link": "https://stackoverflow.com/users/906308/bigj"
+      }
+    },
+    {
+      "answer_id": 30344608,
+      "body": "<p>Here you go.</p>\n<p>Add in your application.properties file:</p>\n<pre><code>#first db\nspring.datasource.url = [url]\nspring.datasource.username = [username]\nspring.datasource.password = [password]\nspring.datasource.driverClassName = oracle.jdbc.OracleDriver\n\n#second db ...\nspring.secondDatasource.url = [url]\nspring.secondDatasource.username = [username]\nspring.secondDatasource.password = [password]\nspring.secondDatasource.driverClassName = oracle.jdbc.OracleDriver\n</code></pre>\n<p>Add in any class annotated with @Configuration the following methods:</p>\n<pre><code>@Bean\n@Primary\n@ConfigurationProperties(prefix=&quot;spring.datasource&quot;)\npublic DataSource primaryDataSource() {\n    return DataSourceBuilder.create().build();\n}\n\n@Bean\n@ConfigurationProperties(prefix=&quot;spring.secondDatasource&quot;)\npublic DataSource secondaryDataSource() {\n    return DataSourceBuilder.create().build();\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "K. Siva Prasad Reddy",
+        "link": "https://stackoverflow.com/users/755932/k-siva-prasad-reddy"
+      }
+    },
+    {
+      "answer_id": 44446503,
+      "body": "<p>The only way I got it working was by creating a separate, remote debug configuration.</p>\n<p>So go to edit configurations-&gt; Remote -&gt; +. Then start your application normally through intelliJ. Then switch to the newly created remote configuration. Instead of running it, press debug. Now debugger should be ready, and you can set breakpoints and the debugger will stop to them.</p>\n<p>EDIT: For me the debug port was already enabled, but I see that this is not the case for everyone. If you get an error like</p>\n<pre><code>'Unable to open debugger port (localhost:5005): java.net.ConnectException &quot;Connection refused: connect&quot;\n</code></pre>\n<p>Then you need to enable port on your app's pom.xml. Copied from @Gianluca Musa answer:</p>\n<pre><code>&lt;plugin&gt;\n&lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;\n&lt;configuration&gt;\n&lt;jvmArguments&gt;\n-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005\n&lt;/jvmArguments&gt;\n&lt;/configuration&gt;\n&lt;/plugin&gt;\n</code></pre>\n<p>Kudos for @Gianluca Musa for pointing this out in his answer</p>\n",
+      "owner": {
+        "display_name": "Ville Miekk-oja",
+        "link": "https://stackoverflow.com/users/4662347/ville-miekk-oja"
+      }
+    },
+    {
+      "answer_id": 50053782,
+      "body": "<p>I recommend using Spring's <code>@ControllerAdvice</code> to handle errors. Read <a href=\"https://www.toptal.com/java/spring-boot-rest-api-error-handling\" rel=\"noreferrer\">this guide</a> for a good introduction, starting at the section named &quot;Spring Boot Error Handling&quot;. For an in-depth discussion, there's <a href=\"https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc\" rel=\"noreferrer\">an article</a> in the Spring.io blog that was updated on April, 2018.</p>\n<p>A brief summary on how this works:</p>\n<ul>\n<li>Your controller method should only return <code>ResponseEntity&lt;Success&gt;</code>. It will not be responsible for returning error or exception responses.</li>\n<li>You will implement a class that handles exceptions for all controllers.  This class will be annotated with <code>@ControllerAdvice</code></li>\n<li>This controller advice class will contain methods annotated with <code>@ExceptionHandler</code></li>\n<li>Each exception handler method will be configured to handle one or more exception types. These methods are where you specify the response type for errors</li>\n<li>For your example, you would declare (in the controller advice class) an exception handler method for the validation error.  The return type would be <code>ResponseEntity&lt;Error&gt;</code></li>\n</ul>\n<p>With this approach, you only need to implement your controller exception handling in one place for all endpoints in your API. It also makes it easy for your API to have a uniform exception response structure across all endpoints. This simplifies exception handling for your clients.</p>\n",
+      "owner": {
+        "display_name": "Mark Norman",
+        "link": "https://stackoverflow.com/users/6073695/mark-norman"
+      }
+    },
+    {
+      "answer_id": 20488306,
+      "body": "<p><strong>Update:</strong> Starting with Spring Boot v1.2.0.RELEASE, the settings in <code>application.properties</code> or <code>application.yml</code> do apply. See the <a href=\"http://docs.spring.io/spring-boot/docs/1.2.1.RELEASE/reference/htmlsingle/#boot-features-custom-log-levels\" rel=\"noreferrer\">Log Levels section</a> of the reference guide.</p>\n<pre><code>logging.level.org.springframework.web: DEBUG\nlogging.level.org.hibernate: ERROR\n</code></pre>\n<p>For earlier versions of Spring Boot you cannot. You simply have to use the normal configuration for your logging framework (log4j, logback) for that. Add the appropriate config file (<code>log4j.xml</code> or <code>logback.xml</code>) to the <code>src/main/resources</code> directory and configure to your liking.</p>\n<p>You can enable debug logging by specifying <code>--debug</code> when starting the application from the command-line.</p>\n<p>Spring Boot provides also a nice starting point for logback to configure some defaults, coloring etc. the <a href=\"https://github.com/spring-projects/spring-boot/tree/v1.2.1.RELEASE/spring-boot/src/main/resources/org/springframework/boot/logging/logback/base.xml\" rel=\"noreferrer\">base.xml</a> file which you can simply include in your logback.xml file. (This is also recommended from the default <a href=\"https://github.com/spring-projects/spring-boot/tree/v1.2.1.RELEASE/spring-boot/src/main/resources/org/springframework/boot/logging/logback\" rel=\"noreferrer\">logback.xml</a> in Spring Boot.</p>\n<pre><code>&lt;include resource=&quot;org/springframework/boot/logging/logback/base.xml&quot;/&gt;     \n</code></pre>\n",
+      "owner": {
+        "display_name": "M. Deinum",
+        "link": "https://stackoverflow.com/users/2696260/m-deinum"
+      }
+    },
+    {
+      "answer_id": 37842512,
+      "body": "<p>The problem was that one of the nested objects in <code>Foo</code> didn't have any <code>getter/setter</code></p>\n",
+      "owner": {
+        "display_name": "Marc",
+        "link": "https://stackoverflow.com/users/912495/marc"
+      }
+    },
+    {
+      "answer_id": 37053004,
+      "body": "<p>You can pass in individual properties as command-line arguments. For example, if you wanted to set <code>server.port</code>, you could do the following when launching an executable jar:</p>\n\n<pre><code>java -jar your-app.jar --server.port=8081\n</code></pre>\n\n<p>Alternatively, if you're using <code>mvn spring-boot:run</code> with Spring boot 2.x:</p>\n\n<pre><code>mvn spring-boot:run -Dspring-boot.run.arguments=\"--server.port=8081\"\n</code></pre>\n\n<p>Or, if you're using Spring Boot 1.x:</p>\n\n<pre><code>mvn spring-boot:run -Drun.arguments=\"--server.port=8081\"\n</code></pre>\n\n<p>You can also configure the arguments for <code>spring-boot:run</code> in your application's <code>pom.xml</code> so they don't have to be specified on the command line every time:</p>\n\n<pre><code>&lt;plugin&gt;\n    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;\n    &lt;artifactId&gt;spring-boot-maven-plugin&lt;/artifactId&gt;\n    &lt;configuration&gt;\n        &lt;arguments&gt;\n            &lt;argument&gt;--server.port=8085&lt;/argument&gt;\n        &lt;/arguments&gt;\n    &lt;/configuration&gt;\n&lt;/plugin&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Andy Wilkinson",
+        "link": "https://stackoverflow.com/users/1384297/andy-wilkinson"
+      }
+    },
+    {
+      "answer_id": 26549096,
+      "body": "<p>First remove all of your configuration Spring Boot will start it for you. </p>\n\n<p>Make sure you have an <code>application.properties</code> in your classpath and add the following properties.</p>\n\n<pre><code>spring.datasource.url=jdbc:postgresql://localhost:5432/teste?charSet=LATIN1\nspring.datasource.username=klebermo\nspring.datasource.password=123\n\nspring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect\nspring.jpa.show-sql=false\nspring.jpa.hibernate.ddl-auto=create\n</code></pre>\n\n<p>If you really need access to a <code>SessionFactory</code> and that is basically for the same datasource, then you can do the following (which is also documented <a href=\"http://docs.spring.io/spring-data/jpa/docs/current/reference/html/#\" rel=\"noreferrer\">here</a> although for XML, not JavaConfig).</p>\n\n<pre><code>@Configuration        \npublic class HibernateConfig {\n\n    @Bean\n    public HibernateJpaSessionFactoryBean sessionFactory(EntityManagerFactory emf) {\n         HibernateJpaSessionFactoryBean factory = new HibernateJpaSessionFactoryBean();\n         factory.setEntityManagerFactory(emf);\n         return factory;\n    }\n}\n</code></pre>\n\n<p>That way you have both an <code>EntityManagerFactory</code> and a <code>SessionFactory</code>.</p>\n\n<p><strong>UPDATE:</strong> As of Hibernate 5 the <code>SessionFactory</code> actually extends the <code>EntityManagerFactory</code>. So to obtain a <code>SessionFactory</code> you can simply cast the <code>EntityManagerFactory</code> to it or use the <code>unwrap</code> method to get one. </p>\n\n<pre><code>public class SomeHibernateRepository {\n\n  @PersistenceUnit\n  private EntityManagerFactory emf;\n\n  protected SessionFactory getSessionFactory() {\n    return emf.unwrap(SessionFactory.class);\n  }\n\n}\n</code></pre>\n\n<p>Assuming you have a class with a <code>main</code> method with <code>@EnableAutoConfiguration</code> you don't need the <code>@EnableTransactionManagement</code> annotation, as that will be enabled by Spring Boot for you. A basic application class in the <code>com.spring.app</code> package should be enough.</p>\n\n<pre><code>@Configuration\n@EnableAutoConfiguration\n@ComponentScan\npublic class Application {\n\n\n    public static void main(String[] args) throws Exception {\n        SpringApplication.run(Application.class, args);\n    }\n\n} \n</code></pre>\n\n<p>Something like that should be enough to have all your classes (including entities and Spring Data based repositories) detected.</p>\n\n<p><strong>UPDATE:</strong> These annotations can be replaced with a single <code>@SpringBootApplication</code> in more recent versions of Spring Boot.</p>\n\n<pre><code>@SpringBootApplication\npublic class Application {\n\n    public static void main(String[] args) throws Exception {\n        SpringApplication.run(Application.class, args);\n    }\n} \n</code></pre>\n\n<p>I would also suggest removing the <code>commons-dbcp</code> dependency as that would allow Spring Boot to configure the faster and more robust <a href=\"https://github.com/brettwooldridge/HikariCP\" rel=\"noreferrer\"><code>HikariCP</code></a> implementation.</p>\n",
+      "owner": {
+        "display_name": "M. Deinum",
+        "link": "https://stackoverflow.com/users/2696260/m-deinum"
+      }
+    },
+    {
+      "answer_id": 35856496,
+      "body": "<p>From <code>HandlerIntercepter</code>'s <a href=\"http://docs.spring.io/autorepo/docs/spring/current/javadoc-api/org/springframework/web/servlet/HandlerInterceptor.html\" rel=\"noreferrer\">javadoc</a>:</p>\n\n<blockquote>\n  <p><code>HandlerInterceptor</code> is basically similar to a Servlet <code>Filter</code>, but in\n  contrast to the latter it just allows custom pre-processing with the\n  option of prohibiting the execution of the handler itself, and custom\n  post-processing. Filters are more powerful, for example they allow for\n  exchanging the request and response objects that are handed down the\n  chain. Note that a filter gets configured in <code>web.xml</code>, a\n  <code>HandlerInterceptor</code> in the application context.</p>\n  \n  <p>As a basic guideline, fine-grained handler-related pre-processing tasks\n  are candidates for <code>HandlerInterceptor</code> implementations, especially\n  factored-out common handler code and authorization checks. On the\n  other hand, a <code>Filter</code> is well-suited for request content and view\n  content handling, like multipart forms and GZIP compression. This\n  typically shows when one needs to map the filter to certain content\n  types (e.g. images), or to all requests.</p>\n</blockquote>\n\n<p>With that being said:</p>\n\n<blockquote>\n  <p>So where is the difference between <code>Interceptor#postHandle()</code> and\n  <code>Filter#doFilter()</code>?</p>\n</blockquote>\n\n<p><code>postHandle</code> will be called after handler method invocation but before the view being rendered. So, you can add more model objects to the view but you can <strong>not</strong> change the <code>HttpServletResponse</code> since it's already committed.</p>\n\n<p><code>doFilter</code> is much more versatile than the <code>postHandle</code>. You can change the request or response and pass it to the chain or even block the request processing.</p>\n\n<p>Also, in <code>preHandle</code> and <code>postHandle</code> methods, you have access to the <code>HandlerMethod</code> that processed the request. So, you can add pre/post-processing logic based on the handler itself. For example, you can add a logic for handler methods that have some annotations.</p>\n\n<blockquote>\n  <p>What is the best practise in which use cases it should be used?</p>\n</blockquote>\n\n<p>As the doc said, fine-grained handler-related pre-processing tasks are candidates for <code>HandlerInterceptor</code> implementations, especially factored-out common handler code and authorization checks. On the other hand, a <code>Filter</code> is well-suited for request content and view content handling, like multipart forms and GZIP compression. This typically shows when one needs to map the filter to certain content types (e.g. images), or to all requests.</p>\n",
+      "owner": {
+        "display_name": "Ali Dehghani",
+        "link": "https://stackoverflow.com/users/1393484/ali-dehghani"
+      }
+    },
+    {
+      "answer_id": 32202493,
+      "body": "<p>Use <strong>@RequestParam</strong>   </p>\n\n<pre><code>@RequestMapping(value=\"user\", method = RequestMethod.GET)\npublic @ResponseBody Item getItem(@RequestParam(\"data\") String itemid){\n\n    Item i = itemDao.findOne(itemid);              \n    String itemName = i.getItemName();\n    String price = i.getPrice();\n    return i;\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "afraisse",
+        "link": "https://stackoverflow.com/users/4607929/afraisse"
+      }
+    },
+    {
+      "answer_id": 41092831,
+      "body": "<p>Starting with Spring <em>4.3</em>, if a class, which is configured as a Spring bean, has only one constructor, the <code>@Autowired</code> annotation can be omitted and Spring will use that constructor and inject all necessary dependencies.  </p>\n\n<p>Regarding the <em>default constructor</em>: You either need the default constructor, a constructor with the <code>@Autowired</code> annotation when you have multiple constructors, or only one constructor in your class with or without the <code>@Autowired</code> annotation.</p>\n\n<p>Read the <a href=\"https://docs.spring.io/spring/docs/4.3.x/spring-framework-reference/htmlsingle/#beans-autowired-annotation\" rel=\"noreferrer\"><code>@Autowired</code></a> chapter from the official Spring documentation for more information.</p>\n",
+      "owner": {
+        "display_name": "dunni",
+        "link": "https://stackoverflow.com/users/465223/dunni"
+      }
+    },
+    {
+      "answer_id": 24292707,
+      "body": "<p>There are several options you can use. Quite good way is to use exceptions and class for handling called <code>@ControllerAdvice</code>:</p>\n\n<pre><code>@ControllerAdvice\nclass GlobalControllerExceptionHandler {\n    @ResponseStatus(HttpStatus.CONFLICT)  // 409\n    @ExceptionHandler(DataIntegrityViolationException.class)\n    public void handleConflict() {\n        // Nothing to do\n    }\n}\n</code></pre>\n\n<p>Also you can pass <code>HttpServletResponse</code> to controller method and just set response code:</p>\n\n<pre><code>public RestModel create(@RequestBody String data, HttpServletResponse response) {\n    // response committed...\n    response.setStatus(HttpServletResponse.SC_ACCEPTED);\n}\n</code></pre>\n\n<p>Please refer to the this great blog post for details: <a href=\"http://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc\" rel=\"noreferrer\"><em>Exception Handling in Spring MVC</em></a></p>\n\n<hr>\n\n<h2>NOTE</h2>\n\n<p>In Spring MVC using <code>@ResponseBody</code> annotation is redundant - it's already included in <a href=\"https://docs.spring.io/spring/docs/5.2.1.RELEASE/javadoc-api/org/springframework/web/bind/annotation/RestController.html\" rel=\"noreferrer\"><code>@RestController</code></a> annotation.</p>\n",
+      "owner": {
+        "display_name": "Jakub Kubrynski",
+        "link": "https://stackoverflow.com/users/3017003/jakub-kubrynski"
+      }
+    },
+    {
+      "answer_id": 22944850,
+      "body": "<p>Closing a <a href=\"http://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/SpringApplication.html\" rel=\"noreferrer\"><code>SpringApplication</code></a> basically means closing the underlying <code>ApplicationContext</code>. The <a href=\"https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/SpringApplication.html#run-java.lang.Object-java.lang.String...-\" rel=\"noreferrer\"><code>SpringApplication#run(String...)</code></a> method gives you that <code>ApplicationContext</code> as a <code>ConfigurableApplicationContext</code>. You can then <a href=\"http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/ConfigurableApplicationContext.html#close--\" rel=\"noreferrer\"><code>close()</code></a> it yourself. </p>\n\n<p>For example,</p>\n\n<pre><code>@SpringBootApplication\npublic class Example {\n    public static void main(String[] args) {\n        ConfigurableApplicationContext ctx = SpringApplication.run(Example.class, args);\n        // ...determine it's time to shut down...\n        ctx.close();\n    }\n}\n</code></pre>\n\n<p>Alternatively, you can use the <code>static</code> <a href=\"https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/SpringApplication.html#exit-org.springframework.context.ApplicationContext-org.springframework.boot.ExitCodeGenerator...-\" rel=\"noreferrer\"><code>SpringApplication.exit(ApplicationContext, ExitCodeGenerator...)</code></a> helper method to do it for you. For example,</p>\n\n<pre><code>@SpringBootApplication\npublic class Example {\n    public static void main(String[] args) {\n        ConfigurableApplicationContext ctx = SpringApplication.run(Example.class, args);\n        // ...determine it's time to stop...\n        int exitCode = SpringApplication.exit(ctx, new ExitCodeGenerator() {\n            @Override\n            public int getExitCode() {\n                // no errors\n                return 0;\n            }\n        });\n\n        // or shortened to\n        // int exitCode = SpringApplication.exit(ctx, () -&gt; 0);\n\n        System.exit(exitCode);\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sotirios Delimanolis",
+        "link": "https://stackoverflow.com/users/438154/sotirios-delimanolis"
+      }
+    },
+    {
+      "answer_id": 30497095,
+      "body": "<p>The following works for springboot 1.3 and above:</p>\n\n<p><strong>As init.d service</strong></p>\n\n<p>The executable jar has the usual start, stop, restart, and status commands. It will also set up a PID file in the usual /var/run directory and logging in the usual /var/log directory by default.</p>\n\n<p>You just need to symlink your jar into /etc/init.d like so</p>\n\n<pre><code>sudo link -s /var/myapp/myapp.jar /etc/init.d/myapp\n</code></pre>\n\n<p>OR</p>\n\n<pre><code>sudo ln -s ~/myproject/build/libs/myapp-1.0.jar /etc/init.d/myapp_servicename\n</code></pre>\n\n<p>After that you can do the usual</p>\n\n<pre><code>/etc/init.d/myapp start\n</code></pre>\n\n<p>Then setup a link in whichever runlevel you want the app to start/stop in on boot if so desired. </p>\n\n<hr/>\n\n<p><strong>As a systemd service</strong></p>\n\n<p>To run a Spring Boot application installed in var/myapp you can add the following script in /etc/systemd/system/myapp.service:</p>\n\n<pre><code>[Unit]\nDescription=myapp\nAfter=syslog.target\n\n[Service]\nExecStart=/var/myapp/myapp.jar\n\n[Install]\nWantedBy=multi-user.target\n</code></pre>\n\n<hr>\n\n<p>NB: in case you are using this method, do not forget to make the jar file itself executable (with chmod +x) otherwise it will fail with error \"Permission denied\".</p>\n\n<p><strong>Reference</strong> </p>\n\n<p><a href=\"http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/html/deployment-install.html#deployment-service\" rel=\"noreferrer\">http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/html/deployment-install.html#deployment-service</a></p>\n",
+      "owner": {
+        "display_name": "chad",
+        "link": "https://stackoverflow.com/users/344269/chad"
+      }
+    },
+    {
+      "answer_id": 42811503,
+      "body": "<p>With Spring Boot 1.2+ (&lt;2.0) all it takes is a single property in application.properties:</p>\n\n<pre><code>spring.data.rest.basePath=/api\n</code></pre>\n\n<p>ref link : <a href=\"https://docs.spring.io/spring-data/rest/docs/current/reference/html/#getting-started.changing-base-uri\" rel=\"noreferrer\">https://docs.spring.io/spring-data/rest/docs/current/reference/html/#getting-started.changing-base-uri</a></p>\n\n<p>For 2.x, use</p>\n\n<pre><code>server.servlet.context-path=/api\n</code></pre>\n",
+      "owner": {
+        "display_name": "Suroj",
+        "link": "https://stackoverflow.com/users/3467950/suroj"
+      }
+    },
+    {
+      "answer_id": 57753612,
+      "body": "<p>I had a similar case, and (as mentioned by @Holger in the comment) the module info in the message is simply misleading - this is an actual case of trying to cast something to something that doesn't match it.</p>\n\n<p>In your case, <code>ClientImpl</code> simply is not a subtype of <code>XigniteCurrenciesSoap</code>.</p>\n",
+      "owner": {
+        "display_name": "orirab",
+        "link": "https://stackoverflow.com/users/2924784/orirab"
+      }
+    },
+    {
+      "answer_id": 32923000,
+      "body": "<ul>\n<li><strong>Spring MVC</strong> is a complete HTTP oriented MVC framework managed by the Spring Framework and based in Servlets. It would be equivalent to JSF in the JavaEE stack. The most popular\nelements in it are classes annotated with <code>@Controller</code>,\nwhere you implement methods you can access using different HTTP requests. It has an equivalent <code>@RestController</code> to implement REST-based APIs.</li>\n<li><strong>Spring boot</strong> is a utility for setting up applications quickly, offering an out of the box configuration in order to build\nSpring-powered applications. As you may know, Spring integrates\na wide range of different modules under <a href=\"https://spring.io/projects\" rel=\"noreferrer\">its umbrella</a>, as <em>spring-core</em>, <em>spring-data</em>,\n<em>spring-web</em> (which includes Spring MVC, by the way) and so on. With this tool you can tell Spring how many of them to use and you'll get a fast setup for them (you are allowed to change it by yourself later on).</li>\n</ul>\n\n<p>So, Spring MVC is a framework to be used in web applications and Spring Boot is a Spring based <em>production-ready</em> project initializer. You might find useful visiting the <a href=\"https://stackoverflow.com/tags/spring-mvc/info\">Spring MVC tag wiki</a> as well as the <a href=\"https://stackoverflow.com/tags/spring-boot/info\">Spring Boot tag wiki</a> in SO.</p>\n",
+      "owner": {
+        "display_name": "Aritz",
+        "link": "https://stackoverflow.com/users/1199132/aritz"
+      }
+    },
+    {
+      "answer_id": 28392257,
+      "body": "<p>It doesn't matter is your app Boot or just raw Spring. There is just enough to inject <code>org.springframework.core.env.Environment</code> to your bean.</p>\n\n<pre><code>@Autowired\nprivate Environment environment;\n....\n\nthis.environment.getActiveProfiles();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Artem Bilan",
+        "link": "https://stackoverflow.com/users/2756547/artem-bilan"
+      }
+    },
+    {
+      "answer_id": 44374099,
+      "body": "<p>I added <code>-Dspring.profiles.active=test</code> to VM Options and then re-ran that configuration. It worked perfectly.</p>\n\n<p>This can be set by</p>\n\n<ul>\n<li>Choosing <code>Run | Edit Configurations...</code></li>\n<li>Go to the <code>Configuration</code> tab </li>\n<li>Expand the <code>Environment</code> section to reveal <code>VM options</code></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Thom",
+        "link": "https://stackoverflow.com/users/967330/thom"
+      }
+    },
+    {
+      "answer_id": 23217203,
+      "body": "<p>Add your start class in your pom:</p>\n\n<pre><code>&lt;properties&gt;\n    &lt;!-- The main class to start by executing java -jar --&gt;\n    &lt;start-class&gt;com.mycorp.starter.HelloWorldApplication&lt;/start-class&gt;\n&lt;/properties&gt;\n</code></pre>\n\n<p>or </p>\n\n<pre><code>&lt;build&gt;\n&lt;plugins&gt;\n    &lt;plugin&gt;\n        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;\n        &lt;artifactId&gt;spring-boot-maven-plugin&lt;/artifactId&gt;             \n        &lt;configuration&gt;    \n            &lt;mainClass&gt;com.mycorp.starter.HelloWorldApplication&lt;/mainClass&gt;\n        &lt;/configuration&gt;\n    &lt;/plugin&gt;\n&lt;/plugins&gt;\n&lt;/build&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "ludo_rj",
+        "link": "https://stackoverflow.com/users/2115767/ludo-rj"
+      }
+    },
+    {
+      "answer_id": 44842806,
+      "body": "<p>As you are using Spring Boot web, Jackson dependency is implicit and we do not have to define explicitly. You can check for Jackson dependency in your <code>pom.xml</code> in the dependency hierarchy tab if using eclipse.</p>\n\n<p>And as you have annotated with <code>@RestController</code> there is no need to do explicit json conversion. Just return a POJO and jackson serializer will take care of converting to json. It is equivalent to using <code>@ResponseBody</code> when used with @Controller. Rather than placing <code>@ResponseBody</code> on every controller method we place <code>@RestController</code> instead of vanilla <code>@Controller</code> and <code>@ResponseBody</code> by default is applied on all resources in that controller. <br> <strong>Refer this link:</strong> <a href=\"https://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-ann-responsebody\" rel=\"noreferrer\">https://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-ann-responsebody</a></p>\n\n<p>The problem you are facing is because the returned object(JSONObject) does not have getter for certain properties. And your intention is not to serialize this JSONObject but instead to serialize a POJO. So just return the POJO. \n<br>\n<strong>Refer this link:</strong>  <a href=\"https://stackoverflow.com/a/35822500/5039001\">https://stackoverflow.com/a/35822500/5039001</a></p>\n\n<p>If you want to return a json serialized string then just return the string. Spring will use StringHttpMessageConverter instead of JSON converter in this case.</p>\n",
+      "owner": {
+        "display_name": "prem kumar",
+        "link": "https://stackoverflow.com/users/5039001/prem-kumar"
+      }
+    },
+    {
+      "answer_id": 56275263,
+      "body": "<p><strong>answer according to current status</strong></p>\n\n<p><a href=\"https://bugs.eclipse.org/bugs/show_bug.cgi?id=547340#c9\" rel=\"noreferrer\">This issue</a> got fixed:</p>\n\n<blockquote>\n  <p>Please install the m2e connector for mavenarchiver plugin 0.17.3 from <a href=\"https://download.eclipse.org/m2e-wtp/releases/1.4/\" rel=\"noreferrer\">https://download.eclipse.org/m2e-wtp/releases/1.4/</a></p>\n</blockquote>\n\n<hr>\n\n<p><strong>obsolete answer</strong></p>\n\n<p>A less profound change than a downgrade from Spring Boot <code>2.1.5.RELEASE</code> to <code>2.1.4.RELEASE</code> would be downgrading only <a href=\"https://bugs.eclipse.org/bugs/show_bug.cgi?id=547340\" rel=\"noreferrer\">the affected Maven JAR Plugin</a> from <code>3.1.2</code> to <code>3.1.1</code> as long as this bug exists:</p>\n\n<pre><code>&lt;properties&gt;\n    &lt;!-- ... --&gt;\n    &lt;maven-jar-plugin.version&gt;3.1.1&lt;/maven-jar-plugin.version&gt;\n&lt;/properties&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Matthias",
+        "link": "https://stackoverflow.com/users/344480/matthias"
+      }
+    },
+    {
+      "answer_id": 21318359,
+      "body": "<p><strong>You can use the spring-boot-starter-parent like a \"bom\"</strong> (c.f. <a href=\"https://spring.io/blog/2013/12/03/spring-framework-4-0-rc2-available\" rel=\"noreferrer\">Spring</a> and Jersey other projects that support this feature now), and include it only in the dependency management section with scope=import.That way you get a lot of the benefits of using it (i.e. dependency management) without replacing the settings in your actual parent.</p>\n\n<p>The 2 main other things it does are</p>\n\n<ol>\n<li>define a load of properties for quickly setting versions of dependencies that you want to override</li>\n<li>configure some plugins with default configuration (principally the Spring Boot maven plugin). So those are the things you will have to do manually if you use your own parent.</li>\n</ol>\n\n<p>Example provided in <a href=\"http://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-build-systems.html#using-boot-maven-without-a-parent\" rel=\"noreferrer\">Spring Boot documentation</a>:</p>\n\n<pre class=\"lang-xml prettyprint-override\"><code>&lt;dependencyManagement&gt;\n    &lt;dependencies&gt;\n        &lt;dependency&gt;\n            &lt;!-- Import dependency management from Spring Boot --&gt;\n            &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;\n            &lt;artifactId&gt;spring-boot-dependencies&lt;/artifactId&gt;\n            &lt;version&gt;2.1.3.RELEASE&lt;/version&gt;\n            &lt;type&gt;pom&lt;/type&gt;\n            &lt;scope&gt;import&lt;/scope&gt;\n        &lt;/dependency&gt;\n    &lt;/dependencies&gt;\n&lt;/dependencyManagement&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dave Syer",
+        "link": "https://stackoverflow.com/users/1259109/dave-syer"
+      }
+    },
+    {
+      "answer_id": 33213802,
+      "body": "<pre><code>@Configuration\n@ConfigurationProperties(prefix = \"params.datasource\")\npublic class JpaConfig extends HikariConfig {\n\n    @Bean\n    public DataSource dataSource() throws SQLException {\n        return new HikariDataSource(this);\n    }\n\n}\n</code></pre>\n\n<p><strong>application.yml</strong></p>\n\n<pre><code>params:\n  datasource:\n    driverClassName: com.mysql.jdbc.Driver\n    jdbcUrl: jdbc:mysql://localhost:3306/myDb\n    username: login\n    password: password\n    maximumPoolSize: 5\n</code></pre>\n\n<hr>\n\n<p><strong>UPDATED! Since version Spring Boot 1.3.0</strong> :</p>\n\n<ol>\n<li>Just add HikariCP to dependencies</li>\n<li>Configure application.yml</li>\n</ol>\n\n<p><strong>application.yml</strong></p>\n\n<pre><code>spring:\n  datasource:\n    type: com.zaxxer.hikari.HikariDataSource\n    url: jdbc:h2:mem:TEST\n    driver-class-name: org.h2.Driver\n    username: username\n    password: password\n    hikari:\n      idle-timeout: 10000\n</code></pre>\n\n<hr>\n\n<p><strong>UPDATED! Since version Spring Boot 2.0.0</strong> :</p>\n\n<p>The default connection pool has changed from Tomcat to Hikari :)</p>\n",
+      "owner": {
+        "display_name": "Sergey  Bulavkin",
+        "link": "https://stackoverflow.com/users/2775651/sergey-bulavkin"
+      }
+    },
+    {
+      "answer_id": 39690595,
+      "body": "<p>As far as I know there is nothing directly addressing your request - but I can suggest a proposal that could help:</p>\n\n<p>You could use your own test annotation that is a <a href=\"http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#beans-meta-annotations\" rel=\"noreferrer\">meta annotation</a> comprising <code>@SpringBootTest</code> and <code>@ActiveProfiles(\"test\")</code>. So you still need the dedicated profile but avoid scattering the profile definition across all your test.</p>\n\n<p>This annotation will default to the profile <code>test</code> and you can override the profile using the meta annotation.</p>\n\n<pre><code>@Retention(RetentionPolicy.RUNTIME)\n@Target(ElementType.TYPE)\n@SpringBootTest\n@ActiveProfiles\npublic @interface MyApplicationTest {\n  @AliasFor(annotation = ActiveProfiles.class, attribute = \"profiles\") String[] activeProfiles() default {\"test\"};\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mathias Dpunkt",
+        "link": "https://stackoverflow.com/users/5371736/mathias-dpunkt"
+      }
+    },
+    {
+      "answer_id": 30554785,
+      "body": "<p>This property will register an <code>OpenEntityManagerInViewInterceptor</code>, which registers an <code>EntityManager</code> to the current thread, so you will have the same <code>EntityManager</code> until the web request is finished. It has nothing to do with a Hibernate <code>SessionFactory</code> etc.</p>\n",
+      "owner": {
+        "display_name": "dunni",
+        "link": "https://stackoverflow.com/users/465223/dunni"
+      }
+    },
+    {
+      "answer_id": 50250910,
+      "body": "<p>The solution is:</p>\n\n<p>I explicitly set the below property to <code>none</code> in <code>application.yml</code> file.</p>\n\n<pre><code>spring:\n  main:\n    web-application-type: none\n</code></pre>\n",
+      "owner": {
+        "display_name": "Vijayant Bhatia",
+        "link": "https://stackoverflow.com/users/8866740/vijayant-bhatia"
+      }
+    },
+    {
+      "answer_id": 50776393,
+      "body": "<p>In order for IntelliJ IDEA to know your Spring Boot properties, you can define <strong>Spring Boot configuration metadata</strong> in your project.</p>\n\n<h3>Option 1:</h3>\n\n<p>If you can use a <code>@ConfigurationProperties</code>-annotated class for your properties, you can add the Spring Boot configuration annotation processor to your classpath and IntelliJ IDEA will generate the configuration metadata for you in <code>target</code> or <code>out</code>:</p>\n\n<p><strong>Maven:</strong></p>\n\n<pre><code>&lt;dependency&gt;\n    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;\n    &lt;artifactId&gt;spring-boot-configuration-processor&lt;/artifactId&gt;\n    &lt;optional&gt;true&lt;/optional&gt;\n&lt;/dependency&gt;\n</code></pre>\n\n<p><strong>Gradle:</strong></p>\n\n<pre><code>implementation 'org.springframework.boot:spring-boot-configuration-processor'\n</code></pre>\n\n<h3>Option 2:</h3>\n\n<p>Create the configuration metadata file yourself <code>src/main/resources/META-INF/spring-configuration-metadata.json</code>:</p>\n\n<p>Content:</p>\n\n<pre><code>{\n  \"properties\": [\n    {\n      \"name\": \"myapp.someprop\",\n      \"type\": \"java.lang.String\"\n    },\n    {\n      \"name\": \"myapp.someintprop\",\n      \"type\": \"java.lang.Integer\"\n    }\n  ]\n}\n</code></pre>\n\n<h3>Options 1 and 2:</h3>\n\n<p>In the IntelliJ IDEA tool window of your build system (Maven/Gradle), click the \"Refresh\" button.</p>\n\n<p>Select <code>Build &gt; Rebuild Project</code> from the menu.</p>\n\n<p>If the warning still appears, you can try to restart the IDE. Select <code>File &gt; Invalidate Caches / Restart</code> and click on <code>Invalidate and Restart</code>.</p>\n",
+      "owner": {
+        "display_name": "Igor Akkerman",
+        "link": "https://stackoverflow.com/users/2562544/igor-akkerman"
+      }
+    },
+    {
+      "answer_id": 31083263,
+      "body": "<p>Since you're using Spring Boot, I assume you'd prefer to rely on Spring's auto configuration where possible. To add additional custom configuration like your interceptors, just provide a configuration or bean of <code>WebMvcConfigurerAdapter</code>.</p>\n\n<p>Here's an example of a config class:</p>\n\n<pre><code>@Configuration\npublic class WebMvcConfig extends WebMvcConfigurerAdapter {\n\n  @Autowired \n  HandlerInterceptor yourInjectedInterceptor;\n\n  @Override\n  public void addInterceptors(InterceptorRegistry registry) {\n    registry.addInterceptor(...)\n    ...\n    registry.addInterceptor(getYourInterceptor()); \n    registry.addInterceptor(yourInjectedInterceptor);\n    // next two should be avoid -- tightly coupled and not very testable\n    registry.addInterceptor(new YourInterceptor());\n    registry.addInterceptor(new HandlerInterceptor() {\n        ...\n    });\n  }\n}\n</code></pre>\n\n<p><strong>NOTE</strong> do not annotate this with @EnableWebMvc, if you want to keep <a href=\"http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-spring-mvc-auto-configuration\" rel=\"noreferrer\">Spring Boots auto configuration for mvc</a>.</p>\n",
+      "owner": {
+        "display_name": "ikumen",
+        "link": "https://stackoverflow.com/users/2264997/ikumen"
+      }
+    },
+    {
+      "answer_id": 49683417,
+      "body": "<p>When you are configuring the <code>ClientDetailsServiceConfigurer</code>, you have to also apply the new <a href=\"https://spring.io/blog/2017/11/01/spring-security-5-0-0-rc1-released#password-storage-format\" rel=\"noreferrer\">password storage format</a> to the client secret.</p>\n\n<pre class=\"lang-java prettyprint-override\"><code>.secret(\"{noop}secret\")\n</code></pre>\n",
+      "owner": {
+        "display_name": "Edwin Diaz",
+        "link": "https://stackoverflow.com/users/8202380/edwin-diaz"
+      }
+    },
+    {
+      "answer_id": 44200907,
+      "body": "<p><strong>Plain Mockito library</strong> </p>\n\n<pre><code>import org.mockito.Mock;\n...\n@Mock\nMyService myservice;\n</code></pre>\n\n<p>and </p>\n\n<pre><code>import org.mockito.Mockito;\n...\nMyService myservice = Mockito.mock(MyService.class);\n</code></pre>\n\n<p>come from the Mockito library and are functionally equivalent. <br>\nThey allow to mock a class or an interface and to record and verify behaviors on it.<br></p>\n\n<p>The way using annotation is shorter, so preferable and often preferred.<br></p>\n\n<hr>\n\n<p>Note that to enable Mockito annotations during test executions, the\n<code>MockitoAnnotations.initMocks(this)</code> static method has to be called.<br>\nTo avoid side effect between tests, it is advised to do it before each test execution :</p>\n\n<pre><code>@Before \npublic void initMocks() {\n    MockitoAnnotations.initMocks(this);\n}\n</code></pre>\n\n<p>Another way to enable Mockito annotations is annotating the test class with <code>@RunWith</code> by specifying the <code>MockitoJUnitRunner</code> that does this task and also other useful things :</p>\n\n<pre><code>@RunWith(org.mockito.runners.MockitoJUnitRunner.class)\npublic MyClassTest{...}\n</code></pre>\n\n<hr>\n\n<p><strong>Spring Boot library wrapping Mockito library</strong> </p>\n\n<p>This is indeed a <a href=\"https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/mock/mockito/MockBean.html\" rel=\"noreferrer\">Spring Boot class</a>:</p>\n\n<pre><code>import org.springframework.boot.test.mock.mockito.MockBean;\n...\n@MockBean\nMyService myservice;\n</code></pre>\n\n<p>The class is included in the <code>spring-boot-test</code> library.<br></p>\n\n<p>It allows to add Mockito mocks in a Spring <code>ApplicationContext</code>.<br>\nIf a bean, compatible with the declared class exists in the context, it <strong>replaces</strong> it by the mock.<br>\nIf it is not the case, it <strong>adds</strong> the mock in the context as a bean.</p>\n\n<p>Javadoc reference :</p>\n\n<blockquote>\n  <p>Annotation that can be used to add mocks to a Spring\n  ApplicationContext.</p>\n  \n  <p>...</p>\n  \n  <p>If any existing single bean of the same type defined in the context\n  will be replaced by the mock, if no existing bean is defined a new one\n  will be added.</p>\n</blockquote>\n\n<hr>\n\n<p><strong>When use classic/plain Mockito and when use <code>@MockBean</code> from Spring Boot ?<br></strong></p>\n\n<p>Unit tests are designed to test a component in isolation from other components and unit tests have also a requirement : being as fast as possible in terms of execution time as these tests may be executed each day dozen times on the developer machines.<br></p>\n\n<p>Consequently, here is a simple guideline :<br></p>\n\n<p>As you write a test that doesn't need any dependencies from the Spring Boot container, the classic/plain Mockito is the way to follow : it is fast and favors the isolation of the tested component.<br>\nIf your test needs to rely on the Spring Boot container <strong>and</strong> you want also to add or mock one of the container beans : <code>@MockBean</code> from Spring Boot is the way.</p>\n\n<hr>\n\n<p><strong>Typical usage of Spring Boot <code>@MockBean</code></strong> </p>\n\n<p>As we write a test class annotated with <code>@WebMvcTest</code> (web test slice).   </p>\n\n<p><a href=\"https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html#boot-features-testing-spring-boot-applications-testing-autoconfigured-mvc-tests\" rel=\"noreferrer\">The Spring Boot documentation</a> summarizes that very well :</p>\n\n<blockquote>\n  <p>Often <code>@WebMvcTest</code> will be limited to a single controller and used in\n  combination with <code>@MockBean</code> to provide mock implementations for\n  required collaborators.</p>\n</blockquote>\n\n<p>Here is an example :</p>\n\n<pre><code>import org.junit.Test;\nimport org.junit.runner.RunWith;\nimport org.mockito.Mockito;\nimport org.springframework.beans.factory.annotation.Autowired;\nimport org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;\nimport org.springframework.boot.test.mock.mockito.MockBean;\nimport org.springframework.http.MediaType;\nimport org.springframework.test.context.junit4.SpringRunner;\nimport org.springframework.test.web.servlet.MockMvc;\n\nimport static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;\nimport static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;\n\n@RunWith(SpringRunner.class)\n@WebMvcTest(FooController.class)\npublic class FooControllerTest {\n\n    @Autowired\n    private MockMvc mvc;\n\n    @MockBean\n    private FooService fooServiceMock;\n\n    @Test\n    public void testExample() throws Exception {\n         Foo mockedFoo = new Foo(\"one\", \"two\");\n\n         Mockito.when(fooServiceMock.get(1))\n                .thenReturn(mockedFoo);\n\n         mvc.perform(get(\"foos/1\")\n            .accept(MediaType.TEXT_PLAIN))\n            .andExpect(status().isOk())\n            .andExpect(content().string(\"one two\"));\n    }\n\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "davidxxx",
+        "link": "https://stackoverflow.com/users/270371/davidxxx"
+      }
+    },
+    {
+      "answer_id": 47836135,
+      "body": "<p>You will need to build the jar file first. Here is the syntax to run the main class from a jar file.</p>\n\n<pre><code>java -jar path/to/your/jarfile.jar fully.qualified.package.Application \n</code></pre>\n",
+      "owner": {
+        "display_name": "Srikanth Anusuri",
+        "link": "https://stackoverflow.com/users/6701594/srikanth-anusuri"
+      }
+    },
+    {
+      "answer_id": 35996408,
+      "body": "<p>My personal advice is to definitely use Spring Boot for many reasons.</p>\n\n<ol>\n<li><p>The first is that Boot is the \"future of Spring\". That means that with Boot \nyou can benefit from many commitments of the Spring community. Most of the \nSpring projects today are completely\nintegrated with Boot, even the community starts to develop many\napplications based on Boot. For example for managing and monitoring.\nI can suggest to see <a href=\"https://github.com/codecentric/spring-boot-admin\" rel=\"noreferrer\">Spring Boot Admin</a></p></li>\n<li><p>With Spring Boot you can benefit from very nice and useful features such as\nactuator and remote shell for managing and monitoring, that\nimproves your application with production ready features that are very\nuseful.</p></li>\n<li><p>Very nice and powerful properties and configuration controls - you\ncan configure your application with <code>application.properties/yml</code>\nand extend the boot in a very simple and impressive way, even the\nmanagement in terms of overriding is very powerful.</p></li>\n<li><p>It is one of the first micro-service ready platforms, and in my opinion\nnowadays it is the best! Even if you don't build a micro-service\nproject with boot you can benefit of using a modern approach in which\nyou have a auto-consistent jar that can benefit from all the features\nthat I described above or if you prefer you can impose the packaging\nas a classical war and deploy your war in any of the containers that \nyou want.</p></li>\n<li><p>Use of an intelligent and convention over configuration approach that\nreduces the startup and configuration phase of your\nproject significantly. In fact you have a set of starter Maven or Gradle dependencies\nthat simplify the dependency management. Then with the\nauto-configuration characteristic you can benefit from a lot of\nstandard configurations, that are introduced through the Conditional Configuration framework\nin Spring 4. You can override it with your specific\nconfigurations just defining your bean according with the\nconvention that you can see in the auto-configure JAR of the Boot\ndependency. Remember that Spring is open-source and you can see the code. Also the documentation in my opinion is good.</p></li>\n<li><p>Spring initializer is a cool tool attainable at this link:\n<a href=\"https://start.spring.io/\" rel=\"noreferrer\">https://start.spring.io/</a> is a very cool tool just to create your project in a very fast way.</p></li>\n</ol>\n\n<p><br>\nI hope that this reflection can help you decide what is the best solution.</p>\n",
+      "owner": {
+        "display_name": "Valerio Vaudi",
+        "link": "https://stackoverflow.com/users/5587542/valerio-vaudi"
+      }
+    },
+    {
+      "answer_id": 24086178,
+      "body": "<p>You haven't provided Spring Boot with enough information to auto-configure a <code>DataSource</code>. To do so, you'll need to add some properties to <code>application.properties</code> with the <code>spring.datasource</code> prefix. Take a look at <a href=\"https://github.com/spring-projects/spring-boot/blob/master/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java\" rel=\"noreferrer\">DataSourceProperties</a> to see all of the properties that you can set. </p>\n\n<p>You'll need to provide the appropriate url and driver class name:</p>\n\n<pre><code>spring.datasource.url = …\nspring.datasource.driver-class-name = …\n</code></pre>\n",
+      "owner": {
+        "display_name": "Andy Wilkinson",
+        "link": "https://stackoverflow.com/users/1384297/andy-wilkinson"
+      }
+    },
+    {
+      "answer_id": 46305808,
+      "body": "<p>I had the same problem. I use idea 2017.2 and gradle 4.1, \nand some blog said you should add:</p>\n\n<pre><code>dependencies {\n    optional \"org.springframework.boot:spring-boot-configuration-processor\"\n}\n</code></pre>\n\n<p>But I changed it to this:</p>\n\n<pre><code>dependencies {\n    compile \"org.springframework.boot:spring-boot-configuration-processor\"\n}\n</code></pre>\n\n<p>And the warning is gone.</p>\n",
+      "owner": {
+        "display_name": "Icex",
+        "link": "https://stackoverflow.com/users/8635404/icex"
+      }
+    },
+    {
+      "answer_id": 19500823,
+      "body": "<blockquote>\n  <p>Is this how one would expect Spring MVC to behave?</p>\n</blockquote>\n\n<p>As of Spring 4.3.7, here's how Spring MVC behaves: it uses <a href=\"http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/HandlerExceptionResolver.html\" rel=\"noreferrer\"><code>HandlerExceptionResolver</code></a> instances to handle exceptions thrown by handler methods.</p>\n\n<p>By default, the web MVC configuration registers a single <code>HandlerExceptionResolver</code> bean, a <a href=\"http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/handler/HandlerExceptionResolverComposite.html\" rel=\"noreferrer\"><code>HandlerExceptionResolverComposite</code></a>, which</p>\n\n<blockquote>\n  <p>delegates to a list of other <code>HandlerExceptionResolvers</code>.</p>\n</blockquote>\n\n<p>Those other resolvers are</p>\n\n<ol>\n<li><code>ExceptionHandlerExceptionResolver</code></li>\n<li><code>ResponseStatusExceptionResolver</code></li>\n<li><code>DefaultHandlerExceptionResolver</code></li>\n</ol>\n\n<p>registered in that order. For the purpose of this question we only care about <a href=\"http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver.html\" rel=\"noreferrer\"><code>ExceptionHandlerExceptionResolver</code></a>.</p>\n\n<blockquote>\n  <p>An <code>AbstractHandlerMethodExceptionResolver</code> that resolves exceptions\n  through <code>@ExceptionHandler</code> methods.</p>\n</blockquote>\n\n<p>At context initialization, Spring will generate a <a href=\"http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/method/ControllerAdviceBean.html\" rel=\"noreferrer\"><code>ControllerAdviceBean</code></a> for each <a href=\"http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/bind/annotation/ControllerAdvice.html\" rel=\"noreferrer\"><code>@ControllerAdvice</code></a> annotated class it detects. The <code>ExceptionHandlerExceptionResolver</code> will retrieve these from the context, and sort them using using <a href=\"http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/core/annotation/AnnotationAwareOrderComparator.html\" rel=\"noreferrer\"><code>AnnotationAwareOrderComparator</code></a> which</p>\n\n<blockquote>\n  <p>is an extension of <code>OrderComparator</code> that supports Spring's <code>Ordered</code>\n  interface as well as the <code>@Order</code> and <code>@Priority</code> annotations, with an\n  order value provided by an Ordered instance overriding a statically\n  defined annotation value (if any).</p>\n</blockquote>\n\n<p>It'll then register an <a href=\"http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/method/annotation/ExceptionHandlerMethodResolver.html\" rel=\"noreferrer\"><code>ExceptionHandlerMethodResolver</code></a> for each of these <code>ControllerAdviceBean</code> instances (mapping available <code>@ExceptionHandler</code> methods to the exception types they're meant to handle). These are finally added in the same order to a <code>LinkedHashMap</code> (which preserves iteration order).</p>\n\n<p>When an exception occurs, the <code>ExceptionHandlerExceptionResolver</code> will iterate through these <code>ExceptionHandlerMethodResolver</code> and use the first one that can handle the exception.</p>\n\n<p>So the point here is: if you have a <code>@ControllerAdvice</code> with an <code>@ExceptionHandler</code> for <code>Exception</code> that gets registered before another <code>@ControllerAdvice</code> class with an <code>@ExceptionHandler</code> for a more specific exception, like <code>IOException</code>, that first one will get called. As mentioned earlier, you can control that registration order by having your <code>@ControllerAdvice</code> annotated class implement <a href=\"http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/core/Ordered.html\" rel=\"noreferrer\"><code>Ordered</code></a> or annotating it with <a href=\"http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/core/annotation/Order.html\" rel=\"noreferrer\"><code>@Order</code></a> or <a href=\"http://docs.oracle.com/javaee/7/api/javax/annotation/Priority.html\" rel=\"noreferrer\"><code>@Priority</code></a> and giving it an appropriate value.</p>\n",
+      "owner": {
+        "display_name": "Sotirios Delimanolis",
+        "link": "https://stackoverflow.com/users/438154/sotirios-delimanolis"
+      }
+    },
+    {
+      "answer_id": 41455418,
+      "body": "<p>Since Spring Boot 1.4.x there is an option to use <code>@MockBean</code> annotation to fake Spring beans.</p>\n\n<p><strong>Reaction on comment:</strong></p>\n\n<p>To keep context in cache do not use <code>@DirtiesContext</code>, but use <code>@ContextConfiguration(name = \"contextWithFakeBean\")</code> and it will create separate context, while it will keep default context in cache. Spring will  keep both (or how many contexts you have) in cache. </p>\n\n<p>Our build is this way, where most of the tests are using default non-poluted config, but we have 4-5 tests that are faking beans. Default context is nicely reused</p>\n",
+      "owner": {
+        "display_name": "luboskrnac",
+        "link": "https://stackoverflow.com/users/1919879/luboskrnac"
+      }
+    },
+    {
+      "answer_id": 22687418,
+      "body": "<p>I assume that boot is configuring the <code>DataSource</code> for you. In this case, and since you are using MySQL, you can add the following to your <code>application.properties</code> up to 1.3</p>\n\n<pre><code>spring.datasource.testOnBorrow=true\nspring.datasource.validationQuery=SELECT 1\n</code></pre>\n\n<p>As djxak noted in the comment, 1.4+ defines specific namespaces for the four connections pools Spring Boot supports: <code>tomcat</code>, <code>hikari</code>, <code>dbcp</code>, <code>dbcp2</code> (<code>dbcp</code> is deprecated as of 1.5). You need to check which connection pool you are using and check if that feature is supported. The example above was for tomcat so you'd have to write it as follows in 1.4+:</p>\n\n<pre><code>spring.datasource.tomcat.testOnBorrow=true \nspring.datasource.tomcat.validationQuery=SELECT 1\n</code></pre>\n\n<p>Note that the use of <code>autoReconnect</code> is <a href=\"http://dev.mysql.com/doc/connector-j/en/connector-j-reference-configuration-properties.html\" rel=\"noreferrer\">not recommended</a>:</p>\n\n<blockquote>\n  <p>The use of this feature is not recommended, because it has side effects related to session state and data consistency when applications don't handle SQLExceptions properly, and is only designed to be used when you are unable to configure your application to handle SQLExceptions resulting from dead and stale connections properly.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Stephane Nicoll",
+        "link": "https://stackoverflow.com/users/613628/stephane-nicoll"
+      }
+    },
+    {
+      "answer_id": 42370974,
+      "body": "<p><a href=\"http://howtodoinjava.com/spring/spring-restful/spring-restful-client-resttemplate-example/\" rel=\"noreferrer\">This website has some nice examples for using spring's RestTemplate.</a>\nHere is a code example of how it can work to get a simple object:</p>\n\n<pre><code>private static void getEmployees()\n{\n    final String uri = \"http://localhost:8080/springrestexample/employees.xml\";\n\n    RestTemplate restTemplate = new RestTemplate();\n    String result = restTemplate.getForObject(uri, String.class);\n\n    System.out.println(result);\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Torsten N.",
+        "link": "https://stackoverflow.com/users/5585131/torsten-n"
+      }
+    },
+    {
+      "answer_id": 35545152,
+      "body": "<p>I have just asked the <code>Spring Cloud</code> guys and thought I should share the info I have here.</p>\n\n<p><strong><code>bootstrap.yml</code> is loaded before <code>application.yml</code>.</strong></p>\n\n<p>It is typically used for the following:</p>\n\n<ul>\n<li>when using Spring Cloud Config Server, you should specify <code>spring.application.name</code> and <code>spring.cloud.config.server.git.uri</code> inside <code>bootstrap.yml</code></li>\n<li>some <code>encryption/decryption</code> information</li>\n</ul>\n\n<p>Technically, <code>bootstrap.yml</code> is loaded by a parent Spring <code>ApplicationContext</code>. That parent <code>ApplicationContext</code> is loaded before the one that uses <code>application.yml</code>.</p>\n",
+      "owner": {
+        "display_name": "Michael Isvy",
+        "link": "https://stackoverflow.com/users/2310401/michael-isvy"
+      }
+    },
+    {
+      "answer_id": 37288790,
+      "body": "<p>I think that you have Spring Security on your class path and then spring security is automatically configured with a default user and generated password</p>\n\n<p>Please look into your pom.xml file for:</p>\n\n<pre><code>&lt;dependency&gt;\n    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;\n    &lt;artifactId&gt;spring-boot-starter-security&lt;/artifactId&gt;\n&lt;/dependency&gt;\n</code></pre>\n\n<p>If you have that in your pom than you should have a log console message like this:</p>\n\n<p><code>Using default security password: ce6c3d39-8f20-4a41-8e01-803166bb99b6</code></p>\n\n<p>And in the browser prompt you will import the user <code>user</code> and the password printed in the console.</p>\n\n<p>Or if you want to configure spring security you can take a look at <a href=\"https://github.com/spring-projects/spring-boot/blob/master/spring-boot-samples/spring-boot-sample-secure\">Spring Boot secured example</a></p>\n\n<p>It is explained in the Spring Boot <em>Reference documentation</em> in the <a href=\"http://docs.spring.io/spring-boot/docs/1.4.0.RELEASE/reference/htmlsingle/#boot-features-security\">Security</a> section, it indicates:</p>\n\n<pre><code>The default AuthenticationManager has a single user (‘user’ username and random password, printed at `INFO` level when the application starts up)\n\nUsing default security password: 78fa095d-3f4c-48b1-ad50-e24c31d5cf35\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marcel Dias",
+        "link": "https://stackoverflow.com/users/4638693/marcel-dias"
+      }
+    },
+    {
+      "answer_id": 39084906,
+      "body": "<p>Indeed, Spring Boot does set itself up for the most part. You can probably already get rid of a lot of the code you posted, especially in <code>Application</code>.</p>\n\n<p>I wish you had included the package names of all your classes, or at least the ones for <code>Application</code> and <code>JpaTest</code>. The thing about <code>@DataJpaTest</code> and a few other annotations is that they look for a <code>@SpringBootConfiguration</code> annotation in the current package, and if they cannot find it there, they traverse the package hierarchy until they find it.</p>\n\n<p>For example, if the fully qualified name for your test class was <code>com.example.test.JpaTest</code> and the one for your application was <code>com.example.Application</code>, then your test class would be able to find the <code>@SpringBootApplication</code> (and therein, the <code>@SpringBootConfiguration</code>).</p>\n\n<p>If the application resided in a different branch of the package hierarchy, however, like <code>com.example.application.Application</code>, it would <em>not</em> find it.</p>\n\n<h2>Example</h2>\n\n<p>Consider the following Maven project:</p>\n\n<pre><code>my-test-project\n  +--pom.xml\n  +--src\n    +--main\n      +--com\n        +--example\n          +--Application.java\n    +--test\n      +--com\n        +--example\n          +--test\n            +--JpaTest.java\n</code></pre>\n\n<p>And then the following content in <code>Application.java</code>:</p>\n\n<pre><code>package com.example;\n\n@SpringBootApplication\npublic class Application {\n\n    public static void main(String[] args) {\n        SpringApplication.run(Application.class, args);\n    }\n}\n</code></pre>\n\n<p>Followed by the contents of <code>JpaTest.java</code>:</p>\n\n<pre><code>package com.example.test;\n\n@RunWith(SpringRunner.class)\n@DataJpaTest\npublic class JpaTest {\n\n    @Test\n    public void testDummy() {\n    }\n}\n</code></pre>\n\n<p>Everything should be working. If you create a new folder inside <code>src/main/com/example</code> called <code>app</code>, and then put your <code>Application.java</code> inside it (and update the <code>package</code> declaration inside the file), running the test will give you the following error:</p>\n\n<blockquote>\n  <p>java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Thomas K&#229;sene",
+        "link": "https://stackoverflow.com/users/6737860/thomas-k%c3%a5sene"
+      }
+    },
+    {
+      "answer_id": 24114612,
+      "body": "<p>Why don't you just right click on the <code>main()</code> method and choose <code>\"Debug As... Java Application\"</code>?</p>\n",
+      "owner": {
+        "display_name": "Dave Syer",
+        "link": "https://stackoverflow.com/users/1259109/dave-syer"
+      }
+    },
+    {
+      "answer_id": 31318789,
+      "body": "<p>Try adding the following to your InventoryApp class</p>\n\n<pre><code>@SpringBootApplication\n@ComponentScan(basePackageClasses = ItemInventoryController.class)\npublic class InventoryApp {\n...\n</code></pre>\n\n<p>spring-boot will scan for components in packages below <code>com.nice.application</code>, so if your controller is in <code>com.nice.controller</code> you need to scan for it explicitly.</p>\n",
+      "owner": {
+        "display_name": "MattR",
+        "link": "https://stackoverflow.com/users/1506440/mattr"
+      }
+    },
+    {
+      "answer_id": 25765032,
+      "body": "<p>The way you are performing the injection of the property will not work, because the injection is done after the constructor is called.</p>\n\n<p>You need to do one of the following:</p>\n\n<p><strong>Better solution</strong></p>\n\n<pre><code>@Component\npublic class MyBean {\n\n    private final String prop;\n\n    @Autowired\n    public MyBean(@Value(\"${some.prop}\") String prop) {\n        this.prop = prop;\n        System.out.println(\"================== \" + prop + \"================== \");\n    }\n}\n</code></pre>\n\n<p><strong>Solution that will work but is less testable and slightly less readable</strong></p>\n\n<pre><code>@Component\npublic class MyBean {\n\n    @Value(\"${some.prop}\")\n    private String prop;\n\n    public MyBean() {\n\n    }\n\n    @PostConstruct\n    public void init() {\n        System.out.println(\"================== \" + prop + \"================== \");\n    }\n}\n</code></pre>\n\n<p>Also note that is not Spring Boot specific but applies to any Spring application</p>\n",
+      "owner": {
+        "display_name": "geoand",
+        "link": "https://stackoverflow.com/users/2504224/geoand"
+      }
+    },
+    {
+      "answer_id": 36503333,
+      "body": "<p>At last found the answer from the link in my comments. As this is a spring boot application ...special case... the notations should be </p>\n\n<pre><code>@xxxxx@  instead of ${xxxxx}\n</code></pre>\n\n<p>So my property file would be as below</p>\n\n<pre><code>### Spring boot properties\njdbc.url=@jdbc.url@\nldap.domain=@ldap_domain@\nldap.url=@ldap_url@\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jay",
+        "link": "https://stackoverflow.com/users/1781611/jay"
+      }
+    },
+    {
+      "answer_id": 25079415,
+      "body": "<p><strong>Original Answer (using Gradle 1.12 and Spring Boot 1.0.x):</strong></p>\n\n<p>The <code>bootRun</code> task of the Spring Boot gradle plugin extends the gradle JavaExec task. See <a href=\"https://github.com/spring-projects/spring-boot/blob/55650bd61887cbfddabbb5167acbf9121682d7fe/spring-boot-tools/spring-boot-gradle-plugin/src/main/groovy/org/springframework/boot/gradle/run/BootRunTask.java\">this</a>.</p>\n\n<p>That means that you can configure the plugin to use the proxy by adding: </p>\n\n<pre><code>bootRun {\n   jvmArgs = \"-Dhttp.proxyHost=xxxxxx\", \"-Dhttp.proxyPort=xxxxxx\"\n}\n</code></pre>\n\n<p>to your build file.</p>\n\n<p>Of course you could use the <code>systemProperties</code> instead of <code>jvmArgs</code></p>\n\n<p>If you want to conditionally add jvmArgs from the command line you can do the following:</p>\n\n<pre><code>bootRun {\n    if ( project.hasProperty('jvmArgs') ) {\n        jvmArgs project.jvmArgs.split('\\\\s+')\n    }\n}\n\ngradle bootRun -PjvmArgs=\"-Dwhatever1=value1 -Dwhatever2=value2\"\n</code></pre>\n\n<p><strong>Updated Answer:</strong></p>\n\n<p>After trying out my solution above using <em>Spring Boot 1.2.6.RELEASE</em> and <em>Gradle 2.7</em> I observed that it was not working as some of the comments mention.\nHowever, a few minor tweaks can be made to recover the working state.</p>\n\n<p>The new code is:</p>\n\n<pre><code>bootRun {\n   jvmArgs = [\"-Dhttp.proxyHost=xxxxxx\", \"-Dhttp.proxyPort=xxxxxx\"]\n}\n</code></pre>\n\n<p>for hard-coded arguments, and</p>\n\n<pre><code>bootRun {\n    if ( project.hasProperty('jvmArgs') ) {\n        jvmArgs = (project.jvmArgs.split(\"\\\\s+\") as List)\n\n    }\n}\n</code></pre>\n\n<p>for arguments provided from the command line</p>\n",
+      "owner": {
+        "display_name": "geoand",
+        "link": "https://stackoverflow.com/users/2504224/geoand"
+      }
+    },
+    {
+      "answer_id": 28649205,
+      "body": "<p>By default <code>X-Frame-Options</code> is set to denied, to prevent <a href=\"http://en.wikipedia.org/wiki/Clickjacking\">clickjacking</a> attacks. To override this, you can add the following into your spring security config</p>\n\n<pre><code>&lt;http&gt;    \n    &lt;headers&gt;\n        &lt;frame-options policy=\"SAMEORIGIN\"/&gt;\n    &lt;/headers&gt;\n&lt;/http&gt;\n</code></pre>\n\n<p>Here are available options for policy</p>\n\n<ul>\n<li><strong>DENY</strong> - is a default value. With this the page cannot be displayed in a frame, regardless of the site attempting to do so. </li>\n<li><strong>SAMEORIGIN</strong> - I assume this is what you are looking for, so that the page will be (and can be) displayed in a frame on the same origin as the page itself</li>\n<li><strong>ALLOW-FROM</strong> - Allows you to specify an origin, where the page can be displayed in a frame.</li>\n</ul>\n\n<p>For more information take a look <a href=\"http://docs.spring.io/spring-security/site/docs/3.2.0.CI-SNAPSHOT/reference/html/appendix-namespace.html#nsa-frame-options\">here</a>. </p>\n\n<p>And <a href=\"http://docs.spring.io/autorepo/docs/spring-security/3.2.0.CI-SNAPSHOT/reference/html/headers.html\">here</a> to check how you can configure the headers using either XML or Java configs.</p>\n\n<p>Note, that you might need also to specify appropriate <code>strategy</code>, based on needs.</p>\n",
+      "owner": {
+        "display_name": "vtor",
+        "link": "https://stackoverflow.com/users/1534407/vtor"
+      }
+    },
+    {
+      "answer_id": 34198653,
+      "body": "<p>I managed to fix it finally. The problem is not related to HikariCP.\nThe problem persisted because of some complex methods in REST controllers executing multiple changes in DB through JPA repositories. For some reasons calls to these interfaces resulted in a growing number of \"freezed\" active connections, exhausting the pool. Either annotating these methods as <code>@Transactional</code> or enveloping all the logic in a single call to transactional service method seem to solve the problem.</p>\n",
+      "owner": {
+        "display_name": "dfche",
+        "link": "https://stackoverflow.com/users/2000169/dfche"
+      }
+    },
+    {
+      "answer_id": 25362790,
+      "body": "<p>You need to change your code to the following:</p>\n\n<pre><code>@RestController\npublic class IndexController implements ErrorController{\n\n    private static final String PATH = \"/error\";\n\n    @RequestMapping(value = PATH)\n    public String error() {\n        return \"Error handling\";\n    }\n\n    @Override\n    public String getErrorPath() {\n        return PATH;\n    }\n}\n</code></pre>\n\n<p>Your code did not work, because Spring Boot automatically registers the <code>BasicErrorController</code> as a Spring Bean when you have not specified an implementation of <code>ErrorController</code>.  </p>\n\n<p>To see that fact just navigate to <code>ErrorMvcAutoConfiguration.basicErrorController</code> <a href=\"https://github.com/spring-projects/spring-boot/blob/v1.1.5.RELEASE/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration.java\">here</a>.</p>\n",
+      "owner": {
+        "display_name": "geoand",
+        "link": "https://stackoverflow.com/users/2504224/geoand"
+      }
+    },
+    {
+      "answer_id": 28668674,
+      "body": "<p>I think replacing <code>@ComponentScan</code> with <code>@ComponentScan(\"com.nervy.dialer.domain\")</code> will work.</p>\n\n<p>Edit :</p>\n\n<p>I have added a <a href=\"https://github.com/azizunsal/SpringBoot-BoneCP-PooledDataSource\" rel=\"noreferrer\">sample application</a> to demonstrate how to set up a pooled datasource connection with BoneCP. </p>\n\n<p>The application has the same structure with yours. I hope this will help you to resolve your configuration problems</p>\n",
+      "owner": {
+        "display_name": "azizunsal",
+        "link": "https://stackoverflow.com/users/473749/azizunsal"
+      }
+    },
+    {
+      "answer_id": 32788203,
+      "body": "<p>This is unfortunately a know issue with the new <code>spring-boot-devtools</code> module (see <a href=\"https://github.com/spring-projects/spring-boot/issues/3100\">https://github.com/spring-projects/spring-boot/issues/3100</a>). We use this trick to kill the main thread so that we can replace it with a re-loadable version. So far I've not found a way to prevent the debug breakpoint from triggering.</p>\n\n<p>For now, you can toggle the \"suspend execution on uncaught exceptions\" checkbox in Java -> Debug preferences to prevent it from happening.</p>\n",
+      "owner": {
+        "display_name": "Phil Webb",
+        "link": "https://stackoverflow.com/users/1526192/phil-webb"
+      }
+    },
+    {
+      "answer_id": 32197312,
+      "body": "<p>Spring Boot already <a href=\"http://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html\" rel=\"noreferrer\">has support</a> for <a href=\"http://docs.spring.io/spring/docs/current/spring-framework-reference/html/beans.html#beans-definition-profiles\" rel=\"noreferrer\">profile</a> based properties.</p>\n\n<p>Simply add an <code>application-[profile].properties</code> file and specify the profiles to use using the <code>spring.profiles.active</code> property. </p>\n\n<pre><code>-Dspring.profiles.active=local\n</code></pre>\n\n<p>This will load the <code>application.properties</code> and the <code>application-local.properties</code> with the latter overriding properties from the first.</p>\n",
+      "owner": {
+        "display_name": "M. Deinum",
+        "link": "https://stackoverflow.com/users/2696260/m-deinum"
+      }
+    },
+    {
+      "answer_id": 31057742,
+      "body": "<p>I had to add this:</p>\n\n<pre><code>bootRun {\n    String activeProfile =  System.properties['spring.profiles.active']\n    String confLoc = System.properties['spring.config.location']\n    systemProperty \"spring.profiles.active\", activeProfile\n    systemProperty \"spring.config.location\", \"file:$confLoc\"\n}\n</code></pre>\n\n<p>And now bootRun picks up the profile and config locations.</p>\n\n<p>Thanks a lot @jst for the pointer.</p>\n",
+      "owner": {
+        "display_name": "ferrari16",
+        "link": "https://stackoverflow.com/users/2360694/ferrari16"
+      }
+    },
+    {
+      "answer_id": 30768011,
+      "body": "<p>I found out a solution about excluding <strong>SecurityAutoConfiguration</strong> class.</p>\n\n<p>Example:</p>\n\n<pre><code>@SpringBootApplication(exclude = {SecurityAutoConfiguration.class })\npublic class ReportApplication {\n\n    public static void main(String[] args) throws Exception {\n        SpringApplication.run(MyApplication.class, args);\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Carlos Alberto",
+        "link": "https://stackoverflow.com/users/1732123/carlos-alberto"
+      }
+    },
+    {
+      "answer_id": 23991715,
+      "body": "<p>Add exclusion to both the spring-boot-starter and spring-boot-starter-web to resolve the conflict.</p>\n\n<pre><code>&lt;dependency&gt;\n  &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;\n  &lt;artifactId&gt;spring-boot-starter&lt;/artifactId&gt;\n  &lt;exclusions&gt;\n    &lt;exclusion&gt;\n      &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;\n      &lt;artifactId&gt;spring-boot-starter-logging&lt;/artifactId&gt;\n    &lt;/exclusion&gt;\n  &lt;/exclusions&gt;\n&lt;/dependency&gt;\n\n&lt;dependency&gt;\n  &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;\n  &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;\n  &lt;exclusions&gt;\n    &lt;exclusion&gt;\n      &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;\n      &lt;artifactId&gt;spring-boot-starter-logging&lt;/artifactId&gt;\n    &lt;/exclusion&gt;\n  &lt;/exclusions&gt;\n&lt;/dependency&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "F.O.O",
+        "link": "https://stackoverflow.com/users/1464389/f-o-o"
+      }
+    },
+    {
+      "answer_id": 29673732,
+      "body": "<p>You can use <code>@TestPropertySource</code> to override values in <code>application.properties</code>. From its javadoc:</p>\n\n<blockquote>\n  <p>test property sources can be used to selectively override properties defined in system and application property sources</p>\n</blockquote>\n\n<p>For example:</p>\n\n<pre class=\"lang-java prettyprint-override\"><code>@RunWith(SpringJUnit4ClassRunner.class)\n@SpringApplicationConfiguration(classes = ExampleApplication.class)\n@TestPropertySource(locations=\"classpath:test.properties\")\npublic class ExampleApplicationTests {\n\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Andy Wilkinson",
+        "link": "https://stackoverflow.com/users/1384297/andy-wilkinson"
+      }
+    },
+    {
+      "answer_id": 27405775,
+      "body": "<p>Try:</p>\n\n<pre><code>@Configuration\n@EnableAutoConfiguration\n@ComponentScan\npublic class Application extends SpringBootServletInitializer {\n\n    @SuppressWarnings(\"resource\")\n    public static void main(final String[] args) {\n        ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);\n\n        context.getBean(Table.class).fillWithTestdata(); // &lt;-- here\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Anton Bessonov",
+        "link": "https://stackoverflow.com/users/926620/anton-bessonov"
+      }
+    },
+    {
+      "answer_id": 26105252,
+      "body": "<p>Spring boot will not include embedded tomcat if you don't have Tomcat dependencies on the classpath.\nYou can view this fact yourself at the class <code>EmbeddedServletContainerAutoConfiguration</code> whose source you can find <a href=\"https://github.com/spring-projects/spring-boot/blob/v1.1.7.RELEASE/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/web/EmbeddedServletContainerAutoConfiguration.java\">here</a>.</p>\n\n<p>The meat of the code is the use of the <code>@ConditionalOnClass</code> annotation on the class <code>EmbeddedTomcat</code></p>\n\n<hr>\n\n<p>Also, for more information check out <a href=\"http://spring.io/blog/2014/03/07/deploying-spring-boot-applications\">this</a> and <a href=\"http://spring.io/guides/gs/convert-jar-to-war-maven/\">this</a> guide and <a href=\"http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#build-tool-plugins-maven-packaging\">this</a> part of the documentation</p>\n",
+      "owner": {
+        "display_name": "geoand",
+        "link": "https://stackoverflow.com/users/2504224/geoand"
+      }
+    },
+    {
+      "answer_id": 24921330,
+      "body": "<p>You can have a map injected using <code>@ConfigurationProperties</code>:</p>\n\n<pre><code>import java.util.HashMap;\nimport java.util.Map;\n\nimport org.springframework.boot.SpringApplication;\nimport org.springframework.boot.autoconfigure.EnableAutoConfiguration;\nimport org.springframework.boot.context.properties.ConfigurationProperties;\nimport org.springframework.boot.context.properties.EnableConfigurationProperties;\nimport org.springframework.context.annotation.Bean;\nimport org.springframework.context.annotation.Configuration;\n\n@Configuration\n@EnableAutoConfiguration\n@EnableConfigurationProperties\npublic class MapBindingSample {\n\n    public static void main(String[] args) throws Exception {\n        System.out.println(SpringApplication.run(MapBindingSample.class, args)\n                .getBean(Test.class).getInfo());\n    }\n\n    @Bean\n    @ConfigurationProperties\n    public Test test() {\n        return new Test();\n    }\n\n    public static class Test {\n\n        private Map&lt;String, Object&gt; info = new HashMap&lt;String, Object&gt;();\n\n        public Map&lt;String, Object&gt; getInfo() {\n            return this.info;\n        }\n    }\n}\n</code></pre>\n\n<p>Running this with the yaml in the question produces:</p>\n\n<pre><code>{build={artifact=${project.artifactId}, version=${project.version}, name=${project.name}, description=${project.description}}}\n</code></pre>\n\n<p>There are various options for setting a prefix, controlling how missing properties are handled, etc. See the <a href=\"http://docs.spring.io/spring-boot/docs/1.1.4.RELEASE/api/org/springframework/boot/context/properties/ConfigurationProperties.html\" rel=\"noreferrer\">javadoc</a> for more information.</p>\n",
+      "owner": {
+        "display_name": "Andy Wilkinson",
+        "link": "https://stackoverflow.com/users/1384297/andy-wilkinson"
+      }
+    },
+    {
+      "answer_id": 24727653,
+      "body": "<p>This is how I got the H2 console working in spring-boot with H2. I am not sure if this is right but since no one else has offered a solution then I am going to suggest this is the best way to do it.</p>\n\n<p>In my case, I chose a specific name for the database so that I would have something to enter when starting the H2 console (in this case, \"AZ\"). I think all of these are required though it seems like leaving out the spring.jpa.database-platform does not hurt anything. </p>\n\n<p>In application.properties:</p>\n\n<pre><code>spring.datasource.url=jdbc:h2:mem:AZ;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE\nspring.datasource.driverClassName=org.h2.Driver\nspring.datasource.username=sa\nspring.datasource.password=\nspring.jpa.database-platform=org.hibernate.dialect.H2Dialect\n</code></pre>\n\n<p>In Application.java (or some configuration):</p>\n\n<pre><code>@Bean\npublic ServletRegistrationBean h2servletRegistration() {\n    ServletRegistrationBean registration = new ServletRegistrationBean(new WebServlet());\n    registration.addUrlMappings(\"/console/*\");\n    return registration;\n}\n</code></pre>\n\n<p>Then you can access the H2 console at {server}/console/. Enter this as the JDBC URL: jdbc:h2:mem:AZ</p>\n",
+      "owner": {
+        "display_name": "Aaron Zeckoski",
+        "link": "https://stackoverflow.com/users/1519434/aaron-zeckoski"
+      }
+    },
+    {
+      "answer_id": 21783745,
+      "body": "<p>The scheduling guide isn't a web app so you probably have some mouldy stuff in your pom.xml from the REST guide? If you follow the instructions closely it should work. Another potential issue with the code you posted above is that your <code>@EnableAutoConfiguration</code> class is not used in the context, only as a main method (which may not be a problem for the scheduling guide but it probably is for a bunch of others).</p>\n",
+      "owner": {
+        "display_name": "Dave Syer",
+        "link": "https://stackoverflow.com/users/1259109/dave-syer"
+      }
+    },
+    {
+      "answer_id": 18993306,
+      "body": "<p>The configuration seem alright, except that you should use <code>excludeFilters</code> instead of <code>excludes</code>:</p>\n\n<pre><code>@Configuration @EnableSpringConfigured\n@ComponentScan(basePackages = {\"com.example\"}, excludeFilters={\n  @ComponentScan.Filter(type=FilterType.ASSIGNABLE_TYPE, value=Foo.class)})\npublic class MySpringConfiguration {}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sergi Almar",
+        "link": "https://stackoverflow.com/users/2707251/sergi-almar"
+      }
+    }
+  ]
+}

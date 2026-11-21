@@ -1,0 +1,1395 @@
+{
+  "library": "go:github.com/labstack/echo/v4",
+  "fetched_at": "2026-11-21T17:28:19Z",
+  "questions": [
+    {
+      "question_id": 41410655,
+      "title": "extract JSON from golang&#39;s echo request",
+      "accepted_answer_id": 41412371,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/41410655/extract-json-from-golangs-echo-request",
+      "owner": {
+        "display_name": "7hacker",
+        "link": "https://stackoverflow.com/users/448844/7hacker"
+      }
+    },
+    {
+      "question_id": 53920568,
+      "title": "How to fix refreshing error with Echo and Angular",
+      "accepted_answer_id": 53922653,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/53920568/how-to-fix-refreshing-error-with-echo-and-angular",
+      "owner": {
+        "display_name": "Tuan Nguyen",
+        "link": "https://stackoverflow.com/users/8632181/tuan-nguyen"
+      }
+    },
+    {
+      "question_id": 59889551,
+      "title": "Testing a multipart form upload endpoint in Echo framework",
+      "accepted_answer_id": 59934739,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/59889551/testing-a-multipart-form-upload-endpoint-in-echo-framework",
+      "owner": {
+        "display_name": "jcobhams",
+        "link": "https://stackoverflow.com/users/1065731/jcobhams"
+      }
+    },
+    {
+      "question_id": 53163520,
+      "title": "Testing POST request with Echo (expected vs actual output)",
+      "accepted_answer_id": 53165644,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/53163520/testing-post-request-with-echo-expected-vs-actual-output",
+      "owner": {
+        "display_name": "GaidarOS",
+        "link": "https://stackoverflow.com/users/8023930/gaidaros"
+      }
+    },
+    {
+      "question_id": 59247645,
+      "title": "How to works with Golang echo framework and Telegram bot?",
+      "accepted_answer_id": 59248923,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/59247645/how-to-works-with-golang-echo-framework-and-telegram-bot",
+      "owner": {
+        "display_name": "MohammadReza",
+        "link": "https://stackoverflow.com/users/7431943/mohammadreza"
+      }
+    },
+    {
+      "question_id": 60469549,
+      "title": "Creating unique Indexes with MongoDb default driver in Go",
+      "accepted_answer_id": 60471468,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/60469549/creating-unique-indexes-with-mongodb-default-driver-in-go",
+      "owner": {
+        "display_name": "imadu",
+        "link": "https://stackoverflow.com/users/12726897/imadu"
+      }
+    },
+    {
+      "question_id": 73678238,
+      "title": "How to Add/Set Header after next() in Golang Echo Middleware?",
+      "accepted_answer_id": 73678476,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/73678238/how-to-add-set-header-after-next-in-golang-echo-middleware",
+      "owner": {
+        "display_name": "Jacky Supit",
+        "link": "https://stackoverflow.com/users/5005765/jacky-supit"
+      }
+    },
+    {
+      "question_id": 33162687,
+      "title": "Websocket send all clients a message in Echo Framework",
+      "accepted_answer_id": 33163851,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/33162687/websocket-send-all-clients-a-message-in-echo-framework",
+      "owner": {
+        "display_name": "asubanovsky",
+        "link": "https://stackoverflow.com/users/3200803/asubanovsky"
+      }
+    },
+    {
+      "question_id": 36499798,
+      "title": "golang API with echo framework",
+      "accepted_answer_id": 36500318,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/36499798/golang-api-with-echo-framework",
+      "owner": {
+        "display_name": "gempir",
+        "link": "https://stackoverflow.com/users/3648229/gempir"
+      }
+    },
+    {
+      "question_id": 58213600,
+      "title": "Passing parameters to Echo route middleware",
+      "accepted_answer_id": 58213784,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/58213600/passing-parameters-to-echo-route-middleware",
+      "owner": {
+        "display_name": "Hossein",
+        "link": "https://stackoverflow.com/users/6932198/hossein"
+      }
+    },
+    {
+      "question_id": 60775182,
+      "title": "How to deploy GO Echo my app to Elastic Beanstalk",
+      "accepted_answer_id": 60870489,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/60775182/how-to-deploy-go-echo-my-app-to-elastic-beanstalk",
+      "owner": {
+        "display_name": "Damien",
+        "link": "https://stackoverflow.com/users/11612/damien"
+      }
+    },
+    {
+      "question_id": 61916842,
+      "title": "Echo web framework binding FormFile",
+      "accepted_answer_id": 61917945,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/61916842/echo-web-framework-binding-formfile",
+      "owner": {
+        "display_name": "dev0864",
+        "link": "https://stackoverflow.com/users/3446256/dev0864"
+      }
+    },
+    {
+      "question_id": 70087465,
+      "title": "Echo Groups not working with OpenAPI generated code using oapi-codegen",
+      "accepted_answer_id": 70164132,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/70087465/echo-groups-not-working-with-openapi-generated-code-using-oapi-codegen",
+      "owner": {
+        "display_name": "user2233706",
+        "link": "https://stackoverflow.com/users/2233706/user2233706"
+      }
+    },
+    {
+      "question_id": 47486812,
+      "title": "Golang img from base64 ZgotmplZ",
+      "accepted_answer_id": 47488038,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/47486812/golang-img-from-base64-zgotmplz",
+      "owner": {
+        "display_name": "dekros",
+        "link": "https://stackoverflow.com/users/5108376/dekros"
+      }
+    },
+    {
+      "question_id": 65210891,
+      "title": "cannot get request header",
+      "accepted_answer_id": 65211164,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/65210891/cannot-get-request-header",
+      "owner": {
+        "display_name": "Canshi Wei",
+        "link": "https://stackoverflow.com/users/10015245/canshi-wei"
+      }
+    },
+    {
+      "question_id": 69342582,
+      "title": "How do I bind a date string to a struct?",
+      "accepted_answer_id": 69343577,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/69342582/how-do-i-bind-a-date-string-to-a-struct",
+      "owner": {
+        "display_name": "Choi yun seok",
+        "link": "https://stackoverflow.com/users/10151842/choi-yun-seok"
+      }
+    },
+    {
+      "question_id": 72875958,
+      "title": "Golang - Binding Headers in echo api",
+      "accepted_answer_id": 72876242,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/72875958/golang-binding-headers-in-echo-api",
+      "owner": {
+        "display_name": "mikolaj semeniuk",
+        "link": "https://stackoverflow.com/users/13947931/mikolaj-semeniuk"
+      }
+    },
+    {
+      "question_id": 76732736,
+      "title": "I want to Serve React App with react router dom with echo",
+      "accepted_answer_id": 76744785,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/76732736/i-want-to-serve-react-app-with-react-router-dom-with-echo",
+      "owner": {
+        "display_name": "Aditya Nandwana",
+        "link": "https://stackoverflow.com/users/21695531/aditya-nandwana"
+      }
+    },
+    {
+      "question_id": 57064089,
+      "title": "Golang echo package middleware implementation",
+      "accepted_answer_id": 57064433,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/57064089/golang-echo-package-middleware-implementation",
+      "owner": {
+        "display_name": "hhprogram",
+        "link": "https://stackoverflow.com/users/7994318/hhprogram"
+      }
+    },
+    {
+      "question_id": 64020824,
+      "title": "Problem installing SSL Certificade in Go Lang with Echo framework (Client sent an HTTP request to an HTTPS server.)",
+      "accepted_answer_id": 64021793,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/64020824/problem-installing-ssl-certificade-in-go-lang-with-echo-framework-client-sent-a",
+      "owner": {
+        "display_name": "Jorge Barraza Z",
+        "link": "https://stackoverflow.com/users/6216497/jorge-barraza-z"
+      }
+    },
+    {
+      "question_id": 65972668,
+      "title": "Best way to implement timeout for specific route on Echo/Go",
+      "accepted_answer_id": 65985924,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/65972668/best-way-to-implement-timeout-for-specific-route-on-echo-go",
+      "owner": {
+        "display_name": "Rez Moss",
+        "link": "https://stackoverflow.com/users/6619626/rez-moss"
+      }
+    },
+    {
+      "question_id": 67867325,
+      "title": "echo framework, downgrade privileges at which moment?",
+      "accepted_answer_id": 67873913,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/67867325/echo-framework-downgrade-privileges-at-which-moment",
+      "owner": {
+        "display_name": "Volker",
+        "link": "https://stackoverflow.com/users/6613909/volker"
+      }
+    },
+    {
+      "question_id": 68226822,
+      "title": "CORS golang echo framework",
+      "accepted_answer_id": 68229321,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/68226822/cors-golang-echo-framework",
+      "owner": {
+        "display_name": "undernet",
+        "link": "https://stackoverflow.com/users/11146366/undernet"
+      }
+    },
+    {
+      "question_id": 70596344,
+      "title": "Echo skip JWT middleware",
+      "accepted_answer_id": 70597256,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/70596344/echo-skip-jwt-middleware",
+      "owner": {
+        "display_name": "oakkose",
+        "link": "https://stackoverflow.com/users/17677039/oakkose"
+      }
+    },
+    {
+      "question_id": 72203959,
+      "title": "Go Echo: POST Method gives Error &quot;Method not allowed&quot;",
+      "accepted_answer_id": 72210855,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/72203959/go-echo-post-method-gives-error-method-not-allowed",
+      "owner": {
+        "display_name": "LogiBaer",
+        "link": "https://stackoverflow.com/users/19052302/logibaer"
+      }
+    },
+    {
+      "question_id": 72929883,
+      "title": "Golang Echo Labstack How to Call a Function / Method in a Template View",
+      "accepted_answer_id": 72930195,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/72929883/golang-echo-labstack-how-to-call-a-function-method-in-a-template-view",
+      "owner": {
+        "display_name": "Charas",
+        "link": "https://stackoverflow.com/users/4608714/charas"
+      }
+    },
+    {
+      "question_id": 74869893,
+      "title": "How to prevent &quot;+&quot; from escaping in go-echo",
+      "accepted_answer_id": 74876056,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/74869893/how-to-prevent-from-escaping-in-go-echo",
+      "owner": {
+        "display_name": "Arun Code",
+        "link": "https://stackoverflow.com/users/4945102/arun-code"
+      }
+    },
+    {
+      "question_id": 76985072,
+      "title": "Form variables not available in testing",
+      "accepted_answer_id": 76985576,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/76985072/form-variables-not-available-in-testing",
+      "owner": {
+        "display_name": "Drew",
+        "link": "https://stackoverflow.com/users/5920865/drew"
+      }
+    },
+    {
+      "question_id": 44515677,
+      "title": "How to return valid jsonapi response using google/jsonapi and echo framework",
+      "accepted_answer_id": 44528288,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/44515677/how-to-return-valid-jsonapi-response-using-google-jsonapi-and-echo-framework",
+      "owner": {
+        "display_name": "Michael Ben-Nes",
+        "link": "https://stackoverflow.com/users/434792/michael-ben-nes"
+      }
+    },
+    {
+      "question_id": 45525332,
+      "title": "Close all goroutines when HTTP request is cancelled",
+      "accepted_answer_id": 45525909,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/45525332/close-all-goroutines-when-http-request-is-cancelled",
+      "owner": {
+        "display_name": "heartofrevel",
+        "link": "https://stackoverflow.com/users/1686794/heartofrevel"
+      }
+    },
+    {
+      "question_id": 48047373,
+      "title": "Echo is not clearing the session",
+      "accepted_answer_id": 48070831,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/48047373/echo-is-not-clearing-the-session",
+      "owner": {
+        "display_name": "pyprism",
+        "link": "https://stackoverflow.com/users/2566671/pyprism"
+      }
+    },
+    {
+      "question_id": 51827190,
+      "title": "How to properly test handler with custom context in echo?",
+      "accepted_answer_id": 51829311,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/51827190/how-to-properly-test-handler-with-custom-context-in-echo",
+      "owner": {
+        "display_name": "happy_yar",
+        "link": "https://stackoverflow.com/users/1589841/happy-yar"
+      }
+    },
+    {
+      "question_id": 55926176,
+      "title": "Golang echo middleware redirect with empty page",
+      "accepted_answer_id": 68119500,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/55926176/golang-echo-middleware-redirect-with-empty-page",
+      "owner": {
+        "display_name": "smark",
+        "link": "https://stackoverflow.com/users/5001391/smark"
+      }
+    },
+    {
+      "question_id": 56263356,
+      "title": "Gorm Count On Preloaded Field",
+      "accepted_answer_id": 56264569,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/56263356/gorm-count-on-preloaded-field",
+      "owner": {
+        "display_name": "C0ol_Cod3r",
+        "link": "https://stackoverflow.com/users/3529908/c0ol-cod3r"
+      }
+    },
+    {
+      "question_id": 58186129,
+      "title": "How to import sub-routes from other packages",
+      "accepted_answer_id": 58186683,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/58186129/how-to-import-sub-routes-from-other-packages",
+      "owner": {
+        "display_name": "Valorad",
+        "link": "https://stackoverflow.com/users/6514473/valorad"
+      }
+    },
+    {
+      "question_id": 65292068,
+      "title": "How to trigger BasicAuth prompt in conjunction with custom HTTP error handler in golang/echo?",
+      "accepted_answer_id": 65294743,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/65292068/how-to-trigger-basicauth-prompt-in-conjunction-with-custom-http-error-handler-in",
+      "owner": {
+        "display_name": "helpexchange",
+        "link": "https://stackoverflow.com/users/11141257/helpexchange"
+      }
+    },
+    {
+      "question_id": 67245575,
+      "title": "golang echo controller model",
+      "accepted_answer_id": 67245609,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/67245575/golang-echo-controller-model",
+      "owner": {
+        "display_name": "Ming",
+        "link": "https://stackoverflow.com/users/13102905/ming"
+      }
+    },
+    {
+      "question_id": 69409036,
+      "title": "How to bind multipart/form-data array in Echo framework?",
+      "accepted_answer_id": 69431733,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/69409036/how-to-bind-multipart-form-data-array-in-echo-framework",
+      "owner": {
+        "display_name": "Choi yun seok",
+        "link": "https://stackoverflow.com/users/10151842/choi-yun-seok"
+      }
+    },
+    {
+      "question_id": 71616836,
+      "title": "Inject headers into httptest.Recorder so echo context can see them in Golang",
+      "accepted_answer_id": 73630901,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/71616836/inject-headers-into-httptest-recorder-so-echo-context-can-see-them-in-golang",
+      "owner": {
+        "display_name": "Woody1193",
+        "link": "https://stackoverflow.com/users/3121975/woody1193"
+      }
+    },
+    {
+      "question_id": 73323435,
+      "title": "Partial update a structure with echo and gorm",
+      "accepted_answer_id": 73325464,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/73323435/partial-update-a-structure-with-echo-and-gorm",
+      "owner": {
+        "display_name": "Faulheit",
+        "link": "https://stackoverflow.com/users/14902846/faulheit"
+      }
+    },
+    {
+      "question_id": 74972983,
+      "title": "error: json: unsupported type: func() time.Time in Golang",
+      "accepted_answer_id": 74981706,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/74972983/error-json-unsupported-type-func-time-time-in-golang",
+      "owner": {
+        "display_name": "judith herlambang",
+        "link": "https://stackoverflow.com/users/19141610/judith-herlambang"
+      }
+    },
+    {
+      "question_id": 74979594,
+      "title": "how to create dinamic port in golang (echo framwork)",
+      "accepted_answer_id": 74988395,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/74979594/how-to-create-dinamic-port-in-golang-echo-framwork",
+      "owner": {
+        "display_name": "dev gomar",
+        "link": "https://stackoverflow.com/users/20828352/dev-gomar"
+      }
+    },
+    {
+      "question_id": 75624560,
+      "title": "Appending to an existing list via http request",
+      "accepted_answer_id": 75625741,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/75624560/appending-to-an-existing-list-via-http-request",
+      "owner": {
+        "display_name": "daikon-dev",
+        "link": "https://stackoverflow.com/users/21192248/daikon-dev"
+      }
+    },
+    {
+      "question_id": 75789829,
+      "title": "Send uploaded file",
+      "accepted_answer_id": 75791333,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/75789829/send-uploaded-file",
+      "owner": {
+        "display_name": "Danila Derzhavin",
+        "link": "https://stackoverflow.com/users/21438448/danila-derzhavin"
+      }
+    },
+    {
+      "question_id": 77012707,
+      "title": "How to pass param from middleware to controller",
+      "accepted_answer_id": 77012789,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/77012707/how-to-pass-param-from-middleware-to-controller",
+      "owner": {
+        "display_name": "Charas",
+        "link": "https://stackoverflow.com/users/4608714/charas"
+      }
+    },
+    {
+      "question_id": 77476680,
+      "title": "Go framework Echo middleware usage",
+      "accepted_answer_id": 77477776,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/77476680/go-framework-echo-middleware-usage",
+      "owner": {
+        "display_name": "Alfred Jijo",
+        "link": "https://stackoverflow.com/users/21635232/alfred-jijo"
+      }
+    },
+    {
+      "question_id": 79752816,
+      "title": "Echo Golang render content and change url path without reloading layout page",
+      "accepted_answer_id": 79756798,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/79752816/echo-golang-render-content-and-change-url-path-without-reloading-layout-page",
+      "owner": {
+        "display_name": "ZeTr0nIx",
+        "link": "https://stackoverflow.com/users/21377300/zetr0nix"
+      }
+    },
+    {
+      "question_id": 45558773,
+      "title": "Serving files with Echo",
+      "accepted_answer_id": 45561202,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/45558773/serving-files-with-echo",
+      "owner": {
+        "display_name": "One-Winged_Eagle",
+        "link": "https://stackoverflow.com/users/8427577/one-winged-eagle"
+      }
+    },
+    {
+      "question_id": 48856151,
+      "title": "Storing html template as text field in DB using golang",
+      "accepted_answer_id": 48856391,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/48856151/storing-html-template-as-text-field-in-db-using-golang",
+      "owner": {
+        "display_name": "arundeepak",
+        "link": "https://stackoverflow.com/users/6037581/arundeepak"
+      }
+    },
+    {
+      "question_id": 52576499,
+      "title": "can&#39;t parse JSON from a post requests",
+      "accepted_answer_id": 52576604,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/52576499/cant-parse-json-from-a-post-requests",
+      "owner": {
+        "display_name": "Nyta",
+        "link": "https://stackoverflow.com/users/9024502/nyta"
+      }
+    },
+    {
+      "question_id": 53405374,
+      "title": "Is it possible to bind to map object of custom struct type?",
+      "accepted_answer_id": 53406224,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/53405374/is-it-possible-to-bind-to-map-object-of-custom-struct-type",
+      "owner": {
+        "display_name": "gdk",
+        "link": "https://stackoverflow.com/users/9319777/gdk"
+      }
+    },
+    {
+      "question_id": 55426957,
+      "title": "How to retrieve form.Value of []string type from echo.Context.MultipartForm()",
+      "accepted_answer_id": 55484178,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/55426957/how-to-retrieve-form-value-of-string-type-from-echo-context-multipartform",
+      "owner": {
+        "display_name": "jazz",
+        "link": "https://stackoverflow.com/users/2060686/jazz"
+      }
+    },
+    {
+      "question_id": 55513157,
+      "title": "How to override DefaultHTTPErrorHandler format message",
+      "accepted_answer_id": 55513517,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/55513157/how-to-override-defaulthttperrorhandler-format-message",
+      "owner": {
+        "display_name": "Putra Fajar Hasanuddin",
+        "link": "https://stackoverflow.com/users/2623557/putra-fajar-hasanuddin"
+      }
+    },
+    {
+      "question_id": 56583560,
+      "title": "avoiding global variables in routes for labstack/echo",
+      "accepted_answer_id": 56584017,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/56583560/avoiding-global-variables-in-routes-for-labstack-echo",
+      "owner": {
+        "display_name": "Bruce Adams",
+        "link": "https://stackoverflow.com/users/1569204/bruce-adams"
+      }
+    },
+    {
+      "question_id": 57595608,
+      "title": "Create Routing Modules Go/Echo RestAPI",
+      "accepted_answer_id": 57595962,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/57595608/create-routing-modules-go-echo-restapi",
+      "owner": {
+        "display_name": "doglover1337",
+        "link": "https://stackoverflow.com/users/1830161/doglover1337"
+      }
+    },
+    {
+      "question_id": 58310173,
+      "title": "Echo CORS w/ Proxy middlewares causes problems w/ Access-Allow-Origins response header",
+      "accepted_answer_id": 58331197,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/58310173/echo-cors-w-proxy-middlewares-causes-problems-w-access-allow-origins-response",
+      "owner": {
+        "display_name": "RavenHursT",
+        "link": "https://stackoverflow.com/users/282250/ravenhurst"
+      }
+    },
+    {
+      "question_id": 58404431,
+      "title": "How to detect the goroutine that occupies the lock?",
+      "accepted_answer_id": 58404740,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/58404431/how-to-detect-the-goroutine-that-occupies-the-lock",
+      "owner": {
+        "display_name": "navono",
+        "link": "https://stackoverflow.com/users/2197615/navono"
+      }
+    },
+    {
+      "question_id": 65536083,
+      "title": "I get an error that I don&#39;t know for what reason. a file disappears when I run the program",
+      "accepted_answer_id": 65537975,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/65536083/i-get-an-error-that-i-dont-know-for-what-reason-a-file-disappears-when-i-run-t",
+      "owner": {
+        "display_name": "cdh88",
+        "link": "https://stackoverflow.com/users/13022387/cdh88"
+      }
+    },
+    {
+      "question_id": 68749622,
+      "title": "How to convert json to string in golang and echo framework?",
+      "accepted_answer_id": 68749730,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/68749622/how-to-convert-json-to-string-in-golang-and-echo-framework",
+      "owner": {
+        "display_name": "Luis Enrique G&#243;mez P&#233;rez",
+        "link": "https://stackoverflow.com/users/10771336/luis-enrique-g%c3%b3mez-p%c3%a9rez"
+      }
+    },
+    {
+      "question_id": 69308569,
+      "title": "Why is the header value not being read?",
+      "accepted_answer_id": 69310409,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/69308569/why-is-the-header-value-not-being-read",
+      "owner": {
+        "display_name": "Choi yun seok",
+        "link": "https://stackoverflow.com/users/10151842/choi-yun-seok"
+      }
+    },
+    {
+      "question_id": 69445675,
+      "title": "Please tell me how to bind multi-array to struct",
+      "accepted_answer_id": 69449814,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/69445675/please-tell-me-how-to-bind-multi-array-to-struct",
+      "owner": {
+        "display_name": "Choi yun seok",
+        "link": "https://stackoverflow.com/users/10151842/choi-yun-seok"
+      }
+    },
+    {
+      "question_id": 69448020,
+      "title": "Different api responses for same object values",
+      "accepted_answer_id": 69451303,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/69448020/different-api-responses-for-same-object-values",
+      "owner": {
+        "display_name": "Barış Velioğlu",
+        "link": "https://stackoverflow.com/users/735259/bar%c4%b1%c5%9f-velio%c4%9flu"
+      }
+    },
+    {
+      "question_id": 70699086,
+      "title": "Golang Echo - middleware still executing next route when not returning next",
+      "accepted_answer_id": 70699232,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/70699086/golang-echo-middleware-still-executing-next-route-when-not-returning-next",
+      "owner": {
+        "display_name": "turtle",
+        "link": "https://stackoverflow.com/users/7897526/turtle"
+      }
+    },
+    {
+      "question_id": 73307878,
+      "title": "How to handle SPA urls correctly in Golang?",
+      "accepted_answer_id": 73308454,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/73307878/how-to-handle-spa-urls-correctly-in-golang",
+      "owner": {
+        "display_name": "Cemre Meng&#252;",
+        "link": "https://stackoverflow.com/users/586986/cemre-meng%c3%bc"
+      }
+    },
+    {
+      "question_id": 73761041,
+      "title": "How can i change the Delim in echo Render?",
+      "accepted_answer_id": 73761166,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/73761041/how-can-i-change-the-delim-in-echo-render",
+      "owner": {
+        "display_name": "Sienael",
+        "link": "https://stackoverflow.com/users/6812119/sienael"
+      }
+    },
+    {
+      "question_id": 75428800,
+      "title": "Unit testing a HTTP handler that returns a stream of multiple files",
+      "accepted_answer_id": 75432567,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/75428800/unit-testing-a-http-handler-that-returns-a-stream-of-multiple-files",
+      "owner": {
+        "display_name": "Megidd",
+        "link": "https://stackoverflow.com/users/3405291/megidd"
+      }
+    },
+    {
+      "question_id": 50452235,
+      "title": "Echo can&#39;t use custom context in HTTPErrorHandler",
+      "accepted_answer_id": 50452469,
+      "score": -1,
+      "link": "https://stackoverflow.com/questions/50452235/echo-cant-use-custom-context-in-httperrorhandler",
+      "owner": {
+        "display_name": "Lansi",
+        "link": "https://stackoverflow.com/users/2801325/lansi"
+      }
+    },
+    {
+      "question_id": 60885531,
+      "title": "Not enough arguments for impl function",
+      "accepted_answer_id": 60885777,
+      "score": -1,
+      "link": "https://stackoverflow.com/questions/60885531/not-enough-arguments-for-impl-function",
+      "owner": {
+        "display_name": "jeyraof",
+        "link": "https://stackoverflow.com/users/2198378/jeyraof"
+      }
+    },
+    {
+      "question_id": 69577359,
+      "title": "How to pass a golang variables( can contain any character) to echo binary in linux?",
+      "accepted_answer_id": 69577854,
+      "score": -1,
+      "link": "https://stackoverflow.com/questions/69577359/how-to-pass-a-golang-variables-can-contain-any-character-to-echo-binary-in-lin",
+      "owner": {
+        "display_name": "hackerdudeeeeee",
+        "link": "https://stackoverflow.com/users/13649600/hackerdudeeeeee"
+      }
+    },
+    {
+      "question_id": 75071992,
+      "title": "Golang Get all POST Form data using PostParams and get values as string",
+      "accepted_answer_id": 75072172,
+      "score": -1,
+      "link": "https://stackoverflow.com/questions/75071992/golang-get-all-post-form-data-using-postparams-and-get-values-as-string",
+      "owner": {
+        "display_name": "Charas",
+        "link": "https://stackoverflow.com/users/4608714/charas"
+      }
+    },
+    {
+      "question_id": 55829726,
+      "title": "Is there a good way to filter requests by IP address with Echo?",
+      "accepted_answer_id": 55832560,
+      "score": -2,
+      "link": "https://stackoverflow.com/questions/55829726/is-there-a-good-way-to-filter-requests-by-ip-address-with-echo",
+      "owner": {
+        "display_name": "Shaco",
+        "link": "https://stackoverflow.com/users/11404982/shaco"
+      }
+    },
+    {
+      "question_id": 77354165,
+      "title": "echo: http: panic serving [::1]:45724: runtime error: invalid memory address or nil pointer dereference goroutine 10 [running]:",
+      "accepted_answer_id": 77354738,
+      "score": -2,
+      "link": "https://stackoverflow.com/questions/77354165/echo-http-panic-serving-145724-runtime-error-invalid-memory-address-or",
+      "owner": {
+        "display_name": "vfreis09",
+        "link": "https://stackoverflow.com/users/17744583/vfreis09"
+      }
+    },
+    {
+      "question_id": 68804581,
+      "title": "How to get the xml sent by post in a REST API",
+      "accepted_answer_id": 68804859,
+      "score": -3,
+      "link": "https://stackoverflow.com/questions/68804581/how-to-get-the-xml-sent-by-post-in-a-rest-api",
+      "owner": {
+        "display_name": "Luis Enrique G&#243;mez P&#233;rez",
+        "link": "https://stackoverflow.com/users/10771336/luis-enrique-g%c3%b3mez-p%c3%a9rez"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 79756798,
+      "body": "<p>I went with a workaround as I seem to have reached the limitations of go templ. While injecting content into a rendered template is possible, I faced the issue, that when trying to reach .../item/:id without previously visiting .../items/ the other page contents are not being rendered.</p>\n<p>So I stored the data that is being displayed in a session and extract it when redirecting and rendering the new page. That way the user does not notice the reload of the contents that should remain the same when redirecting as I can preload the data from the session storage into the template.</p>\n",
+      "owner": {
+        "display_name": "ZeTr0nIx",
+        "link": "https://stackoverflow.com/users/21377300/zetr0nix"
+      }
+    },
+    {
+      "answer_id": 77477776,
+      "body": "<p>The error message is clear. The following types are two different types:</p>\n<ul>\n<li><code>&quot;github.com/labstack/echo&quot;.MiddlewareFunc</code></li>\n<li><code>&quot;github.com/labstack/echo/v4&quot;.MiddlewareFunc</code></li>\n</ul>\n<p>Looks like that you're using echo v4, then the import path for the middleware should be <code>github.com/labstack/echo/v4/middleware</code>.</p>\n<p>Follow these steps to fix the issue:</p>\n<ol>\n<li>replace the import path\n<pre><code>&quot;github.com/labstack/echo/middleware&quot;\n</code></pre>\nwith\n<pre><code>&quot;github.com/labstack/echo/v4/middleware&quot;\n</code></pre>\n</li>\n<li>then run\n<pre><code>go mod tidy\n</code></pre>\n</li>\n</ol>\n",
+      "owner": {
+        "display_name": "Zeke Lu",
+        "link": "https://stackoverflow.com/users/1369400/zeke-lu"
+      }
+    },
+    {
+      "answer_id": 77354738,
+      "body": "<p>I initialize the db in the wrong way, I used</p>\n<pre><code>db, err := sql.Open(&quot;postgres&quot;, dbinfo)\n</code></pre>\n<p>instead of</p>\n<pre><code>db, err = sql.Open(&quot;postgres&quot;, dbinfo)\n</code></pre>\n",
+      "owner": {
+        "display_name": "vfreis09",
+        "link": "https://stackoverflow.com/users/17744583/vfreis09"
+      }
+    },
+    {
+      "answer_id": 77012789,
+      "body": "<p>You can use the context's <a href=\"https://pkg.go.dev/github.com/labstack/echo/v4#Context.Set\" rel=\"nofollow noreferrer\"><code>Set</code></a> and <a href=\"https://pkg.go.dev/github.com/labstack/echo/v4#Context.Get\" rel=\"nofollow noreferrer\"><code>Get</code></a> methods.</p>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 76985576,
+      "body": "<p>Welp, I'm a ding-dong.</p>\n<p>I was clobbering together so many examples, trying to get something to work, and it was only once I tried the following, in the testing function:</p>\n<pre><code>        req.Header.Set(&quot;Testing&quot;, &quot;Yes&quot;)\n</code></pre>\n<p>And popped that out in <code>CreateNode</code>:</p>\n<pre><code>        info(&quot;Header: %v&quot;, ctx.Request().Header)\n</code></pre>\n<p>Which gave me:</p>\n<pre><code>2023/08/26 20:04:36 INFO:    Header: map[Content-Type:[application/x-www-form-urlencoded] Testing:[Yes]]\n</code></pre>\n<p>That I saw that the request was making it through fine, and it was something in how I was forming the request.</p>\n<p>I checked the examples again and realized I was setting the form values according to one but setting the content-type from a different example.  The following works:</p>\n<pre><code>        f := make(url.Values)\n        f.Set(&quot;name&quot;, &quot;node1&quot;)\n        req := httptest.NewRequest(http.MethodPost, &quot;/&quot;, strings.NewReader(f.Encode()))\n        req.Header.Set(echo.HeaderContentType, echo.MIMEApplicationForm)\n</code></pre>\n<p>And of course doing it via JSON is not going to work because that's not how CreateNode() parses the incoming information.</p>\n<p>This was just sloppy on my part!</p>\n",
+      "owner": {
+        "display_name": "Drew",
+        "link": "https://stackoverflow.com/users/5920865/drew"
+      }
+    },
+    {
+      "answer_id": 76744785,
+      "body": "<p>Instead of serving static files using static use the middleware of StaticWith config so it can redirect to index.HTML if route is not found</p>\n<pre><code>e.Use(middleware.StaticWithConfig(middleware.StaticConfig{\n    Skipper: nil,\n    // Root directory from where the static content is served.\n    Root: &quot;build&quot;,\n    // Index file for serving a directory.\n    // Optional. Default value &quot;index.html&quot;.\n    Index: &quot;index.html&quot;,\n    // Enable HTML5 mode by forwarding all not-found requests to root so that\n    // SPA (single-page application) can handle the routing.\n    HTML5:      true,\n    Browse:     false,\n    IgnoreBase: false,\n    Filesystem: nil,\n}))\n</code></pre>\n",
+      "owner": {
+        "display_name": "Aditya Nandwana",
+        "link": "https://stackoverflow.com/users/21695531/aditya-nandwana"
+      }
+    },
+    {
+      "answer_id": 75791333,
+      "body": "<p><a href=\"https://stackoverflow.com/a/63731824/21438448\">Here</a> is the solution.\nThanks <a href=\"https://stackoverflow.com/users/10457988/vlad-vladov\">Vlad Vladov</a>.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func (s *Storage) Upload(ctx context.Context, file multipart.File, fileHeader *multipart.FileHeader) (cid.Cid, error) {\n    rCtx, cancel := context.WithTimeout(ctx, 30*time.Second)\n    defer cancel()\n\n    buf := new(bytes.Buffer)\n    writer := multipart.NewWriter(buf)\n\n    part, err := writer.CreateFormFile(&quot;file&quot;, fileHeader.Filename)\n    if err != nil {\n        return cid.Undef, err\n    }\n\n    b, err := ioutil.ReadAll(file)\n\n    if err != nil {\n        return cid.Undef, err\n    }\n\n    part.Write(b)\n    writer.Close()\n    req, err := http.NewRequestWithContext(rCtx, http.MethodPost, s.config.endpoint+&quot;/upload&quot;, buf)\n    if err != nil {\n        return cid.Undef, err\n    }\n\n    req.Header.Set(&quot;Content-Type&quot;, writer.FormDataContentType())\n    req.Header.Set(&quot;Authorization&quot;, fmt.Sprintf(&quot;Bearer %s&quot;, s.config.token))\n    req.Header.Set(&quot;X-Client&quot;, &quot;web3.storage/go&quot;)\n\n    res, err := s.config.hc.Do(req)\n    if err != nil {\n        return cid.Undef, err\n    }\n\n    d := json.NewDecoder(res.Body)\n    if res.StatusCode != 200 {\n        var out responseError\n        d.Decode(&amp;out)\n        log.Error(out)\n        return cid.Undef, fmt.Errorf(&quot;unexpected response status: %d&quot;, res.StatusCode)\n    }\n    var out struct {\n        Cid string `json:&quot;cid&quot;`\n    }\n    err = d.Decode(&amp;out)\n    if err != nil {\n        return cid.Undef, err\n    }\n    return cid.Parse(out.Cid)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Danila Derzhavin",
+        "link": "https://stackoverflow.com/users/21438448/danila-derzhavin"
+      }
+    },
+    {
+      "answer_id": 75625741,
+      "body": "<pre class=\"lang-golang prettyprint-override\"><code>func addLine(c echo.Context) error {\n    checklistLock.Lock()\n    defer checklistLock.Unlock()\n\n    id, err := strconv.Atoi(c.Param(&quot;id&quot;))\n    if err != nil {\n        return err\n    }\n\n    // do not deref *Checklist\n    cl, ok := checklists[id]\n    if !ok {\n        return echo.ErrNotFound\n    }\n\n    // use same structure as the expected JSON\n    var input struct { Lines []string `json:&quot;lines&quot;` }\n\n    // always pass a pointer to c.Bind\n    if err := c.Bind(&amp;input); err != nil {\n        return err\n    }\n\n    // do not overwrite previously written lines, use append\n    cl.Lines = append(cl.Lines, input.Lines...)\n\n    return c.JSON(http.StatusOK, cl)\n}\n</code></pre>\n<p>Now try:</p>\n<pre class=\"lang-bash prettyprint-override\"><code>$ curl -X POST -H 'Content-Type: application/json' -d '{&quot;lines&quot;: [&quot;test123&quot;]}' localhost:1234/checklist/1\n</code></pre>\n<p><em>(notice that <code>&quot;test123&quot;</code> is enclosed in brackets)</em></p>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 75432567,
+      "body": "<blockquote>\n<p>... Possible options: write a length followed by the content of a file...</p>\n</blockquote>\n<p>Actually, the above option commented by @CeriseLimón was already implemented and was used by the front-end.</p>\n<p><a href=\"https://i.sstatic.net/r7vWD.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/r7vWD.png\" alt=\"Length + content\" /></a></p>\n",
+      "owner": {
+        "display_name": "Megidd",
+        "link": "https://stackoverflow.com/users/3405291/megidd"
+      }
+    },
+    {
+      "answer_id": 75072172,
+      "body": "<p>No need to JSON marshal the already decoded form, simply do:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>form[&quot;key&quot;][0]\nform[&quot;key2&quot;][0]\n</code></pre>\n<p>See the docs on <a href=\"https://pkg.go.dev/github.com/labstack/echo/v4#Context.FormParams\" rel=\"nofollow noreferrer\"><code>c.FormParams</code></a> and then click on the return type to see its documentation, and you'll notice that it's just the stdlib's <code>url.Values</code> type, which is defined as a map of string slices (i.e., <code>map[string][]string</code>).</p>\n<hr />\n<p>If you need to convert a value of type <code>url.Values</code> to a &quot;simple object&quot;, you can convert it to a <code>map[string]string</code> using the following code:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>o := make(map[string]string, len(form))\nfor k, v := range form {\n    // if you are certain v[0] is present\n    o[k] = v[0]\n\n    // if you are not sure v[0] is present, check first\n    if len(v) &gt; 0 {\n        o[k] = v[0]\n    }\n}\n\ndata, err := json.Marshal(o)\nif err != nil {\n    return err\n}\n\n// ...\n</code></pre>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 74988395,
+      "body": "<p>Check this out: <a href=\"https://github.com/joho/godotenv\" rel=\"nofollow noreferrer\">https://github.com/joho/godotenv</a>.</p>\n<p>Add your application configuration to your .env file in the root of your project:</p>\n<pre><code>DB_DRIVER=mysql\nDB_USER=root\n...\n</code></pre>\n<p>Then in your Go app you can do something like:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;log&quot;\n    &quot;os&quot;\n\n    &quot;github.com/joho/godotenv&quot;\n)\n\nfunc main() {\n  err := godotenv.Load()\n  if err != nil {\n    log.Fatal(&quot;Error loading .env file&quot;)\n  }\n\n  driver:= os.Getenv(&quot;DB_DRIVER&quot;)\n  user:= os.Getenv(&quot;DB_USER&quot;)\n  // todo\n\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Evan Miao",
+        "link": "https://stackoverflow.com/users/7192066/evan-miao"
+      }
+    },
+    {
+      "answer_id": 74981706,
+      "body": "<p>When using gorm, you need to embed a gorm.Model struct, which includes fields ID, CreatedAt, UpdatedAt, DeletedAt.</p>\n<p><a href=\"https://gorm.io/docs/models.html#gorm-Model\" rel=\"nofollow noreferrer\">Reference</a></p>\n<pre class=\"lang-golang prettyprint-override\"><code>// gorm.Model definition\ntype Model struct {\n  ID        uint           `gorm:&quot;primaryKey&quot;`\n  CreatedAt time.Time\n  UpdatedAt time.Time\n  DeletedAt gorm.DeletedAt `gorm:&quot;index&quot;`\n}\n</code></pre>\n<p>Not familiar with echo but read below to understand how you use gorm.</p>\n<p>In your case you can try doing the following:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>package schema\n\ntype Quote struct {\n    gorm.Model\n    Title       string `json:&quot;title&quot;`\n    Description string `json:&quot;description&quot;`\n}\n</code></pre>\n<p>Then to get all the quotes:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func GetAll() (Response, error) {\n    var quotes []schema.Quote // slice\n    ctx := db.Init()\n    // Assuming\n    // ctx, err := gorm.Open(....)\n\n    // https://gorm.io/docs/query.html\n    result := db.Find(&amp;quotes)\n    if result.Error != nil {\n        return Response{\n            Status: http.StatusInternalServerError,\n            Message: &quot;Query failed&quot;,\n        },result.Error\n    }\n    if result.RowsAffected == 0 {\n        return Response{\n            Status: http.StatusNotFound,\n            Message: &quot;No records found&quot;,\n        },nil\n    }\n    \n    return Response{\n        Status: http.StatusOK,\n        Message: &quot;Success&quot;,\n        Data: quotes,\n    },nil\n}\n</code></pre>\n<p>Keep in mind that the Data field has type interface{}, which means it can hold a value of any type. If the value wasn't a slice you would be using the &amp; operator you take the address of the <code>Quote</code> value. A slice is already a pointer to underlying slice so need to use the &amp; operator.</p>\n<p>If you want to access the slice of Quote values from the Data field, you will need to use a type assertion to convert the value from the interface{} type to the []Quote type. Here's an example of how you could do this:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>// Assume that response.Data holds a slice of Quote values\nquotes, ok := response.Data.([]Quote)\nif !ok {\n    // Handle the case where response.Data is not a slice of Quote\n}\n\n</code></pre>\n<p>Warning: Since you are returning a slice, then any changes to the returned slice will be modifying the initial slice too. If you wanted to avoid this then copy the slice values to a new slice:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>quotesCopy = make([]schema.Quote, len(quotes))\ncopy(quotesCopy, quotes)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Looper",
+        "link": "https://stackoverflow.com/users/7885608/looper"
+      }
+    },
+    {
+      "answer_id": 74876056,
+      "body": "<p>You can write a custom helper function like below -</p>\n<pre><code>func CustomQueryParam(c echo.Context, name string) string {\n    qParams := make(map[string]string)\n    for _, singleQueryParamStr := range strings.Split(c.QueryString(), &quot;&amp;&quot;) {\n        val := strings.Split(singleQueryParamStr, &quot;=&quot;)\n        qParams[val[0]] = val[1]\n    }\n    return qParams[name]\n}\n\nfunc TestGet(c echo.Context) error {\n    param := CustomQueryParam(c, &quot;param&quot;)\n    fmt.Println(param)\n\n    return c.JSON(http.StatusOK, map[string]interface{}{\n        &quot;message&quot;: &quot;request is successful&quot;,\n    })\n}\n</code></pre>\n<p>Now, the output is as your expection. It prints <code>test+test</code>. But what actually <code>CustomQueryParam</code> do?</p>\n<p>Okay, let's explore the insight. Suppose, the api call is -</p>\n<p><code>http://localhost:8080?param=test1+test2&amp;param2=test3</code></p>\n<p>The <code>CustomQueryParam</code> function will take an <code>echo.Context</code> instance and the query param name as function parameters.</p>\n<p>Then, inside for loop the whole query string i.e. in our case which is <code>param=test1+test2&amp;param2=test3</code> is split by <code>&amp;</code> and stored into string slice made by each query param string (<code>[]string{&quot;param=test1+test2&quot;, &quot;param2=test3&quot;}</code>).</p>\n<p>After that, we iterate over each query param string and again split into a string slice of two values having first value as param name and second value as param value. For example, for first query param string, the resultant output is like below -</p>\n<p><code>&quot;param=test1+test2&quot;</code> =&gt; <code>[]string{&quot;param&quot;, &quot;test1+test2&quot;}</code></p>\n<p>Then, the first value (param name) is assigned as map key and second value (param value) as map value.</p>\n<p>After finishing above process for every query string, the map value by query param name (which is the parameter of this function) is returned.</p>\n<p>One of the interesting fact about this custom function is that it returns empty string if query param is not found.</p>\n",
+      "owner": {
+        "display_name": "FahimSifnatul",
+        "link": "https://stackoverflow.com/users/12875736/fahimsifnatul"
+      }
+    },
+    {
+      "answer_id": 73761166,
+      "body": "<p>You must call <code>Delims</code> before <code>ParseGlob</code>.\nlike this:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>    t := &amp;Template{\n        templates: template.Must(template.New(&quot;&quot;).Delims(&quot;[[&quot;, &quot;]]&quot;).ParseGlob(&quot;public/views/*.html&quot;)),\n    }\n\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rahmat Fathoni",
+        "link": "https://stackoverflow.com/users/18012302/rahmat-fathoni"
+      }
+    },
+    {
+      "answer_id": 73678476,
+      "body": "<p>In HTTP the headers go before the body, as the name &quot;header&quot; implies. So once you write the body you cannot write the header. You may try using HTTP/2 Trailers. Or execute the process, but before writing its output to the body, calculate the execution time, add the header, and then write the body.</p>\n<p>I don't use <code>echo</code> so I don't know what the correct approach is, but it seems to me like it'd be better if you use the response <a href=\"https://echo.labstack.com/guide/response/#hooks\" rel=\"noreferrer\">before hook</a>.</p>\n<p>Example by @<a href=\"https://stackoverflow.com/users/5005765/jacky-supit\">JackySupit</a>:</p>\n<pre><code>// ExecTime is the middleware function.\nfunc (s *Stats) ExecTime(next echo.HandlerFunc) echo.HandlerFunc {\n    return func(c echo.Context) error {\n        before := time.Now()\n        c.Response().Header().Set(&quot;ExecutionStartedAt&quot;, before.String())\n\n        c.Response().Before(func() {\n            after := time.Now()\n            elapsed := time.Since(before)\n\n            c.Response().Header().Set(&quot;ExecutionDoneAt&quot;, after.String())\n            c.Response().Header().Set(&quot;ExecutionTime&quot;, elapsed.String())\n        })\n\n        if err := next(c); err != nil { //exec main process\n            c.Error(err)\n        }\n        return nil\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 73630901,
+      "body": "<p>Instead of using HeaderMap() which is deprecated, you can use this:</p>\n<pre><code>request.Header().Set(&quot;Header-name&quot;, &quot;Any header&quot;)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Islom Sobirov",
+        "link": "https://stackoverflow.com/users/11312839/islom-sobirov"
+      }
+    },
+    {
+      "answer_id": 73325464,
+      "body": "<p>I find <a href=\"https://willnorris.com/2014/05/go-rest-apis-and-pointers/\" rel=\"nofollow noreferrer\">https://willnorris.com/2014/05/go-rest-apis-and-pointers/</a> which show the <code>omitempty</code> tag</p>\n<p>(I realized I did a mistake, can't bind 2 times the same context)</p>\n<pre class=\"lang-golang prettyprint-override\"><code>type UserId struct {\n    Id int64 `param:&quot;id&quot; json:&quot;id&quot;`\n}\n\ntype User struct {\n    Email     string    `json:&quot;email,omitempty&quot;`\n    Password  string    `json:&quot;password,omitempty&quot;`\n    Username  string    `json:&quot;username,omitempty&quot;`\n    // CreatedAt time.Time `json:&quot;created_at,omitempty&quot;`\n    // UpdatedAt time.Time `json:&quot;updated_at,omitempty&quot;`\n}\n\ntype User struct {\n    gorm.Model\n    ID       int64  `gorm:&quot;primary_key&quot;`\n    Email    string `gorm:&quot;type:varchar(128);unique;not null&quot;`\n    Username string `gorm:&quot;type:varchar(64);unique;not null&quot;`\n    Password string `gorm:&quot;type:varchar(64);not null&quot;`\n}\n</code></pre>\n<pre class=\"lang-golang prettyprint-override\"><code>func updateUser(c echo.Context) error {\n    cc := c.(*myproject.ConfigContext)\n    var err error\n\n    userId := new(interfaces.UserId)\n    userId.Id, err = strconv.ParseInt(cc.Param(&quot;id&quot;), 10, 64)\n    if err != nil {\n        return err\n    }\n\n    newInfoUser := new(interfaces.User)\n    err = cc.Bind(newInfoUser)\n    if err != nil {\n        return err\n    }\n\n    db, err := cc.ConnectDB()\n    if err != nil {\n        return err\n    }\n    err = db.AutoMigrate(&amp;models.User{})\n    if err != nil {\n        return err\n    }\n\n    r := db.Model(&amp;models.User{}).Where(&quot;id = ?&quot;, userId.Id).Updates(newInfoUser)\n    if r.Error != nil {\n        return cc.NoContent(http.StatusNotFound)\n    }\n\n    return cc.JSON(200, &quot;&quot;)\n}\n</code></pre>\n<p>but I wonder why it is not working with createAt and updateAt fields</p>\n",
+      "owner": {
+        "display_name": "Faulheit",
+        "link": "https://stackoverflow.com/users/14902846/faulheit"
+      }
+    },
+    {
+      "answer_id": 73308454,
+      "body": "<p>I see an <code>./out</code> directory being referenced, so it looks like you're exporting to static HTML. If that's the case, enable the <a href=\"https://nextjs.org/docs/api-reference/next.config.js/trailing-slash\" rel=\"nofollow noreferrer\"><code>trailingSlash</code></a> setting in your <code>next.config.js</code>:</p>\n<pre class=\"lang-js prettyprint-override\"><code>module.exports = {\n  trailingSlash: true,\n}\n</code></pre>\n<p><code>./example.html</code> will become <code>./example/index.html</code> after the export.</p>\n",
+      "owner": {
+        "display_name": "Mark G",
+        "link": "https://stackoverflow.com/users/15115299/mark-g"
+      }
+    },
+    {
+      "answer_id": 72930195,
+      "body": "<p>You can easily implement your own renderer, as explained in the guide <a href=\"https://echo.labstack.com/guide/templates/\" rel=\"nofollow noreferrer\">here</a>, and use Go's own <a href=\"https://pkg.go.dev/html/template@go1.18.3\" rel=\"nofollow noreferrer\"><code>html/template</code></a> package to manage the templates:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>import (\n    &quot;html/template&quot;\n    // ...\n)\n\ntype TemplateRenderer struct {\n    templates *template.Template\n}\n\nfunc (t *TemplateRenderer) Render(w io.Writer, name string, data interface{}, c echo.Context) error {\n\n    // Add global methods if data is a map\n    if viewContext, isMap := data.(map[string]interface{}); isMap {\n        viewContext[&quot;reverse&quot;] = c.Echo().Reverse\n    }\n\n    return t.templates.ExecuteTemplate(w, name, data)\n}\n</code></pre>\n<p>And to give the templates access to custom functions you can use the <a href=\"https://pkg.go.dev/html/template@go1.18.3#Template.Funcs\" rel=\"nofollow noreferrer\"><code>Funcs</code></a> method like so:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>renderer := &amp;TemplateRenderer{\n    templates: template.Must(template.New(&quot;t&quot;).Funcs(template.FuncMap{\n        &quot;AddTS&quot;:           util.AddTS,\n        &quot;Encrypt&quot;:         util.EncryptGeneral,\n        &quot;CombineVariable&quot;: util.CombineVariable,\n    }).ParseGlob(&quot;templates/*/*.tmpl&quot;)),\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 72876242,
+      "body": "<p>See <a href=\"https://stackoverflow.com/a/69310409/4190565\">this answer</a>.</p>\n<p>Tried this code and it works:</p>\n<pre><code>package main\n\nimport (\n        &quot;fmt&quot;\n        &quot;github.com/labstack/echo/v4&quot;\n        &quot;net/http&quot;\n)\n\ntype User struct {\n        ID string `header:&quot;Id&quot;`\n}\n\nfunc handler(c echo.Context) error {\n        request := new(User)\n        binder := &amp;echo.DefaultBinder{}\n\n        binder.BindHeaders(c, request)\n        fmt.Printf(&quot;%+v\\n&quot;, request)\n\n        return c.String(http.StatusOK, &quot;rankView&quot;)\n}\n\nfunc main() {\n        api := echo.New()\n        api.POST(&quot;product/rank/view&quot;, handler)\n        api.Start(&quot;:3000&quot;)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "jabbson",
+        "link": "https://stackoverflow.com/users/4190565/jabbson"
+      }
+    },
+    {
+      "answer_id": 72210855,
+      "body": "<p>you're use post method in routers</p>\n<pre><code>e.POST(&quot;/addPerson&quot;, addPerson)\n</code></pre>\n<p>You can use postman to hit API using POST method, don't use browser</p>\n",
+      "owner": {
+        "display_name": "dwlpra",
+        "link": "https://stackoverflow.com/users/15318531/dwlpra"
+      }
+    },
+    {
+      "answer_id": 61917945,
+      "body": "<p>Echo does not support binding multipart.Form.File data by default, you need to re-binder to implement the interface.</p>\n<p>An additional layer of bind FormFile is encapsulated for echo Bind. If the attribute type of a structure pointer type is *multipart.FileHeader or []*multipart.FileHeader, this attribute will be set to the value of FormFile using reflection.</p>\n<p>I probably realized the function. I haven't used echo and didn't test it, but the idea is correct.</p>\n<p>last update: add example and fix code to build. Thanks @vicTROLLA for pointing out the <code>typeMultipartFileHeader</code> type definition error.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;bytes&quot;\n    &quot;fmt&quot;\n    &quot;github.com/labstack/echo&quot;\n    &quot;io/ioutil&quot;\n    &quot;mime/multipart&quot;\n    &quot;net/http&quot;\n    &quot;reflect&quot;\n    &quot;strings&quot;\n    &quot;time&quot;\n)\n\nvar (\n    typeMultipartFileHeader      = reflect.TypeOf((*multipart.FileHeader)(nil))\n    typeMultipartSliceFileHeader = reflect.TypeOf(([]*multipart.FileHeader)(nil))\n)\n\ntype File struct {\n    File  *multipart.FileHeader   `form:&quot;file&quot;`\n    Files []*multipart.FileHeader `form:&quot;files&quot;`\n}\n\nfunc main() {\n    app := echo.New()\n    // warp bind suppet bind FormFile\n    app.Binder = NewBindFile(app.Binder)\n    app.Any(&quot;/file&quot;, func(ctx echo.Context) error {\n        var file File\n        err := ctx.Bind(&amp;file)\n        if err != nil {\n            return err\n        }\n\n        readfile := func(file *multipart.FileHeader) {\n            f, err := file.Open()\n            if err != nil {\n                fmt.Printf(&quot;open %s error: %s\\n&quot;, file.Filename, err.Error())\n                return\n            }\n            body, err := ioutil.ReadAll(f)\n            fmt.Printf(&quot;read file %s error: %v body: %s\\n&quot;, file.Filename, err, body)\n        }\n\n        readfile(file.File)\n        for _, file := range file.Files {\n            readfile(file)\n        }\n        return err\n    })\n\n    go func() {\n        time.Sleep(200 * time.Millisecond)\n        buf := bytes.NewBuffer(nil)\n        w := multipart.NewWriter(buf)\n        part, _ := w.CreateFormFile(&quot;file&quot;, &quot;file&quot;)\n        part.Write([]byte(&quot;this one file&quot;))\n        part, _ = w.CreateFormFile(&quot;files&quot;, &quot;files&quot;)\n        part.Write([]byte(&quot;fils part 1&quot;))\n        part, _ = w.CreateFormFile(&quot;files&quot;, &quot;files&quot;)\n        part.Write([]byte(&quot;fils part 2&quot;))\n        part, _ = w.CreateFormFile(&quot;files&quot;, &quot;files&quot;)\n        part.Write([]byte(&quot;fils part 3&quot;))\n        part, _ = w.CreateFormFile(&quot;files&quot;, &quot;files&quot;)\n        part.Write([]byte(&quot;fils part 4&quot;))\n        w.Close()\n        http.Post(&quot;http://localhost:1323/file&quot;, w.FormDataContentType(), buf)\n    }()\n\n    app.Start(&quot;:1323&quot;)\n}\n\ntype BindFunc func(interface{}, echo.Context) error\n\nfunc (fn BindFunc) Bind(i interface{}, ctx echo.Context) error {\n    return fn(i, ctx)\n}\n\nfunc NewBindFile(b echo.Binder) echo.Binder {\n    return BindFunc(func(i interface{}, ctx echo.Context) error {\n        err := b.Bind(i, ctx)\n        if err == nil {\n            ctype := ctx.Request().Header.Get(echo.HeaderContentType)\n            // if bind form\n            if strings.HasPrefix(ctype, echo.MIMEApplicationForm) || strings.HasPrefix(ctype, echo.MIMEMultipartForm) {\n                // get form files\n                var form *multipart.Form\n                form, err = ctx.MultipartForm()\n                if err == nil {\n                    err = EchoBindFile(i, ctx, form.File)\n                }\n            }\n        }\n        return err\n    })\n}\n\nfunc EchoBindFile(i interface{}, ctx echo.Context, files map[string][]*multipart.FileHeader) error {\n    iValue := reflect.Indirect(reflect.ValueOf(i))\n    // check bind type is struct pointer\n    if iValue.Kind() != reflect.Struct {\n        return fmt.Errorf(&quot;BindFile input not is struct pointer, indirect type is %s&quot;, iValue.Type().String())\n    }\n\n    iType := iValue.Type()\n    for i := 0; i &lt; iType.NumField(); i++ {\n        fType := iType.Field(i)\n        // check canset field\n        fValue := iValue.Field(i)\n        if !fValue.CanSet() {\n            continue\n        }\n        // revc type must *multipart.FileHeader or []*multipart.FileHeader\n        switch fType.Type {\n        case typeMultipartFileHeader:\n            file := getFiles(files, fType.Name, fType.Tag.Get(&quot;form&quot;))\n            if len(file) &gt; 0 {\n                fValue.Set(reflect.ValueOf(file[0]))\n            }\n        case typeMultipartSliceFileHeader:\n            file := getFiles(files, fType.Name, fType.Tag.Get(&quot;form&quot;))\n            if len(file) &gt; 0 {\n                fValue.Set(reflect.ValueOf(file))\n            }\n        }\n    }\n    return nil\n}\n\nfunc getFiles(files map[string][]*multipart.FileHeader, names ...string) []*multipart.FileHeader {\n    for _, name := range names {\n        file, ok := files[name]\n        if ok {\n            return file\n        }\n    }\n    return nil\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "eudore",
+        "link": "https://stackoverflow.com/users/13267950/eudore"
+      }
+    },
+    {
+      "answer_id": 70699232,
+      "body": "<p>on your <code>checkUserAuth</code> remove the</p>\n<pre><code>if err := next(c); err != nil {\n    c.Error(err)\n}\n</code></pre>\n<p>next() is triggered first in your middleware.</p>\n",
+      "owner": {
+        "display_name": "David Yappeter",
+        "link": "https://stackoverflow.com/users/17488015/david-yappeter"
+      }
+    },
+    {
+      "answer_id": 70597256,
+      "body": "<p>There is a <a href=\"https://echo.labstack.com/middleware/jwt/\" rel=\"noreferrer\"><code>skipper</code> function</a>. You can use it to check which route to skip.</p>\n<pre><code>JWTConfig struct {\n  // Skipper defines a function to skip middleware.\n  Skipper Skipper\n  ... \n}\n</code></pre>\n<p>Check an <strong>example</strong>:</p>\n<pre><code>e.Use(middleware.JWTWithConfig(middleware.JWTConfig{\n    SigningKey:  []byte(os.Getenv(&quot;Signing_Key&quot;)),\n    TokenLookup: &quot;header:x-auth-token&quot;,\n    Skipper: func(c echo.Context) bool {\n       // Skip middleware if path is equal 'login'\n       if c.Request().URL.Path == &quot;/login&quot; {\n         return true\n       }\n       return false\n    },\n}))\n \n</code></pre>\n",
+      "owner": {
+        "display_name": "Roman Kiselenko",
+        "link": "https://stackoverflow.com/users/2057388/roman-kiselenko"
+      }
+    },
+    {
+      "answer_id": 45525909,
+      "body": "<p>The echo context exposes the HTTP request, which has a context tied to the server request already.  Just get that context, and check it for cancellation, and/or pass it along to methods that take a context.</p>\n<pre><code>ctx := c.Request().Context()\nselect {\ncase &lt;-ctx.Done():\n    return ctx.Err()\ndefault:\n    // Continue handling the request\n}\n\n// and pass along to the db or whatever else:\nrows, err := db.QueryContext(ctx, ...)\n</code></pre>\n<p>If the client aborts the connection, the Request-scoped context will automatically be cancelled.</p>\n<p>If you want to add your own cancellation conditions, (timeouts, or whatever) you can do that, too:</p>\n<pre><code>req := c.Request()\nctx, cancel := context.WithCancel(req.Context())\nreq = req.WithContext(ctx)\ndefer cancel()\n// do stuff, which may conditionally call cancel() to cancel the context early\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jonathan Hall",
+        "link": "https://stackoverflow.com/users/13860/jonathan-hall"
+      }
+    },
+    {
+      "answer_id": 70164132,
+      "body": "<p>There seems to be a bug where if you specify the a base path, either to the <code>Group()</code> function or to <code>RegisterHandlersWithBaseURL()</code>, the<code>OapiRequestValidator</code> middle ignores the base path when checking the request path against the routes. It uses the routes defined in the OpenAPI spec without the base path. To work around this, I overwrote the <code>inline.tmpl</code> template and hacked the <code>GetSwagger()</code> function to include this at the bottom:</p>\n<pre><code>func GetSwagger(pathPrefix string) (swagger *openapi3.T, err error) {\n...\n    var updatedPaths openapi3.Paths = make(openapi3.Paths)\n\n    for key, value := range(swagger.Paths) {\n        updatedPaths[pathPrefix + key] = value\n    }\n\n    swagger.Paths = updatedPaths\n}\n</code></pre>\n<p>The key in the <code>Path</code> map is the route. I just append the base path to every key.</p>\n",
+      "owner": {
+        "display_name": "user2233706",
+        "link": "https://stackoverflow.com/users/2233706/user2233706"
+      }
+    },
+    {
+      "answer_id": 69577854,
+      "body": "<p>For purely academic purposes, I'm posting this function, as I had to do something similar a while back:</p>\n<pre><code>var bashReplacer = strings.NewReplacer(\n    `)`, `\\)`, // using back-ticks to keep our sanity\n    `(`, `\\(`,\n    `'`, `\\'`,\n    `&quot;`, `\\&quot;`,\n    `$`, `\\$`, // include if you don't want variable substitutions\n    &quot;`&quot;, &quot;\\\\`&quot;, // can't use back-ticks to include a back-tick, so back to double-quotes\n)\n\nfunc bashEscape(s string) string { return bashReplacer.Replace(s) }\n</code></pre>\n<p><a href=\"https://play.golang.org/p/uNfI_2MyjcI\" rel=\"nofollow noreferrer\">https://play.golang.org/p/uNfI_2MyjcI</a></p>\n<p>However, as I mentioned in the comments, you can avoid all the pain of shell escaping by just running the target script directly, and feed in your <code>UTF-8</code> string unaltered like so:</p>\n<pre><code>func execWithStdin(command, stdinText string) (string, string, error) {\n    var (\n        stdout bytes.Buffer\n        stderr bytes.Buffer\n    )\n\n    cmd := exec.Command(command)\n    cmd.Stdin = strings.NewReader(stdinText) // pass in our data via Stdin\n    cmd.Stdout = &amp;stdout\n    cmd.Stderr = &amp;stderr\n    err := cmd.Run()\n    return stdout.String(), stderr.String(), err\n}\n</code></pre>\n<p>to use:</p>\n<pre><code>t := `yoooooooooooo&quot;oo)(';#oooooooooooo`\nt += &quot;`&quot; // add a back-tick to make things interesting\n\n// no shell escaping necessary:\n\nout, stderr, err := execWithStdin(&quot;./doOperation.sh&quot;, t)\n</code></pre>\n",
+      "owner": {
+        "display_name": "colm.anseo",
+        "link": "https://stackoverflow.com/users/1218512/colm-anseo"
+      }
+    },
+    {
+      "answer_id": 69451303,
+      "body": "<p>In Golang <code>byte</code> is alias for <code>uint8</code> and when you use <code>json.Marshal</code> it returns <code>[]byte</code> which is same type as your data. So when you receive this type of data it is translated to string.</p>\n<p>You need to cast uint8 to other int type or implement <code>Marshaler interface</code></p>\n<p><strong>Cast</strong></p>\n<pre class=\"lang-golang prettyprint-override\"><code>bytes, err := service.GetValue()\nvalue := make([]int8, 0)\nfor _, v := range bytes {\n    value = append(value, int8(v))\n}\n</code></pre>\n<p><strong>Marshaler</strong></p>\n<pre><code>type CustomType []uint8\n\nfunc (u CustomType) MarshalJSON() ([]byte, error) {\n    var result string\n    if u == nil {\n        result = &quot;null&quot;\n    } else {\n        result = strings.Join(strings.Fields(fmt.Sprintf(&quot;%d&quot;, u)), &quot;,&quot;)\n    }\n    return []byte(result), nil\n}\n\nfunc GetValue(c echo.Context) error {\n    var value CustomType\n    bytes, err := service.GetValue()\n    value = bytes\n\n    return c.JSON(http.StatusOK, value)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "MenyT",
+        "link": "https://stackoverflow.com/users/12301864/menyt"
+      }
+    },
+    {
+      "answer_id": 69431733,
+      "body": "<p>Echo framework does not support binding array from form data out of the box.</p>\n<p>You can use json instead or use 3rd party library. See <a href=\"https://stackoverflow.com/a/69449814/12301864\">implementation</a> or <a href=\"https://stackoverflow.com/a/54410886/12301864\">post</a> and github issue <a href=\"https://github.com/labstack/echo/issues/1644\" rel=\"nofollow noreferrer\">https://github.com/labstack/echo/issues/1644</a></p>\n",
+      "owner": {
+        "display_name": "MenyT",
+        "link": "https://stackoverflow.com/users/12301864/menyt"
+      }
+    },
+    {
+      "answer_id": 69449814,
+      "body": "<p>You can use 3rd party lib.</p>\n<pre><code>import &quot;github.com/monoculum/formam/v3&quot;\n</code></pre>\n<pre><code>type MyFormData struct {\n    Pages []struct {\n        Order       int    `formam:&quot;order&quot;`\n        Description string `formam:&quot;description&quot;`\n    } `formam:&quot;pages&quot;`\n    Tags []struct {\n        TagName string `formam:&quot;tag_name&quot;`\n        Id      string `formam:&quot;id&quot;`\n    } `formam:&quot;tags&quot;`\n    Title string `formam:&quot;title&quot;`\n}\n</code></pre>\n<pre><code>func HttpHandler(c echo.Context) error {\n    myFormData := MyFormData{}\n    form, err := c.FormParams()\n\n    if err != nil {\n        return err\n    }\n\n    dec := formam.NewDecoder(&amp;formam.DecoderOptions{TagName: &quot;formam&quot;})\n    dec.Decode(form, &amp;myFormData)\n\n    return c.JSON(200, myFormData)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "MenyT",
+        "link": "https://stackoverflow.com/users/12301864/menyt"
+      }
+    },
+    {
+      "answer_id": 69343577,
+      "body": "<p>Here is list of available tags used in echo. If you want to parse from body, then use json</p>\n<ul>\n<li>query - source is request query parameters.</li>\n<li>param - source is route path parameter.</li>\n<li>header - source is header parameter.</li>\n<li>form - source is form. Values are taken from query and request body. Uses Go standard library form parsing.</li>\n<li>json - source is request body. Uses Go json package for unmarshalling.</li>\n<li>xml - source is request body. Uses Go xml package for unmarshalling.</li>\n</ul>\n<p>You need to wrap time.Time into custom struct and then implement <a href=\"http://golang.org/pkg/encoding/json/#Marshaler\" rel=\"noreferrer\"><code>json.Marshaler</code></a> and <a href=\"http://golang.org/pkg/encoding/json/#Unmarshaler\" rel=\"noreferrer\"><code>json.Unmarshaler</code></a> interfaces</p>\n<h3>Example</h3>\n<pre><code>package main\n\nimport (\n    &quot;fmt&quot;\n    &quot;strings&quot;\n    &quot;time&quot;\n\n    &quot;github.com/labstack/echo/v4&quot;\n)\n\ntype CustomTime struct {\n    time.Time\n}\n\ntype TestModel struct {\n    Date CustomTime `json:&quot;date&quot;`\n}\n\nfunc (t CustomTime) MarshalJSON() ([]byte, error) {\n    date := t.Time.Format(&quot;2006-01-02&quot;)\n    date = fmt.Sprintf(`&quot;%s&quot;`, date)\n    return []byte(date), nil\n}\n\nfunc (t *CustomTime) UnmarshalJSON(b []byte) (err error) {\n    s := strings.Trim(string(b), &quot;\\&quot;&quot;)\n\n    date, err := time.Parse(&quot;2006-01-02&quot;, s)\n    if err != nil {\n        return err\n    }\n    t.Time = date\n    return\n}\n\nfunc main() {\n    e := echo.New()\n    e.POST(&quot;/test&quot;, CreateDiary)\n    e.Logger.Fatal(e.Start(&quot;:1323&quot;))\n}\n\nfunc CreateDiary(c echo.Context) error {\n    var getData TestModel\n    if err := (&amp;echo.DefaultBinder{}).BindBody(c, &amp;getData); err != nil {\n        fmt.Print(err.Error())\n    }\n    return c.JSON(200, getData)\n}\n</code></pre>\n<p>test</p>\n<pre><code>curl -X POST http://localhost:1323/test -H 'Content-Type: application/json' -d '{&quot;date&quot;:&quot;2021-09-27&quot;}'\n</code></pre>\n",
+      "owner": {
+        "display_name": "MenyT",
+        "link": "https://stackoverflow.com/users/12301864/menyt"
+      }
+    },
+    {
+      "answer_id": 69310409,
+      "body": "<p><code>BindHeaders</code> was not called in <code>Bind</code>. The Source code:</p>\n<pre><code>func (b *DefaultBinder) Bind(i interface{}, c Context) (err error) {\n    if err := b.BindPathParams(c, i); err != nil {\n        return err\n    }\n    // Issue #1670 - Query params are binded only for GET/DELETE and NOT for usual request with body (POST/PUT/PATCH)\n    // Reasoning here is that parameters in query and bind destination struct could have UNEXPECTED matches and results due that.\n    // i.e. is `&amp;id=1&amp;lang=en` from URL same as `{&quot;id&quot;:100,&quot;lang&quot;:&quot;de&quot;}` request body and which one should have priority when binding.\n    // This HTTP method check restores pre v4.1.11 behavior and avoids different problems when query is mixed with body\n    if c.Request().Method == http.MethodGet || c.Request().Method == http.MethodDelete {\n        if err = b.BindQueryParams(c, i); err != nil {\n            return err\n        }\n    }\n    return b.BindBody(c, i)\n}\n</code></pre>\n<p>You can get the value in the header in the following ways:</p>\n<pre><code>func TokenCheck(next echo.HandlerFunc) echo.HandlerFunc {\n    b := &amp;echo.DefaultBinder{}\n    return func(c echo.Context) error {\n        a := new(_getData)\n        b.BindHeaders(c, a)\n        fmt.Print(a)\n        return next(c)\n    }\n}\n</code></pre>\n<p>Or:</p>\n<pre><code>token := c.Request().Header.Get(&quot;Authorization&quot;)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Trock",
+        "link": "https://stackoverflow.com/users/16182150/trock"
+      }
+    },
+    {
+      "answer_id": 68749730,
+      "body": "<p>What you are trying to achieve is not to convert a JSON to a string but an empty interface <code>interface{}</code> to a <code>string</code> You can achieve this by doing a <a href=\"https://tour.golang.org/methods/15\" rel=\"nofollow noreferrer\">type assertion</a>:</p>\n<pre><code>endpoint, ok := json_map[&quot;endpoint&quot;].(string)\nif !ok {\n  // handle the error if the underlying type was not a string\n}\n</code></pre>\n<p>Also as <strong>@Lex</strong> mentionned, it would probably be much safer to have a Go struct defining your JSON data. This way all your fields will be typed and you will no longer need this kind of type assertion.</p>\n",
+      "owner": {
+        "display_name": "Matthieu",
+        "link": "https://stackoverflow.com/users/16552272/matthieu"
+      }
+    },
+    {
+      "answer_id": 68804859,
+      "body": "<p>You'll want to use the Binding functionality of Echo, in combination with struct tags to provide the names you expect the XML keys to be.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>type DoThingRequest struct {\n    Name string `xml:&quot;name&quot;`\n}\ne.POST(&quot;/do_thing&quot;, func(c echo.Context) (err error) {\n  body := new(DoThingRequest)\n  if err := c.Bind(body); err != nil {\n    return\n  }\n  \n  // Do some stuff...\n}\n\n</code></pre>\n<p>See <a href=\"https://echo.labstack.com/guide/binding/\" rel=\"nofollow noreferrer\">https://echo.labstack.com/guide/binding/</a> for more information and options for binding.</p>\n",
+      "owner": {
+        "display_name": "Noah Stride",
+        "link": "https://stackoverflow.com/users/14028797/noah-stride"
+      }
+    },
+    {
+      "answer_id": 59248923,
+      "body": "<p>The problem is that when you start the echo server, then the code does not go any further.</p>\n<p>In order to use both of them, you need to separate each of them into a different thread and also stop your program to finish and stop everything.</p>\n<p>The simplest way is to separate the web server and telegram bot and start them separately:</p>\n<pre><code>func StartEcho() { \n    e := echo.New()\n    e.GET(&quot;/&quot;, func(c echo.Context) error {\n        return c.String(http.StatusOK, &quot;Hello, World!&quot;)\n    })\n    _ = e.Start(&quot;:1323&quot;)\n}\n\nfunc StartBot() {\n    bot, err := tgbotapi.NewBotAPI(&quot;&quot;)\n    if err != nil {\n        log.Fatal(err)\n    }\n\n    bot.Debug = true\n\n    log.Printf(&quot;Authorized on account %s&quot;, bot.Self.UserName)\n\n    u := tgbotapi.NewUpdate(0)\n    u.Timeout = 60\n\n    updates, err := bot.GetUpdatesChan(u)\n\n    for update := range updates {\n        if update.Message == nil {\n            continue\n        }\n\n        gp_msg := tgbotapi.NewMessage(update.Message.Chat.ID, &quot;Hi&quot;)\n        bot.Send(gp_msg)\n    }\n}\n</code></pre>\n<p>And then call them:</p>\n<pre><code>func main() {\n    # Start the echo server in a separate thread\n    go StartEcho()\n\n    db, err := sql.Open(&quot;sqlite3&quot;, &quot;./criticism.db&quot;)\n    if err != nil {\n        log.Fatal(err)\n    }\n    defer db.Close()\n    \n    # Start the bot in a separate thread\n    go StartBot()\n\n    # To stop the program to finish and close\n    select{}\n    \n    # You can also use https://golang.org/pkg/sync/#WaitGroup instead.\n}\n</code></pre>\n<p>Or you can just run the last one in the main thread:</p>\n<pre><code>func main() {\n    # Start the echo server in a separate thread\n    go StartEcho()\n\n    db, err := sql.Open(&quot;sqlite3&quot;, &quot;./criticism.db&quot;)\n    if err != nil {\n        log.Fatal(err)\n    }\n    defer db.Close()\n    \n    # Start the bot\n    StartBot()\n}\n</code></pre>\n<p>But if the last one stops, so will your entire program and the echo server with it. So you have to recover any panics and don't allow it to stop.</p>\n",
+      "owner": {
+        "display_name": "Navid Zarepak",
+        "link": "https://stackoverflow.com/users/8069748/navid-zarepak"
+      }
+    },
+    {
+      "answer_id": 68229321,
+      "body": "<p>The problem was I was fetching from <code>https</code> and not <code>http</code></p>\n<p>Fixed js:</p>\n<pre><code>const res = await fetch('http://localhost:4000/createdebter', {\n        method: 'POST',\n        headers: {\n          'Accept': 'application/json',\n          'Content-type': 'application/json',\n        },\n        body: JSON.stringify(nameAndPhone),\n      })\n</code></pre>\n",
+      "owner": {
+        "display_name": "undernet",
+        "link": "https://stackoverflow.com/users/11146366/undernet"
+      }
+    },
+    {
+      "answer_id": 68119500,
+      "body": "<p>I see that you are missing the call of <code>next</code> to continue the request chain.</p>\n<p>See the example here: <a href=\"https://echo.labstack.com/cookbook/middleware/\" rel=\"nofollow noreferrer\">https://echo.labstack.com/cookbook/middleware/</a></p>\n<pre class=\"lang-golang prettyprint-override\"><code>// ServerHeader middleware adds a `Server` header to the response.\nfunc ServerHeader(next echo.HandlerFunc) echo.HandlerFunc {\n    return func(c echo.Context) error {\n        c.Response().Header().Set(echo.HeaderServer, &quot;Echo/3.0&quot;)\n        return next(c)\n    }\n}\n</code></pre>\n<p>See the <code>return next(c)</code>, it continues to process the request throw all middlewares and eventually the <code>login.html</code> static handler.</p>\n<p>As you are not calling, it stops the chain and does nothing.</p>\n",
+      "owner": {
+        "display_name": "Lucas Katayama",
+        "link": "https://stackoverflow.com/users/1181036/lucas-katayama"
+      }
+    },
+    {
+      "answer_id": 67873913,
+      "body": "<p>You can use e.ListenerAddr() to check if the port is open.\nIt will return nil until the port is open.</p>\n<pre><code>func degradePrivileges(e *echo.Echo, userName string) { \n    for { adr := e.ListenerAddr() if adr != nil { \n        degradeMe(userName) break \n    } \n    time.Sleep(100 * time.Millisecond) } \n} \n</code></pre>\n",
+      "owner": {
+        "display_name": "lumos0815",
+        "link": "https://stackoverflow.com/users/4694916/lumos0815"
+      }
+    },
+    {
+      "answer_id": 67245609,
+      "body": "<p>Your interface and struct implementation don't match. If you want your interface method's to match what's required by the echo framework then do this:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>type PersonController interface {\n    CreateNewPerson(ctx echo.Context) error\n    GetPerson(ctx echo.Context) error\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Christian",
+        "link": "https://stackoverflow.com/users/4647559/christian"
+      }
+    },
+    {
+      "answer_id": 65985924,
+      "body": "<h2>Adding a timeout to Server context.Context</h2>\n<p>This is a bit tricky to answer without knowing exactly what you are trying to do. I'll answer first on how to handle context wrapping using <code>WithTimeout</code> with a middleware.</p>\n<p>A middleware can add/modify a request context like so:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func TimeoutMiddleware(timeout time.Duration, next func(w http.ResponseWriter, req *http.Request)) func(w http.ResponseWriter, req *http.Request) {\n    return func(w http.ResponseWriter, req *http.Request) {\n        // Wrap the existing context from the request\n        ctx, cancel := context.WithTimeout(req.Context(), timeout)\n        // Always do this to clean up contexts, otherwise they'll hang out\n        // and gather since they are blocked go rountines\n        defer cancel()\n\n        // Put the new context into the request\n        req = req.WithContext(ctx)\n\n        // Pass the modified request forward\n        next(w, req)\n\n        // Handle any ctx timeout issues in the general middleware\n        if err := ctx.Err(); err != nil {\n            if errors.Is(err, context.DeadlineExceeded) {\n                log.Println(&quot;HTTP Request timed out&quot;)\n                w.Write([]byte(&quot;Timed out&quot;))\n            }\n        }\n    }\n}\n</code></pre>\n<p>The issue is <code>next(w, req)</code> requires your http handler to handle a context timeout. If the http handler ignores the context, it will not timeout. Such as this:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func endless(w http.ResponseWriter, req *http.Request) {\n    ctx := req.Context()\n    // Just a busy loop....\n    for {\n        select {\n        case &lt;-ctx.Done():\n            // Exit the handler if the context is Done(), even if our function is not.\n            return\n        default:\n            fmt.Println(&quot;wait&quot;)\n            time.Sleep(1 * time.Second)\n        }\n    }\n}\n</code></pre>\n<p>If you are making a database call or something that takes time in a handler, often times the database api accepts a <code>context.Context</code> to abort early if the context is canceled.</p>\n<p>So this solution adds a timeout to the request context going into a handler that you still need to manage.</p>\n<hr />\n<h2>Client Timeout</h2>\n<p>You can always add the timeouts to your request:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>    client := http.Client{\n        Timeout: time.Second,\n    }\n    client.Do(...)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Steven Masley",
+        "link": "https://stackoverflow.com/users/15118064/steven-masley"
+      }
+    },
+    {
+      "answer_id": 65537975,
+      "body": "<p>I'm guessing that your file exists, but the code that you wrote is reading the file before the changes are <a href=\"https://stackoverflow.com/questions/10371017/fsync-vs-write-system-call\">&quot;flushed to disk&quot;</a>.</p>\n<p>Right here:</p>\n<pre><code>defer dst.Close()\n _, err = io.Copy(dst, src)\n</code></pre>\n<p>Should <code>Close()</code> or <code>Sync()</code> your writer as soon as possible, otherwise you may read before the write is finished. And since your <code>readFile()</code> function isn't re-using the file, you might as well just close (not <code>Sync()</code>) it immediately, not deferred</p>\n<p>Try this:</p>\n<pre><code> _, err = io.Copy(dst, src)\ndst.Close()\nif err != nil {\n  \n}\n</code></pre>\n<p>There could be an error while copying, but we still want to Close() the file (if there wasn't an error during the <code>os.Create</code>,<code> os.Open,</code> or <code>os.OpenFile</code>...</p>\n",
+      "owner": {
+        "display_name": "aerth",
+        "link": "https://stackoverflow.com/users/5129446/aerth"
+      }
+    },
+    {
+      "answer_id": 65294743,
+      "body": "<p>The way is construct the error should be as below I guess. Just shown err construction to narrow down, need to perform additional checks</p>\n<pre><code>func customHTTPErrorHandler(err error, c echo.Context) {\n\n    msg := echo.Map{&quot;message&quot;: &quot;Unauthorized&quot;}\n\n    err = c.JSON(401, msg)\n}\n</code></pre>\n<p>You have set http status code as <code>http.StatusOK</code>. Below line.</p>\n<p><em><strong><code>if err := c.String(http.StatusOK, strconv.Itoa(code)); err != nil {</code></strong></em></p>\n<p>It should be 401 <code>http.StatusUnauthorized</code></p>\n<pre><code>if err := c.String(http.StatusUnauthorized, strconv.Itoa(code)); err != nil {\n        c.Logger().Error(err)\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Abhijit-K",
+        "link": "https://stackoverflow.com/users/1063250/abhijit-k"
+      }
+    },
+    {
+      "answer_id": 65211164,
+      "body": "<pre><code>        for value := range values {\n</code></pre>\n<p>Using <code>range</code> on a list returns <code>index, value</code>. You only ask for the <code>index</code>, which is <code>0</code> in all cases. To get the actual values use</p>\n<pre><code>        for _,value := range values {\n</code></pre>\n",
+      "owner": {
+        "display_name": "Steffen Ullrich",
+        "link": "https://stackoverflow.com/users/3081018/steffen-ullrich"
+      }
+    },
+    {
+      "answer_id": 64021793,
+      "body": "<p>Port 80, by default, communicates over HTTP. 443 is reserved for HTTPS traffic. Assuming nothing else is wrong, you should be able to simply change your <code>e.StartTLS()</code> to this:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>e.Logger.Fatal(e.StartTLS(&quot;:443&quot;, &quot;/etc/letsencrypt/live/anltcsprod.enrtt.com/fullchain.pem&quot;, &quot;/etc/letsencrypt/live/anltcsprod.enrtt.com/privkey.pem&quot;))\n</code></pre>\n",
+      "owner": {
+        "display_name": "lossdev",
+        "link": "https://stackoverflow.com/users/13758700/lossdev"
+      }
+    },
+    {
+      "answer_id": 60870489,
+      "body": "<p>I generated the application artifact in circleci and used <code>.ebignore</code> files to only push that lib. No building takes place on Elasticbeanstalk and all is working now</p>\n",
+      "owner": {
+        "display_name": "Damien",
+        "link": "https://stackoverflow.com/users/11612/damien"
+      }
+    },
+    {
+      "answer_id": 60885777,
+      "body": "<p>You are calling a method <code>GetById</code> but not on an object. When Go calls a method, it supplies the object as a first parameter implicitly. It is similar to passing <code>self</code> reference in Python but syntactically it goes between <code>func</code> keyword and function name.</p>\n\n<p>Rewrite it to be a function:</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>func GetUserById(c echo.Context, id int) (*User, error) {\n    db := c.Get(\"DB\").(*sqlx.DB)\n    user := User{}\n    err := db.Get(&amp;user, fmt.Sprintf(\"SELECT id, created_at, updated_at FROM users WHERE id=%d\", id))\n    if err != nil {\n        fmt.Println(err)\n    }\n    return &amp;user, err\n}\n</code></pre>\n\n<p>and then call</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>user, err := models.GetUserById(c, 5)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Grzegorz Żur",
+        "link": "https://stackoverflow.com/users/450989/grzegorz-%c5%bbur"
+      }
+    },
+    {
+      "answer_id": 60471468,
+      "body": "<p>Your code will attempt to create the index every time the <code>Create</code> function is called, which will work, but is not very efficient, as an index only needs to be created once (or if it doesn't exist). I would recommend letting creation of your index be the responsibility of the function that sets up the connection to the DB, or a function run right after initialising the DB connection, such that it is run only once (when your program starts).</p>\n\n<p>As the <code>collection.Indexes().CreateOne(...)</code> method doesn't return an error upon trying to create an index that already exists, you can use this as a way to ensure the index exists, similar to how the unofficial MongoDB driver had an <a href=\"https://godoc.org/github.com/globalsign/mgo#Collection.EnsureIndex\" rel=\"noreferrer\"><code>EnsureIndex</code></a> function.</p>\n\n<p>Alternatively, you could do what Cahaba Data suggests in <a href=\"https://stackoverflow.com/a/60471799/8059181\">his answer</a>, which is to make index creation be a one-time DB admin task instead of a responsibilty of your application. I've previously had discussions with some colleagues on this, and while I do agree that it technically is a one-time DB admin task, I still prefer to have my application ensure at startup that the indexes it needs are in fact there, creating them if they are not. After all, my application could malfunction / be crippled if someone forgets to or creates wrong indices. It also provides good documentation on which indices your application needs / uses, instead of having to communicate this with the DB admin and hoping that he / she / it will take proper note of it. Feel free to form your own opinion of course :)</p>\n",
+      "owner": {
+        "display_name": "Bart van Oort",
+        "link": "https://stackoverflow.com/users/8059181/bart-van-oort"
+      }
+    },
+    {
+      "answer_id": 59934739,
+      "body": "<p>TLDR</p>\n\n<pre><code>func TestDoStuff(t *testing.T) {\n    body := new(bytes.Buffer)\n    writer := multipart.NewWriter(body)\n    writer.WriteField(\"bu\", \"HFL\")\n    writer.WriteField(\"wk\", \"10\")\n    part, _ := writer.CreateFormFile(\"file\", \"file.csv\")\n    part.Write([]byte(`sample`))\n    writer.Close() // &lt;&lt;&lt; important part\n\n    e := echo.New()\n    req := httptest.NewRequest(http.MethodPost, \"/endpoint\", body)\n    req.Header.Set(\"Content-Type\", writer.FormDataContentType()) // &lt;&lt;&lt; important part\n    rec := httptest.NewRecorder()\n    c := e.NewContext(req, rec)\n    ...\n}\n</code></pre>\n\n<p>Explanation.\nWhen you close multipart.Writer in actually writes boundary id to body (which is very important part!). That id later is written to headers using writer.FormDataContentType().</p>\n\n<p>The thing is when you call FormValue, FormFile, etc. go calls req.ParseMultipartForm() who in turn go and look for boundary id in multipart/form-data header, and then using said id searches for body data.</p>\n",
+      "owner": {
+        "display_name": "Mark Belotskiy",
+        "link": "https://stackoverflow.com/users/4826587/mark-belotskiy"
+      }
+    },
+    {
+      "answer_id": 58404740,
+      "body": "<p>Goroutines have no external ID.</p>\n\n<p>Locks can be acquired in one goroutine and released in another, by design.  Thus, if a lock is held, it's not held <em>by</em> a Goroutine: anyone can unlock it, and there is no ID to record as to who locked it.</p>\n\n<p>(Hence, the answer is that just using the provided mutex, you can't see who's hogging it.)</p>\n",
+      "owner": {
+        "display_name": "torek",
+        "link": "https://stackoverflow.com/users/1256452/torek"
+      }
+    },
+    {
+      "answer_id": 58331197,
+      "body": "<p>I ultimately solved this by writing a custom Echo middleware to hook into the response before Echo's proxy middleware could send the headers back to the client.</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>func setResponseACAOHeaderFromRequest (req http.Request, resp echo.Response) {\n    resp.Header().Set(echo.HeaderAccessControlAllowOrigin, \n    req.Header.Get(echo.HeaderOrigin))\n}\n\nfunc ACAOHeaderOverwriteMiddleware(next echo.HandlerFunc) echo.HandlerFunc {\n    return func(ctx echo.Context) error {\n        ctx.Response().Before(func() {\n            setResponseACAOHeaderFromRequest(*ctx.Request(), *ctx.Response())\n        })\n        return next(ctx)\n    }\n}\n</code></pre>\n\n<p>Then just put this middleware in <code>e.Use()</code> <em>right</em> before your proxy middleware:</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>e.POST(\n        \"/\",\n        handlers.Noop,\n        ACAOHeaderOverwriteMiddleware,\n        middleware.ProxyWithConfig(middleware.ProxyConfig{\n             Balancer: singleTargetBalancer(\"[backend service URL]\"),\n        })\n)\n</code></pre>\n\n<p>Docs for Echo's <code>Request::Before()</code> hook: <a href=\"https://echo.labstack.com/guide/response#before-response\" rel=\"nofollow noreferrer\">https://echo.labstack.com/guide/response#before-response</a></p>\n",
+      "owner": {
+        "display_name": "RavenHursT",
+        "link": "https://stackoverflow.com/users/282250/ravenhurst"
+      }
+    },
+    {
+      "answer_id": 58186683,
+      "body": "<p>The Echo object does not have this method. I think you need the code?</p>\n\n<p>API.go:</p>\n\n<pre><code>package main\n\nimport \"github.com/labstack/echo\"\n\nfunc UseSubroute(echo *echo.Echo)  {\n    echo.GET(\"/api\", sayHello)\n    echo.GET(\"/api/music\", getMusic)\n    echo.GET(\"/api/user/:id\", getDetail)\n    echo.POST(\"/api/user\", addUser)\n}\n</code></pre>\n\n<p>main.go:</p>\n\n<pre><code>package main\n\nimport \"github.com/labstack/echo\"\n\nfunc main() {\n    e := echo.New()\n    UseSubroute(e)\n}\n</code></pre>\n\n<p>These two files need to be placed in the same directory.</p>\n\n<p>Do you need it?</p>\n",
+      "owner": {
+        "display_name": "Artikell",
+        "link": "https://stackoverflow.com/users/7983620/artikell"
+      }
+    },
+    {
+      "answer_id": 58213784,
+      "body": "<p>You can use a closure to give your parameter to the middleware, like this:</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>func (h *handlers) Check(adminName string) echo.MiddlewareFunc {\n    return func(next echo.HandlerFunc) echo.HandlerFunc {\n        return func(c echo.Context) error {\n            if c.QueryParam(\"username\") == adminName {\n                return next(c)\n            }\n            return echo.NewHTTPError(http.StatusUnauthorized, \"\")\n        }\n    }\n}\n</code></pre>\n\n<p>Here the middleware checks whether the query parameter <code>username</code> matches the middleware parameter <code>adminName</code>. With this example, anyone can get admin status if they know the right username, so no security. You may want to use the BasicAuth or JWT middleware instead, they are already available for <code>echo</code>. Have a look at <code>echo/middleware/basic_auth.go</code> for a better example. </p>\n\n<p>And you can set the middleware as in your question:</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>route.Use(middleware.Check(\"admin\"))\n</code></pre>\n",
+      "owner": {
+        "display_name": "Cl&#233;ment",
+        "link": "https://stackoverflow.com/users/4671382/cl%c3%a9ment"
+      }
+    },
+    {
+      "answer_id": 57595962,
+      "body": "<blockquote>\n  <p>I want to have the routes of my api in a different file for example:\n  routes/users.go that then I include in the \"main\" function and\n  register those routes.</p>\n</blockquote>\n\n<p>This is possible, simply have your files in the <code>routes</code> package declare functions that take an instance of <code>*echo.Echo</code> and have them register the handlers.</p>\n\n<pre><code>// routes/users.go\n\nfunc InitUserRoutes(e *echo.Echo) {\n    e.GET(\"users\", UserController.CreateUser)\n    e.POST(\"users\", UserController.UpdateUser)\n    e.DELETE(\"users\", UserController.DeleteUser)\n}\n\n\n// routes/posts.go\n\nfunc InitPostRoutes(e *echo.Echo) {\n    e.GET(\"posts\", PostController.CreatePost)\n    e.POST(\"posts\", PostController.UpdatePost)\n    e.DELETE(\"posts\", PostController.DeletePost)\n}\n</code></pre>\n\n<p>and then in <code>main.go</code></p>\n\n<pre><code>import (\n     \"github.com/whatever/echo\"\n     \"package/path/to/routes\"\n)\n\nfunc main() {\n    e := echo.New()\n    routes.InitUserRoutes(e)\n    routes.InitPostRoutes(e)\n    // ...\n}\n</code></pre>\n\n<p>Note that the <code>InitXxx</code> functions need to start with an upper case letter as opposed to your <code>initRoutes</code> example which has its first letter in lower case. This is because identifiers with lower case first letters are <em>unexported</em>, which makes them inaccessible from outside their own package. Put another way, for you to be able to reference an imported identifier you have to export it by having it start with an upper case letter.</p>\n\n<p>More here: <a href=\"https://golang.org/ref/spec#Exported_identifiers\" rel=\"noreferrer\">https://golang.org/ref/spec#Exported_identifiers</a></p>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 57064433,
+      "body": "<p><code>next(c)</code> doesn't loop through anything. <code>next</code> is a variable received as a function parameter, which contains a function. <code>next(c)</code> calls that function. In practice, it is the next part of the chain - which might be the next middleware, or might be the final request handler. When the <code>func</code> that <code>Process</code> returns is called, that itself might have been called as <code>next</code> by the middleware before it.</p>\n\n<p>There's no magic involved, and nothing hidden within the library It's just a chain of function calls.</p>\n",
+      "owner": {
+        "display_name": "Adrian",
+        "link": "https://stackoverflow.com/users/7426/adrian"
+      }
+    },
+    {
+      "answer_id": 56584017,
+      "body": "<p>You can pass a method of an instance as a function value, which is probably the most straightforward way to handle this:</p>\n\n<pre><code>type WebPlusDB struct {\n    web *echo.Echo\n    db  *databaseInterface\n}\n\nfunc (w WebPlusDB) route_hello(c echo.Context) error {\n    log.Printf(\"Hello world\\n\")\n\n    // do whatever with w\n\n    return c.String(http.StatusOK, \"hello world\")\n}\n\nfunc NewEngine() *echo.Echo {\n    e := echo.New()\n    w := NewWebPlusDb()\n    e.GET(\"/hello\", w.route_hello)\n    return e    \n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Adrian",
+        "link": "https://stackoverflow.com/users/7426/adrian"
+      }
+    },
+    {
+      "answer_id": 56264569,
+      "body": "<p>I have built this Raw SQL query,</p>\n\n<pre><code>dbConn().\n    Raw(\"SELECT p.*, count(i.id) as invoice_count FROM profiles p left join invoices i on i.profile_fk = p.id group by p.id\").\n    Scan(&amp;result)\n</code></pre>\n",
+      "owner": {
+        "display_name": "C0ol_Cod3r",
+        "link": "https://stackoverflow.com/users/3529908/c0ol-cod3r"
+      }
+    },
+    {
+      "answer_id": 55832560,
+      "body": "<p>You can add a middleware for this:</p>\n\n<pre><code>func filterIP(next echo.HandlerFunc) echo.HandlerFunc {\n    return func(c echo.Context) error {\n        // Block requests from localhost.\n        if c.RealIP() == \"127.0.0.1\" {\n            return echo.NewHTTPError(http.StatusUnauthorized,\n                fmt.Sprintf(\"IP address %s not allowed\", c.RealIP()))\n        }\n\n        return next(c)\n    }\n}\n\nfunc main() {\n    e := echo.New()\n    e.Use(filterIP)\n    e.GET(\"/\", func(c echo.Context) error {\n        return c.String(http.StatusOK, \"Hello, World!\")\n    })\n    e.Logger.Fatal(e.Start(\":1323\"))\n}\n</code></pre>\n\n<p>It's important to use the <code>RealIP()</code> function, otherwise you might end up with the IP address of a proxy.</p>\n",
+      "owner": {
+        "display_name": "Martin Tournoij",
+        "link": "https://stackoverflow.com/users/660921/martin-tournoij"
+      }
+    },
+    {
+      "answer_id": 55513517,
+      "body": "<p>First you need to catch the error from the <em>JWT</em> library. <a href=\"https://github.com/dgrijalva/jwt-go/blob/06ea1031745cb8b3dab3f6a236daf2b0aa468b7e/example_test.go\" rel=\"nofollow noreferrer\">Here</a> you can find an example (<code>ExampleParse_errorChecking</code>) how to do this.</p>\n\n<p>When you know the error you can return your custom response\nor use <em>Custom HTTP Error Handler</em> \nsee details <a href=\"https://echo.labstack.com/guide/error-handling\" rel=\"nofollow noreferrer\">here</a></p>\n\n<blockquote>\n  <p>Custom HTTP error handler can be set via e.HTTPErrorHandler</p>\n</blockquote>\n\n<pre><code>func customHTTPErrorHandler(err error, c echo.Context) {\n    // ...\n}\n\ne.HTTPErrorHandler = customHTTPErrorHandler\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nik",
+        "link": "https://stackoverflow.com/users/9811969/nik"
+      }
+    },
+    {
+      "answer_id": 55484178,
+      "body": "<p>I realized that I was curl-ing the data incorrectly.</p>\n\n<p><code>curl -XPOST -H 'Content-Type: multipart/form-data' -F 'products=crm,something' http://localhost:50051/lockHandler</code></p>\n\n<p>instead of </p>\n\n<p><code>curl -XPOST -H 'Content-Type: multipart/form-data' -F 'products=\"crm\",\"something\"' http://localhost:50051/lockHandler</code></p>\n\n<p>worked for me.</p>\n",
+      "owner": {
+        "display_name": "jazz",
+        "link": "https://stackoverflow.com/users/2060686/jazz"
+      }
+    },
+    {
+      "answer_id": 53922653,
+      "body": "<p>The problem isn't strictly related to Echo. The way Angular does routing is that it does NOT request the page from the server. It changes the URL without actually requesting another page from the server. </p>\n\n<p>Thus when you go to \"/home\", then refresh, your browser will try to reach the server and ask it for \"/home\" (in contrast to the first time, the browser requests \"/\" which is mapped to \"dist/index.html\"). \"/home\" is not found or defined in Echo routing. Hence you get a Not Found message.</p>\n\n<p>What I recommend that you do is to do the following regarding routing</p>\n\n<pre><code>e.Static(\"/dist\", \"dist\")\ne.File(\"/*\", \"dist/index.html\")\ne.Start(\":3000\")\n</code></pre>\n\n<p>And inside your <code>index.html</code> add \"/dist\" before the URLs of the requested resources.</p>\n",
+      "owner": {
+        "display_name": "Seaskyways",
+        "link": "https://stackoverflow.com/users/1978013/seaskyways"
+      }
+    },
+    {
+      "answer_id": 53406224,
+      "body": "<p>There is no problem in your go code. Why echo <code>.Bind()</code> not able to retrieve the payload sent from AJAX is because the payload is not in JSON format.</p>\n\n<p>On <code>$.ajax</code> you need to <code>JSON.stringify()</code> the data into JSON string format.</p>\n\n<pre><code>JSON.stringify({\n    \"keyCode\" : keyCode\n    , \"ctxWidth\" : ctxWidth\n    , \"ctxHeight\" : ctxHeight\n    , \"nowBlock\" : {\"O\":0}\n})\n</code></pre>\n\n<p>Setting <code>contentType</code> into <code>application/json</code> will not automatically convert payload into JSON string. That's why <code>JSON.stringy()</code> is still required.</p>\n\n<hr>\n\n<p>Full changes:</p>\n\n<pre><code>var payload = JSON.stringify({\n    \"keyCode\": keyCode,\n    \"ctxWidth\": ctxWidth,\n    \"ctxHeight\": ctxHeight,\n    \"nowBlock\": {\n        \"O\": 0\n    }\n})\n\n$.ajax({\n    type: \"POST\",\n    url: \"/game/tetris/api/control\",\n    data: payload,\n    dataType: \"json\",\n    contentType: \"application/json\"\n}).done(function(data) {\n    ......\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "novalagung",
+        "link": "https://stackoverflow.com/users/1467988/novalagung"
+      }
+    },
+    {
+      "answer_id": 53165644,
+      "body": "<p>You are calling <code>json.Marshal</code> on the <code>[]Houses</code>, which marshals it to a JSON string, then you are calling <code>echo.Context.JSON</code> with the JSON string, which internally calls <code>json.Marshal</code>. Double marshalling causes the escaping. See example. (error checking omitted for brevity)</p>\n\n<p><a href=\"https://play.golang.org/p/nYvHS4huy0M\" rel=\"nofollow noreferrer\">https://play.golang.org/p/nYvHS4huy0M</a></p>\n\n<pre><code>h := &amp;Houses{\"Jhon Doe\", \"High St.\"}\nd, _ := json.Marshal(h)\n\n// double marshal bad\nd, _ = json.Marshal(string(d))\n\nfmt.Println(string(d))\n// prints \"{\\\"name\\\":\\\"Jhon Doe\\\",\\\"address\\\":\\\"High St.\\\"}\"\n</code></pre>\n\n<p>Your solution is to just pass the slice to your <code>c.JSON</code> call. As a side note, you should be able to pass the struct to <code>c.Bind</code> instead of using a map with type assertions.</p>\n",
+      "owner": {
+        "display_name": "RayfenWindspear",
+        "link": "https://stackoverflow.com/users/1276480/rayfenwindspear"
+      }
+    },
+    {
+      "answer_id": 52576604,
+      "body": "<p>You should export the fields of your credentials-struct by capitalizing each first letter, otherwise the json-package doesn't know what fields you have:</p>\n\n<pre><code>type credentials struct {\n    Email string `json:\"email\"`\n    Pass string `json:\"pass\"`\n}\n</code></pre>\n\n<p>for more information: <a href=\"https://stackoverflow.com/questions/11126793/json-and-dealing-with-unexported-fields\">JSON and dealing with unexported fields</a></p>\n",
+      "owner": {
+        "display_name": "sieberts",
+        "link": "https://stackoverflow.com/users/4334369/sieberts"
+      }
+    },
+    {
+      "answer_id": 51829311,
+      "body": "<p>So the method is not really fine, when it can panic. You could catch that error very simple:</p>\n\n<pre><code>ctx, ok := c.(*ApiContext) \nif !ok {\n  // do something when you have a different type\n  // return an error here\n}\n</code></pre>\n\n<p>I think you should not use a different context then <code>echo.Context</code>, because just with that context the testing is supported.</p>\n\n<p>But back to your question. If you want to test it with your context you need to pass your context into the test and not the <code>echo.Context</code>.</p>\n",
+      "owner": {
+        "display_name": "apxp",
+        "link": "https://stackoverflow.com/users/5291427/apxp"
+      }
+    },
+    {
+      "answer_id": 50452469,
+      "body": "<p>The immediate cause of the panic is that the error handler is being called with a \"standard\" context. To make your type assertion safe, use the two-value form:</p>\n\n<pre><code>e.HTTPErrorHandler = func(err error, c echo.Context) {\n    cc, ok := c.(*CustomContext)\n    if ok {\n        // A CustomContext was received\n    } else {\n        // Something else, probably a standard context, was received\n    }\n}\n</code></pre>\n\n<p>But more generally speaking, what you're doing (using a custom context type) is probably a bad idea.  If you explain what you're trying to accomplish, there is probably a better, more robust way to solve it.</p>\n\n<p>One obvious alternative would be to use standard Go contexts, as exposed through echo via <code>c.Request().Context()</code>.</p>\n",
+      "owner": {
+        "display_name": "Jonathan Hall",
+        "link": "https://stackoverflow.com/users/13860/jonathan-hall"
+      }
+    },
+    {
+      "answer_id": 48856391,
+      "body": "<p>You are using <code>context.Render</code> method incorrectly.</p>\n\n<p><a href=\"https://github.com/labstack/echo/blob/master/context.go#L111\" rel=\"nofollow noreferrer\">https://github.com/labstack/echo/blob/master/context.go#L111</a></p>\n\n<pre><code>// Render renders a template with data and sends a text/html response with status\n// code. Renderer must be registered using `Echo.Renderer`.\nRender(code int, name string, data interface{}) error\n</code></pre>\n\n<p>The Render methods renders the template and sends it as a response.\nThis method returns an error value, if something unexpected happens, this error value is a description of it. Otherwise, it is equal to <code>nil</code>.\nSee: <a href=\"https://golang.org/pkg/errors/\" rel=\"nofollow noreferrer\">https://golang.org/pkg/errors/</a></p>\n\n<p>In order to use Renderer, you must register it and you can use that <strong>registered renderer</strong> to get rendered template text and save it in DB.</p>\n\n<p>You can see example renderer in unit tests of Echo framework: <a href=\"https://github.com/labstack/echo/blob/master/context_test.go#L23\" rel=\"nofollow noreferrer\">https://github.com/labstack/echo/blob/master/context_test.go#L23</a></p>\n\n<p>Hope this helps.</p>\n",
+      "owner": {
+        "display_name": "maksadbek",
+        "link": "https://stackoverflow.com/users/2660766/maksadbek"
+      }
+    },
+    {
+      "answer_id": 48070831,
+      "body": "<p>The problem is in the client side . Browsers are ignoring Set-Cookie in redirect response when domain of the cookie is localhost.  So I have to use 127.0.0.1 instead of localhost.</p>\n",
+      "owner": {
+        "display_name": "pyprism",
+        "link": "https://stackoverflow.com/users/2566671/pyprism"
+      }
+    },
+    {
+      "answer_id": 47488038,
+      "body": "<p>The template functions must be defined before the template is parsed.  To fix the error, create an empty template, set the functions and then parse the glob:</p>\n\n<pre><code>templates: template.Must(template.New(\"\").Funcs(funcMap).ParseGlob(\"C:/Projects/Golang/hello/resources/*.html\")),\n</code></pre>\n",
+      "owner": {
+        "display_name": "user5728991",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 45561202,
+      "body": "<p>Welp, seems it was my application's fault all along! My Echo api seems fine... for now!</p>\n\n<p>If someone has the same problem, perhaps this <a href=\"https://stackoverflow.com/questions/45543099/vuejs-with-axios-request-in-vuex-store-cant-make-more-than-one-request-why/#45561091\">Vuejs with axios request in vuex store: can&#39;t make more than one request, why?</a> will help.</p>\n",
+      "owner": {
+        "display_name": "One-Winged_Eagle",
+        "link": "https://stackoverflow.com/users/8427577/one-winged-eagle"
+      }
+    },
+    {
+      "answer_id": 44528288,
+      "body": "<p>You're code looks alright. However it can be simplified-</p>\n\n<pre><code>var b bytes.Buffer // you could use buffer pool here\nerr := jsonapi.MarshalManyPayload(&amp;b, albumList())\nif err != nil {\n    return err\n}\nreturn c.JSONBlob(http.StatusOK, b.Bytes())\n</code></pre>\n\n<hr>\n\n<p>Following approaches for your thoughts:</p>\n\n<p>Approach 1 -</p>\n\n<pre><code>c.Response().Header().Set(echo.HeaderContentType, jsonapi.MediaType)\nc.Response().WriteHeader(http.StatusOK)\nreturn jsonapi.MarshalManyPayload(c.Response(), albumList())\n</code></pre>\n\n<hr>\n\n<p>Approach 2 -</p>\n\n<pre><code>var b bytes.Buffer // you could use buffer pool here\nerr := jsonapi.MarshalManyPayload(&amp;b, albumList())\nif err != nil {\n    return err\n}\nc.Response().Header().Set(echo.HeaderContentType, jsonapi.MediaType)\nc.Response().WriteHeader(http.StatusOK)\n_, err := b.WriteTo(c.Response())\nreturn err\n</code></pre>\n",
+      "owner": {
+        "display_name": "jeevatkm",
+        "link": "https://stackoverflow.com/users/1343356/jeevatkm"
+      }
+    },
+    {
+      "answer_id": 41412371,
+      "body": "<p>This is how I did it:</p>\n\n<pre><code>json_map := make(map[string]interface{})\nerr := json.NewDecoder(c.Request().Body).Decode(&amp;json_map)\nif err != nil {\n    return err\n} else {\n    //json_map has the JSON Payload decoded into a map\n    cb_type := json_map[\"type\"]\n    challenge := json_map[\"challenge\"]\n</code></pre>\n",
+      "owner": {
+        "display_name": "7hacker",
+        "link": "https://stackoverflow.com/users/448844/7hacker"
+      }
+    },
+    {
+      "answer_id": 36500318,
+      "body": "<p>Your struct doesn't have exportable values, as the names are lowercase.</p>\n\n<pre><code>type Quote struct {\n    Username string `json:\"username\"`\n    Password string `json:\"password\"`\n}\n</code></pre>\n\n<p>You can also annotate the name of the marshalled key as I've posted in the code snippet, so if you want to change the name from an internal to external representation you can.</p>\n",
+      "owner": {
+        "display_name": "Christian Witts",
+        "link": "https://stackoverflow.com/users/69893/christian-witts"
+      }
+    },
+    {
+      "answer_id": 33163851,
+      "body": "<p>You indeed need to follow the same principle of connection pool.</p>\n\n<p>Here is the Echo example, with a very basic implementation of a pool:</p>\n\n<pre><code>package main\n\nimport (\n    \"fmt\"\n\n    \"sync\"\n\n    \"github.com/labstack/echo\"\n    mw \"github.com/labstack/echo/middleware\"\n    \"golang.org/x/net/websocket\"\n)\n\nvar connectionPool = struct {\n    sync.RWMutex\n    connections map[*websocket.Conn]struct{}\n}{\n    connections: make(map[*websocket.Conn]struct{}),\n}\n\nfunc main() {\n    e := echo.New()\n\n    e.Use(mw.Logger())\n    e.Use(mw.Recover())\n\n    e.Static(\"/\", \"public\")\n    e.WebSocket(\"/ws\", func(c *echo.Context) (err error) {\n        ws := c.Socket()\n\n        connectionPool.Lock()\n        connectionPool.connections[ws] = struct{}{}\n\n        defer func(connection *websocket.Conn){\n            connectionPool.Lock()\n            delete(connectionPool.connections, connection)\n            connectionPool.Unlock()\n        }(ws)\n\n        connectionPool.Unlock()\n\n        msg := \"\"\n\n        for {\n            if err = websocket.Message.Receive(ws, &amp;msg); err != nil {\n                return err\n            }\n            err = sendMessageToAllPool(msg)\n            if err != nil {\n                return err\n            }\n            fmt.Println(msg)\n        }\n        return err\n    })\n\n    e.Run(\":1323\")\n}\n\nfunc sendMessageToAllPool(message string) error {\n    connectionPool.RLock()\n    defer connectionPool.RUnlock()\n    for connection := range connectionPool.connections {\n        if err := websocket.Message.Send(connection, message); err != nil {\n            return err\n        }\n    }\n    return nil\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "HectorJ",
+        "link": "https://stackoverflow.com/users/1685538/hectorj"
+      }
+    }
+  ]
+}

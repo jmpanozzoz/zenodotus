@@ -1,0 +1,1908 @@
+{
+  "library": "packagist:monolog/monolog",
+  "fetched_at": "2026-11-21T17:28:25Z",
+  "questions": [
+    {
+      "question_id": 32552450,
+      "title": "How to Log INFO to separate file in Laravel",
+      "accepted_answer_id": 37612400,
+      "score": 87,
+      "link": "https://stackoverflow.com/questions/32552450/how-to-log-info-to-separate-file-in-laravel",
+      "owner": {
+        "display_name": "Roh&#236;t J&#237;ndal",
+        "link": "https://stackoverflow.com/users/4116300/roh%c3%act-j%c3%adndal"
+      }
+    },
+    {
+      "question_id": 8169114,
+      "title": "How to write logs from one service into separate file?",
+      "accepted_answer_id": 8210892,
+      "score": 57,
+      "link": "https://stackoverflow.com/questions/8169114/how-to-write-logs-from-one-service-into-separate-file",
+      "owner": {
+        "display_name": "canni",
+        "link": "https://stackoverflow.com/users/425524/canni"
+      }
+    },
+    {
+      "question_id": 25787258,
+      "title": "PHP: How to use monolog to log to console (php://out)?",
+      "accepted_answer_id": 25787259,
+      "score": 50,
+      "link": "https://stackoverflow.com/questions/25787258/php-how-to-use-monolog-to-log-to-console-php-out",
+      "owner": {
+        "display_name": "Hirnhamster",
+        "link": "https://stackoverflow.com/users/413531/hirnhamster"
+      }
+    },
+    {
+      "question_id": 20126530,
+      "title": "Log rotating with Monolog in Symfony2",
+      "accepted_answer_id": 20126869,
+      "score": 26,
+      "link": "https://stackoverflow.com/questions/20126530/log-rotating-with-monolog-in-symfony2",
+      "owner": {
+        "display_name": "mneute",
+        "link": "https://stackoverflow.com/users/2335098/mneute"
+      }
+    },
+    {
+      "question_id": 13968967,
+      "title": "How not to show last bracket in a monolog log line?",
+      "accepted_answer_id": 13971250,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/13968967/how-not-to-show-last-bracket-in-a-monolog-log-line",
+      "owner": {
+        "display_name": "stloc",
+        "link": "https://stackoverflow.com/users/1706130/stloc"
+      }
+    },
+    {
+      "question_id": 12935979,
+      "title": "Custom monolog handler for default monolog in Symfony 2",
+      "accepted_answer_id": 12937125,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/12935979/custom-monolog-handler-for-default-monolog-in-symfony-2",
+      "owner": {
+        "display_name": "TroodoN-Mike",
+        "link": "https://stackoverflow.com/users/1110341/troodon-mike"
+      }
+    },
+    {
+      "question_id": 29470738,
+      "title": "How to get Doctrine to log queries in Symfony2",
+      "accepted_answer_id": 29472388,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/29470738/how-to-get-doctrine-to-log-queries-in-symfony2",
+      "owner": {
+        "display_name": "Andy Raines",
+        "link": "https://stackoverflow.com/users/4751161/andy-raines"
+      }
+    },
+    {
+      "question_id": 29312746,
+      "title": "How to log multiline entries with monolog like a formatted array?",
+      "accepted_answer_id": 29315601,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/29312746/how-to-log-multiline-entries-with-monolog-like-a-formatted-array",
+      "owner": {
+        "display_name": "Chris",
+        "link": "https://stackoverflow.com/users/2974621/chris"
+      }
+    },
+    {
+      "question_id": 59501658,
+      "title": "How to exclude deprecation messages from logs in Symfony 4?",
+      "accepted_answer_id": 59501739,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/59501658/how-to-exclude-deprecation-messages-from-logs-in-symfony-4",
+      "owner": {
+        "display_name": "acantepie",
+        "link": "https://stackoverflow.com/users/2511957/acantepie"
+      }
+    },
+    {
+      "question_id": 40299505,
+      "title": "How to do advanced filtering of Monolog messages in Symfony?",
+      "accepted_answer_id": 45754188,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/40299505/how-to-do-advanced-filtering-of-monolog-messages-in-symfony",
+      "owner": {
+        "display_name": "Andrei Herford",
+        "link": "https://stackoverflow.com/users/777861/andrei-herford"
+      }
+    },
+    {
+      "question_id": 41998917,
+      "title": "Should I log errors in a controller or in a service?",
+      "accepted_answer_id": 42053396,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/41998917/should-i-log-errors-in-a-controller-or-in-a-service",
+      "owner": {
+        "display_name": "iBadGamer",
+        "link": "https://stackoverflow.com/users/4270471/ibadgamer"
+      }
+    },
+    {
+      "question_id": 43788114,
+      "title": "Symfony autowiring monolog channels",
+      "accepted_answer_id": 59875841,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/43788114/symfony-autowiring-monolog-channels",
+      "owner": {
+        "display_name": "Fabien Papet",
+        "link": "https://stackoverflow.com/users/1617144/fabien-papet"
+      }
+    },
+    {
+      "question_id": 30664606,
+      "title": "How to assert a line is logged using Monolog inside Symfony",
+      "accepted_answer_id": 30680349,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/30664606/how-to-assert-a-line-is-logged-using-monolog-inside-symfony",
+      "owner": {
+        "display_name": "hvtilborg",
+        "link": "https://stackoverflow.com/users/1073410/hvtilborg"
+      }
+    },
+    {
+      "question_id": 30856762,
+      "title": "Logs an entire array using Monolog",
+      "accepted_answer_id": 30857376,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/30856762/logs-an-entire-array-using-monolog",
+      "owner": {
+        "display_name": "ReynierPM",
+        "link": "https://stackoverflow.com/users/719427/reynierpm"
+      }
+    },
+    {
+      "question_id": 15593010,
+      "title": "Can Laravel 4 log to a MySQL database?",
+      "accepted_answer_id": 15612791,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/15593010/can-laravel-4-log-to-a-mysql-database",
+      "owner": {
+        "display_name": "Nyxynyx",
+        "link": "https://stackoverflow.com/users/741099/nyxynyx"
+      }
+    },
+    {
+      "question_id": 32168163,
+      "title": "Laravel 5 different log levels for development and production",
+      "accepted_answer_id": 34084132,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/32168163/laravel-5-different-log-levels-for-development-and-production",
+      "owner": {
+        "display_name": "dev7",
+        "link": "https://stackoverflow.com/users/2636765/dev7"
+      }
+    },
+    {
+      "question_id": 34283942,
+      "title": "How to add additional information (Host, URL, etc.) to Symfony/Monolog log output?",
+      "accepted_answer_id": 34289039,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/34283942/how-to-add-additional-information-host-url-etc-to-symfony-monolog-log-outpu",
+      "owner": {
+        "display_name": "Andrei Herford",
+        "link": "https://stackoverflow.com/users/777861/andrei-herford"
+      }
+    },
+    {
+      "question_id": 15966140,
+      "title": "Symfony 2.1 - Switch Monolog channel in controller",
+      "accepted_answer_id": 15966535,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/15966140/symfony-2-1-switch-monolog-channel-in-controller",
+      "owner": {
+        "display_name": "Johannes Klau&#223;",
+        "link": "https://stackoverflow.com/users/735226/johannes-klau%c3%9f"
+      }
+    },
+    {
+      "question_id": 22360083,
+      "title": "Log PHP fatal errors in Symfony2 using Monolog",
+      "accepted_answer_id": 22382230,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/22360083/log-php-fatal-errors-in-symfony2-using-monolog",
+      "owner": {
+        "display_name": "fdellutri",
+        "link": "https://stackoverflow.com/users/435026/fdellutri"
+      }
+    },
+    {
+      "question_id": 25764876,
+      "title": "Graylog2 with Symfony 2 (Monolog)",
+      "accepted_answer_id": 25765859,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/25764876/graylog2-with-symfony-2-monolog",
+      "owner": {
+        "display_name": "Volker",
+        "link": "https://stackoverflow.com/users/1214980/volker"
+      }
+    },
+    {
+      "question_id": 59434448,
+      "title": "Log file is not being written in Laravel 5.5",
+      "accepted_answer_id": 63551098,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/59434448/log-file-is-not-being-written-in-laravel-5-5",
+      "owner": {
+        "display_name": "Debiprasad",
+        "link": "https://stackoverflow.com/users/225790/debiprasad"
+      }
+    },
+    {
+      "question_id": 13476038,
+      "title": "Monolog FingersCrossedHandler",
+      "accepted_answer_id": 49206136,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/13476038/monolog-fingerscrossedhandler",
+      "owner": {
+        "display_name": "John White",
+        "link": "https://stackoverflow.com/users/1839157/john-white"
+      }
+    },
+    {
+      "question_id": 19935899,
+      "title": "Laravel logging: extra square brackets at end of log lines?",
+      "accepted_answer_id": 19937380,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/19935899/laravel-logging-extra-square-brackets-at-end-of-log-lines",
+      "owner": {
+        "display_name": "curtisdf",
+        "link": "https://stackoverflow.com/users/818236/curtisdf"
+      }
+    },
+    {
+      "question_id": 28609491,
+      "title": "Monolog: log different channels and multiple handlers to grouped log file + dedicated log files",
+      "accepted_answer_id": 40546421,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/28609491/monolog-log-different-channels-and-multiple-handlers-to-grouped-log-file-dedi",
+      "owner": {
+        "display_name": "Wirone",
+        "link": "https://stackoverflow.com/users/842480/wirone"
+      }
+    },
+    {
+      "question_id": 39291248,
+      "title": "Custom HandlerWrapper with MonologBundle",
+      "accepted_answer_id": 39546720,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/39291248/custom-handlerwrapper-with-monologbundle",
+      "owner": {
+        "display_name": "Emanuel Oster",
+        "link": "https://stackoverflow.com/users/1173474/emanuel-oster"
+      }
+    },
+    {
+      "question_id": 49093078,
+      "title": "Symfony production logs",
+      "accepted_answer_id": 49094054,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/49093078/symfony-production-logs",
+      "owner": {
+        "display_name": "N Kiran Kumar Kowlgi",
+        "link": "https://stackoverflow.com/users/9440770/n-kiran-kumar-kowlgi"
+      }
+    },
+    {
+      "question_id": 10008322,
+      "title": "Symfony2/Monolog: Log Level - only show app.INFO?",
+      "accepted_answer_id": 10010601,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/10008322/symfony2-monolog-log-level-only-show-app-info",
+      "owner": {
+        "display_name": "Mike",
+        "link": "https://stackoverflow.com/users/804670/mike"
+      }
+    },
+    {
+      "question_id": 21949367,
+      "title": "What is the correct configuration for Monolog / Swiftmailer Html Formatter in Symonfy2?",
+      "accepted_answer_id": 21949742,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/21949367/what-is-the-correct-configuration-for-monolog-swiftmailer-html-formatter-in-sy",
+      "owner": {
+        "display_name": "Leevi Graham",
+        "link": "https://stackoverflow.com/users/1982031/leevi-graham"
+      }
+    },
+    {
+      "question_id": 23037393,
+      "title": "How to add data to all log records in Laravel?",
+      "accepted_answer_id": 23037394,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/23037393/how-to-add-data-to-all-log-records-in-laravel",
+      "owner": {
+        "display_name": "Rubens Mariuzzo",
+        "link": "https://stackoverflow.com/users/439427/rubens-mariuzzo"
+      }
+    },
+    {
+      "question_id": 24450180,
+      "title": "Monolog, how to log PHP array into console?",
+      "accepted_answer_id": 24450279,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/24450180/monolog-how-to-log-php-array-into-console",
+      "owner": {
+        "display_name": "Ryan",
+        "link": "https://stackoverflow.com/users/398230/ryan"
+      }
+    },
+    {
+      "question_id": 38905524,
+      "title": "Laravel 5 log data to another file",
+      "accepted_answer_id": 38910336,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/38905524/laravel-5-log-data-to-another-file",
+      "owner": {
+        "display_name": "el valuta",
+        "link": "https://stackoverflow.com/users/6180307/el-valuta"
+      }
+    },
+    {
+      "question_id": 23695491,
+      "title": "how are channels defined in symfony monolog?",
+      "accepted_answer_id": 23696184,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/23695491/how-are-channels-defined-in-symfony-monolog",
+      "owner": {
+        "display_name": "abbood",
+        "link": "https://stackoverflow.com/users/766570/abbood"
+      }
+    },
+    {
+      "question_id": 29415098,
+      "title": "MonologBundle memory leak (?)",
+      "accepted_answer_id": 29421487,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/29415098/monologbundle-memory-leak",
+      "owner": {
+        "display_name": "Tibor",
+        "link": "https://stackoverflow.com/users/1549901/tibor"
+      }
+    },
+    {
+      "question_id": 10348285,
+      "title": "yaml/symfony2: Override configurations",
+      "accepted_answer_id": 10847605,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/10348285/yaml-symfony2-override-configurations",
+      "owner": {
+        "display_name": "Sgoettschkes",
+        "link": "https://stackoverflow.com/users/372562/sgoettschkes"
+      }
+    },
+    {
+      "question_id": 21115076,
+      "title": "Symfony2 Monolog configure to use raven handler (Sentry)",
+      "accepted_answer_id": 21146663,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/21115076/symfony2-monolog-configure-to-use-raven-handler-sentry",
+      "owner": {
+        "display_name": "felipep",
+        "link": "https://stackoverflow.com/users/2046846/felipep"
+      }
+    },
+    {
+      "question_id": 24012361,
+      "title": "how to use swiftmailer handler with monolog",
+      "accepted_answer_id": 26510427,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/24012361/how-to-use-swiftmailer-handler-with-monolog",
+      "owner": {
+        "display_name": "Firman Hidayat",
+        "link": "https://stackoverflow.com/users/2699436/firman-hidayat"
+      }
+    },
+    {
+      "question_id": 32256642,
+      "title": "Laravel Log useFiles method is making Log write in multiple files",
+      "accepted_answer_id": 32262707,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/32256642/laravel-log-usefiles-method-is-making-log-write-in-multiple-files",
+      "owner": {
+        "display_name": "Mladen Janjetovic",
+        "link": "https://stackoverflow.com/users/1090395/mladen-janjetovic"
+      }
+    },
+    {
+      "question_id": 35610782,
+      "title": "How to Turn off Debugging Logs with Monolog",
+      "accepted_answer_id": 35611228,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/35610782/how-to-turn-off-debugging-logs-with-monolog",
+      "owner": {
+        "display_name": "Halfstop",
+        "link": "https://stackoverflow.com/users/1898218/halfstop"
+      }
+    },
+    {
+      "question_id": 36261717,
+      "title": "Symfony 2: Injecting logger for specific channel/handler to services",
+      "accepted_answer_id": 36262025,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/36261717/symfony-2-injecting-logger-for-specific-channel-handler-to-services",
+      "owner": {
+        "display_name": "Andrei Herford",
+        "link": "https://stackoverflow.com/users/777861/andrei-herford"
+      }
+    },
+    {
+      "question_id": 37182954,
+      "title": "Monolog RotatingFileHandler save to a specific file according to log type",
+      "accepted_answer_id": 37250353,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/37182954/monolog-rotatingfilehandler-save-to-a-specific-file-according-to-log-type",
+      "owner": {
+        "display_name": "Carla Sousa",
+        "link": "https://stackoverflow.com/users/5147779/carla-sousa"
+      }
+    },
+    {
+      "question_id": 48381014,
+      "title": "Log deprecations to own file in symfony production",
+      "accepted_answer_id": 71134075,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/48381014/log-deprecations-to-own-file-in-symfony-production",
+      "owner": {
+        "display_name": "Patrick",
+        "link": "https://stackoverflow.com/users/1669671/patrick"
+      }
+    },
+    {
+      "question_id": 51716155,
+      "title": "Trying to create custom log channel Laravel 5.6",
+      "accepted_answer_id": 51790726,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/51716155/trying-to-create-custom-log-channel-laravel-5-6",
+      "owner": {
+        "display_name": "Tarasovych",
+        "link": "https://stackoverflow.com/users/9506712/tarasovych"
+      }
+    },
+    {
+      "question_id": 29455996,
+      "title": "Laravel logging with Monolog\\Handler\\BrowserConsoleHandler",
+      "accepted_answer_id": 29545653,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/29455996/laravel-logging-with-monolog-handler-browserconsolehandler",
+      "owner": {
+        "display_name": "codelk",
+        "link": "https://stackoverflow.com/users/4751174/codelk"
+      }
+    },
+    {
+      "question_id": 29679390,
+      "title": "Is there a way to centrally preprocess all logs created by monolog?",
+      "accepted_answer_id": 29692620,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/29679390/is-there-a-way-to-centrally-preprocess-all-logs-created-by-monolog",
+      "owner": {
+        "display_name": "Loupax",
+        "link": "https://stackoverflow.com/users/208271/loupax"
+      }
+    },
+    {
+      "question_id": 33439209,
+      "title": "Response logging in AWS PHP SDK v3",
+      "accepted_answer_id": 33742545,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/33439209/response-logging-in-aws-php-sdk-v3",
+      "owner": {
+        "display_name": "jmar",
+        "link": "https://stackoverflow.com/users/2171007/jmar"
+      }
+    },
+    {
+      "question_id": 36259943,
+      "title": "How to send Log event from Laravel to Loggly?",
+      "accepted_answer_id": 36259944,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/36259943/how-to-send-log-event-from-laravel-to-loggly",
+      "owner": {
+        "display_name": "Mladen Janjetovic",
+        "link": "https://stackoverflow.com/users/1090395/mladen-janjetovic"
+      }
+    },
+    {
+      "question_id": 41491957,
+      "title": "What isn&#39;t right with logging in Symfony 3",
+      "accepted_answer_id": 41493673,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/41491957/what-isnt-right-with-logging-in-symfony-3",
+      "owner": {
+        "display_name": "Haygo",
+        "link": "https://stackoverflow.com/users/3810301/haygo"
+      }
+    },
+    {
+      "question_id": 44500078,
+      "title": "Symfony log deprecated warning on new file",
+      "accepted_answer_id": 44501268,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/44500078/symfony-log-deprecated-warning-on-new-file",
+      "owner": {
+        "display_name": "Rodrigo Santellan",
+        "link": "https://stackoverflow.com/users/575141/rodrigo-santellan"
+      }
+    },
+    {
+      "question_id": 45442002,
+      "title": "Symfony 2 Injecting logger service",
+      "accepted_answer_id": 45442077,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/45442002/symfony-2-injecting-logger-service",
+      "owner": {
+        "display_name": "user1827297",
+        "link": "https://stackoverflow.com/users/1827297/user1827297"
+      }
+    },
+    {
+      "question_id": 49219307,
+      "title": "How to change Monolog channel for some controllers Symfony 3.4 or 4+",
+      "accepted_answer_id": 49371953,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/49219307/how-to-change-monolog-channel-for-some-controllers-symfony-3-4-or-4",
+      "owner": {
+        "display_name": "Alexandre Tranchant",
+        "link": "https://stackoverflow.com/users/2477327/alexandre-tranchant"
+      }
+    },
+    {
+      "question_id": 51147639,
+      "title": "How I make log by day in Symfony",
+      "accepted_answer_id": 51147915,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/51147639/how-i-make-log-by-day-in-symfony",
+      "owner": {
+        "display_name": "F&#233;lix Miguel Cabrera Ranklin",
+        "link": "https://stackoverflow.com/users/9080828/f%c3%a9lix-miguel-cabrera-ranklin"
+      }
+    },
+    {
+      "question_id": 53500818,
+      "title": "What is a &quot;channel&quot; in Monolog logger?",
+      "accepted_answer_id": 53500955,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/53500818/what-is-a-channel-in-monolog-logger",
+      "owner": {
+        "display_name": "anneteka",
+        "link": "https://stackoverflow.com/users/10363906/anneteka"
+      }
+    },
+    {
+      "question_id": 53813260,
+      "title": "How to output a string with new lines in a log file using Monolog?",
+      "accepted_answer_id": 53813545,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/53813260/how-to-output-a-string-with-new-lines-in-a-log-file-using-monolog",
+      "owner": {
+        "display_name": "Imnotapotato",
+        "link": "https://stackoverflow.com/users/3802177/imnotapotato"
+      }
+    },
+    {
+      "question_id": 59684488,
+      "title": "Symfony Messenger: Send logged messenger errors per email (via swift_mailer)?",
+      "accepted_answer_id": 64341679,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/59684488/symfony-messenger-send-logged-messenger-errors-per-email-via-swift-mailer",
+      "owner": {
+        "display_name": "virtualize",
+        "link": "https://stackoverflow.com/users/85198/virtualize"
+      }
+    },
+    {
+      "question_id": 23147819,
+      "title": "Create channel and write channel&#39;s logs into other file",
+      "accepted_answer_id": 23149252,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/23147819/create-channel-and-write-channels-logs-into-other-file",
+      "owner": {
+        "display_name": "Neka",
+        "link": "https://stackoverflow.com/users/1088930/neka"
+      }
+    },
+    {
+      "question_id": 24472326,
+      "title": "Monolog, log class and method names",
+      "accepted_answer_id": 24475181,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/24472326/monolog-log-class-and-method-names",
+      "owner": {
+        "display_name": "Victor Mezrin",
+        "link": "https://stackoverflow.com/users/1802974/victor-mezrin"
+      }
+    },
+    {
+      "question_id": 24821769,
+      "title": "symfony 2.4 can&#39;t get the doctrine channel in prod environment",
+      "accepted_answer_id": 24862730,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/24821769/symfony-2-4-cant-get-the-doctrine-channel-in-prod-environment",
+      "owner": {
+        "display_name": "Alsciende",
+        "link": "https://stackoverflow.com/users/119195/alsciende"
+      }
+    },
+    {
+      "question_id": 31122531,
+      "title": "Laravel 5 &gt; Using monolog introspection processor",
+      "accepted_answer_id": 33248084,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/31122531/laravel-5-using-monolog-introspection-processor",
+      "owner": {
+        "display_name": "rvignacio",
+        "link": "https://stackoverflow.com/users/888714/rvignacio"
+      }
+    },
+    {
+      "question_id": 33136612,
+      "title": "Laravel 5.2 Monolog to output in Chrome console",
+      "accepted_answer_id": 34672370,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/33136612/laravel-5-2-monolog-to-output-in-chrome-console",
+      "owner": {
+        "display_name": "mtpultz",
+        "link": "https://stackoverflow.com/users/1148107/mtpultz"
+      }
+    },
+    {
+      "question_id": 35328957,
+      "title": "Disable Log::info in production using Laravel",
+      "accepted_answer_id": 35329554,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/35328957/disable-loginfo-in-production-using-laravel",
+      "owner": {
+        "display_name": "Parampal Pooni",
+        "link": "https://stackoverflow.com/users/292106/parampal-pooni"
+      }
+    },
+    {
+      "question_id": 37808117,
+      "title": "How do I change the default file permissions for log files created by PHP Monologger?",
+      "accepted_answer_id": 53810937,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/37808117/how-do-i-change-the-default-file-permissions-for-log-files-created-by-php-monolo",
+      "owner": {
+        "display_name": "Anamus",
+        "link": "https://stackoverflow.com/users/5397684/anamus"
+      }
+    },
+    {
+      "question_id": 44770013,
+      "title": "Laravel: multiple log providers using `configureMonologUsing()`?",
+      "accepted_answer_id": 44770225,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/44770013/laravel-multiple-log-providers-using-configuremonologusing",
+      "owner": {
+        "display_name": "guice",
+        "link": "https://stackoverflow.com/users/1108222/guice"
+      }
+    },
+    {
+      "question_id": 50751195,
+      "title": "Monolog implementation with common class",
+      "accepted_answer_id": 50791603,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/50751195/monolog-implementation-with-common-class",
+      "owner": {
+        "display_name": "Raja",
+        "link": "https://stackoverflow.com/users/912111/raja"
+      }
+    },
+    {
+      "question_id": 53716877,
+      "title": "How to add auth user id or session to logging in Laravel 5.7?",
+      "accepted_answer_id": 53728986,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/53716877/how-to-add-auth-user-id-or-session-to-logging-in-laravel-5-7",
+      "owner": {
+        "display_name": "alariva",
+        "link": "https://stackoverflow.com/users/2196310/alariva"
+      }
+    },
+    {
+      "question_id": 58801035,
+      "title": "Symfony monolog fingers crossed handler not excluding specified http codes",
+      "accepted_answer_id": 58804420,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/58801035/symfony-monolog-fingers-crossed-handler-not-excluding-specified-http-codes",
+      "owner": {
+        "display_name": "Ben Guest",
+        "link": "https://stackoverflow.com/users/1891190/ben-guest"
+      }
+    },
+    {
+      "question_id": 59454913,
+      "title": "How to config symfony to log deprecations?",
+      "accepted_answer_id": 62664852,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/59454913/how-to-config-symfony-to-log-deprecations",
+      "owner": {
+        "display_name": "oceanBT",
+        "link": "https://stackoverflow.com/users/2078454/oceanbt"
+      }
+    },
+    {
+      "question_id": 64607942,
+      "title": "Use Monolog Logger to send output to Sentry",
+      "accepted_answer_id": 64609264,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/64607942/use-monolog-logger-to-send-output-to-sentry",
+      "owner": {
+        "display_name": "patrick.barbosa.3979",
+        "link": "https://stackoverflow.com/users/14535647/patrick-barbosa-3979"
+      }
+    },
+    {
+      "question_id": 10759444,
+      "title": "a way to disable Monolog on a per-script basis?",
+      "accepted_answer_id": 14984149,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/10759444/a-way-to-disable-monolog-on-a-per-script-basis",
+      "owner": {
+        "display_name": "Ben",
+        "link": "https://stackoverflow.com/users/983393/ben"
+      }
+    },
+    {
+      "question_id": 15066437,
+      "title": "Symfony 2.2 &amp; Monolog stream handler - auto create directory",
+      "accepted_answer_id": 15316001,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/15066437/symfony-2-2-monolog-stream-handler-auto-create-directory",
+      "owner": {
+        "display_name": "ZhukV",
+        "link": "https://stackoverflow.com/users/1787682/zhukv"
+      }
+    },
+    {
+      "question_id": 18723040,
+      "title": "How to integrate Monolog in the Silex-WebProfiler?",
+      "accepted_answer_id": 18775469,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/18723040/how-to-integrate-monolog-in-the-silex-webprofiler",
+      "owner": {
+        "display_name": "maddob",
+        "link": "https://stackoverflow.com/users/647432/maddob"
+      }
+    },
+    {
+      "question_id": 20556385,
+      "title": "Default Monolog messages with Silex",
+      "accepted_answer_id": 20565220,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/20556385/default-monolog-messages-with-silex",
+      "owner": {
+        "display_name": "Marcos",
+        "link": "https://stackoverflow.com/users/434171/marcos"
+      }
+    },
+    {
+      "question_id": 25356731,
+      "title": "How to disable laravel logs temporarily?",
+      "accepted_answer_id": 25359679,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/25356731/how-to-disable-laravel-logs-temporarily",
+      "owner": {
+        "display_name": "marcio",
+        "link": "https://stackoverflow.com/users/438563/marcio"
+      }
+    },
+    {
+      "question_id": 25367920,
+      "title": "How to log message while registering a ServiceProvide in Laravel?",
+      "accepted_answer_id": 27692825,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/25367920/how-to-log-message-while-registering-a-serviceprovide-in-laravel",
+      "owner": {
+        "display_name": "marcio",
+        "link": "https://stackoverflow.com/users/438563/marcio"
+      }
+    },
+    {
+      "question_id": 27354752,
+      "title": "logstash and monolog formatter",
+      "accepted_answer_id": 27358130,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/27354752/logstash-and-monolog-formatter",
+      "owner": {
+        "display_name": "Tzook Bar Noy",
+        "link": "https://stackoverflow.com/users/1033518/tzook-bar-noy"
+      }
+    },
+    {
+      "question_id": 28315352,
+      "title": "How to create rotating log file with Laravel and Monlog",
+      "accepted_answer_id": 28325019,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/28315352/how-to-create-rotating-log-file-with-laravel-and-monlog",
+      "owner": {
+        "display_name": "flyingL123",
+        "link": "https://stackoverflow.com/users/736864/flyingl123"
+      }
+    },
+    {
+      "question_id": 28523211,
+      "title": "how to disable security.info and security.debug in monolog symfony2 logging",
+      "accepted_answer_id": 28524612,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/28523211/how-to-disable-security-info-and-security-debug-in-monolog-symfony2-logging",
+      "owner": {
+        "display_name": "adit",
+        "link": "https://stackoverflow.com/users/721937/adit"
+      }
+    },
+    {
+      "question_id": 29882980,
+      "title": "laravel 5 - how to create custom log levels?",
+      "accepted_answer_id": 29883505,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/29882980/laravel-5-how-to-create-custom-log-levels",
+      "owner": {
+        "display_name": "anderlaini",
+        "link": "https://stackoverflow.com/users/4515940/anderlaini"
+      }
+    },
+    {
+      "question_id": 30607010,
+      "title": "Get Monolog JSON Stack Trace as Array",
+      "accepted_answer_id": 36905441,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/30607010/get-monolog-json-stack-trace-as-array",
+      "owner": {
+        "display_name": "jchamberlain",
+        "link": "https://stackoverflow.com/users/2543768/jchamberlain"
+      }
+    },
+    {
+      "question_id": 34255872,
+      "title": "Symfony 2 - logging in a service",
+      "accepted_answer_id": 34269953,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/34255872/symfony-2-logging-in-a-service",
+      "owner": {
+        "display_name": "au_stan",
+        "link": "https://stackoverflow.com/users/819600/au-stan"
+      }
+    },
+    {
+      "question_id": 34310052,
+      "title": "Symfony config.yml - How to pass constructor arguments by name?",
+      "accepted_answer_id": 34310386,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/34310052/symfony-config-yml-how-to-pass-constructor-arguments-by-name",
+      "owner": {
+        "display_name": "Andrei Herford",
+        "link": "https://stackoverflow.com/users/777861/andrei-herford"
+      }
+    },
+    {
+      "question_id": 35977213,
+      "title": "Memory leak symfony and monolog and console",
+      "accepted_answer_id": 35977531,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/35977213/memory-leak-symfony-and-monolog-and-console",
+      "owner": {
+        "display_name": "delmalki",
+        "link": "https://stackoverflow.com/users/4704491/delmalki"
+      }
+    },
+    {
+      "question_id": 37299284,
+      "title": "MonologBundle FingerCrossedHandler: how to configure excluded_404s",
+      "accepted_answer_id": 37351968,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/37299284/monologbundle-fingercrossedhandler-how-to-configure-excluded-404s",
+      "owner": {
+        "display_name": "stuzzo",
+        "link": "https://stackoverflow.com/users/320318/stuzzo"
+      }
+    },
+    {
+      "question_id": 37908010,
+      "title": "Symfony3+PHPUnit. How to disable debug log in console?",
+      "accepted_answer_id": 37920546,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/37908010/symfony3phpunit-how-to-disable-debug-log-in-console",
+      "owner": {
+        "display_name": "Alexdevid",
+        "link": "https://stackoverflow.com/users/3160794/alexdevid"
+      }
+    },
+    {
+      "question_id": 43633407,
+      "title": "Adding Monolog to PHP 5.6 Project",
+      "accepted_answer_id": 43633579,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/43633407/adding-monolog-to-php-5-6-project",
+      "owner": {
+        "display_name": "Stanley Ngumo",
+        "link": "https://stackoverflow.com/users/153687/stanley-ngumo"
+      }
+    },
+    {
+      "question_id": 43710208,
+      "title": "How can I get MonoLog&#39;s ErrorHandler to output to stdout?",
+      "accepted_answer_id": 43891137,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/43710208/how-can-i-get-monologs-errorhandler-to-output-to-stdout",
+      "owner": {
+        "display_name": "halfer",
+        "link": "https://stackoverflow.com/users/472495/halfer"
+      }
+    },
+    {
+      "question_id": 45376128,
+      "title": "Prevent Internal Server Error with Symfony 2 / Monolog on failed gelf connection",
+      "accepted_answer_id": 45376468,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/45376128/prevent-internal-server-error-with-symfony-2-monolog-on-failed-gelf-connection",
+      "owner": {
+        "display_name": "Paul",
+        "link": "https://stackoverflow.com/users/346587/paul"
+      }
+    },
+    {
+      "question_id": 46664712,
+      "title": "Symfony do not log deprecations",
+      "accepted_answer_id": 46673254,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/46664712/symfony-do-not-log-deprecations",
+      "owner": {
+        "display_name": "Patrick",
+        "link": "https://stackoverflow.com/users/1669671/patrick"
+      }
+    },
+    {
+      "question_id": 47091476,
+      "title": "Monolog - logging only specific level of errors",
+      "accepted_answer_id": 52310813,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/47091476/monolog-logging-only-specific-level-of-errors",
+      "owner": {
+        "display_name": "Jan Richter",
+        "link": "https://stackoverflow.com/users/2111274/jan-richter"
+      }
+    },
+    {
+      "question_id": 47684573,
+      "title": "using USE and Namespace (composer)in sample php file",
+      "accepted_answer_id": 47739058,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/47684573/using-use-and-namespace-composerin-sample-php-file",
+      "owner": {
+        "display_name": "Tuz",
+        "link": "https://stackoverflow.com/users/9050897/tuz"
+      }
+    },
+    {
+      "question_id": 50943638,
+      "title": "Unable to set content_type for native_mailer in Monolog&#39;s yaml configuration?",
+      "accepted_answer_id": 50964493,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/50943638/unable-to-set-content-type-for-native-mailer-in-monologs-yaml-configuration",
+      "owner": {
+        "display_name": "Liiva",
+        "link": "https://stackoverflow.com/users/3514278/liiva"
+      }
+    },
+    {
+      "question_id": 51677615,
+      "title": "Using Monolog WebProcessor with Laravel 5.6",
+      "accepted_answer_id": 51696935,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/51677615/using-monolog-webprocessor-with-laravel-5-6",
+      "owner": {
+        "display_name": "mishka",
+        "link": "https://stackoverflow.com/users/1872427/mishka"
+      }
+    },
+    {
+      "question_id": 55206751,
+      "title": "Use LogLevels in Monolog (Symfony)",
+      "accepted_answer_id": 55207143,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/55206751/use-loglevels-in-monolog-symfony",
+      "owner": {
+        "display_name": "Nabor",
+        "link": "https://stackoverflow.com/users/1177897/nabor"
+      }
+    },
+    {
+      "question_id": 55636314,
+      "title": "Symfony 4 enable logging with Monolog&#39;s Redis handler",
+      "accepted_answer_id": 55940909,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/55636314/symfony-4-enable-logging-with-monologs-redis-handler",
+      "owner": {
+        "display_name": "Dayron Gallardo",
+        "link": "https://stackoverflow.com/users/487334/dayron-gallardo"
+      }
+    },
+    {
+      "question_id": 55677944,
+      "title": "How to set Monolog log level per channel in Symfony",
+      "accepted_answer_id": 55688675,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/55677944/how-to-set-monolog-log-level-per-channel-in-symfony",
+      "owner": {
+        "display_name": "Toni",
+        "link": "https://stackoverflow.com/users/830006/toni"
+      }
+    },
+    {
+      "question_id": 55984282,
+      "title": "How to call for a monolog from the index.php?",
+      "accepted_answer_id": 55984518,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/55984282/how-to-call-for-a-monolog-from-the-index-php",
+      "owner": {
+        "display_name": "szerz",
+        "link": "https://stackoverflow.com/users/11394825/szerz"
+      }
+    },
+    {
+      "question_id": 56679859,
+      "title": "Monolog doesn&#39;t write to the right log file",
+      "accepted_answer_id": 56730271,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/56679859/monolog-doesnt-write-to-the-right-log-file",
+      "owner": {
+        "display_name": "JessGabriel",
+        "link": "https://stackoverflow.com/users/9496202/jessgabriel"
+      }
+    },
+    {
+      "question_id": 60443769,
+      "title": "Can Monolog be used on GAE and have the logging levels recorded in Stack Driver?",
+      "accepted_answer_id": 61207955,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/60443769/can-monolog-be-used-on-gae-and-have-the-logging-levels-recorded-in-stack-driver",
+      "owner": {
+        "display_name": "Robert Moskal",
+        "link": "https://stackoverflow.com/users/775345/robert-moskal"
+      }
+    },
+    {
+      "question_id": 60825369,
+      "title": "Laravel MonoLog, pushProcessor not Logging Addition attributes",
+      "accepted_answer_id": 60831928,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/60825369/laravel-monolog-pushprocessor-not-logging-addition-attributes",
+      "owner": {
+        "display_name": "Shivam Sinha",
+        "link": "https://stackoverflow.com/users/2672447/shivam-sinha"
+      }
+    },
+    {
+      "question_id": 70875746,
+      "title": "Laravel Monolog LineFormatter datetime pattern",
+      "accepted_answer_id": 70891204,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/70875746/laravel-monolog-lineformatter-datetime-pattern",
+      "owner": {
+        "display_name": "Mukesh",
+        "link": "https://stackoverflow.com/users/6294937/mukesh"
+      }
+    },
+    {
+      "question_id": 30129162,
+      "title": "How to configure Monolog to store logs into MongoDB with Symfony2 and Doctrine",
+      "accepted_answer_id": 30129163,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/30129162/how-to-configure-monolog-to-store-logs-into-mongodb-with-symfony2-and-doctrine",
+      "owner": {
+        "display_name": "Francesco Casula",
+        "link": "https://stackoverflow.com/users/828366/francesco-casula"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 37612400,
+      "body": "<p>Do you want to specifically log <code>info</code> to one log file and another log type to another location? My solution might not help in that case, but could still be useful.</p>\n<p>To write a log file to another location, use the method <code>useDailyFiles</code> or <code>useFiles</code>, and then info to log to the log file at the path you just specified. Like so:</p>\n<pre><code>Log::useDailyFiles(storage_path().'/logs/name-of-log.log');\nLog::info([info to log]);\n</code></pre>\n<p>The first parameter for both methods is the path of the log file (which is created if it doesn't already exist) and for <code>useDailyFiles</code> the second argument is the number of days Laravel will log for before erasing old logs. The default value is unlimited, so in my example I haven't entered a value.</p>\n",
+      "owner": {
+        "display_name": "TimothyBuktu",
+        "link": "https://stackoverflow.com/users/3360917/timothybuktu"
+      }
+    },
+    {
+      "answer_id": 52310813,
+      "body": "<p>I had the same issue today which brought me to here. Anyway I solved it by using Monologs <a href=\"https://github.com/Seldaek/monolog/blob/master/src/Monolog/Handler/FilterHandler.php\" rel=\"nofollow noreferrer\">FilterHandler</a>.</p>\n<p>The FilterHandler allows you to pass in another handler as an argument, and then specify the min and max logging levels that will trigger that handler.</p>\n<p>There are a <a href=\"https://github.com/Seldaek/monolog/blob/master/doc/02-handlers-formatters-processors.md#handlers-formatters-and-processors\" rel=\"nofollow noreferrer\">few other handlers</a> that can be useful in specific situations.</p>\n<pre><code>// Create the logging instance\n$logger = new \\Monolog\\Logger('myLogger');\n\n// Create error stream handler for error events and higher\n$errorStreamHandler = new \\Monolog\\Handler\\StreamHandler(\n    'Some/DirectoryPath/error.log',\n    \\Monolog\\Logger::ERROR);\n\n// Create info stream handler for info events and higher\n$infoStreamHandler = new \\Monolog\\Handler\\StreamHandler(\n    'Some/DirectoryPath/Info.log',\n    \\Monolog\\Logger::INFO);\n\n// Create filter handler to make sure info stream only logs info events\n// Pass in the info handler \n// Debug is the minimum level this handler will handle\n// Info is the maximum level this handler will handle\n$infoFilterHandler = new \\Monolog\\Handler\\FilterHandler(\n    $infoStreamHandler,\n    \\Monolog\\Logger::DEBUG,\n    \\Monolog\\Logger::INFO);\n\n// Add the handlers to logger\n$logger-&gt;pushHandler($errorStreamHandler);\n$logger-&gt;pushHandler($infoFilterHandler);\n\n// Yay no errors in Info.log\n$logger-&gt;addError(&quot;Some Error&quot;);\n$logger-&gt;addInfo(&quot;Some Info&quot;);\n</code></pre>\n<p><strong>Update Ali</strong>\nRefer to the <a href=\"https://github.com/Seldaek/monolog/blob/master/src/Monolog/Level.php\" rel=\"nofollow noreferrer\">source code</a> of \\Monolog\\Level to look up what constants are available then assign the constant to a variable.</p>\n<pre><code>$someVar = \\Monolog\\Level::Info;\n\n$infoStreamHandler = new \\Monolog\\Handler\\StreamHandler(\n    'Some/DirectoryPath/Info.log',\n    $someVar);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Andrew Berridge",
+        "link": "https://stackoverflow.com/users/1389760/andrew-berridge"
+      }
+    },
+    {
+      "answer_id": 59501739,
+      "body": "<p>Exclude the <code>php</code> channel from the log handler:</p>\n<p>Eg. <code>config/packages/prod/monolog.yaml</code>:</p>\n<pre><code>monolog:\n    handlers:\n        main:\n            type:  stream\n            path:  %kernel.logs_dir%/%kernel.environment%.log\n            level: debug\n            formatter: monolog.formatter.session_request\n            channels:\n             -  '!php' # &lt;----------- add this line\n</code></pre>\n<p>Leave deprecation messages in the <code>dev</code> mode though. You should be aware of the changes in upstream packages.</p>\n<p>PS. in newer Symfony versions you have to exclude the <code>deprecation</code> channel instead, i.e.:</p>\n<pre><code>channels:\n    - '!deprecation'\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mike Doe",
+        "link": "https://stackoverflow.com/users/997162/mike-doe"
+      }
+    },
+    {
+      "answer_id": 71134075,
+      "body": "<p>Was looking around everywhere, this solution was very nice. But even nicer is that since 5.1 there is deprecations channel</p>\n<h5>As of Symfony 5.1, deprecations are logged in the dedicated &quot;deprecation&quot; channel when it exists</h5>\n<pre><code>monolog:\nchannels: [deprecation]\nhandlers:\n    deprecation:\n        type: stream\n        channels: [deprecation]\n        path: php://stderr //or file path like '%kernel.logs_dir%/deprecated.log'\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rokas Lakštauskas",
+        "link": "https://stackoverflow.com/users/7685948/rokas-lak%c5%a1tauskas"
+      }
+    },
+    {
+      "answer_id": 70891204,
+      "body": "<p>So I got the solution for this the simplest way to do this is as follow</p>\n<pre><code>'events' =&gt; [\n            'driver' =&gt; 'daily',\n            'formatter' =&gt;LineFormatter::class,\n            'formatter_with' =&gt; [\n                'format' =&gt; &quot;[%datetime%] %channel%.%level_name%: %context%\\n&quot;,\n                'dateFormat' =&gt; &quot;Y-m-d H:i:s&quot;\n            ],\n            'path' =&gt; storage_path('logs/unique-events.log'),\n            'level' =&gt; 'info'\n        ]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mukesh",
+        "link": "https://stackoverflow.com/users/6294937/mukesh"
+      }
+    },
+    {
+      "answer_id": 64609264,
+      "body": "<p>I found the solution to my problem. Even though I copied it directly from sentry, my DSN key was wrong.</p>\n<p>I removed the extra '/' here:</p>\n<p>Wrong:</p>\n<p>http://KEY@URL//PROJECTID</p>\n<p>Correct:</p>\n<p>http://KEY@URL/PROJECTID</p>\n<p>Kind of a stupid mistake, but thanks for the help anyway guys.</p>\n",
+      "owner": {
+        "display_name": "patrick.barbosa.3979",
+        "link": "https://stackoverflow.com/users/14535647/patrick-barbosa-3979"
+      }
+    },
+    {
+      "answer_id": 64341679,
+      "body": "<p>In fact monolog <code>swift_mailer</code> type use <a href=\"https://github.com/symfony/symfony/blob/4.4/src/Symfony/Bridge/Monolog/Handler/SwiftMailerHandler.php\" rel=\"nofollow noreferrer\">SwiftMailerHandler </a>\nwish also implements reset interface and use memory spool by default wish keep all emails in buffer until it is destructed, so till  the end of request :</p>\n<ul>\n<li>onKernelTerminate</li>\n<li>onCliTerminate</li>\n<li>OR till reset method is called, which means that for messenger worker no emails will be send ever because ther's no instant flush - all of them will be kept in in-memory buffer, and probably lost if the process will be killed.</li>\n</ul>\n<p>To solve this, you can just disable the default spool <code>memory</code> setting for swiftmailer.\nAnother solution is to flush your emails after <code>WorkerMessageFailedEvent</code>  event gets fired, you can implement an event subscriber to do it for this.</p>\n<pre><code>use Symfony\\Component\\EventDispatcher\\EventSubscriberInterface;\nuse Symfony\\Component\\Messenger\\Event\\WorkerMessageFailedEvent;\nuse Symfony\\Component\\Messenger\\Event\\WorkerMessageHandledEvent;\nuse Symfony\\Contracts\\Service\\ResetInterface;\n\n/**\n * Class ServiceResetterSubscriber.\n */\nclass ServiceResetterSubscriber implements EventSubscriberInterface\n{\n\n     protected ResetInterface $servicesResetter;\n     public function __construct(ResetInterface $servicesResetter)\n     {\n         $this-&gt;servicesResetter = $servicesResetter;\n     }\n     public function resetServices(): void\n     {\n         $this-&gt;servicesResetter-&gt;reset();\n     }\n     public static function getSubscribedEvents(): array\n     {\n         return [\n             WorkerMessageFailedEvent::class =&gt; ['resetServices', 10],\n         ];\n     }\n\n }\n</code></pre>\n<p>Register your service with the right argument:</p>\n<pre><code>App\\EventSubscriber\\ServiceResetterSubscriber:\n    arguments: ['@services_resetter']\n</code></pre>\n<p>By the way without this (and without buffer limit) your app will leak and no emails will be sent ever.</p>\n<p><strong>Another trick:</strong>\n<em>Make sure that your message implements <code>\\JsonSerializable</code> to get the message content in your logs, because messenger uses his monolog directly and its context serializer wish use json_encode for seriliazation.\nThat's why we need to customize their JSON representation when encoded is done with json_encode.</em></p>\n",
+      "owner": {
+        "display_name": "famas23",
+        "link": "https://stackoverflow.com/users/6876422/famas23"
+      }
+    },
+    {
+      "answer_id": 63551098,
+      "body": "<p>I found the issue. I am using Bugsnag (for production) and I had set it up in the project.</p>\n<p>When I integrated it, I used the instruction it had on its dashboard, which I believe was not complete as they have it on their <a href=\"https://docs.bugsnag.com/platforms/php/laravel/#laravel-5-0-5-5\" rel=\"nofollow noreferrer\">documentation</a>. So, I had added the following code in the register method of my application service provider app/Providers/AppServiceProvider.php.</p>\n<pre><code>$this-&gt;app-&gt;alias('bugsnag.logger', \\Illuminate\\Contracts\\Logging\\Log::class);\n$this-&gt;app-&gt;alias('bugsnag.logger', \\Psr\\Log\\LoggerInterface::class);\n</code></pre>\n<p>In my local environment, I had not set the <code>BUGSNAG_API_KEY</code> in my <code>.env</code> file. So, it was neither sending the exceptions to Bugsnag nor logging into the local laravel.log file.</p>\n<p>When I was integrating Bugsnag to another project which runs on Laravel 6, I suspected this issue and checked the documentation. There I found the code which is needed to keep logging to my original logger as well as Bugsnag.</p>\n<pre><code>$this-&gt;app-&gt;alias('bugsnag.multi', \\Illuminate\\Contracts\\Logging\\Log::class);\n$this-&gt;app-&gt;alias('bugsnag.multi', \\Psr\\Log\\LoggerInterface::class);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Debiprasad",
+        "link": "https://stackoverflow.com/users/225790/debiprasad"
+      }
+    },
+    {
+      "answer_id": 62664852,
+      "body": "<p>There was a bug in Symfony 4.4 which is now fixed. <a href=\"https://github.com/symfony/symfony/issues/35367\" rel=\"nofollow noreferrer\">More details here.</a></p>\n",
+      "owner": {
+        "display_name": "oceanBT",
+        "link": "https://stackoverflow.com/users/2078454/oceanbt"
+      }
+    },
+    {
+      "answer_id": 61207955,
+      "body": "<p>There is a package available that allows you  to push Monolog to Stackdriver.</p>\n\n<p>As per the doc:</p>\n\n<blockquote>\n  <p>The supplied StackdriverHandler copies the given log level into the\n  Stackdriver's severity based on your log method.</p>\n  \n  <p>It also respects the context argument which allows you to send extra\n  contextual data with your log message. This will be stored in the log\n  message under jsonPayload.data.</p>\n</blockquote>\n\n<p>The source code can be found here <a href=\"https://github.com/codeinternetapplications/monolog-stackdriver\" rel=\"nofollow noreferrer\">monolog-stackdriver</a></p>\n",
+      "owner": {
+        "display_name": "Paddy Popeye",
+        "link": "https://stackoverflow.com/users/6345993/paddy-popeye"
+      }
+    },
+    {
+      "answer_id": 49206136,
+      "body": "<p>This was changed in version <code>1.11.0</code> of Monolog. There's now an optional 6th parameter, <code>$passThruLevel</code>. This parameter is the minimum level log that should always be flushed. In your case, you should set up FingersCrossed in the following manner:</p>\n\n<pre><code>use Monolog\\Handler\\FingersCrossedHandler;\n\n$fingersCrossedHandler = new FingersCrossedHandler(\n    $streamHandler,\n    Monolog\\Logger::ERROR,\n    0,\n    true,\n    true,\n    Monolog\\Logger::INFO\n);\n</code></pre>\n\n<p>This will result in <code>INFO</code> or higher messages always being logged, but <code>DEBUG</code> messages will only show up if an <code>ERROR</code> level or higher message has been logged.</p>\n",
+      "owner": {
+        "display_name": "Logan Bailey",
+        "link": "https://stackoverflow.com/users/436548/logan-bailey"
+      }
+    },
+    {
+      "answer_id": 60831928,
+      "body": "<p>This might be a laravel (5.7)/mono version specific issue, but I was able to resolve the via iterating via the handlers and calling pushProcessor  </p>\n\n<pre><code>use Monolog\\Processor\\UidProcessor;\n\nclass ProcessorTap\n{\n    /**\n     * Customize the given logger instance.\n     *\n     * @param  \\Illuminate\\Log\\Logger  $logger\n     * @return void\n     */\n    public function __invoke($logger)\n    {\n         collect($logger-&gt;getHandlers())-&gt;each(function ($handler) {\n               $handler-&gt;pushProcessor(new UidProcessor());\n        });\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Shivam Sinha",
+        "link": "https://stackoverflow.com/users/2672447/shivam-sinha"
+      }
+    },
+    {
+      "answer_id": 51696935,
+      "body": "<p>Ok. After a bit of research it seems like <code>tap</code> is the best way to hook <code>processors</code>. So, if I want to tag a processor to all the handlers in the current logging stack I could do be by add this:</p>\n\n<pre><code>tap =&gt; [App\\Logging\\MyClass::class]\n</code></pre>\n\n<p>This class in turn will push required processors onto all the handlers within it's <code>__invoke</code> method.</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>namespace App\\Logging;\nuse Illuminate\\Log\\Logger;\n\nclass MyClass {\n    /**\n     * Customize the given logger instance.\n     *\n     * @param  \\Illuminate\\Log\\Logger  $logger\n     * @return void\n     */\n    public function __invoke(Logger $logger)\n    {\n        foreach ($logger-&gt;getHandlers() as $handler) {\n            $handler-&gt;pushProcessor(new WebProcessor);\n        }\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "mishka",
+        "link": "https://stackoverflow.com/users/1872427/mishka"
+      }
+    },
+    {
+      "answer_id": 59875841,
+      "body": "<blockquote>\n  <p>Starting from MonologBundle 3.5 you can autowire different Monolog\n  channels by type-hinting your service arguments with the following\n  syntax: <code>Psr\\Log\\LoggerInterface $&lt;channel&gt;Logger</code>. For example, to\n  inject the service related to the app logger channel use this:</p>\n\n<pre><code>public function __construct(LoggerInterface $appLogger)\n{\n   $this-&gt;logger = $appLogger;\n}\n</code></pre>\n  \n  <p><a href=\"https://symfony.com/doc/current/logging/channels_handlers.html#monolog-autowire-channels\" rel=\"noreferrer\">https://symfony.com/doc/current/logging/channels_handlers.html#monolog-autowire-channels</a></p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "fabmlk",
+        "link": "https://stackoverflow.com/users/1876248/fabmlk"
+      }
+    },
+    {
+      "answer_id": 58804420,
+      "body": "<p>This issue is resolved since updating my composer packages. I'm not sure which package was specifically responsible</p>\n",
+      "owner": {
+        "display_name": "Ben Guest",
+        "link": "https://stackoverflow.com/users/1891190/ben-guest"
+      }
+    },
+    {
+      "answer_id": 56730271,
+      "body": "<p>I found the error. By default, the config/services.yaml will override all configuration from external files. That's why my log continues to be on the default channel (autowiring). To avoid this, you have to exclude the loggers custom files from autowiring</p>\n",
+      "owner": {
+        "display_name": "JessGabriel",
+        "link": "https://stackoverflow.com/users/9496202/jessgabriel"
+      }
+    },
+    {
+      "answer_id": 23696184,
+      "body": "<p>No, <code>api_low</code> is not a special key, it's a developer-defined key, to separate the logs (and potentially manage them in different ways, e.g. in different *.log files).</p>\n\n<p>See <a href=\"http://symfony.com/doc/current/cookbook/logging/monolog.html\" rel=\"noreferrer\">Cookbook about Monolog</a> and <a href=\"http://symfony.com/doc/current/reference/dic_tags.html#dic-tags-monolog\" rel=\"noreferrer\">How to use a custom channel in a service</a> for more details.</p>\n\n<p><strong>[EDIT : example]</strong></p>\n\n<p>I assume that:</p>\n\n<ul>\n<li>config.yml is as discribed in your original post</li>\n<li>you have a service called <code>MyService</code> which has a function <code>doSomeStuff()</code></li>\n<li>you are familiar with Symfony's services concept</li>\n</ul>\n\n<p>In <code>service.yml</code>:</p>\n\n<pre><code>myService.doSomeStuff:\n        class: MyProject\\MyBundle\\Service\\MyService\n        arguments: [ \"@logger\"]\n        tags:\n            - { name: monolog.logger, channel: api_low }\n</code></pre>\n\n<p>In <code>MyService.php</code>:</p>\n\n<pre><code>protected $apiLowLogger;    \n\npublic function __construct($apiLowLogger)\n{\n    $this-&gt;apiLowLogger = $apiLowLogger;\n}\n\npublic function doSomeStuff()\n{\n    $this-&gt;apiLowLogger-&gt;debug('This debug message will be written in %kernel.logs_dir%/%kernel.environment%_api_request_low.log');\n}\n</code></pre>\n\n<p>To know the different type of logs (<code>debug()</code>, <code>error()</code>, <code>info()</code>, etc.),\nsee the <a href=\"https://github.com/php-fig/log/blob/master/Psr/Log/LoggerInterface.php\" rel=\"noreferrer\">source</a> (<a href=\"https://github.com/php-fig/log/blob/c4421fcac1edd5a324fda73e589a5cf96e52ffd0/Psr/Log/LoggerInterface.php\" rel=\"noreferrer\">permalink</a>).</p>\n",
+      "owner": {
+        "display_name": "Blacksad",
+        "link": "https://stackoverflow.com/users/2955738/blacksad"
+      }
+    },
+    {
+      "answer_id": 55984518,
+      "body": "<p>You need to replace <code>$log = new Logger('name')</code> with:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>$log = $container-&gt;get(\\Psr\\Log\\LoggerInterface::class);\n</code></pre>\n\n<p>See this part of the documentation: <a href=\"http://php-di.org/doc/getting-started.html#3-create-the-objects\" rel=\"nofollow noreferrer\">http://php-di.org/doc/getting-started.html#3-create-the-objects</a></p>\n",
+      "owner": {
+        "display_name": "Matthieu Napoli",
+        "link": "https://stackoverflow.com/users/245552/matthieu-napoli"
+      }
+    },
+    {
+      "answer_id": 55940909,
+      "body": "<p>The approach I took was, first installing the predis client:</p>\n\n<pre><code>composer require predis/predis\n</code></pre>\n\n<p>Then create a custom service class that extends the RedisHandler class that comes with the Monolog package:</p>\n\n<p>\n\n<pre><code>namespace App\\Service\\Monolog\\Handler;\n\nuse Monolog\\Handler\\RedisHandler;\nuse Monolog\\Logger;\nuse Predis\\Client as PredisClient;\n\nclass Redis extends RedisHandler\n{\n    public function __construct( $host, $port = 6379, $level = Logger::DEBUG, $bubble = true, $capSize = false)\n    {\n        $predis = new PredisClient( \"tcp://$host:$port\" );\n        $key = 'logstash';\n\n        parent::__construct($predis, $key, $level, $bubble, $capSize);\n    }\n}\n</code></pre>\n\n<p>Next, activate the service we just created on the services.yml config file:</p>\n\n<pre><code>services:    \n  monolog.handler.redis:\n    class: App\\Service\\Monolog\\Handler\\Redis\n    arguments: [ '%redis.host%' ]\n</code></pre>\n\n<p>Be sure the parameter <strong>redis.host</strong> is set and points to your Redis server. In my case, my parameter value is the IP of my Redis server. </p>\n\n<p>I added other parameters to the class like port and log level. You can set it at the moment of instantiating your service like with the host parameter.</p>\n\n<p>Finally, configure your custom log handler service in your monolog.yaml config file. In my case, I need it only the production logs with the config as follow:</p>\n\n<pre><code>handlers:\n  custom:\n    type: service\n    id: monolog.handler.redis\n    level: debug\n    channels: ['!event']\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dayron Gallardo",
+        "link": "https://stackoverflow.com/users/487334/dayron-gallardo"
+      }
+    },
+    {
+      "answer_id": 55688675,
+      "body": "<pre><code>loggly_app:\n        type: loggly\n        token: ...\n        level: INFO\n        bubble: true\n        channels: [\"app\"]\nloggly_request:\n        type: loggly\n        token: ...\n        level: ERROR\n        bubble: true\n        channels: [\"request\"]\n</code></pre>\n\n<p>an additional option would be to have <a href=\"https://symfony.com/doc/current/configuration/environments.html#different-environments-different-configuration-files\" rel=\"nofollow noreferrer\">environment specific configs</a> (e.g. when app-info logging wouldn't be required in production).</p>\n",
+      "owner": {
+        "display_name": "LBA",
+        "link": "https://stackoverflow.com/users/4716084/lba"
+      }
+    },
+    {
+      "answer_id": 38910336,
+      "body": "<h2>Here is example:</h2>\n\n<pre><code>Log::useFiles(base_path() . '/path/to/custom/file.log', 'info');\nLog::info('Do log this another PATH');\n</code></pre>\n\n<h2>Another way</h2>\n\n<pre><code>date_default_timezone_set('Asia/Dhaka');\n$data = date('Y-m-d');\n$time = date('h-A');\nLog::useFiles(base_path() . '/log/'.$data.'/'.$time.'-'info.log', 'info');\nLog::info('Do log this another PATH');\n</code></pre>\n\n<p>on this example every date create a folder with saperate log with hourly.</p>\n\n<h2>Regarding Laravel 5:</h2>\n\n<p>You can also change single log path &amp; name.</p>\n\n<p>Add below line of code to :  <code>bootstrap&gt;&gt;app.php</code> <code>very bottom above of return $app</code>;</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>\n    # SINGLE LOG\n    $app-&gt;configureMonologUsing(function($monolog) use ($app) {\n        $handler = new Monolog\\Handler\\StreamHandler($app-&gt;storagePath().'/logs/YOUR_SINGLE_LOG_NAME.log');\n        $handler-&gt;setFormatter(new \\Monolog\\Formatter\\LineFormatter(null, null, true, true));\n        $monolog-&gt;pushHandler($handler);\n    });\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rashedul Islam Sagor",
+        "link": "https://stackoverflow.com/users/2640951/rashedul-islam-sagor"
+      }
+    },
+    {
+      "answer_id": 55207143,
+      "body": "<p>After a little more research, I configured my monolog.yaml for dev and also prod this way</p>\n\n<pre><code>monolog:\n  channels: ['appinfo']\n  handlers:\n    custom:\n      channels: ['appinfo']\n      level: info\n      max_files: 30\n      path: \"%kernel.logs_dir%/appinfo.log\"\n      type: rotating_file\n</code></pre>\n\n<p>The important thing is the channel, <strong>appinfo</strong> in my case.</p>\n\n<p>The handler, <strong>custom</strong> in my case, can be named any way you like.</p>\n\n<p>Then in the services.yaml one has to define the \"type\" of the injected logger.</p>\n\n<pre><code>App\\Controller\\DefaultController:\n  arguments:\n    $logger: '@monolog.logger.appinfo'\n</code></pre>\n\n<p>This works with controllers as with services</p>\n",
+      "owner": {
+        "display_name": "Nabor",
+        "link": "https://stackoverflow.com/users/1177897/nabor"
+      }
+    },
+    {
+      "answer_id": 44770225,
+      "body": "<p>I (finally) found the answer my question:</p>\n\n<p>Within my providers, instead of using <code>configureMonologUsing()</code>, I used <code>Log::getMonolog()-&gt;pushHandler([..])</code></p>\n\n<p>That works! All loggers, including built-in Laravel file logger, are firing. Finally! </p>\n\n<p>(I've honestly been looking for days for a way to add onto the Monolog stack; I apparently wasn't searching by the right terms)</p>\n",
+      "owner": {
+        "display_name": "guice",
+        "link": "https://stackoverflow.com/users/1108222/guice"
+      }
+    },
+    {
+      "answer_id": 53813545,
+      "body": "<p>I think you need to use LineFormatter. Please see the next code snippet: </p>\n\n<pre><code>$logger = new Monolog\\Logger('MyLoggerName');\n$formatter = new Monolog\\Formatter\\LineFormatter(\n    null, // Format of message in log, default [%datetime%] %channel%.%level_name%: %message% %context% %extra%\\n\n    null, // Datetime format\n    true, // allowInlineLineBreaks option, default false\n    true  // ignoreEmptyContextAndExtra option, default false\n);\n$debugHandler = new Monolog\\Handler\\StreamHandler('/tmp/my_debug.log', Monolog\\Logger::DEBUG);\n$debugHandler-&gt;setFormatter($formatter);\n$logger-&gt;pushHandler($debugHandler);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Viktar Pryshchepa",
+        "link": "https://stackoverflow.com/users/6518330/viktar-pryshchepa"
+      }
+    },
+    {
+      "answer_id": 53810937,
+      "body": "<p>For <code>FileHandler</code> and <code>RotatingFileHandler</code> you can easily set permission during construct. For RotatingFileHandler you have to set an optional parameter. These are parameters:</p>\n\n<pre><code>($filename, $maxFiles = 0, $level = Logger::DEBUG, $bubble = true, $filePermission = null, $useLocking = false)\n</code></pre>\n\n<p>A code like this will work for you:</p>\n\n<pre><code>$handler = new Monolog\\Handler\\RotatingFileHandler($filename,0,Logger::DEBUG,true,0664);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Moradnejad",
+        "link": "https://stackoverflow.com/users/2419960/moradnejad"
+      }
+    },
+    {
+      "answer_id": 53728986,
+      "body": "<p>Based on the answer of <em>DigitalDrifter</em> and part of <a href=\"https://emirkarsiyakali.com/quick-tip-logging-mastery-with-laravel-7282988032a7\" rel=\"nofollow noreferrer\">this post from Emir Karşıyakalı</a> I managed to get a fair enough solution.</p>\n\n<p>I could not grab the User ID since (as per my understanding at this point) it can't be resolved just yet. But I felt satisfied with getting a more or less accurate client id and session id, so I can trace a user interaction thread on logs:</p>\n\n<pre><code>&lt;?php\n\nnamespace App\\Loggers;\n\nuse Monolog\\Formatter\\LineFormatter;\n\nclass LocalLogger\n{\n    private $request;\n\n    public function __construct(\\Illuminate\\Http\\Request $request)\n    {\n        $this-&gt;request = $request;\n    }\n\n    public function __invoke($logger)\n    {\n        foreach ($logger-&gt;getHandlers() as $handler) {\n            $handler-&gt;setFormatter($this-&gt;getLogFormatter());\n        }\n    }\n\n    protected function getLogFormatter()\n    {\n        $uniqueClientId = $this-&gt;getUniqueClientId();\n\n        $format = str_replace(\n            '[%datetime%] ',\n            sprintf('[%%datetime%%] %s ', $uniqueClientId),\n            LineFormatter::SIMPLE_FORMAT\n        );\n\n        return new LineFormatter($format, null, true, true);\n    }\n\n    protected function getUniqueClientId()\n    {\n        $clientId = md5($this-&gt;request-&gt;server('HTTP_USER_AGENT').'/'.$this-&gt;request-&gt;ip());\n        $sessionId = \\Session::getId();\n\n        return \"[{$clientId}:{$sessionId}]\";\n    }\n}\n</code></pre>\n\n<p>Config:</p>\n\n<pre><code>    // config/logger.php\n\n    'syslog' =&gt; [\n        'driver' =&gt; 'syslog',\n        'level'  =&gt; 'debug',\n        'tap'    =&gt; [App\\Loggers\\LocalLogger::class],\n    ],\n</code></pre>\n\n<h1>Result</h1>\n\n<p>Now I can get something like:</p>\n\n<pre><code>Dec 11 13:54:13 trinsic Fimedi[13390]: [2018-12-11 16:54:13] c6c6cb03fafd4b31493478e76b490650 local.INFO: Hello world\n</code></pre>\n\n<p>or</p>\n\n<pre><code>Dec 11 13:55:44 trinsic Fimedi[13390]: [2018-12-11 16:55:44] [c6c6cb03fafd4b31493478e76b490650:xUs2WxIb3TvKcpCpFNPFyvBChE88Nk0YbwZI3KrY] local.INFO: Hello world\n</code></pre>\n\n<p>Depending on how I calculate the user/session ids.</p>\n",
+      "owner": {
+        "display_name": "alariva",
+        "link": "https://stackoverflow.com/users/2196310/alariva"
+      }
+    },
+    {
+      "answer_id": 53500955,
+      "body": "<p>The &quot;channel&quot; here is not a generic PHP concept, it's just a term that monolog uses for a category of messages which you want to log.</p>\n<p>From <a href=\"https://github.com/Seldaek/monolog/blob/master/doc/01-usage.md#core-concepts\" rel=\"nofollow noreferrer\">the monolog usage documentation</a>:</p>\n<blockquote>\n<p>You can create many Loggers, each defining a channel (e.g.: db, request, router, ..) and each of them combining various handlers, which can be shared or not. The channel is reflected in the logs and allows you to easily see or filter records.</p>\n</blockquote>\n<p>Further down that page, there is <a href=\"https://github.com/Seldaek/monolog/blob/master/doc/01-usage.md#leveraging-channels\" rel=\"nofollow noreferrer\">another section on using channels</a>:</p>\n<blockquote>\n<p>Channels are a great way to identify to which part of the application a record is related. This is useful in big applications (and is leveraged by MonologBundle in Symfony).</p>\n<p>Picture two loggers sharing a handler that writes to a single log file. Channels would allow you to identify the logger that issued every record. You can easily grep through the log files filtering this or that channel.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "IMSoP",
+        "link": "https://stackoverflow.com/users/157957/imsop"
+      }
+    },
+    {
+      "answer_id": 25787259,
+      "body": "<p>The solution is rather simple. Since the example shows a <code>StreamHandler</code> it's possible to pass in a stream (instead of the path to a file). By default, everything that is echo'ed in PHP is written to <a href=\"http://php.net/manual/en/wrappers.php.php\" rel=\"noreferrer\">php://stdout / php://output</a> so we can simple use one of those as stream for the <code>StreamHandler</code>:</p>\n\n<pre><code>&lt;?php\n\nuse Monolog\\Logger;\nuse Monolog\\Handler\\StreamHandler;\n\n// create a log channel\n$log = new Logger('name');\n$log-&gt;pushHandler(new StreamHandler('php://stdout', Logger::WARNING)); // &lt;&lt;&lt; uses a stream\n\n// add records to the log\n$log-&gt;warning('Foo');\n$log-&gt;error('Bar');\n</code></pre>\n\n<p>Hope this saves somebody some time :)</p>\n",
+      "owner": {
+        "display_name": "Hirnhamster",
+        "link": "https://stackoverflow.com/users/413531/hirnhamster"
+      }
+    },
+    {
+      "answer_id": 51790726,
+      "body": "<p>Sollution by <a href=\"https://github.com/mfn\" rel=\"nofollow noreferrer\">mfn</a>:<br>\nadd <code>formatter</code> to the channel array:</p>\n\n<pre><code>'formatter' =&gt; \\Monolog\\Formatter\\MongoDBFormatter::class,\n</code></pre>\n\n<p>also create custom formatter class, because <a href=\"https://github.com/mfn\" rel=\"nofollow noreferrer\">mongo formatter</a> used in current Laravel version is out of date.</p>\n\n<pre><code>&lt;?php\n/*\n * This file is part of the Monolog package.\n *\n * (c) Jordi Boggiano &lt;j.boggiano@seld.be&gt;\n *\n * For the full copyright and license information, please view the LICENSE\n * file that was distributed with this source code.\n */\nnamespace Monolog\\Formatter;\n/**\n * Formats a record for use with the MongoDBHandler.\n *\n * @author Florian Plattner &lt;me@florianplattner.de&gt;\n */\nclass MongoDBFormatter implements FormatterInterface\n{\n    private $exceptionTraceAsString;\n    private $maxNestingLevel;\n    /**\n     * @param int  $maxNestingLevel        0 means infinite nesting, the $record itself is level 1, $record['context'] is 2\n     * @param bool $exceptionTraceAsString set to false to log exception traces as a sub documents instead of strings\n     */\n    public function __construct($maxNestingLevel = 3, $exceptionTraceAsString = true)\n    {\n        $this-&gt;maxNestingLevel = max($maxNestingLevel, 0);\n        $this-&gt;exceptionTraceAsString = (bool) $exceptionTraceAsString;\n    }\n    /**\n     * {@inheritDoc}\n     */\n    public function format(array $record)\n    {\n        return $this-&gt;formatArray($record);\n    }\n    /**\n     * {@inheritDoc}\n     */\n    public function formatBatch(array $records)\n    {\n        foreach ($records as $key =&gt; $record) {\n            $records[$key] = $this-&gt;format($record);\n        }\n        return $records;\n    }\n    protected function formatArray(array $record, $nestingLevel = 0)\n    {\n        if ($this-&gt;maxNestingLevel == 0 || $nestingLevel &lt;= $this-&gt;maxNestingLevel) {\n            foreach ($record as $name =&gt; $value) {\n                if ($value instanceof \\DateTime) {\n                    $record[$name] = $this-&gt;formatDate($value, $nestingLevel + 1);\n                } elseif ($value instanceof \\Exception) {\n                    $record[$name] = $this-&gt;formatException($value, $nestingLevel + 1);\n                } elseif (is_array($value)) {\n                    $record[$name] = $this-&gt;formatArray($value, $nestingLevel + 1);\n                } elseif (is_object($value)) {\n                    $record[$name] = $this-&gt;formatObject($value, $nestingLevel + 1);\n                }\n            }\n        } else {\n            $record = '[...]';\n        }\n        return $record;\n    }\n    protected function formatObject($value, $nestingLevel)\n    {\n        $objectVars = get_object_vars($value);\n        $objectVars['class'] = get_class($value);\n        return $this-&gt;formatArray($objectVars, $nestingLevel);\n    }\n    protected function formatException(\\Exception $exception, $nestingLevel)\n    {\n        $formattedException = array(\n            'class' =&gt; get_class($exception),\n            'message' =&gt; $exception-&gt;getMessage(),\n            'code' =&gt; $exception-&gt;getCode(),\n            'file' =&gt; $exception-&gt;getFile() . ':' . $exception-&gt;getLine(),\n        );\n        if ($this-&gt;exceptionTraceAsString === true) {\n            $formattedException['trace'] = $exception-&gt;getTraceAsString();\n        } else {\n            $formattedException['trace'] = $exception-&gt;getTrace();\n        }\n        return $this-&gt;formatArray($formattedException, $nestingLevel);\n    }\n    protected function formatDate(\\DateTime $value, $nestingLevel)\n    {\n        return new UTCDateTime($value-&gt;getTimestamp());\n    }\n}\n</code></pre>\n\n<hr>\n\n<p><strong>UPDATE</strong></p>\n\n<p>My own implementation so far:</p>\n\n<p><code>config/logging.php</code>:</p>\n\n<pre><code>'channels' =&gt; [\n    'stack' =&gt; [\n        'driver' =&gt; 'stack',\n        'channels' =&gt; [... , 'mongo'],\n    ],\n\n    ...\n\n    'mongo' =&gt; [\n        'driver' =&gt; 'custom',\n        'handler' =&gt; \\Monolog\\Handler\\MongoDBHandler::class,\n        'via' =&gt; \\App\\Logging\\MongoLogger::class, //place MongoLogger where you want\n        'name' =&gt; 'mongo',\n        'host' =&gt; env('MONGODB_HOST'), //you can keep these right here in cofig, but I prefer .env because its scaleable\n        'port' =&gt; env('MONGODB_PORT'),\n        'database' =&gt; env('MONGODB_DATABASE'),\n        'collection' =&gt; env('MONGODB_COLLECTION')\n    ]\n],\n</code></pre>\n\n<p><code>MongoLogger</code> class:</p>\n\n<pre><code>&lt;?php\n\nnamespace App\\Logging; //once again, palce this where you want\n\nuse App\\MongoDBFormatter;\nuse MongoDB\\Client;\nuse Monolog\\Handler\\MongoDBHandler;\nuse Monolog\\Logger;\n\nclass MongoLogger\n{\n    public function __invoke(array $config)\n    {\n        $handler = new MongoDBHandler(\n            new Client('mongodb://'.$config['host'].':'.$config['port']),\n            $config['database'],\n            $config['collection']\n        );\n\n        $handler-&gt;setFormatter(new MongoDBFormatter());\n\n        return new Logger($config['name'], [$handler]);\n    }\n}\n</code></pre>\n\n<p><code>MongoDBFormatter</code> class (modified a bit, <a href=\"https://github.com/Seldaek/monolog/blob/1.x/src/Monolog/Formatter/MongoDBFormatter.php\" rel=\"nofollow noreferrer\">original one with some deprecated classes, by the way</a>):</p>\n\n<pre><code>&lt;?php\n/*\n * This file is part of the Monolog package.\n *\n * (c) Jordi Boggiano &lt;j.boggiano@seld.be&gt;\n *\n * For the full copyright and license information, please view the LICENSE\n * file that was distributed with this source code.\n */\nnamespace App; //once again, palce this where you want\n\nuse Monolog\\Formatter\\FormatterInterface;\n\n/**\n * Formats a record for use with the MongoDBHandler.\n *\n * @author Florian Plattner &lt;me@florianplattner.de&gt;\n */\nclass MongoDBFormatter implements FormatterInterface\n{\n    private $exceptionTraceAsString;\n    private $maxNestingLevel;\n    /**\n     * @param int  $maxNestingLevel        0 means infinite nesting, the $record itself is level 1, $record['context'] is 2\n     * @param bool $exceptionTraceAsString set to false to log exception traces as a sub documents instead of strings\n     */\n    public function __construct($maxNestingLevel = 3, $exceptionTraceAsString = true)\n    {\n        $this-&gt;maxNestingLevel = max($maxNestingLevel, 0);\n        $this-&gt;exceptionTraceAsString = (bool) $exceptionTraceAsString;\n    }\n    /**\n     * {@inheritDoc}\n     */\n    public function format(array $record)\n    {\n        return $this-&gt;formatArray($record);\n    }\n    /**\n     * {@inheritDoc}\n     */\n    public function formatBatch(array $records)\n    {\n        foreach ($records as $key =&gt; $record) {\n            $records[$key] = $this-&gt;format($record);\n        }\n        return $records;\n    }\n    protected function formatArray(array $record, $nestingLevel = 0)\n    {\n        if ($this-&gt;maxNestingLevel == 0 || $nestingLevel &lt;= $this-&gt;maxNestingLevel) {\n            foreach ($record as $name =&gt; $value) {\n                if ($value instanceof \\DateTime) {\n                    $record[$name] = $this-&gt;formatDate($value, $nestingLevel + 1);\n                } elseif ($value instanceof \\Exception) {\n                    $record[$name] = $this-&gt;formatException($value, $nestingLevel + 1);\n                } elseif (is_array($value)) {\n                    $record[$name] = $this-&gt;formatArray($value, $nestingLevel + 1);\n                } elseif (is_object($value)) {\n                    $record[$name] = $this-&gt;formatObject($value, $nestingLevel + 1);\n                }\n            }\n        } else {\n            $record = '[...]';\n        }\n        return $record;\n    }\n    protected function formatObject($value, $nestingLevel)\n    {\n        $objectVars = get_object_vars($value);\n        $objectVars['class'] = get_class($value);\n        return $this-&gt;formatArray($objectVars, $nestingLevel);\n    }\n    protected function formatException(\\Exception $exception, $nestingLevel)\n    {\n        $formattedException = array(\n            'class' =&gt; get_class($exception),\n            'message' =&gt; $exception-&gt;getMessage(),\n            'code' =&gt; $exception-&gt;getCode(),\n            'file' =&gt; $exception-&gt;getFile() . ':' . $exception-&gt;getLine(),\n        );\n        if ($this-&gt;exceptionTraceAsString === true) {\n            $formattedException['trace'] = $exception-&gt;getTraceAsString();\n        } else {\n            $formattedException['trace'] = $exception-&gt;getTrace();\n        }\n        return $this-&gt;formatArray($formattedException, $nestingLevel);\n    }\n    protected function formatDate(\\DateTime $value, $nestingLevel)\n    {\n        return $value;\n    }\n}\n</code></pre>\n\n<p><a href=\"https://github.com/laravel/framework/issues/25170\" rel=\"nofollow noreferrer\">Answser source</a>.</p>\n",
+      "owner": {
+        "display_name": "Tarasovych",
+        "link": "https://stackoverflow.com/users/9506712/tarasovych"
+      }
+    },
+    {
+      "answer_id": 51147915,
+      "body": "<p>Use can use \"rotating_file\" log type:</p>\n\n<pre><code>monolog:\n    handlers:\n        main:\n            type:  rotating_file\n            path:  \"%kernel.logs_dir%/system_compact_%kernel.environment%.log\"\n</code></pre>\n\n<p>Look at this documentation page: <a href=\"https://symfony.com/doc/current/logging.html#how-to-rotate-your-log-files\" rel=\"noreferrer\">https://symfony.com/doc/current/logging.html#how-to-rotate-your-log-files</a></p>\n",
+      "owner": {
+        "display_name": "G1.3",
+        "link": "https://stackoverflow.com/users/8632582/g1-3"
+      }
+    },
+    {
+      "answer_id": 26510427,
+      "body": "<p>You will need to look at the Swift_Mailer docs as to how to set up the mailer. </p>\n\n<p><a href=\"https://swiftmailer.symfony.com/docs/sending.html\" rel=\"nofollow noreferrer\">https://swiftmailer.symfony.com/docs/sending.html</a></p>\n\n<p>Once you have your mailer set up that is what you should pass into the new SwiftMailerHandler() for the $mailer variable. </p>\n",
+      "owner": {
+        "display_name": "Ashley Schuett",
+        "link": "https://stackoverflow.com/users/3578697/ashley-schuett"
+      }
+    },
+    {
+      "answer_id": 50964493,
+      "body": "<p>After (unsuccessfully) trying for some time to set the <code>content_type</code> to <code>html/text</code> for the <code>native_mailer</code>, I just switched to the <code>swift_mailer</code> instead.</p>\n",
+      "owner": {
+        "display_name": "Liiva",
+        "link": "https://stackoverflow.com/users/3514278/liiva"
+      }
+    },
+    {
+      "answer_id": 50791603,
+      "body": "<p>I'm afraid your whole design is simply wrong.</p>\n\n<p>Instead of instantiating a new <code>Logger</code> every time you need to log, you should be creating a single <code>$logger</code> to use as a service around your application.</p>\n\n<p>Without knowing more about your application (and having to rewrite your application would make the question <em>too broad</em> anyway), it's hard to guess how to implement <strong>dependency injection</strong> here.</p>\n\n<p>But a simplistic and naive approach would be:</p>\n\n<pre><code>class users extends dbconnector {\n\n    protected $logger;\n\n    public function _construct(Logger $logger) {\n       $this-&gt;logger = $logger;\n    }\n\n    function login() {\n      $this-&gt;logger-&gt;info('User logged successfully');\n    }\n}\n</code></pre>\n\n<p>And then:</p>\n\n<pre><code>$logger  = new Logger('applog');\n$handler = new RotatingFileHandler('useractivity.log', 0, Logger::INFO);\n$handler-&gt;setFormatter(new LineFormatter(\"[%datetime%] %extra.process_id% %channel%.%level_name%: %message% %extra% %context% \\n\"));\n$logger-&gt;pushHandler($handler);\n$logger-&gt;pushProcessor(new WebProcessor);\n$logger-&gt;pushProcessor(new IntrospectionProcessor);\n\n$users = new users($logger);\n</code></pre>\n\n<p>If you inject that <code>Logger</code> instance in the objects that need it, you can use it directly without having to create your own \"wrapper\" (which in your example was poorly designed), and the output in the log files will match your expectations.</p>\n\n<p>Notice that you are not using the <a href=\"https://github.com/Seldaek/monolog/blob/master/doc/02-handlers-formatters-processors.md#processors\" rel=\"nofollow noreferrer\"><code>IntrospectionProcessor</code></a>, which you'd need to capture the filename and file line number. In the above example I'm also pushing it in <code>$logger</code>, the <code>Logger</code> instance.</p>\n\n<p>(And also note that simply adding this processor to your code won't solve your issue, since the call to <code>Logger::info()</code> would always happen in <code>app_log::info()</code>).</p>\n\n<p>Remember that you'll need to add the corresponding <code>use</code> statement: <code>use Monolog\\Processor\\IntrospectionProcessor;</code></p>\n\n<p>I do not know all the details of your system, and can't build it all for you anyway, but if dependency injection is still too much for you, you could just cheat temporarily with a global-state approach.</p>\n\n<p>E.g.:</p>\n\n<pre><code>function get_logger() {\n   static $logger;\n\n   if ($logger !== null) {\n      return $logger;\n   }\n\n   $logger  = new Logger('applog');\n   $handler = new RotatingFileHandler('useractivity.log', 0, Logger::INFO);\n   $handler-&gt;setFormatter(new LineFormatter(\"[%datetime%] %extra.process_id% %channel%.%level_name%: %message% %extra% %context% \\n\"));\n   $logger-&gt;pushHandler($handler);\n   $logger-&gt;pushProcessor(new WebProcessor);\n   $logger-&gt;pushProcessor(new IntrospectionProcessor);\n\n   return $logger;\n}\n</code></pre>\n\n<p>You could put this in a file that you <code>require_once</code>, and in each of these places where you need access to the logger you can simply do:</p>\n\n<pre><code> get_logger()-&gt;info('write to the log!');\n</code></pre>\n\n<p><strong>This is not something I'd endorse</strong>, but a crummy workaround for you to get moving until you advance somewhat in your understanding of other OOP topics. This is nothing else than a poor's man <a href=\"https://en.wikipedia.org/wiki/Singleton_pattern\" rel=\"nofollow noreferrer\">singleton</a>, which more often than not is a pattern to avoid anyway; but that could help you right now..</p>\n",
+      "owner": {
+        "display_name": "yivi",
+        "link": "https://stackoverflow.com/users/1426539/yivi"
+      }
+    },
+    {
+      "answer_id": 36259944,
+      "body": "<p>I have found some outdated libs and complicated ways to do this. So I ended up with very simple solution. Actually, Laravel Monolog Handler already have Loggly Handler out of the box.</p>\n\n<p>Add config info to config/services.php:</p>\n\n<pre><code>'loggly' =&gt; array(\n    'key'   =&gt; 'ENTER_YOUR_LOGGLY_TOKEN_HERE',\n    'tag'   =&gt; 'ProjectName_' .strtolower(env('APP_ENV')),\n),\n</code></pre>\n\n<p>Than add Monolog handler in bootstrap/app.php, before $app is returned:</p>\n\n<pre><code>/*\n|--------------------------------------------------------------------------\n| Setup Loggly Handler\n|--------------------------------------------------------------------------\n*/\n$app-&gt;configureMonologUsing(function($monolog) {\n    $handler = new      \\Monolog\\Handler\\LogglyHandler(config('services.loggly.key'),\\Monolog\\Logger::DEBUG);\n    $handler-&gt;setTag(config('services.loggly.tag'));\n\n    $monolog-&gt;pushHandler($handler);\n});\n</code></pre>\n\n<p>Voila! You are getting your Monolog Logs in Loggly dashboard.</p>\n\n<hr>\n\n<p><strong>UPDATE:</strong> (thanks @thitami)</p>\n\n<p>Based on laravel.com/docs/5.6/upgrade</p>\n\n<blockquote>\n  <p><strong>The configureMonologUsing Method</strong>\n  If you were using the configureMonologUsing method to customize the Monolog instance for your application, you should now create a custom Log channel. For more information on how to create custom channels, check out the <a href=\"https://laravel.com/docs/5.6/logging#creating-custom-channels\" rel=\"nofollow noreferrer\">full logging documentation</a>.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Mladen Janjetovic",
+        "link": "https://stackoverflow.com/users/1090395/mladen-janjetovic"
+      }
+    },
+    {
+      "answer_id": 49371953,
+      "body": "<p>I haven't tried this but it most probably because your controller doesn't implement <code>LoggerAwareInterface</code> thus the logger tag has no impact.</p>\n\n<p>Check which interface <code>AdminAuthenticator</code> is implementing (to see how the logger is being set) then do the same for the controller it should work.</p>\n\n<pre><code>#services.yaml\nApp\\Controller\\Admin\\:\n    resource: '../src/Controller/Admin'\n    calls:\n        - [ setLogger, [ '@logger' ] ]\n    tags:\n        - 'controller.service_arguments'\n        - { name: monolog.logger, channel: admin}\n</code></pre>\n",
+      "owner": {
+        "display_name": "mrbm",
+        "link": "https://stackoverflow.com/users/1143428/mrbm"
+      }
+    },
+    {
+      "answer_id": 49094054,
+      "body": "<p>You could use the default production settings (taken from the <a href=\"https://github.com/symfony/recipes/blob/master/symfony/monolog-bundle/3.1/config/packages/prod/monolog.yaml\" rel=\"noreferrer\">monolog-bundle recipe</a>) for this:</p>\n\n<pre><code>monolog:\n    handlers:\n        main:\n            type: fingers_crossed\n            action_level: error\n            handler: nested\n            excluded_404s:\n                # regex: exclude all 404 errors from the logs\n                - ^/\n        nested:\n            type: stream\n            path: \"%kernel.logs_dir%/%kernel.environment%.log\"\n            level: debug\n</code></pre>\n\n<p>What happens with this configuration is that Monolog buffers all messages during a request, but only writes them to the log when an error appears. This way you will not \"flood\" your logs with noisy debug and info messages all the time. You only get full log information when there was an error during a request.</p>\n",
+      "owner": {
+        "display_name": "dbrumann",
+        "link": "https://stackoverflow.com/users/1166880/dbrumann"
+      }
+    },
+    {
+      "answer_id": 47739058,
+      "body": "<p>using autoloader fixed that \nused that solution :\n<a href=\"https://github.com/Nilpo/autoloader/blob/master/Autoloader.php\" rel=\"nofollow noreferrer\">https://github.com/Nilpo/autoloader/blob/master/Autoloader.php</a></p>\n",
+      "owner": {
+        "display_name": "Tuz",
+        "link": "https://stackoverflow.com/users/9050897/tuz"
+      }
+    },
+    {
+      "answer_id": 46673254,
+      "body": "<p>You can try to exclude a channel php from your handler</p>\n\n<pre><code>use_microseconds: false\nhandlers:\n  main:\n    type: error_log\n    level: WARNING\n  deduplicated:\n    type: deduplication\n    time: 60\n    handler: main\n    channels: ['!php']\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mocrates",
+        "link": "https://stackoverflow.com/users/8748770/mocrates"
+      }
+    },
+    {
+      "answer_id": 45754188,
+      "body": "<p>I'm not sure why using a HandlerWrapper is the wrong way to do it.</p>\n\n<p>I had the same issue and figured a way how to wrap a handler in order to filter certain records.</p>\n\n<p>In this answer I describe two ways to solve this, a more complex and an easy one.</p>\n\n<h3>(More or less) complex way</h3>\n\n<p>First thing I did, was to create a new class wich extends the HandlerWrapper and added some logic where I can filter records:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>use Monolog\\Handler\\HandlerWrapper;\n\nclass CustomHandler extends HandlerWrapper\n{\n    public function isHandling(array $record)\n    {\n        if ($this-&gt;shouldFilter($record)) {\n            return false;\n        }\n\n        return $this-&gt;handler-&gt;isHandling($record);\n    }\n\n    public function handle(array $record)\n    {\n        if (!$this-&gt;isHandling($record)) {\n            return false;\n        }\n\n        return $this-&gt;handler-&gt;handle($record);\n    }\n\n    public function handleBatch(array $records)\n    {\n        foreach ($records as $record) {\n            $this-&gt;handle($record);\n        }\n    }\n\n    private function shouldFilter(array $record)\n    {\n        return mt_rand(0, 1) === 1;; // add logic here\n    }\n}\n</code></pre>\n\n<p>Then I created a service definition and a CompilerPass where I can wrap the GroupHandler</p>\n\n<p><code>services.yml</code></p>\n\n<pre><code>CustomHandler:\n    class: CustomHandler\n    abstract: true\n    arguments: ['']\n</code></pre>\n\n<pre class=\"lang-php prettyprint-override\"><code>use Monolog\\Handler\\GroupHandler;\nuse Symfony\\Component\\DependencyInjection\\ChildDefinition;\nuse Symfony\\Component\\DependencyInjection\\Compiler\\CompilerPassInterface;\nuse Symfony\\Component\\DependencyInjection\\ContainerBuilder;\nuse Symfony\\Component\\DependencyInjection\\Definition;\nuse Symfony\\Component\\DependencyInjection\\Reference;\n\nclass CustomMonologHandlerPass implements CompilerPassInterface\n{\n    public function process(ContainerBuilder $container)\n    {\n        if (!$container-&gt;hasDefinition(CustomHandler::class)) {\n            return;\n        }\n\n        $definitions = $container-&gt;getDefinitions();\n        foreach ($definitions as $serviceId =&gt; $definition) {\n            if (!$this-&gt;isValidDefinition($definition)) {\n                continue;\n            }\n\n            $cacheId = $serviceId . '.wrapper';\n\n            $container\n                -&gt;setDefinition($cacheId, new ChildDefinition(CustomHandler::class))\n                -&gt;replaceArgument(0, new Reference($cacheId . '.inner'))\n                -&gt;setDecoratedService($serviceId);\n        }\n    }\n\n    private function isValidDefinition(Definition $definition): bool\n    {\n        return GroupHandler::class === $definition-&gt;getClass();\n    }\n}\n</code></pre>\n\n<p>As you can see I go over all definitions here and find the ones which have the GroupHandler set as their class. If this is the case, I add a new definition to the container which decorates the original handler with my CustomHandler.</p>\n\n<p><strong>Side note</strong>: <em>At first I tried to wrap all handlers (except the CustomHandler of course :)) but due to some handlers implementing other interfaces (like the <a href=\"https://github.com/symfony/symfony/blob/77639e2564348deef06cdda9b681d7583146c315/src/Symfony/Bridge/Monolog/Handler/ConsoleHandler.php\" rel=\"noreferrer\">ConsoleHandler</a> using the EventSubscriberInterface) this did not work and lead to issues I didn't want to solve in some hacky way.</em></p>\n\n<p>Don't forget to add this compiler pass to the container in your AppBundle class</p>\n\n<pre><code>class AppBundle extends Bundle\n{\n    public function build(ContainerBuilder $container)\n    {\n        $container-&gt;addCompilerPass(new CustomMonologHandlerPass());\n    }\n}\n</code></pre>\n\n<p>Now that everything is in place you have to group your handlers in order to make this work:</p>\n\n<p><code>app/config(_prod|_dev).yml</code></p>\n\n<pre><code>monolog:\n    handlers:\n        my_group:\n            type: group\n            members: [ 'graylog' ]\n        graylog:\n            type: gelf\n            publisher:\n                id: my.publisher\n            level: debug\n            formatter: my.formatter\n</code></pre>\n\n<h3>Easy way</h3>\n\n<p>We use the same CustomHandler as we did in the complex way, then we define our handlers in the config:</p>\n\n<p><code>app/config(_prod|_dev).yml</code></p>\n\n<pre><code>monolog:\n    handlers:\n        graylog:\n            type: gelf\n            publisher:\n                id: my.publisher\n            level: debug\n            formatter: my.formatter\n</code></pre>\n\n<p>Decorate the handler in your services.yml with your own CustomHandler</p>\n\n<p><code>services.yml</code></p>\n\n<pre><code>CustomHandler:\n    class: CustomHandler\n    decorates: monolog.handler.graylog\n    arguments: ['@CustomHandler.inner']\n</code></pre>\n\n<p>For the <em>decorates</em> property you have to use the format <code>monolog.handler.$NAME_SPECIFIED_AS_KEY_IN_CONFIG</code>, in this case it was graylog.</p>\n\n<p>... and thats it</p>\n\n<h3>Summary</h3>\n\n<p>While both ways work, I used the first one, as we have several symfony projects where I need this and decorating all handlers\nmanually is just not what I wanted.</p>\n\n<p>I hope this helps (even though I'm quite late for an answer :))</p>\n",
+      "owner": {
+        "display_name": "Spea",
+        "link": "https://stackoverflow.com/users/1389211/spea"
+      }
+    },
+    {
+      "answer_id": 45442077,
+      "body": "<p>try this:</p>\n\n<pre><code>use Monolog\\Logger;\n</code></pre>\n\n<p>instead of this:</p>\n\n<pre><code>use Symfony\\Component\\HttpKernel\\Log\\LoggerInterface;\n</code></pre>\n\n<p>And after this;</p>\n\n<pre><code>public function __construct(ContainerInterface $container, EntityManager $em, Logger $logger){\n</code></pre>\n\n<p>insetad of this:</p>\n\n<pre><code>public function __construct(ContainerInterface $container, EntityManager $em, LoggerInterface $logger){\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alessandro Minoccheri",
+        "link": "https://stackoverflow.com/users/1427138/alessandro-minoccheri"
+      }
+    },
+    {
+      "answer_id": 45376468,
+      "body": "<p>Best bet is to have a local caching mechanism on your application server to forward requests. That way if there is momentary downtime of the log server, the requests can be queued. Systems like fluentd work well for this. On the other hand, if you don't care about losing log messages, you can look into a Transport that ignores errors such as <code>IgnoreErrorTransportWrapper</code>: </p>\n\n<p><a href=\"https://github.com/bzikarsky/gelf-php/blob/master/src/Gelf/Transport/IgnoreErrorTransportWrapper.php\" rel=\"nofollow noreferrer\">https://github.com/bzikarsky/gelf-php/blob/master/src/Gelf/Transport/IgnoreErrorTransportWrapper.php</a></p>\n\n<p>Further reading:</p>\n\n<p><a href=\"https://github.com/bzikarsky/gelf-php/issues/56\" rel=\"nofollow noreferrer\">https://github.com/bzikarsky/gelf-php/issues/56</a></p>\n",
+      "owner": {
+        "display_name": "PressingOnAlways",
+        "link": "https://stackoverflow.com/users/1769276/pressingonalways"
+      }
+    },
+    {
+      "answer_id": 44501268,
+      "body": "<p>All Deprecated Message are logged As INFO level, php Channels so if You try this configuration All deprecation message will be logged in one file</p>\n\n<pre><code>monolog:\n    handlers:\n        security:\n            level:    INFO\n            type:     stream\n            path:     '%kernel.logs_dir%/deprecated.log'\n            channels: [php]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Barkati.med",
+        "link": "https://stackoverflow.com/users/7226219/barkati-med"
+      }
+    },
+    {
+      "answer_id": 43891137,
+      "body": "<p>I haven't tested this, as my alternative solution works fine with <code>tee</code>. However, of late I suspect that <code>ErrorLogHandler</code> in fact sends output to <code>stderr</code>, not <code>stdout</code>, which would be why <code>tee</code> does not render it.</p>\n\n<p>If anyone else bumps into this, I should be interested in their observations. In some ways it's an edge-case, since in most cases error output is rendered to the console just in the same way as non-error output, and one cannot normally tell the difference.</p>\n",
+      "owner": {
+        "display_name": "halfer",
+        "link": "https://stackoverflow.com/users/472495/halfer"
+      }
+    },
+    {
+      "answer_id": 43633579,
+      "body": "<p>Add this line in your <code>composer.json</code> file (in <code>require</code> section):</p>\n\n<pre><code>\"monolog/monolog\": \"^1.0\"\n</code></pre>\n\n<p>Then run <code>composer install</code> and you should be good to go!</p>\n",
+      "owner": {
+        "display_name": "Babar Al-Amin",
+        "link": "https://stackoverflow.com/users/1801379/babar-al-amin"
+      }
+    },
+    {
+      "answer_id": 42053396,
+      "body": "<p>It would be nice if <strong>your core logic is itself in a service and not in your controller</strong>.</p>\n\n<p>That way, you could use try-catch block inside the service where you call another service and your controller stays clean and neat - you just call the service without catching any exception.</p>\n\n<pre><code>// AppBundle/src/Controller/MainController.php\npublic function mainAction()\n{\n  // ...\n  $result = $this-&gt;get('my_service')-&gt;getResult($parameters);\n  if (!$result) {\n    // show an error message, pass it to another service, ignore it or whatever you like\n  }\n}\n\n// AppBundle/src/Service/MyService.php\npublic function getResult($parameters)\n{\n  try {\n    $apiResult = $this-&gt;apiService-&gt;get($parameters);\n  } catch (ApiException $e)\n    $this-&gt;logger-&gt;error('My error message');\n    $apiResult = null;\n  }\n\n  return $apiResult;\n}\n</code></pre>\n\n<p>Consider also a <strong>Solution 3</strong>: Throw an exception in a service and catch it <a href=\"http://symfony.com/doc/current/event_dispatcher.html\" rel=\"noreferrer\">in a custom exception listener</a>, where you can log it and take further action (like replacing the Response object, etc.).</p>\n",
+      "owner": {
+        "display_name": "Ivan Kvasnica",
+        "link": "https://stackoverflow.com/users/6817376/ivan-kvasnica"
+      }
+    },
+    {
+      "answer_id": 41493673,
+      "body": "<p><strong>Creating your own Channel</strong>. This is done either via the <a href=\"http://symfony.com/doc/current/logging/channels_handlers.html#configure-additional-channels-without-tagged-services\" rel=\"nofollow noreferrer\">configuration</a> or <a href=\"http://symfony.com/doc/current/reference/dic_tags.html#monolog-logger\" rel=\"nofollow noreferrer\">by tagging your service</a> with <code>monolog.logger</code> and specifying which channel the service should log to (just as you have done).</p>\n\n<p>Both ways are valid and in both cases you logger will be named:</p>\n\n<pre><code>monolog.logger.&lt;you-channel-name&gt;\n</code></pre>\n\n<p>So use <code>monolog.logger.search</code> instead of your service id <code>app.logger_search</code> to fix the issue.</p>\n\n<p>I you don't have a strong reason to change the logger behavior, I suggest to <a href=\"http://symfony.com/doc/current/logging/channels_handlers.html#configure-additional-channels-without-tagged-services\" rel=\"nofollow noreferrer\">configure additional channels without tagged services</a>:</p>\n\n<pre><code># app/config/config.yml\nmonolog:\n    channels: ['foo', 'bar']\n</code></pre>\n\n<p>With this, you can now send log messages to the <code>foo</code> channel by using the automatically registered logger service <code>monolog.logger.foo</code>.</p>\n",
+      "owner": {
+        "display_name": "yceruto",
+        "link": "https://stackoverflow.com/users/4224384/yceruto"
+      }
+    },
+    {
+      "answer_id": 34289039,
+      "body": "<p>If you want to add extra information to log entries, you can do this with a processor. With a processor you can modify the record array, before it's parsed by a formatter. The extra part is shown at the end of the log entry.</p>\n\n<pre><code>&lt;?php\n\nnamespace AppBundle\\Monolog;\n\nuse Symfony\\Component\\HttpFoundation\\RequestStack;\n\nclass WebProcessor\n{\n    private $requestStack;\n\n    public function __construct(RequestStack $requestStack)\n    {\n        $this-&gt;requestStack = $requestStack;\n    }\n\n    public function processRecord(array $record)\n    {\n        $request = $this-&gt;requestStack-&gt;getCurrentRequest();\n\n        if ($request) {\n            $record['extra']['host'] = $request-&gt;getHost();\n            $record['extra']['url'] = $request-&gt;getRequestUri();\n            // ...\n        }\n\n        return $record;\n    }\n}\n</code></pre>\n\n<p>Now add it to your <code>services.yml</code> to register it for all log entries:</p>\n\n<pre><code>app.monolog.processor.web:\n    class: AppBundle\\Monolog\\WebProcessor\n    arguments: [\"@request_stack\"]\n    tags:\n        - { name: monolog.processor, method: processRecord }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Emii Khaos",
+        "link": "https://stackoverflow.com/users/2084176/emii-khaos"
+      }
+    },
+    {
+      "answer_id": 40546421,
+      "body": "<p>Channels in monolog works exactly like you want. Sample monolog configuration</p>\n\n<pre><code>app/config.yml\n\nmonolog:\n  channels: ['deletion']\n  handlers:\n    main:\n        type:         fingers_crossed\n        action_level: error\n        handler:      grouped_main\n        formatter: \"monolog.formatter.request\"\n        buffer_size: 30\n#        if you will set stop_buffering: true - you will get ALL events after first error. It could produce huge logs for console\n        stop_buffering: false\n\n#   this is for getsentry.com error catching\n    sentry:\n        type:  raven\n        dsn:   '%sentry_url%'\n        level: notice\n\n    # Groups\n    grouped_main:\n        type:    group\n        members: [sentry, streamed_main, streamed_main_brief]\n\n    # Streams\n    streamed_main:\n        type:  stream\n        path:  \"%kernel.logs_dir%/%kernel.environment%.log\"\n\n    streamed_main_brief:\n        type:  stream\n        path:  \"%kernel.logs_dir%/%kernel.environment%_brief.log\"\n        formatter: monolog.brief_formatter\n\n    console:\n        type: console\n        formatter: monolog.console_formatter\n\n    deletion:\n         # log deletion related messages\n        level:    debug\n        type:     stream\n        path:     '%kernel.logs_dir%/deletion.log'\n        channels: ['deletion']\n        formatter: monolog.brief_formatter\n\nservices:\n    my_service:\n        class: Monolog\\Processor\\IntrospectionProcessor\n        tags:\n            - { name: monolog.processor }\n    monolog.console_formatter:\n        class: Symfony\\Bridge\\Monolog\\Formatter\\ConsoleFormatter\n        arguments:\n            - \"&lt;fg=black;bg=green&gt;[%%datetime%%]&lt;/fg=black;bg=green&gt; %%start_tag%%%%message%%%%end_tag%%\\n\"\n    monolog.brief_formatter:\n        class: Monolog\\Formatter\\LineFormatter\n        arguments:\n            - \"[%%datetime%%] %%message%%\\n\"\n#            default format is\n#            - \"[%datetime%] %channel%.%level_name%: %message% %context% %extra%\\n\"        \n</code></pre>\n\n<p>If you will add code like </p>\n\n<pre><code>$this-&gt;getContainer()-&gt;get(\"logger\")-&gt;info(\"Sample info\");\n$this-&gt;getContainer()-&gt;get(\"monolog.logger.deletion\")-&gt;info(\"Deletion channel info\");\n$this-&gt;getContainer()-&gt;get(\"monolog.logger.deletion\")-&gt;error(\"Deletion channel error\");\n$this-&gt;getContainer()-&gt;get(\"monolog.logger.deletion\")-&gt;info(\"Deletion channel info #2\");\n</code></pre>\n\n<p>You will get 3 log files with such a content</p>\n\n<p>Channel log file</p>\n\n<pre><code>deletion.log\n[2016-11-11 12:43:18] Deletion channel info\n[2016-11-11 12:43:18] Deletion channel error\n[2016-11-11 12:43:19] Deletion channel info #2\n</code></pre>\n\n<p>Default env log file</p>\n\n<pre><code>dev.log\n[2016-11-11 12:43:18] event.DEBUG: Notified event \"console.command\" to listener \"Symfony\\Component\\HttpKernel\\EventListener\\DebugHandlersListener::configure\". [] {\"file\":\"....\"}\n[2016-11-11 12:43:18] event.DEBUG: Notified event \"console.command\" to listener \"Symfony\\Bridge\\Monolog\\Handler\\ConsoleHandler::onCommand\". [] {\"file\":\"....\"}\n[2016-11-11 12:43:18] app.INFO: Sample info [] {\"file\":\"...\"}\n[2016-11-11 12:43:18] deletion.INFO: Deletion channel info [] {\"file\":\"....\"}\n[2016-11-11 12:43:18] deletion.ERROR: Deletion channel error [] {\"....\"}\n</code></pre>\n\n<p>Brief env.log</p>\n\n<pre><code>[2016-11-11 12:43:18] Notified event \"console.command\" to listener \"Symfony\\Component\\HttpKernel\\EventListener\\DebugHandlersListener::configure\".\n[2016-11-11 12:43:18] Notified event \"console.command\" to listener \"Symfony\\Bridge\\Monolog\\Handler\\ConsoleHandler::onCommand\".\n[2016-11-11 12:43:18] Sample info\n[2016-11-11 12:43:18] Deletion channel info\n[2016-11-11 12:43:18] Deletion channel error\n</code></pre>\n\n<p>Also notice, that because of stop_buffering: false notice after error will not appear at dev.log, dev_brief.log, but will appear at deletion.log</p>\n\n<p>And you should try sentry - its great product and his owners are cool guys :)</p>\n",
+      "owner": {
+        "display_name": "Andrew Zhilin",
+        "link": "https://stackoverflow.com/users/1028607/andrew-zhilin"
+      }
+    },
+    {
+      "answer_id": 21146663,
+      "body": "<p>This is part of <code>config_prod.yml</code>:</p>\n\n<pre><code>monolog:\n    handlers:\n        main:\n            type:         fingers_crossed\n            action_level: error\n            handler:      grouped_main\n\n        sentry:\n            type:  raven\n            dsn:   'http://user:pass@url/1'\n            level: notice\n\n        # Groups\n        grouped_main:\n            type:    group\n            members: [sentry, streamed_main]\n\n        # Streams\n        streamed_main:\n            type:  stream\n            path:  %kernel.logs_dir%/%kernel.environment%.log\n            level: error\n</code></pre>\n\n<p>Enjoy! :)</p>\n",
+      "owner": {
+        "display_name": "Anton Babenko",
+        "link": "https://stackoverflow.com/users/550451/anton-babenko"
+      }
+    },
+    {
+      "answer_id": 39546720,
+      "body": "<blockquote>\n  <p>I am using Symfony 3.1 and I try to configure Monolog in such a way, that requests from the GoogleBot are not logged...</p>\n</blockquote>\n\n<hr>\n\n<ol>\n<li><p>The quick way to prevent robots visiting your site is put these two lines into the <code>/robots.txt</code> file on your server. Create a <code>robots.txt</code> file in 'web' directory and paste the follows content:</p>\n\n<pre><code>User-agent: *\nDisallow: /\n</code></pre>\n\n<blockquote>\n  <p><a href=\"https://support.google.com/webmasters/answer/6062608?hl=en&amp;visit_id=1-636097099675465769-3677253464&amp;rd=1\" rel=\"noreferrer\">https://support.google.com/webmasters/answer/6062608?hl=en&amp;visit_id=1-636097099675465769-3677253464&amp;rd=1</a></p>\n</blockquote>\n\n<p><strong>It's the recommended option when you need avoid access <em>fully</em>, meaning your sites will not longer be index by search engines and other bots. You don't need to configure/implement anything in your application to achieve it.</strong></p></li>\n</ol>\n\n<hr>\n\n<ol start=\"2\">\n<li><p>Now, if you need the bot to enter, but you don't want register it in logs. Instead of writing log files somewhere, <em>some</em> handlers are used to filter or modify log entries before sending them to <em>other</em> handlers. One powerful, built-in handler called <code>fingers_crossed</code> is used in the <code>prod</code> environment by default. It stores all log messages during a request but only passes them to a second handler if one of the messages reaches an <code>action_level</code>:</p>\n\n<pre><code># app/config/config.yml\nmonolog:\n    handlers:\n        filter_for_errors:\n            type: fingers_crossed\n            # if *one* log is error or higher, pass *all* to file_log\n            action_level: error\n            handler: file_log\n\n        # now passed *all* logs, but only if one log is error or higher\n        file_log:\n            type: stream\n            path: \"%kernel.logs_dir%/%kernel.environment%.log\"\n</code></pre>\n\n<p>Thus, in your <code>prod.log</code> file just will register the messages/requests that contains some error, so the <em>bots</em> don't have effect in this level.</p>\n\n<p>More details about this <a href=\"http://symfony.com/doc/current/logging.html\" rel=\"noreferrer\">http://symfony.com/doc/current/logging.html</a></p></li>\n</ol>\n\n<hr>\n\n<ol start=\"3\">\n<li><p>What you try to do is not advisable, because the <em>handler</em> will depend from http request instead of log records, which will be out of context, however you can register its own <em>handler</em> in Symfony easily:</p>\n\n<p>Let's create the custom handler class:</p>\n\n<pre><code>namespace AppBundle\\Monolog\\Handler;\n\nuse Monolog\\Handler\\AbstractHandler;\n\nclass StopBotLogHandler extends AbstractHandler\n{\n    public function isBotRequestDetected()\n    {\n        // here your code to detect Bot requests, return true or false\n        // something like this: \n        // return isset($_SERVER['HTTP_USER_AGENT']) &amp;&amp; preg_match('/bot|crawl|slurp|spider/i', $_SERVER['HTTP_USER_AGENT']);\n    }\n\n    /**\n     * Checks whether the given record will be handled by this handler.\n     *\n     * This is mostly done for performance reasons, to avoid calling processors for nothing.\n     *\n     * Handlers should still check the record levels within handle(), returning false in isHandling()\n     * is no guarantee that handle() will not be called, and isHandling() might not be called\n     * for a given record.\n     *\n     * @param array $record Partial log record containing only a level key (e.g: array('level' =&gt; 100) for DEBUG level)\n     *\n     * @return bool\n     */\n    public function isHandling(array $record)\n    {\n        return $this-&gt;isBotRequestDetected();\n    }\n\n    /**\n     * Handles a record.\n     *\n     * All records may be passed to this method, and the handler should discard\n     * those that it does not want to handle.\n     *\n     * The return value of this function controls the bubbling process of the handler stack.\n     * Unless the bubbling is interrupted (by returning true), the Logger class will keep on\n     * calling further handlers in the stack with a given log record.\n     *\n     * @param array $record The record to handle\n     *\n     * @return bool true means that this handler handled the record, and that bubbling is not permitted.\n     *              false means the record was either not processed or that this handler allows bubbling.\n     */\n    public function handle(array $record)\n    {\n        // do nothing, just returns true whether the request is detected as \"bot\", this will break the handlers loop.\n        //             else returns false and other handler will handle the record.\n\n        return $this-&gt;isBotRequestDetected();\n    }\n}\n</code></pre>\n\n<p>Whenever you add a record to the logger, it traverses the handler stack. Each handler decides whether it fully handled the record, and if so, the propagation of the record ends there.</p>\n\n<p><strong>Important:</strong> Read the phpdoc from <code>isHandling()</code> and <code>handle()</code> methods for more details.</p>\n\n<p>Next, let's register the class as service \"without tags\":</p>\n\n<pre><code># app/config/services.yml\nservices:\n    monolog.handler.stop_bot_log:\n        class: AppBundle\\Monolog\\Handler\\StopBotLogHandler\n        public: false\n</code></pre>\n\n<p>Then, add its <em>handler</em> to <code>handlers</code> list:</p>\n\n<pre><code># app/config/config_prod.yml\nmonolog:\n    handlers:\n        # ...\n\n        stopbotlog:\n            type: service\n            id: monolog.handler.stop_bot_log\n            priority: 1\n</code></pre>\n\n<p>Note the <code>type</code> property must be equal to <code>service</code>, <code>id</code> must be the service name before defined and <code>priority</code> must be greater than <code>0</code> to ensure that its <em>handler</em> will be executed before that any other handler.</p>\n\n<p>When the <em>GoogleBot</em> performs a request to website application the <code>stopbotlog</code> <em>handler</em> stops all <em>handlers</em> after him and don't register any log message.</p>\n\n<p><strong>Remember it's not the recommended way to do that! According to your needs, implementing option 1 or 2 should be enough.</strong></p></li>\n</ol>\n\n<hr>\n\n<p>If you want ignore bot requests for handlers group, you can override the <code>monolog.handler.group.class</code> container parameter and override the group <code>handler</code> behavior:</p>\n\n<pre><code>namespace AppBundle\\Handler;\n\nuse Monolog\\Handler\\GroupHandler;\n\nclass NoBotGroupHandler extends GroupHandler\n{\n    public function isBotRequestDetected()\n    {\n        // here your code to detect Bot requests, return true or false\n    }\n\n    public function handle(array $record)\n    {\n        if ($this-&gt;isBotRequestDetected()) {\n            // ignore bot request for handlers list\n            return false === $this-&gt;bubble;\n        }\n\n        return parent::handle($record);\n    }\n}\n</code></pre>\n\n<p>in your <code>config_prod.yml</code> or <code>services.yml</code>:</p>\n\n<pre><code>parameters:\n    monolog.handler.group.class: AppBundle\\Handler\\NoBotGroupHandler\n</code></pre>\n\n<p>That's it! Now, you can stop bot logs for custom handles list:</p>\n\n<pre><code># config_prod.yml\nmonolog:\n    handlers:\n        grouped:\n            type: group\n            members: [main, console, chromephp]\n</code></pre>\n\n<hr>\n\n<p>Finally, if you have difficulty to analyze your logs files I recommend using this amazing tool: <a href=\"https://github.com/EasyCorp/easy-log-handler\" rel=\"noreferrer\">https://github.com/EasyCorp/easy-log-handler</a></p>\n",
+      "owner": {
+        "display_name": "yceruto",
+        "link": "https://stackoverflow.com/users/4224384/yceruto"
+      }
+    },
+    {
+      "answer_id": 37920546,
+      "body": "<p>If you try this:</p>\n\n<pre><code>  console:\n     type: stream\n     path: \"%kernel.logs_dir%/console.log\"\n     level: critical\n     channels: []\n</code></pre>\n\n<p>Then it should be fine. I also had some issues with that, i just commented it out for my needs.\nIf you still want some debugging for doctrine, just put !doctrine in the brackets.\nIf i get you right, thats what you need.</p>\n",
+      "owner": {
+        "display_name": "maddes.h",
+        "link": "https://stackoverflow.com/users/5638983/maddes-h"
+      }
+    },
+    {
+      "answer_id": 37351968,
+      "body": "<p>I post how I resolved. The problem isn't related with Monolog, but with my logger service.</p>\n\n<p>Because I wrapped how to log exceptions, before I didn't pass the exception when I call</p>\n\n<pre><code>$logger-&gt;error('message error');\n</code></pre>\n\n<p>So when Monolog tries to enable the NotFoundActivationStrategy (file is located in <code>/vendor/symfony/monolog-bundle/NotFoundActivationStrategy.php</code>), this check fails:</p>\n\n<pre><code>public function isHandlerActivated(array $record)\n{\n    $isActivated = parent::isHandlerActivated($record);\n    if (\n        $isActivated\n        &amp;&amp; $this-&gt;request\n        &amp;&amp; isset($record['context']['exception'])\n        &amp;&amp; $record['context']['exception'] instanceof HttpException\n        &amp;&amp; $record['context']['exception']-&gt;getStatusCode() == 404\n     ) {\n        //blacklist is the pattern that you can set on config.yml at excluded_404s node\n        return !preg_match($this-&gt;blacklist, $this-&gt;request-&gt;getPathInfo());\n     }\n\n     return $isActivated;\n }\n</code></pre>\n\n<p>So I resolved with</p>\n\n<pre><code>$this-&gt;logger-&gt;error('message', array('exception' =&gt; $exception));\n</code></pre>\n\n<p>Hope this helps someone.</p>\n",
+      "owner": {
+        "display_name": "stuzzo",
+        "link": "https://stackoverflow.com/users/320318/stuzzo"
+      }
+    },
+    {
+      "answer_id": 37250353,
+      "body": "<p>So I just found what was the problem. \nI was missing a param, the <code>$maxFiles</code>.\n<code>$infoStreamHandler = new \\Monolog\\Handler\\RotatingFileHandler($settings['path_info'].'/info.log', 0, Monolog\\Logger::INFO);</code></p>\n\n<p>And it works perfectly now!</p>\n",
+      "owner": {
+        "display_name": "Carla Sousa",
+        "link": "https://stackoverflow.com/users/5147779/carla-sousa"
+      }
+    },
+    {
+      "answer_id": 36905441,
+      "body": "<p>Long overdue update:</p>\n\n<p>The primary problem is that Laravel, and lots of code following its example, tries to log the exception by itself, e.g., <code>Log::error($e)</code>. <strong>This is the wrong way to log an exception with Monolog.</strong> That first parameter is supposed to be a simple message string. In processing it, <code>Monolog\\Logger::addRecord()</code> explicitly casts the message to a string:</p>\n\n<pre><code>$record = array(\n    'message' =&gt; (string) $message,\n    //...\n);\n</code></pre>\n\n<p>If <code>$message</code> is actually an exception, you get the whole stack trace as a string. Unfortunately, this is what Laravel's <a href=\"https://github.com/laravel/framework/blob/fd307c028a6f58c4ae644d5d46a570f054bfd9e3/src/Illuminate/Foundation/Exceptions/Handler.php#L56\" rel=\"nofollow\">default exception handler does</a>.</p>\n\n<p>The correct way to get a stack trace as an array is to pass the exception in as context so that it's available non-stringified to the formatter. For instance:</p>\n\n<pre><code>Log::error($e-&gt;getMessage(), ['exception' =&gt; $e]);\n</code></pre>\n\n<p>Something equivalent is what you need to put in your custom exception handler for Laravel, and then you can use a proper JSON formatter and get what you except.</p>\n",
+      "owner": {
+        "display_name": "jchamberlain",
+        "link": "https://stackoverflow.com/users/2543768/jchamberlain"
+      }
+    },
+    {
+      "answer_id": 23037394,
+      "body": "<p>Since Laravel comes out of box with <a href=\"https://github.com/Seldaek/monolog\" rel=\"noreferrer\">Monolog</a>, it is pretty straight forward. It can be easily achieved by editing <code>app/start/global.php</code> and add the following after the line that starts with: <code>Log::useFiles</code>:</p>\n\n<pre><code>Log::useFiles(storage_path().'/logs/laravel.log');\n$monolog = Log::getMonolog();\n$monolog-&gt;pushProcessor(function ($record) {\n    $record['extra']['user'] = Auth::user() ? Auth::user()-&gt;username : 'anonymous';\n    $record['extra']['ip'] = Request::getClientIp();\n    return $record;\n});\n</code></pre>\n\n<p>Basically, we are using the underlying Monolog instance to register a processor which will intercept any log record to be written. The results will be similar as the followings:</p>\n\n<blockquote>\n  <p>[2014-04-12 23:07:35] local.INFO: Pre-paid activation. [] {\"user\":\"anonymous\",\"ip\":\"::1\"}</p>\n</blockquote>\n\n<p>More information about Monolog processors: <a href=\"https://github.com/Seldaek/monolog/blob/master/doc/01-usage.md#using-processors\" rel=\"noreferrer\">https://github.com/Seldaek/monolog/blob/master/doc/01-usage.md#using-processors</a></p>\n\n<hr>\n\n<p><strong>Extra:</strong> The hardcoded <code>extra</code> is to tell Monolog to add data as extra piece of information (redundant to say). In the practice, this is to avoid overriding any context data added in the original log call.</p>\n",
+      "owner": {
+        "display_name": "Rubens Mariuzzo",
+        "link": "https://stackoverflow.com/users/439427/rubens-mariuzzo"
+      }
+    },
+    {
+      "answer_id": 36262025,
+      "body": "<p>Use special service created for <code>Monolog</code> handler: </p>\n\n<pre><code>services:\n    some_service:\n        class: Namespace\\Some\\Service\n        arguments: [\"@monolog.logger.alert\"]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Paweł Mikołajczuk",
+        "link": "https://stackoverflow.com/users/919567/pawe%c5%82-miko%c5%82ajczuk"
+      }
+    },
+    {
+      "answer_id": 35977531,
+      "body": "<p>Found the solution. I can't tell you the exact reasons why such memory leak happen, however according to <a href=\"https://github.com/symfony/monolog-bundle/issues/118\" rel=\"noreferrer\">this</a>; Adding the <code>--no-debug</code> option to your command solves the problem. It actually did and it even reduced the memory by 2mb. Cheers !</p>\n",
+      "owner": {
+        "display_name": "delmalki",
+        "link": "https://stackoverflow.com/users/4704491/delmalki"
+      }
+    },
+    {
+      "answer_id": 35611228,
+      "body": "<p>A common alternative would be to use the <a href=\"https://github.com/Seldaek/monolog/blob/master/src/Monolog/Handler/NullHandler.php\" rel=\"noreferrer\">NullHandler</a> instead of the StreamHandler.</p>\n\n<p>Maybe switch between them depending on your condition like follows:</p>\n\n<pre><code>if (!Configuration::debug()) {\n    $logger-&gt;pushHandler(new \\Monolog\\Handler\\NullHandler());\n}\n</code></pre>\n\n<p>I would like to give you an example that is more adapted to your usage,<br>\nbut I need to see some code in order to know how you use it.</p>\n\n<p><strong>Update</strong></p>\n\n<p>For the question about default format, the empty <code>[]</code> at end represent the extra data that can be added with log entries.</p>\n\n<p>From @Seldaek (Monolog's owner) :</p>\n\n<blockquote>\n  <p>The default format of the LineFormatter is:\n  \"[%datetime%] %channel%.%level_name%: %message% %context% %extra%\\n\". the username/age is the context, and extra that is typically empty results in this empty array [].  </p>\n  \n  <p>If you use processors to attach data to log records they typically write it to the extra key to avoid conflicts with context info. If it really is an issue for you you can change the default format and omit %extra%.  </p>\n  \n  <p>Edit: As of Monolog 1.11 the LineFormatter has a $ignoreEmptyContextAndExtra parameter in the constructor that lets you remove these, so you can use this:  </p>\n  \n  <p><code>// the last \"true\" here tells it to remove empty []'s</code>  </p>\n  \n  <p><code>$formatter = new LineFormatter(null, null, false, true);</code><br>\n  <code>$handler-&gt;setFormatter($formatter);</code></p>\n</blockquote>\n\n<p>See <a href=\"https://stackoverflow.com/questions/13968967/how-not-to-show-last-bracket-in-a-monolog-log-line\">How not to show last bracket in a monolog log line?</a> and <a href=\"https://stackoverflow.com/questions/11520298/symfony2-use-processors-while-logging-in-different-files\">Symfony2 : use Processors while logging in different files</a> about the processors which @Seldaek is talking about.</p>\n",
+      "owner": {
+        "display_name": "chalasr",
+        "link": "https://stackoverflow.com/users/4363634/chalasr"
+      }
+    },
+    {
+      "answer_id": 35329554,
+      "body": "<p>Well, I think that it's too late to search for all the <code>Log::info()</code> and do the proposed answer by @jon__o</p>\n\n<pre><code>if (App::environment('local', 'staging')) {\n    Log::info($error);\n}\n</code></pre>\n\n<p>But you can still do something. You can override the default Laravel logger instance with your own implementation.</p>\n\n<p>Go to your <code>ApplicationServiceProvider</code> and override the <code>log</code> instance with a custom one:</p>\n\n<pre><code>/**\n * Register any application services.\n *\n * @return void\n */\npublic function register()\n{\n    $this-&gt;registerLogger();\n}\n\n/**\n * Register the logger instance in the container.\n *\n * @return MyCustomWriter\n */\nprotected function registerLogger()\n{\n    $this-&gt;app-&gt;instance('log', $log = new MyCustomWriter(\n        new Monolog($this-&gt;app-&gt;environment()), $app['events'])\n    );\n\n    $log-&gt;dontLogInfoOnEnvironmnets(['production', 'staging', 'other']);\n    return $log;\n}\n</code></pre>\n\n<p>Now you can create your custom writer by just extending the Laravel's <code>Writer</code> and overriding the <code>info()</code> method.</p>\n\n<pre><code>class MyCustomWriter extends \\Illuminate\\Log\\Writer\n{\n\n    protected $dontInfoOn = [];\n\n    /**\n     * Log an informational message to the logs.\n     *\n     * @param  string  $message\n     * @param  array  $context\n     * @return void\n     */\n    public function info($message, array $context = [])\n    {\n        // Since we are providing the app environment to the Monolog instance in out ApplicationServiceProvider\n        // we can get the environment from the Monolog getName() method\n        if(!in_array($this-&gt;monolog-&gt;getName(), $this-&gt;dontInfoOn)) {\n            return parent::info($message, $context);\n        }\n    }\n\n    /**\n     * Don't log info() on the supplied environments .\n     *\n     * @param  array  $environments\n     * @return void\n     */\n    public function dontLogInfoOnEnvironmnets(array $environments)\n    {\n        $this-&gt;dontInfoOn = $environments;\n    }\n}\n</code></pre>\n\n<p>This way, you can still keep you <code>Log::info</code> on testing environments without checking every time.</p>\n",
+      "owner": {
+        "display_name": "Homme Sauvage",
+        "link": "https://stackoverflow.com/users/2019137/homme-sauvage"
+      }
+    },
+    {
+      "answer_id": 34672370,
+      "body": "<p>The problem in the environment variable because it isn't a <code>local</code>.\nJust auto mistake or lack of attention :)</p>\n",
+      "owner": {
+        "display_name": "xAoc",
+        "link": "https://stackoverflow.com/users/2169572/xaoc"
+      }
+    },
+    {
+      "answer_id": 34310386,
+      "body": "<p>To be honest I never saw injecting arguments using keys.\nI know you can use keys when dealing with parameters or when injecting using setters, like the documentation says:\n<a href=\"http://symfony.com/doc/current/book/service_container.html#optional-dependencies-setter-injection\" rel=\"nofollow\">http://symfony.com/doc/current/book/service_container.html#optional-dependencies-setter-injection</a></p>\n\n<p>If you want to inject using setters you could do:</p>\n\n<pre><code>//config.yml\nservices:\n    some.service.name:\n        class: SomeClass\n        calls:\n            - [setFormat, \"[%%datetime%%] %%channel%%.%%level_name%%\"]\n</code></pre>\n\n<p>But the Monolog LineFormatter doesn't support that.</p>\n\n<p>In the end I think you will go for the common array mode.</p>\n\n<p>I hope this helps, if you have some docs showing examples using keys I would like to see that and then we can discuss it!</p>\n",
+      "owner": {
+        "display_name": "Renato Mefi",
+        "link": "https://stackoverflow.com/users/3947202/renato-mefi"
+      }
+    },
+    {
+      "answer_id": 34269953,
+      "body": "<p>The complete stack you can use following your example:</p>\n\n<p>blah\\CoreBundle\\Service\\PushTask.php</p>\n\n<pre><code>/**\n * @var LoggerInterface\n */\nprivate $logger;\n\npublic function __construct(\n   \\Doctrine\\ORM\\EntityManager $entityManager,\n    LoggerInterface $logger\n) {\n    $this-&gt;entityManager = $entityManager;\n    $this-&gt;logger = $logger;\n}\n...\npublic function pushSomething() \n{\n    $this-&gt;logger-&gt;info('test');\n}\n</code></pre>\n\n<p>config.yml</p>\n\n<pre><code>monolog:\n  channels:\n    - your_new_channel\n  handlers:\n    // just keep it or add a new handler like:\n    your_handler:\n      type:   stream\n      path:   \"%kernel.logs_dir%/%kernel.environment%_new_channel.log\"\n      level:  info\n      channels: [\"your_new_channel\"]\n</code></pre>\n\n<p>blah\\CoreBundle\\Resources\\config\\services.xml</p>\n\n<pre><code>&lt;service id=\"civix_core.push\" class=\"blah\\CoreBundle\\Service\\PushTask\"&gt;\n        &lt;argument type=\"service\" id=\"doctrine.orm.entity_manager\" /&gt;\n        &lt;argument type=\"service\" id=\"monolog.logger.your_new_channel\" /&gt;\n&lt;/service&gt;\n</code></pre>\n\n<p>Go check the file: dev_new_channel.log</p>\n\n<p>You can also clear your cache after doing this in order to make sure all the yml/xml changes are in place!</p>\n\n<p>Why is this my suggestion?\nUsing channel and handlers will help you maintain your log organized and with easy changes!</p>\n",
+      "owner": {
+        "display_name": "Renato Mefi",
+        "link": "https://stackoverflow.com/users/3947202/renato-mefi"
+      }
+    },
+    {
+      "answer_id": 34084132,
+      "body": "<p>This <a href=\"https://gist.github.com/briceburg/77e97d90b1073c7622cb\" rel=\"noreferrer\">gist</a> shows a more comfortable answer, as is not dependent on the \nchosen handler.</p>\n\n<p>I'm just providing the essential part in an answer here in case the above link gets deleted in some time.</p>\n\n<p>In the AppServiceProviders' register method: </p>\n\n<pre><code>/**\n* Register any application services.\n*\n* @return void\n*/\npublic function register()\n{\n    //\n    $monolog = Log::getMonolog();\n    foreach($monolog-&gt;getHandlers() as $handler) {\n      $handler-&gt;setLevel(Config::get('app.log-level'));\n    }\n}\n</code></pre>\n\n<p>Then just add an additional key to your config/app.php:</p>\n\n<pre><code>'log-level' =&gt; 'info', // or whatever minimum log level you would like.\n</code></pre>\n",
+      "owner": {
+        "display_name": "shock_gone_wild",
+        "link": "https://stackoverflow.com/users/3927116/shock-gone-wild"
+      }
+    },
+    {
+      "answer_id": 33742545,
+      "body": "<p>The handler used in the SDK is a bit different from the one used in Guzzle. You're creating a Guzzle handler correctly, and to pass that into the SDK, you would need to create an adapter like so:</p>\n\n<pre><code>&lt;?php\n\nuse Aws\\Handler\\GuzzleV6\\GuzzleHandler;\nuse Aws\\S3\\S3Client;\nuse Monolog\\Logger;\nuse GuzzleHttp\\Client;\nuse GuzzleHttp\\MessageFormatter;\nuse GuzzleHttp\\Middleware;\nuse GuzzleHttp\\HandlerStack;\n\n$guzzle_stack = HandlerStack::create();\n$guzzle_stack-&gt;push(Middleware::log(\n    new Logger('main'), \n    new MessageFormatter(MessageFormatter::CLF)\n));\n\n$handler = new GuzzleHandler(new Client(['handler' =&gt; $guzzle_stack]));\n\n$s3_client = new S3Client([\n    'region' =&gt; 'us-east-1',\n    'version' =&gt; '2006-03-01',\n    'http_handler' =&gt; $handler,\n]);\n\nvar_dump($s3_client-&gt;doesObjectExist('my-bucket', 'object-that-doesnt-exist'));\n</code></pre>\n\n<p>The <code>GuzzleHandler</code> object converts HTTP errors to exceptions.</p>\n",
+      "owner": {
+        "display_name": "giaour",
+        "link": "https://stackoverflow.com/users/1572233/giaour"
+      }
+    },
+    {
+      "answer_id": 33248084,
+      "body": "<p>This is actually the expected functionality unless you're having the handler process the logs directly (check out the comments at the top of IntrospectionProcessor.php). My guess is you have a wrapper function around the logger and you're calling it from Writer.php -- BUT</p>\n\n<p>If you look at the code for IntrospectionProcessor.php you'll see a bit of code on lines 81 to 87 that decides how to format that stack trace, and it still has access to the stack. If you bump the $i values for $trace[$i - 1] / $trace[$i] up one (aka $trace[$i]/$trace[$i + 1] respectively) you can 'climb' the stack back to  where you want.</p>\n\n<p>It's important to note that the 'class' and 'function' parts of the trace need to be one level of the stack higher than the 'file' and 'line.'</p>\n\n<p>On a personal (plz dont mod me bruhs) note, I'd like to see functionality to include a stack offset when throwing the log in. I know what function I want to blame if an error shoots out when I write the error_log('ut oh') but I might(will) forget that by the time the 'ut oh' comes.</p>\n",
+      "owner": {
+        "display_name": "Matt Topolski",
+        "link": "https://stackoverflow.com/users/5469170/matt-topolski"
+      }
+    },
+    {
+      "answer_id": 32262707,
+      "body": "<p>First of all, keep in mind that if you change the log handlers in your <strong>Mailer</strong> class you'll change them for the whole application.</p>\n\n<p>Secondly, the reason that after your changes you get logs written to 2 files is that <strong>useFiles()</strong> does not overwrite the default <strong>log handler</strong> but adds a new handler to the handlers that <strong>Monolog</strong> will use. Therefore, you just add a second handler to the list and both of them handle the log message by saving them into different files.</p>\n\n<p>Thirdly, Laravel's <strong>Log</strong> facade does not provide a way to replace the default handler - if you want to use it you need to use <strong>Monolog</strong> directly. You can access it by calling <strong>Log::getMonolog()</strong>.</p>\n",
+      "owner": {
+        "display_name": "jedrzej.kurylo",
+        "link": "https://stackoverflow.com/users/1594915/jedrzej-kurylo"
+      }
+    },
+    {
+      "answer_id": 30857376,
+      "body": "<p>If you check the logger interface (<a href=\"https://github.com/php-fig/log/blob/master/Psr/Log/LoggerInterface.php\" rel=\"noreferrer\">https://github.com/php-fig/log/blob/master/Psr/Log/LoggerInterface.php</a>) you will see all of the logging methods gets message as a string, thus you get a warning when you try to log with a variable type other than string.</p>\n\n<p>I tried to use a processor to format the array in a custom manner, but as expected the processor is triggered after you send the variable to logger interface. </p>\n\n<p>The dirtiest way of logging an array may be any of those for your choice;</p>\n\n<pre><code>$logger-&gt;info(json_encode($array));\n$logger-&gt;info(print_r($array, true));\n$logger-&gt;info(var_export($array, true));\n</code></pre>\n\n<p>On the other hand you may want to format your array in a single proccessor to centralize your formatting logic with DRY principles. </p>\n\n<p><code>Json encode array -&gt; Send as Json String -&gt; json decode to array -&gt; format -&gt; json encode again</code> </p>\n\n<p>CustomRequestProcessor.php</p>\n\n<pre><code>&lt;?php\nnamespace Acme\\WebBundle;\n\n\nclass CustomRequestProcessor\n{\n\n\n    public function __construct()\n    {\n    }\n\n    public function processRecord(array $record)\n    { \n        try {\n            //parse json as object and cast to array\n            $array = (array)json_decode($record['message']);\n            if(!is_null($array)) {\n                //format your message with your desired logic\n                ksort($array);\n                $record['message'] = json_encode($array);\n            }\n        } catch(\\Exception $e) {\n            echo $e-&gt;getMessage();\n        }\n        return $record;\n    }\n}\n</code></pre>\n\n<p>Register request processor in your config.yml or services.yml, see the tags node for registering the processor for a custom channel.</p>\n\n<pre><code>services:\nmonolog.formatter.session_request:\n    class: Monolog\\Formatter\\LineFormatter\n    arguments:\n        - \"[%%datetime%%] %%channel%%.%%level_name%%: %%message%%\\n\"\n\nmonolog.processor.session_request:\n    class: Acme\\WebBundle\\CustomRequestProcessor\n    arguments:  []\n    tags:\n        - { name: monolog.processor, method: processRecord, channel: testchannel }\n</code></pre>\n\n<p>And in the controller log your array as a json string,</p>\n\n<pre><code>&lt;?php\n\nnamespace Acme\\WebBundle\\Controller;\n\nuse Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller;\n\nclass DefaultController extends Controller\n{\n    public function indexAction()\n    {\n\n        $logger = $this-&gt;get('monolog.logger.testchannel');\n        $array = array(3=&gt;\"hello\" , 1=&gt;\"world\", 2=&gt;\"sf2\");\n        $logger-&gt;info(json_encode($array));\n\n        return $this-&gt;render('AcmeWebBundle:Default:index.html.twig');\n    }\n}\n</code></pre>\n\n<p>Now you can format and log your array as your desire in a central request processor without sorting/formating/walking on the array in your every controller.</p>\n",
+      "owner": {
+        "display_name": "Ugur",
+        "link": "https://stackoverflow.com/users/3399234/ugur"
+      }
+    },
+    {
+      "answer_id": 30680349,
+      "body": "<p>As solution:</p>\n\n<p>Get all handlers from <code>monolog</code> service and search test handler.</p>\n\n<pre><code>foreach ($this-&gt;container-&gt;get('monolog')-&gt;getHandlers() as $handler) {\n  if ($handler instanceof TestHandler) {\n    $testHandler = $handler;\n    break;\n  }\n}\n\nif (!$testHandler) {\n  throw new \\RuntimeException('Oops, not exist \"test\" handler in monolog.');\n}\n\n$this-&gt;assertFalse($testHandler-&gt;hasCritical()); // Or another assertions\n</code></pre>\n",
+      "owner": {
+        "display_name": "ZhukV",
+        "link": "https://stackoverflow.com/users/1787682/zhukv"
+      }
+    },
+    {
+      "answer_id": 30129163,
+      "body": "<h1>Full configuration</h1>\n\n<blockquote>\n  <p><code>/app/parameters.yml</code></p>\n</blockquote>\n\n<pre><code>mongodb_server: \"mongodb://localhost:27017\"\nmongodb_username: \"vagrant\"\nmongodb_password: \"password\"\nmongodb_database: \"testdb\"\n</code></pre>\n\n<blockquote>\n  <p><code>/app/config.yml</code></p>\n</blockquote>\n\n<pre><code># Doctrine2 MongoDB Bundle\n# http://symfony.com/doc/current/bundles/DoctrineMongoDBBundle/index.html\ndoctrine_mongodb:\n    default_database: %mongodb_database%\n    connections:\n    default:\n        server: %mongodb_server%\n        options:\n            password: %mongodb_password%\n            username: %mongodb_username%\n            db: %mongodb_database%\n            connect: true\n    log:\n        server: %mongodb_server%\n        options:\n            password: %mongodb_password%\n            username: %mongodb_username%\n            db: %mongodb_database%\n            connect: true\n    document_managers:\n    default:\n        auto_mapping: true\n    log:\n        auto_mapping: false\n        logging: false\n</code></pre>\n\n<blockquote>\n  <p><code>/app/services.yml</code></p>\n</blockquote>\n\n<pre><code>mongolog:\n    class: Doctrine\\MongoDB\\Connection\n    factory_service: doctrine_mongodb.odm.log_connection\n    factory_method: getMongoClient\n</code></pre>\n\n<blockquote>\n  <p><code>/app/config_dev.yml</code></p>\n  \n  <p>In this example I decided to store everything (<code>debug</code> level) as always into the <code>dev.log</code> and just errors, warnings and notices on mongo.</p>\n</blockquote>\n\n<pre><code>monolog:\n    handlers:\n    main:\n        type:   stream\n        path:   \"%kernel.logs_dir%/%kernel.environment%.log\"\n        level:  debug\n    console:\n        type:   console\n        bubble: false\n        verbosity_levels:\n            VERBOSITY_VERBOSE: INFO\n            VERBOSITY_VERY_VERBOSE: DEBUG\n        channels: [\"!doctrine\"]\n    console_very_verbose:\n        type:   console\n        bubble: false\n        verbosity_levels:\n            VERBOSITY_VERBOSE: NOTICE\n            VERBOSITY_VERY_VERBOSE: NOTICE\n            VERBOSITY_DEBUG: DEBUG\n        channels: [\"doctrine\"]\n    mongo:\n        type:   mongo\n        level:  notice # change as desired\n        mongo:\n            id: mongolog\n            database: %mongodb_database%\n            collection: logs\n</code></pre>\n\n<blockquote>\n  <p><code>/app/config_prod.yml</code></p>\n</blockquote>\n\n<pre><code>monolog:\n    handlers:\n    main:\n        type:         fingers_crossed\n        action_level: error\n        handler:      mongo\n    nested:\n        type:  stream\n        path:  \"%kernel.logs_dir%/%kernel.environment%.log\"\n        level: debug\n    console:\n        type:  console\n    mongo:\n        type: mongo\n        level: notice\n        mongo:\n            id: mongolog\n            database: %mongodb_database%\n            collection: logs\n</code></pre>\n\n<p>Now let's trigger a PHP notice and check if it'll be stored on MongoDB properly :-)</p>\n\n<p><code>&lt;?php trigger_error('hello world!', E_USER_NOTICE);</code></p>\n\n<h1>Adding HTTP request headers to Monolog record</h1>\n\n<blockquote>\n  <p><code>/app/services.yml</code></p>\n</blockquote>\n\n<pre><code>kernel.listener.exception_listener:\n    class: AppBundle\\EventListener\\ExceptionListener\n    arguments:\n        - @logger\n    tags:\n        - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }\n</code></pre>\n\n<blockquote>\n  <p><code>AppBundle\\EventListener\\ExceptionListener</code></p>\n</blockquote>\n\n<pre><code>&lt;?php\n\nnamespace AppBundle\\EventListener;\n\nuse Monolog\\Handler\\MongoDBHandler;\nuse Symfony\\Bridge\\Monolog\\Logger;\nuse Symfony\\Component\\Debug\\ExceptionHandler;\nuse Symfony\\Component\\HttpKernel\\Event\\GetResponseForExceptionEvent;\n\n/**\n * Class ExceptionListener\n * @package AppBundle\\EventListener\n * @author Francesco Casula &lt;fra.casula@gmail.com&gt;\n */\nclass ExceptionListener extends ExceptionHandler\n{\n    /**\n     * @var Logger\n     */\n    private $logger;\n\n    /**\n     * @param Logger $logger\n     */\n    public function __construct(Logger $logger)\n    {\n        $this-&gt;logger = $logger;\n    }\n\n    /**\n     * @return Logger\n     */\n    public function getLogger()\n    {\n        return $this-&gt;logger;\n    }\n\n    /**\n     * @param GetResponseForExceptionEvent $event\n     */\n    public function onKernelException(GetResponseForExceptionEvent $event)\n    {\n        foreach ($this-&gt;getLogger()-&gt;getHandlers() as $handler) {\n            if ($handler instanceof MongoDBHandler) {\n                $handler-&gt;pushProcessor(function (array $record) use ($event) {\n                    $record['extra']['headers'] = $event-&gt;getRequest()-&gt;headers-&gt;all();\n                    return $record;\n                });\n\n                break;\n            }\n        }\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Francesco Casula",
+        "link": "https://stackoverflow.com/users/828366/francesco-casula"
+      }
+    },
+    {
+      "answer_id": 29883505,
+      "body": "<p>Yes, you <strong>could</strong> create a new loglevel; but I recommend you to use <a href=\"http://laravel.com/docs/5.0/eloquent#model-events\" rel=\"nofollow\" title=\"Model Events\">Model Events</a>.</p>\n\n<p>For example; on user registration:</p>\n\n<pre><code>User::creating(function($user)\n{\n    \\Log::info('user.register '.$user-&gt;toJson());\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "Michael Pittino",
+        "link": "https://stackoverflow.com/users/4812912/michael-pittino"
+      }
+    },
+    {
+      "answer_id": 29692620,
+      "body": "<p>Looks like I was trying the wrong thing.</p>\n\n<p>Instead of adding a new handler to my logger, I had to add a new processor by using the <code>pushProcessor(callable)</code> method.</p>\n\n<p>So, in my specific use case, I can add filters to my context like this:</p>\n\n<pre><code>function AddLoggerFilteringFor(array $filters){\n    return function ($record) use($filters){\n        foreach($filters as $filter){\n            if(isset($record['context'][$filter])){\n                $record['context'][$filter] = '**HIDDEN FROM LOG**';\n            }\n        }\n        return $record;\n    };\n}\n</code></pre>\n\n<p>And later I can add filters simply by</p>\n\n<pre><code>(init)\n$logger-&gt;pushProcessor(AddLoggerFilteringFor(['username', 'password']));\n\n...\n(several function definition and business logic later)\n$logger-&gt;debug('Some weird thing happened, better log it', ['username'=&gt; 'Oh noes!', 'password'=&gt; 'You shouldn\\'t be able to see me!']);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Loupax",
+        "link": "https://stackoverflow.com/users/208271/loupax"
+      }
+    },
+    {
+      "answer_id": 29545653,
+      "body": "<p>After reading plenty of source code and getting xdebug to work I finally figuered it out:</p>\n\n<p><code>BrowserConsoleHandler</code> sends the script snipped after finishing the php script by <code>register_shutdown_function()</code>. At this time, Laravel already sent the full response to the browser. So the script snipped from <code>BrowseConsoleHandler</code> gets generated but never sent to the browser.</p>\n\n<p>As a workaround you can build your own <code>Middleware</code> (<a href=\"http://laravel.com/docs/5.0/middleware\" rel=\"nofollow\">http://laravel.com/docs/5.0/middleware</a>) that invokes the code generation manually and adds it to the response before it gets sent.</p>\n\n<p>Create <em>app/Http/Middleware/LogBrowserConsole.php</em>:</p>\n\n<pre><code>&lt;?php\nnamespace App\\Http\\Middleware;\n\nuse Illuminate\\Contracts\\Routing\\Middleware;\nuse Illuminate\\Support\\Facades\\Log;\nuse Monolog\\Handler\\BrowserConsoleHandler;\n\nclass LogBrowserConsole implements Middleware {\n\n  public function handle($request, \\Closure $next)\n  {\n    // add BrowserConsoleHandler to Laravel's Logger\n    $log = Log::getMonolog();\n    $log-&gt;pushHandler(new BrowserConsoleHandler(\\Psr\\Log\\LogLevel::INFO));\n\n    // invokes all your stuff like it would do without the middleware but with the new logger\n    $response = $next($request);\n\n    // after the request is done we care about the log entries\n    $handlers = $log-&gt;getHandlers();\n\n    $scriptSnippet = \"\";\n    foreach($handlers as $handler){ // only handle BrowserConsoleHandler\n        if($handler instanceof BrowserConsoleHandler){\n            ob_start(); //start output buffer so we can save echo to variable\n            $handler-&gt;send(); // create the scriptSnipped\n            $scriptSnippet .= ob_get_clean();\n        }\n    }\n\n    // write scriptSnippet to end of response content\n    $content = $response-&gt;getContent();\n    $response-&gt;setContent($content.$scriptSnippet);\n\n    return $response;\n  }\n}\n</code></pre>\n\n<p>Register the Middleware in <em>app/Http/Kernel.php</em>:</p>\n\n<pre><code>protected $routeMiddleware = [\n    'log.browserconsole' =&gt; 'App\\Http\\Middleware\\LogBrowserConsole'\n];\n</code></pre>\n\n<p>and invoke your Controller with the Middleware in <em>app/Http/routes.php</em>:</p>\n\n<pre><code>Route::get('test', ['middleware' =&gt; 'log.browserconsole', 'uses'=&gt;'TestController@test']);\n</code></pre>\n\n<hr>\n\n<p>Alternatively, if you want to use the <code>Middleware</code> for every request you can add it to</p>\n\n<pre><code>protected $middleware = [\n'App\\Http\\Middleware\\LogBrowserConsole'\n];\n</code></pre>\n\n<p>in <em>app/Http/Kernel.php</em>.</p>\n\n<p>Your Route would look like <code>Route::get('test', 'TestController@test');</code></p>\n\n<hr>\n\n<p>Now, your <code>Log::debug()</code> etc. messages get sent to the logfile (the default LogHandler is still available, you just added another) and the script snipped from <code>BrowserConsoleHandler</code> gets built and sent to the browser with all your log items.</p>\n\n<p>Keep in mind to eventually change the log level <code>\\Psr\\LogLevel::INFO</code> in <em>app/Http/Middleware/LogBrowserConsole</em> to fit your needs.</p>\n",
+      "owner": {
+        "display_name": "codelk",
+        "link": "https://stackoverflow.com/users/4751174/codelk"
+      }
+    },
+    {
+      "answer_id": 29472388,
+      "body": "<p>If you are really sure that you need to log doctrine 2 queries in production then you can set this up in the configs for doctrine. </p>\n\n<pre><code>connections:\n        # A collection of different named connections (e.g. default, conn2, etc)\n        default:\n                # when true, queries are logged to a \"doctrine\" monolog channel\n            logging: true \n</code></pre>\n\n<p><a href=\"http://symfony.com/doc/current/reference/configuration/doctrine.html\" rel=\"noreferrer\">http://symfony.com/doc/current/reference/configuration/doctrine.html</a></p>\n\n<p>And config monolog to log doctrine like explained in the docs:\n<a href=\"http://symfony.com/doc/current/cookbook/logging/channels_handlers.html\" rel=\"noreferrer\">http://symfony.com/doc/current/cookbook/logging/channels_handlers.html</a></p>\n\n<p>A similar issue can be found at <a href=\"https://stackoverflow.com/questions/24821769/symfony-2-4-cant-get-the-doctrine-channel-in-prod-environment\">symfony 2.4 can&#39;t get the doctrine channel in prod environment</a></p>\n",
+      "owner": {
+        "display_name": "Stev",
+        "link": "https://stackoverflow.com/users/2067752/stev"
+      }
+    },
+    {
+      "answer_id": 29421487,
+      "body": "<p>That's <code>fingers_crossed</code> expected behavior. It stores log entries in memory until event of <code>action_level</code> occurs. Change it to <code>stream</code> or some other non-buffering handler.</p>\n",
+      "owner": {
+        "display_name": "Im0rtality",
+        "link": "https://stackoverflow.com/users/421752/im0rtality"
+      }
+    },
+    {
+      "answer_id": 29315601,
+      "body": "<p>Monolog uses <code>Monolog\\Formatter\\LineFormatter</code> by default without any arguments. Formatter is basically object that is responsible for final output in your logs. Look at constructor definition:</p>\n\n<pre><code>public function __construct($format = null, $dateFormat = null, $allowInlineLineBreaks = false, $ignoreEmptyContextAndExtra = false)\n</code></pre>\n\n<p>As you can see LineFormatter creates one line from your print_r output because of third argument. You need to define new service with custom arguments for <code>LineFormatter</code>.</p>\n\n<pre><code># app/config/services.yml - for example\nservices:\n    monolog.my_line_formatter: # Your name\n        class: Monolog\\Formatter\\LineFormatter\n        arguments: [~, ~, true]\n</code></pre>\n\n<p>Now find your monolog definition and use formatter for what you need.</p>\n\n<pre><code># Example from default config_dev.yml\nmonolog:\n    handlers:\n        main:\n            type:   stream\n            path:   \"%kernel.logs_dir%/%kernel.environment%.log\"\n            level:  debug\n            formatter: monolog.my_line_formatter\n</code></pre>\n",
+      "owner": {
+        "display_name": "kba",
+        "link": "https://stackoverflow.com/users/4632537/kba"
+      }
+    },
+    {
+      "answer_id": 28524612,
+      "body": "<p>You can define which channels to be logged. Use something like this to ignore a specific channel:</p>\n\n<pre><code>        channels: [\"!security\"]\n</code></pre>\n\n<p>If you only want to ignore specific log levels you can use the \nlevel param or use a combination of both in a new handler.</p>\n",
+      "owner": {
+        "display_name": "ToBe",
+        "link": "https://stackoverflow.com/users/4289905/tobe"
+      }
+    },
+    {
+      "answer_id": 28325019,
+      "body": "<p>One of your bracket did get a bit out of place. You have to pass the number of log files to the constructor of <code>RotatingFileHandler</code> and not as second argument to <code>pushHandler()</code>:</p>\n\n<pre><code>$log-&gt;pushHandler(new RotatingFileHandler(storage_path().'/logs/mycustomlog.log', 2));\n//                                                                                ^\n</code></pre>\n",
+      "owner": {
+        "display_name": "lukasgeiter",
+        "link": "https://stackoverflow.com/users/1903366/lukasgeiter"
+      }
+    },
+    {
+      "answer_id": 27692825,
+      "body": "<p>In laravel, service providers is defined in <code>app/config/app.php</code></p>\n\n<p>It will fail if MyServiceProvider present early before <code>LogServiceProvider</code>, because <code>LogServiceProvider</code> has not registered yet. on the opposite side, If MyServiceProvider show later, It's exactly the answer you want.</p>\n\n<p>For more details, <a href=\"https://github.com/laravel/framework/blob/4.2/src/Illuminate/Foundation/ProviderRepository.php\" rel=\"nofollow\">ProviderRepository</a> have responsibility for register the application service providers.</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>&lt;?php\nreturn array(\n    'providers' =&gt; array(\n        'Illuminate\\Foundation\\Providers\\ArtisanServiceProvider',\n        'Illuminate\\Auth\\AuthServiceProvider',\n        'Illuminate\\Cache\\CacheServiceProvider',\n        'Illuminate\\Session\\CommandsServiceProvider',\n        'Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider',\n        'Illuminate\\Routing\\ControllerServiceProvider',\n        'Illuminate\\Cookie\\CookieServiceProvider',\n        'Illuminate\\Database\\DatabaseServiceProvider',\n        'Illuminate\\Encryption\\EncryptionServiceProvider',\n        'Illuminate\\Filesystem\\FilesystemServiceProvider',\n        'Illuminate\\Hashing\\HashServiceProvider',\n        'Illuminate\\Html\\HtmlServiceProvider',\n        'Illuminate\\Log\\LogServiceProvider', // Log facade is registered here.\n        'Illuminate\\Mail\\MailServiceProvider',\n        'Illuminate\\Database\\MigrationServiceProvider',\n        'Illuminate\\Pagination\\PaginationServiceProvider',\n        'Illuminate\\Queue\\QueueServiceProvider',\n        'Illuminate\\Redis\\RedisServiceProvider',\n        'Illuminate\\Remote\\RemoteServiceProvider',\n        'Illuminate\\Auth\\Reminders\\ReminderServiceProvider',\n        'Illuminate\\Database\\SeedServiceProvider',\n        'Illuminate\\Session\\SessionServiceProvider',\n        'Illuminate\\Translation\\TranslationServiceProvider',\n        'Illuminate\\Validation\\ValidationServiceProvider',\n        'Illuminate\\View\\ViewServiceProvider',\n        'Illuminate\\Workbench\\WorkbenchServiceProvider',\n        'MyServiceProvider', // You have to put this after LogServiceProvider.\n    )\n);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Gasol",
+        "link": "https://stackoverflow.com/users/157675/gasol"
+      }
+    },
+    {
+      "answer_id": 27358130,
+      "body": "<p>The logs come as JSON messages so you'll want to use the correct codec for this:</p>\n\n<pre><code>input {\n  stdin {\n    codec =&gt; json\n  }\n}\n</code></pre>\n\n<p>Unrelated to this, note that monolog apparently produces log messages that fits old versions of Logstash where the 'message' field was named '@message' and so on. You should either run a more recent monolog or rename the fields afterwards using the <a href=\"http://logstash.net/docs/1.4.2/filters/mutate\" rel=\"nofollow\">mutate filter</a>.</p>\n",
+      "owner": {
+        "display_name": "Magnus B&#228;ck",
+        "link": "https://stackoverflow.com/users/414355/magnus-b%c3%a4ck"
+      }
+    },
+    {
+      "answer_id": 13971250,
+      "body": "<p>That's the extra data. The default format of the <a href=\"https://github.com/Seldaek/monolog/blob/master/src/Monolog/Formatter/LineFormatter.php#L24\" rel=\"noreferrer\">LineFormatter</a> is <code>\"[%datetime%] %channel%.%level_name%: %message% %context% %extra%\\n\"</code>. the username/age is the context, and extra that is typically empty results in this empty array <code>[]</code>.</p>\n\n<p>If you use processors to attach data to log records they typically write it to the extra key to avoid conflicts with context info. If it really is an issue for you you can change the default format and omit <code>%extra%</code>.</p>\n\n<p>Edit: As of Monolog 1.11 the LineFormatter has a $ignoreEmptyContextAndExtra parameter in the constructor that lets you remove these, so you can use this:</p>\n\n<pre><code>// the last \"true\" here tells it to remove empty []'s\n$formatter = new LineFormatter(null, null, false, true);\n$handler-&gt;setFormatter($formatter);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Seldaek",
+        "link": "https://stackoverflow.com/users/6512/seldaek"
+      }
+    },
+    {
+      "answer_id": 14984149,
+      "body": "<p>I realise this is an old question, but when I ran into problems with a long-running, Monolog-using script generating out of memory errors, it turned out the problem was Monolog's 'fingers_crossed' handler buffering a ton of log messages.</p>\n\n<p>I solved the problem by setting the 'buffer_size' variable for the Monolog handler in question. Something like this:</p>\n\n<pre><code>main:\n    type:         fingers_crossed\n    action_level: info\n    buffer_size:  200\n    handler:      nested\n</code></pre>\n\n<p>Edit: As pointed out by Sergio in the comments, <code>buffer_size</code> sets: 'How many entries should be buffered at most, beyond that the oldest items are removed from the buffer'.</p>\n",
+      "owner": {
+        "display_name": "Pete Thompson",
+        "link": "https://stackoverflow.com/users/19952/pete-thompson"
+      }
+    },
+    {
+      "answer_id": 25765859,
+      "body": "<p>ok, i will answer my question by my self. the failure is to change the \"formatter\" or you have to use a formatter is sub-classes from <em>Monolog\\Formatter\\GelfMessageFormatter</em>.</p>\n\n<p>thx @ all</p>\n",
+      "owner": {
+        "display_name": "Volker",
+        "link": "https://stackoverflow.com/users/1214980/volker"
+      }
+    },
+    {
+      "answer_id": 25359679,
+      "body": "<p>Here is a hacky way to do it. Swap the facade instance with a mock.</p>\n\n<p>With <a href=\"https://github.com/padraic/mockery\" rel=\"nofollow\">Mockery</a>:</p>\n\n<pre><code>$app = Log::getFacadeRoot();\nLog::shouldReceive('error', 'warning', 'debug', 'info', 'notice', 'critical', 'alert', 'emergency');\n\n// bypass log here\n\nLog::swap($app);\n</code></pre>\n\n<p>Without Mockery:</p>\n\n<pre><code>class LogMock {\n    public function __call($name, $arguments) {}\n}\n\n$app = Log::getFacadeRoot();\nLog::swap(new LogMock);\n\n// bypass log here\n\nLog::swap($app);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Teaqu",
+        "link": "https://stackoverflow.com/users/2047666/teaqu"
+      }
+    },
+    {
+      "answer_id": 24862730,
+      "body": "<p>Set <code>doctrine.dbal.logging</code> to <code>true</code> to enable production doctrine logging.</p>\n",
+      "owner": {
+        "display_name": "Eternal1",
+        "link": "https://stackoverflow.com/users/2214752/eternal1"
+      }
+    },
+    {
+      "answer_id": 24475181,
+      "body": "<p>Monolog has Introspection Processor. We need just add it to our logger or handler - and all needed information will be logged\n<a href=\"https://github.com/Seldaek/monolog/blob/master/src/Monolog/Processor/IntrospectionProcessor.php\" rel=\"noreferrer\">https://github.com/Seldaek/monolog/blob/master/src/Monolog/Processor/IntrospectionProcessor.php</a></p>\n",
+      "owner": {
+        "display_name": "Victor Mezrin",
+        "link": "https://stackoverflow.com/users/1802974/victor-mezrin"
+      }
+    },
+    {
+      "answer_id": 24450279,
+      "body": "<p>Try this:</p>\n\n<pre><code>$log-&gt;addWarning('Foo: ' . var_export($data, true));\n</code></pre>\n",
+      "owner": {
+        "display_name": "benJ",
+        "link": "https://stackoverflow.com/users/2286736/benj"
+      }
+    },
+    {
+      "answer_id": 23149252,
+      "body": "<p>Hmm, silly me. I created bundle by hand, but forgot load it in AppKernel. Sorry =)</p>\n",
+      "owner": {
+        "display_name": "Neka",
+        "link": "https://stackoverflow.com/users/1088930/neka"
+      }
+    },
+    {
+      "answer_id": 22382230,
+      "body": "<p>Thanks to @jenechka, who pointed me to the right direction, I think I found a solution:</p>\n\n<p>services.yml:</p>\n\n<pre><code>    vir.exception.listener:\n    class: %vir.exception.listener.class%\n    arguments: [\"@logger\"]\n    tags:\n        - { name: kernel.event_listener, event: kernel.request, method: onKernelRequest }\n</code></pre>\n\n<p>Error Handler:</p>\n\n<pre><code>&lt;?php\n\nnamespace Mitecube\\VoglioilruoloBundle\\Listener;\n\nuse Symfony\\Component\\Debug\\ErrorHandler;\nuse Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent;\nuse Psr\\Log\\LoggerInterface;\n\nclass VoglioilruoloErrorHandler extends ErrorHandler {\n\n    private $logger;\n    private $prevErrorHandler;\n\n    public function __construct(LoggerInterface $logger)\n    {\n        $this-&gt;logger = $logger;\n        $this-&gt;prevErrorHandler = set_error_handler(array($this, 'handle'));\n        register_shutdown_function(array($this, 'handleFatal'));\n    }\n\n    public function onKernelRequest(GetResponseEvent $event)\n    {\n    }\n\n    public function handle($level, $message, $file = 'unknown', $line = 0, $context = array())\n    {\n        $this-&gt;logger-&gt;error($level . \": \" . $message . \" - in file \" . $file . \" - at line \" . $line);\n        return parent::handle($level, $message, $file, $line, $context);\n    }\n\n} \n</code></pre>\n\n<p>In this way I able to log each error to monolog. I don't think this solution can be considered a \"best practice\", so I'm still looking for a better solution.</p>\n",
+      "owner": {
+        "display_name": "fdellutri",
+        "link": "https://stackoverflow.com/users/435026/fdellutri"
+      }
+    },
+    {
+      "answer_id": 21949742,
+      "body": "<p>The configuration above actually works correctly. Not sure what was going on.</p>\n\n<p>Leaving this here for anyone else who wants to implement HTML formatting.</p>\n",
+      "owner": {
+        "display_name": "Leevi Graham",
+        "link": "https://stackoverflow.com/users/1982031/leevi-graham"
+      }
+    },
+    {
+      "answer_id": 20565220,
+      "body": "<p>You can still create a logger for your application which is not used by other processes:</p>\n\n<pre><code>use Monolog\\Logger;\nuse Monolog\\Handler\\StreamHandler;\n\n// initialize the logger\n$app['mylog'] = $app-&gt;share(function($app) {\n   return new Logger('mylog');\n});\n$app['mylog']-&gt;pushHandler(new StreamHandler('/logfile/mylog.log', Logger::INFO));\n$app['mylog']-&gt;addInfo('Private Log initialized');\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ralf Hertsch",
+        "link": "https://stackoverflow.com/users/2243419/ralf-hertsch"
+      }
+    },
+    {
+      "answer_id": 20126869,
+      "body": "<p>There is a logger called <code>rotating_file</code>.<br>\nHere is a sample configuration:</p>\n\n<pre><code>monolog:\n    handlers:\n        main:\n            type:  rotating_file\n            path:  %kernel.logs_dir%/%kernel.environment%.log\n            level: debug\n</code></pre>\n",
+      "owner": {
+        "display_name": "Florent",
+        "link": "https://stackoverflow.com/users/1466682/florent"
+      }
+    },
+    {
+      "answer_id": 19937380,
+      "body": "<p>After further research, I see this happens in <code>Monolog\\Formatter\\LineFormatter</code>.  In short, the brackets are a JSON representation of an empty array.  Unfortunately, it doesn't appear that Laravel provides an easy way out of this one, so I ended up subclassing Monolog.  I posted the details at <a href=\"https://stackoverflow.com/a/19937208/818236\">this SO post</a>.  But since that post is not Laravel-specific, I thought I'd share how to use such a custom <code>LineFormatter</code> in a Laravel context.</p>\n\n<p>In your <code>app/start/global.php</code>, by default there's a section that defines logging.  It looks like this:</p>\n\n<pre><code>Log::useDailyFiles(storage_path().'/logs/log-'.php_sapi_name().'.txt');\n</code></pre>\n\n<p>Replace it with this:</p>\n\n<pre><code>$handler = new Monolog\\Handler\\StreamHandler(\n    storage_path().'/logs/log-'.php_sapi_name().'.txt');\n$handler-&gt;setFormatter(new My\\Fancy\\Monolog\\LineFormatter());\nLog::getMonolog()-&gt;pushHandler($handler);\n</code></pre>\n\n<p>Enjoy!</p>\n",
+      "owner": {
+        "display_name": "curtisdf",
+        "link": "https://stackoverflow.com/users/818236/curtisdf"
+      }
+    },
+    {
+      "answer_id": 18775469,
+      "body": "<p>I was wondering this, too, and I found these lines in MonologServiceProvider.</p>\n\n<pre><code>if ($bridge = class_exists('Symfony\\Bridge\\Monolog\\Logger')) {\n    $app['monolog.handler.debug'] = function () use ($app) {\n        return new DebugHandler($app['monolog.level']);\n    };\n}\n</code></pre>\n\n<p>The logging to the Web Profiler is enabled by the Symfony Monolog Bridge component. I added this to my <code>composer.json</code>:</p>\n\n<pre><code>\"symfony/monolog-bridge\": \"~2.3\"\n</code></pre>\n\n<p>Now I see log entries in that panel of the web profiler. (It's probably a good idea to make sure the version of the monolog-bridge is in line with the versions of other Symfony components you've declared in your <code>composer.json</code>.)</p>\n",
+      "owner": {
+        "display_name": "bangpound",
+        "link": "https://stackoverflow.com/users/114852/bangpound"
+      }
+    },
+    {
+      "answer_id": 15966535,
+      "body": "<p>The only way to do this is to define your <a href=\"http://symfony.com/doc/current/cookbook/controller/service.html\" rel=\"noreferrer\">controller as a service</a> and inject a custom logger with a custom channel.</p>\n\n<p>Since the channels are created automatically there is currently no other way, but it's an interesting request and you're not the first, so I created an <a href=\"https://github.com/symfony/MonologBundle/issues/39\" rel=\"noreferrer\">issue on MonologBundle</a> to allow the definition of channels at the bundle configuration level. That way you could just fetch the proper logger from the controller using <code>$this-&gt;get('monolog.logger.mychannel')</code> (which you can already do if the channel exists, but not if you want a custom channel for the controller that nothing else uses).</p>\n\n<p><strong>Update:</strong></p>\n\n<p>As of symfony/monolog-bundle 2.4.0 you can define additional channels as:</p>\n\n<pre><code>monolog:\n    channels: [\"foo\", \"bar\"]\n</code></pre>\n\n<p>Then you can retrieve it as <code>$this-&gt;get('monolog.logger.mychannel')</code></p>\n",
+      "owner": {
+        "display_name": "Seldaek",
+        "link": "https://stackoverflow.com/users/6512/seldaek"
+      }
+    },
+    {
+      "answer_id": 8210892,
+      "body": "<p>The MonologBundle logs everything using the same handlers for the whole framework. That means if one of your services needs to log to different handlers, you should create your own Logger/Handler and inject that in your service.</p>\n\n<p>This could be an example config (in yaml):</p>\n\n<pre><code>services:\n    my_logger:\n        class: Symfony\\Bridge\\Monolog\\Logger\n        arguments: [soap]\n        calls:\n            - [pushHandler, [@my_handler]]\n\n    my_handler:\n        class: Monolog\\Handler\\StreamHandler\n        # 200 = INFO, see Monolog::Logger for the values of log levels\n        arguments: [%kernel.root_dir%/%kernel.environment%.soap.log, 200]\n\n    soap_service:\n        class: Your\\Soap\\Client\n        arguments: [@my_logger]\n</code></pre>\n\n<p>I hope this clarifies it.</p>\n\n<p><strong>Update:</strong> as of symfony 2.1, you can also configure which channels receive which handlers, so you could alternatively do something like this:</p>\n\n<pre><code>services:\n     soap_service:\n         class: Your\\Soap\\Client\n         arguments: [@logger]\n         tags:\n             - { name: monolog.logger, channel: soap }\n</code></pre>\n\n<p>Which creates a new soap channel (i.e. logger instance receiving all handlers), then to configure different handlers for this channel:</p>\n\n<pre><code>monolog:\n    handlers:\n        main:\n            type: stream\n            path: %kernel.root_dir%/%kernel.environment%.log\n            level: error\n            channels: [!soap]\n        soap:\n            type: stream\n            path: %kernel.root_dir%/%kernel.environment%.soap.log\n            level: info\n            channels: [soap]\n</code></pre>\n\n<p>This means the main handler will receive everything but the soap channel, and the soap handler will receive only the soap channel. You could also remove the <code>channels</code> key on the main handler if you want your main log file to have everything, but also have a copy of only the soap logs separately. This brings a lot of flexibility, and as you see the channels is an array so you can list channels you want, or use the blacklist <code>!name</code> notation to exclude some and include everything else.</p>\n",
+      "owner": {
+        "display_name": "Seldaek",
+        "link": "https://stackoverflow.com/users/6512/seldaek"
+      }
+    },
+    {
+      "answer_id": 15612791,
+      "body": "<p>Yep, You could create a listener to log everything in the routes.php</p>\n\n<pre><code>Event::listen('laravel.log', function($type,$message)\n{\n    $log = new Log();\n    $log-&gt;message = $message;\n    $log-&gt;type = $type;\n    $log-&gt;update;\n});\n</code></pre>\n\n<p>Or alternatively if you wanted to only log errors 400 and 500 Larvavel there is a Log event in the Routes.php file which listens to errors 404 and 500, you can write your own code in this event listener. So assuming you have a Model called Log defined,</p>\n\n<pre><code>Event::listen('404', function()\n{\n    $error = \"404: \" . URL::full();\n    Log::error($error);\n    $update = new Log();\n    $update-&gt;error = $error;\n    $update-&gt;update;\n    return Response::error('404');\n});\n\nEvent::listen('500', function()\n{\n    Log::error($error);\n    $update = new Log();\n    $update-&gt;error = $error;\n    $update-&gt;update;\n    return Response::error('500');\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "Pratheek Rebala",
+        "link": "https://stackoverflow.com/users/2028078/pratheek-rebala"
+      }
+    },
+    {
+      "answer_id": 15316001,
+      "body": "<p>Solution this problem:</p>\n\n<ul>\n<li>Create own stream handler</li>\n<li>Override base stream handler</li>\n</ul>\n\n<p>Example:</p>\n\n<p>Stream handler:</p>\n\n<pre><code>namespace Acme\\DemoBundle\\Component\\Monolog;\n\nuse Monolog\\Handler\\StreamHandler as BaseStreamHandler;\n\nclass StreamHandler extends BaseStreamHandler\n{\n    /**\n     * @{inerhitDoc}\n     */\n    public function write(array $record)\n    {\n        if (null === $this-&gt;stream) {\n            // From original monolog stream handler\n            if (!$this-&gt;url) {\n                throw new \\LogicException('Missing stream url, the stream can not be opened. This may be caused by a premature call to close().');\n            }\n\n            $dir = dirname($this-&gt;url);\n\n            if (!is_dir($dir)) {\n                if(!@mkdir($dir, 0777, TRUE)) {\n                    // Control errors\n                }\n            }\n        }\n\n        parent::write($record);\n    }\n}\n</code></pre>\n\n<p>And override base stream handler in symfony monolog package:</p>\n\n<pre><code>&lt;parameter key=\"monolog.handler.stream.class\"&gt;Acme\\DemoBundle\\Component\\Monolog\\StreamHandler&lt;/parameter&gt;\n</code></pre>\n\n<p><strong>Attention:</strong>\nThis is a base example override monolog handlers in Symfony 2 package!</p>\n",
+      "owner": {
+        "display_name": "ZhukV",
+        "link": "https://stackoverflow.com/users/1787682/zhukv"
+      }
+    },
+    {
+      "answer_id": 12937125,
+      "body": "<p>Try this:</p>\n\n<pre class=\"lang-yml prettyprint-override\"><code>monolog:\n    handlers:\n        main:\n            type:  stream\n            path:  %kernel.logs_dir%/%kernel.environment%.log\n            level: debug\n        custom:\n            type: service\n            id: my_custom_handler\n\nservices:\n    my_custom_handler:\n        class: Acme\\MyBundle\\Monolog\\MyCustomHandler\n</code></pre>\n\n<p>If you want to use it as default handler then you should change a bit monolog section I wrote above.</p>\n\n<pre class=\"lang-yml prettyprint-override\"><code>monolog:\n    handlers:\n        main:\n            type:  stream\n            path:  %kernel.logs_dir%/%kernel.environment%.log\n            level: debug\n            handler: custom\n        custom:\n            type: service\n            id: my_custom_handler\n</code></pre>\n\n<p>I hope it helps you.</p>\n",
+      "owner": {
+        "display_name": "chmeliuk",
+        "link": "https://stackoverflow.com/users/1731849/chmeliuk"
+      }
+    },
+    {
+      "answer_id": 10847605,
+      "body": "<p>It's better to define handlers as empty array:</p>\n\n<pre><code>monolog:\n    handlers: []\n</code></pre>\n\n<p><strong>UPD1:</strong> There are special type of loggers: test and null, you can use them:</p>\n\n<pre><code>monolog:\n    handlers:\n        test:\n            type:  test\n            level: debug\n</code></pre>\n",
+      "owner": {
+        "display_name": "lisachenko",
+        "link": "https://stackoverflow.com/users/801258/lisachenko"
+      }
+    },
+    {
+      "answer_id": 10010601,
+      "body": "<p>You have to make a new logger service, which should be used it in your classes. Like this, config.yml:</p>\n\n<pre><code>services:\n  my_logger:\n    class: Monolog\\Logger\n    arguments: [my_info]\n    calls:\n        - [pushHandler, [@my_log_handler]]\n\n  my_log_handler:\n    class: Monolog\\Handler\\StreamHandler\n    arguments: [%kernel.root_dir%/logs/my_info.log, 100]\n</code></pre>\n\n<p>Usage (in <code>Controller</code>, for example):</p>\n\n<pre><code>$this-&gt;get('my_logger')-&gt;info('info message');\n</code></pre>\n\n<p>More detailed information in <a href=\"http://symfony.com/doc/current/cookbook/logging/monolog.html\" rel=\"noreferrer\">symfony cookbook</a>.</p>\n",
+      "owner": {
+        "display_name": "Anton Babenko",
+        "link": "https://stackoverflow.com/users/550451/anton-babenko"
+      }
+    }
+  ]
+}

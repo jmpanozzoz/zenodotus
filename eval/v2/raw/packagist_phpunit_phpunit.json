@@ -1,0 +1,1908 @@
+{
+  "library": "packagist:phpunit/phpunit",
+  "fetched_at": "2026-11-21T17:28:24Z",
+  "questions": [
+    {
+      "question_id": 26095051,
+      "title": "How to run single test method with phpunit?",
+      "accepted_answer_id": 26095567,
+      "score": 510,
+      "link": "https://stackoverflow.com/questions/26095051/how-to-run-single-test-method-with-phpunit",
+      "owner": {
+        "display_name": "Alex",
+        "link": "https://stackoverflow.com/users/1581090/alex"
+      }
+    },
+    {
+      "question_id": 5683592,
+      "title": "PHPUnit assert that an exception was thrown?",
+      "accepted_answer_id": 5683605,
+      "score": 484,
+      "link": "https://stackoverflow.com/questions/5683592/phpunit-assert-that-an-exception-was-thrown",
+      "owner": {
+        "display_name": "Felipe",
+        "link": "https://stackoverflow.com/users/436721/felipe"
+      }
+    },
+    {
+      "question_id": 249664,
+      "title": "Best practices to test protected methods with PHPUnit",
+      "accepted_answer_id": 2798203,
+      "score": 361,
+      "link": "https://stackoverflow.com/questions/249664/best-practices-to-test-protected-methods-with-phpunit",
+      "owner": {
+        "display_name": "GrGr",
+        "link": "https://stackoverflow.com/users/32679/grgr"
+      }
+    },
+    {
+      "question_id": 7493102,
+      "title": "How to output in CLI during execution of PHP Unit tests?",
+      "accepted_answer_id": 12606210,
+      "score": 237,
+      "link": "https://stackoverflow.com/questions/7493102/how-to-output-in-cli-during-execution-of-php-unit-tests",
+      "owner": {
+        "display_name": "Jess Telford",
+        "link": "https://stackoverflow.com/users/473961/jess-telford"
+      }
+    },
+    {
+      "question_id": 3838288,
+      "title": "PHPUnit: assert two arrays are equal, but order of elements not important",
+      "accepted_answer_id": 3843768,
+      "score": 222,
+      "link": "https://stackoverflow.com/questions/3838288/phpunit-assert-two-arrays-are-equal-but-order-of-elements-not-important",
+      "owner": {
+        "display_name": "koen",
+        "link": "https://stackoverflow.com/users/141346/koen"
+      }
+    },
+    {
+      "question_id": 277914,
+      "title": "How can I get PHPUnit MockObjects to return different values based on a parameter?",
+      "accepted_answer_id": 292423,
+      "score": 174,
+      "link": "https://stackoverflow.com/questions/277914/how-can-i-get-phpunit-mockobjects-to-return-different-values-based-on-a-paramete",
+      "owner": {
+        "display_name": "Ben Dowling",
+        "link": "https://stackoverflow.com/users/36191/ben-dowling"
+      }
+    },
+    {
+      "question_id": 10254180,
+      "title": "Difference between assertEquals and assertSame in PHPUnit?",
+      "accepted_answer_id": 10254238,
+      "score": 170,
+      "link": "https://stackoverflow.com/questions/10254180/difference-between-assertequals-and-assertsame-in-phpunit",
+      "owner": {
+        "display_name": "Kevin Burke",
+        "link": "https://stackoverflow.com/users/329700/kevin-burke"
+      }
+    },
+    {
+      "question_id": 39118117,
+      "title": "How to execute specific test class using PHPUnit in Laravel",
+      "accepted_answer_id": 39119769,
+      "score": 165,
+      "link": "https://stackoverflow.com/questions/39118117/how-to-execute-specific-test-class-using-phpunit-in-laravel",
+      "owner": {
+        "display_name": "Gujarat Santana",
+        "link": "https://stackoverflow.com/users/2652524/gujarat-santana"
+      }
+    },
+    {
+      "question_id": 190295,
+      "title": "Testing Abstract Classes",
+      "accepted_answer_id": 2241159,
+      "score": 165,
+      "link": "https://stackoverflow.com/questions/190295/testing-abstract-classes",
+      "owner": {
+        "display_name": "Mez",
+        "link": "https://stackoverflow.com/users/20010/mez"
+      }
+    },
+    {
+      "question_id": 5988616,
+      "title": "phpunit mock method multiple calls with different arguments",
+      "accepted_answer_id": 5989095,
+      "score": 162,
+      "link": "https://stackoverflow.com/questions/5988616/phpunit-mock-method-multiple-calls-with-different-arguments",
+      "owner": {
+        "display_name": "Aleksei Kornushkin",
+        "link": "https://stackoverflow.com/users/690646/aleksei-kornushkin"
+      }
+    },
+    {
+      "question_id": 30037315,
+      "title": "How to tell phpunit to stop on failure",
+      "accepted_answer_id": 30037442,
+      "score": 161,
+      "link": "https://stackoverflow.com/questions/30037315/how-to-tell-phpunit-to-stop-on-failure",
+      "owner": {
+        "display_name": "johncorser",
+        "link": "https://stackoverflow.com/users/3779669/johncorser"
+      }
+    },
+    {
+      "question_id": 10239264,
+      "title": "How to skip tests in PHPunit?",
+      "accepted_answer_id": 10473002,
+      "score": 155,
+      "link": "https://stackoverflow.com/questions/10239264/how-to-skip-tests-in-phpunit",
+      "owner": {
+        "display_name": "filype",
+        "link": "https://stackoverflow.com/users/280842/filype"
+      }
+    },
+    {
+      "question_id": 34312,
+      "title": "SimpleTest vs PHPunit",
+      "accepted_answer_id": 8715966,
+      "score": 127,
+      "link": "https://stackoverflow.com/questions/34312/simpletest-vs-phpunit",
+      "owner": {
+        "display_name": "paan",
+        "link": "https://stackoverflow.com/users/2976/paan"
+      }
+    },
+    {
+      "question_id": 29299206,
+      "title": "PHPUnit - &#39;No tests executed&#39; when using configuration file",
+      "accepted_answer_id": 42260682,
+      "score": 113,
+      "link": "https://stackoverflow.com/questions/29299206/phpunit-no-tests-executed-when-using-configuration-file",
+      "owner": {
+        "display_name": "user4165455",
+        "link": null
+      }
+    },
+    {
+      "question_id": 9745080,
+      "title": "Test PHP headers with PHPUnit",
+      "accepted_answer_id": 9746200,
+      "score": 110,
+      "link": "https://stackoverflow.com/questions/9745080/test-php-headers-with-phpunit",
+      "owner": {
+        "display_name": "titel",
+        "link": "https://stackoverflow.com/users/43923/titel"
+      }
+    },
+    {
+      "question_id": 7158930,
+      "title": "PHPUnit: How do I create a function to be called once for all the tests in a class?",
+      "accepted_answer_id": 7159033,
+      "score": 107,
+      "link": "https://stackoverflow.com/questions/7158930/phpunit-how-do-i-create-a-function-to-be-called-once-for-all-the-tests-in-a-cla",
+      "owner": {
+        "display_name": "snakile",
+        "link": "https://stackoverflow.com/users/110028/snakile"
+      }
+    },
+    {
+      "question_id": 16039362,
+      "title": "How can I suppress PHPCS warnings using comments?",
+      "accepted_answer_id": 16071809,
+      "score": 106,
+      "link": "https://stackoverflow.com/questions/16039362/how-can-i-suppress-phpcs-warnings-using-comments",
+      "owner": {
+        "display_name": "gremo",
+        "link": "https://stackoverflow.com/users/220180/gremo"
+      }
+    },
+    {
+      "question_id": 24015943,
+      "title": "How to test if string contains another string in PHPUnit?",
+      "accepted_answer_id": 24017263,
+      "score": 105,
+      "link": "https://stackoverflow.com/questions/24015943/how-to-test-if-string-contains-another-string-in-phpunit",
+      "owner": {
+        "display_name": "TheStoryCoder",
+        "link": "https://stackoverflow.com/users/2404541/thestorycoder"
+      }
+    },
+    {
+      "question_id": 28459172,
+      "title": "How do I get HTTP Request body content in Laravel?",
+      "accepted_answer_id": 31669672,
+      "score": 98,
+      "link": "https://stackoverflow.com/questions/28459172/how-do-i-get-http-request-body-content-in-laravel",
+      "owner": {
+        "display_name": "beznez",
+        "link": "https://stackoverflow.com/users/3794177/beznez"
+      }
+    },
+    {
+      "question_id": 3671685,
+      "title": "How to run a specific phpunit xml testsuite?",
+      "accepted_answer_id": 14867853,
+      "score": 94,
+      "link": "https://stackoverflow.com/questions/3671685/how-to-run-a-specific-phpunit-xml-testsuite",
+      "owner": {
+        "display_name": "Andreas Linden",
+        "link": "https://stackoverflow.com/users/412395/andreas-linden"
+      }
+    },
+    {
+      "question_id": 5937845,
+      "title": "Mock private method with PHPUnit",
+      "accepted_answer_id": 5937899,
+      "score": 91,
+      "link": "https://stackoverflow.com/questions/5937845/mock-private-method-with-phpunit",
+      "owner": {
+        "display_name": "Tony",
+        "link": "https://stackoverflow.com/users/715415/tony"
+      }
+    },
+    {
+      "question_id": 35811503,
+      "title": "Laravel 5: PHPUnit and no code coverage driver available",
+      "accepted_answer_id": 36011969,
+      "score": 83,
+      "link": "https://stackoverflow.com/questions/35811503/laravel-5-phpunit-and-no-code-coverage-driver-available",
+      "owner": {
+        "display_name": "LaDude",
+        "link": "https://stackoverflow.com/users/1335740/ladude"
+      }
+    },
+    {
+      "question_id": 2371854,
+      "title": "Can I &quot;Mock&quot; time in PHPUnit?",
+      "accepted_answer_id": 5337635,
+      "score": 83,
+      "link": "https://stackoverflow.com/questions/2371854/can-i-mock-time-in-phpunit",
+      "owner": {
+        "display_name": "Narcissus",
+        "link": "https://stackoverflow.com/users/74225/narcissus"
+      }
+    },
+    {
+      "question_id": 10228,
+      "title": "Run PHPUnit Tests in Certain Order",
+      "accepted_answer_id": 10321,
+      "score": 83,
+      "link": "https://stackoverflow.com/questions/10228/run-phpunit-tests-in-certain-order",
+      "owner": {
+        "display_name": "dragonmantank",
+        "link": "https://stackoverflow.com/users/204/dragonmantank"
+      }
+    },
+    {
+      "question_id": 16833923,
+      "title": "PHPUnit: assertInstanceOf() not working when passing type as second argument as non-string",
+      "accepted_answer_id": 16834052,
+      "score": 82,
+      "link": "https://stackoverflow.com/questions/16833923/phpunit-assertinstanceof-not-working-when-passing-type-as-second-argument-as",
+      "owner": {
+        "display_name": "user1173169",
+        "link": null
+      }
+    },
+    {
+      "question_id": 4731774,
+      "title": "How to Read / Improve C.R.A.P Index Calculated by PHP",
+      "accepted_answer_id": 4733574,
+      "score": 81,
+      "link": "https://stackoverflow.com/questions/4731774/how-to-read-improve-c-r-a-p-index-calculated-by-php",
+      "owner": {
+        "display_name": "Levi Hackwith",
+        "link": "https://stackoverflow.com/users/122164/levi-hackwith"
+      }
+    },
+    {
+      "question_id": 4166522,
+      "title": "How to force a failure with phpunit",
+      "accepted_answer_id": 4166719,
+      "score": 81,
+      "link": "https://stackoverflow.com/questions/4166522/how-to-force-a-failure-with-phpunit",
+      "owner": {
+        "display_name": "Parris Varney",
+        "link": "https://stackoverflow.com/users/448579/parris-varney"
+      }
+    },
+    {
+      "question_id": 27599100,
+      "title": "Phpunit tests gives warning no tests found in class",
+      "accepted_answer_id": 29949488,
+      "score": 80,
+      "link": "https://stackoverflow.com/questions/27599100/phpunit-tests-gives-warning-no-tests-found-in-class",
+      "owner": {
+        "display_name": "ytsejam",
+        "link": "https://stackoverflow.com/users/1388866/ytsejam"
+      }
+    },
+    {
+      "question_id": 8313283,
+      "title": "PHPUnit best practices to organize tests",
+      "accepted_answer_id": 8313669,
+      "score": 79,
+      "link": "https://stackoverflow.com/questions/8313283/phpunit-best-practices-to-organize-tests",
+      "owner": {
+        "display_name": "enricog",
+        "link": "https://stackoverflow.com/users/276382/enricog"
+      }
+    },
+    {
+      "question_id": 2006626,
+      "title": "Installing PHPUnit via PEAR",
+      "accepted_answer_id": 2070456,
+      "score": 78,
+      "link": "https://stackoverflow.com/questions/2006626/installing-phpunit-via-pear",
+      "owner": {
+        "display_name": "Ondrej Slint&#225;k",
+        "link": "https://stackoverflow.com/users/206720/ondrej-slint%c3%a1k"
+      }
+    },
+    {
+      "question_id": 55091768,
+      "title": "What is .phpunit.result.cache",
+      "accepted_answer_id": 55091860,
+      "score": 75,
+      "link": "https://stackoverflow.com/questions/55091768/what-is-phpunit-result-cache",
+      "owner": {
+        "display_name": "Davide Casiraghi",
+        "link": "https://stackoverflow.com/users/10075394/davide-casiraghi"
+      }
+    },
+    {
+      "question_id": 10954107,
+      "title": "PHPUnit: how do I mock multiple method calls with multiple arguments?",
+      "accepted_answer_id": 10964562,
+      "score": 75,
+      "link": "https://stackoverflow.com/questions/10954107/phpunit-how-do-i-mock-multiple-method-calls-with-multiple-arguments",
+      "owner": {
+        "display_name": "Thomas",
+        "link": "https://stackoverflow.com/users/875382/thomas"
+      }
+    },
+    {
+      "question_id": 311485,
+      "title": "How to test a second parameter in a PHPUnit mock object",
+      "accepted_answer_id": 350929,
+      "score": 75,
+      "link": "https://stackoverflow.com/questions/311485/how-to-test-a-second-parameter-in-a-phpunit-mock-object",
+      "owner": {
+        "display_name": "Joel",
+        "link": "https://stackoverflow.com/users/31092/joel"
+      }
+    },
+    {
+      "question_id": 35897550,
+      "title": "Remove &quot;Remaining deprecation notices&quot; in Symfony 2.8",
+      "accepted_answer_id": 39346622,
+      "score": 71,
+      "link": "https://stackoverflow.com/questions/35897550/remove-remaining-deprecation-notices-in-symfony-2-8",
+      "owner": {
+        "display_name": "Chilipote",
+        "link": "https://stackoverflow.com/users/2243233/chilipote"
+      }
+    },
+    {
+      "question_id": 31638220,
+      "title": "test if array contains value using PHPUnit",
+      "accepted_answer_id": 31638382,
+      "score": 71,
+      "link": "https://stackoverflow.com/questions/31638220/test-if-array-contains-value-using-phpunit",
+      "owner": {
+        "display_name": "Donoven Rally",
+        "link": "https://stackoverflow.com/users/4922489/donoven-rally"
+      }
+    },
+    {
+      "question_id": 31083192,
+      "title": "How to unit test PHP traits",
+      "accepted_answer_id": 31124840,
+      "score": 71,
+      "link": "https://stackoverflow.com/questions/31083192/how-to-unit-test-php-traits",
+      "owner": {
+        "display_name": "Ali",
+        "link": "https://stackoverflow.com/users/4960774/ali"
+      }
+    },
+    {
+      "question_id": 15710410,
+      "title": "Autoloading classes in PHPUnit using Composer and autoload.php",
+      "accepted_answer_id": 15711324,
+      "score": 70,
+      "link": "https://stackoverflow.com/questions/15710410/autoloading-classes-in-phpunit-using-composer-and-autoload-php",
+      "owner": {
+        "display_name": "Jasdeep Khalsa",
+        "link": "https://stackoverflow.com/users/1365289/jasdeep-khalsa"
+      }
+    },
+    {
+      "question_id": 4047199,
+      "title": "How can i get phpunit to run tests from all files in a folder?",
+      "accepted_answer_id": 4050565,
+      "score": 69,
+      "link": "https://stackoverflow.com/questions/4047199/how-can-i-get-phpunit-to-run-tests-from-all-files-in-a-folder",
+      "owner": {
+        "display_name": "jsdalton",
+        "link": "https://stackoverflow.com/users/99289/jsdalton"
+      }
+    },
+    {
+      "question_id": 2357001,
+      "title": "PHPUnit Mock Objects and Static Methods",
+      "accepted_answer_id": 2357141,
+      "score": 69,
+      "link": "https://stackoverflow.com/questions/2357001/phpunit-mock-objects-and-static-methods",
+      "owner": {
+        "display_name": "rr.",
+        "link": "https://stackoverflow.com/users/181216/rr"
+      }
+    },
+    {
+      "question_id": 21654368,
+      "title": "How do I assert the result is an integer in PHPUnit?",
+      "accepted_answer_id": 21723937,
+      "score": 68,
+      "link": "https://stackoverflow.com/questions/21654368/how-do-i-assert-the-result-is-an-integer-in-phpunit",
+      "owner": {
+        "display_name": "bnp887",
+        "link": "https://stackoverflow.com/users/1616963/bnp887"
+      }
+    },
+    {
+      "question_id": 25180148,
+      "title": "PHPunit result output on the CLI not showing test names",
+      "accepted_answer_id": 25180149,
+      "score": 63,
+      "link": "https://stackoverflow.com/questions/25180148/phpunit-result-output-on-the-cli-not-showing-test-names",
+      "owner": {
+        "display_name": "Jujhar Singh",
+        "link": "https://stackoverflow.com/users/341156/jujhar-singh"
+      }
+    },
+    {
+      "question_id": 7432458,
+      "title": "PHPUnit: expects method meaning",
+      "accepted_answer_id": 7432614,
+      "score": 63,
+      "link": "https://stackoverflow.com/questions/7432458/phpunit-expects-method-meaning",
+      "owner": {
+        "display_name": "thom",
+        "link": "https://stackoverflow.com/users/943565/thom"
+      }
+    },
+    {
+      "question_id": 32208535,
+      "title": "Laravel testing, get JSON content",
+      "accepted_answer_id": 39482142,
+      "score": 62,
+      "link": "https://stackoverflow.com/questions/32208535/laravel-testing-get-json-content",
+      "owner": {
+        "display_name": "rap-2-h",
+        "link": "https://stackoverflow.com/users/978690/rap-2-h"
+      }
+    },
+    {
+      "question_id": 8395147,
+      "title": "How do I use PHPUnit with CodeIgniter?",
+      "accepted_answer_id": 8395635,
+      "score": 61,
+      "link": "https://stackoverflow.com/questions/8395147/how-do-i-use-phpunit-with-codeigniter",
+      "owner": {
+        "display_name": "zechdc",
+        "link": "https://stackoverflow.com/users/726312/zechdc"
+      }
+    },
+    {
+      "question_id": 13764309,
+      "title": "How to use phpunit installed from composer?",
+      "accepted_answer_id": 13764915,
+      "score": 59,
+      "link": "https://stackoverflow.com/questions/13764309/how-to-use-phpunit-installed-from-composer",
+      "owner": {
+        "display_name": "Tjorriemorrie",
+        "link": "https://stackoverflow.com/users/184379/tjorriemorrie"
+      }
+    },
+    {
+      "question_id": 32213542,
+      "title": "PHP Mocking Final Class",
+      "accepted_answer_id": 33095281,
+      "score": 58,
+      "link": "https://stackoverflow.com/questions/32213542/php-mocking-final-class",
+      "owner": {
+        "display_name": "DanHabib",
+        "link": "https://stackoverflow.com/users/3537361/danhabib"
+      }
+    },
+    {
+      "question_id": 18558183,
+      "title": "phpunit - mockbuilder - set mock object internal property",
+      "accepted_answer_id": 18562840,
+      "score": 58,
+      "link": "https://stackoverflow.com/questions/18558183/phpunit-mockbuilder-set-mock-object-internal-property",
+      "owner": {
+        "display_name": "inf3rno",
+        "link": "https://stackoverflow.com/users/607033/inf3rno"
+      }
+    },
+    {
+      "question_id": 37270837,
+      "title": "PHPUnit. Error: No code coverage driver is available. (having xdebug installed)",
+      "accepted_answer_id": 37271797,
+      "score": 57,
+      "link": "https://stackoverflow.com/questions/37270837/phpunit-error-no-code-coverage-driver-is-available-having-xdebug-installed",
+      "owner": {
+        "display_name": "Sruj_2ndAccountForStupidQtions",
+        "link": "https://stackoverflow.com/users/5826730/sruj-2ndaccountforstupidqtions"
+      }
+    },
+    {
+      "question_id": 5837991,
+      "title": "In PHPUnit, how do I indicate different with() on successive calls to a mocked method?",
+      "accepted_answer_id": 5838694,
+      "score": 56,
+      "link": "https://stackoverflow.com/questions/5837991/in-phpunit-how-do-i-indicate-different-with-on-successive-calls-to-a-mocked-m",
+      "owner": {
+        "display_name": "james",
+        "link": "https://stackoverflow.com/users/238350/james"
+      }
+    },
+    {
+      "question_id": 7458644,
+      "title": "PHPUnit - does nothing, no errors, no output",
+      "accepted_answer_id": 7479285,
+      "score": 55,
+      "link": "https://stackoverflow.com/questions/7458644/phpunit-does-nothing-no-errors-no-output",
+      "owner": {
+        "display_name": "markus",
+        "link": "https://stackoverflow.com/users/11995/markus"
+      }
+    },
+    {
+      "question_id": 36408134,
+      "title": "How to test file upload in Laravel",
+      "accepted_answer_id": 36414073,
+      "score": 54,
+      "link": "https://stackoverflow.com/questions/36408134/how-to-test-file-upload-in-laravel",
+      "owner": {
+        "display_name": "Ramin Omrani",
+        "link": "https://stackoverflow.com/users/1881750/ramin-omrani"
+      }
+    },
+    {
+      "question_id": 18972901,
+      "title": "Can I mock an interface implementation with PHPUnit?",
+      "accepted_answer_id": 18972978,
+      "score": 54,
+      "link": "https://stackoverflow.com/questions/18972901/can-i-mock-an-interface-implementation-with-phpunit",
+      "owner": {
+        "display_name": "Dmitry Minkovsky",
+        "link": "https://stackoverflow.com/users/741970/dmitry-minkovsky"
+      }
+    },
+    {
+      "question_id": 5961023,
+      "title": "unit testing and Static methods",
+      "accepted_answer_id": 5961347,
+      "score": 53,
+      "link": "https://stackoverflow.com/questions/5961023/unit-testing-and-static-methods",
+      "owner": {
+        "display_name": "Stephane Gosselin",
+        "link": "https://stackoverflow.com/users/21101651/stephane-gosselin"
+      }
+    },
+    {
+      "question_id": 3200160,
+      "title": "How to exclude files / code blocks from code coverage with Netbeans / PHPStorm / PHPUnit integration",
+      "accepted_answer_id": 4917471,
+      "score": 53,
+      "link": "https://stackoverflow.com/questions/3200160/how-to-exclude-files-code-blocks-from-code-coverage-with-netbeans-phpstorm",
+      "owner": {
+        "display_name": "Alfred",
+        "link": "https://stackoverflow.com/users/11926/alfred"
+      }
+    },
+    {
+      "question_id": 2424457,
+      "title": "&quot;Web interface&quot; to PHPUnit tests?",
+      "accepted_answer_id": 2424495,
+      "score": 53,
+      "link": "https://stackoverflow.com/questions/2424457/web-interface-to-phpunit-tests",
+      "owner": {
+        "display_name": "Pekka",
+        "link": "https://stackoverflow.com/users/187606/pekka"
+      }
+    },
+    {
+      "question_id": 1414125,
+      "title": "How do I run all my PHPUnit tests?",
+      "accepted_answer_id": 1415258,
+      "score": 53,
+      "link": "https://stackoverflow.com/questions/1414125/how-do-i-run-all-my-phpunit-tests",
+      "owner": {
+        "display_name": "JJ.",
+        "link": "https://stackoverflow.com/users/172365/jj"
+      }
+    },
+    {
+      "question_id": 5484602,
+      "title": "Mock in PHPUnit - multiple configuration of the same method with different arguments",
+      "accepted_answer_id": 15767311,
+      "score": 52,
+      "link": "https://stackoverflow.com/questions/5484602/mock-in-phpunit-multiple-configuration-of-the-same-method-with-different-argum",
+      "owner": {
+        "display_name": "V&#225;clav Novotn&#253;",
+        "link": "https://stackoverflow.com/users/683647/v%c3%a1clav-novotn%c3%bd"
+      }
+    },
+    {
+      "question_id": 3301300,
+      "title": "Setting up PHPUnit on OSX",
+      "accepted_answer_id": 3302634,
+      "score": 52,
+      "link": "https://stackoverflow.com/questions/3301300/setting-up-phpunit-on-osx",
+      "owner": {
+        "display_name": "Alex C",
+        "link": "https://stackoverflow.com/users/398055/alex-c"
+      }
+    },
+    {
+      "question_id": 18745032,
+      "title": "PHPUnit assert no method is called",
+      "accepted_answer_id": 18749734,
+      "score": 51,
+      "link": "https://stackoverflow.com/questions/18745032/phpunit-assert-no-method-is-called",
+      "owner": {
+        "display_name": "Jeroen De Dauw",
+        "link": "https://stackoverflow.com/users/506522/jeroen-de-dauw"
+      }
+    },
+    {
+      "question_id": 17067030,
+      "title": "phpunit --debug still displays only dots",
+      "accepted_answer_id": 24440576,
+      "score": 51,
+      "link": "https://stackoverflow.com/questions/17067030/phpunit-debug-still-displays-only-dots",
+      "owner": {
+        "display_name": "Alex",
+        "link": "https://stackoverflow.com/users/288568/alex"
+      }
+    },
+    {
+      "question_id": 2736343,
+      "title": "How to exclude file from PHPUnit test suite in xml config?",
+      "accepted_answer_id": 2761345,
+      "score": 51,
+      "link": "https://stackoverflow.com/questions/2736343/how-to-exclude-file-from-phpunit-test-suite-in-xml-config",
+      "owner": {
+        "display_name": "Ondrej Slint&#225;k",
+        "link": "https://stackoverflow.com/users/206720/ondrej-slint%c3%a1k"
+      }
+    },
+    {
+      "question_id": 2094970,
+      "title": "Passing parameters to PHPUnit",
+      "accepted_answer_id": 2095502,
+      "score": 51,
+      "link": "https://stackoverflow.com/questions/2094970/passing-parameters-to-phpunit",
+      "owner": {
+        "display_name": "dl__",
+        "link": "https://stackoverflow.com/users/28565/dl"
+      }
+    },
+    {
+      "question_id": 7911535,
+      "title": "how to unit test curl call in php",
+      "accepted_answer_id": 7912399,
+      "score": 50,
+      "link": "https://stackoverflow.com/questions/7911535/how-to-unit-test-curl-call-in-php",
+      "owner": {
+        "display_name": "Yader Hernandez",
+        "link": "https://stackoverflow.com/users/1015816/yader-hernandez"
+      }
+    },
+    {
+      "question_id": 6167382,
+      "title": "phpunit - testing is painfully slow",
+      "accepted_answer_id": 6167707,
+      "score": 50,
+      "link": "https://stackoverflow.com/questions/6167382/phpunit-testing-is-painfully-slow",
+      "owner": {
+        "display_name": "Stephane Gosselin",
+        "link": "https://stackoverflow.com/users/21101651/stephane-gosselin"
+      }
+    },
+    {
+      "question_id": 45965699,
+      "title": "Mocks vs Stubs in PHPUnit",
+      "accepted_answer_id": 45975572,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/45965699/mocks-vs-stubs-in-phpunit",
+      "owner": {
+        "display_name": "RodriKing",
+        "link": "https://stackoverflow.com/users/3801530/rodriking"
+      }
+    },
+    {
+      "question_id": 18047844,
+      "title": "Why does phpunit not show any errors in the console",
+      "accepted_answer_id": 20451087,
+      "score": 48,
+      "link": "https://stackoverflow.com/questions/18047844/why-does-phpunit-not-show-any-errors-in-the-console",
+      "owner": {
+        "display_name": "Nyxynyx",
+        "link": "https://stackoverflow.com/users/741099/nyxynyx"
+      }
+    },
+    {
+      "question_id": 12748607,
+      "title": "PHPUnit&#39;s returnValueMap not yielding expected results",
+      "accepted_answer_id": 15300642,
+      "score": 48,
+      "link": "https://stackoverflow.com/questions/12748607/phpunits-returnvaluemap-not-yielding-expected-results",
+      "owner": {
+        "display_name": "Brad Koch",
+        "link": "https://stackoverflow.com/users/425313/brad-koch"
+      }
+    },
+    {
+      "question_id": 9186000,
+      "title": "Call to undefined method PHP_CodeCoverage_Filter::getInstance()",
+      "accepted_answer_id": 9186866,
+      "score": 48,
+      "link": "https://stackoverflow.com/questions/9186000/call-to-undefined-method-php-codecoverage-filtergetinstance",
+      "owner": {
+        "display_name": "Ian Hunter",
+        "link": "https://stackoverflow.com/users/390977/ian-hunter"
+      }
+    },
+    {
+      "question_id": 20446771,
+      "title": "How to unit test functions that use type hinting",
+      "accepted_answer_id": 20484347,
+      "score": 47,
+      "link": "https://stackoverflow.com/questions/20446771/how-to-unit-test-functions-that-use-type-hinting",
+      "owner": {
+        "display_name": "user3009816",
+        "link": "https://stackoverflow.com/users/3009816/user3009816"
+      }
+    },
+    {
+      "question_id": 190292,
+      "title": "Unit Testing with items that need to send headers",
+      "accepted_answer_id": 190498,
+      "score": 47,
+      "link": "https://stackoverflow.com/questions/190292/unit-testing-with-items-that-need-to-send-headers",
+      "owner": {
+        "display_name": "Mez",
+        "link": "https://stackoverflow.com/users/20010/mez"
+      }
+    },
+    {
+      "question_id": 64381185,
+      "title": "Laravel and PHPUnit: could not find driver (SQL: PRAGMA foreign_keys = ON;)",
+      "accepted_answer_id": 64397971,
+      "score": 46,
+      "link": "https://stackoverflow.com/questions/64381185/laravel-and-phpunit-could-not-find-driver-sql-pragma-foreign-keys-on",
+      "owner": {
+        "display_name": "Vic Andam",
+        "link": "https://stackoverflow.com/users/6638764/vic-andam"
+      }
+    },
+    {
+      "question_id": 75389000,
+      "title": "Replace PHPUnit method `withConsecutive` (abandoned in PHPUnit 10)",
+      "accepted_answer_id": 75686291,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/75389000/replace-phpunit-method-withconsecutive-abandoned-in-phpunit-10",
+      "owner": {
+        "display_name": "yAnTar",
+        "link": "https://stackoverflow.com/users/1221313/yantar"
+      }
+    },
+    {
+      "question_id": 3221885,
+      "title": "PHPUnit mock objects and method type hinting",
+      "accepted_answer_id": 3221888,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/3221885/phpunit-mock-objects-and-method-type-hinting",
+      "owner": {
+        "display_name": "Michael Dowling",
+        "link": "https://stackoverflow.com/users/151504/michael-dowling"
+      }
+    },
+    {
+      "question_id": 14561908,
+      "title": "PHPUnit doesn&#39;t continue test after expecting an exception",
+      "accepted_answer_id": 14563410,
+      "score": 43,
+      "link": "https://stackoverflow.com/questions/14561908/phpunit-doesnt-continue-test-after-expecting-an-exception",
+      "owner": {
+        "display_name": "user2742648",
+        "link": null
+      }
+    },
+    {
+      "question_id": 12655136,
+      "title": "Install phpunit on windows",
+      "accepted_answer_id": 24890793,
+      "score": 43,
+      "link": "https://stackoverflow.com/questions/12655136/install-phpunit-on-windows",
+      "owner": {
+        "display_name": "Dmitry",
+        "link": "https://stackoverflow.com/users/966972/dmitry"
+      }
+    },
+    {
+      "question_id": 10784973,
+      "title": "How to set up database-heavy unit tests in Symfony2 using PHPUnit?",
+      "accepted_answer_id": 35463959,
+      "score": 43,
+      "link": "https://stackoverflow.com/questions/10784973/how-to-set-up-database-heavy-unit-tests-in-symfony2-using-phpunit",
+      "owner": {
+        "display_name": "k0pernikus",
+        "link": "https://stackoverflow.com/users/457268/k0pernikus"
+      }
+    },
+    {
+      "question_id": 1569012,
+      "title": "How to install an older version of PHPUnit through PEAR?",
+      "accepted_answer_id": 1598876,
+      "score": 43,
+      "link": "https://stackoverflow.com/questions/1569012/how-to-install-an-older-version-of-phpunit-through-pear",
+      "owner": {
+        "display_name": "Andrew",
+        "link": "https://stackoverflow.com/users/48523/andrew"
+      }
+    },
+    {
+      "question_id": 1347794,
+      "title": "How do you use PHPUnit to test a function if that function is supposed to kill PHP?",
+      "accepted_answer_id": 1347875,
+      "score": 43,
+      "link": "https://stackoverflow.com/questions/1347794/how-do-you-use-phpunit-to-test-a-function-if-that-function-is-supposed-to-kill-p",
+      "owner": {
+        "display_name": "user91163",
+        "link": null
+      }
+    },
+    {
+      "question_id": 31557371,
+      "title": "Phpunit error in PhpStorm",
+      "accepted_answer_id": 31557777,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/31557371/phpunit-error-in-phpstorm",
+      "owner": {
+        "display_name": "b85411",
+        "link": "https://stackoverflow.com/users/2884981/b85411"
+      }
+    },
+    {
+      "question_id": 14748499,
+      "title": "Fatal Error - Too many open files",
+      "accepted_answer_id": 14749074,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/14748499/fatal-error-too-many-open-files",
+      "owner": {
+        "display_name": "Mauro",
+        "link": "https://stackoverflow.com/users/878875/mauro"
+      }
+    },
+    {
+      "question_id": 11549672,
+      "title": "Symfony functional test - custom headers not passing through",
+      "accepted_answer_id": 11681422,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/11549672/symfony-functional-test-custom-headers-not-passing-through",
+      "owner": {
+        "display_name": "greg",
+        "link": "https://stackoverflow.com/users/1062936/greg"
+      }
+    },
+    {
+      "question_id": 3367513,
+      "title": "PHPUnit &quot;Mocked method does not exist.&quot; when using $mock-&gt;expects($this-&gt;at(...))",
+      "accepted_answer_id": 3425552,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/3367513/phpunit-mocked-method-does-not-exist-when-using-mock-expectsthis-at",
+      "owner": {
+        "display_name": "rr.",
+        "link": "https://stackoverflow.com/users/181216/rr"
+      }
+    },
+    {
+      "question_id": 18880067,
+      "title": "Creating a base test-class for PHPUnit and extending it for common functionality results in class not found error",
+      "accepted_answer_id": 20074589,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/18880067/creating-a-base-test-class-for-phpunit-and-extending-it-for-common-functionality",
+      "owner": {
+        "display_name": "r.bilgil",
+        "link": "https://stackoverflow.com/users/2362415/r-bilgil"
+      }
+    },
+    {
+      "question_id": 10253240,
+      "title": "How to Determine if PHPUnit Tests are Running?",
+      "accepted_answer_id": 10253789,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/10253240/how-to-determine-if-phpunit-tests-are-running",
+      "owner": {
+        "display_name": "Steven Scott",
+        "link": "https://stackoverflow.com/users/755666/steven-scott"
+      }
+    },
+    {
+      "question_id": 9398284,
+      "title": "Creating a mock in phpunit without mocking any methods?",
+      "accepted_answer_id": 9399495,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/9398284/creating-a-mock-in-phpunit-without-mocking-any-methods",
+      "owner": {
+        "display_name": "Brian Kendig",
+        "link": "https://stackoverflow.com/users/548862/brian-kendig"
+      }
+    },
+    {
+      "question_id": 5934347,
+      "title": "Mark a PHPUnit test class as to be ignored",
+      "accepted_answer_id": 5934435,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/5934347/mark-a-phpunit-test-class-as-to-be-ignored",
+      "owner": {
+        "display_name": "hakre",
+        "link": "https://stackoverflow.com/users/367456/hakre"
+      }
+    },
+    {
+      "question_id": 1487296,
+      "title": "PHPUnit: Verifying that array has a key with given value",
+      "accepted_answer_id": 1491247,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/1487296/phpunit-verifying-that-array-has-a-key-with-given-value",
+      "owner": {
+        "display_name": "Anti Veeranna",
+        "link": "https://stackoverflow.com/users/135594/anti-veeranna"
+      }
+    },
+    {
+      "question_id": 44571002,
+      "title": "PHPUnit Mock an object&#39;s properties",
+      "accepted_answer_id": 44584224,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/44571002/phpunit-mock-an-objects-properties",
+      "owner": {
+        "display_name": "Riccardo Cedrola",
+        "link": "https://stackoverflow.com/users/8113384/riccardo-cedrola"
+      }
+    },
+    {
+      "question_id": 42657551,
+      "title": "Match JsonStructure in PhpUnit Test - Laravel 5.4",
+      "accepted_answer_id": 42657764,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/42657551/match-jsonstructure-in-phpunit-test-laravel-5-4",
+      "owner": {
+        "display_name": "Farooq Ahmed Khan",
+        "link": "https://stackoverflow.com/users/900032/farooq-ahmed-khan"
+      }
+    },
+    {
+      "question_id": 12536668,
+      "title": "How do I correctly install PHPUnit with PEAR?",
+      "accepted_answer_id": 12545727,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/12536668/how-do-i-correctly-install-phpunit-with-pear",
+      "owner": {
+        "display_name": "twigmac",
+        "link": "https://stackoverflow.com/users/1149880/twigmac"
+      }
+    },
+    {
+      "question_id": 7760635,
+      "title": "Unit test for mocking a method called by new class object",
+      "accepted_answer_id": 7763207,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/7760635/unit-test-for-mocking-a-method-called-by-new-class-object",
+      "owner": {
+        "display_name": "Sumitk",
+        "link": "https://stackoverflow.com/users/596990/sumitk"
+      }
+    },
+    {
+      "question_id": 6213628,
+      "title": "Keep getting &#39;You have requested a non-existent service &quot;test.client&quot;&#39; in Symfony2 Beta3",
+      "accepted_answer_id": 6218165,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/6213628/keep-getting-you-have-requested-a-non-existent-service-test-client-in-symfon",
+      "owner": {
+        "display_name": "pogo",
+        "link": "https://stackoverflow.com/users/350075/pogo"
+      }
+    },
+    {
+      "question_id": 30041293,
+      "title": "PHPUnit - Use $this or self for static methods?",
+      "accepted_answer_id": 42868160,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/30041293/phpunit-use-this-or-self-for-static-methods",
+      "owner": {
+        "display_name": "Wolfsblvt",
+        "link": "https://stackoverflow.com/users/2505580/wolfsblvt"
+      }
+    },
+    {
+      "question_id": 4206547,
+      "title": "Selenium 2 (WebDriver) and Phpunit?",
+      "accepted_answer_id": 7646333,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/4206547/selenium-2-webdriver-and-phpunit",
+      "owner": {
+        "display_name": "Paul R Rogers",
+        "link": "https://stackoverflow.com/users/497816/paul-r-rogers"
+      }
+    },
+    {
+      "question_id": 3708539,
+      "title": "PHPUnit :: get message: OK, but incomplete or skipped tests! without any information where is happen",
+      "accepted_answer_id": 3708739,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/3708539/phpunit-get-message-ok-but-incomplete-or-skipped-tests-without-any-informa",
+      "owner": {
+        "display_name": "Ben",
+        "link": "https://stackoverflow.com/users/342984/ben"
+      }
+    },
+    {
+      "question_id": 3250503,
+      "title": "PHPUnit, mocked interfaces, and instanceof",
+      "accepted_answer_id": 3254990,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/3250503/phpunit-mocked-interfaces-and-instanceof",
+      "owner": {
+        "display_name": "Bryan M.",
+        "link": "https://stackoverflow.com/users/4636/bryan-m"
+      }
+    },
+    {
+      "question_id": 1164192,
+      "title": "Is there an equivalent of SimpleTest&#39;s &quot;partial mocks&quot; in PHPUnit?",
+      "accepted_answer_id": 1186587,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/1164192/is-there-an-equivalent-of-simpletests-partial-mocks-in-phpunit",
+      "owner": {
+        "display_name": "Shabbyrobe",
+        "link": "https://stackoverflow.com/users/15004/shabbyrobe"
+      }
+    },
+    {
+      "question_id": 38363086,
+      "title": "What is the difference between createMock and getMockBuilder in phpUnit?",
+      "accepted_answer_id": 38363333,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/38363086/what-is-the-difference-between-createmock-and-getmockbuilder-in-phpunit",
+      "owner": {
+        "display_name": "Chris Roy",
+        "link": "https://stackoverflow.com/users/1726468/chris-roy"
+      }
+    },
+    {
+      "question_id": 27282519,
+      "title": "Laravel - Testing what happens after a redirect",
+      "accepted_answer_id": 32502827,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/27282519/laravel-testing-what-happens-after-a-redirect",
+      "owner": {
+        "display_name": "Enrique Moreno Tent",
+        "link": "https://stackoverflow.com/users/392684/enrique-moreno-tent"
+      }
+    },
+    {
+      "question_id": 4366592,
+      "title": "Symfony 2 + Doctrine 2 + PHPUnit 3.5: Serialization of closure exception",
+      "accepted_answer_id": 5133558,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/4366592/symfony-2-doctrine-2-phpunit-3-5-serialization-of-closure-exception",
+      "owner": {
+        "display_name": "Adrian",
+        "link": "https://stackoverflow.com/users/492931/adrian"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 7159033,
+      "body": "<p>Take a look at <code>setUpBeforeClass()</code> from the <a href=\"https://docs.phpunit.de/en/12.4/fixtures.html#sharing-fixture\" rel=\"nofollow noreferrer\">&quot;Fixtures&quot; section</a> of the PHPUnit documentation.</p>\n<p>For the one-time tear-down you should use <code>tearDownAfterClass();</code>.</p>\n<p>Both these methods should be defined in your class as static methods.</p>\n",
+      "owner": {
+        "display_name": "borrible",
+        "link": "https://stackoverflow.com/users/469210/borrible"
+      }
+    },
+    {
+      "answer_id": 5683605,
+      "body": "<pre><code>&lt;?php\nrequire_once 'PHPUnit/Framework.php';\n \nclass ExceptionTest extends PHPUnit_Framework_TestCase\n{\n    public function testException()\n    {\n        $this-&gt;expectException(InvalidArgumentException::class);\n        // or for PHPUnit &lt; 5.2\n        // $this-&gt;setExpectedException(InvalidArgumentException::class);\n\n        //...and then add your test code that generates the exception \n        exampleMethod($anInvalidArgument);\n    }\n}\n</code></pre>\n<p><a href=\"https://docs.phpunit.de/en/10.5/writing-tests-for-phpunit.html#expecting-exceptions\" rel=\"nofollow noreferrer\">expectException() PHPUnit documentation</a></p>\n<p><a href=\"https://thephp.cc/articles/questioning-phpunit-best-practices\" rel=\"nofollow noreferrer\">PHPUnit author article</a> provides detailed explanation on testing exceptions best practices.</p>\n",
+      "owner": {
+        "display_name": "Frank Farmer",
+        "link": "https://stackoverflow.com/users/82769/frank-farmer"
+      }
+    },
+    {
+      "answer_id": 8715966,
+      "body": "<p>I'm <em><strong>really really</strong></em> baffled that SimpleTest <strong>still</strong> is considered an alternative to PHPUnit. Maybe I'm just misinformed but as far as I've seen:</p>\n<ul>\n<li>PHPUnit is the standard; most frameworks use it (like Zend Framework (1&amp;2), Cake, Agavi, even Symfony is dropping their own Framework in Symfony 2 for PHPUnit).</li>\n<li>PHPUnit is integrated in every PHP IDE (Eclipse, Netbeans, Zend Studio, PHPStorm) and works nicely.</li>\n<li>Simpletest has an eclipse extension for PHP 5.1 (a.k.a. old) and nothing else.</li>\n<li>PHPUnit works fine with every continuous integration server since it outputs all standard log files for code coverage and test reports.</li>\n<li>Simpletest does not. While this is not a big problem to start with it will bite you big time once you stop &quot;just testing&quot; and start developing software (Yes that statement is  provocative. Don't take it too seriously).</li>\n<li>PHPUnit is actively maintained, stable and works great for every codebase, every scenario and every way you want to write your tests.</li>\n<li>(Subjective) <a href=\"https://www.phpunit.de/manual/3.6/en/code-coverage-analysis.html\" rel=\"nofollow noreferrer\">PHPUnit provides much nicer</a> code coverage reports <a href=\"https://www.simpletest.org/en/reporter_documentation.html\" rel=\"nofollow noreferrer\">than Simpletest</a></li>\n<li>With PHPUnit you also get these reports inside your IDE (<a href=\"https://netbeans.org/kb/docs/php/phpunit.htm%60\" rel=\"nofollow noreferrer\">Netbeans</a>, Eclipse, ...)</li>\n<li>Also there are a couple of suggestions for a <a href=\"https://stackoverflow.com/questions/2424457/web-interface-to-phpunit-tests\"><strong>web interface to PHPUnit tests</strong></a>.</li>\n</ul>\n<p>I've yet to see any argument in favor of SimpleTest. It's not even simpler to install since PHPUnit is available via pear:</p>\n<pre><code>pear channel-discover pear.phpunit.de\npear install phpunit/PHPUnit\n</code></pre>\n<p>and the &quot;first test&quot; looks pretty much the same.</p>\n<p>As of PHPUnit 3.7 it's <strong>even easier to install</strong> it by just using the <a href=\"http://www.phpunit.de/manual/current/en/installation.html#installation.phar\" rel=\"nofollow noreferrer\"><strong><code>PHAR Archive</code></strong></a></p>\n<pre><code>wget http://pear.phpunit.de/get/phpunit.phar\nchmod +x phpunit-3.7.6.phar\n</code></pre>\n<p>or for Windows just <a href=\"http://pear.phpunit.de/get/phpunit.phar\" rel=\"nofollow noreferrer\">downloading</a> the phar and running:</p>\n<pre><code>php phpunit-.phar\n</code></pre>\n<p>or when using the <a href=\"https://www.phpunit.de/manual/current/en/installation.html#installation.composer\" rel=\"nofollow noreferrer\">supported composer install</a> ways like</p>\n<pre><code>&quot;require-dev&quot;: {\n    &quot;phpunit/phpunit&quot;: &quot;3.7.*&quot;\n}\n</code></pre>\n<p>to your composer.json.</p>\n<hr />\n<p>For everything you want to test PHPUnit will have a solution and you will be able to find help pretty much anywhere (Stack Overflow, the #phpunit IRC channel on Freenode, pretty much every PHP developer)</p>\n<hr />\n<h3>Full disclosure</h3>\n<p>I've originally written this answer in Jan 2011 when I had no affiliation with any PHP Testing project. Since then I have become a contributor to PHPUnit.</p>\n",
+      "owner": {
+        "display_name": "edorian",
+        "link": "https://stackoverflow.com/users/285578/edorian"
+      }
+    },
+    {
+      "answer_id": 42868160,
+      "body": "<p>Generally, <code>self</code> is only used to refer to static methods and properties (though confusingly you <em>can</em> refer to non-static methods with <code>self</code>, and to static methods with <code>$this</code>, provided the methods called with <code>self</code> don't reference <code>$this</code>.)</p>\n<pre><code>&lt;?php\nclass Test {\n    public static function staticFunc() {echo &quot;static &quot;;}\n    public function nonStaticFunc() {echo &quot;non-static\\n&quot;;}\n    public function selfCaller() {self::staticFunc(); self::nonStaticFunc();}\n    public function thisCaller() {$this-&gt;staticFunc(); $this-&gt;nonStaticFunc();}\n}\n$t = new Test;\n$t-&gt;selfCaller();  // returns &quot;static non-static&quot;\n$t-&gt;thisCaller();  // also returns &quot;static non-static&quot;\n</code></pre>\n<p>Inheritance is important to remember when dealing with <code>$this</code> or <code>self</code>. <code>$this</code> will always refer to the current object, while <code>self</code> refers to the class in which <code>self</code> was used. Modern PHP also includes <a href=\"https://www.php.net/manual/en/language.oop5.late-static-bindings.php\" rel=\"nofollow noreferrer\">late static binding</a> via the <code>static</code> keyword, which will operate the same way as (and should be preferred over) <code>$this</code> for static functions.</p>\n<pre><code>&lt;?php\nclass Person {\n    public static function whatAmI() {return &quot;Human&quot;;}    \n    public function saySelf() {printf(&quot;I am %s\\n&quot;, self::whatAmI());}\n    public function sayThis() {printf(&quot;I am %s\\n&quot;, $this-&gt;whatAmI());}\n    public function sayStatic() {printf(&quot;I am %s\\n&quot;, static::whatAmI());}\n}\n\nclass Programmer extends Person {\n    public static function whatAmI() {return &quot;a programmer&quot;;}\n}\n\n$p = new Programmer;\n$p-&gt;saySelf();    // returns &quot;I am Human&quot;\n$p-&gt;sayThis();    // returns &quot;I am a programmer&quot;\n$p-&gt;sayStatic();  // returns &quot;I am a programmer&quot;\n</code></pre>\n<p>As regards PHPUnit in particular, it appears they simply do things <a href=\"https://github.com/sebastianbergmann/phpunit/issues/1914\" rel=\"nofollow noreferrer\">the way they've always done them</a>! Though according to their documentation, <a href=\"https://docs.phpunit.de/en/10.5/assertions.html#static-vs-non-static-usage-of-assertion-methods\" rel=\"nofollow noreferrer\">your code should work fine</a> using static methods.</p>\n",
+      "owner": {
+        "display_name": "miken32",
+        "link": "https://stackoverflow.com/users/1255289/miken32"
+      }
+    },
+    {
+      "answer_id": 292423,
+      "body": "<p>Use a callback.  e.g. (straight from PHPUnit documentation):</p>\n<pre><code>&lt;?php\nclass StubTest extends PHPUnit_Framework_TestCase\n{\n    public function testReturnCallbackStub()\n    {\n        $stub = $this-&gt;getMock(\n          'SomeClass', array('doSomething')\n        );\n \n        $stub-&gt;expects($this-&gt;any())\n             -&gt;method('doSomething')\n             -&gt;willReturnCallback('callback');\n \n        // $stub-&gt;doSomething() returns callback(...)\n    }\n}\n \nfunction callback() {\n    $args = func_get_args();\n    // ...\n}\n?&gt;\n</code></pre>\n<p>Do whatever processing you want in the callback() and return the result based on your $args as appropriate.</p>\n",
+      "owner": {
+        "display_name": "Howard Sandford",
+        "link": "https://stackoverflow.com/users/37904/howard-sandford"
+      }
+    },
+    {
+      "answer_id": 64397971,
+      "body": "<p>This is actually happening after I upgraded my PHP version in Laragon. The solution is to enable pdo_sqlite in the PHP extension in Laragon.</p>\n<p>That's it. This answer was found on <em><a href=\"https://laracasts.com/discuss/channels/general-discussion/phpunit-sqlite-error-after-updating-laragon-pdoexception-could-not-find-driver\" rel=\"nofollow noreferrer\">PHPUnit SQLite error after updating Laragon (PDOException: could not find driver)</a></em>.</p>\n",
+      "owner": {
+        "display_name": "Vic Andam",
+        "link": "https://stackoverflow.com/users/6638764/vic-andam"
+      }
+    },
+    {
+      "answer_id": 45975572,
+      "body": "<p>PHPUnit used to support two ways of creating test doubles out of the box. Next to the legacy PHPUnit mocking framework we could choose prophecy as well.</p>\n<p>Prophecy support was removed in PHPUnit 9, but it can be added back by installing <a href=\"https://github.com/phpspec/prophecy-phpunit\" rel=\"noreferrer\"><code>phpspec/prophecy-phpunit</code></a>.</p>\n<h1>PHPUnit Mocking Framework</h1>\n<p>The <code>createMock</code>/<code>createStub</code> methods are used to create three mostly known test doubles. It's how you configure the object makes it a dummy, a stub, or a mock.</p>\n<p>You can also create test stubs with the mock builder (<code>getMockBuilder</code> returns the mock builder). It's just another way of doing the same thing that lets you to tweak some additional mock options with a fluent interface (see <a href=\"https://phpunit.de/manual/current/en/test-doubles.html#test-doubles.mock-objects\" rel=\"noreferrer\">the documentation</a> for more).</p>\n<h2>Dummy</h2>\n<p>Dummy is passed around, but never actually called, or if it's called it responds with a default answer (mostly <code>null</code>). It mainly exists to satisfy a list of arguments.</p>\n<pre class=\"lang-php prettyprint-override\"><code>$dummy = $this-&gt;createStub(SomeClass::class);\n\n// SUT - System Under Test\n$sut-&gt;action($dummy);\n</code></pre>\n<h2>Stub</h2>\n<p>Stubs are used with query like methods - methods that return things, but it's not important if they're actually called.</p>\n<pre class=\"lang-php prettyprint-override\"><code>$stub = $this-&gt;createStub(SomeClass::class);\n$stub-&gt;method('getSomething')\n    -&gt;willReturn('foo');\n\n$sut-&gt;action($stub);\n</code></pre>\n<h2>Mock</h2>\n<p>Mocks are used with command like methods - it's important that they're called, and we don't care much about their return value (command methods don't usually return any value).</p>\n<pre><code>$mock = $this-&gt;createMock(SomeClass::class);\n$mock-&gt;expects($this-&gt;once())\n    -&gt;method('doSomething')\n    -&gt;with('bar');\n\n$sut-&gt;action($mock);\n</code></pre>\n<p>Expectations will be verified automatically after your test method finished executing. In the example above, the test will fail if the method <code>doSomething</code> wasn't called on <code>SomeClass</code>, or it was called with arguments different to the ones you configured.</p>\n<h2>Spy</h2>\n<p>Not supported.</p>\n<h1>Prophecy</h1>\n<p>Prophecy is now supported by PHPUnit out of the box, so you can use it as an alternative to the legacy mocking framework. Again, it's the way you configure the object makes it becomes a specific type of a test double.</p>\n<h2>Dummy</h2>\n<pre class=\"lang-php prettyprint-override\"><code>$dummy = $this-&gt;prophesize(SomeClass::class);\n\n$sut-&gt;action($dummy-&gt;reveal());\n</code></pre>\n<h2>Stub</h2>\n<pre class=\"lang-php prettyprint-override\"><code>$stub = $this-&gt;prophesize(SomeClass::class);\n$stub-&gt;getSomething()-&gt;willReturn('foo');\n\n$sut-&gt;action($stub-&gt;reveal());\n</code></pre>\n<h2>Mock</h2>\n<pre class=\"lang-php prettyprint-override\"><code>$mock = $this-&gt;prophesize(SomeClass::class);\n$mock-&gt;doSomething('bar')-&gt;shouldBeCalled();\n\n$sut-&gt;action($mock-&gt;reveal());\n</code></pre>\n<h2>Spy</h2>\n<pre class=\"lang-php prettyprint-override\"><code>$spy = $this-&gt;prophesize(SomeClass::class);\n\n// execute the action on system under test\n$sut-&gt;action($spy-&gt;reveal());\n\n// verify expectations after \n$spy-&gt;doSomething('bar')-&gt;shouldHaveBeenCalled();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jakub Zalas",
+        "link": "https://stackoverflow.com/users/330267/jakub-zalas"
+      }
+    },
+    {
+      "answer_id": 8313669,
+      "body": "<p>I'll start of by linking to the manual and then going into what I've seen and heard in the field.</p>\n<p><a href=\"http://phpunit.de/manual/current/en/organizing-tests.html\" rel=\"nofollow noreferrer\">Organizing phpunit test suites</a></p>\n<h3>Module / Test folder organization in the file system</h3>\n<p>My recommended approach is combining the file system with an xml config.</p>\n<pre><code>tests/\n \\ unit/\n | - module1\n | - module2\n - integration/\n - functional/\n</code></pre>\n<p>with a <code>phpunit.xml</code> with a simple:</p>\n<pre><code>&lt;testsuites&gt;\n  &lt;testsuite name=&quot;My whole project&quot;&gt;\n    &lt;directory&gt;tests&lt;/directory&gt;\n  &lt;/testsuite&gt;\n&lt;/testsuites&gt;\n</code></pre>\n<p>you can split the testsuites if you want to but thats a project to project choice.</p>\n<p>Running <code>phpunit</code> will then execute ALL tests and running <code>phpunit tests/unit/module1</code> will run all tests of module1.</p>\n<h3>Organization of the &quot;unit&quot; folder</h3>\n<p>The most common approach here is to mirror your <code>source/</code> directory structure in your <code>tests/unit/</code> folder structure.</p>\n<p>You have one TestClass per ProductionClass anyways so it's a good approach in my book.</p>\n<h3>In file organization</h3>\n<ul>\n<li>One class per file.</li>\n</ul>\n<p>It's not going to work anyways if you have more than one test class in one file so avoid that pitfall.</p>\n<ul>\n<li>Don't have a test namespace</li>\n</ul>\n<p>It just makes writing the test more verbose as you need an additional use statement so I'd say the testClass should go in the same namespace as the production class but that is nothing PHPUnit forces you to do. I've just found it to be easier with no drawbacks.</p>\n<h3>Executing only a few tests</h3>\n<p>For example <code>phpunit --filter Factory</code> executes all FactoryTests while <code>phpunit tests/unit/logger/</code> executes everything logging related.</p>\n<p>You can use <code>@group</code> tags for something like issue numbers, stories or something but for &quot;modules&quot; I'd use the folder layout.</p>\n<h3>Multiple xml files</h3>\n<p>It can be useful to create multiple xml files if you want to have:</p>\n<ul>\n<li>one without code coverage</li>\n<li>one just for the unit tests (but not for the functional or integration or long running tests)</li>\n<li>other common &quot;filter&quot; cases</li>\n<li>PHPBB3 for example does that for <a href=\"https://github.com/phpbb/phpbb3\" rel=\"nofollow noreferrer\"><strong><code>their phpunit.xmls</code></strong></a></li>\n</ul>\n<h3>Code coverage for your tests</h3>\n<p>As it is related to starting a new project with tests:</p>\n<ul>\n<li>My suggestion is to use <code>@covers</code> tags <a href=\"http://edorian.github.io/2011-11-04-An-introduction-to-phpunits-covers-annotation/\" rel=\"nofollow noreferrer\">like described in my blog</a> (Only for unit tests, always cover all non public functions, always use covers tags.</li>\n<li>Don't generate coverage for your integration tests. It gives you a false sense of security.</li>\n<li>Always use whitelisting to include all of your production code so the numbers don't lie to you!</li>\n</ul>\n<h3>Autoloading and bootstrapping your tests</h3>\n<p>You don't need any sort of auto loading for your tests. PHPUnit will take care of that.</p>\n<p>Use the <code>&lt;phpunit bootstrap=&quot;file&quot;&gt;</code> attribute to specify your test bootstrap. <code>tests/bootstrap.php</code> is a nice place to put it. There you can set up your applications autoloader and so on (or call your applications bootstrap for that matter).</p>\n<h1>Summary</h1>\n<ul>\n<li>Use the xml configuration for pretty much everything</li>\n<li>Separate unit and integration tests</li>\n<li>Your unit test folders should mirror your applications folder structure</li>\n<li>To only execute specif tests use <code>phpunit --filter</code> or <code>phpunit tests/unit/module1</code></li>\n<li>Use the <strong><code>strict</code></strong> mode from the get go and never turn it off.</li>\n</ul>\n<h3>Sample projects to look at</h3>\n<ul>\n<li><a href=\"https://github.com/beberlei/bankaccount\" rel=\"nofollow noreferrer\">Sebastian Bergmanns &quot;Bank Account&quot; example project</a></li>\n<li><a href=\"https://github.com/phpbb/phpbb3\" rel=\"nofollow noreferrer\">phpBB3</a> Even so they have to fight some with their legacy ;)</li>\n<li><a href=\"https://github.com/symfony/symfony\" rel=\"nofollow noreferrer\">Symfony</a></li>\n<li><a href=\"https://github.com/doctrine/doctrine2\" rel=\"nofollow noreferrer\">Doctrine2</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "edorian",
+        "link": "https://stackoverflow.com/users/285578/edorian"
+      }
+    },
+    {
+      "answer_id": 1186587,
+      "body": "<h2>PHPUnit &lt; 5.4</h2>\n<p>From reading the linked page, a SimpleTest partial mock seems to be a mock where only some of the methods are overridden. If this is correct, that functionality is handled by a normal PHPUnit mock.</p>\n<p>Inside a <code>PHPUnit_Framework_TestCase</code>, you create a mock with</p>\n<pre><code>$mock = $this-&gt;getMock('Class_To_Mock');\n</code></pre>\n<p>Which creates an mock instance where all methods do nothing and return null. If you want to only override some of the methods, the second parameter to <code>getMock</code> is an array of methods to override.</p>\n<pre><code>$mock = $this-&gt;getMock('Class_To_Mock', array('insert', 'update'));\n</code></pre>\n<p>will create an mock instance of <code>Class_To_Mock</code> with the <code>insert</code> and <code>update</code> functions removed, ready for their return values to be specified.</p>\n<p>This information is in the <a href=\"https://phpunit.de/manual/current/en/test-doubles.html#test-doubles.mock-objects\" rel=\"nofollow noreferrer\">phpunit docs</a>.</p>\n<p><strong>Note</strong>, <a href=\"https://stackoverflow.com/a/43083956/1319821\">this answer</a> shows more up to date code examples, for PHPUnit versions starting 5.4</p>\n",
+      "owner": {
+        "display_name": "Brenton Alker",
+        "link": "https://stackoverflow.com/users/144287/brenton-alker"
+      }
+    },
+    {
+      "answer_id": 30037442,
+      "body": "<p>Add the <code>stopOnFailure=&quot;true&quot;</code> attribute to your <code>phpunit.xml</code> root element.</p>\n<p>You can also use it in the CLI: <code>phpunit --stop-on-failure</code></p>\n<p>Info from manual and some others that are maybe useful for you:</p>\n<ul>\n<li>stopOnError - &quot;Stop execution upon first error.&quot;</li>\n<li>stopOnFailure - &quot;Stop execution upon first error or failure.&quot;</li>\n<li>stopOnIncomplete - &quot;Stop execution upon first incomplete test.&quot;</li>\n</ul>\n<p>More info at: <a href=\"https://docs.phpunit.de/en/11.1/textui.html\" rel=\"noreferrer\">PHPunit manual</a></p>\n",
+      "owner": {
+        "display_name": "Sven van Zoelen",
+        "link": "https://stackoverflow.com/users/558569/sven-van-zoelen"
+      }
+    },
+    {
+      "answer_id": 24017263,
+      "body": "<p>As you could tell <code>assertContains</code> is for checking that an array contains a value.</p>\n<p>Looking to see if the string contains a substring, your simplest query would be to use <a href=\"https://docs.phpunit.de/en/10.4/assertions.html#assertmatchesregularexpression\" rel=\"noreferrer\">assertMatchesRegularExpression()</a></p>\n<pre><code>$this-&gt;assertMatchesRegularExpression('/flour/', $plaintext);\n</code></pre>\n<p>You would just need to add the delimiters.</p>\n<p>If you really want to have an <code>assertStringContains</code> assertion, you can extend <code>PHPUnit_Framework_TestCase</code> and create your own.</p>\n<p><strong>UPDATE</strong></p>\n<p>In the <strong>pre-9</strong> versions of PHPUnit, <code>assertContains</code> will work on strings.</p>\n<p>From <strong>9+</strong> we need to use <code>assertStringContainsString</code> or <code>assertStringContainsStringIgnoringCase</code>.</p>\n",
+      "owner": {
+        "display_name": "Schleis",
+        "link": "https://stackoverflow.com/users/498699/schleis"
+      }
+    },
+    {
+      "answer_id": 16834052,
+      "body": "<p><a href=\"https://docs.phpunit.de/en/9.5/assertions.html#assertinstanceof\" rel=\"nofollow noreferrer\">https://docs.phpunit.de/en/9.5/assertions.html#assertinstanceof</a></p>\n<p>I think you are using this function wrong. Try:</p>\n<pre><code>$this-&gt;assertInstanceOf('User', $user);\n</code></pre>\n<p>As of <a href=\"http://php.net/manual/en/migration55.new-features.php#migration55.new-features.class-name\" rel=\"nofollow noreferrer\">PHP 5.5</a> you can also use:</p>\n<pre><code>$this-&gt;assertInstanceOf(User::class, $user);\n</code></pre>\n<p>(From @james2doyle in comments.)</p>\n",
+      "owner": {
+        "display_name": "Mantas",
+        "link": "https://stackoverflow.com/users/1293002/mantas"
+      }
+    },
+    {
+      "answer_id": 32502827,
+      "body": "<p>You can get PHPUnit to follow redirects with:</p>\n<p><strong>Modern Laravel</strong> (&gt;= 5.5.19):</p>\n<pre><code>$this-&gt;followingRedirects();\n</code></pre>\n<p><strong>Older Laravel</strong> (&lt; 5.4.12):</p>\n<pre><code>$this-&gt;followRedirects();\n</code></pre>\n<p><strong>Usage:</strong></p>\n<pre><code>$response = $this-&gt;followingRedirects()\n    -&gt;post('/login', ['email' =&gt; 'john@example.com'])\n    -&gt;assertStatus(200);\n</code></pre>\n<p><strong>Note:</strong> This needs to be set explicitly for <strong>each request</strong>.</p>\n<hr>\n<p><strong>For versions between these two</strong>:</p>\n<p>See <a href=\"https://github.com/laravel/framework/issues/18016#issuecomment-322401713\" rel=\"noreferrer\">https://github.com/laravel/framework/issues/18016#issuecomment-322401713</a> for a workaround.</p>\n",
+      "owner": {
+        "display_name": "huntie",
+        "link": "https://stackoverflow.com/users/1538506/huntie"
+      }
+    },
+    {
+      "answer_id": 29949488,
+      "body": "<p><a href=\"https://phpunit.de/manual/current/en/appendixes.annotations.html#appendixes.annotations.test\" rel=\"noreferrer\">Annotations are the answer</a> (...&quot;As an alternative to <strong>prefixing your test method names with test...</strong>&quot;)</p>\n<pre><code>/** @test */\npublic function it_tests_something()\n{\n  ...\n}\n</code></pre>\n<p>Adding that <code>@test</code> tells phpunit to treat the function as a test, regardless of the name.</p>\n",
+      "owner": {
+        "display_name": "CJ Thompson",
+        "link": "https://stackoverflow.com/users/1649449/cj-thompson"
+      }
+    },
+    {
+      "answer_id": 2798203,
+      "body": "<p>If you're using PHP5 (&gt;= 5.3.2) with PHPUnit, you can test your private and protected methods by using reflection to set them to be public prior to running your tests:</p>\n<pre><code>protected static function getMethod($name) {\n  $class = new ReflectionClass('MyClass');\n  $method = $class-&gt;getMethod($name);\n  // $method-&gt;setAccessible(true); // Use this if you are running PHP older than 8.1.0\n  return $method;\n}\n\npublic function testFoo() {\n  $foo = self::getMethod('foo');\n  $obj = new MyClass();\n  $foo-&gt;invokeArgs($obj, array(...));\n  ...\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "uckelman",
+        "link": "https://stackoverflow.com/users/181106/uckelman"
+      }
+    },
+    {
+      "answer_id": 18562840,
+      "body": "<p>You can make the property public by using Reflection, and then set the desired value:</p>\n<pre><code>$a = new A;\n$reflection = new ReflectionClass($a);\n$reflection_property = $reflection-&gt;getProperty('p');\n$reflection_property-&gt;setAccessible(true);\n\n$reflection_property-&gt;setValue($a, 2);\n</code></pre>\n<p>Anyway in your example you don't need to set p value for the Exception to be raised. You are using a mock for being able to take control over the object behaviour, without taking into account it's internals.</p>\n<p>So, instead of setting p = 2 so an Exception is raised, you configure the mock to raise an Exception when the blah method is called:</p>\n<pre><code>$mockA = $this-&gt;getMockBuilder('A')\n        -&gt;disableOriginalConstructor()\n        -&gt;getMock();\n$mockA-&gt;expects($this-&gt;any())\n         -&gt;method('blah')\n         -&gt;will($this-&gt;throwException(new Exception));\n</code></pre>\n<p>Last, it's strange that you're mocking the A class in the ATest. You usually mock the dependencies needed by the object you're testing.</p>\n",
+      "owner": {
+        "display_name": "gontrollez",
+        "link": "https://stackoverflow.com/users/1675789/gontrollez"
+      }
+    },
+    {
+      "answer_id": 75686291,
+      "body": "<p>I have replaced withConsecutive with the following.</p>\n<pre><code>$matcher = $this-&gt;exactly(2);\n$this-&gt;service\n    -&gt;expects($matcher)\n    -&gt;method('functionName')\n    -&gt;willReturnCallback(function (string $key, string $value) use ($matcher,$expected1, $expected2) {\n        match ($matcher-&gt;numberOfInvocations()) {\n            1 =&gt;  $this-&gt;assertEquals($expected1, $value),\n            2 =&gt;  $this-&gt;assertEquals($expected2, $value),\n        };\n    });\n</code></pre>\n",
+      "owner": {
+        "display_name": "Awais Mushtaq",
+        "link": "https://stackoverflow.com/users/5152718/awais-mushtaq"
+      }
+    },
+    {
+      "answer_id": 8395635,
+      "body": "<p>It seems you understand the basic structure/syntax of how to write tests and unit testing CodeIgniter code shouldn't be any different from testing non-CI code, so I want to focus on your underlying concerns/issues ...</p>\n<p>I had similar questions not too long ago with PHPUnit. As someone without formal training I found that getting into the Unit Testing mindset seemed abstract and unnatural at first. I think the main reason for this -- in my case, and probably yours too from the question -- is that you haven't focused on <em>REALLY</em> working to separate the concerns in your code up till now.</p>\n<p>The testing assertions seem abstract because most of your methods/functions likely perform several different discrete tasks. A successful testing mentality requires a change in how you think about your code. You should stop defining success in terms of &quot;does it work?&quot; Instead you should ask, &quot;does it work, will it play well with other code, is it designed in a way that makes it useful in other applications and can I verify that it works?&quot;</p>\n<p>For example, below is a simplified example of how you've probably written code up to this point:</p>\n<pre><code>function parse_remote_page_txt($type = 'index')\n{\n  $remote_file = ConfigSingleton::$config_remote_site . &quot;$type.php&quot;;\n  $local_file  = ConfigSingleton::$config_save_path;\n  \n  if ($txt = file_get_contents($remote_file)) {\n    if ($values_i_want_to_save = preg_match('//', $text)) {\n      if (file_exists($local_file)) {\n        $fh = fopen($local_file, 'w+');\n        fwrite($fh, $values_i_want_to_save);\n        fclose($fh);\n        return TRUE;\n      } else {\n        return FALSE;\n      }\n  } else {\n    return FALSE;\n  }  \n}\n</code></pre>\n<p>Exactly what's going on here isn't important. I'm trying to illustrate why this code is difficult to test:</p>\n<ul>\n<li><p>It's using a singleton configuration class to generate values. The success of your function depends on values from the singleton, and how can you test that this function works correctly in complete isolation when you can't instantiate new config objects with different values? A better option might be to pass your function a <code>$config</code> argument that consists of a config object or array whose values you can control. This is broadly termed &quot;<a href=\"http://www.potstuck.com/2009/01/08/php-dependency-injection/\" rel=\"nofollow noreferrer\">Dependency Injection</a>&quot; and there are discussions of this technique all over the interwebs.</p>\n</li>\n<li><p>Notice the nested <code>IF</code> statements. Testing means you're covering every executable line with some sort of test. When you nest IF statements you're creating new branches of code that require a new test path.</p>\n</li>\n<li><p>Finally, do you see how this function, though it seems to be doing one thing (parsing the contents of a remote file) is actually performing several tasks? If you zealously separate your concerns your code becomes infinitely more testable. A much more testable way to do this same thing would be ...</p>\n</li>\n</ul>\n<hr />\n<pre><code>class RemoteParser() {\n  protected $local_path;\n  protected $remote_path;\n  protected $config;\n  \n  /**\n   * Class constructor -- forces injection of $config object\n   * @param ConfigObj $config\n   */\n  public function __construct(ConfigObj $config) {\n    $this-&gt;config = $config;\n  }\n  \n  /**\n   * Setter for local_path property\n   * @param string $filename\n   */\n  public function set_local_path($filename) {\n    $file = filter_var($filename);\n    $this-&gt;local_path = $this-&gt;config-&gt;local_path . &quot;/$file.html&quot;;\n  }\n  \n  /**\n   * Setter for remote_path property\n   * @param string $filename\n   */\n  public function set_remote_path($filename) {\n    $file = filter_var($filename);\n    $this-&gt;remote_path = $this-&gt;config-&gt;remote_site . &quot;/$file.html&quot;;\n  }\n  \n  /**\n   * Retrieve the remote source\n   * @return string Remote source text\n   */\n  public function get_remote_path_src() {\n    if ( ! $this-&gt;remote_path) {\n      throw new Exception(&quot;you didn't set the remote file yet!&quot;);\n    }\n    if ( ! $this-&gt;local_path) {\n      throw new Exception(&quot;you didn't set the local file yet!&quot;);\n    }\n    if ( ! $remote_src = file_get_contents($this-&gt;remote_path)) {\n      throw new Exception(&quot;we had a problem getting the remote file!&quot;);\n    }\n    \n    return $remote_src;\n  }\n  \n  /**\n   * Parse a source string for the values we want\n   * @param string $src\n   * @return mixed Values array on success or bool(FALSE) on failure\n   */\n  public function parse_remote_src($src='') {\n    $src = filter_validate($src);\n    if (stristr($src, 'value_we_want_to_find')) {\n      return array('val1', 'val2');\n    } else {\n      return FALSE;\n    }\n  }\n  \n  /**\n   * Getter for remote file path property\n   * @return string Remote path\n   */\n  public function get_remote_path() {\n    return $this-&gt;remote_path;\n  }\n  \n  /**\n   * Getter for local file path property\n   * @return string Local path\n   */\n  public function get_local_path() {\n    return $this-&gt;local_path;\n  }\n}\n</code></pre>\n<p>As you can see, each of these class methods handles a particular function of the class that is easily testable. Did the remote file retrieval work? Did we find the the values we were trying to parse? Etc. All of a sudden those abstract assertions seem much more useful.</p>\n<p>IMHO, the more you delve into testing the more you realize it's more about good code design and sensible architecture than simply making sure things work as expected. And here is where the benefits of OOP really start to shine. You can test procedural code just fine, but for a large project with interdependent parts testing has a way of enforcing good design. I know that may be troll bait for some procedural people but oh well.</p>\n<p>The more you test, the more you'll find yourself writing code and asking yourself, &quot;Will I be able to test this?&quot; And if not, you'll probably change the structure then and there.</p>\n<p>However, code need not be elementary to be testable. <a href=\"http://www.phpunit.de/manual/current/en/test-doubles.html\" rel=\"nofollow noreferrer\">Stubbing and mocking</a> allows you to test external operations the success or failure of which is entirely out of control. You can create <a href=\"http://www.phpunit.de/manual/current/en/fixtures.html\" rel=\"nofollow noreferrer\">fixtures</a> to test database operations and pretty much anything else.</p>\n<p>The more I test, the more I realize that if I'm having a tough time testing something it's most likely because I have an underlying design problem. If I straighten that out it usually results in all green bars in my test results.</p>\n<p>Finally, here are a couple of links that really helped me to start thinking in a test-friendly fashion. The first one is <a href=\"http://misko.hevery.com/2008/07/24/how-to-write-3v1l-untestable-code/\" rel=\"nofollow noreferrer\">a tongue-in-cheek list of what NOT to do if you want to write testable code</a>. In fact, if you browse that entire site you'll find lots of helpful stuff that will help set you on the path to 100% code coverage. Another helpful article is this <a href=\"http://www.potstuck.com/2009/01/08/php-dependency-injection/\" rel=\"nofollow noreferrer\">discussion of dependency injection</a>.</p>\n",
+      "owner": {
+        "display_name": "user895378",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 14563410,
+      "body": "<p>Even with <code>setExpectedException</code>, your test is still regular PHP code, and follows PHP's normal rules. If an exception is thrown, program flow immediately jumps out of the current context until it reaches a <code>try</code>/<code>catch</code> block.</p>\n<p>In PHPUnit, when you use <code>setExpectedException</code>, it tells PHPUnit's core that when it should be expecting an exception from the code that's about to run. It therefore waits for it with a <code>try</code>/<code>catch</code> block and passes the test if the <code>catch</code> is called with the type of exception it is expecting.</p>\n<p>However, within your test method, the normal PHP rules still apply -- when the exception happens, that's the end of the current code block. Nothing more in that method will be executed, unless you have your own <code>try</code>/<code>catch</code> block within the test method.</p>\n<p>So therefore, in order to test multiple exceptions, you have a few options:</p>\n<ol>\n<li><p>Add your own <code>try</code>/<code>catch</code> to the test method, so that you can carry on with further tests within that method after the first exception.</p>\n</li>\n<li><p>Split the tests into separate methods, so that each exception is in its own test.</p>\n</li>\n<li><p>This particular example looks like a good case to use PHPUnit's <code>dataProvider</code> mechanism, because you're basically testing the same functionality with two sets of data. The <code>dataProvider</code> feature allows you to define a separate function that contains an array of input data for each set of values you want to test. These values are then passed one set at a time into the test method. Your code would look something like this:</p>\n<pre><code> /**\n  * @dataProvider providerConfigOverriding\n  */\n public function testConfigOverriding($filename, $expectedExceptionText) {\n     $this-&gt;dependencyContainer = new DependencyContainer(__DIR__ . &quot;/../../Resources/valid_json.json&quot;);\n     $this-&gt;assertEquals('overriden', $this-&gt;dependencyContainer-&gt;getConfig('shell_commander')['pygmentize_command']);\n\n     $this-&gt;setExpectedException('Exception', $expectedExceptionText);\n     $this-&gt;dependencyContainer = new DependencyContainer($filename);\n }\n\n public function providerConfigOverriding() {\n     return array(\n         array('unexisting_file', 'Configuration file at path &quot;unexisting_file&quot; doesn\\'t exist.'),\n         array(__DIR__ . &quot;/../../Resources/invalid_json.json&quot;, &quot;Configuration JSON file provided is not valid.&quot;),\n     );\n }\n</code></pre>\n</li>\n</ol>\n",
+      "owner": {
+        "display_name": "SDC",
+        "link": "https://stackoverflow.com/users/1069607/sdc"
+      }
+    },
+    {
+      "answer_id": 42260682,
+      "body": "<p>For what it's worth (being late), I ran into this recently while I was making a new Laravel 5.1 project for a simple website. I tried to debug it and was confused when I tried:</p>\n<pre><code>php artisan make:test homeTest\n</code></pre>\n<p>(which has a default test that just asserts true is true)</p>\n<p>and saw the output</p>\n<pre><code>No tests executed!\n</code></pre>\n<p>What the problem ended up being for me was related to my PHP installation -- &quot;phpunit&quot; was globally registered and configured differently, whereas the phpunit that came with the Laravel installation was configured just right and ran perfectly.</p>\n<p>So the fix is running the vendor's configured phpunit (from the same root directory as app/ and tests/):</p>\n<pre><code>./vendor/bin/phpunit\n</code></pre>\n",
+      "owner": {
+        "display_name": "RoboBear",
+        "link": "https://stackoverflow.com/users/3069555/robobear"
+      }
+    },
+    {
+      "answer_id": 2070456,
+      "body": "<p>I had the same problem yesterday, and solved it by updating the channels</p>\n<pre><code>pear clear-cache\npear update-channels\n</code></pre>\n<p>before trying to install phpUnit.</p>\n",
+      "owner": {
+        "display_name": "Davide",
+        "link": "https://stackoverflow.com/users/251388/davide"
+      }
+    },
+    {
+      "answer_id": 39482142,
+      "body": "<p>Currently, in <code>5.3</code> this is working...</p>\n<pre class=\"lang-php prettyprint-override\"><code>$content = $this-&gt;get('/v1/users/1')-&gt;response-&gt;getContent();\n</code></pre>\n<p>However, it does break the chain since <code>response</code> returns the response and not the test runner.  So, you should make your chainable assertions before fetching the response, like so...</p>\n<pre class=\"lang-php prettyprint-override\"><code>$content = $this-&gt;get('/v1/users/1')-&gt;seeStatusCode(200)-&gt;response-&gt;getContent();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mike McLin",
+        "link": "https://stackoverflow.com/users/58795/mike-mclin"
+      }
+    },
+    {
+      "answer_id": 31669672,
+      "body": "<p>Inside controller inject Request object. So if you want to access request body inside controller method 'foo' do the following:</p>\n<pre class=\"lang-php prettyprint-override\"><code>use Illuminate\\Http\\Request;\n\n    public function foo(Request $request){\n        $bodyContent = $request-&gt;getContent();\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "gandra404",
+        "link": "https://stackoverflow.com/users/267073/gandra404"
+      }
+    },
+    {
+      "answer_id": 5989095,
+      "body": "<p>The PHPUnit Mocking library (by default) determines whether an expectation matches based solely on the matcher passed to <code>expects</code> parameter and the constraint passed to <code>method</code>. Because of this, two <code>expect</code> calls that only differ in the arguments passed to <code>with</code> will fail because both will match but only one will verify as having the expected behavior. See the reproduction case after the actual working example.</p>\n<hr />\n<p>For you problem you need to use <code>-&gt;at()</code> or <strong><code>-&gt;will($this-&gt;returnCallback(</code></strong> as outlined in <a href=\"https://stackoverflow.com/questions/5484602/mock-in-phpunit-multiple-configuration-of-the-same-method-with-different-argume/\"><strong><code>another question on the subject</code></strong></a>.</p>\n<h2 id=\"example\">Example:</h2>\n<pre><code>&lt;?php\n\nclass DB {\n    public function Query($sSql) {\n        return &quot;&quot;;\n    }\n}\n\nclass fooTest extends PHPUnit_Framework_TestCase {\n\n\n    public function testMock() {\n\n        $mock = $this-&gt;getMock('DB', array('Query'));\n\n        $mock\n            -&gt;expects($this-&gt;exactly(2))\n            -&gt;method('Query')\n            -&gt;with($this-&gt;logicalOr(\n                 $this-&gt;equalTo('select * from roles'),\n                 $this-&gt;equalTo('select * from users')\n             ))\n            -&gt;will($this-&gt;returnCallback(array($this, 'myCallback')));\n\n        var_dump($mock-&gt;Query(&quot;select * from users&quot;));\n        var_dump($mock-&gt;Query(&quot;select * from roles&quot;));\n    }\n\n    public function myCallback($foo) {\n        return &quot;Called back: $foo&quot;;\n    }\n}\n</code></pre>\n<h2 id=\"reproduces\">Reproduces:</h2>\n<pre><code>phpunit foo.php\nPHPUnit 3.5.13 by Sebastian Bergmann.\n\nstring(32) &quot;Called back: select * from users&quot;\nstring(32) &quot;Called back: select * from roles&quot;\n.\n\nTime: 0 seconds, Memory: 4.25Mb\n\nOK (1 test, 1 assertion)\n</code></pre>\n<hr />\n<hr />\n<h2 id=\"reproduce-why-two-with-calls-dont-work\">Reproduce why two -&gt;with() calls don't work:</h2>\n<pre><code>&lt;?php\n\nclass DB {\n    public function Query($sSql) {\n        return &quot;&quot;;\n    }\n}\n\nclass fooTest extends PHPUnit_Framework_TestCase {\n\n\n    public function testMock() {\n\n        $mock = $this-&gt;getMock('DB', array('Query'));\n        $mock\n            -&gt;expects($this-&gt;once())\n            -&gt;method('Query')\n            -&gt;with($this-&gt;equalTo('select * from users'))\n            -&gt;will($this-&gt;returnValue(array('fred', 'wilma', 'barney')));\n\n        $mock\n            -&gt;expects($this-&gt;once())\n            -&gt;method('Query')\n            -&gt;with($this-&gt;equalTo('select * from roles'))\n            -&gt;will($this-&gt;returnValue(array('admin', 'user')));\n\n        var_dump($mock-&gt;Query(&quot;select * from users&quot;));\n        var_dump($mock-&gt;Query(&quot;select * from roles&quot;));\n    }\n\n}\n</code></pre>\n<h2 id=\"results-in\">Results in</h2>\n<pre><code> phpunit foo.php\nPHPUnit 3.5.13 by Sebastian Bergmann.\n\nF\n\nTime: 0 seconds, Memory: 4.25Mb\n\nThere was 1 failure:\n\n1) fooTest::testMock\nFailed asserting that two strings are equal.\n--- Expected\n+++ Actual\n@@ @@\n-select * from roles\n+select * from users\n\n/home/.../foo.php:27\n\nFAILURES!\nTests: 1, Assertions: 0, Failures: 1\n</code></pre>\n",
+      "owner": {
+        "display_name": "edorian",
+        "link": "https://stackoverflow.com/users/285578/edorian"
+      }
+    },
+    {
+      "answer_id": 4917471,
+      "body": "<p>If you are trying to achieve 100% code coverage but have one or more lines that you cannot test, you can surround them with special annotations. They will be ignored in the code coverage report.</p>\n<pre><code>if (($result = file_get_contents($url)) === false) {\n    // @codeCoverageIgnoreStart\n    $this-&gt;handleError($url);\n    // @codeCoverageIgnoreEnd\n}\n</code></pre>\n<p><strong>Edit:</strong> I have found that Xdebug often considers the closing brace to be executable. :( If that happens, move the end tag below it.</p>\n",
+      "owner": {
+        "display_name": "David Harkness",
+        "link": "https://stackoverflow.com/users/285873/david-harkness"
+      }
+    },
+    {
+      "answer_id": 14749074,
+      "body": "<p>This can be a limitation on the server where the code is running. Every operating system only allows for a certain number of open files/handles/sockets. This limit is usually further reduced when the server is virtualized. On a Linux server you can check the current limit with <code>ulimit -n</code>, if you have root access you can increase it with the same command. I assume there is a method for Windows server as well. Otherwise there is not much you can do about it (except ask your hoster or administrator to increase it).</p>\n<p>More configurable limits:</p>\n<p>Change in <code>/etc/security/limits.conf</code></p>\n<pre><code>soft nofile 1024\nhard nofile 65535\n</code></pre>\n<p>Increase ulimit by <code>ulimit -n 65535</code>\nor <code>echo 65535 &gt; /proc/sys/fs/file-max </code> or in <code>/etc/sysctl.conf</code>:</p>\n<pre><code>fs.file-max=65535\n</code></pre>\n",
+      "owner": {
+        "display_name": "Gerald Schneider",
+        "link": "https://stackoverflow.com/users/212107/gerald-schneider"
+      }
+    },
+    {
+      "answer_id": 24890793,
+      "body": "<p><strong>Old answer (2014)</strong>:\nIt's said that phpunit will not be available via PEAR since December 2014.<br />\nSo it's easy to install it using <a href=\"https://getcomposer.org/Composer-Setup.exe\" rel=\"noreferrer\">composer</a>:</p>\n<pre><code>composer global require &quot;phpunit/phpunit=4.1.*&quot;\n</code></pre>\n<p><strong>Update 2019</strong>: it should be installed as a local (for your project) development package:</p>\n<pre><code> composer require --dev phpunit/phpunit ^8\n</code></pre>\n<p><strong>Update 2020</strong>: it should be installed as a local (for your project) development package:\n<em><strong>composer require --dev phpunit/phpunit ^9.3</strong></em></p>\n",
+      "owner": {
+        "display_name": "Dmitry",
+        "link": "https://stackoverflow.com/users/966972/dmitry"
+      }
+    },
+    {
+      "answer_id": 55091860,
+      "body": "<p>This file helps PHPUnit remember which tests previously failed, which can speed up your testing flow if you only re-run failed tests during development. This is useful for test-driven workflows in which you have configured tests to run automatically, such as on file save, and the same collection of tests is being run repeatedly.</p>\n<blockquote>\n<p>It is also a good idea to add the cache file .phpunit.result.cache to\nyour .gitignore so that it does not end up being committed to your\nrepository.</p>\n<p><a href=\"https://laravel-news.com/tips-to-speed-up-phpunit-tests\" rel=\"noreferrer\">https://laravel-news.com/tips-to-speed-up-phpunit-tests</a></p>\n</blockquote>\n<p>If you would prefer not to generate the file then you can run phpunit with the <code>--do-not-cache-result</code> option, as pointed out by @Slack Undertow in the comments. This might be desired when running tests as part of a build pipeline, for example. Or, as @codekandis pointed out, the same option is available as the <code>cacheResult</code> attribute in <code>phpunit.xml</code>.</p>\n",
+      "owner": {
+        "display_name": "Travis Britz",
+        "link": "https://stackoverflow.com/users/6038111/travis-britz"
+      }
+    },
+    {
+      "answer_id": 31124840,
+      "body": "<p>You can test a Trait using a similar to testing an Abstract Class' concrete methods.</p>\n\n<p><a href=\"https://phpunit.readthedocs.io/en/9.1/test-doubles.html?highlight=trait#mocking-traits-and-abstract-classes\" rel=\"noreferrer\">PHPUnit has a method getMockForTrait</a> which will return an object that uses the trait.  Then you can test the traits functions.</p>\n\n<p>Here is the example from the documentation:</p>\n\n<pre><code>&lt;?php\ntrait AbstractTrait\n{\n    public function concreteMethod()\n    {\n        return $this-&gt;abstractMethod();\n    }\n\n    public abstract function abstractMethod();\n}\n\nclass TraitClassTest extends PHPUnit_Framework_TestCase\n{\n    public function testConcreteMethod()\n    {\n        $mock = $this-&gt;getMockForTrait('AbstractTrait');\n\n        $mock-&gt;expects($this-&gt;any())\n             -&gt;method('abstractMethod')\n             -&gt;will($this-&gt;returnValue(TRUE));\n\n        $this-&gt;assertTrue($mock-&gt;concreteMethod());\n    }\n}\n?&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Schleis",
+        "link": "https://stackoverflow.com/users/498699/schleis"
+      }
+    },
+    {
+      "answer_id": 35463959,
+      "body": "<p>tl;dr:</p>\n\n<ul>\n<li>If and only if you want to go the whole functional test route, then I recommend looking up <a href=\"https://stackoverflow.com/a/12508889/457268\">Sgoettschkes's answer</a>.</li>\n<li>If you want to unit test your application and have to test code that interacts with the database, either read on or jump directly to <a href=\"https://symfony.com/doc/2.8/testing/database.html\" rel=\"nofollow noreferrer\">symfony2 docs</a><br /> (There is a more up-to-date version also talking about <a href=\"http://symfony.com/doc/current/cookbook/testing/database.html\" rel=\"nofollow noreferrer\">testing with fixtures for symfony5</a>)</li>\n</ul>\n\n<p><hr>\nThere were certain aspects in my original question that make it clear that my understanding of the differences between unit testing and functional tests was lacking. (As I have written I want to unit test the application, yet was also talking about Controller test at the same time; and those are functional test by defintion).</p>\n\n<p>Unit testing only makes sense for services and not for repositories. And those services can use mocks of the entity manager. (I would even go as far as to say: If possible, write services that only expect entities to be passed into them. Then you only need to create mocks of those entities and your unit-tests of your business logic become very straightforward.)</p>\n\n<p>My actual use case for my application was pretty well reflected on the symfony2 docs on <a href=\"https://symfony.com/doc/2.8/testing/database.html\" rel=\"nofollow noreferrer\">how to test code that interacts with the database</a>.</p>\n\n<p>They provide this example for a service test:</p>\n\n<p>Service class:</p>\n\n<pre><code>use Doctrine\\Common\\Persistence\\ObjectManager;\n\nclass SalaryCalculator\n{\n    private $entityManager;\n\n    public function __construct(ObjectManager $entityManager)\n    {\n        $this-&gt;entityManager = $entityManager;\n    }\n\n    public function calculateTotalSalary($id)\n    {\n        $employeeRepository = $this-&gt;entityManager\n            -&gt;getRepository('AppBundle:Employee');\n        $employee = $employeeRepository-&gt;find($id);\n\n        return $employee-&gt;getSalary() + $employee-&gt;getBonus();\n    }\n}\n</code></pre>\n\n<p>Service test class:</p>\n\n<pre><code>namespace Tests\\AppBundle\\Salary;\n\nuse AppBundle\\Salary\\SalaryCalculator;\nuse AppBundle\\Entity\\Employee;\nuse Doctrine\\ORM\\EntityRepository;\nuse Doctrine\\Common\\Persistence\\ObjectManager;\n\nclass SalaryCalculatorTest extends \\PHPUnit_Framework_TestCase\n{\n    public function testCalculateTotalSalary()\n    {\n        // First, mock the object to be used in the test\n        $employee = $this-&gt;getMock(Employee::class);\n        $employee-&gt;expects($this-&gt;once())\n            -&gt;method('getSalary')\n            -&gt;will($this-&gt;returnValue(1000));\n        $employee-&gt;expects($this-&gt;once())\n            -&gt;method('getBonus')\n            -&gt;will($this-&gt;returnValue(1100));\n\n        // Now, mock the repository so it returns the mock of the employee\n        $employeeRepository = $this\n            -&gt;getMockBuilder(EntityRepository::class)\n            -&gt;disableOriginalConstructor()\n            -&gt;getMock();\n        $employeeRepository-&gt;expects($this-&gt;once())\n            -&gt;method('find')\n            -&gt;will($this-&gt;returnValue($employee));\n\n        // Last, mock the EntityManager to return the mock of the repository\n        $entityManager = $this\n            -&gt;getMockBuilder(ObjectManager::class)\n            -&gt;disableOriginalConstructor()\n            -&gt;getMock();\n        $entityManager-&gt;expects($this-&gt;once())\n            -&gt;method('getRepository')\n            -&gt;will($this-&gt;returnValue($employeeRepository));\n\n        $salaryCalculator = new SalaryCalculator($entityManager);\n        $this-&gt;assertEquals(2100, $salaryCalculator-&gt;calculateTotalSalary(1));\n    }\n}\n</code></pre>\n\n<p>No test database required for those kind of test, only mocking.</p>\n\n<p>As it is important to test the business logic, not the persistence layer.</p>\n\n<p>Only for functional tests does it make sense to have its own test database that one should build and tear down afterwards, and the big question should be: </p>\n\n<p>When do functional test make sense?</p>\n\n<p>I used to think that <em>test all the things</em> is the right answer; yet after working with lots of legacy software that in itself was barely test-driven developed I have become a bit more <s>lazy</s>pragmatic and consider certain functionality as working until proven otherwise by a bug.</p>\n\n<p>Assume I have an application that parses an XML, creates an object out of it, and stores those objects into a database. If the logic that stores the objects to the database is known to work (as in: the company requires the data and is, as of yet, not broke), and even if that logic is a big ugly pile of crap, there is no <em>imminent</em> need to test that. As all I need to make sure that my XML parser extracts the right data. I can infer from experience that the right data will be stored.</p>\n\n<p>There are scenarios where functional test are quite important, i.e. if one were to write an online shop. There it would be business critical that bought items get stored into the database and here functional tests with the whole test database make absolute sense.</p>\n",
+      "owner": {
+        "display_name": "k0pernikus",
+        "link": "https://stackoverflow.com/users/457268/k0pernikus"
+      }
+    },
+    {
+      "answer_id": 42657764,
+      "body": "<p>Luckily, playing with different options I have solved this issue. A '*' is expected as key if we are to match a nested object in an array. We can see the reference here. </p>\n\n<p><a href=\"https://github.com/laravel/framework/blob/2e6907851ae91685e4313b1258035bcc73bf1df1/src/Illuminate/Foundation/Testing/TestResponse.php#L607\" rel=\"noreferrer\">Source: TestResponse</a></p>\n\n<p>I have set the structure like this for <code>array of</code>objects`</p>\n\n<pre><code>$response-&gt;assertJsonStructure([\n    'status',\n    'message',\n    'data' =&gt; [\n      '*' =&gt; [\n        'id',\n        'name',\n        'email',\n        'created_at',\n        'updated_at',\n        'user_id'\n      ]\n    ]\n  ]);\n</code></pre>\n\n<p>And if you want to match just a single object </p>\n\n<pre><code>$response-&gt;assertJsonStructure([\n    'status',\n    'message',\n    'data' =&gt; [\n      [\n        'id',\n        'name',\n        'email',\n        'created_at',\n        'updated_at',\n        'user_id'\n      ]\n    ]\n  ]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Farooq Ahmed Khan",
+        "link": "https://stackoverflow.com/users/900032/farooq-ahmed-khan"
+      }
+    },
+    {
+      "answer_id": 26095567,
+      "body": "<p>The following command runs the test on a single method: </p>\n\n<pre><code>phpunit --filter testSaveAndDrop EscalationGroupTest escalation/EscalationGroupTest.php\n\nphpunit --filter methodName ClassName path/to/file.php\n</code></pre>\n\n<p>For newer versions of phpunit, it is just:</p>\n\n<pre><code>phpunit --filter methodName path/to/file.php\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alex",
+        "link": "https://stackoverflow.com/users/1581090/alex"
+      }
+    },
+    {
+      "answer_id": 18972978,
+      "body": "<p>Instead of </p>\n\n<pre><code>$http_client = $this-&gt;getMockBuilder(Cpm\\Http\\IClient::class);\n</code></pre>\n\n<p>use</p>\n\n<pre><code>$http_client = $this-&gt;getMock(Cpm\\Http\\IClient::class);\n</code></pre>\n\n<p>or</p>\n\n<pre><code>$http_client = $this-&gt;getMockBuilder(Cpm\\Http\\IClient::class)-&gt;getMock();\n</code></pre>\n\n<p>Totally works!</p>\n",
+      "owner": {
+        "display_name": "Dmitry Minkovsky",
+        "link": "https://stackoverflow.com/users/741970/dmitry-minkovsky"
+      }
+    },
+    {
+      "answer_id": 21723937,
+      "body": "<pre><code>$this-&gt;assertInternalType(\"int\", $id);\n</code></pre>\n\n<p><strong>Edit</strong>: As of <a href=\"https://phpunit.readthedocs.io/en/8.0/assertions.html?highlight=assertIsInt\" rel=\"noreferrer\">PHPUnit 8</a>, the answer is:</p>\n\n<pre><code>$this-&gt;assertIsInt($id);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Farid Movsumov",
+        "link": "https://stackoverflow.com/users/1071156/farid-movsumov"
+      }
+    },
+    {
+      "answer_id": 44584224,
+      "body": "<p>To add properties to a mocked object, you just set them as you'd normally do with an object:</p>\n\n<pre><code>$mock = $this-&gt;getMockBuilder('MyClass')\n             -&gt;disableOriginalConstructor()\n             -&gt;getMock();\n\n$mock-&gt;property = 'some_value';\n</code></pre>\n\n<p><code>$mock-&gt;property</code> will now return <code>'some_value'</code></p>\n\n<p>Thanks to <em>akond</em></p>\n\n<p>P.s. for my project, this doesn't work with some classes, and when I try to call <code>$mock-&gt;property</code> it just returns <code>NULL</code></p>\n",
+      "owner": {
+        "display_name": "Riccardo Cedrola",
+        "link": "https://stackoverflow.com/users/8113384/riccardo-cedrola"
+      }
+    },
+    {
+      "answer_id": 10254238,
+      "body": "<p>I use both sporadically, but according to the docs:</p>\n\n<h2><a href=\"https://phpunit.de/manual/current/en/appendixes.assertions.html#appendixes.assertions.assertSame\" rel=\"noreferrer\"><code>assertSame</code></a></h2>\n\n<blockquote>\n  <p>Reports an error identified by <code>$message</code> if the two variables <code>$expected</code> and <code>$actual</code> do not have the same <strong>type</strong> and <strong>value</strong>.\"</p>\n</blockquote>\n\n<p>And as you can see in the example below the above excerpt, they are passing <code>'2204'</code> and <code>2204</code>, which will fail using <code>assertSame</code> because one is a <code>string</code> and one is an <code>int,</code> basically:</p>\n\n<pre><code>'2204' !== 2204\nassertSame('2204', 2204) // this test fails\n</code></pre>\n\n<h2><a href=\"https://phpunit.de/manual/current/en/appendixes.assertions.html#appendixes.assertions.assertEquals\" rel=\"noreferrer\"><code>assertEquals</code></a></h2>\n\n<blockquote>\n  <p>\"Reports an error identified by $message if the two variables $expected and $actual are not equal.\"</p>\n</blockquote>\n\n<p><code>assertEquals</code> does not appear to take datatype into consideration so using the above example of <code>2204</code>:</p>\n\n<pre><code>'2204' == 2204\nassertEquals('2204', 2204) // this test passes\n</code></pre>\n\n<p>I just ran some unit tests against the above examples, and indeed they resulted in documented behavior.</p>\n",
+      "owner": {
+        "display_name": "Mike Purcell",
+        "link": "https://stackoverflow.com/users/529967/mike-purcell"
+      }
+    },
+    {
+      "answer_id": 4733574,
+      "body": "<p><a href=\"https://stackoverflow.com/a/4731869/5441\">@Toader Mihai offered a solid explanation.</a> (+1 from me)</p>\n\n<h2>How to lower it:</h2>\n\n<p>Write less complex code OR write better tested code. (See the graph below)</p>\n\n<p><strong>Better tested Code ?</strong></p>\n\n<p>In this context this just means: A higher code coverage and usually results in writing more tests.</p>\n\n<p><strong>Less complex code ?</strong></p>\n\n<p>For example: Refactor your methods into smaller ones:</p>\n\n<pre><code>// Complex\nfunction doSomething() {\n    if($a) {\n        if($b) {\n        }\n        if($c) {\n        }\n    } else {\n        if($b) {\n        }\n        if($c) {\n        }\n    }\n}\n\n// 3 less complex functions\nfunction doSomething() {\n    if($a) {\n        doA();\n    } else {\n        doNotA();\n    }\n}\n\nfunction doA() {\n    if($b) {\n    }\n    if($c) {\n    }\n}\n\nfunction doNotA() {\n    if($b) {\n    }\n    if($c) {\n    }\n}\n</code></pre>\n\n<p>(just a trivial example, you'll find more resources for that i'm sure)</p>\n\n<h2>Additional resources:</h2>\n\n<p>First off let me provide some additional resources: </p>\n\n<p><a href=\"http://www.artima.com/weblogs/viewpost.jsp?thread=210575\" rel=\"noreferrer\">Creators blog post about the crap index</a></p>\n\n<p>just in case: <a href=\"http://en.wikipedia.org/wiki/Cyclomatic_complexity\" rel=\"noreferrer\">Cyclomatic complexity explained</a>. Tools like PHP_CodeSniffer and PHPMD will tell you that number in case you want to know.</p>\n\n<p>And while it is for you to decide what number is \"ok\" one often suggested number (that is a litte high imho) is a crap index of <strong>30</strong> resulting in a Graph like this:</p>\n\n<p><img src=\"https://i.sstatic.net/x3XAY.png\" alt=\"alt text\">\n(You can get the .ods file here: <a href=\"https://www.dropbox.com/s/3bihb9thlp2fyg8/crap.ods?dl=1\" rel=\"noreferrer\">https://www.dropbox.com/s/3bihb9thlp2fyg8/crap.ods?dl=1</a> )</p>\n",
+      "owner": {
+        "display_name": "edorian",
+        "link": "https://stackoverflow.com/users/285578/edorian"
+      }
+    },
+    {
+      "answer_id": 12606210,
+      "body": "<p><strong>UPDATE</strong></p>\n\n<p>Just realized another way to do this that works much better than the <code>--verbose</code> command line option:</p>\n\n<pre><code>class TestSomething extends PHPUnit_Framework_TestCase {\n    function testSomething() {\n        $myDebugVar = array(1, 2, 3);\n        fwrite(STDERR, print_r($myDebugVar, TRUE));\n    }\n}\n</code></pre>\n\n<p>This lets you dump anything to your console at any time without all the unwanted output that comes along with the <code>--verbose</code> CLI option.</p>\n\n<hr>\n\n<p>As other answers have noted, it's best to test output using the built-in methods like:</p>\n\n<pre><code>$this-&gt;expectOutputString('foo');\n</code></pre>\n\n<p>However, sometimes it's helpful to be naughty and see one-off/temporary debugging output from within your test cases. There is no need for the <code>var_dump</code> hack/workaround, though. This can easily be accomplished by setting the <code>--verbose</code> command line option when running your test suite. For example:</p>\n\n<pre><code>$ phpunit --verbose -c phpunit.xml\n</code></pre>\n\n<p>This will display output from inside your test methods when running in the CLI environment.</p>\n\n<p>See: <a href=\"https://phpunit.readthedocs.io/en/latest/writing-tests-for-phpunit.html#testing-output\" rel=\"noreferrer\">Writing Tests for PHPUnit - Testing Output</a>.</p>\n",
+      "owner": {
+        "display_name": "user895378",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 24440576,
+      "body": "<p>I had the same problem and resolved it by <strong>removing</strong> this:</p>\n\n<pre><code>printerClass=\"PHPUnit_TextUI_ResultPrinter\"\n</code></pre>\n\n<p>from the options on the base  tag in the phpunit.xml config file.</p>\n",
+      "owner": {
+        "display_name": "Gerg",
+        "link": "https://stackoverflow.com/users/2484011/gerg"
+      }
+    },
+    {
+      "answer_id": 9746200,
+      "body": "<p>The issue is that PHPUnit will print a header to the screen and at that point you can't add more headers.</p>\n\n<p>The work around is to run the test in an isolated process. Here is an example</p>\n\n<pre><code>&lt;?php\n\nclass FooTest extends PHPUnit_Framework_TestCase\n{\n    /**\n     * @runInSeparateProcess\n     */\n    public function testBar()\n    {\n        header('Location : http://foo.com');\n    }\n}\n</code></pre>\n\n<p>This will result in:</p>\n\n<pre><code>$ phpunit FooTest.php\nPHPUnit 3.6.10 by Sebastian Bergmann.\n\n.\n\nTime: 1 second, Memory: 9.00Mb\n\nOK (1 test, 0 assertions)\n</code></pre>\n\n<p>The key is the @runInSeparateProcess annotation. </p>\n\n<p>If you are using PHPUnit ~4.1 or something and get the error:</p>\n\n<pre><code>PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Util_Configuration' not found in -:378\nStack trace:\n#0 {main}\n  thrown in - on line 378\n\nFatal error: Uncaught Error: Class 'PHPUnit_Util_Configuration' not found in - on line 378\n\nError: Class 'PHPUnit_Util_Configuration' not found in - on line 378\n\nCall Stack:\n    0.0013     582512   1. {main}() -:0\n</code></pre>\n\n<p>Try add this to your bootstrap file to fix it:</p>\n\n<pre><code>&lt;?php\nif (!defined('PHPUNIT_COMPOSER_INSTALL')) {\n    define('PHPUNIT_COMPOSER_INSTALL', __DIR__ . '/path/to/composer/vendors/dir/autoload.php');\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "SamHennessy",
+        "link": "https://stackoverflow.com/users/1269893/samhennessy"
+      }
+    },
+    {
+      "answer_id": 39346622,
+      "body": "<p>Finally found the solution !</p>\n\n<p>Just add </p>\n\n<pre><code>&lt;php&gt;\n    &lt;env name=\"SYMFONY_DEPRECATIONS_HELPER\" value=\"weak\" /&gt;\n&lt;/php&gt;\n</code></pre>\n\n<p>to your <code>phpunit.xml</code> (or any other file that you use to configure phpunit)</p>\n",
+      "owner": {
+        "display_name": "Romain Bigz",
+        "link": "https://stackoverflow.com/users/5445093/romain-bigz"
+      }
+    },
+    {
+      "answer_id": 5937899,
+      "body": "<p>Usually you just don't test or mock the private &amp; protected methods directy.</p>\n\n<p>What you want to test is the <strong>public</strong> API of your class. Everything else is an implementation detail for your class and should not \"break\" your tests if you change it.</p>\n\n<p>That also helps you when you notice that you \"can't get 100% code coverage\" because you might have code in your class that you can't execute by calling the public API.</p>\n\n<hr>\n\n<h1>You usually don't want to do this</h1>\n\n<p>But if your class looks like this:</p>\n\n<pre><code>class a {\n\n    public function b() {\n        return 5 + $this-&gt;c();\n    }\n\n    private function c() {\n        return mt_rand(1,3);\n    }\n}\n</code></pre>\n\n<p>i can see the need to want to mock out c() since the \"random\" function is global state and you can't test that.</p>\n\n<p>The \"clean?/verbose?/overcomplicated-maybe?/i-like-it-usually\" Solution</p>\n\n<pre><code>class a {\n\n    public function __construct(RandomGenerator $foo) {\n        $this-&gt;foo = $foo;\n    }\n\n    public function b() {\n        return 5 + $this-&gt;c();\n    }\n\n    private function c() {\n        return $this-&gt;foo-&gt;rand(1,3);\n    }\n}\n</code></pre>\n\n<p>now there is no more need to mock \"c()\" out since it does not contain any globals and you can test nicely.</p>\n\n<hr>\n\n<p>If you don't want to do or can't remove the global state from your private function (bad thing bad reality or you definition of bad might be different) that you <strong>can</strong> test against the mock.</p>\n\n<pre><code>// maybe set the function protected for this to work\n$testMe = $this-&gt;getMock(\"a\", array(\"c\"));\n$testMe-&gt;expects($this-&gt;once())-&gt;method(\"c\")-&gt;will($this-&gt;returnValue(123123));\n</code></pre>\n\n<p>and run your tests against this mock since the only function you take out/mock is \"c()\".</p>\n\n<hr>\n\n<p>To quote the \"Pragmatic Unit Testing\" book:</p>\n\n<blockquote>\n  <p>\"In general, you don't want to break any encapsulation for the sake of testing (or as Mom used to say, \"don't expose your privates!\"). Most of the time, you should be able to test a class by exercising its public methods. If there is significant functionality that is hidden behind private or protected access, that might be a warning sign that there's another class in there struggling to get out.\"</p>\n</blockquote>\n\n<hr>\n\n<p>Some more: <a href=\"http://edorian.github.io/2012-03-14-The-UNIT-in-unit-testing/\" rel=\"noreferrer\"><strong><code>Why you don't want test private methods.</code></strong></a></p>\n",
+      "owner": {
+        "display_name": "edorian",
+        "link": "https://stackoverflow.com/users/285578/edorian"
+      }
+    },
+    {
+      "answer_id": 2424495,
+      "body": "<p>You can use phing to run a <a href=\"https://www.phing.info/docs/guide/stable/PHPUnitTask.html\" rel=\"nofollow noreferrer\">PHPUnitTask</a> and then convert the output with:</p>\n\n<ul>\n<li><a href=\"https://www.phing.info/docs/guide/stable/PHPUnitReport.html\" rel=\"nofollow noreferrer\">PHPUnitReport</a> - This task transforms PHPUnit xml reports to HTML using XSLT.</li>\n</ul>\n\n<p>Example:</p>\n\n<pre><code>&lt;phpunitreport infile=\"reports/testsuites.xml\" \n    format=\"frames\" \n    todir=\"reports/tests\" \n    styledir=\"/home/phing/etc\"/&gt;\n</code></pre>\n\n<p>See <code>phpunit --help</code> for the various output formats.</p>\n\n<p>The 2.3 version of PHPUnit had a chapter on this, but it is gone for some time now. You might be able to find an old copy with Google somewhere.</p>\n\n<p>Since you mention this is for phpUnderControl: if you are not fixed on that, consider using Jenkins and <a href=\"http://jenkins-php.org\" rel=\"nofollow noreferrer\">http://jenkins-php.org</a>.</p>\n\n<p>On a side note: unless we are talking CI servers, most people I know don't use PHPUnit through a web interface. They either just use the command line or their IDE integration.</p>\n",
+      "owner": {
+        "display_name": "gooh",
+        "link": "https://stackoverflow.com/users/208809/gooh"
+      }
+    },
+    {
+      "answer_id": 14867853,
+      "body": "<p>Here's the code as if PHPUnit 3.7.13</p>\n\n<pre><code>$ phpunit --configuration config.xml --testsuite Library\n$ phpunit --configuration config.xml --testsuite XXX_Form\n</code></pre>\n\n<p>If you want to run a group of the test suites then you can do this</p>\n\n<pre><code>&lt;testsuites&gt;\n  &lt;testsuite name=\"Library\"&gt;\n    &lt;directory&gt;library&lt;/directory&gt;\n  &lt;/testsuite&gt;\n  &lt;testsuite name=\"XXX_Form\"&gt;\n    &lt;file&gt;library/XXX/FormTest.php&lt;/file&gt;\n    &lt;directory&gt;library/XXX/Form&lt;/directory&gt;\n  &lt;/testsuite&gt;\n  &lt;testsuite name=\"Both\"&gt;\n    &lt;directory&gt;library&lt;/directory&gt;\n    &lt;file&gt;library/XXX/FormTest.php&lt;/file&gt;\n    &lt;directory&gt;library/XXX/Form&lt;/directory&gt;\n  &lt;/testsuite&gt;\n&lt;/testsuites&gt;\n</code></pre>\n\n<p>Then</p>\n\n<pre><code>$ phpunit --configuration config.xml --testsuite Both\n</code></pre>\n\n<p>Unfortunately PHPUnit currently does not support nested testsuites like this</p>\n\n<pre><code>&lt;testsuites&gt;\n    &lt;testsuite name=\"Both\"&gt;\n      &lt;testsuite name=\"Library\"&gt;\n        &lt;directory&gt;library&lt;/directory&gt;\n      &lt;/testsuite&gt;\n      &lt;testsuite name=\"XXX_Form\"&gt;\n        &lt;file&gt;library/XXX/FormTest.php&lt;/file&gt;\n        &lt;directory&gt;library/XXX/Form&lt;/directory&gt;\n      &lt;/testsuite&gt;\n  &lt;/testsuite&gt;\n&lt;/testsuites&gt;\n</code></pre>\n\n<p>So if you wanted to run groups of test suites this way you have to have xml configuration duplication!</p>\n",
+      "owner": {
+        "display_name": "Josh Woodcock",
+        "link": "https://stackoverflow.com/users/2070773/josh-woodcock"
+      }
+    },
+    {
+      "answer_id": 39119769,
+      "body": "<p>After trying several ways, I found out that I don't need to include the folder to test the specific test class. This works for me it runs all the test on the class: </p>\n\n<p><code>phpunit --filter ApplicationVersionFormatTest</code></p>\n\n<p>I think it's because my ApplicationVersionFormatTest extend The TestCase and return application instance which serves as the \"glue\" for all the components of Laravel.</p>\n",
+      "owner": {
+        "display_name": "Gujarat Santana",
+        "link": "https://stackoverflow.com/users/2652524/gujarat-santana"
+      }
+    },
+    {
+      "answer_id": 38363333,
+      "body": "<p>From the manual\n<a href=\"https://phpunit.de/manual/current/en/test-doubles.html\" rel=\"noreferrer\">https://phpunit.de/manual/current/en/test-doubles.html</a></p>\n\n<blockquote>\n  <p>The createMock($type) and getMockBuilder($type) methods provided by\n  PHPUnit can be used in a test to automatically generate an object that\n  can act as a test double for the specified original type (interface or\n  class name). This test double object can be used in every context\n  where an object of the original type is expected or required.</p>\n  \n  <p>The <strong>createMock($type)</strong> method immediately returns a test double object\n  for the specified type (interface or class). The creation of this test\n  double is performed using best practice defaults (the __construct()\n  and __clone() methods of the original class are not executed and the\n  arguments passed to a method of the test double will not be cloned.</p>\n  \n  <p>If these defaults are not what you need then you can use the\n  <strong>getMockBuilder($type)</strong> method to customize the test double generation\n  using a fluent interface.</p>\n</blockquote>\n\n<p>They are already plenty answers on stack overflow what are fluent interfaces.</p>\n",
+      "owner": {
+        "display_name": "PD81",
+        "link": "https://stackoverflow.com/users/706466/pd81"
+      }
+    },
+    {
+      "answer_id": 7646333,
+      "body": "<p><strong>Quick update:</strong> phpunit does now support Selenium 2</p>\n\n<ul>\n<li><a href=\"https://phpunit.de/manual/3.6/en/selenium.html\" rel=\"nofollow noreferrer\">https://phpunit.de/manual/3.6/en/selenium.html</a></li>\n<li><a href=\"https://phpunit.de/manual/4.8/en/selenium.html\" rel=\"nofollow noreferrer\">https://phpunit.de/manual/4.8/en/selenium.html</a></li>\n</ul>\n\n<hr>\n\n<p>At the time of writing, PHPUnit does not support Selenium 2.</p>\n\n<p><a href=\"https://github.com/facebook/php-webdriver\" rel=\"nofollow noreferrer\">php-webdriver</a> from <a href=\"http://www.facebook.com/notes/facebook-engineering/watir-to-webdriver-unit-test-frameworks/10150314152278920\" rel=\"nofollow noreferrer\">facebook</a> allows the complete WebDriver API to be called from PHP in an elegant way. To quote:</p>\n\n<blockquote>\n  <p>Most clients require you to first read the protocol to see what's\n  possible, then study the client itself to see how to call it. This\n  hopes to eliminate the latter step.</p>\n</blockquote>\n\n<p>It is used by starting up the Selenium 2 server, which provides the interface at <code>localhost:4444/wd/hub</code>.</p>\n\n<pre><code>/usr/bin/java -jar /path/to/selenium-server-standalone-2.7.0.jar\n</code></pre>\n\n<p>then running the PHP test code, which calls that interface. For example:</p>\n\n<pre><code>&lt;?php\n\nrequire '/path/to/php-webdriver/__init__.php';\n\n$webdriver = new WebDriver();\n\n$session = $webdriver-&gt;session('opera', array());\n$session-&gt;open(\"http://example.com\");\n$button = $session-&gt;element('id', 'my_button_id');\n$button-&gt;click();\n$session-&gt;close();\n</code></pre>\n\n<p>The <a href=\"http://code.google.com/p/selenium/wiki/JsonWireProtocol\" rel=\"nofollow noreferrer\">WebDriver API</a> is mapped to PHP methods, compare calling <code>click</code> on <code>element</code> in the example with the element/click API call in the documentation.</p>\n\n<p>The test code can then be wrapped in regular phpUnit tests.</p>\n\n<p>This is not native phpUnit support, but it's a quite robust approach.</p>\n",
+      "owner": {
+        "display_name": "cmc",
+        "link": "https://stackoverflow.com/users/187273/cmc"
+      }
+    },
+    {
+      "answer_id": 7432614,
+      "body": "<blockquote>\n  <p>expects() - Sets how many times you expect a method to be called:</p>\n</blockquote>\n\n<pre><code>$mock = $this-&gt;getMock('nameOfTheClass', array('firstMethod','secondMethod','thirdMethod'));\n$mock-&gt;expects($this-&gt;once())\n     -&gt;method('firstMethod')\n     -&gt;will($this-&gt;returnValue('value'));\n$mock-&gt;expects($this-&gt;once())\n     -&gt;method('secondMethod')\n     -&gt;will($this-&gt;returnValue('value'));\n$mock-&gt;expects($this-&gt;once())\n     -&gt;method('thirdMethod')\n     -&gt;will($this-&gt;returnValue('value'));\n</code></pre>\n\n<blockquote>\n  <p>If you know, that method is called once use $this->once() in expects(), otherwise use $this->any()</p>\n</blockquote>\n\n<p>see:<br>\n<a href=\"https://stackoverflow.com/questions/5834416/phpunit-mock-with-multiple-expects\">PHPUnit mock with multiple expects() calls</a></p>\n\n<p><a href=\"https://phpunit.de/manual/current/en/test-doubles.html#test-doubles.stubs\" rel=\"noreferrer\">https://phpunit.de/manual/current/en/test-doubles.html#test-doubles.stubs</a></p>\n\n<p><a href=\"http://www.slideshare.net/mjlivelyjr/advanced-phpunit-testing\" rel=\"noreferrer\">http://www.slideshare.net/mjlivelyjr/advanced-phpunit-testing</a></p>\n",
+      "owner": {
+        "display_name": "Marek Sebera",
+        "link": "https://stackoverflow.com/users/492624/marek-sebera"
+      }
+    },
+    {
+      "answer_id": 37271797,
+      "body": "<p>There are 2 <code>php.ini</code> files in most Apache/PHP installations and definitely in WAMPServer</p>\n\n<p>To amend the correct <code>php.ini</code> used by PHP in Apache use the menus</p>\n\n<pre><code>wampmanager-&gt;PHP-&gt;php.ini\n</code></pre>\n\n<p>But for the <code>php.ini</code> file used by the PHP CLI you have to manually edit </p>\n\n<pre><code>\\wamp\\bin\\php\\php{version}\\php.ini\n</code></pre>\n\n<p>the result of a <code>php -v</code> should look like this if XDEBUG is configured in the CLI</p>\n\n<pre><code>php -v\nPHP 7.0.6 (cli) (built: Apr 27 2016 14:00:40) ( ZTS )\nCopyright (c) 1997-2016 The PHP Group\nZend Engine v3.0.0, Copyright (c) 1998-2016 Zend Technologies\n    with Xdebug v2.4.0, Copyright (c) 2002-2016, by Derick Rethans\n</code></pre>\n\n<p><strong>NOTE</strong></p>\n\n<p>The current WAMPServer 3 is <code>3.0.4</code>\nADDON upgrades can be found on SourceForge</p>\n\n<p>The latest ADDON PHP Version is PHP7.0.6 also available on SourceForge</p>\n\n<p>See <a href=\"http://forum.wampserver.com/read.php?2,138295\" rel=\"noreferrer\">The WampServer Forum</a> to keep up to date with the latest releases of PHP / MYSQL / Apache ADDONS for WAMPServer 3</p>\n\n<p>Also :</p>\n\n<p>You may find that you have to <a href=\"https://xdebug.org/docs/all_settings\" rel=\"noreferrer\">tweek the XDEBUG config parameters</a> in the <code>php.ini</code> to suit your specific needs </p>\n",
+      "owner": {
+        "display_name": "RiggsFolly",
+        "link": "https://stackoverflow.com/users/2310830/riggsfolly"
+      }
+    },
+    {
+      "answer_id": 5337635,
+      "body": "<p>I recently came up with another solution that is great if you are using PHP 5.3 namespaces. You can implement a new time() function inside your current namespace and create a shared resource where you set the return value in your tests. Then any unqualified call to time() will use your new function.</p>\n\n<p>For further reading I described it in detail in my <a href=\"https://www.schmengler-se.de/en/2011/03/php-mocking-built-in-functions-like-time-in-unit-tests/\" rel=\"noreferrer\">blog</a></p>\n",
+      "owner": {
+        "display_name": "Fabian Schmengler",
+        "link": "https://stackoverflow.com/users/664108/fabian-schmengler"
+      }
+    },
+    {
+      "answer_id": 6167707,
+      "body": "<p>You have several problems.</p>\n\n<p>The first is process isolation. Normally, it should not be necessary and you only want to use it to find out which specific test is the one that fatally breaks your tests. As you noted yourself, it's awfully slow, which is something you cannot fix.\nYou might want to <em>disable backing up global vars</em> which saves some milliseconds per test, though.</p>\n\n<p>The second problem, which leads to your first problem, is that your code is not testable because static vars are kept during tests - my most-hated singleton problem.\nYou can solve that problem by providing a \"cleanup\" or \"reset\" method in your dependency containers. Those will get called from the <code>setUp()</code> method in your main test case class and reset everything to a clean state.</p>\n\n<h2>Speed</h2>\n\n<p>Regarding the runtime of tests - I recently wrote a <a href=\"http://cweiske.de/tagebuch/visualizing-phpunit-runs.htm\" rel=\"noreferrer\">blog entry</a> about finding out which tests were too slow. Generally, tests are too slow if you can't run them after saving the file or each commit on your own box. 10 seconds is barely acceptable for me. The more tests you have, the slower will running them be.</p>\n\n<p>If you really have 35 minutes, then split up your tests into sensible groups so that you can run the necessary ones on your own machine - only the tests that test the code you changed. Pyrus, the next-gen PEAR installer, has the nifty feature to <a href=\"https://web.archive.org/web/20111124071100/http://phpadvent.org/2009/testing-with-phpt-and-xunit-by-greg-beaver\" rel=\"noreferrer\">automatically detect and run the tests that need to be run</a>, depending on what files you changed.\nPHPUnit does not have that, but you can emulate that by hand and <code>phpunit --group ..</code> :)</p>\n\n<p>Always take care of mocking web services and databases, or at least running the database with only necessary data for each single test. Waiting 3 seconds for a web services response in a test that's verifying if you can save the user to database is something you never want.</p>\n",
+      "owner": {
+        "display_name": "cweiske",
+        "link": "https://stackoverflow.com/users/282601/cweiske"
+      }
+    },
+    {
+      "answer_id": 36414073,
+      "body": "<p>When you create an instance of <code>UploadedFile</code> set the last parameter <code>$test</code> to <code>true</code>.</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>$file = new UploadedFile($path, $name, filesize($path), 'image/png', null, true);\n                                                                           ^^^^\n</code></pre>\n\n<p>Here is a quick example of a working test. It expects that you have a stub <code>test.png</code> file in <code>tests/stubs</code> folder.</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>class UploadTest extends TestCase\n{\n    public function test_upload_works()\n    {\n        $stub = __DIR__.'/stubs/test.png';\n        $name = str_random(8).'.png';\n        $path = sys_get_temp_dir().'/'.$name;\n\n        copy($stub, $path);\n\n        $file = new UploadedFile($path, $name, filesize($path), 'image/png', null, true);\n        $response = $this-&gt;call('POST', '/upload', [], [], ['photo' =&gt; $file], ['Accept' =&gt; 'application/json']);\n\n        $this-&gt;assertResponseOk();\n        $content = json_decode($response-&gt;getContent());\n        $this-&gt;assertObjectHasAttribute('name', $content);\n\n        $uploaded = 'uploads'.DIRECTORY_SEPARATOR.$content-&gt;name;\n        $this-&gt;assertFileExists(public_path($uploaded));\n\n        @unlink($uploaded);\n    }\n}\n</code></pre>\n\n<pre>\n➔ phpunit tests/UploadTest.php\nPHPUnit 4.8.24 by Sebastian Bergmann and contributors.\n\n.\n\nTime: 2.97 seconds, Memory: 14.00Mb\n\nOK (1 test, 3 assertions)\n</pre>\n",
+      "owner": {
+        "display_name": "peterm",
+        "link": "https://stackoverflow.com/users/1920232/peterm"
+      }
+    },
+    {
+      "answer_id": 36011969,
+      "body": "<p>It seems like you are missing the Xdebug extension. If you're using homebrew you can install it like:</p>\n\n<pre><code>brew install php70-xdebug\n</code></pre>\n\n<p>After that, don't forget to edit your php.ini file to enable the extension.</p>\n\n<pre><code>php -i | grep xdebug\n</code></pre>\n\n<p>After checking that xdebug is enabled you should be able to do code coverage</p>\n",
+      "owner": {
+        "display_name": "Nenad",
+        "link": "https://stackoverflow.com/users/555983/nenad"
+      }
+    },
+    {
+      "answer_id": 11681422,
+      "body": "<p>I have the same issue and after a little dig through I think it is a feature that BrowserKit currently doesn't support.</p>\n\n<p>I have logged an issue for it:\n<a href=\"https://github.com/symfony/symfony/issues/5074\">https://github.com/symfony/symfony/issues/5074</a></p>\n\n<p>Update: this is not an issue -- see the comments below</p>\n\n<h3>Sample Code</h3>\n\n<p>Sample request:</p>\n\n<pre><code>$client-&gt;request(\n    'GET',\n    $url,\n    array(),\n    array(),\n    array(\n        'HTTP_X_CUSTOM_VAR' =&gt; $var\n    )\n);\n</code></pre>\n\n<p>Fetching the data:</p>\n\n<pre><code>$request-&gt;headers-&gt;get('x-custom-var');\n</code></pre>\n",
+      "owner": {
+        "display_name": "Windix",
+        "link": "https://stackoverflow.com/users/217701/windix"
+      }
+    },
+    {
+      "answer_id": 33095281,
+      "body": "<p>Since you mentioned you don't want to use any other framework, you are only leaving yourself one option: <a href=\"http://php.net/uopz\">uopz</a></p>\n\n<p>uopz is a black magic extension of the runkit-and-scary-stuff genre, intended to help with QA infrastructure.</p>\n\n<p><a href=\"http://php.net/uopz_flags\">uopz_flags</a> is a function that can modify the flags of functions, methods and classes.</p>\n\n<pre><code>&lt;?php\nfinal class Test {}\n\n/** ZEND_ACC_CLASS is defined as 0, just looks nicer ... **/\n\nuopz_flags(Test::class, null, ZEND_ACC_CLASS);\n\n$reflector = new ReflectionClass(Test::class);\n\nvar_dump($reflector-&gt;isFinal());\n?&gt;\n</code></pre>\n\n<p>Will yield</p>\n\n<pre><code>bool(false)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Joe Watkins",
+        "link": "https://stackoverflow.com/users/1658631/joe-watkins"
+      }
+    },
+    {
+      "answer_id": 2357141,
+      "body": "<p>Sebastian Bergmann, the author of PHPUnit, recently had a blog post about <a href=\"http://sebastian-bergmann.de/archives/883-Stubbing-and-Mocking-Static-Methods.html\" rel=\"noreferrer\">Stubbing and Mocking Static Methods</a>. With PHPUnit 3.5 and PHP 5.3 as well as consistent use of late static binding, you can do</p>\n\n<pre><code>$class::staticExpects($this-&gt;any())\n      -&gt;method('helper')\n      -&gt;will($this-&gt;returnValue('bar'));\n</code></pre>\n\n<p><strong>Update:</strong> <code>staticExpects</code> is <a href=\"https://github.com/sebastianbergmann/phpunit-documentation/issues/77\" rel=\"noreferrer\">deprecated as of PHPUnit 3.8</a> and will be removed completely with later versions.</p>\n",
+      "owner": {
+        "display_name": "gooh",
+        "link": "https://stackoverflow.com/users/208809/gooh"
+      }
+    },
+    {
+      "answer_id": 31638382,
+      "body": "<p>Try the assertContains method:</p>\n\n<pre><code>$this-&gt;assertContains( $randad, $adUnitArr );\n</code></pre>\n",
+      "owner": {
+        "display_name": "user2182349",
+        "link": "https://stackoverflow.com/users/2182349/user2182349"
+      }
+    },
+    {
+      "answer_id": 31557777,
+      "body": "<p>Silly mistake on my part... simply forgot to add phpunit as a dependency in the project. For anyone else that gets this error, to composer.json add:</p>\n\n<pre><code>\"require-dev\": {\n    \"phpunit/phpunit\": \"3.7.*\"\n},\n</code></pre>\n\n<p>And then run:</p>\n\n<pre><code>composer update\n</code></pre>\n\n<p>That solved the problem.</p>\n",
+      "owner": {
+        "display_name": "b85411",
+        "link": "https://stackoverflow.com/users/2884981/b85411"
+      }
+    },
+    {
+      "answer_id": 10473002,
+      "body": "<p>The fastest and easiest way to skip tests that are either broken or you need to continue working on later is to just add the following to the top of your individual unit test:</p>\n\n<pre><code>$this-&gt;markTestSkipped('must be revisited.');\n</code></pre>\n",
+      "owner": {
+        "display_name": "jsteinmann",
+        "link": "https://stackoverflow.com/users/1374007/jsteinmann"
+      }
+    },
+    {
+      "answer_id": 190498,
+      "body": "<p>Well, your session manager is basically broken by design. To be able to test something, it must be possible to isolate it from side effects. Unfortunately, PHP is designed in such a way, that it encourages liberal use of global state (<code>echo</code>, <code>header</code>, <code>exit</code>, <code>session_start</code> etc. etc.).</p>\n\n<p>The best thing you can do, is to isolate the side-effects in a component, that can be swapped at runtime. That way, your tests can use mocked objects, while the live code uses adapters, that have real side-effects. You'll find that this doesn't play well with singletons, which I presume you're using. So you'll have to use some other mechanism for getting shared objects distributed to your code. You can start with a static registry, but there are even better solutions if you don't mind a bit of learning.</p>\n\n<p>If you can't do that, you always have the option of writing integration-tests. Eg. use the PHPUnit's equivalent of <a href=\"http://www.simpletest.org/en/web_tester_documentation.html\" rel=\"noreferrer\"><code>WebTestCase</code></a>.</p>\n",
+      "owner": {
+        "display_name": "troelskn",
+        "link": "https://stackoverflow.com/users/18180/troelskn"
+      }
+    },
+    {
+      "answer_id": 20074589,
+      "body": "<p>I ran into the same problem and if you are not too familiar with the inner workings of both PHPUnit and Composer this can indeed seem perplexing.</p>\n\n<p>PHPunit does not use use the Composer autoloader to find any of your test classes. It just scans any directory you give it and operates on one file at a time.</p>\n\n<p>Hence it does not know about any other class than the one in the file it is currently operating on. That is where the bootstrap file comes into play.</p>\n\n<p>If you want to use the Composer Autoloader to load other test classes, you need to tell it where it can find these test classes (and, optionally, in which namespace).</p>\n\n<p>There are two ways to do this:</p>\n\n<ol>\n<li>Add an <a href=\"https://getcomposer.org/doc/04-schema.md#autoload-dev\" rel=\"noreferrer\"><code>autoload-dev</code></a> section to your <code>composer.json</code> or </li>\n<li>Add the test directory to the Composer Autoloader</li>\n</ol>\n\n<h2>Use <code>autoload-dev</code></h2>\n\n<p>The <code>autoload-dev</code> sections allows you to define autoload rules for development purposes.</p>\n\n<p>Quoting directly from <a href=\"https://getcomposer.org/doc/04-schema.md#autoload-dev\" rel=\"noreferrer\">the manual</a>:</p>\n\n<blockquote>\n  <p>Classes needed to run the test suite should not be included in the\n  main autoload rules to avoid polluting the autoloader in production\n  and when other people use your package as a dependency.</p>\n  \n  <p>Therefore, it is a good idea to rely on a dedicated path for your unit\n  tests and to add it within the autoload-dev section.</p>\n  \n  <p>Example:</p>\n\n<pre><code>{\n    \"autoload\": {\n        \"psr-4\": { \"MyLibrary\\\\\": \"src/\" }\n    },\n    \"autoload-dev\": {\n        \"psr-4\": { \"MyLibrary\\\\Tests\\\\\": \"tests/\" }\n    }\n}\n</code></pre>\n</blockquote>\n\n<h2>Add to the Composer Autoloader</h2>\n\n<p>An alternative would be to get the Composer Autoloader and <code>add</code> your testing namespace (if you have any) and the directory where your tests live. How to do this, <a href=\"http://getcomposer.org/doc/01-basic-usage.md#autoloading\" rel=\"noreferrer\">as described in the manual</a> (at the bottom of the autoloading section in \"Basic Usage\") is :</p>\n\n<blockquote>\n<pre><code>$loader = require('/path/to/vendor/autoload.php');\n$loader-&gt;add('Test\\\\', __DIR__ . '/Tests');\n</code></pre>\n</blockquote>\n\n<p>If your tests use namespaces that mirror the test directory and you still run into trouble, you can try omitting the prefix by replacing the first parameter (<code>'Test\\\\'</code>) with <code>''</code>.</p>\n\n<hr>\n\n<p>If you want further insight into how all of this works you should take a look at the <a href=\"https://github.com/composer/composer/blob/master/src/Composer/Autoload/ClassLoader.php\" rel=\"noreferrer\">Composer ClassLoader class</a>, especially the <code>add()</code> and <code>findFile()</code> methods.</p>\n",
+      "owner": {
+        "display_name": "Potherca",
+        "link": "https://stackoverflow.com/users/153049/potherca"
+      }
+    },
+    {
+      "answer_id": 6218165,
+      "body": "<p>Have you enabled the <code>framework.test</code> option in <kbd>config_test.yml</kbd>?</p>\n\n<pre><code>framework:\n  test: ~\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ajb",
+        "link": "https://stackoverflow.com/users/781574/ajb"
+      }
+    },
+    {
+      "answer_id": 2095502,
+      "body": "<p>One way would be for you to inspect $argv and $argc. Something like:</p>\n\n<pre><code>&lt;?php\n\nrequire_once 'PHPUnit/Framework/TestCase.php';\n\nclass EnvironmentTest extends PHPUnit_Framework_TestCase {\n    public function testHasParam() {\n            global $argv, $argc;\n            $this-&gt;assertGreaterThan(2, $argc, 'No environment name passed');\n            $environment = $argv[2];\n    }\n}\n</code></pre>\n\n<p>Then you can call your phpunittest like this:</p>\n\n<pre><code>phpunit EnvironmentTest.php my-computer\n</code></pre>\n",
+      "owner": {
+        "display_name": "Paolo",
+        "link": "https://stackoverflow.com/users/199571/paolo"
+      }
+    },
+    {
+      "answer_id": 2241159,
+      "body": "<p>Unit testing of abstract classes doesn't necessary mean testing the interface, as abstract classes can have concrete methods, and this concrete methods can be tested. </p>\n\n<p>It is not so uncommon, when writing some library code, to have certain base class that you expect to extend in your application layer. And if you want to make sure that library code is tested, you need means to UT the concrete methods of abstract classes.</p>\n\n<p>Personally, I use PHPUnit, and it has so called stubs and mock objects to help you testing this kind of things.</p>\n\n<p>Straight from <a href=\"https://phpunit.de/manual/current/en/test-doubles.html#test-doubles.stubs\" rel=\"noreferrer\">PHPUnit manual</a>:</p>\n\n<pre><code>abstract class AbstractClass\n{\n    public function concreteMethod()\n    {\n        return $this-&gt;abstractMethod();\n    }\n\n    public abstract function abstractMethod();\n}\n\nclass AbstractClassTest extends PHPUnit_Framework_TestCase\n{\n    public function testConcreteMethod()\n    {\n        $stub = $this-&gt;getMockForAbstractClass('AbstractClass');\n        $stub-&gt;expects($this-&gt;any())\n             -&gt;method('abstractMethod')\n             -&gt;will($this-&gt;returnValue(TRUE));\n\n        $this-&gt;assertTrue($stub-&gt;concreteMethod());\n    }\n}\n</code></pre>\n\n<p>Mock object give you several things:</p>\n\n<ul>\n<li>you are not required to have concrete implementation of abstract class, and can get away with stub instead</li>\n<li>you may call concrete methods and assert that they perform correctly</li>\n<li>if concrete method relies to unimplemented (abstract) method, you may stub the return value with will() PHPUnit method </li>\n</ul>\n",
+      "owner": {
+        "display_name": "Victor Farazdagi",
+        "link": "https://stackoverflow.com/users/238300/victor-farazdagi"
+      }
+    },
+    {
+      "answer_id": 25180149,
+      "body": "<p>Use <code>phpunit --testdox</code><br>\nOn the cli this will give you a very readable <a href=\"http://en.wikipedia.org/wiki/TestDox\" rel=\"noreferrer\">testdox</a> format and allow you to see and fix your multiple test suites easily e.g.</p>\n\n<pre class=\"lang-sh prettyprint-override\"><code>PHPUnit 3.7.37 by Sebastian Bergmann.\n\nConfiguration read from /home/badass-project/tests/phpunit.xml\n\nAnalyticsViewers\n [x] test getViewersForMonth throws for no valid date\n [x] test getViewersForMonth limits correctly\n [x] test getViewersForMonth only returns unprocessed records\n [ ] test getViewersForMonth marks retrieved records as processed\n [ ] test getViewersForMonth returns zero for no view data\n [x] test getViewersForMonth returns valid data\n\nOrganisation\n [x] test getOrganisation returns orgs\n</code></pre>\n\n<p>I use it in combination with the stack traces from a vanilla PHPUnit run to quickly setup.</p>\n\n<p>It also has the added benefit of replacing underscores in your test function names with spaces.  eg <code>test_getViewersForMonth_returns_valid_data</code> becomes <code>test getViewersForMonth returns zero for no view data</code> which is more human readable.<br>\n<strong>N.B.</strong> Generally speaking if you're following the <a href=\"http://www.php-fig.org/psr/psr-1/\" rel=\"noreferrer\">PSR coding standards</a> you should be using camelCase for method names but for unit tests methods I break this rule to reduce <a href=\"http://en.wikipedia.org/wiki/Cognitive_load\" rel=\"noreferrer\">cognitive load</a> during TDD development.</p>\n",
+      "owner": {
+        "display_name": "Jujhar Singh",
+        "link": "https://stackoverflow.com/users/341156/jujhar-singh"
+      }
+    },
+    {
+      "answer_id": 15711324,
+      "body": "<p>Well, at first. You need to tell the autoloader where to find the php file for a class. That's done by following the PSR-0 standard.</p>\n\n<p>The best way is to use namespaces. The autoloader searches for a <code>Acme/Tests/ReturningTest.php</code> file when you requested a <code>Acme\\Tests\\ReturningTest</code> class. There are some great namespace tutorials out there, just search and read. Please note that namespacing is <em>not</em> something that came into PHP for autoloading, it's something that can be used for autoloading.</p>\n\n<p>Composer comes with a standard PSR-0 autoloader (the one in <code>vendor/autoload.php</code>). In your case you want to tell the autoloader to search for files in the <code>lib</code> directory. Then when you use <code>ReturningTest</code> it will look for <code>/lib/ReturningTest.php</code>. </p>\n\n<p>Add this to your <code>composer.json</code>:</p>\n\n<pre class=\"lang-json prettyprint-override\"><code>{\n    ...\n    \"autoload\": {\n        \"psr-0\": { \"\": \"lib/\" }\n    }\n}\n</code></pre>\n\n<p>More information in <a href=\"http://getcomposer.org/doc/04-schema.md#autoload\" rel=\"noreferrer\">the documentation</a>.</p>\n\n<p>Now the autoloader can find your classes you need to let PHPunit know there is a file to execute before running the tests: a bootstrap file. You can use the <code>--bootstrap</code> option to specify where the bootstrap file is located:</p>\n\n<pre class=\"lang-bash prettyprint-override\"><code>$ ./vendor/bin/phpunit tests --bootstrap vendor/autoload.php\n</code></pre>\n\n<p>However, it's nicer to use a <a href=\"http://www.phpunit.de/manual/current/en/appendixes.configuration.html\" rel=\"noreferrer\">PHPunit configuration file</a>:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>&lt;!-- /phpunit.xml.dist --&gt;\n&lt;?xml version=\"1.0\" encoding=\"utf-8\" ?&gt;\n&lt;phpunit bootstrap=\"./vendor/autoload.php\"&gt;\n\n    &lt;testsuites&gt;\n        &lt;testsuite name=\"The project's test suite\"&gt;\n            &lt;directory&gt;./tests&lt;/directory&gt;\n        &lt;/testsuite&gt;\n    &lt;/testsuites&gt;\n\n&lt;/phpunit&gt;\n</code></pre>\n\n<p>Now, you can run the command and it will automatically detect the configuration file:</p>\n\n<pre class=\"lang-bash prettyprint-override\"><code>$ ./vendor/bin/phpunit\n</code></pre>\n\n<p>If you put the configuration file into another directory, you need to put the path to that directory in the command with the <code>-c</code> option.</p>\n",
+      "owner": {
+        "display_name": "Wouter J",
+        "link": "https://stackoverflow.com/users/1149495/wouter-j"
+      }
+    },
+    {
+      "answer_id": 7912399,
+      "body": "<p>As thomasrutter suggested, create a class to abstract the usage of the cURL functions.</p>\n\n<pre><code>interface HttpRequest\n{\n    public function setOption($name, $value);\n    public function execute();\n    public function getInfo($name);\n    public function close();\n}\n\nclass CurlRequest implements HttpRequest\n{\n    private $handle = null;\n\n    public function __construct($url) {\n        $this-&gt;handle = curl_init($url);\n    }\n\n    public function setOption($name, $value) {\n        curl_setopt($this-&gt;handle, $name, $value);\n    }\n\n    public function execute() {\n        return curl_exec($this-&gt;handle);\n    }\n\n    public function getInfo($name) {\n        return curl_getinfo($this-&gt;handle, $name);\n    }\n\n    public function close() {\n        curl_close($this-&gt;handle);\n    }\n}\n</code></pre>\n\n<p>Now you can test using a mock of the <code>HttpRequest</code> interface without invoking any of the cURL functions.</p>\n\n<pre><code>public function testGetThrowsWhenContentTypeIsNotJson() {\n    $http = $this-&gt;getMock('HttpRequest');\n    $http-&gt;expects($this-&gt;any())\n         -&gt;method('getInfo')\n         -&gt;will($this-&gt;returnValue('not JSON'));\n    $this-&gt;setExpectedException('HttpResponseException');\n    // create class under test using $http instead of a real CurlRequest\n    $fixture = new ClassUnderTest($http);\n    $fixture-&gt;get();\n}\n</code></pre>\n\n<p><strong>Edit</strong> Fixed simple PHP parse error.</p>\n",
+      "owner": {
+        "display_name": "David Harkness",
+        "link": "https://stackoverflow.com/users/285873/david-harkness"
+      }
+    },
+    {
+      "answer_id": 15767311,
+      "body": "<p>As of PHPUnit 3.6, there is <a href=\"http://phpunit.de/manual/3.6/en/test-doubles.html#test-doubles.stubs.examples.StubTest5.php\" rel=\"noreferrer\"><code>$this-&gt;returnValueMap()</code></a> which may be used to return different values depending on the given parameters to the method stub.</p>\n",
+      "owner": {
+        "display_name": "leeb",
+        "link": "https://stackoverflow.com/users/300038/leeb"
+      }
+    },
+    {
+      "answer_id": 20484347,
+      "body": "<p>Use full namespace when you use mocking, it will fix the mockery inheritance problem. </p>\n\n<pre><code>$dependencyMock = $this-&gt;getMockBuilder('\\Some\\Name\\Space\\Dependency')\n    -&gt;disableOriginalConstructor()\n    -&gt;getMock();\n$testable = new Testable($dependencyMock);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Shakil Ahmed",
+        "link": "https://stackoverflow.com/users/1086183/shakil-ahmed"
+      }
+    },
+    {
+      "answer_id": 20451087,
+      "body": "<p>I think the problem is probably refers to a PHP itself, not PHPUnit. Follow this steps:</p>\n\n<p><strong>1. Check proper <code>php.ini</code></strong>. Note that some systems can use different <code>php.ini</code> for different PHP SAPI:</p>\n\n<pre><code>php -i | grep php.ini\nConfiguration File (php.ini) Path =&gt; /etc/php5/cli\nLoaded Configuration File =&gt; /etc/php5/cli/php.ini\n</code></pre>\n\n<p><strong>2. Edit error output settings</strong>. Set appropriate settings for <a href=\"http://www.php.net/manual/ru/errorfunc.configuration.php#ini.error-reporting\" rel=\"noreferrer\">error_reporting</a>, <a href=\"http://www.php.net/manual/ru/errorfunc.configuration.php#ini.display-errors\" rel=\"noreferrer\">display_errors</a>, <a href=\"http://www.php.net/manual/ru/errorfunc.configuration.php#ini.display-startup-errors\" rel=\"noreferrer\">display_startup_errors</a> in corresponding <code>php.ini</code>:</p>\n\n<pre><code>error_reporting = E_ALL\ndisplay_errors = On\ndisplay_startup_errors = On\n</code></pre>\n\n<hr>\n\n<p>If you don't want to change CLI error reporting behavior in global scope, you can use PHPUnit bootstrap file for define those settnigs.</p>\n\n<p><strong>1. Setup bootstrap for PHPUnit</strong>. Open <code>/Applications/MAMP/htdocs/testtingDecoded/phpunit.xml</code> file and add bootstrap attribute to phpunit tag:</p>\n\n<pre><code>&lt;phpunit bootstrap=\"bootstrap.php\"&gt;\n</code></pre>\n\n<p><strong>2. Create bootstrap.php</strong> in folder with <code>phpunit.xml</code>:</p>\n\n<pre><code>&lt;?php\nini_set('error_reporting', E_ALL); // or error_reporting(E_ALL);\nini_set('display_errors', '1');\nini_set('display_startup_errors', '1');\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alexander Yancharuk",
+        "link": "https://stackoverflow.com/users/2648942/alexander-yancharuk"
+      }
+    },
+    {
+      "answer_id": 18749734,
+      "body": "<p>Yes, it's quite simple, try this:</p>\n\n<pre><code>$classA-&gt;expects($this-&gt;never())-&gt;method($this-&gt;anything());\n</code></pre>\n",
+      "owner": {
+        "display_name": "Cyprian",
+        "link": "https://stackoverflow.com/users/1023464/cyprian"
+      }
+    },
+    {
+      "answer_id": 4050565,
+      "body": "<p>It is not a bug, it is a feature.</p>\n\n<p>You have a directory full of .php files, in your case they all contain testcases. </p>\n\n<p>But as your testsuite grows, you will likely want to have other php files inside tests directory, files that do not contains tests, that exist solely to support tests. Those files should never be executed by PHPUnit itself. </p>\n\n<p>This is a very common scenario.</p>\n\n<p>So how would PHPUnit know which files it needs to run and which ones not? \nChecking the file name suffix is one option for doing it - <strong>by default PHPUnit considers everything with name ending with <code>Test.php</code> as being a test and ignores everything else</strong>.</p>\n\n<p>You can change that behaviour if you really want to - by creating a file named phpunit.xml in your tests directory with the following content</p>\n\n<pre><code>&lt;?xml version=\"1.0\" encoding=\"utf-8\" ?&gt;\n&lt;phpunit&gt;\n&lt;testsuite name='Name your suite'&gt;\n    &lt;directory suffix='.php'&gt;./&lt;/directory&gt;\n&lt;/testsuite&gt;\n&lt;/phpunit&gt;\n</code></pre>\n\n<p>Once you have done that, PHPUnit will run all files with '.php' at the end of the file name\n(in this context file extension is considered to be part of the file name)</p>\n\n<p>But it really is better to get used to the convention and name your tests accordingly.</p>\n",
+      "owner": {
+        "display_name": "Anti Veeranna",
+        "link": "https://stackoverflow.com/users/135594/anti-veeranna"
+      }
+    },
+    {
+      "answer_id": 13764915,
+      "body": "<p>If you followed the documentation, you have set the <code>phpunit/phpunit</code> dependency as a 'dev-dependency'.</p>\n\n<p>If you don't have composer, you need to install it first. This is explained in the documentation: <a href=\"http://getcomposer.org/doc/00-intro.md#installation-nix\">Installation *nix</a> or <a href=\"http://getcomposer.org/doc/00-intro.md#installation-windows\">Installation Windows</a>.\nIf you already installed composer, it is a good practise to update composer to the latest version by running the <code>self-update</code> command:</p>\n\n<pre><code>$ php composer.phar self-update\n</code></pre>\n\n<p>After your have done that, you need to install all dependencies, including the dev dependencies. This is done by running the <code>update</code> command with the <code>--dev</code> switch:</p>\n\n<pre><code>$ php composer.phar update --dev\n</code></pre>\n\n<p>All the dependencies are installed in the <code>vendor</code> directory. PHPunit runs from the console. Composer automatic put the console files inside the <code>vendor/bin</code> directory. You need to execute the <code>phpunit</code> file in there:</p>\n\n<pre><code>$ vendor/bin/phpunit -c app/\n</code></pre>\n\n<p>The <code>-c</code> switch tells PHPUnit to look for the configuration file in the <code>app</code> directory, Symfony2 already set up the correct configuration to run all tests that are in the <code>&lt;bundle&gt;/Tests</code> directory.</p>\n\n<h1>UPDATE (05-04-2013)</h1>\n\n<p>Composer has changed their update/install commands. <code>update</code> will install dev dependencies by default and if you want to install dev dependencies, you need to use the <code>--dev</code> option.</p>\n\n<h1>UPDATE (11-06-2013)</h1>\n\n<p>Composer has changed their commands again, the <code>install</code> command will also install dev dependencies.</p>\n",
+      "owner": {
+        "display_name": "Wouter J",
+        "link": "https://stackoverflow.com/users/1149495/wouter-j"
+      }
+    },
+    {
+      "answer_id": 16071809,
+      "body": "<p>You can get PHP_CodeSniffer to ignore specific files or lines in a file using comments: <a href=\"https://github.com/squizlabs/PHP_CodeSniffer/wiki/Advanced-Usage#ignoring-files-and-folders\" rel=\"noreferrer\">https://github.com/squizlabs/PHP_CodeSniffer/wiki/Advanced-Usage#ignoring-files-and-folders</a></p>\n\n<p>In this case, the error will be generated on your second class definition, so you'd have to write you second definition like this:</p>\n\n<pre><code>// @codingStandardsIgnoreStart\nclass MyClassTest extends \\PHPUnit_Framework_TestCase\n{\n    // @codingStandardsIgnoreEnd\n    // ...\n}\n</code></pre>\n\n<p>But you might also choose to just ignore the whole file if it is not supposed to be checked, either using the @codingStandardsIgnoreFile comment or by specifying exclusions on the command line (see the previous link for info).</p>\n\n<p>If you find that you do this a lot and you don't want to add comments to your code, you can also create your own custom coding standard. Assuming you are using the PSR2 standard right now, you'd create an XML file (e.g., mystandard.xml) and include the following content:</p>\n\n<pre><code>&lt;?xml version=\"1.0\"?&gt;\n&lt;ruleset name=\"MyStandard\"&gt;\n &lt;description&gt;My custom coding standard.&lt;/description&gt;\n &lt;rule ref=\"PSR2\" /&gt;\n &lt;rule ref=\"PSR1.Classes.ClassDeclaration.MultipleClasses\"&gt;\n   &lt;severity&gt;0&lt;/severity&gt;\n &lt;/rule&gt;\n&lt;/ruleset&gt;\n</code></pre>\n\n<p>Then run PHP_CodeSniffer like this: <code>phpcs --standard=/path/to/mystandard.xml /path/to/code</code></p>\n\n<p>Having your own ruleset lets you do a lot of things, including changing error messages, changing the severity or type of a message, including checks from other standards, and setting global ignore rules. More info here: <a href=\"https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-ruleset.xml\" rel=\"noreferrer\">https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-ruleset.xml</a></p>\n",
+      "owner": {
+        "display_name": "Greg Sherwood",
+        "link": "https://stackoverflow.com/users/1330251/greg-sherwood"
+      }
+    },
+    {
+      "answer_id": 15300642,
+      "body": "<p>I had the same problem and eventually found out that returnValueMap() has to map all parameters of your function, <strong>including optional ones</strong>, then the desired return value.</p>\n\n<p>Example function from Zend Framework:</p>\n\n<pre><code>public function getParam($key, $default = null)\n{\n    $key = (string) $key;\n    if (isset($this-&gt;_params[$key])) {\n        return $this-&gt;_params[$key];\n    }\n\n    return $default;\n}\n</code></pre>\n\n<p>Has to mapped like this:</p>\n\n<pre><code>$request-&gt;expects($this-&gt;any())\n        -&gt;method('getParam')\n        -&gt;will($this-&gt;returnValueMap(array(array($param, null, $value))));\n</code></pre>\n\n<p>Without the null in the middle, it won't work.</p>\n",
+      "owner": {
+        "display_name": "Marco Roy",
+        "link": "https://stackoverflow.com/users/2149504/marco-roy"
+      }
+    },
+    {
+      "answer_id": 3221888,
+      "body": "<h3>Update</h3>\n\n<p>Oh, actually, the problem is pretty simple, but somehow hard to spot. Instead of:</p>\n\n<pre><code>$observer = $this-&gt;getMock('SplObserver', array('update'))\n                 -&gt;expects($this-&gt;once())\n                 -&gt;method('update');\n</code></pre>\n\n<p>You have to write:</p>\n\n<pre><code>$observer = $this-&gt;getMock('SplObserver', array('update'));\n$observer-&gt;expects($this-&gt;once())\n         -&gt;method('update');\n</code></pre>\n\n<p>That's because <code>getMock()</code> returns a different thing than <code>method()</code>, that's why you got the error. You passed the wrong object to <code>attach</code>.</p>\n\n<h3>Original answer</h3>\n\n<p>I think you have to fully qualify the type of the mock:</p>\n\n<pre><code>$observer = $this-&gt;getMock('\\SplObserver', array('update'));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ionuț G. Stan",
+        "link": "https://stackoverflow.com/users/58808/ionu%c8%9b-g-stan"
+      }
+    },
+    {
+      "answer_id": 12545727,
+      "body": "<p>I had the same problem while upgrading my phpunit.</p>\n\n<p>This solved the problem:</p>\n\n<pre><code>pear channel-discover pear.symfony.com\npear install pear.symfony.com/Yaml\n</code></pre>\n\n<p>Then run:</p>\n\n<pre><code>pear install --alldeps pear.phpunit.de/PHPUnit\n</code></pre>\n\n<p>OBS: I think the <code>pear install pear.symfony.com/Yaml</code> is not necessary. I'm just posting it because it is exactly the way I solved my problem.</p>\n",
+      "owner": {
+        "display_name": "Pl&#237;nio C&#233;sar",
+        "link": "https://stackoverflow.com/users/1284485/pl%c3%adnio-c%c3%a9sar"
+      }
+    },
+    {
+      "answer_id": 10964562,
+      "body": "<p>In my case the answer turned out to be quite simple:</p>\n\n<pre><code>$this-&gt;expects($this-&gt;at(0))\n    -&gt;method('write')\n    -&gt;with(/* first set of params */);\n\n$this-&gt;expects($this-&gt;at(1))\n    -&gt;method('write')\n    -&gt;with(/* second set of params */);\n</code></pre>\n\n<p>The key is to use <code>$this-&gt;at(n)</code>, with <code>n</code> being the Nth call of the method. I couldn't do anything with any of the <code>logicalOr()</code> variants I tried.</p>\n",
+      "owner": {
+        "display_name": "dr Hannibal Lecter",
+        "link": "https://stackoverflow.com/users/78928/dr-hannibal-lecter"
+      }
+    },
+    {
+      "answer_id": 10253789,
+      "body": "<p>Define a constant in your PHPUnit <code>bootstrap.php</code> file. This is executed before loading or running any tests. This shouldn't impact developers running the application normally--just the unit tests.</p>\n",
+      "owner": {
+        "display_name": "David Harkness",
+        "link": "https://stackoverflow.com/users/285873/david-harkness"
+      }
+    },
+    {
+      "answer_id": 9399495,
+      "body": "<p>You can pass <code>null</code> to <code>setMethods()</code> to avoid mocking any methods. Passing an empty array will mock all methods. The latter is the default value for the methods as you've found.</p>\n\n<p>That being said, I would say the need to do this might point out a flaw in the design of this class. Should this method be made static or moved to another class? If the method doesn't require a completely-constructed instance, it's a sign to me that it might be a utility method that could be made static.</p>\n",
+      "owner": {
+        "display_name": "David Harkness",
+        "link": "https://stackoverflow.com/users/285873/david-harkness"
+      }
+    },
+    {
+      "answer_id": 9186866,
+      "body": "<p>The executable script that loads PHPUnit must not have been updated when going to 3.6.x. Reinstall it.</p>\n\n<pre><code>sudo pear uninstall phpunit/PHPUnit\nsudo pear install phpunit/PHPUnit\n</code></pre>\n\n<p>If this doesn't work, <a href=\"https://stackoverflow.com/questions/9053047/cant-run-phpunit-after-upgrade-from-3-5-14-to-3-6-10-closed-not-an-issue\">make sure PEAR itself is up-to-date</a>.</p>\n",
+      "owner": {
+        "display_name": "David Harkness",
+        "link": "https://stackoverflow.com/users/285873/david-harkness"
+      }
+    },
+    {
+      "answer_id": 1598876,
+      "body": "<p>You need to know the exact version number you wish to downgrade to. At the time of writing, the last release you're after is 3.3.17, which can be found out by <a href=\"http://pear.phpunit.de/\" rel=\"noreferrer\">checking</a> the appropriate PEAR channel.</p>\n\n<p>To downgrade to that particular version execute two commands:</p>\n\n<ul>\n<li><code>pear uninstall phpunit/PHPUnit</code></li>\n<li><code>pear install phpunit/PHPUnit-3.3.17</code></li>\n</ul>\n",
+      "owner": {
+        "display_name": "etheros",
+        "link": "https://stackoverflow.com/users/193018/etheros"
+      }
+    },
+    {
+      "answer_id": 7763207,
+      "body": "<p>Wherever you have <code>new XXX(...)</code> in a method under test, you are doomed. Extract the instantiation to a new method--<code>createSomeClass(...)</code>--of the same class. This allows you to create a partial mock of the class under test that returns a stubbed or mock value from the new method.</p>\n\n<pre><code>class someClass {\n    public function someFoo($var) {\n        $model = $this-&gt;createSomeClass();  // call method instead of using new\n        model-&gt;someOtherFoo($var);\n    }\n\n    public function createSomeClass() {  // now you can mock this method in the test\n        return new someClass();\n    }\n\n    public function someOtherFoo($var){\n         // some code which has to be mocked\n    }\n}\n</code></pre>\n\n<p>In the test, mock <code>createSomeClass()</code> in the instance on which you call <code>someFoo()</code>, and mock <code>someOtherFoo()</code> in the instance that you return from the first mocked call.</p>\n\n<pre><code>function testSomeFoo() {\n    // mock someOtherFoo() to ensure it gets the correct value for $arg\n    $created = $this-&gt;getMock('someClass', array('someOtherFoo'));\n    $created-&gt;expects($this-&gt;once())\n            -&gt;method('someOtherFoo')\n            -&gt;with('foo');\n\n    // mock createSomeClass() to return the mock above\n    $creator = $this-&gt;getMock('someClass', array('createSomeClass'));\n    $creator-&gt;expects($this-&gt;once())\n            -&gt;method('createSomeClass')\n            -&gt;will($this-&gt;returnValue($created));\n\n    // call someFoo() with the correct $arg\n    $creator-&gt;someFoo('foo');\n}\n</code></pre>\n\n<p>Keep in mind that because the instance is creating another instance of the same class, two instances will normally be involved. You could use the same mock instance here if it makes it clearer.</p>\n\n<pre><code>function testSomeFoo() {\n    $fixture = $this-&gt;getMock('someClass', array('createSomeClass', 'someOtherFoo'));\n\n    // mock createSomeClass() to return the mock\n    $fixture-&gt;expects($this-&gt;once())\n            -&gt;method('createSomeClass')\n            -&gt;will($this-&gt;returnValue($fixture));\n\n    // mock someOtherFoo() to ensure it gets the correct value for $arg\n    $fixture-&gt;expects($this-&gt;once())\n            -&gt;method('someOtherFoo')\n            -&gt;with('foo');\n\n    // call someFoo() with the correct $arg\n    $fixture-&gt;someFoo('foo');\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "David Harkness",
+        "link": "https://stackoverflow.com/users/285873/david-harkness"
+      }
+    },
+    {
+      "answer_id": 7479285,
+      "body": "<p>Create the simplest test class you can without a <code>bootstrap.php</code> or <code>phpunit.xml</code> to first verify that your new installation works. PHPUnit will stop without any message if it cannot instantiate all of the test cases--one for each test method and data provider--before running any tests.</p>\n",
+      "owner": {
+        "display_name": "David Harkness",
+        "link": "https://stackoverflow.com/users/285873/david-harkness"
+      }
+    },
+    {
+      "answer_id": 5961347,
+      "body": "<p>Static methods themselves aren't harder to test than instance methods. The trouble arises when a method--static or otherwise--calls <em>other</em> static methods because you cannot isolate the method being tested. Here is a typical example method that can be difficult to test:</p>\n\n<pre><code>public function findUser($id) {\n    Assert::validIdentifier($id);\n    Log::debug(\"Looking for user $id\");  // writes to a file\n    Database::connect();                 // needs user, password, database info and a database\n    return Database::query(...);         // needs a user table with data\n}\n</code></pre>\n\n<p>What might you want to test with this method?</p>\n\n<ul>\n<li>Passing anything other than a positive integer throws <code>InvalidIdentifierException</code>.</li>\n<li><code>Database::query()</code> receives the correct identifier.</li>\n<li>A matching User is returned when found, <code>null</code> when not.</li>\n</ul>\n\n<p>These requirements are simple, but you must also setup logging, connect to a database, load it with data, etc. The <code>Database</code> class should be solely responsible for testing that it can connect and query. The <code>Log</code> class should do the same for logging. <code>findUser()</code> should not have to deal with any of this, but it must because it depends on them.</p>\n\n<p>If instead the method above made calls to instance methods on <code>Database</code> and <code>Log</code> instances, the test could pass in mock objects with scripted return values specific to the test at hand.</p>\n\n<pre><code>function testFindUserReturnsNullWhenNotFound() {\n    $log = $this-&gt;getMock('Log');  // ignore all logging calls\n    $database = $this-&gt;getMock('Database', array('connect', 'query');\n    $database-&gt;expects($this-&gt;once())-&gt;method('connect');\n    $database-&gt;expects($this-&gt;once())-&gt;method('query')\n             -&gt;with('&lt;query string&gt;', 5)\n             -&gt;will($this-&gt;returnValue(null));\n    $dao = new UserDao($log, $database);\n    self::assertNull($dao-&gt;findUser(5));\n}\n</code></pre>\n\n<p>The above test will fail if <code>findUser()</code> neglects to call <code>connect()</code>, passes the wrong value for <code>$id</code> (<code>5</code> above), or returns anything other than <code>null</code>. The beauty is that no database is involved, making the test quick and robust, meaning it won't fail for reasons unrelated to the test like network failure or bad sample data. It allows you to focus on what really matters: the functionality contained within <code>findUser()</code>.</p>\n",
+      "owner": {
+        "display_name": "David Harkness",
+        "link": "https://stackoverflow.com/users/285873/david-harkness"
+      }
+    },
+    {
+      "answer_id": 5934435,
+      "body": "<p>If it is named <code>FooTest</code> rename it to <code>FooTestCase</code>.</p>\n",
+      "owner": {
+        "display_name": "David Harkness",
+        "link": "https://stackoverflow.com/users/285873/david-harkness"
+      }
+    },
+    {
+      "answer_id": 5838694,
+      "body": "<p>You need to use <code>at()</code>:</p>\n\n<pre><code>$mock-&gt;expects($this-&gt;at(0))\n     -&gt;method('foo')\n     -&gt;with('someValue');\n\n$mock-&gt;expects($this-&gt;at(1))\n     -&gt;method('foo')\n     -&gt;with('anotherValue');\n\n$mock-&gt;foo('someValue');\n$mock-&gt;foo('anotherValue');\n</code></pre>\n\n<p>Note that the indexes passed to <code>at()</code> apply across all method calls to the same mock object.  If the second method call was to <code>bar()</code> you would not change the argument to <code>at()</code>.</p>\n",
+      "owner": {
+        "display_name": "David Harkness",
+        "link": "https://stackoverflow.com/users/285873/david-harkness"
+      }
+    },
+    {
+      "answer_id": 5133558,
+      "body": "<p>Not technically related to your issue. However, I had a really hard time trying to solve the \"Serialization of 'Closure' is not allowed\" issue while using PHPUnit, and this question is the top Google result.</p>\n\n<p>The problem comes from the fact that PHPUnit serializes all the $GLOBALS in the system to essential back them up while the test is running.  It then restores them after the test is done.</p>\n\n<p>However, if you have any closures in your GLOBAL space, it's going to cause problems.  There's two ways to solve it.</p>\n\n<p>You can disable the global backup procedure totally by using an annotation.</p>\n\n<pre><code>/**\n * @backupGlobals disabled\n */\nclass MyTest extends PHPUnit_Framework_TestCase\n{\n    // ...\n}\n</code></pre>\n\n<p>Or, if you know which variable is causing the problem (look for a lambda in var_dump($GLOBALS)), you can just blacklist the problem variable(s).</p>\n\n<pre><code>class MyTest extends PHPUnit_Framework_TestCase\n{\n    protected $backupGlobalsBlacklist = array('application');\n    // ...\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ted Kulp",
+        "link": "https://stackoverflow.com/users/402347/ted-kulp"
+      }
+    },
+    {
+      "answer_id": 4166719,
+      "body": "<p>I believe this should work within a test case:</p>\n\n<pre><code>$this-&gt;fail('Message');\n</code></pre>\n",
+      "owner": {
+        "display_name": "rr.",
+        "link": "https://stackoverflow.com/users/181216/rr"
+      }
+    },
+    {
+      "answer_id": 3843768,
+      "body": "<p>The cleanest way to do this would be to extend phpunit with a new assertion method. But here's an idea for a simpler way for now. Untested code, please verify:</p>\n\n<p>Somewhere in your app:</p>\n\n<pre><code> /**\n * Determine if two associative arrays are similar\n *\n * Both arrays must have the same indexes with identical values\n * without respect to key ordering \n * \n * @param array $a\n * @param array $b\n * @return bool\n */\nfunction arrays_are_similar($a, $b) {\n  // if the indexes don't match, return immediately\n  if (count(array_diff_assoc($a, $b))) {\n    return false;\n  }\n  // we know that the indexes, but maybe not values, match.\n  // compare the values between the two arrays\n  foreach($a as $k =&gt; $v) {\n    if ($v !== $b[$k]) {\n      return false;\n    }\n  }\n  // we have identical indexes, and no unequal values\n  return true;\n}\n</code></pre>\n\n<p>In your test:</p>\n\n<pre><code>$this-&gt;assertTrue(arrays_are_similar($foo, $bar));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Craig",
+        "link": "https://stackoverflow.com/users/302247/craig"
+      }
+    },
+    {
+      "answer_id": 3708739,
+      "body": "<p>The output indicates that your third test case is incomplete. Try running phpunit with the --verbose flag to output more information.</p>\n",
+      "owner": {
+        "display_name": "Ryan Chouinard",
+        "link": "https://stackoverflow.com/users/90642/ryan-chouinard"
+      }
+    },
+    {
+      "answer_id": 3425552,
+      "body": "<p>The issue ended up being with how I understood the \"at\" matcher to work. Also, my example was not verbatim how it is in my unit test. I thought the \"at\" matcher counter worked on a per query basis, where it really works on a per object instance basis.</p>\n\n<p>Example:</p>\n\n<pre><code>class MyClass {\n\n    public function exists($foo) {\n        return false;\n    }\n\n    public function find($foo) {\n        return $foo;\n    }\n}\n</code></pre>\n\n<p>Incorrect:</p>\n\n<pre><code>class MyTest extends PHPUnit_Framework_TestCase\n{\n\n    public function testThis()\n    {\n        $mock = $this-&gt;getMock('MyClass');\n        $mock-&gt;expects($this-&gt;at(0))\n             -&gt;method('exists')\n             -&gt;with($this-&gt;equalTo('foo'))\n             -&gt;will($this-&gt;returnValue(true));\n\n        $mock-&gt;expects($this-&gt;at(0))\n             -&gt;method('find')\n             -&gt;with($this-&gt;equalTo('foo'))\n             -&gt;will($this-&gt;returnValue('foo'));\n\n        $mock-&gt;expects($this-&gt;at(1))\n             -&gt;method('exists')\n             -&gt;with($this-&gt;equalTo('bar'))\n             -&gt;will($this-&gt;returnValue(false));\n\n        $this-&gt;assertTrue($mock-&gt;exists(\"foo\"));\n        $this-&gt;assertEquals('foo', $mock-&gt;find('foo'));\n        $this-&gt;assertFalse($mock-&gt;exists(\"bar\"));\n    }\n\n}\n</code></pre>\n\n<p>Correct:</p>\n\n<pre><code>class MyTest extends PHPUnit_Framework_TestCase\n{\n\n    public function testThis()\n    {\n        $mock = $this-&gt;getMock('MyClass');\n        $mock-&gt;expects($this-&gt;at(0))\n             -&gt;method('exists')\n             -&gt;with($this-&gt;equalTo('foo'))\n             -&gt;will($this-&gt;returnValue(true));\n\n        $mock-&gt;expects($this-&gt;at(1))\n             -&gt;method('find')\n             -&gt;with($this-&gt;equalTo('foo'))\n             -&gt;will($this-&gt;returnValue('foo'));\n\n        $mock-&gt;expects($this-&gt;at(2))\n             -&gt;method('exists')\n             -&gt;with($this-&gt;equalTo('bar'))\n             -&gt;will($this-&gt;returnValue(false));\n\n        $this-&gt;assertTrue($mock-&gt;exists(\"foo\"));\n        $this-&gt;assertEquals('foo', $mock-&gt;find('foo'));\n        $this-&gt;assertFalse($mock-&gt;exists(\"bar\"));\n    }\n\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "rr.",
+        "link": "https://stackoverflow.com/users/181216/rr"
+      }
+    },
+    {
+      "answer_id": 3302634,
+      "body": "<p>Ahhh.... OK ... I think I might have gotten it working now.</p>\n\n<p>the answer was present in the PHPUnit documentation.\n<a href=\"http://www.phpunit.de/manual/3.4/en/installation.html\" rel=\"noreferrer\">http://www.phpunit.de/manual/3.4/en/installation.html</a></p>\n\n<pre><code>After the installation you can find the PHPUnit source files inside your local PEAR directory; the path is usually /usr/lib/php/PHPUnit.\n</code></pre>\n\n<p>The Mac version of PEAR that I was running,  did install PHPUnit if I ran all the commands listed under the \"SUDO\" user\neg:</p>\n\n<pre><code>sudo pear channel-discover pear.phpunit.de\nsudo pear channel-discover pear.symfony-project.com\nsudo pear upgrade-all\n</code></pre>\n\n<p>At this point, all the files are downloaded to /usr/local/pear but the command</p>\n\n<pre><code>phpunit\n</code></pre>\n\n<p>is looking to include files from /usr/lib/php/PHPUnit  The solution?  To copy the PHPUnit folder from </p>\n\n<pre><code>cp /usr/lib/pear/PHPUnit /usr/lib/php\n</code></pre>\n\n<p>OR</p>\n\n<p>make a symlink</p>\n\n<pre><code>cd /usr/lib/php\nln -s /usr/lib/pear/PHPUnit PHPUnit\n</code></pre>\n\n<p>I've seen a lot of people with similar problems, but this particular solution hadn't come up in any of the threads I've seen.  Hopefully of use to you :) \n-Alex</p>\n",
+      "owner": {
+        "display_name": "Alex C",
+        "link": "https://stackoverflow.com/users/398055/alex-c"
+      }
+    },
+    {
+      "answer_id": 3254990,
+      "body": "<p>This works for me:</p>\n\n<pre><code>$mock = $this-&gt;getMock('TestInterface');\n$this-&gt;assertTrue($mock instanceof TestInterface);\n</code></pre>\n\n<p>Maybe it's a typo or maybe $instance isn't what you think it is?</p>\n",
+      "owner": {
+        "display_name": "martinvium",
+        "link": "https://stackoverflow.com/users/1585240/martinvium"
+      }
+    },
+    {
+      "answer_id": 2761345,
+      "body": "<p>There are a number of ways to not run a particular test - putting it into a blacklist so it's never run may not be the way - as changing it means editing the blacklist, and you'll often endup bouncing it in and out of version control.</p>\n\n<p><strong>There are several other ways that may be more appropriate:</strong></p>\n\n<p><em>If a test is not yet ready to run:</em></p>\n\n<pre><code>$this-&gt;markTestIncomplete('This test has not been implemented yet.');\n</code></pre>\n\n<p><em>If there's an outside reason it should not be run, skip it:</em></p>\n\n<pre><code>if (!extension_loaded('mysqli')) {\n    $this-&gt;markTestSkipped('The MySQLi extension is not available.');\n}\n</code></pre>\n\n<p>You can also put that into the <code>setUp()</code> function, so it will skip all the tests in a test-class.</p>\n\n<p><em>You can make a test dependant on a previous one succeeding:</em></p>\n\n<pre><code>public function testEmpty()\n{\n    $stack = array();\n    $this-&gt;assertTrue(empty($stack));\n    return $stack;   // also sends this variable to any following tests - if this worked\n}\n/**\n * only runs if testEmpty() passed\n *\n * @depends testEmpty\n */\npublic function testPush(array $stack)\n{\n}\n</code></pre>\n\n<p><em>The @group -name- annotation is one of the best ways to specifically stop, or run one group of tests</em></p>\n\n<pre><code>/**\n * @group database\n * @group remoteTasks\n */\npublic function testSomething()\n{\n}\n</code></pre>\n\n<p><code>testSomething()</code> is now in two groups, and if either is added on the command line (or in the config.xml) <code>--exclude-group</code> parameter. it won't be run. Likewise, you could run only tests that belong to a particular group - say named after a feature, or bug report.</p>\n",
+      "owner": {
+        "display_name": "Alister Bulman",
+        "link": "https://stackoverflow.com/users/6216/alister-bulman"
+      }
+    },
+    {
+      "answer_id": 1491247,
+      "body": "<p>I ended up creating my own constraint class, based on the attribute one</p>\n\n<pre><code>&lt;?php\nclass Test_Constraint_ArrayHas extends PHPUnit_Framework_Constraint\n{\n    protected $arrayKey;\n\n    protected $constraint;\n\n    protected $value;\n\n    /**\n     * @param PHPUnit_Framework_Constraint $constraint\n     * @param string                       $arrayKey\n     */\n    public function __construct(PHPUnit_Framework_Constraint $constraint, $arrayKey)\n    {\n        $this-&gt;constraint  = $constraint;\n        $this-&gt;arrayKey    = $arrayKey;\n    }\n\n\n    /**\n     * Evaluates the constraint for parameter $other. Returns TRUE if the\n     * constraint is met, FALSE otherwise.\n     *\n     * @param mixed $other Value or object to evaluate.\n     * @return bool\n     */\n    public function evaluate($other)\n    {\n        if (!array_key_exists($this-&gt;arrayKey, $other)) {\n            return false;\n        }\n\n        $this-&gt;value = $other[$this-&gt;arrayKey];\n\n        return $this-&gt;constraint-&gt;evaluate($other[$this-&gt;arrayKey]);\n    }\n\n    /**\n     * @param   mixed   $other The value passed to evaluate() which failed the\n     *                         constraint check.\n     * @param   string  $description A string with extra description of what was\n     *                               going on while the evaluation failed.\n     * @param   boolean $not Flag to indicate negation.\n     * @throws  PHPUnit_Framework_ExpectationFailedException\n     */\n    public function fail($other, $description, $not = FALSE)\n    {\n        parent::fail($other[$this-&gt;arrayKey], $description, $not);\n    }\n\n\n    /**\n     * Returns a string representation of the constraint.\n     *\n     * @return string\n     */\n    public function toString ()\n    {\n        return 'the value of key \"' . $this-&gt;arrayKey . '\"(' . $this-&gt;value . ') ' .  $this-&gt;constraint-&gt;toString();\n    }\n\n\n    /**\n     * Counts the number of constraint elements.\n     *\n     * @return integer\n     */\n    public function count ()\n    {\n        return count($this-&gt;constraint) + 1;\n    }\n\n\n    protected function customFailureDescription ($other, $description, $not)\n    {\n        return sprintf('Failed asserting that %s.', $this-&gt;toString());\n    }\n</code></pre>\n\n<p>It can be used like this:</p>\n\n<pre><code> ... -&gt;with(new Test_Constraint_ArrayHas($this-&gt;equalTo($value), $key));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Anti Veeranna",
+        "link": "https://stackoverflow.com/users/135594/anti-veeranna"
+      }
+    },
+    {
+      "answer_id": 1415258,
+      "body": "<p>I created following <strong>phpunit.xml</strong> and now atleast I can do <em>phpunit --configuration phpunit.xml</em> in my root directory to run the tests located in Tests/</p>\n\n<pre><code>&lt;phpunit backupGlobals=\"false\"\n         backupStaticAttributes=\"false\"\n         syntaxCheck=\"false\"&gt;\n  &lt;testsuites&gt;\n    &lt;testsuite name=\"Tests\"&gt;\n      &lt;directory suffix=\".php\"&gt;Tests&lt;/directory&gt;\n    &lt;/testsuite&gt;\n  &lt;/testsuites&gt;\n&lt;/phpunit&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "JJ.",
+        "link": "https://stackoverflow.com/users/172365/jj"
+      }
+    },
+    {
+      "answer_id": 1347875,
+      "body": "<p>As every tests are run by the same PHPUnit process, if you use exit/die in your PHP code, you will kill everything -- as you noticed ^^</p>\n\n<p>So, you have to find another solution, yes -- like returning instead of dying ; or throwing an exception <em>(you can test if some tested code has thrown an expected exception)</em>.</p>\n\n<p>Maybe PHPUnit 3.4 and it's <code>--process-isolation</code> switch (see <a href=\"http://www.phpunit.de/ticket/144\" rel=\"noreferrer\">Optionally execute each test using a separate PHP process</a>) <strong>might</strong> help <em>(by not having everything dying)</em>, but you still wouldn't be able to get the result of the test, if PHPUnit doesn't get the control back.</p>\n\n<p>I've had this problem a couple of times ; solved it by returning instead of dying -- even returning several times, if needed, to go back \"high enough\" in the call stack ^^\n<br>In the end, I suppose I don't have any \"die\" anymore in my application... It's probably better, when thinking about MVC, btw.</p>\n",
+      "owner": {
+        "display_name": "Pascal MARTIN",
+        "link": "https://stackoverflow.com/users/138475/pascal-martin"
+      }
+    },
+    {
+      "answer_id": 350929,
+      "body": "<p>I believe the way to do this is:</p>\n\n<pre><code>$observer-&gt;expects($this-&gt;once())\n     -&gt;method('method')\n     -&gt;with($this-&gt;equalTo($arg1),$this-&gt;equalTo($arg2));\n</code></pre>\n\n<p>Or</p>\n\n<pre><code>$observer-&gt;expects($this-&gt;once())\n     -&gt;method('method')\n     -&gt;with($arg1, $arg2);\n</code></pre>\n\n<p>If you need to perform a different type of assertion on the 2nd arg, you can do that, too:</p>\n\n<pre><code>$observer-&gt;expects($this-&gt;once())\n     -&gt;method('method')\n     -&gt;with($this-&gt;equalTo($arg1),$this-&gt;stringContains('some_string'));\n</code></pre>\n\n<p>If you need to make sure some argument passes multiple assertions, use logicalAnd()</p>\n\n<pre><code>$observer-&gt;expects($this-&gt;once())\n     -&gt;method('method')\n     -&gt;with($this-&gt;logicalAnd($this-&gt;stringContains('a'), $this-&gt;stringContains('b')));\n</code></pre>\n",
+      "owner": {
+        "display_name": "silfreed",
+        "link": "https://stackoverflow.com/users/44401/silfreed"
+      }
+    },
+    {
+      "answer_id": 10321,
+      "body": "<p>Maybe there is a design problem in your tests.</p>\n\n<p>Usually each test must not depend on any other tests, so they can run in any order.</p>\n\n<p>Each test needs to instantiate and destroy everything it needs to run, that would be the perfect approach, you should never share objects and states between tests.</p>\n\n<p>Can you be more specific about why you need the same object for N tests?</p>\n",
+      "owner": {
+        "display_name": "Fabio Gomes",
+        "link": "https://stackoverflow.com/users/727/fabio-gomes"
+      }
+    }
+  ]
+}

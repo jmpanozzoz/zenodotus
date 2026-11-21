@@ -1,0 +1,1908 @@
+{
+  "library": "nuget:automapper",
+  "fetched_at": "2026-11-21T17:28:16Z",
+  "questions": [
+    {
+      "question_id": 4987872,
+      "title": "Ignore mapping one property with Automapper",
+      "accepted_answer_id": 4988159,
+      "score": 402,
+      "link": "https://stackoverflow.com/questions/4987872/ignore-mapping-one-property-with-automapper",
+      "owner": {
+        "display_name": "Msam85",
+        "link": "https://stackoverflow.com/users/579945/msam85"
+      }
+    },
+    {
+      "question_id": 40275195,
+      "title": "How to set up Automapper in ASP.NET Core",
+      "accepted_answer_id": 40275196,
+      "score": 377,
+      "link": "https://stackoverflow.com/questions/40275195/how-to-set-up-automapper-in-asp-net-core",
+      "owner": {
+        "display_name": "theutz",
+        "link": "https://stackoverflow.com/users/3162006/theutz"
+      }
+    },
+    {
+      "question_id": 2374689,
+      "title": "Automapper: Update property values without creating a new object",
+      "accepted_answer_id": 2376102,
+      "score": 364,
+      "link": "https://stackoverflow.com/questions/2374689/automapper-update-property-values-without-creating-a-new-object",
+      "owner": {
+        "display_name": "ryudice",
+        "link": "https://stackoverflow.com/users/140877/ryudice"
+      }
+    },
+    {
+      "question_id": 954480,
+      "title": "AutoMapper: &quot;Ignore the rest&quot;?",
+      "accepted_answer_id": 6280647,
+      "score": 250,
+      "link": "https://stackoverflow.com/questions/954480/automapper-ignore-the-rest",
+      "owner": {
+        "display_name": "Igor Brejc",
+        "link": "https://stackoverflow.com/users/55408/igor-brejc"
+      }
+    },
+    {
+      "question_id": 6825244,
+      "title": "Where to place AutoMapper.CreateMaps?",
+      "accepted_answer_id": 6825394,
+      "score": 220,
+      "link": "https://stackoverflow.com/questions/6825244/where-to-place-automapper-createmaps",
+      "owner": {
+        "display_name": "Shawn Mclean",
+        "link": "https://stackoverflow.com/users/400861/shawn-mclean"
+      }
+    },
+    {
+      "question_id": 4663577,
+      "title": "AutoMapper vs ValueInjecter",
+      "accepted_answer_id": 4673771,
+      "score": 208,
+      "link": "https://stackoverflow.com/questions/4663577/automapper-vs-valueinjecter",
+      "owner": {
+        "display_name": "Rookian",
+        "link": "https://stackoverflow.com/users/175399/rookian"
+      }
+    },
+    {
+      "question_id": 14777601,
+      "title": "How to specify mapping rule when names of properties differ",
+      "accepted_answer_id": 14778305,
+      "score": 197,
+      "link": "https://stackoverflow.com/questions/14777601/how-to-specify-mapping-rule-when-names-of-properties-differ",
+      "owner": {
+        "display_name": "Thomas.Benz",
+        "link": "https://stackoverflow.com/users/2022437/thomas-benz"
+      }
+    },
+    {
+      "question_id": 14677889,
+      "title": "Automapper missing type map configuration or unsupported mapping - Error",
+      "accepted_answer_id": 14678634,
+      "score": 144,
+      "link": "https://stackoverflow.com/questions/14677889/automapper-missing-type-map-configuration-or-unsupported-mapping-error",
+      "owner": {
+        "display_name": "AliRıza Adıyahşi",
+        "link": "https://stackoverflow.com/users/1324756/alir%c4%b1za-ad%c4%b1yah%c5%9fi"
+      }
+    },
+    {
+      "question_id": 2239143,
+      "title": "Automapper - how to map to constructor parameters instead of property setters",
+      "accepted_answer_id": 2239647,
+      "score": 135,
+      "link": "https://stackoverflow.com/questions/2239143/automapper-how-to-map-to-constructor-parameters-instead-of-property-setters",
+      "owner": {
+        "display_name": "jlembke",
+        "link": "https://stackoverflow.com/users/16426/jlembke"
+      }
+    },
+    {
+      "question_id": 6985000,
+      "title": "How to use AutoMapper .ForMember?",
+      "accepted_answer_id": 8836725,
+      "score": 107,
+      "link": "https://stackoverflow.com/questions/6985000/how-to-use-automapper-formember",
+      "owner": {
+        "display_name": "Nellius",
+        "link": "https://stackoverflow.com/users/465705/nellius"
+      }
+    },
+    {
+      "question_id": 38194012,
+      "title": "AutoMapper.Mapper does not contain definition for CreateMap",
+      "accepted_answer_id": 38194308,
+      "score": 103,
+      "link": "https://stackoverflow.com/questions/38194012/automapper-mapper-does-not-contain-definition-for-createmap",
+      "owner": {
+        "display_name": "Sami",
+        "link": "https://stackoverflow.com/users/4599018/sami"
+      }
+    },
+    {
+      "question_id": 21413273,
+      "title": "AutoMapper convert from multiple sources",
+      "accepted_answer_id": 66861138,
+      "score": 101,
+      "link": "https://stackoverflow.com/questions/21413273/automapper-convert-from-multiple-sources",
+      "owner": {
+        "display_name": "Bart Calixto",
+        "link": "https://stackoverflow.com/users/826568/bart-calixto"
+      }
+    },
+    {
+      "question_id": 19544133,
+      "title": "Automapper - Multi object source and one destination",
+      "accepted_answer_id": 19544818,
+      "score": 97,
+      "link": "https://stackoverflow.com/questions/19544133/automapper-multi-object-source-and-one-destination",
+      "owner": {
+        "display_name": "CoolArchTek",
+        "link": "https://stackoverflow.com/users/521973/coolarchtek"
+      }
+    },
+    {
+      "question_id": 5589471,
+      "title": "Mapping Lists using Automapper",
+      "accepted_answer_id": 5589563,
+      "score": 94,
+      "link": "https://stackoverflow.com/questions/5589471/mapping-lists-using-automapper",
+      "owner": {
+        "display_name": "Shawn Mclean",
+        "link": "https://stackoverflow.com/users/400861/shawn-mclean"
+      }
+    },
+    {
+      "question_id": 4367591,
+      "title": "How to ignore all destination members, except the ones that are mapped?",
+      "accepted_answer_id": 8071038,
+      "score": 93,
+      "link": "https://stackoverflow.com/questions/4367591/how-to-ignore-all-destination-members-except-the-ones-that-are-mapped",
+      "owner": {
+        "display_name": "epitka",
+        "link": "https://stackoverflow.com/users/103682/epitka"
+      }
+    },
+    {
+      "question_id": 13146785,
+      "title": "How to Map String Literal to Destination Property",
+      "accepted_answer_id": 13146824,
+      "score": 92,
+      "link": "https://stackoverflow.com/questions/13146785/how-to-map-string-literal-to-destination-property",
+      "owner": {
+        "display_name": "Rick Eyre",
+        "link": "https://stackoverflow.com/users/1214566/rick-eyre"
+      }
+    },
+    {
+      "question_id": 8944577,
+      "title": "AutoMapper Map Child Property that also has a map defined",
+      "accepted_answer_id": 8944694,
+      "score": 87,
+      "link": "https://stackoverflow.com/questions/8944577/automapper-map-child-property-that-also-has-a-map-defined",
+      "owner": {
+        "display_name": "Dismissile",
+        "link": "https://stackoverflow.com/users/143919/dismissile"
+      }
+    },
+    {
+      "question_id": 8899444,
+      "title": "Automapper copy List to List",
+      "accepted_answer_id": 8899484,
+      "score": 84,
+      "link": "https://stackoverflow.com/questions/8899444/automapper-copy-list-to-list",
+      "owner": {
+        "display_name": "TheBoubou",
+        "link": "https://stackoverflow.com/users/118584/theboubou"
+      }
+    },
+    {
+      "question_id": 27359999,
+      "title": "Auto Mapper Unmapped members were found",
+      "accepted_answer_id": 27610405,
+      "score": 84,
+      "link": "https://stackoverflow.com/questions/27359999/auto-mapper-unmapped-members-were-found",
+      "owner": {
+        "display_name": "Paritosh",
+        "link": "https://stackoverflow.com/users/1242889/paritosh"
+      }
+    },
+    {
+      "question_id": 7052002,
+      "title": "Alternatives to AutoMapper",
+      "accepted_answer_id": 7052069,
+      "score": 81,
+      "link": "https://stackoverflow.com/questions/7052002/alternatives-to-automapper",
+      "owner": {
+        "display_name": "subramn",
+        "link": "https://stackoverflow.com/users/847800/subramn"
+      }
+    },
+    {
+      "question_id": 13490456,
+      "title": "Automapper: bidirectional mapping with ReverseMap() and ForMember()",
+      "accepted_answer_id": 13491264,
+      "score": 80,
+      "link": "https://stackoverflow.com/questions/13490456/automapper-bidirectional-mapping-with-reversemap-and-formember",
+      "owner": {
+        "display_name": "toni",
+        "link": "https://stackoverflow.com/users/173817/toni"
+      }
+    },
+    {
+      "question_id": 38247961,
+      "title": "NuGet Package Manager: &#39;AutoMapper&#39; already has a dependency defined for &#39;Microsoft.CSharp&#39;",
+      "accepted_answer_id": 38248339,
+      "score": 78,
+      "link": "https://stackoverflow.com/questions/38247961/nuget-package-manager-automapper-already-has-a-dependency-defined-for-micros",
+      "owner": {
+        "display_name": "pomber",
+        "link": "https://stackoverflow.com/users/1325646/pomber"
+      }
+    },
+    {
+      "question_id": 43947475,
+      "title": "How to ignore null values for all source members during mapping in Automapper 6?",
+      "accepted_answer_id": 43947731,
+      "score": 75,
+      "link": "https://stackoverflow.com/questions/43947475/how-to-ignore-null-values-for-all-source-members-during-mapping-in-automapper-6",
+      "owner": {
+        "display_name": "Krystian Sikora",
+        "link": "https://stackoverflow.com/users/4151201/krystian-sikora"
+      }
+    },
+    {
+      "question_id": 44877379,
+      "title": "How inject service in AutoMapper profile class",
+      "accepted_answer_id": 44901316,
+      "score": 74,
+      "link": "https://stackoverflow.com/questions/44877379/how-inject-service-in-automapper-profile-class",
+      "owner": {
+        "display_name": "m.shakeri",
+        "link": "https://stackoverflow.com/users/3152927/m-shakeri"
+      }
+    },
+    {
+      "question_id": 50411188,
+      "title": "Trying to add AutoMapper to Asp.net Core 2?",
+      "accepted_answer_id": 50411497,
+      "score": 72,
+      "link": "https://stackoverflow.com/questions/50411188/trying-to-add-automapper-to-asp-net-core-2",
+      "owner": {
+        "display_name": "topcool",
+        "link": "https://stackoverflow.com/users/8877860/topcool"
+      }
+    },
+    {
+      "question_id": 11265829,
+      "title": "How can I map between two enums using Automapper?",
+      "accepted_answer_id": 11268711,
+      "score": 68,
+      "link": "https://stackoverflow.com/questions/11265829/how-can-i-map-between-two-enums-using-automapper",
+      "owner": {
+        "display_name": "Jeffrey Lott",
+        "link": "https://stackoverflow.com/users/93431/jeffrey-lott"
+      }
+    },
+    {
+      "question_id": 4276664,
+      "title": "Automapper - Does it map lists of objects?",
+      "accepted_answer_id": 4285596,
+      "score": 66,
+      "link": "https://stackoverflow.com/questions/4276664/automapper-does-it-map-lists-of-objects",
+      "owner": {
+        "display_name": "Randy Minder",
+        "link": "https://stackoverflow.com/users/163534/randy-minder"
+      }
+    },
+    {
+      "question_id": 17822882,
+      "title": "How to configure Conditional Mapping in AutoMapper?",
+      "accepted_answer_id": 17825721,
+      "score": 65,
+      "link": "https://stackoverflow.com/questions/17822882/how-to-configure-conditional-mapping-in-automapper",
+      "owner": {
+        "display_name": "Alwyn",
+        "link": "https://stackoverflow.com/users/860532/alwyn"
+      }
+    },
+    {
+      "question_id": 2645293,
+      "title": "Automapper failing to map on IEnumerable",
+      "accepted_answer_id": 2646570,
+      "score": 60,
+      "link": "https://stackoverflow.com/questions/2645293/automapper-failing-to-map-on-ienumerable",
+      "owner": {
+        "display_name": "Alex",
+        "link": "https://stackoverflow.com/users/131809/alex"
+      }
+    },
+    {
+      "question_id": 14875075,
+      "title": "AutoMapper: What is the difference between MapFrom and ResolveUsing?",
+      "accepted_answer_id": 14886345,
+      "score": 59,
+      "link": "https://stackoverflow.com/questions/14875075/automapper-what-is-the-difference-between-mapfrom-and-resolveusing",
+      "owner": {
+        "display_name": "danludwig",
+        "link": "https://stackoverflow.com/users/304832/danludwig"
+      }
+    },
+    {
+      "question_id": 35293356,
+      "title": "Automapper returning an empty collection, I want a null",
+      "accepted_answer_id": 35293514,
+      "score": 59,
+      "link": "https://stackoverflow.com/questions/35293356/automapper-returning-an-empty-collection-i-want-a-null",
+      "owner": {
+        "display_name": "c0D3l0g1c",
+        "link": "https://stackoverflow.com/users/441137/c0d3l0g1c"
+      }
+    },
+    {
+      "question_id": 3348634,
+      "title": "AutoMapper and inheritance - How to Map?",
+      "accepted_answer_id": 3921888,
+      "score": 56,
+      "link": "https://stackoverflow.com/questions/3348634/automapper-and-inheritance-how-to-map",
+      "owner": {
+        "display_name": "Gringo",
+        "link": "https://stackoverflow.com/users/403949/gringo"
+      }
+    },
+    {
+      "question_id": 6185026,
+      "title": "Do i need to create automapper createmap both ways?",
+      "accepted_answer_id": 6185064,
+      "score": 56,
+      "link": "https://stackoverflow.com/questions/6185026/do-i-need-to-create-automapper-createmap-both-ways",
+      "owner": {
+        "display_name": "ImmortalStrawberry",
+        "link": "https://stackoverflow.com/users/449156/immortalstrawberry"
+      }
+    },
+    {
+      "question_id": 31748671,
+      "title": "Pass Objects to AutoMapper Mapping",
+      "accepted_answer_id": 31754133,
+      "score": 55,
+      "link": "https://stackoverflow.com/questions/31748671/pass-objects-to-automapper-mapping",
+      "owner": {
+        "display_name": "CWitty",
+        "link": "https://stackoverflow.com/users/531479/cwitty"
+      }
+    },
+    {
+      "question_id": 53637653,
+      "title": "In AutoMapper 8.0 missing ResolveUsing",
+      "accepted_answer_id": 53647743,
+      "score": 55,
+      "link": "https://stackoverflow.com/questions/53637653/in-automapper-8-0-missing-resolveusing",
+      "owner": {
+        "display_name": "Juan Calderon",
+        "link": "https://stackoverflow.com/users/9529528/juan-calderon"
+      }
+    },
+    {
+      "question_id": 14177455,
+      "title": "Unit test the Automapper profiles",
+      "accepted_answer_id": 14177557,
+      "score": 54,
+      "link": "https://stackoverflow.com/questions/14177455/unit-test-the-automapper-profiles",
+      "owner": {
+        "display_name": "Pascal",
+        "link": "https://stackoverflow.com/users/401643/pascal"
+      }
+    },
+    {
+      "question_id": 3319002,
+      "title": "Automapper for Java",
+      "accepted_answer_id": 3704067,
+      "score": 53,
+      "link": "https://stackoverflow.com/questions/3319002/automapper-for-java",
+      "owner": {
+        "display_name": "mgamer",
+        "link": "https://stackoverflow.com/users/59666/mgamer"
+      }
+    },
+    {
+      "question_id": 2183401,
+      "title": "Using Profiles in Automapper to map the same types with different logic",
+      "accepted_answer_id": 2196854,
+      "score": 52,
+      "link": "https://stackoverflow.com/questions/2183401/using-profiles-in-automapper-to-map-the-same-types-with-different-logic",
+      "owner": {
+        "display_name": "sebd",
+        "link": "https://stackoverflow.com/users/247073/sebd"
+      }
+    },
+    {
+      "question_id": 7778216,
+      "title": "Allow mapping of dynamic types using AutoMapper or similar?",
+      "accepted_answer_id": 7778398,
+      "score": 51,
+      "link": "https://stackoverflow.com/questions/7778216/allow-mapping-of-dynamic-types-using-automapper-or-similar",
+      "owner": {
+        "display_name": "LiamB",
+        "link": "https://stackoverflow.com/users/184882/liamb"
+      }
+    },
+    {
+      "question_id": 37072286,
+      "title": "How to use mapper.Map inside MapperConfiguration of AutoMapper?",
+      "accepted_answer_id": 37116144,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/37072286/how-to-use-mapper-map-inside-mapperconfiguration-of-automapper",
+      "owner": {
+        "display_name": "Anton",
+        "link": "https://stackoverflow.com/users/5788429/anton"
+      }
+    },
+    {
+      "question_id": 11189729,
+      "title": "Using AutoMapper to map the property of an object to a string",
+      "accepted_answer_id": 11191415,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/11189729/using-automapper-to-map-the-property-of-an-object-to-a-string",
+      "owner": {
+        "display_name": "marcusstarnes",
+        "link": "https://stackoverflow.com/users/197415/marcusstarnes"
+      }
+    },
+    {
+      "question_id": 13687240,
+      "title": "Map collection of objects",
+      "accepted_answer_id": 13687279,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/13687240/map-collection-of-objects",
+      "owner": {
+        "display_name": "Riddick",
+        "link": "https://stackoverflow.com/users/1873098/riddick"
+      }
+    },
+    {
+      "question_id": 32643076,
+      "title": "Automapper: complex if else statement in ForMember",
+      "accepted_answer_id": 32643134,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/32643076/automapper-complex-if-else-statement-in-formember",
+      "owner": {
+        "display_name": "Sum NL",
+        "link": "https://stackoverflow.com/users/3876419/sum-nl"
+      }
+    },
+    {
+      "question_id": 14266108,
+      "title": "Create two Automapper maps between the same two object types",
+      "accepted_answer_id": 37770335,
+      "score": 43,
+      "link": "https://stackoverflow.com/questions/14266108/create-two-automapper-maps-between-the-same-two-object-types",
+      "owner": {
+        "display_name": "Kevin Kalitowski",
+        "link": "https://stackoverflow.com/users/713428/kevin-kalitowski"
+      }
+    },
+    {
+      "question_id": 26458731,
+      "title": "How to configure Auto mapper in class library project?",
+      "accepted_answer_id": 26465296,
+      "score": 43,
+      "link": "https://stackoverflow.com/questions/26458731/how-to-configure-auto-mapper-in-class-library-project",
+      "owner": {
+        "display_name": "bnil",
+        "link": "https://stackoverflow.com/users/1650894/bnil"
+      }
+    },
+    {
+      "question_id": 2451189,
+      "title": "Automapper: Ignore on condition of",
+      "accepted_answer_id": 2454385,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/2451189/automapper-ignore-on-condition-of",
+      "owner": {
+        "display_name": "Castrohenge",
+        "link": "https://stackoverflow.com/users/63295/castrohenge"
+      }
+    },
+    {
+      "question_id": 5631377,
+      "title": "Can AutoMapper Map Between a Value Type (Enum) and Reference Type? (string)",
+      "accepted_answer_id": 5635533,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/5631377/can-automapper-map-between-a-value-type-enum-and-reference-type-string",
+      "owner": {
+        "display_name": "RPM1984",
+        "link": "https://stackoverflow.com/users/321946/rpm1984"
+      }
+    },
+    {
+      "question_id": 3441916,
+      "title": "Automapper : mapping issue with inheritance and abstract base class on collections with Entity Framework 4 Proxy Pocos",
+      "accepted_answer_id": 4518288,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/3441916/automapper-mapping-issue-with-inheritance-and-abstract-base-class-on-collectio",
+      "owner": {
+        "display_name": "Ken Burkhardt",
+        "link": "https://stackoverflow.com/users/49215/ken-burkhardt"
+      }
+    },
+    {
+      "question_id": 15277904,
+      "title": "AutoMapper: manually set property",
+      "accepted_answer_id": 15278136,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/15277904/automapper-manually-set-property",
+      "owner": {
+        "display_name": "user2145393",
+        "link": "https://stackoverflow.com/users/2145393/user2145393"
+      }
+    },
+    {
+      "question_id": 15554788,
+      "title": "Deep level mapping using Automapper",
+      "accepted_answer_id": 15556142,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/15554788/deep-level-mapping-using-automapper",
+      "owner": {
+        "display_name": "SexyMF",
+        "link": "https://stackoverflow.com/users/936651/sexymf"
+      }
+    },
+    {
+      "question_id": 18096034,
+      "title": "Possible to use AutoMapper to map one object to list of objects?",
+      "accepted_answer_id": 18096914,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/18096034/possible-to-use-automapper-to-map-one-object-to-list-of-objects",
+      "owner": {
+        "display_name": "noocyte",
+        "link": "https://stackoverflow.com/users/11220/noocyte"
+      }
+    },
+    {
+      "question_id": 3145062,
+      "title": "Using AutoMapper to unflatten a DTO",
+      "accepted_answer_id": 3155413,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/3145062/using-automapper-to-unflatten-a-dto",
+      "owner": {
+        "display_name": "Josh Anderson",
+        "link": "https://stackoverflow.com/users/240439/josh-anderson"
+      }
+    },
+    {
+      "question_id": 51547124,
+      "title": "Where to validate AutoMapper Configuration in ASP.Net Core application?",
+      "accepted_answer_id": 51547631,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/51547124/where-to-validate-automapper-configuration-in-asp-net-core-application",
+      "owner": {
+        "display_name": "Mr. T",
+        "link": "https://stackoverflow.com/users/2078975/mr-t"
+      }
+    },
+    {
+      "question_id": 74730425,
+      "title": "System.DateTime on &#39;T MaxInteger[T](System.Collections.Generic.IEnumerable`1[T])&#39; violates the constraint of type T for .NET 7 using AutoMapper 11.0.1",
+      "accepted_answer_id": 74730591,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/74730425/system-datetime-on-t-maxintegertsystem-collections-generic-ienumerable1t",
+      "owner": {
+        "display_name": "Ogglas",
+        "link": "https://stackoverflow.com/users/3850405/ogglas"
+      }
+    },
+    {
+      "question_id": 1807298,
+      "title": "Configuring Automapper in Bootstrapper violates Open-Closed Principle?",
+      "accepted_answer_id": 1810728,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/1807298/configuring-automapper-in-bootstrapper-violates-open-closed-principle",
+      "owner": {
+        "display_name": "Omu",
+        "link": "https://stackoverflow.com/users/112100/omu"
+      }
+    },
+    {
+      "question_id": 8408612,
+      "title": "Automapper sets an array property to a zero-length array rather than null",
+      "accepted_answer_id": 8409623,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/8408612/automapper-sets-an-array-property-to-a-zero-length-array-rather-than-null",
+      "owner": {
+        "display_name": "Jeff Ogata",
+        "link": "https://stackoverflow.com/users/409259/jeff-ogata"
+      }
+    },
+    {
+      "question_id": 11555721,
+      "title": "AutoMapper Map If Not Null, Otherwise Custom Convert",
+      "accepted_answer_id": 11555920,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/11555721/automapper-map-if-not-null-otherwise-custom-convert",
+      "owner": {
+        "display_name": "RPM1984",
+        "link": "https://stackoverflow.com/users/321946/rpm1984"
+      }
+    },
+    {
+      "question_id": 14705064,
+      "title": "Mapping one source class to multiple derived classes with automapper",
+      "accepted_answer_id": 14705192,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/14705064/mapping-one-source-class-to-multiple-derived-classes-with-automapper",
+      "owner": {
+        "display_name": "Erik Nordenh&#246;k",
+        "link": "https://stackoverflow.com/users/430800/erik-nordenh%c3%b6k"
+      }
+    },
+    {
+      "question_id": 10649250,
+      "title": "Is Mapper.Map in AutoMapper thread-safe?",
+      "accepted_answer_id": 10650440,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/10649250/is-mapper-map-in-automapper-thread-safe",
+      "owner": {
+        "display_name": "Alex Yakunin",
+        "link": "https://stackoverflow.com/users/106042/alex-yakunin"
+      }
+    },
+    {
+      "question_id": 45524446,
+      "title": "AutoMapper: What is the difference between ForMember() and ForPath()?",
+      "accepted_answer_id": 45528708,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/45524446/automapper-what-is-the-difference-between-formember-and-forpath",
+      "owner": {
+        "display_name": "Adam Shakhabov",
+        "link": "https://stackoverflow.com/users/2948684/adam-shakhabov"
+      }
+    },
+    {
+      "question_id": 1623993,
+      "title": "Mapping collections using AutoMapper",
+      "accepted_answer_id": 1718703,
+      "score": 33,
+      "link": "https://stackoverflow.com/questions/1623993/mapping-collections-using-automapper",
+      "owner": {
+        "display_name": "Brian Liang",
+        "link": "https://stackoverflow.com/users/5853/brian-liang"
+      }
+    },
+    {
+      "question_id": 6576237,
+      "title": "A better way to use AutoMapper to flatten nested objects?",
+      "accepted_answer_id": 54802596,
+      "score": 33,
+      "link": "https://stackoverflow.com/questions/6576237/a-better-way-to-use-automapper-to-flatten-nested-objects",
+      "owner": {
+        "display_name": "John",
+        "link": "https://stackoverflow.com/users/828693/john"
+      }
+    },
+    {
+      "question_id": 8355024,
+      "title": "AutoMapper mapping properties with private setters",
+      "accepted_answer_id": 8359993,
+      "score": 33,
+      "link": "https://stackoverflow.com/questions/8355024/automapper-mapping-properties-with-private-setters",
+      "owner": {
+        "display_name": "leozilla",
+        "link": "https://stackoverflow.com/users/680038/leozilla"
+      }
+    },
+    {
+      "question_id": 9132251,
+      "title": "How to handle custom Properties in AutoMapper",
+      "accepted_answer_id": 9135278,
+      "score": 33,
+      "link": "https://stackoverflow.com/questions/9132251/how-to-handle-custom-properties-in-automapper",
+      "owner": {
+        "display_name": "Chase Florell",
+        "link": "https://stackoverflow.com/users/124069/chase-florell"
+      }
+    },
+    {
+      "question_id": 54748149,
+      "title": "Where i should put my DTOs in clean architecture?",
+      "accepted_answer_id": 54884502,
+      "score": 33,
+      "link": "https://stackoverflow.com/questions/54748149/where-i-should-put-my-dtos-in-clean-architecture",
+      "owner": {
+        "display_name": "Emad Ali",
+        "link": "https://stackoverflow.com/users/7377931/emad-ali"
+      }
+    },
+    {
+      "question_id": 13641195,
+      "title": "How do i convert a int to an enum and a string using automapper and int from DB",
+      "accepted_answer_id": 13641264,
+      "score": 32,
+      "link": "https://stackoverflow.com/questions/13641195/how-do-i-convert-a-int-to-an-enum-and-a-string-using-automapper-and-int-from-db",
+      "owner": {
+        "display_name": "Mark",
+        "link": "https://stackoverflow.com/users/485985/mark"
+      }
+    },
+    {
+      "question_id": 13772177,
+      "title": "Where to implement Automapper in a DDD + layered architecture",
+      "accepted_answer_id": 13781994,
+      "score": 32,
+      "link": "https://stackoverflow.com/questions/13772177/where-to-implement-automapper-in-a-ddd-layered-architecture",
+      "owner": {
+        "display_name": "Bob Tabor",
+        "link": "https://stackoverflow.com/users/1886710/bob-tabor"
+      }
+    },
+    {
+      "question_id": 9394833,
+      "title": "Automapper with nested child list",
+      "accepted_answer_id": 9395157,
+      "score": 31,
+      "link": "https://stackoverflow.com/questions/9394833/automapper-with-nested-child-list",
+      "owner": {
+        "display_name": "tobias",
+        "link": "https://stackoverflow.com/users/112636/tobias"
+      }
+    },
+    {
+      "question_id": 29380976,
+      "title": "AutoMapper generic mapping",
+      "accepted_answer_id": 29381031,
+      "score": 31,
+      "link": "https://stackoverflow.com/questions/29380976/automapper-generic-mapping",
+      "owner": {
+        "display_name": "Lorenzo",
+        "link": "https://stackoverflow.com/users/431537/lorenzo"
+      }
+    },
+    {
+      "question_id": 42916182,
+      "title": "Trying to add AutoMapper to .NetCore1.1 - not recognising services.AddAutoMapper()",
+      "accepted_answer_id": 42916850,
+      "score": 31,
+      "link": "https://stackoverflow.com/questions/42916182/trying-to-add-automapper-to-netcore1-1-not-recognising-services-addautomapper",
+      "owner": {
+        "display_name": "magna_nz",
+        "link": "https://stackoverflow.com/users/3530774/magna-nz"
+      }
+    },
+    {
+      "question_id": 47241708,
+      "title": "Automapper - Mapper already initialized error",
+      "accepted_answer_id": 47242459,
+      "score": 31,
+      "link": "https://stackoverflow.com/questions/47241708/automapper-mapper-already-initialized-error",
+      "owner": {
+        "display_name": "Rahmat Ali",
+        "link": "https://stackoverflow.com/users/8823023/rahmat-ali"
+      }
+    },
+    {
+      "question_id": 78025475,
+      "title": "ASP.NET Core AutoMapper: How to resolve Error\tCS0121 The call is ambiguous between the following methods or properties",
+      "accepted_answer_id": 78025549,
+      "score": 31,
+      "link": "https://stackoverflow.com/questions/78025475/asp-net-core-automapper-how-to-resolve-errorcs0121-the-call-is-ambiguous-betwe",
+      "owner": {
+        "display_name": "Ayobamilaye",
+        "link": "https://stackoverflow.com/users/9037515/ayobamilaye"
+      }
+    },
+    {
+      "question_id": 53528967,
+      "title": "How to use ProjectTo with Automapper 8.0 Dependency injection",
+      "accepted_answer_id": 53531893,
+      "score": 30,
+      "link": "https://stackoverflow.com/questions/53528967/how-to-use-projectto-with-automapper-8-0-dependency-injection",
+      "owner": {
+        "display_name": "Alex",
+        "link": "https://stackoverflow.com/users/3547170/alex"
+      }
+    },
+    {
+      "question_id": 2651613,
+      "title": "How to scan and auto-configure profiles in AutoMapper?",
+      "accepted_answer_id": 3618359,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/2651613/how-to-scan-and-auto-configure-profiles-in-automapper",
+      "owner": {
+        "display_name": "Wojciech Markowski",
+        "link": "https://stackoverflow.com/users/2679032/wojciech-markowski"
+      }
+    },
+    {
+      "question_id": 4204664,
+      "title": "Automapper together with Dependency Injection",
+      "accepted_answer_id": 4210629,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/4204664/automapper-together-with-dependency-injection",
+      "owner": {
+        "display_name": "Femaref",
+        "link": "https://stackoverflow.com/users/127059/femaref"
+      }
+    },
+    {
+      "question_id": 5208550,
+      "title": "Need to speed up automapper...It takes 32 seconds to do 113 objects",
+      "accepted_answer_id": 5209487,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/5208550/need-to-speed-up-automapper-it-takes-32-seconds-to-do-113-objects",
+      "owner": {
+        "display_name": "chobo2",
+        "link": "https://stackoverflow.com/users/130015/chobo2"
+      }
+    },
+    {
+      "question_id": 35256008,
+      "title": "AutoMapper Migrating from static API",
+      "accepted_answer_id": 35256077,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/35256008/automapper-migrating-from-static-api",
+      "owner": {
+        "display_name": "Asp.net",
+        "link": "https://stackoverflow.com/users/5891846/asp-net"
+      }
+    },
+    {
+      "question_id": 39545037,
+      "title": "Updating user by UserManager.Update() in ASP.NET Identity 2",
+      "accepted_answer_id": 39545583,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/39545037/updating-user-by-usermanager-update-in-asp-net-identity-2",
+      "owner": {
+        "display_name": "Jack",
+        "link": "https://stackoverflow.com/users/836018/jack"
+      }
+    },
+    {
+      "question_id": 2439024,
+      "title": "AutoMapper bidirectional mapping",
+      "accepted_answer_id": 2439032,
+      "score": 28,
+      "link": "https://stackoverflow.com/questions/2439024/automapper-bidirectional-mapping",
+      "owner": {
+        "display_name": "Benny",
+        "link": "https://stackoverflow.com/users/124061/benny"
+      }
+    },
+    {
+      "question_id": 11147347,
+      "title": "AutoMapper using the wrong constructor",
+      "accepted_answer_id": 11225771,
+      "score": 28,
+      "link": "https://stackoverflow.com/questions/11147347/automapper-using-the-wrong-constructor",
+      "owner": {
+        "display_name": "Mark Vickery",
+        "link": "https://stackoverflow.com/users/685634/mark-vickery"
+      }
+    },
+    {
+      "question_id": 12037986,
+      "title": "Is AutoMapper AssertConfigurationIsValid enough to ensure good mapping?",
+      "accepted_answer_id": 12038086,
+      "score": 28,
+      "link": "https://stackoverflow.com/questions/12037986/is-automapper-assertconfigurationisvalid-enough-to-ensure-good-mapping",
+      "owner": {
+        "display_name": "Morgan",
+        "link": "https://stackoverflow.com/users/801811/morgan"
+      }
+    },
+    {
+      "question_id": 12514084,
+      "title": "AutoMapper.Map ignore all Null value properties from source object",
+      "accepted_answer_id": 12523478,
+      "score": 28,
+      "link": "https://stackoverflow.com/questions/12514084/automapper-map-ignore-all-null-value-properties-from-source-object",
+      "owner": {
+        "display_name": "Marty",
+        "link": "https://stackoverflow.com/users/444149/marty"
+      }
+    },
+    {
+      "question_id": 38306461,
+      "title": "How to use the new IValueResolver of AutoMapper?",
+      "accepted_answer_id": 38308705,
+      "score": 28,
+      "link": "https://stackoverflow.com/questions/38306461/how-to-use-the-new-ivalueresolver-of-automapper",
+      "owner": {
+        "display_name": "PaddySe",
+        "link": "https://stackoverflow.com/users/512479/paddyse"
+      }
+    },
+    {
+      "question_id": 71216149,
+      "title": "How to setup AutoMapper in ASP.Net Core 6",
+      "accepted_answer_id": 71231828,
+      "score": 28,
+      "link": "https://stackoverflow.com/questions/71216149/how-to-setup-automapper-in-asp-net-core-6",
+      "owner": {
+        "display_name": "MJ X",
+        "link": "https://stackoverflow.com/users/1542982/mj-x"
+      }
+    },
+    {
+      "question_id": 7310533,
+      "title": "Dictionary &lt;string,string&gt; map to an object using Automapper",
+      "accepted_answer_id": 7310568,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/7310533/dictionary-string-string-map-to-an-object-using-automapper",
+      "owner": {
+        "display_name": "Rusi Nova",
+        "link": "https://stackoverflow.com/users/835038/rusi-nova"
+      }
+    },
+    {
+      "question_id": 11264455,
+      "title": "Automapper with base class and different configuration options for implementations",
+      "accepted_answer_id": 11269062,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/11264455/automapper-with-base-class-and-different-configuration-options-for-implementatio",
+      "owner": {
+        "display_name": "Hrvoje Hudo",
+        "link": "https://stackoverflow.com/users/1407/hrvoje-hudo"
+      }
+    },
+    {
+      "question_id": 28382811,
+      "title": "How to configure Automapper to automatically ignore properties with ReadOnly attribute?",
+      "accepted_answer_id": 28384511,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/28382811/how-to-configure-automapper-to-automatically-ignore-properties-with-readonly-att",
+      "owner": {
+        "display_name": "Deilan",
+        "link": "https://stackoverflow.com/users/3095779/deilan"
+      }
+    },
+    {
+      "question_id": 35370732,
+      "title": "Automapper says Mapper.Map is obsolete, global mappings?",
+      "accepted_answer_id": 35371548,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/35370732/automapper-says-mapper-map-is-obsolete-global-mappings",
+      "owner": {
+        "display_name": "M Kenyon II",
+        "link": "https://stackoverflow.com/users/405883/m-kenyon-ii"
+      }
+    },
+    {
+      "question_id": 4377377,
+      "title": "How to assign parent reference to a property in a child with AutoMapper",
+      "accepted_answer_id": 4378597,
+      "score": 26,
+      "link": "https://stackoverflow.com/questions/4377377/how-to-assign-parent-reference-to-a-property-in-a-child-with-automapper",
+      "owner": {
+        "display_name": "Sixto Saez",
+        "link": "https://stackoverflow.com/users/9711/sixto-saez"
+      }
+    },
+    {
+      "question_id": 4439924,
+      "title": "Automapper: Mapping a property value of an object to a string",
+      "accepted_answer_id": 4440080,
+      "score": 26,
+      "link": "https://stackoverflow.com/questions/4439924/automapper-mapping-a-property-value-of-an-object-to-a-string",
+      "owner": {
+        "display_name": "Paul Hadfield",
+        "link": "https://stackoverflow.com/users/385544/paul-hadfield"
+      }
+    },
+    {
+      "question_id": 13314666,
+      "title": "Using Automapper to update an existing Entity POCO",
+      "accepted_answer_id": 25242322,
+      "score": 26,
+      "link": "https://stackoverflow.com/questions/13314666/using-automapper-to-update-an-existing-entity-poco",
+      "owner": {
+        "display_name": "Paul Taylor",
+        "link": "https://stackoverflow.com/users/1169670/paul-taylor"
+      }
+    },
+    {
+      "question_id": 3146606,
+      "title": "AutoMapper Exclude Fields",
+      "accepted_answer_id": 3146643,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/3146606/automapper-exclude-fields",
+      "owner": {
+        "display_name": "griegs",
+        "link": "https://stackoverflow.com/users/129195/griegs"
+      }
+    },
+    {
+      "question_id": 3910680,
+      "title": "DTO shape: flat, complex/nested, or a mixture of both",
+      "accepted_answer_id": 3910747,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/3910680/dto-shape-flat-complex-nested-or-a-mixture-of-both",
+      "owner": {
+        "display_name": "tbehunin",
+        "link": "https://stackoverflow.com/users/154824/tbehunin"
+      }
+    },
+    {
+      "question_id": 28857515,
+      "title": "Using AutoMapper to map a string to an enum",
+      "accepted_answer_id": 28857694,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/28857515/using-automapper-to-map-a-string-to-an-enum",
+      "owner": {
+        "display_name": "gog",
+        "link": "https://stackoverflow.com/users/1845893/gog"
+      }
+    },
+    {
+      "question_id": 40658582,
+      "title": "AutoMapper - What&#39;s difference between Condition and PreCondition",
+      "accepted_answer_id": 40662285,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/40658582/automapper-whats-difference-between-condition-and-precondition",
+      "owner": {
+        "display_name": "Gean Ribeiro",
+        "link": "https://stackoverflow.com/users/2892830/gean-ribeiro"
+      }
+    },
+    {
+      "question_id": 6226419,
+      "title": "Using automapper to apply a filter to a collection",
+      "accepted_answer_id": 6410727,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/6226419/using-automapper-to-apply-a-filter-to-a-collection",
+      "owner": {
+        "display_name": "stevie_c",
+        "link": "https://stackoverflow.com/users/778356/stevie-c"
+      }
+    },
+    {
+      "question_id": 11333732,
+      "title": "How do I get AutoMapper to not cache mapped objects?",
+      "accepted_answer_id": 29214924,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/11333732/how-do-i-get-automapper-to-not-cache-mapped-objects",
+      "owner": {
+        "display_name": "Josh Close",
+        "link": "https://stackoverflow.com/users/68499/josh-close"
+      }
+    },
+    {
+      "question_id": 17085878,
+      "title": "AutoMapper auto create createMap",
+      "accepted_answer_id": 23400179,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/17085878/automapper-auto-create-createmap",
+      "owner": {
+        "display_name": "Magnus Gladh",
+        "link": "https://stackoverflow.com/users/101570/magnus-gladh"
+      }
+    },
+    {
+      "question_id": 32609607,
+      "title": "Map async result with automapper",
+      "accepted_answer_id": 32616686,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/32609607/map-async-result-with-automapper",
+      "owner": {
+        "display_name": "Patrick",
+        "link": "https://stackoverflow.com/users/914373/patrick"
+      }
+    },
+    {
+      "question_id": 36074324,
+      "title": "How to Mock an AutoMapper IMapper object in Web API Tests With StructureMap Dependency Injection?",
+      "accepted_answer_id": 36079559,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/36074324/how-to-mock-an-automapper-imapper-object-in-web-api-tests-with-structuremap-depe",
+      "owner": {
+        "display_name": "kob490",
+        "link": "https://stackoverflow.com/users/3101071/kob490"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 13781994,
+      "body": "<p>To answer your specific question I will speak more generally about your architecture. The architecture you've devised for your project is subtly different from a typical architecture used with DDD. While the way you've partitioned responsibilities is typical, in DDD, domain classes aren't responsible for their own persistence. In fact a mantra of DDD is <a href=\"http://gorodinski.com/blog/2012/08/10/toward-persistence-ignorance-with-nhibernate-in-domain-driven-design/\" rel=\"nofollow noreferrer\">persistence ignorance</a>. This basically means that domain classes are persistence ignorant - they don't have  a <code>Save</code> method. Instead, application services (application facade layer in your architecture) coordinate with repositories to reconstitute and persist domain entities.</p>\n<p>Next, when implementing repositories, there is usually no need for an explicit DTO between the underlying persistence technology and domain classes. With ORMs such as NHibernate and EF, mappings between domain classes and relational tables are expressed with either mapping classes or XML based configurations. As a result, your domain classes are mapped implicitly - no need for DTO. Some cases do call for a DTO, in which case the mapping between the DTO and domain class should be encapsulated by the repository implementation. This is one place where you could invoke AutoMapper.</p>\n<p>Finally, it is a common practice to communicate between the presentation layer and the application/domain layer with DTOs. To determine exactly where the mapping should take place you have to dig deeper into the architecture that is a best fit your your project. Most modern DDD architectures are based on the <a href=\"https://alistair.cockburn.us/hexagonal-architecture\" rel=\"nofollow noreferrer\">Hexagonal architecture</a>. In a hexagonal architecture, your domain is at the center and all other &quot;layers&quot; adapt the domain to specific technologies. For instance, a repository can be seen as an <a href=\"http://en.wikipedia.org/wiki/Adapter_pattern\" rel=\"nofollow noreferrer\">adapter</a> between the domain and a specific database technology. ASP.NET WebAPI can be seen as an adapter between the domain and HTTP/REST. Likewise, the presentation layer can be seen as an adapter between the domain and a specific. DTOs can manifest within each of these adapters and it is the adapter's responsibility to map to and from these DTOs.</p>\n<p>A typical example would be to use application services to establish a facade over your domain. No DTOs at play yet. Next, you create a service layer (open host service in DDD) with ASP.NET WebAPI - an adapter. You create ASP.NET WebAPI specific DTOs and it is up to this adapter to map to and from these DTOs. Therefore, if you use AutoMapper, it should be invoked in this layer. This can be done either explicitly or in an <a href=\"http://en.wikipedia.org/wiki/Aspect-oriented_programming\" rel=\"nofollow noreferrer\">aspect-oriented</a> way with action filters. The same holds for the presentation layer. The presentation layer could be coupled directly to application services, or to an ASP.NET WebAPI open host service. In either case, it is the responsibility of the presentation layer to map between domain classes (from application service or DTOs from WebAPI) and its own primitives such as a ViewModel.</p>\n",
+      "owner": {
+        "display_name": "eulerfx",
+        "link": "https://stackoverflow.com/users/13855/eulerfx"
+      }
+    },
+    {
+      "answer_id": 40275196,
+      "body": "<p>I figured it out! Here's the details:</p>\n<ol>\n<li>Add the main AutoMapper Package to your solution via <a href=\"https://www.nuget.org/packages/AutoMapper/\" rel=\"noreferrer\">NuGet</a>.</li>\n<li><strong>[Pre-v13.x]</strong> If using AutoMapper prior to v13.x, add the AutoMapper Dependency Injection Package to your solution via <a href=\"https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjection/\" rel=\"noreferrer\">NuGet</a>. However, do note::</li>\n</ol>\n<blockquote>\n<p>This package has been deprecated as it is legacy and is no longer maintained.</p>\n</blockquote>\n<ol start=\"3\">\n<li><p>Create a new class for a mapping profile. (I made a class in the main solution directory called <code>MappingProfile.cs</code> and add the following code.) I'll use a <code>User</code> and <code>UserDto</code> object as an example.</p>\n<pre><code> public class MappingProfile : Profile {\n     public MappingProfile() {\n         // Add as many of these lines as you need to map your objects\n         CreateMap&lt;User, UserDto&gt;();\n         CreateMap&lt;UserDto, User&gt;();\n     }\n }\n</code></pre>\n</li>\n<li><p>Then add the AutoMapperConfiguration in the <code>Startup.cs</code> as shown below:</p>\n<pre><code> public void ConfigureServices(IServiceCollection services) {\n     // .... Ignore code before this\n\n    // Auto Mapper Configurations\n     var mapperConfig = new MapperConfiguration(mc =&gt;\n     {\n         mc.AddProfile(new MappingProfile());\n     });\n\n     IMapper mapper = mapperConfig.CreateMapper();\n     services.AddSingleton(mapper);\n\n     services.AddMvc();\n\n }\n</code></pre>\n</li>\n<li><p>To invoke the mapped object in code, do something like the following:</p>\n<pre><code> public class UserController : Controller {\n\n     // Create a field to store the mapper object\n     private readonly IMapper _mapper;\n\n     // Assign the object in the constructor for dependency injection\n     public UserController(IMapper mapper) {\n         _mapper = mapper;\n     }\n\n     public async Task&lt;IActionResult&gt; Edit(string id) {\n\n         // Instantiate source object\n         // (Get it from the database or whatever your code calls for)\n         var user = await _context.Users\n             .SingleOrDefaultAsync(u =&gt; u.Id == id);\n\n         // Instantiate the mapped data transfer object\n         // using the mapper you stored in the private field.\n         // The type of the source object is the first type argument\n         // and the type of the destination is the second.\n         // Pass the source object you just instantiated above\n         // as the argument to the _mapper.Map&lt;&gt;() method.\n         var model = _mapper.Map&lt;UserDto&gt;(user);\n\n         // .... Do whatever you want after that!\n     }\n }\n</code></pre>\n</li>\n</ol>\n",
+      "owner": {
+        "display_name": "theutz",
+        "link": "https://stackoverflow.com/users/3162006/theutz"
+      }
+    },
+    {
+      "answer_id": 32643134,
+      "body": "<p>Use the <a href=\"http://blog.travisgosselin.com/automapper-mapfrom-vs-resolveusing/\" rel=\"nofollow noreferrer\"><code>ResolveUsing()</code></a> method:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>Mapper.CreateMap&lt;SomeViewModels, SomeDTO&gt;()               \n         .ForMember(dest =&gt; dest.Date, o =&gt; o.ResolveUsing(Converter));\n\nprivate static object Converter(SomeViewModels value)\n{\n    DateTime? finalDate = null;\n    if (value.Date.HasDate == &quot;N&quot;)\n    {\n        // so it should be null\n    }\n    else\n    {                                   \n        finalDate = DateTime.Parse(value.Date.ToString());\n    }                               \n    return finalDate;\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Backs",
+        "link": "https://stackoverflow.com/users/2910943/backs"
+      }
+    },
+    {
+      "answer_id": 78025549,
+      "body": "<p>See this <a href=\"https://docs.automapper.org/en/latest/13.0-Upgrade-Guide.html\" rel=\"noreferrer\">web page</a> with the v13 upgrade instructions.</p>\n<p>Most importantly:</p>\n<blockquote>\n<p><strong>AddAutoMapper</strong> is part of the core package and the <strong>DI package is discontinued</strong></p>\n</blockquote>\n<p>Therefore:</p>\n<ul>\n<li>When you <strong>upgrade</strong> your AutoMapper to v13, it now includes the <code>.AddAutoMapper()</code> extension method in the base Nuget package</li>\n<li><strong>Remove</strong> the reference to the <code>AutoMapper.Extensions.Microsoft.DependencyInjection</code> package - no longer needed</li>\n</ul>\n",
+      "owner": {
+        "display_name": "marc_s",
+        "link": "https://stackoverflow.com/users/13302/marc-s"
+      }
+    },
+    {
+      "answer_id": 8944694,
+      "body": "<p>You just need to specify that in the mapping:</p>\n<pre><code>Mapper.CreateMap&lt;DomainClass, Child&gt;();\nMapper.CreateMap&lt;DomainClass, Parent&gt;()\n      .ForMember(d =&gt; d.Id, opt =&gt; opt.MapFrom(s =&gt; s.Id))\n      .ForMember(d =&gt; d.A, opt =&gt; opt.MapFrom(s =&gt; s.A))\n      .ForMember(d =&gt; d.Child, \n                 opt =&gt; opt.MapFrom(s =&gt; Mapper.Map&lt;DomainClass, Child&gt;(s)));\n</code></pre>\n<p><strong>UPDATE:</strong></p>\n<p>For latest Automapper, <a href=\"https://stackoverflow.com/a/45169725/1659563\">see answer of @prostynick</a> -</p>\n<blockquote>\n<p>Just map the child using self. Tested with AutoMapper 6.1.1.</p>\n<pre><code>    CreateMap&lt;DomainClass, Child&gt;();\n    CreateMap&lt;DomainClass, Parent&gt;()\n        .ForMember(d =&gt; d.Child, opt =&gt; opt.MapFrom(s =&gt; s));\n</code></pre>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Justin Niessner",
+        "link": "https://stackoverflow.com/users/84651/justin-niessner"
+      }
+    },
+    {
+      "answer_id": 37116144,
+      "body": "<p><strong>As of AutoMapper 8.0 and up</strong></p>\n<p>The answer below for 5.1.1 still applies, except that <code>ResolveUsing</code> has been renamed to <code>MapFrom</code>; the delegate signature remains the same.</p>\n<p><strong>As of AutoMapper 5.1.1</strong></p>\n<p>You can get to the mapper using the overload of <code>ResolveUsing</code> that accepts a delegate with four parameters, the last of which is <code>ResolutionContext</code> that has a <code>Mapper</code> property (<code>context.Mapper</code> in the below snippet):</p>\n<pre><code>var config = new MapperConfiguration(\n    cfg =&gt; {\n        cfg.CreateMap&lt;Customer, CustomerDto&gt;();\n        cfg.CreateMap&lt;Customer, DetailedCustomerDto&gt;();\n        cfg.CreateMap&lt;Order, OrderDto&gt;()\n             .ForMember(dst =&gt; dst.Customer, src =&gt; src.ResolveUsing(\n                  (order, orderDto, i, context) =&gt; {\n                      return order.Type == 1\n                      ? context.Mapper.Map&lt;Customer, CustomerDto&gt;(order.Customer)\n                      : context.Mapper.Map&lt;Customer, DetailedCustomerDto&gt;(order.Customer);\n        }));\n });\n\n var orderTypeOne = new Order();\n orderTypeOne.Type = 1;\n orderTypeOne.Customer = new Customer() {\n    Id = 1\n };\n\n var dto = config.CreateMapper().Map&lt;Order, OrderDto&gt;(orderTypeOne);\n Debug.Assert(dto.Customer.GetType() == typeof (CustomerDto));\n\n var orderTypeTwo = new Order();\n orderTypeTwo.Type = 2;\n orderTypeTwo.Customer = new Customer() {\n     Id = 1\n };\n dto = config.CreateMapper().Map&lt;Order, OrderDto&gt;(orderTypeTwo);\n Debug.Assert(dto.Customer.GetType() == typeof (DetailedCustomerDto));\n</code></pre>\n<p><strong>Prior to AutoMapper 5.1.1</strong></p>\n<p>You can get to the mapper using an overload of <code>ResolveUsing</code> with two parameters, first of which is <code>ResolutionResult</code> (<code>result.Context.Engine.Mapper</code>):</p>\n<pre><code>var config = new MapperConfiguration(\n    cfg =&gt; {\n        cfg.CreateMap&lt;Customer, CustomerDto&gt;();\n        cfg.CreateMap&lt;Customer, DetailedCustomerDto&gt;();\n        cfg.CreateMap&lt;Order, OrderDto&gt;()\n             .ForMember(dst =&gt; dst.Customer, src =&gt; src.ResolveUsing((result, order) =&gt; {\n                return order.Type == 1\n                ? result.Context.Engine.Mapper.Map&lt;Customer, CustomerDto&gt;(order.Customer)\n                : result.Context.Engine.Mapper.Map&lt;Customer, DetailedCustomerDto&gt;(order.Customer);\n        }));\n });\n\n var orderTypeOne = new Order();\n orderTypeOne.Type = 1;\n orderTypeOne.Customer = new Customer() {\n    Id = 1\n };\n\n var dto = config.CreateMapper().Map&lt;Order, OrderDto&gt;(orderTypeOne);\n Debug.Assert(dto.Customer.GetType() == typeof (CustomerDto));\n\n var orderTypeTwo = new Order();\n orderTypeTwo.Type = 2;\n orderTypeTwo.Customer = new Customer() {\n     Id = 1\n };\n dto = config.CreateMapper().Map&lt;Order, OrderDto&gt;(orderTypeTwo);\n Debug.Assert(dto.Customer.GetType() == typeof (DetailedCustomerDto));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Evk",
+        "link": "https://stackoverflow.com/users/5311735/evk"
+      }
+    },
+    {
+      "answer_id": 7778398,
+      "body": "<p><strong><a href=\"https://lostechies.com/jimmybogard/2016/01/28/automapper-4-2-0-released/\" rel=\"nofollow noreferrer\">AutoMapper 4.2.0</a> now supports <a href=\"https://docs.automapper.org/en/stable/Dynamic-and-ExpandoObject-Mapping.html\" rel=\"nofollow noreferrer\">Dynamic/expando/dictionary mapping</a></strong></p>\n<p>With this feature you can map to your expando objects to static types:</p>\n<pre><code>dynamic CurUser = _users.GetSingleUser(UserID);   \nvar config = new MapperConfiguration(cfg =&gt; { });\nvar mapper = config.CreateMapper();\n\nvar retUser = mapper.Map&lt;UserModel&gt;(CurUser);\n</code></pre>\n<p>Old versions of AutoMapper do not support this (Massive internally uses <code>ExpandoObject</code> which doesn't provide  which properties it has), and you are right <code>Mapper.DynamicMap</code> is for mapping without creating mapping configuration.</p>\n<p>Actually it's not hard to write yourself a mapper if you just want simple mapping:</p>\n<pre><code>public static class DynamicToStatic\n{\n    public static T ToStatic&lt;T&gt;(object expando)\n    {\n        var entity = Activator.CreateInstance&lt;T&gt;();\n\n        //ExpandoObject implements dictionary\n        var properties = expando as IDictionary&lt;string, object&gt;; \n\n        if (properties == null)\n            return entity;\n\n        foreach (var entry in properties)\n        {\n            var propertyInfo = entity.GetType().GetProperty(entry.Key);\n            if(propertyInfo!=null)\n                propertyInfo.SetValue(entity, entry.Value, null);\n        }\n        return entity;\n    }\n}\n\ndynamic CurUser = _users.GetSingleUser(UserID);   \nvar retUser = DynamicToStatic.ToStatic&lt;UserModel&gt;(CurUser);\n</code></pre>\n",
+      "owner": {
+        "display_name": "nemesv",
+        "link": "https://stackoverflow.com/users/872395/nemesv"
+      }
+    },
+    {
+      "answer_id": 14678634,
+      "body": "<p>I found the solution, Thanks all for reply.</p>\n<pre><code>category = (Categoies)AutoMapper.Mapper.Map(viewModel, category, typeof(CategoriesViewModel), typeof(Categories));\n</code></pre>\n<p>But, I have already dont know the reason. I cant understand fully.</p>\n",
+      "owner": {
+        "display_name": "AliRıza Adıyahşi",
+        "link": "https://stackoverflow.com/users/1324756/alir%c4%b1za-ad%c4%b1yah%c5%9fi"
+      }
+    },
+    {
+      "answer_id": 74730591,
+      "body": "<p>Found an answer for it. Searched through issues before posting but I searched for the complete exception and found nothing.</p>\n<p><a href=\"https://github.com/AutoMapper/AutoMapper/issues/3988#issuecomment-1140716814\" rel=\"noreferrer\">https://github.com/AutoMapper/AutoMapper/issues/3988#issuecomment-1140716814</a></p>\n<pre><code>using AutoMapper;\nusing AutoMapper.Internal;\n\nvar mapperConfig = new MapperConfiguration(mc =&gt;\n{\n    mc.Internal().MethodMappingEnabled = false;\n    mc.AddProfile(new MappingProfile());\n});\n</code></pre>\n<p>Dependency injection:</p>\n<pre><code>services.AddAutoMapper(cfg =&gt; cfg.Internal().MethodMappingEnabled = false, typeof(MappingProfile).Assembly);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ogglas",
+        "link": "https://stackoverflow.com/users/3850405/ogglas"
+      }
+    },
+    {
+      "answer_id": 53647743,
+      "body": "<p>Replace ResolveUsing with MapFrom, and add one more input parameter to the lambda (TDestination).</p>\n<pre><code>.ForMember(d =&gt; d.UsersCount, map =&gt; map.MapFrom((s,d) =&gt; s.Users?.Count ?? 0))\n</code></pre>\n<p>EDIT November 2022</p>\n<p>Newest version(s) of AutoMapper doesn't support lambda expression in MapFrom. In this case you have to extract it to a method (Func) or do it inline if you can.\nAlso, null propagation isn't allowed unless it's a method.</p>\n<pre><code>.ForMember(d =&gt; d.UsersCount, map =&gt; map.MapFrom(s =&gt; MapUserCount(s))\n--------------\nprivate static int MapUserCount(ApplicationRole src) {\n    return src.Users?.Count ?? 0;\n}\n</code></pre>\n<p>or</p>\n<pre><code>.ForMember(d =&gt; d.UsersCount, map =&gt; map.MapFrom(s =&gt; s.Users == null ? 0 : s.Users.Count))\n</code></pre>\n",
+      "owner": {
+        "display_name": "Paw Baltzersen",
+        "link": "https://stackoverflow.com/users/94923/paw-baltzersen"
+      }
+    },
+    {
+      "answer_id": 36079559,
+      "body": "<p>That's pretty simple: if you mock <code>IMapper</code> and imagine it as a fully abstract concept of mapping data from one object to another, then you have to treat is an abstraction and not imply there's a real automapper behind it.</p>\n<p>First you should not register any existing profile at all, you should instead setup IMapper.Map method to return specific object when given another object.</p>\n<p>So for each profile used for specific method you have to do a setup, looking approximately like this:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>var mockMapper = new Mock&lt;IMapper&gt;();\nmockMapper.Setup(x =&gt; x.Map&lt;DestinationClass&gt;(It.IsAny&lt;SourceClass&gt;()))\n    .Returns((SourceClass source) =&gt;\n        {\n            // abstract mapping function code here, return instance of DestinationClass\n        });\n</code></pre>\n<p>In this case, your test knows nothing about actual <code>IMapper</code> implementation - it just uses it methods to get the data you expect from actual <code>IMapper</code> implementation to receive.</p>\n",
+      "owner": {
+        "display_name": "Red",
+        "link": "https://stackoverflow.com/users/1307262/red"
+      }
+    },
+    {
+      "answer_id": 66861138,
+      "body": "<p>Try this if you're using C# 7+ (a slight variation of @Paweł Bejgerthat's answer that will make it even simpler):</p>\n<pre><code>Mapper.CreateMap&lt;(People people, Phone phone), PeoplePhoneDto&gt;()\n    .ForMember(d =&gt; d.FirstName, opt =&gt; opt.MapFrom(s =&gt; s.people.FirstName))\n    .ForMember(d =&gt; d.LastName, opt =&gt; opt.MapFrom(s =&gt; s.people.LastName))\n    .ForMember(d =&gt; d.Number, opt =&gt; opt.MapFrom(s =&gt; s.phone.Number ));\n</code></pre>\n<p>And then use it like this:</p>\n<pre><code>var peoplePhoneDto = EntityMapper.Map&lt;PeoplePhoneDto&gt;((people, phone));\n</code></pre>\n<p>And yes, you will need a couple of brackets around the arguments, it's not a mistake. The reason behind it is that you're passing one single source (not two) which happens to be a (People, Phone) tuple.</p>\n",
+      "owner": {
+        "display_name": "Luis Gouveia",
+        "link": "https://stackoverflow.com/users/3231884/luis-gouveia"
+      }
+    },
+    {
+      "answer_id": 71231828,
+      "body": "<p>Using this line instead: <code>typeof(Program).Assembly</code></p>\n",
+      "owner": {
+        "display_name": "Tiny Wang",
+        "link": "https://stackoverflow.com/users/14574199/tiny-wang"
+      }
+    },
+    {
+      "answer_id": 4988159,
+      "body": "<p>From Jimmy Bogard:  <code>CreateMap&lt;Foo, Bar&gt;().ForMember(x =&gt; x.Blarg, opt =&gt; opt.Ignore());</code></p>\n<p>It's in <a href=\"http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/01/22/automapper-the-object-object-mapper.aspx\" rel=\"noreferrer\">one of the comments at his blog</a>.</p>\n<p>UPDATE(from <a href=\"https://stackoverflow.com/users/2538813/jamie\">Jamie's</a> comment  Jan 4 '19 at 11:11:)</p>\n<blockquote>\n<p>Ignore has been replaced with <strong>DoNotValidate</strong> in ForSourceMember:\n<a href=\"https://github.com/AutoMapper/AutoMapper/blob/master/docs/8.0-Upgrade-Guide.md\" rel=\"noreferrer\">https://github.com/AutoMapper/AutoMapper/blob/master/docs/8.0-Upgrade-Guide.md</a></p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "smartcaveman",
+        "link": "https://stackoverflow.com/users/344211/smartcaveman"
+      }
+    },
+    {
+      "answer_id": 53531893,
+      "body": "<blockquote>\n<p>Starting with 8.0 you can use IMapper.ProjectTo</p>\n</blockquote>\n<p>This means that now <code>IMapper</code> interface has a method <code>ProjectTo</code> (similar to <code>Map</code>). So while you still need injecting <code>IMapper</code> (but you need it anyway if you were using <code>Map</code>, so no difference), you don't need <code>QueryableExtensions</code> and <code>ProjectTo</code> <em>extension</em> method - you simply use the interface method (similar to <code>Map</code>):</p>\n<pre class=\"lang-cs prettyprint-override\"><code>return await _mapper.ProjectTo&lt;SomeViewModel&gt;(dbContext.SomeEntity)\n    .ToListAsync();\n</code></pre>\n<hr />\n<p>Please note that there is fundamental difference between <code>_mapper.ProjectTo</code> and <code>Select(_mapper.Map)</code> - the former is translated to SQL and executed server side, while the latter leads to <a href=\"https://learn.microsoft.com/en-us/ef/core/querying/client-eval#client-evaluation\" rel=\"noreferrer\">client evaluation</a> and needs <code>Include</code> / <code>ThenInclude</code> (or lazy loading) in order to function properly.</p>\n",
+      "owner": {
+        "display_name": "Ivan Stoev",
+        "link": "https://stackoverflow.com/users/5202563/ivan-stoev"
+      }
+    },
+    {
+      "answer_id": 23400179,
+      "body": "<p>Just set <code>CreateMissingTypeMaps</code> to true in the options:</p>\n<pre><code>var dto = Mapper.Map&lt;FooDTO&gt;\n     (foo, opts =&gt; opts.CreateMissingTypeMaps = true);\n</code></pre>\n<p>If you need to use it often, store the lambda in a delegate field:</p>\n<pre><code>static readonly Action&lt;IMappingOperationOptions&gt; _mapperOptions =\n    opts =&gt; opts.CreateMissingTypeMaps = true;\n\n...\n\nvar dto = Mapper.Map&lt;FooDTO&gt;(foo, _mapperOptions);\n</code></pre>\n<hr />\n<p>UPDATE:</p>\n<p>The approach described above no longer works in recent versions of AutoMapper.</p>\n<p>Instead, you should create a mapper configuration with <code>CreateMissingTypeMaps</code> set to true and create a mapper instance from this configuration:</p>\n<pre><code>var config = new MapperConfiguration(cfg =&gt;\n{\n    cfg.CreateMissingTypeMaps = true;\n    // other configurations\n});\nvar mapper = config.CreateMapper();\n</code></pre>\n<p>If you want to keep using the old static API (no longer recommended), you can also do this:</p>\n<pre><code>Mapper.Initialize(cfg =&gt;\n{\n    cfg.CreateMissingTypeMaps = true;\n    // other configurations\n});\n</code></pre>\n<hr />\n<p>UPDATE 2 - Automapper 9 and later:</p>\n<p>Starting from Automapper version 9.0, the <code>CreateMissingTypeMaps</code> API was removed. Automapper documentation now suggests to explicitly configure maps, manually or using reflection.</p>\n<p><a href=\"https://docs.automapper.org/en/stable/9.0-Upgrade-Guide.html#automapper-no-longer-creates-maps-automatically-createmissingtypemaps-and-conventions\" rel=\"noreferrer\">https://docs.automapper.org/en/stable/9.0-Upgrade-Guide.html#automapper-no-longer-creates-maps-automatically-createmissingtypemaps-and-conventions</a></p>\n",
+      "owner": {
+        "display_name": "Thomas Levesque",
+        "link": "https://stackoverflow.com/users/98713/thomas-levesque"
+      }
+    },
+    {
+      "answer_id": 28857694,
+      "body": "<p>Since you're mapping from the <em>display name</em> and not the <em>enum</em> name you'll need to build a custom mapping function to scan the attributes to find the enum with that display name.  You can use <code>ResolveUsing</code> instead of <code>MapFrom</code> to use a custom mapping function:</p>\n<pre><code>Mapper.CreateMap&lt;Profile, ProfileDTO&gt;()\n      .ForMember(d =&gt; d.SchoolGrade, \n                op =&gt; op.ResolveUsing(o=&gt; MapGrade(o.SchoolGrade)));\n\npublic static SchoolGradeDTO MapGrade(string grade)\n{\n    //TODO: function to map a string to a SchoolGradeDTO\n}\n</code></pre>\n<p>You could cache the names in a static dictionary so you don't use reflection every time.</p>\n<p>A few methods of doing that can be found <a href=\"https://stackoverflow.com/questions/1187085/string-to-enum-conversion-in-c-sharp\">here</a>.</p>\n",
+      "owner": {
+        "display_name": "D Stanley",
+        "link": "https://stackoverflow.com/users/1081897/d-stanley"
+      }
+    },
+    {
+      "answer_id": 14177557,
+      "body": "<p>This is the documentation for configuration testing: <a href=\"http://docs.automapper.org/en/stable/Configuration-validation.html\" rel=\"noreferrer\">http://docs.automapper.org/en/stable/Configuration-validation.html</a></p>\n<p>You can see an example of it here: <a href=\"https://stackoverflow.com/a/14150006/1505426\">https://stackoverflow.com/a/14150006/1505426</a></p>\n",
+      "owner": {
+        "display_name": "Mightymuke",
+        "link": "https://stackoverflow.com/users/1505426/mightymuke"
+      }
+    },
+    {
+      "answer_id": 45528708,
+      "body": "<p>In this case, to avoid inconsistencies, <code>ForPath</code> is translated internally to <code>ForMember</code>. Although what @IvanStoev says makes sense, another way to look at it is that <code>ForPath</code> is a subset of <code>ForMember</code>. Because you can do more things in <code>ForMember</code>. So when you have a member, use <code>ForMember</code> and when you have a path, use <code>ForPath</code> :)</p>\n",
+      "owner": {
+        "display_name": "Lucian Bargaoanu",
+        "link": "https://stackoverflow.com/users/1811700/lucian-bargaoanu"
+      }
+    },
+    {
+      "answer_id": 2454385,
+      "body": "<p>The Ignore() feature is strictly for members you never map, as these members are also skipped in configuration validation.  I checked a couple of options, but it doesn't look like things like a custom value resolver will do the trick.  </p>\n\n<p>Use the <a href=\"http://docs.automapper.org/en/stable/Conditional-mapping.html\" rel=\"noreferrer\">Condition()</a> feature to map the member when the condition is true:</p>\n\n<pre><code>Mapper.CreateMap&lt;CarViewModel, Car&gt;()\n .ForMember(dest =&gt; dest.Code, opt =&gt; opt.Condition(source =&gt; source.Id != 0))\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jimmy Bogard",
+        "link": "https://stackoverflow.com/users/58508/jimmy-bogard"
+      }
+    },
+    {
+      "answer_id": 13146824,
+      "body": "<pre><code>Mapper.CreateMap&lt;Source, Destination&gt;()\n    .ForMember(dest =&gt; dest.Member, opt =&gt; opt.UseValue&lt;string&gt;(\"THIS STRING\"));\n</code></pre>\n\n<p>Starting with <a href=\"https://docs.automapper.org/en/stable/8.0-Upgrade-Guide.html?highlight=value#usevalue\" rel=\"noreferrer\">version 8.0</a> you have to use the following:</p>\n\n<pre><code>Mapper.CreateMap&lt;Source, Destination&gt;()\n    .ForMember(dest =&gt; dest.Member, opt =&gt; opt.MapFrom(src =&gt; \"THIS STRING\"));\n</code></pre>\n",
+      "owner": {
+        "display_name": "mfanto",
+        "link": "https://stackoverflow.com/users/108602/mfanto"
+      }
+    },
+    {
+      "answer_id": 11269062,
+      "body": "<p>Here is the topic describing <a href=\"http://docs.automapper.org/en/stable/Mapping-inheritance.html\" rel=\"noreferrer\">Mapping Inheritance</a>.</p>\n\n<p>The following should work for you:</p>\n\n<pre><code>Mapper.CreateMap&lt;BaseModel, DataDastination&gt;()\n    .Include&lt;Car, DataDastination&gt;()\n    .Include&lt;Camper, DataDastination&gt;();//.ForMember(general mapping)\nMapper.CreateMap&lt;Car, DataDastination&gt;();//.ForMember(some specific mapping)\nMapper.CreateMap&lt;Camper, DataDastination&gt;();//.ForMember(some specific mapping)\n</code></pre>\n",
+      "owner": {
+        "display_name": "k0stya",
+        "link": "https://stackoverflow.com/users/192723/k0stya"
+      }
+    },
+    {
+      "answer_id": 9395157,
+      "body": "<p>You can use <code>ForMember</code> and <code>MapFrom</code> (<a href=\"https://github.com/AutoMapper/AutoMapper/wiki/Projection\" rel=\"noreferrer\">documentation</a>).<br>\nYour Mapper configuration could be:</p>\n\n<pre><code>Mapper.CreateMap&lt;Module, ModuleUI&gt;()\n    .ForMember(s =&gt; s.Text, c =&gt; c.MapFrom(m =&gt; m.Name))\n    .ForMember(s =&gt; s.ImagePath, c =&gt; c.MapFrom(m =&gt; m.ImageName))\n    .ForMember(s =&gt; s.PageUIs, c =&gt; c.MapFrom(m =&gt; m.Pages));\nMapper.CreateMap&lt;Page, PageUI&gt;();\n</code></pre>\n\n<p>Usage:</p>\n\n<pre><code>var dest = Mapper.Map&lt;ModuleUI&gt;(\n    new Module\n    {\n        Name = \"sds\",\n        Id = 2,\n        ImageName = \"sds\",\n        Pages = new List&lt;Page&gt;\n        {\n            new Page(), \n            new Page()\n        }\n    });\n</code></pre>\n\n<p>Result:</p>\n\n<p><img src=\"https://i.sstatic.net/ayCLu.png\" alt=\"enter image description here\"></p>\n",
+      "owner": {
+        "display_name": "nemesv",
+        "link": "https://stackoverflow.com/users/872395/nemesv"
+      }
+    },
+    {
+      "answer_id": 5589563,
+      "body": "<pre><code>Mapper.CreateMap&lt;Person, PersonViewModel&gt;();\npeopleVM = Mapper.Map&lt;List&lt;Person&gt;, List&lt;PersonViewModel&gt;&gt;(people);\nMapper.AssertConfigurationIsValid();\n</code></pre>\n\n<p>From <a href=\"https://automapper.readthedocs.io/en/latest/Getting-started.html#how-do-i-use-automapper\" rel=\"noreferrer\">Getting Started</a>:</p>\n\n<blockquote>\n  <p><strong>How do I use AutoMapper?</strong></p>\n  \n  <p>First, you need both a source and destination type to work with. The destination type's design can be influenced by the layer in which it lives, but AutoMapper works best as long as the names of the members match up to the source type's members. If you have a source member called \"FirstName\", this will automatically be mapped to a destination member with the name \"FirstName\". AutoMapper also supports Flattening, which can get rid of all those pesky null reference exceptions you might encounter along the way.</p>\n  \n  <p>Once you have your types, and a reference to AutoMapper, you can create a map for the two types.</p>\n\n<pre><code>Mapper.CreateMap&lt;Order, OrderDto&gt;();\n</code></pre>\n  \n  <p>The type on the left is the source type, and the type on the right is the destination type. To perform a mapping, use the Map method.</p>\n\n<pre><code>OrderDto dto = Mapper.Map&lt;Order, OrderDto&gt;(order);\n</code></pre>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Derek Beattie",
+        "link": "https://stackoverflow.com/users/214998/derek-beattie"
+      }
+    },
+    {
+      "answer_id": 27610405,
+      "body": "<p>Quick intro edit: as @mrTurkay answers below, this can be solved with the following configuration:</p>\n\n<pre><code>cfg.ValidateInlineMaps = false;\n</code></pre>\n\n<p>However, you should understand why the problem occours in the first place - so feel free to read on.</p>\n\n<p>This problem occours when you're trying to map an object that you didn't create a mapping configuration for. What you need to keep in mind is, that it doesn't have to be the specific object you're trying to map; but one of it's navigation properties.</p>\n\n<p>Say for instance you have a <code>Car.cs</code> that you want to map to a <code>CarDTO.cs</code></p>\n\n<p>The <code>Car.cs</code> looks like this:</p>\n\n<pre><code>public class Car\n{\n  public string Color { get; set; }\n\n  public Engine Engine { get; set; }\n}\n</code></pre>\n\n<p>And your DTO looks the same, but has a reference to the <code>EngineDTO</code> instead:</p>\n\n<pre><code>public class CarDTO\n{\n  public string Color { get; set; }\n\n  public EngineDTO Engine { get; set; }\n}\n</code></pre>\n\n<p>You configured the mapping like this:</p>\n\n<pre><code>    Mapper.CreateMap&lt;DTO.CarDTO, Data.Model.Car&gt;();\n    Mapper.CreateMap&lt;Data.Model.Car, DTO.CarDTO&gt;();\n\n    Mapper.CreateMap&lt;DTO.EngineDTO, Data.Model.Engine&gt;();\n    Mapper.CreateMap&lt;Data.Model.Engine, DTO.EngineDTO&gt;();\n</code></pre>\n\n<p>All looks fine, right? However, in your <code>EngineDTO</code>, you probably have a navigation property like, lets say:</p>\n\n<pre><code>public class EngineDTO\n{\npublic List&lt;PartDTO&gt; Parts { get; set; }\n}\n</code></pre>\n\n<p>So while Automapper is Mapping from <code>Engine</code> to <code>EngineDTO</code>, it also tries to Map the <code>PartDTO</code>, but since you forgot to declare the mapping in the <code>global.asax</code>, you get the error:</p>\n\n<blockquote>\n  <p>AutoMapper.AutoMapperConfigurationException: Unmapped members were\n  found. Review the types and members below. Add a custom mapping\n  expression, ignore, add a custom resolver, or modify the\n  source/destination type</p>\n</blockquote>\n\n<p>If you don't want to map certain properties on a class, you can use Ignore:</p>\n\n<pre><code>Mapper.CreateMap&lt;Engine, EngineDTO&gt;()\n    .ForMember(x =&gt; x.Parts, opt =&gt; opt.Ignore());\n</code></pre>\n\n<p>EDIT:</p>\n\n<p>For a more robust AutoMapper configuration, I suggest that you use mapping profiles, instead of declaring the mapping directly in <code>Global.asax</code>. Here is an Example:</p>\n\n<p>Profile:</p>\n\n<pre><code>public class CarProfile : Profile\n{\n    public CarProfile ()\n    {\n        CreateMap&lt;Car, CarDTO&gt;();\n    }\n}\n</code></pre>\n\n<p>Global.asax:</p>\n\n<pre><code>Mapper.Initialize(cfg =&gt;\n{\n     cfg.AddProfile&lt;CarProfile&gt;();\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "MichaelCleverly",
+        "link": "https://stackoverflow.com/users/2214980/michaelcleverly"
+      }
+    },
+    {
+      "answer_id": 2239647,
+      "body": "<p>Use <code>ConstructUsing</code></p>\n\n<p>this will allow you to specify which constructor to use during the mapping. but then all of the other properties will be automatically mapped according to the conventions.</p>\n\n<p>Also note that this is different from <code>ConvertUsing</code> in that convert using will not continue to map via the conventions, it will instead give you full control of the mapping.</p>\n\n<pre class=\"lang-cs prettyprint-override\"><code>Mapper.CreateMap&lt;ObjectFrom, ObjectTo&gt;()\n    .ConstructUsing(x =&gt; new ObjectTo(arg0, arg1, etc));\n</code></pre>\n\n<p>...</p>\n\n<pre class=\"lang-cs prettyprint-override\"><code>using AutoMapper;\nusing NUnit.Framework;\n\nnamespace UnitTests\n{\n    [TestFixture]\n    public class Tester\n    {\n        [Test]\n        public void Test_ConstructUsing()\n        {\n            Mapper.CreateMap&lt;ObjectFrom, ObjectTo&gt;()\n                .ConstructUsing(x =&gt; new ObjectTo(x.Name));\n\n            var from = new ObjectFrom { Name = \"Jon\", Age = 25 };\n\n            ObjectTo to = Mapper.Map&lt;ObjectFrom, ObjectTo&gt;(from);\n\n            Assert.That(to.Name, Is.EqualTo(from.Name));\n            Assert.That(to.Age, Is.EqualTo(from.Age));\n        }\n    }\n\n    public class ObjectFrom\n    {\n        public string Name { get; set; }\n        public int Age { get; set; }\n    }\n\n    public class ObjectTo\n    {\n        private readonly string _name;\n\n        public ObjectTo(string name)\n        {\n            _name = name;\n        }\n\n        public string Name\n        {\n            get { return _name; }\n        }\n\n        public int Age { get; set; }\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jon Erickson",
+        "link": "https://stackoverflow.com/users/1950/jon-erickson"
+      }
+    },
+    {
+      "answer_id": 54884502,
+      "body": "<p>As we already know, Dtos can be of different types that does not have any behaviour and are only used for transporting data eg a Model in the MVC pattern or a class that probably is named with a suffix 'classNameDto'</p>\n\n<p>In your case, it really depends on what context you are using the Application layer. Some Devs understand that 'Application Services' are more specific to the application, meaning they are tied closely to the UI. </p>\n\n<p>If this is the case then, this is a good place to have the Dtos where the data is mapped to and from the domain model.</p>\n\n<p>Else if the mapping is done at the Web layer then Dtos need to go there.  </p>\n\n<p>In simple terms as @Jimmy Bogard said \"Put the classes close to where they're actually used.\"</p>\n\n<p>I would also suggest to readup more on the clean architecture and see if you are headed in the right direction.</p>\n\n<p>Hope this helps :)</p>\n",
+      "owner": {
+        "display_name": "francisfai",
+        "link": "https://stackoverflow.com/users/6896552/francisfai"
+      }
+    },
+    {
+      "answer_id": 54802596,
+      "body": "<p>I much prefer avoiding the older Static methods and do it like this.</p>\n\n<p>Place our mapping definitions into a <em>Profile</em>. We map the Root first, and then apply the mappings of the Nested afterwards. Note the use of the <em>Context</em>.</p>\n\n<pre><code>public class MappingProfile : Profile\n{\n    public MappingProfile()\n    {\n        CreateMap&lt;Root, Flattened&gt;()\n            .AfterMap((src, dest, context) =&gt; context.Mapper.Map(src.TheNestedClass, dest));\n        CreateMap&lt;Nested, Flattened&gt;();\n    }\n}\n</code></pre>\n\n<p>The advantage of defining both the mapping from <em>Root</em> to <em>Flattened</em> and <em>Nested</em> to <em>Flatterned</em> is that you retain full control over the mapping of the properties, such as if the destination property name is different or you want to apply a transformation etc.</p>\n\n<p>An XUnit test:</p>\n\n<pre><code>[Fact]\npublic void Mapping_root_to_flattened_should_include_nested_properties()\n{\n    // ARRANGE\n    var myRoot = new Root\n    {\n        AParentProperty = \"my AParentProperty\",\n        TheNestedClass = new Nested\n        {\n            ANestedProperty = \"my ANestedProperty\"\n        }\n    };\n\n    // Manually create the mapper using the Profile\n    var mapper = new MapperConfiguration(cfg =&gt; cfg.AddProfile(new MappingProfile())).CreateMapper();\n\n    // ACT\n    var myFlattened = mapper.Map&lt;Root, Flattened&gt;(myRoot);\n\n    // ASSERT\n    Assert.Equal(myRoot.AParentProperty, myFlattened.AParentProperty);\n    Assert.Equal(myRoot.TheNestedClass.ANestedProperty, myFlattened.ANestedProperty);\n}\n</code></pre>\n\n<p>By adding AutoMapper's <em>serviceCollection.AddAutoMapper()</em> from the <strong>AutoMapper.Extensions.Microsoft.DependencyInjection</strong> nuget package to your start up, the Profile will be picked up automatically, and you can simply inject <em>IMapper</em> into wherever you are applying the mapping.</p>\n",
+      "owner": {
+        "display_name": "Lee Oades",
+        "link": "https://stackoverflow.com/users/20508/lee-oades"
+      }
+    },
+    {
+      "answer_id": 8899484,
+      "body": "<p>Once you've created the map (which you've already done, you don't need to repeat for Lists), it's as easy as:</p>\n\n<pre><code>List&lt;PersonView&gt; personViews = \n    Mapper.Map&lt;List&lt;Person&gt;, List&lt;PersonView&gt;&gt;(people);\n</code></pre>\n\n<p>You can read more in the <a href=\"http://docs.automapper.org/en/stable/Lists-and-arrays.html\" rel=\"noreferrer\">AutoMapper documentation for Lists and Arrays</a>.</p>\n",
+      "owner": {
+        "display_name": "Justin Niessner",
+        "link": "https://stackoverflow.com/users/84651/justin-niessner"
+      }
+    },
+    {
+      "answer_id": 51547631,
+      "body": "<p>After digging around in the <code>IMapper</code> interface (and thanks to the <a href=\"https://github.com/AutoMapper/AutoMapper.Extensions.Microsoft.DependencyInjection#configuration-validation\" rel=\"noreferrer\">documentation link</a> provided by @LucianBargaoanu), I found exactly what I needed.</p>\n\n<p>In <code>ConfigureServices()</code>: </p>\n\n<pre><code>        // Adds AutoMapper to DI configuration and automagically scans the \n        // current assembly for any classes that inherit Profile \n        // and registers their configuration in AutoMapper\n        services.AddAutoMapper();\n</code></pre>\n\n<p>The secret sauce is to add <code>IMapper mapper</code> as a parameter to <code>Configure()</code> - the parameter list is dependency-injected so you can reference any service registered in <code>ConfigureServices()</code></p>\n\n<pre><code>public void Configure(IApplicationBuilder app, ... , IMapper mapper)\n{\n  ...\n        mapper.ConfigurationProvider.AssertConfigurationIsValid();\n}\n</code></pre>\n\n<p>Works exactly as expected. </p>\n",
+      "owner": {
+        "display_name": "Mr. T",
+        "link": "https://stackoverflow.com/users/2078975/mr-t"
+      }
+    },
+    {
+      "answer_id": 47242459,
+      "body": "<p>When you refresh the view you are creating a new instance of the <code>StudentsController</code> -- and therefore reinitializing your Mapper -- resulting in the error message \"Mapper already initialized\".</p>\n\n<p>From the <a href=\"http://docs.automapper.org/en/stable/Getting-started.html\" rel=\"noreferrer\">Getting Started Guide</a></p>\n\n<blockquote>\n  <p><strong>Where do I configure AutoMapper?</strong></p>\n  \n  <p>If you're using the static Mapper method, configuration should only happen once per AppDomain. That means the best place to put the configuration code is in application startup, such as the Global.asax file for ASP.NET applications.</p>\n</blockquote>\n\n<p>One way to set this up is to place all of your mapping configurations into a static method.</p>\n\n<p><strong>App_Start/AutoMapperConfig.cs</strong>:</p>\n\n<pre><code>public class AutoMapperConfig\n{\n    public static void Initialize()\n    {\n        Mapper.Initialize(cfg =&gt;\n        {\n            cfg.CreateMap&lt;Student, StudentViewModel&gt;();\n            ...\n        });\n    }\n}\n</code></pre>\n\n<p>Then call this method in the <strong>Global.asax.cs</strong></p>\n\n<pre><code>protected void Application_Start()\n{\n    App_Start.AutoMapperConfig.Initialize();\n}\n</code></pre>\n\n<p>Now you can (re)use it in your controller actions.</p>\n\n<pre><code>public class StudentsController : Controller\n{\n    public ActionResult Index(int id)\n    {\n        var query = db.Students.Where(...);\n\n        var students = AutoMapper.Mapper.Map&lt;List&lt;StudentViewModel&gt;&gt;(query.ToList());\n\n        return View(students);\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jasen",
+        "link": "https://stackoverflow.com/users/2030565/jasen"
+      }
+    },
+    {
+      "answer_id": 50411497,
+      "body": "<p>You likely updated your ASP.NET Core dependencies, but still using outdated <code>AutoMapper.Extensions.Microsoft.DependencyInjection</code> package.</p>\n\n<p>For ASP.NET Core you need at least Version <code>3.0.1</code> from  <a href=\"https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjection/3.0.1\" rel=\"noreferrer\">https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjection/3.0.1</a></p>\n\n<p>Which references AutoMapper 6.1.1 or higher. </p>\n\n<blockquote>\n  <p>AutoMapper (>= 6.1.1)</p>\n  \n  <p>Microsoft.Extensions.DependencyInjection.Abstractions (>= 2.0.0)</p>\n  \n  <p>Microsoft.Extensions.DependencyModel (>= 2.0.0)</p>\n</blockquote>\n\n<p>The older packages depend on <code>Microsoft.Extensions.DependencyInjection.Abstractions</code> <code>1.1.0</code> and can't be used with ASP.NET Core since there have been breaking changes between <code>Microsoft.Extensions.DependencyInjection.Abstractions</code> 1.1.0 and 2.0</p>\n",
+      "owner": {
+        "display_name": "Tseng",
+        "link": "https://stackoverflow.com/users/455493/tseng"
+      }
+    },
+    {
+      "answer_id": 7052069,
+      "body": "<p>EmitMapper, <a href=\"http://emitmapper.codeplex.com/\" rel=\"noreferrer\">http://emitmapper.codeplex.com/</a></p>\n\n<p>ValueInjecter <a href=\"https://github.com/omuleanu/ValueInjecter\" rel=\"noreferrer\">https://github.com/omuleanu/ValueInjecter</a></p>\n\n<p>BLToolkit <a href=\"https://github.com/igor-tkachev/bltoolkit\" rel=\"noreferrer\">https://github.com/igor-tkachev/bltoolkit</a></p>\n\n<p>And my homework development OoMapper <a href=\"https://github.com/hazzik/OoMapper\" rel=\"noreferrer\">https://github.com/hazzik/OoMapper</a></p>\n",
+      "owner": {
+        "display_name": "hazzik",
+        "link": "https://stackoverflow.com/users/259946/hazzik"
+      }
+    },
+    {
+      "answer_id": 44901316,
+      "body": "<p>To solve your problem you just need to wire <code>IUserManager</code> in DI, and make sure <code>UserProfile</code> dependency is resolved.</p>\n\n<pre><code>public void ConfigureServices(IServiceCollection services)\n{\n    // ...\n    services.AddSingleton&lt;IUserManager, UserManager&gt;();\n    services.AddSingleton(provider =&gt; new MapperConfiguration(cfg =&gt;\n    {\n        cfg.AddProfile(new UserProfile(provider.GetService&lt;IUserManager&gt;()));\n    }).CreateMapper());\n}\n</code></pre>\n\n<p>And having that said, I would probably try to keep single responsibility per class, and not have any services injected into mapping profiles. You can populate your objects just before the mapping instead. This way it might be easier to unit test as well.</p>\n",
+      "owner": {
+        "display_name": "Ignas",
+        "link": "https://stackoverflow.com/users/5540176/ignas"
+      }
+    },
+    {
+      "answer_id": 38194308,
+      "body": "<p>The static version of the <code>CreateMap</code> method was deprecated in 4.2, then removed from the API in version 5.0. Jimmy Bogard talks about this in more detail in <a href=\"https://lostechies.com/jimmybogard/2016/01/21/removing-the-static-api-from-automapper/\" rel=\"noreferrer\">this blog post</a>.</p>\n\n<p>The new technique for mapping is non-static, like this (code is from the post):</p>\n\n<pre class=\"lang-cs prettyprint-override\"><code>var config = new MapperConfiguration(cfg =&gt; {\n    cfg.CreateMap&lt;Source, Dest&gt;();\n});\n\nIMapper mapper = config.CreateMapper();\nvar source = new Source();\nvar dest = mapper.Map&lt;Source, Dest&gt;(source);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Will Ray",
+        "link": "https://stackoverflow.com/users/4270650/will-ray"
+      }
+    },
+    {
+      "answer_id": 3155413,
+      "body": "<p>use <a href=\"https://github.com/omuleanu/ValueInjecter\" rel=\"nofollow noreferrer\">https://github.com/omuleanu/ValueInjecter</a>, it does <strong>flattening</strong> and <strong>unflattening</strong>, and anything else you need, there is an <strong><em>asp.net mvc sample application in the download</em></strong> where all the features are demonstrated (also unit tests)</p>\n",
+      "owner": {
+        "display_name": "Omu",
+        "link": "https://stackoverflow.com/users/112100/omu"
+      }
+    },
+    {
+      "answer_id": 43947731,
+      "body": "<p>Method <a href=\"https://github.com/AutoMapper/AutoMapper/blob/8dd104aa7390c12c97c4195cce6f6ff66de24f51/src/AutoMapper/IMemberConfigurationExpression.cs#L161\" rel=\"noreferrer\"><code>Condition</code></a> now has five overloads, one of which accepts predicate of type </p>\n\n<pre><code>Func&lt;TSource, TDestination, TMember, bool&gt;\n</code></pre>\n\n<p>this TMember parameter is the source member. So you can check source member for null:</p>\n\n<pre><code>CreateMap&lt;StatusLevelDTO, StatusLevel&gt;()\n     .ForAllMembers(opts =&gt; opts.Condition((src, dest, srcMember) =&gt; srcMember != null));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sergey Berezovskiy",
+        "link": "https://stackoverflow.com/users/470005/sergey-berezovskiy"
+      }
+    },
+    {
+      "answer_id": 42916850,
+      "body": "<p>Not sure why this is happening, it could very well be something to do with <code>.NET Core 1.1</code> but I have found a workaround.</p>\n\n<p>Instead of doing <code>services.AddAutoMapper()</code> in <code>ConfigureServices</code>, replace it with the below.</p>\n\n<pre><code>var config = new AutoMapper.MapperConfiguration(cfg =&gt;\n            {\n                cfg.AddProfile(new MappingProfile());\n            });\n\n            var mapper = config.CreateMapper();\n            services.AddSingleton(mapper);\n</code></pre>\n\n<p>Where <code>MappingProfile()</code> is the class in which you have your <code>CreateMap</code>.</p>\n",
+      "owner": {
+        "display_name": "magna_nz",
+        "link": "https://stackoverflow.com/users/3530774/magna-nz"
+      }
+    },
+    {
+      "answer_id": 40662285,
+      "body": "<p>The diference is that PreCondition is executed before acessing the source value and also the Condition predicate, so in this case, before get the value from <strong>MyProperty</strong> the PreCondition predicate will run, and then the value from property is evaluated and finally Condition is executed.</p>\n\n<p>In the following code you can see this</p>\n\n<pre class=\"lang-cs prettyprint-override\"><code>class Program\n{\n    static void Main(string[] args)\n    {\n        Mapper.Initialize(cfg =&gt;\n        {\n            cfg.CreateMap&lt;Person, PersonViewModel&gt;()\n                .ForMember(p =&gt; p.Name, c =&gt;\n                {\n                    c.Condition(new Func&lt;Person, bool&gt;(person =&gt;\n                    {\n                        Console.WriteLine(\"Condition\");\n                        return true;\n                    }));\n                    c.PreCondition(new Func&lt;Person, bool&gt;(person =&gt;\n                    {\n                        Console.WriteLine(\"PreCondition\");\n                        return true;\n                    }));\n                    c.MapFrom(p =&gt; p.Name);\n                });\n        });\n\n        Mapper.Instance.Map&lt;PersonViewModel&gt;(new Person() { Name = \"Alberto\" });\n    }\n}\n\nclass Person\n{\n    public long Id { get; set; }\n    private string _name;\n\n    public string Name\n    {\n        get\n        {\n            Console.WriteLine(\"Getting value\");\n            return _name;\n        }\n        set { _name = value; }\n    }\n}\n\nclass PersonViewModel\n{\n    public string Name { get; set; }\n}\n</code></pre>\n\n<p>The output from this program is:</p>\n\n<pre class=\"lang-none prettyprint-override\"><code>PreCondition\nGetting value\nCondition\n</code></pre>\n\n<p>Because the Condition method contains a overload that receives a ResolutionContext instance, that have a property called <strong>SourceValue</strong>, the Condition evaluate the property value from source, to set the SourceValue property on ResolutionContext object.</p>\n\n<h3>ATTENTION:</h3>\n\n<p>This behavior work properly until version &lt;= 4.2.1 and >= 5.2.0.</p>\n\n<p>The versions between 5.1.1 and 5.0.2, the behavior is not working properly anymore.</p>\n\n<p>The output in those versions is:</p>\n\n<pre class=\"lang-none prettyprint-override\"><code>Condition\nPreCondition\nGetting value\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alberto Monteiro",
+        "link": "https://stackoverflow.com/users/815590/alberto-monteiro"
+      }
+    },
+    {
+      "answer_id": 38248339,
+      "body": "<p>Seems to be a problem with the current version of automapper:</p>\n\n<blockquote>\n  <p>AutoMapper 5.0.0 Tuesday, June 28, 2016</p>\n</blockquote>\n\n<p>I tried with the previous version and it works:</p>\n\n<pre><code>PM&gt; Install-Package AutoMapper -Verbose\nInstall-Package : 'AutoMapper' already has a dependency defined for 'Microsoft.CSharp'.\nAt line:1 char:16\n+ Install-Package &lt;&lt;&lt;&lt;  AutoMapper -Verbose\n    + CategoryInfo          : NotSpecified: (:) [Install-Package], InvalidOperationException\n    + FullyQualifiedErrorId : NuGetCmdletUnhandledException,NuGet.PowerShell.Commands.InstallPackageCommand\n\nPM&gt; Install-Package AutoMapper -Version 4.2.1\nInstalling 'AutoMapper 4.2.1'.\nSuccessfully installed 'AutoMapper 4.2.1'.\n</code></pre>\n\n<p>So, if you can't update NuGet Package Manager, the answer is:</p>\n\n<pre><code>PM&gt; Install-Package AutoMapper -Version 4.2.1\n</code></pre>\n",
+      "owner": {
+        "display_name": "pomber",
+        "link": "https://stackoverflow.com/users/1325646/pomber"
+      }
+    },
+    {
+      "answer_id": 6825394,
+      "body": "<p>Doesn't matter, as long as it's a static class. It's all about <em>convention</em>.</p>\n\n<p>Our <em>convention</em> is that each \"layer\" (web, services, data) has a single file called <code>AutoMapperXConfiguration.cs</code>, with a single method called <code>Configure()</code>, where <code>X</code> is the layer.</p>\n\n<p>The <code>Configure()</code> method then calls <code>private</code> methods for each area.</p>\n\n<p>Here's an example of our web tier config:</p>\n\n<pre><code>public static class AutoMapperWebConfiguration\n{\n   public static void Configure()\n   {\n      ConfigureUserMapping();\n      ConfigurePostMapping();\n   }\n\n   private static void ConfigureUserMapping()\n   {\n      Mapper.CreateMap&lt;User,UserViewModel&gt;();\n   } \n\n   // ... etc\n}\n</code></pre>\n\n<p>We create a method for each \"aggregate\" (User, Post), so things are separated nicely.</p>\n\n<p>Then your <code>Global.asax</code>:</p>\n\n<pre><code>AutoMapperWebConfiguration.Configure();\nAutoMapperServicesConfiguration.Configure();\nAutoMapperDomainConfiguration.Configure();\n// etc\n</code></pre>\n\n<p>It's kind of like an \"interface of words\" - can't enforce it, but you expect it, so you can code (and refactor) if necessary.</p>\n\n<p><strong>EDIT:</strong></p>\n\n<p>Just thought I'd mention that I now use AutoMapper <a href=\"https://github.com/AutoMapper/AutoMapper/wiki/Configuration\">profiles</a>, so the above example becomes:</p>\n\n<pre><code>public static class AutoMapperWebConfiguration\n{\n   public static void Configure()\n   {\n      Mapper.Initialize(cfg =&gt;\n      {\n        cfg.AddProfile(new UserProfile());\n        cfg.AddProfile(new PostProfile());\n      });\n   }\n}\n\npublic class UserProfile : Profile\n{\n    protected override void Configure()\n    {\n         Mapper.CreateMap&lt;User,UserViewModel&gt;();\n    }\n}\n</code></pre>\n\n<p>Much cleaner/more robust.</p>\n",
+      "owner": {
+        "display_name": "RPM1984",
+        "link": "https://stackoverflow.com/users/321946/rpm1984"
+      }
+    },
+    {
+      "answer_id": 39545583,
+      "body": "<p>There is no need to pass the <code>student</code> as <code>ApplicationUser</code> to the <code>UserManager.Update()</code> method (because <code>Student</code> class inherits (hence <strong>is</strong>) <code>ApplicationUser</code>).</p>\n\n<p>The problem with your code is that you are using <code>new Student</code> operator, thus creating a new student rather than updating the existing one.</p>\n\n<p>Change the code like this:</p>\n\n<pre><code>// Get the existing student from the db\nvar user = (Student)UserManager.FindById(model.Id);\n\n// Update it with the values from the view model\nuser.Name = model.Name;\nuser.Surname = model.Surname;\nuser.UserName = model.UserName;\nuser.Email = model.Email;\nuser.PhoneNumber = model.PhoneNumber;\nuser.Number = model.Number; //custom property\nuser.PasswordHash = checkUser.PasswordHash;\n\n// Apply the changes if any to the db\nUserManager.Update(user);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ivan Stoev",
+        "link": "https://stackoverflow.com/users/5202563/ivan-stoev"
+      }
+    },
+    {
+      "answer_id": 38308705,
+      "body": "<p>You can create a more general value resolver by implementing <code>IMemberValueResolver&lt;object, object, string, bool&gt;</code> and using that in your mapping configuration. You can provide a source property resolution function as before:</p>\n\n<pre><code>public class PublicationSystemResolver : IMemberValueResolver&lt;object, object, string, bool&gt;\n{\n    private readonly PublicationService _publicationService;\n\n    public PublicationSystemResolver(PublicationService publicationService)\n    {\n        this._publicationService = publicationService;\n    }\n\n    public bool Resolve(object source, object destination, string sourceMember, bool destMember, ResolutionContext context)\n    {\n        return _publicationService.IsInNewSystem(sourceMember);\n    }\n}\n\n\n\ncfg.CreateMap&lt;FindCustomerServiceSellOffers, SalesPitchViewModel&gt;()\n    .ForMember(dest =&gt; dest.IsInNewSystem,\n        src =&gt; src.ResolveUsing&lt;PublicationSystemResolver, string&gt;(s =&gt; s.PublicationCode));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rhumborl",
+        "link": "https://stackoverflow.com/users/1901857/rhumborl"
+      }
+    },
+    {
+      "answer_id": 37770335,
+      "body": "<p>Kevin Kalitowski raised a good point about wal's answer: If we need two configurations to deal with a mapping that needs to be different, then don't we have to duplicate all the other mappings that are common?</p>\n\n<p>I think I've found a way around this using profiles: Have one profile for each of the unique mappings, and a third profile for the common mappings.  Then create two configurations, one for each unique profile but also add the common profile to each configuration as well.</p>\n\n<p>Example, in AutoMapper 4.2:</p>\n\n<p>The classes to be mapped: User and Vehicle:</p>\n\n<pre><code>public class User\n{\n    public string Name { get; set; }\n    public int Age { get; set; }\n}\n\npublic class Vehicle\n{\n    public int FleetNumber { get; set; }\n    public string Registration { get; set; }\n}\n</code></pre>\n\n<p>The profiles:</p>\n\n<pre><code>public class Profile1 : Profile\n{\n    protected override void Configure()\n    {\n        base.CreateMap&lt;User, User&gt;();\n    }\n}\n\npublic class Profile2 : Profile\n{\n    protected override void Configure()\n    {\n        base.CreateMap&lt;User, User&gt;().ForMember(dest =&gt; dest.Age, opt =&gt; opt.Ignore());\n    }\n}\n\npublic class CommonProfile : Profile\n{\n    protected override void Configure()\n    {\n        base.CreateMap&lt;Vehicle, Vehicle&gt;();\n    }\n}\n</code></pre>\n\n<p>Then create the configurations and map the objects:</p>\n\n<pre><code>[TestMethod]\npublic void TestMethod()\n{\n    var user = new User() { Name = \"John\", Age = 42 };\n    var vehicle = new Vehicle {FleetNumber = 36, Registration = \"XYZ123\"};\n\n    var configuration1 = new MapperConfiguration(cfg =&gt;\n    {\n        cfg.AddProfile&lt;CommonProfile&gt;();\n        cfg.AddProfile&lt;Profile1&gt;();\n    });\n\n    var mapper1 = configuration1.CreateMapper();\n    var mappedUser1 = mapper1.Map&lt;User, User&gt;(user);//maps both Name and Age\n    var mappedVehicle1 = mapper1.Map&lt;Vehicle, Vehicle&gt;(vehicle);//Maps both FleetNumber \n                                                                //and Registration.\n\n    var configuration2 = new MapperConfiguration(cfg =&gt;\n    {\n        cfg.AddProfile&lt;CommonProfile&gt;();\n        cfg.AddProfile&lt;Profile2&gt;();\n    });\n\n    var mapper2 = configuration2.CreateMapper();\n    var mappedUser2 = mapper2.Map&lt;User, User&gt;(user);//maps only Name\n    var mappedVehicle2 = mapper2.Map&lt;Vehicle, Vehicle&gt;(vehicle);//Same as mappedVehicle1.\n}\n</code></pre>\n\n<p>I tried this out and it works.</p>\n",
+      "owner": {
+        "display_name": "Simon Elms",
+        "link": "https://stackoverflow.com/users/216440/simon-elms"
+      }
+    },
+    {
+      "answer_id": 35371548,
+      "body": "<p>This is how I've handled it.</p>\n\n<p>Create maps in a Profile, taking care to use the Profile's CreateMap method rather than Mapper's static method of the same name:</p>\n\n<pre><code>internal class MappingProfile : Profile\n{\n    protected override void Configure()\n    {\n        CreateMap&lt;Project, ProjectCreate&gt;();\n    }\n}\n</code></pre>\n\n<p>Then, wherever dependencies are wired-up (ex: Global.asax or Startup), create a MapperConfiguration and then use it to create an IMapper.</p>\n\n<pre><code>var mapperConfiguration = new MapperConfiguration(cfg =&gt;\n    {\n        cfg.AddProfile(new MappingProfile());\n    });\n</code></pre>\n\n<p>Then, use the configuration to generate an IMapper:</p>\n\n<pre><code>var mapper = mapperConfiguration.CreateMapper();\n</code></pre>\n\n<p>Then, register that mapper with the dependency builder (I'm using Autofac here)</p>\n\n<pre><code>builder.RegisterInstance(mapper).As&lt;IMapper&gt;();\n</code></pre>\n\n<p>Now, wherever you need to map stuff, declare a dependency on IMapper:</p>\n\n<pre><code>internal class ProjectService : IProjectService {\n    private readonly IMapper _mapper;\n    public ProjectService(IMapper mapper) {\n         _mapper = mapper;\n    }\n    public ProjectCreate Get(string key) {\n        var project = GetProjectSomehow(key);\n        return _mapper.Map&lt;Project, ProjectCreate&gt;(project);\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Romi Petrelis",
+        "link": "https://stackoverflow.com/users/5919142/romi-petrelis"
+      }
+    },
+    {
+      "answer_id": 35293514,
+      "body": "<p>So there are probably several ways you can accomplish this with Automapper, and this is just one:</p>\n\n<pre><code>Mapper.CreateMap&lt;Person, PersonMap&gt;()\n   .AfterMap( (src, dest) =&gt; dest.Addresses = dest.Addresses?.Any() ? dest.Addresses : null );\n</code></pre>\n\n<p>This code uses the new c# <code>?.</code> operator for null safety, so you might need to remove that and check for null if you can't use that feature in your code.</p>\n",
+      "owner": {
+        "display_name": "CodingGorilla",
+        "link": "https://stackoverflow.com/users/2045162/codinggorilla"
+      }
+    },
+    {
+      "answer_id": 35256077,
+      "body": "<p>Instead of:</p>\n\n<pre><code>Mapper.CreateMap&lt;AbcEditViewModel, Abc&gt;();\n</code></pre>\n\n<p>The new syntax is:</p>\n\n<pre><code>var config = new MapperConfiguration(cfg =&gt; {\n  cfg.CreateMap&lt;AbcEditViewModel, Abc&gt;();\n});\n</code></pre>\n\n<p>Then:</p>\n\n<pre><code>IMapper mapper = config.CreateMapper();\nvar source = new AbcEditViewModel();\nvar dest = mapper.Map&lt;AbcEditViewModel, Abct&gt;(source);\n</code></pre>\n\n<p>(<a href=\"https://lostechies.com/jimmybogard/2016/01/21/removing-the-static-api-from-automapper/\">Source with more examples</a>)</p>\n",
+      "owner": {
+        "display_name": "NikolaiDante",
+        "link": "https://stackoverflow.com/users/39643/nikolaidante"
+      }
+    },
+    {
+      "answer_id": 32616686,
+      "body": "<p>You need to move the async data fetch out of the Map call:</p>\n\n<pre><code>var data = await dataRepository.GetDataAsync();\nreturn Mapper.Map&lt;List&lt;DataItem&gt;&gt;(data);\n</code></pre>\n\n<p>Alternatively, you can use AutoMapper LINQ projections:</p>\n\n<pre><code>var data = await dbContext.Data.ProjectTo&lt;DataItem&gt;().ToListAsync();\n</code></pre>\n\n<p>I don't know if your repository exposes IQueryable directly (we don't use repositories). Our apps use the second version pretty much exclusively these days.</p>\n",
+      "owner": {
+        "display_name": "Jimmy Bogard",
+        "link": "https://stackoverflow.com/users/58508/jimmy-bogard"
+      }
+    },
+    {
+      "answer_id": 31754133,
+      "body": "<p>AutoMapper handles this key-value pair scenario out of the box.</p>\n\n<pre><code>Mapper.CreateMap&lt;Source, Dest&gt;()\n    .ForMember(d =&gt; d.Foo, opt =&gt; opt.ResolveUsing(res =&gt; res.Context.Options.Items[\"Foo\"]));\n</code></pre>\n\n<p>Then at runtime:</p>\n\n<pre><code>Mapper.Map&lt;Source, Dest&gt;(src, opt =&gt; opt.Items[\"Foo\"] = \"Bar\");\n</code></pre>\n\n<p>A bit verbose to dig into the context items but there you go.</p>\n",
+      "owner": {
+        "display_name": "Jimmy Bogard",
+        "link": "https://stackoverflow.com/users/58508/jimmy-bogard"
+      }
+    },
+    {
+      "answer_id": 13641264,
+      "body": "<pre><code>Mapper.CreateMap&lt;MyEntity, MyEntityDto&gt;()\n      .ForMember(destination =&gt; destination.Status, \n                 opt =&gt; opt.MapFrom(source =&gt; Enum.GetName(typeof(Status), source.StatusId)));\n</code></pre>\n\n<p>Also you don't need mapping from <code>int</code> to <code>Status</code> enum.</p>\n",
+      "owner": {
+        "display_name": "Sergey Berezovskiy",
+        "link": "https://stackoverflow.com/users/470005/sergey-berezovskiy"
+      }
+    },
+    {
+      "answer_id": 29381031,
+      "body": "<p>According to <a href=\"https://github.com/AutoMapper/AutoMapper/wiki/Open-Generics\">the AutoMapper wiki</a>:</p>\n\n<pre><code>public class Source&lt;T&gt; {\n    public T Value { get; set; }\n}\n\npublic class Destination&lt;T&gt; {\n    public T Value { get; set; }\n}\n\n// Create the mapping\nMapper.CreateMap(typeof(Source&lt;&gt;), typeof(Destination&lt;&gt;));\n</code></pre>\n\n<p>In your case this would be </p>\n\n<pre><code>Mapper.CreateMap(typeof(PagedList&lt;,&gt;), typeof(PagedListViewModel&lt;&gt;));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jeroen Vannevel",
+        "link": "https://stackoverflow.com/users/1864167/jeroen-vannevel"
+      }
+    },
+    {
+      "answer_id": 29214924,
+      "body": "<p>There is now an option to disable the cache.</p>\n\n<pre><code>Mapper.CreateMap&lt;Tag, Tag&gt;();\nvar results = Mapper.Map&lt;IList&lt;Tag&gt;, IList&lt;Tag&gt;&gt;(source, opt =&gt; opt.DisableCache = true);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Josh Close",
+        "link": "https://stackoverflow.com/users/68499/josh-close"
+      }
+    },
+    {
+      "answer_id": 28384511,
+      "body": "<p>Write <strong>Extension Method</strong> as shown below:</p>\n\n<pre><code>public static class IgnoreReadOnlyExtensions\n{\n    public static IMappingExpression&lt;TSource, TDestination&gt; IgnoreReadOnly&lt;TSource, TDestination&gt;(\n               this IMappingExpression&lt;TSource, TDestination&gt; expression)\n    {\n        var sourceType = typeof(TSource);\n\n        foreach (var property in sourceType.GetProperties())\n        {\n            PropertyDescriptor descriptor = TypeDescriptor.GetProperties(sourceType)[property.Name];\n            ReadOnlyAttribute attribute = (ReadOnlyAttribute) descriptor.Attributes[typeof(ReadOnlyAttribute)];\n            if(attribute.IsReadOnly == true)\n                expression.ForMember(property.Name, opt =&gt; opt.Ignore());\n        }\n        return expression;\n    }\n}\n</code></pre>\n\n<p><strong>To call extension method:</strong></p>\n\n<p><code>Mapper.CreateMap&lt;ViewModel, DomainModel&gt;().IgnoreReadOnly();</code></p>\n",
+      "owner": {
+        "display_name": "Vinkal",
+        "link": "https://stackoverflow.com/users/4518652/vinkal"
+      }
+    },
+    {
+      "answer_id": 26465296,
+      "body": "<p>You can place the configuration anywhere:</p>\n\n<pre><code>public class AutoMapperConfiguration\n{\n    public static void Configure()\n    {\n        Mapper.Initialize(x =&gt;\n            {\n                x.AddProfile&lt;MyMappings&gt;();              \n            });\n    }\n}\n\n public class MyMappings : Profile\n{\n    public override string ProfileName\n    {\n        get { return \"MyMappings\"; }\n    }\n\n    protected override void Configure()\n    {\n    ......\n    }\n</code></pre>\n\n<p>But it has to be called by the application using the libraries at some point:</p>\n\n<pre><code>void Application_Start()\n    {               \n        AutoMapperConfiguration.Configure();\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "severin",
+        "link": "https://stackoverflow.com/users/2141207/severin"
+      }
+    },
+    {
+      "answer_id": 25242322,
+      "body": "<p>If you use Automapper like that, it returns a new Patient object and the references to the enity framework graph are not kept. You have to use it like this:</p>\n\n<pre><code>[HttpPost]\npublic ActionResult Edit(PatientView viewModel)\n{\n    Patient patient = db.Patients.Find(viewModel.Id); \n    Mapper.Map(viewModel, patient);\n    ...\n    db.SaveChanges();\n    return RedirectToAction(\"Index\");\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marius Stănescu",
+        "link": "https://stackoverflow.com/users/917868/marius-st%c4%83nescu"
+      }
+    },
+    {
+      "answer_id": 17825721,
+      "body": "<p>Try this</p>\n\n<pre><code> Mapper.CreateMap&lt;Source, Target&gt;()\n        .ForMember(dest =&gt; dest.Value, \n                   opt =&gt; opt.MapFrom\n                   (src =&gt; src.Value1.StartsWith(\"A\") ? src.Value1 : src.Value2));\n</code></pre>\n\n<p>Condition option is used to add conditions to properties that must be met before that property will be mapped and MapFrom option is used to perform custom source/destination member mappings.</p>\n",
+      "owner": {
+        "display_name": "SA2014",
+        "link": "https://stackoverflow.com/users/1825751/sa2014"
+      }
+    },
+    {
+      "answer_id": 5209487,
+      "body": "<p>Instead of:</p>\n\n<pre><code>var a = // get all items (returns a collection of Test2)\nList&lt;MyViewModel&gt; collection = new List&lt;MyViewModel&gt;();\nforeach (Test2 t in a)\n{\n    MyViewModel vm = Mapper.Map&lt;Test2, MyViewModel&gt;(t);\n    vm.SetDateFormat(t.DateTimeDate, DateFilters.All.ToString());\n    collection.Add(vm);\n}\n</code></pre>\n\n<p>Try:</p>\n\n<pre><code>var a = // get all items (returns a collection of Test2)\nList&lt;MyViewModel&gt; collection = Mapper.Map&lt;IEnumerable&lt;Test2&gt;, IEnumerable&lt;MyViewModel&gt;&gt;(a);\n</code></pre>\n\n<p>which is equivalent to the first except the <code>SetDateFormat</code> call which you could do at your mapping definition. It might also be faster.</p>\n\n<p>If you have a mapping defined between <code>Test2 =&gt; MyViewModel</code> AutoMapper automatically provides one for <code>IEnumerable&lt;Test2&gt; =&gt; IEnumerable&lt;MyViewModel&gt;</code> so that you don't need to loop.</p>\n\n<p>Also you have mentioned NHibernate in your question. Make sure that your source object along with its collections is eagerly loaded from the database <strong>before</strong> passing it to the mapping layer or you cannot blame AutoMapper for being slow because when it tries to map one of the collections of your source object it hits the database because NHibernate didn't fetch this collection.</p>\n",
+      "owner": {
+        "display_name": "Darin Dimitrov",
+        "link": "https://stackoverflow.com/users/29407/darin-dimitrov"
+      }
+    },
+    {
+      "answer_id": 19544818,
+      "body": "<p><code>Map</code> has an overload that takes a source and destination object:</p>\n\n<pre><code>d = AutoMapper.Mapper.Map&lt;sourceone, destination&gt;(sourceone);\n\n/* Pass the created destination to the second map call: */\nAutoMapper.Mapper.Map&lt;sourcetwo, destination&gt;(sourcetwo, d);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Andrew Whitaker",
+        "link": "https://stackoverflow.com/users/497356/andrew-whitaker"
+      }
+    },
+    {
+      "answer_id": 18096914,
+      "body": "<p>You will need these three mapings with one custom converter:</p>\n\n<pre><code>Mapper.CreateMap&lt;Event, EventDTO&gt;(); // maps message and event id\nMapper.CreateMap&lt;EventLog, EventDTO&gt;(); // maps system id and user id\nMapper.CreateMap&lt;EventLog, IEnumerable&lt;EventDTO&gt;&gt;()\n      .ConvertUsing&lt;EventLogConverter&gt;(); // creates collection of dto\n</code></pre>\n\n<p>Thus you configured mappings from <code>Event</code> to <code>EventDTO</code> and from <code>EventLog</code> to <code>EventDTO</code> you can use both of them in custom converter:</p>\n\n<pre><code>class EventLogConverter : ITypeConverter&lt;EventLog, IEnumerable&lt;EventDTO&gt;&gt;\n{\n    public IEnumerable&lt;EventDTO&gt; Convert(ResolutionContext context)\n    {\n        EventLog log = (EventLog)context.SourceValue;\n        foreach (var dto in log.Events.Select(e =&gt; Mapper.Map&lt;EventDTO&gt;(e)))\n        {\n            Mapper.Map(log, dto); // map system id and user id\n            yield return dto;\n        }\n    }\n}\n</code></pre>\n\n<p>Sample code with <a href=\"http://nbuilder.org/\">NBuilder</a>:</p>\n\n<pre><code>var log = new EventLog {\n    SystemId = \"Skynet\",\n    UserId = \"Lazy\",\n    Events = Builder&lt;Event&gt;.CreateListOfSize(5).Build().ToList()\n};\n\nvar events = Mapper.Map&lt;IEnumerable&lt;EventDTO&gt;&gt;(log);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sergey Berezovskiy",
+        "link": "https://stackoverflow.com/users/470005/sergey-berezovskiy"
+      }
+    },
+    {
+      "answer_id": 15556142,
+      "body": "<p>This will work both for mapping to a new or to an existing object.</p>\n\n<pre><code>Mapper.CreateMap&lt;FatherModel, Father&gt;()\n    .ForMember(x =&gt; x.Son, opt =&gt; opt.MapFrom(model =&gt; model));\nMapper.CreateMap&lt;FatherModel, Son&gt;()\n    .ForMember(x =&gt; x.Id, opt =&gt; opt.MapFrom(model =&gt; model.SonId));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Allrameest",
+        "link": "https://stackoverflow.com/users/90683/allrameest"
+      }
+    },
+    {
+      "answer_id": 15278136,
+      "body": "<p>Use <code>BeforeMap</code> method to set property value before mapping process:</p>\n\n<pre><code>Mapper.CreateMap&lt;Source, Destination&gt;()\n      .BeforeMap((s, d) =&gt; d.IsPropertyChangedEnabled = false );\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sergey Berezovskiy",
+        "link": "https://stackoverflow.com/users/470005/sergey-berezovskiy"
+      }
+    },
+    {
+      "answer_id": 14886345,
+      "body": "<p>In the past I had a <a href=\"https://groups.google.com/forum/#!topic/automapper-users/zx9pd18vcVQ\" rel=\"noreferrer\">long email exchange on the mailing list</a> with the author of Automapper. MapFrom will do null checks all the way trough the expression:</p>\n\n<blockquote>\n  <p>So you can do <code>opt =&gt; opt.MapFrom(src =&gt;\n  src.SomeProp.Way.Down.Here.Somewhere)</code> and each level will get checked\n  for nulls (as it already does for flattening).</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Sunny Milenov",
+        "link": "https://stackoverflow.com/users/8220/sunny-milenov"
+      }
+    },
+    {
+      "answer_id": 14778305,
+      "body": "<p>Never mind, I myself found a solution:</p>\n\n<pre><code>Mapper.CreateMap&lt;Employee, EmployeeDto&gt;()\n    .ForMember(dest =&gt; dest.FullName, opt =&gt; opt.MapFrom(src =&gt; src.Name));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Thomas.Benz",
+        "link": "https://stackoverflow.com/users/2022437/thomas-benz"
+      }
+    },
+    {
+      "answer_id": 14705192,
+      "body": "<p>Include derived mappings into base mapping:</p>\n\n<pre><code>Mapper.CreateMap&lt;Source, DestinationBase&gt;()\n    .ForMember(d =&gt; d.Id, op =&gt; op.MapFrom(s =&gt; s.Id)) // you can remove this\n    .Include&lt;Source, DestinationDerived1&gt;()\n    .Include&lt;Source, DestinationDerived2&gt;();\n\nMapper.CreateMap&lt;Source, DestinationDerived1&gt;()\n    .ForMember(d =&gt; d.Name, op =&gt; op.MapFrom(s =&gt; s.Text))\n    .ForMember(d =&gt; d.Value2, op =&gt; op.MapFrom(s =&gt; s.Amount));\n\nMapper.CreateMap&lt;Source, DestinationDerived2&gt;()\n    .ForMember(d =&gt; d.Value, op =&gt; op.MapFrom(s =&gt; s.Amount));\n</code></pre>\n\n<p>Usage:</p>\n\n<pre><code>Mapper.AssertConfigurationIsValid();\nvar s = new Source() { Id = 2, Amount = 10M, Text = \"foo\" };\nvar d1 = Mapper.Map&lt;DestinationDerived1&gt;(s);\nvar d2 = Mapper.Map&lt;DestinationDerived2&gt;(s);\n</code></pre>\n\n<p>See <a href=\"https://github.com/AutoMapper/AutoMapper/wiki/Mapping-inheritance\">Mapping inheritance</a> on AutoMapper wiki. </p>\n\n<hr>\n\n<p>UPDATE: Here is full code of classes which works as it should.</p>\n\n<pre><code>public class Source\n{\n    public int Id { get; set; }\n    public string Text { get; set; }\n    public decimal Amount { get; set; }\n}\n\npublic class DestinationBase\n{\n    public int Id { get; set; }\n}\n\npublic class DestinationDerived1 : DestinationBase\n{\n    public string Name { get; set; }\n    public decimal Value2 { get; set; }\n}\n\npublic class DestinationDerived2 : DestinationBase\n{\n    public decimal Value { get; set; }\n}\n</code></pre>\n\n<hr>\n\n<p>UPDATE (workaround of AutoMapper bug):</p>\n\n<pre><code>public static class Extensions\n{\n    public static IMappingExpression&lt;Source, TDestination&gt; MapBase&lt;TDestination&gt;(\n        this IMappingExpression&lt;Source, TDestination&gt; mapping)\n        where TDestination: DestinationBase\n    {\n        // all base class mappings goes here\n        return mapping.ForMember(d =&gt; d.Test3, e =&gt; e.MapFrom(s =&gt; s.Test));\n    }\n}\n</code></pre>\n\n<p>And all mappings:</p>\n\n<pre><code>    Mapper.CreateMap&lt;Source, DestinationBase&gt;()\n          .Include&lt;Source, DestinationDerived1&gt;()\n          .Include&lt;Source, DestinationDerived2&gt;()\n          .MapBase();\n\n    Mapper.CreateMap&lt;Source, DestinationDerived1&gt;()\n          .MapBase()\n          .ForMember(d =&gt; d.Test4, e =&gt; e.MapFrom(s =&gt; s.Test2));\n\n    Mapper.CreateMap&lt;Source, DestinationDerived2&gt;()\n          .MapBase()\n          .ForMember(d =&gt; d.Test5, e =&gt; e.MapFrom(s =&gt; s.Test2));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sergey Berezovskiy",
+        "link": "https://stackoverflow.com/users/470005/sergey-berezovskiy"
+      }
+    },
+    {
+      "answer_id": 13687279,
+      "body": "<p>You are mapping collections, not single entities (<code>IEnumerable&lt;Store&gt;</code> to <code>IEnumerable&lt;StoreVM&gt;</code>), so use this mapping</p>\n\n<pre><code>var VMstores = Mapper.Map&lt;IEnumerable&lt;Store&gt;, IEnumerable&lt;StoreVM&gt;&gt;(stores);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sergey Berezovskiy",
+        "link": "https://stackoverflow.com/users/470005/sergey-berezovskiy"
+      }
+    },
+    {
+      "answer_id": 13491264,
+      "body": "<p>You could define your configuration like this:</p>\n\n<pre><code>Mapper.CreateMap&lt;PartTwo, PartTwoViewModel&gt;()\n    .ForMember(dst =&gt; dst.PartInteger, opt =&gt; opt.MapFrom(src =&gt; src.Integer));\n\nMapper.CreateMap&lt;PartTwoViewModel, PartTwo&gt;()\n    .ForMember(dst =&gt; dst.Integer, opt =&gt; opt.MapFrom(src =&gt; src.PartInteger));\n</code></pre>\n\n<p><strong>UPDATE</strong></p>\n\n<p>Here is <a href=\"https://github.com/AutoMapper/AutoMapper/commit/bff6e2aa49af3e7b50f527376da48924efa7d81e\">the commit</a> where <code>ReverseMap</code> was initially implemented. From what I can see in the code, it only creates a simple reverse mapping. For example, in this case it would automatically configure the equivalent of:</p>\n\n<pre><code>Mapper.CreateMap&lt;PartTwoViewModel, PartTwo&gt;();\n</code></pre>\n\n<p>To get anything more complex, I'm afraid that you're going to have to configure it manually.</p>\n",
+      "owner": {
+        "display_name": "Mightymuke",
+        "link": "https://stackoverflow.com/users/1505426/mightymuke"
+      }
+    },
+    {
+      "answer_id": 4440080,
+      "body": "<p>I love Automapper (and use it in a number of projects), but wouldn't this be easier with a simple LINQ statement?</p>\n\n<pre><code>var allRoles = from r in roles select r.Name\n</code></pre>\n\n<p>The AutoMapper way of accomplishing this:</p>\n\n<pre><code>Mapper.CreateMap&lt;Role, String&gt;().ConvertUsing(r =&gt; r.Name);\n</code></pre>\n",
+      "owner": {
+        "display_name": "PatrickSteele",
+        "link": "https://stackoverflow.com/users/182895/patricksteele"
+      }
+    },
+    {
+      "answer_id": 12523478,
+      "body": "<p>Interesting, but your original attempt should be the way to go. Below test is green:</p>\n\n<pre><code>using AutoMapper;\nusing NUnit.Framework;\n\nnamespace Tests.UI\n{\n    [TestFixture]\n    class AutomapperTests\n    {\n\n      public class Person\n        {\n            public string FirstName { get; set; }\n            public string LastName { get; set; }\n            public int? Foo { get; set; }\n        }\n\n        [Test]\n        public void TestNullIgnore()\n        {\n            Mapper.CreateMap&lt;Person, Person&gt;()\n                    .ForAllMembers(opt =&gt; opt.Condition(srs =&gt; !srs.IsSourceValueNull));\n\n            var sourcePerson = new Person\n            {\n                FirstName = \"Bill\",\n                LastName = \"Gates\",\n                Foo = null\n            };\n            var destinationPerson = new Person\n            {\n                FirstName = \"\",\n                LastName = \"\",\n                Foo = 1\n            };\n            Mapper.Map(sourcePerson, destinationPerson);\n\n            Assert.That(destinationPerson,Is.Not.Null);\n            Assert.That(destinationPerson.Foo,Is.EqualTo(1));\n        }\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Void Ray",
+        "link": "https://stackoverflow.com/users/1460042/void-ray"
+      }
+    },
+    {
+      "answer_id": 8071038,
+      "body": "<p>This is working for me:</p>\n\n<pre><code>public static class MappingExpressionExtensions\n{\n    public static IMappingExpression&lt;TSource, TDest&gt; IgnoreAllUnmapped&lt;TSource, TDest&gt;(this IMappingExpression&lt;TSource, TDest&gt; expression)\n    {\n        expression.ForAllMembers(opt =&gt; opt.Ignore());\n        return expression;\n    }\n}\n</code></pre>\n\n<p>Because <code>ForAllMembers</code> returns <code>void</code>, calling <code>ForAllMembers(o =&gt; o.Ignore())</code> without this extension method wouldn't work. We want to keep the mapping expression available to enable the subsequent mappings:</p>\n\n<pre><code>CreateMap&lt;Source, Destination&gt;()\n            .IgnoreAllUnmapped()\n            .ForMember(d =&gt; d.Text, o =&gt; o.MapFrom(s =&gt; s.Name))\n            .ForMember(d =&gt; d.Value, o =&gt; o.MapFrom(s =&gt; s.Id));\n</code></pre>\n",
+      "owner": {
+        "display_name": "CodeMonkeyKing",
+        "link": "https://stackoverflow.com/users/78830/codemonkeyking"
+      }
+    },
+    {
+      "answer_id": 12038086,
+      "body": "<p>It says:</p>\n\n<blockquote>\n  <p>Executing this code produces an AutoMapperConfigurationException, with\n  a descriptive message. AutoMapper checks to make sure that every\n  single Destination type member has a corresponding type member on the\n  source type.</p>\n</blockquote>\n\n<p>Every single member has correlation with destination type. It <strong>may not</strong> be the right one (since there are always exception cases), but it at least tests that every property is moved from source type to destination.</p>\n",
+      "owner": {
+        "display_name": "Dmitry Reznik",
+        "link": "https://stackoverflow.com/users/838302/dmitry-reznik"
+      }
+    },
+    {
+      "answer_id": 11555920,
+      "body": "<p>You can use <a href=\"https://github.com/AutoMapper/AutoMapper/wiki/Custom-value-resolvers\">custom value resolver</a>. The following should work:</p>\n\n<pre><code>Mapper.CreateMap&lt;Foo, Foo2&gt;()\n   .ForMember(dest =&gt; dest.Bar, opt =&gt; opt.ResolveUsing(src =&gt; src.Bar == null ? new Bar() : Mapper.Map&lt;Bar,Bar2&gt;(src.Bar)))\n</code></pre>\n",
+      "owner": {
+        "display_name": "k0stya",
+        "link": "https://stackoverflow.com/users/192723/k0stya"
+      }
+    },
+    {
+      "answer_id": 11268711,
+      "body": "<p>You don't need to do CreateMap for enum types. Just get rid of the CreateMap call and it should work, as long as the names and/or values match up between enum types.</p>\n",
+      "owner": {
+        "display_name": "Jimmy Bogard",
+        "link": "https://stackoverflow.com/users/58508/jimmy-bogard"
+      }
+    },
+    {
+      "answer_id": 11225771,
+      "body": "<p>You just need to add <a href=\"https://stackoverflow.com/questions/2057146/compiler-ambiguous-invocation-error-anonymous-method-and-method-group-with-fun\">explicit cast</a> to  </p>\n\n<pre><code>Func&lt;ResolutionContext, TypeOne&gt;\n</code></pre>\n\n<p>Here is the code:</p>\n\n<pre><code>Mapper.CreateMap&lt;TypeOneDto, TypeOne&gt;().ConstructUsing(\n            (Func&lt;ResolutionContext, TypeOne&gt;) (r =&gt; new TypeOne()));\n</code></pre>\n\n<p>Current version of AutoMapper works as described below:</p>\n\n<ol>\n<li><p>Sorts destination type constructors by parameter count</p>\n\n<pre><code>destTypeInfo.GetConstructors().OrderByDescending(ci =&gt; ci.GetParameters().Length);\n</code></pre></li>\n<li><p>Takes first constructor which parameters match source properties (without any check for null value). In your case it is constructor with two parameters.</p></li>\n</ol>\n",
+      "owner": {
+        "display_name": "k0stya",
+        "link": "https://stackoverflow.com/users/192723/k0stya"
+      }
+    },
+    {
+      "answer_id": 11191415,
+      "body": "<p>This is because you are trying to map to the actual destination type rather than a property of the destination type. You can achieve what you want with:</p>\n\n<pre><code>Mapper.CreateMap&lt;Tag, string&gt;().ConvertUsing(source =&gt; source.Name ?? string.Empty);\n</code></pre>\n\n<p>although it would be a lot simpler just to override ToString on the Tag class.</p>\n",
+      "owner": {
+        "display_name": "Rob West",
+        "link": "https://stackoverflow.com/users/79419/rob-west"
+      }
+    },
+    {
+      "answer_id": 10650440,
+      "body": "<p>The linked <a href=\"http://automapper.codeplex.com/workitem/3197\" rel=\"noreferrer\">issue</a> more or less answers your questions:</p>\n\n<blockquote>\n  <p>Mapper.CreateMap is not threadsafe, nor will it ever be. However,\n  Mapper.Map is thread-safe. The Mapper static class is just a thin\n  wrapper on top of the MappingEngine and Configuration objects.</p>\n</blockquote>\n\n<p>So only use <code>Mapper.CreateMap</code> if you do your configuration in <strong>one central place</strong> in a threadsafe manner.</p>\n\n<p>Your comment was:</p>\n\n<blockquote>\n  <p>I'm asking this because I'd like to configure automatter in-place,\n  i.e. right before usage. I planned to configure it in non-concurrent\n  context, i.e. ~ lock (mapperConfigLock) { Mapper.CreateMap()....; },\n  and I fear this is not enough now.</p>\n</blockquote>\n\n<p>If you are doing in-place configuration just don't use the static <code>Mapper</code> class. As the comment on the github issue suggest use the mapping engine directly:</p>\n\n<pre><code>var config = \n    new ConfigurationStore(new TypeMapFactory(), MapperRegistry.AllMappers());\nconfig.CreateMap&lt;Source, Destination&gt;();\nvar engine = new MappingEngine(config);\n\nvar source = new Source();\nvar dest = engine.Map(source);\n</code></pre>\n\n<p>It's a little bit of more code but you can create your own helpers around it.\nBut everything is local in a given method so no shared state no need to worry about thread safety.</p>\n",
+      "owner": {
+        "display_name": "nemesv",
+        "link": "https://stackoverflow.com/users/872395/nemesv"
+      }
+    },
+    {
+      "answer_id": 8409623,
+      "body": "<p>I found that this was already reported as an <a href=\"https://github.com/AutoMapper/AutoMapper/issues/63\">issue</a>, and a new configuration option was added (see this <a href=\"https://github.com/jbogard/AutoMapper/commit/f3c28fe04b3cd36c99a2836a83b504233f4b9577\">commit</a>).  At this time, the option is not in the release available via NuGet, but I was able to figure out a way to handle this until the next version is released:</p>\n\n<pre><code>Mapper.CreateMap&lt;Test, Test&gt;()\n    .ForMember(t =&gt; t.ByteArray, opt =&gt; opt.ResolveUsing(t =&gt; t.ByteArray == null ? null : t.ByteArray));\n</code></pre>\n\n<hr>\n\n<p>Update:  </p>\n\n<p>As of version 2.1.265.0, you can using the <code>AllowNullCollections</code> property:</p>\n\n<pre><code>Mapper.Configuration.AllowNullCollections = true;\nMapper.CreateMap&lt;Test, Test&gt;();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jeff Ogata",
+        "link": "https://stackoverflow.com/users/409259/jeff-ogata"
+      }
+    },
+    {
+      "answer_id": 9135278,
+      "body": "<p>On automapper where you create the Map you can specify additional processes for specific members of the destination type.</p>\n\n<p>So where your default map would be</p>\n\n<pre><code>Mapper.Map&lt;Domain.User, UsersDetailsViewModel&gt;();\n</code></pre>\n\n<p>there is a fluent syntax to define the more complicated mappings:</p>\n\n<pre><code>Mapper.Map&lt;Domain.User, UsersDetailsViewModel&gt;()\n      .ForMember(vm=&gt;vm.UserName, m=&gt;m.MapFrom(u=&gt;(u.UserName != null) \n                                               ? u.UserName \n                                               : \"User\" + u.ID.ToString()));\n</code></pre>\n\n<p>Here the ForMember takes two Arguments the first defines the property that you are mapping to.  The second provides a means of defining the mapping.  For an example I have copped out and shown one of the easy mappings.</p>\n\n<p>If you require a more difficult mapping, (such as your CurrentUser mapping) you can create a class that implements the IResolver interface, incorporate your mapping logic in that new clases and then add that into the mapping.</p>\n\n<pre><code>Mapper.Map&lt;Domain.User, UsersDetailsViewModel&gt;()\n  .ForMember(vm=&gt;vm.IsUserMatch, m=&gt;m.ResolveUsing&lt;MatchingUserResolver&gt;()));\n</code></pre>\n\n<p>when Mapper comes to do the mapping it will invoke your custom resolver.</p>\n\n<p>Once you discover the syntax of the .ForMember method everything else kind of slots into place.</p>\n",
+      "owner": {
+        "display_name": "Bobbles",
+        "link": "https://stackoverflow.com/users/1109851/bobbles"
+      }
+    },
+    {
+      "answer_id": 8836725,
+      "body": "<p>In the end, I believe this turned out to be some kind of incompatibility with ReSharper.</p>\n\n<p>ReSharper seems to have caused Automapper code to display incorrectly, but work just fine (even though it displays red with error messages). Uninstalling ReSharper fixed this issue completely.</p>\n",
+      "owner": {
+        "display_name": "Nellius",
+        "link": "https://stackoverflow.com/users/465705/nellius"
+      }
+    },
+    {
+      "answer_id": 8359993,
+      "body": "<p>If you set the value for this properties in the constructor like this</p>\n\n<pre><code>public class RestrictedName\n{\n    public RestrictedName(string name)\n    {\n        Name = name;\n    }\n\n    public string Name { get; private set; }\n}\n\npublic class OpenName\n{\n    public string Name { get; set; }\n}\n</code></pre>\n\n<p>then you can use ConstructUsing like this</p>\n\n<pre><code>Mapper.CreateMap&lt;OpenName, RestrictedName&gt;()\n            .ConstructUsing(s =&gt; new RestrictedName(s.Name));\n</code></pre>\n\n<p>which works with this code</p>\n\n<pre><code>var openName = new OpenName {Name = \"a\"};\nvar restrictedName = Mapper.Map&lt;OpenName, RestrictedName&gt;(openName);\nAssert.AreEqual(openName.Name, restrictedName.Name);\n</code></pre>\n",
+      "owner": {
+        "display_name": "boca",
+        "link": "https://stackoverflow.com/users/251665/boca"
+      }
+    },
+    {
+      "answer_id": 7310568,
+      "body": "<p>AutoMapper maps between properties of objects and is not supposed to operate in such scenarios. In this case you need Reflection magic. You could cheat by an intermediate serialization:</p>\n\n<pre><code>var data = new Dictionary&lt;string, string&gt;();\ndata.Add(\"Name\", \"Rusi\");\ndata.Add(\"Age\", \"23\");\nvar serializer = new JavaScriptSerializer();\nvar user = serializer.Deserialize&lt;User&gt;(serializer.Serialize(data));\n</code></pre>\n\n<p>And if you insist on using AutoMapper you could for example do something along the lines of:</p>\n\n<pre><code>Mapper\n    .CreateMap&lt;Dictionary&lt;string, string&gt;, User&gt;()\n    .ConvertUsing(x =&gt;\n    {\n        var serializer = new JavaScriptSerializer();\n        return serializer.Deserialize&lt;User&gt;(serializer.Serialize(x));\n    });\n</code></pre>\n\n<p>and then:</p>\n\n<pre><code>var data = new Dictionary&lt;string, string&gt;();\ndata.Add(\"Name\", \"Rusi\");\ndata.Add(\"Age\", \"23\");\nvar user = Mapper.Map&lt;Dictionary&lt;string, string&gt;, User&gt;(data);\n</code></pre>\n\n<p>If you need to handle more complex object hierarchies with sub-objects you must ask yourself the following question: Is <code>Dictionary&lt;string, string&gt;</code> the correct data structure to use in this case?</p>\n",
+      "owner": {
+        "display_name": "Darin Dimitrov",
+        "link": "https://stackoverflow.com/users/29407/darin-dimitrov"
+      }
+    },
+    {
+      "answer_id": 3146643,
+      "body": "<pre><code>.ForMember(dto =&gt; dto.field1, opt =&gt; opt.Ignore());\n</code></pre>\n",
+      "owner": {
+        "display_name": "gotnull",
+        "link": "https://stackoverflow.com/users/264802/gotnull"
+      }
+    },
+    {
+      "answer_id": 6280647,
+      "body": "<p>This is an extension method I wrote that ignores all non existing properties on the destination. Not sure if it will still be useful as the question is more than two years old, but I ran into the same issue having to add a lot of manual Ignore calls.</p>\n\n<pre><code>public static IMappingExpression&lt;TSource, TDestination&gt; IgnoreAllNonExisting&lt;TSource, TDestination&gt;\n(this IMappingExpression&lt;TSource, TDestination&gt; expression)\n{\n    var flags = BindingFlags.Public | BindingFlags.Instance;\n    var sourceType = typeof (TSource);\n    var destinationProperties = typeof (TDestination).GetProperties(flags);\n\n    foreach (var property in destinationProperties)\n    {\n        if (sourceType.GetProperty(property.Name, flags) == null)\n        {\n            expression.ForMember(property.Name, opt =&gt; opt.Ignore());\n        }\n    }\n    return expression;\n}\n</code></pre>\n\n<p>Usage:</p>\n\n<pre><code>Mapper.CreateMap&lt;SourceType, DestinationType&gt;()\n                .IgnoreAllNonExisting();\n</code></pre>\n\n<p><strong>UPDATE</strong>: Apparently this does not work correctly if you have custom mappings because it overwrites them. I guess it could still work if call IgnoreAllNonExisting first and then the custom mappings later.</p>\n\n<p>schdr has a solution (as an answer to this question) which uses <code>Mapper.GetAllTypeMaps()</code> to find out which properties are unmapped and auto ignore them. Seems like a more robust solution to me.</p>\n",
+      "owner": {
+        "display_name": "Can Gencer",
+        "link": "https://stackoverflow.com/users/531098/can-gencer"
+      }
+    },
+    {
+      "answer_id": 6410727,
+      "body": "<p>I came across similar issue and finally the approach similar to the one below worked for me:</p>\n\n<pre><code>Mapper.CreateMap&lt;Customer, CustomerViewModel&gt;()\n    .ForMember(dest =&gt; dest.Orders, \n        opt =&gt; opt.MapFrom(src =&gt; src.Orders.Where(o =&gt; !o.DeletedDate.HasValue)));\n</code></pre>\n\n<p>This assumes your Customer entity and CustomerViewModel dto have collections named \"Orders\".</p>\n",
+      "owner": {
+        "display_name": "achekh",
+        "link": "https://stackoverflow.com/users/655536/achekh"
+      }
+    },
+    {
+      "answer_id": 6185064,
+      "body": "<p>In AutoMapper you have a Source type and a Destination type. So you will be able to map between this Source type and Destination type only if you have a corresponding CreateMap. So to answer your questions:</p>\n\n<ol>\n<li>You don't <em>need to</em> define the reverse mapping. You have to do it only if you intend to map back.</li>\n<li>Yes, you need to call CreateMap to indicate that those types are mappable otherwise an exception will be thrown when you call <code>Map&lt;TSource, TDest&gt;</code> telling you that a mapping doesn't exist between the source and destination type.</li>\n</ol>\n",
+      "owner": {
+        "display_name": "Darin Dimitrov",
+        "link": "https://stackoverflow.com/users/29407/darin-dimitrov"
+      }
+    },
+    {
+      "answer_id": 5635533,
+      "body": "<p>For mapping between two types where you're taking control of the entire mapping, use ConvertUsing:</p>\n\n<pre><code>Mapper.CreateMap&lt;MyEnum, string&gt;().ConvertUsing(src =&gt; src.ToString());\n</code></pre>\n\n<p>All the other methods assume you're mapping to individual members on the destination type.</p>\n",
+      "owner": {
+        "display_name": "Jimmy Bogard",
+        "link": "https://stackoverflow.com/users/58508/jimmy-bogard"
+      }
+    },
+    {
+      "answer_id": 4673771,
+      "body": "<p>as the creator of <a href=\"http://valueinjecter.codeplex.com/\" rel=\"noreferrer\">ValueInjecter</a>, I can tell you that I did it because I wanted something <strong>simple and very flexible</strong> </p>\n\n<p>I really don't like writing much or writing lots of <code>monkey code</code> like:</p>\n\n<pre><code>Prop1.Ignore, Prop2.Ignore etc.\nCreateMap&lt;Foo,Bar&gt;(); CreateMap&lt;Tomato, Potato&gt;(); etc.\n</code></pre>\n\n<p>ValueInjecter is something <strong>like mozilla with it's plugins,</strong> you create ValueInjections and use them</p>\n\n<p>there are built-in injections for flattening, unflattening, and some that are intended to be inherited </p>\n\n<p>and it works more in <strong>an aspect type of way</strong>, you don't have to specify all properties 1-to-1, instead you do something like: </p>\n\n<p><em>take all the int properties from source which name ends with \"Id\", transform the value and set each to a property in the source object with same name without the Id suffix and it's type is inherited from Entity, stuff like that</em></p>\n\n<p><strong>so one obvious difference, ValueInjecter is used even in windows forms with flattening and unflattening, that's how flexible it is</strong></p>\n\n<p>(mapping from object to form controls and back)</p>\n\n<p>Automapper, not usable in windows forms, no unflatenning, but it has good stuff like collections mapping, so in case you need it with ValueInjecter you just do something like:</p>\n\n<p><code>foos.Select(o =&gt; new Bar().InjectFrom(o));</code></p>\n\n<p>you can also use ValueInjecter to map from <strong>anonymous</strong> and <strong>dynamic</strong> objects</p>\n\n<p><strong>differences:</strong></p>\n\n<ul>\n<li><p>automapper create configuration for each mapping possibility CreateMap()</p></li>\n<li><p>valueinjecter inject from any object to any object (there are also cases when you inject from object to valuetype)</p></li>\n<li><p>automapper has flattening built it, and only for simple types or from same type, and it doesn't has unflattening</p></li>\n<li><p>valueinjecter only if you need it you do <code>target.InjectFrom&lt;FlatLoopValueInjection&gt;(source); also &lt;UnflatLoopValueInjection&gt;</code>\nand if you want from <code>Foo.Bar.Name of type String</code> to <code>FooBarName of type Class1</code> you inherit FlatLoopValueInjection and specify this</p></li>\n<li><p>automapper maps properties with same name by default and for the rest you have to specify one by one, and do stuff like Prop1.Ignore(), Prop2.Ignore() etc.</p></li>\n<li><p>valueinjecter has a default injection .InjectFrom() that does the properties with the same name and type; for everything else you create your custom valueinjections with individual mapping logic/rules, more like aspects, e.g. <em>from all props of Type Foo to all props of type Bar</em></p></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Omu",
+        "link": "https://stackoverflow.com/users/112100/omu"
+      }
+    },
+    {
+      "answer_id": 4518288,
+      "body": "<p>This answer comes 'a bit' late as I've just faced the same issue with EF4 POCO proxies.</p>\n\n<p>I solved it using a custom converter that calls <code>Mapper.DynamicMap&lt;TDestination&gt;(object source)</code> to invoke the runtime type conversion, rather than the <code>.Include&lt;TOtherSource, TOtherDestinatio&gt;()</code>.</p>\n\n<p>It works fine for me.</p>\n\n<p>In your case you would define the following converter:</p>\n\n<pre><code>class PaymentConverter : ITypeConverter&lt;Payment, DtoPayment&gt; {\n    public DtoPayment Convert( ResolutionContext context ) {\n        return Mapper.DynamicMap&lt;DtoPayment&gt;( context.SourceValue );\n    }\n}\n</code></pre>\n\n<p>And then:</p>\n\n<pre><code>Mapper.CreateMap&lt;Payment, DtoPayment&gt;().ConvertUsing&lt;PaymentConverter&gt;();\nMapper.CreateMap&lt;CashPayment, DtoCashPayment&gt;();\nMapper.CreateMap&lt;CreditCardPayment, DtoCreditCardPayment&gt;();\n</code></pre>\n",
+      "owner": {
+        "display_name": "oli",
+        "link": "https://stackoverflow.com/users/295203/oli"
+      }
+    },
+    {
+      "answer_id": 4378597,
+      "body": "<p>Use AfterMap.  Something like this:</p>\n\n<pre><code>Mapper.CreateMap&lt;ParentData, Parent&gt;()\n    .AfterMap((s,d) =&gt; {\n        foreach(var c in d.Children)\n            c.Parent = d;\n        });\n</code></pre>\n",
+      "owner": {
+        "display_name": "PatrickSteele",
+        "link": "https://stackoverflow.com/users/182895/patricksteele"
+      }
+    },
+    {
+      "answer_id": 4285596,
+      "body": "<p>In your AutoMapper Definition:</p>\n\n<pre><code>    CreateMap&lt;MyStuffDTO, MyStuffViewModel&gt;()\n        .ForMember(dto =&gt; dto.MyDate, opt =&gt; opt.MapFrom(src =&gt; src.LastDate))\n        .ForMember(dto =&gt; dto.MyTime, opt =&gt; opt.MapFrom(src =&gt; src.LastTime))\n        .ForMember(dto =&gt; dto.Category, opt =&gt; opt.MapFrom(src =&gt; src.Category));\n</code></pre>\n\n<p>In code:</p>\n\n<p>For Single:</p>\n\n<pre><code>var result = Mapper.Map&lt;MyStuffDTO, MyStuffViewModel&gt;(obj);\n</code></pre>\n\n<p>For List:</p>\n\n<pre><code>var list = Mapper.Map&lt;IList&lt;MyStuffDTO&gt;, IList&lt;MyStuffViewModel&gt;&gt;(obj);\n</code></pre>\n",
+      "owner": {
+        "display_name": "ozczecho",
+        "link": "https://stackoverflow.com/users/121926/ozczecho"
+      }
+    },
+    {
+      "answer_id": 4210629,
+      "body": "<p>Here is how I solved it:</p>\n\n<p>I defined an <code>IMappingCreator</code> interface:</p>\n\n<pre><code>public interface IMappingCreator\n{\n  void CreateMappings();\n}\n</code></pre>\n\n<p>I went ahead and implemented a class with that interface (I'm using MEF as DI container, that's where the attributes are comming from) which is put into the DI container as <code>IMappingCreator</code>:</p>\n\n<pre><code>[Export(typeof(IMappingCreator))]\n    public class Mapping : IMappingCreator\n    {\n        private readonly IRefTypesLookup iRefTypesLookup;\n\n\n        [ImportingConstructor]\n        public Mapping(IRefTypesLookup rtl)\n        {\n            iRefTypesLookup = rtl;\n        }\n\n        public void CreateMappings()\n        {\n            Mapper.CreateMap&lt;Journal, DisplayJournal&gt;().AfterMap((j, dj) =&gt; dj.RefTypeName = iRefTypesLookup.Lookup(j.RefTypeID));\n        }\n    }\n</code></pre>\n\n<p>Finally, in my application startup, I fetch all instances of that interface in the container and call the <code>CreateMappings</code> method on them:</p>\n\n<pre><code>    var mappings = container.GetExportedValues&lt;IMappingCreator&gt;();\n\n    foreach (IMappingCreator mc in mappings)\n    {\n        mc.CreateMappings();\n    }\n</code></pre>\n\n<p>This makes the initial setup quite easy, as all the creation happens in one place, and you can have as many mapping  creators as you want (however, you should keep those to a minimum, maybe once per project or so, grabbing all needed services for mapping the specific types in that project).</p>\n",
+      "owner": {
+        "display_name": "Femaref",
+        "link": "https://stackoverflow.com/users/127059/femaref"
+      }
+    },
+    {
+      "answer_id": 3921888,
+      "body": "<p>You will need to create DTO classes that match your domain classes like this:</p>\n\n<pre><code>public class DTO\n{\n    public string Name;\n}\n\npublic class DTO_A : DTO\n{\n    public int Number { get; set; }\n}\n\npublic class DTO_B : DTO\n{\n    public string Description { get; set; }\n}\n</code></pre>\n\n<p>You then need to change your mappings to this:</p>\n\n<pre><code>        Mapper.CreateMap&lt;Base, DTO&gt;()\n            .Include&lt;ClassA, DTO_A&gt;()\n            .Include&lt;ClassB, DTO_B&gt;();\n\n        Mapper.CreateMap&lt;ClassA, DTO_A&gt;();\n\n        Mapper.CreateMap&lt;ClassB, DTO_B&gt;();\n\n        Mapper.AssertConfigurationIsValid();\n</code></pre>\n\n<p>Once this is done, then the following will work:</p>\n\n<pre><code>        var baseList = new List&lt;Base&gt;\n        {\n            new Base {Name = \"Base\"},\n            new ClassA {Name = \"ClassA\", Number = 1},\n            new ClassB {Name = \"ClassB\", Description = \"Desc\"},\n        };\n\n        var test = Mapper.Map&lt;IList&lt;Base&gt;,IList&lt;DTO&gt;&gt;(baseList);\n        Console.WriteLine(test[0].Name);\n        Console.WriteLine(test[1].Name);\n        Console.WriteLine(((DTO_A)test[1]).Number);\n        Console.WriteLine(test[2].Name);\n        Console.WriteLine(((DTO_B)test[2]).Description);\n        Console.ReadLine();\n</code></pre>\n\n<p>Unfortunately this does mean that you have an unwanted cast, but I don't think there's much that you can do about that.</p>\n",
+      "owner": {
+        "display_name": "Simon",
+        "link": "https://stackoverflow.com/users/54222/simon"
+      }
+    },
+    {
+      "answer_id": 3910747,
+      "body": "<p>My personal preference would be to try and keep it flat as possible with only the required data being transfered.  having said that I have used deeply nested DTO in the past because it made sense at the time and fitted the requirements.  so I guess it comes down to  \"it depends\". At the end of the day go with what makes sense for the application at hand. No point trying to shoe horn data into a DTO convention that doesn't fit what you are tying to achieve.</p>\n",
+      "owner": {
+        "display_name": "Nathan Fisher",
+        "link": "https://stackoverflow.com/users/29467/nathan-fisher"
+      }
+    },
+    {
+      "answer_id": 3704067,
+      "body": "<p>Checkout the <a href=\"http://dozer.sourceforge.net/\" rel=\"noreferrer\">Dozer</a> project. </p>\n\n<p>Dozer supports simple property mapping, complex type mapping, bi-directional mapping, implicit-explicit mapping, as well as recursive mapping. </p>\n\n<p>It makes use of <a href=\"http://commons.apache.org/beanutils/\" rel=\"noreferrer\">BeanUtils</a> and extends on it.</p>\n",
+      "owner": {
+        "display_name": "user159088",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 3618359,
+      "body": "<p>I found this post while searching as well, but this is how I implemented an auto mapping scheme:</p>\n\n<pre><code>public class MyCustomMap : Profile\n{\n    protected override void Configure()\n    {\n        CreateMap&lt;MyCustomViewModel, MyCustomObject&gt;()\n            .ForMember(dest =&gt; dest.Phone,\n                        opt =&gt; opt.MapFrom(\n                        src =&gt; src.PhoneAreaCode + src.PhoneFirstThree + src.PhoneLastFour));\n    }\n}\n\npublic static class AutoMapperConfiguration\n{\n    public static void Configure()\n    {\n        Mapper.Initialize(x =&gt; GetConfiguration(Mapper.Configuration));\n    }\n\n    private static void GetConfiguration(IConfiguration configuration)\n    {\n        var profiles = typeof(MyCustomMap).Assembly.GetTypes().Where(x =&gt; typeof(Profile).IsAssignableFrom(x));\n        foreach (var profile in profiles)\n        {\n            configuration.AddProfile(Activator.CreateInstance(profile) as Profile);\n        }\n    }\n}\n</code></pre>\n\n<p>So when my application starts, all I call is </p>\n\n<pre><code>AutoMapperConfiguration.Configure(); \n</code></pre>\n\n<p>And all my maps are registered.</p>\n",
+      "owner": {
+        "display_name": "Jason More",
+        "link": "https://stackoverflow.com/users/128968/jason-more"
+      }
+    },
+    {
+      "answer_id": 2646570,
+      "body": "<p>You do not need to explicitly map collection types, only the item types.  Just do:</p>\n\n<pre><code>Mapper.CreateMap&lt;SentEmailAttachment, SentEmailAttachmentItem&gt;();\nvar attachments = Mapper.Map&lt;IEnumerable&lt;SentEmailAttachment&gt;, List&lt;SentEmailAttachmentItem&gt;&gt;(someList);\n</code></pre>\n\n<p>That will work just fine.</p>\n",
+      "owner": {
+        "display_name": "Jimmy Bogard",
+        "link": "https://stackoverflow.com/users/58508/jimmy-bogard"
+      }
+    },
+    {
+      "answer_id": 2439032,
+      "body": "<p>Yes, because if you change the type of some property (for example DateTime -> string) it is not bidirectional (you will need to instruct Automapper how to convert string -> DateTime).</p>\n",
+      "owner": {
+        "display_name": "Darin Dimitrov",
+        "link": "https://stackoverflow.com/users/29407/darin-dimitrov"
+      }
+    },
+    {
+      "answer_id": 2376102,
+      "body": "<p>Use the overload that takes the existing destination:</p>\n\n<pre><code>Mapper.Map&lt;Source, Destination&gt;(source, destination);\n</code></pre>\n\n<p>Yes, it returns the destination object, but that's just for some other obscure scenarios.  It's the same object.</p>\n",
+      "owner": {
+        "display_name": "Jimmy Bogard",
+        "link": "https://stackoverflow.com/users/58508/jimmy-bogard"
+      }
+    },
+    {
+      "answer_id": 2196854,
+      "body": "<p>Profiles are for segregating common configuration applied across several type maps, like formatting.  However, type maps are still global.  You're better off creating separate Configuration objects, and creating a separate MappingEngine for each.  The Mapper class is merely a static facade over each of those, with some lifecycle management.</p>\n",
+      "owner": {
+        "display_name": "Jimmy Bogard",
+        "link": "https://stackoverflow.com/users/58508/jimmy-bogard"
+      }
+    },
+    {
+      "answer_id": 1810728,
+      "body": "<p>I would argue that you are violating two principles: the single responsibility principle (SRP) and the open/closed principle (OCP).</p>\n\n<p>You are violating the SRP because the bootstrapping class have more than one reason to change: if you alter model binding or the auto mapper configuration.</p>\n\n<p>You would be violating the OCP if you were to add additional bootstrapping code for configuring another sub-component of the system.</p>\n\n<p>How I usually handle this is that I define the following interface.</p>\n\n<pre><code>public interface IGlobalConfiguration\n{\n    void Configure();\n}\n</code></pre>\n\n<p>For each component in the system that needs bootstrapping I would create a class that implements that interface.</p>\n\n<pre><code>public class AutoMapperGlobalConfiguration : IGlobalConfiguration\n{\n    private readonly IConfiguration configuration;\n\n    public AutoMapperGlobalConfiguration(IConfiguration configuration)\n    {\n        this.configuration = configuration;\n    }\n\n    public void Configure()\n    {\n        // Add AutoMapper configuration here.\n    }\n}\n\npublic class ModelBindersGlobalConfiguration : IGlobalConfiguration\n{\n    private readonly ModelBinderDictionary binders;\n\n    public ModelBindersGlobalConfiguration(ModelBinderDictionary binders)\n    {\n        this.binders = binders;\n    }\n\n    public void Configure()\n    {\n        // Add model binding configuration here.\n    }\n}\n</code></pre>\n\n<p>I use Ninject to inject the dependencies. <code>IConfiguration</code> is the underlying implementation of the static <code>AutoMapper</code> class and <code>ModelBinderDictionary</code> is the <code>ModelBinders.Binder</code> object. I would then define a <code>NinjectModule</code> that would scan the specified assembly for any class that implements the <code>IGlobalConfiguration</code> interface and add those classes to a composite.</p>\n\n<pre><code>public class GlobalConfigurationModule : NinjectModule\n{\n    private readonly Assembly assembly;\n\n    public GlobalConfigurationModule() \n        : this(Assembly.GetExecutingAssembly()) { }\n\n    public GlobalConfigurationModule(Assembly assembly)\n    {\n        this.assembly = assembly;\n    }\n\n    public override void Load()\n    {\n        GlobalConfigurationComposite composite = \n            new GlobalConfigurationComposite();\n\n        IEnumerable&lt;Type&gt; types = \n            assembly.GetExportedTypes().GetTypeOf&lt;IGlobalConfiguration&gt;()\n                .SkipAnyTypeOf&lt;IComposite&lt;IGlobalConfiguration&gt;&gt;();\n\n        foreach (var type in types)\n        {\n            IGlobalConfiguration configuration = \n                (IGlobalConfiguration)Kernel.Get(type);\n            composite.Add(configuration);\n        }\n\n        Bind&lt;IGlobalConfiguration&gt;().ToConstant(composite);\n    }\n}\n</code></pre>\n\n<p>I would then add the following code to the Global.asax file.</p>\n\n<pre><code>public class MvcApplication : HttpApplication\n{\n    public void Application_Start()\n    {\n        IKernel kernel = new StandardKernel(\n            new AutoMapperModule(),\n            new MvcModule(),\n            new GlobalConfigurationModule()\n        );\n\n        Kernel.Get&lt;IGlobalConfiguration&gt;().Configure();\n    }\n}\n</code></pre>\n\n<p>Now my bootstrapping code adheres to both SRP and OCP. I can easily add additional bootstrapping code by creating a class that implements the <code>IGlobalConfiguration</code> interface and my global configuration classes only have one reason to change.</p>\n",
+      "owner": {
+        "display_name": "mrydengren",
+        "link": "https://stackoverflow.com/users/199663/mrydengren"
+      }
+    },
+    {
+      "answer_id": 1718703,
+      "body": "<p>You don't need to setup your mapping for collections, just the element types.\nSo just:</p>\n\n<pre><code>Mapper.CreateMap&lt;X, Y&gt;();\nMapper.Map&lt;X[], Collection&lt;Y&gt;&gt;(objectToMap);\n</code></pre>\n\n<p>See here for more info: <a href=\"http://automapper.codeplex.com/wikipage?title=Lists%20and%20Arrays&amp;referringTitle=Home\" rel=\"noreferrer\">http://automapper.codeplex.com/wikipage?title=Lists%20and%20Arrays&amp;referringTitle=Home</a></p>\n",
+      "owner": {
+        "display_name": "Drew Freyling",
+        "link": "https://stackoverflow.com/users/122880/drew-freyling"
+      }
+    }
+  ]
+}

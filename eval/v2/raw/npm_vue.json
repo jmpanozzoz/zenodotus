@@ -1,0 +1,1908 @@
+{
+  "library": "npm:vue",
+  "fetched_at": "2026-11-21T17:28:07Z",
+  "questions": [
+    {
+      "question_id": 42133894,
+      "title": "Vue.js - How to properly watch for nested data",
+      "accepted_answer_id": 42134176,
+      "score": 727,
+      "link": "https://stackoverflow.com/questions/42133894/vue-js-how-to-properly-watch-for-nested-data",
+      "owner": {
+        "display_name": "Plastic",
+        "link": "https://stackoverflow.com/users/2351052/plastic"
+      }
+    },
+    {
+      "question_id": 35914069,
+      "title": "How can I get query parameters from a URL in Vue.js?",
+      "accepted_answer_id": 35916241,
+      "score": 571,
+      "link": "https://stackoverflow.com/questions/35914069/how-can-i-get-query-parameters-from-a-url-in-vue-js",
+      "owner": {
+        "display_name": "Rob",
+        "link": "https://stackoverflow.com/users/1200670/rob"
+      }
+    },
+    {
+      "question_id": 44584292,
+      "title": "How to listen for &#39;props&#39; changes",
+      "accepted_answer_id": 44584437,
+      "score": 516,
+      "link": "https://stackoverflow.com/questions/44584292/how-to-listen-for-props-changes",
+      "owner": {
+        "display_name": "Amio.io",
+        "link": "https://stackoverflow.com/users/1075289/amio-io"
+      }
+    },
+    {
+      "question_id": 38085180,
+      "title": "Disable input conditionally (Vue.js)",
+      "accepted_answer_id": 38085541,
+      "score": 446,
+      "link": "https://stackoverflow.com/questions/38085180/disable-input-conditionally-vue-js",
+      "owner": {
+        "display_name": "Zaffar Saffee",
+        "link": "https://stackoverflow.com/users/1090463/zaffar-saffee"
+      }
+    },
+    {
+      "question_id": 42749973,
+      "title": "What does the @ mean inside an import path?",
+      "accepted_answer_id": 42753045,
+      "score": 443,
+      "link": "https://stackoverflow.com/questions/42749973/what-does-the-mean-inside-an-import-path",
+      "owner": {
+        "display_name": "Chris Schmitz",
+        "link": "https://stackoverflow.com/users/1934903/chris-schmitz"
+      }
+    },
+    {
+      "question_id": 32106155,
+      "title": "Can you force Vue.js to reload/re-render?",
+      "accepted_answer_id": 40586872,
+      "score": 426,
+      "link": "https://stackoverflow.com/questions/32106155/can-you-force-vue-js-to-reload-re-render",
+      "owner": {
+        "display_name": "Dave",
+        "link": "https://stackoverflow.com/users/150094/dave"
+      }
+    },
+    {
+      "question_id": 40522634,
+      "title": "Can I pass parameters in computed properties in Vue.Js",
+      "accepted_answer_id": 40539522,
+      "score": 372,
+      "link": "https://stackoverflow.com/questions/40522634/can-i-pass-parameters-in-computed-properties-in-vue-js",
+      "owner": {
+        "display_name": "Saurabh",
+        "link": "https://stackoverflow.com/users/1610034/saurabh"
+      }
+    },
+    {
+      "question_id": 34623833,
+      "title": "Vue.js - How to remove hashbang #! from url?",
+      "accepted_answer_id": 34624803,
+      "score": 370,
+      "link": "https://stackoverflow.com/questions/34623833/vue-js-how-to-remove-hashbang-from-url",
+      "owner": {
+        "display_name": "DokiCRO",
+        "link": "https://stackoverflow.com/users/3806764/dokicro"
+      }
+    },
+    {
+      "question_id": 44147937,
+      "title": "&#39;Property does not exist on type &#39;never&#39;",
+      "accepted_answer_id": 44147953,
+      "score": 365,
+      "link": "https://stackoverflow.com/questions/44147937/property-does-not-exist-on-type-never",
+      "owner": {
+        "display_name": "Ray Booysen",
+        "link": "https://stackoverflow.com/users/42124/ray-booysen"
+      }
+    },
+    {
+      "question_id": 66082397,
+      "title": "TypeError: this.getOptions is not a function",
+      "accepted_answer_id": 66087132,
+      "score": 356,
+      "link": "https://stackoverflow.com/questions/66082397/typeerror-this-getoptions-is-not-a-function",
+      "owner": {
+        "display_name": "Juliette",
+        "link": "https://stackoverflow.com/users/14337399/juliette"
+      }
+    },
+    {
+      "question_id": 33682651,
+      "title": "Call a Vue.js component method from outside the component",
+      "accepted_answer_id": 37521683,
+      "score": 346,
+      "link": "https://stackoverflow.com/questions/33682651/call-a-vue-js-component-method-from-outside-the-component",
+      "owner": {
+        "display_name": "harryg",
+        "link": "https://stackoverflow.com/users/1606323/harryg"
+      }
+    },
+    {
+      "question_id": 45047126,
+      "title": "How to add external JS scripts to VueJS Components?",
+      "accepted_answer_id": 47002863,
+      "score": 323,
+      "link": "https://stackoverflow.com/questions/45047126/how-to-add-external-js-scripts-to-vuejs-components",
+      "owner": {
+        "display_name": "Gijo Varghese",
+        "link": "https://stackoverflow.com/users/3392772/gijo-varghese"
+      }
+    },
+    {
+      "question_id": 43270159,
+      "title": "How to watch store values from vuex?",
+      "accepted_answer_id": 43294294,
+      "score": 320,
+      "link": "https://stackoverflow.com/questions/43270159/how-to-watch-store-values-from-vuex",
+      "owner": {
+        "display_name": "raffffffff",
+        "link": "https://stackoverflow.com/users/6322807/raffffffff"
+      }
+    },
+    {
+      "question_id": 42632711,
+      "title": "How to call function on child component on parent events",
+      "accepted_answer_id": 45463576,
+      "score": 318,
+      "link": "https://stackoverflow.com/questions/42632711/how-to-call-function-on-child-component-on-parent-events",
+      "owner": {
+        "display_name": "jbodily",
+        "link": "https://stackoverflow.com/users/1399513/jbodily"
+      }
+    },
+    {
+      "question_id": 41475447,
+      "title": "Vue v-on:click does not work on component",
+      "accepted_answer_id": 41476882,
+      "score": 317,
+      "link": "https://stackoverflow.com/questions/41475447/vue-v-onclick-does-not-work-on-component",
+      "owner": {
+        "display_name": "Javier C&#225;rdenas",
+        "link": "https://stackoverflow.com/users/1457363/javier-c%c3%a1rdenas"
+      }
+    },
+    {
+      "question_id": 39868963,
+      "title": "Vue 2 - Mutating props vue-warn",
+      "accepted_answer_id": 39910248,
+      "score": 316,
+      "link": "https://stackoverflow.com/questions/39868963/vue-2-mutating-props-vue-warn",
+      "owner": {
+        "display_name": "Dariusz Chowański",
+        "link": "https://stackoverflow.com/users/2686214/dariusz-chowa%c5%84ski"
+      }
+    },
+    {
+      "question_id": 45813347,
+      "title": "Difference between the created and mounted events in Vue.js",
+      "accepted_answer_id": 45814848,
+      "score": 316,
+      "link": "https://stackoverflow.com/questions/45813347/difference-between-the-created-and-mounted-events-in-vue-js",
+      "owner": {
+        "display_name": "lesssugar",
+        "link": "https://stackoverflow.com/users/2890610/lesssugar"
+      }
+    },
+    {
+      "question_id": 44350862,
+      "title": "Methods vs Computed in Vue",
+      "accepted_answer_id": 44350932,
+      "score": 303,
+      "link": "https://stackoverflow.com/questions/44350862/methods-vs-computed-in-vue",
+      "owner": {
+        "display_name": "Bootstrap4",
+        "link": "https://stackoverflow.com/users/8075786/bootstrap4"
+      }
+    },
+    {
+      "question_id": 40956671,
+      "title": "Passing event and argument to v-on in Vue.js",
+      "accepted_answer_id": 40956873,
+      "score": 302,
+      "link": "https://stackoverflow.com/questions/40956671/passing-event-and-argument-to-v-on-in-vue-js",
+      "owner": {
+        "display_name": "geckob",
+        "link": "https://stackoverflow.com/users/4144667/geckob"
+      }
+    },
+    {
+      "question_id": 30877491,
+      "title": "Display unescaped HTML in Vue.js",
+      "accepted_answer_id": 31016520,
+      "score": 295,
+      "link": "https://stackoverflow.com/questions/30877491/display-unescaped-html-in-vue-js",
+      "owner": {
+        "display_name": "Mike",
+        "link": "https://stackoverflow.com/users/260308/mike"
+      }
+    },
+    {
+      "question_id": 61452458,
+      "title": "`ref()` vs `reactive()` in Vue 3?",
+      "accepted_answer_id": 65262638,
+      "score": 287,
+      "link": "https://stackoverflow.com/questions/61452458/ref-vs-reactive-in-vue-3",
+      "owner": {
+        "display_name": "Denis Tsoi",
+        "link": "https://stackoverflow.com/users/2312051/denis-tsoi"
+      }
+    },
+    {
+      "question_id": 35969974,
+      "title": "forEach is not a function error with JavaScript array",
+      "accepted_answer_id": 35970020,
+      "score": 277,
+      "link": "https://stackoverflow.com/questions/35969974/foreach-is-not-a-function-error-with-javascript-array",
+      "owner": {
+        "display_name": "wyc",
+        "link": "https://stackoverflow.com/users/122536/wyc"
+      }
+    },
+    {
+      "question_id": 50865828,
+      "title": "What is the difference between the views and components folders in a Vue project?",
+      "accepted_answer_id": 50866150,
+      "score": 263,
+      "link": "https://stackoverflow.com/questions/50865828/what-is-the-difference-between-the-views-and-components-folders-in-a-vue-project",
+      "owner": {
+        "display_name": "drsnark",
+        "link": "https://stackoverflow.com/users/3033436/drsnark"
+      }
+    },
+    {
+      "question_id": 42984132,
+      "title": "Is there a way to dispatch actions between two namespaced vuex modules?",
+      "accepted_answer_id": 42984293,
+      "score": 262,
+      "link": "https://stackoverflow.com/questions/42984132/is-there-a-way-to-dispatch-actions-between-two-namespaced-vuex-modules",
+      "owner": {
+        "display_name": "Chris Schmitz",
+        "link": "https://stackoverflow.com/users/1934903/chris-schmitz"
+      }
+    },
+    {
+      "question_id": 40899532,
+      "title": "How to pass a value from Vue data to href?",
+      "accepted_answer_id": 40899733,
+      "score": 260,
+      "link": "https://stackoverflow.com/questions/40899532/how-to-pass-a-value-from-vue-data-to-href",
+      "owner": {
+        "display_name": "bbennett36",
+        "link": "https://stackoverflow.com/users/6658209/bbennett36"
+      }
+    },
+    {
+      "question_id": 40382388,
+      "title": "How to set URL query params in Vue with Vue-Router",
+      "accepted_answer_id": 40394184,
+      "score": 259,
+      "link": "https://stackoverflow.com/questions/40382388/how-to-set-url-query-params-in-vue-with-vue-router",
+      "owner": {
+        "display_name": "Saurabh",
+        "link": "https://stackoverflow.com/users/1610034/saurabh"
+      }
+    },
+    {
+      "question_id": 35664550,
+      "title": "Vue.js redirection to another page",
+      "accepted_answer_id": 35667628,
+      "score": 257,
+      "link": "https://stackoverflow.com/questions/35664550/vue-js-redirection-to-another-page",
+      "owner": {
+        "display_name": "Jimmy Obonyo Abor",
+        "link": "https://stackoverflow.com/users/1226748/jimmy-obonyo-abor"
+      }
+    },
+    {
+      "question_id": 40915436,
+      "title": "vuejs update parent data from child component",
+      "accepted_answer_id": 40915857,
+      "score": 249,
+      "link": "https://stackoverflow.com/questions/40915436/vuejs-update-parent-data-from-child-component",
+      "owner": {
+        "display_name": "Gal Ziv",
+        "link": "https://stackoverflow.com/users/1972632/gal-ziv"
+      }
+    },
+    {
+      "question_id": 46402809,
+      "title": "Vuejs: Event on route change",
+      "accepted_answer_id": 46403063,
+      "score": 249,
+      "link": "https://stackoverflow.com/questions/46402809/vuejs-event-on-route-change",
+      "owner": {
+        "display_name": "kipris",
+        "link": "https://stackoverflow.com/users/6208046/kipris"
+      }
+    },
+    {
+      "question_id": 45369553,
+      "title": "Difference between @click and v-on:click Vuejs",
+      "accepted_answer_id": 45369629,
+      "score": 246,
+      "link": "https://stackoverflow.com/questions/45369553/difference-between-click-and-v-onclick-vuejs",
+      "owner": {
+        "display_name": "LorenzoBerti",
+        "link": "https://stackoverflow.com/users/5630506/lorenzoberti"
+      }
+    },
+    {
+      "question_id": 42199956,
+      "title": "How to implement debounce in Vue2?",
+      "accepted_answer_id": 42201508,
+      "score": 235,
+      "link": "https://stackoverflow.com/questions/42199956/how-to-implement-debounce-in-vue2",
+      "owner": {
+        "display_name": "MartinTeeVarga",
+        "link": "https://stackoverflow.com/users/1667977/martinteevarga"
+      }
+    },
+    {
+      "question_id": 45848974,
+      "title": "How to call an action from within another action in Vuex?",
+      "accepted_answer_id": 45849125,
+      "score": 229,
+      "link": "https://stackoverflow.com/questions/45848974/how-to-call-an-action-from-within-another-action-in-vuex",
+      "owner": {
+        "display_name": "muttley91",
+        "link": "https://stackoverflow.com/users/386869/muttley91"
+      }
+    },
+    {
+      "question_id": 47219819,
+      "title": "How to change port number in vue-cli project",
+      "accepted_answer_id": 47221965,
+      "score": 229,
+      "link": "https://stackoverflow.com/questions/47219819/how-to-change-port-number-in-vue-cli-project",
+      "owner": {
+        "display_name": "salman",
+        "link": "https://stackoverflow.com/users/7827771/salman"
+      }
+    },
+    {
+      "question_id": 47824660,
+      "title": "How to create and use an optional parameter in Vue Router?",
+      "accepted_answer_id": 47828416,
+      "score": 221,
+      "link": "https://stackoverflow.com/questions/47824660/how-to-create-and-use-an-optional-parameter-in-vue-router",
+      "owner": {
+        "display_name": "yoyoma",
+        "link": "https://stackoverflow.com/users/4515046/yoyoma"
+      }
+    },
+    {
+      "question_id": 46097687,
+      "title": "Vuex - passing multiple parameters to mutation",
+      "accepted_answer_id": 46097834,
+      "score": 220,
+      "link": "https://stackoverflow.com/questions/46097687/vuex-passing-multiple-parameters-to-mutation",
+      "owner": {
+        "display_name": "Schwesi",
+        "link": "https://stackoverflow.com/users/4132369/schwesi"
+      }
+    },
+    {
+      "question_id": 48727863,
+      "title": "Vue &#39;export default&#39; vs &#39;new Vue&#39;",
+      "accepted_answer_id": 48728051,
+      "score": 220,
+      "link": "https://stackoverflow.com/questions/48727863/vue-export-default-vs-new-vue",
+      "owner": {
+        "display_name": "rockzombie2",
+        "link": "https://stackoverflow.com/users/3394235/rockzombie2"
+      }
+    },
+    {
+      "question_id": 36170425,
+      "title": "Detect click outside element",
+      "accepted_answer_id": 36180348,
+      "score": 217,
+      "link": "https://stackoverflow.com/questions/36170425/detect-click-outside-element",
+      "owner": {
+        "display_name": "user6102188",
+        "link": null
+      }
+    },
+    {
+      "question_id": 40015037,
+      "title": "Can vue-router open a link in a new tab?",
+      "accepted_answer_id": 47874850,
+      "score": 215,
+      "link": "https://stackoverflow.com/questions/40015037/can-vue-router-open-a-link-in-a-new-tab",
+      "owner": {
+        "display_name": "Tang Jiong",
+        "link": "https://stackoverflow.com/users/5105860/tang-jiong"
+      }
+    },
+    {
+      "question_id": 50828904,
+      "title": "Using Environment Variables with Vue.js",
+      "accepted_answer_id": 50831022,
+      "score": 214,
+      "link": "https://stackoverflow.com/questions/50828904/using-environment-variables-with-vue-js",
+      "owner": {
+        "display_name": "Edgar Quintero",
+        "link": "https://stackoverflow.com/users/1159590/edgar-quintero"
+      }
+    },
+    {
+      "question_id": 38744932,
+      "title": "Vue: How do I call multiple functions with @click?",
+      "accepted_answer_id": 44186374,
+      "score": 205,
+      "link": "https://stackoverflow.com/questions/38744932/vue-how-do-i-call-multiple-functions-with-click",
+      "owner": {
+        "display_name": "S Panfilov",
+        "link": "https://stackoverflow.com/users/930170/s-panfilov"
+      }
+    },
+    {
+      "question_id": 48032006,
+      "title": "How do I use /deep/ or &gt;&gt;&gt; or ::v-deep in Vue.js?",
+      "accepted_answer_id": 55368933,
+      "score": 205,
+      "link": "https://stackoverflow.com/questions/48032006/how-do-i-use-deep-or-or-v-deep-in-vue-js",
+      "owner": {
+        "display_name": "laptou",
+        "link": "https://stackoverflow.com/users/3508956/laptou"
+      }
+    },
+    {
+      "question_id": 29484431,
+      "title": "[Vue warn]: Cannot find element",
+      "accepted_answer_id": 29484590,
+      "score": 204,
+      "link": "https://stackoverflow.com/questions/29484431/vue-warn-cannot-find-element",
+      "owner": {
+        "display_name": "dopatraman",
+        "link": "https://stackoverflow.com/users/858962/dopatraman"
+      }
+    },
+    {
+      "question_id": 46522749,
+      "title": "How can I solve &#39;Redirect has been blocked by CORS policy: No &#39;Access-Control-Allow-Origin&#39; header&#39;?",
+      "accepted_answer_id": 46529778,
+      "score": 203,
+      "link": "https://stackoverflow.com/questions/46522749/how-can-i-solve-redirect-has-been-blocked-by-cors-policy-no-access-control-al",
+      "owner": {
+        "display_name": "Parkar",
+        "link": "https://stackoverflow.com/users/6939341/parkar"
+      }
+    },
+    {
+      "question_id": 54021037,
+      "title": "How to mock window.location.href with Jest + Vuejs?",
+      "accepted_answer_id": 54021633,
+      "score": 203,
+      "link": "https://stackoverflow.com/questions/54021037/how-to-mock-window-location-href-with-jest-vuejs",
+      "owner": {
+        "display_name": "Hoang Subin",
+        "link": "https://stackoverflow.com/users/4344732/hoang-subin"
+      }
+    },
+    {
+      "question_id": 36186831,
+      "title": "How do I hide the VueJS syntax while the page is loading?",
+      "accepted_answer_id": 36187668,
+      "score": 200,
+      "link": "https://stackoverflow.com/questions/36186831/how-do-i-hide-the-vuejs-syntax-while-the-page-is-loading",
+      "owner": {
+        "display_name": "antoniputra",
+        "link": "https://stackoverflow.com/users/2230192/antoniputra"
+      }
+    },
+    {
+      "question_id": 59125857,
+      "title": "How to watch props change with Vue Composition API / Vue 3?",
+      "accepted_answer_id": 59127059,
+      "score": 198,
+      "link": "https://stackoverflow.com/questions/59125857/how-to-watch-props-change-with-vue-composition-api-vue-3",
+      "owner": {
+        "display_name": "ux.engineer",
+        "link": "https://stackoverflow.com/users/2442714/ux-engineer"
+      }
+    },
+    {
+      "question_id": 44077277,
+      "title": "Only show slot if it has content",
+      "accepted_answer_id": 44077358,
+      "score": 197,
+      "link": "https://stackoverflow.com/questions/44077277/only-show-slot-if-it-has-content",
+      "owner": {
+        "display_name": "Steve Bauman",
+        "link": "https://stackoverflow.com/users/2708607/steve-bauman"
+      }
+    },
+    {
+      "question_id": 42951967,
+      "title": "Handling Enter Key in Vue.js",
+      "accepted_answer_id": 42952686,
+      "score": 195,
+      "link": "https://stackoverflow.com/questions/42951967/handling-enter-key-in-vue-js",
+      "owner": {
+        "display_name": "user687554",
+        "link": "https://stackoverflow.com/users/687554/user687554"
+      }
+    },
+    {
+      "question_id": 50982408,
+      "title": "Vue.js get selected option on @change",
+      "accepted_answer_id": 50982485,
+      "score": 195,
+      "link": "https://stackoverflow.com/questions/50982408/vue-js-get-selected-option-on-change",
+      "owner": {
+        "display_name": "hphp",
+        "link": "https://stackoverflow.com/users/8343203/hphp"
+      }
+    },
+    {
+      "question_id": 71703933,
+      "title": "What is the difference between &quot;vite&quot; and &quot;vite preview&quot;?",
+      "accepted_answer_id": 71703991,
+      "score": 194,
+      "link": "https://stackoverflow.com/questions/71703933/what-is-the-difference-between-vite-and-vite-preview",
+      "owner": {
+        "display_name": "user3848207",
+        "link": "https://stackoverflow.com/users/3848207/user3848207"
+      }
+    },
+    {
+      "question_id": 30911933,
+      "title": "Mouseover or hover vue.js",
+      "accepted_answer_id": 35113419,
+      "score": 193,
+      "link": "https://stackoverflow.com/questions/30911933/mouseover-or-hover-vue-js",
+      "owner": {
+        "display_name": "Anders Andersen",
+        "link": "https://stackoverflow.com/users/4148743/anders-andersen"
+      }
+    },
+    {
+      "question_id": 40365741,
+      "title": "Default values for Vue component props &amp; how to check if a user did not set the prop?",
+      "accepted_answer_id": 40366150,
+      "score": 193,
+      "link": "https://stackoverflow.com/questions/40365741/default-values-for-vue-component-props-how-to-check-if-a-user-did-not-set-the",
+      "owner": {
+        "display_name": "PeraMika",
+        "link": "https://stackoverflow.com/users/4437206/peramika"
+      }
+    },
+    {
+      "question_id": 34950867,
+      "title": "How to set a unique ID for each component instance?",
+      "accepted_answer_id": 34957052,
+      "score": 192,
+      "link": "https://stackoverflow.com/questions/34950867/how-to-set-a-unique-id-for-each-component-instance",
+      "owner": {
+        "display_name": "PierreB",
+        "link": "https://stackoverflow.com/users/3934558/pierreb"
+      }
+    },
+    {
+      "question_id": 42908525,
+      "title": "[Vue warn]: Property or method is not defined on the instance but referenced during render",
+      "accepted_answer_id": 42910068,
+      "score": 192,
+      "link": "https://stackoverflow.com/questions/42908525/vue-warn-property-or-method-is-not-defined-on-the-instance-but-referenced-dur",
+      "owner": {
+        "display_name": "Lorenzo D&#39;Isidoro",
+        "link": "https://stackoverflow.com/users/3422795/lorenzo-disidoro"
+      }
+    },
+    {
+      "question_id": 34308004,
+      "title": "Moment.js with Vuejs",
+      "accepted_answer_id": 34310642,
+      "score": 188,
+      "link": "https://stackoverflow.com/questions/34308004/moment-js-with-vuejs",
+      "owner": {
+        "display_name": "Set Kyar Wa Lar",
+        "link": "https://stackoverflow.com/users/3736230/set-kyar-wa-lar"
+      }
+    },
+    {
+      "question_id": 43658481,
+      "title": "Passing props dynamically to dynamic component in VueJS",
+      "accepted_answer_id": 43658979,
+      "score": 188,
+      "link": "https://stackoverflow.com/questions/43658481/passing-props-dynamically-to-dynamic-component-in-vuejs",
+      "owner": {
+        "display_name": "ttncrch",
+        "link": "https://stackoverflow.com/users/2190535/ttncrch"
+      }
+    },
+    {
+      "question_id": 46106037,
+      "title": "Vuex - Computed property &quot;name&quot; was assigned to but it has no setter",
+      "accepted_answer_id": 46106438,
+      "score": 188,
+      "link": "https://stackoverflow.com/questions/46106037/vuex-computed-property-name-was-assigned-to-but-it-has-no-setter",
+      "owner": {
+        "display_name": "Connor Leech",
+        "link": "https://stackoverflow.com/users/2031033/connor-leech"
+      }
+    },
+    {
+      "question_id": 56150402,
+      "title": "Vue CLI CSS pre-processor option: dart-sass VS node-sass?",
+      "accepted_answer_id": 56422541,
+      "score": 182,
+      "link": "https://stackoverflow.com/questions/56150402/vue-cli-css-pre-processor-option-dart-sass-vs-node-sass",
+      "owner": {
+        "display_name": "ux.engineer",
+        "link": "https://stackoverflow.com/users/2442714/ux-engineer"
+      }
+    },
+    {
+      "question_id": 43529516,
+      "title": "How to pass a parameter to Vue @click event handler",
+      "accepted_answer_id": 43529584,
+      "score": 180,
+      "link": "https://stackoverflow.com/questions/43529516/how-to-pass-a-parameter-to-vue-click-event-handler",
+      "owner": {
+        "display_name": "user761100",
+        "link": "https://stackoverflow.com/users/761100/user761100"
+      }
+    },
+    {
+      "question_id": 47313165,
+      "title": "How to reference static assets within vue javascript",
+      "accepted_answer_id": 50515442,
+      "score": 180,
+      "link": "https://stackoverflow.com/questions/47313165/how-to-reference-static-assets-within-vue-javascript",
+      "owner": {
+        "display_name": "JBaczuk",
+        "link": "https://stackoverflow.com/users/3499115/jbaczuk"
+      }
+    },
+    {
+      "question_id": 41228833,
+      "title": "How to comment code in a vue.js file?",
+      "accepted_answer_id": 41229144,
+      "score": 179,
+      "link": "https://stackoverflow.com/questions/41228833/how-to-comment-code-in-a-vue-js-file",
+      "owner": {
+        "display_name": "Pathros",
+        "link": "https://stackoverflow.com/users/1883256/pathros"
+      }
+    },
+    {
+      "question_id": 43027499,
+      "title": "Vuex state on page refresh",
+      "accepted_answer_id": 43027630,
+      "score": 179,
+      "link": "https://stackoverflow.com/questions/43027499/vuex-state-on-page-refresh",
+      "owner": {
+        "display_name": "boomboxboy",
+        "link": "https://stackoverflow.com/users/5350343/boomboxboy"
+      }
+    },
+    {
+      "question_id": 40491506,
+      "title": "Vue.js dynamic images not working with webpack",
+      "accepted_answer_id": 40493036,
+      "score": 176,
+      "link": "https://stackoverflow.com/questions/40491506/vue-js-dynamic-images-not-working-with-webpack",
+      "owner": {
+        "display_name": "Saurabh",
+        "link": "https://stackoverflow.com/users/1610034/saurabh"
+      }
+    },
+    {
+      "question_id": 40957008,
+      "title": "How to access to a child method from the parent in vue.js",
+      "accepted_answer_id": 47565763,
+      "score": 175,
+      "link": "https://stackoverflow.com/questions/40957008/how-to-access-to-a-child-method-from-the-parent-in-vue-js",
+      "owner": {
+        "display_name": "al3x",
+        "link": "https://stackoverflow.com/users/1934787/al3x"
+      }
+    },
+    {
+      "question_id": 38616167,
+      "title": "Communication between sibling components in Vue.js 2.0",
+      "accepted_answer_id": 40442986,
+      "score": 173,
+      "link": "https://stackoverflow.com/questions/38616167/communication-between-sibling-components-in-vue-js-2-0",
+      "owner": {
+        "display_name": "S Panfilov",
+        "link": "https://stackoverflow.com/users/930170/s-panfilov"
+      }
+    },
+    {
+      "question_id": 40165766,
+      "title": "Returning Promises from Vuex actions",
+      "accepted_answer_id": 40167499,
+      "score": 173,
+      "link": "https://stackoverflow.com/questions/40165766/returning-promises-from-vuex-actions",
+      "owner": {
+        "display_name": "Daniel Park",
+        "link": "https://stackoverflow.com/users/1420265/daniel-park"
+      }
+    },
+    {
+      "question_id": 42936588,
+      "title": "Which command do I use to generate the build of a Vue app?",
+      "accepted_answer_id": 42944927,
+      "score": 163,
+      "link": "https://stackoverflow.com/questions/42936588/which-command-do-i-use-to-generate-the-build-of-a-vue-app",
+      "owner": {
+        "display_name": "artem0071",
+        "link": "https://stackoverflow.com/users/7518747/artem0071"
+      }
+    },
+    {
+      "question_id": 40255291,
+      "title": "Vue.js img src concatenate variable and text",
+      "accepted_answer_id": 40261886,
+      "score": 162,
+      "link": "https://stackoverflow.com/questions/40255291/vue-js-img-src-concatenate-variable-and-text",
+      "owner": {
+        "display_name": "ketom",
+        "link": "https://stackoverflow.com/users/5472479/ketom"
+      }
+    },
+    {
+      "question_id": 42615445,
+      "title": "VueJs 2.0 emit event from grand child to his grand parent component",
+      "accepted_answer_id": 53193759,
+      "score": 161,
+      "link": "https://stackoverflow.com/questions/42615445/vuejs-2-0-emit-event-from-grand-child-to-his-grand-parent-component",
+      "owner": {
+        "display_name": "BassMHL",
+        "link": "https://stackoverflow.com/users/4676812/bassmhl"
+      }
+    },
+    {
+      "question_id": 37104304,
+      "title": "Vue.js getting an element within a component",
+      "accepted_answer_id": 37172277,
+      "score": 159,
+      "link": "https://stackoverflow.com/questions/37104304/vue-js-getting-an-element-within-a-component",
+      "owner": {
+        "display_name": "Snewedon",
+        "link": "https://stackoverflow.com/users/5817764/snewedon"
+      }
+    },
+    {
+      "question_id": 49675988,
+      "title": "How to get the v-for index in Vue.js?",
+      "accepted_answer_id": 49676004,
+      "score": 154,
+      "link": "https://stackoverflow.com/questions/49675988/how-to-get-the-v-for-index-in-vue-js",
+      "owner": {
+        "display_name": "sof-03",
+        "link": "https://stackoverflow.com/users/9450002/sof-03"
+      }
+    },
+    {
+      "question_id": 40408096,
+      "title": "What&#39;s the correct way to pass props as initial data in Vue.js 2?",
+      "accepted_answer_id": 40435856,
+      "score": 153,
+      "link": "https://stackoverflow.com/questions/40408096/whats-the-correct-way-to-pass-props-as-initial-data-in-vue-js-2",
+      "owner": {
+        "display_name": "Dominik Serafin",
+        "link": "https://stackoverflow.com/users/3143704/dominik-serafin"
+      }
+    },
+    {
+      "question_id": 42613061,
+      "title": "Vue.js - Making helper functions globally available to single-file components",
+      "accepted_answer_id": 42618631,
+      "score": 150,
+      "link": "https://stackoverflow.com/questions/42613061/vue-js-making-helper-functions-globally-available-to-single-file-components",
+      "owner": {
+        "display_name": "Ege Ersoz",
+        "link": "https://stackoverflow.com/users/827452/ege-ersoz"
+      }
+    },
+    {
+      "question_id": 46083220,
+      "title": "How to VueJS router-link active style",
+      "accepted_answer_id": 46085519,
+      "score": 150,
+      "link": "https://stackoverflow.com/questions/46083220/how-to-vuejs-router-link-active-style",
+      "owner": {
+        "display_name": "doobean",
+        "link": "https://stackoverflow.com/users/7881234/doobean"
+      }
+    },
+    {
+      "question_id": 35604987,
+      "title": "Is there a proper way of resetting a component&#39;s initial data in vuejs?",
+      "accepted_answer_id": 35605629,
+      "score": 149,
+      "link": "https://stackoverflow.com/questions/35604987/is-there-a-proper-way-of-resetting-a-components-initial-data-in-vuejs",
+      "owner": {
+        "display_name": "Chris Schmitz",
+        "link": "https://stackoverflow.com/users/1934903/chris-schmitz"
+      }
+    },
+    {
+      "question_id": 40714319,
+      "title": "How to call a vue.js function on page load",
+      "accepted_answer_id": 40714462,
+      "score": 149,
+      "link": "https://stackoverflow.com/questions/40714319/how-to-call-a-vue-js-function-on-page-load",
+      "owner": {
+        "display_name": "Phillis Peters",
+        "link": "https://stackoverflow.com/users/4128530/phillis-peters"
+      }
+    },
+    {
+      "question_id": 42737034,
+      "title": "vue js watch multiple properties with single handler",
+      "accepted_answer_id": 45853349,
+      "score": 149,
+      "link": "https://stackoverflow.com/questions/42737034/vue-js-watch-multiple-properties-with-single-handler",
+      "owner": {
+        "display_name": "rahulserver",
+        "link": "https://stackoverflow.com/users/1291122/rahulserver"
+      }
+    },
+    {
+      "question_id": 35242272,
+      "title": "Vue.js data-bind style backgroundImage not working",
+      "accepted_answer_id": 35244182,
+      "score": 147,
+      "link": "https://stackoverflow.com/questions/35242272/vue-js-data-bind-style-backgroundimage-not-working",
+      "owner": {
+        "display_name": "CosX",
+        "link": "https://stackoverflow.com/users/1702945/cosx"
+      }
+    },
+    {
+      "question_id": 41135188,
+      "title": "Vue - Deep watching an array of objects and calculating the change?",
+      "accepted_answer_id": 41135610,
+      "score": 147,
+      "link": "https://stackoverflow.com/questions/41135188/vue-deep-watching-an-array-of-objects-and-calculating-the-change",
+      "owner": {
+        "display_name": "Craig van Tonder",
+        "link": "https://stackoverflow.com/users/2110294/craig-van-tonder"
+      }
+    },
+    {
+      "question_id": 61344980,
+      "title": "&#39;v-slot&#39; directive doesn&#39;t support any modifier",
+      "accepted_answer_id": 63309643,
+      "score": 147,
+      "link": "https://stackoverflow.com/questions/61344980/v-slot-directive-doesnt-support-any-modifier",
+      "owner": {
+        "display_name": "Dhiraj Wakchaure",
+        "link": "https://stackoverflow.com/users/1907895/dhiraj-wakchaure"
+      }
+    },
+    {
+      "question_id": 41366388,
+      "title": "Vuex: Access State From Another Module",
+      "accepted_answer_id": 41368079,
+      "score": 146,
+      "link": "https://stackoverflow.com/questions/41366388/vuex-access-state-from-another-module",
+      "owner": {
+        "display_name": "Donnie",
+        "link": "https://stackoverflow.com/users/605473/donnie"
+      }
+    },
+    {
+      "question_id": 53126710,
+      "title": "How to get current name of route in Vue?",
+      "accepted_answer_id": 53126892,
+      "score": 143,
+      "link": "https://stackoverflow.com/questions/53126710/how-to-get-current-name-of-route-in-vue",
+      "owner": {
+        "display_name": "Isa&#237;as Orozco Toledo",
+        "link": "https://stackoverflow.com/users/9330370/isa%c3%adas-orozco-toledo"
+      }
+    },
+    {
+      "question_id": 33257379,
+      "title": "How to fire an event when v-model changes?",
+      "accepted_answer_id": 33257642,
+      "score": 142,
+      "link": "https://stackoverflow.com/questions/33257379/how-to-fire-an-event-when-v-model-changes",
+      "owner": {
+        "display_name": "jnieto",
+        "link": "https://stackoverflow.com/users/3626539/jnieto"
+      }
+    },
+    {
+      "question_id": 43211760,
+      "title": "How can I solve &quot;Interpolation inside attributes has been removed. Use v-bind or the colon shorthand&quot;? Vue.js 2",
+      "accepted_answer_id": 43211808,
+      "score": 141,
+      "link": "https://stackoverflow.com/questions/43211760/how-can-i-solve-interpolation-inside-attributes-has-been-removed-use-v-bind-or",
+      "owner": {
+        "display_name": "samuel toh",
+        "link": "https://stackoverflow.com/users/5839900/samuel-toh"
+      }
+    },
+    {
+      "question_id": 36729634,
+      "title": "Rendering newline character in VueJS",
+      "accepted_answer_id": 36729756,
+      "score": 139,
+      "link": "https://stackoverflow.com/questions/36729634/rendering-newline-character-in-vuejs",
+      "owner": {
+        "display_name": "Swimburger",
+        "link": "https://stackoverflow.com/users/2919731/swimburger"
+      }
+    },
+    {
+      "question_id": 54839057,
+      "title": "VSCode showing &quot;cannot find module&quot; TS error for .vue import while compiling doesn&#39;t",
+      "accepted_answer_id": 57185919,
+      "score": 138,
+      "link": "https://stackoverflow.com/questions/54839057/vscode-showing-cannot-find-module-ts-error-for-vue-import-while-compiling-doe",
+      "owner": {
+        "display_name": "Douglas Gaskell",
+        "link": "https://stackoverflow.com/users/3547347/douglas-gaskell"
+      }
+    },
+    {
+      "question_id": 47311936,
+      "title": "v-model and child components?",
+      "accepted_answer_id": 47312172,
+      "score": 137,
+      "link": "https://stackoverflow.com/questions/47311936/v-model-and-child-components",
+      "owner": {
+        "display_name": "panthro",
+        "link": "https://stackoverflow.com/users/1013512/panthro"
+      }
+    },
+    {
+      "question_id": 55188478,
+      "title": "Meaning of v-slot:activator=&quot;{ on }&quot;",
+      "accepted_answer_id": 55194478,
+      "score": 136,
+      "link": "https://stackoverflow.com/questions/55188478/meaning-of-v-slotactivator-on",
+      "owner": {
+        "display_name": "Araw",
+        "link": "https://stackoverflow.com/users/1255810/araw"
+      }
+    },
+    {
+      "question_id": 53608244,
+      "title": "How to add multiple data types for VueJs Props?",
+      "accepted_answer_id": 53608245,
+      "score": 135,
+      "link": "https://stackoverflow.com/questions/53608244/how-to-add-multiple-data-types-for-vuejs-props",
+      "owner": {
+        "display_name": "Harsha Basnayake",
+        "link": "https://stackoverflow.com/users/3395055/harsha-basnayake"
+      }
+    },
+    {
+      "question_id": 42872002,
+      "title": "In vue.js component, how to use props in css?",
+      "accepted_answer_id": 42872117,
+      "score": 134,
+      "link": "https://stackoverflow.com/questions/42872002/in-vue-js-component-how-to-use-props-in-css",
+      "owner": {
+        "display_name": "MingWen",
+        "link": "https://stackoverflow.com/users/7557352/mingwen"
+      }
+    },
+    {
+      "question_id": 45700632,
+      "title": "Prevent on click on parent when clicking button inside div",
+      "accepted_answer_id": 45700689,
+      "score": 131,
+      "link": "https://stackoverflow.com/questions/45700632/prevent-on-click-on-parent-when-clicking-button-inside-div",
+      "owner": {
+        "display_name": "hauge",
+        "link": "https://stackoverflow.com/users/7429592/hauge"
+      }
+    },
+    {
+      "question_id": 43531755,
+      "title": "Using $refs in a computed property",
+      "accepted_answer_id": 43531779,
+      "score": 130,
+      "link": "https://stackoverflow.com/questions/43531755/using-refs-in-a-computed-property",
+      "owner": {
+        "display_name": "Eric Guan",
+        "link": "https://stackoverflow.com/users/2498782/eric-guan"
+      }
+    },
+    {
+      "question_id": 57837758,
+      "title": "NavigationDuplicated Navigating to current location (&quot;/search&quot;) is not allowed",
+      "accepted_answer_id": 58747480,
+      "score": 128,
+      "link": "https://stackoverflow.com/questions/57837758/navigationduplicated-navigating-to-current-location-search-is-not-allowed",
+      "owner": {
+        "display_name": "Chris Michael",
+        "link": "https://stackoverflow.com/users/5432164/chris-michael"
+      }
+    },
+    {
+      "question_id": 58579843,
+      "title": "How to solve &#39;vue-cli-service&#39; is not recognized as an internal or external command?",
+      "accepted_answer_id": 58580403,
+      "score": 127,
+      "link": "https://stackoverflow.com/questions/58579843/how-to-solve-vue-cli-service-is-not-recognized-as-an-internal-or-external-comm",
+      "owner": {
+        "display_name": "Dcoder14",
+        "link": "https://stackoverflow.com/users/9349983/dcoder14"
+      }
+    },
+    {
+      "question_id": 63471824,
+      "title": "Vue.js 3 Event Bus",
+      "accepted_answer_id": 64019074,
+      "score": 127,
+      "link": "https://stackoverflow.com/questions/63471824/vue-js-3-event-bus",
+      "owner": {
+        "display_name": "KeyKi",
+        "link": "https://stackoverflow.com/users/11468937/keyki"
+      }
+    },
+    {
+      "question_id": 43210508,
+      "title": "Vue.js: Conditional class style binding",
+      "accepted_answer_id": 43210564,
+      "score": 126,
+      "link": "https://stackoverflow.com/questions/43210508/vue-js-conditional-class-style-binding",
+      "owner": {
+        "display_name": "Jeremy Thomas",
+        "link": "https://stackoverflow.com/users/3914509/jeremy-thomas"
+      }
+    },
+    {
+      "question_id": 43784202,
+      "title": "How to include css files in Vue 2",
+      "accepted_answer_id": 43862129,
+      "score": 126,
+      "link": "https://stackoverflow.com/questions/43784202/how-to-include-css-files-in-vue-2",
+      "owner": {
+        "display_name": "Nitish Kumar",
+        "link": "https://stackoverflow.com/users/6085328/nitish-kumar"
+      }
+    },
+    {
+      "question_id": 38498427,
+      "title": "Vue.js: define a service",
+      "accepted_answer_id": 38499949,
+      "score": 125,
+      "link": "https://stackoverflow.com/questions/38498427/vue-js-define-a-service",
+      "owner": {
+        "display_name": "Herr Derb",
+        "link": "https://stackoverflow.com/users/2989136/herr-derb"
+      }
+    },
+    {
+      "question_id": 40193634,
+      "title": "Vue-router redirect on page not found (404)",
+      "accepted_answer_id": 40194152,
+      "score": 123,
+      "link": "https://stackoverflow.com/questions/40193634/vue-router-redirect-on-page-not-found-404",
+      "owner": {
+        "display_name": "nunop",
+        "link": "https://stackoverflow.com/users/4782740/nunop"
+      }
+    },
+    {
+      "question_id": 40190524,
+      "title": "How to set favicon.ico properly on vue.js webpack project?",
+      "accepted_answer_id": 40191627,
+      "score": 122,
+      "link": "https://stackoverflow.com/questions/40190524/how-to-set-favicon-ico-properly-on-vue-js-webpack-project",
+      "owner": {
+        "display_name": "Alfred Huang",
+        "link": "https://stackoverflow.com/users/2544762/alfred-huang"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 59127059,
+      "body": "<p>If you take a look at <code>watch</code> typings <a href=\"https://vuejs.org/api/reactivity-core.html#watch\" rel=\"nofollow noreferrer\">here</a> it makes it clear the first argument of <code>watch</code> could be an <code>array</code>, <code>function</code> or <code>Ref&lt;T&gt;</code></p>\n<p><code>props</code> passed to the <code>setup</code> function are a reactive object (likely by <a href=\"https://vuejs.org/api/reactivity-core.html#reactive\" rel=\"nofollow noreferrer\"><code>readonly(reactive())</code></a>, it's properties are getters. So what you are doing is passing the value of the getter as the 1st argument of <code>watch</code>, string &quot;initial&quot; in this case. Because Vue 2 <code>$watch</code> <a href=\"https://v2.vuejs.org/v2/api/#vm-watch\" rel=\"nofollow noreferrer\">API</a> is used under the hood (and same function <a href=\"https://vuejs.org/api/component-instance.html#watch\" rel=\"nofollow noreferrer\">exists</a> in Vue 3), you are effectively trying to watch non-existent property with name &quot;initial&quot; on your component instance.</p>\n<p>Your callback was only called once. The reason it was called at least once is because the new <code>watch</code> API is behaving like the current <code>$watch</code> with the <code>immediate</code> option (<strong>UPDATE 03/03/2021</strong> - this was later changed and in release version of Vue 3, <code>watch</code> is lazy same way as it was in Vue 2)</p>\n<p>So by accident you are doing the same thing Tony Tom suggested but with the wrong value. In both cases, it is not valid code when you are using TypeScript.</p>\n<p>You can do this instead:</p>\n<pre class=\"lang-js prettyprint-override\"><code>watch(() =&gt; props.selected, (first, second) =&gt; {\n  console.log(\n    &quot;Watch props.selected function called with args:&quot;,\n    first,\n    second\n  );\n});\n</code></pre>\n<p>Here the 1st function is executed immediately by Vue to collect dependencies (to know what should trigger the callback) and 2nd function is the callback itself.</p>\n<p>Other way would be to convert props object using <code>toRefs</code> so it's properties would be of type <code>Ref&lt;T&gt;</code> and you can pass them as the first argument of <code>watch</code>.</p>\n<p>However, most of the time watching props is not needed. Simply use <code>props.xxx</code> directly in your template (or <code>setup</code>) and let Vue do the rest.</p>\n",
+      "owner": {
+        "display_name": "Michal Šindel&#225;ř",
+        "link": "https://stackoverflow.com/users/381282/michal-%c5%a0indel%c3%a1%c5%99"
+      }
+    },
+    {
+      "answer_id": 43531779,
+      "body": "<p>Sometimes you just need access to a dom element to make some calculations.</p>\n<p>I had to trick Vue to update the computed property once the component was mounted.</p>\n<pre class=\"lang-js prettyprint-override\"><code>Vue.component('my-component', {\n  data() {\n    return {\n      isMounted: false\n    }\n  },\n  computed: {\n    property() {\n      if(!this.isMounted)\n        return;\n      // this.$refs is available\n    }\n  },\n  mounted() {\n    this.isMounted = true;\n  }\n})\n</code></pre>\n<p>Be aware that if the value of <code>this.$refs</code> changes later (such as if new components are rendered into the DOM), the computed property will not automatically update as <code>$refs</code> is not reactive.</p>\n",
+      "owner": {
+        "display_name": "Eric Guan",
+        "link": "https://stackoverflow.com/users/2498782/eric-guan"
+      }
+    },
+    {
+      "answer_id": 46529778,
+      "body": "<p>In addition to what <a href=\"https://stackoverflow.com/questions/46522749/how-can-i-solve-redirect-has-been-blocked-by-cors-policy-no-access-control-al/46522787#46522787\">awd mentioned</a> about getting the person responsible for the server to reconfigure (an impractical solution for local development), I use a change-origin Google Chrome plugin like this:</p>\n<ol>\n<li><strike><a href=\"https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc\" rel=\"nofollow noreferrer\">Moesif Orign &amp; CORS Changer</a></strike> (it used to be free, but now it wants a work email address &gt;_&gt;)</li>\n<li><a href=\"https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf\" rel=\"nofollow noreferrer\">Allow CORS: Access-Control-Allow-Origin</a> (tested in 2023)</li>\n</ol>\n<p>You can make your <code>local dev server (example: localhost:8080)</code> to appear to be coming from <code>172.16.1.157:8002 or any other domain</code>.</p>\n<blockquote>\n<p><em>In case the 2nd plugin link breaks in the future or the plugin writer decides to capitalize off the fame of this thread, open your browser's\nplugin marketplace and search &quot;allow cors&quot;, there's going to be a\nbunch of them.</em></p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "altShiftDev",
+        "link": "https://stackoverflow.com/users/7680688/altshiftdev"
+      }
+    },
+    {
+      "answer_id": 55368933,
+      "body": "<h3>Vue 3 (and Vue 2.7)</h3>\n<p>In Vue 3, the <code>::v-</code> prefix is now <a href=\"https://v3.vuejs.org/api/sfc-style.html#deep-selectors\" rel=\"noreferrer\">deprecated</a> and we no longer need <code>&gt;&gt;&gt;</code>.  We can use the unified <code>:deep</code> selector <em>whether using Sass or not</em>, but now it's recommended to use parentheses with the selector.</p>\n<p><strong>Use <code>:deep(.child-class)</code></strong></p>\n<pre class=\"lang-css prettyprint-override\"><code>:deep(.child-class) {\n    background-color: #000;\n}\n</code></pre>\n<p><sup>This also works in Vue 2.7 (final Vue 2 release)</sup></p>\n<hr />\n<h3>Vue 2.0 - 2.6</h3>\n<p><sup><em>The following also works in Vue 3 but is deprecated.</em></sup></p>\n<p><strong>Sass:</strong>   Use <code>::v-deep</code></p>\n<pre class=\"lang-css prettyprint-override\"><code>::v-deep .child-class {\n    background-color: #000;\n}\n</code></pre>\n<p><strong><em>Not</em> using Sass:</strong>   Use <code>&gt;&gt;&gt;</code></p>\n<pre class=\"lang-css prettyprint-override\"><code>&gt;&gt;&gt; .child-class {\n    background-color: #000;\n}\n</code></pre>\n<p>With either syntax, the <code>&lt;style&gt;</code> tag for this component must be <code>scoped</code>:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;style scoped&gt;\n</code></pre>\n<hr />\n<h3>EXTRA: Vue 3 new selectors</h3>\n<p>Additionally, in Vue 3, there is a <a href=\"https://v3.vuejs.org/api/sfc-style.html#slotted-selectors\" rel=\"noreferrer\">new feature</a> for components with a <code>&lt;slot&gt;</code> that enables styling passed slot content.</p>\n<p><strong>Slot content</strong>   Use <code>:slotted(.child-class)</code></p>\n<pre class=\"lang-css prettyprint-override\"><code>:slotted(.slot-class) {\n    background-color: #000;\n}\n</code></pre>\n<p>And lastly, in Vue 3, there is a <a href=\"https://v3.vuejs.org/api/sfc-style.html#global-selectors\" rel=\"noreferrer\">new feature</a> to register global styles even from a <code>scoped</code> component:</p>\n<p><strong>Global styles</strong>   Use <code>:global(.my-class)</code></p>\n<pre class=\"lang-css prettyprint-override\"><code>:global(.my-class) {\n    background-color: #000;\n}\n</code></pre>\n<p>With any syntax, the <code>&lt;style&gt;</code> tag for this component must be <code>scoped</code>:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;style scoped&gt;\n</code></pre>\n<hr />\n<h3>Summary</h3>\n<p>In Vue 2:</p>\n<ul>\n<li>The <code>/deep/</code> syntax is deprecated</li>\n<li>Use <code>::v-deep</code> with Sass, use <code>&gt;&gt;&gt;</code> without Sass</li>\n</ul>\n<p>In Vue 3:</p>\n<ul>\n<li><code>::v-deep .child-class</code> is deprecated in favor of <code>:deep(.child-class)</code></li>\n<li>The <code>::v-</code> prefix is deprecated in favor of <code>:</code></li>\n<li>The <code>&gt;&gt;&gt;</code> syntax is deprecated</li>\n<li>The <code>/deep/</code> syntax is deprecated</li>\n<li>There are new <code>:slotted</code> and <code>:global</code> selectors</li>\n</ul>\n<p>With every version/syntax, the <code>&lt;style&gt;</code> tag for this component must be <code>scoped</code>:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;style scoped&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dan",
+        "link": "https://stackoverflow.com/users/2185093/dan"
+      }
+    },
+    {
+      "answer_id": 35916241,
+      "body": "<p>According to the docs of <a href=\"https://v3.router.vuejs.org/api/#route-object-properties\" rel=\"nofollow noreferrer\">route object</a>, you have access to a <code>$route</code> object from your components, which exposes what you need. In this case</p>\n<pre class=\"lang-js prettyprint-override\"><code>// from your component\nconsole.log(this.$route.query.test) // outputs 'yay'\n</code></pre>\n",
+      "owner": {
+        "display_name": "Yerko Palma",
+        "link": "https://stackoverflow.com/users/3178237/yerko-palma"
+      }
+    },
+    {
+      "answer_id": 40191627,
+      "body": "\n<p>Check out the Project Structure of webpack template: <a href=\"https://vuejs-templates.github.io/webpack/structure.html\" rel=\"nofollow noreferrer\">https://vuejs-templates.github.io/webpack/structure.html</a></p>\n<p>Note that there is a static folder, along with <code>node_modules</code>, <code>src</code>, etc.</p>\n<p>If you put some image into the <code>public</code> (formerly <code>static</code>) folder, like <code>favicon.png</code>, it will be made available at http://localhost:8080/static/favicon.png</p>\n<p>Here is the documentation for static assets: <a href=\"https://vuejs-templates.github.io/webpack/static.html\" rel=\"nofollow noreferrer\">https://vuejs-templates.github.io/webpack/static.html</a></p>\n<p>For your favicon issue, you can put a <code>favicon.ico</code> or <code>favicon.png</code> into the <code>static</code> folder and refer in the <code>&lt;head&gt;</code> of your index.html as follows:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;head&gt;\n    &lt;meta charset=&quot;utf-8&quot;&gt;\n    &lt;link rel=&quot;shortcut icon&quot; type=&quot;image/png&quot; href=&quot;/static/favicon.png&quot;/&gt;\n    &lt;title&gt;My Vue.js app&lt;/title&gt;\n    ...\n&lt;/head&gt;\n</code></pre>\n<p>If you do not define a <code>favicon.ico</code> in your <code>index.html</code>, then the browser will request for a favicon from the website root (default behaviour). If you specify a favicon as above, you will not see that 404 anymore. The favicon will also start showing up in your browser tabs.</p>\n<p>As a side note, here is the reason why I prefer PNG instead of ICO file:</p>\n<p><a href=\"https://stackoverflow.com/questions/1344122/favicon-png-vs-favicon-ico-why-should-i-use-png-instead-of-ico\">favicon.png vs favicon.ico - why should I use PNG instead of ICO?</a></p>\n",
+      "owner": {
+        "display_name": "Mani Jagadeesan",
+        "link": "https://stackoverflow.com/users/654825/mani-jagadeesan"
+      }
+    },
+    {
+      "answer_id": 71703991,
+      "body": "<p><code>npm run dev</code> (or <code>vite</code>) starts a local web server with <a href=\"https://vitejs.dev/guide/features.html#hot-module-replacement\" rel=\"noreferrer\">Hot Module Replacement</a> for development, and will automatically change when code changes</p>\n<p><code>npm run build</code> (or <code>vite build</code>) builds the project, and outputs to the folder <code>./dist</code></p>\n<p><code>npm run preview</code> (or <code>vite preview</code>) start a local web server that serves the built solution from <code>./dist</code> for <a href=\"https://vitejs.dev/guide/static-deploy.html#testing-the-app-locally\" rel=\"noreferrer\">previewing</a></p>\n<h3>Beware</h3>\n<ul>\n<li><p>You need to run <code>build</code> before <code>preview</code>.</p>\n</li>\n<li><p><code>Preview</code> will always preview the latest build, and will not update automatically when code changes.</p>\n</li>\n</ul>\n",
+      "owner": {
+        "display_name": "tauzN",
+        "link": "https://stackoverflow.com/users/3330981/tauzn"
+      }
+    },
+    {
+      "answer_id": 40394184,
+      "body": "<p>Here is the example in docs:</p>\n<pre><code>// with query, resulting in /register?plan=private\nrouter.push({ path: 'register', query: { plan: 'private' }})\n</code></pre>\n<p>Ref: <a href=\"https://router.vuejs.org/guide/essentials/navigation.html\" rel=\"noreferrer\">https://router.vuejs.org/guide/essentials/navigation.html</a></p>\n<p>As mentioned in those docs, <code>router.replace</code> works like <code>router.push</code></p>\n<p>So, you seem to have it right in your sample code in question. But I think you may need to include either <code>name</code> or <code>path</code> parameter also, so that the router has some route to navigate to. Without a <code>name</code> or <code>path</code>, it does not look very meaningful.</p>\n<p>This is my current understanding now:</p>\n<ul>\n<li><code>query</code> is optional for router - some additional info for the component to construct the view</li>\n<li><code>name</code> or <code>path</code> is mandatory - it decides what component to show in your <code>&lt;router-view&gt;</code>.</li>\n</ul>\n<p>That might be the missing thing in your sample code.</p>\n<p><strong>EDIT: Additional details after comments</strong></p>\n<p>Have you tried using <strong>named routes</strong> in this case? You have dynamic routes, and it is easier to provide params and query separately:</p>\n<pre><code>routes: [\n    { name: 'user-view', path: '/user/:id', component: UserView },\n    // other routes\n]\n</code></pre>\n<p>and then in your methods:</p>\n<pre><code>this.$router.replace({ name: &quot;user-view&quot;, params: {id:&quot;123&quot;}, query: {q1: &quot;q1&quot;} })\n</code></pre>\n<p>Technically there is no difference between the above and <code>this.$router.replace({path: &quot;/user/123&quot;, query:{q1: &quot;q1&quot;}})</code>, but it is easier to supply dynamic params on named routes than composing the route string. In either cases, query params should be taken into account. In either case, I couldn't find anything wrong with the way query params are handled.</p>\n<p>After you are inside the route, you can fetch your dynamic params as <code>this.$route.params.id</code> and your query params as <code>this.$route.query.q1</code>.</p>\n",
+      "owner": {
+        "display_name": "Mani Jagadeesan",
+        "link": "https://stackoverflow.com/users/654825/mani-jagadeesan"
+      }
+    },
+    {
+      "answer_id": 50982485,
+      "body": "<p>Use <code>v-model</code> to bind the value of selected option's value. <a href=\"https://jsfiddle.net/13qpbzcn/3/\" rel=\"noreferrer\">Here is an example</a>.</p>\n<pre><code>&lt;select name=&quot;LeaveType&quot; @change=&quot;onChange($event)&quot; class=&quot;form-control&quot; v-model=&quot;key&quot;&gt;\n   &lt;option value=&quot;1&quot;&gt;Annual Leave/ Off-Day&lt;/option&gt;\n   &lt;option value=&quot;2&quot;&gt;On Demand Leave&lt;/option&gt;\n&lt;/select&gt;\n&lt;script&gt;\nvar vm = new Vue({\n    data: {\n        key: &quot;&quot;\n    },\n    methods: {\n        onChange(event) {\n            console.log(event.target.value)\n        }\n    }\n}\n&lt;/script&gt;\n</code></pre>\n<p>For more info <a href=\"https://v2.vuejs.org/v2/guide/forms.html#Select\" rel=\"noreferrer\">click here</a></p>\n",
+      "owner": {
+        "display_name": "ramwin",
+        "link": "https://stackoverflow.com/users/3601654/ramwin"
+      }
+    },
+    {
+      "answer_id": 37521683,
+      "body": "<p>In the end I opted for using <a href=\"https://v2.vuejs.org/v2/api/#ref\" rel=\"nofollow noreferrer\">Vue's <code>ref</code> directive</a>. This allows a component to be referenced from the parent for direct access.</p>\n<p>E.g.</p>\n<p>Have a component registered on my parent instance:</p>\n<pre class=\"lang-js prettyprint-override\"><code>const vm = new Vue({\n    el: '#app',\n    components: { 'my-component': myComponent }\n});\n</code></pre>\n<p>Render the component in template/html with a reference:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;my-component ref=&quot;foo&quot;&gt;&lt;/my-component&gt;\n</code></pre>\n<p>Now, elsewhere I can access the component externally</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;script&gt;\n  vm.$refs.foo.doSomething(); //assuming my component has a doSomething() method\n&lt;/script&gt;\n</code></pre>\n<p>See this fiddle for an example: <a href=\"https://jsfiddle.net/0zefx8o6/\" rel=\"nofollow noreferrer\">https://jsfiddle.net/0zefx8o6/</a></p>\n<p>(old example using Vue 1: <a href=\"https://jsfiddle.net/6v7y6msr/\" rel=\"nofollow noreferrer\">https://jsfiddle.net/6v7y6msr/</a>)</p>\n<p><strong>Edit for Vue3 - Composition API</strong></p>\n<p>The child-component has to <code>return</code> the function in <code>setup</code> you want to use in the parent-component otherwise the function is not available to the parent.</p>\n<blockquote>\n<p>Note: <code>&lt;script setup&gt;</code> <a href=\"https://vuejs.org/api/sfc-script-setup.html#script-setup\" rel=\"nofollow noreferrer\">doc</a> is not affacted, because it provides all the functions and variables to the template by default.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "harryg",
+        "link": "https://stackoverflow.com/users/1606323/harryg"
+      }
+    },
+    {
+      "answer_id": 63309643,
+      "body": "<p>I don't see any <code>v-slot</code> in the code you provided so I can show you only my usecase.</p>\n<p>With Eslint error:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;template v-slot:item.actions=&quot;{ item }&quot;&gt;\n</code></pre>\n<p>Without error:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;template v-slot:[`item.actions`]=&quot;{ item }&quot;&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Hexodus",
+        "link": "https://stackoverflow.com/users/1600193/hexodus"
+      }
+    },
+    {
+      "answer_id": 34624803,
+      "body": "<p>In <strong>Vue 3</strong>, you'd want to use <code>createWebHistory</code> for the <code>history</code> option.</p>\n<pre class=\"lang-js prettyprint-override\"><code>import { createRouter, createWebHistory } from 'vue-router'\n\nconst router = createRouter({\n  history: createWebHistory(),\n  // ...\n})\n</code></pre>\n<p>In <strong>Vue 2</strong>, you'd want to set <code>mode</code> to <code>'history'</code>.</p>\n<pre class=\"lang-js prettyprint-override\"><code>const router = new VueRouter({\n  mode: 'history',\n  // ...\n})\n</code></pre>\n<p>Make sure your server is configured to handle these links, though.\n<a href=\"https://router.vuejs.org/guide/essentials/history-mode.html\" rel=\"noreferrer\">https://router.vuejs.org/guide/essentials/history-mode.html</a></p>\n",
+      "owner": {
+        "display_name": "Bill Criswell",
+        "link": "https://stackoverflow.com/users/191226/bill-criswell"
+      }
+    },
+    {
+      "answer_id": 54021633,
+      "body": "<p>You can try:</p>\n<pre><code>window = Object.create(window);\nconst url = &quot;http://dummy.com&quot;;\nObject.defineProperty(window, 'location', {\n  value: {\n    href: url\n  },\n  writable: true // possibility to override\n});\nexpect(window.location.href).toEqual(url);  \n</code></pre>\n<p>Have a look at the Jest Issue for that problem:<br />\n<a href=\"https://github.com/facebook/jest/issues/5124\" rel=\"noreferrer\">Jest Issue</a></p>\n",
+      "owner": {
+        "display_name": "mava",
+        "link": "https://stackoverflow.com/users/10587187/mava"
+      }
+    },
+    {
+      "answer_id": 47874850,
+      "body": "<p>I think that you can do something like this:</p>\n<pre><code>const routeData = this.$router.resolve({name: 'routeName', query: {data: &quot;someData&quot;}});\nwindow.open(routeData.href, '_blank');\n</code></pre>\n<p>It worked for me.</p>\n<p><strong>Update</strong></p>\n<hr />\n<p>For composition Api:</p>\n<pre><code>import { useRouter } from 'vue-router'\nconst router = useRouter();\nconst routeData = router.resolve({name: 'routeName', query: {data: &quot;someData&quot;}});\nwindow.open(routeData.href, '_blank');\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rafael A. Cespedes Basteiro",
+        "link": "https://stackoverflow.com/users/5120444/rafael-a-cespedes-basteiro"
+      }
+    },
+    {
+      "answer_id": 44584437,
+      "body": "<p>You can <code>watch</code> props to execute some code upon props changes:</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>new Vue({\n  el: '#app',\n  data: {\n    text: 'Hello'\n  },\n  components: {\n    'child' : {\n      template: `&lt;p&gt;{{ myprop }}&lt;/p&gt;`,\n      props: ['myprop'],\n      watch: { \n        myprop: function(newVal, oldVal) { // watch it\n          console.log('Prop changed: ', newVal, ' | was: ', oldVal)\n        }\n      }\n    }\n  }\n});</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://unpkg.com/vue@2/dist/vue.min.js\"&gt;&lt;/script&gt;\n\n&lt;div id=\"app\"&gt;\n  &lt;child :myprop=\"text\"&gt;&lt;/child&gt;\n  &lt;button @click=\"text = 'Another text'\"&gt;Change text&lt;/button&gt;\n&lt;/div&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Egor Stambakio",
+        "link": "https://stackoverflow.com/users/7636961/egor-stambakio"
+      }
+    },
+    {
+      "answer_id": 35667628,
+      "body": "<p>If you're using <a href=\"https://router.vuejs.org/\" rel=\"noreferrer\">Vue Router</a>, you can use <code>router.push(path)</code> to navigate to any particular route programmatically (note that this was <code>router.go(path)</code> prior to Vue 2).</p>\n<p>The router itself can be accessed from the <code>$router</code> property on the Vue instance, which means that you can access <code>push</code> from within a component with <code>this.$router.push(path)</code>.</p>\n<p>You can also use object syntax for more control, including navigating to preconfigured <a href=\"https://router.vuejs.org/guide/essentials/named-routes.html\" rel=\"noreferrer\">named routes</a>. From <a href=\"https://router.vuejs.org/guide/essentials/navigation.html#navigate-to-a-different-location\" rel=\"noreferrer\">the documentation</a>:</p>\n<blockquote>\n<pre class=\"lang-js prettyprint-override\"><code>// object\nrouter.push({ path: 'home' })\n\n// named route\nrouter.push({ name: 'user', params: { userId: '123' } })\n\n// with query, resulting in /register?plan=private\nrouter.push({ path: 'register', query: { plan: 'private' } })\n\n// with hash, resulting in /about#team\nrouter.push({ path: '/about', hash: '#team' })\n</code></pre>\n</blockquote>\n<p>Vue router aside, <code>window.location.href = 'some url';</code> works fine for non single-page apps.</p>\n<hr />\n<p>If you're looking for more permanent <em>redirection</em>, rather than just programmatic navigation, e.g. redirecting all <code>example.com/foo</code> hits to <code>example.com/bar</code>, then you should use <a href=\"https://router.vuejs.org/guide/essentials/redirect-and-alias.html\" rel=\"noreferrer\">Vue Router's redirect or alias features</a>.</p>\n<h3>Redirect</h3>\n<p><a href=\"https://router.vuejs.org/guide/essentials/redirect-and-alias.html#redirect\" rel=\"noreferrer\">Redirects</a> go in the route configuration, and let you tell Vue Router to always redirect a given path to somewhere else, e.g. navigating to <code>/foo</code> will bounce you to <code>/bar</code> instead:</p>\n<pre class=\"lang-js prettyprint-override\"><code>const routes = [{ path: '/foo', redirect: '/bar' }];\n</code></pre>\n<p>These paths can also be dynamic, e.g.:</p>\n<pre class=\"lang-js prettyprint-override\"><code>const routes = [{ path: '/foo/:subPath*', redirect: '/bar/:subPath*' }];\n// example.com/foo/profile?id=123 --&gt; example.com/bar/profile?id=123\n</code></pre>\n<h3>Alias</h3>\n<p><a href=\"https://router.vuejs.org/guide/essentials/redirect-and-alias.html#alias\" rel=\"noreferrer\">Aliases</a> are like redirects, routing traffic from one location to another, <strong>but they don't change the user's URL</strong>. This gives greater flexibility by allowing you to map arbitrary parts of a UI structure to any path you desire.</p>\n<p>From the documentation:</p>\n<blockquote>\n<pre class=\"lang-js prettyprint-override\"><code>const routes = [\n  {\n    path: '/users',\n    component: UsersLayout,\n    children: [\n      // this will render the UserList component for these 3 URLs:\n      // - /users\n      // - /users/list\n      // - /people\n      { path: '', component: UserList, alias: ['/people', 'list'] },\n    ],\n  },\n]\n</code></pre>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Jeff",
+        "link": "https://stackoverflow.com/users/3720222/jeff"
+      }
+    },
+    {
+      "answer_id": 40714462,
+      "body": "<p>You can call this function in the <a href=\"https://v2.vuejs.org/v2/api/#beforeMount\" rel=\"noreferrer\"><code>beforeMount</code></a> section of a Vue component: like following:</p>\n<pre><code>// .....\nmethods: {\n    getUnits: function() { /* ... */ }\n},\nbeforeMount() {\n   this.getUnits()\n},\n// ......\n</code></pre>\n<p>Working fiddle: <a href=\"https://jsfiddle.net/q83bnLrx/1/\" rel=\"noreferrer\">https://jsfiddle.net/q83bnLrx/1/</a></p>\n<p>There are different lifecycle hooks Vue provide:</p>\n<p>I have listed few are :</p>\n<ol>\n<li><a href=\"https://v2.vuejs.org/v2/api/#beforeCreate\" rel=\"noreferrer\">beforeCreate</a>: Called synchronously after the instance has just been initialized, before data observation and event/watcher setup.</li>\n<li><a href=\"https://v2.vuejs.org/v2/api/#created\" rel=\"noreferrer\">created</a>: Called synchronously after the instance is created. At this stage, the instance has finished processing the options which means the following have been set up: data observation, computed properties, methods, watch/event callbacks. However, the mounting phase has not been started, and the $el property will not be available yet.</li>\n<li><a href=\"https://v2.vuejs.org/v2/api/#beforeMount\" rel=\"noreferrer\">beforeMount</a>: Called right before the mounting begins: the render function is about to be called for the first time.</li>\n<li><a href=\"https://v2.vuejs.org/v2/api/#mounted\" rel=\"noreferrer\">mounted</a>: Called after the instance has just been mounted where el is replaced by the newly created <code>vm.$el</code>.</li>\n<li><a href=\"https://v2.vuejs.org/v2/api/#beforeUpdate\" rel=\"noreferrer\">beforeUpdate</a>: Called when the data changes, before the virtual DOM is re-rendered and patched.</li>\n<li><a href=\"https://v2.vuejs.org/v2/api/#updated\" rel=\"noreferrer\">updated</a>: Called after a data change causes the virtual DOM to be re-rendered and patched.</li>\n</ol>\n<p>You can have a look at complete list <a href=\"https://v2.vuejs.org/v2/api/#Options-Lifecycle-Hooks\" rel=\"noreferrer\">here</a>.</p>\n<p>You can choose which hook is most suitable to you and hook it to call you function like the sample code provided above.</p>\n",
+      "owner": {
+        "display_name": "Saurabh",
+        "link": "https://stackoverflow.com/users/1610034/saurabh"
+      }
+    },
+    {
+      "answer_id": 42952686,
+      "body": "<h2>Event Modifiers</h2>\n<p>You can refer to <a href=\"https://v2.vuejs.org/v2/guide/events.html#Event-Modifiers\" rel=\"noreferrer\">event modifiers</a> in vuejs to prevent form submission on <code>enter</code> key.</p>\n<blockquote>\n<p>It is a very common need to call <code>event.preventDefault()</code> or <code>event.stopPropagation()</code> inside event handlers.</p>\n</blockquote>\n<blockquote>\n<p>Although we can do this easily inside methods, it would be better if the methods can be purely about data logic rather than having to deal with DOM event details.</p>\n</blockquote>\n<blockquote>\n<p>To address this problem, Vue provides event modifiers for <code>v-on</code>. Recall that modifiers are directive postfixes denoted by a dot.</p>\n</blockquote>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;form v-on:submit.prevent=&quot;&lt;method&gt;&quot;&gt;\n  ...\n&lt;/form&gt;\n</code></pre>\n<p>As the documentation states, this is syntactical sugar for <code>e.preventDefault()</code> and will stop the unwanted form submission on press of enter key.</p>\n<p><a href=\"https://jsfiddle.net/hufa5woo/\" rel=\"noreferrer\">Here</a> is a working fiddle.</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>new Vue({\n  el: '#myApp',\n  data: {\n    emailAddress: '',\n    log: ''\n  },\n  methods: {\n    validateEmailAddress: function(e) {\n      if (e.keyCode === 13) {\n        alert('Enter was pressed');\n      } else if (e.keyCode === 50) {\n        alert('@ was pressed');\n      }      \n      this.log += e.key;\n    },\n    \n    postEmailAddress: function() {\n            this.log += '\\n\\nPosting';\n    },\n    noop () {\n      // do nothing ?\n    }\n  }\n})</code></pre>\r\n<pre class=\"snippet-code-css lang-css prettyprint-override\"><code>html, body, #editor {\n  margin: 0;\n  height: 100%;\n  color: #333;\n}</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://unpkg.com/vue@2.2.4/dist/vue.js\"&gt;&lt;/script&gt;\n&lt;div id=\"myApp\" style=\"padding:2rem; background-color:#fff;\"&gt;\n&lt;form v-on:submit.prevent=\"noop\"&gt;\n  &lt;input type=\"text\" v-model=\"emailAddress\" v-on:keyup=\"validateEmailAddress\" /&gt;\n  &lt;button type=\"button\" v-on:click=\"postEmailAddress\" &gt;Subscribe&lt;/button&gt; \n  &lt;br /&gt;&lt;br /&gt;\n  \n  &lt;textarea v-model=\"log\" rows=\"4\"&gt;&lt;/textarea&gt;  \n&lt;/form&gt;\n&lt;/div&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Amresh Venugopal",
+        "link": "https://stackoverflow.com/users/5756583/amresh-venugopal"
+      }
+    },
+    {
+      "answer_id": 39910248,
+      "body": "<p>This has to do with the fact that <em><a href=\"https://eslint.vuejs.org/rules/no-mutating-props.html\" rel=\"noreferrer\">mutating a prop locally is considered an anti-pattern in Vue 2</a></em></p>\n<p>What you should do now, in case you want to <em>mutate a prop locally</em>, is to declare a field in your <code>data</code> that uses the <code>props</code> value as its initial value and then mutate the copy:</p>\n<pre><code>Vue.component('task', {\n    template: '#task-template',\n    props: ['list'],\n    data: function () {\n        return {\n            mutableList: JSON.parse(this.list);\n        }\n    }\n});\n</code></pre>\n<p>You can read more about this on <a href=\"https://v2.vuejs.org/v2/guide/components-props.html#One-Way-Data-Flow\" rel=\"noreferrer\">Vue.js official guide</a></p>\n<hr />\n<p><strong>Note 1:</strong> Please note that <em><a href=\"http://forum.vuejs.org/t/questions-regarding-handling-immutable-props-and-mutable-data-props/967/2?u=iraklisg\" rel=\"noreferrer\">you should <strong>not</strong> use the same name for your <code>prop</code> and <code>data</code></a></em>, i.e.:</p>\n<pre><code>data: function () { return { list: JSON.parse(this.list) } } // WRONG!!\n</code></pre>\n<p><strong>Note 2:</strong> Since <a href=\"https://forum.vuejs.org/t/update-data-when-prop-changes-data-derived-from-prop/1517\" rel=\"noreferrer\">I feel there is some confusion</a> regarding <code>props</code> and <em>reactivity</em>, I suggest you to have a look on <a href=\"https://github.com/vuejs/vuejs.org/pull/862\" rel=\"noreferrer\">this</a> thread</p>\n",
+      "owner": {
+        "display_name": "iraklisg",
+        "link": "https://stackoverflow.com/users/2235814/iraklisg"
+      }
+    },
+    {
+      "answer_id": 45463576,
+      "body": "<h3>Vue 3 Composition API</h3>\n<p>Create a <code>ref</code> for the child component, assign it in the template, and use the <code>&lt;ref&gt;.value</code> to call the child component directly.</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;script setup&gt;\nimport {ref} from 'vue';\n\nconst childComponentRef = ref(null);\n\nfunction click() {\n  // `childComponentRef.value` accesses the component instance\n  childComponentRef.value.doSomething(2.0);\n}\n&lt;/script&gt;\n\n&lt;template&gt;\n  &lt;div&gt;\n    &lt;child-component ref=&quot;childComponentRef&quot; /&gt;\n    &lt;button @click=&quot;click&quot;&gt;Click me&lt;/button&gt;\n  &lt;/div&gt;\n&lt;/template&gt;\n</code></pre>\n<p>Couple things to note-</p>\n<ul>\n<li>If your child component is using <code>&lt;script setup&gt;</code>, you'll need to declare public methods (e.g. <code>doSomething</code> above) using <a href=\"https://vuejs.org/api/sfc-script-setup.html#defineexpose\" rel=\"noreferrer\"><code>defineExpose</code></a>.</li>\n<li>If you're using Typescript, details of how to type annotate this are <a href=\"https://vuejs.org/guide/typescript/composition-api.html#typing-component-template-refs\" rel=\"noreferrer\">here</a>.</li>\n</ul>\n<h3>Vue 3 Options API / Vue 2</h3>\n<p>Give the child component a <code>ref</code> and use <code>$refs</code> to call a method on the child component directly.</p>\n<p>html:</p>\n<pre><code>&lt;div id=&quot;app&quot;&gt;\n  &lt;child-component ref=&quot;childComponent&quot;&gt;&lt;/child-component&gt;\n  &lt;button @click=&quot;click&quot;&gt;Click&lt;/button&gt;  \n&lt;/div&gt;\n</code></pre>\n<p>javascript:</p>\n<pre><code>var ChildComponent = {\n  template: '&lt;div&gt;{{value}}&lt;/div&gt;',\n  data: function () {\n    return {\n      value: 0\n    };\n  },\n  methods: {\n    setValue: function(value) {\n        this.value = value;\n    }\n  }\n}\n\nnew Vue({\n  el: '#app',\n  components: {\n    'child-component': ChildComponent\n  },\n  methods: {\n    click: function() {\n        this.$refs.childComponent.setValue(2.0);\n    }\n  }\n})\n</code></pre>\n<hr />\n<p>For more info, see <a href=\"https://vuejs.org/guide/essentials/template-refs.html#ref-on-component\" rel=\"noreferrer\">Vue 3 docs on component refs</a> or <a href=\"https://v2.vuejs.org/v2/guide/components-edge-cases.html#Accessing-Child-Component-Instances-amp-Child-Elements\" rel=\"noreferrer\">Vue 2 documentation on refs</a>.</p>\n",
+      "owner": {
+        "display_name": "joerick",
+        "link": "https://stackoverflow.com/users/382749/joerick"
+      }
+    },
+    {
+      "answer_id": 40435856,
+      "body": "<p>Thanks to this <a href=\"https://github.com/vuejs/vuejs.org/pull/567\" rel=\"noreferrer\">https://github.com/vuejs/vuejs.org/pull/567</a> I know the answer now.</p>\n<h1>Method 1</h1>\n<p>Pass initial prop directly to the data. Like the example in updated docs:</p>\n<pre><code>props: ['initialCounter'],\ndata: function () {\n    return {\n        counter: this.initialCounter\n    }\n}\n</code></pre>\n<p>But have in mind if the passed prop is an object or array that is used in the parent component state any modification to that prop will result in the change in that parent component state.</p>\n<p><strong>Warning</strong>: this method is not recommended. It will make your components unpredictable. If you need to set parent data from child components either use state management like Vuex or use &quot;v-model&quot;. <a href=\"https://v2.vuejs.org/v2/guide/components.html#Using-v-model-on-Components\" rel=\"noreferrer\">https://v2.vuejs.org/v2/guide/components.html#Using-v-model-on-Components</a></p>\n<h1>Method 2</h1>\n<p>If your initial prop is an object or array and if you don't want changes in children state propagate to parent state then just use e.g. <code>Vue.util.extend</code> [1] to make a copy of the props instead pointing it directly to children data, like this:</p>\n<pre><code>props: ['initialCounter'],\ndata: function () {\n    return {\n        counter: Vue.util.extend({}, this.initialCounter)\n    }\n}\n</code></pre>\n<h1>Method 3</h1>\n<p>You can also use spread operator to clone the props. More details in the Igor answer: <a href=\"https://stackoverflow.com/a/51911118/3143704\">https://stackoverflow.com/a/51911118/3143704</a></p>\n<p>But have in mind that spread operators are not supported in older browsers and for better compatibility you'll need to transpile the code e.g. using <code>babel</code>.</p>\n<h1>Footnotes</h1>\n<p>[1] Have in mind this is an internal Vue utility and it may change with new versions. You might want to use other methods to copy that prop, see <a href=\"https://stackoverflow.com/questions/728360/how-do-i-correctly-clone-a-javascript-object\">How do I correctly clone a JavaScript object?</a>.</p>\n<p>My fiddle where I was testing it:\n<a href=\"https://jsfiddle.net/sm4kx7p9/3/\" rel=\"noreferrer\">https://jsfiddle.net/sm4kx7p9/3/</a></p>\n",
+      "owner": {
+        "display_name": "Dominik Serafin",
+        "link": "https://stackoverflow.com/users/3143704/dominik-serafin"
+      }
+    },
+    {
+      "answer_id": 50866150,
+      "body": "<p>First of all, both folders, <code>src/components</code> and <code>src/views</code>, contain Vue components.</p>\n<p>The key difference is that some Vue components act as <em>Views</em> for routing.</p>\n<p>When dealing with routing in Vue, usually with <a href=\"https://router.vuejs.org/\" rel=\"noreferrer\"><strong>Vue Router</strong></a>, routes are defined in order to switch the current <em>view</em> used in the <a href=\"https://router.vuejs.org/api/#router-view\" rel=\"noreferrer\"><em><code>&lt;router-view&gt;</code></em></a> component. These routes are typically located at <code>src/router/routes.js</code>, where we can see something like this:</p>\n<pre class=\"lang-js prettyprint-override\"><code>import Home from '@/views/Home.vue'\nimport About from '@/views/About.vue'\n\nexport default [\n  {\n    path: '/',\n    name: 'home',\n    component: Home,\n  },\n  {\n    path: '/about',\n    name: 'about',\n    component: About,\n  },\n]\n</code></pre>\n<p>The components located under <code>src/components</code> are less likely to be used in a route whereas components located under <code>src/views</code> will be used by at least one route.</p>\n<hr />\n<blockquote>\n<p>Vue CLI aims to be the standard tooling baseline for the Vue\necosystem. It ensures the various build tools work smoothly together\nwith sensible defaults so you can focus on writing your app instead of\nspending days wrangling with configurations. At the same time, it\nstill offers the flexibility to tweak the config of each tool without\nthe need for ejecting.</p>\n</blockquote>\n<p>Vue CLI aims for rapid Vue.js development, it keeps things simple and offers flexibility. Its goal is to enable teams of varying skill levels to set up a new project and get started.</p>\n<p>At the end of the day, <strong>it is a matter of convenience and application structure</strong>.</p>\n<ul>\n<li>Some people like to have their Views folder under <code>src/router</code> like\n<a href=\"https://github.com/chrisvfritz/vue-enterprise-boilerplate/tree/master/src/router\" rel=\"noreferrer\"><strong>this</strong></a> enterprise boilerplate.</li>\n<li>Some people call it <em>Pages</em> instead of <em>Views</em>.</li>\n<li>Some people have all their components under the same folder.</li>\n</ul>\n<hr />\n<h1>Choose the application structure that best suits the project you are working on.</h1>\n",
+      "owner": {
+        "display_name": "Ricky Ruiz",
+        "link": "https://stackoverflow.com/users/4305494/ricky-ruiz"
+      }
+    },
+    {
+      "answer_id": 46085519,
+      "body": "<p>The <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:active\" rel=\"noreferrer\">:active pseudo-class</a> is not the same as adding a class to style the element.</p>\n<blockquote>\n<p>The :active CSS pseudo-class represents an element (such as a button)\nthat is being activated by the user. When using a mouse, &quot;activation&quot;\ntypically starts when the mouse button is pressed down and ends when\nit is released.</p>\n</blockquote>\n<p>What we are looking for is a class, such as <code>.active</code>, which we can use to style the navigation item.</p>\n<p>For a clearer example of the difference between <code>:active</code> and <code>.active</code> see the following snippet:</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"true\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code snippet-currently-hidden\">\r\n<pre class=\"snippet-code-css lang-css prettyprint-override\"><code>li:active {\n  background-color: #35495E;\n}\n\nli.active {\n  background-color: #41B883;\n}</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;ul&gt;\n  &lt;li&gt;:active (pseudo-class) - Click me!&lt;/li&gt;\n  &lt;li class=\"active\"&gt;.active (class)&lt;/li&gt;\n&lt;/ul&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n<hr />\n<h2>Vue-Router</h2>\n<p><code>vue-router</code> automatically applies two active classes, <code>.router-link-active</code> and <code>.router-link-exact-active</code>, to the <em><code>&lt;router-link&gt;</code></em> component.</p>\n<hr />\n<h2><a href=\"https://v3.router.vuejs.org/api/#active-class\" rel=\"noreferrer\"><code>router-link-active</code></a></h2>\n<p>This class is applied automatically to the <em><code>&lt;router-link&gt;</code></em> component when its target route is matched.</p>\n<p>The way this works is by using an inclusive match behavior. For example, <em><code>&lt;router-link to=&quot;/foo&quot;&gt;</code></em> will get this class applied as long as the current path starts with <code>/foo/</code> or is <code>/foo</code>.</p>\n<p>So, if we had <em><code>&lt;router-link to=&quot;/foo&quot;&gt;</code></em> and <em><code>&lt;router-link to=&quot;/foo/bar&quot;&gt;</code></em>, both components would get the <code>router-link-active</code> class when the path is <code>/foo/bar</code>.</p>\n<hr />\n<h2><a href=\"https://v3.router.vuejs.org/api/#exact-active-class\" rel=\"noreferrer\"><code>router-link-exact-active</code></a></h2>\n<p>This class is applied automatically to the <em><code>&lt;router-link&gt;</code></em> component when its target route is an <strong>exact</strong> match. Take into consideration that both classes, <code>router-link-active</code> and <code>router-link-exact-active</code>, will be applied to the component in this case.</p>\n<p>Using the same example, if we had <em><code>&lt;router-link to=&quot;/foo&quot;&gt;</code></em> and <em><code>&lt;router-link to=&quot;/foo/bar&quot;&gt;</code></em>, the <code>router-link-exact-active</code>class would <strong>only</strong> be applied to <em><code>&lt;router-link to=&quot;/foo/bar&quot;&gt;</code></em> when the path is <code>/foo/bar</code>.</p>\n<hr />\n<h2><a href=\"https://v3.router.vuejs.org/api/#exact\" rel=\"noreferrer\">The exact prop</a></h2>\n<p>Lets say we have <em><code>&lt;router-link to=&quot;/&quot;&gt;</code></em>, what will happen is that this component will be active for every route. This may not be something that we want, so we can use the <code>exact</code> prop like so: <em><code>&lt;router-link to=&quot;/&quot; exact&gt;</code></em>. Now the component will only get the active class applied when it is an exact match at <code>/</code>.</p>\n<hr />\n<h2>CSS</h2>\n<p>We can use these classes to style our element, like so:</p>\n<pre><code> nav li:hover,\n nav li.router-link-active,\n nav li.router-link-exact-active {\n   background-color: indianred;\n   cursor: pointer;\n }\n</code></pre>\n<p><em>The <code>&lt;router-link&gt;</code> tag was changed using the <code>tag</code> prop, <code>&lt;router-link tag=&quot;li&quot; /&gt;</code>.</em></p>\n<hr />\n<h2>Change default classes globally</h2>\n<p>If we wish to change the default classes provided by <code>vue-router</code> globally, we can do so by passing some options to the <code>vue-router</code> instance like so:</p>\n<pre><code>const router = new VueRouter({\n  routes,\n  linkActiveClass: &quot;active&quot;,\n  linkExactActiveClass: &quot;exact-active&quot;,\n})\n</code></pre>\n<h2>Change default classes per component instance (<em><code>&lt;router-link&gt;</code></em>)</h2>\n<p>If instead we want to change the default classes per <em><code>&lt;router-link&gt;</code></em> and not globally, we can do so by using the <a href=\"https://v3.router.vuejs.org/api/#active-class\" rel=\"noreferrer\"><code>active-class</code></a> and <a href=\"https://v3.router.vuejs.org/api/#exact-active-class\" rel=\"noreferrer\"><code>exact-active-class</code></a> attributes like so:</p>\n<pre><code>&lt;router-link to=&quot;/foo&quot; active-class=&quot;active&quot;&gt;foo&lt;/router-link&gt;\n\n&lt;router-link to=&quot;/bar&quot; exact-active-class=&quot;exact-active&quot;&gt;bar&lt;/router-link&gt;\n</code></pre>\n<hr />\n<h2><a href=\"https://v3.router.vuejs.org/api/#v-slot-api-3-1-0\" rel=\"noreferrer\">v-slot API</a></h2>\n<p>Vue Router 3.1.0+ offers low level customization through a <a href=\"https://v2.vuejs.org/v2/guide/components-slots.html#Scoped-Slots\" rel=\"noreferrer\">scoped slot</a>. This comes handy when we wish to style the wrapper element, like a list element <code>&lt;li&gt;</code>, but still keep the navigation logic in the anchor element <code>&lt;a&gt;</code>.</p>\n<pre><code>&lt;router-link\n  to=&quot;/foo&quot;\n  v-slot=&quot;{ href, route, navigate, isActive, isExactActive }&quot;\n&gt;\n  &lt;li\n    :class=&quot;[isActive &amp;&amp; 'router-link-active', isExactActive &amp;&amp; 'router-link-exact-active']&quot;\n  &gt;\n    &lt;a :href=&quot;href&quot; @click=&quot;navigate&quot;&gt;{{ route.fullPath }}&lt;/a&gt;\n  &lt;/li&gt;\n&lt;/router-link&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ricky Ruiz",
+        "link": "https://stackoverflow.com/users/4305494/ricky-ruiz"
+      }
+    },
+    {
+      "answer_id": 40442986,
+      "body": "<p>With Vue.js 2.0, I'm using the eventHub mechanism as demonstrated <a href=\"https://v2.vuejs.org/v2/guide/migration.html#dispatch-and-broadcast-replaced\" rel=\"nofollow noreferrer\">in the documentation</a>.</p>\n<ol>\n<li><p>Define centralized event hub.</p>\n<pre><code> const eventHub = new Vue() // Single event hub\n\n // Distribute to components using global mixin\n Vue.mixin({\n     data: function () {\n         return {\n             eventHub: eventHub\n         }\n     }\n })\n</code></pre>\n</li>\n<li><p>Now in your component you can emit events with</p>\n<pre><code> this.eventHub.$emit('update', data)\n</code></pre>\n</li>\n<li><p>And to listen you do</p>\n<pre><code> this.eventHub.$on('update', data =&gt; {\n // do your thing\n })\n</code></pre>\n</li>\n</ol>\n<p><strong>Update</strong></p>\n<p>Please see <a href=\"https://stackoverflow.com/questions/38616167/communication-between-sibling-components-in-vue-js-2-0/47004242#47004242\">the answer by alex</a>, which describes a simpler solution.</p>\n",
+      "owner": {
+        "display_name": "kakoni",
+        "link": "https://stackoverflow.com/users/2000555/kakoni"
+      }
+    },
+    {
+      "answer_id": 42910068,
+      "body": "<h1>Problem</h1>\n<blockquote>\n<p><code>[Vue warn]: Property or method &quot;changeSetting&quot; is not defined on the instance but referenced during render. Make sure to declare reactive data properties in the data option. (found in &lt;MainTable&gt;)</code></p>\n</blockquote>\n<p>The error is occurring because the <code>changeSetting</code> method is being referenced in the <code>MainTable</code> component here:</p>\n<pre><code>    &quot;&lt;button @click='changeSetting(index)'&gt; Info &lt;/button&gt;&quot; +\n</code></pre>\n<p>However the <code>changeSetting</code> method is not defined in the <code>MainTable</code> component. It is being defined in the root component here:</p>\n<pre><code>var app = new Vue({\n  el: &quot;#settings&quot;,\n  data: data,\n  methods: {\n    changeSetting: function(index) {\n      data.settingsSelected = data.settings[index];\n    }\n  }\n});\n</code></pre>\n<p>What needs to be remembered is that properties and methods can only be referenced in the scope where they are defined.</p>\n<blockquote>\n<p><strong>Everything in the parent template is compiled in parent scope; everything in the child template is compiled in child scope.</strong></p>\n</blockquote>\n<p>You can read more about component compilation scope in Vue's <a href=\"https://v2.vuejs.org/v2/guide/components.html#Compilation-Scope\" rel=\"noreferrer\">documentation</a>.</p>\n<h1>What can I do about it?</h1>\n<p>So far there has been a lot of talk about defining things in the correct scope so the fix is just to move the <code>changeSetting</code> definition into the <code>MainTable</code> component?</p>\n<p>It seems that simple but here's what I recommend.</p>\n<p>You'd probably want your <code>MainTable</code> component to be a dumb/presentational component. (<a href=\"https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0\" rel=\"noreferrer\">Here</a> is something to read if you don't know what it is but a tl;dr is that the component is just responsible for rendering something – no logic). The smart/container element is responsible for the logic – in the example given in your question the root component would be the smart/container component. With this architecture you can use Vue's parent-child communication methods for the components to interact. You pass down the data for <code>MainTable</code> via <a href=\"https://v2.vuejs.org/v2/guide/components.html#Props\" rel=\"noreferrer\">props</a> and emit user actions from <code>MainTable</code> to its parent via <a href=\"https://v2.vuejs.org/v2/guide/components.html#Custom-Events\" rel=\"noreferrer\">events</a>. It might look something like this:</p>\n<pre><code>Vue.component('main-table', {\n  template: &quot;&lt;ul&gt;&quot; +\n    &quot;&lt;li v-for='(set, index) in settings'&gt;&quot; +\n    &quot;{{index}}) &quot; +\n    &quot;{{set.title}}&quot; +\n    &quot;&lt;button @click='changeSetting(index)'&gt; Info &lt;/button&gt;&quot; +\n    &quot;&lt;/li&gt;&quot; +\n    &quot;&lt;/ul&gt;&quot;,\n  props: ['settings'],\n  methods: {\n    changeSetting(value) {\n      this.$emit('change', value);\n    },\n  },\n});\n\n\nvar app = new Vue({\n  el: '#settings',\n  template: '&lt;main-table :settings=&quot;data.settings&quot; @change=&quot;changeSetting&quot;&gt;&lt;/main-table&gt;',\n  data: data,\n  methods: {\n    changeSetting(value) {\n      // Handle changeSetting\n    },\n  },\n}),\n</code></pre>\n<p>The above should be enough to give you a good idea of what to do and kickstart resolving your issue.</p>\n",
+      "owner": {
+        "display_name": "Wing",
+        "link": "https://stackoverflow.com/users/3050293/wing"
+      }
+    },
+    {
+      "answer_id": 49676004,
+      "body": "<p>Declare an <code>index</code> variable:</p>\n<pre><code>&lt;div v-for=&quot;(item, index) in items&quot; :key=&quot;item.name&quot;&gt;\n\n&lt;/div&gt;\n</code></pre>\n<p>Demo:</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>new Vue({\n  el: '#app',\n  data: {\n    items: [{name: 'a'}, {name: 'b'}]\n  }\n})</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://unpkg.com/vue\"&gt;&lt;/script&gt;\n\n&lt;div id=\"app\"&gt;\n  &lt;div v-for=\"(item, index) in items\" :key=\"item.name\"&gt;\n    {{ index }}: {{ item.name }}\n  &lt;/div&gt;\n&lt;/div&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n<p>Official docs section - <a href=\"https://v2.vuejs.org/v2/guide/list.html#Mapping-an-Array-to-Elements-with-v-for\" rel=\"noreferrer\"><strong>Mapping an Array to Elements with <code>v-for</code></strong></a> (emphasis mine):</p>\n<blockquote>\n<p>Inside <code>v-for</code> blocks we have full access to parent scope properties. <code>v-for</code> also supports <strong>an optional second argument for the index</strong> of the current item.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "acdcjunior",
+        "link": "https://stackoverflow.com/users/1850609/acdcjunior"
+      }
+    },
+    {
+      "answer_id": 37172277,
+      "body": "<p>There's a few options depending on what you're trying to access:</p>\n<ul>\n<li><p>You can access the child components of a Vue.js component with <code>this.$children</code></p>\n</li>\n<li><p>You can label specific DOM elements inside your template using <code>ref=&quot;uniqueName&quot;</code> and refer to these later via <code>this.$refs.uniqueName</code><br />\n(but remember that you won't be able to refer to these until the component/app has <a href=\"https://v2.vuejs.org/v2/api/#mounted\" rel=\"noreferrer\">finished mounting</a> and performed an initial render)</p>\n</li>\n<li><p>If you're unable to label your elements, you can query the DOM for child elements using a CSS selector via <code>this.$el.querySelector('.myClass &gt; .childElement')</code><br />\n(as above, the component/app needs to have <a href=\"https://v2.vuejs.org/v2/api/#mounted\" rel=\"noreferrer\">finished mounting</a>)</p>\n</li>\n</ul>\n<p>You can also explore by doing a simple <code>console.log(this)</code> inside your component and it will show you all the properties of your Vue component instance.</p>\n",
+      "owner": {
+        "display_name": "vbranden",
+        "link": "https://stackoverflow.com/users/4723237/vbranden"
+      }
+    },
+    {
+      "answer_id": 43210564,
+      "body": "<p>Use the <a href=\"https://v2.vuejs.org/v2/guide/class-and-style.html\" rel=\"noreferrer\">object syntax</a>.</p>\n<pre><code>v-bind:class=&quot;{'fa-checkbox-marked': content['cravings'],  'fa-checkbox-blank-outline': !content['cravings']}&quot;\n</code></pre>\n<p>When the object gets more complicated, extract it into a method.</p>\n<pre><code>v-bind:class=&quot;getClass()&quot;\n\nmethods:{\n    getClass(){\n        return {\n            'fa-checkbox-marked': this.content['cravings'],  \n            'fa-checkbox-blank-outline': !this.content['cravings']}\n    }\n}\n</code></pre>\n<p>Finally, you could make this work for any content property like this.</p>\n<pre><code>v-bind:class=&quot;getClass('cravings')&quot;\n\nmethods:{\n  getClass(property){\n    return {\n      'fa-checkbox-marked': this.content[property],\n      'fa-checkbox-blank-outline': !this.content[property]\n    }\n  }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Bert",
+        "link": "https://stackoverflow.com/users/38065/bert"
+      }
+    },
+    {
+      "answer_id": 55194478,
+      "body": "<p>You're likely referring to this example:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;v-toolbar color=&quot;grey darken-1&quot; dark&gt;\n  &lt;v-menu :nudge-width=&quot;100&quot;&gt;\n    &lt;template v-slot:activator=&quot;{ on }&quot;&gt;\n      &lt;v-toolbar-title v-on=&quot;on&quot;&gt;\n        &lt;span&gt;All&lt;/span&gt;\n        &lt;v-icon dark&gt;arrow_drop_down&lt;/v-icon&gt;\n      &lt;/v-toolbar-title&gt;\n    &lt;/template&gt;\n\n    ...\n  &lt;/v-menu&gt;\n&lt;/v-toolbar&gt;\n</code></pre>\n<p>The following line declares a <a href=\"https://v2.vuejs.org/v2/guide/components-slots.html#Scoped-Slots\" rel=\"noreferrer\">scoped slot</a> named <code>activator</code>, and it is provided a scope object (from <code>VMenu</code>), which contains a property named <code>on</code>:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;template v-slot:activator=&quot;{ on }&quot;&gt;\n</code></pre>\n<p>This uses <a href=\"https://v2.vuejs.org/v2/guide/components-slots.html#Destructuring-Slot-Props\" rel=\"noreferrer\">destructuring syntax</a> on the scope object, which <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Browser_compatibility\" rel=\"noreferrer\">IE does not support</a>.</p>\n<p>For IE, you'd have to dereference <code>on</code> from the scope object itself:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;template v-slot:activator=&quot;scope&quot;&gt;\n  &lt;v-toolbar-title v-on=&quot;scope.on&quot;&gt;\n</code></pre>\n<p>But the <em>ideal</em> solution IMO is to use a <a href=\"https://cli.vuejs.org/\" rel=\"noreferrer\">Vue CLI</a> generated project, which includes a Babel preset (<a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/babel-preset-app\" rel=\"noreferrer\"><code>@vue/babel-preset-app</code></a>) to automatically include the transforms/polyfills needed for the <a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/babel-preset-app#targets\" rel=\"noreferrer\">target</a> browsers. In this case, <a href=\"https://babeljs.io/docs/en/babel-plugin-transform-es2015-destructuring\" rel=\"noreferrer\"><code>babel-plugin-transform-es2015-destructuring</code></a> would be automatically applied during the build.</p>\n<h2>Details on the <code>activator</code> slot</h2>\n<p><a href=\"https://vuetifyjs.com/en/components/menus#slots\" rel=\"noreferrer\"><code>VMenu</code></a> allows users to specify a slotted template named <code>activator</code>, containing component(s) that activate/open the menu upon certain events (e.g., <code>click</code>). <code>VMenu</code> provides listeners for those events <a href=\"https://github.com/vuetifyjs/vuetify/blob/1b4dbae58cbfdeda4edbc14104a53ce9c0a36f62/packages/vuetify/src/components/VMenu/mixins/menu-generators.js#L22\" rel=\"noreferrer\">via an object</a>, passed to the <code>activator</code> slot:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;v-menu&gt;\n  &lt;template v-slot:activator=&quot;scopeDataFromVMenu&quot;&gt;\n    &lt;!-- slot content goes here --&gt;\n  &lt;/template&gt;\n&lt;/v-menu&gt;\n</code></pre>\n<p>The slot content can access <code>VMenu</code>'s event listeners like this:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;v-menu&gt;\n  &lt;template v-slot:activator=&quot;scopeDataFromVMenu&quot;&gt;\n    &lt;button v-on=&quot;scopeDataFromVMenu.on&quot;&gt;Click&lt;/button&gt;\n  &lt;/template&gt;\n&lt;/v-menu&gt;\n</code></pre>\n<p>For improved readability, the scoped data can also be <a href=\"https://v2.vuejs.org/v2/guide/components-slots.html#Destructuring-Slot-Props\" rel=\"noreferrer\">destructured</a> in the template:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;!-- equivalent to above --&gt;\n&lt;v-menu&gt;\n  &lt;template v-slot:activator=&quot;{ on }&quot;&gt;\n    &lt;button v-on=&quot;on&quot;&gt;Click&lt;/button&gt;\n  &lt;/template&gt;\n&lt;/v-menu&gt;\n</code></pre>\n<p>The listeners from the scope object are passed to the <code>&lt;button&gt;</code> with <a href=\"https://v2.vuejs.org/v2/api/#v-on\" rel=\"noreferrer\"><code>v-on</code></a>'s object syntax, which binds one or more event/listener pairs to the element. For this value of <code>on</code>:</p>\n<pre class=\"lang-js prettyprint-override\"><code>{\n  click: activatorClickHandler // activatorClickHandler is an internal VMenu mixin\n}\n</code></pre>\n<p>...the button's click handler is bound to a <code>VMenu</code> method.</p>\n",
+      "owner": {
+        "display_name": "tony19",
+        "link": "https://stackoverflow.com/users/6277151/tony19"
+      }
+    },
+    {
+      "answer_id": 53126892,
+      "body": "<p>You are using <code>computed</code> incorrectly. You should return the property in the function. See the <a href=\"https://v2.vuejs.org/v2/guide/computed.html#Basic-Example\" rel=\"noreferrer\">docs</a> for more information.</p>\n<p>Here is your adapted example:</p>\n<pre><code>computed: {\n    currentRouteName() {\n        return this.$route.name;\n    }\n}\n</code></pre>\n<p>You can then use it like this:</p>\n<pre><code>&lt;div&gt;{{ currentRouteName }}&lt;/div&gt;\n</code></pre>\n<p>You can also use it directly in the template without using a computed property, like this:</p>\n<pre><code>&lt;div&gt;{{ $route.name }}&lt;/div&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "ssc-hrep3",
+        "link": "https://stackoverflow.com/users/3233827/ssc-hrep3"
+      }
+    },
+    {
+      "answer_id": 47312172,
+      "body": "<p><a href=\"https://v2.vuejs.org/v2/guide/components.html#Form-Input-Components-using-Custom-Events\" rel=\"noreferrer\">As stated in the documentation</a>,</p>\n<p><code>v-model</code> is syntactic sugar for:</p>\n<blockquote>\n<pre><code>&lt;input\n v-bind:value=&quot;something&quot;\n v-on:input=&quot;something = $event.target.value&quot;&gt;\n</code></pre>\n</blockquote>\n<p>To implement the <code>v-model</code> directive for a custom component:</p>\n<ul>\n<li>specify a <code>value</code> prop for the component</li>\n<li>make a computed property with a <a href=\"https://v2.vuejs.org/v2/guide/computed.html#Computed-Setter\" rel=\"noreferrer\">computed setter</a> for the inner value (since you should not modify the value of a prop from within a component)</li>\n<li>define a <code>get</code> method for the computed property which returns the <code>value</code> prop's value</li>\n<li>define a <code>set</code> method for the computed property which emits an <code>input</code> event with the updated value whenever the property changes</li>\n</ul>\n<p>Here's a simple example:</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"true\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>Vue.component('my-input', {\n  template: `\n    &lt;div&gt;\n      My Input:\n      &lt;input v-model=\"inputVal\"&gt;\n    &lt;/div&gt;\n  `,\n  props: ['value'],\n  computed: {\n    inputVal: {\n      get() {\n        return this.value;\n      },\n      set(val) {\n        this.$emit('input', val);\n      }\n    }\n  }\n})\n\nnew Vue({\n  el: '#app',\n  data() {\n    return { \n      foo: 'bar' \n    }\n  }\n})</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js\"&gt;&lt;/script&gt;\n&lt;div id=\"app\"&gt;\n  &lt;!-- using v-model... --&gt;\n  &lt;my-input v-model=\"foo\"&gt;&lt;/my-input&gt;\n  \n  &lt;!-- is the same as this... --&gt;  \n  &lt;my-input :value=\"foo\" @input=\"foo = $event\"&gt;&lt;/my-input&gt;\n\n  {{ foo }}\n&lt;/div&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n<p><em>Thanks to <a href=\"https://stackoverflow.com/users/422203\">@kthornbloom</a> for spotting an issue with the previous implementation.</em></p>\n<h2>Breaking changes in Vue 3</h2>\n<p><a href=\"https://v3-migration.vuejs.org/breaking-changes/v-model.html\" rel=\"noreferrer\">Per the documentation</a>, there are breaking changes to the v-model implementation in Vue 3:</p>\n<ul>\n<li><code>value</code> -&gt; <code>modelValue</code></li>\n<li><code>input</code> -&gt; <code>update:modelValue</code></li>\n</ul>\n",
+      "owner": {
+        "display_name": "thanksd",
+        "link": "https://stackoverflow.com/users/2678454/thanksd"
+      }
+    },
+    {
+      "answer_id": 46106438,
+      "body": "<p>If you're going to <code>v-model</code> a computed, it needs a <a href=\"https://v2.vuejs.org/v2/guide/computed.html#Computed-Setter\" rel=\"noreferrer\">setter</a>. Whatever you want it to do with the updated value (probably write it to the <code>$store</code>, considering that's what your getter pulls it from) you do in the setter.</p>\n<p>If writing it back to the store happens via form submission, you don't want to <code>v-model</code>, you just want to set <code>:value</code>.</p>\n<p>If you want to have an intermediate state, where it's saved somewhere but doesn't overwrite the source in the <code>$store</code> until form submission, you'll need to create such a data item.</p>\n",
+      "owner": {
+        "display_name": "Roy J",
+        "link": "https://stackoverflow.com/users/392102/roy-j"
+      }
+    },
+    {
+      "answer_id": 45369629,
+      "body": "<p>There is no difference between the two, one is just a shorthand for the second.</p>\n<blockquote>\n<p>The v- prefix serves as a visual cue for identifying Vue-specific\nattributes in your templates. This is useful when you are using Vue.js\nto apply dynamic behavior to some existing markup, but can feel\nverbose for some frequently used directives. At the same time, the\nneed for the v- prefix becomes less important when you are building an\nSPA where Vue.js manages every template.</p>\n</blockquote>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;!-- full syntax --&gt;\n&lt;a v-on:click=&quot;doSomething&quot;&gt;&lt;/a&gt;\n&lt;!-- shorthand --&gt;\n&lt;a @click=&quot;doSomething&quot;&gt;&lt;/a&gt;\n</code></pre>\n<p>Source: <a href=\"https://v2.vuejs.org/v2/guide/syntax.html#v-on-Shorthand\" rel=\"noreferrer\">official documentation</a>.</p>\n",
+      "owner": {
+        "display_name": "FitzFish",
+        "link": "https://stackoverflow.com/users/3548338/fitzfish"
+      }
+    },
+    {
+      "answer_id": 36187668,
+      "body": "<p>You can use the <a href=\"https://v2.vuejs.org/v2/api/#v-cloak\" rel=\"noreferrer\">v-cloak</a> directive, which will hide the Vue instance until the compilation finishes, if you combine it with the right CSS.</p>\n<p>HTML:</p>\n<pre><code>&lt;div v-cloak&gt;{{ message }}&lt;/div&gt;\n</code></pre>\n<p>CSS:</p>\n<pre><code>[v-cloak] { display: none; }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Gus",
+        "link": "https://stackoverflow.com/users/593816/gus"
+      }
+    },
+    {
+      "answer_id": 47565763,
+      "body": "<p>You can use <a href=\"https://v2.vuejs.org/v2/guide/components.html#Child-Component-Refs\" rel=\"noreferrer\">ref</a>.</p>\n<pre><code>import ChildForm from './components/ChildForm'\n\nnew Vue({\n  el: '#app',\n  data: {\n    item: {}\n  },\n  template: `\n  &lt;div&gt;\n     &lt;ChildForm :item=&quot;item&quot; ref=&quot;form&quot; /&gt;\n     &lt;button type=&quot;submit&quot; @click.prevent=&quot;submit&quot;&gt;Post&lt;/button&gt;\n  &lt;/div&gt;\n  `,\n  methods: {\n    submit() {\n      this.$refs.form.submit()\n    }\n  },\n  components: { ChildForm },\n})\n</code></pre>\n<p>If you dislike tight coupling, you can use <a href=\"https://v2.vuejs.org/v2/guide/components.html#Non-Parent-Child-Communication\" rel=\"noreferrer\">Event Bus</a> as shown by @Yosvel Quintero. Below is another example of using event bus by passing in the bus as props.</p>\n<pre><code>import ChildForm from './components/ChildForm'\n\nnew Vue({\n  el: '#app',\n  data: {\n    item: {},\n    bus: new Vue(),\n  },\n  template: `\n  &lt;div&gt;\n     &lt;ChildForm :item=&quot;item&quot; :bus=&quot;bus&quot; ref=&quot;form&quot; /&gt;\n     &lt;button type=&quot;submit&quot; @click.prevent=&quot;submit&quot;&gt;Post&lt;/button&gt;\n  &lt;/div&gt;\n  `,\n  methods: {\n    submit() {\n      this.bus.$emit('submit')\n    }\n  },\n  components: { ChildForm },\n})\n</code></pre>\n<p>Code of component.</p>\n<pre><code>&lt;template&gt;\n ...\n&lt;/template&gt;\n\n&lt;script&gt;\nexport default {\n  name: 'NowForm',\n  props: ['item', 'bus'],\n  methods: {\n    submit() {\n        ...\n    }\n  },\n  mounted() {\n    this.bus.$on('submit', this.submit)\n  },  \n}\n&lt;/script&gt;\n</code></pre>\n<p><a href=\"https://code.luasoftware.com/tutorials/vuejs/parent-call-child-component-method/\" rel=\"noreferrer\">https://code.luasoftware.com/tutorials/vuejs/parent-call-child-component-method/</a></p>\n",
+      "owner": {
+        "display_name": "Desmond Lua",
+        "link": "https://stackoverflow.com/users/561259/desmond-lua"
+      }
+    },
+    {
+      "answer_id": 44350932,
+      "body": "<p>Computed values and methods are very different in Vue and are definitely not interchangeable in most cases.</p>\n<p><strong>Computed Property</strong></p>\n<p>A more appropriate name for a computed value is a <a href=\"https://v2.vuejs.org/v2/guide/computed.html#Computed-Properties\" rel=\"noreferrer\">computed property</a>. In fact, when the Vue is instantiated, computed properties are converted into a property of the Vue with a getter and sometimes a setter. Basically you can think of a computed value as a derived value that will be automatically updated whenever one of the underlying values used to calculate it is updated. You don't <em>call</em> a computed and it doesn't accept any parameters. You reference a computed property just like you would a data property. Here's the classic example from the <a href=\"https://v2.vuejs.org/v2/guide/computed.html#Basic-Example\" rel=\"noreferrer\">documentation</a>:</p>\n<pre><code>computed: {\n  // a computed getter\n  reversedMessage: function () {\n    // `this` points to the vm instance\n    return this.message.split('').reverse().join('')\n  }\n}\n</code></pre>\n<p>Which is referenced in the DOM like this:</p>\n<pre><code>&lt;p&gt;Computed reversed message: &quot;{{ reversedMessage }}&quot;&lt;/p&gt;\n</code></pre>\n<p>Computed values are very valuable for manipulating data that exists on your Vue. Whenever you want to filter or transform your data, typically you will use a computed value for that purpose.</p>\n<pre><code>data:{\n    names: [&quot;Bob&quot;, &quot;Billy&quot;, &quot;Mary&quot;, &quot;Jane&quot;]\n},\ncomputed:{\n    startsWithB(){\n        return this.names.filter(n =&gt; n.startsWith(&quot;B&quot;))\n    }\n}\n\n&lt;p v-for=&quot;name in startsWithB&quot;&gt;{{name}}&lt;/p&gt;\n</code></pre>\n<p>Computed values are also cached to avoid repetitively calculating a value that doesn't need to be re-calculated when it hasn't changed (as it might not be in a loop for example).</p>\n<p><strong>Method</strong></p>\n<p>A method is just a function bound to the Vue instance. It will only be evaluated when you explicitly call it. Like all javascript functions, it accepts parameters and will be re-evaluated every time it's called. Methods are useful in the same situations any function is useful.</p>\n<pre><code>data:{\n    names: [&quot;Bob&quot;, &quot;Billy&quot;, &quot;Mary&quot;, &quot;Jane&quot;]\n},\ncomputed:{\n    startsWithB(){\n        return this.startsWithChar(&quot;B&quot;)\n    },\n    startsWithM(){\n        return this.startsWithChar(&quot;M&quot;)\n    }\n},\nmethods:{\n    startsWithChar(whichChar){\n        return this.names.filter(n =&gt; n.startsWith(whichChar))\n    }\n}\n</code></pre>\n<p>Vue's <a href=\"https://v2.vuejs.org/v2/guide/\" rel=\"noreferrer\">documentation</a> is really good and easily accessible. I recommend it.</p>\n",
+      "owner": {
+        "display_name": "Bert",
+        "link": "https://stackoverflow.com/users/38065/bert"
+      }
+    },
+    {
+      "answer_id": 40956873,
+      "body": "<p>If you want to access event object as well as data passed, you have to pass <code>event</code> and <code>ticket.id</code> both as parameters, like following:</p>\n<p><strong>HTML</strong></p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;input type=&quot;number&quot; v-on:input=&quot;addToCart($event, ticket.id)&quot; min=&quot;0&quot; placeholder=&quot;0&quot;&gt;\n</code></pre>\n<p><strong>Javascript</strong></p>\n<pre class=\"lang-js prettyprint-override\"><code>methods: {\n  addToCart: function (event, id) {\n    // use event here as well as id\n    console.log('In addToCart')\n    console.log(id)\n  }\n}\n</code></pre>\n<p>See working fiddle: <a href=\"https://jsfiddle.net/nee5nszL/\" rel=\"noreferrer\">https://jsfiddle.net/nee5nszL/</a></p>\n<h2>Edited: case with vue-router</h2>\n<p>In case you are using vue-router, you may have to use <a href=\"https://v2.vuejs.org/v2/guide/components.html#Form-Input-Components-using-Custom-Events\" rel=\"noreferrer\">$event</a>  in your <code>v-on:input</code> method like following:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;input type=&quot;number&quot; v-on:input=&quot;addToCart($event, num)&quot; min=&quot;0&quot; placeholder=&quot;0&quot;&gt;\n</code></pre>\n<p>Here is working <a href=\"https://jsfiddle.net/mimani/raj11s4o/\" rel=\"noreferrer\">fiddle</a>.</p>\n",
+      "owner": {
+        "display_name": "Saurabh",
+        "link": "https://stackoverflow.com/users/1610034/saurabh"
+      }
+    },
+    {
+      "answer_id": 46403063,
+      "body": "<p>Setup a <a href=\"https://v2.vuejs.org/v2/guide/computed.html#Watchers\" rel=\"noreferrer\">watcher</a> on the <code>$route</code> in your component like this:</p>\n<pre><code>watch:{\n    $route (to, from){\n        this.show = false;\n    }\n} \n</code></pre>\n<p>This observes for route changes and when changed ,sets <code>show</code> to false</p>\n",
+      "owner": {
+        "display_name": "Vamsi Krishna",
+        "link": "https://stackoverflow.com/users/7814783/vamsi-krishna"
+      }
+    },
+    {
+      "answer_id": 41476882,
+      "body": "<p>If you want to listen to a native event on the root element of a component, you have to use the <a href=\"https://v2.vuejs.org/v2/guide/components.html#Using-v-on-with-Custom-Events\" rel=\"noreferrer\">.native</a> modifier for <code>v-on</code>, like following:</p>\n<pre><code>&lt;template&gt;\n  &lt;div id=&quot;app&quot;&gt;\n    &lt;test v-on:click.native=&quot;testFunction&quot;&gt;&lt;/test&gt;\n  &lt;/div&gt;\n&lt;/template&gt;\n</code></pre>\n<p>or in shorthand, as suggested in comment, you can as well do:</p>\n<pre><code>&lt;template&gt;\n  &lt;div id=&quot;app&quot;&gt;\n    &lt;test @click.native=&quot;testFunction&quot;&gt;&lt;/test&gt;\n  &lt;/div&gt;\n&lt;/template&gt;\n</code></pre>\n<p><a href=\"https://v2.vuejs.org/v2/guide/migration.html#Listening-for-Native-Events-on-Components-with-v-on-changed\" rel=\"noreferrer\">Reference to read more about <strong>native event</strong> </a></p>\n",
+      "owner": {
+        "display_name": "Saurabh",
+        "link": "https://stackoverflow.com/users/1610034/saurabh"
+      }
+    },
+    {
+      "answer_id": 42134176,
+      "body": "<p>You can use a <a href=\"https://v2.vuejs.org/v2/api/#watch\" rel=\"noreferrer\">deep watcher</a> for that:</p>\n<pre><code>watch: {\n  item: {\n     handler(val){\n       // do stuff\n     },\n     deep: true\n  }\n}\n</code></pre>\n<p>This will now detect any changes to the objects in the <code>item</code> array and additions to the array itself (when used with <a href=\"https://v2.vuejs.org/v2/api/#Vue-set\" rel=\"noreferrer\">Vue.set</a>). Here's a JSFiddle: <a href=\"http://jsfiddle.net/je2rw3rs/\" rel=\"noreferrer\">http://jsfiddle.net/je2rw3rs/</a></p>\n<p><strong>EDIT</strong></p>\n<p>If you don't want to watch for every change on the top level object, and just want a less awkward syntax for watching nested objects directly, you can simply watch a <code>computed</code> instead:</p>\n<pre><code>var vm = new Vue({\n  el: '#app',\n  computed: {\n    foo() {\n      return this.item.foo;\n    }\n  },\n  watch: {\n    foo() {\n      console.log('Foo Changed!');\n    }\n  },\n  data: {\n    item: {\n      foo: 'foo'\n    }\n  }\n})\n</code></pre>\n<p>Here's the JSFiddle: <a href=\"http://jsfiddle.net/oa07r5fw/\" rel=\"noreferrer\">http://jsfiddle.net/oa07r5fw/</a></p>\n",
+      "owner": {
+        "display_name": "craig_h",
+        "link": "https://stackoverflow.com/users/3122639/craig-h"
+      }
+    },
+    {
+      "answer_id": 40915857,
+      "body": "<p>Two-way binding has been deprecated in Vue 2.0 in favor of using a more event-driven architecture. In general, a child should not mutate its props. Rather, it should <a href=\"https://v2.vuejs.org/v2/api/#vm-emit\" rel=\"noreferrer\"><code>$emit</code></a> events and let the parent respond to those events.</p>\n<p>In your specific case, you could use a custom component with <code>v-model</code>. This is a special syntax which allows for something close to two-way binding, but is actually a shorthand for the event-driven architecture described above. You can read about it here -&gt; <a href=\"https://v2.vuejs.org/v2/guide/components.html#Form-Input-Components-using-Custom-Events\" rel=\"noreferrer\">https://v2.vuejs.org/v2/guide/components.html#Form-Input-Components-using-Custom-Events</a>.</p>\n<p>Here's a simple example:</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>Vue.component('child', {\n  template: '#child',\n  \n  //The child has a prop named 'value'. v-model will automatically bind to this prop\n  props: ['value'],\n  methods: {\n    updateValue: function (value) {\n      this.$emit('input', value);\n    }\n  }\n});\n\nnew Vue({\n  el: '#app',\n  data: {\n    parentValue: 'hello'\n  }\n});</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.js\"&gt;&lt;/script&gt;\n\n&lt;div id=\"app\"&gt;\n  &lt;p&gt;Parent value: {{parentValue}}&lt;/p&gt;\n  &lt;child v-model=\"parentValue\"&gt;&lt;/child&gt;\n&lt;/div&gt;\n\n&lt;template id=\"child\"&gt;\n   &lt;input type=\"text\" v-bind:value=\"value\" v-on:input=\"updateValue($event.target.value)\"&gt;\n&lt;/template&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n<hr />\n<p>The docs state that</p>\n<pre><code>&lt;custom-input v-bind:value=&quot;something&quot; v-on:input=&quot;something = arguments[0]&quot;&gt;&lt;/custom-input&gt;\n</code></pre>\n<p>is equivalent to</p>\n<pre><code>&lt;custom-input v-model=&quot;something&quot;&gt;&lt;/custom-input&gt;\n</code></pre>\n<p>That is why the prop on the child needs to be named value, and why the child needs to $emit an event named <code>input</code>.</p>\n",
+      "owner": {
+        "display_name": "asemahle",
+        "link": "https://stackoverflow.com/users/1086646/asemahle"
+      }
+    },
+    {
+      "answer_id": 42618631,
+      "body": "<blockquote>\n<p>inside any component without having to first import them and then prepend this to the function name</p>\n</blockquote>\n<p>What you described is <strong>mixin</strong>.</p>\n<pre class=\"lang-js prettyprint-override\"><code>Vue.mixin({\n  methods: {\n    capitalizeFirstLetter: str =&gt; str.charAt(0).toUpperCase() + str.slice(1);\n  }\n})\n</code></pre>\n<p>This is a global mixin. with this ALL your components will have a <code>capitalizeFirstLetter</code> method, so you can call <code>this.capitalizeFirstLetter(...)</code> from component methods or you can call it directly as <code>capitalizeFirstLetter(...)</code> in component template.</p>\n<p>Working example: <a href=\"http://codepen.io/CodinCat/pen/LWRVGQ?editors=1010\" rel=\"noreferrer\">http://codepen.io/CodinCat/pen/LWRVGQ?editors=1010</a></p>\n<p>See the documentation here: <a href=\"https://v2.vuejs.org/v2/guide/mixins.html\" rel=\"noreferrer\">https://v2.vuejs.org/v2/guide/mixins.html</a></p>\n",
+      "owner": {
+        "display_name": "CodinCat",
+        "link": "https://stackoverflow.com/users/2739078/codincat"
+      }
+    },
+    {
+      "answer_id": 40539522,
+      "body": "<p>Most probably you want to use a method</p>\n<pre><code>&lt;span&gt;{{ fullName('Hi') }}&lt;/span&gt;\n\nmethods: {\n  fullName(salut) {\n      return `${salut} ${this.firstName} ${this.lastName}`\n  }\n}\n</code></pre>\n<hr />\n<h2>Longer explanation</h2>\n<p>Technically you can use a computed property with a parameter like this:</p>\n<pre><code>computed: {\n   fullName() {\n      return salut =&gt; `${salut} ${this.firstName} ${this.lastName}`\n   }\n}\n</code></pre>\n<p>(Thanks <code>Unirgy</code> for the base code for this.)</p>\n<p>The difference between a computed property and a method is that <strong>computed properties are cached</strong> and change only when their dependencies change. A <strong>method will evaluate every time it's called</strong>.</p>\n<p>If you need parameters, there are usually no benefits of using a computed property function over a method in such a case. Though it allows you to have a parametrized getter function bound to the Vue instance, you lose caching so not really any gain there, in fact, you may break reactivity (AFAIU). You can read more about this in Vue documentation <a href=\"https://v2.vuejs.org/v2/guide/computed.html#Computed-Caching-vs-Methods\" rel=\"noreferrer\">https://v2.vuejs.org/v2/guide/computed.html#Computed-Caching-vs-Methods</a></p>\n<p>The only useful situation is when you <strong>have to</strong> use a getter and need to have it parametrized. For instance, this situation happens in <strong>Vuex</strong>. In Vuex it's the only way to synchronously get parametrized result from the store (actions are async). Thus this approach is listed by official Vuex documentation for its getters\n<a href=\"https://vuex.vuejs.org/guide/getters.html#method-style-access\" rel=\"noreferrer\">https://vuex.vuejs.org/guide/getters.html#method-style-access</a></p>\n",
+      "owner": {
+        "display_name": "damienix",
+        "link": "https://stackoverflow.com/users/488704/damienix"
+      }
+    },
+    {
+      "answer_id": 40586872,
+      "body": "<p>Try this magic spell:</p>\n<pre><code>vm.$forceUpdate();\n//or in file components\nthis.$forceUpdate();\n</code></pre>\n<p>No need to create any hanging vars :)</p>\n<p><strong>Update:</strong> I found this solution when I only started working with VueJS. However further exploration proved this approach as a crutch. As far as I recall, in a while I got rid of it simply putting all the properties that failed to refresh automatically (mostly nested ones) into computed properties.</p>\n<p>More info here: <a href=\"https://v2.vuejs.org/v2/guide/computed.html\" rel=\"noreferrer\">https://v2.vuejs.org/v2/guide/computed.html</a></p>\n",
+      "owner": {
+        "display_name": "Boris Mossounov",
+        "link": "https://stackoverflow.com/users/1548459/boris-mossounov"
+      }
+    },
+    {
+      "answer_id": 42984293,
+      "body": "<p>You just need to specify that you're dispatching from the root context:</p>\n<pre class=\"lang-js prettyprint-override\"><code>// from the gameboard.js vuex module\ndispatch('notification/triggerSelfDismissingNotifcation', {...}, {root:true})\n</code></pre>\n<p>Now when the dispatch reaches the root it will have the correct namespace path to the notifications module (relative to the root instance).</p>\n<p>This is assuming you're setting <code>namespaced: true</code> on your Vuex store module.</p>\n",
+      "owner": {
+        "display_name": "Jake",
+        "link": "https://stackoverflow.com/users/7120920/jake"
+      }
+    },
+    {
+      "answer_id": 64019074,
+      "body": "<p>As suggested in official <a href=\"https://v3-migration.vuejs.org/breaking-changes/events-api.html#event-bus\" rel=\"noreferrer\">docs</a> you could use <a href=\"https://github.com/developit/mitt\" rel=\"noreferrer\">mitt</a> library to dispatch events between components, let suppose that we have a sidebar and <code>header</code> which contains a button that close/open the sidebar and we need that button to toggle some property inside the sidebar component :</p>\n<p>in main.js import that library and create an instance of that emitter  and define as a <a href=\"https://v3.vuejs.org/api/application-config.html#globalproperties\" rel=\"noreferrer\">global property</a>:</p>\n<p><strong>Installation :</strong></p>\n<pre class=\"lang-sh prettyprint-override\"><code>npm install --save mitt\n</code></pre>\n<p><strong>Usage :</strong></p>\n<pre class=\"lang-js prettyprint-override\"><code>import { createApp } from 'vue'\nimport App from './App.vue'\nimport mitt from 'mitt';\nconst emitter = mitt();\nconst app = createApp(App);\napp.config.globalProperties.emitter = emitter;\napp.mount('#app');\n</code></pre>\n<p>in header emit the <code>toggle-sidebar</code> event with some payload :</p>\n<pre class=\"lang-js prettyprint-override\"><code>&lt;template&gt;\n  &lt;header&gt;\n    &lt;button @click=&quot;toggleSidebar&quot;/&gt;toggle&lt;/button&gt;\n  &lt;/header&gt;\n&lt;/template&gt;\n&lt;script &gt;\nexport default { \n  data() {\n    return {\n      sidebarOpen: true\n    };\n  },\n  methods: {\n    toggleSidebar() {\n      this.sidebarOpen = !this.sidebarOpen;\n      this.emitter.emit(&quot;toggle-sidebar&quot;, this.sidebarOpen);\n    }\n  }\n};\n&lt;/script&gt;\n</code></pre>\n<p>In sidebar receive the event with the payload:</p>\n<pre class=\"lang-js prettyprint-override\"><code>&lt;template&gt;\n  &lt;aside class=&quot;sidebar&quot; :class=&quot;{'sidebar--toggled': !isOpen}&quot;&gt;\n  ....\n  &lt;/aside&gt;\n&lt;/template&gt;\n&lt;script&gt;\nexport default {\n  name: &quot;sidebar&quot;,\n  data() {\n    return {\n      isOpen: true\n    };\n  },\n  mounted() { \n    this.emitter.on(&quot;toggle-sidebar&quot;, isOpen =&gt; {\n      this.isOpen = isOpen;\n    });\n  }\n};\n&lt;/script&gt;\n</code></pre>\n<p>For those using composition api they could use <code>emitter</code> as follows :</p>\n<p>Create a file src/composables/useEmitter.js</p>\n<pre class=\"lang-js prettyprint-override\"><code>import { getCurrentInstance } from 'vue'\n\nexport default function useEmitter() {\n    const internalInstance = getCurrentInstance(); \n    const emitter = internalInstance.appContext.config.globalProperties.emitter;\n\n    return emitter;\n}\n\n</code></pre>\n<p>And from there on you can use <code>useEmitter</code> just like you would with <code>useRouter</code>:</p>\n<pre class=\"lang-js prettyprint-override\"><code>import useEmitter from '@/composables/useEmitter'\n\nexport default {\n  setup() {\n    const emitter = useEmitter()\n    ...\n  }\n  ...\n}\n</code></pre>\n<p><strong>Using the composition API</strong></p>\n<p>You could also take benefit from the new composition API and define a composable event bus :</p>\n<p><em>eventBus.js</em></p>\n<pre class=\"lang-js prettyprint-override\"><code>import { ref } from &quot;vue&quot;;\nconst bus = ref(new Map());\n\nexport default function useEventsBus(){\n\n    function emit(event, ...args) {\n        bus.value.set(event, args);\n    }\n\n    return {\n        emit,\n        bus\n    }\n}\n</code></pre>\n<p>in component A do:</p>\n<pre class=\"lang-js prettyprint-override\"><code>import useEventsBus from './eventBus';\n...\n//in script setup or inside the setup hook\nconst {emit}=useEventsBus()\n...\n emit('sidebarCollapsed',val)\n\n</code></pre>\n<p>in component B :</p>\n<pre class=\"lang-js prettyprint-override\"><code>const { bus } = useEventsBus()\n\nwatch(()=&gt;bus.value.get('sidebarCollapsed'), (val) =&gt; {\n  // destruct the parameters\n    const [sidebarCollapsedBus] = val ?? []\n    sidebarCollapsed.value = sidebarCollapsedBus\n})\n\n</code></pre>\n",
+      "owner": {
+        "display_name": "Boussadjra Brahim",
+        "link": "https://stackoverflow.com/users/8172857/boussadjra-brahim"
+      }
+    },
+    {
+      "answer_id": 65262638,
+      "body": "<h3>Key Points</h3>\n<ul>\n<li><code>reactive()</code> only takes objects, <strong>NOT</strong> JS primitives <em>(String, Boolean, Number, BigInt, Symbol, null, undefined)</em></li>\n<li><code>ref()</code> is calling <code>reactive()</code> behind the scenes</li>\n<li>Since <code>reactive()</code> works for objects and <code>ref()</code> calls <code>reactive()</code>, objects work for both</li>\n<li>BUT, <code>ref()</code> has a <code>.value</code> property for reassigning, <code>reactive()</code> does not have this and therefore CANNOT be reassigned</li>\n</ul>\n<h3>Use</h3>\n<p><code>ref()</code> when..</p>\n<ul>\n<li>it's a primitive <em>(for example <code>'string'</code>, <code>true</code>, <code>23</code>, etc)</em></li>\n<li>it's an object you need to later reassign (like an array - <a href=\"https://github.com/vuejs/docs-next/issues/801#issuecomment-757587022\" rel=\"noreferrer\">more info here</a>)</li>\n</ul>\n<p><code>reactive()</code> when..</p>\n<ul>\n<li>it's an object you don't need to reassign, and you want to avoid the overhead of <code>ref()</code></li>\n</ul>\n<h3>In Summary</h3>\n<p><code>ref()</code> seems like the way to go since it supports all object types and allows reassigning with <code>.value</code>. <code>ref()</code> is a good place to start, but as you get used to the API, know that <code>reactive()</code> has less overhead, and you may find it better meets your needs.</p>\n<h3><code>ref()</code> Use-Case</h3>\n<p>You'll always use <code>ref()</code> for primitives, but <code>ref()</code> is good for objects that need to be reassigned, like an array.</p>\n<pre class=\"lang-js prettyprint-override\"><code>setup() {\n    const blogPosts = ref([]);\n    return { blogPosts };\n}\ngetBlogPosts() {\n    this.blogPosts.value = await fetchBlogPosts();\n}\n</code></pre>\n<p>The above with <code>reactive()</code> would require reassigning a property instead of the whole object.</p>\n<pre class=\"lang-js prettyprint-override\"><code>setup() {\n    const blog = reactive({ posts: [] });\n    return { blog };\n}\ngetBlogPosts() {\n    this.blog.posts = await fetchBlogPosts();\n}\n</code></pre>\n<h3><code>reactive()</code> Use-Case</h3>\n<p>A good use-case for <code>reactive()</code> is a group of primitives that belong together:</p>\n<pre class=\"lang-js prettyprint-override\"><code>const person = reactive({\n  name: 'Albert',\n  age: 30,\n  isNinja: true,\n});\n</code></pre>\n<p>the code above feels more logical than</p>\n<pre class=\"lang-js prettyprint-override\"><code>const name = ref('Albert');\nconst age = ref(30);\nconst isNinja = ref(true);\n</code></pre>\n<h3>Useful Links</h3>\n<p>If you're still lost, this simple guide helped me: <a href=\"https://www.danvega.dev/blog/2020/02/12/vue3-ref-vs-reactive/\" rel=\"noreferrer\">https://www.danvega.dev/blog/2020/02/12/vue3-ref-vs-reactive/</a></p>\n<p>An argument for only ever using <code>ref()</code>: <a href=\"https://dev.to/ycmjason/thought-on-vue-3-composition-api-reactive-considered-harmful-j8c\" rel=\"noreferrer\">https://dev.to/ycmjason/thought-on-vue-3-composition-api-reactive-considered-harmful-j8c</a></p>\n<p>The decision-making behind why <code>reactive()</code> and <code>ref()</code> exist as they do and other great information, the Vue Composition API RFC: <a href=\"https://vuejs.org/guide/extras/composition-api-faq.html#why-composition-api\" rel=\"noreferrer\">https://vuejs.org/guide/extras/composition-api-faq.html#why-composition-api</a></p>\n",
+      "owner": {
+        "display_name": "Chris Hayes",
+        "link": "https://stackoverflow.com/users/2096769/chris-hayes"
+      }
+    },
+    {
+      "answer_id": 44077358,
+      "body": "<p>It should be available at</p>\n<pre><code>this.$slots.footer\n</code></pre>\n<p>So, this should work.</p>\n<pre><code>hasFooterSlot() {\n  return !!this.$slots.footer;\n}\n</code></pre>\n<p><a href=\"https://codepen.io/Kradek/pen/LygKjO?editors=1010\" rel=\"noreferrer\">Example</a>.</p>\n",
+      "owner": {
+        "display_name": "Bert",
+        "link": "https://stackoverflow.com/users/38065/bert"
+      }
+    },
+    {
+      "answer_id": 31016520,
+      "body": "<p>You can use the <code>v-html</code> directive to show it.\nlike this:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;td v-html=&quot;desc&quot;&gt;&lt;/td&gt;\n</code></pre>\n\n",
+      "owner": {
+        "display_name": "王开朗",
+        "link": "https://stackoverflow.com/users/5039782/%e7%8e%8b%e5%bc%80%e6%9c%97"
+      }
+    },
+    {
+      "answer_id": 50831022,
+      "body": "<p><strong>Vue.js with Webpack</strong></p>\n<p>If you use vue cli with the Webpack template (default config), you can create and add your environment variables to a .env file.</p>\n<p>The variables will automatically be accessible under <code>process.env.variableName</code> in your project. Loaded variables are also available to all vue-cli-service commands, plugins and dependencies.</p>\n<p>You have a few options, this is from the <a href=\"https://cli.vuejs.org/guide/mode-and-env.html\" rel=\"noreferrer\">Environment Variables and Modes documentation</a>:</p>\n<pre><code>.env                # loaded in all cases\n.env.local          # loaded in all cases, ignored by git\n.env.[mode]         # only loaded in specified mode\n.env.[mode].local   # only loaded in specified mode, ignored by git\n</code></pre>\n<p>Your .env file should look like this:</p>\n<pre><code>VUE_APP_MY_ENV_VARIABLE=value\nVUE_APP_ANOTHER_VARIABLE=value\n</code></pre>\n<p><strong>As noted in comment below:</strong>\nIf you are using Vue cli 3, only variables that start with <strong>VUE_APP_</strong> will be loaded.</p>\n<p>Don't forget to restart <em>serve</em> if it is currently running.</p>\n<p><strong>Vue.js with Vite</strong></p>\n<p>Vite exposes env variables that start with <code>VITE_</code> on the special <code>import.meta.env</code> object.</p>\n<p>Your .env should look like this:</p>\n<pre><code>VITE_API_ENDPOINT=value\nVITE_API_KEY=value\n</code></pre>\n<p>These variables can be accessed in Vue.js components or JavaScript files under <code>import.meta.env.VITE_API_ENDPOINT</code> and <code>import.meta.env.VITE_API_KEY</code>.</p>\n<p><strong>Tip:</strong> Remember to restart your development server whenever you change or add a variable in the .env file if it's running.</p>\n<p>For more info, please see the <a href=\"https://vitejs.dev/guide/env-and-mode.html\" rel=\"noreferrer\">Vite documentation for env variables</a>.</p>\n",
+      "owner": {
+        "display_name": "RAH",
+        "link": "https://stackoverflow.com/users/946359/rah"
+      }
+    },
+    {
+      "answer_id": 45700689,
+      "body": "<p>Have a look at <a href=\"https://vuejs.org/guide/essentials/event-handling.html#event-modifiers\" rel=\"noreferrer\">Event Modifiers</a> in the Vue.js v3 docs (v2 docs <a href=\"https://v2.vuejs.org/v2/guide/events.html#Event-Modifiers\" rel=\"noreferrer\">here</a>), <code>v-on:click.stop</code> will stop that click from propagating or &quot;bubbling&quot; up to the parent element.</p>\n",
+      "owner": {
+        "display_name": "Justin",
+        "link": "https://stackoverflow.com/users/3709300/justin"
+      }
+    },
+    {
+      "answer_id": 43211808,
+      "body": "<p>Use JavaScript code inside <code>v-bind</code> (or shortcut &quot;:&quot;):</p>\n<pre><code>:href=&quot;'#purchase-' + item.id&quot;\n</code></pre>\n<p>and</p>\n<pre><code>:id=&quot;'purchase-' + item.id&quot;\n</code></pre>\n<p>Or if using <a href=\"https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_%E2%80%93_ECMAScript_2015\" rel=\"noreferrer\">ES6</a> or later:</p>\n<pre><code>:id=&quot;`purchase-${item.id}`&quot;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Happyriri",
+        "link": "https://stackoverflow.com/users/7577617/happyriri"
+      }
+    },
+    {
+      "answer_id": 38085541,
+      "body": "<p>To remove the disabled prop, you should set its value to <code>false</code>. This needs to be the boolean value for <code>false</code>, not the string <code>'false'</code>.</p>\n<p>So, if the value for <code>validated</code> is either a 1 or a 0, then conditionally set the <code>disabled</code> prop based off that value. E.g.:</p>\n<pre><code>&lt;input type=&quot;text&quot; :disabled=&quot;validated == 1&quot;&gt;\n</code></pre>\n<p>Here is an example.</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>var app = new Vue({\n  el: '#app',\n\n  data: {\n    disabled: 0\n  }\n}); </code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js\"&gt;&lt;/script&gt;\n&lt;div id=\"app\"&gt;\n  &lt;button @click=\"disabled = (disabled + 1) % 2\"&gt;Toggle Enable&lt;/button&gt;\n  &lt;input type=\"text\" :disabled=\"disabled == 1\"&gt;\n    \n  &lt;pre&gt;{{ $data }}&lt;/pre&gt;\n&lt;/div&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "asemahle",
+        "link": "https://stackoverflow.com/users/1086646/asemahle"
+      }
+    },
+    {
+      "answer_id": 66087132,
+      "body": "<p>Similar to what @KostDM said, in my case it seems like <code>sass-loader@11.0.0</code> doesn't work with <code>vue@2.6.12</code>.</p>\n<p>I installed <code>sass-loader@10.1.1</code> and it worked like a charm again.</p>\n<p>In your <code>package.json</code>:</p>\n<pre class=\"lang-json prettyprint-override\"><code>&quot;sass-loader&quot;: &quot;^10&quot;,\n</code></pre>\n",
+      "owner": {
+        "display_name": "D_Pain",
+        "link": "https://stackoverflow.com/users/3489524/d-pain"
+      }
+    },
+    {
+      "answer_id": 42201508,
+      "body": "<p>I am using <a href=\"https://www.npmjs.com/package/debounce\" rel=\"noreferrer\">debounce</a> NPM package and implemented like this:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;input @input=&quot;debounceInput&quot;&gt;\n</code></pre>\n<pre class=\"lang-js prettyprint-override\"><code>methods: {\n    debounceInput: debounce(function (e) {\n      this.$store.dispatch('updateInput', e.target.value)\n    }, config.debouncers.default)\n}\n</code></pre>\n<p>Using <a href=\"https://lodash.com/docs/#debounce\" rel=\"noreferrer\">lodash</a> and the example in the question, the implementation looks like this:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;input v-on:input=&quot;debounceInput&quot;&gt;\n</code></pre>\n<pre class=\"lang-js prettyprint-override\"><code>methods: {\n  debounceInput: _.debounce(function (e) {\n    this.filterKey = e.target.value;\n  }, 500)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Primoz Rome",
+        "link": "https://stackoverflow.com/users/255710/primoz-rome"
+      }
+    },
+    {
+      "answer_id": 45849125,
+      "body": "<p>You have access to the <code>dispatch</code> method in the object passed in the first parameter:</p>\n<pre class=\"lang-js prettyprint-override\"><code>get1: ({ commit, dispatch }) =&gt; {\n  dispatch('get2');\n},\n</code></pre>\n<p>This is covered in the <a href=\"https://vuex.vuejs.org/guide/actions.html#dispatching-actions\" rel=\"noreferrer\">documentation</a>.</p>\n",
+      "owner": {
+        "display_name": "thanksd",
+        "link": "https://stackoverflow.com/users/2678454/thanksd"
+      }
+    },
+    {
+      "answer_id": 34957052,
+      "body": "<p>Each component has a unique id which can be accessed as <code>this._uid</code>.</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;template&gt;\n  &lt;div&gt;\n    &lt;label :for=&quot;id&quot;&gt;Label text for {{id}}&lt;/label&gt;\n    &lt;input :id=&quot;id&quot; type=&quot;text&quot; /&gt;\n  &lt;/div&gt;\n&lt;/template&gt;\n\n&lt;script&gt;\nexport default {\n  data () {\n    return {\n      id: null\n    }\n  }, \n  mounted () {\n    this.id = this._uid\n  }\n}\n&lt;/script&gt;\n</code></pre>\n<p>If you want more control over the ids you can for example, generate them inside a parent component.</p>\n",
+      "owner": {
+        "display_name": "zxzak",
+        "link": "https://stackoverflow.com/users/1761827/zxzak"
+      }
+    },
+    {
+      "answer_id": 36180348,
+      "body": "<p>Keep in attention that this solution only works with Vue 1.</p>\n<p>Can be solved nicely by setting up a custom directive once:</p>\n<pre><code>Vue.directive('click-outside', {\n  bind () {\n      this.event = event =&gt; this.vm.$emit(this.expression, event)\n      this.el.addEventListener('click', this.stopProp)\n      document.body.addEventListener('click', this.event)\n  },   \n  unbind() {\n    this.el.removeEventListener('click', this.stopProp)\n    document.body.removeEventListener('click', this.event)\n  },\n\n  stopProp(event) { event.stopPropagation() }\n})\n</code></pre>\n<p><strong>Usage:</strong></p>\n<pre><code>&lt;div v-click-outside=&quot;nameOfCustomEventToCall&quot;&gt;\n  Some content\n&lt;/div&gt;\n</code></pre>\n<p>In the component:</p>\n<pre><code>events: {\n  nameOfCustomEventToCall: function (event) {\n    // do something - probably hide the dropdown menu / modal etc.\n  }\n}\n</code></pre>\n<p>Working Demo on JSFiddle with additional info about caveats:</p>\n<p><a href=\"https://jsfiddle.net/Linusborg/yzm8t8jq/\" rel=\"noreferrer\">https://jsfiddle.net/Linusborg/yzm8t8jq/</a></p>\n",
+      "owner": {
+        "display_name": "Linus Borg",
+        "link": "https://stackoverflow.com/users/1339840/linus-borg"
+      }
+    },
+    {
+      "answer_id": 48728051,
+      "body": "<p>When you declare:</p>\n<pre class=\"lang-js prettyprint-override\"><code>new Vue({\n    el: '#app',\n    data () {\n      return {}\n    }\n)}\n</code></pre>\n<p>That is typically your root Vue instance that the rest of the application descends from. This hangs off the root element declared in an html document, for example:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;html&gt;\n  ...\n  &lt;body&gt;\n    &lt;div id=&quot;app&quot;&gt;&lt;/div&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</code></pre>\n<p>The other syntax is declaring a component which can be registered and reused later. For example, if you create a single file component like:</p>\n<pre class=\"lang-js prettyprint-override\"><code>// my-component.js\nexport default {\n    name: 'my-component',\n    data () {\n      return {}\n    }\n}\n</code></pre>\n<p>You can later import this and use it like:</p>\n<pre class=\"lang-js prettyprint-override\"><code>// another-component.js\n&lt;template&gt;\n  &lt;my-component&gt;&lt;/my-component&gt;\n&lt;/template&gt;\n&lt;script&gt;\n  import myComponent from 'my-component'\n  export default {\n    components: {\n      myComponent\n    }\n    data () {\n      return {}\n    }\n    ...\n  }\n&lt;/script&gt;\n</code></pre>\n<p>Also, be sure to declare your <code>data</code> properties as functions, otherwise they are not going to be reactive.</p>\n",
+      "owner": {
+        "display_name": "user320487",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 46097834,
+      "body": "<p>Mutations expect two arguments: <code>state</code> and <code>payload</code>, where the current state of the store is passed by Vuex itself as the first argument and the second argument holds any parameters you need to pass.</p>\n<p>The easiest way to <a href=\"https://www.karltarvas.com/2017/09/07/vuex-passing-multiple-parameters-to-an-action.html\" rel=\"noreferrer\">pass a number of parameters</a> is to <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring\" rel=\"noreferrer\">destruct them</a>:</p>\n<pre class=\"lang-js prettyprint-override\"><code>mutations: {\n    authenticate(state, { token, expiration }) {\n        localStorage.setItem('token', token);\n        localStorage.setItem('expiration', expiration);\n    }\n}\n</code></pre>\n<p>Then later on in your actions you can simply</p>\n<pre class=\"lang-js prettyprint-override\"><code>store.commit('authenticate', {\n    token,\n    expiration,\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "Etheryte",
+        "link": "https://stackoverflow.com/users/1470607/etheryte"
+      }
+    },
+    {
+      "answer_id": 45853349,
+      "body": "<p><strong>Update: April-2020</strong></p>\n<p>For people who are using Vue 3, the watch API can accept multiple sources</p>\n<pre class=\"lang-js prettyprint-override\"><code>import { watch, ref } from 'vue';\n\nexport default {\n  setup(() =&gt; {\n    const a = ref(1), b = ref('hello');\n\n    watch([a, b], ([newA, newB], [prevA, prevB]) =&gt; {\n      // do whatever you want\n    });\n  });\n};\n\n</code></pre>\n<hr />\n<p><strong>Original answer for Vue 2</strong></p>\n<p>there is no official way to solve your question(<a href=\"https://github.com/vuejs/vue/issues/844\" rel=\"noreferrer\">see this</a>). but you can use the computed property as a trick:</p>\n<pre class=\"lang-js prettyprint-override\"><code>    export default {\n      // ...\n      computed: {\n        propertyAAndPropertyB() {\n          return `${this.propertyA}|${this.propertyB}`;\n        },\n      },\n      watch: {\n        propertyAAndPropertyB(newVal, oldVal) {\n          const [oldPropertyA, oldProvertyB] = oldVal.split('|');\n          const [newPropertyA, newProvertyB] = newVal.split('|');\n          // doSomething\n        },\n      },\n    }\n</code></pre>\n<p>if you just want to do something and don't care about what's new/old values.\nignore two lines</p>\n<pre class=\"lang-js prettyprint-override\"><code>    const [oldPropertyA, oldProvertyB] = oldVal.split('|');\n    const [newPropertyA, newProvertyB] = newVal.split('|');\n</code></pre>\n",
+      "owner": {
+        "display_name": "Yi Feng Xie",
+        "link": "https://stackoverflow.com/users/2047546/yi-feng-xie"
+      }
+    },
+    {
+      "answer_id": 40194152,
+      "body": "\n<p>I think you should be able to use a default route handler and redirect from there to a page outside the app, as detailed below:</p>\n<pre class=\"lang-js prettyprint-override\"><code>const ROUTER_INSTANCE = new VueRouter({\n    mode: &quot;history&quot;,\n    routes: [\n        { path: &quot;/&quot;, component: HomeComponent },\n        // ... other routes ...\n        // and finally the default route, when none of the above matches:\n        { path: &quot;*&quot;, component: PageNotFound }\n    ]\n})\n</code></pre>\n<p>In the above <code>PageNotFound</code> component definition, you can specify the actual redirect, that will take you out of the app entirely:</p>\n<pre class=\"lang-js prettyprint-override\"><code>Vue.component(&quot;page-not-found&quot;, {\n    template: &quot;&quot;,\n    created: function() {\n        // Redirect outside the app using plain old javascript\n        window.location.href = &quot;/my-new-404-page.html&quot;;\n    }\n}\n</code></pre>\n<p>You may do it either on <code>created</code> hook as shown above, or <code>mounted</code> hook also.</p>\n<p>Please note:</p>\n<ol>\n<li><p>I have not verified the above. You need to build a production version of app, ensure that the above redirect happens. You cannot test this in <code>vue-cli</code> as it requires server side handling.</p>\n</li>\n<li><p>Usually in single page apps, server sends out the same index.html along with app scripts for all route requests, especially if you have set <code>&lt;base href=&quot;/&quot;&gt;</code>. This will fail for your <code>/404-page.html</code> unless your server treats it as a special case and serves the static page.</p>\n</li>\n</ol>\n<p>Let me know if it works!</p>\n<p><strong>Update for Vue 3 onward:</strong></p>\n<p>You'll need to replace the <code>'*'</code> path property with <code>'/:pathMatch(.*)*'</code> if you're using Vue 3 as the old catch-all path of <code>'*'</code> is no longer supported. The route would then look something like this:</p>\n<pre class=\"lang-js prettyprint-override\"><code>{ path: '/:pathMatch(.*)*', component: PathNotFound },\n</code></pre>\n<p>See <a href=\"https://next.router.vuejs.org/guide/migration/#removed-star-or-catch-all-routes\" rel=\"noreferrer\">the docs</a> for more info on this update.</p>\n",
+      "owner": {
+        "display_name": "Mani Jagadeesan",
+        "link": "https://stackoverflow.com/users/654825/mani-jagadeesan"
+      }
+    },
+    {
+      "answer_id": 56422541,
+      "body": "<h2>Update <strong>09/17/2020</strong>:</h2>\n<p>As this answer gets up-votes every day, I thought maybe it is worth diving deeper into this topic.</p>\n<hr />\n<p>Considering <a href=\"https://sass-lang.com/dart-sass\" rel=\"noreferrer\">sass-lang website</a>:</p>\n<blockquote>\n<p>Dart Sass is the primary implementation of Sass, which means it gets\nnew features before any other implementation. It's fast, easy to\ninstall, and it compiles <strong>to pure JavaScript</strong> which makes it easy to\nintegrate into modern web development workflows.</p>\n</blockquote>\n<p>Dart-Sass is fast, but not the <strong>JS compiled version</strong>. Practically when we say Dart-Sass there are two options:</p>\n<ul>\n<li>Dart-Sass on Dart-VM</li>\n<li>Dart-Sass on <a href=\"https://www.npmjs.com/package/dart-sass\" rel=\"noreferrer\">NPM</a> which is pure JS compiled version</li>\n</ul>\n<p>I compiled Bootstrap 4 Sass file to CSS with Node-Sass, Dart-Sass and Dart-Sass(JS) and you can see the following result:</p>\n<p><a href=\"https://i.sstatic.net/RzIiL.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/RzIiL.png\" alt=\"Node-Sass and Dart-Sass comparison - source: https://itnext.io/the-css-preprocessor-dilemma-node-sass-or-dart-sass-32a0a096572?source=friends_link&amp;sk=3c465b78a0e1bc98379afd818546fcf4\" /></a></p>\n<ul>\n<li>In this particular case, two seconds is not a big deal; but consider Dart-Sass(JS) is nine times slower than Dart-Sass(Dart VM) and three times slower than node-sass.</li>\n<li>I had a project with +20 themes, it took 30 seconds with node-sass,\nbut I tried to use Dart-Sass(JS), and it took a century!</li>\n<li>Although Dart-Sass(Dart VM) is the fastest but installing or integrating it is a bit tricky.</li>\n<li><strong>And Node-Sass <a href=\"https://github.com/sass/node-sass/issues/2952\" rel=\"noreferrer\">is considered deprecated</a>.</strong></li>\n</ul>\n<p>I <a href=\"https://itnext.io/the-css-preprocessor-dilemma-node-sass-or-dart-sass-32a0a096572?source=friends_link&amp;sk=3c465b78a0e1bc98379afd818546fcf4\" rel=\"noreferrer\">blogged</a> about it here, you can read more about it here.</p>\n",
+      "owner": {
+        "display_name": "Ali Bahrami",
+        "link": "https://stackoverflow.com/users/553825/ali-bahrami"
+      }
+    },
+    {
+      "answer_id": 45814848,
+      "body": "<p><code>created()</code> : since the processing of the options is finished you have access to reactive <code>data</code> properties and change them if you want. At this stage DOM has not been mounted or added yet. So you cannot do any DOM manipulation here</p>\n\n<p><code>mounted()</code>: called after the DOM has been mounted or rendered. Here you have access to the DOM elements and DOM manipulation can be performed for example get the innerHTML:</p>\n\n<pre><code>console.log(element.innerHTML)\n</code></pre>\n\n<p>So your questions:</p>\n\n<ol>\n<li><code>Is there any case where created would be used over mounted?</code></li>\n</ol>\n\n<p>Created is generally used for fetching data from backend API and setting it to data properties. But in SSR <code>mounted()</code> hook is not present you need to perform tasks like fetching data in created hook only</p>\n\n<ol start=\"2\">\n<li><code>What can I use the created event for, in real-life (real-code) situation?</code></li>\n</ol>\n\n<p>For fetching any initial required data to be rendered(like JSON) from external API and  assigning it to any reactive data properties </p>\n\n<pre><code>data:{\n    myJson : null,\n    errors: null\n},\ncreated(){\n    //pseudo code\n    database.get().then((res) =&gt; {\n        this.myJson = res.data;\n    }).catch((err) =&gt; {\n        this.errors = err;\n    });\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Vamsi Krishna",
+        "link": "https://stackoverflow.com/users/7814783/vamsi-krishna"
+      }
+    },
+    {
+      "answer_id": 53608245,
+      "body": "<p>Here is the solution I found.</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>props: {\n   value: [Number, String, Array]\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Harsha Basnayake",
+        "link": "https://stackoverflow.com/users/3395055/harsha-basnayake"
+      }
+    },
+    {
+      "answer_id": 35970020,
+      "body": "<h1>First option: invoke forEach indirectly</h1>\n\n<p>The <code>parent.children</code> is an Array like object. Use the following solution:</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>const parent = this.el.parentElement;\n\nArray.prototype.forEach.call(parent.children, child =&gt; {\n  console.log(child)\n});\n</code></pre>\n\n<p>The <code>parent.children</code> is <code>NodeList</code> type, which is an Array like object because:</p>\n\n<ul>\n<li>It contains the <code>length</code> property, which indicates the number of nodes</li>\n<li>Each node is a property value with numeric name, starting from 0: <code>{0: NodeObject, 1: NodeObject, length: 2, ...}</code></li>\n</ul>\n\n<p>See more details in <a href=\"https://dmitripavlutin.com/foreach-iterate-array-javascript/#6-iterate-array-like-objects-using-foreach\" rel=\"noreferrer\">this article</a>.</p>\n\n<hr>\n\n<h1>Second option: use the iterable protocol</h1>\n\n<p><code>parent.children</code> is an <code>HTMLCollection</code>: which implements the <a href=\"https://dmitripavlutin.com/how-three-dots-changed-javascript/#5-spread-operator-and-iteration-protocols\" rel=\"noreferrer\">iterable protocol</a>. In an ES2015 environment, you can use the <code>HTMLCollection</code> with any construction that accepts iterables.</p>\n\n<p>Use <code>HTMLCollection</code> with the spread operatator:</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>const parent = this.el.parentElement;\n\n[...parent.children].forEach(child =&gt; {\n  console.log(child);\n});\n</code></pre>\n\n<p>Or with the <code>for..of</code> cycle (which is my preferred option):</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>const parent = this.el.parentElement;\n\nfor (const child of parent.children) {\n  console.log(child);\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dmitri Pavlutin",
+        "link": "https://stackoverflow.com/users/1894471/dmitri-pavlutin"
+      }
+    },
+    {
+      "answer_id": 42753045,
+      "body": "<p>This is done with Webpack <a href=\"https://webpack.js.org/configuration/resolve/#resolvealias\" rel=\"noreferrer\"><code>resolve.alias</code></a> configuration option and isn't specific to Vue.</p>\n\n<p><a href=\"https://github.com/vuejs-templates/webpack\" rel=\"noreferrer\">In Vue Webpack template</a>, Webpack is configured to replace <code>@/</code> with <a href=\"https://github.com/vuejs-templates/webpack/blob/9992f5a058c53f32b03d9a8743612188c04698af/template/build/webpack.base.conf.js#L27\" rel=\"noreferrer\"><code>src</code> path</a>:</p>\n\n<pre><code>  const path = require('path');\n\n  ...\n  resolve: {\n    extensions: ['.js', '.vue', '.json'],\n    alias: {\n      ...\n      '@': path.resolve('src'),\n    }\n  },\n  ...\n</code></pre>\n\n<p>The alias is used as:</p>\n\n<pre><code>import '@/&lt;path inside src folder&gt;';\n</code></pre>\n",
+      "owner": {
+        "display_name": "Estus Flask",
+        "link": "https://stackoverflow.com/users/3731501/estus-flask"
+      }
+    },
+    {
+      "answer_id": 58747480,
+      "body": "<p>This happened to me when I had a <code>router-link</code> pointing to the same route. e.g. <code>/products/1</code>.</p>\n\n<blockquote>\n  <p>The user is able to click on the products, <strong>but if a product was already clicked (and the component view was already loaded)</strong> and the user attempts to click it again, the error/warning shows in the console.</p>\n</blockquote>\n\n<p>You can learn more <a href=\"https://github.com/vuejs/vue-router/issues/2872\" rel=\"noreferrer\">on the github issue.</a>.</p>\n\n<p>Posva, one of the main contributors of vue-router suggests:</p>\n\n<blockquote>\n  <p>router.push('your-path').catch(err => {})</p>\n</blockquote>\n\n<p>However, if you don't want to have a <code>catch</code> block which does nothing, in order to solve the issue you can compare the router navigation with the current route <strong>and only navigate if they differ:</strong></p>\n\n<pre><code>const path = `/products/${id}`\nif (this.$route.path !== path) this.$router.push(path)\n</code></pre>\n\n<p>Note: <code>$route</code> is an object provided by vue-router to every component. See <a href=\"https://router.vuejs.org/api/#the-route-object\" rel=\"noreferrer\">The Route Object</a> for more info.</p>\n",
+      "owner": {
+        "display_name": "Roland",
+        "link": "https://stackoverflow.com/users/6385184/roland"
+      }
+    },
+    {
+      "answer_id": 43862129,
+      "body": "<p>You can import the css file on App.vue, inside the style tag.</p>\n\n<pre class=\"lang-html prettyprint-override\"><code>&lt;style&gt;\n  @import './assets/styles/yourstyles.css';\n&lt;/style&gt;\n</code></pre>\n\n<p>Also, make sure you have the right loaders installed, if you need any.</p>\n",
+      "owner": {
+        "display_name": "gedii",
+        "link": "https://stackoverflow.com/users/6611121/gedii"
+      }
+    },
+    {
+      "answer_id": 47002863,
+      "body": "<p>A simple and effective way to solve this, it's by adding your external script into the vue <code>mounted()</code> of your component. I will illustrate you with the <a href=\"https://www.google.com/recaptcha/intro/\" rel=\"noreferrer\">Google Recaptcha</a> script:</p>\n\n<pre class=\"lang-html prettyprint-override\"><code>&lt;template&gt;\n   .... your HTML\n&lt;/template&gt;\n\n&lt;script&gt;\n  export default {\n    data: () =&gt; ({\n      ......data of your component\n    }),\n    mounted() {\n      let recaptchaScript = document.createElement('script')\n      recaptchaScript.setAttribute('src', 'https://www.google.com/recaptcha/api.js')\n      document.head.appendChild(recaptchaScript)\n    },\n    methods: {\n      ......methods of your component\n    }\n  }\n&lt;/script&gt;\n</code></pre>\n\n\n\n<p>Source: <a href=\"https://medium.com/@lassiuosukainen/how-to-include-a-script-tag-on-a-vue-component-fe10940af9e8\" rel=\"noreferrer\">https://medium.com/@lassiuosukainen/how-to-include-a-script-tag-on-a-vue-component-fe10940af9e8</a></p>\n",
+      "owner": {
+        "display_name": "manuelmejiaio",
+        "link": "https://stackoverflow.com/users/2958543/manuelmejiaio"
+      }
+    },
+    {
+      "answer_id": 44186374,
+      "body": "<p>On Vue 2.3 and above you can do this:</p>\n\n<pre><code>&lt;div v-on:click=\"firstFunction(); secondFunction();\"&gt;&lt;/div&gt;\n// or\n&lt;div @click=\"firstFunction(); secondFunction();\"&gt;&lt;/div&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Stuart Cusack",
+        "link": "https://stackoverflow.com/users/4278594/stuart-cusack"
+      }
+    },
+    {
+      "answer_id": 43027630,
+      "body": "<p>This is a known use case. There are different solutions.</p>\n\n<p>For example, one can use <a href=\"https://github.com/robinvdvleuten/vuex-persistedstate\" rel=\"noreferrer\"><code>vuex-persistedstate</code></a>. This is a plugin for <code>vuex</code> to handle and store state between page refreshes.</p>\n\n<p>Sample code:</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>import { Store } from 'vuex'\nimport createPersistedState from 'vuex-persistedstate'\nimport * as Cookies from 'js-cookie'\n\nconst store = new Store({\n  // ...\n  plugins: [\n    createPersistedState({\n      getState: (key) =&gt; Cookies.getJSON(key),\n      setState: (key, state) =&gt; Cookies.set(key, state, { expires: 3, secure: true })\n    })\n  ]\n})\n</code></pre>\n\n<p>What we do here is simple:</p>\n\n<ol>\n<li>you need to install <a href=\"https://www.npmjs.com/package/js-cookie\" rel=\"noreferrer\"><code>js-cookie</code></a></li>\n<li>on <code>getState</code> we try to load saved state from <code>Cookies</code></li>\n<li>on <code>setState</code> we save our state to <code>Cookies</code></li>\n</ol>\n\n<p>Docs and installation instructions: <a href=\"https://www.npmjs.com/package/vuex-persistedstate\" rel=\"noreferrer\">https://www.npmjs.com/package/vuex-persistedstate</a> </p>\n",
+      "owner": {
+        "display_name": "sobolevn",
+        "link": "https://stackoverflow.com/users/4842742/sobolevn"
+      }
+    },
+    {
+      "answer_id": 58580403,
+      "body": "<p>I think you are using <code>cmd</code> in windows.</p>\n\n<p>Try deleting the <code>node_modules</code> folder and after that run <code>npm i</code> from the cmd.</p>\n\n<p>Then try running <code>npm run serve</code> again and see if it works this time</p>\n",
+      "owner": {
+        "display_name": "s4k1b",
+        "link": "https://stackoverflow.com/users/12281663/s4k1b"
+      }
+    },
+    {
+      "answer_id": 57185919,
+      "body": "<p>In the Sidebar.vue file, try to add the \".vue\" extension in import declaration , something like this:</p>\n\n<pre><code>import SidebarToggleIcon from '@/components/SidebarToggleIcon.vue';\n</code></pre>\n",
+      "owner": {
+        "display_name": "Robson Oliveira",
+        "link": "https://stackoverflow.com/users/8405418/robson-oliveira"
+      }
+    },
+    {
+      "answer_id": 35605629,
+      "body": "<ol>\n<li>extract the initial data into a function outside of the component</li>\n<li>use that function to set the initial data in the component</li>\n<li>re-use that function to reset the state when needed.</li>\n</ol>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"false\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>// outside of the component:\r\nfunction initialState (){\r\n  return {\r\n    modalBodyDisplay: 'getUserInput', \r\n    submitButtonText: 'Lookup', \r\n    addressToConfirm: null,\r\n    bestViewedByTheseBounds: null,\r\n    location:{\r\n      name: null,\r\n      address: null,\r\n      position: null\r\n    }\r\n  }\r\n}\r\n\r\n//inside of the component:\r\ndata: function (){\r\n    return initialState();\r\n} \r\n\r\n\r\nmethods:{\r\n    resetWindow: function (){\r\n        Object.assign(this.$data, initialState());\r\n    }\r\n}</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Linus Borg",
+        "link": "https://stackoverflow.com/users/1339840/linus-borg"
+      }
+    },
+    {
+      "answer_id": 43529584,
+      "body": "<p>When you are using Vue directives, the expressions are evaluated in the context of Vue, so you don't need to wrap things in <code>{}</code>.</p>\n\n<p><code>@click</code> is just shorthand for <code>v-on:click</code> directive so the same rules apply.</p>\n\n<p>In your case, simply use <code>@click=\"addToCount(item.contactID)\"</code></p>\n",
+      "owner": {
+        "display_name": "Brian Glaz",
+        "link": "https://stackoverflow.com/users/830247/brian-glaz"
+      }
+    },
+    {
+      "answer_id": 53193759,
+      "body": "<p><strong>NEW ANSWER (Nov-2018 update)</strong> </p>\n\n<p>I discovered that we could actually do this by leveraging the <code>$parent</code> property in the grand child component:</p>\n\n<pre><code>this.$parent.$emit(\"submit\", {somekey: somevalue})\n</code></pre>\n\n<p>Much cleaner and simpler.</p>\n",
+      "owner": {
+        "display_name": "BassMHL",
+        "link": "https://stackoverflow.com/users/4676812/bassmhl"
+      }
+    },
+    {
+      "answer_id": 35244182,
+      "body": "<p>The issue is that the value for <code>backgroundImage</code> needs to be a string like this:</p>\n\n<pre><code>&lt;div class=\"circular\" v-bind:style=\"{ backgroundImage: 'url(' + image + ')' }\"&gt;&lt;/div&gt;\n</code></pre>\n\n<p>Here's a simplified fiddle that's working: <a href=\"https://jsfiddle.net/89af0se9/1/\" rel=\"noreferrer\">https://jsfiddle.net/89af0se9/1/</a></p>\n\n<p>Re: the comment below about kebab-case, this is how you can do that:</p>\n\n<pre><code>&lt;div class=\"circular\" v-bind:style=\"{ 'background-image': 'url(' + image + ')' }\"&gt;&lt;/div&gt;\n</code></pre>\n\n<p>In other words, the value for <code>v-bind:style</code> is just a plain Javascript object and follows the same rules.</p>\n\n<p>UPDATE: One other note about why you may have trouble getting this to work.</p>\n\n<p>You should make sure your <code>image</code> value is quoted so that the end resulting string is:</p>\n\n<pre><code>url('some/url/path/to/image.jpeg')\n</code></pre>\n\n<p>Otherwise, if your image URL has special characters in it (such as whitespace or parentheses) the browser may not apply it properly. In Javascript, the assignment would look like:</p>\n\n<pre><code>this.image = \"'some/url/path/to/image.jpeg'\"\n</code></pre>\n\n<p>or</p>\n\n<pre><code>this.image = \"'\" + myUrl + \"'\"\n</code></pre>\n\n<p>Technically, this could be done in the template, but the escaping required to keep it valid HTML isn't worth it.</p>\n\n<p>More info here:  <a href=\"https://stackoverflow.com/questions/2168855/is-quoting-the-value-of-url-really-necessary\">Is quoting the value of url() really necessary?</a></p>\n",
+      "owner": {
+        "display_name": "David K. Hess",
+        "link": "https://stackoverflow.com/users/1055722/david-k-hess"
+      }
+    },
+    {
+      "answer_id": 50515442,
+      "body": "<p>For anyone looking to refer images from template, You can refer images directly using '@'</p>\n\n<p>Example:</p>\n\n<pre><code>&lt;img src=\"@/assets/images/home.png\"/&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "azy777",
+        "link": "https://stackoverflow.com/users/238167/azy777"
+      }
+    },
+    {
+      "answer_id": 47221965,
+      "body": "<p>The port for the Vue-cli webpack template is found in your app root's <a href=\"https://github.com/vuejs-templates/webpack/blob/develop/template/config/index.js#L17\" rel=\"noreferrer\"><code>myApp/config/index.js</code></a>. </p>\n\n<p>All you have to do is modify the <code>port</code> value inside the <code>dev</code> block:</p>\n\n<pre><code> dev: {\n    proxyTable: {},\n    env: require('./dev.env'),\n    port: 4545,\n    assetsSubDirectory: 'static',\n    assetsPublicPath: '/',\n    cssSourceMap: false\n  }\n</code></pre>\n\n<p>Now you can access your app with <code>localhost:4545</code> </p>\n\n<p>also if you have <code>.env</code> file better to set it from there</p>\n",
+      "owner": {
+        "display_name": "samayo",
+        "link": "https://stackoverflow.com/users/1640606/samayo"
+      }
+    },
+    {
+      "answer_id": 47828416,
+      "body": "<p>Just adding a question mark <code>?</code> will make it optional.</p>\n\n<pre><code>{\n    path: '/offers/:member?',\n    ...\n},\n</code></pre>\n\n<p>It works for Vue Router 2.0 onward.</p>\n\n<p>Source: <a href=\"https://github.com/vuejs/vue-router/issues/235#issuecomment-245447122\" rel=\"noreferrer\">https://github.com/vuejs/vue-router/issues/235#issuecomment-245447122</a></p>\n",
+      "owner": {
+        "display_name": "Jacob Goh",
+        "link": "https://stackoverflow.com/users/5599288/jacob-goh"
+      }
+    },
+    {
+      "answer_id": 43294294,
+      "body": "<p>You should not use component's watchers to listen to state change. I recommend you to use getters functions and then map them inside your component.</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>import { mapGetters } from 'vuex'\n\nexport default {\n  computed: {\n    ...mapGetters({\n      myState: 'getMyState'\n    })\n  }\n}\n</code></pre>\n\n<p>In your store:</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>const getters = {\n  getMyState: state =&gt; state.my_state\n}\n</code></pre>\n\n<p>You should be able to listen to any changes made to your store by using <code>this.myState</code> in your component.</p>\n\n<p><a href=\"https://vuex.vuejs.org/en/getters.html#the-mapgetters-helper\" rel=\"noreferrer\">https://vuex.vuejs.org/en/getters.html#the-mapgetters-helper</a></p>\n",
+      "owner": {
+        "display_name": "Gabriel Robert",
+        "link": "https://stackoverflow.com/users/1552755/gabriel-robert"
+      }
+    },
+    {
+      "answer_id": 33257642,
+      "body": "<p>This happens because your <code>click</code> handler fires before the value of the radio button changes. You need to listen to the <code>change</code> event instead:</p>\n\n<pre><code>&lt;input \n  type=\"radio\" \n  name=\"optionsRadios\" \n  id=\"optionsRadios2\" \n  value=\"\"\n  v-model=\"srStatus\" \n  v-on:change=\"foo\"&gt; //here\n</code></pre>\n\n<p>Also, make sure you really want to call <code>foo()</code> on ready... seems like maybe you don't actually want to do that.</p>\n\n<pre><code>ready:function(){\n    foo();\n},\n</code></pre>\n",
+      "owner": {
+        "display_name": "pherris",
+        "link": "https://stackoverflow.com/users/1861459/pherris"
+      }
+    },
+    {
+      "answer_id": 40167499,
+      "body": "\n\n<p><code>actions</code> in Vuex are asynchronous. The only way to let the calling function (initiator of action) to know that an action is complete - is by returning a Promise and resolving it later.</p>\n\n<p>Here is an example: <code>myAction</code> returns a <code>Promise</code>, makes a http call and resolves or rejects the <code>Promise</code> later - all asynchronously</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>actions: {\n    myAction(context, data) {\n        return new Promise((resolve, reject) =&gt; {\n            // Do something here... lets say, a http call using vue-resource\n            this.$http(\"/api/something\").then(response =&gt; {\n                // http success, call the mutator and change something in state\n                resolve(response);  // Let the calling function know that http is done. You may send some data back\n            }, error =&gt; {\n                // http failed, let the calling function know that action did not work out\n                reject(error);\n            })\n        })\n    }\n}\n</code></pre>\n\n<p>Now, when your Vue component initiates <code>myAction</code>, it will get this Promise object and can know whether it succeeded or not. Here is some sample code for the Vue component:</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>export default {\n    mounted: function() {\n        // This component just got created. Lets fetch some data here using an action\n        this.$store.dispatch(\"myAction\").then(response =&gt; {\n            console.log(\"Got some data, now lets show something in this component\")\n        }, error =&gt; {\n            console.error(\"Got nothing from server. Prompt user to check internet connection and try again\")\n        })\n    }\n}\n</code></pre>\n\n<p>As you can see above, it is highly beneficial for <code>actions</code> to return a <code>Promise</code>. Otherwise there is no way for the action initiator to know what is happening and when things are stable enough to show something on the user interface.</p>\n\n<p>And a last note regarding <code>mutators</code> - as you rightly pointed out, they are synchronous. They change stuff in the <code>state</code>, and are usually called from <code>actions</code>. There is no need to mix <code>Promises</code> with <code>mutators</code>, as the <code>actions</code> handle that part.</p>\n\n<p><strong>Edit: My views on the Vuex cycle of uni-directional data flow:</strong></p>\n\n<p>If you access data like <code>this.$store.state[\"your data key\"]</code> in your components, then the data flow is uni-directional.</p>\n\n<p>The promise from action is only to let the component know that action is complete.</p>\n\n<p>The component may either take data from promise resolve function in the above example (not uni-directional, therefore not recommended), or directly from <code>$store.state[\"your data key\"]</code> which is unidirectional and follows the vuex data lifecycle.</p>\n\n<p>The above paragraph assumes your mutator uses <code>Vue.set(state, \"your data key\", http_data)</code>, once the http call is completed in your action.</p>\n",
+      "owner": {
+        "display_name": "Mani Jagadeesan",
+        "link": "https://stackoverflow.com/users/654825/mani-jagadeesan"
+      }
+    },
+    {
+      "answer_id": 40261886,
+      "body": "<p>You can't use curlies (moustache tags) in attributes. Use the following to concat data:</p>\n\n<pre><code>&lt;img v-bind:src=\"imgPreUrl + 'img/logo.png'\"&gt;\n</code></pre>\n\n<p>Or the short version:</p>\n\n<pre><code>&lt;img :src=\"imgPreUrl + 'img/logo.png'\"&gt;\n</code></pre>\n\n<p>Read more on dynamic attributes in the <a href=\"https://vuejs.org/guide/syntax.html#Attributes\" rel=\"noreferrer\">Vue docs</a>.</p>\n",
+      "owner": {
+        "display_name": "Dan Mindru",
+        "link": "https://stackoverflow.com/users/3263450/dan-mindru"
+      }
+    },
+    {
+      "answer_id": 34310642,
+      "body": "<p>With your code, the <code>vue.js</code> is trying to access the <code>moment()</code> method from its scope.</p>\n\n<p>Hence you should use a method like this:</p>\n\n<pre class=\"lang-vuejs prettyprint-override\"><code>methods: {\n  moment: function () {\n    return moment();\n  }\n},\n</code></pre>\n\n<p>If you want to pass a date to the <code>moment.js</code>, I suggest to use filters:</p>\n\n<pre class=\"lang-vuejs prettyprint-override\"><code>filters: {\n  moment: function (date) {\n    return moment(date).format('MMMM Do YYYY, h:mm:ss a');\n  }\n}\n\n&lt;span&gt;{{ date | moment }}&lt;/span&gt;\n</code></pre>\n\n<p><a href=\"https://jsfiddle.net/m7e2xcf0/1/\" rel=\"noreferrer\">[demo]</a></p>\n",
+      "owner": {
+        "display_name": "pespantelis",
+        "link": "https://stackoverflow.com/users/3781701/pespantelis"
+      }
+    },
+    {
+      "answer_id": 42944927,
+      "body": "<p>I think you've created your project like this: </p>\n\n<pre><code>vue init webpack myproject\n</code></pre>\n\n<p>Well, now you can run</p>\n\n<pre><code>npm run build\n</code></pre>\n\n<p>Copy index.html and /dist/ folder into your website root directory. Done.</p>\n",
+      "owner": {
+        "display_name": "Egor Stambakio",
+        "link": "https://stackoverflow.com/users/7636961/egor-stambakio"
+      }
+    },
+    {
+      "answer_id": 44147953,
+      "body": "<p>Because you are assigning <code>instance</code> to <code>null</code>. The compiler infers that it can never be anything other than <code>null</code>. So it assumes that the else block should never be executed so <code>instance</code> is typed as <code>never</code> in the else block.</p>\n\n<p>Now if you don't declare it as the literal value <code>null</code>, and get it by any other means (ex: <code>let instance: Foo | null = getFoo();</code>), you will see that <code>instance</code> will be <code>null</code> inside the if block and <code>Foo</code> inside the else block.</p>\n\n<p>Never type documentation: <a href=\"https://www.typescriptlang.org/docs/handbook/basic-types.html#never\" rel=\"noreferrer\">https://www.typescriptlang.org/docs/handbook/basic-types.html#never</a></p>\n\n<p><strong>Edit:</strong></p>\n\n<p>The issue in the updated example is actually an open issue with the compiler. \nSee:</p>\n\n<p><a href=\"https://github.com/Microsoft/TypeScript/issues/11498\" rel=\"noreferrer\">https://github.com/Microsoft/TypeScript/issues/11498</a>\n<a href=\"https://github.com/Microsoft/TypeScript/issues/12176\" rel=\"noreferrer\">https://github.com/Microsoft/TypeScript/issues/12176</a></p>\n",
+      "owner": {
+        "display_name": "Saravana",
+        "link": "https://stackoverflow.com/users/2419531/saravana"
+      }
+    },
+    {
+      "answer_id": 43658979,
+      "body": "<p>To pass props dynamically, you can add the <code>v-bind</code> directive to your dynamic component and pass an object containing your prop names and values:</p>\n\n<p>So your dynamic component would look like this:</p>\n\n<pre><code>&lt;component :is=\"currentComponent\" v-bind=\"currentProperties\"&gt;&lt;/component&gt;\n</code></pre>\n\n<p>And in your Vue instance, <code>currentProperties</code> can change based on the current component:</p>\n\n<pre><code>data: function () {\n  return {\n    currentComponent: 'myComponent',\n  }\n},\ncomputed: {\n  currentProperties: function() {\n    if (this.currentComponent === 'myComponent') {\n      return { foo: 'bar' }\n    }\n  }\n}   \n</code></pre>\n\n<p>So now, when the <code>currentComponent</code> is <code>myComponent</code>, it will have a <code>foo</code> property equal to <code>'bar'</code>. And when it isn't, no properties will be passed.</p>\n",
+      "owner": {
+        "display_name": "thanksd",
+        "link": "https://stackoverflow.com/users/2678454/thanksd"
+      }
+    },
+    {
+      "answer_id": 42872117,
+      "body": "<p>You don't. You use a computed property and there you use the prop to return the style of the div, like this:</p>\n\n<pre><code>&lt;template&gt;\n  &lt;div id=\"a\" :style=\"style\" @mouseover=\"mouseOver()\"&gt;\n  &lt;/div&gt;\n&lt;/template&gt;\n\n&lt;script&gt;\n  export default {\n    name: 'SquareButton',\n    props: ['color'],\n    computed: {\n      style () {\n        return 'background-color: ' + this.hovering ? this.color: 'red';\n      }\n    },\n    data () {\n      return {\n        hovering: false\n      }\n    },\n    methods: {\n      mouseOver () {\n       this.hovering = !this.hovering\n      }\n    }\n  }\n&lt;/script&gt;\n\n&lt;style scoped&gt;\n&lt;style&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Potray",
+        "link": "https://stackoverflow.com/users/3549710/potray"
+      }
+    },
+    {
+      "answer_id": 41368079,
+      "body": "<p><code>state</code> references local state and <code>rootState</code> should be used when accessing the state of other modules.</p>\n\n<pre><code>let session = context.rootState.instance.session;\n</code></pre>\n\n<p>Documentation: <a href=\"https://vuex.vuejs.org/en/modules.html\" rel=\"noreferrer\">https://vuex.vuejs.org/en/modules.html</a></p>\n",
+      "owner": {
+        "display_name": "Donnie",
+        "link": "https://stackoverflow.com/users/605473/donnie"
+      }
+    },
+    {
+      "answer_id": 41229144,
+      "body": "<p>You'd want to use standard HTML comments in the <code>&lt;template&gt;</code> tag in your situation. They'll be stripped from the output as well which is nice.</p>\n\n<pre><code>&lt;!-- Comment --&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Bill Criswell",
+        "link": "https://stackoverflow.com/users/191226/bill-criswell"
+      }
+    },
+    {
+      "answer_id": 41135610,
+      "body": "<p>Your comparison function between old value and new value is having some issue. It is better not to complicate things so much, as it will increase your debugging effort later. You should keep it simple.</p>\n\n<p>The best way is to create a <code>person-component</code> and watch every person separately inside its own component, as shown below:</p>\n\n<pre><code>&lt;person-component :person=\"person\" v-for=\"person in people\"&gt;&lt;/person-component&gt;\n</code></pre>\n\n<p>Please find below a working example for watching inside person component. If you want to handle it on parent side, you may use <code>$emit</code> to send an event upwards, containing the <code>id</code> of modified person.</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>Vue.component('person-component', {\r\n    props: [\"person\"],\r\n    template: `\r\n        &lt;div class=\"person\"&gt;\r\n            {{person.name}}\r\n            &lt;input type='text' v-model='person.age'/&gt;\r\n        &lt;/div&gt;`,\r\n    watch: {\r\n        person: {\r\n            handler: function(newValue) {\r\n                console.log(\"Person with ID:\" + newValue.id + \" modified\")\r\n                console.log(\"New age: \" + newValue.age)\r\n            },\r\n            deep: true\r\n        }\r\n    }\r\n});\r\n\r\nnew Vue({\r\n    el: '#app',\r\n    data: {\r\n        people: [\r\n          {id: 0, name: 'Bob', age: 27},\r\n          {id: 1, name: 'Frank', age: 32},\r\n          {id: 2, name: 'Joe', age: 38}\r\n        ]\r\n    }\r\n});</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://unpkg.com/vue@2.1.5/dist/vue.js\"&gt;&lt;/script&gt;\r\n&lt;body&gt;\r\n    &lt;div id=\"app\"&gt;\r\n        &lt;p&gt;List of people:&lt;/p&gt;\r\n        &lt;person-component :person=\"person\" v-for=\"person in people\"&gt;&lt;/person-component&gt;\r\n    &lt;/div&gt;\r\n&lt;/body&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Mani Jagadeesan",
+        "link": "https://stackoverflow.com/users/654825/mani-jagadeesan"
+      }
+    },
+    {
+      "answer_id": 40899733,
+      "body": "<p>You need to use <code>v-bind:</code> or its alias <code>:</code>. For example,</p>\n\n<pre><code>&lt;a v-bind:href=\"'/job/'+ r.id\"&gt;\n</code></pre>\n\n<p>or </p>\n\n<pre><code>&lt;a :href=\"'/job/' + r.id\"&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "asemahle",
+        "link": "https://stackoverflow.com/users/1086646/asemahle"
+      }
+    },
+    {
+      "answer_id": 40493036,
+      "body": "<p>I got this working by following code</p>\n\n<pre><code>  getImgUrl(pet) {\n    var images = require.context('../assets/', false, /\\.png$/)\n    return images('./' + pet + \".png\")\n  }\n</code></pre>\n\n<p>and in HTML:</p>\n\n<pre><code>&lt;div class=\"col-lg-2\" v-for=\"pic in pics\"&gt;\n   &lt;img :src=\"getImgUrl(pic)\" v-bind:alt=\"pic\"&gt;\n&lt;/div&gt;\n</code></pre>\n\n<p>But not sure why my earlier approach did not work.</p>\n",
+      "owner": {
+        "display_name": "Saurabh",
+        "link": "https://stackoverflow.com/users/1610034/saurabh"
+      }
+    },
+    {
+      "answer_id": 40366150,
+      "body": "<p><code>Vue</code> allows for you to specify a default <code>prop</code> value and <code>type</code> directly, by making props an object (see: <a href=\"https://vuejs.org/guide/components.html#Prop-Validation\" rel=\"noreferrer\">https://vuejs.org/guide/components.html#Prop-Validation</a>):</p>\n\n<pre><code>props: {\n  year: {\n    default: 2016,\n    type: Number\n  }\n}\n</code></pre>\n\n<p>If the wrong type is passed then it throws an error and logs it in the console, here's the fiddle:</p>\n\n<p><a href=\"https://jsfiddle.net/cexbqe2q/\" rel=\"noreferrer\">https://jsfiddle.net/cexbqe2q/</a></p>\n",
+      "owner": {
+        "display_name": "craig_h",
+        "link": "https://stackoverflow.com/users/3122639/craig-h"
+      }
+    },
+    {
+      "answer_id": 38499949,
+      "body": "<p>From the Vue.js documentation.</p>\n\n<blockquote>\n  <p>Vue.js itself is not a full-blown framework - it is focused on the view layer only.</p>\n</blockquote>\n\n<p>As a library focusing on the V out of MVC it does not provide things like services.  </p>\n\n<p>Are you using some kind of module loader like Browserify or Webpack?<br>\nThen you can leverage the module system of ES6 to create a service all by yourself.<br>\nAll you have to do is to create a plain JavaScript class which is being exported by this new module.</p>\n\n<p>An example could look like this:  </p>\n\n<pre><code>export default class RestResource {\n\n  sendRequest() {\n    // Use vue-resource or any other http library to send your request\n  }\n\n}\n</code></pre>\n\n<p>Inside your vue component 1 and 2 you can use this service by importing the class.</p>\n\n<pre><code>import RestResource from './services/RestResource';\n\nconst restResourceService = new RestResource();\n\nrestResourceService.sendRequest();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marc",
+        "link": "https://stackoverflow.com/users/2460088/marc"
+      }
+    },
+    {
+      "answer_id": 36729756,
+      "body": "<h3>Wrap the content in a <code>pre</code> element.</h3>\n\n<p>A <code>&lt;pre&gt;</code> element will <strong>pre</strong>serve whitespace within it, eg:</p>\n\n<pre class=\"lang-html prettyprint-override\"><code>This is followed by a newline,\nnot that you can tell\n&lt;br /&gt;\n&lt;br /&gt;\n&lt;pre&gt;You can see the newline after me!\nWoohoo!&lt;/pre&gt;\n</code></pre>\n\n<p>Will result in:</p>\n\n<pre class=\"lang-none prettyprint-override\"><code>This is followed by a newline, not that you can tell\n\nYou can see the newline after me!\nWoohoo!\n</code></pre>\n\n<p>This way, you do not need to do any filtering of newlines.</p>\n",
+      "owner": {
+        "display_name": "Shelvacu",
+        "link": "https://stackoverflow.com/users/1267729/shelvacu"
+      }
+    },
+    {
+      "answer_id": 35113419,
+      "body": "<p>There's no need for a method here.</p>\n\n<p>HTML</p>\n\n<pre><code>&lt;div v-if=\"active\"&gt;\n    &lt;h2&gt;Hello World!&lt;/h2&gt;\n &lt;/div&gt;\n\n &lt;div v-on:mouseover=\"active = !active\"&gt;\n    &lt;h1&gt;Hover me!&lt;/h1&gt;\n &lt;/div&gt;\n</code></pre>\n\n<p>JS</p>\n\n<pre><code>new Vue({\n  el: 'body',\n  data: {\n    active: false\n  }\n})\n</code></pre>\n",
+      "owner": {
+        "display_name": "NICO",
+        "link": "https://stackoverflow.com/users/2326822/nico"
+      }
+    },
+    {
+      "answer_id": 29484590,
+      "body": "<p>I think the problem is your script is executed before the target dom element is loaded in the dom... one reason could be that you have placed your script in the head of the page or in a script tag that is placed before the div element <code>#main</code>. So when the script is executed it won't be able to find the target element thus the error.</p>\n\n<p>One solution is to place your script in the load event handler like</p>\n\n<pre><code>window.onload = function () {\n    var main = new Vue({\n        el: '#main',\n        data: {\n            currentActivity: 'home'\n        }\n    });\n}\n</code></pre>\n\n<hr>\n\n<p>Another syntax</p>\n\n<pre><code>window.addEventListener('load', function () {\n    //your script\n})\n</code></pre>\n",
+      "owner": {
+        "display_name": "Arun P Johny",
+        "link": "https://stackoverflow.com/users/114251/arun-p-johny"
+      }
+    }
+  ]
+}

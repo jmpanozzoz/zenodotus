@@ -121,7 +121,12 @@ docs = ["xunit.net/docs/"]
 [[library]]
 id = "nuget:dapper"
 tags = ["dapper"]
-docs = ["github.com/DapperLib/Dapper", "www.learndapper.com/", "github.com/StackExchange/Dapper"]
+docs = [
+  "github.com/DapperLib/Dapper",
+  "www.learndapper.com/",
+  "github.com/StackExchange/Dapper",
+  "code.google.com/p/dapper-dot-net",
+]
 
 [[library]]
 id = "go:github.com/gin-gonic/gin"
@@ -206,7 +211,11 @@ docs = ["docs.phpunit.de/", "phpunit.readthedocs.io/", "phpunit.de/manual/"]
 [[library]]
 id = "packagist:doctrine/orm"
 tags = ["doctrine-orm"]
-docs = ["www.doctrine-project.org/projects/doctrine-orm/", "doctrine-orm.readthedocs.io/"]
+docs = [
+  "www.doctrine-project.org/projects/doctrine-orm/",
+  "docs.doctrine-project.org/projects/doctrine-orm/",
+  "doctrine-orm.readthedocs.io/",
+]
 
 [[library]]
 id = "packagist:monolog/monolog"
@@ -269,9 +278,19 @@ tags = ["flutter-bloc"]
 docs = ["bloclibrary.dev/", "pub.dev/documentation/flutter_bloc/", "pub.dev/packages/flutter_bloc"]
 
 [[library]]
-id = "pub:get_it"
-tags = ["flutter-getit"]
-docs = ["pub.dev/packages/get_it", "pub.dev/documentation/get_it/"]
+id = "pub:sqflite"
+tags = ["sqflite"]
+docs = ["pub.dev/packages/sqflite", "pub.dev/documentation/sqflite/", "github.com/tekartik/sqflite"]
+
+[[library]]
+id = "pub:get"
+tags = ["flutter-getx"]
+docs = ["pub.dev/packages/get", "pub.dev/documentation/get/", "github.com/jonataslaw/getx"]
+
+[[library]]
+id = "pub:go_router"
+tags = ["flutter-go-router"]
+docs = ["pub.dev/packages/go_router", "pub.dev/documentation/go_router/", "docs.flutter.dev/ui/navigation"]
 
 [[library]]
 id = "swift:github.com/alamofire/alamofire"
@@ -286,7 +305,7 @@ docs = ["swiftpackageindex.com/apple/swift-nio", "apple.github.io/swift-nio/"]
 [[library]]
 id = "swift:github.com/vapor/vapor"
 tags = ["vapor"]
-docs = ["docs.vapor.codes/"]
+docs = ["docs.vapor.codes/", "api.vapor.codes/", "vapor.github.io/documentation", "github.com/vapor/vapor"]
 
 [[library]]
 id = "swift:github.com/onevcat/kingfisher"

@@ -1,0 +1,1908 @@
+{
+  "library": "go:github.com/gin-gonic/gin",
+  "fetched_at": "2026-11-21T17:28:18Z",
+  "questions": [
+    {
+      "question_id": 29418478,
+      "title": "Go gin framework CORS",
+      "accepted_answer_id": 29439630,
+      "score": 66,
+      "link": "https://stackoverflow.com/questions/29418478/go-gin-framework-cors",
+      "owner": {
+        "display_name": "qwertmax",
+        "link": "https://stackoverflow.com/users/661378/qwertmax"
+      }
+    },
+    {
+      "question_id": 34046194,
+      "title": "How to pass arguments to router handlers in Golang using Gin web framework?",
+      "accepted_answer_id": 34053075,
+      "score": 52,
+      "link": "https://stackoverflow.com/questions/34046194/how-to-pass-arguments-to-router-handlers-in-golang-using-gin-web-framework",
+      "owner": {
+        "display_name": "Niklas9",
+        "link": "https://stackoverflow.com/users/1258192/niklas9"
+      }
+    },
+    {
+      "question_id": 56200925,
+      "title": "Return an empty array instead of null with golang for json return with gin",
+      "accepted_answer_id": 56201087,
+      "score": 47,
+      "link": "https://stackoverflow.com/questions/56200925/return-an-empty-array-instead-of-null-with-golang-for-json-return-with-gin",
+      "owner": {
+        "display_name": "Bussiere",
+        "link": "https://stackoverflow.com/users/462794/bussiere"
+      }
+    },
+    {
+      "question_id": 41279297,
+      "title": "How to get all query parameters from go *gin.context object",
+      "accepted_answer_id": 41279660,
+      "score": 46,
+      "link": "https://stackoverflow.com/questions/41279297/how-to-get-all-query-parameters-from-go-gin-context-object",
+      "owner": {
+        "display_name": "codec",
+        "link": "https://stackoverflow.com/users/5996587/codec"
+      }
+    },
+    {
+      "question_id": 32443738,
+      "title": "Setting up Route Not Found in Gin",
+      "accepted_answer_id": 32444263,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/32443738/setting-up-route-not-found-in-gin",
+      "owner": {
+        "display_name": "tommyd456",
+        "link": "https://stackoverflow.com/users/1003632/tommyd456"
+      }
+    },
+    {
+      "question_id": 41742988,
+      "title": "Make mock gin.Context",
+      "accepted_answer_id": 41762061,
+      "score": 31,
+      "link": "https://stackoverflow.com/questions/41742988/make-mock-gin-context",
+      "owner": {
+        "display_name": "Wilson Tamarozzi",
+        "link": "https://stackoverflow.com/users/5271400/wilson-tamarozzi"
+      }
+    },
+    {
+      "question_id": 46411173,
+      "title": "How to set gin mode to release mode?",
+      "accepted_answer_id": 52830435,
+      "score": 26,
+      "link": "https://stackoverflow.com/questions/46411173/how-to-set-gin-mode-to-release-mode",
+      "owner": {
+        "display_name": "Soroosh",
+        "link": "https://stackoverflow.com/users/4849647/soroosh"
+      }
+    },
+    {
+      "question_id": 35672842,
+      "title": "Go and Gin: Passing around struct for database context?",
+      "accepted_answer_id": 35673437,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/35672842/go-and-gin-passing-around-struct-for-database-context",
+      "owner": {
+        "display_name": "Tane Piper",
+        "link": "https://stackoverflow.com/users/324234/tane-piper"
+      }
+    },
+    {
+      "question_id": 38501325,
+      "title": "How to log response body in gin",
+      "accepted_answer_id": 38548555,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/38501325/how-to-log-response-body-in-gin",
+      "owner": {
+        "display_name": "John Zeng",
+        "link": "https://stackoverflow.com/users/6080206/john-zeng"
+      }
+    },
+    {
+      "question_id": 36434332,
+      "title": "Does gin-gonic process requests in parallel?",
+      "accepted_answer_id": 36434929,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/36434332/does-gin-gonic-process-requests-in-parallel",
+      "owner": {
+        "display_name": "mlewis54",
+        "link": "https://stackoverflow.com/users/583101/mlewis54"
+      }
+    },
+    {
+      "question_id": 56664328,
+      "title": "Simplest way to return literal JSON using gin gonic",
+      "accepted_answer_id": 56673371,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/56664328/simplest-way-to-return-literal-json-using-gin-gonic",
+      "owner": {
+        "display_name": "tritium_3",
+        "link": "https://stackoverflow.com/users/2715121/tritium-3"
+      }
+    },
+    {
+      "question_id": 69948784,
+      "title": "How to handle errors in Gin middleware",
+      "accepted_answer_id": 69948929,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/69948784/how-to-handle-errors-in-gin-middleware",
+      "owner": {
+        "display_name": "John",
+        "link": "https://stackoverflow.com/users/2519631/john"
+      }
+    },
+    {
+      "question_id": 48780070,
+      "title": "Disable request logging for a particular Go-Gin route",
+      "accepted_answer_id": 49399005,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/48780070/disable-request-logging-for-a-particular-go-gin-route",
+      "owner": {
+        "display_name": "Paul Lam",
+        "link": "https://stackoverflow.com/users/654416/paul-lam"
+      }
+    },
+    {
+      "question_id": 57354389,
+      "title": "How to render static files within Gin router?",
+      "accepted_answer_id": 57354429,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/57354389/how-to-render-static-files-within-gin-router",
+      "owner": {
+        "display_name": "02040402",
+        "link": "https://stackoverflow.com/users/11296502/02040402"
+      }
+    },
+    {
+      "question_id": 41483970,
+      "title": "How to return html on Gin?",
+      "accepted_answer_id": 41484717,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/41483970/how-to-return-html-on-gin",
+      "owner": {
+        "display_name": "AndreDurao",
+        "link": "https://stackoverflow.com/users/268673/andredurao"
+      }
+    },
+    {
+      "question_id": 42967235,
+      "title": "Golang Gin-Gonic Split Routes into Multiple Files",
+      "accepted_answer_id": 42968011,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/42967235/golang-gin-gonic-split-routes-into-multiple-files",
+      "owner": {
+        "display_name": "spdrman",
+        "link": "https://stackoverflow.com/users/284651/spdrman"
+      }
+    },
+    {
+      "question_id": 61091852,
+      "title": "How to install Gin with Golang",
+      "accepted_answer_id": 61092206,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/61091852/how-to-install-gin-with-golang",
+      "owner": {
+        "display_name": "Yves",
+        "link": "https://stackoverflow.com/users/3305546/yves"
+      }
+    },
+    {
+      "question_id": 65608610,
+      "title": "How to use gin as a server to write prometheus exporter metrics",
+      "accepted_answer_id": 65609042,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/65608610/how-to-use-gin-as-a-server-to-write-prometheus-exporter-metrics",
+      "owner": {
+        "display_name": "gophergfer",
+        "link": "https://stackoverflow.com/users/14338294/gophergfer"
+      }
+    },
+    {
+      "question_id": 66952761,
+      "title": "How to unit test a Go Gin handler function?",
+      "accepted_answer_id": 66953599,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/66952761/how-to-unit-test-a-go-gin-handler-function",
+      "owner": {
+        "display_name": "Hsn",
+        "link": "https://stackoverflow.com/users/6508416/hsn"
+      }
+    },
+    {
+      "question_id": 70069834,
+      "title": "Return custom error message from struct tag validation",
+      "accepted_answer_id": 70072158,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/70069834/return-custom-error-message-from-struct-tag-validation",
+      "owner": {
+        "display_name": "John",
+        "link": "https://stackoverflow.com/users/2519631/john"
+      }
+    },
+    {
+      "question_id": 26537299,
+      "title": "GoLang Gin Framework Status Code Without Message Body",
+      "accepted_answer_id": 26537704,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/26537299/golang-gin-framework-status-code-without-message-body",
+      "owner": {
+        "display_name": "Bogdan Nechyporenko",
+        "link": "https://stackoverflow.com/users/2158624/bogdan-nechyporenko"
+      }
+    },
+    {
+      "question_id": 62736851,
+      "title": "Go-Gin read request body many times",
+      "accepted_answer_id": 62737959,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/62736851/go-gin-read-request-body-many-times",
+      "owner": {
+        "display_name": "bihire boris",
+        "link": "https://stackoverflow.com/users/10238136/bihire-boris"
+      }
+    },
+    {
+      "question_id": 62906766,
+      "title": "How to group routes in gin?",
+      "accepted_answer_id": 62910048,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/62906766/how-to-group-routes-in-gin",
+      "owner": {
+        "display_name": "akko",
+        "link": "https://stackoverflow.com/users/10865144/akko"
+      }
+    },
+    {
+      "question_id": 64121266,
+      "title": "Programmatically set an url parameter in gin context for testing purpose",
+      "accepted_answer_id": 64122385,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/64121266/programmatically-set-an-url-parameter-in-gin-context-for-testing-purpose",
+      "owner": {
+        "display_name": "KawaLo",
+        "link": "https://stackoverflow.com/users/9021186/kawalo"
+      }
+    },
+    {
+      "question_id": 57270597,
+      "title": "Transform gin.Context to context.Context",
+      "accepted_answer_id": 57270840,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/57270597/transform-gin-context-to-context-context",
+      "owner": {
+        "display_name": "Vishal R",
+        "link": "https://stackoverflow.com/users/2575021/vishal-r"
+      }
+    },
+    {
+      "question_id": 38970561,
+      "title": "Golang gin gonic web framework proxy route to another backend",
+      "accepted_answer_id": 38974969,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/38970561/golang-gin-gonic-web-framework-proxy-route-to-another-backend",
+      "owner": {
+        "display_name": "alpha_cod",
+        "link": "https://stackoverflow.com/users/862763/alpha-cod"
+      }
+    },
+    {
+      "question_id": 61498943,
+      "title": "Go Gin framework to log in JSON",
+      "accepted_answer_id": 61501244,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/61498943/go-gin-framework-to-log-in-json",
+      "owner": {
+        "display_name": "Andrei Dascalu",
+        "link": "https://stackoverflow.com/users/1885493/andrei-dascalu"
+      }
+    },
+    {
+      "question_id": 61970551,
+      "title": "Golang Gin Redirect and Render a Template with New Variables",
+      "accepted_answer_id": 62549264,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/61970551/golang-gin-redirect-and-render-a-template-with-new-variables",
+      "owner": {
+        "display_name": "Majid Alaeinia",
+        "link": "https://stackoverflow.com/users/8463337/majid-alaeinia"
+      }
+    },
+    {
+      "question_id": 32005459,
+      "title": "same code but different results using gin + go-template",
+      "accepted_answer_id": 36240153,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/32005459/same-code-but-different-results-using-gin-go-template",
+      "owner": {
+        "display_name": "Miaonster",
+        "link": "https://stackoverflow.com/users/875813/miaonster"
+      }
+    },
+    {
+      "question_id": 53936092,
+      "title": "Syntax question from `gin-gonic` documentation",
+      "accepted_answer_id": 53936253,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/53936092/syntax-question-from-gin-gonic-documentation",
+      "owner": {
+        "display_name": "Spencer Stolworthy",
+        "link": "https://stackoverflow.com/users/9843090/spencer-stolworthy"
+      }
+    },
+    {
+      "question_id": 31911579,
+      "title": "gin/golang - Empty Req Body",
+      "accepted_answer_id": 31912227,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/31911579/gin-golang-empty-req-body",
+      "owner": {
+        "display_name": "Leon Hu",
+        "link": "https://stackoverflow.com/users/1376084/leon-hu"
+      }
+    },
+    {
+      "question_id": 49913266,
+      "title": "How to get header data of postman using gin package in golang",
+      "accepted_answer_id": 49913424,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/49913266/how-to-get-header-data-of-postman-using-gin-package-in-golang",
+      "owner": {
+        "display_name": "Puneet",
+        "link": "https://stackoverflow.com/users/9219620/puneet"
+      }
+    },
+    {
+      "question_id": 62608429,
+      "title": "How to combine group of routes in gin?",
+      "accepted_answer_id": 62608670,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/62608429/how-to-combine-group-of-routes-in-gin",
+      "owner": {
+        "display_name": "p_k",
+        "link": "https://stackoverflow.com/users/9389361/p-k"
+      }
+    },
+    {
+      "question_id": 68836237,
+      "title": "How to get full server URL from any endpoint handler in Gin",
+      "accepted_answer_id": 68836755,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/68836237/how-to-get-full-server-url-from-any-endpoint-handler-in-gin",
+      "owner": {
+        "display_name": "Kaushal28",
+        "link": "https://stackoverflow.com/users/5353128/kaushal28"
+      }
+    },
+    {
+      "question_id": 37813067,
+      "title": "How to use templates in Go Gin for dynamic content",
+      "accepted_answer_id": 37814341,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/37813067/how-to-use-templates-in-go-gin-for-dynamic-content",
+      "owner": {
+        "display_name": "kikulikov",
+        "link": "https://stackoverflow.com/users/2229600/kikulikov"
+      }
+    },
+    {
+      "question_id": 38218019,
+      "title": "How To pass a function to template through c.HTML() in gin gonic framework (golang)",
+      "accepted_answer_id": 38221548,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/38218019/how-to-pass-a-function-to-template-through-c-html-in-gin-gonic-framework-gola",
+      "owner": {
+        "display_name": "Vutuz",
+        "link": "https://stackoverflow.com/users/4401682/vutuz"
+      }
+    },
+    {
+      "question_id": 38592064,
+      "title": "Listen on TCP4 not TCP6",
+      "accepted_answer_id": 38592286,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/38592064/listen-on-tcp4-not-tcp6",
+      "owner": {
+        "display_name": "user914584",
+        "link": "https://stackoverflow.com/users/914584/user914584"
+      }
+    },
+    {
+      "question_id": 39489175,
+      "title": "How to define a go-gin route with an id in the middle",
+      "accepted_answer_id": 39489688,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/39489175/how-to-define-a-go-gin-route-with-an-id-in-the-middle",
+      "owner": {
+        "display_name": "codec",
+        "link": "https://stackoverflow.com/users/5996587/codec"
+      }
+    },
+    {
+      "question_id": 39922263,
+      "title": "Using Gin: How to pass original JSON payload to a Redirect POST",
+      "accepted_answer_id": 39922748,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/39922263/using-gin-how-to-pass-original-json-payload-to-a-redirect-post",
+      "owner": {
+        "display_name": "user6938349",
+        "link": "https://stackoverflow.com/users/6938349/user6938349"
+      }
+    },
+    {
+      "question_id": 48010954,
+      "title": "JSON response in Golang’s GIN returning as scrambled data",
+      "accepted_answer_id": 48011442,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/48010954/json-response-in-golang-s-gin-returning-as-scrambled-data",
+      "owner": {
+        "display_name": "Auyer",
+        "link": "https://stackoverflow.com/users/5621569/auyer"
+      }
+    },
+    {
+      "question_id": 50574796,
+      "title": "Gin-Gonic middleware declaration",
+      "accepted_answer_id": 50575548,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/50574796/gin-gonic-middleware-declaration",
+      "owner": {
+        "display_name": "cHz",
+        "link": "https://stackoverflow.com/users/3022872/chz"
+      }
+    },
+    {
+      "question_id": 35988767,
+      "title": "Testing gin based REST API not getting params while using net/http/httptest",
+      "accepted_answer_id": 35992137,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/35988767/testing-gin-based-rest-api-not-getting-params-while-using-net-http-httptest",
+      "owner": {
+        "display_name": "Alex Benz",
+        "link": "https://stackoverflow.com/users/4576805/alex-benz"
+      }
+    },
+    {
+      "question_id": 38139584,
+      "title": "How to write golang code in html file (gin gonic framework)",
+      "accepted_answer_id": 39875812,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/38139584/how-to-write-golang-code-in-html-file-gin-gonic-framework",
+      "owner": {
+        "display_name": "Vutuz",
+        "link": "https://stackoverflow.com/users/4401682/vutuz"
+      }
+    },
+    {
+      "question_id": 59509505,
+      "title": "c.JSON gin.H{()} outputs empty objects",
+      "accepted_answer_id": 59509628,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/59509505/c-json-gin-h-outputs-empty-objects",
+      "owner": {
+        "display_name": "Valor_",
+        "link": "https://stackoverflow.com/users/2315443/valor"
+      }
+    },
+    {
+      "question_id": 66719469,
+      "title": "Gin gonic templates overwriting partial templates",
+      "accepted_answer_id": 66719657,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/66719469/gin-gonic-templates-overwriting-partial-templates",
+      "owner": {
+        "display_name": "Razmooo",
+        "link": "https://stackoverflow.com/users/7553785/razmooo"
+      }
+    },
+    {
+      "question_id": 69295363,
+      "title": "If I use multiple middleware in gin what is the order in which they are executed",
+      "accepted_answer_id": 69302853,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/69295363/if-i-use-multiple-middleware-in-gin-what-is-the-order-in-which-they-are-executed",
+      "owner": {
+        "display_name": "user1017860",
+        "link": "https://stackoverflow.com/users/1017860/user1017860"
+      }
+    },
+    {
+      "question_id": 73025363,
+      "title": "Can&#39;t sort in GORM",
+      "accepted_answer_id": 73026453,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/73025363/cant-sort-in-gorm",
+      "owner": {
+        "display_name": "Casper",
+        "link": "https://stackoverflow.com/users/19617327/casper"
+      }
+    },
+    {
+      "question_id": 39982526,
+      "title": "Iterate through all PostForm values Gin Gonic",
+      "accepted_answer_id": 61111410,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/39982526/iterate-through-all-postform-values-gin-gonic",
+      "owner": {
+        "display_name": "BadPirate",
+        "link": "https://stackoverflow.com/users/285694/badpirate"
+      }
+    },
+    {
+      "question_id": 40343515,
+      "title": "How to handle these routes: /example/log and /example/:id/log?",
+      "accepted_answer_id": 40348077,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/40343515/how-to-handle-these-routes-example-log-and-example-id-log",
+      "owner": {
+        "display_name": "Zender Fufikoff",
+        "link": "https://stackoverflow.com/users/6579857/zender-fufikoff"
+      }
+    },
+    {
+      "question_id": 57427823,
+      "title": "How to log or print request received with gin?",
+      "accepted_answer_id": 59173430,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/57427823/how-to-log-or-print-request-received-with-gin",
+      "owner": {
+        "display_name": "Bussiere",
+        "link": "https://stackoverflow.com/users/462794/bussiere"
+      }
+    },
+    {
+      "question_id": 66658503,
+      "title": "How to render HTML Template In Gin Gonic (Golang)?",
+      "accepted_answer_id": 68130463,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/66658503/how-to-render-html-template-in-gin-gonic-golang",
+      "owner": {
+        "display_name": "Tammam",
+        "link": "https://stackoverflow.com/users/8300010/tammam"
+      }
+    },
+    {
+      "question_id": 38042181,
+      "title": "How to make templates work with gin framework?",
+      "accepted_answer_id": 38042460,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/38042181/how-to-make-templates-work-with-gin-framework",
+      "owner": {
+        "display_name": "ameykpatil",
+        "link": "https://stackoverflow.com/users/1049413/ameykpatil"
+      }
+    },
+    {
+      "question_id": 42373423,
+      "title": "How to add multiple groups to gin routing for api version inheritance?",
+      "accepted_answer_id": 42378645,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/42373423/how-to-add-multiple-groups-to-gin-routing-for-api-version-inheritance",
+      "owner": {
+        "display_name": "Berti92",
+        "link": "https://stackoverflow.com/users/4607988/berti92"
+      }
+    },
+    {
+      "question_id": 68196655,
+      "title": "How to set new request body in Go Gin while proxing a request",
+      "accepted_answer_id": 68197128,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/68196655/how-to-set-new-request-body-in-go-gin-while-proxing-a-request",
+      "owner": {
+        "display_name": "Nirojan Selvanathan",
+        "link": "https://stackoverflow.com/users/6164611/nirojan-selvanathan"
+      }
+    },
+    {
+      "question_id": 68263340,
+      "title": "How to extract comma separated values from query parameter in Go?",
+      "accepted_answer_id": 68263664,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/68263340/how-to-extract-comma-separated-values-from-query-parameter-in-go",
+      "owner": {
+        "display_name": "user16368243",
+        "link": null
+      }
+    },
+    {
+      "question_id": 69567892,
+      "title": "Bcrypt takes a lot of time in go?",
+      "accepted_answer_id": 69568265,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/69567892/bcrypt-takes-a-lot-of-time-in-go",
+      "owner": {
+        "display_name": "ser",
+        "link": "https://stackoverflow.com/users/17113734/ser"
+      }
+    },
+    {
+      "question_id": 71146582,
+      "title": "How to get request host from Go gin context?",
+      "accepted_answer_id": 71146788,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/71146582/how-to-get-request-host-from-go-gin-context",
+      "owner": {
+        "display_name": "Ben Walker",
+        "link": "https://stackoverflow.com/users/1098668/ben-walker"
+      }
+    },
+    {
+      "question_id": 71498706,
+      "title": "What is the use of test mode in Gin",
+      "accepted_answer_id": 71498881,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/71498706/what-is-the-use-of-test-mode-in-gin",
+      "owner": {
+        "display_name": "Vivek",
+        "link": "https://stackoverflow.com/users/814548/vivek"
+      }
+    },
+    {
+      "question_id": 38562141,
+      "title": "Set map,struct to session in golang( gin gonic framework)",
+      "accepted_answer_id": 38563009,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/38562141/set-map-struct-to-session-in-golang-gin-gonic-framework",
+      "owner": {
+        "display_name": "Vutuz",
+        "link": "https://stackoverflow.com/users/4401682/vutuz"
+      }
+    },
+    {
+      "question_id": 38970180,
+      "title": "Golang Gin &quot;c.Param undefined (type *gin.Context has no field or method Param)&quot;",
+      "accepted_answer_id": 38970791,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/38970180/golang-gin-c-param-undefined-type-gin-context-has-no-field-or-method-param",
+      "owner": {
+        "display_name": "k16",
+        "link": "https://stackoverflow.com/users/3936512/k16"
+      }
+    },
+    {
+      "question_id": 41197200,
+      "title": "How to ensure redis subscriber receive message in Go (Golang)?",
+      "accepted_answer_id": 41199908,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/41197200/how-to-ensure-redis-subscriber-receive-message-in-go-golang",
+      "owner": {
+        "display_name": "user7309727",
+        "link": null
+      }
+    },
+    {
+      "question_id": 48939093,
+      "title": "Do I need to spawn multiple Go web server instances to fully utilize my CPU?",
+      "accepted_answer_id": 48941075,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/48939093/do-i-need-to-spawn-multiple-go-web-server-instances-to-fully-utilize-my-cpu",
+      "owner": {
+        "display_name": "David Alsh",
+        "link": "https://stackoverflow.com/users/4040931/david-alsh"
+      }
+    },
+    {
+      "question_id": 53705933,
+      "title": "Gin framework can not get the data from Postman",
+      "accepted_answer_id": 53706103,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/53705933/gin-framework-can-not-get-the-data-from-postman",
+      "owner": {
+        "display_name": "zwl1619",
+        "link": "https://stackoverflow.com/users/5305592/zwl1619"
+      }
+    },
+    {
+      "question_id": 55850694,
+      "title": "How to serve two static sites with gin in golang?",
+      "accepted_answer_id": 55852216,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/55850694/how-to-serve-two-static-sites-with-gin-in-golang",
+      "owner": {
+        "display_name": "Jbar",
+        "link": "https://stackoverflow.com/users/11410848/jbar"
+      }
+    },
+    {
+      "question_id": 55973623,
+      "title": "How can I have a parameter with slashes in gin url",
+      "accepted_answer_id": 55973743,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/55973623/how-can-i-have-a-parameter-with-slashes-in-gin-url",
+      "owner": {
+        "display_name": "taraf",
+        "link": "https://stackoverflow.com/users/8337498/taraf"
+      }
+    },
+    {
+      "question_id": 57024470,
+      "title": "Folder structure and package naming convention for a REST API develop in Gin Framework",
+      "accepted_answer_id": 57024728,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/57024470/folder-structure-and-package-naming-convention-for-a-rest-api-develop-in-gin-fra",
+      "owner": {
+        "display_name": "Trevor. W",
+        "link": "https://stackoverflow.com/users/3390955/trevor-w"
+      }
+    },
+    {
+      "question_id": 57928208,
+      "title": "how to make multiple models auto migrate in gorm",
+      "accepted_answer_id": 57929078,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/57928208/how-to-make-multiple-models-auto-migrate-in-gorm",
+      "owner": {
+        "display_name": "temps hd",
+        "link": "https://stackoverflow.com/users/11992766/temps-hd"
+      }
+    },
+    {
+      "question_id": 62245560,
+      "title": "i18n support for Golang Web application HTML templates",
+      "accepted_answer_id": 62390485,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/62245560/i18n-support-for-golang-web-application-html-templates",
+      "owner": {
+        "display_name": "Kohei TAMURA",
+        "link": "https://stackoverflow.com/users/7725621/kohei-tamura"
+      }
+    },
+    {
+      "question_id": 63968197,
+      "title": "How to wrap route handler function gin.HandlerFunc",
+      "accepted_answer_id": 63968889,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/63968197/how-to-wrap-route-handler-function-gin-handlerfunc",
+      "owner": {
+        "display_name": "Erik",
+        "link": "https://stackoverflow.com/users/4764732/erik"
+      }
+    },
+    {
+      "question_id": 64094935,
+      "title": "HTTP client receives status code 200 when server panics with gin-gonic and gin-contrib/gzip",
+      "accepted_answer_id": 64095232,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/64094935/http-client-receives-status-code-200-when-server-panics-with-gin-gonic-and-gin-c",
+      "owner": {
+        "display_name": "N.F.",
+        "link": "https://stackoverflow.com/users/4052858/n-f"
+      }
+    },
+    {
+      "question_id": 66090686,
+      "title": "gqlgen Set cookie from resolver",
+      "accepted_answer_id": 66090687,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/66090686/gqlgen-set-cookie-from-resolver",
+      "owner": {
+        "display_name": "Reza",
+        "link": "https://stackoverflow.com/users/11651903/reza"
+      }
+    },
+    {
+      "question_id": 66432222,
+      "title": "Gin Validation for optional pointer to be uuid?",
+      "accepted_answer_id": 66435460,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/66432222/gin-validation-for-optional-pointer-to-be-uuid",
+      "owner": {
+        "display_name": "Dan",
+        "link": "https://stackoverflow.com/users/983777/dan"
+      }
+    },
+    {
+      "question_id": 67267065,
+      "title": "How to propagate context values from Gin middleware to gqlgen resolvers?",
+      "accepted_answer_id": 67267852,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/67267065/how-to-propagate-context-values-from-gin-middleware-to-gqlgen-resolvers",
+      "owner": {
+        "display_name": "Helen Grey",
+        "link": "https://stackoverflow.com/users/9508987/helen-grey"
+      }
+    },
+    {
+      "question_id": 71148822,
+      "title": "golang: serving net.Conn using a gin router",
+      "accepted_answer_id": 71150067,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/71148822/golang-serving-net-conn-using-a-gin-router",
+      "owner": {
+        "display_name": "Prisacari Dmitrii",
+        "link": "https://stackoverflow.com/users/2460419/prisacari-dmitrii"
+      }
+    },
+    {
+      "question_id": 72003273,
+      "title": "Golang Gorm not retrieving data from associated table",
+      "accepted_answer_id": 72006017,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/72003273/golang-gorm-not-retrieving-data-from-associated-table",
+      "owner": {
+        "display_name": "MrCujo",
+        "link": "https://stackoverflow.com/users/2882913/mrcujo"
+      }
+    },
+    {
+      "question_id": 72682230,
+      "title": "golang jwt.MapClaims get user ID",
+      "accepted_answer_id": 72689355,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/72682230/golang-jwt-mapclaims-get-user-id",
+      "owner": {
+        "display_name": "jjplack",
+        "link": "https://stackoverflow.com/users/10873201/jjplack"
+      }
+    },
+    {
+      "question_id": 75929468,
+      "title": "Cannot find default credentials in Cloud Run",
+      "accepted_answer_id": 75969968,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/75929468/cannot-find-default-credentials-in-cloud-run",
+      "owner": {
+        "display_name": "positron",
+        "link": "https://stackoverflow.com/users/7904282/positron"
+      }
+    },
+    {
+      "question_id": 76448408,
+      "title": "CORS policy: Response to preflight request doesn&#39;t pass access control check: No &#39;Access-Control-Allow-Origin&#39;",
+      "accepted_answer_id": 76448813,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/76448408/cors-policy-response-to-preflight-request-doesnt-pass-access-control-check-no",
+      "owner": {
+        "display_name": "Vertislav",
+        "link": "https://stackoverflow.com/users/5304395/vertislav"
+      }
+    },
+    {
+      "question_id": 76455596,
+      "title": "Golang Gin Base HTML Template",
+      "accepted_answer_id": 76458242,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/76455596/golang-gin-base-html-template",
+      "owner": {
+        "display_name": "Melisa",
+        "link": "https://stackoverflow.com/users/15011362/melisa"
+      }
+    },
+    {
+      "question_id": 76585245,
+      "title": "Fizz OpenAPi generator for Gin is renaming types",
+      "accepted_answer_id": 76586194,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/76585245/fizz-openapi-generator-for-gin-is-renaming-types",
+      "owner": {
+        "display_name": "programming_hobbyist",
+        "link": "https://stackoverflow.com/users/19371130/programming-hobbyist"
+      }
+    },
+    {
+      "question_id": 77618417,
+      "title": "How to add a name to the gin route like laravel?",
+      "accepted_answer_id": 77618658,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/77618417/how-to-add-a-name-to-the-gin-route-like-laravel",
+      "owner": {
+        "display_name": "Grocker",
+        "link": "https://stackoverflow.com/users/10799849/grocker"
+      }
+    },
+    {
+      "question_id": 39096335,
+      "title": "How to send an array of maps and iterate over it using gin-templating",
+      "accepted_answer_id": 39096533,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/39096335/how-to-send-an-array-of-maps-and-iterate-over-it-using-gin-templating",
+      "owner": {
+        "display_name": "codec",
+        "link": "https://stackoverflow.com/users/5996587/codec"
+      }
+    },
+    {
+      "question_id": 39723345,
+      "title": "Mocking functions in Golang to test my http routes",
+      "accepted_answer_id": 39729274,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/39723345/mocking-functions-in-golang-to-test-my-http-routes",
+      "owner": {
+        "display_name": "Jenny Blunt",
+        "link": "https://stackoverflow.com/users/789125/jenny-blunt"
+      }
+    },
+    {
+      "question_id": 43113649,
+      "title": "How to set http headers for static files?",
+      "accepted_answer_id": 43132134,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/43113649/how-to-set-http-headers-for-static-files",
+      "owner": {
+        "display_name": "homeboy",
+        "link": "https://stackoverflow.com/users/5589201/homeboy"
+      }
+    },
+    {
+      "question_id": 51920940,
+      "title": "How to get field with error from gin binding/validation?",
+      "accepted_answer_id": 72256351,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/51920940/how-to-get-field-with-error-from-gin-binding-validation",
+      "owner": {
+        "display_name": "binary01",
+        "link": "https://stackoverflow.com/users/5508532/binary01"
+      }
+    },
+    {
+      "question_id": 52499224,
+      "title": "File Download works with Chrome but not in Firefox when downloading golang generated file",
+      "accepted_answer_id": 52556549,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/52499224/file-download-works-with-chrome-but-not-in-firefox-when-downloading-golang-gener",
+      "owner": {
+        "display_name": "Vad1mo",
+        "link": "https://stackoverflow.com/users/1156199/vad1mo"
+      }
+    },
+    {
+      "question_id": 52719015,
+      "title": "Using Gin gonic and some scheduler in Golang",
+      "accepted_answer_id": 52727369,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/52719015/using-gin-gonic-and-some-scheduler-in-golang",
+      "owner": {
+        "display_name": "mondayguy",
+        "link": "https://stackoverflow.com/users/4252996/mondayguy"
+      }
+    },
+    {
+      "question_id": 53145887,
+      "title": "Gracefully handle template rendering errors in gin-gonic",
+      "accepted_answer_id": 53153859,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/53145887/gracefully-handle-template-rendering-errors-in-gin-gonic",
+      "owner": {
+        "display_name": "Parnic",
+        "link": "https://stackoverflow.com/users/897869/parnic"
+      }
+    },
+    {
+      "question_id": 54687947,
+      "title": "Expose Prometheus metrics in a separate port in golang",
+      "accepted_answer_id": 54690887,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/54687947/expose-prometheus-metrics-in-a-separate-port-in-golang",
+      "owner": {
+        "display_name": "Simone Cabrino",
+        "link": "https://stackoverflow.com/users/3138630/simone-cabrino"
+      }
+    },
+    {
+      "question_id": 57020601,
+      "title": "How to render/show images in HTML created on the fly with Golang and gin-gonic",
+      "accepted_answer_id": 57020723,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/57020601/how-to-render-show-images-in-html-created-on-the-fly-with-golang-and-gin-gonic",
+      "owner": {
+        "display_name": "kike",
+        "link": "https://stackoverflow.com/users/10971002/kike"
+      }
+    },
+    {
+      "question_id": 62696187,
+      "title": "JSON Response: return nested JSON",
+      "accepted_answer_id": 62697055,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/62696187/json-response-return-nested-json",
+      "owner": {
+        "display_name": "Ankita",
+        "link": "https://stackoverflow.com/users/6708271/ankita"
+      }
+    },
+    {
+      "question_id": 66289603,
+      "title": "Use existing session cookie in gin router",
+      "accepted_answer_id": 66299964,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/66289603/use-existing-session-cookie-in-gin-router",
+      "owner": {
+        "display_name": "symtek",
+        "link": "https://stackoverflow.com/users/4650733/symtek"
+      }
+    },
+    {
+      "question_id": 67508787,
+      "title": "How to mock a gin.Context?",
+      "accepted_answer_id": 67511072,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/67508787/how-to-mock-a-gin-context",
+      "owner": {
+        "display_name": "fabian heredia",
+        "link": "https://stackoverflow.com/users/15909317/fabian-heredia"
+      }
+    },
+    {
+      "question_id": 67799952,
+      "title": "Golang gin proxy to handle svelte frontend and Golang api",
+      "accepted_answer_id": 67804792,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/67799952/golang-gin-proxy-to-handle-svelte-frontend-and-golang-api",
+      "owner": {
+        "display_name": "ucktrk",
+        "link": "https://stackoverflow.com/users/14575858/ucktrk"
+      }
+    },
+    {
+      "question_id": 68031175,
+      "title": "How to log HTTP client&#39;s requests with request ID that was created by Gin context",
+      "accepted_answer_id": 68031853,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/68031175/how-to-log-http-clients-requests-with-request-id-that-was-created-by-gin-contex",
+      "owner": {
+        "display_name": "joeyave",
+        "link": "https://stackoverflow.com/users/11289618/joeyave"
+      }
+    },
+    {
+      "question_id": 72597426,
+      "title": "How to deploy a go web application",
+      "accepted_answer_id": 72597633,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/72597426/how-to-deploy-a-go-web-application",
+      "owner": {
+        "display_name": "januw a",
+        "link": "https://stackoverflow.com/users/9874407/januw-a"
+      }
+    },
+    {
+      "question_id": 73098522,
+      "title": "How to get an array of parameter values in gin",
+      "accepted_answer_id": 73098555,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/73098522/how-to-get-an-array-of-parameter-values-in-gin",
+      "owner": {
+        "display_name": "Casper",
+        "link": "https://stackoverflow.com/users/19617327/casper"
+      }
+    },
+    {
+      "question_id": 73606458,
+      "title": "How to scan jsonb objects from Postgresql to golang structs",
+      "accepted_answer_id": 73608169,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/73606458/how-to-scan-jsonb-objects-from-postgresql-to-golang-structs",
+      "owner": {
+        "display_name": "Zulfiqar Ali",
+        "link": "https://stackoverflow.com/users/9854726/zulfiqar-ali"
+      }
+    },
+    {
+      "question_id": 75560342,
+      "title": "Gin not rendering inherited template structure",
+      "accepted_answer_id": 75565642,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/75560342/gin-not-rendering-inherited-template-structure",
+      "owner": {
+        "display_name": "3therk1ll",
+        "link": "https://stackoverflow.com/users/3346752/3therk1ll"
+      }
+    },
+    {
+      "question_id": 75935165,
+      "title": "failed to access subdomain from main domain: No &#39;Access-Control-Allow-Origin&#39;",
+      "accepted_answer_id": 75935458,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/75935165/failed-to-access-subdomain-from-main-domain-no-access-control-allow-origin",
+      "owner": {
+        "display_name": "Asuha",
+        "link": "https://stackoverflow.com/users/11911102/asuha"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 57354429,
+      "body": "<p>Quoting the <a href=\"https://github.com/gin-gonic/gin/blob/9c081de9cdd1948f521d47d170d18cbc2981c33a/docs/doc.md#serving-static-files\" rel=\"nofollow noreferrer\">gin docs for serving static files</a>:</p>\n<pre><code>func main() {\n    router := gin.Default()\n    router.Static(&quot;/assets&quot;, &quot;./assets&quot;)\n    router.StaticFS(&quot;/more_static&quot;, http.Dir(&quot;my_file_system&quot;))\n    router.StaticFile(&quot;/favicon.ico&quot;, &quot;./resources/favicon.ico&quot;)\n    router.StaticFileFS(&quot;/more_favicon.ico&quot;, &quot;more_favicon.ico&quot;, http.Dir(&quot;my_file_system&quot;))\n\n    // Listen and serve on 0.0.0.0:8080\n    router.Run(&quot;:8080&quot;)\n}\n</code></pre>\n<p>So basically you should define a route specific to your JSON file next to other routes you've defined. And then use that.</p>\n",
+      "owner": {
+        "display_name": "Seaskyways",
+        "link": "https://stackoverflow.com/users/1978013/seaskyways"
+      }
+    },
+    {
+      "answer_id": 66090687,
+      "body": "<h1>Explanation</h1>\n<h3><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie\" rel=\"nofollow noreferrer\">How serverside cookie works:</a></h3>\n<p>Server-side cookies are embedded within the response headers by the server, signaling to the browser its intent to set a cookie. This mechanism aims to enable the utilization of <code>ctx.Writer</code> directly within the resolver, bypassing the need for middleware intervention.</p>\n<p>In the middleware, you are provided with a context (<code>ctx</code>) that contains <code>ctx.Request.Context()</code>. You also have access to <code>ctx.Writer</code>, which is necessary for modifying headers to set cookies. To make <code>ctx.Writer</code> available in your resolver, you should embed it within <code>ctx.Request.Context()</code>. This approach is essential because only the <code>ctx.Request</code> is passed to your resolver, not the entire context (<code>ctx</code>).</p>\n<h1>The code</h1>\n<br/>\n<p>This struct will use to create in the middleware and pass a pointer of it to the resolver, in all the routes you will know if a user is authenticated or not, and also will be able to use the <code>http.ResponseWriter</code></p>\n<h2>Struct</h2>\n<pre class=\"lang-golang prettyprint-override\"><code>type CookieAccess struct {\n    Writer     http.ResponseWriter\n    IsLoggedIn bool\n    UserId     uint64\n}\n\n</code></pre>\n<h2>Middleware</h2>\n<pre class=\"lang-golang prettyprint-override\"><code>func setValInCtx(ctx *gin.Context, val interface{}) {\n    newCtx := context.WithValue(ctx.Request.Context(), &quot;ctxCookieAccessKey&quot;, val)\n    ctx.Request = ctx.Request.WithContext(newCtx)\n}\n\nfunc Middleware() gin.HandlerFunc {\n    return func(ctx *gin.Context) {\n        cookieA := CookieAccess{\n            Writer: ctx.Writer,\n            IsLoggedIn: false, // Assume not logged in by default\n            UserId: 0,\n        }\n\n        setValInCtx(ctx, &amp;cookieA)\n\n        c, err := ctx.Request.Cookie(&quot;tokenKey&quot;)\n        if err != nil {\n            // If there's an error fetching the cookie, log it and proceed\n            log.Printf(&quot;Error fetching 'tokenKey' cookie: %v&quot;, err)\n            ctx.Next()\n            return\n        }\n\n        // Proceed with token parsing only if the cookie is successfully fetched\n        rawToken := c.Value\n        userId, err := ParseToken(rawToken)\n        if err != nil {\n            // If there's an error parsing the token, log it and ensure user is not logged in\n            log.Printf(&quot;Error parsing token: %v&quot;, err)\n        } else {\n            // If token is successfully parsed, mark user as logged in and set UserId\n            cookieA.IsLoggedIn = true\n            cookieA.UserId = userId\n        }\n\n        ctx.Next()\n    }\n}\n\n</code></pre>\n<h2>Resolvers</h2>\n<pre class=\"lang-golang prettyprint-override\"><code>\nfunc (r *MutationResolver) logginOrConsumerResolver(ctx context.Context, input Credentials) (*Response, error) {\n    // ctx.Request.Context() from middleware is here\n    ca := ctx.Value(&quot;ctxCookieAccessKey&quot;).(*CookieAccess)\n    if ca.IsLoggedIn {\n        // this is the way to get token proceed result in other resolvers\n        return nil, fmt.Errorf(&quot;you are already have a valid token, userId: %v&quot;, ca.userId)\n    }\n\n    http.SetCookie(ca.Writer, &amp;http.Cookie{\n        Name:     &quot;tokenKey&quot;,\n        Value:    token, // make your token\n        HttpOnly: true,\n        Path:     &quot;/&quot;,\n        Expires:  time.Now().Add(24 * time.Hour),\n    })\n\n    return nil, nil\n}\n\n</code></pre>\n",
+      "owner": {
+        "display_name": "Reza",
+        "link": "https://stackoverflow.com/users/11651903/reza"
+      }
+    },
+    {
+      "answer_id": 77618658,
+      "body": "<p>So, what's wrong with the third method?</p>\n<p>If the Route of the Gin framework does not provide parameters to set the <code>Name</code>, then you can only do this:</p>\n<ol>\n<li>Submit code to the Gin framework and let the Gin framework support your needs;</li>\n<li>Rewrite the Gin framework and abandon subsequent updates of the Gin framework;</li>\n<li>Simply encapsulate a function yourself, just like your third method above.</li>\n</ol>\n",
+      "owner": {
+        "display_name": "NjuTsiang",
+        "link": "https://stackoverflow.com/users/23057917/njutsiang"
+      }
+    },
+    {
+      "answer_id": 59173430,
+      "body": "<p>Just read and print the body is ok:</p>\n<pre><code>func createOrUpdateInfluencer(c *gin.Context) {\n    body, _ := io.ReadAll(c.Request.Body)\n    println(string(body))\n}\n</code></pre>\n<p>Or if you just want to peek it in middleware, you can put it back after read:</p>\n<pre><code>func createOrUpdateInfluencer(c *gin.Context) {\n    body, _ := io.ReadAll(c.Request.Body)\n    println(string(body))\n\n    c.Request.Body = io.NopCloser(bytes.NewReader(body))\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "AnonymousX",
+        "link": "https://stackoverflow.com/users/8140152/anonymousx"
+      }
+    },
+    {
+      "answer_id": 76586194,
+      "body": "<p>According to the <a href=\"https://github.com/wI2L/fizz/blob/fe54d355ba0184693a3dd34eeacfe1a03487dff1/openapi/generator.go#L439-L497\" rel=\"nofollow noreferrer\">implementation</a>, the schema name is generated by this statement: <code>name := strings.Title(op.ID) + &quot;Input&quot;</code> (see line <code>23</code> below):</p>\n<pre><code> 1  // setOperationParams adds the fields of the struct type t\n 2  // to the given operation.\n 3  func (g *Generator) setOperationParams(op *Operation, t, parent reflect.Type, allowBody bool, path string) error {\n 4      if t.Kind() != reflect.Struct {\n 5          return errors.New(&quot;input type is not a struct&quot;)\n 6      }\n 7      if err := g.buildParamsRecursive(op, t, parent, allowBody); err != nil {\n 8          return err\n 9      }\n10      // Input fields that are neither path- nor query-bound\n11      // have been extracted into the operation's RequestBody\n12      // If the RequestBody is not nil, give it a name and\n13      // move it to the openapi spec's components/schemas section\n14      // Replace the RequestBody's schema with a reference\n15      // to the named schema in components/schemas\n16      if op.RequestBody != nil {\n17          mt := tonic.MediaType()\n18          if mt == &quot;&quot; {\n19              mt = anyMediaType\n20          }\n21          sch := op.RequestBody.Content[mt].Schema\n22          if sch != nil {\n23              name := strings.Title(op.ID) + &quot;Input&quot;\n24              g.api.Components.Schemas[name] = sch\n25              op.RequestBody.Content[mt].Schema = &amp;SchemaOrRef{Reference: &amp;Reference{\n26                  Ref: componentsSchemaPath + name,\n27              }}\n28          }\n29      }\n</code></pre>\n<p>You can customize the operation ID with <a href=\"https://pkg.go.dev/github.com/wI2L/fizz#ID\" rel=\"nofollow noreferrer\">fizz.ID</a>, but there is no way to remove the <code>Input</code> suffix. You need to fork the repository and modify the implementation if you really want to generate the schema name differently.</p>\n",
+      "owner": {
+        "display_name": "Zeke Lu",
+        "link": "https://stackoverflow.com/users/1369400/zeke-lu"
+      }
+    },
+    {
+      "answer_id": 76458242,
+      "body": "<p>I was able to achieve what you need by using the HTML templates in the following way. First, let me present my project structure:</p>\n<ul>\n<li>appName\n<ul>\n<li>templates\n<ul>\n<li>footer.tmpl</li>\n<li>header.tmpl</li>\n<li>page1.tmpl</li>\n<li>page2.tmpl</li>\n</ul>\n</li>\n<li>main.go</li>\n</ul>\n</li>\n</ul>\n<p>Now, let's start with templates definition.</p>\n<h3>Templates definition</h3>\n<h4><code>header.tmpl</code> file</h4>\n<pre><code>{{define &quot;header.tmpl&quot; }}\n&lt;!DOCTYPE html&gt;\n&lt;html lang=&quot;en&quot;&gt;\n&lt;head&gt;\n    &lt;meta charset=&quot;UTF-8&quot;&gt;\n    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;\n    &lt;title&gt;{{.title}}&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;h1&gt;BASELINE&lt;/h1&gt;\n    &lt;div id=&quot;content&quot;&gt;\n{{end}}\n</code></pre>\n<h4><code>footer.tmpl</code> file</h4>\n<pre><code>{{define &quot;footer.tmpl&quot;}}\n&lt;/div&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n{{end}}\n</code></pre>\n<h4><code>page1.tmpl</code> file</h4>\n<pre><code>{{template &quot;header.tmpl&quot;}}\n&lt;h2&gt;Welcome to Page 1&lt;/h2&gt;\n&lt;p&gt;This is the content of Page 1.&lt;/p&gt;\n{{template &quot;footer.tmpl&quot;}}\n</code></pre>\n<h4><code>page2.tmpl</code> file</h4>\n<pre><code>{{template &quot;header.tmpl&quot;}}\n&lt;h2&gt;Welcome to Page 2&lt;/h2&gt;\n&lt;p&gt;This is the content of Page 2.&lt;/p&gt;\n{{template &quot;footer.tmpl&quot;}}\n</code></pre>\n<h3>The <code>main.go</code> file</h3>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;github.com/gin-gonic/gin&quot;\n)\n\nfunc main() {\n    gin.SetMode(gin.DebugMode)\n    r := gin.Default()\n\n    // load templates\n    r.LoadHTMLGlob(&quot;templates/*.tmpl&quot;)\n\n    r.GET(&quot;/page1&quot;, func(c *gin.Context) {\n        c.HTML(200, &quot;page1.tmpl&quot;, gin.H{\n            &quot;title&quot;: &quot;Page 1 IS HERE&quot;,\n        })\n    })\n\n    r.GET(&quot;/page2&quot;, func(c *gin.Context) {\n        c.HTML(200, &quot;page2.tmpl&quot;, gin.H{\n            &quot;title&quot;: &quot;Page 2 IS HERE&quot;,\n        })\n    })\n\n    r.Run(&quot;127.0.0.1:8080&quot;)\n}\n</code></pre>\n<p>First, we added the invocation to <code> gin.SetMode(gin.DebugMode)</code>. Thanks to this, we're able to see which templates are actually loaded in our <code>gin.Renderer</code> instance.<br />\nBy using the method <code>LoadHTMLGlob</code> we load all of them. The pattern matches any <code>*.tmpl</code> file we define on the file system.<br />\nThe remaining code is more or less the same as you wrote within the question.<br />\nBy using this method you should be able to avoid the duplication of the common structure by using two <code>tmpl</code> files.<br />\nProbably, there is an even more elegant way of achieving this. In case someone finds it, just let me know, thanks!</p>\n",
+      "owner": {
+        "display_name": "ossan",
+        "link": "https://stackoverflow.com/users/14394371/ossan"
+      }
+    },
+    {
+      "answer_id": 76448813,
+      "body": "<p>It turns out that you're using the deprecated package <code>github.com/gin-gonic/contrib/cors</code>. You should use <code>github.com/gin-contrib/cors</code> instead. Here is a demo configuration to use <code>github.com/gin-contrib/cors</code>:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;github.com/gin-contrib/cors&quot;\n    &quot;github.com/gin-contrib/sessions&quot;\n    &quot;github.com/gin-contrib/sessions/cookie&quot;\n    &quot;github.com/gin-gonic/gin&quot;\n)\n\nfunc main() {\n    router := gin.Default()\n\n    config := cors.DefaultConfig()\n    config.AddAllowHeaders(&quot;Authorization&quot;)\n    config.AllowCredentials = true\n    config.AllowAllOrigins = false\n    // I think you should whitelist a limited origins instead:\n    //  config.AllowAllOrigins = []{&quot;xxxx&quot;, &quot;xxxx&quot;}\n    config.AllowOriginFunc = func(origin string) bool {\n        return true\n    }\n    router.Use(cors.New(config))\n\n    store := cookie.NewStore([]byte(&quot;your-secret-key&quot;))\n    store.Options(sessions.Options{MaxAge: 60 * 60 * 24})\n    router.Use(sessions.Sessions(&quot;sessions&quot;, store))\n\n    // routes below\n\n    router.Run(&quot;localhost:3000&quot;)\n}\n</code></pre>\n<hr />\n<blockquote>\n<p>The <code>PATCH</code> request header for some reason lacks the &quot;Cookie&quot; header, despite the fact that I use the <code>withCredentials</code> parameter.</p>\n</blockquote>\n<pre class=\"lang-js prettyprint-override\"><code>axios.patch(`${url}/rent/${book_id}`, { withCredentials: true })\n</code></pre>\n<p>Here <code>{ withCredentials: true }</code> is treated as the data, and there is not config. If you don't have data to send to the server, you should write it like this:</p>\n<pre class=\"lang-js prettyprint-override\"><code>axios.patch(`${url}/rent/${book_id}`, null, { withCredentials: true })\n</code></pre>\n",
+      "owner": {
+        "display_name": "Zeke Lu",
+        "link": "https://stackoverflow.com/users/1369400/zeke-lu"
+      }
+    },
+    {
+      "answer_id": 75969968,
+      "body": "<p>It seems that you are trying to start PGAdapter in an embedded container on Cloud Run, and then copy the service account credentials from your environment to the PGAdapter embedded container. The problem is that Cloud Run does not provide access to the underlying service account file. Instead, you should just let the Google Cloud libraries get the default credentials of the environment.</p>\n<p>The difficult part in your example is that you are starting PGAdapter in an embedded container, which means that there are no default credentials in that environment. The recommended way to run PGAdapter on Cloud Run is to include it in your main container. That will make it possible for PGAdapter to just fetch the default credentials that are provided by Cloud Run. That means that you should <strong>not</strong> specify the <code>-c /path/to/credentials.json</code> argument when starting PGAdapter.</p>\n<p>There are (at least) two ways that you can include PGAdapter in your main container:</p>\n<ol>\n<li>Add the Java <code>.jar</code> file build to your Docker image and start PGAdapter in your container. See [this example] for how to start PGAdapter directly from <code>.jar</code> files. This also requires you to add a Java JRE to your Docker image.</li>\n<li>Let your Docker build extend the PGAdapter base Docker image. This will automatically include all dependencies that are needed for PGAdapter. You will have to override the <code>ENTRYPOINT</code> of the base image.</li>\n</ol>\n<p>See <a href=\"https://github.com/GoogleCloudPlatform/pgadapter/tree/06046b9205f041883020d6abfbcefb91c231eb90/samples/golang/cloud-run\" rel=\"nofollow noreferrer\">PGAdapter Cloud Run Sample for Go</a> for an extensive (runnable) sample for the latter option.</p>\n",
+      "owner": {
+        "display_name": "Knut Olav L&#248;ite",
+        "link": "https://stackoverflow.com/users/7617957/knut-olav-l%c3%b8ite"
+      }
+    },
+    {
+      "answer_id": 75935458,
+      "body": "<p>The good first step to diagnose such kind of problem is to check the preflight request in the Chrome DevTools directly.</p>\n<p><a href=\"https://i.sstatic.net/qCrwX.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/qCrwX.png\" alt=\"Chrome DevTools screenshot\" /></a></p>\n<p><strong>Notes</strong>:</p>\n<ol>\n<li>Check <code>Disable cache</code> in case that the preflight response is cached.</li>\n<li>Find the request whose type is <code>preflight</code>.</li>\n</ol>\n<p>The next step is to copy the preflight request as <code>curl</code> command (right click on the request, select <code>Copy</code>-&gt;<code>Copy as cURL</code> in the context menu) and test the request with the <code>curl</code> tool directly (remember to modify the command to add the <code>-i</code> option to print the response headers).</p>\n<p>It seems that you encountered the issue on a production environment, it's possible that a reverse proxy sitting between the browser and your service blocks the <code>Access-Control-Allow-Origin</code> header by default. Try to send the preflight request directly to your service and see if there is anything different.</p>\n<p><strong>Update</strong> (after the preflight response is provided):</p>\n<p>It turns out that this is not a CORS issue at all. The request failed with the status code <code>502 Bad Gateway</code>. The application is not deployed correctly.</p>\n<hr />\n<p>BTW, I have tested Case 1 and it works:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;log&quot;\n    &quot;net/http/httputil&quot;\n\n    &quot;github.com/gin-contrib/cors&quot;\n    &quot;github.com/gin-gonic/gin&quot;\n)\n\nfunc main() {\n    r := gin.Default()\n\n    r.Use(cors.Default())\n    api := r.Group(&quot;/api&quot;)\n    v1 := api.Group(&quot;/v1&quot;)\n    v1.POST(&quot;users&quot;, func(ctx *gin.Context) {\n        buf, err := httputil.DumpRequest(ctx.Request, true)\n        if err != nil {\n            log.Printf(&quot;failed to dump request: %v&quot;, err)\n            return\n        }\n\n        log.Printf(&quot;%s&quot;, buf)\n    })\n    err := r.Run()\n    if err != nil {\n        log.Printf(&quot;failed to run gateway: %v&quot;, err)\n    }\n    r.Run()\n}\n</code></pre>\n<pre><code>$ curl 'http://localhost:8080/api/v1/users' \\\n  -X 'OPTIONS' \\\n  -H 'Accept: */*' \\\n  -H 'Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,zh-TW;q=0.6' \\\n  -H 'Access-Control-Request-Headers: content-type' \\\n  -H 'Access-Control-Request-Method: POST' \\\n  -H 'Cache-Control: no-cache' \\\n  -H 'Connection: keep-alive' \\\n  -H 'Origin: http://127.0.0.1:5501' \\\n  -H 'Pragma: no-cache' \\\n  -H 'Referer: http://127.0.0.1:5501/' \\\n  -H 'Sec-Fetch-Dest: empty' \\\n  -H 'Sec-Fetch-Mode: cors' \\\n  -H 'Sec-Fetch-Site: cross-site' \\\n  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36' \\\n  --compressed -i\nHTTP/1.1 204 No Content\nAccess-Control-Allow-Headers: Origin,Content-Length,Content-Type\nAccess-Control-Allow-Methods: GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS\nAccess-Control-Allow-Origin: *\nAccess-Control-Max-Age: 43200\nDate: Wed, 05 Apr 2023 03:50:06 GMT\n</code></pre>\n",
+      "owner": {
+        "display_name": "Zeke Lu",
+        "link": "https://stackoverflow.com/users/1369400/zeke-lu"
+      }
+    },
+    {
+      "answer_id": 75565642,
+      "body": "<p>The following setup resolved the issue</p>\n<ol>\n<li><p>Rename <code>base.tmpl.html</code> to <code>base.layout.tmpl</code></p>\n<pre><code>{{define &quot;base&quot;}}\n &lt;html&gt;\n     &lt;head&gt;\n        some title\n     &lt;/head&gt;\n     &lt;body&gt;\n         {{block &quot;content&quot; .}}\n\n         {{end}}\n     &lt;/body&gt;\n     {{template &quot;footer&quot; .}}\n &lt;/html&gt;\n{{end}}\n</code></pre>\n</li>\n<li><p>home.tmpl.html</p>\n<pre><code>{{template &quot;base&quot; .}}\n{{define &quot;content&quot;}}\n    &lt;h1&gt;test&lt;/h1&gt;\n{{ end }}\n</code></pre>\n</li>\n<li><p>footer.tmpl.html</p>\n<pre><code>{{define &quot;footer&quot;}}\n\n &lt;footer&gt;\n     &lt;h1&gt;Footer&lt;/h1&gt;\n &lt;/footer&gt;\n\n {{end}}\n</code></pre>\n</li>\n</ol>\n",
+      "owner": {
+        "display_name": "3therk1ll",
+        "link": "https://stackoverflow.com/users/3346752/3therk1ll"
+      }
+    },
+    {
+      "answer_id": 73608169,
+      "body": "<p>Just in case you're not aware, <code>jsonb[]</code> is a <em>PostgreSQL Array</em> type whose element type is <code>jsonb</code>. It is NOT a &quot;json array&quot; type.</p>\n<p>If you want to store JSON data in a column you should use the <code>json</code>/<code>jsonb</code> types regardless of whether you expect that data to contain a scalar, an object, or an <em>array</em> JSON value.</p>\n<p>So, unless you chose the PostgreSQL Array type with some specific use-case in mind, it may be better if you just change the column's type from <code>jsonb[]</code> to <code>jsonb</code>.</p>\n<hr />\n<p>If you can't, or don't want to, change the column type, then you can still convert the PostgreSQL array into a JSON array within the SELECT query, and then, in your custom Go <code>sql.Scanner</code> implementation, use <code>json.Unmarshal</code> to decode the db data.</p>\n<pre class=\"lang-sql prettyprint-override\"><code>SELECT to_jsonb(advance_payment) FROM booking_settings WHERE hotel_id = $1\n-- or\nSELECT array_to_json(advance_payment)::jsonb FROM booking_settings WHERE hotel_id = $1\n</code></pre>\n<pre class=\"lang-golang prettyprint-override\"><code>type advanceAndRoomPaymentList []advanceAndRoomPayment\n\nfunc (ls *advanceAndRoomPaymentList) Scan(src any) error {\n    var data []byte\n    switch v := src.(type) {\n    case string:\n        data = []byte(v)\n    case []byte:\n        data = v\n    }\n    return json.Unmarshal(data, ls)\n}\n</code></pre>\n<hr />\n<p>If you have many queries referencing the PostgreSQL array columns and you don't want to update each and every one to do the conversion, you can either parse the PostgreSQL Array yourself and then unmarshal the individual elements, or you can delegate that work to some 3rd party implementation.</p>\n<p>Here's an <em>untested</em> example using <a href=\"https://pkg.go.dev/github.com/lib/pq#GenericArray\" rel=\"nofollow noreferrer\"><code>pq.GenericArray</code></a>:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>// I haven't tested the following but I'd assume it ought to work,\n// if not, then perhaps maybe small tweaks are needed here and there...\ntype advanceAndRoomPaymentList []advanceAndRoomPayment\n\nfunc (ls *advanceAndRoomPaymentList) Scan(src any) error {\n    return pq.GenericArray{ls}.Scan(src)\n}\n\n// implement Scanner for the element type of the slice\nfunc (a *advanceAndRoomPayment) Scan(src any) error {\n    var data []byte\n    switch v := src.(type) {\n    case string:\n        data = []byte(v)\n    case []byte:\n        data = v\n    }\n    return json.Unmarshal(data, a)\n}\n</code></pre>\n<p>If you want to do the parsing of the PostgreSQL Array yourself then you'll need to understand the syntax used to represent such arrays. You can find the relevant docs <a href=\"https://postgresql.org/docs/14/interactive/arrays.html#ARRAYS-IO\" rel=\"nofollow noreferrer\">here</a>:</p>\n<blockquote>\n<p>The external text representation of an array value consists of items\nthat are interpreted according to the I/O conversion rules for the\narray's element type, plus decoration that indicates the array\nstructure. The decoration consists of curly braces ({ and }) around\nthe array value plus delimiter characters between adjacent items. The\ndelimiter character is usually a comma (,) but can be something else:\nit is determined by the typdelim setting for the array's element type.\nAmong the standard data types provided in the PostgreSQL distribution,\nall use a comma, except for type box, which uses a semicolon (;).</p>\n</blockquote>\n<p>So, for example, if you have pg-array that contains a json-object, a json-array, a json-string, and a json-bool and you select that, then the array representation that will be passed to the <code>sql.Scanner</code> implementation will look something like:</p>\n<pre class=\"lang-none prettyprint-override\"><code>{&quot;{\\&quot;foo\\&quot;: \\&quot;bar\\&quot;}&quot;,&quot;[\\&quot;foo\\&quot;, \\&quot;bar\\&quot;]&quot;,&quot;\\&quot;foo bar\\&quot;&quot;,true}\n</code></pre>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 73098555,
+      "body": "<p><code>queryValue</code> is a string, you can apply whatever action you see fit on it :</p>\n<pre><code>func toIntArray(str string) []int {\n    chunks := strings.Split(str, &quot;,&quot;)\n\n    var res []int\n    for _, c := range chunks {\n        i, _ := strconv.Atoi(c) // error handling ommitted for concision\n        res = append(res, i)\n    }\n\n    return res\n}\n</code></pre>\n<p>I don't know if Gin has a built in function to do something like the above</p>\n",
+      "owner": {
+        "display_name": "LeGEC",
+        "link": "https://stackoverflow.com/users/86072/legec"
+      }
+    },
+    {
+      "answer_id": 73026453,
+      "body": "<p>From the <code>GORM</code> <a href=\"https://gorm.io/docs/query.html#Order\" rel=\"noreferrer\">docs</a> e.g.</p>\n<pre><code>db.Order(&quot;age desc, name&quot;).Find(&amp;users)\n// SELECT * FROM users ORDER BY age desc, name;\n</code></pre>\n<p>so order your results based on the <code>created_at</code> column first - and you can list <code>id</code> second in case there's two records with the same timestamp (to ensure repeated queries return consistent results):</p>\n<pre><code>result := queryBuider.Model(&amp;models.News{}).Where(q).Order(&quot;created_at DESC, id DESC&quot;).Find(&amp;news)\n</code></pre>\n",
+      "owner": {
+        "display_name": "colm.anseo",
+        "link": "https://stackoverflow.com/users/1218512/colm-anseo"
+      }
+    },
+    {
+      "answer_id": 72689355,
+      "body": "<p>I told u from first, when u wanna generate JWT\ndo like below:</p>\n<pre><code>token := jwt.New(jwt.SigningMethodHS256)\n// Set claims\n// This is the information which frontend can use\n// The backend can also decode the token and get admin etc.\nclaims := token.Claims.(jwt.MapClaims)\nclaims[&quot;username&quot;] = ID\naccessTokenExpireTime := time.Now().Add(time.Hour * 48).Unix()\nclaims[&quot;exp&quot;] = accessTokenExpireTime\n// Generate encoded token and send it as response.\n// The signing string should be secret (a generated UUID works too)\nt, err := token.SignedString([]byte(&quot;AccessToken&quot;))\n</code></pre>\n<p>And then when u wanna to decode username do like below:</p>\n<pre><code>type MyCustomClaims struct {\n        Username string `json:&quot;username&quot;`\n        jwt.StandardClaims\n    }\n\n    auth := c.Request.Header.Get(&quot;Authorization&quot;)\n    if auth == &quot;&quot; {\n        c.AbortWithStatusJSON(http.StatusUnauthorized, gin.H{&quot;Message&quot;: &quot;Authorization Header Not Found&quot;})\n        return\n    }\n    splitToken := strings.Split(auth, &quot;Bearer &quot;)\n    auth = splitToken[1]\n\n    token, err := jwt.ParseWithClaims(auth, &amp;MyCustomClaims{}, func(token *jwt.Token) (interface{}, error) {\n        return []byte(&quot;AccessToken&quot;), nil\n    })\n\n    if err != nil {\n        c.AbortWithStatusJSON(http.StatusUnauthorized, gin.H{&quot;Message&quot;: &quot;Token is wrong or Expire&quot;})\n        return\n    }\n\n\n    if claims, ok := token.Claims.(*MyCustomClaims); ok &amp;&amp; token.Valid {\n        log.Printf(&quot;%v %v&quot;, claims.Username, claims.StandardClaims.ExpiresAt)\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Seyed Hossein Hosseini motlagh",
+        "link": "https://stackoverflow.com/users/16806783/seyed-hossein-hosseini-motlagh"
+      }
+    },
+    {
+      "answer_id": 72597633,
+      "body": "<p>Yes; you can probably compile the application on your Ubuntu box and just copy the executable to the Centos server. There is no need to install Go on the server.</p>\n<p>I say probably because this assumes that the two machines have the same architecture/processor (e.g. <code>amd64</code>). If that is not the case then you can still compile on one machine and copy to another but you need to set <a href=\"https://pkg.go.dev/cmd/go#hdr-Environment_variables\" rel=\"nofollow noreferrer\"><code>GOARCH</code></a> before building the app. In fact you can go a step further and build the app on a Windows box (with <a href=\"https://pkg.go.dev/cmd/go#hdr-Environment_variables\" rel=\"nofollow noreferrer\"><code>GOOS</code></a> set to <code>linux</code>) if you so desire.</p>\n<p>I'm also assuming that your web server does not do anything particularly unusual (i.e. <a href=\"https://pkg.go.dev/cmd/cgo\" rel=\"nofollow noreferrer\">CGO</a> or system calls) because that might cause an issue. The is not the case for the vast majority of applications which will run just fine (I compile an app under windows and then deploy directly onto a <a href=\"https://teltonika-networks.com/product/rut955/\" rel=\"nofollow noreferrer\">RUT955</a> with a MIPS CPU running OpenWRT linux).</p>\n<p>One additional factor that may complicate this is resources (<code>html</code>, <code>js</code>, <code>css</code> etc); you can <a href=\"https://stackoverflow.com/a/28071360/11810946\">embed</a> all of these into the executable if you want.</p>\n",
+      "owner": {
+        "display_name": "Brits",
+        "link": "https://stackoverflow.com/users/11810946/brits"
+      }
+    },
+    {
+      "answer_id": 72256351,
+      "body": "<p>I've tried and failed to do this using the built in playground validation. There just wasn't any easy way to access the actual field name that's exposed to the frontend.</p>\n<p>Because of this, I went with a custom validation approach. It's a lot more readable (frontend + backend), specially when you have custom validators which are really ugly to setup with playground validation. You just have to write them once and then <strong>reuse</strong> validators by <strong>embedding structs</strong> basically.</p>\n<p>I detailed an example of how I use them here: <a href=\"https://stackoverflow.com/questions/70848804/more-elegant-way-of-validate-body-in-go-gin/71542396#71542396\">More elegant way of validate body in go-gin</a></p>\n<p>Basically, I always use models (query models, body models, etc.) for reasons I detailed in that post. This allows me to easily add a Validate() method to them:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>type User struct {\n    UserId            string                     `form:&quot;user_id&quot;`\n    Name              string                     `form:&quot;name&quot;`\n}\n\nfunc (user *User) Validate() errors.RestError {\n    if _, err := uuid.Parse(id); err != nil {\n        return errors.BadRequestError(&quot;user_id not a valid uuid&quot;)\n    }\n    return nil\n}\n</code></pre>\n<p>Example of reuse:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>type OtherUser struct {\n    User       // embedded struct here\n    HasOther  bool  `form:&quot;has_other&quot;`\n}\n\nfunc (other *OtherUser) Validate() errors.RestError {\n    // extra validation goes here for example\n    return other.User.Validate()\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rami Awar",
+        "link": "https://stackoverflow.com/users/4190758/rami-awar"
+      }
+    },
+    {
+      "answer_id": 72006017,
+      "body": "<p>What does the code look like that is saving the data to the db?</p>\n<p>I'm guessing that you probably need to use <code>FullSaveAssociations</code>\nsomething like this:</p>\n<pre><code>\nDB().Session(&amp;gorm.Session{FullSaveAssociations: true}).Save(&amp;d)\n\n</code></pre>\n<p>To get the data back, you need to use Preloads.</p>\n<pre><code>\nDB().Preload(&quot;Artist&quot;).Preload(&quot;Category&quot;).First(&amp;d)\n</code></pre>\n<p>you can also use</p>\n<pre><code>.Preload(clause.Associations)\n</code></pre>\n<p>to load them all.  You can use this with other Preloads to go deeper.</p>\n<p><a href=\"https://gorm.io/docs/preload.html#content-inner\" rel=\"nofollow noreferrer\">https://gorm.io/docs/preload.html#content-inner</a></p>\n",
+      "owner": {
+        "display_name": "Asteriskdev",
+        "link": "https://stackoverflow.com/users/18592996/asteriskdev"
+      }
+    },
+    {
+      "answer_id": 71498881,
+      "body": "<p>The flag <code>gin.DebugMode</code> is used to control the output of <code>gin.IsDebugging()</code>, which adds some additional log output and changes the HTML renderer to the debug struct <code>HTMLDebug</code>.</p>\n<p>The <code>gin.TestMode</code> is used in Gin's own unit tests to toggle the debug mode (and the additional logging) on and off, and the usage of the debug HTML renderer.</p>\n<p>Other than that, it doesn't have other uses (<a href=\"https://github.com/gin-gonic/gin/issues/2984#issuecomment-989595190\" rel=\"nofollow noreferrer\">source</a>).</p>\n<p>However, the flag can be controlled with the environment variable <code>GIN_MODE=test</code>. Then, since <code>Mode()</code> is exported, you can use it in application code to, for example, declare testing routes. This might have some merit if you plan to run an E2E test suite, or some other integration test:</p>\n<pre><code>    r := gin.New()\n    if gin.Mode() == gin.TestMode {\n        r.GET(&quot;/test&quot;, func(c *gin.Context) {\n            c.String(418, &quot;I don't exist in production&quot;)\n        })\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "blackgreen",
+        "link": "https://stackoverflow.com/users/4108803/blackgreen"
+      }
+    },
+    {
+      "answer_id": 71150067,
+      "body": "<p>Create a <a href=\"https://pkg.go.dev/net#Listener\" rel=\"nofollow noreferrer\">net.Listener</a> implementation that accepts connections by receiving on a channel:</p>\n<pre><code>type listener struct {\n    ch   chan net.Conn\n    addr net.Addr\n}\n\n// newListener creates a channel listener. The addr argument\n// is the listener's network address.\nfunc newListener(addr net.Addr) *listener {\n    return &amp;listener{\n        ch:   make(chan net.Conn),\n        addr: addr,\n    }\n}\n\nfunc (l *listener) Accept() (net.Conn, error) {\n    c, ok := &lt;-l.ch\n    if !ok {\n        return nil, errors.New(&quot;closed&quot;)\n    }\n    return c, nil\n}\n\nfunc (l *listener) Close() error { return nil }\n\nfunc (l *listener) Addr() net.Addr { return l.addr }\n</code></pre>\n<p>Handle connections by sending to the channel:</p>\n<pre><code>func (l *listener) Handle(c net.Conn) error {\n    l.ch &lt;- c\n    return nil\n}\n</code></pre>\n<p>Here's how to tie it all together:</p>\n<ul>\n<li><p>Create the listener:</p>\n<pre><code>  s := newListener(someAddr)\n</code></pre>\n</li>\n<li><p>Configure the Gin engine as usual.</p>\n<pre><code>  router := gin.New()\n  router.GET(...)\n  router.POST(...)\n</code></pre>\n</li>\n<li><p>Run the net/http server in a goroutine using the channel listener and the Gin engine:</p>\n<pre><code>  err := http.Serve(s, router)\n  if err != nil {\n      // handle error\n  }\n</code></pre>\n</li>\n<li><p>In your dispatching code, call the <code>s.Handle(c)</code> to pass the connection to the net/http server and then on to the Gin engine.</p>\n</li>\n</ul>\n",
+      "owner": {
+        "display_name": "user12258482",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 71146788,
+      "body": "<p>Since you want to use it for CORS, you can take it from origin header. It is essentially the host of the website the request is coming from. It's not really the client's host. But for CORS you want to use origin. Hence, you set the header <code>Access-Control-Allow-Origin</code>.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>origin := c.Request.Header.Get(&quot;Origin&quot;)\n</code></pre>\n<p>A simple handler, that is allowing CORS, could look like this.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>allowList := map[string]bool{\n    &quot;https://www.google.com&quot;: true,\n    &quot;https://www.yahoo.com&quot;:  true,\n}\n\nr.GET(&quot;/&quot;, func(c *gin.Context) {\n    if origin := c.Request.Header.Get(&quot;Origin&quot;); allowList[origin] {\n        c.Header(&quot;Access-Control-Allow-Origin&quot;, origin)\n    }\n    c.JSON(200, gin.H{&quot;message&quot;: &quot;ok&quot;})\n})\n</code></pre>\n",
+      "owner": {
+        "display_name": "The Fool",
+        "link": "https://stackoverflow.com/users/9208887/the-fool"
+      }
+    },
+    {
+      "answer_id": 70072158,
+      "body": "<p>Gin gonic uses the package <code>github.com/go-playground/validator/v10</code> to perform binding validation. If the validation fails, the error returned is a <a href=\"https://pkg.go.dev/github.com/go-playground/validator#ValidationErrors\" rel=\"noreferrer\"><code>validator.ValidationErrors</code></a>.</p>\n<p>This is not mentioned explicitly but here in <a href=\"https://github.com/gin-gonic/gin#model-binding-and-validation\" rel=\"noreferrer\">Model binding and validation</a> it states:</p>\n<blockquote>\n<p>Gin uses go-playground/validator/v10 for validation. Check the full docs on tags usage here.</p>\n</blockquote>\n<p>That links to the <code>go-playground/validator/v10</code> documentation, where you find the paragraph <a href=\"https://pkg.go.dev/github.com/go-playground/validator?utm_source=godoc#hdr-Validation_Functions_Return_Type_error\" rel=\"noreferrer\">Validation Functions Return Type error</a>.</p>\n<p>You can use the standard <code>errors</code> package to check if the error is that, unwrap it, and access the single fields, which are <a href=\"https://pkg.go.dev/github.com/go-playground/validator#FieldError\" rel=\"noreferrer\"><code>validator.FieldError</code></a>. From that, you can construct whatever error message you want.</p>\n<p>Given an error model like this:</p>\n<pre><code>type ApiError struct {\n    Field string\n    Msg   string\n}\n</code></pre>\n<p>You can do this:</p>\n<pre><code>    var u User\n    err := c.BindQuery(&amp;u);\n    if err != nil {\n        var ve validator.ValidationErrors\n        if errors.As(err, &amp;ve) {\n            out := make([]ApiError, len(ve))\n            for i, fe := range ve {\n                out[i] = ApiError{fe.Field(), msgForTag(fe.Tag())}\n            }\n            c.JSON(http.StatusBadRequest, gin.H{&quot;errors&quot;: out})\n        }\n        return\n    }\n</code></pre>\n<p>with a helper function to output a custom error message for your validation rules:</p>\n<pre><code>func msgForTag(tag string) string {\n    switch tag {\n    case &quot;required&quot;:\n        return &quot;This field is required&quot;\n    case &quot;email&quot;:\n        return &quot;Invalid email&quot;\n    }\n    return &quot;&quot;\n}\n</code></pre>\n<p>In my test, this outputs:</p>\n<pre><code>{\n    &quot;errors&quot;: [\n        {\n            &quot;Field&quot;: &quot;Number&quot;,\n            &quot;Msg&quot;: &quot;This field is required&quot;\n        }\n    ]\n}\n</code></pre>\n<p>PS: To have a json output with dynamic keys, you can use <code>map[string]string</code> instead of a fixed struct model.</p>\n",
+      "owner": {
+        "display_name": "blackgreen",
+        "link": "https://stackoverflow.com/users/4108803/blackgreen"
+      }
+    },
+    {
+      "answer_id": 69948929,
+      "body": "<p>More idiomatic than using a function (<code>utils</code> is also frowned upon as a package name) is using a middleware:</p>\n<pre><code>func ErrorHandler(c *gin.Context) {\n        c.Next()\n\n        for _, err := range c.Errors {\n            // log, handle, etc.\n        }\n    \n        c.JSON(http.StatusInternalServerError, &quot;&quot;)\n}\n\n\nfunc main() {\n    router := gin.New()\n    router.Use(middleware.ErrorHandler)\n    // ... routes\n}\n</code></pre>\n<p>Notably, you call <a href=\"https://pkg.go.dev/github.com/gin-gonic/gin#Context.Next\" rel=\"noreferrer\"><code>c.Next()</code></a> inside the middleware func <strong>before</strong> your actual error handling code, so you make sure the error handling happens after the rest of the handler chain has been called.</p>\n<blockquote>\n<p>Next should be used only inside middleware. It executes the pending handlers in the chain inside the calling handler. [...]</p>\n</blockquote>\n<p>The advantage of using a middleware is that you can also pass arguments to it, e.g. a logger, that you may want to use later as part of the error handling, <em>once</em>, instead of passing it every time you call <code>utils.ErrorHandler</code> directly. In this case it looks like this (I use Uber Zap loggers):</p>\n<pre><code>func ErrorHandler(logger *zap.Logger) gin.HandlerFunc {\n    return func(c *gin.Context) {\n        c.Next()\n        \n        for _, ginErr := range c.Errors {\n            logger.Error(&quot;whoops&quot;, ...)\n        }\n    }\n}\n\nfunc main() {\n    router := gin.New()\n    \n    logger, _ := zap.NewDevelopment()\n\n    router.Use(middleware.ErrorHandler(logger))\n    // ... routes\n}\n</code></pre>\n<p>The handlers then will just abort the chain, instead of calling a function, which looks cleaner and it's easier to maintain:</p>\n<pre><code>func (h *Handler) List(c *gin.Context) {\n    movies, err := h.service.ListService()\n\n    if err != nil {\n        c.AbortWithError(http.StatusInternalServerError, err)\n        return\n    }\n\n    c.JSON(http.StatusOK, movies)\n}\n</code></pre>\n<p>It's important to note that if you set an HTTP status in <code>c.AbortWithStatus</code> or <code>c.AbortWithError</code>, you may want to <strong>not</strong> overwrite it in the error handler. In that case, you can call <code>c.JSON()</code> with <code>-1</code> as status code:</p>\n<pre><code>func ErrorHandler(logger *zap.Logger) gin.HandlerFunc {\n    return func(c *gin.Context) {\n        c.Next()\n        \n        for _, ginErr := range c.Errors {\n            logger.Error(&quot;whoops&quot;, ...)\n        }\n\n        // status -1 doesn't overwrite existing status code\n        c.JSON(-1, /* error payload */)\n    }\n}\n</code></pre>\n<p>Lastly, using a middleware allows you to call <a href=\"https://pkg.go.dev/github.com/gin-gonic/gin#Context.Error\" rel=\"noreferrer\"><code>c.Error</code></a> in your handlers multiple times, e.g. when a series of non-fatal errors occur and you want to capture all of them before actually aborting the request.</p>\n<blockquote>\n<p>Error attaches an error to the current context. The error is pushed to a list of errors. It's a good idea to call Error for each error that occurred during the resolution of a request. A middleware can be used to collect all the errors and [process them]</p>\n</blockquote>\n<pre><code>func (h *Handler) List(c *gin.Context) {\n    err1 := /* non-fatal error */\n    if err1 != nil {\n        c.Error(err1)\n    }\n\n    err2 := /* another non-fatal error */\n    if err2 != nil {\n        c.Error(err2)\n    }\n\n    fatalErr := /* fatal error */\n    if fatalErr != nil {\n        c.AbortWithError(505, fatalErr)\n        return\n        // the error handler will have collected all 3 errors\n    }\n\n    c.JSON(http.StatusOK, movies)\n}\n</code></pre>\n<hr>\n<p>As for the actual error handling in the middleware, it's pretty straightforward. Just remember that all calls to <code>c.Error</code>, <code>c.AbortWith...</code> will wrap your error in a <a href=\"https://pkg.go.dev/github.com/gin-gonic/gin#Error\" rel=\"noreferrer\"><code>gin.Error</code></a>. So to inspect the original value you have to check the <code>err.Err</code> field:</p>\n<pre><code>func ErrorHandler(c *gin.Context) {\n        c.Next()\n\n        for _, err := range c.Errors {\n            switch err.Err {\n                case ErrNotFound:\n                  c.JSON(-1, gin.H{&quot;error&quot;: ErrNotFound.Error()})  \n            }\n            // etc...\n        }\n\n        c.JSON(http.StatusInternalServerError, &quot;&quot;)\n}\n</code></pre>\n<p>Iterating over <code>c.Errors</code> may seem unwieldy because now you have potentially N errors instead of one, but depending on how you intend to use the middleware, you can simply check <code>len(c.Errors) &gt; 0</code> and access only the first item <code>c.Errors[0]</code>.</p>\n",
+      "owner": {
+        "display_name": "blackgreen",
+        "link": "https://stackoverflow.com/users/4108803/blackgreen"
+      }
+    },
+    {
+      "answer_id": 49913424,
+      "body": "<p>You can get the token header with <code>c.Request.Header[&quot;Token&quot;]</code>.\nHere is a sample code.</p>\n<pre><code>package main\n\nimport (\n    &quot;github.com/gin-gonic/gin&quot;\n)\n\nfunc main() {\n    r := gin.Default()\n    r.GET(&quot;/test&quot;, func(c *gin.Context) {\n        c.JSON(200, gin.H{\n            &quot;token_data&quot;: c.Request.Header[&quot;Token&quot;],\n        })\n    })\n    r.Run() // listen and serve on 0.0.0.0:8080\n}\n</code></pre>\n<p>Here is an example screenshot of postman.\n<a href=\"https://i.sstatic.net/w6foR.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/w6foR.png\" alt=\"Example Screenshot\" /></a></p>\n",
+      "owner": {
+        "display_name": "Shiva Kishore",
+        "link": "https://stackoverflow.com/users/5275376/shiva-kishore"
+      }
+    },
+    {
+      "answer_id": 69568265,
+      "body": "<p>That's the whole purpose of a <a href=\"https://en.wikipedia.org/wiki/Key_derivation_function\" rel=\"noreferrer\">key derivation function</a> such as <a href=\"https://pkg.go.dev/golang.org/x/crypto/bcrypt\" rel=\"noreferrer\">BCrypt</a> is to be computationally expensive in order to make brute-forcing impractical.</p>\n<p>But the cost factor of 12 is too high. You should reduce it to 10 or 8.</p>\n<pre><code>bcrypt.GenerateFromPassword(password, 10)  // 10 is the default cost\n</code></pre>\n<p>Here's a demo timing test with different BCrypt cost factors:</p>\n<pre><code>func test(cost int) {\n    t1 := time.Now()\n    _, _ = bcrypt.GenerateFromPassword([]byte(&quot;test pass&quot;), cost)\n    t2 := time.Now()\n    fmt.Println(cost, &quot;: &quot;, t2.Sub(t1))\n}\n\nfunc main() {\n    for i := 4; i &lt; 15; i++ {\n        test(i)\n    }\n}\n</code></pre>\n<p>Output:</p>\n<pre><code>4 :  2.2077ms\n5 :  3.404ms\n6 :  6.8319ms\n7 :  14.732ms\n8 :  23.4149ms\n9 :  46.2739ms\n10 :  98.964ms\n11 :  187.7988ms\n12 :  371.6627ms\n13 :  754.1349ms\n14 :  1.5391565s\n</code></pre>\n",
+      "owner": {
+        "display_name": "rustyx",
+        "link": "https://stackoverflow.com/users/485343/rustyx"
+      }
+    },
+    {
+      "answer_id": 69302853,
+      "body": "<p>They are executed in the order they are added to the router. That's why it is usually referred as <em>middleware chain</em>.</p>\n<p>As you can see from the signature of functions that take middleware args, as  <code>Use</code>, <code>Group</code>, etc. middlewares have type <code>HandlerFunc</code> and they are added to the <code>HandlersChain</code>, which is defined as:</p>\n<pre><code>type HandlersChain []HandlerFunc\n</code></pre>\n<p>So you can assume that context values set in a previous middleware will be available in the subsequent ones:</p>\n<pre><code>func main() {\n    r := gin.New()\n    r.Use(func(c *gin.Context) {\n        c.Set(&quot;key&quot;, &quot;foo&quot;)\n    })\n    \n    r.Use(func(c *gin.Context) {\n        fmt.Println(c.MustGet(&quot;key&quot;).(string)) // foo \n    })\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "blackgreen",
+        "link": "https://stackoverflow.com/users/4108803/blackgreen"
+      }
+    },
+    {
+      "answer_id": 66953599,
+      "body": "<p>To test operations that involve the HTTP request, you have to actually initialize an <code>*http.Request</code> and set it to the Gin context. To specifically test <code>c.BindQuery</code> it's enough to properly initialize the request's <code>URL</code> and <code>URL.RawQuery</code>:</p>\n<pre><code>func mockGin() (*gin.Context, *httptest.ResponseRecorder) {\n    w := httptest.NewRecorder()\n    c, _ := gin.CreateTestContext(w)\n\n    // test request, must instantiate a request first\n    req := &amp;http.Request{\n        URL:    &amp;url.URL{},\n        Header: make(http.Header), // if you need to test headers\n    }\n    // example: req.Header.Add(&quot;Accept&quot;, &quot;application/json&quot;)\n\n    // request query\n    testQuery := weldprogs.QueryParam{/* init fields */}\n\n    q := req.URL.Query()\n    for _, s := range testQuery.Basematgroup_id {\n        q.Add(&quot;basematgroup_id&quot;, s)\n    }\n    // ... repeat for other fields as needed\n\n    // must set this, since under the hood c.BindQuery calls\n    // `req.URL.Query()`, which calls `ParseQuery(u.RawQuery)`\n    req.URL.RawQuery = q.Encode()\n    \n    // finally set the request to the gin context\n    c.Request = req\n\n    return c, w\n}\n</code></pre>\n<p>If you need to mock JSON binding, see <a href=\"https://stackoverflow.com/a/67034058/4108803\">this answer</a>.</p>\n<hr>\n<p>The service call <code>services.WeldprogService.GetMaterialByFilter(&amp;queryParam)</code> can't be tested as is. To be testable it has to be (ideally) an interface and somehow injected as dependency of your handler.</p>\n<p>Assuming that it is already an interface, to make it injectable, you either require it as an handler argument — but this forces you to change the signature of the handler —, or you set it as a Gin context value:</p>\n<pre><code>func GetMaterialByFilter(c *gin.Context) {\n    //...\n    weldprogService := mustGetService(c)\n    materialByFilter, getErr := weldprogService.GetMaterialByFilter(&amp;queryParam)\n    // ...\n}\n\nfunc mustGetService(c *gin.Context) services.WeldprogService {\n    svc, exists := c.Get(&quot;svc_context_key&quot;)\n    if !exists {\n        panic(&quot;service was not set&quot;)\n    }\n    return svc.(services.WeldprogService)\n}\n</code></pre>\n<p>Then you can mock it in your unit tests:</p>\n<pre><code>type mockSvc struct {\n}\n\n// have 'mockSvc' implement the interface \n\nfunc TestGetMaterialByFilter(t *testing.T) {\n    w := httptest.NewRecorder()\n    c, _ := gin.CreateTestContext(w)\n\n    // now you can set mockSvc into the test context\n    c.Set(&quot;svc_context_key&quot;, &amp;mockSvc{})\n\n    GetMaterialByFilter(c)\n    // ... \n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "blackgreen",
+        "link": "https://stackoverflow.com/users/4108803/blackgreen"
+      }
+    },
+    {
+      "answer_id": 66299964,
+      "body": "<p>The demo code is mostly doing what you want but there is one issue. A cookie that does not include &quot;Expires&quot; or &quot;Max-Age&quot; attributes is a &quot;session&quot; cookie <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie\" rel=\"nofollow noreferrer\">and</a> &quot;A session finishes when the client shuts down, and session cookies will be removed.&quot;.</p>\n<p>So the reason you are not successfully retrieving the existing cookie is because the browser has removed it (you can check this using the developer tools in most browsers). To resolve this use something like:</p>\n<pre><code>store := cookie.NewStore([]byte(&quot;secret&quot;))\nstore.Options(sessions.Options{MaxAge:   60 * 60 * 24}) // expire in a day\n</code></pre>\n<p>following this change the cookie will be sent with the appropriate option (and will remain on the browser for a day unless cleared due to user settings/actions):</p>\n<p><code>mysession=MTYxMzg5MDc5OXxEdi1CQkFFQ180SUFBUkFCRUFBQUhQLUNBQUVHYzNSeWFXNW5EQWNBQldOdmRXNTBBMmx1ZEFRQ0FBWT18jWiVoXgauu5T16pLbinR4uYu5XakM7RSmnGHNxCzPf0=; Expires=Mon, 22 Feb 2021 06:59:59 GMT; Max-Age=86400</code></p>\n<p>You can test this by adding the above to the <a href=\"https://github.com/gin-contrib/sessions#cookie-based\" rel=\"nofollow noreferrer\">example code</a> i.e.:</p>\n<pre><code>package main\n\nimport (\n&quot;github.com/gin-contrib/sessions&quot;\n&quot;github.com/gin-contrib/sessions/cookie&quot;\n&quot;github.com/gin-gonic/gin&quot;\n)\n\nfunc main() {\n    r := gin.Default()\n    store := cookie.NewStore([]byte(&quot;secret&quot;))\n    store.Options(sessions.Options{MaxAge:   60 * 60 * 24}) // expire in a day\n    r.Use(sessions.Sessions(&quot;mysession&quot;, store))\n\n    r.GET(&quot;/incr&quot;, func(c *gin.Context) {\n        session := sessions.Default(c)\n        var count int\n        v := session.Get(&quot;count&quot;)\n        if v == nil {\n            count = 0\n        } else {\n            count = v.(int)\n            count++\n        }\n        session.Set(&quot;count&quot;, count)\n        session.Save()\n        c.JSON(200, gin.H{&quot;count&quot;: count})\n    })\n    r.Run(&quot;:8000&quot;)\n}\n</code></pre>\n<p>If you compile/run this and and then open <code>http:127.0.0.1:8000/incr</code> you should see <code>{&quot;count&quot;:0}</code>. refresh the page a few times and verify that the number increases. Now close and reopen your browser and go to <code>http:127.0.0.1:8000/incr</code> - the number should be one above what it was before you closed the browser (demonstrating that this the cookie survived the restart).</p>\n<p>I believe that this is the info you are looking for but I may have misunderstood. It is important to note that, in this case, cookies are generated by the server. Once the browser has received the cookie it will include it in subsequent requests (meaning the server can make use of it).</p>\n<p>For the comment:</p>\n<blockquote>\n<p>I'm using this to read the cookie value:</p>\n</blockquote>\n<pre><code>if cookie, err := c.Request.Cookie(&quot;test_session&quot;); err == nil {       \n    value := cookie.Value\n    log.Printf(&quot;Cookie value: %v&quot;,value) \n} \n</code></pre>\n<blockquote>\n<p>but it doesn't match the cookie value I see in my browser.</p>\n</blockquote>\n<p>The session store is managing the cookie for you; use <code>session.Get</code> (as per the example) to retrieve it.</p>\n<p>If you want to use 'raw' cookies then you should not be using a <code>store</code> to set them (use <a href=\"https://golang.org/pkg/net/http/#SetCookie\" rel=\"nofollow noreferrer\"><code>SetCookie</code></a>). But BE WARNED you need to be very careful when doing this because you cannot trust any cookies you receive; it's trivial for an end user to edit the value of a cookie (the browser dev tools provide a nice user interface for this!).</p>\n<p>To protect against this <code>session</code> writes the cookies encoded in a way that makes it possible to detect if they have been altered (with caveats; if security is a real concern you need to read the docs). This uses the &quot;authentication&quot; key (&quot;secret&quot; in this example so change that because anyone who knows the key can change the token!). There is also an option to encrypt the cookie contents (as it stands its fairly easy for a user to extract the information your cookie contains; in most cases this is not a big issue but it may be for you).</p>\n",
+      "owner": {
+        "display_name": "Brits",
+        "link": "https://stackoverflow.com/users/11810946/brits"
+      }
+    },
+    {
+      "answer_id": 68836755,
+      "body": "<p><code>c.Request.Host+c.Request.URL.Path</code> should work but the scheme has to be determined.</p>\n<pre><code>package main\n\nimport (\n    &quot;fmt&quot;\n\n    &quot;github.com/gin-gonic/gin&quot;\n)\n\nfunc main() {\n    r := gin.Default()\n\n    r.GET(&quot;/foo&quot;, func(c *gin.Context) {\n        fmt.Println(&quot;The URL: &quot;, c.Request.Host+c.Request.URL.Path)\n    })\n\n    r.Run(&quot;:8080&quot;)\n}\n</code></pre>\n<p>You can determine scheme which also you may know already. But you can check as follows:</p>\n<pre><code>scheme := &quot;http&quot;\nif c.Request.TLS != nil {\n    scheme = &quot;https&quot;\n}\n</code></pre>\n<p>If your server is behind the proxy, you can get the scheme by <code>c.Request.Header.Get(&quot;X-Forwarded-Proto&quot;)</code></p>\n",
+      "owner": {
+        "display_name": "Nick",
+        "link": "https://stackoverflow.com/users/4688775/nick"
+      }
+    },
+    {
+      "answer_id": 68263664,
+      "body": "<p>There may not be such a way.\nUsually I do this:</p>\n<pre><code>type QueryParams struct {\n    Type string `form:&quot;type&quot;`\n}\n\nfunc (q *QueryParams) Types() []string {\n    return strings.Split(q.Type, &quot;,&quot;)\n}\n\nfunc BulkRead(c *gin.Context) {\n    params := new(QueryParams)\n\n    if err := c.ShouldBindQuery(&amp;params); err != nil {\n        c.JSON(http.StatusBadRequest, gin.H{&quot;error&quot;: &quot;couldn't bind query params&quot;})\n        return\n    }\n    c.JSONP(200, map[string]interface{}{\n        &quot;types&quot;: params.Types(),\n    })\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Trock",
+        "link": "https://stackoverflow.com/users/16182150/trock"
+      }
+    },
+    {
+      "answer_id": 68197128,
+      "body": "<p>You're probably having a <code>Content-Length</code> mismatch. After the replace, the new body is longer than the previous one.</p>\n<p>Write the <code>Director</code> function as follows:</p>\n<pre><code>    proxy.Director = func(req *http.Request) {\n        // clone the headers\n        req.Header = c.Request.Header.Clone()\n\n        // 1. set new header\n        req.Header.Set(&quot;Content-Length&quot;, strconv.Itoa(len(newBody)))\n\n        // 2. also update this field\n        req.ContentLength = int64(len(newBody))\n\n        // the rest stays the same\n        req.Host = remote.Host\n        req.URL.Scheme = remote.Scheme\n        req.URL.Host = remote.Host\n        req.URL.Path = remote.Path\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "blackgreen",
+        "link": "https://stackoverflow.com/users/4108803/blackgreen"
+      }
+    },
+    {
+      "answer_id": 68130463,
+      "body": "<p>First put every template of same root template folder like:</p>\n<pre><code>/workspace\n|- main.go\n|-web\n  |-assets\n  |-templates\n    |-base\n       | - header.html\n       | - footer.html\n    |-pages\n      |-about.html\n</code></pre>\n<p>Now set gin to load all templates from that root folder:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func main() {\n    router := gin.Default()\n    router.LoadHTMLGlob(&quot;templates/**/*&quot;)\n\n    router.GET(&quot;/index&quot;, func(c *gin.Context) {\n        c.HTML(http.StatusOK, &quot;about.html&quot;, gin.H{\n            &quot;title&quot;: &quot;Main website&quot;,\n        })\n    })\n    router.Run(&quot;:8000&quot;)\n\n}\n</code></pre>\n<p>As you define the template name <code>about</code> you need to use it in the handler:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func main() {\n    router := gin.Default()\n    router.LoadHTMLGlob(&quot;templates/**/*&quot;)\n\n    router.GET(&quot;/index&quot;, func(c *gin.Context) {\n        c.HTML(http.StatusOK, &quot;about&quot;, gin.H{\n            &quot;title&quot;: &quot;Main website&quot;,\n        })\n    })\n    router.Run(&quot;:8000&quot;)\n\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Lucas Katayama",
+        "link": "https://stackoverflow.com/users/1181036/lucas-katayama"
+      }
+    },
+    {
+      "answer_id": 68031853,
+      "body": "<p>The <code>Transport.RoundTrip</code> function takes a <code>*http.Request</code> parameter, so you should be able to pass the Gin context by just creating a request in your handlers with it:</p>\n<pre><code>func MyHandler(c *gin.Context) {\n        // passing context to the request\n        req := http.NewRequestWithContext(c, &quot;GET&quot;, &quot;http://localhost:8080&quot;, nil)\n        resp, err := http.DefaultClient.Do(req)\n}\n</code></pre>\n<p>Note that to be able to make use of the default <code>RoundTripper</code> that you overwrote without additional initialization, you should use the <code>http.DefaultClient</code>.</p>\n",
+      "owner": {
+        "display_name": "blackgreen",
+        "link": "https://stackoverflow.com/users/4108803/blackgreen"
+      }
+    },
+    {
+      "answer_id": 67804792,
+      "body": "<p>You can mv proxy func in r.NoRoute\n<code>r.NoRoute(proxy)</code></p>\n",
+      "owner": {
+        "display_name": "SennoYuki",
+        "link": "https://stackoverflow.com/users/11701044/sennoyuki"
+      }
+    },
+    {
+      "answer_id": 67511072,
+      "body": "<p>Strictly speaking, you can't &quot;mock&quot; a <code>*gin.Context</code> in a meaningful way, because it's a <code>struct</code> with unexported fields and methods.</p>\n<p>Furthermore, you can't pass to <code>r.POST()</code> a function whose type is not a <code>gin.HandlerFunc</code>, defined as <code>func(*gin.Context)</code>. The type of your handler <code>CreateUrl(c Icontext)</code> simply doesn't match.</p>\n<p>If your goal is to unit test a Gin handler, you definitely don't have to mock the <code>*gin.Context</code>. What you should do is to set test values into it. For that, you can simply use <code>gin.CreateTestContext()</code> and manually init some of it fields. More info  <a href=\"https://stackoverflow.com/questions/66952761/how-to-unit-test-a-go-gin-handler-function/66953599#66953599\">here</a>.</p>\n<p>If for some other reason, your goal is to provide an alternate implementation of a functionality of <code>*gin.Context</code> for use inside your handler, what you can do is define your own type with your own alternative methods and embed the <code>*gin.Context</code> in it.</p>\n<p>In practice:</p>\n<pre><code>type MyGinContext struct {\n    *gin.Context\n}\n\nfunc (m *MyGinContext) BindJSON(obj interface{}) error {\n    fmt.Println(&quot;my own BindJSON&quot;)\n    return m.Context.BindJSON(obj) // or entirely alternative implementation\n}\n\n// Using the appropriate function signature now\nfunc (repository *UrlRepo) CreateUrl(c *gin.Context) {\n    myCtx := &amp;MyGinContext{c}\n\n    var url models.Url\n    _ = myCtx.BindJSON(&amp;url) // will also print &quot;my own BindJSON&quot;\n    // ...\n\n    // other gin.Context methods are promoted and available on MyGinContext\n    myCtx.Status(200)\n} \n</code></pre>\n<p>But honestly I'm not sure why you would want to override some methods of the <code>*gin.Context</code>. If you want to provide different binding logic, or even different rendering, you can implement the interfaces that are already exposed by the library. For example:</p>\n<p><em>Implement a binding:</em></p>\n<p><code>c.ShouldBindWith()</code> takes as second parameter an interface <code>binding.Binding</code> which you can implement:</p>\n<pre><code>type MyBinder struct {\n}\n\nfunc (m *MyBinder) Name() string {\n    return &quot;foo&quot;\n}\n\nfunc (m *MyBinder) Bind(*http.Request, interface{}) error {\n    // stuff\n    return nil\n}\n\nfunc MyHandler(c *gin.Context) {\n   var foo struct{/*fields*/}\n   c.ShouldBindWith(&amp;foo, &amp;MyBinder{})\n}\n</code></pre>\n<p><em>Implement a renderer:</em></p>\n<pre><code>type MyRenderer struct {\n}\n\ntype Render interface {\nfunc (m *MyRenderer) Render(http.ResponseWriter) error {\n    // ...\n    return nil\n}\n\nfunc (m *MyRenderer) WriteContentType(w http.ResponseWriter) {\n    header := w.Header()\n    if val := header[&quot;Content-Type&quot;]; len(val) == 0 {\n        header[&quot;Content-Type&quot;] = &quot;application/foo+bar&quot;\n    }\n}\n\nfunc MyHandler(c *gin.Context) {\n   c.Render(200, &amp;MyRenderer{})\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "blackgreen",
+        "link": "https://stackoverflow.com/users/4108803/blackgreen"
+      }
+    },
+    {
+      "answer_id": 67267852,
+      "body": "<p>Propagate the value with <code>context.Context</code>.</p>\n<p>If you are using <a href=\"http://github.com/99designs/gqlgen\" rel=\"noreferrer\">gqlgen</a>, you have to remember that the <code>context.Context</code> instance passed to resolver functions comes from the <code>*http.Request</code> (assuming that you set up the integration as recommended in gqlgen's documentation).</p>\n<p>Therefore with Go-Gin you should be able to do this with some additional plumbing:</p>\n<pre><code>func TokenAuthMiddleware() gin.HandlerFunc {\n    return func(c *gin.Context) {\n        UID := // ... get the UID somehow\n        \n        ctx := context.WithValue(c.Request.Context(), &quot;user_id&quot;, UID)\n        c.Request = c.Request.WithContext(ctx)\n        c.Next()\n    }\n}\n</code></pre>\n<p>And then you get the value in your resolver normally:</p>\n<pre><code>func (r *mutationResolver) CreateFarmer(ctx context.Context, input model.NewFarmer) (*model.Farmer, error) {\n    UID, _ := ctx.Value(&quot;user_id&quot;).(string)\n    // ...\n}\n</code></pre>\n<p>An example (without Gin though) is also available <a href=\"https://gqlgen.com/recipes/authentication/\" rel=\"noreferrer\">here</a></p>\n",
+      "owner": {
+        "display_name": "blackgreen",
+        "link": "https://stackoverflow.com/users/4108803/blackgreen"
+      }
+    },
+    {
+      "answer_id": 26537704,
+      "body": "<p>You could use <code>c.AbortWithStatus(204)</code>, with the one caveat that when you use abort, the rest of pending handlers will never be called for that request.</p>\n<p>Or, you could do:</p>\n<pre><code>c.Writer.WriteHeader(204)\n</code></pre>\n<p>and let your program continue normally (but making sure not to write out anything else)</p>\n",
+      "owner": {
+        "display_name": "dave",
+        "link": "https://stackoverflow.com/users/2082673/dave"
+      }
+    },
+    {
+      "answer_id": 66719657,
+      "body": "<p>You could do something like this:</p>\n<p><code>base.html</code></p>\n<pre class=\"lang-html prettyprint-override\"><code>{{ define &quot;top&quot; }}\n&lt;!DOCTYPE html&gt;\n&lt;html lang=&quot;en&quot;&gt;\n&lt;head&gt;\n    &lt;meta charset=&quot;UTF-8&quot;&gt;\n    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;\n&lt;/head&gt;\n&lt;body&gt;\n{{ end }}\n\n{{ define &quot;bottom&quot; }}\n&lt;/body&gt;\n&lt;/html&gt;\n{{ end }}\n</code></pre>\n<p><code>home.html</code></p>\n<pre class=\"lang-html prettyprint-override\"><code>{{ template &quot;top&quot; . }}\n\n&lt;div class=&quot;container mt-5&quot;&gt;\n    Hello\n&lt;/div&gt;\n\n{{ template &quot;bottom&quot; . }}\n</code></pre>\n<p><code>subpage.html</code></p>\n<pre class=\"lang-html prettyprint-override\"><code>{{ template &quot;top&quot; . }}\n\n&lt;div class=&quot;container&quot;&gt;\n    &lt;div&gt;\n        &lt;h2&gt;This page is still in progress&lt;/h2&gt;\n    &lt;/div&gt;\n&lt;/div&gt;\n\n{{ template &quot;bottom&quot; . }}\n</code></pre>\n<p>Then make sure you're using the file's base name:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>// in the home handler use the following\nc.HTML(http.StatusOK, &quot;home.html&quot;, data)\n\n// in the subpage handler use the following\nc.HTML(http.StatusOK, &quot;subpage.html&quot;, data)\n</code></pre>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 64122385,
+      "body": "<p>Finally figured it out by using IntelliJ to inspect the structure, I can just set it the raw way :</p>\n<pre class=\"lang-golang prettyprint-override\"><code>c.Params = []gin.Param{\n    {\n        Key: &quot;id&quot;,\n        Value: &quot;first document&quot;,\n    },\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "KawaLo",
+        "link": "https://stackoverflow.com/users/9021186/kawalo"
+      }
+    },
+    {
+      "answer_id": 66435460,
+      "body": "<p>You have to place the <code>omitempty</code> tag first.</p>\n<pre><code>type CreateAccount struct {\n    ....\n    RegistrationID string  `json:&quot;registration_id&quot; binding:&quot;max=63&quot;`\n    ParentID       *string `json:&quot;parent_id&quot; binding:&quot;omitempty,uuid&quot;`\n}\n</code></pre>\n<p>From the <a href=\"https://pkg.go.dev/github.com/go-playground/validator/v10\" rel=\"noreferrer\">validator docs</a>:</p>\n<blockquote>\n<p>Allows conditional validation, for example if a field is not set with a value (Determined by the &quot;required&quot; validator) <strong>then other validation such as min or max won't run</strong></p>\n</blockquote>\n<p>The way I read this sentence is that <code>omitempty</code> has to be placed before others, so that it can stop the validator chain if the value is not equal to the zero value.</p>\n",
+      "owner": {
+        "display_name": "blackgreen",
+        "link": "https://stackoverflow.com/users/4108803/blackgreen"
+      }
+    },
+    {
+      "answer_id": 65609042,
+      "body": "<p>We just utilize <code>promhttp</code> handler.</p>\n<pre><code>package main\n\nimport (\n    &quot;github.com/gin-gonic/gin&quot;\n    &quot;github.com/prometheus/client_golang/prometheus&quot;\n    &quot;github.com/prometheus/client_golang/prometheus/promhttp&quot;\n)\n\nvar cpuTemp = prometheus.NewGauge(prometheus.GaugeOpts{\n    Name: &quot;cpu_temperature_celsius&quot;,\n    Help: &quot;Current temperature of the CPU.&quot;,\n})\n\nfunc init() {\n    prometheus.MustRegister(cpuTemp)\n}\n\nfunc prometheusHandler() gin.HandlerFunc {\n    h := promhttp.Handler()\n\n    return func(c *gin.Context) {\n        h.ServeHTTP(c.Writer, c.Request)\n    }\n}\n\nfunc main() {\n    cpuTemp.Set(65.3)\n\n    r := gin.New()\n\n    r.GET(&quot;/&quot;, func(c *gin.Context) {\n        c.JSON(200, &quot;Hello world!&quot;)\n    })\n\n    r.GET(&quot;/metrics&quot;, prometheusHandler())\n\n    r.Run()\n}\n</code></pre>\n<p>Or we always can switch to Prometheus middleware - <a href=\"https://github.com/zsais/go-gin-prometheus\" rel=\"noreferrer\">https://github.com/zsais/go-gin-prometheus</a></p>\n",
+      "owner": {
+        "display_name": "Oleg Butuzov",
+        "link": "https://stackoverflow.com/users/1288818/oleg-butuzov"
+      }
+    },
+    {
+      "answer_id": 57024728,
+      "body": "<p>I would change your folder structure a little bit. Instead of having a separate package for each controller, I would instead have those be a part of the <code>controllers</code> package (While I am talking about the controllers, the same line of thinking holds true for the models).</p>\n<pre><code>.\n+- bin/\n+- controllers/\n   +- user.go\n+- models/\n   +- user.go\n+- main.go\n</code></pre>\n<p>Doing this, I would also change the code structure a bit to instantiate a controller instance like so:</p>\n<pre><code>import &quot;models&quot;\nimport &quot;controllers&quot;\nimport &quot;github.com/gin-gonic/gin&quot;\n\nuserController := controllers.UserController{\n    Users: models.UserModel{}, //DO your stuff here\n}\n\nrouter := gin.Default()\nrouter.GET(&quot;/user&quot;, userController.GetUser)\n</code></pre>\n<p>You could go as you were wanting, creating a new package for each controller, but it will easily grow into a large number of packages. By keeping all of the controllers in a single package, it makes it easier to work with.</p>\n<p>Note: As your app grows, there may be a need to create sub packages. One case I can think of is placing all admin only controllers in a <code>controllers/admin</code> package.</p>\n",
+      "owner": {
+        "display_name": "Jacob Lambert",
+        "link": "https://stackoverflow.com/users/3166160/jacob-lambert"
+      }
+    },
+    {
+      "answer_id": 64095232,
+      "body": "<p>Adding the recovery middleware last seems to fix this.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;github.com/gin-contrib/gzip&quot;\n    &quot;github.com/gin-gonic/gin&quot;\n)\n\nfunc main() {\n    gin.SetMode(gin.ReleaseMode)\n    r := gin.New()\n    r.Use(gin.Logger())\n    r.Use(gzip.Gzip(gzip.DefaultCompression))\n    r.Use(gin.Recovery())\n\n    r.POST(&quot;/test&quot;, func(c *gin.Context) {\n        panic(&quot;test&quot;)                        // Server panic and client should receive code 500.\n    })\n\n    r.Run(&quot;:8080&quot;)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "user14311453",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 63968889,
+      "body": "<p>Thanks your suggestion, that helped :-) The correct wrapper function is:</p>\n<pre><code>func wrapper(f func(c *gin.Context) (string, error)) gin.HandlerFunc {\n\n    return func(c *gin.Context) {\n        _, err := f(c)\n        if err != nil {\n            c.JSON(503, gin.H{&quot;status&quot;: err})\n            return\n        }\n        c.JSON(200, gin.H{&quot;status&quot;: &quot;OK&quot;})\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Erik",
+        "link": "https://stackoverflow.com/users/4764732/erik"
+      }
+    },
+    {
+      "answer_id": 62910048,
+      "body": "<p>You would need to store router variable in your struct or global variable. Then individual go files will add handlers to that variable. Here is an example:</p>\n<p>routes.go</p>\n<pre class=\"lang-golang prettyprint-override\"><code>package app\n\nimport (\n    &quot;github.com/gin-gonic/gin&quot;\n)\n\ntype routes struct {\n    router *gin.Engine\n}\n\nfunc NewRoutes() routes {\n    r := routes{\n        router: gin.Default(),\n    }\n\n    v1 := r.router.Group(&quot;/v1&quot;)\n\n    r.addPing(v1)\n    r.addUsers(v1)\n\n    return r\n}\n\nfunc (r routes) Run(addr ...string) error {\n    return r.router.Run()\n}\n</code></pre>\n<p>ping.go</p>\n<pre class=\"lang-golang prettyprint-override\"><code>package app\n\nimport &quot;github.com/gin-gonic/gin&quot;\n\nfunc (r routes) addPing(rg *gin.RouterGroup) {\n    ping := rg.Group(&quot;/ping&quot;)\n\n    ping.GET(&quot;/&quot;, pongFunction)\n}\n\nfunc pongFunction(c *gin.Context) {\n    c.JSON(200, gin.H{\n        &quot;message&quot;: &quot;pong&quot;,\n    })\n}\n</code></pre>\n<p>users.go</p>\n<pre><code>package app\n\nimport &quot;github.com/gin-gonic/gin&quot;\n\nfunc (r routes) addUsers(rg *gin.RouterGroup) {\n    users := rg.Group(&quot;/users&quot;)\n\n    users.GET(&quot;/&quot;, getUsersFunction)\n}\n\nfunc getUsersFunction(c *gin.Context) {\n    c.JSON(200, gin.H{\n        &quot;users&quot;: &quot;...&quot;,\n    })\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Halil",
+        "link": "https://stackoverflow.com/users/811008/halil"
+      }
+    },
+    {
+      "answer_id": 62737959,
+      "body": "<p>Here is an example of reading body twice with <a href=\"https://godoc.org/github.com/gin-gonic/gin#Context.ShouldBindBodyWith\" rel=\"noreferrer\"><code>ShouldBindBodyWith</code></a>, check it:</p>\n<pre><code>package main\n\nimport (\n    &quot;log&quot;\n    &quot;net/http&quot;\n\n    &quot;github.com/gin-gonic/gin&quot;\n    &quot;github.com/gin-gonic/gin/binding&quot;\n)\n\ntype ParamsOne struct {\n    Username string `json:&quot;username&quot;`\n}\n\ntype ParamsTwo struct {\n    Username string `json:&quot;username&quot;`\n}\n\nfunc main() {\n    r := gin.New()\n    r.POST(&quot;/&quot;, func(c *gin.Context) {\n        var f ParamsOne\n        // Read ones\n        if err := c.ShouldBindBodyWith(&amp;f, binding.JSON); err != nil {\n            log.Printf(&quot;%+v&quot;, err)\n        }\n        log.Printf(&quot;%+v&quot;, f)\n        var ff ParamsTwo\n        \n        if err := c.ShouldBindBodyWith(&amp;ff, binding.JSON); err != nil {\n            log.Printf(&quot;%+v&quot;, err)\n        }\n        log.Printf(&quot;%+v&quot;, ff)\n        c.IndentedJSON(http.StatusOK, f)\n    })\n    r.Run(&quot;:4000&quot;)\n}\n</code></pre>\n<p>Output:</p>\n<pre><code>$example: ./example\n[GIN-debug] [WARNING] Running in &quot;debug&quot; mode. Switch to &quot;release&quot; mode in production.\n - using env:   export GIN_MODE=release\n - using code:  gin.SetMode(gin.ReleaseMode)\n\n[GIN-debug] POST   /                         --&gt; main.main.func1 (1 handlers)\n[GIN-debug] Listening and serving HTTP on :4000\n2020/07/05 10:47:03 {Username:somename}\n2020/07/05 10:47:03 {Username:somename}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Roman Kiselenko",
+        "link": "https://stackoverflow.com/users/2057388/roman-kiselenko"
+      }
+    },
+    {
+      "answer_id": 62697055,
+      "body": "<p>You could see it in the source of <code>gin</code>:</p>\n<pre><code>type H map[string]interface{}\n</code></pre>\n<p>So you could use(nested <code>gin.H</code>):</p>\n<pre><code>c.JSON(http.StatusOK, gin.H{&quot;data&quot;: \n        gin.H{\n            &quot;result&quot;: []string{&quot;This is a sample response&quot;},\n        },\n        &quot;code&quot;: http.StatusOK, \n        &quot;status&quot;: &quot;success&quot;,\n    })\n</code></pre>\n",
+      "owner": {
+        "display_name": "jizhihaoSAMA",
+        "link": "https://stackoverflow.com/users/11811255/jizhihaosama"
+      }
+    },
+    {
+      "answer_id": 62608670,
+      "body": "<p>Just create a super-group and then create your groups under it. Code example to show what I mean:</p>\n<pre><code>    router := gin.New()\n    \n    superGroup := router.Group(&quot;/api&quot;)\n    {\n        userGroup := superGroup.Group(&quot;/user&quot;)\n        {\n            // user group handlers\n        }\n    \n        todoGroup := superGroup.Group(&quot;/todo&quot;)\n        {\n            // todo group handlers\n        }\n    }\n\n</code></pre>\n<p>With this code you can't create your groups as you are doing now, because both your functions <code>todorouter.TodoRoutes</code> and <code>userrouter.UserRoutes</code> instantiate their own <code>gin.Engine</code>. So you have to move the top-level engine and <code>/api</code> group to a common place.</p>\n<p>If you want, you can then pass the api group object as a function argument. Example:</p>\n<pre><code>//TodoRoutes for creating Todo\nfunc TodoRoutes(apiGroup *gin.RouterGroup) {\n\n    v2 := apiGroup.Group(&quot;/todo&quot;)\n    {\n\n        v2.GET(&quot;/hello&quot;, func(c *gin.Context) {\n            c.JSON(200, gin.H{\n                &quot;message&quot;: &quot;pong&quot;,\n            })\n        })\n\n    }\n}\n</code></pre>\n<p>However my recommendation to keep your code well organized is to instantiate all routers in the same place, and then place the handlers in separate packages.</p>\n<pre><code>// package todoroutes\nfunc HandleHello(c *gin.Context) {\n            c.JSON(200, gin.H{\n                &quot;message&quot;: &quot;pong&quot;,\n            })\n}\n\n// package router\n    router := gin.New()\n    \n    superGroup := router.Group(&quot;/api&quot;)\n    {\n        userGroup := superGroup.Group(&quot;/user&quot;)\n        {\n             userGroup.GET(&quot;/hello&quot;, todoroutes.HandleHello)\n        }\n    }\n\n</code></pre>\n",
+      "owner": {
+        "display_name": "blackgreen",
+        "link": "https://stackoverflow.com/users/4108803/blackgreen"
+      }
+    },
+    {
+      "answer_id": 62549264,
+      "body": "<p>You can use cookies or query parameters to pass variables. Use one of the solutions provided in <em><code>GatewayIpgRequestHandler</code></em>.</p>\n<p><em><strong>main.go</strong></em></p>\n<pre><code>package main\n\nimport (\n    &quot;github.com/gin-gonic/gin&quot;\n    &quot;temp/controllers&quot;\n)\n\nfunc main() {\n    apiRoutes := gin.Default()\n    apiRoutes.GET(&quot;ipg/:token&quot;, controllers.GatewayIpgRequestHandler)\n    apiRoutes.GET(&quot;api/callback/cookies&quot;, controllers.APICallBackWithCookies)\n    apiRoutes.GET(&quot;api/callback/query_params&quot;, controllers.APICallBackWithQueryParams)\n    apiRoutes.Run()\n}\n</code></pre>\n<p><em><strong>controller.go</strong></em></p>\n<pre><code>package controllers\n\nimport (\n    &quot;github.com/gin-gonic/gin&quot;\n    &quot;net/http&quot;\n    &quot;net/url&quot;\n)\n\nfunc APICallBackWithCookies(c *gin.Context) {\n    wage, err := c.Cookie(&quot;wage&quot;)\n    if err != nil {\n        return\n    }\n    amount, err := c.Cookie(&quot;amount&quot;)\n    if err != nil {\n        return\n    }\n    c.JSON(http.StatusOK, gin.H{&quot;wage&quot;: wage, &quot;amount&quot;: amount})\n}\nfunc APICallBackWithQueryParams(c *gin.Context) {\n    wage := c.Query(&quot;wage&quot;)\n    amount := c.Query(&quot;amount&quot;)\n    c.JSON(http.StatusOK, gin.H{&quot;wage&quot;: wage, &quot;amount&quot;: amount})\n}\n\nfunc GatewayIpgRequestHandler(c *gin.Context) {\n    // first solution\n    c.SetCookie(&quot;wage&quot;, &quot;123&quot;, 10, &quot;/&quot;, c.Request.URL.Hostname(), false, true)\n    c.SetCookie(&quot;amount&quot;, &quot;13123&quot;, 10, &quot;/&quot;, c.Request.URL.Hostname(), false, true)\n    location := url.URL{Path: &quot;/api/callback/cookies&quot;,}\n    c.Redirect(http.StatusFound, location.RequestURI())\n\n    // second solution\n    q := url.Values{}\n    q.Set(&quot;wage&quot;, &quot;123&quot;)\n    q.Set(&quot;amount&quot;, &quot;13123&quot;)\n    location := url.URL{Path: &quot;/api/callback/query_params&quot;, RawQuery: q.Encode()}\n    c.Redirect(http.StatusFound, location.RequestURI())\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mohammadreza Mirhajianmoghadam",
+        "link": "https://stackoverflow.com/users/4332492/mohammadreza-mirhajianmoghadam"
+      }
+    },
+    {
+      "answer_id": 62390485,
+      "body": "<p>I chose to use <a href=\"https://www.i18next.com/\" rel=\"nofollow noreferrer\">i18next</a> instead of go-i18n because the message keys can be embedded in HTML and replaced with language JSON files.</p>\n",
+      "owner": {
+        "display_name": "Kohei TAMURA",
+        "link": "https://stackoverflow.com/users/7725621/kohei-tamura"
+      }
+    },
+    {
+      "answer_id": 61501244,
+      "body": "<h1>access logger</h1>\n\n<p><a href=\"https://github.com/sbecker/gin-api-demo/blob/master/middleware/json_logger.go\" rel=\"noreferrer\">https://github.com/sbecker/gin-api-demo/blob/master/middleware/json_logger.go</a></p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>\n// JSONLogMiddleware logs a gin HTTP request in JSON format, with some additional custom key/values\nfunc JSONLogMiddleware() gin.HandlerFunc {\n    return func(c *gin.Context) {\n        // Start timer\n        start := time.Now()\n\n        // Process Request\n        c.Next()\n\n        // Stop timer\n        duration := util.GetDurationInMillseconds(start)\n\n        entry := log.WithFields(log.Fields{\n            \"client_ip\":  util.GetClientIP(c),\n            \"duration\":   duration,\n            \"method\":     c.Request.Method,\n            \"path\":       c.Request.RequestURI,\n            \"status\":     c.Writer.Status(),\n            \"user_id\":    util.GetUserID(c),\n            \"referrer\":   c.Request.Referer(),\n            \"request_id\": c.Writer.Header().Get(\"Request-Id\"),\n            // \"api_version\": util.ApiVersion,\n        })\n\n        if c.Writer.Status() &gt;= 500 {\n            entry.Error(c.Errors.String())\n        } else {\n            entry.Info(\"\")\n        }\n    }\n}\n</code></pre>\n\n<h1>debug logger</h1>\n\n<p>Looking at the gin source code, it is found that the debug log is output to an io.Writer. Rewriting this object redirects the output to json, similar to the method of processing the output of http.Server.Errorlog.</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>func debugPrint(format string, values ...interface{}) {\n    if IsDebugging() {\n        if !strings.HasSuffix(format, \"\\n\") {\n            format += \"\\n\"\n        }\n        fmt.Fprintf(DefaultWriter, \"[GIN-debug] \"+format, values...)\n    }\n}\n</code></pre>\n\n<p>set debug write, this code is no test.</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>// WriteFunc convert func to io.Writer.\ntype WriteFunc func([]byte) (int, error)\nfunc (fn WriteFunc) Write(data []byte) (int, error) {\n    return fn(data)\n}\n\nfunc NewLogrusWrite() io.Writer {\n    return WriteFunc(func(data []byte) (int, error) {\n        logrus.Debugf(\"%s\", data)\n        return 0, nil\n    })\n}\n// set gin write to logrus debug.\ngin.DefaultWriter = NewLogrusWrite()\n</code></pre>\n\n<p>get all http.Server Error log.</p>\n\n<h1>htt.Server</h1>\n\n<p>htt.Server outputs logs to a log.Logger, and creates a log.Logger output by the specified io.Writer to receive the Error log from http.Sever There is no detailed write gin to use custom Sever code, please check the gin documentation.</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>srv := &amp;http.Server{\n    // log level is bebug, please create a error level io.Writer\n    ErrorLog: log.New(NewLogrusWrite(), \"\", 0),\n} \n\n</code></pre>\n",
+      "owner": {
+        "display_name": "eudore",
+        "link": "https://stackoverflow.com/users/13267950/eudore"
+      }
+    },
+    {
+      "answer_id": 61111410,
+      "body": "<p>We also needed something like @BadPirate describes so if anyone need for gin 1.6.2</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>func register(c *gin.Context){\n    c.MultipartForm()\n    for key, value := range c.Request.PostForm {\n        log.Printf(\"%v = %v \\n\",key,value)\n    }\n}\n</code></pre>\n\n<p>Thanks @BadPirate and @phoet for the info. </p>\n",
+      "owner": {
+        "display_name": "Fernando Leal",
+        "link": "https://stackoverflow.com/users/2386761/fernando-leal"
+      }
+    },
+    {
+      "answer_id": 61092206,
+      "body": "<p>For Go version 1.11 or newer, You should use <a href=\"https://blog.golang.org/using-go-modules\" rel=\"noreferrer\">Go Modules</a>.</p>\n\n<p>If you are just starting with Go, you should start with the newer version. I think you are using a Go version that supports go modules already because the modules you are trying to get are downloading to <code>~/go/pkg/mod/</code> directory.</p>\n\n<h3>To initialize a project with go module, run:</h3>\n\n<pre><code>go mod init your-project-name\n</code></pre>\n\n<p>This will create a <code>go.mod</code> file in your project directory.</p>\n\n<h3>Add missing and/or remove unused modules:</h3>\n\n<pre><code>go mod tidy\n</code></pre>\n\n<p>This will fill up the <code>go.mod</code> file with appropriate modules and create a <code>go.sum</code> in your project directory. The go.sum contains expected cryptographic hashes of each module version.</p>\n\n<p>After that, the <code>go run example.go</code> command should run the program without any issues.</p>\n\n<hr>\n\n<h3>You can even vendor the modules in your project directory:</h3>\n\n<pre><code>go mod vendor\n</code></pre>\n\n<p>This will bring all the vendors to your projects <code>/vendor</code> directory so that you don't need to get the modules again if working from another machine on this project.</p>\n",
+      "owner": {
+        "display_name": "aniskhan001",
+        "link": "https://stackoverflow.com/users/1712600/aniskhan001"
+      }
+    },
+    {
+      "answer_id": 57929078,
+      "body": "<p>One option is to nest the structs inside the <code>AutoMigrate</code> function:</p>\n\n<pre><code>db.AutoMigrate(\n    &amp;User{}, \n    &amp;Product{},\n    &amp;Order{},\n)\n</code></pre>\n\n<p>Or if you want to make the inside \"short\", you could do:</p>\n\n<pre><code>var models = []interface{}{&amp;User{}, &amp;Product{}, &amp;Order{}}\n\ndb.Automigrate(models...)\n</code></pre>\n",
+      "owner": {
+        "display_name": "dave",
+        "link": "https://stackoverflow.com/users/2082673/dave"
+      }
+    },
+    {
+      "answer_id": 59509628,
+      "body": "<p>Lowercase fields are considered private, and will not be serialized by the standard json serializer.</p>\n\n<p>Change the fields of your <code>alcoholDrink</code> type, so that they start with an uppercase letter :</p>\n\n<pre><code>type alcoholDrink struct {\n    Name             string\n    Description      string\n    NutritionsAmount string\n    Nutritions       map[string]string\n}\n</code></pre>\n\n<p>If you want to see lowercased names in the resulting json, you can add an annotation to each field :</p>\n\n<pre><code>type alcoholDrink struct {\n    Name             string    `json:\"name\"`\n    Description      string    `json:\"description\"`\n    NutritionsAmount string    `json:\"nutritionsAmount\"`\n    Nutritions       map[string]string   `json:\"nutritions\"`\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "LeGEC",
+        "link": "https://stackoverflow.com/users/86072/legec"
+      }
+    },
+    {
+      "answer_id": 57270840,
+      "body": "<p>The standard library's <a href=\"https://golang.org/pkg/context/#Context\" rel=\"noreferrer\"><code>context.Context</code></a> type is an interface, with the following methods:</p>\n\n<ul>\n<li><code>Deadline() (deadline time.Time, ok bool)</code></li>\n<li><code>Done() &lt;-chan struct{}</code></li>\n<li><code>Err() error</code></li>\n<li><code>Value(key interface{}) interface{}</code></li>\n</ul>\n\n<p>So any type that has these methods <em>is</em> a <code>context.Context</code>.</p>\n\n<p>Looking at the <a href=\"https://godoc.org/github.com/gin-gonic/gin\" rel=\"noreferrer\">gin documentation</a>, we see that the <code>gin.Context</code> type has all of these methods:</p>\n\n<ul>\n<li><a href=\"https://godoc.org/github.com/gin-gonic/gin#Context.Deadline\" rel=\"noreferrer\"><code>Deadline</code></a></li>\n<li><a href=\"https://godoc.org/github.com/gin-gonic/gin#Context.Done\" rel=\"noreferrer\"><code>Done</code></a></li>\n<li><a href=\"https://godoc.org/github.com/gin-gonic/gin#Context.Err\" rel=\"noreferrer\"><code>Err</code></a></li>\n<li><a href=\"https://godoc.org/github.com/gin-gonic/gin#Context.Value\" rel=\"noreferrer\"><code>Value</code></a></li>\n</ul>\n\n<p>So it's already a <code>context.Context</code>. No conversion or transformation necessary.</p>\n",
+      "owner": {
+        "display_name": "Jonathan Hall",
+        "link": "https://stackoverflow.com/users/13860/jonathan-hall"
+      }
+    },
+    {
+      "answer_id": 57020723,
+      "body": "<p>I solved my own question thanks to this article: <a href=\"https://www.socketloop.com/tutorials/golang-encode-image-to-base64-example\" rel=\"noreferrer\">https://www.socketloop.com/tutorials/golang-encode-image-to-base64-example</a></p>\n\n<p>The proble is that i needed to Encode it to String with 'imgBase64Str := base64.StdEncoding.EncodeToString(buf)'</p>\n\n<p>So the final code to work is as follows:</p>\n\n<p>Golang</p>\n\n<pre><code>func renderQRExport(c *gin.Context){\n    var images []string\n    var img []byte\n    var err error\n    for i := 0; i &lt; 25; i++ {\n        img, err = qrcode.Encode(\"https://example.org\", qrcode.Medium, 256)\n        img2 := base64.StdEncoding.EncodeToString(img)\n        images = append(images, img2)\n        if err != nil {\n            fmt.Print(err)\n        }\n    }\n    render(c, gin.H{\n        \"images\":              images,\n    }, \"qr.html\")\n}\n</code></pre>\n\n<p>HTML</p>\n\n<pre><code>&lt;!doctype html&gt;\n&lt;html class=\"no-js\" lang=\"\"&gt;\n&lt;head&gt;\n  &lt;title&gt;QR export&lt;/title&gt;\n  {{template \"imports.html\"}}\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;div class=\"margin-body-log-in-worker\"&gt;\n        &lt;div class=\"row\"&gt;\n          {{range .images}}\n          &lt;div class=\"col-4 col-sm-4 col-md-3 col-xl-2 center\"&gt;\n                &lt;img src=\"data:image/png;base64,{{.}}\" class=\"img-fluid image-dashboard\" /&gt;\n          &lt;/div&gt;\n          {{end}}\n        &lt;/div&gt;\n      &lt;/div&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "kike",
+        "link": "https://stackoverflow.com/users/10971002/kike"
+      }
+    },
+    {
+      "answer_id": 56673371,
+      "body": "<p>you can use the <code>gin.H</code> struct on you response:</p>\n\n<pre><code>c.JSON(http.StatusOK, gin.H{\"msg\":\"this worked\"})\n</code></pre>\n",
+      "owner": {
+        "display_name": "Eduardo Hitek",
+        "link": "https://stackoverflow.com/users/5223002/eduardo-hitek"
+      }
+    },
+    {
+      "answer_id": 42968011,
+      "body": "<p>The way to do this is to create a function in each that takes a route as a parameter, and then adds the routes to the parameter:</p>\n\n<pre><code>package auth\nimport \"...gin\"\nfunc Routes(route *gin.Engine)\nauth := route.Group(\"/auth\"){\n    auth.GET(...\n    auth.POST(...\n}\n...\n\npackage users\nimport \"...gin\"\nfunc Routes(route *gin.Engine)\nuser := route.Group(\"/user\"){\n    user.GET(...\n    user.POST(...\n}\n...\n\npackage main\nimport (\n     \"github.com/username/package/sub/auth\"\n     \"github.com/username/package/sub/users\"\n     \"github.com/gin-gonic/gin\"\n)\n...\nrouter := gin.Default()\nauth.Routes(router) //Added all auth routes\nuser.Routes(router) //Added all user routes\nrouter.Run()\n...\n</code></pre>\n",
+      "owner": {
+        "display_name": "spdrman",
+        "link": "https://stackoverflow.com/users/284651/spdrman"
+      }
+    },
+    {
+      "answer_id": 56201087,
+      "body": "<p>So the solution was to initialize it with : </p>\n\n<pre><code>productConstructed.BrandMedals = make([]string, 0)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Bussiere",
+        "link": "https://stackoverflow.com/users/462794/bussiere"
+      }
+    },
+    {
+      "answer_id": 55973743,
+      "body": "<p>Seems that is a limitation of the Gin framework, as seen @ <a href=\"https://github.com/gin-gonic/gin/blob/master/tree.go#L322\" rel=\"nofollow noreferrer\">https://github.com/gin-gonic/gin/blob/master/tree.go#L322</a></p>\n\n<p>You could always invert the order and do a rewrite using a proxy and a regexp (i.e. /api/v0/*addr/files to /api/v0/files/*addr) or only accept methods ending with /files inside your handling function, but I'm afraid that is a hardcoded limitation of the Gin framework.</p>\n",
+      "owner": {
+        "display_name": "Gustavo Kawamoto",
+        "link": "https://stackoverflow.com/users/6580047/gustavo-kawamoto"
+      }
+    },
+    {
+      "answer_id": 55852216,
+      "body": "<p>Try <code>sites/**/*.html</code> to fix the panic.</p>\n\n<p>And note that Go uses the template files' <strong>base</strong> name as the template name, so to execute a template you don't use <code>\"path/to/template.html\"</code> but <code>\"template.html\"</code>. This, of course, causes a problem in your case since as explained in the <a href=\"https://golang.org/pkg/html/template/#Template.ParseFiles\" rel=\"nofollow noreferrer\">documentation</a>:</p>\n\n<blockquote>\n  <p>When parsing multiple files with the same name in different\n  directories, the last one mentioned will be the one that results.</p>\n</blockquote>\n\n<p>To fix this you need to explicitly name your templates which you can do by using the <code>{{ define \"template_name\" }}</code> action.</p>\n\n<ol>\n<li>Open <code>sites/new/index.html</code></li>\n<li>Add <code>{{ define \"new/index.html\" }}</code> as the first line</li>\n<li>Add <code>{{ end }}</code> as the last line</li>\n<li>Repeat for <code>sites/old/index.html</code> with <code>\"old/index.html\"</code> as the name.</li>\n</ol>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 54690887,
+      "body": "<p>Thanks to all for trying to find a solution, I simply found that I was registering middleware after routes: in this way, routes declared before middleware are not \"covered\" by the same middleware.</p>\n\n<p>This code is correctly working:</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    \"github.com/gin-gonic/gin\"\n    \"github.com/zsais/go-gin-prometheus\"\n    \"net/http\"\n)\n\nfunc main() {\n    router1 := gin.New()\n    router2 := gin.New()\n\n    p := ginprometheus.NewPrometheus(\"test\")\n    router1.Use(p.HandlerFunc())\n    p.SetMetricsPath(router2)\n\n    router1.GET(\"/test\", func(c *gin.Context) {\n        c.String(http.StatusOK, \"it works\")\n    })\n\n    go func() { router2.Run(\":7100\") }()\n    router1.Run(\":8000\")\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Simone Cabrino",
+        "link": "https://stackoverflow.com/users/3138630/simone-cabrino"
+      }
+    },
+    {
+      "answer_id": 53936253,
+      "body": "<blockquote>\n  <p><a href=\"https://golang.org/ref/spec\" rel=\"noreferrer\">The Go Programming Language Specification</a></p>\n  \n  <p><a href=\"https://golang.org/ref/spec#Blocks\" rel=\"noreferrer\">Blocks</a></p>\n  \n  <p>A block is a possibly empty sequence of declarations and statements\n  within matching brace brackets.</p>\n  \n  <p><a href=\"https://golang.org/ref/spec#Declarations_and_scope\" rel=\"noreferrer\">Declarations and scope</a></p>\n  \n  <p>Go is lexically scoped using blocks.</p>\n</blockquote>\n\n<hr>\n\n<p>For example, the <code>v1.POST</code> method call statements form a block:</p>\n\n<pre><code>// Simple group: v1\nv1 := router.Group(\"/v1\")\n{\n    v1.POST(\"/login\", loginEndpoint)\n    v1.POST(\"/submit\", submitEndpoint)\n    v1.POST(\"/read\", readEndpoint)\n}\n</code></pre>\n\n<p>This is an unusual use of blocks.</p>\n",
+      "owner": {
+        "display_name": "peterSO",
+        "link": "https://stackoverflow.com/users/221700/peterso"
+      }
+    },
+    {
+      "answer_id": 53706103,
+      "body": "<p>Accordingly to your screen it looks like you're sending <code>x-www-form-urlencoded</code> request and it this case you have to have <code>form</code> tags in your <code>CreateRequest</code> struct:</p>\n\n<pre><code>type CreateRequest struct {\n    Username string `json:\"username\" form:\"username\"`\n    Phone    string `json:\"phone\" form:\"phone\"`\n    Password string `json:\"password\" form:\"password\"`\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "cn007b",
+        "link": "https://stackoverflow.com/users/3612353/cn007b"
+      }
+    },
+    {
+      "answer_id": 53153859,
+      "body": "<p>you must be sure the Template render correctly,Because c.HTML will write directly to response, at this time some byte has been sent to client.</p>\n\n<p>you can use \"html/template\", and use buff to cache response data, instead of writing directly to response writer</p>\n",
+      "owner": {
+        "display_name": "big pigeon",
+        "link": "https://stackoverflow.com/users/5218121/big-pigeon"
+      }
+    },
+    {
+      "answer_id": 52830435,
+      "body": "<p>You have to call <code>SetMode</code> method before you initialize the gin router. E.x:</p>\n\n<pre><code>gin.SetMode(gin.ReleaseMode)\nrouter := gin.New()\n</code></pre>\n",
+      "owner": {
+        "display_name": "Daniil Rutskiy",
+        "link": "https://stackoverflow.com/users/6777826/daniil-rutskiy"
+      }
+    },
+    {
+      "answer_id": 52727369,
+      "body": "<p>You need to execute the gocron inside a goroutine, since the main goroutine will block (I guess <code>routes.Init()</code> starts an HTTP server too?)</p>\n\n<pre><code>func main() {\n    settings.AppSettings = settings.ReadSettings()\n\n    db.InitOracleDataBase()\n    OracleEnv, OracleSrv, OracleSes := db.GetOracleDB()\n    defer OracleEnv.Close()\n    defer OracleSrv.Close()\n    defer OracleSes.Close()\n\n    go func() {\n        gocron.Every(5).Seconds().Do(prOk)\n        &lt;-gocron.Start()\n    }()\n\n    routes.Init()\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Raggaer",
+        "link": "https://stackoverflow.com/users/2452442/raggaer"
+      }
+    },
+    {
+      "answer_id": 52556549,
+      "body": "<p>I tried to fix the issue for a couple of days. However I found the culprit where I didn't expect it. It finally was the behavior of the frontend application as I had the impression it was just a link that gets called and I was wrong.</p>\n\n<p>However I wanted to point out that I could successfully verify that the browser doesn't care if the <code>Content-Disposition</code> has a <code>'</code>, <code>\"</code> or no quoting at all.</p>\n\n<p>Also the gin/golang above is working as it should.</p>\n\n<p>thx everyone for helping me out.</p>\n",
+      "owner": {
+        "display_name": "Vad1mo",
+        "link": "https://stackoverflow.com/users/1156199/vad1mo"
+      }
+    },
+    {
+      "answer_id": 50575548,
+      "body": "<p>You can certainly just do this if you prefer it:</p>\n\n<pre><code>func MyMiddleware(c *gin.Context) {\n    // middleware\n}\nr := gin.New()\nr.Use(MyMiddleware)\n</code></pre>\n\n<p>The most probably reason why it is suggested that you do this instead:</p>\n\n<pre><code>func MyMiddleware() gin.HandlerFunc {\n    return func (c *gin.Context) {\n        // middleware\n    }\n}\nr := gin.New()\nr.Use(MyMiddleware())\n</code></pre>\n\n<p>is, so you can add parameters, the example used in here: <a href=\"https://github.com/gin-gonic/gin#custom-middleware\" rel=\"noreferrer\">https://github.com/gin-gonic/gin#custom-middleware</a> is a logging middleware.:</p>\n\n<pre><code>func Logger() gin.HandlerFunc {\n    return func(c *gin.Context) {\n        // code goes here\n    }\n}\n</code></pre>\n\n<p>It didn't have any params, but you can use custom logger like <a href=\"https://github.com/sirupsen/logrus\" rel=\"noreferrer\">logrus</a> inside your middleware by adding a param:</p>\n\n<p>You can have a logging middleware like this:</p>\n\n<pre><code>func Logger(log *logrus.Logger) gin.HandlerFunc {\n    return func(c *gin.Context) {\n        // use logrus\n        log.WithFields(log.Fields{\n          \"animal\": \"walrus\",\n        }).Info(\"A walrus appears\")\n\n    }\n}\n</code></pre>\n\n<p>And use it like this:</p>\n\n<pre><code>var log = logrus.New()\nr.Use(Logger(log))\n</code></pre>\n",
+      "owner": {
+        "display_name": "stevenferrer",
+        "link": "https://stackoverflow.com/users/6716410/stevenferrer"
+      }
+    },
+    {
+      "answer_id": 38548555,
+      "body": "<p>You need to intercept writing of response and store it somewhere first. Then you can log it. And to do that you need to implement your own Writer intercepting Write() calls.</p>\n\n<p>For example, as follows:</p>\n\n<pre><code>type bodyLogWriter struct {\n    gin.ResponseWriter\n    body *bytes.Buffer\n}\n\nfunc (w bodyLogWriter) Write(b []byte) (int, error) {\n    w.body.Write(b)\n    return w.ResponseWriter.Write(b)\n}\n\nfunc ginBodyLogMiddleware(c *gin.Context) {\n    blw := &amp;bodyLogWriter{body: bytes.NewBufferString(\"\"), ResponseWriter: c.Writer}\n    c.Writer = blw\n    c.Next()\n    statusCode := c.Writer.Status()\n    if statusCode &gt;= 400 {\n        //ok this is an request with error, let's make a record for it\n        // now print body (or log in your preferred way)\n        fmt.Println(\"Response body: \" + blw.body.String())\n    }\n}\n</code></pre>\n\n<p>Then use this middleware like this:</p>\n\n<pre><code>router.Use(ginBodyLogMiddleware)\n</code></pre>\n\n<p>Note that this sill won't work for static files as gin does not seem to use c.Writer for them. But in most cases, that's what you want anyway. </p>\n\n<p>If you want to intercept all files, you need to use a slightly more complicated approach. Instead of Middleware, you'll need to implement a wrapper http.Handler that will wrap gin.Engine and will use same approach as shown above to intercept and log whatever is written to http.ResponseWriter. Then run gin server like this:</p>\n\n<pre><code>ginRouter := gin.New()\n// configure your middleware and routes as required\n\n// Run http server as follows, where bodyLogHandler is your wrapper handler\nhttp.ListenAndServe(bindAddress, &amp;bodyLogHandler{wrappedHandler: ginRouter}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Seva",
+        "link": "https://stackoverflow.com/users/6375498/seva"
+      }
+    },
+    {
+      "answer_id": 49399005,
+      "body": "<p><code>gin.Logger()</code> has a longer form with args that can take in args of strings listing paths that should not be logged, i.e. <code>gin.LoggerWithWriter(gin.DefaultWriter, \"&lt;NO LOG PATH 1&gt;\", ...)</code>.</p>\n\n<p>I overwrote the base struct GinService with, <code>baseService.GinEngine = gin.New()</code> and then attached gin.LoggerWithWriter(...) and gin.Recovery() middlewares manually.</p>\n\n<p>That did the trick.</p>\n",
+      "owner": {
+        "display_name": "Paul Lam",
+        "link": "https://stackoverflow.com/users/654416/paul-lam"
+      }
+    },
+    {
+      "answer_id": 48941075,
+      "body": "<p>Virtually every Go web server is based on <code>net/http</code> and calls (eventually) <a href=\"https://golang.org/pkg/net/http/#Server.ListenAndServe\" rel=\"noreferrer\"><code>http.ListenAndServe()</code></a> on a <code>http.Server</code>. (In gin, <a href=\"https://godoc.org/github.com/gin-gonic/gin#Engine.Run\" rel=\"noreferrer\"><code>router.Run()</code></a> wraps this.) The documentation for <code>http.Server</code> explains that it:</p>\n\n<blockquote>\n  <p>calls Serve to handle requests on incoming connections.</p>\n</blockquote>\n\n<p><a href=\"https://golang.org/pkg/net/http/#Server.Serve\" rel=\"noreferrer\"><code>http.Serve()</code></a> does the real work of accepting connections,</p>\n\n<blockquote>\n  <p>creating a new service goroutine for each.</p>\n</blockquote>\n\n<p>Goroutines are lighter than OS threads; it's possible to run many goroutines per thread. So, your app could potentially serve dozens (or hundreds or more?) \nof simultaneous connections on a single process.</p>\n\n<p>And by default Go will use all available processor cores; you can set the <code>GOMAXPROCS</code> <a href=\"https://golang.org/pkg/runtime/#hdr-Environment_Variables\" rel=\"noreferrer\">environment variable</a> if you have some pressing need to <em>not</em> use all processor cores.</p>\n\n<blockquote>\n  <p>The GOMAXPROCS variable limits the number of operating system threads that can execute user-level Go code simultaneously. There is no limit to the number of threads that can be blocked in system calls on behalf of Go code; those do not count against the GOMAXPROCS limit. This package's GOMAXPROCS function queries and changes the limit. </p>\n</blockquote>\n\n<p>So you don't need to mess with weird process managers like PM2 or supervisor; you can just start your server from a normal systemd unit, or as PID 1 in a Docker container, and enjoy (but reap your children).</p>\n",
+      "owner": {
+        "display_name": "Michael Hampton",
+        "link": "https://stackoverflow.com/users/1068283/michael-hampton"
+      }
+    },
+    {
+      "answer_id": 48011442,
+      "body": "<p><code>c.JSON</code> is serializing into JSON, so you should be doing:</p>\n\n<pre><code>c.JSON(200, pessoas)\n</code></pre>\n",
+      "owner": {
+        "display_name": "dave",
+        "link": "https://stackoverflow.com/users/2082673/dave"
+      }
+    },
+    {
+      "answer_id": 43132134,
+      "body": "<p>There is <a href=\"https://github.com/gin-contrib/cors\" rel=\"nofollow noreferrer\">an official Gin middleware</a> providing this functionality.</p>\n\n<p>A Good starting template (from their examples)</p>\n\n<pre><code>func main() {\n    router := gin.Default()\n    // - No origin allowed by default\n    // - GET,POST, PUT, HEAD methods\n    // - Credentials share disabled\n    // - Preflight requests cached for 12 hours\n    config := cors.DefaultConfig()\n    config.AllowOrigins = []string{\"http://google.com\"}\n    config.AddAllowOrigins(\"http://facebook.com\")\n    // config.AllowOrigins == []string{\"http://google.com\", \"http://facebook.com\"}\n\n    router.Use(cors.New(config))\n    router.Run()\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ezequiel Moreno",
+        "link": "https://stackoverflow.com/users/1241805/ezequiel-moreno"
+      }
+    },
+    {
+      "answer_id": 42378645,
+      "body": "<p>I don’t think Gin provides this, but it looks easy to write.</p>\n\n<pre><code>type GroupGroup struct {\n    groups []*gin.RouterGroup\n}\n\nfunc NewGroupGroup(groups []*gin.RouterGroup) GroupGroup {\n    return GroupGroup {\n        groups,\n    }\n}\n\nfunc (g *GroupGroup) handle(method string, path string, handler gin.HandlerFunc) {\n    for _, group := range g.groups {\n        group.Handle(method, path, handler)\n    }\n}\n</code></pre>\n\n<p>Then, you can use it like so :</p>\n\n<pre><code>v1 := router.Group(\"/v1\")\nv2 := router.Group(\"/v2\")\n\ng := NewGroupGroup([]*gin.RouterGroup { v1, v2 })\n\ng.handle(http.MethodGet, \"hello\", sayHello)\ng.handle(http.MethodPost, \"goodbye\", sayGoodbye)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Zoyd",
+        "link": "https://stackoverflow.com/users/3528562/zoyd"
+      }
+    },
+    {
+      "answer_id": 41762061,
+      "body": "<p>If to reduce the question to \"How to create mock for a function argument?\" the answer is: use interfaces not concrete types.</p>\n\n<p><code>type Context struct</code> is a concrete type literal and Gin doesn't provide appropriate interface. But you can declare it by yourself. Since you are using only <code>JSON</code> method from <code>Context</code> you can declare extra-simple interface:</p>\n\n<pre><code>type JSONer interface {\n    JSON(code int, obj interface{})\n}\n</code></pre>\n\n<p>And use <code>JSONer</code> type instead <code>Context</code> type in all your functions which expect <code>Context</code> as argument:</p>\n\n<pre><code>/* Note, you can't declare argument as a pointer to interface type,\n   but when you call it you can pass pointer to type which\n   implements the interface.*/\nfunc GetUsers(c JSONer) {\n    repo := UserRepository{}\n    ctrl := UserController{}\n\n    ctrl.GetAll(c, repo)\n}\n\nfunc GetUser(c JSONer) {\n    repo := UserRepository{}\n    ctrl := UserController{}\n\n    ctrl.Get(c, repo)\n}\n\nfunc (ctrl UserController) GetAll(c JSONer, repository UserRepositoryIterface) {\n    c.JSON(200, repository.GetAll())\n}\n\nfunc (ctrl UserController) Get(c JSONer, repository UserRepositoryIterface) {\n\n    id := c.Param(\"id\")\n\n    idConv, _ := strconv.Atoi(id)\n\n    c.JSON(200, repository.Get(idConv))\n}\n</code></pre>\n\n<p>And now it is easy to test</p>\n\n<pre><code>type ContextMock struct {\n    JSONCalled bool\n}\n\nfunc (c *ContextMock) JSON(code int, obj interface{}){\n    c.JSONCalled = true\n}\n\nfunc TestControllerGetAll(t *testing.T) {\n    gin.SetMode(gin.TestMode)\n    c := &amp;ContextMock{false}\n    c.Status(200)\n    repo := UserRepositoryMock{}\n    ctrl := UserController{}\n\n    ctrl.GetAll(c, repo)\n\n    if c.JSONCalled == false {\n        t.Fail()\n    }\n}\n</code></pre>\n\n<h3><a href=\"https://play.golang.org/p/uYyvPHQyGZ\" rel=\"noreferrer\">Example simple as possible.</a></h3>\n\n<p><a href=\"https://stackoverflow.com/a/40829307/629685\">There is another question with a close sense</a> </p>\n",
+      "owner": {
+        "display_name": "I159",
+        "link": "https://stackoverflow.com/users/629685/i159"
+      }
+    },
+    {
+      "answer_id": 41484717,
+      "body": "<p>You can return the processed markdown byte array as a <code>RAW Data</code> and set content-type as <code>text/html; charset=utf-8</code></p>\n\n<p>This is how it may look like</p>\n\n<pre><code>router.POST(\"/markdown\", func(c *gin.Context) {\n        body, ok := c.GetPostForm(\"body\")\n        if !ok {\n            c.JSON(http.StatusBadRequest, \"badrequest\")\n            return\n        }\n        markdown := blackfriday.MarkdownCommon([]byte(body))\n        c.Data(http.StatusOK, \"text/html; charset=utf-8\", markdown)\n    })\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sarath Sadasivan Pillai",
+        "link": "https://stackoverflow.com/users/1898494/sarath-sadasivan-pillai"
+      }
+    },
+    {
+      "answer_id": 41279660,
+      "body": "<p>You should be able to do <code>c.Request.URL.Query()</code> which will return a <a href=\"https://golang.org/pkg/net/url/#URL.Query\" rel=\"noreferrer\">Values</a> which is a <code>map[string][]string</code></p>\n",
+      "owner": {
+        "display_name": "Chris Cherry",
+        "link": "https://stackoverflow.com/users/10322/chris-cherry"
+      }
+    },
+    {
+      "answer_id": 41199908,
+      "body": "<p>1) There are no callbacks in Redis. </p>\n\n<p>2) The usual way to implement a timeout in Go is to use channels and select - where one is a channel where you do the blocking and another channel receives a message on timeout. Examples of that can be found <a href=\"https://stackoverflow.com/questions/23582143/golang-using-timeouts-with-channels\">here</a> and <a href=\"https://blog.golang.org/go-concurrency-patterns-timing-out-and\" rel=\"nofollow noreferrer\">here for the docs</a></p>\n\n<p>Now for (3), you have some options on methods. The first is to use a list, pushing from one side (publishing) and popping from another (subscribing). For the receiver you wild use <code>BRPOP</code> of <code>BLPOP</code> - blocking pop from right or left respectively. You can combine the two to have persistent messaging. </p>\n\n<p>Now part of PUBSUB also depends on what you are publishing to. If you are publishing to a channel that would have a subscriber <em>if and only if</em> there is a user connected to receive it (and thus one and only one subscriber to that channel), you can check the response from your publish command. It will tell you how many clients it was published to. If the channel is only subscribed to by an online receiver you would get a '1' back, and a '0' if the user was offline.</p>\n\n<p>A third example is to store the messages in a sorted set, with the timestamp as the score. This would allow the receiver to connect and get messages from the last time it was connected - but that assumes some persistence of that somewhere - usually the client. You would also need some cleanup activity on the sorted sets.</p>\n\n<p>Some other things to consider in this scenario is whether you eventually use replication, in which case you have to explicitly account for failovers - though really in the scenario you describe you'd want to account for disconnects and reconnects. There are specific examples of this at <a href=\"https://objectrocket.com/blog/how-to/reliable-pubsub-and-blocking-commands-during-redis-failovers\" rel=\"nofollow noreferrer\">my post on reliable PUBSUB</a>.</p>\n",
+      "owner": {
+        "display_name": "The Real Bill",
+        "link": "https://stackoverflow.com/users/125913/the-real-bill"
+      }
+    },
+    {
+      "answer_id": 40348077,
+      "body": "<p>I have success to do it. Hope that it will help you:</p>\n\n<pre><code>package main\n\nimport (\n    \"fmt\"\n    \"github.com/julienschmidt/httprouter\"\n    \"log\"\n    \"net/http\"\n)\n\nfunc logAll(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {\n    if ps.ByName(\"id\") == \"log\" {\n        fmt.Fprintf(w, \"Log All\")\n    }\n}\n\nfunc logSpecific(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {\n    fmt.Fprintf(w, \"Log Specific, %s!\\n\", ps.ByName(\"id\"))\n}\n\nfunc main() {\n    router := httprouter.New()\n    router.GET(\"/example/:id\", logAll)\n    router.GET(\"/example/:id/log\", logSpecific)\n\n    log.Fatal(http.ListenAndServe(\":8081\", router))\n}\n</code></pre>\n\n<hr>\n\n<p>Example of running</p>\n\n<pre><code>$ curl http://127.0.0.1:8081/example/log\nLog All\n$ curl http://127.0.0.1:8081/example/abc/log\nLog Specific, abc!\n</code></pre>\n",
+      "owner": {
+        "display_name": "Aminadav Glickshtein",
+        "link": "https://stackoverflow.com/users/1229624/aminadav-glickshtein"
+      }
+    },
+    {
+      "answer_id": 39922748,
+      "body": "<p>This doesn't have anything to do with Go or gin. </p>\n\n<p>This is the expected behavior of a user agent, which should change the method from POST to GET with either a 301 or 302 redirect. </p>\n\n<p>To instruct the user agent to repeat the request with the same method, use 307 (<code>http.StatusTemporaryRedirect</code>) or 308 (<code>http.StatusPermanentRedirect</code>).</p>\n",
+      "owner": {
+        "display_name": "Mr_Pink",
+        "link": "https://stackoverflow.com/users/32880/mr-pink"
+      }
+    },
+    {
+      "answer_id": 39875812,
+      "body": "<blockquote>\n  <p><strong>TL;DR</strong> use SetHTMLTemplate</p>\n</blockquote>\n\n<p>Looking at the <strong>Gin</strong> <a href=\"https://github.com/gin-gonic/gin\" rel=\"nofollow\">documentation</a>, you can use your own templating engine. </p>\n\n<p>By invoking <strong>r.SetHTMLTemplate(tmpl)</strong></p>\n\n<p><strong>Gin</strong> itself is using the golang builtin html/template standard package.</p>\n\n<p>You can use the same engine and add <strong>user defined functions</strong>.</p>\n\n<p>Create the functions, using template.FuncMap:</p>\n\n<pre><code>funcMap := template.FuncMap{\n    \"formatTime\": func(raw int64) string {\n        t := time.Unix(raw, 0)\n\n        return t.Format(\"Jan 2 15:04:05 2006\")\n    },\n}\n</code></pre>\n\n<p>Instantiate a template: </p>\n\n<pre><code>tmpl := template.Must(template.New(\"main\").Funcs(funcMap).ParseGlob(\"templates/**/*\"))\n</code></pre>\n\n<p>Register the new template:</p>\n\n<pre><code>r := gin.Default()\nr.SetHTMLTemplate(tmpl)\n</code></pre>\n\n<p>If you use same templates name for different endpoints, specify name:</p>\n\n<pre><code>{{ define \"articles/list.tmpl\"}}\n\n&lt;div class=\"list-group\"&gt;\n{{ range $article := .articles }}\n  &lt;a href=\"/articles/{{ $article.Id }}\" class=\"list-group-item\"&gt;\n    &lt;h4 class=\"list-group-item-heading\"&gt;{{ $article.Title }}&lt;/h4&gt;\n    &lt;p class=\"list-group-item-text\"&gt;{{ formatTime $article.CreatedOn }}&lt;/p&gt;\n    &lt;p class=\"list-group-item-text\"&gt;&lt;/p&gt;\n  &lt;/a&gt;\n{{ end }}\n&lt;/div&gt;\n\n{{ end }}\n</code></pre>\n\n<blockquote>\n  <p>formatTime: Is defined using template.FuncMap</p>\n</blockquote>\n\n<p>To invoke, use the normal way:</p>\n\n<pre><code>c.HTML(http.StatusOK, \"articles/list\", gin.H{\n    \"title\":    \"Articles\",\n    \"articles\": articles,\n}) \n</code></pre>\n",
+      "owner": {
+        "display_name": "Eddy K",
+        "link": "https://stackoverflow.com/users/1926373/eddy-k"
+      }
+    },
+    {
+      "answer_id": 38970791,
+      "body": "<p>Edit:\nThe OP had \"vendor dir created by the Glide\" with old version of package.\nand problem solved by removing that folder (updating vendor package).</p>\n\n<p><a href=\"https://golang.org/cmd/go/#hdr-Download_and_install_packages_and_dependencies\" rel=\"nofollow\">Note</a>: <code>go get</code> never checks out or updates code stored in vendor directories.</p>\n\n<hr>\n\n<p><code>c.Param(key)</code> is a shortcut for <code>c.Params.ByName(key)</code>, see <code>c.Param(key)</code> Docs:</p>\n\n<blockquote>\n<pre><code>// Param returns the value of the URL param.\n// It is a shortcut for c.Params.ByName(key)\n//        router.GET(\"/user/:id\", func(c *gin.Context) {\n//            // a GET request to /user/john\n//            id := c.Param(\"id\") // id == \"john\"\n//        })\nfunc (c *Context) Param(key string) string {\n  return c.Params.ByName(key)\n}\n</code></pre>\n</blockquote>\n\n<hr>\n\n<p>You need to update  <code>github.com/gin-gonic/gin</code> package, try: </p>\n\n<pre><code>go get -u github.com/gin-gonic/gin\n</code></pre>\n\n<p>And make sure there aren't any <code>vendor</code> and  try remove all files and vendor dir except <code>main.go</code> then <code>go build</code> (or update your vendor package).</p>\n\n<hr>\n\n<p>Your code works fine in <code>go1.7</code>:</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    \"net/http\"\n\n    \"github.com/gin-gonic/gin\"\n)\n\nfunc main() {\n    router := gin.Default()\n\n    router.GET(\"/user/:name\", func(c *gin.Context) {\n        name := c.Param(\"name\")\n        c.String(http.StatusOK, \"Hello %s\", name)\n    })\n\n    router.Run(\":8080\")\n}\n</code></pre>\n\n<p>Open in browser <code>http://127.0.0.1:8080/user/World</code><br>\noutput:</p>\n\n<pre><code>Hello World\n</code></pre>\n",
+      "owner": {
+        "display_name": "user6169399",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 39729274,
+      "body": "<p>I have another relevant, more informative answer to a similar question <a href=\"https://stackoverflow.com/questions/19167970/mock-functions-in-go/19168875#19168875\">here</a>, but here's an answer for your specific scenario:</p>\n\n<p>Update your <code>SetupRouter()</code> function to take a function that can either be the real <code>FindAndCompleteOperation</code> function or a stub function:</p>\n\n<p><a href=\"https://play.golang.org/p/ns7k9Yb-Jg\" rel=\"nofollow noreferrer\">Playground</a></p>\n\n<pre><code>package main\n\nimport \"github.com/gin-gonic/gin\"\n\n// m.Response.Report\ntype Report struct {\n    // ...\n}\n\n// m.OperationInfoer\ntype OperationInfoer struct {\n    // ...\n}\n\ntype findAndComplete func(s OperationInfoer, id string, report Report) error\n\nfunc FindAndCompleteOperation(OperationInfoer, string, Report) error {\n    // ...\n    return nil\n}\n\nfunc SetupRouter(f findAndComplete) *gin.Engine {\n    r := gin.Default()\n    r.Group(\"v1\").PATCH(\"/:id\", func(c *gin.Context) {\n        if f(OperationInfoer{}, c.Param(\"id\"), Report{}) == nil {\n            c.JSON(200, gin.H{\"message\": \"Operation completed\"})\n        }\n    })\n    return r\n}\n\nfunc main() {\n    r := SetupRouter(FindAndCompleteOperation)\n    if err := r.Run(\":8080\"); err != nil {\n        panic(err)\n    }\n}\n</code></pre>\n\n<p><strong>Test/mocking example</strong></p>\n\n<pre><code>package main\n\nimport (\n    \"encoding/json\"\n    \"net/http/httptest\"\n    \"strings\"\n    \"testing\"\n)\n\nfunc TestUpdateRoute(t *testing.T) {\n    // build findAndComplete stub\n    var callCount int\n    var lastInfoer OperationInfoer\n    var lastID string\n    var lastReport Report\n    stub := func(s OperationInfoer, id string, report Report) error {\n        callCount++\n        lastInfoer = s\n        lastID = id\n        lastReport = report\n        return nil // or `fmt.Errorf(\"Err msg\")` if you want to test fault path\n    }\n\n    // invoke endpoint\n    w := httptest.NewRecorder()\n    r := httptest.NewRequest(\n        \"PATCH\",\n        \"/v1/id_value\",\n        strings.NewReader(\"\"),\n    )\n    SetupRouter(stub).ServeHTTP(w, r)\n\n    // check that the stub was invoked correctly\n    if callCount != 1 {\n        t.Fatal(\"Wanted 1 call; got\", callCount)\n    }\n    if lastInfoer != (OperationInfoer{}) {\n        t.Fatalf(\"Wanted %v; got %v\", OperationInfoer{}, lastInfoer)\n    }\n    if lastID != \"id_value\" {\n        t.Fatalf(\"Wanted 'id_value'; got '%s'\", lastID)\n    }\n    if lastReport != (Report{}) {\n        t.Fatalf(\"Wanted %v; got %v\", Report{}, lastReport)\n    }\n\n    // check that the correct response was returned\n    if w.Code != 200 {\n        t.Fatal(\"Wanted HTTP 200; got HTTP\", w.Code)\n    }\n\n    var body map[string]string\n    if err := json.Unmarshal(w.Body.Bytes(), &amp;body); err != nil {\n        t.Fatal(\"Unexpected error:\", err)\n    }\n    if body[\"message\"] != \"Operation completed\" {\n        t.Fatal(\"Wanted 'Operation completed'; got %s\", body[\"message\"])\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "weberc2",
+        "link": "https://stackoverflow.com/users/483347/weberc2"
+      }
+    },
+    {
+      "answer_id": 39489688,
+      "body": "<p>You may use <code>userid := c.Param(\"userid\")</code>, like this working sample:</p>\n\n<pre><code>package main\n\nimport (\n    \"fmt\"\n    \"net/http\"\n\n    \"github.com/gin-gonic/gin\"\n)\n\nfunc main() {\n    router := gin.Default()\n\n    router.GET(\"/user/:userid/status\", func(c *gin.Context) {\n        userid := c.Param(\"userid\") \n        message := \"userid is \" + userid\n        c.String(http.StatusOK, message)\n        fmt.Println(message)\n    })\n\n    router.Run(\":8080\")\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "user6169399",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 39096533,
+      "body": "<h2>With a struct</h2>\n\n<p>What you have is a JSON array, unmarshal it into a Go slice. Recommended to create a <code>Student</code> struct to model your students to have a clean and conscious Go code.</p>\n\n<p>And in the template the <code>{{range}}</code> action sets the dot <code>.</code> to the current element, you can refer to it inside the <code>{{range}}</code> body simply as the dot <code>.</code>, so the student name will be <code>.Name</code>.</p>\n\n<p>Working code (try it on the <a href=\"https://play.golang.org/p/b_oP7d93BV\" rel=\"nofollow\">Go Playground</a>):</p>\n\n<pre><code>func main() {\n    t := template.Must(template.New(\"\").Parse(templ))\n    var students []Student\n    if err := json.Unmarshal([]byte(jsondata), &amp;students); err != nil {\n        panic(err)\n    }\n    params := map[string]interface{}{\"Students\": students}\n    if err := t.Execute(os.Stdout, params); err != nil {\n        panic(nil)\n    }\n}\n\nconst jsondata = `[\n  {\n    \"id\": 1,\n    \"name\": \"Mary\"\n  },\n  {\n    \"id\": 2,\n    \"name\": \"John\"\n  }\n]`\n\nconst templ = `&lt;TABLE class= \"myTable\" &gt;\n        &lt;tr class=\"headingTr\"&gt;\n            &lt;td&gt;Name&lt;/td&gt;\n        &lt;/tr&gt;\n        {{range .Students}}\n        &lt;td&gt;{{.Name}}&lt;/td&gt;                    \n        {{end}}\n &lt;/TABLE&gt;`\n</code></pre>\n\n<p>Output:</p>\n\n<pre><code>&lt;TABLE class= \"myTable\" &gt;\n        &lt;tr class=\"headingTr\"&gt;\n            &lt;td&gt;Name&lt;/td&gt;\n        &lt;/tr&gt;\n\n        &lt;td&gt;Mary&lt;/td&gt;                    \n\n        &lt;td&gt;John&lt;/td&gt;                    \n\n &lt;/TABLE&gt;\n</code></pre>\n\n<h2>With a map</h2>\n\n<p>If you don't want to create and use a <code>Student</code> struct, you can still do it with a simple map whose type is <code>map[string]interface{}</code> which can represent any JSON object, but know that in this case you have to refer to students' names as <code>.name</code> as that is how it appears in the JSON text, and so lowercased <code>\"name\"</code> key will be used in the unmarshaled Go map:</p>\n\n<pre><code>func main() {\n    t := template.Must(template.New(\"\").Parse(templ))\n    var students []map[string]interface{}\n    if err := json.Unmarshal([]byte(jsondata), &amp;students); err != nil {\n        panic(err)\n    }\n    params := map[string]interface{}{\"Students\": students}\n    if err := t.Execute(os.Stdout, params); err != nil {\n        panic(nil)\n    }\n}\n\nconst templ = `&lt;TABLE class= \"myTable\" &gt;\n        &lt;tr class=\"headingTr\"&gt;\n            &lt;td&gt;Name&lt;/td&gt;\n        &lt;/tr&gt;\n        {{range .Students}}\n        &lt;td&gt;{{.name}}&lt;/td&gt;                    \n        {{end}}\n &lt;/TABLE&gt;`\n</code></pre>\n\n<p>Output is the same. Try this variant on the <a href=\"https://play.golang.org/p/Z5yChyWI3e\" rel=\"nofollow\">Go Playground</a>.</p>\n",
+      "owner": {
+        "display_name": "icza",
+        "link": "https://stackoverflow.com/users/1705598/icza"
+      }
+    },
+    {
+      "answer_id": 38974969,
+      "body": "<p>You can do this with the standard library <a href=\"https://golang.org/pkg/net/http/httputil/#ReverseProxy\" rel=\"nofollow\">httputil.ReverseProxy</a>.</p>\n\n<p>I haven't found a reason to use gin myself yet, I'm a fan of sticking to stdlib whenever possible.\nHowever I believe you can wrap this ReverseProxy handler in <code>gin.WrapH()</code> to be able to use it with your gin router.</p>\n",
+      "owner": {
+        "display_name": "baloo",
+        "link": "https://stackoverflow.com/users/330777/baloo"
+      }
+    },
+    {
+      "answer_id": 38592286,
+      "body": "<p>The documentation states </p>\n\n<blockquote>\n  <p>Run attaches the router to a http.Server and starts listening and serving HTTP requests. It is a shortcut for http.ListenAndServe(addr, router)</p>\n</blockquote>\n\n<p>You can start the server directly using an <code>http.Server</code> the same way the <code>http</code> package does in <code>ListenAndServe</code></p>\n\n<pre><code>server := &amp;http.Server{Handler: r}\nl, err := net.Listen(\"tcp4\", addr)\nif err != nil {\n    log.Fatal(err)\n}\nerr = server.Serve(l)\n// ...\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mr_Pink",
+        "link": "https://stackoverflow.com/users/32880/mr-pink"
+      }
+    },
+    {
+      "answer_id": 38563009,
+      "body": "<p>You probably forgot to register it, when your app starts you need to have something like:</p>\n\n<pre><code>package main\n\nimport (\n    \"encoding/gob\"\n    \"path/to/yourpackage\"\n\nfunc init() {\n    gob.Register(&amp;yourpackage.YourStruct{})\n}\n</code></pre>\n\n<p>You can look here <a href=\"http://www.gorillatoolkit.org/pkg/sessions\" rel=\"noreferrer\">http://www.gorillatoolkit.org/pkg/sessions</a> for more information (gin-gonic uses gorilla sessions under the hood)</p>\n",
+      "owner": {
+        "display_name": "dave",
+        "link": "https://stackoverflow.com/users/2082673/dave"
+      }
+    },
+    {
+      "answer_id": 38221548,
+      "body": "<p>In order to create function in a template you need to create new <a href=\"https://golang.org/pkg/text/template/#FuncMap\" rel=\"nofollow\">FuncMap</a></p>\n\n<p>It`s look like the gin framework is creating the <a href=\"https://github.com/gin-gonic/gin/blob/develop/render/html.go#L26\" rel=\"nofollow\">template</a> pointer and cannot be overwritten.</p>\n",
+      "owner": {
+        "display_name": "MIkCode",
+        "link": "https://stackoverflow.com/users/817571/mikcode"
+      }
+    },
+    {
+      "answer_id": 38042460,
+      "body": "<p>I'm guessing the issue is that you're using a relative filepath to access your templates.</p>\n\n<p>If I compile and run your code <em>from the <code>gospike</code> directory</em>, it works fine. But if I run <code>gospike</code> from any other directory, I get the same error you were seeing.</p>\n\n<p>So either you need to always run <code>gospike</code> in the parent directory of <code>templates</code>, or you need to use the absolute path. You could either hard code it:</p>\n\n<pre><code>router.LoadHTMLGlob(\"/go/src/github.com/ameykpatil/gospike/templates/*\")\n</code></pre>\n\n<p>or you could do something like</p>\n\n<pre><code>router.LoadHTMLGlob(filepath.Join(os.Getenv(\"GOPATH\"),\n    \"src/github.com/ameykpatil/gospike/templates/*\"))\n</code></pre>\n\n<p>but that will fail if you have multiple paths set in your <code>GOPATH</code>. A better long-term solution might be setting a special environment variable like <code>TMPL_DIR</code>, and then just using that:</p>\n\n<pre><code>router.LoadHTMLGlob(filepath.Join(os.Getenv(\"TMPL_DIR\"), \"*\"))\n</code></pre>\n",
+      "owner": {
+        "display_name": "Tom Cleveland",
+        "link": "https://stackoverflow.com/users/6512964/tom-cleveland"
+      }
+    },
+    {
+      "answer_id": 37814341,
+      "body": "<p>You can use <code>define</code> to define partials and <code>template</code> to mix multiple HTML partials.</p>\n\n<pre><code>package main\n\nimport (\n    \"html/template\"\n\n    \"github.com/gin-gonic/gin\"\n)\n\nvar (\n    partial1 = `{{define \"elm1\"}}&lt;div&gt;element1&lt;/div&gt;{{end}}`\n    partial2 = `{{define \"elm2\"}}&lt;div&gt;element2&lt;/div&gt;{{end}}`\n    body     = `{{template \"elm1\"}}{{template \"elm2\"}}`\n)\n\nfunc main() {\n    // Or use `ParseFiles` to parse tmpl files instead \n    t := template.Must(template.New(\"elements\").Parse(body))\n\n    app := gin.Default()\n    app.GET(\"/\", func(c *gin.Context) {\n        c.HTML(200, \"elements\", nil)\n    })\n    app.Run(\":8000\")\n}\n</code></pre>\n\n<p>This is a good place to read <a href=\"https://gohugo.io/templates/go-templates/\" rel=\"noreferrer\">https://gohugo.io/templates/go-templates/</a></p>\n",
+      "owner": {
+        "display_name": "Pandemonium",
+        "link": "https://stackoverflow.com/users/1965774/pandemonium"
+      }
+    },
+    {
+      "answer_id": 36434929,
+      "body": "<p>To answer your root question; The stdlib <a href=\"https://golang.org/src/net/http/server.go?s=63384:64156#2137\" rel=\"noreferrer\"><code>http.Serve</code></a> (<a href=\"https://golang.org/pkg/net/http/#Server.Serve\" rel=\"noreferrer\">doc</a>) func farms the request out to a goroutine after the initial connection accept and some connection work.</p>\n\n<h3>Conceptual Rambling:</h3>\n\n<p>Go has primitives that are designed to provide strong concurrency capability, but concurrency is not the same as parallelism.</p>\n\n<p>If you have more than one processor core, and if your GOMAXPROCS environment is set to be more than 1, then you may see some parallelism in addition to concurrency, assuming the appropriate goroutines.</p>\n\n<p>As of Go 1.5 the default setting for GOMAXPROCS is the number of CPU cores.  Prior versions of Go default the GOMAXPROCS setting to 1. </p>\n\n<p>William Kennedy had a good write up about the differences a couple years ago: <a href=\"http://www.goinggo.net/2014/01/concurrency-goroutines-and-gomaxprocs.html\" rel=\"noreferrer\">http://www.goinggo.net/2014/01/concurrency-goroutines-and-gomaxprocs.html</a></p>\n",
+      "owner": {
+        "display_name": "John Weldon",
+        "link": "https://stackoverflow.com/users/102371/john-weldon"
+      }
+    },
+    {
+      "answer_id": 36240153,
+      "body": "<p>This is a bug in Go, and has been <a href=\"https://go-review.googlesource.com/#/c/14336/\" rel=\"nofollow\">slated to be fixed in 1.7</a> as of March 2016 (Also <a href=\"https://go-review.googlesource.com/#/c/14335/\" rel=\"nofollow\">partially addressed</a> in 1.6)</p>\n",
+      "owner": {
+        "display_name": "John Weldon",
+        "link": "https://stackoverflow.com/users/102371/john-weldon"
+      }
+    },
+    {
+      "answer_id": 35992137,
+      "body": "<p><code>router.GET(\"/cars/1\", handler)</code> should be <code>router.GET(\"/cars/:type\", handler)</code> in your test. </p>\n\n<p>Note that a better (more testable; less duplication of routes) would be to create a <code>SetupRouter() *gin.Engine</code> function that returns all of your routes. e.g.</p>\n\n<pre><code>// package main\n\n// server.go\n// This is where you create a gin.Default() and add routes to it\nfunc SetupRouter() *gin.Engine {\n    router := gin.Default()\n    router.GET(\"/cars/:type\", carsByType)\n\n    return router\n}\n\nfunc main() {\n    router := SetupRouter() \n    router.Run()\n}\n\n// router_test.go\ntestRouter := SetupRouter()\n\nreq, err := http.NewRequest(\"GET\", \"/cars/1\", nil)\nif err != nil {\n    fmt.Println(err)\n}\n\nresp := httptest.NewRecorder()\ntestRouter.ServeHTTP(resp, req)\nassert.Equal(t, resp.Code, 200)\n</code></pre>\n",
+      "owner": {
+        "display_name": "elithrar",
+        "link": "https://stackoverflow.com/users/556573/elithrar"
+      }
+    },
+    {
+      "answer_id": 35673437,
+      "body": "<p>The values within <code>context.Keys</code> are all of type <code>interface{}</code>, so <code>db</code> will not be able to call methods from type <code>*DB</code> until it's converted back to that type.</p>\n\n<p>The safe way:</p>\n\n<pre><code>db, ok := context.Keys[\"DB\"].(*DB)\nif !ok {\n        //Handle case of no *DB instance\n}\n// db is now a *DB value\n</code></pre>\n\n<p>The less safe way, which will panic if <code>context.Keys[\"DB\"]</code> is not a value of type <code>*DB</code>:</p>\n\n<pre><code>db := context.Keys[\"DB\"].(*DB)\n// db is now a *DB value\n</code></pre>\n\n<p><a href=\"https://golang.org/doc/effective_go.html#interface_conversions\" rel=\"noreferrer\">Effective Go</a> has a section on this.</p>\n",
+      "owner": {
+        "display_name": "SnoProblem",
+        "link": "https://stackoverflow.com/users/4638952/snoproblem"
+      }
+    },
+    {
+      "answer_id": 34053075,
+      "body": "<p>Using the link i posted on comments, I have created a simple example.</p>\n\n<pre><code>package main\n\nimport (\n    \"log\"\n\n    \"github.com/gin-gonic/gin\"\n    \"github.com/jinzhu/gorm\"\n    _ \"github.com/mattn/go-sqlite3\"\n)\n\n// ApiMiddleware will add the db connection to the context\nfunc ApiMiddleware(db gorm.DB) gin.HandlerFunc {\n    return func(c *gin.Context) {\n        c.Set(\"databaseConn\", db)\n        c.Next()\n    }\n}\n\nfunc main() {\n    r := gin.New()\n\n    // In this example, I'll open the db connection here...\n    // In your code you would probably do it somewhere else\n    db, err := gorm.Open(\"sqlite3\", \"./example.db\")\n    if err != nil {\n        log.Fatal(err)\n    }\n\n    r.Use(ApiMiddleware(db))\n\n    r.GET(\"/api\", func(c *gin.Context) {\n        // Don't forget type assertion when getting the connection from context.\n        dbConn, ok := c.MustGet(\"databaseConn\").(gorm.DB)\n        if !ok {\n            // handle error here...\n        }\n\n        // do your thing here...\n    })\n\n    r.Run(\":8080\")\n}\n</code></pre>\n\n<p>This is just a simple POC. But i believe it's a start.\nHope it helps.</p>\n",
+      "owner": {
+        "display_name": "rcmgleite",
+        "link": "https://stackoverflow.com/users/3051060/rcmgleite"
+      }
+    },
+    {
+      "answer_id": 32444263,
+      "body": "<p>What you're looking for is the <a href=\"http://godoc.org/github.com/gin-gonic/gin#Engine.NoRoute\"><code>NoRoute</code></a> handler.</p>\n\n<p>More precisely:</p>\n\n<pre><code>r := gin.Default()\n\nr.NoRoute(func(c *gin.Context) {\n    c.JSON(404, gin.H{\"code\": \"PAGE_NOT_FOUND\", \"message\": \"Page not found\"})\n})\n</code></pre>\n",
+      "owner": {
+        "display_name": "Pablo Fernandez",
+        "link": "https://stackoverflow.com/users/7595/pablo-fernandez"
+      }
+    },
+    {
+      "answer_id": 31912227,
+      "body": "<p>The problem here is that you're printing out the string value of <code>c.Request.Body</code>, which is of interface type <code>ReadCloser</code>.</p>\n\n<p>What you can do to satisfy yourself that it does in fact contain the body you want is to read the value out of <code>c.Request.Body</code> to a string, and then print that out. <strong>This is for your learning process only!</strong></p>\n\n<p>Learning code:</p>\n\n<pre><code>func events(c *gin.Context) {\n        x, _ := ioutil.ReadAll(c.Request.Body)\n        fmt.Printf(\"%s\", string(x))\n        c.JSON(http.StatusOK, c)\n}\n</code></pre>\n\n<p>However, this is not the way you should access the body of the request. Let gin do the parsing of the body for you, by using a binding.</p>\n\n<p>More correct code:</p>\n\n<pre><code>type E struct {\n        Events string\n}\n\nfunc events(c *gin.Context) {\n        data := &amp;E{}\n        c.Bind(data)\n        fmt.Println(data)\n        c.JSON(http.StatusOK, c)\n}\n</code></pre>\n\n<p>This is a more correct way to access the data in the body, since it will be already parsed out for you. Note that if you read the body first, as we did above in the learning step, the <code>c.Request.Body</code> will have been emptied, and so there will be nothing left in the body for Gin to read.</p>\n\n<p>Broken code:</p>\n\n<pre><code>func events(c *gin.Context) {\n    x, _ := ioutil.ReadAll(c.Request.Body)\n    fmt.Printf(\"%s\", string(x))\n    data := &amp;E{}\n    c.Bind(data) // data is left unchanged because c.Request.Body has been used up.\n    fmt.Println(data)\n    c.JSON(http.StatusOK, c)\n}\n</code></pre>\n\n<p>You're probably also curious why the JSON returned from this endpoint shows and empty <code>Request.Body</code>. This is for the same reason. The JSON Marshalling method cannot serialize a <code>ReadCloser</code>, and so it shows up as empty.</p>\n",
+      "owner": {
+        "display_name": "Danver Braganza",
+        "link": "https://stackoverflow.com/users/4224724/danver-braganza"
+      }
+    },
+    {
+      "answer_id": 29439630,
+      "body": "<p>FWIW, this is my CORS Middleware that works for my needs.</p>\n\n<pre><code>func CORSMiddleware() gin.HandlerFunc {\n    return func(c *gin.Context) {\n        c.Writer.Header().Set(\"Access-Control-Allow-Origin\", \"*\")\n        c.Writer.Header().Set(\"Access-Control-Allow-Credentials\", \"true\")\n        c.Writer.Header().Set(\"Access-Control-Allow-Headers\", \"Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With\")\n        c.Writer.Header().Set(\"Access-Control-Allow-Methods\", \"POST, OPTIONS, GET, PUT\")\n\n        if c.Request.Method == \"OPTIONS\" {\n            c.AbortWithStatus(204)\n            return\n        }\n\n        c.Next()\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jack",
+        "link": "https://stackoverflow.com/users/24998/jack"
+      }
+    }
+  ]
+}

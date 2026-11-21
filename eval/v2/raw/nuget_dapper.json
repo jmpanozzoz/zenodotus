@@ -1,0 +1,1908 @@
+{
+  "library": "nuget:dapper",
+  "fetched_at": "2026-11-21T17:28:17Z",
+  "questions": [
+    {
+      "question_id": 8388093,
+      "title": "SELECT * FROM X WHERE id IN (...) with Dapper ORM",
+      "accepted_answer_id": 8388333,
+      "score": 359,
+      "link": "https://stackoverflow.com/questions/8388093/select-from-x-where-id-in-with-dapper-orm",
+      "owner": {
+        "display_name": "Marko",
+        "link": "https://stackoverflow.com/users/758093/marko"
+      }
+    },
+    {
+      "question_id": 5957774,
+      "title": "Performing Inserts and Updates with Dapper",
+      "accepted_answer_id": 5964462,
+      "score": 258,
+      "link": "https://stackoverflow.com/questions/5957774/performing-inserts-and-updates-with-dapper",
+      "owner": {
+        "display_name": "Slaggg",
+        "link": "https://stackoverflow.com/users/100137/slaggg"
+      }
+    },
+    {
+      "question_id": 5962117,
+      "title": "Is there a way to call a stored procedure with Dapper?",
+      "accepted_answer_id": 5971847,
+      "score": 245,
+      "link": "https://stackoverflow.com/questions/5962117/is-there-a-way-to-call-a-stored-procedure-with-dapper",
+      "owner": {
+        "display_name": "Jalpesh Vadgama",
+        "link": "https://stackoverflow.com/users/97926/jalpesh-vadgama"
+      }
+    },
+    {
+      "question_id": 8270205,
+      "title": "How do I perform an insert and return inserted identity with Dapper?",
+      "accepted_answer_id": 8270264,
+      "score": 243,
+      "link": "https://stackoverflow.com/questions/8270205/how-do-i-perform-an-insert-and-return-inserted-identity-with-dapper",
+      "owner": {
+        "display_name": "ppiotrowicz",
+        "link": "https://stackoverflow.com/users/71965/ppiotrowicz"
+      }
+    },
+    {
+      "question_id": 8902674,
+      "title": "Manually map column names with class properties",
+      "accepted_answer_id": 8904096,
+      "score": 239,
+      "link": "https://stackoverflow.com/questions/8902674/manually-map-column-names-with-class-properties",
+      "owner": {
+        "display_name": "user1154985",
+        "link": "https://stackoverflow.com/users/1154985/user1154985"
+      }
+    },
+    {
+      "question_id": 7508322,
+      "title": "How do I map lists of nested objects with Dapper",
+      "accepted_answer_id": 7523274,
+      "score": 167,
+      "link": "https://stackoverflow.com/questions/7508322/how-do-i-map-lists-of-nested-objects-with-dapper",
+      "owner": {
+        "display_name": "b3n",
+        "link": "https://stackoverflow.com/users/395377/b3n"
+      }
+    },
+    {
+      "question_id": 10363933,
+      "title": "How to use transactions with dapper.net?",
+      "accepted_answer_id": 67474832,
+      "score": 162,
+      "link": "https://stackoverflow.com/questions/10363933/how-to-use-transactions-with-dapper-net",
+      "owner": {
+        "display_name": "Amit",
+        "link": "https://stackoverflow.com/users/147613/amit"
+      }
+    },
+    {
+      "question_id": 7472088,
+      "title": "Correct use of multimapping in Dapper",
+      "accepted_answer_id": 7478958,
+      "score": 145,
+      "link": "https://stackoverflow.com/questions/7472088/correct-use-of-multimapping-in-dapper",
+      "owner": {
+        "display_name": "Richard Forrest",
+        "link": "https://stackoverflow.com/users/428469/richard-forrest"
+      }
+    },
+    {
+      "question_id": 8794858,
+      "title": "Adjusting CommandTimeout in Dapper.NET?",
+      "accepted_answer_id": 8795387,
+      "score": 137,
+      "link": "https://stackoverflow.com/questions/8794858/adjusting-commandtimeout-in-dapper-net",
+      "owner": {
+        "display_name": "sh-beta",
+        "link": "https://stackoverflow.com/users/107929/sh-beta"
+      }
+    },
+    {
+      "question_id": 17150542,
+      "title": "How to insert a C# List to database using Dapper.NET",
+      "accepted_answer_id": 17150843,
+      "score": 118,
+      "link": "https://stackoverflow.com/questions/17150542/how-to-insert-a-c-list-to-database-using-dapper-net",
+      "owner": {
+        "display_name": "Praveen",
+        "link": "https://stackoverflow.com/users/1671639/praveen"
+      }
+    },
+    {
+      "question_id": 9481678,
+      "title": "How to create arguments for a Dapper query dynamically",
+      "accepted_answer_id": 9481752,
+      "score": 114,
+      "link": "https://stackoverflow.com/questions/9481678/how-to-create-arguments-for-a-dapper-query-dynamically",
+      "owner": {
+        "display_name": "Cogslave",
+        "link": "https://stackoverflow.com/users/1039747/cogslave"
+      }
+    },
+    {
+      "question_id": 6317937,
+      "title": "Dapper.NET and stored proc with multiple result sets",
+      "accepted_answer_id": 6317983,
+      "score": 109,
+      "link": "https://stackoverflow.com/questions/6317937/dapper-net-and-stored-proc-with-multiple-result-sets",
+      "owner": {
+        "display_name": "marc_s",
+        "link": "https://stackoverflow.com/users/13302/marc-s"
+      }
+    },
+    {
+      "question_id": 6030099,
+      "title": "Does Dapper support the like operator?",
+      "accepted_answer_id": 6030564,
+      "score": 95,
+      "link": "https://stackoverflow.com/questions/6030099/does-dapper-support-the-like-operator",
+      "owner": {
+        "display_name": "Jay Stevens",
+        "link": "https://stackoverflow.com/users/52522/jay-stevens"
+      }
+    },
+    {
+      "question_id": 9350467,
+      "title": "How do I write one to many query in Dapper.Net?",
+      "accepted_answer_id": 30080951,
+      "score": 95,
+      "link": "https://stackoverflow.com/questions/9350467/how-do-i-write-one-to-many-query-in-dapper-net",
+      "owner": {
+        "display_name": "TCM",
+        "link": "https://stackoverflow.com/users/260594/tcm"
+      }
+    },
+    {
+      "question_id": 25540793,
+      "title": "CancellationToken with async Dapper methods?",
+      "accepted_answer_id": 25545312,
+      "score": 91,
+      "link": "https://stackoverflow.com/questions/25540793/cancellationtoken-with-async-dapper-methods",
+      "owner": {
+        "display_name": "Pedigree",
+        "link": "https://stackoverflow.com/users/1645515/pedigree"
+      }
+    },
+    {
+      "question_id": 14780767,
+      "title": "How to map to a Dictionary object from database results using Dapper Dot Net?",
+      "accepted_answer_id": 14786328,
+      "score": 90,
+      "link": "https://stackoverflow.com/questions/14780767/how-to-map-to-a-dictionary-object-from-database-results-using-dapper-dot-net",
+      "owner": {
+        "display_name": "jpshook",
+        "link": "https://stackoverflow.com/users/108010/jpshook"
+      }
+    },
+    {
+      "question_id": 6379155,
+      "title": "Multi-Mapper to create object hierarchy",
+      "accepted_answer_id": 6380756,
+      "score": 85,
+      "link": "https://stackoverflow.com/questions/6379155/multi-mapper-to-create-object-hierarchy",
+      "owner": {
+        "display_name": "Jorin",
+        "link": "https://stackoverflow.com/users/331855/jorin"
+      }
+    },
+    {
+      "question_id": 6232978,
+      "title": "Does Dapper support SQL 2008 Table-Valued Parameters?",
+      "accepted_answer_id": 24633764,
+      "score": 83,
+      "link": "https://stackoverflow.com/questions/6232978/does-dapper-support-sql-2008-table-valued-parameters",
+      "owner": {
+        "display_name": "Carlos Mendes",
+        "link": "https://stackoverflow.com/users/446695/carlos-mendes"
+      }
+    },
+    {
+      "question_id": 22353881,
+      "title": "Passing Output parameters to stored procedure using dapper in c# code",
+      "accepted_answer_id": 22353973,
+      "score": 81,
+      "link": "https://stackoverflow.com/questions/22353881/passing-output-parameters-to-stored-procedure-using-dapper-in-c-code",
+      "owner": {
+        "display_name": "lacoder",
+        "link": "https://stackoverflow.com/users/1850201/lacoder"
+      }
+    },
+    {
+      "question_id": 10030285,
+      "title": "Dapper.Rainbow VS Dapper.Contrib",
+      "accepted_answer_id": 13052147,
+      "score": 80,
+      "link": "https://stackoverflow.com/questions/10030285/dapper-rainbow-vs-dapper-contrib",
+      "owner": {
+        "display_name": "Shuaib",
+        "link": "https://stackoverflow.com/users/137773/shuaib"
+      }
+    },
+    {
+      "question_id": 12510299,
+      "title": "Get DateTime as UTC with Dapper",
+      "accepted_answer_id": 39730278,
+      "score": 80,
+      "link": "https://stackoverflow.com/questions/12510299/get-datetime-as-utc-with-dapper",
+      "owner": {
+        "display_name": "Thomas Levesque",
+        "link": "https://stackoverflow.com/users/98713/thomas-levesque"
+      }
+    },
+    {
+      "question_id": 10689779,
+      "title": "Bulk inserts taking longer than expected using Dapper",
+      "accepted_answer_id": 12609410,
+      "score": 77,
+      "link": "https://stackoverflow.com/questions/10689779/bulk-inserts-taking-longer-than-expected-using-dapper",
+      "owner": {
+        "display_name": "kenwarner",
+        "link": "https://stackoverflow.com/users/55948/kenwarner"
+      }
+    },
+    {
+      "question_id": 18529965,
+      "title": "Is there any way to trace\\log the sql using Dapper?",
+      "accepted_answer_id": 34309655,
+      "score": 66,
+      "link": "https://stackoverflow.com/questions/18529965/is-there-any-way-to-trace-log-the-sql-using-dapper",
+      "owner": {
+        "display_name": "Mladen Mihajlovic",
+        "link": "https://stackoverflow.com/users/11421/mladen-mihajlovic"
+      }
+    },
+    {
+      "question_id": 46163437,
+      "title": "Getting &quot;The connection does not support MultipleActiveResultSets&quot; in a ForEach with async-await",
+      "accepted_answer_id": 46164203,
+      "score": 63,
+      "link": "https://stackoverflow.com/questions/46163437/getting-the-connection-does-not-support-multipleactiveresultsets-in-a-foreach",
+      "owner": {
+        "display_name": "MotKohn",
+        "link": "https://stackoverflow.com/users/5976576/motkohn"
+      }
+    },
+    {
+      "question_id": 9848592,
+      "title": "How to implement paging using Dapper?",
+      "accepted_answer_id": 9850184,
+      "score": 62,
+      "link": "https://stackoverflow.com/questions/9848592/how-to-implement-paging-using-dapper",
+      "owner": {
+        "display_name": "Miguel Moura",
+        "link": "https://stackoverflow.com/users/577805/miguel-moura"
+      }
+    },
+    {
+      "question_id": 33436818,
+      "title": "Why does Dapper&#39;s .Execute(...) return an int?",
+      "accepted_answer_id": 33436857,
+      "score": 62,
+      "link": "https://stackoverflow.com/questions/33436818/why-does-dappers-execute-return-an-int",
+      "owner": {
+        "display_name": "Drew R",
+        "link": "https://stackoverflow.com/users/1680802/drew-r"
+      }
+    },
+    {
+      "question_id": 34867432,
+      "title": "Can I map a result to Tuple in Dapper?",
+      "accepted_answer_id": 34883374,
+      "score": 56,
+      "link": "https://stackoverflow.com/questions/34867432/can-i-map-a-result-to-tuple-in-dapper",
+      "owner": {
+        "display_name": "Tom Gerken",
+        "link": "https://stackoverflow.com/users/2495063/tom-gerken"
+      }
+    },
+    {
+      "question_id": 6860979,
+      "title": "Dapper &amp; TransactionScope?",
+      "accepted_answer_id": 6874617,
+      "score": 53,
+      "link": "https://stackoverflow.com/questions/6860979/dapper-transactionscope",
+      "owner": {
+        "display_name": "coding4fun",
+        "link": "https://stackoverflow.com/users/127954/coding4fun"
+      }
+    },
+    {
+      "question_id": 12697509,
+      "title": "What does the buffered parameter do in Dapper dot net?",
+      "accepted_answer_id": 12698449,
+      "score": 53,
+      "link": "https://stackoverflow.com/questions/12697509/what-does-the-buffered-parameter-do-in-dapper-dot-net",
+      "owner": {
+        "display_name": "smdrager",
+        "link": "https://stackoverflow.com/users/356550/smdrager"
+      }
+    },
+    {
+      "question_id": 26659819,
+      "title": "How to return dynamic types List&lt;dynamic&gt; with Dapper ORM",
+      "accepted_answer_id": 26661203,
+      "score": 52,
+      "link": "https://stackoverflow.com/questions/26659819/how-to-return-dynamic-types-listdynamic-with-dapper-orm",
+      "owner": {
+        "display_name": "Husni Jabir",
+        "link": "https://stackoverflow.com/users/1040426/husni-jabir"
+      }
+    },
+    {
+      "question_id": 11106825,
+      "title": "How to pass a null parameter with Dapper",
+      "accepted_answer_id": 11106904,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/11106825/how-to-pass-a-null-parameter-with-dapper",
+      "owner": {
+        "display_name": "user1466918",
+        "link": null
+      }
+    },
+    {
+      "question_id": 13026558,
+      "title": "Explanation of dapper buffer/cache",
+      "accepted_answer_id": 13026708,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/13026558/explanation-of-dapper-buffer-cache",
+      "owner": {
+        "display_name": "Nils Anders",
+        "link": "https://stackoverflow.com/users/1056522/nils-anders"
+      }
+    },
+    {
+      "question_id": 13653461,
+      "title": "Dapper and SQL Injections",
+      "accepted_answer_id": 13664493,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/13653461/dapper-and-sql-injections",
+      "owner": {
+        "display_name": "cdub",
+        "link": "https://stackoverflow.com/users/665557/cdub"
+      }
+    },
+    {
+      "question_id": 39780659,
+      "title": "How do I build a dynamic Where clause with Dapper when passing in a model",
+      "accepted_answer_id": 39794873,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/39780659/how-do-i-build-a-dynamic-where-clause-with-dapper-when-passing-in-a-model",
+      "owner": {
+        "display_name": "Eldorian",
+        "link": "https://stackoverflow.com/users/3185855/eldorian"
+      }
+    },
+    {
+      "question_id": 20492071,
+      "title": "Simple inner join result with Dapper?",
+      "accepted_answer_id": 20492384,
+      "score": 43,
+      "link": "https://stackoverflow.com/questions/20492071/simple-inner-join-result-with-dapper",
+      "owner": {
+        "display_name": "Per Hornsh&#248;j-Schierbeck",
+        "link": "https://stackoverflow.com/users/11619/per-hornsh%c3%b8j-schierbeck"
+      }
+    },
+    {
+      "question_id": 39006512,
+      "title": "Check if record exists with Dapper ORM",
+      "accepted_answer_id": 39023427,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/39006512/check-if-record-exists-with-dapper-orm",
+      "owner": {
+        "display_name": "webworm",
+        "link": "https://stackoverflow.com/users/287793/webworm"
+      }
+    },
+    {
+      "question_id": 34533349,
+      "title": "How to get Dapper to ignore/remove underscores in field names when mapping?",
+      "accepted_answer_id": 34536829,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/34533349/how-to-get-dapper-to-ignore-remove-underscores-in-field-names-when-mapping",
+      "owner": {
+        "display_name": "scw",
+        "link": "https://stackoverflow.com/users/1315626/scw"
+      }
+    },
+    {
+      "question_id": 36946879,
+      "title": "Dapper Parameter replace not working for Top",
+      "accepted_answer_id": 36946919,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/36946879/dapper-parameter-replace-not-working-for-top",
+      "owner": {
+        "display_name": "Justin Homes",
+        "link": "https://stackoverflow.com/users/931842/justin-homes"
+      }
+    },
+    {
+      "question_id": 6147121,
+      "title": "Dapper and anonymous Types",
+      "accepted_answer_id": 30469302,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/6147121/dapper-and-anonymous-types",
+      "owner": {
+        "display_name": "Peter",
+        "link": "https://stackoverflow.com/users/402941/peter"
+      }
+    },
+    {
+      "question_id": 27563096,
+      "title": "Dapper.NET and IQueryable",
+      "accepted_answer_id": 27588877,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/27563096/dapper-net-and-iqueryable",
+      "owner": {
+        "display_name": "Bill",
+        "link": "https://stackoverflow.com/users/248665/bill"
+      }
+    },
+    {
+      "question_id": 25833426,
+      "title": "Using Async Await keywords with Dapper",
+      "accepted_answer_id": 25833754,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/25833426/using-async-await-keywords-with-dapper",
+      "owner": {
+        "display_name": "Yaron Levi",
+        "link": "https://stackoverflow.com/users/412992/yaron-levi"
+      }
+    },
+    {
+      "question_id": 8230434,
+      "title": "Dapper dynamic parameters throw a SQLException &quot;must define scalar variable&quot; when not using anonymous objects",
+      "accepted_answer_id": 8230563,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/8230434/dapper-dynamic-parameters-throw-a-sqlexception-must-define-scalar-variable-whe",
+      "owner": {
+        "display_name": "sh-beta",
+        "link": "https://stackoverflow.com/users/107929/sh-beta"
+      }
+    },
+    {
+      "question_id": 24650710,
+      "title": "Proper way of using BeginTransaction with Dapper.IDbConnection",
+      "accepted_answer_id": 24653751,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/24650710/proper-way-of-using-begintransaction-with-dapper-idbconnection",
+      "owner": {
+        "display_name": "Krishnraj Rana",
+        "link": "https://stackoverflow.com/users/748173/krishnraj-rana"
+      }
+    },
+    {
+      "question_id": 6387904,
+      "title": "Inserting an IEnumerable&lt;T&gt; collection with Dapper errors out with &quot;class is not supported by Dapper.&quot;",
+      "accepted_answer_id": 6500834,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/6387904/inserting-an-ienumerablet-collection-with-dapper-errors-out-with-class-is-not",
+      "owner": {
+        "display_name": "IAbstract",
+        "link": "https://stackoverflow.com/users/210709/iabstract"
+      }
+    },
+    {
+      "question_id": 12723922,
+      "title": "Dapper AddDynamicParams for IN statement with &quot;dynamic&quot; parameter name",
+      "accepted_answer_id": 12724304,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/12723922/dapper-adddynamicparams-for-in-statement-with-dynamic-parameter-name",
+      "owner": {
+        "display_name": "Jens Pettersson",
+        "link": "https://stackoverflow.com/users/245986/jens-pettersson"
+      }
+    },
+    {
+      "question_id": 15391115,
+      "title": "What causes &quot;extension methods cannot be dynamically dispatched&quot; here?",
+      "accepted_answer_id": 15391292,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/15391115/what-causes-extension-methods-cannot-be-dynamically-dispatched-here",
+      "owner": {
+        "display_name": "Mike Perrenoud",
+        "link": "https://stackoverflow.com/users/1195080/mike-perrenoud"
+      }
+    },
+    {
+      "question_id": 41040189,
+      "title": "Fastest way to map result of SqlDataReader to object",
+      "accepted_answer_id": 41041029,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/41040189/fastest-way-to-map-result-of-sqldatareader-to-object",
+      "owner": {
+        "display_name": "witoong623",
+        "link": "https://stackoverflow.com/users/3578245/witoong623"
+      }
+    },
+    {
+      "question_id": 8050636,
+      "title": "is there an ExecuteScalar in Dapper",
+      "accepted_answer_id": 25274255,
+      "score": 33,
+      "link": "https://stackoverflow.com/questions/8050636/is-there-an-executescalar-in-dapper",
+      "owner": {
+        "display_name": "sgtz",
+        "link": "https://stackoverflow.com/users/685711/sgtz"
+      }
+    },
+    {
+      "question_id": 11231614,
+      "title": "How can I map .NET DateTime to database DateTime2 using Dapper to avoid &quot;SqlDateTime overflow&quot; exception?",
+      "accepted_answer_id": 11231776,
+      "score": 33,
+      "link": "https://stackoverflow.com/questions/11231614/how-can-i-map-net-datetime-to-database-datetime2-using-dapper-to-avoid-sqldate",
+      "owner": {
+        "display_name": "Dirk",
+        "link": "https://stackoverflow.com/users/466879/dirk"
+      }
+    },
+    {
+      "question_id": 6086216,
+      "title": "Using Dapper to populate Enum properties",
+      "accepted_answer_id": 6086462,
+      "score": 32,
+      "link": "https://stackoverflow.com/questions/6086216/using-dapper-to-populate-enum-properties",
+      "owner": {
+        "display_name": "Slaggg",
+        "link": "https://stackoverflow.com/users/100137/slaggg"
+      }
+    },
+    {
+      "question_id": 18269886,
+      "title": "Call stored procedure from dapper which accept list of user defined table type",
+      "accepted_answer_id": 18270091,
+      "score": 32,
+      "link": "https://stackoverflow.com/questions/18269886/call-stored-procedure-from-dapper-which-accept-list-of-user-defined-table-type",
+      "owner": {
+        "display_name": "imodin",
+        "link": "https://stackoverflow.com/users/2670400/imodin"
+      }
+    },
+    {
+      "question_id": 40824948,
+      "title": "Closing connection when using Dapper",
+      "accepted_answer_id": 40827671,
+      "score": 32,
+      "link": "https://stackoverflow.com/questions/40824948/closing-connection-when-using-dapper",
+      "owner": {
+        "display_name": "Megrez7",
+        "link": "https://stackoverflow.com/users/6081549/megrez7"
+      }
+    },
+    {
+      "question_id": 5988127,
+      "title": "Where to put sql when using dapper?",
+      "accepted_answer_id": 5988240,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/5988127/where-to-put-sql-when-using-dapper",
+      "owner": {
+        "display_name": "Christian Watteng&#229;rd",
+        "link": "https://stackoverflow.com/users/217157/christian-watteng%c3%a5rd"
+      }
+    },
+    {
+      "question_id": 7012754,
+      "title": "Why does Dapper throw an OracleException when i run a query or command with parameters?",
+      "accepted_answer_id": 7108468,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/7012754/why-does-dapper-throw-an-oracleexception-when-i-run-a-query-or-command-with-para",
+      "owner": {
+        "display_name": "mrt181",
+        "link": "https://stackoverflow.com/users/114798/mrt181"
+      }
+    },
+    {
+      "question_id": 11056141,
+      "title": "How to generate model from database using Dapper?",
+      "accepted_answer_id": 11056526,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/11056141/how-to-generate-model-from-database-using-dapper",
+      "owner": {
+        "display_name": "RKh",
+        "link": "https://stackoverflow.com/users/194328/rkh"
+      }
+    },
+    {
+      "question_id": 14042685,
+      "title": "System.Data.SqlClient.SqlConnection does not contain a definition for Query with dapper and c#",
+      "accepted_answer_id": 14042772,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/14042685/system-data-sqlclient-sqlconnection-does-not-contain-a-definition-for-query-with",
+      "owner": {
+        "display_name": "James Radford",
+        "link": "https://stackoverflow.com/users/982439/james-radford"
+      }
+    },
+    {
+      "question_id": 19716568,
+      "title": "Ignore property on model property",
+      "accepted_answer_id": 19737795,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/19716568/ignore-property-on-model-property",
+      "owner": {
+        "display_name": "Elisabeth",
+        "link": "https://stackoverflow.com/users/320460/elisabeth"
+      }
+    },
+    {
+      "question_id": 19932776,
+      "title": "How do I use &#39;Where In&#39; in Dapper",
+      "accepted_answer_id": 19938414,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/19932776/how-do-i-use-where-in-in-dapper",
+      "owner": {
+        "display_name": "Sam",
+        "link": "https://stackoverflow.com/users/1321516/sam"
+      }
+    },
+    {
+      "question_id": 43140736,
+      "title": "How to use dapper with ASP.Net core Identity?",
+      "accepted_answer_id": 43582060,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/43140736/how-to-use-dapper-with-asp-net-core-identity",
+      "owner": {
+        "display_name": "Gonzalo",
+        "link": "https://stackoverflow.com/users/5668059/gonzalo"
+      }
+    },
+    {
+      "question_id": 5898988,
+      "title": "Map string to guid with Dapper",
+      "accepted_answer_id": 5920818,
+      "score": 28,
+      "link": "https://stackoverflow.com/questions/5898988/map-string-to-guid-with-dapper",
+      "owner": {
+        "display_name": "Marnix van Valen",
+        "link": "https://stackoverflow.com/users/64096/marnix-van-valen"
+      }
+    },
+    {
+      "question_id": 14814972,
+      "title": "Dapper. Map to SQL Column with spaces in column names",
+      "accepted_answer_id": 14829279,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/14814972/dapper-map-to-sql-column-with-spaces-in-column-names",
+      "owner": {
+        "display_name": "Rohan B&#252;chner",
+        "link": "https://stackoverflow.com/users/1105314/rohan-b%c3%bcchner"
+      }
+    },
+    {
+      "question_id": 42937942,
+      "title": "Dapper with .NET Core - injected SqlConnection lifetime/scope",
+      "accepted_answer_id": 42938032,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/42937942/dapper-with-net-core-injected-sqlconnection-lifetime-scope",
+      "owner": {
+        "display_name": "Philip P.",
+        "link": "https://stackoverflow.com/users/2486874/philip-p"
+      }
+    },
+    {
+      "question_id": 42957140,
+      "title": "How to implement Generic Repository Design Pattern with Dapper?",
+      "accepted_answer_id": 42957944,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/42957140/how-to-implement-generic-repository-design-pattern-with-dapper",
+      "owner": {
+        "display_name": "Ctrl_Alt_Defeat",
+        "link": "https://stackoverflow.com/users/846565/ctrl-alt-defeat"
+      }
+    },
+    {
+      "question_id": 20710453,
+      "title": "How to pull back all parent/child data in complex object",
+      "accepted_answer_id": 20712874,
+      "score": 26,
+      "link": "https://stackoverflow.com/questions/20710453/how-to-pull-back-all-parent-child-data-in-complex-object",
+      "owner": {
+        "display_name": "LRP",
+        "link": "https://stackoverflow.com/users/2140565/lrp"
+      }
+    },
+    {
+      "question_id": 30435185,
+      "title": "Dapper throws &quot;Invalid type owner for DynamicMethod.&quot;",
+      "accepted_answer_id": 30452694,
+      "score": 26,
+      "link": "https://stackoverflow.com/questions/30435185/dapper-throws-invalid-type-owner-for-dynamicmethod",
+      "owner": {
+        "display_name": "Maffelu",
+        "link": "https://stackoverflow.com/users/844932/maffelu"
+      }
+    },
+    {
+      "question_id": 30453890,
+      "title": "Unit Testing Dapper with Inline Queries",
+      "accepted_answer_id": 35557936,
+      "score": 26,
+      "link": "https://stackoverflow.com/questions/30453890/unit-testing-dapper-with-inline-queries",
+      "owner": {
+        "display_name": "martinlabs",
+        "link": "https://stackoverflow.com/users/4736604/martinlabs"
+      }
+    },
+    {
+      "question_id": 6168799,
+      "title": "Is there a way to access the columns in a Dapper FastExpando via string or index?",
+      "accepted_answer_id": 6171223,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/6168799/is-there-a-way-to-access-the-columns-in-a-dapper-fastexpando-via-string-or-index",
+      "owner": {
+        "display_name": "Jay Stevens",
+        "link": "https://stackoverflow.com/users/52522/jay-stevens"
+      }
+    },
+    {
+      "question_id": 10744728,
+      "title": "Dapper MultiMap doesn&#39;t work with splitOn with NULL value",
+      "accepted_answer_id": 10791648,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/10744728/dapper-multimap-doesnt-work-with-spliton-with-null-value",
+      "owner": {
+        "display_name": "Jakub Konecki",
+        "link": "https://stackoverflow.com/users/449906/jakub-konecki"
+      }
+    },
+    {
+      "question_id": 10933366,
+      "title": "sp_executesql is slow with parameters",
+      "accepted_answer_id": 10933405,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/10933366/sp-executesql-is-slow-with-parameters",
+      "owner": {
+        "display_name": "m__",
+        "link": "https://stackoverflow.com/users/414817/m"
+      }
+    },
+    {
+      "question_id": 13291589,
+      "title": "Dapper query with list of parameters",
+      "accepted_answer_id": 13293614,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/13291589/dapper-query-with-list-of-parameters",
+      "owner": {
+        "display_name": "Jarrod",
+        "link": "https://stackoverflow.com/users/62601/jarrod"
+      }
+    },
+    {
+      "question_id": 20951531,
+      "title": "Dapper with Attributes mapping",
+      "accepted_answer_id": 20969521,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/20951531/dapper-with-attributes-mapping",
+      "owner": {
+        "display_name": "Cornelis",
+        "link": "https://stackoverflow.com/users/1856913/cornelis"
+      }
+    },
+    {
+      "question_id": 8994933,
+      "title": "Call custom constructor with Dapper?",
+      "accepted_answer_id": 8995135,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/8994933/call-custom-constructor-with-dapper",
+      "owner": {
+        "display_name": "John B",
+        "link": "https://stackoverflow.com/users/57698/john-b"
+      }
+    },
+    {
+      "question_id": 19470129,
+      "title": "How to capture all SQL sent over Ado.Net",
+      "accepted_answer_id": 19527389,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/19470129/how-to-capture-all-sql-sent-over-ado-net",
+      "owner": {
+        "display_name": "George Mauer",
+        "link": "https://stackoverflow.com/users/5056/george-mauer"
+      }
+    },
+    {
+      "question_id": 38430433,
+      "title": "How to retrieve a single value from the database using Dapper",
+      "accepted_answer_id": 62217658,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/38430433/how-to-retrieve-a-single-value-from-the-database-using-dapper",
+      "owner": {
+        "display_name": "Nic",
+        "link": "https://stackoverflow.com/users/2450507/nic"
+      }
+    },
+    {
+      "question_id": 12183310,
+      "title": "Can I specify DB column names for dapper-dot-net mappings?",
+      "accepted_answer_id": 12184525,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/12183310/can-i-specify-db-column-names-for-dapper-dot-net-mappings",
+      "owner": {
+        "display_name": "Walter Fresh",
+        "link": "https://stackoverflow.com/users/1625036/walter-fresh"
+      }
+    },
+    {
+      "question_id": 12628983,
+      "title": "Why doesn&#39;t Dapper dot net open and close the connection itself?",
+      "accepted_answer_id": 12629170,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/12628983/why-doesnt-dapper-dot-net-open-and-close-the-connection-itself",
+      "owner": {
+        "display_name": "smdrager",
+        "link": "https://stackoverflow.com/users/356550/smdrager"
+      }
+    },
+    {
+      "question_id": 12978454,
+      "title": "Dapper Multi Mapping with QueryMultiple",
+      "accepted_answer_id": 12978912,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/12978454/dapper-multi-mapping-with-querymultiple",
+      "owner": {
+        "display_name": "Ronnie Overby",
+        "link": "https://stackoverflow.com/users/64334/ronnie-overby"
+      }
+    },
+    {
+      "question_id": 25017702,
+      "title": "Pass Table Name as Parameter to Dapper",
+      "accepted_answer_id": 25020373,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/25017702/pass-table-name-as-parameter-to-dapper",
+      "owner": {
+        "display_name": "bigmac",
+        "link": "https://stackoverflow.com/users/850481/bigmac"
+      }
+    },
+    {
+      "question_id": 31242186,
+      "title": "Using Dapper QueryAsync to return a single object",
+      "accepted_answer_id": 31259606,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/31242186/using-dapper-queryasync-to-return-a-single-object",
+      "owner": {
+        "display_name": "Stefano Magistri",
+        "link": "https://stackoverflow.com/users/1863856/stefano-magistri"
+      }
+    },
+    {
+      "question_id": 38826292,
+      "title": "How to use Dapper with Linq",
+      "accepted_answer_id": 38869459,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/38826292/how-to-use-dapper-with-linq",
+      "owner": {
+        "display_name": "Rian Mostert",
+        "link": "https://stackoverflow.com/users/1070816/rian-mostert"
+      }
+    },
+    {
+      "question_id": 6891860,
+      "title": "Dapper.net transaction problem",
+      "accepted_answer_id": 6903921,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/6891860/dapper-net-transaction-problem",
+      "owner": {
+        "display_name": "marcusstarnes",
+        "link": "https://stackoverflow.com/users/197415/marcusstarnes"
+      }
+    },
+    {
+      "question_id": 6995291,
+      "title": "How can i use dapper to connect to a sqlite database?",
+      "accepted_answer_id": 7022404,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/6995291/how-can-i-use-dapper-to-connect-to-a-sqlite-database",
+      "owner": {
+        "display_name": "David",
+        "link": "https://stackoverflow.com/users/351709/david"
+      }
+    },
+    {
+      "question_id": 9870969,
+      "title": "Can Dapper return values from a SQL function?",
+      "accepted_answer_id": 9871380,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/9870969/can-dapper-return-values-from-a-sql-function",
+      "owner": {
+        "display_name": "ilivewithian",
+        "link": "https://stackoverflow.com/users/48886/ilivewithian"
+      }
+    },
+    {
+      "question_id": 26242363,
+      "title": "Using Dapper.TVP TableValueParameter with other parameters",
+      "accepted_answer_id": 26246018,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/26242363/using-dapper-tvp-tablevalueparameter-with-other-parameters",
+      "owner": {
+        "display_name": "CodingWithSpike",
+        "link": "https://stackoverflow.com/users/28278/codingwithspike"
+      }
+    },
+    {
+      "question_id": 37264655,
+      "title": "Dapper and Enums as Strings",
+      "accepted_answer_id": 37280820,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/37264655/dapper-and-enums-as-strings",
+      "owner": {
+        "display_name": "MaurGi",
+        "link": "https://stackoverflow.com/users/3443489/maurgi"
+      }
+    },
+    {
+      "question_id": 44161310,
+      "title": "How do I use Dapper to get the return value of stored proc?",
+      "accepted_answer_id": 44162556,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/44161310/how-do-i-use-dapper-to-get-the-return-value-of-stored-proc",
+      "owner": {
+        "display_name": "Hamza Ahmed",
+        "link": "https://stackoverflow.com/users/1520647/hamza-ahmed"
+      }
+    },
+    {
+      "question_id": 6001508,
+      "title": "Can&#39;t get multi-mapping to work in Dapper",
+      "accepted_answer_id": 6001902,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/6001508/cant-get-multi-mapping-to-work-in-dapper",
+      "owner": {
+        "display_name": "marc_s",
+        "link": "https://stackoverflow.com/users/13302/marc-s"
+      }
+    },
+    {
+      "question_id": 7078478,
+      "title": "dapper -multi-mapping: flat sql return to nested objects",
+      "accepted_answer_id": 7090603,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/7078478/dapper-multi-mapping-flat-sql-return-to-nested-objects",
+      "owner": {
+        "display_name": "Omnia9",
+        "link": "https://stackoverflow.com/users/193122/omnia9"
+      }
+    },
+    {
+      "question_id": 7390015,
+      "title": "Using Dapper with Oracle stored procedures which return cursors",
+      "accepted_answer_id": 7395492,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/7390015/using-dapper-with-oracle-stored-procedures-which-return-cursors",
+      "owner": {
+        "display_name": "hark",
+        "link": "https://stackoverflow.com/users/940393/hark"
+      }
+    },
+    {
+      "question_id": 10202584,
+      "title": "Using Dapper to map more than 5 types",
+      "accepted_answer_id": 31047547,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/10202584/using-dapper-to-map-more-than-5-types",
+      "owner": {
+        "display_name": "Christian Droulers",
+        "link": "https://stackoverflow.com/users/229726/christian-droulers"
+      }
+    },
+    {
+      "question_id": 25263701,
+      "title": "Dapper: How to get value from DapperRow if column name is &quot;count(*)&quot;?",
+      "accepted_answer_id": 25263893,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/25263701/dapper-how-to-get-value-from-dapperrow-if-column-name-is-count",
+      "owner": {
+        "display_name": "Zelid",
+        "link": "https://stackoverflow.com/users/118657/zelid"
+      }
+    },
+    {
+      "question_id": 38188558,
+      "title": "Dapper.net &quot;where ... in&quot; query doesn&#39;t work with PostgreSQL",
+      "accepted_answer_id": 38197285,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/38188558/dapper-net-where-in-query-doesnt-work-with-postgresql",
+      "owner": {
+        "display_name": "sjdweb",
+        "link": "https://stackoverflow.com/users/1933235/sjdweb"
+      }
+    },
+    {
+      "question_id": 54095648,
+      "title": "Using Dapper to get nvarchar(max) returns a string trimmed to 4000 characters. Can this behaviour be changed?",
+      "accepted_answer_id": 54096564,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/54095648/using-dapper-to-get-nvarcharmax-returns-a-string-trimmed-to-4000-characters-c",
+      "owner": {
+        "display_name": "Q&#39;&#39;",
+        "link": "https://stackoverflow.com/users/6608329/q"
+      }
+    },
+    {
+      "question_id": 6818258,
+      "title": "How to periodically flush dapper.net cache when used with SQL Server",
+      "accepted_answer_id": 6818438,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/6818258/how-to-periodically-flush-dapper-net-cache-when-used-with-sql-server",
+      "owner": {
+        "display_name": "Gullu",
+        "link": "https://stackoverflow.com/users/666490/gullu"
+      }
+    },
+    {
+      "question_id": 47794373,
+      "title": "Is AsList() better than ToList() with IDbConnection.Query() which returns IEnumerable?",
+      "accepted_answer_id": 47794463,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/47794373/is-aslist-better-than-tolist-with-idbconnection-query-which-returns-ienume",
+      "owner": {
+        "display_name": "Amit Joshi",
+        "link": "https://stackoverflow.com/users/5779732/amit-joshi"
+      }
+    },
+    {
+      "question_id": 19794497,
+      "title": "Dapper - how to work with dynamic objects",
+      "accepted_answer_id": 19796947,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/19794497/dapper-how-to-work-with-dynamic-objects",
+      "owner": {
+        "display_name": "cogumel0",
+        "link": "https://stackoverflow.com/users/2672827/cogumel0"
+      }
+    },
+    {
+      "question_id": 20366172,
+      "title": "Dapper unlimited multi-mapping",
+      "accepted_answer_id": 42247318,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/20366172/dapper-unlimited-multi-mapping",
+      "owner": {
+        "display_name": "Dimitar Dimitrov",
+        "link": "https://stackoverflow.com/users/940072/dimitar-dimitrov"
+      }
+    },
+    {
+      "question_id": 39601711,
+      "title": "How can I get my dapper result to be a List?",
+      "accepted_answer_id": 39601893,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/39601711/how-can-i-get-my-dapper-result-to-be-a-list",
+      "owner": {
+        "display_name": "DinaDee",
+        "link": "https://stackoverflow.com/users/6528932/dinadee"
+      }
+    },
+    {
+      "question_id": 40217705,
+      "title": "How do I insert data when the primary key column is not an identity column?",
+      "accepted_answer_id": 40218091,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/40217705/how-do-i-insert-data-when-the-primary-key-column-is-not-an-identity-column",
+      "owner": {
+        "display_name": "user247702",
+        "link": "https://stackoverflow.com/users/247702/user247702"
+      }
+    },
+    {
+      "question_id": 18690395,
+      "title": "Check null for list parameter in Dapper",
+      "accepted_answer_id": 18693859,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/18690395/check-null-for-list-parameter-in-dapper",
+      "owner": {
+        "display_name": "Ajadex",
+        "link": "https://stackoverflow.com/users/262036/ajadex"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 46164203,
+      "body": "<pre><code>test.ToList().ForEach(async x =&gt; await conn.UpdateAsync(x));\n</code></pre>\n<p>That code starts a Task for each item in the list, but does not wait for the each task to complete before starting the next one. Inside each Task it waits for the update to complete.  Try</p>\n<pre><code> Enumerable.Range(1, 10).ToList().ForEach(async i =&gt; await Task.Delay(1000).ContinueWith(t =&gt; Console.WriteLine(DateTime.Now)));\n</code></pre>\n<p>Which is equivalent to</p>\n<pre><code>foreach (var i in Enumerable.Range(1, 10).ToList() )\n{\n    var task = Task.Delay(1000).ContinueWith(t =&gt; Console.WriteLine(DateTime.Now));\n}\n</code></pre>\n<p>If you're in a non-async method you will have to Wait(), not await each task.  EG</p>\n<pre><code>foreach (var i in Enumerable.Range(1, 10).ToList() )\n{\n    var task = Task.Delay(1000).ContinueWith(t =&gt; Console.WriteLine(DateTime.Now));\n    //possibly do other stuff on this thread\n    task.Wait(); //wait for this task to complete\n}\n            \n</code></pre>\n",
+      "owner": {
+        "display_name": "David Browne - Microsoft",
+        "link": "https://stackoverflow.com/users/7297700/david-browne-microsoft"
+      }
+    },
+    {
+      "answer_id": 22353973,
+      "body": "<p>Just searching the <a href=\"http://code.google.com/p/dapper-dot-net/source/browse/Tests/Tests.cs\" rel=\"nofollow noreferrer\">Test.cs</a> file you could find this example</p>\n<pre><code>public void TestProcSupport()\n{\n    var p = new DynamicParameters();\n    p.Add(&quot;a&quot;, 11);\n    p.Add(&quot;b&quot;, dbType: DbType.Int32, direction: ParameterDirection.Output);\n    p.Add(&quot;c&quot;, dbType: DbType.Int32, direction: ParameterDirection.ReturnValue);\n    connection.Execute(@&quot;create proc #TestProc \n                         @a int,\n                         @b int output\n                         as \n                         begin\n                             set @b = 999\n                             select 1111\n                             return @a\n                         end&quot;);\n    connection.Query&lt;int&gt;(&quot;#TestProc&quot;, p, commandType: CommandType.StoredProcedure).First().IsEqualTo(1111);\n    p.Get&lt;int&gt;(&quot;c&quot;).IsEqualTo(11);\n    p.Get&lt;int&gt;(&quot;b&quot;).IsEqualTo(999);\n}\n</code></pre>\n<p>So, I suppose that your C# code could be written as</p>\n<pre><code>public void InsertData()\n{\n    var p = new DynamicParameters();\n    p.Add(&quot;VAR1&quot;, &quot;John&quot;);\n    p.Add(&quot;VAR2&quot;, &quot;McEnroe&quot;);\n    p.Add(&quot;BASEID&quot;, 1);\n    p.Add(&quot;NEWID&quot;, dbType: DbType.Int32, direction: ParameterDirection.Output);\n    connection.Query&lt;int&gt;(&quot;SP_MYTESTpROC&quot;, p, commandType: CommandType.StoredProcedure);\n    int newID =  p.Get&lt;int&gt;(&quot;NEWID&quot;);\n}\n</code></pre>\n<p>As a side note, do not use SP as prefix for your stored procedure. It is reserved for system defined procedures and you could find yourself in troubles if Microsoft decides to use the same name. Albeit improbable it is a bad practice and why risk?</p>\n",
+      "owner": {
+        "display_name": "Steve",
+        "link": "https://stackoverflow.com/users/1197518/steve"
+      }
+    },
+    {
+      "answer_id": 34309655,
+      "body": "<p>I got the same issue and implemented some code after doing some search but having no ready-to-use stuff. There is a package on nuget <a href=\"https://www.nuget.org/packages/MiniProfiler.Integrations/\" rel=\"nofollow noreferrer\">MiniProfiler.Integrations</a> I would like to share.</p>\n<p><strong>Update V2</strong>: it supports to work with other database servers, for MySQL it requires to have <a href=\"https://www.nuget.org/packages/MiniProfiler.Integrations.MySql/\" rel=\"nofollow noreferrer\">MiniProfiler.Integrations.MySql</a></p>\n<p>Below are steps to work with SQL Server:</p>\n<p>1.Instantiate the connection</p>\n<pre><code>var factory = new SqlServerDbConnectionFactory(_connectionString);\nusing (var connection = ProfiledDbConnectionFactory.New(factory, CustomDbProfiler.Current))\n{\n // your code\n}\n</code></pre>\n<p>2.After all works done, write all commands to a file if you want</p>\n<pre><code>File.WriteAllText(&quot;SqlScripts.txt&quot;, CustomDbProfiler.Current.ProfilerContext.GetCommands());\n</code></pre>\n",
+      "owner": {
+        "display_name": "hazjack",
+        "link": "https://stackoverflow.com/users/4903729/hazjack"
+      }
+    },
+    {
+      "answer_id": 5920818,
+      "body": "<p>Perhaps the simplest way to do this (without waiting on Dapper) is to have a second property:</p>\n<pre><code>public Guid Foo { get; set; }\n\npublic string FooString {\n    get { return Foo.ToString(&quot;N&quot;); }\n    set { Foo = new Guid(value); }\n}\n</code></pre>\n<p>And in your query, alias the column as <code>FooString</code>.</p>\n<p>Of course, then this prompts the question: should Dapper support private properties for this type of thing? To which I say: probably.</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 54096564,
+      "body": "<p>4000 characters is (currently) <a href=\"https://github.com/DapperLib/Dapper/blob/main/Dapper/DbString.cs#L21\" rel=\"noreferrer\">the default length for a DBString in Dapper</a>:</p>\n<p><img src=\"https://i.sstatic.net/qxRF4.png\" alt=\"image of code from the above link\" /></p>\n<p>To get the full text, you just need to set the size parameter:</p>\n<pre><code>p.Add(&quot;@Program&quot;, &quot;&quot;, DbType.String, \n       direction: ParameterDirection.Output, size:int.MaxValue);\n</code></pre>\n",
+      "owner": {
+        "display_name": "stuartd",
+        "link": "https://stackoverflow.com/users/43846/stuartd"
+      }
+    },
+    {
+      "answer_id": 40827671,
+      "body": "<p>I am assuming that you are using latest version of Dapper.</p>\n<p>With Dapper, there are two ways to manage connection:</p>\n<ul>\n<li><p><strong>Fully manage yourself:</strong>\nHere, you are fully responsible for opening and closing connection. This is just like how you treat connection while working with ADO.NET.</p>\n</li>\n<li><p><strong>Allow Dapper to manage it:</strong>\nDapper automatically opens the connection (if it was not opened) and closes it (if it was opened by Dapper) for you. This is similar to <code>DataAdapter.Fill()</code> method. <s>I personally do not recommend this way.</s> This may not be applicable every time. Following is what Marc Gravell says in one of the <a href=\"https://stackoverflow.com/questions/12628983/why-doesnt-dapper-dot-net-open-and-close-the-connection-itself/12629170#comment54005603_12629170\">comment</a> for this answer: <a href=\"https://stackoverflow.com/a/12629170/5779732\">https://stackoverflow.com/a/12629170/5779732</a></p>\n</li>\n</ul>\n<blockquote>\n<p>well, technically open/closed is different to disposed. If you are only going to be opening/closing around the individual calls, you might as well let dapper do it. <strong>If you are opening/closing at a wider granularity (per request, for example), it would be better for your code to do it and pass an open connection to dapper.</strong></p>\n</blockquote>\n<p>Below is the quote from <a href=\"https://github.com/StackExchange/Dapper/issues/672#issuecomment-269972918\" rel=\"nofollow noreferrer\">here</a>:</p>\n<blockquote>\n<p>Dapper will close the connection if it needed to open it. So if you're just doing 1 quick query - let Dapper handle it. If you're doing many, you should open (once) and close at the end, with all the queries in the middle...just from an efficiency standpoint.</p>\n</blockquote>\n<p>Ofcourse, you can call multiple queries on single connection. But, connection should be closed (by calling <code>Close()</code>, <code>Dispose()</code> method or by enclosing it in <code>using</code> block) to avoid resource leak. Closing connection returns it to connection pool. Involvement of connection pool improves the performance over new connection cost.</p>\n<hr />\n<p>In addition to just handling connection, I suggest you implement UnitOfWork to manage transactions as well. Refer <a href=\"https://github.com/timschreiber/DapperUnitOfWork\" rel=\"nofollow noreferrer\">this</a> excellent sample on GitHub.</p>\n<p>Following source code may help you. Note that this is written for my needs; so it may not work for you as is.</p>\n<pre class=\"lang-cs prettyprint-override\"><code>public sealed class DalSession : IDisposable\n{\n    public DalSession()\n    {\n        _connection = new OleDbConnection(DalCommon.ConnectionString);\n        _connection.Open();\n        _unitOfWork = new UnitOfWork(_connection);\n    }\n\n    IDbConnection _connection = null;\n    UnitOfWork _unitOfWork = null;\n\n    public UnitOfWork UnitOfWork\n    {\n        get { return _unitOfWork; }\n    }\n\n    public void Dispose()\n    {\n        _unitOfWork.Dispose();\n        _connection.Dispose();\n    }\n}\n\npublic sealed class UnitOfWork : IUnitOfWork\n{\n    internal UnitOfWork(IDbConnection connection)\n    {\n        _id = Guid.NewGuid();\n        _connection = connection;\n    }\n\n    IDbConnection _connection = null;\n    IDbTransaction _transaction = null;\n    Guid _id = Guid.Empty;\n\n    IDbConnection IUnitOfWork.Connection\n    {\n        get { return _connection; }\n    }\n    IDbTransaction IUnitOfWork.Transaction\n    {\n        get { return _transaction; }\n    }\n    Guid IUnitOfWork.Id\n    {\n        get { return _id; }\n    }\n\n    public void Begin()\n    {\n        _transaction = _connection.BeginTransaction();\n    }\n\n    public void Commit()\n    {\n        _transaction.Commit();\n        Dispose();\n    }\n\n    public void Rollback()\n    {\n        _transaction.Rollback();\n        Dispose();\n    }\n\n    public void Dispose()\n    {\n        if(_transaction != null)\n            _transaction.Dispose();\n        _transaction = null;\n    }\n}\n\ninterface IUnitOfWork : IDisposable\n{\n    Guid Id { get; }\n    IDbConnection Connection { get; }\n    IDbTransaction Transaction { get; }\n    void Begin();\n    void Commit();\n    void Rollback();\n}\n</code></pre>\n<p>Now, your repositories should accept this UnitOfWork in some way. I choose Dependency Injection with Constructor.</p>\n<pre class=\"lang-cs prettyprint-override\"><code>public sealed class MyRepository\n{\n    public MyRepository(IUnitOfWork unitOfWork) \n    {\n        this.unitOfWork = unitOfWork;\n    }\n    \n    IUnitOfWork unitOfWork = null;\n\n    //You also need to handle other parameters like 'sql', 'param' ect. This is out of scope of this answer.\n    public MyPoco Get()\n    {\n        return unitOfWork.Connection.Query(sql, param, unitOfWork.Transaction, .......);\n    }\n\n    public void Insert(MyPoco poco)\n    {\n        return unitOfWork.Connection.Execute(sql, param, unitOfWork.Transaction, .........);\n    }\n}\n</code></pre>\n<p>And then you call it like this:</p>\n<p>With transaction:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>using(DalSession dalSession = new DalSession())\n{\n    UnitOfWork unitOfWork = dalSession.UnitOfWork;\n    unitOfWork.Begin();\n    try\n    {\n        //Your database code here\n        MyRepository myRepository = new MyRepository(unitOfWork);\n        myRepository.Insert(myPoco);\n        //You may create other repositories in similar way in same scope of UoW.\n        \n        unitOfWork.Commit();\n    }\n    catch\n    {\n        unitOfWork.Rollback();\n        throw;\n    }\n}\n</code></pre>\n<p>Without Transaction:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>using(DalSession dalSession = new DalSession())\n{\n    //Your database code here\n    MyRepository myRepository = new MyRepository(dalSession.UnitOfWork);//UoW have no effect here as Begin() is not called.\n    myRepository.Insert(myPoco);\n}\n</code></pre>\n<p>This way, instead of directly exposing connection in your calling code, you control it at one location.</p>\n<p>More details about Repository in above code could be found <a href=\"https://stackoverflow.com/a/45460483/5779732\">here</a>.</p>\n<p>Please note that <code>UnitOfWork</code> is <a href=\"https://stackoverflow.com/questions/39909985/is-unitofwork-equals-transaction-or-it-is-more-than-that\">more</a> than just a transaction. This code handles only transaction though. You may extend this code to cover additional roles.</p>\n",
+      "owner": {
+        "display_name": "Amit Joshi",
+        "link": "https://stackoverflow.com/users/5779732/amit-joshi"
+      }
+    },
+    {
+      "answer_id": 67474832,
+      "body": "<p>There are 3 approaches to doing transactions in Dapper.</p>\n<ol>\n<li>Simple Transaction</li>\n<li>Transaction from Transaction Scope</li>\n<li>Using Dapper Transaction (<a href=\"https://www.nuget.org/packages/Dapper.Transaction/\" rel=\"noreferrer\">additional nuget package</a> <em><strong>and most favored approach</strong></em>)</li>\n</ol>\n<p>You can find out more about these transaction approaches from the official tutorial website <a href=\"https://dapper-tutorial.net/transaction\" rel=\"noreferrer\">here</a></p>\n<p>For reference here's a breakdown of the transaction approaches</p>\n<p><strong>1. Simple Transaction</strong></p>\n<p>In this example, you create a transaction on an existing db connection, and then pass in the transaction to the Execute method on dapper (which is an optional parameter).</p>\n<p>Once you've done all your work, simply commit the transaction.</p>\n<pre><code>string sql = &quot;INSERT INTO Customers (CustomerName) Values (@CustomerName);&quot;;\n\nusing (var connection = new SqlConnection(FiddleHelper.GetConnectionStringSqlServerW3Schools()))\n{\n    connection.Open();\n    \n    using (var transaction = connection.BeginTransaction())\n    {\n        connection.Execute(sql, new {CustomerName = &quot;Mark&quot;}, transaction: transaction);\n        connection.Execute(sql, new {CustomerName = &quot;Sam&quot;}, transaction: transaction);\n        connection.Execute(sql, new {CustomerName = &quot;John&quot;}, transaction: transaction);\n        \n        transaction.Commit();\n    }\n}\n</code></pre>\n<p><strong>2. Transaction from Transaction Scope</strong></p>\n<p>If you'd like to create a transaction scope, you will need to do this before the db connection is created. Once you've created the transaction scope, you can simply perform all your operations and then do a single call to complete the transaction, which will then commit all the commands</p>\n<pre><code>using (var transaction = new TransactionScope())\n{\n    var sql = &quot;INSERT INTO Customers (CustomerName) Values (@CustomerName);&quot;;\n\n    using (var connection = My.ConnectionFactory())\n    {\n        connection.Open();\n\n        connection.Execute(sql, new {CustomerName = &quot;Mark&quot;});\n        connection.Execute(sql, new {CustomerName = &quot;Sam&quot;});\n        connection.Execute(sql, new {CustomerName = &quot;John&quot;});\n    }\n\n    transaction.Complete();\n}\n</code></pre>\n<p><strong>3. Using Dapper Transaction</strong></p>\n<p>In my opinion, this is the most favorable approach to achieve transaction in code, because it makes the code easy to read and easy to implement. There is an extended implementation of SQL Transaction called Dapper Transaction (which you can find <a href=\"https://www.nuget.org/packages/Dapper.Transaction/\" rel=\"noreferrer\">here</a>), which allows you to run the SQL executes off the transactions directly.</p>\n<pre><code>string sql = &quot;INSERT INTO Customers (CustomerName) Values (@CustomerName);&quot;;\n\nusing (var connection = new SqlConnection(FiddleHelper.GetConnectionStringSqlServerW3Schools()))\n{\n    connection.Open();\n    \n    using (var transaction = connection.BeginTransaction())\n    {\n        transaction.Execute(sql, new {CustomerName = &quot;Mark&quot;});\n        transaction.Execute(sql, new {CustomerName = &quot;Sam&quot;});\n        transaction.Execute(sql, new {CustomerName = &quot;John&quot;});\n\n        transaction.Commit();\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Newt",
+        "link": "https://stackoverflow.com/users/2523968/newt"
+      }
+    },
+    {
+      "answer_id": 8388333,
+      "body": "<p>Dapper supports this directly. For example...</p>\n<pre><code>string sql = &quot;SELECT * FROM SomeTable WHERE id IN @ids&quot;\nvar results = conn.Query(sql, new { ids = new[] { 1, 2, 3, 4, 5 }});\n</code></pre>\n<p>unless you are using Postgres, in which case see <a href=\"/questions/8388093/select-from-x-where-id-in-with-dapper-orm#58448315\">this answer</a></p>\n",
+      "owner": {
+        "display_name": "LukeH",
+        "link": "https://stackoverflow.com/users/55847/lukeh"
+      }
+    },
+    {
+      "answer_id": 6874617,
+      "body": "<p>It was totally my fault and not fully understanding transactionscope. A connection is not automatically enlisted in transactionscope unless you open the connection within the transactionscope:</p>\n<p><em><strong>Automatic Enlistment</strong></em></p>\n<pre><code>  using (var scope = new TransactionScope())\n  {\n      con.Open();                                \n      //update/delete/insert commands here\n      ...\n      scope.Complete();\n  }\n</code></pre>\n<p><em><strong>Manual Enlistment</strong></em></p>\n<pre><code>    con.Open();\n    using (var scope = new TransactionScope())\n    {\n       con.EnlistTransaction(Transaction.Current);  \n       //update/delte/insert statements here\n       ...\n       scope.Complete();\n    }\n</code></pre>\n<p>Details can be found here: <a href=\"https://stackoverflow.com/questions/2884863/under-what-circumstances-is-an-sqlconnection-automatically-enlisted-in-an-ambient\">Details</a></p>\n",
+      "owner": {
+        "display_name": "coding4fun",
+        "link": "https://stackoverflow.com/users/127954/coding4fun"
+      }
+    },
+    {
+      "answer_id": 8270264,
+      "body": "<p>It does <em>support</em> input/output parameters (including <code>RETURN</code> value) if you use <code>DynamicParameters</code>, but in this case the simpler option is simply:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>var id = connection.QuerySingle&lt;int&gt;( @&quot;\nINSERT INTO [MyTable] ([Stuff]) VALUES (@Stuff);\nSELECT CAST(SCOPE_IDENTITY() as int)&quot;, new { Stuff = mystuff});\n</code></pre>\n<p>Note that on more recent versions of SQL Server (2005+) you can use the <code>OUTPUT</code> clause:</p>\n<pre class=\"lang-cs prettyprint-override\"><code>var id = connection.QuerySingle&lt;int&gt;( @&quot;\nINSERT INTO [MyTable] ([Stuff])\nOUTPUT INSERTED.Id\nVALUES (@Stuff);&quot;, new { Stuff = mystuff});\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 5964462,
+      "body": "<p>We are looking at building a few helpers, still deciding on APIs and if this goes in core or not. See: <a href=\"https://code.google.com/archive/p/dapper-dot-net/issues/6\" rel=\"noreferrer\">https://code.google.com/archive/p/dapper-dot-net/issues/6</a> for progress.</p>\n<p>In the mean time you can do the following</p>\n<pre><code>val = &quot;my value&quot;;\ncnn.Execute(&quot;insert into Table(val) values (@val)&quot;, new {val});\n\ncnn.Execute(&quot;update Table set val = @val where Id = @id&quot;, new {val, id = 1});\n</code></pre>\n<p>etcetera</p>\n<p>See also my blog post: <a href=\"http://samsaffron.com/archive/2012/01/16/that-annoying-insert-problem-getting-data-into-the-db-using-dapper\" rel=\"noreferrer\">That annoying INSERT problem</a></p>\n<p><strong>Update</strong></p>\n<p>As pointed out in the comments, there are now several extensions available in the <strong><a href=\"https://github.com/DapperLib/Dapper.Contrib\" rel=\"noreferrer\">Dapper.Contrib</a></strong> project in the form of these <code>IDbConnection</code> extension methods:</p>\n<pre><code>T Get&lt;T&gt;(id);\nIEnumerable&lt;T&gt; GetAll&lt;T&gt;();\nint Insert&lt;T&gt;(T obj);\nint Insert&lt;T&gt;(Enumerable&lt;T&gt; list);\nbool Update&lt;T&gt;(T obj);\nbool Update&lt;T&gt;(Enumerable&lt;T&gt; list);\nbool Delete&lt;T&gt;(T obj);\nbool Delete&lt;T&gt;(Enumerable&lt;T&gt; list);\nbool DeleteAll&lt;T&gt;();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sam Saffron",
+        "link": "https://stackoverflow.com/users/17174/sam-saffron"
+      }
+    },
+    {
+      "answer_id": 34883374,
+      "body": "<p>Here is a working example:</p>\n<pre><code>public class DapperTests\n{\n    [Test]\n    public void TuppleTest()\n    {\n        var conn = new SqlConnection(@&quot;Data Source=.\\sqlexpress; Integrated Security=true; Initial Catalog=mydb&quot;);\n        conn.Open();\n\n        var result = conn.Query&lt;int, int, Tuple&lt;int, int&gt;&gt;(\n            &quot;select 1,2 union all select 4,5&quot;, Tuple.Create, splitOn: &quot;*&quot;).ToList();\n\n        conn.Close();\n\n        Assert.That(result.Count, Is.EqualTo(2));\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Void Ray",
+        "link": "https://stackoverflow.com/users/1460042/void-ray"
+      }
+    },
+    {
+      "answer_id": 39601893,
+      "body": "<p>Try changing to this.</p>\n<pre><code>List&lt;ProfitMargin&gt; profitMargin = (await conn.QueryAsync&lt;ProfitMargin&gt;(sqlQuery, new { QuoteId = QuoteIds.ToArray()})).ToList();\n</code></pre>\n<p>Or</p>\n<pre><code>var results = await conn.QueryAsync&lt;ProfitMargin&gt;(sqlQuery, new { QuoteId = QuoteIds.ToArray()});\nList&lt;ProfitMargin&gt; profitMargin = results.ToList();\n</code></pre>\n<p>I think you are hitting the <code>Task</code> object with your attempts at calling <code>.ToList()</code></p>\n",
+      "owner": {
+        "display_name": "Matti Price",
+        "link": "https://stackoverflow.com/users/2452505/matti-price"
+      }
+    },
+    {
+      "answer_id": 62217658,
+      "body": "<p>FYI, Dapper has now added both <code>QuerySingle</code> and <code>QuerySingleAsync</code> as well as their corresponding <code>OrDefault</code> variants... usage for <code>QuerySingleOrDefaultAsync</code> is:</p>\n\n<pre><code>await connection.QuerySingleOrDefaultAsync&lt;short&gt;(sql);\n</code></pre>\n",
+      "owner": {
+        "display_name": "David Mohundro",
+        "link": "https://stackoverflow.com/users/4570/david-mohundro"
+      }
+    },
+    {
+      "answer_id": 18270091,
+      "body": "<blockquote>\n  <p>My problem is also that I have cars in generic list List Cars and I want pass this list to stored procedure. It exist elegant way how to do it ?</p>\n</blockquote>\n\n<p>You need to <em>convert your generic list Car to a datatable</em> and then pass it to storedprocedure.  A point to note is that the order of your fields must be <em>same as defined in the user defined table type</em> in database. Otherwise data will not save properly. And it <em>must have same number of columns</em> as well. </p>\n\n<p>I use this method to convert List to DataTable. You can call it like yourList.ToDataTable()</p>\n\n<pre><code>public static DataTable ToDataTable&lt;T&gt;(this List&lt;T&gt; iList)\n    {\n        DataTable dataTable = new DataTable();\n        PropertyDescriptorCollection propertyDescriptorCollection =\n            TypeDescriptor.GetProperties(typeof(T));\n        for (int i = 0; i &lt; propertyDescriptorCollection.Count; i++)\n        {\n            PropertyDescriptor propertyDescriptor = propertyDescriptorCollection[i];\n            Type type = propertyDescriptor.PropertyType;\n\n            if (type.IsGenericType &amp;&amp; type.GetGenericTypeDefinition() == typeof(Nullable&lt;&gt;))\n                type = Nullable.GetUnderlyingType(type);\n\n\n            dataTable.Columns.Add(propertyDescriptor.Name, type);\n        }\n        object[] values = new object[propertyDescriptorCollection.Count];\n        foreach (T iListItem in iList)\n        {\n            for (int i = 0; i &lt; values.Length; i++)\n            {\n                values[i] = propertyDescriptorCollection[i].GetValue(iListItem);\n            }\n            dataTable.Rows.Add(values);\n        }\n        return dataTable;\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ehsan",
+        "link": "https://stackoverflow.com/users/2311360/ehsan"
+      }
+    },
+    {
+      "answer_id": 41041029,
+      "body": "<p>Here's a way to make your ADO.NET code faster.</p>\n\n<p>When you do your select, list out the fields that you are selecting rather than using select *.  This will let you ensure the order that the fields are coming back even if that order changes in the database.Then when getting those fields from the Reader, get them by index rather than by name.  Using and index is faster.  </p>\n\n<p>Also, I'd recommend not making string database fields nullable unless there is a strong business reason.  Then just store a blank string in the database if there is no value.  Finally I'd recommend using the <code>Get</code> methods on the <code>DataReader</code> to get your fields in the type they are so that casting isn't needed in your code.  So for example instead of casting the <code>DataReader[index++]</code> value as an int use <code>DataReader.GetInt(index++)</code></p>\n\n<p>So for example, this code:</p>\n\n<pre><code> salesOrderHeader = new SalesOrderHeaderSQLserver();\n salesOrderHeader.SalesOrderId = (int)reader[\"SalesOrderId\"];\n salesOrderHeader.SalesOrderNumber =       reader[\"SalesOrderNumber\"] as string;\n salesOrderHeader.AccountNumber = reader[\"AccountNumber\"] as string;\n</code></pre>\n\n<p>becomes</p>\n\n<pre><code> int index = 0;\n salesOrderHeader = new SalesOrderHeaderSQLserver();\n salesOrderHeader.SalesOrderId = reader.GetInt(index++);\n salesOrderHeader.SalesOrderNumber = reader.GetString(index++);\n salesOrderHeader.AccountNumber = reader.GetString(index++);\n</code></pre>\n\n<p>Give that a whirl and see how it does for you.</p>\n",
+      "owner": {
+        "display_name": "RonC",
+        "link": "https://stackoverflow.com/users/1415614/ronc"
+      }
+    },
+    {
+      "answer_id": 20969521,
+      "body": "<p>For the completion of the solution, I want to share the code I found and put together with those who are interested.</p>\n\n<p>Instead of (ab)using the System.Data.Linq.Mapping.ColumnAttribute, it might be more logic (and probably save, although the chance will be very small that Microsoft will change the linq to sql ColumnAttribute class) to create our own ColumnAttribute class:</p>\n\n<p><strong>ColumnAttribute.cs</strong></p>\n\n<pre><code>using System;\n\nnamespace DapperTestProj.DapperAttributeMapper //Maybe a better namespace here\n{\n    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]\n    public class ColumnAttribute : Attribute\n    {\n        public string Name { get; set; }\n\n        public ColumnAttribute(string name)\n        {\n            Name = name;\n        }\n    }\n}\n</code></pre>\n\n<p>Found in the topic I mentioned earlier, the FallBackTypeMapper and the ColumnAttributeTypeMapper classes:</p>\n\n<p><strong>FallBackTypeMapper.cs</strong></p>\n\n<pre><code>using System;\nusing System.Collections.Generic;\nusing System.Reflection;\nusing Dapper;\n\nnamespace DapperTestProj.DapperAttributeMapper\n{\n    public class FallBackTypeMapper : SqlMapper.ITypeMap\n    {\n        private readonly IEnumerable&lt;SqlMapper.ITypeMap&gt; _mappers;\n\n        public FallBackTypeMapper(IEnumerable&lt;SqlMapper.ITypeMap&gt; mappers)\n        {\n            _mappers = mappers;\n        }\n\n        public ConstructorInfo FindConstructor(string[] names, Type[] types)\n        {\n            foreach (var mapper in _mappers)\n            {\n                try\n                {\n                    var result = mapper.FindConstructor(names, types);\n\n                    if (result != null)\n                    {\n                        return result;\n                    }\n                }\n                catch (NotImplementedException nix)\n                {\n                    // the CustomPropertyTypeMap only supports a no-args\n                    // constructor and throws a not implemented exception.\n                    // to work around that, catch and ignore.\n                }\n            }\n            return null;\n        }\n\n        public SqlMapper.IMemberMap GetConstructorParameter(ConstructorInfo constructor, string columnName)\n        {\n            foreach (var mapper in _mappers)\n            {\n                try\n                {\n                    var result = mapper.GetConstructorParameter(constructor, columnName);\n\n                    if (result != null)\n                    {\n                        return result;\n                    }\n                }\n                catch (NotImplementedException nix)\n                {\n                    // the CustomPropertyTypeMap only supports a no-args\n                    // constructor and throws a not implemented exception.\n                    // to work around that, catch and ignore.\n                }\n            }\n            return null;\n        }\n\n        public SqlMapper.IMemberMap GetMember(string columnName)\n        {\n            foreach (var mapper in _mappers)\n            {\n                try\n                {\n                    var result = mapper.GetMember(columnName);\n\n                    if (result != null)\n                    {\n                        return result;\n                    }\n                }\n                catch (NotImplementedException nix)\n                {\n                    // the CustomPropertyTypeMap only supports a no-args\n                    // constructor and throws a not implemented exception.\n                    // to work around that, catch and ignore.\n                }\n            }\n            return null;\n        }\n    }\n}\n</code></pre>\n\n<p><strong>ColumnAttributeTypeMapper.cs</strong></p>\n\n<pre><code>using System.Linq;\nusing Dapper;\n\nnamespace DapperTestProj.DapperAttributeMapper\n{\n    public class ColumnAttributeTypeMapper&lt;T&gt; : FallBackTypeMapper\n    {\n        public ColumnAttributeTypeMapper()\n            : base(new SqlMapper.ITypeMap[]\n                    {\n                        new CustomPropertyTypeMap(typeof(T),\n                            (type, columnName) =&gt;\n                                type.GetProperties().FirstOrDefault(prop =&gt;\n                                    prop.GetCustomAttributes(false)\n                                        .OfType&lt;ColumnAttribute&gt;()\n                                        .Any(attribute =&gt; attribute.Name == columnName)\n                            )\n                        ),\n                        new DefaultTypeMap(typeof(T)) \n                    })\n        {\n        }\n    }\n}\n</code></pre>\n\n<p>and finally, the <strong>TypeMapper.cs</strong> to initialize the mapping.</p>\n\n<pre><code>using System;\nusing System.Linq;\nusing System.Reflection;\nusing Dapper;\n\nnamespace DapperTestProj.DapperAttributeMapper\n{\n    public static class TypeMapper\n    {\n        public static void Initialize(string @namespace)\n        {\n            var types = from assem in AppDomain.CurrentDomain.GetAssemblies().ToList()\n                    from type in assem.GetTypes()\n                    where type.IsClass &amp;&amp; type.Namespace == @namespace\n                    select type;\n\n            types.ToList().ForEach(type =&gt;\n            {\n                var mapper = (SqlMapper.ITypeMap)Activator\n                    .CreateInstance(typeof(ColumnAttributeTypeMapper&lt;&gt;)\n                                    .MakeGenericType(type));\n                SqlMapper.SetTypeMap(type, mapper);\n            });\n        }\n    }\n}\n</code></pre>\n\n<p>At start up, TypeMapper.Initialize needs to be called:</p>\n\n<pre><code>TypeMapper.Initialize(\"DapperTestProj.Entities\");\n</code></pre>\n\n<p>And you can start using attributes for the entity properties</p>\n\n<pre><code>using DapperTestProj.DapperAttributeMapper;\n\nnamespace DapperTestProj.Entities\n{\n    public class Table1\n    {\n        [Column(\"Table1Id\")]\n        public int Id { get; set; }\n\n        public string Column1 { get; set; }\n\n        public string Column2 { get; set; }\n\n        public Table2 Table2 { get; set; }\n\n        public Table1()\n        {\n            Table2 = new Table2();\n        }\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Cornelis",
+        "link": "https://stackoverflow.com/users/1856913/cornelis"
+      }
+    },
+    {
+      "answer_id": 39794873,
+      "body": "<p>You can also use Dapper's <a href=\"https://github.com/StackExchange/dapper-dot-net/tree/master/Dapper.SqlBuilder\" rel=\"noreferrer\">SqlBuilder</a>.</p>\n\n<p>Note that you'll have to install the <a href=\"https://www.nuget.org/packages/Dapper.SqlBuilder/\" rel=\"noreferrer\">Dapper.SqlBuilder</a> NuGet package since it doesn't come with Dapper's main distribution.</p>\n\n<p>Here is an example:</p>\n\n<pre><code>    [Test]\n    public void Test()\n    {\n        var model = new PersonModel {FirstName = \"Bar\", City = \"New York\"};\n\n        var builder = new SqlBuilder();\n\n        //note the 'where' in-line comment is required, it is a replacement token\n        var selector = builder.AddTemplate(\"select * from table /**where**/\");\n\n        if (model.Id &gt; 0)\n            builder.Where(\"Id = @Id\", new { model.Id });\n\n        if (!string.IsNullOrEmpty(model.FirstName))\n            builder.Where(\"FirstName = @FirstName\", new { model.FirstName });\n\n        if (!string.IsNullOrEmpty(model.Lastname))\n            builder.Where(\"Lastname = @Lastname\", new { model.Lastname });\n\n        if (!string.IsNullOrEmpty(model.City))\n            builder.Where(\"City = @City\", new { model.City });\n\n        Assert.That(selector.RawSql, Is.EqualTo(\"select * from table WHERE FirstName = @FirstName AND City = @City\\n\"));\n\n        //var rows = sqlConnection.Query(selector.RawSql, selector.Parameters);\n    }\n</code></pre>\n\n<p>You can find some examples <a href=\"https://samsaffron.com/archive/2011/09/05/Digging+ourselves+out+of+the+mess+Linq-2-SQL+created\" rel=\"noreferrer\">here</a>.</p>\n",
+      "owner": {
+        "display_name": "Void Ray",
+        "link": "https://stackoverflow.com/users/1460042/void-ray"
+      }
+    },
+    {
+      "answer_id": 26661203,
+      "body": "<p>The <code>DapperRow</code> object is designed to share a lot of state between rows. For example, if you fetch 40 rows, the column names etc are only stored <strong>once</strong>. If we used <code>ExpandoObject</code>, this would need to be configured per row. Hence, the use of <code>DapperRow</code> as the behind-the-scenes implementation detail is a deliberate efficiency thing.</p>\n\n<p>Note that the object returned from the <code>dynamic</code> APIs can also be cast as <code>IDictionary&lt;string,object&gt;</code>.</p>\n\n<p>I would, however, be open to supporting <em>other</em> types that support this dictionary usage - of which <code>ExpandoObject</code> is one. So yes, it <em>could</em> be changed such that:</p>\n\n<pre><code>var rows = conn.Query&lt;ExpandoObject&gt;(...);\n</code></pre>\n\n<p>works. It simply requires code to <em>support</em> it, and that code does not currently exist. So \"no, but perhaps in a future build\".</p>\n\n<p>Note also that you don't need to use <code>DapperRow</code> at all... The more <em>expected</em> scenario is to use the generic API to materialize your own types.</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 30080951,
+      "body": "<p>This post shows how to query a <a href=\"https://en.wikipedia.org/wiki/Database_normalization\" rel=\"noreferrer\">highly normalised SQL database</a>, and map the result into a set of highly nested C# POCO objects. </p>\n\n<p>Ingredients:</p>\n\n<ul>\n<li>8 lines of C#.</li>\n<li>Some reasonably simple SQL that uses some joins. </li>\n<li>Two awesome libraries.</li>\n</ul>\n\n<p>The insight that allowed me to solve this problem is to separate the <code>MicroORM</code> from <code>mapping the result back to the POCO Entities</code>. Thus, we use two separate libraries:</p>\n\n<ul>\n<li><a href=\"https://github.com/StackExchange/dapper-dot-net\" rel=\"noreferrer\">Dapper</a> as the MicroORM.</li>\n<li><a href=\"https://github.com/randyburden/Slapper.AutoMapper\" rel=\"noreferrer\">Slapper.Automapper</a> for mapping.</li>\n</ul>\n\n<p>Essentially, we use <a href=\"https://github.com/StackExchange/dapper-dot-net\" rel=\"noreferrer\">Dapper</a> to query the database, then use <a href=\"https://github.com/randyburden/Slapper.AutoMapper\" rel=\"noreferrer\">Slapper.Automapper</a>  to map the result straight into our POCOs.</p>\n\n<h3>Advantages</h3>\n\n<ul>\n<li><strong>Simplicity</strong>. Its less than 8 lines of code. I find this a lot easier to understand, debug, and change.</li>\n<li><strong>Less code</strong>. A few lines of code is all <a href=\"https://github.com/randyburden/Slapper.AutoMapper\" rel=\"noreferrer\">Slapper.Automapper</a> needs to handle anything you throw at it, even if we have a complex nested POCO (i.e. POCO contains <code>List&lt;MyClass1&gt;</code> which in turn contains <code>List&lt;MySubClass2&gt;</code>, etc).</li>\n<li><strong>Speed</strong>. Both of these libraries have an extraordinary amount of optimization and caching to make them run almost as fast as hand tuned ADO.NET queries.</li>\n<li><strong>Separation of concerns</strong>. We can change the MicroORM for a different one, and the mapping still works, and vice-versa.</li>\n<li><strong>Flexibility</strong>. <a href=\"https://github.com/randyburden/Slapper.AutoMapper\" rel=\"noreferrer\">Slapper.Automapper</a> handles arbitrarily nested hierarchies, it isn't limited to a couple of levels of nesting. We can easily make rapid changes, and everything will still work.</li>\n<li><strong>Debugging</strong>. We can first see that the SQL query is working properly, then we can check that the SQL query result is properly mapped back to the target POCO Entities.</li>\n<li><strong>Ease of development in SQL</strong>. I find that creating flattened queries with <code>inner joins</code> to return flat results is much easier than creating multiple select statements, with stitching on the client side.</li>\n<li><strong>Optimized queries in SQL</strong>. In a highly normalized database, creating a flat query allows the SQL engine to apply advanced optimizations to the whole which would not normally be possible if many small individual queries were constructed and run.</li>\n<li><strong>Trust</strong>. Dapper is the back end for StackOverflow, and, well, Randy Burden is a bit of a superstar. Need I say any more?</li>\n<li><strong>Speed of development.</strong> I was able to do some extraordinarily complex queries, with many levels of nesting, and the dev time was quite low.</li>\n<li><strong>Fewer bugs.</strong> I wrote it once, it just worked, and this technique is now helping to power a FTSE company. There was so little code that there was no unexpected behavior.</li>\n</ul>\n\n<h3>Disadvantages</h3>\n\n<ul>\n<li><strong>Scaling beyond 1,000,000 rows returned.</strong> Works well when returning &lt; 100,000 rows. However, if we are bringing back >1,000,000 rows, in order to reduce the traffic between us and SQL server, we should not flatten it out using <code>inner join</code> (which brings back duplicates), we should instead use multiple <code>select</code> statements and stitch everything back together on the client side (see the other answers on this page).</li>\n<li><strong>This technique is query oriented</strong>. I haven't used this technique to write to the database, but I'm sure that Dapper is more than capable of doing this with some more extra work, as StackOverflow itself uses Dapper as its Data Access Layer (DAL).</li>\n</ul>\n\n<h1>Performance Testing</h1>\n\n<p>In my tests, <a href=\"https://github.com/randyburden/Slapper.AutoMapper\" rel=\"noreferrer\">Slapper.Automapper</a> added a small overhead to the results returned by Dapper, which meant that it was still 10x faster than Entity Framework, and <strong>the combination is still pretty darn close to the theoretical maximum speed SQL + C# is capable of</strong>.</p>\n\n<p>In most practical cases, most of the overhead would be in a less-than-optimum SQL query, and not with some mapping of the results on the C# side.</p>\n\n<h3>Performance Testing Results</h3>\n\n<p>Total number of iterations: 1000</p>\n\n<ul>\n<li><code>Dapper by itself</code>: <strong>1.889</strong> milliseconds per query, using <code>3 lines of code to return the dynamic</code>.</li>\n<li><code>Dapper + Slapper.Automapper</code>: <strong>2.463</strong> milliseconds per query, using an additional <code>3 lines of code for the query + mapping from dynamic to POCO Entities</code>.</li>\n</ul>\n\n<h1>Worked Example</h1>\n\n<p>In this example, we have list of <code>Contacts</code>, and each <code>Contact</code> can have one or more <code>phone numbers</code>.</p>\n\n<h2>POCO Entities</h2>\n\n<pre><code>public class TestContact\n{\n    public int ContactID { get; set; }\n    public string ContactName { get; set; }\n    public List&lt;TestPhone&gt; TestPhones { get; set; }\n}\n\npublic class TestPhone\n{\n    public int PhoneId { get; set; }\n    public int ContactID { get; set; } // foreign key\n    public string Number { get; set; }\n}\n</code></pre>\n\n<h2>SQL Table <code>TestContact</code></h2>\n\n<p><img src=\"https://i.sstatic.net/SDfIL.png\" alt=\"enter image description here\"></p>\n\n<h2>SQL Table <code>TestPhone</code></h2>\n\n<p>Note that this table has a foreign key <code>ContactID</code> which refers to the <code>TestContact</code> table (this corresponds to the <code>List&lt;TestPhone&gt;</code> in the POCO above).</p>\n\n<p><img src=\"https://i.sstatic.net/L2yz2.png\" alt=\"enter image description here\"></p>\n\n<h2>SQL Which Produces Flat Result</h2>\n\n<p>In our SQL query, we use as many <code>JOIN</code> statements as we need to get all of the data we need, in a <a href=\"http://en.wikipedia.org/wiki/Denormalization\" rel=\"noreferrer\">flat, denormalized form</a>. Yes, this might produce duplicates in the output, but these duplicates will be eliminated automatically when we use <a href=\"https://github.com/randyburden/Slapper.AutoMapper\" rel=\"noreferrer\">Slapper.Automapper</a> to automatically map the result of this query straight into our POCO object map.</p>\n\n<pre><code>USE [MyDatabase];\n    SELECT tc.[ContactID] as ContactID\n          ,tc.[ContactName] as ContactName\n          ,tp.[PhoneId] AS TestPhones_PhoneId\n          ,tp.[ContactId] AS TestPhones_ContactId\n          ,tp.[Number] AS TestPhones_Number\n          FROM TestContact tc\n    INNER JOIN TestPhone tp ON tc.ContactId = tp.ContactId\n</code></pre>\n\n<p><img src=\"https://i.sstatic.net/ORpKf.png\" alt=\"enter image description here\"></p>\n\n<h2>C# code</h2>\n\n<pre><code>const string sql = @\"SELECT tc.[ContactID] as ContactID\n          ,tc.[ContactName] as ContactName\n          ,tp.[PhoneId] AS TestPhones_PhoneId\n          ,tp.[ContactId] AS TestPhones_ContactId\n          ,tp.[Number] AS TestPhones_Number\n          FROM TestContact tc\n    INNER JOIN TestPhone tp ON tc.ContactId = tp.ContactId\";\n\nstring connectionString = // -- Insert SQL connection string here.\n\nusing (var conn = new SqlConnection(connectionString))\n{\n    conn.Open();    \n    // Can set default database here with conn.ChangeDatabase(...)\n    {\n        // Step 1: Use Dapper to return the  flat result as a Dynamic.\n        dynamic test = conn.Query&lt;dynamic&gt;(sql);\n\n        // Step 2: Use Slapper.Automapper for mapping to the POCO Entities.\n        // - IMPORTANT: Let Slapper.Automapper know how to do the mapping;\n        //   let it know the primary key for each POCO.\n        // - Must also use underscore notation (\"_\") to name parameters in the SQL query;\n        //   see Slapper.Automapper docs.\n        Slapper.AutoMapper.Configuration.AddIdentifiers(typeof(TestContact), new List&lt;string&gt; { \"ContactID\" });\n        Slapper.AutoMapper.Configuration.AddIdentifiers(typeof(TestPhone), new List&lt;string&gt; { \"PhoneID\" });\n\n        var testContact = (Slapper.AutoMapper.MapDynamic&lt;TestContact&gt;(test) as IEnumerable&lt;TestContact&gt;).ToList();      \n\n        foreach (var c in testContact)\n        {                               \n            foreach (var p in c.TestPhones)\n            {\n                Console.Write(\"ContactName: {0}: Phone: {1}\\n\", c.ContactName, p.Number);   \n            }\n        }\n    }\n}\n</code></pre>\n\n<h2>Output</h2>\n\n<p><img src=\"https://i.sstatic.net/PxnmA.png\" alt=\"enter image description here\"></p>\n\n<h2>POCO Entity Hierarchy</h2>\n\n<p>Looking in Visual Studio, We can see that Slapper.Automapper has properly populated our POCO Entities, i.e. we have a <code>List&lt;TestContact&gt;</code>, and each <code>TestContact</code> has a <code>List&lt;TestPhone&gt;</code>.</p>\n\n<p><img src=\"https://i.sstatic.net/enl7h.png\" alt=\"enter image description here\"></p>\n\n<h2>Notes</h2>\n\n<p>Both Dapper and Slapper.Automapper cache everything internally for speed. If you run into memory issues (very unlikely), ensure that you occasionally clear the cache for both of them.</p>\n\n<p>Ensure that you name the columns coming back, using the <a href=\"https://github.com/randyburden/Slapper.AutoMapper\" rel=\"noreferrer\">underscore (<code>_</code>) notation</a> to give Slapper.Automapper clues on how to map the result into the POCO Entities.</p>\n\n<p>Ensure that you give Slapper.Automapper clues on the primary key for each POCO Entity (see the lines <code>Slapper.AutoMapper.Configuration.AddIdentifiers</code>). You can also use <code>Attributes</code> on the POCO for this. If you skip this step, then it could go wrong (in theory), as Slapper.Automapper would not know how to do the mapping properly.</p>\n\n<h2>Update 2015-06-14</h2>\n\n<p>Successfully applied this technique to a huge production database with over 40 normalized tables. It worked perfectly to map an advanced SQL query with over 16 <code>inner join</code> and <code>left join</code> into the proper POCO hierarchy (with 4 levels of nesting). The queries are blindingly fast, almost as fast as hand coding it in ADO.NET (it was typically 52 milliseconds for the query, and 50 milliseconds for the mapping from the flat result into the POCO hierarchy). This is really nothing revolutionary, but it sure beats Entity Framework for speed and ease of use, especially if all we are doing is running queries.</p>\n\n<h2>Update 2016-02-19</h2>\n\n<p>Code has been running flawlessly in production for 9 months. The latest version of <code>Slapper.Automapper</code> has all of the changes that I applied to fix the issue related to nulls being returned in the SQL query.</p>\n\n<h2>Update 2017-02-20</h2>\n\n<p>Code has been running flawlessly in production for 21 months, and has handled continuous queries from hundreds of users in a FTSE 250 company.</p>\n\n<p><code>Slapper.Automapper</code> is also great for mapping a .csv file straight into a list of POCOs. Read the .csv file into a list of IDictionary, then map it straight into the target list of POCOs. The only trick is that you have to add a propery <code>int Id {get; set}</code>, and make sure it's unique for every row (or else the automapper won't be able to distinguish between the rows).</p>\n\n<h2>Update 2019-01-29</h2>\n\n<p>Minor update to add more code comments.</p>\n\n<p>See: <a href=\"https://github.com/SlapperAutoMapper/Slapper.AutoMapper\" rel=\"noreferrer\">https://github.com/SlapperAutoMapper/Slapper.AutoMapper</a></p>\n",
+      "owner": {
+        "display_name": "Contango",
+        "link": "https://stackoverflow.com/users/107409/contango"
+      }
+    },
+    {
+      "answer_id": 6317983,
+      "body": "<p>Have you tried the <code>QueryMultiple</code> method?  It says it should:</p>\n\n<blockquote>\n  <p>Execute a command that returns\n  multiple result sets, and access each\n  in turn</p>\n</blockquote>\n\n<p>You'll need to add this using statement to enable QueryMultiple .</p>\n\n<pre><code>using Dapper; /* to add extended method QueryMultiple public static GridReader QueryMultiple(this IDbConnection cnn, string sql, object param = null, IDbTransaction transaction = null, int? commandTimeout = null, CommandType? commandType = null); */\n</code></pre>\n",
+      "owner": {
+        "display_name": "Andomar",
+        "link": "https://stackoverflow.com/users/50552/andomar"
+      }
+    },
+    {
+      "answer_id": 11056526,
+      "body": "<p>Dapper itself provides few extension methods (Query, Execute) for the connection object and does not have \"model generator.\" Perhaps some other framework can be used to generate POCO's based on the db schema.</p>\n\n<p><strong>Update:</strong></p>\n\n<p><a href=\"http://teamyudin.blogspot.com/2012/06/database-tables-to-c-poco-classes-t4.html\" rel=\"nofollow noreferrer\">Database tables to C# POCO classes T4 template</a></p>\n\n<blockquote>\n<pre><code>&lt;#@ template language=\"C#\" debug=\"True\" #&gt;\n\n&lt;#@ assembly name=\"System\" #&gt;\n&lt;#@ assembly name=\"System.Data\" #&gt;\n&lt;#@ assembly name=\"System.Core\" #&gt;\n&lt;#@ assembly name=\"System.Xml\" #&gt;\n\n&lt;#@ assembly name=\"Microsoft.SqlServer.ConnectionInfo\" #&gt;\n&lt;#@ assembly name=\"Microsoft.SqlServer.Management.Sdk.Sfc\" #&gt;\n&lt;#@ assembly name=\"Microsoft.SqlServer.Smo\" #&gt;\n\n&lt;#@ import namespace=\"System\" #&gt;\n&lt;#@ import namespace=\"System.Text\" #&gt;\n&lt;#@ import namespace=\"System.Xml\" #&gt;\n&lt;#@ import namespace=\"Microsoft.SqlServer.Management.Smo\" #&gt;\n&lt;#@ import namespace=\"System.Data.SqlClient\" #&gt;\n&lt;#@ import namespace=\"Microsoft.SqlServer.Management.Common\" #&gt;\n\nnamespace Namespace\n{\n\n&lt;#         \n   var databaseName = \"testDb\";\n            var serverConnection = new SqlConnection(\n                    @\"Data Source=.\\SQLEXPRESS; Integrated Security=true; Initial Catalog=\" + databaseName);\n            var svrConnection = new ServerConnection(serverConnection);\n\n   Server srv = new Server(svrConnection);\n            foreach (Table table in srv.Databases[databaseName].Tables)\n            {\n\n#&gt;\n        class &lt;#= table.Name #&gt;\n        {\n            &lt;#\n                foreach (Column col in table.Columns)\n                {\n                #&gt;\n                    public &lt;#= GetNetDataType(col.DataType.Name) #&gt; &lt;#= col.Name #&gt; { get; set; }\n                &lt;#\n                }\n             #&gt;\n        }\n\n&lt;#            }\n#&gt;\n}\n\n\n\n&lt;#+\n        public static string GetNetDataType(string sqlDataTypeName)\n        {\n\n            switch (sqlDataTypeName.ToLower())\n            {\n                case \"bigint\":\n                    return \"Int64\";\n                case \"binary\":\n                    return \"Byte[]\";\n                case \"bit\":\n                    return \"bool\";\n                case \"char\":\n                    return \"char\";\n                case \"cursor\":\n                    return string.Empty;\n                case \"datetime\":\n                    return \"DateTime\";\n                case \"decimal\":\n                    return \"Decimal\";\n                case \"float\":\n                    return \"Double\";\n                case \"int\":\n                    return \"int\";\n                case \"money\":\n                    return \"Decimal\";\n                case \"nchar\":\n                    return \"string\";\n                case \"numeric\":\n                    return \"Decimal\";\n                case \"nvarchar\":\n                    return \"string\";\n                case \"real\":\n                    return \"single\";\n                case \"smallint\":\n                    return \"Int16\";\n                case \"text\":\n                    return \"string\";\n                case \"tinyint\":\n                    return \"Byte\";\n                case \"varbinary\":\n                    return \"Byte[]\";\n                case \"xml\":\n                    return \"string\";\n                case \"varchar\":\n                    return \"string\";\n                case \"smalldatetime\":\n                    return \"DateTime\";\n                case \"image\":\n                    return \"byte[]\";\n\n                default:\n                    return string.Empty;\n            }\n\n\n\n        }\n#&gt;\n</code></pre>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Void Ray",
+        "link": "https://stackoverflow.com/users/1460042/void-ray"
+      }
+    },
+    {
+      "answer_id": 31047547,
+      "body": "<p>In a project I worked on I saw something like this to get more than 7 types mapped. We used Dapper 1.38:</p>\n<pre><code>connection.Query&lt;TypeOfYourResult&gt;\n(\n   queryString,\n   new[]\n   {\n      typeof(TypeOfArgument1),\n      typeof(TypeOfArgument2),\n      ...,\n      typeof(TypeOfArgumentN)\n   },\n   objects =&gt;\n   {\n      TypeOfArgument1 arg1 = objects[0] as TypeOfArgument1;\n      TypeOfArgument2 arg2 = objects[1] as TypeOfArgument2;\n      ...\n      TypeOfArgumentN argN = objects[N] as TypeOfArgumentN;\n\n     // do your processing here, e.g. arg1.SomeField = arg2, etc.\n     // also initialize your result\n\n     var result = new TypeOfYourResult(...)\n\n     return result;\n   },\n   parameters,\n   splitOn: &quot;arg1_ID,arg2_ID, ... ,argN_ID&quot;\n);\n</code></pre>\n<p>The queryString is self-explanatory. The splitOn parameter says how Dapper should split the columns from the SELECT statement so that everything can be mapped properly to the objects,\n<a href=\"https://www.tritac.com/blog/dappernet-by-example/\" rel=\"noreferrer\">you can read about it here</a>.</p>\n",
+      "owner": {
+        "display_name": "Radek",
+        "link": "https://stackoverflow.com/users/1670921/radek"
+      }
+    },
+    {
+      "answer_id": 10933405,
+      "body": "<p>Add OPTION (RECOMPILE) to the end</p>\n\n<pre><code>... AND SensorValue != -32767 OPTION (RECOMPILE) \n</code></pre>\n\n<p>I suspect you are experiencing \"parameter sniffing\"</p>\n\n<p>If that's the case we can leave it with the OPTION or consider alternatives</p>\n\n<p><strong>Update 1</strong></p>\n\n<p>The following article will introduce you to \"parameter sniffing\" <a href=\"http://pratchev.blogspot.be/2007/08/parameter-sniffing.html\" rel=\"noreferrer\">http://pratchev.blogspot.be/2007/08/parameter-sniffing.html</a> </p>\n\n<p>I advice that you get to know the ins and out because it will make you much better in understanding sql server internals (that can bite). </p>\n\n<p>If you understand it you will know that the tradeoff with option recompile <em>can</em> be a performance decrease if the statement is executed <em>very</em> often. </p>\n\n<p>I personally add option recompile <em>after</em> I know the root cause is parameter sniffing and leave it in unless there is a performance issue. Rewriting a statement to avoid bad parameter sniffing leads to loss of intent and this lowers maintainability. But there are cases when the rewrite is justified (use good comments when you do).</p>\n\n<p><strong>Update 2</strong></p>\n\n<p>The best read I had on the subject was in chapter 32 called\n\"Parameter sniffing: your best friend... except when it isn't by \" by GRANT FRITCHEY</p>\n\n<p>It's recommended.</p>\n\n<p><a href=\"https://rads.stackoverflow.com/amzn/click/com/1617290475\" rel=\"noreferrer\" rel=\"nofollow noreferrer\">SQL Server MVP Deep Dives, Volume 2</a></p>\n",
+      "owner": {
+        "display_name": "buckley",
+        "link": "https://stackoverflow.com/users/381995/buckley"
+      }
+    },
+    {
+      "answer_id": 5971847,
+      "body": "<p>In the simple case you can do: </p>\n\n<pre><code>var user = cnn.Query&lt;User&gt;(\"spGetUser\", new {Id = 1}, \n        commandType: CommandType.StoredProcedure).First();\n</code></pre>\n\n<p>If you want something more fancy, you can do:</p>\n\n<pre><code> var p = new DynamicParameters();\n p.Add(\"@a\", 11);\n p.Add(\"@b\", dbType: DbType.Int32, direction: ParameterDirection.Output);\n p.Add(\"@c\", dbType: DbType.Int32, direction: ParameterDirection.ReturnValue);\n\n cnn.Execute(\"spMagicProc\", p, commandType: CommandType.StoredProcedure); \n\n int b = p.Get&lt;int&gt;(\"@b\");\n int c = p.Get&lt;int&gt;(\"@c\"); \n</code></pre>\n\n<p>Additionally you can use exec in a batch, but that is more clunky.</p>\n",
+      "owner": {
+        "display_name": "Sam Saffron",
+        "link": "https://stackoverflow.com/users/17174/sam-saffron"
+      }
+    },
+    {
+      "answer_id": 6903921,
+      "body": "<p>I have found the problem - I was simply missing the transaction param when I was calling the updates, whereas with the previous inserts that were working fine, I had included the <code>IDbTransaction</code> param! My bad!</p>\n\n<p>Example:</p>\n\n<pre><code>Connection.Query&lt;Entitiy&gt;(\"sqlQuery\",param: new { id= ID}, transaction: Transaction)\n</code></pre>\n",
+      "owner": {
+        "display_name": "marcusstarnes",
+        "link": "https://stackoverflow.com/users/197415/marcusstarnes"
+      }
+    },
+    {
+      "answer_id": 47794463,
+      "body": "<p><code>AsList</code> is a custom Dapper extension method. All it does is checks if <code>IEnumerable&lt;T&gt;</code> you pass to it is really <code>List&lt;T&gt;</code>. If it is - it returns it back, just casts to <code>List&lt;T&gt;</code>. If it's not - it calls regular <code>ToList</code>. The point is - <code>ToList()</code> always creates a copy, even if what you pass to it is already a list. <code>AsList()</code> method avoids doing this copy, and so is useful if such copy is unnecessary.</p>\n\n<p>In this specific scenario, you have the following code:</p>\n\n<pre><code>multipleresult.Read&lt;MerchantProduct&gt;()\n</code></pre>\n\n<p>where <code>multipleresult</code> is <code>GridReader</code>. <code>Read</code> has <code>buffered</code> argument which is true by default. When its true - <code>Read</code> will really return <code>List&lt;T&gt;</code>, so by calling <code>ToList</code> you will copy that list again without much reason.</p>\n\n<p>The same is true for <code>IDbConnection.Query()</code> - is also has <code>buffered</code> parameter, which is true by default, so it will also by default return <code>List&lt;T&gt;</code>.</p>\n\n<p>If you prefer to use <code>ToList()</code> - you can pass <code>buffered: false</code> to <code>Query()</code> or <code>Read()</code> to avoid creating that additional copy.</p>\n",
+      "owner": {
+        "display_name": "Evk",
+        "link": "https://stackoverflow.com/users/5311735/evk"
+      }
+    },
+    {
+      "answer_id": 8795387,
+      "body": "<p>Yes, there are multiple versions of the Execute function. One (or more) of them contains the commandTimeout parameters:</p>\n\n<pre><code>public static int Execute(this IDbConnection cnn, string sql, \n                dynamic param = null, IDbTransaction transaction = null, \n                            int? commandTimeout = null, CommandType? commandType = null)\n</code></pre>\n\n<p>Taken from <a href=\"https://github.com/StackExchange/Dapper/blob/master/Dapper/SqlMapper.cs#L440\" rel=\"noreferrer\">SqlMapper.cs</a></p>\n",
+      "owner": {
+        "display_name": "jzacharuk",
+        "link": "https://stackoverflow.com/users/1135156/jzacharuk"
+      }
+    },
+    {
+      "answer_id": 17150843,
+      "body": "<p>You'd have to do it a little differently. In Dapper, it matches on convention AKA property or field names being identical to SQL parameters. So, assuming you had a <code>MyObject</code>:</p>\n\n<pre><code>public class MyObject\n{\n    public int A { get; set; }\n\n    public string B { get; set; }\n}\n</code></pre>\n\n<p>And assuming <code>processList = List&lt;MyObject&gt;</code>, You'd want to do this</p>\n\n<pre><code>foreach (var item in processList)\n{\n    string processQuery = \"INSERT INTO PROCESS_LOGS VALUES (@A, @B)\";        \n    connection.Execute(processQuery, item);\n}\n</code></pre>\n\n<p>Note that the <code>MyObject</code> property names A and B match the SQL parameter names @A and @B.</p>\n\n<p>If you don't want to rename objects, you can use anonymous types to do the mappings instead of concrete types:</p>\n\n<pre><code>foreach (var item in processList)\n{\n    string processQuery = \"INSERT INTO PROCESS_LOGS VALUES (@A, @B)\";        \n    connection.Execute(processQuery, new { A = item.A, B = item.B });\n}\n</code></pre>\n\n<p><strong>EDIT:</strong></p>\n\n<p>Per Marc Gravell's comment, you can also have Dapper do the loop for you:</p>\n\n<pre><code>string processQuery = \"INSERT INTO PROCESS_LOGS VALUES (@A, @B)\";        \nconnection.Execute(processQuery, processList);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Haney",
+        "link": "https://stackoverflow.com/users/2420979/haney"
+      }
+    },
+    {
+      "answer_id": 44162556,
+      "body": "<p>You can declare dynamic params with direction: ReturnValue\nYou can also use \"select\" instead of \"return\" and use <code>Query&lt;T&gt;</code> extension.</p>\n\n<pre><code>create procedure sp_foo\n    as\n    begin\n        return 99\n    end\n\n[Test]\npublic void TestStoredProcedure()\n{\n    using (var conn = new SqlConnection(@\"Data Source=.\\sqlexpress;Integrated Security=true; Initial Catalog=foo\"))\n    {\n        var p = new DynamicParameters();\n        p.Add(\"@foo\", dbType: DbType.Int32, direction: ParameterDirection.ReturnValue);\n\n        conn.Execute(\"sp_foo\", p, commandType: CommandType.StoredProcedure);\n\n        var b = p.Get&lt;int&gt;(\"@foo\");\n\n        Assert.That(b, Is.EqualTo(99));\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Void Ray",
+        "link": "https://stackoverflow.com/users/1460042/void-ray"
+      }
+    },
+    {
+      "answer_id": 20492384,
+      "body": "<p>You can do something like this (see <a href=\"https://www.tritac.com/blog/dappernet-by-example\" rel=\"noreferrer\">https://www.tritac.com/blog/dappernet-by-example</a>):</p>\n\n<pre><code>public class Shop {\n  public int? Id {get;set;}\n  public string Name {get;set;}\n  public string Url {get;set;}\n  public IList&lt;Account&gt; Accounts {get;set;}\n}\n\npublic class Account {\n  public int? Id {get;set;}\n  public string Name {get;set;}\n  public string Address {get;set;}\n  public string Country {get;set;}\n  public int ShopId {get;set;}\n}\n\nvar lookup = new Dictionary&lt;int, Shop&gt;()\nconn.Query&lt;Shop, Account, Shop&gt;(@\"\n                SELECT s.*, a.*\n                FROM Shop s\n                INNER JOIN Account a ON s.ShopId = a.ShopId                    \n                \", (s, a) =&gt; {\n                     Shop shop;\n                     if (!lookup.TryGetValue(s.Id, out shop)) {\n                         lookup.Add(s.Id, shop = s);\n                     }\n                     if (shop.Accounts == null) \n                         shop.Accounts = new List&lt;Account&gt;();\n                     shop.Accounts.Add(a);\n                     return shop;\n                 }\n                 ).AsQueryable();\nvar resultList = lookup.Values;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jeroen K",
+        "link": "https://stackoverflow.com/users/989451/jeroen-k"
+      }
+    },
+    {
+      "answer_id": 43582060,
+      "body": "<p>Please take a look at a project that i recently uploaded on GitHub - <a href=\"https://github.com/giorgos07/Daarto\" rel=\"noreferrer\">https://github.com/giorgos07/Daarto</a> It's exactly what you need.</p>\n",
+      "owner": {
+        "display_name": "Giorgos Manoltzas",
+        "link": "https://stackoverflow.com/users/1064481/giorgos-manoltzas"
+      }
+    },
+    {
+      "answer_id": 8904096,
+      "body": "<p>This works fine:</p>\n\n<pre><code>var sql = @\"select top 1 person_id PersonId, first_name FirstName, last_name LastName from Person\";\nusing (var conn = ConnectionFactory.GetConnection())\n{\n    var person = conn.Query&lt;Person&gt;(sql).ToList();\n    return person;\n}\n</code></pre>\n\n<p>Dapper has no facility that allows you to specify a <a href=\"http://msdn.microsoft.com/en-us/library/system.data.linq.mapping.columnattribute.aspx\" rel=\"noreferrer\">Column Attribute</a>, I am not against adding support for it, providing we do not pull in the dependency. </p>\n",
+      "owner": {
+        "display_name": "Sam Saffron",
+        "link": "https://stackoverflow.com/users/17174/sam-saffron"
+      }
+    },
+    {
+      "answer_id": 7108468,
+      "body": "<p>I think oracle has a different schema for named parameter, did you try <code>:a</code> instead of <code>@a</code>?</p>\n",
+      "owner": {
+        "display_name": "mrt181",
+        "link": "https://stackoverflow.com/users/114798/mrt181"
+      }
+    },
+    {
+      "answer_id": 13293614,
+      "body": "<p>Ah, I think I see what you mean...</p>\n\n<p>Yes, there is a scenario we support for <code>Execute</code> that isn't supported for Query, specifically: to run the same operation sequentially with a range of different parameter values. This makes sense for <code>Execute</code>, but for query it probably means you should be looking at a different query using <code>in</code>. Alternatively, just loop and concat.</p>\n\n<p>Instead, it is looking at the single parameter object and looking for public values - an enumerable doesn't have any suitable parameter values for dapper.</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 42957944,
+      "body": "<p>Sure, a function to create and dispose your Connection will work great.</p>\n\n<pre><code>protected void Execute(Action&lt;IDbConnection&gt; query)\n{\n    using (IDbConnection db = new SqlConnection(ConfigurationManager.ConnectionStrings[\"myDB\"].ConnectionString))\n    {\n        query.Invoke(db);\n    }\n}\n</code></pre>\n\n<p>And your simplified call site:</p>\n\n<pre><code>public void SaveCustomer(CustomerDTO custDTO)\n{\n    Execute(db =&gt; db.Execute(saveCustSp, custDTO, CommandType.StoredProcedure));\n}\n</code></pre>\n\n<hr>\n\n<p>With Return Values:</p>\n\n<pre><code>public T Get&lt;T&gt;(Func&lt;IDbConnection, T&gt; query)\n{\n    using (IDbConnection db = new SqlConnection(ConfigurationManager.ConnectionStrings[\"myDB\"].ConnectionString))\n    {\n        return query.Invoke(db); \n    }\n}\n</code></pre>\n\n<p>In your call site, just write the logic you wish to use.</p>\n\n<pre><code>public IEnumerable&lt;EmployeeDTO&gt; GetEmployeeDetails(int employeeId)\n{\n    return Get&lt;IEnumerable&lt;EmployeeDTO&gt;(db =&gt; \n        db.Query&lt;EmployeeDTO&gt;(anotherSp, new { EmployeeID = employeeId }, CommandType.StoredProcedure));\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Silas Reinagel",
+        "link": "https://stackoverflow.com/users/4009517/silas-reinagel"
+      }
+    },
+    {
+      "answer_id": 42938032,
+      "body": "<p>If you provide SQL connection as singleton you won't be able to serve multiple requests at the same time unless you enable MARS, which also has it's limitations. Best practice is to use transient SQL connection and ensure it is properly disposed.</p>\n\n<p>In my applications I pass custom <code>IDbConnectionFactory</code> to repositories which is used to create connection inside <code>using</code> statement. In this case repository itself can be singleton to reduce allocations on heap.</p>\n",
+      "owner": {
+        "display_name": "Andrii Litvinov",
+        "link": "https://stackoverflow.com/users/2138959/andrii-litvinov"
+      }
+    },
+    {
+      "answer_id": 42247318,
+      "body": "<p>There is a merged PR on this topic from Sep 2014:</p>\n\n<p><a href=\"https://github.com/StackExchange/Dapper/pull/158/files\" rel=\"noreferrer\">https://github.com/StackExchange/Dapper/pull/158/files</a></p>\n\n<p>The PR added methods where you can pass an array of Types. So the limitation to 7 entities does not exist anymore on these methods.</p>\n\n<p>This is a Code Test from the Dapper Repo showing how to use one of these new methods:</p>\n\n<pre><code>public async Task TestMultiMapArbitraryWithSplitAsync()\n    {\n        const string sql = @\"select 1 as id, 'abc' as name, 2 as id, 'def' as name\";\n        var productQuery = await connection.QueryAsync&lt;Product&gt;(sql, new[] { typeof(Product), typeof(Category) }, (objects) =&gt; {\n            var prod = (Product)objects[0];\n            prod.Category = (Category)objects[1];\n            return prod;\n        });\n\n        var product = productQuery.First();\n        // assertions\n        product.Id.IsEqualTo(1);\n        product.Name.IsEqualTo(\"abc\");\n        product.Category.Id.IsEqualTo(2);\n        product.Category.Name.IsEqualTo(\"def\");\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Hejo",
+        "link": "https://stackoverflow.com/users/5493171/hejo"
+      }
+    },
+    {
+      "answer_id": 40218091,
+      "body": "<p>You can use the <code>ExplicitKey</code> attribute as per <a href=\"https://github.com/StackExchange/dapper-dot-net/issues/351\" rel=\"noreferrer\">this issue</a>.</p>\n\n<pre><code>public class Foo\n{\n    [ExplicitKey]\n    public int Id { get; set; }\n\n    public string Name { get; set; }\n}\n</code></pre>\n\n<p>Note that the return value is <strong>not</strong> the id of the inserted item as it usually is when you call <code>Insert</code> but is instead always <code>0</code>.</p>\n",
+      "owner": {
+        "display_name": "petelids",
+        "link": "https://stackoverflow.com/users/3791802/petelids"
+      }
+    },
+    {
+      "answer_id": 39730278,
+      "body": "<p>Adding this answer for anyone else who comes looking for a simple fix. This is possible now with the addition of SqlMapper.TypeHandler in Dapper. </p>\n\n<p>Add this class to convert the value from the db to a datetime with the kind specified as UTC.</p>\n\n<pre><code>public class DateTimeHandler : SqlMapper.TypeHandler&lt;DateTime&gt;\n{\n    public override void SetValue(IDbDataParameter parameter, DateTime value)\n    {\n        parameter.Value = value;\n    }\n\n    public override DateTime Parse(object value)\n    {\n        return DateTime.SpecifyKind((DateTime)value, DateTimeKind.Utc);\n    }\n}\n</code></pre>\n\n<p>Then in my Global.asax file of my Web API I add the type handler to dapper.</p>\n\n<pre><code>SqlMapper.AddTypeHandler(new DateTimeHandler());\n</code></pre>\n\n<p>If you need to ensure you are always inserting dates as UTC, then on the SetValue method you can use:</p>\n\n<pre><code>parameter.Value = DateTime.SpecifyKind(value, DateTimeKind.Utc);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Matt Jenkins",
+        "link": "https://stackoverflow.com/users/4052232/matt-jenkins"
+      }
+    },
+    {
+      "answer_id": 6030564,
+      "body": "<p>Try: </p>\n\n<pre><code>term = \"whateverterm\";\nvar encodeForLike = term =&gt; term.Replace(\"[\", \"[[]\").Replace(\"%\", \"[%]\");\n\nstring term = \"%\" + encodeForLike(term) + \"%\";\nvar data = conn.Query(@\"\n   select top 25 \n  Term as Label, \n  Type, \n  ID \n  from SearchTerms \n  WHERE Term like @term\", \n  new { term });\n</code></pre>\n\n<p>There is nothing special about like operators, you never want your params inside string literals, they will not work, instead they will be interpreted as a string.</p>\n\n<p><strong>note</strong></p>\n\n<p>The hard-coded example in your second snippet is strongly discouraged, besides being a huge problem with sql injection, it can cause dapper to leak. </p>\n\n<p><strong>caveat</strong> </p>\n\n<p>Any <code>like</code> match that is leading with a wildcard is not SARGable, which means it is slow and will require an index scan. </p>\n",
+      "owner": {
+        "display_name": "Sam Saffron",
+        "link": "https://stackoverflow.com/users/17174/sam-saffron"
+      }
+    },
+    {
+      "answer_id": 39023427,
+      "body": "<pre><code>int id = ...\nvar exists = conn.ExecuteScalar&lt;bool&gt;(\"select count(1) from Table where Id=@id\", new {id});\n</code></pre>\n\n<p>should work...</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 38869459,
+      "body": "<p>Firstly, one of the authors of Dapper said, when someone asked</p>\n\n<blockquote>\n  <p>Is there a plan to make Dapper.net compatible with IQueryable interfaces?</p>\n</blockquote>\n\n<p>that</p>\n\n<blockquote>\n  <p>there are no plans to do this. It is far far outside what dapper tries to do. So far that I would say it is antithetical. Dapper core tries to be the friend to those who love their SQL.</p>\n</blockquote>\n\n<p>(see <a href=\"https://stackoverflow.com/a/27588877/3813189\">https://stackoverflow.com/a/27588877/3813189</a>).</p>\n\n<p>In a way, that does suggest that the various extension packages to NuGet may help, as you have suggested.</p>\n\n<p>I have tried <a href=\"https://github.com/tmsmith/Dapper-Extensions\" rel=\"noreferrer\">DapperExtensions</a>, which makes writing the query filters in a programmatic way a little easier - eg.</p>\n\n<pre><code>using System.Data.SqlClient;\nusing DapperExtensions;\n\nnamespace StackOverflowAnswer\n{\n    class Program\n    {\n        static void Main(string[] args)\n        {\n            using (var cn = new SqlConnection(\"Server=.;Database=NORTHWND;Trusted_Connection=True;\"))\n            {\n                var list = cn.GetList&lt;Products&gt;(\n                    Predicates.Field&lt;Products&gt;(f =&gt; f.Discontinued, Operator.Eq, false)\n                );\n            }\n        }\n\n        class Products\n        {\n            public int ProductId { get; set; }\n            public string ProductName { get; set; }\n            public bool Discontinued { get; set; }\n        }\n    }\n}\n</code></pre>\n\n<p>I also tried <a href=\"https://github.com/ryanwatson/Dapper.Extensions.Linq\" rel=\"noreferrer\">Dapper.Extensions.Linq</a> (the package you suggested), which promises to</p>\n\n<blockquote>\n  <p>builds on this providing advanced DB access through Linq queries. The fluid configuration makes setup simplistic and quick.</p>\n</blockquote>\n\n<p>Unfortunately, I also couldn't get very far with it. There isn't much documentation and the tests don't seem to cover the QueryBuilder, which is what appears to be the class to use to translate Linq Expressions into the Dapper Extensions predicates (as suggested by the issue <a href=\"https://github.com/ryanwatson/Dapper.Extensions.Linq/pull/1\" rel=\"noreferrer\">Parsing boolean expressions with the QueryBuilder</a>). I tried the following, which required add the IEntity interface to my DTO -</p>\n\n<pre><code>using System;\nusing System.Data.SqlClient;\nusing System.Linq.Expressions;\nusing Dapper.Extensions.Linq.Builder;\nusing Dapper.Extensions.Linq.Core;\nusing DapperExtensions;\n\nnamespace StackOverflowAnswer\n{\n    class Program\n    {\n        static void Main(string[] args)\n        {\n            using (var cn = new SqlConnection(\"Server=.;Database=NORTHWND;Trusted_Connection=True;\"))\n            {\n                Expression&lt;Func&lt;Products, bool&gt;&gt; filter = p =&gt; !p.Discontinued;\n                var queryFilter = QueryBuilder&lt;Products&gt;.FromExpression(filter);\n\n                var list = cn.GetList&lt;Products&gt;(\n                    queryFilter\n                );\n            }\n        }\n\n        class Products : IEntity\n        {\n            public int ProductId { get; set; }\n            public string ProductName { get; set; }\n            public bool Discontinued { get; set; }\n        }\n    }\n}\n</code></pre>\n\n<p>.. but it failed at runtime with the error</p>\n\n<blockquote>\n  <p>Operator was not found for StackOverflowAnswer.Program+Products</p>\n</blockquote>\n\n<p>I'm not sure why generating the Predicate manually (the first example) works but the QueryBuilder doesn't..</p>\n\n<p>I would say that it's increasingly looking like the comments left on your question are correct, that you will need to re-work your code away from the expressions that you used with Entity Framework. Since it's been so difficult to find any information about this QueryBuilder class, I would be concerned that (even if you did get it working) any issues that you encountered would be difficult to get help for (and bugs may go unfixed).</p>\n",
+      "owner": {
+        "display_name": "Dan Roberts",
+        "link": "https://stackoverflow.com/users/3813189/dan-roberts"
+      }
+    },
+    {
+      "answer_id": 38197285,
+      "body": "<p>PostgreSQL <code>IN</code> operator doesn't support array (or any other collection) as parameter, only a normal list (the one which you're generating with the <code>ToInSql</code> method), for PostgreSQL you need to use <code>ANY</code> operator, like this:</p>\n\n<pre><code>SELECT manufacturer, model, year, AVG(price) as averageprice, AVG(miles) as averagemiles, COUNT(*) as count\nFROM products\nWHERE manufacturer = ANY(@manufacturers)\nAND model = ANY(@models)\nAND year = ANY(@years)\nGROUP BY manufacturer, model, year\n</code></pre>\n",
+      "owner": {
+        "display_name": "hazevich",
+        "link": "https://stackoverflow.com/users/5629285/hazevich"
+      }
+    },
+    {
+      "answer_id": 37280820,
+      "body": "<p>Thanks to Marc Gravell reply:</p>\n\n<p>The only way is to do the inserts manually.</p>\n\n<p>Also using the following post: <a href=\"https://stackoverflow.com/questions/8270205/how-do-i-perform-an-insert-and-return-inserted-identity-with-dapper\">How do I perform an insert and return inserted identity with Dapper?</a></p>\n\n<p>Below my solution.</p>\n\n<p>Note that selects work automatically: you can use Dapper (Extensions) directly <code>GetList&lt;T&gt;</code>, there is no mapping to the enum back required.</p>\n\n<pre><code>public enum ComponentType\n{\n    First,\n    Second,\n    Third\n}\n\npublic class Info\n{\n    public int Id { get; set; }\n    public ComponentType InfoComponentType { get; set; }\n\n    public static void SaveList(List&lt;Info&gt; infoList)\n    {\n        string ConnectionString = GetConnectionString();\n\n        using (SqlConnection conn = new SqlConnection(ConnectionString))\n        {\n            conn.Open();\n\n            foreach (Info info in infoList)\n            {\n                string sql = @\"INSERT INTO [Info] ([InfoComponentType]) \n                               VALUES (@InfoComponentType);\n                               SELECT CAST(SCOPE_IDENTITY() AS INT)\";\n\n                int id = conn.Query&lt;int&gt;(sql, new\n                {\n                    InfoComponentType = info.InfoComponentType.ToString()\n                }).Single();\n\n                info.Id = id;\n            }\n\n            conn.Close();\n        }\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "MaurGi",
+        "link": "https://stackoverflow.com/users/3443489/maurgi"
+      }
+    },
+    {
+      "answer_id": 13664493,
+      "body": "<blockquote>\n  <p>How does Dapper help protect against SQL injections?</p>\n</blockquote>\n\n<p>It makes it <strong>really, really</strong> easy to do fully parameterized data access, without ever needing to either concatenate input. In particular, because you don't need to jump through lots of \"add parameter, set the parameter type, check for null <em>because ADO.NET has sucky null-handling</em>, rinse/repeat for 20 parameters\", by making parameter handling <strong>stupidly</strong> convenient. It also makes turning rows into objects really easy, avoiding the temptation to use <code>DataTable</code>... everyone wins.</p>\n\n<p>From comments:</p>\n\n<blockquote>\n  <p>One more...what does dapper actually help do then?</p>\n</blockquote>\n\n<p>To answer, let's take the example from marc_s's reply, and write it the old way, assuming all we have to start with is <code>connection</code>. This is then:</p>\n\n<pre><code>List&lt;Dog&gt; dogs = new List&lt;Dog&gt;();\nusing(var cmd = connection.CreateCommand()) {\n    cmd.CommandText = \"select Age = @Age, Id = @Id\";\n    cmd.Parameters.AddWithValue(\"Age\", DBNull.Value);\n    cmd.Parameters.AddWithValue(\"Id\", guid);\n    using(var reader = cmd.ExecuteReader()) {\n        while(reader.Read()) {\n            int age = reader.ReadInt32(\"Age\");\n            int id = reader.ReadInt32(\"Id\");\n            dogs.Add(new Dog { Age = age, Id = id });\n        }\n        while(reader.NextResult()) {}\n    }\n}\n</code></pre>\n\n<p>except I've over-simplfied grossly, as it also deals with a wide range of issues such as:</p>\n\n<ul>\n<li>null handling of parameters</li>\n<li>null handling of result columns</li>\n<li>using the ordinal column indices</li>\n<li>adapting to structural changes of the underlying table and type</li>\n<li>data conversion of result columns (between various primitives, strings, enums, etc)</li>\n<li>special handling of the oh-so-common \"in this list\" scenario</li>\n<li>for \"execute\", special handling of the \"apply this separately to a list of inputs\"</li>\n<li>avoiding silly typos</li>\n<li>reducing code maintenance</li>\n<li>handling multiple grids</li>\n<li>handling multiple objects returned horizontally in a single grid</li>\n<li>working with arbitrary ADO.NET providers (hint: <code>AddWithValue</code> rarely exists)\n\n<ul>\n<li>including specific support for things like Oracle, which needs additional configuration</li>\n<li>plays nicely with ADO.NET decoratos such as \"mini-profiler\"</li>\n</ul></li>\n<li>inbuilt support for both buffered (suitable for small-to-moderate data; minimises command duration) and non-bufferesd (suitable for large data; minimised memory usage) accesss</li>\n<li>optimized by people who care about performance and know \"quite a bit\" about both data-access and meta-programming</li>\n<li>allows you to use your choice of POCO / DTO / anon-type / whatever for both the parameter and output</li>\n<li>allows use of either <code>dynamic</code> (for multi-column) or primitives etc (for single column) when the output doesn't warrant generation a POCO / DTO</li>\n<li>avoid the overhead of complex fully-typed ORMs like EF</li>\n<li>avoid the overhead of weak-typed layers like <code>DataTable</code></li>\n<li>opening and closing connections as-necessary</li>\n<li>and a vast range of other common gotchas</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 36946919,
+      "body": "<p>In SQL Server any <code>top</code> expression other than a numeric constant needs to be in parentheses.</p>\n\n<pre><code>SELECT TOP (@MaxLimit) FROM ...\n</code></pre>\n",
+      "owner": {
+        "display_name": "Martin Smith",
+        "link": "https://stackoverflow.com/users/73226/martin-smith"
+      }
+    },
+    {
+      "answer_id": 13052147,
+      "body": "<p>I’ve been using Dapper for a while now and have wondered what the <a href=\"http://code.google.com/p/dapper-dot-net/source/browse/Dapper.Contrib/SqlMapperExtensions.cs\" rel=\"noreferrer\">Contrib</a> and <a href=\"http://code.google.com/p/dapper-dot-net/source/browse/Dapper.Rainbow/Database.cs\" rel=\"noreferrer\">Rainbow</a> projects were all about myself. After a bit of code review, here are my thoughts on their uses:</p>\n<h1>Dapper.Contrib</h1>\n<p>Contrib provides a set of extension methods on the IDbConnection interface for basic CRUD operations:</p>\n<ul>\n<li>Get</li>\n<li>Insert</li>\n<li>Update</li>\n<li>Delete</li>\n</ul>\n<p>The key component of Contrib is that it provides tracking for your entities to identify if changes have been made.</p>\n<p>For example, using the Get method with an interface as the type constraint will return a dynamically generated proxy class with an internal dictionary to track what properties have changed.</p>\n<p>You can then use the Update method which will generate the SQL needed to only update those properties that have changed.</p>\n<p><strong>Major Caveat</strong>: to get the tracking goodness of Contrib, you must use an Interface as your type constraint to allow the proxy class to be generated.</p>\n<h1>Dapper.Rainbow</h1>\n<p>Rainbow is an Abstract class that you can use as a base class for your Dapper classes to provide basic CRUD operations:</p>\n<ul>\n<li>Get</li>\n<li>Insert</li>\n<li>Update</li>\n<li>Delete</li>\n</ul>\n<p>As well as some commonly used methods such as First (gets the first record in a table) and All (gets all results records in a table).</p>\n<p>For all intents and purposes, Rainbow is basically a wrapper for your most commonly used database interactions and will build up the boring SQL based on property names and type constraints.</p>\n<p>For example, with a Get operation, Rainbow will build up a vanilla SQL query and return all columns and then map those values back to the type used as the constraint.</p>\n<p>Similarly, the insert/update methods will dynamically build up the SQL needed for an insert/update based on the type constraint's property names.</p>\n<p><strong>Major Caveat</strong>: Rainbow expects all your tables to have an identity column named “Id”.</p>\n<h1>Differences?</h1>\n<p>The major difference between Contrib and Rainbow is (IMO), one tracks changes to your entities, the other doesn’t:</p>\n<ul>\n<li>Use Contrib when you want to be able to track changes in your entities.</li>\n<li>Use Rainbow when you want to use something more along the lines of a standard ADO.NET approach.</li>\n</ul>\n<p><em>On a side note: I wish I had looked into Rainbow earlier as I have built up a very similar base class that I use with Dapper.</em></p>\n<hr />\n<p>From the article and quote @anthonyv quoted: <a href=\"http://samsaffron.com/archive/2012/01/16/that-annoying-insert-problem-getting-data-into-the-db-using-dapper\" rel=\"noreferrer\">That annoying INSERT problem, getting data into the DB</a></p>\n<blockquote>\n<p>There are now 2 other APIs you can choose from as well (<strong>besides Rainbow</strong>) (for CRUD)\n<strong>Dapper.Contrib</strong> and <strong>Dapper Extensions</strong>.\nI do not think that one-size-fits-all. Depending on your problem and\npreferences there may be an API that works best for you. I tried to\npresent some of the options. There is no blessed “best way” to solve\nevery problem in the world.</p>\n</blockquote>\n<p>I suspect what Sam was trying to convey in the above quote and the related blog post was: Your scenario may require a lot of custom mapping (use vanilla Dapper), or it may need to track entity changes (use Contrib), or you may have common usage scenarios (use Rainbow) or you may want to use a combination of them all. Or not even use Dapper. YMMV.</p>\n",
+      "owner": {
+        "display_name": "Metro Smurf",
+        "link": "https://stackoverflow.com/users/9664/metro-smurf"
+      }
+    },
+    {
+      "answer_id": 25833754,
+      "body": "<p>Dapper when targeting .NET 4.5 has full support for TPL usage, via the methods ending in *Async - QueryAsync etc. Specifically, the .NET 4.5 build includes <a href=\"https://github.com/StackExchange/dapper-dot-net/blob/master/Dapper/SqlMapper.Async.cs\">this extra set of methods</a></p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 35557936,
+      "body": "<p>Here is our approach:</p>\n\n<ol>\n<li><p>First of all, you need to have an abstraction on top of <code>IDbConnection</code> to be able to mock it:</p>\n\n<pre><code>public interface IDatabaseConnectionFactory\n{\n    IDbConnection GetConnection();\n}\n</code></pre></li>\n<li><p>Your repository would get the connection from this factory and execute the <code>Dapper</code> query on it:</p>\n\n<pre><code>public class ProductRepository\n{\n    private readonly IDatabaseConnectionFactory connectionFactory;\n\n    public ProductRepository(IDatabaseConnectionFactory connectionFactory)\n    {\n        this.connectionFactory = connectionFactory;\n    }\n\n    public Task&lt;IEnumerable&lt;Product&gt;&gt; GetAll()\n    {\n        return this.connectionFactory.GetConnection().QueryAsync&lt;Product&gt;(\n            \"select * from Product\");\n    }\n}\n</code></pre></li>\n<li><p>Your test would create an in-memory database with some sample rows and check how the repository retrieves them:</p>\n\n<pre><code>[Test]\npublic async Task QueryTest()\n{\n    // Arrange\n    var products = new List&lt;Product&gt;\n    {\n        new Product { ... },\n        new Product { ... }\n    };\n    var db = new InMemoryDatabase();\n    db.Insert(products);\n    connectionFactoryMock.Setup(c =&gt; c.GetConnection()).Returns(db.OpenConnection());\n\n    // Act\n    var result = await new ProductRepository(connectionFactoryMock.Object).GetAll();\n\n    // Assert\n    result.ShouldBeEquivalentTo(products);\n}\n</code></pre></li>\n<li><p>I guess there are multiple ways to implement such in-memory database; we used <code>OrmLite</code> on top of <code>SQLite</code> database:</p>\n\n<pre><code>public class InMemoryDatabase\n{\n    private readonly OrmLiteConnectionFactory dbFactory = new OrmLiteConnectionFactory(\":memory:\", SqliteOrmLiteDialectProvider.Instance);\n\n    public IDbConnection OpenConnection() =&gt; this.dbFactory.OpenDbConnection();\n\n    public void Insert&lt;T&gt;(IEnumerable&lt;T&gt; items)\n    {\n        using (var db = this.OpenConnection())\n        {\n            db.CreateTableIfNotExists&lt;T&gt;();\n            foreach (var item in items)\n            {\n                db.Insert(item);\n            }\n        }\n    }\n}\n</code></pre></li>\n</ol>\n",
+      "owner": {
+        "display_name": "Mikhail Shilkov",
+        "link": "https://stackoverflow.com/users/1171619/mikhail-shilkov"
+      }
+    },
+    {
+      "answer_id": 12978912,
+      "body": "<p>Here's how I got it working:</p>\n\n<pre class=\"lang-cs prettyprint-override\"><code>var q = _sqlConnection.QueryMultiple(\"MySproc\",\n                                     myParams,\n                                     commandType: CommandType.StoredProcedure);\nvar set1 = q.Read&lt;Set1Type&gt;();\n\nvar set2Func = new Func&lt;Person, Check, Person&gt;((p, c) =&gt; {\n    p.CheckAlert = c;\n    return p;\n});\n\nvar set2 = q.Read(set2Func, \"CheckId\")\n            .GroupBy(x =&gt; x.PersonId)\n            .Select(x =&gt; {\n                var person = x.First();\n                person.Checks = x.Select(p =&gt; p.Check).ToArray();\n                person.Check = null; // i really don't like this\n                return person;\n            })\n            .ToArray();\n</code></pre>\n\n<p>As the comment says, I don't like the unneeded check property on the Person object.</p>\n\n<p>I'd still love to hear of a better way of doing this.</p>\n",
+      "owner": {
+        "display_name": "Ronnie Overby",
+        "link": "https://stackoverflow.com/users/64334/ronnie-overby"
+      }
+    },
+    {
+      "answer_id": 34536829,
+      "body": "<pre><code>Dapper.DefaultTypeMap.MatchNamesWithUnderscores = true;\n</code></pre>\n\n<p>job done ;p</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 12184525,
+      "body": "<p>You can also check out  <a href=\"https://github.com/tmsmith/Dapper-Extensions\" rel=\"noreferrer\">Dapper-Extensions</a>.</p>\n\n<blockquote>\n  <p>Dapper Extensions is a small library that complements Dapper by adding\n  basic CRUD operations (Get, Insert, Update, Delete) for your POCOs.</p>\n</blockquote>\n\n<p>It has an <a href=\"https://github.com/tmsmith/Dapper-Extensions/wiki/AutoClassMapper\" rel=\"noreferrer\">auto class mapper</a>, where you can specify your custom field mappings. For example:</p>\n\n<pre><code>public class CodeCustomMapper : ClassMapper&lt;Code&gt;\n{\n    public CodeCustomMapper()\n    {\n        base.Table(\"Codes\");\n        Map(f =&gt; f.Id).Key(KeyType.Identity);\n        Map(f =&gt; f.Type).Column(\"Type\");\n        Map(f =&gt; f.Value).Column(\"Code\");\n        Map(f =&gt; f.Description).Column(\"Foo\");\n    }\n}\n</code></pre>\n\n<p>Then you just do:</p>\n\n<pre><code>using (SqlConnection cn = new SqlConnection(_connectionString))\n{\n    cn.Open();\n    var code= new Code{ Type = \"Foo\", Value = \"Bar\" };\n    int id = cn.Insert(code);\n    cn.Close();\n}\n</code></pre>\n\n<p>Keep in mind that you must keep your custom maps in the same assembly as your POCO classes. The library uses reflection to find custom maps and it only scans one assembly.</p>\n\n<p><strong>Update</strong>: </p>\n\n<p>You can now use SetMappingAssemblies to register a list of assemblies to scan:</p>\n\n<pre><code>DapperExtensions.SetMappingAssemblies(new[] { typeof(MyCustomClassMapper).Assembly });\n</code></pre>\n",
+      "owner": {
+        "display_name": "Void Ray",
+        "link": "https://stackoverflow.com/users/1460042/void-ray"
+      }
+    },
+    {
+      "answer_id": 33436857,
+      "body": "<p>The integer represents the number of rows that were affected by your query. </p>\n\n<p>It returns an integer so you know if your query has worked. If zero is returned and you expected something to have changed then you know there is a problem. </p>\n",
+      "owner": {
+        "display_name": "CathalMF",
+        "link": "https://stackoverflow.com/users/1680271/cathalmf"
+      }
+    },
+    {
+      "answer_id": 12629170,
+      "body": "<p>Dapper now (and for quite some time) deals with this internally. It just works™</p>\n\n<hr>\n\n<p>Original (outdated) answer:</p>\n\n<p>You aren't wrong. The reason I hadn't noticed this inconvenience is that for legacy reasons (specifically: we used to use LINQ-to-SQL exclusively) our primary connection-like-thing is a <code>DataContext</code> - so we re-expose the dapper methods as extension methods on <code>DataContext</code>.</p>\n\n<p>The silly thing is: what these methods do is:</p>\n\n<pre><code>using(db.Connection.EnsureOpen()) {\n    db.Connection.{the dapper method}\n}\n</code></pre>\n\n<p>Here EnsureOpen is a cheeky method that:</p>\n\n<ul>\n<li>if the connection is open, returns null</li>\n<li>otherwise, it opens the connection, and returns an IDisposable token that closes the connection when done</li>\n</ul>\n\n<p>So: we obviously felt <em>exactly</em> your pain, but we implemented it a layer further up.</p>\n\n<p>Please log this as a feature request. We <em>have</em> all the code (although I'll need to tweak it slightly to fit the \"reader\" for non-buffered data) - there's absolutely no reason that dapper can't take ownership of this.</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 31259606,
+      "body": "<p>First of all, I don't think you need the <code>null check</code>, Dapper will return zero row for a query. TAKE NOTE that this is <strong>TRUE</strong> for <code>SQL Server</code> <strong>but</strong> should be the same for any other RDBMS. So this </p>\n\n<pre><code>return schemePolicy != null ? schemePolicy.FirstOrDefault() : null;\n</code></pre>\n\n<p>can be simply written as</p>\n\n<pre><code>return schemePolicy.FirstOrDefault();\n</code></pre>\n\n<p>Now to tackle the real concern, and you mentioned: </p>\n\n<blockquote>\n  <p>the object is returning outside of the async call(*)</p>\n</blockquote>\n\n<p>That is not true. If you write it either way you will <strong>ONLY</strong> get your object after the query has run. So the following will two set of codes yield the same behavior:</p>\n\n<pre><code>var schemePolicy = await sql.QueryAsync&lt;SchemePolicy&gt;(\"sp\", {rest of code});\nreturn schemePolicy.FirstOrDefault();\n</code></pre>\n\n<p>and</p>\n\n<pre><code>var schemePolicy = sql.QueryAsync&lt;SchemePolicy&gt;(\"sp\", {rest of code});\nreturn schemePolicy.Result.FirstOrDefault();\n</code></pre>\n\n<p>The concern really is now with the way you call <code>GetById</code> to make sure that <strong>(1)</strong> the method will not block any other thread and <strong>(2)</strong> that you will get your <em>target object</em> ONLY when the query has finished running. Here's a snippet for a Console App that you can test it with:</p>\n\n<pre><code>static async void GetValue()\n{\n    var repo = new SchemePolicyRepository(new DbManager()); // creates an open connection \n    var result = await repo.GetById();\n    Console.WriteLine(result);\n}\n\nstatic void Main(string[] args)\n{\n    GetValue();   \n    Console.WriteLine(\"Query is running...\");\n    Console.ReadKey();\n}\n</code></pre>\n\n<p>That test will show you that <code>GetValue</code> that consequently calls the <code>GetById</code> method does not block the rest of the code. Also, that nothing is returned from <code>FirstOrDefault</code> until the query has been processed.</p>\n\n<p>Here's the supporting code for the query in case someone wants to try and verify that the concept is valid (code works with SQL Server 2008 and later):</p>\n\n<pre><code>public async Task&lt;int&gt; GetById()\n{\n    var sql = @\"\nWAITFOR DELAY '00:00:05';\nselect 1 where 1=1\";\n\n    var result = await {the_open_connection}.QueryAsync&lt;int&gt;(sql);    \n    return result.FirstOrDefault();\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "von v.",
+        "link": "https://stackoverflow.com/users/815073/von-v"
+      }
+    },
+    {
+      "answer_id": 30469302,
+      "body": "<p>Here's another solution to use anonymous types with dapper:</p>\n\n<pre><code>public static class DapperExtensions\n{\n    public static IEnumerable&lt;T&gt; Query&lt;T&gt;(this IDbConnection connection, Func&lt;T&gt; typeBuilder, string sql)\n    {\n        return connection.Query&lt;T&gt;(sql);\n    }\n}\n</code></pre>\n\n<p>and use it like this:</p>\n\n<pre><code>var data = connection.Query(() =&gt; new \n{\n    ContactId = default(int),\n    Name = default(string),\n}, \"SELECT ContactId, Name FROM Contact\");\n</code></pre>\n",
+      "owner": {
+        "display_name": "Guillaume86",
+        "link": "https://stackoverflow.com/users/172074/guillaume86"
+      }
+    },
+    {
+      "answer_id": 30452694,
+      "body": "<p>It fails because this scenario using <code>Query[&lt;T&gt;]</code> isn't expecting an array / sequence of parameters. The <code>Execute</code> call-path <em>does</em> expect this, and unrolls the data automatically, executing the SQL once per item - but this isn't the case for <code>Query[&lt;T&gt;]</code>, so it tries to create the dynamic method bound to the <em>array</em> (in your case), which isn't allowed. The code should probably detect this much earlier, and just say \"nope, that isn't allowed\".</p>\n\n<p>You <em>probably</em> want to change your <code>.ToArray()</code> to <code>.Single()</code>.</p>\n\n<p>This will be clearer after the next build;  the following passes:</p>\n\n<pre><code>    public void SO30435185_InvalidTypeOwner()\n    {\n        try {\n            // not shown for brevity: something very similar to your code\n            Assert.Fail();\n        } catch(InvalidOperationException ex)\n        {\n            ex.Message.IsEqualTo(\"An enumerable sequence of parameters (arrays, lists, etc) is not allowed in this context\");\n        }\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 27588877,
+      "body": "<p>No, there are no plans to do this. It is far far outside what dapper tries to do. So far that I would say it is antithetical. Dapper <em>core</em> tries to be the friend to those who love their SQL.</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 26246018,
+      "body": "<p>I am on mobile and may be misunderstanding the question, but this should be just:</p>\n\n<pre><code>DataTable records = ...\nconnection.Execute(\"Update_Records\",\n    new {\n        currentYear = filter.currentYear,\n        country = filter.country,\n        records\n    },\n    commandType: CommandType.StoredProcedure\n);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 25545312,
+      "body": "<p>You are passing the cancellation token as the parameter object; that won't work.</p>\n\n<p>The first async methods in dapper did not expose a cancellation token; when I tried to add them as an optional parameter (as a separate overload, to avoid breaking existing assemblies), <a href=\"http://blog.marcgravell.com/2014/08/optional-parameters-considered-harmful.html\">things got very confused with \"ambiguous method\" compilation problems</a>. Consequently, I had to expose this via a separate API; enter <code>CommandDefinition</code>:</p>\n\n<pre><code>val = (await conn.QueryAsync&lt;int&gt;(\n    new CommandDefinition(query, cancellationToken: tokenSource.Token)\n).FirstOrDefault();\n</code></pre>\n\n<p>This then passes the cancellation-token down the chain to all the expected places; it is the job of the ADO.NET provider to actually <em>use</em> it, but; it seems to work in most cases. Note that it can result in a <code>SqlException</code> rather than an <code>OperationCancelledException</code> if the operation is in progress; this again is down to the ADO.NET provider, but makes a lot of sense: you could have interrupted something important; it surfaces as a critical connection issue.</p>\n\n<p>As for the questions:</p>\n\n<blockquote>\n  <p>Why is the snippet completely buildable assuming that there is no compiler error on the whole solution?</p>\n</blockquote>\n\n<p>Because... it is valid C#, even if it doesn't do what you expect.</p>\n\n<blockquote>\n  <p>Forgive me as I cannot test if calling tokenSource.Cancel() would really cancel the method because I don't know how to generate long running sql query. Will the .Cancel() really cancels the method and throws OperationCancelledException?</p>\n</blockquote>\n\n<p>ADO.NET provider-specific, but yes it usually works. As an example of \"how to generate long running sql query\"; the <code>waitfor delay</code> command on SQL server is somewhat useful here, and is what I use in the integration tests.</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 25274255,
+      "body": "<p>ExecuteScalar was just added in 1.28: <a href=\"https://www.nuget.org/packages/Dapper\">https://www.nuget.org/packages/Dapper</a></p>\n",
+      "owner": {
+        "display_name": "Evan M",
+        "link": "https://stackoverflow.com/users/603384/evan-m"
+      }
+    },
+    {
+      "answer_id": 25263893,
+      "body": "<p>If the column name <em>genuinely is</em> <code>\"count(*)\"</code>, then you can cast the row to a dictionary:</p>\n\n<pre><code>var data = (IDictionary&lt;string,object&gt;)row;\nobject value = data[\"count(*)\"];\n</code></pre>\n\n<p>For that to work (at least, in SQL Server), your query would need to be something like:</p>\n\n<pre><code>select count(*) as [count(*)]\n</code></pre>\n\n<p>However, in most cases the column <em>doesn't have a name</em>, in which case: fix your query ;p</p>\n\n<p>Actually, I'd probably say fix your query <em>anyway</em>; the following would be much easier to work with:</p>\n\n<pre><code>select count(*) as [Count]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 25020373,
+      "body": "<p>SQL does not support parameterized table names, and dapper is a very very thin wrapper over SQL - so: no.</p>\n\n<p>You could, however, use string.format:</p>\n\n<pre><code>string sql = string.Format(\"... from [{0}] ...\", table name);\n</code></pre>\n\n<p>Note that even with the [/] this has an inherent SQL injection risk.</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 24633764,
+      "body": "<p>There is now (n Dapper 1.26 and higher) direct support for table-valued parameters baked into dapper. In the case of stored procedures, since the data type is built into the sproc API, all you need to do is supply a <code>DataTable</code>:</p>\n\n<pre><code>var data = connection.Query&lt;SomeType&gt;(..., new {\n    id=123, name=\"abc\", values = someTable\n}, ...);\n</code></pre>\n\n<p>For direct command-text you have two other options:</p>\n\n<ul>\n<li><p>use a helper method to tell it the custom data type: </p>\n\n<pre><code>var data = connection.Query&lt;SomeType&gt;(..., new {\n    id=123, name=\"abc\", values = someTable.AsTableValuedParameter(\"mytype\")\n}, ...);\n</code></pre></li>\n<li><p>tell the data-table itself what custom data type to use:</p>\n\n<pre><code>someTable.SetTypeName(\"mytype\");\nvar data = connection.Query&lt;SomeType&gt;(..., new {\n    id=123, name=\"abc\", values = someTable\n}, ...);        \n</code></pre></li>\n</ul>\n\n<p>Any of these should work fine.</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 24653751,
+      "body": "<p>Manually opening a connection is not \"bad practice\"; dapper works with open or closed connections <em>as a convenience</em>, nothing more. A common gotcha is people having connections that are left open, unused, for too long without ever releasing them to the pool - however, this isn't a problem in most cases, and you can certainly do:</p>\n\n<pre><code>using(var cn = CreateConnection()) {\n    cn.Open();\n    using(var tran = cn.BeginTransaction()) {\n        try {\n            // multiple operations involving cn and tran here\n\n            tran.Commit();\n        } catch {\n            tran.Rollback();\n            throw;\n        }\n    }\n}\n</code></pre>\n\n<p>Note that dapper has an optional parameter to pass in the transaction, for example:</p>\n\n<pre><code>cn.Execute(sql, args, transaction: tran);\n</code></pre>\n\n<p>I am actually <em>tempted</em> to make extension methods on <code>IDbTransaction</code> that work similarly, since <a href=\"http://msdn.microsoft.com/en-us/library/system.data.idbtransaction%28v=vs.110%29.aspx\">a transaction always exposes <code>.Connection</code></a>; this would allow:</p>\n\n<pre><code>tran.Execute(sql, args);\n</code></pre>\n\n<p>But this does not exist today.</p>\n\n<p><code>TransactionScope</code> is another option, but has different semantics: this could involve the LTM or DTC, depending on ... well, luck, mainly. It is also tempting to create a wrapper around <code>IDbTransaction</code> that doesn't need the <code>try</code>/<code>catch</code> - more like how <code>TransactionScope</code> works; something like (this also does not exist):</p>\n\n<pre><code>using(var cn = CreateConnection())\nusing(var tran = cn.SimpleTransaction())\n{\n    tran.Execute(...);\n    tran.Execute(...);\n\n    tran.Complete();\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 20712874,
+      "body": "<p>Assume you have your tables like this.</p>\n\n<p><strong>Product</strong></p>\n\n<pre><code>ID\nProductName\nProductCategoryID\n</code></pre>\n\n<p><strong>Category</strong></p>\n\n<pre><code>ID\nCategoryName\n</code></pre>\n\n<p>and your classes</p>\n\n<pre><code>public class Product\n{\n    public int ID { set; get; }\n    public string ProductName { set; get; }\n    public int ProductCategoryID  {set;get;}\n    public Category Category { set; get; }\n}\npublic class Category\n{\n    public int ID { set; get; }\n    public string CategoryName { set; get; }\n}\n</code></pre>\n\n<p>The below code should work fine for you to load a list of products with associated categories.</p>\n\n<pre><code>var conString=\"Replace your connection string here\";\nusing (var conn =   new SqlConnection(conString))\n{\n    conn.Open();\n    string qry = \"SELECT P.ID,P.ProductName,P.ProductCategoryID,C.ID,\n                  C.CategoryName from Product P  INNER JOIN   \n                  Category C ON P.ProductCategoryID=C.ID\";\n    var products = conn.Query&lt;Product, Category, Product&gt;\n                     (qry, (prod, cat) =&gt; { prod.Category = cat; return prod; });\n\n    foreach (Product product in products)\n    {\n        //do something with the products now as you like.\n    }\n    conn.Close(); \n}\n</code></pre>\n\n<p><img src=\"https://i.sstatic.net/A512S.png\" alt=\"enter image description here\">\n<strong>Note :</strong> <em>Dapper assumes your Id columns are named \"Id\" or \"id\", if your primary key is different or you would like to split the wide row at point other than \"Id\", use the optional 'splitOn' parameter.</em></p>\n",
+      "owner": {
+        "display_name": "Shyju",
+        "link": "https://stackoverflow.com/users/40521/shyju"
+      }
+    },
+    {
+      "answer_id": 19938414,
+      "body": "<p>To do what is needed here, dapper needs to alter the SQL on the fly - so it needs to be <em>really</em> sure that it is doing the right thing. The regular valid SQL syntax includes parenthesis:</p>\n\n<pre><code>WHERE StringId IN (@str)\n</code></pre>\n\n<p>To disambiguate from this, the <em>voodoo dapper syntax</em> <strong>omits</strong> the parenthesis:</p>\n\n<pre><code>WHERE StringId IN @str\n</code></pre>\n\n<p>If it detects this, it looks for a parameter called <code>str</code>, and expands it, to one of:</p>\n\n<pre><code>WHERE 1=0 -- if no values\nWHERE StringId = @str -- if exactly one value\nWHERE StringId IN (@str0, @str1, ...) -- if more than one value\n</code></pre>\n\n<p>But short version: remove the parenthesis.</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 19796947,
+      "body": "<p>With the dynamic api, it is expected that you know the shape in terms of columns, i.e.</p>\n\n<pre><code>foreach(dynamic row in query) {\n    int id = row.Id;\n    //...\n}\n</code></pre>\n\n<p>However, each row also implements <code>IDictionary&lt;string, object&gt;</code> if things are less clear: so cast to that.</p>\n\n<p>Alternatively, if (comments) you know there is a single cell of type date time:</p>\n\n<pre><code>var when = conn.Query&lt;DateTime&gt;(...).Single();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 19737795,
+      "body": "<p>Dapper creator Sam Saffron has addressed this requirement in response to another SO user's questions <a href=\"https://stackoverflow.com/a/10967734/325521\">here</a>. Check it out.</p>\n\n<p>Also, if you want to use the <a href=\"https://github.com/tmsmith/Dapper-Extensions\" rel=\"noreferrer\">Dapper Extensions library</a> that Sam has mentioned in his answer, you can get it from Github or via Nuget. </p>\n\n<p>Here's an example of ignoring properties from the Library's <a href=\"https://github.com/tmsmith/Dapper-Extensions/tree/master/DapperExtensions.Test/Data\" rel=\"noreferrer\">Test Project</a>.</p>\n\n<pre><code>using System;\nusing System.Collections.Generic;\nusing DapperExtensions.Mapper;\n\nnamespace DapperExtensions.Test.Data\n{\n    public class Person\n    {\n        public int Id { get; set; }\n        public string FirstName { get; set; }\n        public string LastName { get; set; }\n        public DateTime DateCreated { get; set; }\n        public bool Active { get; set; }\n        public IEnumerable&lt;Phone&gt; Phones { get; private set; }\n    }\n\n    public class Phone\n    {\n        public int Id { get; set; }\n        public string Value { get; set; }\n    }\n\n    public class PersonMapper : ClassMapper&lt;Person&gt;\n    {\n        public PersonMapper()\n        {\n            Table(\"Person\");\n            Map(m =&gt; m.Phones).Ignore();\n            AutoMap();\n        }\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Shiva",
+        "link": "https://stackoverflow.com/users/325521/shiva"
+      }
+    },
+    {
+      "answer_id": 9850184,
+      "body": "<p>1) Dapper doesn't have a built-in pagination feature. But its not too hard to implement it directly in the query. Example: </p>\n\n<pre><code>SELECT  *\nFROM    ( SELECT    ROW_NUMBER() OVER ( ORDER BY InsertDate) AS RowNum, *\n          FROM      Posts\n          WHERE     InsertDate &gt;= '1900-01-01'\n        ) AS result\nWHERE   RowNum &gt;= 1 // *your pagination parameters\n    AND RowNum &lt; 20  //*\nORDER BY RowNum\n</code></pre>\n\n<p>Requires SQL Server 2005+</p>\n\n<p>2) Dapper returns an <code>IEnumerable&lt;T&gt;</code>.</p>\n",
+      "owner": {
+        "display_name": "Alex",
+        "link": "https://stackoverflow.com/users/1028323/alex"
+      }
+    },
+    {
+      "answer_id": 19527389,
+      "body": "<p>Would <a href=\"http://msdn.microsoft.com/en-us/library/ms172144.aspx\">ADO.NET Data Tracing</a> work for you?  It plugs into ETW, from which you might be able to glue your current logging system. Doesn't seem much stand-alone though.</p>\n",
+      "owner": {
+        "display_name": "tne",
+        "link": "https://stackoverflow.com/users/2266481/tne"
+      }
+    },
+    {
+      "answer_id": 18693859,
+      "body": "<p>The <code>id in @ids</code> is a pattern that is recognized by dapper and treated as an <em>expansion</em> - so depending on the number of items in your input <code>ids</code>, this could become one of:</p>\n\n<pre><code>(1 = 0) -- empty sequence\n(id = @ids_0) -- sequence with 1 element\n(id in (@ids_0, @ids_1, ...)) -- sequence with multiple elements\n</code></pre>\n\n<p>Because of this, after the expansion, there <em>is</em> no <code>@ids</code> parameter / variable - so <code>@ids IS NULL</code> is not going to work. As such, I propose the best way to do this <em>in your case</em> is simply: don't add that part of the tsql. For example:</p>\n\n<pre><code>var sql = new StringBuilder(\"select * from Table1\");\nif(ids != null &amp;&amp; ids.Any())\n{\n    sql.Append(\" where id in @ids\");\n}\nvar data = conn.Query&lt;SomeType&gt;(sb.ToString(), new { ids }).ToList();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 15391292,
+      "body": "<blockquote>\n  <p>So, can somebody please help me understand why leveraging the same overload inside of those other methods is failing with that error?</p>\n</blockquote>\n\n<p>Precisely because you're using a dynamic value (<code>param</code>) as one of the arguments. That means it will use dynamic dispatch... but dynamic dispatch isn't supported for extension methods.</p>\n\n<p>The solution is simple though: just call the static method directly:</p>\n\n<pre><code>return SqlMapper.Query(_connection, sql, param, transaction,\n                       buffered, commandTimeout, commandType);\n</code></pre>\n\n<p>(That's assuming you really need <code>param</code> to be of type <code>dynamic</code>, of course... as noted in comments, you may well be fine to just change it to <code>object</code>.)</p>\n",
+      "owner": {
+        "display_name": "Jon Skeet",
+        "link": "https://stackoverflow.com/users/22656/jon-skeet"
+      }
+    },
+    {
+      "answer_id": 14829279,
+      "body": "<p>One option here would be to go via the dynamic / non-generic API, and then fetch the values out via the <code>IDictionary&lt;string,object&gt;</code> API per row, but that might be a bit tedious.</p>\n\n<p>As an alternative, you can create a custom mapper, and tell dapper about it; for example:</p>\n\n<pre><code>SqlMapper.SetTypeMap(typeof(ClassA), new RemoveSpacesMap());\n</code></pre>\n\n<p>with:</p>\n\n<pre><code>class RemoveSpacesMap : Dapper.SqlMapper.ITypeMap\n{\n\n    System.Reflection.ConstructorInfo SqlMapper.ITypeMap.FindConstructor(string[] names, Type[] types)\n    {\n        return null;\n    }\n\n    SqlMapper.IMemberMap SqlMapper.ITypeMap.GetConstructorParameter(System.Reflection.ConstructorInfo constructor, string columnName)\n    {\n        return null;\n    }\n\n    SqlMapper.IMemberMap SqlMapper.ITypeMap.GetMember(string columnName)\n    {\n        var prop = typeof(ClassA).GetProperty(columnName.Replace(\" \", \"\"));\n        return prop == null ? null : new PropertyMemberMap(columnName, prop);\n    }\n    class PropertyMemberMap : Dapper.SqlMapper.IMemberMap\n    {\n        private string columnName;\n        private PropertyInfo property;\n        public PropertyMemberMap(string columnName, PropertyInfo property)\n        {\n            this.columnName = columnName;\n            this.property = property;\n        }\n        string SqlMapper.IMemberMap.ColumnName\n        {\n            get { throw new NotImplementedException(); }\n        }\n\n        System.Reflection.FieldInfo SqlMapper.IMemberMap.Field\n        {\n            get { return null; }\n        }\n\n        Type SqlMapper.IMemberMap.MemberType\n        {\n            get { return property.PropertyType; }\n        }\n\n        System.Reflection.ParameterInfo SqlMapper.IMemberMap.Parameter\n        {\n            get { return null; }\n        }\n\n        System.Reflection.PropertyInfo SqlMapper.IMemberMap.Property\n        {\n            get { return property; }\n        }\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 14786328,
+      "body": "<p>There's various ways already shown; personally I'd just use the non-generic api:</p>\n\n<pre><code>var dict = conn.Query(sql, args).ToDictionary(\n    row =&gt; (string)row.UniqueString,\n    row =&gt; (int)row.Id);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 14042772,
+      "body": "<p>You need to place a using statement in your .cs file to make the Dapper extension methods available.</p>\n\n<pre><code>using ...;\nusing Dapper;\nusing ...;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Fls&#39;Zen",
+        "link": "https://stackoverflow.com/users/567249/flszen"
+      }
+    },
+    {
+      "answer_id": 13026708,
+      "body": "<p>The buffer is unrelated to cache. Dapper does not include any kind of data-cache (although it does have a cache related to how it processes commands, i.e. \"this command string, with this type of parameter, and this type of entity - has these associated dynamically generated methods to configure the command and populate the objects\").</p>\n\n<p>What this switch really means is:</p>\n\n<ul>\n<li><code>false</code>: will iterate items as they are recieved/consumed - basically, an iterator-block around an <code>IDataReader</code>\n<ul>\n<li>minus: you can only iterate it once (unless you are happy to re-run the query)</li>\n<li>plus: you can iterate over <strong>immense</strong> queries (many millions of rows), without needing them all in-memory at once - since you're only ever really looking at the current row being yielded</li>\n<li>plus: you don't need to wait for the end of the data to start iterating - as soon as it has at least one row, you're good to go</li>\n<li>minus: the connection is in-use while you're iterating, which can lead to \"there is already an open reader on the connection\" (or whatever the exact wording is) errors if you try to invoke other commands on a per-row basis (this can be mitigated by MARS)</li>\n<li>minus: because the consumer can do anything they want per-item (it could take minutes per row, if they are doing something complex), the command/reader might be open for longer</li>\n</ul></li>\n<li><code>true</code> (the default): the data is fully consumed into a <code>List&lt;T&gt;</code> before it hands it back to you\n<ul>\n<li>plus: you can iterate it as many times as you like</li>\n<li>minus: if the query is immense, loading them all into memory (in a list) could be expensive / impossible</li>\n<li>minus: if the query is large, there may be noticeable latency while it gathers the last row</li>\n<li>plus: once you get the data, the command is complete - so there is no conflict between that and subsequent operations</li>\n<li>plus: as soon as you get the data, the command has already released any resources (locks etc), so you're having minimal impact on the server</li>\n</ul></li>\n</ul>\n\n<p>Most queries only return a moderate amount of data (say, less than 100 records), so we're happy that the default (<code>true</code>) gives the most appropriate behavior for most scenarios. But we make the option available to you, to cater for different usage scenarios.</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 12724304,
+      "body": "<p>I have just submitted a fix to the repository that allows any of the following to work correctly:</p>\n\n<p>by object (this worked previously):</p>\n\n<pre><code>values.AddDynamicParams(new { ids = list });\n</code></pre>\n\n<p>or, by single name:</p>\n\n<pre><code>values.Add(\"ids\", list);\n</code></pre>\n\n<p>or, as a dictionary:</p>\n\n<pre><code>var args = new Dictionary&lt;string, object&gt;();\nargs.Add(\"ids\", list);\nvalues.AddDynamicParams(args);\n</code></pre>\n\n<p>I have not yet deployed to NuGet. Let me know if this is a problem.</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 12698449,
+      "body": "<blockquote>\n  <p>but as far as I can tell the only thing it does is cast the result to a list before returning it</p>\n</blockquote>\n\n<p>You aren't missing anything. That is the key difference. Except it isn't a <em>cast</em> as such: the actual returned object is very different. Basically, there are two ways of reading data:</p>\n\n<ul>\n<li>in a streaming API each element is yielded individually; this is very memory efficient, but if you do lots of subsequent processing per item, mean that your connection / command could be \"active\" for an extended time</li>\n<li>in a buffered API all the rows are read <em>before</em> anything is yielded</li>\n</ul>\n\n<p>If you are reading a very large amount of data (thousands to millions of rows), a non-buffered API may be preferable. Otherwise lots of memory is used, and there may be noticeable latency before even the first row is available. However, in most common scenarios the amount of data read is within reasonable limits, so it is reasonable to push it into a list before handing it to the caller. That means that the command / reader etc has completed <strong>before</strong> it returns.</p>\n\n<p>As a side note, buffered mode also avoids the oh-so-common \"there is already an open reader on the connection\" (or whatever the exact phrasing is).</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 12609410,
+      "body": "<p>The best I was able to achieve was 50k records in 4 seconds using this approach</p>\n\n<pre><code>SqlTransaction trans = connection.BeginTransaction();\n\nconnection.Execute(@\"\ninsert Member(Username, IsActive)\nvalues(@Username, @IsActive)\", members, transaction: trans);\n\ntrans.Commit();\n</code></pre>\n",
+      "owner": {
+        "display_name": "kenwarner",
+        "link": "https://stackoverflow.com/users/55948/kenwarner"
+      }
+    },
+    {
+      "answer_id": 6380756,
+      "body": "<p>You are doing nothing wrong, it is just not the way the API was designed. All the <code>Query</code> APIs will <strong>always</strong> return an object per database row. </p>\n\n<p>So, this works well on the many -> one direction, but less well for the one -> many multi-map.</p>\n\n<p>There are 2 issues here: </p>\n\n<ol>\n<li><p>If we introduce a built-in mapper that works with your query, we would be expected to \"discard\" duplicate data. (Contacts.* is duplicated in your query) </p></li>\n<li><p>If we design it to work with a one -> many pair, we will need some sort of identity map. Which adds complexity. </p></li>\n</ol>\n\n<hr>\n\n<p>Take for example this query which is efficient if you just need to pull a limited number of records, if you push this up to a million stuff get trickier, cause you need to stream and can not load everything into memory: </p>\n\n<pre><code>var sql = \"set nocount on\nDECLARE @t TABLE(ContactID int,  ContactName nvarchar(100))\nINSERT @t\nSELECT *\nFROM Contacts\nWHERE clientid=1\nset nocount off \nSELECT * FROM @t \nSELECT * FROM Phone where ContactId in (select t.ContactId from @t t)\"\n</code></pre>\n\n<p>What you could do is extend the <code>GridReader</code> to allow for the remapping: </p>\n\n<pre><code>var mapped = cnn.QueryMultiple(sql)\n   .Map&lt;Contact,Phone, int&gt;\n    (\n       contact =&gt; contact.ContactID, \n       phone =&gt; phone.ContactID,\n       (contact, phones) =&gt; { contact.Phones = phones };  \n    );\n</code></pre>\n\n<p>Assuming you extend your GridReader and with a mapper: </p>\n\n<pre><code>public static IEnumerable&lt;TFirst&gt; Map&lt;TFirst, TSecond, TKey&gt;\n    (\n    this GridReader reader,\n    Func&lt;TFirst, TKey&gt; firstKey, \n    Func&lt;TSecond, TKey&gt; secondKey, \n    Action&lt;TFirst, IEnumerable&lt;TSecond&gt;&gt; addChildren\n    )\n{\n    var first = reader.Read&lt;TFirst&gt;().ToList();\n    var childMap = reader\n        .Read&lt;TSecond&gt;()\n        .GroupBy(s =&gt; secondKey(s))\n        .ToDictionary(g =&gt; g.Key, g =&gt; g.AsEnumerable());\n\n    foreach (var item in first)\n    {\n        IEnumerable&lt;TSecond&gt; children;\n        if(childMap.TryGetValue(firstKey(item), out children))\n        {\n            addChildren(item,children);\n        }\n    }\n\n    return first;\n}\n</code></pre>\n\n<p>Since this is a bit tricky and complex, with caveats. I am not leaning towards including this in core.</p>\n",
+      "owner": {
+        "display_name": "Sam Saffron",
+        "link": "https://stackoverflow.com/users/17174/sam-saffron"
+      }
+    },
+    {
+      "answer_id": 11231776,
+      "body": "<p>Dapper is litterally a <a href=\"http://code.google.com/p/dapper-dot-net/source/browse/Dapper/SqlMapper.cs\">single file</a> that you include into your code base. Just edit the file:</p>\n\n<p>Replace (around line 300):</p>\n\n<pre><code>        typeMap[typeof(Guid)] = DbType.Guid;\n        typeMap[typeof(DateTime)] = DbType.DateTime;\n        typeMap[typeof(DateTimeOffset)] = DbType.DateTimeOffset;\n        typeMap[typeof(byte[])] = DbType.Binary;\n</code></pre>\n\n<p>With:  </p>\n\n<pre><code>        typeMap[typeof(Guid)] = DbType.Guid;\n        typeMap[typeof(DateTime)] = DbType.DateTime2;\n        typeMap[typeof(DateTimeOffset)] = DbType.DateTimeOffset;\n        typeMap[typeof(byte[])] = DbType.Binary;\n</code></pre>\n\n<p><strong>Edit:</strong><br>\nThere's also a nullable DateTime further down that block of mappings, around line 319:  </p>\n\n<pre><code>        typeMap[typeof(DateTime?)] = DbType.DateTime;\n        typeMap[typeof(DateTimeOffset?)] = DbType.DateTimeOffset;\n</code></pre>\n\n<p>To:</p>\n\n<pre><code>        typeMap[typeof(DateTime?)] = DbType.DateTime2;\n        typeMap[typeof(DateTimeOffset?)] = DbType.DateTimeOffset;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Randolpho",
+        "link": "https://stackoverflow.com/users/12716/randolpho"
+      }
+    },
+    {
+      "answer_id": 11106904,
+      "body": "<p>I think you should be able to do it by casting <code>null</code> to the appropiate type. Let's assume RouteId is an integer:</p>\n\n<pre><code>connection.Execute(\"spLMS_UpdateLMSLCarrier\", new { RouteId = (int?)null, CarrierId = carrierID, UserId = userID, TotalRouteRateCarrierId = totalRouteRateCarrierId }, commandType: CommandType.StoredProcedure);\n</code></pre>\n\n<p>The problem you are encountering when using regular null is likely that the compiler cannot infer the type of <code>RouteId</code> in the anonymous type when just using <code>null</code> without the cast.</p>\n",
+      "owner": {
+        "display_name": "driis",
+        "link": "https://stackoverflow.com/users/13627/driis"
+      }
+    },
+    {
+      "answer_id": 10791648,
+      "body": "<p>This is \"by-design\" though I would be ok to revisit it. </p>\n\n<p>In particular this behaviour is there to help with left joins. Take this for example: </p>\n\n<pre><code>cnn.Query&lt;Car,Driver&gt;(\"select * from Cars c left join Drivers on c.Id = CarId\",\n   (c,d) =&gt; {c.Driver = d; return c;}) \n</code></pre>\n\n<p>Trouble is that if we allow a \"blanket\" creation of a <code>Driver</code> object, every <code>Car</code> is going to have a <code>Driver</code> even ones where the join failed. </p>\n\n<p>To work around we could scan the entire segment being split and ensure ALL values are <code>NULL</code> before mapping a <code>NULL</code> object. This will have a very minor perf impact on the multi mapper. </p>\n\n<p>To workaround for your case, you could insert a surrogate column: </p>\n\n<pre><code>var sql = @\"select 1 as id, 'abc' as name, '' as split, \n            NULL as description, 'def' as name\";\n    var product = connection.Query&lt;Product, Category, Product&gt;(sql, (prod, cat) =&gt;\n    {\n        prod.Category = cat;\n        return prod;\n    }, splitOn: \"split\").First();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sam Saffron",
+        "link": "https://stackoverflow.com/users/17174/sam-saffron"
+      }
+    },
+    {
+      "answer_id": 9871380,
+      "body": "<p>Dapper should support it. Are you sure, your function is in the right database?</p>\n\n<p>Here's a quick VB.NET example.</p>\n\n<pre><code>   Using conn = IDbConnectionFactory.CreateFromProvider(\"System.Data.SqlClient\", CONNECTION_STRING)\n                Dim sqlCommand As String = \"SELECT dbo.fx_SumTwoValues(@valueOne,@valueTwo) As SumOfTwoValues\"\n                conn.Open()\n                Dim result = (conn.Query(Of Integer)(sqlCommand, New With {.valueOne = 1, .valueTwo = 2})).First()\n                Console.WriteLine(result.ToString)\n            End Using\n</code></pre>\n\n<p>And here's the function I created on the same db I'm using in my connection.</p>\n\n<pre><code>CREATE FUNCTION fx_SumTwoValues\n( @Val1 int, @Val2 int )\nRETURNS int\nAS\nBEGIN\n  RETURN (@Val1+@Val2)\nEND\nGO\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alex",
+        "link": "https://stackoverflow.com/users/1028323/alex"
+      }
+    },
+    {
+      "answer_id": 9481752,
+      "body": "<p>Yes:</p>\n\n<pre><code>var dbArgs = new DynamicParameters();\nforeach(var pair in args) dbArgs.Add(pair.Key, pair.Value);\n</code></pre>\n\n<p>Then pass <code>dbArgs</code> in place of <code>args</code>:</p>\n\n<pre><code>var stuff = connection.Query&lt;ExtractionRecord&gt;(query, dbArgs);\n</code></pre>\n\n<p>Alternatively, you can write your own class that implements <code>IDynamicParameters</code>.</p>\n\n<p>Note that if you are starting from an object (the usual approach with dapper), you can also use this template with <code>DynamicParameters</code> as a starting point:</p>\n\n<pre><code>var dbArgs = new DynamicParameters(templateObject);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 6818438,
+      "body": "<blockquote>\n  <p>If you are generating SQL strings on the fly without using parameters it is possible you will hit memory issues.</p>\n</blockquote>\n\n<p>You can do this:</p>\n\n<pre><code>cmd.CommandText = \"SELECT email, passwd, login_id, full_name \" + \n                  \"FROM members \" +\n                  \"WHERE email = '\" + email + \"'\";\n</code></pre>\n\n<p>or you can do this:</p>\n\n<pre><code>string s = \"SELECT email, passwd, login_id, full_name \" + \n           \"FROM members WHERE \" +\n           \"email = @email\";\nSqlCommand cmd = new SqlCommand(s);\ncmd.Parameters.Add(\"@email\", email);\n</code></pre>\n\n<p>The latter is parameterized. It will be cached once. The former is not parameterized. It will be cached every time you write a query like it with a different value for <code>email</code>. This will explode your memory.</p>\n\n<p>The latter is vastly superior. It avoids injection attacks. dapper can cache it once. SQL Server will compile the execution plan once and cache it.</p>\n\n<p>You should (imperative) already be using parameterized queries. If you aren't, drop everything you are doing and make this an immediate priority. </p>\n\n<blockquote>\n  <p>Can someone please give a sample of c# code that will create this memory issue. thank you</p>\n</blockquote>\n\n<p>Just do the former in a loop. Watch your memory grow. Do the latter in a loop. Watch your memory not grow.</p>\n",
+      "owner": {
+        "display_name": "jason",
+        "link": "https://stackoverflow.com/users/45914/jason"
+      }
+    },
+    {
+      "answer_id": 8995135,
+      "body": "<p>I would use the non-generic Query API here...</p>\n\n<pre><code> return connection.Query(sql, args).Select(row =&gt;\n     new AnyType((string)row.Foo, (int)row.Bar) {\n         Other = (float)row.Other }).ToList();\n</code></pre>\n\n<p>Using this you can use both non-default constructors and property assignments, without any changes, by using \"dynamic\" as an intermediate step.</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 8230563,
+      "body": "<p>Implement your model with properties, not fields:</p>\n\n<pre><code>class MyAccount \n{\n    public string Name { get; set; }\n    public int Priority { get; set; }\n}\n</code></pre>\n\n<p>Dapper looks at the properties of the object to get parameters, ignoring fields. Anonymous types work because they are <a href=\"http://msdn.microsoft.com/en-us/library/bb397696.aspx?ppud=4\">implemented with properties</a>.</p>\n",
+      "owner": {
+        "display_name": "kevingessner",
+        "link": "https://stackoverflow.com/users/27512/kevingessner"
+      }
+    },
+    {
+      "answer_id": 7523274,
+      "body": "<p>Dapper is not a full blown ORM it does not handle magic generation of queries and such. </p>\n\n<p>For your particular example the following would probably work:</p>\n\n<h3>Grab the courses:</h3>\n\n<pre><code>var courses = cnn.Query&lt;Course&gt;(\"select * from Courses where Category = 1 Order by CreationDate\");\n</code></pre>\n\n<h3>Grab the relevant mapping:</h3>\n\n<pre><code>var mappings = cnn.Query&lt;CourseLocation&gt;(\n   \"select * from CourseLocations where CourseId in @Ids\", \n    new {Ids = courses.Select(c =&gt; c.Id).Distinct()});\n</code></pre>\n\n<h3>Grab the relevant locations</h3>\n\n<pre><code>var locations = cnn.Query&lt;Location&gt;(\n   \"select * from Locations where Id in @Ids\",\n   new {Ids = mappings.Select(m =&gt; m.LocationId).Distinct()}\n);\n</code></pre>\n\n<h3>Map it all up</h3>\n\n<p>Leaving this to the reader, you create a few maps and iterate through your courses populating with the locations. </p>\n\n<p><strong>Caveat</strong> the <code>in</code> trick will work if you have less than <a href=\"https://stackoverflow.com/questions/845931/maximum-number-of-parameters-in-sql-query/845972#845972\">2100</a> lookups (Sql Server), if you have more you probably want to amend the query to <code>select * from CourseLocations where CourseId in (select Id from Courses ... )</code> if that is the case you may as well yank all the results in one go using <code>QueryMultiple</code></p>\n",
+      "owner": {
+        "display_name": "Sam Saffron",
+        "link": "https://stackoverflow.com/users/17174/sam-saffron"
+      }
+    },
+    {
+      "answer_id": 7478958,
+      "body": "<p>I just ran a test that works fine: </p>\n\n<pre><code>var sql = \"select cast(1 as decimal) ProductId, 'a' ProductName, 'x' AccountOpened, cast(1 as decimal) CustomerId, 'name' CustomerName\";\n\nvar item = connection.Query&lt;ProductItem, Customer, ProductItem&gt;(sql,\n    (p, c) =&gt; { p.Customer = c; return p; }, splitOn: \"CustomerId\").First();\n\nitem.Customer.CustomerId.IsEqualTo(1);\n</code></pre>\n\n<p>The splitOn param needs to be specified as the split point, it defaults to Id. If there are multiple split points, you will need to add them in a comma delimited list.</p>\n\n<p>Say your recordset looks like this: </p>\n\n<pre>\nProductID | ProductName | AccountOpened | CustomerId | CustomerName \n---------------------------------------   -------------------------\n</pre>\n\n<p>Dapper needs to know how to split the columns in this order into 2 objects. A cursory look shows that the Customer starts at the column <code>CustomerId</code>, hence <code>splitOn: CustomerId</code>.</p>\n\n<p>There is a <strong>big</strong> caveat here, if the column ordering in the underlying table is flipped for some reason:</p>\n\n<pre>\nProductID | ProductName | AccountOpened | CustomerName | CustomerId  \n---------------------------------------   -------------------------\n</pre>  \n\n<p><code>splitOn: CustomerId</code> will result in a null customer name. </p>\n\n<p>If you specify <code>CustomerId,CustomerName</code> as split points, dapper assumes you are trying to split up the result set into 3 objects. First starts at the beginning, second starts at <code>CustomerId</code>, third at <code>CustomerName</code>. </p>\n",
+      "owner": {
+        "display_name": "Sam Saffron",
+        "link": "https://stackoverflow.com/users/17174/sam-saffron"
+      }
+    },
+    {
+      "answer_id": 7395492,
+      "body": "<p>You would have to implement: </p>\n\n<pre><code> public interface IDynamicParameters\n {\n    void AddParameters(IDbCommand command, Identity identity);\n }\n</code></pre>\n\n<p>Then in the <code>AddParameters</code> callback you would cast the <code>IDbCommand</code> to an <code>OracleCommand</code> and add the DB specific params. </p>\n",
+      "owner": {
+        "display_name": "Sam Saffron",
+        "link": "https://stackoverflow.com/users/17174/sam-saffron"
+      }
+    },
+    {
+      "answer_id": 7090603,
+      "body": "<p>for me this works perfect ... perhaps a typo? </p>\n\n<p>I see <code>PhyscialId</code> which definitely looks like one. </p>\n\n<pre><code>class Company\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n    public Mailing Mailing { get; set; }\n    public Physical Physical { get; set; }\n}\n\nclass Mailing\n{\n    public int MailingId { get; set; }\n    public string Name { get; set; }\n}\n\nclass Physical\n{\n    public int PhysicalId { get; set; }\n    public string Name { get; set; }\n}\n\npublic void TestSOQuestion()\n{\n    string sql = @\"select 1 as Id, 'hi' as Name, 1 as MailingId, \n       'bob' as Name, 2 as PhysicalId, 'bill' as Name\";\n    var item = connection.Query&lt;Company, Mailing, Physical, Company&gt;(sql,\n                (org, mail, phy) =&gt;\n                {\n                    org.Mailing = mail;\n                    org.Physical = phy;\n                    return org;\n                },\n                    splitOn: \"MailingId,PhysicalId\").First();\n\n\n    item.Mailing.Name.IsEqualTo(\"bob\");\n    item.Physical.Name.IsEqualTo(\"bill\");\n\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sam Saffron",
+        "link": "https://stackoverflow.com/users/17174/sam-saffron"
+      }
+    },
+    {
+      "answer_id": 7022404,
+      "body": "<p>There is nothing magical you need to do. Just add: </p>\n\n<p><code>using Dapper;</code> </p>\n\n<p>And run queries on your open <code>SqliteConnection</code></p>\n\n<p><code>cnn.Query(\"select 'hello world' from Table\")</code></p>\n",
+      "owner": {
+        "display_name": "Sam Saffron",
+        "link": "https://stackoverflow.com/users/17174/sam-saffron"
+      }
+    },
+    {
+      "answer_id": 6500834,
+      "body": "<p>I just added a test for this: </p>\n\n<pre><code>class Student\n{\n    public string Name {get; set;}\n    public int Age { get; set; }\n}\n\npublic void TestExecuteMultipleCommandStrongType()\n{\n    connection.Execute(\"create table #t(Name nvarchar(max), Age int)\");\n    int tally = connection.Execute(@\"insert #t (Name,Age) values(@Name, @Age)\", new List&lt;Student&gt; \n    {\n        new Student{Age = 1, Name = \"sam\"},\n        new Student{Age = 2, Name = \"bob\"}\n    });\n    int sum = connection.Query&lt;int&gt;(\"select sum(Age) from #t drop table #t\").First();\n    tally.IsEqualTo(2);\n    sum.IsEqualTo(3);\n}\n</code></pre>\n\n<p>It works as advertised. I made a few amendments to the way multi-exec works (so its a tad faster and supports object[]). </p>\n\n<p>My guess is you were having issues cause you were missing a getter property on all you fields on <code>WTUser</code>. All params must have reader properties, we do not support pulling this from fields, it would require a complex parsing step to stay efficient. </p>\n\n<hr>\n\n<p>An additional point that caused an issue is passing dapper a param with unsupported mapping.</p>\n\n<p>For example, the following class is not supported as a param: </p>\n\n<pre><code>class Test\n{\n   public int Id { get; set; }\n   public User User {get; set;}\n}\n\ncnn.Query(\"select * from Tests where Id = @Id\", new Test{Id = 1}); // used to go boom \n</code></pre>\n\n<p>The issue is that dapper did <strong>not</strong> parse the SQL, it assumed all the props are settable as params but was unable to resolve the SQL type for <code>User</code>. </p>\n\n<p>Latest rev resolves this</p>\n",
+      "owner": {
+        "display_name": "Sam Saffron",
+        "link": "https://stackoverflow.com/users/17174/sam-saffron"
+      }
+    },
+    {
+      "answer_id": 6171223,
+      "body": "<p>Sure, it is actually way easier than that: </p>\n\n<pre><code>var sql = \"select 1 A, 'two' B\";\nvar row = (IDictionary&lt;string, object&gt;)connection.Query(sql).First();\nrow[\"A\"].IsEqualTo(1);\nrow[\"B\"].IsEqualTo(\"two\");\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sam Saffron",
+        "link": "https://stackoverflow.com/users/17174/sam-saffron"
+      }
+    },
+    {
+      "answer_id": 6086462,
+      "body": "<p>Sure - as long as your enum agrees, i.e.</p>\n\n<pre><code>enum MyEnumType : byte {\n    Foo, Bar, Blip, ...\n}\n</code></pre>\n\n<p>then it will all work automatically.</p>\n\n<p>(this limitation is by design, and shared with LINQ-to-SQL as it happens)</p>\n\n<p>Alternatively, if the enum is <code>: int</code> and can't be changed, cast it in the SQL:</p>\n\n<pre><code>SELECT ..., CAST(x.myEnum as int) as myEnum, ...\n</code></pre>\n\n<p>Or finally, use the <code>dynamic</code> API:</p>\n\n<pre><code>foreach(var row in conn.Query(...)) { // note no &lt;T&gt;\n    T obj = new Item { /* copy from row */ };\n    ...\n}\n</code></pre>\n\n<hr>\n\n<p>The first is my preferred object, as that enforces the <code>byte</code> data-type limitation throughout all your code, which is IMO a good thing.</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    },
+    {
+      "answer_id": 6001902,
+      "body": "<p>That would be cause I changed APIs and forgot to update the documentation, I corrected the error. </p>\n\n<p>Be sure to have a look at <a href=\"http://code.google.com/p/dapper-dot-net/source/browse/Tests/Tests.cs\" rel=\"noreferrer\">Tests.cs</a> for a full up-to-date spec. </p>\n\n<p>In particular, the old API used to take in an <code>Action&lt;T,U&gt;</code> to perform the mapping, the trouble was that it felt both arbitrary and inflexible. You could not fully control the return type. The new APIs take in a <code>Func&lt;T,U,V&gt;</code>. So you can control the type you get back from the mapper and it does not need to be a mapped type. </p>\n\n<p>I just tied up some additional flexibility around multi mapping, this test should make it clear: </p>\n\n<pre><code>class Person\n{\n    public int PersonId { get; set; }\n    public string Name { get; set; }\n}\n\nclass Address\n{\n    public int AddressId { get; set; }\n    public string Name { get; set; }\n    public int PersonId { get; set; }\n}\n\nclass Extra\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n}\n\npublic void TestFlexibleMultiMapping()\n{\n    var sql = \n@\"select \n1 as PersonId, 'bob' as Name, \n2 as AddressId, 'abc street' as Name, 1 as PersonId,\n3 as Id, 'fred' as Name\n\";\n    var personWithAddress = connection.Query&lt;Person, Address, Extra, Tuple&lt;Person, Address,Extra&gt;&gt;\n        (sql, (p,a,e) =&gt; Tuple.Create(p, a, e), splitOn: \"AddressId,Id\").First();\n\n    personWithAddress.Item1.PersonId.IsEqualTo(1);\n    personWithAddress.Item1.Name.IsEqualTo(\"bob\");\n    personWithAddress.Item2.AddressId.IsEqualTo(2);\n    personWithAddress.Item2.Name.IsEqualTo(\"abc street\");\n    personWithAddress.Item2.PersonId.IsEqualTo(1);\n    personWithAddress.Item3.Id.IsEqualTo(3);\n    personWithAddress.Item3.Name.IsEqualTo(\"fred\");\n\n}\n</code></pre>\n\n<p>Dapper pipes all the multi mapping APIs through a single method, so if something fails it will end up in the 6 param one. The other piece of the puzzle was that I did not allow for some super flexible splits, which I just added.</p>\n\n<p>Note, the <code>splitOn</code> param will default to <code>Id</code>, meaning it will take a column called <code>id</code> or <code>Id</code> as the first object boundary. However if you need boundaries on multiple primary keys that have different names for say a \"3 way\" multi mapping, you can now pass in a comma separated list. </p>\n\n<p>So if we were to fix the above, probably the following would work: </p>\n\n<pre><code> var student = _conn.Query&lt;Student,Address,Student&gt;\n              (\"SELECT s.*, a.* FROM dbo.Student s \n                    INNER JOIN dbo.Address a ON s.AddressID = a.AddressID \n                    WHERE s.StudentenID = @Id\", \n                (stu, adr) =&gt; { stu.PrimaryAddress = adr; return stu;},  \n                new { Id = 4711 }, splitOn: \"AddressID\").FirstOrDefault();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sam Saffron",
+        "link": "https://stackoverflow.com/users/17174/sam-saffron"
+      }
+    },
+    {
+      "answer_id": 5988240,
+      "body": "<p>I would say <em>put the sql where you would have put the equivalent LINQ query, or the sql for DataContext.ExecuteQuery</em>. As for where that is... well, that is up to you and depends on how much separation you want.</p>\n\n<p>However, personally I see no benefit hiding the SQL in a separate class away from the <code>Query&lt;T&gt;</code> call - you <em>want</em> to see them in context so you can easily verify the data (and indeed, the parameters). You might also be constructing the query (still parameterised) in situ. But for a regular static query I would keep the TSQL as a literal near the code, unless I have <strong>good reason</strong> to need it abstracted, i.e.</p>\n\n<pre><code>var reports = conn.Query&lt;Report&gt;(@\"\nselect x.blah, y.blah\nfrom x (snip)\nwhere x.ParentId = @parentId and y.Region = @region\", new {parentId, region});\n</code></pre>\n\n<p>(note also the alternative <em>extension method</em> usage in the above)</p>\n\n<p>IMO, the key in the above is that it is <em>extremely unlikely</em> that you would ever re-use that query from <strong><em>any other place</em></strong> - the logic would instead be put into a method, and that method called from multiple places. So the only other reason you might use to hide the query behind a central wrapper is if you need to support different database providers (with different SQL dialects). And that is rarer than people make out.</p>\n",
+      "owner": {
+        "display_name": "Marc Gravell",
+        "link": "https://stackoverflow.com/users/23354/marc-gravell"
+      }
+    }
+  ]
+}

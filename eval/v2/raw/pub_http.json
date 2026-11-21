@@ -1,0 +1,787 @@
+{
+  "library": "pub:http",
+  "fetched_at": "2026-11-21T17:28:29Z",
+  "questions": [
+    {
+      "question_id": 54911880,
+      "title": "Difference between http and HttpClient in Dart",
+      "accepted_answer_id": 54911977,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/54911880/difference-between-http-and-httpclient-in-dart",
+      "owner": {
+        "display_name": "Suragch",
+        "link": "https://stackoverflow.com/users/3681880/suragch"
+      }
+    },
+    {
+      "question_id": 53727911,
+      "title": "How to get progress event while uploading file on http.MultipartRequest request in flutter",
+      "accepted_answer_id": 53838367,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/53727911/how-to-get-progress-event-while-uploading-file-on-http-multipartrequest-request",
+      "owner": {
+        "display_name": "Aawaz Gyawali",
+        "link": "https://stackoverflow.com/users/3931968/aawaz-gyawali"
+      }
+    },
+    {
+      "question_id": 50027632,
+      "title": "Optimal way to make multiple independent requests to server in Dart",
+      "accepted_answer_id": 50028061,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/50027632/optimal-way-to-make-multiple-independent-requests-to-server-in-dart",
+      "owner": {
+        "display_name": "Sabith",
+        "link": "https://stackoverflow.com/users/6371596/sabith"
+      }
+    },
+    {
+      "question_id": 51325758,
+      "title": "How to catch SocketException using the http library?",
+      "accepted_answer_id": 51327634,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/51325758/how-to-catch-socketexception-using-the-http-library",
+      "owner": {
+        "display_name": "devrocca",
+        "link": "https://stackoverflow.com/users/1517483/devrocca"
+      }
+    },
+    {
+      "question_id": 49855754,
+      "title": "Unable to make calls to Localhost using Flutter, random port being assigned to HTTP GET call",
+      "accepted_answer_id": 49855877,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/49855754/unable-to-make-calls-to-localhost-using-flutter-random-port-being-assigned-to-h",
+      "owner": {
+        "display_name": "gabbar0x",
+        "link": "https://stackoverflow.com/users/4258892/gabbar0x"
+      }
+    },
+    {
+      "question_id": 49899164,
+      "title": "Convert String to GET request Parameter in Dart using standard library",
+      "accepted_answer_id": 49899285,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/49899164/convert-string-to-get-request-parameter-in-dart-using-standard-library",
+      "owner": {
+        "display_name": "gabbar0x",
+        "link": "https://stackoverflow.com/users/4258892/gabbar0x"
+      }
+    },
+    {
+      "question_id": 56638826,
+      "title": "Downloading progress in dart:http",
+      "accepted_answer_id": 56649080,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/56638826/downloading-progress-in-darthttp",
+      "owner": {
+        "display_name": "Evaldo Bratti",
+        "link": "https://stackoverflow.com/users/4759330/evaldo-bratti"
+      }
+    },
+    {
+      "question_id": 54104685,
+      "title": "Flutter add self signed certificate from asset folder",
+      "accepted_answer_id": 54110360,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/54104685/flutter-add-self-signed-certificate-from-asset-folder",
+      "owner": {
+        "display_name": "Siddharth jain",
+        "link": "https://stackoverflow.com/users/6422618/siddharth-jain"
+      }
+    },
+    {
+      "question_id": 57369129,
+      "title": "Flutter: Http post request Error Invalid media type: expected",
+      "accepted_answer_id": 57369421,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/57369129/flutter-http-post-request-error-invalid-media-type-expected",
+      "owner": {
+        "display_name": "Achin Verma",
+        "link": "https://stackoverflow.com/users/2827591/achin-verma"
+      }
+    },
+    {
+      "question_id": 70741356,
+      "title": "Flutter add client certificate to request using http.dart",
+      "accepted_answer_id": 70742465,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/70741356/flutter-add-client-certificate-to-request-using-http-dart",
+      "owner": {
+        "display_name": "Yonatan",
+        "link": "https://stackoverflow.com/users/6284863/yonatan"
+      }
+    },
+    {
+      "question_id": 26174202,
+      "title": "How can I use shelf_web_socket to listen for http and ws requests on the same port",
+      "accepted_answer_id": 26174547,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/26174202/how-can-i-use-shelf-web-socket-to-listen-for-http-and-ws-requests-on-the-same-po",
+      "owner": {
+        "display_name": "G&#252;nter Z&#246;chbauer",
+        "link": "https://stackoverflow.com/users/217408/g%c3%bcnter-z%c3%b6chbauer"
+      }
+    },
+    {
+      "question_id": 56686023,
+      "title": "How to manage blocs thrown exceptions with StreamBuilder?",
+      "accepted_answer_id": 56686180,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/56686023/how-to-manage-blocs-thrown-exceptions-with-streambuilder",
+      "owner": {
+        "display_name": "E.Benedos",
+        "link": "https://stackoverflow.com/users/10883652/e-benedos"
+      }
+    },
+    {
+      "question_id": 67351665,
+      "title": "fetching the response from API and dealing with the errors / converting Bytestreem to Map in flutter",
+      "accepted_answer_id": 67351775,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/67351665/fetching-the-response-from-api-and-dealing-with-the-errors-converting-bytestre",
+      "owner": {
+        "display_name": "Rabiee Nasri",
+        "link": "https://stackoverflow.com/users/13470875/rabiee-nasri"
+      }
+    },
+    {
+      "question_id": 29186785,
+      "title": "Access http response body from outside",
+      "accepted_answer_id": 29186860,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/29186785/access-http-response-body-from-outside",
+      "owner": {
+        "display_name": "spaenigs",
+        "link": "https://stackoverflow.com/users/4697995/spaenigs"
+      }
+    },
+    {
+      "question_id": 31905527,
+      "title": "Reusable Sync HttpClient Request",
+      "accepted_answer_id": 31905574,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/31905527/reusable-sync-httpclient-request",
+      "owner": {
+        "display_name": "user4413773",
+        "link": null
+      }
+    },
+    {
+      "question_id": 57456086,
+      "title": "Flutter - Unhandled Exception: type &#39;_InternalLinkedHashMap&lt;String, dynamic&gt;",
+      "accepted_answer_id": 57456586,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/57456086/flutter-unhandled-exception-type-internallinkedhashmapstring-dynamic",
+      "owner": {
+        "display_name": "Achin Verma",
+        "link": "https://stackoverflow.com/users/2827591/achin-verma"
+      }
+    },
+    {
+      "question_id": 57699916,
+      "title": "Is it possible to make a GET request with a body in Flutter?",
+      "accepted_answer_id": 57700419,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/57699916/is-it-possible-to-make-a-get-request-with-a-body-in-flutter",
+      "owner": {
+        "display_name": "UndercoverCoder",
+        "link": "https://stackoverflow.com/users/9120849/undercovercoder"
+      }
+    },
+    {
+      "question_id": 72872501,
+      "title": "How do I access and print the elements in my http Response; Flutter, Dart",
+      "accepted_answer_id": 72872645,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/72872501/how-do-i-access-and-print-the-elements-in-my-http-response-flutter-dart",
+      "owner": {
+        "display_name": "JoshuaaMarkk",
+        "link": "https://stackoverflow.com/users/19488468/joshuaamarkk"
+      }
+    },
+    {
+      "question_id": 52244542,
+      "title": "Make a http request in dart whith dart:io",
+      "accepted_answer_id": 52247659,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/52244542/make-a-http-request-in-dart-whith-dartio",
+      "owner": {
+        "display_name": "Colin Demol",
+        "link": "https://stackoverflow.com/users/10337405/colin-demol"
+      }
+    },
+    {
+      "question_id": 58255792,
+      "title": "Decoding error when uploading file from Flutter frontend to Django backend",
+      "accepted_answer_id": 58261257,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/58255792/decoding-error-when-uploading-file-from-flutter-frontend-to-django-backend",
+      "owner": {
+        "display_name": "poultrynews",
+        "link": "https://stackoverflow.com/users/8856497/poultrynews"
+      }
+    },
+    {
+      "question_id": 60132176,
+      "title": "Dart cast using wrong type?",
+      "accepted_answer_id": 60132517,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/60132176/dart-cast-using-wrong-type",
+      "owner": {
+        "display_name": "Wecherowski",
+        "link": "https://stackoverflow.com/users/6147174/wecherowski"
+      }
+    },
+    {
+      "question_id": 66518522,
+      "title": "Flutter/Dart http POST redirect send body via GET",
+      "accepted_answer_id": 66518780,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/66518522/flutter-dart-http-post-redirect-send-body-via-get",
+      "owner": {
+        "display_name": "Joshua Beckers",
+        "link": "https://stackoverflow.com/users/6999645/joshua-beckers"
+      }
+    },
+    {
+      "question_id": 66759671,
+      "title": "The operator &#39;+&#39; isn&#39;t defined for the type &#39;Uri&#39;",
+      "accepted_answer_id": 66759907,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/66759671/the-operator-isnt-defined-for-the-type-uri",
+      "owner": {
+        "display_name": "Kevnlan",
+        "link": "https://stackoverflow.com/users/6593226/kevnlan"
+      }
+    },
+    {
+      "question_id": 68174666,
+      "title": "How to send AWS iot http request from flutter app using certificates?",
+      "accepted_answer_id": 68190744,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/68174666/how-to-send-aws-iot-http-request-from-flutter-app-using-certificates",
+      "owner": {
+        "display_name": "emdeedot",
+        "link": "https://stackoverflow.com/users/15547218/emdeedot"
+      }
+    },
+    {
+      "question_id": 69965972,
+      "title": "Flutter does not handle http redirect correctly",
+      "accepted_answer_id": 69973749,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/69965972/flutter-does-not-handle-http-redirect-correctly",
+      "owner": {
+        "display_name": "Daniel Dario",
+        "link": "https://stackoverflow.com/users/17412002/daniel-dario"
+      }
+    },
+    {
+      "question_id": 71997467,
+      "title": "How to pass an image as parameter to a key in a post request Flutter?",
+      "accepted_answer_id": 71997638,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/71997467/how-to-pass-an-image-as-parameter-to-a-key-in-a-post-request-flutter",
+      "owner": {
+        "display_name": "Shourya Shikhar",
+        "link": "https://stackoverflow.com/users/10951873/shourya-shikhar"
+      }
+    },
+    {
+      "question_id": 79337176,
+      "title": "Fetch data from internet with flutter but failed to show data",
+      "accepted_answer_id": 79337368,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/79337176/fetch-data-from-internet-with-flutter-but-failed-to-show-data",
+      "owner": {
+        "display_name": "shotmeinthehead",
+        "link": "https://stackoverflow.com/users/14383106/shotmeinthehead"
+      }
+    },
+    {
+      "question_id": 56735549,
+      "title": "Async and await tasks take too much time",
+      "accepted_answer_id": 56737234,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/56735549/async-and-await-tasks-take-too-much-time",
+      "owner": {
+        "display_name": "user9139407",
+        "link": "https://stackoverflow.com/users/9139407/user9139407"
+      }
+    },
+    {
+      "question_id": 59698040,
+      "title": "Error when trying to do a HTTP Post request in Flutter",
+      "accepted_answer_id": 59714279,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/59698040/error-when-trying-to-do-a-http-post-request-in-flutter",
+      "owner": {
+        "display_name": "Vlad Hondru",
+        "link": "https://stackoverflow.com/users/11606179/vlad-hondru"
+      }
+    },
+    {
+      "question_id": 62674439,
+      "title": "#I/flutter (11573): Text(&quot;Error Occured: FormatException: Invalid radix-10 number (at character 1)\\n//api.ergagro.com:112\\n^\\n&quot;)",
+      "accepted_answer_id": 67346256,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/62674439/i-flutter-11573-texterror-occured-formatexception-invalid-radix-10-numbe",
+      "owner": {
+        "display_name": "jonah rimsy",
+        "link": "https://stackoverflow.com/users/8394561/jonah-rimsy"
+      }
+    },
+    {
+      "question_id": 63091161,
+      "title": "How to set limit for max connection for single client in Dart http_server?",
+      "accepted_answer_id": 66402004,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/63091161/how-to-set-limit-for-max-connection-for-single-client-in-dart-http-server",
+      "owner": {
+        "display_name": "SKJ",
+        "link": "https://stackoverflow.com/users/10413550/skj"
+      }
+    },
+    {
+      "question_id": 64197999,
+      "title": "BITMEX API - Cancel Order by given Symbol - How to do in Dart Language?",
+      "accepted_answer_id": 64234426,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/64197999/bitmex-api-cancel-order-by-given-symbol-how-to-do-in-dart-language",
+      "owner": {
+        "display_name": "ASIAMINOR",
+        "link": "https://stackoverflow.com/users/12524750/asiaminor"
+      }
+    },
+    {
+      "question_id": 65492431,
+      "title": "Express JS changing line break type to CRLF",
+      "accepted_answer_id": 65555118,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/65492431/express-js-changing-line-break-type-to-crlf",
+      "owner": {
+        "display_name": "niclassic",
+        "link": "https://stackoverflow.com/users/11995878/niclassic"
+      }
+    },
+    {
+      "question_id": 66801064,
+      "title": "How to specify Flutter/dart HTTP protocol version (HTTP/1.1, --http1.1)",
+      "accepted_answer_id": 66801945,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/66801064/how-to-specify-flutter-dart-http-protocol-version-http-1-1-http1-1",
+      "owner": {
+        "display_name": "MartinM",
+        "link": "https://stackoverflow.com/users/4684512/martinm"
+      }
+    },
+    {
+      "question_id": 69858850,
+      "title": "Fetch Data from a Wix Database through http request",
+      "accepted_answer_id": 69861878,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/69858850/fetch-data-from-a-wix-database-through-http-request",
+      "owner": {
+        "display_name": "Dee Jott",
+        "link": "https://stackoverflow.com/users/10249921/dee-jott"
+      }
+    },
+    {
+      "question_id": 69949101,
+      "title": "iOS flutter workmanager fails when trying to execute http.get in background",
+      "accepted_answer_id": 69967872,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/69949101/ios-flutter-workmanager-fails-when-trying-to-execute-http-get-in-background",
+      "owner": {
+        "display_name": "Kristin Vernon",
+        "link": "https://stackoverflow.com/users/4708345/kristin-vernon"
+      }
+    },
+    {
+      "question_id": 73238330,
+      "title": "How I can manually iterate and filter some items from a json that may or many not contain an array?",
+      "accepted_answer_id": 73251595,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/73238330/how-i-can-manually-iterate-and-filter-some-items-from-a-json-that-may-or-many-no",
+      "owner": {
+        "display_name": "Dimitrios Desyllas",
+        "link": "https://stackoverflow.com/users/4706711/dimitrios-desyllas"
+      }
+    },
+    {
+      "question_id": 76879248,
+      "title": "Post request with dart to flask gives out OPTIONS with code 200",
+      "accepted_answer_id": 76883005,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/76879248/post-request-with-dart-to-flask-gives-out-options-with-code-200",
+      "owner": {
+        "display_name": "Rafael_O",
+        "link": "https://stackoverflow.com/users/14701671/rafael-o"
+      }
+    },
+    {
+      "question_id": 77277166,
+      "title": "How to not follow redirects with Darts http-package? request.followRedirects = false is set",
+      "accepted_answer_id": 77284773,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/77277166/how-to-not-follow-redirects-with-darts-http-package-request-followredirects-f",
+      "owner": {
+        "display_name": "di-math",
+        "link": "https://stackoverflow.com/users/15184430/di-math"
+      }
+    },
+    {
+      "question_id": 78764239,
+      "title": "How to upload image using dart http",
+      "accepted_answer_id": 78764375,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/78764239/how-to-upload-image-using-dart-http",
+      "owner": {
+        "display_name": "Ardabily",
+        "link": "https://stackoverflow.com/users/17729354/ardabily"
+      }
+    },
+    {
+      "question_id": 78648833,
+      "title": "Unknown `InternetAddress` calls in log of the Dart Network Tool",
+      "accepted_answer_id": 78648847,
+      "score": -2,
+      "link": "https://stackoverflow.com/questions/78648833/unknown-internetaddress-calls-in-log-of-the-dart-network-tool",
+      "owner": {
+        "display_name": "Thomas",
+        "link": "https://stackoverflow.com/users/1412966/thomas"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 79337368,
+      "body": "<p>When I examined your code in general, one thing caught my attention. You are using a function sign () on the data coming from the future. I think this may cause the problem. Also, using a try catch block when making a request to the API may be more helpful in finding the source of the error.</p>\n<p>You can try these codes for solution.</p>\n<pre><code>FutureBuilder&lt;Prayer&gt;(\n  future: futurePrayer,\n  builder: (context, snapshot) {\n    if (snapshot.connectionState == ConnectionState.waiting) {\n      return const CircularProgressIndicator();\n    } else if (snapshot.hasError) {\n      return Text('Error: ${snapshot.error}');\n    } else if (snapshot.hasData) {\n      return Text('Ashar Time: ${snapshot.data!.ashar}');\n    } else {\n      return const Text('No data available');\n    }\n  },\n),\n\n Future&lt;Prayer&gt; ApiBaseHelper() async {\n          try {\n            final response = await http.get(\n              Uri.parse('https://api.myquran.com/v2/sholat/jadwal/1420/2025-01-05'),\n            );\n        \n            if (response.statusCode == 200) {\n              return Prayer.fromJson(jsonDecode(response.body) as Map&lt;String, dynamic&gt;);\n            } else {\n              throw Exception('Failed to load prayer data');\n            }\n          } catch (e) {\n            throw Exception('Error fetching data: $e');\n          }\n        }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Yusuf",
+        "link": "https://stackoverflow.com/users/17739828/yusuf"
+      }
+    },
+    {
+      "answer_id": 78764375,
+      "body": "<ul>\n<li><p>Add <strong>http parser</strong> package to be able to define MediaType</p>\n<p>import 'package:http_parser/http_parser.dart';</p>\n</li>\n<li><p>Convert the image (from path) to bytes by:</p>\n<pre><code>request.files.add(\n  http.MultipartFile.fromBytes('foto', File(file.path).readAsBytesSync(),\n      filename: selfie,\n      contentType: MediaType(\n        'image',\n        'jpeg',\n      )));\n</code></pre>\n</li>\n</ul>\n<p>The two Media Types defined here should work, but you can check out for more MediaType as demanded for your use case</p>\n<ul>\n<li><p>Add to your header;</p>\n<pre><code>var header = {\n&quot;Content-Type&quot;: &quot;multipart/form-data&quot;,\n&quot;Accept&quot;: &quot;*/*&quot;\n</code></pre>\n<p>};</p>\n</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Olawale Ajepe",
+        "link": "https://stackoverflow.com/users/16371001/olawale-ajepe"
+      }
+    },
+    {
+      "answer_id": 78648847,
+      "body": "<p>The &quot;ws&quot; part are a known bug (reported by me 3 years ago...): <a href=\"https://github.com/flutter/devtools/issues/3033\" rel=\"nofollow noreferrer\">https://github.com/flutter/devtools/issues/3033</a></p>\n<p>It is most likely TCP sockets themself you are seeing where the HTTP/HTTPS traffic are going though. If you are not reusing your <code>HttpClient</code> instance, it will not try reuse existing connections which can give this pattern you are seeing where you are seeing new sockets getting created to the same endpoint.</p>\n",
+      "owner": {
+        "display_name": "julemand101",
+        "link": "https://stackoverflow.com/users/1953515/julemand101"
+      }
+    },
+    {
+      "answer_id": 77284773,
+      "body": "<p>I just found the explanation in the <a href=\"https://pub.dev/documentation/http/latest/browser_client/BrowserClient-class.html\" rel=\"nofollow noreferrer\">docs</a>:</p>\n<blockquote>\n<p>A dart:html-based HTTP client that runs in the browser and is backed by\nXMLHttpRequests. This client inherits some of the limitations of XMLHttpRequest. <strong>It ignores</strong> the BaseRequest.contentLength, BaseRequest.persistentConnection, <strong>BaseRequest.followRedirects</strong>, and BaseRequest.maxRedirects fields. It is also unable to stream requests or responses; a request will only be sent and a response will only be returned once all the data is available.</p>\n</blockquote>\n<p>Reason seems to be that with XMLHttpRequest redirects are transparent followed by the browser.</p>\n",
+      "owner": {
+        "display_name": "di-math",
+        "link": "https://stackoverflow.com/users/15184430/di-math"
+      }
+    },
+    {
+      "answer_id": 76883005,
+      "body": "<p>Fixed by adding CORS to flask</p>\n<pre><code>from flask_cors import CORS\n\n\napp = Flask(__name__)\napp.config.from_object(AppConfiguration)\ncors = CORS(app)\napp.config['CORS_HEADERS'] = 'Content-Type'\napi = Api(app)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rafael_O",
+        "link": "https://stackoverflow.com/users/14701671/rafael-o"
+      }
+    },
+    {
+      "answer_id": 73251595,
+      "body": "<p>An approach you can do it the following:</p>\n<p>Iterate the var stores using a loop and using a classic if place them into the nessesary list:</p>\n<pre class=\"lang-dart prettyprint-override\"><code>var stores = responseJson['stores'];\nList&lt;Store&gt; storesToReturn = [];\n\nfor(store in stores) {\n   if(store.sellsDrugs){\n      storesToReturn.add(Store(store.id, store['profile'][0]['title']));\n   }\n}\n\n</code></pre>\n<p>So the final class will be:</p>\n<pre class=\"lang-dart prettyprint-override\"><code>import 'package:http/http.dart' as http;\nimport 'dart:convert';\n\nclass Api \n{\n  final String __baseUrl = &quot;https://api.example.com&quot;\n  String? __token=&quot;&quot;;\n  \n  // Some constructors here\n\n  Future&lt;List&lt;Store&gt;&gt; login(String username, String password) async {\n     Uri url = Uri.parse(__base_url + &quot;/login&quot;);\n     var response = await http.post(url, body: {\n         'email': email,\n         'password': password\n       }, headers: {\n         &quot;Accept&quot;: &quot;application/vnd.api.myapi.v3+json&quot;,\n        &quot;Accept-Language&quot;: &quot;en&quot;\n      });\n      \n      // I ommin status code checks for simplicity in question\n      var responseJson = json.decode(response.body);\n      __token = responseJson['tekken'];\n      \n      var stores = responseJson['stores']\n\n      List&lt;Store&gt; storesToReturn = [];\n\n    for(store in stores) {\n     if(store.sellsDrugs){\n      storesToReturn.add(Store(store.id, store['profile'][0]['title']));\n     }\n    }\n\n    return storesToReturn;\n  }\n}\n\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dimitrios Desyllas",
+        "link": "https://stackoverflow.com/users/4706711/dimitrios-desyllas"
+      }
+    },
+    {
+      "answer_id": 72872645,
+      "body": "<p>You need to use the <a href=\"https://api.flutter.dev/flutter/dart-convert/dart-convert-library.html\" rel=\"nofollow noreferrer\"><code>dart:convert</code></a> library to convert the JSON response into a <code>Map</code>. Then you can access the key/value pairs as your would with a regular <code>Map</code>. You'll also have to add a cast (in my example at least) for the correct type using the <code>as</code> keyword.\nFor example:</p>\n<pre class=\"lang-dart prettyprint-override\"><code>import 'dart:convert';\n\nvoid main() {\nfinal s = &quot;&quot;&quot;\n  {\n   &quot;RESPONSE&quot;:{\n      &quot;BASEL_RESPONSE&quot;:{\n         &quot;UserDate&quot;:&quot;0&quot;,\n         &quot;UserTime&quot;:&quot;0&quot;,\n         &quot;module_config_1&quot;:&quot;0&quot;,\n         &quot;module_config_2&quot;:&quot;0&quot;,\n         &quot;ErrEntity&quot;:{\n            &quot;MessageID&quot;:&quot;1110&quot;,\n            &quot;Message&quot;:&quot;Field Code is mandatory&quot;,\n            &quot;last_req_id&quot;:&quot;50029&quot;,\n            &quot;table_id&quot;:&quot;0&quot;,\n            &quot;operation_id&quot;:&quot;0&quot;\n         },\n         &quot;is_csv&quot;:&quot;0&quot;,\n         &quot;VersionName&quot;:&quot;DYMA @ 6.1.24.0, ORG @ 2017.3.22.15.0.41, GRC @ 2017.3.22.15.0.55, LDC @ 2017.3.22.15.1.8, DYMA_XML @ 2017.3.22.15.0.30, NAS @ 2017.3.22.15.1.22 - Config: 0 - Node: OPRISK_DATACOLLECTOR&quot;,\n         &quot;ExpiryDate&quot;:&quot;31/01/2030&quot;,\n         &quot;count_key&quot;:&quot;0&quot;,\n         &quot;id_Us&quot;:&quot;0&quot;,\n         &quot;is_popup&quot;:&quot;0&quot;,\n         &quot;tot_messages&quot;:&quot;0&quot;,\n         &quot;my_messages&quot;:&quot;0&quot;,\n         &quot;product&quot;:&quot;0&quot;\n      },\n      &quot;RESPONSE_HEADER&quot;:{\n         &quot;NomeRichiesta&quot;:&quot;LOGIN_REQUEST&quot;,\n         &quot;ltimeStart&quot;:&quot;23531871&quot;,\n         &quot;ltimeStop&quot;:&quot;23531884&quot;,\n         &quot;ldate_null&quot;:&quot;19900101&quot;,\n         &quot;product&quot;:&quot;1&quot;,\n         &quot;server_name&quot;:&quot;OPRISK_DATACOLLECTOR&quot;,\n         &quot;cell_context_id&quot;:&quot;538058&quot;,\n         &quot;operation_key&quot;:&quot;1000000&quot;,\n         &quot;operation_sub_num&quot;:&quot;-1&quot;\n      }\n   }\n}\n  &quot;&quot;&quot;;\nfinal data = jsonDecode(s);\nprint((data as Map)['RESPONSE']['BASEL_RESPONSE']['ErrEntity']);\n\n\n}\n\n</code></pre>\n<p>Prints:</p>\n<pre class=\"lang-dart prettyprint-override\"><code>{MessageID: 1110, Message: Field Code is mandatory, last_req_id: 50029, table_id: 0, operation_id: 0}\n</code></pre>\n<hr />\n<p>In your case, you'll ned to use:</p>\n<pre class=\"lang-dart prettyprint-override\"><code>final data = jsonDecode(res.body);\n</code></pre>\n<p>to convert the data.</p>\n<hr />\n<p>I do though recommend that you use a Class model instead. You can use <a href=\"https://app.quicktype.io/\" rel=\"nofollow noreferrer\">quicktype.io</a> to generate one for you automatically.</p>\n<p>See:</p>\n<ul>\n<li><a href=\"https://stackoverflow.com/q/55789048/12349734\">What does the &quot;as&quot; keyword do in Dart language?</a></li>\n<li><a href=\"https://stackoverflow.com/questions/53001839/how-to-convert-response-json-to-object-in-flutter\">How to convert Response JSON to Object in Flutter?</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "MendelG",
+        "link": "https://stackoverflow.com/users/12349734/mendelg"
+      }
+    },
+    {
+      "answer_id": 71997638,
+      "body": "<pre><code>uploadTest(FilePickerResult result, String url, docname, formId,\n      {lastService: false}) async {\n    print(result);\n    if (result != null) {\n      String filename = docname;\n      final file = result.files.first;\n      // if (lastService == true) {\n      filename = docname + '.' + file.name.split(&quot;.&quot;)[1];\n      print(&quot;filename is $filename&quot;);\n      // }\n\n      var uri = Uri.parse(url);\n      var stream = http.ByteStream(file.readStream);\n      var request = http.MultipartRequest('POST', uri);\n      final mimeType = lookupMimeType(file.name ?? '');\n      var val1 = {\n        &quot;customerId&quot;: variableMap['customerId'],\n        &quot;FormId&quot;: formId,\n        &quot;docName&quot;: filename\n      };\n      final val2 = json.encode(val1);\n      request.fields['val'] = val2;\n      var multipartFile = http.MultipartFile(\n        'myFile',\n        stream,\n        file.size,\n        filename: filename,\n        contentType: mimeType == null ? null : MediaType.parse(mimeType),\n      );\n\n      request.files.add(multipartFile);\n      final httpClient = http.Client();\n      final response = await httpClient.send(request);\n      if (response.statusCode != 200) {\n        throw Exception('HTTP ${response.statusCode}');\n      }\n\n      final body = await response.stream.transform(utf8.decoder).join();\n\n      print(body);\n    }\n  }\n</code></pre>\n<p>// I am posting the method that i used ..havenot customized as your usecase. It performs the imageupload from the filePicker</p>\n",
+      "owner": {
+        "display_name": "Vinamra Jaiswal",
+        "link": "https://stackoverflow.com/users/11423386/vinamra-jaiswal"
+      }
+    },
+    {
+      "answer_id": 70742465,
+      "body": "<p>Don't use the <code>http.Client()</code> constructor. Instead, construct an <code>IOClient</code> (which is a subclass of <code>Client</code> as can be used instead). Pass in your <code>HttpClient</code>.</p>\n<pre><code>import 'dart:io';\n\nimport 'package:http/io_client.dart';\n\nvoid main() async {\n  final context = SecurityContext.defaultContext;\n  // modify context as needed\n  final httpClient = HttpClient(context: context);\n  final client = IOClient(httpClient);\n\n  await client.get(Uri.parse('https://somewhere.io'));\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Richard Heap",
+        "link": "https://stackoverflow.com/users/9597706/richard-heap"
+      }
+    },
+    {
+      "answer_id": 69973749,
+      "body": "<p>This is a problem with your backend, not with Flutter or the <code>http</code> package. It does not change HTTP response codes or headers.</p>\n<p>As for the cause of the different responses between your browser and your code, something about your request is causing this.</p>\n<p>Perhaps your request body is malformed - it's not being formed in a very robust way. What of one of the values has an ampersand in it?</p>\n<p>Otherwise, it could be a matter of incorrect request headers. Your request looks like a form submission, but that should be include a header describing the body format.</p>\n",
+      "owner": {
+        "display_name": "hacker1024",
+        "link": "https://stackoverflow.com/users/13458266/hacker1024"
+      }
+    },
+    {
+      "answer_id": 69967872,
+      "body": "<p>I simply needed to put my setSwitches function as a Future.</p>\n",
+      "owner": {
+        "display_name": "Kristin Vernon",
+        "link": "https://stackoverflow.com/users/4708345/kristin-vernon"
+      }
+    },
+    {
+      "answer_id": 69861878,
+      "body": "<p>This is the line causing your error</p>\n<pre><code>final jsonData = jsonDecode(response.body) as List;\n</code></pre>\n<p>The data being returned from the endpoint is a Map and not a List.</p>\n<pre><code>{\n  &quot;items&quot;: [\n    {},\n    ...\n  ],\n}\n</code></pre>\n<p>To access the list, try accessing the items property of the map by changing the declaration to</p>\n<pre><code>final jsonData = jsonDecode(response.body)[&quot;items&quot;] as List;\n</code></pre>\n",
+      "owner": {
+        "display_name": "developerjamiu",
+        "link": "https://stackoverflow.com/users/11437160/developerjamiu"
+      }
+    },
+    {
+      "answer_id": 68190744,
+      "body": "<p>OP here.</p>\n<p>Setting alpn protocol for the context solved the authentication token issue</p>\n<pre><code>...\ncontext.setAlpnProtocols([&quot;x-amzn-http-ca&quot;], false);\n...\n</code></pre>\n<p>Then I set up a global flag on whether or not the certificates are already set. If already set, no need to set again.</p>\n<p>Global scope</p>\n<pre><code>bool setCert = false;\n</code></pre>\n<p>Function scope</p>\n<pre><code>if (!setCert){\n  // Set certificates &amp; alpn protocol here\n  setCert = true;\n}\n</code></pre>\n<p>And it solved the second issue.</p>\n",
+      "owner": {
+        "display_name": "emdeedot",
+        "link": "https://stackoverflow.com/users/15547218/emdeedot"
+      }
+    },
+    {
+      "answer_id": 67351775,
+      "body": "<p>Add this As for Error your statusCode is not 200</p>\n<pre><code>       try {\n              if (response.statusCode == 200) {\n                await response.stream.bytesToString().then((value) {\n                  print(value);\n                });\n              } else {\n        await response.stream.bytesToString().then((value) {\n                  print(value);\n    \n    \n    var jsonResponse = json.decode(response.body.toString());\n    \n    \n               \n        var nameError = jsonResponse[&quot;errors&quot;][&quot;name&quot;][0];\n        \n        var emailError = jsonResponse[&quot;errors&quot;][&quot;email&quot;][0];\n        var usernameError = jsonResponse[&quot;errors&quot;][&quot;username&quot;][0];\n        var passwordError = jsonResponse[&quot;errors&quot;][&quot;password&quot;][0];\n\n//now can print any print(emailError);\n                });\n        }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Tasnuva Tavasum oshin",
+        "link": "https://stackoverflow.com/users/8480069/tasnuva-tavasum-oshin"
+      }
+    },
+    {
+      "answer_id": 67346256,
+      "body": "<p><strong>use</strong></p>\n<pre><code>        final url = new Uri.http('api.ergagro.com:112',\n            '/CheckDailyStockTakingStatus', queryParameters);\n</code></pre>\n<p><strong>instance of</strong></p>\n<pre><code>final url = new Uri.http('http://api.ergagro.com:112',\n      '/CheckDailyStockTakingStatus', queryParameters);\n</code></pre>\n<p>just remove\n<strong>http://</strong> from url<br>\nwhen you use <strong>Uri.http</strong>\n<br> it's wok for me thanks.</p>\n",
+      "owner": {
+        "display_name": "Sandeep Pareek",
+        "link": "https://stackoverflow.com/users/9885352/sandeep-pareek"
+      }
+    },
+    {
+      "answer_id": 66801945,
+      "body": "<pre><code>Checked the following code example\n\n\n\n  Future createUserExample(Map&lt;String,dynamic&gt; data) async {\nfinal http.Response response = await http.post(\n    'https://api.dummyapi.com/v1/route',\n    headers: &lt;String, String&gt;{\n      'Authorization': '000000-000000-000000-000000',\n      'accept': 'text/plain',\n      'Content-Type': 'application/json'\n    },\n    body: data,\n);\nreturn response;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mohamed Mesalm",
+        "link": "https://stackoverflow.com/users/6002868/mohamed-mesalm"
+      }
+    },
+    {
+      "answer_id": 66759907,
+      "body": "<p>Use it this way, by combining your strings first, then parsing your Uri. Uri class\\object is not a string that you can concatenate strings by using +. Do the following:</p>\n<pre><code>String _urlBase = 'http://192.168.1.236/connect/api/v1';\n</code></pre>\n<p>keep the getToken() function as it as, and then use this:</p>\n<pre><code>authData(data, apiUrl) async {\ntry {\n  String _finalUrl = _urlBase + apiUrl;\n  Uri _uri = Uri.parse(_finalUrl);\n  return await http.post(_uri,\n      body: jsonEncode(data), headers: _setHeaders());\n} catch (e) {\n  print(e);\n}\n}\n</code></pre>\n<p>That should solve your problem.</p>\n",
+      "owner": {
+        "display_name": "Huthaifa Muayyad",
+        "link": "https://stackoverflow.com/users/13558035/huthaifa-muayyad"
+      }
+    },
+    {
+      "answer_id": 66518780,
+      "body": "<p>you can use dio request instead</p>\n<pre><code>await dio.request(\n  &quot;/test&quot;,\n  data: {&quot;id&quot;: 12, &quot;name&quot;: &quot;xx&quot;},\n  options: Options(method: &quot;GET&quot;),\n);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Pavel Shastov",
+        "link": "https://stackoverflow.com/users/8484764/pavel-shastov"
+      }
+    },
+    {
+      "answer_id": 66402004,
+      "body": "<p>I found the <code>connectionsInfo()</code> API in dart:io library</p>\n<p>from <code>connectionsInfo()</code> API we can access four types of values/properties: <code>Total</code>,<code>Active</code>,<code>Idle</code>,<code>Closeing</code> <a href=\"https://api.dart.dev/stable/2.12.0/dart-io/HttpConnectionsInfo-class.html\" rel=\"nofollow noreferrer\">see HttpConnectionsInfo Class documentation</a></p>\n<p>To limit the Max Connection we have to use <code>if-else</code> statement when the server is listening to the client request:<br/></p>\n<pre><code>...\n//_server is an httpServer\n_server.listen((req){\n\n    int maxConnection = 4;\n    \n    //if active connections are more than maxConnection than server will not response to any request\n    if(_server.connectionsInfo().active &lt;= maxConnection){\n    \n        staticFiles.serveRequest(req);\n        // Or Your Logic for request response...\n        \n    }\n});\n...\n</code></pre>\n",
+      "owner": {
+        "display_name": "SKJ",
+        "link": "https://stackoverflow.com/users/10413550/skj"
+      }
+    },
+    {
+      "answer_id": 65555118,
+      "body": "<p>For anyone stumbling across this question, I fixed it by reconfiguring my API-Server. Closer inspection of this problem lead to the conclusion that neither the App nor the API was bad, due to the fact no API-Request did actually reach my API-Code. I figured it out by simply looking at the logs. In my case, it was NginX not working properly as a reverse-proxy. I followed <a href=\"https://medium.com/@chinmaypatil/deploying-nodejs-express-mongodb-application-on-aws-ec2-e32a8e3ea8a1\" rel=\"nofollow noreferrer\">this</a> tutorial to properly set it put.</p>\n",
+      "owner": {
+        "display_name": "niclassic",
+        "link": "https://stackoverflow.com/users/11995878/niclassic"
+      }
+    },
+    {
+      "answer_id": 53838367,
+      "body": "<p>After waiting for a week or so. I didn't get response. Thus I developed a plugin myself to get this behavior. Package <a href=\"https://pub.dartlang.org/packages/multipart_request\" rel=\"nofollow noreferrer\">link</a>.</p>\n<p>Example to use it:</p>\n<pre><code>var request = MultipartRequest();\n\nrequest.addFile(&quot;image&quot;, imagePath);\n\nResponse response = request.send();\n\nresponse.onError = () {\n  print(&quot;Error&quot;);\n};\n\nresponse.onComplete = (response) {\n  print(response);\n};\n\n//Not 100% success\nresponse.progress.listen((int progress) {\n  print(&quot;progress from response object &quot; + progress.toString());\n});\n</code></pre>\n<p><strong>Update Jun 30, 2020</strong></p>\n<p>The package now supports iOS as well.</p>\n",
+      "owner": {
+        "display_name": "Aawaz Gyawali",
+        "link": "https://stackoverflow.com/users/3931968/aawaz-gyawali"
+      }
+    },
+    {
+      "answer_id": 64234426,
+      "body": "<p>I spent almost 2 days to figure out this:) One day, hope to useful to someone need like me..</p>\n<p>Here is the my solution to sent cancel order to bitmex... In dart language.</p>\n<p>Also you can  create a valid signature and authentication with this code..</p>\n<p>Cheers</p>\n<pre><code>    var verb = &quot;DELETE&quot;;\n    var path = &quot;/api/v1/order&quot;;\n    var query = &quot;orderID=$ordID&quot;;\n    if (query != &quot;&quot;) path = path + &quot;?&quot; + query;\n    return await bitmexHttpService.authRequest(verb: verb, path: path);\n\nFuture&lt;String&gt; authRequest({String verb, String path, String data = &quot;&quot;}) async {\n    var _nonce = ((DateTime.now()).microsecondsSinceEpoch).toInt();\n    var _signature = signature(apiSecret, verb, path, _nonce);\n    var headerWithAuthCredentials = createHeader(verb, _nonce, _signature);\n\n    http.Response response;\n    try {\n      if (verb == &quot;GET&quot;)\n        response = await http.get(baseUrl + path, headers: headerWithAuthCredentials);\n      else if (verb == &quot;POST&quot;)\n        response = await http.post(baseUrl + path, body: data, headers: headerWithAuthCredentials);\n      else if (verb == &quot;DELETE&quot;) {\n        response = await http.delete(baseUrl + path, headers: headerWithAuthCredentials);\n      }\n\n      if (response.statusCode == 200)\n        return response.body;\n      else {\n        var json = jsonDecode(response.body);\n        throw Failure(message: json[&quot;error&quot;][&quot;message&quot;]);\n      }\n    } catch (e) {\n      print(e.toString());\n    }\n  }\n\n  Map&lt;String, String&gt; createHeader(String verb, int nonce, _signature) {\n    return {\n      &quot;api-key&quot;: &quot;$apiKey&quot;,\n      &quot;api-expires&quot;: nonce.toString(),\n      &quot;api-signature&quot;: &quot;${_signature.toString()}&quot;,\n      'content-type': 'application/x-www-form-urlencoded;charset=utf-8',\n      'accept': 'application/json',\n      'x-Requested-With': 'XMLHttpRequest',\n    };\n  }\n\n  signature(String apiSecret, String verb, String path, int nonce) {\n    var message = verb + path + nonce.toString();\n    var messageEncoded = utf8.encode(message.trim());\n    var apiSecretEncoded = utf8.encode(apiSecret);\n    var apiSecretAshMacSha256 = new Hmac(sha256, apiSecretEncoded);\n    var sign = apiSecretAshMacSha256.convert(messageEncoded);\n    return sign;\n  }\n\n</code></pre>\n",
+      "owner": {
+        "display_name": "ASIAMINOR",
+        "link": "https://stackoverflow.com/users/12524750/asiaminor"
+      }
+    },
+    {
+      "answer_id": 60132517,
+      "body": "<p>It looks like it is correct. <code>cast</code> is a method of <code>Iterable</code>. The type in angle brackets is the type of each element in the iterable.</p>\n\n<p><a href=\"https://api.dart.dev/stable/2.7.1/dart-core/Iterable/cast.html\" rel=\"nofollow noreferrer\">https://api.dart.dev/stable/2.7.1/dart-core/Iterable/cast.html</a></p>\n",
+      "owner": {
+        "display_name": "Ted Henry",
+        "link": "https://stackoverflow.com/users/7034640/ted-henry"
+      }
+    },
+    {
+      "answer_id": 59714279,
+      "body": "<p>I have solved the issue. The problem was the returned json document, which was incorrect (thus, the error, as practically it received an incorrect json document i.e. the json document did not finish with a '}').</p>\n",
+      "owner": {
+        "display_name": "Vlad Hondru",
+        "link": "https://stackoverflow.com/users/11606179/vlad-hondru"
+      }
+    },
+    {
+      "answer_id": 58261257,
+      "body": "<p>It's shamefully dumb, but the correct answer is to open the file before uploading it:</p>\n\n<p><code>currUser.profilePic= request.FILES['file'].open()</code></p>\n",
+      "owner": {
+        "display_name": "poultrynews",
+        "link": "https://stackoverflow.com/users/8856497/poultrynews"
+      }
+    },
+    {
+      "answer_id": 57700419,
+      "body": "<p>You can use the <a href=\"https://pub.dev/documentation/http/latest/http/Request-class.html\" rel=\"nofollow noreferrer\"><code>Request</code> class</a> for this:</p>\n\n<pre class=\"lang-dart prettyprint-override\"><code>final request = Request('GET', 'http://example.com/api/v1');\n\nrequest.body = '{\"id\": 1}';\n\nfinal response = request.send().stream.first;\n</code></pre>\n\n<p>Alternatively, you can also use idiomatic syntax, i.e. standard procedure, and provide your parameter in the URI:</p>\n\n<pre class=\"lang-dart prettyprint-override\"><code>await get('http://example.com/api/v1?id=1', headers: headers, body: json);\n</code></pre>\n",
+      "owner": {
+        "display_name": "creativecreatorormaybenot",
+        "link": "https://stackoverflow.com/users/6509751/creativecreatorormaybenot"
+      }
+    },
+    {
+      "answer_id": 57456586,
+      "body": "<p>Change this for mapping response to your model class</p>\n\n<p><code>var responseData = StoreData.fromJson(response.data);</code></p>\n",
+      "owner": {
+        "display_name": "Sharad Paghadal",
+        "link": "https://stackoverflow.com/users/8358956/sharad-paghadal"
+      }
+    },
+    {
+      "answer_id": 57369421,
+      "body": "<p>Use this for post request </p>\n\n<pre><code> Future&lt;Map&lt;String, dynamic&gt;&gt; postRequest(String url, Map jsonMap) async{\n     print('$url , $jsonMap');\n     HttpClient httpClient = new HttpClient();\n     HttpClientRequest request = await httpClient.postUrl(Uri.parse(url));\n     request.headers.set('content-type', 'application/json');\n     request.add(utf8.encode(json.encode(jsonMap)));\n     HttpClientResponse response = await request.close();\n     String reply = await response.transform(utf8.decoder).join();\n     print(reply);\n     httpClient.close();\n     Map&lt;String, dynamic&gt;map = json.decode(reply);\n     return map;\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sher Ali",
+        "link": "https://stackoverflow.com/users/1447595/sher-ali"
+      }
+    },
+    {
+      "answer_id": 56737234,
+      "body": "<p>If you don't need to execute them in a specific order, you can execute them simultaneously like:</p>\n\n<pre><code>await Future.wait([\n  HelperDatabase1().storeRegister(_url, tokens),\n  HelperDatabase1().storeEquipmentReg(_url, tokens),\n  HelperDatabase1().storeGetUserPreference(_url, tokens),\n  HelperDatabase1().storeDefRegisterCat(_url, tokens),\n  HelperDatabase1().storeDefCatMaster(_url, tokens),\n  HelperDatabase1().storeDefCatRelation(_url, tokens),\n  HelperDatabase1().storeWoDescription(_url, tokens),\n  HelperDatabase1().storeAssetAssembly(_url, tokens),\n  HelperDatabase1().storeCategoryDefect(_url, tokens),\n  HelperDatabase1().storeWorkSource(_url, tokens),\n  HelperDatabase1().storeWorkTypes(_url, tokens),\n  HelperDatabase1().storePriorities(_url, tokens),\n  HelperDatabase1().storeSignIn(1),\n  HelperSync().insert(_url, tokens),\n  Helper().insert(token),\n]);\n</code></pre>\n\n<p>If you need to order them, then create <code>await Future.wait</code> batch instead like your example. For example, first priorities inside the first Future.wait, seconds are after first Future.wait bla bla...</p>\n",
+      "owner": {
+        "display_name": "Mehmet Esen",
+        "link": "https://stackoverflow.com/users/10380182/mehmet-esen"
+      }
+    },
+    {
+      "answer_id": 56686180,
+      "body": "<p>You should wrap the api call in a try catch and then add the error to your sink.</p>\n\n<pre><code>class FmsBloc {\n  final _fmsRepository = Repository();\n\n  final _fmsFetcher = PublishSubject&lt;List&lt;FmsListResponse&gt;&gt;();\n\n  Observable&lt;List&lt;FmsListResponse&gt;&gt; get allFms =&gt; _fmsFetcher.stream;\n\n  fetchAllFms() async {\n    try {\n      List&lt;FmsListResponse&gt; itemModel = await _fmsRepository.fetchAllFms();\n      _fmsFetcher.sink.add(itemModel);\n    } catch (e) {\n      _fmsFetcher.sink.addError(e);\n    }\n  }\n\n  dispose() {\n    _fmsFetcher.close();\n  }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jordan Davies",
+        "link": "https://stackoverflow.com/users/5608661/jordan-davies"
+      }
+    },
+    {
+      "answer_id": 56649080,
+      "body": "<p>@pskink comment let me to this solution that works for every type of <code>sink</code> you are using.</p>\n\n<pre><code>  var length = response.contentLength;\n  var received = 0;\n  var sink = downloadFile.openWrite();\n\n  await response.stream.map((s) {\n    received += s.length;\n    print(\"${(received / length) * 100} %\");\n    return s;\n  }).pipe(sink);\n</code></pre>\n\n<p>another way to accomplish this, if you are writing into a file, is to watch file length</p>\n\n<pre><code>  var length = response.contentLength;\n  var sink = downloadFile.openWrite();\n\n  Future.doWhile(() async {\n    var received = await downloadFile.length();\n\n    print(\"${(received / length) * 100} %\");\n    return received != length;\n  });\n\n  await response.stream.pipe(sink);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Evaldo Bratti",
+        "link": "https://stackoverflow.com/users/4759330/evaldo-bratti"
+      }
+    },
+    {
+      "answer_id": 54911977,
+      "body": "<p>The <code>http</code> package is an abstraction over <code>dart:io</code> and <code>dart:html</code>.  </p>\n\n<p>So if you want to share code between browser and other platforms that makes HTTP requests, then it's best to use the <code>http</code> package. Then the code will just work everywhere.</p>\n\n<p>If you don't care about the browser use what API you like best. In Flutter the <code>http</code> package just wraps <code>dart:io</code>'s <code>HttpClient</code>.</p>\n",
+      "owner": {
+        "display_name": "G&#252;nter Z&#246;chbauer",
+        "link": "https://stackoverflow.com/users/217408/g%c3%bcnter-z%c3%b6chbauer"
+      }
+    },
+    {
+      "answer_id": 54110360,
+      "body": "<p>It's not clear from your question what the role of the self-signed certificate is. Based on your work around, I assume that it's a server side certificate that you have installed in the HTTPS server. (It's not a client side certificate that you would like to pass to the server.)</p>\n\n<p>So, what you need to do is to get the Dart <code>HttpClient</code> to trust that certificate, which will be passed to it by the server as part of the TLS handshake. (By setting the callback you have made the client trust any certificate, not just your server's.)</p>\n\n<p>To set the trusted certificate use <code>setTrustedCertificatesBytes</code> in place of <code>useCertificateChainBytes</code> (which you would use if your certificate was a client side one).</p>\n\n<p>You cannot access assets directly as <code>File</code>s as they are bundled by the build. You are doing the right thing by loading them and using the <code>...Bytes</code> methods. You could improve the readability of your code like this (removing the <code>then</code>). Also, note the subtle change to <code>Uint8List</code></p>\n\n<pre><code>ByteData data = await rootBundle.load('assets/raw/certificate.crt');\nSecurityContext context = SecurityContext.defaultContext;\ncontext.setTrustedCertificatesBytes(data.buffer.asUint8List());\nclient = HttpClient(context: context);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Richard Heap",
+        "link": "https://stackoverflow.com/users/9597706/richard-heap"
+      }
+    },
+    {
+      "answer_id": 52247659,
+      "body": "<pre class=\"lang-dart prettyprint-override\"><code>import 'dart:convert';\nimport 'dart:io';\n\nvoid main() async {\n  final client = HttpClient();\n  final request = await client.getUrl(Uri.parse(\n      'https://api.themoviedb.org/3/movie/76341?api_key=fbe54362add6e62e0e959f0e7662d64e&amp;language=fr'));\n  final response = await request.close();\n  final contentAsString = await utf8.decodeStream(response);\n  final map = json.decode(contentAsString);\n  print(map);\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alexandre Ardhuin",
+        "link": "https://stackoverflow.com/users/634863/alexandre-ardhuin"
+      }
+    },
+    {
+      "answer_id": 51327634,
+      "body": "<p>You can change <code>login</code> to be <code>async</code> so that you can await the response. That allows you to catch the exception (and, for example, return <code>null</code> instead of the <code>Response</code>).</p>\n\n<pre><code>Future&lt;Response&gt; login(String user, String pwd) async {\n  final String authHeader = encodeBasicCredentials(user, pwd);\n  try {\n    return await get(\n        'http://192.168.0.100:8080/login',\n        headers: {\n          HttpHeaders.AUTHORIZATION: authHeader,\n        },\n      );\n  } catch (e) {\n    print(e);\n    return null;\n  }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Richard Heap",
+        "link": "https://stackoverflow.com/users/9597706/richard-heap"
+      }
+    },
+    {
+      "answer_id": 50028061,
+      "body": "<p>You can use <code>Future.wait(...)</code> to wait for a set of <code>Future</code>s to complete:</p>\n\n<pre><code>Future&lt;List&lt;Item&gt;&gt; getAllItems() async {\n    var client = new http.Client();\n    List&lt;String&gt; itemsIds = ['1', '2', '3']; //different ids\n\n    return Future.wait&lt;Item&gt;(['1', '2', '3'].map((item) =&gt;\n      client.get('sampleapi/' + item + '/next').then((response) {\n        //Do some processing and add to itemList\n        return foo; // some Item that is the result of this request \n      });\n    );\n}\n</code></pre>\n\n<p>See also <a href=\"https://api.dartlang.org/stable/1.24.3/dart-async/Future/wait.html\" rel=\"noreferrer\">https://api.dartlang.org/stable/1.24.3/dart-async/Future/wait.html</a></p>\n",
+      "owner": {
+        "display_name": "G&#252;nter Z&#246;chbauer",
+        "link": "https://stackoverflow.com/users/217408/g%c3%bcnter-z%c3%b6chbauer"
+      }
+    },
+    {
+      "answer_id": 49899285,
+      "body": "<p>You can use <code>Uri.http(s)</code> which wrap everythings (query, host, and path) together and encode them accordingly.</p>\n\n<pre><code>    final uri = new Uri.http(config['API_ENDPOINT'], '/search', {\"query\": queryToSearch});\n</code></pre>\n",
+      "owner": {
+        "display_name": "R&#233;mi Rousselet",
+        "link": "https://stackoverflow.com/users/8394265/r%c3%a9mi-rousselet"
+      }
+    },
+    {
+      "answer_id": 49855877,
+      "body": "<p>This should do it</p>\n\n<pre><code>adb reverse tcp:5000 tcp:5000\n</code></pre>\n\n<p><a href=\"https://developer.android.com/studio/command-line/adb.html\" rel=\"noreferrer\">https://developer.android.com/studio/command-line/adb.html</a></p>\n\n<p>Or use <code>adb reverse --list</code> to see what redirects are set up.</p>\n",
+      "owner": {
+        "display_name": "G&#252;nter Z&#246;chbauer",
+        "link": "https://stackoverflow.com/users/217408/g%c3%bcnter-z%c3%b6chbauer"
+      }
+    },
+    {
+      "answer_id": 31905574,
+      "body": "<p>It's probably caused by the <code>await</code> before the <code>response.transform</code>. </p>\n\n<p>You might want something like</p>\n\n<pre><code>  return response.transform(UTF8.decoder).join('');\n</code></pre>\n\n<p>The pause is not related to <code>makeRequest()</code>. The Dart VM seems to wait for something before it exits. Adding <code>exit(0);</code> as last line in <code>main()</code> makes the  application exit immediately.</p>\n\n<p><strong>Update</strong></p>\n\n<p>According to the response on the <a href=\"https://github.com/dart-lang/sdk/issues/24045#issuecomment-130567616\" rel=\"nofollow\">Dart SDK issue</a> </p>\n\n<blockquote>\n  <p>This is caused by the HttpClient instance having a connection pool\n  which can keep the Dart VM alive. There are two ways of avoiding this:</p>\n  \n  <p>1) Close the HttpClient explicitly<br>\n  2) Use non-persistent connections</p>\n</blockquote>\n\n<pre><code>import 'dart:async';\nimport 'dart:convert' show UTF8;\nimport 'dart:io';\n\nFuture main() async {\n  await makeRequest();\n  print('end of main');\n}\n\nFuture makeRequest() async {\n  var client = new HttpClient();\n  var request = await client.postUrl(Uri.parse('https://example.com'));\n  var response = await request.close();\n  var contents = await response.transform(UTF8.decoder).join();\n  print(contents);\n  client.close();  // Close the client.\n}\n</code></pre>\n\n\n\n<pre><code>import 'dart:async';\nimport 'dart:convert' show UTF8;\nimport 'dart:io';\n\nFuture main() async {\n  await makeRequest();\n  print('end of main');\n}\n\nFuture makeRequest() async {\n  var request = await new HttpClient().postUrl(Uri.parse('https://example.com'));\n  request.persistentConnection = false;  // Use non-persistent connection.\n  var response = await request.close();\n  var contents = await response.transform(UTF8.decoder).join();\n  print(contents);\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "G&#252;nter Z&#246;chbauer",
+        "link": "https://stackoverflow.com/users/217408/g%c3%bcnter-z%c3%b6chbauer"
+      }
+    },
+    {
+      "answer_id": 29186860,
+      "body": "<p>This doesn't work this way because an async call (<code>http.get()</code>) is scheduled for later execution and than execution proceeds with the next line. Your <code>print</code> is executed before <code>http.get()</code> even started to connect. You need to chain all successive calls with then.\nIf you have a recent Dart version you can use async/await which makes using async calls easier.</p>\n\n\n\n<pre class=\"lang-dart prettyprint-override\"><code>import 'package:http/http.dart' as http;\n\nmain() {\n\n  String esearch = \"http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nucleotide&amp;term=Paenibacillus\";\n  var uidList = [];\n\n  return http.get(esearch).then((response) {\n\n    var pattern = new RegExp(r\"&lt;Id&gt;(.*?)&lt;/Id&gt;\");\n    var hits = pattern.allMatches(response.body);\n\n\n    hits.forEach((hit) {\n      print(\"whole match: \" + hit[0] + \" first match \" + hit[1]);\n      uidList.add(hit[1]);\n    });\n    return uidList;\n  }).then((uidList) {\n    print(uidList.length); \n  });\n}\n</code></pre>\n\n<p>async/await</p>\n\n<pre class=\"lang-dart prettyprint-override\"><code>import 'package:http/http.dart' as http;\n\nmain() async {\n\n  String esearch = \"http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nucleotide&amp;term=Paenibacillus\";\n  var uidList = [];\n\n  var response = await http.get(esearch);\n  var pattern = new RegExp(r\"&lt;Id&gt;(.*?)&lt;/Id&gt;\");\n  var hits = pattern.allMatches(response.body);\n\n  hits.forEach((hit) {\n    print(\"whole match: \" + hit[0] + \" first match \" + hit[1]);\n    uidList.add(hit[1]);\n  });\n  print(uidList.length); \n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "G&#252;nter Z&#246;chbauer",
+        "link": "https://stackoverflow.com/users/217408/g%c3%bcnter-z%c3%b6chbauer"
+      }
+    },
+    {
+      "answer_id": 26174547,
+      "body": "<p>At the moment your root handler is the http handler. You'll need to set up a handler that conditionally sends requests to the ws handler or another handler for your http requests. Eg</p>\n\n<p>/ws -> your ws handler</p>\n\n<p>/rest -> your other handler</p>\n\n<p>The easiest way to do that is to use a router like shelf_route. </p>\n\n<p>However someone recently tried this and hit a <a href=\"https://code.google.com/p/dart/issues/detail?id=21043\" rel=\"noreferrer\">bug in shelf that stopped this working</a>. Which as you noted below is fixed but not merged. </p>\n\n<p>Once the issue is fixed you should be able to do</p>\n\n\n\n<pre class=\"lang-dart prettyprint-override\"><code>import 'package:shelf/shelf.dart' as shelf;\nimport 'package:shelf/shelf_io.dart' as io;\nimport 'package:shelf_route/shelf_route.dart' as route;\nimport 'package:shelf_web_socket/shelf_web_socket.dart' as sWs;\nimport 'package:shelf_auth/shelf_auth.dart' as sAuth;\nimport 'dart:async';\nimport 'package:option/option.dart';\nimport 'package:shelf_exception_response/exception_response.dart';\n\nvoid main(List&lt;String&gt; arguments) {\n\n  var authMiddleware = sAuth.authenticate(\n        [new MyAuthenticator()],\n        sessionHandler: new sAuth.JwtSessionHandler('bla', 'blub', new UserLookup()),\n        allowHttp: true,\n        allowAnonymousAccess: false);\n\n\n  var router = (route.router()\n      ..get('/rest', _handleHttpRequest)\n      ..get('/ws', sWs.webSocketHandler(_handleWebSocketConnect)));\n\n  var handler = const shelf.Pipeline()\n      .addMiddleware(exceptionResponse())\n      .addMiddleware(shelf.logRequests())\n      .addMiddleware(authMiddleware)\n      .addHandler(router.handler);\n\n  route.printRoutes(router);\n\n  io.serve(handler, '127.0.0.1', 8080).then((server) {\n    print('Serving at http://${server.address.host}:${server.port}');\n  });\n}\n</code></pre>\n\n<p>Until the issue is fixed you can replace the router.handler with</p>\n\n<pre class=\"lang-dart prettyprint-override\"><code>var hackyRouterHandler = (shelf.Request request) {\n  var path = request.url.path;\n  if (path.startsWith('/rest')) {\n    return _handleHttpRequest(request);\n  }\n  else if (path.startsWith('/ws')) {\n    return sWs.webSocketHandler(_handleWebSocketConnect)(request);\n  }\n  else {\n    throw new NotFoundException();\n  }\n};\n</code></pre>\n",
+      "owner": {
+        "display_name": "Anders",
+        "link": "https://stackoverflow.com/users/3130717/anders"
+      }
+    }
+  ]
+}

@@ -31,6 +31,14 @@ use crate::questions::{Kind, Question, Set, Tag, set_of};
 pub const MAX_PER_LIBRARY: usize = 15;
 /// The most identifiers kept in a question's `any_of` group.
 pub const MAX_IDENTIFIERS: usize = 5;
+/// The `User-Agent` of every request: the API refuses requests without one.
+pub const USER_AGENT: &str = concat!(
+    "zenodotus-eval/",
+    env!("CARGO_PKG_VERSION"),
+    " (+https://github.com/jmpanozzoz/zenodotus)"
+);
+/// The most characters of an error response kept in an error.
+pub const ERROR_BODY_CHARS: usize = 200;
 
 /// One library of the benchmark.
 #[derive(Debug, Clone, PartialEq, Eq, Deserialize)]
@@ -163,28 +171,35 @@ fn is_identifier(text: &str) -> bool {
     length_fits && starts_well && chars_fit && looks_like_code && !text.contains("//")
 }
 
-/// The links of an answer that point under one of `docs`, compared without the scheme and a leading `www.`; a link to a
-/// bare host counts as a link to its `/`.
+/// The links of an answer that point under one of `docs`. Links and prefixes are compared without their scheme or a
+/// leading `www.`, ignoring case; a link to a bare host counts as a link to its `/`.
 #[must_use]
 pub fn doc_links(html: &str, docs: &[String]) -> Vec<String> {
+    let prefixes: Vec<String> = docs.iter().map(|prefix| bare(prefix)).collect();
     let document = Document::from(html);
     let mut found = Vec::new();
     for anchor in &document.select("a[href]") {
         let href = anchor.attr("href").unwrap_or_default().trim().to_owned();
-        let Some(rest) = href.strip_prefix("https://").or_else(|| href.strip_prefix("http://")) else {
+        if !(href.starts_with("https://") || href.starts_with("http://")) {
             continue;
-        };
-        let rest = rest.strip_prefix("www.").unwrap_or(rest);
-        let rest = if rest.contains('/') {
-            rest.to_owned()
-        } else {
-            format!("{rest}/")
-        };
-        if docs.iter().any(|prefix| rest.starts_with(prefix.as_str())) && !found.contains(&href) {
+        }
+        let rest = bare(&href);
+        let rest = if rest.contains('/') { rest } else { format!("{rest}/") };
+        if prefixes.iter().any(|prefix| rest.starts_with(prefix.as_str())) && !found.contains(&href) {
             found.push(href);
         }
     }
     found
+}
+
+/// `url` in lowercase, without an `http://` or `https://` scheme and a leading `www.`.
+fn bare(url: &str) -> String {
+    let lower = url.to_lowercase();
+    let rest = lower
+        .strip_prefix("https://")
+        .or_else(|| lower.strip_prefix("http://"))
+        .unwrap_or(&lower);
+    rest.strip_prefix("www.").unwrap_or(rest).to_owned()
 }
 
 /// The version a question is about: the first dotted number in a documentation link's path, such as `4.2` in
@@ -333,7 +348,10 @@ impl StackExchange {
     pub fn new(base: &str) -> Self {
         Self {
             base: base.trim_end_matches('/').to_owned(),
-            client: reqwest::Client::new(),
+            client: reqwest::Client::builder()
+                .user_agent(USER_AGENT)
+                .build()
+                .unwrap_or_default(),
             second: Duration::from_secs(1),
         }
     }
@@ -400,7 +418,7 @@ impl StackExchange {
             return Err(EvalError::StackExchange(
                 match serde_json::from_str::<ApiError>(&text) {
                     Ok(error) => format!("{}: {}", error.error_name, error.error_message),
-                    Err(_) => format!("HTTP {}: {}", status.as_u16(), text.trim()),
+                    Err(_) => format!("HTTP {}: {}", status.as_u16(), shorten(text.trim())),
                 },
             ));
         }
@@ -409,6 +427,14 @@ impl StackExchange {
             tokio::time::sleep(self.second.saturating_mul(u32::try_from(seconds).unwrap_or(u32::MAX))).await;
         }
         Ok(page)
+    }
+}
+
+/// `text`, cut to [`ERROR_BODY_CHARS`] characters with `...` when longer.
+fn shorten(text: &str) -> String {
+    match text.char_indices().nth(ERROR_BODY_CHARS) {
+        Some((end, _)) => format!("{}...", &text[..end]),
+        None => text.to_owned(),
     }
 }
 
@@ -533,7 +559,7 @@ pub fn build_all(libraries: &Path, raw: &Path, out: &Path) -> Result<String, Eva
 
 #[cfg(test)]
 mod tests {
-    use wiremock::matchers::{method, path, query_param};
+    use wiremock::matchers::{header, method, path, query_param};
     use wiremock::{Mock, MockServer, ResponseTemplate};
     use zenodotus_core::time::{FixedClock, Timestamp};
 
@@ -616,6 +642,17 @@ mod tests {
                 "http://www.react.dev/learn",
                 "https://react.dev"
             ]
+        );
+    }
+
+    #[test]
+    fn doc_prefixes_ignore_their_own_scheme_www_and_case() {
+        let docs = vec!["https://www.Doctrine-Project.org/projects/".to_owned()];
+        let html = "<a href=\"https://doctrine-project.org/Projects/orm.html\">a</a> \
+                    <a href=\"https://doctrine-project.org/api/\">b</a>";
+        assert_eq!(
+            doc_links(html, &docs),
+            ["https://doctrine-project.org/Projects/orm.html"]
         );
     }
 
@@ -767,6 +804,7 @@ mod tests {
         Mock::given(method("GET"))
             .and(path("/2.3/search/advanced"))
             .and(query_param("page", "1"))
+            .and(header("user-agent", USER_AGENT))
             .and(query_param("tagged", "a;b"))
             .and(query_param("accepted", "True"))
             .and(query_param("sort", "votes"))
@@ -833,6 +871,19 @@ mod tests {
             .await;
         let error = api(&server).fetch(&spec(), 1, &clock).await.unwrap_err();
         assert_eq!(error.to_string(), "the Stack Exchange API failed: HTTP 503: down");
+        server.reset().await;
+        Mock::given(path("/2.3/search/advanced"))
+            .respond_with(ResponseTemplate::new(403).set_body_string(format!("  {}", "é".repeat(300))))
+            .mount(&server)
+            .await;
+        let error = api(&server).fetch(&spec(), 1, &clock).await.unwrap_err();
+        assert_eq!(
+            error.to_string(),
+            format!(
+                "the Stack Exchange API failed: HTTP 403: {}...",
+                "é".repeat(ERROR_BODY_CHARS)
+            )
+        );
         server.reset().await;
         Mock::given(path("/2.3/search/advanced"))
             .respond_with(ResponseTemplate::new(200).set_body_string("{"))

@@ -1,0 +1,1908 @@
+{
+  "library": "go:gorm.io/gorm",
+  "fetched_at": "2026-11-21T17:28:18Z",
+  "questions": [
+    {
+      "question_id": 36281394,
+      "title": "golang gorm Access the underlying mysql query",
+      "accepted_answer_id": 66367950,
+      "score": 61,
+      "link": "https://stackoverflow.com/questions/36281394/golang-gorm-access-the-underlying-mysql-query",
+      "owner": {
+        "display_name": "Gravy",
+        "link": "https://stackoverflow.com/users/1239122/gravy"
+      }
+    },
+    {
+      "question_id": 39333102,
+      "title": "How to Create or Update a record with GORM?",
+      "accepted_answer_id": 54251638,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/39333102/how-to-create-or-update-a-record-with-gorm",
+      "owner": {
+        "display_name": "Tarion",
+        "link": "https://stackoverflow.com/users/86388/tarion"
+      }
+    },
+    {
+      "question_id": 29435783,
+      "title": "Gorm Golang orm associations",
+      "accepted_answer_id": 29579994,
+      "score": 33,
+      "link": "https://stackoverflow.com/questions/29435783/gorm-golang-orm-associations",
+      "owner": {
+        "display_name": "Javier Cadiz",
+        "link": "https://stackoverflow.com/users/1373105/javier-cadiz"
+      }
+    },
+    {
+      "question_id": 56653423,
+      "title": "GORM doesnt update boolean field to false",
+      "accepted_answer_id": 56653723,
+      "score": 30,
+      "link": "https://stackoverflow.com/questions/56653423/gorm-doesnt-update-boolean-field-to-false",
+      "owner": {
+        "display_name": "7urkm3n",
+        "link": "https://stackoverflow.com/users/2325924/7urkm3n"
+      }
+    },
+    {
+      "question_id": 59471501,
+      "title": "What does Preload function do in gorm?",
+      "accepted_answer_id": 59488366,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/59471501/what-does-preload-function-do-in-gorm",
+      "owner": {
+        "display_name": "Harsh Agarwal",
+        "link": "https://stackoverflow.com/users/5730790/harsh-agarwal"
+      }
+    },
+    {
+      "question_id": 30361671,
+      "title": "How can I check for errors in CRUD operations using GORM?",
+      "accepted_answer_id": 30365717,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/30361671/how-can-i-check-for-errors-in-crud-operations-using-gorm",
+      "owner": {
+        "display_name": "Louis Thibault",
+        "link": "https://stackoverflow.com/users/1156707/louis-thibault"
+      }
+    },
+    {
+      "question_id": 60792313,
+      "title": "Unable to use type string as sql.NullString",
+      "accepted_answer_id": 60796837,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/60792313/unable-to-use-type-string-as-sql-nullstring",
+      "owner": {
+        "display_name": "pkaramol",
+        "link": "https://stackoverflow.com/users/2409793/pkaramol"
+      }
+    },
+    {
+      "question_id": 36963008,
+      "title": "GORM Not ignoring field with `gorm:&quot;-&quot;`",
+      "accepted_answer_id": 72891893,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/36963008/gorm-not-ignoring-field-with-gorm",
+      "owner": {
+        "display_name": "Datsik",
+        "link": "https://stackoverflow.com/users/2128168/datsik"
+      }
+    },
+    {
+      "question_id": 30831316,
+      "title": "How to specify a struct with a multi-column unique index for Gorm?",
+      "accepted_answer_id": 64417193,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/30831316/how-to-specify-a-struct-with-a-multi-column-unique-index-for-gorm",
+      "owner": {
+        "display_name": "Johan S",
+        "link": "https://stackoverflow.com/users/848761/johan-s"
+      }
+    },
+    {
+      "question_id": 54602557,
+      "title": "Inserting and selecting PostGIS Geometry with Gorm",
+      "accepted_answer_id": 58208040,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/54602557/inserting-and-selecting-postgis-geometry-with-gorm",
+      "owner": {
+        "display_name": "robbieperry22",
+        "link": "https://stackoverflow.com/users/8685016/robbieperry22"
+      }
+    },
+    {
+      "question_id": 35821810,
+      "title": "Golang Gorm one-to-many with has-one",
+      "accepted_answer_id": 50919587,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/35821810/golang-gorm-one-to-many-with-has-one",
+      "owner": {
+        "display_name": "Michael Babcock",
+        "link": "https://stackoverflow.com/users/3096935/michael-babcock"
+      }
+    },
+    {
+      "question_id": 64035165,
+      "title": "unsupported data type: &amp;[] error on GORM field where custom Valuer returns nil?",
+      "accepted_answer_id": 64035166,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/64035165/unsupported-data-type-error-on-gorm-field-where-custom-valuer-returns-nil",
+      "owner": {
+        "display_name": "robbieperry22",
+        "link": "https://stackoverflow.com/users/8685016/robbieperry22"
+      }
+    },
+    {
+      "question_id": 63256680,
+      "title": "Adding an array of integers as a data type in a Gorm Model",
+      "accepted_answer_id": 63256996,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/63256680/adding-an-array-of-integers-as-a-data-type-in-a-gorm-model",
+      "owner": {
+        "display_name": "jonin",
+        "link": "https://stackoverflow.com/users/8413190/jonin"
+      }
+    },
+    {
+      "question_id": 38270156,
+      "title": "Golang Gorm: Is it possible to delete a record via a many2many relationship?",
+      "accepted_answer_id": 38275491,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/38270156/golang-gorm-is-it-possible-to-delete-a-record-via-a-many2many-relationship",
+      "owner": {
+        "display_name": "Matthew S",
+        "link": "https://stackoverflow.com/users/1748069/matthew-s"
+      }
+    },
+    {
+      "question_id": 61822921,
+      "title": "Does gorm.Open() create a new connection pool every time it&#39;s called?",
+      "accepted_answer_id": 61823123,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/61822921/does-gorm-open-create-a-new-connection-pool-every-time-its-called",
+      "owner": {
+        "display_name": "Abe Miessler",
+        "link": "https://stackoverflow.com/users/226897/abe-miessler"
+      }
+    },
+    {
+      "question_id": 55892035,
+      "title": "How to disable default error logger in Go-Gorm",
+      "accepted_answer_id": 55892341,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/55892035/how-to-disable-default-error-logger-in-go-gorm",
+      "owner": {
+        "display_name": "Li Jinyao",
+        "link": "https://stackoverflow.com/users/5484988/li-jinyao"
+      }
+    },
+    {
+      "question_id": 31467498,
+      "title": "Why does gorm db.First() panic with &quot;invalid memory address or nil pointer dereference&quot;?",
+      "accepted_answer_id": 31468146,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/31467498/why-does-gorm-db-first-panic-with-invalid-memory-address-or-nil-pointer-deref",
+      "owner": {
+        "display_name": "Michael Hampton",
+        "link": "https://stackoverflow.com/users/1068283/michael-hampton"
+      }
+    },
+    {
+      "question_id": 66563805,
+      "title": "How to insert a null foreign key in gorm?",
+      "accepted_answer_id": 66564166,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/66563805/how-to-insert-a-null-foreign-key-in-gorm",
+      "owner": {
+        "display_name": "ninesalt",
+        "link": "https://stackoverflow.com/users/3658166/ninesalt"
+      }
+    },
+    {
+      "question_id": 63409314,
+      "title": "How do I create unique constraint for multiple columns?",
+      "accepted_answer_id": 63409572,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/63409314/how-do-i-create-unique-constraint-for-multiple-columns",
+      "owner": {
+        "display_name": "rkj",
+        "link": "https://stackoverflow.com/users/1107750/rkj"
+      }
+    },
+    {
+      "question_id": 68637265,
+      "title": "How can i add enum in gorm?",
+      "accepted_answer_id": 68637612,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/68637265/how-can-i-add-enum-in-gorm",
+      "owner": {
+        "display_name": "deepika azad",
+        "link": "https://stackoverflow.com/users/9398300/deepika-azad"
+      }
+    },
+    {
+      "question_id": 66392372,
+      "title": "Select exists with GORM",
+      "accepted_answer_id": 69972299,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/66392372/select-exists-with-gorm",
+      "owner": {
+        "display_name": "Zeinab Abbasimazar",
+        "link": "https://stackoverflow.com/users/1626977/zeinab-abbasimazar"
+      }
+    },
+    {
+      "question_id": 65951219,
+      "title": "How to tell gorm to save missing time.Time fields as NULL and not &#39;0000-00-00&#39;?",
+      "accepted_answer_id": 65951503,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/65951219/how-to-tell-gorm-to-save-missing-time-time-fields-as-null-and-not-0000-00-00",
+      "owner": {
+        "display_name": "Eric L.",
+        "link": "https://stackoverflow.com/users/14959766/eric-l"
+      }
+    },
+    {
+      "question_id": 57749720,
+      "title": "GORM create record that might already exist",
+      "accepted_answer_id": 68371127,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/57749720/gorm-create-record-that-might-already-exist",
+      "owner": {
+        "display_name": "QuinnF",
+        "link": "https://stackoverflow.com/users/1115876/quinnf"
+      }
+    },
+    {
+      "question_id": 41257847,
+      "title": "How to create singleton DB instance",
+      "accepted_answer_id": 41258099,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/41257847/how-to-create-singleton-db-instance",
+      "owner": {
+        "display_name": "silentsudo",
+        "link": "https://stackoverflow.com/users/1752366/silentsudo"
+      }
+    },
+    {
+      "question_id": 33847013,
+      "title": "Why use sql tags in struct in some go libs like gorm?",
+      "accepted_answer_id": 33848172,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/33847013/why-use-sql-tags-in-struct-in-some-go-libs-like-gorm",
+      "owner": {
+        "display_name": "sh0umik",
+        "link": "https://stackoverflow.com/users/2202757/sh0umik"
+      }
+    },
+    {
+      "question_id": 67190972,
+      "title": "How to use mysql Union All on GORM?",
+      "accepted_answer_id": 67194715,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/67190972/how-to-use-mysql-union-all-on-gorm",
+      "owner": {
+        "display_name": "Muslihudin",
+        "link": "https://stackoverflow.com/users/15579494/muslihudin"
+      }
+    },
+    {
+      "question_id": 53630860,
+      "title": "Golang GORM query locations around a position with Lat and Lng",
+      "accepted_answer_id": 58652009,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/53630860/golang-gorm-query-locations-around-a-position-with-lat-and-lng",
+      "owner": {
+        "display_name": "eclaude",
+        "link": "https://stackoverflow.com/users/1442435/eclaude"
+      }
+    },
+    {
+      "question_id": 69669422,
+      "title": "How can I query all rows out of my table with GORM?",
+      "accepted_answer_id": 69669495,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/69669422/how-can-i-query-all-rows-out-of-my-table-with-gorm",
+      "owner": {
+        "display_name": "Any Coder",
+        "link": "https://stackoverflow.com/users/14508761/any-coder"
+      }
+    },
+    {
+      "question_id": 65434115,
+      "title": "How to insert Data in JSONB Field of Postgres using GORM",
+      "accepted_answer_id": 65434116,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/65434115/how-to-insert-data-in-jsonb-field-of-postgres-using-gorm",
+      "owner": {
+        "display_name": "M_x",
+        "link": "https://stackoverflow.com/users/12746958/m-x"
+      }
+    },
+    {
+      "question_id": 64253800,
+      "title": "How can I append to a many-to-many relation in Gorm without upserting the already-existing associated rows?",
+      "accepted_answer_id": 65324342,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/64253800/how-can-i-append-to-a-many-to-many-relation-in-gorm-without-upserting-the-alread",
+      "owner": {
+        "display_name": "echelon315",
+        "link": "https://stackoverflow.com/users/3051324/echelon315"
+      }
+    },
+    {
+      "question_id": 51999441,
+      "title": "How to get a table name from a model in gorm?",
+      "accepted_answer_id": 51999625,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/51999441/how-to-get-a-table-name-from-a-model-in-gorm",
+      "owner": {
+        "display_name": "fr05t1k",
+        "link": "https://stackoverflow.com/users/2553277/fr05t1k"
+      }
+    },
+    {
+      "question_id": 46807891,
+      "title": "Using a subquery in &#39;FROM&#39; in gorm",
+      "accepted_answer_id": 46808332,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/46807891/using-a-subquery-in-from-in-gorm",
+      "owner": {
+        "display_name": "abc",
+        "link": "https://stackoverflow.com/users/3958148/abc"
+      }
+    },
+    {
+      "question_id": 70191634,
+      "title": "Enforce foreign key constraints in GORM SQLite",
+      "accepted_answer_id": 70192547,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/70191634/enforce-foreign-key-constraints-in-gorm-sqlite",
+      "owner": {
+        "display_name": "barjo",
+        "link": "https://stackoverflow.com/users/8045515/barjo"
+      }
+    },
+    {
+      "question_id": 63810512,
+      "title": "invalid field found for struct field , need to define a foreign key for relations or it need to implement the Valuer/Scanner interface",
+      "accepted_answer_id": 63810877,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/63810512/invalid-field-found-for-struct-field-need-to-define-a-foreign-key-for-relation",
+      "owner": {
+        "display_name": "Man",
+        "link": "https://stackoverflow.com/users/12964015/man"
+      }
+    },
+    {
+      "question_id": 63714830,
+      "title": "Gorm raw SQL query execution",
+      "accepted_answer_id": 65285342,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/63714830/gorm-raw-sql-query-execution",
+      "owner": {
+        "display_name": "jkerone",
+        "link": "https://stackoverflow.com/users/10886880/jkerone"
+      }
+    },
+    {
+      "question_id": 63539258,
+      "title": "How to use GORM for Mongodb in Golang?",
+      "accepted_answer_id": 63541161,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/63539258/how-to-use-gorm-for-mongodb-in-golang",
+      "owner": {
+        "display_name": "Mohammad Ghoncheh",
+        "link": "https://stackoverflow.com/users/10253439/mohammad-ghoncheh"
+      }
+    },
+    {
+      "question_id": 57778810,
+      "title": "Gorm Update and Get the Updated Rows in a single operation?",
+      "accepted_answer_id": 71900629,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/57778810/gorm-update-and-get-the-updated-rows-in-a-single-operation",
+      "owner": {
+        "display_name": "Aayush Taneja",
+        "link": "https://stackoverflow.com/users/8523169/aayush-taneja"
+      }
+    },
+    {
+      "question_id": 54523765,
+      "title": "Update with 0 value using Gorm",
+      "accepted_answer_id": 57069554,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/54523765/update-with-0-value-using-gorm",
+      "owner": {
+        "display_name": "Pablo R.",
+        "link": "https://stackoverflow.com/users/7406696/pablo-r"
+      }
+    },
+    {
+      "question_id": 48021945,
+      "title": "How to handle patch request with unset value in golang",
+      "accepted_answer_id": 48022391,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/48021945/how-to-handle-patch-request-with-unset-value-in-golang",
+      "owner": {
+        "display_name": "sunny tam",
+        "link": "https://stackoverflow.com/users/5428760/sunny-tam"
+      }
+    },
+    {
+      "question_id": 31844680,
+      "title": "How to set isolation level",
+      "accepted_answer_id": 31845051,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/31844680/how-to-set-isolation-level",
+      "owner": {
+        "display_name": "Kennedy",
+        "link": "https://stackoverflow.com/users/140477/kennedy"
+      }
+    },
+    {
+      "question_id": 29230261,
+      "title": "how preload a full hierarchy in GO using GORM",
+      "accepted_answer_id": 30204310,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/29230261/how-preload-a-full-hierarchy-in-go-using-gorm",
+      "owner": {
+        "display_name": "Guillaume Barr&#233;",
+        "link": "https://stackoverflow.com/users/3710800/guillaume-barr%c3%a9"
+      }
+    },
+    {
+      "question_id": 73025363,
+      "title": "Can&#39;t sort in GORM",
+      "accepted_answer_id": 73026453,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/73025363/cant-sort-in-gorm",
+      "owner": {
+        "display_name": "Casper",
+        "link": "https://stackoverflow.com/users/19617327/casper"
+      }
+    },
+    {
+      "question_id": 66810464,
+      "title": "Unsupported relations in gorm",
+      "accepted_answer_id": 66814105,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/66810464/unsupported-relations-in-gorm",
+      "owner": {
+        "display_name": "Helios",
+        "link": "https://stackoverflow.com/users/13202568/helios"
+      }
+    },
+    {
+      "question_id": 60001452,
+      "title": "Multiple One to Many Relations in GORM",
+      "accepted_answer_id": 60003896,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/60001452/multiple-one-to-many-relations-in-gorm",
+      "owner": {
+        "display_name": "Dinesh Gowda",
+        "link": "https://stackoverflow.com/users/6528719/dinesh-gowda"
+      }
+    },
+    {
+      "question_id": 55792332,
+      "title": "Selecting related fields with GORM",
+      "accepted_answer_id": 55792986,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/55792332/selecting-related-fields-with-gorm",
+      "owner": {
+        "display_name": "lennard",
+        "link": "https://stackoverflow.com/users/6060482/lennard"
+      }
+    },
+    {
+      "question_id": 53014179,
+      "title": "How to make foreign key using gorm",
+      "accepted_answer_id": 53020453,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/53014179/how-to-make-foreign-key-using-gorm",
+      "owner": {
+        "display_name": "Nir Berko",
+        "link": "https://stackoverflow.com/users/9993548/nir-berko"
+      }
+    },
+    {
+      "question_id": 51176238,
+      "title": "How do you explicitly find a record where a field is NULL?",
+      "accepted_answer_id": 51176515,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/51176238/how-do-you-explicitly-find-a-record-where-a-field-is-null",
+      "owner": {
+        "display_name": "pdube",
+        "link": "https://stackoverflow.com/users/6731026/pdube"
+      }
+    },
+    {
+      "question_id": 49849687,
+      "title": "How to create a Left Join in Jinzhu GORM",
+      "accepted_answer_id": 49871034,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/49849687/how-to-create-a-left-join-in-jinzhu-gorm",
+      "owner": {
+        "display_name": "Arthur Mastropietro",
+        "link": "https://stackoverflow.com/users/2762560/arthur-mastropietro"
+      }
+    },
+    {
+      "question_id": 47994094,
+      "title": "Integrating gorm.Model fields into protobuf definitions",
+      "accepted_answer_id": 63624863,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/47994094/integrating-gorm-model-fields-into-protobuf-definitions",
+      "owner": {
+        "display_name": "Alex Luis Arias",
+        "link": "https://stackoverflow.com/users/3291194/alex-luis-arias"
+      }
+    },
+    {
+      "question_id": 36125024,
+      "title": "Golang Join array interface",
+      "accepted_answer_id": 36125119,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/36125024/golang-join-array-interface",
+      "owner": {
+        "display_name": "user2486312",
+        "link": "https://stackoverflow.com/users/2486312/user2486312"
+      }
+    },
+    {
+      "question_id": 28773963,
+      "title": "How can I retrieve instance of last added item",
+      "accepted_answer_id": 28776926,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/28773963/how-can-i-retrieve-instance-of-last-added-item",
+      "owner": {
+        "display_name": "sathishvj",
+        "link": "https://stackoverflow.com/users/791842/sathishvj"
+      }
+    },
+    {
+      "question_id": 77832903,
+      "title": "In gorm, how do you escape the `?` operator in postgres?",
+      "accepted_answer_id": 78370619,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/77832903/in-gorm-how-do-you-escape-the-operator-in-postgres",
+      "owner": {
+        "display_name": "Aditya",
+        "link": "https://stackoverflow.com/users/6199444/aditya"
+      }
+    },
+    {
+      "question_id": 73007826,
+      "title": "Gorm get column name",
+      "accepted_answer_id": 73039884,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/73007826/gorm-get-column-name",
+      "owner": {
+        "display_name": "Rodrigo",
+        "link": "https://stackoverflow.com/users/832490/rodrigo"
+      }
+    },
+    {
+      "question_id": 72762884,
+      "title": "How to permanently delete associations in GORM",
+      "accepted_answer_id": 72782817,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/72762884/how-to-permanently-delete-associations-in-gorm",
+      "owner": {
+        "display_name": "Stefan Zhelyazkov",
+        "link": "https://stackoverflow.com/users/9698467/stefan-zhelyazkov"
+      }
+    },
+    {
+      "question_id": 71147779,
+      "title": "gorm: define a valid foreign key for relations or implement the Valuer/Scanner interface",
+      "accepted_answer_id": 71154302,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/71147779/gorm-define-a-valid-foreign-key-for-relations-or-implement-the-valuer-scanner-i",
+      "owner": {
+        "display_name": "Parham Moieni",
+        "link": "https://stackoverflow.com/users/13641148/parham-moieni"
+      }
+    },
+    {
+      "question_id": 70399304,
+      "title": "How to specify a model to model association but without any dependency?",
+      "accepted_answer_id": 70399497,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/70399304/how-to-specify-a-model-to-model-association-but-without-any-dependency",
+      "owner": {
+        "display_name": "Berti92",
+        "link": "https://stackoverflow.com/users/4607988/berti92"
+      }
+    },
+    {
+      "question_id": 69401999,
+      "title": "Golang proper way to send json response with status",
+      "accepted_answer_id": 69402111,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/69401999/golang-proper-way-to-send-json-response-with-status",
+      "owner": {
+        "display_name": "Ramesh S",
+        "link": "https://stackoverflow.com/users/7870379/ramesh-s"
+      }
+    },
+    {
+      "question_id": 67154864,
+      "title": "How to handle GORM error at Delete function?",
+      "accepted_answer_id": 67155343,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/67154864/how-to-handle-gorm-error-at-delete-function",
+      "owner": {
+        "display_name": "pranotobudi",
+        "link": "https://stackoverflow.com/users/10394135/pranotobudi"
+      }
+    },
+    {
+      "question_id": 62641090,
+      "title": "How to write a gorm function for where clause with dynamic variables",
+      "accepted_answer_id": 62641253,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/62641090/how-to-write-a-gorm-function-for-where-clause-with-dynamic-variables",
+      "owner": {
+        "display_name": "Chetan",
+        "link": "https://stackoverflow.com/users/2486083/chetan"
+      }
+    },
+    {
+      "question_id": 61630216,
+      "title": "Converting time from DB to custom time fails",
+      "accepted_answer_id": 61630318,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/61630216/converting-time-from-db-to-custom-time-fails",
+      "owner": {
+        "display_name": "Bird87 ZA",
+        "link": "https://stackoverflow.com/users/1238303/bird87-za"
+      }
+    },
+    {
+      "question_id": 60155628,
+      "title": "How to mock gorm insert with go-sql (postgres)",
+      "accepted_answer_id": 60179037,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/60155628/how-to-mock-gorm-insert-with-go-sql-postgres",
+      "owner": {
+        "display_name": "user3255061",
+        "link": "https://stackoverflow.com/users/3255061/user3255061"
+      }
+    },
+    {
+      "question_id": 59591611,
+      "title": "Return an array in Go with Gorm",
+      "accepted_answer_id": 59591918,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/59591611/return-an-array-in-go-with-gorm",
+      "owner": {
+        "display_name": "Swix",
+        "link": "https://stackoverflow.com/users/10583765/swix"
+      }
+    },
+    {
+      "question_id": 58947804,
+      "title": "How to pass dynamic table name in gorm model",
+      "accepted_answer_id": 59016218,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/58947804/how-to-pass-dynamic-table-name-in-gorm-model",
+      "owner": {
+        "display_name": "Coder",
+        "link": "https://stackoverflow.com/users/12401930/coder"
+      }
+    },
+    {
+      "question_id": 57566060,
+      "title": "panic: dial tcp 127.0.0.1:3306: connect: connection refused",
+      "accepted_answer_id": 57566138,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/57566060/panic-dial-tcp-127-0-0-13306-connect-connection-refused",
+      "owner": {
+        "display_name": "jadejoe",
+        "link": "https://stackoverflow.com/users/10641015/jadejoe"
+      }
+    },
+    {
+      "question_id": 54720000,
+      "title": "How display result count from query",
+      "accepted_answer_id": 54720594,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/54720000/how-display-result-count-from-query",
+      "owner": {
+        "display_name": "dera ta",
+        "link": "https://stackoverflow.com/users/11054195/dera-ta"
+      }
+    },
+    {
+      "question_id": 51534285,
+      "title": "How to access gorm.Model.ID?",
+      "accepted_answer_id": 51545194,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/51534285/how-to-access-gorm-model-id",
+      "owner": {
+        "display_name": "NlaakALD",
+        "link": "https://stackoverflow.com/users/1998155/nlaakald"
+      }
+    },
+    {
+      "question_id": 48899014,
+      "title": "Fetching NULL datetime value in MySQL using GORM",
+      "accepted_answer_id": 48900661,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/48899014/fetching-null-datetime-value-in-mysql-using-gorm",
+      "owner": {
+        "display_name": "duggu",
+        "link": "https://stackoverflow.com/users/1722818/duggu"
+      }
+    },
+    {
+      "question_id": 48460450,
+      "title": "Get nested object in structure in gorm",
+      "accepted_answer_id": 50366795,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/48460450/get-nested-object-in-structure-in-gorm",
+      "owner": {
+        "display_name": "Kirill Zyusko",
+        "link": "https://stackoverflow.com/users/9272042/kirill-zyusko"
+      }
+    },
+    {
+      "question_id": 47947809,
+      "title": "How do I extract the data from a query in Golang&#39;s GORM in mysql?",
+      "accepted_answer_id": 47947970,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/47947809/how-do-i-extract-the-data-from-a-query-in-golangs-gorm-in-mysql",
+      "owner": {
+        "display_name": "kckaiwei",
+        "link": "https://stackoverflow.com/users/5046162/kckaiwei"
+      }
+    },
+    {
+      "question_id": 47175474,
+      "title": "map[gorm.DB]struct{}{} gives invalid map key type gorm.DB",
+      "accepted_answer_id": 47175617,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/47175474/mapgorm-dbstruct-gives-invalid-map-key-type-gorm-db",
+      "owner": {
+        "display_name": "Eugene Lisitsky",
+        "link": "https://stackoverflow.com/users/5165332/eugene-lisitsky"
+      }
+    },
+    {
+      "question_id": 44003152,
+      "title": "Hide fields in Golang Gorm",
+      "accepted_answer_id": 44007128,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/44003152/hide-fields-in-golang-gorm",
+      "owner": {
+        "display_name": "Sredny M Casanova",
+        "link": "https://stackoverflow.com/users/5170722/sredny-m-casanova"
+      }
+    },
+    {
+      "question_id": 41505884,
+      "title": "One to many relationship with gorm in golang doesnt work",
+      "accepted_answer_id": 41537783,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/41505884/one-to-many-relationship-with-gorm-in-golang-doesnt-work",
+      "owner": {
+        "display_name": "Johannes Gnadlinger",
+        "link": "https://stackoverflow.com/users/6504152/johannes-gnadlinger"
+      }
+    },
+    {
+      "question_id": 33573306,
+      "title": "How to set a PostgreSQL function as default value in GORM?",
+      "accepted_answer_id": 33573922,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/33573306/how-to-set-a-postgresql-function-as-default-value-in-gorm",
+      "owner": {
+        "display_name": "Ben Nichols",
+        "link": "https://stackoverflow.com/users/1229740/ben-nichols"
+      }
+    },
+    {
+      "question_id": 29087167,
+      "title": "How can I set COLLATION of a field to utf8_general_ci with GORM?",
+      "accepted_answer_id": 32882460,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/29087167/how-can-i-set-collation-of-a-field-to-utf8-general-ci-with-gorm",
+      "owner": {
+        "display_name": "Martin Thoma",
+        "link": "https://stackoverflow.com/users/562769/martin-thoma"
+      }
+    },
+    {
+      "question_id": 72756319,
+      "title": "How to return a newly created record back from the database using gorm",
+      "accepted_answer_id": 72839017,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/72756319/how-to-return-a-newly-created-record-back-from-the-database-using-gorm",
+      "owner": {
+        "display_name": "Kay",
+        "link": "https://stackoverflow.com/users/1548432/kay"
+      }
+    },
+    {
+      "question_id": 72023281,
+      "title": "How to insert NULL value to UUID instead of zeros",
+      "accepted_answer_id": 72024073,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/72023281/how-to-insert-null-value-to-uuid-instead-of-zeros",
+      "owner": {
+        "display_name": "ggk",
+        "link": "https://stackoverflow.com/users/16003199/ggk"
+      }
+    },
+    {
+      "question_id": 69299894,
+      "title": "How to do Unit Testing with gorm",
+      "accepted_answer_id": 69303409,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/69299894/how-to-do-unit-testing-with-gorm",
+      "owner": {
+        "display_name": "Ramesh S",
+        "link": "https://stackoverflow.com/users/7870379/ramesh-s"
+      }
+    },
+    {
+      "question_id": 67749708,
+      "title": "Cascade Delete in Gorm does not remove Associated Tables",
+      "accepted_answer_id": 67751408,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/67749708/cascade-delete-in-gorm-does-not-remove-associated-tables",
+      "owner": {
+        "display_name": "Hendry Lim",
+        "link": "https://stackoverflow.com/users/7285771/hendry-lim"
+      }
+    },
+    {
+      "question_id": 67056259,
+      "title": "GORM 2.0 get last insert ID",
+      "accepted_answer_id": 67058953,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/67056259/gorm-2-0-get-last-insert-id",
+      "owner": {
+        "display_name": "Grayson",
+        "link": "https://stackoverflow.com/users/15354902/grayson"
+      }
+    },
+    {
+      "question_id": 66807623,
+      "title": "skip a field in automigrate GORM",
+      "accepted_answer_id": 66814528,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/66807623/skip-a-field-in-automigrate-gorm",
+      "owner": {
+        "display_name": "danial dehvan",
+        "link": "https://stackoverflow.com/users/11237189/danial-dehvan"
+      }
+    },
+    {
+      "question_id": 66779332,
+      "title": "Bulk insert from csv in postgres using golang without using for loop",
+      "accepted_answer_id": 67003247,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/66779332/bulk-insert-from-csv-in-postgres-using-golang-without-using-for-loop",
+      "owner": {
+        "display_name": "M_x",
+        "link": "https://stackoverflow.com/users/12746958/m-x"
+      }
+    },
+    {
+      "question_id": 65363974,
+      "title": "How to validate a belongs-to relationship when creating record with gorm",
+      "accepted_answer_id": 65416176,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/65363974/how-to-validate-a-belongs-to-relationship-when-creating-record-with-gorm",
+      "owner": {
+        "display_name": "anonymous-dev",
+        "link": "https://stackoverflow.com/users/4214922/anonymous-dev"
+      }
+    },
+    {
+      "question_id": 65357752,
+      "title": "How should I reference two tables with a single foreign key?",
+      "accepted_answer_id": 65688633,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/65357752/how-should-i-reference-two-tables-with-a-single-foreign-key",
+      "owner": {
+        "display_name": "anonymous-dev",
+        "link": "https://stackoverflow.com/users/4214922/anonymous-dev"
+      }
+    },
+    {
+      "question_id": 65288705,
+      "title": "Custom Gorm preloading does not fetch data",
+      "accepted_answer_id": 65332052,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/65288705/custom-gorm-preloading-does-not-fetch-data",
+      "owner": {
+        "display_name": "Stephan882",
+        "link": "https://stackoverflow.com/users/9969749/stephan882"
+      }
+    },
+    {
+      "question_id": 63852322,
+      "title": "GORM updating null field when calling Updates()?",
+      "accepted_answer_id": 63852811,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/63852322/gorm-updating-null-field-when-calling-updates",
+      "owner": {
+        "display_name": "Abe Miessler",
+        "link": "https://stackoverflow.com/users/226897/abe-miessler"
+      }
+    },
+    {
+      "question_id": 60520863,
+      "title": "Working with spatial data with Gorm and MySQL",
+      "accepted_answer_id": 60577841,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/60520863/working-with-spatial-data-with-gorm-and-mysql",
+      "owner": {
+        "display_name": "huggie",
+        "link": "https://stackoverflow.com/users/133747/huggie"
+      }
+    },
+    {
+      "question_id": 52244001,
+      "title": "Go-gorm mysql &quot;unsupported type []string, a slice of string&quot;",
+      "accepted_answer_id": 52246919,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/52244001/go-gorm-mysql-unsupported-type-string-a-slice-of-string",
+      "owner": {
+        "display_name": "Georgy",
+        "link": "https://stackoverflow.com/users/5723095/georgy"
+      }
+    },
+    {
+      "question_id": 51471973,
+      "title": "Gorm AutoMigrate() and CreateTable() not working",
+      "accepted_answer_id": 51472717,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/51471973/gorm-automigrate-and-createtable-not-working",
+      "owner": {
+        "display_name": "NlaakALD",
+        "link": "https://stackoverflow.com/users/1998155/nlaakald"
+      }
+    },
+    {
+      "question_id": 46576571,
+      "title": "go-gorm how to express many2many with additional columns",
+      "accepted_answer_id": 55339916,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/46576571/go-gorm-how-to-express-many2many-with-additional-columns",
+      "owner": {
+        "display_name": "Jackyjjc",
+        "link": "https://stackoverflow.com/users/544378/jackyjjc"
+      }
+    },
+    {
+      "question_id": 36188706,
+      "title": "Separate where in query",
+      "accepted_answer_id": 36193498,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/36188706/separate-where-in-query",
+      "owner": {
+        "display_name": "kalelc",
+        "link": "https://stackoverflow.com/users/889074/kalelc"
+      }
+    },
+    {
+      "question_id": 25142372,
+      "title": "How to access Gorm in Revel Controller?",
+      "accepted_answer_id": 25976357,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/25142372/how-to-access-gorm-in-revel-controller",
+      "owner": {
+        "display_name": "Martijn19",
+        "link": "https://stackoverflow.com/users/3634040/martijn19"
+      }
+    },
+    {
+      "question_id": 57928208,
+      "title": "how to make multiple models auto migrate in gorm",
+      "accepted_answer_id": 57929078,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/57928208/how-to-make-multiple-models-auto-migrate-in-gorm",
+      "owner": {
+        "display_name": "temps hd",
+        "link": "https://stackoverflow.com/users/11992766/temps-hd"
+      }
+    },
+    {
+      "question_id": 74808999,
+      "title": "Gorm get all data from table with condition on nested table",
+      "accepted_answer_id": 74887416,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/74808999/gorm-get-all-data-from-table-with-condition-on-nested-table",
+      "owner": {
+        "display_name": "Maaschtj Djeevta",
+        "link": "https://stackoverflow.com/users/17310451/maaschtj-djeevta"
+      }
+    },
+    {
+      "question_id": 74730502,
+      "title": "gorm does not generate string columns",
+      "accepted_answer_id": 74731559,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/74730502/gorm-does-not-generate-string-columns",
+      "owner": {
+        "display_name": "True Seeker",
+        "link": "https://stackoverflow.com/users/13575283/true-seeker"
+      }
+    },
+    {
+      "question_id": 73566843,
+      "title": "Can not resolve postgres hostname from other service on docker-compose",
+      "accepted_answer_id": 73568560,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/73566843/can-not-resolve-postgres-hostname-from-other-service-on-docker-compose",
+      "owner": {
+        "display_name": "anilkuscu",
+        "link": "https://stackoverflow.com/users/15528707/anilkuscu"
+      }
+    },
+    {
+      "question_id": 64810091,
+      "title": "Omitting column when select/find model",
+      "accepted_answer_id": 64813687,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/64810091/omitting-column-when-select-find-model",
+      "owner": {
+        "display_name": "pardie",
+        "link": "https://stackoverflow.com/users/5365517/pardie"
+      }
+    },
+    {
+      "question_id": 64346724,
+      "title": "How can I skip a specific field from struct while inserting with gorm",
+      "accepted_answer_id": 64346775,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/64346724/how-can-i-skip-a-specific-field-from-struct-while-inserting-with-gorm",
+      "owner": {
+        "display_name": "Mohiuddin Khan",
+        "link": "https://stackoverflow.com/users/9984295/mohiuddin-khan"
+      }
+    },
+    {
+      "question_id": 54698391,
+      "title": "Gorm: How do I set an integer column to null, and update the model in-memory?",
+      "accepted_answer_id": 54699204,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/54698391/gorm-how-do-i-set-an-integer-column-to-null-and-update-the-model-in-memory",
+      "owner": {
+        "display_name": "limasxgoesto0",
+        "link": "https://stackoverflow.com/users/1038783/limasxgoesto0"
+      }
+    },
+    {
+      "question_id": 51999463,
+      "title": "How to read a SQLite database using GORM one row at a time",
+      "accepted_answer_id": 52034020,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/51999463/how-to-read-a-sqlite-database-using-gorm-one-row-at-a-time",
+      "owner": {
+        "display_name": "Mayukh Sarkar",
+        "link": "https://stackoverflow.com/users/4037927/mayukh-sarkar"
+      }
+    },
+    {
+      "question_id": 44055396,
+      "title": "Golang GORM invalid association",
+      "accepted_answer_id": 44064338,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/44055396/golang-gorm-invalid-association",
+      "owner": {
+        "display_name": "Alex Carruthers",
+        "link": "https://stackoverflow.com/users/1282125/alex-carruthers"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 50919587,
+      "body": "<p>As described in this <a href=\"https://github.com/go-gorm/gorm/issues/1436\" rel=\"nofollow noreferrer\">issue</a>, gorm is not designed to use joins to preload other structs values. If you would like to continue to use gorm and have the ability to use joins to load values, one must use the <a href=\"http://gorm.io/docs/sql_builder.html\" rel=\"nofollow noreferrer\">SQL Builder</a> exposed in gorm, and write some code to scan the desired values.</p>\n<p>This would become burdensome if there are numerous tables that have to be accounted for.\nIf <a href=\"https://github.com/go-xorm/xorm\" rel=\"nofollow noreferrer\">xorm</a> is available as an option, they support loading struct values. Described under the find bullet point, <a href=\"https://github.com/go-xorm/xorm#quick-start\" rel=\"nofollow noreferrer\">here</a>.</p>\n<p>Note: I did not scan all the fields, just enough to get the point across.</p>\n<p><strong>EXAMPLE</strong>:</p>\n<pre><code>package main\n\nimport (\n    &quot;log&quot;\n\n    &quot;github.com/jinzhu/gorm&quot;\n    _ &quot;github.com/jinzhu/gorm/dialects/sqlite&quot;\n    &quot;github.com/kylelemons/godebug/pretty&quot;\n)\n\n// Order\ntype Order struct {\n    gorm.Model\n    Status     string\n    OrderItems []OrderItem\n}\n\n// Order line item\ntype OrderItem struct {\n    gorm.Model\n    OrderID  uint\n    ItemID   uint\n    Item     Item\n    Quantity int\n}\n\n// Product\ntype Item struct {\n    gorm.Model\n    ItemName string\n    Amount   float32\n}\n\nvar (\n    items = []Item{\n        {ItemName: &quot;Go Mug&quot;, Amount: 12.49},\n        {ItemName: &quot;Go Keychain&quot;, Amount: 6.95},\n        {ItemName: &quot;Go Tshirt&quot;, Amount: 17.99},\n    }\n)\n\nfunc main() {\n    db, err := gorm.Open(&quot;sqlite3&quot;, &quot;/tmp/gorm.db&quot;)\n    db.LogMode(true)\n    if err != nil {\n        log.Panic(err)\n    }\n    defer db.Close()\n\n    // Migrate the schema\n    db.AutoMigrate(&amp;OrderItem{}, &amp;Order{}, &amp;Item{})\n\n    // Create Items\n    for index := range items {\n        db.Create(&amp;items[index])\n    }\n    order := Order{Status: &quot;pending&quot;}\n    db.Create(&amp;order)\n    item1 := OrderItem{OrderID: order.ID, ItemID: items[0].ID, Quantity: 1}\n    item2 := OrderItem{OrderID: order.ID, ItemID: items[1].ID, Quantity: 4}\n    db.Create(&amp;item1)\n    db.Create(&amp;item2)\n\n    // Query with joins\n    rows, err := db.Table(&quot;orders&quot;).Where(&quot;orders.id = ? and status = ?&quot;, order.ID, &quot;pending&quot;).\n        Joins(&quot;Join order_items on order_items.order_id = orders.id&quot;).\n        Joins(&quot;Join items on items.id = order_items.id&quot;).\n        Select(&quot;orders.id, orders.status, order_items.order_id, order_items.item_id, order_items.quantity&quot; +\n            &quot;, items.item_name, items.amount&quot;).Rows()\n    if err != nil {\n        log.Panic(err)\n    }\n\n    defer rows.Close()\n    // Values to load into\n    newOrder := &amp;Order{}\n    newOrder.OrderItems = make([]OrderItem, 0)\n\n    for rows.Next() {\n        orderItem := OrderItem{}\n        item := Item{}\n        err = rows.Scan(&amp;newOrder.ID, &amp;newOrder.Status, &amp;orderItem.OrderID, &amp;orderItem.ItemID, &amp;orderItem.Quantity, &amp;item.ItemName, &amp;item.Amount)\n        if err != nil {\n            log.Panic(err)\n        }\n        orderItem.Item = item\n        newOrder.OrderItems = append(newOrder.OrderItems, orderItem)\n    }\n    log.Print(pretty.Sprint(newOrder))\n}\n</code></pre>\n<p><strong>Output</strong>:</p>\n<pre><code>/tmp/main.go.go:55) \n[2018-06-18 18:33:59]  [0.74ms]  INSERT INTO &quot;items&quot; (&quot;created_at&quot;,&quot;updated_at&quot;,&quot;deleted_at&quot;,&quot;item_name&quot;,&quot;amount&quot;) VALUES ('2018-06-18 18:33:59','2018-06-18 18:33:59',NULL,'Go Mug','12.49')  \n[1 rows affected or returned ] \n\n(/tmp/main.go.go:55) \n[2018-06-18 18:33:59]  [0.50ms]  INSERT INTO &quot;items&quot; (&quot;created_at&quot;,&quot;updated_at&quot;,&quot;deleted_at&quot;,&quot;item_name&quot;,&quot;amount&quot;) VALUES ('2018-06-18 18:33:59','2018-06-18 18:33:59',NULL,'Go Keychain','6.95')  \n[1 rows affected or returned ] \n\n(/tmp/main.go.go:55) \n[2018-06-18 18:33:59]  [0.65ms]  INSERT INTO &quot;items&quot; (&quot;created_at&quot;,&quot;updated_at&quot;,&quot;deleted_at&quot;,&quot;item_name&quot;,&quot;amount&quot;) VALUES ('2018-06-18 18:33:59','2018-06-18 18:33:59',NULL,'Go Tshirt','17.99')  \n[1 rows affected or returned ] \n\n(/tmp/main.go.go:58) \n[2018-06-18 18:33:59]  [0.71ms]  INSERT INTO &quot;orders&quot; (&quot;created_at&quot;,&quot;updated_at&quot;,&quot;deleted_at&quot;,&quot;status&quot;) VALUES ('2018-06-18 18:33:59','2018-06-18 18:33:59',NULL,'pending')  \n[1 rows affected or returned ] \n\n(/tmp/main.go.go:61) \n[2018-06-18 18:33:59]  [0.62ms]  INSERT INTO &quot;order_items&quot; (&quot;created_at&quot;,&quot;updated_at&quot;,&quot;deleted_at&quot;,&quot;order_id&quot;,&quot;item_id&quot;,&quot;quantity&quot;) VALUES ('2018-06-18 18:33:59','2018-06-18 18:33:59',NULL,'49','145','1')  \n[1 rows affected or returned ] \n\n(/tmp/main.go.go:62) \n[2018-06-18 18:33:59]  [0.45ms]  INSERT INTO &quot;order_items&quot; (&quot;created_at&quot;,&quot;updated_at&quot;,&quot;deleted_at&quot;,&quot;order_id&quot;,&quot;item_id&quot;,&quot;quantity&quot;) VALUES ('2018-06-18 18:33:59','2018-06-18 18:33:59',NULL,'49','146','4')  \n[1 rows affected or returned ] \n\n(/tmp/main.go.go:69) \n[2018-06-18 18:33:59]  [0.23ms]  SELECT orders.id, orders.status, order_items.order_id, order_items.item_id, order_items.quantity, items.item_name, items.amount FROM &quot;orders&quot; Join order_items on order_items.order_id = orders.id Join items on items.id = order_items.id WHERE (orders.id = '49' and status = 'pending')  \n[0 rows affected or returned ] \n--- ONLY ONE QUERY WAS USED TO FILL THE STRUCT BELOW\n2018/06/18 18:33:59 {Model:      {ID:        49,\n              CreatedAt: 0001-01-01 00:00:00 +0000 UTC,\n              UpdatedAt: 0001-01-01 00:00:00 +0000 UTC,\n              DeletedAt: nil},\n Status:     &quot;pending&quot;,\n OrderItems: [{Model:    {ID:        0,\n                          CreatedAt: 0001-01-01 00:00:00 +0000 UTC,\n                          UpdatedAt: 0001-01-01 00:00:00 +0000 UTC,\n                          DeletedAt: nil},\n               OrderID:  49,\n               ItemID:   145,\n               Item:     {Model:    {ID:        0,\n                                     CreatedAt: 0001-01-01 00:00:00 +0000 UTC,\n                                     UpdatedAt: 0001-01-01 00:00:00 +0000 UTC,\n                                     DeletedAt: nil},\n                          ItemName: &quot;Go Mug&quot;,\n                          Amount:   12.489999771118164},\n               Quantity: 1},\n              {Model:    {ID:        0,\n                          CreatedAt: 0001-01-01 00:00:00 +0000 UTC,\n                          UpdatedAt: 0001-01-01 00:00:00 +0000 UTC,\n                          DeletedAt: nil},\n               OrderID:  49,\n               ItemID:   146,\n               Item:     {Model:    {ID:        0,\n                                     CreatedAt: 0001-01-01 00:00:00 +0000 UTC,\n                                     UpdatedAt: 0001-01-01 00:00:00 +0000 UTC,\n                                     DeletedAt: nil},\n                          ItemName: &quot;Go Keychain&quot;,\n                          Amount:   6.949999809265137},\n               Quantity: 4}]}\n</code></pre>\n",
+      "owner": {
+        "display_name": "will7200",
+        "link": "https://stackoverflow.com/users/8190553/will7200"
+      }
+    },
+    {
+      "answer_id": 63409572,
+      "body": "<p>The doc on <a href=\"https://gorm.io/docs/models.html#Fields-Tags\" rel=\"nofollow noreferrer\">models</a> specifies the following for <code>index</code> and <code>uniqueIndex</code>:</p>\n<blockquote>\n<div class=\"s-table-container\"><table class=\"s-table\">\n<thead>\n<tr>\n<th>Tag Name</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>[...]</td>\n<td>[...]</td>\n</tr>\n<tr>\n<td>index</td>\n<td>create index with options, use same name for multiple fields creates composite indexes, refer Indexes for details</td>\n</tr>\n<tr>\n<td>uniqueIndex</td>\n<td>same as index, but create uniqued index</td>\n</tr>\n<tr>\n<td>[...]</td>\n<td>[...]</td>\n</tr>\n</tbody>\n</table></div>\n</blockquote>\n<p>This means that two fields with the same <code>uniqueIndex</code> name will create a composite unique index.</p>\n<p>The full struct definition to use a composite index named <code>compositeindex</code> using your example becomes:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>type Contact struct {\n    gorm.Model\n    UserId    uint   `gorm:&quot;uniqueIndex:compositeindex;index;not null&quot;`\n    Contact   string `gorm:&quot;uniqueIndex:compositeindex;type:text;not null&quot;`\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marc",
+        "link": "https://stackoverflow.com/users/4966953/marc"
+      }
+    },
+    {
+      "answer_id": 78370619,
+      "body": "<p>GORM have package for it: <a href=\"https://github.com/go-gorm/datatypes#json\" rel=\"nofollow noreferrer\">https://github.com/go-gorm/datatypes#json</a></p>\n<p>As the documentation says, your code should look like this:</p>\n<pre><code>import &quot;gorm.io/datatypes&quot;\n\nerr := db.Raw(\n    `SELECT * FROM testing WHERE ? AND foo = 'bar'`, \n    datatypes.JSONQuery(&quot;agents&quot;).HasKey(&quot;mikel&quot;),\n  ).\n    Scan(...).\n    Error\n</code></pre>\n<p>This gives the query:</p>\n<pre><code>SELECT * FROM testing WHERE &quot;agents&quot;::jsonb ? 'mikel' AND foo = 'bar'\n</code></pre>\n<p>Alternative solution:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>    err := db.Raw(\n        `SELECT * FROM testing WHERE ? ? AND foo = 'bar'`, \n        gorm.Expr(`?`),\n        `mikel`,\n      ).\n        Scan(...).\n        Error\n    // SELECT * FROM testing WHERE agents ? 'mikel' AND foo = 'bar'\n</code></pre>\n",
+      "owner": {
+        "display_name": "shtrih",
+        "link": "https://stackoverflow.com/users/2322119/shtrih"
+      }
+    },
+    {
+      "answer_id": 59488366,
+      "body": "<p>First of all, this doesn't really do anything:</p>\n<pre><code>db.Preload(&quot;Username&quot;)\n</code></pre>\n<p>On the other hand, the following:</p>\n<pre><code>db.Preload(&quot;Orders&quot;).Find(&amp;users)\n</code></pre>\n<p>Does do something. First it populates <code>users</code> and then it populates <code>[]user.Orders</code>. On the comments on the page you linked you will find this, which shows what it does by query:</p>\n<pre><code>db.Preload(&quot;Orders&quot;).Find(&amp;users)\n//// SELECT * FROM users;\n//// SELECT * FROM orders WHERE user_id IN (1,2,3,4);\n</code></pre>\n<p>So what does this really do? I can give you the technical answer, which you can easily find out by googling <strong>eager loading</strong> or I can give you an answer by example which I feel is simpler.</p>\n<p>So let me explain this by example.</p>\n<p>Say you have users, where each user can have multiple orders. This is a one to many relationship which can be defined like:</p>\n<pre><code>type User struct {\n  gorm.Model\n  Username string\n  Orders []Order\n}\n</code></pre>\n<p>When you populate your <code>users</code> slice like:</p>\n<pre><code>db.Find(&amp;users)\n//// SELECT * FROM users;\n</code></pre>\n<p>If you need to get all the orders for each user you can easily access <code>user.Orders</code> but this would be empty anyway because it didn't get populated.</p>\n<p>If we populate <code>users</code> slice like:</p>\n<pre><code>db.Preload(&quot;Orders&quot;).Find(&amp;users)\n</code></pre>\n<p>The <code>user.Orders</code> will be populated by the orders of that user. This is an abstraction that makes dealing with relationships easier.</p>\n<p>The ugly alternative would be:</p>\n<pre><code>db.Find(&amp;users)\n\nfor user := range users {\n  db.Where(&quot;user_id&quot;, user.id).Find(&amp;user.Orders)\n}\n</code></pre>\n<p>It will also make more request to the database than necessary. (which is not good)</p>\n<p>If your users has Posts and Comments and Orders then you can define and query it like this:</p>\n<pre><code>type User struct {\n  gorm.Model\n  Username string\n  Orders []Order\n  Comments []Comment\n  Posts []Post\n}\n\ndb.Preload(&quot;Orders&quot;).Preload(&quot;Comments&quot;).Preload(&quot;Posts&quot;).Find(&amp;users)\n</code></pre>\n<p>With just the code above you can now have access to the users data in different tables in the database.</p>\n<p>I hope that helps.</p>\n",
+      "owner": {
+        "display_name": "majidarif",
+        "link": "https://stackoverflow.com/users/3134069/majidarif"
+      }
+    },
+    {
+      "answer_id": 60796837,
+      "body": "<p>The <a href=\"https://golang.org/pkg/database/sql/#NullString\" rel=\"noreferrer\"><code>sql.NullString</code></a> type is not actually a string type but a struct type. It's defined as:</p>\n<pre><code>type NullString struct {\n    String string\n    Valid  bool // Valid is true if String is not NULL\n}\n</code></pre>\n<p>Therefore you need to initialize it as such:</p>\n<pre><code>db.Create(&amp;Day{\n    Nameday:     &quot;Monday&quot;,\n    Dateday:     &quot;23-10-2019&quot;,\n    Something:   sql.NullString{String: &quot;a string goes here&quot;, Valid: true},\n    Holyday:     false,\n})\n</code></pre>\n<hr />\n<p>As an alternative, if you <em>want</em> to keep using the simpler syntax when initializing a nullable string, you could declare your own nullable string type, have it implement the <code>sql.Scanner</code> and <code>driver.Valuer</code> interfaces, and leverage the null byte to signal a <code>NULL</code> value.</p>\n<pre><code>type MyString string\n\nconst MyStringNull MyString = &quot;\\x00&quot;\n\n// implements driver.Valuer, will be invoked automatically when written to the db\nfunc (s MyString) Value() (driver.Value, error) {\n    if s == MyStringNull {\n        return nil, nil\n    }\n    return []byte(s), nil\n}\n\n// implements sql.Scanner, will be invoked automatically when read from the db\nfunc (s *MyString) Scan(src interface{}) error {\n    switch v := src.(type) {\n    case string:\n        *s = MyString(v)\n    case []byte:\n        *s = MyString(v)\n    case nil:\n        *s = MyStringNull\n    }\n    return nil\n}\n</code></pre>\n<p>With this, if you declare the field <code>Something</code> to be of type <code>MyString</code> you can initialize it as you originally intended.</p>\n<pre><code>db.Create(&amp;Day{\n    Nameday:     &quot;Monday&quot;,\n    Dateday:     &quot;23-10-2019&quot;,\n    // here the string expression is an *untyped* string constant\n    // that will be implicitly converted to MyString because\n    // both `string` and `MyString` have the same *underlying* type.\n    Something:   &quot;a string goes here&quot;,\n    Holyday:     false,\n})\n</code></pre>\n<p>Just keep in mind that this works only with untyped constants, once you have a constant or variable of type <code>string</code>, to be able to assign that to a <code>MyString</code> you'll need to use an explicit conversion.</p>\n<pre><code>var s string\nvar ms MyString\n\ns = &quot;a string goes here&quot;\nms = s // won't compile because s is not an untyped constant\nms = MyString(s) // you have to explicitly convert\n</code></pre>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 46808332,
+      "body": "<p>You could use <code>QueryExpr</code>, refer</p>\n<p><a href=\"https://gorm.io/docs/advanced_query.html#SubQuery\" rel=\"nofollow noreferrer\">https://gorm.io/docs/advanced_query.html#SubQuery</a></p>\n<blockquote>\n<p>db.Where(&quot;amount &gt; ?&quot;,\nDB.Table(&quot;orders&quot;).Select(&quot;AVG(amount)&quot;).Where(&quot;state = ?&quot;,\n&quot;paid&quot;).QueryExpr()).Find(&amp;orders)</p>\n</blockquote>\n<p>Which generate SQL</p>\n<blockquote>\n<p>SELECT * FROM &quot;orders&quot;  WHERE &quot;orders&quot;.&quot;deleted_at&quot; IS NULL AND\n(amount &gt; (SELECT AVG(amount) FROM &quot;orders&quot;  WHERE (state = 'paid')));</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Jinzhu",
+        "link": "https://stackoverflow.com/users/2851543/jinzhu"
+      }
+    },
+    {
+      "answer_id": 74887416,
+      "body": "<p>This solution should work based on the structs definitions you provided. First, let me show the code and then I'll go through each step:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;fmt&quot;\n\n    _ &quot;github.com/lib/pq&quot;\n    &quot;gorm.io/driver/postgres&quot;\n    &quot;gorm.io/gorm&quot;\n)\n\ntype Order struct {\n    Id            int\n    TransactionId int\n    Transaction   Transaction\n}\n\ntype Transaction struct {\n    Id        int\n    ProfileId int\n    Profile   Profile\n}\n\ntype Profile struct {\n    Id        int\n    AccountId int\n    Account   Account\n}\n\ntype Account struct {\n    Id int\n}\n\nfunc main() {\n    dsn := &quot;host=localhost user=postgres password=postgres dbname=postgres port=5432 sslmode=disable&quot;\n    db, err := gorm.Open(postgres.Open(dsn), &amp;gorm.Config{})\n    if err != nil {\n        panic(err)\n    }\n\n    db.AutoMigrate(&amp;Account{})\n    db.AutoMigrate(&amp;Profile{})\n    db.AutoMigrate(&amp;Transaction{})\n    db.AutoMigrate(&amp;Order{})\n\n    db.Create(&amp;Account{})\n    db.Create(&amp;Profile{AccountId: 1})\n    db.Create(&amp;Transaction{ProfileId: 1})\n    db.Create(&amp;Order{TransactionId: 1})\n\n    // order + transaction + profile + account\n    var order Order\n    db.Debug().Preload(&quot;Transaction.Profile.Account&quot;).Joins(&quot;inner join transactions t on orders.transaction_id = t.id&quot;).Joins(&quot;inner join profiles p on p.id = t.profile_id&quot;).Joins(&quot;inner join accounts a on p.account_id = a.id&quot;).First(&amp;order, &quot;a.id = ?&quot;, 1)\n    fmt.Println(order)\n}\n</code></pre>\n<p>Let's take a closer look at the code.</p>\n<h4>Structs definitions</h4>\n<p>Nothing changed here. Be sure to know the GORM conventions when you declare the structs as GORM will create relations, foreign keys, and constraints based on this.</p>\n<h4>Preparing the database</h4>\n<p>Here, you can find the connection to Postgres, the auto-migrating commands to synchronize the tables, and the insert of some dummy data.</p>\n<h4>The query</h4>\n<p>Here, we used a lot of methods provided by the GORM package for Go. Let's recap them in a short list:</p>\n<ul>\n<li><code>Debug</code>: it prints to the console the Raw SQL query. It's useful when dealing with complex queries</li>\n<li><code>Preload</code>: loads the related entities but it doesn't include them in the final query produced by Gorm</li>\n<li><code>Joins</code>: it specifies which tables have to be referenced in a JOIN clause. With the <code>Joins</code> we add the clause to the query.</li>\n<li><code>First</code>: it's used both for fetching only one record and also for specifying some filter such as in our case (e.g. <code>a.id = ?</code>).</li>\n</ul>\n<p>Let me know if this clarifies your issue, thanks!</p>\n",
+      "owner": {
+        "display_name": "ossan",
+        "link": "https://stackoverflow.com/users/14394371/ossan"
+      }
+    },
+    {
+      "answer_id": 74731559,
+      "body": "<p>Using lowercase latter at the beginning of the variable name makes it private, Use uppercase at the beginning of the variable name at the time of declaration</p>\n<p><em><strong>Like this :</strong></em></p>\n<pre><code> type User struct {\n    gorm.Model\n    Username string \n    Password string \n }\n</code></pre>\n<p><em><strong>you will get table like this :</strong></em></p>\n<p><a href=\"https://i.sstatic.net/xvoe5.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/xvoe5.png\" alt=\"enter image description here\" /></a></p>\n",
+      "owner": {
+        "display_name": "sk shahriar ahmed raka",
+        "link": "https://stackoverflow.com/users/12216779/sk-shahriar-ahmed-raka"
+      }
+    },
+    {
+      "answer_id": 68637612,
+      "body": "<p>Assuming you are using GORM with PostgreSQL. First in your database create a type.</p>\n<pre><code>CREATE TYPE car_type AS ENUM (\n    'SEDAN',\n    'HATCHBACK',\n    'MINIVAN');\n</code></pre>\n<p>Then you will need to define the following model:</p>\n<pre><code>import &quot;database/sql/driver&quot;\n\ntype carType string\n\nconst (\n    SEDAN  carType = &quot;SEDAN&quot;\n    HATCHBACK carType = &quot;HATCHBACK&quot;\n    MINIVAN carType = &quot;MINIVAN&quot;\n)\n\nfunc (ct *carType) Scan(value interface{}) error {\n    *ct = carType(value.([]byte))\n    return nil\n}\n\nfunc (ct carType) Value() (driver.Value, error) {\n    return string(ct), nil\n}\n\ntype MyTable struct {\n    gorm.Model\n    CarType carType `gorm:&quot;type:car_type&quot;`\n}\n\nfunc (MyTable) TableName() string {\n    return &quot;my_table&quot;\n}\n</code></pre>\n<p>Note for MySQL users, you can add struct tag <code>gorm:</code> or <code>sql:</code> so you don't have to run raw query to create enum in the database.</p>\n<pre><code>CarType carType `gorm:&quot;type:enum('SEDAN', 'HATCHBACK', 'MINIVAN')&quot;;&quot;column:car_type&quot;`\n</code></pre>\n<p>OR</p>\n<pre><code>CarType carType `sql:&quot;type:ENUM('SEDAN', 'HATCHBACK', 'MINIVAN')&quot; gorm:&quot;column:car_type&quot;`\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nick",
+        "link": "https://stackoverflow.com/users/4688775/nick"
+      }
+    },
+    {
+      "answer_id": 73568560,
+      "body": "<p>thanks to @Brits.\nIt is probably related with incompatibility between alpine container and golang 1.18.4 container dns libraries.\nI changed my container image to debian from alpine and the issue has been resolved.</p>\n<pre><code>FROM golang:1.18.4 as build\nWORKDIR /src\nCOPY go.sum go.mod ./\nRUN go mod download\nCOPY . . \nRUN go build -a -ldflags &quot;-linkmode external -extldflags '-static' -s -w&quot; -o /bin/app.\n\nFROM debian:buster-slim #just changed here!\nWORKDIR /app\nCOPY --from=build /bin/app .\nCMD [&quot;./app&quot;]\n</code></pre>\n",
+      "owner": {
+        "display_name": "anilkuscu",
+        "link": "https://stackoverflow.com/users/15528707/anilkuscu"
+      }
+    },
+    {
+      "answer_id": 73039884,
+      "body": "<h1>Possible solution</h1>\n<p>The solution is to retrieve («parse») the schema from the model.<br />\nPlease, note: from the model — not from a «physical» database.</p>\n<h2>References</h2>\n<ul>\n<li><p><a href=\"https://github.com/go-gorm/gorm/issues/5114\" rel=\"noreferrer\">How to get a map[string]string of Structure/Model Fields and DB Columns? · Issue #5114 · go-gorm/gorm</a>.</p>\n<ul>\n<li>The solution comment: <strong><a href=\"https://github.com/tzinckgraf\" rel=\"noreferrer\">tzinckgraf</a></strong> commented <a href=\"https://github.com/go-gorm/gorm/issues/5114#issuecomment-1059285907\" rel=\"noreferrer\">on Mar 4</a>.</li>\n</ul>\n</li>\n<li><p><a href=\"https://github.com/go-gorm/gorm/issues/4497\" rel=\"noreferrer\">How do I get the column name from the model struct field · Issue #4497 · go-gorm/gorm</a>.</p>\n</li>\n<li><p>Slightly related question. <a href=\"https://stackoverflow.com/questions/51999441/how-to-get-a-table-name-from-a-model-in-gorm\">go - How to get a table name from a model in gorm? - Stack Overflow</a>.</p>\n</li>\n</ul>\n<h2>Draft example program</h2>\n<h3><code>go.mod</code></h3>\n<pre><code>module gorm/example\n\ngo 1.18\n\nrequire (\n    github.com/google/uuid v1.3.0\n    gorm.io/gorm v1.23.8\n)\n\nrequire (\n    github.com/jinzhu/inflection v1.0.0 // indirect\n    github.com/jinzhu/now v1.1.4 // indirect\n)\n</code></pre>\n<h3><code>go.sum</code></h3>\n<pre><code>github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=\ngithub.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=\ngithub.com/jinzhu/inflection v1.0.0 h1:K317FqzuhWc8YvSVlFMCCUb36O/S9MCKRDI7QkRKD/E=\ngithub.com/jinzhu/inflection v1.0.0/go.mod h1:h+uFLlag+Qp1Va5pdKtLDYj+kHp5pxUVkryuEj+Srlc=\ngithub.com/jinzhu/now v1.1.4 h1:tHnRBy1i5F2Dh8BAFxqFzxKqqvezXrL2OW1TnX+Mlas=\ngithub.com/jinzhu/now v1.1.4/go.mod h1:d3SSVoowX0Lcu0IBviAWJpolVfI5UJVZZ7cO71lE/z8=\ngorm.io/gorm v1.23.8 h1:h8sGJ+biDgBA1AD1Ha9gFCx7h8npU7AsLdlkX0n2TpE=\ngorm.io/gorm v1.23.8/go.mod h1:l2lP/RyAtc1ynaTjFksBde/O8v9oOGIApu2/xRitmZk=\n</code></pre>\n<h3>Program (<code>main.go</code>)</h3>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;fmt&quot;\n    &quot;github.com/google/uuid&quot;\n    &quot;gorm.io/gorm&quot;\n    &quot;gorm.io/gorm/schema&quot;\n    &quot;sync&quot;\n    &quot;time&quot;\n)\n\ntype Person struct {\n    ID        uuid.UUID      `gorm:&quot;type:uuid;default:uuid_generate_v4()&quot;`\n    Name      string         `gorm:&quot;not null,type:text&quot;`\n    CreatedAt time.Time      `gorm:&quot;autoCreateTime&quot;`\n    UpdatedAt time.Time      `gorm:&quot;autoUpdateTime&quot;`\n    DeletedAt gorm.DeletedAt `gorm:&quot;index,-&gt;&quot;`\n}\n\nfunc main() {\n    s, err := schema.Parse(&amp;Person{}, &amp;sync.Map{}, schema.NamingStrategy{})\n    if err != nil {\n        panic(&quot;failed to parse schema&quot;)\n    }\n\n    m := make(map[string]string)\n    for _, field := range s.Fields {\n        dbName := field.DBName\n        modelName := field.Name\n        m[modelName] = dbName\n    }\n\n    fmt.Println(&quot;Model to schema field name map:&quot;, m)\n    fmt.Println(&quot;CreatedAt field is mapped to&quot;, m[&quot;CreatedAt&quot;], &quot;column&quot;)\n}\n</code></pre>\n<h3>Build</h3>\n<pre><code>$ go build main.go\n</code></pre>\n<h3>Run</h3>\n<pre><code>$ ./main\n</code></pre>\n<h4>Output</h4>\n<pre><code>Model to schema field name map: map[CreatedAt:created_at DeletedAt:deleted_at ID:id Name:name UpdatedAt:updated_at]\nCreatedAt field is mapped to created_at column\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sergey Vyacheslavovich Brunov",
+        "link": "https://stackoverflow.com/users/490018/sergey-vyacheslavovich-brunov"
+      }
+    },
+    {
+      "answer_id": 73026453,
+      "body": "<p>From the <code>GORM</code> <a href=\"https://gorm.io/docs/query.html#Order\" rel=\"noreferrer\">docs</a> e.g.</p>\n<pre><code>db.Order(&quot;age desc, name&quot;).Find(&amp;users)\n// SELECT * FROM users ORDER BY age desc, name;\n</code></pre>\n<p>so order your results based on the <code>created_at</code> column first - and you can list <code>id</code> second in case there's two records with the same timestamp (to ensure repeated queries return consistent results):</p>\n<pre><code>result := queryBuider.Model(&amp;models.News{}).Where(q).Order(&quot;created_at DESC, id DESC&quot;).Find(&amp;news)\n</code></pre>\n",
+      "owner": {
+        "display_name": "colm.anseo",
+        "link": "https://stackoverflow.com/users/1218512/colm-anseo"
+      }
+    },
+    {
+      "answer_id": 72891893,
+      "body": "<p>This is no longer correct. The code has been fixed, still use <code>gorm:&quot;-&quot;</code>.</p>\n",
+      "owner": {
+        "display_name": "Yuanhao",
+        "link": "https://stackoverflow.com/users/15968954/yuanhao"
+      }
+    },
+    {
+      "answer_id": 72839017,
+      "body": "<p>I finally found the answer without comprising.</p>\n<p>Adding the default return clause, returns all the newly created values.\n<a href=\"https://gorm.io/docs/update.html#Returning-Data-From-Modified-Rows\" rel=\"noreferrer\">https://gorm.io/docs/update.html#Returning-Data-From-Modified-Rows</a></p>\n<pre><code>Clauses.(clause.Returning{})\n</code></pre>\n<p><strong>model.go</strong></p>\n<pre><code>type User struct {\n    ID        uuid.UUID      `json:&quot;id&quot; gorm:&quot;primaryKey:type:uuid&quot;`\n    Email     string         `json:&quot;email&quot;`\n    Password  string         `json:&quot;password&quot;`\n    CreatedAt time.Time      `json:&quot;created_at&quot;`\n    UpdatedAt time.Time      `json:&quot;updated_at&quot;`\n    DeletedAt gorm.DeletedAt `json:&quot;deleted_at&quot;`\n}\n</code></pre>\n<p>repository.go</p>\n<pre><code>func CreateUserRepo(newUser UserRequest) (*User, error) {\n\n    hash, errHash := modules.HashPassword(newUser.Password)\n\n    if errHash != nil {\n        return nil, errHash\n    }\n\n    user := User{Email: newUser.Email, Password: *hash}\n    result := services.PostgresSQLDB.Clauses(clause.Returning{}).Select(&quot;Email&quot;, &quot;Password&quot;).Create(&amp;user)\n    fmt.Println(result.RowsAffected)\n    fmt.Println(&amp;user)\n\n    if result.Error != nil {\n        modules.Logger.Error(result.Error)\n        return nil, result.Error\n    }\n\n    return &amp;user, nil\n\n}\n</code></pre>\n<p>thanks to @TheFool comment for this find.</p>\n",
+      "owner": {
+        "display_name": "Kay",
+        "link": "https://stackoverflow.com/users/1548432/kay"
+      }
+    },
+    {
+      "answer_id": 72782817,
+      "body": "<p><code>gorm.Model</code> is including a <code>DeletedAt</code> field. So on deletion, this will be set to the current date, the record won't be removed from the database, but will not be findable with normal query methods. They call that &quot;soft delete&quot;.</p>\n<p>In order to delete the record permanently you have to use <code>Unscoped</code>, like:</p>\n<pre><code>db.Unscoped().Delete(&amp;order)\n</code></pre>\n<p>Source: <a href=\"https://gorm.io/docs/delete.html\" rel=\"noreferrer\">https://gorm.io/docs/delete.html</a></p>\n",
+      "owner": {
+        "display_name": "Beno&#238;t Zu",
+        "link": "https://stackoverflow.com/users/8237057/beno%c3%aet-zu"
+      }
+    },
+    {
+      "answer_id": 67751408,
+      "body": "<p>When using <code>gorm.Model</code>, or more specifically when your model has a field of type <code>gorm.DeletedAt</code>, GORM uses <a href=\"https://gorm.io/docs/delete.html#Soft-Delete\" rel=\"nofollow noreferrer\">soft delete</a>. That is, records do not actually get deleted, only the aforementioned field gets updated, and the records are normally excluded from query results. Consequently, cascade delete will not trigger.</p>\n<p>You can find, and then <em>actually</em> delete, soft-deleted objects using the <a href=\"https://pkg.go.dev/gorm.io/gorm#DB.Unscoped\" rel=\"nofollow noreferrer\"><code>Unscoped</code></a> method. Alternatively, change your models so that they are not affected by soft-deletion.</p>\n",
+      "owner": {
+        "display_name": "Riwen",
+        "link": "https://stackoverflow.com/users/4317297/riwen"
+      }
+    },
+    {
+      "answer_id": 59016218,
+      "body": "<p><strong>Updated for GORM v2</strong></p>\n<p>DEPRECATED: <code>TableName</code> will not allow dynamic table name anymore, its result will be cached for future uses.</p>\n<p>There is a much easier way to create several tables using the same struct:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>// Create table `shirts` &amp; `jeans` with the same fields as in struct Product\ndb.Table(&quot;shirts&quot;).AutoMigrate(&amp;Product{})\ndb.Table(&quot;jeans&quot;).AutoMigrate(&amp;Product{})\n\n// Query data from those tables\nvar shirts []Product\nvar jeans []Product\ndb.Table(&quot;shirts&quot;).Find(&amp;shirts)\ndb.Table(&quot;jeans&quot;).Where(&quot;quantity &gt; 0&quot;).Find(&amp;shirts)\n</code></pre>\n<p>But, now on the second thought, I would suggest using the embedded struct so that you won't have to call <code>Table</code> in every query and you can also have additional fields per model while still sharing the same table structure.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>type ProductBase struct {\n  ID int\n  Name strig\n  Quantity int\n}\n\ntype Shirt struct {\n  ProductBase\n  NeckType string\n}\n\ntype Jean struct {\n  ProductBase\n  Ripped bool\n}\n\ndb.AutoMigrate(&amp;Shirt{}, &amp;Jean{})\n\nshirt, jeans := Shirt{}, make([]Jean, 0)\ndb.Where(&quot;neck_type = ?&quot;, &quot;Mandarin Collar&quot;).Last(&amp;shirt)\ndb.Where(&quot;ripped&quot;).Find(&amp;jeans)\n</code></pre>\n<p><strong>Old answer for GORM v1</strong></p>\n<p>You're almost there by using <code>table</code> field inside the struct:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>type Product struct{\n  ID int\n  Name strig\n  Quantity int\n\n  // private field, ignored from gorm\n  table string `gorm:&quot;-&quot;`\n}\n\nfunc (p Product) TableName() string {\n  // double check here, make sure the table does exist!!\n  if p.table != &quot;&quot; {\n    return p.table\n  }\n  return &quot;products&quot; // default table name\n}\n\n// for the AutoMigrate\ndb.AutoMigrate(&amp;Product{table: &quot;jeans&quot;}, &amp;Product{table: &quot;skirts&quot;}, &amp;Product{})\n\n// to do the query\nprod := Product{table: &quot;jeans&quot;}\ndb.Where(&quot;quantity &gt; 0&quot;).First(&amp;prod)\n</code></pre>\n<p>Unfortunately, that does not work with <code>db.Find()</code> when you need to query for multiple records... The workaround is to specify your table before doing the query</p>\n<pre class=\"lang-golang prettyprint-override\"><code>prods := []*Product{}\ndb.Table(&quot;jeans&quot;).Where(&quot;quantity &gt; 0&quot;).Find(&amp;prods)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dat Ngo",
+        "link": "https://stackoverflow.com/users/11900571/dat-ngo"
+      }
+    },
+    {
+      "answer_id": 72024073,
+      "body": "<p>Try changing your field's type to a pointer type :</p>\n<pre><code>type Asdf struct {\n    ID          uint64     `json:&quot;id&quot; gorm:&quot;type:uuid;column:id&quot;`\n    Name        string     `json:&quot;name&quot; gorm:&quot;column:name&quot;`\n    Key         *uuid.UUID `json:&quot;key&quot; gorm:&quot;column:key&quot;`\n    CreatedAt   time.Time  `json:&quot;created_at&quot; gorm:&quot;column:created_at&quot;`\n    UpdatedAt   time.Time  `json:&quot;updated_at&quot; gorm:&quot;column:updated_at&quot;`\n}\n</code></pre>\n<p>You would obviously have to adapt your go code too (e.g: check if <code>record.Key != nil</code>, access <code>*record.Key</code> instead of <code>record.Key</code>, etc ...)</p>\n<hr />\n<p>I think gorm also honors the regular sql interfaces, so you may also try to define a custom type which implements :</p>\n<ul>\n<li><a href=\"https://pkg.go.dev/database/sql#Scanner\" rel=\"noreferrer\"><code>sql.Scanner</code></a> to turn <code>null</code> into <code>&quot;&quot;</code> on sql -&gt; go conversions,</li>\n<li><a href=\"https://pkg.go.dev/database/sql/driver#Valuer\" rel=\"noreferrer\"><code>driver.Valuer</code></a> (from the <code>sql/driver</code> package) to turn <code>&quot;&quot;</code> to <code>null</code> on go -&gt; sql conversions.</li>\n</ul>\n<p>I haven't tested it though, so you would have to try it yourself.</p>\n",
+      "owner": {
+        "display_name": "LeGEC",
+        "link": "https://stackoverflow.com/users/86072/legec"
+      }
+    },
+    {
+      "answer_id": 71900629,
+      "body": "<p>I know this is like a million years old but for the sake of completion here's the Gorm way of doing it - <em>clauses</em>.</p>\n<pre><code>    result := r.Gdb.Model(&amp;User{}).Clauses(clause.Returning{}).Where(&quot;id = ?&quot;, &quot;000-000-000&quot;).Updates(content)\n</code></pre>\n<p><a href=\"https://gorm.io/docs/update.html#Returning-Data-From-Modified-Rows\" rel=\"noreferrer\">Ref: Gorm Returning Data From Modified Rows</a></p>\n",
+      "owner": {
+        "display_name": "xdzc",
+        "link": "https://stackoverflow.com/users/2480182/xdzc"
+      }
+    },
+    {
+      "answer_id": 53020453,
+      "body": "<blockquote>\n<p><strong>Note!</strong></p>\n<p>from gorm 2.0 this is no longer necessary, read more here:\n<a href=\"https://gorm.io/docs/belongs_to.html#FOREIGN-KEY-Constraints\" rel=\"nofollow noreferrer\">gorm.io/docs/belongs_to.html#FOREIGN-KEY-Constraints</a></p>\n</blockquote>\n<p>The solution is to add this line when migrating the database:</p>\n<pre><code>db.Model(&amp;models.UserInfo{}).AddForeignKey(&quot;u_id&quot;, &quot;t_user(id)&quot;, &quot;RESTRICT&quot;, &quot;RESTRICT&quot;)\n</code></pre>\n<p><a href=\"http://gorm.io/docs/migration.html\" rel=\"nofollow noreferrer\">migration (gorm documentation)</a></p>\n",
+      "owner": {
+        "display_name": "Nir Berko",
+        "link": "https://stackoverflow.com/users/9993548/nir-berko"
+      }
+    },
+    {
+      "answer_id": 71154302,
+      "body": "<p>So, the issue is that gorm does not know how to connect album with artist (same for others), you need to add <code>AlbumID</code> field to <code>Artist</code> struct in order for gorm to know what is the connection between structs..</p>\n<p>Here is the example for all structs that you presented:</p>\n<p><strong>Album model:</strong></p>\n<pre><code>type Album struct {\n    gorm.Model\n    Artists     []Artist `gorm:&quot;many2many:album_artists;&quot;`\n    Name        string\n    ReleaseDate time.Time\n    GenreID     uint\n    Genre       Genre\n    Picture     string\n}\n</code></pre>\n<p>Since album and artist is many-to-many relationship, you may back-reference it depending on your needs <a href=\"https://gorm.io/docs/many_to_many.html\" rel=\"nofollow noreferrer\">check here</a></p>\n<p><strong>Artist model:</strong></p>\n<pre><code>type Artist struct {\n    gorm.Model\n    Name        string\n    Description string\n    YearsActive string\n}\n</code></pre>\n<p><strong>Genre model:</strong></p>\n<pre><code>type Genre struct {\n    gorm.Model\n    Name        string\n    Description string\n}\n</code></pre>\n<p><strong>Track model:</strong></p>\n<pre><code>type Track struct {\n    gorm.Model\n    AlbumID  uint\n    Album    Album\n    Name     string\n    Artists  []Artist  `gorm:&quot;many2many:track_artists;&quot;`  // you may back reference this too\n    Playtime time.Duration\n}\n</code></pre>\n<p>And now you can use this:</p>\n<pre><code>DB.Debug().AutoMigrate(&amp;models.Genre{}, &amp;models.Artist{}, &amp;models.Album{}, &amp;models.Track{})\n</code></pre>\n",
+      "owner": {
+        "display_name": "rosmak",
+        "link": "https://stackoverflow.com/users/18057881/rosmak"
+      }
+    },
+    {
+      "answer_id": 70399497,
+      "body": "<p>I would personally try do it like this:</p>\n<pre><code>type MinimalTodo struct {\n    gorm.Model\n    EventId     int64      `json:&quot;event_id&quot; form:&quot;event_id&quot; binding:&quot;required&quot;`\n    UserId      uint       `json:&quot;user_id&quot; form:&quot;user_id&quot;`\n    DoneUserId  uint       `json:&quot;done_user_id&quot; form:&quot;done_user_id&quot;`\n    Groups      string     `json:&quot;groups&quot; form:&quot;groups&quot;`\n    DoneAt      *time.Time `json:&quot;done_at&quot; form:&quot;done_at&quot;`\n    TodoEnd     time.Time  `json:&quot;todo_end&quot; form:&quot;todo_end&quot; binding:&quot;required&quot;`\n    Priority    uint       `json:&quot;priority&quot; form:&quot;priority&quot; binding:&quot;required&quot;`\n    Done        bool       `json:&quot;done&quot; form:&quot;done&quot;`\n    Title       string     `json:&quot;title&quot; form:&quot;title&quot; binding:&quot;required&quot;`\n    Description string     `json:&quot;description&quot; form:&quot;description&quot;`\n    CreatorId   uint       `json:&quot;creator_id&quot;`\n    ChangerId   uint       `json:&quot;changer_id&quot;`\n}\n\nfunc (MinimalTodo) TableName() string {\n    return &quot;todos&quot;\n}\n\ntype Todo struct {\n    MinimalTodo\n    Event\n}\n</code></pre>\n<p>Not sure if it'll work with Gorm.  Otherwise, I'd probably see how much work it would be to just change Event to a pointer:</p>\n<pre><code>type Todo struct {\n    gorm.Model\n    EventId     int64      `json:&quot;event_id&quot; form:&quot;event_id&quot; binding:&quot;required&quot;`\n    UserId      uint       `json:&quot;user_id&quot; form:&quot;user_id&quot;`\n    DoneUserId  uint       `json:&quot;done_user_id&quot; form:&quot;done_user_id&quot;`\n    Groups      string     `json:&quot;groups&quot; form:&quot;groups&quot;`\n    DoneAt      *time.Time `json:&quot;done_at&quot; form:&quot;done_at&quot;`\n    TodoEnd     time.Time  `json:&quot;todo_end&quot; form:&quot;todo_end&quot; binding:&quot;required&quot;`\n    Priority    uint       `json:&quot;priority&quot; form:&quot;priority&quot; binding:&quot;required&quot;`\n    Done        bool       `json:&quot;done&quot; form:&quot;done&quot;`\n    Title       string     `json:&quot;title&quot; form:&quot;title&quot; binding:&quot;required&quot;`\n    Description string     `json:&quot;description&quot; form:&quot;description&quot;`\n    CreatorId   uint       `json:&quot;creator_id&quot;`\n    ChangerId   uint       `json:&quot;changer_id&quot;`\n    Event       *Event\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "dave",
+        "link": "https://stackoverflow.com/users/2082673/dave"
+      }
+    },
+    {
+      "answer_id": 33848172,
+      "body": "<p>I think you are referring to an ORM library like <a href=\"https://github.com/go-gorm/gorm\" rel=\"nofollow noreferrer\">gorm</a></p>\n<p>In that case, metadata like <code>sql:&quot;primary_key&quot;</code> or <code>sql:&quot;index&quot;</code> will just tell the ORM to create an index while trying to setup the tables or maybe migrate them.</p>\n<p>A couple of examples in <a href=\"https://github.com/go-gorm/gorm\" rel=\"nofollow noreferrer\">gorm</a> could be: indexes, primary keys, foreign keys, many2many relations or when trying to adapt an exiting schema into your <a href=\"https://github.com/go-gorm/gorm\" rel=\"nofollow noreferrer\">gorm</a> models, setting the type explicitly, like for example:</p>\n<pre><code>type Address struct {\n    ID       int\n    Address1 string         `sql:&quot;not null;unique&quot;` // Set field as not nullable and unique\n    Address2 string         `sql:&quot;type:varchar(100);unique&quot;`\n    Post     sql.NullString `sql:&quot;not null&quot;`\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ezequiel Moreno",
+        "link": "https://stackoverflow.com/users/1241805/ezequiel-moreno"
+      }
+    },
+    {
+      "answer_id": 70192547,
+      "body": "<p>You need to exec query to turn on <code>PRAGMA foreign_keys</code> before updating</p>\n<pre class=\"lang-golang prettyprint-override\"><code>if res := db.Exec(&quot;PRAGMA foreign_keys = ON&quot;, nil); res.Error != nil {\n    return res.Error\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "outdead",
+        "link": "https://stackoverflow.com/users/4000206/outdead"
+      }
+    },
+    {
+      "answer_id": 69972299,
+      "body": "<p>You can try the following approach</p>\n<pre><code>var exists bool\nerr = db.Model(model).\n         Select(&quot;count(*) &gt; 0&quot;).\n         Where(&quot;id = ?&quot;, id).\n         Find(&amp;exists).\n         Error\n</code></pre>\n",
+      "owner": {
+        "display_name": "VlasovArtem",
+        "link": "https://stackoverflow.com/users/4606396/vlasovartem"
+      }
+    },
+    {
+      "answer_id": 69669495,
+      "body": "<p>Use the find function in the following way</p>\n<pre><code>   var users []User\n   // Get all records\n   result := db.Find(&amp;users)\n   // SELECT * FROM users;\n   result.RowsAffected // returns found records count, equals `len(users)`\n   result.Error        // returns error \n</code></pre>\n",
+      "owner": {
+        "display_name": "Kedar U Godkhindi",
+        "link": "https://stackoverflow.com/users/8104884/kedar-u-godkhindi"
+      }
+    },
+    {
+      "answer_id": 66367950,
+      "body": "<p>In the new version (GORM v2), use the <a href=\"https://gorm.io/docs/logger.html\" rel=\"noreferrer\"><code>Logger</code></a> interface:</p>\n<pre><code>import &quot;gorm.io/gorm/logger&quot;\n\n\ndb, err := gorm.Open(mysql.Open(connectionDSN), &amp;gorm.Config{\n    Logger: logger.Default.LogMode(logger.Info),\n})\n</code></pre>\n<p>For old version (GORM v1):</p>\n<pre><code>db, err:= Open(dbType, connectionDSN);\ndb.LogMode(true)\n</code></pre>\n<p>Note: this is not specific to MySQL and will work with any other DB driver (e.g. Postgres, SQLite, etc.).</p>\n",
+      "owner": {
+        "display_name": "rustyx",
+        "link": "https://stackoverflow.com/users/485343/rustyx"
+      }
+    },
+    {
+      "answer_id": 69402111,
+      "body": "<p>If you want different json, pass a different object to <code>Encode</code>.</p>\n<pre><code>type Response struct {\n    Status       string `json:&quot;status&quot;`\n    StatucCode   int    `json:&quot;statusCode&quot;`\n    Data         []User `json:&quot;data&quot;`\n}\n\nfunc getUser(w http.ResponseWriter, r *http.Request) {\n    w.Header().Set(&quot;Content-Type&quot;, &quot;application/json&quot;)\n    var user []User\n    result := db.Find(&amp;user)\n    json.NewEncoder(w).Encode(&amp;Response{&quot;success&quot;, 200, result})\n}\n</code></pre>\n<p>Or use a <code>map</code>:</p>\n<pre><code>json.NewEncoder(w).Encode(map[string]interface{}{\n    &quot;status&quot;: &quot;success&quot;, \n    &quot;statusCode&quot;: 200, \n    &quot;data&quot;: result,\n})\n</code></pre>\n",
+      "owner": {
+        "display_name": "blackgreen",
+        "link": "https://stackoverflow.com/users/4108803/blackgreen"
+      }
+    },
+    {
+      "answer_id": 69303409,
+      "body": "<p>&quot;How to unit test&quot; is a very broad question since it depends on what you want to test. In your example you're working with remote connections to a database which is usually something that is mocked in unit testing. It's not clear if that's what you're looking for and it's not a requirement to do so either. By seeing you use different databases I would expect the intention is not to mock.</p>\n<p>Start by looking at <a href=\"https://stackoverflow.com/a/54622650/2274551\">this</a> post that has already answered your question around how <a href=\"https://pkg.go.dev/testing#hdr-Main\" rel=\"noreferrer\"><code>TestMain</code></a> and <code>testing.M</code> is intended to work.</p>\n<p>What your code currently does (if your test name would be named <code>TestMain</code> properly) is add a method around your other tests to do setup and teardown, however you don't have any other tests to make use of this setup and teardown thus you'll get the result <code>no tests to run</code>.</p>\n<p>It's not a part of your question but I would suggest try to avoid <code>testing.M</code> until you feel confident in testing Go code. Using <code>testing.T</code> and testing separate units might be easier to understand. You could achieve pretty much the same thing by just calling <code>initDB()</code> in your test and making the initializer take an argument.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func initDB(dbToUse string) {\n    // ...\n    db.Exec(&quot;USE &quot;+dbToUse)\n}\n</code></pre>\n<p>You would then call <code>initDB(&quot;test&quot;)</code> from your main file and <code>initDB(&quot;test111&quot;)</code> from your test.\nYou can read about the testing package for Go at <a href=\"https://pkg.go.dev/testing\" rel=\"noreferrer\">pkg.go.dev/testing</a> where you'll also find the differences between <code>testing.T</code> and <code>testing.M</code>.</p>\n<p>Here's a shorter example with some basic testing that does not require any setup or teardown and that uses <code>testing.T</code> instead of <code>testing.M</code>.</p>\n<p><strong>main.go</strong></p>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport &quot;fmt&quot;\n\nfunc main() {\n    fmt.Println(add(1, 2))\n}\n\nfunc add(a, b int) int {\n    return a + b\n}\n</code></pre>\n<p><strong>main_test.go</strong></p>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport &quot;testing&quot;\n\nfunc TestAdd(t *testing.T) {\n    t.Run(&quot;add 2 + 2&quot;, func(t *testing.T) {\n        want := 4\n\n        // Call the function you want to test.\n        got := add(2, 2)\n\n        // Assert that you got your expected response\n        if got != want {\n            t.Fail()\n        }\n    })\n}\n</code></pre>\n<p>This test will test your method <code>add</code> and ensure it returns the right value when you pass <code>2, 2</code> as argument. The use of <code>t.Run</code> is optional but it creates a sub test for you which makes reading the output a bit easier.</p>\n<p>Since you test on package level you'll need to specify what package to test if you're not using the triple dot format including every package recursively.</p>\n<p>To run the test in the example above, specify your package and <code>-v</code> for verbose output.</p>\n<pre class=\"lang-sh prettyprint-override\"><code>$ go test ./ -v\n=== RUN   TestAdd\n=== RUN   TestAdd/add_2_+_2\n--- PASS: TestAdd (0.00s)\n    --- PASS: TestAdd/add_2_+_2 (0.00s)\nPASS\nok      x       (cached)\n</code></pre>\n<p>There is a lot more to learn around this topic as well such as testing frameworks and testing patterns. As an example the testing framework <a href=\"https://pkg.go.dev/github.com/stretchr/testify\" rel=\"noreferrer\"><code>testify</code></a> helps you do assertions and prints nice output when tests fail and <a href=\"https://yourbasic.org/golang/table-driven-unit-test/\" rel=\"noreferrer\">table driven tests</a> is a pretty common pattern in Go.</p>\n<p>You're also writing a HTTP server which usually requires additional testing setup to test properly. Luckily the <code>http</code> package in standard library comes with a sub package named <a href=\"https://pkg.go.dev/net/http/httptest#pkg-examples\" rel=\"noreferrer\"><code>httptest</code></a> which can help you record external requests or start local servers for external requests. You can also test your handlers by directly calling your handlers with a manually constructed request.</p>\n<p>It would look something like this.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func TestSomeHandler(t *testing.T) {\n    // Create a request to pass to our handler. We don't have any query parameters for now, so we'll\n    // pass 'nil' as the third parameter.\n    req, err := http.NewRequest(&quot;GET&quot;, &quot;/some-endpoint&quot;, nil)\n    if err != nil {\n        t.Fatal(err)\n    }\n\n    // We create a ResponseRecorder (which satisfies http.ResponseWriter) to record the response.\n    rr := httptest.NewRecorder()\n    handler := http.HandlerFunc(SomeHandler)\n\n    // Our handlers satisfy http.Handler, so we can call their ServeHTTP method \n    // directly and pass in our Request and ResponseRecorder.\n    handler.ServeHTTP(rr, req)\n\n    // Check the status code is what we expect.\n    if status := rr.Code; status != http.StatusOK {\n        t.Errorf(&quot;handler returned wrong status code: got %v want %v&quot;,\n            status, http.StatusOK)\n    }\n</code></pre>\n<hr />\n<p>Now, to test some of your code. We can run the init method and call any of your services with a response recorder.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;encoding/json&quot;\n    &quot;net/http&quot;\n    &quot;net/http/httptest&quot;\n    &quot;testing&quot;\n)\n\nfunc TestGetAllJobs(t *testing.T) {\n    // Initialize the DB\n    initDB(&quot;test111&quot;)\n\n    req, err := http.NewRequest(&quot;GET&quot;, &quot;/GetAllJobs&quot;, nil)\n    if err != nil {\n        t.Fatal(err)\n    }\n\n    rr := httptest.NewRecorder()\n    handler := http.HandlerFunc(GetAllJobs)\n\n    handler.ServeHTTP(rr, req)\n\n    // Check the status code is what we expect.\n    if status := rr.Code; status != http.StatusOK {\n        t.Errorf(&quot;handler returned wrong status code: got %v want %v&quot;,\n            status, http.StatusOK)\n    }\n\n    var response []Jobs\n    if err := json.Unmarshal(rr.Body.Bytes(), &amp;response); err != nil {\n        t.Errorf(&quot;got invalid response, expected list of jobs, got: %v&quot;, rr.Body.String())\n    }\n\n    if len(response) &lt; 1 {\n        t.Errorf(&quot;expected at least 1 job, got %v&quot;, len(response))\n    }\n\n    for _, job := range response {\n        if job.SourcePath == &quot;&quot; {\n            t.Errorf(&quot;expected job id %d to  have a source path, was empty&quot;, job.JobID)\n        }\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Simon S.",
+        "link": "https://stackoverflow.com/users/2274551/simon-s"
+      }
+    },
+    {
+      "answer_id": 68371127,
+      "body": "<p>In Gorm v1.21, I believe you could...</p>\n<h3 id=\"configure-the-logger-i8is\">Configure the logger</h3>\n<pre class=\"lang-golang prettyprint-override\"><code>import (\n  gormLogger &quot;gorm.io/gorm/logger&quot;\n)\n\nfunc main() {\n  db, err := gorm.Open(\n    sqlite.Open(&quot;test.db&quot;),\n    &amp;gorm.Config{\n      Logger: gormLogger.New(\n        log.New(os.Stdout, &quot;\\r\\n&quot;, log.LstdFlags),\n        gormLogger.Config {\n          LogLevel: gormLogger.Silent,\n          // IgnoreRecordNotFoundError: true,\n        },\n      ),\n    },\n  )\n}\n</code></pre>\n<ul>\n<li><a href=\"https://gorm.io/docs/logger.html#Logger\" rel=\"nofollow noreferrer\">https://gorm.io/docs/logger.html#Logger</a></li>\n</ul>\n<h3 id=\"catch-and-print-your-own-error-messages-pyd7\">Catch and print your own error messages</h3>\n<pre class=\"lang-golang prettyprint-override\"><code>result := db.Where(&quot;email = ?&quot;, &quot;test@test.com&quot;).Take(&amp;user)\n\nif !errors.Is(result.Error, gorm.ErrRecordNotFound) {\n  fmt.Println(&quot;record already exists&quot;)\n  // Or use a logger\n  // logger.Info(&quot;record already exists&quot;)\n}\n</code></pre>\n<ul>\n<li><a href=\"https://gorm.io/docs/query.html#Retrieving-a-single-object\" rel=\"nofollow noreferrer\">https://gorm.io/docs/query.html#Retrieving-a-single-object</a></li>\n<li><a href=\"https://gorm.io/docs/error_handling.html#ErrRecordNotFound\" rel=\"nofollow noreferrer\">https://gorm.io/docs/error_handling.html#ErrRecordNotFound</a></li>\n<li><a href=\"https://github.com/go-gorm/gorm/blob/master/errors.go\" rel=\"nofollow noreferrer\">https://github.com/go-gorm/gorm/blob/master/errors.go</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "tim-montague",
+        "link": "https://stackoverflow.com/users/1404726/tim-montague"
+      }
+    },
+    {
+      "answer_id": 30204310,
+      "body": "<p>GORM supports nested preloading.</p>\n<p>Please refer to the documentation: <a href=\"https://gorm.io/docs/preload.html#Nested-Preloading\" rel=\"nofollow noreferrer\">https://gorm.io/docs/preload.html#Nested-Preloading</a></p>\n",
+      "owner": {
+        "display_name": "Jinzhu",
+        "link": "https://stackoverflow.com/users/2851543/jinzhu"
+      }
+    },
+    {
+      "answer_id": 62641253,
+      "body": "<p>The first param of <code>.Where()</code> accepts <code>string</code> and the rest is variadic, this means you have the capability to modify the query and the values.</p>\n<p>In the below example, I've prepared <code>field1</code> &amp; <code>field2</code>, and also <code>value1</code> &amp; <code>value2</code> for representing the names of the fields I want to filter and their values respectively.</p>\n<blockquote>\n<p>The values can be in any type since it's <code>interface{}</code>.</p>\n</blockquote>\n<pre class=\"lang-golang prettyprint-override\"><code>var field1 string = &quot;id&quot;\nvar value1 interface{} = 10\n\nvar field2 string = &quot;age&quot;\nvar value2 interface{} = &quot;30&quot;\n\ndbDriver.Where(field1 &quot; = ? AND &quot; + field2 + &quot; = ?&quot;, value1, value2).First(t)\n</code></pre>\n<h3>Update 1</h3>\n<blockquote>\n<p>What if i am not sure what are number of parameter i will be passing? In this case we are hardcoding to two. What if that function/method passes 3 ?</p>\n</blockquote>\n<p>One possible solution to achieve that, is by using slices to hold the criteria. You will have the control to dynamically adjust the <code>fields</code> and <code>values</code>.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>fields := []string{&quot;id = ?&quot;, &quot;age = ?&quot;}\nvalues := []interface{}{10, &quot;30&quot;}\n\ndbDriver.Where(strings.Join(fields, &quot; AND &quot;), values...).First(t)\n</code></pre>\n<h3>Update 2</h3>\n<p>As per @Eklavya's comment, it's also possible to use a predefined struct object or a <code>map</code> instead of a <code>string</code> on the where clause.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>db.Where(&amp;User{Name: &quot;jinzhu&quot;, Age: 20}).First(&amp;user)\n// SELECT * FROM users WHERE name = &quot;jinzhu&quot; AND age = 20 ORDER BY id LIMIT 1;\n\ndb.Where(map[string]interface{}{&quot;name&quot;: &quot;jinzhu&quot;, &quot;age&quot;: 20}).Find(&amp;users)\n// SELECT * FROM users WHERE name = &quot;jinzhu&quot; AND age = 20;\n</code></pre>\n<p>Reference: <a href=\"https://gorm.io/docs/query.html#Struct-amp-Map\" rel=\"nofollow noreferrer\">GORM query reference</a></p>\n",
+      "owner": {
+        "display_name": "novalagung",
+        "link": "https://stackoverflow.com/users/1467988/novalagung"
+      }
+    },
+    {
+      "answer_id": 67194715,
+      "body": "<p>Note that <code>gorm</code> doesn't support <code>UNION</code> directly, you need to use <a href=\"https://pkg.go.dev/gorm.io/gorm#DB.Raw\" rel=\"noreferrer\"><code>db.Raw</code></a> to do UNIONs:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>db.Raw(&quot;? UNION ?&quot;,\n    db.Select(&quot;*&quot;).Model(&amp;Foo{}),\n    db.Select(&quot;*&quot;).Model(&amp;Bar{}),\n).Scan(&amp;union)\n</code></pre>\n<p>the above will produce something like the following:</p>\n<pre class=\"lang-sql prettyprint-override\"><code>SELECT * FROM &quot;foos&quot;\nWHERE &quot;foos&quot;.&quot;deleted_at&quot; IS NULL\nUNION\nSELECT * FROM &quot;bars&quot;\nWHERE &quot;bars&quot;.&quot;deleted_at&quot; IS NULL\n</code></pre>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 67155343,
+      "body": "<p>Trying to delete a row that doesn't exist is <em>not</em> considered an error by the SQL standard. If <em>you</em> need to return an error you should check the <a href=\"https://pkg.go.dev/gorm.io/gorm#DB.RowsAffected\" rel=\"noreferrer\"><code>RowsAffected</code></a> field.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func DeleteCategory(id uint) error {\n    c := Category{ID:id}\n\n    db := db.Delete(&amp;c)\n    if db.Error != nil {\n        return db.Error\n    } else if db.RowsAffected &lt; 1 {\n        return fmt.Errorf(&quot;row with id=%d cannot be deleted because it doesn't exist&quot;, id)\n    }\n\n    return nil\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 67058953,
+      "body": "<p>In V2.0 the <code>GetLastInsertId</code> method was removed. As @rustyx says, the ID is populated in the model you pass the <code>Create</code> function. I wouldn't bother calling <code>db.Last(&amp;...)</code> as this is a bit of a waste when the model will already have it.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>    type User struct {\n        gorm.Model\n        Name string\n    }\n\n    user1 := User{Name: &quot;User One&quot;}\n\n    _ = db.Transaction(func(tx *gorm.DB) error {\n        tx.Create(&amp;user1)\n        return nil\n    })\n\n    // This is unnecessary\n    // db.Last(&amp;user1)\n\n    fmt.Printf(&quot;User one ID: %d\\n&quot;, user1.ID)\n\n</code></pre>\n",
+      "owner": {
+        "display_name": "Christian",
+        "link": "https://stackoverflow.com/users/4647559/christian"
+      }
+    },
+    {
+      "answer_id": 67003247,
+      "body": "<p>You can parse the CSV into a slice of typed structures <a href=\"https://github.com/gocarina/gocsv\" rel=\"nofollow noreferrer\">using an external library</a>, and then insert them all at once using GORM's <a href=\"https://gorm.io/docs/create.html#Batch-Insert\" rel=\"nofollow noreferrer\">batch insert</a>.</p>\n<p>Here is an example :</p>\n<pre class=\"lang-golang prettyprint-override\"><code>import (\n    &quot;os&quot;\n\n    &quot;github.com/gocarina/gocsv&quot;\n    &quot;gorm.io/driver/postgres&quot;\n    &quot;gorm.io/gorm&quot;\n)\n\n// Entry defines both the CSV layout and database schema\ntype Entry struct {\n    gorm.Model\n\n    Field1 float64 `csv:&quot;field1&quot;`\n    Field2 float64 `csv:&quot;field2&quot;`\n}\n\nfunc main() {\n    // Open the CSV file for reading\n    file, err := os.Open(&quot;data.csv&quot;)\n    if err != nil {\n        panic(err)\n    }\n    defer file.Close()\n\n    // Parse CSV into a slice of typed data `[]Entry` (just like json.Unmarshal() does)\n    // The builtin package `encoding/csv` does not support unmarshaling into a struct\n    // so you need to use an external library to avoid writing for-loops.\n    var entries []Entry\n    err = gocsv.Unmarshal(file, &amp;entries)\n    if err != nil {\n        panic(err)\n    }\n\n    // Open a postgres database connection using GORM\n    db, err := gorm.Open(postgres.Open(&quot;host=localhost user=postgres password=dev dbname=foo port=5432 sslmode=disable TimeZone=Europe/Paris&quot;))\n    if err != nil {\n        panic(err)\n    }\n\n    // Create `entries` table if not exists\n    err = db.AutoMigrate(&amp;Entry{})\n    if err != nil {\n        panic(err)\n    }\n\n    // Save all the records at once in the database\n    result := db.Create(entries)\n    if result.Error != nil {\n        panic(result.Error)\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Arthur Chaloin",
+        "link": "https://stackoverflow.com/users/7259343/arthur-chaloin"
+      }
+    },
+    {
+      "answer_id": 66814528,
+      "body": "<h2>Ignoring a field altogether</h2>\n<p>If your struct contains model and non-model members. For example only some of the fields should be read/saved/udpated by Gorm. You can ignore the field altogether (like the json struct tag):</p>\n<pre class=\"lang-golang prettyprint-override\"><code>type MyModel struct {\n  gorm.Model // Updated by gorm\n  Name string // Updated by gorm\n  IgnoreMe MyType `gorm:&quot;-&quot;` // Not touched by gorm\n}\n</code></pre>\n<h2>Not migrating a particular field but still reading/updating the value via gorm</h2>\n<p>If you change a particular field's type or just don't want to automigrate it. <em>(this is probably a bad idea)</em></p>\n<p>It looks like this was a new feature here: <a href=\"https://github.com/go-gorm/gorm/pull/4028\" rel=\"nofollow noreferrer\">https://github.com/go-gorm/gorm/pull/4028</a></p>\n<pre class=\"lang-golang prettyprint-override\"><code>type MyModel struct {\n    gorm.Model\n    Name string `gorm:&quot;migration&quot;`\n</code></pre>\n<p><a href=\"https://github.com/go-gorm/gorm/pull/4028/commits/8771f3c27c1fb73b4b1a21cf706f6d81819b9f41\" rel=\"nofollow noreferrer\">https://github.com/go-gorm/gorm/pull/4028/commits/8771f3c27c1fb73b4b1a21cf706f6d81819b9f41</a></p>\n",
+      "owner": {
+        "display_name": "Christian",
+        "link": "https://stackoverflow.com/users/4647559/christian"
+      }
+    },
+    {
+      "answer_id": 66814105,
+      "body": "<p>You list <code>APIKeys</code> as the struct field name but try and use <code>ApiKeys</code> as the FK.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>.Preload(&quot;ApiKeys&quot;)\n// Should be\n.Preload(&quot;APIKeys&quot;)\n</code></pre>\n<p>Or, if you want to use <code>ApiKeys</code> as the foreign key, <a href=\"https://gorm.io/docs/has_many.html#Override-Foreign-Key\" rel=\"noreferrer\">use a Gorm struct tag to do this.</a></p>\n<h3>Full working example</h3>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;fmt&quot;\n    &quot;gorm.io/driver/sqlite&quot;\n    &quot;gorm.io/gorm&quot;\n)\n\ntype Client struct {\n    //  ApiKey Index\n    ID int `json:&quot;id&quot;`\n    UserName string `json:&quot;userName&quot;`\n    //  Client login hashed password\n    Password string `json:&quot;password&quot;`\n    //  ApiKeys\n    APIKeys []*APIKey `json:&quot;apiKeys&quot;`\n}\n\ntype APIKey struct {\n    //  ApiKey Index\n    ID int `json:&quot;id&quot;`\n    //  ApiKey Value\n    Key string `json:&quot;key&quot;`\n    //  ApiKey Client Relation\n    ClientID int `json:&quot;clientID&quot;`\n    //  ApiKey Client Info\n    Client *Client `json:&quot;client&quot;`\n}\n\nfunc main() {\n\n    db, err := gorm.Open(sqlite.Open(&quot;many2many.db&quot;), &amp;gorm.Config{})\n    if err != nil {\n        panic(&quot;failed to connect database&quot;)\n    }\n\n    // Migrate the schema\n    err = db.AutoMigrate(&amp;APIKey{}, &amp;Client{})\n    if err != nil {\n        fmt.Print(err)\n    }\n\n    clientOne := Client{\n        UserName:          &quot;Client One&quot;,\n    }\n    db.Create(&amp;clientOne)\n\n    apiKeyOne := APIKey{\n        Key:&quot;one&quot;,\n        Client: &amp;clientOne,\n    }\n    apiKeyTwo := APIKey{\n        Key:&quot;two&quot;,\n        Client: &amp;clientOne,\n    }\n\n    db.Create(&amp;apiKeyOne)\n    db.Create(&amp;apiKeyTwo)\n\n    // Fetch from DB\n    fetchedClient := Client{}\n\n    db.Debug().Preload(&quot;APIKeys&quot;).Find(&amp;fetchedClient, clientOne.ID)\n    fmt.Println(fetchedClient)\n\n    db.Delete(&amp;clientOne)\n    db.Delete(&amp;apiKeyOne)\n    db.Delete(&amp;apiKeyTwo)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Christian",
+        "link": "https://stackoverflow.com/users/4647559/christian"
+      }
+    },
+    {
+      "answer_id": 66564166,
+      "body": "<p>You can change the <code>TradeID</code> to a pointer, so the default value will be <code>nil</code>.</p>\n<pre><code>TradeID     *int \n</code></pre>\n",
+      "owner": {
+        "display_name": "fonini",
+        "link": "https://stackoverflow.com/users/1029654/fonini"
+      }
+    },
+    {
+      "answer_id": 55892341,
+      "body": "<p>UPDATE: for gorm <code>v2</code>:</p>\n<p>Use the <a href=\"https://gorm.io/docs/logger.html#Log-Levels\" rel=\"noreferrer\"><code>Logger</code></a> in <code>gorm.Config</code>:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>db, err := gorm.Open(sqlite.Open(&quot;test.db&quot;), &amp;gorm.Config{\n  Logger: logger.Default.LogMode(logger.Silent),\n})\n</code></pre>\n<hr />\n<p>For gorm <code>v1</code>:</p>\n<p>Use <a href=\"https://godoc.org/github.com/jinzhu/gorm?hide=1&amp;import-graph=#DB.LogMode\" rel=\"noreferrer\">db.LogMode</a> to silence the default error logger.</p>\n<blockquote>\n<p>LogMode set log mode, <code>true</code> for detailed logs, <code>false</code> for no log, default, will only print error logs.</p>\n</blockquote>\n<p><code>db.LogMode(false)</code> should do the job!</p>\n",
+      "owner": {
+        "display_name": "ifnotak",
+        "link": "https://stackoverflow.com/users/5198756/ifnotak"
+      }
+    },
+    {
+      "answer_id": 65951503,
+      "body": "<p>So you have a couple of options here. You can make <code>LastLogin</code> a pointer which will mean it can be a <code>nil</code> value:</p>\n<pre><code>type User struct {\n    ID        uint64 `gorm:&quot;primaryKey&quot;`\n    CreatedAt time.Time\n    LastLogin *time.Time\n}\n</code></pre>\n<p>Or like @aureliar mentioned you can use the sql.NullTime type</p>\n<pre><code>type User struct {\n    ID        uint64 `gorm:&quot;primaryKey&quot;`\n    CreatedAt time.Time\n    LastLogin sql.NullTime\n}\n</code></pre>\n<p>Now when you create that object in the DB and do not set LastLogin it will save as NULL in the DB.</p>\n<p><a href=\"https://gorm.io/docs/models.html\" rel=\"noreferrer\">https://gorm.io/docs/models.html</a></p>\n<p>It's worth noting, if you use sql.NullTime, in the struct you will see a default timestamp rather than a nil value</p>\n",
+      "owner": {
+        "display_name": "Chris Townsend",
+        "link": "https://stackoverflow.com/users/2188122/chris-townsend"
+      }
+    },
+    {
+      "answer_id": 65688633,
+      "body": "<p>There is a way to do this naturally in Gorm using a polymorphic Has One relationship. This will enable you to easily run some of the queries that @TheSphinX has provided.</p>\n<p>You will however need to add a type discriminator column to your relation table in order to make it work:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>type Customer struct {\n    gorm.Model\n    Title string\n    Rel   Relation `gorm:&quot;polymorphic:Owner&quot;`\n}\n\ntype Company struct {\n    gorm.Model\n    Title string\n    Rel   Relation `gorm:&quot;polymorphic:Owner&quot;`\n}\n\ntype Relation struct {\n    gorm.Model\n    Foo       string\n    OwnerID   uint\n    OwnerType string\n}\n</code></pre>\n<p>Now you create records normally:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>cust := Customer{\n    Title: &quot;Cust&quot;,\n    Rel:   Relation{Foo: &quot;bar&quot;},\n}\ncomp := Company{\n    Title: &quot;Comp&quot;,\n    Rel:   Relation{Foo: &quot;baz&quot;},\n}\ndb.Create(&amp;cust)\ndb.Create(&amp;comp)\n</code></pre>\n<p>To run a query that gets either Customer or Company with the related information as in @TehSphinX's first two queries you'd do something like:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>var cust Customer\ndb.Joins(&quot;Rel&quot;).First(&amp;cust, 1)\n</code></pre>\n<p>The last query would be more complex, but can also be done with a custom row struct and joins:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>var rows []struct {\n    Relation\n    Customer Customer `gorm:&quot;embedded;embeddedPrefix:cust_&quot;`\n    Company  Company  `gorm:&quot;embedded;embeddedPrefix:comp_&quot;`\n}\n\ndb.Select(`\n        relations.*,\n        customers.id AS cust_id,\n        customers.title AS cust_title,\n        companies.id AS comp_id,\n        companies.title AS comp_title\n    `).\n    Model(&amp;Relation{}).\n    Joins(&quot;LEFT JOIN customers ON relations.owner_id = customers.id AND relations.owner_type = 'customers'&quot;).\n    Joins(&quot;LEFT JOIN companies ON relations.owner_id = companies.id AND relations.owner_type = 'companies'&quot;).\n    Find(&amp;rows)\n\n// now rows[i].Relation is filled, and rows[i].Customer or rows[i].Company \n// are non-zero depending on rows[i].Relation.OwnerType\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ezequiel Muns",
+        "link": "https://stackoverflow.com/users/415628/ezequiel-muns"
+      }
+    },
+    {
+      "answer_id": 65416176,
+      "body": "<p>It's not obvious how you have set up your relationships since it seems you're using anonymous embedded structs for both EmployeeGroup and EmployeeRole, and you haven't included the code for those. I am going to assume you have set that up correctly and that gorm is happy to deal with relationships involving anonymous embedded structs.</p>\n<p>I am also going to assume you meant a BelongsTo relationship, as otherwise where will you put the foreign key to link the Employee table with either the Role or Group tables? It's clear that the foreign keys aren't in either of these last two.</p>\n<p>So then you have gotten an Employee struct, when an invalid GroupID or RoleID is given you have two options: either reject the operation when the IDs don't exist, or create a new Role/Group with the IDs given. The first one is the more sane and usual way of handling things, but gorm can do either.</p>\n<p>For the first, you can do the following if you have foreign key checks in your DB:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>// First make sure that EmployeeRoleID and EmployeeGroupID are set \nerr := db.Omit(&quot;EmployeeRole&quot;, &quot;EmployeeGroup&quot;).Create(employee).Error\n</code></pre>\n<p>If the EmployeeGroup.ID or EmployeeRole.ID do not exist, a foreign key violation will occur and you will get an error. You could inspect the error and deduce it's to do with the foreign keys, and then return an appropriate API-level error.</p>\n<p>You may find this error checking a bit cumbersome depending on the DB you're using. In all honesty, it's extremely common to fire off a bunch of extra relation validation queries before saving an entity, so don't be surprised about having to do it in this case.</p>\n<p>On the other hand, if you want to save a new Role and Group every time, you can remove the Omit call, make sure each ID is zero, and then call Create. Gorm will save the Role and Group, given them new IDs, and then save the link to these new IDs in the employee record.</p>\n<hr />\n<h2>EDIT</h2>\n<p>I tried to run your code, and found out a few problems:</p>\n<ul>\n<li>First, your input JSON has all TitleCased key names, but the model struct expects a lot of them to be lowercased. You need to decide one or the other and stick to it, or marshaling and unmarshaling won't work.</li>\n<li>Same applies for <code>EmployeeRoleID</code>/<code>EmployeeGroupID</code> vs <code>groupID</code>/<code>roleID</code>. Have one version of names in JSON, and one version in the Go struct (they can also all be the same TitleCased version, if you dropped the <code>json:&quot;blah&quot;</code> tags).</li>\n<li>Gorm doesn't like embedded anonymous structs for related entities, it doesn't create foreign keys for them and creates extraneous fields in the main table, don't do it.</li>\n<li>You've used the name of Role and Group as part of a composite primary key, but this breaks the keying because you'd need two fields in the main struct to make it work, e.g. <code>EmployeeGroupID</code> and <code>EmployeeGroupName</code>, which defeats the purpose of having a separate entity. If you want to enforce uniqueness in the name add a unique index instead.</li>\n<li>Turns out that <code>Omit(&quot;Relation.*&quot;)</code> only works for many-to-many relations. For belongs-to the thing to do is instead to fill in the <code>RelationID</code> field in the main struct, and omit the relation normally with <code>Omit(&quot;Relation&quot;)</code>.</li>\n</ul>\n<p>Here's a simplified version of your model that works:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>type Employee struct {\n    PrivateGormModel\n    Person  `gorm:&quot;embedded&quot; json:&quot;Person&quot;`\n    // ...\n    RoleID  uint\n    Role    EmployeeRole `gorm:&quot;constraint:OnUpdate:CASCADE,OnDelete:SET NULL;&quot;`\n}\n\ntype EmployeeRole struct {\n    PrivateGormModel\n    Title string `gorm:&quot;uniqueIndex&quot;`\n}\n</code></pre>\n<p>Here's a test case that shows how it works, assuming there's a configured <code>DB *gorm.DB</code>:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;encoding/json&quot;\n    &quot;testing&quot;\n\n    &quot;github.com/stretchr/testify/require&quot;\n)\n\nvar inJSON = `{\n    &quot;Person&quot;: {\n        &quot;FirstName&quot;: &quot;Test&quot;\n    },\n    &quot;RoleID&quot;: 1\n}`\n\nfunc TestGORM(t *testing.T) {\n    require := require.New(t)\n    require.NoError(DB.Migrator().DropTable(&amp;Employee{}, &amp;EmployeeRole{}))\n    require.NoError(DB.Migrator().AutoMigrate(&amp;Employee{}, &amp;EmployeeRole{}))\n    emp := Employee{}\n    json.Unmarshal([]byte(inJSON), &amp;emp)\n\n    // create the role to simulate that it exists\n    role := EmployeeRole{PrivateGormModel{ID: 1}, &quot;Test&quot;}\n    require.NoError(DB.Create(&amp;role).Error)\n\n    // avoid re-saving emp.Role\n    require.NoError(DB.Omit(&quot;Role&quot;).Create(&amp;emp).Error)\n\n    // if instead the RoleID doesn't exist\n    emp.RoleID = 5\n    require.Error(DB.Create(&amp;emp).Error)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ezequiel Muns",
+        "link": "https://stackoverflow.com/users/415628/ezequiel-muns"
+      }
+    },
+    {
+      "answer_id": 65434116,
+      "body": "<p>Just add this below code in Model.go (<a href=\"https://coussej.github.io/2016/02/16/Handling-JSONB-in-Go-Structs/\" rel=\"noreferrer\">referenceLink</a>)</p>\n<pre><code>\nimport (\n    &quot;errors&quot;\n    &quot;database/sql/driver&quot;\n    &quot;encoding/json&quot;\n)\n\n// JSONB Interface for JSONB Field of yourTableName Table\ntype JSONB []interface{}\n\n// Value Marshal\nfunc (a JSONB) Value() (driver.Value, error) {\n    return json.Marshal(a)\n}\n\n// Scan Unmarshal\nfunc (a *JSONB) Scan(value interface{}) error {\n    b, ok := value.([]byte)\n    if !ok {\n        return errors.New(&quot;type assertion to []byte failed&quot;)\n    }\n    return json.Unmarshal(b,&amp;a)\n}\n</code></pre>\n<p>-&gt; reference Link for <a href=\"https://golang.org/pkg/encoding/json/#Marshal\" rel=\"noreferrer\">Marshal</a>, <a href=\"https://golang.org/pkg/encoding/json/#Unmarshal\" rel=\"noreferrer\">Unmarshal</a></p>\n<ul>\n<li>now you can insert data using <code>DB.Create(&amp;yourTableName)</code></li>\n</ul>\n",
+      "owner": {
+        "display_name": "M_x",
+        "link": "https://stackoverflow.com/users/12746958/m-x"
+      }
+    },
+    {
+      "answer_id": 65332052,
+      "body": "<p>This is because you didn't select primary key. Add &quot;ID&quot; into select clause:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func(db *gorm.DB) *gorm.DB {\n    return db.Select(&quot;ID&quot;, &quot;Name&quot;, &quot;Email&quot;)\n}\n</code></pre>\n<p>Otherwise GORM doesn't know how to join users to jobs.</p>\n",
+      "owner": {
+        "display_name": "Paul Rumkin",
+        "link": "https://stackoverflow.com/users/884491/paul-rumkin"
+      }
+    },
+    {
+      "answer_id": 65324342,
+      "body": "<pre class=\"lang-golang prettyprint-override\"><code>db.Omit(&quot;As.*&quot;).Create(&amp;b)\n</code></pre>\n<p>There is a note on the gorm <a href=\"https://gorm.io/docs/associations.html\" rel=\"nofollow noreferrer\">Associations : Skip Auto Create/Update</a> docs which details this. It's easy to miss.</p>\n",
+      "owner": {
+        "display_name": "Ezequiel Muns",
+        "link": "https://stackoverflow.com/users/415628/ezequiel-muns"
+      }
+    },
+    {
+      "answer_id": 65285342,
+      "body": "<p>If you want to check if your SQL statement was successfully executed in GORM you can use the following:</p>\n<pre><code>tx := DB.Exec(sqlStr, args...)\n\nif tx.Error != nil {\n    return false\n}\n\nreturn true\n</code></pre>\n<p>However in your example are using a SELECT statement then you need to check the result, which will be better suited to use the DB.Raw() method like below</p>\n<pre><code>var exists bool\nDB.Raw(sqlStr).Row().Scan(&amp;exists)\nreturn exists\n</code></pre>\n",
+      "owner": {
+        "display_name": "Milan",
+        "link": "https://stackoverflow.com/users/3824033/milan"
+      }
+    },
+    {
+      "answer_id": 64813687,
+      "body": "<p>GORM documentation is often poor. There are three ways you can accomplish omitting columns in your query. The first is by using the <code>tx.Omit</code> function.</p>\n<pre><code>var ma []models.MaterieprimeAnalisi\n_ := db.Omit(&quot;Materieprime&quot;, &quot;Parametrianalitici&quot;).Find(&amp;ma)\n</code></pre>\n<p>You will never find this function in the examples on the website, however. The recommended way in GORM 2.0 is by using <code>tx.Select</code> or using the Smart Select feature.</p>\n<p><code>tx.Select</code> can be used just as you imagine:</p>\n<pre><code>var ma []models.MaterieprimeAnalisi\n_ := db.Select(&quot;GUIDAnalisiMP&quot;, &quot;GUIDMP&quot;, &quot;GUIDPA&quot;, &quot;Valore&quot;).Find(&amp;ma)\n</code></pre>\n<p>As for <code>Smart Select</code>, you can create a partial struct which contains only the fields you want:</p>\n<pre><code>type MaterieprimeAnalisiSubset struct {\n    GUIDAnalisiMP      string            \n    GUIDMP             null.String          \n    GUIDPA             null.String \n    Valore             null.Float\n}\nvar ma []MaterieprimeAnalisiSubset\ntx.Model(&amp;models.MaterieprimeAnalisi{}).Find(&amp;ma)\n</code></pre>\n<p>Documentation: <a href=\"https://godoc.org/github.com/jinzhu/gorm#DB.Omit\" rel=\"noreferrer\">Omit</a>, <a href=\"https://godoc.org/github.com/jinzhu/gorm#DB.Select\" rel=\"noreferrer\">Select</a>, <a href=\"https://gorm.io/docs/advanced_query.html#Smart-Select-Fields\" rel=\"noreferrer\">Smart Select</a></p>\n",
+      "owner": {
+        "display_name": "ajax992",
+        "link": "https://stackoverflow.com/users/6247003/ajax992"
+      }
+    },
+    {
+      "answer_id": 56653723,
+      "body": "<p>As @mkopriva mentioned, by GORM <a href=\"https://gorm.io/docs/update.html#Updates-multiple-columns\" rel=\"noreferrer\">Documentation</a></p>\n<blockquote>\n<pre class=\"lang-golang prettyprint-override\"><code>// Update attributes with `struct`, will only update non-zero fields\ndb.Model(&amp;user).Updates(User{Name: &quot;hello&quot;, Age: 18, Active: false})\n// UPDATE users SET name='hello', age=18, updated_at = '2013-11-17 &gt; 21:34:10' WHERE id = 111;\n\n// Update attributes with `map`\ndb.Model(&amp;user).Updates(map[string]interface{}{&quot;name&quot;: &quot;hello&quot;, &quot;age&quot;: 18, &quot;actived&quot;: false})\n// UPDATE users SET name='hello', age=18, actived=false, updated_at='2013-11-17 21:34:10' WHERE id=111;\n</code></pre>\n<blockquote>\n<p><strong>NOTE</strong> When update with struct, GORM will only update non-zero fields, you might want to use <code>map</code> to update attributes or use <code>Select</code> to specify fields to update</p>\n</blockquote>\n</blockquote>\n<p><strong>Solved:</strong></p>\n<pre><code>if err := service.DB.Model(&amp;attendee).Updates(map[string]interface{}{\n    &quot;Email&quot;:          attendee.Email,\n    &quot;ShowDirectory&quot;: false\n}).Error; err != nil {\n    return Attendee{}, err\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "7urkm3n",
+        "link": "https://stackoverflow.com/users/2325924/7urkm3n"
+      }
+    },
+    {
+      "answer_id": 64035166,
+      "body": "<p><s>In the <code>Value</code> method, replace the returned <code>nil</code> with <code>sql.NullString{}</code></s> - This is incorrect, as <code>Value</code> should not return another <code>Valuer</code>.</p>\n<p>The problem is that GORM is unsure of what the datatype should be for the newly defined type, so it tried to figure it out. Instead, the type should be explicitly defined, either with a <strong>tag in the model</strong> or by <strong>implementing a gorm method on the new type</strong></p>\n<p><strong>Tag in the model</strong></p>\n<pre class=\"lang-golang prettyprint-override\"><code>type MyModel struct {\n    ...\n    MyText MultiString `gorm:&quot;type:text&quot;`\n}\n</code></pre>\n<p>This tells GORM to use the type <code>text</code> for the DB column type. With this strategy, the tag must be applied every time the new type is used in a model.</p>\n<p><strong>GORM Methods</strong></p>\n<p>Two GORM methods can be implemented on the new data type to tell GORM what database type should be used:</p>\n<ul>\n<li><code>GormDataType() string</code></li>\n<li><code>GormDBDataType(db *gorm.DB, field *schema.Field) string</code></li>\n</ul>\n<p>Examples:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func (MultiString) GormDataType() string {\n  return &quot;text&quot;\n}\n</code></pre>\n<pre class=\"lang-golang prettyprint-override\"><code>func (MultiString) GormDBDataType(db *gorm.DB, field *schema.Field) string {\n\n  // returns different database type based on driver name\n  switch db.Dialector.Name() {\n  case &quot;mysql&quot;, &quot;sqlite&quot;:\n    return &quot;text&quot;\n  }\n  return &quot;&quot;\n}\n</code></pre>\n<p>This one is useful for if the data type differs between what type of database you're using.</p>\n",
+      "owner": {
+        "display_name": "robbieperry22",
+        "link": "https://stackoverflow.com/users/8685016/robbieperry22"
+      }
+    },
+    {
+      "answer_id": 64417193,
+      "body": "<p>this is how you do it: You need to use the gorm struct tag and specify that the index is unique</p>\n<pre><code>type Something struct {\n    gorm.Model\n    First  string `gorm:&quot;index:idx_name,unique&quot;`\n    Second string `gorm:&quot;index:idx_name,unique&quot;`\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sebastian",
+        "link": "https://stackoverflow.com/users/6146337/sebastian"
+      }
+    },
+    {
+      "answer_id": 64346775,
+      "body": "<p>GORM allows you to ignore the field with tag, use <code>gorm:&quot;-&quot;</code> to ignore the field</p>\n<pre><code>type User struct {\n    ...\n    Gender   string `json:&quot;gender&quot; gorm:&quot;-&quot;` // ignore this field when write and read\n}\n</code></pre>\n<p>Offical doc details about <a href=\"https://gorm.io/docs/models.html#Field-Level-Permission\" rel=\"noreferrer\">Field-Level Permission</a></p>\n",
+      "owner": {
+        "display_name": "Eklavya",
+        "link": "https://stackoverflow.com/users/4207306/eklavya"
+      }
+    },
+    {
+      "answer_id": 54251638,
+      "body": "<p>update 2020.10.09</p>\n<p>Thanks for <a href=\"https://stackoverflow.com/users/9641939/vaelin\">@vaelin</a></p>\n<p>From 1.20.x on, GORM provides compatible Upsert support for different databases( <a href=\"https://gorm.io/docs/create.html#Upsert-On-Conflict\" rel=\"noreferrer\">Upsert-On-Conflict</a>)</p>\n<pre class=\"lang-golang prettyprint-override\"><code>// Update columns to new value on `id` conflict\nDB.Clauses(clause.OnConflict{\n  Columns:   []clause.Column{{Name: &quot;id&quot;}}, // key colume\n  DoUpdates: clause.AssignmentColumns([]string{&quot;name&quot;, &quot;age&quot;}), // column needed to be updated\n}).Create(&amp;users)\n// MERGE INTO &quot;users&quot; USING *** WHEN NOT MATCHED THEN INSERT *** WHEN MATCHED THEN UPDATE SET &quot;name&quot;=&quot;excluded&quot;.&quot;name&quot;; SQL Server\n// INSERT INTO &quot;users&quot; *** ON CONFLICT (&quot;id&quot;) DO UPDATE SET &quot;name&quot;=&quot;excluded&quot;.&quot;name&quot;, &quot;age&quot;=&quot;excluded&quot;.&quot;age&quot;; PostgreSQL\n// INSERT INTO `users` *** ON DUPLICATE KEY UPDATE `name`=VALUES(name),`age=VALUES(age); MySQL\n</code></pre>\n<p>With gorm 1.9.x or below, it's more effecient to update first, then insert when not existed.</p>\n<pre><code>// update only set name=nick\nif err := db.Model(&amp;newUser).Where(&quot;id = ?&quot;, 3333).Update(&quot;name&quot;, &quot;nick&quot;).Error; err != nil {\n    // always handle error like this, cause errors maybe happened when connection failed or something. \n    // record not found...\n    if gorm.IsRecordNotFoundError(err){\n        db.Create(&amp;newUser)  // create new record from newUser\n    }\n}\n</code></pre>\n<p><code>FirstOrInit</code> and <code>FirstOrCreate</code> are different. If there is no match record in database, <code>FirstOrInit</code> will init struct but not create record, <code>FirstOrCreate</code> will create a record and query that record to struct.</p>\n",
+      "owner": {
+        "display_name": "Billy Yuan",
+        "link": "https://stackoverflow.com/users/10737552/billy-yuan"
+      }
+    },
+    {
+      "answer_id": 63852811,
+      "body": "<p>A zero value, or a default value, for a <code>time.Time</code> field type inside a struct is <code>time.Time{}</code>. When using <code>Updates</code>, either don't populate the <code>CreatedAt</code> field, or assign <code>time.Time{}</code> value to it.</p>\n<p>In the example below, the default or zero value is printed out for <code>CreatedAt</code> field in both cases.</p>\n<pre><code>package main\n\nimport (\n    &quot;fmt&quot;\n    &quot;time&quot;\n)\n\ntype T struct {\n   CreatedAt time.Time\n   C int\n   S string\n}\n\nfunc main() {\n    fmt.Println(T{C: 1, S: &quot;one&quot;})\n    fmt.Println(T{C: 2, S: &quot;two&quot;, CreatedAt: time.Time{}})\n}\n\n// {0001-01-01 00:00:00 +0000 UTC 1 one}\n// {0001-01-01 00:00:00 +0000 UTC 2 two} \n</code></pre>\n<p><strong>EDIT:</strong>\nAlso, I'm not sure how even <code>CreatedAt: nil,</code> compiles if the <code>CreatedAt</code> field is of <code>time.Time</code> type, and not <code>*time.Time</code>.</p>\n<p>Since you've updated the <code>Service</code> struct and <code>CreatedAt</code> field type to <code>*time.Time</code>, following should work:</p>\n<pre><code>tx.Model(&amp;service).Updates(Service{Name: service.Name}) // add all fields that you want to be updated.\n\n// resulting query\n// UPDATE services SET name = 'new service name' WHERE id = 'abc123';\n</code></pre>\n<p>An official GORM example is <a href=\"https://gorm.io/docs/update.html#Updates-multiple-columns\" rel=\"nofollow noreferrer\">here</a></p>\n<p>Additionally, you can omit the <code>created_at</code> field like this:</p>\n<pre><code>tx.Model(&amp;service).Omit(&quot;created_at&quot;).Updates(service)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Emin Laletovic",
+        "link": "https://stackoverflow.com/users/7567579/emin-laletovic"
+      }
+    },
+    {
+      "answer_id": 63810877,
+      "body": "<p>try</p>\n<pre><code>DeliveryZone []*DeliveryZone `gorm:&quot;-&quot;`\n</code></pre>\n<p><a href=\"https://gorm.io/docs/models.html\" rel=\"noreferrer\">https://gorm.io/docs/models.html</a> -&gt; ctrl+F -&gt; ignore this field</p>\n",
+      "owner": {
+        "display_name": "Maxim",
+        "link": "https://stackoverflow.com/users/10490857/maxim"
+      }
+    },
+    {
+      "answer_id": 63624863,
+      "body": "<p>The <code>protoc-gen-gorm</code> project did not work for me. It looks like there is some blending of proto2 and proto3 happening, and ultimately I was unable to get it to work.</p>\n<p>My solution was to create a script to do post processing after I generate the go files from protobuf.</p>\n<p>If this was my proto <code>profile/profile.proto</code>:</p>\n<pre><code>message Profile {\n  uint64 id = 1;\n  string name = 2;\n  bool active = 3;\n  // ...\n}\n</code></pre>\n<p>Which created <code>profile/profile.pb.go</code> with standard <code>protoc</code> command:</p>\n<pre><code>// ...\ntype Profile struct {\n    state         protoimpl.MessageState\n    sizeCache     protoimpl.SizeCache\n    unknownFields protoimpl.UnknownFields\n\n    Id     uint64 `protobuf:&quot;varint,1,opt,name=id,proto3&quot; json:&quot;id,omitempty&quot;`\n    Name   string `protobuf:&quot;bytes,2,opt,name=name,proto3&quot; json:&quot;name,omitempty&quot;`\n    Active bool   `protobuf:&quot;varint,3,opt,name=active,proto3&quot; json:&quot;active,omitempty&quot;`\n}\n// ...\n</code></pre>\n<p>I use this script <code>gorm.sh</code>:</p>\n<pre><code>#!/bin/bash\n\ng () {\n  sed &quot;s/json:\\&quot;$1,omitempty\\&quot;/json:\\&quot;$1,omitempty\\&quot; gorm:\\&quot;type:$2\\&quot;/&quot;\n}\n\ncat $1 \\\n| g &quot;id&quot; &quot;primary_key&quot; \\\n| g &quot;name&quot; &quot;varchar(100)&quot; \\\n&gt; $1.tmp &amp;&amp; mv $1{.tmp,}\n</code></pre>\n<p>Which I invoke on my go file after it's generated with <code>./gorm.sh profile/profile.pb.go</code> and the result of <code>profile/profile.pb.go</code> is:</p>\n<pre><code>// ...\ntype Profile struct {\n    state         protoimpl.MessageState\n    sizeCache     protoimpl.SizeCache\n    unknownFields protoimpl.UnknownFields\n\n    Id     uint64 `protobuf:&quot;varint,1,opt,name=id,proto3&quot; json:&quot;id,omitempty&quot; gorm:&quot;type:primary_key&quot;`\n    Name   string `protobuf:&quot;bytes,2,opt,name=name,proto3&quot; json:&quot;name,omitempty&quot; gorm:&quot;type:varchar(100)&quot;`\n    Active bool   `protobuf:&quot;varint,3,opt,name=active,proto3&quot; json:&quot;active,omitempty&quot;`\n}\n// ...\n</code></pre>\n",
+      "owner": {
+        "display_name": "nobane",
+        "link": "https://stackoverflow.com/users/14179181/nobane"
+      }
+    },
+    {
+      "answer_id": 63541161,
+      "body": "<p>In short: you can't. <a href=\"http://gorm.io/\" rel=\"noreferrer\">GORM</a> is created for relational databases, and MongoDB is not a relational but a NoSQL database.</p>\n<p>And you can't even use GORM with all SQL databases, the <a href=\"http://gorm.io/docs/connecting_to_the_database.html#Supported-Databases\" rel=\"noreferrer\">officially supported list</a> at the moment is: MySQL, PostgreSQL, SQLite3 and SQL Server, although you can &quot;easily&quot; add support for other SQL servers by <a href=\"http://gorm.io/docs/dialects.html\" rel=\"noreferrer\">writing GORM dialects</a> for them. But that's the end of it. Adding support for MongoDB would require more work than what your gain would be.</p>\n<p>Consider using the <a href=\"https://github.com/mongodb/mongo-go-driver\" rel=\"noreferrer\">official MongoDB driver</a> which is quite mature now. Or if using GORM is a must for you, you must choose another (not MongoDB, preferably one of the above listed supported) database.</p>\n",
+      "owner": {
+        "display_name": "icza",
+        "link": "https://stackoverflow.com/users/1705598/icza"
+      }
+    },
+    {
+      "answer_id": 63256996,
+      "body": "<p>You need to use custom types from the underlying library:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>type Game struct {                                           \n        gorm.Model                                           \n        GameCode    string                                      \n        GameName    string                                      \n        DeckType    pq.Int64Array `gorm:&quot;type:integer[]&quot;`\n        GameEndDate string    \n}   \n\n// example insertion\ndt := []int64{1, 2, 3}   \n                                                                                \ndb.Create(&amp;Game{GameCode: &quot;xxx&quot;, GameName: &quot;xxx&quot;, DeckType: pq.Int64Array(dt), GameEndDate: &quot;xxx&quot;})    \n</code></pre>\n",
+      "owner": {
+        "display_name": "pacuna",
+        "link": "https://stackoverflow.com/users/2852104/pacuna"
+      }
+    },
+    {
+      "answer_id": 61823123,
+      "body": "<p><strong>TLDR:</strong> yes, try to reuse the returned DB object.</p>\n\n<p><a href=\"https://github.com/jinzhu/gorm/blob/v1.9.12/main.go#L58\" rel=\"noreferrer\">gorm.Open</a> does the following: (more or less):</p>\n\n<ol>\n<li>lookup the driver for the given dialect </li>\n<li>call <code>sql.Open</code> to return a <code>DB</code> object </li>\n<li>call <code>DB.Ping()</code> to force it to talk to the database</li>\n</ol>\n\n<p>This means that one <code>sql.DB</code> object is created for every <code>gorm.Open</code>. Per the <a href=\"https://golang.org/pkg/database/sql/#DB\" rel=\"noreferrer\">doc</a>, this means one connection pool for each DB object.</p>\n\n<p>This means that the recommendations for <a href=\"https://golang.org/pkg/database/sql/#Open\" rel=\"noreferrer\">sql.Open</a> apply to <code>gorm.Open</code>:</p>\n\n<blockquote>\n  <p>The returned DB is safe for concurrent use by multiple goroutines and\n  maintains its own pool of idle connections. Thus, the Open function\n  should be called just once. It is rarely necessary to close a DB.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Marc",
+        "link": "https://stackoverflow.com/users/4966953/marc"
+      }
+    },
+    {
+      "answer_id": 61630318,
+      "body": "<p>You should implement the <a href=\"https://golang.org/pkg/database/sql/#Scanner\" rel=\"noreferrer\"><code>sql.Scanner</code></a> and <a href=\"https://golang.org/pkg/database/sql/driver/#Valuer\" rel=\"noreferrer\"><code>driver.Valuer</code></a> interfaces.</p>\n\n<p>Something like this:</p>\n\n<pre><code>func (j *jsonTime) Scan(src interface{}) error {\n    if t, ok := src.(time.Time); ok {\n        j.Time = t\n    }\n    return nil\n}\n\nfunc (j jsonTime) Value() (driver.Value, error) {\n    return j.Time, nil\n}\n</code></pre>\n\n<hr>\n\n<p>This is necessary because the <code>database/sql</code> package which is used by <code>gorm</code> and some other go ORMs, if not all of them, provides out-of-the-box support for only a handful of types.</p>\n\n<p>Most of the supported types are the language's <em>basic</em> builtin types like <code>string</code>, <code>int</code>, <code>bool</code>, etc. by extension it also supports any custom user defined type whose <em>underlying</em> type is one of the aforementioned basic types, then there's supports for the <code>[]byte</code> type and the related <code>sql.RawBytes</code> type, and lastly the <code>time.Time</code> type is also supported ootb.</p>\n\n<p>Any other type that you may want to write to or read from the database will need to implement the two interfaces above. The <code>sql.Scanner</code>'s <code>Scan</code> method is invoked automatically <em>after</em> a column's value is decoded into one of the supported types (that's why you need to type assert against <code>time.Time</code> rather than against, say <code>[]byte</code>). The <code>driver.Valuer</code>'s <code>Value</code> method is invoked automatically <em>before</em> the <em>driver</em> encodes it into a format that's valid for the target column (that's why you can return <code>time.Time</code> directly rather than having the do the encoding yourself).</p>\n\n<p>And keep in mind that</p>\n\n<pre><code>type jsonTime struct {\n    time.Time\n}\n</code></pre>\n\n<p>or even</p>\n\n<pre><code>type jsonTime time.Time\n</code></pre>\n\n<p>declares a <em>new</em> type that <em>is not equal</em> to <code>time.Time</code> and that is why it's not picked up by the <code>database/sql</code> package.</p>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 51999625,
+      "body": "<p>Like this:</p>\n\n<pre><code>tableName := db.NewScope(model).GetModelStruct().TableName(db)\n</code></pre>\n\n<p>Update:\nShorter</p>\n\n<pre><code>tableName := db.NewScope(model).TableName() \n</code></pre>\n",
+      "owner": {
+        "display_name": "fr05t1k",
+        "link": "https://stackoverflow.com/users/2553277/fr05t1k"
+      }
+    },
+    {
+      "answer_id": 60577841,
+      "body": "<p>Here's another approach; use binary encoding.</p>\n\n<p>According to this <a href=\"https://dev.mysql.com/doc/refman/8.0/en/gis-data-formats.html\" rel=\"nofollow noreferrer\">doc</a>, MySQL stores geometry values using 4 bytes to indicate the SRID (Spatial Reference ID) followed by the WKB (Well Known Binary) representation of the value.</p>\n\n<p>So a type can use WKB encoding and add and remove the four byte prefix in Value() and Scan() functions. The go-geom library found in other answers has a WKB encoding package, github.com/twpayne/go-geom/encoding/wkb. </p>\n\n<p>For example:</p>\n\n<pre><code>type MyPoint struct {\n    Point wkb.Point\n}\n\nfunc (m *MyPoint) Value() (driver.Value, error) {\n    value, err := m.Point.Value()\n    if err != nil {\n        return nil, err\n    }\n\n    buf, ok := value.([]byte)\n    if !ok {\n        return nil, fmt.Errorf(\"did not convert value: expected []byte, but was %T\", value)\n    }\n\n    mysqlEncoding := make([]byte, 4)\n    binary.LittleEndian.PutUint32(mysqlEncoding, 4326)\n    mysqlEncoding = append(mysqlEncoding, buf...)\n\n    return mysqlEncoding, err\n}\n\nfunc (m *MyPoint) Scan(src interface{}) error {\n    if src == nil {\n        return nil\n    }\n\n    mysqlEncoding, ok := src.([]byte)\n    if !ok {\n        return fmt.Errorf(\"did not scan: expected []byte but was %T\", src)\n    }\n\n    var srid uint32 = binary.LittleEndian.Uint32(mysqlEncoding[0:4])\n\n    err := m.Point.Scan(mysqlEncoding[4:])\n\n    m.Point.SetSRID(int(srid))\n\n    return err\n}\n</code></pre>\n\n<p>Defining a Tag using the MyPoint type:</p>\n\n<pre><code>type Tag struct {\n    Name string   `gorm:\"type:varchar(50);primary_key\"`\n    Loc  *MyPoint `gorm:\"column:loc\"`\n}\n\nfunc (t Tag) String() string {\n    return fmt.Sprintf(\"%s @ Point(%f, %f)\", t.Name, t.Loc.Point.Coords().X(), t.Loc.Point.Coords().Y())\n}\n</code></pre>\n\n<p>Creating a tag using the type:</p>\n\n<pre><code>tag := &amp;Tag{\n    Name: \"London\",\n    Loc: &amp;MyPoint{\n        wkb.Point{\n            geom.NewPoint(geom.XY).MustSetCoords([]float64{0.1275, 51.50722}).SetSRID(4326),\n        },\n    },\n}\n\nerr = db.Create(&amp;tag).Error\nif err != nil {\n    log.Fatalf(\"create: %v\", err)\n}\n</code></pre>\n\n<p>MySQL results:</p>\n\n<pre><code>mysql&gt; describe tag;\n+-------+-------------+------+-----+---------+-------+\n| Field | Type        | Null | Key | Default | Extra |\n+-------+-------------+------+-----+---------+-------+\n| name  | varchar(50) | NO   | PRI | NULL    |       |\n| loc   | geometry    | YES  |     | NULL    |       |\n+-------+-------------+------+-----+---------+-------+\n\n\nmysql&gt; select name, st_astext(loc) from tag;\n+--------+------------------------+\n| name   | st_astext(loc)         |\n+--------+------------------------+\n| London | POINT(0.1275 51.50722) |\n+--------+------------------------+\n</code></pre>\n\n<ul>\n<li>(<a href=\"https://developers.arcgis.com/documentation/core-concepts/spatial-references/\" rel=\"nofollow noreferrer\">ArcGIS says</a> 4326 is the most common spatial reference for storing a referencing data across the entire world. It serves as the default for both the PostGIS spatial database and the GeoJSON standard. It is also used by default in most web mapping libraries.)</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Mark",
+        "link": "https://stackoverflow.com/users/3915/mark"
+      }
+    },
+    {
+      "answer_id": 60179037,
+      "body": "<p>There were a couple of issues with my code:</p>\n\n<p>1) As @flimzy pointed out rightfully, there has to be a <code>ExpectBegin()</code> (and <code>ExpectCommit()</code>) statement. This gets more obvious if one turns on the GORM debugger that shows what exactly GORM is doing.</p>\n\n<p>2) <code>ExpectExec(\"INSERT INTO test\").WithArgs(\"c\")</code> does quite obviously not match <code>myDB.Exec(\"INSERT INTO test(first_name) VALUES (?)\", \"c\")</code></p>\n\n<p>3) One has to escape the statement, as go-sqlmock takes a regex, here Go's <a href=\"https://godoc.org/regexp#QuoteMeta\" rel=\"nofollow noreferrer\">https://godoc.org/regexp#QuoteMeta</a> comes in handy.</p>\n\n<p>Working code:</p>\n\n<pre><code>mock.ExpectBegin()\nmock.ExpectExec(regexp.QuoteMeta(\"INSERT INTO \\\"tests\\\" (\\\"first_name\\\") VALUES (?)\")).WithArgs(\"c\").WillReturnResult(sqlmock.NewResult(1, 1))\nmock.ExpectCommit()\n</code></pre>\n",
+      "owner": {
+        "display_name": "user3255061",
+        "link": "https://stackoverflow.com/users/3255061/user3255061"
+      }
+    },
+    {
+      "answer_id": 60003896,
+      "body": "<p>This is what you're looking for: </p>\n\n<pre><code>db, err := gorm.Open(\"mysql\", \"user:password@/dbname?charset=utf8&amp;parseTime=True&amp;loc=Local\")\ndefer db.Close()\n\nstory := &amp;Story{}\ndb.Preload(\"Paragraphs\").Preload(\"Paragraphs.Sentences\").First(story, 1)\n\n</code></pre>\n\n<p>It finds the story with the <code>id = 1</code> and preloads its relationships</p>\n\n<pre><code>fmt.Printf(\"%+v\\n\", story)\n</code></pre>\n\n<p>This prints out the result nicely for you</p>\n\n<p>Side note: \nYou can turn on log mode of Gorm so that you can see the underlying queries, to debug, or any other purposes:</p>\n\n<pre><code>db.LogMode(true)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Trần Xu&#226;n Huy",
+        "link": "https://stackoverflow.com/users/8249447/tr%e1%ba%a7n-xu%c3%a2n-huy"
+      }
+    },
+    {
+      "answer_id": 57929078,
+      "body": "<p>One option is to nest the structs inside the <code>AutoMigrate</code> function:</p>\n\n<pre><code>db.AutoMigrate(\n    &amp;User{}, \n    &amp;Product{},\n    &amp;Order{},\n)\n</code></pre>\n\n<p>Or if you want to make the inside \"short\", you could do:</p>\n\n<pre><code>var models = []interface{}{&amp;User{}, &amp;Product{}, &amp;Order{}}\n\ndb.Automigrate(models...)\n</code></pre>\n",
+      "owner": {
+        "display_name": "dave",
+        "link": "https://stackoverflow.com/users/2082673/dave"
+      }
+    },
+    {
+      "answer_id": 59591918,
+      "body": "<p>You need to manually convert the []*User slice to []*genproto.User one. Golang can't let you do the cast</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>...\n\npUsers := make([]*genproto.User, 0)\n\nfor _, u := range users {\n  pUsers = append(pUsers, &amp;genproto.User{ID: u.ID, Email: u.Email})\n\n}\n\nreturn &amp;shop.IndexUserResponse{Users: pUsers}, nil\n\n</code></pre>\n",
+      "owner": {
+        "display_name": "reda la",
+        "link": "https://stackoverflow.com/users/4716685/reda-la"
+      }
+    },
+    {
+      "answer_id": 50366795,
+      "body": "<p>Right now I found one solution - implement <strong>Scanner</strong> to <code>GoogleAccount</code>. At input of the <code>Scan</code> method I got <code>[]uint8</code>, that I cast to string and parse in the end. This string (that keeping in db) look like <code>(x,x)</code> - where <code>x</code> - is value. Of course, it is not correct way to achieve my goal. But I couldn't found other solution.</p>\n\n<p>I <strong>highly recommended</strong> use classical binding by relationship or simple keeping these fields in table as simplest value (not as object). </p>\n\n<p>But if you would like to experiment with nested object in table, you can look at my realization, maybe it would be useful for you:</p>\n\n<pre><code>type Client struct {\n    // many others fields\n    Google          GoogleAccount   `json:\"google\"`\n}\n\ntype GoogleAccount struct {\n    Id      uint64      `json:\"id\"`\n    Token   string      `json:\"token\"`\n}\n\nfunc (google GoogleAccount) Value() (driver.Value, error) {\n    return \"(\" + strconv.FormatUint(google.Id, 10) + \",\" + google.Token + \")\", nil\n}\n\nfunc (google *GoogleAccount) Scan(value interface{}) error {\n    values := utils.GetValuesFromObject(value)\n    google.Id, _ = strconv.ParseUint(values[0], 10, 64)\n    google.Token = values[1]\n    return nil\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Kirill Zyusko",
+        "link": "https://stackoverflow.com/users/9272042/kirill-zyusko"
+      }
+    },
+    {
+      "answer_id": 58652009,
+      "body": "<p>Looking at the query I would definitely hand craft this one and not rely on any ORM to execute the query. Refer to using the Exec method on a gorm database instance <a href=\"http://gorm.io/docs/sql_builder.html\" rel=\"nofollow noreferrer\">ref</a>.</p>\n\n<p>But...\nTo use an ORM like gorm, using gorm's SQL-Builder is a possibility. Here is an example that should be of guidance. Please note that this is for SQLite Database, and not for MYSQL so the functions in use do not exist. We are mainly concerned with building the query.</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    \"fmt\"\n    \"time\"\n\n    \"github.com/jinzhu/gorm\"\n    _ \"github.com/jinzhu/gorm/dialects/sqlite\"\n)\n\nconst (\n    layoutISO = \"2006-01-02\"\n)\n\ntype Shop struct {\n    gorm.Model\n    Name      string     `json:\"name\" gorm:\"type:varchar(180);unique_index\"`\n    Active    int        `json:\"active\" gorm:\"type:tinyint(1);default:1\"`\n    Tags      []Tag      `json:\"tags\" gorm:\"many2many:shops_tags;\"`\n    Locations []Location `json:\"locations\" gorm:\"locations\"`\n}\n\ntype Tag struct {\n    gorm.Model\n    Name  string `json:\"name\" gorm:\"type:varchar(180)\"`\n    Shops []Shop `json:\"shops\" gorm:\"many2many:shops_tags;\"`\n}\n\ntype Location struct {\n    gorm.Model\n    ShopID int64\n    Shop   Shop\n    Lat    float64 `gorm:\"type:decimal(10,8)\"`\n    Lng    float64 `gorm:\"type:decimal(11,8)\"`\n}\n\n// Get POST data (name lat and lng)\ntype geo struct {\n    Lat float64 `json:\"lat\" form:\"lat\" query:\"lat\"`\n    Lng float64 `json:\"lng\" form:\"lng\" query:\"lng\"`\n}\n\nvar distance_calculation = `\n       (\n           (\n                   6371.04 * ACOS(((COS(((PI() / 2) - RADIANS((90 - locations.lat)))) *\n                                    COS(PI() / 2 - RADIANS(90 - ?)) *\n                                    COS((RADIANS(locations.lng) - RADIANS(?))))\n                   + (SIN(((PI() / 2) - RADIANS((90 - locations.lat)))) *\n                      SIN(((PI() / 2) - RADIANS(90 - ?))))))\n               )\n           )`\n\nfunc main() {\n    db, err := gorm.Open(\"sqlite3\", \"test.db\")\n    if err != nil {\n        panic(\"failed to connect database\")\n    }\n    defer db.Close()\n    // Enable Logger, show detailed log\n    db.LogMode(true)\n\n    // Migrate the schema\n    db.AutoMigrate(&amp;Shop{})\n    db.AutoMigrate(&amp;Tag{})\n    db.AutoMigrate(&amp;Location{})\n\n\n    g := new(geo)\n    g.Lat = -33.73788500\n    g.Lng = 151.23526000\n    type Result struct {\n        ID         uint\n        Name       string\n        Distance   int\n        LocationID uint\n        ShopID     uint\n        Lat        float64\n        Lng        float64\n        CreatedAt  time.Time\n    }\n\n    date, _ := time.Parse(layoutISO, \"2017-12-13\")\n    var t []Result\n    err = db.Table(\"Shops\").\n        Select(\"shops.id, shops.name, locations.id AS 'location_id', locations.shop_id, locations.lat, locations.lng, locations.created_at, \"+\n            distance_calculation+\" as distance\\n\", g.Lat, g.Lng, g.Lat).\n        Joins(\"inner join locations on shops.id = locations.shop_id\\n\").\n        Where(&amp;Shop{Active: 1}).\n        Where(\"locations.created_at &gt;= CAST(strftime('%s', ?) AS INT) * 1000\", date).\n        Where(distance_calculation + \" &lt; ?\", g.Lat, g.Lng, g.Lat, 500).\n        Group(\"\\nshops.id\\n\").\n        Order(\"locations.id DESC\\n\").\n        Limit(100).Scan(&amp;t).Error\n    if err != nil {\n        panic(err)\n    }\n    fmt.Printf(\"%+v\\n\", t)\n}\n</code></pre>\n\n<p>Query Built with SQL Builder</p>\n\n<pre class=\"lang-sh prettyprint-override\"><code>(C:/Users/fakename/source/stackoverflow/go/geo-go-gorm/main.go:97)\n[2019-10-31 15:36:37]  [1.00ms]  SELECT shops.id, shops.name, locations.id AS 'location_id', locations.shop_id, locations.lat, locations.lng, locations.created_at,\n       (\n           (\n                   6371.04 * ACOS(((COS(((PI() / 2) - RADIANS((90 - locations.lat)))) *\n                                    COS(PI() / 2 - RADIANS(90 - -33.737885)) *\n                                    COS((RADIANS(locations.lng) - RADIANS(151.23526))))\n                   + (SIN(((PI() / 2) - RADIANS((90 - locations.lat)))) *\n                      SIN(((PI() / 2) - RADIANS(90 - -33.737885))))))\n               )\n           ) as distance\n FROM \"Shops\" inner join locations on shops.id = locations.shop_id\n WHERE (\"shops\".\"active\" = 1) AND (locations.created_at &gt;= CAST(strftime('%s', '2017-12-13 00:00:00') AS INT) * 1000) AND (\n       (\n           (\n                   6371.04 * ACOS(((COS(((PI() / 2) - RADIANS((90 - locations.lat)))) *\n                                    COS(PI() / 2 - RADIANS(90 - -33.737885)) *\n                                    COS((RADIANS(locations.lng) - RADIANS(151.23526))))\n                   + (SIN(((PI() / 2) - RADIANS((90 - locations.lat)))) *\n                      SIN(((PI() / 2) - RADIANS(90 - -33.737885))))))\n               )\n           ) &lt; 500\n) GROUP BY shops.id\n ORDER BY locations.id DESC\n LIMIT 100\n\n</code></pre>\n",
+      "owner": {
+        "display_name": "will7200",
+        "link": "https://stackoverflow.com/users/8190553/will7200"
+      }
+    },
+    {
+      "answer_id": 58208040,
+      "body": "<p>Another solution, which I ended up using was with <a href=\"https://github.com/paulsmith/gogeos\" rel=\"nofollow noreferrer\">go-geos</a>, as I discovered I needed to use the GEOS C library. With that, I am able to convert the struct into <code>WKT</code> for inserting (as postgis accepts it as regular text) and convert from <code>WKB</code> when scanning.</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>type Geometry4326 *geos.Geometry\n\n// Value converts the given Geometry4326 struct into WKT such that it can be stored in a \n// database. Implements Valuer interface for use with database operations.\nfunc (g Geometry4326) Value() (driver.Value, error) {\n\n    str, err := g.ToWKT()\n    if err != nil {\n        return nil, err\n    }\n\n    return \"SRID=4326;\" + str, nil\n}\n\n// Scan converts the hexadecimal representation of geometry into the given Geometry4326 \n// struct. Implements Scanner interface for use with database operations.\nfunc (g *Geometry4326) Scan(value interface{}) error {\n\n    bytes, ok := value.([]byte)\n    if !ok {\n        return errors.New(\"cannot convert database value to geometry\")\n    }\n\n    str := string(bytes)\n\n    geom, err := geos.FromHex(str)\n    if err != nil {\n        return errors.Wrap(err, \"cannot get geometry from hex\")\n    }\n\n    geometry := Geometry4326(geom)\n    *g = geometry\n\n    return nil\n}\n</code></pre>\n\n<p>This solution might not be ideal for everyone as not everyone needs to use the GEOS C library, which can be a pain to get working on windows. I'm sure though that the same thing can be accomplished using different libraries.</p>\n\n<p>I additionally implemented <code>UnmarshalJSON()</code> and <code>MarshalJSON()</code> on the struct so that it can automatically Marshal/Unmarshal GeoJSON, and then save/get from the database seamlessly. I accomplished this using <a href=\"https://github.com/venicegeo/geojson-go\" rel=\"nofollow noreferrer\">geojson-go</a> to convert GeoJSON to/from a struct, and then <a href=\"https://github.com/venicegeo/geojson-geos-go\" rel=\"nofollow noreferrer\">geojson-geos-go</a> to convert said struct into the <a href=\"https://github.com/paulsmith/gogeos\" rel=\"nofollow noreferrer\">go-geos</a> struct I was using. A little convoluted, yes, but it works.</p>\n",
+      "owner": {
+        "display_name": "robbieperry22",
+        "link": "https://stackoverflow.com/users/8685016/robbieperry22"
+      }
+    },
+    {
+      "answer_id": 57566138,
+      "body": "<p>You should connect to connect via container's name instead</p>\n\n<pre><code>db:\n  image: mysql:5.7.26\n  container_name: godockerDB\n  environment:\n    MYSQL_USER: docker\n    MYSQL_ROOT_PASSWORD: password\n    MYSQL_PASSWORD: password\n    MYSQL_DATABASE: godocker\n  ports:\n    - \"3306:3306\"\n</code></pre>\n\n<p>Then you can conenct via container name</p>\n\n<pre><code>func dbConnect() *gorm.DB {\ndb, err := gorm.Open(\"mysql\", \"docker:password@tcp(godockerDB)/godocker\")\n\nif err != nil {\n    panic(err.Error())\n}\n\n    return db\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Truong Dang",
+        "link": "https://stackoverflow.com/users/7247053/truong-dang"
+      }
+    },
+    {
+      "answer_id": 57069554,
+      "body": "<p>I found a very tricky way to solve this problem.You just need to change your struct field type into a ptr.</p>\n\n<p>change</p>\n\n<pre><code>type Temp struct{\nString string\nBool bool\n}\n</code></pre>\n\n<p>to</p>\n\n<pre><code>type Temp struct{\nString *string\nBool *bool\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jonyhy96",
+        "link": "https://stackoverflow.com/users/9321069/jonyhy96"
+      }
+    },
+    {
+      "answer_id": 55792986,
+      "body": "<p>According to <a href=\"http://gorm.io/docs/preload.html#Auto-Preloading\" rel=\"noreferrer\">documentation</a>, you need to set <code>auto_preload</code> to <code>true</code> for Auto Preloading to work. So changing the line where you retrieve the user to:</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>common.DB.Set(\"gorm:auto_preload\", true).First(&amp;retrivedUser, 1)\n</code></pre>\n\n<p>should give you the expected result.</p>\n\n<hr>\n\n<p>On a side note, <strong>never</strong> ignore the errors. You can always append <code>.Error</code> to almost every operation in <code>gorm</code> and check the returned error. For example:</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>err = common.DB.AutoMigrate(...).Error\nif err != nil {\n    // handle err\n}\n\nerr = common.DB.Create(&amp;user).Error\n// Check for err\nerr = common.DB.Set(\"gorm:auto_preload\", true).First(&amp;retrivedUser, 1).Error\n// Check for err\n</code></pre>\n",
+      "owner": {
+        "display_name": "ifnotak",
+        "link": "https://stackoverflow.com/users/5198756/ifnotak"
+      }
+    },
+    {
+      "answer_id": 55339916,
+      "body": "<p>you need to create extra model like this:</p>\n\n<pre><code>package database\n\ntype IndexService struct {\n  WriteActive bool `gorm:\"not null,DEFAULT false\"`\n}\n\n</code></pre>\n",
+      "owner": {
+        "display_name": "jsina",
+        "link": "https://stackoverflow.com/users/1734778/jsina"
+      }
+    },
+    {
+      "answer_id": 54720594,
+      "body": "<p>I'm not sure why you're using the Raw method for this, but I'd like to point out there's a Count method to achieve what you want: <a href=\"http://gorm.io/docs/query.html#Count\" rel=\"noreferrer\">http://gorm.io/docs/query.html#Count</a></p>\n\n<pre><code>db.Where(\"name = ?\", \"jinzhu\").Or(\"name = ?\", \"jinzhu 2\").Find(&amp;users).Count(&amp;count)\n//// SELECT * from USERS WHERE name = 'jinzhu' OR name = 'jinzhu 2'; (users)\n//// SELECT count(*) FROM users WHERE name = 'jinzhu' OR name = 'jinzhu 2'; (count)\n\ndb.Model(&amp;User{}).Where(\"name = ?\", \"jinzhu\").Count(&amp;count)\n//// SELECT count(*) FROM users WHERE name = 'jinzhu'; (count)\n</code></pre>\n\n<p>I put together a very simple example from the docs:</p>\n\n<pre><code>package main\n\nimport (\n    \"fmt\"\n\n    \"github.com/jinzhu/gorm\"\n    _ \"github.com/jinzhu/gorm/dialects/sqlite\"\n)\n\ntype Porg struct {\n    gorm.Model\n    Name string\n}\n\nfunc main() {\n    db, err := gorm.Open(\"sqlite3\", \"test.db\")\n    if err != nil {\n        panic(\"failed to connect database\")\n    }\n    defer db.Close()\n\n    // Migrate the schema\n    db.AutoMigrate(&amp;Porg{})\n\n    // Create\n    for i := 1; i &lt;= 100; i++ {\n        db.Create(&amp;Porg{Name: \"John\"})\n    }\n\n    // Read\n    var porgs []Porg\n    var count int\n    db.Model(&amp;porgs).Count(&amp;count)\n\n    fmt.Println(count)\n}\n</code></pre>\n\n<p>Output: 100</p>\n\n<p>Using the <code>Model</code> method you can Specify a model to query, this won't query the DB directly. Using <code>db.Find(&amp;porgs).Count(&amp;count)</code> will actually send 2 SQL queries to the db. </p>\n",
+      "owner": {
+        "display_name": "Carlos Martinez",
+        "link": "https://stackoverflow.com/users/2443687/carlos-martinez"
+      }
+    },
+    {
+      "answer_id": 54699204,
+      "body": "<p>I got it.  I need to specifically include the column in a <code>Select()</code>:</p>\n\n<pre><code>db.Model(&amp;foo).Select(\"bar_id\").Updates(map[string]interface{}{\"bar_id\": nil})\n</code></pre>\n",
+      "owner": {
+        "display_name": "limasxgoesto0",
+        "link": "https://stackoverflow.com/users/1038783/limasxgoesto0"
+      }
+    },
+    {
+      "answer_id": 52246919,
+      "body": "<p>If you want a list of something in MySql, you have two options</p>\n\n<ol>\n<li>You could serialize the list yourself (into a comma-separated string, json, or another serialization format) and store it in a string or bytes column.</li>\n<li>You can use join to associate the two tables.</li>\n</ol>\n\n<p>gorm supports joins through something it calls associations. In this case, you have a has many association (<a href=\"http://doc.gorm.io/associations.html#has-many\" rel=\"nofollow noreferrer\">http://doc.gorm.io/associations.html#has-many</a>).</p>\n\n<p>An example of how you might do this is:</p>\n\n<pre><code>type Game struct {\n    gorm.Model\n    GameImages   []GameImage\n}\n\ntype GameImage struct {\n    gorm.Model\n    Name string\n}\n\ndb.Model(&amp;game).Related(&amp;gameImages)\n</code></pre>\n",
+      "owner": {
+        "display_name": "dolan",
+        "link": "https://stackoverflow.com/users/5705686/dolan"
+      }
+    },
+    {
+      "answer_id": 52034020,
+      "body": "<p>I have found an answer. The GORM documentation was not so verbose but the flowing could be the answer.</p>\n\n<pre><code>package main\n\nimport (\n    \"fmt\"\n\n    \"github.com/jinzhu/gorm\"\n    _ \"github.com/jinzhu/gorm/dialects/sqlite\"\n)\n\n// Product -- Represents a product\ntype Product struct {\n    gorm.Model\n    Code  string\n    Price uint\n}\n\n// TableName setting the table name\nfunc (Product) TableName() string {\n    return \"allProducts\"\n}\n\nfunc main() {\n    db, err := gorm.Open(\"sqlite3\", \"test.db\")\n    if err != nil {\n        panic(\"failed to connect database\")\n    }\n    defer db.Close()\n    var product Product\n    rows, err := db.Model(&amp;Product{}).Rows()\n    defer rows.Close()\n    if err != nil {\n        panic(err)\n    }\n    for rows.Next() {\n        db.ScanRows(rows, &amp;product)\n        fmt.Println(product)\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mayukh Sarkar",
+        "link": "https://stackoverflow.com/users/4037927/mayukh-sarkar"
+      }
+    },
+    {
+      "answer_id": 51545194,
+      "body": "<p>You're very close in your last example. You can remove the <code>gorm.Model</code> inheritance from your struct if you want/need (I personally do that for clarity), but to access that value you'd just need to build up your struct a little more. For example...</p>\n\n<pre><code>type Address struct {\n    gorm.Model\n    Name         string\n    Email        string  `gorm:\"type:varchar(100);unique_index\"`\n    Role         string  `gorm:\"size:255\"` // set field size to 255\n}\n\nc.Ctx.DB.Delete(&amp;models.Address{gorm.Model: gorm.Model{ID: id}})\n</code></pre>\n\n<p>Give that a try and see if that works for you. Alternatively revert to your method without inheriting the <code>gorm.Model</code></p>\n",
+      "owner": {
+        "display_name": "sebito91",
+        "link": "https://stackoverflow.com/users/8092543/sebito91"
+      }
+    },
+    {
+      "answer_id": 51472717,
+      "body": "<p>I am pretty sure that sqlite does not have a type for your AuthIPs ([]string). I am not sure if GORM allows for you to write custom Valuer and Scanner interface methods that would allow you to convert a string to an array and back again or not, but it's something you might want to check out.</p>\n\n<p>Update:\nChange <code>db := d.db.AutoMigrate(&amp;m)</code> to <code>db := d.db.AutoMigrate(m)</code> to allow for the reflection to get the type name.</p>\n\n<p>If you implement the <code>tabler</code> interface you can also better control the name of the table.</p>\n\n<p><a href=\"https://github.com/jinzhu/gorm/blob/master/scope.go#L305\" rel=\"nofollow noreferrer\">https://github.com/jinzhu/gorm/blob/master/scope.go#L305</a></p>\n\n<pre><code>type tabler interface {\n    TableName() string\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "chris",
+        "link": "https://stackoverflow.com/users/26849/chris"
+      }
+    },
+    {
+      "answer_id": 51176515,
+      "body": "<p>According to the docs, this should work:</p>\n\n<pre><code>db.Where(\"owner_id IS NULL\").Find(&amp;dogs)\n</code></pre>\n",
+      "owner": {
+        "display_name": "mbuechmann",
+        "link": "https://stackoverflow.com/users/1360318/mbuechmann"
+      }
+    },
+    {
+      "answer_id": 49871034,
+      "body": "<p>Hey @arthur_mastropietro,\nI think Preloading the <code>Prop</code>'s related <code>Status</code> is the key. Try the below:</p>\n\n<pre><code>prop := Prop{}\nif err := db.Model(&amp;prop).Preload(\"Status\").Find(&amp;prop).Error; err != nil {\n  fmt.Println(err)\n}\nfmt.Printf(\"%+v\\n\", prop)\n</code></pre>\n\n<h2>Note</h2>\n\n<p>You can chain the preloading of other structs, ie \n<code>Preload(\"Status\").Preload(\"Something\").</code>..etc. In fact you can chain most <code>Gorm</code> function calls.</p>\n\n<p>Additionally, if <code>Status</code> was to also have another struct as one of it's fields you can load them both at once by calling\n<code>Preload(\"Status.Something\")</code></p>\n\n<p>Hope that helps!</p>\n",
+      "owner": {
+        "display_name": "RuNpiXelruN",
+        "link": "https://stackoverflow.com/users/5097493/runpixelrun"
+      }
+    },
+    {
+      "answer_id": 48900661,
+      "body": "<p>Go doesn't recognize NULL in particular. \nI think you can achieve it using a raw query in GORM. \nlike this. </p>\n\n<pre><code>db.Raw(\"SELECT * FROM visit_details WHERE out_time is NULL order by id desc limit 1\").Scan(&amp;visitDetail)\n</code></pre>\n\n<p>This is one one to fetch the column. Hope this helps.</p>\n",
+      "owner": {
+        "display_name": "arundeepak",
+        "link": "https://stackoverflow.com/users/6037581/arundeepak"
+      }
+    },
+    {
+      "answer_id": 48022391,
+      "body": "<p>Use a pointer along with the <code>omitempty</code> tag. This way you can differentiate between an unset value, nil, and an intentional zero value (\"\", false, 0).</p>\n\n<pre><code>type User struct {\n    Name *string `json:\"name,omitempty\"`\n}\n</code></pre>\n\n<p><a href=\"https://play.golang.org/p/VZAEEfM6gNm\" rel=\"noreferrer\">Playground</a></p>\n",
+      "owner": {
+        "display_name": "hlscalon",
+        "link": "https://stackoverflow.com/users/3658660/hlscalon"
+      }
+    },
+    {
+      "answer_id": 47947970,
+      "body": "<p>You need to retrieve data into some variable to be able to use it later:</p>\n\n<pre><code>p := Profile{}\nres := db.Where(\"Number = ?\", inumber).First(&amp;p)\n\n// now use p\nlog.Printf(\"%+v\", p)\n</code></pre>\n",
+      "owner": {
+        "display_name": "hsrv",
+        "link": "https://stackoverflow.com/users/3984522/hsrv"
+      }
+    },
+    {
+      "answer_id": 47175617,
+      "body": "<p>You can only use types as keys in a map that are <a href=\"https://golang.org/ref/spec#Comparison_operators\" rel=\"noreferrer\">comparable</a>. <a href=\"https://golang.org/ref/spec#Map_types\" rel=\"noreferrer\">Spec: Map types:</a></p>\n\n<blockquote>\n  <p>The <a href=\"https://golang.org/ref/spec#Comparison_operators\" rel=\"noreferrer\">comparison operators</a> == and != must be fully defined for operands of the key type; thus the key type must not be a function, map, or slice.</p>\n</blockquote>\n\n<p><code>gorm.DB</code> is a struct, and struct values are only comparable if all their fields are comparable:</p>\n\n<blockquote>\n  <p>Struct values are comparable if all their fields are comparable. Two struct values are equal if their corresponding non-<a href=\"https://golang.org/ref/spec#Blank_identifier\" rel=\"noreferrer\">blank</a> fields are equal.</p>\n</blockquote>\n\n<p>But <code>gorm.DB</code> has e.g. a <code>DB.values</code> field which is a map type, and maps are not comparble, and thus <code>gorm.DB</code> values are not comparable either, and so you can't use it as map keys.</p>\n\n<p>If you want to create a set of types, you should use <a href=\"https://golang.org/pkg/reflect/#Type\" rel=\"noreferrer\"><code>reflect.Type</code></a> as the map keys, which you can acquire using <a href=\"https://golang.org/pkg/reflect/#TypeOf\" rel=\"noreferrer\"><code>reflect.TypeOf()</code></a> from a value of that type.</p>\n\n<p>A little trick, if you want a <code>reflect.Type</code> without having to create a value of the type in question, you can start from a pointer value of that type (which may be <code>nil</code>), and use <code>Type.Elem()</code> to get the <code>reflect.Type</code> descriptor of the pointed type.</p>\n\n<p>For example, to get the <code>reflect.Type</code> descriptor of a struct type <code>Point struct{ X, Y int }</code> without actually creating / having a <code>Point</code>:</p>\n\n<pre><code>type Point struct{ X, Y int }\ntpoint := reflect.TypeOf((*Point)(nil)).Elem()\nfmt.Println(tpoint)\n</code></pre>\n\n<p>Which prints <code>main.Point</code>. Try it on the <a href=\"https://play.golang.org/p/Bo-IYcZ8a2\" rel=\"noreferrer\">Go Playground</a>.</p>\n\n<p>See related questions:</p>\n\n<p><a href=\"https://stackoverflow.com/questions/37916647/how-can-i-prevent-a-type-being-used-as-a-map-key/37919268#37919268\">How can I prevent a type being used as a map key?</a></p>\n\n<p><a href=\"https://stackoverflow.com/questions/37900696/why-cant-go-slice-be-used-as-keys-in-go-maps-pretty-much-the-same-way-arrays-ca/37901853#37901853\">Why can&#39;t Go slice be used as keys in Go maps pretty much the same way arrays can be used as keys?</a></p>\n\n<p><a href=\"https://stackoverflow.com/questions/34786552/set-of-structs-in-go/34786725#34786725\">Set of structs in Go</a></p>\n",
+      "owner": {
+        "display_name": "icza",
+        "link": "https://stackoverflow.com/users/1705598/icza"
+      }
+    },
+    {
+      "answer_id": 25976357,
+      "body": "<h2>Important note</h2>\n\n<p>it's just replacement for <a href=\"https://github.com/go-gorp/gorp\" rel=\"nofollow noreferrer\">GORP</a> of <a href=\"https://revel.github.io/examples/booking.html\" rel=\"nofollow noreferrer\">original example</a> of the <a href=\"https://revel.github.io/\" rel=\"nofollow noreferrer\">Revel</a>. And it comes with some pitfalls of the origin. This answer can be used as drop-in replacement for the original one. But it doesn't solve the pitfalls.</p>\n\n<p>Please, take a look comments of this unswer and <a href=\"https://stackoverflow.com/users/1176156/maxgabriel\">@MaxGabriel</a>'s <a href=\"https://stackoverflow.com/a/47022061/1176156\">answer</a> that solves the pitfalls.</p>\n\n<p>I'd recommend to use @MaxGabriel's solution to protect you application against some kinds of slow-* DDoS attacks. And to reduce (in some cases) DB pressure.</p>\n\n<h2>Original answer</h2>\n\n<p><a href=\"https://stackoverflow.com/a/25142595/1816872\">@rauyran  rights</a>, you have to invoke <code>InitDB</code> inside <code>init</code> function (into <code>controllers</code> package).</p>\n\n<p>Full example here (too much):</p>\n\n<p><strong>Tree</strong></p>\n\n<pre class=\"lang-none prettyprint-override\"><code>/app\n    /controllers\n      app.go\n      gorm.go\n      init.go\n    /models\n      user.go\n[...]\n</code></pre>\n\n<p><strong>user.go</strong></p>\n\n<pre class=\"lang-java prettyprint-override\"><code>// models/user.go\npackage models\n\nimport  \"time\" // if you need/want\n\ntype User struct {          // example user fields\n    Id                    int64\n    Name                  string\n    EncryptedPassword     []byte\n    Password              string      `sql:\"-\"`\n    CreatedAt             time.Time\n    UpdatedAt             time.Time\n    DeletedAt             time.Time     // for soft delete\n}\n</code></pre>\n\n<p><strong>gorm.go</strong></p>\n\n<pre class=\"lang-java prettyprint-override\"><code>//controllers/gorm.go\npackage controllers\n\nimport (\n    \"github.com/jinzhu/gorm\"\n    _ \"github.com/lib/pq\" // my example for postgres\n    // short name for revel\n    r \"github.com/revel/revel\"\n    // YOUR APP NAME\n    \"yourappname/app/models\"\n    \"database/sql\"\n)\n\n// type: revel controller with `*gorm.DB`\n// c.Txn will keep `Gdb *gorm.DB`\ntype GormController struct {\n    *r.Controller\n    Txn *gorm.DB\n}\n\n// it can be used for jobs\nvar Gdb *gorm.DB\n\n// init db\nfunc InitDB() {\n    var err error\n    // open db\n    Gdb, err = gorm.Open(\"postgres\", \"user=uname dbname=udbname sslmode=disable password=supersecret\")\n    if err != nil {\n        r.ERROR.Println(\"FATAL\", err)\n        panic( err )\n    }\n    Gdb.AutoMigrate(&amp;models.User{})\n    // unique index if need\n    //Gdb.Model(&amp;models.User{}).AddUniqueIndex(\"idx_user_name\", \"name\")\n}\n\n\n// transactions\n\n// This method fills the c.Txn before each transaction\nfunc (c *GormController) Begin() r.Result {\n    txn := Gdb.Begin()\n    if txn.Error != nil {\n        panic(txn.Error)\n    }\n    c.Txn = txn\n    return nil\n}\n\n// This method clears the c.Txn after each transaction\nfunc (c *GormController) Commit() r.Result {\n    if c.Txn == nil {\n        return nil\n    }\n    c.Txn.Commit()\n    if err := c.Txn.Error; err != nil &amp;&amp; err != sql.ErrTxDone {\n        panic(err)\n    }\n    c.Txn = nil\n    return nil\n}\n\n// This method clears the c.Txn after each transaction, too\nfunc (c *GormController) Rollback() r.Result {\n    if c.Txn == nil {\n        return nil\n    }\n    c.Txn.Rollback()\n    if err := c.Txn.Error; err != nil &amp;&amp; err != sql.ErrTxDone {\n        panic(err)\n    }\n    c.Txn = nil\n    return nil\n}\n</code></pre>\n\n<p><strong>app.go</strong></p>\n\n<pre class=\"lang-java prettyprint-override\"><code>package controllers\n\nimport(\n    \"github.com/revel/revel\"\n    \"yourappname/app/models\"\n)\n\ntype App struct {\n    GormController\n}\n\nfunc (c App) Index() revel.Result {\n    user := models.User{Name: \"Jinzhup\"}\n    c.Txn.NewRecord(user)\n    c.Txn.Create(&amp;user)\n    return c.RenderJSON(user)\n}\n</code></pre>\n\n<p><strong>init.go</strong></p>\n\n<pre class=\"lang-java prettyprint-override\"><code>package controllers\nimport \"github.com/revel/revel\"\n\nfunc init() {\n    revel.OnAppStart(InitDB) // invoke InitDB function before\n    revel.InterceptMethod((*GormController).Begin, revel.BEFORE)\n    revel.InterceptMethod((*GormController).Commit, revel.AFTER)\n    revel.InterceptMethod((*GormController).Rollback, revel.FINALLY)\n}\n</code></pre>\n\n<p>As you can see, it's like Revel's Booking modified for GORM.</p>\n\n<p>Works fine for me. Result:</p>\n\n<pre class=\"lang-json prettyprint-override\"><code>{\n  \"Id\": 5,\n  \"Name\": \"Jinzhup\",\n  \"EncryptedPassword\": null,\n  \"Password\": \"\",\n  \"CreatedAt\": \"2014-09-22T17:55:14.828661062+04:00\",\n  \"UpdatedAt\": \"2014-09-22T17:55:14.828661062+04:00\",\n  \"DeletedAt\": \"0001-01-01T00:00:00Z\"\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ivan Black",
+        "link": "https://stackoverflow.com/users/1816872/ivan-black"
+      }
+    },
+    {
+      "answer_id": 28776926,
+      "body": "<pre><code>type User struct {\n  Id int\n  Name string\n}\n\nuser := User{Name: \"jinzhu\"}\ndb.Save(&amp;user)\n// user.Id is set to last insert id\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jinzhu",
+        "link": "https://stackoverflow.com/users/2851543/jinzhu"
+      }
+    },
+    {
+      "answer_id": 44064338,
+      "body": "<p>With your current code : </p>\n\n<pre><code>var zc ZipCode\nvar s State\ndb.Model(&amp;zc).Related(&amp;s)\n</code></pre>\n\n<p>You are not set anything to your <code>zc</code> variable. so that's why you get an error of  <code>invalid association []</code> with an empty data.</p>\n\n<p>To fix this you must get the ZipCode data from your database like : </p>\n\n<pre><code>db.First(&amp;zc, 1) // find ZipCode with id 1.\n</code></pre>\n\n<p>and then you can associate your <code>zc</code> full code would be : </p>\n\n<pre><code>var zc ZipCode\nvar s State\n\ndb.First(&amp;zc, 1) // find ZipCode with id 1.\ndb.Model(&amp;zc).Related(&amp;s)\n</code></pre>\n\n<p>Note : I'm not testing this actual code but I think it would fix the problem.</p>\n",
+      "owner": {
+        "display_name": "Gujarat Santana",
+        "link": "https://stackoverflow.com/users/2652524/gujarat-santana"
+      }
+    },
+    {
+      "answer_id": 44007128,
+      "body": "<p>As Gavin said, I would suggest having two separate models and giving the model the ability to convert to the correct return type.</p>\n\n<p><em>models/user.go</em></p>\n\n<pre><code>package models\n\ntype User struct {\n    gorm.Model\n    Password []byte\n    Active bool\n    Email string\n    ActivationToken string\n    RememberPasswordToken string\n}\n\nfunc (u *User) UserToUser() app.User {\n    return app.User{\n        Email: u.Email\n    }\n}\n</code></pre>\n\n<p><em>app/user.go</em></p>\n\n<pre><code>package app\n\ntype User struct {\n    Email string\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nick Rucci",
+        "link": "https://stackoverflow.com/users/5252955/nick-rucci"
+      }
+    },
+    {
+      "answer_id": 41537783,
+      "body": "<p>Finally found the answer!!\nThe problem is my GET functions I have to use</p>\n\n<pre><code>db.Preload(\"Functions\").Find(&amp;[]models.Person{})\n</code></pre>\n\n<p>instead of </p>\n\n<pre><code>db.Find(&amp;[]models.Person{})\n</code></pre>\n",
+      "owner": {
+        "display_name": "Johannes Gnadlinger",
+        "link": "https://stackoverflow.com/users/6504152/johannes-gnadlinger"
+      }
+    },
+    {
+      "answer_id": 41258099,
+      "body": "<p>One way is to create an exported interface with the methods, and make the implementing type unexported. Create a global variable of the interface type, and initialize it with a package <code>init()</code> function. You don't need any synchronization as the package <code>init()</code> function will run only once, safely.</p>\n\n<p>Package <code>init()</code> functions are executed once, automatically, by the runtime, before you could refer to anything from the package. For details, see <a href=\"https://golang.org/ref/spec#Package_initialization\" rel=\"noreferrer\">Spec: Package initialization</a>.</p>\n\n<p>For example:</p>\n\n<pre><code>package dbprovider\n\ntype Manager interface {\n    AddArticle(article *article.Article) error\n    // Add other methods\n}\n\ntype manager struct {\n    db *gorm.DB\n}\n\nvar Mgr Manager\n\nfunc init() {\n    db, err := gorm.Open(\"sqlite3\", \"../articles.db\")\n    if err != nil {\n        log.Fatal(\"Failed to init db:\", err)\n    }\n    Mgr = &amp;manager{db: db}\n}\n\nfunc (mgr *manager) AddArticle(article *article.Article) (err error) {\n    mgr.db.Create(article)\n    if errs := mgr.db.GetErrors(); len(errs) &gt; 0 {\n        err = errs[0]\n    }\n    return\n}\n</code></pre>\n\n<p>Using it:</p>\n\n<pre><code>import \"dbprovider\"\n\nif err := dbprovider.Mgr.AddArticle(someArticle); err != nil {\n    // Handle error\n}\n</code></pre>\n\n<p>You could also do it without an <code>init()</code> function, e.g.:</p>\n\n<pre><code>var Mgr = newManager()\n\nfunc newManager() Manager {\n    db, err := gorm.Open(\"sqlite3\", \"../articles.db\")\n    if err != nil {\n        log.Fatal(\"Failed to init db:\", err)\n    }\n    return &amp;manager{db: db}\n}\n</code></pre>\n\n<p>With this you may decide to make <code>newManager()</code> exported and users of your package could decide to use the shared <code>Mgr</code> instance, or they could create another <code>Manager</code>, e.g. for testing purposes.</p>\n\n<p><strong>Notes:</strong> <code>Mgr</code> is an exported global variable, and it is possible to assign a new value to it by other packages (e.g. <code>dbprovider.Mgr = nil</code>). If you want to avoid this, you have to make it unexported, and provide a \"getter\" function for it, e.g.:</p>\n\n<pre><code>var mgr = newManager()\n\nfunc Mgr() Manager { return mgr }\n</code></pre>\n\n<p>And using it:</p>\n\n<pre><code>err := dbprovider.Mgr().AddArticle(someArticle)\n</code></pre>\n",
+      "owner": {
+        "display_name": "icza",
+        "link": "https://stackoverflow.com/users/1705598/icza"
+      }
+    },
+    {
+      "answer_id": 30365717,
+      "body": "<p><a href=\"https://godoc.org/github.com/jinzhu/gorm#DB.Create\" rel=\"noreferrer\"><code>DB.Create()</code></a> returns a new (cloned) <a href=\"http://godoc.org/github.com/jinzhu/gorm#DB\" rel=\"noreferrer\"><code>gorm.DB</code></a> which is a <code>struct</code> and has a field <code>Error</code>:</p>\n\n<pre><code>type DB struct {\n    Value        interface{}\n    Error        error\n    RowsAffected int64\n    // contains filtered or unexported fields\n}\n</code></pre>\n\n<p>You can store the returned <code>*gorm.DB</code> value and check its <code>DB.Error</code> field like this:</p>\n\n<pre><code>if dbc := db.Create(&amp;user); dbc.Error != nil {\n    // Create failed, do something e.g. return, panic etc.\n    return\n}\n</code></pre>\n\n<p>If you don't need anything else from the returned <code>gorm.DB</code>, you can directly check its <code>Error</code> field:</p>\n\n<pre><code>if db.Create(&amp;user).Error != nil {\n    // Create failed, do something e.g. return, panic etc.\n    return\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "icza",
+        "link": "https://stackoverflow.com/users/1705598/icza"
+      }
+    },
+    {
+      "answer_id": 38275491,
+      "body": "<p>I found a solution to this question, but not sure it's the best way to do this. I store the current languages, clear all the associations, then add back the languages, then save.</p>\n\n<pre><code>languages := user.Languages \nDB.Model(&amp;user).Association(\"Languages\").Clear()\nuser.Languages = languages\n</code></pre>\n",
+      "owner": {
+        "display_name": "Matthew S",
+        "link": "https://stackoverflow.com/users/1748069/matthew-s"
+      }
+    },
+    {
+      "answer_id": 36193498,
+      "body": "<p>I believe this should work:</p>\n\n<pre><code>chain := db.Where(\"users.name like ?\", \"%\"+jhon+\"%\")\nemail := \"test@test.com\"\nif email != \"\" {\n  chain = chain.Where(\"users.email LIKE ?\", \"%\"+email+\"%\")\n}\nchain.Find(&amp;users)\n</code></pre>\n\n<p>All of the Gorm methods like <code>Where</code> return a result, which is chainable. That means that you can continue calling methods on it until you get something that you like.</p>\n",
+      "owner": {
+        "display_name": "robbrit",
+        "link": "https://stackoverflow.com/users/324978/robbrit"
+      }
+    },
+    {
+      "answer_id": 36125119,
+      "body": "<p>If you want to pass elements of a slice to a function with variadic parameter, you have to use <code>...</code> to tell the compiler you want to pass all elements individually and not pass the slice value as a single argument, so simply do:</p>\n\n<pre><code>tx.Exec(sqlStr, vals...)\n</code></pre>\n\n<p>This is detailed in the spec: <a href=\"https://golang.org/ref/spec#Passing_arguments_to_..._parameters\" rel=\"noreferrer\">Passing arguments to ... parameters</a>.</p>\n\n<p><a href=\"https://golang.org/pkg/database/sql/#Tx.Exec\" rel=\"noreferrer\"><code>Tx.Exec()</code></a> has the signature of:</p>\n\n<pre><code>func (tx *Tx) Exec(query string, args ...interface{}) (Result, error)\n</code></pre>\n\n<p>So you have to pass <code>vals...</code>. Also don't forget to check returned error, e.g.:</p>\n\n<pre><code>res, err := tx.Exec(sqlStr, vals...)\nif err != nil {\n    // handle error\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "icza",
+        "link": "https://stackoverflow.com/users/1705598/icza"
+      }
+    },
+    {
+      "answer_id": 33573922,
+      "body": "<p>Have you tried it?  You can do</p>\n\n<pre><code>time.Time `sql:\"DEFAULT:current_timestamp\"`\n</code></pre>\n\n<p>and it will use the \"current_timestamp\" function.  If you want the default to be the string <code>current_timestamp</code>, you would do</p>\n\n<pre><code>time.Time `sql:\"DEFAULT:'current_timestamp'\"`\n</code></pre>\n\n<p>So, in short, yes, it is possible.  You would just do:</p>\n\n<pre><code>type User struct {\n    ID          int     `sql:\"DEFAULT:myfunction\"`\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "dave",
+        "link": "https://stackoverflow.com/users/2082673/dave"
+      }
+    },
+    {
+      "answer_id": 32882460,
+      "body": "<p>You can use the sql tag in the field you want to change, like this:</p>\n\n<pre><code>type User struct {\n    gorm.Model\n    Name `sql:\"type:VARCHAR(5) CHARACTER SET utf8 COLLATE utf8_general_ci\"`\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alessio",
+        "link": "https://stackoverflow.com/users/2303988/alessio"
+      }
+    },
+    {
+      "answer_id": 31845051,
+      "body": "<p>I had exactly the same problem <a href=\"https://github.com/AlexAtNet/vega/blob/master/src/vega/content/model.go#L104\" rel=\"noreferrer\">here</a>:</p>\n\n<pre><code>func GetPageAfterUpdate(dp model.DbProvider, id int, update int, page *Page) (err error) {\n  tx := dp.DB().Begin()\n\n  err = tx.Exec(`set transaction isolation level repeatable read`).Error\n  if err != nil {\n    tx.Rollback()\n    return\n  }\n</code></pre>\n\n<p>And it is exactly gorm with pg.</p>\n",
+      "owner": {
+        "display_name": "Alex Netkachov",
+        "link": "https://stackoverflow.com/users/1930219/alex-netkachov"
+      }
+    },
+    {
+      "answer_id": 31468146,
+      "body": "<p>You're shadowing your global <code>db</code> variable:</p>\n\n<pre><code>var db = gorm.DB{} // garbage\n</code></pre>\n\n<p>Your initialisation in <code>main()</code> should be changed to:</p>\n\n<pre><code>var err error\n// Note the assignment and not initialise + assign operator\ndb, err = gorm.Open(\"sqlite3\", \"/tmp/gorm.db\")\n</code></pre>\n\n<p>Otherwise, <code>db</code> is <code>nil</code> and results in the panic.</p>\n",
+      "owner": {
+        "display_name": "elithrar",
+        "link": "https://stackoverflow.com/users/556573/elithrar"
+      }
+    },
+    {
+      "answer_id": 29579994,
+      "body": "<p><code>TownID</code> must be specified as the foreign key. The <code>Place</code> struct gets like this: </p>\n\n<pre><code>type Place struct {\n  ID          int\n  Name        string\n  Description string\n  TownID      int\n  Town        Town\n}\n</code></pre>\n\n<p>Now there are different approach to handle this. For example:</p>\n\n<pre><code>places := []Place{}\ndb.Find(&amp;places)\nfor i, _ := range places {\n    db.Model(places[i]).Related(&amp;places[i].Town)\n}\n</code></pre>\n\n<p>This will certainly produce the expected result, but notice the log output and the queries triggered.</p>\n\n<pre><code>[4.76ms]  SELECT  * FROM \"places\"\n[1.00ms]  SELECT  * FROM \"towns\"  WHERE (\"id\" = '1')\n[0.73ms]  SELECT  * FROM \"towns\"  WHERE (\"id\" = '1')\n\n[{1 Place1  {1 Town1} 1} {2 Place2  {1 Town1} 1}]\n</code></pre>\n\n<p>The output is the expected but this approach has a fundamental flaw, notice that for every place there is the need to do another db query which produce a <code>n + 1</code> problem issue. This could solve the problem but will quickly gets out of control as the amount of places grow. </p>\n\n<p>It turns out that the <strong>good</strong> approach is fairly simple using preloads.</p>\n\n<pre><code>db.Preload(\"Town\").Find(&amp;places)\n</code></pre>\n\n<p>That's it, the query log produced is:</p>\n\n<pre><code>[22.24ms]  SELECT  * FROM \"places\"\n[0.92ms]  SELECT  * FROM \"towns\"  WHERE (\"id\" in ('1'))\n\n[{1 Place1  {1 Town1} 1} {2 Place2  {1 Town1} 1}]\n</code></pre>\n\n<p>This approach will only trigger two queries, one for all places, and one for all towns that has places. This approach scales well regarding of the amount of places and towns (only two queries in all cases).</p>\n",
+      "owner": {
+        "display_name": "Javier Cadiz",
+        "link": "https://stackoverflow.com/users/1373105/javier-cadiz"
+      }
+    }
+  ]
+}

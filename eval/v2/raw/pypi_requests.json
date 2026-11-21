@@ -1,0 +1,1908 @@
+{
+  "library": "pypi:requests",
+  "fetched_at": "2026-11-21T17:28:11Z",
+  "questions": [
+    {
+      "question_id": 9733638,
+      "title": "How can I POST JSON data with Python&#39;s Requests library?",
+      "accepted_answer_id": 26344315,
+      "score": 1130,
+      "link": "https://stackoverflow.com/questions/9733638/how-can-i-post-json-data-with-pythons-requests-library",
+      "owner": {
+        "display_name": "Charles R",
+        "link": "https://stackoverflow.com/users/1273455/charles-r"
+      }
+    },
+    {
+      "question_id": 2018026,
+      "title": "What are the differences between the urllib, urllib2, urllib3 and Requests module?",
+      "accepted_answer_id": 14804320,
+      "score": 1080,
+      "link": "https://stackoverflow.com/questions/2018026/what-are-the-differences-between-the-urllib-urllib2-urllib3-and-requests-modul",
+      "owner": {
+        "display_name": "Paul Biggar",
+        "link": "https://stackoverflow.com/users/104021/paul-biggar"
+      }
+    },
+    {
+      "question_id": 16511337,
+      "title": "Correct way to try/except using Python requests module?",
+      "accepted_answer_id": 16511493,
+      "score": 775,
+      "link": "https://stackoverflow.com/questions/16511337/correct-way-to-try-except-using-python-requests-module",
+      "owner": {
+        "display_name": "John Smith",
+        "link": "https://stackoverflow.com/users/1085885/john-smith"
+      }
+    },
+    {
+      "question_id": 16694907,
+      "title": "Download a large file in Python with Requests",
+      "accepted_answer_id": 16696317,
+      "score": 660,
+      "link": "https://stackoverflow.com/questions/16694907/download-a-large-file-in-python-with-requests",
+      "owner": {
+        "display_name": "Roman Podlinov",
+        "link": "https://stackoverflow.com/users/427457/roman-podlinov"
+      }
+    },
+    {
+      "question_id": 15445981,
+      "title": "How do I disable the security certificate check in Python&#39;s Requests?",
+      "accepted_answer_id": 15445989,
+      "score": 548,
+      "link": "https://stackoverflow.com/questions/15445981/how-do-i-disable-the-security-certificate-check-in-pythons-requests",
+      "owner": {
+        "display_name": "Paul Draper",
+        "link": "https://stackoverflow.com/users/1212596/paul-draper"
+      }
+    },
+    {
+      "question_id": 13137817,
+      "title": "How to download image using requests",
+      "accepted_answer_id": 13137873,
+      "score": 519,
+      "link": "https://stackoverflow.com/questions/13137817/how-to-download-image-using-requests",
+      "owner": {
+        "display_name": "shkschneider",
+        "link": "https://stackoverflow.com/users/603270/shkschneider"
+      }
+    },
+    {
+      "question_id": 11029717,
+      "title": "How do I disable log messages from the Requests library?",
+      "accepted_answer_id": 11029841,
+      "score": 463,
+      "link": "https://stackoverflow.com/questions/11029717/how-do-i-disable-log-messages-from-the-requests-library",
+      "owner": {
+        "display_name": "aknuds1",
+        "link": "https://stackoverflow.com/users/265261/aknuds1"
+      }
+    },
+    {
+      "question_id": 16877422,
+      "title": "How to parse a JSON response from the requests library",
+      "accepted_answer_id": 16877439,
+      "score": 431,
+      "link": "https://stackoverflow.com/questions/16877422/how-to-parse-a-json-response-from-the-requests-library",
+      "owner": {
+        "display_name": "felix001",
+        "link": "https://stackoverflow.com/users/1325133/felix001"
+      }
+    },
+    {
+      "question_id": 10588644,
+      "title": "How can I see the entire HTTP request that&#39;s being sent by my Python application?",
+      "accepted_answer_id": 16630836,
+      "score": 425,
+      "link": "https://stackoverflow.com/questions/10588644/how-can-i-see-the-entire-http-request-thats-being-sent-by-my-python-application",
+      "owner": {
+        "display_name": "Chris B.",
+        "link": "https://stackoverflow.com/users/9161/chris-b"
+      }
+    },
+    {
+      "question_id": 15115328,
+      "title": "Python Requests - No connection adapters",
+      "accepted_answer_id": 15115345,
+      "score": 403,
+      "link": "https://stackoverflow.com/questions/15115328/python-requests-no-connection-adapters",
+      "owner": {
+        "display_name": "Azd325",
+        "link": "https://stackoverflow.com/users/548558/azd325"
+      }
+    },
+    {
+      "question_id": 20658572,
+      "title": "Python requests - print entire http request (raw)?",
+      "accepted_answer_id": 23816211,
+      "score": 386,
+      "link": "https://stackoverflow.com/questions/20658572/python-requests-print-entire-http-request-raw",
+      "owner": {
+        "display_name": "huggie",
+        "link": "https://stackoverflow.com/users/133747/huggie"
+      }
+    },
+    {
+      "question_id": 21965484,
+      "title": "Timeout for Python requests.get() entire response",
+      "accepted_answer_id": 22096841,
+      "score": 385,
+      "link": "https://stackoverflow.com/questions/21965484/timeout-for-python-requests-get-entire-response",
+      "owner": {
+        "display_name": "Kiarash",
+        "link": "https://stackoverflow.com/users/814359/kiarash"
+      }
+    },
+    {
+      "question_id": 15431044,
+      "title": "Can I set max_retries for requests.request?",
+      "accepted_answer_id": 15431343,
+      "score": 375,
+      "link": "https://stackoverflow.com/questions/15431044/can-i-set-max-retries-for-requests-request",
+      "owner": {
+        "display_name": "Kirill Zaitsev",
+        "link": "https://stackoverflow.com/users/416128/kirill-zaitsev"
+      }
+    },
+    {
+      "question_id": 6260457,
+      "title": "Using headers with the Python &#39;Requests&#39; library&#39;s get() method",
+      "accepted_answer_id": 6260526,
+      "score": 371,
+      "link": "https://stackoverflow.com/questions/6260457/using-headers-with-the-python-requests-librarys-get-method",
+      "owner": {
+        "display_name": "Breedly",
+        "link": "https://stackoverflow.com/users/456809/breedly"
+      }
+    },
+    {
+      "question_id": 10606133,
+      "title": "Sending &quot;User-agent&quot; using Requests library in Python",
+      "accepted_answer_id": 10606260,
+      "score": 360,
+      "link": "https://stackoverflow.com/questions/10606133/sending-user-agent-using-requests-library-in-python",
+      "owner": {
+        "display_name": "user1289853",
+        "link": null
+      }
+    },
+    {
+      "question_id": 11091623,
+      "title": "How can I install packages offline?",
+      "accepted_answer_id": 11092043,
+      "score": 356,
+      "link": "https://stackoverflow.com/questions/11091623/how-can-i-install-packages-offline",
+      "owner": {
+        "display_name": "Chris Drantz",
+        "link": "https://stackoverflow.com/users/1464918/chris-drantz"
+      }
+    },
+    {
+      "question_id": 8287628,
+      "title": "Proxies with Python &#39;Requests&#39; module",
+      "accepted_answer_id": 8287752,
+      "score": 285,
+      "link": "https://stackoverflow.com/questions/8287628/proxies-with-python-requests-module",
+      "owner": {
+        "display_name": "user1064306",
+        "link": null
+      }
+    },
+    {
+      "question_id": 22567306,
+      "title": "How to upload file with python requests?",
+      "accepted_answer_id": 22567429,
+      "score": 282,
+      "link": "https://stackoverflow.com/questions/22567306/how-to-upload-file-with-python-requests",
+      "owner": {
+        "display_name": "scichris",
+        "link": "https://stackoverflow.com/users/2362898/scichris"
+      }
+    },
+    {
+      "question_id": 15900338,
+      "title": "Python &#39;Requests&#39; POST with param data",
+      "accepted_answer_id": 15900453,
+      "score": 279,
+      "link": "https://stackoverflow.com/questions/15900338/python-requests-post-with-param-data",
+      "owner": {
+        "display_name": "slysid",
+        "link": "https://stackoverflow.com/users/1949081/slysid"
+      }
+    },
+    {
+      "question_id": 9110593,
+      "title": "Asynchronous requests with Python&#39;s Requests",
+      "accepted_answer_id": 9189249,
+      "score": 250,
+      "link": "https://stackoverflow.com/questions/9110593/asynchronous-requests-with-pythons-requests",
+      "owner": {
+        "display_name": "trbck",
+        "link": "https://stackoverflow.com/users/439693/trbck"
+      }
+    },
+    {
+      "question_id": 15258728,
+      "title": "How to tell if you&#39;re getting a 404",
+      "accepted_answer_id": 15258759,
+      "score": 248,
+      "link": "https://stackoverflow.com/questions/15258728/how-to-tell-if-youre-getting-a-404",
+      "owner": {
+        "display_name": "user1427661",
+        "link": "https://stackoverflow.com/users/1427661/user1427661"
+      }
+    },
+    {
+      "question_id": 29099404,
+      "title": "SSL InsecurePlatform error when using Requests package",
+      "accepted_answer_id": 29099439,
+      "score": 237,
+      "link": "https://stackoverflow.com/questions/29099404/ssl-insecureplatform-error-when-using-requests-package",
+      "owner": {
+        "display_name": "Luke Peckham",
+        "link": "https://stackoverflow.com/users/4678695/luke-peckham"
+      }
+    },
+    {
+      "question_id": 30405867,
+      "title": "How can I get Python Requests to trust a self-signed SSL certificate?",
+      "accepted_answer_id": 30405947,
+      "score": 224,
+      "link": "https://stackoverflow.com/questions/30405867/how-can-i-get-python-requests-to-trust-a-self-signed-ssl-certificate",
+      "owner": {
+        "display_name": "Matthew Moisen",
+        "link": "https://stackoverflow.com/users/1391717/matthew-moisen"
+      }
+    },
+    {
+      "question_id": 22190403,
+      "title": "How could I use requests in asyncio?",
+      "accepted_answer_id": 22414756,
+      "score": 220,
+      "link": "https://stackoverflow.com/questions/22190403/how-could-i-use-requests-in-asyncio",
+      "owner": {
+        "display_name": "flyer",
+        "link": "https://stackoverflow.com/users/882862/flyer"
+      }
+    },
+    {
+      "question_id": 30539798,
+      "title": "zsh: no matches found: requests[security]",
+      "accepted_answer_id": 30539963,
+      "score": 219,
+      "link": "https://stackoverflow.com/questions/30539798/zsh-no-matches-found-requestssecurity",
+      "owner": {
+        "display_name": "Kristen",
+        "link": "https://stackoverflow.com/users/3456842/kristen"
+      }
+    },
+    {
+      "question_id": 17011357,
+      "title": "What is the difference between &#39;content&#39; and &#39;text&#39;",
+      "accepted_answer_id": 17011420,
+      "score": 212,
+      "link": "https://stackoverflow.com/questions/17011357/what-is-the-difference-between-content-and-text",
+      "owner": {
+        "display_name": "dotancohen",
+        "link": "https://stackoverflow.com/users/343302/dotancohen"
+      }
+    },
+    {
+      "question_id": 8685790,
+      "title": "Adding headers to the Requests module",
+      "accepted_answer_id": 8685813,
+      "score": 204,
+      "link": "https://stackoverflow.com/questions/8685790/adding-headers-to-the-requests-module",
+      "owner": {
+        "display_name": "discky",
+        "link": "https://stackoverflow.com/users/1104027/discky"
+      }
+    },
+    {
+      "question_id": 27652543,
+      "title": "How can I use Python&#39;s Requests to fake a browser visit a.k.a and generate User Agent?",
+      "accepted_answer_id": 27652558,
+      "score": 201,
+      "link": "https://stackoverflow.com/questions/27652543/how-can-i-use-pythons-requests-to-fake-a-browser-visit-a-k-a-and-generate-user",
+      "owner": {
+        "display_name": "user1726366",
+        "link": "https://stackoverflow.com/users/1726366/user1726366"
+      }
+    },
+    {
+      "question_id": 7164679,
+      "title": "How to send cookies in a post request with the Python Requests library?",
+      "accepted_answer_id": 7164897,
+      "score": 200,
+      "link": "https://stackoverflow.com/questions/7164679/how-to-send-cookies-in-a-post-request-with-the-python-requests-library",
+      "owner": {
+        "display_name": "Ricardo Altamirano",
+        "link": "https://stackoverflow.com/users/869912/ricardo-altamirano"
+      }
+    },
+    {
+      "question_id": 18810777,
+      "title": "How do I read a response from Python Requests?",
+      "accepted_answer_id": 18810889,
+      "score": 197,
+      "link": "https://stackoverflow.com/questions/18810777/how-do-i-read-a-response-from-python-requests",
+      "owner": {
+        "display_name": "Oli",
+        "link": "https://stackoverflow.com/users/1436318/oli"
+      }
+    },
+    {
+      "question_id": 12737740,
+      "title": "Python Requests and persistent sessions",
+      "accepted_answer_id": 12737874,
+      "score": 193,
+      "link": "https://stackoverflow.com/questions/12737740/python-requests-and-persistent-sessions",
+      "owner": {
+        "display_name": "ChrisGuest",
+        "link": "https://stackoverflow.com/users/403043/chrisguest"
+      }
+    },
+    {
+      "question_id": 16337511,
+      "title": "Log all requests from the python-requests module",
+      "accepted_answer_id": 16337639,
+      "score": 186,
+      "link": "https://stackoverflow.com/questions/16337511/log-all-requests-from-the-python-requests-module",
+      "owner": {
+        "display_name": "blueFast",
+        "link": "https://stackoverflow.com/users/647991/bluefast"
+      }
+    },
+    {
+      "question_id": 9029287,
+      "title": "How can I extract the HTTP response body from a Python &#39;Requests&#39; call?",
+      "accepted_answer_id": 9029372,
+      "score": 185,
+      "link": "https://stackoverflow.com/questions/9029287/how-can-i-extract-the-http-response-body-from-a-python-requests-call",
+      "owner": {
+        "display_name": "Stephen Gross",
+        "link": "https://stackoverflow.com/users/141650/stephen-gross"
+      }
+    },
+    {
+      "question_id": 26685248,
+      "title": "Difference between data and json parameters in Python Requests package",
+      "accepted_answer_id": 26685359,
+      "score": 184,
+      "link": "https://stackoverflow.com/questions/26685248/difference-between-data-and-json-parameters-in-python-requests-package",
+      "owner": {
+        "display_name": "user1507844",
+        "link": "https://stackoverflow.com/users/1507844/user1507844"
+      }
+    },
+    {
+      "question_id": 19069701,
+      "title": "Python requests library how to pass Authorization header with single token",
+      "accepted_answer_id": 19072991,
+      "score": 166,
+      "link": "https://stackoverflow.com/questions/19069701/python-requests-library-how-to-pass-authorization-header-with-single-token",
+      "owner": {
+        "display_name": "user1552586",
+        "link": null
+      }
+    },
+    {
+      "question_id": 38489386,
+      "title": "How can I fix &quot;403 Forbidden&quot; errors when calling APIs using Python &#39;Requests&#39;?",
+      "accepted_answer_id": 38489588,
+      "score": 166,
+      "link": "https://stackoverflow.com/questions/38489386/how-can-i-fix-403-forbidden-errors-when-calling-apis-using-python-requests",
+      "owner": {
+        "display_name": "user6615439",
+        "link": null
+      }
+    },
+    {
+      "question_id": 11892729,
+      "title": "How can I &quot;log in&quot; to a website using Python&#39;s Requests module?",
+      "accepted_answer_id": 11892838,
+      "score": 158,
+      "link": "https://stackoverflow.com/questions/11892729/how-can-i-log-in-to-a-website-using-pythons-requests-module",
+      "owner": {
+        "display_name": "Marcus Johnson",
+        "link": "https://stackoverflow.com/users/1587751/marcus-johnson"
+      }
+    },
+    {
+      "question_id": 34503412,
+      "title": "Download and save PDF file with Python requests module",
+      "accepted_answer_id": 34503421,
+      "score": 153,
+      "link": "https://stackoverflow.com/questions/34503412/download-and-save-pdf-file-with-python-requests-module",
+      "owner": {
+        "display_name": "Jim",
+        "link": "https://stackoverflow.com/users/540104/jim"
+      }
+    },
+    {
+      "question_id": 26745462,
+      "title": "How do I use basic HTTP authentication with the Python Requests library?",
+      "accepted_answer_id": 26746603,
+      "score": 152,
+      "link": "https://stackoverflow.com/questions/26745462/how-do-i-use-basic-http-authentication-with-the-python-requests-library",
+      "owner": {
+        "display_name": "oleksii",
+        "link": "https://stackoverflow.com/users/2991712/oleksii"
+      }
+    },
+    {
+      "question_id": 17782142,
+      "title": "Why doesn&#39;t requests.get() return? What is the default timeout that requests.get() uses?",
+      "accepted_answer_id": 17782541,
+      "score": 149,
+      "link": "https://stackoverflow.com/questions/17782142/why-doesnt-requests-get-return-what-is-the-default-timeout-that-requests-get",
+      "owner": {
+        "display_name": "Sarfaraz Nawaz",
+        "link": "https://stackoverflow.com/users/415784/sarfaraz-nawaz"
+      }
+    },
+    {
+      "question_id": 12601316,
+      "title": "How to make python Requests work via SOCKS proxy",
+      "accepted_answer_id": 15661226,
+      "score": 145,
+      "link": "https://stackoverflow.com/questions/12601316/how-to-make-python-requests-work-via-socks-proxy",
+      "owner": {
+        "display_name": "lithuak",
+        "link": "https://stackoverflow.com/users/499439/lithuak"
+      }
+    },
+    {
+      "question_id": 42982143,
+      "title": "How can I use system CA certificates (Debian/Ubuntu) with Python&#39;s Requests?",
+      "accepted_answer_id": 42982144,
+      "score": 143,
+      "link": "https://stackoverflow.com/questions/42982143/how-can-i-use-system-ca-certificates-debian-ubuntu-with-pythons-requests",
+      "owner": {
+        "display_name": "ThorSummoner",
+        "link": "https://stackoverflow.com/users/1695680/thorsummoner"
+      }
+    },
+    {
+      "question_id": 51925384,
+      "title": "Unable to get local issuer certificate when using &#39;Requests&#39;",
+      "accepted_answer_id": 57466119,
+      "score": 143,
+      "link": "https://stackoverflow.com/questions/51925384/unable-to-get-local-issuer-certificate-when-using-requests",
+      "owner": {
+        "display_name": "yuan",
+        "link": "https://stackoverflow.com/users/10058068/yuan"
+      }
+    },
+    {
+      "question_id": 43252542,
+      "title": "How to measure server response time for Python requests POST-request",
+      "accepted_answer_id": 43260678,
+      "score": 134,
+      "link": "https://stackoverflow.com/questions/43252542/how-to-measure-server-response-time-for-python-requests-post-request",
+      "owner": {
+        "display_name": "Shuzheng",
+        "link": "https://stackoverflow.com/users/1020139/shuzheng"
+      }
+    },
+    {
+      "question_id": 23267409,
+      "title": "How to implement retry mechanism into Python Requests library?",
+      "accepted_answer_id": 23271433,
+      "score": 126,
+      "link": "https://stackoverflow.com/questions/23267409/how-to-implement-retry-mechanism-into-python-requests-library",
+      "owner": {
+        "display_name": "sorin",
+        "link": "https://stackoverflow.com/users/99834/sorin"
+      }
+    },
+    {
+      "question_id": 50202238,
+      "title": "Python (pip) - RequestsDependencyWarning: urllib3 (1.9.1) or chardet (2.3.0) doesn&#39;t match a supported version",
+      "accepted_answer_id": 50212636,
+      "score": 118,
+      "link": "https://stackoverflow.com/questions/50202238/python-pip-requestsdependencywarning-urllib3-1-9-1-or-chardet-2-3-0-doe",
+      "owner": {
+        "display_name": "NuX_o",
+        "link": "https://stackoverflow.com/users/8827756/nux-o"
+      }
+    },
+    {
+      "question_id": 25091976,
+      "title": "python requests get cookies",
+      "accepted_answer_id": 25092059,
+      "score": 111,
+      "link": "https://stackoverflow.com/questions/25091976/python-requests-get-cookies",
+      "owner": {
+        "display_name": "Danfi",
+        "link": "https://stackoverflow.com/users/905299/danfi"
+      }
+    },
+    {
+      "question_id": 18175489,
+      "title": "Sending SOAP request using Python Requests",
+      "accepted_answer_id": 26506633,
+      "score": 109,
+      "link": "https://stackoverflow.com/questions/18175489/sending-soap-request-using-python-requests",
+      "owner": {
+        "display_name": "Deepankar Bajpeyi",
+        "link": "https://stackoverflow.com/users/1222542/deepankar-bajpeyi"
+      }
+    },
+    {
+      "question_id": 51390968,
+      "title": "Python SSL certificate verify error",
+      "accepted_answer_id": 51408997,
+      "score": 107,
+      "link": "https://stackoverflow.com/questions/51390968/python-ssl-certificate-verify-error",
+      "owner": {
+        "display_name": "Tim B",
+        "link": "https://stackoverflow.com/users/10071946/tim-b"
+      }
+    },
+    {
+      "question_id": 19342111,
+      "title": "Get HTTP Error code from requests.exceptions.HTTPError",
+      "accepted_answer_id": 19343099,
+      "score": 106,
+      "link": "https://stackoverflow.com/questions/19342111/get-http-error-code-from-requests-exceptions-httperror",
+      "owner": {
+        "display_name": "Shiplu Mokaddim",
+        "link": "https://stackoverflow.com/users/376535/shiplu-mokaddim"
+      }
+    },
+    {
+      "question_id": 25239650,
+      "title": "Python requests speed up using keep-alive",
+      "accepted_answer_id": 25239947,
+      "score": 106,
+      "link": "https://stackoverflow.com/questions/25239650/python-requests-speed-up-using-keep-alive",
+      "owner": {
+        "display_name": "PaulOverflow",
+        "link": "https://stackoverflow.com/users/3859972/pauloverflow"
+      }
+    },
+    {
+      "question_id": 38794015,
+      "title": "Python&#39;s requests &quot;Missing dependencies for SOCKS support&quot; when using SOCKS5 from Terminal",
+      "accepted_answer_id": 39959360,
+      "score": 104,
+      "link": "https://stackoverflow.com/questions/38794015/pythons-requests-missing-dependencies-for-socks-support-when-using-socks5-fro",
+      "owner": {
+        "display_name": "BringBackCommodore64",
+        "link": "https://stackoverflow.com/users/1482789/bringbackcommodore64"
+      }
+    },
+    {
+      "question_id": 33432426,
+      "title": "ImportError: No module named &#39;Queue&#39;",
+      "accepted_answer_id": 33432971,
+      "score": 99,
+      "link": "https://stackoverflow.com/questions/33432426/importerror-no-module-named-queue",
+      "owner": {
+        "display_name": "Ali Abdelrahman",
+        "link": "https://stackoverflow.com/users/5104452/ali-abdelrahman"
+      }
+    },
+    {
+      "question_id": 28521535,
+      "title": "requests: how to disable / bypass proxy",
+      "accepted_answer_id": 28521696,
+      "score": 97,
+      "link": "https://stackoverflow.com/questions/28521535/requests-how-to-disable-bypass-proxy",
+      "owner": {
+        "display_name": "t777",
+        "link": "https://stackoverflow.com/users/1869090/t777"
+      }
+    },
+    {
+      "question_id": 61463224,
+      "title": "When to use `raise_for_status` vs `status_code` testing",
+      "accepted_answer_id": 61463451,
+      "score": 96,
+      "link": "https://stackoverflow.com/questions/61463224/when-to-use-raise-for-status-vs-status-code-testing",
+      "owner": {
+        "display_name": "Madivad",
+        "link": "https://stackoverflow.com/users/1804181/madivad"
+      }
+    },
+    {
+      "question_id": 11768214,
+      "title": "Python: download a file from an FTP server",
+      "accepted_answer_id": 11768443,
+      "score": 94,
+      "link": "https://stackoverflow.com/questions/11768214/python-download-a-file-from-an-ftp-server",
+      "owner": {
+        "display_name": "user1507455",
+        "link": "https://stackoverflow.com/users/1507455/user1507455"
+      }
+    },
+    {
+      "question_id": 17936555,
+      "title": "how to construct the curl command from python requests module?",
+      "accepted_answer_id": 17936634,
+      "score": 94,
+      "link": "https://stackoverflow.com/questions/17936555/how-to-construct-the-curl-command-from-python-requests-module",
+      "owner": {
+        "display_name": "Larry Cai",
+        "link": "https://stackoverflow.com/users/308174/larry-cai"
+      }
+    },
+    {
+      "question_id": 54087303,
+      "title": "How to check for &quot;200 OK&quot;?",
+      "accepted_answer_id": 54087354,
+      "score": 94,
+      "link": "https://stackoverflow.com/questions/54087303/how-to-check-for-200-ok",
+      "owner": {
+        "display_name": "Monty",
+        "link": "https://stackoverflow.com/users/1797139/monty"
+      }
+    },
+    {
+      "question_id": 9559963,
+      "title": "Unit testing a python app that uses the requests library",
+      "accepted_answer_id": 27077674,
+      "score": 92,
+      "link": "https://stackoverflow.com/questions/9559963/unit-testing-a-python-app-that-uses-the-requests-library",
+      "owner": {
+        "display_name": "Chris R",
+        "link": "https://stackoverflow.com/users/23309/chris-r"
+      }
+    },
+    {
+      "question_id": 26393231,
+      "title": "Using python Requests with javascript pages",
+      "accepted_answer_id": 54056631,
+      "score": 91,
+      "link": "https://stackoverflow.com/questions/26393231/using-python-requests-with-javascript-pages",
+      "owner": {
+        "display_name": "biw",
+        "link": "https://stackoverflow.com/users/2840324/biw"
+      }
+    },
+    {
+      "question_id": 14114729,
+      "title": "Save a large file using the Python requests library",
+      "accepted_answer_id": 14114741,
+      "score": 89,
+      "link": "https://stackoverflow.com/questions/14114729/save-a-large-file-using-the-python-requests-library",
+      "owner": {
+        "display_name": "Matt Williamson",
+        "link": "https://stackoverflow.com/users/197663/matt-williamson"
+      }
+    },
+    {
+      "question_id": 24068576,
+      "title": "How to receive json data using HTTP POST request in Django?",
+      "accepted_answer_id": 24119878,
+      "score": 87,
+      "link": "https://stackoverflow.com/questions/24068576/how-to-receive-json-data-using-http-post-request-in-django",
+      "owner": {
+        "display_name": "Alok",
+        "link": "https://stackoverflow.com/users/1762051/alok"
+      }
+    },
+    {
+      "question_id": 44203397,
+      "title": "python requests.get() returns improperly decoded text instead of UTF-8?",
+      "accepted_answer_id": 44203507,
+      "score": 87,
+      "link": "https://stackoverflow.com/questions/44203397/python-requests-get-returns-improperly-decoded-text-instead-of-utf-8",
+      "owner": {
+        "display_name": "arunk2",
+        "link": "https://stackoverflow.com/users/1377711/arunk2"
+      }
+    },
+    {
+      "question_id": 23496750,
+      "title": "How to prevent python requests from percent encoding my URLs?",
+      "accepted_answer_id": 23497912,
+      "score": 86,
+      "link": "https://stackoverflow.com/questions/23496750/how-to-prevent-python-requests-from-percent-encoding-my-urls",
+      "owner": {
+        "display_name": "Satyen Rai",
+        "link": "https://stackoverflow.com/users/3608492/satyen-rai"
+      }
+    },
+    {
+      "question_id": 35371043,
+      "title": "Use python requests to download CSV",
+      "accepted_answer_id": 35371451,
+      "score": 80,
+      "link": "https://stackoverflow.com/questions/35371043/use-python-requests-to-download-csv",
+      "owner": {
+        "display_name": "viviwill",
+        "link": "https://stackoverflow.com/users/3243917/viviwill"
+      }
+    },
+    {
+      "question_id": 37573483,
+      "title": "Progress Bar while download file over http with Requests",
+      "accepted_answer_id": 37573701,
+      "score": 79,
+      "link": "https://stackoverflow.com/questions/37573483/progress-bar-while-download-file-over-http-with-requests",
+      "owner": {
+        "display_name": "Gamegoofs2",
+        "link": "https://stackoverflow.com/users/953807/gamegoofs2"
+      }
+    },
+    {
+      "question_id": 20759981,
+      "title": "Python : Trying to POST form using requests",
+      "accepted_answer_id": 20760055,
+      "score": 78,
+      "link": "https://stackoverflow.com/questions/20759981/python-trying-to-post-form-using-requests",
+      "owner": {
+        "display_name": "Captain_Meow_Meow",
+        "link": "https://stackoverflow.com/users/2627775/captain-meow-meow"
+      }
+    },
+    {
+      "question_id": 10115126,
+      "title": "Python-Requests close http connection",
+      "accepted_answer_id": 10115553,
+      "score": 76,
+      "link": "https://stackoverflow.com/questions/10115126/python-requests-close-http-connection",
+      "owner": {
+        "display_name": "user179169",
+        "link": null
+      }
+    },
+    {
+      "question_id": 12509888,
+      "title": "How can I send an xml body using requests library?",
+      "accepted_answer_id": 12510559,
+      "score": 75,
+      "link": "https://stackoverflow.com/questions/12509888/how-can-i-send-an-xml-body-using-requests-library",
+      "owner": {
+        "display_name": "Dimitris Leventeas",
+        "link": "https://stackoverflow.com/users/157663/dimitris-leventeas"
+      }
+    },
+    {
+      "question_id": 14270698,
+      "title": "Get file size using python-requests, while only getting the header",
+      "accepted_answer_id": 14270756,
+      "score": 74,
+      "link": "https://stackoverflow.com/questions/14270698/get-file-size-using-python-requests-while-only-getting-the-header",
+      "owner": {
+        "display_name": "scandinavian_",
+        "link": "https://stackoverflow.com/users/984705/scandinavian"
+      }
+    },
+    {
+      "question_id": 26615756,
+      "title": "Python requests module sends JSON string instead of x-www-form-urlencoded param string",
+      "accepted_answer_id": 26615831,
+      "score": 74,
+      "link": "https://stackoverflow.com/questions/26615756/python-requests-module-sends-json-string-instead-of-x-www-form-urlencoded-param",
+      "owner": {
+        "display_name": "Aron Solberg",
+        "link": "https://stackoverflow.com/users/1316464/aron-solberg"
+      }
+    },
+    {
+      "question_id": 31804799,
+      "title": "How to get pdf filename with Python requests?",
+      "accepted_answer_id": 31805472,
+      "score": 72,
+      "link": "https://stackoverflow.com/questions/31804799/how-to-get-pdf-filename-with-python-requests",
+      "owner": {
+        "display_name": "kramer65",
+        "link": "https://stackoverflow.com/users/1650012/kramer65"
+      }
+    },
+    {
+      "question_id": 20837786,
+      "title": "Changing the referer URL in python requests",
+      "accepted_answer_id": 20838143,
+      "score": 71,
+      "link": "https://stackoverflow.com/questions/20837786/changing-the-referer-url-in-python-requests",
+      "owner": {
+        "display_name": "Mayank Kumar",
+        "link": "https://stackoverflow.com/users/2837212/mayank-kumar"
+      }
+    },
+    {
+      "question_id": 11832639,
+      "title": "How to specify python requests http put body?",
+      "accepted_answer_id": 11833013,
+      "score": 70,
+      "link": "https://stackoverflow.com/questions/11832639/how-to-specify-python-requests-http-put-body",
+      "owner": {
+        "display_name": "omer bach",
+        "link": "https://stackoverflow.com/users/619303/omer-bach"
+      }
+    },
+    {
+      "question_id": 9054820,
+      "title": "Python requests exception handling",
+      "accepted_answer_id": 9054856,
+      "score": 68,
+      "link": "https://stackoverflow.com/questions/9054820/python-requests-exception-handling",
+      "owner": {
+        "display_name": "user1159798",
+        "link": null
+      }
+    },
+    {
+      "question_id": 13567507,
+      "title": "Passing csrftoken with python Requests",
+      "accepted_answer_id": 13569789,
+      "score": 68,
+      "link": "https://stackoverflow.com/questions/13567507/passing-csrftoken-with-python-requests",
+      "owner": {
+        "display_name": "Jeff",
+        "link": "https://stackoverflow.com/users/230392/jeff"
+      }
+    },
+    {
+      "question_id": 14102416,
+      "title": "Python Requests requests.exceptions.SSLError: [Errno 8] _ssl.c:504: EOF occurred in violation of protocol",
+      "accepted_answer_id": 14146031,
+      "score": 68,
+      "link": "https://stackoverflow.com/questions/14102416/python-requests-requests-exceptions-sslerror-errno-8-ssl-c504-eof-occurred",
+      "owner": {
+        "display_name": "jasonamyers",
+        "link": "https://stackoverflow.com/users/1231488/jasonamyers"
+      }
+    },
+    {
+      "question_id": 18578439,
+      "title": "using requests with TLS doesn&#39;t give SNI support",
+      "accepted_answer_id": 18579484,
+      "score": 67,
+      "link": "https://stackoverflow.com/questions/18578439/using-requests-with-tls-doesnt-give-sni-support",
+      "owner": {
+        "display_name": "Massagran",
+        "link": "https://stackoverflow.com/users/218558/massagran"
+      }
+    },
+    {
+      "question_id": 40361308,
+      "title": "Create a functioning Response object",
+      "accepted_answer_id": 40361497,
+      "score": 67,
+      "link": "https://stackoverflow.com/questions/40361308/create-a-functioning-response-object",
+      "owner": {
+        "display_name": "Dotan",
+        "link": "https://stackoverflow.com/users/1660762/dotan"
+      }
+    },
+    {
+      "question_id": 19268548,
+      "title": "python ignore certificate validation urllib2",
+      "accepted_answer_id": 19269164,
+      "score": 66,
+      "link": "https://stackoverflow.com/questions/19268548/python-ignore-certificate-validation-urllib2",
+      "owner": {
+        "display_name": "Sangamesh Hs",
+        "link": "https://stackoverflow.com/users/2583661/sangamesh-hs"
+      }
+    },
+    {
+      "question_id": 62599036,
+      "title": "Python requests is slow and takes very long to complete HTTP or HTTPS request",
+      "accepted_answer_id": 62599037,
+      "score": 62,
+      "link": "https://stackoverflow.com/questions/62599036/python-requests-is-slow-and-takes-very-long-to-complete-http-or-https-request",
+      "owner": {
+        "display_name": "vauhochzett",
+        "link": "https://stackoverflow.com/users/5712053/vauhochzett"
+      }
+    },
+    {
+      "question_id": 15461995,
+      "title": "Python Requests vs PyCurl Performance",
+      "accepted_answer_id": 32899936,
+      "score": 61,
+      "link": "https://stackoverflow.com/questions/15461995/python-requests-vs-pycurl-performance",
+      "owner": {
+        "display_name": "Eugene",
+        "link": "https://stackoverflow.com/users/389823/eugene"
+      }
+    },
+    {
+      "question_id": 24718557,
+      "title": "Get the description of a status code in Python Requests",
+      "accepted_answer_id": 24718662,
+      "score": 61,
+      "link": "https://stackoverflow.com/questions/24718557/get-the-description-of-a-status-code-in-python-requests",
+      "owner": {
+        "display_name": "Roberto",
+        "link": "https://stackoverflow.com/users/2683104/roberto"
+      }
+    },
+    {
+      "question_id": 10123929,
+      "title": "Fetch a file from a local url with Python requests?",
+      "accepted_answer_id": 22989322,
+      "score": 59,
+      "link": "https://stackoverflow.com/questions/10123929/fetch-a-file-from-a-local-url-with-python-requests",
+      "owner": {
+        "display_name": "Ozgur Vatansever",
+        "link": "https://stackoverflow.com/users/793428/ozgur-vatansever"
+      }
+    },
+    {
+      "question_id": 22974772,
+      "title": "Querystring Array Parameters in Python using Requests",
+      "accepted_answer_id": 22975101,
+      "score": 59,
+      "link": "https://stackoverflow.com/questions/22974772/querystring-array-parameters-in-python-using-requests",
+      "owner": {
+        "display_name": "Buddy Lindsey",
+        "link": "https://stackoverflow.com/users/23571/buddy-lindsey"
+      }
+    },
+    {
+      "question_id": 54619868,
+      "title": "HTTP requests.post timeout",
+      "accepted_answer_id": 54619932,
+      "score": 59,
+      "link": "https://stackoverflow.com/questions/54619868/http-requests-post-timeout",
+      "owner": {
+        "display_name": "Zorgmorduk",
+        "link": "https://stackoverflow.com/users/5195626/zorgmorduk"
+      }
+    },
+    {
+      "question_id": 24873927,
+      "title": "python requests module and connection reuse",
+      "accepted_answer_id": 24874214,
+      "score": 58,
+      "link": "https://stackoverflow.com/questions/24873927/python-requests-module-and-connection-reuse",
+      "owner": {
+        "display_name": "gmemon",
+        "link": "https://stackoverflow.com/users/322419/gmemon"
+      }
+    },
+    {
+      "question_id": 36070821,
+      "title": "how to get redirect url using python requests",
+      "accepted_answer_id": 36070916,
+      "score": 58,
+      "link": "https://stackoverflow.com/questions/36070821/how-to-get-redirect-url-using-python-requests",
+      "owner": {
+        "display_name": "1a1a11a",
+        "link": "https://stackoverflow.com/users/4637358/1a1a11a"
+      }
+    },
+    {
+      "question_id": 11159687,
+      "title": "Measure website load time with Python requests",
+      "accepted_answer_id": 11159798,
+      "score": 57,
+      "link": "https://stackoverflow.com/questions/11159687/measure-website-load-time-with-python-requests",
+      "owner": {
+        "display_name": "cookM",
+        "link": "https://stackoverflow.com/users/711481/cookm"
+      }
+    },
+    {
+      "question_id": 19568950,
+      "title": "Return a requests.Response object from Flask",
+      "accepted_answer_id": 19569090,
+      "score": 57,
+      "link": "https://stackoverflow.com/questions/19568950/return-a-requests-response-object-from-flask",
+      "owner": {
+        "display_name": "Fred Foo",
+        "link": "https://stackoverflow.com/users/166749/fred-foo"
+      }
+    },
+    {
+      "question_id": 42601812,
+      "title": "Python requests: URL base in Session",
+      "accepted_answer_id": 53140699,
+      "score": 57,
+      "link": "https://stackoverflow.com/questions/42601812/python-requests-url-base-in-session",
+      "owner": {
+        "display_name": "paj28",
+        "link": "https://stackoverflow.com/users/2508995/paj28"
+      }
+    },
+    {
+      "question_id": 32986228,
+      "title": "Difference between using requests.get() and requests.session().get()?",
+      "accepted_answer_id": 32986316,
+      "score": 56,
+      "link": "https://stackoverflow.com/questions/32986228/difference-between-using-requests-get-and-requests-session-get",
+      "owner": {
+        "display_name": "Fred Pym",
+        "link": "https://stackoverflow.com/users/4790051/fred-pym"
+      }
+    },
+    {
+      "question_id": 38015537,
+      "title": "Python - requests.exceptions.SSLError - dh key too small",
+      "accepted_answer_id": 38016392,
+      "score": 56,
+      "link": "https://stackoverflow.com/questions/38015537/python-requests-exceptions-sslerror-dh-key-too-small",
+      "owner": {
+        "display_name": "Feocco",
+        "link": "https://stackoverflow.com/users/1893520/feocco"
+      }
+    },
+    {
+      "question_id": 24535920,
+      "title": "Difference between &quot;data&quot; and &quot;params&quot; in Python requests?",
+      "accepted_answer_id": 24535938,
+      "score": 55,
+      "link": "https://stackoverflow.com/questions/24535920/difference-between-data-and-params-in-python-requests",
+      "owner": {
+        "display_name": "tscizzle",
+        "link": "https://stackoverflow.com/users/3391108/tscizzle"
+      }
+    },
+    {
+      "question_id": 29104107,
+      "title": "Upload Image using POST form data in Python-requests",
+      "accepted_answer_id": 29104528,
+      "score": 54,
+      "link": "https://stackoverflow.com/questions/29104107/upload-image-using-post-form-data-in-python-requests",
+      "owner": {
+        "display_name": "micheal ",
+        "link": "https://stackoverflow.com/users/4414786/micheal"
+      }
+    },
+    {
+      "question_id": 24518944,
+      "title": "Try/except when using Python requests module",
+      "accepted_answer_id": 24531618,
+      "score": 52,
+      "link": "https://stackoverflow.com/questions/24518944/try-except-when-using-python-requests-module",
+      "owner": {
+        "display_name": "mroriel",
+        "link": "https://stackoverflow.com/users/3795297/mroriel"
+      }
+    },
+    {
+      "question_id": 24688479,
+      "title": "Size of raw response in bytes",
+      "accepted_answer_id": 24688721,
+      "score": 52,
+      "link": "https://stackoverflow.com/questions/24688479/size-of-raw-response-in-bytes",
+      "owner": {
+        "display_name": "ewhitt",
+        "link": "https://stackoverflow.com/users/962019/ewhitt"
+      }
+    },
+    {
+      "question_id": 30362600,
+      "title": "How to install requests module in Python 3.4, instead of 2.7",
+      "accepted_answer_id": 30362669,
+      "score": 52,
+      "link": "https://stackoverflow.com/questions/30362600/how-to-install-requests-module-in-python-3-4-instead-of-2-7",
+      "owner": {
+        "display_name": "Thom Rogers",
+        "link": "https://stackoverflow.com/users/1955720/thom-rogers"
+      }
+    },
+    {
+      "question_id": 27021440,
+      "title": "Python Requests: Don&#39;t wait for request to finish",
+      "accepted_answer_id": 27022707,
+      "score": 51,
+      "link": "https://stackoverflow.com/questions/27021440/python-requests-dont-wait-for-request-to-finish",
+      "owner": {
+        "display_name": "octosquidopus",
+        "link": "https://stackoverflow.com/users/908703/octosquidopus"
+      }
+    },
+    {
+      "question_id": 48105448,
+      "title": "Python HTTP Server/Client: Remote end closed connection without response error",
+      "accepted_answer_id": 48105794,
+      "score": 51,
+      "link": "https://stackoverflow.com/questions/48105448/python-http-server-client-remote-end-closed-connection-without-response-error",
+      "owner": {
+        "display_name": "Martin",
+        "link": "https://stackoverflow.com/users/9046350/martin"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 14804320,
+      "body": "<p>I know it's been said already, but I'd highly recommend the <a href=\"https://requests.readthedocs.io/\" rel=\"nofollow noreferrer\">Requests</a> Python package.</p>\n<p>If you've used languages other than Python, you're probably thinking <code>urllib</code> and <code>urllib2</code> are easy to use, not much code, and highly capable, that's how I used to think.  But the Requests package is so unbelievably useful and short that everyone should be using it.</p>\n<p>First, it supports a fully restful API, and is as easy as:</p>\n<pre><code>import requests\n\nresp = requests.get('http://www.mywebsite.com/user')\nresp = requests.post('http://www.mywebsite.com/user')\nresp = requests.put('http://www.mywebsite.com/user/put')\nresp = requests.delete('http://www.mywebsite.com/user/delete')\n</code></pre>\n<p>Regardless of whether GET / POST, you never have to encode parameters again, it simply takes a dictionary as an argument and is good to go:</p>\n<pre><code>userdata = {&quot;firstname&quot;: &quot;John&quot;, &quot;lastname&quot;: &quot;Doe&quot;, &quot;password&quot;: &quot;jdoe123&quot;}\nresp = requests.post('http://www.mywebsite.com/user', data=userdata)\n</code></pre>\n<p>Plus it even has a built in JSON decoder (again, I know <code>json.loads()</code> isn't a lot more to write, but this sure is convenient):</p>\n<pre><code>resp.json()\n</code></pre>\n<p>Or if your response data is just text, use:</p>\n<pre><code>resp.text\n</code></pre>\n<p>This is just the tip of the iceberg. This is the list of features from the Requests site:</p>\n<ul>\n<li>International Domains and URLs</li>\n<li>Keep-Alive &amp; Connection Pooling</li>\n<li>Sessions with Cookie Persistence</li>\n<li>Browser-style SSL Verification</li>\n<li>Basic/Digest Authentication</li>\n<li>Elegant Key/Value Cookies</li>\n<li>Automatic Decompression</li>\n<li>Unicode Response Bodies</li>\n<li>Multipart File Uploads</li>\n<li>Connection Timeouts</li>\n<li><a href=\"https://www.gnu.org/software/inetutils/manual/html_node/The-_002enetrc-file.html\" rel=\"nofollow noreferrer\">.netrc</a> support</li>\n<li>List item</li>\n<li>Python 3.10—3.14</li>\n<li>Thread-safe.</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Hutch",
+        "link": "https://stackoverflow.com/users/1933117/hutch"
+      }
+    },
+    {
+      "answer_id": 42982144,
+      "body": "<p>From <a href=\"https://stackoverflow.com/questions/10667960/python-requests-throwing-sslerror/33717517#33717517\">an answer to <em>Python Requests throwing SSLError</em></a>:</p>\n<p>To make Python's <em><a href=\"https://requests.readthedocs.io/en/latest/\" rel=\"nofollow noreferrer\">Requests</a></em> use the system <em>ca-certificates</em> bundle, it needs to be told to use it over its own embedded bundle</p>\n<pre class=\"lang-none prettyprint-override\"><code>export REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt\n</code></pre>\n<hr />\n<p><em>Requests</em> embeds its bundles here, for reference:</p>\n<pre class=\"lang-none prettyprint-override\"><code>/usr/local/lib/python2.7/site-packages/requests/cacert.pem\n/usr/lib/python3/dist-packages/requests/cacert.pem\n</code></pre>\n<p>Or in newer versions, use an additional package to obtain certificates from: <em><a href=\"https://github.com/certifi/python-certifi\" rel=\"nofollow noreferrer\">Certifi</a></em></p>\n<p>To verify from which file certificates are loaded, you can try:</p>\n<pre class=\"lang-none prettyprint-override\"><code>Python 3.8.5 (default, Jul 28 2020, 12:59:40)\n&gt;&gt;&gt; import certifi\n&gt;&gt;&gt; certifi.where()\n'/etc/ssl/certs/ca-certificates.crt'\n</code></pre>\n",
+      "owner": {
+        "display_name": "ThorSummoner",
+        "link": "https://stackoverflow.com/users/1695680/thorsummoner"
+      }
+    },
+    {
+      "answer_id": 16696317,
+      "body": "<p>The missing piece is to turn on streaming with <code>stream=True</code>—that's what tells Requests not to read the whole content into memory before you have a chance to look at it.</p>\n<p>With the following streaming code, the Python memory usage is restricted regardless of the size of the downloaded file:</p>\n<pre><code>def download_file(url):\n    local_filename = url.split('/')[-1]\n    # NOTE the stream=True parameter below\n    with requests.get(url, stream=True) as r:\n        r.raise_for_status()\n        with open(local_filename, 'wb') as f:\n            for chunk in r.iter_content(chunk_size=8192): \n                # If you have chunk encoded response uncomment if\n                # and set chunk_size parameter to None.\n                #if chunk: \n                f.write(chunk)\n    return local_filename\n</code></pre>\n<p>Note that the number of bytes returned using <code>iter_content</code> is not exactly the <code>chunk_size</code>; it's expected to be a random number that is often far bigger, and is expected to be different in every iteration.</p>\n<p>See <a href=\"https://requests.readthedocs.io/en/latest/user/advanced/#body-content-workflow\" rel=\"noreferrer\">body-content-workflow</a> and <a href=\"https://requests.readthedocs.io/en/latest/api/#requests.Response.iter_content\" rel=\"noreferrer\">Response.iter_content</a> for further reference.</p>\n",
+      "owner": {
+        "display_name": "Roman Podlinov",
+        "link": "https://stackoverflow.com/users/427457/roman-podlinov"
+      }
+    },
+    {
+      "answer_id": 37573701,
+      "body": "<p>I suggest you try <a href=\"https://github.com/tqdm/tqdm\" rel=\"nofollow noreferrer\"><code>tqdm</code></a>, it's very easy to use.\nExample code for downloading with <a href=\"http://docs.python-requests.org/en/master/\" rel=\"nofollow noreferrer\"><code>requests</code></a> library:</p>\n<pre class=\"lang-py prettyprint-override\"><code>from tqdm import tqdm\nimport requests\n\nurl = &quot;https://proof.ovh.net/files/10Mb.dat&quot;\nfilepath = &quot;test.dat&quot;\n\n# Streaming, so we can iterate over the response.\nresponse = requests.get(url, stream=True)\n\n# Sizes in bytes.\ntotal_size = int(response.headers.get(&quot;content-length&quot;, 0))\nblock_size = 1024\n\nwith tqdm(total=total_size, unit=&quot;B&quot;, unit_scale=True) as progress_bar:\n    with open(filepath, &quot;wb&quot;) as file:\n        for data in response.iter_content(block_size):\n            progress_bar.update(len(data))\n            file.write(data)\n\nif total_size != 0 and progress_bar.n != total_size:\n    raise RuntimeError(&quot;Could not download file&quot;)\n</code></pre>\n",
+      "owner": {
+        "display_name": "leovp",
+        "link": "https://stackoverflow.com/users/6223515/leovp"
+      }
+    },
+    {
+      "answer_id": 15115345,
+      "body": "<p>You need to include the protocol scheme:</p>\n<pre class=\"lang-none prettyprint-override\"><code>'http://192.168.1.61:8080/api/call'\n</code></pre>\n<p>Without the <code>http://</code> part, Requests doesn’t have any idea how to connect to the remote server.</p>\n<p>Note that the protocol scheme must be all lowercase; if your URL starts with <code>HTTP://</code> for example, it won’t find the <code>http://</code> connection adapter either.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 22096841,
+      "body": "<p>What about using 'eventlet'? If you want to timeout the request after 10 seconds, even if data is being received, this snippet will work for you:</p>\n<pre class=\"lang-python prettyprint-override\"><code>import requests\nimport eventlet\n\neventlet.monkey_patch()\n\nwith eventlet.Timeout(10):\n    requests.get(&quot;http://ipv4.download.thinkbroadband.com/1GB.zip&quot;, verify=False)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alvaro",
+        "link": "https://stackoverflow.com/users/550222/alvaro"
+      }
+    },
+    {
+      "answer_id": 9029372,
+      "body": "<p>Your code is correct. I tested:</p>\n<pre><code>r = requests.get(&quot;http://www.google.com&quot;)\nprint(r.content)\n</code></pre>\n<p>And it returned plenty of content.\nCheck the URL; try &quot;http://www.google.com&quot;.</p>\n",
+      "owner": {
+        "display_name": "Robert Peters",
+        "link": "https://stackoverflow.com/users/1169454/robert-peters"
+      }
+    },
+    {
+      "answer_id": 30405947,
+      "body": "<p>Try:</p>\n<pre class=\"lang-python prettyprint-override\"><code>r = requests.post(url, data=data, verify='/path/to/public_key.pem')\n</code></pre>\n",
+      "owner": {
+        "display_name": "krock",
+        "link": "https://stackoverflow.com/users/353852/krock"
+      }
+    },
+    {
+      "answer_id": 9189249,
+      "body": "<h2>Note</h2>\n<p>The below answer is <em>not</em> applicable to Requests v0.13.0 or later. The asynchronous functionality was moved to <a href=\"https://github.com/kennethreitz/grequests\" rel=\"nofollow noreferrer\">GRequests</a> after this question was written. However, you could just replace <code>requests</code> with <code>grequests</code> below and it should work.</p>\n<p>I've left this answer as is to reflect the original question which was about using requests &lt; v0.13.0.</p>\n<hr />\n<p>To do multiple tasks with <code>async.map</code> <em>asynchronously</em> you have to:</p>\n<ol>\n<li>Define a function for what you want to do with each object (your task)</li>\n<li>Add that function as an event hook in your request</li>\n<li>Call <code>async.map</code> on a list of all the requests / actions</li>\n</ol>\n<p>Example:</p>\n<pre><code>from requests import async\n# If using requests &gt; v0.13.0, use\n# from grequests import async\n\nurls = [\n    'http://python-requests.org',\n    'http://httpbin.org',\n    'http://python-guide.org',\n    'http://kennethreitz.com'\n]\n\n# A simple task to do to each response object\ndef do_something(response):\n    print response.url\n\n# A list to hold our things to do via async\nasync_list = []\n\nfor u in urls:\n    # The &quot;hooks = {...&quot; part is where you define what you want to do\n    #\n    # Note the lack of parentheses following do_something, this is\n    # because the response will be used as the first argument automatically\n    action_item = async.get(u, hooks = {'response' : do_something})\n\n    # Add the task to our list of things to do via async\n    async_list.append(action_item)\n\n# Do our list of things to do via async\nasync.map(async_list)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jeff",
+        "link": "https://stackoverflow.com/users/1006036/jeff"
+      }
+    },
+    {
+      "answer_id": 15900453,
+      "body": "<p><code>params</code> is for <a href=\"https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods\" rel=\"nofollow noreferrer\">GET</a>-style URL parameters, and <code>data</code> is for <a href=\"https://en.wikipedia.org/wiki/POST_%28HTTP%29\" rel=\"nofollow noreferrer\">POST</a>-style body information. It is perfectly legal to provide <em>both</em> types of information in a request, and your request does so too, but you encoded the URL parameters into the URL already.</p>\n<p>Your raw post contains <em>JSON</em> data though. Requests can handle JSON encoding for you, and it'll set the correct <a href=\"https://en.wikipedia.org/wiki/MIME#Content-Type\" rel=\"nofollow noreferrer\"><code>Content-Type</code></a> header too; all you need to do is pass in the Python object to be encoded as JSON into the <code>json</code> keyword argument.</p>\n<p>You could split out the URL parameters as well:</p>\n<pre><code>params = {'sessionKey': '9ebbd0b25760557393a43064a92bae539d962103', 'format': 'xml', 'platformId': 1}\n</code></pre>\n<p>Then post your data with:</p>\n<pre><code>import requests\n\nurl = 'http://192.168.3.45:8080/api/v2/event/log'\n\ndata = {&quot;eventType&quot;: &quot;AAS_PORTAL_START&quot;, &quot;data&quot;: {&quot;uid&quot;: &quot;hfe3hf45huf33545&quot;, &quot;aid&quot;: &quot;1&quot;, &quot;vid&quot;: &quot;1&quot;}}\nparams = {'sessionKey': '9ebbd0b25760557393a43064a92bae539d962103', 'format': 'xml', 'platformId': 1}\n\nrequests.post(url, params=params, json=data)\n</code></pre>\n<p>The <code>json</code> keyword is new in Requests version 2.4.2; if you still have to use an older version, encode the JSON manually using the <code>json</code> module and post the encoded result as the <code>data</code> key; you will have to explicitly set the <code>Content-Type</code> header in that case:</p>\n<pre><code>import requests\nimport json\n\nheaders = {'content-type': 'application/json'}\nurl = 'http://192.168.3.45:8080/api/v2/event/log'\n\ndata = {&quot;eventType&quot;: &quot;AAS_PORTAL_START&quot;, &quot;data&quot;: {&quot;uid&quot;: &quot;hfe3hf45huf33545&quot;, &quot;aid&quot;: &quot;1&quot;, &quot;vid&quot;: &quot;1&quot;}}\nparams = {'sessionKey': '9ebbd0b25760557393a43064a92bae539d962103', 'format': 'xml', 'platformId': 1}\n\nrequests.post(url, params=params, data=json.dumps(data), headers=headers)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 8287752,
+      "body": "<p>The <code>proxies</code>' dict syntax is <code>{&quot;protocol&quot;: &quot;scheme://ip:port&quot;, ...}</code>.  With it you can specify different (or the same) proxie(s) for requests using the <a href=\"https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol\" rel=\"nofollow noreferrer\">HTTP</a>, <a href=\"https://en.wikipedia.org/wiki/HTTPS\" rel=\"nofollow noreferrer\">HTTPS</a>, and <a href=\"https://en.wikipedia.org/wiki/File_Transfer_Protocol\" rel=\"nofollow noreferrer\">FTP</a> protocols:</p>\n<pre class=\"lang-python prettyprint-override\"><code>http_proxy  = &quot;http://10.10.1.10:3128&quot;\nhttps_proxy = &quot;https://10.10.1.11:1080&quot;\nftp_proxy   = &quot;ftp://10.10.1.10:3128&quot;\n\nproxies = {\n              &quot;http&quot;  : http_proxy,\n              &quot;https&quot; : https_proxy,\n              &quot;ftp&quot;   : ftp_proxy\n            }\n\nr = requests.get(url, headers=headers, proxies=proxies)\n</code></pre>\n<p>Deduced from the <a href=\"https://requests.readthedocs.io/en/latest/api/#requests.request\" rel=\"nofollow noreferrer\">Requests documentation</a>:</p>\n<blockquote>\n<p><strong>Parameters:</strong> <br />\n<code>method</code> – method for the new Request object. <br />\n<code>url</code> – URL for the new Request object. <br />\n... <br />\n<code>proxies</code> – (optional) Dictionary <em>mapping</em> <strong>protocol</strong> to the <strong>URL of the proxy</strong>. <br />\n...</p>\n</blockquote>\n<hr />\n<p>On Linux, you can also do this via the <code>HTTP_PROXY</code>, <code>HTTPS_PROXY</code>, and <code>FTP_PROXY</code> environment variables:</p>\n<pre class=\"lang-none prettyprint-override\"><code>export HTTP_PROXY=10.10.1.10:3128\nexport HTTPS_PROXY=10.10.1.11:1080\nexport FTP_PROXY=10.10.1.10:3128\n</code></pre>\n<p>On Windows:</p>\n<pre class=\"lang-none prettyprint-override\"><code>set http_proxy=10.10.1.10:3128\nset https_proxy=10.10.1.11:1080\nset ftp_proxy=10.10.1.10:3128\n</code></pre>\n",
+      "owner": {
+        "display_name": "chown",
+        "link": "https://stackoverflow.com/users/836407/chown"
+      }
+    },
+    {
+      "answer_id": 11092043,
+      "body": "<p>If the package is on PyPI, download it and its dependencies to some local directory.</p>\n<p>E.g.,</p>\n<pre class=\"lang-none prettyprint-override\"><code>mkdir /pypi &amp;&amp; cd /pypi\nls -la\n</code></pre>\n<p>Output:</p>\n<pre class=\"lang-none prettyprint-override\"><code>  -rw-r--r--   1 pavel  staff   237954 Apr 19 11:31 Flask-WTF-0.6.tar.gz\n  -rw-r--r--   1 pavel  staff   389741 Feb 22 17:10 Jinja2-2.6.tar.gz\n  -rw-r--r--   1 pavel  staff    70305 Apr 11 00:28 MySQL-python-1.2.3.tar.gz\n  -rw-r--r--   1 pavel  staff  2597214 Apr 10 18:26 SQLAlchemy-0.7.6.tar.gz\n  -rw-r--r--   1 pavel  staff  1108056 Feb 22 17:10 Werkzeug-0.8.2.tar.gz\n  -rw-r--r--   1 pavel  staff   488207 Apr 10 18:26 boto-2.3.0.tar.gz\n  -rw-r--r--   1 pavel  staff   490192 Apr 16 12:00 flask-0.9-dev-2a6c80a.tar.gz\n</code></pre>\n<p>Some packages may have to be archived into similar looking tarballs by hand. I do it a lot when I want a more recent (less stable) version of something. Some packages aren't on PyPI, so same applies to them.</p>\n<p>Suppose you have a properly formed Python application in <code>~/src/myapp</code>. <code>~/src/myapp/setup.py</code> will have <code>install_requires</code> list that mentions one or more things that you have in your <code>/pypi</code> directory.</p>\n<p>Like so:</p>\n<pre class=\"lang-python prettyprint-override\"><code>  install_requires = [\n    'boto',\n    'Flask',\n    'Werkzeug',\n    # And so on\n</code></pre>\n<p>If you want to be able to run your application with all the necessary dependencies while still hacking on it, you'll do something like this:</p>\n<pre class=\"lang-none prettyprint-override\"><code>cd ~/src/myapp\npython setup.py develop --always-unzip --allow-hosts=None --find-links=/pypi\n</code></pre>\n<p>This way, your application will be executed straight from your source directory. You can hack on things, and then rerun the application without rebuilding anything.</p>\n<p>If you want to install your application and its dependencies into the current python environment, you'll do something like this:</p>\n<pre class=\"lang-none prettyprint-override\"><code>cd ~/src/myapp\neasy_install --always-unzip --allow-hosts=None --find-links=/pypi .\n</code></pre>\n<p>In both cases, the build will fail if one or more dependencies aren't present in the <em>/pypi</em> directory. It won't attempt to promiscuously install missing things from Internet.</p>\n<p>I highly recommend to invoke <code>setup.py develop ...</code> and <code>easy_install ...</code> within an active <a href=\"http://www.virtualenv.org/en/latest/index.html\" rel=\"nofollow noreferrer\">virtual environment</a> to avoid contaminating your global Python environment. It is (virtualenv that is) pretty much the way to go. Never install anything into global Python environment.</p>\n<p>If the machine that you've built your application has same architecture as the machine on which you want to deploy it, you can simply tarball the entire virtual environment directory into which you <code>easy_install</code>-ed everything. Just before tarballing though, you must make the virtual environment directory relocatable (see the <a href=\"http://www.virtualenv.org/en/latest/index.html#making-environments-relocatable\" rel=\"nofollow noreferrer\"><code>--relocatable</code></a> option).</p>\n<p><em><strong>Note:</strong></em> the destination machine needs to have the same version of Python installed, and also any C-based dependencies your application may have must be preinstalled there too (e.g., say if you depend on <a href=\"http://www.pythonware.com/products/pil/\" rel=\"nofollow noreferrer\">PIL</a>, then libpng, libjpeg, etc. must be preinstalled).</p>\n",
+      "owner": {
+        "display_name": "Pavel Repin",
+        "link": "https://stackoverflow.com/users/43151/pavel-repin"
+      }
+    },
+    {
+      "answer_id": 8685813,
+      "body": "<p>From Requests' <em><a href=\"https://docs.python-requests.org/en/latest/user/quickstart/\" rel=\"nofollow noreferrer\">Quickstart</a></em>:</p>\n<pre class=\"lang-python prettyprint-override\"><code>url = 'https://api.github.com/some/endpoint'\npayload = {'some': 'data'}\nheaders = {'content-type': 'application/json'}\n\nr = requests.post(url, data=json.dumps(payload), headers=headers)\n</code></pre>\n<p>You just need to create a dict with your headers (key: value pairs where the key is the name of the header and the value is, well, the value of the pair) and pass that dict to the headers parameter on the <code>.get</code> or <code>.post</code> method.</p>\n<p>So more specific to your question:</p>\n<pre class=\"lang-python prettyprint-override\"><code>headers = {'foobar': 'raboof'}\nrequests.get('http://himom.com', headers=headers)\n</code></pre>\n",
+      "owner": {
+        "display_name": "tkone",
+        "link": "https://stackoverflow.com/users/269581/tkone"
+      }
+    },
+    {
+      "answer_id": 6260526,
+      "body": "<p>According to <a href=\"https://requests.readthedocs.io/en/latest/api/\" rel=\"noreferrer\">the API</a>, the headers can all be passed in with <code>requests.get()</code>:</p>\n<pre class=\"lang-python prettyprint-override\"><code>import requests\n\nr = requests.get(&quot;http://www.example.com/&quot;, headers={&quot;Content-Type&quot;:&quot;text&quot;})\n</code></pre>\n",
+      "owner": {
+        "display_name": "cwallenpoole",
+        "link": "https://stackoverflow.com/users/57191/cwallenpoole"
+      }
+    },
+    {
+      "answer_id": 11892838,
+      "body": "<h3>If the information you want is on the page you are directed to immediately after login...</h3>\n<p>Let’s call your <code>ck</code> variable <code>payload</code> instead, like in the <a href=\"http://docs.python-requests.org/en/latest/user/quickstart/#more-complicated-post-requests\" rel=\"nofollow noreferrer\">python-requests</a> documentation:</p>\n<pre class=\"lang-python prettyprint-override\"><code>payload = {'inUserName': 'USERNAME/EMAIL', 'inUserPass': 'PASSWORD'}\nurl = 'http://www.locationary.com/home/index2.jsp'\nrequests.post(url, data=payload)\n</code></pre>\n<h3>Otherwise...</h3>\n<p>See <a href=\"https://stackoverflow.com/a/17633072/111362\">tigerFinch's answer</a>.</p>\n",
+      "owner": {
+        "display_name": "katy lavallee",
+        "link": "https://stackoverflow.com/users/111362/katy-lavallee"
+      }
+    },
+    {
+      "answer_id": 26344315,
+      "body": "<p>Starting with Requests version 2.4.2, you can use the <a href=\"https://requests.readthedocs.io/en/master/user/quickstart/#more-complicated-post-requests\" rel=\"noreferrer\"><code>json=</code> parameter</a> (which takes a dictionary) instead of <code>data=</code> (which takes a string) in the call:</p>\n<pre class=\"lang-py prettyprint-override\"><code>&gt;&gt;&gt; import requests\n&gt;&gt;&gt; r = requests.post('http://httpbin.org/post', json={&quot;key&quot;: &quot;value&quot;})\n&gt;&gt;&gt; r.status_code\n200\n&gt;&gt;&gt; r.json()\n{'args': {},\n 'data': '{&quot;key&quot;: &quot;value&quot;}',\n 'files': {},\n 'form': {},\n 'headers': {'Accept': '*/*',\n             'Accept-Encoding': 'gzip, deflate',\n             'Connection': 'close',\n             'Content-Length': '16',\n             'Content-Type': 'application/json',\n             'Host': 'httpbin.org',\n             'User-Agent': 'python-requests/2.4.3 CPython/3.4.0',\n             'X-Request-Id': 'xx-xx-xx'},\n 'json': {'key': 'value'},\n 'origin': 'x.x.x.x',\n 'url': 'http://httpbin.org/post'}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Zeyang Lin",
+        "link": "https://stackoverflow.com/users/1803742/zeyang-lin"
+      }
+    },
+    {
+      "answer_id": 15445989,
+      "body": "<p>From <a href=\"https://requests.readthedocs.io/en/latest/user/advanced/#ssl-cert-verification\" rel=\"noreferrer\">the documentation</a>:</p>\n<blockquote>\n<p><code>requests</code> can also ignore verifying the SSL certificate if you set\n<code>verify</code> to False.</p>\n<pre class=\"lang-none prettyprint-override\"><code>&gt;&gt;&gt; requests.get('https://kennethreitz.com', verify=False)\n&lt;Response [200]&gt;\n</code></pre>\n</blockquote>\n<p>If you're using a third-party module and want to disable the checks, here's a context manager that monkey patches <code>requests</code> and changes it so that <code>verify=False</code> is the default and suppresses the warning.</p>\n<pre class=\"lang-python prettyprint-override\"><code>import warnings\nimport contextlib\n\nimport requests\nfrom urllib3.exceptions import InsecureRequestWarning\n\nold_merge_environment_settings = requests.Session.merge_environment_settings\n\n@contextlib.contextmanager\ndef no_ssl_verification():\n    opened_adapters = set()\n\n    def merge_environment_settings(self, url, proxies, stream, verify, cert):\n        # Verification happens only once per connection so we need to close\n        # all the opened adapters once we're done. Otherwise, the effects of\n        # verify=False persist beyond the end of this context manager.\n        opened_adapters.add(self.get_adapter(url))\n\n        settings = old_merge_environment_settings(self, url, proxies, stream, verify, cert)\n        settings['verify'] = False\n\n        return settings\n\n    requests.Session.merge_environment_settings = merge_environment_settings\n\n    try:\n        with warnings.catch_warnings():\n            warnings.simplefilter('ignore', InsecureRequestWarning)\n            yield\n    finally:\n        requests.Session.merge_environment_settings = old_merge_environment_settings\n\n        for adapter in opened_adapters:\n            try:\n                adapter.close()\n            except:\n                pass\n</code></pre>\n<p>Here's how you use it:</p>\n<pre class=\"lang-python prettyprint-override\"><code>with no_ssl_verification():\n    requests.get('https://wrong.host.badssl.example/')\n    print('It works')\n\n    requests.get('https://wrong.host.badssl.example/', verify=True)\n    print('Even if you try to force it to')\n\nrequests.get('https://wrong.host.badssl.example/', verify=False)\nprint('It resets back')\n\nsession = requests.Session()\nsession.verify = True\n\nwith no_ssl_verification():\n    session.get('https://wrong.host.badssl.example/', verify=True)\n    print('Works even here')\n\ntry:\n    requests.get('https://wrong.host.badssl.example/')\nexcept requests.exceptions.SSLError:\n    print('It breaks')\n\ntry:\n    session.get('https://wrong.host.badssl.example/')\nexcept requests.exceptions.SSLError:\n    print('It breaks here again')\n</code></pre>\n<p>Note that this code closes all open adapters that handled a patched request once you leave the context manager. This is because requests maintains a per-session connection pool and certificate validation happens only once per connection so unexpected things like this will happen:</p>\n<pre class=\"lang-none prettyprint-override\"><code>&gt;&gt;&gt; import requests\n&gt;&gt;&gt; session = requests.Session()\n&gt;&gt;&gt; session.get('https://wrong.host.badssl.example/', verify=False)\n/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py:857: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings\n  InsecureRequestWarning)\n&lt;Response [200]&gt;\n&gt;&gt;&gt; session.get('https://wrong.host.badssl.example/', verify=True)\n/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py:857: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings\n  InsecureRequestWarning)\n&lt;Response [200]&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Blender",
+        "link": "https://stackoverflow.com/users/464744/blender"
+      }
+    },
+    {
+      "answer_id": 16630836,
+      "body": "<p>A simple method: enable logging in recent versions of Requests (1.x and higher.)</p>\n<p>Requests uses the <code>http.client</code> and <code>logging</code> module configuration to control logging verbosity, as described <a href=\"https://requests.readthedocs.io/en/master/api/#api-changes\" rel=\"nofollow noreferrer\">here</a>.</p>\n<h2>Demonstration</h2>\n<p>Code excerpted from the linked documentation:</p>\n<pre class=\"lang-python prettyprint-override\"><code>import requests\nimport logging\n\n# These two lines enable debugging at httplib level (requests-&gt;urllib3-&gt;http.client)\n# You will see the REQUEST, including HEADERS and DATA, and RESPONSE with HEADERS but without DATA.\n# The only thing missing will be the response.body which is not logged.\ntry:\n    import http.client as http_client\nexcept ImportError:\n    # Python 2\n    import httplib as http_client\nhttp_client.HTTPConnection.debuglevel = 1\n\n# You must initialize logging, otherwise you'll not see debug output.\nlogging.basicConfig()\nlogging.getLogger().setLevel(logging.DEBUG)\nrequests_log = logging.getLogger(&quot;requests.packages.urllib3&quot;)\nrequests_log.setLevel(logging.DEBUG)\nrequests_log.propagate = True\n\nrequests.get('https://httpbin.org/headers')\n</code></pre>\n<h2>Example Output</h2>\n<pre class=\"lang-none prettyprint-override\"><code>python requests-logging.py\n</code></pre>\n<p>Output:</p>\n<pre class=\"lang-none prettyprint-override\"><code>INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): httpbin.org\nsend: 'GET /headers HTTP/1.1\\r\\nHost: httpbin.org\\r\\nAccept-Encoding: gzip, deflate, compress\\r\\nAccept: */*\\r\\nUser-Agent: python-requests/1.2.0 CPython/2.7.3 Linux/3.2.0-48-generic\\r\\n\\r\\n'\nreply: 'HTTP/1.1 200 OK\\r\\n'\nheader: Content-Type: application/json\nheader: Date: Sat, 29 Jun 2013 11:19:34 GMT\nheader: Server: gunicorn/0.17.4\nheader: Content-Length: 226\nheader: Connection: keep-alive\nDEBUG:requests.packages.urllib3.connectionpool:&quot;GET /headers HTTP/1.1&quot; 200 226\n</code></pre>\n",
+      "owner": {
+        "display_name": "Inactivist",
+        "link": "https://stackoverflow.com/users/1309774/inactivist"
+      }
+    },
+    {
+      "answer_id": 54087354,
+      "body": "<p>According to the <a href=\"https://requests.readthedocs.io/en/latest/user/quickstart/?highlight=status_code#response-status-codes\" rel=\"nofollow noreferrer\">docs</a>, there's a <code>status_code</code> property on the response object. So you can do the following:</p>\n<pre class=\"lang-py prettyprint-override\"><code>if resp.status_code == 200:\n    print ('OK!')\nelse:\n    print ('Boo!')\n</code></pre>\n<p>As others have pointed out, a simpler check might be to use the <a href=\"https://requests.readthedocs.io/en/latest/api/#requests.Response.ok\" rel=\"nofollow noreferrer\"><code>ok</code> property</a>:</p>\n<pre class=\"lang-py prettyprint-override\"><code>if resp.ok:\n    print ('OK!')\nelse:\n    print ('Boo!')\n</code></pre>\n<p>That is, if you want to consider all <code>2xx</code> response codes and not <code>200</code> explicitly.\nYou may also want to check Peter's <a href=\"https://stackoverflow.com/a/58465267/3761628\">answer</a> for a more pythonic way to do this.</p>\n",
+      "owner": {
+        "display_name": "eol",
+        "link": "https://stackoverflow.com/users/3761628/eol"
+      }
+    },
+    {
+      "answer_id": 28521696,
+      "body": "<p>The only way I'm currently aware of for disabling proxies <em>entirely</em> is the following:</p>\n<ul>\n<li>Create a session</li>\n<li>Set <code>session.trust_env</code> to <code>False</code></li>\n<li>Create your request using that session</li>\n</ul>\n\n<pre><code>import requests\n\nsession = requests.Session()\nsession.trust_env = False\n\nresponse = session.get('http://www.stackoverflow.com')\n</code></pre>\n<p>This is based on <a href=\"https://github.com/kennethreitz/requests/issues/879#issuecomment-10472633\" rel=\"nofollow noreferrer\">this comment by Lukasa</a> and the (limited) documentation for <a href=\"http://docs.python-requests.org/en/latest/api/#requests.Session.trust_env\" rel=\"nofollow noreferrer\"><code>requests.Session.trust_env</code></a>.</p>\n<p><strong>Note:</strong> Setting <code>trust_env</code> to <code>False</code> also ignores the following:</p>\n<ul>\n<li>Authentication information from <code>.netrc</code> (<a href=\"https://github.com/psf/requests/blob/91a3eabd3dcc4d7f36dd8249e4777a90ef9b4305/src/requests/sessions.py#L481\" rel=\"nofollow noreferrer\">code</a>)</li>\n<li>CA bundles defined in <code>REQUESTS_CA_BUNDLE</code> or <code>CURL_CA_BUNDLE</code> (<a href=\"https://github.com/psf/requests/blob/91a3eabd3dcc4d7f36dd8249e4777a90ef9b4305/src/requests/sessions.py#L768-L769\" rel=\"nofollow noreferrer\">code</a>)</li>\n</ul>\n<hr />\n<p>If however you only want to disable proxies for a particular domain (like <code>localhost</code>), you can use the <a href=\"http://www.gnu.org/software/wget/manual/html_node/Proxies.html\" rel=\"nofollow noreferrer\"><code>NO_PROXY</code> environment variable</a>:</p>\n<pre><code>import os\nimport requests\n\nos.environ['NO_PROXY'] = 'stackoverflow.com'\n\nresponse = requests.get('http://www.stackoverflow.com')\n</code></pre>\n",
+      "owner": {
+        "display_name": "Lukas Graf",
+        "link": "https://stackoverflow.com/users/1599111/lukas-graf"
+      }
+    },
+    {
+      "answer_id": 22414756,
+      "body": "<p>To use requests (or any other blocking libraries) with asyncio, you can use <a href=\"http://docs.python.org/3.4/library/asyncio-eventloop.html#asyncio.BaseEventLoop.run_in_executor\" rel=\"nofollow noreferrer\">BaseEventLoop.run_in_executor</a> to run a function in another thread and yield from it to get the result. For example:</p>\n<pre class=\"lang-py prettyprint-override\"><code>import asyncio\nimport requests\n\n@asyncio.coroutine\ndef main():\n    loop = asyncio.get_event_loop()\n    future1 = loop.run_in_executor(None, requests.get, 'http://www.google.com')\n    future2 = loop.run_in_executor(None, requests.get, 'http://www.google.co.uk')\n    response1 = yield from future1\n    response2 = yield from future2\n    print(response1.text)\n    print(response2.text)\n\nasyncio.run(main())\n</code></pre>\n<p>This will get both responses in parallel.</p>\n<p>With python 3.5 you can use the new <code>await</code>/<code>async</code> syntax:</p>\n<pre class=\"lang-py prettyprint-override\"><code>import asyncio\nimport requests\n\nasync def main():\n    loop = asyncio.get_event_loop()\n    response1 = await loop.run_in_executor(None, requests.get, 'http://www.google.com')\n    response2 = await loop.run_in_executor(None, requests.get, 'http://www.google.co.uk')\n    print(response1.text)\n    print(response2.text)\n\nasyncio.run(main())\n</code></pre>\n<p>See <a href=\"https://www.python.org/dev/peps/pep-0492/\" rel=\"nofollow noreferrer\">PEP0492</a> for more.</p>\n",
+      "owner": {
+        "display_name": "christian",
+        "link": "https://stackoverflow.com/users/2762644/christian"
+      }
+    },
+    {
+      "answer_id": 54619932,
+      "body": "<p>Use the <code>timeout</code> parameter:</p>\n<pre><code>r = requests.post(url, data=payload, timeout=1.5)\n</code></pre>\n<p><a href=\"https://requests.readthedocs.io/en/latest/user/advanced/#timeouts\" rel=\"noreferrer\">Requests documentation: Timeouts</a></p>\n<blockquote>\n<p>Note: <code>timeout</code> is not a time limit on the entire response download;\nrather, an exception is raised if the server has not issued a response\nfor <code>timeout</code> seconds (more precisely, if no bytes have been received on\nthe underlying socket for <code>timeout</code> seconds). If no timeout is specified\nexplicitly, requests do not time out.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "JacobIRR",
+        "link": "https://stackoverflow.com/users/4225229/jacobirr"
+      }
+    },
+    {
+      "answer_id": 44203507,
+      "body": "<p>From <a href=\"https://requests.readthedocs.io/en/latest/user/quickstart/#response-content\" rel=\"nofollow noreferrer\">requests documentation</a>:</p>\n<blockquote>\n<p>When you make a request, Requests makes educated guesses about the encoding of the response based on the HTTP headers. The text encoding guessed by Requests is used when you access r.text. You can find out what encoding Requests is using, and change it, using the r.encoding property.</p>\n</blockquote>\n<pre><code>&gt;&gt;&gt; r.encoding\n'utf-8'\n&gt;&gt;&gt; r.encoding = 'ISO-8859-1'\n</code></pre>\n<p>Check the encoding requests used for your page, and if it's not the right one - try to force it to be the one you need.</p>\n<p>Regarding the differences between <code>requests</code> and <code>urllib.urlopen</code> - they probably use different ways to guess the encoding. Thats all.</p>\n",
+      "owner": {
+        "display_name": "Dekel",
+        "link": "https://stackoverflow.com/users/5037551/dekel"
+      }
+    },
+    {
+      "answer_id": 16511493,
+      "body": "<p>Have a look at the Requests <a href=\"https://requests.readthedocs.io/en/latest/user/quickstart.html#errors-and-exceptions\" rel=\"noreferrer\">exception docs</a>.  In short:</p>\n<blockquote>\n<p>In the event of a network problem (e.g. DNS failure, refused connection, etc), Requests will raise a <strong><code>ConnectionError</code></strong> exception.</p>\n<p>In the event of the rare invalid HTTP response, Requests will raise an <strong><code>HTTPError</code></strong> exception.</p>\n<p>If a request times out, a <strong><code>Timeout</code></strong> exception is raised.</p>\n<p>If a request exceeds the configured number of maximum redirections, a <strong><code>TooManyRedirects</code></strong> exception is raised.</p>\n<p>All exceptions that Requests explicitly raises inherit from <strong><code>requests.exceptions.RequestException</code></strong>.</p>\n</blockquote>\n<p>To answer your question, what you show will <em>not</em> cover all of your bases. You'll only catch connection-related errors, not ones that time out.</p>\n<p>What to do when you catch the exception is really up to the design of your script/program. Is it acceptable to exit? Can you go on and try again?  If the error is catastrophic and you can't go on, then yes, you may abort your program by raising <a href=\"https://docs.python.org/3/library/exceptions.html#SystemExit\" rel=\"noreferrer\">SystemExit</a> (a nice way to both print an error and call <code>sys.exit</code>).</p>\n<p>You can either catch the base-class exception, which will handle all cases:</p>\n<pre><code>try:\n    r = requests.get(url, params={'s': thing})\nexcept requests.exceptions.RequestException as e:  # This is the correct syntax\n    raise SystemExit(e)\n</code></pre>\n<p>Or you can catch them separately and do different things.</p>\n<pre><code>try:\n    r = requests.get(url, params={'s': thing})\nexcept requests.exceptions.Timeout:\n    # Maybe set up for a retry, or continue in a retry loop\nexcept requests.exceptions.TooManyRedirects:\n    # Tell the user their URL was bad and try a different one\nexcept requests.exceptions.RequestException as e:\n    # catastrophic error. bail.\n    raise SystemExit(e)\n</code></pre>\n<hr />\n<p>As <a href=\"https://stackoverflow.com/users/456550/christian-long\">Christian</a> pointed out:</p>\n<blockquote>\n<p>If you want http errors (e.g. 401 Unauthorized) to raise exceptions, you can call <a href=\"https://requests.readthedocs.io/en/latest/api/#requests.Response.raise_for_status\" rel=\"noreferrer\"><code>Response.raise_for_status</code></a>. That will raise an <code>HTTPError</code>, if the response was an http error.</p>\n</blockquote>\n<p>An example:</p>\n<pre><code>try:\n    r = requests.get('http://www.google.com/nothere')\n    r.raise_for_status()\nexcept requests.exceptions.HTTPError as err:\n    raise SystemExit(err)\n</code></pre>\n<p>Will print:</p>\n<pre class=\"lang-none prettyprint-override\"><code>404 Client Error: Not Found for url: http://www.google.com/nothere\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jonathon Reinhart",
+        "link": "https://stackoverflow.com/users/119527/jonathon-reinhart"
+      }
+    },
+    {
+      "answer_id": 25092059,
+      "body": "<p>Alternatively, you can use <a href=\"https://requests.readthedocs.io/en/latest/user/advanced.html#session-objects\" rel=\"noreferrer\"><code>requests.Session</code></a> and observe <code>cookies</code> before and after a request:</p>\n<pre><code>&gt;&gt;&gt; import requests\n&gt;&gt;&gt; session = requests.Session()\n&gt;&gt;&gt; print(session.cookies.get_dict())\n{}\n&gt;&gt;&gt; response = session.get('http://google.com')\n&gt;&gt;&gt; print(session.cookies.get_dict())\n{'PREF': 'ID=5514c728c9215a9a:FF=0:TM=1406958091:LM=1406958091:S=KfAG0U9jYhrB0XNf', 'NID': '67=TVMYiq2wLMNvJi5SiaONeIQVNqxSc2RAwVrCnuYgTQYAHIZAGESHHPL0xsyM9EMpluLDQgaj3db_V37NjvshV-eoQdA8u43M8UwHMqZdL-S2gjho8j0-Fe1XuH5wYr9v'}\n</code></pre>\n",
+      "owner": {
+        "display_name": "alecxe",
+        "link": "https://stackoverflow.com/users/771848/alecxe"
+      }
+    },
+    {
+      "answer_id": 19569090,
+      "body": "<p>Ok, found it:</p>\n<blockquote>\n<p>If a tuple is returned the items in the tuple can provide extra information. Such tuples have to be in the form (response, status, headers). The status value will override the status code and headers can be a list or dictionary of additional header values.</p>\n</blockquote>\n<p>(<a href=\"http://flask.pocoo.org/docs/quickstart/#about-responses\" rel=\"noreferrer\">Flask docs</a>.)</p>\n<p>So</p>\n<pre><code>return resp.content, resp.status_code, resp.headers.items()\n</code></pre>\n<p>seems to do the trick.</p>\n",
+      "owner": {
+        "display_name": "Fred Foo",
+        "link": "https://stackoverflow.com/users/166749/fred-foo"
+      }
+    },
+    {
+      "answer_id": 23816211,
+      "body": "<p><a href=\"https://docs.python-requests.org/en/latest/api/#requests.PreparedRequest\" rel=\"noreferrer\">Since v1.2.3</a> Requests added the PreparedRequest object. As per the documentation &quot;it contains the exact bytes that will be sent to the server&quot;.</p>\n<p>One can use this to pretty print a request, like so:</p>\n<pre><code>import requests\n\nreq = requests.Request('POST','http://stackoverflow.com',headers={'X-Custom':'Test'},data='a=1&amp;b=2')\nprepared = req.prepare()\n\ndef pretty_print_POST(req):\n    &quot;&quot;&quot;\n    At this point it is completely built and ready\n    to be fired; it is &quot;prepared&quot;.\n\n    However pay attention at the formatting used in \n    this function because it is programmed to be pretty \n    printed and may differ from the actual request.\n    &quot;&quot;&quot;\n    print('{}\\n{}\\r\\n{}\\r\\n\\r\\n{}'.format(\n        '-----------START-----------',\n        req.method + ' ' + req.url,\n        '\\r\\n'.join('{}: {}'.format(k, v) for k, v in req.headers.items()),\n        req.body,\n    ))\n\npretty_print_POST(prepared)\n</code></pre>\n<p>which produces:</p>\n<pre><code>-----------START-----------\nPOST http://stackoverflow.com/\nContent-Length: 7\nX-Custom: Test\n\na=1&amp;b=2\n</code></pre>\n<p>Then you can send the actual request with this:</p>\n<pre><code>s = requests.Session()\ns.send(prepared)\n</code></pre>\n<p>These links are to the latest documentation available, so they might change in content:\n<a href=\"https://docs.python-requests.org/en/latest/user/advanced/#prepared-requests\" rel=\"noreferrer\">Advanced - Prepared requests</a> and <a href=\"https://docs.python-requests.org/en/latest/api/#lower-level-classes\" rel=\"noreferrer\">API - Lower level classes</a></p>\n",
+      "owner": {
+        "display_name": "AntonioHerraizS",
+        "link": "https://stackoverflow.com/users/251509/antonioherraizs"
+      }
+    },
+    {
+      "answer_id": 15431343,
+      "body": "<p>It is the underlying <code>urllib3</code> library that does the retrying. To set a different maximum retry count, use <a href=\"https://requests.readthedocs.io/en/latest/user/advanced/#transport-adapters\" rel=\"noreferrer\">alternative transport adapters</a>:</p>\n<pre><code>from requests.adapters import HTTPAdapter\n\ns = requests.Session()\ns.mount('http://stackoverflow.com', HTTPAdapter(max_retries=5))\n</code></pre>\n<p>The <code>max_retries</code> argument takes an integer or a <a href=\"https://urllib3.readthedocs.io/en/latest/reference/urllib3.util.html#urllib3.util.Retry\" rel=\"noreferrer\"><code>Retry()</code> object</a>; the latter gives you fine-grained control over what kinds of failures are retried (an integer value is turned into a <code>Retry()</code> instance which only handles connection failures; errors after a connection is made are by default not handled as these could lead to side-effects).</p>\n<hr />\n<p><em>Old answer, predating the release of requests 1.2.1</em>:</p>\n<p>The <code>requests</code> library doesn't really make this configurable, nor does it intend to (see <a href=\"https://github.com/psf/requests/pull/1219\" rel=\"noreferrer\">this pull request</a>). Currently (requests 1.1), the retries count is set to 0. If you really want to set it to a higher value, you'll have to set this globally:</p>\n<pre><code>import requests\n\nrequests.adapters.DEFAULT_RETRIES = 5\n</code></pre>\n<p>This constant is not documented; use it at your own peril as future releases could change how this is handled.</p>\n<p><strong>Update</strong>: and this <em>did</em> change; in version 1.2.1 <a href=\"https://github.com/psf/requests/commit/36dcce1a06fe0a82d8522c7d4287fb3623722c6c\" rel=\"noreferrer\">the option to set the <code>max_retries</code> parameter</a> on the <a href=\"https://requests.readthedocs.io/en/latest/api/#requests.adapters.HTTPAdapter\" rel=\"noreferrer\"><code>HTTPAdapter()</code> class</a> was added, so that now you have to use alternative transport adapters, see above. The monkey-patch approach no longer works, unless you also patch the <code>HTTPAdapter.__init__()</code> defaults (very much not recommended).</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 26506633,
+      "body": "<p>It is indeed possible.</p>\n<p>Here is an example calling the Weather SOAP Service using plain requests lib:</p>\n<pre><code>import requests\nurl=&quot;http://wsf.cdyne.com/WeatherWS/Weather.asmx?WSDL&quot;\n#headers = {'content-type': 'application/soap+xml'}\nheaders = {'content-type': 'text/xml'}\nbody = &quot;&quot;&quot;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;\n         &lt;SOAP-ENV:Envelope xmlns:ns0=&quot;http://ws.cdyne.com/WeatherWS/&quot; xmlns:ns1=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; \n            xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;\n            &lt;SOAP-ENV:Header/&gt;\n              &lt;ns1:Body&gt;&lt;ns0:GetWeatherInformation/&gt;&lt;/ns1:Body&gt;\n         &lt;/SOAP-ENV:Envelope&gt;&quot;&quot;&quot;\n\nresponse = requests.post(url,data=body,headers=headers)\nprint response.content\n</code></pre>\n<p><strong>Some notes:</strong></p>\n<ul>\n<li>The headers are important. Most SOAP requests will not work without the correct headers. <code>application/soap+xml</code> is probably the more <em>correct</em> header to use (but the weatherservice prefers <code>text/xml</code></li>\n<li>This will return the response as a string of xml - you would then need to parse that xml.</li>\n<li>For simplicity I have included the request as plain text. But best practise would be to store this as a template, then you can load it using jinja2 (for example) - and also pass in variables.</li>\n</ul>\n<p><strong>For example:</strong></p>\n<pre><code>from jinja2 import Environment, PackageLoader\nenv = Environment(loader=PackageLoader('myapp', 'templates'))\ntemplate = env.get_template('soaprequests/WeatherSericeRequest.xml')\nbody = template.render()\n</code></pre>\n<p>Some people have mentioned the suds library. Suds is probably the more <em>correct</em> way to be interacting with SOAP, but I often find that it panics a little when you have WDSLs that are badly formed (which, TBH, is more likely than not when you're dealing with an institution that still uses SOAP ;) ).</p>\n<p><strong>You can do the above with suds like so:</strong></p>\n<pre><code>from suds.client import Client\nurl=&quot;http://wsf.cdyne.com/WeatherWS/Weather.asmx?WSDL&quot;\nclient = Client(url)\nprint client ## shows the details of this service\n\nresult = client.service.GetWeatherInformation() \nprint result \n</code></pre>\n<p><strong>Note:</strong> when using suds, you will almost always end up needing to <a href=\"https://suds.readthedocs.io/en/latest/README.html#fixing-broken-schema-s\" rel=\"noreferrer\">use the doctor</a>.</p>\n<p>Finally, a little bonus for debugging SOAP; TCPdump is your friend. On Mac, you can run TCPdump like so:</p>\n<pre><code>sudo tcpdump -As 0 \n</code></pre>\n<p>This can be helpful for inspecting the requests that actually go over the wire.</p>\n<p><strong>The above two code snippets are also available as gists:</strong></p>\n<ul>\n<li><a href=\"https://gist.github.com/toast38coza/17e2ad6c2cfa2e96b0b1\" rel=\"noreferrer\">SOAP Request with requests</a></li>\n<li><a href=\"https://gist.github.com/toast38coza/c7342fcc1dd5762d4c02\" rel=\"noreferrer\">SOAP Request with suds</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "toast38coza",
+        "link": "https://stackoverflow.com/users/243806/toast38coza"
+      }
+    },
+    {
+      "answer_id": 61463451,
+      "body": "<p><a href=\"https://requests.readthedocs.io/en/latest/_modules/requests/models/#Response.raise_for_status\" rel=\"noreferrer\"><code>Response.raise_for_status()</code></a> is just a built-in method for checking status codes and does essentially the same thing as your first example.</p>\n<p>There is no &quot;better&quot; here, just about personal preference with flow control. My preference is toward try/except blocks for catching errors in any call, as this informs the future programmer that these conditions are some sort of error. If/else doesn't necessarily indicate an error when scanning code.</p>\n<hr />\n<p><strong>Edit:</strong> Here's my quick-and-dirty pattern.</p>\n<pre class=\"lang-py prettyprint-override\"><code>import time\nfrom http import HTTPStatus\n\nimport requests\nfrom requests.exceptions import HTTPError\n\nurl = &quot;https://theurl.com&quot;\nretries = 3\nretry_codes = [\n    HTTPStatus.TOO_MANY_REQUESTS,\n    HTTPStatus.INTERNAL_SERVER_ERROR,\n    HTTPStatus.BAD_GATEWAY,\n    HTTPStatus.SERVICE_UNAVAILABLE,\n    HTTPStatus.GATEWAY_TIMEOUT,\n]\n\nfor n in range(retries):\n    try:\n        response = requests.get(url)\n        response.raise_for_status()\n\n        break\n\n    except HTTPError as exc:\n        code = exc.response.status_code\n        \n        if code in retry_codes:\n            # retry after n seconds\n            time.sleep(n)\n            continue\n\n        raise\n      \n</code></pre>\n<p>However, in most scenarios, I subclass <code>requests.Session</code>, make a custom <code>HTTPAdapter</code> that handles exponential backoffs, and the above lives in an overridden <code>requests.Session.request</code> method. An example of that can be seen <a href=\"https://github.com/samamorgan/helpjuice/blob/master/helpjuice/client.py\" rel=\"noreferrer\">here</a>.</p>\n",
+      "owner": {
+        "display_name": "Sam Morgan",
+        "link": "https://stackoverflow.com/users/4881095/sam-morgan"
+      }
+    },
+    {
+      "answer_id": 15661226,
+      "body": "<p>The modern way:</p>\n<pre><code>pip install -U 'requests[socks]'\n</code></pre>\n<p>then</p>\n<pre><code>import requests\n\nresp = requests.get('http://go.to', \n                    proxies=dict(http='socks5://user:pass@host:port',\n                                 https='socks5://user:pass@host:port'))\n</code></pre>\n",
+      "owner": {
+        "display_name": "dvska",
+        "link": "https://stackoverflow.com/users/1303068/dvska"
+      }
+    },
+    {
+      "answer_id": 9054856,
+      "body": "<p>Assuming you did <code>import requests</code>, you want <code>requests.ConnectionError</code>. <code>ConnectionError</code> is an exception defined by <code>requests</code>. See the <a href=\"https://requests.readthedocs.io/en/latest/api/\" rel=\"noreferrer\">API documentation</a> here.</p>\n<p>Thus the code should be:</p>\n<pre><code>try:\n   requests.get('http://www.google.com')\nexcept requests.ConnectionError:\n   # handle the exception\n</code></pre>\n<hr />\n<p><sup>The original link to the Python v2 API documentation from the original answer no longer works.</sup></p>\n",
+      "owner": {
+        "display_name": "kindall",
+        "link": "https://stackoverflow.com/users/416467/kindall"
+      }
+    },
+    {
+      "answer_id": 22989322,
+      "body": "<p>As @WooParadog explained requests library doesn't know how to handle local files. Although, current version allows to define <a href=\"http://docs.python-requests.org/en/latest/user/advanced/?highlight=mount#transport-adapters\" rel=\"noreferrer\">transport adapters</a>.</p>\n<p>Therefore you can simply define you own adapter which will be able to handle local files, e.g.:</p>\n<pre><code>from requests_testadapter import Resp\nimport os\n\nclass LocalFileAdapter(requests.adapters.HTTPAdapter):\n    def build_response_from_file(self, request):\n        file_path = request.url[7:]\n        with open(file_path, 'rb') as file:\n            buff = bytearray(os.path.getsize(file_path))\n            file.readinto(buff)\n            resp = Resp(buff)\n            r = self.build_response(request, resp)\n\n            return r\n\n    def send(self, request, stream=False, timeout=None,\n             verify=True, cert=None, proxies=None):\n\n        return self.build_response_from_file(request)\n\nrequests_session = requests.session()\nrequests_session.mount('file://', LocalFileAdapter())\nrequests_session.get('file://&lt;some_local_path&gt;')\n</code></pre>\n<p>I'm using <a href=\"https://github.com/ambv/requests-testadapter\" rel=\"noreferrer\">requests-testadapter</a> module in the above example.</p>\n",
+      "owner": {
+        "display_name": "b1r3k",
+        "link": "https://stackoverflow.com/users/216172/b1r3k"
+      }
+    },
+    {
+      "answer_id": 11768443,
+      "body": "<p>The <code>requests</code> library doesn't support <code>ftp://</code> links.</p>\n<p>To download a file from an FTP server you could use <a href=\"https://docs.python.org/3/library/urllib.request.html#urllib.request.urlretrieve\" rel=\"noreferrer\"><code>urlretrieve</code></a>:</p>\n<pre><code>import urllib.request\n\nurllib.request.urlretrieve('ftp://server/path/to/file', 'file')\n# if you need to pass credentials:\n#   urllib.request.urlretrieve('ftp://username:password@server/path/to/file', 'file')\n</code></pre>\n<p>Or <a href=\"https://docs.python.org/3/library/urllib.request.html#urllib.request.urlopen\" rel=\"noreferrer\"><code>urlopen</code></a>:</p>\n<pre><code>import shutil\nimport urllib.request\nfrom contextlib import closing\n\nwith closing(urllib.request.urlopen('ftp://server/path/to/file')) as r:\n    with open('file', 'wb') as f:\n        shutil.copyfileobj(r, f)\n</code></pre>\n<p>Python 2:</p>\n<pre><code>import shutil\nimport urllib2\nfrom contextlib import closing\n\nwith closing(urllib2.urlopen('ftp://server/path/to/file')) as r:\n    with open('file', 'wb') as f:\n        shutil.copyfileobj(r, f)\n</code></pre>\n",
+      "owner": {
+        "display_name": "jfs",
+        "link": "https://stackoverflow.com/users/4279/jfs"
+      }
+    },
+    {
+      "answer_id": 25239947,
+      "body": "<p>Yes, there is.  Use <a href=\"https://requests.readthedocs.io/en/latest/user/advanced/#session-objects\" rel=\"noreferrer\"><code>requests.Session</code></a> and <a href=\"https://requests.readthedocs.io/en/latest/user/advanced/?highlight=keep%20alive#keep-alive\" rel=\"noreferrer\">it will do keep-alive by default</a>.</p>\n<p>I guess I should include a quick example:</p>\n<pre><code>import logging\nimport requests\n\nlogging.basicConfig(level=logging.DEBUG)\ns = requests.Session()\ns.get('http://httpbin.org/cookies/set/sessioncookie/123456789')\ns.get('http://httpbin.org/cookies/set/anothercookie/123456789')\nr = s.get(&quot;http://httpbin.org/cookies&quot;)\nprint(r.text)\n</code></pre>\n<p>You will note that these log message occur</p>\n<pre><code>INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): httpbin.org\nDEBUG:requests.packages.urllib3.connectionpool:&quot;GET /cookies/set/sessioncookie/123456789 HTTP/1.1&quot; 302 223\nDEBUG:requests.packages.urllib3.connectionpool:&quot;GET /cookies HTTP/1.1&quot; 200 55\nDEBUG:requests.packages.urllib3.connectionpool:&quot;GET /cookies/set/anothercookie/123456789 HTTP/1.1&quot; 302 223\nDEBUG:requests.packages.urllib3.connectionpool:&quot;GET /cookies HTTP/1.1&quot; 200 90\nDEBUG:requests.packages.urllib3.connectionpool:&quot;GET /cookies HTTP/1.1&quot; 200 90\n</code></pre>\n<p>If you wait a little while, and repeat the last <code>get</code> call</p>\n<pre><code>INFO:requests.packages.urllib3.connectionpool:Resetting dropped connection: httpbin.org\nDEBUG:requests.packages.urllib3.connectionpool:&quot;GET /cookies HTTP/1.1&quot; 200 90\n</code></pre>\n<p>Note that it resets the dropped connection, i.e. reestablishing the connection to the server to make the new request.</p>\n",
+      "owner": {
+        "display_name": "metatoaster",
+        "link": "https://stackoverflow.com/users/2904896/metatoaster"
+      }
+    },
+    {
+      "answer_id": 17782541,
+      "body": "<blockquote>\n<p>What is the default timeout that get uses?</p>\n</blockquote>\n<p>The default timeout is <code>None</code>, which means it'll wait (hang) until the connection is closed.</p>\n<p>Just <a href=\"https://requests.readthedocs.io/en/latest/user/advanced/#timeouts\" rel=\"noreferrer\">specify a timeout value</a>, like this:</p>\n<pre><code>r = requests.get(\n    'http://www.example.com',\n    proxies={'http': '222.255.169.74:8080'},\n    timeout=5\n)\n</code></pre>\n",
+      "owner": {
+        "display_name": "ron rothman",
+        "link": "https://stackoverflow.com/users/593047/ron-rothman"
+      }
+    },
+    {
+      "answer_id": 10606260,
+      "body": "<p>The <code>user-agent</code> should be specified as a field in the header.</p>\n<p>Here is a <a href=\"https://en.wikipedia.org/wiki/List_of_HTTP_header_fields\" rel=\"noreferrer\">list of HTTP header fields</a>, and you'd probably be interested in <a href=\"https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields\" rel=\"noreferrer\">request-specific fields</a>, which includes <code>User-Agent</code>.</p>\n<h3>If you're using requests v2.13 and newer</h3>\n<p>The simplest way to do what you want is to create a dictionary and specify your headers directly, like so:</p>\n<pre><code>import requests\n\nurl = 'SOME URL'\n\nheaders = {\n    'User-Agent': 'My User Agent 1.0',\n    'From': 'youremail@domain.example'  # This is another valid field\n}\n\nresponse = requests.get(url, headers=headers)\n</code></pre>\n<h3>If you're using requests v2.12.x and older</h3>\n<p>Older versions of <code>requests</code> clobbered default headers, so you'd want to do the following to preserve default headers and then add your own to them.</p>\n<pre><code>import requests\n\nurl = 'SOME URL'\n\n# Get a copy of the default headers that requests would use\nheaders = requests.utils.default_headers()\n\n# Update the headers with your custom ones\n# You don't have to worry about case-sensitivity with\n# the dictionary keys, because default_headers uses a custom\n# CaseInsensitiveDict implementation within requests' source code.\nheaders.update(\n    {\n        'User-Agent': 'My User Agent 1.0',\n    }\n)\n\nresponse = requests.get(url, headers=headers)\n</code></pre>\n",
+      "owner": {
+        "display_name": "wkl",
+        "link": "https://stackoverflow.com/users/297696/wkl"
+      }
+    },
+    {
+      "answer_id": 12737874,
+      "body": "<p>You can easily create a persistent session using:</p>\n<pre><code>s = requests.Session()\n</code></pre>\n<p>After that, continue with your requests as you would:</p>\n<pre><code>s.post('https://localhost/login.py', login_data)\n# logged in! cookies saved for future requests.\nr2 = s.get('https://localhost/profile_data.json', ...)\n# cookies sent automatically!\n# do whatever, s will keep your cookies intact :)\n</code></pre>\n<p>For more about <code>Session</code>s: <a href=\"https://requests.readthedocs.io/en/latest/user/advanced/#session-objects\" rel=\"noreferrer\">https://requests.readthedocs.io/en/latest/user/advanced/#session-objects</a></p>\n",
+      "owner": {
+        "display_name": "Anuj Gupta",
+        "link": "https://stackoverflow.com/users/1678159/anuj-gupta"
+      }
+    },
+    {
+      "answer_id": 18579484,
+      "body": "<p>The current version of Requests should be just fine with SNI. <a href=\"https://github.com/psf/requests/issues/749#issuecomment-19187417\" rel=\"noreferrer\">Further down the GitHub issue</a> you can see the requirements:</p>\n<ul>\n<li><a href=\"https://www.pyopenssl.org\" rel=\"noreferrer\">pyOpenSSL</a></li>\n<li><a href=\"https://pypi.python.org/pypi/ndg-httpsclient\" rel=\"noreferrer\">ndg-httpsclient</a></li>\n<li><a href=\"https://pypi.org/project/pyasn1/\" rel=\"noreferrer\">pyasn1</a></li>\n</ul>\n<p>Try installing those packages and then give it another shot.</p>\n<p><strong>EDIT</strong>: As of Requests v2.12.1, ndg-httpsclient and pyasn1 are no longer required. The full list of required packages is now:</p>\n<ul>\n<li><a href=\"https://www.pyopenssl.org\" rel=\"noreferrer\">pyOpenSSL</a></li>\n<li><a href=\"https://github.com/kjd/idna\" rel=\"noreferrer\">idna</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Lukasa",
+        "link": "https://stackoverflow.com/users/1401686/lukasa"
+      }
+    },
+    {
+      "answer_id": 29104528,
+      "body": "<p>From wechat api doc:</p>\n<pre><code>curl -F media=@test.jpg &quot;http://file.api.wechat.com/cgi-bin/media/upload?access_token=ACCESS_TOKEN&amp;type=TYPE&quot;\n</code></pre>\n<p>Translate the command above to python:</p>\n<pre><code>import requests\nurl = 'http://file.api.wechat.com/cgi-bin/media/upload?access_token=ACCESS_TOKEN&amp;type=TYPE'\nfiles = {'media': open('test.jpg', 'rb')}\nrequests.post(url, files=files)\n</code></pre>\n<p>Doc: <a href=\"https://docs.python-requests.org/en/master/user/quickstart/#post-a-multipart-encoded-file\" rel=\"noreferrer\">https://docs.python-requests.org/en/master/user/quickstart/#post-a-multipart-encoded-file</a></p>\n",
+      "owner": {
+        "display_name": "kev",
+        "link": "https://stackoverflow.com/users/348785/kev"
+      }
+    },
+    {
+      "answer_id": 43260678,
+      "body": "<p>The <code>Response</code> object returned by <code>requests.post()</code> (and <code>requests.get()</code> etc.) has a property called <code>elapsed</code>, which provides the time delta between the <code>Request</code> was sent and the <code>Response</code> was received. To get the delta in seconds, use the <code>total_seconds()</code> method:</p>\n<pre><code>response = requests.post(url, data=post_fields, timeout=timeout)\nprint(response.elapsed.total_seconds())\n</code></pre>\n<p>Note that <code>requests.post()</code> is a synchronous operation, which means that it <strong>blocks</strong> until the <code>Response</code> is received.</p>\n",
+      "owner": {
+        "display_name": "Nicolas Lykke Iversen",
+        "link": "https://stackoverflow.com/users/6666728/nicolas-lykke-iversen"
+      }
+    },
+    {
+      "answer_id": 18810889,
+      "body": "<p>Requests doesn't have an equivalent to Urlib2's <code>read()</code>.</p>\n<pre><code>&gt;&gt;&gt; import requests\n&gt;&gt;&gt; response = requests.get(&quot;http://www.google.com&quot;)\n&gt;&gt;&gt; print response.content\n'&lt;!doctype html&gt;&lt;html itemscope=&quot;&quot; itemtype=&quot;http://schema.org/WebPage&quot;&gt;&lt;head&gt;....'\n&gt;&gt;&gt; print response.content == response.text\nTrue\n</code></pre>\n<p>It looks like the POST request you are making is returning no content. Which is often the case with a POST request. Perhaps it set a cookie? The status code is telling you that the POST succeeded after all.</p>\n<p><strong>Edit for Python 3:</strong></p>\n<p><a href=\"https://docs.python.org/3.1/library/stdtypes.html#sequence-types-str-bytes-bytearray-list-tuple-range\" rel=\"noreferrer\">Python now handles data types differently</a>. <code>response.content</code> returns a sequence of <code>bytes</code> (integers that represent ASCII) while <code>response.text</code> is a <code>string</code> (sequence of chars).</p>\n<p>Thus,</p>\n<pre class=\"lang-py prettyprint-override\"><code>&gt;&gt;&gt; print response.content == response.text\nFalse\n\n&gt;&gt;&gt; print str(response.content) == response.text\nTrue\n</code></pre>\n",
+      "owner": {
+        "display_name": "aychedee",
+        "link": "https://stackoverflow.com/users/639295/aychedee"
+      }
+    },
+    {
+      "answer_id": 36070916,
+      "body": "<p>To get the resultant URL after you've been redirected, you can do <code>r.url</code>.</p>\n<pre><code>r = requests.get('https://youtu.be/dQw4w9WgXcQ') \nprint(r.url) # https://www.youtube.com/watch?v=dQw4w9WgXcQ&amp;feature=youtu.be\n</code></pre>\n<p><code>r.history</code> is for URLs prior to the final one, so it's only returning your original URL because you were only redirected once.</p>\n",
+      "owner": {
+        "display_name": "Aaron Christiansen",
+        "link": "https://stackoverflow.com/users/2626000/aaron-christiansen"
+      }
+    },
+    {
+      "answer_id": 23497912,
+      "body": "<p>It is not good solution but you can use directly <code>string</code>:</p>\n<pre><code>r = requests.get(url, params='format=json&amp;key=site:dummy+type:example+group:wheel')\n</code></pre>\n<hr />\n<p><strong>BTW:</strong></p>\n<p>Code which convert <code>payload</code> to this string</p>\n<pre><code>payload = {\n    'format': 'json', \n    'key': 'site:dummy+type:example+group:wheel'\n}\n\npayload_str = &quot;&amp;&quot;.join(&quot;%s=%s&quot; % (k,v) for k,v in payload.items())\n# 'format=json&amp;key=site:dummy+type:example+group:wheel'\n\nr = requests.get(url, params=payload_str)\n</code></pre>\n<hr />\n<p><strong>EDIT (2020):</strong></p>\n<p>You can also use <code>urllib.parse.urlencode(...)</code> with parameter <code>safe=':+'</code> to create string without converting chars <code>:+</code> .</p>\n<p>As I know <code>requests</code> also use <code>urllib.parse.urlencode(...)</code> for this but without <code>safe=</code>.</p>\n<pre><code>import requests\nimport urllib.parse\n\npayload = {\n    'format': 'json', \n    'key': 'site:dummy+type:example+group:wheel'\n}\n\npayload_str = urllib.parse.urlencode(payload, safe=':+')\n# 'format=json&amp;key=site:dummy+type:example+group:wheel'\n\nurl = 'https://httpbin.org/get'\n\nr = requests.get(url, params=payload_str)\n\nprint(r.text)\n</code></pre>\n<p>I used page <a href=\"https://httpbin.org/get\" rel=\"noreferrer\">https://httpbin.org/get</a> to test it.</p>\n",
+      "owner": {
+        "display_name": "furas",
+        "link": "https://stackoverflow.com/users/1832058/furas"
+      }
+    },
+    {
+      "answer_id": 17011420,
+      "body": "<p>The <code>requests.Response</code> class <a href=\"https://requests.readthedocs.io/en/master/api/#requests.Response.text\" rel=\"noreferrer\">documentation</a> has more details:</p>\n<p><code>r.text</code> is the content of the response in Unicode, and <code>r.content</code> is the content of the response in bytes.</p>\n",
+      "owner": {
+        "display_name": "Gary Kerr",
+        "link": "https://stackoverflow.com/users/132767/gary-kerr"
+      }
+    },
+    {
+      "answer_id": 62599037,
+      "body": "<p>There can be multiple possible solutions to this problem. There are a multitude of answers on StackOverflow for any of these, so I will try to combine them all to save you the hassle of searching for them.</p>\n<p>In my search I have uncovered the following layers to this:</p>\n<h1>First, try logging</h1>\n<p>For many problems, activating logging can help you uncover what goes wrong (<a href=\"https://stackoverflow.com/a/16630836/5712053\">source</a>):</p>\n<pre class=\"lang-py prettyprint-override\"><code>import requests\nimport logging\n\nimport http.client\nhttp.client.HTTPConnection.debuglevel = 1\n\n# You must initialize logging, otherwise you'll not see debug output.\nlogging.basicConfig()\nlogging.getLogger().setLevel(logging.DEBUG)\nrequests_log = logging.getLogger(&quot;requests.packages.urllib3&quot;)\nrequests_log.setLevel(logging.DEBUG)\nrequests_log.propagate = True\n\nrequests.get(&quot;https://www.example.com&quot;)\n</code></pre>\n<p>In case the debug output does not help you solve the problem, read on.</p>\n<h3>If you only need to check if the server is up, try a HEAD or streaming request</h3>\n<p>It can be faster to not request all data, but to only send a HEAD request (<a href=\"https://stackoverflow.com/a/15780727/5712053\">source</a>):</p>\n<pre class=\"lang-py prettyprint-override\"><code>requests.head(&quot;https://www.example.com&quot;)\n</code></pre>\n<p>Some servers don't support this, then you can try to stream the response (<a href=\"https://stackoverflow.com/a/15781814/5712053\">source</a>):</p>\n<pre class=\"lang-py prettyprint-override\"><code>requests.get(&quot;https://www.example.com&quot;, stream=True)\n</code></pre>\n<h3>For multiple requests in a row, try utilizing a Session</h3>\n<p>If you send multiple requests in a row, you can speed up the requests by utilizing a <code>requests.Session</code>. This makes sure the connection to the server stays open and configured and also persists cookies as a nice benefit. Try this (<a href=\"https://stackoverflow.com/a/60843169/5712053\">source</a>):</p>\n<pre class=\"lang-py prettyprint-override\"><code>import requests\nsession = requests.Session()\nfor _ in range(10):\n    session.get(&quot;https://www.example.com&quot;)\n</code></pre>\n<h3>To parallelize your requests (try for &gt; 10 requests), use requests-futures</h3>\n<p>If you send a very large number of requests at once, each request blocks execution. You can parallelize this utilizing, e.g., <a href=\"https://github.com/ross/requests-futures\" rel=\"noreferrer\">requests-futures</a> (idea from <a href=\"https://stackoverflow.com/a/57736530/5712053\">kederrac</a>):</p>\n<pre class=\"lang-py prettyprint-override\"><code>from concurrent.futures import as_completed\nfrom requests_futures.sessions import FuturesSession\n\nwith FuturesSession() as session:\n    futures = [session.get(&quot;https://www.example.com&quot;) for _ in range(10)]\n    for future in as_completed(futures):\n        response = future.result()\n</code></pre>\n<p>Be careful not to overwhelm the server with too many requests at the same time.</p>\n<p>If this also does not solve your problem, read on...</p>\n<h1>The reason might not lie with requests, but the server or your connection</h1>\n<p>In many cases, the reason might lie with the server you are requesting from. First, verify this by requesting any other URL in the same fashion:</p>\n<pre class=\"lang-py prettyprint-override\"><code>requests.get(&quot;https://www.google.com&quot;)\n</code></pre>\n<p>If this works fine, you can focus your efforts on the following possible problems:</p>\n<h3>The server only allows specific user-agent strings</h3>\n<p>The server might specifically block <code>requests</code>, or they might utilize a whitelist, or some other reason. To send a nicer user-agent string, try this (<a href=\"https://stackoverflow.com/a/62028209/5712053\">source</a>):</p>\n<pre class=\"lang-py prettyprint-override\"><code>headers = {&quot;User-Agent&quot;: &quot;Mozilla/5.0 (X11; CrOS x86_64 12871.102.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.141 Safari/537.36&quot;}\nrequests.get(&quot;https://www.example.com&quot;, headers=headers)\n</code></pre>\n<h3>The server rate-limits you</h3>\n<p>If this problem only occurs sometimes, e.g. after a few requests, the server might be rate-limiting you. Check the response to see if it reads something along those lines (i.e. &quot;rate limit reached&quot;, &quot;work queue depth exceeded&quot; or similar; <a href=\"https://stackoverflow.com/a/48030775/5712053\">source</a>).</p>\n<p>Here, the solution is just to wait longer between requests, for example by using <code>time.sleep()</code>.</p>\n<h3>The server response is incorrectly formatted, leading to parsing problems</h3>\n<p>You can check this by not reading the response you receive from the server. If the code is still slow, this is not your problem, but if this fixed it, the problem might lie with parsing the response.</p>\n<ol>\n<li>In case some headers are set incorrectly, this can lead to parsing errors which prevents chunked transfer (<a href=\"https://stackoverflow.com/a/31932308/5712053\">source</a>).</li>\n<li>In other cases, setting the encoding manually might resolve parsing problems (<a href=\"https://stackoverflow.com/a/48270114/5712053\">source</a>).</li>\n</ol>\n<p>To fix those, try:</p>\n<pre class=\"lang-py prettyprint-override\"><code>r = requests.get(&quot;https://www.example.com&quot;)\nr.raw.chunked = True # Fix issue 1\nr.encoding = 'utf-8' # Fix issue 2\nprint(response.text)\n</code></pre>\n<h3>IPv6 does not work, but IPv4 does</h3>\n<p>This might be the worst problem of all to find. An easy, albeit weird, way to check this, is to add a <code>timeout</code> parameter as follows:</p>\n<pre class=\"lang-py prettyprint-override\"><code>requests.get(&quot;https://www.example.com/&quot;, timeout=5)\n</code></pre>\n<p>If this returns a <em>successful response</em>, the problem should lie with IPv6. The reason is that <code>requests</code> first tries an IPv6 connection. When that times out, it tries to connect via IPv4. By setting the timeout low, you force it to switch to IPv4 within a shorter amount of time.</p>\n<p>Verify by utilizing, e.g., <code>wget</code> or <code>curl</code>:</p>\n<pre class=\"lang-sh prettyprint-override\"><code>wget --inet6-only https://www.example.com -O - &gt; /dev/null\n# or\ncurl --ipv6 -v https://www.example.com\n</code></pre>\n<p>In both cases, we force the tool to connect via IPv6 to isolate the issue. If this times out, try again forcing IPv4:</p>\n<pre class=\"lang-sh prettyprint-override\"><code>wget --inet4-only https://www.example.com -O - &gt; /dev/null\n# or\ncurl --ipv4 -v https://www.example.com\n</code></pre>\n<p>If this works fine, you have found your problem! But how to solve it, you ask?</p>\n<ol>\n<li>A brute-force solution is to <a href=\"https://stackoverflow.com/a/1676013/5712053\">disable IPv6</a> completely.</li>\n<li>You may also <a href=\"https://unix.stackexchange.com/a/501082/362084\">disable IPv6 for the current session</a> only.</li>\n<li>You may just want to <a href=\"https://stackoverflow.com/a/46972341/5712053\">force requests to use IPv4</a>. (In the linked answer, you have to adapt the code to always return <code>socket.AF_INET</code> for IPv4.)</li>\n<li>If you want to fix this problem for SSH, here is how to <a href=\"https://stackoverflow.com/a/62106519/5712053\">force IPv4 for SSH</a>. (In short, add <code>AddressFamily inet</code> to your SSH config.)</li>\n<li>You may also want to check if the problem lies with your <a href=\"https://stackoverflow.com/a/56926067/5712053\">DNS or TCP</a>.</li>\n</ol>\n",
+      "owner": {
+        "display_name": "vauhochzett",
+        "link": "https://stackoverflow.com/users/5712053/vauhochzett"
+      }
+    },
+    {
+      "answer_id": 24874214,
+      "body": "<blockquote>\n  <p>The requests module is stateless and if I repeatedly call get for the same URL, wouldnt it create a new connection each time?</p>\n</blockquote>\n\n<p>The <code>requests</code> module is not stateless; it just lets you ignore the state and effectively use a global singleton state if you choose to do so.*</p>\n\n<p>And it (or, rather, one of the underlying libraries, <code>urllib3</code>) maintains a connection pool keyed by (hostname, port) pair, so it will usually just magically reuse a connection if it can.</p>\n\n<p>As <a href=\"https://requests.readthedocs.io/en/master/user/advanced/#keep-alive\" rel=\"noreferrer\">the documentation</a> says:</p>\n\n<blockquote>\n  <p>Excellent news — thanks to urllib3, keep-alive is 100% automatic\n  within a session! Any requests that you make within a session will\n  automatically reuse the appropriate connection!</p>\n  \n  <p>Note that connections are only released back to the pool for reuse\n  once all body data has been read; be sure to either set <code>stream</code> to\n  <code>False</code> or read the <code>content</code> property of the <code>Response</code> object.</p>\n</blockquote>\n\n<p>So, what does \"if it can\" mean? As the docs above imply, if you're keeping streaming response objects alive, their connections obviously can't be reused.</p>\n\n<p>Also, the connection pool is really a finite cache, not infinite, so if you spam out a ton of connections and two of them are to the same server, you won't <em>always</em> reuse the connection, just <em>often</em>. But usually, that's what you actually want.</p>\n\n<hr>\n\n<p><sub>* The particular state relevant here is the <a href=\"http://docs.python-requests.org/en/latest/user/advanced/#transport-adapters\" rel=\"noreferrer\">transport adapter</a>. Each session gets a transport adapter. You can specify the adapter manually, or you can specify a global default, or you can just use the default global default, which basically just wraps up a <code>urllib3.PoolManager</code> for managing its HTTP connections. For more information, read the docs.</sub></p>\n",
+      "owner": {
+        "display_name": "abarnert",
+        "link": "https://stackoverflow.com/users/908494/abarnert"
+      }
+    },
+    {
+      "answer_id": 11833013,
+      "body": "<p>Quoting from the <a href=\"https://requests.readthedocs.io/en/master/user/quickstart/#more-complicated-post-requests\" rel=\"noreferrer\">docs</a> </p>\n\n<blockquote>\n  <p><strong>data</strong> – (optional) Dictionary or bytes to send in the body of the <strong>Request</strong>.</p>\n</blockquote>\n\n<p>So this <em>should</em> work (not tested):</p>\n\n<pre><code> filepath = 'yourfilename.txt'\n with open(filepath) as fh:\n     mydata = fh.read()\n     response = requests.put('https://api.elasticemail.com/attachments/upload',\n                data=mydata,                         \n                auth=('omer', 'b01ad0ce'),\n                headers={'content-type':'text/plain'},\n                params={'file': filepath}\n                 )\n</code></pre>\n",
+      "owner": {
+        "display_name": "raben",
+        "link": "https://stackoverflow.com/users/246242/raben"
+      }
+    },
+    {
+      "answer_id": 29099439,
+      "body": "<p>Use the somewhat hidden <strong>security</strong> feature:</p>\n\n<p><code>pip install requests[security]</code>\nor\n<code>pip install pyOpenSSL ndg-httpsclient pyasn1</code> </p>\n\n<p>Both commands install following extra packages:</p>\n\n<ul>\n<li>pyOpenSSL</li>\n<li>cryptography</li>\n<li>idna</li>\n</ul>\n\n<p>Please note that this is not required for <a href=\"https://requests.readthedocs.io/en/latest/community/faq/#what-are-hostname-doesn-t-match-errors\" rel=\"noreferrer\">python-2.7.9+</a>.</p>\n\n<p>If <code>pip install</code> fails with errors, check whether you have required development packages for <code>libffi</code>, <code>libssl</code> and <code>python</code> installed in your system <strong>using distribution's package manager</strong>:</p>\n\n<ul>\n<li><p><strong>Debian</strong>/<strong>Ubuntu</strong> - <code>python-dev</code> <code>libffi-dev</code> <code>libssl-dev</code> packages.</p></li>\n<li><p><strong>Fedora</strong> - <code>openssl-devel</code> <code>python-devel</code> <code>libffi-devel</code> packages.</p></li>\n</ul>\n\n<p><em>Distro list above is incomplete.</em></p>\n\n<p><strong>Workaround</strong> (<a href=\"https://stackoverflow.com/a/31946125/157176\">see the original answer by @TomDotTom</a>)<strong>:</strong></p>\n\n<p>In case you cannot install some of the required development packages, there's also an option to disable that warning:</p>\n\n<pre><code>import requests.packages.urllib3\nrequests.packages.urllib3.disable_warnings()\n</code></pre>\n\n<p>If your <code>pip</code> itself is affected by <code>InsecurePlatformWarning</code> and cannot install anything from PyPI, it can be fixed with <a href=\"https://stackoverflow.com/a/54582701/9575715\">this step-by-step guide</a> to deploy extra python packages manually.</p>\n",
+      "owner": {
+        "display_name": "plaes",
+        "link": "https://stackoverflow.com/users/157176/plaes"
+      }
+    },
+    {
+      "answer_id": 26615831,
+      "body": "<p>The reason you're getting JSON is because you're explicitly calling <code>json.dumps</code> to generate a JSON string. Just don't do that, and you won't get a JSON string. In other words, change your first line to this:</p>\n\n<pre><code>data = {'param1': 'value1', 'param2': 'value2'}\n</code></pre>\n\n<p>As <a href=\"https://requests.readthedocs.io/en/master/user/quickstart/#more-complicated-post-requests\" rel=\"noreferrer\">the docs</a> explain, if you pass a dict as the <code>data</code> value, it will be form-encoded, while if you pass a string, it will be sent as-is.</p>\n\n<hr>\n\n<p>For example, in one terminal window:</p>\n\n<pre><code>$ nc -kl 8765\n</code></pre>\n\n<p>In another:</p>\n\n<pre><code>$ python3\n&gt;&gt;&gt; import requests\n&gt;&gt;&gt; d = {'spam': 20, 'eggs': 3}\n&gt;&gt;&gt; requests.post(\"http://localhost:8765\", data=d)\n^C\n&gt;&gt;&gt; import json\n&gt;&gt;&gt; j = json.dumps(d)\n&gt;&gt;&gt; requests.post(\"http://localhost:8765\", data=j)\n^C\n</code></pre>\n\n<p>In the first terminal, you'll see that the first request body is this (and Content-Type <code>application/x-www-form-urlencoded</code>):</p>\n\n<pre><code>spam=20&amp;eggs=3\n</code></pre>\n\n<p>… while the second is this (and has no Content-Type):</p>\n\n<pre><code>{\"spam\": 20, \"eggs\": 3}\n</code></pre>\n",
+      "owner": {
+        "display_name": "abarnert",
+        "link": "https://stackoverflow.com/users/908494/abarnert"
+      }
+    },
+    {
+      "answer_id": 32986316,
+      "body": "<p>Under the hood, <code>requests.get()</code> creates a new <code>Session</code> object for each request made.</p>\n\n<p>By creating a session object up front, you get to <em>reuse</em> the session; this lets you persist cookies, for example, and lets you re-use settings to be used for all connections such as headers and query parameters. To top this all off, sessions let you take advantage of connection pooling; reusing connections to the same host.</p>\n\n<p>See the <a href=\"https://requests.readthedocs.io/en/latest/user/advanced/#session-objects\" rel=\"noreferrer\"><em>Sessions</em> documentation</a>:</p>\n\n<blockquote>\n  <p>The Session object allows you to persist certain parameters across requests. It also persists cookies across all requests made from the Session instance, and will use urllib3‘s connection pooling. So if you’re making several requests to the same host, the underlying TCP connection will be reused, which can result in a significant performance increase (see <a href=\"https://en.wikipedia.org/wiki/HTTP_persistent_connection\" rel=\"noreferrer\">HTTP persistent connection</a>).</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 26746603,
+      "body": "<p>You need to use a <a href=\"https://requests.readthedocs.io/en/latest/user/advanced/#session-objects\" rel=\"noreferrer\">session object</a> and send the authentication <em>each request</em>. The session will also track cookies for you:</p>\n\n<pre><code>session = requests.Session()\nsession.auth = (user, password)\n\nauth = session.post('http://' + hostname)\nresponse = session.get('http://' + hostname + '/rest/applications')\n</code></pre>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 15258759,
+      "body": "<p>Look at the <a href=\"https://requests.readthedocs.io/en/latest/user/quickstart/#response-status-codes\" rel=\"noreferrer\"><code>r.status_code</code> attribute</a>:</p>\n\n<pre><code>if r.status_code == 404:\n    # A 404 was issued.\n</code></pre>\n\n<p>Demo:</p>\n\n<pre><code>&gt;&gt;&gt; import requests\n&gt;&gt;&gt; r = requests.get('http://httpbin.org/status/404')\n&gt;&gt;&gt; r.status_code\n404\n</code></pre>\n\n<p>If you want <code>requests</code> to raise an exception for error codes (4xx or 5xx), call <code>r.raise_for_status()</code>:</p>\n\n<pre><code>&gt;&gt;&gt; r = requests.get('http://httpbin.org/status/404')\n&gt;&gt;&gt; r.raise_for_status()\nTraceback (most recent call last):\n  File \"&lt;stdin&gt;\", line 1, in &lt;module&gt;\n  File \"requests/models.py\", line 664, in raise_for_status\n    raise http_error\nrequests.exceptions.HTTPError: 404 Client Error: NOT FOUND\n&gt;&gt;&gt; r = requests.get('http://httpbin.org/status/200')\n&gt;&gt;&gt; r.raise_for_status()\n&gt;&gt;&gt; # no exception raised.\n</code></pre>\n\n<p>You can also test the response object in a boolean context; if the status code is not an error code (4xx or 5xx), it is considered ‘true’:</p>\n\n<pre><code>if r:\n    # successful response\n</code></pre>\n\n<p>If you want to be more explicit, use <code>if r.ok:</code>. </p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 13137873,
+      "body": "<p>You can either use the <a href=\"https://requests.readthedocs.io/en/latest/api/#requests.Response.raw\" rel=\"noreferrer\"><code>response.raw</code> file object</a>, or iterate over the response.</p>\n\n<p>To use the <code>response.raw</code> file-like object will not, by default, decode compressed responses (with GZIP or deflate). You can force it to decompress for you anyway by setting the <code>decode_content</code> attribute to <code>True</code> (<code>requests</code> sets it to <code>False</code> to control decoding itself). You can then use <a href=\"https://docs.python.org/2/library/shutil.html#shutil.copyfileobj\" rel=\"noreferrer\"><code>shutil.copyfileobj()</code></a> to have Python stream the data to a file object:</p>\n\n<pre><code>import requests\nimport shutil\n\nr = requests.get(settings.STATICMAP_URL.format(**data), stream=True)\nif r.status_code == 200:\n    with open(path, 'wb') as f:\n        r.raw.decode_content = True\n        shutil.copyfileobj(r.raw, f)        \n</code></pre>\n\n<p>To iterate over the response use a loop; iterating like this ensures that data is decompressed by this stage:</p>\n\n<pre><code>r = requests.get(settings.STATICMAP_URL.format(**data), stream=True)\nif r.status_code == 200:\n    with open(path, 'wb') as f:\n        for chunk in r:\n            f.write(chunk)\n</code></pre>\n\n<p>This'll read the data in 128 byte chunks; if you feel another chunk size works better, use the <a href=\"https://requests.readthedocs.io/en/latest/api/#requests.Response.iter_content\" rel=\"noreferrer\"><code>Response.iter_content()</code> method</a> with a custom chunk size:</p>\n\n<pre><code>r = requests.get(settings.STATICMAP_URL.format(**data), stream=True)\nif r.status_code == 200:\n    with open(path, 'wb') as f:\n        for chunk in r.iter_content(1024):\n            f.write(chunk)\n</code></pre>\n\n<p>Note that you need to open the destination file in binary mode to ensure python doesn't try and translate newlines for you. We also set <code>stream=True</code> so that <code>requests</code> doesn't download the whole image into memory first.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 16877439,
+      "body": "<p>You can use <a href=\"http://docs.python.org/2/library/json.html#json.loads\" rel=\"noreferrer\"><code>json.loads</code></a>:</p>\n\n<pre><code>import json\nimport requests\n\nresponse = requests.get(...)\njson_data = json.loads(response.text)\n</code></pre>\n\n<p>This converts a given string into a dictionary which allows you to access your JSON data easily within your code.</p>\n\n<p>Or you can use @Martijn's helpful suggestion, and the higher voted answer, <code>response.json()</code>.</p>\n",
+      "owner": {
+        "display_name": "Simeon Visser",
+        "link": "https://stackoverflow.com/users/1267329/simeon-visser"
+      }
+    },
+    {
+      "answer_id": 51408997,
+      "body": "<p>So the issue might have three resolutions as I see it:</p>\n<ol>\n<li><p>A certificate is OK and there is something wrong with the code. The issue may occur, for example, while using prepared requests as described in <a href=\"https://requests.readthedocs.io/en/master/user/advanced/#prepared-requests\" rel=\"noreferrer\">this solution</a></p>\n<p>But  I don't really think it is your case because in the snippet you've provided no such methods are used. For the two next variants, you'll need to get the URL that causes an error and explore it's certificate (can be done via browser).</p>\n</li>\n<li><p>A certificate is OK but a certificate authority that signed it is not included in CA list that is utilized by requests library. After you'll open a troubling URL, check CA in it and see if it's dates are valid and it is included in <a href=\"https://certifiio.readthedocs.io/en/latest/\" rel=\"noreferrer\">this</a> list. If not, add CA in the trusted list for the requests library -- as explained in the answers to this <a href=\"https://stackoverflow.com/q/30405867/104746\">StackOverflow question</a>.</p>\n</li>\n<li><p>A certificate is not valid or self-singed. Same solution as in 2.</p>\n</li>\n</ol>\n<p>The general solution is to wrap your script in the <code>try except</code> clause and to print out all the URLs that will result in mistakes. Then try to request them one by one via requests library and see if the issue occurs. If it does, it's (2) or (3) case. If not — try to run script on another machine with fresh installed python and requests. If the run will be successful — then there's some issue in your configuration.</p>\n",
+      "owner": {
+        "display_name": "Andrii K",
+        "link": "https://stackoverflow.com/users/4274712/andrii-k"
+      }
+    },
+    {
+      "answer_id": 16337639,
+      "body": "<p>The underlying <code>urllib3</code> library logs all new connections and URLs with the <a href=\"http://docs.python.org/2/library/logging.html\" rel=\"noreferrer\"><code>logging</code> module</a>, but not <code>POST</code> bodies. For <code>GET</code> requests this should be enough:</p>\n\n<pre><code>import logging\n\nlogging.basicConfig(level=logging.DEBUG)\n</code></pre>\n\n<p>which gives you the most verbose logging option; see the <a href=\"http://docs.python.org/2/howto/logging.html\" rel=\"noreferrer\">logging HOWTO</a> for more details on how to configure logging levels and destinations.</p>\n\n<p>Short demo:</p>\n\n<pre><code>&gt;&gt;&gt; import requests\n&gt;&gt;&gt; import logging\n&gt;&gt;&gt; logging.basicConfig(level=logging.DEBUG)\n&gt;&gt;&gt; r = requests.get('http://httpbin.org/get?foo=bar&amp;baz=python')\nDEBUG:urllib3.connectionpool:Starting new HTTP connection (1): httpbin.org:80\nDEBUG:urllib3.connectionpool:http://httpbin.org:80 \"GET /get?foo=bar&amp;baz=python HTTP/1.1\" 200 366\n</code></pre>\n\n<p>Depending on the exact version of urllib3, the following messages are logged:</p>\n\n<ul>\n<li><code>INFO</code>: Redirects</li>\n<li><code>WARN</code>: Connection pool full (if this happens often increase the connection pool size)</li>\n<li><code>WARN</code>: Failed to parse headers (response headers with invalid format)</li>\n<li><code>WARN</code>: Retrying the connection</li>\n<li><code>WARN</code>: Certificate did not match expected hostname</li>\n<li><code>WARN</code>: Received response with both Content-Length and Transfer-Encoding, when processing a chunked response</li>\n<li><code>DEBUG</code>: New connections (HTTP or HTTPS)</li>\n<li><code>DEBUG</code>: Dropped connections</li>\n<li><code>DEBUG</code>: Connection details: method, path, HTTP version, status code and response length</li>\n<li><code>DEBUG</code>: Retry count increments</li>\n</ul>\n\n<p>This doesn't include headers or bodies. <code>urllib3</code> uses the <code>http.client.HTTPConnection</code> class to do the grunt-work, but that class doesn't support logging, it can normally only be configured to <em>print</em> to stdout. However, you can rig it to send all debug information to logging instead by introducing an alternative <code>print</code> name into that module:</p>\n\n<pre><code>import logging\nimport http.client\n\nhttpclient_logger = logging.getLogger(\"http.client\")\n\ndef httpclient_logging_patch(level=logging.DEBUG):\n    \"\"\"Enable HTTPConnection debug logging to the logging framework\"\"\"\n\n    def httpclient_log(*args):\n        httpclient_logger.log(level, \" \".join(args))\n\n    # mask the print() built-in in the http.client module to use\n    # logging instead\n    http.client.print = httpclient_log\n    # enable debugging\n    http.client.HTTPConnection.debuglevel = 1\n</code></pre>\n\n<p>Calling <code>httpclient_logging_patch()</code> causes <code>http.client</code> connections to output all debug information to a standard logger, and so are picked up by <code>logging.basicConfig()</code>:</p>\n\n<pre><code>&gt;&gt;&gt; httpclient_logging_patch()\n&gt;&gt;&gt; r = requests.get('http://httpbin.org/get?foo=bar&amp;baz=python')\nDEBUG:urllib3.connectionpool:Starting new HTTP connection (1): httpbin.org:80\nDEBUG:http.client:send: b'GET /get?foo=bar&amp;baz=python HTTP/1.1\\r\\nHost: httpbin.org\\r\\nUser-Agent: python-requests/2.22.0\\r\\nAccept-Encoding: gzip, deflate\\r\\nAccept: */*\\r\\nConnection: keep-alive\\r\\n\\r\\n'\nDEBUG:http.client:reply: 'HTTP/1.1 200 OK\\r\\n'\nDEBUG:http.client:header: Date: Tue, 04 Feb 2020 13:36:53 GMT\nDEBUG:http.client:header: Content-Type: application/json\nDEBUG:http.client:header: Content-Length: 366\nDEBUG:http.client:header: Connection: keep-alive\nDEBUG:http.client:header: Server: gunicorn/19.9.0\nDEBUG:http.client:header: Access-Control-Allow-Origin: *\nDEBUG:http.client:header: Access-Control-Allow-Credentials: true\nDEBUG:urllib3.connectionpool:http://httpbin.org:80 \"GET /get?foo=bar&amp;baz=python HTTP/1.1\" 200 366\n</code></pre>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 22567429,
+      "body": "<p>If <code>upload_file</code> is meant to be the file, use:</p>\n\n<pre><code>files = {'upload_file': open('file.txt','rb')}\nvalues = {'DB': 'photcat', 'OUT': 'csv', 'SHORT': 'short'}\n\nr = requests.post(url, files=files, data=values)\n</code></pre>\n\n<p>and <code>requests</code> will send a multi-part form POST body with the <code>upload_file</code> field set to the contents of the <code>file.txt</code> file.</p>\n\n<p>The filename will be included in the mime header for the specific field:</p>\n\n<pre><code>&gt;&gt;&gt; import requests\n&gt;&gt;&gt; open('file.txt', 'wb')  # create an empty demo file\n&lt;_io.BufferedWriter name='file.txt'&gt;\n&gt;&gt;&gt; files = {'upload_file': open('file.txt', 'rb')}\n&gt;&gt;&gt; print(requests.Request('POST', 'http://example.com', files=files).prepare().body.decode('ascii'))\n--c226ce13d09842658ffbd31e0563c6bd\nContent-Disposition: form-data; name=\"upload_file\"; filename=\"file.txt\"\n\n\n--c226ce13d09842658ffbd31e0563c6bd--\n</code></pre>\n\n<p>Note the <code>filename=\"file.txt\"</code> parameter.</p>\n\n<p>You can use a tuple for the <code>files</code> mapping value, with between 2 and 4 elements, if you need more control. The first element is the filename, followed by the contents, and an optional content-type header value and an optional mapping of additional headers:</p>\n\n<pre><code>files = {'upload_file': ('foobar.txt', open('file.txt','rb'), 'text/x-spam')}\n</code></pre>\n\n<p>This sets an alternative filename and content type, leaving out the optional headers.</p>\n\n<p>If you are meaning the <em>whole POST body</em> to be taken from a file (with no other fields specified), then don't use the <code>files</code> parameter, just post the file directly as <code>data</code>. You then may want to set a <code>Content-Type</code> header too, as none will be set otherwise. See <a href=\"https://stackoverflow.com/questions/16145116/python-requests-post-data-from-a-file/16145232#16145232\">Python requests - POST data from a file</a>.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 54056631,
+      "body": "<p>Good news: there is now a requests module that supports javascript:  <a href=\"https://pypi.org/project/requests-html/\" rel=\"noreferrer\">https://pypi.org/project/requests-html/</a></p>\n\n<pre><code>from requests_html import HTMLSession\n\nsession = HTMLSession()\n\nr = session.get('http://www.yourjspage.com')\n\nr.html.render()  # this call executes the js in the page\n</code></pre>\n\n<p>As a bonus this wraps <code>BeautifulSoup</code>, I think, so you can do things like</p>\n\n<pre><code>r.html.find('#myElementID').text\n</code></pre>\n\n<p>which returns the content of the HTML element as you'd expect.</p>\n",
+      "owner": {
+        "display_name": "marvb",
+        "link": "https://stackoverflow.com/users/7801203/marvb"
+      }
+    },
+    {
+      "answer_id": 31805472,
+      "body": "<p>It is specified in an http header <code>content-disposition</code>. So to extract the name you would do:</p>\n\n<pre><code>import re\nd = r.headers['content-disposition']\nfname = re.findall(\"filename=(.+)\", d)[0]\n</code></pre>\n\n<p>Name extracted from the string via regular expression (<code>re</code> module).</p>\n",
+      "owner": {
+        "display_name": "Eugene V",
+        "link": "https://stackoverflow.com/users/3255354/eugene-v"
+      }
+    },
+    {
+      "answer_id": 57466119,
+      "body": "<p><strong>It's not recommended</strong> to use <code>verify = False</code> in your organization's environments. This is essentially disabling SSL verification.</p>\n\n<p>Sometimes, when you are behind a company proxy, it replaces the certificate chain with the ones of Proxy. Adding the certificates in cacert.pem used by certifi should solve the issue. I had similar issue. Here is what I did, to resolve the issue -</p>\n\n<ol>\n<li>Find the path where cacert.pem is located -</li>\n</ol>\n\n<blockquote>\n  <p>Install certifi, if you don't have. Command: <code>pip install certifi</code></p>\n</blockquote>\n\n<pre><code>import certifi\ncertifi.where()\nC:\\\\Users\\\\[UserID]\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python37-32\\\\lib\\\\site-packages\\\\certifi\\\\cacert.pem\n</code></pre>\n\n<ol start=\"2\">\n<li><p>Open the URL on a browser. Download the chain of certificates from the URL and save as Base64 encoded .cer files.</p></li>\n<li><p>Now open the cacert.pem in a notepad and just add every downloaded certificate contents (<code>---Begin Certificate--- *** ---End Certificate---</code>) at the end.</p></li>\n</ol>\n",
+      "owner": {
+        "display_name": "Indranil",
+        "link": "https://stackoverflow.com/users/1812464/indranil"
+      }
+    },
+    {
+      "answer_id": 30362669,
+      "body": "<p>You can <a href=\"https://stackoverflow.com/questions/2812520/pip-dealing-with-multiple-python-versions\">specify a Python version for <code>pip</code> to use</a>:</p>\n\n<pre><code>pip3.4 install requests\n</code></pre>\n\n<p>Python 3.4 has <a href=\"https://docs.python.org/3/installing/\" rel=\"noreferrer\">pip support built-in</a>, so you can also use:</p>\n\n<pre><code>python3.4 -m pip install\n</code></pre>\n\n<p>If you're running Ubuntu (or probably Debian as well), you'll need to install the system <code>pip3</code> separately:</p>\n\n<pre><code>sudo apt-get install python3-pip\n</code></pre>\n\n<p>This will install the <code>pip3</code> executable, so you can use it, as well as the earlier mentioned <code>python3.4 -m pip</code>:</p>\n\n<pre><code>pip3 install requests\n</code></pre>\n",
+      "owner": {
+        "display_name": "b4hand",
+        "link": "https://stackoverflow.com/users/1307166/b4hand"
+      }
+    },
+    {
+      "answer_id": 7164897,
+      "body": "<p>The latest release of Requests will build CookieJars for you from simple dictionaries.</p>\n\n<pre><code>import requests\n\ncookies = {'enwiki_session': '17ab96bd8ffbe8ca58a78657a918558'}\n\nr = requests.post('http://wikipedia.org', cookies=cookies)\n</code></pre>\n\n<p>Enjoy :)</p>\n",
+      "owner": {
+        "display_name": "Kenneth Reitz",
+        "link": "https://stackoverflow.com/users/120004/kenneth-reitz"
+      }
+    },
+    {
+      "answer_id": 53140699,
+      "body": "<p><strong>requests_toolbelt.sessions.BaseUrlSession</strong>\n<a href=\"https://github.com/requests/toolbelt/blob/f5c86c51e0a01fbc8b3b4e1c286fd5c7cb3aacfa/requests_toolbelt/sessions.py#L6\" rel=\"noreferrer\">https://github.com/requests/toolbelt/blob/f5c86c51e0a01fbc8b3b4e1c286fd5c7cb3aacfa/requests_toolbelt/sessions.py#L6</a></p>\n\n<p>NOTE: This uses urljoin from standard lib. Beware of urljoin's behavior.</p>\n\n<pre><code>In [14]: from urlparse import urljoin\n\nIn [15]: urljoin('https://localhost/api', '/resource')\nOut[15]: 'https://localhost/resource'\n\nIn [16]: urljoin('https://localhost/api', 'resource')\nOut[16]: 'https://localhost/resource'\n\nIn [17]: urljoin('https://localhost/api/', '/resource')\nOut[17]: 'https://localhost/resource'\n\nIn [18]: urljoin('https://localhost/api/', 'resource')\nOut[18]: 'https://localhost/api/resource'\n</code></pre>\n\n<p><strong>OR</strong></p>\n\n<pre><code>import requests \nfrom functools import partial\n\ndef PrefixUrlSession(prefix=None):                                                                                                                                                                                                                                                                                                                 \n     if prefix is None:                                                                                                                                                                                                                                                                                                                             \n         prefix = \"\"                                                                                                                                                                                                                                                                                                                                \n     else:                                                                                                                                                                                                                                                                                                                                          \n         prefix = prefix.rstrip('/') + '/'                                                                                                                                                                                                                                                                                                          \n\n     def new_request(prefix, f, method, url, *args, **kwargs):                                                                                                                                                                                                                                                                                      \n         return f(method, prefix + url, *args, **kwargs)                                                                                                                                                                                                                                                                                            \n\n     s = requests.Session()                                                                                                                                                                                                                                                                                                                         \n     s.request = partial(new_request, prefix, s.request)                                                                                                                                                                                                                                                                                            \n     return s             \n</code></pre>\n",
+      "owner": {
+        "display_name": "khluasdfikuljasdlkfasd",
+        "link": "https://stackoverflow.com/users/10603445/khluasdfikuljasdlkfasd"
+      }
+    },
+    {
+      "answer_id": 23271433,
+      "body": "<p>I was able to obtain the desired level of reliability by extending <code>requests.Session</code> class.</p>\n\n<p>Here is the code <a href=\"https://bitbucket.org/bspeakmon/jira-python/src/a7fca855394402f58507ca4056de87ccdbd6a213/jira/resilientsession.py?at=master\" rel=\"nofollow noreferrer\">https://bitbucket.org/bspeakmon/jira-python/src/a7fca855394402f58507ca4056de87ccdbd6a213/jira/resilientsession.py?at=master</a></p>\n\n<p><strong>EDIT</strong> That code was:</p>\n\n<pre><code>from requests import Session\nfrom requests.exceptions import ConnectionError\nimport logging\nimport time\n\n\nclass ResilientSession(Session):\n\n    \"\"\"\n    This class is supposed to retry requests that do return temporary errors.\n\n    At this moment it supports: 502, 503, 504\n    \"\"\"\n\n    def __recoverable(self, error, url, request, counter=1):\n        if hasattr(error,'status_code'):\n            if error.status_code in [502, 503, 504]:\n                error = \"HTTP %s\" % error.status_code\n            else:\n                return False\n        DELAY = 10 * counter\n        logging.warn(\"Got recoverable error [%s] from %s %s, retry #%s in %ss\" % (error, request, url, counter, DELAY))\n        time.sleep(DELAY)\n        return True\n\n\n    def get(self, url, **kwargs):\n        counter = 0\n        while True:\n            counter += 1\n            try:\n                r = super(ResilientSession, self).get(url, **kwargs)\n            except ConnectionError as e:\n                r = e.message\n            if self.__recoverable(r, url, 'GET', counter):\n                continue\n            return r\n\n    def post(self, url, **kwargs):\n        counter = 0\n        while True:\n            counter += 1\n            try:\n                r = super(ResilientSession, self).post(url, **kwargs)\n            except ConnectionError as e:\n                r = e.message\n            if self.__recoverable(r, url, 'POST', counter):\n                continue\n            return r\n\n    def delete(self, url, **kwargs):\n        counter = 0\n        while True:\n            counter += 1\n            try:\n                r = super(ResilientSession, self).delete(url, **kwargs)\n            except ConnectionError as e:\n                r = e.message\n            if self.__recoverable(r, url, 'DELETE', counter):\n                continue\n            return r\n\n    def put(self, url, **kwargs):\n        counter = 0\n        while True:\n            counter += 1\n            try:\n                r = super(ResilientSession, self).put(url, **kwargs)\n            except ConnectionError as e:\n                r = e.message\n\n            if self.__recoverable(r, url, 'PUT', counter):\n                continue\n            return r\n\n    def head(self, url, **kwargs):\n        counter = 0\n        while True:\n            counter += 1\n            try:\n                r = super(ResilientSession, self).head(url, **kwargs)\n            except ConnectionError as e:\n                r = e.message\n            if self.__recoverable(r, url, 'HEAD', counter):\n                continue\n            return r\n\n    def patch(self, url, **kwargs):\n        counter = 0\n        while True:\n            counter += 1\n            try:\n                r = super(ResilientSession, self).patch(url, **kwargs)\n            except ConnectionError as e:\n                r = e.message\n\n            if self.__recoverable(r, url, 'PATCH', counter):\n                continue\n            return r\n\n    def options(self, url, **kwargs):\n        counter = 0\n        while True:\n            counter += 1\n            try:\n                r = super(ResilientSession, self).options(url, **kwargs)\n            except ConnectionError as e:\n                r = e.message\n\n            if self.__recoverable(r, url, 'OPTIONS', counter):\n                continue\n            return r\n</code></pre>\n",
+      "owner": {
+        "display_name": "sorin",
+        "link": "https://stackoverflow.com/users/99834/sorin"
+      }
+    },
+    {
+      "answer_id": 13569789,
+      "body": "<p>If you are going to set the referrer header, then for that specific site you need to set the referrer to the same URL as the login page:</p>\n\n<pre><code>import sys\nimport requests\n\nURL = 'https://portal.bitcasa.com/login'\n\nclient = requests.session()\n\n# Retrieve the CSRF token first\nclient.get(URL)  # sets cookie\nif 'csrftoken' in client.cookies:\n    # Django 1.6 and up\n    csrftoken = client.cookies['csrftoken']\nelse:\n    # older versions\n    csrftoken = client.cookies['csrf']\n\nlogin_data = dict(username=EMAIL, password=PASSWORD, csrfmiddlewaretoken=csrftoken, next='/')\nr = client.post(URL, data=login_data, headers=dict(Referer=URL))\n</code></pre>\n\n<p>When using unsecured <code>http</code>, the <code>Referer</code> header is often filtered out and otherwise easily spoofable anyway, so most sites no longer require the header to be set. However, when using an SSL connection and if it is set, it does make sense for the site to validate that it at least references something that could logically have initiated the request. Django does this when the connection is encrypted (uses <code>https://</code>), and actively requires it then.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 50212636,
+      "body": "<p>You do have a mixed setup (both <code>apt</code> and <code>pip</code> were used to install system-wide, which is common), and it indeed doesn't match the supported versions of modules required by requests (and pip v1.5.6 is also quite old).</p>\n\n<p>The <code>requests</code> (which version? likely leftover from <code>pip install</code>) requires:<br>\nurllib3: 1.21.1 - 1.22<br>\nchardet: 3.0.2 - 3.1.0  </p>\n\n<p>You have:<br>\nurllib3 (1.9.1) from python-urllib3 1.9.1-3 debian package<br>\nchardet (2.3.0) from python-chardet 2.3.0-1 debian package  </p>\n\n<p>Two options:  </p>\n\n<ul>\n<li><p>either downgrade <code>requests</code> to the version from your OS distribution (see what's available with <code>apt show python-requests</code>), or older versions at pypi.org, or  </p></li>\n<li><p>or install newer urllib3 and chardet (you can download the wheel files manually from pipy.org and do <code>pip install</code> on them, including any dependencies), either at user level (<code>--user</code> pip install option) or in a virtualenv.</p></li>\n</ul>\n\n<p>You can test everything in a <a href=\"http://docs.python-guide.org/en/latest/dev/virtualenvs/#lower-level-virtualenv\" rel=\"noreferrer\">virtualenv</a> (<code>apt show python-virtualenv</code>). It should even deploy a newer pip for you inside of its virtual envs. It is also <a href=\"https://stackoverflow.com/questions/49768770/not-able-to-install-python-packages-ssl-tlsv1-alert-protocol-version\">possible</a> to install a newer pip 10.0.1 at the user-level (<code>--user</code>) alongside your OS-vendored pip but you need to be <a href=\"https://stackoverflow.com/questions/49881448/importerror-cannot-import-name-main-after-upgrading-tp-pip-10-0-0-for-python-ve\">careful</a> about that. Good luck!</p>\n",
+      "owner": {
+        "display_name": "stop.climatechange.now",
+        "link": "https://stackoverflow.com/users/9575715/stop-climatechange-now"
+      }
+    },
+    {
+      "answer_id": 27077674,
+      "body": "<p>It is in fact a little strange that the library has a blank page about end-user unit testing, while targeting user-friendliness and ease of use. There's however an easy-to-use library by Dropbox, unsurprisingly called <a href=\"https://pypi.python.org/pypi/responses\" rel=\"noreferrer\"><code>responses</code></a>. Here is its <a href=\"http://cra.mr/2014/05/20/mocking-requests-with-responses\" rel=\"noreferrer\">intro post</a>. It says they've failed to employ <a href=\"https://pypi.python.org/pypi/httpretty/\" rel=\"noreferrer\"><code>httpretty</code></a>, while stating no reason of the fail, and written a library with similar API.</p>\n\n<pre><code>import unittest\n\nimport requests\nimport responses\n\n\nclass TestCase(unittest.TestCase):\n\n  @responses.activate  \n  def testExample(self):\n    responses.add(**{\n      'method'         : responses.GET,\n      'url'            : 'http://example.com/api/123',\n      'body'           : '{\"error\": \"reason\"}',\n      'status'         : 404,\n      'content_type'   : 'application/json',\n      'adding_headers' : {'X-Foo': 'Bar'}\n    })\n\n    response = requests.get('http://example.com/api/123')\n\n    self.assertEqual({'error': 'reason'}, response.json())\n    self.assertEqual(404, response.status_code)\n</code></pre>\n",
+      "owner": {
+        "display_name": "saaj",
+        "link": "https://stackoverflow.com/users/2072035/saaj"
+      }
+    },
+    {
+      "answer_id": 24688721,
+      "body": "<p>Just take the <code>len()</code> of the content of the response:</p>\n\n<pre><code>&gt;&gt;&gt; response = requests.get('https://github.com/')\n&gt;&gt;&gt; len(response.content)\n51671\n</code></pre>\n\n<p>If you want to keep the streaming, for instance if the content is (too) large you can iterate over chunks of the data and sum their sizes:</p>\n\n<pre><code>&gt;&gt;&gt; with requests.get('https://github.com/', stream=True) as response:\n...     size = sum(len(chunk) for chunk in response.iter_content(8196))\n&gt;&gt;&gt; size\n51671\n</code></pre>\n",
+      "owner": {
+        "display_name": "BlackJack",
+        "link": "https://stackoverflow.com/users/3815611/blackjack"
+      }
+    },
+    {
+      "answer_id": 14270756,
+      "body": "<p>Send a <a href=\"http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods\" rel=\"noreferrer\">HEAD request</a>:</p>\n\n<pre><code>&gt;&gt;&gt; import requests\n&gt;&gt;&gt; response = requests.head('http://example.com')\n&gt;&gt;&gt; response.headers\n    {'connection': 'close',\n 'content-encoding': 'gzip',\n 'content-length': '606',\n 'content-type': 'text/html; charset=UTF-8',\n 'date': 'Fri, 11 Jan 2013 02:32:34 GMT',\n 'last-modified': 'Fri, 04 Jan 2013 01:17:22 GMT',\n 'server': 'Apache/2.2.3 (CentOS)',\n 'vary': 'Accept-Encoding'}\n</code></pre>\n\n<p>A HEAD request is like a GET request that only downloads the headers. Note that it's up to the server to actually honor your HEAD request. Some servers will only respond to GET requests, so you'll have to send a GET request and just close the connection instead of downloading the body. Other times, the server just never specifies the total size of the file.</p>\n",
+      "owner": {
+        "display_name": "Blender",
+        "link": "https://stackoverflow.com/users/464744/blender"
+      }
+    },
+    {
+      "answer_id": 48105794,
+      "body": "<p>It looks like the server is terminating the connection early without sending a full response. I've skimmed the docs and I think this is the problem (emphasis added):</p>\n\n<blockquote>\n<pre><code>send_response(code, message=None) \n</code></pre>\n  \n  <p>Adds a response header to the\n  headers buffer and logs the accepted request. The HTTP response line\n  is written to the internal buffer, followed by Server and Date\n  headers. The values for these two headers are picked up from the\n  version_string() and date_time_string() methods, respectively. If the\n  server does not intend to send any other headers using the\n  send_header() method, then send_response() should be followed by an\n  end_headers() call.</p>\n  \n  <p><strong>Changed in version 3.3: Headers are stored to an internal buffer and\n  end_headers() needs to be called explicitly.</strong></p>\n</blockquote>\n\n<p>So you probably just need to add the call to <code>end_headers</code>. If you were reading an old example (prior to Python 3.3) this wouldn't have been needed.</p>\n",
+      "owner": {
+        "display_name": "Peter Gibson",
+        "link": "https://stackoverflow.com/users/66349/peter-gibson"
+      }
+    },
+    {
+      "answer_id": 12510559,
+      "body": "<p>Just send xml bytes directly:</p>\n\n<pre><code>#!/usr/bin/env python2\n# -*- coding: utf-8 -*-\nimport requests\n\nxml = \"\"\"&lt;?xml version='1.0' encoding='utf-8'?&gt;\n&lt;a&gt;б&lt;/a&gt;\"\"\"\nheaders = {'Content-Type': 'application/xml'} # set what your server accepts\nprint requests.post('http://httpbin.org/post', data=xml, headers=headers).text\n</code></pre>\n\n<h3>Output</h3>\n\n<pre><code>{\n  \"origin\": \"x.x.x.x\",\n  \"files\": {},\n  \"form\": {},\n  \"url\": \"http://httpbin.org/post\",\n  \"args\": {},\n  \"headers\": {\n    \"Content-Length\": \"48\",\n    \"Accept-Encoding\": \"identity, deflate, compress, gzip\",\n    \"Connection\": \"keep-alive\",\n    \"Accept\": \"*/*\",\n    \"User-Agent\": \"python-requests/0.13.9 CPython/2.7.3 Linux/3.2.0-30-generic\",\n    \"Host\": \"httpbin.org\",\n    \"Content-Type\": \"application/xml\"\n  },\n  \"json\": null,\n  \"data\": \"&lt;?xml version='1.0' encoding='utf-8'?&gt;\\n&lt;a&gt;\\u0431&lt;/a&gt;\"\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "jfs",
+        "link": "https://stackoverflow.com/users/4279/jfs"
+      }
+    },
+    {
+      "answer_id": 11159798,
+      "body": "<p>As for your question, it should be the total time for </p>\n\n<ol>\n<li>time to create the request object</li>\n<li>Send request </li>\n<li>Receive response</li>\n<li>Parse response (See comment from Thomas Orozco )</li>\n</ol>\n\n<p>Other ways to measure a single request load time is to use urllib:</p>\n\n<pre><code>nf = urllib.urlopen(url)\nstart = time.time()\npage = nf.read()\nend = time.time()\nnf.close()\n# end - start gives you the page load time\n</code></pre>\n",
+      "owner": {
+        "display_name": "pyfunc",
+        "link": "https://stackoverflow.com/users/432745/pyfunc"
+      }
+    },
+    {
+      "answer_id": 14114741,
+      "body": "<p>Oddly enough, requests doesn't have anything simple for this. You'll have to iterate over the response and write those chunks to a file:</p>\n\n<pre><code>response = requests.get('http://www.example.com/image.jpg', stream=True)\n\n# Throw an error for bad status codes\nresponse.raise_for_status()\n\nwith open('output.jpg', 'wb') as handle:\n    for block in response.iter_content(1024):\n        handle.write(block)\n</code></pre>\n\n<p>I usually just use <code>urllib.urlretrieve()</code>. It works, but if you need to use a session or some sort of authentication, the above code works as well.</p>\n",
+      "owner": {
+        "display_name": "Blender",
+        "link": "https://stackoverflow.com/users/464744/blender"
+      }
+    },
+    {
+      "answer_id": 19269164,
+      "body": "<p>urllib2 does not verify server certificate by default. Check this <a href=\"http://docs.python.org/2/library/urllib2.html\" rel=\"nofollow noreferrer\">documentation.</a></p>\n\n<p>Edit: As pointed out in below comment, this is not true anymore for newer versions (seems like >= 2.7.9) of Python. Refer the below <a href=\"https://stackoverflow.com/questions/19268548/python-ignore-certicate-validation-urllib2/28048260#28048260\">ANSWER</a></p>\n",
+      "owner": {
+        "display_name": "thavan",
+        "link": "https://stackoverflow.com/users/323000/thavan"
+      }
+    },
+    {
+      "answer_id": 20838143,
+      "body": "<p>According to <a href=\"http://docs.python-requests.org/en/latest/user/advanced/#session-objects\" rel=\"noreferrer\">http://docs.python-requests.org/en/latest/user/advanced/#session-objects</a> , you should be able to do:</p>\n\n<pre><code>s = requests.Session()\ns.headers.update({'referer': my_referer})\ns.get(url)\n</code></pre>\n\n<p>Or just:</p>\n\n<pre><code>requests.get(url, headers={'referer': my_referer})\n</code></pre>\n\n<p>Your <code>headers</code> dict will be merged with the default/session headers. From the <a href=\"http://docs.python-requests.org/en/latest/user/advanced/\" rel=\"noreferrer\">docs</a>:</p>\n\n<blockquote>\n  <p>Any dictionaries that you pass to a request method will be merged with\n  the session-level values that are set. The method-level parameters\n  override session parameters.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "simon",
+        "link": "https://stackoverflow.com/users/969365/simon"
+      }
+    },
+    {
+      "answer_id": 34503421,
+      "body": "<p>You should use <code>response.content</code> in this case:</p>\n\n<pre><code>with open('/tmp/metadata.pdf', 'wb') as f:\n    f.write(response.content)\n</code></pre>\n\n<p>From <a href=\"http://requests.readthedocs.org/en/latest/user/quickstart/#binary-response-content\" rel=\"noreferrer\">the document</a>:</p>\n\n<blockquote>\n  <p>You can also access the response body as bytes, for non-text requests:</p>\n\n<pre><code>&gt;&gt;&gt; r.content\nb'[{\"repository\":{\"open_issues\":0,\"url\":\"https://github.com/...\n</code></pre>\n</blockquote>\n\n<p>So that means: <code>response.text</code> return the output as a string object, use it when you're downloading a <strong>text file</strong>. Such as HTML file, etc.</p>\n\n<p>And <code>response.content</code> return the output as bytes object, use it when you're downloading a <strong>binary file</strong>. Such as PDF file, audio file, image, etc.</p>\n\n<hr>\n\n<p><a href=\"http://requests.readthedocs.org/en/latest/user/quickstart/#raw-response-content\" rel=\"noreferrer\">You can also use <code>response.raw</code> instead</a>. However, use it when the file which you're about to download is large. Below is a basic example which you can also find in the document:</p>\n\n<pre><code>import requests\n\nurl = 'http://www.hrecos.org//images/Data/forweb/HRTVBSH.Metadata.pdf'\nr = requests.get(url, stream=True)\n\nwith open('/tmp/metadata.pdf', 'wb') as fd:\n    for chunk in r.iter_content(chunk_size):\n        fd.write(chunk)\n</code></pre>\n\n<p><code>chunk_size</code> is the chunk size which you want to use. If you set it as <code>2000</code>, then requests will download that file the first <code>2000</code> bytes, write them into the file, and do this again, again and again, unless it finished.</p>\n\n<p>So this can save your RAM. But I'd prefer use <code>response.content</code> instead in this case since your file is small. As you can see use <code>response.raw</code> is complex.</p>\n\n<hr>\n\n<p>Relates: </p>\n\n<ul>\n<li><p><a href=\"https://stackoverflow.com/questions/16694907/how-to-download-large-file-in-python-with-requests-py\">How to download large file in python with requests.py?</a>  </p></li>\n<li><p><a href=\"https://stackoverflow.com/questions/13137817/how-to-download-image-using-requests\">How to download image using requests</a></p></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Remi Guan",
+        "link": "https://stackoverflow.com/users/5299236/remi-guan"
+      }
+    },
+    {
+      "answer_id": 24718662,
+      "body": "<p>Alternatively, in case of Python 2.x, you can use <a href=\"https://docs.python.org/2/library/httplib.html#httplib.responses\" rel=\"noreferrer\"><code>httplib.responses</code></a>:</p>\n\n<pre><code>&gt;&gt;&gt; import httplib\n&gt;&gt;&gt; httplib.responses[200]\n'OK'\n&gt;&gt;&gt; httplib.responses[404]\n'Not Found'\n</code></pre>\n\n<p>In Python 3.x, use <a href=\"https://docs.python.org/3/library/http.client.html#http.client.responses\" rel=\"noreferrer\"><code>http</code> module</a>:</p>\n\n<pre><code>In [1]: from http.client import responses\n\nIn [2]: responses[200]\nOut[2]: 'OK'\n\nIn [3]: responses[404]\nOut[3]: 'Not Found'\n</code></pre>\n",
+      "owner": {
+        "display_name": "alecxe",
+        "link": "https://stackoverflow.com/users/771848/alecxe"
+      }
+    },
+    {
+      "answer_id": 17936634,
+      "body": "<p>This method existed in requests once upon a time but it is far from being remotely relevant to the module. You could create a function that takes a response and inspects its <code>request</code> attribute.</p>\n\n<p>The <code>request</code> attribute is a <code>PreparedRequest</code> object so it has <code>headers</code>, and <code>body</code> attributes. The body is what you pass to curl with <code>-d</code> and the headers can be generated as you did above. Finally you'll want to pluck off the <code>url</code> attribute from the <code>request</code> object and send that. The hooks don't matter to you unless you're doing something with a custom authentication handler.</p>\n\n<pre><code>req = response.request\n\ncommand = \"curl -X {method} -H {headers} -d '{data}' '{uri}'\"\nmethod = req.method\nuri = req.url\ndata = req.body\nheaders = ['\"{0}: {1}\"'.format(k, v) for k, v in req.headers.items()]\nheaders = \" -H \".join(headers)\nreturn command.format(method=method, headers=headers, data=data, uri=uri)\n</code></pre>\n\n<p>That <em>should</em> work. Your data will be properly formatted whether it is as <code>multipart/form-data</code> or anything else.</p>\n",
+      "owner": {
+        "display_name": "Ian Stapleton Cordasco",
+        "link": "https://stackoverflow.com/users/1953283/ian-stapleton-cordasco"
+      }
+    },
+    {
+      "answer_id": 35371451,
+      "body": "<p>This should help:</p>\n\n<pre><code>import csv\nimport requests\n\nCSV_URL = 'http://samplecsvs.s3.amazonaws.com/Sacramentorealestatetransactions.csv'\n\n\nwith requests.Session() as s:\n    download = s.get(CSV_URL)\n\n    decoded_content = download.content.decode('utf-8')\n\n    cr = csv.reader(decoded_content.splitlines(), delimiter=',')\n    my_list = list(cr)\n    for row in my_list:\n        print(row)\n</code></pre>\n\n<p>Ouput sample:</p>\n\n<pre><code>['street', 'city', 'zip', 'state', 'beds', 'baths', 'sq__ft', 'type', 'sale_date', 'price', 'latitude', 'longitude']\n['3526 HIGH ST', 'SACRAMENTO', '95838', 'CA', '2', '1', '836', 'Residential', 'Wed May 21 00:00:00 EDT 2008', '59222', '38.631913', '-121.434879']\n['51 OMAHA CT', 'SACRAMENTO', '95823', 'CA', '3', '1', '1167', 'Residential', 'Wed May 21 00:00:00 EDT 2008', '68212', '38.478902', '-121.431028']\n['2796 BRANCH ST', 'SACRAMENTO', '95815', 'CA', '2', '1', '796', 'Residential', 'Wed May 21 00:00:00 EDT 2008', '68880', '38.618305', '-121.443839']\n['2805 JANETTE WAY', 'SACRAMENTO', '95815', 'CA', '2', '1', '852', 'Residential', 'Wed May 21 00:00:00 EDT 2008', '69307', '38.616835', '-121.439146']\n[...]\n</code></pre>\n\n<p>Related question with answer: <a href=\"https://stackoverflow.com/a/33079644/295246\">https://stackoverflow.com/a/33079644/295246</a></p>\n\n<hr>\n\n<p>Edit: Other answers are useful if you need to download large files (i.e. <code>stream=True</code>).</p>\n",
+      "owner": {
+        "display_name": "HEADLESS_0NE",
+        "link": "https://stackoverflow.com/users/295246/headless-0ne"
+      }
+    },
+    {
+      "answer_id": 40361497,
+      "body": "<p>That because the <code>_content</code> attribute  on the <code>Response</code> objects (on python3) has to be bytes and not unicodes.</p>\n\n<p>Here is how to do it:</p>\n\n<pre><code>from requests.models import Response\n\nthe_response = Response()\nthe_response.code = \"expired\"\nthe_response.error_type = \"expired\"\nthe_response.status_code = 400\nthe_response._content = b'{ \"key\" : \"a\" }'\n\nprint(the_response.json())\n</code></pre>\n",
+      "owner": {
+        "display_name": "0xdead",
+        "link": "https://stackoverflow.com/users/2550354/0xdead"
+      }
+    },
+    {
+      "answer_id": 27652558,
+      "body": "<p>Provide a <a href=\"http://en.wikipedia.org/wiki/User_agent\"><code>User-Agent</code> header</a>:</p>\n\n<pre><code>import requests\n\nurl = 'http://www.ichangtou.com/#company:data_000008.html'\nheaders = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}\n\nresponse = requests.get(url, headers=headers)\nprint(response.content)\n</code></pre>\n\n<p>FYI, here is a list of User-Agent strings for different browsers:</p>\n\n<ul>\n<li><a href=\"http://www.useragentstring.com/pages/useragentstring.php\">List of all Browsers</a></li>\n</ul>\n\n<hr>\n\n<p>As a side note, there is a pretty useful third-party package called <a href=\"https://pypi.python.org/pypi/fake-useragent\">fake-useragent</a> that provides a nice abstraction layer over user agents:</p>\n\n<blockquote>\n  <p>fake-useragent</p>\n  \n  <p>Up to date simple useragent faker with real world database</p>\n</blockquote>\n\n<p>Demo:</p>\n\n<pre><code>&gt;&gt;&gt; from fake_useragent import UserAgent\n&gt;&gt;&gt; ua = UserAgent()\n&gt;&gt;&gt; ua.chrome\nu'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36'\n&gt;&gt;&gt; ua.random\nu'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36'\n</code></pre>\n",
+      "owner": {
+        "display_name": "alecxe",
+        "link": "https://stackoverflow.com/users/771848/alecxe"
+      }
+    },
+    {
+      "answer_id": 39959360,
+      "body": "<p>I had the same issue with conda and requests 2.11 (I work in a Ubuntu VM behind a corporate proxy).</p>\n\n<p><a href=\"https://github.com/kennethreitz/requests/issues/3516\">This issue</a> helped me. I changed my environment variable <code>all_proxy</code> (which was originally set to a SOCK proxy <code>socks://....</code>) to the https version in my .bashrc file :</p>\n\n<p><code>export all_proxy=\"https://&lt;proxy&gt;:&lt;port&gt;/\"</code> </p>\n\n<p>and now it works.</p>\n",
+      "owner": {
+        "display_name": "Guillaume Mohr",
+        "link": "https://stackoverflow.com/users/6211369/guillaume-mohr"
+      }
+    },
+    {
+      "answer_id": 38489588,
+      "body": "<p>It seems the page rejects <code>GET</code> requests that do not identify a <code>User-Agent</code>. I visited the page with a browser (Chrome) and copied the <code>User-Agent</code> header of the <code>GET</code> request (look in the Network tab of the developer tools):</p>\n\n<pre><code>import requests\nurl = 'http://worldagnetwork.com/'\nheaders = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}\nresult = requests.get(url, headers=headers)\nprint(result.content.decode())\n\n# &lt;!doctype html&gt;\n# &lt;!--[if lt IE 7 ]&gt;&lt;html class=\"no-js ie ie6\" lang=\"en\"&gt; &lt;![endif]--&gt;\n# &lt;!--[if IE 7 ]&gt;&lt;html class=\"no-js ie ie7\" lang=\"en\"&gt; &lt;![endif]--&gt;\n# &lt;!--[if IE 8 ]&gt;&lt;html class=\"no-js ie ie8\" lang=\"en\"&gt; &lt;![endif]--&gt;\n# &lt;!--[if (gte IE 9)|!(IE)]&gt;&lt;!--&gt;&lt;html class=\"no-js\" lang=\"en\"&gt; &lt;!--&lt;![endif]--&gt;\n# ...\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alicia Garcia-Raboso",
+        "link": "https://stackoverflow.com/users/509824/alicia-garcia-raboso"
+      }
+    },
+    {
+      "answer_id": 38016392,
+      "body": "<p>Disabling warnings or certificate validation will not help. The underlying problem is a weak DH key used by the server which can be misused in the <a href=\"https://weakdh.org/\" rel=\"noreferrer\">Logjam Attack</a>. </p>\n\n<p>To work around this you need to chose a cipher which does not make any use of Diffie Hellman Key Exchange and thus is not affected by the weak DH key. And this cipher must be supported by the server. It is unknown what the server supports but you might try with the cipher <code>AES128-SHA</code> or a cipher set of <code>HIGH:!DH:!aNULL</code></p>\n\n<p>Using requests with your own cipher set is tricky. See <a href=\"https://stackoverflow.com/questions/32650984/why-does-python-requests-ignore-the-verify-parameter\">Why does Python requests ignore the verify parameter?</a> for an example.</p>\n",
+      "owner": {
+        "display_name": "Steffen Ullrich",
+        "link": "https://stackoverflow.com/users/3081018/steffen-ullrich"
+      }
+    },
+    {
+      "answer_id": 32899936,
+      "body": "<p><strong><a href=\"https://github.com/svanoort/python-client-benchmarks\">I wrote you a full benchmark</a></strong>, using a trivial Flask application backed by gUnicorn/meinheld + nginx (for performance and HTTPS), and seeing how long it takes to complete 10,000 requests. Tests are run in AWS on a pair of unloaded c4.large instances, and the server instance was not CPU-limited.</p>\n\n<p><strong>TL;DR summary:</strong> if you're doing a lot of networking, use PyCurl, otherwise use requests. PyCurl finishes small requests 2x-3x as fast as requests until you hit the bandwidth limit with large requests (around 520 MBit or 65 MB/s here), and uses from 3x to 10x less CPU power.  These figures compare cases where connection pooling behavior is the same; by default, PyCurl uses connection pooling and DNS caches, where requests does not, so a naive implementation will be 10x as slow. </p>\n\n<p><a href=\"https://i.sstatic.net/be4Xs.png\"><img src=\"https://i.sstatic.net/be4Xs.png\" alt=\"Combined-chart-RPS\"></a>\n<a href=\"https://i.sstatic.net/TD3ok.png\"><img src=\"https://i.sstatic.net/TD3ok.png\" alt=\"CPU Time by request size detailed\"></a></p>\n\n<p><a href=\"https://i.sstatic.net/nPend.png\"><img src=\"https://i.sstatic.net/nPend.png\" alt=\"Just HTTP throughput\"></a>\n<a href=\"https://i.sstatic.net/1w1qd.png\"><img src=\"https://i.sstatic.net/1w1qd.png\" alt=\"Just HTTP RPS\"></a></p>\n\n<p><strong>Note that double log plots are used for the below graph only, due to the orders of magnitude involved</strong>\n<a href=\"https://i.sstatic.net/KmqkF.png\"><img src=\"https://i.sstatic.net/KmqkF.png\" alt=\"HTTP &amp; HTTPS throughput\"></a>\n<a href=\"https://i.sstatic.net/bSKul.png\"><img src=\"https://i.sstatic.net/bSKul.png\" alt=\"HTTP &amp; HTTPS RPS\"></a></p>\n\n<ul>\n<li>pycurl takes about 73 CPU-microseconds to issue a request when reusing a connection</li>\n<li>requests takes about <strong>526 CPU-microseconds</strong> to issue a request when reusing a connection</li>\n<li>pycurl takes about 165 CPU-microseconds to <em>open a new connection</em> and issue a request (no connection reuse), or ~92 microseconds to open</li>\n<li>requests takes about <strong>1078</strong> CPU-microseconds to <em>open a new connection</em> and issue a request (no connection reuse), or ~552 microseconds to open</li>\n</ul>\n\n<p><a href=\"https://github.com/svanoort/python-client-benchmarks\">Full results are in the link</a>, along with the benchmark methodology and system configuration.</p>\n\n<p><strong>Caveats:</strong> although I've taken pains to ensure the results are collected in a scientific way, it's only testing one system type and one operating system, and a limited subset of performance and especially HTTPS options.</p>\n",
+      "owner": {
+        "display_name": "BobMcGee",
+        "link": "https://stackoverflow.com/users/95122/bobmcgee"
+      }
+    },
+    {
+      "answer_id": 11029841,
+      "body": "<p>I found out how to configure <em>requests</em>'s logging level, it's done via the standard <a href=\"http://docs.python.org/library/logging.html\" rel=\"noreferrer\">logging</a> module. I decided to configure it to not log messages unless they are at least warnings:</p>\n\n<pre><code>import logging\n\nlogging.getLogger(\"requests\").setLevel(logging.WARNING)\n</code></pre>\n\n<p>If you wish to apply this setting for the urllib3 library (typically used by requests) too, add the following:</p>\n\n<pre><code>logging.getLogger(\"urllib3\").setLevel(logging.WARNING)\n</code></pre>\n",
+      "owner": {
+        "display_name": "aknuds1",
+        "link": "https://stackoverflow.com/users/265261/aknuds1"
+      }
+    },
+    {
+      "answer_id": 33432971,
+      "body": "<p>I solve the problem my issue was I had file named queue.py in the same directory</p>\n",
+      "owner": {
+        "display_name": "Ali Abdelrahman",
+        "link": "https://stackoverflow.com/users/5104452/ali-abdelrahman"
+      }
+    },
+    {
+      "answer_id": 30539963,
+      "body": "<p><code>zsh</code> uses <a href=\"http://zsh.sourceforge.net/Guide/zshguide05.html#l137\">square brackets for globbing / pattern matching</a>.</p>\n\n<p>That means that if you need to pass literal square brackets as an argument to a command, you either need to escape them or quote the argument like this:</p>\n\n<pre><code>pip install 'requests[security]'\n</code></pre>\n\n<p>If you want to disable <a href=\"http://en.wikipedia.org/wiki/Glob_%28programming%29\">globbing</a> for the <code>pip</code> command permanently, you can do so by adding this to your <code>~/.zshrc</code>:</p>\n\n<pre><code>alias pip='noglob pip'\n</code></pre>\n",
+      "owner": {
+        "display_name": "Lukas Graf",
+        "link": "https://stackoverflow.com/users/1599111/lukas-graf"
+      }
+    },
+    {
+      "answer_id": 20760055,
+      "body": "<p>You can use the <a href=\"http://docs.python-requests.org/en/latest/user/advanced/#session-objects\">Session</a> object</p>\n\n<pre><code>import requests\nheaders = {'User-Agent': 'Mozilla/5.0'}\npayload = {'username':'niceusername','password':'123456'}\n\nsession = requests.Session()\nsession.post('https://admin.example.com/login.php',headers=headers,data=payload)\n# the session instance holds the cookie. So use it to get/post later.\n# e.g. session.get('https://example.com/profile')\n</code></pre>\n",
+      "owner": {
+        "display_name": "atupal",
+        "link": "https://stackoverflow.com/users/2226698/atupal"
+      }
+    },
+    {
+      "answer_id": 27022707,
+      "body": "<p>I use <code>multiprocessing.dummy.Pool</code>. I create a singleton thread pool at the module level, and then use <code>pool.apply_async(requests.get, [params])</code> to launch the task.</p>\n\n<p>This command gives me a future, which I can add to a list with other futures indefinitely until I'd like to collect all or  some of the results.</p>\n\n<p><code>multiprocessing.dummy.Pool</code> is, against all logic and reason, a THREAD pool and not a process pool.</p>\n\n<p>Example (works in both Python 2 and 3, as long as requests is installed):</p>\n\n<pre><code>from multiprocessing.dummy import Pool\n\nimport requests\n\npool = Pool(10) # Creates a pool with ten threads; more threads = more concurrency.\n                # \"pool\" is a module attribute; you can be sure there will only\n                # be one of them in your application\n                # as modules are cached after initialization.\n\nif __name__ == '__main__':\n    futures = []\n    for x in range(10):\n        futures.append(pool.apply_async(requests.get, ['http://example.com/']))\n    # futures is now a list of 10 futures.\n    for future in futures:\n        print(future.get()) # For each future, wait until the request is\n                            # finished and then print the response object.\n</code></pre>\n\n<p>The requests will be executed concurrently, so running all ten of these requests should take no longer than the longest one. This strategy will only use one CPU core, but that shouldn't be an issue because almost all of the time will be spent waiting for I/O.</p>\n",
+      "owner": {
+        "display_name": "Andrew Gorcester",
+        "link": "https://stackoverflow.com/users/471671/andrew-gorcester"
+      }
+    },
+    {
+      "answer_id": 26685359,
+      "body": "<p>To answer my own question, it appears my two examples above do the same thing and that using the <code>json</code> parameter does indeed set the <code>content-type</code> in the headers to <code>application/json</code>.  In my first example above using the <code>data</code> parameter, the <code>content-type</code> in the headers would need to be set manually.</p>\n",
+      "owner": {
+        "display_name": "user1507844",
+        "link": "https://stackoverflow.com/users/1507844/user1507844"
+      }
+    },
+    {
+      "answer_id": 14146031,
+      "body": "<p>Reposting this here for others from <a href=\"https://github.com/kennethreitz/requests/issues/1083#issuecomment-11853729\" rel=\"noreferrer\">the requests issue page</a>:</p>\n\n<p>Requests' does not support doing this before version 1. Subsequent to version 1, you are expected to subclass the HTTPAdapter, like so:</p>\n\n<pre><code>from requests.adapters import HTTPAdapter\nfrom requests.packages.urllib3.poolmanager import PoolManager\nimport ssl\n\nclass MyAdapter(HTTPAdapter):\n    def init_poolmanager(self, connections, maxsize, block=False):\n        self.poolmanager = PoolManager(num_pools=connections,\n                                       maxsize=maxsize,\n                                       block=block,\n                                       ssl_version=ssl.PROTOCOL_TLSv1)\n</code></pre>\n\n<p>When you've done that, you can do this:</p>\n\n<pre><code>import requests\ns = requests.Session()\ns.mount('https://', MyAdapter())\n</code></pre>\n\n<p>Any request through that session object will then use TLSv1.</p>\n",
+      "owner": {
+        "display_name": "jasonamyers",
+        "link": "https://stackoverflow.com/users/1231488/jasonamyers"
+      }
+    },
+    {
+      "answer_id": 24531618,
+      "body": "<p>If you want the response to raise an exception for a non-200 status code use <code>response.raise_for_status()</code>. Your code would then look like:</p>\n\n<pre><code>testURL = 'http://httpbin.org/status/404'\n\n\ndef return_json(URL):\n    response = requests.get(testURL)\n\n    try:\n        response.raise_for_status()\n    except requests.exceptions.HTTPError as e:\n        # Whoops it wasn't a 200\n        return \"Error: \" + str(e)\n\n    # Must have been a 200 status code\n    json_obj = response.json()\n    return json_obj\n</code></pre>\n\n<p>You can tell that this is clearly simpler than the other solutions here and doesn't require you to check the status code manually. You would also just catch an <code>HTTPError</code> since that is what <code>raise_for_status</code> will raise. Catching <code>RequestsException</code> is a poor idea. That will catch things like <code>ConnectionError</code>s or <code>TimeoutError</code>s, etc. None of those mean the same thing as what you're trying to catch.</p>\n",
+      "owner": {
+        "display_name": "Ian Stapleton Cordasco",
+        "link": "https://stackoverflow.com/users/1953283/ian-stapleton-cordasco"
+      }
+    },
+    {
+      "answer_id": 24535938,
+      "body": "<p><code>params</code> form the <a href=\"http://en.wikipedia.org/wiki/Query_string\"><em>query string</em></a> in the URL, <code>data</code> is used to fill the <em>body</em> of a request (together with <code>files</code>). <code>GET</code> and <code>HEAD</code> requests have no body.</p>\n\n<p>For the <em>majority</em> of servers accepting a <code>POST</code> request, the data is expected to be passed in as the request <em>body</em>.</p>\n\n<p>You need to consult the documentation for the specific API you are calling as to what they expect, but if you have to assume, assume you have to use <code>data</code>.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 24119878,
+      "body": "<p>You're confusing form-encoded and JSON data here. <code>request.POST['foo']</code> is for form-encoded data. You are posting raw JSON, so you should use <code>request.body</code>.</p>\n\n<pre><code>received_json_data=json.loads(request.body)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Daniel Roseman",
+        "link": "https://stackoverflow.com/users/104349/daniel-roseman"
+      }
+    },
+    {
+      "answer_id": 22975101,
+      "body": "<p>What u are doing is correct only. The resultant url is same what u are expecting.    </p>\n\n<pre><code>&gt;&gt;&gt; payload = {'name': 'hello', 'data': 'hello'}\n&gt;&gt;&gt; r = requests.get(\"http://example.com/api/params\", params=payload)\n</code></pre>\n\n<p>u can see the resultant url:</p>\n\n<pre><code>&gt;&gt;&gt; print(r.url)\nhttp://example.com/api/params?name=hello&amp;data=hello\n</code></pre>\n\n<p>According to <a href=\"http://en.wikipedia.org/wiki/Query_string#URL_encoding\" rel=\"noreferrer\">url format</a>:</p>\n\n<p>In particular, encoding the query string uses the following rules:</p>\n\n<ul>\n<li>Letters (A–Z and a–z), numbers (0–9) and the characters <code>.</code>,<code>-</code>,<code>~</code> and <code>_</code> are left as-is</li>\n<li>SPACE is encoded as <code>+</code> or <code>%20</code></li>\n<li>All other characters are encoded as %HH hex representation with any non-ASCII characters first encoded as UTF-8 (or other specified encoding)</li>\n</ul>\n\n<p>So  <code>array[]</code> will not be as expected and will be automatically replaced according to the rules:</p>\n\n<p>If you build a url like :</p>\n\n<pre><code>`Build URL: http://example.com/api/add.json?name='hello'&amp;data[]='hello'&amp;data[]='world'`\n</code></pre>\n\n<p>OutPut will be:</p>\n\n<pre><code>&gt;&gt;&gt; payload = {'name': 'hello', \"data[]\": 'hello','data[]':'world'}\n&gt;&gt;&gt; r = requests.get(\"http://example.com/api/params\", params=payload)\n&gt;&gt;&gt; r.url\nu'http://example.com/api/params?data%5B%5D=world&amp;name=hello'\n</code></pre>\n\n<p>This is because Duplication will be replaced by the last value of the key in url and <code>data[]</code> will be replaced by <code>data%5B%5D</code>.</p>\n\n<p>If <code>data%5B%5D</code> is not the problem(If server is able to parse it correctly),then u can go ahead with it.</p>\n\n<p><a href=\"http://docs.python-requests.org/en/latest/user/quickstart/#passing-parameters-in-urls\" rel=\"noreferrer\">Source Link</a></p>\n",
+      "owner": {
+        "display_name": "Arvind",
+        "link": "https://stackoverflow.com/users/2640953/arvind"
+      }
+    },
+    {
+      "answer_id": 19343099,
+      "body": "<p>The <code>HTTPError</code> carries the <code>Response</code> object with it:</p>\n\n<pre><code>def get_url_fp(image_url, request_kwargs=None):\n    response = requests.get(some_url, **request_kwargs)\n    response.raise_for_status()\n    return response.raw\n\n\ntry:\n    a = \"http://example.com\"\n    fp = get_url_fp(a)\n\nexcept HTTPError as e:\n    # Need to check its an 404, 503, 500, 403 etc.\n    status_code = e.response.status_code\n</code></pre>\n",
+      "owner": {
+        "display_name": "Lukasa",
+        "link": "https://stackoverflow.com/users/1401686/lukasa"
+      }
+    },
+    {
+      "answer_id": 19072991,
+      "body": "<p>In python:</p>\n\n<pre><code>('&lt;MY_TOKEN&gt;')\n</code></pre>\n\n<p>is equivalent to</p>\n\n<pre><code>'&lt;MY_TOKEN&gt;'\n</code></pre>\n\n<p>And requests interprets</p>\n\n<pre><code>('TOK', '&lt;MY_TOKEN&gt;')\n</code></pre>\n\n<p>As you wanting requests to use Basic Authentication and craft an authorization header like so:</p>\n\n<pre><code>'VE9LOjxNWV9UT0tFTj4K'\n</code></pre>\n\n<p>Which is the base64 representation of <code>'TOK:&lt;MY_TOKEN&gt;'</code></p>\n\n<p>To pass your own header you pass in a dictionary like so:</p>\n\n<pre><code>r = requests.get('&lt;MY_URI&gt;', headers={'Authorization': 'TOK:&lt;MY_TOKEN&gt;'})\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ian Stapleton Cordasco",
+        "link": "https://stackoverflow.com/users/1953283/ian-stapleton-cordasco"
+      }
+    },
+    {
+      "answer_id": 10115553,
+      "body": "<p>As discussed <a href=\"https://stackoverflow.com/questions/3272653/in-what-conditions-are-closing-a-http-connection-necessary/3272700#3272700\">here</a>, there really isn't such a thing as an HTTP connection and what httplib refers to as the HTTPConnection is really the underlying TCP connection which doesn't really know much about your requests at all. Requests abstracts that away and you won't ever see it.</p>\n\n<p>The newest version of Requests does in fact keep the TCP connection alive after your request.. If you do want your TCP connections to close, you can just configure the requests to not use <a href=\"http://docs.python-requests.org/en/latest/user/advanced/#keep-alive\" rel=\"noreferrer\">keep-alive</a>.</p>\n\n<pre><code>s = requests.session()\ns.config['keep_alive'] = False\n</code></pre>\n",
+      "owner": {
+        "display_name": "Felix Fung",
+        "link": "https://stackoverflow.com/users/225200/felix-fung"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1908 @@
+{
+  "library": "pypi:flask",
+  "fetched_at": "2026-11-21T17:28:10Z",
+  "questions": [
+    {
+      "question_id": 10434599,
+      "title": "Get the data received in a Flask request",
+      "accepted_answer_id": 16664376,
+      "score": 1303,
+      "link": "https://stackoverflow.com/questions/10434599/get-the-data-received-in-a-flask-request",
+      "owner": {
+        "display_name": "ddinchev",
+        "link": "https://stackoverflow.com/users/762886/ddinchev"
+      }
+    },
+    {
+      "question_id": 20646822,
+      "title": "How to serve static files in Flask",
+      "accepted_answer_id": 20648053,
+      "score": 844,
+      "link": "https://stackoverflow.com/questions/20646822/how-to-serve-static-files-in-flask",
+      "owner": {
+        "display_name": "hughdbrown",
+        "link": "https://stackoverflow.com/users/10293/hughdbrown"
+      }
+    },
+    {
+      "question_id": 7023052,
+      "title": "Configure Flask dev server to be visible across the network",
+      "accepted_answer_id": 7027113,
+      "score": 735,
+      "link": "https://stackoverflow.com/questions/7023052/configure-flask-dev-server-to-be-visible-across-the-network",
+      "owner": {
+        "display_name": "sa125",
+        "link": "https://stackoverflow.com/users/187907/sa125"
+      }
+    },
+    {
+      "question_id": 13081532,
+      "title": "Return JSON response from Flask view",
+      "accepted_answer_id": 13089975,
+      "score": 706,
+      "link": "https://stackoverflow.com/questions/13081532/return-json-response-from-flask-view",
+      "owner": {
+        "display_name": "Code Ninja",
+        "link": "https://stackoverflow.com/users/1667967/code-ninja"
+      }
+    },
+    {
+      "question_id": 11774265,
+      "title": "How do you access the query string in Flask routes?",
+      "accepted_answer_id": 11774434,
+      "score": 668,
+      "link": "https://stackoverflow.com/questions/11774265/how-do-you-access-the-query-string-in-flask-routes",
+      "owner": {
+        "display_name": "Tampa",
+        "link": "https://stackoverflow.com/users/1203556/tampa"
+      }
+    },
+    {
+      "question_id": 24892035,
+      "title": "How can I get the named parameters from a URL using Flask?",
+      "accepted_answer_id": 24892131,
+      "score": 636,
+      "link": "https://stackoverflow.com/questions/24892035/how-can-i-get-the-named-parameters-from-a-url-using-flask",
+      "owner": {
+        "display_name": "Alex Stone",
+        "link": "https://stackoverflow.com/users/967484/alex-stone"
+      }
+    },
+    {
+      "question_id": 20001229,
+      "title": "How to get POSTed JSON in Flask?",
+      "accepted_answer_id": 20001283,
+      "score": 520,
+      "link": "https://stackoverflow.com/questions/20001229/how-to-get-posted-json-in-flask",
+      "owner": {
+        "display_name": "kramer65",
+        "link": "https://stackoverflow.com/users/1650012/kramer65"
+      }
+    },
+    {
+      "question_id": 15995919,
+      "title": "How to use cURL to send Cookies?",
+      "accepted_answer_id": 15996114,
+      "score": 467,
+      "link": "https://stackoverflow.com/questions/15995919/how-to-use-curl-to-send-cookies",
+      "owner": {
+        "display_name": "daydreamer",
+        "link": "https://stackoverflow.com/users/379235/daydreamer"
+      }
+    },
+    {
+      "question_id": 16344756,
+      "title": "Auto reloading python Flask app upon code changes",
+      "accepted_answer_id": 40150705,
+      "score": 438,
+      "link": "https://stackoverflow.com/questions/16344756/auto-reloading-python-flask-app-upon-code-changes",
+      "owner": {
+        "display_name": "Passiday",
+        "link": "https://stackoverflow.com/users/640694/passiday"
+      }
+    },
+    {
+      "question_id": 14343812,
+      "title": "Redirecting to URL in Flask",
+      "accepted_answer_id": 14343957,
+      "score": 372,
+      "link": "https://stackoverflow.com/questions/14343812/redirecting-to-url-in-flask",
+      "owner": {
+        "display_name": "iJade",
+        "link": "https://stackoverflow.com/users/1426157/ijade"
+      }
+    },
+    {
+      "question_id": 14032066,
+      "title": "Can Flask have optional URL parameters?",
+      "accepted_answer_id": 14032302,
+      "score": 369,
+      "link": "https://stackoverflow.com/questions/14032066/can-flask-have-optional-url-parameters",
+      "owner": {
+        "display_name": "Noor",
+        "link": "https://stackoverflow.com/users/484290/noor"
+      }
+    },
+    {
+      "question_id": 20212894,
+      "title": "How do I get Flask to run on port 80?",
+      "accepted_answer_id": 20213086,
+      "score": 353,
+      "link": "https://stackoverflow.com/questions/20212894/how-do-i-get-flask-to-run-on-port-80",
+      "owner": {
+        "display_name": "quantumtremor",
+        "link": "https://stackoverflow.com/users/3024025/quantumtremor"
+      }
+    },
+    {
+      "question_id": 17972020,
+      "title": "How to execute raw SQL in Flask-SQLAlchemy app",
+      "accepted_answer_id": 17987782,
+      "score": 345,
+      "link": "https://stackoverflow.com/questions/17972020/how-to-execute-raw-sql-in-flask-sqlalchemy-app",
+      "owner": {
+        "display_name": "starwing123",
+        "link": "https://stackoverflow.com/users/1848523/starwing123"
+      }
+    },
+    {
+      "question_id": 7907596,
+      "title": "json.dumps vs flask.jsonify",
+      "accepted_answer_id": 13172658,
+      "score": 343,
+      "link": "https://stackoverflow.com/questions/7907596/json-dumps-vs-flask-jsonify",
+      "owner": {
+        "display_name": "Sergei Basharov",
+        "link": "https://stackoverflow.com/users/135829/sergei-basharov"
+      }
+    },
+    {
+      "question_id": 29386995,
+      "title": "How to get http headers in flask?",
+      "accepted_answer_id": 29387151,
+      "score": 339,
+      "link": "https://stackoverflow.com/questions/29386995/how-to-get-http-headers-in-flask",
+      "owner": {
+        "display_name": "emil",
+        "link": "https://stackoverflow.com/users/3773265/emil"
+      }
+    },
+    {
+      "question_id": 3759981,
+      "title": "Get IP address of visitors using Flask for Python",
+      "accepted_answer_id": 3760309,
+      "score": 336,
+      "link": "https://stackoverflow.com/questions/3759981/get-ip-address-of-visitors-using-flask-for-python",
+      "owner": {
+        "display_name": "Jon Cox",
+        "link": "https://stackoverflow.com/users/404409/jon-cox"
+      }
+    },
+    {
+      "question_id": 3206344,
+      "title": "Passing HTML to template using Flask/Jinja2",
+      "accepted_answer_id": 3206446,
+      "score": 287,
+      "link": "https://stackoverflow.com/questions/3206344/passing-html-to-template-using-flask-jinja2",
+      "owner": {
+        "display_name": "sharvey",
+        "link": "https://stackoverflow.com/users/138352/sharvey"
+      }
+    },
+    {
+      "question_id": 7478366,
+      "title": "Create dynamic URLs in Flask with url_for()",
+      "accepted_answer_id": 7478705,
+      "score": 279,
+      "link": "https://stackoverflow.com/questions/7478366/create-dynamic-urls-in-flask-with-url-for",
+      "owner": {
+        "display_name": "Gio Borje",
+        "link": "https://stackoverflow.com/users/259311/gio-borje"
+      }
+    },
+    {
+      "question_id": 11994325,
+      "title": "How to divide flask app into multiple py files?",
+      "accepted_answer_id": 11994728,
+      "score": 272,
+      "link": "https://stackoverflow.com/questions/11994325/how-to-divide-flask-app-into-multiple-py-files",
+      "owner": {
+        "display_name": "Rolando",
+        "link": "https://stackoverflow.com/users/971888/rolando"
+      }
+    },
+    {
+      "question_id": 14814201,
+      "title": "Can I serve multiple clients using just Flask app.run() as standalone?",
+      "accepted_answer_id": 14823968,
+      "score": 262,
+      "link": "https://stackoverflow.com/questions/14814201/can-i-serve-multiple-clients-using-just-flask-app-run-as-standalone",
+      "owner": {
+        "display_name": "ATOzTOA",
+        "link": "https://stackoverflow.com/users/1729773/atoztoa"
+      }
+    },
+    {
+      "question_id": 23327293,
+      "title": "Flask raises TemplateNotFound error even though template file exists",
+      "accepted_answer_id": 23327352,
+      "score": 257,
+      "link": "https://stackoverflow.com/questions/23327293/flask-raises-templatenotfound-error-even-though-template-file-exists",
+      "owner": {
+        "display_name": "Srdjan Ristic",
+        "link": "https://stackoverflow.com/users/2687059/srdjan-ristic"
+      }
+    },
+    {
+      "question_id": 51025893,
+      "title": "Flask at first run: Do not use the development server in a production environment",
+      "accepted_answer_id": 51026060,
+      "score": 247,
+      "link": "https://stackoverflow.com/questions/51025893/flask-at-first-run-do-not-use-the-development-server-in-a-production-environmen",
+      "owner": {
+        "display_name": "Kristina",
+        "link": "https://stackoverflow.com/users/6284785/kristina"
+      }
+    },
+    {
+      "question_id": 15974730,
+      "title": "How do I get the different parts of a Flask request&#39;s url?",
+      "accepted_answer_id": 15975041,
+      "score": 244,
+      "link": "https://stackoverflow.com/questions/15974730/how-do-i-get-the-different-parts-of-a-flask-requests-url",
+      "owner": {
+        "display_name": "Dogukan Tufekci",
+        "link": "https://stackoverflow.com/users/1544125/dogukan-tufekci"
+      }
+    },
+    {
+      "question_id": 11773348,
+      "title": "Python Flask, how to set content type",
+      "accepted_answer_id": 11774026,
+      "score": 243,
+      "link": "https://stackoverflow.com/questions/11773348/python-flask-how-to-set-content-type",
+      "owner": {
+        "display_name": "Tampa",
+        "link": "https://stackoverflow.com/users/1203556/tampa"
+      }
+    },
+    {
+      "question_id": 27158573,
+      "title": "How to delete a record by id in Flask-SQLAlchemy",
+      "accepted_answer_id": 27159298,
+      "score": 231,
+      "link": "https://stackoverflow.com/questions/27158573/how-to-delete-a-record-by-id-in-flask-sqlalchemy",
+      "owner": {
+        "display_name": "Sergey",
+        "link": "https://stackoverflow.com/users/3074419/sergey"
+      }
+    },
+    {
+      "question_id": 24420857,
+      "title": "What are Flask Blueprints, exactly?",
+      "accepted_answer_id": 24420993,
+      "score": 231,
+      "link": "https://stackoverflow.com/questions/24420857/what-are-flask-blueprints-exactly",
+      "owner": {
+        "display_name": "JoshieSimmons",
+        "link": "https://stackoverflow.com/users/2436897/joshiesimmons"
+      }
+    },
+    {
+      "question_id": 10938360,
+      "title": "How many concurrent requests does a single Flask process receive?",
+      "accepted_answer_id": 13929101,
+      "score": 230,
+      "link": "https://stackoverflow.com/questions/10938360/how-many-concurrent-requests-does-a-single-flask-process-receive",
+      "owner": {
+        "display_name": "Carson",
+        "link": "https://stackoverflow.com/users/200619/carson"
+      }
+    },
+    {
+      "question_id": 15083967,
+      "title": "When should Flask.g be used?",
+      "accepted_answer_id": 15101229,
+      "score": 228,
+      "link": "https://stackoverflow.com/questions/15083967/when-should-flask-g-be-used",
+      "owner": {
+        "display_name": "Yaniv Aknin",
+        "link": "https://stackoverflow.com/users/459852/yaniv-aknin"
+      }
+    },
+    {
+      "question_id": 11522151,
+      "title": "Typical AngularJS workflow and project structure (with Python Flask)",
+      "accepted_answer_id": 15144980,
+      "score": 228,
+      "link": "https://stackoverflow.com/questions/11522151/typical-angularjs-workflow-and-project-structure-with-python-flask",
+      "owner": {
+        "display_name": "Sahat Yalkabov",
+        "link": "https://stackoverflow.com/users/274117/sahat-yalkabov"
+      }
+    },
+    {
+      "question_id": 7824101,
+      "title": "Return HTTP status code 201 in flask",
+      "accepted_answer_id": 7824605,
+      "score": 224,
+      "link": "https://stackoverflow.com/questions/7824101/return-http-status-code-201-in-flask",
+      "owner": {
+        "display_name": "ingh.am",
+        "link": "https://stackoverflow.com/users/143979/ingh-am"
+      }
+    },
+    {
+      "question_id": 46184239,
+      "title": "Python - Extract a PDF page as a jpeg",
+      "accepted_answer_id": 48583124,
+      "score": 210,
+      "link": "https://stackoverflow.com/questions/46184239/python-extract-a-pdf-page-as-a-jpeg",
+      "owner": {
+        "display_name": "vishvAs vAsuki",
+        "link": "https://stackoverflow.com/users/444644/vishvas-vasuki"
+      }
+    },
+    {
+      "question_id": 13317536,
+      "title": "Get list of all routes defined in the Flask app",
+      "accepted_answer_id": 13318415,
+      "score": 209,
+      "link": "https://stackoverflow.com/questions/13317536/get-list-of-all-routes-defined-in-the-flask-app",
+      "owner": {
+        "display_name": "J-bob",
+        "link": "https://stackoverflow.com/users/1169781/j-bob"
+      }
+    },
+    {
+      "question_id": 77213053,
+      "title": "Why did Flask start failing with &quot;ImportError: cannot import name &#39;url_quote&#39; from &#39;werkzeug.urls&#39;&quot;?",
+      "accepted_answer_id": 77214086,
+      "score": 204,
+      "link": "https://stackoverflow.com/questions/77213053/why-did-flask-start-failing-with-importerror-cannot-import-name-url-quote-fr",
+      "owner": {
+        "display_name": "stevezkw",
+        "link": "https://stackoverflow.com/users/15233792/stevezkw"
+      }
+    },
+    {
+      "question_id": 22463939,
+      "title": "demystify Flask app.secret_key",
+      "accepted_answer_id": 22463969,
+      "score": 202,
+      "link": "https://stackoverflow.com/questions/22463939/demystify-flask-app-secret-key",
+      "owner": {
+        "display_name": "MYV",
+        "link": "https://stackoverflow.com/users/2351192/myv"
+      }
+    },
+    {
+      "question_id": 33738467,
+      "title": "How do I know if I can disable SQLALCHEMY_TRACK_MODIFICATIONS?",
+      "accepted_answer_id": 33790196,
+      "score": 194,
+      "link": "https://stackoverflow.com/questions/33738467/how-do-i-know-if-i-can-disable-sqlalchemy-track-modifications",
+      "owner": {
+        "display_name": "Robert",
+        "link": "https://stackoverflow.com/users/150978/robert"
+      }
+    },
+    {
+      "question_id": 30323224,
+      "title": "Deploying a minimal flask app in docker - server connection issues",
+      "accepted_answer_id": 30329547,
+      "score": 194,
+      "link": "https://stackoverflow.com/questions/30323224/deploying-a-minimal-flask-app-in-docker-server-connection-issues",
+      "owner": {
+        "display_name": "Dreen",
+        "link": "https://stackoverflow.com/users/677139/dreen"
+      }
+    },
+    {
+      "question_id": 22259847,
+      "title": "Application not picking up .css file (flask/python)",
+      "accepted_answer_id": 22260791,
+      "score": 190,
+      "link": "https://stackoverflow.com/questions/22259847/application-not-picking-up-css-file-flask-python",
+      "owner": {
+        "display_name": "Zack",
+        "link": "https://stackoverflow.com/users/1108761/zack"
+      }
+    },
+    {
+      "question_id": 20036520,
+      "title": "What is the purpose of Flask&#39;s context stacks?",
+      "accepted_answer_id": 20041823,
+      "score": 189,
+      "link": "https://stackoverflow.com/questions/20036520/what-is-the-purpose-of-flasks-context-stacks",
+      "owner": {
+        "display_name": "Ben Davis",
+        "link": "https://stackoverflow.com/users/953218/ben-davis"
+      }
+    },
+    {
+      "question_id": 16586180,
+      "title": "TypeError: ObjectId(&#39;&#39;) is not JSON serializable",
+      "accepted_answer_id": 16586277,
+      "score": 185,
+      "link": "https://stackoverflow.com/questions/16586180/typeerror-objectid-is-not-json-serializable",
+      "owner": {
+        "display_name": "Irfan",
+        "link": "https://stackoverflow.com/users/827716/irfan"
+      }
+    },
+    {
+      "question_id": 15562446,
+      "title": "How to stop flask application without using ctrl-c",
+      "accepted_answer_id": 17053522,
+      "score": 185,
+      "link": "https://stackoverflow.com/questions/15562446/how-to-stop-flask-application-without-using-ctrl-c",
+      "owner": {
+        "display_name": "vic",
+        "link": "https://stackoverflow.com/users/1187106/vic"
+      }
+    },
+    {
+      "question_id": 31252791,
+      "title": "Flask ImportError: No Module Named Flask",
+      "accepted_answer_id": 31253927,
+      "score": 184,
+      "link": "https://stackoverflow.com/questions/31252791/flask-importerror-no-module-named-flask",
+      "owner": {
+        "display_name": "anon_swe",
+        "link": "https://stackoverflow.com/users/1316501/anon-swe"
+      }
+    },
+    {
+      "question_id": 25504149,
+      "title": "Why does running the Flask dev server run itself twice?",
+      "accepted_answer_id": 25504196,
+      "score": 179,
+      "link": "https://stackoverflow.com/questions/25504149/why-does-running-the-flask-dev-server-run-itself-twice",
+      "owner": {
+        "display_name": "kramer65",
+        "link": "https://stackoverflow.com/users/1650012/kramer65"
+      }
+    },
+    {
+      "question_id": 32815451,
+      "title": "Are global variables thread-safe in Flask? How do I share data between requests?",
+      "accepted_answer_id": 32825482,
+      "score": 176,
+      "link": "https://stackoverflow.com/questions/32815451/are-global-variables-thread-safe-in-flask-how-do-i-share-data-between-requests",
+      "owner": {
+        "display_name": "sayantankhan",
+        "link": "https://stackoverflow.com/users/1617063/sayantankhan"
+      }
+    },
+    {
+      "question_id": 22252397,
+      "title": "ImportError: No module named MySQLdb",
+      "accepted_answer_id": 22252975,
+      "score": 176,
+      "link": "https://stackoverflow.com/questions/22252397/importerror-no-module-named-mysqldb",
+      "owner": {
+        "display_name": "user3182194",
+        "link": "https://stackoverflow.com/users/3182194/user3182194"
+      }
+    },
+    {
+      "question_id": 21214270,
+      "title": "How to schedule a function to run every hour on Flask?",
+      "accepted_answer_id": 38501429,
+      "score": 168,
+      "link": "https://stackoverflow.com/questions/21214270/how-to-schedule-a-function-to-run-every-hour-on-flask",
+      "owner": {
+        "display_name": "RomaValcer",
+        "link": "https://stackoverflow.com/users/2981641/romavalcer"
+      }
+    },
+    {
+      "question_id": 20015550,
+      "title": "Read file data without saving it in Flask",
+      "accepted_answer_id": 20017830,
+      "score": 168,
+      "link": "https://stackoverflow.com/questions/20015550/read-file-data-without-saving-it-in-flask",
+      "owner": {
+        "display_name": "user2480542",
+        "link": "https://stackoverflow.com/users/2480542/user2480542"
+      }
+    },
+    {
+      "question_id": 31866796,
+      "title": "Making an asynchronous task in Flask",
+      "accepted_answer_id": 31867108,
+      "score": 167,
+      "link": "https://stackoverflow.com/questions/31866796/making-an-asynchronous-task-in-flask",
+      "owner": {
+        "display_name": "Darwin Tech",
+        "link": "https://stackoverflow.com/users/791335/darwin-tech"
+      }
+    },
+    {
+      "question_id": 25860304,
+      "title": "How do I set response headers in Flask?",
+      "accepted_answer_id": 25860353,
+      "score": 167,
+      "link": "https://stackoverflow.com/questions/25860304/how-do-i-set-response-headers-in-flask",
+      "owner": {
+        "display_name": "dopatraman",
+        "link": "https://stackoverflow.com/users/858962/dopatraman"
+      }
+    },
+    {
+      "question_id": 19261833,
+      "title": "What is an &#39;endpoint&#39; in Flask?",
+      "accepted_answer_id": 19262349,
+      "score": 166,
+      "link": "https://stackoverflow.com/questions/19261833/what-is-an-endpoint-in-flask",
+      "owner": {
+        "display_name": "Fuziang",
+        "link": "https://stackoverflow.com/users/2311682/fuziang"
+      }
+    },
+    {
+      "question_id": 10999990,
+      "title": "Get raw POST body in Python Flask regardless of Content-Type header",
+      "accepted_answer_id": 23898949,
+      "score": 163,
+      "link": "https://stackoverflow.com/questions/10999990/get-raw-post-body-in-python-flask-regardless-of-content-type-header",
+      "owner": {
+        "display_name": "ddinchev",
+        "link": "https://stackoverflow.com/users/762886/ddinchev"
+      }
+    },
+    {
+      "question_id": 11178426,
+      "title": "How can I pass data from Flask to JavaScript in a template?",
+      "accepted_answer_id": 11178486,
+      "score": 162,
+      "link": "https://stackoverflow.com/questions/11178426/how-can-i-pass-data-from-flask-to-javascript-in-a-template",
+      "owner": {
+        "display_name": "mea",
+        "link": "https://stackoverflow.com/users/1404413/mea"
+      }
+    },
+    {
+      "question_id": 26980713,
+      "title": "Solve Cross Origin Resource Sharing with Flask",
+      "accepted_answer_id": 28339918,
+      "score": 159,
+      "link": "https://stackoverflow.com/questions/26980713/solve-cross-origin-resource-sharing-with-flask",
+      "owner": {
+        "display_name": "Matteo",
+        "link": "https://stackoverflow.com/users/907921/matteo"
+      }
+    },
+    {
+      "question_id": 8637153,
+      "title": "How to return images in flask response?",
+      "accepted_answer_id": 8637217,
+      "score": 158,
+      "link": "https://stackoverflow.com/questions/8637153/how-to-return-images-in-flask-response",
+      "owner": {
+        "display_name": "wong2",
+        "link": "https://stackoverflow.com/users/325241/wong2"
+      }
+    },
+    {
+      "question_id": 17256602,
+      "title": "AssertionError: View function mapping is overwriting an existing endpoint function: main",
+      "accepted_answer_id": 17256830,
+      "score": 157,
+      "link": "https://stackoverflow.com/questions/17256602/assertionerror-view-function-mapping-is-overwriting-an-existing-endpoint-functi",
+      "owner": {
+        "display_name": "Kimmy",
+        "link": "https://stackoverflow.com/users/2016434/kimmy"
+      }
+    },
+    {
+      "question_id": 9692962,
+      "title": "Flask-SQLAlchemy import/context issue",
+      "accepted_answer_id": 9695045,
+      "score": 156,
+      "link": "https://stackoverflow.com/questions/9692962/flask-sqlalchemy-import-context-issue",
+      "owner": {
+        "display_name": "Brad Wright",
+        "link": "https://stackoverflow.com/users/61435/brad-wright"
+      }
+    },
+    {
+      "question_id": 18967441,
+      "title": "Add a prefix to all Flask routes",
+      "accepted_answer_id": 18967744,
+      "score": 155,
+      "link": "https://stackoverflow.com/questions/18967441/add-a-prefix-to-all-flask-routes",
+      "owner": {
+        "display_name": "Evan Hahn",
+        "link": "https://stackoverflow.com/users/804100/evan-hahn"
+      }
+    },
+    {
+      "question_id": 9508667,
+      "title": "Reload Flask app when template file changes",
+      "accepted_answer_id": 9511655,
+      "score": 151,
+      "link": "https://stackoverflow.com/questions/9508667/reload-flask-app-when-template-file-changes",
+      "owner": {
+        "display_name": "Xion",
+        "link": "https://stackoverflow.com/users/434799/xion"
+      }
+    },
+    {
+      "question_id": 25373154,
+      "title": "How to iterate through a list of dictionaries in Jinja template?",
+      "accepted_answer_id": 25375815,
+      "score": 150,
+      "link": "https://stackoverflow.com/questions/25373154/how-to-iterate-through-a-list-of-dictionaries-in-jinja-template",
+      "owner": {
+        "display_name": "user3089927",
+        "link": "https://stackoverflow.com/users/3089927/user3089927"
+      }
+    },
+    {
+      "question_id": 38601440,
+      "title": "What is the point of uWSGI?",
+      "accepted_answer_id": 38685758,
+      "score": 149,
+      "link": "https://stackoverflow.com/questions/38601440/what-is-the-point-of-uwsgi",
+      "owner": {
+        "display_name": "d512",
+        "link": "https://stackoverflow.com/users/1334007/d512"
+      }
+    },
+    {
+      "question_id": 41940663,
+      "title": "How can I change the host and port that the flask command uses?",
+      "accepted_answer_id": 41940807,
+      "score": 144,
+      "link": "https://stackoverflow.com/questions/41940663/how-can-i-change-the-host-and-port-that-the-flask-command-uses",
+      "owner": {
+        "display_name": "Marco Cutecchia",
+        "link": "https://stackoverflow.com/users/5274227/marco-cutecchia"
+      }
+    },
+    {
+      "question_id": 24295426,
+      "title": "Python Flask Intentional Empty Response",
+      "accepted_answer_id": 24295616,
+      "score": 143,
+      "link": "https://stackoverflow.com/questions/24295426/python-flask-intentional-empty-response",
+      "owner": {
+        "display_name": "RukTech",
+        "link": "https://stackoverflow.com/users/2662493/ruktech"
+      }
+    },
+    {
+      "question_id": 48218065,
+      "title": "Objects created in a thread can only be used in that same thread",
+      "accepted_answer_id": 48218213,
+      "score": 142,
+      "link": "https://stackoverflow.com/questions/48218065/objects-created-in-a-thread-can-only-be-used-in-that-same-thread",
+      "owner": {
+        "display_name": "Tania",
+        "link": "https://stackoverflow.com/users/9136764/tania"
+      }
+    },
+    {
+      "question_id": 7102754,
+      "title": "jsonify a SQLAlchemy result set in Flask",
+      "accepted_answer_id": 7103486,
+      "score": 140,
+      "link": "https://stackoverflow.com/questions/7102754/jsonify-a-sqlalchemy-result-set-in-flask",
+      "owner": {
+        "display_name": "mal-wan",
+        "link": "https://stackoverflow.com/users/125430/mal-wan"
+      }
+    },
+    {
+      "question_id": 16351826,
+      "title": "Link to Flask static files with url_for",
+      "accepted_answer_id": 16353060,
+      "score": 136,
+      "link": "https://stackoverflow.com/questions/16351826/link-to-flask-static-files-with-url-for",
+      "owner": {
+        "display_name": "user1431282",
+        "link": "https://stackoverflow.com/users/1431282/user1431282"
+      }
+    },
+    {
+      "question_id": 9449101,
+      "title": "How to stop Flask from initialising twice in Debug Mode?",
+      "accepted_answer_id": 9476701,
+      "score": 136,
+      "link": "https://stackoverflow.com/questions/9449101/how-to-stop-flask-from-initialising-twice-in-debug-mode",
+      "owner": {
+        "display_name": "Matt Alcock",
+        "link": "https://stackoverflow.com/users/200983/matt-alcock"
+      }
+    },
+    {
+      "question_id": 25359898,
+      "title": "Escape jinja2 syntax in a jinja2 template",
+      "accepted_answer_id": 25359906,
+      "score": 133,
+      "link": "https://stackoverflow.com/questions/25359898/escape-jinja2-syntax-in-a-jinja2-template",
+      "owner": {
+        "display_name": "Jesvin Jose",
+        "link": "https://stackoverflow.com/users/604511/jesvin-jose"
+      }
+    },
+    {
+      "question_id": 9878020,
+      "title": "How do I get the user agent with Flask?",
+      "accepted_answer_id": 9878404,
+      "score": 133,
+      "link": "https://stackoverflow.com/questions/9878020/how-do-i-get-the-user-agent-with-flask",
+      "owner": {
+        "display_name": "repalviglator",
+        "link": "https://stackoverflow.com/users/1293763/repalviglator"
+      }
+    },
+    {
+      "question_id": 34902378,
+      "title": "Where do I get SECRET_KEY for Flask?",
+      "accepted_answer_id": 34903502,
+      "score": 131,
+      "link": "https://stackoverflow.com/questions/34902378/where-do-i-get-secret-key-for-flask",
+      "owner": {
+        "display_name": "Tendi",
+        "link": "https://stackoverflow.com/users/901229/tendi"
+      }
+    },
+    {
+      "question_id": 22860085,
+      "title": "How do I include a HTML file in a Jinja2 template?",
+      "accepted_answer_id": 22860144,
+      "score": 131,
+      "link": "https://stackoverflow.com/questions/22860085/how-do-i-include-a-html-file-in-a-jinja2-template",
+      "owner": {
+        "display_name": "quapka",
+        "link": "https://stackoverflow.com/users/2377489/quapka"
+      }
+    },
+    {
+      "question_id": 32550487,
+      "title": "How to print from Flask @app.route to python console",
+      "accepted_answer_id": 33383239,
+      "score": 129,
+      "link": "https://stackoverflow.com/questions/32550487/how-to-print-from-flask-app-route-to-python-console",
+      "owner": {
+        "display_name": "Robert Filter",
+        "link": "https://stackoverflow.com/users/529192/robert-filter"
+      }
+    },
+    {
+      "question_id": 34671217,
+      "title": "In Flask, what is &quot;request.args&quot; and how is it used?",
+      "accepted_answer_id": 34671505,
+      "score": 128,
+      "link": "https://stackoverflow.com/questions/34671217/in-flask-what-is-request-args-and-how-is-it-used",
+      "owner": {
+        "display_name": "martinho",
+        "link": "https://stackoverflow.com/users/4748042/martinho"
+      }
+    },
+    {
+      "question_id": 33241050,
+      "title": "Trailing slash triggers 404 in Flask path rule",
+      "accepted_answer_id": 33285603,
+      "score": 127,
+      "link": "https://stackoverflow.com/questions/33241050/trailing-slash-triggers-404-in-flask-path-rule",
+      "owner": {
+        "display_name": "Jesvin Jose",
+        "link": "https://stackoverflow.com/users/604511/jesvin-jose"
+      }
+    },
+    {
+      "question_id": 12277933,
+      "title": "Send data from a textbox into Flask?",
+      "accepted_answer_id": 12278642,
+      "score": 127,
+      "link": "https://stackoverflow.com/questions/12277933/send-data-from-a-textbox-into-flask",
+      "owner": {
+        "display_name": "ollien",
+        "link": "https://stackoverflow.com/users/1103734/ollien"
+      }
+    },
+    {
+      "question_id": 26080872,
+      "title": "secret key not set in flask session, using the Flask-Session extension",
+      "accepted_answer_id": 26080974,
+      "score": 126,
+      "link": "https://stackoverflow.com/questions/26080872/secret-key-not-set-in-flask-session-using-the-flask-session-extension",
+      "owner": {
+        "display_name": "MintyAnt",
+        "link": "https://stackoverflow.com/users/1072711/mintyant"
+      }
+    },
+    {
+      "question_id": 29882642,
+      "title": "How to run a flask application?",
+      "accepted_answer_id": 29883397,
+      "score": 125,
+      "link": "https://stackoverflow.com/questions/29882642/how-to-run-a-flask-application",
+      "owner": {
+        "display_name": "KarateKid",
+        "link": "https://stackoverflow.com/users/4095771/karatekid"
+      }
+    },
+    {
+      "question_id": 24577349,
+      "title": "Flask Download a File",
+      "accepted_answer_id": 24578372,
+      "score": 124,
+      "link": "https://stackoverflow.com/questions/24577349/flask-download-a-file",
+      "owner": {
+        "display_name": "Saimu",
+        "link": "https://stackoverflow.com/users/3407990/saimu"
+      }
+    },
+    {
+      "question_id": 11556958,
+      "title": "Sending data from HTML form to a Python script in Flask",
+      "accepted_answer_id": 11566296,
+      "score": 122,
+      "link": "https://stackoverflow.com/questions/11556958/sending-data-from-html-form-to-a-python-script-in-flask",
+      "owner": {
+        "display_name": "Mpampinos Holmens",
+        "link": "https://stackoverflow.com/users/1031222/mpampinos-holmens"
+      }
+    },
+    {
+      "question_id": 28836893,
+      "title": "How to send requests with JSON in unit tests",
+      "accepted_answer_id": 28840457,
+      "score": 119,
+      "link": "https://stackoverflow.com/questions/28836893/how-to-send-requests-with-json-in-unit-tests",
+      "owner": {
+        "display_name": "Sepehr Nazari",
+        "link": "https://stackoverflow.com/users/4260951/sepehr-nazari"
+      }
+    },
+    {
+      "question_id": 22698478,
+      "title": "What is the difference between the declarative_base() and db.Model?",
+      "accepted_answer_id": 22700629,
+      "score": 118,
+      "link": "https://stackoverflow.com/questions/22698478/what-is-the-difference-between-the-declarative-base-and-db-model",
+      "owner": {
+        "display_name": "drs",
+        "link": "https://stackoverflow.com/users/1484957/drs"
+      }
+    },
+    {
+      "question_id": 48994440,
+      "title": "Execute a function after Flask returns response",
+      "accepted_answer_id": 48994441,
+      "score": 117,
+      "link": "https://stackoverflow.com/questions/48994440/execute-a-function-after-flask-returns-response",
+      "owner": {
+        "display_name": "Brandon Wang",
+        "link": "https://stackoverflow.com/users/123412/brandon-wang"
+      }
+    },
+    {
+      "question_id": 15231359,
+      "title": "Split Python Flask app into multiple files",
+      "accepted_answer_id": 15231623,
+      "score": 117,
+      "link": "https://stackoverflow.com/questions/15231359/split-python-flask-app-into-multiple-files",
+      "owner": {
+        "display_name": "user1751547",
+        "link": "https://stackoverflow.com/users/1751547/user1751547"
+      }
+    },
+    {
+      "question_id": 5870188,
+      "title": "Does Flask support regular expressions in its URL routing?",
+      "accepted_answer_id": 5872904,
+      "score": 116,
+      "link": "https://stackoverflow.com/questions/5870188/does-flask-support-regular-expressions-in-its-url-routing",
+      "owner": {
+        "display_name": "Alistair",
+        "link": "https://stackoverflow.com/users/11324/alistair"
+      }
+    },
+    {
+      "question_id": 12435297,
+      "title": "How do I `jsonify` a list in Flask?",
+      "accepted_answer_id": 12443708,
+      "score": 114,
+      "link": "https://stackoverflow.com/questions/12435297/how-do-i-jsonify-a-list-in-flask",
+      "owner": {
+        "display_name": "hllau",
+        "link": "https://stackoverflow.com/users/952901/hllau"
+      }
+    },
+    {
+      "question_id": 37004983,
+      "title": "What exactly is Werkzeug?",
+      "accepted_answer_id": 37005058,
+      "score": 113,
+      "link": "https://stackoverflow.com/questions/37004983/what-exactly-is-werkzeug",
+      "owner": {
+        "display_name": "jinglei",
+        "link": "https://stackoverflow.com/users/5556905/jinglei"
+      }
+    },
+    {
+      "question_id": 25668092,
+      "title": "Flask sqlalchemy many-to-many insert data",
+      "accepted_answer_id": 25669256,
+      "score": 112,
+      "link": "https://stackoverflow.com/questions/25668092/flask-sqlalchemy-many-to-many-insert-data",
+      "owner": {
+        "display_name": "Sigils",
+        "link": "https://stackoverflow.com/users/1731280/sigils"
+      }
+    },
+    {
+      "question_id": 11783025,
+      "title": "Is there an easy way to make sessions timeout in flask?",
+      "accepted_answer_id": 11785722,
+      "score": 111,
+      "link": "https://stackoverflow.com/questions/11783025/is-there-an-easy-way-to-make-sessions-timeout-in-flask",
+      "owner": {
+        "display_name": "verrochio",
+        "link": "https://stackoverflow.com/users/1335011/verrochio"
+      }
+    },
+    {
+      "question_id": 14415500,
+      "title": "Common folder/file structure in Flask app",
+      "accepted_answer_id": 14421367,
+      "score": 110,
+      "link": "https://stackoverflow.com/questions/14415500/common-folder-file-structure-in-flask-app",
+      "owner": {
+        "display_name": "kasperhj",
+        "link": "https://stackoverflow.com/users/721768/kasperhj"
+      }
+    },
+    {
+      "question_id": 4239825,
+      "title": "Static files in Flask - robot.txt, sitemap.xml (mod_wsgi)",
+      "accepted_answer_id": 17073583,
+      "score": 107,
+      "link": "https://stackoverflow.com/questions/4239825/static-files-in-flask-robot-txt-sitemap-xml-mod-wsgi",
+      "owner": {
+        "display_name": "biesiad",
+        "link": "https://stackoverflow.com/users/373551/biesiad"
+      }
+    },
+    {
+      "question_id": 17375340,
+      "title": "Testing code that requires a Flask app or request context",
+      "accepted_answer_id": 17377101,
+      "score": 104,
+      "link": "https://stackoverflow.com/questions/17375340/testing-code-that-requires-a-flask-app-or-request-context",
+      "owner": {
+        "display_name": "Cory",
+        "link": "https://stackoverflow.com/users/155857/cory"
+      }
+    },
+    {
+      "question_id": 14384739,
+      "title": "How can I add a background thread to flask?",
+      "accepted_answer_id": 22900255,
+      "score": 104,
+      "link": "https://stackoverflow.com/questions/14384739/how-can-i-add-a-background-thread-to-flask",
+      "owner": {
+        "display_name": "Marinus",
+        "link": "https://stackoverflow.com/users/525298/marinus"
+      }
+    },
+    {
+      "question_id": 44209978,
+      "title": "Serving a front end created with create-react-app with Flask",
+      "accepted_answer_id": 45634550,
+      "score": 103,
+      "link": "https://stackoverflow.com/questions/44209978/serving-a-front-end-created-with-create-react-app-with-flask",
+      "owner": {
+        "display_name": "Theo",
+        "link": "https://stackoverflow.com/users/5859830/theo"
+      }
+    },
+    {
+      "question_id": 29458548,
+      "title": "can you add HTTPS functionality to a python flask web server?",
+      "accepted_answer_id": 29464090,
+      "score": 103,
+      "link": "https://stackoverflow.com/questions/29458548/can-you-add-https-functionality-to-a-python-flask-web-server",
+      "owner": {
+        "display_name": "robm",
+        "link": "https://stackoverflow.com/users/1940534/robm"
+      }
+    },
+    {
+      "question_id": 31444036,
+      "title": "RuntimeError: working outside of application context",
+      "accepted_answer_id": 31444175,
+      "score": 101,
+      "link": "https://stackoverflow.com/questions/31444036/runtimeerror-working-outside-of-application-context",
+      "owner": {
+        "display_name": "guri",
+        "link": "https://stackoverflow.com/users/5037693/guri"
+      }
+    },
+    {
+      "question_id": 11150343,
+      "title": "Slow Requests on Local Flask Server",
+      "accepted_answer_id": 11150849,
+      "score": 101,
+      "link": "https://stackoverflow.com/questions/11150343/slow-requests-on-local-flask-server",
+      "owner": {
+        "display_name": "Meroon",
+        "link": "https://stackoverflow.com/users/59877/meroon"
+      }
+    },
+    {
+      "question_id": 30554702,
+      "title": "Can&#39;t connect to Flask web service, connection refused",
+      "accepted_answer_id": 30554831,
+      "score": 100,
+      "link": "https://stackoverflow.com/questions/30554702/cant-connect-to-flask-web-service-connection-refused",
+      "owner": {
+        "display_name": "Yashar",
+        "link": "https://stackoverflow.com/users/3625865/yashar"
+      }
+    },
+    {
+      "question_id": 25034123,
+      "title": "Flask Value error view function did not return a response",
+      "accepted_answer_id": 25034624,
+      "score": 100,
+      "link": "https://stackoverflow.com/questions/25034123/flask-value-error-view-function-did-not-return-a-response",
+      "owner": {
+        "display_name": "user3890963",
+        "link": "https://stackoverflow.com/users/3890963/user3890963"
+      }
+    },
+    {
+      "question_id": 11017466,
+      "title": "Flask to return image stored in database",
+      "accepted_answer_id": 11017839,
+      "score": 99,
+      "link": "https://stackoverflow.com/questions/11017466/flask-to-return-image-stored-in-database",
+      "owner": {
+        "display_name": "wong2",
+        "link": "https://stackoverflow.com/users/325241/wong2"
+      }
+    },
+    {
+      "question_id": 18110033,
+      "title": "Getting first row from sqlalchemy",
+      "accepted_answer_id": 18110236,
+      "score": 97,
+      "link": "https://stackoverflow.com/questions/18110033/getting-first-row-from-sqlalchemy",
+      "owner": {
+        "display_name": "Asken",
+        "link": "https://stackoverflow.com/users/450274/asken"
+      }
+    },
+    {
+      "question_id": 46540664,
+      "title": "&#39;No application found. Either work inside a view function or push an application context.&#39;",
+      "accepted_answer_id": 46541219,
+      "score": 96,
+      "link": "https://stackoverflow.com/questions/46540664/no-application-found-either-work-inside-a-view-function-or-push-an-application",
+      "owner": {
+        "display_name": "Omegastick",
+        "link": "https://stackoverflow.com/users/5905951/omegastick"
+      }
+    },
+    {
+      "question_id": 40165665,
+      "title": "Flask-RESTful vs Flask-RESTplus",
+      "accepted_answer_id": 55152932,
+      "score": 96,
+      "link": "https://stackoverflow.com/questions/40165665/flask-restful-vs-flask-restplus",
+      "owner": {
+        "display_name": "masterforker",
+        "link": "https://stackoverflow.com/users/1231636/masterforker"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 25359906,
+      "body": "<p>You can disable interpretation of tags inside a <code>{% raw %}</code> block:</p>\n<pre class=\"lang-none prettyprint-override\"><code>{% raw %}\n\nAnything in this block is treated as raw text,\nincluding {{ curly braces }} and\n{% other block-like syntax %}\n\n{% endraw %}\n</code></pre>\n<p>See the <a href=\"https://jinja.palletsprojects.com/en/stable/templates/#escaping\" rel=\"nofollow noreferrer\"><em>Escaping</em> section</a> of the template documentation.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 33790196,
+      "body": "<p>Most likely your application doesn't use the Flask-SQLAlchemy event system, so you're probably safe to turn off. You'll need to audit the code to verify--you're looking for anything that hooks into <a href=\"https://flask-sqlalchemy.palletsprojects.com/en/stable/api/#module-flask_sqlalchemy.track_modifications\" rel=\"nofollow noreferrer\"><code>models_committed or before_</code></a><a href=\"http://flask-sqlalchemy.pocoo.org/dev/signals/\" rel=\"nofollow noreferrer\"><code>models_committed</code></a>. If you do find that you're using the Flask-SQLAlchemy event system, you probably should update the code to use SQLAlchemy's built-in event system instead.</p>\n<p>The default value as of Flask-SQLAlchemy 2.1 is <code>None</code>, which is a falsy value, so the event system <em>is disabled</em>. In older versions, the default value was <code>True</code>, so you'll need to explicitly disable it.</p>\n<p>However, in both cases, the warning won't be silenced until this is explicitly set to <code>False</code>. To do that, add:</p>\n<pre><code>SQLALCHEMY_TRACK_MODIFICATIONS = False\n</code></pre>\n<p>to your app config.</p>\n<hr />\n<p>Background--here's what the warning is telling you:</p>\n<p>Flask-SQLAlchemy has its own event notification system that gets layered on top of SQLAlchemy. To do this, it tracks modifications to the SQLAlchemy session. This takes extra resources, so the option <code>SQLALCHEMY_TRACK_MODIFICATIONS</code> allows you to disable the modification tracking system.</p>\n<p>The rationale for the change is three-fold:</p>\n<ol>\n<li><p>Not many people use Flask-SQLAlchemy's event system, but most people don't realize they can save system resources by disabling it. So a saner default is to disable it and those who want it can turn it on.</p>\n</li>\n<li><p>The event system in Flask-SQLAlchemy has been rather buggy (see issues linked to in the pull request mentioned below), requiring additional maintenance for a feature that few people use.</p>\n</li>\n<li><p>In v0.7, SQLAlchemy itself added a <a href=\"http://docs.sqlalchemy.org/en/latest/core/event.html\" rel=\"nofollow noreferrer\">powerful event system</a> including the ability to create custom events. Ideally, the Flask-SQLAlchemy event system should do nothing more than create a few custom SQLAlchemy event hooks and listeners, and then let SQLAlchemy itself manage the event trigger.</p>\n</li>\n</ol>\n<p>You can see more in the discussion around <a href=\"https://github.com/mitsuhiko/flask-sqlalchemy/pull/256\" rel=\"nofollow noreferrer\">the pull request that started triggering this warning</a>.</p>\n",
+      "owner": {
+        "display_name": "Jeff Widman",
+        "link": "https://stackoverflow.com/users/770425/jeff-widman"
+      }
+    },
+    {
+      "answer_id": 48583124,
+      "body": "<p>The pdf2image library can be used.</p>\n<p>You can install it simply using,</p>\n<pre><code>pip install pdf2image\n</code></pre>\n<p>Once installed you can use following code to get images.</p>\n<pre><code>from pdf2image import convert_from_path\npages = convert_from_path('pdf_file', 500)\n</code></pre>\n<p>Saving pages in jpeg format</p>\n<pre><code>for count, page in enumerate(pages):\n    page.save(f'out{count}.jpg', 'JPEG')\n</code></pre>\n<hr />\n<p>Edit: the Github repo <a href=\"https://github.com/Belval/pdf2image\" rel=\"noreferrer\">pdf2image</a> also mentions that it uses <code>pdftoppm</code> and that it requires other installations:</p>\n<blockquote>\n<p>pdftoppm is the piece of software that does the actual magic. It is distributed as part of a greater package called <a href=\"https://poppler.freedesktop.org/\" rel=\"noreferrer\">poppler</a>.\nWindows users will have to install [poppler for Windows] see ** below\nMac users will have to install <a href=\"http://macappstore.org/poppler/\" rel=\"noreferrer\">poppler for Mac</a>.\nLinux users will have pdftoppm pre-installed with the distro (Tested on Ubuntu and Archlinux) if it's not, run <code>sudo apt install poppler-utils</code>.</p>\n</blockquote>\n<p>You can install the latest version under Windows using anaconda by doing:</p>\n<pre><code>conda install -c conda-forge poppler\n</code></pre>\n<p>** note: Windows 64 bit versions upto 24.08 are available at <a href=\"https://github.com/oschwartz10612/poppler-windows\" rel=\"noreferrer\">https://github.com/oschwartz10612/poppler-windows</a> but note that for 32 bit 22.02 was the last one included in TeXLive 2022 (<a href=\"https://poppler.freedesktop.org/releases.html\" rel=\"noreferrer\">https://poppler.freedesktop.org/releases.html</a>) so you'll not be getting the latest features or bug fixes.</p>\n",
+      "owner": {
+        "display_name": "Keval Dave",
+        "link": "https://stackoverflow.com/users/5681574/keval-dave"
+      }
+    },
+    {
+      "answer_id": 20648053,
+      "body": "<p>In production, configure the HTTP server (Nginx, Apache, etc.) in front of your application to serve requests to <code>/static</code> from the static folder. A dedicated web server is very good at serving static files efficiently, although you probably won't notice a difference compared to Flask at low volumes.</p>\n<p>Flask automatically creates a <code>/static/&lt;path:filename&gt;</code> route that will serve any <code>filename</code> under the <code>static</code> folder next to the Python module that defines your Flask app. Use <code>url_for</code> to link to static files: <code>url_for('static', filename='js/analytics.js')</code></p>\n<p>You can also use <a href=\"http://flask.palletsprojects.com/api/#flask.send_from_directory\" rel=\"noreferrer\"><code>send_from_directory</code></a> to serve files from a directory in your own route. This takes a base directory and a path, and ensures that the path is contained in the directory, which makes it safe to accept user-provided paths. This can be useful in cases where you want to check something before serving the file, such as if the logged in user has permission.</p>\n<pre><code>from flask import send_from_directory\n\n@app.route('/reports/&lt;path:path&gt;')\ndef send_report(path):\n    # Using request args for path will expose you to directory traversal attacks\n    return send_from_directory('reports', path)\n</code></pre>\n<p><strong>WARNING:</strong> Do <strong>not</strong> use <code>send_file</code> or <code>send_static_file</code> with a user-supplied path.  This will expose you to <a href=\"https://en.m.wikipedia.org/wiki/Directory_traversal_attack\" rel=\"noreferrer\">directory traversal attacks</a>.  <code>send_from_directory</code> was designed to safely handle user-supplied paths under a known directory, and will raise an error if the path attempts to escape the directory.</p>\n<p>If you are generating a file in memory without writing it to the filesystem, you can pass a <code>BytesIO</code> object to <a href=\"http://flask.palletsprojects.com/api/#flask.send_file\" rel=\"noreferrer\"><code>send_file</code></a> to serve it like a file. You'll need to pass other arguments to <code>send_file</code> in this case since it can't infer things like the file name or content type.</p>\n",
+      "owner": {
+        "display_name": "atupal",
+        "link": "https://stackoverflow.com/users/2226698/atupal"
+      }
+    },
+    {
+      "answer_id": 22860144,
+      "body": "<p>Use the jinja2 <a href=\"https://jinja.palletsprojects.com/en/stable/templates/#include\" rel=\"nofollow noreferrer\"><code>{% include %}</code></a> directive.</p>\n<pre><code>{% extends 'template.html' %}\n{% block content %}\n    {% if task == 'content1' %}\n        {% include 'content1.html' %}\n    {% endif %}\n    {% if task == 'content2' %}\n        {% include 'content2.html' %}\n    {% endif %}\n{% endblock %}\n</code></pre>\n<p>This will include the content from the correct content-file.</p>\n",
+      "owner": {
+        "display_name": "msvalkon",
+        "link": "https://stackoverflow.com/users/300791/msvalkon"
+      }
+    },
+    {
+      "answer_id": 20001283,
+      "body": "<p>First of all, the <code>.json</code> attribute is a property that delegates to the <a href=\"https://flask.palletsprojects.com/api/#flask.Request.get_json\" rel=\"noreferrer\"><code>request.get_json()</code> method</a>, which documents why you see <code>None</code> here.</p>\n<p>You need to set the request content type to <code>application/json</code> for the <code>.json</code> property and <code>.get_json()</code> method (with no arguments) to work as either will produce <code>None</code> otherwise. See the <a href=\"https://flask.palletsprojects.com/api/#flask.Request.json\" rel=\"noreferrer\">Flask <code>Request</code> documentation</a>:</p>\n<blockquote>\n<p>The parsed JSON data if <code>mimetype</code> indicates JSON (<code>application/json</code>, see <a href=\"https://flask.palletsprojects.com/api/#flask.Request.is_json\" rel=\"noreferrer\"><code>.is_json</code></a>).</p>\n</blockquote>\n<p>You can tell <code>request.get_json()</code> to skip the content type requirement by passing it the <code>force=True</code> keyword argument.</p>\n<p>Note that if an <em>exception</em> is raised at this point (possibly resulting in a 415 Unsupported Media Type response), your JSON <em>data</em> is invalid. It is in some way malformed; you may want to check it with a JSON validator.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 5872904,
+      "body": "<p>Even though <a href=\"https://stackoverflow.com/a/5870243\">Armin</a> beat me to the punch with an accepted answer I thought I'd show an abbreviated example of how I implemented a regex matcher in Flask just in case anyone wants a working example of how this could be done.</p>\n<pre><code>from flask import Flask\nfrom werkzeug.routing import BaseConverter\n\napp = Flask(__name__)\n\nclass RegexConverter(BaseConverter):\n    def __init__(self, url_map, *items):\n        super(RegexConverter, self).__init__(url_map)\n        self.regex = items[0]\n\n\napp.url_map.converters['regex'] = RegexConverter\n\n@app.route('/&lt;regex(&quot;[abcABC0-9]{4,6}&quot;):uid&gt;-&lt;slug&gt;/')\ndef example(uid, slug):\n    return &quot;uid: %s, slug: %s&quot; % (uid, slug)\n\n\nif __name__ == '__main__':\n    app.run(debug=True, host='0.0.0.0', port=5000)\n</code></pre>\n<p>this URL should return with 200: http://localhost:5000/abc0-foo/</p>\n<p>this URL should will return with 404: http://localhost:5000/abcd-foo/</p>\n",
+      "owner": {
+        "display_name": "Philip Southam",
+        "link": "https://stackoverflow.com/users/332911/philip-southam"
+      }
+    },
+    {
+      "answer_id": 22252975,
+      "body": "<p>If you're having issues compiling the binary extension, or on a platform where you can't, you can try using the pure Python <a href=\"https://github.com/PyMySQL/PyMySQL\" rel=\"nofollow noreferrer\"><code>PyMySQL</code></a> bindings.</p>\n<p>Simply <code>pip install pymysql</code> and switch your SQLAlchemy URI to start like this:</p>\n<pre><code>SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://.....'\n</code></pre>\n<p>There are some <a href=\"http://docs.sqlalchemy.org/en/rel_0_9/dialects/mysql.html#module-sqlalchemy.dialects.mysql.pymysql\" rel=\"nofollow noreferrer\">other drivers</a> you could also try.</p>\n",
+      "owner": {
+        "display_name": "DazWorrall",
+        "link": "https://stackoverflow.com/users/1949092/dazworrall"
+      }
+    },
+    {
+      "answer_id": 17987782,
+      "body": "<p>SQLAlchemy 2.0:</p>\n<pre class=\"lang-py prettyprint-override\"><code>with engine.connect() as connection:\n    result = connection.execute(text('SELECT * FROM your_table'))\n    # do something with the result..\n</code></pre>\n<p>SQLAlchemy 1.x:</p>\n<pre><code>from sqlalchemy import text\n\nsql = text('select name from penguins')\nresult = db.engine.execute(sql)\nnames = [row[0] for row in result]\nprint names\n</code></pre>\n<p>Note that <code>db.engine.execute()</code> is &quot;connectionless&quot;, which is <a href=\"https://docs.sqlalchemy.org/en/14/core/connections.html#connectionless-execution-implicit-execution\" rel=\"noreferrer\">deprecated in SQLAlchemy 2.0</a>.</p>\n",
+      "owner": {
+        "display_name": "Miguel Grinberg",
+        "link": "https://stackoverflow.com/users/904393/miguel-grinberg"
+      }
+    },
+    {
+      "answer_id": 23898949,
+      "body": "<p>Use <a href=\"https://werkzeug.palletsprojects.com/en/3.0.x/wrappers/#werkzeug.wrappers.Request.get_data\" rel=\"noreferrer\"><code>request.get_data()</code></a> to get the raw data, regardless of content type. The data is cached and you can subsequently access <code>request.data</code>, <code>request.json</code>, <code>request.form</code> at will.</p>\n<p>If you access <code>request.data</code> first, it will call <code>get_data</code> with an argument to parse form data first. If the request has a form content type (<code>multipart/form-data</code>, <code>application/x-www-form-urlencoded</code>, or <code>application/x-url-encoded</code>) then the raw data will be consumed. <code>request.data</code> and <code>request.json</code> will appear empty in this case.</p>\n",
+      "owner": {
+        "display_name": "miracle2k",
+        "link": "https://stackoverflow.com/users/15677/miracle2k"
+      }
+    },
+    {
+      "answer_id": 3760309,
+      "body": "<p>See the documentation on <a href=\"http://flask.pocoo.org/docs/quickstart/#accessing-request-data\" rel=\"noreferrer\">how to access the Request object</a> and then get from this same Request object, the attribute <code>remote_addr</code>.</p>\n<p><strong>Code example</strong></p>\n<pre><code>from flask import request\nfrom flask import jsonify\n\n@app.route(&quot;/get_my_ip&quot;, methods=[&quot;GET&quot;])\ndef get_my_ip():\n    return jsonify({'ip': request.remote_addr}), 200\n</code></pre>\n<p>For more information see the <a href=\"http://werkzeug.pocoo.org/docs/wrappers/#werkzeug.wrappers.BaseRequest.remote_addr\" rel=\"noreferrer\">Werkzeug documentation</a>.</p>\n",
+      "owner": {
+        "display_name": "Tarantula",
+        "link": "https://stackoverflow.com/users/179372/tarantula"
+      }
+    },
+    {
+      "answer_id": 19262349,
+      "body": "<h2>How Flask Routing Works</h2>\n<p>The entire idea of Flask (and the underlying Werkzeug library) is to map URL paths to some logic that you will run (typically, the &quot;view function&quot;). Your basic view is defined like this:</p>\n<pre><code>@app.route('/greeting/&lt;name&gt;')\ndef give_greeting(name):\n    return 'Hello, {0}!'.format(name)\n</code></pre>\n<p>Note that the function you referred to (add_url_rule) achieves the same goal, just without using the decorator notation. Therefore, the following is the same:</p>\n<pre><code># No &quot;route&quot; decorator here. We will add routing using a different method below.\ndef give_greeting(name):\n    return 'Hello, {0}!'.format(name)\n\napp.add_url_rule('/greeting/&lt;name&gt;', 'give_greeting', give_greeting)\n</code></pre>\n<p>Let's say your website is located at 'www.example.org' and uses the above view. The user enters the following URL into their browser:</p>\n<pre><code>http://www.example.org/greeting/Mark\n</code></pre>\n<p>The job of Flask is to take this URL, figure out what the user wants to do, and pass it on to one of your many python functions for handling. It takes the <strong>path</strong>:</p>\n<pre><code>/greeting/Mark\n</code></pre>\n<p>...and matches it to the list of routes. In our case, we defined this path to go to the <code>give_greeting</code> function.</p>\n<p>However, while this is the typical way that you might go about creating a view, it actually abstracts some extra info from you. Behind the scenes, Flask did not make the leap directly from URL to the view function that should handle this request. It does not simply say...</p>\n<pre><code>URL (http://www.example.org/greeting/Mark) should be handled by View Function (the function &quot;give_greeting&quot;)\n</code></pre>\n<p>Actually, it there is another step, where it maps the URL to an endpoint:</p>\n<pre><code>URL (http://www.example.org/greeting/Mark) should be handled by Endpoint &quot;give_greeting&quot;.\nRequests to Endpoint &quot;give_greeting&quot; should be handled by View Function &quot;give_greeting&quot;\n</code></pre>\n<p>Basically, <strong>the &quot;endpoint&quot; is an identifier that is used in determining what logical unit of your code should handle the request</strong>. Normally, an endpoint is just the name of a view function. However, you can actually change the endpoint, as is done in the following example.</p>\n<pre><code>@app.route('/greeting/&lt;name&gt;', endpoint='say_hello')\ndef give_greeting(name):\n    return 'Hello, {0}!'.format(name)\n</code></pre>\n<p>Now, when Flask routes the request, the logic looks like this:</p>\n<pre><code>URL (http://www.example.org/greeting/Mark) should be handled by Endpoint &quot;say_hello&quot;.\nEndpoint &quot;say_hello&quot; should be handled by View Function &quot;give_greeting&quot;\n</code></pre>\n<h2>How You Use the Endpoint</h2>\n<p>The endpoint is commonly used for the &quot;reverse lookup&quot;. For example, in one view of your Flask application, you want to reference another view (perhaps when you are linking from one area of the site to another). Rather than hard-code the URL, you can use <a href=\"http://flask.pocoo.org/docs/api/#flask.url_for\" rel=\"noreferrer\"><code>url_for()</code></a>. Assume the following</p>\n<pre><code>@app.route('/')\ndef index():\n    print url_for('give_greeting', name='Mark') # This will print '/greeting/Mark'\n\n@app.route('/greeting/&lt;name&gt;')\ndef give_greeting(name):\n    return 'Hello, {0}!'.format(name)\n</code></pre>\n<p>This is advantageous, as now we can change the URLs of our application without needing to change the line where we reference that resource.</p>\n<h2>Why not just always use the name of the view function?</h2>\n<p>One question that might come up is the following: &quot;Why do we need this extra layer?&quot; Why map a path to an endpoint, then an endpoint to a view function? Why not just skip that middle step?</p>\n<p>The reason is because it is more powerful this way. For example, <a href=\"http://flask.pocoo.org/docs/blueprints/\" rel=\"noreferrer\">Flask Blueprints</a> allow you to split your application into various parts. I might have all of my admin-side resources in a blueprint called &quot;admin&quot;, and all of my user-level resources in an endpoint called &quot;user&quot;.</p>\n<p>Blueprints allow you to separate these into namespaces. For example...</p>\n<p>main.py:</p>\n<pre><code>from flask import Flask, Blueprint\nfrom admin import admin\nfrom user import user\n\napp = Flask(__name__)\napp.register_blueprint(admin, url_prefix='/admin')\napp.register_blueprint(user, url_prefix='/user')\n</code></pre>\n<p>admin.py:</p>\n<pre><code>admin = Blueprint('admin', __name__)\n\n@admin.route('/greeting')\ndef greeting():\n    return 'Hello, administrative user!'\n</code></pre>\n<p>user.py:</p>\n<pre><code>user = Blueprint('user', __name__)\n@user.route('/greeting')\ndef greeting():\n    return 'Hello, lowly normal user!'\n</code></pre>\n<p>Note that in both blueprints, the '/greeting' route is a function called &quot;greeting&quot;. If I wanted to refer to the admin &quot;greeting&quot; function, I couldn't just say &quot;greeting&quot; because there is also a user &quot;greeting&quot; function. Endpoints allow for a sort of namespacing by having you specify the name of the blueprint as part of the endpoint. So, I could do the following...</p>\n<pre><code>print url_for('admin.greeting') # Prints '/admin/greeting'\nprint url_for('user.greeting') # Prints '/user/greeting'\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mark Hildreth",
+        "link": "https://stackoverflow.com/users/272520/mark-hildreth"
+      }
+    },
+    {
+      "answer_id": 14343957,
+      "body": "<p>You have to return a redirect:</p>\n<pre><code>import os\nfrom flask import Flask,redirect\n\napp = Flask(__name__)\n\n@app.route('/')\ndef hello():\n    return redirect(&quot;http://www.example.com&quot;, code=302)\n\nif __name__ == '__main__':\n    # Bind to PORT if defined, otherwise default to 5000.\n    port = int(os.environ.get('PORT', 5000))\n    app.run(host='0.0.0.0', port=port)\n</code></pre>\n<p>The default value for code is 302 so <code>code=302</code> can be omitted or replaced by other redirect code (one in 301, 302, 303, 305, and 307).</p>\n<p>See <a href=\"https://flask.palletsprojects.com/api/#flask.redirect\" rel=\"noreferrer\">the documentation on flask docs.</a></p>\n",
+      "owner": {
+        "display_name": "Xavier Combelle",
+        "link": "https://stackoverflow.com/users/128629/xavier-combelle"
+      }
+    },
+    {
+      "answer_id": 77214086,
+      "body": "<p>I had the same problem. It is because <code>Werkzeug 3.0.0</code> was released and Flask doesn't specify the dependency correctly (requirements says <code>Werkzeug&gt;=2.2.0</code>). This is why, <code>Werkzeug 3.0.0</code> is still installed and <code>Flask 2.2.2</code> isn't made for <code>Werkzeug 3.0.0</code>.</p>\n<p><strong>Solution</strong>: Just set a fix version for Werkzeug such as <code>Werkzeug==2.2.2</code> in your <code>requirements.txt</code> and it should work.</p>\n",
+      "owner": {
+        "display_name": "Scrashdemix",
+        "link": "https://stackoverflow.com/users/12356744/scrashdemix"
+      }
+    },
+    {
+      "answer_id": 24578372,
+      "body": "<p>You need to make sure that the value you pass to the <code>directory</code> argument is an absolute path, corrected for the <em>current</em> location of your application.</p>\n<p>The best way to do this is to configure <code>UPLOAD_FOLDER</code> as a relative path (no leading slash), then make it absolute by prepending <code>current_app.root_path</code>:</p>\n<pre><code>@app.route('/uploads/&lt;path:filename&gt;', methods=['GET', 'POST'])\ndef download(filename):\n    uploads = os.path.join(current_app.root_path, app.config['UPLOAD_FOLDER'])\n    return send_from_directory(uploads, filename)\n</code></pre>\n<p>It is important to reiterate that <code>UPLOAD_FOLDER</code> must be relative for this to work, e.g. not start with a <code>/</code>.</p>\n<p>A relative path <em>could</em> work but relies too much on the current working directory being set to the place where your Flask code lives. This may not always be the case.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 22900255,
+      "body": "<p>Your additional threads must be initiated from the same app that is called by the WSGI server.</p>\n<p>The example below creates a background timer-thread that executes every 5 seconds and manipulates data structures that are also available to Flask routed functions.</p>\n<pre><code>import threading\nimport atexit\nfrom flask import Flask\n\nPOOL_TIME = 5 #Seconds\n    \n# variables that are accessible from anywhere\ncommon_data_struct = {}\n# lock to control access to variable\ndata_lock = threading.Lock()\n# timer handler\nyour_timer = threading.Timer(0,lambda x: None,())    \ndef create_app():\n    app = Flask(__name__)\n\n    def interrupt():\n        global your_timer\n        your_timer.cancel()\n\n    def do_stuff():\n        global common_data_struct\n        global your_timer\n        with data_lock:\n            pass\n            # Do your stuff with common_data_struct Here\n\n        # Set the next timeout to happen\n        your_timer = threading.Timer(POOL_TIME, do_stuff, ())\n        your_timer.start()   \n\n    def do_stuff_start():\n        # Do initialisation stuff here\n        global your_timer\n        # Create your timer\n        your_timer = threading.Timer(POOL_TIME, do_stuff, ())\n        your_timer.start()\n\n    # Initiate\n    do_stuff_start()\n    # When you kill Flask (SIGTERM), cancels the timer\n    atexit.register(interrupt)\n    return app\n\napp = create_app()          \n</code></pre>\n<p>Call it from Gunicorn with something like this:</p>\n<pre><code>gunicorn -b 0.0.0.0:5000 --log-config log.conf --pid=app.pid myfile:app\n</code></pre>\n<p>Signal termination works best on OS's other than Windows.  Although this creates a new timer after each timeout, the other timers should eventually be garbage-collected.</p>\n",
+      "owner": {
+        "display_name": "caio",
+        "link": "https://stackoverflow.com/users/3459250/caio"
+      }
+    },
+    {
+      "answer_id": 11994728,
+      "body": "<p>You can use the usual Python package structure to divide your App into multiple modules, <a href=\"https://flask.palletsprojects.com/en/2.2.x/patterns/packages/\" rel=\"noreferrer\">see the Flask docs.</a></p>\n<p>However,</p>\n<blockquote>\n<p>Flask uses a concept of blueprints for making application components and supporting common patterns within an application or across applications.</p>\n</blockquote>\n<p>You can create a sub-component of your app as a Blueprint in a separate file:</p>\n<pre><code>simple_page = Blueprint('simple_page', __name__, template_folder='templates')\n@simple_page.route('/&lt;page&gt;')\ndef show(page):\n    # stuff\n</code></pre>\n<p>And then use it in the main part:</p>\n<pre><code>from yourapplication.simple_page import simple_page\n\napp = Flask(__name__)\napp.register_blueprint(simple_page)\n</code></pre>\n<p>Blueprints can also bundle specific resources: templates or static files. Please refer to the <a href=\"https://flask.palletsprojects.com/en/2.2.x/blueprints/\" rel=\"noreferrer\">Flask docs</a> for all the details.</p>\n",
+      "owner": {
+        "display_name": "pixelistik",
+        "link": "https://stackoverflow.com/users/376138/pixelistik"
+      }
+    },
+    {
+      "answer_id": 31444175,
+      "body": "<p>Flask has an <a href=\"http://flask.pocoo.org/docs/latest/appcontext/#creating-an-application-context\" rel=\"noreferrer\">Application Context</a>, and it seems like you'll need to do something like:</p>\n<pre><code>def test_connection(self):\n    with app.app_context():\n        #test code\n</code></pre>\n<p>You can probably also shove the <code>app.app_context()</code> call into a test setup method as well.</p>\n",
+      "owner": {
+        "display_name": "brenns10",
+        "link": "https://stackoverflow.com/users/820319/brenns10"
+      }
+    },
+    {
+      "answer_id": 7103486,
+      "body": "<p>It seems that you actually haven't executed your query. Try following:</p>\n<pre><code>return jsonify(json_list = qryresult.all())\n</code></pre>\n<p><strong>[Edit]</strong>: Problem with jsonify is, that usually the objects cannot be jsonified automatically. Even Python's datetime fails ;)</p>\n<p>What I have done in the past, is adding an extra property (like <code>serialize</code>) to classes that need to be serialized.</p>\n<pre><code>def dump_datetime(value):\n    &quot;&quot;&quot;Deserialize datetime object into string form for JSON processing.&quot;&quot;&quot;\n    if value is None:\n        return None\n    return [value.strftime(&quot;%Y-%m-%d&quot;), value.strftime(&quot;%H:%M:%S&quot;)]\n\nclass Foo(db.Model):\n    # ... SQLAlchemy defs here..\n    def __init__(self, ...):\n       # self.foo = ...\n       pass\n\n    @property\n    def serialize(self):\n       &quot;&quot;&quot;Return object data in easily serializable format&quot;&quot;&quot;\n       return {\n           'id'         : self.id,\n           'modified_at': dump_datetime(self.modified_at),\n           # This is an example how to deal with Many2Many relations\n           'many2many'  : self.serialize_many2many\n       }\n    @property\n    def serialize_many2many(self):\n       &quot;&quot;&quot;\n       Return object's relations in easily serializable format.\n       NB! Calls many2many's serialize property.\n       &quot;&quot;&quot;\n       return [ item.serialize for item in self.many2many]\n</code></pre>\n<p>And now for views I can just do:</p>\n<pre><code>return jsonify(json_list=[i.serialize for i in qryresult.all()])\n</code></pre>\n<p><strong>[Edit 2019]</strong>:\nIn case you have more complex objects or circular references, use a library like <a href=\"https://marshmallow.readthedocs.io\" rel=\"nofollow noreferrer\">marshmallow</a>).</p>\n",
+      "owner": {
+        "display_name": "plaes",
+        "link": "https://stackoverflow.com/users/157176/plaes"
+      }
+    },
+    {
+      "answer_id": 13089975,
+      "body": "<p>A view can directly return a Python dict or list and Flask will call <a href=\"https://flask.palletsprojects.com/api/#flask.json.jsonify\" rel=\"noreferrer\"><code>jsonify</code></a> automatically.</p>\n<pre class=\"lang-py prettyprint-override\"><code>@app.route(&quot;/summary&quot;)\ndef summary():\n    d = make_summary()\n    return d\n</code></pre>\n<p>For older Flask versions, or to return a different JSON-serializable object, import and use <a href=\"https://flask.palletsprojects.com/api/#flask.json.jsonify\" rel=\"noreferrer\"><code>jsonify</code></a>.</p>\n<pre class=\"lang-py prettyprint-override\"><code>from flask import jsonify\n\n@app.route(&quot;/summary&quot;)\ndef summary():\n    d = make_summary()\n    return jsonify(d)\n</code></pre>\n",
+      "owner": {
+        "display_name": "codegeek",
+        "link": "https://stackoverflow.com/users/1572562/codegeek"
+      }
+    },
+    {
+      "answer_id": 51026060,
+      "body": "<p>As of Flask 2.2, the development server always shows this warning, it is not possible to disable it. The development server is not intended for use in production. It is not designed to be particularly efficient, stable, or secure. Use a production WSGI server instead. See <a href=\"https://flask.palletsprojects.com/deploying/\" rel=\"noreferrer\">the deployment docs from Flask</a> for more information.</p>\n<p>That warning is just a warning though, it's not an error preventing your app from running. If your app isn't working, there's something else wrong with your code.</p>\n<p>That warning applies to the development server, not Flask itself. The Flask framework is appropriate for any type of application and deployment.</p>\n",
+      "owner": {
+        "display_name": "davidism",
+        "link": "https://stackoverflow.com/users/400617/davidism"
+      }
+    },
+    {
+      "answer_id": 29883397,
+      "body": "<p>The <code>flask</code> command is a CLI for interacting with Flask apps. The <a href=\"http://flask.palletsprojects.com/cli/\" rel=\"noreferrer\">docs</a> describe how to use CLI commands and add custom commands. The <code>flask run</code> command is the preferred way to start the development server.</p>\n<p>Never use this command to deploy publicly, use a production WSGI server such as Gunicorn, uWSGI, Waitress, or mod_wsgi.</p>\n<p>As of Flask 2.2, use the <code>--app</code> option to point the command at your app. It can point to an import name or file name. It will automatically detect an app instance or an app factory called <code>create_app</code>. Use the <code>--debug</code> option to run in debug mode with the debugger and reloader.</p>\n<pre class=\"lang-none prettyprint-override\"><code>$ flask --app sample --debug run\n</code></pre>\n<hr />\n<p>Prior to Flask 2.2, the <code>FLASK_APP</code> and <code>FLASK_ENV=development</code> environment variables were used instead. <code>FLASK_APP</code> and <code>FLASK_DEBUG=1</code> can still be used in place of the CLI options above.</p>\n<pre class=\"lang-none prettyprint-override\"><code>$ export FLASK_APP=sample\n$ export FLASK_ENV=development\n$ flask run\n</code></pre>\n<p>On Windows CMD, use <code>set</code> instead of <code>export</code>.</p>\n<pre class=\"lang-none prettyprint-override\"><code>&gt; set FLASK_APP=sample\n</code></pre>\n<p>For PowerShell, use <code>$env:</code>.</p>\n<pre class=\"lang-none prettyprint-override\"><code>&gt; $env:FLASK_APP = &quot;sample&quot;\n</code></pre>\n<hr />\n<p>The <code>python sample.py</code> command runs a Python file and sets <code>__name__ == &quot;__main__&quot;</code>. If the main block calls <code>app.run()</code>, it will run the development server. If you use an app factory, you could also instantiate an app instance at this point.</p>\n<pre class=\"lang-py prettyprint-override\"><code>if __name__ == &quot;__main__&quot;:\n    app = create_app()\n    app.run(debug=True)\n</code></pre>\n<hr />\n<p>Both these commands ultimately start the Werkzeug <a href=\"http://flask.palletsprojects.com/server/\" rel=\"noreferrer\">development server</a>, which as the name implies starts a simple HTTP server that should only be used during development. You should prefer using the <code>flask run</code> command over the <code>app.run()</code>.</p>\n",
+      "owner": {
+        "display_name": "davidism",
+        "link": "https://stackoverflow.com/users/400617/davidism"
+      }
+    },
+    {
+      "answer_id": 40150705,
+      "body": "<p>Run the <code>flask run</code> CLI command with <a href=\"https://flask.palletsprojects.com/quickstart/#debug-mode\" rel=\"noreferrer\">debug mode</a> enabled, which will automatically enable the reloader. As of Flask 2.2, you can pass <code>--app</code> and <code>--debug</code> options on the command line.</p>\n<pre><code>$ flask --app main.py --debug run\n</code></pre>\n<p><code>--app</code> can also be set to <code>module:app</code> or <code>module:create_app</code> instead of <code>module.py</code>. <a href=\"https://flask.palletsprojects.com/cli/#application-discovery\" rel=\"noreferrer\">See the docs for a full explanation.</a></p>\n<p>More options are available with:</p>\n<pre><code>$ flask run --help\n</code></pre>\n<p>Prior to Flask 2.2, you needed to set the <code>FLASK_APP</code> and <code>FLASK_ENV=development</code> environment variables.</p>\n<pre><code>$ export FLASK_APP=main.py\n$ export FLASK_ENV=development\n$ flask run\n</code></pre>\n<p>It is still possible to set <code>FLASK_APP</code> and <code>FLASK_DEBUG=1</code> in Flask 2.2.</p>\n",
+      "owner": {
+        "display_name": "Eyal Levin",
+        "link": "https://stackoverflow.com/users/451710/eyal-levin"
+      }
+    },
+    {
+      "answer_id": 15975041,
+      "body": "<p>You can examine the url through several <a href=\"http://flask.pocoo.org/docs/api/#flask.Request.path\" rel=\"noreferrer\"><code>Request</code></a> fields:</p>\n<blockquote>\n<p>Imagine your application is listening on the following application root:</p>\n<pre><code>http://www.example.com/myapplication\n</code></pre>\n<p>And a user requests the following URI:</p>\n<pre><code>http://www.example.com/myapplication/foo/page.html?x=y\n</code></pre>\n<p>In this case the values of the above mentioned attributes would be the following:</p>\n<pre><code>    path             /foo/page.html\n    full_path        /foo/page.html?x=y\n    script_root      /myapplication\n    base_url         http://www.example.com/myapplication/foo/page.html\n    url              http://www.example.com/myapplication/foo/page.html?x=y\n    url_root         http://www.example.com/myapplication/\n</code></pre>\n</blockquote>\n<p>You can easily extract the host part with the appropriate splits.</p>\n<p>An example of using this:</p>\n<pre><code>from flask import request\n\n@app.route('/')\ndef index():\n    return request.base_url\n</code></pre>\n",
+      "owner": {
+        "display_name": "icecrime",
+        "link": "https://stackoverflow.com/users/451980/icecrime"
+      }
+    },
+    {
+      "answer_id": 11017839,
+      "body": "<p>Create a response object with the data and then set the content type header. Set the content disposition header to <code>attachment</code> if you want the browser to save the file instead of displaying it.</p>\n<pre><code>@app.route('/images/&lt;int:pid&gt;.jpg')\ndef get_image(pid):\n    image_binary = read_image(pid)\n    response = make_response(image_binary)\n    response.headers.set('Content-Type', 'image/jpeg')\n    response.headers.set(\n        'Content-Disposition', 'attachment', filename='%s.jpg' % pid)\n    return response\n</code></pre>\n<p>Relevant: <a href=\"http://werkzeug.pocoo.org/docs/#werkzeug.Headers\" rel=\"noreferrer\">werkzeug.Headers</a> and <a href=\"http://flask.pocoo.org/docs/api/#response-objects\" rel=\"noreferrer\">flask.Response</a></p>\n<p>You can pass a file-like object and the header arguments to <code>send_file</code> to let it set up the complete response. Use <code>io.BytesIO</code> for binary data:</p>\n<pre><code>return send_file(\n    io.BytesIO(image_binary),\n    mimetype='image/jpeg',\n    as_attachment=True,\n    download_name='%s.jpg' % pid)\n</code></pre>\n<p>Prior to Flask 2.0, <code>download_name</code> was called <code>attachment_filename</code>.</p>\n",
+      "owner": {
+        "display_name": "dav1d",
+        "link": "https://stackoverflow.com/users/969534/dav1d"
+      }
+    },
+    {
+      "answer_id": 17053522,
+      "body": "<p>If you are just running the server on your desktop, you can expose an endpoint to kill the server (read more at <a href=\"http://web.archive.org/web/20190706125149/http://flask.pocoo.org/snippets/67\" rel=\"noreferrer\">Shutdown The Simple Server</a>):</p>\n<pre><code>from flask import request\ndef shutdown_server():\n    func = request.environ.get('werkzeug.server.shutdown')\n    if func is None:\n        raise RuntimeError('Not running with the Werkzeug Server')\n    func()\n    \n@app.get('/shutdown')\ndef shutdown():\n    shutdown_server()\n    return 'Server shutting down...'\n</code></pre>\n<p>Here is another approach that is more contained:</p>\n<pre><code>from multiprocessing import Process\n\nserver = Process(target=app.run)\nserver.start()\n# ...\nserver.terminate()\nserver.join()\n</code></pre>\n<p>Let me know if this helps.</p>\n",
+      "owner": {
+        "display_name": "Zorayr",
+        "link": "https://stackoverflow.com/users/577878/zorayr"
+      }
+    },
+    {
+      "answer_id": 18967744,
+      "body": "<p>The answer depends on how you are serving this application.</p>\n<h2>Sub-mounted inside of another WSGI container</h2>\n<p>Assuming that you are going to run this application inside of a WSGI container (mod_wsgi, uwsgi, gunicorn, etc); you need to actually <em>mount, at that prefix</em> the application as a sub-part of that WSGI container (anything that speaks WSGI will do) and to set your <a href=\"http://flask.pocoo.org/docs/config/#builtin-configuration-values\" rel=\"noreferrer\"><code>APPLICATION_ROOT</code></a> config value to your prefix:</p>\n<pre><code>app.config[&quot;APPLICATION_ROOT&quot;] = &quot;/abc/123&quot;\n\n@app.route(&quot;/&quot;)\ndef index():\n    return &quot;The URL for this page is {}&quot;.format(url_for(&quot;index&quot;))\n\n# Will return &quot;The URL for this page is /abc/123/&quot;\n</code></pre>\n<p>Setting the <a href=\"http://flask.pocoo.org/docs/config/#builtin-configuration-values\" rel=\"noreferrer\"><code>APPLICATION_ROOT</code></a> config value simply limit Flask's session cookie to that URL prefix.  Everything else will be automatically handled for you by Flask and Werkzeug's excellent WSGI handling capabilities.</p>\n<h3>An example of properly sub-mounting your app</h3>\n<p>If you are not sure what the first paragraph means, take a look at this example application with Flask mounted inside of it:</p>\n<pre><code>from flask import Flask, url_for\nfrom werkzeug.serving import run_simple\nfrom werkzeug.middleware.dispatcher import DispatcherMiddleware\n \napp = Flask(__name__)\napp.config['APPLICATION_ROOT'] = '/abc/123'\n \n@app.route('/')\ndef index():\n    return 'The URL for this page is {}'.format(url_for('index'))\n\ndef simple(env, resp):\n    resp(b'200 OK', [(b'Content-Type', b'text/plain')])\n    return [b'Hello WSGI World']\n\napp.wsgi_app = DispatcherMiddleware(simple, {'/abc/123': app.wsgi_app})\n\nif __name__ == '__main__':\n    app.run('localhost', 5000)\n</code></pre>\n<h2>Proxying requests to the app</h2>\n<p>If, on the other hand, you will be running your Flask application at the root of its WSGI container and proxying requests to it (for example, if it's being FastCGI'd to, or if nginx is <code>proxy_pass</code>-ing requests for a sub-endpoint to your stand-alone <code>uwsgi</code> / <code>gevent</code> server then you can either:</p>\n<ul>\n<li>Use a Blueprint, as Miguel points out in <a href=\"https://stackoverflow.com/a/18969161/135978\">his answer</a>.</li>\n<li><em>or</em> use the <code>DispatcherMiddleware</code> from <code>werkzeug</code> (or the <code>PrefixMiddleware</code> from <a href=\"https://stackoverflow.com/a/36033627/135978\">su27's answer</a>) to sub-mount your application in the stand-alone WSGI server you're using.  (See <em>An example of properly sub-mounting your app</em> above for the code to use).</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Sean Vieira",
+        "link": "https://stackoverflow.com/users/135978/sean-vieira"
+      }
+    },
+    {
+      "answer_id": 11178486,
+      "body": "<p>You can use <code>{{ variable }}</code> anywhere in your template, not just in the HTML part. So this should work:</p>\n<pre><code>&lt;html&gt;\n&lt;head&gt;\n  &lt;script&gt;\n    var someJavaScriptVar = '{{ geocode[1] }}';\n  &lt;/script&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;p&gt;Hello World&lt;/p&gt;\n  &lt;button onclick=&quot;alert('Geocode: {{ geocode[0] }} ' + someJavaScriptVar)&quot; /&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n</code></pre>\n<p>Think of it as a two-stage process: First, Jinja (the template engine Flask uses) generates your text output. This gets sent to the user who executes the JavaScript he sees. If you want your Flask variable to be available in JavaScript as an array, you have to generate an array definition in your output:</p>\n<pre><code>&lt;html&gt;\n  &lt;head&gt;\n    &lt;script&gt;\n      var myGeocode = ['{{ geocode[0] }}', '{{ geocode[1] }}'];\n    &lt;/script&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    &lt;p&gt;Hello World&lt;/p&gt;\n    &lt;button onclick=&quot;alert('Geocode: ' + myGeocode[0] + ' ' + myGeocode[1])&quot; /&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</code></pre>\n<p>Jinja also offers more advanced constructs from Python, so you can shorten it to:</p>\n<pre><code>&lt;html&gt;\n&lt;head&gt;\n  &lt;script&gt;\n    var myGeocode = [{{ ', '.join(geocode) }}];\n  &lt;/script&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;p&gt;Hello World&lt;/p&gt;\n  &lt;button onclick=&quot;alert('Geocode: ' + myGeocode[0] + ' ' + myGeocode[1])&quot; /&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n</code></pre>\n<p>You can also use <code>for</code> loops, <code>if</code> statements and many more, see the <a href=\"http://jinja.pocoo.org/docs/\" rel=\"noreferrer\">Jinja2 documentation</a> for more.</p>\n<p>Also, have a look at Ford's answer who points out the <a href=\"http://jinja.pocoo.org/docs/2.10/templates/#tojson\" rel=\"noreferrer\"><code>tojson</code></a> filter which is an addition to <a href=\"http://jinja.pocoo.org/docs/dev/templates/#builtin-filters\" rel=\"noreferrer\">Jinja2's standard set of filters</a>.</p>\n<p><em>Edit Nov 2018: <code>tojson</code> is now included in Jinja2's standard set of filters.</em></p>\n",
+      "owner": {
+        "display_name": "mensi",
+        "link": "https://stackoverflow.com/users/871665/mensi"
+      }
+    },
+    {
+      "answer_id": 34671505,
+      "body": "<p>According to the <a href=\"http://flask.pocoo.org/docs/latest/api/#flask.Request.args\" rel=\"noreferrer\"><code>flask.Request.args</code></a> documents.</p>\n<blockquote>\n<p><strong>flask.Request.args</strong><br />\nA <strong>MultiDict</strong> with the parsed contents of the query string. (The part in the URL after the question mark).</p>\n</blockquote>\n<p>So the <code>args.get()</code> is method <code>get()</code> for <a href=\"http://werkzeug.pocoo.org/docs/latest/datastructures/#werkzeug.datastructures.MultiDict.get\" rel=\"noreferrer\"><code>MultiDict</code></a>, whose prototype is as follows:</p>\n<pre><code>get(key, default=None, type=None)\n</code></pre>\n<hr />\n<p>In newer version of flask (<a href=\"https://flask.palletsprojects.com/en/1.0.x/api/#flask.Request.args\" rel=\"noreferrer\">v1.0.x</a> and <a href=\"https://flask.palletsprojects.com/en/1.0.x/api/#flask.Request.args\" rel=\"noreferrer\">v1.1.x</a>),  <a href=\"https://flask.palletsprojects.com/en/1.0.x/api/#flask.Request.args\" rel=\"noreferrer\"><code>flask.Request.args</code></a> is an <a href=\"https://werkzeug.palletsprojects.com/en/0.16.x/datastructures/#werkzeug.datastructures.ImmutableMultiDict\" rel=\"noreferrer\"><code>ImmutableMultiDict</code></a>(an immutable <a href=\"https://werkzeug.palletsprojects.com/en/0.16.x/datastructures/#werkzeug.datastructures.MultiDict\" rel=\"noreferrer\"><code>MultiDict</code></a>), so the prototype and specific method above are still valid.</p>\n",
+      "owner": {
+        "display_name": "luoluo",
+        "link": "https://stackoverflow.com/users/1099230/luoluo"
+      }
+    },
+    {
+      "answer_id": 16664376,
+      "body": "<p>The <a href=\"https://flask.palletsprojects.com/api/#flask.Request\" rel=\"noreferrer\">docs</a> describe the attributes available on the <code>request</code> object (<code>from flask import request</code>) during a request. In most common cases <code>request.data</code> will be empty because it's used as a fallback:</p>\n<blockquote>\n<p><code>request.data</code> Contains the incoming request data as string in case it came with a mimetype Flask does not handle.</p>\n</blockquote>\n<ul>\n<li><a href=\"https://flask.palletsprojects.com/api/#flask.Request.args\" rel=\"noreferrer\"><code>request.args</code></a>: the key/value pairs in the URL query string</li>\n<li><a href=\"https://flask.palletsprojects.com/api/#flask.Request.form\" rel=\"noreferrer\"><code>request.form</code></a>: the key/value pairs in the body, from a HTML post form, or JavaScript request that isn't JSON encoded</li>\n<li><a href=\"https://flask.palletsprojects.com/api/#flask.Request.files\" rel=\"noreferrer\"><code>request.files</code></a>: the files in the body, which Flask keeps separate from <code>form</code>. HTML forms must use <code>enctype=multipart/form-data</code> or files will not be uploaded.</li>\n<li><a href=\"https://flask.palletsprojects.com/api/#flask.Request.values\" rel=\"noreferrer\"><code>request.values</code></a>: combined <code>args</code> and <code>form</code>, preferring <code>args</code> if keys overlap</li>\n<li><a href=\"https://flask.palletsprojects.com/api/#flask.Request.json\" rel=\"noreferrer\"><code>request.json</code></a>: parsed JSON data. The request must have the <code>application/json</code> content type, or use <a href=\"https://flask.palletsprojects.com/api/#flask.Request.get_json\" rel=\"noreferrer\"><code>request.get_json(force=True)</code></a> to ignore the content type.</li>\n</ul>\n<p>All of these are <a href=\"https://werkzeug.palletsprojects.com/datastructures/#werkzeug.datastructures.MultiDict\" rel=\"noreferrer\"><code>MultiDict</code></a> instances (except for <code>json</code>). You can access values using:</p>\n<ul>\n<li><code>request.form['name']</code>: use indexing if you know the key exists</li>\n<li><code>request.form.get('name')</code>: use <code>get</code> if the key might not exist</li>\n<li><code>request.form.getlist('name')</code>: use <code>getlist</code> if the key is sent multiple times and you want a list of values. <code>get</code> only returns the first value.</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Robert",
+        "link": "https://stackoverflow.com/users/634089/robert"
+      }
+    },
+    {
+      "answer_id": 33383239,
+      "body": "<p>An easy way to do this is by printing to stderr. You can do that like this:</p>\n<pre><code>from __future__ import print_function # In python 2.7\nimport sys\n\n@app.route('/button/')\ndef button_clicked():\n    print('Hello world!', file=sys.stderr)\n    return redirect('/')\n</code></pre>\n<p>Flask will display things printed to stderr in the console. For other ways of printing to stderr, see <a href=\"https://stackoverflow.com/questions/5574702/how-to-print-to-stderr-in-python\">this stackoverflow post</a></p>\n",
+      "owner": {
+        "display_name": "Gabe",
+        "link": "https://stackoverflow.com/users/2598142/gabe"
+      }
+    },
+    {
+      "answer_id": 14823968,
+      "body": "<p><a href=\"http://flask.pocoo.org/docs/api/#flask.Flask.run\" rel=\"noreferrer\"><code>flask.Flask.run</code></a> accepts additional keyword arguments (<code>**options</code>) that it forwards to <a href=\"http://werkzeug.pocoo.org/docs/serving/#werkzeug.serving.run_simple\" rel=\"noreferrer\"><code>werkzeug.serving.run_simple</code></a> - two of those arguments are <code>threaded</code> (a boolean) and <code>processes</code> (which you can set to a number greater than one to have werkzeug spawn more than one process to handle requests).</p>\n<p><code>threaded</code> defaults to <code>True</code> as of Flask 1.0, so for the latest versions of Flask, the default development server will be able to serve multiple clients simultaneously by default. For older versions of Flask, you can explicitly pass <code>threaded=True</code> to enable this behaviour.</p>\n<p>For example, you can do</p>\n<pre><code>if __name__ == '__main__':\n    app.run(threaded=True)\n</code></pre>\n<p>to handle multiple clients using threads in a way compatible with old Flask versions, or</p>\n<pre><code>if __name__ == '__main__':\n    app.run(threaded=False, processes=3)\n</code></pre>\n<p>to tell Werkzeug to spawn three processes to handle incoming requests, or just</p>\n<pre><code>if __name__ == '__main__':\n    app.run()\n</code></pre>\n<p>to handle multiple clients using threads if you know that you will be using Flask 1.0 or later.</p>\n<p>That being said, Werkzeug's <code>serving.run_simple</code> wraps the standard library's <a href=\"https://docs.python.org/3/library/wsgiref.html#module-wsgiref\" rel=\"noreferrer\"><code>wsgiref</code></a> package - and that package contains a reference implementation of WSGI, not a production-ready web server.  If you are going to use Flask in production (assuming that &quot;production&quot; is not a low-traffic internal application with no more than 10 concurrent users) make sure to stand it up behind a real web server (see the section of Flask's docs entitled <a href=\"http://flask.pocoo.org/docs/deploying/\" rel=\"noreferrer\">Deployment Options</a> for some suggested methods).</p>\n",
+      "owner": {
+        "display_name": "Sean Vieira",
+        "link": "https://stackoverflow.com/users/135978/sean-vieira"
+      }
+    },
+    {
+      "answer_id": 13172658,
+      "body": "<p>The <code>jsonify()</code> function in flask returns a <code>flask.Response()</code> object that already has the appropriate content-type header 'application/json' for use with json responses. Whereas, the <code>json.dumps()</code> method will just return an encoded string, which would require manually adding the MIME type header.</p>\n<p>See more about the <code>jsonify()</code> function <a href=\"https://flask.palletsprojects.com/api/#flask.json.jsonify\" rel=\"noreferrer\">here</a> for full reference.</p>\n<p>Edit:\nAlso, I've noticed that <code>jsonify()</code> handles kwargs or dictionaries, while <code>json.dumps()</code> additionally supports lists and others.</p>\n",
+      "owner": {
+        "display_name": "Kenneth Wilke",
+        "link": "https://stackoverflow.com/users/568708/kenneth-wilke"
+      }
+    },
+    {
+      "answer_id": 15996114,
+      "body": "<p>This worked for me:</p>\n<pre><code>curl -v --cookie &quot;USER_TOKEN=Yes&quot; http://127.0.0.1:5000/\n</code></pre>\n<p>I could see the value in backend using</p>\n<pre><code>print(request.cookies)\n</code></pre>\n",
+      "owner": {
+        "display_name": "daydreamer",
+        "link": "https://stackoverflow.com/users/379235/daydreamer"
+      }
+    },
+    {
+      "answer_id": 23327352,
+      "body": "<p>You must create your template files in the correct location; in the <code>templates</code> subdirectory next to the python module (== the module where you create your Flask app).</p>\n<p>The error indicates that there is no <code>home.html</code> file in the <code>templates/</code> directory. Make sure you created that directory in the same directory as your python module, and that you did in fact put a <code>home.html</code> file in that subdirectory.  If your app is a package, the templates folder should be created <em>inside</em> the package.</p>\n<pre><code>myproject/\n    app.py\n    templates/\n        home.html\n</code></pre>\n\n<pre><code>myproject/\n    mypackage/\n        __init__.py\n        templates/\n            home.html\n</code></pre>\n<p>Alternatively, if you named your templates folder something other than <code>templates</code> and don't want to rename it to the default, you can tell Flask to use that other directory.</p>\n<pre><code>app = Flask(__name__, template_folder='template')  # still relative to module\n</code></pre>\n<p>You can ask Flask to explain how it tried to find a given template, by setting the <a href=\"https://flask.palletsprojects.com/config/#EXPLAIN_TEMPLATE_LOADING\" rel=\"noreferrer\"><code>EXPLAIN_TEMPLATE_LOADING</code> option</a> to <code>True</code>. For every template loaded, you'll get a report logged to the <a href=\"https://flask.palletsprojects.com/quickstart/#logging\" rel=\"noreferrer\">Flask <code>app.logger</code></a>, at level <code>INFO</code>.</p>\n<p>This is what it looks like when a search is successful; in this example the <code>foo/bar.html</code> template extends the <code>base.html</code> template, so there are two searches:</p>\n<pre class=\"lang-none prettyprint-override\"><code>[2019-06-15 16:03:39,197] INFO in debughelpers: Locating template &quot;foo/bar.html&quot;:\n    1: trying loader of application &quot;flaskpackagename&quot;\n       class: jinja2.loaders.FileSystemLoader\n       encoding: 'utf-8'\n       followlinks: False\n       searchpath:\n         - /.../project/flaskpackagename/templates\n       -&gt; found ('/.../project/flaskpackagename/templates/foo/bar.html')\n[2019-06-15 16:03:39,203] INFO in debughelpers: Locating template &quot;base.html&quot;:\n    1: trying loader of application &quot;flaskpackagename&quot;\n       class: jinja2.loaders.FileSystemLoader\n       encoding: 'utf-8'\n       followlinks: False\n       searchpath:\n         - /.../project/flaskpackagename/templates\n       -&gt; found ('/.../project/flaskpackagename/templates/base.html')\n</code></pre>\n<p>Blueprints can <a href=\"https://flask.palletsprojects.com/blueprints/#templates\" rel=\"noreferrer\">register their own template directories</a> too, but this is not a requirement if you are using blueprints to make it easier to split a larger project across logical units. The main Flask app template directory is always searched first even when using additional paths per blueprint.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 7027113,
+      "body": "<p>While this is possible, you should not use the Flask dev server in production. The Flask dev server is not designed to be particularly secure, stable, or efficient. See the docs on <a href=\"https://flask.palletsprojects.com/deploying/index.html\" rel=\"noreferrer\">deploying</a> for correct solutions.</p>\n<hr />\n<p>The <code>--host</code> option to <code>flask run</code>, or the <code>host</code> parameter to <code>app.run()</code>, controls what address the development server listens to. By default it runs on <code>localhost</code>, change it to <code>flask run --host=0.0.0.0</code> (or <code>app.run(host=&quot;0.0.0.0&quot;)</code>) to run on all your machine's IP addresses.</p>\n<p><code>0.0.0.0</code> is a special value that you can't use in the browser directly, you'll need to navigate to the actual IP address of the machine on the network. You may also need to adjust your firewall to allow external access to the port.</p>\n<p>The Flask <a href=\"https://flask.palletsprojects.com/quickstart/#a-minimal-application\" rel=\"noreferrer\">quickstart docs</a> explain this in the &quot;Externally Visible Server&quot; section:</p>\n<blockquote>\n<p>If you run the server you will notice that the server is only\naccessible from your own computer, not from any other in the network.\nThis is the default because in debugging mode a user of the\napplication can execute arbitrary Python code on your computer.</p>\n<p>If you have the debugger disabled or trust the users on your network,\nyou can make the server publicly available simply by adding\n<code>--host=0.0.0.0</code> to the command line:</p>\n<pre class=\"lang-none prettyprint-override\"><code>$ flask run --host=0.0.0.0\n</code></pre>\n<p>This tells your operating system to listen on all public IPs.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Shawn Swaner",
+        "link": "https://stackoverflow.com/users/50609/shawn-swaner"
+      }
+    },
+    {
+      "answer_id": 7478705,
+      "body": "<p>It takes keyword arguments for the variables:</p>\n<pre><code>url_for('add', variable=foo)\nurl_for('remove', variable=foo)\n</code></pre>\n<p>The flask-server would have functions:</p>\n<pre><code>@app.route('/&lt;variable&gt;/add', methods=['GET', 'POST'])\ndef add(variable):\n\n@app.route('/&lt;variable&gt;/remove', methods=['GET', 'POST'])\ndef remove(variable):\n</code></pre>\n",
+      "owner": {
+        "display_name": "FogleBird",
+        "link": "https://stackoverflow.com/users/90308/foglebird"
+      }
+    },
+    {
+      "answer_id": 9878404,
+      "body": "<pre><code>from flask import request\nrequest.headers.get('User-Agent')\n</code></pre>\n<p>You can also use the <a href=\"https://werkzeug.palletsprojects.com/en/2.0.x/utils/#module-werkzeug.useragents\" rel=\"noreferrer\"><code>request.user_agent</code></a> object which contains the following attributes which are created based on the useragent string:</p>\n<ul>\n<li>platform (windows, linux, macos, etc.)</li>\n<li>browser (chrome, firefox, msie, etc.)</li>\n<li>version</li>\n<li>language</li>\n<li>string (<code>== request.headers.get('User-Agent')</code>)</li>\n</ul>\n<hr />\n<p>Note: As of werkzeug 2.0, the parsed data of <code>request.user_agent</code> has been deprecated; if you want to keep getting details you need to use a custom <code>UserAgent</code> implementation and set it as <code>user_agent_class</code> on a custom <code>Request</code> subclass, which is set as <code>request_class</code> on the <code>Flask</code> instance (or a subclass).</p>\n<p>Here's an example implementation that uses <a href=\"https://github.com/ua-parser/uap-python\" rel=\"noreferrer\"><code>ua-parser</code></a>:</p>\n<pre class=\"lang-py prettyprint-override\"><code>from ua_parser import user_agent_parser\nfrom werkzeug.user_agent import UserAgent\nfrom werkzeug.utils import cached_property\n\n\nclass ParsedUserAgent(UserAgent):\n    @cached_property\n    def _details(self):\n        return user_agent_parser.Parse(self.string)\n\n    @property\n    def platform(self):\n        return self._details['os']['family']\n\n    @property\n    def browser(self):\n        return self._details['user_agent']['family']\n\n    @property\n    def version(self):\n        return '.'.join(\n            part\n            for key in ('major', 'minor', 'patch')\n            if (part := self._details['user_agent'][key]) is not None\n        )\n</code></pre>\n",
+      "owner": {
+        "display_name": "ThiefMaster",
+        "link": "https://stackoverflow.com/users/298479/thiefmaster"
+      }
+    },
+    {
+      "answer_id": 25504196,
+      "body": "<p>The Werkzeug reloader spawns a child process so that it can restart that process each time your code changes. Werkzeug is the library that supplies Flask with the development server when you call <code>app.run()</code>.</p>\n<p>See the <a href=\"https://github.com/pallets/werkzeug/blob/54acdd16b247f7037482737e72ec52fc6d50a78d/src/werkzeug/_reloader.py#L160-L185\" rel=\"noreferrer\"><code>restart_with_reloader()</code> function code</a>; your script is run <em>again</em> with <code>subprocess.call()</code>.</p>\n<p>If you set <code>use_reloader</code> to <code>False</code> you'll see the behaviour go away, but then you also lose the reloading functionality:</p>\n<pre><code>app.run(port=4004, debug=config.DEBUG, host='0.0.0.0', use_reloader=False)\n</code></pre>\n<p>You can disable the reloader when using the <code>flask run</code> command too:</p>\n<pre><code>FLASK_DEBUG=1 flask run --no-reload\n</code></pre>\n<p>You can use the <a href=\"https://werkzeug.palletsprojects.com/en/1.0.x/serving/#werkzeug.serving.is_running_from_reloader\" rel=\"noreferrer\"><code>werkzeug.serving.is_running_from_reloader</code> function</a> if you wanted to detect when you are in the reloading child process:</p>\n<pre><code>from werkzeug.serving import is_running_from_reloader\n\nif is_running_from_reloader():\n    print(f&quot;################### Restarting @ {datetime.utcnow()} ###################&quot;)\n</code></pre>\n<p>However, if you need to set up module globals, then you should instead use the <a href=\"https://flask.palletsprojects.com/en/1.1.x/api/#flask.Flask.before_first_request\" rel=\"noreferrer\"><code>@app.before_first_request</code> decorator</a> on a function and have that function set up such globals. It'll be called just once after every reload when the first request comes in:</p>\n<pre><code>@app.before_first_request\ndef before_first_request():\n    print(f&quot;########### Restarted, first request @ {datetime.utcnow()} ############&quot;)\n</code></pre>\n<p>Do take into account that if you run this in a full-scale WSGI server that uses forking or new subprocesses to handle requests, that <code>before_first_request</code> handlers <em>may</em> be invoked for each new subprocess.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 3206446,
+      "body": "<p>To turn off autoescaping when rendering a value, use the <code>|safe</code> filter.</p>\n<pre class=\"lang-none prettyprint-override\"><code>{{ something|safe }}\n</code></pre>\n<p>Only do this on data you trust, since rendering untrusted data without escaping is a cross-site scripting vulnerability.</p>\n",
+      "owner": {
+        "display_name": "iamgopal",
+        "link": "https://stackoverflow.com/users/290503/iamgopal"
+      }
+    },
+    {
+      "answer_id": 38501429,
+      "body": "<p>You can use <a href=\"https://apscheduler.readthedocs.io/en/latest/modules/schedulers/background.html\" rel=\"noreferrer\"><code>BackgroundScheduler()</code></a> from <a href=\"https://pypi.org/project/APScheduler/\" rel=\"noreferrer\">APScheduler</a> package (v3.5.3):</p>\n<pre><code>import time\nimport atexit\n\nfrom apscheduler.schedulers.background import BackgroundScheduler\n\n\ndef print_date_time():\n    print(time.strftime(&quot;%A, %d. %B %Y %I:%M:%S %p&quot;))\n\n\nscheduler = BackgroundScheduler()\nscheduler.add_job(func=print_date_time, trigger=&quot;interval&quot;, seconds=60)\nscheduler.start()\n\n# Shut down the scheduler when exiting the app\natexit.register(lambda: scheduler.shutdown())\n</code></pre>\n<p>Note that two of these schedulers will be launched when Flask is in debug mode. For more information, check out <a href=\"https://stackoverflow.com/questions/14874782/apscheduler-in-flask-executes-twice\">this</a> question.</p>\n",
+      "owner": {
+        "display_name": "tuomastik",
+        "link": "https://stackoverflow.com/users/5524090/tuomastik"
+      }
+    },
+    {
+      "answer_id": 30329547,
+      "body": "<p>The problem is you are only binding to the localhost interface, you should be binding to <code>0.0.0.0</code> if you want the container to be accessible from outside. If you change:</p>\n<pre><code>if __name__ == '__main__':\n    app.run()\n</code></pre>\n<p>to</p>\n<pre><code>if __name__ == '__main__':\n    app.run(host='0.0.0.0')\n</code></pre>\n<p>It should work.</p>\n<p>Note that this will bind to <em>all</em> interfaces on the host, which may in some circumstances be a security risk - see <a href=\"https://stackoverflow.com/a/58138250/4332\">https://stackoverflow.com/a/58138250/4332</a> for more information on binding to a specific interface.</p>\n",
+      "owner": {
+        "display_name": "Adrian Mouat",
+        "link": "https://stackoverflow.com/users/4332/adrian-mouat"
+      }
+    },
+    {
+      "answer_id": 31867108,
+      "body": "<p>I would use <a href=\"https://docs.celeryproject.org/en/stable/index.html\" rel=\"noreferrer\">Celery</a> to handle the asynchronous task for you. You'll need to install a broker to serve as your task queue (RabbitMQ and Redis are recommended).</p>\n<p><code>app.py</code>:</p>\n<pre><code>from flask import Flask\nfrom celery import Celery\n\nbroker_url = 'amqp://guest@localhost'          # Broker URL for RabbitMQ task queue\n\napp = Flask(__name__)    \ncelery = Celery(app.name, broker=broker_url)\ncelery.config_from_object('celeryconfig')      # Your celery configurations in a celeryconfig.py\n\n@celery.task(bind=True)\ndef some_long_task(self, x, y):\n    # Do some long task\n    ...\n\n@app.route('/render/&lt;id&gt;', methods=['POST'])\ndef render_script(id=None):\n    ...\n    data = json.loads(request.data)\n    text_list = data.get('text_list')\n    final_file = audio_class.render_audio(data=text_list)\n    some_long_task.delay(x, y)                 # Call your async task and pass whatever necessary variables\n    return Response(\n        mimetype='application/json',\n        status=200\n    )\n</code></pre>\n<p>Run your Flask app, and start another process to run your celery worker.</p>\n<pre><code>$ celery worker -A app.celery --loglevel=debug\n</code></pre>\n<p>I would also refer to Miguel Gringberg's <a href=\"http://blog.miguelgrinberg.com/post/using-celery-with-flask\" rel=\"noreferrer\">write up</a> for a more in depth guide to using Celery with Flask.</p>\n",
+      "owner": {
+        "display_name": "Connie",
+        "link": "https://stackoverflow.com/users/4112244/connie"
+      }
+    },
+    {
+      "answer_id": 26080974,
+      "body": "<p>In your case the exception is raised by the <code>NullSessionInterface</code> session implementation, which is the <em>default session type</em> when you use Flask-Session. That's because you don't ever actually give the <code>SESSION_TYPE</code> configuration <em>to Flask</em>; it is <em>not enough</em> to set it as a global in your module. The <a href=\"https://flask-session.readthedocs.io/en/latest/#quickstart\" rel=\"noreferrer\">Flask-Session quickstart example code</a> does set a global, but then uses the current module as a configuration object by calling <code>app.config.from_object(__name__)</code>.</p>\n<p>This default doesn't make much sense with Flask 0.10 or newer; <code>NullSession</code> may have made sense with Flask 0.8 or 0.9, but in current version the <a href=\"https://flask.palletsprojects.com/en/1.1.x/api/#flask.sessions.NullSession\" rel=\"noreferrer\"><code>flask.session.NullSession</code> class</a> is used as an error signal. In your case it gives you the wrong error message now.</p>\n<p>Set the <code>SESSION_TYPE</code> configuration option to something else. Pick one of <code>redis</code>, <code>memcached</code>, <code>filesystem</code> or <code>mongodb</code>, and make sure to set it in <code>app.config</code> (directly or via the <a href=\"https://flask.palletsprojects.com/en/1.1.x/api/#flask.Config\" rel=\"noreferrer\">various <code>Config.from_*</code> methods</a>).</p>\n<p>For a quick test, setting it to <code>filesystem</code> is easiest; there is enough default configuration there to have that work without additional dependencies:</p>\n<pre><code>if __name__ == &quot;__main__&quot;:\n    # Quick test configuration. Please use proper Flask configuration options\n    # in production settings, and use a separate file or environment variables\n    # to manage the secret key!\n    app.secret_key = 'super secret key'\n    app.config['SESSION_TYPE'] = 'filesystem'\n\n    sess.init_app(app)\n\n    app.debug = True\n    app.run()\n</code></pre>\n<p>If you see this error and you are <strong>not</strong> using Flask-Session, then something has gone wrong with setting the secret. If you are setting <code>app.config['SECRET_KEY']</code> or <code>app.secret_key</code> in a <code>if __name__ == &quot;__main__&quot;:</code> guard like above and you get this error, then you are probably running your Flask app via a WSGI server that imports your Flask project <em>as a module</em>, and the <code>__name__ == &quot;__main__&quot;</code> block is never run.</p>\n<p>It is always better to <a href=\"https://flask.palletsprojects.com/en/1.1.x/config/#configuring-from-files\" rel=\"noreferrer\">manage configuration for Flask apps in a separate file</a>, anyway.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 29464090,
+      "body": "<p>this also works in a pinch</p>\n<pre><code>from flask import Flask, jsonify\n\n\nfrom OpenSSL import SSL\ncontext = SSL.Context(SSL.PROTOCOL_TLSv1_2)\ncontext.use_privatekey_file('server.key')\ncontext.use_certificate_file('server.crt')   \n\n\napp = Flask(__name__)\n\n\n@app.route('/')\ndef index():\n    return 'Flask is running!'\n\n\n@app.route('/data')\ndef names():\n    data = {&quot;names&quot;: [&quot;John&quot;, &quot;Jacob&quot;, &quot;Julie&quot;, &quot;Jennifer&quot;]}\n    return jsonify(data)\n\n\n#if __name__ == '__main__':\n#    app.run()\nif __name__ == '__main__':  \n     app.run(host='127.0.0.1', debug=True, ssl_context=context)\n</code></pre>\n",
+      "owner": {
+        "display_name": "RobM",
+        "link": "https://stackoverflow.com/users/4330537/robm"
+      }
+    },
+    {
+      "answer_id": 11566296,
+      "body": "<p>The <code>form</code> tag needs some attributes set:</p>\n<ol>\n<li><code>action</code>: The URL that the form data is sent to on submit. Generate it with <code>url_for</code>. It can be omitted if the same URL handles showing the form and processing the data.</li>\n<li><code>method=&quot;post&quot;</code>: Submits the data as form data with the POST method. If not given, or explicitly set to <code>get</code>, the data is submitted in the query string (<code>request.args</code>) with the GET method instead.</li>\n<li><code>enctype=&quot;multipart/form-data&quot;</code>: When the form contains file inputs, it must have this encoding set, otherwise the files will not be uploaded and Flask won't see them.</li>\n</ol>\n<p>The <code>input</code> tag needs a <code>name</code> parameter.</p>\n<p>Add a view to handle the submitted data, which is in <code>request.form</code> under the same key as the input's <code>name</code>. Any file inputs will be in <code>request.files</code>.</p>\n<pre><code>@app.route('/handle_data', methods=['POST'])\ndef handle_data():\n    projectpath = request.form['projectFilepath']\n    # your code\n    # return a response\n</code></pre>\n<p>Set the form's <code>action</code> to that view's URL using <code>url_for</code>:</p>\n<pre class=\"lang-html prettyprint-override\"><code>&lt;form action=&quot;{{ url_for('handle_data') }}&quot; method=&quot;post&quot;&gt;\n    &lt;input type=&quot;text&quot; name=&quot;projectFilepath&quot;&gt;\n    &lt;input type=&quot;submit&quot;&gt;\n&lt;/form&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "codecool",
+        "link": "https://stackoverflow.com/users/679047/codecool"
+      }
+    },
+    {
+      "answer_id": 31253927,
+      "body": "<p>Try deleting the virtualenv you created.  Then create a new virtualenv with:</p>\n<pre><code>virtualenv flask\n</code></pre>\n<p>Then:</p>\n<pre><code>cd flask\n</code></pre>\n<p>Now let's activate the virtualenv</p>\n<pre><code>source bin/activate\n</code></pre>\n<p>Now you should see <code>(flask)</code> on the left of the command line.</p>\n<p><sub>Edit: In windows there is no &quot;source&quot; that's a linux thing, instead execute the activate.bat file, here I do it using Powershell: PS C:\\DEV\\aProject&gt; <code>&amp; .\\Flask\\Scripts\\activate</code>)\n</sub></p>\n<p>Let's install flask:</p>\n<pre><code>pip install flask\n</code></pre>\n<p>Then create a file named <code>hello.py</code> (NOTE: see <code>UPDATE Flask 1.0.2</code> below):</p>\n<pre><code>from flask import Flask\napp = Flask(__name__)\n\n@app.route(&quot;/&quot;)\ndef hello():\n    return &quot;Hello World!&quot;\n\nif __name__ == &quot;__main__&quot;:\n    app.run()\n</code></pre>\n<p>and run it with:</p>\n<pre><code>python hello.py\n</code></pre>\n<p><strong>UPDATE Flask 1.0.2</strong></p>\n<p>With the new flask release there is no need to run the app from your script.  <code>hello.py</code> should look like this now:</p>\n<pre><code>from flask import Flask\napp = Flask(__name__)\n\n@app.route(&quot;/&quot;)\ndef hello():\n    return &quot;Hello World!&quot;\n</code></pre>\n<p>and run it with:</p>\n<pre><code>FLASK_APP=hello.py flask run\n</code></pre>\n<p>Make sure to be inside the folder where <code>hello.py</code> is when running the latest command.</p>\n<p><em>All the steps before the creation of the hello.py apply for this case as well</em></p>\n",
+      "owner": {
+        "display_name": "Rollback",
+        "link": "https://stackoverflow.com/users/4303196/rollback"
+      }
+    },
+    {
+      "answer_id": 7824605,
+      "body": "<p>You can read about it <a href=\"http://flask.pocoo.org/docs/quickstart/#about-responses\" rel=\"noreferrer\" title=\"here\">here.</a></p>\n\n<pre><code>return render_template('page.html'), 201\n</code></pre>\n",
+      "owner": {
+        "display_name": "Iacks",
+        "link": "https://stackoverflow.com/users/302980/iacks"
+      }
+    },
+    {
+      "answer_id": 55152932,
+      "body": "<p><strong>update</strong> When reading this accepted answer, consider that there is <a href=\"https://github.com/python-restx/flask-restx\" rel=\"noreferrer\">Flask-RESTX</a> which is a fork of Flask-RESTPlus that is maintained, as an alternative option. </p>\n\n<p>I am aware of the fact that this answer is probably too late, but it still might be helpful in the future. </p>\n\n<p>According to <a href=\"https://github.com/noirbizarre/flask-restplus/issues/593\" rel=\"noreferrer\">https://github.com/noirbizarre/flask-restplus/issues/593</a>, the Flask Restplus is most probably dead and abandoned. The last commit was on October 1, 2018. It looks like the project is not being actively maintained anymore.</p>\n\n<p>Therefore, I advise that you use Flask Restful despite the auto generated Swagger docs in Restplus. Since Restplus is not maintained, it is most likely that the implementation will sooner or later go out of date. Rather than switching to Restful once Restplus goes out of date, I think starting off with Restful itself would be the better idea here. </p>\n\n<p>Just my two cents... :)</p>\n",
+      "owner": {
+        "display_name": "Guest User",
+        "link": "https://stackoverflow.com/users/11200116/guest-user"
+      }
+    },
+    {
+      "answer_id": 13929101,
+      "body": "<p>When running the development server - which is what you get by running <code>app.run()</code>, you get a single synchronous process, which means at most 1 request is being processed at a time.</p>\n\n<p>By sticking Gunicorn in front of it in its default configuration and simply increasing the number of <code>--workers</code>, what you get is essentially a number of processes (managed by Gunicorn) that each behave like the <code>app.run()</code> development server. 4 workers == 4 concurrent requests. This is because Gunicorn uses its included <code>sync</code> worker type by default. </p>\n\n<p>It is important to note that Gunicorn also includes asynchronous workers, namely <code>eventlet</code> and <code>gevent</code> (and also <code>tornado</code>, but that's best used with the Tornado framework, it seems). By specifying one of these async workers with the <code>--worker-class</code> flag, what you get is Gunicorn managing a number of async processes, <em>each of which</em> managing its own concurrency. These processes don't use threads, but instead coroutines. Basically, within each process, still only 1 thing can be happening at a time (1 thread), but objects can be 'paused' when they are waiting on external processes to finish (think database queries or waiting on network I/O). </p>\n\n<p>This means, if you're using one of Gunicorn's async workers, each worker can handle many more than a single request at a time. Just how many workers is best depends on the nature of your app, its environment, the hardware it runs on, etc. More details can be found on <a href=\"http://docs.gunicorn.org/en/latest/design.html\" rel=\"noreferrer\">Gunicorn's design</a> page and <a href=\"http://www.gevent.org/intro.html\" rel=\"noreferrer\">notes on how gevent works</a> on its intro page. </p>\n",
+      "owner": {
+        "display_name": "Ryan Artecona",
+        "link": "https://stackoverflow.com/users/671915/ryan-artecona"
+      }
+    },
+    {
+      "answer_id": 25375815,
+      "body": "<h3>Data:</h3>\n\n<pre class=\"lang-py prettyprint-override\"><code>parent_list = [{'A': 'val1', 'B': 'val2'}, {'C': 'val3', 'D': 'val4'}]\n</code></pre>\n\n<h3>in Jinja2 iteration:</h3>\n\n<pre><code>{% for dict_item in parent_list %}\n   {% for key, value in dict_item.items() %}\n      &lt;h1&gt;Key: {{key}}&lt;/h1&gt;\n      &lt;h2&gt;Value: {{value}}&lt;/h2&gt;\n   {% endfor %}\n{% endfor %}\n</code></pre>\n\n<h3>Note:</h3>\n\n<p>Make sure you have the list of dict items. If you get <code>UnicodeError</code> may be the value inside the dict contains unicode format. That issue can be solved in your <code>views.py</code>.\nIf the dict is <code>unicode</code> object, you have to encode into <code>utf-8</code>.</p>\n",
+      "owner": {
+        "display_name": "Nava",
+        "link": "https://stackoverflow.com/users/810217/nava"
+      }
+    },
+    {
+      "answer_id": 48994441,
+      "body": "<p>The long story short is that Flask does not provide any special capabilities to accomplish this. For simple one-off tasks, consider Python's multithreading as shown below. For more complex configurations, use a task queue like RQ or Celery.</p>\n\n<h2>Why?</h2>\n\n<p>It's important to understand the functions Flask provides and why they <em>do not</em> accomplish the intended goal. All of these are useful in other cases and are good reading, but don't help with background tasks.</p>\n\n<h3>Flask's <code>after_request</code> handler</h3>\n\n<p>Flask's <code>after_request</code> handler, as detailed in <a href=\"http://flask.pocoo.org/docs/0.12/patterns/deferredcallbacks/\" rel=\"noreferrer\">this pattern for deferred request callbacks</a> and <a href=\"http://flask.pocoo.org/snippets/53/\" rel=\"noreferrer\">this snippet on attaching different functions per request</a>, will pass the request to the callback function. The intended use case is to <em>modify the request</em>, such as to attach a cookie.</p>\n\n<p>Thus the request will wait around for these handlers to finish executing because the expectation is that the request itself will change as a result.</p>\n\n<h3>Flask's <code>teardown_request</code> handler</h3>\n\n<p>This is similar to <code>after_request</code>, but <code>teardown_request</code> doesn't receive the <code>request</code> object. So that means it won't wait for the request, right?</p>\n\n<p>This seems like the solution, as <a href=\"https://stackoverflow.com/a/17313074/123412\">this answer to a similar Stack Overflow question</a> suggests. And since Flask's documentation explains that <a href=\"http://flask.pocoo.org/docs/0.12/reqcontext/#teardown-callbacks\" rel=\"noreferrer\">teardown callbacks are independent of the actual request</a> and do not receive the request context, you'd have good reason to believe this.</p>\n\n<p>Unfortunately, <code>teardown_request</code> is still synchronous, it just happens at a later part of Flask's request handling when the request is no longer modifiable. Flask <em>will still wait for teardown functions</em> to complete before returning the response, as <a href=\"http://flask.pocoo.org/docs/0.12/reqcontext/#callbacks-and-errors\" rel=\"noreferrer\">this list of Flask callbacks and errors</a> dictates.</p>\n\n<h3>Flask's streaming responses</h3>\n\n<p>Flask can stream responses by passing a generator to <code>Response()</code>, as <a href=\"https://stackoverflow.com/questions/18082683/need-to-execute-a-function-after-returning-the-response-in-flask\">this Stack Overflow answer to a similar question</a> suggests.</p>\n\n<p>With streaming, the client <em>does</em> begin receiving the response before the request concludes. However, the request still runs synchronously, so the worker handling the request is busy until the stream is finished.</p>\n\n<p><a href=\"http://flask.pocoo.org/docs/patterns/streaming/\" rel=\"noreferrer\">This Flask pattern for streaming</a> includes some documentation on using <code>stream_with_context()</code>, which is necessary to include the request context.</p>\n\n<h2>So what's the solution?</h2>\n\n<p>Flask doesn't offer a solution to run functions in the background because this isn't Flask's responsibility.</p>\n\n<p>In most cases, the best way to solve this problem is to use a task queue such as RQ or Celery. These manage tricky things like configuration, scheduling, and distributing workers for you.This is the most common answer to this type of question because it is the most correct, and forces you to set things up in a way where you consider context, etc. correctly.</p>\n\n<p>If you need to run a function in the background and don't want to set up a queue to manage this, you can use Python's built in <a href=\"https://docs.python.org/3/library/threading.html#threading.Thread\" rel=\"noreferrer\"><code>threading</code></a> or <a href=\"https://docs.python.org/3/library/multiprocessing.html#multiprocessing.Process\" rel=\"noreferrer\"><code>multiprocessing</code></a> to spawn a background worker.</p>\n\n<p>You can't access <code>request</code> or others of Flask's thread locals from background tasks, since the request will not be active there. Instead, pass the data you need from the view to the background thread when you create it.</p>\n\n<pre class=\"lang-py prettyprint-override\"><code>@app.route('/start_task')\ndef start_task():\n    def do_work(value):\n        # do something that takes a long time\n        import time\n        time.sleep(value)\n\n    thread = Thread(target=do_work, kwargs={'value': request.args.get('value', 20)})\n    thread.start()\n    return 'started'\n</code></pre>\n",
+      "owner": {
+        "display_name": "Brandon Wang",
+        "link": "https://stackoverflow.com/users/123412/brandon-wang"
+      }
+    },
+    {
+      "answer_id": 41940807,
+      "body": "<p>The <code>flask</code> command is separate from the <code>flask.run</code> method. It doesn't see the app or its configuration. To change the host and port, pass them as options to the command.</p>\n\n<pre><code>flask run -h localhost -p 3000\n</code></pre>\n\n<p>Pass <code>--help</code> for the full list of options.</p>\n\n<p>Setting the <code>SERVER_NAME</code> config will not affect the command either, as the command can't see the app's config.</p>\n\n<hr>\n\n<p><strong>Never</strong> expose the dev server to the outside (such as binding to <code>0.0.0.0</code>). Use a production WSGI server such as uWSGI or Gunicorn.</p>\n\n<pre><code>gunicorn -w 2 -b 0.0.0.0:3000 myapp:app\n</code></pre>\n",
+      "owner": {
+        "display_name": "davidism",
+        "link": "https://stackoverflow.com/users/400617/davidism"
+      }
+    },
+    {
+      "answer_id": 45634550,
+      "body": "<pre><code>import os\nfrom flask import Flask, send_from_directory\n\napp = Flask(__name__, static_folder='react_app/build')\n\n# Serve React App\n@app.route('/', defaults={'path': ''})\n@app.route('/&lt;path:path&gt;')\ndef serve(path):\n    if path != \"\" and os.path.exists(app.static_folder + '/' + path):\n        return send_from_directory(app.static_folder, path)\n    else:\n        return send_from_directory(app.static_folder, 'index.html')\n\n\nif __name__ == '__main__':\n    app.run(use_reloader=True, port=5000, threaded=True)\n</code></pre>\n\n<p>Thats what I ended up with. So bascially catch all routes, test if the path is a file => send file => else send the index.html. That way you can reload the react app from any route you wish and it does not break. </p>\n",
+      "owner": {
+        "display_name": "Jodo",
+        "link": "https://stackoverflow.com/users/3531894/jodo"
+      }
+    },
+    {
+      "answer_id": 27159298,
+      "body": "<p>You can do this,</p>\n\n<pre><code>User.query.filter_by(id=123).delete()\n</code></pre>\n\n<p>or</p>\n\n<pre><code>User.query.filter(User.id == 123).delete()\n</code></pre>\n\n<p><strong>Make sure to <code>commit</code> for <code>delete()</code> to take effect.</strong></p>\n",
+      "owner": {
+        "display_name": "adarsh",
+        "link": "https://stackoverflow.com/users/1068887/adarsh"
+      }
+    },
+    {
+      "answer_id": 37005058,
+      "body": "<p>No, it is not a web server like Apache. It's a CGI library. Since Apache (or your Flask application) is probably using the library to serve some HTTP requests, it probably adds that header into the response.</p>\n",
+      "owner": {
+        "display_name": "Pablo Santa Cruz",
+        "link": "https://stackoverflow.com/users/67606/pablo-santa-cruz"
+      }
+    },
+    {
+      "answer_id": 46541219,
+      "body": "<p>Use <code>with app.app_context()</code> to push an application context when creating the tables.</p>\n\n<pre><code>app = Flask(__name__)\napp.config['SQLALCHEMY_DATABASE_URI'] = 'My connection string'\ndb.init_app(app)\n\nwith app.app_context():\n    db.create_all()\n</code></pre>\n",
+      "owner": {
+        "display_name": "Shtlzut",
+        "link": "https://stackoverflow.com/users/1291782/shtlzut"
+      }
+    },
+    {
+      "answer_id": 9511655,
+      "body": "<p>In my experience, templates don't even need the application to restart to be refreshed, as they should be loaded from disk everytime <code>render_template()</code> is called. Maybe your templates are used differently though.</p>\n\n<p>To reload your application when the templates change (or any other file), you can pass the <code>extra_files</code> argument to <code>Flask().run()</code>, a collection of filenames to watch: any change on those files will trigger the reloader.</p>\n\n<p>Example:</p>\n\n<pre><code>from os import path, walk\n\nextra_dirs = ['directory/to/watch',]\nextra_files = extra_dirs[:]\nfor extra_dir in extra_dirs:\n    for dirname, dirs, files in walk(extra_dir):\n        for filename in files:\n            filename = path.join(dirname, filename)\n            if path.isfile(filename):\n                extra_files.append(filename)\napp.run(extra_files=extra_files)\n</code></pre>\n\n<p>See here: <a href=\"http://werkzeug.pocoo.org/docs/0.10/serving/?highlight=run_simple#werkzeug.serving.run_simple\" rel=\"noreferrer\">http://werkzeug.pocoo.org/docs/0.10/serving/?highlight=run_simple#werkzeug.serving.run_simple</a></p>\n",
+      "owner": {
+        "display_name": "jd.",
+        "link": "https://stackoverflow.com/users/280490/jd"
+      }
+    },
+    {
+      "answer_id": 28339918,
+      "body": "<p>It worked like a champ, after bit modification to your code </p>\n\n<pre><code># initialization\napp = Flask(__name__)\napp.config['SECRET_KEY'] = 'the quick brown fox jumps over the lazy   dog'\napp.config['CORS_HEADERS'] = 'Content-Type'\n\ncors = CORS(app, resources={r\"/foo\": {\"origins\": \"http://localhost:port\"}})\n\n@app.route('/foo', methods=['POST'])\n@cross_origin(origin='localhost',headers=['Content- Type','Authorization'])\ndef foo():\n    return request.json['inputVar']\n\nif __name__ == '__main__':\n   app.run()\n</code></pre>\n\n<p>I replaced * by localhost. Since as I read in many blogs and posts, you should allow access for specific domain</p>\n",
+      "owner": {
+        "display_name": "Satish",
+        "link": "https://stackoverflow.com/users/2843421/satish"
+      }
+    },
+    {
+      "answer_id": 48218213,
+      "body": "<p>Your cursor 'c' is not created in the same thread; it was probably initialized when the Flask app was run.</p>\n\n<p>You probably want to generate SQLite objects (the conneciton, and the cursor) in the same method, such as:</p>\n\n<pre><code>  @app.route('/')\n  def dostuff():\n    with sql.connect(\"database.db\") as con:\n      name = \"bob\"\n      cur = con.cursor()\n      cur.execute(\"INSERT INTO students (name) VALUES (?)\",(name))\n      con.commit()\n      msg = \"Done\"\n</code></pre>\n",
+      "owner": {
+        "display_name": "ndrix",
+        "link": "https://stackoverflow.com/users/183955/ndrix"
+      }
+    },
+    {
+      "answer_id": 22463969,
+      "body": "<p>Anything that requires encryption (for safe-keeping against tampering by attackers) requires the secret key to be set. For <em>just</em> Flask itself, that 'anything' is the <code>Session</code> object, but other extensions can make use of the same secret.</p>\n\n<p><code>secret_key</code> is merely the value set for the <code>SECRET_KEY</code> configuration key, or you can set it directly.</p>\n\n<p>The <a href=\"http://flask.pocoo.org/docs/quickstart/#sessions\" rel=\"noreferrer\">Sessions section in the Quickstart</a> has good, sane advice on what kind of server-side secret you should set.</p>\n\n<p>Encryption relies on secrets; if you didn't set a server-side secret for the encryption to use, everyone would be able to break your encryption; it's like the password to your computer. The secret plus the data-to-sign are used to create a signature string, a hard-to-recreate value using a <a href=\"http://en.wikipedia.org/wiki/Cryptographic_hash_function\" rel=\"noreferrer\">cryptographic hashing algorithm</a>; only if you have the exact same secret <em>and</em> the original data can you recreate this value, letting Flask detect if anything has been altered without permission. Since the secret is never included with data Flask sends to the client, a client cannot tamper with session data and hope to produce a new, valid signature. </p>\n\n<p>Flask uses the <a href=\"https://itsdangerous.palletsprojects.com\" rel=\"noreferrer\"><code>itsdangerous</code> library</a> to do all the hard work; sessions use the <a href=\"https://itsdangerous.palletsprojects.com/url_safe/#itsdangerous.url_safe.URLSafeTimedSerializer\" rel=\"noreferrer\"><code>itsdangerous.URLSafeTimedSerializer</code> class</a> with a customized JSON serializer.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 25669256,
+      "body": "<p>You don't need to add anything directly to your association table, SQLAlchemy will do that. This is more or less from <a href=\"https://docs.sqlalchemy.org/en/latest/orm/basic_relationships.html#many-to-many\" rel=\"noreferrer\">SQLAlchemy documentations</a>:</p>\n\n<pre><code>association_table = db.Table('association', db.Model.metadata,\n    db.Column('left_id', db.Integer, db.ForeignKey('left.id')),\n    db.Column('right_id', db.Integer, db.ForeignKey('right.id'))\n)\n\nclass Parent(db.Model):\n    __tablename__ = 'left'\n    id = db.Column(db.Integer, primary_key=True)\n    children = db.relationship(\"Child\",\n                    secondary=association_table)\n\nclass Child(db.Model):\n    __tablename__ = 'right'\n    id = db.Column(db.Integer, primary_key=True)\n\n\np = Parent()\nc = Child()\np.children.append(c)\ndb.session.add(p)\ndb.session.commit()\n</code></pre>\n\n<p>Therefore your sample would be like this:</p>\n\n<pre><code>student_identifier = db.Table('student_identifier',\n    db.Column('class_id', db.Integer, db.ForeignKey('classes.class_id')),\n    db.Column('user_id', db.Integer, db.ForeignKey('students.user_id'))\n)\n\nclass Student(db.Model):\n    __tablename__ = 'students'\n    user_id = db.Column(db.Integer, primary_key=True)\n    user_fistName = db.Column(db.String(64))\n    user_lastName = db.Column(db.String(64))\n    user_email = db.Column(db.String(128), unique=True)\n\n\nclass Class(db.Model):\n    __tablename__ = 'classes'\n    class_id = db.Column(db.Integer, primary_key=True)\n    class_name = db.Column(db.String(128), unique=True)\n    students = db.relationship(\"Student\",\n                               secondary=student_identifier)\n\ns = Student()\nc = Class()\nc.students.append(s)\ndb.session.add(c)\ndb.session.commit()\n</code></pre>\n",
+      "owner": {
+        "display_name": "mehdix",
+        "link": "https://stackoverflow.com/users/157216/mehdix"
+      }
+    },
+    {
+      "answer_id": 34903502,
+      "body": "<p>The <em>secret key</em> is needed to keep the client-side sessions secure. You can generate some random key as below:</p>\n\n<pre><code>&gt;&gt;&gt; import os\n&gt;&gt;&gt; os.urandom(24)\n'\\xfd{H\\xe5&lt;\\x95\\xf9\\xe3\\x96.5\\xd1\\x01O&lt;!\\xd5\\xa2\\xa0\\x9fR\"\\xa1\\xa8'\n</code></pre>\n\n<p>Just take that key and copy/paste it into your config file</p>\n\n<pre><code>SECRET_KEY = '\\xfd{H\\xe5&lt;\\x95\\xf9\\xe3\\x96.5\\xd1\\x01O&lt;!\\xd5\\xa2\\xa0\\x9fR\"\\xa1\\xa8'\n</code></pre>\n\n<p>See <a href=\"http://flask.pocoo.org/docs/1.0/quickstart/#sessions\" rel=\"noreferrer\">Sessions</a> documentation</p>\n",
+      "owner": {
+        "display_name": "r-m-n",
+        "link": "https://stackoverflow.com/users/5341877/r-m-n"
+      }
+    },
+    {
+      "answer_id": 25860353,
+      "body": "<p>You can do this pretty easily:</p>\n\n<pre><code>@app.route(\"/\")\ndef home():\n    resp = flask.Response(\"Foo bar baz\")\n    resp.headers['Access-Control-Allow-Origin'] = '*'\n    return resp\n</code></pre>\n\n<p>Look at <a href=\"http://flask.pocoo.org/docs/api/#flask.Response\" rel=\"noreferrer\">flask.Response</a> and <a href=\"http://flask.pocoo.org/docs/api/#flask.make_response\" rel=\"noreferrer\">flask.make_response()</a></p>\n\n<p>But something tells me you have another problem, because the <code>after_request</code> should have handled it correctly too.</p>\n\n<p><strong>EDIT</strong><br>\nI just noticed you are already using <code>make_response</code> which is one of the ways to do it.  Like I said before, <code>after_request</code> should have worked as well.  Try hitting the endpoint via curl and see what the headers are:</p>\n\n<pre><code>curl -i http://127.0.0.1:5000/your/endpoint\n</code></pre>\n\n<p>You should see </p>\n\n<pre><code>&gt; curl -i 'http://127.0.0.1:5000/'\nHTTP/1.0 200 OK\nContent-Type: text/html; charset=utf-8\nContent-Length: 11\nAccess-Control-Allow-Origin: *\nServer: Werkzeug/0.8.3 Python/2.7.5\nDate: Tue, 16 Sep 2014 03:47:13 GMT\n</code></pre>\n\n<p>Noting the Access-Control-Allow-Origin header.</p>\n\n<p><strong>EDIT 2</strong><br>\nAs I suspected, you are getting a 500 so you are not setting the header like you thought.  Try adding <code>app.debug = True</code> before you start the app and try again.  You should get some output showing you the root cause of the problem.</p>\n\n<p>For example:</p>\n\n<pre><code>@app.route(\"/\")\ndef home():\n    resp = flask.Response(\"Foo bar baz\")\n    user.weapon = boomerang\n    resp.headers['Access-Control-Allow-Origin'] = '*'\n    return resp\n</code></pre>\n\n<p>Gives a nicely formatted html error page, with this at the bottom (helpful for curl command)</p>\n\n<pre><code>Traceback (most recent call last):\n...\n  File \"/private/tmp/min.py\", line 8, in home\n    user.weapon = boomerang\nNameError: global name 'boomerang' is not defined\n</code></pre>\n",
+      "owner": {
+        "display_name": "sberry",
+        "link": "https://stackoverflow.com/users/141555/sberry"
+      }
+    },
+    {
+      "answer_id": 24420993,
+      "body": "<p>A blueprint is a template for generating a \"section\" of a web application.  You can think of it as a mold:</p>\n\n<p><img src=\"https://i.sstatic.net/kd1XW.jpg\" alt=\"A medallion mold with a gold medallion freshly removed from it\"></p>\n\n<p>You can take the blueprint and apply it to your application in several places. Each time you apply it the blueprint will create a new version of its structure in the plaster of your application.</p>\n\n<pre><code># An example\nfrom flask import Blueprint\n\ntree_mold = Blueprint(\"mold\", __name__)\n\n@tree_mold.route(\"/leaves\")\ndef leaves():\n    return \"This tree has leaves\"\n\n@tree_mold.route(\"/roots\")\ndef roots():\n    return \"And roots as well\"\n\n@tree_mold.route(\"/rings\")\n@tree_mold.route(\"/rings/&lt;int:year&gt;\")\ndef rings(year=None):\n    return \"Looking at the rings for {year}\".format(year=year)\n</code></pre>\n\n<p>This is a simple mold for working with trees - it says that any application that deals with trees should provide access to its leaves, its roots, and its rings (by year).  By itself, it is a hollow shell - it cannot route, it cannot respond, until it is impressed upon an application:</p>\n\n<pre><code>from tree_workshop import tree_mold\n\napp.register_blueprint(tree_mold, url_prefix=\"/oak\")\napp.register_blueprint(tree_mold, url_prefix=\"/fir\")\napp.register_blueprint(tree_mold, url_prefix=\"/ash\")\n</code></pre>\n\n<p>Once it is created it may be \"impressed\" on the application by using the <code>register_blueprint</code> function - this \"impresses\" the mold of the blueprint on the application at the locations specified by <code>url_prefix</code>.</p>\n",
+      "owner": {
+        "display_name": "Sean Vieira",
+        "link": "https://stackoverflow.com/users/135978/sean-vieira"
+      }
+    },
+    {
+      "answer_id": 29387151,
+      "body": "<pre><code>from flask import request\nrequest.headers.get('your-header-name')\n</code></pre>\n\n<p><code>request.headers</code> behaves like a dictionary, so you can also get your header like you would with any dictionary:</p>\n\n<pre><code>request.headers['your-header-name']\n</code></pre>\n",
+      "owner": {
+        "display_name": "sanyi",
+        "link": "https://stackoverflow.com/users/578998/sanyi"
+      }
+    },
+    {
+      "answer_id": 30554831,
+      "body": "<p>Run your app like this:</p>\n\n<pre><code>if __name__ == '__main__':\n    app.run(host='0.0.0.0')\n</code></pre>\n\n<p>It will make the server <a href=\"http://flask.pocoo.org/docs/1.0/quickstart/#public-server\" rel=\"noreferrer\">externally visible</a>. If the IP address of the machine is <code>192.168.X.X</code> then, from the same network you can access it in 5000 port. Like, <a href=\"http://192.168.X.X:5000\" rel=\"noreferrer\">http://192.168.X.X:5000</a></p>\n",
+      "owner": {
+        "display_name": "salmanwahed",
+        "link": "https://stackoverflow.com/users/1113211/salmanwahed"
+      }
+    },
+    {
+      "answer_id": 33285603,
+      "body": "<p>Your <code>/users</code> route is missing a trailing slash, which Werkzeug interprets as an explicit rule to not match a trailing slash.  Either add the trailing slash, and Werkzeug will redirect if the url doesn't have it, or set <a href=\"http://werkzeug.pocoo.org/docs/latest/routing/#rule-format\" rel=\"noreferrer\"><code>strict_slashes=False</code></a> on the route and Werkzeug will match the rule with or without the slash.</p>\n\n<pre><code>@app.route('/users/')\n@app.route('/users/&lt;path:path&gt;')\ndef users(path=None):\n    return str(path)\n\nc = app.test_client()\nprint(c.get('/users'))  # 302 MOVED PERMANENTLY (to /users/)\nprint(c.get('/users/'))  # 200 OK\nprint(c.get('/users/test'))  # 200 OK\n</code></pre>\n\n\n\n<pre><code>@app.route('/users', strict_slashes=False)\n@app.route('/users/&lt;path:path&gt;')\ndef users(path=None):\n    return str(path)\n\nc = app.test_client()\nprint(c.get('/users'))  # 200 OK\nprint(c.get('/users/'))  # 200 OK\nprint(c.get('/users/test'))  # 200 OK\n</code></pre>\n\n<hr>\n\n<p>You can also set <code>strict_slashes</code> for all URLs.</p>\n\n<pre><code>app.url_map.strict_slashes = False\n</code></pre>\n\n<p>However, you should avoid disabling strict slashes in most cases. The docs explain why:</p>\n\n<blockquote>\n  <p>This behavior allows relative URLs to continue working even if the trailing slash is omitted, consistent with how Apache and other servers work. Also, the URLs will stay unique, which helps search engines avoid indexing the same page twice.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "davidism",
+        "link": "https://stackoverflow.com/users/400617/davidism"
+      }
+    },
+    {
+      "answer_id": 15101229,
+      "body": "<p><a href=\"https://speakerdeck.com/mitsuhiko/advanced-flask-patterns-1\" rel=\"noreferrer\">Advanced Flask Patterns</a>, as <a href=\"https://stackoverflow.com/questions/15083967/when-should-flask-g-be-used/15101229#comment21244306_15083967\">linked by Markus</a>, explains some of the changes to <code>g</code> in 0.10:</p>\n\n<ul>\n<li><code>g</code> now lives in the application context.</li>\n<li><a href=\"https://github.com/mitsuhiko/flask/blob/1949c4a9abc174bf29620f6dd8ceab9ed3ace2eb/flask/ctx.py#L230\" rel=\"noreferrer\">Every request pushes a new application context</a>, wiping the old one, so <code>g</code> can still be used to set flags per-request without change to code.</li>\n<li>The application context is popped <em>after</em> <code>teardown_request</code> is called. (Armin's presentation explains this is because things like creating DB connections are tasks which <em>setup</em> the environment for the request, and should not be handled inside <code>before_request</code> and <code>after_request</code>)</li>\n</ul>\n",
+      "owner": {
+        "display_name": "theY4Kman",
+        "link": "https://stackoverflow.com/users/148585/they4kman"
+      }
+    },
+    {
+      "answer_id": 32825482,
+      "body": "<p>You can't use global variables to hold this sort of data. Not only is it not thread safe, it's not <em>process</em> safe, and WSGI servers in production spawn multiple processes. Not only would your counts be wrong if you were using threads to handle requests, they would also vary depending on which process handled the request.</p>\n\n<p>Use a data source outside of Flask to hold global data. A database, memcached, or redis are all appropriate separate storage areas, depending on your needs. If you need to load and access Python data, consider <a href=\"https://stackoverflow.com/a/28426819\"><code>multiprocessing.Manager</code></a>. You could also use the session for simple data that is per-user.</p>\n\n<hr>\n\n<p>The development server may run in single thread and process. You won't see the behavior you describe since each request will be handled synchronously. Enable threads or processes and you will see it. <code>app.run(threaded=True)</code> or <code>app.run(processes=10)</code>. (In 1.0 the server is threaded by default.)</p>\n\n<hr>\n\n<p>Some WSGI servers may support gevent or another async worker. Global variables are still not thread safe because there's still no protection against most race conditions. You can still have a scenario where one worker gets a value, yields, another modifies it, yields, then the first worker also modifies it.</p>\n\n<hr>\n\n<p>If you need to store some global data <em>during</em> a request, you may use Flask's <a href=\"http://flask.pocoo.org/docs/1.0/api/#flask.g\" rel=\"noreferrer\"><code>g</code> object</a>. Another common case is some top-level object that manages database connections. The distinction for this type of \"global\" is that it's unique to each request, not used <em>between</em> requests, and there's something managing the set up and teardown of the resource.</p>\n",
+      "owner": {
+        "display_name": "davidism",
+        "link": "https://stackoverflow.com/users/400617/davidism"
+      }
+    },
+    {
+      "answer_id": 17377101,
+      "body": "<p>If you want to make a request to your application, use the <a href=\"http://flask.pocoo.org/docs/latest/api/#flask.Flask.test_client\" rel=\"noreferrer\"><code>test_client</code></a>.</p>\n\n<pre><code>c = app.test_client()\nresponse = c.get('/test/url')\n# test response\n</code></pre>\n\n<p>If you want to test code which uses an application context (<code>current_app</code>, <code>g</code>, <code>url_for</code>), push an <a href=\"http://flask.pocoo.org/docs/latest/api/#flask.Flask.app_context\" rel=\"noreferrer\"><code>app_context</code></a>.</p>\n\n<pre><code>with app.app_context():\n    # test your app context code\n</code></pre>\n\n<p>If you want test code which uses a request context (<code>request</code>, <code>session</code>), push a <a href=\"http://flask.pocoo.org/docs/latest/api/#flask.Flask.test_request_context\" rel=\"noreferrer\"><code>test_request_context</code></a>.</p>\n\n<pre><code>with current_app.test_request_context():\n    # test your request context code\n</code></pre>\n\n<hr>\n\n<p>Both app and request contexts can also be pushed manually, which is useful when using the interpreter.</p>\n\n<pre><code>&gt;&gt;&gt; ctx = app.app_context()\n&gt;&gt;&gt; ctx.push()\n</code></pre>\n\n<p>Flask-Script or the new Flask cli will automatically push an app context when running the <code>shell</code> command.</p>\n\n<hr>\n\n<p><a href=\"http://pythonhosted.org/Flask-Testing/\" rel=\"noreferrer\"><code>Flask-Testing</code></a> is a useful library that contains helpers for testing Flask apps.</p>\n",
+      "owner": {
+        "display_name": "tbicr",
+        "link": "https://stackoverflow.com/users/880326/tbicr"
+      }
+    },
+    {
+      "answer_id": 22700629,
+      "body": "<p>Looking in the Flask-SQLAlchemy source code the <code>db.Model</code> class is initialized as follows:</p>\n\n<pre><code>self.Model = self.make_declarative_base()\n</code></pre>\n\n<p>And here is the <code>make_declarative_base()</code> method:</p>\n\n<pre><code>def make_declarative_base(self):\n    \"\"\"Creates the declarative base.\"\"\"\n    base = declarative_base(cls=Model, name='Model',\n                            metaclass=_BoundDeclarativeMeta)\n    base.query = _QueryProperty(self)\n    return base\n</code></pre>\n\n<p>The <code>_BoundDeclarativeMeta</code> metaclass is a subclass of SQLAlchemy's <code>DeclarativeMeta</code>, it simply adds support for computing a default value for <code>__tablename__</code> (the table name) and also to handle binds.</p>\n\n<p>The <code>base.query</code> property enables Flask-SQLAlchemy based models to access a query object as <code>Model.query</code> instead of SQLAlchemy's <code>session.query(Model)</code>.</p>\n\n<p>The <code>_QueryProperty</code> query class is also subclassed from SQLAlchemy's query. The Flask-SQLAlchemy subclass adds three additional query methods that do not exist in SQLAlchemy: <code>get_or_404()</code>, <code>first_or_404()</code> and <code>paginate()</code>.</p>\n\n<p>I believe these are the only differences.</p>\n",
+      "owner": {
+        "display_name": "Miguel Grinberg",
+        "link": "https://stackoverflow.com/users/904393/miguel-grinberg"
+      }
+    },
+    {
+      "answer_id": 38685758,
+      "body": "<p>Okay, I think I get this now.</p>\n\n<blockquote>\n  <p>Why can't nginx directly call my Flask application?</p>\n</blockquote>\n\n<p>Because <code>nginx</code> doesn't support the WSGI spec. Technically nginx could implement the <code>WSGI</code> spec if they wanted, they just haven't.</p>\n\n<p>That being the case, we need a web server that does implement the spec, which is what the <code>uWSGI</code> server is for.</p>\n\n<p>Note that <code>uWSGI</code> is a full fledged http server that can and does work well on its own. I've used it in this capacity several times and it works great. If you need super high throughput for static content, then you have the option of sticking <code>nginx</code> in front of your <code>uWSGI</code> server. When you do, they will communicate over a low level protocol known as <code>uwsgi</code>.</p>\n\n<p><em>\"What the what?! Another thing called uwsgi?!\"</em> you ask. Yeah, it's confusing. When you reference <code>uWSGI</code> you are talking about an http server. When you talk about <code>uwsgi</code> (all lowercase) you are talking about a <a href=\"http://uwsgi-docs.readthedocs.io/en/latest/Protocol.html\" rel=\"noreferrer\">binary protocol</a> that the <code>uWSGI</code> <em>server</em> uses to talk to other servers like <code>nginx</code>. They picked a bad name on this one.</p>\n\n<p>For anyone who is interested, I wrote a <a href=\"http://www.ultravioletsoftware.com/single-post/2017/03/23/An-introduction-into-the-WSGI-ecosystem\" rel=\"noreferrer\">blog article</a> about it with more specifics, a bit of history, and some examples.</p>\n",
+      "owner": {
+        "display_name": "d512",
+        "link": "https://stackoverflow.com/users/1334007/d512"
+      }
+    },
+    {
+      "answer_id": 12443708,
+      "body": "<p><code>jsonify</code> prevents you from doing this in Flask 0.10 and lower <a href=\"http://flask.pocoo.org/docs/1.0/security/#json-security\" rel=\"noreferrer\">for security reasons</a>.</p>\n\n<p>To do it anyway, just use <code>json.dumps</code> in the Python standard library.</p>\n\n<p><a href=\"http://docs.python.org/library/json.html#json.dumps\" rel=\"noreferrer\">http://docs.python.org/library/json.html#json.dumps</a></p>\n",
+      "owner": {
+        "display_name": "FogleBird",
+        "link": "https://stackoverflow.com/users/90308/foglebird"
+      }
+    },
+    {
+      "answer_id": 12278642,
+      "body": "<p>Unless you want to do something more complicated, feeding data from a HTML form into Flask is pretty easy.</p>\n\n<ul>\n<li>Create a view that accepts a POST request (<code>my_form_post</code>).</li>\n<li>Access the form elements in the dictionary <code>request.form</code>.</li>\n</ul>\n\n<p><code>templates/my-form.html</code>:\n</p>\n\n<pre><code>&lt;form method=\"POST\"&gt;\n    &lt;input name=\"text\"&gt;\n    &lt;input type=\"submit\"&gt;\n&lt;/form&gt;\n</code></pre>\n\n\n\n<pre><code>from flask import Flask, request, render_template\n\napp = Flask(__name__)\n\n@app.route('/')\ndef my_form():\n    return render_template('my-form.html')\n\n@app.route('/', methods=['POST'])\ndef my_form_post():\n    text = request.form['text']\n    processed_text = text.upper()\n    return processed_text\n</code></pre>\n\n<p>This is the Flask documentation about <a href=\"http://flask.pocoo.org/docs/quickstart/#accessing-request-data\" rel=\"noreferrer\">accessing request data</a>.</p>\n\n<p>If you need more complicated forms that need validation then you can take a look at <a href=\"http://wtforms.simplecodes.com/docs/1.0.2/crash_course.html\" rel=\"noreferrer\">WTForms</a> and <a href=\"http://flask.pocoo.org/docs/patterns/wtforms/\" rel=\"noreferrer\">how to integrate them with Flask</a>.</p>\n\n<p>Note: unless you have any other restrictions, you don't really need JavaScript <em>at all</em> to send your data (although you can use it).</p>\n",
+      "owner": {
+        "display_name": "pacha",
+        "link": "https://stackoverflow.com/users/1197373/pacha"
+      }
+    },
+    {
+      "answer_id": 18110236,
+      "body": "<p>Use  <a href=\"http://docs.sqlalchemy.org/en/latest/orm/query.html#sqlalchemy.orm.query.Query.one\" rel=\"noreferrer\"><code>query.one()</code></a> to get one, and <em>exactly</em> one result. In all other cases it will raise an exception you can handle:</p>\n\n<pre><code>from sqlalchemy.orm.exc import NoResultFound\nfrom sqlalchemy.orm.exc import MultipleResultsFound\n\ntry:\n    user = session.query(User).one()\nexcept MultipleResultsFound, e:\n    print e\n    # Deal with it\nexcept NoResultFound, e:\n    print e\n    # Deal with that as well\n</code></pre>\n\n<p>There's also <a href=\"http://docs.sqlalchemy.org/en/rel_0_8/orm/query.html#sqlalchemy.orm.query.Query.first\" rel=\"noreferrer\"><code>query.first()</code></a>, which will give you just the first result of possibly many, without raising those exceptions. But since you want to deal with the case of there being no result or more than you thought, <a href=\"http://docs.sqlalchemy.org/en/rel_0_8/orm/query.html#sqlalchemy.orm.query.Query.one\" rel=\"noreferrer\"><code>query.one()</code></a> is exactly what you should use.</p>\n",
+      "owner": {
+        "display_name": "Lukas Graf",
+        "link": "https://stackoverflow.com/users/1599111/lukas-graf"
+      }
+    },
+    {
+      "answer_id": 16586277,
+      "body": "<p>You should define you own <a href=\"http://docs.python.org/2/library/json.html#json.JSONEncoder\" rel=\"noreferrer\"><code>JSONEncoder</code></a> and using it:</p>\n\n<pre><code>import json\nfrom bson import ObjectId\n\nclass JSONEncoder(json.JSONEncoder):\n    def default(self, o):\n        if isinstance(o, ObjectId):\n            return str(o)\n        return json.JSONEncoder.default(self, o)\n\nJSONEncoder().encode(analytics)\n</code></pre>\n\n<p>It's also possible to use it in the following way. </p>\n\n<pre><code>json.encode(analytics, cls=JSONEncoder)\n</code></pre>\n",
+      "owner": {
+        "display_name": "defuz",
+        "link": "https://stackoverflow.com/users/284947/defuz"
+      }
+    },
+    {
+      "answer_id": 28840457,
+      "body": "<p>Changing the post to</p>\n\n<pre><code>response=self.app.post('/test_function', \n                       data=json.dumps(dict(foo='bar')),\n                       content_type='application/json')\n</code></pre>\n\n<p>fixed it.</p>\n\n<p>Thanks to user3012759.</p>\n",
+      "owner": {
+        "display_name": "Sepehr Nazari",
+        "link": "https://stackoverflow.com/users/4260951/sepehr-nazari"
+      }
+    },
+    {
+      "answer_id": 20213086,
+      "body": "<p>So it's throwing up that error message because you have <code>apache2</code> running on port 80.</p>\n\n<p>If this is for development, I would just leave it as it is on port 5000.</p>\n\n<p>If it's for production either:</p>\n\n<p><strong>Not Recommended</strong></p>\n\n<ul>\n<li>Stop <code>apache2</code> first; </li>\n</ul>\n\n<p>Not recommended as it states in the documentation:</p>\n\n<blockquote>\n  <p>You can use the builtin server during development, but you should use a full deployment option for production applications. (Do not use the builtin development server in production.)</p>\n</blockquote>\n\n<p><strong>Recommended</strong></p>\n\n<ul>\n<li>Proxy <code>HTTP</code> traffic through <code>apache2</code> to Flask.</li>\n</ul>\n\n<p>This way, <code>apache2</code> can handle all your static files (which it's very good at - much better than the debug server built into Flask) and act as a reverse proxy for your dynamic content, passing those requests to Flask.</p>\n\n<p><a href=\"http://flask.pocoo.org/docs/deploying/mod_wsgi/#configuring-apache\" rel=\"noreferrer\">Here's a link</a> to the official documentation about setting up Flask with Apache + mod_wsgi.</p>\n\n<p><strong>Edit 1 - Clarification for @Djack</strong></p>\n\n<blockquote>\n  <p>Proxy HTTP traffic to Flask through apache2</p>\n</blockquote>\n\n<p>When a request comes to the server on port 80 (<code>HTTP</code>) or port 443 (<code>HTTPS</code>) a web server like Apache or Nginx handles the connection of the request and works out what to do with it. In our case a request received should be configured to be passed through to Flask on the WSGI protocol and handled by the Python code. This is the \"dynamic\" part. </p>\n\n<blockquote>\n  <p>reverse proxy for dynamic content</p>\n</blockquote>\n\n<p>There are a few advantages to configuring your web server like the above; </p>\n\n<ul>\n<li>SSL Termination - The web server will be optimized to handle HTTPS requests with only a little configuration. Don't \"roll your own\" in Python which is probably very insecure in comparison.</li>\n<li>Security - Opening a port to the internet requires careful consideration of security. Flask's development server is not designed for this and could have open bugs or security issues in comparison to a web server designed for this purpose. Note that a badly configured web server can also be insecure! </li>\n<li>Static File Handling - It is possible for the builtin Flask web server to handle static files however this is not recommended; Nginx/Apache are much more efficient at handling static files like images, CSS, Javascript files and will only pass \"dynamic\" requests (those where the content is often read from a database or the content changes) to be handled by the Python code. </li>\n<li>+more. This is bordering on scope for this question. If you want more info do some research into this area. </li>\n</ul>\n",
+      "owner": {
+        "display_name": "Ewan",
+        "link": "https://stackoverflow.com/users/1401034/ewan"
+      }
+    },
+    {
+      "answer_id": 9695045,
+      "body": "<p>The <code>flask_sqlalchemy</code> module does not have to be initialized with the app right away - you can do this instead:</p>\n\n<pre><code># apps.members.models\nfrom flask_sqlalchemy import SQLAlchemy\n\ndb = SQLAlchemy()\n\nclass Member(db.Model):\n    # fields here\n    pass\n</code></pre>\n\n<p>And then in your application setup you can call <code>init_app</code>:</p>\n\n<pre><code># apps.application.py\nfrom flask import Flask\nfrom apps.members.models import db\n\napp = Flask(__name__)\n# later on\ndb.init_app(app)\n</code></pre>\n\n<p>This way you can avoid cyclical imports.</p>\n\n<p>This pattern does <em>not</em> necessitate the you place all of your models in one file.  Simply import the <code>db</code> variable into each of your model modules.</p>\n\n<h3>Example</h3>\n\n<pre><code># apps.shared.models\nfrom flask_sqlalchemy import SQLAlchemy\n\ndb = SQLAlchemy()\n</code></pre>\n\n<p></p>\n\n<pre><code># apps.members.models\nfrom apps.shared.models import db\n\nclass Member(db.Model):\n    # TODO: Implement this.\n    pass\n</code></pre>\n\n<p></p>\n\n<pre><code># apps.reporting.members\nfrom flask import render_template\nfrom apps.members.models import Member\n\ndef report_on_members():\n    # TODO: Actually use arguments\n    members = Member.filter(1==1).all()\n    return render_template(\"report.html\", members=members)\n</code></pre>\n\n<p></p>\n\n<pre><code># apps.reporting.routes\nfrom flask import Blueprint\nfrom apps.reporting.members import report_on_members\n\nreporting = Blueprint(\"reporting\", __name__)\n\nreporting.route(\"/member-report\", methods=[\"GET\",\"POST\"])(report_on_members)\n</code></pre>\n\n<p></p>\n\n<pre><code># apps.application\nfrom flask import Flask\nfrom apps.shared import db\nfrom apps.reporting.routes import reporting\n\napp = Flask(__name__)\ndb.init_app(app)\napp.register_blueprint(reporting)\n</code></pre>\n\n<p><sub><strong>Note:</strong> this is a <em>sketch</em> of some of the power this gives you - there is obviously quite a bit more that you can do to make development even easier (using a <code>create_app</code> pattern, auto-registering blueprints in certain folders, etc.)</sub></p>\n",
+      "owner": {
+        "display_name": "Sean Vieira",
+        "link": "https://stackoverflow.com/users/135978/sean-vieira"
+      }
+    },
+    {
+      "answer_id": 13318415,
+      "body": "<p>All the routes for an application are stored on <a href=\"http://flask.pocoo.org/docs/api/#flask.Flask.url_map\" rel=\"noreferrer\"><code>app.url_map</code></a> which is an instance of <a href=\"http://werkzeug.pocoo.org/docs/routing/#werkzeug.routing.Map\" rel=\"noreferrer\"><code>werkzeug.routing.Map</code></a>.  You can iterate over the <a href=\"http://werkzeug.pocoo.org/docs/routing/#werkzeug.routing.Rule\" rel=\"noreferrer\"><code>Rule</code></a> instances by using the <a href=\"http://werkzeug.pocoo.org/docs/routing/#werkzeug.routing.Map.iter_rules\" rel=\"noreferrer\"><code>iter_rules</code></a> method:</p>\n\n<pre><code>from flask import Flask, url_for\n\napp = Flask(__name__)\n\ndef has_no_empty_params(rule):\n    defaults = rule.defaults if rule.defaults is not None else ()\n    arguments = rule.arguments if rule.arguments is not None else ()\n    return len(defaults) &gt;= len(arguments)\n\n\n@app.route(\"/site-map\")\ndef site_map():\n    links = []\n    for rule in app.url_map.iter_rules():\n        # Filter out rules we can't navigate to in a browser\n        # and rules that require parameters\n        if \"GET\" in rule.methods and has_no_empty_params(rule):\n            url = url_for(rule.endpoint, **(rule.defaults or {}))\n            links.append((url, rule.endpoint))\n    # links is now a list of url, endpoint tuples\n</code></pre>\n\n<p>See <a href=\"https://stackoverflow.com/questions/13151161/display-links-to-new-webpages-created/13161594#13161594\">Display links to new webpages created</a> for a bit more information.</p>\n",
+      "owner": {
+        "display_name": "Sean Vieira",
+        "link": "https://stackoverflow.com/users/135978/sean-vieira"
+      }
+    },
+    {
+      "answer_id": 16353060,
+      "body": "<p>You have by default the <a href=\"http://flask.pocoo.org/docs/quickstart/#static-files\" rel=\"noreferrer\"><code>static</code> endpoint</a> for static files. Also <a href=\"http://flask.pocoo.org/docs/api/#flask.Flask\" rel=\"noreferrer\"><code>Flask</code></a> application has the following arguments:</p>\n\n<p><code>static_url_path</code>: can be used to specify a different path for the static files on the web. Defaults to the name of the <code>static_folder</code> folder.</p>\n\n<p><code>static_folder</code>: the folder with static files that should be served at <code>static_url_path</code>. Defaults to the 'static' folder in the root path of the application.</p>\n\n<p>It means that the <code>filename</code> argument will take a relative path to your file in <code>static_folder</code> and convert it to a relative path combined with <code>static_url_default</code>:</p>\n\n<pre><code>url_for('static', filename='path/to/file')\n</code></pre>\n\n<p>will convert the file path from <code>static_folder/path/to/file</code> to the url path <code>static_url_default/path/to/file</code>.</p>\n\n<p>So if you want to get files from the <code>static/bootstrap</code> folder you use this code:</p>\n\n<pre><code>&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"{{ url_for('static', filename='bootstrap/bootstrap.min.css') }}\"&gt;\n</code></pre>\n\n<p>Which will be converted to (using default settings):</p>\n\n<pre><code>&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"static/bootstrap/bootstrap.min.css\"&gt;\n</code></pre>\n\n<p>Also look at <a href=\"http://flask.pocoo.org/docs/api/#flask.url_for\" rel=\"noreferrer\"><code>url_for</code> documentation</a>.</p>\n",
+      "owner": {
+        "display_name": "tbicr",
+        "link": "https://stackoverflow.com/users/880326/tbicr"
+      }
+    },
+    {
+      "answer_id": 20041823,
+      "body": "<h1>Multiple Apps</h1>\n\n<p>The application context (and its purpose) is indeed confusing until you realize that Flask can have multiple apps. Imagine the situation where you want to have a single WSGI Python interpreter run multiple Flask application. We're not talking Blueprints here, we're talking entirely different Flask applications.</p>\n\n<p>You might set this up similar to the <a href=\"http://flask.pocoo.org/docs/patterns/appdispatch/\" rel=\"noreferrer\">Flask documentation section on \"Application Dispatching\"</a> example:</p>\n\n<pre><code>from werkzeug.wsgi import DispatcherMiddleware\nfrom frontend_app import application as frontend\nfrom backend_app import application as backend\n\napplication = DispatcherMiddleware(frontend, {\n    '/backend':     backend\n})\n</code></pre>\n\n<p>Notice that there are two completely different Flask applications being created \"frontend\" and \"backend\". In other words, the <code>Flask(...)</code> application constructor has been called twice, creating two instances of a Flask application.</p>\n\n<h1>Contexts</h1>\n\n<p>When you are working with Flask, you often end up using global variables to access various functionality. For example, you probably have code that reads...</p>\n\n<pre><code>from flask import request\n</code></pre>\n\n<p>Then, during a view, you might use <code>request</code> to access the information of the current request. Obviously, <code>request</code> is not a normal global variable; in actuality, it is a <a href=\"http://flask.pocoo.org/docs/reqcontext/#diving-into-context-locals\" rel=\"noreferrer\">context local</a> value. In other words, there is some magic behind the scenes that says \"when I call <code>request.path</code>, get the <code>path</code> attribute from the <code>request</code> object of the CURRENT request.\" Two different requests will have a different results for <code>request.path</code>.</p>\n\n<p>In fact, even if you run Flask with multiple threads, Flask is smart enough to keep the request objects isolated. In doing so, it becomes possible for two threads, each handling a different request, to simultaneously call <code>request.path</code> and get the correct information for their respective requests.</p>\n\n<h1>Putting it Together</h1>\n\n<p>So we've already seen that Flask can handle multiple applications in the same interpreter, and also that because of the way that Flask allows you to use \"context local\" globals there must be some mechanism to determine what the \"current\" <em>request</em> is (in order to do things such as <code>request.path</code>).</p>\n\n<p>Putting these ideas together, it should also make sense that Flask must have some way to determine what the \"current\" application is!</p>\n\n<p>You probably also have code similar to the following:</p>\n\n<pre><code>from flask import url_for\n</code></pre>\n\n<p>Like our <code>request</code> example, the <code>url_for</code> function has logic that is dependent on the current environment. In this case, however, it is clear to see that the logic is heavily dependent on which app is considered the \"current\" app. In the frontend/backend example shown above, both the \"frontend\" and \"backend\" apps could have a \"/login\" route, and so <code>url_for('/login')</code> should return something different depending on if the view is handling the request for the frontend or backend app.</p>\n\n<h1>To answer your questions...</h1>\n\n<blockquote>\n  <p>What is the purpose of the \"stack\" when it comes to the request or\n  application context?</p>\n</blockquote>\n\n<p>From the Request Context docs:</p>\n\n<blockquote>\n  <p>Because the request context is internally maintained as a stack you\n  can push and pop multiple times. This is very handy to implement\n  things like internal redirects.</p>\n</blockquote>\n\n<p>In other words, even though you typically will have 0 or 1 items on these stack of \"current\" requests or \"current\" applications, it is possible that you could have more.</p>\n\n<p>The example given is where you would have your request return the results of an \"internal redirect\". Let's say a user requests A, but you want to return to the user B. In most cases, you issue a redirect to the user, and point the user to resource B, meaning the user will run a second request to fetch B. A slightly different way of handling this would be to do an internal redirect, which means that while processing A, Flask will make a new request to itself for resource B, and use the results of this second request as the results of the user's original request.</p>\n\n<blockquote>\n  <p>Are these two separate stacks, or are they both part of one stack?</p>\n</blockquote>\n\n<p>They are <a href=\"https://github.com/mitsuhiko/flask/blob/41b5d77e29e6158f7a67e9f9872efb323f1be18f/flask/globals.py#L55-L57\" rel=\"noreferrer\">two separate stacks</a>. However, this is an implementation detail. What's more important is not so much that there is a stack, but the fact that at any time you can get the \"current\" app or request (top of the stack).</p>\n\n<blockquote>\n  <p>Is the request context pushed onto a stack, or is it a stack itself?</p>\n</blockquote>\n\n<p>A \"request context\" is one item of the \"request context stack\". Similarly with the \"app context\" and \"app context stack\".</p>\n\n<blockquote>\n  <p>Am I able to push/pop multiple contexts on top of eachother? If so,\n  why would I want to do that?</p>\n</blockquote>\n\n<p>In a Flask application, you typically would not do this. One example of where you might want to is for an internal redirect (described above). Even in that case, however, you would probably end up having Flask handle a new request, and so Flask would do all of the pushing/popping for you.</p>\n\n<p>However, there are some cases where you'd want to manipulate the stack yourself.</p>\n\n<h2>Running code outside of a request</h2>\n\n<p>One typical problem people have is that they use the Flask-SQLAlchemy extension to set up a SQL database and model definition using code something like what is shown below...</p>\n\n<pre><code>app = Flask(__name__)\ndb = SQLAlchemy() # Initialize the Flask-SQLAlchemy extension object\ndb.init_app(app)\n</code></pre>\n\n<p>Then they use the <code>app</code> and <code>db</code> values in a script that should be run from the shell. For example, a \"setup_tables.py\" script...</p>\n\n<pre><code>from myapp import app, db\n\n# Set up models\ndb.create_all()\n</code></pre>\n\n<p>In this case, the Flask-SQLAlchemy extension knows about the <code>app</code> application, but during <code>create_all()</code> it will throw an error complaining about there not being an application context. This error is justified; you never told Flask what application it should be dealing with when running the <code>create_all</code> method.</p>\n\n<p>You might be wondering why you don't end up needing this <code>with app.app_context()</code> call when you run similar functions in your views. The reason is that Flask already handles the management of the application context for you when it is handling actual web requests. The problem really only comes up outside of these view functions (or other such callbacks), such as when using your models in a one-off script.</p>\n\n<p>The resolution is to push the application context yourself, which can be done by doing...</p>\n\n<pre><code>from myapp import app, db\n\n# Set up models\nwith app.app_context():\n    db.create_all()\n</code></pre>\n\n<p>This will push a new application context (using the application of <code>app</code>, remember there could be more than one application).</p>\n\n<h2>Testing</h2>\n\n<p>Another case where you would want to manipulate the stack is for testing. You could create a unit test that handles a request and you check the results:</p>\n\n<pre><code>import unittest\nfrom flask import request\n\nclass MyTest(unittest.TestCase):\n    def test_thing(self):\n        with app.test_request_context('/?next=http://example.com/') as ctx:\n            # You can now view attributes on request context stack by using `request`.\n\n        # Now the request context stack is empty\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mark Hildreth",
+        "link": "https://stackoverflow.com/users/272520/mark-hildreth"
+      }
+    },
+    {
+      "answer_id": 11785722,
+      "body": "<p>flask sessions expire once you close the browser unless you have a permanent session. You can possibly try the following:</p>\n\n<pre><code>from datetime import timedelta\nfrom flask import session, app\n\n@app.before_request\ndef make_session_permanent():\n    session.permanent = True\n    app.permanent_session_lifetime = timedelta(minutes=5)\n</code></pre>\n\n<p>By default in Flask, permanent_session_lifetime is set to 31 days. </p>\n",
+      "owner": {
+        "display_name": "codegeek",
+        "link": "https://stackoverflow.com/users/1572562/codegeek"
+      }
+    },
+    {
+      "answer_id": 9476701,
+      "body": "<p>The simplest thing to do here would be to add <code>use_reloader=False</code> to your call to <code>app.run</code> - that is: <code>app.run(debug=True, use_reloader=False)</code></p>\n\n<p>Alternatively, you can check for the value of <a href=\"https://github.com/mitsuhiko/werkzeug/blob/cbd049d88727936173386d2e80bb5ffa51fedd6e/werkzeug/_reloader.py#L129\" rel=\"noreferrer\"><code>WERKZEUG_RUN_MAIN</code></a> in the environment:</p>\n\n<pre><code>if os.environ.get(\"WERKZEUG_RUN_MAIN\") == \"true\":\n    # The reloader has already run - do what you want to do here\n</code></pre>\n\n<p>However, the condition is a bit more convoluted when you want the behavior to happen any time <em>except</em> in the loading process:</p>\n\n<pre><code>if not app.debug or os.environ.get(\"WERKZEUG_RUN_MAIN\") == \"true\":\n    # The app is not in debug mode or we are in the reloaded process\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sean Vieira",
+        "link": "https://stackoverflow.com/users/135978/sean-vieira"
+      }
+    },
+    {
+      "answer_id": 25034624,
+      "body": "<p>The following does not return a response:</p>\n\n<p>You must return anything like <code>return afunction()</code> or <code>return 'a string'</code>.</p>\n\n<p>This can solve the issue</p>\n",
+      "owner": {
+        "display_name": "Avinash Babu",
+        "link": "https://stackoverflow.com/users/3136246/avinash-babu"
+      }
+    },
+    {
+      "answer_id": 24892131,
+      "body": "<p>Use <a href=\"http://flask.pocoo.org/docs/api/#flask.Request.args\" rel=\"noreferrer\"><code>request.args</code></a> to get parsed contents of query string:</p>\n\n<pre><code>from flask import request\n\n@app.route(...)\ndef login():\n    username = request.args.get('username')\n    password = request.args.get('password')\n</code></pre>\n",
+      "owner": {
+        "display_name": "falsetru",
+        "link": "https://stackoverflow.com/users/2225682/falsetru"
+      }
+    },
+    {
+      "answer_id": 24295616,
+      "body": "<p>You are responding to a request, your HTTP server <em>must</em> return <em>something</em>. The HTTP 'empty response' response is <code>204 No Content</code>:</p>\n\n<pre><code>return ('', 204)\n</code></pre>\n\n<p>Note that returning a file to the browser is <em>not</em> an empty response, just different from a HTML response.</p>\n",
+      "owner": {
+        "display_name": "Martijn Pieters",
+        "link": "https://stackoverflow.com/users/100297/martijn-pieters"
+      }
+    },
+    {
+      "answer_id": 22260791,
+      "body": "<p>You need to have a 'static' folder setup (for css/js files) unless you specifically override it during Flask initialization. I am assuming you did not override it. </p>\n\n<p>Your directory structure for css should be like:</p>\n\n<pre><code>/app\n    - app_runner.py\n    /services\n        - app.py \n    /templates\n        - mainpage.html\n    /static\n        /styles\n            - mainpage.css\n</code></pre>\n\n<p>Notice that your /styles directory should be under /static</p>\n\n<p>Then, do this</p>\n\n<pre><code>&lt;link rel= \"stylesheet\" type= \"text/css\" href= \"{{ url_for('static',filename='styles/mainpage.css') }}\"&gt;\n</code></pre>\n\n<p>Flask will now look for the css file under static/styles/mainpage.css</p>\n",
+      "owner": {
+        "display_name": "codegeek",
+        "link": "https://stackoverflow.com/users/1572562/codegeek"
+      }
+    },
+    {
+      "answer_id": 20017830,
+      "body": "<p><code>FileStorage</code> contains <code>stream</code> field. This object must extend IO or file object, so it must contain <code>read</code> and other similar methods. <code>FileStorage</code> also extend <code>stream</code> field object attributes, so you can just use <code>file.read()</code> instead <code>file.stream.read()</code>. Also you can use <code>save</code> argument with <code>dst</code> parameter as <code>StringIO</code> or other IO or file object to copy <code>FileStorage.stream</code> to another IO or file object.</p>\n\n<p>See documentation: <a href=\"http://flask.pocoo.org/docs/api/#flask.Request.files\" rel=\"noreferrer\">http://flask.pocoo.org/docs/api/#flask.Request.files</a> and <a href=\"http://werkzeug.pocoo.org/docs/datastructures/#werkzeug.datastructures.FileStorage\" rel=\"noreferrer\">http://werkzeug.pocoo.org/docs/datastructures/#werkzeug.datastructures.FileStorage</a>.</p>\n",
+      "owner": {
+        "display_name": "tbicr",
+        "link": "https://stackoverflow.com/users/880326/tbicr"
+      }
+    },
+    {
+      "answer_id": 15144980,
+      "body": "<p>I would start out by organizing the Flask app in the standard structure as follows:</p>\n\n<pre><code>app\n|-- app.py\n|-- static\n    |-- css\n    |-- img\n    |-- js\n|-- templates\n</code></pre>\n\n<p>And as btford mentioned, if you are doing an Angular app, you'll want to focus on using Angular client-side templates and stay away from server-side templates. Using render_template('index.html') will cause Flask to interpret your angular templates as jinja templates, so they won't render correctly. Instead, you'll want to do the following:</p>\n\n<pre><code>@app.route(\"/\")\ndef index():\n    return send_file('templates/index.html')\n</code></pre>\n\n<p>Note that using send_file() means that the files will be cached, so you might want to use make_response() instead, at least for development:</p>\n\n<pre><code>    return make_response(open('templates/index.html').read())\n</code></pre>\n\n<p>Afterwards, build out the AngularJS part of your app, modifying the app structure so that it looks like this:</p>\n\n<pre><code>app\n|-- app.py\n|-- static\n    |-- css\n    |-- img\n    |-- js\n        |-- app.js, controllers.js, etc.\n    |-- lib\n        |-- angular\n            |-- angular.js, etc.\n    |-- partials\n|-- templates\n    |-- index.html\n</code></pre>\n\n<p>Make sure your index.html includes AngularJS, as well as any other files:</p>\n\n<pre><code>&lt;script src=\"static/lib/angular/angular.js\"&gt;&lt;/script&gt;\n</code></pre>\n\n<p>At this point, you haven't yet constructed your RESTful API, so you can have your js controllers return predefined sample data (only a temporary setup). When you're ready, implement the RESTful API and hook it up to your angular app with angular-resource.js.</p>\n\n<p>EDIT: I put together an app template that, though a little more complex that what I've described above, illustrates how one could build an app with AngularJS + Flask, complete with communication between AngularJS and a simple Flask API. Here it is if you want to check it out: <a href=\"https://github.com/rxl/angular-flask\">https://github.com/rxl/angular-flask</a></p>\n",
+      "owner": {
+        "display_name": "Ryan Shea",
+        "link": "https://stackoverflow.com/users/1530754/ryan-shea"
+      }
+    },
+    {
+      "answer_id": 17256830,
+      "body": "<p>Your view names need to be unique even if they are pointing to the same view method.</p>\n\n<pre><code>app.add_url_rule('/',\n                 view_func=Main.as_view('main'),\n                 methods = ['GET'])\n\napp.add_url_rule('/&lt;page&gt;/',\n                 view_func=Main.as_view('page'),\n                 methods = ['GET'])\n</code></pre>\n",
+      "owner": {
+        "display_name": "Michael Davis",
+        "link": "https://stackoverflow.com/users/1040949/michael-davis"
+      }
+    },
+    {
+      "answer_id": 17073583,
+      "body": "<p>The best way is to set <strong>static_url_path</strong> to root url</p>\n\n<pre><code>from flask import Flask\n\napp = Flask(__name__, static_folder='static', static_url_path='')\n</code></pre>\n",
+      "owner": {
+        "display_name": "dns",
+        "link": "https://stackoverflow.com/users/2300614/dns"
+      }
+    },
+    {
+      "answer_id": 15231623,
+      "body": "<p>Yes, Blueprints are the right way to do it. What you are trying to do can be achieved like this:</p>\n\n<p>Main.py</p>\n\n<pre><code>from flask import Flask\nfrom AccountAPI import account_api\n\napp = Flask(__name__)\n\napp.register_blueprint(account_api)\n\n@app.route(\"/\")\ndef hello():\n    return \"Hello World!\"\n\nif __name__ == \"__main__\":\n    app.run()\n</code></pre>\n\n<p>AccountAPI.py</p>\n\n<pre><code>from flask import Blueprint\n\naccount_api = Blueprint('account_api', __name__)\n\n@account_api.route(\"/account\")\ndef accountList():\n    return \"list of accounts\"\n</code></pre>\n\n<p>If this is an option, you might consider using different URL prefixes for the different APIs/Blueprints in order to cleanly separate them. This can be done with a slight modification to the above <code>register_blueprint</code> call:</p>\n\n<pre><code>app.register_blueprint(account_api, url_prefix='/accounts')\n</code></pre>\n\n<p>For further documentation, you may also have a look at <a href=\"http://flask.pocoo.org/docs/blueprints/\">the official docs</a>.</p>\n",
+      "owner": {
+        "display_name": "cyroxx",
+        "link": "https://stackoverflow.com/users/1388240/cyroxx"
+      }
+    },
+    {
+      "answer_id": 14421367,
+      "body": "<p>You should check out the Larger Applications page in the Patterns section of the Flask docs: <a href=\"http://flask.pocoo.org/docs/patterns/packages/\" rel=\"noreferrer\">http://flask.pocoo.org/docs/patterns/packages/</a>. It seems to be the model that most people follow when their application calls for a package instead of a module.</p>\n\n<p>I believe <code>views.py</code> is what you are calling <code>routes.py</code>. After that, models would go in <code>models.py</code>, forms would go in <code>forms.py</code>, etc.</p>\n",
+      "owner": {
+        "display_name": "dirn",
+        "link": "https://stackoverflow.com/users/978961/dirn"
+      }
+    },
+    {
+      "answer_id": 14032302,
+      "body": "<p>Another way is to write</p>\n\n<pre><code>@user.route('/&lt;user_id&gt;', defaults={'username': None})\n@user.route('/&lt;user_id&gt;/&lt;username&gt;')\ndef show(user_id, username):\n    pass\n</code></pre>\n\n<p>But I guess that you want to write a single route and mark <code>username</code> as optional?  If that's the case, I don't think it's possible.</p>\n",
+      "owner": {
+        "display_name": "Audrius Kažukauskas",
+        "link": "https://stackoverflow.com/users/1870151/audrius-ka%c5%beukauskas"
+      }
+    },
+    {
+      "answer_id": 8637217,
+      "body": "<p>You use something like</p>\n\n<pre><code>from flask import send_file\n\n@app.route('/get_image')\ndef get_image():\n    if request.args.get('type') == '1':\n       filename = 'ok.gif'\n    else:\n       filename = 'error.gif'\n    return send_file(filename, mimetype='image/gif')\n</code></pre>\n\n<p>to send back <code>ok.gif</code> or <code>error.gif</code>, depending on the type query parameter. See the documentation for the <a href=\"http://flask.pocoo.org/docs/api/#flask.send_file\"><code>send_file</code> function</a> and the <a href=\"http://flask.pocoo.org/docs/api/#incoming-request-data\"><code>request</code> object</a> for more information.</p>\n",
+      "owner": {
+        "display_name": "Martin Geisler",
+        "link": "https://stackoverflow.com/users/110204/martin-geisler"
+      }
+    },
+    {
+      "answer_id": 11774434,
+      "body": "<pre><code>from flask import request\n\n@app.route('/data')\ndef data():\n    # here we want to get the value of user (i.e. ?user=some-value)\n    user = request.args.get('user')\n</code></pre>\n",
+      "owner": {
+        "display_name": "Kracekumar",
+        "link": "https://stackoverflow.com/users/311413/kracekumar"
+      }
+    },
+    {
+      "answer_id": 11774026,
+      "body": "<p>Try like this:</p>\n\n<pre><code>from flask import Response\n@app.route('/ajax_ddl')\ndef ajax_ddl():\n    xml = 'foo'\n    return Response(xml, mimetype='text/xml')\n</code></pre>\n\n<p>The actual Content-Type is based on the mimetype parameter and the charset (defaults to UTF-8).</p>\n\n<p>Response (and request) objects are documented here: <a href=\"http://werkzeug.pocoo.org/docs/wrappers/\" rel=\"noreferrer\">http://werkzeug.pocoo.org/docs/wrappers/</a></p>\n",
+      "owner": {
+        "display_name": "Simon Sapin",
+        "link": "https://stackoverflow.com/users/1162888/simon-sapin"
+      }
+    },
+    {
+      "answer_id": 11150849,
+      "body": "<p>Ok I figured it out. It appears to be an issue with Werkzeug and os's that support ipv6.</p>\n\n<p>From the Werkzeug site <a href=\"http://werkzeug.pocoo.org/docs/serving/\" rel=\"noreferrer\">http://werkzeug.pocoo.org/docs/serving/</a>:</p>\n\n<blockquote>\n  <p>On operating systems that support ipv6 and have it configured such as modern Linux systems, OS X 10.4 or higher as well as Windows Vista some browsers can be painfully slow if accessing your local server. The reason for this is that sometimes “localhost” is configured to be available on both ipv4 and ipv6 socktes and some browsers will try to access ipv6 first and then ivp4. </p>\n</blockquote>\n\n<p>So the fix is to disable ipv6 from the localhost by commenting out the following line from my hosts file:</p>\n\n<pre><code>::1             localhost \n</code></pre>\n\n<p>Once I do this the latency problems go away.</p>\n\n<p>I'm really digging Flask and I'm glad that it's not a problem with the framework. I knew it couldn't be.</p>\n",
+      "owner": {
+        "display_name": "Meroon",
+        "link": "https://stackoverflow.com/users/59877/meroon"
+      }
+    }
+  ]
+}
