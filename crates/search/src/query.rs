@@ -189,8 +189,10 @@ fn exceeds_share(doc_freq: u64, sections: u64, share: f32) -> bool {
 /// The required words of `analyzed` that more than `ranking.common_word_share` of the sections contain, counted as
 /// the scorer counts them. [`build`] turns them into optional clauses.
 ///
-/// None is common in a query of stop words only, when `min_should_match` is above 0 (it counts every required word),
-/// for a word with synonyms (its clause matches more than the word), or when every required word would be.
+/// None is common in a query of stop words only, when `min_should_match` asks for more than one required word (over
+/// fewer words the fraction could admit other sections), for a word with synonyms (its clause matches more than the
+/// word), or when the other required words are in fewer than `wanted` sections in all, every required word included:
+/// the search would then come up short and run again.
 ///
 /// # Errors
 ///
@@ -200,29 +202,33 @@ pub fn common_words(
     searcher: &Searcher,
     analyzed: &Analyzed,
     ranking: &RankingSettings,
+    wanted: usize,
 ) -> Result<Vec<String>, SearchError> {
-    if !analyzed.has_content_words || ranking.min_should_match > 0.0 {
+    if !analyzed.has_content_words || minimum_should_match(ranking.min_should_match, analyzed.required.len()) > 1 {
         return Ok(Vec::new());
     }
     let statistics = SectionStatistics::new(store, searcher)?;
     let mut common = Vec::new();
+    let mut kept_sections: u64 = 0;
     for word in &analyzed.required {
-        if ranking.synonyms.contains_key(word) {
-            continue;
-        }
         let doc_freq = searcher.doc_freq(&Term::from_field_text(store.fields().combined, word))?;
-        if exceeds_share(doc_freq, statistics.sections, ranking.common_word_share) {
+        if !ranking.synonyms.contains_key(word)
+            && exceeds_share(doc_freq, statistics.sections, ranking.common_word_share)
+        {
             common.push(word.clone());
+        } else {
+            kept_sections = kept_sections.saturating_add(doc_freq);
         }
     }
-    if common.len() == analyzed.required.len() {
+    if kept_sections < wanted as u64 {
         common.clear();
     }
     Ok(common)
 }
 
 /// Builds the query for `analyzed` in `scope`, as described in the design's query construction. The required words
-/// in `common` become optional clauses, and `min_should_match` counts the others.
+/// in `common` become optional clauses, and `min_should_match` counts the others; with every required word in
+/// `common`, nothing matches.
 #[must_use]
 pub fn build(
     fields: &Fields,
@@ -555,7 +561,7 @@ pub fn query_docs(
     let searcher = store.searcher();
     let states = store.version_states_at(&searcher)?;
     let (state, resolution) = resolve_version(&states, request.library_id, request.version)?;
-    let common = common_words(store, &searcher, &analyzed, ranking)?;
+    let common = common_words(store, &searcher, &analyzed, ranking, request.max_results.max(1))?;
     let query = build(
         store.fields(),
         &analyzed,
@@ -834,6 +840,21 @@ mod tests {
         );
     }
 
+    fn share(share: f32) -> RankingSettings {
+        RankingSettings {
+            common_word_share: share,
+            ..RankingSettings::default()
+        }
+    }
+
+    fn ask(store: &Store, query: &str, max_results: usize, ranking: &RankingSettings) -> QueryDocsResult {
+        let request = QueryRequest {
+            max_results,
+            ..request(query)
+        };
+        query_docs(store, &request, ranking).unwrap()
+    }
+
     #[test]
     fn common_words_only_add_to_the_score() {
         let s = lib();
@@ -853,32 +874,65 @@ mod tests {
             section(&s, "h.md", 0, &["H"], "hotel"),
             section(&s, "i.md", 0, &["I"], "india"),
         ]);
-        let ask = |query: &str, max_results: usize, share: f32| {
-            let request = QueryRequest {
-                max_results,
-                ..request(query)
-            };
-            let ranking = RankingSettings {
-                common_word_share: share,
-                ..RankingSettings::default()
-            };
-            query_docs(&fixture.store, &request, &ranking).unwrap()
-        };
+        let store = &fixture.store;
         // `common` is in 3 of 8 sections (0.375), `alpha` in 2 (0.25).
-        let demoted = ask("alpha common", 2, 0.25);
+        let demoted = ask(store, "alpha common", 2, &share(0.25));
         assert_eq!(sources(&demoted), ["local:a.md", "local:e.md"]);
-        let kept = ask("alpha common", 2, 1.0);
+        let kept = ask(store, "alpha common", 2, &share(1.0));
         assert_eq!(sources(&kept), ["local:a.md", "local:b.md"], "b outranks the long e");
         assert_eq!(demoted.results[0].score, kept.results[0].score);
         assert_eq!(
-            sources(&ask("alpha common", 2, 0.375)),
+            sources(&ask(store, "alpha common", 2, &share(0.375))),
             sources(&kept),
             "a word at the share stays"
         );
+        let same = |query: &str, max_results: usize, ranking: &RankingSettings, message: &str| {
+            let full = RankingSettings {
+                common_word_share: 1.0,
+                ..ranking.clone()
+            };
+            assert_eq!(
+                sources(&ask(store, query, max_results, ranking)),
+                sources(&ask(store, query, max_results, &full)),
+                "{message}"
+            );
+        };
+        same(
+            "alpha common",
+            3,
+            &share(0.25),
+            "alpha is in fewer sections than asked for",
+        );
+        same("common", 2, &share(0.25), "every required word is common");
+        let mut synonyms = share(0.25);
+        synonyms.synonyms.insert("common".to_owned(), vec!["usual".to_owned()]);
+        same("alpha common", 2, &synonyms, "a word with synonyms stays required");
+        let strict = RankingSettings {
+            min_should_match: 1.0,
+            ..share(0.25)
+        };
+        same("alpha common", 2, &strict, "min_should_match asks for both words");
+    }
+
+    #[test]
+    fn a_short_first_search_runs_again_with_every_word() {
+        let s = lib();
+        let fixture = one_version(&[
+            section(&s, "a.md", 0, &["A"], "alpha bravo common"),
+            section(&s, "e.md", 0, &["E"], "alpha bravo lorem ipsum dolor sit amet"),
+            section(&s, "b.md", 0, &["B"], "common charlie"),
+            section(&s, "c.md", 0, &["C"], "common delta"),
+            section(&s, "f.md", 0, &["F"], "foxtrot"),
+            section(&s, "g.md", 0, &["G"], "golf"),
+            section(&s, "h.md", 0, &["H"], "hotel"),
+            section(&s, "i.md", 0, &["I"], "india"),
+        ]);
+        // `alpha` and `bravo` are in 4 sections in all but match only 2, fewer than the 3 asked for.
+        let retried = ask(&fixture.store, "alpha bravo common", 3, &share(0.25));
+        assert_eq!(retried.results.len(), 3);
         assert_eq!(
-            sources(&ask("alpha common", 5, 0.25)),
-            sources(&ask("alpha common", 5, 1.0)),
-            "fewer hits than asked for: every word is required again"
+            sources(&retried),
+            sources(&ask(&fixture.store, "alpha bravo common", 3, &share(1.0)))
         );
     }
 
@@ -892,43 +946,42 @@ mod tests {
             section(&s, "d.md", 0, &["D"], "other"),
         ]);
         let searcher = fixture.store.searcher();
-        let words = |query: &str, ranking: &RankingSettings| {
-            common_words(&fixture.store, &searcher, &analyze(query).unwrap(), ranking).unwrap()
+        let words = |query: &str, ranking: &RankingSettings, wanted: usize| {
+            common_words(&fixture.store, &searcher, &analyze(query).unwrap(), ranking, wanted).unwrap()
         };
-        let ranking = RankingSettings {
-            common_word_share: 0.4,
-            ..RankingSettings::default()
-        };
+        let ranking = share(0.4);
         assert_eq!(
-            words("alpha common", &ranking),
+            words("alpha common", &ranking, 1),
             ["common"],
             "2 of 4 sections, though the index also holds a version-state document"
         );
         let no_words: [&str; 0] = [];
-        let at_share = RankingSettings {
-            common_word_share: 0.5,
-            ..ranking.clone()
-        };
-        assert_eq!(words("alpha common", &at_share), no_words);
-        assert_eq!(words("common", &ranking), no_words, "every required word is common");
+        assert_eq!(words("alpha common", &share(0.5), 1), no_words);
         assert_eq!(
-            words("how to", &ranking),
+            words("alpha common", &ranking, 2),
+            no_words,
+            "alpha is in 1 section, 2 are wanted"
+        );
+        assert_eq!(words("common", &ranking, 1), no_words, "every required word is common");
+        assert_eq!(
+            words("how to", &ranking, 1),
             no_words,
             "the stop words of a stop-word query stay required"
         );
-        let strict = RankingSettings {
-            min_should_match: 0.5,
+        let asking = |fraction: f32| RankingSettings {
+            min_should_match: fraction,
             ..ranking.clone()
         };
         assert_eq!(
-            words("alpha common", &strict),
-            no_words,
-            "min_should_match counts every word"
+            words("alpha common", &asking(0.5), 1),
+            ["common"],
+            "one word of two, as 0 asks"
         );
+        assert_eq!(words("alpha common", &asking(0.6), 1), no_words, "both words");
         let mut synonyms = ranking.clone();
         synonyms.synonyms.insert("common".to_owned(), vec!["usual".to_owned()]);
         assert_eq!(
-            words("alpha common", &synonyms),
+            words("alpha common", &synonyms, 1),
             no_words,
             "a word with synonyms stays required"
         );
@@ -938,7 +991,8 @@ mod tests {
                 &empty.store,
                 &empty.store.searcher(),
                 &analyze("alpha").unwrap(),
-                &ranking
+                &ranking,
+                1
             )
             .unwrap(),
             no_words

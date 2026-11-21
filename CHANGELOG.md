@@ -34,8 +34,9 @@ and versions follow [Semantic Versioning](https://semver.org/).
   (improvement-loop iteration 17, identical results, p50 −17% and p95 −20% in `cargo xtask perf`). No rebuild needed.
 - A non-stop query word found in more than a fifth of the sections no longer decides which sections are candidates:
   it only adds to the score of sections that match another word (`[settings.ranking] common_word_share`, default
-  0.2; 1 restores the old behaviour). When fewer sections than asked for match, every word counts again, and no word
-  is set aside in a query of stop words only, with `min_should_match` above 0, or when it has synonyms. The share is
+  0.2; 1 restores the old behaviour). No word is set aside in a query of stop words only, when `min_should_match` asks
+  for more than one word, when it has synonyms, or when the other words are in fewer sections than asked for; when
+  fewer sections than asked for match, every word counts again. The share is
   counted over the whole index, so which sections match also depends on the other libraries indexed.
   Improvement-loop iteration 23: identical dev results, p50 −22% and p95 −30% in `cargo xtask perf`. No rebuild
   needed.
