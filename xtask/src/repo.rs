@@ -20,6 +20,9 @@ const ROOT_MARKDOWN: [&str; 5] = [
 /// Files where printing to stdout or stderr is allowed.
 const PRINT_ALLOWED: [&str; 3] = ["crates/cli/src/output.rs", "crates/eval/src/report.rs", "xtask/"];
 
+/// Third-party text committed as data, such as Stack Overflow posts, where task markers are quotes rather than ours.
+const THIRD_PARTY_DATA: [&str; 2] = ["eval/v2/raw/", "eval/v2/questions/"];
+
 /// Returns one human-readable violation per broken rule, in path order.
 #[must_use]
 pub fn check(files: &[SourceFile]) -> Vec<String> {
@@ -36,7 +39,7 @@ fn violations(file: &SourceFile) -> Vec<String> {
         found.push("Markdown file outside the allowlist".to_owned());
     }
     for marker in [["TO", "DO"].concat(), ["FIX", "ME"].concat()] {
-        if file.text.contains(&marker) {
+        if file.text.contains(&marker) && !THIRD_PARTY_DATA.iter().any(|data| path.starts_with(data)) {
             found.push(format!("contains {marker}"));
         }
     }
@@ -145,6 +148,17 @@ mod tests {
                 format!("src/a.rs: contains {}", word(&["TO", "DO"]))
             ]
         );
+    }
+
+    #[test]
+    fn task_markers_in_third_party_data_are_allowed() {
+        let marker = word(&["TO", "DO"]);
+        let files = [
+            file("eval/v2/raw/npm_react.json", &marker),
+            file("eval/v2/questions/dev.jsonl", &marker),
+            file("eval/v2/libraries.toml", &marker),
+        ];
+        assert_eq!(check(&files), [format!("eval/v2/libraries.toml: contains {marker}")]);
     }
 
     #[test]

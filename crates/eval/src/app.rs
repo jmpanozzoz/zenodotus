@@ -12,6 +12,7 @@ use crate::perf::{self, PerfIndex, PerfPlan};
 use crate::questions::{self, Question, Set};
 use crate::report::{SystemResult, compose, render, write};
 use crate::run::{Record, evaluate};
+use crate::sourcing::{self, StackExchange};
 use crate::systems::context7::{self, Context7};
 use crate::systems::grounded::{self, Grounded};
 use crate::systems::neuledge::{self, Neuledge};
@@ -50,6 +51,44 @@ pub enum Command {
     PerfQueries(IndexArgs),
     /// Starts `serve` and waits for its first `tools/list` response, for timing with hyperfine.
     ColdStart(ServeArgs),
+    /// Downloads, from the Stack Exchange API, the questions and accepted answers the M6 question set is built from.
+    SourceFetch(SourceFetchArgs),
+    /// Builds the M6 question sets from the downloaded questions and answers.
+    SourceBuild(SourceBuildArgs),
+}
+
+/// The options of `source-fetch`; paths are relative to `--root`.
+#[derive(Debug, Args)]
+pub struct SourceFetchArgs {
+    /// The library list.
+    #[arg(long, default_value = "eval/v2/libraries.toml")]
+    pub libraries: PathBuf,
+    /// Where the raw responses go, one file per library; a library that has one is not fetched again.
+    #[arg(long, default_value = "eval/v2/raw")]
+    pub raw: PathBuf,
+    /// The API root.
+    #[arg(long, default_value = "https://api.stackexchange.com")]
+    pub api: String,
+    /// Pages of 100 questions per library.
+    #[arg(long, default_value_t = 1)]
+    pub pages: u32,
+    /// Only this library; repeatable.
+    #[arg(long = "library")]
+    pub only: Vec<String>,
+}
+
+/// The options of `source-build`; paths are relative to `--root`.
+#[derive(Debug, Args)]
+pub struct SourceBuildArgs {
+    /// The library list.
+    #[arg(long, default_value = "eval/v2/libraries.toml")]
+    pub libraries: PathBuf,
+    /// The raw responses `source-fetch` saved.
+    #[arg(long, default_value = "eval/v2/raw")]
+    pub raw: PathBuf,
+    /// Where `dev.jsonl` and `test.jsonl` go.
+    #[arg(long, default_value = "eval/v2/questions")]
+    pub out: PathBuf,
 }
 
 /// The set and systems `run` uses unless told otherwise.
@@ -277,6 +316,24 @@ pub async fn run(cli: Cli, clock: &dyn Clock) -> (String, Result<(), EvalError>)
                     elapsed.as_secs_f64() * 1000.0
                 )
             }),
+        Command::SourceFetch(args) => {
+            let root = &cli.root;
+            let api = StackExchange::new(&args.api);
+            sourcing::fetch_all(
+                &api,
+                &root.join(&args.libraries),
+                &root.join(&args.raw),
+                &args.only,
+                args.pages,
+                clock,
+            )
+            .await
+        }
+        Command::SourceBuild(args) => sourcing::build_all(
+            &cli.root.join(&args.libraries),
+            &cli.root.join(&args.raw),
+            &cli.root.join(&args.out),
+        ),
     };
     match result {
         Ok(text) => (text, Ok(())),
@@ -387,6 +444,36 @@ mod tests {
 
     fn parse(args: &[&str]) -> Cli {
         Cli::try_parse_from(std::iter::once("zenodotus-eval").chain(args.iter().copied())).unwrap()
+    }
+
+    #[tokio::test]
+    async fn the_source_commands_resolve_their_paths_under_the_root() {
+        let root = tempfile::tempdir().unwrap();
+        let dir = root.path().join("eval/v2");
+        std::fs::create_dir_all(dir.join("raw")).unwrap();
+        std::fs::write(
+            dir.join("libraries.toml"),
+            "[[library]]\nid = \"pypi:x\"\ntags = [\"x\"]\ndocs = [\"x.dev/\"]\n",
+        )
+        .unwrap();
+        std::fs::write(
+            dir.join("raw/pypi_x.json"),
+            r#"{"library":"pypi:x","fetched_at":"","questions":[],"answers":[]}"#,
+        )
+        .unwrap();
+        let clock = FixedClock::new(Timestamp::from_unix(0));
+        let at = root.path().to_str().unwrap();
+        let (text, result) = run(parse(&["--root", at, "source-fetch", "--library", "pypi:x"]), &clock).await;
+        result.unwrap();
+        assert_eq!(text, "pypi:x: already fetched\n");
+        let (text, result) = run(parse(&["--root", at, "source-build"]), &clock).await;
+        result.unwrap();
+        assert!(text.starts_with("pypi:x: 0 of 0 questions kept\n0 questions"), "{text}");
+        assert!(dir.join("questions/dev.jsonl").exists());
+        assert!(matches!(
+            parse(&["source-fetch"]).command,
+            Command::SourceFetch(SourceFetchArgs { pages: 1, ref api, .. }) if api == "https://api.stackexchange.com"
+        ));
     }
 
     #[test]

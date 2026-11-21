@@ -1,0 +1,1908 @@
+{
+  "library": "npm:axios",
+  "fetched_at": "2026-11-21T17:28:06Z",
+  "questions": [
+    {
+      "question_id": 39153080,
+      "title": "How can I get the status code from an HTTP error in Axios?",
+      "accepted_answer_id": 39153411,
+      "score": 600,
+      "link": "https://stackoverflow.com/questions/39153080/how-can-i-get-the-status-code-from-an-http-error-in-axios",
+      "owner": {
+        "display_name": "Sebastian Olsen",
+        "link": "https://stackoverflow.com/users/4937981/sebastian-olsen"
+      }
+    },
+    {
+      "question_id": 47630163,
+      "title": "axios post request to send form data",
+      "accepted_answer_id": 47630754,
+      "score": 470,
+      "link": "https://stackoverflow.com/questions/47630163/axios-post-request-to-send-form-data",
+      "owner": {
+        "display_name": "Srikanth Gowda",
+        "link": "https://stackoverflow.com/users/7007693/srikanth-gowda"
+      }
+    },
+    {
+      "question_id": 43002444,
+      "title": "Make Axios send cookies in its requests automatically",
+      "accepted_answer_id": 43178070,
+      "score": 356,
+      "link": "https://stackoverflow.com/questions/43002444/make-axios-send-cookies-in-its-requests-automatically",
+      "owner": {
+        "display_name": "Kunok",
+        "link": "https://stackoverflow.com/users/5426743/kunok"
+      }
+    },
+    {
+      "question_id": 37897523,
+      "title": "Axios get access to response header fields",
+      "accepted_answer_id": 37931084,
+      "score": 352,
+      "link": "https://stackoverflow.com/questions/37897523/axios-get-access-to-response-header-fields",
+      "owner": {
+        "display_name": "TWONEKSONE",
+        "link": "https://stackoverflow.com/users/3266953/twoneksone"
+      }
+    },
+    {
+      "question_id": 40844297,
+      "title": "What is difference between Axios and Fetch?",
+      "accepted_answer_id": 50326744,
+      "score": 349,
+      "link": "https://stackoverflow.com/questions/40844297/what-is-difference-between-axios-and-fetch",
+      "owner": {
+        "display_name": "Gorakh Nath",
+        "link": "https://stackoverflow.com/users/6560375/gorakh-nath"
+      }
+    },
+    {
+      "question_id": 44617825,
+      "title": "Passing headers with axios POST request",
+      "accepted_answer_id": 44617848,
+      "score": 338,
+      "link": "https://stackoverflow.com/questions/44617825/passing-headers-with-axios-post-request",
+      "owner": {
+        "display_name": "Jagrati",
+        "link": "https://stackoverflow.com/users/6149787/jagrati"
+      }
+    },
+    {
+      "question_id": 43051291,
+      "title": "Attach Authorization header for all axios requests",
+      "accepted_answer_id": 43052288,
+      "score": 336,
+      "link": "https://stackoverflow.com/questions/43051291/attach-authorization-header-for-all-axios-requests",
+      "owner": {
+        "display_name": "awwester",
+        "link": "https://stackoverflow.com/users/2548934/awwester"
+      }
+    },
+    {
+      "question_id": 43013858,
+      "title": "How to post a file from a form with Axios",
+      "accepted_answer_id": 43014086,
+      "score": 329,
+      "link": "https://stackoverflow.com/questions/43013858/how-to-post-a-file-from-a-form-with-axios",
+      "owner": {
+        "display_name": "Don Smythe",
+        "link": "https://stackoverflow.com/users/2295516/don-smythe"
+      }
+    },
+    {
+      "question_id": 51069552,
+      "title": "Axios - DELETE Request With Request Body and Headers?",
+      "accepted_answer_id": 53263784,
+      "score": 307,
+      "link": "https://stackoverflow.com/questions/51069552/axios-delete-request-with-request-body-and-headers",
+      "owner": {
+        "display_name": "Asfourhundred",
+        "link": "https://stackoverflow.com/users/6210860/asfourhundred"
+      }
+    },
+    {
+      "question_id": 41938718,
+      "title": "How to download files using axios",
+      "accepted_answer_id": 41940307,
+      "score": 301,
+      "link": "https://stackoverflow.com/questions/41938718/how-to-download-files-using-axios",
+      "owner": {
+        "display_name": "David Choi",
+        "link": "https://stackoverflow.com/users/1426199/david-choi"
+      }
+    },
+    {
+      "question_id": 44072750,
+      "title": "How to send Basic Auth with axios",
+      "accepted_answer_id": 44239543,
+      "score": 285,
+      "link": "https://stackoverflow.com/questions/44072750/how-to-send-basic-auth-with-axios",
+      "owner": {
+        "display_name": "Emmanuel",
+        "link": "https://stackoverflow.com/users/7754086/emmanuel"
+      }
+    },
+    {
+      "question_id": 40947650,
+      "title": "Axios get in url works but with second parameter as object it doesn&#39;t",
+      "accepted_answer_id": 40953463,
+      "score": 262,
+      "link": "https://stackoverflow.com/questions/40947650/axios-get-in-url-works-but-with-second-parameter-as-object-it-doesnt",
+      "owner": {
+        "display_name": "Sinan Samet",
+        "link": "https://stackoverflow.com/users/1421775/sinan-samet"
+      }
+    },
+    {
+      "question_id": 53501185,
+      "title": "How to post query parameters with Axios?",
+      "accepted_answer_id": 53501339,
+      "score": 231,
+      "link": "https://stackoverflow.com/questions/53501185/how-to-post-query-parameters-with-axios",
+      "owner": {
+        "display_name": "GuillaumeRZ",
+        "link": "https://stackoverflow.com/users/5863748/guillaumerz"
+      }
+    },
+    {
+      "question_id": 49938266,
+      "title": "How to return values from async functions using async-await from function?",
+      "accepted_answer_id": 49938734,
+      "score": 198,
+      "link": "https://stackoverflow.com/questions/49938266/how-to-return-values-from-async-functions-using-async-await-from-function",
+      "owner": {
+        "display_name": "King Rayhan",
+        "link": "https://stackoverflow.com/users/3705299/king-rayhan"
+      }
+    },
+    {
+      "question_id": 52737078,
+      "title": "How can you use axios interceptors?",
+      "accepted_answer_id": 52737325,
+      "score": 194,
+      "link": "https://stackoverflow.com/questions/52737078/how-can-you-use-axios-interceptors",
+      "owner": {
+        "display_name": "Akash Salunkhe",
+        "link": "https://stackoverflow.com/users/7563926/akash-salunkhe"
+      }
+    },
+    {
+      "question_id": 41751235,
+      "title": "How to log all axios calls from one place in code",
+      "accepted_answer_id": 41754655,
+      "score": 182,
+      "link": "https://stackoverflow.com/questions/41751235/how-to-log-all-axios-calls-from-one-place-in-code",
+      "owner": {
+        "display_name": "David Choi",
+        "link": "https://stackoverflow.com/users/1426199/david-choi"
+      }
+    },
+    {
+      "question_id": 45016033,
+      "title": "How do I test axios in Jest?",
+      "accepted_answer_id": 45017940,
+      "score": 171,
+      "link": "https://stackoverflow.com/questions/45016033/how-do-i-test-axios-in-jest",
+      "owner": {
+        "display_name": "Adear",
+        "link": "https://stackoverflow.com/users/6219895/adear"
+      }
+    },
+    {
+      "question_id": 50949594,
+      "title": "Axios having CORS issue",
+      "accepted_answer_id": 50949631,
+      "score": 159,
+      "link": "https://stackoverflow.com/questions/50949594/axios-having-cors-issue",
+      "owner": {
+        "display_name": "Kiran",
+        "link": "https://stackoverflow.com/users/8940641/kiran"
+      }
+    },
+    {
+      "question_id": 45975135,
+      "title": "Access Control Origin Header error using Axios",
+      "accepted_answer_id": 45975479,
+      "score": 157,
+      "link": "https://stackoverflow.com/questions/45975135/access-control-origin-header-error-using-axios",
+      "owner": {
+        "display_name": "SeaWarrior404",
+        "link": "https://stackoverflow.com/users/5898523/seawarrior404"
+      }
+    },
+    {
+      "question_id": 51363855,
+      "title": "How to configure axios to use SSL certificate?",
+      "accepted_answer_id": 53585725,
+      "score": 145,
+      "link": "https://stackoverflow.com/questions/51363855/how-to-configure-axios-to-use-ssl-certificate",
+      "owner": {
+        "display_name": "Jemi Salo",
+        "link": "https://stackoverflow.com/users/8954432/jemi-salo"
+      }
+    },
+    {
+      "question_id": 49944387,
+      "title": "How to correctly use axios params with arrays",
+      "accepted_answer_id": 51444749,
+      "score": 140,
+      "link": "https://stackoverflow.com/questions/49944387/how-to-correctly-use-axios-params-with-arrays",
+      "owner": {
+        "display_name": "Zin Kun",
+        "link": "https://stackoverflow.com/users/6120401/zin-kun"
+      }
+    },
+    {
+      "question_id": 48980380,
+      "title": "Returning data from Axios API",
+      "accepted_answer_id": 48980526,
+      "score": 138,
+      "link": "https://stackoverflow.com/questions/48980380/returning-data-from-axios-api",
+      "owner": {
+        "display_name": "bunkerguy",
+        "link": "https://stackoverflow.com/users/3164366/bunkerguy"
+      }
+    },
+    {
+      "question_id": 38329209,
+      "title": "how to cancel/abort ajax request in axios",
+      "accepted_answer_id": 38353346,
+      "score": 137,
+      "link": "https://stackoverflow.com/questions/38329209/how-to-cancel-abort-ajax-request-in-axios",
+      "owner": {
+        "display_name": "Rajab Shakirov",
+        "link": "https://stackoverflow.com/users/3914072/rajab-shakirov"
+      }
+    },
+    {
+      "question_id": 53298478,
+      "title": "Has been blocked by CORS policy: Response to preflight request doesn’t pass access control check",
+      "accepted_answer_id": 53304135,
+      "score": 135,
+      "link": "https://stackoverflow.com/questions/53298478/has-been-blocked-by-cors-policy-response-to-preflight-request-doesn-t-pass-acce",
+      "owner": {
+        "display_name": "GGG",
+        "link": "https://stackoverflow.com/users/10596363/ggg"
+      }
+    },
+    {
+      "question_id": 51415439,
+      "title": "How can I add raw data body to an axios request?",
+      "accepted_answer_id": 51415585,
+      "score": 112,
+      "link": "https://stackoverflow.com/questions/51415439/how-can-i-add-raw-data-body-to-an-axios-request",
+      "owner": {
+        "display_name": "Karim Taha",
+        "link": "https://stackoverflow.com/users/5211289/karim-taha"
+      }
+    },
+    {
+      "question_id": 31756756,
+      "title": "Axios Http client - How to construct Http Post url with form params",
+      "accepted_answer_id": 31758005,
+      "score": 112,
+      "link": "https://stackoverflow.com/questions/31756756/axios-http-client-how-to-construct-http-post-url-with-form-params",
+      "owner": {
+        "display_name": "mmraj",
+        "link": "https://stackoverflow.com/users/5001265/mmraj"
+      }
+    },
+    {
+      "question_id": 51563821,
+      "title": "Axios Interceptors retry original request and access original promise",
+      "accepted_answer_id": 51600050,
+      "score": 110,
+      "link": "https://stackoverflow.com/questions/51563821/axios-interceptors-retry-original-request-and-access-original-promise",
+      "owner": {
+        "display_name": "Tim Wickstrom",
+        "link": "https://stackoverflow.com/users/787796/tim-wickstrom"
+      }
+    },
+    {
+      "question_id": 47216452,
+      "title": "How to handle 401 (Authentication Error) in axios and react?",
+      "accepted_answer_id": 47218004,
+      "score": 110,
+      "link": "https://stackoverflow.com/questions/47216452/how-to-handle-401-authentication-error-in-axios-and-react",
+      "owner": {
+        "display_name": "Amir Saleem",
+        "link": "https://stackoverflow.com/users/6289362/amir-saleem"
+      }
+    },
+    {
+      "question_id": 47407564,
+      "title": "Change the default base url for axios",
+      "accepted_answer_id": 47407760,
+      "score": 109,
+      "link": "https://stackoverflow.com/questions/47407564/change-the-default-base-url-for-axios",
+      "owner": {
+        "display_name": "Geoff",
+        "link": "https://stackoverflow.com/users/5540863/geoff"
+      }
+    },
+    {
+      "question_id": 41878838,
+      "title": "How do I set multipart in axios with react?",
+      "accepted_answer_id": 42096508,
+      "score": 108,
+      "link": "https://stackoverflow.com/questions/41878838/how-do-i-set-multipart-in-axios-with-react",
+      "owner": {
+        "display_name": "Shamoon",
+        "link": "https://stackoverflow.com/users/239879/shamoon"
+      }
+    },
+    {
+      "question_id": 62217642,
+      "title": "React and TypeScript—which types for an Axios response?",
+      "accepted_answer_id": 62217859,
+      "score": 99,
+      "link": "https://stackoverflow.com/questions/62217642/react-and-typescript-which-types-for-an-axios-response",
+      "owner": {
+        "display_name": "G. Debailly",
+        "link": "https://stackoverflow.com/users/5100357/g-debailly"
+      }
+    },
+    {
+      "question_id": 42898009,
+      "title": "Multiple fields with same key in query params (axios request)?",
+      "accepted_answer_id": 43208627,
+      "score": 99,
+      "link": "https://stackoverflow.com/questions/42898009/multiple-fields-with-same-key-in-query-params-axios-request",
+      "owner": {
+        "display_name": "Mahi",
+        "link": "https://stackoverflow.com/users/2505645/mahi"
+      }
+    },
+    {
+      "question_id": 45980173,
+      "title": "React: Axios Network Error",
+      "accepted_answer_id": 47317506,
+      "score": 97,
+      "link": "https://stackoverflow.com/questions/45980173/react-axios-network-error",
+      "owner": {
+        "display_name": "TeaNyan",
+        "link": "https://stackoverflow.com/users/6008453/teanyan"
+      }
+    },
+    {
+      "question_id": 55374755,
+      "title": "node.js axios download file stream and writeFile",
+      "accepted_answer_id": 61269447,
+      "score": 94,
+      "link": "https://stackoverflow.com/questions/55374755/node-js-axios-download-file-stream-and-writefile",
+      "owner": {
+        "display_name": "ar099968",
+        "link": "https://stackoverflow.com/users/2936170/ar099968"
+      }
+    },
+    {
+      "question_id": 41088022,
+      "title": "how to get onUploadProgress in axios?",
+      "accepted_answer_id": 41088162,
+      "score": 94,
+      "link": "https://stackoverflow.com/questions/41088022/how-to-get-onuploadprogress-in-axios",
+      "owner": {
+        "display_name": "Nane",
+        "link": "https://stackoverflow.com/users/5947166/nane"
+      }
+    },
+    {
+      "question_id": 52549079,
+      "title": "Does Axios support Set-Cookie? Is it possible to authenticate through Axios HTTP request?",
+      "accepted_answer_id": 52549519,
+      "score": 93,
+      "link": "https://stackoverflow.com/questions/52549079/does-axios-support-set-cookie-is-it-possible-to-authenticate-through-axios-http",
+      "owner": {
+        "display_name": "Mandakh",
+        "link": "https://stackoverflow.com/users/4634895/mandakh"
+      }
+    },
+    {
+      "question_id": 48298890,
+      "title": "Axios. How to get error response even when api return 404 error, in try catch finally",
+      "accepted_answer_id": 48299140,
+      "score": 91,
+      "link": "https://stackoverflow.com/questions/48298890/axios-how-to-get-error-response-even-when-api-return-404-error-in-try-catch-fi",
+      "owner": {
+        "display_name": "Jacob Goh",
+        "link": "https://stackoverflow.com/users/5599288/jacob-goh"
+      }
+    },
+    {
+      "question_id": 64735881,
+      "title": "TypeError: Converting circular structure to JSON --&gt; starting at object with constructor &#39;ClientRequest&#39;",
+      "accepted_answer_id": 64738852,
+      "score": 90,
+      "link": "https://stackoverflow.com/questions/64735881/typeerror-converting-circular-structure-to-json-starting-at-object-with-con",
+      "owner": {
+        "display_name": "ChuChuwi",
+        "link": "https://stackoverflow.com/users/12297980/chuchuwi"
+      }
+    },
+    {
+      "question_id": 57009371,
+      "title": "Access to XMLHttpRequest at &#39;...&#39; from origin &#39;localhost:3000&#39; has been blocked by CORS policy",
+      "accepted_answer_id": 65867020,
+      "score": 90,
+      "link": "https://stackoverflow.com/questions/57009371/access-to-xmlhttprequest-at-from-origin-localhost3000-has-been-blocked",
+      "owner": {
+        "display_name": "Mike K",
+        "link": "https://stackoverflow.com/users/2891356/mike-k"
+      }
+    },
+    {
+      "question_id": 36690451,
+      "title": "Timeout feature in the axios library is not working",
+      "accepted_answer_id": 54573024,
+      "score": 90,
+      "link": "https://stackoverflow.com/questions/36690451/timeout-feature-in-the-axios-library-is-not-working",
+      "owner": {
+        "display_name": "shet_tayyy",
+        "link": "https://stackoverflow.com/users/2338858/shet-tayyy"
+      }
+    },
+    {
+      "question_id": 46404051,
+      "title": "Send object with axios get request",
+      "accepted_answer_id": 46404151,
+      "score": 89,
+      "link": "https://stackoverflow.com/questions/46404051/send-object-with-axios-get-request",
+      "owner": {
+        "display_name": "Galivan",
+        "link": "https://stackoverflow.com/users/4245985/galivan"
+      }
+    },
+    {
+      "question_id": 56074531,
+      "title": "How to retry 5xx requests using axios",
+      "accepted_answer_id": 64076585,
+      "score": 88,
+      "link": "https://stackoverflow.com/questions/56074531/how-to-retry-5xx-requests-using-axios",
+      "owner": {
+        "display_name": "Kay",
+        "link": "https://stackoverflow.com/users/1548432/kay"
+      }
+    },
+    {
+      "question_id": 44182951,
+      "title": "Axios: chaining multiple API requests",
+      "accepted_answer_id": 44185591,
+      "score": 87,
+      "link": "https://stackoverflow.com/questions/44182951/axios-chaining-multiple-api-requests",
+      "owner": {
+        "display_name": "Freddy",
+        "link": "https://stackoverflow.com/users/1380422/freddy"
+      }
+    },
+    {
+      "question_id": 60454048,
+      "title": "how does axios handle blob vs arraybuffer as responseType?",
+      "accepted_answer_id": 60461828,
+      "score": 86,
+      "link": "https://stackoverflow.com/questions/60454048/how-does-axios-handle-blob-vs-arraybuffer-as-responsetype",
+      "owner": {
+        "display_name": "lhk",
+        "link": "https://stackoverflow.com/users/497600/lhk"
+      }
+    },
+    {
+      "question_id": 41497674,
+      "title": "&#39;Access-Control-Allow-Origin&#39; issue when API call made from React (Isomorphic app)",
+      "accepted_answer_id": 41497848,
+      "score": 79,
+      "link": "https://stackoverflow.com/questions/41497674/access-control-allow-origin-issue-when-api-call-made-from-react-isomorphic-ap",
+      "owner": {
+        "display_name": "Scott Davidson",
+        "link": "https://stackoverflow.com/users/6460216/scott-davidson"
+      }
+    },
+    {
+      "question_id": 57995863,
+      "title": "What is Axios default timeout",
+      "accepted_answer_id": 57995963,
+      "score": 78,
+      "link": "https://stackoverflow.com/questions/57995863/what-is-axios-default-timeout",
+      "owner": {
+        "display_name": "Arr Raj",
+        "link": "https://stackoverflow.com/users/9525416/arr-raj"
+      }
+    },
+    {
+      "question_id": 52669596,
+      "title": "Promise All with Axios",
+      "accepted_answer_id": 52669775,
+      "score": 77,
+      "link": "https://stackoverflow.com/questions/52669596/promise-all-with-axios",
+      "owner": {
+        "display_name": "Alwaysblue",
+        "link": "https://stackoverflow.com/users/8701527/alwaysblue"
+      }
+    },
+    {
+      "question_id": 46347778,
+      "title": "How to make axios synchronous",
+      "accepted_answer_id": 46347906,
+      "score": 73,
+      "link": "https://stackoverflow.com/questions/46347778/how-to-make-axios-synchronous",
+      "owner": {
+        "display_name": "Warrio",
+        "link": "https://stackoverflow.com/users/3393718/warrio"
+      }
+    },
+    {
+      "question_id": 50774176,
+      "title": "sending file and json in POST multipart/form-data request with axios",
+      "accepted_answer_id": 50774380,
+      "score": 72,
+      "link": "https://stackoverflow.com/questions/50774176/sending-file-and-json-in-post-multipart-form-data-request-with-axios",
+      "owner": {
+        "display_name": "pavlee",
+        "link": "https://stackoverflow.com/users/6706195/pavlee"
+      }
+    },
+    {
+      "question_id": 38798451,
+      "title": "How to catch and handle error response 422 with Redux/Axios?",
+      "accepted_answer_id": 38798652,
+      "score": 71,
+      "link": "https://stackoverflow.com/questions/38798451/how-to-catch-and-handle-error-response-422-with-redux-axios",
+      "owner": {
+        "display_name": "Phillip Boateng",
+        "link": "https://stackoverflow.com/users/2961044/phillip-boateng"
+      }
+    },
+    {
+      "question_id": 41519092,
+      "title": "Using Axios GET with Authorization Header in React-Native App",
+      "accepted_answer_id": 41528082,
+      "score": 70,
+      "link": "https://stackoverflow.com/questions/41519092/using-axios-get-with-authorization-header-in-react-native-app",
+      "owner": {
+        "display_name": "Ally Haire",
+        "link": "https://stackoverflow.com/users/7254678/ally-haire"
+      }
+    },
+    {
+      "question_id": 55883984,
+      "title": "Vue Axios CORS policy: No &#39;Access-Control-Allow-Origin&#39;",
+      "accepted_answer_id": 55884688,
+      "score": 68,
+      "link": "https://stackoverflow.com/questions/55883984/vue-axios-cors-policy-no-access-control-allow-origin",
+      "owner": {
+        "display_name": "Ashtav",
+        "link": "https://stackoverflow.com/users/6296150/ashtav"
+      }
+    },
+    {
+      "question_id": 43463989,
+      "title": "Returning an Axios Promise from function",
+      "accepted_answer_id": 43464147,
+      "score": 66,
+      "link": "https://stackoverflow.com/questions/43463989/returning-an-axios-promise-from-function",
+      "owner": {
+        "display_name": "Matt Stone",
+        "link": "https://stackoverflow.com/users/1414008/matt-stone"
+      }
+    },
+    {
+      "question_id": 43432892,
+      "title": "Force download GET request using axios",
+      "accepted_answer_id": 44021663,
+      "score": 65,
+      "link": "https://stackoverflow.com/questions/43432892/force-download-get-request-using-axios",
+      "owner": {
+        "display_name": "Victor",
+        "link": "https://stackoverflow.com/users/1064428/victor"
+      }
+    },
+    {
+      "question_id": 50277504,
+      "title": "Is there any reasons to use axios instead ES6 fetch",
+      "accepted_answer_id": 50278391,
+      "score": 64,
+      "link": "https://stackoverflow.com/questions/50277504/is-there-any-reasons-to-use-axios-instead-es6-fetch",
+      "owner": {
+        "display_name": "Sasha Kos",
+        "link": "https://stackoverflow.com/users/2401829/sasha-kos"
+      }
+    },
+    {
+      "question_id": 48990632,
+      "title": "How to manage axios errors globally or from one point",
+      "accepted_answer_id": 48990696,
+      "score": 62,
+      "link": "https://stackoverflow.com/questions/48990632/how-to-manage-axios-errors-globally-or-from-one-point",
+      "owner": {
+        "display_name": "hidar",
+        "link": "https://stackoverflow.com/users/8182674/hidar"
+      }
+    },
+    {
+      "question_id": 49263559,
+      "title": "Using JavaScript Axios/Fetch. Can you disable browser cache?",
+      "accepted_answer_id": 49263912,
+      "score": 59,
+      "link": "https://stackoverflow.com/questions/49263559/using-javascript-axios-fetch-can-you-disable-browser-cache",
+      "owner": {
+        "display_name": "Asjas",
+        "link": "https://stackoverflow.com/users/8294418/asjas"
+      }
+    },
+    {
+      "question_id": 39254562,
+      "title": "CSRF with Django, React+Redux using Axios",
+      "accepted_answer_id": 39258614,
+      "score": 59,
+      "link": "https://stackoverflow.com/questions/39254562/csrf-with-django-reactredux-using-axios",
+      "owner": {
+        "display_name": "Reed Dunkle",
+        "link": "https://stackoverflow.com/users/6172657/reed-dunkle"
+      }
+    },
+    {
+      "question_id": 51275434,
+      "title": "Type of Axios mock using jest typescript",
+      "accepted_answer_id": 55351900,
+      "score": 58,
+      "link": "https://stackoverflow.com/questions/51275434/type-of-axios-mock-using-jest-typescript",
+      "owner": {
+        "display_name": "Stefan Zhelyazkov",
+        "link": "https://stackoverflow.com/users/9698467/stefan-zhelyazkov"
+      }
+    },
+    {
+      "question_id": 43573297,
+      "title": "Put request with simple string as request body",
+      "accepted_answer_id": 50364961,
+      "score": 57,
+      "link": "https://stackoverflow.com/questions/43573297/put-request-with-simple-string-as-request-body",
+      "owner": {
+        "display_name": "user672009",
+        "link": "https://stackoverflow.com/users/672009/user672009"
+      }
+    },
+    {
+      "question_id": 53038900,
+      "title": "NodeJS, Axios - post file from local server to another server",
+      "accepted_answer_id": 53040878,
+      "score": 55,
+      "link": "https://stackoverflow.com/questions/53038900/nodejs-axios-post-file-from-local-server-to-another-server",
+      "owner": {
+        "display_name": "Tri Nguyen",
+        "link": "https://stackoverflow.com/users/6358607/tri-nguyen"
+      }
+    },
+    {
+      "question_id": 61385454,
+      "title": "How to post multiple Axios requests at the same time?",
+      "accepted_answer_id": 61588558,
+      "score": 54,
+      "link": "https://stackoverflow.com/questions/61385454/how-to-post-multiple-axios-requests-at-the-same-time",
+      "owner": {
+        "display_name": "Z0q",
+        "link": "https://stackoverflow.com/users/5437864/z0q"
+      }
+    },
+    {
+      "question_id": 56868023,
+      "title": "Error: Request body larger than maxBodyLength limit when sending base64 post request Axios",
+      "accepted_answer_id": 56868296,
+      "score": 54,
+      "link": "https://stackoverflow.com/questions/56868023/error-request-body-larger-than-maxbodylength-limit-when-sending-base64-post-req",
+      "owner": {
+        "display_name": "user1781563",
+        "link": "https://stackoverflow.com/users/1781563/user1781563"
+      }
+    },
+    {
+      "question_id": 41457181,
+      "title": "Axios posting params not read by $_POST",
+      "accepted_answer_id": 42507767,
+      "score": 54,
+      "link": "https://stackoverflow.com/questions/41457181/axios-posting-params-not-read-by-post",
+      "owner": {
+        "display_name": "A. L",
+        "link": "https://stackoverflow.com/users/6554121/a-l"
+      }
+    },
+    {
+      "question_id": 51646853,
+      "title": "Automating access token refreshing via interceptors in axios",
+      "accepted_answer_id": 53294310,
+      "score": 53,
+      "link": "https://stackoverflow.com/questions/51646853/automating-access-token-refreshing-via-interceptors-in-axios",
+      "owner": {
+        "display_name": "Dawid Zbiński",
+        "link": "https://stackoverflow.com/users/3142408/dawid-zbi%c5%84ski"
+      }
+    },
+    {
+      "question_id": 48413050,
+      "title": "Missing headers in Fetch response",
+      "accepted_answer_id": 48432628,
+      "score": 53,
+      "link": "https://stackoverflow.com/questions/48413050/missing-headers-in-fetch-response",
+      "owner": {
+        "display_name": "william",
+        "link": "https://stackoverflow.com/users/398909/william"
+      }
+    },
+    {
+      "question_id": 46656474,
+      "title": "Axios - Remove headers Authorization in 1 call only",
+      "accepted_answer_id": 46661023,
+      "score": 51,
+      "link": "https://stackoverflow.com/questions/46656474/axios-remove-headers-authorization-in-1-call-only",
+      "owner": {
+        "display_name": "user7021169",
+        "link": null
+      }
+    },
+    {
+      "question_id": 69264472,
+      "title": "axios Error typescript, annotation must be &#39;any&#39; or &#39;unknown&#39; if?",
+      "accepted_answer_id": 70221291,
+      "score": 50,
+      "link": "https://stackoverflow.com/questions/69264472/axios-error-typescript-annotation-must-be-any-or-unknown-if",
+      "owner": {
+        "display_name": "Fay Chen",
+        "link": "https://stackoverflow.com/users/16963265/fay-chen"
+      }
+    },
+    {
+      "question_id": 43462367,
+      "title": "How to overcome the CORS issue in ReactJS",
+      "accepted_answer_id": 43464387,
+      "score": 50,
+      "link": "https://stackoverflow.com/questions/43462367/how-to-overcome-the-cors-issue-in-reactjs",
+      "owner": {
+        "display_name": "mohan babu",
+        "link": "https://stackoverflow.com/users/4459651/mohan-babu"
+      }
+    },
+    {
+      "question_id": 50107816,
+      "title": "React Proxy error: Could not proxy request /api/ from localhost:3000 to http://localhost:8000 (ECONNREFUSED)",
+      "accepted_answer_id": 50207462,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/50107816/react-proxy-error-could-not-proxy-request-api-from-localhost3000-to-http-l",
+      "owner": {
+        "display_name": "cclloyd",
+        "link": "https://stackoverflow.com/users/2228592/cclloyd"
+      }
+    },
+    {
+      "question_id": 44936028,
+      "title": "Progress Bar with axios",
+      "accepted_answer_id": 44937301,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/44936028/progress-bar-with-axios",
+      "owner": {
+        "display_name": "Pritam Bohra",
+        "link": "https://stackoverflow.com/users/5924007/pritam-bohra"
+      }
+    },
+    {
+      "question_id": 46869962,
+      "title": "Getting 403 (Forbidden) when uploading to S3 with a signed URL",
+      "accepted_answer_id": 46870204,
+      "score": 48,
+      "link": "https://stackoverflow.com/questions/46869962/getting-403-forbidden-when-uploading-to-s3-with-a-signed-url",
+      "owner": {
+        "display_name": "Glenn",
+        "link": "https://stackoverflow.com/users/80544/glenn"
+      }
+    },
+    {
+      "question_id": 49370747,
+      "title": "Network error with axios and react native",
+      "accepted_answer_id": 49374981,
+      "score": 47,
+      "link": "https://stackoverflow.com/questions/49370747/network-error-with-axios-and-react-native",
+      "owner": {
+        "display_name": "smilebomb",
+        "link": "https://stackoverflow.com/users/1447867/smilebomb"
+      }
+    },
+    {
+      "question_id": 40996344,
+      "title": "Axios can&#39;t set data",
+      "accepted_answer_id": 41008360,
+      "score": 47,
+      "link": "https://stackoverflow.com/questions/40996344/axios-cant-set-data",
+      "owner": {
+        "display_name": "Guilherme Pressutto",
+        "link": "https://stackoverflow.com/users/2611951/guilherme-pressutto"
+      }
+    },
+    {
+      "question_id": 65184107,
+      "title": "How to use Vue.prototype or global variable in Vue 3?",
+      "accepted_answer_id": 65184375,
+      "score": 46,
+      "link": "https://stackoverflow.com/questions/65184107/how-to-use-vue-prototype-or-global-variable-in-vue-3",
+      "owner": {
+        "display_name": "R.Q",
+        "link": "https://stackoverflow.com/users/13489746/r-q"
+      }
+    },
+    {
+      "question_id": 50461746,
+      "title": "Axios: how to cancel request inside request interceptor properly?",
+      "accepted_answer_id": 50878573,
+      "score": 46,
+      "link": "https://stackoverflow.com/questions/50461746/axios-how-to-cancel-request-inside-request-interceptor-properly",
+      "owner": {
+        "display_name": "TotalAMD",
+        "link": "https://stackoverflow.com/users/3092437/totalamd"
+      }
+    },
+    {
+      "question_id": 47005457,
+      "title": "Handling Axios error in React",
+      "accepted_answer_id": 47005575,
+      "score": 46,
+      "link": "https://stackoverflow.com/questions/47005457/handling-axios-error-in-react",
+      "owner": {
+        "display_name": "GluePear",
+        "link": "https://stackoverflow.com/users/519497/gluepear"
+      }
+    },
+    {
+      "question_id": 51393952,
+      "title": "Mock inner axios.create()",
+      "accepted_answer_id": 51414152,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/51393952/mock-inner-axios-create",
+      "owner": {
+        "display_name": "kyw",
+        "link": "https://stackoverflow.com/users/73323/kyw"
+      }
+    },
+    {
+      "question_id": 43210516,
+      "title": "How to redirect from axios interceptor with react Router V4?",
+      "accepted_answer_id": 44982119,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/43210516/how-to-redirect-from-axios-interceptor-with-react-router-v4",
+      "owner": {
+        "display_name": "hilderic sb",
+        "link": "https://stackoverflow.com/users/5062640/hilderic-sb"
+      }
+    },
+    {
+      "question_id": 47477594,
+      "title": "How to use 2 instances of Axios with different baseURL in the same app (vue.js)",
+      "accepted_answer_id": 47477644,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/47477594/how-to-use-2-instances-of-axios-with-different-baseurl-in-the-same-app-vue-js",
+      "owner": {
+        "display_name": "manu",
+        "link": "https://stackoverflow.com/users/1514946/manu"
+      }
+    },
+    {
+      "question_id": 41194866,
+      "title": "How to set state of response from axios in react",
+      "accepted_answer_id": 41196643,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/41194866/how-to-set-state-of-response-from-axios-in-react",
+      "owner": {
+        "display_name": "jordanpowell88",
+        "link": "https://stackoverflow.com/users/7269367/jordanpowell88"
+      }
+    },
+    {
+      "question_id": 49661209,
+      "title": "Get response from axios with await/async",
+      "accepted_answer_id": 49661388,
+      "score": 43,
+      "link": "https://stackoverflow.com/questions/49661209/get-response-from-axios-with-await-async",
+      "owner": {
+        "display_name": "IgorM",
+        "link": "https://stackoverflow.com/users/3129954/igorm"
+      }
+    },
+    {
+      "question_id": 42189301,
+      "title": "Axios (in React-native) not calling server in localhost",
+      "accepted_answer_id": 42189984,
+      "score": 43,
+      "link": "https://stackoverflow.com/questions/42189301/axios-in-react-native-not-calling-server-in-localhost",
+      "owner": {
+        "display_name": "Pibo",
+        "link": "https://stackoverflow.com/users/6090589/pibo"
+      }
+    },
+    {
+      "question_id": 52946376,
+      "title": "reactjs axios interceptors how dispatch a logout action",
+      "accepted_answer_id": 52947618,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/52946376/reactjs-axios-interceptors-how-dispatch-a-logout-action",
+      "owner": {
+        "display_name": "Whisher",
+        "link": "https://stackoverflow.com/users/356380/whisher"
+      }
+    },
+    {
+      "question_id": 39116731,
+      "title": "How to prevent Axios from encoding my request parameters?",
+      "accepted_answer_id": 39152383,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/39116731/how-to-prevent-axios-from-encoding-my-request-parameters",
+      "owner": {
+        "display_name": "Carven",
+        "link": "https://stackoverflow.com/users/750511/carven"
+      }
+    },
+    {
+      "question_id": 60242181,
+      "title": "TypeError: resolver is not a function",
+      "accepted_answer_id": 60250115,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/60242181/typeerror-resolver-is-not-a-function",
+      "owner": {
+        "display_name": "Valentin",
+        "link": "https://stackoverflow.com/users/6314425/valentin"
+      }
+    },
+    {
+      "question_id": 67338431,
+      "title": "Can I access state inside a createAsyncThunk w/axios with redux toolkit?",
+      "accepted_answer_id": 67338647,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/67338431/can-i-access-state-inside-a-createasyncthunk-w-axios-with-redux-toolkit",
+      "owner": {
+        "display_name": "rizji",
+        "link": "https://stackoverflow.com/users/13216447/rizji"
+      }
+    },
+    {
+      "question_id": 65692061,
+      "title": "Casting dates properly from an API response in typescript",
+      "accepted_answer_id": 66238542,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/65692061/casting-dates-properly-from-an-api-response-in-typescript",
+      "owner": {
+        "display_name": "Babri",
+        "link": "https://stackoverflow.com/users/2923642/babri"
+      }
+    },
+    {
+      "question_id": 68105012,
+      "title": "What is the correct way to pass parameters to a React-query useQuery method that uses Axios",
+      "accepted_answer_id": 68111112,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/68105012/what-is-the-correct-way-to-pass-parameters-to-a-react-query-usequery-method-that",
+      "owner": {
+        "display_name": "humbledev7000",
+        "link": "https://stackoverflow.com/users/16299470/humbledev7000"
+      }
+    },
+    {
+      "question_id": 42677387,
+      "title": "Jest returns &quot;Network Error&quot; when doing an authenticated request with axios",
+      "accepted_answer_id": 42678578,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/42677387/jest-returns-network-error-when-doing-an-authenticated-request-with-axios",
+      "owner": {
+        "display_name": "lllllll",
+        "link": "https://stackoverflow.com/users/1338339/lllllll"
+      }
+    },
+    {
+      "question_id": 76030996,
+      "title": "How to use debounce with useQuery in React Query?",
+      "accepted_answer_id": 76031705,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/76030996/how-to-use-debounce-with-usequery-in-react-query",
+      "owner": {
+        "display_name": "Tiramisu",
+        "link": "https://stackoverflow.com/users/21659811/tiramisu"
+      }
+    },
+    {
+      "question_id": 55981040,
+      "title": "How to use axios with a proxy server to make an https call?",
+      "accepted_answer_id": 56018874,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/55981040/how-to-use-axios-with-a-proxy-server-to-make-an-https-call",
+      "owner": {
+        "display_name": "Sw0ut",
+        "link": "https://stackoverflow.com/users/3679206/sw0ut"
+      }
+    },
+    {
+      "question_id": 64917686,
+      "title": "Vue Array converted to Proxy object",
+      "accepted_answer_id": 64917837,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/64917686/vue-array-converted-to-proxy-object",
+      "owner": {
+        "display_name": "Eduardo Robles",
+        "link": "https://stackoverflow.com/users/13669550/eduardo-robles"
+      }
+    },
+    {
+      "question_id": 55388587,
+      "title": "How should I test React Hook &quot;useEffect&quot; making an api call with Typescript?",
+      "accepted_answer_id": 55389616,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/55388587/how-should-i-test-react-hook-useeffect-making-an-api-call-with-typescript",
+      "owner": {
+        "display_name": "Matt Berg",
+        "link": "https://stackoverflow.com/users/10008267/matt-berg"
+      }
+    },
+    {
+      "question_id": 48650107,
+      "title": "use axios globally in all my components vue",
+      "accepted_answer_id": 48652504,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/48650107/use-axios-globally-in-all-my-components-vue",
+      "owner": {
+        "display_name": "FeRcHo",
+        "link": "https://stackoverflow.com/users/7385923/fercho"
+      }
+    },
+    {
+      "question_id": 63208308,
+      "title": "How to fix AXIOS_INSTANCE_TOKEN at index [0] is available in the Module context",
+      "accepted_answer_id": 63209280,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/63208308/how-to-fix-axios-instance-token-at-index-0-is-available-in-the-module-context",
+      "owner": {
+        "display_name": "techstack",
+        "link": "https://stackoverflow.com/users/11042820/techstack"
+      }
+    },
+    {
+      "question_id": 53709142,
+      "title": "Best Way to Pass Query Parameters to URL Using Axios in Vue?",
+      "accepted_answer_id": 53709229,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/53709142/best-way-to-pass-query-parameters-to-url-using-axios-in-vue",
+      "owner": {
+        "display_name": "user9664977",
+        "link": "https://stackoverflow.com/users/9664977/user9664977"
+      }
+    },
+    {
+      "question_id": 48255545,
+      "title": "Axios: getting two requests OPTIONS &amp; POST",
+      "accepted_answer_id": 48255887,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/48255545/axios-getting-two-requests-options-post",
+      "owner": {
+        "display_name": "Liam",
+        "link": "https://stackoverflow.com/users/8959570/liam"
+      }
+    },
+    {
+      "question_id": 47067929,
+      "title": "How to handle net::ERR_CONNECTION_REFUSED in Axios - Vue.js",
+      "accepted_answer_id": 47510680,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/47067929/how-to-handle-neterr-connection-refused-in-axios-vue-js",
+      "owner": {
+        "display_name": "Jithesh Kt",
+        "link": "https://stackoverflow.com/users/1010370/jithesh-kt"
+      }
+    },
+    {
+      "question_id": 43842711,
+      "title": "Can I throw error in axios post based on response status",
+      "accepted_answer_id": 43842920,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/43842711/can-i-throw-error-in-axios-post-based-on-response-status",
+      "owner": {
+        "display_name": "jenny",
+        "link": "https://stackoverflow.com/users/5159766/jenny"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 41754655,
+      "body": "<p>The best way to do this would be an interceptor. Each interceptor is called before a request/response. In this case a logging interceptor would be:</p>\n<pre class=\"lang-js prettyprint-override\"><code>axios.interceptors.request.use(request =&gt; {\n  console.log('Starting Request', JSON.stringify(request, null, 2))\n  return request\n})\n    \naxios.interceptors.response.use(response =&gt; {\n  console.log('Response:', JSON.stringify(response, null, 2))\n  return response\n})\n</code></pre>\n<p>or something to that effect.</p>\n<p>It's good that you're using a new instance of axios:</p>\n<pre class=\"lang-js prettyprint-override\"><code>const api = axios.create({\n  timeout: 1000\n})\n</code></pre>\n<p>That way you can call:</p>\n<pre class=\"lang-js prettyprint-override\"><code>api.interceptors['...']\n</code></pre>\n",
+      "owner": {
+        "display_name": "Kevin Velasco",
+        "link": "https://stackoverflow.com/users/6767525/kevin-velasco"
+      }
+    },
+    {
+      "answer_id": 41940307,
+      "body": "<p>When response comes with a downloadable file, response headers will be something like:</p>\n<pre class=\"lang-json prettyprint-override\"><code>{\n  &quot;Content-Disposition&quot;: &quot;attachment;filename=report.xls&quot;\n  &quot;Content-Type&quot;: &quot;application/octet-stream&quot; // or &quot;application/vnd.ms-excel&quot;\n}\n</code></pre>\n<p>What you can do is create a separate component, which will contain a hidden <code>iframe</code>.</p>\n<pre class=\"lang-js prettyprint-override\"><code>import * as React from 'react';\n\nvar MyIframe = React.createClass({\n \n   render: function() {\n       return (\n         &lt;div style={{display: 'none'}}&gt;\n             &lt;iframe src={this.props.iframeSrc} /&gt;\n         &lt;/div&gt;\n       );\n   }\n});\n</code></pre>\n<p>Now, you can pass the url of the downloadable file as prop to this component. So when this component will receive prop, it will re-render and file will be downloaded.</p>\n<p><strong>Edit:</strong> You can also use <a href=\"https://www.npmjs.com/package/js-file-download\" rel=\"nofollow noreferrer\">js-file-download</a> module. <a href=\"https://github.com/kennethjiang/js-file-download\" rel=\"nofollow noreferrer\">Link to Github repo</a></p>\n<pre class=\"lang-js prettyprint-override\"><code>const FileDownload = require('js-file-download');\n\nAxios({\n  url: 'http://localhost/downloadFile',\n  method: 'GET',\n  responseType: 'blob', // Important\n}).then((response) =&gt; {\n    FileDownload(response.data, 'report.csv');\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "Hardik Modha",
+        "link": "https://stackoverflow.com/users/4248342/hardik-modha"
+      }
+    },
+    {
+      "answer_id": 41088162,
+      "body": "<p>The Axios repository has a clear example on how to do this: <a href=\"https://github.com/axios/axios/blob/master/examples/upload/index.html\" rel=\"noreferrer\">https://github.com/axios/axios/blob/master/examples/upload/index.html</a></p>\n<p><strong>Excerpt from the Website</strong></p>\n<p>When you make a request with axios, you can pass in request config. Part of that request config is the function to call when upload progresses.</p>\n<pre><code>const config = {\n    onUploadProgress: progressEvent =&gt; console.log(progressEvent.loaded)\n}\n</code></pre>\n<p>When you make the request using axios, you can pass in this config object.</p>\n<pre><code>axios.put('/upload/server', data, config)\n</code></pre>\n<p>And this function will be called whenever the upload progress changes.</p>\n<p><strong>Just a note on your code</strong></p>\n<p>I also noticed that you're not using ES6 to its fullest potential!</p>\n<p><em>Object Declaration</em></p>\n<p>It's got some nice syntax for stuff like this, for example, you have defined an object like: <code>{ data: data }</code>, but <code>{ data }</code> is sufficient.</p>\n<p>It might be worth using a linter with some linting rules, with the most common being the <a href=\"https://github.com/airbnb/javascript\" rel=\"noreferrer\">AirBnB style guide</a></p>\n",
+      "owner": {
+        "display_name": "christopher",
+        "link": "https://stackoverflow.com/users/1870555/christopher"
+      }
+    },
+    {
+      "answer_id": 66238542,
+      "body": "<h2>Update</h2>\n<p>Now that Zod has the <code>coerce</code> option, I think it is a better approach to use it to validate &amp; parse your incoming API response.</p>\n<p>You can use it like this:-</p>\n<pre><code>const eventSchema = z.object({\n number: z.number(),\n name: z.string(),\n date: z.coerce.date()\n});\n\nconst myEvent = eventSchema.parse(response.data);\n</code></pre>\n<p>You can also create a type out of the <code>eventSchema</code> to use it across your codebase:-</p>\n<pre><code>type MyEvent = z.infer&lt;typeof eventSchema&gt;\n</code></pre>\n<h2>Old Solution</h2>\n<p>So the solution that best fits my use case is similar to the one mentioned by @Amy in the original question's comment.</p>\n<p>So I use Axios interceptors to convert dates to a Date object.</p>\n<pre><code>const client = axios.create({ baseURL: process.env.NEXT_PUBLIC_API_BASE_URL });\n\nclient.interceptors.response.use(originalResponse =&gt; {\n  handleDates(originalResponse.data);\n  return originalResponse;\n});\n\nexport default client;\n</code></pre>\n<p>For identifying dates, I've used a regex expression, and for conversion to Date object, I've date-fns package.</p>\n<pre><code>const isoDateFormat = /^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d*)?$/;\n\nfunction isIsoDateString(value: any): boolean {\n  return value &amp;&amp; typeof value === &quot;string&quot; &amp;&amp; isoDateFormat.test(value);\n}\n\nexport function handleDates(body: any) {\n  if (body === null || body === undefined || typeof body !== &quot;object&quot;)\n    return body;\n\n  for (const key of Object.keys(body)) {\n    const value = body[key];\n    if (isIsoDateString(value)) body[key] = parseISO(value);\n    else if (typeof value === &quot;object&quot;) handleDates(value);\n  }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Babri",
+        "link": "https://stackoverflow.com/users/2923642/babri"
+      }
+    },
+    {
+      "answer_id": 53294310,
+      "body": "<p>I may have found a way much simpler to handle this : use <a href=\"https://axios-http.com/docs/interceptors\" rel=\"noreferrer\">axios.interceptors.response.eject()</a> to disable the interceptor when I call the /api/refresh_token endpoint, and re-enable it after.</p>\n<p>The code :</p>\n<pre class=\"lang-js prettyprint-override\"><code>/**\n * Wrap the interceptor in a function, so that it can be re-instantiated\n */\nfunction createAxiosResponseInterceptor() {\n    const interceptor = axios.interceptors.response.use(\n        (response) =&gt; response,\n        (error) =&gt; {\n            // Reject promise if usual error\n            if (error.response.status !== 401) {\n                return Promise.reject(error);\n            }\n\n            /*\n             * When response code is 401, try to refresh the token.\n             * Eject the interceptor so it doesn't loop in case\n             * token refresh causes the 401 response.\n             *\n             * Must be re-attached later on or the token refresh will only happen once\n             */\n            axios.interceptors.response.eject(interceptor);\n\n            return axios\n                .post(&quot;/api/refresh_token&quot;, {\n                    refresh_token: this._getToken(&quot;refresh_token&quot;),\n                })\n                .then((response) =&gt; {\n\n                    saveToken();\n                    error.response.config.headers[&quot;Authorization&quot;] =\n                        &quot;Bearer &quot; + response.data.access_token;\n                    // Retry the initial call, but with the updated token in the headers. \n                    // Resolves the promise if successful\n                    return axios(error.response.config);\n                })\n                .catch((error2) =&gt; {\n                    // Retry failed, clean up and reject the promise\n                    destroyToken();\n                    this.router.push(&quot;/login&quot;);\n                    return Promise.reject(error2);\n                })\n                .finally(createAxiosResponseInterceptor); // Re-attach the interceptor by running the method\n        }\n    );\n}\ncreateAxiosResponseInterceptor(); // Execute the method once during start\n</code></pre>\n<p>Above code will:</p>\n<ul>\n<li>intercept calls which are returned with a https status code 401</li>\n<li>eject the interceptor, preventing infinite loop</li>\n<li>Fetch a new token</li>\n<li>duplicate and modify the initial request, by replacing the old with the new token</li>\n<li>retry the initial request with the new token in the header</li>\n<li>re-attach the interceptor after the retry request, regardless of the outcome.</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Ismoil  Shifoev",
+        "link": "https://stackoverflow.com/users/2801588/ismoil-shifoev"
+      }
+    },
+    {
+      "answer_id": 50326744,
+      "body": "<p>Fetch and Axios are very similar in functionality, but for more backwards compatibility Axios seems to work better (fetch doesn't work in IE 11 for example, check <a href=\"https://stackoverflow.com/questions/37258632/react-fetch-not-working-in-ie11\">this post</a>)</p>\n<p>Also, if you work with JSON requests, the following are some differences I stumbled upon with.</p>\n<p><strong>Fetch JSON post request</strong></p>\n<pre><code>let url = 'https://someurl.com';\nlet options = {\n            method: 'POST',\n            mode: 'cors',\n            headers: {\n                'Accept': 'application/json',\n                'Content-Type': 'application/json;charset=UTF-8'\n            },\n            body: JSON.stringify({\n                property_one: value_one,\n                property_two: value_two\n            })\n        };\nlet response = await fetch(url, options);\nlet responseOK = response &amp;&amp; response.ok;\nif (responseOK) {\n    let data = await response.json();\n    // do something with data\n}\n</code></pre>\n<p><strong>Axios JSON post request</strong></p>\n<pre><code>let url = 'https://someurl.com';\nlet options = {\n            method: 'POST',\n            url: url,\n            headers: {\n                'Accept': 'application/json',\n                'Content-Type': 'application/json;charset=UTF-8'\n            },\n            data: {\n                property_one: value_one,\n                property_two: value_two\n            }\n        };\nlet response = await axios(options);\nlet responseOK = response &amp;&amp; response.status === 200 &amp;&amp; response.statusText === 'OK';\nif (responseOK) {\n    let data = await response.data;\n    // do something with data\n}\n</code></pre>\n<p>So:</p>\n<ul>\n<li>Fetch's <strong>body</strong> = Axios' <strong>data</strong></li>\n<li>Fetch's body has to be <strong>stringified</strong>, Axios' data contains the <strong>object</strong></li>\n<li>Fetch <strong>has no url</strong> in request object, Axios <strong>has url</strong> in request object</li>\n<li>Fetch request function includes the <strong>url as parameter</strong>, Axios request function <strong>does not include the url as parameter</strong>.</li>\n<li>Fetch request is <strong>ok</strong> when response object contains the <strong>ok property</strong>, Axios request is <strong>ok</strong> when <strong>status is 200</strong> and <strong>statusText is 'OK'</strong></li>\n<li>To get the json object response: in fetch call the <strong>json() function</strong> on the response object, in Axios get <strong>data property</strong> of the response object.</li>\n</ul>\n",
+      "owner": {
+        "display_name": "c-chavez",
+        "link": "https://stackoverflow.com/users/1042409/c-chavez"
+      }
+    },
+    {
+      "answer_id": 31758005,
+      "body": "<p>You have to do the following:</p>\n<pre class=\"lang-js prettyprint-override\"><code>var querystring = require('querystring');\n//...\naxios.post(authServerUrl + token_access_path,\n    querystring.stringify({\n            username: 'abcd', //gave the values directly for testing\n            password: '1235!',\n            client_id: 'user-client'\n    }), {\n      headers: { \n        &quot;Content-Type&quot;: &quot;application/x-www-form-urlencoded&quot;\n      }\n    }).then(function(response) {\n        console.log(response);\n    });\n</code></pre>\n<p>Update:\nIf you are using es6, change the import to\n<code>import qs from 'qs';</code></p>\n",
+      "owner": {
+        "display_name": "cperez",
+        "link": "https://stackoverflow.com/users/5179851/cperez"
+      }
+    },
+    {
+      "answer_id": 47218004,
+      "body": "<p>I got it working with the following code:</p>\n<pre><code>import axios from 'axios';\nimport config from '../../configuration.json';\nimport qs from 'qs';\n\nconst baseURL = config['baseUrl_local'];\nlet authTokenRequest;\n\n/**\n  * @description axios instance for ajax requests\n*/ \n\nvar client = axios.create({\n    baseURL: baseURL,\n    headers: {\n        appID: 8,\n        version: &quot;1.1.0&quot;,\n        empID: localStorage.getItem('empID'),\n        token: localStorage.getItem('accessToken')\n    }\n});\n\n/**\n * @description this method calls a requestNewToken method to issue a \n new token to the client\n*/ \n\n function getAuthToken() {\n   if (!authTokenRequest) {\n     authTokenRequest = requestNewToken();\n     authTokenRequest.then(resetAuthTokenRequest, resetAuthTokenRequest);\n   }\n\n   return authTokenRequest;\n }\n\n/**\n  * @description this method requests the server to issue a new token, \n  the server response is updated in local storage accessToken\n*/ \n\nfunction requestNewToken() {\n  var newToken = request({\n  method: &quot;post&quot;,\n  url: '/sign-in',\n  data:  qs.stringify({\n         &quot;userName&quot;:localStorage.getItem('userName'),\n         &quot;password&quot;:localStorage.getItem('password')\n         })  \n  }).then((res)=&gt;{\n  if(res.status == &quot;success&quot;){\n    localStorage.setItem('accessToken',res.data.accessToken);\n    //if featureArray is present in response object, update the \n    featureArray in local storage\n    if(res.data.features){\n      localStorage.setItem(\n      'featureArray',\n     JSON.stringify(res.data.features));\n    }\n    client = axios.create({\n     baseURL: baseURL,\n     headers: {\n          appID: 8,\n          version: &quot;1.1.0&quot;,\n          empID: localStorage.getItem('empID'),\n          token: localStorage.getItem('accessToken')\n      }\n   });\n } else {\n  window.location = &quot;/logout&quot;;\n }\n});\n\n return newToken;\n}\n\nfunction resetAuthTokenRequest() {\n  authTokenRequest = null;\n }\n\n/**\n  * @description if any of the API gets 401 status code, this method \n   calls getAuthToken method to renew accessToken\n  * updates the error configuration and retries all failed requests \n  again\n*/ \n\nclient.interceptors.response.use(undefined, err =&gt; {\n  const error = err.response;\n  // if error is 401 \n  if (error.status===401 &amp;&amp; error.config &amp;&amp; \n  !error.config.__isRetryRequest) {\n  // request for a new token\n  return getAuthToken().then(response =&gt; {\n   // update the error config with new token\n   error.config.__isRetryRequest = true;\n   error.config.headers.token= localStorage.getItem(&quot;accessToken&quot;);\n   return client(error.config);\n  });\n } \n});\n\n/**\n * @description wrapper for making ajax requests\n * @param {object} object with method,url,data etc.\n*/ \n\nconst request = function(options) {\n  const onSuccess = function(response) {\n    return response.data;\n  }\n const onError = function(error) {\n  //console.error('Request Failed:', error.config);\n   if (error.response) {\n  //console.error('Status:',  error.response.status);\n  //console.error('Data:',    error.response.data);\n  //console.error('Headers:', error.response.headers);\n  } else {\n  console.error('Error Message:', error.message);\n  }\n return Promise.reject(error.response || error.message);\n }\n\nreturn client(options)\n        .then(onSuccess)\n        .catch(onError);\n        options\n}\n\nexport default request;\n</code></pre>\n<p>[EDIT] Its 2019, Here is yet another implementation for the same. The above solution is great but does not work well with multiple failed request, in turn it calls getToken with the updated token as well.</p>\n<pre><code> import axios from &quot;axios&quot;;\n\n /* @internal */\n import config from &quot;../config&quot;;\n import TokenService from &quot;./token_service&quot;; // Could You please provide code from this file too?\n\nclass Request {\n    constructor() {\n        this.baseURL = config.baseUrl;\n        this.isRefreshing = false;\n        this.failedRequests = [];\n        this.tokenService = new TokenService();\n        this.client = axios.create({\n            baseURL: config.apiServerBaseUrl,\n            headers: {\n               clientSecret: this.clientSecret,\n            },\n        });\n        this.beforeRequest = this.beforeRequest.bind(this);\n        this.onRequestFailure = this.onRequestFailure.bind(this);\n        this.processQueue = this.processQueue.bind(this);\n        this.client.interceptors.request.use(this.beforeRequest);\n        this.client.interceptors.response.use(this.onRequestSuccess, \nthis.onRequestFailure);\n}\n\nbeforeRequest(request) {\n    const token = TokenService.getAccessToken();\n    request.headers.Authorization = `Token ${token}`;\n    return request;\n}\n\nstatic onRequestSuccess(response) {\n    return response.data;\n}\n\nasync onRequestFailure(err) {\n    const { response } = err;\n    if (response.status === 401 &amp;&amp; err &amp;&amp; err.config &amp;&amp; !err.config.__isRetryRequest) {\n        if (this.isRefreshing) {\n            try {\n                const token = await new Promise((resolve, reject) =&gt; {\n                    this.failedRequests.push({ resolve, reject });\n                });\n                err.config.headers.Authorization = `Bearer ${token}`;\n                return this.client(err.config);\n            }\n            catch (e) {\n                return e;\n            }\n        }\n        this.isRefreshing = true;\n        err.config.__isRetryRequest = true;\n        return new Promise((resolve, reject) =&gt; {\n            this.tokenService.refreshAccessToken().then((token) =&gt; {\n                this.tokenService.setAccessToken(token);\n                err.config.headers.Authorization = `Bearer ${token}`;\n                this.isRefreshing = false;\n                this.processQueue(null, token);\n                resolve(this.client(err.config));\n            }).catch((e) =&gt; {\n                this.processQueue(e, null);\n                reject(err.response);\n            });\n        });\n    }\n    throw response;\n}\n\nprocessQueue(error, token = null) {\n    this.failedRequests.forEach((prom) =&gt; {\n        if (error) {\n            prom.reject(error);\n        } else {\n            prom.resolve(token);\n        }\n       });\n        this.failedRequests = [];\n    }\n\n}\n\nconst request = new Request();\n\nexport default request.client;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Amir Saleem",
+        "link": "https://stackoverflow.com/users/6289362/amir-saleem"
+      }
+    },
+    {
+      "answer_id": 76031705,
+      "body": "<p>You can utilize the <a href=\"https://usehooks.com/useDebounce/\" rel=\"noreferrer\">useDebounce</a> hook to trigger a <code>queryKey</code> update in react-query instead of using the <code>debounce</code> function from the Underscore library.</p>\n<p>For example:</p>\n<pre><code>const [searchParams, setSearchParams] = useDebounce([category_id, sortPrice, minPrice, maxPrice, page, categoryFilters], 1000)\nconst productsQuery = useQuery({ queryKey: ['products', ...searchParams], queryFn: fetchProducts, keepPreviousData: true, staleTime: 1000 });\n\n</code></pre>\n<p><code>useDebounce</code> is applied to the searchParams array, which includes variables like category_id, sortPrice, minPrice, maxPrice, page, and categoryFilters.</p>\n<p>The debounce delay is set to 1000 milliseconds (1 second). The productsQuery then uses the debounced search parameters in its query key, ensuring that the <code>fetchProducts</code> function is only called when the debounced search parameters change.</p>\n<p>You can find a working <code>useDebounce</code> example in this <a href=\"https://codesandbox.io/s/ted8o\" rel=\"noreferrer\">codesandbox example</a></p>\n",
+      "owner": {
+        "display_name": "Cody Chang",
+        "link": "https://stackoverflow.com/users/13896680/cody-chang"
+      }
+    },
+    {
+      "answer_id": 68111112,
+      "body": "<p>The query function that you pass to react-query gets a queryContext injected, which is an object that consists of the queryKey (and some more information if you are using an infinite query). So yes, one correct way to access dependencies is through the queryKey:</p>\n<pre><code>export const getProduct = async ({ queryKey }) =&gt; {\n    const [_, prodId] = queryKey\n    const { data } = await axios.get(`/api/v1/products/${prodId}`)\n    return data\n}\nconst { data } = useQuery(['product', prodId], getProduct)\n</code></pre>\n<p>Another way is to use inline anonymous functions, which is well documented in the docs in: <a href=\"https://tanstack.com/query/v4/docs/vue/guides/query-keys#if-your-query-function-depends-on-a-variable-include-it-in-your-query-key\" rel=\"noreferrer\">If your query function depends on a variable, include it in your query key</a></p>\n<pre><code>export const getProduct = async (prodId) =&gt; {\n    const { data } = await axios.get(`/api/v1/products/${prodId}`)\n    return data\n}\nconst { data } = useQuery(['product', prodId], () =&gt; getProduct(prodId))\n</code></pre>\n",
+      "owner": {
+        "display_name": "TkDodo",
+        "link": "https://stackoverflow.com/users/8405310/tkdodo"
+      }
+    },
+    {
+      "answer_id": 44239543,
+      "body": "<p>There is an &quot;auth&quot; parameter for Basic Auth:</p>\n<pre class=\"lang-js prettyprint-override\"><code>auth: {\n  username: 'janedoe',\n  password: 's00pers3cret'\n}\n</code></pre>\n<p>Source/Docs: <a href=\"https://github.com/mzabriskie/axios\" rel=\"noreferrer\">https://github.com/mzabriskie/axios</a></p>\n<p>Example:</p>\n<pre class=\"lang-js prettyprint-override\"><code>await axios.post(session_url, {}, {\n  auth: {\n    username: uname,\n    password: pass\n  }\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "andyrandy",
+        "link": "https://stackoverflow.com/users/757508/andyrandy"
+      }
+    },
+    {
+      "answer_id": 50364961,
+      "body": "<p>I solved this by overriding the default <code>Content-Type</code>:</p>\n<pre><code>const config = { headers: {'Content-Type': 'application/json'} };\naxios.put(url, content, config).then(response =&gt; {\n    ...\n});\n</code></pre>\n<p>Based on my experience, the default <code>Content-Type</code> is <code>application/x-www-form-urlencoded</code> for strings, and <code>application/json</code> for objects (including arrays). Your server probably expects JSON.</p>\n",
+      "owner": {
+        "display_name": "nagy.zsolt.hun",
+        "link": "https://stackoverflow.com/users/1977315/nagy-zsolt-hun"
+      }
+    },
+    {
+      "answer_id": 43052288,
+      "body": "<p>There are multiple ways to achieve this. Here, I have explained the two most common approaches.</p>\n<p>1. You can use <a href=\"https://github.com/axios/axios#interceptors\" rel=\"noreferrer\">axios interceptors</a> to intercept any requests and add authorization headers.</p>\n<pre><code>// Add a request interceptor\naxios.interceptors.request.use(function (config) {\n    const token = store.getState().session.token;\n    config.headers.Authorization =  token;\n     \n    return config;\n});\n</code></pre>\n<p>2. From the <a href=\"https://github.com/mzabriskie/axios#global-axios-defaults\" rel=\"noreferrer\">documentation</a> of <code>axios</code> you can see there is a mechanism available which allows you to set default header which will be sent with every request you make.</p>\n<pre><code>axios.defaults.headers.common['Authorization'] = AUTH_TOKEN;\n</code></pre>\n<p>So in your case:</p>\n<pre><code>axios.defaults.headers.common['Authorization'] = store.getState().session.token;\n</code></pre>\n<p>If you want, you can create a self-executable function which will set authorization header itself when the token is present in the store.</p>\n<pre><code>(function() {\n     String token = store.getState().session.token;\n     if (token) {\n         axios.defaults.headers.common['Authorization'] = token;\n     } else {\n         axios.defaults.headers.common['Authorization'] = null;\n         /*if setting null does not remove `Authorization` header then try     \n           delete axios.defaults.headers.common['Authorization'];\n         */\n     }\n})();\n</code></pre>\n<p>Now you no longer need to attach token manually to every request. You can place the above function in the file which is guaranteed to be executed every time (<strong>e.g:</strong> File which contains the routes).</p>\n",
+      "owner": {
+        "display_name": "Hardik Modha",
+        "link": "https://stackoverflow.com/users/4248342/hardik-modha"
+      }
+    },
+    {
+      "answer_id": 54573024,
+      "body": "<p>From this <a href=\"https://github.com/axios/axios/issues/647\" rel=\"noreferrer\">axios issue</a> (Thanks to <strong>zhuyifan2013</strong> for giving the solution), I've found that <strong>axios</strong> <code>timeout</code> is <em>response timeout</em> not <em>connection timeout</em>.</p>\n<p>Let say you've requested the URL through <strong>axios</strong> and server is taking long time to respond, in this case the <strong>axios</strong> timeout will work.</p>\n<p>But you don't have internet connection or the IP address or domain name that you're requesting not there, in this case <strong>axios</strong> timeout will not work.</p>\n<p>You have to use one of the <a href=\"https://axios-http.com/docs/cancellation\" rel=\"noreferrer\">axios cancellation methods</a> - <code>cancelToken</code> example:</p>\n<pre><code>const source = CancelToken.source();\nconst timeout = setTimeout(() =&gt; {\n  source.cancel();\n  // Timeout Logic\n}, 10000);\n\naxios.get(ip + '/config', {cancelToken: source.token}).then((result) =&gt; {\n  // Clear The Timeout\n  clearTimeout(timeout);\n\n  // Handle your response\n});\n</code></pre>\n<p>Please note that if you've valid connection, still the <strong>Timeout Logic</strong> block will get executed. So you've to clear the <code>timeout</code>.</p>\n",
+      "owner": {
+        "display_name": "arthankamal",
+        "link": "https://stackoverflow.com/users/1866077/arthankamal"
+      }
+    },
+    {
+      "answer_id": 57995963,
+      "body": "<p>According to the README, it is 0 which means no timeout</p>\n<pre class=\"lang-js prettyprint-override\"><code>// `timeout` specifies the number of milliseconds before the request times out.\n// If the request takes longer than `timeout`, the request will be aborted.\ntimeout: 1000, // default is `0` (no timeout)\n</code></pre>\n<p><a href=\"https://github.com/axios/axios/blob/master/README.md#request-config\" rel=\"noreferrer\">https://github.com/axios/axios/blob/master/README.md#request-config</a></p>\n",
+      "owner": {
+        "display_name": "ChrisG",
+        "link": "https://stackoverflow.com/users/1128441/chrisg"
+      }
+    },
+    {
+      "answer_id": 64076585,
+      "body": "<p><a href=\"https://www.npmjs.com/package/axios-retry\" rel=\"noreferrer\">axios-retry</a> uses axios <a href=\"https://github.com/axios/axios#interceptors\" rel=\"noreferrer\">interceptor</a> to retry HTTP requests. It intercepts requests or responses before they are handled by then or catch.\nBelow is the working code snippet.</p>\n<pre><code>const axios = require('axios');\nconst axiosRetry = require('axios-retry');\n\naxiosRetry(axios, {\n    retries: 3, // number of retries\n    retryDelay: (retryCount) =&gt; {\n        console.log(`retry attempt: ${retryCount}`);\n        return retryCount * 2000; // time interval between retries\n    },\n    retryCondition: (error) =&gt; {\n        // if retry condition is not specified, by default idempotent requests are retried\n        return error.response.status === 503;\n    },\n});\n \nasync function makeHTTPCall() {\n    const response = await axios({\n        method: 'GET',\n        url: 'https://httpstat.us/503',\n    }).catch((err) =&gt; {\n        if (err.response.status !== 200) {\n            throw new Error(`API call failed with status code: ${err.response.status} after 3 retry attempts`);\n        }\n    });\n}\n\nmakeHTTPCall();\n</code></pre>\n",
+      "owner": {
+        "display_name": "ns15",
+        "link": "https://stackoverflow.com/users/6563567/ns15"
+      }
+    },
+    {
+      "answer_id": 65184375,
+      "body": "<p>You could use <code>provide</code>/<code>inject</code> or define a global config property, which replaces <code>Vue.prototype</code> in Vue 3:</p>\n<h2>1. <a href=\"https://v3-migration.vuejs.org/breaking-changes/global-api.html#provide-inject\" rel=\"noreferrer\"><code>provide</code>/<code>inject</code></a> (for Composition or Options API)</h2>\n<p><strong>Provide</strong></p>\n<pre class=\"lang-js prettyprint-override\"><code>import axios from 'axios';\n\nconst app = Vue.createApp(App);\napp.provide('$axios', axios);  // Providing to all components during app creation\n</code></pre>\n<p><strong>Inject</strong></p>\n<p><em>Composition API:</em></p>\n<pre class=\"lang-js prettyprint-override\"><code>const { inject } = Vue;\n...\nsetup() {\n  const $axios = inject('$axios');   // injecting in a component that wants it\n  // $axios.get(...)\n}\n</code></pre>\n<p><em>Options API:</em></p>\n<pre class=\"lang-js prettyprint-override\"><code>inject: ['$axios'],   // injecting in a component that wants it\n</code></pre>\n<h2>2. <a href=\"https://v3-migration.vuejs.org/breaking-changes/global-api.html#vue-prototype-replaced-by-config-globalproperties\" rel=\"noreferrer\">Global config</a> (for Options API)</h2>\n<pre class=\"lang-js prettyprint-override\"><code>import axios from 'axios';\n\nconst app = Vue.createApp(App);\napp.config.globalProperties.$axios = axios;\n</code></pre>\n<p><em>Options API:</em></p>\n<pre><code>this.$axios\n</code></pre>\n<p><sup>Note: This is only for the Options API.  Evan You (Vue creator) <a href=\"https://github.com/vuejs/vue-next/issues/1074#issuecomment-621427943\" rel=\"noreferrer\">says</a>: &quot;<em><code>config.globalProperties</code> are meant as an escape hatch for replicating the behavior of <code>Vue.prototype</code>. In <code>setup</code> functions, simply import what you need or explicitly use <code>provide</code>/<code>inject</code> to expose properties to app.</em>&quot;</sup></p>\n",
+      "owner": {
+        "display_name": "Dan",
+        "link": "https://stackoverflow.com/users/2185093/dan"
+      }
+    },
+    {
+      "answer_id": 43208627,
+      "body": "<p>From the <a href=\"https://github.com/mzabriskie/axios#request-config\" rel=\"noreferrer\">Request Config</a> section of the axios documentation:</p>\n<blockquote>\n<pre class=\"lang-js prettyprint-override\"><code>  // `params` are the URL parameters to be sent with the request\n  // Must be a plain object or a URLSearchParams object\n  params: {\n    ID: 12345\n  },\n</code></pre>\n</blockquote>\n<p>To use this in a request, you would do</p>\n<pre class=\"lang-js prettyprint-override\"><code>const request = {\n  params: {\n    foo: [5, 2, 11]\n  }\n}\naxios.get('http://example.com/', request);\n</code></pre>\n<p>The issue with using a plain object is that array parameters are added as</p>\n<pre class=\"lang-none prettyprint-override\"><code>http://example.com/?foo[]=5&amp;foo[]=2&amp;foo[]=11\n</code></pre>\n<p>To make a request to a URL without the <code>[]</code>, use <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams\" rel=\"noreferrer\"><code>URLSearchParams</code></a></p>\n<pre class=\"lang-js prettyprint-override\"><code>var params = new URLSearchParams();\nparams.append(&quot;foo&quot;, 5);\nparams.append(&quot;foo&quot;, 2);\nparams.append(&quot;foo&quot;, 11);\nvar request = {\n  params: params\n};\naxios.get('http://example.com/', request);\n</code></pre>\n<p>This will result in a request to</p>\n<pre class=\"lang-none prettyprint-override\"><code>http://example.com/?foo=5&amp;foo=2&amp;foo=11\n</code></pre>\n",
+      "owner": {
+        "display_name": "nhydock",
+        "link": "https://stackoverflow.com/users/1968689/nhydock"
+      }
+    },
+    {
+      "answer_id": 60250115,
+      "body": "<p>I was exporting the function incorrectly from the NextJS API file.</p>\n<p>Correct method:\n<code>export default apiNewSession;</code></p>\n<p>Not sure why it still happened when when i was exporting the function by default.</p>\n",
+      "owner": {
+        "display_name": "Valentin",
+        "link": "https://stackoverflow.com/users/6314425/valentin"
+      }
+    },
+    {
+      "answer_id": 48255887,
+      "body": "<p>Non-simple CORS requests via AJAX are pre-flighted. Read more about it <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#Preflighted_requests\" rel=\"nofollow noreferrer\">here</a>. This is a browser behavior and nothing specific to axios. There's nothing inherently wrong with this behavior and if it's working for you, you can just leave it.</p>\n<p>If you insist on getting rid of it, there are a few ways you can go about:</p>\n<ol>\n<li><p>You can set <code>Access-Control-Allow-Origin: *</code> on your server to disable CORS.</p>\n</li>\n<li><p>Make your CORS request a simple one. You will have to change the <code>Content-Type</code> header to <code>application/x-www-form-urlencoded</code>, <code>multipart/form-data</code>, or <code>text/plain</code>. Not <code>application/json</code>.</p>\n</li>\n</ol>\n<p>I'd say just leave it as it is if the <code>OPTIONS</code> request is not blocking you.</p>\n",
+      "owner": {
+        "display_name": "Yangshun Tay",
+        "link": "https://stackoverflow.com/users/1751946/yangshun-tay"
+      }
+    },
+    {
+      "answer_id": 47477644,
+      "body": "<p>You'll want to <a href=\"https://github.com/axios/axios#creating-an-instance\" rel=\"noreferrer\">create a new instance of Axios</a> with a custom config for each API you want that has a distinct <code>baseURL</code>.</p>\n<pre><code>var instance = axios.create({\n  baseURL: 'https://example.com/api/',\n  timeout: 1000,\n  headers: {'X-Custom-Header': 'foobar'}\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "PatrickSteele",
+        "link": "https://stackoverflow.com/users/182895/patricksteele"
+      }
+    },
+    {
+      "answer_id": 48990696,
+      "body": "<p>You should use an <a href=\"https://github.com/axios/axios#interceptors\" rel=\"noreferrer\">interceptor</a>.</p>\n<p>First, create an axios instance using the <code>create</code> method. This is what you would need to use throughout your app instead of referencing <code>axios</code> directly. It would look something like this:</p>\n<pre><code>let api = axios.create({\n  baseURL: 'https://example.com/api/',\n  timeout: 1000,\n  headers: {'X-Custom-Header': 'foobar'}\n});\n</code></pre>\n<p>Then attach an interceptor to your axios instance to be called after the response to each of the requests for that instance:</p>\n<pre><code>api.interceptors.response.use((response) =&gt; response, (error) =&gt; {\n  // whatever you want to do with the error\n  throw error;\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "thanksd",
+        "link": "https://stackoverflow.com/users/2678454/thanksd"
+      }
+    },
+    {
+      "answer_id": 38353346,
+      "body": "<p><strike>Axios does not support canceling requests at the moment. Please see <a href=\"https://github.com/mzabriskie/axios/issues/333\" rel=\"noreferrer\">this issue</a> for details.</strike></p>\n<p><strike>UPDATE: <a href=\"https://github.com/mzabriskie/axios#cancellation\" rel=\"noreferrer\">Cancellation support</a> was added in axios v0.15.</strike></p>\n<p><strike>EDIT: The axios cancel token API is based on the withdrawn cancelable promises proposal.</strike></p>\n<p>UPDATE 2022: Starting from v0.22.0 <a href=\"https://github.com/axios/axios#abortcontroller\" rel=\"noreferrer\">Axios supports AbortController</a> to cancel requests in fetch API way:</p>\n<p>Example:</p>\n<pre class=\"lang-js prettyprint-override\"><code>const controller = new AbortController();\n\naxios.get('/foo/bar', {\n   signal: controller.signal\n}).then(function(response) {\n   //...\n});\n// cancel the request\ncontroller.abort()\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nick Uraltsev",
+        "link": "https://stackoverflow.com/users/6218152/nick-uraltsev"
+      }
+    },
+    {
+      "answer_id": 62217859,
+      "body": "<p>There is <a href=\"https://github.com/axios/axios/blob/7d6bddba2d8de29c263feaef4c40daa50cb4b176/index.d.ts#L146\" rel=\"noreferrer\">generic <code>get</code> method defined in <strong>axios/index.d.ts</strong></a></p>\n<pre class=\"lang-js prettyprint-override\"><code>get&lt;T = never, R = AxiosResponse&lt;T&gt;&gt;(url: string, config?: AxiosRequestConfig&lt;T&gt;): Promise&lt;R&gt;;\n</code></pre>\n<p><em>Example</em></p>\n<pre class=\"lang-js prettyprint-override\"><code>interface User {\n    id: number;\n    firstName: string;\n}\n\n\naxios.get&lt;User[]&gt;('http://localhost:8080/admin/users')\n        .then(response =&gt; {\n            console.log(response.data);\n            setUserList( response.data );\n        });\n</code></pre>\n<p>I think you are passing list the wrong way to child component.</p>\n<pre class=\"lang-js prettyprint-override\"><code>const [users, setUserList] = useState&lt;User[]&gt;([]);\n</code></pre>\n<pre><code>&lt;UserList items={users} /&gt;\n</code></pre>\n<pre class=\"lang-js prettyprint-override\"><code>interface UserListProps {\n    items: User[];\n};\n</code></pre>\n<pre class=\"lang-js prettyprint-override\"><code>const UserList: React.FC&lt;UserListProps&gt; = ({items}) =&gt; {\n    return (\n        &lt;Fragment&gt;\n            &lt;ul&gt;\n            {items.map(user =&gt; (\n                &lt;li key={user.id}&gt;\n                    &lt;span&gt;{user.firstName}&lt;/span&gt;\n                &lt;/li&gt;\n            ))}\n            &lt;/ul&gt;\n        &lt;/Fragment&gt;\n    );\n};\n</code></pre>\n",
+      "owner": {
+        "display_name": "J&#243;zef Podlecki",
+        "link": "https://stackoverflow.com/users/2304474/j%c3%b3zef-podlecki"
+      }
+    },
+    {
+      "answer_id": 61269447,
+      "body": "<p>Actually, I believe the previously accepted answer has some flaws, as it will not handle the writestream properly, so if you call &quot;then()&quot; after Axios has given you the response, you will end up having a partially downloaded file.</p>\n<p>This is a more appropriate solution when downloading slightly larger files:</p>\n<pre><code>export async function downloadFile(fileUrl: string, outputLocationPath: string) {\n  const writer = createWriteStream(outputLocationPath);\n\n  return Axios({\n    method: 'get',\n    url: fileUrl,\n    responseType: 'stream',\n  }).then(response =&gt; {\n\n    //ensure that the user can call `then()` only when the file has\n    //been downloaded entirely.\n\n    return new Promise((resolve, reject) =&gt; {\n      response.data.pipe(writer);\n      let error = null;\n      writer.on('error', err =&gt; {\n        error = err;\n        writer.close();\n        reject(err);\n      });\n      writer.on('close', () =&gt; {\n        if (!error) {\n          resolve(true);\n        }\n        //no need to call the reject here, as it will have been called in the\n        //'error' stream;\n      });\n    });\n  });\n}\n</code></pre>\n<p>This way, you can call <code>downloadFile()</code>, call <code>then()</code> on the returned promise, and making sure that the downloaded file will have completed processing.</p>\n<p>Or, if you use a more modern version of NodeJS, you can try this instead:</p>\n<pre><code>import * as stream from 'stream';\nimport { promisify } from 'util';\n\nconst finished = promisify(stream.finished);\n\nexport async function downloadFile(fileUrl: string, outputLocationPath: string): Promise&lt;any&gt; {\n  const writer = createWriteStream(outputLocationPath);\n  return Axios({\n    method: 'get',\n    url: fileUrl,\n    responseType: 'stream',\n  }).then(response =&gt; {\n    response.data.pipe(writer);\n    return finished(writer); //this is a Promise\n  });\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "csotiriou",
+        "link": "https://stackoverflow.com/users/737457/csotiriou"
+      }
+    },
+    {
+      "answer_id": 56018874,
+      "body": "<p>There is an <s>open</s> issue on <a href=\"https://github.com/axios/axios/issues/2072\" rel=\"noreferrer\">axios's github page</a>.</p>\n<p>The issue is labeled as bug from 31 Mar and <s>is not resolved yet</s>.</p>\n<p>So it seems you are not cursed, just a bug in axios.</p>\n<p>You may add your details to that thread in order to dev team prioritize this issue.</p>\n<p>In case you cannot wait for this issue to be resolved, you may consider using <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API\" rel=\"noreferrer\">fetch API</a> like @Sumi Straessle proposed in the comments.</p>\n",
+      "owner": {
+        "display_name": "leopal",
+        "link": "https://stackoverflow.com/users/9381897/leopal"
+      }
+    },
+    {
+      "answer_id": 39258614,
+      "body": "<p>This Q&amp;A is from 2016, and unsurprisingly I believe things have changed. The answer continues to receive upvotes, so I'm going to add in new information from other answers but leave the original answers as well.</p>\n<p>Let me know in the comments which solution works for you.</p>\n<h3>Option 1. Set the default headers</h3>\n<p>In the file where you're importing Axios, set the default headers:</p>\n<pre class=\"lang-js prettyprint-override\"><code>import axios from 'axios';\naxios.defaults.xsrfHeaderName = &quot;X-CSRFTOKEN&quot;;\naxios.defaults.xsrfCookieName = &quot;csrftoken&quot;;\n</code></pre>\n<h3>Option 2. Add it manually to the Axios call</h3>\n<p>Let's say you've got the value of the token stored in a variable called <code>csrfToken</code>. Set the headers in your axios call:</p>\n<pre><code>// ...\nmethod: 'post',\nurl: '/api/data',\ndata: {...},\nheaders: {&quot;X-CSRFToken&quot;: csrfToken},\n// ...\n</code></pre>\n<h3>Option 3. Setting <code>xsrfHeaderName</code> in the call:</h3>\n<p>Add this:</p>\n<pre><code>// ...\nmethod: 'post',\nurl: '/api/data',\ndata: {...},\nxsrfHeaderName: &quot;X-CSRFToken&quot;,\n// ...\n</code></pre>\n<p>Then in your <code>settings.py</code> file, add this line:</p>\n<pre><code>CSRF_COOKIE_NAME = &quot;XSRF-TOKEN&quot;\n</code></pre>\n<p><strong>Edit</strong> (<em>June 10, 2017</em>): User @yestema says that it works slightly different with Safari<sup><a href=\"https://stackoverflow.com/a/44479078/6172657\">[2]</a></sup></p>\n<p><strong>Edit</strong> (<em>April 17, 2019</em>): User @GregHolst says that the Safari solution above does not work for him. Instead, he used the above Solution #3 for Safari 12.1 on MacOS Mojave. (<em>from comments</em>)</p>\n<p><strong>Edit</strong> (<em>February 17, 2019</em>): You might also need to set<sup><a href=\"https://stackoverflow.com/a/54734106/6172657\">[3]</a></sup>:</p>\n<pre><code>axios.defaults.withCredentials = true\n</code></pre>\n<p>Things I tried that didn't work: <a href=\"https://gist.github.com/paltman/490049a64fa4115a2cea\" rel=\"noreferrer\">1</a></p>\n",
+      "owner": {
+        "display_name": "Reed Dunkle",
+        "link": "https://stackoverflow.com/users/6172657/reed-dunkle"
+      }
+    },
+    {
+      "answer_id": 53304135,
+      "body": "<p>I believe this is the simplest example:</p>\n<pre><code>header := w.Header()\nheader.Add(&quot;Access-Control-Allow-Origin&quot;, &quot;*&quot;)\nheader.Add(&quot;Access-Control-Allow-Methods&quot;, &quot;DELETE, POST, GET, OPTIONS&quot;)\nheader.Add(&quot;Access-Control-Allow-Headers&quot;, &quot;Content-Type, Authorization, X-Requested-With&quot;)\n</code></pre>\n<p>You can also add a header for <code>Access-Control-Max-Age</code> and of course you can allow any headers and methods that you wish.</p>\n<p>Finally you want to respond to the initial request:</p>\n<pre><code>if r.Method == &quot;OPTIONS&quot; {\n    w.WriteHeader(http.StatusOK)\n    return\n}\n</code></pre>\n<p>Edit (June 2019):  We now use <a href=\"https://github.com/gorilla/handlers\" rel=\"noreferrer\">gorilla</a> for this.  Their stuff is more actively maintained and they have been doing this for a really long time.  Leaving the link to the old one, just in case.</p>\n<p><em>Old Middleware Recommendation below:</em>\nOf course it would probably be easier to just use middleware for this.  I don't think I've used it, but <a href=\"https://github.com/rs/cors\" rel=\"noreferrer\">this one</a> seems to come highly recommended.</p>\n",
+      "owner": {
+        "display_name": "trey-jones",
+        "link": "https://stackoverflow.com/users/1375316/trey-jones"
+      }
+    },
+    {
+      "answer_id": 43178070,
+      "body": "<p>You can use <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/withCredentials\" rel=\"noreferrer\"><code>withCredentials</code></a> property.</p>\n<p>XMLHttpRequest from a different domain cannot set cookie values for their own domain unless withCredentials is set to true before making the request.</p>\n<pre><code>axios.get(BASE_URL + '/todos', { withCredentials: true });\n</code></pre>\n<p>Also its possible to force credentials to every Axios requests</p>\n<pre><code>axios.defaults.withCredentials = true\n</code></pre>\n<p>Or using credentials for some of the Axios requests as the following code</p>\n<pre><code>const instance = axios.create({\n   withCredentials: true,\n   baseURL: BASE_URL\n})\ninstance.get('/todos')\n</code></pre>\n",
+      "owner": {
+        "display_name": "fingerpich",
+        "link": "https://stackoverflow.com/users/2128151/fingerpich"
+      }
+    },
+    {
+      "answer_id": 47005575,
+      "body": "<p>The <code>getAllPeople</code> function already returns the data or error message from your <code>axios</code> call. So, in <code>componentDidMount</code>, you need to check the return value of your call to <code>getAllPeople</code> to decide whether it was an error or valid data that was returned.</p>\n<pre><code>componentDidMount() {\n   getAllPeople().then(response =&gt; {\n      if(response!=error) //error is the error object you can get from the axios call\n         this.setState(() =&gt; ({ people: response}));\n      else { // your error handling goes here\n       }\n    });\n  } \n</code></pre>\n<p>If you want to return a promise from your api, you should not resolve the promise returned by your <code>axios</code> call in the api. Instead you can do the following:</p>\n<pre><code>export function getAllPeople() {\n  return axios.get(&quot;/api/getAllPeople&quot;);\n}\n</code></pre>\n<p>Then you can resolve in <code>componentDidMount</code>.</p>\n<pre><code>componentDidMount() {\n   getAllPeople()\n   .then(response =&gt; {          \n         this.setState(() =&gt; ({ people: response.data}));\n     })\n   .catch(error =&gt; { \n         // your error handling goes here\n     }\n  } \n</code></pre>\n",
+      "owner": {
+        "display_name": "palsrealm",
+        "link": "https://stackoverflow.com/users/2345964/palsrealm"
+      }
+    },
+    {
+      "answer_id": 70221291,
+      "body": "<p>Use AxiosError to cast error</p>\n<pre><code>import  { AxiosError } from 'axios';\n\ncatch (error) {\n  const err = error as AxiosError\n  console.log(err.response?.data)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Shaik Matheen",
+        "link": "https://stackoverflow.com/users/5280834/shaik-matheen"
+      }
+    },
+    {
+      "answer_id": 64917837,
+      "body": "<p>Items in data like your tickets are made into observable objects. This is to allow reactivity (automatically re-rendering the UI and other features). This is expected and the returned object should behave just like the array.</p>\n<p>Check out the reactivity docs because you need to interact with arrays in a specific pattern or it will not update on the ui: <a href=\"https://v3.vuejs.org/guide/reactivity-fundamentals.html\" rel=\"noreferrer\">https://v3.vuejs.org/guide/reactivity-fundamentals.html</a></p>\n<p>If you do not want to have reactivity - maybe you never update tickets on the client and just want to display them - you can use Object.freeze() on response.data;</p>\n",
+      "owner": {
+        "display_name": "Joseph Connolly",
+        "link": "https://stackoverflow.com/users/1409310/joseph-connolly"
+      }
+    },
+    {
+      "answer_id": 52947618,
+      "body": "<p>You could include this interceptor code in the same place you have access to the redux store directly. Maybe in the file that you create your redux store (index.js)?</p>\n<p>With that in place, you can dispatch the action directly from the redux store like that:</p>\n<pre><code>import reduxStore from './store';\n\nimport App from './components/App';\n\nconst router = (\n  &lt;Provider store={reduxStore}&gt;\n    &lt;Router&gt;\n      &lt;Route path=&quot;/&quot; component={App}/&gt;\n    &lt;/Router&gt;\n  &lt;/Provider&gt;\n);\n\n/** Intercept any unauthorized request.\n* dispatch logout action accordingly **/\nconst UNAUTHORIZED = 401;\nconst {dispatch} = reduxStore; // direct access to redux store.\naxios.interceptors.response.use(\n  response =&gt; response,\n  error =&gt; {\n    const {status} = error.response;\n    if (status === UNAUTHORIZED) {\n      dispatch(userSignOut());\n    }\n   return Promise.reject(error);\n }\n);\n\nrender(router, document.getElementById('app-root'));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Bruno Paulino",
+        "link": "https://stackoverflow.com/users/2301092/bruno-paulino"
+      }
+    },
+    {
+      "answer_id": 44617848,
+      "body": "<p>When using Axios, in order to pass custom headers, supply an object containing the headers as the last argument</p>\n<p>Modify your Axios request like:</p>\n<pre class=\"lang-js prettyprint-override\"><code>const headers = {\n  'Content-Type': 'application/json',\n  'Authorization': 'JWT fefege...'\n}\n\naxios.post(Helper.getUserAPI(), data, {\n    headers: headers\n  })\n  .then((response) =&gt; {\n    dispatch({\n      type: FOUND_USER,\n      data: response.data[0]\n    })\n  })\n  .catch((error) =&gt; {\n    dispatch({\n      type: ERROR_FINDING_USER\n    })\n  })\n</code></pre>\n",
+      "owner": {
+        "display_name": "Shubham Khatri",
+        "link": "https://stackoverflow.com/users/5928186/shubham-khatri"
+      }
+    },
+    {
+      "answer_id": 52737325,
+      "body": "<p>To talk in simple terms, it is more of a checkpoint for every HTTP action. Every API call that has been made, is passed through this interceptor.</p>\n<p><strong>So, why two interceptors?</strong></p>\n<p>An API call is made up of two halves, a request, and a response. Since it behaves like a checkpoint, the request and the response have separate interceptors.</p>\n<p><strong>Some request interceptor use cases -</strong></p>\n<p>Assume you want to check before making a request if your credentials are valid. So, instead of actually making an API call, you can check at the interceptor level that your credentials are valid.</p>\n<p>Assume you need to attach a token to every request made, instead of duplicating the token addition logic at every Axios call, you can make an interceptor that attaches a token on every request that is made.</p>\n<p><strong>Some response interceptor use cases -</strong></p>\n<p>Assume you got a response, and judging by the API responses you want to deduce that the user is logged in. So, in the response interceptor, you can initialize a class that handles the user logged in state and update it accordingly on the response object you received.</p>\n<p>Assume you have requested some API with valid API credentials, but you do not have the valid role to access the data. So, you can trigger an alert from the response interceptor saying that the user is not allowed. This way you'll be saved from the unauthorized API error handling that you would have to perform on every Axios request that you made.</p>\n<p>Here are some code examples</p>\n<p><strong>The request interceptor</strong></p>\n<ul>\n<li><p>One can print the configuration object of axios (if need be) by doing (in this case, by checking the environment variable):</p>\n<pre class=\"lang-js prettyprint-override\"><code>const DEBUG = process.env.NODE_ENV === &quot;development&quot;;\n\naxios.interceptors.request.use((config) =&gt; {\n    /** In dev, intercepts request and logs it into console for dev */\n    if (DEBUG) { console.info(&quot;✉️ &quot;, config); }\n    return config;\n}, (error) =&gt; {\n    if (DEBUG) { console.error(&quot;✉️ &quot;, error); }\n    return Promise.reject(error);\n});\n</code></pre>\n</li>\n<li><p>If one wants to check what headers are being passed/add any more generic headers, it is available in the <code>config.headers</code> object. For example:</p>\n<pre class=\"lang-js prettyprint-override\"><code>axios.interceptors.request.use((config) =&gt; {\n    config.headers.genericKey = &quot;someGenericValue&quot;;\n    return config;\n}, (error) =&gt; {\n    return Promise.reject(error);\n});\n</code></pre>\n</li>\n<li><p>In case it's a <code>GET</code> request, the query parameters being sent can be found in <code>config.params</code> object.</p>\n</li>\n</ul>\n<p><strong>The response interceptor</strong></p>\n<ul>\n<li><p>You can even <strong>optionally</strong> parse the API response at the interceptor level and pass the parsed response down instead of the original response. It might save you the time of writing the parsing logic again and again in case the API is used in the same way in multiple places. One way to do that is by passing an extra parameter in the <code>api-request</code> and use the same parameter in the response interceptor to perform your action. For example:</p>\n<pre class=\"lang-js prettyprint-override\"><code>//Assume we pass an extra parameter &quot;parse: true&quot; \naxios.get(&quot;/city-list&quot;, { parse: true });\n</code></pre>\n<p>Once, in the response interceptor, we can use it like:</p>\n<pre class=\"lang-js prettyprint-override\"><code>axios.interceptors.response.use((response) =&gt; {\n    if (response.config.parse) {\n        //perform the manipulation here and change the response object\n    }\n    return response;\n}, (error) =&gt; {\n    return Promise.reject(error.message);\n});\n</code></pre>\n<p>So, in this case, whenever there is a <code>parse</code> object in <code>response.config</code>, the manipulation is done, for the rest of the cases, it'll work as-is.</p>\n</li>\n<li><p>You can even view the arriving <code>HTTP</code> codes and then make the decision. For example:</p>\n<pre class=\"lang-js prettyprint-override\"><code>axios.interceptors.response.use((response) =&gt; {\n    if(response.status === 401) {\n         alert(&quot;You are not authorized&quot;);\n    }\n    return response;\n}, (error) =&gt; {\n    if (error.response &amp;&amp; error.response.data) {\n        return Promise.reject(error.response.data);\n    }\n    return Promise.reject(error.message);\n});\n</code></pre>\n</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Aseem Upadhyay",
+        "link": "https://stackoverflow.com/users/5120092/aseem-upadhyay"
+      }
+    },
+    {
+      "answer_id": 53040878,
+      "body": "<p>I'm thinking the createReadStream is your issue because its async. try this.\nSince createReadStream extends the event emitter, we can &quot;listen&quot; for when it finishes/ends.</p>\n<pre><code>var newFile = fs.createReadStream(file.path);\n\n// personally I'd function out the inner body here and just call \n// to the function and pass in the newFile\nnewFile.on('end', function() {\n  const form_data = new FormData();\n  form_data.append(&quot;file&quot;, newFile, &quot;filename.ext&quot;);\n  const request_config = {\n    method: &quot;post&quot;,\n    url: url,\n    headers: {\n        &quot;Authorization&quot;: &quot;Bearer &quot; + access_token,\n        &quot;Content-Type&quot;: &quot;multipart/form-data&quot;\n    },\n    data: form_data\n  };\n  return axios(request_config);\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "james emanon",
+        "link": "https://stackoverflow.com/users/1054992/james-emanon"
+      }
+    },
+    {
+      "answer_id": 49938734,
+      "body": "<p>You cant <code>await</code> something outside <code>async</code> scope. To get expected result you should wrap your <code>console.log</code> into async IIFE i.e</p>\n<pre><code>async function getData() {\n  return await axios.get('https://jsonplaceholder.typicode.com/posts');\n}\n\n(async () =&gt; {\n  console.log(await getData())\n})()\n</code></pre>\n<p><a href=\"https://jsfiddle.net/vfjzkerj/232/\" rel=\"noreferrer\"><code>Working</code></a> sample.</p>\n<p>More information about <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/async_function\" rel=\"noreferrer\"><code>async/await</code></a></p>\n<p>Since <code>axios</code> returns a promise the <code>async/await</code> can be omitted for the <code>getData</code> function like so:</p>\n<pre><code>function getData() {\n  return axios.get('https://jsonplaceholder.typicode.com/posts');\n}\n</code></pre>\n<p>and then do same as we did before</p>\n<pre><code>(async () =&gt; {\n   console.log(await getData())\n})()\n</code></pre>\n",
+      "owner": {
+        "display_name": "The Reason",
+        "link": "https://stackoverflow.com/users/4419834/the-reason"
+      }
+    },
+    {
+      "answer_id": 42507767,
+      "body": "<p>From <a href=\"https://github.com/mzabriskie/axios#using-applicationx-www-form-urlencoded-format\" rel=\"noreferrer\">the documentation</a> (I haven't preserved links in the quoted material):</p>\n<blockquote>\n<h1>Using application/x-www-form-urlencoded format</h1>\n<p>By default, axios serializes JavaScript objects to JSON.</p>\n</blockquote>\n<p>PHP doesn't support JSON as a data format for populating <code>$_POST</code>.</p>\n<p>It only supports the machine-processable formats <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#attr-enctype\" rel=\"noreferrer\">natively supported by HTML forms</a>:</p>\n<ul>\n<li>application/x-www-form-urlencoded</li>\n<li>multipart/form-data</li>\n</ul>\n<blockquote>\n<p>To send data in the application/x-www-form-urlencoded format instead, you can use\none of the following options.</p>\n<h2>Browser</h2>\n<p>In a browser, you can use the URLSearchParams API as follows:</p>\n<pre><code>var params = new URLSearchParams();\nparams.append('param1', 'value1');\nparams.append('param2', 'value2');\naxios.post('/foo', params); \n</code></pre>\n<p>Note that URLSearchParams is not supported by all browsers, but there\nis a polyfill available (make sure to polyfill the global\nenvironment).</p>\n<p>Alternatively, you can encode data using the qs library:</p>\n<pre><code>var qs = require('qs');\naxios.post('/foo', qs.stringify({ 'bar': 123 }));\n</code></pre>\n</blockquote>\n<p>Or you could customise your PHP so it can handle JSON as per <a href=\"https://stackoverflow.com/a/19007851/19068\">this answer</a> on another question.</p>\n",
+      "owner": {
+        "display_name": "Quentin",
+        "link": "https://stackoverflow.com/users/19068/quentin"
+      }
+    },
+    {
+      "answer_id": 67338647,
+      "body": "<p>The async function consumes a &quot;payload&quot; argument, and secondly a <code>thunkAPI</code> object that contains a <code>getState</code> method.</p>\n<p><a href=\"https://redux-toolkit.js.org/api/createAsyncThunk#payloadcreator\" rel=\"noreferrer\">payloadCreator</a></p>\n<blockquote>\n<p><code>thunkAPI</code>: an object containing all of the parameters that are normally\npassed to a Redux thunk function, as well as additional options:</p>\n<ul>\n<li><code>dispatch</code>: the Redux store <code>dispatch</code> method</li>\n<li><strong><code>getState</code>: the Redux store <code>getState</code> method</strong></li>\n<li><code>extra</code>: the &quot;extra argument&quot; given to the thunk middleware on setup, if available</li>\n<li><code>requestId</code>: a unique string ID value that was automatically generated to identify this request sequence</li>\n<li><code>signal</code>: an <code>AbortController.signal</code> object that may be used to see if another part of the app logic has marked this request as needing\ncancelation.</li>\n<li><code>rejectWithValue</code>: rejectWithValue is a utility function that you can return in your action creator to return a rejected response with a\ndefined payload. It will pass whatever value you give it and return it\nin the payload of the rejected action.</li>\n</ul>\n</blockquote>\n<pre><code>// AsyncThunk: getUserDetails\nexport const getUserDetails = createAsyncThunk(\n  &quot;userDetails/getUserDetails&quot;,\n  async (arg, { getState }) =&gt; { // &lt;-- destructure getState method\n    const state = getState(); // &lt;-- invoke and access state object\n    try {\n      const apiUrl = process.env.REACT_APP_URL;\n\n      var config = {\n        method: &quot;get&quot;,\n        url: `${apiUrl}/claimSet?UserName=${state.loginDetails.username}&amp;Password=${state.loginDetails.password}`,\n        headers: {\n          accept: &quot;application/json&quot;,\n        },\n      };\n\n      const response = await axios(config);\n      const data = await response.data;\n      return data;\n    } catch (error) {\n      console.log(error);\n    }\n  }\n);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Drew Reese",
+        "link": "https://stackoverflow.com/users/8690857/drew-reese"
+      }
+    },
+    {
+      "answer_id": 45017940,
+      "body": "<p>I used <a href=\"https://www.npmjs.com/package/axios-mock-adapter\" rel=\"noreferrer\">axios-mock-adapter</a>.\nIn this case the service is described in ./chatbot.\nIn the mock adapter you specify what to return when the API endpoint is consumed.</p>\n<pre><code>import axios from 'axios';\nimport MockAdapter from 'axios-mock-adapter';\nimport chatbot from './chatbot';\n\ndescribe('Chatbot', () =&gt; {\n    it('returns data when sendMessage is called', done =&gt; {\n        var mock = new MockAdapter(axios);\n        const data = { response: true };\n        mock.onGet('https://us-central1-hutoma-backend.cloudfunctions.net/chat').reply(200, data);\n\n        chatbot.sendMessage(0, 'any').then(response =&gt; {\n            expect(response).toEqual(data);\n            done();\n        });\n    });\n});\n</code></pre>\n<p>You can see it the whole example here:</p>\n<p>Service:\n<a href=\"https://github.com/lnolazco/hutoma-test/blob/master/src/services/chatbot.js\" rel=\"noreferrer\">https://github.com/lnolazco/hutoma-test/blob/master/src/services/chatbot.js</a></p>\n<p>Test:\n<a href=\"https://github.com/lnolazco/hutoma-test/blob/master/src/services/chatbot.test.js\" rel=\"noreferrer\">https://github.com/lnolazco/hutoma-test/blob/master/src/services/chatbot.test.js</a></p>\n",
+      "owner": {
+        "display_name": "Luis Nolazco",
+        "link": "https://stackoverflow.com/users/5619081/luis-nolazco"
+      }
+    },
+    {
+      "answer_id": 53585725,
+      "body": "<p>Old question but chiming in for those who land here. No expert. Please consult with your local security gurus and what not.</p>\n<p>Axios is an http(s) client and http clients usually participate in TLS anonymously. In other words, the server accepts their connection without identifying who is trying to connect. This is different then say, Mutual TLS where both the server and client verify each other before completing the handshake.</p>\n<p>The internet is a scary place and we want to protect our clients from connecting to spoofed public endpoints. We do this by ensuring our clients identify the server before sending any private data.</p>\n<pre><code>// DO NOT DO THIS IF SHARING PRIVATE DATA WITH SERVICE\nconst httpsAgent = new https.Agent({ rejectUnauthorized: false });\n</code></pre>\n<p>This is often posted (and more egregiously upvoted) as the answer on StackOverflow regarding https client connection failures in any language. And what's worse is that it usually works, unblocks the dev and they move on their merry way. However, while they certainly get in the door, whose door is it? Since they opted out of verifying the server's identity, their poor client has no way of knowing if the connection they just made to the company's intranet has bad actors listening on the line.</p>\n<p>If the service has a public SSL cert, the <code>https.Agent</code> usually does not need to be configured further because your operating system provides a common set of publicly trusted CA certs. This is usually the same set of CA certs your browser is configured to use and is why a default axios client can hit <a href=\"https://google.com\" rel=\"noreferrer\">https://google.com</a> with little fuss.</p>\n<p>If the service has a private SSL cert (self signed for testing purposes or one signed by your company's private CA to protect their internal secrets), the https agent must be configured to trust the private CA used to sign the server cert:</p>\n<pre><code>const httpsAgent = new https.Agent({ ca: MY_CA_BUNDLE });\n</code></pre>\n<p>where <code>MY_CA_BUNDLE</code> is an array of CA certs with both the server cert for the endpoint you want to hit and that cert's complete cert chain in <code>.pem</code> format. You must include all certs in the chain up to the trust root.</p>\n<hr />\n<h3>Where are these options documented?</h3>\n<blockquote>\n<p>HTTPS is the HTTP protocol over TLS/SSL. In Node.js this is implemented as a separate module.</p>\n</blockquote>\n<p>Therefore options passed to the <code>https.Agent</code> are a merge of the options passed to <a href=\"https://nodejs.org/api/tls.html#tls_tls_connect_options_callback\" rel=\"noreferrer\"><code>tls.connect()</code></a> and <a href=\"https://nodejs.org/api/tls.html#tls_tls_createsecurecontext_options\" rel=\"noreferrer\"><code>tls.createSecureContext()</code></a>.</p>\n",
+      "owner": {
+        "display_name": "srquinn",
+        "link": "https://stackoverflow.com/users/1396172/srquinn"
+      }
+    },
+    {
+      "answer_id": 47630754,
+      "body": "<p>You can post axios data by using <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/FormData\" rel=\"noreferrer\">FormData()</a> like:</p>\n<pre class=\"lang-js prettyprint-override\"><code>var bodyFormData = new FormData();\n</code></pre>\n<p>And then add the fields to the form you want to send:</p>\n<pre class=\"lang-js prettyprint-override\"><code>bodyFormData.append('userName', 'Fred');\n</code></pre>\n<p>If you are uploading images, you may want to use <code>.append</code></p>\n<pre class=\"lang-js prettyprint-override\"><code>bodyFormData.append('image', imageFile); \n</code></pre>\n<p>And then you can use axios post method (You can amend it accordingly)</p>\n<pre class=\"lang-js prettyprint-override\"><code>axios({\n  method: &quot;post&quot;,\n  url: &quot;myurl&quot;,\n  data: bodyFormData,\n  headers: { &quot;Content-Type&quot;: &quot;multipart/form-data&quot; },\n})\n  .then(function (response) {\n    //handle success\n    console.log(response);\n  })\n  .catch(function (response) {\n    //handle error\n    console.log(response);\n  });\n</code></pre>\n<p>Related GitHub issue:</p>\n<p><a href=\"https://github.com/axios/axios/issues/318\" rel=\"noreferrer\">Can't get a .post with 'Content-Type': 'multipart/form-data' to work @ axios/axios</a></p>\n",
+      "owner": {
+        "display_name": "Aaqib",
+        "link": "https://stackoverflow.com/users/6748913/aaqib"
+      }
+    },
+    {
+      "answer_id": 52549519,
+      "body": "<p>Try this out!</p>\n<pre><code>axios.get('your_url', {withCredentials: true}); //for GET\naxios.post('your_url', data, {withCredentials: true}); //for POST\naxios.put('your_url', data, {withCredentials: true}); //for PUT\naxios.delete('your_url', data, {withCredentials: true}); //for DELETE\n</code></pre>\n<p>For more information on this from the axios docs:</p>\n<p>&quot;withCredentials indicates whether or not cross-site Access-Control requests should be made using credentials&quot; - <a href=\"https://github.com/axios/axios\" rel=\"noreferrer\">https://github.com/axios/axios</a></p>\n<p>More detail on withCredentials:</p>\n<p><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/withCredentials\" rel=\"noreferrer\">https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/withCredentials</a></p>\n",
+      "owner": {
+        "display_name": "Aaron",
+        "link": "https://stackoverflow.com/users/6661301/aaron"
+      }
+    },
+    {
+      "answer_id": 65867020,
+      "body": "<p>After many days finally I got a solution . Instead of using CORS simply like this</p>\n<p><code>const cors = require('cors');</code></p>\n<p><code>app.use(cors());</code></p>\n<p>in your server index.js using CORS option will solve the issue and now you can pass cookies or other credentials</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>const cors = require('cors');\nconst corsOptions ={\n    origin:'http://localhost:3000', \n    credentials:true,            //access-control-allow-credentials:true\n    optionSuccessStatus:200\n}\napp.use(cors(corsOptions));</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "VASU TIWARI",
+        "link": "https://stackoverflow.com/users/14476792/vasu-tiwari"
+      }
+    },
+    {
+      "answer_id": 46404151,
+      "body": "<p><a href=\"https://github.com/mzabriskie/axios#request-config\" rel=\"noreferrer\"><strong>Axios API</strong></a> is a bit different from the jQuery AJAX one. If you have to pass some params along with GET request, you need to use <code>params</code> property of <code>config</code> object (the second param of <code>.get()</code> method):</p>\n<pre><code>axios.get('/api/updatecart', {\n  params: {\n    product: this.product\n  }\n}).then(...)\n</code></pre>\n<p>You can pass either a plain object or a URLSearchParams object as <code>params</code> value.</p>\n<p>Note that here we're talking about params appended to URL (query params), which is explicitly mentioned in the documentation.</p>\n<p>If you want to send something within request <strong>body</strong> with GET requests, <code>params</code> won't work - and neither will <code>data</code>, as it's only taken into account for PUT, POST, DELETE, and PATCH requests. There're <a href=\"https://github.com/axios/axios/pull/1912\" rel=\"noreferrer\">several</a> <a href=\"https://github.com/axios/axios/issues/787\" rel=\"noreferrer\">lengthy</a> <a href=\"https://github.com/rotki/rotki/issues/576\" rel=\"noreferrer\">discussions</a> about this feature, and here's the telling quote:</p>\n<blockquote>\n<p>Unfortunately, this doesn't seem to be an axios problem. The problem\nseems to lie on the http client implementation in the browser\njavascript engine.</p>\n<p>According to the documentation and the spec <strong>XMLHttpRequest ignores the\nbody of the request in case the method is GET</strong>. If you perform a\nrequest in Chrome/Electron with XMLHttpRequest and you try to put a\njson body in the send method this just gets ignored.</p>\n<p>Using fetch which is the modern replacement for XMLHtppRequest also\nseems to fail in Chrome/Electron.</p>\n</blockquote>\n<p>Until it's fixed, the only option one has within a browser is to use POST/PUT requests when data just doesn't fit into that query string. Apparently, that option is only available if corresponding API can be modified.</p>\n<p>However, the most prominent case of GET-with-body - ElasticSearch <code>_search</code> API - actually does support both GET and POST; the latter seems to be far less known fact than it should be. Here's the <a href=\"https://stackoverflow.com/questions/12195017/different-result-when-using-get-post-in-elastic-search\">related SO discussion</a>.</p>\n",
+      "owner": {
+        "display_name": "raina77ow",
+        "link": "https://stackoverflow.com/users/1229023/raina77ow"
+      }
+    },
+    {
+      "answer_id": 64738852,
+      "body": "<p>First of all nest.js provides you HttpService out of the box that you may inject it through DI:\n<a href=\"https://docs.nestjs.com/techniques/http-module\" rel=\"noreferrer\">https://docs.nestjs.com/techniques/http-module</a></p>\n<p>Second - you are trying to store whole response object which is complex data structure and contains circular dependencies as it stated in error message (TypeError: Converting circular structure to JSON)</p>\n<p>What you should do is either you map the data you need instead of storing whole circular object,</p>\n<p>or you should look up to some libs that could parse circular json: <a href=\"https://www.npmjs.com/package/flatted\" rel=\"noreferrer\">https://www.npmjs.com/package/flatted</a></p>\n",
+      "owner": {
+        "display_name": "LuckyLuke",
+        "link": "https://stackoverflow.com/users/8223031/luckyluke"
+      }
+    },
+    {
+      "answer_id": 61588558,
+      "body": "<p>There are three cases via you can achieve your goal.</p>\n<ol>\n<li><p>For simultaneous requests with Axios, you can use <code>Axios.all()</code></p>\n<pre><code> axios.all([\n   axios.post(`/my-url`, {\n     myVar: 'myValue'\n   }), \n   axios.post(`/my-url2`, {\n     myVar: 'myValue'\n   })\n ])\n .then(axios.spread((data1, data2) =&gt; {\n   // output of req.\n   console.log('data1', data1, 'data2', data2)\n }));\n</code></pre>\n</li>\n<li><p>you can use <code>Promise.allSettled()</code>. The Promise.allSettled() method returns a promise that resolves after all of the given promises have either resolved or rejected,</p>\n</li>\n<li><p>You can try to use <code>Promise.all()</code> but it has the drawback that if any <strong>1</strong> req failed then it will fail for all and give o/p as an error(or in catch block)</p>\n</li>\n</ol>\n<p>but the best case is the first one.</p>\n",
+      "owner": {
+        "display_name": "Harsh Patel",
+        "link": "https://stackoverflow.com/users/7844349/harsh-patel"
+      }
+    },
+    {
+      "answer_id": 53263784,
+      "body": "<p>Here is a brief summary of the formats required to send various http verbs with axios:</p>\n<ul>\n<li><p><code>GET</code>: Two ways</p>\n<ul>\n<li><p>First method</p>\n<pre class=\"lang-js prettyprint-override\"><code>axios.get('/user?ID=12345')\n  .then(function (response) {\n    // Do something\n  })\n</code></pre>\n</li>\n<li><p>Second method</p>\n<pre class=\"lang-js prettyprint-override\"><code>axios.get('/user', {\n    params: {\n      ID: 12345\n    }\n  })\n  .then(function (response) {\n    // Do something\n  })\n</code></pre>\n</li>\n</ul>\n<p><em>The two above are equivalent. Observe the <code>params</code> keyword in the second method.</em></p>\n</li>\n<li><p><code>POST</code> and <code>PATCH</code></p>\n<pre class=\"lang-js prettyprint-override\"><code>axios.post('any-url', payload).then(\n  // payload is the body of the request\n  // Do something\n)\n\naxios.patch('any-url', payload).then(\n  // payload is the body of the request\n  // Do something\n)\n</code></pre>\n</li>\n<li><p><code>DELETE</code></p>\n<pre class=\"lang-js prettyprint-override\"><code>axios.delete('url', { data: payload }).then(\n  // Observe the data keyword this time. Very important\n  // payload is the request body\n  // Do something\n)\n</code></pre>\n</li>\n</ul>\n<h2>Key take aways</h2>\n<ul>\n<li><code>get</code> requests optionally need a <code>params</code> key to properly set query parameters</li>\n<li><code>delete</code> requests with a body need it to be set under a <code>data</code> key</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Van_Paitin",
+        "link": "https://stackoverflow.com/users/5535989/van-paitin"
+      }
+    },
+    {
+      "answer_id": 48980526,
+      "body": "<p>The issue is that the original <code>axiosTest()</code> function isn't returning the promise. Here's an extended explanation for clarity:</p>\n<pre class=\"lang-js prettyprint-override\"><code>function axiosTest() {\n    // create a promise for the axios request\n    const promise = axios.get(url)\n\n    // using .then, create a new promise which extracts the data\n    const dataPromise = promise.then((response) =&gt; response.data)\n\n    // return it\n    return dataPromise\n}\n\n// now we can use that data from the outside!\naxiosTest()\n    .then(data =&gt; {\n        response.json({ message: 'Request received!', data })\n    })\n    .catch(err =&gt; console.log(err))\n</code></pre>\n<p>The function can be written more succinctly:</p>\n<pre class=\"lang-js prettyprint-override\"><code>function axiosTest() {\n    return axios.get(url).then(response =&gt; response.data)\n}\n</code></pre>\n<p>Or with async/await:</p>\n<pre class=\"lang-js prettyprint-override\"><code>async function axiosTest() {\n    const response = await axios.get(url)\n    return response.data\n}\n</code></pre>\n<ul>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises\" rel=\"noreferrer\">Guide on using promises</a></li>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function\" rel=\"noreferrer\">Info on async functions</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "kingdaro",
+        "link": "https://stackoverflow.com/users/1332403/kingdaro"
+      }
+    },
+    {
+      "answer_id": 63209280,
+      "body": "<p>Import <code>HttpModule</code> from <code>@nestjs/common</code> in <code>TimeModule</code> and add it to the <code>imports</code> array.</p>\n<p>Remove <code>HttpService</code> from the <code>providers</code> array in <code>TimeModule</code>. You can directly import it in the <code>TimeService</code>.</p>\n<pre><code>import { HttpModule } from '@nestjs/common';\n...\n\n@Module({\n    imports: [TerminalModule, HttpModule],\n    providers: [TimeService],\n    ...\n})\n</code></pre>\n<p>TimeService:</p>\n<pre><code>import { HttpService } from '@nestjs/common';\n</code></pre>\n<p>If your response type is an <code>Observable</code> of type <code>AxiosResponse</code>, then import these two as well in the service file <code>TimeService</code>.</p>\n<pre><code>import { Observable } from 'rxjs';\nimport { AxiosResponse } from 'axios';\n</code></pre>\n<p>For reference, check out <a href=\"https://docs.nestjs.com/techniques/http-module\" rel=\"noreferrer\">http-module</a> and this <a href=\"https://stackoverflow.com/questions/52859515/nestjs-using-axios\">post</a>.</p>\n",
+      "owner": {
+        "display_name": "Kartik Chauhan",
+        "link": "https://stackoverflow.com/users/6352772/kartik-chauhan"
+      }
+    },
+    {
+      "answer_id": 46661023,
+      "body": "<p>Try the following</p>\n<pre><code>delete axios.defaults.headers.common[&quot;Authorization&quot;];\n// or which ever header you have to remove\n</code></pre>\n",
+      "owner": {
+        "display_name": "Apurva jain",
+        "link": "https://stackoverflow.com/users/5782329/apurva-jain"
+      }
+    },
+    {
+      "answer_id": 60461828,
+      "body": "<p>From <a href=\"https://github.com/axios/axios#request-config\" rel=\"noreferrer\">axios docs</a>:</p>\n<blockquote>\n<pre class=\"lang-js prettyprint-override\"><code>// `responseType` indicates the type of data that the server will respond with\n// options are: 'arraybuffer', 'document', 'json', 'text', 'stream'\n//   browser only: 'blob'\nresponseType: 'json', // default\n</code></pre>\n</blockquote>\n<h3><code>'blob'</code> is a &quot;browser only&quot; option.</h3>\n<p>So from node.js, when you set <code>responseType: &quot;blob&quot;</code>, <code>&quot;json&quot;</code>will actually be used, which I guess fallbacks to <code>&quot;text&quot;</code> when no parse-able JSON data has been fetched.</p>\n<p>Fetching binary data as text is prone to generate corrupted data.\nBecause the text returned by <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Body/text\" rel=\"noreferrer\">Body.text()</a> and many other APIs are <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/USVString\" rel=\"noreferrer\">USVStrings</a> (they don't allow unpaired surrogate codepoints ) and because the response is decoded as UTF-8, some bytes from the binary file can't be mapped to characters correctly and will thus be replaced by � (U+FFDD) replacement character, with no way to get back what that data was before: your data is corrupted.</p>\n<p>Here is a snippet explaining this, using the header of a .png file <code>0x89 0x50 0x4E 0x47</code> as an example.</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"true\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code snippet-currently-hidden\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>(async () =&gt; {\n\n  const url = 'https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png';\n  // fetch as binary\n  const buffer = await fetch( url ).then(resp =&gt; resp.arrayBuffer());\n\n  const header = new Uint8Array( buffer ).slice( 0, 4 );\n  console.log( 'binary header', header ); // [ 137, 80, 78, 61 ]\n  console.log( 'entity encoded', entityEncode( header ) );\n  // [ \"U+0089\", \"U+0050\", \"U+004E\", \"U+0047\" ]\n  // You can read more about  (U+0089) character here\n  // https://www.fileformat.info/info/unicode/char/0089/index.htm\n  // You can see in the left table how this character in UTF-8 needs two bytes (0xC2 0x89)\n  // We thus can't map this character correctly in UTF-8 from the UTF-16 codePoint,\n  // it will get discarded by the parser and converted to the replacement character\n  \n  // read as UTF-8 \n  const utf8_str = await new Blob( [ header ] ).text();\n  console.log( 'read as UTF-8', utf8_str ); // \"�PNG\"\n  // build back a binary array from that string\n  const utf8_binary = [ ...utf8_str ].map( char =&gt; char.charCodeAt( 0 ) );\n  console.log( 'Which is binary', utf8_binary ); // [ 65533, 80, 78, 61 ]\n  console.log( 'entity encoded', entityEncode( utf8_binary ) );\n  // [ \"U+FFDD\", \"U+0050\", \"U+004E\", \"U+0047\" ]\n  // You can read more about character � (U+FFDD) here\n  // https://www.fileformat.info/info/unicode/char/0fffd/index.htm\n  //\n  // P (U+0050), N (U+004E) and G (U+0047) characters are compatible between UTF-8 and UTF-16\n  // For these there is no encoding lost\n  // (that's how base64 encoding makes it possible to send binary data as text)\n  \n  // now let's see what fetching as text holds\n  const fetched_as_text = await fetch( url ).then( resp =&gt; resp.text() );\n  const header_as_text = fetched_as_text.slice( 0, 4 );\n  console.log( 'fetched as \"text\"', header_as_text ); // \"�PNG\"\n  const as_text_binary = [ ...header_as_text ].map( char =&gt; char.charCodeAt( 0 ) );\n  console.log( 'Which is binary', as_text_binary ); // [ 65533, 80, 78, 61 ]\n  console.log( 'entity encoded', entityEncode( as_text_binary ) );\n  // [ \"U+FFDD\", \"U+0050\", \"U+004E\", \"U+0047\" ]\n  // It's been read as UTF-8, we lost the first byte.\n  \n})();\n\nfunction entityEncode( arr ) {\n  return Array.from( arr ).map( val =&gt; 'U+' + toHex( val ) );\n}\nfunction toHex( num ) {\n  return num.toString( 16 ).padStart(4, '0').toUpperCase();\n}</code></pre>\r\n</div>\r\n</div>\r\n</p>\n<hr />\n<p>There is natively no Blob object in node.js, so it makes sense axios didn't monkey-patch it just so they can return a response no-one else would be able to consume anyway.</p>\n<p>From a browser, you'd have exactly the same responses:</p>\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"true\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code snippet-currently-hidden\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>function fetchAs( type ) {\n  return axios( {\n    method: 'get',\n    url: 'https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png',\n    responseType: type\n  } );\n}\n\nfunction loadImage( data, type ) {\n  // we can all pass them to the Blob constructor directly\n  const new_blob = new Blob( [ data ], { type: 'image/jpg' } );\n  // with blob: URI, the browser will try to load 'data' as-is\n  const url = URL.createObjectURL( new_blob );\n  \n  img = document.getElementById( type + '_img' );\n  img.src = url;\n  return new Promise( (res, rej) =&gt; { \n    img.onload = e =&gt; res(img);\n    img.onerror = rej;\n  } );\n}\n\n[\n  'json', // will fail\n  'text', // will fail\n  'arraybuffer',\n  'blob'\n].forEach( type =&gt;\n  fetchAs( type )\n   .then( resp =&gt; loadImage( resp.data, type ) )\n   .then( img =&gt; console.log( type, 'loaded' ) )\n   .catch( err =&gt; console.error( type, 'failed' ) )\n);</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://unpkg.com/axios/dist/axios.min.js\"&gt;&lt;/script&gt;\n\n&lt;figure&gt;\n  &lt;figcaption&gt;json&lt;/figcaption&gt;\n  &lt;img id=\"json_img\"&gt;\n&lt;/figure&gt;\n&lt;figure&gt;\n  &lt;figcaption&gt;text&lt;/figcaption&gt;\n  &lt;img id=\"text_img\"&gt;\n&lt;/figure&gt;\n&lt;figure&gt;\n  &lt;figcaption&gt;arraybuffer&lt;/figcaption&gt;\n  &lt;img id=\"arraybuffer_img\"&gt;\n&lt;/figure&gt;\n&lt;figure&gt;\n  &lt;figcaption&gt;blob&lt;/figcaption&gt;\n  &lt;img id=\"blob_img\"&gt;\n&lt;/figure&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Kaiido",
+        "link": "https://stackoverflow.com/users/3702797/kaiido"
+      }
+    },
+    {
+      "answer_id": 42096508,
+      "body": "<p>Here's how I do file upload in react using axios</p>\n\n<pre><code>import React from 'react'\nimport axios, { post } from 'axios';\n\nclass SimpleReactFileUpload extends React.Component {\n\n  constructor(props) {\n    super(props);\n    this.state ={\n      file:null\n    }\n    this.onFormSubmit = this.onFormSubmit.bind(this)\n    this.onChange = this.onChange.bind(this)\n    this.fileUpload = this.fileUpload.bind(this)\n  }\n\n  onFormSubmit(e){\n    e.preventDefault() // Stop form submit\n    this.fileUpload(this.state.file).then((response)=&gt;{\n      console.log(response.data);\n    })\n  }\n\n  onChange(e) {\n    this.setState({file:e.target.files[0]})\n  }\n\n  fileUpload(file){\n    const url = 'http://example.com/file-upload';\n    const formData = new FormData();\n    formData.append('file',file)\n    const config = {\n        headers: {\n            'content-type': 'multipart/form-data'\n        }\n    }\n    return  post(url, formData,config)\n  }\n\n  render() {\n    return (\n      &lt;form onSubmit={this.onFormSubmit}&gt;\n        &lt;h1&gt;File Upload&lt;/h1&gt;\n        &lt;input type=\"file\" onChange={this.onChange} /&gt;\n        &lt;button type=\"submit\"&gt;Upload&lt;/button&gt;\n      &lt;/form&gt;\n   )\n  }\n}\n\n\n\nexport default SimpleReactFileUpload\n</code></pre>\n\n<p><a href=\"https://gist.github.com/AshikNesin/e44b1950f6a24cfcd85330ffc1713513\" rel=\"noreferrer\">Source</a></p>\n",
+      "owner": {
+        "display_name": "Ashik Nesin",
+        "link": "https://stackoverflow.com/users/5012005/ashik-nesin"
+      }
+    },
+    {
+      "answer_id": 45975479,
+      "body": "<p><s>If your backend support CORS, you probably need to add to your request this header:</s></p>\n\n<pre><code>headers: {\"Access-Control-Allow-Origin\": \"*\"}\n</code></pre>\n\n<p>[Update] <strong><em>Access-Control-Allow-Origin</em></strong> is a response header - so in order to enable CORS - you need to add this header to the response from your server.</p>\n\n<p>But for the most cases better solution would be configuring the <a href=\"http://www.pierre-beitz.eu/2017/01/24/Dealing-with-CORS-in-a-Development-Environment-Using-a-Reverse-Proxy.html\" rel=\"noreferrer\">reverse proxy</a>, so that your server would be able to redirect requests from the frontend to backend, without enabling CORS. </p>\n\n<p>You can find documentation about CORS mechanism here:\n<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS\" rel=\"noreferrer\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS</a> </p>\n",
+      "owner": {
+        "display_name": "Vlad Povalii",
+        "link": "https://stackoverflow.com/users/3880019/vlad-povalii"
+      }
+    },
+    {
+      "answer_id": 44185591,
+      "body": "<p>First off, not sure you want to do this in your <code>componentWillMount</code>, it's better to have it in <code>componentDidMount</code> and have some default states that will update once done with these requests. Second, you want to limit the number of setStates you write because they might cause additional re-renders, here is a solution using async/await:</p>\n\n<pre><code>async componentDidMount() {\n\n  // Make first two requests\n  const [firstResponse, secondResponse] = await Promise.all([\n    axios.get(`https://maps.googleapis.com/maps/api/geocode/json?&amp;address=${this.props.p1}`),\n    axios.get(`https://maps.googleapis.com/maps/api/geocode/json?&amp;address=${this.props.p2}`)\n  ]);\n\n  // Make third request using responses from the first two\n  const thirdResponse = await axios.get('https://maps.googleapis.com/maps/api/directions/json?origin=place_id:' + firstResponse.data.results.place_id + '&amp;destination=place_id:' + secondResponse.data.results.place_id + '&amp;key=' + 'API-KEY-HIDDEN');\n\n  // Update state once with all 3 responses\n  this.setState({\n    p1Location: firstResponse.data,\n    p2Location: secondResponse.data,\n    route: thirdResponse.data,\n  });\n\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Matt Aft",
+        "link": "https://stackoverflow.com/users/5442308/matt-aft"
+      }
+    },
+    {
+      "answer_id": 51600050,
+      "body": "<p><strong>Update Feb 13, 2019</strong></p>\n\n<p>As many people have been showing an interest in this topic, I've created the <a href=\"https://github.com/Flyrell/axios-auth-refresh\" rel=\"noreferrer\">axios-auth-refresh package</a> which should help you to achieve behaviour specified here.</p>\n\n<hr>\n\n<p>The key here is to return the correct Promise object, so you can use <code>.then()</code> for chaining. We can use Vuex's state for that. If the refresh call happens, we can not only set the <code>refreshing</code> state to <code>true</code>, we can also set the refreshing call to the one that's pending. This way using <code>.then()</code> will always be bound onto the right Promise object, and be executed when the Promise is done. Doing it so will ensure you don't need an extra queue for keeping the calls which are waiting for the token's refresh.</p>\n\n\n\n<pre class=\"lang-js prettyprint-override\"><code>function refreshToken(store) {\n    if (store.state.auth.isRefreshing) {\n        return store.state.auth.refreshingCall;\n    }\n    store.commit('auth/setRefreshingState', true);\n    const refreshingCall = Axios.get('get token').then(({ data: { token } }) =&gt; {\n        store.commit('auth/setToken', token)\n        store.commit('auth/setRefreshingState', false);\n        store.commit('auth/setRefreshingCall', undefined);\n        return Promise.resolve(true);\n    });\n    store.commit('auth/setRefreshingCall', refreshingCall);\n    return refreshingCall;\n}\n</code></pre>\n\n<p>This would always return either already created request as a Promise or create the new one and save it for the other calls. Now your interceptor would look similar to the following one.</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>Axios.interceptors.response.use(response =&gt; response, error =&gt; {\n    const status = error.response ? error.response.status : null\n\n    if (status === 401) {\n\n        return refreshToken(store).then(_ =&gt; {\n            error.config.headers['Authorization'] = 'Bearer ' + store.state.auth.token;\n            error.config.baseURL = undefined;\n            return Axios.request(error.config);\n        });\n    }\n\n    return Promise.reject(error);\n});\n</code></pre>\n\n<p>This will allow you to execute all the pending requests once again. But all at once, without any querying. </p>\n\n<hr>\n\n<p>If you want the pending requests to be executed in the order they were actually called, you need to pass the callback as a second parameter to the <code>refreshToken()</code> function, like so.</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>function refreshToken(store, cb) {\n    if (store.state.auth.isRefreshing) {\n        const chained = store.state.auth.refreshingCall.then(cb);\n        store.commit('auth/setRefreshingCall', chained);\n        return chained;\n    }\n    store.commit('auth/setRefreshingState', true);\n    const refreshingCall = Axios.get('get token').then(({ data: { token } }) =&gt; {\n        store.commit('auth/setToken', token)\n        store.commit('auth/setRefreshingState', false);\n        store.commit('auth/setRefreshingCall', undefined);\n        return Promise.resolve(token);\n    }).then(cb);\n    store.commit('auth/setRefreshingCall', refreshingCall);\n    return refreshingCall;\n}\n</code></pre>\n\n<p>And the interceptor:</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>Axios.interceptors.response.use(response =&gt; response, error =&gt; {\n    const status = error.response ? error.response.status : null\n\n    if (status === 401) {\n\n        return refreshToken(store, _ =&gt; {\n            error.config.headers['Authorization'] = 'Bearer ' + store.state.auth.token;\n            error.config.baseURL = undefined;\n            return Axios.request(error.config);\n        });\n    }\n\n    return Promise.reject(error);\n});\n</code></pre>\n\n<p>I haven't tested the second example, but it should work or at least give you an idea.</p>\n\n<p><a href=\"https://codesandbox.io/s/4030k6zy0x\" rel=\"noreferrer\">Working demo of first example</a> - because of the mock requests and demo version of service used for them, it will not work after some time, still, the code is there.</p>\n\n<p>Source: <a href=\"https://github.com/axios/axios/issues/266\" rel=\"noreferrer\">Interceptors - how to prevent intercepted messages to resolve as an error</a></p>\n",
+      "owner": {
+        "display_name": "Dawid Zbiński",
+        "link": "https://stackoverflow.com/users/3142408/dawid-zbi%c5%84ski"
+      }
+    },
+    {
+      "answer_id": 56868296,
+      "body": "<p>You are setting </p>\n\n<pre><code>'maxContentLength': Infinity,\n'maxBodyLength': Infinity\n</code></pre>\n\n<p>In your data object. It should be inside the config object, <strong>outside</strong> the data object.</p>\n",
+      "owner": {
+        "display_name": "Aritra Chakraborty",
+        "link": "https://stackoverflow.com/users/1203844/aritra-chakraborty"
+      }
+    },
+    {
+      "answer_id": 55884688,
+      "body": "<p>CORS is the server telling the client what kind of HTTP requests the client is allowed to make. Anytime you see a <code>Access-Control-Allow-*</code> header, those should be sent by the server, NOT the client. The server is \"allowing\" the client to send certain headers. It doesn't make sense for the client to give itself permission. So remove these headers from your frontend code.</p>\n\n<p><code>axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';</code></p>\n\n<pre><code>this.axios.post('http://localhost:8888/project/login', this.data, {\n   headers: {\n          // remove headers\n        }\n      }).then(res =&gt; {\n        console.log(res);\n      }).catch(err =&gt; {\n        console.log(err.response);\n      });\n</code></pre>\n\n<p>For example, imagine your backend set this cors header.</p>\n\n<p><code>header(\"Access-Control-Allow-Methods: GET\");</code></p>\n\n<p>That means a client from a different origin is only allowed to send GET requests, so <code>axios.get</code> would work, <code>axios.post</code> would fail, <code>axios.delete</code> would fail, etc.</p>\n",
+      "owner": {
+        "display_name": "Eric Guan",
+        "link": "https://stackoverflow.com/users/2498782/eric-guan"
+      }
+    },
+    {
+      "answer_id": 52669775,
+      "body": "<p>The <code>axios.get()</code> method will return a promise.</p>\n\n<p>The <code>Promise.all()</code> requires an array of promises. For example:</p>\n\n<pre><code>Promise.all([promise1, promise2, promise3])\n</code></pre>\n\n<p>Well then...</p>\n\n<pre><code>let URL1 = \"https://www.something.com\"\nlet URL2 = \"https://www.something1.com\"\nlet URL3 = \"https://www.something2.com\"\n\nconst promise1 = axios.get(URL1);\nconst promise2 = axios.get(URL2);\nconst promise3 = axios.get(URL3);\n\nPromise.all([promise1, promise2, promise3]).then(function(values) {\n  console.log(values);\n});\n</code></pre>\n\n<p>You might wonder how the response value of <code>Promise.all()</code> looks like. Well then, you could easily figure it out yourself by taking a quick look at this example:</p>\n\n<pre><code>var promise1 = Promise.resolve(3);\nvar promise2 = 42;\nvar promise3 = new Promise(function(resolve, reject) {\n  setTimeout(resolve, 100, 'foo');\n});\n\nPromise.all([promise1, promise2, promise3]).then(function(values) {\n  console.log(values);\n});\n// expected output: Array [3, 42, \"foo\"]\n</code></pre>\n\n<p>For more information: <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all\" rel=\"noreferrer\">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all</a></p>\n",
+      "owner": {
+        "display_name": "Tu Nguyen",
+        "link": "https://stackoverflow.com/users/7932059/tu-nguyen"
+      }
+    },
+    {
+      "answer_id": 55389616,
+      "body": "<p>There are two issues at play here</p>\n\n<hr>\n\n<h2>Asynchronous call to <code>setData</code></h2>\n\n<p><code>setData</code> gets called in a <code>Promise</code> callback.</p>\n\n<p>As soon as a <code>Promise</code> resolves, any callbacks waiting for it get queued in the <a href=\"https://www.ecma-international.org/ecma-262/6.0/#sec-jobs-and-job-queues\" rel=\"noreferrer\">PromiseJobs queue</a>.  Any pending jobs in the PromiseJobs queue run <em>after the current message has completed and before the next one begins</em>.</p>\n\n<p>In this case the currently running message is your test so your test completes before the <code>Promise</code> callback has a chance to run and <code>setData</code> isn't called until <strong>after</strong> your test completes.</p>\n\n<p>You can fix this by using something like <code>setImmediate</code> to delay your assertions until after the callbacks in PromiseJobs have a chance to run.</p>\n\n<p>Looks like you'll also need to call <code>component.update()</code> to re-render the component with the new state.  (I'm guessing this is because the state change happens outside of an <code>act</code> since there isn't any way to wrap that callback code in an <code>act</code>.)</p>\n\n<p>All together, the working test looks like this:</p>\n\n<pre><code>it('should render a proper table data', done =&gt; {\n  const mock = new MockAdapter(axios);\n  mock.onGet('/path/to/api').reply(200, response.data);\n  const component = mount(&lt;SalesPlanTable /&gt;);\n  setImmediate(() =&gt; {\n    component.update();\n    console.log(component.debug());\n    done();\n  });\n});\n</code></pre>\n\n<hr>\n\n<h2>Warning: An update to ... was not wrapped in act(...)</h2>\n\n<p>The warning is triggered by state updates to the component that happen outside of an <code>act</code>.</p>\n\n<p>State changes caused by <strong>asynchronous calls to <code>setData</code> triggered by a <code>useEffect</code> function</strong> will always happen outside of an <code>act</code>.</p>\n\n<p>Here is an extremely simple test that demonstrates this behavior:</p>\n\n<pre><code>import React, { useState, useEffect } from 'react';\nimport { mount } from 'enzyme';\n\nconst SimpleComponent = () =&gt; {\n  const [data, setData] = useState('initial');\n\n  useEffect(() =&gt; {\n    setImmediate(() =&gt; setData('updated'));\n  }, []);\n\n  return (&lt;div&gt;{data}&lt;/div&gt;);\n};\n\ntest('SimpleComponent', done =&gt; {\n  const wrapper = mount(&lt;SimpleComponent/&gt;);\n  setImmediate(done);\n});\n</code></pre>\n\n<p>As I was searching for more info I stumbled on <a href=\"https://github.com/airbnb/enzyme/issues/2073\" rel=\"noreferrer\"><code>enzyme</code> issue #2073</a> opened just 10 hours ago talking about this same behavior.</p>\n\n<p>I added the above test <a href=\"https://github.com/airbnb/enzyme/issues/2073#issuecomment-477423695\" rel=\"noreferrer\">in a comment</a> to help the <code>enzyme</code> devs address the issue.</p>\n",
+      "owner": {
+        "display_name": "Brian Adams",
+        "link": "https://stackoverflow.com/users/10149510/brian-adams"
+      }
+    },
+    {
+      "answer_id": 55351900,
+      "body": "<p>In start of file: </p>\n\n<pre><code>import axios from 'axios';\njest.mock('axios');\nconst mockedAxios = axios as jest.Mocked&lt;typeof axios&gt;;\n</code></pre>\n\n<p>Now you can use it as usual mock:</p>\n\n<pre><code>mockedAxios.get.mockRejectedValue('Network error: Something went wrong');\nmockedAxios.get.mockResolvedValue({ data: {} });\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jan Tumanov",
+        "link": "https://stackoverflow.com/users/6501378/jan-tumanov"
+      }
+    },
+    {
+      "answer_id": 43014086,
+      "body": "<p>Add the file to a <code>formData</code> object, and set the <code>Content-Type</code> header to <code>multipart/form-data</code>.</p>\n\n<pre><code>var formData = new FormData();\nvar imagefile = document.querySelector('#file');\nformData.append(\"image\", imagefile.files[0]);\naxios.post('upload_file', formData, {\n    headers: {\n      'Content-Type': 'multipart/form-data'\n    }\n})\n</code></pre>\n",
+      "owner": {
+        "display_name": "Niklesh Raut",
+        "link": "https://stackoverflow.com/users/2815635/niklesh-raut"
+      }
+    },
+    {
+      "answer_id": 53709229,
+      "body": "<p>You can use the second argument to <code>.get</code> if you want to pass an object instead:</p>\n\n<pre><code>axios.get(this.jobsListURL, {\n  params: this.axiosParams\n})\n</code></pre>\n\n<p>This is pretty much the same, but you don't have to do the string manipulation for the URL.</p>\n\n<p>You can build that object like this:</p>\n\n<pre><code>computed: {\n    axiosParams() {\n        const params = new URLSearchParams();\n        params.append('param1', 'value1');\n        params.append('param2', 'value2');\n        return params;\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jeff",
+        "link": "https://stackoverflow.com/users/3720222/jeff"
+      }
+    },
+    {
+      "answer_id": 51414152,
+      "body": "<p>OK I got it. Here is how I fixed it! I ended up doing <strong>without</strong> any mocking libraries for <code>axios</code>!</p>\n\n<p>Create a mock for <code>axios</code> in <code>src/__mocks__</code>:</p>\n\n<pre><code>// src/__mocks__/axios.ts\n\nconst mockAxios = jest.genMockFromModule('axios')\n\n// this is the key to fix the axios.create() undefined error!\nmockAxios.create = jest.fn(() =&gt; mockAxios)\n\nexport default mockAxios\n</code></pre>\n\n<p>Then in your test file, the gist would look like:</p>\n\n<pre><code>import mockAxios from 'axios'\nimport configureMockStore from 'redux-mock-store'\nimport thunk from 'redux-thunk'\n\n// for some reason i need this to fix reducer keys undefined errors..\njest.mock('../../store/rootStore.ts')\n\n// you need the 'async'!\ntest('Retrieve transaction data based on a date range', async () =&gt; {\n  const middlewares = [thunk]\n  const mockStore = configureMockStore(middlewares)\n  const store = mockStore()\n\n  const mockData = {\n    'data': 123\n  }\n\n  /** \n   *  SETUP\n   *  This is where you override the 'post' method of your mocked axios and return\n   *  mocked data in an appropriate data structure-- {data: YOUR_DATA} -- which\n   *  mirrors the actual API call, in this case, the 'reportGet'\n   */\n  mockAxios.post.mockImplementationOnce(() =&gt;\n    Promise.resolve({ data: mockData }),\n  )\n\n  const expectedActions = [\n    { type: REQUEST_TRANSACTION_DATA },\n    { type: RECEIVE_TRANSACTION_DATA, data: mockData },\n  ]\n\n  // work\n  await store.dispatch(reportGet())\n\n  // assertions / expects\n  expect(store.getActions()).toEqual(expectedActions)\n  expect(mockAxios.post).toHaveBeenCalledTimes(1)\n})\n</code></pre>\n\n\n",
+      "owner": {
+        "display_name": "kyw",
+        "link": "https://stackoverflow.com/users/73323/kyw"
+      }
+    },
+    {
+      "answer_id": 53501339,
+      "body": "<p>axios signature for post is <code>axios.post(url[, data[, config]])</code>. So you want to send params object within the third argument:</p>\n\n<pre><code>.post(`/mails/users/sendVerificationMail`, null, { params: {\n  mail,\n  firstname\n}})\n.then(response =&gt; response.status)\n.catch(err =&gt; console.warn(err));\n</code></pre>\n\n<p>This will POST an empty body with the two query params:</p>\n\n<blockquote>\n  <p>POST\n  <a href=\"http://localhost:8000/api/mails/users/sendVerificationMail?mail=lol%40lol.com&amp;firstname=myFirstName\" rel=\"noreferrer\">http://localhost:8000/api/mails/users/sendVerificationMail?mail=lol%40lol.com&amp;firstname=myFirstName</a></p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "enapupe",
+        "link": "https://stackoverflow.com/users/1666071/enapupe"
+      }
+    },
+    {
+      "answer_id": 44021663,
+      "body": "<p>You're getting empty PDF 'cause no data is passed to the server. You can try passing data using data object like this</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>  axios\r\n    .post(`order-results/${id}/export-pdf`, {\r\n      data: {\r\n        firstName: 'Fred'\r\n      },\r\n      responseType: 'arraybuffer'\r\n    })\r\n    .then(response =&gt; {\r\n      console.log(response)\r\n\r\n      let blob = new Blob([response.data], { type: 'application/pdf' }),\r\n        url = window.URL.createObjectURL(blob)\r\n\r\n      window.open(url) // Mostly the same, I was just experimenting with different approaches, tried link.click, iframe and other solutions\r\n    })</code></pre>\r\n</div>\r\n</div>\r\n</p>\n\n<p>By the way I gotta thank you so much for showing me the hint in order to download pdf from response. Thank ya :)</p>\n\n<pre><code>                var dates = {\n                    fromDate: 20/5/2017,\n                    toDate: 25/5/2017\n                }\n</code></pre>\n\n<p>The way in which I have used is,</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>axios({\r\n  method: 'post',\r\n  url: '/reports/interval-dates',\r\n  responseType: 'arraybuffer',\r\n  data: dates\r\n}).then(function(response) {\r\n  let blob = new Blob([response.data], { type: 'application/pdf' })\r\n  let link = document.createElement('a')\r\n  link.href = window.URL.createObjectURL(blob)\r\n  link.download = 'Report.pdf'\r\n  link.click()\r\n})</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Roshimon",
+        "link": "https://stackoverflow.com/users/5019243/roshimon"
+      }
+    },
+    {
+      "answer_id": 51444749,
+      "body": "<p>You can use <code>paramsSerializer</code> and serialize parameters with <a href=\"https://www.npmjs.com/package/qs\" rel=\"noreferrer\">https://www.npmjs.com/package/qs</a></p>\n\n<pre><code>axios.get('/myController/myAction', {\n  params: {\n    storeIds: [1,2,3]\n  },\n  paramsSerializer: params =&gt; {\n    return qs.stringify(params)\n  }\n})\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nicu Criste",
+        "link": "https://stackoverflow.com/users/1703439/nicu-criste"
+      }
+    },
+    {
+      "answer_id": 51415585,
+      "body": "<p>How about using direct <code>axios</code> API?</p>\n\n<pre><code>axios({\n  method: 'post',\n  url: baseUrl + 'applications/' + appName + '/dataexport/plantypes' + plan,\n  headers: {}, \n  data: {\n    foo: 'bar', // This is the body part\n  }\n});\n</code></pre>\n\n<p>Source: <a href=\"https://github.com/axios/axios#axios-api\" rel=\"noreferrer\">axios api</a></p>\n",
+      "owner": {
+        "display_name": "Ukasha",
+        "link": "https://stackoverflow.com/users/7825351/ukasha"
+      }
+    },
+    {
+      "answer_id": 50949631,
+      "body": "<p>your server should enable the cross origin requests, not the client. To do this, you can check <a href=\"https://enable-cors.org/server.html\" rel=\"noreferrer\">this nice page</a> with implementations and configurations for multiple platforms</p>\n",
+      "owner": {
+        "display_name": "Murilo Cruz",
+        "link": "https://stackoverflow.com/users/1891527/murilo-cruz"
+      }
+    },
+    {
+      "answer_id": 50878573,
+      "body": "<p>You cannot use the token inside the interceptors but instead throw <code>Cancel</code></p>\n\n<pre><code>axios.interceptors.response.use(function (response) {\n  throw new axios.Cancel('Operation canceled by the user.');\n}, function (error) {\n  return Promise.reject(error);\n});\n</code></pre>\n\n<p>Refer to this post:\n<a href=\"https://github.com/axios/axios/issues/583\" rel=\"noreferrer\">https://github.com/axios/axios/issues/583</a></p>\n",
+      "owner": {
+        "display_name": "grane2212",
+        "link": "https://stackoverflow.com/users/4927076/grane2212"
+      }
+    },
+    {
+      "answer_id": 50774380,
+      "body": "<p>To set a content-type you need to pass a file-like object. You can create one using a <code>Blob</code>.</p>\n\n<pre><code>const obj = {\n  hello: \"world\"\n};\nconst json = JSON.stringify(obj);\nconst blob = new Blob([json], {\n  type: 'application/json'\n});\nconst data = new FormData();\ndata.append(\"document\", blob);\naxios({\n  method: 'post',\n  url: '/sample',\n  data: data,\n})\n</code></pre>\n",
+      "owner": {
+        "display_name": "Quentin",
+        "link": "https://stackoverflow.com/users/19068/quentin"
+      }
+    },
+    {
+      "answer_id": 50278391,
+      "body": "<p>A few reasons for using Axios over Fetch:</p>\n\n<ol>\n<li>Ability to monitor request progress</li>\n</ol>\n\n<p>This is more of a question between XMLHttpRequest (which powers axios) or Fetch API.</p>\n\n<p>Fetch API currently does not provide any way to get notified of the request progress, a feature which powers feedback mechanism for large file uploads for example.</p>\n\n<p>Axios, on the other hand, has this functionality built in:</p>\n\n<pre><code>axios.post('/api', data, {\n    onUploadProgress: ({ total, loaded }) =&gt; {\n        // update progress\n    }),\n})\n</code></pre>\n\n<ol start=\"2\">\n<li>Error handling</li>\n</ol>\n\n<p>When your backend returns <code>500 Internal Server Error</code> response code, <code>fetch</code> will not treat it any different from <code>200 OK</code>.</p>\n\n<p>This is an inconvenience in most cases since all your previous assumptions of what a response would look like are no longer valid.</p>\n\n<p>Most often, when receiving an erroneous response from the server you'd want to abort the processing pipeline as soon as possible, and switch to an error handling case.</p>\n\n<pre><code>fetch(url)\n    .then(reponse =&gt; {\n        if (!(status &gt;= 200 &amp;&amp; status &lt; 300)) {\n            return Promise.reject(new Error(\"Invalid response status\"));\n        }\n\n        return response;\n    })\n    .then(response =&gt; response.json())\n    .then(/* normal processing */)\n    .catch(/* error handling */);\n</code></pre>\n\n<p>This is not hard to accomplish, but you'd probably want to capture this logic under some abstraction to avoid repetition, and this brings us one step closer to Web API abstraction which is Axios.</p>\n\n<p>Axios does a sane thing and rejects the promise if the response returns erroneous status. This behavior is customizable as are most of the things with axios.</p>\n\n<ol start=\"3\">\n<li>Testing</li>\n</ol>\n\n<p>Axios has <a href=\"https://github.com/axios/moxios\" rel=\"noreferrer\">moxios</a>, fetch has <a href=\"https://www.npmjs.com/package/fetch-mock\" rel=\"noreferrer\">fetch-mock</a>.</p>\n\n<p>Both of those libraries are great but in my experience, <code>fetch-mock</code> required additional setup to get Jest to use mocked fetch over polyfilled one. </p>\n\n<p>I also like that <code>moxios.wait()</code> returns a promise which will be resolved after matching the request.</p>\n\n<ol start=\"4\">\n<li>Other features that Axios offers</li>\n</ol>\n\n<p>For example, you can configure an interceptor which will add api key to all request parameters, or monitor active requests to show a loading screen.</p>\n\n<hr/>\n\n<p>Reasons for using one option over the other may vary from actual requirements to convenience. </p>\n\n<p>If you need to monitor progress, use Axios (or XMLHttpRequest).</p>\n\n<p>If you are writing a service worker, use Fetch.</p>\n\n<p>Otherwise, use what's more convenient to you.</p>\n",
+      "owner": {
+        "display_name": "mpontus",
+        "link": "https://stackoverflow.com/users/326574/mpontus"
+      }
+    },
+    {
+      "answer_id": 50207462,
+      "body": "<p>So the issue was since both the Node dev environment and the Django dev environment were running in separate docker containers, so <code>localhost</code> was referring to the node container, not the bridged network. </p>\n\n<p>So the key was to use container links, which are automatically created when using <code>docker-compose</code>, and use that as the hostname.  So I changed it to </p>\n\n<pre><code>\"proxy\": {\n    \"/api\":  {\n        \"target\": \"http://django:8000\"\n    }\n},\n</code></pre>\n\n<p>And that worked, as long as you launch both containers with the same <code>docker-compose</code> command, otherwise you have to manually specify external_links in your <code>docker-compose.yml</code> file.</p>\n",
+      "owner": {
+        "display_name": "cclloyd",
+        "link": "https://stackoverflow.com/users/2228592/cclloyd"
+      }
+    },
+    {
+      "answer_id": 49661388,
+      "body": "<p>This seems to be one of those cases where <code>async/await</code> doesn't buy you much. You still need to return a result from the async function, which will return a promise to the caller. You can do that with something like:</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>async function getData() {\r\n    try {\r\n       let res = await axios({\r\n            url: 'https://jsonplaceholder.typicode.com/posts/1',\r\n            method: 'get',\r\n            timeout: 8000,\r\n            headers: {\r\n                'Content-Type': 'application/json',\r\n            }\r\n        })\r\n        if(res.status == 200){\r\n            // test for status you want, etc\r\n            console.log(res.status)\r\n        }    \r\n        // Don't forget to return something   \r\n        return res.data\r\n    }\r\n    catch (err) {\r\n        console.error(err);\r\n    }\r\n}\r\n\r\ngetData()\r\n.then(res =&gt; console.log(res))</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n\n<p>But in this example, since you don't need to do much in the actual function with the result, you're probably better off just returning axios's promise:</p>\n\n<p><div class=\"snippet\" data-lang=\"js\" data-hide=\"false\" data-console=\"true\" data-babel=\"false\">\r\n<div class=\"snippet-code\">\r\n<pre class=\"snippet-code-js lang-js prettyprint-override\"><code>function getDataPromise() {\r\n    return axios({\r\n            url: 'https://jsonplaceholder.typicode.com/posts/1',\r\n            method: 'get',\r\n            timeout: 8000,\r\n            headers: {\r\n                'Content-Type': 'application/json',\r\n            }\r\n        })\r\n       .then(res =&gt; res.data)\r\n       .catch (err =&gt; console.error(err))\r\n    }\r\n\r\n\r\ngetDataPromise()\r\n.then(res =&gt; console.log(res))</code></pre>\r\n<pre class=\"snippet-code-html lang-html prettyprint-override\"><code>&lt;script src=\"https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js\"&gt;&lt;/script&gt;</code></pre>\r\n</div>\r\n</div>\r\n</p>\n",
+      "owner": {
+        "display_name": "Mark",
+        "link": "https://stackoverflow.com/users/3874623/mark"
+      }
+    },
+    {
+      "answer_id": 49374981,
+      "body": "<p>It seems that unencrypted network requests are blocked by default in iOS, i.e. <code>https</code> will work, <code>http</code> will not.</p>\n\n<p><a href=\"https://facebook.github.io/react-native/docs/network.html\" rel=\"noreferrer\">From the docs</a>:</p>\n\n<blockquote>\n  <p>By default, iOS will block any request that's not encrypted using SSL.\n  If you need to fetch from a cleartext URL (one that begins with http)\n  you will first need to add an App Transport Security exception.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "smilebomb",
+        "link": "https://stackoverflow.com/users/1447867/smilebomb"
+      }
+    },
+    {
+      "answer_id": 41196643,
+      "body": "<p>You have a syntax error here. You should try this instead</p>\n\n<pre><code>var self = this;\naxios.get('/url')\n .then(function (response) {\n   console.log(response);\n   self.setState({events: response.data})\n })\n.catch(function (error) {\n   console.log(error);\n});\n//the rest of the code\nvar a = 'i might be executed before the server responds'\n</code></pre>\n\n<p>There are a few things to note here:</p>\n\n<ul>\n<li><code>axios.get</code> is an asynchronous function which means that the rest of the code will be executed .And when the response of the server arrives, the function passed to <code>then</code> will be executed. The return value of <code>axios.get('url')</code> is called a promise object. You can read <a href=\"https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261\" rel=\"noreferrer\">more about it here</a></li>\n<li><code>this</code> keyword has a different value depending of where it is called. <code>this</code> in <code>this.setState</code> <strong>should</strong> refer to the constructor object, and when you call <code>this</code> inside a function, it refers to the <code>window</code> object. That is why i assigned <code>this</code> to the variable <code>self</code>. You can read <a href=\"https://toddmotto.com/understanding-the-this-keyword-in-javascript/\" rel=\"noreferrer\">more about this here</a></li>\n</ul>\n\n<p><strong>Pro tip:</strong></p>\n\n<p>If you use ES6, you would want to use arrow functions (which don't have their own <code>this</code>)  and use <code>this.setState</code> without assigning <code>this</code> to a variable. <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions\" rel=\"noreferrer\">more about it here</a></p>\n\n<pre><code>    axios.get('/url')\n     .then((response) =&gt; {\n       console.log(response);\n       this.setState({events: response.data})\n     })\n    .catch((error)=&gt;{\n       console.log(error);\n    });\n</code></pre>\n\n<p>Here is a complete example <a href=\"https://codesandbox.io/s/rm4pyq9m0o\" rel=\"noreferrer\">https://codesandbox.io/s/rm4pyq9m0o</a> containing <strong>best practices</strong> commonly used to fetch data including error handling, try again and loading. This provides a <strong>better User experience</strong>. You are encouraged to modify the code and play around to get more insights about it.</p>\n",
+      "owner": {
+        "display_name": "Abdellah",
+        "link": "https://stackoverflow.com/users/2678755/abdellah"
+      }
+    },
+    {
+      "answer_id": 49263912,
+      "body": "<p>Okay so I found a solution. I had to set a timestamp on the API url to get it to make a new call. There doesn't seem to be a way to force <code>axios</code> or <code>fetch</code> to disable cache.</p>\n\n<p>This is how my code now looks</p>\n\n<pre><code>axios.get(`https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&amp;filter[posts_per_page]=1&amp;timestamp=${new Date().getTime()}`)\n  .then(response =&gt; {\n    const { title, content, link } = response.data[0];\n    console.log(title, content, link)\n    this.setState(() =&gt; ({ title, content, link }));\n  })\n  .catch(err =&gt; {\n    console.log(`${err} whilst contacting the quote API.`)\n  })\n</code></pre>\n",
+      "owner": {
+        "display_name": "Asjas",
+        "link": "https://stackoverflow.com/users/8294418/asjas"
+      }
+    },
+    {
+      "answer_id": 41528082,
+      "body": "<p>For anyone else that comes across this post and might find it useful...\nThere is actually nothing wrong with my code. I made the mistake of requesting client_credentials type access code instead of password access code (#facepalms).\nFYI I am using urlencoded post hence the use of querystring..\nSo for those that may be looking for some example code.. here is my full request</p>\n\n<p>Big thanks to @swapnil for trying to help me debug this. </p>\n\n<pre class=\"lang-js prettyprint-override\"><code>   const data = {\n      grant_type: USER_GRANT_TYPE,\n      client_id: CLIENT_ID,\n      client_secret: CLIENT_SECRET,\n      scope: SCOPE_INT,\n      username: DEMO_EMAIL,\n      password: DEMO_PASSWORD\n    };\n\n\n\n  axios.post(TOKEN_URL, Querystring.stringify(data))   \n   .then(response =&gt; {\n      console.log(response.data);\n      USER_TOKEN = response.data.access_token;\n      console.log('userresponse ' + response.data.access_token); \n    })   \n   .catch((error) =&gt; {\n      console.log('error ' + error);   \n   });\n\n\n\nconst AuthStr = 'Bearer '.concat(USER_TOKEN); \naxios.get(URL, { headers: { Authorization: AuthStr } })\n .then(response =&gt; {\n     // If request is good...\n     console.log(response.data);\n  })\n .catch((error) =&gt; {\n     console.log('error ' + error);\n  });\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ally Haire",
+        "link": "https://stackoverflow.com/users/7254678/ally-haire"
+      }
+    },
+    {
+      "answer_id": 48652504,
+      "body": "<p>In main.js you can just assign Axios to $http.</p>\n\n<p>main.js</p>\n\n<pre><code>import Axios from 'axios'\n\nVue.prototype.$http = Axios;\n</code></pre>\n\n<p>By modifying the vue prototype, any vue instance will have the ability to call <code>$http</code> on <code>this</code>. (e.g. <code>this.$http.get('https://httpbin.org/get')</code></p>\n\n<p>Note: <code>$http</code> is the axios object now, so any method you can call on axios object, you can call on <code>this.$http</code>.</p>\n",
+      "owner": {
+        "display_name": "Brandon Deo",
+        "link": "https://stackoverflow.com/users/3753656/brandon-deo"
+      }
+    },
+    {
+      "answer_id": 48432628,
+      "body": "<p>The <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Headers\" rel=\"noreferrer\">Headers</a> class instance that fetch returns is an <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols\" rel=\"noreferrer\">iterable</a>, as opposed to a plain object like axios returns. Some iterable's data, such as Headers or URLSearchParams, aren't viewable from the console, you have to iterate it and console.log each element, like:</p>\n\n<pre><code>fetch('http://localhost:9876/test/sample-download', {\n    method: 'post',\n    headers: {},\n    body: {}\n})\n.then(response =&gt; {\n  // Inspect the headers in the response\n  response.headers.forEach(console.log);\n  // OR you can do this\n  for(let entry of response.headers.entries()) {\n    console.log(entry);\n  }\n})\n.catch(err =&gt; console.error(err));\n</code></pre>\n",
+      "owner": {
+        "display_name": "ccnokes",
+        "link": "https://stackoverflow.com/users/1397311/ccnokes"
+      }
+    },
+    {
+      "answer_id": 48299140,
+      "body": "<p>According to <a href=\"https://github.com/axios/axios#handling-errors\" rel=\"noreferrer\">the documentation</a>, the full response is available as a <code>response</code> property on the error.</p>\n\n<p>So I'd use that information in the <code>catch</code> block:</p>\n\n<pre><code>(async() =&gt; {\n  let apiRes = null;\n  try {\n    apiRes = await axios.get('https://silex.edgeprop.my/api/v1/a');\n  } catch (err) {\n    console.error(\"Error response:\");\n    console.error(err.response.data);    // ***\n    console.error(err.response.status);  // ***\n    console.error(err.response.headers); // ***\n  } finally {\n    console.log(apiRes);\n  }\n})();\n</code></pre>\n\n<p><a href=\"https://jsfiddle.net/fdvnsg6u/2/\" rel=\"noreferrer\">Updated Fiddle</a></p>\n\n<p>But if you want it in <code>finally</code> instead, just save it to a variable you can use there:</p>\n\n<pre><code>(async() =&gt; {\n  let apiRes = null;\n  try {\n    apiRes = await axios.get('https://silex.edgeprop.my/api/v1/a');\n  } catch (err) {\n    apiRes = err.response;\n  } finally {\n    console.log(apiRes); // Could be success or error\n  }\n})();\n</code></pre>\n",
+      "owner": {
+        "display_name": "T.J. Crowder",
+        "link": "https://stackoverflow.com/users/157247/t-j-crowder"
+      }
+    },
+    {
+      "answer_id": 47510680,
+      "body": "<p>You can try this in the catch part:</p>\n\n<pre><code>catch(error =&gt; {\n        if (!error.response) {\n            // network error\n            this.errorStatus = 'Error: Network Error';\n        } else {\n            this.errorStatus = error.response.data.message;\n        }\n      })\n</code></pre>\n",
+      "owner": {
+        "display_name": "chithra",
+        "link": "https://stackoverflow.com/users/1217845/chithra"
+      }
+    },
+    {
+      "answer_id": 47407760,
+      "body": "<p>Instead of </p>\n\n<pre><code>this.$axios.get('items')\n</code></pre>\n\n<p>use</p>\n\n<pre><code>this.$axios({ url: 'items', baseURL: 'http://new-url.com' })\n</code></pre>\n\n<p>If you don't pass <code>method: 'XXX'</code> then by default, it will send via <code>get</code> method.</p>\n\n<p><strong>Request Config:</strong> <a href=\"https://github.com/axios/axios#request-config\" rel=\"noreferrer\">https://github.com/axios/axios#request-config</a></p>\n",
+      "owner": {
+        "display_name": "Vipin Kumar",
+        "link": "https://stackoverflow.com/users/2335514/vipin-kumar"
+      }
+    },
+    {
+      "answer_id": 47317506,
+      "body": "<h1>If Creating an API Using NodeJS</h1>\n\n<p><hr>\nYour Express app needs to use CORS (Cross-Origin Resource Sharing). Add the following to your server file:</p>\n\n\n\n<pre class=\"lang-js prettyprint-override\"><code>// This should already be declared in your API file\nvar app = express();\n\n// ADD THIS\nvar cors = require('cors');\napp.use(cors());\n</code></pre>\n\n\n\n<p>For fuller understanding of CORS, please read the <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS\" rel=\"noreferrer\">Mozilla Documentation on CORS</a>. </p>\n",
+      "owner": {
+        "display_name": "jacobhobson",
+        "link": "https://stackoverflow.com/users/4430148/jacobhobson"
+      }
+    },
+    {
+      "answer_id": 46870204,
+      "body": "<p>Your request needs to match the signature, exactly.  One apparent problem is that you are not actually including the canned ACL in the request, even though you included it in the signature.  Change to this:</p>\n\n<pre><code>var options = { headers: { 'Content-Type': fileType, 'x-amz-acl': 'public-read' } };\n</code></pre>\n",
+      "owner": {
+        "display_name": "Michael - sqlbot",
+        "link": "https://stackoverflow.com/users/1695906/michael-sqlbot"
+      }
+    },
+    {
+      "answer_id": 46347906,
+      "body": "<p>You can't (or at least really shouldn't) make it synchronous, so you'll need a different way forward.</p>\n\n<p>One idea: return the promise from Axios:</p>\n\n<pre><code>checkUniqueness () {\n    return axios.get('/api/persons/unique/alias', {\n        params: {\n            id: this.id,\n            alias: this.alias,\n        }\n    })\n    .then((response) =&gt; {\n        console.log('2. server response:' + response.data.unique)\n        this.valid = response.data.unique;\n    });\n}\n</code></pre>\n\n<p>and then call <code>then()</code> on it in <code>save()</code>:</p>\n\n<pre><code>this.checkUniqueness()\n.then((returnVal) =&gt; {\n   // other validations here\n  //  save\n})\n.catch(err =&gt; console.log(\"Axios err: \", err))\n</code></pre>\n\n<p>You could even do all your checking on one place if you returned the value from Axios's <code>then()</code> rather than setting the flag:</p>\n\n<pre><code>.then((response) =&gt; {\n    console.log('2. server response:' + response.data.unique)\n    return response.data.unique;\n });\n</code></pre>\n\n<p>then in save:</p>\n\n<pre><code>this.checkUniqueness()\n.then((valid) =&gt; {\n    if (valid) // do something\n   // other validations here\n   //  save\n})\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mark",
+        "link": "https://stackoverflow.com/users/3874623/mark"
+      }
+    },
+    {
+      "answer_id": 44982119,
+      "body": "<p>I solved that by accessing my Redux Store from outside the Component tree and sending it my same action from the logout button, since my interceptors are created in a separated file and loaded before any Component is loaded. </p>\n\n<p>So, basically, I did the following:</p>\n\n<p>At <code>index.js</code> file:</p>\n\n<pre><code>//....lots of imports ommited for brevity\nimport { createStore, applyMiddleware } from 'redux';\nimport reduxThunk from 'redux-thunk';\nimport reducers from './reducers';\nimport { UNAUTH_USER } from './actions/types'; //this is just a constants file for action types.\n\nconst createStoreWithMiddleware = applyMiddleware(reduxThunk)(createStore);\nconst store = createStoreWithMiddleware(reducers);\n\n//Here is the guy where I set up the interceptors!\nNetworkService.setupInterceptors(store);\n\n//lots of code ommited again...\n//Please pay attention to the \"RequireAuth\" below, we'll talk about it later\n\nReactDOM.render(\n  &lt;Provider store={store}&gt;\n      &lt;BrowserRouter&gt;\n          &lt;div&gt;\n              &lt;Header /&gt;\n              &lt;main className=\"plan-container\"&gt;\n                  &lt;Switch&gt;\n                      &lt;Route exact path=\"/\" component={Landing} /&gt;\n                      &lt;Route exact path=\"/login\" component={Login} /&gt;\n                      &lt;Route exact path=\"/signup\" component={Signup} /&gt;\n                      &lt;Route exact path=\"/calendar\" component={RequireAuth(Calendar)} /&gt;\n                      &lt;Route exact path=\"/profile\" component={RequireAuth(Profile)} /&gt;\n                  &lt;/Switch&gt;\n              &lt;/main&gt;\n          &lt;/div&gt;\n      &lt;/BrowserRouter&gt;\n  &lt;/Provider&gt;\n  , document.querySelector('.main-container'));\n</code></pre>\n\n<p>And at the <code>network-service.js</code> file: </p>\n\n<pre><code>import axios        from 'axios';\nimport { UNAUTH_USER } from '../actions/types';\n\nexport default {\n  setupInterceptors: (store) =&gt; {\n\n    // Add a response interceptor\n    axios.interceptors.response.use(function (response) {\n        return response;\n    }, function (error) {\n        //catches if the session ended!\n        if ( error.response.data.token.KEY == 'ERR_EXPIRED_TOKEN') {\n            console.log(\"EXPIRED TOKEN!\");\n            localStorage.clear();\n            store.dispatch({ type: UNAUTH_USER });\n        }\n        return Promise.reject(error);\n    });\n\n  }\n};\n</code></pre>\n\n<p>Last, but not least, I have a HOC (Higher Order Component) that I wrap my protected components where I do the actual redirect when the session is out. That way, when I trigger the action type UNAUTH_USER, it sets my <code>isLogged</code> property at my <code>session</code> reducer to <code>false</code> and therefore this component gets notified and does the redirect for me, at any time.</p>\n\n<p>The file for <code>require-auth.js</code> component:</p>\n\n<pre><code>import React, { Component } from 'react';\nimport { connect } from 'react-redux';\n\nexport default function(ComposedComponent) {\n\n    class RequireAuth extends Component {\n\n        componentWillMount() {\n            if(!this.props.session.isLogged) {\n                this.props.history.push('/login');\n            }\n        };\n\n        componentWillUpdate(nextProps) {\n            if(!nextProps.session.isLogged) {\n                this.props.history.push('/login');\n            }\n        };\n\n        render() {\n            return &lt;ComposedComponent {...this.props} /&gt;\n        }\n    }\n\n    function mapStateToProps(state) {\n        return { session: state.session };\n    }\n\n    return connect(mapStateToProps)(RequireAuth);\n}\n</code></pre>\n\n<p>Hope that helps!</p>\n",
+      "owner": {
+        "display_name": "DccBr",
+        "link": "https://stackoverflow.com/users/1475572/dccbr"
+      }
+    },
+    {
+      "answer_id": 44937301,
+      "body": "<p>I found the answer. The name of the event is <code>onUploadProgress</code> and I was using <code>progress</code></p>\n",
+      "owner": {
+        "display_name": "Pritam Bohra",
+        "link": "https://stackoverflow.com/users/5924007/pritam-bohra"
+      }
+    },
+    {
+      "answer_id": 43842920,
+      "body": "<p>If you give a look at the GitHub <a href=\"https://github.com/mzabriskie/axios\" rel=\"noreferrer\">Project Page</a> you will notice following option description.</p>\n\n<pre><code>/* `validateStatus` defines whether to resolve or reject the promise for a given\n * HTTP response status code. If `validateStatus` returns `true` (or is set to `null`\n * or `undefined`), the promise will be resolved; otherwise, the promise will be\n */ rejected.\nvalidateStatus: function (status) {\n\n    return status &gt;= 200 &amp;&amp; status &lt; 300; // default\n},\n</code></pre>\n\n<p>So you could create an Instance with your own configuration.</p>\n\n<pre><code>var instance = axios.create({\n\n   validateStatus: function (status) {\n\n        return status == 200;\n    },\n});\n</code></pre>\n\n<p>You could also set defaults. These will be applied to every request.</p>\n\n<pre><code>axios.defaults.validateStatus = () =&gt; {\n\n    return status == 200;\n};\n</code></pre>\n\n<p><strong>UPDATE 1</strong></p>\n\n<p>To set the config only on a specific operation you could replace \"config\" with your desired values or methods.</p>\n\n<pre><code>axios.post(url[, data[, config]])\n</code></pre>\n\n<p><strong>UPDATE 2</strong></p>\n\n<blockquote>\n  <p>I tried this, but it didn't work.</p>\n</blockquote>\n\n<p>You cannot pass the instance to axios.post(). You must call post on the new instance.</p>\n\n<pre><code>var instance = axios.create({\n\n    validateStatus: function (status) {\n        return status == 200;\n    }\n});\n\ninstance.post('url', data, config);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ilario Engler",
+        "link": "https://stackoverflow.com/users/3776994/ilario-engler"
+      }
+    },
+    {
+      "answer_id": 43464387,
+      "body": "<p>The ideal way would be to add CORS support to your server.</p>\n\n<p>You could also try using a separate <a href=\"https://www.npmjs.com/search?q=jsonp\" rel=\"noreferrer\">jsonp</a> module. As far as I know axios does not support jsonp. So I am not sure if the method you are using would qualify as a valid jsonp request.</p>\n\n<p>There is another hackish work around for the CORS problem. You will have to deploy your code with an nginx server serving as a proxy for both your server and your client.\nThe thing that will do the trick  us the <code>proxy_pass</code> directive. Configure your nginx server in such a way that the location block handling your particular request will <code>proxy_pass</code> or redirect your request to your actual server.\nCORS problems usually occur because of change in the website domain.\nWhen you have a singly proxy serving as the face of you client and you server, the browser is fooled into thinking that the server and client reside in the same domain. Ergo no CORS.</p>\n\n<p>Consider this example.</p>\n\n<p>Your server is <code>my-server.com</code> and your client is <code>my-client.com</code>\nConfigure nginx as follows:</p>\n\n<pre><code>// nginx.conf\n\nupstream server {\n    server my-server.com;\n}\n\nupstream client {\n    server my-client.com;\n}\n\nserver {\n    listen 80;\n\n    server_name my-website.com;\n    access_log /path/to/access/log/access.log;\n    error_log /path/to/error/log/error.log;\n\n    location / {\n        proxy_pass http://client;\n    }\n\n    location ~ /server/(?&lt;section&gt;.*) {\n        rewrite ^/server/(.*)$ /$1 break;\n        proxy_pass http://server;\n    }\n}\n</code></pre>\n\n<p>Here <code>my-website.com</code> will be the resultant name of the website where the code will be accessible (name of the proxy website).\nOnce nginx is configured this way. You will need to modify the requests such that:</p>\n\n<ul>\n<li>All API calls change from <code>my-server.com/&lt;API-path&gt;</code> to <code>my-website.com/server/&lt;API-path&gt;</code></li>\n</ul>\n\n<p>In case you are not familiar with nginx I would advise you to go through the <a href=\"https://nginx.org/en/docs/beginners_guide.html\" rel=\"noreferrer\">documentation</a>.</p>\n\n<p>To explain what is happening in the configuration above in brief:</p>\n\n<ul>\n<li>The <code>upstream</code>s define the actual servers to whom the requests will be redirected</li>\n<li>The <code>server</code> block is used to define the actual behaviour of the nginx server.</li>\n<li>In case there are multiple server blocks the <code>server_name</code> is used to identify the block which will be used to handle the current request. </li>\n<li>The <code>error_log</code> and <code>access_log</code> directives are used to define the locations of the log files (used for debugging)</li>\n<li>The <code>location</code> blocks define the handling of different types of requests: \n\n<ol>\n<li>The first location block handles all requests starting with <code>/</code> all these requests are redirected to the client</li>\n<li>The second location block handles all requests starting with <code>/server/&lt;API-path&gt;</code>. We will be redirecting all such requests to the server.</li>\n</ol></li>\n</ul>\n\n<p><strong>Note: <code>/server</code> here is being used to distinguish the client side requests from the server side requests. Since the domain is the same there is no other way of distinguishing requests. Keep in mind there is no such convention that compels you to add <code>/server</code> in all such use cases. It can be changed to any other string eg. <code>/my-server/&lt;API-path&gt;</code>, <code>/abc/&lt;API-path&gt;</code>, etc.</strong></p>\n\n<p>Even though this technique should do the trick, I would highly advise you to add CORS support to the server as this is the ideal way situations like these should be handled.</p>\n\n<p>If you wish to avoid doing all this while developing you could for <a href=\"https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en\" rel=\"noreferrer\">this</a> chrome extension. It should allow you to perform cross domain requests during development.</p>\n",
+      "owner": {
+        "display_name": "Nahush Farkande",
+        "link": "https://stackoverflow.com/users/4712758/nahush-farkande"
+      }
+    },
+    {
+      "answer_id": 43464147,
+      "body": "<p>Your first example returns the original promise. Your second example returns a <em>different</em> promise, the one created by calling <code>catch</code>.</p>\n\n<p>The critical differences between the two are:</p>\n\n<ol>\n<li><p>In your second example, you're not passing on the resolution value, so the promise returned by your <code>then</code> is resolved with <code>undefined</code> (the return value of <code>console.log</code>).</p></li>\n<li><p>In your second example, you're converting rejections into resolutions with <code>undefined</code> (by returning the result of <code>console.log</code> out of <code>catch</code>). A <code>catch</code> handler that doesn't throw or return a promise that's rejected converts a rejection into a resolution.</p></li>\n</ol>\n\n<p>One of the key things about promise chains is that they transform the result; every call to <code>then</code> or <code>catch</code> creates a new promise, and their handlers can modify what's sent downstream as the result passes through them.</p>\n\n<p>The usual pattern would indeed be to return the result of the chain, but for the functions in the chain to either intentionally transform the result or pass it on. Normally, you wouldn't have a <code>catch</code> handler except at the terminal end of the chain, unless you're using it to correct the error condition (intentionally converting a rejection into a resolution).</p>\n\n<p>If you wanted to just log what passed through while still allowing callers to see it but <em>did</em> want to return the result of the chain for whatever reason, you'd do this:</p>\n\n<pre><code>return request\n    .then(result =&gt; { console.log(result); return result; })\n    .catch(error =&gt; { console.error(error); return Promise.reject(error); });\n</code></pre>\n\n<p>or using <code>throw</code>:</p>\n\n<pre><code>return request\n    .then(result =&gt; { console.log(result); return result; })\n    .catch(error =&gt; { console.error(error); throw error; });\n</code></pre>\n",
+      "owner": {
+        "display_name": "T.J. Crowder",
+        "link": "https://stackoverflow.com/users/157247/t-j-crowder"
+      }
+    },
+    {
+      "answer_id": 42678578,
+      "body": "<p>That is funny,that the axios used XMLHttpRequest by primary,and ajax request can't access across domain,so your test failed ,so you can let your code pass by set the axios adapter.</p>\n\n<h2>The Reason by axios/defaults.js</h2>\n\n<pre><code> function getDefaultAdapter() {\n    var adapter;\n    if (typeof XMLHttpRequest !== 'undefined') {\n        // For browsers use XHR adapter\n        adapter = require('./adapters/xhr');\n    } else if (typeof process !== 'undefined') {\n        // For node use HTTP adapter\n        adapter = require('./adapters/http');   \n    }\n    return adapter;\n }\n</code></pre>\n\n<h2>Solution change axios adapter to http</h2>\n\n<pre><code>import axios from 'axios';\n//This WORKS\ntest('testing with headers', (done) =&gt; {\n    var path=require('path');\n    var lib=path.join(path.dirname(require.resolve('axios')),'lib/adapters/http');\n    var http=require(lib);\n    axios.get('http://192.168.1.253', {\n        adapter: http,\n        headers: {\n            Authorization: \"Basic YWRtaW46bHVveGlueGlhbjkx\"\n        }\n    }).then((res) =&gt; {\n        expect(res.status).toBe(200);\n        done();\n    }).catch(done.fail);\n});\n</code></pre>\n\n<h2>Solution change jest testURL in package.json</h2>\n\n<pre><code>\"jest\": {\n   \"testURL\":\"http://192.168.1.253\"\n}\n</code></pre>\n\n<p>then the test can be access http via ajax</p>\n\n<pre><code>import axios from 'axios';\n    //This WORKS\n    test('testing with headers', (done) =&gt; {\n        axios.get('http://192.168.1.253', {\n            headers: {\n                Authorization: \"Basic YWRtaW46bHVveGlueGlhbjkx\"\n            }\n        }).then((res) =&gt; {\n            expect(res.status).toBe(200);\n            done();\n        }).catch(done.fail);\n    });\n</code></pre>\n",
+      "owner": {
+        "display_name": "holi-java",
+        "link": "https://stackoverflow.com/users/7607923/holi-java"
+      }
+    },
+    {
+      "answer_id": 42189984,
+      "body": "<p>The solution came from a different source, but I post it here to help others looking for the same issue. Basically I used Android AVD (emulator) to build the application. But the emulator is in fact another machine, and that's why it couldn't call the localhost.</p>\n\n<p>To solve the probleme, I had to send the request in the following way:</p>\n\n<pre><code>https://10.0.2.2:3000/v1/test\n</code></pre>\n\n<p>instead of:</p>\n\n<pre><code>https://localhost:3000/v1/test\n</code></pre>\n",
+      "owner": {
+        "display_name": "Pibo",
+        "link": "https://stackoverflow.com/users/6090589/pibo"
+      }
+    },
+    {
+      "answer_id": 41008360,
+      "body": "<p>In option functions like <code>data</code> and <code>created</code>, vue binds <code>this</code> to the view-model instance for us, so we can use <code>this.contas</code>, but in the function inside <code>then</code>, <code>this</code> is not bound.  </p>\n\n<p><strong>So</strong> you need to preserve the view-model like (<code>created</code> means the component's data structure is assembled, which is enough here, <code>mounted</code> will delay the operation more):  </p>\n\n<pre><code>created() {\n    var self = this;\n    axios.get('http://127.0.0.1/api/bills')\n        .then(function (response) {\n                self.contas = response.data;\n                });\n}\n</code></pre>\n\n<p><strong>Or</strong> you can use arrow function in ES6 standard if you only aim to support modern browsers(or using a transpiler like babel), like:  </p>\n\n<pre><code>created() {\n    axios.get('http://127.0.0.1/api/bills')\n        .then((response) =&gt; {\n                this.contas = response.data;\n                });\n}\n</code></pre>\n\n<p><code>this</code> inside arrow functions are bound according to lexical context, which means the <code>this</code> in the above snippet is the same as the one in <code>created</code>, which is what we want.</p>\n",
+      "owner": {
+        "display_name": "JJPandari",
+        "link": "https://stackoverflow.com/users/4788022/jjpandari"
+      }
+    },
+    {
+      "answer_id": 41497848,
+      "body": "<p>CORS is a <strong>browser</strong> feature. Servers need to opt into CORS to allow browsers to bypass same-origin policy. Your server would not have that same restriction and be able to make requests to any server with a public API. <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS\" rel=\"noreferrer\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS</a></p>\n\n<p>Create an endpoint on your server with CORS enabled that can act as a proxy for your web app.</p>\n",
+      "owner": {
+        "display_name": "azium",
+        "link": "https://stackoverflow.com/users/3225108/azium"
+      }
+    },
+    {
+      "answer_id": 40953463,
+      "body": "<p><a href=\"https://github.com/mzabriskie/axios#axiosgeturl-config\" rel=\"noreferrer\"><code>axios.get</code></a> accepts a request config as the second parameter (not query string params). </p>\n\n<p>You can use the <code>params</code> config option to set query string params as follows: </p>\n\n<pre><code>axios.get('/api', {\n  params: {\n    foo: 'bar'\n  }\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nick Uraltsev",
+        "link": "https://stackoverflow.com/users/6218152/nick-uraltsev"
+      }
+    },
+    {
+      "answer_id": 39153411,
+      "body": "<p>What you see is the string returned by the <code>toString</code> method of the <code>error</code> object. (<code>error</code> is not a string.)</p>\n\n<p>If a response has been received from the server, the <code>error</code> object will contain the <code>response</code> property:</p>\n\n<pre><code>axios.get('/foo')\n  .catch(function (error) {\n    if (error.response) {\n      console.log(error.response.data);\n      console.log(error.response.status);\n      console.log(error.response.headers);\n    }\n  });\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nick Uraltsev",
+        "link": "https://stackoverflow.com/users/6218152/nick-uraltsev"
+      }
+    },
+    {
+      "answer_id": 39152383,
+      "body": "<p>You can use a custom param serializer as follows:</p>\n\n<pre><code>axios.get('https://foobar.com/api', {\n  paramsSerializer: function(params) {\n    var result = '';\n    // Build the query string \n    return result;\n  }\n});\n</code></pre>\n\n<p><code>paramsSerializer</code> can be set at the instance level:</p>\n\n<pre><code>var instance = axios.create({ paramsSerializer: function(params) { /* ... */ } })\n</code></pre>\n\n<p>or at the global level:</p>\n\n<pre><code>axios.defaults.paramsSerializer = function(params) { /* ... */ };\n</code></pre>\n\n<p>Another option is to directly add the api key to the URL:</p>\n\n<pre><code>axios.get('https://foobar.com/api?api_key=' + key);\n</code></pre>\n\n<p>You can add additional parameters using the `params' config option:</p>\n\n<pre><code>axios.get('https://foobar.com/api?api_key=' + key, {\n  params: {\n    foo: 'bar'\n  }\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nick Uraltsev",
+        "link": "https://stackoverflow.com/users/6218152/nick-uraltsev"
+      }
+    },
+    {
+      "answer_id": 38798652,
+      "body": "<p>Axios is probably parsing the response. I access the error like this in my code:</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>axios({\n  method: 'post',\n  responseType: 'json',\n  url: `${SERVER_URL}/token`,\n  data: {\n    idToken,\n    userEmail\n  }\n})\n .then(response =&gt; {\n   dispatch(something(response));\n })\n .catch(error =&gt; {\n   dispatch({ type: AUTH_FAILED });\n   dispatch({ type: ERROR, payload: error.data.error.message });\n });\n</code></pre>\n\n<p>From the docs:</p>\n\n<p>The response for a request contains the following information.</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>{\n  // `data` is the response that was provided by the server\n  data: {},\n\n  // `status` is the HTTP status code from the server response\n  status: 200,\n\n  // `statusText` is the HTTP status message from the server response\n  statusText: 'OK',\n\n  // `headers` the headers that the server responded with\n  headers: {},\n\n  // `config` is the config that was provided to `axios` for the request\n  config: {}\n}\n</code></pre>\n\n<p>So the <code>catch(error =&gt; )</code> is actually just <code>catch(response =&gt; )</code></p>\n\n<p>EDIT:</p>\n\n<p>I still dont understand why logging the error returns that stack message. I tried logging it like this. And then you can actually see that it is an object.</p>\n\n<pre><code>console.log('errorType', typeof error);\nconsole.log('error', Object.assign({}, error));\n</code></pre>\n\n<p>EDIT2:</p>\n\n<p>After some more looking around <a href=\"https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Error\" rel=\"noreferrer\">this</a> is what you are trying to print. Which is a Javascipt error object. Axios then enhances this error with the config, code and reponse like <a href=\"https://github.com/mzabriskie/axios/blob/master/lib/core/enhanceError.js\" rel=\"noreferrer\">this</a>.</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>console.log('error', error);\nconsole.log('errorType', typeof error);\nconsole.log('error', Object.assign({}, error));\nconsole.log('getOwnPropertyNames', Object.getOwnPropertyNames(error));\nconsole.log('stackProperty', Object.getOwnPropertyDescriptor(error, 'stack'));\nconsole.log('messageProperty', Object.getOwnPropertyDescriptor(error, 'message'));\nconsole.log('stackEnumerable', error.propertyIsEnumerable('stack'));\nconsole.log('messageEnumerable', error.propertyIsEnumerable('message'));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jeroen Wienk",
+        "link": "https://stackoverflow.com/users/4067596/jeroen-wienk"
+      }
+    },
+    {
+      "answer_id": 37931084,
+      "body": "<p>In case of CORS requests, browsers can only access the following response headers by default:</p>\n\n<ul>\n<li>Cache-Control</li>\n<li>Content-Language</li>\n<li>Content-Type</li>\n<li>Expires</li>\n<li>Last-Modified</li>\n<li>Pragma</li>\n</ul>\n\n<p>If you would like your client app to be able to access other headers, you need to set the <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS#Access-Control-Expose-Headers\">Access-Control-Expose-Headers</a> header on the server: </p>\n\n<pre><code>Access-Control-Expose-Headers: Access-Token, Uid\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nick Uraltsev",
+        "link": "https://stackoverflow.com/users/6218152/nick-uraltsev"
+      }
+    }
+  ]
+}

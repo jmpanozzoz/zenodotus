@@ -1,0 +1,1851 @@
+{
+  "library": "crates:clap",
+  "fetched_at": "2026-11-21T17:28:21Z",
+  "questions": [
+    {
+      "question_id": 49290526,
+      "title": "Is there any straightforward way for Clap to display help when no command is provided?",
+      "accepted_answer_id": 49290687,
+      "score": 52,
+      "link": "https://stackoverflow.com/questions/49290526/is-there-any-straightforward-way-for-clap-to-display-help-when-no-command-is-pro",
+      "owner": {
+        "display_name": "rpeshkov",
+        "link": "https://stackoverflow.com/users/1105235/rpeshkov"
+      }
+    },
+    {
+      "question_id": 60458705,
+      "title": "How do I specify a boolean command line flag using Clap?",
+      "accepted_answer_id": 60458834,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/60458705/how-do-i-specify-a-boolean-command-line-flag-using-clap",
+      "owner": {
+        "display_name": "Peter Prographo",
+        "link": "https://stackoverflow.com/users/4259003/peter-prographo"
+      }
+    },
+    {
+      "question_id": 73240901,
+      "title": "How to get clap to process a single argument with multiple values without having to specify the flag multiple times?",
+      "accepted_answer_id": 73241223,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/73240901/how-to-get-clap-to-process-a-single-argument-with-multiple-values-without-having",
+      "owner": {
+        "display_name": "Marvin Mednick",
+        "link": "https://stackoverflow.com/users/17751537/marvin-mednick"
+      }
+    },
+    {
+      "question_id": 72313616,
+      "title": "Using clap&#39;s #[derive(Parser)], how can I accept a std::time::Duration?",
+      "accepted_answer_id": 72314001,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/72313616/using-claps-deriveparser-how-can-i-accept-a-stdtimeduration",
+      "owner": {
+        "display_name": "ddulaney",
+        "link": "https://stackoverflow.com/users/3404377/ddulaney"
+      }
+    },
+    {
+      "question_id": 73050387,
+      "title": "How to provide multiple line help message with Clap?",
+      "accepted_answer_id": 73050563,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/73050387/how-to-provide-multiple-line-help-message-with-clap",
+      "owner": {
+        "display_name": "Yuchen",
+        "link": "https://stackoverflow.com/users/1035008/yuchen"
+      }
+    },
+    {
+      "question_id": 73184371,
+      "title": "Provide Default Value for ArgEnum in Rust Clap CLI",
+      "accepted_answer_id": 73184990,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/73184371/provide-default-value-for-argenum-in-rust-clap-cli",
+      "owner": {
+        "display_name": "Yuchen",
+        "link": "https://stackoverflow.com/users/1035008/yuchen"
+      }
+    },
+    {
+      "question_id": 74068168,
+      "title": "clap.rs not printing colors during `--help`",
+      "accepted_answer_id": 76916424,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/74068168/clap-rs-not-printing-colors-during-help",
+      "owner": {
+        "display_name": "TheFishTheySay",
+        "link": "https://stackoverflow.com/users/14774643/thefishtheysay"
+      }
+    },
+    {
+      "question_id": 44094262,
+      "title": "Iterate through positional arguments with clap",
+      "accepted_answer_id": 44094672,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/44094262/iterate-through-positional-arguments-with-clap",
+      "owner": {
+        "display_name": "tshepang",
+        "link": "https://stackoverflow.com/users/321731/tshepang"
+      }
+    },
+    {
+      "question_id": 55133351,
+      "title": "Is there a way to get clap to use default values from a file?",
+      "accepted_answer_id": 55134333,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/55133351/is-there-a-way-to-get-clap-to-use-default-values-from-a-file",
+      "owner": {
+        "display_name": "picked name",
+        "link": "https://stackoverflow.com/users/11194430/picked-name"
+      }
+    },
+    {
+      "question_id": 74936109,
+      "title": "How to use clap to take create a vector",
+      "accepted_answer_id": 74939325,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/74936109/how-to-use-clap-to-take-create-a-vector",
+      "owner": {
+        "display_name": "Zach W",
+        "link": "https://stackoverflow.com/users/12358090/zach-w"
+      }
+    },
+    {
+      "question_id": 76341332,
+      "title": "Clap - default value for PathBuf",
+      "accepted_answer_id": 76341487,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/76341332/clap-default-value-for-pathbuf",
+      "owner": {
+        "display_name": "Elembivios",
+        "link": "https://stackoverflow.com/users/11874130/elembivios"
+      }
+    },
+    {
+      "question_id": 62491508,
+      "title": "How to use an internal library Enum for Clap Args",
+      "accepted_answer_id": 62491806,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/62491508/how-to-use-an-internal-library-enum-for-clap-args",
+      "owner": {
+        "display_name": "Juxhin",
+        "link": "https://stackoverflow.com/users/3364618/juxhin"
+      }
+    },
+    {
+      "question_id": 72399790,
+      "title": "clap capture all remaining arguments in one field in Derive API?",
+      "accepted_answer_id": 72400169,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/72399790/clap-capture-all-remaining-arguments-in-one-field-in-derive-api",
+      "owner": {
+        "display_name": "Mr.Wang from Next Door",
+        "link": "https://stackoverflow.com/users/325320/mr-wang-from-next-door"
+      }
+    },
+    {
+      "question_id": 73528645,
+      "title": "How to extract config value from env variable with clap derive?",
+      "accepted_answer_id": 73531388,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/73528645/how-to-extract-config-value-from-env-variable-with-clap-derive",
+      "owner": {
+        "display_name": "ditoslav",
+        "link": "https://stackoverflow.com/users/2984585/ditoslav"
+      }
+    },
+    {
+      "question_id": 75549353,
+      "title": "Set default value for argument of type Vec&lt;String&gt; using Clap 4 Rust",
+      "accepted_answer_id": 75549624,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/75549353/set-default-value-for-argument-of-type-vecstring-using-clap-4-rust",
+      "owner": {
+        "display_name": "DavidS",
+        "link": "https://stackoverflow.com/users/509727/davids"
+      }
+    },
+    {
+      "question_id": 76315540,
+      "title": "How do I require one of the two Clap options?",
+      "accepted_answer_id": 76315811,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/76315540/how-do-i-require-one-of-the-two-clap-options",
+      "owner": {
+        "display_name": "Alex Bean",
+        "link": "https://stackoverflow.com/users/5964038/alex-bean"
+      }
+    },
+    {
+      "question_id": 75514455,
+      "title": "How to parse common subcommand arguments with Clap in Rust?",
+      "accepted_answer_id": 75606872,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/75514455/how-to-parse-common-subcommand-arguments-with-clap-in-rust",
+      "owner": {
+        "display_name": "Archirk",
+        "link": "https://stackoverflow.com/users/11308029/archirk"
+      }
+    },
+    {
+      "question_id": 55345730,
+      "title": "How can I prevent the last argument from needing to be quoted with clap?",
+      "accepted_answer_id": 55345899,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/55345730/how-can-i-prevent-the-last-argument-from-needing-to-be-quoted-with-clap",
+      "owner": {
+        "display_name": "Marcelo Boeira",
+        "link": "https://stackoverflow.com/users/1647226/marcelo-boeira"
+      }
+    },
+    {
+      "question_id": 62031710,
+      "title": "Parse user input String with clap for command line programming",
+      "accepted_answer_id": 62031973,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/62031710/parse-user-input-string-with-clap-for-command-line-programming",
+      "owner": {
+        "display_name": "Will Nilges",
+        "link": "https://stackoverflow.com/users/6095682/will-nilges"
+      }
+    },
+    {
+      "question_id": 67205175,
+      "title": "clap default value - how to use it",
+      "accepted_answer_id": 67207021,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/67205175/clap-default-value-how-to-use-it",
+      "owner": {
+        "display_name": "BitTickler",
+        "link": "https://stackoverflow.com/users/2225104/bittickler"
+      }
+    },
+    {
+      "question_id": 74721827,
+      "title": "Add optional to clap rust?",
+      "accepted_answer_id": 74722140,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/74721827/add-optional-to-clap-rust",
+      "owner": {
+        "display_name": "Matt Dovc",
+        "link": "https://stackoverflow.com/users/2006674/matt-dovc"
+      }
+    },
+    {
+      "question_id": 40951538,
+      "title": "Method call on clap::App moving ownership more than once",
+      "accepted_answer_id": 40951660,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/40951538/method-call-on-clapapp-moving-ownership-more-than-once",
+      "owner": {
+        "display_name": "Jiehong",
+        "link": "https://stackoverflow.com/users/1443418/jiehong"
+      }
+    },
+    {
+      "question_id": 53530920,
+      "title": "How do I change the names of the values in a clap argument that takes multiple values?",
+      "accepted_answer_id": 53532256,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/53530920/how-do-i-change-the-names-of-the-values-in-a-clap-argument-that-takes-multiple-v",
+      "owner": {
+        "display_name": "Arnav Borborah",
+        "link": "https://stackoverflow.com/users/6525260/arnav-borborah"
+      }
+    },
+    {
+      "question_id": 58371141,
+      "title": "Idiomatic rust way to properly parse Clap ArgMatches",
+      "accepted_answer_id": 58384722,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/58371141/idiomatic-rust-way-to-properly-parse-clap-argmatches",
+      "owner": {
+        "display_name": "ECO",
+        "link": "https://stackoverflow.com/users/5240269/eco"
+      }
+    },
+    {
+      "question_id": 72320417,
+      "title": "How to make clap ignore a specific field in a struct?",
+      "accepted_answer_id": 72320619,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/72320417/how-to-make-clap-ignore-a-specific-field-in-a-struct",
+      "owner": {
+        "display_name": "Cornelius Roemer",
+        "link": "https://stackoverflow.com/users/7483211/cornelius-roemer"
+      }
+    },
+    {
+      "question_id": 71693683,
+      "title": "rust clap parse ipv4Addr",
+      "accepted_answer_id": 71693818,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/71693683/rust-clap-parse-ipv4addr",
+      "owner": {
+        "display_name": "jonathan-dev",
+        "link": "https://stackoverflow.com/users/6938528/jonathan-dev"
+      }
+    },
+    {
+      "question_id": 73601257,
+      "title": "Clap says `cargo` feature flag is required - what does it mean?",
+      "accepted_answer_id": 73601636,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/73601257/clap-says-cargo-feature-flag-is-required-what-does-it-mean",
+      "owner": {
+        "display_name": "yegor256",
+        "link": "https://stackoverflow.com/users/187141/yegor256"
+      }
+    },
+    {
+      "question_id": 75862240,
+      "title": "Setting in boolean flag in Rust CLI tool using `clap`",
+      "accepted_answer_id": 75862311,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/75862240/setting-in-boolean-flag-in-rust-cli-tool-using-clap",
+      "owner": {
+        "display_name": "Jim",
+        "link": "https://stackoverflow.com/users/19504610/jim"
+      }
+    },
+    {
+      "question_id": 77495294,
+      "title": "CLAP- make an arg conflicting with a group of arg",
+      "accepted_answer_id": 77497137,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/77495294/clap-make-an-arg-conflicting-with-a-group-of-arg",
+      "owner": {
+        "display_name": "Max G.",
+        "link": "https://stackoverflow.com/users/17765797/max-g"
+      }
+    },
+    {
+      "question_id": 49314122,
+      "title": "Using multiple values of an argument in Clap",
+      "accepted_answer_id": 49316606,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/49314122/using-multiple-values-of-an-argument-in-clap",
+      "owner": {
+        "display_name": "ka s",
+        "link": "https://stackoverflow.com/users/7518018/ka-s"
+      }
+    },
+    {
+      "question_id": 65766459,
+      "title": "Use more than one letter in short-value",
+      "accepted_answer_id": 65766570,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/65766459/use-more-than-one-letter-in-short-value",
+      "owner": {
+        "display_name": "kometen",
+        "link": "https://stackoverflow.com/users/319826/kometen"
+      }
+    },
+    {
+      "question_id": 70718779,
+      "title": "How to make one argument imply another without needing an explicit value? (--foo, not --foo true)",
+      "accepted_answer_id": 70726367,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/70718779/how-to-make-one-argument-imply-another-without-needing-an-explicit-value-foo",
+      "owner": {
+        "display_name": "piojo",
+        "link": "https://stackoverflow.com/users/1682146/piojo"
+      }
+    },
+    {
+      "question_id": 72182481,
+      "title": "Return an error and exit gracefully in clap cli",
+      "accepted_answer_id": 72183192,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/72182481/return-an-error-and-exit-gracefully-in-clap-cli",
+      "owner": {
+        "display_name": "theherk",
+        "link": "https://stackoverflow.com/users/2081835/theherk"
+      }
+    },
+    {
+      "question_id": 75046550,
+      "title": "argument validation in clap v4",
+      "accepted_answer_id": 75047382,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/75046550/argument-validation-in-clap-v4",
+      "owner": {
+        "display_name": "ooabc",
+        "link": "https://stackoverflow.com/users/18550286/ooabc"
+      }
+    },
+    {
+      "question_id": 77622002,
+      "title": "Add a custom help message at the end of --help screen with clap-derive",
+      "accepted_answer_id": 77622280,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/77622002/add-a-custom-help-message-at-the-end-of-help-screen-with-clap-derive",
+      "owner": {
+        "display_name": "Yuri Astrakhan",
+        "link": "https://stackoverflow.com/users/177275/yuri-astrakhan"
+      }
+    },
+    {
+      "question_id": 77731653,
+      "title": "How to make clap derive not convert underscores to hyphens in option names",
+      "accepted_answer_id": 77731741,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/77731653/how-to-make-clap-derive-not-convert-underscores-to-hyphens-in-option-names",
+      "owner": {
+        "display_name": "Timmmm",
+        "link": "https://stackoverflow.com/users/265521/timmmm"
+      }
+    },
+    {
+      "question_id": 51143220,
+      "title": "Clap arg group containing arguments with different requirements and conflicts",
+      "accepted_answer_id": 51176028,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/51143220/clap-arg-group-containing-arguments-with-different-requirements-and-conflicts",
+      "owner": {
+        "display_name": "Jonathan Marple",
+        "link": "https://stackoverflow.com/users/8453305/jonathan-marple"
+      }
+    },
+    {
+      "question_id": 54191836,
+      "title": "How can I pass all command line arguments through Clap to another program?",
+      "accepted_answer_id": 54192171,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/54191836/how-can-i-pass-all-command-line-arguments-through-clap-to-another-program",
+      "owner": {
+        "display_name": "HiDefender",
+        "link": "https://stackoverflow.com/users/6844327/hidefender"
+      }
+    },
+    {
+      "question_id": 62249229,
+      "title": "Rust Clap custom headings",
+      "accepted_answer_id": 62426502,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/62249229/rust-clap-custom-headings",
+      "owner": {
+        "display_name": "Joh1998",
+        "link": "https://stackoverflow.com/users/13701412/joh1998"
+      }
+    },
+    {
+      "question_id": 65499965,
+      "title": "How to use unspecified arguments with clap",
+      "accepted_answer_id": 65500084,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/65499965/how-to-use-unspecified-arguments-with-clap",
+      "owner": {
+        "display_name": "Rayder-_-",
+        "link": "https://stackoverflow.com/users/13877985/rayder"
+      }
+    },
+    {
+      "question_id": 73003835,
+      "title": "Using a structure as a command line argument in clap",
+      "accepted_answer_id": 73004278,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/73003835/using-a-structure-as-a-command-line-argument-in-clap",
+      "owner": {
+        "display_name": "montekki",
+        "link": "https://stackoverflow.com/users/10539705/montekki"
+      }
+    },
+    {
+      "question_id": 73357989,
+      "title": "Clap subcommands over multiple rs files",
+      "accepted_answer_id": 73358229,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/73357989/clap-subcommands-over-multiple-rs-files",
+      "owner": {
+        "display_name": "Arend-Jan",
+        "link": "https://stackoverflow.com/users/12965474/arend-jan"
+      }
+    },
+    {
+      "question_id": 74971650,
+      "title": "How do I mock user input in the clap library for Rust?",
+      "accepted_answer_id": 74971864,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/74971650/how-do-i-mock-user-input-in-the-clap-library-for-rust",
+      "owner": {
+        "display_name": "KamiWar",
+        "link": "https://stackoverflow.com/users/10389283/kamiwar"
+      }
+    },
+    {
+      "question_id": 77113537,
+      "title": "How to specify the default value for a vector argument with Clap 4",
+      "accepted_answer_id": 77113685,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/77113537/how-to-specify-the-default-value-for-a-vector-argument-with-clap-4",
+      "owner": {
+        "display_name": "Daniel Porteous",
+        "link": "https://stackoverflow.com/users/3846032/daniel-porteous"
+      }
+    },
+    {
+      "question_id": 78349797,
+      "title": "Is it possible to have multiple long names for the same command-line argument?",
+      "accepted_answer_id": 78354120,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/78349797/is-it-possible-to-have-multiple-long-names-for-the-same-command-line-argument",
+      "owner": {
+        "display_name": "Fayeure",
+        "link": "https://stackoverflow.com/users/13242312/fayeure"
+      }
+    },
+    {
+      "question_id": 47746869,
+      "title": "Is there a way to make clap treat -? the same way as -h?",
+      "accepted_answer_id": 48410827,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/47746869/is-there-a-way-to-make-clap-treat-the-same-way-as-h",
+      "owner": {
+        "display_name": "Kağan Kayal",
+        "link": "https://stackoverflow.com/users/939280/ka%c4%9fan-kayal"
+      }
+    },
+    {
+      "question_id": 49941435,
+      "title": "Clap can not parse YAML file: failed to convert YAML String(&quot;1&quot;) value to a string",
+      "accepted_answer_id": 49943259,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/49941435/clap-can-not-parse-yaml-file-failed-to-convert-yaml-string1-value-to-a-stri",
+      "owner": {
+        "display_name": "m00am",
+        "link": "https://stackoverflow.com/users/2862719/m00am"
+      }
+    },
+    {
+      "question_id": 65260140,
+      "title": "Include long options without short options for help and version",
+      "accepted_answer_id": 65260803,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/65260140/include-long-options-without-short-options-for-help-and-version",
+      "owner": {
+        "display_name": "snapshoe",
+        "link": "https://stackoverflow.com/users/452174/snapshoe"
+      }
+    },
+    {
+      "question_id": 65303960,
+      "title": "clap - how to pass a default_value when returning ArgMatches&lt;&#39;static&gt;",
+      "accepted_answer_id": 65308698,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/65303960/clap-how-to-pass-a-default-value-when-returning-argmatchesstatic",
+      "owner": {
+        "display_name": "nbari",
+        "link": "https://stackoverflow.com/users/1135424/nbari"
+      }
+    },
+    {
+      "question_id": 72715226,
+      "title": "enums in nim for wrapper of c library",
+      "accepted_answer_id": 72725690,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/72715226/enums-in-nim-for-wrapper-of-c-library",
+      "owner": {
+        "display_name": "Alex Gustafson",
+        "link": "https://stackoverflow.com/users/4161408/alex-gustafson"
+      }
+    },
+    {
+      "question_id": 73080343,
+      "title": "Panic while parsing an integer with Clap in Rust",
+      "accepted_answer_id": 73080535,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/73080343/panic-while-parsing-an-integer-with-clap-in-rust",
+      "owner": {
+        "display_name": "natemcintosh",
+        "link": "https://stackoverflow.com/users/9158985/natemcintosh"
+      }
+    },
+    {
+      "question_id": 73215510,
+      "title": "How do I indicate that an argument must be passed?",
+      "accepted_answer_id": 73215572,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/73215510/how-do-i-indicate-that-an-argument-must-be-passed",
+      "owner": {
+        "display_name": "danielrachi",
+        "link": "https://stackoverflow.com/users/14185292/danielrachi"
+      }
+    },
+    {
+      "question_id": 73241041,
+      "title": "what is the correct way to get ownership of an argument with clap?",
+      "accepted_answer_id": 73241284,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/73241041/what-is-the-correct-way-to-get-ownership-of-an-argument-with-clap",
+      "owner": {
+        "display_name": "s1gsegv",
+        "link": "https://stackoverflow.com/users/14572499/s1gsegv"
+      }
+    },
+    {
+      "question_id": 73789062,
+      "title": "How can I make multiple subcommands that do the same thing",
+      "accepted_answer_id": 73790382,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/73789062/how-can-i-make-multiple-subcommands-that-do-the-same-thing",
+      "owner": {
+        "display_name": "Tallented-Code-bot",
+        "link": "https://stackoverflow.com/users/15514088/tallented-code-bot"
+      }
+    },
+    {
+      "question_id": 74465951,
+      "title": "How to parse custom string with Clap derive",
+      "accepted_answer_id": 74507410,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/74465951/how-to-parse-custom-string-with-clap-derive",
+      "owner": {
+        "display_name": "miyoku",
+        "link": "https://stackoverflow.com/users/8281924/miyoku"
+      }
+    },
+    {
+      "question_id": 74987368,
+      "title": "How to use global option when subcommands are defined when using Clap in Rust?",
+      "accepted_answer_id": 74987552,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/74987368/how-to-use-global-option-when-subcommands-are-defined-when-using-clap-in-rust",
+      "owner": {
+        "display_name": "Finlay Weber",
+        "link": "https://stackoverflow.com/users/12303851/finlay-weber"
+      }
+    },
+    {
+      "question_id": 75040742,
+      "title": "Where are clap macros coming from if they are not being imported?",
+      "accepted_answer_id": 75040822,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/75040742/where-are-clap-macros-coming-from-if-they-are-not-being-imported",
+      "owner": {
+        "display_name": "Danilo Souza Mor&#227;es",
+        "link": "https://stackoverflow.com/users/5672459/danilo-souza-mor%c3%a3es"
+      }
+    },
+    {
+      "question_id": 75290258,
+      "title": "Clap - subcommands with possibly shared sets of default values?",
+      "accepted_answer_id": 75290392,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/75290258/clap-subcommands-with-possibly-shared-sets-of-default-values",
+      "owner": {
+        "display_name": "Edward Peters",
+        "link": "https://stackoverflow.com/users/6016064/edward-peters"
+      }
+    },
+    {
+      "question_id": 76393593,
+      "title": "Rust Clap Allow value from selected list",
+      "accepted_answer_id": 76393649,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/76393593/rust-clap-allow-value-from-selected-list",
+      "owner": {
+        "display_name": "alwaysAStudent",
+        "link": "https://stackoverflow.com/users/4078249/alwaysastudent"
+      }
+    },
+    {
+      "question_id": 76986488,
+      "title": "How to rename subcommand placeholder in clap_derive?",
+      "accepted_answer_id": 76986517,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/76986488/how-to-rename-subcommand-placeholder-in-clap-derive",
+      "owner": {
+        "display_name": "user3515670",
+        "link": null
+      }
+    },
+    {
+      "question_id": 51000302,
+      "title": "How to specify a default value for an argument for clap_app! macro?",
+      "accepted_answer_id": 51000926,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/51000302/how-to-specify-a-default-value-for-an-argument-for-clap-app-macro",
+      "owner": {
+        "display_name": "George Shuklin",
+        "link": "https://stackoverflow.com/users/2281274/george-shuklin"
+      }
+    },
+    {
+      "question_id": 52083767,
+      "title": "How do I pass a String to a method accepting Into&lt;&amp;str&gt;?",
+      "accepted_answer_id": 52084145,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/52083767/how-do-i-pass-a-string-to-a-method-accepting-intostr",
+      "owner": {
+        "display_name": "JMAA",
+        "link": "https://stackoverflow.com/users/4956078/jmaa"
+      }
+    },
+    {
+      "question_id": 54252825,
+      "title": "Is it possible to configure argument groups of unknown size with Clap?",
+      "accepted_answer_id": 54335252,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/54252825/is-it-possible-to-configure-argument-groups-of-unknown-size-with-clap",
+      "owner": {
+        "display_name": "Pascal Precht",
+        "link": "https://stackoverflow.com/users/1531806/pascal-precht"
+      }
+    },
+    {
+      "question_id": 54837057,
+      "title": "How can I display help after calling Clap&#39;s get_matches?",
+      "accepted_answer_id": 54837323,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/54837057/how-can-i-display-help-after-calling-claps-get-matches",
+      "owner": {
+        "display_name": "Omar Abid",
+        "link": "https://stackoverflow.com/users/12637/omar-abid"
+      }
+    },
+    {
+      "question_id": 55148856,
+      "title": "How do I use STDIN if no positional arguments are given with clap?",
+      "accepted_answer_id": 55150936,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/55148856/how-do-i-use-stdin-if-no-positional-arguments-are-given-with-clap",
+      "owner": {
+        "display_name": "Scott Colby",
+        "link": "https://stackoverflow.com/users/600882/scott-colby"
+      }
+    },
+    {
+      "question_id": 64963625,
+      "title": "The trait `std::convert::From&lt;cli::Opts&gt;` is not implemented",
+      "accepted_answer_id": 64964083,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/64963625/the-trait-stdconvertfromcliopts-is-not-implemented",
+      "owner": {
+        "display_name": "Yury",
+        "link": "https://stackoverflow.com/users/1108213/yury"
+      }
+    },
+    {
+      "question_id": 66735838,
+      "title": "cannot move out of *** which is behind a shared reference (Clap)",
+      "accepted_answer_id": 66738252,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/66735838/cannot-move-out-of-which-is-behind-a-shared-reference-clap",
+      "owner": {
+        "display_name": "Manthan Dave",
+        "link": "https://stackoverflow.com/users/929496/manthan-dave"
+      }
+    },
+    {
+      "question_id": 71408192,
+      "title": "Migrating clap-rs from 3-beta to 3-stable: `error: no method named `about` found for struct `Arg` in the current scope`",
+      "accepted_answer_id": 71412130,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/71408192/migrating-clap-rs-from-3-beta-to-3-stable-error-no-method-named-about-found",
+      "owner": {
+        "display_name": "ditoslav",
+        "link": "https://stackoverflow.com/users/2984585/ditoslav"
+      }
+    },
+    {
+      "question_id": 73230133,
+      "title": "How to verify that the command line arguments can be found in a given array?",
+      "accepted_answer_id": 73235204,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/73230133/how-to-verify-that-the-command-line-arguments-can-be-found-in-a-given-array",
+      "owner": {
+        "display_name": "danielrachi",
+        "link": "https://stackoverflow.com/users/14185292/danielrachi"
+      }
+    },
+    {
+      "question_id": 73889392,
+      "title": "How do I allow uppercase flags in Clap?",
+      "accepted_answer_id": 73889478,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/73889392/how-do-i-allow-uppercase-flags-in-clap",
+      "owner": {
+        "display_name": "Allabouthow",
+        "link": "https://stackoverflow.com/users/20116009/allabouthow"
+      }
+    },
+    {
+      "question_id": 73930260,
+      "title": "How do I allow muti-option flags in Clap?",
+      "accepted_answer_id": 73931040,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/73930260/how-do-i-allow-muti-option-flags-in-clap",
+      "owner": {
+        "display_name": "LithiumFish",
+        "link": "https://stackoverflow.com/users/20146070/lithiumfish"
+      }
+    },
+    {
+      "question_id": 74914318,
+      "title": "How to create a custom derive macro for clap structs in rust?",
+      "accepted_answer_id": 74915743,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/74914318/how-to-create-a-custom-derive-macro-for-clap-structs-in-rust",
+      "owner": {
+        "display_name": "sbb",
+        "link": "https://stackoverflow.com/users/16519172/sbb"
+      }
+    },
+    {
+      "question_id": 75089091,
+      "title": "How to add long-form subcommand documentation in a clap CLI?",
+      "accepted_answer_id": 75089620,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/75089091/how-to-add-long-form-subcommand-documentation-in-a-clap-cli",
+      "owner": {
+        "display_name": "Peteris",
+        "link": "https://stackoverflow.com/users/733545/peteris"
+      }
+    },
+    {
+      "question_id": 75235520,
+      "title": "How to stop warnings about parentheses required by clap macros?",
+      "accepted_answer_id": 75235613,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/75235520/how-to-stop-warnings-about-parentheses-required-by-clap-macros",
+      "owner": {
+        "display_name": "fadedbee",
+        "link": "https://stackoverflow.com/users/129805/fadedbee"
+      }
+    },
+    {
+      "question_id": 75611314,
+      "title": "How can I make clap ignore flags after a certain subcommand?",
+      "accepted_answer_id": 75612059,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/75611314/how-can-i-make-clap-ignore-flags-after-a-certain-subcommand",
+      "owner": {
+        "display_name": "yottalogical",
+        "link": "https://stackoverflow.com/users/11097906/yottalogical"
+      }
+    },
+    {
+      "question_id": 77212702,
+      "title": "Divide subcommands into groups using Clap",
+      "accepted_answer_id": 77215627,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/77212702/divide-subcommands-into-groups-using-clap",
+      "owner": {
+        "display_name": "DHP",
+        "link": "https://stackoverflow.com/users/6366418/dhp"
+      }
+    },
+    {
+      "question_id": 77678412,
+      "title": "Understanding `default_value_t` and `default_missing_value` in clap v4 crate for Rust",
+      "accepted_answer_id": 77678477,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/77678412/understanding-default-value-t-and-default-missing-value-in-clap-v4-crate-for",
+      "owner": {
+        "display_name": "Foo the Frog",
+        "link": "https://stackoverflow.com/users/23120126/foo-the-frog"
+      }
+    },
+    {
+      "question_id": 77908700,
+      "title": "How to pass String as Into&lt;Str&gt; argument when using Clap?",
+      "accepted_answer_id": 77908790,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/77908700/how-to-pass-string-as-intostr-argument-when-using-clap",
+      "owner": {
+        "display_name": "Игорь Павленко",
+        "link": "https://stackoverflow.com/users/23182239/%d0%98%d0%b3%d0%be%d1%80%d1%8c-%d0%9f%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%ba%d0%be"
+      }
+    },
+    {
+      "question_id": 79131463,
+      "title": "Ergonomic runtime-default args with Clap derive API",
+      "accepted_answer_id": 79131517,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/79131463/ergonomic-runtime-default-args-with-clap-derive-api",
+      "owner": {
+        "display_name": "Brendan",
+        "link": "https://stackoverflow.com/users/1582407/brendan"
+      }
+    },
+    {
+      "question_id": 79181039,
+      "title": "rust clap default_values_t for a vector, where flag may repeat and may not",
+      "accepted_answer_id": 79184041,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/79181039/rust-clap-default-values-t-for-a-vector-where-flag-may-repeat-and-may-not",
+      "owner": {
+        "display_name": "P34R",
+        "link": "https://stackoverflow.com/users/14683234/p34r"
+      }
+    },
+    {
+      "question_id": 79738190,
+      "title": "clap command or entity name",
+      "accepted_answer_id": 79738224,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/79738190/clap-command-or-entity-name",
+      "owner": {
+        "display_name": "Marcelo",
+        "link": "https://stackoverflow.com/users/2581842/marcelo"
+      }
+    },
+    {
+      "question_id": 48676079,
+      "title": "Is there a way to make clap override the [ -h | --help ] flags help text?",
+      "accepted_answer_id": 48676226,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/48676079/is-there-a-way-to-make-clap-override-the-h-help-flags-help-text",
+      "owner": {
+        "display_name": "Just Somebody",
+        "link": "https://stackoverflow.com/users/9330525/just-somebody"
+      }
+    },
+    {
+      "question_id": 66221754,
+      "title": "What are valid characters and how to escape in clap.rs arguments?",
+      "accepted_answer_id": 66222274,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/66221754/what-are-valid-characters-and-how-to-escape-in-clap-rs-arguments",
+      "owner": {
+        "display_name": "ditoslav",
+        "link": "https://stackoverflow.com/users/2984585/ditoslav"
+      }
+    },
+    {
+      "question_id": 71858753,
+      "title": "How to Get Matches From a Parser Derived Struct?",
+      "accepted_answer_id": 71858885,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/71858753/how-to-get-matches-from-a-parser-derived-struct",
+      "owner": {
+        "display_name": "P3X-774",
+        "link": "https://stackoverflow.com/users/8773999/p3x-774"
+      }
+    },
+    {
+      "question_id": 73364389,
+      "title": "I can&#39;t seem to get my clap parser to take in a vector of string AND use flags",
+      "accepted_answer_id": 73364400,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/73364389/i-cant-seem-to-get-my-clap-parser-to-take-in-a-vector-of-string-and-use-flags",
+      "owner": {
+        "display_name": "Sarah",
+        "link": "https://stackoverflow.com/users/17483600/sarah"
+      }
+    },
+    {
+      "question_id": 73605192,
+      "title": "Why clap contains_id() always returns TRUE?",
+      "accepted_answer_id": 73605242,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/73605192/why-clap-contains-id-always-returns-true",
+      "owner": {
+        "display_name": "yegor256",
+        "link": "https://stackoverflow.com/users/187141/yegor256"
+      }
+    },
+    {
+      "question_id": 73848357,
+      "title": "What is the best way of handling error in rust? (CLI with clap)",
+      "accepted_answer_id": 73849655,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/73848357/what-is-the-best-way-of-handling-error-in-rust-cli-with-clap",
+      "owner": {
+        "display_name": "sbb",
+        "link": "https://stackoverflow.com/users/16519172/sbb"
+      }
+    },
+    {
+      "question_id": 76418682,
+      "title": "How to eval program output in PowerShell",
+      "accepted_answer_id": 76419003,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/76418682/how-to-eval-program-output-in-powershell",
+      "owner": {
+        "display_name": "Huw Walters",
+        "link": "https://stackoverflow.com/users/291033/huw-walters"
+      }
+    },
+    {
+      "question_id": 77104706,
+      "title": "Unable to Use Variable as default_value in Clap with Lifetime Issue",
+      "accepted_answer_id": 77104956,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/77104706/unable-to-use-variable-as-default-value-in-clap-with-lifetime-issue",
+      "owner": {
+        "display_name": "florin staicu",
+        "link": "https://stackoverflow.com/users/9148474/florin-staicu"
+      }
+    },
+    {
+      "question_id": 78295897,
+      "title": "How to get the ValueSource for an argument?",
+      "accepted_answer_id": 78296011,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/78295897/how-to-get-the-valuesource-for-an-argument",
+      "owner": {
+        "display_name": "A Bit of Help",
+        "link": "https://stackoverflow.com/users/1736615/a-bit-of-help"
+      }
+    },
+    {
+      "question_id": 79351373,
+      "title": "How to print version and custom command line argument value using clap crate",
+      "accepted_answer_id": 79351448,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/79351373/how-to-print-version-and-custom-command-line-argument-value-using-clap-crate",
+      "owner": {
+        "display_name": "Harry",
+        "link": "https://stackoverflow.com/users/3938402/harry"
+      }
+    },
+    {
+      "question_id": 79673767,
+      "title": "How can I avoid the empty string in a `Vec&lt;String&gt;` parsed from an environment variable?",
+      "accepted_answer_id": 79673819,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/79673767/how-can-i-avoid-the-empty-string-in-a-vecstring-parsed-from-an-environment-v",
+      "owner": {
+        "display_name": "wolf07ss",
+        "link": "https://stackoverflow.com/users/19958858/wolf07ss"
+      }
+    },
+    {
+      "question_id": 72145042,
+      "title": "Clap raw bytes arguments",
+      "accepted_answer_id": 72150818,
+      "score": -1,
+      "link": "https://stackoverflow.com/questions/72145042/clap-raw-bytes-arguments",
+      "owner": {
+        "display_name": "amaelFr",
+        "link": "https://stackoverflow.com/users/11527546/amaelfr"
+      }
+    },
+    {
+      "question_id": 77102760,
+      "title": "Migrating Clap CLI Argument Definitions from Version 2.33.3 to 4.4.2",
+      "accepted_answer_id": 77103677,
+      "score": -1,
+      "link": "https://stackoverflow.com/questions/77102760/migrating-clap-cli-argument-definitions-from-version-2-33-3-to-4-4-2",
+      "owner": {
+        "display_name": "florin staicu",
+        "link": "https://stackoverflow.com/users/9148474/florin-staicu"
+      }
+    },
+    {
+      "question_id": 78384549,
+      "title": "How to call a function with clap",
+      "accepted_answer_id": 78384588,
+      "score": -1,
+      "link": "https://stackoverflow.com/questions/78384549/how-to-call-a-function-with-clap",
+      "owner": {
+        "display_name": "user18928131",
+        "link": null
+      }
+    },
+    {
+      "question_id": 78633090,
+      "title": "How to enable this Clap script to pass arguments as -i and -l?",
+      "accepted_answer_id": 78633790,
+      "score": -1,
+      "link": "https://stackoverflow.com/questions/78633090/how-to-enable-this-clap-script-to-pass-arguments-as-i-and-l",
+      "owner": {
+        "display_name": "wyc",
+        "link": "https://stackoverflow.com/users/122536/wyc"
+      }
+    },
+    {
+      "question_id": 67298901,
+      "title": "How do I use Clap to parse filenames?",
+      "accepted_answer_id": 67299456,
+      "score": -2,
+      "link": "https://stackoverflow.com/questions/67298901/how-do-i-use-clap-to-parse-filenames",
+      "owner": {
+        "display_name": "ArekBulski",
+        "link": "https://stackoverflow.com/users/2375119/arekbulski"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 79673819,
+      "body": "<p>At the end I solved it using this approach not happy but at least works fine. I was looking for a something easier:</p>\n<pre><code>#[clap(\n long,\n env = &quot;TODAY_CUSTOMERS&quot;,\n value_delimiter = ',',\n)]\npub(crate) customers: Customers,\n\n#[derive(Debug, Clone, PartialEq, Eq, Hash, serde::Serialize, serde::Deserialize)]\npub struct Customers(Vec&lt;String&gt;);\n\nimpl FromStr for Customers {\n    type Err = String;\n\n    fn from_str(s: &amp;str) -&gt; Result&lt;Self, Self::Err&gt; {\n        if s.is_empty() {\n            Ok(Customers(vec![]))\n        } else {\n            let values: Vec&lt;String&gt; = s\n                .split(',')\n                .map(|v| v.trim().to_string())\n                .filter(|v| !v.is_empty())\n                .collect();\n            Ok(Customers(values))\n        }\n    }\n}\n\nimpl&lt;'a&gt; IntoIterator for &amp;'a GRPCFallbacks {\n    type Item = &amp;'a String;\n    type IntoIter = std::slice::Iter&lt;'a, String&gt;;\n\n    fn into_iter(self) -&gt; Self::IntoIter {\n        self.0.iter()\n    }\n}\n\nimpl Deref for Customers {\n    type Target = Vec&lt;String&gt;;\n    fn deref(&amp;self) -&gt; &amp;Self::Target {\n        &amp;self.0\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "wolf07ss",
+        "link": "https://stackoverflow.com/users/19958858/wolf07ss"
+      }
+    },
+    {
+      "answer_id": 79738224,
+      "body": "<p>I'll start by saying that, at least in this case, I think the requested flow is a bad one. <code>command CATEGORY VERB NOUN [NOUN...]</code> is probably the best way to set this up, e.g.</p>\n<pre><code>$ cli node create &lt;NAME&gt;\n$ cli node get &lt;NAME&gt;\n$ cli node link &lt;SRC&gt; &lt;TARGET&gt;\n</code></pre>\n<p>However, I was able to come up with some code that works:</p>\n<pre><code>#[derive(Subcommand)]\nenum Commands {\n    /// Node operations\n    Node(NodeCommand),\n}\n\n#[derive(Args)]\nstruct NodeCommand {\n    /// Optional node name used with certain subcommands, e.g. `node &lt;NAME&gt; link &lt;TARGET&gt;`\n    #[arg(value_name = &quot;NAME&quot;)]\n    name: Option&lt;String&gt;,\n\n    /// Node subcommands (e.g. `create`, `get`, `link`)\n    ///\n    /// For `link`, the NAME should be provided before the subcommand:\n    ///     `dcli node &lt;NAME&gt; link &lt;TARGET&gt;`\n    #[command(subcommand)]\n    action: Option&lt;NodeAction&gt;,\n}\n\n#[derive(Subcommand)]\nenum NodeAction {\n    Create { name: String },\n    Get { name: String },\n    Link { target: String },\n}\n</code></pre>\n<p>then in your main function:</p>\n<pre><code>let cli = Cli::parse();\nmatch cli.command {\n    Commands::Node(node_cmd) =&gt; {\n        match node_cmd.action {\n            Some(NodeAction::Create { name }) =&gt; {\n                println!(&quot;Created node '{}'&quot;, name);\n                todo!()\n            }\n            Some(NodeAction::Get { name }) =&gt; {\n                println!(name);\n                todo!()\n            }\n            Some(NodeAction::Link { target }) =&gt; {\n                // NAME must come before the subcommand for `link`\n                let Some(name) = node_cmd.name.as_deref() else {\n                    // name wasn't given, which is bad.\n                    std::process::exit(2);\n                };\n                println!(&quot;Linked '{}' -&gt; '{}'&quot;, name, target);\n                todo!()\n            }\n            None =&gt; {\n                // No subcommand supplied; provide a helpful message.\n                todo!()\n                std::process::exit(2);\n            }\n        }\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Adam Smith",
+        "link": "https://stackoverflow.com/users/3058609/adam-smith"
+      }
+    },
+    {
+      "answer_id": 79351448,
+      "body": "<p>The auto-generated <code>version</code> has the action <code>ArgAction::Version</code>, which only shows the name and version.</p>\n<p>If you want to customize the behavior, you need to disable the auto-generated one and add a new one like this:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::{crate_name, crate_version, Parser};\n\n#[derive(Debug, Parser)]\n#[command(disable_version_flag = true)]\nstruct Args {\n    #[arg(short, long)]\n    name: String,\n\n    #[arg(short, long, default_value_t = 1)]\n    count: u8,\n\n    #[arg(short = 'V', long, help = &quot;Print version&quot;)]\n    version: bool,\n}\n\nfn main() {\n    let args = Args::parse();\n\n    if args.version {\n        for _ in 0..args.count {\n            println!(&quot;Hello, {}!&quot;, args.name);\n        }\n\n        println!(&quot;{} {}&quot;, crate_name!(), crate_version!());\n    }\n}\n</code></pre>\n<p>Notice: <code>crate_name!</code> and <code>crate_version!</code> needs clap's <code>cargo</code> feature.</p>\n",
+      "owner": {
+        "display_name": "Campbell He",
+        "link": "https://stackoverflow.com/users/15766817/campbell-he"
+      }
+    },
+    {
+      "answer_id": 79184041,
+      "body": "<p>From what I can tell, you are implicitly expecting a 1-to-1 relation between the elements of <code>names</code> and of <code>name_types</code>. Well, you haven't told clap about it, nor is <code>clap</code> suitable for specifying this kind of non-trivial logical relations - that's not the job of a command line parser.</p>\n<p>Instead, probably the best way to do this is to keep your <code>clap</code> stuff simple. Then write custom logic to &quot;post-process&quot; <code>clap</code>'s output into a structure that properly encodes the logical relation, and use that in your core application.</p>\n<p>Here's what I would write. Bear in mind I personally prefer a declarative and functional style, but this could be just as well written imperatively.</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::{CommandFactory, FromArgMatches, Parser, ValueEnum};\n\n// ValueEnum is probably the better way to do this\n// unless your type is actually more complicated than in this example\n#[derive(Debug, Copy, Clone, ValueEnum)]\nenum MyType {\n    A,\n    B,\n}\n\n#[derive(Debug, Parser)]\nstruct Cli {\n    // #[clap(...)] is deprecated\n    #[arg(long = &quot;type&quot;)]\n    pub name_types: Vec&lt;MyType&gt;,\n\n    // num_args doesn't do what you probably think it does\n    // see https://github.com/clap-rs/clap/issues/4507#issuecomment-1372250231\n    #[arg(long = &quot;name&quot;, required = true)]\n    pub names: Vec&lt;String&gt;,\n}\n\n// this type properly expresses the logical relation\n// &quot;each name must have an associated type&quot;\n#[derive(Debug)]\nstruct User {\n    name: String,\n    name_type: MyType,\n}\n\nfn main() {\n    let matches = Cli::command().get_matches();\n    let Cli { name_types, names } = Cli::from_arg_matches(&amp;matches).unwrap();\n\n    // get the applicable index range of the `--type` option for each name\n    // the `--type` options found between a `--name` and the next is applicable\n    let applicable_type_index_ranges = {\n        // get indices of `names`\n        let mut name_indices = matches\n            .indices_of(&quot;names&quot;)\n            .into_iter()\n            .flatten()\n            .collect::&lt;Vec&lt;_&gt;&gt;();\n        // for the last `--name` option, the upper index is unbounded\n        name_indices.push(std::usize::MAX);\n        name_indices\n            .windows(2)\n            .map(|window| match window {\n                [start, end] =&gt; (*start, *end),\n                _ =&gt; unreachable!(),\n            })\n            .collect::&lt;Vec&lt;_&gt;&gt;()\n    };\n    assert_eq!(names.len(), applicable_type_index_ranges.len());\n\n    // pair the `--type` options with their indices\n    let name_types_with_indices = {\n        let type_indices = matches\n            .indices_of(&quot;name_types&quot;)\n            .into_iter()\n            .flatten()\n            .collect::&lt;Vec&lt;_&gt;&gt;();\n        assert_eq!(name_types.len(), type_indices.len());\n        name_types.into_iter().zip(type_indices).collect::&lt;Vec&lt;_&gt;&gt;()\n    };\n\n    // construct `User`s with types properly assigned\n    let users = names\n        .into_iter()\n        .zip(applicable_type_index_ranges)\n        .map(|(name, (start_idx, end_idx))| {\n            let name_type = name_types_with_indices\n                .iter()\n                // only `--type` options within the range are applicable\n                .filter_map(|&amp;(t, idx)| (idx &gt; start_idx &amp;&amp; idx &lt; end_idx).then_some(t))\n                // assuming you want the last applicable `--type` to take precedence\n                .last()\n                // your default value if no `--type` is present\n                .unwrap_or(MyType::A);\n            User { name, name_type }\n        })\n        .collect::&lt;Vec&lt;_&gt;&gt;();\n\n    dbg!(users);\n}\n</code></pre>\n<pre class=\"lang-bash prettyprint-override\"><code>$ cargo run -- --name romeo --type b --name juliett\n[src/main.rs:86:5] users = [\n    User {\n        name: &quot;romeo&quot;,\n        name_type: B,\n    },\n    User {\n        name: &quot;juliett&quot;,\n        name_type: A,\n    },\n]\n</code></pre>\n<p>As you can see, it can be done but it's non-trivial, with plenty of places where it would be weird for <code>clap</code> to make an opinionated design decision for you.</p>\n",
+      "owner": {
+        "display_name": "cyqsimon",
+        "link": "https://stackoverflow.com/users/5637701/cyqsimon"
+      }
+    },
+    {
+      "answer_id": 79131517,
+      "body": "<p>The expression you pass to <code>default_value_t</code> doesn't have to be a constant.</p>\n<p>For any argument type that implements the required traits, including <code>Display</code>, you could do this:</p>\n<pre><code>use std::path::PathBuf;\nuse clap::Parser;\n\n#[derive(Parser, Debug, Clone)]\npub struct Opts {\n    #[clap(long, default_value_t = default_result_db())]\n    pub result_db: String,\n}\n\nfn default_result_db() -&gt; String {\n    todo!();\n}\n</code></pre>\n<p>Since <code>PathBuf</code> doesn't directly implement <code>Display</code>, you could make a wrapper:</p>\n<pre><code>use std::ops::Deref;\nuse clap::Parser;\nuse std::fmt::{self, Debug, Display, Formatter};\nuse std::path::PathBuf;\nuse std::str::FromStr;\n\n#[derive(Parser, Debug, Clone)]\npub struct Opts {\n    #[clap(long, default_value_t = default_result_db())]\n    pub result_db: DisplayablePathBuf,\n}\n\nfn default_result_db() -&gt; DisplayablePathBuf {\n    todo!();\n}\n\n#[derive(Clone)]\npub struct DisplayablePathBuf(PathBuf);\n\nimpl FromStr for DisplayablePathBuf {\n    type Err = &lt;PathBuf as FromStr&gt;::Err;\n    fn from_str(s: &amp;str) -&gt; Result&lt;Self, Self::Err&gt; {\n        PathBuf::from_str(s).map(Self)\n    }\n}\n\nimpl Debug for DisplayablePathBuf {\n    fn fmt(&amp;self, f: &amp;mut Formatter) -&gt; fmt::Result {\n        Debug::fmt(&amp;self.0, f)\n    }\n}\n\nimpl Display for DisplayablePathBuf {\n    fn fmt(&amp;self, f: &amp;mut Formatter) -&gt; fmt::Result {\n        Display::fmt(&amp;self.0.display(), f)\n    }\n}\n\nimpl Deref for DisplayablePathBuf {\n    type Target = PathBuf;\n    \n    fn deref(&amp;self) -&gt; &amp;PathBuf {\n        &amp;self.0\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Finn Bear",
+        "link": "https://stackoverflow.com/users/3064544/finn-bear"
+      }
+    },
+    {
+      "answer_id": 76393649,
+      "body": "<p>I assume you're using <a href=\"https://docs.rs/clap/3.2.23/clap/index.html\" rel=\"nofollow noreferrer\">3.2.23</a>.</p>\n<p>There are at least two way. Both way requires you to create <a href=\"https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html\" rel=\"nofollow noreferrer\"><code>enum</code></a>:</p>\n<ol>\n<li>derive <a href=\"https://docs.rs/clap/3.2.23/clap/trait.ValueEnum.html\" rel=\"nofollow noreferrer\"><code>clap::ValueEnum</code></a> on the <code>enum</code> (seems prefered way, because the parser can show or suggest from allowed values)</li>\n<li>alternatively, implement <a href=\"https://doc.rust-lang.org/std/str/trait.FromStr.html\" rel=\"nofollow noreferrer\"><code>FromStr</code></a> trait (you can use <a href=\"https://docs.rs/strum/0.24.1/strum/index.html\" rel=\"nofollow noreferrer\"><code>strum</code></a> crate to reduce boilerplate)</li>\n</ol>\n",
+      "owner": {
+        "display_name": "user-id-14900042",
+        "link": "https://stackoverflow.com/users/14900042/user-id-14900042"
+      }
+    },
+    {
+      "answer_id": 78633790,
+      "body": "<p>A command field of the form</p>\n<pre class=\"lang-rust prettyprint-override\"><code>    #[clap(value_enum)]\n    command: Command,\n</code></pre>\n<p>Describes a <em>positional argument</em>, the value of which needs to match one of the enum variants. With variants <code>I</code> and <code>L</code>, <code>Cli</code> will expect either <code>i</code> or <code>l</code> at the first argument position, and not both. Multi-letter values are supported in this position.</p>\n<p>Arguments with a preceding <code>-</code> or <code>--</code> are conventionally for flags and options. Since this argument was not specified as a flag, it does not expect <code>-i</code> or <code>-l</code>.</p>\n<p>As this is an attempt at implementing subcommands, the most idiomatic way to achieve what you want is:</p>\n<ol>\n<li>Declare <code>command</code> as a subcommand instead of an argument with a fixed list of choices;</li>\n<li>Then to support flags, add <code>short_flag</code> and/or <code>long_flag</code> to the subcommands available.</li>\n</ol>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Parser)]\nstruct Cli {\n    #[clap(subcommand)]\n    command: Command,\n}\n\n#[derive(Copy, Clone, PartialEq, Eq, PartialOrd, Ord, Parser)]\nenum Command {\n    /// increment numbers\n    #[clap(short_flag('i'))]\n    I,\n    /// increment letters\n    #[clap(short_flag('l'))]\n    L,\n}\n</code></pre>\n<p>The resulting help output:</p>\n<pre class=\"lang-none prettyprint-override\"><code>Usage: trs &lt;COMMAND&gt;\n\nCommands:\n  i, -i  increment numbers\n  l, -l  increment letters\n  help   Print this message or the help of the given subcommand(s)\n\nOptions:\n  -h, --help  Print help\n</code></pre>\n<p><a href=\"https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2021&amp;gist=6c4aacb821dfddbf9da2356a2b64f3cc\" rel=\"nofollow noreferrer\">Playground</a></p>\n",
+      "owner": {
+        "display_name": "E_net4",
+        "link": "https://stackoverflow.com/users/1233251/e-net4"
+      }
+    },
+    {
+      "answer_id": 78384588,
+      "body": "<p>This is not the job of Clap. Clap is a command-line arguments <em>parser</em>, and that's it.</p>\n<p>After Clap processes the user's arguments, you can do whatever you want with them, including calling your function:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::{Arg, ArgAction, Command};\n\npub fn args() -&gt; Command {\n    Command::new(&quot;admin-cli&quot;)\n        .about(&quot;CLI to manage admin tasks&quot;)\n        .arg_required_else_help(true)\n        .allow_external_subcommands(false)\n        .arg(\n            Arg::new(&quot;blocklist&quot;)\n                .long(&quot;blocklist&quot;)\n                .help(&quot;Storing the blocklists of SteveBlack in the database&quot;)\n                .action(ArgAction::SetTrue),\n        )\n}\n\nfn main() {\n    let cmd = args();\n    let args = cmd.get_matches();\n\n    if args.get_flag(&quot;blocklist&quot;) {\n        // Call your function here.\n        println!(&quot;Hi from blocklist!&quot;);\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Chayim Friedman",
+        "link": "https://stackoverflow.com/users/7884305/chayim-friedman"
+      }
+    },
+    {
+      "answer_id": 78354120,
+      "body": "<p>I need to use the <code>alias</code> argument to <code>arg</code> for that (or <code>visible_alias</code> if I want it to display on the help message)</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[arg(short, long, visible_alias = &quot;silent&quot;)]\nquiet: bool,\n</code></pre>\n",
+      "owner": {
+        "display_name": "Fayeure",
+        "link": "https://stackoverflow.com/users/13242312/fayeure"
+      }
+    },
+    {
+      "answer_id": 78296011,
+      "body": "<p>You can't use <code>parse</code> as that already does all the parsing and throws away the information you need. Instead you have to use <code>App::command().get_matches()</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>    use clap::CommandFactory;\n    let matches = App::command().get_matches_from([&quot;self&quot;, &quot;-c&quot;, &quot;foo&quot;, &quot;container&quot;]);\n    if let Some((_subcommand_name, subcommand_matches)) = matches.subcommand() {\n        match subcommand_matches.value_source(&quot;name&quot;) {\n            Some(ValueSource::DefaultValue) =&gt; println!(&quot;Is the default value&quot;),\n            Some(ValueSource::EnvVariable) =&gt; println!(&quot;Is the envvar value&quot;),\n            Some(ValueSource::CommandLine) =&gt; println!(&quot;Is the commandline value&quot;),\n            Some(_) =&gt; println!(&quot;Unknown source for the value...&quot;),\n            None =&gt; (),\n        }\n    }\n</code></pre>\n<p>and you can later get the <code>App</code> using <code>FromArgMatches</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>    use clap::FromArgMatches;\n    let app = App::from_arg_matches(&amp;matches).unwrap();\n</code></pre>\n",
+      "owner": {
+        "display_name": "cafce25",
+        "link": "https://stackoverflow.com/users/442760/cafce25"
+      }
+    },
+    {
+      "answer_id": 74722140,
+      "body": "<p>It's perhaps a bit confusing. When a named argument is optional, you don't see anything telling you that specifically; you just get something like this:</p>\n<pre><code>Usage: command [OPTIONS]\n\nOptions:\n  -a, --areas            if areas.csv to download\n  -n, --number &lt;NUMBER&gt;  [default: 1]\n  -h, --help             Print help information\n  -V, --version          Print version information\n</code></pre>\n<p>When <code>--areas</code> is required, the help output now includes <code>--areas</code> in the &quot;Usage:&quot; line:</p>\n<pre><code>Usage: command [OPTIONS] --areas\n\nOptions:\n  -a, --areas            if areas.csv to download\n  -n, --number &lt;NUMBER&gt;  [default: 1]\n  -h, --help             Print help information\n  -V, --version          Print version information\n</code></pre>\n<p>The presence of <code>--areas</code> in the <code>Usage</code> section lets you know it's required, and its absence tells you it's optional.</p>\n",
+      "owner": {
+        "display_name": "BallpointBen",
+        "link": "https://stackoverflow.com/users/5496433/ballpointben"
+      }
+    },
+    {
+      "answer_id": 77908790,
+      "body": "<p>From <a href=\"https://docs.rs/clap/latest/clap/builder/struct.Str.html\" rel=\"nofollow noreferrer\"><code>Str</code></a>:</p>\n<blockquote>\n<p><strong>NOTE:</strong> To support dynamic values (i.e. <code>String</code>), enable the <code>string</code> feature</p>\n</blockquote>\n<p>You can use cargo to add the <code>string</code> feature:</p>\n<pre><code>cargo add clap -F string\n</code></pre>\n<p>Or you can edit Cargo.toml manually:</p>\n<pre class=\"lang-ini prettyprint-override\"><code>[dependencies]\nclap = { version = &quot;4.4.18&quot;, features = [&quot;string&quot;] }\n</code></pre>\n",
+      "owner": {
+        "display_name": "drewtato",
+        "link": "https://stackoverflow.com/users/6274355/drewtato"
+      }
+    },
+    {
+      "answer_id": 76916424,
+      "body": "<p>Create the styles yourself</p>\n<pre class=\"lang-rust prettyprint-override\"><code>pub fn get_styles() -&gt; clap::builder::Styles {\n    clap::builder::Styles::styled()\n        .usage(\n            anstyle::Style::new()\n                .bold()\n                .underline()\n                .fg_color(Some(anstyle::Color::Ansi(anstyle::AnsiColor::Yellow))),\n        )\n        .header(\n            anstyle::Style::new()\n                .bold()\n                .underline()\n                .fg_color(Some(anstyle::Color::Ansi(anstyle::AnsiColor::Yellow))),\n        )\n        .literal(\n            anstyle::Style::new().fg_color(Some(anstyle::Color::Ansi(anstyle::AnsiColor::Green))),\n        )\n        .invalid(\n            anstyle::Style::new()\n                .bold()\n                .fg_color(Some(anstyle::Color::Ansi(anstyle::AnsiColor::Red))),\n        )\n        .error(\n            anstyle::Style::new()\n                .bold()\n                .fg_color(Some(anstyle::Color::Ansi(anstyle::AnsiColor::Red))),\n        )\n        .valid(\n            anstyle::Style::new()\n                .bold()\n                .underline()\n                .fg_color(Some(anstyle::Color::Ansi(anstyle::AnsiColor::Green))),\n        )\n        .placeholder(\n            anstyle::Style::new().fg_color(Some(anstyle::Color::Ansi(anstyle::AnsiColor::White))),\n        )\n}\n</code></pre>\n<p>And then call it with styles</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[command(styles=get_styles())]\npub struct CliArgs {\n...\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Praveen Perera",
+        "link": "https://stackoverflow.com/users/1438508/praveen-perera"
+      }
+    },
+    {
+      "answer_id": 77731741,
+      "body": "<p>You can either override arg name by providing <code>#[arg(long(&quot;custom_name&quot;)]</code></p>\n<pre class=\"lang-rust prettyprint-override\"><code>/// Simple program to greet a person\n#[derive(Parser, Debug)]\n#[command(author, version, about, long_about = None)]\nstruct Args {\n    /// Name of the person to greet\n    #[arg(short, long(&quot;full_name&quot;))]\n    full_name: String,\n}\n</code></pre>\n<p>or if you want to use <code>snake_case</code> naming for all args you can change default renaming convention by setting <code>#[command(rename_all = &quot;snake_case&quot;)]</code></p>\n<pre class=\"lang-rust prettyprint-override\"><code>/// Simple program to greet a person\n#[derive(Parser, Debug)]\n#[command(author, version, about, long_about = None, rename_all = &quot;snake_case&quot;)]\nstruct Args {\n    /// Name of the person to greet\n    #[arg(short, long)]\n    full_name: String,\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Aleksander Krauze",
+        "link": "https://stackoverflow.com/users/13078067/aleksander-krauze"
+      }
+    },
+    {
+      "answer_id": 77678477,
+      "body": "<p>All the various directives are documented more extensively as methods of <a href=\"https://docs.rs/clap/latest/clap/struct.Arg.html\" rel=\"nofollow noreferrer\"><code>clap::Arg</code></a>.</p>\n<blockquote>\n<p>As I understand it, default_missing_value appears to be useful when, let's say an argument --foo can take multiple values.</p>\n</blockquote>\n<p>It does not have anything to do with mutliple values.</p>\n<blockquote>\n<p>However to me, default_value_t seems to serve the same or a similar purpose?</p>\n</blockquote>\n<p>They have similar but different purposes, per the documentation linked above:</p>\n<blockquote>\n<pre><code>pub fn default_value(self, val: impl IntoResettable&lt;OsStr&gt;) -&gt; Arg\n</code></pre>\n<p>Value for the argument when not present.</p>\n</blockquote>\n<blockquote>\n<pre><code>pub fn default_missing_value(self, val: impl IntoResettable&lt;OsStr&gt;) -&gt; Arg\n</code></pre>\n<p>Value for the argument when the flag is present but no value is specified.</p>\n</blockquote>\n<p>So <code>default_value</code><sup>[0]</sup> is invoked when the argument is <em>missing</em> from the command line e.g.</p>\n<pre><code>git diff\n</code></pre>\n<p>while <code>default_missing_value</code> is invoked when the argument is present but has no value e.g.</p>\n<pre><code>git diff --color\n</code></pre>\n<p>In the case of git the former means &quot;defer to the configuration file (/ whether stdout is a term)&quot; while the latter means &quot;force colorized output&quot;. That is why they are both set, with different behaviours.</p>\n<hr>\n<p><b>[0]</b> the declarative <code>default_value_t</code> and <code>default_value</code> map to essentially the same thing, it's just that the former is post-parse (e.g. it might be a number) while the latter is pre-parse (it's always a string literal).</p>\n",
+      "owner": {
+        "display_name": "Masklinn",
+        "link": "https://stackoverflow.com/users/8182118/masklinn"
+      }
+    },
+    {
+      "answer_id": 77622280,
+      "body": "<p>You're looking for the <a href=\"https://docs.rs/clap/latest/clap/struct.Command.html#method.after_help\" rel=\"noreferrer\"><code>after_help</code> property</a></p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Parser, Debug, Default)]\n#[command(about, version, after_help = \n    &quot;Some very long explanation that should be printed at the end of the help screen&quot;\n)]\npub struct Args {\n    /// Path to a file.\n    #[arg(short, long)]\n    pub file: Option&lt;PathBuf&gt;,\n}\n</code></pre>\n<p><a href=\"https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2021&amp;gist=bffa7482ab66502dd195bfd8449208c9\" rel=\"noreferrer\">playground</a></p>\n",
+      "owner": {
+        "display_name": "PitaJ",
+        "link": "https://stackoverflow.com/users/847382/pitaj"
+      }
+    },
+    {
+      "answer_id": 76341487,
+      "body": "<p>Due to the fact that the default values get printed in the help (<code>--help</code>/<code>-h</code>) page, they have to implement <code>Display</code>.</p>\n<p><code>PathBuf</code> sadly doesn't do so, so you can't use <code>default_value_t</code> to provide a default for it. You can, however, use <code>default_value</code> without a problem.</p>\n<p>The next problem you will face is that by default, clap only supports static string references for default values. To enable dynamic, owned values for defaults, you need to enable the <code>string</code> feature of clap in your <code>Cargo.toml</code>:</p>\n<pre class=\"lang-ini prettyprint-override\"><code>clap = { version = &quot;4.3.0&quot;, features = [&quot;derive&quot;, &quot;string&quot;] }\n</code></pre>\n<p>Then, the following works:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::Parser;\nuse std::{env, path::PathBuf};\n\nfn get_default_log_path() -&gt; PathBuf {\n    let mut path = env::current_exe().unwrap();\n    path.pop();\n    path.push(&quot;log/debug.log&quot;);\n    path\n}\n\n#[derive(Parser, Debug)]\nstruct Cli {\n    #[arg(default_value=get_default_log_path().into_os_string())]\n    log_path: PathBuf,\n}\n\nfn main() {\n    let args = Cli::parse();\n    println!(&quot;{:?}&quot;, args);\n}\n</code></pre>\n<pre><code>$ cargo build --release\n...\n\n$ target\\release\\rust-tmp.exe\nCli { log_path: &quot;D:\\\\Projects\\\\rust-tmp\\\\target\\\\release\\\\log/debug.log&quot; }\n\n$ target\\release\\rust-tmp.exe --help\nCli { log_path: &quot;D:\\\\Projects\\\\rust-tmp\\\\target\\\\release\\\\log/debug.log&quot; }\n\nD:\\Projects\\rust-tmp&gt;target\\release\\rust-tmp.exe --help\nUsage: rust-tmp.exe [LOG_PATH]\n\nArguments:\n  [LOG_PATH]  [default: D:\\Projects\\rust-tmp\\target\\release\\log/debug.log]\n\nOptions:\n  -h, --help  Print help\n</code></pre>\n<p>Be aware of the mixed <code>/</code> and <code>\\</code>, though. Don't use <code>/</code> in a <code>PathBuf</code> - use multiple <code>push()</code>s instead. Like this:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::Parser;\nuse std::{env, path::PathBuf};\n\nfn get_default_log_path() -&gt; PathBuf {\n    let mut path = env::current_exe().unwrap();\n    path.pop();\n    path.push(&quot;log&quot;);\n    path.push(&quot;debug.log&quot;);\n    path\n}\n\n#[derive(Parser, Debug)]\nstruct Cli {\n    #[arg(default_value=get_default_log_path().into_os_string())]\n    log_path: PathBuf,\n}\n\nfn main() {\n    let args = Cli::parse();\n    println!(&quot;{:?}&quot;, args);\n}\n</code></pre>\n<pre><code>Cli { log_path: &quot;D:\\\\Projects\\\\rust-tmp\\\\target\\\\release\\\\log\\\\debug.log&quot; }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Finomnis",
+        "link": "https://stackoverflow.com/users/2902833/finomnis"
+      }
+    },
+    {
+      "answer_id": 77497137,
+      "body": "<p>Clap subcommands names can contain dashes, so the solution is simple (if tricky):</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::{Parser, Subcommand};\n\n#[derive(Parser)]\nstruct Cli {\n    #[command(subcommand)]\n    command: CreateCommand,\n}\n\n#[derive(Subcommand)]\nenum CreateCommand {\n    Create {\n        #[command(subcommand)]\n        fruit: FruitCommands,\n    },\n}\n\n#[derive(Subcommand)]\nenum FruitCommands {\n    #[command(name = &quot;--fruit&quot;)]\n    Fruit {\n        #[arg(long)]\n        weight: u32,\n        #[arg(long)]\n        country: String,\n    },\n    #[command(name = &quot;--vegetable&quot;)]\n    Vegetable {\n        #[arg(long)]\n        r#type: String,\n        #[arg(long)]\n        destination: String,\n    },\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Chayim Friedman",
+        "link": "https://stackoverflow.com/users/7884305/chayim-friedman"
+      }
+    },
+    {
+      "answer_id": 72314001,
+      "body": "<h3>Clap 3.0:</h3>\n<p>To do custom parsing, you should use <code>#[clap(parse(try_from_str = ...))]</code> and define a custom function to parsing the argument. Here's an example:</p>\n<pre><code>use clap::Parser;\n\n#[derive(Debug, Parser)]\npub struct Config {\n    #[clap(parse(try_from_str = parse_duration))]\n    interval: std::time::Duration,\n}\n\nfn parse_duration(arg: &amp;str) -&gt; Result&lt;std::time::Duration, std::num::ParseIntError&gt; {\n    let seconds = arg.parse()?;\n    Ok(std::time::Duration::from_secs(seconds))\n}\n</code></pre>\n<hr />\n<h3>Clap 4.0:</h3>\n<p>Almost same as above; the helper function can stay the same, but the attribute syntax has changed:</p>\n<pre><code>use clap::Parser;\n\n#[derive(Debug, Parser)]\npub struct Config {\n    #[arg(value_parser = parse_duration)]\n    interval: std::time::Duration,\n}\n\nfn parse_duration(arg: &amp;str) -&gt; Result&lt;std::time::Duration, std::num::ParseIntError&gt; {\n    let seconds = arg.parse()?;\n    Ok(std::time::Duration::from_secs(seconds))\n}\n</code></pre>\n<hr />\n<h3>Parsing with humantime</h3>\n<p>This parsing is pretty limited (I don't know what format you'd expect the duration to be in), but it shows how you'd do it.</p>\n<p>If you want to be flexible with your duration arguments, consider using a crate like <a href=\"https://crates.io/crates/humantime\" rel=\"noreferrer\">humantime</a>, which lets you provide durations with unit labels like <code>&quot;5s&quot;</code> or <code>&quot;3 hours&quot;</code>.  You can either use their helper function to parse into a <code>std::time::Duration</code> (using clap 4 syntax):</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::Parser;\n\n#[derive(Debug, Parser)]\npub struct Config {\n    #[clap(value_parser = humantime::parse_duration, default_value = &quot;500ms&quot;)]\n    interval: std::time::Duration,\n}\n</code></pre>\n<p>Or you can use <a href=\"https://docs.rs/humantime/2.1.0/humantime/struct.Duration.html\" rel=\"noreferrer\"><code>humantime::Duration</code></a> without special attributes since it implements <code>FromStr</code>.</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::Parser;\n\n#[derive(Debug, Parser)]\npub struct Config {\n    #[clap(default_value = &quot;500ms&quot;)]\n    interval: humantime::Duration,\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "kmdreko",
+        "link": "https://stackoverflow.com/users/2189130/kmdreko"
+      }
+    },
+    {
+      "answer_id": 49316606,
+      "body": "<p>You can do it by using the <a href=\"https://docs.rs/clap/2.31.1/clap/struct.ArgMatches.html#method.values_of\" rel=\"nofollow noreferrer\"><code>values_of</code></a> method:</p>\n<pre><code>let dir_names: Vec&lt;&amp;str&gt; = m.values_of(&quot;output&quot;).unwrap().collect();\n</code></pre>\n<p>In current version of <code>clap</code> (4.4.7), this has been replaced by <a href=\"https://docs.rs/clap/latest/clap/struct.ArgMatches.html#method.get_many\" rel=\"nofollow noreferrer\"><code>get_many</code></a>:</p>\n<pre><code>let dir_names: Vec&lt;&amp;str&gt; = m.get_many (&quot;output&quot;).unwrap().collect();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jmb",
+        "link": "https://stackoverflow.com/users/5397009/jmb"
+      }
+    },
+    {
+      "answer_id": 77215627,
+      "body": "<p>The usage text in clap has one section for subcommands, and therefore one heading. It shows all the available subcommands. You can set that header with <code>subcommand_help_heading</code>, so if your <code>Commands</code> struct had this additional attribute:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Subcommand)]\n#[command(subcommand_help_heading = &quot;MyAwesomeHeading&quot;)]\npub enum Commands {\n  // ... snip ...\n}\n</code></pre>\n<p>you would get, for <code>--help</code>:</p>\n<pre><code>My command line interface.\n\nUsage: my_program &lt;COMMAND&gt;\n\nMyAwesomeHeading:\n  subcommand1  Determine reads mapping to sample-specific MAGs\n  subcommand2  Create sketches from FASTA/Q file(s)\n  help         Print this message or the help of the given subcommand(s)\n\nOptions:\n  -h, --help  Print help\n</code></pre>\n<p>As far as I can see there's no easy way to tell <code>clap</code> to include multiple subcommand headings in the main help text. But if you have multiple <em>nested</em> subcommands inside of your commands, then you can control the help text for them. For example, say we define the <code>Subcommand1Args</code> as:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Parser)]\npub struct Subcommand1Args {\n    #[command(subcommand)]\n    sub: Subcommands1,\n}\n\n#[derive(Subcommand)]\npub enum Subcommands1 {\n    // Do A\n    A,\n    // Do B\n    B(IntArg)\n}\n\n#[derive(Parser)]\npub struct IntArg {\n    arg: u32\n}\n</code></pre>\n<p>Then by using <strong><code>subcommand1 --help</code></strong> you get:</p>\n<pre><code>Determine reads mapping to sample-specific MAGs\n\nUsage: playground subcommand1 &lt;COMMAND&gt;\n\nFirstHeading:\n  a     Do A\n  b     Do B\n  help  Print this message or the help of the given subcommand(s)\n\nOptions:\n  -h, --help  Print help\n</code></pre>\n<p>You can see the <code>FirstHeading</code> value from <code>subcommand_help_heading</code> applied for <code>Subcommand1</code> being used here.</p>\n<p>Subcommands are basically nested sub-clis, and they get their own help pages.</p>\n<p>Full code <a href=\"https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2021&amp;gist=288ea1cefa2d4c15c58a45eb7cec2285\" rel=\"nofollow noreferrer\">in play.rust-lang</a>.</p>\n",
+      "owner": {
+        "display_name": "V0ldek",
+        "link": "https://stackoverflow.com/users/4646738/v0ldek"
+      }
+    },
+    {
+      "answer_id": 77113685,
+      "body": "<p>I believe you want <code>default_values_t</code> (note the <code>s</code>). <code>default_value_t</code> requires the type to implement <code>Display</code> or <code>ValueEnum</code> which of course <code>Vec&lt;T&gt;</code> does not. But <code>default_values_t</code> requires the type to be a <code>Vec&lt;T&gt;</code> where only <code>T</code> has to implement <code>Display</code> or <code>ValueEnum</code>, which is exactly what you have.</p>\n<p>Docs page: <a href=\"https://docs.rs/clap/4.3.9/clap/_derive/index.html\" rel=\"nofollow noreferrer\">https://docs.rs/clap/4.3.9/clap/_derive/index.html</a></p>\n<ul>\n<li><code>default_value = &lt;str&gt;</code>: <a href=\"https://docs.rs/clap/latest/clap/struct.Arg.html#method.default_value\" rel=\"nofollow noreferrer\" title=\"method clap::Arg::default_value\"><code>Arg::default_value</code></a> and <a href=\"https://docs.rs/clap/latest/clap/struct.Arg.html#method.required\" rel=\"nofollow noreferrer\" title=\"method clap::Arg::required\"><code>Arg::required(false)</code></a></li>\n<li><code>default_value_t [= &lt;expr&gt;]</code>: <a href=\"https://docs.rs/clap/latest/clap/struct.Arg.html#method.default_value\" rel=\"nofollow noreferrer\" title=\"method clap::Arg::default_value\"><code>Arg::default_value</code></a> and <a href=\"https://docs.rs/clap/latest/clap/struct.Arg.html#method.required\" rel=\"nofollow noreferrer\" title=\"method clap::Arg::required\"><code>Arg::required(false)</code></a>\n<ul>\n<li>Requires <code>std::fmt::Display</code> that roundtrips correctly with the <a href=\"https://docs.rs/clap/latest/clap/struct.Arg.html#method.value_parser\" rel=\"nofollow noreferrer\" title=\"method clap::Arg::value_parser\"><code>Arg::value_parser</code></a> or <code>#[arg(value_enum)]</code></li>\n<li>Without <code>&lt;expr&gt;</code>, relies on <code>Default::default()</code></li>\n</ul>\n</li>\n<li><code>default_values_t = &lt;expr&gt;</code>: <a href=\"https://docs.rs/clap/latest/clap/struct.Arg.html#method.default_values\" rel=\"nofollow noreferrer\" title=\"method clap::Arg::default_values\"><code>Arg::default_values</code></a> and <a href=\"https://docs.rs/clap/latest/clap/struct.Arg.html#method.required\" rel=\"nofollow noreferrer\" title=\"method clap::Arg::required\"><code>Arg::required(false)</code></a>\n<ul>\n<li>Requires field arg to be of type <code>Vec&lt;T&gt;</code> and <code>T</code> to implement <code>std::fmt::Display</code> or <code>#[arg(value_enum)]</code></li>\n<li><code>&lt;expr&gt;</code> must implement <code>IntoIterator&lt;T&gt;</code></li>\n</ul>\n</li>\n</ul>\n",
+      "owner": {
+        "display_name": "BallpointBen",
+        "link": "https://stackoverflow.com/users/5496433/ballpointben"
+      }
+    },
+    {
+      "answer_id": 77104956,
+      "body": "<p>Just pass <code>default_threads_name</code> itself and not a reference to it:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>let matches = Command::new(&quot;test&quot;)\n    .version(&quot;1.0&quot;)\n    .subcommand_required(true)\n    .about(&quot;uploader&quot;)\n    .arg(\n        Arg::new(&quot;threadsHash&quot;)\n            .long(&quot;threadsHash&quot;)\n            .value_name(&quot;THREADS_HASH&quot;)\n            .default_value(default_threads_name)\n            .help(&quot;Number of threads for hashing&quot;),\n    )\n    .get_matches();\n</code></pre>\n<p>You need to enable the <code>string</code> feature of <code>clap</code> as well.</p>\n",
+      "owner": {
+        "display_name": "Chayim Friedman",
+        "link": "https://stackoverflow.com/users/7884305/chayim-friedman"
+      }
+    },
+    {
+      "answer_id": 77103677,
+      "body": "<p>From the <a href=\"https://github.com/clap-rs/clap/blob/master/CHANGELOG.md#migrating\" rel=\"nofollow noreferrer\">migration guide</a>:</p>\n<blockquote>\n<p><code>arg!</code> now sets one of (#3795):</p>\n<ul>\n<li><code>ArgAction::SetTrue</code>, requiring <code>ArgMatches::get_flag</code> instead of <code>ArgMatches::is_present</code></li>\n<li><code>ArgAction::Count</code>, requiring <code>ArgMatches::get_count</code> instead of <code>ArgMatches::occurrences_of</code></li>\n</ul>\n</blockquote>\n",
+      "owner": {
+        "display_name": "cafce25",
+        "link": "https://stackoverflow.com/users/442760/cafce25"
+      }
+    },
+    {
+      "answer_id": 76986517,
+      "body": "<p>You need to set <code>subcommand_value_name = &quot;action&quot;</code> in the <code>#[command]</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::{Parser, Subcommand};\n\n#[derive(Debug, Parser)]\n#[command(\n    author,\n    version,\n    about,\n    long_about = &quot;Frobnicate the fizzbuzz&quot;,\n    subcommand_value_name = &quot;action&quot;\n)]\nstruct Args {\n    #[arg(index = 1, name = &quot;xml_file&quot;, help = &quot;The base XML file to operate on&quot;)]\n    file: String,\n    #[command(subcommand, name = &quot;action&quot;)]\n    action: Action,\n}\n\n#[derive(Clone, Debug, Subcommand)]\npub enum Action {\n    #[command(long_about = &quot;Add a new type&quot;)]\n    Add,\n    #[command(long_about = &quot;Display the selected type's properties&quot;)]\n    Find,\n}\n\nfn main() {\n    Args::parse();\n}\n</code></pre>\n<p>Output:</p>\n<pre><code>Usage: playground &lt;xml_file&gt; &lt;action&gt;\n\nCommands:\n  add   Add a new type\n  find  Display the selected type's properties\n  help  Print this message or the help of the given subcommand(s)\n\nArguments:\n  &lt;xml_file&gt;  The base XML file to operate on\n\nOptions:\n  -h, --help     Print help (see more with '--help')\n  -V, --version  Print version\n</code></pre>\n<p><a href=\"https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2021&amp;gist=72cbea10ffccaae00b7471f0cc35a48a\" rel=\"noreferrer\">Playground</a></p>\n<hr />\n<p>You can change the <code>Commands:</code> in the help message to <code>Actions:</code> with <code>subcommand_help_heading</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[command(\n    author,\n    version,\n    about,\n    long_about = &quot;Frobnicate the fizzbuzz&quot;,\n    subcommand_help_heading = &quot;Actions&quot;,\n    subcommand_value_name = &quot;action&quot;\n)]\n</code></pre>\n<p>Output:</p>\n<pre><code>Usage: playground &lt;xml_file&gt; &lt;action&gt;\n\nActions:\n  add   Add a new type\n  find  Display the selected type's properties\n  help  Print this message or the help of the given subcommand(s)\n\nArguments:\n  &lt;xml_file&gt;  The base XML file to operate on\n\nOptions:\n  -h, --help     Print help (see more with '--help')\n  -V, --version  Print version\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dogbert",
+        "link": "https://stackoverflow.com/users/320615/dogbert"
+      }
+    },
+    {
+      "answer_id": 76419003,
+      "body": "<p><code>Invoke-Expression</code> doesn't call a script, it evaluates a string. So the first step is to evaluate, which is basically the same as in bash.</p>\n<pre><code>ex --completion=ps\n</code></pre>\n<p>If this was one line, this would be a string, but it's multiple lines, so this returns an array of strings. You need to join them. <code>Out-String</code> is one way of doing that.</p>\n<pre><code>ex --completion=ps | Out-String\n</code></pre>\n<p>This can be fed into <code>Invoke-Expression</code>.</p>\n<pre><code>ex --completion=ps | Out-String | Invoke-Expression\n</code></pre>\n<p>You can put this line in your powershell <a href=\"https://learn.microsoft.com/en-us/powershell/scripting/learn/shell/creating-profiles\" rel=\"nofollow noreferrer\">profile</a>.</p>\n",
+      "owner": {
+        "display_name": "drewtato",
+        "link": "https://stackoverflow.com/users/6274355/drewtato"
+      }
+    },
+    {
+      "answer_id": 76315811,
+      "body": "<p>You need to introduce an <a href=\"https://docs.rs/clap/latest/clap/struct.ArgGroup.html\" rel=\"noreferrer\"><code>ArgGroup</code></a>. To do that with the derive macros, create a struct <code>Group</code> and store it in <code>MyCommand</code>, and define it to be a group that is required but disallow multiple values:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Debug, clap::Args)]\n#[clap(name = &quot;command&quot;)]\npub struct MyCommand {\n    #[clap(flatten)]\n    group: Group,\n    #[clap(name = &quot;others&quot;, long)]\n    other_commands: Option&lt;String&gt;,\n}\n\n#[derive(Debug, clap::Args)]\n#[group(required = true, multiple = false)]\npub struct Group {\n    /// Argument1.\n    #[clap(short, long)]\n    command_a: Option&lt;String&gt;,\n    /// Argument2.\n    #[clap(short, long)]\n    command_b: Option&lt;String&gt;,\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Chayim Friedman",
+        "link": "https://stackoverflow.com/users/7884305/chayim-friedman"
+      }
+    },
+    {
+      "answer_id": 75862311,
+      "body": "<p><code>bool</code> options don't need to be wrapped in <code>Option</code> to be optional. They are set to <code>false</code> by default and <code>true</code> if their name is passed as argument. This should work:</p>\n<pre><code>#[clap(short, long)]\npub recursive: bool,\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dogbert",
+        "link": "https://stackoverflow.com/users/320615/dogbert"
+      }
+    },
+    {
+      "answer_id": 75612059,
+      "body": "<p>A few thing will be helpful here:</p>\n<ul>\n<li><p><a href=\"https://docs.rs/clap/4.1.8/clap/builder/struct.Arg.html#method.trailing_var_arg\" rel=\"nofollow noreferrer\"><code>Arg::trailing_var_arg</code></a>: Tells clap that this is a &quot;VarArg&quot; and everything that follows should be captured by it, as if the user had used a <code>--</code>.</p>\n</li>\n<li><p><a href=\"https://docs.rs/clap/4.1.8/clap/builder/struct.Arg.html#method.allow_hyphen_values\" rel=\"nofollow noreferrer\"><code>Arg::allow_hyphen_values</code></a>: Tells clap to allow values which start with a leading hyphen (<code>-</code>).</p>\n</li>\n<li><p><a href=\"https://docs.rs/clap/4.1.8/clap/struct.Command.html#method.disable_help_flag\" rel=\"nofollow noreferrer\"><code>Command::disable_help_flag</code></a>: Tells clap to not look for a <code>--help</code> flag after this command (or subcommand), and to instead treat it as a raw value.</p>\n</li>\n</ul>\n<p>These options aren't all supported by the clap derive interface, so you will have to implement the <code>Args</code> trait manually using the builder interface. Here's how you could do that for the example in the question:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Debug, Parser)]\nstruct Cli {\n    #[command(subcommand)]\n    pub command: Commands,\n}\n\n#[derive(Debug, Subcommand)]\nenum Commands {\n    Run(RunArgs),\n}\n\n#[derive(Debug)]\nstruct RunArgs {\n    executable: OsString,\n    args: Vec&lt;OsString&gt;,\n}\n\nimpl FromArgMatches for RunArgs {\n    fn from_arg_matches(matches: &amp;ArgMatches) -&gt; Result&lt;Self, clap::Error&gt; {\n        let executable = matches\n            .get_raw(&quot;executable&quot;)\n            .and_then(|mut executable| executable.next())\n            .map(|executable| executable.to_owned())\n            .ok_or(clap::Error::new(ErrorKind::MissingRequiredArgument))?;\n\n        let args = matches\n            .get_raw(&quot;args&quot;)\n            .unwrap_or_default()\n            .map(|i| i.to_owned())\n            .collect();\n\n        Ok(Self { executable, args })\n    }\n\n    fn update_from_arg_matches(&amp;mut self, matches: &amp;ArgMatches) -&gt; Result&lt;(), clap::Error&gt; {\n        *self = Self::from_arg_matches(matches)?;\n\n        Ok(())\n    }\n}\n\nimpl Args for RunArgs {\n    fn augment_args(cmd: Command) -&gt; Command {\n        cmd.disable_help_flag(true)\n            .arg(\n                Arg::new(&quot;executable&quot;)\n                    .required(true)\n                    .allow_hyphen_values(true),\n            )\n            .arg(\n                Arg::new(&quot;args&quot;)\n                    .action(ArgAction::Append)\n                    .allow_hyphen_values(true)\n                    .trailing_var_arg(true),\n            )\n    }\n\n    fn augment_args_for_update(cmd: Command) -&gt; Command {\n        Self::augment_args(cmd)\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "qianfg",
+        "link": "https://stackoverflow.com/users/573789/qianfg"
+      }
+    },
+    {
+      "answer_id": 75606872,
+      "body": "<p>I'm just beginning with clap as well. While it does not entirely match your issue, I've just came across this <a href=\"https://github.com/clap-rs/clap/discussions/2559\" rel=\"noreferrer\">Github discussion</a>.</p>\n<p>It would fit your needs if all your subcommands need this parameter (that's my case). The code examples are from my project, but the idea is to use the <a href=\"https://docs.rs/clap/latest/clap/builder/struct.Arg.html#method.global\" rel=\"noreferrer\"><code>global</code> method of the Arg struct</a>, which allows an argument to be matched to all child <code>Subcommand</code>s:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Parser, Debug)]\n#[command(author, version, about, long_about = None)]\nstruct Cli {\n    #[command(subcommand)]\n    command: Commands,\n\n    #[arg(global=true)]  // &lt;-- here\n    file: Option&lt;String&gt;\n}\n</code></pre>\n<p>Even though the <strong>global help</strong> stays the same:</p>\n<pre><code>$ cargo run -- -h\n[...]\nUsage: fed [FILE] &lt;COMMAND&gt;\n[...]\n</code></pre>\n<p>, the <strong>subcommand helps</strong> are updated:</p>\n<pre><code>$ cargo run -- insert -h\n[...]\nUsage: fed insert -n &lt;N&gt; --line &lt;LINE&gt; [FILE]\n[...]\n</code></pre>\n<p>This probably has limits and it still allows the <code>file</code> argument to be given first, but there might be some way to improve this. I'll update this answer if I find something better in the future. Cheers!</p>\n",
+      "owner": {
+        "display_name": "Chocorean",
+        "link": "https://stackoverflow.com/users/10166067/chocorean"
+      }
+    },
+    {
+      "answer_id": 75549624,
+      "body": "<p>The solution is a single letter: <code>default_values_t</code> instead of <code>default_value_t</code>.</p>\n<pre class=\"lang-rs prettyprint-override\"><code>#[arg(default_values_t = [&quot;-&quot;.to_string()])]\n</code></pre>\n<p>You also don't need <code>vec!</code> because it takes <code>IntoIterator&lt;Item = String&gt;</code>.</p>\n",
+      "owner": {
+        "display_name": "drewtato",
+        "link": "https://stackoverflow.com/users/6274355/drewtato"
+      }
+    },
+    {
+      "answer_id": 72183192,
+      "body": "<p>I'm personally a big fan of error wrapper libraries like <a href=\"https://crates.io/crates/anyhow\" rel=\"nofollow noreferrer\">anyhow</a>, <a href=\"https://crates.io/crates/eyre\" rel=\"nofollow noreferrer\">eyre</a> or <a href=\"https://crates.io/crates/miette\" rel=\"nofollow noreferrer\">miette</a>.</p>\n<p>Some remarks:</p>\n<ul>\n<li>consider using <code>.map_err()</code> instead of <code>match</code> for transposing an error into a different one, it's a lot more compact and easier to read</li>\n<li>consider using the <code>?</code> operator instead of <code>return</code> to propagate errors upwards. The <code>?</code> operator is a short version of &quot;unwrap if Ok and return error if Err&quot; and makes code a lot easier to read.</li>\n</ul>\n<p>Here's an example using <code>anyhow</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>fn main() -&gt; anyhow::Result&lt;()&gt; {\n    let repo = Repository::open(&quot;.&quot;).map_err(|_| anyhow!(&quot;must be run from root of repository&quot;))?;\n    let args = Cli::parse();\n    match args.command {\n        Commands::Do =&gt; {\n            println!(&quot;{:?}: Doing a thing with the repository.&quot;, repo.workdir());\n        }\n    }\n    Ok(())\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Finomnis",
+        "link": "https://stackoverflow.com/users/2902833/finomnis"
+      }
+    },
+    {
+      "answer_id": 75290392,
+      "body": "<p>Use <code>#[command(flatten)]</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Subcommand, Debug)]\nenum Simulation {\n    Maze {\n        #[command(flatten)]\n        maze_args: MazeCli,\n        #[command(flatten)]\n        thread_args: ThreadCli,\n    },\n    ThreadedMaze {\n        #[command(flatten)]\n        maze_args: MazeCli,\n    },\n    Threaded {\n        #[command(flatten)]\n        thread_args: ThreadCli,\n    },\n}\n</code></pre>\n<blockquote>\n<p>Can I make the default values somehow fall back to a Default trait implementation for that struct?</p>\n</blockquote>\n<p>Use <code>default_value_t</code> without a parameter. It defaults to <code>Default::default()</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Args, Debug, Clone)]\nstruct MazeCli {\n    #[arg(long, default_value_t)]\n    squares: usize, // Will be optional with a default of 0\n    openness: f64,\n}\n</code></pre>\n<blockquote>\n<p>If this is possible at all, is there any way for specific subcommands to override generic defaults for their specific case (like, if one simulation wanted twice as many threads as the norm by default.)</p>\n</blockquote>\n<p>I don't think it's possible without using separate structs.</p>\n",
+      "owner": {
+        "display_name": "PitaJ",
+        "link": "https://stackoverflow.com/users/847382/pitaj"
+      }
+    },
+    {
+      "answer_id": 75235613,
+      "body": "<p>It's hard to judge whether this is a bug of rustc (warning in macros even when this is incorrect) or of clap (expanding to a code including unnecessary parentheses) but this is definitely not your fault. Unfortunately, it seems the best you can do is to <code>#[allow(unused_parens)]</code> for the whole module. You can separate the struct into a different module to minimize the impact:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[allow(unused_parens)]\nmod args {\n    #[derive(Parser, Debug)]\n    #[command(author, version, about, long_about = None)]\n    pub(super) struct Args {\n        #[arg(short, long, default_value_t = (&quot;/dev/ttyUSB3&quot;.to_string()))]\n        pub(super) modem_path: String,\n    \n        // ...\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Chayim Friedman",
+        "link": "https://stackoverflow.com/users/7884305/chayim-friedman"
+      }
+    },
+    {
+      "answer_id": 75089620,
+      "body": "<p>You're looking for <code>#[verbatim_doc_comment]</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Debug, Subcommand)]\nenum Commands {\n    /// Create a new config file\n    ///\n    /// Line one\n    ///    Line two\n    #[command(verbatim_doc_comment)]\n    Init,\n}\n</code></pre>\n<p>Output:</p>\n<pre><code>Create a new config file\n\nLine one\n   Line two\n\nUsage: cli init\n\nOptions:\n  -h, --help\n          Print help information (use `-h` for a summary)\n</code></pre>\n<p><a href=\"https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2021&amp;gist=13f6c3b6c21350f4b6ad9dc34124d003\" rel=\"nofollow noreferrer\">playground</a></p>\n",
+      "owner": {
+        "display_name": "PitaJ",
+        "link": "https://stackoverflow.com/users/847382/pitaj"
+      }
+    },
+    {
+      "answer_id": 75047382,
+      "body": "<p>Let's take a look at the <code>From</code> impl you're invoking:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>impl&lt;P&gt; From&lt;P&gt; for ValueParser\nwhere\n    P: TypedValueParser + Send + Sync + 'static,\n</code></pre>\n<p>Ok, take a look at <code>TypedValueParser</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>impl&lt;F, T, E&gt; TypedValueParser for F\nwhere\n    F: Fn(&amp;str) -&gt; Result&lt;T, E&gt; + Clone + Send + Sync + 'static,\n    E: Into&lt;Box&lt;dyn std::error::Error + Send + Sync + 'static&gt;&gt;,\n    T: Send + Sync + Clone,\n</code></pre>\n<p>So, the signature is not <code>Fn(&amp;str) -&gt; Result&lt;&amp;str, E&gt;</code>, it is <code>&lt;T&gt; Fn(&amp;str) -&gt; Result&lt;T, E&gt;</code>. Is it different? Can't we just put <code>&amp;str</code> in the place of <code>T</code>?</p>\n<p>It is <em>very</em> different. Let's annotate the lifetimes:</p>\n<pre><code>// Fn(&amp;str) -&gt; Result&lt;&amp;str, E&gt;\nfor&lt;'a&gt; Fn(&amp;'a str) -&gt; Result&lt;&amp;'a str, E&gt;\n\n// &lt;T&gt; Fn(&amp;str) -&gt; Result&lt;T, E&gt;\n&lt;&amp;'b str&gt; for&lt;'a&gt; Fn(&amp;'a str) -&gt; Result&lt;&amp;'b str, E&gt;\n</code></pre>\n<p>Where does <code>'b</code> come from? It can't be HRTB, as it is declared in the <code>impl</code> header (<code>T</code>) and not the trait bound (<code>Fn</code>). Therefore, it must be a fixed lifetime. See the mismatch? The lifetimes I called <code>'a</code> and <code>'b</code> are what the compiler calls <code>'1</code> and <code>'2</code>, respectively. If <code>'b</code> is fixed, it cannot be derived from the dynamic HRTB <code>'a</code>.</p>\n<p>The fix is simple: just don't return <code>&amp;str</code>, return <code>String</code> instead:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>pub fn validator_regex(r: &amp;'static str) -&gt; ValueParser {\n    ValueParser::from(move |s: &amp;str| -&gt; std::result::Result&lt;String, Error&gt; {\n        let reg = regex::Regex::new(r).unwrap();\n        match reg.is_match(s) {\n            true =&gt; Ok(s.to_owned()),\n            false =&gt; Err(Error::from(format!(&quot;not matches {}&quot;, r))),\n        }\n    })\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Chayim Friedman",
+        "link": "https://stackoverflow.com/users/7884305/chayim-friedman"
+      }
+    },
+    {
+      "answer_id": 75040822,
+      "body": "<p>These are not macros, but <a href=\"https://doc.rust-lang.org/reference/attributes.html\" rel=\"nofollow noreferrer\">attributes</a>.</p>\n<p>The confusion comes because <code>derive</code> is also an attribute, not a macro. Only that some derive implementations are implemented as macros. Remember that normal macros are recognized by the <code>!</code> not by <code>#</code>, such as <code>println!</code>.</p>\n<p>About where these attributes come from? Well, attributes are never imported, these <a href=\"https://doc.rust-lang.org/reference/procedural-macros.html#derive-macro-helper-attributes\" rel=\"nofollow noreferrer\">derive macro helper attributes</a> are parsed either directly by any macro that may be in effect. Yes, this means that these attributes are not scoped and could, in theory, conflict between several crates. It hasn't happened that I know of, yet.</p>\n",
+      "owner": {
+        "display_name": "rodrigo",
+        "link": "https://stackoverflow.com/users/865874/rodrigo"
+      }
+    },
+    {
+      "answer_id": 74987552,
+      "body": "<p>You wrap optional parts of your command line interface in <code>Option</code> including optional commands.</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Parser)]\n#[command(about=&quot;Hello world&quot;)]\npub struct Cli {\n    #[clap(long,short)]\n    pub name: Option&lt;String&gt;,\n    #[command(flatten)]\n    pub date: DateShared,\n    #[command(subcommand)]\n    pub subcommands: Option&lt;AppSubCommands&gt;,\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "cafce25",
+        "link": "https://stackoverflow.com/users/442760/cafce25"
+      }
+    },
+    {
+      "answer_id": 74971864,
+      "body": "<p>Call <a href=\"https://docs.rs/clap/4/clap/trait.Parser.html#method.try_parse_from\" rel=\"nofollow noreferrer\"><code>Parser::try_parse_from()</code></a> (or, if you are not using a <code>derive(Parser)</code>, <a href=\"https://docs.rs/clap/4/clap/builder/struct.Command.html#method.try_get_matches_from\" rel=\"nofollow noreferrer\"><code>Command::try_get_matches_from()</code></a>). These functions accepts an iterator of strings instead of consulting the process arguments, so you can pass in any strings you want to test with. It returns a <code>Result</code>, so that you can write tests for both success and parse errors.</p>\n<p>(This answer applies to <code>clap</code> version 4.0. Older versions have significantly different type and function names, but still have this capability.)</p>\n",
+      "owner": {
+        "display_name": "Kevin Reid",
+        "link": "https://stackoverflow.com/users/99692/kevin-reid"
+      }
+    },
+    {
+      "answer_id": 74939325,
+      "body": "<p>You can use <a href=\"https://docs.rs/clap/latest/clap/builder/struct.Arg.html#method.num_args\" rel=\"noreferrer\"><code>num_args</code></a> to specify a range for the number of argument occurences and values allowed like so:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::Parser;\n\n#[derive(Parser)]\npub struct Args {\n    #[clap(short, long, value_parser, num_args = 1.., value_delimiter = ' ')]\n    pub files: Vec&lt;String&gt;,\n  }\n\nfn main() {\n    let args = Args::parse();\n\n    println!(&quot;files: {:?}&quot;, args.files);\n}\n</code></pre>\n<p>This will allow both</p>\n<pre><code>cargo run -- --files hello world\n</code></pre>\n<p>and</p>\n<pre><code>cargo run -- --files hello --files world\n</code></pre>\n<p>Specifying the <code>value_delimiter</code> is not strictly neccessary here, but I just wanted to point out that you can use different characters as delimiters like this.</p>\n<p>If you also want to allow empty arrays beeing passed, you can change the <code>num_args</code> attribute like so <code>num_args = 0..</code>.</p>\n",
+      "owner": {
+        "display_name": "frankenapps",
+        "link": "https://stackoverflow.com/users/4593433/frankenapps"
+      }
+    },
+    {
+      "answer_id": 74915743,
+      "body": "<p>You can achieve pretty much what you want using composition along with <code>#[clap(flatten)]</code> like this:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::{Args, Parser, Subcommand};\n#[derive(Debug, Args)]\nstruct CommonArgs {\n    /// The value of column x to be filtered in the database\n    #[clap(short, long, value_parser)]\n    x_value: Option&lt;String&gt;,\n    /// The value of column y to be filtered in the database\n    #[clap(short, long, value_parser)]\n    y_value: Option&lt;String&gt;,\n}\n\n#[derive(Debug, Args)]\nstruct ArgsA {\n    #[clap(flatten)]\n    common_args: CommonArgs,\n    /// Hard\n    #[clap(short = 'H', long)]\n    particular_a: bool,\n}\n\n#[derive(Debug, Args)]\nstruct ArgsB {\n    // #[clap(subcommand)]\n    // subcommand: ShowSubcommand,\n    #[clap(flatten)]\n    commmon_args: CommonArgs,\n    /// Head\n    #[clap(long)]\n    particular_b: Option&lt;u32&gt;,\n}\n\n#[derive(Debug, Parser)]\npub struct UserInput {\n    #[clap(subcommand)]\n    command: MyCommand,\n}\n\n#[derive(Debug, Subcommand)]\nenum MyCommand {\n    /// A command description\n    A(ArgsA),\n    /// B command description\n    B(ArgsB),\n}\n\nfn main() {\n    dbg!(UserInput::parse_from(&quot;playground b --help&quot;.split(' ')));\n}\n</code></pre>\n<p>The only difference being that you have one more level of indirection to type on access.</p>\n<p>That 'disadvantage' comes with the advantage that you can pass parts of the arguments more easily and for example implement <code>AsRef&lt;CommonArgs&gt;</code> for <code>ArgsA</code> and <code>ArgsB</code>.</p>\n",
+      "owner": {
+        "display_name": "cafce25",
+        "link": "https://stackoverflow.com/users/442760/cafce25"
+      }
+    },
+    {
+      "answer_id": 74507410,
+      "body": "<p>Your question does not show what you pass in and what error you get, so it's rather hard to point to an issue.</p>\n<p>I think you might be missing the first argument which <code>clap</code> (apparently) requires to work when parsing from an array of string slices, which is the binary name/path.</p>\n<p>Using your code from above (2nd snippet), the snippet below does not work.</p>\n<pre class=\"lang-rust prettyprint-override\"><code>let cli = Cli::parse_from([&quot;test&quot;, &quot;asd&quot;]);\ndbg!(cli); // You need to add #[derive(Debug)] to your structs for it to work\n</code></pre>\n<p>as it ends with an error like</p>\n<pre><code>error: The subcommand 'asd' wasn't recognized\n\nUsage: test &lt;COMMAND&gt;\n\nFor more information try '--help'\n</code></pre>\n<p>If you look closely, you'll see that the <code>test</code> argument, which we are trying to pass as a subcommand to our <code>Cli</code> struct, is recognized as the binary name.</p>\n<p>If we add an additional argument at the beginning (the content does not matter, it can be even an empty string slice), it does work.</p>\n<pre class=\"lang-rust prettyprint-override\"><code>fn main() {\n    let cli = Cli::parse_from([&quot;&quot;, &quot;test&quot;, &quot;asd&quot;]);\n    dbg!(cli);\n}\n</code></pre>\n<p>The above snippet prints successfully parsed arguments</p>\n<pre><code>[src/main.rs:32] cli = Cli {\n    command: Test(\n        TestArg {\n            name: &quot;asd&quot;,\n        },\n    ),\n}\n</code></pre>\n<p>It does work also with the second sub-command <code>SecondTest</code></p>\n<pre class=\"lang-rust prettyprint-override\"><code>let cli = Cli::parse_from([&quot;&quot;, &quot;second-test&quot;, &quot;some name&quot;]);\ndbg!(cli);\n</code></pre>\n<p>Prints</p>\n<pre><code>[src/main.rs:35] cli = Cli {\n    command: SecondTest(\n        OtherArg {\n            name: Some(\n                &quot;some name&quot;,\n            ),\n            and: None,\n        },\n    ),\n}\n</code></pre>\n<hr />\n<p>Nevertheless, it seems like your code is missing some attribute macros in order to work as (I think) you expect it to work.</p>\n<p>Assuming you want to parse it from a string like</p>\n<pre><code>mycmd test --name someName\n</code></pre>\n<p>your <code>TestArg</code> struct should look like this</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Args)]\nstruct TestArg {\n    #[clap(short, long)]\n    name: String,\n}\n</code></pre>\n<p>now the <code>name</code> is taken not as a positional argument but as a flag(?) argument (required in this case), where the argument needs to be provided as <code>--name &lt;NAME&gt;</code> or <code>-n &lt;NAME&gt;</code></p>\n<p>Same for the second subcommand, you could declare it like this</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Args, Debug)]\nstruct OtherArg {\n    #[clap(long)]\n    name: Option&lt;String&gt;,\n    #[clap(long)]\n    and: Option&lt;String&gt;,\n}\n</code></pre>\n<p>And then you need to pass the arguments with flags with long names, like so:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>let cli = Cli::parse_from([\n    &quot;&quot;,\n    &quot;second-test&quot;,\n    &quot;--name&quot;,\n    &quot;some name&quot;,\n    &quot;--and&quot;,\n    &quot;other name&quot;,\n]);\ndbg!(cli);\n</code></pre>\n<p>which results in</p>\n<pre><code>[src/main.rs:41] cli = Cli {\n    command: SecondTest(\n        OtherArg {\n            name: Some(\n                &quot;some name&quot;,\n            ),\n            and: Some(\n                &quot;other name&quot;,\n            ),\n        },\n    ),\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "arkus",
+        "link": "https://stackoverflow.com/users/4856711/arkus"
+      }
+    },
+    {
+      "answer_id": 73931040,
+      "body": "<p>Option flags are not defined with a specific parameter option. They are defined by the <code>short</code> and <code>long</code> attribute values.</p>\n<p>So for your example, you would actually write the code like this:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Parser)]\nstruct Args {\n    #[arg(short = 'b')]\n    b_option: bool, // this will be `-b`\n    #[arg(short)]\n    n_option: bool, // this will be `-n`\n}\n</code></pre>\n<p>I think you can only use such compound flags for boolean options, or at least, only for options that don't require a value to be given.</p>\n",
+      "owner": {
+        "display_name": "Kushagra Gupta",
+        "link": "https://stackoverflow.com/users/9184849/kushagra-gupta"
+      }
+    },
+    {
+      "answer_id": 73889478,
+      "body": "<p>From <a href=\"https://docs.rs/clap/latest/clap/_derive/index.html#arg-attributes\" rel=\"nofollow noreferrer\">Arg Attributes</a> in the clap derive documentation:</p>\n<blockquote>\n<p><code>short [= &lt;char&gt;]</code>: <a href=\"https://docs.rs/clap/latest/clap/builder/struct.Arg.html#method.short\" rel=\"nofollow noreferrer\"><code>Arg::short</code></a></p>\n<ul>\n<li>When not present: no short set</li>\n<li>Without <code>&lt;char&gt;</code>: defaults to first character in the case-converted field name</li>\n</ul>\n</blockquote>\n<pre><code>use clap::Parser;\n\n#[derive(Parser)]\n#[command(author, version, about, long_about = None)]\nstruct Cli {\n    #[arg(short = 'L')]\n    L: bool,\n\n    #[arg(short)]\n    s: bool,\n\n    name: String,\n}\n\nfn main() {\n    let args = Cli::parse();\n}\n</code></pre>\n<p>Built executable help:</p>\n<pre><code>Usage: xxxxxx [OPTIONS] &lt;NAME&gt;\n\nArguments:\n  &lt;NAME&gt;\n\nOptions:\n  -L\n  -s\n  -h, --help     Print help information\n  -V, --version  Print version information\n</code></pre>\n",
+      "owner": {
+        "display_name": "halfelf",
+        "link": "https://stackoverflow.com/users/958529/halfelf"
+      }
+    },
+    {
+      "answer_id": 73849655,
+      "body": "<p>I'd agree with @SirDarius that you probably shouldn't do this, but eh, doesn't mean it hurts to know how you could do it:</p>\n<blockquote>\n<p>When the user do not insert neither flags nor subcommands, just typing &quot;p1&quot; in the terminal, I want to redirect him to the help subcommand as if he had typed <code>p1 help</code></p>\n</blockquote>\n<p>If knowing whether any arguments were passed at all from the parsed <code>Args</code> is difficult, you can for example sidestep <code>clap</code> and check the argument count from <code>std::env::args()</code></p>\n<pre class=\"lang-rust prettyprint-override\"><code>if std::env::args().count() &lt;= 1 {\n    Args::parse_from(&amp;[\n        // Argument 0 is always the program name.\n        // Could just use &quot;p1&quot; here, but this is more generic:\n        std::env::args()\n            .next()\n            .as_ref()\n            .map(String::as_str)\n            .unwrap_or(env!(&quot;CARGO_CRATE_NAME&quot;)),\n        // as if help was typed:\n        &quot;help&quot;,\n    ]);\n    unreachable!(&quot;Should print help and exit&quot;);\n}\n</code></pre>\n<p>I think you can also use clap's <code>ArgGroup</code>s to achieve this kind of behaviour, but I find them to be clunky.</p>\n<blockquote>\n<p>And also, I'm still not used to the rust style of handle with variable possession.</p>\n</blockquote>\n<p>This is a classic Rust problem, and there's so many things you could do:</p>\n<ol>\n<li>Just exit from <code>validate_args</code> directly. It's what <code>Args::parse</code> does, too.</li>\n<li>Use <code>let args = match args { Ok(args) =&gt; args, Err(e) =&gt; exit_on_error(e) };</code> (Must change the type of <code>exit_on_error</code> for this.)</li>\n<li>Make <code>exit_on_error</code> have type <code>fn(Result&lt;Args, String&gt;) -&gt; Args</code> and move the <code>match</code> into it.</li>\n<li>Make <code>main</code> return <code>Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt;</code> so you can use <code>?</code> to unwrap <code>Result</code>s (though you would need to choose a different error type with a nice <code>Display</code> implementation type instead of <code>String</code>. Might as well use the <code>anyhow</code> crate.)</li>\n<li>Use <code>error.as_ref().err().unwrap()</code> (You could even add <code>Option::cloned</code> to have an owned copy of the error string.)</li>\n</ol>\n<p>Lastly: One question per question on StackOverflow, please.</p>\n",
+      "owner": {
+        "display_name": "Caesar",
+        "link": "https://stackoverflow.com/users/401059/caesar"
+      }
+    },
+    {
+      "answer_id": 73790382,
+      "body": "<p>The Clap derive docs say (under <a href=\"https://docs.rs/clap/latest/clap/_derive/index.html#possible-value-attributes\" rel=\"nofollow noreferrer\">Possible Value Attributes</a>):</p>\n<blockquote>\n<h3>Possible Value Attributes</h3>\n<p>These correspond to a [<code>PossibleValue</code>][crate::PossibleValue].</p>\n<p><strong>Raw attributes:</strong>  Any [<code>PossibleValue</code> method][crate::PossibleValue] can also be used as an attribute, see\nTerminology for syntax.</p>\n<ul>\n<li>e.g. <code>#[clap(alias(&quot;foo&quot;))]</code> would translate to <code>pv.alias(&quot;foo&quot;)</code></li>\n</ul>\n</blockquote>\n<p>You also say you wish the aliases to show up under <code>help</code>. In that case, you want to use <a href=\"https://docs.rs/clap/latest/clap/builder/struct.Arg.html#method.visible_alias\" rel=\"nofollow noreferrer\"><code>visible_alias</code></a> instead:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[clap(visible_alias(&quot;foo&quot;))]\n</code></pre>\n",
+      "owner": {
+        "display_name": "PitaJ",
+        "link": "https://stackoverflow.com/users/847382/pitaj"
+      }
+    },
+    {
+      "answer_id": 73605242,
+      "body": "<p>Per the documentation of <code>contains_id</code></p>\n<blockquote>\n<p>NOTE: This will always return true if <code>default_value</code> has been set. <code>ArgMatches::value_source</code> can be used to check if a value is present at runtime.</p>\n</blockquote>\n<p>Now you might object that you're not using <code>default_value</code>, however you're using <code>ArgAction::SetTrue</code>:</p>\n<blockquote>\n<p>When encountered, act as if <code>&quot;true&quot;</code> was encountered on the command-line</p>\n<p><strong>If no <code>default_value</code> is set, it will be <code>false</code></strong>.</p>\n</blockquote>\n<p>Emphasis mine.</p>\n<p>So <code>ArgAction::SetTrue</code> implies <code>default_value=false</code>.</p>\n<p>Therefore <code>bar</code> will <em>always</em> have a value, there's no need to check <em>whether</em> it does. Just fetch the value.</p>\n",
+      "owner": {
+        "display_name": "Masklinn",
+        "link": "https://stackoverflow.com/users/8182118/masklinn"
+      }
+    },
+    {
+      "answer_id": 73601636,
+      "body": "<p>In your <code>Cargo.toml</code> file change your clap dependency to enable the <code>cargo</code> feature.</p>\n<p>e.g.</p>\n<pre><code>clap = { version = &quot;3.2.20&quot;, features = [&quot;cargo&quot;] }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rik",
+        "link": "https://stackoverflow.com/users/2696378/rik"
+      }
+    },
+    {
+      "answer_id": 73531388,
+      "body": "<p>You have to enable the <code>env</code> feature:</p>\n<p><code>Cargo.toml</code></p>\n<pre class=\"lang-ini prettyprint-override\"><code>...\n\nclap = { version = &quot;...&quot;, features = [&quot;env&quot;] }\n</code></pre>\n<p>Then you have to add the <code>env</code> clap derive option, which will by default read from an ALLCAPS recased env var:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Parser, Debug)]\npub struct Opts {\n    #[clap(long, env)]\n    dry_run: bool, // --dry-run or DRY_RUN env var\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "PitaJ",
+        "link": "https://stackoverflow.com/users/847382/pitaj"
+      }
+    },
+    {
+      "answer_id": 73364400,
+      "body": "<p>You need to use <code>--</code> to separate the arguments going to your binary from the arguments to <code>cargo run</code>:</p>\n<pre><code>cargo run --bin mkdir -- -v test\n</code></pre>\n",
+      "owner": {
+        "display_name": "PitaJ",
+        "link": "https://stackoverflow.com/users/847382/pitaj"
+      }
+    },
+    {
+      "answer_id": 73358229,
+      "body": "<p>For each level of commands, you need one enum that lists all subcommands, e.g.:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>// main.rs\nmod ec2;\nmod s3;\n\n#[derive(Parser)]\nenum Cli {\n  S3(s3::Command),\n  EC2(ec2::Command),\n}\n</code></pre>\n<p>Each of the command modules can then have a separate struct that defines further options or subcommands.</p>\n<pre class=\"lang-rust prettyprint-override\"><code>// ec2.rs\n#[derive(Parser)]\npub(crate) struct Command {\n  #[clap(long)]\n  vpc: String,\n  #[clap(subcommand)]\n  subcommand: Subcommand\n}\n#[derive(Parser)]\nenum Subcommand {\n  Instance(instance::Command),\n  FooBar(…)\n}\n</code></pre>\n<p>You can find a real-world example of this strategy <a href=\"https://github.com/wasmerio/wasmer/blob/00c94019d746880daac2f92a2d198ee677ee1e14/lib/cli/src/cli.rs#L39\" rel=\"noreferrer\">in wasmer</a>.</p>\n",
+      "owner": {
+        "display_name": "Caesar",
+        "link": "https://stackoverflow.com/users/401059/caesar"
+      }
+    },
+    {
+      "answer_id": 73241284,
+      "body": "<p><a href=\"https://docs.rs/clap/latest/clap/struct.ArgMatches.html#method.remove_many\" rel=\"nofollow noreferrer\"><code>ArgMatches::remove_many</code></a> will give you ownership, by moving those values out of the <code>ArgMatches</code> struct.</p>\n",
+      "owner": {
+        "display_name": "PitaJ",
+        "link": "https://stackoverflow.com/users/847382/pitaj"
+      }
+    },
+    {
+      "answer_id": 73241223,
+      "body": "<p>You're looking for the <code>use_value_delimiter</code> setting. Set <code>use_value_delimiter = true</code> and set the actual delimiter to use with <code>value_delimiter = ','</code>.</p>\n",
+      "owner": {
+        "display_name": "PitaJ",
+        "link": "https://stackoverflow.com/users/847382/pitaj"
+      }
+    },
+    {
+      "answer_id": 73235204,
+      "body": "<p>You can use clap's <code>PossibleValuesParser</code> for this:</p>\n<pre><code>use clap::{builder::PossibleValuesParser, Parser, Subcommand};\n\nconst WORDS: [&amp;str; 3] = [&quot;crypto&quot;, &quot;is&quot;, &quot;garbage&quot;];\n\n#[derive(Parser)]\n#[clap(author, version, about)]\npub struct Cli {\n    /// Operation to perform\n    #[clap(subcommand)]\n    pub command: Command,\n}\n\n#[derive(Subcommand)]\npub enum Command {\n    /// Splits seedphrase\n    Split {\n        /// Seedprhase to split\n        #[clap(value_parser = PossibleValuesParser::new(WORDS), required(true))]\n        //                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        // tell clap to only allow the words in WORDS to appear in seedphrase.\n        seedphrase: Vec&lt;String&gt;,\n    },\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "isaactfa",
+        "link": "https://stackoverflow.com/users/11423104/isaactfa"
+      }
+    },
+    {
+      "answer_id": 73215572,
+      "body": "<p>Because this is a <code>Vec</code>, by default it allows zero values. You can fix that by making it explicitly <code>required</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Subcommand)]\nenum Subcommands {\n    Command {\n        #[clap(value_parser, required = true)]\n        argument: Vec&lt;String&gt;,\n    }\n    // --snip--\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Chayim Friedman",
+        "link": "https://stackoverflow.com/users/7884305/chayim-friedman"
+      }
+    },
+    {
+      "answer_id": 73184990,
+      "body": "<p>Use <code>default_value_t</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::{Parser, ValueEnum};\n\n#[derive(Parser, Debug)]\nstruct Args {\n    #[clap(value_enum, default_value_t=Level::Debug)]\n    level: Level,\n}\n\n#[derive(ValueEnum, Clone, Debug)]\nenum Level {\n    Debug,\n    Info,\n    Warning,\n    Error,\n}\n\nfn main() {\n    println!(&quot;{:?}&quot;, Args::parse());\n}\n</code></pre>\n<pre><code>Args { level: Debug }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Finomnis",
+        "link": "https://stackoverflow.com/users/2902833/finomnis"
+      }
+    },
+    {
+      "answer_id": 73080535,
+      "body": "<p>Figured it out myself.</p>\n<p>The issue was that I needed to add a <a href=\"https://docs.rs/clap/3.2.14/clap/builder/struct.Arg.html#method.value_parser\" rel=\"nofollow noreferrer\"><code>value_parser</code></a> to the <code>clap</code> builder.</p>\n<p>The only thing that changed was the clap Command builder</p>\n<pre class=\"lang-rust prettyprint-override\"><code>let args = Command::new(&quot;ngram_freq&quot;)\n        .version(&quot;0.1.0&quot;)\n        .author(&quot;Nathan McIntosh&quot;)\n        .about(&quot;Reads in a file or a set of files, and returns most popular n-grams&quot;)\n        .arg(\n            arg!(-f --filenames &lt;FILENAME&gt;)\n                .required(false)\n                .help(&quot;One or more files to read&quot;)\n                .multiple_values(true),\n        )\n        .arg(\n            arg!(-t --threshold &lt;THRESHOLD&gt;)\n                .required(false)\n                .help(&quot;Only show ngrams with that occur with at a frequency above this threshold&quot;)\n                .default_value(&quot;2&quot;)\n                .value_parser(clap::value_parser!(usize)),\n        )\n        .get_matches();\n</code></pre>\n<p>That said, I do wish that the compiler or clippy could have told me this</p>\n",
+      "owner": {
+        "display_name": "natemcintosh",
+        "link": "https://stackoverflow.com/users/9158985/natemcintosh"
+      }
+    },
+    {
+      "answer_id": 73050563,
+      "body": "<p>I know of two options. Make the second line only contain <code>///</code>, or use <code>verbatim_doc_comment</code>:</p>\n<pre><code>#[derive(Parser, Debug)]\nstruct Args {\n    /// Name of the person to greet\n    ///\n    /// Has a multi-line help.\n    #[clap(short, long)]\n    name: String,\n\n    /// Number of times to greet\n    /// Use the verbatim arg\n    #[clap(short, long, verbatim_doc_comment)]\n    count: u8,\n}\n</code></pre>\n<p><a href=\"https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2021&amp;gist=95f4bb4dedaae8022f78ba1c725d2d8d\" rel=\"noreferrer\">Playground</a></p>\n",
+      "owner": {
+        "display_name": "Caesar",
+        "link": "https://stackoverflow.com/users/401059/caesar"
+      }
+    },
+    {
+      "answer_id": 73004278,
+      "body": "<p>There are several problems with your code. The biggest one is:</p>\n<ul>\n<li>An optional positional item can never come <strong>before</strong> a required positional argument</li>\n</ul>\n<p>This is a problem in your case because your command line looks like this:</p>\n<pre><code>cargo run -- &lt;required&gt; [optional] /tmp/a\n</code></pre>\n<p>If you have a required path at the end, there <strong>can not</strong> be an optional positional argument before that.</p>\n<p>Further problems:</p>\n<ul>\n<li><code>#[derive(Parser)]</code> should be attached to a <code>struct</code>, not an <code>enum</code>.</li>\n<li>There should only be one <code>#[derive(Parser)]</code>, which represents the entry object of your arguments parser.</li>\n</ul>\n<p>I'm unsure how else to help you, except pointing out your problems. If the invocations <code>cargo run -- foo bar 42 baz /tmp/a</code> and <code>cargo run -- foo /tmp/a</code> are non-negotiable, I don't think <code>clap</code> is the right library for you; I think you should parse by hand.</p>\n",
+      "owner": {
+        "display_name": "Finomnis",
+        "link": "https://stackoverflow.com/users/2902833/finomnis"
+      }
+    },
+    {
+      "answer_id": 72725690,
+      "body": "<p>Note that you may also use an enum set in Nim when you have to wrap C enums that are used as ored bits. I did that in the GTK wrapper. You can find an example at the end of the the &quot;Sets&quot; section here: <a href=\"https://ssalewski.de/nimprogramming.html#_sets\" rel=\"nofollow noreferrer\">https://ssalewski.de/nimprogramming.html#_sets</a></p>\n<p>But some care is necessary, so for plain and ugly wrappers, or unexperienced people, using distinct ints may be another solution.</p>\n",
+      "owner": {
+        "display_name": "Salewski",
+        "link": "https://stackoverflow.com/users/19397090/salewski"
+      }
+    },
+    {
+      "answer_id": 72400169,
+      "body": "<p>The <a href=\"https://github.com/clap-rs/clap/blob/v3.1.18/examples/derive_ref/README.md\" rel=\"noreferrer\">derive reference</a> states:</p>\n<blockquote>\n<p>Any <a href=\"https://docs.rs/clap/3.1.18/clap/type.Command.html\" rel=\"noreferrer\"><code>Command</code> method</a> can also be used as an attribute, see <a href=\"https://github.com/clap-rs/clap/blob/v3.1.18/examples/derive_ref/README.md#terminology\" rel=\"noreferrer\">Terminology</a> for syntax.</p>\n</blockquote>\n<blockquote>\n<p>e.g. <code>#[clap(arg_required_else_help(true))]</code> would translate to <code>cmd.arg_required_else_help(true)</code></p>\n</blockquote>\n<p>Using this we can derive <code>.setting(AppSettings::TrailingVarArg)</code>, (more accurately, <a href=\"https://docs.rs/clap/3.1.18/clap/struct.App.html#method.trailing_var_arg\" rel=\"noreferrer\"><code>App::trailing_var_arg()</code></a>) like so:</p>\n<pre><code>#[clap(... trailing_var_arg=true)]\nstruct Args { ... }\n</code></pre>\n",
+      "owner": {
+        "display_name": "MeetTitan",
+        "link": "https://stackoverflow.com/users/4307644/meettitan"
+      }
+    },
+    {
+      "answer_id": 72320619,
+      "body": "<p>From <a href=\"https://github.com/clap-rs/clap/blob/v3.1.18/examples/derive_ref/README.md#arg-attributes\" rel=\"noreferrer\">the derive reference</a>:</p>\n<blockquote>\n<h3>Arg Attributes</h3>\n<ul>\n<li>...</li>\n<li><code>skip [= &lt;expr&gt;]</code>: Ignore this field, filling in with <code>&lt;expr&gt;</code>\n<ul>\n<li>Without <code>&lt;expr&gt;</code>: fills the field with <code>Default::default()</code></li>\n</ul>\n</li>\n</ul>\n</blockquote>\n<p>So <code>#[clap(skip)]</code>.</p>\n",
+      "owner": {
+        "display_name": "Chayim Friedman",
+        "link": "https://stackoverflow.com/users/7884305/chayim-friedman"
+      }
+    },
+    {
+      "answer_id": 72150818,
+      "body": "<p><code>clap</code> is platform agnostic and therefore uses abstractions like <code>OsString</code> (which is the type of your <code>s</code> variable).</p>\n<p>There seems to be no generic <code>as_bytes()</code> method attached to <code>OsString</code>, because not on every operating system <code>OsString</code> <em>is</em> actually a raw bytes array.</p>\n<p>Here is a lot more discussion about this very topic: <a href=\"https://stackoverflow.com/questions/43083544/how-can-i-convert-osstr-to-u8-vecu8-on-windows\">How can I convert OsStr to &amp;[u8]/Vec&lt;u8&gt; on Windows?</a></p>\n<p>So to solve your problem, it seems necessary that you narrow your compatibility down to a specific operating system. In your case, it seems that you are using <code>Unix</code>. Which is great, because for <code>Unix</code>, such a method <a href=\"https://doc.rust-lang.org/std/os/unix/ffi/trait.OsStrExt.html\" rel=\"nofollow noreferrer\">does exist</a>!</p>\n<p>Here you go:</p>\n<pre><code>use clap::{Arg, Command};\nuse std::os::unix::ffi::OsStrExt;\n\nfn main() {\n    let cmd = Command::new(env!(&quot;CARGO_CRATE_NAME&quot;))\n        .bin_name(env!(&quot;CARGO_CRATE_NAME&quot;))\n        .arg(\n            Arg::new(&quot;raw&quot;)\n                .long(&quot;raw&quot;)\n                .takes_value(true)\n                .allow_invalid_utf8(true),\n        );\n    let matches = cmd.get_matches();\n\n    match matches.value_of_os(&quot;raw&quot;) {\n        Some(s) =&gt; {\n            println!(&quot;.as_bytes(): {:?}&quot;, s.as_bytes());\n        }\n        None =&gt; {}\n    }\n}\n</code></pre>\n<pre><code>.as_bytes(): [66, 16, 67, 67, 1, 255]\n</code></pre>\n<p>Note that the <code>use std::os::unix::ffi::OsStrExt;</code> will add the <code>.as_bytes()</code> functionality to <code>OsString</code>, but will fail to compile on non-unix systems.</p>\n",
+      "owner": {
+        "display_name": "Finomnis",
+        "link": "https://stackoverflow.com/users/2902833/finomnis"
+      }
+    },
+    {
+      "answer_id": 71858885,
+      "body": "<p>The <a href=\"https://docs.rs/clap/3/clap/trait.Parser.html\" rel=\"nofollow noreferrer\"><code>clap::Parser</code></a> trait has a method <a href=\"https://docs.rs/clap/3/clap/trait.Parser.html#method.parse\" rel=\"nofollow noreferrer\"><code>parse</code></a> that you can use, that will read the arguments into a structure of the type, or exit the process on error.</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::Parser;\n\n#[derive(Parser)]\n#[clap(author, version, about, long_about = None)]\npub struct Args {\n    /// Host address\n    #[clap(short, long)]\n    pub host: String,\n    ...\n}\n\nfn main() {\n  let args = Args::parse();\n  println!(&quot;got host: {}&quot;, args.host);\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Freyja",
+        "link": "https://stackoverflow.com/users/423170/freyja"
+      }
+    },
+    {
+      "answer_id": 71693818,
+      "body": "<p>What you want is what is used by default (since <code>Ipv4Addr</code> implements <a href=\"https://doc.rust-lang.org/std/net/struct.Ipv4Addr.html#impl-FromStr\" rel=\"noreferrer\"><code>FromStr</code></a>), without specifiying any <code>parse</code> option:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap; // 3.1.6\nuse clap::Parser;\nuse std::net::Ipv4Addr;\n\n#[derive(Parser, Debug)]\n#[clap(author, version, about, long_about = None)]\nstruct Args {\n    #[clap(short, long)]\n    ip_dst: Ipv4Addr,\n}\n</code></pre>\n<p><a href=\"https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2021&amp;gist=42b70ffb69d2104f7905fe22bd30901a\" rel=\"noreferrer\">Playground</a></p>\n<p>Otherwise, you need to use <code>try_from_str</code> as per the example:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#![allow(unused)]\nuse clap; // 3.1.6\nuse clap::Parser;\nuse std::net::Ipv4Addr;\n\n#[derive(Parser, Debug)]\n#[clap(author, version, about, long_about = None)]\nstruct Args {\n    \n    #[clap(short, long, parse(try_from_str))]\n    ip_dst: Ipv4Addr,\n\n}\n</code></pre>\n<p><a href=\"https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2021&amp;gist=532300de008b6b0ec782a28dac81b576\" rel=\"noreferrer\">Playground</a></p>\n",
+      "owner": {
+        "display_name": "Netwave",
+        "link": "https://stackoverflow.com/users/1695172/netwave"
+      }
+    },
+    {
+      "answer_id": 71412130,
+      "body": "<p>It looks like in <code>3.*.beta</code> <a href=\"https://docs.rs/clap/3.0.0-beta.5/clap/struct.Arg.html#method.help\" rel=\"nofollow noreferrer\"><code>help()</code></a> was deprecated in favor of <code>about()</code>, because they were looked as redundant, and somewhat similar to <code>App::about()</code>.</p>\n<p>But then they changed their minds and <a href=\"https://github.com/clap-rs/clap/commit/7e899cd340c01b13388e7bb3649f4252924ad21f\" rel=\"nofollow noreferrer\">reverted</a> that change before the <code>3.0</code> release, deleting instead <code>about()</code>.</p>\n<p>So, just use <a href=\"https://docs.rs/clap/latest/clap/struct.Arg.html#method.help\" rel=\"nofollow noreferrer\"><code>Arg::help()</code></a> instead.</p>\n<p>Same thing for <code>long_help()</code> and <code>long_about()</code>.</p>\n",
+      "owner": {
+        "display_name": "rodrigo",
+        "link": "https://stackoverflow.com/users/865874/rodrigo"
+      }
+    },
+    {
+      "answer_id": 70726367,
+      "body": "<p>Instead of <code>takes_value(false)</code> use <code>min_values(0)</code> (<a href=\"https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2021&amp;gist=fac88b5a41b5d27deb983b5d000b0b04\" rel=\"nofollow noreferrer\">playground</a>):</p>\n<pre><code>#[clap(long, default_value_if(&quot;dog&quot;, None, Some(&quot;true&quot;)), min_values(0))]\n    mammal: bool,\n</code></pre>\n<p>It looks like the default value implementation uses the same code as the <em>values</em>, so if you disable one you disable the other.</p>\n",
+      "owner": {
+        "display_name": "rodrigo",
+        "link": "https://stackoverflow.com/users/865874/rodrigo"
+      }
+    },
+    {
+      "answer_id": 67299456,
+      "body": "<p>Solved it:</p>\n<pre><code>let matches = App::new(&quot;Rust runner&quot;)\n                    .author(&quot;Arkadiusz Bulski &lt;arek.bulski@gmail.com&gt;&quot;)\n                    .arg(Arg::with_name(&quot;sources&quot;)\n                            .multiple(true)\n                            .help(&quot;Use this to pass argfilenames&quot;))\n                    .get_matches();\n</code></pre>\n",
+      "owner": {
+        "display_name": "ArekBulski",
+        "link": "https://stackoverflow.com/users/2375119/arekbulski"
+      }
+    },
+    {
+      "answer_id": 67207021,
+      "body": "<p>The problem is you either have a small misconception about what <a href=\"https://docs.rs/clap/2.33.3/clap/struct.Arg.html#method.value_name\" rel=\"noreferrer\"><code>value_name</code></a> (which is used only for the CLI help option) is, or you missed, that the argument names are case sensitive.</p>\n<p>You have two options to make this work as expected:</p>\n<ol>\n<li>Use the lowercase argument name as specified in the YAML (change .rs):</li>\n</ol>\n<p>YAML:</p>\n<pre class=\"lang-yaml prettyprint-override\"><code>...\nargs:\n  - config:\n      short: c\n      long: config\n      value_name: CONFIG\n      help: Specifies the config file to use.\n      takes_value: true\n      default_value: &quot;1&quot;\n  - verbose:\n      short: v\n      long: verbose\n      value_name: VERBOSE\n      help: Sets verbosity. 0 = silent, &gt; 0 = verbose.\n      takes_value: true\n      default_value: &quot;1&quot;\n</code></pre>\n<p>Rust:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::{load_yaml, App};\n\nfn main() {\n    let yaml = load_yaml!(&quot;cli.yml&quot;);\n    let matches = App::from_yaml(yaml).get_matches();\n    let verbosity =\n    matches.value_of(&quot;verbose&quot;)\n    .and_then(|s| s.parse::&lt;u8&gt;().ok())\n    .unwrap();\n    println!(&quot;{}&quot;, verbosity);\n}\n</code></pre>\n<ol start=\"2\">\n<li>Use the uppercase name as specified in the Code (change .yaml):\nYAML:</li>\n</ol>\n<pre class=\"lang-yaml prettyprint-override\"><code>...\nargs:\n  - config:\n      short: c\n      long: config\n      value_name: CONFIG\n      help: Specifies the config file to use.\n      takes_value: true\n      default_value: &quot;1&quot;\n  - VERBOSE:\n      short: v\n      long: verbose\n      value_name: VERBOSE\n      help: Sets verbosity. 0 = silent, &gt; 0 = verbose.\n      takes_value: true\n      default_value: &quot;1&quot;\n</code></pre>\n<p>Rust</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::{load_yaml, App};\n\nfn main() {\n    let yaml = load_yaml!(&quot;cli.yml&quot;);\n    let matches = App::from_yaml(yaml).get_matches();\n    let verbosity =\n    matches.value_of(&quot;VERBOSE&quot;)\n    .and_then(|s| s.parse::&lt;u8&gt;().ok())\n    .unwrap();\n    println!(&quot;{}&quot;, verbosity);\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "frankenapps",
+        "link": "https://stackoverflow.com/users/4593433/frankenapps"
+      }
+    },
+    {
+      "answer_id": 66738252,
+      "body": "<p>The <a href=\"https://docs.rs/clap/2.33.3/clap/struct.App.html#method.subcommand\" rel=\"nofollow noreferrer\"><code>subcommand()</code></a> method consumes the app and returns a new one. This nicely supports chaining, but requires your <code>configure</code> function to also accept an object, and also to return one:</p>\n<pre><code>pub fn configure(&amp;self, app: App&lt;'static, 'static&gt;) -&gt; App&lt;'static, 'static&gt; {\n    app.subcommand(\n        SubCommand::with_name(&quot;server-status&quot;)\n            .about(&quot;Displays the status of the server&quot;)\n    )\n}\n\n// and in main:\napp = myhandler.configure(app);\n</code></pre>\n<p>It's also possible for <code>configure</code> to take a reference, but then that has to be a <code>mut</code> reference, and you have to call <code>mem::replace</code> to extract the <code>Clap</code> out of the reference, leaving a dummy in its stead, and finally assign it back. If you're really curious, take a look at it <a href=\"https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2018&amp;gist=fdd816452cfca58a4734297e91034c0e\" rel=\"nofollow noreferrer\">here</a>.</p>\n",
+      "owner": {
+        "display_name": "user4815162342",
+        "link": "https://stackoverflow.com/users/1600898/user4815162342"
+      }
+    },
+    {
+      "answer_id": 66222274,
+      "body": "<blockquote>\n<p>Is this unrelated to clap and instead shell specific?</p>\n</blockquote>\n<p>Mostly, yes. <code>clap</code> is going to get whatever arguments the shell has determined and will parse that.</p>\n<p><em>However</em> clap has built-in support for value sets, from the readme:</p>\n<blockquote>\n<ul>\n<li>Supports multiple values (i.e. <code>-o &lt;val1&gt; -o &lt;val2&gt;</code> or <code>-o &lt;val1&gt; &lt;val2&gt;</code>)</li>\n<li>Supports delimited values (i.e. <code>-o=val1,val2,val3</code>, can also change the delimiter)</li>\n</ul>\n</blockquote>\n<p>If that's not sufficient, then you'll have to define <code>dicty</code> as a <code>String</code>, you will receive the string <code>a=1,b=3,qwe=yxc</code> (I don't think you'll receive the quotes) then you'll have to parse that yourself, either by hand (regex/split/...) or with something more advanced (e.g. the csv crate though that's likely overkill).</p>\n<p>That seems like a somewhat odd option value though.</p>\n<p>FWIW structopt (which builds upon clap to provide a more declarative UI, and should be part of Clap 3) doesn't exactly have support for that sort of things but can be coerced into it relatively easily: <a href=\"https://github.com/TeXitoi/structopt/blob/master/examples/keyvalue.rs\" rel=\"nofollow noreferrer\">https://github.com/TeXitoi/structopt/blob/master/examples/keyvalue.rs</a></p>\n<p>With some modifications would allow something like</p>\n<pre><code>myApp -D a=1 -D b=3 -D que=yxc\n</code></pre>\n<p>or (though see comments in linked snippet for limitations)</p>\n<pre><code>myApp -D a=1 b=3 que=yxc\n</code></pre>\n<p>to be collected as a <code>vec![(&quot;a&quot;, &quot;1&quot;), (&quot;b&quot;, &quot;3&quot;), (&quot;que&quot;, &quot;yxc&quot;)]</code> from which creating a hashmap is trivial.</p>\n",
+      "owner": {
+        "display_name": "Masklinn",
+        "link": "https://stackoverflow.com/users/8182118/masklinn"
+      }
+    },
+    {
+      "answer_id": 60458834,
+      "body": "<p>Don't know if this is the &quot;approved&quot; method but I use <a href=\"https://docs.rs/clap/2.33.0/clap/struct.Arg.html#method.takes_value\" rel=\"noreferrer\"><code>Args::takes_value</code></a>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>.arg(\n    Arg::with_name(&quot;metal&quot;)\n        .long(&quot;metal-micky&quot;)\n        .required(false)\n        .takes_value(false)\n        .help(&quot;I want metal micky&quot;),\n)\n</code></pre>\n<p>Then check if the flag was passed with <a href=\"https://docs.rs/clap/2.33.0/clap/struct.ArgMatches.html#method.is_present\" rel=\"noreferrer\"><code>matches.is_present(&quot;metal&quot;)</code></a></p>\n",
+      "owner": {
+        "display_name": "yorodm",
+        "link": "https://stackoverflow.com/users/3393308/yorodm"
+      }
+    },
+    {
+      "answer_id": 65766570,
+      "body": "<blockquote>\n<p>is it possible to have clap use more than a single character when using the short() form? Or override the long-form so it defaults to a single dash?</p>\n</blockquote>\n<p>Judging by <a href=\"https://github.com/clap-rs/clap/issues/1210\" rel=\"nofollow noreferrer\">this issue</a>, single-hyphen long options are not yet supported by clap.</p>\n",
+      "owner": {
+        "display_name": "user4815162342",
+        "link": "https://stackoverflow.com/users/1600898/user4815162342"
+      }
+    },
+    {
+      "answer_id": 65500084,
+      "body": "<p>To have an argument accept zero-to-many values, you just need to specify <code>multiple: true</code>.</p>\n<pre class=\"lang-yaml prettyprint-override\"><code>- files:\n    multiple: true\n</code></pre>\n<p>Then to obtain the files you'd use <a href=\"https://docs.rs/clap-v3/3.0.0-beta.1/clap_v3/struct.ArgMatches.html#method.values_of\" rel=\"nofollow noreferrer\"><code>values_of()</code></a> along with a <a href=\"https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.collect\" rel=\"nofollow noreferrer\"><code>collect::&lt;Vec&lt;&amp;str&gt;&gt;()</code></a>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>if let Some(files) = matches.values_of(&quot;files&quot;) {\n    let files = files.collect::&lt;Vec&lt;_&gt;&gt;();\n\n    println!(&quot;{:?}&quot;, files);\n}\n\n// Prints nothing                     for `cargo run -- -d`\n// Prints `[&quot;file.txt&quot;]`              for `cargo run -- file.txt -d`\n// Prints `[&quot;file.txt&quot;, &quot;read2.txt&quot;]` for `cargo run -- file.txt read2.txt -d`\n</code></pre>\n<hr />\n<p>Here's the complete <code>cli.yaml</code>:</p>\n<pre class=\"lang-yaml prettyprint-override\"><code>name: bs-script\nversion: &quot;1.0.0&quot;\nauthor: Clement B. &lt;clement.bolin@epitech.eu&gt;\nabout: Write perform, secure and easy script with an Rust script interpretor\nargs:\n  - files:\n      multiple: true\n      about: Files\n  - debug:\n      short: d\n      long: debug\n      about: display debug information\n</code></pre>\n",
+      "owner": {
+        "display_name": "vallentin",
+        "link": "https://stackoverflow.com/users/2470818/vallentin"
+      }
+    },
+    {
+      "answer_id": 65308698,
+      "body": "<p>I haven't used <code>clap</code>, so there may be a better approach, but the general Rust solution to this problem is to have some data structure that owns the needed strings, so that the <code>ArgMatches</code> can have a lifetime dependent on it:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>struct ArgParser {\n    home_dir: PathBuf,\n    default_config: OsString,\n}\n\nimpl ArgParser {\n    pub fn new(home_dir: &amp;Path) -&gt; Self {\n        let default_config_path: PathBuf = home_dir.join(&quot;.s3m/config.yml&quot;);\n        Self {\n            home_dir: home_dir.to_owned(),\n            default_config: default_config_path.as_os_str().to_owned(),\n        }\n    }\n</code></pre>\n<p>I've also adjusted the config path to use <code>Path::join</code> rather than string formatting and <code>OsString</code> instead of <code>String</code>, which aren't actually relevant to your question but should be more correct.</p>\n<p>Now we can modify <code>get_matches</code> to work with this, as part of <code>impl ArgParser</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>\n    pub fn get_matches(&amp;self) -&gt; ArgMatches {\n        App::new(&quot;s3m&quot;)\n            .version(env!(&quot;CARGO_PKG_VERSION&quot;))\n            .setting(AppSettings::SubcommandsNegateReqs)\n            .after_help(format!(&quot;foo bar: {}&quot;, self.home_dir.display()).as_ref())\n            .arg(\n                Arg::with_name(&quot;config&quot;)\n                    .help(&quot;config.yml&quot;)\n                    .long(&quot;config&quot;)\n                    .short(&quot;c&quot;)\n                    .default_value_os(&amp;self.default_config)\n                    .required(true)\n                    .value_name(&quot;config.yml&quot;),\n            )\n            .get_matches()\n    }\n}\n</code></pre>\n<p>Notice that there is no lifetime parameter given for <code>ArgMatches</code>. This is because the compiler will automatically infer the lifetime for us, as if we had written:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>pub fn get_matches&lt;'a&gt;(&amp;'a self) -&gt; ArgMatches&lt;'a&gt; {...}\n</code></pre>\n<p>The lifetime is no longer <code>'static</code>, but it <em>can't</em> be <code>'static</code> (unless you choose to <em>leak</em> the strings that you're configuring <code>App</code> with). Instead, if you you need a string to live longer than the <code>ArgParser</code>, use <code>.to_owned()</code> to convert <code>&amp;'a str</code> into a <code>String</code> that can live independently.</p>\n<p><a href=\"https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2018&amp;gist=44511283ea49194a245104db6abc8dca\" rel=\"nofollow noreferrer\">playground</a></p>\n",
+      "owner": {
+        "display_name": "Kevin Reid",
+        "link": "https://stackoverflow.com/users/99692/kevin-reid"
+      }
+    },
+    {
+      "answer_id": 65260803,
+      "body": "<p>Clap is designed more towards creating an args parser. So there aren't really that much functionality for getting and removing existing arguments.</p>\n<p><em>If you simply want to rename <code>&quot;-h&quot;</code> to e.g. <code>&quot;-?&quot;</code>, then you can do that with <a href=\"https://docs.rs/clap/2.33.3/clap/struct.App.html#method.help_short\" rel=\"nofollow noreferrer\"><code>help_short(&quot;-?&quot;)</code></a> (see also <a href=\"https://docs.rs/clap/2.33.3/clap/struct.App.html#method.version_short\" rel=\"nofollow noreferrer\"><code>version_short()</code></a>.)</em></p>\n<p>However, there are ways to work around it.</p>\n<hr />\n<p>Assuming you're using e.g. <code>clap = &quot;2.33&quot;</code>. Then similarly to what you're already doing, you can override/replace the <code>help</code> and <code>version</code> args, and in that way &quot;remove&quot; the short versions. <em>(For brevity, I'll only include examples for <code>help</code>.)</em></p>\n<p>You can of course keep it in <code>cli.yaml</code> if you want, but I'll add it to <code>main.rs</code>. In short, you want to add a new <code>&quot;help&quot;</code> arg and only give it a <code>long</code> version. It's important that you include <code>help(&quot;Prints help information&quot;)</code> as this is replacing the existing <code>help</code> arg, so if you don't it won't have the default help message for <code>--help</code>.</p>\n<p>The downside to overring <code>&quot;help&quot;</code> is that you'd need to handle <code>print_help()</code> yourself.</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::{load_yaml, App, Arg};\n\nfn main() {\n    let y = load_yaml!(&quot;cli.yaml&quot;);\n    let mut app = App::from_yaml(y)\n        .arg(\n            Arg::with_name(&quot;help&quot;)\n                .long(&quot;help&quot;)\n                .help(&quot;Prints help information&quot;),\n        );\n\n    let m = app.clone().get_matches();\n\n    if m.is_present(&quot;help&quot;) {\n        app.print_help().unwrap();\n        // std::process::exit(0);\n        // or just\n        return;\n    }\n}\n</code></pre>\n<hr />\n<p>However, if you're using <a href=\"https://crates.io/crates/clap/3.0.0-beta.2\" rel=\"nofollow noreferrer\"><code>clap = &quot;3.0.0-beta.2&quot;</code></a> then that simplifies things, with the introduction of <a href=\"https://docs.rs/clap/3.0.0-beta.2/clap/struct.App.html#method.mut_arg\" rel=\"nofollow noreferrer\"><code>mut_arg()</code></a>. Because that allows us to mutate <em>the</em> argument. Thereby, we no longer need to call <code>print_help()</code> ourselves.</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::{load_yaml, App, Arg};\n\nfn main() {\n    let y = load_yaml!(&quot;cli.yaml&quot;);\n    let m = App::from(y)\n        .mut_arg(&quot;help&quot;, |h| {\n            Arg::new(&quot;help&quot;)\n                .long(&quot;help&quot;)\n                .about(&quot;Prints help information&quot;)\n        })\n        .get_matches();\n}\n</code></pre>\n<p><em>Note that <code>App::from_yaml()</code> is now <code>App::from()</code>, while <code>Arg::with_name()</code> has become <code>Arg::new()</code>, and <code>help()</code> is now <code>about()</code>.</em></p>\n",
+      "owner": {
+        "display_name": "vallentin",
+        "link": "https://stackoverflow.com/users/2470818/vallentin"
+      }
+    },
+    {
+      "answer_id": 48676226,
+      "body": "<p>To change the description of the <code>-h</code>/<code>--help</code> parameter in the help text, use the <a href=\"https://docs.rs/clap/*/clap/struct.App.html#method.help_message\" rel=\"nofollow noreferrer\"><code>help_message</code></a> method. Likewise, to change the description of <code>-V</code>/<code>--version</code>, use <a href=\"https://docs.rs/clap/*/clap/struct.App.html#method.version_message\" rel=\"nofollow noreferrer\"><code>version_message</code></a>.</p>\n<pre><code>extern crate clap;\n\nuse clap::App;\n\nfn main() {\n    let matches = App::new(&quot;app&quot;)\n        .help_message(&quot;this is the help command&quot;)\n        .version_message(&quot;this is the version command&quot;)\n        .get_matches_from(&amp;[&quot;app&quot;, &quot;--help&quot;]);\n}\n</code></pre>\n<p>Output:</p>\n<pre><code>app \n\nUSAGE:\n    app\n\nFLAGS:\n    -h, --help       this is the help command\n    -V, --version    this is the version command\n</code></pre>\n",
+      "owner": {
+        "display_name": "Francis Gagn&#233;",
+        "link": "https://stackoverflow.com/users/234590/francis-gagn%c3%a9"
+      }
+    },
+    {
+      "answer_id": 64964083,
+      "body": "<p>You have added <code>mod cli</code> to both <code>lib.rs</code> and <code>main.rs</code>.</p>\n<p>They are different from the standpoint of each other.</p>\n<p><a href=\"https://stackoverflow.com/questions/57756927/rust-modules-confusion-when-there-is-main-rs-and-lib-rs\">Rust modules confusion when there is main.rs and lib.rs</a>\nmay help in understanding that.</p>\n<p>That's what the error says. It's satisfied for <code>std::convert::From&lt;minimal_example::cli::Opts&gt;</code> but not for <code>std::convert::From&lt;cli::Opts&gt;</code>.</p>\n<p>A simple fix:</p>\n<p><strong>main.rs</strong></p>\n<pre class=\"lang-rust prettyprint-override\"><code>mod cli;\nuse clap::Clap;\nuse minimal_example::Config;\n\nimpl From&lt;cli::Opts&gt; for Config {\n    fn from(opts: cli::Opts) -&gt; Self {\n        Config {\n            opt: opts.opt,\n        }\n    }\n}\n\nfn main() {\n    println!(&quot;Hello, world!&quot;);\n    let opts = cli::Opts::parse();\n    let config = Config::from(opts);\n}\n</code></pre>\n<p>Now <code>std::convert::From&lt;cli::Opts&gt;</code> is implemented for <code>Config</code>.</p>\n<p>How you actually want to place all this depends on your package architecture.</p>\n",
+      "owner": {
+        "display_name": "Mihir Luthra",
+        "link": "https://stackoverflow.com/users/11498773/mihir-luthra"
+      }
+    },
+    {
+      "answer_id": 55345899,
+      "body": "<p>By default, clap will only parse any argument once. This means that in <code>-u jack echo s</code>, it will parse <code>-u jack</code> as the &quot;user&quot; option, <code>echo</code> as the &quot;command&quot; argument, and have an argument <code>s</code> that it doesn't know what to do with (hence it &quot;wasn't expected&quot;).</p>\n<p>To retrieve <strong>all trailing arguments</strong> you need to set <a href=\"https://docs.rs/clap/2.33.1/clap/struct.Arg.html#method.multiple\" rel=\"noreferrer\"><code>.multiple(true)</code></a> on the last argument (in your case &quot;command&quot;) so it parses all the remaining arguments.\nAdditionally set the following options on the clap command to avoid parsing remaining arguments as clap arguments:</p>\n<ul>\n<li><a href=\"https://docs.rs/clap/2.33.1/clap/enum.AppSettings.html#variant.TrailingVarArg\" rel=\"noreferrer\"><code>.setting(AppSettings::TrailingVarArg)</code></a>: to indicate that clap should stop parsing for other flags/options after the last positional argument.</li>\n<li><a href=\"https://docs.rs/clap/2.33.1/clap/enum.AppSettings.html#variant.AllowLeadingHyphen\" rel=\"noreferrer\"><code>.setting(AppSettings::AllowLeadingHyphen)</code></a>: to allow argument values with leading hyphens like <code>-al</code>.</li>\n</ul>\n<p>Here's an example:</p>\n<pre><code>let matches = App::new(&quot;foo&quot;)\n    .version(&quot;0.1&quot;)\n    .setting(clap::AppSettings::TrailingVarArg)\n    .setting(clap::AppSettings::AllowLeadingHyphen)\n    .arg(\n        Arg::with_name(&quot;user&quot;)\n            .short(&quot;u&quot;)\n            .long(&quot;user&quot;)\n            .required(true)\n            .takes_value(true),\n    )\n    .arg(\n        Arg::with_name(&quot;command&quot;)\n            .help(&quot;The command to run&quot;)\n            .required(true)\n            .takes_value(true)\n            .multiple(true),\n    )\n    // parse as if program ran as:   foo -u paul ls -al\n    .get_matches_from(&amp;[&quot;foo&quot;, &quot;-u&quot;, &quot;paul&quot;, &quot;ls&quot;, &quot;-al&quot;]);\n\nlet command: Vec&lt;&amp;str&gt; = matches.values_of(&quot;command&quot;).unwrap().collect();\nprintln!(&quot;{:?}&quot;, command); // [&quot;ls&quot;, &quot;-al&quot;]\n</code></pre>\n<p><a href=\"https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2018&amp;gist=353a5238fcfff611f85103619be1c1a1\" rel=\"noreferrer\">Playground link</a></p>\n\n",
+      "owner": {
+        "display_name": "Freyja",
+        "link": "https://stackoverflow.com/users/423170/freyja"
+      }
+    },
+    {
+      "answer_id": 62491806,
+      "body": "<p>Unfortunately not. You would have to redefine the enum so that the <code>arg_enum!</code> macro can access the tokens.</p>\n<p>If you add a conversion function between the two then you can make sure that upstream changes to the library enum force you to update your CLI, by giving you a compilation error:</p>\n<pre><code>arg_enum! {\n    enum ArgPermutationMode {\n        All,\n        Addition,\n        BitSquatting,\n        Homoglyph,\n    }\n}\n\nimpl From&lt;ArgPermutationMode&gt; for PermutationMode {\n    fn from(other: ArgPermutationMode) -&gt; PermutationMode {\n         match other {\n             ArgPermutationMode::All =&gt; PermutationMode::All,\n             ArgPermutationMode::Addition =&gt; PermutationMode::Addition,\n             ArgPermutationMode::BitSquatting =&gt; PermutationMode::BitSquatting,\n             ArgPermutationMode::Homoglyph =&gt; PermutationMode::Homoglyph,\n         }\n    }\n}\n\nimpl From&lt;PermutationMode&gt; for ArgPermutationMode {\n    fn from(other: PermutationMode) -&gt; ArgPermutationMode {\n         match other {\n             PermutationMode::All =&gt; ArgPermutationMode::All,\n             PermutationMode::Addition =&gt; ArgPermutationMode::Addition,\n             PermutationMode::BitSquatting =&gt; ArgPermutationMode::BitSquatting,\n             xPermutationMode::Homoglyph =&gt; ArgPermutationMode::Homoglyph,\n         }\n    }\n}\n</code></pre>\n<p>You can reduce that boilerplate with a macro if you find yourself doing it a lot.</p>\n<hr />\n<p>Given that you have control over the other crate, you could compromise by trying one of a few other options for a workaround:</p>\n<ul>\n<li>Define the actual enum variants in a separate file, and use <code>include!</code> to use the same source in both crates. This assumes your crates are in the same workspace.</li>\n<li>Use a macro derive like <a href=\"https://docs.rs/strum_macros/0.18.0/strum_macros/derive.EnumIter.html\" rel=\"noreferrer\"><code>EnumIter</code></a> from <a href=\"https://docs.rs/strum_macros/0.18.0/strum_macros/index.html\" rel=\"noreferrer\"><code>strum_macros</code></a>. This will let you iterate over the enum's variants so you can supply them to Clap, without having a Clap dependency in that crate. You'll have a <code>strum_macros</code> dependency instead, so it's up to you if that is really better.</li>\n<li>Add the <code>clap_args!</code> call in the internal crate, but feature-gate it. Your application crate can enable this feature, but most users wouldn't.</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Peter Hall",
+        "link": "https://stackoverflow.com/users/493729/peter-hall"
+      }
+    },
+    {
+      "answer_id": 62426502,
+      "body": "<p>I think you might be looking for <code>help_heading</code>. It seems this has been added recently, so you'll have to grab the very latest commit.</p>\n\n<p><strong>cargo.toml</strong></p>\n\n<pre><code>[dependencies]\nclap = { git = \"https://github.com/clap-rs/clap\", rev = \"8145717\" }\n</code></pre>\n\n<p><strong>main.rs</strong></p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::Clap;\n\n#[derive(Clap, Debug)]\n#[clap(\n    name = \"My Application\",\n    version = \"1.0\",\n    author = \"Jason M.\",\n    about = \"Stack Overflow\"\n)]\nstruct Opts {\n    #[clap(\n        help_heading = Some(\"OPTIONS-1\"),\n        short,\n        long,\n        value_name=\"FILE\",\n        about = \"Sets a custom config file\"\n    )]\n    config: String,\n    #[clap(\n        help_heading = Some(\"OPTIONS-2\"),\n        short,\n        long,\n        value_name=\"FILE\",\n        about = \"Another example command\"\n    )]\n    another: String,\n}\n\nfn main() {\n    let opts: Opts = Opts::parse();\n}\n</code></pre>\n\n<pre class=\"lang-rust prettyprint-override\"><code>use clap::{App, Arg};\n\nfn main() {\n    let app = App::new(\"My Application\")\n        .version(\"1.0\")\n        .author(\"Jason M.\")\n        .about(\"Stack Overflow\")\n        .help_heading(\"OPTIONS-1\")\n        .arg(\n            Arg::new(\"config\")\n                .short('c')\n                .long(\"config\")\n                .value_name(\"FILE\")\n                .about(\"Sets a custom config file\"),\n        )\n        .help_heading(\"OPTIONS-2\")\n        .arg(\n            Arg::new(\"another\")\n                .short('a')\n                .long(\"another\")\n                .value_name(\"FILE\")\n                .about(\"Another example command\"),\n        );\n\n    app.get_matches();\n}\n</code></pre>\n\n<p>Either of the above will generate the following upon running <code>cargo run -- --help</code>:</p>\n\n<pre><code>My Application 1.0\nJason M.\nStack Overflow\n\nUSAGE:\n    clap_headings --config &lt;FILE&gt; --another &lt;FILE&gt;\n\nFLAGS:\n    -h, --help       Prints help information\n    -V, --version    Prints version information\n\nOPTIONS-1:\n    -c, --config &lt;FILE&gt;    Sets a custom config file\n\nOPTIONS-2:\n    -a, --another &lt;FILE&gt;    Another example command\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jason",
+        "link": "https://stackoverflow.com/users/1113913/jason"
+      }
+    },
+    {
+      "answer_id": 62031973,
+      "body": "<p>As @mcarton says, command line programs are passed their arguments as an array, rather than a string. The shell splits the original command line (taking into account quotes, variable expansion, etc).</p>\n\n<p>If your requirements are simple, you could simply split your string on whitespace and pass that to Clap. Or, if you want to respect quoted strings, you could use <a href=\"https://docs.rs/shellwords/1.0.0/shellwords/\" rel=\"noreferrer\">shellwords</a> to parse it:</p>\n\n<pre><code>let words = shellwords::split(input)?;\nlet matches = App::new(\"MyApp\")\n    // ... command line argument options\n    .get_matches_from(words);\n</code></pre>\n",
+      "owner": {
+        "display_name": "harmic",
+        "link": "https://stackoverflow.com/users/1411457/harmic"
+      }
+    },
+    {
+      "answer_id": 58384722,
+      "body": "<p>Personally I see nothing wrong with using the match statements and folding it or placing it in another function.  But if you want to remove it there are many options.</p>\n\n<p>There is the ability to use the <code>.default_value_if()</code> method which is <code>impl</code> for <code>clap::Arg</code> and have a different default value depending on which match arm is matched.</p>\n\n<p>From the <a href=\"https://docs.rs/clap/2.33.0/clap/struct.Arg.html\" rel=\"noreferrer\">clap documentation</a></p>\n\n<pre><code>//sets  value of arg \"other\" to \"default\" if value of \"--opt\" is \"special\"\n\nlet m = App::new(\"prog\")\n    .arg(Arg::with_name(\"opt\")\n        .takes_value(true)\n        .long(\"opt\"))\n    .arg(Arg::with_name(\"other\")\n        .long(\"other\")\n        .default_value_if(\"opt\", Some(\"special\"), \"default\"))\n    .get_matches_from(vec![\n        \"prog\", \"--opt\", \"special\"\n    ]);\n\nassert_eq!(m.value_of(\"other\"), Some(\"default\"));\n</code></pre>\n\n<p>In addition you can add a validator to your <code>operation</code> OR convert your valid operation values into flags.</p>\n\n<p>Here's an example converting your match arm values into individual flags (smaller example for clarity).</p>\n\n<pre><code>extern crate clap;\n\nuse clap::{Arg,App};\n\nfn command_line_interface&lt;'a&gt;() -&gt; clap::ArgMatches&lt;'a&gt; {\n    //Sets the command line interface of the program.\n    App::new(\"something\")\n            .version(\"0.1\")\n            .arg(Arg::with_name(\"rename\")\n                 .help(\"renames something\")\n                 .short(\"r\")\n                 .long(\"rename\"))\n            .arg(Arg::with_name(\"prepend\")\n                 .help(\"prepends something\")\n                 .short(\"p\")\n                 .long(\"prepend\"))\n            .arg(Arg::with_name(\"append\")\n                 .help(\"appends something\")\n                 .short(\"a\")\n                 .long(\"append\"))\n            .get_matches()\n}\n\n#[derive(Debug)]\nenum Operation {\n    Rename,\n    Append,\n    Prepend,\n}\n\n\nfn main() {\n    let matches  = command_line_interface();\n\n    let operation = if matches.is_present(\"rename\") {\n        Operation::Rename\n    } else if matches.is_present(\"prepend\"){\n        Operation::Prepend\n    } else {\n        //DEFAULT\n        Operation::Append\n    };\n    println!(\"Value of operation is {:?}\",operation);\n}\n</code></pre>\n\n<p>I hope this helps!</p>\n\n<p>EDIT:</p>\n\n<p>You can also use <a href=\"https://docs.rs/clap/2.33.0/clap/struct.ArgMatches.html#method.subcommand\" rel=\"noreferrer\">Subcommands</a> with your specific operations.  It all depends on what you want to interface to be like.</p>\n\n<pre><code> let app_m = App::new(\"git\")\n     .subcommand(SubCommand::with_name(\"clone\"))\n     .subcommand(SubCommand::with_name(\"push\"))\n     .subcommand(SubCommand::with_name(\"commit\"))\n     .get_matches();\n\nmatch app_m.subcommand() {\n    (\"clone\",  Some(sub_m)) =&gt; {}, // clone was used\n    (\"push\",   Some(sub_m)) =&gt; {}, // push was used\n    (\"commit\", Some(sub_m)) =&gt; {}, // commit was used\n    _                       =&gt; {}, // Either no subcommand or one not tested for...\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Joel Macaluso",
+        "link": "https://stackoverflow.com/users/5021006/joel-macaluso"
+      }
+    },
+    {
+      "answer_id": 55150936,
+      "body": "<p>There is rarely an \"only way to go\", and this case is no different. One alternative approach would be to use static dispatch instead of dynamic dispatch.</p>\n\n<p>Your main processing code needs an iterator of strings as input. So you could define a processing function like this:</p>\n\n<pre><code>fn process&lt;I: IntoIterator&lt;Item = String&gt;&gt;(strings: I) {\n    for string in strings {\n        frob(string);\n    }\n}\n</code></pre>\n\n<p>The invocation of this code could look like this:</p>\n\n<pre><code>match m.values_of(\"INPUT\") {\n    Some(values) =&gt; process(values.map(|ln| ln.to_string())),\n    None =&gt; process(io::stdin().lock().lines().map(|ln| ln.unwrap())),\n}\n</code></pre>\n\n<p>The compiler will emit two different versions of <code>process()</code>, one for each iterator type. Each version statically calls the iterator functions it is compiled for, and there is only a single dispatch to the right function in the <code>match</code> statement.</p>\n\n<p>(I probably got some details wrong here, but you get the idea.)</p>\n\n<p>Your version, on the other hand, uses the type <code>Box&lt;dyn Iterator&lt;Item = String&gt;&gt;</code>, so the iterators will be allocated on the heap, and there will be a dynamic dispatch each time <code>next()</code> is called on the iterator. Which is probably fine.</p>\n\n<p>There are certainly more ways of structuring the code and dispatching between the two different kinds of input, e.g. using the <code>Either</code> type from the <code>either</code> crate, or simply writing two different <code>for</code> loops for the two cases. Which one to choose depends on tradeoffs with other requirements of your code, your performance requirements and your personal preferences.</p>\n",
+      "owner": {
+        "display_name": "Sven Marnach",
+        "link": "https://stackoverflow.com/users/279627/sven-marnach"
+      }
+    },
+    {
+      "answer_id": 55134333,
+      "body": "<p>From clap's documentation on <code>default_value</code>:</p>\n\n<blockquote>\n  <p>NOTE: If the user does not use this argument at runtime <code>ArgMatches::is_present</code> will still return true. If you wish to determine whether the argument was used at runtime or not, consider <code>ArgMatches::occurrences_of</code> which will return <code>0</code> if the argument was not used at runtime.</p>\n  \n  <p><a href=\"https://docs.rs/clap/2.32.0/clap/struct.Arg.html#method.default_value\" rel=\"nofollow noreferrer\">https://docs.rs/clap/2.32.0/clap/struct.Arg.html#method.default_value</a></p>\n</blockquote>\n\n<p>This can be utilized to get the behavior you described:</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>extern crate clap;\nuse clap::{App, Arg};\nuse std::fs::File;\nuse std::io::prelude::*;\n\nfn main() {\n    let matches = App::new(\"MyApp\")\n        .version(\"0.1.0\")\n        .about(\"Example for StackOverflow\")\n        .arg(\n            Arg::with_name(\"config\")\n                .short(\"c\")\n                .long(\"config\")\n                .value_name(\"FILE\")\n                .help(\"Sets a custom config file\"),\n        )\n        .arg(\n            Arg::with_name(\"example\")\n                .short(\"e\")\n                .long(\"example\")\n                .help(\"Sets an example parameter\")\n                .default_value(\"default_value\")\n                .takes_value(true),\n        )\n        .get_matches();\n\n    let mut value = String::new();\n\n    if let Some(c) = matches.value_of(\"config\") {\n        let file = File::open(c);\n        match file {\n            Ok(mut f) =&gt; {\n                // Note: I have a file `config.txt` that has contents `file_value`\n                f.read_to_string(&amp;mut value).expect(\"Error reading value\");\n            }\n            Err(_) =&gt; println!(\"Error reading file\"),\n        }\n\n        // Note: this lets us override the config file value with the\n        // cli argument, if provided\n        if matches.occurrences_of(\"example\") &gt; 0 {\n            value = matches.value_of(\"example\").unwrap().to_string();\n        }\n    } else {\n        value = matches.value_of(\"example\").unwrap().to_string();\n    }\n\n    println!(\"Value for config: {}\", value);\n}\n\n// Code above licensed CC0\n// https://creativecommons.org/share-your-work/public-domain/cc0/ \n</code></pre>\n\n<p>Resulting in the behavior:</p>\n\n<pre class=\"lang-none prettyprint-override\"><code>./target/debug/example\nValue for config: default_value\n./target/debug/example --example cli_value\nValue for config: cli_value\n./target/debug/example --config config.txt\nValue for config: file_value\n./target/debug/example --example cli_value --config config.txt\nValue for config: cli_value\n</code></pre>\n",
+      "owner": {
+        "display_name": "Walther",
+        "link": "https://stackoverflow.com/users/3709997/walther"
+      }
+    },
+    {
+      "answer_id": 54837323,
+      "body": "<p>You could write the string before.</p>\n\n<pre><code>use clap::{App, SubCommand};\n\nuse std::str;\n\nfn main() {\n    let mut app = App::new(\"myapp\")\n        .version(\"0.0.1\")\n        .about(\"My first CLI APP\")\n        .subcommand(SubCommand::with_name(\"ls\").about(\"List anything\"));\n\n    let mut help = Vec::new();\n    app.write_long_help(&amp;mut help).unwrap();\n\n    let _ = app.get_matches();\n\n    println!(\"{}\", str::from_utf8(&amp;help).unwrap());\n}\n</code></pre>\n\n<p>Or you could use <a href=\"https://docs.rs/clap/2.31.1/clap/struct.App.html#method.get_matches_safe:\" rel=\"nofollow noreferrer\"><code>get_matches_safe</code></a></p>\n\n<pre><code>use clap::{App, AppSettings, ErrorKind, SubCommand};\n\nfn main() {\n    let app = App::new(\"myapp\")\n        .setting(AppSettings::ArgRequiredElseHelp)\n        .version(\"0.0.1\")\n        .about(\"My first CLI APP\")\n        .subcommand(SubCommand::with_name(\"ls\").about(\"List anything\"));\n\n    let matches = app.get_matches_safe();\n\n    match matches {\n        Err(e) =&gt; {\n            if e.kind == ErrorKind::MissingArgumentOrSubcommand {\n                println!(\"{}\", e.message)\n            }\n        }\n        _ =&gt; (),\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Stargateur",
+        "link": "https://stackoverflow.com/users/7076153/stargateur"
+      }
+    },
+    {
+      "answer_id": 54335252,
+      "body": "<p>After further research I decided to go down a slightly different path and rather take advantage of the known UNIX <code>--</code> syntax.</p>\n\n<p>Meaning that all options and flags coming after <code>--</code> will be passed down to the underlying program:</p>\n\n<pre><code>$ cli --program [PROGRAM] -- foo bar --bazinga --yay=w00t\n</code></pre>\n\n<p>This can be done using Clap's <code>.raw()</code> configuration on Arg structs.</p>\n",
+      "owner": {
+        "display_name": "Pascal Precht",
+        "link": "https://stackoverflow.com/users/1531806/pascal-precht"
+      }
+    },
+    {
+      "answer_id": 54192171,
+      "body": "<p>If the value of argument <code>bar</code> may itself start with a hyphen, then you need to set the <a href=\"https://docs.rs/clap/2.32.0/clap/struct.Arg.html#method.allow_hyphen_values\" rel=\"noreferrer\"><code>allow_hyphen_values</code></a> option:</p>\n\n<pre><code>let _matches = App::new(\"Foo\")\n    .arg(Arg::with_name(\"file\").value_name(\"FILE\").required(true))\n    .arg(\n        Arg::with_name(\"bar\")\n            .value_name(\"[BAR_OPTIONS]\")\n            .allow_hyphen_values(true)\n            .short(\"b\")\n            .long(\"bar\")\n            .multiple(true)\n            .help(\"Invoke bar with these options\"),\n    )\n    .get_matches();\n</code></pre>\n",
+      "owner": {
+        "display_name": "harmic",
+        "link": "https://stackoverflow.com/users/1411457/harmic"
+      }
+    },
+    {
+      "answer_id": 53532256,
+      "body": "<p>A quick look at the documentation gives us <a href=\"https://docs.rs/clap/2.32.0/clap/struct.Arg.html#method.value_names\" rel=\"nofollow noreferrer\"><code>value_names()</code></a>:</p>\n<blockquote>\n<p>Specify multiple names for values of option arguments. These names are cosmetic only, used for help and usage strings only. The names are not used to access arguments. The values of the arguments are accessed in numeric order (i.e. if you specify two names one and two one will be the first matched value, two will be the second).</p>\n<p>NOTE: This implicitly sets <code>Arg::number_of_values</code> if the number of value names is greater than one. I.e. be aware that the number of &quot;names&quot; you set for the values, will be the exact number of values required to satisfy this argument</p>\n<p>NOTE: implicitly sets <code>Arg::takes_value(true)</code></p>\n</blockquote>\n<pre><code>.arg(\n    clap::Arg::with_name(&quot;position&quot;)\n        .help(&quot;The position for yada yada yada&quot;)\n        .long(&quot;position&quot;)\n        .short(&quot;p&quot;)\n        .value_names(&amp;[&quot;x&quot;, &quot;y&quot;])\n        .validator(|p| match p.parse::&lt;usize&gt;() {\n            Err(_) =&gt; Err(String::from(&quot;Error string&quot;)),\n            Ok(_) =&gt; Ok(()),\n        }\n    )\n)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Stargateur",
+        "link": "https://stackoverflow.com/users/7076153/stargateur"
+      }
+    },
+    {
+      "answer_id": 52084145,
+      "body": "<p>With the given (unusual) constraint of <code>Into&lt;&amp;str&gt;</code>, the compiler is unable to turn a <code>String</code> or a <code>&amp;String</code> directly into the requested string slice. There is no such implementation of either <code>From&lt;String&gt;</code>, nor <code>From&lt;&amp;String&gt;</code>, for a string slice. Conversions from an owned string or string-like value to a slice is usually done through other traits.</p>\n\n<p>Instead, you can:</p>\n\n<ol>\n<li>Use <a href=\"https://doc.rust-lang.org/std/string/struct.String.html?search=#method.as_str\" rel=\"nofollow noreferrer\"><code>String::as_str()</code></a>, which always provides <code>&amp;str</code>;</li>\n<li>Call <code>as_ref()</code> from the <a href=\"https://doc.rust-lang.org/std/convert/trait.AsRef.html\" rel=\"nofollow noreferrer\"><code>AsRef</code></a> trait, leading the compiler to choose the implementation <code>AsRef&lt;str&gt;</code> for <code>String</code>;</li>\n<li>Or re-borrow the string, thus forcing a conversion to <code>&amp;str</code>.</li>\n</ol>\n\n\n\n<pre><code>let matches = App::new(NAME).about(description.as_str()).get_matches(); // (1)\nlet matches = App::new(NAME).about(description.as_ref()).get_matches(); // (2)\nlet matches = App::new(NAME).about(&amp;*description).get_matches(); // (3)\n</code></pre>\n",
+      "owner": {
+        "display_name": "E_net4",
+        "link": "https://stackoverflow.com/users/1233251/e-net4"
+      }
+    },
+    {
+      "answer_id": 51176028,
+      "body": "<p>As per Francois' suggestion, I switched to using subcommands. I had to write out my <code>-t</code> and <code>-m</code> flags and their <code>DB</code> group twice, once for each subcommand that uses them. I was trying to avoid that to keep my YAML file clean and less repetitive but functionality is more important.</p>\n\n<p>Working YAML file:</p>\n\n<pre><code>name: mfm\nversion: \"0.1.0\"\nauthor: Jonathan Marple &lt;elpramnoj@gmail.com&gt;\nabout: Media file manager written in rust.\nargs:\n    - INPUT:\n        help: Sets the input file(s) to use\n        required: true\n        min_values: 1\nsubcommands:\n    - scrape:\n        about: Scrape information on show/movie\n        args:\n            - tvdb:\n                short: t\n                long: tvdb\n                help: Pull from tvdb\n            - tmdb:\n                short: m\n                long: tmdb\n                help: Pull from tmdb\n        groups:\n            - DB:\n                required: true\n                args:\n                    - tvdb\n                    - tmdb\n    - rename:\n        about: Rename file(s)\n        args:\n            - tvdb:\n                short: t\n                long: tvdb\n                help: Pull from tvdb\n            - tmdb:\n                short: m\n                long: tmdb\n                help: Pull from tmdb\n        groups:\n            - DB:\n                required: true\n                args:\n                    - tvdb\n                    - tmdb\n    - generate:\n        about: Generate folders for file(s)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jonathan Marple",
+        "link": "https://stackoverflow.com/users/8453305/jonathan-marple"
+      }
+    },
+    {
+      "answer_id": 51000926,
+      "body": "<p>This is currently impossible with number, <a href=\"https://github.com/kbknapp/clap-rs/issues/1035\" rel=\"nofollow noreferrer\">https://github.com/kbknapp/clap-rs/issues/1035</a>.</p>\n\n<p>But it's should be:</p>\n\n<pre><code>(@arg seconds: -u +takes_value default_value[1.0] \"Update time\")\n</code></pre>\n",
+      "owner": {
+        "display_name": "Stargateur",
+        "link": "https://stackoverflow.com/users/7076153/stargateur"
+      }
+    },
+    {
+      "answer_id": 49943259,
+      "body": "<p>The <code>index</code> property of an argument specification should be an integer, not a string. One can find an example of a positional argument with an explicit index in the <a href=\"https://docs.rs/clap/2.31.2/clap/#quick-example\" rel=\"noreferrer\">documentation</a>. Remove the quotes from around that value and the configuration file will work again.</p>\n\n<pre><code>name: \"tool\"\nversion: \"0.1\"\nabout: \"description\"\nauthor: \"m00am\"\n\nsubcommands:\n  - subcommand1:\n      args:\n        - path:\n            index: 1\n            required: true\n            default_value: \"/tmp/\"\n            help: \"Dummy Path\"\n  - subcommand2:\n      args:\n         - other_path:\n             index: 1\n             required: true\n             help: \"A second dummy path\"\n</code></pre>\n\n<pre class=\"lang-none prettyprint-override\"><code>$ cargo run -- subcommand1 --help\n\nUSAGE:\n    tool subcommand1 &lt;path&gt;\n\nFLAGS:\n    -h, --help       Prints help information\n    -V, --version    Prints version information\n\nARGS:\n    &lt;path&gt;    Dummy Path [default: /tmp/]\n</code></pre>\n\n<p>I could not identify the reason why this used to work in previous versions. There is a chance that the implementation allowed it beyond the intended functionality. Otherwise, it could have been a breaking change from an early version of Clap with YAML configuration support. The dependencies in your Cargo.toml file are too flexible for long-term use, and makes these issues more likely to happen. Sticking to the default (caret) version ranges is usually the right thing to do (see <a href=\"https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html\" rel=\"noreferrer\">specifying dependencies</a>).</p>\n",
+      "owner": {
+        "display_name": "E_net4",
+        "link": "https://stackoverflow.com/users/1233251/e-net4"
+      }
+    },
+    {
+      "answer_id": 49290687,
+      "body": "<p>Use <a href=\"https://docs.rs/clap/2.31.1/clap/enum.AppSettings.html#variant.ArgRequiredElseHelp\" rel=\"noreferrer\"><code>clap::AppSettings::ArgRequiredElseHelp</code></a>:</p>\n\n<pre><code>App::new(\"myprog\")\n    .setting(AppSettings::ArgRequiredElseHelp)\n</code></pre>\n\n<p>See also:</p>\n\n<ul>\n<li><a href=\"https://stackoverflow.com/q/40951538/155423\">Method call on clap::App moving ownership more than once</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Shepmaster",
+        "link": "https://stackoverflow.com/users/155423/shepmaster"
+      }
+    },
+    {
+      "answer_id": 40951660,
+      "body": "<p>Read the <a href=\"https://docs.rs/clap/2.19.1/clap/struct.App.html#method.get_matches\" rel=\"noreferrer\">function signature for <code>App::get_matches</code></a>:</p>\n\n<pre><code>fn get_matches(self) -&gt; ArgMatches&lt;'a&gt;\n</code></pre>\n\n<p>This takes <code>self</code> by value, also said as it <em>consumes</em> the value; you <em>cannot</em> call any methods on it afterwards. There's nothing to be done about this; presumably the author has good rationale for this.</p>\n\n<p>Now review <a href=\"https://docs.rs/clap/2.19.1/clap/struct.App.html#method.print_help\" rel=\"noreferrer\"><code>App::print_help</code></a>:</p>\n\n<pre><code>fn print_help(&amp;mut self) -&gt; ClapResult&lt;()&gt;\n</code></pre>\n\n<p>It takes a reference (which happens to be mutable). You do not have to transfer ownership to call this method.</p>\n\n<hr>\n\n<blockquote>\n  <p>If I understand correctly, <code>app.get_matches()</code> asks to borrow the ownership, thus app must be <code>mut</code>. Where does the ownership go once the function returns?</p>\n</blockquote>\n\n<p>You do not understand correctly, in multiple dimensions.</p>\n\n<ol>\n<li><code>get_matches</code> consumes the value, it does not borrow anything.</li>\n<li>A value does not need to be mutable to be borrowed.</li>\n<li>When you do borrow something, the ownership doesn't \"go\" anywhere. The original owner continues to own it. That's why it's called <em>borrowing</em>.</li>\n</ol>\n\n<blockquote>\n  <p>How can I get the matches, and effectively still call another method, such as <code>print_help</code> on app then?</p>\n</blockquote>\n\n<p>You don't. The obvious workaround is to clone the original object, producing a second value. Then you can consume one value and still call methods on the second value.</p>\n\n<hr>\n\n<p>Basically, it sounds like you are trying to do something that the library is discouraging you from doing. Perhaps you should re-evaluate your goals and/or review the intended usage of the library. For example, <code>get_matches</code> will automatically display the help text when the user requests it, so why should your code try to do so?</p>\n\n<p>From the <a href=\"https://github.com/kbknapp/clap-rs/issues/785\" rel=\"noreferrer\">Clap issue tracker</a>:</p>\n\n<blockquote>\n  <p>You have a few options. You can either use <a href=\"https://docs.rs/clap/2.19.2/clap/enum.AppSettings.html#variant.ArgRequiredElseHelp\" rel=\"noreferrer\"><code>AppSettings::ArgRequiredElseHelp</code></a> or you can keep the move from happening by using <a href=\"https://docs.rs/clap/2.19.2/clap/struct.App.html#method.get_matches_from_safe_borrow\" rel=\"noreferrer\"><code>App::get_matches_from_safe_borrow</code></a>.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Shepmaster",
+        "link": "https://stackoverflow.com/users/155423/shepmaster"
+      }
+    },
+    {
+      "answer_id": 48410827,
+      "body": "<p>I had opened an issue at the <a href=\"https://github.com/kbknapp/clap-rs/issues/1127\" rel=\"nofollow noreferrer\">clap repository</a>. The author / main contributor has answered there. Here is a copy of the code, which answers the question:</p>\n\n<pre><code>extern crate clap;\n\nuse std::env;\nuse std::process;\n\nuse clap::{App, Arg};\n\nfn main() {\n    // We build the App instance and save it, so we can\n    // use it later if needed\n    let mut app = App::new(\"prog\").arg(\n        Arg::with_name(\"help\")\n            .short(\"?\")\n            .help(\"Also prints the help message\"),\n    );\n\n    // We call this method which will do all the\n    //parsing, but not consume our App instance\n    let res = app.get_matches_from_safe_borrow(env::args_os());\n\n    // This calls all the normal clap error messages\n    // if one should exist\n    let matches = res.unwrap_or_else(|e| e.exit());\n\n    // Now we check for ?\n    if matches.is_present(\"help\") {\n        let _ = app.print_help();\n        println!(\"\"); // adds a newline\n        process::exit(0);\n    }\n\n    // Now we can use matches like normal...\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Kağan Kayal",
+        "link": "https://stackoverflow.com/users/939280/ka%c4%9fan-kayal"
+      }
+    },
+    {
+      "answer_id": 44094672,
+      "body": "<p>The function you are looking for is <a href=\"https://docs.rs/clap/2.24.2/clap/struct.ArgMatches.html#method.values_of\" rel=\"noreferrer\">values_of</a>, you can use it like this:</p>\n\n<pre><code>let matches = App::new(\"My Super Program\")\n        .arg(Arg::with_name(\"something\")\n            .multiple(true))\n        .get_matches();\n\nlet iterator = matches.values_of(\"something\");\nfor el in iterator.unwrap() {\n    println!(\"{:?}\", el);\n};\n</code></pre>\n\n<p>If you don't care about preserving invalid UTF-8 the easier choice is using <a href=\"https://docs.rs/clap/2.24.2/clap/struct.ArgMatches.html#method.values_of_lossy\" rel=\"noreferrer\">values_of_lossy</a> which returns an actual Vector (<code>Option&lt;Vec&lt;String&gt;&gt;</code>) and not an iterator.</p>\n\n<pre><code>let arguments = matches.values_of_lossy(\"something\").unwrap();      \nprintln!(\"{:?}\", arguments);\n</code></pre>\n\n<p>Keep in mind that you really should not unwrap the values in your actual program as it will just crash at run-time if the arguments are not supplied. The only exception to this would be arguments that <code>required(true)</code> was set on. Their absence would cause a run-time error (with helpful error messages) when calling <code>get_matches</code>.</p>\n",
+      "owner": {
+        "display_name": "H2O",
+        "link": "https://stackoverflow.com/users/3298826/h2o"
+      }
+    }
+  ]
+}

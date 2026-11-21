@@ -1,0 +1,1395 @@
+{
+  "library": "swift:github.com/onevcat/kingfisher",
+  "fetched_at": "2026-11-21T17:28:31Z",
+  "questions": [
+    {
+      "question_id": 35204620,
+      "title": "Get UIImage only with Kingfisher library",
+      "accepted_answer_id": 35917317,
+      "score": 60,
+      "link": "https://stackoverflow.com/questions/35204620/get-uiimage-only-with-kingfisher-library",
+      "owner": {
+        "display_name": "Patonz",
+        "link": "https://stackoverflow.com/users/1517306/patonz"
+      }
+    },
+    {
+      "question_id": 63614048,
+      "title": "XCode 12: &#39;SessionDelegate&#39; has different definitions in different modules",
+      "accepted_answer_id": 64040168,
+      "score": 32,
+      "link": "https://stackoverflow.com/questions/63614048/xcode-12-sessiondelegate-has-different-definitions-in-different-modules",
+      "owner": {
+        "display_name": "Feridun Erbaş",
+        "link": "https://stackoverflow.com/users/5828331/feridun-erba%c5%9f"
+      }
+    },
+    {
+      "question_id": 44048657,
+      "title": "How to cache images only in disk using Kingfisher?",
+      "accepted_answer_id": 44354411,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/44048657/how-to-cache-images-only-in-disk-using-kingfisher",
+      "owner": {
+        "display_name": "PGDev",
+        "link": "https://stackoverflow.com/users/5716829/pgdev"
+      }
+    },
+    {
+      "question_id": 40758183,
+      "title": "How to clear memory and disk cache for images loaded using Kingfisherin UITableView?",
+      "accepted_answer_id": 44432786,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/40758183/how-to-clear-memory-and-disk-cache-for-images-loaded-using-kingfisherin-uitablev",
+      "owner": {
+        "display_name": "Ankit Kumar Gupta",
+        "link": "https://stackoverflow.com/users/6665075/ankit-kumar-gupta"
+      }
+    },
+    {
+      "question_id": 54082478,
+      "title": "Main thread blocking on scroll and Kingfisher setting the image",
+      "accepted_answer_id": 54083088,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/54082478/main-thread-blocking-on-scroll-and-kingfisher-setting-the-image",
+      "owner": {
+        "display_name": "Zack Shapiro",
+        "link": "https://stackoverflow.com/users/602210/zack-shapiro"
+      }
+    },
+    {
+      "question_id": 54293404,
+      "title": "How to resize UIImageView after loading image from URL w/ Kingfisher",
+      "accepted_answer_id": 54294991,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/54293404/how-to-resize-uiimageview-after-loading-image-from-url-w-kingfisher",
+      "owner": {
+        "display_name": "Tim J",
+        "link": "https://stackoverflow.com/users/10823240/tim-j"
+      }
+    },
+    {
+      "question_id": 43049041,
+      "title": "What&#39;s the Kingfisher default cache behavior?",
+      "accepted_answer_id": 43059229,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/43049041/whats-the-kingfisher-default-cache-behavior",
+      "owner": {
+        "display_name": "Ahmad F",
+        "link": "https://stackoverflow.com/users/5501940/ahmad-f"
+      }
+    },
+    {
+      "question_id": 66001286,
+      "title": "Why doesn&#39;t SwiftUI&#39;s Kingfisher KFImage.Placeholder(UIImage(named: &quot;logo&quot;)) accept UIImage as acceptable?",
+      "accepted_answer_id": 66001745,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/66001286/why-doesnt-swiftuis-kingfisher-kfimage-placeholderuiimagenamed-logo-acc",
+      "owner": {
+        "display_name": "AppyAndy",
+        "link": "https://stackoverflow.com/users/14167020/appyandy"
+      }
+    },
+    {
+      "question_id": 55276513,
+      "title": "Set UIImage to UIImageView directly with kingfisher",
+      "accepted_answer_id": 55277064,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/55276513/set-uiimage-to-uiimageview-directly-with-kingfisher",
+      "owner": {
+        "display_name": "Deepak",
+        "link": "https://stackoverflow.com/users/8171754/deepak"
+      }
+    },
+    {
+      "question_id": 52885861,
+      "title": "IOS Swift Kingfisher Resize processor result blurry image",
+      "accepted_answer_id": 52885942,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/52885861/ios-swift-kingfisher-resize-processor-result-blurry-image",
+      "owner": {
+        "display_name": "L&#234; Kh&#225;nh Vinh",
+        "link": "https://stackoverflow.com/users/5532616/l%c3%aa-kh%c3%a1nh-vinh"
+      }
+    },
+    {
+      "question_id": 58629726,
+      "title": "KingFisher 5.0 crashing with EXC_BAD_INSTRUCTION in Xcode 11.2",
+      "accepted_answer_id": 58658048,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/58629726/kingfisher-5-0-crashing-with-exc-bad-instruction-in-xcode-11-2",
+      "owner": {
+        "display_name": "Juanjo",
+        "link": "https://stackoverflow.com/users/1992152/juanjo"
+      }
+    },
+    {
+      "question_id": 45628266,
+      "title": "How can I place images in array which is downloaded by Kingfisher cache?",
+      "accepted_answer_id": 45632714,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/45628266/how-can-i-place-images-in-array-which-is-downloaded-by-kingfisher-cache",
+      "owner": {
+        "display_name": "Wide Angle Technology",
+        "link": "https://stackoverflow.com/users/8399124/wide-angle-technology"
+      }
+    },
+    {
+      "question_id": 45487697,
+      "title": "Set Image in imagePickerController with using Kingfisher",
+      "accepted_answer_id": 45883185,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/45487697/set-image-in-imagepickercontroller-with-using-kingfisher",
+      "owner": {
+        "display_name": "AtaerCaner",
+        "link": "https://stackoverflow.com/users/4589419/ataercaner"
+      }
+    },
+    {
+      "question_id": 43574681,
+      "title": "Round Image View getting with KingFisher (iOS - Swift)",
+      "accepted_answer_id": 43574867,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/43574681/round-image-view-getting-with-kingfisher-ios-swift",
+      "owner": {
+        "display_name": "U23r",
+        "link": "https://stackoverflow.com/users/2465455/u23r"
+      }
+    },
+    {
+      "question_id": 72878363,
+      "title": "Can we skip placing image in 1x, 2x but only placing in 3x Assets.xcassets, for app size optimization purpose?",
+      "accepted_answer_id": 72878499,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/72878363/can-we-skip-placing-image-in-1x-2x-but-only-placing-in-3x-assets-xcassets-for",
+      "owner": {
+        "display_name": "Cheok Yan Cheng",
+        "link": "https://stackoverflow.com/users/72437/cheok-yan-cheng"
+      }
+    },
+    {
+      "question_id": 51074988,
+      "title": "Placeholder image as Thumbnail(blurred) until actual image loads",
+      "accepted_answer_id": 51077483,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/51074988/placeholder-image-as-thumbnailblurred-until-actual-image-loads",
+      "owner": {
+        "display_name": "Guna",
+        "link": "https://stackoverflow.com/users/1111127/guna"
+      }
+    },
+    {
+      "question_id": 49576345,
+      "title": "Concurrent queue with barrier task only",
+      "accepted_answer_id": 49579547,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/49576345/concurrent-queue-with-barrier-task-only",
+      "owner": {
+        "display_name": "kukushi",
+        "link": "https://stackoverflow.com/users/1809592/kukushi"
+      }
+    },
+    {
+      "question_id": 44742261,
+      "title": "Does Kingfisher support video caching?",
+      "accepted_answer_id": 44742324,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/44742261/does-kingfisher-support-video-caching",
+      "owner": {
+        "display_name": "joe",
+        "link": "https://stackoverflow.com/users/4271148/joe"
+      }
+    },
+    {
+      "question_id": 44325074,
+      "title": "Kingfisher caches the data in RAM",
+      "accepted_answer_id": 44327952,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/44325074/kingfisher-caches-the-data-in-ram",
+      "owner": {
+        "display_name": "Alexander Khitev",
+        "link": "https://stackoverflow.com/users/4981515/alexander-khitev"
+      }
+    },
+    {
+      "question_id": 43483018,
+      "title": "How to apply blur to image and then cache it with Kingfisher?",
+      "accepted_answer_id": 43483100,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/43483018/how-to-apply-blur-to-image-and-then-cache-it-with-kingfisher",
+      "owner": {
+        "display_name": "Toma Radu-Petrescu",
+        "link": "https://stackoverflow.com/users/3185860/toma-radu-petrescu"
+      }
+    },
+    {
+      "question_id": 73444501,
+      "title": "Kingfisher Image takes full width",
+      "accepted_answer_id": 73444876,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/73444501/kingfisher-image-takes-full-width",
+      "owner": {
+        "display_name": "tscheppe",
+        "link": "https://stackoverflow.com/users/10120717/tscheppe"
+      }
+    },
+    {
+      "question_id": 66762223,
+      "title": "KFImage image loaded but not displayed?",
+      "accepted_answer_id": 66836110,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/66762223/kfimage-image-loaded-but-not-displayed",
+      "owner": {
+        "display_name": "Kodr.F",
+        "link": "https://stackoverflow.com/users/3059001/kodr-f"
+      }
+    },
+    {
+      "question_id": 65758054,
+      "title": "Kingfisher updating KFImage url is not updating the image in SwiftUI",
+      "accepted_answer_id": 65759443,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/65758054/kingfisher-updating-kfimage-url-is-not-updating-the-image-in-swiftui",
+      "owner": {
+        "display_name": "Samuel Folledo",
+        "link": "https://stackoverflow.com/users/7277928/samuel-folledo"
+      }
+    },
+    {
+      "question_id": 65112827,
+      "title": "Can&#39;t display image from url using Kingfisher",
+      "accepted_answer_id": 65114085,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/65112827/cant-display-image-from-url-using-kingfisher",
+      "owner": {
+        "display_name": "Ahmad Aboelghet",
+        "link": "https://stackoverflow.com/users/6067703/ahmad-aboelghet"
+      }
+    },
+    {
+      "question_id": 59203844,
+      "title": "Swift App Termination removes Kingfisher Disk Cache",
+      "accepted_answer_id": 59215057,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/59203844/swift-app-termination-removes-kingfisher-disk-cache",
+      "owner": {
+        "display_name": "matsbauer",
+        "link": "https://stackoverflow.com/users/8279759/matsbauer"
+      }
+    },
+    {
+      "question_id": 58746415,
+      "title": "Local gif didn&#39;t show when I updated Kingfisher",
+      "accepted_answer_id": 58973029,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/58746415/local-gif-didnt-show-when-i-updated-kingfisher",
+      "owner": {
+        "display_name": "无夜之星辰",
+        "link": "https://stackoverflow.com/users/6144118/%e6%97%a0%e5%a4%9c%e4%b9%8b%e6%98%9f%e8%be%b0"
+      }
+    },
+    {
+      "question_id": 56094935,
+      "title": "How to load image asynchronously with Swift using UIImageViewExtension and preventing duplicate images or wrong Images loaded to cells",
+      "accepted_answer_id": 56096365,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/56094935/how-to-load-image-asynchronously-with-swift-using-uiimageviewextension-and-preve",
+      "owner": {
+        "display_name": "BigFire",
+        "link": "https://stackoverflow.com/users/2425841/bigfire"
+      }
+    },
+    {
+      "question_id": 54047903,
+      "title": "Kingfisher: Ambiguous use of &#39;setBackgroundImage(with:for:placeholder:options:progressBlock:completionHandler:)&#39;",
+      "accepted_answer_id": 54049016,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/54047903/kingfisher-ambiguous-use-of-setbackgroundimagewithforplaceholderoptionspr",
+      "owner": {
+        "display_name": "rmrf",
+        "link": "https://stackoverflow.com/users/6232148/rmrf"
+      }
+    },
+    {
+      "question_id": 52244313,
+      "title": "Show updated images in the same url using Kingfisher ios",
+      "accepted_answer_id": 53825441,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/52244313/show-updated-images-in-the-same-url-using-kingfisher-ios",
+      "owner": {
+        "display_name": "RP89",
+        "link": "https://stackoverflow.com/users/4587823/rp89"
+      }
+    },
+    {
+      "question_id": 51333899,
+      "title": "Cancel single image download with Kingfisher",
+      "accepted_answer_id": 51334323,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/51333899/cancel-single-image-download-with-kingfisher",
+      "owner": {
+        "display_name": "Faisal Alneela",
+        "link": "https://stackoverflow.com/users/2519639/faisal-alneela"
+      }
+    },
+    {
+      "question_id": 50713884,
+      "title": "How to set indicatorType during setBackgroundImage for UIButton using Kingfisher",
+      "accepted_answer_id": 50714165,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/50713884/how-to-set-indicatortype-during-setbackgroundimage-for-uibutton-using-kingfisher",
+      "owner": {
+        "display_name": "nastenkomisha",
+        "link": "https://stackoverflow.com/users/2862738/nastenkomisha"
+      }
+    },
+    {
+      "question_id": 48568147,
+      "title": "Kingfisher check for 404 status",
+      "accepted_answer_id": 48568446,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/48568147/kingfisher-check-for-404-status",
+      "owner": {
+        "display_name": "M1X",
+        "link": "https://stackoverflow.com/users/2738166/m1x"
+      }
+    },
+    {
+      "question_id": 40793674,
+      "title": "Cannot set image with URL",
+      "accepted_answer_id": 40793806,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/40793674/cannot-set-image-with-url",
+      "owner": {
+        "display_name": "MatterGoal",
+        "link": "https://stackoverflow.com/users/499990/mattergoal"
+      }
+    },
+    {
+      "question_id": 40091601,
+      "title": "Kingfisher cache image to disk",
+      "accepted_answer_id": 40099690,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/40091601/kingfisher-cache-image-to-disk",
+      "owner": {
+        "display_name": "duguyihou",
+        "link": "https://stackoverflow.com/users/4616689/duguyihou"
+      }
+    },
+    {
+      "question_id": 78739962,
+      "title": "Snapshot testing of views containing Kingfisher async images on iOS",
+      "accepted_answer_id": 78741711,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/78739962/snapshot-testing-of-views-containing-kingfisher-async-images-on-ios",
+      "owner": {
+        "display_name": "Carlos",
+        "link": "https://stackoverflow.com/users/896118/carlos"
+      }
+    },
+    {
+      "question_id": 69282769,
+      "title": "How to use AspectScaledToFitAndCenterSizeFilter in kingFisher library in swift",
+      "accepted_answer_id": 69288369,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/69282769/how-to-use-aspectscaledtofitandcentersizefilter-in-kingfisher-library-in-swift",
+      "owner": {
+        "display_name": "ios",
+        "link": "https://stackoverflow.com/users/13226442/ios"
+      }
+    },
+    {
+      "question_id": 59351165,
+      "title": "Swift white background from rounded image",
+      "accepted_answer_id": 59351497,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/59351165/swift-white-background-from-rounded-image",
+      "owner": {
+        "display_name": "RussellHarrower",
+        "link": "https://stackoverflow.com/users/275414/russellharrower"
+      }
+    },
+    {
+      "question_id": 56527602,
+      "title": "Load URL into array using Kingfisher",
+      "accepted_answer_id": 56528247,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/56527602/load-url-into-array-using-kingfisher",
+      "owner": {
+        "display_name": "LolPrezy",
+        "link": "https://stackoverflow.com/users/11132226/lolprezy"
+      }
+    },
+    {
+      "question_id": 54940227,
+      "title": "Message from debugger: Terminated due to memory issue While scrolling in UITableView/UICollectionView with gif images Kingfisher Library",
+      "accepted_answer_id": 54940677,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/54940227/message-from-debugger-terminated-due-to-memory-issue-while-scrolling-in-uitable",
+      "owner": {
+        "display_name": "Manish Patel",
+        "link": "https://stackoverflow.com/users/6854708/manish-patel"
+      }
+    },
+    {
+      "question_id": 54365906,
+      "title": "Cannot convert value of type &#39;(_) -&gt; ()&#39; to expected argument type &#39;CompletionHandler?&#39; using KingFisher Swift",
+      "accepted_answer_id": 54366354,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/54365906/cannot-convert-value-of-type-to-expected-argument-type-completionha",
+      "owner": {
+        "display_name": "Abdulmoiz Ahmer",
+        "link": "https://stackoverflow.com/users/10866877/abdulmoiz-ahmer"
+      }
+    },
+    {
+      "question_id": 54249059,
+      "title": "UITableView not showing remote image until scroll or reload of tableviewcell",
+      "accepted_answer_id": 54249217,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/54249059/uitableview-not-showing-remote-image-until-scroll-or-reload-of-tableviewcell",
+      "owner": {
+        "display_name": "Tim J",
+        "link": "https://stackoverflow.com/users/10823240/tim-j"
+      }
+    },
+    {
+      "question_id": 53847153,
+      "title": "How to set Image at current Cell (Kingfisher)? Swift",
+      "accepted_answer_id": 53847611,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/53847153/how-to-set-image-at-current-cell-kingfisher-swift",
+      "owner": {
+        "display_name": "Артем Ильинский",
+        "link": "https://stackoverflow.com/users/10224873/%d0%90%d1%80%d1%82%d0%b5%d0%bc-%d0%98%d0%bb%d1%8c%d0%b8%d0%bd%d1%81%d0%ba%d0%b8%d0%b9"
+      }
+    },
+    {
+      "question_id": 53761169,
+      "title": "How to set indicatorType in KingFisher v5.0.0 from inside an extension on UIImageView?",
+      "accepted_answer_id": 53801595,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/53761169/how-to-set-indicatortype-in-kingfisher-v5-0-0-from-inside-an-extension-on-uiimag",
+      "owner": {
+        "display_name": "JAHelia",
+        "link": "https://stackoverflow.com/users/1056118/jahelia"
+      }
+    },
+    {
+      "question_id": 52803206,
+      "title": "IOS Rxswift use Kingfisher to prefetch cell Image",
+      "accepted_answer_id": 52803761,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/52803206/ios-rxswift-use-kingfisher-to-prefetch-cell-image",
+      "owner": {
+        "display_name": "L&#234; Kh&#225;nh Vinh",
+        "link": "https://stackoverflow.com/users/5532616/l%c3%aa-kh%c3%a1nh-vinh"
+      }
+    },
+    {
+      "question_id": 48719093,
+      "title": "saving images in an array after getting them form the web using kingfisher",
+      "accepted_answer_id": 48719159,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/48719093/saving-images-in-an-array-after-getting-them-form-the-web-using-kingfisher",
+      "owner": {
+        "display_name": "user7477041",
+        "link": null
+      }
+    },
+    {
+      "question_id": 44381191,
+      "title": "Strange RAM behavior in Kingfisher",
+      "accepted_answer_id": 44394469,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/44381191/strange-ram-behavior-in-kingfisher",
+      "owner": {
+        "display_name": "Alexander Khitev",
+        "link": "https://stackoverflow.com/users/4981515/alexander-khitev"
+      }
+    },
+    {
+      "question_id": 43647990,
+      "title": "How to Make Loading in Image Slideshow Swift",
+      "accepted_answer_id": 43648343,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/43647990/how-to-make-loading-in-image-slideshow-swift",
+      "owner": {
+        "display_name": "Ariel Gemilang",
+        "link": "https://stackoverflow.com/users/6154083/ariel-gemilang"
+      }
+    },
+    {
+      "question_id": 42454013,
+      "title": "Difficulty loading Image in Swift with Kingfisher",
+      "accepted_answer_id": 53428429,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/42454013/difficulty-loading-image-in-swift-with-kingfisher",
+      "owner": {
+        "display_name": "Vasileios Antoniadis",
+        "link": "https://stackoverflow.com/users/7620839/vasileios-antoniadis"
+      }
+    },
+    {
+      "question_id": 40361186,
+      "title": "Issue importing Kingfisher librabry - Swift 3 Xcode 8.1",
+      "accepted_answer_id": 40361640,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/40361186/issue-importing-kingfisher-librabry-swift-3-xcode-8-1",
+      "owner": {
+        "display_name": "Adrien Zier",
+        "link": "https://stackoverflow.com/users/5487135/adrien-zier"
+      }
+    },
+    {
+      "question_id": 78350084,
+      "title": "Kingfisher implementation of offline support",
+      "accepted_answer_id": 78584344,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/78350084/kingfisher-implementation-of-offline-support",
+      "owner": {
+        "display_name": "IT-Guy007",
+        "link": "https://stackoverflow.com/users/14902603/it-guy007"
+      }
+    },
+    {
+      "question_id": 77775895,
+      "title": "Having trouble displaying KFImage with URL in SwiftUI - Kingfisher",
+      "accepted_answer_id": 77776063,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/77775895/having-trouble-displaying-kfimage-with-url-in-swiftui-kingfisher",
+      "owner": {
+        "display_name": "NinjaDeveloper",
+        "link": "https://stackoverflow.com/users/5796045/ninjadeveloper"
+      }
+    },
+    {
+      "question_id": 76259442,
+      "title": "Swift 5, Kingfisher - How to guarantee no duplicate images when loading images to Collection view cell?",
+      "accepted_answer_id": 76261182,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/76259442/swift-5-kingfisher-how-to-guarantee-no-duplicate-images-when-loading-images-t",
+      "owner": {
+        "display_name": "Runnan",
+        "link": "https://stackoverflow.com/users/5323086/runnan"
+      }
+    },
+    {
+      "question_id": 74095743,
+      "title": "Correct Placeholder Code Fit Width Area and Adjust Height and Placeholder Icon in the. middle",
+      "accepted_answer_id": 74096616,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/74095743/correct-placeholder-code-fit-width-area-and-adjust-height-and-placeholder-icon-i",
+      "owner": {
+        "display_name": "chitgoks",
+        "link": "https://stackoverflow.com/users/5855091/chitgoks"
+      }
+    },
+    {
+      "question_id": 67968197,
+      "title": "Unable to create Build for App Store submission",
+      "accepted_answer_id": 68024629,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/67968197/unable-to-create-build-for-app-store-submission",
+      "owner": {
+        "display_name": "Ahsan Aasim",
+        "link": "https://stackoverflow.com/users/4060672/ahsan-aasim"
+      }
+    },
+    {
+      "question_id": 67650992,
+      "title": "Why did kingfisher create cacheFileName using md5?",
+      "accepted_answer_id": 67654287,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/67650992/why-did-kingfisher-create-cachefilename-using-md5",
+      "owner": {
+        "display_name": "Park재현",
+        "link": "https://stackoverflow.com/users/14171284/park%ec%9e%ac%ed%98%84"
+      }
+    },
+    {
+      "question_id": 62938096,
+      "title": "Download image with Kingfisher from Firebase Storage",
+      "accepted_answer_id": 62938166,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/62938096/download-image-with-kingfisher-from-firebase-storage",
+      "owner": {
+        "display_name": "Chris",
+        "link": "https://stackoverflow.com/users/11968226/chris"
+      }
+    },
+    {
+      "question_id": 56815991,
+      "title": "Button with an asynchronously loaded image as titleView in UINavigationItem",
+      "accepted_answer_id": 56875386,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/56815991/button-with-an-asynchronously-loaded-image-as-titleview-in-uinavigationitem",
+      "owner": {
+        "display_name": "Sebastien",
+        "link": "https://stackoverflow.com/users/100822/sebastien"
+      }
+    },
+    {
+      "question_id": 54429886,
+      "title": "Kingfisher LocalFileImageDataProvider DownsamplingImageProcessor resize data in memory",
+      "accepted_answer_id": 54684647,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/54429886/kingfisher-localfileimagedataprovider-downsamplingimageprocessor-resize-data-in",
+      "owner": {
+        "display_name": "Yuan Fu",
+        "link": "https://stackoverflow.com/users/5023978/yuan-fu"
+      }
+    },
+    {
+      "question_id": 51806405,
+      "title": "iOS image [Kingfisher || AlamofireImage] &quot;Terminated due to memory issue&quot;",
+      "accepted_answer_id": 51864151,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/51806405/ios-image-kingfisher-alamofireimage-terminated-due-to-memory-issue",
+      "owner": {
+        "display_name": "Akash Popat",
+        "link": "https://stackoverflow.com/users/4381080/akash-popat"
+      }
+    },
+    {
+      "question_id": 51459738,
+      "title": "Kingfisher nil while unwrapping optional value",
+      "accepted_answer_id": 51462490,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/51459738/kingfisher-nil-while-unwrapping-optional-value",
+      "owner": {
+        "display_name": "Konstantin Chsherbakov",
+        "link": "https://stackoverflow.com/users/5033823/konstantin-chsherbakov"
+      }
+    },
+    {
+      "question_id": 50441557,
+      "title": "do I download the image twice if use pods to cache the image and download it asynchronously?",
+      "accepted_answer_id": 50441640,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/50441557/do-i-download-the-image-twice-if-use-pods-to-cache-the-image-and-download-it-asy",
+      "owner": {
+        "display_name": "Agung",
+        "link": "https://stackoverflow.com/users/8360561/agung"
+      }
+    },
+    {
+      "question_id": 48970847,
+      "title": "Kingfisher download multiple images with custom image view",
+      "accepted_answer_id": 48972348,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/48970847/kingfisher-download-multiple-images-with-custom-image-view",
+      "owner": {
+        "display_name": "Daibaku",
+        "link": "https://stackoverflow.com/users/8698490/daibaku"
+      }
+    },
+    {
+      "question_id": 48097666,
+      "title": "Using Kingfisher how can I cache a new image which has kept the same URL?",
+      "accepted_answer_id": 48098853,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/48097666/using-kingfisher-how-can-i-cache-a-new-image-which-has-kept-the-same-url",
+      "owner": {
+        "display_name": "Paradox_Gods",
+        "link": "https://stackoverflow.com/users/7201188/paradox-gods"
+      }
+    },
+    {
+      "question_id": 43690841,
+      "title": "App crashing when trying to get image URL as a String",
+      "accepted_answer_id": 43691455,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/43690841/app-crashing-when-trying-to-get-image-url-as-a-string",
+      "owner": {
+        "display_name": "U23r",
+        "link": "https://stackoverflow.com/users/2465455/u23r"
+      }
+    },
+    {
+      "question_id": 43305338,
+      "title": "Kingfisher with Firebase storage slow to display images - swift 3",
+      "accepted_answer_id": 43424005,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/43305338/kingfisher-with-firebase-storage-slow-to-display-images-swift-3",
+      "owner": {
+        "display_name": "ThundercatChris",
+        "link": "https://stackoverflow.com/users/5119823/thundercatchris"
+      }
+    },
+    {
+      "question_id": 41736174,
+      "title": "How to get dynamic data into array KingFisher swift",
+      "accepted_answer_id": 41736363,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/41736174/how-to-get-dynamic-data-into-array-kingfisher-swift",
+      "owner": {
+        "display_name": "MAS. John",
+        "link": "https://stackoverflow.com/users/7345006/mas-john"
+      }
+    },
+    {
+      "question_id": 41368142,
+      "title": "Best practice for storing and uploading multiple images from ImagePicker (iOS)",
+      "accepted_answer_id": 41368536,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/41368142/best-practice-for-storing-and-uploading-multiple-images-from-imagepicker-ios",
+      "owner": {
+        "display_name": "Josh O&#39;Connor",
+        "link": "https://stackoverflow.com/users/4126657/josh-oconnor"
+      }
+    },
+    {
+      "question_id": 73709979,
+      "title": "Backup and restore Kingfisher image cache",
+      "accepted_answer_id": 73711046,
+      "score": -1,
+      "link": "https://stackoverflow.com/questions/73709979/backup-and-restore-kingfisher-image-cache",
+      "owner": {
+        "display_name": "Jeff Lockhart",
+        "link": "https://stackoverflow.com/users/387576/jeff-lockhart"
+      }
+    },
+    {
+      "question_id": 72841885,
+      "title": "Could not find module &#39;Kingfisher&#39; for target &#39;x86_64-apple-ios-simulator&#39;",
+      "accepted_answer_id": 72845691,
+      "score": -1,
+      "link": "https://stackoverflow.com/questions/72841885/could-not-find-module-kingfisher-for-target-x86-64-apple-ios-simulator",
+      "owner": {
+        "display_name": "a.rz",
+        "link": "https://stackoverflow.com/users/18389184/a-rz"
+      }
+    },
+    {
+      "question_id": 62428403,
+      "title": "jpegData() from UIImageView is nil",
+      "accepted_answer_id": 62428632,
+      "score": -1,
+      "link": "https://stackoverflow.com/questions/62428403/jpegdata-from-uiimageview-is-nil",
+      "owner": {
+        "display_name": "Zorgan",
+        "link": "https://stackoverflow.com/users/6733153/zorgan"
+      }
+    },
+    {
+      "question_id": 60166127,
+      "title": "iOS app: how to use kingfisher/sdwebimage to download aws s3 image",
+      "accepted_answer_id": 60166196,
+      "score": -1,
+      "link": "https://stackoverflow.com/questions/60166127/ios-app-how-to-use-kingfisher-sdwebimage-to-download-aws-s3-image",
+      "owner": {
+        "display_name": "Rajeev Kumar S",
+        "link": "https://stackoverflow.com/users/12212916/rajeev-kumar-s"
+      }
+    },
+    {
+      "question_id": 68275300,
+      "title": "Kingfisher library not installing in iOS",
+      "accepted_answer_id": 68275809,
+      "score": -3,
+      "link": "https://stackoverflow.com/questions/68275300/kingfisher-library-not-installing-in-ios",
+      "owner": {
+        "display_name": "King faheem",
+        "link": "https://stackoverflow.com/users/16264182/king-faheem"
+      }
+    },
+    {
+      "question_id": 48920512,
+      "title": "URL is not valid to support in Kingfisher",
+      "accepted_answer_id": 48920611,
+      "score": -3,
+      "link": "https://stackoverflow.com/questions/48920512/url-is-not-valid-to-support-in-kingfisher",
+      "owner": {
+        "display_name": "Shahabuddin Vansiwala",
+        "link": "https://stackoverflow.com/users/4097509/shahabuddin-vansiwala"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 78741711,
+      "body": "<p>In your test you can add the image to the Kingfisher cache so that it'll immediately be available when the view tries to retrieve it.</p>\n<p><code>image</code> is the <code>UIImage</code> you want to be shown in the snapshot\n<code>url</code> can be any url, it doesn't even have to be valid, it just needs to be the same as the one passed to the view.</p>\n<pre><code>KingfisherManager.shared.cache.store(\n    image,\n    forKey: url.cacheKey,\n    toDisk: false\n)\n</code></pre>\n<hr />\n<p>Another thing it that this could be reading/writing to the cache of your app depending on how your test target is setup (ie, if your app is the test host). A way to avoid that is to make a new <code>ImageCache</code> that is only used in the tests. Kingfisher can also be set to only look in the image cache so the tests will never try to make a network request.</p>\n<pre><code>let imageCache = ImageCache(name: &quot;test-image-cache&quot;)\nimageCache.store(\n    image,\n    forKey: url.cacheKey,\n    toDisk: false\n)\n\nKingfisherManager.shared.defaultOptions = [\n    .onlyFromCache,\n    .targetCache(imageCache)\n]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Craig Siemens",
+        "link": "https://stackoverflow.com/users/385017/craig-siemens"
+      }
+    },
+    {
+      "answer_id": 78584344,
+      "body": "<p>Using a caching mechanism to store the urls to disk is the only option</p>\n",
+      "owner": {
+        "display_name": "IT-Guy007",
+        "link": "https://stackoverflow.com/users/14902603/it-guy007"
+      }
+    },
+    {
+      "answer_id": 77776063,
+      "body": "<p>This issue is not about <code>KFImage</code>, it's about your layout. Since your content view is <code>ZStack</code>, it will automatically fill the entire screen or superView. You're also putting VStack above KFImage. This VStack frame height is overwhelming the entire screen, with <code>.background</code>, it will cover <code>KFImage</code>. Try to comment out <code>.background</code> and you will see KFImage appear.</p>\n",
+      "owner": {
+        "display_name": "sonle",
+        "link": "https://stackoverflow.com/users/3214202/sonle"
+      }
+    },
+    {
+      "answer_id": 76261182,
+      "body": "<p>Understanding the reuse system used in <code>UICollectionView</code>/<code>UITableView</code> is important, and that's why you dequeue cells.</p>\n<p>When a cell disappear, it goes on the &quot;available cells pool&quot; in memory.<br>\nWhen you need to show a cell, it's check if there is an available cell in the previously mentioned pool, if not it creates one.<br>\nThat's for optimisation. Why? Let's imagine that you have 10k cells to show, but only can show 5 at the same time on the screen, let's add 1 more cell (when scrolling, you see the bottom only of the first one, and the top of the new one). Do you think it'd be efficient to create 10k cells? Not, let's just create 6, and reuse them. That's the whole optimization behind reusing cells (in Android SDK, it's &quot;Recycling&quot;, for Recycle View, the concept being the same).<br>\nBut when the cells goes out of screen, it's put in the pool as &quot;such&quot;, with all the customization it had before (like label values, colors, subview, etc.). There it will call <code>prepareForReuse()</code> to put it in a &quot;blank&quot; state (do not call it yourself). It's not needed to override <code>prepareForReuse()</code> if you have for instance only one <code>UILabel</code> and in <code>collectionView(_:cellForItemAt:)</code> you change its value each time (it'd be <code>label.text = nil</code> in <code>prepareForReuse()</code> directly changed in <code>collectionView(_:cellForItemAt:)</code> into <code>label.text = &quot;myValue&quot;</code>, which is extra work not necessary.</p>\n<p>Once you understood this, the current issue with your code is this one:</p>\n<pre><code>func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -&gt; UICollectionViewCell {\n    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: &quot;SimpleThumbnailView&quot;, for: indexPath) as! ThumbnailsCollectionViewCell\n    //First Async call (I guess it's async)\n    ImageCache.default.retrieveImageInDiskCache(forKey: urlString) { result in\n        //Second async call\n        DispatchQueue.main.async {\n            cell.thumbnailImage.image = image\n        }\n    }\n}\n</code></pre>\n<p>You use two async call (but one is enough to create the issue), so when the closure is called and when you want to set the value, the cell might already have been reused for another <code>indexPath</code>. Hence the issue you get having images at wrong index paths cells when scrolling.</p>\n<p>Now, you can say that <code>setImage(with url:)</code> from KingFisher/Alamofire+Image/SDWebImage and other libs are using a &quot;hidden&quot; closure too and they don't have the issue. It's because they use <code>associated_object</code>, which let them to add an extra value to an object (the <code>UIImageView</code>). That extra value is an id (the URL of the image), so when they want to set the image, they check if the imageView associated id is still the correct one, if not, the cell has already been reused.<br>\nThat's a simplification of what's done.</p>\n<p>So in your case, you could add extra value to the cell, and check if it's really the same inside the closure, but in fact it's not needed, because you're overthinking the issue with KingFisher.</p>\n<p>Depending on how you use KingFisher (there are extra parameters : force refresh etc), but by default it will cache itself the images, and check in its cache if it's there or not and avoid a web call.</p>\n<p>Here, I'd suggest remove all of the cache check code (since it's already done by the lib):</p>\n<pre><code>func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -&gt; UICollectionViewCell {\n    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: &quot;SimpleThumbnailView&quot;, for: indexPath) as! ThumbnailsCollectionViewCell\n    if indexPath.row &lt; thumbnails.count {\n        let urlString = thumbnails[indexPath.row].thumbnail ?? &quot;&quot;\n        cell.thumbnailImage.kf.setImage(with: urlString, placeholder: UIImage(named: &quot;DefaultImage&quot;), options: []) //Might need a if let url here\n        cell.titleLabel.text = thumbnails[indexPath.row].title\n        cell.authorLabel.text = StringBuilder.authorLikes(author: thumbnails[indexPath.row].writer, likes: thumbnails[indexPath.row].likeCount)\n        cell.articleId = thumbnails[indexPath.row].articleId\n        cell.authorId = thumbnails[indexPath.row].writer\n        if cell.articleId != -1 {\n            cell.removePlaceHolder()\n        }\n    return cell\n}\n</code></pre>\n<p>Now, if you want to check for yourself, you can put breakpoint inside the lib, of use the <code>setImage()</code> with the completion parameter. I didn't test it, but I guess the answer from where is coming the image, cache or not might be in the <code>RetrieveImageResult</code> value.</p>\n<pre><code>setImage(with: urlString, placeholder: UIImage(named: &quot;DefaultImage&quot;), options: [], completionHandler: { result in \n    switch result {\n        case .failure(let error):\n            print(error)\n        case success(let imageResult):\n            //check imageResult, maybe cacheType, source, etc.\n    }\n}\n</code></pre>\n<p>Another issue you had was reloading of the whole collectionView.</p>\n",
+      "owner": {
+        "display_name": "Larme",
+        "link": "https://stackoverflow.com/users/1801544/larme"
+      }
+    },
+    {
+      "answer_id": 74096616,
+      "body": "<p>From my understanding, you would like the icon to be bigger than the default size, if that's the case, you will need to either change the size of the image using the font style <code>.font(.system(size: CGFloat(fontSize)))</code> or using the code below:</p>\n<pre><code>NavigationLink {\n    CustomView()\n} label: {\n    KFImage.url(URL(string: imageUrl)!)\n    .placeholder {\n        Image(systemName: &quot;photo&quot;)\n        .resizable()\n        .frame(width: 80)\n    }\n    .fade(duration: 0.25)\n    .onFailure { error in print(&quot;Load image error : \\(error) = \\(earthquakeDetail.imgUrl)&quot;)\n    }\n    .resizable()\n    .aspectRatio(contentMode: .fill)\n}\n</code></pre>\n<p>A resizeable needs to be added to the placeholder because the second resizable will only work on the image once it has loaded. Hope this helps!</p>\n",
+      "owner": {
+        "display_name": "Chris",
+        "link": "https://stackoverflow.com/users/13279327/chris"
+      }
+    },
+    {
+      "answer_id": 73711046,
+      "body": "<p>I figured this out. Kingfisher uses the cached files' <a href=\"https://developer.apple.com/documentation/foundation/fileattributekey/1410058-modificationdate\" rel=\"nofollow noreferrer\"><code>modificationDate</code></a> as an expiration date. When copying the cache, the file creation and modification dates are both set to the current time, which is then in the past and considered expired when Kingfisher attempts to load an image.</p>\n<p>I resolved this by setting the modification date to <a href=\"https://developer.apple.com/documentation/foundation/date/1779684-distantfuture\" rel=\"nofollow noreferrer\"><code>distantFuture</code></a> after copying the files, as I don't want the cache to ever expire.</p>\n",
+      "owner": {
+        "display_name": "Jeff Lockhart",
+        "link": "https://stackoverflow.com/users/387576/jeff-lockhart"
+      }
+    },
+    {
+      "answer_id": 73444876,
+      "body": "<p>You can completely remove the image from the <code>View</code> using an if statement:</p>\n<pre><code>if canLoadImage {\n    KFImage(url)\n        .onSuccess { _ in\n            self.canLoadImage = true\n        }\n        .forceRefresh()\n        .resizable()\n        .aspectRatio(contentMode: .fill)\n        .cornerRadius(20)\n        .clipped()\n        .frame(width: 150)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "SwiftyJoeyy",
+        "link": "https://stackoverflow.com/users/13278922/swiftyjoeyy"
+      }
+    },
+    {
+      "answer_id": 72878499,
+      "body": "<p><a href=\"https://i.sstatic.net/rN4gu.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/rN4gu.png\" alt=\"enter image description here\" /></a>for this specific purpose ( when you have only one image , not for icons ) , you can use single scale like this</p>\n",
+      "owner": {
+        "display_name": "Vikas saini",
+        "link": "https://stackoverflow.com/users/17831171/vikas-saini"
+      }
+    },
+    {
+      "answer_id": 72845691,
+      "body": "<p>if you installed your pod using:</p>\n<blockquote>\n<p>arch -x86_64 pod install</p>\n</blockquote>\n<p>you should change it to:</p>\n<blockquote>\n<p>pod install</p>\n</blockquote>\n<p>after doing that you don not need to change your <strong>Excluded Architecture</strong> to <strong>arm64</strong></p>\n",
+      "owner": {
+        "display_name": "Amin Rezaew",
+        "link": "https://stackoverflow.com/users/17927980/amin-rezaew"
+      }
+    },
+    {
+      "answer_id": 54083088,
+      "body": "<p>When the images are larger than the image view, iOS needs to manipulate large <code>UIImage</code> objects, which can cause observable stuttering in the UI. You can prevent that problem by resizing the images before using them.</p>\n<p>Fortunately, Kingfisher has a processor that can resize these (in a background thread) for you. As the <a href=\"https://github.com/onevcat/Kingfisher/wiki/Cheat-Sheet#using-downsamplingimageprocessor-for-high-resolution-images\" rel=\"nofollow noreferrer\">Cheat Sheet</a> says:</p>\n<blockquote>\n<h3>Using <code>DownsamplingImageProcessor</code> for high resolution images</h3>\n<p>Think about the case we want to show some large images in a table view or a collection view. In the ideal world, we expect to get smaller thumbnails for them, to reduce downloading time and memory use. But in the real world, maybe your server doesn't prepare such a thumbnail version for you. The newly added <code>DownsamplingImageProcessor</code> rescues [sic]. It downsamples the high-resolution images to a certain size before loading to memory:</p>\n<pre><code>imageView.kf.setImage(\n    with: resource,\n    placeholder: placeholderImage,\n    options: [\n        .processor(DownsamplingImageProcessor(size: imageView.size)),\n        .scaleFactor(UIScreen.main.scale),\n        .cacheOriginalImage\n    ])\n</code></pre>\n<p>Typically, <code>DownsamplingImageProcessor</code> is used with <code>.scaleFactor</code> and <code>.cacheOriginalImage</code>. It provides a reasonable image pixel scale for your UI, and prevent future downloading by caching the original high-resolution image.</p>\n</blockquote>\n<p>I created a little test with small images and confirmed that it was silky smooth, but when I used large images, I experienced stuttering in the scrolling behavior. But when I added this <code>DownsamplingImageProcessor</code> in the large image scenario, it was silky smooth again.</p>\n",
+      "owner": {
+        "display_name": "Rob",
+        "link": "https://stackoverflow.com/users/1271826/rob"
+      }
+    },
+    {
+      "answer_id": 69288369,
+      "body": "<p>To create Kingfisher image processor you need to implement <code>ImageProcessor</code> protocol:</p>\n<pre class=\"lang-swift prettyprint-override\"><code>class AspectScaledToFitAndCenterSizeFilter: ImageProcessor {\n    /// Identifier of the processor.\n    /// - Note: See documentation of `ImageProcessor` protocol for more.\n    let identifier: String\n\n    /// The size of the filter.\n    let size: CGSize\n\n    /// Initializes the `AspectScaledToFitSizeFilter` instance with the given size.\n    ///\n    /// - parameter size: The size.\n    ///\n    /// - returns: The new `AspectScaledToFitSizeFilter` instance.\n    init(size: CGSize) {\n        self.size = size\n        identifier = &quot;com.package.AspectScaledToFitAndCenterSizeFilter(\\(size))&quot;\n    }\n\n    func process(item: ImageProcessItem, options: KingfisherParsedOptionsInfo) -&gt; KFCrossPlatformImage? {\n        switch item {\n        case .image(let image):\n            return image.imageAspectScaledAndCenter(toFit: self.size)\n        case .data:\n            return (DefaultImageProcessor.default |&gt; self).process(item: item, options: options)\n        }\n    }\n}\n</code></pre>\n<p>Usage:</p>\n<pre class=\"lang-swift prettyprint-override\"><code>imageView.kf.setImage(\n    with: imageURL.mediaURL(),\n    placeholder: #imageLiteral(resourceName: &quot;icMissingEntreeGrid&quot;),\n    options: [\n        .processor(AspectScaledToFitAndCenterSizeFilter(size: .zero))\n    ]\n)\n</code></pre>\n<p>Check out more processor usages in <a href=\"https://github.com/onevcat/Kingfisher#readme\" rel=\"nofollow noreferrer\">documentation</a>.</p>\n",
+      "owner": {
+        "display_name": "Phil Dukhov",
+        "link": "https://stackoverflow.com/users/3585796/phil-dukhov"
+      }
+    },
+    {
+      "answer_id": 68275809,
+      "body": "<p>Googling the JSONParser 767 error led me to this page: <a href=\"https://github.com/CocoaPods/CocoaPods/issues/9694\" rel=\"nofollow noreferrer\">https://github.com/CocoaPods/CocoaPods/issues/9694</a></p>\n<p>It suggests to run the following in the terminal:</p>\n<pre><code>rm -rf ~/.cocoapods/repos/trunk/\npod install\n</code></pre>\n<p>Comments suggest that this reliably solves the issue.</p>\n",
+      "owner": {
+        "display_name": "jnpdx",
+        "link": "https://stackoverflow.com/users/560942/jnpdx"
+      }
+    },
+    {
+      "answer_id": 68024629,
+      "body": "<p>Added Kingfisher again using Swift Package Manager and it started working perfectly.</p>\n<p>For a detailed conversation with the maintainer, check the issue below</p>\n<p><a href=\"https://github.com/onevcat/Kingfisher/issues/1727\" rel=\"nofollow noreferrer\">https://github.com/onevcat/Kingfisher/issues/1727</a></p>\n",
+      "owner": {
+        "display_name": "Ahsan Aasim",
+        "link": "https://stackoverflow.com/users/4060672/ahsan-aasim"
+      }
+    },
+    {
+      "answer_id": 67654287,
+      "body": "<p>Using a file's md5 as a filename in a cache is a common pattern. The cache name will change when the file changes, while the source url may not.<br />\nNote that the extension is kept because it may be handy when using the file later.</p>\n",
+      "owner": {
+        "display_name": "de.",
+        "link": "https://stackoverflow.com/users/921573/de"
+      }
+    },
+    {
+      "answer_id": 66836110,
+      "body": "<p>The problem is not with KFImage, which is loading as expected, but with the fact that TabView is somehow unaware that the image has been loaded and that it needs to re-render it, but it can be solved easily:</p>\n<p>Store your urls to display in an array and then use ForEach inside the TabView - this is enough to make the images appear once they are loaded:</p>\n<pre><code>struct TabHome: View {\n    \n    @State var search: String = &quot;&quot;\n    let urls = [\n        &quot;https://www.broadway.org.uk/sites/default/files/styles/banner_crop/public/2019-10/star-wars-the-rise-of-skywalker-banner-min.jpg?h=639d4ef1&amp;itok=z4KZ-3Tt&quot;,\n        &quot;https://www.broadway.org.uk/sites/default/files/styles/banner_crop/public/2019-11/star-wars-quiz-banner-min.jpg?h=f75da074&amp;itok=bFe6rBe_&quot;]\n    \n    var body: some View {\n        VStack(spacing : 15) {\n            HStack(spacing : 10) {\n                Image(systemName: &quot;magnifyingglass&quot;)\n                    .resizable()\n                    .frame(width: 20, height: 20)\n                TextField(&quot;Search&quot;, text: $search)\n                    .frame(height: 45)\n            }\n            .padding(.horizontal)\n            .background(\n                RoundedRectangle(cornerRadius: 22.5)\n                    .foregroundColor(Color.gray.opacity(0.1))\n                )\n            .padding()\n            \n            ScrollView{\n                TabView {\n                    ForEach(urls, id: \\.self) { url in\n                        SliderBite(url: url)\n                    }\n                }   .tabViewStyle(PageTabViewStyle())\n                \n            }\n        }\n    }\n}\n</code></pre>\n<p>You might also want to make your KFImage resizable:</p>\n<pre><code>struct SliderBite: View {\n    \n    let url: String\n    \n    var body: some View {\n        KFImage(URL(string: url)!)\n            .resizable()\n            .fade(duration: 0.25)\n            .aspectRatio(contentMode: .fill)\n            .frame(height : 200)\n            .background(Color.black)\n    }\n    \n}\n</code></pre>\n<p><a href=\"https://i.sstatic.net/LfCIj.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/LfCIj.png\" alt=\"Loaded KFImage inside TabView\" /></a></p>\n<p><strong>To address showing of images from identical url</strong></p>\n<p>If you declare DTO_SLIDER like this:</p>\n<pre><code>struct DTO_SLIDER: Decodable, Identifiable {\n    \n    let full_image: String?\n    let id = UUID()\n}\n</code></pre>\n<p>it will ensure each one is unique even if it has identical full_image.\nIt also means you can use it like that:</p>\n<pre><code>ForEach(Env.sharedInstance.settings.sliders) { slider in\n    //...\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "LuLuGaGa",
+        "link": "https://stackoverflow.com/users/7948372/lulugaga"
+      }
+    },
+    {
+      "answer_id": 66001745,
+      "body": "<p>The error that you are getting is telling that <code>placeholder</code> wants a SwiftUI View (eg <code>() -&gt; Content</code>) and you're trying to provide it a <code>UIKit</code> UIImage instead.</p>\n<p>Instead, you should give it a SwiftUI <code>Image</code>.</p>\n<p>You could easily initialize <code>Image</code> with a <code>UIImage</code>, but keep in mind that <code>UIImage(named:)</code> returns an Optional (which your error hinted at as well), so if you want to use it without checking it for <code>nil</code> first, you'll need to force unwrap it:</p>\n<pre><code>Image(uiImage: UIImage(named: &quot;logo&quot;)!)\n</code></pre>\n<p>Even better, just initialize your SwiftUI <code>Image</code> with the name and skip <code>UIImage</code> altogether unless you need it for some other reason:</p>\n<pre><code>Image(&quot;logo&quot;)\n</code></pre>\n<pre><code>.placeholder { Image(&quot;logo&quot;) }\n</code></pre>\n",
+      "owner": {
+        "display_name": "jnpdx",
+        "link": "https://stackoverflow.com/users/560942/jnpdx"
+      }
+    },
+    {
+      "answer_id": 65759443,
+      "body": "<p>Try using <code>onChange</code> / <code>onReceive</code> instead:</p>\n<pre><code>KFImage(photoUrl)\n    .resizable()\n    // ...\n    // remove .onSuccess implementation as self.userUIImage = result.image will result in an infinite loop\n    .onChange(of: userUIImage) { newImage in\n        updateUserImage()\n    }\n</code></pre>\n<p>or</p>\n<pre><code>import Combine\n...\nKFImage(photoUrl)\n    .resizable()\n    // ...\n    .onReceive(Just(userUIImage)) { newImage in\n        updateUserImage()\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "pawello2222",
+        "link": "https://stackoverflow.com/users/8697793/pawello2222"
+      }
+    },
+    {
+      "answer_id": 65114085,
+      "body": "<p>Please check your url again as I've tried another url and it works fine, you can check it:</p>\n<pre><code>import UIKit\nimport Kingfisher\nclass ViewController: UIViewController {\n\n    @IBOutlet weak var image:UIImageView!\n    let rawstring = &quot;https://i.insider.com/5e820b04671de06758588fb8?width=700&amp;format=jpeg&amp;auto=webp&quot;\n\n        override func viewDidLoad() {\n            super.viewDidLoad()\n            \n            \n            let url = URL(string: rawstring)\n            image.kf.setImage(with: url)\n\n           \n        }\n\n}\n</code></pre>\n<p>or you can make url like this if it helped:</p>\n<pre><code> let rawstring = &quot;https://apis.baytelhekma.com/zinzo/public/storage/products/November2020/eUWwRjNCYCdHUjGIQiJk.png&quot;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Menaim",
+        "link": "https://stackoverflow.com/users/14437411/menaim"
+      }
+    },
+    {
+      "answer_id": 64040168,
+      "body": "<p>At this moment (Xcode 12.0 or Xcode 12.2b2), the only possible solution is to rename the Objective-C interface and avoid conflicts. This could be done by one of:</p>\n<ul>\n<li>Rename conflicting class entirely, update all places where it's used (e.g. replace <strong>SessionDelegate</strong> by <strong>KingfisherSessionDelegate</strong>)</li>\n<li>Add <code>@objc(...)</code> attribute to a Swift class, which will update the Obj-C interface in a generated <code>...-Swift.h</code> file and avoid the names conflict.</li>\n</ul>\n<pre class=\"lang-swift prettyprint-override\"><code>//  SessionDelegate.swift\n@objc(KFSessionDelegate)\nclass SessionDelegate: NSObject { ... }\n</code></pre>\n<pre><code>//  Kingfisher-Swift.h\n@interface KFSessionDelegate : NSObject\n...\n@end\n</code></pre>\n<p>This solution is already included in the Kingfisher <a href=\"https://github.com/onevcat/Kingfisher/releases/tag/5.15.4\" rel=\"noreferrer\">5.15.4 release</a> and could be applied to any other libraries and your own frameworks.</p>\n<p>Also, the thread on Apple forums: <a href=\"https://developer.apple.com/forums/thread/658012\" rel=\"noreferrer\">https://developer.apple.com/forums/thread/658012</a></p>\n",
+      "owner": {
+        "display_name": "Simon I.",
+        "link": "https://stackoverflow.com/users/3441714/simon-i"
+      }
+    },
+    {
+      "answer_id": 62938166,
+      "body": "<p>Move it here inside success block</p>\n<pre><code>        case .success(_):\n            print(&quot;success&quot;) \n           dataSourceArrayWithWishes[wishIDX].wishes.append(image: imageView.image!)\n        case .failure(_):\n            print(&quot;fail&quot;)\n        }\n    }\n}\n</code></pre>\n<p>This <code> imageView.kf.setImage(with: resource) { (result) in</code> is an asynchnous method meaning that the line being crashed <code>dataSourceArrayWithWishes[wishIDX].wishes.append(image: imageView.image!)</code> runs before the image is fetched from firebase hence it's nil</p>\n",
+      "owner": {
+        "display_name": "Shehata Gamal",
+        "link": "https://stackoverflow.com/users/5820010/shehata-gamal"
+      }
+    },
+    {
+      "answer_id": 62428632,
+      "body": "<p><code>setImage</code> doesn't change the <code>image</code> property automatically. It has to potentially download the image from the Internet, which takes time.</p>\n\n<p>Luckily, you can know when the download is completed by adding a <code>completionHandler</code>:</p>\n\n<pre><code>iv.kf.setImage(with: url, completionHandler: { result in\n    guard case .success(let imageResource) = result else { \n        // an error has occurred!\n        return \n    }\n    if let png = imageResource.image.jpegData(compressionQuality: .leastNormalMagnitude){\n        filePath.putData(png, metadata: nil){ metadata, error in\n            print(\"metadata: \\(metadata) |error: \\(error)\") // doesn't print\n        }\n    }\n})\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sweeper",
+        "link": "https://stackoverflow.com/users/5133585/sweeper"
+      }
+    },
+    {
+      "answer_id": 54049016,
+      "body": "<p>That error is because you need to handle the <code>completionHandler</code> instead of passing <code>nil</code>.  Try below code: </p>\n\n<pre><code>button.kf.setBackgroundImage(with: URL(string: picture), for: .normal, placeholder: nil, options: options, progressBlock: nil) { result in\n    // result is either a .success(RetrieveImageResult) or a .failure(KingfisherError)\n    switch result {\n    case .success(let value):\n        // The image was set to image view:\n        print(value.image)\n\n        // From where the image was retrieved:\n        // - .none - Just downloaded.\n        // - .memory - Got from memory cache.\n        // - .disk - Got from disk cache.\n        print(value.cacheType)\n\n        // The source object which contains information like `url`.\n        print(value.source)\n\n    case .failure(let error):\n        print(error) // The error happens\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "M Reza",
+        "link": "https://stackoverflow.com/users/3815069/m-reza"
+      }
+    },
+    {
+      "answer_id": 60166196,
+      "body": "<p>You can choose what key Kingfisher uses for the cache. So, create a presigned s3 url, then when loading the image use your s3 key as the cache rather then the full presigned url.</p>\n\n<pre><code>            let getPreSignedURLRequest = AWSS3GetPreSignedURLRequest()\n            getPreSignedURLRequest.bucket = media.bucket\n            getPreSignedURLRequest.key = media.key\n            getPreSignedURLRequest.httpMethod = .GET\n            getPreSignedURLRequest.expires = Date(timeIntervalSinceNow: 3600)  // Change the value of the expires time interval as required\n            AWSS3PreSignedURLBuilder.default().getPreSignedURL(getPreSignedURLRequest).continueWith { (task:AWSTask&lt;NSURL&gt;) -&gt; Any? in\n                if let error = task.error as NSError? {\n                    print(\"Error: \\(error)\")\n                    return nil\n                }\n                if let presignedURL = task.result {\n                    DispatchQueue.main.async {\n                        self.imageView.kf.indicatorType = .activity\n                        let resource = ImageResource(downloadURL: URL(string: presignedURL.absoluteString!)!, cacheKey: media.key)\n                        self.imageView.kf.setImage(with: resource)\n                    }\n                }\n                return nil\n            }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nagendran Arivalagan",
+        "link": "https://stackoverflow.com/users/4978255/nagendran-arivalagan"
+      }
+    },
+    {
+      "answer_id": 59351497,
+      "body": "<p><strong>Try This, I hope this may be helpful to you.</strong></p>\n\n<pre><code>    self.button.frame =  UIImageView(frame: CGRect(x: 0, y: 0, width: 31, height: 31));\n    let roundCornerIP = RoundCornerImageProcessor(cornerRadius: 20);\n    self.button.kf.setImage(with: fburl,options: [.processor(roundCornerIP),.cacheSerializer(FormatIndicatedCacheSerializer.png)]);\n\n\n    let barButton = UIBarButtonItem();\n    barButton.customView = button;\n    self.tabBarController?.navigationItem.rightBarButtonItem = barButton;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Abhishek Patel",
+        "link": "https://stackoverflow.com/users/7666658/abhishek-patel"
+      }
+    },
+    {
+      "answer_id": 59215057,
+      "body": "<p>yes, this is possible. you can give a directory url like this: ImageCache(name: \"test\", cacheDirectoryURL: url) -> url could be your documents folder e.g. </p>\n",
+      "owner": {
+        "display_name": "Chris",
+        "link": "https://stackoverflow.com/users/8457280/chris"
+      }
+    },
+    {
+      "answer_id": 58973029,
+      "body": "<p>Kingfisher library has <a href=\"https://github.com/onevcat/Kingfisher/wiki/Cheat-Sheet#image-from-local-file\" rel=\"nofollow noreferrer\">local image provider</a> that must be used to load local image.</p>\n\n<p>So your code should be changed to this:</p>\n\n<pre class=\"lang-swift prettyprint-override\"><code>let path = Bundle.main.url(forResource: \"loading\", withExtension: \"gif\")!\nlet resource = LocalFileImageDataProvider(fileURL: path)\nimageView.kf.setImage(with: resource)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Najdan Tomić",
+        "link": "https://stackoverflow.com/users/4949050/najdan-tomi%c4%87"
+      }
+    },
+    {
+      "answer_id": 58658048,
+      "body": "<p><strong>UPDATE:</strong> <a href=\"https://twitter.com/tcldr1/status/1190396639334285312?s=21\" rel=\"noreferrer\">As per twitter</a> the solution to this and similar problems with Swift Package Manager in Xcode 11.2 is to go to the <strong>target</strong>, \"Linker settings\" and change \"Dead Code Stripping\" to <strong>NO</strong></p>\n\n<p>There is an <a href=\"https://github.com/onevcat/Kingfisher/issues/1330\" rel=\"noreferrer\">open issue</a> in Github. The issue is around the Package Manager in Xcode 11.2 They will need to update the linker for the Package Manager.</p>\n",
+      "owner": {
+        "display_name": "Juanjo",
+        "link": "https://stackoverflow.com/users/1992152/juanjo"
+      }
+    },
+    {
+      "answer_id": 56875386,
+      "body": "<p>Here is the result:\n<a href=\"https://i.sstatic.net/qb5GG.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/qb5GG.png\" alt=\"Custom Title\"></a></p>\n\n<ol>\n<li>Put a UIView in the navigation bar in the storyboard instead of a button.</li>\n<li>Put the button and the title inside that view. (set button type to custom)</li>\n<li>Get the NavigationBar Height</li>\n<li>Use custom init for the <code>RoundCornerImageProcessor</code></li>\n</ol>\n\n<p>Here is the code:</p>\n\n<pre><code>class ViewController: UIViewController {\n\n        @IBOutlet weak var centerView: UIView!\n        @IBOutlet weak var imageButton: UIButton!\n        @IBOutlet weak var label: UILabel!\n\n        override func viewDidLoad() {\n            super.viewDidLoad()\n\n            // Custom sizes\n            let centerViewWidth = 120\n            let imageSide = 30\n\n            // Custom init gives a rounded image\n            let rounded = RoundCornerImageProcessor(cornerRadius: CGFloat(imageSide/2), targetSize: CGSize(width: imageSide,height: imageSide), roundingCorners: RectCorner(arrayLiteral: .all), backgroundColor: .clear)\n            // Downsample to two times the container size to get a better resolution\n            let downsampling = ResizingImageProcessor(referenceSize: CGSize(width: imageSide*2, height: imageSide*2), mode: .aspectFit)\n\n\n            // Setup frame and positions\n            let centerViewHeight = Int(self.navigationController?.navigationBar.frame.height ?? 50)\n            centerView.frame = CGRect(x: 0, y: 0, width: centerViewWidth, height: centerViewHeight)\n            imageButton.frame = CGRect(x: centerViewWidth/2-imageSide/2, y: 0, width: imageSide, height: imageSide)\n            label.frame = CGRect(x: 0, y: imageSide, width: centerViewWidth, height: centerViewHeight-imageSide)\n\n            // Quick image download\n            let imgUrl = \"https://via.placeholder.com/150/771796\"\n            let resource = ImageResource(downloadURL: URL(string: imgUrl)!)\n            imageButton.kf.setImage(with: resource, for: .normal, placeholder: nil, options: [.processor(downsampling), .processor(rounded)])\n\n            // Setup title\n            label.text = \"Custom title!\"\n            label.textAlignment = .center\n\n        }\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alban",
+        "link": "https://stackoverflow.com/users/2707614/alban"
+      }
+    },
+    {
+      "answer_id": 56528247,
+      "body": "<p>Since you want to download all images, you have to do something like this: </p>\n\n<pre><code>for url in downloadURL {\n    guard let imageURL = URL(string: url) else {\n        continue \n    }\n    imageView.kf.setImage(with: imageURL)\n    // to load images separately use this\n    KingfisherManager.shared.retrieveImage(with: imageURL) { result in\n         let image = try? result.get().image\n         if let image = image {\n              imgArray.append(image)\n         }\n     }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "DionizB",
+        "link": "https://stackoverflow.com/users/7487701/dionizb"
+      }
+    },
+    {
+      "answer_id": 56096365,
+      "body": "<p>You are asynchronously updating your image view, regardless of whether the image view has been re-used for another cell. </p>\n\n<p>When you start a new request for an image view, assuming you didn’t find an image in the cache immediately, before starting network request, you should (a) remove any prior image (like Brandon suggested); (b) possibly load a placeholder image or <code>UIActivityIndicatorView</code>; and (c) cancel any prior image request for that image view. Only then should you start a new request.</p>\n\n<p>In terms of how you save a reference to the prior request in an extension, you can’t add stored properties, but you can use <a href=\"https://developer.apple.com/documentation/objectivec/1418509-objc_setassociatedobject?language=objc\" rel=\"nofollow noreferrer\"><code>objc_setAssociatedObject</code></a> to save the session task when you start the session, set it to <code>nil</code> when the request finishes, and <a href=\"https://developer.apple.com/documentation/objectivec/1418865-objc_getassociatedobject?language=occ\" rel=\"nofollow noreferrer\"><code>objc_getAssociatedObject</code></a> when retrieving the session object to see if you need to cancel the prior one. </p>\n\n<p>(Incidentally, Kingfisher wraps this associated object logic in their <a href=\"https://github.com/onevcat/Kingfisher/blob/60b06e5db4ae2be369bdb74f1b9d2c1e156fb9b0/Sources/Extensions/ImageView%2BKingfisher.swift#L291\" rel=\"nofollow noreferrer\">computed property for the task identifier</a>. This is a fine way to save and retrieve this task identifier.</p>\n\n<hr>\n\n<p>In terms of failed requests, the fact that you are performing unbridled image requests could cause that problem. Scroll around a bit and your requests will get backlogged and timeout. Doing the cancelation (see above) will diminish that problem, but it might still eventually happen. If you continue to have requests fail after fixing the above, then you might need to constrain the number of concurrent requests. A common solution is to wrap requests in asynchronous <code>Operation</code> subclass and add them to <code>OperationQueue</code> with a <code>maxConcurrentOperationCount</code>. Or if you’re looking for a cheap and cheerful solution, you could try bumping up the timeout threshold in your requests.</p>\n",
+      "owner": {
+        "display_name": "Rob",
+        "link": "https://stackoverflow.com/users/1271826/rob"
+      }
+    },
+    {
+      "answer_id": 55277064,
+      "body": "<p>You can store already existing image in Kingfisher cache by:</p>\n\n<pre class=\"lang-swift prettyprint-override\"><code>let image: UIImage = //...\nImageCache.default.store(image, forKey: cacheKey)\n</code></pre>\n\n<p>By default Kingfisher uses <code>url.absoluteString</code> as <code>cacheKey</code>.</p>\n\n<p>So if you already downloaded image from somewhere and still have this url, you can store them in cache by yourself and next time Kingfisher will not download image, but use cached one</p>\n\n<p>If you just want caching without downloading, then you could retrieve image by:  </p>\n\n<pre class=\"lang-swift prettyprint-override\"><code>cache.retrieveImage(forKey: \"cacheKey\") { result in\n    switch result {\n    case .success(let value):\n        print(value.cacheType)\n\n        // If the `cacheType is `.none`, `image` will be `nil`.\n        print(value.image)\n\n    case .failure(let error):\n        print(error)\n    }\n}\n</code></pre>\n\n<p>But since you using it inside collection view make sure that you stop loading on reuse of collectionViewCell</p>\n\n<p>Example in cell:<br>\nWe store <code>imageKey</code> inside cell and when Cache return image to us we make sure that cell haven't been reused yet and still need this image. If cell reused, then in <code>prepareToReuse()</code> we delete stored <code>imageKey</code></p>\n\n<pre class=\"lang-swift prettyprint-override\"><code>class LatexCell: UICollectionViewCell {\n    @IBOutlet var formulaImageView: UIImageView!\n    private var imageKey: String?\n\n    func setup(with imageKey: String) {\n        self.imageKey = imageKey\n        ImageCache.default.retrieveImage(forKey: imageKey) { [weak self] result in\n            guard self?.imageKey == imageKey else { return } // cell have been reused\n            switch result {\n            case .success(let value):\n                self?.formulaImageView.image = value.image\n\n            case .failure(let error):\n                break /// no image stored, you should create new one\n            }\n        }\n    }\n\n    override func prepareForReuse() {\n        super.prepareForReuse()\n        imageKey = nil\n        formulaImageView.image = nil // Probably want here placeholder image\n    }\n}   \n</code></pre>\n",
+      "owner": {
+        "display_name": "ManWithBear",
+        "link": "https://stackoverflow.com/users/4280337/manwithbear"
+      }
+    },
+    {
+      "answer_id": 54940677,
+      "body": "<p>I had a lot of problems with memory loading images. I cannot be certain of your case, but I can give you some helpful tips.</p>\n\n<ol>\n<li>Look into UITableViewDataSourcePrefetching. It's a way for you to download the images before they are rendered in the cell.</li>\n<li>Look into creating a Helper function somewhere that starts the download and allows that download to be cancelled. When you quickly scroll down a tableview, for instance, every cell is going to start the download of the image, even if it was not shown. You can cancel the download if the cell is gone.</li>\n<li>Cells should be basically a UI element on your code. The idea is, try to take out network requests out of the cell itself and make sure that you cell only contain the elements (images, labels, views) to render, the cell has a func configure(withModel: Model) function, and that on the cellForRow, you just pass the data to it for rendering. Cells are reused and updates frequently, you should not be performing a bunch of stuff on it. Remember that when a cell get loaded, it's going to call those functions, then it can be gone out of screen and back again and it's going to re-execute all that all over again.</li>\n<li>Have you cell class perform the correct layout updates and refreshes and try not to do it in the cellForRow. All you could do is just make sure the imageview gets the image, but not rely on performing cell changes and this image download is async and that cell may not even be there when the download ends.</li>\n<li>Caching. Can you cache those images or they change constantly? make sure you understand how KF is caching your images and that is doing the caching you need. If not, adapt.</li>\n<li>[nitpicking] you call <code>cell.layoutSubviews()</code> and then <code>cell.layoutIfNeeded()</code>. The first one is force calling layoutSubviews, the second one is checking to see if there are stuff that needs to be laid out before calling layoutSubView. If you want to mark a view to be laid out you can do setNeedsLayout(). that will make the view layout updates on the next cycle.</li>\n</ol>\n",
+      "owner": {
+        "display_name": "gmogames",
+        "link": "https://stackoverflow.com/users/1414009/gmogames"
+      }
+    },
+    {
+      "answer_id": 54684647,
+      "body": "<p>You do not need to use a different cache key. The <code>processor</code> has an identifier and it will be used to calculate the final cache key when storing in the cache. So everything should be fine to you (as your code snippet).</p>\n\n<p>You can just print out the image size in the image setting method completion handler to confirm the image you are loading.</p>\n\n<pre class=\"lang-swift prettyprint-override\"><code>imageView.kf.setImage(with: url) { result in\n    switch result {\n    case .success(let value):\n        // The image was set to image view:\n        print(value.image.size)\n    //...\n\n</code></pre>\n",
+      "owner": {
+        "display_name": "onevcat",
+        "link": "https://stackoverflow.com/users/1468886/onevcat"
+      }
+    },
+    {
+      "answer_id": 54366354,
+      "body": "<p><strong>Swift 4.2 Kingfisher 5.1</strong>   </p>\n\n<pre><code>let url = URL(string: \"https://example.com/high_resolution_image.png\")\nlet imageView = UIImageView()\nimageView.kf.setImage(with: url, placeholder: nil, options: nil, progressBlock: nil) { result in\n    print(result)\n    switch result {\n    case .success(let value):\n        print(\"success\")\n        print(value.source.url!)\n    case .failure(let error):\n        print(error) // The error happens\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Abhishek R",
+        "link": "https://stackoverflow.com/users/1926117/abhishek-r"
+      }
+    },
+    {
+      "answer_id": 54294991,
+      "body": "<p>You could simply try to resize the image view after setting its <code>image</code> property. For example:</p>\n\n<pre class=\"lang-swift prettyprint-override\"><code>class ResizableImageView: UIImageView {\n\n  override var image: UIImage? {\n    didSet {\n      guard let image = image else { return }\n\n      let resizeConstraints = [\n        self.heightAnchor.constraint(equalToConstant: image.size.height),\n        self.widthAnchor.constraint(equalToConstant: image.size.width)\n      ]\n\n      if superview != nil {\n        addConstraints(resizeConstraints)\n      }\n    }\n  }\n}\n</code></pre>\n\n<p>Then, add its normal constraints omitting <code>heightAnchor</code> and <code>widthAnchor</code> ones, because those will be added as soon as the image gets added (I'd recommend not using interface builder at this point):</p>\n\n<pre class=\"lang-swift prettyprint-override\"><code>let imageView = ResizableImageView(frame: .zero)\nimageView.translatesAutoresizingMaskIntoConstraints = false\n\nview.addSubview(imageView)\n\n// These are only illustrative constraints\nimageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true\nimageView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true\n\nimageView.image = image\n</code></pre>\n\n<p>Here's a complete and fully functional example:</p>\n\n<pre class=\"lang-swift prettyprint-override\"><code>class ViewController: UIViewController {\n\n  override func viewDidLoad() {\n    super.viewDidLoad()\n\n    downloadImage(\n      fromURL: URL(string: \"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F33105753%2F184176199496%2F1%2Foriginal.jpg?h=200&amp;w=450&amp;rect=0%2C0%2C400%2C200&amp;s=a92a5a03c153d312d682b2dfedd6a6ad\")!,\n      completionHandler: { [weak self] image in\n        guard let self = self, let image = image else { return }\n\n        let imageView = ResizableImageView(frame: .zero)\n        imageView.translatesAutoresizingMaskIntoConstraints = false\n\n        self.view.addSubview(imageView)\n\n        imageView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true\n        imageView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true\n\n        imageView.image = image\n      })\n  }\n\n  func downloadImage(fromURL url: URL, completionHandler: @escaping (UIImage?) -&gt; Void) {\n    let operationQueue = OperationQueue()\n\n    operationQueue.addOperation {\n      guard let data = try? Data(contentsOf: url) else {\n        OperationQueue.main.addOperation {\n          completionHandler(nil)\n        }\n\n        return\n      }\n\n      OperationQueue.main.addOperation {\n        let image = UIImage(data: data)\n        completionHandler(image)\n      }\n    }\n  }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Murilo Paix&#227;o",
+        "link": "https://stackoverflow.com/users/9494107/murilo-paix%c3%a3o"
+      }
+    },
+    {
+      "answer_id": 54249217,
+      "body": "<p>No! You don't have to reload the tableView in any way after the image in a certain cell gets done downloading. Other than that, you're doing everything correctly. I use Kingfisher too.</p>\n\n<p>But in the future, you could just make a function in your cell class, say <code>setupCell(_ imageURL: URL?)</code>. Anyways, going on, in your <code>cellForRow</code> method, just do it like this:</p>\n\n<pre><code>cell.gifImage.kf.setImage(with: imageView, placeholder: placeHolderImage, completionHandler: nil)\n</code></pre>\n\n<p>Now, in case that there's no image downloaded or you have no image URL string to be made to <code>URL</code> object, you could catch it in Kingfisher's error block, then you will need to pass your <code>error image</code> (a <code>UIImage</code>) object to your <code>imageView</code> so that there would be no duplicate image. </p>\n\n<p>For example, I have the following in my cell's <code>setupCell()</code> function:</p>\n\n<pre><code>    if let url = vendor.image?.URLEscaped {\n        let resource = ImageResource(downloadURL: url, cacheKey: url.absoluteString)\n        self.imageView_Vendor.kf.setImage(with: resource, options: [.transition(.fade(0.2)), .cacheOriginalImage])\n        return\n    }\n\n    self.imageView_Vendor.image = nil\n</code></pre>\n\n<p>I hope this helps!</p>\n\n<p><strong>EDIT:</strong></p>\n\n<p>For the handling of image height, this could help: <a href=\"https://stackoverflow.com/a/52787062/3231194\">https://stackoverflow.com/a/52787062/3231194</a></p>\n",
+      "owner": {
+        "display_name": "Glenn Posadas",
+        "link": "https://stackoverflow.com/users/3231194/glenn-posadas"
+      }
+    },
+    {
+      "answer_id": 53801595,
+      "body": "<p>As in this issue on the <a href=\"https://github.com/onevcat/Kingfisher/issues/1064\" rel=\"nofollow noreferrer\">GitHub repository</a> of the library, it turns out that <code>kf</code> variable now refers to a struct for performance considerations in <code>Kingfisher</code>, so to handle it we need to a create a copy for it like the following:</p>\n\n<pre><code>extension UIImageView {\n    func test() {\n        var kf = self.kf\n        kf.indicatorType = .activity\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "JAHelia",
+        "link": "https://stackoverflow.com/users/1056118/jahelia"
+      }
+    },
+    {
+      "answer_id": 53847611,
+      "body": "<p>You should remove keeping the <code>cell</code> reference at <code>class</code> level. Your <code>cellForRow</code> should look like this,</p>\n\n<pre><code> func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {\n       let identifier = \"ClientCell\"\n       let cell = tableView.dequeueReusableCell(withIdentifier: identifier) as? customChatCell\n\n       let text = message[Constants.MessageFields.text] ?? \"\"\n       if text.range(of:\"smiles\") != nil {\n            let url = URL(string: text)\n            cell.smile.kf.setImage(with: url)\n       } else {\n           // Reset image to nil here if it has no url\n           cell.smile.image = nil  \n       }\n} \n</code></pre>\n\n<p>Remember, you are using a single <code>UIView</code>(i.e, <code>customChatCell</code>) for each cell in <code>UITableView</code> so when you dequeue a cell it's your responsibility to update/reset the <code>UI</code> elements according to your data for each cell.</p>\n",
+      "owner": {
+        "display_name": "Kamran",
+        "link": "https://stackoverflow.com/users/2395636/kamran"
+      }
+    },
+    {
+      "answer_id": 53825441,
+      "body": "<p>Kingfisher does not support server cache mechanism. It just uses the whole URL as the local cache key. As long as you use the same URL, you will get the same image from the cache (if it was cached).</p>\n\n<p>So, if your server provides different images under the same URL, we suggest you to ask your server to add a query to the URL for different versions. These URLs: \"<a href=\"https://example.com/image.png?v=1\" rel=\"noreferrer\">https://example.com/image.png?v=1</a>\" and \"<a href=\"https://example.com/image.png?v=2\" rel=\"noreferrer\">https://example.com/image.png?v=2</a>\" represent different images in Kingfisher and it could work well. At the same time, access to the \"<a href=\"https://example.com/image.png?v=2\" rel=\"noreferrer\">https://example.com/image.png?v=2</a>\" would navigate you to the \"<a href=\"https://example.com/image.png\" rel=\"noreferrer\">https://example.com/image.png</a>\" data for most implementation of the server.</p>\n\n<p>You can find more information on this page:</p>\n\n<p><a href=\"https://github.com/onevcat/Kingfisher/wiki/FAQ#does-kingfisher-support-server-cache-tags-like-e-tag-or-last-modified\" rel=\"noreferrer\">https://github.com/onevcat/Kingfisher/wiki/FAQ#does-kingfisher-support-server-cache-tags-like-e-tag-or-last-modified</a></p>\n",
+      "owner": {
+        "display_name": "onevcat",
+        "link": "https://stackoverflow.com/users/1468886/onevcat"
+      }
+    },
+    {
+      "answer_id": 53428429,
+      "body": "<p>I had the same issue , discovered I had this in the log \"The resource could not be loaded because the App Transport Security policy requires the use of a secure connection\" .</p>\n\n<p>I fixed it by adding <strong>NSAppTransportSecurity</strong> as a Dictionary in the <strong>info.plist</strong> and then I added <strong>Allow Arbitrary Loads</strong> boolean with YES as a value . It worked instantly.\n<a href=\"https://i.sstatic.net/7QTlQ.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/7QTlQ.png\" alt=\"enter image description here\"></a></p>\n",
+      "owner": {
+        "display_name": "yehyatt",
+        "link": "https://stackoverflow.com/users/1413998/yehyatt"
+      }
+    },
+    {
+      "answer_id": 52885942,
+      "body": "<p>You should set <code>referenceSize</code> to size of <code>imageView</code> instead of <code>contentView</code>. As size of your <code>contentView</code> will be bigger than your <code>imageView</code></p>\n\n<p>Change your code with below code:</p>\n\n<pre><code>let size = self.flickrPhoto.frame.size\n</code></pre>\n\n<p><strong>UPDATED</strong></p>\n\n<p>Just found that <code>ResizingImageProcessor</code> works on pixel instead of points so you need to multiply scale into image size like below:</p>\n\n<pre><code>let resizingProcessor = ResizingImageProcessor(referenceSize: CGSize(width: self.flickrPhoto.frame.size.width * UIScreen.main.scale, height: self.flickrPhoto.frame.size.height * UIScreen.main.scale))\n</code></pre>\n",
+      "owner": {
+        "display_name": "iVarun",
+        "link": "https://stackoverflow.com/users/1776470/ivarun"
+      }
+    },
+    {
+      "answer_id": 52803761,
+      "body": "<p>I will walk you thru how I figured out the solution to help you figure out future solutions...</p>\n\n<p>I'm assuming that the struct that holds the URL strings is called <code>Item</code> and that you have an <code>Observable&lt;[Item]&gt;</code> that you are currently using to load up the collection view. I'm also assuming that you only have one section in your collection.</p>\n\n<p>First, we know that something needs to happen when the <code>prefetchItemsAt</code> sends an event so we start with that:</p>\n\n<pre><code>let foo = collectionView.rx.prefetchItems\n</code></pre>\n\n<p>Now inspect the type of <code>foo</code> to see that it is a <code>ControlEvent&lt;[IndexPath]&gt;</code>. A ControlEvent is a kind of observable. We just need the <code>items</code> part of the IndexPaths, so lets <code>map</code> that:</p>\n\n<pre><code>let foo = collectionView.rx.prefetchItems\n    .map { $0.map { $0.item } }\n</code></pre>\n\n<p>(The double map is an unfortunate consequence of Swift not supporting higher kinded types) Now inspect the type of <code>foo</code>. It is an Observable array of ints. Those ints are indexes into our items array. So we need access to the most recently emitted items:</p>\n\n<pre><code>    (as above)\n    .withLatestFrom(items) { indexes, elements in\n        indexes.map { elements[$0] }\n    }\n</code></pre>\n\n<p>So <code>withLatestFrom</code> is like <code>combineLatest</code> except it only fires when the primary observable emits a value, not when the secondary observable does.</p>\n\n<p>Now, inspecting the type of <code>foo</code> will find that it's an Observable array of Items. The exact items who's urls' we want to send to the ImagePrefetcher. So we need to extract the urlStrings into URLs.</p>\n\n<pre><code>    (as above)\n    .map { $0.compactMap { URL(string: $0.urlString) } }\n</code></pre>\n\n<p>And with that, we have the array of URLs we want ImagePrefetcher to consume. Since it consumes data, it needs to be wrapped it in a subscribe block.</p>\n\n<pre><code>    (as above)\n    .subscribe(onNext: {\n        ImagePrefetcher(urls: $0).start()\n    })\n</code></pre>\n\n<p>At this point, <code>foo</code> is a disposable so it just needs to be collected in our dispose bag... Here is the entire block of code.</p>\n\n<pre><code>collectionView.rx.prefetchItems\n    .map { $0.map { $0.item } }\n    .withLatestFrom(items) { indexes, elements in\n        indexes.map { elements[$0] }\n    }\n    .map { $0.compactMap { URL(string: $0.urlString) } }\n    .subscribe(onNext: {\n        ImagePrefetcher(urls: $0).start()\n    })\n    .disposed(by: bag)\n</code></pre>\n\n<p>One last bit to make everything clean... Everything between <code>prefetchItems</code> and the <code>subscribe</code> can be moved into the ViewModel if you have one.</p>\n\n<p>The key takeaway here is that you can use the types to guide you, and you need to know what operators are available to manipulate Observables which you can find at <a href=\"http://reactivex.io/documentation/operators.html\" rel=\"nofollow noreferrer\">http://reactivex.io/documentation/operators.html</a></p>\n",
+      "owner": {
+        "display_name": "Daniel T.",
+        "link": "https://stackoverflow.com/users/506441/daniel-t"
+      }
+    },
+    {
+      "answer_id": 44432786,
+      "body": "<p>On receiving memory warning I cleared the cache and it worked fine for me now :</p>\n\n<pre><code>override func didReceiveMemoryWarning() {\n    super.didReceiveMemoryWarning()\n    // Dispose of any resources that can be recreated.\n    cache.clearMemoryCache()\n    cache.clearDiskCache()\n    cache.cleanExpiredDiskCache()\n}\n</code></pre>\n\n<p><strong>Update for Swift 4 :</strong></p>\n\n<pre><code>override func didReceiveMemoryWarning() {\n    super.didReceiveMemoryWarning()\n    // Dispose of any resources that can be recreated.\n    KingfisherManager.shared.cache.clearMemoryCache()\n    KingfisherManager.shared.cache.clearDiskCache()\n    KingfisherManager.shared.cache.cleanExpiredDiskCache()\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ankit Kumar Gupta",
+        "link": "https://stackoverflow.com/users/6665075/ankit-kumar-gupta"
+      }
+    },
+    {
+      "answer_id": 51864151,
+      "body": "<p>It seems likely that the problem is caused by your images being too large. I see two solutions.</p>\n\n<h2>PINRemoteImage</h2>\n\n<p>Try using <a href=\"https://github.com/pinterest/PINRemoteImage\" rel=\"nofollow noreferrer\">PINRemoteImage</a>. It's in ObjC but you can bridge to Swift. This framework allows you to set limits on cache size, which should prevent your memory from being gobbled up.</p>\n\n<p>However, this might not help because you could end up not having all your images.</p>\n\n<h2>Scale images down</h2>\n\n<p>Because, as you noted, scaling the images one by one is manual (and therefore tedious), I suggest scaling on the client-end.</p>\n\n<p>To do this, you would probably end up writing your own caching code. I've done this before though, and I can attest that it is actually quite simple to get something that meets your needs. For example, when I had to cache images, I ended up creating a dictionary that stores images with url keys. Before you store the images in the dictionary, you scale them down.</p>\n\n<p>As requested, here is some sample code to help you out. This isn't the <em>entire</em> code, but it is a very solid base.</p>\n\n<p><strong>Downloading the image</strong></p>\n\n<p>Use <code>Alamofire</code> to download the image from a URL:</p>\n\n<pre><code>Alamofire.request(.GET, \"https://robohash.org/123.png\").response { (request, response, data, error) in\n    self.myImageView.image = UIImage(data: data, scale:1)\n}\n</code></pre>\n\n<p><strong>Scaling the image</strong></p>\n\n<p>Use the code from <a href=\"https://stackoverflow.com/a/31314494/5078779\">this answer on SO</a>. You should scale to the size that you need the image and no more.</p>\n\n<p><strong>Storing the image</strong></p>\n\n<p>Let's back up a bit. I would have all of this code managed by a class, <code>ImageManager</code>, or something like that. </p>\n\n<p><code>ImageManager</code> should have:</p>\n\n<pre><code>var delegate: ImageManagerDelegate?               // the delegate; more detail below\nprivate(set) var images: [URL: UIImage] = [:]     // the cache\n\nfunc getImage(from url: URL)                      // the entry point to the class; calls the delegate immediately if the image is already cached, else calls `downloadImage(url: url)`\nprivate func downloadImage(url: URL)              // actually downloads the image; calls `cacheImage(url: url, image: downloadedImage)`\nprivate func cacheImage(url: URL, image: UIImage) // caches the image in `images` with `url` as the key, and notifies `delegate` that an image has been cached with the specified url.\n</code></pre>\n\n<p><code>ImageManager</code> should also implement <code>ImageManagerDelegate</code>:</p>\n\n<pre><code>protocol ImageManagerDelegate {\n    func imageManager(_ manager: ImageManager, didGet image: UIImage, from url: URL)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Daniel",
+        "link": "https://stackoverflow.com/users/5078779/daniel"
+      }
+    },
+    {
+      "answer_id": 51462490,
+      "body": "<p>Just unwrap safely to fix the crash and check your database if you are not getting the <code>urlString</code> properly,</p>\n\n<pre><code>if let urlString = m.value(forKeyPath: \"image_origin\") as? String {\n   print(urlString)\n   guard let url = URL(string: urlString) else { return }\n   cell.medicineImage.kf.setImage(with: url)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Kamran",
+        "link": "https://stackoverflow.com/users/2395636/kamran"
+      }
+    },
+    {
+      "answer_id": 51334323,
+      "body": "<p>Both of those methods return a task object, <code>RetrieveImageTask</code> and <code>RetrieveImageDownloadTask</code> respectively. You'll need to keep the task object thats returned and call <code>task.cancel()</code> when you want it to cancel.</p>\n",
+      "owner": {
+        "display_name": "Craig Siemens",
+        "link": "https://stackoverflow.com/users/385017/craig-siemens"
+      }
+    },
+    {
+      "answer_id": 51077483,
+      "body": "<p>you can use Place holder image like below</p>\n\n<pre><code>fullImage.kf.setImage(with: url, placeholder: UIImage(named: \"placeholder\"), options: nil, progressBlock: nil, completionHandler: nil)\n</code></pre>\n\n<p>But to show thumbnail you must have thumbnail image downloaded separately.  </p>\n",
+      "owner": {
+        "display_name": "Neel Bhasin",
+        "link": "https://stackoverflow.com/users/1931578/neel-bhasin"
+      }
+    },
+    {
+      "answer_id": 50714165,
+      "body": "<p>No direct way to do that</p>\n\n<p>but you can do it like that create Custom <code>UIButton</code> with indicator\nlike that</p>\n\n<p><a href=\"https://stackoverflow.com/questions/36539650/display-activity-indicator-inside-uibutton\">Display activity indicator inside UIButton</a></p>\n\n<p>Then use like this</p>\n\n<pre><code>let btn = LoadingButton()\n    btn.showLoading()\n    btn.kf.setBackgroundImage(with: URL(string: \"\"), for: .normal) { (image, error, cachType, url) in\n      btn.hideLoading()\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Abdelahad Darwish",
+        "link": "https://stackoverflow.com/users/4367641/abdelahad-darwish"
+      }
+    },
+    {
+      "answer_id": 50441640,
+      "body": "<p>Don't worry it won't download again. If you read the kingfisher docs it mentions that once the images are downloaded they are cached. So the next time you call the image from that url it's picked up from the cache.</p>\n\n<p>Here is the line from the kingfisher docs</p>\n\n<blockquote>\n  <p>Kingfisher will download the image from url, send it to both the\n  memory cache and the disk cache, and display it in imageView. When you\n  use the same code later, the image will be retrieved from cache and\n  shown immediately.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Moaz Khan",
+        "link": "https://stackoverflow.com/users/5123516/moaz-khan"
+      }
+    },
+    {
+      "answer_id": 49579547,
+      "body": "<p>There are some cases where it may make sense to use a <code>concurrent</code> queue over a <code>serial</code> queue for GCD thread safety. Serial execution may not be desirable or necessary for all operations in a class. For example for \"read\" operations that do not modify state, it makes sense for them to  perform <em>concurrently</em> and synchronously. i.e., if the \"read\" operation returns information that is not dependent on state that might be modified by other operations you're waiting on, there's no reason to wait for serial execution.</p>\n\n<p>So in these cases you might use a <code>concurrent</code> queue as Kingfisher does, and set a <code>.barrier</code> flag for any operations that mutate data state to tell the block to wait until all other operations in the queue are complete before executing.</p>\n\n<p>I can't speak to the specific rationale behind Kingfisher's use of a <code>concurrent</code> queue, but just wanted to note an example use case of when you might prefer <code>concurrent</code> over <code>serial</code> for GCD queue safety. Using <code>concurrent</code> can provide additional flexibility since you can decide if operations should be executed concurrently or \"serially\" with a .barrier flag, depending on behavior. </p>\n\n<p>For a description of this pattern, take a look at the <code>.barrier</code> description in here: <a href=\"http://khanlou.com/2016/04/the-GCD-handbook/\" rel=\"nofollow noreferrer\">http://khanlou.com/2016/04/the-GCD-handbook/</a></p>\n",
+      "owner": {
+        "display_name": "miweinst",
+        "link": "https://stackoverflow.com/users/8895191/miweinst"
+      }
+    },
+    {
+      "answer_id": 48972348,
+      "body": "<p>The problem is that you are trying to display multiple images in a single image view. As a result, all images are downloaded but only last retrieved image is being displayed. You probably want to have some collection view with photos where:</p>\n\n<pre><code>func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {\n    return imageUrls.count\n}\n\nfunc collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -&gt; UICollectionViewCell {\n    //dequeueReusableCell with imageView\n\n    cell.imageView.kf.setImage(with: imageUrls[indexPath.row])\n\n    return cell\n}\n</code></pre>\n\n<p>Optionally you could conform to <code>UICollectionViewDataSourcePrefetching</code> to add image prefetching, which is also supported by Kingfisher:</p>\n\n<pre><code>collectionView.prefetchDataSource = self\n\nfunc collectionView(_ collectionView: UICollectionView, prefetchItemsAt indexPaths: [IndexPath]) {\n    ImagePrefetcher(urls: indexPaths.map { imageUrls[$0.row] }).start()\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Tomasz Pe",
+        "link": "https://stackoverflow.com/users/8215120/tomasz-pe"
+      }
+    },
+    {
+      "answer_id": 48920611,
+      "body": "<p>I have resolved it after encoding URL.</p>\n\n<p>Swift 4.0</p>\n\n<p>For Example:</p>\n\n<pre><code>let image_url = \"/image/cache/catalog/NEE/150ذهبي%20جديدة-500x500.jpg\".addingPercentEncoding(withAllowedCharacters:CharacterSet.urlQueryAllowed)\n</code></pre>\n\n<p><em>Notes</em>\n- I have mentioned Kingfisher over here because kingfisher \"Resources\" does not support URL if its name in English. So, we need to pass encoded URL.</p>\n",
+      "owner": {
+        "display_name": "Shahabuddin Vansiwala",
+        "link": "https://stackoverflow.com/users/4097509/shahabuddin-vansiwala"
+      }
+    },
+    {
+      "answer_id": 48719159,
+      "body": "<p>Kingfisher saves all loaded images to local cache. You don't need to store images in array. Just store an URLs of images in array and Kingfisher will load cached images automatically.</p>\n",
+      "owner": {
+        "display_name": "Ilya Kharabet",
+        "link": "https://stackoverflow.com/users/9325833/ilya-kharabet"
+      }
+    },
+    {
+      "answer_id": 48568446,
+      "body": "<p>Pretty much something like this, not sure if KF has the same method but basically the completion block is what's after \"completed: { }\"   </p>\n\n<pre><code>self.searchResult.kf.setImage(with: URL(string: photo_url), completed: { (image: UIImage?, error: Error?, cache, url) in\n                if error != nil {\n                    self.imgSharedUser.image = self.user_image\n                }\n            })\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sung",
+        "link": "https://stackoverflow.com/users/5202158/sung"
+      }
+    },
+    {
+      "answer_id": 48098853,
+      "body": "<p>Found my own solution though it may not be the best way.</p>\n\n<p>First when I have updated an image I change a public variable to reflect this. I then check to see if the image is cached and remove it if it is. </p>\n\n<pre><code>import Kingfisher\n\nif self.imageHasUpdated {\n      if ImageCache.default.isImageCached(forKey: image.absoluteString).cached {\n               print(\"Image is cached\")\n               ImageCache.default.removeImage(forKey: image.absoluteString)\n               self.imageHasUpdated = false\n      }\n}\n</code></pre>\n\n<p>Finally I update the image as normal.</p>\n\n<pre><code>imageView.kf.setImage(with: imageURL, placeholder: nil, options: nil)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Paradox_Gods",
+        "link": "https://stackoverflow.com/users/7201188/paradox-gods"
+      }
+    },
+    {
+      "answer_id": 45883185,
+      "body": "<p>Yeah you are right. It is really so strange.</p>\n\n<p>Try to set your changed image on picker dismiss method's completion. maybe it will work:</p>\n\n<pre><code>picker.dismiss(animated: true, completion: nil)\n self.imageView.image = self.changedImage\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nevres",
+        "link": "https://stackoverflow.com/users/7483296/nevres"
+      }
+    },
+    {
+      "answer_id": 45632714,
+      "body": "<pre><code>override func prepare(for segue: UIStoryboardSegue, sender: Any?) {\n    switch segue.destination {\n    case let viewController as YourViewController:\n        let row = collectionView.indexPathsForSelectedItems?.first?.row\n        let image = ImageResource(downloadURL: URL(string: self.FullLink[row])!, cacheKey: self.FullLink[row])\n        viewController.image = image\n\n    default:\n        break\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ramis",
+        "link": "https://stackoverflow.com/users/1151916/ramis"
+      }
+    },
+    {
+      "answer_id": 44742324,
+      "body": "<p>As mentioned in Kingfisher's <a href=\"https://github.com/onevcat/Kingfisher\" rel=\"noreferrer\">GitHub</a> site:</p>\n<blockquote>\n<p>Kingfisher is a lightweight, pure-Swift library for downloading and\ncaching images from the web. This project is heavily inspired by the\npopular SDWebImage. It provides you a chance to use a pure-Swift\nalternative in your next app.</p>\n</blockquote>\n<p>Kingfisher is used for image downloading and caching only. If you want to cache video, Kingfisher can't help. By caching if you mean to store the video somewhere so that next time the user won't need to download again, simpliy store the video's in document folder.</p>\n",
+      "owner": {
+        "display_name": "Fangming",
+        "link": "https://stackoverflow.com/users/5838902/fangming"
+      }
+    },
+    {
+      "answer_id": 44394469,
+      "body": "<p>At the moment I solved my problem, I wrote my Custom CacheSerializer, and I compress the images up to 3 megabytes. But I'm interested in other answers, how to solve this problem.</p>\n\n<pre><code>import Kingfisher\n\nstruct AppNameKingfisherCacheSerializer: CacheSerializer {\n\n    func data(with image: Image, original: Data?) -&gt; Data? {\n        return image.compressToData(3)\n    }\n\n    func image(with data: Data, options: KingfisherOptionsInfo?) -&gt; Image? {\n        return UIImage(data: data)\n    }\n\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alexander Khitev",
+        "link": "https://stackoverflow.com/users/4981515/alexander-khitev"
+      }
+    },
+    {
+      "answer_id": 44354411,
+      "body": "<p>Yes, Kingfisher caches images both in memory and on disk.</p>\n\n<p>By default, the amount of RAM that will be used is not even limited, you have to set the value yourself:</p>\n\n<pre><code>ImageCache.default.maxMemoryCost = 1024 * 1024 * yourValue\n</code></pre>\n\n<p>where <code>1024 * 1024 * yourValue</code> is the global cost in megapixels (I know this is weird, but it's not megabytes, it's megapixels, because images can have different bit depth, etc). </p>\n\n<p>For example, in my tests, the maximum RAM used with a value of <code>1024 * 1024 * 500</code> fluctuates between 120MB and 300MB.</p>\n\n<p>Incidentally, this is also how you tell Kingfisher to never use the RAM and only cache to disk:</p>\n\n<pre><code>ImageCache.default.maxMemoryCost = 1\n</code></pre>\n\n<p>This will force Kingfisher to only use the disk cache.</p>\n\n<hr>\n\n<p><em>How to debug</em></p>\n\n<p>The first thing is to check that you're setting the max value on the right cache. Maybe you did create a custom cache? My example is setting the value for the default cache, the one used if no other is defined.</p>\n\n<p>You may also want to manually clear the memory cache and compare the RAM occupation before and after:</p>\n\n<pre><code>ImageCache.default.clearMemoryCache()\n</code></pre>\n\n<p>If you think that some big image is in the memory cache when it shouldn't be, you can verify with <code>isImageCached</code>:</p>\n\n<pre><code>if let result = ImageCache.default.isImageCached(forKey: imageLink) {\n    print(result.cached)\n    print(result.cacheType)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Eric Aya",
+        "link": "https://stackoverflow.com/users/2227743/eric-aya"
+      }
+    },
+    {
+      "answer_id": 44327952,
+      "body": "<p>I solved my problem, in fact Kingfisher initially stores all images in RAM, it has the property that if the application received a memory warning, then it should free up memory, but in my case this was not. So I set the limits for Kingfisher that you can only use 1 megabyte of RAM memory.</p>\n\n<p>I placed this function in <code>AppDelegate</code> and call in function <code>didFinishLaunchingWithOptions</code></p>\n\n<pre><code>fileprivate func setupKingfisherSettings() {\n        ImageCache.default.maxMemoryCost = 1\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alexander Khitev",
+        "link": "https://stackoverflow.com/users/4981515/alexander-khitev"
+      }
+    },
+    {
+      "answer_id": 43691455,
+      "body": "<p>Error stating you that you are calling a <code>String</code> instead of a method. \nAs I can see you are passing URL (not recommended to have same name) as parameter in request so its getting confused and throwing error. Try changing the name from URL to requestURL or something else.</p>\n\n<p>Replace this:</p>\n\n<pre><code>Alamofire.request(URL).responseObject { (response: DataResponse&lt;Movie&gt;)\n</code></pre>\n\n<p>with:</p>\n\n<pre><code>Alamofire.request(requestURL).responseObject { (response: DataResponse&lt;Movie&gt;)\n</code></pre>\n\n<p>and definitely where you declared <code>URL</code> change at that place too with <code>requestURL</code>. </p>\n",
+      "owner": {
+        "display_name": "Joe",
+        "link": "https://stackoverflow.com/users/6379351/joe"
+      }
+    },
+    {
+      "answer_id": 43648343,
+      "body": "<ol>\n<li>You can add activity indicator from the storyboard over your UIImageView.  </li>\n<li>Connect an outlet from the activity indicator to your ViewController file</li>\n<li>In viewDidLoad(), <code>activityIndicator.hidesWhenStopped = true</code></li>\n<li>Within your Alamofire request, use <code>activityIndicator.startAnimating()</code></li>\n<li>Once you get the call back from Alamofire, in the completion handler, use <code>activityIndicator.stopAnimating()</code>  </li>\n</ol>\n\n<p>Above code assumes <code>activityIndicator</code> is the outlet connection name of the <code>UIActivityIndicatorView</code></p>\n",
+      "owner": {
+        "display_name": "Ennabah",
+        "link": "https://stackoverflow.com/users/6217553/ennabah"
+      }
+    },
+    {
+      "answer_id": 43574867,
+      "body": "<p>If I am understanding correctly I think you are supposed to enter the code to get the rounded image on your <strong>cellForRowAtindexPath</strong> method not viewDidLoad, so:</p>\n\n<pre><code>  let imgStg: String = self.movies[indexPath.row].poster!\n    let imgURL: URL? = URL(string: imgStg)\n    let imgSrc = ImageResource(downloadURL: imgURL!, cacheKey: imgStg)\n\n    cell.posterImageView.layer.cornedRadius = posterImageView.frame.size.width/2\n    cell.posterImageView.clipsToBounds = true\n    cell.posterImageView.kf.setImage(with: imgSrc)\n</code></pre>\n\n<p>Edit: Just remembered that KingFisher has support for rounded images:</p>\n\n<pre><code>let processor = RoundCornerImageProcessor(cornerRadius: 20)\nimageView.kf.setImage(with: url, placeholder: nil, options: [.processor(processor)])\n</code></pre>\n\n<p>Hope one of the two ways works for you.</p>\n",
+      "owner": {
+        "display_name": "JP Aquino",
+        "link": "https://stackoverflow.com/users/6125964/jp-aquino"
+      }
+    },
+    {
+      "answer_id": 43483100,
+      "body": "<p><strong>Found the solution:</strong></p>\n\n<pre><code>let resource = ImageResource(downloadURL: url, cacheKey: recipe.uid)\nlet processor = BlurImageProcessor(blurRadius: 4)\nbackgroundImageView.kf.setImage(with: resource, placeholder: nil, options: [.processor(processor)], progressBlock: nil, completionHandler: nil)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Toma Radu-Petrescu",
+        "link": "https://stackoverflow.com/users/3185860/toma-radu-petrescu"
+      }
+    },
+    {
+      "answer_id": 43424005,
+      "body": "<p>I reduced the size of the images. this seemed to fix the issue</p>\n",
+      "owner": {
+        "display_name": "ThundercatChris",
+        "link": "https://stackoverflow.com/users/5119823/thundercatchris"
+      }
+    },
+    {
+      "answer_id": 43059229,
+      "body": "<p>Kingfisher is using the whole url as the cache key by default, so you have to ensure that you have the very SAME url string for the images every time you request your API. If there is something like timestamp or version number appended to the urls, the cache will fail. (eg. <code>http://example.com/image.png?time=123</code> and <code>http://example.com/image.png?time=456</code> will be recognized as two different cache keys, although you could get the same image from it).</p>\n\n<p>This is the only case I could draw for your operation. If this is true for you, you could create an <code>ImageResource</code> to specify the cache key explicitly (which should be related to your original url, but get rid of the appended things):</p>\n\n<pre><code>let r = ImageResource(downloadURL: yourUrl, cacheKey: key)\nimageView.kf.setImage(with: r, placeholder: yourImage)\n</code></pre>\n",
+      "owner": {
+        "display_name": "onevcat",
+        "link": "https://stackoverflow.com/users/1468886/onevcat"
+      }
+    },
+    {
+      "answer_id": 35917317,
+      "body": "<p>You could use the <code>retrieveImage(with:options:progressBlock: completionHandler:)</code> method of <code>KingfisherManager</code> for this.</p>\n\n<p>Maybe something like this:</p>\n\n<pre><code>KingfisherManager.shared.retrieveImage(with: url, options: nil, progressBlock: nil, completionHandler: { image, error, cacheType, imageURL in\n    print(image)\n})\n</code></pre>\n",
+      "owner": {
+        "display_name": "onevcat",
+        "link": "https://stackoverflow.com/users/1468886/onevcat"
+      }
+    },
+    {
+      "answer_id": 41736363,
+      "body": "<p>First init an array of KingfisherSource type like that</p>\n\n<pre><code>var items = [KingfisherSource]()\n</code></pre>\n\n<p>Then do what you did earlier &amp; append each kingfisherSource object in items array.</p>\n\n<pre><code>for index in 0 ..&lt; self.orderAttemptImageArray.count{\n   var kingfisherSource = KingfisherSource(urlString: \"\\(orderAttemptImageArray[index].mUrl!)\")! as! KingfisherSource\n   items.append(kingfisherSource)\n}\n</code></pre>\n\n<p>Hope it helps.</p>\n",
+      "owner": {
+        "display_name": "Riajur Rahman",
+        "link": "https://stackoverflow.com/users/5980454/riajur-rahman"
+      }
+    },
+    {
+      "answer_id": 41368536,
+      "body": "<p>I found a solution using Kingfisher.  First, I created an ImageCache object for the VC handling the multiple photos (you need to import Kingfisher):</p>\n\n<pre><code>fileprivate var imageCache: ImageCache = ImageCache(name: \"newTaskCache\")\n</code></pre>\n\n<p>After I select the photo using UIImagePickerController, I save the unique ID in a string array, cachedImageIDs:</p>\n\n<pre><code>func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {\n    let image : UIImage = (info[UIImagePickerControllerOriginalImage] as? UIImage)!\n    let imageID: String?\n    if let assetURL = info[\"UIImagePickerControllerReferenceURL\"] as? URL {\n        imageID = assetURL.absoluteString\n        cachedImageIDs.append(imageID!)\n    }else{\n        //camera does not return a UIImagePickerControllerReferenceURL, so unique imageID will be posix time, until I figure out how to get imageURL string\n        imageID = String(describing: Date().posixTime())\n        cachedImageIDs.append(imageID!)\n    }\n\n    imageCache.store(image, forKey: imageID!) {\n        print(\"saved image\")\n        picker.dismiss(animated: true, completion: nil)\n    }\n}\n</code></pre>\n\n<p>When I need to retrieve the images, they are</p>\n\n<pre><code>func getImages() {\n    for id in cachedImageIDs {\n        //retrieve image\n        imageCache.retrieveImage(forKey: id, options: nil, completionHandler: { (image, cacheType) -&gt; () in\n            print(image)\n        })\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Josh O&#39;Connor",
+        "link": "https://stackoverflow.com/users/4126657/josh-oconnor"
+      }
+    },
+    {
+      "answer_id": 40793806,
+      "body": "<p><code>Resource</code> is a protocol. <code>URL</code> has been extended to conform to this protocol. So you can do:</p>\n\n<pre><code>let url = URL(string: ...)!\nimageView.kf.setImage(with: url)\n</code></pre>\n\n<hr>\n\n<p>If you want some control over what Kingfisher uses for the key in its cache, you can use <code>ImageResource</code>:</p>\n\n<pre><code>let identifier = \"...\"\nlet url = URL(string: \"http://example.com/images/identifier=\\(identifier)\")!\nlet resource = ImageResource(downloadURL: url, cacheKey: identifier)\n\nimageView.kf.setImage(with: resource)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rob",
+        "link": "https://stackoverflow.com/users/1271826/rob"
+      }
+    },
+    {
+      "answer_id": 40361640,
+      "body": "<p>Try Changing your Podfile to:- </p>\n\n<pre><code>target 'Ego1' do\n\n  use_frameworks!\n\n    pod 'Firebase'\n    pod 'Firebase/Database'\n    pod 'Firebase/Auth'\n    pod 'Firebase/Storage'\n    pod 'Kingfisher', '~&gt; 3.0'\n\nend\n</code></pre>\n\n<p>Then :-</p>\n\n<ul>\n<li><strong><em>Clean your project (CMD+OPTION+SHIFT+K)</em></strong></li>\n<li><strong>Delete the derived data.</strong></li>\n<li><strong>Rebuild</strong></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Dravidian",
+        "link": "https://stackoverflow.com/users/6297658/dravidian"
+      }
+    },
+    {
+      "answer_id": 40099690,
+      "body": "<p>The downloader (<code>ImageDownloader</code>) has nothing to do with cache. If you want to download and cache (as well as retrieve the cached images later), you should use the manager method: <code>KingfisherManager.shared.retrieveImage</code> instead of downloader standalone.</p>\n",
+      "owner": {
+        "display_name": "onevcat",
+        "link": "https://stackoverflow.com/users/1468886/onevcat"
+      }
+    }
+  ]
+}

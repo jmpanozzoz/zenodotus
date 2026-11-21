@@ -4101,6 +4101,8 @@ name = "zenodotus-eval"
 version = "0.1.0"
 dependencies = [
  "clap",
+ "dom_query",
+ "reqwest",
  "rmcp",
  "serde",
  "serde_json",

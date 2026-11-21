@@ -1,0 +1,1908 @@
+{
+  "library": "rubygems:devise",
+  "fetched_at": "2026-11-21T17:28:26Z",
+  "questions": [
+    {
+      "question_id": 6557311,
+      "title": "No route matches &quot;/users/sign_out&quot; devise rails 3",
+      "accepted_answer_id": 6557627,
+      "score": 399,
+      "link": "https://stackoverflow.com/questions/6557311/no-route-matches-users-sign-out-devise-rails-3",
+      "owner": {
+        "display_name": "vich",
+        "link": "https://stackoverflow.com/users/461294/vich"
+      }
+    },
+    {
+      "question_id": 3546289,
+      "title": "Override devise registrations controller",
+      "accepted_answer_id": 3553561,
+      "score": 244,
+      "link": "https://stackoverflow.com/questions/3546289/override-devise-registrations-controller",
+      "owner": {
+        "display_name": "Craig McGuff",
+        "link": "https://stackoverflow.com/users/92759/craig-mcguff"
+      }
+    },
+    {
+      "question_id": 4114835,
+      "title": "Heroku/devise - Missing host to link to! Please provide :host parameter or set default_url_options[:host]",
+      "accepted_answer_id": 4114864,
+      "score": 186,
+      "link": "https://stackoverflow.com/questions/4114835/heroku-devise-missing-host-to-link-to-please-provide-host-parameter-or-set-d",
+      "owner": {
+        "display_name": "benoitr",
+        "link": "https://stackoverflow.com/users/348386/benoitr"
+      }
+    },
+    {
+      "question_id": 4316940,
+      "title": "Create a devise user from Ruby console",
+      "accepted_answer_id": 4316995,
+      "score": 155,
+      "link": "https://stackoverflow.com/questions/4316940/create-a-devise-user-from-ruby-console",
+      "owner": {
+        "display_name": "Martin",
+        "link": "https://stackoverflow.com/users/471313/martin"
+      }
+    },
+    {
+      "question_id": 6734323,
+      "title": "How do I remove the Devise route to sign up?",
+      "accepted_answer_id": 6883757,
+      "score": 154,
+      "link": "https://stackoverflow.com/questions/6734323/how-do-i-remove-the-devise-route-to-sign-up",
+      "owner": {
+        "display_name": "Nathan Long",
+        "link": "https://stackoverflow.com/users/4376/nathan-long"
+      }
+    },
+    {
+      "question_id": 8186584,
+      "title": "How do I set up email confirmation with Devise?",
+      "accepted_answer_id": 8189785,
+      "score": 139,
+      "link": "https://stackoverflow.com/questions/8186584/how-do-i-set-up-email-confirmation-with-devise",
+      "owner": {
+        "display_name": "jyli7",
+        "link": "https://stackoverflow.com/users/893548/jyli7"
+      }
+    },
+    {
+      "question_id": 4308094,
+      "title": "All Ruby tests raising: undefined method `authenticate&#39; for nil:NilClass",
+      "accepted_answer_id": 4308872,
+      "score": 132,
+      "link": "https://stackoverflow.com/questions/4308094/all-ruby-tests-raising-undefined-method-authenticate-for-nilnilclass",
+      "owner": {
+        "display_name": "Jeffrey W.",
+        "link": "https://stackoverflow.com/users/524354/jeffrey-w"
+      }
+    },
+    {
+      "question_id": 4081744,
+      "title": "Devise form within a different controller",
+      "accepted_answer_id": 6393151,
+      "score": 131,
+      "link": "https://stackoverflow.com/questions/4081744/devise-form-within-a-different-controller",
+      "owner": {
+        "display_name": "user482594",
+        "link": "https://stackoverflow.com/users/482594/user482594"
+      }
+    },
+    {
+      "question_id": 8306430,
+      "title": "Devise password reset from Rails console",
+      "accepted_answer_id": 8306527,
+      "score": 120,
+      "link": "https://stackoverflow.com/questions/8306430/devise-password-reset-from-rails-console",
+      "owner": {
+        "display_name": "ylluminate",
+        "link": "https://stackoverflow.com/users/320681/ylluminate"
+      }
+    },
+    {
+      "question_id": 6004216,
+      "title": "Devise - How do I forbid certain users from signing in?",
+      "accepted_answer_id": 6004353,
+      "score": 117,
+      "link": "https://stackoverflow.com/questions/6004216/devise-how-do-i-forbid-certain-users-from-signing-in",
+      "owner": {
+        "display_name": "Dimitar Vouldjeff",
+        "link": "https://stackoverflow.com/users/231402/dimitar-vouldjeff"
+      }
+    },
+    {
+      "question_id": 37341967,
+      "title": "Rails 5, Undefined method `for&#39; for #&lt;Devise on line devise_parameter_sanitizer.for",
+      "accepted_answer_id": 37342259,
+      "score": 102,
+      "link": "https://stackoverflow.com/questions/37341967/rails-5-undefined-method-for-for-devise-on-line-devise-parameter-sanitizer",
+      "owner": {
+        "display_name": "Dmitriy",
+        "link": "https://stackoverflow.com/users/5047667/dmitriy"
+      }
+    },
+    {
+      "question_id": 10402777,
+      "title": "Share session (cookies) between subdomains in Rails?",
+      "accepted_answer_id": 10403338,
+      "score": 102,
+      "link": "https://stackoverflow.com/questions/10402777/share-session-cookies-between-subdomains-in-rails",
+      "owner": {
+        "display_name": "Wahaj Ali",
+        "link": "https://stackoverflow.com/users/949953/wahaj-ali"
+      }
+    },
+    {
+      "question_id": 18080910,
+      "title": "Devise Secret Key was not set",
+      "accepted_answer_id": 18087072,
+      "score": 101,
+      "link": "https://stackoverflow.com/questions/18080910/devise-secret-key-was-not-set",
+      "owner": {
+        "display_name": "user1139144",
+        "link": null
+      }
+    },
+    {
+      "question_id": 9272272,
+      "title": "where is devise implementation of &quot;authenticate_user!&quot; method?",
+      "accepted_answer_id": 9272305,
+      "score": 90,
+      "link": "https://stackoverflow.com/questions/9272272/where-is-devise-implementation-of-authenticate-user-method",
+      "owner": {
+        "display_name": "Greg",
+        "link": "https://stackoverflow.com/users/173520/greg"
+      }
+    },
+    {
+      "question_id": 4954876,
+      "title": "Setting Devise Login to be root page",
+      "accepted_answer_id": 12994856,
+      "score": 88,
+      "link": "https://stackoverflow.com/questions/4954876/setting-devise-login-to-be-root-page",
+      "owner": {
+        "display_name": "Logan Bailey",
+        "link": "https://stackoverflow.com/users/436548/logan-bailey"
+      }
+    },
+    {
+      "question_id": 4982073,
+      "title": "different layout for sign_in action in devise",
+      "accepted_answer_id": 4982110,
+      "score": 86,
+      "link": "https://stackoverflow.com/questions/4982073/different-layout-for-sign-in-action-in-devise",
+      "owner": {
+        "display_name": "Jorge Israel Pe&#241;a",
+        "link": "https://stackoverflow.com/users/101090/jorge-israel-pe%c3%b1a"
+      }
+    },
+    {
+      "question_id": 6646845,
+      "title": "Customizing Devise views in Rails",
+      "accepted_answer_id": 6647210,
+      "score": 84,
+      "link": "https://stackoverflow.com/questions/6646845/customizing-devise-views-in-rails",
+      "owner": {
+        "display_name": "Vasseurth",
+        "link": "https://stackoverflow.com/users/832891/vasseurth"
+      }
+    },
+    {
+      "question_id": 9362910,
+      "title": "rails - &quot;WARNING: Can&#39;t verify CSRF token authenticity&quot; for json devise requests",
+      "accepted_answer_id": 10049965,
+      "score": 83,
+      "link": "https://stackoverflow.com/questions/9362910/rails-warning-cant-verify-csrf-token-authenticity-for-json-devise-requests",
+      "owner": {
+        "display_name": "user1027503",
+        "link": null
+      }
+    },
+    {
+      "question_id": 5113248,
+      "title": "Devise update user without password",
+      "accepted_answer_id": 5113894,
+      "score": 81,
+      "link": "https://stackoverflow.com/questions/5113248/devise-update-user-without-password",
+      "owner": {
+        "display_name": "kriysna",
+        "link": "https://stackoverflow.com/users/387358/kriysna"
+      }
+    },
+    {
+      "question_id": 18605294,
+      "title": "Is devise&#39;s token_authenticatable secure?",
+      "accepted_answer_id": 18695244,
+      "score": 78,
+      "link": "https://stackoverflow.com/questions/18605294/is-devises-token-authenticatable-secure",
+      "owner": {
+        "display_name": "Jeff Escalante",
+        "link": "https://stackoverflow.com/users/666989/jeff-escalante"
+      }
+    },
+    {
+      "question_id": 9472852,
+      "title": "devise and multiple &quot;user&quot; models",
+      "accepted_answer_id": 9540175,
+      "score": 77,
+      "link": "https://stackoverflow.com/questions/9472852/devise-and-multiple-user-models",
+      "owner": {
+        "display_name": "ddidier",
+        "link": "https://stackoverflow.com/users/1064669/ddidier"
+      }
+    },
+    {
+      "question_id": 70474422,
+      "title": "Rails 7 - link_to with method :delete still performs GET request",
+      "accepted_answer_id": 70482989,
+      "score": 72,
+      "link": "https://stackoverflow.com/questions/70474422/rails-7-link-to-with-method-delete-still-performs-get-request",
+      "owner": {
+        "display_name": "Nils",
+        "link": "https://stackoverflow.com/users/6167884/nils"
+      }
+    },
+    {
+      "question_id": 7465467,
+      "title": "Devise - create user account with confirmed without sending out an email?",
+      "accepted_answer_id": 7465664,
+      "score": 72,
+      "link": "https://stackoverflow.com/questions/7465467/devise-create-user-account-with-confirmed-without-sending-out-an-email",
+      "owner": {
+        "display_name": "xjq233p_1",
+        "link": "https://stackoverflow.com/users/140330/xjq233p-1"
+      }
+    },
+    {
+      "question_id": 5370164,
+      "title": "disabling Devise registration for production environment only",
+      "accepted_answer_id": 8291318,
+      "score": 71,
+      "link": "https://stackoverflow.com/questions/5370164/disabling-devise-registration-for-production-environment-only",
+      "owner": {
+        "display_name": "panzhuli",
+        "link": "https://stackoverflow.com/users/366853/panzhuli"
+      }
+    },
+    {
+      "question_id": 20745843,
+      "title": "Is this Rails JSON authentication API (using Devise) secure?",
+      "accepted_answer_id": 20824818,
+      "score": 70,
+      "link": "https://stackoverflow.com/questions/20745843/is-this-rails-json-authentication-api-using-devise-secure",
+      "owner": {
+        "display_name": "GMA",
+        "link": "https://stackoverflow.com/users/1603071/gma"
+      }
+    },
+    {
+      "question_id": 20875591,
+      "title": "ActionController::InvalidAuthenticityToken in RegistrationsController#create",
+      "accepted_answer_id": 20875842,
+      "score": 68,
+      "link": "https://stackoverflow.com/questions/20875591/actioncontrollerinvalidauthenticitytoken-in-registrationscontrollercreate",
+      "owner": {
+        "display_name": "user3144005",
+        "link": "https://stackoverflow.com/users/3144005/user3144005"
+      }
+    },
+    {
+      "question_id": 3944288,
+      "title": "&quot;WARNING: Can&#39;t mass-assign protected attributes&quot;",
+      "accepted_answer_id": 3944345,
+      "score": 68,
+      "link": "https://stackoverflow.com/questions/3944288/warning-cant-mass-assign-protected-attributes",
+      "owner": {
+        "display_name": "picardo",
+        "link": "https://stackoverflow.com/users/32816/picardo"
+      }
+    },
+    {
+      "question_id": 9049151,
+      "title": "Undefined local variable or method `unconfirmed_email&#39; when registering users?",
+      "accepted_answer_id": 9049434,
+      "score": 67,
+      "link": "https://stackoverflow.com/questions/9049151/undefined-local-variable-or-method-unconfirmed-email-when-registering-users",
+      "owner": {
+        "display_name": "varatis",
+        "link": "https://stackoverflow.com/users/872150/varatis"
+      }
+    },
+    {
+      "question_id": 3580557,
+      "title": "Rails 3 using Devise: How to allow someone to log in using their Facebook account?",
+      "accepted_answer_id": 5321309,
+      "score": 65,
+      "link": "https://stackoverflow.com/questions/3580557/rails-3-using-devise-how-to-allow-someone-to-log-in-using-their-facebook-accoun",
+      "owner": {
+        "display_name": "Andrew",
+        "link": "https://stackoverflow.com/users/48523/andrew"
+      }
+    },
+    {
+      "question_id": 2997179,
+      "title": "RoR Devise: Sign in with username OR email",
+      "accepted_answer_id": 3001990,
+      "score": 65,
+      "link": "https://stackoverflow.com/questions/2997179/ror-devise-sign-in-with-username-or-email",
+      "owner": {
+        "display_name": "Patrick Oscity",
+        "link": "https://stackoverflow.com/users/192702/patrick-oscity"
+      }
+    },
+    {
+      "question_id": 4149326,
+      "title": "Rails Devise: get object of the currently logged in user?",
+      "accepted_answer_id": 4150044,
+      "score": 64,
+      "link": "https://stackoverflow.com/questions/4149326/rails-devise-get-object-of-the-currently-logged-in-user",
+      "owner": {
+        "display_name": "GSto",
+        "link": "https://stackoverflow.com/users/89761/gsto"
+      }
+    },
+    {
+      "question_id": 19791531,
+      "title": "How to specify devise_parameter_sanitizer for edit action?",
+      "accepted_answer_id": 19793371,
+      "score": 60,
+      "link": "https://stackoverflow.com/questions/19791531/how-to-specify-devise-parameter-sanitizer-for-edit-action",
+      "owner": {
+        "display_name": "conciliator",
+        "link": "https://stackoverflow.com/users/182048/conciliator"
+      }
+    },
+    {
+      "question_id": 4660565,
+      "title": "How to manually create a new user and user session in Devise?",
+      "accepted_answer_id": 4660842,
+      "score": 58,
+      "link": "https://stackoverflow.com/questions/4660565/how-to-manually-create-a-new-user-and-user-session-in-devise",
+      "owner": {
+        "display_name": "Sean Coleman",
+        "link": "https://stackoverflow.com/users/571617/sean-coleman"
+      }
+    },
+    {
+      "question_id": 16379554,
+      "title": "Strong parameters with Rails and Devise",
+      "accepted_answer_id": 16389077,
+      "score": 57,
+      "link": "https://stackoverflow.com/questions/16379554/strong-parameters-with-rails-and-devise",
+      "owner": {
+        "display_name": "user1202888",
+        "link": "https://stackoverflow.com/users/1202888/user1202888"
+      }
+    },
+    {
+      "question_id": 24148723,
+      "title": "undefined method &#39;devise&#39; for User",
+      "accepted_answer_id": 24148983,
+      "score": 56,
+      "link": "https://stackoverflow.com/questions/24148723/undefined-method-devise-for-user",
+      "owner": {
+        "display_name": "JonleePeakman",
+        "link": "https://stackoverflow.com/users/3646872/jonleepeakman"
+      }
+    },
+    {
+      "question_id": 7068919,
+      "title": "Devise limit one session per user at a time",
+      "accepted_answer_id": 7069053,
+      "score": 56,
+      "link": "https://stackoverflow.com/questions/7068919/devise-limit-one-session-per-user-at-a-time",
+      "owner": {
+        "display_name": "John",
+        "link": "https://stackoverflow.com/users/564761/john"
+      }
+    },
+    {
+      "question_id": 5762798,
+      "title": "Rails Disable devise flash messages",
+      "accepted_answer_id": 5762835,
+      "score": 56,
+      "link": "https://stackoverflow.com/questions/5762798/rails-disable-devise-flash-messages",
+      "owner": {
+        "display_name": "Marat_Galiev",
+        "link": "https://stackoverflow.com/users/277275/marat-galiev"
+      }
+    },
+    {
+      "question_id": 4929078,
+      "title": "How to sign in a user using Devise from a Rails console?",
+      "accepted_answer_id": 4929334,
+      "score": 56,
+      "link": "https://stackoverflow.com/questions/4929078/how-to-sign-in-a-user-using-devise-from-a-rails-console",
+      "owner": {
+        "display_name": "Christian",
+        "link": "https://stackoverflow.com/users/192893/christian"
+      }
+    },
+    {
+      "question_id": 4412018,
+      "title": "Rails &amp; Devise: How to render login page without a layout?",
+      "accepted_answer_id": 4412168,
+      "score": 56,
+      "link": "https://stackoverflow.com/questions/4412018/rails-devise-how-to-render-login-page-without-a-layout",
+      "owner": {
+        "display_name": "neezer",
+        "link": "https://stackoverflow.com/users/32154/neezer"
+      }
+    },
+    {
+      "question_id": 4867298,
+      "title": "Setting session length with Devise",
+      "accepted_answer_id": 4867763,
+      "score": 54,
+      "link": "https://stackoverflow.com/questions/4867298/setting-session-length-with-devise",
+      "owner": {
+        "display_name": "joshs",
+        "link": "https://stackoverflow.com/users/280770/joshs"
+      }
+    },
+    {
+      "question_id": 38421853,
+      "title": "Why is my RSpec not loading Devise::Test::ControllerHelpers?",
+      "accepted_answer_id": 38422513,
+      "score": 53,
+      "link": "https://stackoverflow.com/questions/38421853/why-is-my-rspec-not-loading-devisetestcontrollerhelpers",
+      "owner": {
+        "display_name": "dwilbank",
+        "link": "https://stackoverflow.com/users/1544566/dwilbank"
+      }
+    },
+    {
+      "question_id": 19018657,
+      "title": "Rails 4 + Devise: Password Reset is always giving a &quot;Token is invalid&quot; error on the production server, but works fine locally.",
+      "accepted_answer_id": 19236370,
+      "score": 53,
+      "link": "https://stackoverflow.com/questions/19018657/rails-4-devise-password-reset-is-always-giving-a-token-is-invalid-error-on",
+      "owner": {
+        "display_name": "justindao",
+        "link": "https://stackoverflow.com/users/1839623/justindao"
+      }
+    },
+    {
+      "question_id": 8360787,
+      "title": "Rails 3 - Can Active_admin use an existing user model?",
+      "accepted_answer_id": 8360920,
+      "score": 53,
+      "link": "https://stackoverflow.com/questions/8360787/rails-3-can-active-admin-use-an-existing-user-model",
+      "owner": {
+        "display_name": "Frexuz",
+        "link": "https://stackoverflow.com/users/451945/frexuz"
+      }
+    },
+    {
+      "question_id": 6946435,
+      "title": "Devise: Why doesn&#39;t my logout link work?",
+      "accepted_answer_id": 6947032,
+      "score": 52,
+      "link": "https://stackoverflow.com/questions/6946435/devise-why-doesnt-my-logout-link-work",
+      "owner": {
+        "display_name": "user483040",
+        "link": null
+      }
+    },
+    {
+      "question_id": 4276233,
+      "title": "Ruby/Rails: How do you customize the mailer templates of Devise?",
+      "accepted_answer_id": 4281430,
+      "score": 51,
+      "link": "https://stackoverflow.com/questions/4276233/ruby-rails-how-do-you-customize-the-mailer-templates-of-devise",
+      "owner": {
+        "display_name": "Ramon Tayag",
+        "link": "https://stackoverflow.com/users/61018/ramon-tayag"
+      }
+    },
+    {
+      "question_id": 13836139,
+      "title": "Rails - How to override devise SessionsController to perform specific tasks when user signs in?",
+      "accepted_answer_id": 13837899,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/13836139/rails-how-to-override-devise-sessionscontroller-to-perform-specific-tasks-when",
+      "owner": {
+        "display_name": "Patrice Navarre",
+        "link": "https://stackoverflow.com/users/1878659/patrice-navarre"
+      }
+    },
+    {
+      "question_id": 7086583,
+      "title": "Creating a `Users` show page using Devise",
+      "accepted_answer_id": 7087112,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/7086583/creating-a-users-show-page-using-devise",
+      "owner": {
+        "display_name": "steffi2392",
+        "link": "https://stackoverflow.com/users/895997/steffi2392"
+      }
+    },
+    {
+      "question_id": 4857855,
+      "title": "Extending Devise SessionsController to authenticate using JSON",
+      "accepted_answer_id": 4975442,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/4857855/extending-devise-sessionscontroller-to-authenticate-using-json",
+      "owner": {
+        "display_name": "Akshay Kumar",
+        "link": "https://stackoverflow.com/users/576108/akshay-kumar"
+      }
+    },
+    {
+      "question_id": 7590609,
+      "title": "Adding New Admins to Active Admin",
+      "accepted_answer_id": 7612200,
+      "score": 48,
+      "link": "https://stackoverflow.com/questions/7590609/adding-new-admins-to-active-admin",
+      "owner": {
+        "display_name": "alik",
+        "link": "https://stackoverflow.com/users/860844/alik"
+      }
+    },
+    {
+      "question_id": 6234045,
+      "title": "How do you access Devise controllers?",
+      "accepted_answer_id": 6234383,
+      "score": 48,
+      "link": "https://stackoverflow.com/questions/6234045/how-do-you-access-devise-controllers",
+      "owner": {
+        "display_name": "katie",
+        "link": "https://stackoverflow.com/users/670457/katie"
+      }
+    },
+    {
+      "question_id": 2795313,
+      "title": "Devise: Disable password confirmation during sign-up",
+      "accepted_answer_id": 13587139,
+      "score": 48,
+      "link": "https://stackoverflow.com/questions/2795313/devise-disable-password-confirmation-during-sign-up",
+      "owner": {
+        "display_name": "Victor Lam",
+        "link": "https://stackoverflow.com/users/314325/victor-lam"
+      }
+    },
+    {
+      "question_id": 27284657,
+      "title": "&quot;undefined method `env&#39; for nil:NilClass&quot; in &#39;setup_controller_for_warden&#39; error when testing Devise using Rspec",
+      "accepted_answer_id": 27285315,
+      "score": 47,
+      "link": "https://stackoverflow.com/questions/27284657/undefined-method-env-for-nilnilclass-in-setup-controller-for-warden-error",
+      "owner": {
+        "display_name": "jpalmieri",
+        "link": "https://stackoverflow.com/users/3376769/jpalmieri"
+      }
+    },
+    {
+      "question_id": 11845500,
+      "title": "Rails, Devise authentication, CSRF issue",
+      "accepted_answer_id": 12624072,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/11845500/rails-devise-authentication-csrf-issue",
+      "owner": {
+        "display_name": "vrepsys",
+        "link": "https://stackoverflow.com/users/1027996/vrepsys"
+      }
+    },
+    {
+      "question_id": 4097932,
+      "title": "Devise/Rails - How to remove a particular flash message? (Signed in Successfully)",
+      "accepted_answer_id": 4098154,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/4097932/devise-rails-how-to-remove-a-particular-flash-message-signed-in-successfully",
+      "owner": {
+        "display_name": "benoitr",
+        "link": "https://stackoverflow.com/users/348386/benoitr"
+      }
+    },
+    {
+      "question_id": 2708417,
+      "title": "Creating an admin user in Devise on Rails beta 3",
+      "accepted_answer_id": 2752839,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/2708417/creating-an-admin-user-in-devise-on-rails-beta-3",
+      "owner": {
+        "display_name": "erskingardner",
+        "link": "https://stackoverflow.com/users/298410/erskingardner"
+      }
+    },
+    {
+      "question_id": 39773890,
+      "title": "How to Remove/Disable Sign Up From Devise",
+      "accepted_answer_id": 39780131,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/39773890/how-to-remove-disable-sign-up-from-devise",
+      "owner": {
+        "display_name": "M.T Davis",
+        "link": "https://stackoverflow.com/users/4739356/m-t-davis"
+      }
+    },
+    {
+      "question_id": 18626544,
+      "title": "Devise &quot;Confirmation token is invalid&quot; when user signs up",
+      "accepted_answer_id": 18675155,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/18626544/devise-confirmation-token-is-invalid-when-user-signs-up",
+      "owner": {
+        "display_name": "David Elner",
+        "link": "https://stackoverflow.com/users/2217557/david-elner"
+      }
+    },
+    {
+      "question_id": 7638920,
+      "title": "Rails: Devise: redirect after sign in by role",
+      "accepted_answer_id": 7638969,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/7638920/rails-devise-redirect-after-sign-in-by-role",
+      "owner": {
+        "display_name": "rsl",
+        "link": "https://stackoverflow.com/users/964881/rsl"
+      }
+    },
+    {
+      "question_id": 7614798,
+      "title": "Devise API authentication",
+      "accepted_answer_id": 7615230,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/7614798/devise-api-authentication",
+      "owner": {
+        "display_name": "Xiaotian Guo",
+        "link": "https://stackoverflow.com/users/744414/xiaotian-guo"
+      }
+    },
+    {
+      "question_id": 5894191,
+      "title": "Rails Devise: Set password reset token and redirect user",
+      "accepted_answer_id": 5970856,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/5894191/rails-devise-set-password-reset-token-and-redirect-user",
+      "owner": {
+        "display_name": "patrickdavey",
+        "link": "https://stackoverflow.com/users/435817/patrickdavey"
+      }
+    },
+    {
+      "question_id": 5504130,
+      "title": "&quot;Who&#39;s Online&quot; using Devise in Rails",
+      "accepted_answer_id": 5504188,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/5504130/whos-online-using-devise-in-rails",
+      "owner": {
+        "display_name": "Zabba",
+        "link": "https://stackoverflow.com/users/382818/zabba"
+      }
+    },
+    {
+      "question_id": 5034846,
+      "title": "Devise Remember Me and Sessions",
+      "accepted_answer_id": 5034877,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/5034846/devise-remember-me-and-sessions",
+      "owner": {
+        "display_name": "Arthur Frankel",
+        "link": "https://stackoverflow.com/users/209869/arthur-frankel"
+      }
+    },
+    {
+      "question_id": 3827011,
+      "title": "Devise Custom Routes and Login Pages",
+      "accepted_answer_id": 3845245,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/3827011/devise-custom-routes-and-login-pages",
+      "owner": {
+        "display_name": "Karthik Kastury",
+        "link": "https://stackoverflow.com/users/359015/karthik-kastury"
+      }
+    },
+    {
+      "question_id": 41910712,
+      "title": "Helper Devise: could not find the `Warden::Proxy` instance on request environment",
+      "accepted_answer_id": 41917750,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/41910712/helper-devise-could-not-find-the-wardenproxy-instance-on-request-environmen",
+      "owner": {
+        "display_name": "nico_lrx",
+        "link": "https://stackoverflow.com/users/4207278/nico-lrx"
+      }
+    },
+    {
+      "question_id": 6833161,
+      "title": "Ruby: how to uninstall Devise?",
+      "accepted_answer_id": 9323535,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/6833161/ruby-how-to-uninstall-devise",
+      "owner": {
+        "display_name": "krn",
+        "link": "https://stackoverflow.com/users/434461/krn"
+      }
+    },
+    {
+      "question_id": 6567863,
+      "title": "No route matches [GET] &quot;/users/sign_out&quot;",
+      "accepted_answer_id": 6701555,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/6567863/no-route-matches-get-users-sign-out",
+      "owner": {
+        "display_name": "Joe",
+        "link": "https://stackoverflow.com/users/8062313/joe"
+      }
+    },
+    {
+      "question_id": 5008662,
+      "title": "How do I configure devise to use a custom email layout?",
+      "accepted_answer_id": 5036711,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/5008662/how-do-i-configure-devise-to-use-a-custom-email-layout",
+      "owner": {
+        "display_name": "holden",
+        "link": "https://stackoverflow.com/users/116522/holden"
+      }
+    },
+    {
+      "question_id": 4136121,
+      "title": "Rails 3 Authentication: Authlogic vs Devise",
+      "accepted_answer_id": 4136675,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/4136121/rails-3-authentication-authlogic-vs-devise",
+      "owner": {
+        "display_name": "amaseuk",
+        "link": "https://stackoverflow.com/users/415009/amaseuk"
+      }
+    },
+    {
+      "question_id": 15864554,
+      "title": "Check if user is active before allowing user to sign in with devise (rails)",
+      "accepted_answer_id": 15866448,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/15864554/check-if-user-is-active-before-allowing-user-to-sign-in-with-devise-rails",
+      "owner": {
+        "display_name": "user2012677",
+        "link": "https://stackoverflow.com/users/2012677/user2012677"
+      }
+    },
+    {
+      "question_id": 18661663,
+      "title": "Upgrading to devise 3.1 =&gt; getting Reset password token is invalid",
+      "accepted_answer_id": 18675198,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/18661663/upgrading-to-devise-3-1-getting-reset-password-token-is-invalid",
+      "owner": {
+        "display_name": "Andreas Lyngstad",
+        "link": "https://stackoverflow.com/users/440032/andreas-lyngstad"
+      }
+    },
+    {
+      "question_id": 11910176,
+      "title": "How to make Devise lockable with number of failed attempts",
+      "accepted_answer_id": 12173131,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/11910176/how-to-make-devise-lockable-with-number-of-failed-attempts",
+      "owner": {
+        "display_name": "David Nix",
+        "link": "https://stackoverflow.com/users/455265/david-nix"
+      }
+    },
+    {
+      "question_id": 11904105,
+      "title": "Devise and Strong Parameters",
+      "accepted_answer_id": 11999563,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/11904105/devise-and-strong-parameters",
+      "owner": {
+        "display_name": "Rodrigo Zurek",
+        "link": "https://stackoverflow.com/users/1550398/rodrigo-zurek"
+      }
+    },
+    {
+      "question_id": 4627703,
+      "title": "Using Devise tokens to log in, is this built in?",
+      "accepted_answer_id": 4670812,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/4627703/using-devise-tokens-to-log-in-is-this-built-in",
+      "owner": {
+        "display_name": "J.R.",
+        "link": "https://stackoverflow.com/users/99502/j-r"
+      }
+    },
+    {
+      "question_id": 4500932,
+      "title": "Devise within namespace",
+      "accepted_answer_id": 4502272,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/4500932/devise-within-namespace",
+      "owner": {
+        "display_name": "Harm de Wit",
+        "link": "https://stackoverflow.com/users/521259/harm-de-wit"
+      }
+    },
+    {
+      "question_id": 23859653,
+      "title": "Rails, Devise, Rspec: Undefined method &#39;sign_in&#39;",
+      "accepted_answer_id": 24131455,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/23859653/rails-devise-rspec-undefined-method-sign-in",
+      "owner": {
+        "display_name": "steel",
+        "link": "https://stackoverflow.com/users/2317928/steel"
+      }
+    },
+    {
+      "question_id": 23716397,
+      "title": "Rails 4.1 Mailer Previews and Devise custom emails",
+      "accepted_answer_id": 23904890,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/23716397/rails-4-1-mailer-previews-and-devise-custom-emails",
+      "owner": {
+        "display_name": "rodrigoalvesvieira",
+        "link": "https://stackoverflow.com/users/413570/rodrigoalvesvieira"
+      }
+    },
+    {
+      "question_id": 16981071,
+      "title": "How do I run a migration again, without deleting all the newer migrations?",
+      "accepted_answer_id": 16981172,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/16981071/how-do-i-run-a-migration-again-without-deleting-all-the-newer-migrations",
+      "owner": {
+        "display_name": "Kush",
+        "link": "https://stackoverflow.com/users/1486438/kush"
+      }
+    },
+    {
+      "question_id": 8015758,
+      "title": "Devise: manually encrypt password and store directly",
+      "accepted_answer_id": 8017452,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/8015758/devise-manually-encrypt-password-and-store-directly",
+      "owner": {
+        "display_name": "jmccartie",
+        "link": "https://stackoverflow.com/users/24708/jmccartie"
+      }
+    },
+    {
+      "question_id": 4901708,
+      "title": "Token Authenticatable module in Devise",
+      "accepted_answer_id": 4901801,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/4901708/token-authenticatable-module-in-devise",
+      "owner": {
+        "display_name": "Marius Butuc",
+        "link": "https://stackoverflow.com/users/341929/marius-butuc"
+      }
+    },
+    {
+      "question_id": 3840072,
+      "title": "Migrating from Authlogic to Devise",
+      "accepted_answer_id": 3846567,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/3840072/migrating-from-authlogic-to-devise",
+      "owner": {
+        "display_name": "Erik",
+        "link": "https://stackoverflow.com/users/423337/erik"
+      }
+    },
+    {
+      "question_id": 36302866,
+      "title": "How do I make a before_action to run on all controllers and actions except one?",
+      "accepted_answer_id": 36302983,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/36302866/how-do-i-make-a-before-action-to-run-on-all-controllers-and-actions-except-one",
+      "owner": {
+        "display_name": "Anand",
+        "link": "https://stackoverflow.com/users/456735/anand"
+      }
+    },
+    {
+      "question_id": 6011764,
+      "title": "Specify which controllers to exclude from before_filter",
+      "accepted_answer_id": 6011829,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/6011764/specify-which-controllers-to-exclude-from-before-filter",
+      "owner": {
+        "display_name": "chaz hamilton",
+        "link": "https://stackoverflow.com/users/579164/chaz-hamilton"
+      }
+    },
+    {
+      "question_id": 3681827,
+      "title": "How to auto-generate passwords in Rails Devise?",
+      "accepted_answer_id": 7231614,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/3681827/how-to-auto-generate-passwords-in-rails-devise",
+      "owner": {
+        "display_name": "ohho",
+        "link": "https://stackoverflow.com/users/88597/ohho"
+      }
+    },
+    {
+      "question_id": 21783016,
+      "title": "How does rails/devise handle cookie sessions?",
+      "accepted_answer_id": 21787205,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/21783016/how-does-rails-devise-handle-cookie-sessions",
+      "owner": {
+        "display_name": "aherve",
+        "link": "https://stackoverflow.com/users/1103340/aherve"
+      }
+    },
+    {
+      "question_id": 18931952,
+      "title": "Devise token_authenticatable deprecated, what is the alternative?",
+      "accepted_answer_id": 18933419,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/18931952/devise-token-authenticatable-deprecated-what-is-the-alternative",
+      "owner": {
+        "display_name": "harinsa",
+        "link": "https://stackoverflow.com/users/2224930/harinsa"
+      }
+    },
+    {
+      "question_id": 12418584,
+      "title": "Seeding users with Devise in Ruby on Rails",
+      "accepted_answer_id": 12418629,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/12418584/seeding-users-with-devise-in-ruby-on-rails",
+      "owner": {
+        "display_name": "at.",
+        "link": "https://stackoverflow.com/users/326389/at"
+      }
+    },
+    {
+      "question_id": 9631432,
+      "title": "rails:3 Devise signup Filter chain halted as :require_no_authentication rendered or redirected",
+      "accepted_answer_id": 9651742,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/9631432/rails3-devise-signup-filter-chain-halted-as-require-no-authentication-rendered",
+      "owner": {
+        "display_name": "urjit on rails",
+        "link": "https://stackoverflow.com/users/1061581/urjit-on-rails"
+      }
+    },
+    {
+      "question_id": 5865555,
+      "title": "How to do integration testing with RSpec and Devise/CanCan?",
+      "accepted_answer_id": 9061972,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/5865555/how-to-do-integration-testing-with-rspec-and-devise-cancan",
+      "owner": {
+        "display_name": "psugar",
+        "link": "https://stackoverflow.com/users/345848/psugar"
+      }
+    },
+    {
+      "question_id": 5629480,
+      "title": "Rails + Devise - Is there a way to BAN a user so they can&#39;t login or reset their password?",
+      "accepted_answer_id": 5630074,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/5629480/rails-devise-is-there-a-way-to-ban-a-user-so-they-cant-login-or-reset-their",
+      "owner": {
+        "display_name": "AnApprentice",
+        "link": "https://stackoverflow.com/users/149080/anapprentice"
+      }
+    },
+    {
+      "question_id": 4635986,
+      "title": "Rails - Devise - Error messages when signing in?",
+      "accepted_answer_id": 8318843,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/4635986/rails-devise-error-messages-when-signing-in",
+      "owner": {
+        "display_name": "Frexuz",
+        "link": "https://stackoverflow.com/users/451945/frexuz"
+      }
+    },
+    {
+      "question_id": 3263291,
+      "title": "How can I simply verify that a username and password are correct with Devise and Rails 3",
+      "accepted_answer_id": 6245020,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/3263291/how-can-i-simply-verify-that-a-username-and-password-are-correct-with-devise-and",
+      "owner": {
+        "display_name": "Adam Singer",
+        "link": "https://stackoverflow.com/users/332883/adam-singer"
+      }
+    },
+    {
+      "question_id": 8485002,
+      "title": "Difference between save(false) and save(:validate =&gt; false)",
+      "accepted_answer_id": 8485258,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/8485002/difference-between-savefalse-and-savevalidate-false",
+      "owner": {
+        "display_name": "Steve",
+        "link": "https://stackoverflow.com/users/1039143/steve"
+      }
+    },
+    {
+      "question_id": 7299618,
+      "title": "Multiple user models with Ruby On Rails and devise to have separate registration routes but one common login route",
+      "accepted_answer_id": 7312205,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/7299618/multiple-user-models-with-ruby-on-rails-and-devise-to-have-separate-registration",
+      "owner": {
+        "display_name": "Vapire",
+        "link": "https://stackoverflow.com/users/927573/vapire"
+      }
+    },
+    {
+      "question_id": 6543863,
+      "title": "Devise Not Validating Password/Password Confirmation",
+      "accepted_answer_id": 6635005,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/6543863/devise-not-validating-password-password-confirmation",
+      "owner": {
+        "display_name": "Kyle Decot",
+        "link": "https://stackoverflow.com/users/435471/kyle-decot"
+      }
+    },
+    {
+      "question_id": 4558463,
+      "title": "Rails Devise: after_confirmation",
+      "accepted_answer_id": 4558910,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/4558463/rails-devise-after-confirmation",
+      "owner": {
+        "display_name": "donald",
+        "link": "https://stackoverflow.com/users/435951/donald"
+      }
+    },
+    {
+      "question_id": 32185562,
+      "title": "Devise: Create users without password",
+      "accepted_answer_id": 32186236,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/32185562/devise-create-users-without-password",
+      "owner": {
+        "display_name": "Qqwy",
+        "link": "https://stackoverflow.com/users/1067339/qqwy"
+      }
+    },
+    {
+      "question_id": 6363471,
+      "title": "&quot;Could not find a valid mapping for #&lt;User ...&gt;&quot; only on second and successive tests",
+      "accepted_answer_id": 7412056,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/6363471/could-not-find-a-valid-mapping-for-user-only-on-second-and-successive-t",
+      "owner": {
+        "display_name": "Chris Bloom",
+        "link": "https://stackoverflow.com/users/83743/chris-bloom"
+      }
+    },
+    {
+      "question_id": 4307743,
+      "title": "Profile model for Devise users?",
+      "accepted_answer_id": 4317557,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/4307743/profile-model-for-devise-users",
+      "owner": {
+        "display_name": "trnc",
+        "link": "https://stackoverflow.com/users/193643/trnc"
+      }
+    },
+    {
+      "question_id": 3791096,
+      "title": "Devise logged in root route rails 3",
+      "accepted_answer_id": 4386531,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/3791096/devise-logged-in-root-route-rails-3",
+      "owner": {
+        "display_name": "Oluf Nielsen",
+        "link": "https://stackoverflow.com/users/382224/oluf-nielsen"
+      }
+    },
+    {
+      "question_id": 10061373,
+      "title": "Rails before_filter for specific actions in controller",
+      "accepted_answer_id": 10061444,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/10061373/rails-before-filter-for-specific-actions-in-controller",
+      "owner": {
+        "display_name": "Mau Ruiz",
+        "link": "https://stackoverflow.com/users/992653/mau-ruiz"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 13587139,
+      "body": "<p>To disable password confirmation <strong>you can simply remove the <code>password_confirmation</code> field from the registration form.</strong> This disables the need to confirm the password entirely!</p>\n<ol>\n<li>Generate devise views if you haven't: <code>rails g devise:views</code></li>\n<li>Remove the <code>password_confirmation</code> section in <code>app\\views\\devise\\registrations\\new.html.erb</code></li>\n</ol>\n<hr />\n<p>The reason why this works lies in <code>lib/devise/models/validatable.rb</code> in the Devise source:</p>\n<pre><code>module Devise\n  module Models\n    module Validatable\n \n\n      def self.included(base)\n\n        base.class_eval do\n          #....SNIP...\n          validates_confirmation_of :password, :if =&gt; :password_required?\n        end\n      end\n      \n      #...SNIP...\n      \n      def password_required?\n        !persisted? || !password.nil? || !password_confirmation.nil?\n      end\n    end\n  end\nend\n</code></pre>\n<p>Note that the validation is only triggered if <code>password_required?</code> returns <code>true</code>, and <code>password_required?</code> will return <code>false</code> if the <code>password_confirmation</code> field is <code>nil</code>.</p>\n<p>Because where the <code>password_confirmation</code> field is present in the form, it will always be included in the parameters hash , as an empty string if it is left blank, the validation is triggered. However, if you remove the input from the form, the <code>password_confirmation</code> in the params will be <code>nil</code>, and therefore the validation will not be triggered.</p>\n",
+      "owner": {
+        "display_name": "mistertim",
+        "link": "https://stackoverflow.com/users/413744/mistertim"
+      }
+    },
+    {
+      "answer_id": 19793371,
+      "body": "<h1>Deprecated Answer</h1>\n<p>This answer is not correct for the latest version of Rails or Devise.</p>\n<p>Once again, it was a matter of reading the manual ...</p>\n<p>The magic word is <code>:account_update</code> and thus the working version becomes</p>\n<pre><code>def configure_permitted_parameters\n  devise_parameter_sanitizer.for(:sign_up) { |u| u.permit(:email, :password, :password_confirmation, :firstname, :middlename, :lastname, :nickname) }\n  devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:email, :password, :password_confirmation, :current_password, :firstname, :middlename, :lastname, :nickname) }\nend\n</code></pre>\n<p>Note that if you're in the business of signing in using non-standard parameters, the word you're looking for is <code>:sign_in</code> (as expected).</p>\n",
+      "owner": {
+        "display_name": "conciliator",
+        "link": "https://stackoverflow.com/users/182048/conciliator"
+      }
+    },
+    {
+      "answer_id": 70482989,
+      "body": "<p>As suggested <a href=\"https://github.com/heartcombo/devise/issues/5439#issuecomment-997927041\" rel=\"noreferrer\">here</a>, the following will suffice:</p>\n<pre><code>&lt;%= link_to &quot;Sign Out&quot;, destroy_user_session_path, data: { &quot;turbo-method&quot;: :delete } %&gt;\n</code></pre>\n<p>I have tested this in my project and it seems to work fine. Thanks also to <a href=\"https://stackoverflow.com/users/2612135/alexts\">@alexts</a>, you basically figured this out too, however the comment on GitHub even eliminated the double-request.</p>\n",
+      "owner": {
+        "display_name": "Nils",
+        "link": "https://stackoverflow.com/users/6167884/nils"
+      }
+    },
+    {
+      "answer_id": 8306527,
+      "body": "<p>Modern devise allows simpler syntax, no need to set the confirmation field</p>\n<pre><code>user.password = new_password; user.save\n# or\nuser.update(password: new_password)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sergio Tulentsev",
+        "link": "https://stackoverflow.com/users/125816/sergio-tulentsev"
+      }
+    },
+    {
+      "answer_id": 10403338,
+      "body": "<p>As it turns outs 'domain: all' creates a cookie for all the different subdomains that are visited during that session (and it ensures that they are passed around between request). If no domain argument is passed, it means that a new cookie is created for every different domain that is visited in the same session and the old one gets discarded. What I needed was a single cookie that is persistent throughout the session, even when the domain changes. Hence, passing <code>domain: \"lvh.me\"</code> solved the problem in development. This creates a single cookie that stays there between different subdomains.</p>\n\n<p>For anyone needing further explanation, this is a great link: \n<a href=\"http://excid3.com/blog/sharing-a-devise-user-session-across-subdomains-with-rails-3/\" rel=\"noreferrer\">http://excid3.com/blog/sharing-a-devise-user-session-across-subdomains-with-rails-3/</a></p>\n",
+      "owner": {
+        "display_name": "Wahaj Ali",
+        "link": "https://stackoverflow.com/users/949953/wahaj-ali"
+      }
+    },
+    {
+      "answer_id": 32186236,
+      "body": "<p>There are at least two ways to do what you want:</p>\n\n<p><strong>Method 1:</strong> </p>\n\n<p>Overload Devise's <code>password_required?</code> method</p>\n\n<pre><code>class User &lt; ActiveRecord::Base\n  attr_accessor :skip_password_validation  # virtual attribute to skip password validation while saving\n\n  protected\n\n  def password_required?\n    return false if skip_password_validation\n    super\n  end\nend\n</code></pre>\n\n<p>Usage:</p>\n\n<pre><code>@user.skip_password_validation = true\n@user.save\n</code></pre>\n\n<p><strong>Method 2:</strong> </p>\n\n<p>Disable validation with <code>validate: false</code> option:</p>\n\n<pre><code>user.save(validate: false)\n</code></pre>\n\n<p>This will skip validation of all fields (not only password). In this case you should make sure that all other fields are valid.</p>\n\n<p><strong>...</strong></p>\n\n<p>But I advise you to not create users without password in your particular case. I would create some additional table (for example, <code>invitations</code>) and store all required information including the fields that you want to be assigned to a user after confirmation.</p>\n",
+      "owner": {
+        "display_name": "chumakoff",
+        "link": "https://stackoverflow.com/users/2477691/chumakoff"
+      }
+    },
+    {
+      "answer_id": 4317557,
+      "body": "<p>Assuming you have a User model with a <code>has_one</code> Profile association, you simply need to allow nested attributes in User and modify your devise registration view.</p>\n\n<p>Run the <code>rails generate devise:views</code> command, then modify the devise <code>registrations#new.html.erb</code> view as shown below using the <code>fields_for</code> form helper to have your sign up form update your Profile model along with your User model.</p>\n\n<pre><code>&lt;div class=\"register\"&gt;\n  &lt;h1&gt;Sign up&lt;/h1&gt;\n\n  &lt;% resource.build_profile %&gt;\n  &lt;%= form_for(resource, :as =&gt; resource_name,\n                         :url =&gt; registration_path(resource_name)) do |f| %&gt;\n    &lt;%= devise_error_messages! %&gt;\n\n    &lt;h2&gt;&lt;%= f.label :email %&gt;&lt;/h2&gt;\n    &lt;p&gt;&lt;%= f.text_field :email %&gt;&lt;/p&gt;\n\n    &lt;h2&gt;&lt;%= f.label :password %&gt;&lt;/h2&gt;\n    &lt;p&gt;&lt;%= f.password_field :password %&gt;&lt;/p&gt;\n\n    &lt;h2&gt;&lt;%= f.label :password_confirmation %&gt;&lt;/h2&gt;\n    &lt;p&gt;&lt;%= f.password_field :password_confirmation %&gt;&lt;/p&gt;\n\n    &lt;%= f.fields_for :profile do |profile_form| %&gt;\n      &lt;h2&gt;&lt;%= profile_form.label :first_name %&gt;&lt;/h2&gt;\n      &lt;p&gt;&lt;%= profile_form.text_field :first_name %&gt;&lt;/p&gt;\n\n      &lt;h2&gt;&lt;%= profile_form.label :last_name %&gt;&lt;/h2&gt;\n      &lt;p&gt;&lt;%= profile_form.text_field :last_name %&gt;&lt;/p&gt;\n    &lt;% end %&gt;\n\n    &lt;p&gt;&lt;%= f.submit \"Sign up\" %&gt;&lt;/p&gt;\n\n    &lt;br/&gt;\n    &lt;%= render :partial =&gt; \"devise/shared/links\" %&gt;\n  &lt;% end %&gt;\n&lt;/div&gt;\n</code></pre>\n\n<p>And in your User model:\n</p>\n\n<pre><code>class User &lt; ActiveRecord::Base\n  ...\n  attr_accessible :email, :password, :password_confirmation, :remember_me, :profile_attributes\n  has_one :profile\n  accepts_nested_attributes_for :profile\n  ...\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "mbreining",
+        "link": "https://stackoverflow.com/users/338982/mbreining"
+      }
+    },
+    {
+      "answer_id": 4558910,
+      "body": "<p><strong>For new versions of devise 3.x :</strong></p>\n\n<p>See a different answer <a href=\"http://stackoverflow.com/a/20630036/2832282\">http://stackoverflow.com/a/20630036/2832282</a></p>\n\n<p><strong>For old versions of devise 2.x :</strong> </p>\n\n<p><strong>(Original answer)</strong></p>\n\n<p>but you should be able to put a before_save callback on the user (extra credit for using an observer) and check if confirmed_at was just set by devise. You can do something like:</p>\n\n<pre><code>  send_the_email if self.confirmed_at_changed?\n</code></pre>\n\n<p><a href=\"http://api.rubyonrails.org/classes/ActiveModel/Dirty.html\" rel=\"nofollow noreferrer\">http://api.rubyonrails.org/classes/ActiveModel/Dirty.html</a> for more details on checking the change on the field.</p>\n",
+      "owner": {
+        "display_name": "njorden",
+        "link": "https://stackoverflow.com/users/483482/njorden"
+      }
+    },
+    {
+      "answer_id": 4281430,
+      "body": "<p>I think you'll need to manage the Devise views yourself. Try the following in a console:</p>\n\n<pre><code>rails generate devise:views\n</code></pre>\n\n<p>This will generate all the views Devise uses (including mailer templates), which you can now customize.</p>\n\n<p>The mailers you're looking for should then be in 'app/views/devise/mailer'</p>\n\n<p>If you want to generate scoped views, or only a subset of them that is also possible. Per the documentation at <a href=\"https://github.com/plataformatec/devise#configuring-views\" rel=\"noreferrer\">https://github.com/plataformatec/devise#configuring-views</a>:</p>\n\n<p>You can also use the generator to generate scoped views:</p>\n\n<pre><code>rails generate devise:views users\n</code></pre>\n\n<p>If you would like to generate only a few sets of views, like the ones for the registerable and confirmable module, you can pass a list of modules to the generator with the -v flag.</p>\n\n<pre><code>rails generate devise:views -v registrations confirmations\n</code></pre>\n",
+      "owner": {
+        "display_name": "David Sulc",
+        "link": "https://stackoverflow.com/users/492513/david-sulc"
+      }
+    },
+    {
+      "answer_id": 13837899,
+      "body": "<p>Alternatively, you can create your own sessions controller</p>\n\n<pre class=\"lang-rb prettyprint-override\"><code>class SessionsController &lt; Devise::SessionsController\n  def new\n    super\n  end\n\n  def create\n    self.resource = warden.authenticate!(auth_options)\n    set_flash_message(:notice, :signed_in) if is_navigational_format?\n    sign_in(resource_name, resource)\n    if !session[:return_to].blank?\n      redirect_to session[:return_to]\n      session[:return_to] = nil\n    else\n      respond_with resource, :location =&gt; after_sign_in_path_for(resource)\n    end\n  end\nend\n</code></pre>\n\n<p>And in <code>routes.rb</code> add:</p>\n\n<pre class=\"lang-rb prettyprint-override\"><code>devise_for :users, controllers: {sessions: \"sessions\"}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Pykih",
+        "link": "https://stackoverflow.com/users/956287/pykih"
+      }
+    },
+    {
+      "answer_id": 18695244,
+      "body": "<p><code>token_authenticatable</code> is vulnerable to timing attacks, which are very well explained in <a href=\"http://codahale.com/a-lesson-in-timing-attacks/\" rel=\"noreferrer\">this blog post</a>. These attacks were the reason <code>token_authenticatable</code> was removed from Devise 3.1. See the <a href=\"http://blog.plataformatec.com.br/2013/08/devise-3-1-now-with-more-secure-defaults/\" rel=\"noreferrer\">plataformatec blog post</a> for more info.</p>\n\n<p>To have the most secure token authentication mechanism, the token:</p>\n\n<ol>\n<li><p>Must be sent via HTTPS.</p></li>\n<li><p>Must be random, of cryptographic strength.</p></li>\n<li><p>Must be securely compared.</p></li>\n<li><p>Must not be stored directly in the database. Only a hash of the token can be stored there. (Remember, token = password. We don't store passwords in plain text in the db, right?)</p></li>\n<li><p>Should expire according to some logic.</p></li>\n</ol>\n\n<p>If you forego some of these points in favour of usability you'll end up with a mechanism that is not as secure as it could be. It's as simple as that. You should be safe enough if you satisfy the first three requirements and restrict access to your database though.</p>\n\n<p>Expanding and explaining my answer:</p>\n\n<ol>\n<li><p><strong>Use HTTPS</strong>. This is definitely the most important point because it deals with sniffers.</p>\n\n<p>If you don't use HTTPS, then a lot can go wrong. For example:</p>\n\n<ul>\n<li><p>To securely transmit the user's credentials (username/email/password), you would have to use digest authentication but <a href=\"http://devblog.avdi.org/2013/02/04/the-trouble-with-http-digest-authentication/\" rel=\"noreferrer\">that just doesn't cut it these days since salted hashes can be brute forced</a>.</p></li>\n<li><p>In Rails 3, cookies are only shrouded by Base64 encoding, so they can be fairly easily revealed. See <a href=\"http://www.andylindeman.com/2013/02/18/decoding-rails-session-cookies.html\" rel=\"noreferrer\">Decoding Rails Session Cookies</a> for more info. </p>\n\n<p>Since Rails 4 though, the cookie store is encrypted so data is both digitally verified and unreadable to an attacker. Cookies should be secure as long as your <code>secret_key_base</code> is not leaked.</p></li>\n</ul></li>\n<li><p>Generate your token with:</p>\n\n<ul>\n<li><a href=\"http://www.ruby-doc.org/stdlib-2.1.2/libdoc/securerandom/rdoc/SecureRandom.html\" rel=\"noreferrer\"><code>SecureRandom.hex</code></a> only if you are on Ruby 2.5+.</li>\n<li>The gem <a href=\"https://github.com/cryptosphere/sysrandom\" rel=\"noreferrer\"><code>sysrandom</code></a> if you are on an older Ruby.</li>\n</ul>\n\n<p>For an explanation on why this is necessary, I suggest reading the <a href=\"https://github.com/cryptosphere/sysrandom\" rel=\"noreferrer\"><code>sysrandom</code></a>'s README and the blog post <a href=\"https://paragonie.com/blog/2016/05/how-generate-secure-random-numbers-in-various-programming-languages#ruby-csprng\" rel=\"noreferrer\">How to Generate Secure Random Numbers in Various Programming Languages</a>.</p></li>\n<li><p>Find the user record using the user's ID, email or some other attribute. Then, compare that user's token with the request's token with <a href=\"https://github.com/plataformatec/devise/blob/8e4a700f81c8bfc3d46951e34f5ff3c18138c89e/lib/devise.rb#L481-L488\" rel=\"noreferrer\"><code>Devise.secure_compare(user.auth_token, params[:auth_token]</code></a>.\nIf you are on Rails 4.2.1+ you can also use <a href=\"http://api.rubyonrails.org/classes/ActiveSupport/SecurityUtils.html#method-c-secure_compare\" rel=\"noreferrer\"><code>ActiveSupport::SecurityUtils.secure_compare</code></a>.</p>\n\n<p>Do <strong>not</strong> find the user record with a Rails finder like <code>User.find_by(auth_token: params[:auth_token])</code>. This is vulnerable to timing attacks!</p></li>\n<li><p>If you are going to have several applications/sessions at the same time per user, then you have two options:</p>\n\n<ul>\n<li><p>Store the unencrypted token in the database so it can be shared among devices. This is a bad practice, but I guess you can do it in the name of UX (and if you trust your employees with DB access).</p></li>\n<li><p>Store as many encrypted tokens per user as you want to allow current sessions. So if you want to allow 2 sessions on 2 different devices, keep 2 distinct token hashes in the database. This option is a little less straightforward to implement but it's definitely safer. It also has the upside of allowing you to provide your users the option to end current active sessions in specific devices by revoking their tokens (just like <a href=\"https://github.com/blog/1658-view-active-browser-sessions\" rel=\"noreferrer\">GitHub</a> and Facebook do).</p></li>\n</ul></li>\n<li><p>There should be some kind of mechanism that causes the token to expire. When implementing this mechanism take into account the trade-off between UX and security.</p>\n\n<p><a href=\"https://developers.google.com/identity/protocols/OAuth2#expiration\" rel=\"noreferrer\">Google expires a token if it has not been used for six months</a>.</p>\n\n<p><a href=\"https://developers.facebook.com/docs/facebook-login/access-tokens/expiration-and-extension\" rel=\"noreferrer\">Facebook expires a token if it has not been used for two months</a>:</p>\n\n<blockquote>\n  <p>Native mobile apps using Facebook's SDKs will get long-lived access\n  tokens, good for about 60 days. These tokens will be refreshed once\n  per day when the person using your app makes a request to Facebook's\n  servers. If no requests are made, the token will expire after about 60\n  days and the person will have to go through the login flow again to\n  get a new token.</p>\n</blockquote></li>\n<li><p>Upgrade to Rails 4 to use its encrypted cookie store. If you can't, then encrypt the cookie store yourself, like suggested <a href=\"https://stackoverflow.com/questions/4147387/how-to-secure-a-rails-app-against-firesheep\">here</a>. There would absolutely be no problem in storing an authentication token in an encrypted cookie store.</p></li>\n</ol>\n\n<p>You should also have a contingency plan, for example, a rake task to reset a subset of tokens or every single token in the database.</p>\n\n<p>To get you started, you could check out <a href=\"https://gist.github.com/josevalim/fb706b1e933ef01e4fb6\" rel=\"noreferrer\">this gist</a> (by one of the authors of Devise) on how to implement token authentication with Devise. Finally, <a href=\"http://railscasts.com/episodes/352-securing-an-api\" rel=\"noreferrer\">the Railscast on securing an API</a> should be helpful.</p>\n",
+      "owner": {
+        "display_name": "Ashitaka",
+        "link": "https://stackoverflow.com/users/1160916/ashitaka"
+      }
+    },
+    {
+      "answer_id": 18087072,
+      "body": "<p>I ran <code>bundle update</code> this morning and started getting the same error.</p>\n\n<p>I added it as a line in <code>config/initializers/devise.rb</code> and the error was fixed. </p>\n\n<p>This seems to be the <a href=\"https://github.com/plataformatec/devise/commit/d56641f514f54da04f778b2a9b816561df7910c2\" rel=\"noreferrer\">commit</a> which introduced it.</p>\n",
+      "owner": {
+        "display_name": "Brian Weiner",
+        "link": "https://stackoverflow.com/users/635893/brian-weiner"
+      }
+    },
+    {
+      "answer_id": 8360920,
+      "body": "<p>Yes you can do that, when <a href=\"https://github.com/activeadmin/activeadmin/blob/master/docs/0-installation.md\" rel=\"noreferrer\">running the generator</a> skip the user model creation:</p>\n\n<pre><code>rails generate active_admin:install --skip-users\n</code></pre>\n\n<p>Then in your <code>config/initializers/active_admin.rb</code> :</p>\n\n<pre><code># == User Authentication\n#\n# Active Admin will automatically call an authentication\n# method in a before filter of all controller actions to\n# ensure that there is a currently logged in admin user.\n#\n# This setting changes the method which Active Admin calls\n# within the controller.\nconfig.authentication_method = :authenticate_admin!\n</code></pre>\n\n<p>uncomment <code>config.authentication_method</code> and provide your authentication method for your admin, for example:</p>\n\n<pre><code># app/controllers/application_controller.rb\ndef authenticate_admin!\n redirect_to new_user_session_path unless current_user.is_admin?\nend\n</code></pre>\n\n<p>Restart your server and It should be working. Also Take a look to <a href=\"https://github.com/activeadmin/activeadmin/blob/master/docs/1-general-configuration.md\" rel=\"noreferrer\">Active Admin Configuration</a></p>\n\n<p>Hope this helps.</p>\n",
+      "owner": {
+        "display_name": "JCorcuera",
+        "link": "https://stackoverflow.com/users/382520/jcorcuera"
+      }
+    },
+    {
+      "answer_id": 41917750,
+      "body": "<p>Based on this SO <a href=\"https://stackoverflow.com/a/38422513/1299362\">answer</a> you need to include the <code>Devise::Test::ControllerHelpers</code> module in your controller specs. Add the following to your rails_helper:</p>\n\n<pre><code>RSpec.configure do |config|\n  config.include Devise::Test::ControllerHelpers, type: :controller\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "Obromios",
+        "link": "https://stackoverflow.com/users/1299362/obromios"
+      }
+    },
+    {
+      "answer_id": 16981172,
+      "body": "<p>If you are developing locally and it wouldn't hurt to remove all data from your models you could simply <code>drop</code> your db and then <code>create</code> &amp; <code>migrate</code> from scratch:</p>\n\n<p><a href=\"https://stackoverflow.com/questions/4116067/purge-or-recreate-a-ruby-on-rails-database\">Purge or recreate a Ruby on Rails database</a></p>\n",
+      "owner": {
+        "display_name": "davegson",
+        "link": "https://stackoverflow.com/users/2235594/davegson"
+      }
+    },
+    {
+      "answer_id": 39780131,
+      "body": "<p><strong>Solution to removing sign_up path from Devise</strong></p>\n\n<p>Enter the following at the beginning of <code>routes.rb</code></p>\n\n<pre><code>Rails.application.routes.draw do\n  devise_scope :user do\n    get \"/sign_in\" =&gt; \"devise/sessions#new\" # custom path to login/sign_in\n    get \"/sign_up\" =&gt; \"devise/registrations#new\", as: \"new_user_registration\" # custom path to sign_up/registration\n  end\n</code></pre>\n\n<p>...After the statement above, add the following below in <code>routes.rb</code></p>\n\n<pre><code>devise_for :users, :skip =&gt; [:registrations] \n  as :user do\n  get 'users/edit' =&gt; 'devise/registrations#edit', :as =&gt; 'edit_user_registration'\n  put 'users' =&gt; 'devise/registrations#update', :as =&gt; 'user_registration'\n  end\n</code></pre>\n\n<p>This will remove/disable the <code>user/sign_up</code> path for Devise without breaking <code>edit_user_registration_path</code> </p>\n\n<p>Restart your rails server and it should work.</p>\n",
+      "owner": {
+        "display_name": "M.T Davis",
+        "link": "https://stackoverflow.com/users/4739356/m-t-davis"
+      }
+    },
+    {
+      "answer_id": 6011829,
+      "body": "<p>You can qualify a filter with <code>:only</code> or <code>:except</code>.</p>\n\n<pre><code>before_filter :filter_name, :except =&gt; [:action1, :action2]\n</code></pre>\n\n<p>Or if the filter (as I now see is the case in your situation) is defined in <code>ApplicationController</code> and you want to bypass it in a subclass controller, you can use a <code>skip_before_filter</code> with the same qualifications in the subclass controller:</p>\n\n<pre><code>skip_before_filter :filter_name, :except =&gt; [:action1, :action2]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Don Roby",
+        "link": "https://stackoverflow.com/users/220834/don-roby"
+      }
+    },
+    {
+      "answer_id": 11999563,
+      "body": "<p>Update for devise 4.x</p>\n\n<pre><code>class ApplicationController &lt; ActionController::Base\n  before_filter :configure_permitted_parameters, if: :devise_controller?\n\n  protected\n\n  def configure_permitted_parameters\n    devise_parameter_sanitizer.permit(:sign_up, keys: [:username])\n    devise_parameter_sanitizer.permit(:sign_in, keys: [:username])\n    devise_parameter_sanitizer.permit(:account_update, keys: [:username])\n  end\nend\n</code></pre>\n\n<hr>\n\n<p>After adding both gems, devise will work as normal.</p>\n\n<p>Update: With the latest version of Devise 3.x, as described at <a href=\"https://github.com/plataformatec/devise#strong-parameters\" rel=\"noreferrer\">devise#strong-parameters</a>, the authentication key (normally the email field), and the password fields are already permitted. However, if there are any additional fields on the signup form, you will need to let Devise know the extra fields to permit. The easiest way to do this is with a filter:</p>\n\n<pre><code>class ApplicationController &lt; ActionController::Base\n  before_filter :configure_permitted_parameters, if: :devise_controller?\n\n  protected\n\n  def configure_permitted_parameters\n    devise_parameter_sanitizer.for(:sign_up) &lt;&lt; :username\n  end\nend\n</code></pre>\n\n<p>For Devise 2.x, if you use the safety feature requiring explicitly whitelisting tainted parameters in the user model:</p>\n\n<pre><code>include ActiveModel::ForbiddenAttributesProtection\n</code></pre>\n\n<p>the changes needed are found at <a href=\"https://gist.github.com/3350730\" rel=\"noreferrer\">https://gist.github.com/3350730</a> which overrides some of the controllers.</p>\n",
+      "owner": {
+        "display_name": "ronalchn",
+        "link": "https://stackoverflow.com/users/1578925/ronalchn"
+      }
+    },
+    {
+      "answer_id": 38422513,
+      "body": "<p>You could add the following to your <code>rails_helper</code>:</p>\n\n<pre><code>RSpec.configure do |config|\n  config.include Devise::Test::ControllerHelpers, type: :controller\nend\n</code></pre>\n\n<p>This will include <code>Devise::Test::ControllerHelpers</code> module in all <code>:controller</code> specs.</p>\n",
+      "owner": {
+        "display_name": "lest",
+        "link": "https://stackoverflow.com/users/256556/lest"
+      }
+    },
+    {
+      "answer_id": 37342259,
+      "body": "<p><a href=\"https://github.com/plataformatec/devise#strong-parameters\"><code>According to the documentation:</code></a></p>\n\n<blockquote>\n  <p>The Parameter Sanitaizer API has changed for Devise 4</p>\n</blockquote>\n\n<pre><code>class ApplicationController &lt; ActionController::Base\n  before_action :configure_permitted_parameters, if: :devise_controller?\n\n  protected\n\n  def configure_permitted_parameters\n    devise_parameter_sanitizer.permit(:sign_up, keys: [:username])\n  end\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "Roman Kiselenko",
+        "link": "https://stackoverflow.com/users/2057388/roman-kiselenko"
+      }
+    },
+    {
+      "answer_id": 36302983,
+      "body": "<p>What you have to do is to set autheticate_user! on all controllers like that : </p>\n\n<pre><code>class ApplicationController &lt; ActionController::Base\n  before_action :authenticate_user!\n  ...\nend\n</code></pre>\n\n<p>And then on your HomeController you do that :</p>\n\n<pre><code>class HomeController &lt; ApplicationController\n  skip_before_action :authenticate_user!, only: [:index]\n  ...\nend\n</code></pre>\n\n<p>Hope this will help you !</p>\n",
+      "owner": {
+        "display_name": "I&#39;m_ADR",
+        "link": "https://stackoverflow.com/users/4547547/im-adr"
+      }
+    },
+    {
+      "answer_id": 7465664,
+      "body": "<p>The confirm callback happens after create, so it's happening on line 1 of your example, before you set <code>confirmed_at</code> manually.</p>\n\n<p>As per the comments, the most correct thing to do would be to use the method provided for this purpose, <a href=\"https://github.com/plataformatec/devise/blob/master/lib/devise/models/confirmable.rb#L156\" rel=\"noreferrer\"><code>#skip_confirmation!</code></a>.  Setting <code>confirmed_at</code> manually will work, but it circumvents the provided API, which is something which should be avoided when possible.</p>\n\n<p>So, something like:</p>\n\n<pre><code>user = User.new(user_attrs)\nuser.skip_confirmation!\nuser.save!\n</code></pre>\n\n<hr>\n\n<p>Original answer:</p>\n\n<p>If you pass the <code>confirmed_at</code> along with your <code>create</code> arguments, the mail should not be sent, as the test of whether or not an account is already \"confirmed\" is to look at whether or not that date is set.</p>\n\n<pre><code>User.create(\n  :email =&gt; data['email'], \n  :password =&gt; Devise.friendly_token[0,20], \n  :confirmed_at =&gt; DateTime.now\n)\n</code></pre>\n\n<p>That, or just use <code>new</code> instead of <code>create</code> to build your user record.</p>\n",
+      "owner": {
+        "display_name": "numbers1311407",
+        "link": "https://stackoverflow.com/users/178150/numbers1311407"
+      }
+    },
+    {
+      "answer_id": 6557627,
+      "body": "<p>I think the route for signing out is a <code>DELETE</code> method.  This means that your sign out link needs to look like this:</p>\n\n<pre><code>&lt;%= link_to \"Sign out\", destroy_user_session_path, :method =&gt; :delete %&gt;\n</code></pre>\n\n<p>Yours doesn't include the <code>:method =&gt; :delete</code> part.  Also, please note that for this to work you must also include <code>&lt;%= javascript_include_tag :defaults %&gt;</code> in your layout file (<code>application.html.erb</code>).</p>\n",
+      "owner": {
+        "display_name": "Jessie Dedecker",
+        "link": "https://stackoverflow.com/users/490300/jessie-dedecker"
+      }
+    },
+    {
+      "answer_id": 5970856,
+      "body": "<p>A simple way to have just one step for users to confirm email address and set initial password using the link you proposed...  </p>\n\n<p>Send one email your app generates, including a reset_password_token, and consider user's possession of that token confirmation of the validity of that email address.</p>\n\n<p>In system account generation code, assuming User model is set up with :recoverable and :database_authenticatable Devise modules...  </p>\n\n<pre class=\"lang-rb prettyprint-override\"><code>acct = User.new\nacct.password = User.reset_password_token #won't actually be used...  \nacct.reset_password_token = User.reset_password_token \nacct.email = \"user@usercompany.com\" #assuming users will identify themselves with this field\n#set other acct fields you may need\nacct.save\n</code></pre>\n\n<p>Make the devise reset password view a little clearer for users when setting initial password.  </p>\n\n<h2>views/devise/passwords/edit.html.erb</h2>\n\n<pre><code>...\n&lt;%= \"true\" == params[:initial] ? \"Set your password\" : \"Reset your password\" %&gt;\n...  \n</code></pre>\n\n<h2>Generated Email</h2>\n\n<pre class=\"lang-html prettyprint-override\"><code>Hi &lt;%= @user.name %&gt;\nAn account has been generated for you.\nPlease visit www.oursite.com/users/password/edit?initial=true&amp;reset_password_token=&lt;%= @user.reset_password_token %&gt; to set your password.\n</code></pre>\n\n<p>No need to include :confirmable Devise module in your User model, since accounts created by your app won't get accessed without the reset_password_token in the email. </p>\n\n<p>Devise will handle the submit and clear the reset_password_token field.</p>\n\n<p>See <code>devise_gem_folder/lib/devise/models/recoverable.rb</code> and <code>database_authenticatable.rb</code> for details on <code>reset_password_token</code> method and friends.</p>\n\n<p>If you want to use Devise <code>:confirmable</code> module rather than this approach,  see the <a href=\"https://github.com/plataformatec/devise/wiki/How-To:-Override-confirmations-so-users-can-pick-their-own-passwords-as-part-of-confirmation-activation\" rel=\"noreferrer\">Devise wiki page</a>.</p>\n",
+      "owner": {
+        "display_name": "Anatortoise House",
+        "link": "https://stackoverflow.com/users/721328/anatortoise-house"
+      }
+    },
+    {
+      "answer_id": 6647210,
+      "body": "<p>Your route <code>signup</code> or <code>devise/registrations#new</code> will render the view\n<code>views/devise/registrations/new.html.erb</code>.  It sounds like you made\nchanges to <code>views/user/registrations/new.html.erb</code>, which would explain\nwhy you dont see the changes made since its not being rendered.</p>\n\n<p>You will either need to create a <code>user/registrations_controller.rb</code> that\nextends from <code>Devise::RegistrationsController</code> and point your <code>/signup</code>\nroute to <code>user/registrations#new</code>, or you can just make your changes\ndirectly to <code>views/devise/registrations/new.html.erb</code></p>\n\n<p>Same idea applies to your login (<code>devise/sessions</code>) pages.</p>\n\n<p>Hope this helps.</p>\n",
+      "owner": {
+        "display_name": "Kevin Tsoi",
+        "link": "https://stackoverflow.com/users/608838/kevin-tsoi"
+      }
+    },
+    {
+      "answer_id": 27285315,
+      "body": "<p>Apparently there are issues with <code>Devise::TestHelpers</code> and integration testing, so perhaps that's the problem here.</p>\n\n<p><a href=\"https://github.com/plataformatec/devise\">https://github.com/plataformatec/devise</a> (mentioned in README, Issues, etc.; also see related SO questions):</p>\n\n<blockquote>\n  <p>These helpers are not going to work for integration tests driven by Capybara or Webrat. They are meant to be used with functional tests only. Instead, fill in the form or explicitly set the user in session;</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "TK-421",
+        "link": "https://stackoverflow.com/users/254936/tk-421"
+      }
+    },
+    {
+      "answer_id": 10049965,
+      "body": "<p><strong>EDIT</strong>:</p>\n\n<p>In Rails 4 I now use what @genkilabs suggests in the comment below:</p>\n\n<p><code>protect_from_forgery with: :null_session, if: Proc.new { |c| c.request.format == 'application/json' }</code></p>\n\n<p>Which, instead of completely turning off the built in security, kills off any session that might exist when something hits the server without the CSRF token.</p>\n\n<hr>\n\n<p><code>skip_before_filter :verify_authenticity_token, :if =&gt; Proc.new { |c| c.request.format == 'application/json' }</code></p>\n\n<p>This would turn off the CSRF check for json posts/puts that have properly been marked as such.  </p>\n\n<p>For example, in iOS setting the following to your NSURLRequest where \"parameters\" are your parameters:</p>\n\n<hr>\n\n<pre><code>[request setHTTPMethod:@\"POST\"];\n\n[request setValue:@\"application/json\" \n       forHTTPHeaderField:@\"content-type\"];\n\n[request setValue:@\"application/json\" \n       forHTTPHeaderField:@\"accept\"];\n\n[request setHTTPBody:[NSData dataWithBytes:[parameters UTF8String] \n                                            length:[parameters length]]];\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ryan Crews",
+        "link": "https://stackoverflow.com/users/686871/ryan-crews"
+      }
+    },
+    {
+      "answer_id": 7231614,
+      "body": "<p>Use the <a href=\"https://github.com/plataformatec/devise/blob/18b6064d74726147eccd69b24812000074261bbb/lib/devise.rb#L468\" rel=\"noreferrer\"><code>Devise.friendly_token</code></a> method:</p>\n\n<pre><code>password_length = 6\npassword = Devise.friendly_token.first(password_length)\nUser.create!(:email =&gt; 'someone@something.com', :password =&gt; password, :password_confirmation =&gt; password)\n</code></pre>\n\n<p>FYI: <code>Devise.friendly_token</code> returns a 20 character token. In the example above, we're chopping off the first <code>password_length</code> characters of the generated token by using the <a href=\"http://api.rubyonrails.org/classes/String.html#method-i-first\" rel=\"noreferrer\"><code>String#first</code></a> method that Rails provides.</p>\n",
+      "owner": {
+        "display_name": "jeanmartin",
+        "link": "https://stackoverflow.com/users/2439520/jeanmartin"
+      }
+    },
+    {
+      "answer_id": 7615230,
+      "body": "<p>There is a devise configuration called <code>:token_authenticatable</code>. So if you add that to the devise method in your \"user\", then you can authenticate in your API just by calling</p>\n\n<pre><code>\"/api/v1/recipes?qs=sweet&amp;auth_token=[@user.auth_token]\"\n</code></pre>\n\n<p>You'll probably want this in your user as well:</p>\n\n<pre><code>before_save :ensure_authentication_token\n</code></pre>\n\n<p><strong>UPDATE</strong> (with API authorization code)</p>\n\n<p>The method you're looking for are:</p>\n\n<pre><code>resource = User.find_for_database_authentication(:login=&gt;params[:user_login][:login])\nresource.valid_password?(params[:user_login][:password])\n</code></pre>\n\n<p>here's my <a href=\"https://gist.github.com/1255275\" rel=\"noreferrer\">gist with a full scale JSON/API login with devise</a></p>\n",
+      "owner": {
+        "display_name": "Jesse Wolgamott",
+        "link": "https://stackoverflow.com/users/363881/jesse-wolgamott"
+      }
+    },
+    {
+      "answer_id": 3001990,
+      "body": "<p>I have found a solution for the problem. I'm not quite satisfied with it (I'd rather have a way to specify this in the initializer), but it works for now. In the user model I added the following method:</p>\n\n<pre><code>def self.find_for_database_authentication(conditions={})\n  find_by(username: conditions[:email]) || find_by(email: conditions[:email])\nend\n</code></pre>\n\n<p>As @sguha and @Chetan have pointed out, <a href=\"https://github.com/plataformatec/devise/wiki/How-To:-Allow-users-to-sign-in-using-their-username-or-email-address\" rel=\"noreferrer\">another great resource is available on the official devise wiki</a>.</p>\n",
+      "owner": {
+        "display_name": "Patrick Oscity",
+        "link": "https://stackoverflow.com/users/192702/patrick-oscity"
+      }
+    },
+    {
+      "answer_id": 7087112,
+      "body": "<p>You should generate a <code>users_controller</code> which inherits from <code>application_controller</code> and define there your custom <code>show</code> method. Don't forget to create a view and routes for it.\nEx:</p>\n\n<pre><code>#users_controller.rb\ndef show\n  @user = User.find(params[:id])\nend\n\n#in your view\n&lt;%= @user.name %&gt;\n\n#routes.rb\nmatch 'users/:id' =&gt; 'users#show', via: :get\n# or \nget 'users/:id' =&gt; 'users#show'\n# or\nresources :users, only: [:show]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sergey K",
+        "link": "https://stackoverflow.com/users/532252/sergey-k"
+      }
+    },
+    {
+      "answer_id": 6701555,
+      "body": "<p>I had a similar problem, but addition of the :method=> :delete didn't work.\nI was able to add a new route for a the get request by commenting out the devise_for :users and adding</p>\n\n<pre><code>devise_for :users do\n  get '/users/sign_out' =&gt; 'devise/sessions#destroy'\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "cramhead",
+        "link": "https://stackoverflow.com/users/542695/cramhead"
+      }
+    },
+    {
+      "answer_id": 7069053,
+      "body": "<p>You can't do it.</p>\n\n<ul>\n<li>You can control IP addresses of user, so you can prevent presence of user from two IP at a time. ANd you can bind login and IP. You can try to check cities and other geolocation data through IP to block user.</li>\n<li>You can set cookies to control something else.</li>\n</ul>\n\n<p>But none of this will guarantee that only one user uses this login, and that those 105 IP from all over the world doesn't belong to only one unique user, which uses Proxy or whatever.</p>\n\n<p>And the last: you never need this in the Internet.</p>\n\n<p><strong>UPD</strong></p>\n\n<blockquote>\n  <p>However, what I'm asking is about limiting multiple users from using the same account simultaneously which I feel should be possible</p>\n</blockquote>\n\n<p>So you can store some token, that will contain some encrypted data: IP + secret string + user agent + user browser version + user OS + any other personal info: <code>encrypt(IP + \"some secret string\" + request.user_agent + ...)</code>. And then you can set a session or cookie with that token. And with each request you can fetch it: if user is the same? Is he using the same browser and the same browser version from the same OS etc.</p>\n\n<p>Also you can use dynamic tokens: you change token each request, so only one user could use system per session, because each request token will be changed, another user will be logged out as far as his token will be expired.</p>\n",
+      "owner": {
+        "display_name": "fl00r",
+        "link": "https://stackoverflow.com/users/298624/fl00r"
+      }
+    },
+    {
+      "answer_id": 4316995,
+      "body": "<p>You can add false to the save method to skip the validations if you want.</p>\n\n<pre><code>User.new({:email =&gt; \"guy@gmail.com\", :roles =&gt; [\"admin\"], :password =&gt; \"111111\", :password_confirmation =&gt; \"111111\" }).save(false)\n</code></pre>\n\n<p>Otherwise I'd do this</p>\n\n<pre><code>User.create!({:email =&gt; \"guy@gmail.com\", :roles =&gt; [\"admin\"], :password =&gt; \"111111\", :password_confirmation =&gt; \"111111\" })\n</code></pre>\n\n<p>If you have <code>confirmable</code> module enabled for devise, make sure you are setting the <code>confirmed_at</code> value to something like <code>Time.now</code> while creating.</p>\n",
+      "owner": {
+        "display_name": "jspooner",
+        "link": "https://stackoverflow.com/users/68751/jspooner"
+      }
+    },
+    {
+      "answer_id": 16389077,
+      "body": "<p>Thanks for the latest updates on Rails4 branch of Devise, it doesn't really need to insert 'resource_params'. </p>\n\n<p>I've created a brand new Rails4 app and followed basic Devise installation steps and my app works properly, so I think, you've done well.</p>\n\n<p>But there is a modified gist which gives you some extra details in terms of permitted parameters if you need:</p>\n\n<p>Source: <a href=\"https://gist.github.com/bluemont/e304e65e7e15d77d3cb9\" rel=\"noreferrer\">https://gist.github.com/bluemont/e304e65e7e15d77d3cb9</a></p>\n\n<pre><code># controllers/users/registrations_controller.rb\nclass Users::RegistrationsController &lt; Devise::RegistrationsController\n\n  before_filter :configure_permitted_parameters\n\n  protected\n\n  # my custom fields are :name, :heard_how\n  def configure_permitted_parameters\n    devise_parameter_sanitizer.for(:sign_up) do |u|\n      u.permit(:name, :heard_how,\n        :email, :password, :password_confirmation)\n    end\n    devise_parameter_sanitizer.for(:account_update) do |u|\n      u.permit(:name,\n        :email, :password, :password_confirmation, :current_password)\n    end\n  end\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "Zoltan",
+        "link": "https://stackoverflow.com/users/1348601/zoltan"
+      }
+    },
+    {
+      "answer_id": 24148983,
+      "body": "<p>Add <code>devise</code> to your application <code>Gemfile</code> and install it by running <code>bundle install</code>. After this, you should run the following generator command:</p>\n\n<pre><code>rails generate devise:install\n</code></pre>\n\n<p>This generator will install an initializer <code>your_application/config/initializers/devise.rb</code>  which consists of all the Devise's configuration options. </p>\n\n<p>You missed the above mentioned step which is why the devise configurations are not set and you receive <code>undefined method 'devise' for User</code> error in your model class <code>User</code>.</p>\n",
+      "owner": {
+        "display_name": "Kirti Thorat",
+        "link": "https://stackoverflow.com/users/1012097/kirti-thorat"
+      }
+    },
+    {
+      "answer_id": 24131455,
+      "body": "<p>Did you recently upgrade to RSpec 3 like I did? This is from <a href=\"https://www.relishapp.com/rspec/rspec-rails/v/3-0/docs/directory-structure\" rel=\"noreferrer\">the RSpec 3 documentation</a>:</p>\n\n<blockquote>\n  <p>Automatically Adding Metadata\n  RSpec versions before 3.0.0 automatically added metadata to specs based on\n  their location on the filesystem. This was both confusing to new users and not\n  desirable for some veteran users.</p>\n  \n  <p>In RSpec 3, this behavior must be explicitly enabled:</p>\n\n<pre><code>​# spec/rails_helper.rb\nRSpec.configure do |config|\n    config.infer_spec_type_from_file_location!\nend\n</code></pre>\n  \n  <p>Since this assumed behavior is so prevalent in tutorials, the default\n  configuration generated by rails generate rspec:install enables this.</p>\n  \n  <p>If you follow the above listed canonical directory structure and have\n  configured infer_spec_type_from_file_location!, RSpec will automatically\n  include the correct support functions for each type.</p>\n</blockquote>\n\n<p>After I add that configuration snippet, I no longer have to specify the spec type (e.g. <code>type: :controller</code>).</p>\n",
+      "owner": {
+        "display_name": "Tyler Collier",
+        "link": "https://stackoverflow.com/users/135101/tyler-collier"
+      }
+    },
+    {
+      "answer_id": 23904890,
+      "body": "<p>I found this question because I was trying to figure out how to preview Devise emails myself. I copied your code almost exactly and it works fine for me.</p>\n\n<p>The only thing I did differently was to remove the line <code>layout \"notifications_mailer\"</code> from <code>UserMailer</code> - when I included it I got an error message <code>Missing template layouts/notifications_mailer</code>. What happens if you remove it?</p>\n\n<p>The line <code>Devise::Controllers::UrlHelpers</code> definitely includes the method <code>confirmation_url</code> (you can see this for yourself by opening up the Rails console and running <code>include Devise::Controllers::UrlHelpers</code> then <code>confirmation_url</code>, so I suspect the problem is that your previews aren't being rendered by <code>UserMailer</code> at all. I'm not sure why, but the line <code>layout \"notifications_mailer\"</code> might be the culprit.</p>\n\n<p>Do you have a class called <code>NotificationsMailer</code>? Does including <code>Devise::Controllers::UrlHelpers</code> in there solve your problem?</p>\n",
+      "owner": {
+        "display_name": "GMA",
+        "link": "https://stackoverflow.com/users/1603071/gma"
+      }
+    },
+    {
+      "answer_id": 9540175,
+      "body": "<p>I found a way to go and I'm quite happy with it so far. I'll describe it here for others.</p>\n\n<p>I went with the single \"user\" class. My problem was to achieve a customized registration process for each pseudo model.</p>\n\n<p><strong>model/user.rb:</strong></p>\n\n<pre><code>class User &lt; ActiveRecord::Base\n  devise :confirmable,\n       :database_authenticatable,\n       :lockable,\n       :recoverable,\n       :registerable,\n       :rememberable,\n       :timeoutable,\n       :trackable,\n       :validatable\n\n  # Setup accessible (or protected) attributes for your model\n  attr_accessible :email, :password, :password_confirmation, :remember_me, :role\n\n  as_enum :role, [:administrator, :client, :member]\n  validates_as_enum :role\n  ## Rails 4+ for the above two lines\n  # enum role: [:administrator, :client, :member]\n\nend\n</code></pre>\n\n<p>Then I adapted <a href=\"http://railscasts.com/episodes/217-multistep-forms\" rel=\"noreferrer\">http://railscasts.com/episodes/217-multistep-forms</a> and <a href=\"http://pastie.org/1084054\" rel=\"noreferrer\">http://pastie.org/1084054</a> to have two registration paths with an overridden controller:</p>\n\n<p><strong>config/routes.rb:</strong></p>\n\n<pre><code>get  'users/sign_up'   =&gt; 'users/registrations#new',        :as =&gt; 'new_user_registration'\n\nget  'clients/sign_up' =&gt; 'users/registrations#new_client', :as =&gt; 'new_client_registration'\npost 'clients/sign_up' =&gt; 'users/registrations#create',     :as =&gt; 'client_registration'\n\nget  'members/sign_up' =&gt; 'users/registrations#new_member', :as =&gt; 'new_member_registration'\npost 'members/sign_up' =&gt; 'users/registrations#create',     :as =&gt; 'member_registration'\n</code></pre>\n\n<p><strong>controllers/users/registrations_controller.rb:</strong></p>\n\n<p>I created a wizard class which knows the fields to validate at each step</p>\n\n<pre><code>class Users::RegistrationsController &lt; Devise::RegistrationsController\n\n    # GET /resource/sign_up\n    def new\n        session[:user] ||= { }\n        @user = build_resource(session[:user])\n        @wizard = ClientRegistrationWizard.new(current_step)\n\n        respond_with @user\n    end\n\n    # GET /clients/sign_up\n    def new_client\n        session[:user] ||= { }\n        session[:user]['role'] = :client\n        @user = build_resource(session[:user])\n        @wizard = ClientRegistrationWizard.new(current_step)\n\n        render 'new_client'\n    end\n\n    # GET /members/sign_up\n    def new_member\n      # same\n    end\n\n    # POST /clients/sign_up\n    # POST /members/sign_up\n    def create\n        session[:user].deep_merge!(params[:user]) if params[:user]\n        @user = build_resource(session[:user])\n        @wizard = ClientRegistrationWizard.new(current_step)\n\n        if params[:previous_button]\n            @wizard.previous\n        elsif @user.valid?(@wizard)\n            if @wizard.last_step?\n                @user.save if @user.valid?\n            else\n                @wizard.next\n            end\n        end\n\n        session[:registration_current_step] = @wizard.current_step\n\n        if @user.new_record?\n            clean_up_passwords @user\n            render 'new_client'\n        else\n            #session[:registration_current_step] = nil\n            session[:user_params] = nil\n\n            if @user.active_for_authentication?\n                set_flash_message :notice, :signed_up if is_navigational_format?\n                sign_in(:user, @user)\n                respond_with @user, :location =&gt; after_sign_up_path_for(@user)\n            else\n                set_flash_message :notice, :\"signed_up_but_#{@user.inactive_message}\" if is_navigational_format?\n                expire_session_data_after_sign_in!\n                respond_with @user, :location =&gt; after_inactive_sign_up_path_for(@user)\n            end\n        end\n\n    end\n\n    private\n\n    def current_step\n        if params[:wizard] &amp;&amp; params[:wizard][:current_step]\n            return params[:wizard][:current_step]\n        end\n        return session[:registration_current_step]\n    end\n\nend\n</code></pre>\n\n<p>and my views are:</p>\n\n<ul>\n<li><code>new.rb</code></li>\n<li><code>new_client.rb</code> including a partial according to the wizard step:\n\n<ul>\n<li><code>_new_client_1.rb</code></li>\n<li><code>_new_client_2.rb</code></li>\n</ul></li>\n<li><code>new_member.rb</code> including a partial according to the wizard step:\n\n<ul>\n<li><code>_new_member_1.rb</code></li>\n<li><code>_new_member_2.rb</code></li>\n</ul></li>\n</ul>\n",
+      "owner": {
+        "display_name": "ddidier",
+        "link": "https://stackoverflow.com/users/1064669/ddidier"
+      }
+    },
+    {
+      "answer_id": 6004353,
+      "body": "<p>Do it like this:</p>\n\n<p>Create a column called <code>is_active</code> for the <code>User</code> model.</p>\n\n<p>Then add the code below to the <code>User</code> model:</p>\n\n<pre><code>class User &lt; ActiveRecord::Base\n  #this method is called by devise to check for \"active\" state of the model\n  def active_for_authentication?\n    #remember to call the super\n    #then put our own check to determine \"active\" state using \n    #our own \"is_active\" column\n    super and self.is_active?\n  end\nend\n</code></pre>\n\n<p><em>UPDATE</em></p>\n\n<p>As Matt Huggins notes, the method is now called <code>active_for_authentication?</code> (<a href=\"http://rdoc.info/github/plataformatec/devise/master/Devise/Models/Authenticatable\">Documentation</a>)</p>\n",
+      "owner": {
+        "display_name": "Zabba",
+        "link": "https://stackoverflow.com/users/382818/zabba"
+      }
+    },
+    {
+      "answer_id": 5036711,
+      "body": "<p>Found the answer sitting in the Devise Github wiki,</p>\n\n<p>Reading that helps. ;-)</p>\n\n<pre><code>config.to_prepare do\n  Devise::Mailer.layout \"simple\" # simple.haml or simple.erb\n  Devise::Mailer.helper :mailer\nend\n</code></pre>\n\n<p>Here is the reference of the wiki page: <a href=\"https://github.com/plataformatec/devise/wiki/How-To:-Create-custom-layouts\" rel=\"noreferrer\">How To: Create custom layouts</a></p>\n",
+      "owner": {
+        "display_name": "holden",
+        "link": "https://stackoverflow.com/users/116522/holden"
+      }
+    },
+    {
+      "answer_id": 8291318,
+      "body": "<p>Since others are having the problem I'm having (see my comments).  Here is exactly how I fixed it.  I used murphyslaw's idea.  But you also need to make sure devise uses your new controller for the registration routing, or it won't do much for you.</p>\n\n<p>Here is my controller override:</p>\n\n<pre><code>class RegistrationsController &lt; Devise::RegistrationsController\n  def new\n    flash[:info] = 'Registrations are not open yet, but please check back soon'\n    redirect_to root_path\n  end\n\n  def create\n    flash[:info] = 'Registrations are not open yet, but please check back soon'\n    redirect_to root_path\n  end\nend\n</code></pre>\n\n<p>I've added flash messages to inform anyone who somehow stumbles upon the registration page why it isn't working.</p>\n\n<p>Here is what is in my <code>routes.rb</code></p>\n\n<pre><code>  if Rails.env.production?\n    devise_for :users, :controllers =&gt; { :registrations =&gt; \"registrations\" } \n  else\n    devise_for :users\n  end\n</code></pre>\n\n<p>The controllers hash specifies that I want it to use my overridden registrations controller.</p>\n\n<p>Anyways, I hope that saves someone some time.</p>\n",
+      "owner": {
+        "display_name": "Chris Nicola",
+        "link": "https://stackoverflow.com/users/235243/chris-nicola"
+      }
+    },
+    {
+      "answer_id": 6245020,
+      "body": "<p>Get the user out of the database:</p>\n\n<pre><code>user = User.find_by_email(params[:email])\n</code></pre>\n\n<p>Then you can check their password with:</p>\n\n<pre><code>user.valid_password?(params[:password])\n</code></pre>\n",
+      "owner": {
+        "display_name": "Steven",
+        "link": "https://stackoverflow.com/users/80566/steven"
+      }
+    },
+    {
+      "answer_id": 21787205,
+      "body": "<p>The default rails session storage is CookieStore.  This means that all the session data is stored in a cookie rather than in the database anywhere.  In Rails 3.2 the cookie is signed to prevent tampering, but not encrypted.  In Rails 4 it's generally encrypted by default.  The fact that it's in a cookie is how it persists across restarts of your server.  It also means you can only store 4k of data and you wouldn't want to store anything sensitive in there in Rails &lt; 4.  It's best to keep a minimum of data in the session anyway.</p>\n\n<p>You can also opt for storing the session data in the database and only having a session id in a cookie.</p>\n\n<p>This answer I gave the other week has some extra info that might be useful:</p>\n\n<p><a href=\"https://stackoverflow.com/questions/21491464/sessions-made-sense-to-me-before-i-started-reading-about-them-online/21491657#21491657\">Sessions made sense to me before I started reading about them online</a></p>\n\n<p>Also, the rails api doc for CookieStore gives a nice summary:</p>\n\n<p><a href=\"http://api.rubyonrails.org/classes/ActionDispatch/Session/CookieStore.html\" rel=\"noreferrer\">http://api.rubyonrails.org/classes/ActionDispatch/Session/CookieStore.html</a></p>\n",
+      "owner": {
+        "display_name": "Tim",
+        "link": "https://stackoverflow.com/users/3249680/tim"
+      }
+    },
+    {
+      "answer_id": 5113894,
+      "body": "<p>Is this what you're look for? From the Devise wiki</p>\n<p><a href=\"https://github.com/plataformatec/devise/wiki/How-To:-Allow-users-to-edit-their-account-without-providing-a-password\" rel=\"noreferrer\">Allow users to edit their account without providing a password</a></p>\n<p>It shows how to do it for rails 3 and rails 4</p>\n<p>=======================</p>\n<p><a href=\"https://stackoverflow.com/a/11676957/600953\">John's solution</a> is a simpler alternative</p>\n",
+      "owner": {
+        "display_name": "Dty",
+        "link": "https://stackoverflow.com/users/600953/dty"
+      }
+    },
+    {
+      "answer_id": 10061444,
+      "body": "<p>Create in your <code>ApplicationController</code> method:</p>\n\n<pre class=\"lang-rb prettyprint-override\"><code>def check_privileges!\n  redirect_to \"/\", notice: 'You dont have enough permissions to be here' unless current_admin || current_company\nend\n</code></pre>\n\n<p>And then in your controller:</p>\n\n<pre class=\"lang-rb prettyprint-override\"><code>before_filter :check_privileges!, only: [:new, :create, :edit, :save]\n</code></pre>\n\n<p>Or</p>\n\n<pre class=\"lang-rb prettyprint-override\"><code>before_filter :check_privileges!, except: [:index, :show]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Hauleth",
+        "link": "https://stackoverflow.com/users/1017941/hauleth"
+      }
+    },
+    {
+      "answer_id": 20875842,
+      "body": "<p>Per <a href=\"https://github.com/rails/rails/blob/e20dd73df42d63b206d221e2258cc6dc7b1e6068/railties/lib/rails/generators/rails/app/templates/app/controllers/application_controller.rb.tt\">the comments</a> in the core <code>application_controller.rb</code>, set <code>protect_from_forgery</code> to the following:</p>\n\n<pre><code>protect_from_forgery with: :null_session\n</code></pre>\n\n<p><em>Alternatively</em>, per <a href=\"http://api.rubyonrails.org/classes/ActionController/RequestForgeryProtection/ClassMethods.html\">the docs</a>, simply declaring <code>protect_from_forgery</code> <em>without a <code>:with</code> argument</em> will utilize <code>:null_session</code> by default:</p>\n\n<pre><code>protect_from_forgery # Same as above\n</code></pre>\n\n<p><strong>UPDATE</strong>:</p>\n\n<p>This seems to be a <a href=\"https://github.com/plataformatec/devise/issues/2432\">documented bug</a> in the behavior of Devise. The author of Devise <a href=\"https://github.com/plataformatec/devise/issues/2432#issuecomment-18973236\">suggests disabling <code>protect_from_forgery</code></a> on the particular controller action that's raising this exception:</p>\n\n<pre><code># app/controllers/users/registrations_controller.rb\nclass RegistrationsController &lt; Devise::RegistrationsController\n  skip_before_filter :verify_authenticity_token, :only =&gt; :create\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "zeantsoi",
+        "link": "https://stackoverflow.com/users/1086529/zeantsoi"
+      }
+    },
+    {
+      "answer_id": 20824818,
+      "body": "<p>You don't want to disable CSRF, I have read that people think it doesn't apply to JSON APIs for some reason, but this is a misunderstanding. To keep it enabled, you want to make a few changes:</p>\n\n<ul>\n<li><p>on there server side add a after_filter to your sessions controller:</p>\n\n<pre><code>after_filter :set_csrf_header, only: [:new, :create]\n\nprotected\n\ndef set_csrf_header\n   response.headers['X-CSRF-Token'] = form_authenticity_token\nend\n</code></pre>\n\n<p>This will generate a token, put it in your session and copy it in the response header for selected actions. </p></li>\n<li><p>client side (iOS) you need to make sure two things are in place.</p>\n\n<ul>\n<li><p>your client needs to scan all server responses for this header and retain it when it is passed along.</p>\n\n<pre><code>... get ahold of response object\n// response may be a NSURLResponse object, so convert:\nNSHTTPURLResponse *httpResponse = (NSHTTPURLResponse*)response;\n// grab token if present, make sure you have a config object to store it in\nNSString *token = [[httpResponse allHeaderFields] objectForKey:@\"X-CSRF-Token\"];\nif (token)\n   [yourConfig setCsrfToken:token];\n</code></pre></li>\n<li><p>finally, your client needs to add this token to all 'non GET' requests it sends out:</p>\n\n<pre><code>... get ahold of your request object\nif (yourConfig.csrfToken &amp;&amp; ![request.httpMethod isEqualToString:@\"GET\"])\n  [request setValue:yourConfig.csrfToken forHTTPHeaderField:@\"X-CSRF-Token\"];\n</code></pre></li>\n</ul></li>\n</ul>\n\n<p>Final piece of the puzzle is to understand that when logging in to devise, two subsequent sessions/csrf tokens are being used. A login flow would look like this:</p>\n\n<pre><code>GET /users/sign_in -&gt;\n  // new action is called, initial token is set\n  // now send login form on callback:\n  POST /users/sign_in &lt;username, password&gt; -&gt;\n    // create action called, token is reset\n    // when login is successful, session and token are replaced \n    // and you can send authenticated requests\n</code></pre>\n",
+      "owner": {
+        "display_name": "beno1604",
+        "link": "https://stackoverflow.com/users/295565/beno1604"
+      }
+    },
+    {
+      "answer_id": 8189785,
+      "body": "<p><strong>1.</strong> Make sure you include confirmable in Model.devise call</p>\n\n<pre><code>class User &lt; ActiveRecord::Base\n  devise :database_authenticatable, :confirmable ...\nend\n</code></pre>\n\n<p><strong>2.</strong> Make sure you add confirmable to the user migration</p>\n\n<pre><code>create_table :users do |t|\n  t.database_authenticatable\n  t.confirmable\n  ...\nend\n</code></pre>\n\n<p>If you're using devise 2.0+ this fails because devise no longer provides migration helpers, and so <code>t.confirmable</code> raises an error. Instead, copy the block labeled \"Confirmable\" from <a href=\"https://github.com/plataformatec/devise/wiki/How-To:-Upgrade-to-Devise-2.0-migration-schema-style#after\" rel=\"noreferrer\">their migration guide</a>.</p>\n\n<p><strong>3.</strong> Generate the devise views, with either of the following commands,so you can override the devise mailer views:</p>\n\n<pre><code>rails generate devise:views # global\nrails generate devise:views users # scoped\n</code></pre>\n\n<p>You can now override the mailer views in <code>devise/mailer/confirmation_instructions.html.erb</code> or <code>users/mailer/confirmation_instructions.html.erb</code> depending on your setup</p>\n\n<p><strong>4.</strong> For <strong>development</strong> environment add the following config lines in <code>/config/environments/development.rb</code></p>\n\n<pre><code>config.action_mailer.default_url_options = { :host =&gt; 'localhost:3000' }\nconfig.action_mailer.delivery_method = :smtp\nconfig.action_mailer.smtp_settings = {:address =&gt; \"localhost\", :port =&gt; 1025}\n</code></pre>\n\n<p><strong>5.</strong> For <strong>production</strong> environment in <code>/config/environments/production.rb</code> you may use something similar to the following (supposing you have a SMTP server on localhost:25):</p>\n\n<pre><code>config.action_mailer.default_url_options = {:host =&gt; 'yourdomain.com'}\nconfig.action_mailer.delivery_method = :smtp\nconfig.action_mailer.smtp_settings = {\n  :address =&gt; \"127.0.0.1\",\n  :port    =&gt; 25,\n  :domain  =&gt; 'yourdomain.com'\n}\n</code></pre>\n\n<p><strong>6</strong> To test the setup in development install the mailcatcher gem, that you will use as a SMTP server in development, catching all incoming mails and displaying them on <code>http://localhost:1080/</code>:</p>\n\n<pre><code>gem install mailcatcher\n</code></pre>\n\n<p>Once installed start the mailcatcher server with the command:</p>\n\n<pre><code>mailcatcher\n</code></pre>\n\n<p>A toy SMTP server will be running on port 1025 catching emails and displaing them on HTTP port 1080.</p>\n\n<p><strong>You can now create an account and see the confirmations.</strong></p>\n",
+      "owner": {
+        "display_name": "clyfe",
+        "link": "https://stackoverflow.com/users/283608/clyfe"
+      }
+    },
+    {
+      "answer_id": 3553561,
+      "body": "<p>In your form are you passing in any other attributes, via mass assignment that don't belong to your user model, or any of the nested models?</p>\n\n<p>If so, I believe the ActiveRecord::UnknownAttributeError is triggered in this instance.</p>\n\n<p>Otherwise, I think you can just create your own controller, by generating something like this:</p>\n\n<pre><code># app/controllers/registrations_controller.rb\nclass RegistrationsController &lt; Devise::RegistrationsController\n  def new\n    super\n  end\n\n  def create\n    # add custom create logic here\n  end\n\n  def update\n    super\n  end\nend \n</code></pre>\n\n<p>And then tell devise to use that controller instead of the default with:</p>\n\n<pre><code># app/config/routes.rb\ndevise_for :users, :controllers =&gt; {:registrations =&gt; \"registrations\"}\n</code></pre>\n",
+      "owner": {
+        "display_name": "theTRON",
+        "link": "https://stackoverflow.com/users/427943/thetron"
+      }
+    },
+    {
+      "answer_id": 4867763,
+      "body": "<p>Look in config/initializers/devise.rb. There are a lot of configuration settings including <code>config.timeout_in</code>. The default in my version is 30 minutes. You can also set it on the model itself:</p>\n\n<pre><code>class User &lt; ActiveRecord::Base\n  devise :timeoutable, :timeout_in =&gt; 15.minutes\n</code></pre>\n\n<p>You can now also <a href=\"https://github.com/plataformatec/devise/wiki/How-To:-Add-timeout_in-value-dynamically\" rel=\"noreferrer\">set the timeout dynamically</a>.</p>\n",
+      "owner": {
+        "display_name": "Brian Deterling",
+        "link": "https://stackoverflow.com/users/14619/brian-deterling"
+      }
+    },
+    {
+      "answer_id": 19236370,
+      "body": "<p>Check the code in <code>app/views/devise/mailer/reset_password_instructions.html.erb</code></p>\n\n<p>The link <em>should</em> be generated with:</p>\n\n<p><code>edit_password_url(@resource, :reset_password_token =&gt; @token)</code></p>\n\n<p>If your view still uses this code, that will be the cause of the issue:</p>\n\n<p><code>edit_password_url(@resource, :reset_password_token =&gt; @resource.password_reset_token)</code></p>\n\n<p>Devise started storing hashes of the token, so the email needs to create the link using the real token (<code>@token</code>) rather than the hashed value stored in the database.</p>\n\n<p>This change occurred in Devise in <a href=\"https://github.com/plataformatec/devise/commit/143794d701bcd7b8c900c5bb8a216026c3c68afc\">143794d701</a> </p>\n",
+      "owner": {
+        "display_name": "doctororange",
+        "link": "https://stackoverflow.com/users/104361/doctororange"
+      }
+    },
+    {
+      "answer_id": 18933419,
+      "body": "<p>From their <a href=\"http://blog.plataformatec.com.br/2013/08/devise-3-1-now-with-more-secure-defaults/\">blog</a> : </p>\n\n<blockquote>\n  <p>\"we cannot digest the authentication token provided by TokenAuthenticatable, as they are often part of APIs where the token is used many times. Since the usage of the authenticatable token can vary considerably in between applications, each requiring different safety guarantees, we have decided to remove TokenAuthenticatable from Devise, allowing users to pick the best option.\"</p>\n</blockquote>\n\n<p>It's now up to the developers to choose the best fit depending on their usage of the authentication token.</p>\n\n<p>Checkout this <a href=\"https://gist.github.com/josevalim/fb706b1e933ef01e4fb6\">gist</a>.</p>\n",
+      "owner": {
+        "display_name": "Jef",
+        "link": "https://stackoverflow.com/users/1127531/jef"
+      }
+    },
+    {
+      "answer_id": 18675198,
+      "body": "<p>You commented on <a href=\"https://stackoverflow.com/questions/18626544/devise-confirmation-token-is-invalid-when-user-signs-up/18675155#18675155\">my similar question</a> a bit ago, and I found an answer that might help you as well.</p>\n\n<p>Upgrading to Devise 3.1.0 left some 'cruft' in a view that I hadn't touched in a while. According to <a href=\"http://blog.plataformatec.com.br/2013/08/devise-3-1-now-with-more-secure-defaults/\" rel=\"nofollow noreferrer\">this blog post</a>, you need to change your Devise mailer to use <code>@token</code> instead of the old <code>@resource.confirmation_token</code>.</p>\n\n<p>Find this in <code>app/views/&lt;user&gt;/mailer/reset_password_instructions.html.erb</code> and change it to something like:</p>\n\n<pre><code>&lt;p&gt;Hello &lt;%= @resource.email %&gt;!&lt;/p&gt;\n&lt;p&gt;Someone has requested a link to change your password, and you can do this through the link below.&lt;/p&gt;\n&lt;p&gt;&lt;%= link_to 'Change my password', edit_password_url(@resource, :reset_password_token =&gt; @token) %&gt;&lt;/p&gt;\n&lt;p&gt;If you didn't request this, please ignore this email.&lt;/p&gt;\n&lt;p&gt;Your password won't change until you access the link above and create a new one.&lt;/p&gt;\n</code></pre>\n\n<p>This should fix any token-based confirmation problems you're having. This is likely to fix any unlock or confirmation token problems as well.</p>\n",
+      "owner": {
+        "display_name": "David Elner",
+        "link": "https://stackoverflow.com/users/2217557/david-elner"
+      }
+    },
+    {
+      "answer_id": 18675155,
+      "body": "<p>So upgrading to Devise 3.1.0 left some 'cruft' in a view that I hadn't touched in a while.</p>\n\n<p>According to <a href=\"http://blog.plataformatec.com.br/2013/08/devise-3-1-now-with-more-secure-defaults/\" rel=\"noreferrer\">this blog post</a>, you need to change your Devise mailer to use <code>@token</code> instead of the old <code>@resource.confirmation_token</code>.</p>\n\n<p>Find this in <code>app/views/&lt;user&gt;/mailer/confirmation_instructions.html.erb</code> and change it to something like:</p>\n\n<pre><code>&lt;p&gt;Welcome &lt;%= @resource.email %&gt;!&lt;/p&gt;\n&lt;p&gt;You can confirm your account email through the link below:&lt;/p&gt;\n&lt;p&gt;&lt;%= link_to 'Confirm my account', confirmation_url(@resource, :confirmation_token =&gt; @token) %&gt;&lt;/p&gt;\n</code></pre>\n\n<p>This should fix any token-based confirmation problems you're having. This is likely to fix any unlock or reset password token problems as well.</p>\n",
+      "owner": {
+        "display_name": "David Elner",
+        "link": "https://stackoverflow.com/users/2217557/david-elner"
+      }
+    },
+    {
+      "answer_id": 9323535,
+      "body": "<p>I'm looking at solving the same problem today and since this is not answered, giving it a go =)</p>\n\n<p><strong>Models</strong> </p>\n\n<p>Devise generates a <code>User</code> model if you installed by default. \nRemove the lines under <code>devise</code>. This is how mine looks like.</p>\n\n<pre><code>devise :database_authenticatable, :registerable,\n         :recoverable, :rememberable, :trackable, :validatable\n</code></pre>\n\n<p>In <code>attr_accessible</code>, you may remove <code>email</code>, <code>:password</code>, <code>password_confirmation</code> and <code>remember_me</code> if you no longer need them. </p>\n\n<p><strong>Views</strong></p>\n\n<p>A default Devise install doesn't generate views in your <code>app</code> folder. If you generated overriding views for Devise, you may remove them by running <code>rails destroy devise:views</code> (Rails 3). </p>\n\n<p>Generally, all the views are stored in <code>app/views/devise</code>.</p>\n\n<p><strong>Controllers</strong></p>\n\n<p>By default, Devise doesn't generate any controllers too. If you did any overrides, they are most likely known as <code>registrations_controller</code>. Search your project for controllers that inherit <code>Devise::RegistrationsController</code> class. </p>\n\n<p>Also, if you followed Devise's wiki and monkey-ed around to add redirect methods etc, look out for methods such as <code>after_sign_in_path_for</code>, <code>store_location</code> etc that are for redirecting users. </p>\n\n<p><strong>Migrations</strong></p>\n\n<p>If you installed Devise via its generators, look out for a migration <code>create_users</code>. If you don't need it anymore, use <code>drop_table :users</code> in a migration to get rid of it. </p>\n\n<p>I'll assume most people would want to keep their User model. If you're using Devise &lt; 2.0, the migrations are done by helpers. Once you remove Devise from the <code>Gemfile</code>, Rails will not understand the helpers below and throw errors, for instance, when you're trying to rerun these migrations on another box. These helpers are: </p>\n\n<pre><code>t.database_authenticatable\nt.recoverable  \nt.rememberable\nt.trackable\n\nt.encryptable\nt.confirmable\nt.lockable\nt.token_authenticatable # =&gt; becomes t.string :authentication_token\n</code></pre>\n\n<p>For the exact columns, the below is reference to the columns generated by Devise.</p>\n\n<p><a href=\"https://github.com/plataformatec/devise/wiki/How-To:-Upgrade-to-Devise-2.0-migration-schema-style\" rel=\"noreferrer\">https://github.com/plataformatec/devise/wiki/How-To:-Upgrade-to-Devise-2.0-migration-schema-style</a></p>\n\n<p>The guide above lists the fields generated by Devise using the helpers. You should be able to look through the list and your model (e.g. calling <code>User</code> in console), generate a migration that removes those columns. </p>\n\n<p><strong>BUT...</strong></p>\n\n<p>It's a little unfortunate that for consistency, we have to convert the migration to not use helpers using the guide above then generate a migration to remove them. This is for migration history consistency, otherwise anyone running the migrations might try to call the non-existent helpers. Also, your migration to remove the fields will also expect the fields to be present. </p>\n\n<p>Alternatively, it might be a good time to squash the migrations and rely on <code>schema.rb</code> / <code>structure.sql</code> for the schema's to-date state. Even after deleting migrations, you can always recreate your <strong>development</strong> DB anytime using <code>rake db:schema:load</code>. </p>\n\n<p><strong>Initializers and Locale</strong> </p>\n\n<p>Remove <code>devise.rb</code> in <code>config/initializers</code> and <code>devise.en.yml</code> in <code>config/locales</code>. </p>\n\n<p><strong>Routes</strong></p>\n\n<p>Remove any <code>devise_for</code> lines. These will raise errors after the removal of the gem. </p>\n\n<p><strong>Gem File</strong></p>\n\n<p>Yaay. All dome, remove the line <code>gem 'devise'</code> from your gemfile. </p>\n",
+      "owner": {
+        "display_name": "Damon Aw",
+        "link": "https://stackoverflow.com/users/1082743/damon-aw"
+      }
+    },
+    {
+      "answer_id": 4308872,
+      "body": "<p>This question has been answered on Twitter by @MatthewClosson</p>\n\n<blockquote>\n  <p>@jeffehh You need to create a\n  spec/support/devise.rb file as\n  specified here <a href=\"https://github.com/plataformatec/devise#test-helpers\" rel=\"noreferrer\">https://github.com/plataformatec/devise#test-helpers</a> to\n  include the devise test helpers #ruby</p>\n</blockquote>\n\n<p>Thanks once again.</p>\n",
+      "owner": {
+        "display_name": "Jeffrey W.",
+        "link": "https://stackoverflow.com/users/524354/jeffrey-w"
+      }
+    },
+    {
+      "answer_id": 7612200,
+      "body": "<p>What brian said works perfectly\n<a href=\"http://net.tutsplus.com/tutorials/ruby/create-beautiful-administration-interfaces-with-active-admin/\">http://net.tutsplus.com/tutorials/ruby/create-beautiful-administration-interfaces-with-active-admin/</a></p>\n\n<pre><code>AdminUser.create!(:email =&gt; 'admin@example.com', :password =&gt; 'password', :password_confirmation =&gt; 'password')\n</code></pre>\n",
+      "owner": {
+        "display_name": "Scott",
+        "link": "https://stackoverflow.com/users/680764/scott"
+      }
+    },
+    {
+      "answer_id": 6947032,
+      "body": "<p>The problem lies in the fact that in your logs the signout request is a GET request.</p>\n\n<pre><code>Started GET \"/users/sign_out\"\n</code></pre>\n\n<p>But the signout route is a DELETE</p>\n\n<pre><code>destroy_user_session DELETE /users/sign_out(.:format) \n</code></pre>\n\n<p>The reason why you are getting the exception is that is it getting confused with one of the routes created by <code>resources :users</code> which would be something like</p>\n\n<pre><code>edit_user GET /users/(:id)(.:format) {:action=&gt;\"edit\", :controller=&gt;\"users\"}\n</code></pre>\n\n<p>Basically 'sign_out' is being mistaken as a id.</p>\n\n<p>I'm not sure why the delete link is not going through as a DELETE request. Though changing</p>\n\n<pre><code>config.sign_out_via = :delete\n</code></pre>\n\n<p>to be <code>:get</code> might solve the problem.</p>\n",
+      "owner": {
+        "display_name": "Kyle d&#39;Oliveira",
+        "link": "https://stackoverflow.com/users/402494/kyle-doliveira"
+      }
+    },
+    {
+      "answer_id": 15866448,
+      "body": "<p>Add these two methods to your user model, devise should pick them up automatically - you should NOT need to extend <code>Devise::SessionsController</code></p>\n\n<pre><code>def active_for_authentication?\n  super &amp;&amp; self.your_method_for_checking_active # i.e. super &amp;&amp; self.is_active\nend\n\ndef inactive_message\n  \"Sorry, this account has been deactivated.\"\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "house9",
+        "link": "https://stackoverflow.com/users/317989/house9"
+      }
+    },
+    {
+      "answer_id": 3845245,
+      "body": "<p>With Devise 1.1.3 the following should work</p>\n\n<pre><code>devise_for :user, :path =&gt; '', :path_names =&gt; { :sign_in =&gt; \"login\", :sign_out =&gt; \"logout\", :sign_up =&gt; \"register\" }\n</code></pre>\n\n<p>The routes it creates will not be appended with \"/user/...\" because of the <code>:path</code> parameter being an empty string. The <code>:pathnames</code> hash will take care of naming the routes as you like. Devise will use these routes internally so submitting to /login will work as you wish and not take you to /user/log_in</p>\n\n<p>To add a login form to your front page there's info at the Devise Wiki:\n<a href=\"http://github.com/plataformatec/devise/wiki/How-To:-Display-a-custom-sign_in-form-anywhere-in-your-app\" rel=\"noreferrer\">http://github.com/plataformatec/devise/wiki/How-To:-Display-a-custom-sign_in-form-anywhere-in-your-app</a></p>\n\n<p>Or do something like this:</p>\n\n<pre><code> &lt;%= form_tag new_user_session_path do %&gt;\n  &lt;%= text_field_tag 'user[email]' %&gt;\n  &lt;%= password_field_tag 'user[password]' %&gt;\n &lt;%=  submit_tag 'Login' %&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "doritostains",
+        "link": "https://stackoverflow.com/users/407134/doritostains"
+      }
+    },
+    {
+      "answer_id": 12994856,
+      "body": "<p>To follow on from the people who are asking about the error <code>Could not find devise mapping for path \"/\"</code> there is a workaround. </p>\n\n<p>You'll find that there is a clue in your logs which will probably say:</p>\n\n<pre><code>[Devise] Could not find devise mapping for path \"/\".\nThis may happen for two reasons:\n\n1) You forgot to wrap your route inside the scope block. For example:\n\n  devise_scope :user do\n    match \"/some/route\" =&gt; \"some_devise_controller\"\n  end\n\n2) You are testing a Devise controller bypassing the router.\n   If so, you can explicitly tell Devise which mapping to use:\n\n   @request.env[\"devise.mapping\"] = Devise.mappings[:user]\n</code></pre>\n\n<p>So I retried the approach but instead wrapping it (as @miccet suggets) inside a scope block:</p>\n\n<pre><code>devise_scope :user do\n  root to: \"devise/sessions#new\"\nend\n</code></pre>\n\n<p>This worked fine for me</p>\n",
+      "owner": {
+        "display_name": "Peter Nixey",
+        "link": "https://stackoverflow.com/users/400790/peter-nixey"
+      }
+    },
+    {
+      "answer_id": 12624072,
+      "body": "<p>Jimbo did an awesome job explaining the \"why\" behind the issue you're running into. There are two approaches you can take to resolve the issue:</p>\n\n<ol>\n<li><p>(As recommended by Jimbo) Override Devise::SessionsController to return the new csrf-token:</p>\n\n<pre><code>class SessionsController &lt; Devise::SessionsController\n  def destroy # Assumes only JSON requests\n    signed_out = (Devise.sign_out_all_scopes ? sign_out : sign_out(resource_name))\n    render :json =&gt; {\n        'csrfParam' =&gt; request_forgery_protection_token,\n        'csrfToken' =&gt; form_authenticity_token\n    }\n  end\nend\n</code></pre>\n\n<p>And create a success handler for your sign_out request on the client side (likely needs some tweaks based on your setup, e.g. GET vs DELETE):</p>\n\n<pre><code>signOut: function() {\n  var params = {\n    dataType: \"json\",\n    type: \"GET\",\n    url: this.urlRoot + \"/sign_out.json\"\n  };\n  var self = this;\n  return $.ajax(params).done(function(data) {\n    self.set(\"csrf-token\", data.csrfToken);\n    self.unset(\"user\");\n  });\n}\n</code></pre>\n\n<p>This also assumes you're including the CSRF token automatically with all AJAX requests with something like this:</p>\n\n<pre><code>$(document).ajaxSend(function (e, xhr, options) {\n  xhr.setRequestHeader(\"X-CSRF-Token\", MyApp.session.get(\"csrf-token\"));\n});\n</code></pre></li>\n<li><p>Much more simply, if it is appropriate for your application, you can simply override the <code>Devise::SessionsController</code> and override the token check with <code>skip_before_filter :verify_authenticity_token</code>.</p></li>\n</ol>\n",
+      "owner": {
+        "display_name": "jredburn",
+        "link": "https://stackoverflow.com/users/1615151/jredburn"
+      }
+    },
+    {
+      "answer_id": 12418629,
+      "body": "<p>You have to do like this:</p>\n\n<pre><code>user = User.new\nuser.email = 'test@example.com'\nuser.encrypted_password = '#$taawktljasktlw4aaglj'\nuser.save!\n</code></pre>\n\n<p>Read this guide to understand what mass-assignment is: <a href=\"http://guides.rubyonrails.org/security.html\" rel=\"noreferrer\">http://guides.rubyonrails.org/security.html</a></p>\n\n<p>I am wondering why do have to directly set the encrypted password. You could do this:</p>\n\n<pre><code>user.password = 'valid_password'\nuser.password_confirmation = 'valid_password'\n</code></pre>\n",
+      "owner": {
+        "display_name": "Arun Kumar Arjunan",
+        "link": "https://stackoverflow.com/users/427606/arun-kumar-arjunan"
+      }
+    },
+    {
+      "answer_id": 12173131,
+      "body": "<p>Simply uncomment this strings in devise migration:</p>\n\n<pre><code>  ## Lockable\n  # t.integer  :failed_attempts, :default =&gt; 0 # Only if lock strategy is :failed_attempts\n  # t.string   :unlock_token # Only if unlock strategy is :email or :both\n  # t.datetime :locked_at\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mikhail Grishko",
+        "link": "https://stackoverflow.com/users/679183/mikhail-grishko"
+      }
+    },
+    {
+      "answer_id": 4386531,
+      "body": "<p>Think you may have been looking for this:</p>\n\n<pre><code>authenticated :user do\n  root :to =&gt; \"dashboard#show\"\nend\n\nroot :to =&gt; \"devise/sessions#new\"\n</code></pre>\n\n<p>Note: it's authenticate*d*</p>\n",
+      "owner": {
+        "display_name": "Joe Lalgee",
+        "link": "https://stackoverflow.com/users/534848/joe-lalgee"
+      }
+    },
+    {
+      "answer_id": 4136675,
+      "body": "<p>I've used them both, but not extensively. In my last project, I gave Devise a shot. I ended up using Rails-Warden instead.\n<li> Devise is a full authentication framework built on top of Warden. To customize its looks, you use generators, then edit the resulting views. Its routes, and view logic are hard coded. For example, successful login will always take you to /session/new? This was a dealbreaker or me, I wanted my users to end up on \"welcome/index\". Devise is not as well documented, or intuitive as authlogic.</p>\n\n<p><li> Warden is a middleware framework Devise is based upon. It has plugins for many web authentication schemes (fb, openid, oauth), and it is easy to build a plugin for your own authentication back end. It comes with no UI, and docs are not as good as authlogic.</p>\n\n<p><li>I ended up using rails-warden because I needed to plugin multiple custom authentication schemes.</p>\n\n<p><li>Also, see OmniAuth answer below, that's what I am using in 2012.</p>\n",
+      "owner": {
+        "display_name": "Aleksandar Totic",
+        "link": "https://stackoverflow.com/users/135388/aleksandar-totic"
+      }
+    },
+    {
+      "answer_id": 9651742,
+      "body": "<p>The mentioned line on Devise's Controller makes sense in general cases: a logged in user can't sign up. As you're on a case where only an admin can create a user, I would suggest that you don't use Devise's controller on <code>Registerable</code> module and write your own controller with your own rules. You can write it based on Devise's controller changing only the mentioned line.</p>\n\n<p>If you want to use it, try skipping the <code>before_filter</code> with <code>skip_before_filter</code>. I don't think it is the best solution. and I would write my own controller. </p>\n",
+      "owner": {
+        "display_name": "Rodrigo Flores",
+        "link": "https://stackoverflow.com/users/1040432/rodrigo-flores"
+      }
+    },
+    {
+      "answer_id": 9049434,
+      "body": "<p>unconfirmed_email is required for reconfirmable. For some reason this was enabled by default in config/intializers/devise.rb:</p>\n\n<pre><code>config.reconfirmable = true\n</code></pre>\n\n<p>All you have to do is set this to false.</p>\n",
+      "owner": {
+        "display_name": "varatis",
+        "link": "https://stackoverflow.com/users/872150/varatis"
+      }
+    },
+    {
+      "answer_id": 9272305,
+      "body": "<p>It's in <code>lib/devise/controllers/helpers.rb</code><a href=\"https://github.com/plataformatec/devise/blob/master/lib/devise/controllers/helpers.rb\">1</a> and is generated dynamically (user being only one of the possible suffixes):</p>\n\n<pre><code>def self.define_helpers(mapping) #:nodoc:\n    mapping = mapping.name\n\n    class_eval &lt;&lt;-METHODS, __FILE__, __LINE__ + 1\n      def authenticate_#{mapping}!(opts={})\n        opts[:scope] = :#{mapping}\n        warden.authenticate!(opts) if !devise_controller? || opts.delete(:force)\n      end\n\n      def #{mapping}_signed_in?\n        !!current_#{mapping}\n      end\n\n      def current_#{mapping}\n        @current_#{mapping} ||= warden.authenticate(:scope =&gt; :#{mapping})\n      end\n\n      def #{mapping}_session\n        current_#{mapping} &amp;&amp; warden.session(:#{mapping})\n      end\n    METHODS\n\n    ActiveSupport.on_load(:action_controller) do\n      helper_method \"current_#{mapping}\", \"#{mapping}_signed_in?\", \"#{mapping}_session\"\n    end\n  end\n</code></pre>\n",
+      "owner": {
+        "display_name": "jupp0r",
+        "link": "https://stackoverflow.com/users/1034255/jupp0r"
+      }
+    },
+    {
+      "answer_id": 9061972,
+      "body": "<p>@pschuegr's own answer got me across the line. For completeness, this is what I did that gets me easily set up for both request specs and controller specs (using FactoryGirl for creating the user instance):</p>\n\n<p>in /spec/support/sign_in_support.rb:</p>\n\n<pre><code>#module for helping controller specs\nmodule ValidUserHelper\n  def signed_in_as_a_valid_user\n    @user ||= FactoryGirl.create :user\n    sign_in @user # method from devise:TestHelpers\n  end\nend\n\n# module for helping request specs\nmodule ValidUserRequestHelper\n\n  # for use in request specs\n  def sign_in_as_a_valid_user\n    @user ||= FactoryGirl.create :user\n    post_via_redirect user_session_path, 'user[email]' =&gt; @user.email, 'user[password]' =&gt; @user.password\n  end\nend\n\nRSpec.configure do |config|\n  config.include ValidUserHelper, :type =&gt; :controller\n  config.include ValidUserRequestHelper, :type =&gt; :request\nend\n</code></pre>\n\n<p>Then in request spec:</p>\n\n<pre><code>describe \"GET /things\" do\n  it \"test access to things, works with a signed in user\" do\n    sign_in_as_a_valid_user\n    get things_path\n    response.status.should be(200)\n  end\nend\n\ndescribe \"GET /things\" do\n  it \"test access to things, does not work without a signed in user\" do\n    get things_path\n    response.status.should be(302) # redirect to sign in page\n  end\nend\n</code></pre>\n\n<p>and similarly, use 'signed_in_as_valid_user' in controller specs (which wraps Devise::TestHelpers sign_in method with a user from FactoryGirl)</p>\n",
+      "owner": {
+        "display_name": "Matt Connolly",
+        "link": "https://stackoverflow.com/users/365932/matt-connolly"
+      }
+    },
+    {
+      "answer_id": 7312205,
+      "body": "<p>Okay, so I worked it through and came to the following solution.<br>\nI needed to costumize devise a little bit, but it's not that complicated.</p>\n\n<p>The User model</p>\n\n<pre><code># user.rb\nclass User &lt; ActiveRecord::Base\n  devise :database_authenticatable, :registerable,\n         :recoverable, :rememberable, :trackable, :validatable\n\n  attr_accessible :email, :password, :password_confirmation, :remember_me\n\n  belongs_to :rolable, :polymorphic =&gt; true\nend\n</code></pre>\n\n<p>The Customer model</p>\n\n<pre><code># customer.rb\nclass Customer &lt; ActiveRecord::Base\n  has_one :user, :as =&gt; :rolable\nend\n</code></pre>\n\n<p>The Designer model</p>\n\n<pre><code># designer.rb\nclass Designer &lt; ActiveRecord::Base\n  has_one :user, :as =&gt; :rolable\nend\n</code></pre>\n\n<p>So the User model has a simple polymorphic association, defining if it's a Customer or a Designer.<br>\nThe next thing I had to do was to generate the devise views with <code>rails g devise:views</code> to be part of my application. Since I only needed the registration to be customized I kept the <code>app/views/devise/registrations</code> folder only and removed the rest.</p>\n\n<p>Then I customized the registrations view for new registrations, which can be found in <code>app/views/devise/registrations/new.html.erb</code> after you generated them.</p>\n\n<pre><code>&lt;h2&gt;Sign up&lt;/h2&gt;\n\n&lt;%\n  # customized code begin\n\n  params[:user][:user_type] ||= 'customer'\n\n  if [\"customer\", \"designer\"].include? params[:user][:user_type].downcase\n    child_class_name = params[:user][:user_type].downcase.camelize\n    user_type = params[:user][:user_type].downcase\n  else\n    child_class_name = \"Customer\"\n    user_type = \"customer\"\n  end\n\n  resource.rolable = child_class_name.constantize.new if resource.rolable.nil?\n\n  # customized code end\n%&gt;\n\n&lt;%= form_for(resource, :as =&gt; resource_name, :url =&gt; registration_path(resource_name)) do |f| %&gt;\n  &lt;%= my_devise_error_messages!    # customized code %&gt;\n\n  &lt;div&gt;&lt;%= f.label :email %&gt;&lt;br /&gt;\n  &lt;%= f.email_field :email %&gt;&lt;/div&gt;\n\n  &lt;div&gt;&lt;%= f.label :password %&gt;&lt;br /&gt;\n  &lt;%= f.password_field :password %&gt;&lt;/div&gt;\n\n  &lt;div&gt;&lt;%= f.label :password_confirmation %&gt;&lt;br /&gt;\n  &lt;%= f.password_field :password_confirmation %&gt;&lt;/div&gt;\n\n  &lt;% # customized code begin %&gt;\n  &lt;%= fields_for resource.rolable do |rf| %&gt;\n    &lt;% render :partial =&gt; \"#{child_class_name.underscore}_fields\", :locals =&gt; { :f =&gt; rf } %&gt;\n  &lt;% end %&gt;\n\n  &lt;%= hidden_field :user, :user_type, :value =&gt; user_type %&gt;\n  &lt;% # customized code end %&gt;\n\n  &lt;div&gt;&lt;%= f.submit \"Sign up\" %&gt;&lt;/div&gt;\n&lt;% end %&gt;\n\n&lt;%= render :partial =&gt; \"devise/shared/links\" %&gt;\n</code></pre>\n\n<p>For each User type I created a separate partial with the custom fields for that specific User type, i.e. Designer --> <code>_designer_fields.html</code></p>\n\n<pre><code>&lt;div&gt;&lt;%= f.label :label_name %&gt;&lt;br /&gt;\n&lt;%= f.text_field :label_name %&gt;&lt;/div&gt;\n</code></pre>\n\n<p>Then I setup the routes for devise to use the custom controller on registrations</p>\n\n<pre><code>devise_for :users, :controllers =&gt; { :registrations =&gt; 'UserRegistrations' }\n</code></pre>\n\n<p>Then I generated a controller to handle the customized registration process, copied the original source code from the <code>create</code> method in the <code>Devise::RegistrationsController</code> and modified it to work my way (don't forget to move your view files to the appropriate folder, in my case <code>app/views/user_registrations</code></p>\n\n<pre><code>class UserRegistrationsController &lt; Devise::RegistrationsController\n  def create\n    build_resource\n\n    # customized code begin\n\n    # crate a new child instance depending on the given user type\n    child_class = params[:user][:user_type].camelize.constantize\n    resource.rolable = child_class.new(params[child_class.to_s.underscore.to_sym])\n\n    # first check if child instance is valid\n    # cause if so and the parent instance is valid as well\n    # it's all being saved at once\n    valid = resource.valid?\n    valid = resource.rolable.valid? &amp;&amp; valid\n\n    # customized code end\n\n    if valid &amp;&amp; resource.save    # customized code\n      if resource.active_for_authentication?\n        set_flash_message :notice, :signed_up if is_navigational_format?\n        sign_in(resource_name, resource)\n        respond_with resource, :location =&gt; redirect_location(resource_name, resource)\n      else\n        set_flash_message :notice, :inactive_signed_up, :reason =&gt; inactive_reason(resource) if is_navigational_format?\n        expire_session_data_after_sign_in!\n        respond_with resource, :location =&gt; after_inactive_sign_up_path_for(resource)\n      end\n    else\n      clean_up_passwords(resource)\n      respond_with_navigational(resource) { render_with_scope :new }\n    end\n  end\nend\n</code></pre>\n\n<p>What this all basically does is that the controller determines which user type must be created according to the <code>user_type</code> parameter that's delivered to the controller's <code>create</code> method by the hidden field in the view which uses the parameter by a simple GET-param in the URL.</p>\n\n<p>For example:<br>\nIf you go to <code>/users/sign_up?user[user_type]=designer</code> you can create a Designer.<br>\nIf you go to <code>/users/sign_up?user[user_type]=customer</code> you can create a Customer.</p>\n\n<p>The <code>my_devise_error_messages!</code> method is a helper method which also handles validation errors in the associative model, based on the original <code>devise_error_messages!</code> method</p>\n\n<pre><code>module ApplicationHelper\n  def my_devise_error_messages!\n    return \"\" if resource.errors.empty? &amp;&amp; resource.rolable.errors.empty?\n\n    messages = rolable_messages = \"\"\n\n    if !resource.errors.empty?\n      messages = resource.errors.full_messages.map { |msg| content_tag(:li, msg) }.join\n    end\n\n    if !resource.rolable.errors.empty?\n      rolable_messages = resource.rolable.errors.full_messages.map { |msg| content_tag(:li, msg) }.join\n    end\n\n    messages = messages + rolable_messages   \n    sentence = I18n.t(\"errors.messages.not_saved\",\n                      :count =&gt; resource.errors.count + resource.rolable.errors.count,\n                      :resource =&gt; resource.class.model_name.human.downcase)\n\n    html = &lt;&lt;-HTML\n    &lt;div id=\"error_explanation\"&gt;\n    &lt;h2&gt;#{sentence}&lt;/h2&gt;\n    &lt;ul&gt;#{messages}&lt;/ul&gt;\n    &lt;/div&gt;\n    HTML\n\n    html.html_safe\n  end\nend\n</code></pre>\n\n<p>UPDATE:</p>\n\n<p>To be able to support routes like <code>/designer/sign_up</code> and <code>/customer/sign_up</code> you can do the following in your routes file:</p>\n\n<pre><code># routes.rb\nmatch 'designer/sign_up' =&gt; 'user_registrations#new', :user =&gt; { :user_type =&gt; 'designer' }\nmatch 'customer/sign_up' =&gt; 'user_registrations#new', :user =&gt; { :user_type =&gt; 'customer' }\n</code></pre>\n\n<p>Any parameter that's not used in the routes syntax internally gets passed to the params hash. So <code>:user</code> gets passed to the params hash.</p>\n\n<p>So... that's it. With a little tweeking here and there I got it working in a quite general way, that's easily extensible with many other User models sharing a common User table.</p>\n\n<p>Hope someone finds it useful.</p>\n",
+      "owner": {
+        "display_name": "Vapire",
+        "link": "https://stackoverflow.com/users/927573/vapire"
+      }
+    },
+    {
+      "answer_id": 8485258,
+      "body": "<p>In Rails versions before than 3, <code>save</code> <a href=\"http://apidock.com/rails/ActiveRecord/Base/save\" rel=\"noreferrer\">was a method</a> in <code>ActiveRecord::Base</code> and you could pass <code>false</code> to it in order to bypass validations.</p>\n\n<p>In Rails 3, <code>save</code> <a href=\"http://apidock.com/rails/ActiveRecord/Persistence/save\" rel=\"noreferrer\">was moved</a> to <code>ActiveRecord::Persistance</code> and since then you should pass <code>:validate =&gt; false</code> to <code>save</code> in order to bypass validations.</p>\n",
+      "owner": {
+        "display_name": "Behrang Saeedzadeh",
+        "link": "https://stackoverflow.com/users/309683/behrang-saeedzadeh"
+      }
+    },
+    {
+      "answer_id": 8318843,
+      "body": "<p>Admittedly, a bit hacky, but I'm using this helper (app/helpers/devise_helper.rb) to grab flashes and use those if set then default to <code>resource.errors</code>.</p>\n\n<pre><code>module DeviseHelper\n\n  def devise_error_messages!\n    flash_alerts = []\n    error_key = 'errors.messages.not_saved'\n\n    if !flash.empty?\n      flash_alerts.push(flash[:error]) if flash[:error]\n      flash_alerts.push(flash[:alert]) if flash[:alert]\n      flash_alerts.push(flash[:notice]) if flash[:notice]\n      error_key = 'devise.failure.invalid'\n    end\n\n    return \"\" if resource.errors.empty? &amp;&amp; flash_alerts.empty?\n    errors = resource.errors.empty? ? flash_alerts : resource.errors.full_messages\n\n    messages = errors.map { |msg| content_tag(:li, msg) }.join\n    sentence = I18n.t(error_key, :count    =&gt; errors.count,\n                                 :resource =&gt; resource.class.model_name.human.downcase)\n\n    html = &lt;&lt;-HTML\n    &lt;div id=\"error_explanation\"&gt;\n      &lt;h2&gt;#{sentence}&lt;/h2&gt;\n      &lt;ul&gt;#{messages}&lt;/ul&gt;\n    &lt;/div&gt;\n    HTML\n\n    html.html_safe\n  end\n\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "typeoneerror",
+        "link": "https://stackoverflow.com/users/53653/typeoneerror"
+      }
+    },
+    {
+      "answer_id": 8017452,
+      "body": "<p>Good news and bad news.</p>\n\n<h2>Good news:</h2>\n\n<p>The following works to create your user's password manually.</p>\n\n<pre><code> pepper = nil\n cost = 10\n encrypted_password = ::BCrypt::Password.create(\"#{password}#{pepper}\", :cost =&gt; cost).to_s\n</code></pre>\n\n<p>You can find your pepper and cost in your devise initializer.  This method was confirmed using  Devise's \"valid_password?\" method.</p>\n\n<h2>Bad news:</h2>\n\n<p>The entire reason I was trying to avoid \"User.new(password: password).encrypted_password\" was because of speed.  It's terribly slow.  With all my other pieces of my import task, I've intentionally avoided this.  </p>\n\n<p>But as it turns out, the major cost here is not instantiating a User object -- but BCrypt itself.  There is very little noticeable speed boost when using BCrypt directly because it's intentionally designed to be slow.</p>\n\n<p>My final answer:  suck it up, run the rake script, go find a beverage.</p>\n",
+      "owner": {
+        "display_name": "jmccartie",
+        "link": "https://stackoverflow.com/users/24708/jmccartie"
+      }
+    },
+    {
+      "answer_id": 7638969,
+      "body": "<p>By default Devise does route to root after it's actions. There is a nice article about overriding these actions on the Devise Wiki, <a href=\"https://github.com/plataformatec/devise/wiki/How-To:-Redirect-to-a-specific-page-on-successful-sign-in\" rel=\"noreferrer\">https://github.com/plataformatec/devise/wiki/How-To:-Redirect-to-a-specific-page-on-successful-sign-in</a></p>\n\n<p>Or you can go even farther by setting <code>stored_locations_for(resource)</code> to nil, and then have different redirects for each action, ie: <code>after_sign_up_path(resource)</code>, <code>after_sign_in_path(resource)</code> and so on.</p>\n",
+      "owner": {
+        "display_name": "janders223",
+        "link": "https://stackoverflow.com/users/953595/janders223"
+      }
+    },
+    {
+      "answer_id": 4670812,
+      "body": "<p>My understanding is that you can use the tokens to log in or to hit arbitrary pages that need authentication, even with cURL. If you look in <code>config/initializers/devise.rb</code>, there should be a line that says something like:</p>\n\n<pre><code>config.token_authentication_key = :auth_token\n</code></pre>\n\n<p>Whatever the name of the <code>token_authentication_key</code> is should match what you put as the query or form parameter in your request. You used <code>authentication_token</code> in your example, not sure if you changed devise.rb to match that or not.</p>\n\n<p>If you want to figure out how things are working internally, I would try <code>git clone git://github.com/plataformatec/devise.git</code> and search for the methods you need clarification of.</p>\n\n<p>Here are some sample cURL requests (I made a custom Users::SessionsController that extends Devise::SessionsController and overrides the create method to handle JSON.)</p>\n\n<pre><code>class Users::SessionsController &lt; Devise::SessionsController\n  def create\n    resource = warden.authenticate!(:scope =&gt; resource_name, :recall =&gt; \"#{controller_path}#new\")\n    set_flash_message(:notice, :signed_in) if is_navigational_format?\n    sign_in(resource_name, resource)\n\n    respond_to do |format|\n      format.html do\n        respond_with resource, :location =&gt; redirect_location(resource_name, resource)\n      end\n      format.json do\n        render :json =&gt; { :response =&gt; 'ok', :auth_token =&gt; current_user.authentication_token }.to_json, :status =&gt; :ok\n      end\n    end\n  end\nend \n</code></pre>\n\n<p>And then the cURL requests I gave:</p>\n\n<pre><code>curl -X POST 'http://localhost:3000/users/sign_in.json' -d 'user[email]=example@example.com&amp;user[password]=password'\n-&gt; {\"response\":\"ok\",\"auth_token\":\"ABCDE0123456789\"}\n\ncurl -L 'http://localhost:3000/profile?auth_token=ABCDE0123456789'\n-&gt; got page that I wanted that needs authentication\n</code></pre>\n",
+      "owner": {
+        "display_name": "Anthony Panozzo",
+        "link": "https://stackoverflow.com/users/532524/anthony-panozzo"
+      }
+    },
+    {
+      "answer_id": 7412056,
+      "body": "<p>Thanks to : <a href=\"http://blog.thefrontiergroup.com.au/2011/03/reloading-factory-girl-factories-in-the-rails-3-console/\" rel=\"noreferrer\">http://blog.thefrontiergroup.com.au/2011/03/reloading-factory-girl-factories-in-the-rails-3-console/</a></p>\n\n<blockquote>\n  <p>\"Devise uses a mapping between classes and routes, so when a factory built object comes through to Devise after a console reload, or a class redefinition then it will fail.\"</p>\n</blockquote>\n\n<p>Put this in an initializer or application.rb</p>\n\n<pre><code>ActionDispatch::Callbacks.after do\n  # Reload the factories\n  return unless (Rails.env.development? || Rails.env.test?)\n\n  unless FactoryGirl.factories.blank? # first init will load factories, this should only run on subsequent reloads\n    FactoryGirl.factories.clear\n    FactoryGirl.find_definitions\n  end\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "Halfnelson",
+        "link": "https://stackoverflow.com/users/943962/halfnelson"
+      }
+    },
+    {
+      "answer_id": 6883757,
+      "body": "<p>I tried to do this as well, but <a href=\"http://groups.google.com/group/plataformatec-devise/browse_thread/thread/2e57d3bb14c1498f/c31a2647b102ff89\">a thread on the devise google group</a> dissuaded me from searching for a really clean solution.</p>\n\n<p>I'll quote José Valim (the Devise maintainer) :</p>\n\n<blockquote>\n  <p>There isn't a straight-forward option. You can either provide a patch\n  or use :skip => :registerable and add only the routes you want.</p>\n</blockquote>\n\n<p>The original question was :</p>\n\n<blockquote>\n  <p>Is there any good way to remove a specific route (the delete route)\n  from Rails?</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Benoit Garret",
+        "link": "https://stackoverflow.com/users/211840/benoit-garret"
+      }
+    },
+    {
+      "answer_id": 6635005,
+      "body": "<p>If you want Devise to do validations, you need to add the <code>:validatable</code> module to your model. This is fairly easy to do, just add <code>:validatable</code> to the list of module in the <code>devise</code> call, so your model says:</p>\n\n<pre><code>devise\n   :database_authenticatable, \n   :lockable, \n   :registerable, \n   :recoverable, \n   :rememberable, \n   :trackable,\n   :validatable\n</code></pre>\n\n<p>This will make devise add validations.</p>\n\n<p>Another easy way is to add your own validations. If you just want to validate that the password confirmation matches, you can add a <code>validates_confirmation_of</code> validation by adding this to your model:</p>\n\n<pre><code>validates_confirmation_of :password\n</code></pre>\n\n<p>I hope this helps.</p>\n",
+      "owner": {
+        "display_name": "sarahhodne",
+        "link": "https://stackoverflow.com/users/231245/sarahhodne"
+      }
+    },
+    {
+      "answer_id": 4114864,
+      "body": "<p>You need to add this to your <code>environment.rb</code></p>\n\n<pre><code>  config.action_mailer.default_url_options = { :host =&gt; 'localhost' }\n</code></pre>\n\n<p>Make sure you change <code>host</code> to your production url and keep it localhost for development. This is for the mailer, it needs a default email to send out notices such as confirmations etc...</p>\n\n<hr>\n\n<p>You should check the logs on the heroku server <code>heroku logs</code> run that from the console and it will tell you the exact error.</p>\n\n<p>When you push to heroku you need to configure the <code>environment.rb</code> file with the heroku subdomain:</p>\n\n<pre><code>config.action_mailer.default_url_options = { :host =&gt; 'yourapp.heroku.com' }\n</code></pre>\n\n<hr>\n\n<p>Depending upon version, this should go in <code>production.rb</code>, not <code>environment.rb</code>.</p>\n",
+      "owner": {
+        "display_name": "Sam 山",
+        "link": "https://stackoverflow.com/users/225727/sam-%e5%b1%b1"
+      }
+    },
+    {
+      "answer_id": 4150044,
+      "body": "<p>Devise creates convenience methods on the fly that represent your currently logged user.</p>\n\n<p><strong>However</strong> you should note that the generated method name includes the class name of your user model. e.g. if your Devise model is called '<code>User</code>' then the currently logged in user can be accessed with '<code>current_user</code>', and if your Devise class is '<code>Admin</code>' then the logged in admin user can be accessed with '<code>current_admin</code>'.</p>\n\n<p>There are a number of other methods created with similar conventions, for example '<code>user_signed_in?</code>' or again '<code>admin_signed_in?</code>', which are really nice.</p>\n\n<p>These methods are available in controllers and views so you might have the following in a view:</p>\n\n<pre><code>&lt;% if user_signed_in? %&gt;\n  &lt;div&gt;Signed in as... &lt;%= current_user.email %&gt;&lt;/div&gt;\n&lt;% end %&gt;\n</code></pre>\n\n<p>Finally, if you are using two or more Devise models in your app (e.g. User and Admin), you can use the '<code>anybody_signed_in?</code>' convenience method to check if either of those types of user are signed in:</p>\n\n<pre><code>&lt;% if anybody_signed_in? %&gt;\n  &lt;h2&gt;Special offers&lt;/h2&gt;\n  &lt;p&gt;All registered users will receive free monkeys!&lt;/p&gt;\n&lt;% end %&gt;\n</code></pre>\n\n<p><strong>Update:</strong></p>\n\n<p>Since Devise version 1.2.0, '<code>anybody_signed_in?</code>' has been deprecated and replaced by '<code>signed_in?</code>' </p>\n",
+      "owner": {
+        "display_name": "Scott",
+        "link": "https://stackoverflow.com/users/152739/scott"
+      }
+    },
+    {
+      "answer_id": 6393151,
+      "body": "<p>As Andres says, the form calls helpers which are specified by Devise and so aren't present when you access a Devise form from a non-Devise controller.</p>\n\n<p>To get around this, you need to add the following methods to the helper class of the controller you wish to display the form under. Alternatively, you can just add them to your application helper to make them available anywhere.</p>\n\n<pre><code>  def resource_name\n    :user\n  end\n\n  def resource\n    @resource ||= User.new\n  end\n\n  def devise_mapping\n    @devise_mapping ||= Devise.mappings[:user]\n  end\n</code></pre>\n\n<p>Source: <a href=\"http://pupeno.com/blog/show-a-devise-log-in-form-in-another-page/\">http://pupeno.com/blog/show-a-devise-log-in-form-in-another-page/</a></p>\n",
+      "owner": {
+        "display_name": "Rupert Madden-Abbott",
+        "link": "https://stackoverflow.com/users/236587/rupert-madden-abbott"
+      }
+    },
+    {
+      "answer_id": 6234383,
+      "body": "<p>Devise uses internal controllers, which you can access and subclass in your own code. They are under the <code>Devise</code> module. For example, to extend the <code>RegistrationsController</code>:</p>\n\n<pre><code>class MembershipsController &lt; Devise::RegistrationsController\n  # ...\nend\n</code></pre>\n\n<p>Then all you have to do is configure Devise's routes to use your controller instead:</p>\n\n<pre><code>devise_for :members, :controllers =&gt; { :registrations =&gt; 'memberships' }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Matheus Moreira",
+        "link": "https://stackoverflow.com/users/512904/matheus-moreira"
+      }
+    },
+    {
+      "answer_id": 4412168,
+      "body": "<p>You can subclass the controller and configure the router to use that:</p>\n\n<pre><code>class SessionsController &lt; Devise::SessionsController\n  layout false\nend\n</code></pre>\n\n<p>And in <code>config/routes.rb</code>:</p>\n\n<pre><code>devise_for :users, :controllers =&gt; { :sessions =&gt; \"sessions\" }\n</code></pre>\n\n<p>You need to move the session views to this controller too.</p>\n\n<p><strong>OR</strong> make a method in <code>app/controllers/application_controller.rb</code>:</p>\n\n<pre><code>class ApplicationController &lt; ActionController::Base\n\n  layout :layout\n\n  private\n\n  def layout\n    # only turn it off for login pages:\n    is_a?(Devise::SessionsController) ? false : \"application\"\n    # or turn layout off for every devise controller:\n    devise_controller? &amp;&amp; \"application\"\n  end\n\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "iain",
+        "link": "https://stackoverflow.com/users/525636/iain"
+      }
+    },
+    {
+      "answer_id": 5762835,
+      "body": "<p>Probably the easiest way to do this is to</p>\n\n<ol>\n<li>Define each message as a blank string</li>\n<li>Check the length of the string before you show a flash message.</li>\n</ol>\n\n<p>In your <code>devise.en.yml</code> file, specify each message as empty:</p>\n\n<pre><code>en:\n  errors:\n    messages:\n      not_found: ''\n      already_confirmed: ''\n      not_locked: ''\n</code></pre>\n\n<p>etc. Next, in your layout, check for blank flash strings before you output them.</p>\n\n<pre><code>&lt;% flash.each do |key, value| %&gt;\n  &lt;%= content_tag :div, value, :class =&gt; \"flash #{key}\" unless value.blank? %&gt;\n&lt;% end %&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Michelle Tilley",
+        "link": "https://stackoverflow.com/users/62082/michelle-tilley"
+      }
+    },
+    {
+      "answer_id": 4982110,
+      "body": "<p>I figured it out, but I'll keep this question here in case other people are curious.</p>\n\n<p>It was a stupid mistake. The fact is <code>sign_in</code> is the path, <em>not</em> the action. Looking at the <a href=\"https://github.com/plataformatec/devise/blob/master/app/controllers/devise/sessions_controller.rb\" rel=\"noreferrer\">relevant source</a>, I can see that the required action is <code>new</code>, i.e., creating a <em>new</em> Devise Session. Changing my above code's conditional to:</p>\n\n<pre><code>if devise_controller? &amp;&amp; resource_name == :user &amp;&amp; action_name == 'new'\n</code></pre>\n\n<p>Works beautifully.</p>\n\n<p>Hope that helps someone out there.</p>\n",
+      "owner": {
+        "display_name": "Jorge Israel Pe&#241;a",
+        "link": "https://stackoverflow.com/users/101090/jorge-israel-pe%c3%b1a"
+      }
+    },
+    {
+      "answer_id": 5630074,
+      "body": "<p>I just implemented this in my project myself. What I did was similar to Kleber above, I defined this in my app/controllers/sessions_controller.rb (overriding Devise)...</p>\n\n<pre><code>class SessionsController &lt; Devise::SessionsController\n\nprotected\n\n  def after_sign_in_path_for(resource)\n    if resource.is_a?(User) &amp;&amp; resource.banned?\n      sign_out resource\n      flash[:error] = \"This account has been suspended for violation of....\"\n      root_path\n    else\n      super\n    end\n   end\n\nend\n</code></pre>\n\n<p>And then I added a boolean column to Users called 'banned,' so the moderators check the checkbox when editing the user in the backend, and the boolean will return true.</p>\n\n<p>But there was one flaw...if a user was already logged in and then banned, they still had access to doing stuff on the site (comments, etc) at least until their session expired or they logged out. So I did this in the app/controllers/application_controller.rb...</p>\n\n<pre><code>class ApplicationController &lt; ActionController::Base\n  before_filter :banned?\n\n  def banned?\n    if current_user.present? &amp;&amp; current_user.banned?\n      sign_out current_user\n      flash[:error] = \"This account has been suspended....\"\n      root_path\n    end\n  end\nend\n</code></pre>\n\n<p>That'll automatically log them out if a ban is detected. Anyway, not sure this whole thing is the \"best\" way to factor the whole thing as I'm newer to Rails, but the whole thing works for me and hope it will at least give you a good start.</p>\n",
+      "owner": {
+        "display_name": "Shannon",
+        "link": "https://stackoverflow.com/users/627349/shannon"
+      }
+    },
+    {
+      "answer_id": 5504188,
+      "body": "<p><a href=\"https://github.com/ctide/devise_lastseenable\" rel=\"noreferrer\">https://github.com/ctide/devise_lastseenable</a></p>\n\n<p>You can use this gem that I wrote to store the 'last_seen' timestamp of a user.  From there, it's pretty trivial to display the users who were last_seen in the last 5 or 10 minutes.</p>\n",
+      "owner": {
+        "display_name": "ctide",
+        "link": "https://stackoverflow.com/users/548075/ctide"
+      }
+    },
+    {
+      "answer_id": 5321309,
+      "body": "<p>Devise 1.2 now comes with facebook login support using omniauth and works with Rails 3.0. Check out the <a href=\"https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview\" rel=\"noreferrer\">wiki entry</a>.</p>\n",
+      "owner": {
+        "display_name": "Yeameen",
+        "link": "https://stackoverflow.com/users/520329/yeameen"
+      }
+    },
+    {
+      "answer_id": 5034877,
+      "body": "<p>The <code>timeout_in</code> will automatically log you out within 10 minutes of inactivity and is incompatible with the <code>remember_me</code> checkbox. You can have one, but not both.</p>\n",
+      "owner": {
+        "display_name": "Ryan Bigg",
+        "link": "https://stackoverflow.com/users/15245/ryan-bigg"
+      }
+    },
+    {
+      "answer_id": 4975442,
+      "body": "<p>This is what finally worked.</p>\n\n<pre><code>class Api::V1::SessionsController &lt; Devise::SessionsController  \n  def create  \n    respond_to do |format|  \n      format.html { super }  \n      format.json {  \n        warden.authenticate!(:scope =&gt; resource_name, :recall =&gt; \"#{controller_path}#new\")  \n        render :status =&gt; 200, :json =&gt; { :error =&gt; \"Success\" }  \n      }  \n    end  \n  end  \n  def destroy  \n    super  \n  end  \nend  \n</code></pre>\n\n<p>Also change routes.rb, remember the order is important.</p>\n\n<pre><code>devise_for :users, :controllers =&gt; { :sessions =&gt; \"api/v1/sessions\" }\ndevise_scope :user do\n  namespace :api do\n    namespace :v1 do\n      resources :sessions, :only =&gt; [:create, :destroy]\n    end\n  end\nend\n\nresources :users\n</code></pre>\n",
+      "owner": {
+        "display_name": "Akshay Kumar",
+        "link": "https://stackoverflow.com/users/576108/akshay-kumar"
+      }
+    },
+    {
+      "answer_id": 4929334,
+      "body": "<p>Here's one way I was able to do it:</p>\n\n<pre><code>&gt;&gt; ApplicationController.allow_forgery_protection = false\n&gt;&gt; app.post('/sign_in', {\"user\"=&gt;{\"login\"=&gt;\"login\", \"password\"=&gt;\"password\"}})\n</code></pre>\n\n<p>Then you can do:</p>\n\n<pre><code> &gt;&gt; app.get '/some_other_path_that_only_works_if_logged_in'\n &gt;&gt; pp app.response.body\n</code></pre>\n",
+      "owner": {
+        "display_name": "Brian Deterling",
+        "link": "https://stackoverflow.com/users/14619/brian-deterling"
+      }
+    },
+    {
+      "answer_id": 4901801,
+      "body": "<p>The short answer is: it's up to you.</p>\n\n<blockquote>\n  <p>This module only provides a few\n  helpers to help you manage the token,\n  but it is up to you to choose how to\n  use it. For example, if you want to\n  have a new token every time the user\n  saves his account, you can do the\n  following:</p>\n\n<pre><code>before_save :reset_authentication_token\n</code></pre>\n  \n  <p>On the other hand, if you want to\n  generate token unless one exists, you\n  should use instead:</p>\n\n<pre><code>before_save :ensure_authentication_token\n</code></pre>\n  \n  <p>If you want to delete the token after\n  it is used, you can do so in the\n  after_token_authentication callback.</p>\n</blockquote>\n\n<p>See the documentation for this model at <a href=\"http://rdoc.info/github/plataformatec/devise/master/Devise/Models/TokenAuthenticatable\" rel=\"noreferrer\">http://rdoc.info/github/plataformatec/devise/master/Devise/Models/TokenAuthenticatable</a>.</p>\n",
+      "owner": {
+        "display_name": "Michelle Tilley",
+        "link": "https://stackoverflow.com/users/62082/michelle-tilley"
+      }
+    },
+    {
+      "answer_id": 4660842,
+      "body": "<p>You can create a new Devise user simply by creating a new user model (see <a href=\"https://github.com/plataformatec/devise/wiki/How-To:-Manage-users-through-a-CRUD-interface\" rel=\"noreferrer\">https://github.com/plataformatec/devise/wiki/How-To:-Manage-users-through-a-CRUD-interface</a>)</p>\n\n<pre><code>@user = User.new(:email =&gt; 'test@example.com', :password =&gt; 'password', :password_confirmation =&gt; 'password')\n@user.save\n</code></pre>\n\n<p>To sign in your newly created user, use <code>sign_in @user</code></p>\n",
+      "owner": {
+        "display_name": "David Sulc",
+        "link": "https://stackoverflow.com/users/492513/david-sulc"
+      }
+    },
+    {
+      "answer_id": 4502272,
+      "body": "<p>Simply \"moving\" Devise to the admin namespace is wrong. Devise uses controllers like <code>Devise::SessionsController</code> and that cannot be \"moved\".</p>\n\n<p>I usually create my own controllers and inherit them from Devise:</p>\n\n<pre><code>class Admin::SessionsController &lt; ::Devise::SessionsController\n  layout \"admin\"\n  # the rest is inherited, so it should work\nend\n</code></pre>\n\n<p>And configure this in <code>config/routes.rb</code>:</p>\n\n<pre><code>devise_for :admins, :controllers =&gt; { :sessions =&gt; \"admin/sessions\" }\n</code></pre>\n\n<p><strong>Or</strong> you could change the layout only, by making the layout a bit more complex:</p>\n\n<pre><code>class ApplicationController &lt; ActionController::Base\n\n  layout :layout\n\n  private\n\n  def layout\n    if devise_controller? &amp;&amp; devise_mapping.name == :admin\n      \"admin\"\n    else\n      \"application\"\n    end\n  end\n\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "iain",
+        "link": "https://stackoverflow.com/users/525636/iain"
+      }
+    },
+    {
+      "answer_id": 3846567,
+      "body": "<p>I myself switched from Authlogic to Devise recently and also didn't find any articles. However, in the simple case, once you've thrown away all of your user_session and other authlogic-related code, the main piece of work is converting your old users table to the format expected by devise.</p>\n\n<p>My old table looked like this:</p>\n\n<pre><code>      Column       |           Type           |                     Modifiers                      \n-------------------+--------------------------+----------------------------------------------------\n id                | integer                  | not null default nextval('users_id_seq'::regclass)\n login             | character varying(256)   | not null\n password          | character varying(64)    | not null\n created_at        | timestamp with time zone | not null\n updated_at        | timestamp with time zone | not null\n persistence_token | character varying(255)   | not null\nIndexes:\n    \"users_pkey\" PRIMARY KEY, btree (id)\n    \"index_users_on_persistence_token\" UNIQUE, btree (persistence_token)\n    \"users_login_key\" UNIQUE, btree (login)\n</code></pre>\n\n<p>and I determined that the table would have to contain at least the following info for devise (with many optional features enabled):</p>\n\n<pre><code> id                   | integer                     | not null default nextval('contributors_id_seq'::regclass)\n email                | character varying(255)      | not null default ''::character varying\n encrypted_password   | character varying(128)      | not null default ''::character varying\n password_salt        | character varying(255)      | not null default ''::character varying\n confirmation_token   | character varying(255)      | \n confirmed_at         | timestamp without time zone | \n confirmation_sent_at | timestamp without time zone | \n reset_password_token | character varying(255)      | \n remember_token       | character varying(255)      | \n remember_created_at  | timestamp without time zone | \n sign_in_count        | integer                     | default 0\n current_sign_in_at   | timestamp without time zone | \n last_sign_in_at      | timestamp without time zone | \n current_sign_in_ip   | character varying(255)      | \n last_sign_in_ip      | character varying(255)      | \n failed_attempts      | integer                     | default 0\n unlock_token         | character varying(255)      | \n locked_at            | timestamp without time zone | \n created_at           | timestamp without time zone | \n updated_at           | timestamp without time zone | \n</code></pre>\n\n<p>So I defined an unadorned activerecord class in the migration class</p>\n\n<pre><code> class ConversionUser &lt; ActiveRecord::Base\n   set_table_name \"users\"\n end\n</code></pre>\n\n<p>and then here's the \"up\" migration code I ended up using (with PostgreSQL):</p>\n\n<pre><code>add_column :users, :email, :string, :limit =&gt; 255\nexecute \"UPDATE users SET email = login || '@somedomain.net'\"\nexecute \"ALTER TABLE users ALTER email SET NOT NULL\"\n\nadd_column :users, :encrypted_password, :string, :limit =&gt; 128\nadd_column :users, :password_salt, :string, :limit =&gt; 255\n\nrequire 'devise/encryptors/bcrypt'\nConversionUser.find(:all).each do |u|\n  password_salt = Devise::Encryptors::Bcrypt.salt(Devise.stretches)\n  u.update_attributes!(:password_salt =&gt; password_salt,\n                       :encrypted_password =&gt; Devise::Encryptors::Bcrypt.digest(u.password, Devise.stretches, password_salt, Devise.pepper))\nend\n\nadd_column :users, :confirmation_token, :string, :limit =&gt; 255\nadd_column :users, :confirmed_at, :timestamp\nadd_column :users, :confirmation_sent_at, :timestamp\nexecute \"UPDATE users SET confirmed_at = created_at, confirmation_sent_at = created_at\"\nadd_column :users, :reset_password_token, :string, :limit =&gt; 255\n\nadd_column :users, :remember_token, :string, :limit =&gt; 255\nadd_column :users, :remember_created_at, :timestamp\nadd_column :users, :sign_in_count, :integer, :default =&gt; 0\nadd_column :users, :current_sign_in_at, :timestamp\nadd_column :users, :last_sign_in_at, :timestamp\nadd_column :users, :current_sign_in_ip, :string, :limit =&gt; 255\nadd_column :users, :last_sign_in_ip, :string, :limit =&gt; 255\n\nadd_column :users, :failed_attempts, :integer, :default =&gt; 0\nadd_column :users, :unlock_token, :string, :limit =&gt; 255\nadd_column :users, :locked_at, :timestamp\n\nremove_column :users, :password\nremove_column :users, :persistence_token\n\nadd_index :users, :email,                :unique =&gt; true\nadd_index :users, :confirmation_token,   :unique =&gt; true\nadd_index :users, :reset_password_token, :unique =&gt; true\nadd_index :users, :unlock_token,         :unique =&gt; true\n</code></pre>\n\n<p>Note that here I've converted a plain password column into a bcrypt-encrypted column for Devise -- if you've used encrypted passwords with Authlogic, then you'll probably want to just rename the column (if necessary) and choose the correct encryptor module in <code>config/initializers/devise.rb</code>.</p>\n\n<p>For reference, the \"devise\" clause in my User model looks like this:</p>\n\n<pre><code>devise :database_authenticatable, :registerable, :recoverable,\n  :rememberable, :trackable, :validatable, :confirmable, :lockable,\n  :timeoutable, :authentication_keys =&gt; [ :login ]\n</code></pre>\n\n<p>Note that overriding <code>:authentication_keys</code> like this so that users sign in with their login rather than their email address required me to modify some of the devise views: <code>rails generate devise:views</code>, then edit the files.</p>\n\n<p>Hope this helps a bit. Good luck!</p>\n",
+      "owner": {
+        "display_name": "sanityinc",
+        "link": "https://stackoverflow.com/users/247020/sanityinc"
+      }
+    },
+    {
+      "answer_id": 4098154,
+      "body": "<p>You just define it to an empty string in your local file. In this case you can see nothing.</p>\n",
+      "owner": {
+        "display_name": "shingara",
+        "link": "https://stackoverflow.com/users/285289/shingara"
+      }
+    },
+    {
+      "answer_id": 3944345,
+      "body": "<p>Don't confuse <code>attr_accessor</code> with <code>attr_accessible</code>. Accessor is built into Ruby and defines a getter method - <code>model_instance.foo # returns something</code> - and a setter method - <code>model_instance.foo = 'bar'</code>.</p>\n\n<p>Accessible is defined by Rails and makes the attribute mass-assignable (does the opposite of <code>attr_protected</code>).</p>\n\n<p>If <code>first_name</code> is a field in your model's database table, then Rails has already defined getters and setters for that attribute. All you need to do is add <code>attr_accessible :first_name</code>.</p>\n",
+      "owner": {
+        "display_name": "Robert Speicher",
+        "link": "https://stackoverflow.com/users/223897/robert-speicher"
+      }
+    },
+    {
+      "answer_id": 2752839,
+      "body": "<p>Yup. I feel dumb. </p>\n\n<p>If anyone else is having a similarly vapid moment. Just use the rails console to create the admin user:</p>\n\n<pre><code>➡ rails c\nLoading development environment (Rails 3.0.0.beta3)\nirb(main):001:0&gt; admin = Admin.create! do |u|\nirb(main):002:1* u.email = 'sample@sample.com'\nirb(main):003:1&gt; u.password = 'password'\nirb(main):004:1&gt; u.password_confirmation = 'password'\nirb(main):005:1&gt; end\n</code></pre>\n\n<p>That will do it. Now just visit your admin sign in path and sign in.</p>\n",
+      "owner": {
+        "display_name": "erskingardner",
+        "link": "https://stackoverflow.com/users/298410/erskingardner"
+      }
+    }
+  ]
+}

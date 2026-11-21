@@ -70,6 +70,9 @@ pub enum EvalError {
         /// The library id.
         library: String,
     },
+    /// A request to the Stack Exchange API failed.
+    #[error("the Stack Exchange API failed: {0}")]
+    StackExchange(String),
     /// The zenodotus server under measurement could not start or failed a call.
     #[error("the zenodotus server failed: {0}")]
     Server(String),

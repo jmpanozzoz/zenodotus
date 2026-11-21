@@ -1,0 +1,1034 @@
+{
+  "library": "github:gabime/spdlog",
+  "fetched_at": "2026-11-21T17:28:34Z",
+  "questions": [
+    {
+      "question_id": 41345844,
+      "title": "Adding header-only dependencies with CMake",
+      "accepted_answer_id": 41346222,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/41345844/adding-header-only-dependencies-with-cmake",
+      "owner": {
+        "display_name": "arnaudoff",
+        "link": "https://stackoverflow.com/users/2685732/arnaudoff"
+      }
+    },
+    {
+      "question_id": 58898948,
+      "title": "Extend spdlog for custom type",
+      "accepted_answer_id": 58902480,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/58898948/extend-spdlog-for-custom-type",
+      "owner": {
+        "display_name": "pmf",
+        "link": "https://stackoverflow.com/users/112125/pmf"
+      }
+    },
+    {
+      "question_id": 79604713,
+      "title": "Linking error in static linking with -gc-sections option",
+      "accepted_answer_id": 79618213,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/79604713/linking-error-in-static-linking-with-gc-sections-option",
+      "owner": {
+        "display_name": "Tend",
+        "link": "https://stackoverflow.com/users/15153171/tend"
+      }
+    },
+    {
+      "question_id": 38159466,
+      "title": "cmake include header only library",
+      "accepted_answer_id": 38168202,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/38159466/cmake-include-header-only-library",
+      "owner": {
+        "display_name": "xander cage",
+        "link": "https://stackoverflow.com/users/6529123/xander-cage"
+      }
+    },
+    {
+      "question_id": 40685992,
+      "title": "Function from one library matched to template from another library",
+      "accepted_answer_id": 40686483,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/40685992/function-from-one-library-matched-to-template-from-another-library",
+      "owner": {
+        "display_name": "Edward",
+        "link": "https://stackoverflow.com/users/1500563/edward"
+      }
+    },
+    {
+      "question_id": 62320177,
+      "title": "Cannot format argument from within spdlog",
+      "accepted_answer_id": 62326599,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/62320177/cannot-format-argument-from-within-spdlog",
+      "owner": {
+        "display_name": "CygnusX1",
+        "link": "https://stackoverflow.com/users/635654/cygnusx1"
+      }
+    },
+    {
+      "question_id": 74317971,
+      "title": "Cannot format an argument. To make type T formattable provide a frormatter &lt;T&gt;",
+      "accepted_answer_id": 74435993,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/74317971/cannot-format-an-argument-to-make-type-t-formattable-provide-a-frormatter-t",
+      "owner": {
+        "display_name": "user19926715",
+        "link": "https://stackoverflow.com/users/19926715/user19926715"
+      }
+    },
+    {
+      "question_id": 72161009,
+      "title": "spdlog: not configuring the logger correctly using same sink",
+      "accepted_answer_id": 72176190,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/72161009/spdlog-not-configuring-the-logger-correctly-using-same-sink",
+      "owner": {
+        "display_name": "ATK",
+        "link": "https://stackoverflow.com/users/8889824/atk"
+      }
+    },
+    {
+      "question_id": 53446647,
+      "title": "spdlog: failing to flush/write to file",
+      "accepted_answer_id": 53617065,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/53446647/spdlog-failing-to-flush-write-to-file",
+      "owner": {
+        "display_name": "Mike Sadler",
+        "link": "https://stackoverflow.com/users/1297496/mike-sadler"
+      }
+    },
+    {
+      "question_id": 65194529,
+      "title": "How do you reference a specific recipe revision from conan-index?",
+      "accepted_answer_id": 65195490,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/65194529/how-do-you-reference-a-specific-recipe-revision-from-conan-index",
+      "owner": {
+        "display_name": "apanloco",
+        "link": "https://stackoverflow.com/users/592463/apanloco"
+      }
+    },
+    {
+      "question_id": 49413154,
+      "title": "How to declare static information in scopes accessible to nested lexical scopes in C++?",
+      "accepted_answer_id": 49441637,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/49413154/how-to-declare-static-information-in-scopes-accessible-to-nested-lexical-scopes",
+      "owner": {
+        "display_name": "Chris Hunt",
+        "link": "https://stackoverflow.com/users/1698058/chris-hunt"
+      }
+    },
+    {
+      "question_id": 37356743,
+      "title": "How to start and shutdown spdlog multiple times in the same program?",
+      "accepted_answer_id": 37399147,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/37356743/how-to-start-and-shutdown-spdlog-multiple-times-in-the-same-program",
+      "owner": {
+        "display_name": "anon",
+        "link": null
+      }
+    },
+    {
+      "question_id": 69957881,
+      "title": "How I can paint a text background with spdlog?",
+      "accepted_answer_id": 70008122,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/69957881/how-i-can-paint-a-text-background-with-spdlog",
+      "owner": {
+        "display_name": "Andr&#233; Agenor",
+        "link": "https://stackoverflow.com/users/7697174/andr%c3%a9-agenor"
+      }
+    },
+    {
+      "question_id": 68914498,
+      "title": "C++ : how to use spdlog to print custom class pointer?",
+      "accepted_answer_id": 68936801,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/68914498/c-how-to-use-spdlog-to-print-custom-class-pointer",
+      "owner": {
+        "display_name": "R. N",
+        "link": "https://stackoverflow.com/users/3955562/r-n"
+      }
+    },
+    {
+      "question_id": 68508042,
+      "title": "Library compile time settings mismatch when linking spdlog from conan using CMake/VS2019?",
+      "accepted_answer_id": 68522966,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/68508042/library-compile-time-settings-mismatch-when-linking-spdlog-from-conan-using-cmak",
+      "owner": {
+        "display_name": "Brad Heller",
+        "link": "https://stackoverflow.com/users/141128/brad-heller"
+      }
+    },
+    {
+      "question_id": 66473052,
+      "title": "How can I read spdlog output in a google test",
+      "accepted_answer_id": 66490155,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/66473052/how-can-i-read-spdlog-output-in-a-google-test",
+      "owner": {
+        "display_name": "mike",
+        "link": "https://stackoverflow.com/users/822830/mike"
+      }
+    },
+    {
+      "question_id": 64629289,
+      "title": "In custom reverse vector iterator don&#39;t see first element",
+      "accepted_answer_id": 64629422,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/64629289/in-custom-reverse-vector-iterator-dont-see-first-element",
+      "owner": {
+        "display_name": "Kenny Tutorials",
+        "link": "https://stackoverflow.com/users/12102199/kenny-tutorials"
+      }
+    },
+    {
+      "question_id": 61019721,
+      "title": "Why can&#39;t I link to spdlog library installed with conan",
+      "accepted_answer_id": 61020205,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/61019721/why-cant-i-link-to-spdlog-library-installed-with-conan",
+      "owner": {
+        "display_name": "samoncode",
+        "link": "https://stackoverflow.com/users/1735706/samoncode"
+      }
+    },
+    {
+      "question_id": 59868040,
+      "title": "How do I expose a library&#39;s enum, such that my code doesn&#39;t have to type out the entire namespace to use that enum?",
+      "accepted_answer_id": 59868125,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/59868040/how-do-i-expose-a-librarys-enum-such-that-my-code-doesnt-have-to-type-out-the",
+      "owner": {
+        "display_name": "Max",
+        "link": "https://stackoverflow.com/users/2226323/max"
+      }
+    },
+    {
+      "question_id": 59591066,
+      "title": "Getting multiple redifinition errors when trying to build using CMake and MinGW64",
+      "accepted_answer_id": 59668975,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/59591066/getting-multiple-redifinition-errors-when-trying-to-build-using-cmake-and-mingw6",
+      "owner": {
+        "display_name": "Steven",
+        "link": "https://stackoverflow.com/users/11783500/steven"
+      }
+    },
+    {
+      "question_id": 53432887,
+      "title": "spdlog error: &quot;don&#39;t know how to format the type, include fmt/ostream.h if it provides an operator&lt;&lt; that should be used&quot;",
+      "accepted_answer_id": 53433558,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/53432887/spdlog-error-dont-know-how-to-format-the-type-include-fmt-ostream-h-if-it-pr",
+      "owner": {
+        "display_name": "Mike Sadler",
+        "link": "https://stackoverflow.com/users/1297496/mike-sadler"
+      }
+    },
+    {
+      "question_id": 49258972,
+      "title": "Spdlog logger with gtest framework is not working",
+      "accepted_answer_id": 49262014,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/49258972/spdlog-logger-with-gtest-framework-is-not-working",
+      "owner": {
+        "display_name": "wpater",
+        "link": "https://stackoverflow.com/users/6490626/wpater"
+      }
+    },
+    {
+      "question_id": 28280023,
+      "title": "How to change the default rolling time in spdlog daily logger?",
+      "accepted_answer_id": 28282815,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/28280023/how-to-change-the-default-rolling-time-in-spdlog-daily-logger",
+      "owner": {
+        "display_name": "Ofiris",
+        "link": "https://stackoverflow.com/users/1361084/ofiris"
+      }
+    },
+    {
+      "question_id": 78122252,
+      "title": "Integration of drake to OpenSUSE - build error with spdlog and fmt",
+      "accepted_answer_id": 78132860,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/78122252/integration-of-drake-to-opensuse-build-error-with-spdlog-and-fmt",
+      "owner": {
+        "display_name": "Daniel He",
+        "link": "https://stackoverflow.com/users/7956479/daniel-he"
+      }
+    },
+    {
+      "question_id": 77785201,
+      "title": "Abstraction for logger objects (currently spdlog)",
+      "accepted_answer_id": 77786170,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/77785201/abstraction-for-logger-objects-currently-spdlog",
+      "owner": {
+        "display_name": "klonyyy",
+        "link": "https://stackoverflow.com/users/19622324/klonyyy"
+      }
+    },
+    {
+      "question_id": 76659640,
+      "title": "LNK2038 mismatch detected for &#39;RuntimeLibrary&#39;: value &#39;MT_StaticRelease&#39; doesn&#39;t match value &#39;MDd_DynamicDebug&#39; in cmake_pch.obj",
+      "accepted_answer_id": 76663857,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/76659640/lnk2038-mismatch-detected-for-runtimelibrary-value-mt-staticrelease-doesnt",
+      "owner": {
+        "display_name": "Dan",
+        "link": "https://stackoverflow.com/users/1624459/dan"
+      }
+    },
+    {
+      "question_id": 75530109,
+      "title": "How to print time in log file using spdlog",
+      "accepted_answer_id": 75531029,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/75530109/how-to-print-time-in-log-file-using-spdlog",
+      "owner": {
+        "display_name": "digito_evo",
+        "link": "https://stackoverflow.com/users/13407802/digito-evo"
+      }
+    },
+    {
+      "question_id": 74639871,
+      "title": "How to configure spdlog logger used in a pybind11 module",
+      "accepted_answer_id": 76626914,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/74639871/how-to-configure-spdlog-logger-used-in-a-pybind11-module",
+      "owner": {
+        "display_name": "luator",
+        "link": "https://stackoverflow.com/users/2095383/luator"
+      }
+    },
+    {
+      "question_id": 73026939,
+      "title": "Spdlog: Only write to file if there is an error",
+      "accepted_answer_id": 73028268,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/73026939/spdlog-only-write-to-file-if-there-is-an-error",
+      "owner": {
+        "display_name": "Luphaestus",
+        "link": "https://stackoverflow.com/users/16560321/luphaestus"
+      }
+    },
+    {
+      "question_id": 71637182,
+      "title": "Segmentation fault when logging using spdlog in an app that includes another spdlog",
+      "accepted_answer_id": 71647999,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/71637182/segmentation-fault-when-logging-using-spdlog-in-an-app-that-includes-another-spd",
+      "owner": {
+        "display_name": "La bla bla",
+        "link": "https://stackoverflow.com/users/975959/la-bla-bla"
+      }
+    },
+    {
+      "question_id": 70682335,
+      "title": "query the spdlog logger name",
+      "accepted_answer_id": 70682418,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/70682335/query-the-spdlog-logger-name",
+      "owner": {
+        "display_name": "Alejandro",
+        "link": "https://stackoverflow.com/users/10392393/alejandro"
+      }
+    },
+    {
+      "question_id": 66531834,
+      "title": "Get log from spdlog in qtextedit object from qt",
+      "accepted_answer_id": 68581739,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/66531834/get-log-from-spdlog-in-qtextedit-object-from-qt",
+      "owner": {
+        "display_name": "Kafka",
+        "link": "https://stackoverflow.com/users/5708002/kafka"
+      }
+    },
+    {
+      "question_id": 59063024,
+      "title": "4 same unhelpful errors for every error I receive in c++",
+      "accepted_answer_id": 59063465,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/59063024/4-same-unhelpful-errors-for-every-error-i-receive-in-c",
+      "owner": {
+        "display_name": "Yea okay",
+        "link": "https://stackoverflow.com/users/6217440/yea-okay"
+      }
+    },
+    {
+      "question_id": 52294586,
+      "title": "Why Qt Creator&#39;s application output does not print from spdlog logger",
+      "accepted_answer_id": 52308093,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/52294586/why-qt-creators-application-output-does-not-print-from-spdlog-logger",
+      "owner": {
+        "display_name": "Main",
+        "link": "https://stackoverflow.com/users/4131835/main"
+      }
+    },
+    {
+      "question_id": 79768083,
+      "title": "How do I set the spdlog log level in a Catch2 unit test?",
+      "accepted_answer_id": 79781925,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/79768083/how-do-i-set-the-spdlog-log-level-in-a-catch2-unit-test",
+      "owner": {
+        "display_name": "user2138149",
+        "link": "https://stackoverflow.com/users/893254/user2138149"
+      }
+    },
+    {
+      "question_id": 78819757,
+      "title": "Why spdlog not print in async function",
+      "accepted_answer_id": 78819792,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/78819757/why-spdlog-not-print-in-async-function",
+      "owner": {
+        "display_name": "river7816",
+        "link": "https://stackoverflow.com/users/18134264/river7816"
+      }
+    },
+    {
+      "question_id": 78707422,
+      "title": "QtCreator &quot;application output&quot; not colored with logs from spdlog (c++)",
+      "accepted_answer_id": 78707485,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/78707422/qtcreator-application-output-not-colored-with-logs-from-spdlog-c",
+      "owner": {
+        "display_name": "AllDay",
+        "link": "https://stackoverflow.com/users/2185931/allday"
+      }
+    },
+    {
+      "question_id": 78561715,
+      "title": "How to make libcurl work with other web connected libraries",
+      "accepted_answer_id": 78562006,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/78561715/how-to-make-libcurl-work-with-other-web-connected-libraries",
+      "owner": {
+        "display_name": "grizzlyborg",
+        "link": "https://stackoverflow.com/users/7994289/grizzlyborg"
+      }
+    },
+    {
+      "question_id": 78162218,
+      "title": "Integration of drake to OpenSUSE - build error with spdlog and fmt Part 2",
+      "accepted_answer_id": 78162314,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/78162218/integration-of-drake-to-opensuse-build-error-with-spdlog-and-fmt-part-2",
+      "owner": {
+        "display_name": "Daniel He",
+        "link": "https://stackoverflow.com/users/7956479/daniel-he"
+      }
+    },
+    {
+      "question_id": 75856428,
+      "title": "For Spdlog in C++, the typical example is to declare your log inside a function, but what if you want a single log used globally?",
+      "accepted_answer_id": 78914668,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/75856428/for-spdlog-in-c-the-typical-example-is-to-declare-your-log-inside-a-function",
+      "owner": {
+        "display_name": "K. Trotman",
+        "link": "https://stackoverflow.com/users/21501313/k-trotman"
+      }
+    },
+    {
+      "question_id": 73736831,
+      "title": "C++ spdlog use variables",
+      "accepted_answer_id": 73741695,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/73736831/c-spdlog-use-variables",
+      "owner": {
+        "display_name": "Turgut",
+        "link": "https://stackoverflow.com/users/19574336/turgut"
+      }
+    },
+    {
+      "question_id": 70663669,
+      "title": "How to play with spdlog?",
+      "accepted_answer_id": 70663725,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/70663669/how-to-play-with-spdlog",
+      "owner": {
+        "display_name": "KcFnMi",
+        "link": "https://stackoverflow.com/users/5082463/kcfnmi"
+      }
+    },
+    {
+      "question_id": 69762366,
+      "title": "spdlog for C++; what(): Failed opening file ~/logs/log.txt for writing: No such file or directory",
+      "accepted_answer_id": 69763590,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/69762366/spdlog-for-c-what-failed-opening-file-logs-log-txt-for-writing-no-such",
+      "owner": {
+        "display_name": "Charkrit_A",
+        "link": "https://stackoverflow.com/users/15655948/charkrit-a"
+      }
+    },
+    {
+      "question_id": 68762824,
+      "title": "SPDLOG_LOGGER_CALL and __VA_ARGS__ in",
+      "accepted_answer_id": 68762972,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/68762824/spdlog-logger-call-and-va-args-in",
+      "owner": {
+        "display_name": "flashburn",
+        "link": "https://stackoverflow.com/users/1636521/flashburn"
+      }
+    },
+    {
+      "question_id": 68338203,
+      "title": "Base Class causes Compilation Error (Visual Studio)",
+      "accepted_answer_id": 68343479,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/68338203/base-class-causes-compilation-error-visual-studio",
+      "owner": {
+        "display_name": "TheBeardless",
+        "link": "https://stackoverflow.com/users/15530268/thebeardless"
+      }
+    },
+    {
+      "question_id": 64357943,
+      "title": "I can&#39;t use spdlog loggers in a loop",
+      "accepted_answer_id": 64358203,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/64357943/i-cant-use-spdlog-loggers-in-a-loop",
+      "owner": {
+        "display_name": "Amir reza Riahi",
+        "link": "https://stackoverflow.com/users/12016688/amir-reza-riahi"
+      }
+    },
+    {
+      "question_id": 62808478,
+      "title": "spdlog header-only with external fmt. spdlog error: &#39;internal&#39;: is not a member of &#39;fmt&#39;",
+      "accepted_answer_id": 62827183,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/62808478/spdlog-header-only-with-external-fmt-spdlog-error-internal-is-not-a-member",
+      "owner": {
+        "display_name": "Chase Choi",
+        "link": "https://stackoverflow.com/users/7077791/chase-choi"
+      }
+    },
+    {
+      "question_id": 61485771,
+      "title": "Pointer macros are not functioning",
+      "accepted_answer_id": 61508369,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/61485771/pointer-macros-are-not-functioning",
+      "owner": {
+        "display_name": "user19273",
+        "link": "https://stackoverflow.com/users/10668553/user19273"
+      }
+    },
+    {
+      "question_id": 59141827,
+      "title": "Grabbing printed statements from console C++",
+      "accepted_answer_id": 59141936,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/59141827/grabbing-printed-statements-from-console-c",
+      "owner": {
+        "display_name": "Yea okay",
+        "link": "https://stackoverflow.com/users/6217440/yea-okay"
+      }
+    },
+    {
+      "question_id": 58233273,
+      "title": "How to escape spdlog message?",
+      "accepted_answer_id": 58234898,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/58233273/how-to-escape-spdlog-message",
+      "owner": {
+        "display_name": "mortymacs",
+        "link": "https://stackoverflow.com/users/2338672/mortymacs"
+      }
+    },
+    {
+      "question_id": 52750271,
+      "title": "Installing spdlog by copying contents of include directory",
+      "accepted_answer_id": 52754005,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/52750271/installing-spdlog-by-copying-contents-of-include-directory",
+      "owner": {
+        "display_name": "Nick Silvestri",
+        "link": "https://stackoverflow.com/users/9378561/nick-silvestri"
+      }
+    },
+    {
+      "question_id": 52679326,
+      "title": "spdlog unexpected include reference point",
+      "accepted_answer_id": 52679411,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/52679326/spdlog-unexpected-include-reference-point",
+      "owner": {
+        "display_name": "kroiz",
+        "link": "https://stackoverflow.com/users/193016/kroiz"
+      }
+    },
+    {
+      "question_id": 50919723,
+      "title": "C++ | spdlog | How to have sincs with different formatters?",
+      "accepted_answer_id": 51033328,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/50919723/c-spdlog-how-to-have-sincs-with-different-formatters",
+      "owner": {
+        "display_name": "motam79",
+        "link": "https://stackoverflow.com/users/2030532/motam79"
+      }
+    },
+    {
+      "question_id": 63175618,
+      "title": "Accessing an external project with add-subdirectory results in CMake Error related to export set",
+      "accepted_answer_id": 63176873,
+      "score": -1,
+      "link": "https://stackoverflow.com/questions/63175618/accessing-an-external-project-with-add-subdirectory-results-in-cmake-error-relat",
+      "owner": {
+        "display_name": "AK007",
+        "link": "https://stackoverflow.com/users/14022633/ak007"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 79781925,
+      "body": "<h1>Solution</h1>\n<p>Two things are required:</p>\n<ol>\n<li><code>#define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE</code>, which must be placed <strong>before</strong> <code>#include &lt;spdlog/spdlog.h&gt;</code></li>\n<li><code>spdlog::set_level(spdlog::level::trace);</code> must be called in each test case</li>\n</ol>\n<h2>Example:</h2>\n<pre class=\"lang-cpp prettyprint-override\"><code>#define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE\n#include &lt;spdlog/spdlog.h&gt;\n\n#include &lt;catch2/catch_all.hpp&gt;\n\nint bar(int x) {\n    SPDLOG_TRACE(&quot;{} x={} &quot;, __PRETTY_FUNCTION__, x);\n    return x + 1;\n}\n\nTEST_CASE(&quot;Bar&quot;) {\n\n    spdlog::set_level(spdlog::level::trace);\n\n    REQUIRE(bar(3) == 5);\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "user2138149",
+        "link": "https://stackoverflow.com/users/893254/user2138149"
+      }
+    },
+    {
+      "answer_id": 79618213,
+      "body": "<blockquote>\n<p>What I'm interested in is understanding why I get that error. Is it something I'm doing wrong, I'm missing something or is it a bug in gold?</p>\n</blockquote>\n<p>You aren't missing anything (at least nothing relevant to the linkage failure)\nand aren't doing anything wrong. There is a corner-case bug in <code>ld.gold</code>.</p>\n<hr>\n<p><strong>Repro</strong></p>\n<p>I have your progam source in <code>test.cpp</code>. I haven't installed the header-only libraries\n<code>spdlog</code> or <code>fmt</code>; I've just cloned the repos for the present purpose.</p>\n<pre><code>$ g++ --version | head -n1\ng++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0\n\n$ ld.gold --version | head -n1\nGNU gold (GNU Binutils for Ubuntu 2.42) 1.16\n\n$ export CPATH=$HOME/develop/spdlog/include:$HOME/develop/fmt/include\n$ g++ -c test.cpp\n</code></pre>\n<p>Link without <code>-gc-sections</code>:</p>\n<pre><code>$ g++ test.o -fuse-ld=gold -static; echo Done\nDone\n</code></pre>\n<p>And with <code>-gc-sections</code>:</p>\n<pre><code>$ g++ test.o -fuse-ld=gold -static -Wl,-gc-sections; echo Done\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)(.note.stapsdt+0x14): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)(.note.stapsdt+0x74): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\ncollect2: error: ld returned 1 exit status\nDone\n</code></pre>\n<hr>\n<p><strong>Trying other linkers</strong></p>\n<p>Besides <code>gold</code>, <code>-fuse-ld</code> recognises three other ELF linkers. Let's try them all at\nthat linkage:</p>\n<p><em>ld.bfd (the default GNU linker)</em></p>\n<pre><code>$ ld.bfd --version | head -n1\nGNU ld (GNU Binutils for Ubuntu) 2.42\n\n$ g++ test.o -fuse-ld=bfd -static -Wl,-gc-sections\n$ ./a.out\nHello, fmt!\n[2025-05-06 18:17:10.378] [info] Hello, spdlog!\n</code></pre>\n<p><em>ld.lld (the LLVM linker)</em></p>\n<pre><code>$ ld.lld --version | head -n1\nUbuntu LLD 18.1.6 (compatible with GNU linkers)\n\n$ g++ test.o -fuse-ld=lld -static -Wl,-gc-sections\n$ ./a.out\nHello, fmt!\n[2025-05-06 18:18:21.994] [info] Hello, spdlog!\n</code></pre>\n<p><em>ld.mold (the Modern linker)</em></p>\n<pre><code>$ ld.mold --version | head -n1\nmold 2.30.0 (compatible with GNU ld)\n\n$ g++ test.o -fuse-ld=mold -static -Wl,-gc-sections\n$ ./a.out\nHello, fmt!\n[2025-05-06 18:22:47.597] [info] Hello, spdlog!\n</code></pre>\n<p>So <code>gold</code> is the only one that can't link this program.</p>\n<hr>\n<p><strong>What is <code>gold</code> doing wrong?</strong></p>\n<p>The first diagnostic:</p>\n<pre><code>/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)(.note.stapsdt+0x14): \\\nerror: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n</code></pre>\n<p>is reporting that the relocation target at offset 0x14 in section <code>.note.stapsdt</code> of object file\n<code>libc.a(pthread_create.o)</code> refers to the local symbol <code>.text</code>, which is symbol #1 in that object\nfile, and that this relocation can't be carried out because the section in which that symbol is\ndefined has been discarded.</p>\n<p>The second diagnostic is the just same, except that the relocation target this time is\nat offset 0x74, so we'll just pursue the first diagnostic.</p>\n<p>Let's check that it's true.</p>\n<p>First get that object file:</p>\n<pre><code>$ ar -x $(realpath /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a) pthread_create.o\n</code></pre>\n<p>Check out the relocations for its <code>note.stapsdt</code> section:</p>\n<pre><code>$ readelf -rW pthread_create.o\n...[cut]...\nRelocation section '.rela.note.stapsdt' at offset 0x46f8 contains 4 entries:\n    Offset             Info             Type               Symbol's Value  Symbol's Name + Addend\n0000000000000014  0000000100000001 R_X86_64_64            0000000000000000 .text + 40e\n000000000000001c  0000003000000001 R_X86_64_64            0000000000000000 _.stapsdt.base + 0\n0000000000000074  0000000100000001 R_X86_64_64            0000000000000000 .text + c7b\n000000000000007c  0000003000000001 R_X86_64_64            0000000000000000 _.stapsdt.base + 0\n...[cut]...\n</code></pre>\n<p>Yes, it has relocation targets at offset 0x14 and 0x74. The first one is to be patched using the address\nof symbol # 1 ( = Info &gt;&gt; 32) in the symbol table (which we're told is <code>.text</code>) + 0x40e. Symbol #1 in <code>pthread_create.o</code> is</p>\n<pre><code>$ readelf -sW pthread_create.o | grep ' 1:'\n     1: 0000000000000000     0 SECTION LOCAL  DEFAULT    2 .text\n     \n</code></pre>\n<p>indeed local symbol <code>.text</code>, (a section name) and it is defined in section #2 of the file\nwhich of course is:</p>\n<pre><code>$ readelf -SW pthread_create.o | grep ' 2]'\n  [ 2] .text             PROGBITS        0000000000000000 000050 001750 00  AX  0   0 16\n  \n</code></pre>\n<p>the <code>.text</code> section.</p>\n<p>So the diagnostic reports that <code>gold</code> has binned the <code>.text</code> section of <code>pthread_create.o</code>. Let's\nask gold to tell us what sections of <code>pthread_create.o</code> it discarded.</p>\n<pre><code>$ g++ test.o -fuse-ld=gold -static -Wl,-gc-sections,-print-gc-sections 2&gt;&amp;1 | grep pthread_create.o\n/usr/bin/ld.gold: removing unused section from '.text' in file '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)'\n/usr/bin/ld.gold: removing unused section from '.data' in file '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)'\n/usr/bin/ld.gold: removing unused section from '.bss' in file '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)'\n/usr/bin/ld.gold: removing unused section from '.rodata.str1.1' in file '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)'\n/usr/bin/ld.gold: removing unused section from '.rodata.str1.8' in file '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)'\n/usr/bin/ld.gold: removing unused section from '.text.unlikely' in file '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)'\n/usr/bin/ld.gold: removing unused section from '.rodata.str1.16' in file '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)'\n/usr/bin/ld.gold: removing unused section from '.rodata.cst4' in file '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)'\n/usr/bin/ld.gold: removing unused section from '.rodata' in file '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)'\n/usr/bin/ld.gold: removing unused section from '.rodata.cst8' in file '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)'\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)(.note.stapsdt+0x14): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)(.note.stapsdt+0x74): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n</code></pre>\n<p>It discarded 10 of the:</p>\n<pre><code>$ readelf -SW pthread_create.o | head -n1\nThere are 23 section headers, starting at offset 0x48c0:\n</code></pre>\n<p>23 sections in the file, including <code>.text</code>, as compared with:</p>\n<pre><code>$ g++ test.o -fuse-ld=bfd -static -Wl,-gc-sections,-print-gc-sections 2&gt;&amp;1 | grep pthread_create.o\n/usr/bin/ld.bfd: removing unused section '.group' in file '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)'\n/usr/bin/ld.bfd: removing unused section '.stapsdt.base[.stapsdt.base]' in file '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)'\n/usr/bin/ld.bfd: removing unused section '.rodata.cst4' in file '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)'\n/usr/bin/ld.bfd: removing unused section '.rodata' in file '/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)'\n</code></pre>\n<p>the 4 sections discarded by <code>ld.bfd</code>, excluding <code>.text</code>. <code>gold</code> also <em>retains</em> 2 sections (<code>.group</code>,<code>stapsdt.base</code>) that <code>bfd</code> discards, but the outcome\nsays that <code>gold</code> has chucked out a baby with the bathwater.</p>\n<hr>\n<p><strong>The linkage error is a (all but) a false alarm</strong></p>\n<p>The retention of section <code>.note.stapsdt</code> from <code>pthread_create.o</code> sets it off. This\nsection is retained because any output <code>.note.*</code> section will be a GC-root section for\nany linker: <code>.note</code> sections are conventionally reserved for special information to\nbe consumed by other programs, and as such are unconditionaally retained in the same\nway as ones defining external symbols. <code>note.stapsdt</code> sections in particular are emitted to expose\npatch points for the runtime insertion of <a href=\"https://www.sourceware.org/systemtap/wiki/\" rel=\"nofollow noreferrer\">Systemtap</a>\ninstrumentation hooks.</p>\n<p>Presumably, you don't care if this program has Systemtap support. You've just got\nit because it's compiled into <code>pthread_create.o</code> (and elsewhere in GLIBC). The\nenabling <code>.note.stapsdt</code> section it a GC-root section in <code>pthread_create.o</code> that\nreferences its <code>.text</code> section. But your program has no functional need for that\n<code>.text</code> section. We can observe this by just blowing through the linkage failure\nwith:</p>\n<pre><code>$ rm a.out\n$ g++ test.o -fuse-ld=gold -static -Wl,-gc-sections,--noinhibit-exec\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)(.note.stapsdt+0x14): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)(.note.stapsdt+0x74): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n</code></pre>\n<p><code>--noinhibit-exec</code> tells the linker to output a viable image if it can make one, notwithstanding\nerrors. And in this case:</p>\n<pre><code>$ ./a.out\nHello, fmt!\n[2025-05-07 10:51:57.987] [info] Hello, spdlog!\n</code></pre>\n<p>The <code>.text</code> section of <code>pthread_create.o</code> is garbage-collected; the linkage errors,\nbut the program is perfectly fine.</p>\n<p>So we'd expect a clean linkage if we yank <code>.note.stapsdt</code> out of <code>pthread_create.o</code>\nand interpose the modified object file in the link, and so we do:</p>\n<pre><code>$ objcopy --remove-section='.note.stapsdt' pthread_create.o pthread_create_nostap.o\n$ g++ test.o pthread_create_nostap.o -fuse-ld=gold -static -Wl,-gc-sections\n$ ./a.out\nHello, fmt!\n[2025-05-07 11:08:27.647] [info] Hello, spdlog!\n</code></pre>\n<p>The program is fine without the <code>.note.stapsdt</code> and/or the <code>.text</code> section of\n<code>pthread_create.o</code>, but Systemtap would not be fine with the program. That's\nthe cash value of the linkage failure.</p>\n<hr>\n<p><strong>The linkage error has nothing to do with your particular program</strong>.</p>\n<p>Check out this deranged linkage:</p>\n<pre><code>$ cat main.c\nint main(void)\n{\n    return 0;\n}\n\n$ gcc main.c -static -Wl,-gc-sections,--whole-archive,-lc,--no-whole-archive\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(dso_handle.o):(.data.rel.ro.local+0x0): multiple definition of `__dso_handle'; /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginT.o:(.data+0x0): first defined here\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(rcmd.o): in function `__validuser2_sa':\n(.text+0x5e8): warning: Using 'getaddrinfo' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(rcmd.o): note: the message above does not take linker garbage collection into account\n/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(dl-reloc-static-pie.o): in function `_dl_relocate_static_pie':\n(.text+0x0): multiple definition of `_dl_relocate_static_pie'; /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crt1.o:(.text+0x30): first defined here\ncollect2: error: ld returned 1 exit status\n</code></pre>\n<p>where I'm trying and failing to make a garbage-collected static linkage of the whole of GLIBC into a do-nothing program, with the default linker.</p>\n<p>Now let's repeat the failure with <code>gold</code>:</p>\n<pre><code>$ gcc main.c -fuse-ld=gold -static -Wl,-gc-sections,--whole-archive,-lc,--no-whole-archive\n/usr/bin/ld.gold: error: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(dso_handle.o): multiple definition of '__dso_handle'\n/usr/bin/ld.gold: /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginT.o: previous definition here\n/usr/bin/ld.gold: error: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(dl-reloc-static-pie.o): multiple definition of '_dl_relocate_static_pie'\n/usr/bin/ld.gold: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crt1.o: previous definition here\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_cond_destroy.o)(.note.stapsdt+0x14): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_cond_init.o)(.note.stapsdt+0x14): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)(.note.stapsdt+0x14): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_create.o)(.note.stapsdt+0x74): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_join_common.o)(.note.stapsdt+0x14): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_join_common.o)(.note.stapsdt+0x5c): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_mutex_destroy.o)(.note.stapsdt+0x14): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_mutex_init.o)(.note.stapsdt+0x14): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_mutex_timedlock.o)(.note.stapsdt+0x14): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_mutex_timedlock.o)(.note.stapsdt+0x68): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_mutex_timedlock.o)(.note.stapsdt+0xbc): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_mutex_timedlock.o)(.note.stapsdt+0x11c): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(pthread_rwlock_destroy.o)(.note.stapsdt+0x14): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(____longjmp_chk.o)(.note.stapsdt+0x14): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.a(____longjmp_chk.o)(.note.stapsdt+0x64): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\ncollect2: error: ld returned 1 exit status\n</code></pre>\n<p>Now we're sprayed with:</p>\n<pre><code>libc.a(???.o)(.note.stapsdt+???): error: relocation refers to local symbol &quot;.text&quot; [1], which is defined in a discarded section\n</code></pre>\n<p>errors that weren't there before, the great majority of the <code>???.o</code> being <code>pthread_???.o</code>.</p>\n<hr>\n<p><strong>How does <code>gold</code> come to disregard the <code>note.stapsdt</code> references into <code>.text</code>\nin <code>pthread_create.o</code>?</strong></p>\n<p>To understand that I had to get the <a href=\"https://github.com/bminor/binutils-gdb\" rel=\"nofollow noreferrer\"><code>binutils-gdb</code> source code</a>,\nstudy the <code>gold</code> source and debug a build of it on the problem linkage with ad-hoc diagnostics added. Here is the gist.</p>\n<p><code>gold</code>'s GC algorithm initally reserves a set of GC-root sections in the pre-GC linkage to be retained\nunconditionally. These include the section that contains the <code>_start</code> symbol (or\nother non-default program entry symbol), plus  all sections that match a hard-coded\nset of prefixes or names, including all <code>.note.*</code> sections. So <code>pthread_create.o(.note.stapsdt)</code> is one of them.</p>\n<p>For each section <code>src_object.o(.src_sec)</code> of each object file linked - provided it is\na type-<code>ALLOC</code> section - GC maps that section to list of the relocations ( = references) from <code>src_object.o(.src_sec)</code>\ninto any other input section <code>dest_object.o(.dest_sec)</code>, so that if <code>src_object.o(.src_sec)</code> is\nretained then <code>dest_object.o(.dest_sec)</code> will also be retained. An <code>ALLOC</code> section here\nmeans one that will occupy space in the process image, as indicated by\nby flag <code>SHF_ALLOC</code> set in the section header. This property can be taken to mean that the section\nwould be <em>worth</em> garbage collecting. The algorithm\ndiscovers the relocations by reading the corresponding relocations section <code>src_object.o(.rel[a].src_sec</code>).</p>\n<p>Then, starting with the GC-root sections, the algorithm recursively determines for each\nretained section what other sections it refers to, as per its associated relocations, and\nadds the sections referred to to the retained list. Finally, all sections not retained are discarded.</p>\n<p>This is all as should be, except for the winnowing out of sections that are\nnot type <code>ALLOC</code> from relocations gathering. That is a flaw, because a <code>.note.*</code> section, depending\non its kind, might be type <code>ALLOC</code> (e.g. <code>.note.gnu.property</code>, <code>.note.ABI-tag</code> in this linkage) or it might not\n(e.g. <code>.note.gnu.gold-version</code>, <code>note.stapsdt</code> in this linkage), and being non-<code>ALLOC</code> does not\npreclude it having relocations into <code>ALLOC</code> sections. The bug will sleep soundly\nas long as a non-<code>ALLOC</code> <code>.note.*</code> section that is winnowed out of\nGC relocations processing does not contain relocations.</p>\n<p>Section <code>pthread_create.o(.note.stapsdt)</code> is non-<code>ALLOC</code>:</p>\n<pre><code>$ readelf -SW pthread_create.o | egrep '(.note.stapsdt|Section|Flg)'\nSection Headers:\n  [Nr] Name              Type            Address          Off    Size   ES Flg Lk Inf Al\n  [ 8] .note.stapsdt     NOTE            0000000000000000 001928 0000c8 00      0   0  4\n  [ 9] .rela.note.stapsdt RELA            0000000000000000 0046f8 000060 18   I 20   8  8\n  \n</code></pre>\n<p>(<code>Flg</code> <code>A</code> not set), but <em>does</em> have relocations. So the\nbug bites. The GC algorithm never sees the associated\nrelocations in <code>rela.note.stapsdt</code> that refer to <code>pthread_create.o(.text)</code>. When it finds that\n<code>pthread_create.o(.note.stapsdt)</code> is non-<code>ALLOC</code> it just skips over <code>.pthread_create.o(.rela.note.stapsdt)</code>\nwithout further ado.</p>\n<p>Thus GC never records that <code>pthread_create.o(.note.stapsdt)</code> - retained -\nrefers to <code>pthread_create.o(.text)</code>, and since nothing else refers to <code>pthread_create.o(.text)</code>,\nit is discarded. When time comes to <em>apply</em> relocations to <code>pthread_create.o(.note.stapsdt)</code>,\nthe section they refer to is no longer in the linkage.</p>\n<p>A comment in file <code>binutils-gdb/gold/reloc.cc</code> explaining the flawed\nwinnowing test:</p>\n<pre><code>  // We are scanning relocations in order to fill out the GOT and\n  // PLT sections.  Relocations for sections which are not\n  // allocated (typically debugging sections) should not add new\n  // GOT and PLT entries.  So we skip them unless this is a\n  // relocatable link or we need to emit relocations.  FIXME: What\n  // should we do if a linker script maps a section with SHF_ALLOC\n  // clear to a section with SHF_ALLOC set?\n  \n</code></pre>\n<p>illuminates how <code>.note.stapsdt</code> sections fall through the cracks. It is\nunclear to me why this <em>a priori</em> logic should be allowed to prevail over\ncontrary evidence that a non-<code>ALLOC</code> <code>.somesec</code> section <em>does</em> have relocations as\nprovided by the existence of a <code>.rel[a].somesec</code> section. If such\nnon-<code>ALLOC</code> sections were acknowledged they would need to be\ndeferred for special &quot;inverted&quot; GC-handling: Instead of taking their retention\nto entail the retention of any sections that they transitively refer to,\nGC would need to determine what other sections are to be discarded without reference to the non-<code>ALLOC</code> ones\nand then <em>also</em> discard all the non-<code>ALLOC</code> ones that refer only to already discarded sections.\nThe open <code>FIXME</code> is pointed in our context because it foresees the <em>a priori</em> logic\ncoming unstuck, but not in quite the way that we observe.</p>\n<hr>\n<p><strong>Is there a <code>gold</code> workaround?</strong></p>\n<p>That code comment kindles hope that we might dodge the bug if we were either to:-</p>\n<ul>\n<li>Perform a relocatable (<code>-r|--relocatable</code>), static, garbage-collected preliminary\nlinkage of <code>test.o</code>, then statically link the resulting object file\ninto a program, requesting <code>-nostartfiles</code> to avoid linking the startup code twice.</li>\n</ul>\n<p>or:-</p>\n<ul>\n<li>Link with <code>-q|--emit relocs</code>, even though we don't want to emit relocations.</li>\n</ul>\n<p>But <code>gold</code> will not play with either of these desperate ruses. The first one:</p>\n<pre><code>$ g++ -o bigobj.o test.o -fuse-ld=gold -static -Wl,-r,--entry=_start,-gc-sections\n/usr/bin/ld.gold: error: cannot mix -r with --gc-sections or --icf\n/usr/bin/ld.gold: internal error in do_layout, at ../../gold/object.cc:1939\ncollect2: error: ld returned 1 exit status\n</code></pre>\n<p>And the second one:</p>\n<pre><code>$ g++ test.o -fuse-ld=gold -static -Wl,-q,-gc-sections\n/usr/bin/ld.gold: internal error in do_layout, at ../../gold/object.cc:1939\ncollect2: error: ld returned 1 exit status\n</code></pre>\n<p>Both of them work with <code>ld.bfd</code>, where they're not needed (They also work with <code>mold</code>, and\nboth fail with <code>lld</code>). AFAICS the only remedies that work for <code>gold</code> are the ones we've already seen: either link with <code>--noinhibit-exec</code>,\nor else use <code>objcopy</code> to make santitised copies of the problem object files from\nwhich redundant <code>note.stapsdt</code> sections are deleted. At a stretch these might be called workarounds,\nbut hardly <em>gold</em> workarounds. Obviously a reasonable person would give up\non <code>gold</code> and use one of the other linkers that just works (as indeed you are resigned to do).</p>\n<p>Reporting the bug will likely be thankless because <code>gold</code> is moribund, as @Eljay commented.</p>\n<hr>\n<p><strong>Something you are maybe missing (though not relevantly to the linkage failure)</strong>.</p>\n<p>The linkage option <code>-gc-sections</code> is routinely used in conjunction with the\ncompiler options <code>-ffunction-sections</code> and <code>-fdata-sections</code>. These respectively direct the\ncompiler to emit each function definition or data object definition in a section by\nitself, and that empowers GC to work unhandicapped by facing unreferenced\ndefinitions that it cannot discard because they are located in sections that also contain\nreferenced definitions.</p>\n<p>In code from which template instantiations are altogether absent\nor not prevalent, omitting <code>-ffunction-sections</code>, <code>-fdata-sections</code> at compilation\nwill normally render the pay-off of <code>-gc-sections</code> considerably sub-optimal. If\ntemplate instantiations are prevalent the\nhandicap is mitigated <em>pro rata</em> to their prevalence by the fact that the C++ compiler for\n<a href=\"https://stackoverflow.com/q/44335046/1362568\">technical reasons</a> places\ntemplate instantiations in their own sections anyway. The handicap is further mitigated by\noptimisation level, so for a C++ program made almost entirely of template instantiations such\nas yours, with <code>-O3</code> optimisation, <code>-ffunction-sections</code>, <code>fdata-sections</code> at compilation\nmay have little to no benefit on GC. But <em>as a rule</em> they will produce a GC benefit and the\nonly effect they can have is for the better.</p>\n",
+      "owner": {
+        "display_name": "Mike Kinghan",
+        "link": "https://stackoverflow.com/users/1362568/mike-kinghan"
+      }
+    },
+    {
+      "answer_id": 78914668,
+      "body": "<p>This was the answer. I don't know how to make a comment an answer, so I'll have to post it using this method.</p>\n<p>Did you want to make the method static ? Then you can call it without an instance –\n463035818_is_not_an_ai\nCommentedMar 27, 2023 at 14:46</p>\n",
+      "owner": {
+        "display_name": "K. Trotman",
+        "link": "https://stackoverflow.com/users/21501313/k-trotman"
+      }
+    },
+    {
+      "answer_id": 78819792,
+      "body": "<p>By default spdlog doesn't flush for INFO messages, which is why you don't see anything. It will either flush when it gets enough messages (run your program for a long time or change the sleep interval to <code>0.01</code> to see that effect), or <a href=\"https://github.com/gabime/spdlog?tab=readme-ov-file#periodic-flush\" rel=\"nofollow noreferrer\">periodically</a> (though the Python wrapper for spdlog doesn't seem to support changing this setting), or if you change the setting after which types of messages it should flush:</p>\n<pre class=\"lang-py prettyprint-override\"><code>logger.flush_on(spd.LogLevel.INFO)\n</code></pre>\n<p>(Directly after the <code>.set_level()</code> call.)</p>\n",
+      "owner": {
+        "display_name": "chris_se",
+        "link": "https://stackoverflow.com/users/17385571/chris-se"
+      }
+    },
+    {
+      "answer_id": 78707485,
+      "body": "<p>The constructor of that class calls <a href=\"https://github.com/gabime/spdlog/blob/v1.x/include/spdlog/sinks/ansicolor_sink-inl.h#L90-L105\" rel=\"nofollow noreferrer\"><code>set_color_mode</code></a>:</p>\n<pre><code>SPDLOG_INLINE void ansicolor_sink&lt;ConsoleMutex&gt;::set_color_mode(color_mode mode) {\n    switch (mode) {\n        case color_mode::always:\n            should_do_colors_ = true;\n            return;\n        case color_mode::automatic:\n            should_do_colors_ =\n                details::os::in_terminal(target_file_) &amp;&amp; details::os::is_color_terminal();\n            return;\n        case color_mode::never:\n            should_do_colors_ = false;\n            return;\n        default:\n            should_do_colors_ = false;\n    }\n}\n</code></pre>\n<p>As you can see, it explicitly asks if the destination file handle is a terminal. Passing <code>color_mode::always</code> to the constructor should do the trick.</p>\n",
+      "owner": {
+        "display_name": "Botje",
+        "link": "https://stackoverflow.com/users/1548468/botje"
+      }
+    },
+    {
+      "answer_id": 78562006,
+      "body": "<p>The issue was caused by dangling pointers in payload_source(). Thanks to @Retired_Ninja for the tip. A cleaner way to do this is this:</p>\n<pre><code>string sender = &quot;senderEmail@gmail.com&quot;;\nstring password = &quot;password!&quot;;\nstring receiver1 = &quot;otheremail@gmail.com&quot;;\nstring receiver2 = &quot;5551234567@msg.fi.google.com&quot;;\n\nsize_t writeCallback(void* contents, size_t size, size_t nmemb, void* userp) {\n    // Simply discard the response for simplicity in this example\n    return size * nmemb;\n}\nstruct upload_status {\n    int lines_read;\n    size_t bytes_read;\n    vector&lt;string&gt; emailLines;\n};\n\nstatic size_t payload_source(void* ptr, size_t size, size_t nmemb, void* userp)\n{\n    struct upload_status* upload_ctx = (struct upload_status*)userp;\n    const char* data;\n    size_t room = size * nmemb;    \n\n    if ((size == 0) || (nmemb == 0) || ((size * nmemb) &lt; 1)) {\n        return 0;\n    }\n\n    cout &lt;&lt; &quot;sending&quot; &lt;&lt; endl;\n    data = upload_ctx-&gt;emailLines[upload_ctx-&gt;lines_read].c_str();\n\n    if (data &amp;&amp; upload_ctx-&gt;lines_read &lt; upload_ctx-&gt;emailLines.size())    {\n        size_t len = strlen(data);\n        if (room &lt; len)\n            len = room;\n        memcpy(ptr, data, len);\n        upload_ctx-&gt;lines_read++;\n        upload_ctx-&gt;bytes_read += len;\n\n        return len;\n    }\n\n    cout &lt;&lt; &quot;end of payload_source()&quot; &lt;&lt; endl;\n\n\n    return 0;\n}\n\n\nvoid Strategy::SendEmail(string subject, string message)\n{\n    //Solution 1 from here: https://www.codeease.net/programming/c%2b%2b/how-to-send-email-in-c++-program\n    //followup: https://stackoverflow.com/questions/54778300/using-libcurl-to-send-an-email-in-c\n\n    CURL* curl = curl_easy_init();\n    \n    struct upload_status upload_ctx;\n\n    upload_ctx.lines_read = 0;\n\n    if (curl) \n    {\n        string senderLine = (&quot;From: &quot; + sender + &quot;\\r\\n&quot;);\n        string receiverLine = &quot;To: &quot; + receiver1 + &quot;\\r\\n&quot;;\n        string ccLine = &quot;Cc: &quot; + receiver2 + &quot;\\r\\n&quot;;\n\n        string subjectLine = &quot;Subject: &quot; + subject + &quot;\\r\\n&quot;;\n        string bodyLine = message + &quot;\\r\\n&quot;;\n        string footerLine = &quot;Sent from Accelerated Investing at &quot; +                         StockThread::TimeToString(system_clock::now()) + &quot;\\r\\n&quot;;\n\n        upload_ctx.emailLines = {\n            &quot;Date: Mon, 29 Nov 2010 21:54:29 +1100\\r\\n&quot;,\n            receiverLine,\n            senderLine,\n            ccLine,\n            &quot;Message-ID: &lt;dcd7cb36-11db-487a-9f3a-e652a9458efd@rfcpedant.example.org&gt;\\r\\n&quot;,\n            subjectLine,\n            &quot;\\r\\n&quot;,\n            bodyLine,\n            &quot;\\r\\n&quot;,\n            footerLine\n            //&quot;Check RFC5322.\\r\\n&quot;,\n        };\n\n        // Set the SMTP server details\n\n        curl_easy_setopt(curl, CURLOPT_URL, &quot;smtps://smtp.gmail.com:465&quot;);\n        curl_easy_setopt(curl, CURLOPT_USERNAME, &quot;senderEmail@gmail.com&quot;);\n        \n\n        //generated password copied from gmail\n        //go here to change them: https://myaccount.google.com/u/1/apppasswords?pli=1&amp;rapt=AEjHL4M_GxOrC43lsW14JrCVFuwH5SuOBPthkSLYpA090srtteYJgTSiaN4WsvReFBGlCQKQJFRGZbGYhPOQ02dt0qBMD-T6WX-QBmcb6BqqpVRVhXWJyCc\n        curl_easy_setopt(curl, CURLOPT_PASSWORD, &quot;1234 5678 90ab cdef&quot;);\n\n        // Set the sender's email address\n        curl_easy_setopt(curl, CURLOPT_MAIL_FROM, sender);\n        // Set the recipient's email address\n        struct curl_slist* recipients = NULL;\n        recipients = curl_slist_append(recipients, receiver1.c_str());\n        recipients = curl_slist_append(recipients, receiver2.c_str());\n        curl_easy_setopt(curl, CURLOPT_MAIL_RCPT, recipients);\n        // Set the email subject\n        \n        // Set the email body\n        curl_easy_setopt(curl, CURLOPT_READFUNCTION, payload_source);\n        curl_easy_setopt(curl, CURLOPT_UPLOAD, 1L);\n        curl_easy_setopt(curl, CURLOPT_READDATA, &amp;upload_ctx);\n        // Set the callback function to handle the server response\n        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, writeCallback);\n\n        cout &lt;&lt; &quot;sending:&quot; &lt;&lt; endl;\n        cout &lt;&lt; &quot;sending subject:&quot; &lt;&lt; subject &lt;&lt; endl;\n        cout &lt;&lt; &quot;sending body:&quot; &lt;&lt; message &lt;&lt; endl;\n        // Perform the email sending operation\n        CURLcode res = curl_easy_perform(curl);\n        // Check for errors\n        if (res != CURLE_OK) \n        {\n            std::cerr &lt;&lt; &quot;curl_easy_perform() failed: &quot; &lt;&lt; curl_easy_strerror(res) &lt;&lt; std::endl;\n        }\n        // Cleanup\n        curl_slist_free_all(recipients);\n        curl_easy_cleanup(curl);\n\n        cout &lt;&lt; &quot;end of SendEmail()&quot; &lt;&lt; endl;\n    }\n\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "grizzlyborg",
+        "link": "https://stackoverflow.com/users/7994289/grizzlyborg"
+      }
+    },
+    {
+      "answer_id": 78162314,
+      "body": "<p>The lowest fmt version that Drake tests in its CI is 8.1.1.</p>\n<p>It looks like fmt version 8.0.1 is missing this bug fix:\n<a href=\"https://github.com/fmtlib/fmt/commit/ee0659f8b6dafa84f90576ae85adc77c20517286\" rel=\"nofollow noreferrer\">https://github.com/fmtlib/fmt/commit/ee0659f8b6dafa84f90576ae85adc77c20517286</a> that was released in 8.1.0.</p>\n<p>From reading the fmt source code, it looks like a work-around might be to make the Expression class larger than sizeof(double), e.g., with this patch:</p>\n<pre><code>--- a/common/symbolic/expression/boxed_cell.h\n+++ b/common/symbolic/expression/boxed_cell.h\n@@ -360,6 +360,8 @@ class BoxedCell {\n   // Leaving it non-redundantly initialized here is slightly faster.\n   double value_;\n #endif\n+\n+  int fmt_v801_padding_;\n };\n \n }  // namespace internal\n</code></pre>\n",
+      "owner": {
+        "display_name": "jwnimmer-tri",
+        "link": "https://stackoverflow.com/users/13032709/jwnimmer-tri"
+      }
+    },
+    {
+      "answer_id": 78132860,
+      "body": "<p>When building Drake via CMake with user-provided fmt and spdlog, the typical approach is to instruct Drake's CMake code to use <code>find_package()</code> to locate those dependencies, i.e.,</p>\n<pre><code>cmake \\\n    -DWITH_USER_FMT:BOOLEAN=ON \\\n    -DWITH_USER_SPDLOG:BOOLEAN=ON\n</code></pre>\n<p>This skips the pkg-config logic that would otherwise happen by default inside of Drake.</p>\n<p>In fact, it would be most typical to have an overall CMakeLists project build those instead of using the Dockerfile (as shown in <a href=\"https://github.com/RobotLocomotion/drake-external-examples/blob/main/drake_cmake_external/CMakeLists.txt\" rel=\"nofollow noreferrer\">https://github.com/RobotLocomotion/drake-external-examples/blob/main/drake_cmake_external/CMakeLists.txt</a> ) but that's not strictly required.</p>\n<p>The main point is to turn on &quot;WITH_USER_FMT&quot; etc., and be sure that you've build fmt and spdlog in a way that CMake will find (or you've set <code>CMAKE_PREFIX_PATH</code> to help find them).</p>\n<p>Looking at the gist output, the other problem is that your <code>spdlog</code> build is using a bundled copy of <code>fmt</code>.  You need to configure your spdlog build to use the copy of fmt you already built, as in <code>-DSPDLOG_FMT_EXTERNAL:BOOLEAN=ON</code> (see <a href=\"https://github.com/RobotLocomotion/drake-external-examples/blob/3a93ccd8404d970aabb22c537080b0c20bf5325f/drake_cmake_external/CMakeLists.txt\" rel=\"nofollow noreferrer\">here</a>).</p>\n<hr />\n<p>Big picture: if SUSE already has any build of spdlog or fmt, it would be ideal to use those instead of building from source.  Possibly WITH_USER_FMT etc with an appropriate CMake prefix path would find the SUSE ones.</p>\n",
+      "owner": {
+        "display_name": "jwnimmer-tri",
+        "link": "https://stackoverflow.com/users/13032709/jwnimmer-tri"
+      }
+    },
+    {
+      "answer_id": 77786170,
+      "body": "<p>This seems to be a clash between compile-time polymorphism (template code) and run-time polymorphism (virtual functions), for which there is no simple solution.</p>\n<h2>Problem</h2>\n<p>To elaborate on that, the typical log function takes a variable number of parameters of various types. This allows logging any type of data, the typical requirement is only that it has a conversion to a string defined. In order to implement that, the C++ tool of choice is to use templates. The mechanism for that is that the compiler looks at the types of the parameters and then creates code depending on those types.</p>\n<p>Now, if you want to exchange the logger library at run-time, you need to use regular, <code>virtual</code>-based polymorphism. This means you write an abstract baseclass which defines the interface and according concrete classes implementing that interface. The problem here is that there is an infinite number of possible member functions you'd have to provide, so that is clearly not feasible.</p>\n<h2>Alternative Polymorphic Sink</h2>\n<p>If you look at spdlog, you will find a <code>log_it_()</code> method. This is the central point to which a prepared record is passed. All log methods converge at that single spot which does the actual work. One approach would be to make this single function virtual, which would allow writing different implementations for it.</p>\n<p>Notes:</p>\n<ul>\n<li>It's unlikely that you could easily hook into other loggers with that. Point is, you couldn't even use it with spdlog, since it requires you to access and modify its internals first.</li>\n<li>There is a runtime overhead from the virtual function call and the additional indirection.</li>\n<li>A null logger still has the overhead of processing the different parameters into a record, which may well involve dynamic allocation.</li>\n</ul>\n<h2>Alternative Type Erasure</h2>\n<p>If you define a set of templates similar to spdlog's which take parameters and then store them as <code>std::any</code>, you could then pass them through a single virtual function, which you could then use to plug in different logging libraries.</p>\n<p>Notes:</p>\n<ul>\n<li>The code to extract the types and forward them to according loggers is non-trivial and large. Also, you will not be able to cover 100% of all cases that you could by accessing the logging library directly.</li>\n<li><code>std::any</code> also has allocation overhead. How it compares to the Polymorphic Sink approach above isn't clear.</li>\n<li>A null logger would still have the overhead of the conversion to <code>std::any</code>.</li>\n</ul>\n<h2>Mimicking The spdlog Macros</h2>\n<p>The macros like <code>SPDLOG_TRACE()</code> can be replaced with <code>YOURPROJECT_TRACE()</code>, which is then defined in a way that it forwards to spdlog, some other log or that it does nothing. Depending on build options, that should allow you to completely remove the dependency on spdlog code.</p>\n<p>Notes:</p>\n<ul>\n<li>This is a compile-time decision. If you want to disable logging for unit testing, you still have to recompile the code, too.</li>\n<li>This has no performance overhead when not logging.</li>\n<li>This has a code smell, because it uses macros. Also, the logger could be seen as global or singleton which is considered an antipattern.</li>\n</ul>\n<h2>Using A Set Of Facades</h2>\n<p>These facades would each implement one logging library. They would all have a set of templated log functions taking different parameter types, which they would then forward to the according logging libraries. These facades all share a common interface, but they don't have a common abstract baseclass defining this interface. This is also known as &quot;duck typing&quot;.</p>\n<p>Notes:</p>\n<ul>\n<li>The code using these loggers could get them injected since they are real objects carrying actual state.</li>\n<li>Code using these loggers would not need to consider the concrete logging library the facade uses.</li>\n<li>Changing the underlying logging library would require changing the facade which would then require recompilation of any code using it. As long as it's just for unit testing, that seems reasonable.</li>\n<li>Other than with classes sharing an abstract base class, there is no guarantee that the different facades can be exchanged by one another (Liskov Substitution Principle). This can be ensured using automated tests though.</li>\n<li>There is probably little to no performance overhead because the forwarding code in the facade can be compiled and optimized inline.</li>\n<li>You can not switch implementations at runtime. You can only configure the selected logging library underneath.</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Ulrich Eckhardt",
+        "link": "https://stackoverflow.com/users/1968182/ulrich-eckhardt"
+      }
+    },
+    {
+      "answer_id": 76663857,
+      "body": "<p>A static library that uses features of the standard library <em>requires</em> a Runtime Library. <a href=\"https://stackoverflow.com/a/28703199/1624459\">This answer</a> suggests otherwise, but I have not yet found any other sources to validate this.</p>\n<p>To avoid errors, it is important that all libraries used by an application share the same Runtime Library.</p>\n<p>In this case, the static library in question should be built with the <code>Multi-threaded Debug DLL (/MDd)</code> or <code>Multi-threaded DLL (/MD)</code> runtime. It is not a problem for a static library to use a DLL runtime.</p>\n<p>Note that some libraries such as <a href=\"https://glew.sourceforge.net/install.html\" rel=\"nofollow noreferrer\">GLEW</a> do not use the C runtime library, so it does not matter which runtime they are built with. Other libraries may be more restrictive. In any case, the same setting should be used by all libraries within an application.</p>\n",
+      "owner": {
+        "display_name": "Dan",
+        "link": "https://stackoverflow.com/users/1624459/dan"
+      }
+    },
+    {
+      "answer_id": 76626914,
+      "body": "<p><a href=\"https://stackoverflow.com/a/76410571/2095383\">jwm's answer</a> pointed me to a working solution.  The logger can be created on the Python side and be registered with the module containing the C++ class by also binding <code>spdlog::register_logger()</code> in that module.</p>\n<ol>\n<li>Add a binding for <code>spdlog::register_logger()</code> in the module that binds <code>MyClass</code>.  So the code for binding looks like this:\n<pre><code>PYBIND11_MODULE(mylib, m)\n{\n    pybind11::class_&lt;MyClass&gt;(m, &quot;MyClass&quot;)\n        /* ... */;\n\n    m.def(&quot;register_logger&quot;, &amp;spdlog::register_logger);\n}\n</code></pre>\n</li>\n<li>In the Python code, use that binding to register the logger with the C++ module:\n<pre class=\"lang-py prettyprint-override\"><code>import spdlog\nimport mylib\n\nlogger = spdlog.ConsoleLogger(mylib.MyClass.LOGGER_NAME)\nlogger.set_level(spdlog.LogLevel.DEBUG)\nlogger.set_pattern(&quot;[%l] %n: %v&quot;)\n# register logger with the function from mylib, so it is accessible inside MyClass\nmylib.register_logger(logger.get_underlying_logger())\n\nc = mylib.MyClass()\n</code></pre>\n</li>\n</ol>\n",
+      "owner": {
+        "display_name": "luator",
+        "link": "https://stackoverflow.com/users/2095383/luator"
+      }
+    },
+    {
+      "answer_id": 75531029,
+      "body": "<p>Add the time info explicitly in your callback function:</p>\n<pre><code>#include &lt;fmt/chrono.h&gt;\n\nhandlers.after_open = []( const spdlog::filename_t filename, std::FILE* const stream ) { \n  auto now = std::chrono::system_clock::now();\n  fmt::print( stream, &quot;\\nFile '{}': Logging started {}\\n\\n&quot;, filename, now ); \n};\n</code></pre>\n<p>This should render the time output in this form: <code>2021-07-04 18:03:09</code></p>\n",
+      "owner": {
+        "display_name": "leosch",
+        "link": "https://stackoverflow.com/users/17017616/leosch"
+      }
+    },
+    {
+      "answer_id": 37399147,
+      "body": "<p>I got this answer from spdlog's creator.</p>\n<p>From <a href=\"https://github.com/gabime/spdlog/issues/216\" rel=\"nofollow noreferrer\">How to shutdown and restart in the same program?</a> to shutdown:</p>\n<pre><code>void Shutdown()\n{\n    spdlog::drop(&quot;Logger&quot;);\n    delete _instance;\n}\n</code></pre>\n<p>Then you can go through the creation process above again.</p>\n",
+      "owner": {
+        "display_name": "anon",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 74435993,
+      "body": "<p>Add <code>#include &lt;spdlog/fmt/ostr.h&gt;</code> to <code>Log.h</code> file. With this spdlog would be able to use <code>operator&lt;&lt;</code> in Event.h</p>\n",
+      "owner": {
+        "display_name": "Sergey Bondarenko",
+        "link": "https://stackoverflow.com/users/15293589/sergey-bondarenko"
+      }
+    },
+    {
+      "answer_id": 73741695,
+      "body": "<p>According to <a href=\"https://github.com/gabime/spdlog/wiki/1.-QuickStart\" rel=\"nofollow noreferrer\">the spdlog's wiki pages</a>, your formatting syntax is incorrect.</p>\n<p>For formatting a variable, a placeholder <code>{}</code> is required.</p>\n<p>Try this:</p>\n<pre class=\"lang-cpp prettyprint-override\"><code>int test_var = 12;\nINFO(&quot;The variable is: {}{}&quot;, test_var, &quot;.&quot;);\n//                     ^^^^ adding these placeholders\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sprite",
+        "link": "https://stackoverflow.com/users/13433323/sprite"
+      }
+    },
+    {
+      "answer_id": 73028268,
+      "body": "<p>You can call <a href=\"https://github.com/gabime/spdlog/blob/834840636cb52242d0fae2d6233c90067a4248dc/include/spdlog/sinks/sink.h#L21\" rel=\"nofollow noreferrer\"><code>file_sink-&gt;set_level(spdlog::level::error)</code></a> to make it log only on error and more severe levels.</p>\n",
+      "owner": {
+        "display_name": "Sprite",
+        "link": "https://stackoverflow.com/users/13433323/sprite"
+      }
+    },
+    {
+      "answer_id": 72176190,
+      "body": "<blockquote>\n<p>That would work yes. Problem is when you want to extend this to log files. Then, you end up having two log files</p>\n</blockquote>\n<p>The answer is you can't, <em>directly</em>.</p>\n<p><code>set_formatter</code> is just a wrapper of <a href=\"https://github.com/gabime/spdlog/blob/128cbe5a06051e0bc43d90c2434f7f68a2900587/include/spdlog/logger-inl.h#L101-L105\" rel=\"nofollow noreferrer\"><code>set_formatter(pattern_formatter{})</code></a>. In spdlog, a formatter is <a href=\"https://github.com/gabime/spdlog/blob/128cbe5a06051e0bc43d90c2434f7f68a2900587/include/spdlog/logger-inl.h#L82-L99\" rel=\"nofollow noreferrer\">stored</a> in a <code>sink</code> rather than a <code>logger</code>.</p>\n<hr />\n<p>Just thought of a workaround if you really need this feature.</p>\n<p>You can <a href=\"https://github.com/gabime/spdlog/wiki/4.-Sinks#implementing-your-own-sink\" rel=\"nofollow noreferrer\">implement</a> your own <code>file_sink</code>, and then you can have multiple <code>formatter</code>s.</p>\n<p>There is a field <a href=\"https://github.com/gabime/spdlog/blob/128cbe5a06051e0bc43d90c2434f7f68a2900587/include/spdlog/details/log_msg.h#L20\" rel=\"nofollow noreferrer\"><code>logger_name</code></a> in struct <code>log_msg</code>, you can use it to determine which logger the message came from, and use a different formatter. Note that if you did not set a name for a logger, the field is an empty string.</p>\n",
+      "owner": {
+        "display_name": "Sprite",
+        "link": "https://stackoverflow.com/users/13433323/sprite"
+      }
+    },
+    {
+      "answer_id": 71647999,
+      "body": "<p>So turns out the solution was just to upgrade to a newer version of <code>spdlog</code></p>\n",
+      "owner": {
+        "display_name": "La bla bla",
+        "link": "https://stackoverflow.com/users/975959/la-bla-bla"
+      }
+    },
+    {
+      "answer_id": 40686483,
+      "body": "<p>This is definitively a bug in <del>spdlog</del> fmtlib, used internally by spdlog.</p>\n<p>The <em>problem</em> is described summarily in this FAQ:<br />\n<a href=\"https://stackoverflow.com/q/8111677/636019\">What is “Argument-Dependent Lookup” (aka ADL, or “Koenig Lookup”)?</a></p>\n<p>Because <code>messaging::TestSerializableObject</code> inherits from a type in namespace <code>mutils</code>, when <code>convert</code> is called unqualified from inside namespace <code>fmt::internal</code> with a <code>TestSerializableObject</code>, both <code>fmt::internal::convert</code> <em>and</em> <code>mutils::convert</code> are considered in the overload set. Variadic functions always rank last during overload resolution, so the template argument <code>F</code> in the latter is a better match than the <code>...</code> in the former and <code>mutils::convert</code> is chosen.</p>\n<p>This is in no way specific to your code or to mutils – any type with a unary function or function template named <code>convert</code> in the same namespace or a parent namespace is susceptible to this problem.</p>\n<p>The <em>fix</em> is to qualify the <code>convert</code> call and change the definition of <code>fmt::internal::ConvertToInt&lt;T&gt;::enable_conversion</code> from</p>\n<pre><code>enum { enable_conversion = sizeof(convert(get&lt;T&gt;())) == sizeof(Yes) };\n</code></pre>\n<p>to</p>\n<pre><code>enum { enable_conversion = sizeof(internal::convert(get&lt;T&gt;())) == sizeof(Yes) };\n</code></pre>\n<p>In my own code I make a habit of always qualifying all calls to functions inside any <code>internal</code>/<code>detail</code> namespace, even from code inside that same namespace, unless ADL usage is explicitly intended. (N.b. calls don't need to be <em>fully</em> qualified, merely qualified.) I learned this lesson from watching Boost have to deal with this problem the hard way as C++11 was emerging.</p>\n",
+      "owner": {
+        "display_name": "ildjarn",
+        "link": "https://stackoverflow.com/users/636019/ildjarn"
+      }
+    },
+    {
+      "answer_id": 70682418,
+      "body": "<blockquote>\n<p>Is there a method such as <code>logger-&gt;get_name()</code> or anything else that would return &quot;some name&quot;</p>\n</blockquote>\n<p>There is.</p>\n<pre><code>logger-&gt;name()\n</code></pre>\n<p><a href=\"https://github.com/gabime/spdlog/blob/v1.x/include/spdlog/logger-inl.h#L77\" rel=\"nofollow noreferrer\">(source)</a></p>\n",
+      "owner": {
+        "display_name": "Drew Dormann",
+        "link": "https://stackoverflow.com/users/16287/drew-dormann"
+      }
+    },
+    {
+      "answer_id": 70663725,
+      "body": "<p>Because you need to register <code>err_logger</code> logger first. There is no default <code>err_logger</code> as far as I know. <code>spdlog::get()</code> returns logger based on its registered name, not variable.</p>\n<p>You need a code like this. Code is complex and you may not need all of it though:</p>\n<pre><code>#include &quot;spdlog/sinks/stdout_color_sinks.h&quot;\n#include &quot;spdlog/sinks/rotating_file_sink.h&quot;\n\nvoid multi_sink_example2()\n{\n    spdlog::init_thread_pool(8192, 1);\n    auto stdout_sink = std::make_shared&lt;spdlog::sinks::stdout_color_sink_mt &gt;();\n    auto rotating_sink = std::make_shared&lt;spdlog::sinks::rotating_file_sink_mt&gt;(&quot;mylog.txt&quot;, 1024*1024*10, 3);\n    std::vector&lt;spdlog::sink_ptr&gt; sinks {stdout_sink, rotating_sink};\n    auto logger = std::make_shared&lt;spdlog::async_logger&gt;(&quot;err_logger&quot;, sinks.begin(), sinks.end(), spdlog::thread_pool(), spdlog::async_overflow_policy::block);\n    spdlog::register_logger(logger); //&lt;-- this line registers logger for spdlog::get\n}\n</code></pre>\n<p>and after this code, you can use <code>spdlog::get(&quot;err_logger&quot;)</code>.</p>\n<p>You can read about creating and registering loggers <a href=\"https://github.com/gabime/spdlog/wiki/2.-Creating-loggers\" rel=\"nofollow noreferrer\">here</a>.</p>\n<p>I think <code>spdlog::stderr_color_mt(&quot;stderr&quot;);</code> registers logger with name <code>stderr</code> so <code>spdlog::get(&quot;stderr&quot;)</code> may work, but have not tested myself.</p>\n",
+      "owner": {
+        "display_name": "Afshin",
+        "link": "https://stackoverflow.com/users/5529197/afshin"
+      }
+    },
+    {
+      "answer_id": 70008122,
+      "body": "<p>If I understand your question correctly, you want to format your <code>spdlog</code> output using <code>fmt</code>, rather than having to specify the escape sequences yourself. For this, you can use the <code>fmt::format</code> function and use its output as a variable for <code>spdlog</code>:</p>\n<pre><code>#include &lt;spdlog/spdlog.h&gt;\n#include &lt;spdlog/fmt/bundled/color.h&gt;\n\nint main(){\n    spdlog::info( &quot;Printing a string formatted with fmt: {}&quot;,\n        fmt::format(\n            fmt::bg( fmt::terminal_color::yellow ) |\n            fmt::fg( fmt::terminal_color::black ) |\n            fmt::emphasis::bold,\n            &quot;message&quot;\n        )\n    );\n    return 0;\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "RL-S",
+        "link": "https://stackoverflow.com/users/11770674/rl-s"
+      }
+    },
+    {
+      "answer_id": 69763590,
+      "body": "<p><code>~</code> is special character in Bash shell, shorthand for home directory. The C++ program doesn't know about the <code>~</code>. Usual way to get home directory would be to use <code>std::getenv</code> function like:</p>\n<pre><code>const char* home_dir = std::getenv(&quot;HOME&quot;);\nauto log_path = std::string{home_dir} + &quot;/logs/log.txt&quot;;\n</code></pre>\n<p>I suggest you also to make use of <code>&lt;filesystem&gt;</code> header as it has functions to check the existence of files and directories.</p>\n",
+      "owner": {
+        "display_name": "SarvanZ",
+        "link": "https://stackoverflow.com/users/4677290/sarvanz"
+      }
+    },
+    {
+      "answer_id": 68936801,
+      "body": "<p>The problem comes from the library <code>fmt</code> since version 8 (used by <code>spdlog</code> since version 1.9.0), pointers are no longer supported.\nA solution can be to use a wrapper class to store the pointer and precise how <code>fmt</code> should deal with it.</p>\n",
+      "owner": {
+        "display_name": "R. N",
+        "link": "https://stackoverflow.com/users/3955562/r-n"
+      }
+    },
+    {
+      "answer_id": 68762972,
+      "body": "<p><code>SPDLOG_LOGGER_CALL()</code> is just a wrapper for <code>spdlog::logger::log()</code>, which does not use <code>printf</code>-style format strings, like you are expecting.  If you read <a href=\"https://github.com/gabime/spdlog\" rel=\"nofollow noreferrer\">spdlog's documentation</a>, you will see that spdlog uses the <a href=\"https://github.com/fmtlib/fmt\" rel=\"nofollow noreferrer\">{fmt}</a> library internally:</p>\n<blockquote>\n<p>Feature rich formatting, using the excellent <a href=\"https://github.com/fmtlib/fmt\" rel=\"nofollow noreferrer\">fmt</a> library.</p>\n</blockquote>\n<p>Which has its <a href=\"https://fmt.dev/latest/syntax.html\" rel=\"nofollow noreferrer\">own syntax for format strings</a>:</p>\n<blockquote>\n<p>Format strings contain “replacement fields” surrounded by curly braces <code>{}</code>. Anything that is not contained in braces is considered literal text, which is copied unchanged to the output.</p>\n</blockquote>\n<p>That is why you are seeing <code>%d %s</code> in your output, as it is being treated as literal text.</p>\n<p>Indeed, <code>spdlog::logger::log()</code> <a href=\"https://github.com/gabime/spdlog/blob/v1.9.1/include/spdlog/logger.h#L322\" rel=\"nofollow noreferrer\">ends up calling</a> <code>fmt::detail::vformat_to()</code>, passing it your format strings and arguments as-is.</p>\n<p>So, try using <code>&quot;{} {}&quot;</code> instead of <code>&quot;%d %s&quot;</code>:</p>\n<pre class=\"lang-cpp prettyprint-override\"><code>SPDLOG_LOGGER_CALL(logger, spdlog::level::info, &quot;{} {}&quot;, i, msg);\n</code></pre>\n<p>Alternatively:</p>\n<pre class=\"lang-cpp prettyprint-override\"><code>SPDLOG_LOGGER_CALL(logger, spdlog::level::info, &quot;{:d} {:s}&quot;, i, msg);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Remy Lebeau",
+        "link": "https://stackoverflow.com/users/65863/remy-lebeau"
+      }
+    },
+    {
+      "answer_id": 68581739,
+      "body": "<p>In spdlog last versions have introduced qt_sinks feature. To use this include the header <code>spdlog/sinks/qt_sinks</code> then call a factory function (<code>spdlog::qt_logger_mt(&quot;logger_name&quot;, ui-&gt;plainTextEdit)</code>) that constructs st or mt(thread-safe) loggers. Also you are not limited to <code>QTextEdit</code> or <code>QPlainTextEdit</code> widgets so you can sink logs into QML, QUdpSocket and any custom widget or QObject based classes with your provided a slot name with a QString parameter.</p>\n<p><strong>Usage</strong></p>\n<p>custom_class.hpp</p>\n<pre><code>#ifndef CUSTOM_CLASS_HPP\n#define CUSTOM_CLASS_HPP\n\n#include &lt;QObject&gt;\n\nclass custom_class : public QObject\n{\n    Q_OBJECT\npublic:\n    explicit custom_class(QObject *parent = nullptr);\n\npublic slots:\n    void log2qml(const QString &amp;str); // slot for using spdlog with custom objects\n\nsignals:\n    void send2qml(const QString&amp; str);\n\n};\n\n#endif // CUSTOM_CLASS_HPP\n</code></pre>\n<p>custom_class.cpp</p>\n<pre><code>#include &quot;custom_class.hpp&quot;\n\ncustom_class::custom_class(QObject *parent) : QObject(parent)\n{\n    \n}\n\nvoid custom_class::log2qml(const QString &amp;str)\n{\n    emit send2qml(str);\n}\n</code></pre>\n<p>mainwindow.hpp:</p>\n<pre><code>#include &quot;custom_class.hpp&quot;\n#include &lt;QMainWindow&gt;\n#include &lt;QThread&gt;\n\n#include &lt;spdlog/sinks/qt_sinks.h&gt;\n\nQT_BEGIN_NAMESPACE\nnamespace Ui { class MainWindow; }\nQT_END_NAMESPACE\n\nclass MainWindow : public QMainWindow\n{\n    Q_OBJECT\n\npublic:\n    MainWindow(QWidget *parent = nullptr);\n    ~MainWindow();\n\n    void log();\n\nprivate:\n    Ui::MainWindow *ui;\n    custom_class c;\n    QThread *th = nullptr;\n    std::shared_ptr&lt;spdlog::logger&gt; logger = nullptr, logger_custom = nullptr;\n};\n#endif // MAINWINDOW_HPP\n</code></pre>\n<p>mainwindow.cpp:</p>\n<pre><code>#include &quot;mainwindow.hpp&quot;\n#include &quot;ui_mainwindow.h&quot;\n\n#include &quot;spdlog/spdlog.h&quot;\n\n\nMainWindow::MainWindow(QWidget *parent)\n    : QMainWindow(parent)\n      , ui(new Ui::MainWindow)\n{\n    ui-&gt;setupUi(this);\n    // logger write into ui-&gt;plainTextEdit\n    logger = spdlog::qt_logger_mt(&quot;plaintextedit_logger&quot;, ui-&gt;plainTextEdit);\n    \n    // custom_logger write into qml or any custom object. 3rd param is slot name that passes QString param in custom_object\n    logger_custom = spdlog::qt_logger_mt(&quot;custom_qml_logger&quot;, &amp;c, &quot;log2qml&quot;);\n    \n    // set default logger\n    spdlog::set_default_logger(logger);\n    log();\n}\n\nMainWindow::~MainWindow()\n{\n    delete ui;\n}\n\nvoid MainWindow::log()\n{\n    th = QThread::create([this] {\n   \n\n for (int i = 0; i &lt; 1000; ++i) {\n        SPDLOG_INFO(i); // default logger write into ui-&gt;plainTextEdit\n        logger_custom-&gt;warn(i); // custom_logger write into qml or any custom object\n        std::this_thread::sleep_for(std::chrono::microseconds(1));\n    }\n});\n\n th-&gt;start();\n}\n</code></pre>\n<p>output:\n<a href=\"https://i.sstatic.net/3V18U.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/3V18U.png\" alt=\"enter image description here\" /></a></p>\n",
+      "owner": {
+        "display_name": "M. Galib Uludag",
+        "link": "https://stackoverflow.com/users/10619431/m-galib-uludag"
+      }
+    },
+    {
+      "answer_id": 68522966,
+      "body": "<p>When you do the <code>conan install</code> to install dependencies, you will see the &quot;profile&quot; being used to install binaries, including settings like build_type, compiler.version, etc. something like this:</p>\n<p>Configuration:</p>\n<pre><code>[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=Visual Studio\ncompiler.runtime=MD\ncompiler.version=16\nos=Windows\nos_build=Windows\n</code></pre>\n<p>This should match the configuration you are using for building, if building for debug, you should use something like</p>\n<pre><code>conan install . -s build_type=Debug\n</code></pre>\n<p>It is also possible to define more profile files (and it is the recommended approach for production).</p>\n<p>The important piece is that when doing <code>conan install</code> conan will use the provided or the default profile to define which binaries will be downloaded (if matching binaries exist for that configuration). It is important to provide the same configuration that is going to be used for building your project later, otherwise binary incompatibilities like the above can happen (or other, more subtle incompatibilities, that could also happen at runtime).</p>\n<p>As a side note, for Visual Studio multi-configuration, you could use more modern generators like the <a href=\"https://docs.conan.io/en/latest/reference/conanfile/tools/cmake.html\" rel=\"nofollow noreferrer\">CMakeDeps</a> one.</p>\n",
+      "owner": {
+        "display_name": "drodri",
+        "link": "https://stackoverflow.com/users/3215383/drodri"
+      }
+    },
+    {
+      "answer_id": 68343479,
+      "body": "<p><strong>[Answer given by &quot;Igor Tandetnik&quot; &amp; &quot;drescherjm&quot;]</strong></p>\n<p>Circular Includes!</p>\n<p><code>Singleton.h</code> included <code>Log.h</code>, which led to a circular include, causing the compiler to go haywire.</p>\n<p>Always check what you include, this can also happen if you include another file that includes the file your including it in. <br />\nIt happened to me with my <code>pch</code> class. <br />\nThat´s why you <strong>shouldn´t</strong> include <code>pch</code> in <em>headers</em> i guess.</p>\n",
+      "owner": {
+        "display_name": "TheBeardless",
+        "link": "https://stackoverflow.com/users/15530268/thebeardless"
+      }
+    },
+    {
+      "answer_id": 66490155,
+      "body": "<p>As I've mentioned in the comments, I had thought spdlog output to std::cout due to an earlier issue, but in fact that was related to stdout.. (facepalm)</p>\n<p>This is nice and easy, it turns out! By using an ostream_sink, the output can be sent to a specified ostream;</p>\n<p>I set a logger up in my test SetUp() function as follows</p>\n<pre><code>            auto ostream_logger = spdlog::get(&quot;gtest_logger&quot;);\n            if (!ostream_logger)\n            {\n                auto ostream_sink = std::make_shared&lt;spdlog::sinks::ostream_sink_st&gt;(_oss);\n                ostream_logger = std::make_shared&lt;spdlog::logger&gt;(&quot;gtest_logger&quot;, ostream_sink);\n                ostream_logger-&gt;set_pattern(&quot;&gt;%v&lt;&quot;);\n                ostream_logger-&gt;set_level(spdlog::level::debug);\n            }\n            spdlog::set_default_logger(ostream_logger);\n</code></pre>\n<p>where <code>_oss</code> is a <code>std::ostringstream</code>.</p>\n<p>Then my tests just look at the contents of _oss, and clear it after each check:</p>\n<pre><code>        std::string test = _oss.str();\n        // check the derived class is constructed\n        EXPECT_TRUE(test.find(&quot;Constructing test class&quot;) != std::string::npos);\n        _oss.str(&quot;&quot;);\n</code></pre>\n<p>The existing code using <code>spdlog::debug</code>, <code>spdlog::trace</code> etc doesn't need changing at all.</p>\n",
+      "owner": {
+        "display_name": "mike",
+        "link": "https://stackoverflow.com/users/822830/mike"
+      }
+    },
+    {
+      "answer_id": 65195490,
+      "body": "<p>You should be able to install specific revision using command:</p>\n<pre><code>conan install spdlog/1.7.0@#1eebff2f51d90cb700b63c6d2449ebcb\n</code></pre>\n<p>Notice the <code>@</code> symbol after version.</p>\n",
+      "owner": {
+        "display_name": "ymochurad",
+        "link": "https://stackoverflow.com/users/11196108/ymochurad"
+      }
+    },
+    {
+      "answer_id": 64629422,
+      "body": "<p><code>rBegin()</code> returns an iterator to the first element:</p>\n<pre><code>ReverseIterator rBegin() { return ReverseIterator(data + size); }\n</code></pre>\n<p>But it's pointing one element beyond the end and can't be dereferenced. You need to dereference the element before it.</p>\n<p>You could therefore adjust the dereference operator in the <code>VectorRevIterator</code> version:</p>\n<pre><code>ReferenceType operator*() const { return *std::prev(ptr); }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ted Lyngmo",
+        "link": "https://stackoverflow.com/users/7582247/ted-lyngmo"
+      }
+    },
+    {
+      "answer_id": 64358203,
+      "body": "<p>The very quick and dirty fix is to do:</p>\n<pre><code>static auto console = spdlog::stdout_color_mt(&quot;console&quot;);\n</code></pre>\n<p>This will ensure there is only ever one instance, as the initializer is executed exactly once.</p>\n",
+      "owner": {
+        "display_name": "Botje",
+        "link": "https://stackoverflow.com/users/1548468/botje"
+      }
+    },
+    {
+      "answer_id": 63176873,
+      "body": "<h3>Meaining of the error</h3>\n<p>Since you use <code>PUBLIC</code> keyword when link your library (<code>A</code>) with <code>spdlog_header_only</code>, CMake expects that this linking is also needed for <strong>users</strong> of your library. So, when you create config file for your library (with <code>install(EXPORT)</code>), CMake adds linking with <code>spdlog_header_only</code> target into the config file too. Like</p>\n<pre><code># [ATargets.cmake]\ntarget_link_libraries(A::A PUBLIC spdlog_header_only)\n</code></pre>\n<p>Linking with a target implies existence of this target, but you do <strong>not install</strong> <code>spdlog_header_only</code> target. Because of that, created config file for your library won't work. This is what CMake tells you in the error message.</p>\n<h3>Simple fix</h3>\n<p>The simplest fix would be using <code>PRIVATE</code> linking with <code>spdlog_header_only</code> target, so that linking won't be part of the config file. Beware, in that case a user of your (installed) library won't get access to the header files for <code>spdlog</code>.\n(But a user could obtain these headers by other means.)</p>\n<h3>Hard fix</h3>\n<p>But if you want a user of your library to have access to <code>spdlog</code> headers (or, worse, the <strong>public</strong> headers of your library use <code>#include</code> for headers from <code>spdlog</code>), then you cannot drop <code>PUBLIC</code> linking. In that case you need to <strong>install</strong> <code>spdlog_header_only</code> target too. E.g. by enabling <code>SPDLOG_INSTALL</code> option</p>\n<pre><code>set(SPDLOG_INSTALL ON)\n</code></pre>\n<p>before</p>\n<pre><code>add_subdirectory(../external/3rd_party/spdlog   ${CMAKE_BINARY_DIR}/spdlog  EXCLUDE_FROM_ALL)\n</code></pre>\n<p>(Note, that aside from enabling <code>SPDLOG_INSTALL</code> option, several other adjustments needs to be done for make the config file for your library to work.)</p>\n",
+      "owner": {
+        "display_name": "Tsyvarev",
+        "link": "https://stackoverflow.com/users/3440745/tsyvarev"
+      }
+    },
+    {
+      "answer_id": 62827183,
+      "body": "<p>This has been fixed in spdlog version 1.7: <a href=\"https://github.com/gabime/spdlog/releases/tag/v1.7.0\" rel=\"nofollow noreferrer\">https://github.com/gabime/spdlog/releases/tag/v1.7.0</a>:</p>\n<blockquote>\n<p>Support for using external fmt version 7.x</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "vitaut",
+        "link": "https://stackoverflow.com/users/471164/vitaut"
+      }
+    },
+    {
+      "answer_id": 62326599,
+      "body": "<p><em>spdlog</em> uses the <code>{fmt}</code> library for formatting the output text, and that requires the <code>&lt;fmt/ostream.h&gt;</code> header file <a href=\"https://fmt.dev/latest/api.html#std-ostream-support\" rel=\"noreferrer\">to be included</a> in order to enable <code>std::ostream</code>-like support.</p>\n\n<p>Regardless of using external implementation of the <code>{fmt}</code> library, or the one from spdlog sources itself, there's the special header <code>&lt;spdlog/fmt/ostr.h&gt;</code> that includes the file version that is in use.</p>\n\n<p>Once included, spdlog should be able to use your <code>operator&lt;&lt;</code>.</p>\n\n<p>Alternatively, you can create a custom formatter, that's also capable of parsing a formatting string:</p>\n\n<pre><code>template &lt;&gt;\nstruct fmt::formatter&lt;Point&gt; {\n    constexpr auto parse(format_parse_context&amp; ctx) {\n        return ctx.end();\n    }\n\n    template &lt;typename Context&gt;\n    auto format(const Point&amp; p, Context&amp; ctx) {\n        return format_to(ctx.out(), \"[{}, {}]\", p.x, p.y);\n    }\n};\n</code></pre>\n",
+      "owner": {
+        "display_name": "Piotr Skotnicki",
+        "link": "https://stackoverflow.com/users/3953764/piotr-skotnicki"
+      }
+    },
+    {
+      "answer_id": 61508369,
+      "body": "<p>the solution here is really quite trivial. the way that the macros are defined now they will be a pointer to a function that is trying to call what should be a member function. this obviously will not work. what must be done is to add parentheses to the end of every call of <code>GetClientLogger</code> and <code>GetCoreLogger</code> so that the return type of these functions--classes--will call their correct and existing member functions.</p>\n",
+      "owner": {
+        "display_name": "user19273",
+        "link": "https://stackoverflow.com/users/10668553/user19273"
+      }
+    },
+    {
+      "answer_id": 61020205,
+      "body": "<p>Please start first with the \"Getting Started\" from the Conan docs <a href=\"https://docs.conan.io/en/latest/getting_started.html\" rel=\"noreferrer\">https://docs.conan.io/en/latest/getting_started.html</a>, make sure it works, and then, start from there to do your own examples.</p>\n\n<p>In the getting started you will have an example of consuming existing libraries in ConanCenter. There is also a prominent \"Important\" notice that says:</p>\n\n<pre><code>If you are using GCC compiler &gt;= 5.1, Conan will set the compiler.libcxx to the old ABI for backwards compatibility. You can change this with the following commands:\n\n$ conan profile new default --detect  # Generates default profile detecting GCC and sets old ABI\n$ conan profile update settings.compiler.libcxx=libstdc++11 default  # Sets libcxx to C++11 ABI\n</code></pre>\n\n<p>Basically the default auto-detected profile is using libstdc++, while your compiler is mostly likely using libstdc++11. You need to change the default profile with:</p>\n\n<pre><code>$ conan profile update settings.compiler.libcxx=libstdc++11 default\n</code></pre>\n\n<p>And then do \"conan install\" again, and build.</p>\n",
+      "owner": {
+        "display_name": "drodri",
+        "link": "https://stackoverflow.com/users/3215383/drodri"
+      }
+    },
+    {
+      "answer_id": 59868125,
+      "body": "<blockquote>\n  <p>but if I create my own Logger class will I have to expect classes using my logger to type out the entire enum's namespace in their logging function calls</p>\n</blockquote>\n\n<p>This is where you can use <code>using</code>. Something like:</p>\n\n<pre><code>using info = spdlog::level::level_enum::info;\n</code></pre>\n\n<p>that would prevent from typing the whole thing every time you need to use it. All you only need to use is <code>info</code> then.</p>\n",
+      "owner": {
+        "display_name": "tdao",
+        "link": "https://stackoverflow.com/users/4975822/tdao"
+      }
+    },
+    {
+      "answer_id": 59668975,
+      "body": "<p>I have found a solution that works, but has the side effect of having to include spdlog separately in projects that includ tools. In Tools CMakeLists.txt, I had to change the last line \"target_link_libraries (Tools spdlog)\" into target_link_libraries (Tools PRIVATE spdlog). After doing that I did have to add \"${CMAKE_SOURCE_DIR}/third_party/spdlog/include\" to my Application's include path.\nFor some reason spdlog is the only external project that requires me to do it this way.\nNot realy what I wanted since I now have to include spdlog alongside tools in all future projects that need it, but it does work now.</p>\n\n<p><strong>Updated Tools CMakeLists.txt</strong>:</p>\n\n<pre><code>cmake_minimum_required(VERSION 3.15.3)\nproject(Tools LANGUAGES CXX C)\n\nadd_definitions( /D__COMPONENT__=\"tools\" )\n\nfile(GLOB_RECURSE SOURCES src/*.cpp\n)\n\nset(INCLUDEDIR ${PROJECT_SOURCE_DIR}/include\n    ${CMAKE_SOURCE_DIR}/third_party/spdlog/include\n)\n\ninclude_directories(${INCLUDEDIR})\n\nadd_library(Tools SHARED ${SOURCES})\ntarget_link_libraries (Tools PRIVATE spdlog) \n</code></pre>\n\n<p>Updated Application CMakeLists.txt</p>\n\n<pre><code>cmake_minimum_required(VERSION 3.15.3)\nproject(Application LANGUAGES CXX C)\nadd_definitions( /D__COMPONENT__=\"app\" )\n\nfile(GLOB_RECURSE SOURCES src/*.cpp)\n\nset(INCLUDEDIR ${PROJECT_SOURCE_DIR}/include\n               ${CMAKE_SOURCE_DIR}/Tools/include\n               ${CMAKE_SOURCE_DIR}/third_party/spdlog/include\n)\n\ninclude_directories(${INCLUDEDIR})\nadd_executable(Application ${SOURCES})\ntarget_link_libraries (Application Tools) \n</code></pre>\n",
+      "owner": {
+        "display_name": "Steven",
+        "link": "https://stackoverflow.com/users/11783500/steven"
+      }
+    },
+    {
+      "answer_id": 59141936,
+      "body": "<blockquote>\n  <p>My conclusion is that taking the logs directly from what is printed is the best way to do this but I can't find online anyone asking how to do this. </p>\n</blockquote>\n\n<p>Consoles nowadays are terminal emulators. The original terminals' output went to printers and couldn't be (easily) read back. </p>\n\n<p>Application's <code>stdout</code> and <code>stderr</code> (console) streams are write-only. Moreover, in Windows and Unix/Linux you can pipe your program's (console) output (either or both <code>stderr</code> and <code>stdout</code>) into another application with <code>|</code> (pipe) that creates a pipe IPC between <code>stdout</code> of your application and <code>stdin</code> of another one. That IPC pipe is write-only, your application cannot possibly read back from it.</p>\n\n<p>You may be able to get access to the contents of the frame buffer of Windows <code>cmd.exe</code> that controls its Windows console window, but that won't be the verbatim byte-exact copy of data you wrote into <code>stdout</code> because of the <a href=\"https://learn.microsoft.com/en-us/windows/console/console-virtual-terminal-sequences\" rel=\"nofollow noreferrer\">escape sequences interpreted by Windows console</a>.</p>\n\n<p>If <code>stdout</code> is redirected into a file you can re-open that file for reading, but there is no portable way to re-open that file.</p>\n\n<p>In other words, there is no portable way to read console output back. </p>\n\n<hr>\n\n<blockquote>\n  <p>I have tried everything under the sun to get this to work but I can't seem to figure it out (due to my lack of understanding of the code from the other logger(spdlog).</p>\n</blockquote>\n\n<p>I bet you haven't tried reading <code>spdlog</code> documentation, in particular <a href=\"https://github.com/gabime/spdlog#logger-with-multi-sinks---each-with-different-format-and-log-level\" rel=\"nofollow noreferrer\">logger with multi sinks</a>. A sink is an output abstraction, which implementation can write into a file, memory or both. What you need is attach your own sink to <code>spdlog</code> that prints into your UI.</p>\n\n<p>Derive your sink from <a href=\"https://github.com/gabime/spdlog/blob/v1.x/include/spdlog/sinks/base_sink.h#L19\" rel=\"nofollow noreferrer\"><code>base_sink</code></a> and implement abstract member functions:</p>\n\n<ul>\n<li><code>virtual void sink_it_(const details::log_msg &amp;msg) = 0;</code> to print into the <code>UI</code>, and, </li>\n<li><code>virtual void flush_() = 0;</code> to do nothing. </li>\n</ul>\n\n<p>Then attach one object of your sink class to that <code>spdlog</code>.</p>\n",
+      "owner": {
+        "display_name": "Maxim Egorushkin",
+        "link": "https://stackoverflow.com/users/412080/maxim-egorushkin"
+      }
+    },
+    {
+      "answer_id": 59063465,
+      "body": "<p>It looks as though this PR will fix your issue? \n<a href=\"https://github.com/fmtlib/fmt/pull/1279\" rel=\"nofollow noreferrer\">https://github.com/fmtlib/fmt/pull/1279</a> \nMaybe just update fmt to the latest version?</p>\n",
+      "owner": {
+        "display_name": "robthebloke",
+        "link": "https://stackoverflow.com/users/8185995/robthebloke"
+      }
+    },
+    {
+      "answer_id": 58902480,
+      "body": "<pre><code>#include \"spdlog/spdlog.h\"\n#include \"spdlog/fmt/ostr.h\" // must be included\n\nclass some_class {};\nstd::ostream&amp; operator&lt;&lt;(std::ostream&amp; os, const some_class&amp; c)\n{ \n  return os &lt;&lt; \"some_class\"; \n}\n</code></pre>\n\n<p>see <a href=\"https://github.com/gabime/spdlog/wiki/1.-QuickStart#log-user-defined-objects\" rel=\"nofollow noreferrer\">https://github.com/gabime/spdlog/wiki/1.-QuickStart#log-user-defined-objects</a></p>\n",
+      "owner": {
+        "display_name": "GabiMe",
+        "link": "https://stackoverflow.com/users/192001/gabime"
+      }
+    },
+    {
+      "answer_id": 58234898,
+      "body": "<p>I've found a way to solve it.</p>\n\n<p>I should implement a custom <code>formatter</code> class and then in the <code>format</code> method, I escape the message by for example <code>escape_message(msg.payload.data())</code> and then call <code>spdlog::log(msg.source, msg.level, escape_message(msg.payload.data()))</code>, <code>spdlog::info</code> or ... inside this method.</p>\n\n<p><strong>Note</strong>: inside the <code>format</code> method I set a log pattern, because outside of the class, if I call <code>set_formatter</code>, then calling <code>set_pattern</code>, doesn't work well. </p>\n",
+      "owner": {
+        "display_name": "mortymacs",
+        "link": "https://stackoverflow.com/users/2338672/mortymacs"
+      }
+    },
+    {
+      "answer_id": 53617065,
+      "body": "<p>OK, after going through the spdlog code line-by-line, I've found the source of unexpected behaviour.</p>\n\n<p>I've been using the</p>\n\n<pre><code>spdlog::error(message);\n</code></pre>\n\n<p>and related functions to do the logging, as these don't require creating any singletons or anything.</p>\n\n<p>Looking at the code, these functions <strong>always</strong> use the default logger, and the method spdlog:register_logger does not set the default logger (I don't know what it does).</p>\n\n<p>If you use the following code instead:</p>\n\n<pre><code>spdlog::set_default_logger(logger);\n</code></pre>\n\n<p>It seems to work OK.</p>\n",
+      "owner": {
+        "display_name": "Mike Sadler",
+        "link": "https://stackoverflow.com/users/1297496/mike-sadler"
+      }
+    },
+    {
+      "answer_id": 28282815,
+      "body": "<p>Currently there is no direct way to change the rotation time in the daily logger - please open an issue <a href=\"https://github.com/gabime/spdlog/issues\" rel=\"nofollow noreferrer\">here</a>..</p>\n\n<p>A quick workaround would be to modify the <code>_calc_midnight_tp()</code> function to return the desired rotation time instead of midnight in the <a href=\"https://github.com/gabime/spdlog/blob/master/include/spdlog/sinks/file_sinks.h\" rel=\"nofollow noreferrer\">daily_file_sink</a> class..</p>\n\n<p>For example to rotate in 1am instead of midnight:</p>\n\n<pre><code>static std::chrono::system_clock::time_point _calc_midnight_tp()\n{\n    using namespace std::chrono;\n    auto now = system_clock::now();\n    time_t tnow = std::chrono::system_clock::to_time_t(now);\n    tm date = spdlog::details::os::localtime(tnow);\n    date.tm_min = date.tm_sec = 0;\n    date.tm_hour = 1;\n    auto rotate_time = std::chrono::system_clock::from_time_t(std::mktime(&amp;date));\n    return system_clock::time_point(rotate_time + hours(24));\n}\n</code></pre>\n\n<p><strong>Edit</strong>: I <a href=\"https://github.com/gabime/spdlog/commit/c401e830d043e33fee0a823d98810874cc385d85\" rel=\"nofollow noreferrer\">committed</a> a fix to this issue. Now user can set HH:MM of the desired rolling time</p>\n",
+      "owner": {
+        "display_name": "GabiMe",
+        "link": "https://stackoverflow.com/users/192001/gabime"
+      }
+    },
+    {
+      "answer_id": 53433558,
+      "body": "<p>With @PaulMcKenzie pointing me in the right direction, it seems that I was trying to log a type of string that spdlog cannot handle by default (std::wstrings).</p>\n\n<p>Visual Studio's Intellisense seemed to be confused by the templating, making it appear to be happy with my sending spdlog::warn a std::wstring.</p>\n\n<p>Solution: either just use std::string, or if you want to use wstrings you (probably) need to define a custome formatter for them.</p>\n",
+      "owner": {
+        "display_name": "Mike Sadler",
+        "link": "https://stackoverflow.com/users/1297496/mike-sadler"
+      }
+    },
+    {
+      "answer_id": 52754005,
+      "body": "<p>You need to add the project root directory into the cmake include_directories, like this:</p>\n\n<pre><code>include_directories(\n    /absolute/path/\n)\n</code></pre>\n\n<p>Or in the project root directory, edit CMakeLists.txt and add this:</p>\n\n<pre><code>include_directories(\n    .\n)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Wei Guo",
+        "link": "https://stackoverflow.com/users/4927117/wei-guo"
+      }
+    },
+    {
+      "answer_id": 52679411,
+      "body": "<p>As your headers files path is spdlog/.h so you should provide path of your spdlog folder resides. like </p>\n\n<pre><code>gcc -c -I/&lt;Path of spdlog parent folder&gt; hello.cpp\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sanjeev",
+        "link": "https://stackoverflow.com/users/7294397/sanjeev"
+      }
+    },
+    {
+      "answer_id": 52308093,
+      "body": "<p>Yes, the application output does not output the spdlogs. But, I manage to output to terminal by following steps.</p>\n\n<ol>\n<li>Go to Projects, then choose Run configuration for selected kit</li>\n<li>In run settings, check the \"Run in terminal\" option</li>\n<li>Next, add console to CONFIG in Project pro file</li>\n<li>Clean the project</li>\n<li>Build and run.</li>\n</ol>\n\n<p>If these steps don't help, you can delete entire build directory and run the steps again.</p>\n",
+      "owner": {
+        "display_name": "Main",
+        "link": "https://stackoverflow.com/users/4131835/main"
+      }
+    },
+    {
+      "answer_id": 51033328,
+      "body": "<p>spdlog branch v1.x supports this (not officially released yet but you can give it a try).</p>\n",
+      "owner": {
+        "display_name": "GabiMe",
+        "link": "https://stackoverflow.com/users/192001/gabime"
+      }
+    },
+    {
+      "answer_id": 49441637,
+      "body": "<p>Okay, I found a solution.</p>\n\n<p>The trick is that a <code>decltype(var)</code> for <code>var</code> visible in the outer scope will resolve to the type of that outer scope <code>var</code> even if we define <code>var</code> later in the same scope. This allows us to shadow the outer type but still access it, via an otherwise unused variable of the outer type, while allowing us to define a variable of the same name to be accessed in inner scopes.</p>\n\n<p>Our general construction looks like</p>\n\n<pre><code>struct __log_context__\n{\n    typedef decltype(__log_context_var__) prev;\n    static const char * name() { return name_; }\n    static ::logging::log_context  context()\n    {\n        return ::logging::log_context(\n            name(), chain&lt;__log_context__&gt;::get() );\n    }\n};\nstatic __log_context__ __log_context_var__;\n</code></pre>\n\n<p>The only other detail is that we need a terminating condition when iterating up the context chain, so we use <code>void*</code> as a sentinel value and specialize for it in the helper classes used for constructing the output string.</p>\n\n<p>C++11 is required for <code>decltype</code> and to allow local classes to be passed to template parameters.</p>\n\n<pre><code>#include &lt;spdlog/spdlog.h&gt;\n\nnamespace logging {\n\nspdlog::logger &amp; instance()\n{\n    auto sink =\n        std::make_shared&lt;spdlog::sinks::ansicolor_stdout_sink_mt&gt;();\n    decltype(sink) sinks[] = {sink};\n    static spdlog::logger logger(\n        \"console\", std::begin( sinks ), std::end( sinks ) );\n    return logger;\n}\n\nclass log_context\n{\npublic:\n    log_context( const char *         name,\n                 const std::string &amp;  scope_name )\n        : name_ ( name       )\n        , scope_( scope_name )\n    {}\n\n    const char * name() const\n    { return name_; }\n\n    const char * scope() const\n    { return scope_.c_str(); }\n\nprivate:\n    const char *  name_;\n    std::string   scope_;\n};\n\nclass log_statement\n{\npublic:\n    log_statement( spdlog::logger &amp;           logger,\n                   spdlog::level::level_enum  level,\n                   const log_context &amp;        context )\n        : logger_ ( logger  )\n        , level_  ( level   )\n        , context_( context )\n    {}\n\n    template&lt;class T, class... U&gt;\n    void operator()( const T &amp;  t, U&amp;&amp;...  u )\n    {\n        std::string  fmt = std::string( \"[{}] \" ) + t;\n        logger_.log(\n            level_,\n            fmt.c_str(),\n            context_.scope(),\n            std::forward&lt;U&gt;( u )... );\n    }\n\nprivate:\n    spdlog::logger &amp;           logger_;\n    spdlog::level::level_enum  level_;\n    const log_context &amp;        context_;\n};\n\n} // namespace logging\n\n// Helpers for walking up the lexical scope chain.\ntemplate&lt;class T, class Prev = typename T::prev&gt;\nstruct chain\n{\n    static std::string get()\n    {\n        return (chain&lt;Prev, typename Prev::prev&gt;::get() + \".\")\n            + T::name();\n    }\n};\n\ntemplate&lt;class T&gt;\nstruct chain&lt;T, void*&gt;\n{\n    static std::string get()\n    {\n        return T::name();\n    }\n};\n\n#define LOGGER ::logging::instance()\n\n#define CHECK_LEVEL( level_name ) \\\n    LOGGER.should_log( ::spdlog::level::level_name )\n\n#define CHECK_AND_LOG( level_name )      \\\n    if ( !CHECK_LEVEL( level_name ) ) {} \\\n    else                                 \\\n        ::logging::log_statement(        \\\n            LOGGER,                      \\\n            ::spdlog::level::level_name, \\\n            __log_context__::context() )\n\n#define LOG_TRACE CHECK_AND_LOG( trace )\n#define LOG_DEBUG CHECK_AND_LOG( debug )\n#define LOG_INFO CHECK_AND_LOG( info )\n#define LOG_WARNING CHECK_AND_LOG( warn )\n#define LOG_ERROR CHECK_AND_LOG( err )\n#define LOG_CRITICAL CHECK_AND_LOG( critical )\n\n#define LOG_CONTEXT_IMPL(prev_type,name_)            \\\nstruct __log_context__                               \\\n{                                                    \\\n    typedef prev_type prev;                          \\\n    static const char * name() { return name_; }     \\\n    static ::logging::log_context  context()         \\\n    {                                                \\\n        return ::logging::log_context(               \\\n            name(), chain&lt;__log_context__&gt;::get() ); \\\n    }                                                \\\n};                                                   \\\nstatic __log_context__ __log_context_var__\n\n#define LOG_CONTEXT(name_) \\\n    LOG_CONTEXT_IMPL(decltype(__log_context_var__),name_)\n\n#define ROOT_CONTEXT(name_) \\\n    LOG_CONTEXT_IMPL(void*,name_)\n\n// We include the root definition here to ensure that\n// __log_context_var__ is always defined for any uses of\n// LOG_CONTEXT.\nROOT_CONTEXT( \"global\" );\n</code></pre>\n\n<p>which with an approximation of the code in my initial post</p>\n\n<pre><code>#include &lt;logging.hpp&gt;\n\nnamespace app {\n\nLOG_CONTEXT( \"app\" );\n\nclass Connector {\n    LOG_CONTEXT( \"Connector\" );\n\npublic:\n    void send( const std::string &amp;  msg )\n    {\n        LOG_CONTEXT( \"send()\" );\n        LOG_TRACE( msg );\n    }\n};\n\n} // namespace app\n\nvoid fn()\n{\n    LOG_DEBUG( \"in fn\" );\n}\n\nint main()\n{\n    LOG_CONTEXT( \"main()\" );\n    LOGGER.set_level( spdlog::level::trace );\n    LOG_INFO( \"starting app\" );\n    fn();\n    app::Connector c;\n    c.send( \"hello world\" );\n}\n</code></pre>\n\n<p>yields</p>\n\n<pre><code>[2018-03-22 22:35:06.746] [console] [info] [global.main()] starting app\n[2018-03-22 22:35:06.747] [console] [debug] [global] in fn\n[2018-03-22 22:35:06.747] [console] [trace] [global.app.Connector.send()] hello world\n</code></pre>\n\n<p>as desired.</p>\n\n<p>Conditionally inheriting an outer scope as mentioned in the question example is left as an exercise.</p>\n",
+      "owner": {
+        "display_name": "Chris Hunt",
+        "link": "https://stackoverflow.com/users/1698058/chris-hunt"
+      }
+    },
+    {
+      "answer_id": 49262014,
+      "body": "<p>Due to very long execution of my tests I was killing process. <code>debug</code> logs were saved always in both files, <code>info</code> logs not. It was caused by flush policy in <code>spdlog</code> (<code>debug</code> level is more important and it was flushed very often - I suppose that almost after each call).</p>\n\n<p><code>info</code> logs are flushed after all tests (not after each test case or each test class). That's why my files were always empty (I killed process).</p>\n\n<p>It is possible to change flush policy for logger by</p>\n\n<pre><code>logger-&gt;flush_on(spdlog::level::info);\n</code></pre>\n",
+      "owner": {
+        "display_name": "wpater",
+        "link": "https://stackoverflow.com/users/6490626/wpater"
+      }
+    },
+    {
+      "answer_id": 41346222,
+      "body": "<p>Just as you're said: you didn't install your targets in the export set. In other words, you're missing an <code>install(EXPORT ...</code> line for your header-only targets. For example, considering your header-only library <code>websocketpp</code>, you should have:</p>\n\n<pre><code>add_library(websocketpp INTERFACE)\ntarget_include_directories(websocketpp INTERFACE\n  $&lt;BUILD_INTERFACE:${WEBSOCKETPP_INCLUDE_DIR}&gt;\n  $&lt;INSTALL_INTERFACE:include&gt;)\n\ninstall(TARGETS websocketpp EXPORT websocketpp-config DESTINATION include)\n\n# here is the missing line:\n\ninstall(EXPORT websocketpp-config DESTINATION share/websocketpp/cmake)\n</code></pre>\n\n<p>Same goes for the other libraries.</p>\n",
+      "owner": {
+        "display_name": "rocambille",
+        "link": "https://stackoverflow.com/users/6612932/rocambille"
+      }
+    },
+    {
+      "answer_id": 38168202,
+      "body": "<p>First, don't use single quotes <code>'</code> but double quotes <code>\"</code> or just plain strings if they don't contain spaces.</p>\n\n<p>I would advice you to use <code>find_path</code> instead of adding includes directly. There you can add <code>PATH_SUFFIXES</code>. You get a message during configuration if the header is not found, which makes it easier to spot errors.<br>\nDocumentation: <a href=\"https://cmake.org/cmake/help/v3.6/command/find_path.html\" rel=\"nofollow\">https://cmake.org/cmake/help/v3.6/command/find_path.html</a></p>\n",
+      "owner": {
+        "display_name": "usr1234567",
+        "link": "https://stackoverflow.com/users/2799037/usr1234567"
+      }
+    }
+  ]
+}

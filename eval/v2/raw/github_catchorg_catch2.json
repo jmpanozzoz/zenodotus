@@ -1,0 +1,1547 @@
+{
+  "library": "github:catchorg/catch2",
+  "fetched_at": "2026-11-21T17:28:33Z",
+  "questions": [
+    {
+      "question_id": 54693505,
+      "title": "Running unit tests excluding a specific tag in Catch2",
+      "accepted_answer_id": 54693803,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/54693505/running-unit-tests-excluding-a-specific-tag-in-catch2",
+      "owner": {
+        "display_name": "Wander3r",
+        "link": "https://stackoverflow.com/users/1694593/wander3r"
+      }
+    },
+    {
+      "question_id": 65098604,
+      "title": "Catch2 installation on ubuntu 20.04 #include &lt;catch2/catch.hpp&gt;",
+      "accepted_answer_id": 65113704,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/65098604/catch2-installation-on-ubuntu-20-04-include-catch2-catch-hpp",
+      "owner": {
+        "display_name": "c0nn3ct",
+        "link": "https://stackoverflow.com/users/14499384/c0nn3ct"
+      }
+    },
+    {
+      "question_id": 67408357,
+      "title": "How to avoid update checks with CMake FetchContent?",
+      "accepted_answer_id": 67408474,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/67408357/how-to-avoid-update-checks-with-cmake-fetchcontent",
+      "owner": {
+        "display_name": "proydakov",
+        "link": "https://stackoverflow.com/users/883553/proydakov"
+      }
+    },
+    {
+      "question_id": 55172815,
+      "title": "What is the correct way to compile multiple test sources with Catch2?",
+      "accepted_answer_id": 55174146,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/55172815/what-is-the-correct-way-to-compile-multiple-test-sources-with-catch2",
+      "owner": {
+        "display_name": "Collin",
+        "link": "https://stackoverflow.com/users/2079802/collin"
+      }
+    },
+    {
+      "question_id": 59645381,
+      "title": "Best practices for Unit testing with Catch2 in Visual Studio",
+      "accepted_answer_id": 59704127,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/59645381/best-practices-for-unit-testing-with-catch2-in-visual-studio",
+      "owner": {
+        "display_name": "DavidZi",
+        "link": "https://stackoverflow.com/users/12474809/davidzi"
+      }
+    },
+    {
+      "question_id": 59770581,
+      "title": "Can&#39;t use overloaded comparison operator with Catch test",
+      "accepted_answer_id": 59770946,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/59770581/cant-use-overloaded-comparison-operator-with-catch-test",
+      "owner": {
+        "display_name": "Some programmer dude",
+        "link": "https://stackoverflow.com/users/440558/some-programmer-dude"
+      }
+    },
+    {
+      "question_id": 64121152,
+      "title": "How to compare floating point in catch2",
+      "accepted_answer_id": 64141028,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/64121152/how-to-compare-floating-point-in-catch2",
+      "owner": {
+        "display_name": "Inquisitor",
+        "link": "https://stackoverflow.com/users/12609158/inquisitor"
+      }
+    },
+    {
+      "question_id": 59690736,
+      "title": "How to get a relative path for CMake unit tests?",
+      "accepted_answer_id": 59690823,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/59690736/how-to-get-a-relative-path-for-cmake-unit-tests",
+      "owner": {
+        "display_name": "Adam",
+        "link": "https://stackoverflow.com/users/321772/adam"
+      }
+    },
+    {
+      "question_id": 65499778,
+      "title": "How do you add separate test files with Catch2 and CMake?",
+      "accepted_answer_id": 65499985,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/65499778/how-do-you-add-separate-test-files-with-catch2-and-cmake",
+      "owner": {
+        "display_name": "W. Albuquerque",
+        "link": "https://stackoverflow.com/users/7717481/w-albuquerque"
+      }
+    },
+    {
+      "question_id": 66227246,
+      "title": "Catch2 undefined reference to Catch::StringMaker",
+      "accepted_answer_id": 70320798,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/66227246/catch2-undefined-reference-to-catchstringmaker",
+      "owner": {
+        "display_name": "Elvis Dukaj",
+        "link": "https://stackoverflow.com/users/1266688/elvis-dukaj"
+      }
+    },
+    {
+      "question_id": 56569698,
+      "title": "How do I integrate Catch2 with the QT Event Loop?",
+      "accepted_answer_id": 56569699,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/56569698/how-do-i-integrate-catch2-with-the-qt-event-loop",
+      "owner": {
+        "display_name": "johnnyb",
+        "link": "https://stackoverflow.com/users/1326985/johnnyb"
+      }
+    },
+    {
+      "question_id": 52432147,
+      "title": "Catch2 runs test once more if all sections fail",
+      "accepted_answer_id": 52432506,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/52432147/catch2-runs-test-once-more-if-all-sections-fail",
+      "owner": {
+        "display_name": "Nikola Benes",
+        "link": "https://stackoverflow.com/users/2170917/nikola-benes"
+      }
+    },
+    {
+      "question_id": 74755467,
+      "title": "Unable to use redirected std::cout in Catch2",
+      "accepted_answer_id": 75401116,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/74755467/unable-to-use-redirected-stdcout-in-catch2",
+      "owner": {
+        "display_name": "pklgn",
+        "link": "https://stackoverflow.com/users/17511643/pklgn"
+      }
+    },
+    {
+      "question_id": 55867570,
+      "title": "Printing floating-point values with full precision with Catch2",
+      "accepted_answer_id": 55868408,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/55867570/printing-floating-point-values-with-full-precision-with-catch2",
+      "owner": {
+        "display_name": "kebs",
+        "link": "https://stackoverflow.com/users/193789/kebs"
+      }
+    },
+    {
+      "question_id": 56466022,
+      "title": "What is the canonical way to check for approximate zeros in Catch2?",
+      "accepted_answer_id": 60265706,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/56466022/what-is-the-canonical-way-to-check-for-approximate-zeros-in-catch2",
+      "owner": {
+        "display_name": "alfC",
+        "link": "https://stackoverflow.com/users/225186/alfc"
+      }
+    },
+    {
+      "question_id": 58289895,
+      "title": "Is it possible to use Catch2 for testing an MPI code?",
+      "accepted_answer_id": 58290117,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/58289895/is-it-possible-to-use-catch2-for-testing-an-mpi-code",
+      "owner": {
+        "display_name": "SamVanDonut",
+        "link": "https://stackoverflow.com/users/7141543/samvandonut"
+      }
+    },
+    {
+      "question_id": 59073589,
+      "title": "How to perform code coverage in C++ using meson?",
+      "accepted_answer_id": 59111938,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/59073589/how-to-perform-code-coverage-in-c-using-meson",
+      "owner": {
+        "display_name": "Antonio La Marra",
+        "link": "https://stackoverflow.com/users/6404771/antonio-la-marra"
+      }
+    },
+    {
+      "question_id": 68796371,
+      "title": "Is there a Catch2 variable that provides the name of the current test?",
+      "accepted_answer_id": 72324686,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/68796371/is-there-a-catch2-variable-that-provides-the-name-of-the-current-test",
+      "owner": {
+        "display_name": "vy32",
+        "link": "https://stackoverflow.com/users/51167/vy32"
+      }
+    },
+    {
+      "question_id": 74795976,
+      "title": "Comparison with std::nullopt in Catch2 gives unreadable results",
+      "accepted_answer_id": 74796854,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/74795976/comparison-with-stdnullopt-in-catch2-gives-unreadable-results",
+      "owner": {
+        "display_name": "Nane",
+        "link": "https://stackoverflow.com/users/8627683/nane"
+      }
+    },
+    {
+      "question_id": 75978008,
+      "title": "is there a construct in catch2 to express a mapping of inputs vs. expected values?",
+      "accepted_answer_id": 75978558,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/75978008/is-there-a-construct-in-catch2-to-express-a-mapping-of-inputs-vs-expected-value",
+      "owner": {
+        "display_name": "Grim Fandango",
+        "link": "https://stackoverflow.com/users/383689/grim-fandango"
+      }
+    },
+    {
+      "question_id": 52199773,
+      "title": "How to check the same condition in several Catch2 test cases",
+      "accepted_answer_id": 52199842,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/52199773/how-to-check-the-same-condition-in-several-catch2-test-cases",
+      "owner": {
+        "display_name": "J&#243;n&#225;s Bal&#225;zs",
+        "link": "https://stackoverflow.com/users/8244162/j%c3%b3n%c3%a1s-bal%c3%a1zs"
+      }
+    },
+    {
+      "question_id": 52621760,
+      "title": "How to set up Catch2 in Bazel project",
+      "accepted_answer_id": 52621761,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/52621760/how-to-set-up-catch2-in-bazel-project",
+      "owner": {
+        "display_name": "Martinsos",
+        "link": "https://stackoverflow.com/users/1509394/martinsos"
+      }
+    },
+    {
+      "question_id": 55227598,
+      "title": "How can I use Catch2 to test my CMake static library project?",
+      "accepted_answer_id": 62841239,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/55227598/how-can-i-use-catch2-to-test-my-cmake-static-library-project",
+      "owner": {
+        "display_name": "Bartvbl",
+        "link": "https://stackoverflow.com/users/383632/bartvbl"
+      }
+    },
+    {
+      "question_id": 56405754,
+      "title": "Catch2 with CMake and Visual Studio",
+      "accepted_answer_id": 57936612,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/56405754/catch2-with-cmake-and-visual-studio",
+      "owner": {
+        "display_name": "kovac",
+        "link": "https://stackoverflow.com/users/5387794/kovac"
+      }
+    },
+    {
+      "question_id": 61248130,
+      "title": "Catch2 require the exception to be equal to something",
+      "accepted_answer_id": 61256848,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/61248130/catch2-require-the-exception-to-be-equal-to-something",
+      "owner": {
+        "display_name": "Vahagn",
+        "link": "https://stackoverflow.com/users/12893892/vahagn"
+      }
+    },
+    {
+      "question_id": 65603144,
+      "title": "How to get coverage for tests with CMake and Catch2",
+      "accepted_answer_id": 65603276,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/65603144/how-to-get-coverage-for-tests-with-cmake-and-catch2",
+      "owner": {
+        "display_name": "ges134",
+        "link": "https://stackoverflow.com/users/5056935/ges134"
+      }
+    },
+    {
+      "question_id": 73242922,
+      "title": "Combining AND and OR in Catch2 test tags",
+      "accepted_answer_id": 76180681,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/73242922/combining-and-and-or-in-catch2-test-tags",
+      "owner": {
+        "display_name": "Eric Brown",
+        "link": "https://stackoverflow.com/users/175201/eric-brown"
+      }
+    },
+    {
+      "question_id": 78034419,
+      "title": "C++ Catch2 : Generate a array with random values",
+      "accepted_answer_id": 78035035,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/78034419/c-catch2-generate-a-array-with-random-values",
+      "owner": {
+        "display_name": "getsoubl",
+        "link": "https://stackoverflow.com/users/2057014/getsoubl"
+      }
+    },
+    {
+      "question_id": 52242534,
+      "title": "how to use CTest with Node js command, for testing JS file compiled from C++ using emscripten, and use Catch2?",
+      "accepted_answer_id": 52243176,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/52242534/how-to-use-ctest-with-node-js-command-for-testing-js-file-compiled-from-c-usi",
+      "owner": {
+        "display_name": "janucaria",
+        "link": "https://stackoverflow.com/users/624184/janucaria"
+      }
+    },
+    {
+      "question_id": 56194930,
+      "title": "catch2 single-include causes &quot;undefined reference&quot; in test",
+      "accepted_answer_id": 56197128,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/56194930/catch2-single-include-causes-undefined-reference-in-test",
+      "owner": {
+        "display_name": "Daniel Paczuski Bak",
+        "link": "https://stackoverflow.com/users/4268602/daniel-paczuski-bak"
+      }
+    },
+    {
+      "question_id": 59038582,
+      "title": "Getting external dependency with cmake",
+      "accepted_answer_id": 59040992,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/59038582/getting-external-dependency-with-cmake",
+      "owner": {
+        "display_name": "ZerataX",
+        "link": "https://stackoverflow.com/users/3779427/zeratax"
+      }
+    },
+    {
+      "question_id": 59464918,
+      "title": "Getting CATCH_SINGLE_INCLUDE: command not found Error, when i am compiling the 010-TestCase.cpp file in Catch2",
+      "accepted_answer_id": 59893168,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/59464918/getting-catch-single-include-command-not-found-error-when-i-am-compiling-the-0",
+      "owner": {
+        "display_name": "akkkiiiii",
+        "link": "https://stackoverflow.com/users/11763526/akkkiiiii"
+      }
+    },
+    {
+      "question_id": 60203802,
+      "title": "Do not combine generators in Catch2 test case",
+      "accepted_answer_id": 60267543,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/60203802/do-not-combine-generators-in-catch2-test-case",
+      "owner": {
+        "display_name": "Melon",
+        "link": "https://stackoverflow.com/users/689106/melon"
+      }
+    },
+    {
+      "question_id": 62256473,
+      "title": "How to create a template for creating a test executable using catch2 with qt and trompeloeil?",
+      "accepted_answer_id": 62261772,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/62256473/how-to-create-a-template-for-creating-a-test-executable-using-catch2-with-qt-and",
+      "owner": {
+        "display_name": "user9400869",
+        "link": null
+      }
+    },
+    {
+      "question_id": 64002397,
+      "title": "Catch2 - Populating singleton with different mock data for different test files",
+      "accepted_answer_id": 64013760,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/64002397/catch2-populating-singleton-with-different-mock-data-for-different-test-files",
+      "owner": {
+        "display_name": "Kenneth",
+        "link": "https://stackoverflow.com/users/14318111/kenneth"
+      }
+    },
+    {
+      "question_id": 66176215,
+      "title": "Cannot compile file using catch2 CATCH_CONFIG_MAIN",
+      "accepted_answer_id": 66177127,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/66176215/cannot-compile-file-using-catch2-catch-config-main",
+      "owner": {
+        "display_name": "askman",
+        "link": "https://stackoverflow.com/users/15070569/askman"
+      }
+    },
+    {
+      "question_id": 70122761,
+      "title": "Catch2 compile error (no such file or directory)",
+      "accepted_answer_id": 70124133,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/70122761/catch2-compile-error-no-such-file-or-directory",
+      "owner": {
+        "display_name": "randomsquare",
+        "link": "https://stackoverflow.com/users/17478525/randomsquare"
+      }
+    },
+    {
+      "question_id": 70450584,
+      "title": "Different catch2 checks on different inputs",
+      "accepted_answer_id": 70466926,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/70450584/different-catch2-checks-on-different-inputs",
+      "owner": {
+        "display_name": "David Maze",
+        "link": "https://stackoverflow.com/users/10008173/david-maze"
+      }
+    },
+    {
+      "question_id": 76247500,
+      "title": "How to make Catch2 version 3 tests use logcat on android devices?",
+      "accepted_answer_id": 76247572,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/76247500/how-to-make-catch2-version-3-tests-use-logcat-on-android-devices",
+      "owner": {
+        "display_name": "Adam",
+        "link": "https://stackoverflow.com/users/4032670/adam"
+      }
+    },
+    {
+      "question_id": 76602549,
+      "title": "Catch2: Checking if result is 0.0 with a relative error fails",
+      "accepted_answer_id": 76604117,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/76602549/catch2-checking-if-result-is-0-0-with-a-relative-error-fails",
+      "owner": {
+        "display_name": "Chris F",
+        "link": "https://stackoverflow.com/users/9979209/chris-f"
+      }
+    },
+    {
+      "question_id": 78880685,
+      "title": "Cross compiling from Linux to Windows using Catch2 Fails",
+      "accepted_answer_id": 78880890,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/78880685/cross-compiling-from-linux-to-windows-using-catch2-fails",
+      "owner": {
+        "display_name": "Donotalo",
+        "link": "https://stackoverflow.com/users/68304/donotalo"
+      }
+    },
+    {
+      "question_id": 79889435,
+      "title": "Static inline variable defined in header is being initialised more than once",
+      "accepted_answer_id": 79889448,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/79889435/static-inline-variable-defined-in-header-is-being-initialised-more-than-once",
+      "owner": {
+        "display_name": "John O&#39;brien",
+        "link": "https://stackoverflow.com/users/11162066/john-obrien"
+      }
+    },
+    {
+      "question_id": 52437713,
+      "title": "Assigning a char* to a char",
+      "accepted_answer_id": 52437848,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/52437713/assigning-a-char-to-a-char",
+      "owner": {
+        "display_name": "Tilak Patel",
+        "link": "https://stackoverflow.com/users/8917506/tilak-patel"
+      }
+    },
+    {
+      "question_id": 52548502,
+      "title": "Catch2 UnorderedEquals correct usage",
+      "accepted_answer_id": 52562202,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/52548502/catch2-unorderedequals-correct-usage",
+      "owner": {
+        "display_name": "chaocaiwang",
+        "link": "https://stackoverflow.com/users/10427477/chaocaiwang"
+      }
+    },
+    {
+      "question_id": 54388883,
+      "title": "Catch2 cmake function &#39;catch_discover_tests()&#39; not work in bulid time",
+      "accepted_answer_id": 54393765,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/54388883/catch2-cmake-function-catch-discover-tests-not-work-in-bulid-time",
+      "owner": {
+        "display_name": "임근영",
+        "link": "https://stackoverflow.com/users/5766424/%ec%9e%84%ea%b7%bc%ec%98%81"
+      }
+    },
+    {
+      "question_id": 54670006,
+      "title": "What&#39;s the gtest equivalent of CATCH_CONFIG_MAIN?",
+      "accepted_answer_id": 54670135,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/54670006/whats-the-gtest-equivalent-of-catch-config-main",
+      "owner": {
+        "display_name": "Li Chen",
+        "link": "https://stackoverflow.com/users/6949852/li-chen"
+      }
+    },
+    {
+      "question_id": 56610112,
+      "title": "Problem in testing my function with Catch2Farmework",
+      "accepted_answer_id": 56831474,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/56610112/problem-in-testing-my-function-with-catch2farmework",
+      "owner": {
+        "display_name": "Rahul Kedia",
+        "link": "https://stackoverflow.com/users/11651779/rahul-kedia"
+      }
+    },
+    {
+      "question_id": 57022528,
+      "title": "Unable to compile simple project structure (uses catch2 library) with cmake",
+      "accepted_answer_id": 57035395,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/57022528/unable-to-compile-simple-project-structure-uses-catch2-library-with-cmake",
+      "owner": {
+        "display_name": "Bernardo Subercaseaux",
+        "link": "https://stackoverflow.com/users/11780694/bernardo-subercaseaux"
+      }
+    },
+    {
+      "question_id": 60372706,
+      "title": "How to add description to a test case using overloaded equality(==) operator?",
+      "accepted_answer_id": 60382199,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/60372706/how-to-add-description-to-a-test-case-using-overloaded-equality-operator",
+      "owner": {
+        "display_name": "Yosua Martiansia",
+        "link": "https://stackoverflow.com/users/12952482/yosua-martiansia"
+      }
+    },
+    {
+      "question_id": 63623766,
+      "title": "Detect specific tag match in Catch2 at runtime",
+      "accepted_answer_id": 63626282,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/63623766/detect-specific-tag-match-in-catch2-at-runtime",
+      "owner": {
+        "display_name": "s3cur3",
+        "link": "https://stackoverflow.com/users/1417451/s3cur3"
+      }
+    },
+    {
+      "question_id": 66091597,
+      "title": "How does the Catch2 GENERATE macro work internally?",
+      "accepted_answer_id": 76474993,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/66091597/how-does-the-catch2-generate-macro-work-internally",
+      "owner": {
+        "display_name": "ph3rin",
+        "link": "https://stackoverflow.com/users/9171697/ph3rin"
+      }
+    },
+    {
+      "question_id": 66658338,
+      "title": "How to use TEMPLATE_TEST_CASE with pairs of types?",
+      "accepted_answer_id": 66658871,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/66658338/how-to-use-template-test-case-with-pairs-of-types",
+      "owner": {
+        "display_name": "Armut",
+        "link": "https://stackoverflow.com/users/2096243/armut"
+      }
+    },
+    {
+      "question_id": 70611257,
+      "title": "Approximation using gmp mpf_class",
+      "accepted_answer_id": 70615995,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/70611257/approximation-using-gmp-mpf-class",
+      "owner": {
+        "display_name": "Tom",
+        "link": "https://stackoverflow.com/users/16705333/tom"
+      }
+    },
+    {
+      "question_id": 70664337,
+      "title": "Run all catch2 tests in one compile unit without tag definition",
+      "accepted_answer_id": 70664538,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/70664337/run-all-catch2-tests-in-one-compile-unit-without-tag-definition",
+      "owner": {
+        "display_name": "schorsch312",
+        "link": "https://stackoverflow.com/users/2416647/schorsch312"
+      }
+    },
+    {
+      "question_id": 70699450,
+      "title": "How do I use catch2 just by cloning its repository and copying its src to my project?",
+      "accepted_answer_id": 70699709,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/70699450/how-do-i-use-catch2-just-by-cloning-its-repository-and-copying-its-src-to-my-pro",
+      "owner": {
+        "display_name": "jkbs1337",
+        "link": "https://stackoverflow.com/users/10978071/jkbs1337"
+      }
+    },
+    {
+      "question_id": 72582804,
+      "title": "How to add parameters to section names in Catch2",
+      "accepted_answer_id": 72585305,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/72582804/how-to-add-parameters-to-section-names-in-catch2",
+      "owner": {
+        "display_name": "Shunya",
+        "link": "https://stackoverflow.com/users/14989571/shunya"
+      }
+    },
+    {
+      "question_id": 73340077,
+      "title": "Catch2 CLion error, &quot;No tests were found&quot;",
+      "accepted_answer_id": 73340918,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/73340077/catch2-clion-error-no-tests-were-found",
+      "owner": {
+        "display_name": "k huang",
+        "link": "https://stackoverflow.com/users/12310828/k-huang"
+      }
+    },
+    {
+      "question_id": 74157038,
+      "title": "Create custom reporter for Catch2 in single header version",
+      "accepted_answer_id": 74173059,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/74157038/create-custom-reporter-for-catch2-in-single-header-version",
+      "owner": {
+        "display_name": "Micka&#235;l C. Guimar&#227;es",
+        "link": "https://stackoverflow.com/users/2026195/micka%c3%abl-c-guimar%c3%a3es"
+      }
+    },
+    {
+      "question_id": 76339384,
+      "title": "Catch2 found by cmake but not accepted due to version mismatch",
+      "accepted_answer_id": 76339707,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/76339384/catch2-found-by-cmake-but-not-accepted-due-to-version-mismatch",
+      "owner": {
+        "display_name": "Gorun",
+        "link": "https://stackoverflow.com/users/21247237/gorun"
+      }
+    },
+    {
+      "question_id": 76639954,
+      "title": "How to make Catch2 test run after every rebuild?",
+      "accepted_answer_id": 76640266,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/76639954/how-to-make-catch2-test-run-after-every-rebuild",
+      "owner": {
+        "display_name": "lighthouse",
+        "link": "https://stackoverflow.com/users/16687283/lighthouse"
+      }
+    },
+    {
+      "question_id": 77343122,
+      "title": "CMake script for Catch2 version 3.x",
+      "accepted_answer_id": 77343399,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/77343122/cmake-script-for-catch2-version-3-x",
+      "owner": {
+        "display_name": "Marius Bancila",
+        "link": "https://stackoverflow.com/users/648078/marius-bancila"
+      }
+    },
+    {
+      "question_id": 79848109,
+      "title": "Loss of reference",
+      "accepted_answer_id": 79848402,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/79848109/loss-of-reference",
+      "owner": {
+        "display_name": "Natan Camargos",
+        "link": "https://stackoverflow.com/users/6489712/natan-camargos"
+      }
+    },
+    {
+      "question_id": 57892275,
+      "title": "How do I run tests built using VisualStudio, via CMake/CTest/Catch2 from the CLI?",
+      "accepted_answer_id": 57892755,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/57892275/how-do-i-run-tests-built-using-visualstudio-via-cmake-ctest-catch2-from-the-cli",
+      "owner": {
+        "display_name": "Edd Inglis",
+        "link": "https://stackoverflow.com/users/11603085/edd-inglis"
+      }
+    },
+    {
+      "question_id": 60098024,
+      "title": "How to implement a custom matcher to check for object equality in Catch2",
+      "accepted_answer_id": 60101619,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/60098024/how-to-implement-a-custom-matcher-to-check-for-object-equality-in-catch2",
+      "owner": {
+        "display_name": "chick3n0x07CC",
+        "link": "https://stackoverflow.com/users/7012085/chick3n0x07cc"
+      }
+    },
+    {
+      "question_id": 60750799,
+      "title": "Why would this cause a Seg. fault, and how can I use GDB to debug it?",
+      "accepted_answer_id": 60750922,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/60750799/why-would-this-cause-a-seg-fault-and-how-can-i-use-gdb-to-debug-it",
+      "owner": {
+        "display_name": "AmagicalFishy",
+        "link": "https://stackoverflow.com/users/1715544/amagicalfishy"
+      }
+    },
+    {
+      "question_id": 61068521,
+      "title": "Why am I getting this SIGSEGV signal in my catch2 test?",
+      "accepted_answer_id": 61069132,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/61068521/why-am-i-getting-this-sigsegv-signal-in-my-catch2-test",
+      "owner": {
+        "display_name": "Chris Morgan",
+        "link": "https://stackoverflow.com/users/12460181/chris-morgan"
+      }
+    },
+    {
+      "question_id": 61458113,
+      "title": "Problems with Structs and tests with catch2",
+      "accepted_answer_id": 61536833,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/61458113/problems-with-structs-and-tests-with-catch2",
+      "owner": {
+        "display_name": "y_1234",
+        "link": "https://stackoverflow.com/users/10653474/y-1234"
+      }
+    },
+    {
+      "question_id": 63730621,
+      "title": "ctest reports success for test with exit status 1",
+      "accepted_answer_id": 63731746,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/63730621/ctest-reports-success-for-test-with-exit-status-1",
+      "owner": {
+        "display_name": "Jasper Braun",
+        "link": "https://stackoverflow.com/users/12278979/jasper-braun"
+      }
+    },
+    {
+      "question_id": 64618840,
+      "title": "Controlling output of Boost.Test source location format",
+      "accepted_answer_id": 64619245,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/64618840/controlling-output-of-boost-test-source-location-format",
+      "owner": {
+        "display_name": "alfC",
+        "link": "https://stackoverflow.com/users/225186/alfc"
+      }
+    },
+    {
+      "question_id": 64704615,
+      "title": "testthat (&amp; Catch) complains in R CMD check that xml2 library is missing",
+      "accepted_answer_id": 64710873,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/64704615/testthat-catch-complains-in-r-cmd-check-that-xml2-library-is-missing",
+      "owner": {
+        "display_name": "beerda",
+        "link": "https://stackoverflow.com/users/14586121/beerda"
+      }
+    },
+    {
+      "question_id": 64764927,
+      "title": "catch2 throws and error when adding a struct",
+      "accepted_answer_id": 64764990,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/64764927/catch2-throws-and-error-when-adding-a-struct",
+      "owner": {
+        "display_name": "Ramses Aldama",
+        "link": "https://stackoverflow.com/users/7594725/ramses-aldama"
+      }
+    },
+    {
+      "question_id": 66213478,
+      "title": "Why is &quot;==&quot; not acceptable here?",
+      "accepted_answer_id": 66213717,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/66213478/why-is-not-acceptable-here",
+      "owner": {
+        "display_name": "askman",
+        "link": "https://stackoverflow.com/users/15070569/askman"
+      }
+    },
+    {
+      "question_id": 66817173,
+      "title": "Shared library problems between C++11 and C++14",
+      "accepted_answer_id": 66825908,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/66817173/shared-library-problems-between-c11-and-c14",
+      "owner": {
+        "display_name": "theoremseeker",
+        "link": "https://stackoverflow.com/users/13643972/theoremseeker"
+      }
+    },
+    {
+      "question_id": 69001979,
+      "title": "Make long header files compile once?",
+      "accepted_answer_id": 69099719,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/69001979/make-long-header-files-compile-once",
+      "owner": {
+        "display_name": "Oogway101",
+        "link": "https://stackoverflow.com/users/16174418/oogway101"
+      }
+    },
+    {
+      "question_id": 70190601,
+      "title": "Disable thread leak test in ThreadSanitizer?",
+      "accepted_answer_id": 70239978,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/70190601/disable-thread-leak-test-in-threadsanitizer",
+      "owner": {
+        "display_name": "vy32",
+        "link": "https://stackoverflow.com/users/51167/vy32"
+      }
+    },
+    {
+      "question_id": 73854795,
+      "title": "Catch2: Test all permutations of two lists of types",
+      "accepted_answer_id": 73857201,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/73854795/catch2-test-all-permutations-of-two-lists-of-types",
+      "owner": {
+        "display_name": "PluginPenguin",
+        "link": "https://stackoverflow.com/users/10215177/pluginpenguin"
+      }
+    },
+    {
+      "question_id": 76190559,
+      "title": "Problem linking to Catch2 library installed with Conan 2.0 in CMake",
+      "accepted_answer_id": 76194626,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/76190559/problem-linking-to-catch2-library-installed-with-conan-2-0-in-cmake",
+      "owner": {
+        "display_name": "Fungor",
+        "link": "https://stackoverflow.com/users/15446621/fungor"
+      }
+    },
+    {
+      "question_id": 76646480,
+      "title": "Is there a better way to test for Liskov substitution principle using catch2?",
+      "accepted_answer_id": 76745672,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/76646480/is-there-a-better-way-to-test-for-liskov-substitution-principle-using-catch2",
+      "owner": {
+        "display_name": "Brandon",
+        "link": "https://stackoverflow.com/users/20334433/brandon"
+      }
+    },
+    {
+      "question_id": 79768083,
+      "title": "How do I set the spdlog log level in a Catch2 unit test?",
+      "accepted_answer_id": 79781925,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/79768083/how-do-i-set-the-spdlog-log-level-in-a-catch2-unit-test",
+      "owner": {
+        "display_name": "user2138149",
+        "link": "https://stackoverflow.com/users/893254/user2138149"
+      }
+    },
+    {
+      "question_id": 73841883,
+      "title": "What negative test cases are commonly used for compiler scanners/parsers?",
+      "accepted_answer_id": 73842048,
+      "score": -2,
+      "link": "https://stackoverflow.com/questions/73841883/what-negative-test-cases-are-commonly-used-for-compiler-scanners-parsers",
+      "owner": {
+        "display_name": "Oliver",
+        "link": "https://stackoverflow.com/users/15224052/oliver"
+      }
+    },
+    {
+      "question_id": 68658302,
+      "title": "How do I make catch2 not print its annoying header?",
+      "accepted_answer_id": 68658488,
+      "score": -6,
+      "link": "https://stackoverflow.com/questions/68658302/how-do-i-make-catch2-not-print-its-annoying-header",
+      "owner": {
+        "display_name": "einpoklum",
+        "link": "https://stackoverflow.com/users/1593077/einpoklum"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 79889448,
+      "body": "<p>If you want to make a variable definition in a header that is shared across source files, only make it <code>inline</code>. When <code>static</code> is used on a variable at namespace-scope, it means the variable has internal linkage, which means the name is local to the source file it appears in. So when you include <code>foo.hpp</code> in other source files, it creates and initializes seperate variables for each file. This overrides the effect of <code>inline</code>, which is meant to allow multiple definitions of the same name across different source files.</p>\n<p>When <code>static</code> is used on a class data member it means the data member is not part of any particular instance of the class. It's as if the class is a namespace and the data member is a member of that namespace, and can be accessed as such (and through the <code>.</code> or <code>-&gt;</code> syntax for convenience).</p>\n<p>Inside of a class, you would declare a data member <code>static inline</code> when you want the data member to not depend on any particular instance, but you also intend to define this variable within a header file that will be included multiple places. <code>static</code> in this case doesn't affect linkage.</p>\n",
+      "owner": {
+        "display_name": "David G",
+        "link": "https://stackoverflow.com/users/701092/david-g"
+      }
+    },
+    {
+      "answer_id": 79848402,
+      "body": "<p>First of all, please avoid using raw pointers. Use modern C++ with <code>std::unique_ptr</code> and <code>std::shared_ptr</code>. Also, the use of <code>std::list</code> is generally not recommended.</p>\n<p>Just do:</p>\n<pre class=\"lang-cpp prettyprint-override\"><code>    auto listener0 = std::make_unique&lt;game::Listener&gt;(\n        &quot;listener-0&quot;, [calls, listenerName0](game::Event event) mutable {\n            calls[listenerName0]++;\n        });\n</code></pre>\n<p>Second problem: You do not understand how Catch2 <code>SECTION</code> works. Code defined in a <code>TEST_CASE</code> is invoked multiple times. When the first section is encountered, it is executed, and all following sections are ignored. On the next run of the <code>TEST_CASE</code>, Catch2 remembers that the first section was executed, skips it, and then executes the next section that hasn’t run yet.</p>\n<p>The goal is to have behavior where code before a <code>SECTION</code> acts as setup code, and each <code>SECTION</code> is just a sub-test. Code after a <code>SECTION</code> acts as teardown code.</p>\n<p>You can nest <code>SECTION</code>s, and they work recursively. A parent section is executed as many times as necessary to run every child <code>SECTION</code>.</p>\n<p>Please read the Catch2 documentation. Here is a  <a href=\"https://godbolt.org/z/W38eTfT6s\" rel=\"noreferrer\">simple demo showing how <code>SECTION</code>s work</a>.</p>\n<p>This behavior means that <code>SECTION(&quot;when adding a listener&quot;)</code> has no impact on code in <code>SECTION(&quot;when emitting an event&quot;)</code> or <code>SECTION(&quot;when removing a listener&quot;)</code>.</p>\n<p>Third problem: You are using the lambda incorrectly. You are capturing <code>calls</code> by copy, not by reference! So you are modifying a copy and then checking if the original value changed.</p>\n<p>Here is your test fixed: <a href=\"https://godbolt.org/z/KnnT6YKqs\" rel=\"noreferrer\">https://godbolt.org/z/KnnT6YKqs</a></p>\n<pre class=\"lang-cpp prettyprint-override\"><code>TEST_CASE(&quot;Emitter should work properly&quot;, &quot;[event][emitter]&quot;) {\n    game::Emitter emitter;\n    std::string eventName0 = &quot;event-0&quot;;\n    std::string listenerName0 = &quot;listener-0&quot;;\n    std::map&lt;std::string, int&gt; calls = {{listenerName0, 0}};\n\n    auto listener0 = std::make_unique&lt;game::Listener&gt;(\n        &quot;listener-0&quot;,\n        [&amp;calls, listenerName0](game::Event) { calls[listenerName0]++; });\n\n    emitter.on(eventName0, listener0.get());\n    REQUIRE(emitter.listeners.size() == 1);\n\n    SECTION(&quot;and then emitting an event&quot;) {\n        REQUIRE(emitter.listeners.size() == 1);  // passing not needed anymore, since it is covered at 81\n        game::Event event{eventName0, {}};\n        emitter.emit(event);\n        REQUIRE(calls[listenerName0] == 1);  // passing\n    }\n\n    SECTION(&quot;when emitting an event&quot;) {\n        REQUIRE(emitter.listeners.size() == 1);  // passing not needed anymore, since it is covered at 81\n        game::Event event{eventName0, {}};\n        emitter.emit(event);\n        REQUIRE(calls[listenerName0] == 1);  // passing\n    }\n\n    SECTION(&quot;when removing a listener&quot;) {\n        emitter.off(eventName0, listener0.get());\n        REQUIRE(emitter.listeners.size() == 0);\n    }\n}\n</code></pre>\n<p>The last section still fails. It looks like you are again operating on a copy of some value instead of the original (this is a bug in the production code).</p>\n<hr>\n<p>Edit:<br />\nHere I've <a href=\"https://godbolt.org/z/7KePeW7nf\" rel=\"noreferrer\">corrected your code</a> more and now it passes all your tests. Still it has quite a lot room for an improvement.</p>\n",
+      "owner": {
+        "display_name": "Marek R",
+        "link": "https://stackoverflow.com/users/1387438/marek-r"
+      }
+    },
+    {
+      "answer_id": 79781925,
+      "body": "<h1>Solution</h1>\n<p>Two things are required:</p>\n<ol>\n<li><code>#define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE</code>, which must be placed <strong>before</strong> <code>#include &lt;spdlog/spdlog.h&gt;</code></li>\n<li><code>spdlog::set_level(spdlog::level::trace);</code> must be called in each test case</li>\n</ol>\n<h2>Example:</h2>\n<pre class=\"lang-cpp prettyprint-override\"><code>#define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE\n#include &lt;spdlog/spdlog.h&gt;\n\n#include &lt;catch2/catch_all.hpp&gt;\n\nint bar(int x) {\n    SPDLOG_TRACE(&quot;{} x={} &quot;, __PRETTY_FUNCTION__, x);\n    return x + 1;\n}\n\nTEST_CASE(&quot;Bar&quot;) {\n\n    spdlog::set_level(spdlog::level::trace);\n\n    REQUIRE(bar(3) == 5);\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "user2138149",
+        "link": "https://stackoverflow.com/users/893254/user2138149"
+      }
+    },
+    {
+      "answer_id": 59704127,
+      "body": "<p>OK, I guess I found a suitable workflow to make Catch2 test work in Visual Studio 2019:</p>\n<ol>\n<li><strong>Create a new project within the solution of the Project under test (PuT)</strong>. This will be our Test project.</li>\n<li><strong><a href=\"https://learn.microsoft.com/en-us/visualstudio/test/writing-unit-tests-for-c-cpp?view=vs-2019#create-references-to-other-projects-in-the-solution\" rel=\"nofollow noreferrer\">Add a reference to PuT from the Test project</a></strong>.</li>\n<li><strong>In the Test project, create a source file and put the following lines in it</strong>:</li>\n</ol>\n<pre><code>#define CATCH_CONFIG_MAIN\n#include &quot;path_to_catch2/catch.hpp&quot;\n</code></pre>\n<ol start=\"4\">\n<li><strong>Write some tests</strong>. You can have as many source files with tests as you want, but remember that only one of them must have the <code>#define CATCH_CONFIG_MAIN</code> declaration.</li>\n<li><strong>In Test project Configuration Properties, set following settings</strong>:</li>\n</ol>\n<ul>\n<li><em>C/C++ -&gt; General -&gt; Additional Include Directories</em> - add here a path to the header files of the PuT (eg. <em>$(SolutionDir)PuT</em>).</li>\n<li><em>Linker -&gt; General -&gt; Additional Library Directories</em> - add here a path to object files directory of the PuT.</li>\n<li><em>Linker -&gt; Input -&gt; Additional Dependencies</em> - here, put object files names of the PuT (not paths, just the names of .OBJ files!), separated by semicolon, which were used in tests. For example, if you want to test some code declared in <em>MyCode.h</em>, put <em>MyCode.obj</em> file name here. When you reference more header files from the PuT, don't forget to update this setting.</li>\n</ul>\n<ol start=\"6\">\n<li><strong>Open Test Explorer</strong>.</li>\n<li><strong>Add a .runsettings file with to the solution root folder</strong>. Minimal config looks like this:</li>\n</ol>\n<pre><code>\n    &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;\n    &lt;RunSettings&gt;\n        &lt;Catch2Adapter&gt;\n            &lt;FilenameFilter&gt;^Test_&lt;/FilenameFilter&gt;\n        &lt;/Catch2Adapter&gt;\n    &lt;/RunSettings&gt;\n\n</code></pre>\n<p>where <code>&lt;FilenameFilter&gt;</code> controls filter for test projects filenames. In this particular example, tests will be discovered only in projects which names start with &quot;Test_&quot;.</p>\n<ol start=\"8\">\n<li><strong>Select this .runsettings file in <em>Test -&gt; Configure Run Settings -&gt; Select Solution Wide runsettings File</em></strong>. You can have multiple .runsettings file with different configuration, here you can switch them at any moment.</li>\n<li><strong>Rebuild the solution</strong> to discover tests.</li>\n</ol>\n<p>Now you should see your tests in Test Explorer.</p>\n<hr />\n<p>Some useful links:</p>\n<p><a href=\"https://learn.microsoft.com/en-us/visualstudio/test/how-to-use-microsoft-test-framework-for-cpp?view=vs-2019\" rel=\"nofollow noreferrer\">https://learn.microsoft.com/en-us/visualstudio/test/how-to-use-microsoft-test-framework-for-cpp?view=vs-2019</a></p>\n<p><a href=\"https://github.com/JohnnyHendriks/TestAdapter_Catch2/blob/master/Docs/Walkthrough-vs2022.md\" rel=\"nofollow noreferrer\">https://github.com/JohnnyHendriks/TestAdapter_Catch2/blob/master/Docs/Walkthrough-vs2022.md</a></p>\n",
+      "owner": {
+        "display_name": "DavidZi",
+        "link": "https://stackoverflow.com/users/12474809/davidzi"
+      }
+    },
+    {
+      "answer_id": 78880890,
+      "body": "<p><code>catch_discover_tests</code> needs to run a test executable for obtain a list of tests. By default, the executable is run just after it is built, at build stage. You may set parameter <code>DISCOVERY_MODE</code> to <code>PRE_TEST</code> for defer running the executable before running tests:</p>\n<pre><code>catch_discover_tests(tests DISCOVERY_MODE PRE_TEST)\n</code></pre>\n<p>Alternatively, you could set the variable <code>CMAKE_CATCH_DISCOVER_TESTS_DISCOVERY_MODE</code> to <code>PRE_TEST</code>, so you won't need to modify every call to <code>catch_discover_tests</code>:</p>\n<pre><code>set(CMAKE_CATCH_DISCOVER_TESTS_DISCOVERY_MODE PRE_TEST)\n...\ncatch_discover_tests(tests)\n</code></pre>\n<p>You could set the variable in your toolchain file, so your toolchain will work\nalso with external projects, which code you don't want to change.</p>\n<p>All these aspects are described in the <a href=\"https://github.com/catchorg/Catch2/blob/devel/docs/cmake-integration.md\" rel=\"nofollow noreferrer\">Catch documentation</a>.</p>\n",
+      "owner": {
+        "display_name": "Tsyvarev",
+        "link": "https://stackoverflow.com/users/3440745/tsyvarev"
+      }
+    },
+    {
+      "answer_id": 78035035,
+      "body": "<p>The problem is that the macro <code>GENERATE</code> is using the wrong <a href=\"https://en.cppreference.com/w/cpp/language/initialization\" rel=\"nofollow noreferrer\">kind of initialization</a> for array types, you can create a simple type to translate it like this (<a href=\"https://godbolt.org/z/YadTjPb1d\" rel=\"nofollow noreferrer\">full example</a>)</p>\n<pre><code>template&lt;typename T, std::size_t N&gt;\nstruct array_wrapper : std::array&lt;T, N&gt;\n{\n    template&lt;typename... ArgTs&gt;\n    constexpr array_wrapper(ArgTs&amp;&amp;... args)\n        : std::array&lt;T, N&gt;{std::forward&lt;ArgTs&gt;(args)...}\n    {\n    }\n};\n</code></pre>\n<p>Note that you would either assign it to a variable of type <code>std::array&lt;T, N&gt;</code> (as opposed to <code>auto</code>) or cast it to the base type if you need a &quot;pure&quot; std::array. Talue is implicitly convertible to std::array due to public inheritance anyway, so it can be used as one.</p>\n",
+      "owner": {
+        "display_name": "Terence Simpson",
+        "link": "https://stackoverflow.com/users/22395/terence-simpson"
+      }
+    },
+    {
+      "answer_id": 77343399,
+      "body": "<p>The directory you use in <code>Catch2_DIR</code> or <code>CMAKE_PREFIX_PATH</code> must be the directory in which you <em>installed</em> your build of Catch2. You cannot use the directory where you cloned the Catch2 git repo unless that is also where you chose to install your build of it to. This is stated <a href=\"https://github.com/catchorg/Catch2/blob/devel/docs/cmake-integration.md#cmake-targets\" rel=\"nofollow noreferrer\">in the docs</a>. If you want basic instructions for building and installing Catch2, then <a href=\"https://github.com/catchorg/Catch2/blob/devel/docs/cmake-integration.md#installing-catch2-from-git-repository\" rel=\"nofollow noreferrer\">see the docs</a>, but all you know about doing builds and installs with CMake applies- those docs are just a suggestion for people who have no idea what to do.</p>\n",
+      "owner": {
+        "display_name": "starball",
+        "link": "https://stackoverflow.com/users/11107541/starball"
+      }
+    },
+    {
+      "answer_id": 54693803,
+      "body": "<p>In your case add to the command line:</p>\n<pre><code>~[NotWorking]\n</code></pre>\n<p>Source: <a href=\"https://github.com/catchorg/Catch2/blob/master/docs/command-line.md#specifying-which-tests-to-run\" rel=\"nofollow noreferrer\">https://github.com/catchorg/Catch2/blob/master/docs/command-line.md#specifying-which-tests-to-run</a></p>\n<blockquote>\n<h2>Specifying which tests to run</h2>\n<pre>&lt;test-spec> ...</pre>\n<p>By providing a test spec, you filter which tests will be run. If you\ncall Catch2 without any test spec, then it will run all non-hidden\ntest cases. A test case is hidden if it has the <code>[!benchmark]</code> tag,\nany tag with a dot at the start, e.g. <code>[.]</code> or <code>[.foo]</code>.</p>\n<p>There are three basic test specs that can then be combined into more\ncomplex specs:</p>\n<ul>\n<li>Full test name, e.g. <code>&quot;Test 1&quot;</code>.</li>\n</ul>\n<p>This allows only test cases whose name is &quot;Test 1&quot;.</p>\n<ul>\n<li>Wildcarded test name, e.g. <code>&quot;*Test&quot;</code>, or <code>&quot;Test*&quot;</code>, or <code>&quot;*Test*&quot;</code>.</li>\n</ul>\n<p>This allows any test case whose name ends with, starts with, or\ncontains in the middle the string &quot;Test&quot;. Note that the wildcard can\nonly be at the start or end.</p>\n<ul>\n<li>Tag name, e.g. <code>[some-tag]</code>.</li>\n</ul>\n<p>This allows any test case tagged with &quot;[some-tag]&quot;. Remember that some\ntags are special, e.g. those that start with &quot;.&quot; or with &quot;!&quot;.</p>\n<p>You can also combine the basic test specs to create more complex test\nspecs. You can</p>\n<ul>\n<li>Concatenate specs to apply all of them, e.g.\n<code>[some-tag][other-tag]</code>.</li>\n</ul>\n<p>This allows test cases that are tagged with <strong>both</strong> &quot;[some-tag]&quot;\n<strong>and</strong> &quot;[other-tag]&quot;. A test case with just &quot;[some-tag]&quot; will not pass the filter, nor will test case with just &quot;[other-tag]&quot;.</p>\n<ul>\n<li>Comma-join specs to apply any of them, e.g.\n<code>[some-tag],[other-tag]</code>.</li>\n</ul>\n<p>This allows test cases that are tagged with <strong>either</strong> &quot;[some-tag]&quot;\n<strong>or</strong> &quot;[other-tag]&quot;. A test case with both will obviously also pass the filter.</p>\n<p>Note that commas take precendence over simple concatenation. This\nmeans that <code>[a][b],[c]</code> accepts tests that are tagged with either both\n&quot;[a]&quot; and &quot;[b]&quot;, or tests that are tagged with just &quot;[c]&quot;.</p>\n<ul>\n<li>Negate the spec by prepending it with <code>~</code>, e.g. <code>~[some-tag]</code>.</li>\n</ul>\n<p>This rejects any test case that is tagged with &quot;[some-tag]&quot;. Note that\nrejection takes precedence over other filters.</p>\n<p>Note that negations always binds to the following <em>basic</em> test spec.\nThis means that <code>~[foo][bar]</code> negates only the &quot;[foo]&quot; tag and not the\n&quot;[bar]&quot; tag.</p>\n<p>Note that when Catch2 is deciding whether to include a test, first it\nchecks whether the test matches any negative filters. If it does, the\ntest is rejected. After that, the behaviour depends on whether there\nare positive filters as well. If there are no positive filters, all\nremaining non-hidden tests are included. If there are positive\nfilters, only tests that match the positive filters are included.</p>\n<p>You can also match test names with special characters by escaping them\nwith a backslash (<code>&quot;\\&quot;</code>), e.g. a test named <code>&quot;Do A, then B&quot;</code> is\nmatched by &quot;Do A, then B&quot; test spec. Backslash also escapes itself.</p>\n<h3>Examples</h3>\n<p>Given these TEST_CASEs,</p>\n<pre><code>TEST_CASE(&quot;Test 1&quot;) {}\n\nTEST_CASE(&quot;Test 2&quot;, &quot;[.foo]&quot;) {}  \n\nTEST_CASE(&quot;Test 3&quot;, &quot;[.bar]&quot;) {}\n\nTEST_CASE(&quot;Test 4&quot;, &quot;[.][foo][bar]&quot;) {}\n</code></pre>\n<p>this is the result of these filters</p>\n<pre><code>./tests                      # Selects only the first test, others are hidden \n./tests &quot;Test 1&quot;             # Selects only the first test, other do not match \n./tests ~&quot;Test 1&quot;            # Selects no tests. Test 1 is rejected, other tests are hidden \n./tests &quot;Test *&quot;             # Selects all tests. \n./tests [bar]                # Selects tests 3 and 4. Other tests are not tagged [bar] \n./tests ~[foo]               # Selects test 1, because it is the only non-hidden test without [foo] tag \n./tests [foo][bar]           # Selects test 4. \n./tests [foo],[bar]          # Selects tests 2, 3, 4.\n./tests ~[foo][bar]          # Selects test 3. 2 and 4 are rejected due to having [foo] tag \n./tests ~&quot;Test 2&quot;[foo]       # Selects test 4, because test 2 is explicitly rejected \n./tests [foo][bar],&quot;Test 1&quot;  # Selects tests 1 and 4. \n./tests &quot;Test 1*&quot;            # Selects test 1, wildcard can match zero characters\n</code></pre>\n<p><em>Note: Using plain asterisk on a command line can cause issues with shell expansion. Make sure that the asterisk is passed to Catch2 and\nis not interpreted by the shell.</em></p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Robert Andrzejuk",
+        "link": "https://stackoverflow.com/users/2504757/robert-andrzejuk"
+      }
+    },
+    {
+      "answer_id": 76745672,
+      "body": "<p><code>REQUIRE</code> and <code>SECTION</code> live in any function. This allows for a much cleaner solution using catch2 built in functionality.</p>\n<pre><code>void test_lsp(Base &amp;obj)\n{\n  SECTION(&quot;...&quot;) {}\n  SECTION(&quot;...&quot;) {}\n}\nTEST_CASE(&quot;some test&quot;)\n{\n  Derived obj;\n  test_lsp(obj);\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Brandon",
+        "link": "https://stackoverflow.com/users/20334433/brandon"
+      }
+    },
+    {
+      "answer_id": 76640266,
+      "body": "<p>You should be able to do this via <a href=\"https://cmake.org/cmake/help/v3.3/command/add_custom_command.html#build-events\" rel=\"nofollow noreferrer\">add_custom_command</a> in CMake like so:</p>\n<pre><code>add_custom_command(\n     TARGET prelude_test\n     COMMENT &quot;Run tests&quot;\n     POST_BUILD \n     WORKING_DIRECTORY ${CMAKE_BINARY_DIR}\n     COMMAND ${CMAKE_CTEST_COMMAND} -C $&lt;CONFIGURATION&gt; -R &quot;^prelude_test$&quot; --output-on-failures\n)\n</code></pre>\n<p>On running <code>make</code> or <code>ninja</code> whatever your generator is set to, if the target rebuild is triggered (i.e. if you changed a source file), the test will be run automatically.</p>\n<p>Source, with info on how to adapt this to multiple test targets: <a href=\"https://stackoverflow.com/a/32902353/844728\">SO answer</a>.</p>\n",
+      "owner": {
+        "display_name": "Greg Kramida",
+        "link": "https://stackoverflow.com/users/844728/greg-kramida"
+      }
+    },
+    {
+      "answer_id": 76604117,
+      "body": "<p>The answer can be found here: <a href=\"https://github.com/catchorg/Catch2/blob/devel/docs/comparing-floating-point-numbers.md\" rel=\"nofollow noreferrer\">https://github.com/catchorg/Catch2/blob/devel/docs/comparing-floating-point-numbers.md</a></p>\n<p>Specifically in the WithinRel section, where they tell you that it matches:</p>\n<p><code>|arg - target| &lt;= eps * max(|arg|, |target|)</code></p>\n<p>Note that if <code>target</code> is 0 this reduces to: <code>|arg| &lt;= eps * |arg|</code> which is only true if <code>arg == 0</code> (as long as <code>eps &lt; 1</code>). Essentially by using WithinRel with a target of 0 you disable the relative part.</p>\n<p>As for your failure message. If I do this:</p>\n<pre><code>double bla = 0.00000000001;\nREQUIRE_THAT(bla, Catch::Matchers::WithinRel(0.0, 0.0001));\n</code></pre>\n<p>Catch2 prints:</p>\n<pre><code>FAILED:\n  REQUIRE_THAT( bla, Catch::Matchers::WithinRel(0.0, 0.0001) )\nwith expansion:\n  0.0 and 0 are within 0.01% of each other\n</code></pre>\n<p>Which is because doubles typically are not printed with full decimal precision, so in this case <code>0.00000000001</code> prints as <code>0.0</code>.</p>\n<p>So to sum up:</p>\n<p><code>quat.R_component_1()</code> is less than 1e-9 but not actually 0, so WithinRel fails while WithinAbs succeeds.</p>\n<p><code>quat.R_component_4()</code> is actually equal to 0 so WithinRel succeeds.</p>\n",
+      "owner": {
+        "display_name": "Frodyne",
+        "link": "https://stackoverflow.com/users/11829247/frodyne"
+      }
+    },
+    {
+      "answer_id": 76474993,
+      "body": "<p>Regarding the final example, let's just unroll the loop first.</p>\n<pre><code>TEST_CASE(&quot;Non structured generators&quot;) {\n    int x = -1, y = -1;\n    for (int i = 0; i &lt;= 1; ++i) {\n        x = GENERATE(0, 1);\n        if (i == 1) break;\n        y = GENERATE(2, 3);\n    }\n    std::cout &lt;&lt; x &lt;&lt; &quot;,&quot; &lt;&lt; y &lt;&lt; std::endl;\n}\n</code></pre>\n<p>then becomes:</p>\n<pre><code>TEST_CASE(&quot;Non structured generators&quot;) {\n    int x = -1, y = -1;\n    x = GENERATE(0, 1);\n    y = GENERATE(2, 3);\n    x = GENERATE(0, 1);\n    std::cout &lt;&lt; x &lt;&lt; &quot;,&quot; &lt;&lt; y &lt;&lt; std::endl;\n}\n</code></pre>\n<p>Now we can clearly see the 2^3 = 8 permutations happening.</p>\n<p>Why could we just unroll it? Because the generators are not actually tied to &quot;line of code&quot;, nor are they objects instanced in the scope of the <code>GENERATE</code> macro invocation.</p>\n<p>Instead every time you use the <code>GENERATE</code> macro, it's actually just alike to a hidden <code>SECTION</code> group pushed onto a stack stored outside the test execution. So there is not one generator per <em>line of code</em>, but rather actually one hidden index on a stack per call.</p>\n<p>Incrementing happens after the test execution finishes. All generators / option groups which have exhausted their options are cleared from the stack. The inner-most surviving generator is then permitted to advance <em>one</em> element for the next test execution.</p>\n<p>Generators already popped from the stack re-register when invoked again.</p>\n<p>In pseudocode:</p>\n<pre><code>after test execution:\n  while !stack.empty():\n    if stack.top().atLastElement():\n      stack.pop();\n    else:\n      stack.top().nextElement();\n      break;\n  if stack.empty():\n    testDone();\n</code></pre>\n<p>The <code>SECTION</code> macro actually shares the very same stack - except that the options are not registering as a <em><strong>running index</strong></em> into the generators options, but rather as a <em><strong>set of unique section names</strong></em> within each scope (not the actual implementation, but easier to think of it this way).</p>\n<p>The same logic applies though - once each and every <code>SECTION</code> within a single scope reports &quot;I'm already in that set&quot;, it also sets a <code>atLastElement</code> flag and thereby results in leaving the group of sections.</p>\n<p>So likewise with <code>SECTION</code> - they are not identified by line of code or alike either, but only by their position in the stack option groups and then matched by <em><strong>name</strong></em> only.</p>\n<p>Introducing variation into the control flow <em>other</em> than with <code>GENERATE</code> or <code>SECTION</code> macros can result in highly unexpected behavior due to these details.</p>\n",
+      "owner": {
+        "display_name": "Ext3h",
+        "link": "https://stackoverflow.com/users/2879325/ext3h"
+      }
+    },
+    {
+      "answer_id": 76339707,
+      "body": "<p>The reason of not accepting the package is in the <strong>parenthesis</strong>: <code>(64bit)</code>.</p>\n<p>CMake treats your package as <strong>64-bit</strong> one, so that package cannot be used in the project targeting 32-bit platform.</p>\n<hr />\n<p>Not sure why CMake installs 64-bit Catch project into <code>C:/Program Files (x86)</code>. Probably, this is caused by incorrect environment you had when configure Catch (<code>cmake -Bbuild .</code>).</p>\n",
+      "owner": {
+        "display_name": "Tsyvarev",
+        "link": "https://stackoverflow.com/users/3440745/tsyvarev"
+      }
+    },
+    {
+      "answer_id": 76247572,
+      "body": "<p>Ohh, the answer is so simple.</p>\n<p>You have to run the test with <code>-o %debug</code>, that is, add that as command line parameters.</p>\n",
+      "owner": {
+        "display_name": "Adam",
+        "link": "https://stackoverflow.com/users/4032670/adam"
+      }
+    },
+    {
+      "answer_id": 76194626,
+      "body": "<p>To begin with, change your <code>CMakeLists</code>:</p>\n<pre class=\"lang-cmake prettyprint-override\"><code>cmake_minimum_required(VERSION 3.8)\nproject(add LANGUAGES CXX VERSION 0.0.0)\n\nfind_package(Catch2 REQUIRED)\n\nadd_executable(add-test add-test.cpp)\ntarget_link_libraries(add-test PRIVATE Catch2::Catch2WithMain)\ntarget_compile_features(add-test PRIVATE cxx_std_17)\n</code></pre>\n<p>And the way you call conan &amp; cmake:</p>\n<pre><code>conan install . -of build-debug -s build_type=Debug -b missing \ncmake -S . -B build-debug -DCMAKE_TOOLCHAIN_FILE=build-debug/conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Debug\ncmake --build build-debug\n</code></pre>\n<p>Always try to set <code>CMake</code> toolchain file in command line arguments. Another way is to set variable <code>CMAKE_TOOLCHAIN_FILE</code> before <code>project()</code> call in <code>CMakeLists</code>. The last one is not a good practice anyway.</p>\n",
+      "owner": {
+        "display_name": "SpacePotatoes",
+        "link": "https://stackoverflow.com/users/8390473/spacepotatoes"
+      }
+    },
+    {
+      "answer_id": 76180681,
+      "body": "<p>Based on the <a href=\"https://github.com/catchorg/Catch2/blob/devel/docs/test-cases-and-sections.md#tags\" rel=\"nofollow noreferrer\">documentation</a> (updated since your question) it is possible.</p>\n<p>In stead of the <code>(zh-HK OR zh-TW) AND ModelVerification</code> logic you could use a <code>(zh-HK AND ModelVerification) OR (zh-TW AND ModelVerification)</code>. In your case it would be:</p>\n<pre><code>[zh-HK][ModelVerification], [zh-TW][ModelVerification]\n</code></pre>\n<p>P.S. Take care of the spaces and the commas. Catch is sensitive to those.</p>\n",
+      "owner": {
+        "display_name": "zerocukor287",
+        "link": "https://stackoverflow.com/users/14583599/zerocukor287"
+      }
+    },
+    {
+      "answer_id": 75978558,
+      "body": "<p>Yes it is possible, but <a href=\"https://github.com/catchorg/Catch2/blob/devel/docs/generators.md\" rel=\"nofollow noreferrer\">documentation</a> lacks off good examples, in this case you need feed <code>table&lt;...&gt;</code> generator to <code>GENERATE</code> macro:</p>\n<pre class=\"lang-cpp prettyprint-override\"><code>std::string my_reverse(std::string_view s)\n{\n    return {s.rbegin(), s.rend()};\n}\n\nTEST_CASE(&quot;test reverse_and_double&quot;)\n{\n    auto [input, expected_output] = GENERATE(table&lt;std::string, std::string&gt;({\n        { &quot;abcd&quot;, &quot;dcba&quot; },\n        { &quot;hello&quot;, &quot;olleh&quot; },\n    }));\n\n    CAPTURE(input);\n    REQUIRE(my_reverse(input) == expected_output);\n}\n</code></pre>\n<p><a href=\"https://godbolt.org/z/GbrPxdbrb\" rel=\"nofollow noreferrer\">https://godbolt.org/z/GbrPxdbrb</a></p>\n<p>I had problems understanding documentation and had to inspect unit test and other projects source code on github to fill gaps.</p>\n<p>Note I used <code>CAPTURE</code> so it is clear which argument was used when test fails.</p>\n",
+      "owner": {
+        "display_name": "Marek R",
+        "link": "https://stackoverflow.com/users/1387438/marek-r"
+      }
+    },
+    {
+      "answer_id": 75401116,
+      "body": "<p>Solution from <code>avred</code> is good, but it is a good practice to provide helper function which will make this easier to use. This will also make test easier to read.</p>\n<pre class=\"lang-cpp prettyprint-override\"><code>#include &quot;catch2/catch_all.hpp&quot;\n\n#include &lt;iostream&gt;\n#include &lt;sstream&gt;\n\nvoid foo()\n{\n    std::cout &lt;&lt; &quot;foo&quot;;\n}\n\nclass AutoRestoreRdbuf {\n    std::ostream&amp; out;\n    std::streambuf* old;\n\npublic:\n    ~AutoRestoreRdbuf()\n    {\n        out.rdbuf(old);\n    }\n    AutoRestoreRdbuf(const AutoRestoreRdbuf&amp;) = delete;\n    AutoRestoreRdbuf(AutoRestoreRdbuf&amp;&amp;) = delete;\n\n    AutoRestoreRdbuf(std::ostream&amp; out)\n        : out { out }\n        , old { out.rdbuf() }\n    {\n    }\n};\n\nstd::string stringWrittentToStream(std::function&lt;void()&gt; f, std::ostream&amp; out = std::cout)\n{\n    AutoRestoreRdbuf restore { std::cout };\n    std::ostringstream oss;\n    std::cout.rdbuf(oss.rdbuf());\n    f();\n    return oss.str();\n}\n\nTEST_CASE(&quot;Foo&quot;)\n{\n    auto s = stringWrittentToStream(&amp;foo);\n    REQUIRE(s == &quot;foo1&quot;);\n}\n</code></pre>\n<p><a href=\"https://godbolt.org/z/3877s5K56\" rel=\"nofollow noreferrer\">https://godbolt.org/z/3877s5K56</a></p>\n",
+      "owner": {
+        "display_name": "Marek R",
+        "link": "https://stackoverflow.com/users/1387438/marek-r"
+      }
+    },
+    {
+      "answer_id": 74796854,
+      "body": "<p>Take a look at <a href=\"https://github.com/catchorg/Catch2/blob/devel/docs/tostring.md#top\" rel=\"nofollow noreferrer\">https://github.com/catchorg/Catch2/blob/devel/docs/tostring.md#top</a></p>\n<p>Given how <code>std::optional&lt;int&gt;</code> interferes with <code>int</code> I found the <code>Catch::StringMaker</code> specialisation to be easier than overloading <code>operator&lt;&lt;</code> for <code>std::ostream</code> (though you can get both to work).</p>\n<p>Try to add this code to your testcases (after the Catch2 header include):</p>\n<pre><code>namespace Catch\n{\n    template &lt;&gt;\n    struct StringMaker&lt;std::optional&lt;int&gt;&gt;\n    {\n        static std::string convert(std::optional&lt;int&gt; const &amp;value)\n        {\n            if (value)\n                return std::to_string(*value);\n            else\n                return std::string(&quot;&lt;empty&gt;&quot;);\n        }\n    };\n\n    template &lt;&gt;\n    struct StringMaker&lt;std::nullopt_t&gt;\n    {\n        static std::string convert(std::nullopt_t const &amp;)\n        {\n            return std::string(&quot;&lt;empty&gt;&quot;);\n        }\n    };\n}\n</code></pre>\n<p>The first part handles <code>std::optional&lt;int&gt;</code>, the second handles the cases where you compare to <code>std::nullopt</code> (try them one at a time to see the effect).</p>\n",
+      "owner": {
+        "display_name": "Frodyne",
+        "link": "https://stackoverflow.com/users/11829247/frodyne"
+      }
+    },
+    {
+      "answer_id": 74173059,
+      "body": "<p>It depends on the version of the library you are using. Versions 2.x were based on the single header <em>catch.hpp</em> and had numerous additional <a href=\"https://github.com/catchorg/Catch2/blob/v2.x/docs/configuration.md#reporter--listener-interfaces\" rel=\"nofollow noreferrer\">macros</a> to configure what is included from that header. In particular, you would need</p>\n<pre><code>#define CATCH_CONFIG_EXTERNAL_INTERFACES\n#include &quot;catch.hpp&quot;\n</code></pre>\n<p>to access the reporter definitions.</p>\n<p>With versions 3.x, this has changed and there are two options:</p>\n<ul>\n<li>Adopt the new library architecture, meaning you link your targets against Catch2 and include the appropriate reporter header, e.g.\n<pre><code>#include &lt;catch2/reporters/catch_reporter_streaming_base.hpp&gt;\n</code></pre>\n</li>\n<li>Use the <em>catch_amalgamated.hpp/cpp</em> files to compile the library as a single translation unit. Additional configuration should no longer be needed to make the reporter classes available.</li>\n</ul>\n<p>See also <a href=\"https://github.com/catchorg/Catch2/blob/devel/docs/migrate-v2-to-v3.md\" rel=\"nofollow noreferrer\">this document</a> for more information on migrating to version 3.</p>\n",
+      "owner": {
+        "display_name": "sigma",
+        "link": "https://stackoverflow.com/users/1719926/sigma"
+      }
+    },
+    {
+      "answer_id": 73857201,
+      "body": "<p>You can create the <a href=\"https://stackoverflow.com/questions/9122028/how-to-create-the-cartesian-product-of-a-type-list\">Cartesian product of type list</a>, and then:</p>\n<pre><code>using MyTypes = cross_product&lt;type_list&lt;A, B&gt;, type_list&lt;float, double&gt;&gt;::type;\n// using MyTypes = type_list&lt;std::pair&lt;A, float&gt;, std::pair&lt;A, double&gt;,\n//                           std::pair&lt;B, float&gt;, std::pair&lt;B, double&gt;&gt;;\nTEMPLATE_LIST_TEST_CASE(&quot;some_name&quot;, &quot;[xxx]&quot;, MyTypes)\n{\n    using TestTypeX = typename TestType::first_type;  // A or B\n    using TestTypeY = typename TestType::second_type; // float or double\n    // ...\n}\n</code></pre>\n<p>In the same way, <code>TEMPLATE_PRODUCT_TEST_CASE</code> might be (ab)used with wrapper type:</p>\n<pre><code>template &lt;typename T&gt;\nstruct A_with\n{\n    using first_type = A;\n    using second_type = T;\n};\ntemplate &lt;typename T&gt;\nstruct B_with\n{\n    using first_type = B;\n    using second_type = T;\n};\n\nTEMPLATE_PRODUCT_TEST_CASE(&quot;some name&quot;, &quot;[xxx]&quot;, (A_with, B_with), (float, double))\n{\n    using TestTypeX = typename TestType::first_type;  // A or B\n    using TestTypeY = typename TestType::second_type; // float or double\n    // ...\n}\n\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jarod42",
+        "link": "https://stackoverflow.com/users/2684539/jarod42"
+      }
+    },
+    {
+      "answer_id": 73842048,
+      "body": "<p>There's no &quot;common test case&quot;, either positive or negative, for compilers in general. Every language is different. There could be a corpus of test cases for a specific language; your best bet is to look in the tests directory of an open-source implementation for that language, if it exists. So this is basically a non-answer to your question, but I hope that it provides some useful information.</p>\n<p>For lexers, you should attempt to fully exercise the lexical grammar. Many lexical grammars have few or no actual error conditions; any input can be decomposed into tokens of some sort. (A typical fallback is to emit any single character which cannot match any pattern as a token, which will then be rejected by the parser.) But there are a few exceptions to the above rule:</p>\n<ul>\n<li>Character encoding errors (the bytes in the input cannot be decoded into valid code points);</li>\n<li>Unterminated quoted literals and comments.</li>\n</ul>\n<p>You should most certainly verify that your lexer behaves appropriately for such cases. You should also verify that your lexer doesn't choke on excessively long tokens, or weird escape sequences in quoted literals. One issue which is frequently mishandled by lexers is an end-of-input not preceded by a newline character. In an erroneous input, premature end-of-file could appear anywhere (for example, in the middle of a character string escape sequence); make sure your tests include these cases as well.</p>\n<p>For parsers, you'll certainly want to ensure that every grammatical rule is tested by at least one input. There have been attempts to define algorithms for generating test sets with complete coverage; an internet search for &quot;grammar test case generation&quot; will produce a number of leads. All of them have some flaws, but the tools can help a lot.</p>\n<p>Syntax errors are harder to test for. You can use a fuzzer --in fact, you probably should use a fuzzer-- but randomly perturbing a syntactically correct input might produce a different syntactically correct input. It's definitely verging into &quot;art, not science&quot;.</p>\n<p>If you make some attempt to produce specific, more useful syntax errors (which is probably not part of your assignment), then you should test each plausible correctable error case. Again, you'll most likely need to construct that test set by hand, taking into account the goals you had for producing error messages.</p>\n<p>If you have time, you should also attempt to find inputs, valid or not, which push your parser into quadratic or worse parse times. (For production parsers, this test is necessary, but it might be outside of the scope of your compilers course.) Such issues could result from uncontrolled backtracking in a parser which backtracks (Antlr, for example). They can also be the result of apparently innocuous inefficiencies in hash-table implementations and other internal structures, which might be triggered by malicious inputs.</p>\n",
+      "owner": {
+        "display_name": "rici",
+        "link": "https://stackoverflow.com/users/1566221/rici"
+      }
+    },
+    {
+      "answer_id": 73340918,
+      "body": "<p>Figured out it from the links at <a href=\"https://stackoverflow.com/questions/65499778/how-do-you-add-separate-test-files-with-catch2-and-cmake\">How do you add separate test files with Catch2 and CMake?</a></p>\n<p>in my <code>tests/foo</code> CMake I changed it to</p>\n<pre><code>add_library(foo_test_lib OBJECT\n        FooTests.cpp)\n\ntarget_link_libraries(foo_test_lib PUBLIC\n        foo_lib)\n</code></pre>\n",
+      "owner": {
+        "display_name": "k huang",
+        "link": "https://stackoverflow.com/users/12310828/k-huang"
+      }
+    },
+    {
+      "answer_id": 72585305,
+      "body": "<p>This is possible, but not very obvious from the documentation. What you're looking for is a <a href=\"https://github.com/catchorg/Catch2/blob/devel/docs/other-macros.md\" rel=\"nofollow noreferrer\">dynamic section</a>:</p>\n<pre><code>TEST_CASE(&quot;Evaluate output of is_odd() function&quot;) {\n    auto i = GENERATE(1, 3, 5);\n    DYNAMIC_SECTION(&quot;Check if &quot; &lt;&lt; i &lt;&lt; &quot; is odd&quot;){ \n        REQUIRE(is_odd(i));\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "sigma",
+        "link": "https://stackoverflow.com/users/1719926/sigma"
+      }
+    },
+    {
+      "answer_id": 72324686,
+      "body": "<p>I think your scaffolding idea is the way to go. I have not found any macros that would return the name without having to define an extra variable.</p>\n<p>When it comes to the class that is being instantiated for a test case:</p>\n<pre class=\"lang-cpp prettyprint-override\"><code>struct AutoReg : Detail::NonCopyable {\n    AutoReg( Detail::unique_ptr&lt;ITestInvoker&gt; invoker, SourceLineInfo const&amp; lineInfo, StringRef classOrMethod, NameAndTags const&amp; nameAndTags ) noexcept;\n};\n</code></pre>\n<p>It doesn't have any members that would hold test info and even if it did you'd have to keep track of the unique name it's given for each test.</p>\n<p>Looks like <code>AutoReg</code> simply modifies members of a class called <code>RegistryHub</code>, which holds the test info in vectors.</p>\n<p>In my opinion at this point you're better off keeping track of test names yourself.</p>\n",
+      "owner": {
+        "display_name": "gomfy",
+        "link": "https://stackoverflow.com/users/1459061/gomfy"
+      }
+    },
+    {
+      "answer_id": 56197128,
+      "body": "<p>The line <code>#define CATCH_CONFIG_MAIN</code> tells <code>catch.hpp</code> header that it should emit Catch implementation too. But for that purpose, this line should come <strong>before</strong> including of <code>catch.hpp</code>:</p>\n<pre><code>#define CATCH_CONFIG_MAIN // This should come **before** including the 'catch.hpp'.\n#include &quot;catch.hpp&quot;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Tsyvarev",
+        "link": "https://stackoverflow.com/users/3440745/tsyvarev"
+      }
+    },
+    {
+      "answer_id": 70699709,
+      "body": "<p>The GitHub page says:</p>\n<blockquote>\n<h3>Catch2 v3 is being developed!</h3>\n<p>You are on the <code>devel</code> branch, where the next major version, v3, of Catch2 is being developed. As it is a significant rework, you will find that parts of this documentation are likely still stuck on v2.</p>\n<p>For stable (and documentation-matching) version of Catch2, <a href=\"https://github.com/catchorg/Catch2/tree/v2.x\" rel=\"nofollow noreferrer\">go to the v2.x branch</a>.</p>\n</blockquote>\n<p>On the <code>v2.x</code> page there's a link to a standalone header file:</p>\n<blockquote>\n<p><a href=\"https://github.com/catchorg/Catch2/releases/download/v2.13.8/catch.hpp\" rel=\"nofollow noreferrer\">The latest version of the single header can be downloaded directly using this link</a></p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "John Kugelman",
+        "link": "https://stackoverflow.com/users/68587/john-kugelman"
+      }
+    },
+    {
+      "answer_id": 70664538,
+      "body": "<p>I've found in documentation this:</p>\n<p><a href=\"https://github.com/catchorg/Catch2/blob/devel/docs/command-line.md#filenames-as-tags\" rel=\"nofollow noreferrer\">Catch2/command-line.md at devel · catchorg/Catch2 · GitHub</a></p>\n<blockquote>\n<h2>Filenames as tags</h2>\n<p>-#, --filenames-as-tags</p>\n<p>When this option is used then every test is given an additional tag which is formed of the unqualified filename it is found in, with any extension stripped, prefixed with the <code>#</code> character.</p>\n<p>So, for example, tests within the file <code>~\\Dev\\MyProject\\Ferrets.cpp</code> would be tagged <code>[#Ferrets]</code>.</p>\n</blockquote>\n<p>Looks like <a href=\"https://godbolt.org/z/6T3aP4a76\" rel=\"nofollow noreferrer\">it works</a>, so now just filter test based on that tag.</p>\n<p>There is even <a href=\"https://github.com/catchorg/Catch2/blob/devel/docs/command-line.md#specifying-which-tests-to-run\" rel=\"nofollow noreferrer\">exact example in documentation</a></p>\n<blockquote>\n<p>...</p>\n<pre><code>-# [#somefile]          Matches all tests from the file 'somefile.cpp'\n</code></pre>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Marek R",
+        "link": "https://stackoverflow.com/users/1387438/marek-r"
+      }
+    },
+    {
+      "answer_id": 70615995,
+      "body": "<p>First, we need to see some <a href=\"https://stackoverflow.com/help/minimal-reproducible-example\">Minimal, Reproducible Example</a> to be sure of what is happening. You can for example cut down some code from your <code>test.cpp</code> until you are left with just a few lines of code, but the issue still happens. Also, please provide compilation and running instructions. Frequently, a little bit of explanation on what your goals are may also help. As Catch2 is available on GitHub you don't need to provide it.</p>\n<p>Without seeing the code, the best I can guess is that your code is trying to comparing <code>mpf_t</code> types in the <code>mpf_class</code> using the <code>==</code> operator, which I'm afraid has not been overload (see <a href=\"https://gmplib.org/manual/C_002b_002b-Interface-Floats\" rel=\"nofollow noreferrer\">here</a>). You should compare <code>mpf_t</code>s with the <code>cmp</code> function, since the C type <code>mpf_t</code> is actually an struct containing the pointer to the actual significand limbs. Check some usage examples in the <code>tests/cxx/</code> directory of GMP (like <a href=\"https://gmplib.org/repo/gmp/file/tip/tests/cxx/t-ops.cc#l697\" rel=\"nofollow noreferrer\">here</a>).</p>\n<p>I note you are using GNU MP 4.1 version which is very old, you probably want to move to the 6.2.1 latest version if possible. Also, for using floats it's recommended that you use the <a href=\"https://www.mpfr.org/\" rel=\"nofollow noreferrer\">GNU MPFR</a> library instead of GMP floats.</p>\n<p><strong>EDIT</strong>: I did not yet manage to run Catch2, but the issue with your code is the <code>expected_result</code> is actually not equal to the <code>actual_result</code>. In GMP <code>mpf_t</code> variables are created with a 64-bit significand precision (on 64-bit machines), so that the division <code>a / b</code> actually results in a binary that prints 0.166666666666666666667 (that's 19 sixes after the digit 1). Try printing the result with <code>gmp_printf(&quot;%.50Ff\\n&quot;, actual_result);</code>, because the standard <code>cout</code> output will only give you the value rounded to 6 digits: 0.166667.</p>\n<p>But the problem is you can't just assign this like <code>expected_result = 0.166666666666666666667</code> because in C/C++ numeric constants are parsed as <code>double</code>, thus you have to use the string overload attribution to get more precision.</p>\n<p><em>But</em> you can't also manage to easily (or, in general, justifiably) coin a decimal string that will correctly convert to the exact same binary given by <code>a / b</code> because decimal to float conversion has subtleties, see for example <a href=\"https://en.wikipedia.org/wiki/Floating-point_arithmetic#Binary-to-decimal_conversion_with_minimal_number_of_digits\" rel=\"nofollow noreferrer\">here</a> and <a href=\"https://ampl.com/REFS/rounding.pdf\" rel=\"nofollow noreferrer\">here</a>.</p>\n<p>So, it all depends on your application and the kind of numerical validation you aim to do. If you know that your decimal validation values are correct to some known precision, and if you set the <code>mpf_t</code> variables to withstanding precision (using for example <code>mpf_set_prec</code>), then you can use tolerance comparison, like so.</p>\n<p>in C++ (without Catch2), it works like this:</p>\n<pre class=\"lang-cpp prettyprint-override\"><code>#include &lt;iostream&gt;\n#include &lt;gmpxx.h&gt;\nusing namespace std;\n\nint main (void) \n{\n    mpf_class a = 1;\n    mpf_class b = 6;\n    mpf_class actual = a / b;\n    mpf_class expected;\n    mpf_class tol;\n    expected = &quot;0.166666666666666666666666666666667&quot;;\n    tol = &quot;1e-30&quot;;\n    cout &lt;&lt; &quot;actual &quot; &lt;&lt; actual &lt;&lt; &quot;\\n&quot;;\n    cout &lt;&lt; &quot;expected &quot; &lt;&lt; expected &lt;&lt; &quot;\\n&quot;;\n    gmp_printf(&quot;actual %.50Ff\\n&quot;, actual);\n    gmp_printf(&quot;expected %.50Ff\\n&quot;, expected);\n    gmp_printf(&quot;tol %.50Ff\\n&quot;, tol);\n    mpf_class diff = expected - actual;\n    gmp_printf(&quot;diff %.50Ff\\n&quot;, diff);\n    if (abs(actual - expected) &lt; tol)\n        cout &lt;&lt; &quot;ok\\n&quot;;\n    else\n        cout &lt;&lt; &quot;nop\\n&quot;;\n    return 0;\n}\n</code></pre>\n<p>And compile with <code>-lgmpxx -lgmp</code> options.</p>\n<p>It produces the output:</p>\n<pre><code>actual 0.166667\nexpected 0.166667\nactual 0.16666666666666666666700000000000000000000000000000\nexpected 0.16666666666666666666700000000000000000000000000000\ntol 0.00000000000000000000000000000100000000000000000000\ndiff 0.00000000000000000000000000000000033333529249058470\nok\n</code></pre>\n<p>If I understand Catch2 well, it should be ok if you assign <code>expected_result</code> with string then compare with <code>REQUIRE(abs(actual - expected) &lt; tol)</code>.</p>\n",
+      "owner": {
+        "display_name": "Arc",
+        "link": "https://stackoverflow.com/users/17228182/arc"
+      }
+    },
+    {
+      "answer_id": 70466926,
+      "body": "<p>I tend to write small helper functions (or lambdas) even for simple cases. For your example, this could be as short as:</p>\n<pre><code>#include &lt;catch2/catch.hpp&gt;\n\nauto rootTest(double x)\n{\n    return SquareRoot{x}.root();\n}\n\nTEST_CASE(&quot;SquareRoot&quot;) {\n  SECTION(&quot;positive&quot;) {\n    CHECK(rootTest(4.0) == 2.0);\n    REQUIRE(errno == 0);\n  }\n\n  SECTION(&quot;negative&quot;) {\n    CHECK(std::isnan(rootTest(-4.0)));\n    REQUIRE(errno);\n  }\n}\n</code></pre>\n<p>In more complex cases, you could additionally define a POD struct to let your test function return multiple named values, which helps to keep the test conditions easily readable. You can also use Catch2 statements inside the function, in case you do have tests that apply regardless of input.</p>\n",
+      "owner": {
+        "display_name": "sigma",
+        "link": "https://stackoverflow.com/users/1719926/sigma"
+      }
+    },
+    {
+      "answer_id": 70320798,
+      "body": "<h2>Solution</h2>\n<p>You need to build Catch with C++17 support to be able to use string_view inside REQUIRE() and other macros. By default, Catch is built with C++14 for some reason.</p>\n<p>To do so you can run this in directory with your Catch sources:</p>\n<pre class=\"lang-bash prettyprint-override\"><code>mkdir build &amp;&amp; cd build\ncmake -DCMAKE_CXX_STANDARD=17 ..\nsudo make install\n</code></pre>\n<h2>Notes</h2>\n<ol>\n<li>You are heavily relying on Catch2 v3 features, so you should use <code>find_package(Catch2 3 REQUIRED)</code> instead of just <code>find_package(Catch2 REQUIRED)</code> in your cmake file</li>\n<li>You can see discussions of the issue <a href=\"https://github.com/catchorg/Catch2/issues/2046\" rel=\"noreferrer\">here</a> and <a href=\"https://github.com/catchorg/Catch2/issues/2210\" rel=\"noreferrer\">here</a></li>\n</ol>\n",
+      "owner": {
+        "display_name": "renamed_user_337",
+        "link": "https://stackoverflow.com/users/30099101/renamed-user-337"
+      }
+    },
+    {
+      "answer_id": 70239978,
+      "body": "<p>It turns out that the right thing to do was to fix the bug. I was creating threads and not joining them or deleting the <code>std::thread</code> object.</p>\n",
+      "owner": {
+        "display_name": "vy32",
+        "link": "https://stackoverflow.com/users/51167/vy32"
+      }
+    },
+    {
+      "answer_id": 70124133,
+      "body": "<p>You are including <code>test_main.cpp</code> and <code>test.cpp</code> in <code>mainApp</code>.</p>\n<p>Which means that files in <code>mainApp</code> try to <code>#include&quot;Catch2/src/catch2/catch_all.hpp&quot;</code> without linking to the Catch2 library and includes.</p>\n<p>Remove the test files from the <code>mainApp</code> sources and try again.</p>\n",
+      "owner": {
+        "display_name": "Frodyne",
+        "link": "https://stackoverflow.com/users/11829247/frodyne"
+      }
+    },
+    {
+      "answer_id": 69099719,
+      "body": "<p>Have you read <a href=\"https://github.com/catchorg/Catch2/blob/devel/docs/slow-compiles.md\" rel=\"nofollow noreferrer\">https://github.com/catchorg/Catch2/blob/devel/docs/slow-compiles.md</a> ?</p>\n<p>It is recommended to move the tests main function to a separate file, so that the compile intensive parts are only compiled once.</p>\n",
+      "owner": {
+        "display_name": "arved",
+        "link": "https://stackoverflow.com/users/792456/arved"
+      }
+    },
+    {
+      "answer_id": 68658488,
+      "body": "<p>Catch2 is open-source</p>\n<p>If you go to <code>src/catch2/reporters/catch_reporter_console.cpp</code>, you'll find:</p>\n<pre><code>void ConsoleReporter::lazyPrintRunInfo() {\n    stream &lt;&lt; '\\n' &lt;&lt; lineOfChars('~') &lt;&lt; '\\n';\n    Colour colour(Colour::SecondaryText);\n    stream &lt;&lt; currentTestRunInfo-&gt;name\n        &lt;&lt; &quot; is a Catch v&quot; &lt;&lt; libraryVersion() &lt;&lt; &quot; host application.\\n&quot;\n        &lt;&lt; &quot;Run with -? for options\\n\\n&quot;;\n</code></pre>\n<p>Just remove this last line. It should not break anything and fix your issue.</p>\n<p>Alternatively, you can edit <code>src/catch2/interfaces/catch_interfaces_config.hpp</code> and add a configuration option, <code>virtual bool printHeader();</code> and submit a PR. This config is used just the line after printing the header, so it is available.</p>\n",
+      "owner": {
+        "display_name": "Jeffrey",
+        "link": "https://stackoverflow.com/users/4474230/jeffrey"
+      }
+    },
+    {
+      "answer_id": 67408474,
+      "body": "<p>The <a href=\"https://cmake.org/cmake/help/latest/module/FetchContent.html#command:fetchcontent_populate\" rel=\"noreferrer\">documentation</a> for <code>FetchContent_Populate</code> says you can get exactly what you want with the <code>FETCHCONTENT_UPDATES_DISCONNECTED</code> cache variable:</p>\n<blockquote>\n<p><strong><code>FETCHCONTENT_UPDATES_DISCONNECTED</code></strong></p>\n<p>... This ... disables the\nupdate stage. Therefore, if content has not been downloaded\npreviously, it will still be downloaded when this option is enabled.\nThis can speed up the configure stage... It is <code>OFF</code> by default.</p>\n</blockquote>\n<p>So set this one to <code>ON</code> globally, or for Catch2 only, set the variable <code>FETCHCONTENT_UPDATES_DISCONNECTED_Catch2</code> to <code>ON</code>.</p>\n",
+      "owner": {
+        "display_name": "einpoklum",
+        "link": "https://stackoverflow.com/users/1593077/einpoklum"
+      }
+    },
+    {
+      "answer_id": 66825908,
+      "body": "<p>The error is inside <code>malloc</code>, after it has printed some error message (usually <code>double-free</code> or something similar) indicating heap corruption.</p>\n<p>While it is <em>possible</em> that you have some kind of library mismatch, it is <em>much more likely</em> that you have a plain heap corruption bug <em>in your own</em> code (overflowing heap buffer, double delete, delete of non-allocated, etc. etc.), and that bug is simply getting exposed now, while it remained hidden before.</p>\n<p>Your first step should be to run the program under <a href=\"https://valgrind.org\" rel=\"nofollow noreferrer\">Valgrind</a> or with <a href=\"https://github.com/google/sanitizers/wiki/AddressSanitizer\" rel=\"nofollow noreferrer\">Address Sanitizer</a>, and fix any errors these tools report.</p>\n",
+      "owner": {
+        "display_name": "Employed Russian",
+        "link": "https://stackoverflow.com/users/50617/employed-russian"
+      }
+    },
+    {
+      "answer_id": 66658871,
+      "body": "<blockquote>\n<p>. instead of templating a single type for each test, I need to use a correlated pair of types.</p>\n</blockquote>\n<p>If is only a pair of types, I suppose you can use <code>std::pair</code>; <code>std::tuple</code>, for more types.</p>\n<p>I suppose you can try something as</p>\n<pre><code>TEMPLATE_TEST_CASE(&quot;test&quot;, &quot;[test][template]&quot;, std::pair&lt;OutputA, InputA&gt;, std::pair&lt;OutputB, InputB&gt;) {\n  typename TestType::first_type outvalue = /* some initial value */;\n  typename TestType::second_type invalue = /* some initial value */;\n}\n</code></pre>\n<p>With <code>std::tuple</code>, to access the single types, you can use <code>std::tuple_element</code>, so</p>\n<pre><code>TEMPLATE_TEST_CASE(&quot;test&quot;, &quot;[test][template]&quot;, std::tuple&lt;OutputA, InputA&gt;, std::tuple&lt;OutputB, InputB&gt;) {\n  std::tuple_element_t&lt;0u, TestType&gt; outvalue = /* some initial value */;\n  std::tuple_element_t&lt;1u, TestType&gt; invalue = /* some initial value */;\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "max66",
+        "link": "https://stackoverflow.com/users/6022656/max66"
+      }
+    },
+    {
+      "answer_id": 66213717,
+      "body": "<p><code>==</code> cannot be used to simply compare two different objects unless specifically defined for the class to compare attributes.</p>\n",
+      "owner": {
+        "display_name": "askman",
+        "link": "https://stackoverflow.com/users/15070569/askman"
+      }
+    },
+    {
+      "answer_id": 66177127,
+      "body": "<p>The error was occurring because the default branch that google takes you to is the development branch of catch2, so I was using version 3 files and following version 2 documentation (as it has not been updated yet). Once I downloaded the v.2 file everything started working fine.</p>\n",
+      "owner": {
+        "display_name": "askman",
+        "link": "https://stackoverflow.com/users/15070569/askman"
+      }
+    },
+    {
+      "answer_id": 65603276,
+      "body": "<p>I believe you forgot to add appropriate flags</p>\n<pre><code>set(CMAKE_C_FLAGS &quot;${CMAKE_C_FLAGS} -fprofile-arcs -ftest-coverage&quot;)\nset(CMAKE_CXX_FLAGS &quot; ${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage&quot;)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Anton Artiukh",
+        "link": "https://stackoverflow.com/users/7140110/anton-artiukh"
+      }
+    },
+    {
+      "answer_id": 65499985,
+      "body": "<blockquote>\n<p>How do you add separate test files with Catch2 and CMake?</p>\n</blockquote>\n<p>Use object libraries or use <code>--Wl,--whole-archive</code>. Linker removes unreferenced symbols from static libraries when linking, so the tests are not in the final executable.</p>\n<blockquote>\n<p>Could you give an example CMakeLists.txt?</p>\n</blockquote>\n<p>Like</p>\n<pre><code>find_package(Catch2 REQUIRED)\n\nadd_library(test_sources OBJECT simple_test.cpp another_test.cpp)\ntarget_link_libraries(test_sources Catch2::Catch2)\n\nadd_executable(tests test.cpp)\ntarget_link_libraries(tests test_sources)\ntarget_link_libraries(tests Catch2::Catch2)\n\ninclude(CTest)\ninclude(Catch)\ncatch_discover_tests(tests)\n</code></pre>\n<p>or</p>\n<pre><code>find_package(Catch2 REQUIRED)\n\nadd_library(test_sources simple_test.cpp another_test.cpp)\ntarget_link_libraries(test_sources Catch2::Catch2)\n\nadd_executable(tests test.cpp)\ntarget_link_libraries(tests -Wl,--whole-archive test_sources -Wl,--no-whole-archive)\ntarget_link_libraries(tests Catch2::Catch2)\n\ninclude(CTest)\ninclude(Catch)\ncatch_discover_tests(tests)\n</code></pre>\n",
+      "owner": {
+        "display_name": "KamilCuk",
+        "link": "https://stackoverflow.com/users/9072753/kamilcuk"
+      }
+    },
+    {
+      "answer_id": 65113704,
+      "body": "<p>The problem is quite simple: clonning catchorg/Catch2 now gets you a v3 branch by default, which works differently. The most important change is that it is no longer single header, and that the <code>catch2/catch.hpp</code> header no longer exists.</p>\n<p>You can either switch to the v2 branch before configuring and installing the build, or adapt your code to the changes in v3, <a href=\"https://github.com/catchorg/Catch2/blob/devel/docs/migrate-v2-to-v3.md#top\" rel=\"noreferrer\">starting with this documentation on v2 -&gt; v3 migration</a>.</p>\n<p>To get the default main, link against <code>Catch2::Catch2WithMain</code> target.</p>\n",
+      "owner": {
+        "display_name": "Xarn",
+        "link": "https://stackoverflow.com/users/3276485/xarn"
+      }
+    },
+    {
+      "answer_id": 64764990,
+      "body": "<p>you are declaring the <code>Bst</code> structure again in your .cpp file. The source file should only contain the definition of the methods, not the declaration of the structure.</p>\n<p>Changing <code>bst.cpp</code> to the following fixes the error:</p>\n<pre><code>#include &quot;bst.hpp&quot;\nint Bst::find(int num, int array[]) { return -1; }\n</code></pre>\n",
+      "owner": {
+        "display_name": "ShamanMaster",
+        "link": "https://stackoverflow.com/users/1786598/shamanmaster"
+      }
+    },
+    {
+      "answer_id": 64710873,
+      "body": "<p>The problem seems solved by adding <code>xml2</code> into <code>Suggests</code> section of the <code>DESCRIPTION</code> file of the package.</p>\n",
+      "owner": {
+        "display_name": "beerda",
+        "link": "https://stackoverflow.com/users/14586121/beerda"
+      }
+    },
+    {
+      "answer_id": 64619245,
+      "body": "<p>I found a solution in this historical post: <a href=\"https://richarddingwall.name/2008/06/01/using-the-boost-unit-test-framework-with-xcode-3\" rel=\"nofollow noreferrer\">https://richarddingwall.name/2008/06/01/using-the-boost-unit-test-framework-with-xcode-3</a></p>\n<p>Using the (lost of) art of virtual function override and Boost.Test fixtures:</p>\n<p>Simply add this code (some updates to the original post, with minor formats and C++11 updates):</p>\n<pre><code>#include&lt;boost/test/output/compiler_log_formatter.hpp&gt;\n\nstruct xcode_log_formatter: boost::unit_test::output::compiler_log_formatter{\n    // Produces an Xcode-friendly message prefix.\n    void print_prefix(std::ostream&amp; output, boost::unit_test::const_string file_name, std::size_t line) override{\n        output &lt;&lt; file_name &lt;&lt; ':' &lt;&lt; line &lt;&lt; &quot;: error: &quot;;\n    }\n};\n\n// Set up the unit test framework to use an xcode-friendly log formatter.\nstruct xcode_config{\n    xcode_config(){boost::unit_test::unit_test_log.set_formatter(new xcode_log_formatter);}\n};\n\n// Call our fixture.\nBOOST_GLOBAL_FIXTURE(xcode_config);\n</code></pre>\n<p>with this change the output looks like (note file:lineno format).</p>\n<pre><code>Running 7 test cases...\n./layout.hpp:781: error: error: in &quot;layout_to_offset_1d_nontrivial&quot;: check L[3] == &amp;B[3] - base(B) has failed [3 != 6]\nRunning 7 test cases...\n./.././detail/layout.hpp:781: error: error: in &quot;layout_to_offset_1d_nontrivial&quot;: check L[3] == &amp;B[3] - base(B) has failed [3 != 6]\n</code></pre>\n<p>I am still interested in simpler solutions.</p>\n<hr />\n<p>Here it is a more compact version of this code, renamed for my own case (xcode-&gt;gedit):</p>\n<pre><code>#include&lt;boost/test/output/compiler_log_formatter.hpp&gt;\nstruct gedit_config{\n    struct formatter : boost::unit_test::output::compiler_log_formatter{\n        void print_prefix(std::ostream&amp; out, boost::unit_test::const_string file, std::size_t line){\n            out&lt;&lt; file &lt;&lt;':'&lt;&lt; line &lt;&lt;&quot;: &quot;;\n        }\n    };\n    gedit_config(){boost::unit_test::unit_test_log.set_formatter(new formatter);}\n};\nBOOST_GLOBAL_FIXTURE(gedit_config);\n</code></pre>\n",
+      "owner": {
+        "display_name": "alfC",
+        "link": "https://stackoverflow.com/users/225186/alfc"
+      }
+    },
+    {
+      "answer_id": 64141028,
+      "body": "<p>There are a couple of things to consider in the posted example.</p>\n<pre class=\"lang-cpp prettyprint-override\"><code>REQUIRE(1147332687.7189338 == Approx(1147332688.4281545));\n</code></pre>\n<p>This will pass, &quot;unexpectedly&quot;. The reason can be found in the documentation (<a href=\"https://github.com/catchorg/Catch2/blob/master/docs/assertions.md#floating-point-comparisons\" rel=\"noreferrer\">assertions - floating point comparisons</a>).</p>\n<blockquote>\n<p><code>Approx</code> is constructed with defaults that should cover most simple cases. For the more complex cases, Approx provides 3 customization points:</p>\n<ul>\n<li><strong>epsilon</strong> - epsilon serves to set the coefficient by which a result can differ from <code>Approx</code>'s value before it is rejected. By default set to <code>std::numeric_limits&lt;float&gt;::epsilon()*100</code>.</li>\n<li>[...]</li>\n</ul>\n</blockquote>\n<p>In the posted example, the two numbers differ by a cofficient near 6.2e-10, while the default is (given a 32-bit float) near 1.2e-5.</p>\n<p>The following test wouldn't pass.</p>\n<pre class=\"lang-cpp prettyprint-override\"><code>CHECK( a == Approx(b).epsilon(1e-12) );\n</code></pre>\n<hr />\n<p>The other tests involve <code>margin</code>, which is described in the documentation as</p>\n<blockquote>\n<ul>\n<li><strong>margin</strong> - margin serves to set the the absolute value by which a result can differ from Approx's value before it is rejected. By default set to 0.0.</li>\n</ul>\n</blockquote>\n<p>The caveat, though, can be found in <a href=\"https://github.com/catchorg/Catch2/issues/1507\" rel=\"noreferrer\">issue#1507</a>.</p>\n<blockquote>\n<p>This is because of the default value for epsilon in the Approx class and the fact that Approx::equalityComparisonImpl will pass if the value is in the range of the margin <strong>OR</strong> the epsilon values.</p>\n</blockquote>\n<p>So, this test wouldn't pass:</p>\n<pre class=\"lang-cpp prettyprint-override\"><code>CHECK( a == Approx(b).margin(0.0001).epsilon(1e-12) );\n</code></pre>\n<p>Note that this &quot;issue&quot; seems to be marked as <a href=\"https://github.com/catchorg/Catch2/issues/1507#issuecomment-457859511\" rel=\"noreferrer\">resolved</a> - not a bug:</p>\n<blockquote>\n<p>So, I don't think this is a bug.</p>\n<p>The reason for this is that it is very hard (well, impossible), to determine the user's intent, thus it is better to assume that the user has set up both checks correctly -- after all, if the user does not want a relative comparison, they can always set the epsilon to zero. In fact, I think that using both tolerances and taking the most forgiving one is the superior option to implement things like the Approx Matcher (<a href=\"https://github.com/catchorg/Catch2/pull/1499\" rel=\"noreferrer\">#1499</a>).</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Bob__",
+        "link": "https://stackoverflow.com/users/4944425/bob"
+      }
+    },
+    {
+      "answer_id": 64013760,
+      "body": "<p>You probably want a Fixture.</p>\n<p>Fixture documentation: <a href=\"https://github.com/catchorg/Catch2/blob/master/docs/test-fixtures.md\" rel=\"nofollow noreferrer\">https://github.com/catchorg/Catch2/blob/master/docs/test-fixtures.md</a></p>\n",
+      "owner": {
+        "display_name": "arved",
+        "link": "https://stackoverflow.com/users/792456/arved"
+      }
+    },
+    {
+      "answer_id": 63731746,
+      "body": "<p>I found the issue thanks to @Tsyvarev.</p>\n<p>The build directory structure is as follows:</p>\n<pre><code>build/\n|--test/\n   |--test_executable\n   |--test_data/\n      |--test_datafile\n</code></pre>\n<p>When CMake runs <code>test_executable</code> it runs it from within the directory <code>test</code>.</p>\n<p>When I ran the executable separately, I ran it from the <code>build</code> directory. (<code>./test/test_executable</code>).</p>\n<p>Inside the unit-test code, the <code>test_datafile</code> is referred to as <code>test_data/test_datafile</code>. This is not recognized when the test is run from the <code>build</code> executable (as I did) as opposed to when it's run from the <code>build/test</code> directory.</p>\n<p>Therefore, when ctest ran the test, it actually succeeded as it should.</p>\n<p>Indeed, if I <code>cd</code> into <code>test</code> first, the test has exit code 0, as it should.</p>\n",
+      "owner": {
+        "display_name": "Jasper Braun",
+        "link": "https://stackoverflow.com/users/12278979/jasper-braun"
+      }
+    },
+    {
+      "answer_id": 63626282,
+      "body": "<p>Just do the initialization on demand, using something like <a href=\"https://en.cppreference.com/w/cpp/thread/call_once\" rel=\"nofollow noreferrer\"><code>std::call_once</code></a>:</p>\n<pre class=\"lang-cpp prettyprint-override\"><code>TEST_CASE(&quot;expensive-to-initialize system&quot;, &quot;[.integration]&quot;)\n{\n    static std::once_flag init_flag;\n    std::call_once(init_flag, do_expensive_setup);\n    \n    // ...\n}\n</code></pre>\n<p>This will ensure that <code>do_expensive_setup</code> is called one time, but only if needed. If there are multiple places that need this setup, just wrap this in a function.</p>\n<p>Note that if <code>do_expensive_setup</code> throws, it will may be called a second time. But once the function successfully exits, that's it.</p>\n",
+      "owner": {
+        "display_name": "Barry",
+        "link": "https://stackoverflow.com/users/2069064/barry"
+      }
+    },
+    {
+      "answer_id": 62841239,
+      "body": "<p>A common pattern for testing static libraries is to have a separate executable which contains all the tests, and then consumes your library. for example</p>\n<pre><code>file (GLOB_RECURSE TEST_SOURCES tests/*.cpp)\nadd_executable(my_lib_tests test_main.cpp ${TEST_SOURCES})\ntarget_link_libraries(my_lib_tests PRIVATE sharedLib)\ntarget_include_directories(my_lib_tests PRIVATE ../path/to/secret/impl/details)\n</code></pre>\n<p>Here I also have added some include some directories to implementation details of your shared lib which you may need to test, but don't want to expose to clients via a public header.</p>\n<p><code>test_main.cpp</code> need only be:</p>\n<pre><code>#define CONFIG_CATCH_MAIN\n#include &lt;catch2/catch.hpp&gt;\n</code></pre>\n<p>Then you don't have to include things in your library's build that are unrelated to the library itself, speeding up compilation time for clients, while you can work from the perspective of the test fixture</p>\n",
+      "owner": {
+        "display_name": "yano",
+        "link": "https://stackoverflow.com/users/571778/yano"
+      }
+    },
+    {
+      "answer_id": 62261772,
+      "body": "<blockquote>\n  <p>Can I define SOURCES in a later line?</p>\n</blockquote>\n\n<p>Yes, but not the way you've done it. You can define your executable target <code>tests</code> with a few sources or <strong>no</strong> sources, but you can always append more sources later using the <a href=\"https://cmake.org/cmake/help/v3.16/command/target_sources.html\" rel=\"nofollow noreferrer\"><code>target_sources</code></a> command. </p>\n\n<pre><code>add_executable(tests main.cpp)\n\n...\n\n# Later in the CMake file (or in another CMake file added via 'add_subdirectory').\ntarget_sources(tests PRIVATE\n    MyTestClass1.cpp\n    MyTestClass2.cpp\n    ...\n)\n</code></pre>\n\n<p>You can similarly add compilation flags to this <code>tests</code> target later using <a href=\"https://cmake.org/cmake/help/v3.16/command/target_compile_options.html\" rel=\"nofollow noreferrer\"><code>target_compile_options</code></a>, and add dependencies to link to <code>tests</code> using <code>target_link_libraries</code>.</p>\n",
+      "owner": {
+        "display_name": "Kevin",
+        "link": "https://stackoverflow.com/users/3987854/kevin"
+      }
+    },
+    {
+      "answer_id": 61536833,
+      "body": "<p>So I finally figured out what the problem was. If anyone comes across a question of similar type then make sure that the function is declared in the struct or is it declared in some other class. In my case following worked:</p>\n\n<pre><code>xy_vec = Point2D&lt;double&gt;().create_x_y_vectors(points);\n</code></pre>\n\n<p>create_x_y_vectors() was defined in Point2D class and hence it was necessary to make a Point2D Object.</p>\n",
+      "owner": {
+        "display_name": "y_1234",
+        "link": "https://stackoverflow.com/users/10653474/y-1234"
+      }
+    },
+    {
+      "answer_id": 61256848,
+      "body": "<p>Using classes instead of enums was a great solution by <a href=\"https://stackoverflow.com/users/2079303/eerorika\">eerorika</a>.\nThen using <code>REQUIRE_THROW_AS</code> with type instead of value.</p>\n",
+      "owner": {
+        "display_name": "Vahagn",
+        "link": "https://stackoverflow.com/users/12893892/vahagn"
+      }
+    },
+    {
+      "answer_id": 61069132,
+      "body": "<p>Your <code>append</code> function is broken. Actually just the first if condition is broken. You need to increment <code>m_size</code> and return if appending to an empty list.</p>\n\n<p>Here's a code that doesn't crash (at least on <code>append</code> calls).</p>\n\n<pre><code>if(m_size == 0 &amp;&amp; m_head == NULL)\n{\n    m_head = new LinkedList&lt;T&gt;::Node(val);\n    m_size++;  // increment size\n    return;    // and return right away\n}\n</code></pre>\n\n<p>If you don't do the return, you end up allocating extra Nodes, and not linking things correctly.</p>\n\n<p>On a side note, this piece of code is weird</p>\n\n<pre><code>template &lt;typename T&gt;\nLinkedList&lt;T&gt;::Node::~Node(){\n  //Do nothing. Deletion of member m_next is out of this classes scope.\n}\n</code></pre>\n\n<p>You are writing a linked list class that <em>allocates</em> memory, but <em>deleting</em> memory is too complicated?</p>\n\n<p>Also, don't use <code>NULL</code>, please use <code>nullptr</code>.</p>\n",
+      "owner": {
+        "display_name": "cigien",
+        "link": "https://stackoverflow.com/users/8372853/cigien"
+      }
+    },
+    {
+      "answer_id": 60750922,
+      "body": "<p>The size of the array</p>\n\n<pre><code>int tiles_[200][200][200];\n</code></pre>\n\n<p>is about 30 MB, assuming <code>sizeof(int) == 4</code>.</p>\n\n<p>This is larger than typical stack size limits, and so you will write outside the stack space that you are allowed to use when you create an automatic variable of this type with</p>\n\n<pre><code>Flop flop;\n</code></pre>\n\n<p>The amount of stack usable by a program is generally limited to a few MB or so, depending on the OS and settings.</p>\n\n<p><code>gdb</code> gives you the location of the segmentation fault: The entry to the test function. Stack space for local variables in a function is allocated usually when the function is entered, so this is where a stack overflow may manifest in a segmentation fault (or depending on how exactly the stack is handled later, when the out-of-bounds stack space is written/read the first time).</p>\n\n<p>Don't save large objects directly as members or with automatic storage duration (i.e. on the stack). Instead allocate large objects dynamically (i.e. on the free store / heap), through a pointer indirection.</p>\n\n<p>The easiest way of doing this is to use <code>std::vector</code> instead of built-in arrays. This is also generally preferable over built-in arrays and should be your default choice if you need to store multiple objects of the same type.</p>\n\n<p>In the specific cases where compile-time sized non-allocating arrays are required, <code>std::array</code> is superior to built-in arrays as well. In that way you can avoid ever using built-in arrays at all.</p>\n\n<p>Alternatively <code>std::unique_ptr&lt;...&gt;</code> allows you to wrap any object type (also built-in arrays) in a dynamically allocated indirection.</p>\n",
+      "owner": {
+        "display_name": "walnut",
+        "link": "https://stackoverflow.com/users/11941443/walnut"
+      }
+    },
+    {
+      "answer_id": 60382199,
+      "body": "<p>There are two approaches that are commonly used. Both are described in <a href=\"https://github.com/catchorg/Catch2/blob/master/docs/tostring.md#top\" rel=\"nofollow noreferrer\">documentation</a> you have mentioned.</p>\n\n<ol>\n<li><a href=\"https://github.com/catchorg/Catch2/blob/master/docs/tostring.md#operator--overload-for-stdostream\" rel=\"nofollow noreferrer\">Operator &lt;&lt; overload for std::ostream</a> with restriction that: </li>\n</ol>\n\n<blockquote>\n  <p>You should put this function in the same namespace as your type, or\n  the global namespace, and have it declared before including Catch's\n  header.</p>\n</blockquote>\n\n<p>So, your operator overload is ok, just put it before <code>#include \"catch.hpp\"</code>.</p>\n\n<pre><code>#define CATCH_CONFIG_MAIN\n#include &lt;array&gt;\n#include \"Point.h\"\n#include \"Square.h\"    \n\nstd::ostream &amp;operator&lt;&lt;(std::ostream &amp;os, Point const&amp; p)\n{\n    os &lt;&lt; \"Point (\" &lt;&lt; p.get_X() &lt;&lt; \", \" &lt;&lt; p.get_Y() &lt;&lt; \")\";\n    return os;\n}\n\n#include \"catch.hpp\"\n\nTEST_CASE(\"Functions of Square\")\n{\n    std::array&lt;Point, 4&gt; a_Vertices{Point(2, 2), Point(2, 4), Point(4, 2), Point(4, 4)};\n    Square a_Square(a_Vertices, true);\n\n    SECTION(\"Square is initialized properly\")\n    {\n        REQUIRE_THAT(a_Square.get_Vertex_0(), is_Same(Point(2, 1)));\n    }\n}\n</code></pre>\n\n<p>2. <a href=\"https://github.com/catchorg/Catch2/blob/master/docs/tostring.md#catchstringmaker-specialisation\" rel=\"nofollow noreferrer\">Catch::StringMaker specialisation</a> with additional <a href=\"https://en.cppreference.com/w/cpp/io/basic_stringstream/basic_stringstream\" rel=\"nofollow noreferrer\">stringstream</a> usage to format your output correctly.</p>\n\n<pre><code>#define CATCH_CONFIG_MAIN\n#include &lt;array&gt;\n#include &lt;sstream&gt;\n#include \"Point.h\"\n#include \"Square.h\"\n#include \"catch.hpp\"\n\nnamespace Catch\n{\ntemplate &lt;&gt; struct StringMaker&lt;Point&gt;\n{\n    static std::string convert(Point const&amp; p)\n    {\n        std::stringstream buf;\n        buf &lt;&lt; \"Point (\" &lt;&lt; p.get_X() &lt;&lt; \", \" &lt;&lt; p.get_Y() &lt;&lt; \")\";\n        return &lt;&lt; buf.str();\n    }\n};\n}\n\nTEST_CASE(\"Functions of Square\")\n{\n    std::array&lt;Point, 4&gt; a_Vertices{Point(2, 2), Point(2, 4), Point(4, 2), Point(4, 4)};\n    Square a_Square(a_Vertices, true);\n\n    SECTION(\"Square is initialized properly\")\n    {\n        REQUIRE_THAT(a_Square.get_Vertex_0(), is_Same(Point(2, 1)));\n    }\n}    \n</code></pre>\n\n<p>This approach avoids global <a href=\"https://stackoverflow.com/questions/22903542/what-is-namespace-pollution\">namespace pollution</a> and let you mask any other previously defined <code>&lt;&lt;</code> operator. <code>StringMaker</code> specialization will be used at first.</p>\n",
+      "owner": {
+        "display_name": "wehubert",
+        "link": "https://stackoverflow.com/users/12853862/wehubert"
+      }
+    },
+    {
+      "answer_id": 60267543,
+      "body": "<p>Instead of using multiple generators you should wrap your input/output test data in some structure that will define both <code>startPos</code> and <code>expectedMove</code>. Then you can use single generator to produce data sets. Your data will be named, so you don't have to reference to it by index. Your <code>TEST_CASE</code> could look like this:</p>\n\n<pre><code>struct TestData\n{\n    Position startPos;\n    Position expectedMove;\n};\n\nTEST_CASE(\"Test legal moves on empty 2x1 board\")\n{\n    Board board {2, 1};\n    auto testData = GENERATE(TestData {{0, 0}, {1, 0}}, TestData {{1, 0}, {0, 0}});\n    auto lagalMoves = board.getLegalMoves(testData.startPos);\n    REQUIRE(lagalMoves[0] == testData.expectedMove);\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "wehubert",
+        "link": "https://stackoverflow.com/users/12853862/wehubert"
+      }
+    },
+    {
+      "answer_id": 60265706,
+      "body": "<pre><code>(a == Approx(b).margin(1e-12))\n</code></pre>\n\n<p><a href=\"https://github.com/catchorg/Catch2/blob/master/projects/SelfTest/UsageTests/Approx.tests.cpp\" rel=\"noreferrer\">From the Catch2 GitHub</a></p>\n",
+      "owner": {
+        "display_name": "RaviStrs",
+        "link": "https://stackoverflow.com/users/4095225/ravistrs"
+      }
+    },
+    {
+      "answer_id": 60101619,
+      "body": "<p>Your <code>match</code> method override is ill-formed.<code>Catch::MatcherBase::match</code> takes object as reference-to-const, so object will not be modified in method body. Signature for <code>Catch::MatcherBase::match</code> is:</p>\n\n<pre><code>virtual bool match(ObjectT const&amp; arg) const\n</code></pre>\n\n<p>So Your <code>match</code> override implementation should be:</p>\n\n<pre><code>bool match(Book const&amp; b) const override {\n    return b.GetChapters() == chapters &amp;&amp; b.GetPages() == pages;\n}\n</code></pre>\n\n<p>Additionally You need to mark Your <code>Book</code> getters <code>const</code> in order to keep <a href=\"https://isocpp.org/wiki/faq/const-correctness\" rel=\"nofollow noreferrer\">const correctness</a>:</p>\n\n<pre><code>int GetChapters() const;\nint GetPages() const;\n</code></pre>\n",
+      "owner": {
+        "display_name": "wehubert",
+        "link": "https://stackoverflow.com/users/12853862/wehubert"
+      }
+    },
+    {
+      "answer_id": 59893168,
+      "body": "<p>This seems to be issue when using examples with single-header distribution of Catch2 as an opposite to CMake installation.</p>\n\n<p>What did the trick for me was removing offending <code>-I$(CATCH_SINGLE_INCLUDE)</code> from the example command. It didn't appear in Google Search but I expect it to contain path to  which I do include barely as \"catch2.hpp\".</p>\n\n<p>Test works for me after I've eended up with:</p>\n\n<p><code>g++ -std=c++11 -Wall -o 010-TestCase 010-TestCase.cpp &amp;&amp; ./010-TestCase --success</code></p>\n",
+      "owner": {
+        "display_name": "igraczech",
+        "link": "https://stackoverflow.com/users/2044567/igraczech"
+      }
+    },
+    {
+      "answer_id": 59770946,
+      "body": "<p>Note that even with the parentheses suggested by Lightness, the code you show is exceptionally fragile.</p>\n\n<p>I guess you are originally in ADL-only territory due to dependent name lookup inside the macro (see the last notes of <a href=\"https://en.cppreference.com/w/cpp/language/adl\" rel=\"noreferrer\">https://en.cppreference.com/w/cpp/language/adl</a>), and your code is quite clearly not ADL-viable. Adding parentheses makes the whole thing just an unqualified lookup, not ADL-only (again, a guess). The non-ADL part of unqualified lookup saves you in this case, but it will fall apart from entirely unrelated code changes.</p>\n\n<p>Consider this code instead of the <code>TEST_CASE</code>, which is what using parentheses presumably boils down to:</p>\n\n<pre><code>namespace test\n{\n    bool foo()\n    {\n        auto t1 = std::make_pair(A::B::C::S(), std::any());\n        auto t2 = std::make_pair(A::B::C::S(), std::any());\n\n        return t1 == t2;\n    }\n}\n</code></pre>\n\n<p>This compiles and works as expected: <a href=\"https://godbolt.org/z/HiuWWy\" rel=\"noreferrer\">https://godbolt.org/z/HiuWWy</a></p>\n\n<p>Now add a completely unrelated <code>operator==</code> between your global <code>operator==</code> and the <code>t1 == t2</code>:</p>\n\n<pre><code>namespace test\n{\n    struct X{};\n    bool operator==(X, X);\n\n    bool foo()\n    {\n        auto t1 = std::make_pair(A::B::C::S(), std::any());\n        auto t2 = std::make_pair(A::B::C::S(), std::any());\n\n        return t1 == t2;\n    }\n}\n</code></pre>\n\n<p>And you're out for the count: <a href=\"https://godbolt.org/z/BUQC9Y\" rel=\"noreferrer\">https://godbolt.org/z/BUQC9Y</a></p>\n\n<p>The <code>operator==</code> in the global namespace isn't found because the (non-ADL part of) unqualified name lookup stops in the <em>first</em> enclosing scope that has <em>any</em> <code>operator==</code>. Since that doesn't find anything useful, it falls back to using the inbuilt <code>std::pair</code> comparison operator (found via ADL), which won't work.</p>\n\n<p>Just put operator overloads in the namespaces of the objects they operate on. And by corollary, don't overload operators for facilities from <code>std</code> (or other namespaces you are not allowed to touch).</p>\n\n<hr>\n\n<p>Adding from comments:</p>\n\n<p>The standard currently also says that the namespaces of template arguments are considered, so putting the <code>operator==</code> in <code>namespace C</code> would work (because the first template argument of std::pair comes from there): <a href=\"https://godbolt.org/z/eV8Joj\" rel=\"noreferrer\">https://godbolt.org/z/eV8Joj</a></p>\n\n<p>However, 1. that doesn't mesh too well with your type alias and 2. there is some movement to make ADL less wild and I've seen discussion to get rid of the \"consider namespaces of template parameters\". See <a href=\"http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p0934r0.pdf\" rel=\"noreferrer\">http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p0934r0.pdf</a>:</p>\n\n<blockquote>\n  <p>Why on earth would we look into the namespaces of template arguments? Nothing in there could possibly be part of the interface of the type, unless the template arguments were also base classes or something. -- Herb Sutter</p>\n</blockquote>\n\n<p>I don't know where this paper stands today but I would avoid relying on this kind of ADL in new code.</p>\n",
+      "owner": {
+        "display_name": "Max Langhof",
+        "link": "https://stackoverflow.com/users/9528746/max-langhof"
+      }
+    },
+    {
+      "answer_id": 52562202,
+      "body": "<p>Bug fixed in v2.4.1\n<a href=\"https://github.com/catchorg/Catch2/releases/tag/v2.4.1\" rel=\"nofollow noreferrer\">release note of 2.4.1</a></p>\n",
+      "owner": {
+        "display_name": "chaocaiwang",
+        "link": "https://stackoverflow.com/users/10427477/chaocaiwang"
+      }
+    },
+    {
+      "answer_id": 59690823,
+      "body": "<p>I don't know about relative paths, but you can use <code>${CMAKE_SOURCE_DIR}</code> to get the path to the top-level directory of your project-- where the main CMakeLists.txt file is.</p>\n<p>From the <a href=\"https://cmake.org/cmake/help/latest/variable/CMAKE_SOURCE_DIR.html\" rel=\"noreferrer\">CMake docs</a> for <code>CMAKE_SOURCE_DIR</code>:</p>\n<blockquote>\n<p>The path to the top level of the source tree.</p>\n<p>This is the full path to the top level of the current CMake source tree. For an in-source build, this would be the same as CMAKE_BINARY_DIR.</p>\n</blockquote>\n<p>Then you can just base all your paths off of this. For example, in a CMake script, you could write <code>${CMAKE_SOURCE_DIR}/resources/datafile.txt</code>.</p>\n<p><strong>Edit:</strong></p>\n<p>If you need access to this value in your C++ code itself, you could use the <code>configure_file</code> command. For example you could create a file called something like <code>Config.h.in</code>...</p>\n<pre><code>// Config.h.in\n\n#ifndef CONFIG_H\n#define CONFIG_H\n\n#define SOURCE_DIR &quot;${CMAKE_SOURCE_DIR}&quot;\n\n#endif\n</code></pre>\n<p>... and then in your CMakeLists.txt file,</p>\n<pre><code>configure_file(Config.h.in ${CMAKE_BINARY_DIR}/Config.h)\n\ninclude_directories(${CMAKE_BINARY_DIR})\n</code></pre>\n<p>Then you could include <code>Config.h</code> like a normal header, and be on your way!</p>\n<p><strong>Single variable shortcut</strong></p>\n<p>Just use a preprocessor macro. In the <code>CMakeLists.txt</code> in <code>test/</code>:</p>\n<pre><code>target_compile_definitions(target_name PUBLIC TEST_RESOURCE_DIR=&quot;${CMAKE_CURRENT_SOURCE_DIR}/resources/&quot;)\n</code></pre>\n<p>in C++:</p>\n<pre><code>std::string resource_dir = TEST_RESOURCE_DIR;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dovahkiin",
+        "link": "https://stackoverflow.com/users/3124459/dovahkiin"
+      }
+    },
+    {
+      "answer_id": 59111938,
+      "body": "<p>You should use one of coverage related targets: <strong>coverage-text</strong>, <strong>coverage-html</strong>, <strong>coverage-xml</strong> as described <a href=\"https://mesonbuild.com/howtox.html#producing-a-coverage-report\" rel=\"noreferrer\">here</a>. Or just <strong>coverage</strong> that tries all of these if possible:</p>\n\n<pre><code>$ ninja coverage -C builddir\n</code></pre>\n\n<p>Results are written to <em>./builddir/meson-logs</em> directory.</p>\n\n<p>Note that to produce html coverage reports you need <strong>lcov</strong> and <strong>genhtml</strong> binaries which are installed by <strong>lcov</strong> package.</p>\n",
+      "owner": {
+        "display_name": "pmod",
+        "link": "https://stackoverflow.com/users/356838/pmod"
+      }
+    },
+    {
+      "answer_id": 59040992,
+      "body": "<p>I did end up choosing submodules, since fetchContent works well, but is only supported in cmake v3.11</p>\n\n<p>I followed this guide for googletest <a href=\"https://cliutils.gitlab.io/modern-cmake/chapters/testing/googletest.html\" rel=\"nofollow noreferrer\">https://cliutils.gitlab.io/modern-cmake/chapters/testing/googletest.html</a></p>\n\n<p><strong>./test/CMakeList</strong> with catch2 submodule at <em>extern/catch2</em>:</p>\n\n<pre><code>file(GLOB TESTS \"*.cpp\")\nfile(GLOB SOURCES \"${PROJECT_SOURCE_DIR}/src/*.cpp\")    \n\nadd_executable(tests ${SOURCES} ${TESTS})\nSET(catch2_dir ${PROJECT_SOURCE_DIR}/extern/catch2)\n\nfind_package(Git QUIET)\nif(GIT_FOUND AND EXISTS \"${PROJECT_SOURCE_DIR}/.git\")\n    # Update submodules as needed\n    option(GIT_SUBMODULE \"Check submodules during build\" ON)\n    if(GIT_SUBMODULE)\n        message(STATUS \"Submodule update\")\n        execute_process(COMMAND ${GIT_EXECUTABLE} submodule update --init --recursive\n                WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}\n                RESULT_VARIABLE GIT_SUBMOD_RESULT)\n        if(NOT GIT_SUBMOD_RESULT EQUAL \"0\")\n            message(FATAL_ERROR \"git submodule update --init failed with ${GIT_SUBMOD_RESULT}, please checkout submodules\")\n        endif()\n    endif()\nendif()\n\nif(NOT EXISTS \"${catch2_dir}/CMakeLists.txt\")\n    message(FATAL_ERROR \"The submodules were not downloaded! GIT_SUBMODULE was turned off or failed. Please update submodules and try again.\")\nendif()\n\nadd_subdirectory(${catch2_dir} ${CMAKE_CURRENT_SOURCE_DIR}/catch_build)\nlist(APPEND CMAKE_MODULE_PATH \"${catch2_dir}/contrib/\")\n\ntarget_link_libraries(tests Catch2::Catch2)\n\ninclude(CTest)\ninclude(Catch)\ncatch_discover_tests(tests)\n</code></pre>\n",
+      "owner": {
+        "display_name": "ZerataX",
+        "link": "https://stackoverflow.com/users/3779427/zeratax"
+      }
+    },
+    {
+      "answer_id": 58290117,
+      "body": "<p>Yes, it is possible.</p>\n\n<p>As explained in <a href=\"https://github.com/catchorg/Catch2/issues/566\" rel=\"noreferrer\">https://github.com/catchorg/Catch2/issues/566</a>, you will have to supply a custom main function.</p>\n\n<pre><code>#define CATCH_CONFIG_RUNNER\n#include \"catch.hpp\"\n#include &lt;mpi.h&gt;\n\nint main( int argc, char* argv[] ) {\n    MPI_Init(&amp;argc, &amp;argv);\n    int result = Catch::Session().run( argc, argv );\n    MPI_Finalize();\n    return result;\n}\n</code></pre>\n\n<p>To amplify your experience using Catch2 in combination with MPI, you might want to avoid redundant console output. That requires injecting some code into ConsoleReporter::testRunEnded of catch.hpp.</p>\n\n<pre><code>#include &lt;mpi.h&gt;\nvoid ConsoleReporter::testRunEnded(TestRunStats const&amp; _testRunStats) {\n    int rank id = -1;\n    MPI Comm rank(MPI COMM WORLD,&amp;rank id);\n    if(rank id != 0 &amp;&amp; testRunStats.totals.testCases.allPassed())\n        return;\n    printTotalsDivider(_testRunStats.totals);\n    printTotals(_testRunStats.totals);\n    stream &lt;&lt; std::endl;\n    StreamingReporterBase::testRunEnded(_testRunStats);\n}\n</code></pre>\n\n<p>Finally you might also want to execute your test cases with a different number of MPI ranks. I found the following to be an easy and well working solution:</p>\n\n<pre><code>SCENARIO(\"Sequential Testing\", \"[1rank]\") {\n    // Perform sequential tests here\n}\nSCENARIO(\"Parallel Testing\", \"[2ranks]\") {\n    // Perform parallel tests here\n}\n</code></pre>\n\n<p>Then you can call the tagges scenarios individually with</p>\n\n<pre><code>mpiexec -1 ./application [1rank]\nmpiexec -2 ./application [2rank]\n</code></pre>\n",
+      "owner": {
+        "display_name": "pwaul",
+        "link": "https://stackoverflow.com/users/12183326/pwaul"
+      }
+    },
+    {
+      "answer_id": 57936612,
+      "body": "<p>Finally managed to get Catch2 to work with Visual Studio.</p>\n\n<p>First I downloaded Catch2 release from their GitHub and installed it on my computer using (this is actually documented <a href=\"https://github.com/catchorg/Catch2/blob/master/docs/cmake-integration.md\" rel=\"nofollow noreferrer\">here</a>).</p>\n\n<pre><code>cmake -Bbuild -S. -DBUILD_TESTING=OFF\ncmake --build build/ --target install (Need admin rights)\n</code></pre>\n\n<p>This installs Catch2 in C:\\Program Files (x86)\\Catch2. Then I copied everything in this install directory to my project's deps/Catch2 folder. Then just add the below to the CMakeLists.txt:</p>\n\n<pre><code>find_package(Catch2 REQUIRED PATHS \"${CMAKE_CURRENT_SOURCE_DIR}/deps/Catch2\")\ntarget_link_libraries(MY_LIBRARY Catch2::Catch2)\n\ninclude(CTest)\ninclude(Catch)\ncatch_discover_tests(MY_LIBRARY)\n</code></pre>\n\n<p>This adds the RUN_TESTS project to Visual Studio. When I build this project, my unit tests run. Hope this is helpful to anyone trying to integrate with CMake.</p>\n",
+      "owner": {
+        "display_name": "kovac",
+        "link": "https://stackoverflow.com/users/5387794/kovac"
+      }
+    },
+    {
+      "answer_id": 57892755,
+      "body": "<p>I believe I've found the (two-part) answer.</p>\n\n<p>The first part is that it's no good running ctest from the top level, you need to run it from the build folder.  With hindsight, that's pretty obvious :(</p>\n\n<pre><code>cmake -S . -B BUILD\ncmake --build BUILD\ncd BUILD\nctest\n</code></pre>\n\n<p>The less obvious part I found in this answer: <a href=\"https://stackoverflow.com/a/13551858/11603085\">https://stackoverflow.com/a/13551858/11603085</a>.\nNamely, the <code>enable_testing()</code> call needs to be in the top-level <code>CMakeLists.txt</code>, not the one further down that actually builds the library.</p>\n",
+      "owner": {
+        "display_name": "Edd Inglis",
+        "link": "https://stackoverflow.com/users/11603085/edd-inglis"
+      }
+    },
+    {
+      "answer_id": 57035395,
+      "body": "<p>As i already wrote in my comment, add the source file <code>test_main.cpp</code> and library <code>fact</code> to <code>./tests/CMakeLists.txt</code>.</p>\n\n<pre><code>add_executable(test test_main.cpp test_factorial.cpp)\ntarget_link_libraries(test fact Catch2::Catch2)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mathias Schmid",
+        "link": "https://stackoverflow.com/users/11521482/mathias-schmid"
+      }
+    },
+    {
+      "answer_id": 56831474,
+      "body": "<p>During testing, I was giving a 3 channel image as input but while running the source code, the input image for this function was a single channel grayscale image. After correcting it, the testing worked fine. But a question still remains is that why the lines were stopping at 150 pixels at every time. </p>\n",
+      "owner": {
+        "display_name": "Rahul Kedia",
+        "link": "https://stackoverflow.com/users/11651779/rahul-kedia"
+      }
+    },
+    {
+      "answer_id": 56569699,
+      "body": "<p>To integrate, adding a one shot timer will cause a function to run as soon as the app event loop is active.  Here is what my code looks like:</p>\n\n<pre><code>#define CATCH_CONFIG_RUNNER\n#include \"catch.hpp\"\n#include &lt;QCoreApplication&gt;\n#include &lt;QTimer&gt;\nint main(int argc, char *argv[]) {\n  QCoreApplication app(argc, argv);\n  QTimer::singleShot(0, [&amp;]{\n    app.exit(Catch::Session().run(argc, argv));\n  });\n  return app.exec();\n}\n</code></pre>\n\n<p>Specifically for me, I was getting a bunch of warnings that said, \"QSocketNotifier can only be used with threads started with QThread\", but it turned out that really just meant it wanted an event loop to exist.  This code here removed the warning for me.</p>\n",
+      "owner": {
+        "display_name": "johnnyb",
+        "link": "https://stackoverflow.com/users/1326985/johnnyb"
+      }
+    },
+    {
+      "answer_id": 55868408,
+      "body": "<p><strong><em>Update</em></strong>: You <a href=\"https://github.com/catchorg/Catch2/commit/92ad9ee355945a4f2b494d1934faaa4bb412ae40\" rel=\"nofollow noreferrer\">can now</a> <a href=\"https://github.com/catchorg/Catch2/blob/master/docs/tostring.md#floating-point-precision\" rel=\"nofollow noreferrer\">specify precision in Catch2</a>. The following applies for older versions of Catch2.</p>\n\n<p>It looks like the precision is hard-coded within Catch2 itself:</p>\n\n<pre class=\"lang-cpp prettyprint-override\"><code>std::string StringMaker&lt;float&gt;::convert(float value) {\n    return fpToString(value, 5) + 'f';\n}\nstd::string StringMaker&lt;double&gt;::convert(double value) {\n    return fpToString(value, 10);\n}\n</code></pre>\n\n<p>There are two options to fix this:</p>\n\n<p><strong>Option 1: Modify Catch2</strong></p>\n\n<p>If you modify that, you can make it show what you want (note: <code>&lt;limits&gt;</code> is already included within catch, so I'll use <code>std::numeric_limits</code>):</p>\n\n<pre class=\"lang-cpp prettyprint-override\"><code>std::string StringMaker&lt;float&gt;::convert(float value) {\n    return fpToString(value, std::numeric_limits&lt;float&gt;::max_digits10) + 'f';\n}\nstd::string StringMaker&lt;double&gt;::convert(double value) {\n    return fpToString(value, std::numeric_limits&lt;double&gt;::max_digits10);\n}\n</code></pre>\n\n<p>A more sophisticated approach could be made to have this be a parameter the user can set rather than hard-coding it to a different semi-arbitrary value, but this is only a Q&amp;A, not a pull request. ;-)</p>\n\n<p><strong>Option 2: Log it yourself in higher precision</strong></p>\n\n<p>If you add <code>INFO( FullPrecision(d) );</code> before the <code>REQUIRE()</code> call, you'll get a full precision print, but only when the test case fails. (See definition of <code>FullPrecision()</code> below.)</p>\n\n<p>Both of these changes are demonstrated here:</p>\n\n<pre class=\"lang-cpp prettyprint-override\"><code>#define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file\n#include \"catch.hpp\"\n#include &lt;limits&gt;\n#include &lt;sstream&gt;\n#include &lt;iomanip&gt;\n\ndouble GetDouble() { return std::numeric_limits&lt;double&gt;::epsilon(); }\n\nstd::string FullPrecision( double d )\n{\n    auto s = std::ostringstream{};\n    s &lt;&lt; std::setprecision( std::numeric_limits&lt;double&gt;::max_digits10 ) &lt;&lt; d;\n    return s.str();\n}\n\nTEST_CASE( \"Double, double, toil and trouble\", \"[double]\" ) \n{\n    const auto d = GetDouble();\n    INFO( FullPrecision(d) );\n    REQUIRE( 0.0 == d );\n}\n</code></pre>\n\n<p>which prints:</p>\n\n<pre><code>prog.cc:20: FAILED:\n  REQUIRE( 0.0 == d )\nwith expansion:\n  0.0 == 0.00000000000000022\nwith message:\n  2.2204460492503131e-16\n</code></pre>\n\n<p>Modifying Catch2 causes the expansion <code>0.0 == 0.00000000000000022</code>, and adding the <code>INFO()</code> causes the message <code>2.2204460492503131e-16</code>. </p>\n\n<p>See it live on <kbd><a href=\"https://wandbox.org/permlink/kxEoxYmG5Tli1OX0\" rel=\"nofollow noreferrer\">Wandbox</a></kbd>.</p>\n",
+      "owner": {
+        "display_name": "metal",
+        "link": "https://stackoverflow.com/users/201787/metal"
+      }
+    },
+    {
+      "answer_id": 55174146,
+      "body": "<p>This actually has nothing to do with Catch or testing. When you <code>#include</code> a file in C++, it gets copy-pasted at the <code>#include</code> line verbatim. If you put free function definitions in headers, you would see this problem building your actual program, etc.</p>\n\n<p>The underlying problem is that <code>#include</code> is not the same kind of import-a-module directive as is the equivalent directive (<code>import</code>, <code>require</code>, etc.) in most languages, which do the sane thing in a situation like this (confirm that the header is the same one we've already seen and ignore the repeated method definition).</p>\n\n<p>The commenter that suggested you write <code>inline</code> is technically correct, in the sense that this will \"solve your problem\" because your compiler won't generate object code for the method multiple times. However, it doesn't really explain what's going on or address the underlying issue.</p>\n\n<hr>\n\n<p>The clean solution is:</p>\n\n<ul>\n<li>In <code>test_utils.hpp</code>, replace the method definition with a method <em>declaration</em>: <code>void something_great();</code>.</li>\n<li>Create <code>test_utils.cc</code> with the definition of the method (which you currently have in the <code>.hpp</code>).</li>\n<li><code>clang++ -std=c++17 test1.cc -c</code></li>\n<li><code>clang++ -std=c++17 test2.cc -c</code></li>\n<li><code>clang++ -std=c++17 test_main.cc -c</code></li>\n<li><code>clang++ -std=c++17 test_utils.cc -c</code></li>\n<li><code>clang++ -std=c++17 test1.o test2.o test_utils.o test_main.o</code></li>\n</ul>\n\n<p>I also recommend you read this: <a href=\"https://stackoverflow.com/questions/1410563/what-is-the-difference-between-a-definition-and-a-declaration\">What is the difference between a definition and a declaration?</a></p>\n\n<p>Explicitly:</p>\n\n<pre><code>// test_utils.hpp\n#pragma once\n\n// This tells the compiler that when the final executable is linked,\n// there will be a method named something_great which takes no arguments\n// and returns void defined; the definition lives in test_utils.o in our\n// case, although in practice the definition could live in any .o file\n// in the final linking clang++ call.\nvoid something_great();\n</code></pre>\n\n<p>And:</p>\n\n<pre><code>// test_utils.cpp\n#include \"test_utils.hpp\"\n#include &lt;iostream&gt;\n\n// Generates a DEFINITION for something_great, which\n// will get put in test_utils.o.\nvoid something_great() { std::cout &lt;&lt; \"Hi\\n\"; }\n</code></pre>\n\n<hr>\n\n<p>It seems you are worried about \"recompiling Catch\" every time you make a change to a test. I hate to break it to you, but you are in C++ land now: you are going to be recompiling stuff pointlessly a lot. Header-only libraries like Catch MUST be \"recompiled\" to some extent when a source file including them changes, because for better or worse, if the source file or a header file included transitively from the source file includes <code>catch2.hpp</code>, then the source code of <code>catch2.hpp</code> will get parsed by the compiler when that source file is read.</p>\n",
+      "owner": {
+        "display_name": "Andrey Mishchenko",
+        "link": "https://stackoverflow.com/users/1704521/andrey-mishchenko"
+      }
+    },
+    {
+      "answer_id": 54670135,
+      "body": "<p>According to <a href=\"https://github.com/google/googletest/blob/master/googletest/docs/primer.md\" rel=\"nofollow noreferrer\">their primer</a>:</p>\n\n<blockquote>\n  <p>But maybe you think that writing all those <code>main()</code> functions is too much work? We agree with you completely and that's why Google Test provides a basic implementation of <code>main()</code>. If it fits your needs, then just link your test with <code>gtest_main</code> library and you are good to go.</p>\n</blockquote>\n\n<p>So rather than asking for the library to generate a definition of <code>main</code> through a macro, you link in the <code>gtest_main</code> library which contains one.</p>\n",
+      "owner": {
+        "display_name": "Quentin",
+        "link": "https://stackoverflow.com/users/3233393/quentin"
+      }
+    },
+    {
+      "answer_id": 54393765,
+      "body": "<p>CMake does not expect you to run tests at the same time as build. You can imagine a cross compiler situation where the target architecture is not the same as your host build machine, in that situation it would make no sense to run tests while building.</p>\n\n<p>I you want to run the built tests as part of CMake build look at <code>add_custom_command</code> to run a <code>POST_BUILD</code> command.</p>\n",
+      "owner": {
+        "display_name": "Gareth A. Lloyd",
+        "link": "https://stackoverflow.com/users/697081/gareth-a-lloyd"
+      }
+    },
+    {
+      "answer_id": 52621761,
+      "body": "<p>After some back and forth I managed to get this working, for Bazel 0.16.1 and Catch2 2.4.0.</p>\n\n<p>First let's create directory <code>test/</code> next to <code>src/</code>, to keep our tests there.</p>\n\n<p>In order to use Catch2, we need to download <code>catch.hpp</code>. Catch2 is header only library, meaning that one file is all we need. I put it in <code>test/vendor/catch2/</code>.<br>\nThen, we need to define to bazel how to use it. In <code>test/vendor/catch2</code> we create following BUILD file:</p>\n\n<pre class=\"lang-py prettyprint-override\"><code>cc_library(\n  name = \"catch2\",\n  hdrs = [\"catch.hpp\"],\n  visibility = [\"//test:__pkg__\"]\n)\n</code></pre>\n\n<p>Now Bazel recognizes Catch2 as a library. We added visibility attribute, so that it can be used from the <code>//test</code> package (which is defined by BUILD in <code>/test</code> directory).</p>\n\n<p>Next, Catch2 requires us to define one translation unit with correctly defined main method. Following their instructions, we create <code>test/main.cpp</code> file:</p>\n\n<pre class=\"lang-cpp prettyprint-override\"><code>#define CATCH_CONFIG_MAIN\n#include \"catch.hpp\"\n</code></pre>\n\n<p>Now, we write our test, in <code>test/Money.test.cpp</code>:</p>\n\n<pre class=\"lang-cpp prettyprint-override\"><code>#include \"catch.hpp\"\n#include \"Money.hpp\"\n\nTEST_CASE(\"Money works.\") {\n  ...\n}\n</code></pre>\n\n<p>Finally, we need to explain to Bazel how to build all this. Notice that we directly included Money.hpp and catch.hpp in our files, with no relative path, so that is also smth we need to keep in mind.\nWe create following <code>test/BUILD</code> file:</p>\n\n<pre class=\"lang-py prettyprint-override\"><code># We describe to Bazel how to build main.cpp.\n# It includes \"catch.hpp\" directly, so we need to add\n# \"-Itest/vendor/catch2\" compiler option.\ncc_library(\n    name = \"catch-main\",\n    srcs = [\"main.cpp\"],\n    copts = [\"-Itest/vendor/catch2\"],\n    deps = [\n        \"//test/vendor/catch2\"\n    ]\n)\n\n# Here we define our test. It needs to build together with the catch2\n# main that we defined above, so we add it to deps. We directly\n# include src/Money.hpp and test/vendor/catch2/catch.hpp in\n# Money.test.cpp, so we need to add their parent directories as copts.\n# We also add Money and catch2 as dependencies.\ncc_test(\n    name = \"Money\",\n    srcs = [\"Money.test.cpp\"],\n    copts = [\"-Itest/vendor/catch2/\", \"-Isrc/\"],\n    deps = [\n        # Or \"//test/vendor/catch2:catch2\", it is the same.\n        \"//test/vendor/catch2\",\n        \"catch-main\",\n        \"//src:Money\"\n    ]\n)\n\n# Test suite that runs all the tests.\ntest_suite(\n    name = \"all-tests\",\n    tests = [\n        \"Money\"\n    ]\n)\n</code></pre>\n\n<p>Finally, we just need to add <code>visibility</code> attribute to <code>src/BUILD</code> so that it can be accessed from tests. We modify <code>src/BUILD</code> to look like this:</p>\n\n<pre class=\"lang-py prettyprint-override\"><code>cc_library(\n    name = \"Money\",\n    srcs = [\"Money.cpp\"],\n    hdrs = [\"Money.hpp\"],\n    visibility = [\"//test:__pkg__\"]\n)\n</code></pre>\n\n<p>Final file structure looks like this:</p>\n\n<pre><code>WORKSPACE\nsrc/\n  Money.hpp\n  Money.cpp\n  BUILD\ntest/\n  BUILD\n  main.cpp\n  Money.test.cpp\n  vendor/\n    catch2/\n      catch.hpp\n      BUILD\n</code></pre>\n\n<p>Now you can run your tests with <code>bazel test //test:all-tests</code>!</p>\n\n<p>I created Github repo with this example, you can check it out <a href=\"https://github.com/Martinsos/tdd-by-example/tree/03d5bdb62905e0f7820343d2007f67010a0b189b\" rel=\"nofollow noreferrer\">here</a>.\nI also turned it into a <a href=\"http://martinsosic.com/cpp/bazel/catch2/2018/08/28/cpp-bazel-catch2.html\" rel=\"nofollow noreferrer\">blog post</a>.</p>\n",
+      "owner": {
+        "display_name": "Martinsos",
+        "link": "https://stackoverflow.com/users/1509394/martinsos"
+      }
+    },
+    {
+      "answer_id": 52437848,
+      "body": "<p><code>input</code> is a 2D array of pointer to characters. Effectively it has 3 dimensions. Two Dimensions of strings of N*5 and the third dimension will traverse the characters in each string.</p>\n\n<pre><code>const char* input[N][5]\n</code></pre>\n\n<p>If you want the first character of each string, you need to use</p>\n\n<pre><code>aChar = input[j][i][0];\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rishikesh Raje",
+        "link": "https://stackoverflow.com/users/3555525/rishikesh-raje"
+      }
+    },
+    {
+      "answer_id": 52432506,
+      "body": "<p>From the <a href=\"https://github.com/catchorg/Catch2/blob/master/docs/tutorial.md#test-cases-and-sections\" rel=\"nofollow noreferrer\">docs</a>:</p>\n\n<blockquote>\n  <p>One leaf section is executed on each run through a TEST_CASE. The other sections are skipped. Next time through the next section is executed, and so on until no new sections are encountered.</p>\n</blockquote>\n\n<p>So the problematic test has to be run 3 times.</p>\n",
+      "owner": {
+        "display_name": "user7860670",
+        "link": "https://stackoverflow.com/users/7860670/user7860670"
+      }
+    },
+    {
+      "answer_id": 52243176,
+      "body": "<p>I figure it out. I am use <code>add_test</code> wrong. It should be</p>\n\n<pre><code>add_test(\n  NAME trytest\n  COMMAND node \"${CMAKE_CURRENT_BINARY_DIR}/try-test.js\")\n</code></pre>\n\n<p>so the <code>ctest</code> will run command <code>node</code> with arguments <code>${CMAKE_CURRENT_BINARY_DIR}/try-test.js</code></p>\n",
+      "owner": {
+        "display_name": "janucaria",
+        "link": "https://stackoverflow.com/users/624184/janucaria"
+      }
+    },
+    {
+      "answer_id": 52199842,
+      "body": "<p>Catch2 comes with this feature built-in in a very elegant way:</p>\n\n<pre><code>TEST_CASE(\"first_test\") {\n    CHECK(first_condition);\n    CHECK(second_condition);\n\n    SECTION(\"do something 1\") {\n        // this test is executed after the code outside of the section\n    }\n    SECTION(\"do something 2\") {\n        // this test is executed after the code outside of the section\n        // but without executing the previous section\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rakete1111",
+        "link": "https://stackoverflow.com/users/3980929/rakete1111"
+      }
+    }
+  ]
+}

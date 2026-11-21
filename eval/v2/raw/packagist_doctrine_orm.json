@@ -1,0 +1,1908 @@
+{
+  "library": "packagist:doctrine/orm",
+  "fetched_at": "2026-11-21T17:28:24Z",
+  "questions": [
+    {
+      "question_id": 3376881,
+      "title": "Default value in Doctrine",
+      "accepted_answer_id": 3379560,
+      "score": 412,
+      "link": "https://stackoverflow.com/questions/3376881/default-value-in-doctrine",
+      "owner": {
+        "display_name": "Jiew Meng",
+        "link": "https://stackoverflow.com/users/292291/jiew-meng"
+      }
+    },
+    {
+      "question_id": 3542243,
+      "title": "Doctrine2: Best way to handle many-to-many with extra columns in reference table",
+      "accepted_answer_id": 7981737,
+      "score": 296,
+      "link": "https://stackoverflow.com/questions/3542243/doctrine2-best-way-to-handle-many-to-many-with-extra-columns-in-reference-table",
+      "owner": {
+        "display_name": "Crozin",
+        "link": "https://stackoverflow.com/users/252591/crozin"
+      }
+    },
+    {
+      "question_id": 6328535,
+      "title": "On delete cascade with doctrine2",
+      "accepted_answer_id": 6334710,
+      "score": 265,
+      "link": "https://stackoverflow.com/questions/6328535/on-delete-cascade-with-doctrine2",
+      "owner": {
+        "display_name": "rfc1484",
+        "link": "https://stackoverflow.com/users/722983/rfc1484"
+      }
+    },
+    {
+      "question_id": 9214471,
+      "title": "Count Rows in Doctrine QueryBuilder",
+      "accepted_answer_id": 9215880,
+      "score": 243,
+      "link": "https://stackoverflow.com/questions/9214471/count-rows-in-doctrine-querybuilder",
+      "owner": {
+        "display_name": "Acyra",
+        "link": "https://stackoverflow.com/users/127198/acyra"
+      }
+    },
+    {
+      "question_id": 12048452,
+      "title": "How to order results with findBy() in Doctrine",
+      "accepted_answer_id": 12048567,
+      "score": 170,
+      "link": "https://stackoverflow.com/questions/12048452/how-to-order-results-with-findby-in-doctrine",
+      "owner": {
+        "display_name": "Mirage",
+        "link": "https://stackoverflow.com/users/767244/mirage"
+      }
+    },
+    {
+      "question_id": 5929036,
+      "title": "How to use WHERE IN with Doctrine 2",
+      "accepted_answer_id": 6319643,
+      "score": 160,
+      "link": "https://stackoverflow.com/questions/5929036/how-to-use-where-in-with-doctrine-2",
+      "owner": {
+        "display_name": "Tjorriemorrie",
+        "link": "https://stackoverflow.com/users/184379/tjorriemorrie"
+      }
+    },
+    {
+      "question_id": 12641698,
+      "title": "Doctrine and composite unique keys",
+      "accepted_answer_id": 12650998,
+      "score": 144,
+      "link": "https://stackoverflow.com/questions/12641698/doctrine-and-composite-unique-keys",
+      "owner": {
+        "display_name": "Nikoole",
+        "link": "https://stackoverflow.com/users/1386740/nikoole"
+      }
+    },
+    {
+      "question_id": 17116888,
+      "title": "How to sort findAll Doctrine&#39;s method?",
+      "accepted_answer_id": 17120087,
+      "score": 140,
+      "link": "https://stackoverflow.com/questions/17116888/how-to-sort-findall-doctrines-method",
+      "owner": {
+        "display_name": "ILikeTacos",
+        "link": "https://stackoverflow.com/users/1315565/iliketacos"
+      }
+    },
+    {
+      "question_id": 11657835,
+      "title": "How to get a one-dimensional scalar array as a doctrine dql query result?",
+      "accepted_answer_id": 13969241,
+      "score": 140,
+      "link": "https://stackoverflow.com/questions/11657835/how-to-get-a-one-dimensional-scalar-array-as-a-doctrine-dql-query-result",
+      "owner": {
+        "display_name": "Dawid Ohia",
+        "link": "https://stackoverflow.com/users/239129/dawid-ohia"
+      }
+    },
+    {
+      "question_id": 12493865,
+      "title": "What is the difference between inversedBy and mappedBy?",
+      "accepted_answer_id": 12495834,
+      "score": 127,
+      "link": "https://stackoverflow.com/questions/12493865/what-is-the-difference-between-inversedby-and-mappedby",
+      "owner": {
+        "display_name": "Developer",
+        "link": "https://stackoverflow.com/users/376702/developer"
+      }
+    },
+    {
+      "question_id": 9674397,
+      "title": "Doctrine 2 can&#39;t use nullable=false in manyToOne relation?",
+      "accepted_answer_id": 9674597,
+      "score": 122,
+      "link": "https://stackoverflow.com/questions/9674397/doctrine-2-cant-use-nullable-false-in-manytoone-relation",
+      "owner": {
+        "display_name": "gremo",
+        "link": "https://stackoverflow.com/users/220180/gremo"
+      }
+    },
+    {
+      "question_id": 5301285,
+      "title": "Explicitly set Id with Doctrine when using &quot;AUTO&quot; strategy",
+      "accepted_answer_id": 12081635,
+      "score": 122,
+      "link": "https://stackoverflow.com/questions/5301285/explicitly-set-id-with-doctrine-when-using-auto-strategy",
+      "owner": {
+        "display_name": "Eric",
+        "link": "https://stackoverflow.com/users/194290/eric"
+      }
+    },
+    {
+      "question_id": 14258591,
+      "title": "The EntityManager is closed",
+      "accepted_answer_id": 14261250,
+      "score": 117,
+      "link": "https://stackoverflow.com/questions/14258591/the-entitymanager-is-closed",
+      "owner": {
+        "display_name": "Ueli",
+        "link": "https://stackoverflow.com/users/319776/ueli"
+      }
+    },
+    {
+      "question_id": 14216470,
+      "title": "Symfony2 and Doctrine - Error: Invalid PathExpression. Must be a StateFieldPathExpression",
+      "accepted_answer_id": 14216878,
+      "score": 114,
+      "link": "https://stackoverflow.com/questions/14216470/symfony2-and-doctrine-error-invalid-pathexpression-must-be-a-statefieldpathe",
+      "owner": {
+        "display_name": "Mike",
+        "link": "https://stackoverflow.com/users/429909/mike"
+      }
+    },
+    {
+      "question_id": 11902099,
+      "title": "Too much data with var_dump in symfony2 doctrine2",
+      "accepted_answer_id": 11913896,
+      "score": 109,
+      "link": "https://stackoverflow.com/questions/11902099/too-much-data-with-var-dump-in-symfony2-doctrine2",
+      "owner": {
+        "display_name": "Mirage",
+        "link": "https://stackoverflow.com/users/767244/mirage"
+      }
+    },
+    {
+      "question_id": 10083158,
+      "title": "How to merge two php Doctrine 2 ArrayCollection()",
+      "accepted_answer_id": 16871539,
+      "score": 96,
+      "link": "https://stackoverflow.com/questions/10083158/how-to-merge-two-php-doctrine-2-arraycollection",
+      "owner": {
+        "display_name": "Throoze",
+        "link": "https://stackoverflow.com/users/667599/throoze"
+      }
+    },
+    {
+      "question_id": 6706485,
+      "title": "How to encode Doctrine entities to JSON in Symfony 2.0 AJAX application?",
+      "accepted_answer_id": 8491954,
+      "score": 96,
+      "link": "https://stackoverflow.com/questions/6706485/how-to-encode-doctrine-entities-to-json-in-symfony-2-0-ajax-application",
+      "owner": {
+        "display_name": "Dmytro Krasun",
+        "link": "https://stackoverflow.com/users/191490/dmytro-krasun"
+      }
+    },
+    {
+      "question_id": 14786937,
+      "title": "How to use a findBy method with comparative criteria",
+      "accepted_answer_id": 14788419,
+      "score": 95,
+      "link": "https://stackoverflow.com/questions/14786937/how-to-use-a-findby-method-with-comparative-criteria",
+      "owner": {
+        "display_name": "ElPiter",
+        "link": "https://stackoverflow.com/users/882150/elpiter"
+      }
+    },
+    {
+      "question_id": 9057558,
+      "title": "Is there a built-in way to get all of the changed/updated fields in a Doctrine 2 entity",
+      "accepted_answer_id": 9057705,
+      "score": 93,
+      "link": "https://stackoverflow.com/questions/9057558/is-there-a-built-in-way-to-get-all-of-the-changed-updated-fields-in-a-doctrine-2",
+      "owner": {
+        "display_name": "zerkms",
+        "link": "https://stackoverflow.com/users/251311/zerkms"
+      }
+    },
+    {
+      "question_id": 15616157,
+      "title": "Doctrine 2 and Many-to-many link table with an extra field",
+      "accepted_answer_id": 15630665,
+      "score": 93,
+      "link": "https://stackoverflow.com/questions/15616157/doctrine-2-and-many-to-many-link-table-with-an-extra-field",
+      "owner": {
+        "display_name": "Henry van Megen",
+        "link": "https://stackoverflow.com/users/286238/henry-van-megen"
+      }
+    },
+    {
+      "question_id": 9071094,
+      "title": "How to re-save the entity as another row in Doctrine 2",
+      "accepted_answer_id": 9071208,
+      "score": 89,
+      "link": "https://stackoverflow.com/questions/9071094/how-to-re-save-the-entity-as-another-row-in-doctrine-2",
+      "owner": {
+        "display_name": "zerkms",
+        "link": "https://stackoverflow.com/users/251311/zerkms"
+      }
+    },
+    {
+      "question_id": 58975182,
+      "title": "Deprecation: Doctrine\\ORM\\Mapping\\UnderscoreNamingStrategy without making it number aware is deprecated",
+      "accepted_answer_id": 58976557,
+      "score": 88,
+      "link": "https://stackoverflow.com/questions/58975182/deprecation-doctrine-orm-mapping-underscorenamingstrategy-without-making-it-num",
+      "owner": {
+        "display_name": "leobrl",
+        "link": "https://stackoverflow.com/users/12025403/leobrl"
+      }
+    },
+    {
+      "question_id": 7188219,
+      "title": "How to select distinct query using symfony2 doctrine query builder?",
+      "accepted_answer_id": 7191200,
+      "score": 87,
+      "link": "https://stackoverflow.com/questions/7188219/how-to-select-distinct-query-using-symfony2-doctrine-query-builder",
+      "owner": {
+        "display_name": "mickburkejnr",
+        "link": "https://stackoverflow.com/users/395729/mickburkejnr"
+      }
+    },
+    {
+      "question_id": 26891658,
+      "title": "What is the difference between fetch=&quot;EAGER&quot; and fetch=&quot;LAZY&quot; in doctrine",
+      "accepted_answer_id": 26895601,
+      "score": 86,
+      "link": "https://stackoverflow.com/questions/26891658/what-is-the-difference-between-fetch-eager-and-fetch-lazy-in-doctrine",
+      "owner": {
+        "display_name": "Mohamed Ben HEnda",
+        "link": "https://stackoverflow.com/users/889923/mohamed-ben-henda"
+      }
+    },
+    {
+      "question_id": 7692686,
+      "title": "Doctrine 2 + unsigned value",
+      "accepted_answer_id": 7694056,
+      "score": 83,
+      "link": "https://stackoverflow.com/questions/7692686/doctrine-2-unsigned-value",
+      "owner": {
+        "display_name": "Jazi",
+        "link": "https://stackoverflow.com/users/912130/jazi"
+      }
+    },
+    {
+      "question_id": 14940574,
+      "title": "What do scale and precision mean when specifying a decimal field type in Doctrine 2?",
+      "accepted_answer_id": 14940635,
+      "score": 82,
+      "link": "https://stackoverflow.com/questions/14940574/what-do-scale-and-precision-mean-when-specifying-a-decimal-field-type-in-doctrin",
+      "owner": {
+        "display_name": "Anonymous",
+        "link": "https://stackoverflow.com/users/767912/anonymous"
+      }
+    },
+    {
+      "question_id": 10730377,
+      "title": "Doctrine Listener versus Subscriber",
+      "accepted_answer_id": 11031459,
+      "score": 82,
+      "link": "https://stackoverflow.com/questions/10730377/doctrine-listener-versus-subscriber",
+      "owner": {
+        "display_name": "nurikabe",
+        "link": "https://stackoverflow.com/users/122309/nurikabe"
+      }
+    },
+    {
+      "question_id": 16705425,
+      "title": "&quot;usort&quot; a Doctrine\\Common\\Collections\\ArrayCollection?",
+      "accepted_answer_id": 16707694,
+      "score": 77,
+      "link": "https://stackoverflow.com/questions/16705425/usort-a-doctrine-common-collections-arraycollection",
+      "owner": {
+        "display_name": "luiges90",
+        "link": "https://stackoverflow.com/users/1583566/luiges90"
+      }
+    },
+    {
+      "question_id": 16587769,
+      "title": "Doctrine array vs simple_array vs json_array",
+      "accepted_answer_id": 16596178,
+      "score": 77,
+      "link": "https://stackoverflow.com/questions/16587769/doctrine-array-vs-simple-array-vs-json-array",
+      "owner": {
+        "display_name": "0x1gene",
+        "link": "https://stackoverflow.com/users/2071284/0x1gene"
+      }
+    },
+    {
+      "question_id": 6637506,
+      "title": "Doing a WHERE .. IN subquery in Doctrine 2",
+      "accepted_answer_id": 6638146,
+      "score": 77,
+      "link": "https://stackoverflow.com/questions/6637506/doing-a-where-in-subquery-in-doctrine-2",
+      "owner": {
+        "display_name": "chiborg",
+        "link": "https://stackoverflow.com/users/130121/chiborg"
+      }
+    },
+    {
+      "question_id": 8334356,
+      "title": "Doctrine 2 ArrayCollection filter method",
+      "accepted_answer_id": 8336879,
+      "score": 74,
+      "link": "https://stackoverflow.com/questions/8334356/doctrine-2-arraycollection-filter-method",
+      "owner": {
+        "display_name": "Dennis",
+        "link": "https://stackoverflow.com/users/81976/dennis"
+      }
+    },
+    {
+      "question_id": 10285783,
+      "title": "Difference between ObjectManager and EntityManager in Symfony2?",
+      "accepted_answer_id": 10285935,
+      "score": 73,
+      "link": "https://stackoverflow.com/questions/10285783/difference-between-objectmanager-and-entitymanager-in-symfony2",
+      "owner": {
+        "display_name": "gremo",
+        "link": "https://stackoverflow.com/users/220180/gremo"
+      }
+    },
+    {
+      "question_id": 14022374,
+      "title": "The differences between GeneratedValue strategies",
+      "accepted_answer_id": 14029064,
+      "score": 73,
+      "link": "https://stackoverflow.com/questions/14022374/the-differences-between-generatedvalue-strategies",
+      "owner": {
+        "display_name": "superhero",
+        "link": "https://stackoverflow.com/users/570796/superhero"
+      }
+    },
+    {
+      "question_id": 9308519,
+      "title": "doctrine: setting association with id instead of object instance",
+      "accepted_answer_id": 9308576,
+      "score": 73,
+      "link": "https://stackoverflow.com/questions/9308519/doctrine-setting-association-with-id-instead-of-object-instance",
+      "owner": {
+        "display_name": "mkk",
+        "link": "https://stackoverflow.com/users/877581/mkk"
+      }
+    },
+    {
+      "question_id": 8347872,
+      "title": "How can I use now() in Doctrine 2 DQL?",
+      "accepted_answer_id": 8365059,
+      "score": 72,
+      "link": "https://stackoverflow.com/questions/8347872/how-can-i-use-now-in-doctrine-2-dql",
+      "owner": {
+        "display_name": "Eduardo Moniz",
+        "link": "https://stackoverflow.com/users/182867/eduardo-moniz"
+      }
+    },
+    {
+      "question_id": 17991782,
+      "title": "How can I add an INDEX with Doctrine 2 to a column without making it a primary key?",
+      "accepted_answer_id": 18046730,
+      "score": 72,
+      "link": "https://stackoverflow.com/questions/17991782/how-can-i-add-an-index-with-doctrine-2-to-a-column-without-making-it-a-primary-k",
+      "owner": {
+        "display_name": "dialogik",
+        "link": "https://stackoverflow.com/users/1828051/dialogik"
+      }
+    },
+    {
+      "question_id": 12198046,
+      "title": "Use Limit and Offset in Doctrine2 query",
+      "accepted_answer_id": 12198200,
+      "score": 70,
+      "link": "https://stackoverflow.com/questions/12198046/use-limit-and-offset-in-doctrine2-query",
+      "owner": {
+        "display_name": "Faery",
+        "link": "https://stackoverflow.com/users/1554548/faery"
+      }
+    },
+    {
+      "question_id": 9632701,
+      "title": "Doctrine2 migrations migrate down and migrate from browser and not command line",
+      "accepted_answer_id": 11000521,
+      "score": 69,
+      "link": "https://stackoverflow.com/questions/9632701/doctrine2-migrations-migrate-down-and-migrate-from-browser-and-not-command-line",
+      "owner": {
+        "display_name": "giuseppe",
+        "link": "https://stackoverflow.com/users/652597/giuseppe"
+      }
+    },
+    {
+      "question_id": 17321893,
+      "title": "Automatic values for updated_at, created_at in Doctrine",
+      "accepted_answer_id": 17323770,
+      "score": 69,
+      "link": "https://stackoverflow.com/questions/17321893/automatic-values-for-updated-at-created-at-in-doctrine",
+      "owner": {
+        "display_name": "Dmitry",
+        "link": "https://stackoverflow.com/users/966972/dmitry"
+      }
+    },
+    {
+      "question_id": 11553183,
+      "title": "Select entries between dates in doctrine 2",
+      "accepted_answer_id": 12431539,
+      "score": 69,
+      "link": "https://stackoverflow.com/questions/11553183/select-entries-between-dates-in-doctrine-2",
+      "owner": {
+        "display_name": "manix",
+        "link": "https://stackoverflow.com/users/1424329/manix"
+      }
+    },
+    {
+      "question_id": 8164682,
+      "title": "Doctrine and LIKE query",
+      "accepted_answer_id": 8164858,
+      "score": 69,
+      "link": "https://stackoverflow.com/questions/8164682/doctrine-and-like-query",
+      "owner": {
+        "display_name": "Eugene",
+        "link": "https://stackoverflow.com/users/300622/eugene"
+      }
+    },
+    {
+      "question_id": 14085946,
+      "title": "Doctrine findBy &#39;does not equal&#39;",
+      "accepted_answer_id": 14089458,
+      "score": 68,
+      "link": "https://stackoverflow.com/questions/14085946/doctrine-findby-does-not-equal",
+      "owner": {
+        "display_name": "Jake N",
+        "link": "https://stackoverflow.com/users/119737/jake-n"
+      }
+    },
+    {
+      "question_id": 15087933,
+      "title": "How to do left join in Doctrine?",
+      "accepted_answer_id": 15088250,
+      "score": 66,
+      "link": "https://stackoverflow.com/questions/15087933/how-to-do-left-join-in-doctrine",
+      "owner": {
+        "display_name": "noobie-php",
+        "link": "https://stackoverflow.com/users/1045808/noobie-php"
+      }
+    },
+    {
+      "question_id": 12706337,
+      "title": "Doctrine 2 Query with LIKE",
+      "accepted_answer_id": 12706380,
+      "score": 65,
+      "link": "https://stackoverflow.com/questions/12706337/doctrine-2-query-with-like",
+      "owner": {
+        "display_name": "user1581663",
+        "link": null
+      }
+    },
+    {
+      "question_id": 19154729,
+      "title": "Doctrine Entities and business logic in a Symfony application",
+      "accepted_answer_id": 19238782,
+      "score": 64,
+      "link": "https://stackoverflow.com/questions/19154729/doctrine-entities-and-business-logic-in-a-symfony-application",
+      "owner": {
+        "display_name": "Koryonik",
+        "link": "https://stackoverflow.com/users/2315514/koryonik"
+      }
+    },
+    {
+      "question_id": 8369956,
+      "title": "Are Doctrine2 repositories a good place to save my entities?",
+      "accepted_answer_id": 8370442,
+      "score": 63,
+      "link": "https://stackoverflow.com/questions/8369956/are-doctrine2-repositories-a-good-place-to-save-my-entities",
+      "owner": {
+        "display_name": "Trent",
+        "link": "https://stackoverflow.com/users/962602/trent"
+      }
+    },
+    {
+      "question_id": 7044864,
+      "title": "Symfony2-Doctrine: ManyToMany relation is not saved to database",
+      "accepted_answer_id": 7045693,
+      "score": 62,
+      "link": "https://stackoverflow.com/questions/7044864/symfony2-doctrine-manytomany-relation-is-not-saved-to-database",
+      "owner": {
+        "display_name": "Omid Kamangar",
+        "link": "https://stackoverflow.com/users/382827/omid-kamangar"
+      }
+    },
+    {
+      "question_id": 8243693,
+      "title": "Get table name of entity class",
+      "accepted_answer_id": 8245157,
+      "score": 60,
+      "link": "https://stackoverflow.com/questions/8243693/get-table-name-of-entity-class",
+      "owner": {
+        "display_name": "Matt",
+        "link": "https://stackoverflow.com/users/1028177/matt"
+      }
+    },
+    {
+      "question_id": 6136601,
+      "title": "Doctrine 2 - Disallow null value on foreign keys of ManyToOne relationships",
+      "accepted_answer_id": 6140162,
+      "score": 60,
+      "link": "https://stackoverflow.com/questions/6136601/doctrine-2-disallow-null-value-on-foreign-keys-of-manytoone-relationships",
+      "owner": {
+        "display_name": "Tobias Gies",
+        "link": "https://stackoverflow.com/users/91891/tobias-gies"
+      }
+    },
+    {
+      "question_id": 32213542,
+      "title": "PHP Mocking Final Class",
+      "accepted_answer_id": 33095281,
+      "score": 58,
+      "link": "https://stackoverflow.com/questions/32213542/php-mocking-final-class",
+      "owner": {
+        "display_name": "DanHabib",
+        "link": "https://stackoverflow.com/users/3537361/danhabib"
+      }
+    },
+    {
+      "question_id": 11933384,
+      "title": "How to add column descriptions (comments) in Doctrine2",
+      "accepted_answer_id": 13823167,
+      "score": 58,
+      "link": "https://stackoverflow.com/questions/11933384/how-to-add-column-descriptions-comments-in-doctrine2",
+      "owner": {
+        "display_name": "flu",
+        "link": "https://stackoverflow.com/users/601386/flu"
+      }
+    },
+    {
+      "question_id": 9259089,
+      "title": "Doctrine findBy with OR condition",
+      "accepted_answer_id": 9259244,
+      "score": 58,
+      "link": "https://stackoverflow.com/questions/9259089/doctrine-findby-with-or-condition",
+      "owner": {
+        "display_name": "ArVan",
+        "link": "https://stackoverflow.com/users/1065687/arvan"
+      }
+    },
+    {
+      "question_id": 5640768,
+      "title": "How to limit size of result set in doctrine 2?",
+      "accepted_answer_id": 6056417,
+      "score": 58,
+      "link": "https://stackoverflow.com/questions/5640768/how-to-limit-size-of-result-set-in-doctrine-2",
+      "owner": {
+        "display_name": "blacktie24",
+        "link": "https://stackoverflow.com/users/581851/blacktie24"
+      }
+    },
+    {
+      "question_id": 7698625,
+      "title": "Doctrine 2.1 - datetime column default value",
+      "accepted_answer_id": 7698687,
+      "score": 56,
+      "link": "https://stackoverflow.com/questions/7698625/doctrine-2-1-datetime-column-default-value",
+      "owner": {
+        "display_name": "Jazi",
+        "link": "https://stackoverflow.com/users/912130/jazi"
+      }
+    },
+    {
+      "question_id": 17951294,
+      "title": "Symfony2 file upload step by step",
+      "accepted_answer_id": 17955934,
+      "score": 55,
+      "link": "https://stackoverflow.com/questions/17951294/symfony2-file-upload-step-by-step",
+      "owner": {
+        "display_name": "Tyrael",
+        "link": "https://stackoverflow.com/users/2615455/tyrael"
+      }
+    },
+    {
+      "question_id": 14158111,
+      "title": "Deep clone Doctrine entity with related entities",
+      "accepted_answer_id": 14158815,
+      "score": 55,
+      "link": "https://stackoverflow.com/questions/14158111/deep-clone-doctrine-entity-with-related-entities",
+      "owner": {
+        "display_name": "hsz",
+        "link": "https://stackoverflow.com/users/223386/hsz"
+      }
+    },
+    {
+      "question_id": 5715777,
+      "title": "Doctrine 2 Inheritance Mapping with Association",
+      "accepted_answer_id": 7101339,
+      "score": 55,
+      "link": "https://stackoverflow.com/questions/5715777/doctrine-2-inheritance-mapping-with-association",
+      "owner": {
+        "display_name": "Matthieu Napoli",
+        "link": "https://stackoverflow.com/users/245552/matthieu-napoli"
+      }
+    },
+    {
+      "question_id": 3967226,
+      "title": "Checking for duplicate keys with Doctrine 2",
+      "accepted_answer_id": 35752268,
+      "score": 54,
+      "link": "https://stackoverflow.com/questions/3967226/checking-for-duplicate-keys-with-doctrine-2",
+      "owner": {
+        "display_name": "tom",
+        "link": "https://stackoverflow.com/users/80840/tom"
+      }
+    },
+    {
+      "question_id": 15377079,
+      "title": "Doctrine query builder using inner join with conditions",
+      "accepted_answer_id": 15382682,
+      "score": 52,
+      "link": "https://stackoverflow.com/questions/15377079/doctrine-query-builder-using-inner-join-with-conditions",
+      "owner": {
+        "display_name": "Mr. 14",
+        "link": "https://stackoverflow.com/users/1278541/mr-14"
+      }
+    },
+    {
+      "question_id": 7172967,
+      "title": "Doctrine2 Insert and retrieve new insert ID",
+      "accepted_answer_id": 7173364,
+      "score": 51,
+      "link": "https://stackoverflow.com/questions/7172967/doctrine2-insert-and-retrieve-new-insert-id",
+      "owner": {
+        "display_name": "NimmoNet",
+        "link": "https://stackoverflow.com/users/687451/nimmonet"
+      }
+    },
+    {
+      "question_id": 19139970,
+      "title": "Getting only ID from entity relations without fetching whole object in Doctrine",
+      "accepted_answer_id": 19146723,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/19139970/getting-only-id-from-entity-relations-without-fetching-whole-object-in-doctrine",
+      "owner": {
+        "display_name": "rabudde",
+        "link": "https://stackoverflow.com/users/672452/rabudde"
+      }
+    },
+    {
+      "question_id": 5646026,
+      "title": "Doctrine 2 update from entity",
+      "accepted_answer_id": 5646068,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/5646026/doctrine-2-update-from-entity",
+      "owner": {
+        "display_name": "Dennis",
+        "link": "https://stackoverflow.com/users/81976/dennis"
+      }
+    },
+    {
+      "question_id": 14941358,
+      "title": "Add a column to an existing entity in Symfony",
+      "accepted_answer_id": 14942242,
+      "score": 47,
+      "link": "https://stackoverflow.com/questions/14941358/add-a-column-to-an-existing-entity-in-symfony",
+      "owner": {
+        "display_name": "TurnsCoffeeIntoScripts",
+        "link": "https://stackoverflow.com/users/584950/turnscoffeeintoscripts"
+      }
+    },
+    {
+      "question_id": 5988636,
+      "title": "Doctrine 2 - How to use discriminator column in where clause",
+      "accepted_answer_id": 5992273,
+      "score": 46,
+      "link": "https://stackoverflow.com/questions/5988636/doctrine-2-how-to-use-discriminator-column-in-where-clause",
+      "owner": {
+        "display_name": "Can Aydoğan",
+        "link": "https://stackoverflow.com/users/191842/can-aydo%c4%9fan"
+      }
+    },
+    {
+      "question_id": 11704447,
+      "title": "pass array of conditions to doctrine expr()-&gt;orx() method",
+      "accepted_answer_id": 11708917,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/11704447/pass-array-of-conditions-to-doctrine-expr-orx-method",
+      "owner": {
+        "display_name": "Bartosz Rychlicki",
+        "link": "https://stackoverflow.com/users/1169194/bartosz-rychlicki"
+      }
+    },
+    {
+      "question_id": 8750724,
+      "title": "What do you use instead of ENUM in doctrine2?",
+      "accepted_answer_id": 9057352,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/8750724/what-do-you-use-instead-of-enum-in-doctrine2",
+      "owner": {
+        "display_name": "DavidW",
+        "link": "https://stackoverflow.com/users/720943/davidw"
+      }
+    },
+    {
+      "question_id": 19185587,
+      "title": "Left join ON condition AND other condition syntax in Doctrine",
+      "accepted_answer_id": 19189240,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/19185587/left-join-on-condition-and-other-condition-syntax-in-doctrine",
+      "owner": {
+        "display_name": "juuga",
+        "link": "https://stackoverflow.com/users/2304703/juuga"
+      }
+    },
+    {
+      "question_id": 17613684,
+      "title": "How to determine if a Doctrine entity is persisted?",
+      "accepted_answer_id": 17649661,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/17613684/how-to-determine-if-a-doctrine-entity-is-persisted",
+      "owner": {
+        "display_name": "ezraspectre",
+        "link": "https://stackoverflow.com/users/926719/ezraspectre"
+      }
+    },
+    {
+      "question_id": 17422611,
+      "title": "Symfony2 QueryBuilder join ON and WITH difference",
+      "accepted_answer_id": 17428623,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/17422611/symfony2-querybuilder-join-on-and-with-difference",
+      "owner": {
+        "display_name": "Roberto Rizzi",
+        "link": "https://stackoverflow.com/users/2481329/roberto-rizzi"
+      }
+    },
+    {
+      "question_id": 10762538,
+      "title": "How to select randomly with doctrine",
+      "accepted_answer_id": 10762751,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/10762538/how-to-select-randomly-with-doctrine",
+      "owner": {
+        "display_name": "Yasser1984",
+        "link": "https://stackoverflow.com/users/893730/yasser1984"
+      }
+    },
+    {
+      "question_id": 7561013,
+      "title": "Injecting SecurityContext into a Listener prePersist or preUpdate in Symfony2 to get User in a createdBy or updatedBy Causes Circular Reference Error",
+      "accepted_answer_id": 7562976,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/7561013/injecting-securitycontext-into-a-listener-prepersist-or-preupdate-in-symfony2-to",
+      "owner": {
+        "display_name": "Jeremy",
+        "link": "https://stackoverflow.com/users/55201/jeremy"
+      }
+    },
+    {
+      "question_id": 5349790,
+      "title": "How do I use a complex criteria inside a doctrine 2 entity&#39;s repository?",
+      "accepted_answer_id": 5353862,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/5349790/how-do-i-use-a-complex-criteria-inside-a-doctrine-2-entitys-repository",
+      "owner": {
+        "display_name": "Doron",
+        "link": "https://stackoverflow.com/users/259328/doron"
+      }
+    },
+    {
+      "question_id": 10784973,
+      "title": "How to set up database-heavy unit tests in Symfony2 using PHPUnit?",
+      "accepted_answer_id": 35463959,
+      "score": 43,
+      "link": "https://stackoverflow.com/questions/10784973/how-to-set-up-database-heavy-unit-tests-in-symfony2-using-phpunit",
+      "owner": {
+        "display_name": "k0pernikus",
+        "link": "https://stackoverflow.com/users/457268/k0pernikus"
+      }
+    },
+    {
+      "question_id": 18826836,
+      "title": "How can I use SQL&#39;s YEAR(), MONTH() and DAY() in Doctrine2?",
+      "accepted_answer_id": 19400610,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/18826836/how-can-i-use-sqls-year-month-and-day-in-doctrine2",
+      "owner": {
+        "display_name": "dialogik",
+        "link": "https://stackoverflow.com/users/1828051/dialogik"
+      }
+    },
+    {
+      "question_id": 7709293,
+      "title": "Doctrine Cascade Options for OneToMany",
+      "accepted_answer_id": 11168501,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/7709293/doctrine-cascade-options-for-onetomany",
+      "owner": {
+        "display_name": "cantera",
+        "link": "https://stackoverflow.com/users/723007/cantera"
+      }
+    },
+    {
+      "question_id": 6259424,
+      "title": "Troubleshooting &quot;No such file or directory&quot; when running `php app/console doctrine:schema:create`",
+      "accepted_answer_id": 6268497,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/6259424/troubleshooting-no-such-file-or-directory-when-running-php-app-console-doctri",
+      "owner": {
+        "display_name": "LBridge",
+        "link": "https://stackoverflow.com/users/401368/lbridge"
+      }
+    },
+    {
+      "question_id": 8196112,
+      "title": "How to get a Collection in Doctrine2&#39;s query results",
+      "accepted_answer_id": 8237943,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/8196112/how-to-get-a-collection-in-doctrine2s-query-results",
+      "owner": {
+        "display_name": "mkraemer",
+        "link": "https://stackoverflow.com/users/626322/mkraemer"
+      }
+    },
+    {
+      "question_id": 7867198,
+      "title": "Zend Framework 2 + Doctrine 2",
+      "accepted_answer_id": 9092254,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/7867198/zend-framework-2-doctrine-2",
+      "owner": {
+        "display_name": "flux",
+        "link": "https://stackoverflow.com/users/246219/flux"
+      }
+    },
+    {
+      "question_id": 19814647,
+      "title": "request with multiple id Symfony2 Doctrine",
+      "accepted_answer_id": 19815201,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/19814647/request-with-multiple-id-symfony2-doctrine",
+      "owner": {
+        "display_name": "Ajouve",
+        "link": "https://stackoverflow.com/users/1820957/ajouve"
+      }
+    },
+    {
+      "question_id": 12362901,
+      "title": "Doctrine2 one-to-one relation auto loads on query",
+      "accepted_answer_id": 22253783,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/12362901/doctrine2-one-to-one-relation-auto-loads-on-query",
+      "owner": {
+        "display_name": "Andy Baird",
+        "link": "https://stackoverflow.com/users/5865/andy-baird"
+      }
+    },
+    {
+      "question_id": 15773662,
+      "title": "Symfony2 Doctrine Expr &#39;IS NOT NULL&#39;",
+      "accepted_answer_id": 15781504,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/15773662/symfony2-doctrine-expr-is-not-null",
+      "owner": {
+        "display_name": "Rixius",
+        "link": "https://stackoverflow.com/users/212307/rixius"
+      }
+    },
+    {
+      "question_id": 13957330,
+      "title": "&#39;where not in&#39; query with doctrine query builder",
+      "accepted_answer_id": 13958127,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/13957330/where-not-in-query-with-doctrine-query-builder",
+      "owner": {
+        "display_name": "Andrew Atkinson",
+        "link": "https://stackoverflow.com/users/744975/andrew-atkinson"
+      }
+    },
+    {
+      "question_id": 5382170,
+      "title": "When inserting an entity with associations, is there a way to just use the FK instead of retrieving the entity?",
+      "accepted_answer_id": 5412048,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/5382170/when-inserting-an-entity-with-associations-is-there-a-way-to-just-use-the-fk-in",
+      "owner": {
+        "display_name": "blacktie24",
+        "link": "https://stackoverflow.com/users/581851/blacktie24"
+      }
+    },
+    {
+      "question_id": 19066140,
+      "title": "Doctrine error: &quot;Failed opening required &#39;/tmp/__CG__Source.php&#39; &quot;",
+      "accepted_answer_id": 20231349,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/19066140/doctrine-error-failed-opening-required-tmp-cg-source-php",
+      "owner": {
+        "display_name": "Jorr.it",
+        "link": "https://stackoverflow.com/users/2366136/jorr-it"
+      }
+    },
+    {
+      "question_id": 10330704,
+      "title": "Symfony 2.0 getting service inside entity",
+      "accepted_answer_id": 10333356,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/10330704/symfony-2-0-getting-service-inside-entity",
+      "owner": {
+        "display_name": "Kaminari",
+        "link": "https://stackoverflow.com/users/325606/kaminari"
+      }
+    },
+    {
+      "question_id": 15555042,
+      "title": "Doctrine 2 delete with query builder",
+      "accepted_answer_id": 15555495,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/15555042/doctrine-2-delete-with-query-builder",
+      "owner": {
+        "display_name": "Constantin",
+        "link": "https://stackoverflow.com/users/338526/constantin"
+      }
+    },
+    {
+      "question_id": 12471715,
+      "title": "How exactly to use onDelete = &quot;SET NULL&quot; - Doctrine2",
+      "accepted_answer_id": 12475052,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/12471715/how-exactly-to-use-ondelete-set-null-doctrine2",
+      "owner": {
+        "display_name": "Faery",
+        "link": "https://stackoverflow.com/users/1554548/faery"
+      }
+    },
+    {
+      "question_id": 8205606,
+      "title": "Doctrine OneToOne incorrectly? generating a UNIQUE INDEX",
+      "accepted_answer_id": 8206358,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/8205606/doctrine-onetoone-incorrectly-generating-a-unique-index",
+      "owner": {
+        "display_name": "PorridgeBear",
+        "link": "https://stackoverflow.com/users/736331/porridgebear"
+      }
+    },
+    {
+      "question_id": 18654530,
+      "title": "Doctrine2 - Multiple insert in one shot",
+      "accepted_answer_id": 18655238,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/18654530/doctrine2-multiple-insert-in-one-shot",
+      "owner": {
+        "display_name": "Molkobain",
+        "link": "https://stackoverflow.com/users/2710325/molkobain"
+      }
+    },
+    {
+      "question_id": 8545561,
+      "title": "Unique Constraints in Doctrine 2, Symfony 2",
+      "accepted_answer_id": 8545712,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/8545561/unique-constraints-in-doctrine-2-symfony-2",
+      "owner": {
+        "display_name": "Jiew Meng",
+        "link": "https://stackoverflow.com/users/292291/jiew-meng"
+      }
+    },
+    {
+      "question_id": 52426917,
+      "title": "findBy with multiple IDs",
+      "accepted_answer_id": 52427915,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/52426917/findby-with-multiple-ids",
+      "owner": {
+        "display_name": "Preciel",
+        "link": "https://stackoverflow.com/users/6711360/preciel"
+      }
+    },
+    {
+      "question_id": 34023813,
+      "title": "Symfony 2.7 cache:clear command checks every database connection",
+      "accepted_answer_id": 34024275,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/34023813/symfony-2-7-cacheclear-command-checks-every-database-connection",
+      "owner": {
+        "display_name": "Xmanoux",
+        "link": "https://stackoverflow.com/users/3411621/xmanoux"
+      }
+    },
+    {
+      "question_id": 23549693,
+      "title": "Doctrine DBAL - WHERE IN array with additional parameter",
+      "accepted_answer_id": 23549822,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/23549693/doctrine-dbal-where-in-array-with-additional-parameter",
+      "owner": {
+        "display_name": "Zoot",
+        "link": "https://stackoverflow.com/users/446746/zoot"
+      }
+    },
+    {
+      "question_id": 15099060,
+      "title": "Doctrine2 - &quot;class&quot; is not a valid entity or mapped super class",
+      "accepted_answer_id": 15108579,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/15099060/doctrine2-class-is-not-a-valid-entity-or-mapped-super-class",
+      "owner": {
+        "display_name": "KennyPowers",
+        "link": "https://stackoverflow.com/users/876360/kennypowers"
+      }
+    },
+    {
+      "question_id": 11709391,
+      "title": "How to get Doctrine ORM instance in Symfony2 console application?",
+      "accepted_answer_id": 11709562,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/11709391/how-to-get-doctrine-orm-instance-in-symfony2-console-application",
+      "owner": {
+        "display_name": "pamil",
+        "link": "https://stackoverflow.com/users/1504252/pamil"
+      }
+    },
+    {
+      "question_id": 10800178,
+      "title": "How to check if entity changed in Doctrine 2?",
+      "accepted_answer_id": 10800481,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/10800178/how-to-check-if-entity-changed-in-doctrine-2",
+      "owner": {
+        "display_name": "eagleoneraptor",
+        "link": "https://stackoverflow.com/users/1125549/eagleoneraptor"
+      }
+    },
+    {
+      "question_id": 7404133,
+      "title": "Limit amount of records retrieved when using Doctrine DQL in Symfony2",
+      "accepted_answer_id": 7404238,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/7404133/limit-amount-of-records-retrieved-when-using-doctrine-dql-in-symfony2",
+      "owner": {
+        "display_name": "mickburkejnr",
+        "link": "https://stackoverflow.com/users/395729/mickburkejnr"
+      }
+    },
+    {
+      "question_id": 30734814,
+      "title": "Persisting other entities inside preUpdate of Doctrine Entity Listener",
+      "accepted_answer_id": 30741471,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/30734814/persisting-other-entities-inside-preupdate-of-doctrine-entity-listener",
+      "owner": {
+        "display_name": "Sergio Negri",
+        "link": "https://stackoverflow.com/users/4321820/sergio-negri"
+      }
+    },
+    {
+      "question_id": 26616861,
+      "title": "Memory leak when executing Doctrine query in loop",
+      "accepted_answer_id": 26769322,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/26616861/memory-leak-when-executing-doctrine-query-in-loop",
+      "owner": {
+        "display_name": "Jonathan",
+        "link": "https://stackoverflow.com/users/526495/jonathan"
+      }
+    },
+    {
+      "question_id": 15127666,
+      "title": "What is the difference between ORM and DBAL in Doctrine?",
+      "accepted_answer_id": 15131447,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/15127666/what-is-the-difference-between-orm-and-dbal-in-doctrine",
+      "owner": {
+        "display_name": "Mohammed H",
+        "link": "https://stackoverflow.com/users/739331/mohammed-h"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 18046730,
+      "body": "<p>If you want to work with doctrine a table must have a primary key, see:</p>\n<blockquote>\n<p>Every entity class must have an identifier/primary key. You can select the field that serves as the identifier with the <code>@Id</code> annotation.\n<br> Reference: <a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/2.18/reference/basic-mapping.html#identifiers-primary-keys\" rel=\"nofollow noreferrer\">Identifiers and Primary keys</a></p>\n</blockquote>\n<p>To create an index: <a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/2.18/reference/annotations-reference.html#annref_index\" rel=\"nofollow noreferrer\">Annotations Reference</a></p>\n<pre class=\"lang-php prettyprint-override\"><code>&lt;?php\n/**\n * @Entity\n * @Table(name=&quot;ecommerce_products&quot;,indexes={\n *     @Index(name=&quot;search_idx&quot;, columns={&quot;name&quot;, &quot;email&quot;})\n * })\n */\nclass ECommerceProduct\n{\n}\n</code></pre>\n<p>Note that this is only being used if you generate the schema from your PHP code. So in case your table already exist you can also just add an index yourself.</p>\n",
+      "owner": {
+        "display_name": "Flip",
+        "link": "https://stackoverflow.com/users/1833322/flip"
+      }
+    },
+    {
+      "answer_id": 23549822,
+      "body": "<p>The params and types are parallel arrays. All you should have to do is add your placeholder for the f.foo value and add in the correct PDO type in types argument.</p>\n<pre><code>$SQL = &quot;SELECT f.foo, b.bar\n        FROM Foo f LEFT JOIN Bar b\n        WHERE  f.foo = ? AND b.bar IN (?)&quot;;\n\n$result = $this-&gt;connection\n    -&gt;executeQuery($SQL, array($foo, $bar_array),array(\n            \\PDO::PARAM_INT,\n            \\Doctrine\\DBAL\\ArrayParameterType::INTEGER\n     ))-&gt;fetchAll();\n</code></pre>\n<p>You can <a href=\"https://www.doctrine-project.org/projects/doctrine-dbal/en/current/reference/data-retrieval-and-manipulation.html#list-of-parameters-conversion\" rel=\"noreferrer\">read</a> the manual for more information.</p>\n",
+      "owner": {
+        "display_name": "Mathew Peterson",
+        "link": "https://stackoverflow.com/users/480988/mathew-peterson"
+      }
+    },
+    {
+      "answer_id": 6056417,
+      "body": "<p>In Doctrine 2.1 method <code>EntityRepository#findBy()</code> now accepts additional parameters for ordering, limit and offset.</p>\n<p><a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/2.14/reference/working-with-objects.html#by-simple-conditions\" rel=\"nofollow noreferrer\">Documentation: Working with objects - Querying by simple conditions</a></p>\n<p>Example:</p>\n<pre><code> public function findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)\n</code></pre>\n<p>usage:</p>\n<pre><code>$myLimit = 30;\n$myOffset = 20;\n\n$product = $repository-&gt;findBy(\n    array('name' =&gt; 'foo'),\n    array('price' =&gt; 'ASC'),\n    $myLimit,\n    $myOffset\n);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nikolai Senkevich",
+        "link": "https://stackoverflow.com/users/760703/nikolai-senkevich"
+      }
+    },
+    {
+      "answer_id": 34024275,
+      "body": "<p>Doctrine is trying to determine the Database Platform Version.</p>\n<p>You can avoid this behavior by adding the server version in the <a href=\"http://symfony.com/doc/current/reference/configuration/doctrine.html#doctrine-dbal-configuration\" rel=\"nofollow noreferrer\">Doctrine DBAL Configuration</a>. From the doc:</p>\n<blockquote>\n<p>The server_version option was added in Doctrine DBAL 2.5, which is\nused by DoctrineBundle 1.3. The value of this option should match your\ndatabase server version (use postgres -V or psql -V command to find\nyour PostgreSQL version and mysql -V to get your MySQL version).</p>\n<p><strong>If you don't define this option and haven't created your database yet, you may get PDOException errors because Doctrine will\ntry to guess the database server version automatically and none is\navailable.</strong></p>\n</blockquote>\n<p>As example:</p>\n<pre><code>#config.yml\n\ndoctrine:\n    dbal:\n    ...\n        server_version:       5.6\n</code></pre>\n<p>Hope this helps</p>\n",
+      "owner": {
+        "display_name": "Matteo",
+        "link": "https://stackoverflow.com/users/2270041/matteo"
+      }
+    },
+    {
+      "answer_id": 16707694,
+      "body": "<p>To sort an existing Collection you are looking for the <strong>ArrayCollection::getIterator()</strong> method which returns an ArrayIterator. example:</p>\n<pre><code>$iterator = $collection-&gt;getIterator();\n$iterator-&gt;uasort(function ($a, $b) {\n    return ($a-&gt;getPropery() &lt; $b-&gt;getProperty()) ? -1 : 1;\n});\n$collection = new ArrayCollection(iterator_to_array($iterator));\n</code></pre>\n<p>The easiest way would be letting the query in the <strong>repository</strong> handle your sorting.</p>\n<p>Imagine you have a SuperEntity with a ManyToMany relationship with Category entities.</p>\n<p>Then for instance creating a repository method like this:</p>\n<pre><code>// Vendor/YourBundle/Entity/SuperEntityRepository.php\n\npublic function findByCategoryAndOrderByName($category)\n{\n    return $this-&gt;createQueryBuilder('e')\n        -&gt;where('e.category = :category')\n        -&gt;setParameter('category', $category)\n        -&gt;orderBy('e.name', 'ASC')\n        -&gt;getQuery()\n        -&gt;getResult()\n    ;\n}\n</code></pre>\n<p>... makes sorting pretty easy.</p>\n",
+      "owner": {
+        "display_name": "Nicolai Fr&#246;hlich",
+        "link": "https://stackoverflow.com/users/1832745/nicolai-fr%c3%b6hlich"
+      }
+    },
+    {
+      "answer_id": 18655238,
+      "body": "<p>According to <a href=\"https://stackoverflow.com/questions/8707486/doctrine2-how-to-improve-flush-efficiency?answertab=active#tab-top\">this answer</a>, Doctrine2 does not allow you to combine multiple INSERT statements into one:</p>\n<blockquote>\n<p>Some people seem to be wondering why Doctrine does not use\nmulti-inserts (insert into (...) values (...), (...), (...), ...</p>\n<p>First of all, this syntax is only supported on mysql and newer\npostgresql versions. Secondly, there is no easy way to get hold of all\nthe generated identifiers in such a multi-insert when using\nAUTO_INCREMENT or SERIAL and an ORM needs the identifiers for identity\nmanagement of the objects. Lastly, insert performance is rarely the\nbottleneck of an ORM. Normal inserts are more than fast enough for\nmost situations and if you really want to do fast bulk inserts, then a\nmulti-insert is not the best way anyway, i.e. Postgres COPY or Mysql\nLOAD DATA INFILE are several orders of magnitude faster.</p>\n<p>These are the reasons why it is not worth the effort to implement an\nabstraction that performs multi-inserts on mysql and postgresql in an\nORM.</p>\n</blockquote>\n<p>You can read more about Doctrine2 batch processing here:\n<a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/latest/reference/batch-processing.html\" rel=\"nofollow noreferrer\">https://www.doctrine-project.org/projects/doctrine-orm/en/latest/reference/batch-processing.html</a></p>\n<p>You can either switch to DBAL or resort to processing your data in small batches by flushing your entity manager after a set amount of inserts:</p>\n<pre><code>$batchSize = 20;\n\nforeach ($items as $i =&gt; $item) {\n     $product = new Product($item['datas']);\n\n     $em-&gt;persist($product);\n\n     // flush everything to the database every 20 inserts\n     if (($i % $batchSize) == 0) {\n         $em-&gt;flush();\n         $em-&gt;clear();\n    }\n}\n\n// flush the remaining objects\n$em-&gt;flush();\n$em-&gt;clear();\n</code></pre>\n",
+      "owner": {
+        "display_name": "ukliviu",
+        "link": "https://stackoverflow.com/users/1663891/ukliviu"
+      }
+    },
+    {
+      "answer_id": 6334710,
+      "body": "<p>There are two kinds of cascades in Doctrine:</p>\n<ol>\n<li><p>ORM level - uses <code>cascade={&quot;remove&quot;}</code> in the association - this is a calculation that is done in the <code>UnitOfWork</code> and does not affect the database structure.  When you remove an object, the <code>UnitOfWork</code> will iterate over all objects in the association and remove them.</p>\n</li>\n<li><p>Database level - uses <code>onDelete=&quot;CASCADE&quot;</code> on the association's joinColumn - this will add On Delete Cascade to the foreign key column in the database:</p>\n<pre><code>@ORM\\JoinColumn(name=&quot;father_id&quot;, referencedColumnName=&quot;id&quot;, onDelete=&quot;CASCADE&quot;)\n</code></pre>\n</li>\n</ol>\n<p>I also want to point out that the way you have your <code>cascade={&quot;remove&quot;}</code> right now, if you delete a Child object, this cascade will remove the Parent object. Clearly not what you want.</p>\n",
+      "owner": {
+        "display_name": "Michael Ridgway",
+        "link": "https://stackoverflow.com/users/249259/michael-ridgway"
+      }
+    },
+    {
+      "answer_id": 19146723,
+      "body": "<p>Don't complicate your life, you can just do</p>\n<pre><code>$food-&gt;getFoodGroup()-&gt;getId()\n</code></pre>\n<p>This <strong>WILL NOT</strong> perform any additional query or trigger lazy load!</p>\n<p>This is because your <code>$food-&gt;foodGroup</code> is a proxy object which knows about it's ID. It will only do lazy load if you call a getter method of some field which hasn't been loaded.</p>\n",
+      "owner": {
+        "display_name": "Igor Pantović",
+        "link": "https://stackoverflow.com/users/2800648/igor-pantovi%c4%87"
+      }
+    },
+    {
+      "answer_id": 15382682,
+      "body": "<p>I'm going to answer my own question.</p>\n<ol>\n<li>innerJoin should use the keyword &quot;WITH&quot; instead of &quot;ON&quot; (Doctrine's documentation [13.2.6. Helper methods] is inaccurate; [13.2.5. The Expr class] is correct)</li>\n<li>no need to link foreign keys in join condition as they're already specified in the entity mapping.</li>\n</ol>\n<p>Therefore, the following works for me</p>\n<pre><code>$qb-&gt;select('c')\n    -&gt;innerJoin('c.phones', 'p', 'WITH', 'p.phone = :phone')\n    -&gt;where('c.username = :username')\n    -&gt;setParameter('phone', $phone)\n    -&gt;setParameter('username', $username);\n</code></pre>\n<p>or</p>\n<pre><code>$qb-&gt;select('c')\n    -&gt;innerJoin('c.phones', 'p', Join::WITH, $qb-&gt;expr()-&gt;eq('p.phone', ':phone'))\n    -&gt;where('c.username = :username')\n    -&gt;setParameter('phone', $phone)\n    -&gt;setParameter('username', $username);;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mr. 14",
+        "link": "https://stackoverflow.com/users/1278541/mr-14"
+      }
+    },
+    {
+      "answer_id": 58976557,
+      "body": "<p>In most cases I would just answer this sort of question with a comment but I suspect other developers might run into this issue.  I poked around a bit and could not find any explicit documentation on this issue.  Perhaps because the DoctrineBundle is under the control of the Doctrine folks and not the Symfony developers.  Or maybe I am just a bad searcher.</p>\n<p>In any event, between 4.3 and 4.4 the service name for the underscore naming strategy was changed.</p>\n<pre><code># doctrine.yaml\norm:\n  # 4.3\n  naming_strategy: doctrine.orm.naming_strategy.underscore\n  # 4.4\n  naming_strategy: doctrine.orm.naming_strategy.underscore_number_aware\n</code></pre>\n<p>And a deprecated message was added to warn developers to change the name.  Would have been nice if the message was just a tiny bit more explicit but oh well.\nSo if you are upgrading an existing app to 4.4 and beyond then you will probably need to manually edit your doctrine.yaml file to make the depreciation message go away.</p>\n<p>Some more info (thanks @janh) on why the change was made:\n<a href=\"https://github.com/doctrine/orm/blob/2.8.x/UPGRADE.md#deprecated-number-unaware-doctrineormmappingunderscorenamingstrategy\" rel=\"noreferrer\">https://github.com/doctrine/orm/blob/2.8.x/UPGRADE.md#deprecated-number-unaware-doctrineormmappingunderscorenamingstrategy</a>\n<a href=\"https://github.com/doctrine/orm/issues/7855\" rel=\"noreferrer\">https://github.com/doctrine/orm/issues/7855</a></p>\n<p>Still not really clear on why &quot;they&quot; chose to do things this way but oh well.\nYou probably want to run &quot;bin/console doctrine:schema:update --dump-sql&quot; just to see if this impacts your database column names and adjust accordingly.  The changes has been out for several weeks now and there does not seem to be many howls of outrage over the change so I guess most column names don't have embedded numbers.  So far at least.</p>\n",
+      "owner": {
+        "display_name": "Cerad",
+        "link": "https://stackoverflow.com/users/1146363/cerad"
+      }
+    },
+    {
+      "answer_id": 26895601,
+      "body": "<p>To explain it simply, when you are loading an entity and if it has an association with one or more entities, what should doctrine do?</p>\n<p>If the association is marked as <strong>EAGER</strong>, it will fetch and load the associated entity as well.</p>\n<p>If the association is marked as <strong>LAZY</strong>, doctrine will create proxy objects (dummy objects) in place of the actual entity. Only when you make the first call to that associated entity (like <code>$cart-&gt;getItems()</code>), doctrine will fetch and load that object(s) from database. (This is the <a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/current/tutorials/extra-lazy-associations.html#extra-lazy-associations\" rel=\"noreferrer\">default Behaviour</a>)</p>\n<p>Refer: <a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/advanced-configuration.html#association-proxies\" rel=\"noreferrer\">https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/advanced-configuration.html#association-proxies</a></p>\n",
+      "owner": {
+        "display_name": "Pradeep",
+        "link": "https://stackoverflow.com/users/82265/pradeep"
+      }
+    },
+    {
+      "answer_id": 8237943,
+      "body": "<p>The <code>getResult()</code> always returns an array. If you want a collection, you must pass the array that is returned by <code>getResult()</code> to Doctrine's <code>ArrayCollection</code></p>\n<p>e.g.</p>\n<pre class=\"lang-php prettyprint-override\"><code>use Doctrine\\Common\\Collections\\ArrayCollection;\n\n$result = $this\n    -&gt;getEntityManager()\n    -&gt;createQueryBuilder()\n    -&gt;select('p')\n    -&gt;from('...\\Player', 'p')\n    -&gt;getQuery()\n    -&gt;getResult()\n;\n\n$players = new ArrayCollection($result);\n</code></pre>\n",
+      "owner": {
+        "display_name": "chriswoodford",
+        "link": "https://stackoverflow.com/users/250198/chriswoodford"
+      }
+    },
+    {
+      "answer_id": 12081635,
+      "body": "<p>Although your solution work fine with MySQL, I failed to make it work with PostgreSQL as It's sequence based.</p>\n<p>I've to add this line to make it work perfectly :</p>\n<p><code>$metadata-&gt;setIdGenerator(new \\Doctrine\\ORM\\Id\\AssignedGenerator());</code></p>\n",
+      "owner": {
+        "display_name": "nicolasbui",
+        "link": "https://stackoverflow.com/users/1076422/nicolasbui"
+      }
+    },
+    {
+      "answer_id": 19400610,
+      "body": "<p>You can add <a href=\"https://github.com/beberlei/DoctrineExtensions\" rel=\"noreferrer\">Doctrine extension</a> so you can use the MySql <code>YEAR</code> and <code>MONTH</code> statement by adding this configuration if you're on Symfony:</p>\n\n<pre><code>doctrine:\n    orm:\n        dql:\n            string_functions:\n                MONTH: DoctrineExtensions\\Query\\Mysql\\Month\n                YEAR: DoctrineExtensions\\Query\\Mysql\\Year\n</code></pre>\n\n<p>now you can use the MONTH and YEAR statements in your DQL or querybuilder.</p>\n\n<p>Note: The extension supports MySQL, Oracle, PostgreSQL and SQLite.</p>\n",
+      "owner": {
+        "display_name": "alex88",
+        "link": "https://stackoverflow.com/users/690839/alex88"
+      }
+    },
+    {
+      "answer_id": 14029064,
+      "body": "<p>Check the <a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/basic-mapping.html#identifiers-primary-keys\" rel=\"noreferrer\">latest doctrine documentation</a></p>\n<p>Here is a summary :\nthe list of possible generation strategies:</p>\n<p><strong>AUTO (default)</strong>: Tells Doctrine to pick the strategy that is preferred by the used database platform. The preferred strategies are <code>IDENTITY</code> for MySQL, SQLite and MsSQL and <code>SEQUENCE</code> for Oracle and PostgreSQL. This strategy provides full portability.</p>\n<p><strong>SEQUENCE:</strong> Tells Doctrine to use a database sequence for <code>ID</code> generation. This strategy does currently not provide full portability. Sequences are supported by Oracle and PostgreSql and SQL Anywhere.</p>\n<p><strong>IDENTITY:</strong> Tells Doctrine to use special identity columns in the database that generate a value on insertion of a row. This strategy does currently not provide full portability and is supported by the following platforms:</p>\n<ul>\n<li>MySQL/SQLite/SQL Anywhere =&gt; <code>AUTO_INCREMENT</code></li>\n<li>MSSQL =&gt; <code>IDENTITY</code></li>\n<li>PostgreSQL =&gt; <code>SERIAL</code></li>\n</ul>\n<p><strong>TABLE:</strong> Tells Doctrine to use a separate table for <code>ID</code> generation. This strategy provides full portability. <em>This strategy is not yet implemented!</em></p>\n<p><strong>NONE:</strong> Tells Doctrine that the identifiers are assigned, and thus generated, by your code. The assignment must take place before a new entity is passed to EntityManager#persist. <code>NONE</code> is the same as leaving off the <code>@GeneratedValue</code> entirely.</p>\n<h3>SINCE VERSION 2.3 :</h3>\n<p><strong>UUID:</strong> Tells Doctrine to use the built-in Universally Unique Identifier generator. This strategy provides full portability.</p>\n",
+      "owner": {
+        "display_name": "BADAOUI Mohamed",
+        "link": "https://stackoverflow.com/users/1921639/badaoui-mohamed"
+      }
+    },
+    {
+      "answer_id": 8365059,
+      "body": "<p>The equivalent of MySQL's <code>NOW()</code> is Doctrine DQL's <strong><code>CURRENT_TIMESTAMP()</code></strong>.</p>\n\n<p><code>CURRENT_DATE()</code> only returns the date part.</p>\n\n<p>Reference: <a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/2.7/reference/dql-doctrine-query-language.html#line-number-c2439321397191dde881faa94a3a33ab0aeff984-14\" rel=\"noreferrer\">DQL date/time related functions</a></p>\n",
+      "owner": {
+        "display_name": "BenMorel",
+        "link": "https://stackoverflow.com/users/759866/benmorel"
+      }
+    },
+    {
+      "answer_id": 7694056,
+      "body": "<p>You can but you will loose portability. Use <code>columnDefinition</code> attribute and set it to <code>integer unsigned</code>. The actual code depends on what you are using.</p>\n\n<blockquote>\n  <p>columnDefinition: DDL SQL snippet that starts after the column name\n  and specifies the complete (non-portable!) column definition. This\n  attribute allows to make use of advanced RMDBS features. However you\n  should make careful use of this feature and the consequences.\n  SchemaTool will not detect changes on the column correctly anymore if\n  you use “columnDefinition”.</p>\n</blockquote>\n\n<p>Doctrine reference: <a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/latest/reference/annotations-reference.html#column\" rel=\"nofollow noreferrer\">https://www.doctrine-project.org/projects/doctrine-orm/en/latest/reference/annotations-reference.html#column</a></p>\n",
+      "owner": {
+        "display_name": "gremo",
+        "link": "https://stackoverflow.com/users/220180/gremo"
+      }
+    },
+    {
+      "answer_id": 35463959,
+      "body": "<p>tl;dr:</p>\n\n<ul>\n<li>If and only if you want to go the whole functional test route, then I recommend looking up <a href=\"https://stackoverflow.com/a/12508889/457268\">Sgoettschkes's answer</a>.</li>\n<li>If you want to unit test your application and have to test code that interacts with the database, either read on or jump directly to <a href=\"https://symfony.com/doc/2.8/testing/database.html\" rel=\"nofollow noreferrer\">symfony2 docs</a><br /> (There is a more up-to-date version also talking about <a href=\"http://symfony.com/doc/current/cookbook/testing/database.html\" rel=\"nofollow noreferrer\">testing with fixtures for symfony5</a>)</li>\n</ul>\n\n<p><hr>\nThere were certain aspects in my original question that make it clear that my understanding of the differences between unit testing and functional tests was lacking. (As I have written I want to unit test the application, yet was also talking about Controller test at the same time; and those are functional test by defintion).</p>\n\n<p>Unit testing only makes sense for services and not for repositories. And those services can use mocks of the entity manager. (I would even go as far as to say: If possible, write services that only expect entities to be passed into them. Then you only need to create mocks of those entities and your unit-tests of your business logic become very straightforward.)</p>\n\n<p>My actual use case for my application was pretty well reflected on the symfony2 docs on <a href=\"https://symfony.com/doc/2.8/testing/database.html\" rel=\"nofollow noreferrer\">how to test code that interacts with the database</a>.</p>\n\n<p>They provide this example for a service test:</p>\n\n<p>Service class:</p>\n\n<pre><code>use Doctrine\\Common\\Persistence\\ObjectManager;\n\nclass SalaryCalculator\n{\n    private $entityManager;\n\n    public function __construct(ObjectManager $entityManager)\n    {\n        $this-&gt;entityManager = $entityManager;\n    }\n\n    public function calculateTotalSalary($id)\n    {\n        $employeeRepository = $this-&gt;entityManager\n            -&gt;getRepository('AppBundle:Employee');\n        $employee = $employeeRepository-&gt;find($id);\n\n        return $employee-&gt;getSalary() + $employee-&gt;getBonus();\n    }\n}\n</code></pre>\n\n<p>Service test class:</p>\n\n<pre><code>namespace Tests\\AppBundle\\Salary;\n\nuse AppBundle\\Salary\\SalaryCalculator;\nuse AppBundle\\Entity\\Employee;\nuse Doctrine\\ORM\\EntityRepository;\nuse Doctrine\\Common\\Persistence\\ObjectManager;\n\nclass SalaryCalculatorTest extends \\PHPUnit_Framework_TestCase\n{\n    public function testCalculateTotalSalary()\n    {\n        // First, mock the object to be used in the test\n        $employee = $this-&gt;getMock(Employee::class);\n        $employee-&gt;expects($this-&gt;once())\n            -&gt;method('getSalary')\n            -&gt;will($this-&gt;returnValue(1000));\n        $employee-&gt;expects($this-&gt;once())\n            -&gt;method('getBonus')\n            -&gt;will($this-&gt;returnValue(1100));\n\n        // Now, mock the repository so it returns the mock of the employee\n        $employeeRepository = $this\n            -&gt;getMockBuilder(EntityRepository::class)\n            -&gt;disableOriginalConstructor()\n            -&gt;getMock();\n        $employeeRepository-&gt;expects($this-&gt;once())\n            -&gt;method('find')\n            -&gt;will($this-&gt;returnValue($employee));\n\n        // Last, mock the EntityManager to return the mock of the repository\n        $entityManager = $this\n            -&gt;getMockBuilder(ObjectManager::class)\n            -&gt;disableOriginalConstructor()\n            -&gt;getMock();\n        $entityManager-&gt;expects($this-&gt;once())\n            -&gt;method('getRepository')\n            -&gt;will($this-&gt;returnValue($employeeRepository));\n\n        $salaryCalculator = new SalaryCalculator($entityManager);\n        $this-&gt;assertEquals(2100, $salaryCalculator-&gt;calculateTotalSalary(1));\n    }\n}\n</code></pre>\n\n<p>No test database required for those kind of test, only mocking.</p>\n\n<p>As it is important to test the business logic, not the persistence layer.</p>\n\n<p>Only for functional tests does it make sense to have its own test database that one should build and tear down afterwards, and the big question should be: </p>\n\n<p>When do functional test make sense?</p>\n\n<p>I used to think that <em>test all the things</em> is the right answer; yet after working with lots of legacy software that in itself was barely test-driven developed I have become a bit more <s>lazy</s>pragmatic and consider certain functionality as working until proven otherwise by a bug.</p>\n\n<p>Assume I have an application that parses an XML, creates an object out of it, and stores those objects into a database. If the logic that stores the objects to the database is known to work (as in: the company requires the data and is, as of yet, not broke), and even if that logic is a big ugly pile of crap, there is no <em>imminent</em> need to test that. As all I need to make sure that my XML parser extracts the right data. I can infer from experience that the right data will be stored.</p>\n\n<p>There are scenarios where functional test are quite important, i.e. if one were to write an online shop. There it would be business critical that bought items get stored into the database and here functional tests with the whole test database make absolute sense.</p>\n",
+      "owner": {
+        "display_name": "k0pernikus",
+        "link": "https://stackoverflow.com/users/457268/k0pernikus"
+      }
+    },
+    {
+      "answer_id": 5992273,
+      "body": "<p>I think that you should use <a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/latest/reference/dql-doctrine-query-language.html#get-all-instances-of-a-specific-type\" rel=\"noreferrer\">INSTANCE OF</a></p>\n",
+      "owner": {
+        "display_name": "Koc",
+        "link": "https://stackoverflow.com/users/384812/koc"
+      }
+    },
+    {
+      "answer_id": 9215880,
+      "body": "<p>Something like:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>$qb = $entityManager-&gt;createQueryBuilder();\n$qb-&gt;select('count(account.id)');\n$qb-&gt;from('ZaysoCoreBundle:Account','account');\n\n$count = $qb-&gt;getQuery()-&gt;getSingleScalarResult();\n</code></pre>\n\n<p>Some folks feel that expressions are somehow better than just using straight DQL. One even went so far as to edit a four year old answer. I rolled his edit back. Go figure.</p>\n",
+      "owner": {
+        "display_name": "Cerad",
+        "link": "https://stackoverflow.com/users/1146363/cerad"
+      }
+    },
+    {
+      "answer_id": 30741471,
+      "body": "<p>Don't use preUpdate, use <a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/events.html#onflush\" rel=\"noreferrer\">onFlush</a> - this allows you to access the UnitOfWork API &amp; you can then persist entities.</p>\n\n<p>E.g. (this is how I do it in 2.3, might be changed in newer versions)</p>\n\n<pre><code>    $this-&gt;getEntityManager()-&gt;persist($entity);\n    $metaData = $this-&gt;getEntityManager()-&gt;getClassMetadata($className);\n    $this-&gt;getUnitOfWork()-&gt;computeChangeSet($metaData, $entity);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Richard",
+        "link": "https://stackoverflow.com/users/3920536/richard"
+      }
+    },
+    {
+      "answer_id": 14942242,
+      "body": "<p>Actually, using Doctrine does not make sense at all to do something like you suggested.</p>\n\n<p>Doctrine is a ORM (Object-Relational Mapping) tool. It means that you want to abstract the database from your PHP code, you delegate database stuff to Doctrine. Doctrine does a wonderful job on that area.</p>\n\n<p>As you want to keep your customers/peers updated with the latest version of the model, you should use the Doctrine Migrations ( <a href=\"http://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html\" rel=\"noreferrer\">http://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html</a> ). That's the way to manage database updates. Moreover, it gives you complete control on what to do when upgrading/downgrading the database. You could, e.g., set default values before you add the FK.</p>\n\n<p>The steps for adding a new property on the class should be:</p>\n\n<p><strong>For Symfony 2:</strong></p>\n\n<ul>\n<li><p>modify the class by:</p>\n\n<ul>\n<li><p>Acme\\MyBundle\\Entity\\Customer and add the property you want;</p>\n\n<p><code>Acme\\MyBundle\\Entity\\Customer</code></p></li>\n<li><p>or modify the doctrine file: </p>\n\n<p><code>Acme/MyBundle/Resources/config/doctrine/customer.yml</code></p></li>\n</ul></li>\n<li><p>run the console command (it will add the proper set/get in the class)</p>\n\n<p><code>php app/console doctrine:generate:entities AcmeMyBundle:Customer</code></p></li>\n<li><p>run the console command</p>\n\n<p><code>php app/console doctrine:migrations:diff</code></p></li>\n<li><p>run the console command (it will place a new file on app/DoctrineMigrations)</p>\n\n<p><code>php app/console doctrine:migrations:migrate</code></p></li>\n</ul>\n\n<p>When you're deploying the new version of the code, all you got to do is update the source code and run the command above.</p>\n\n<p><strong>For Symfony 3:</strong></p>\n\n<ul>\n<li><p>modify the class by:</p>\n\n<ul>\n<li><p>Acme\\MyBundle\\Entity\\Customer and add the property you want;</p>\n\n<p><code>Acme\\MyBundle\\Entity\\Customer</code></p></li>\n<li><p>or modify the doctrine file: </p>\n\n<p><code>Acme/MyBundle/Resources/config/doctrine/customer.yml</code></p></li>\n</ul></li>\n<li><p>run the console command (it will add the proper set/get in the class)</p>\n\n<p><code>php bin/console doctrine:generate:entities AcmeMyBundle:Customer</code></p></li>\n<li><p>run the console command (update database)</p>\n\n<p><code>php bin/console doctrine:schema:update --force</code></p></li>\n</ul>\n",
+      "owner": {
+        "display_name": "P. R. Ribeiro",
+        "link": "https://stackoverflow.com/users/282902/p-r-ribeiro"
+      }
+    },
+    {
+      "answer_id": 9057705,
+      "body": "<p>You can use\n<code>Doctrine\\ORM\\EntityManager#getUnitOfWork</code> to get a <code>Doctrine\\ORM\\UnitOfWork</code>.</p>\n\n<p>Then just trigger changeset computation (works only on managed entities) via <code>Doctrine\\ORM\\UnitOfWork#computeChangeSets()</code>.</p>\n\n<p>You can use also similar methods like <code>Doctrine\\ORM\\UnitOfWork#recomputeSingleEntityChangeSet(Doctrine\\ORM\\ClassMetadata $meta, $entity)</code> if you know exactly what you want to check without iterating over the entire object graph.</p>\n\n<p>After that you can use <code>Doctrine\\ORM\\UnitOfWork#getEntityChangeSet($entity)</code> to retrieve all changes to your object.</p>\n\n<p>Putting it together:</p>\n\n<pre><code>$entity = $em-&gt;find('My\\Entity', 1);\n$entity-&gt;setTitle('Changed Title!');\n$uow = $em-&gt;getUnitOfWork();\n$uow-&gt;computeChangeSets(); // do not compute changes if inside a listener\n$changeset = $uow-&gt;getEntityChangeSet($entity);\n</code></pre>\n\n<p><strong>Note.</strong> If trying to get the updated fields <strong>inside a preUpdate listener</strong>, don't recompute change set, as it has already been done. Simply call the getEntityChangeSet to get all of the changes made to the entity.</p>\n\n<p><strong>Warning:</strong> As explained in the comments, this solution should not be used outside of Doctrine event listeners. This will break Doctrine's behavior.</p>\n",
+      "owner": {
+        "display_name": "Ocramius",
+        "link": "https://stackoverflow.com/users/347063/ocramius"
+      }
+    },
+    {
+      "answer_id": 17323770,
+      "body": "<ol>\n<li>You can call <code>$this-&gt;setCreatedAt(new \\DateTime())</code> in <code>__construct</code> method.</li>\n<li>You can use <a href=\"http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/events.html#lifecycle-events\" rel=\"noreferrer\">Life Cycle Callbacks</a></li>\n</ol>\n\n<pre class=\"lang-php prettyprint-override\"><code>/**\n * @ORM\\PrePersist\n * @ORM\\PreUpdate\n*/\npublic function updatedTimestamps(): void\n{\n    $this-&gt;setUpdatedAt(new \\DateTime('now'));    \n    if ($this-&gt;getCreatedAt() === null) {\n        $this-&gt;setCreatedAt(new \\DateTime('now'));\n    }\n}\n</code></pre>\n\n<p>And don't forget to add into entity class notation:\n<code>@ORM\\HasLifecycleCallbacks</code></p>\n",
+      "owner": {
+        "display_name": "oroshnivskyy",
+        "link": "https://stackoverflow.com/users/2381611/oroshnivskyy"
+      }
+    },
+    {
+      "answer_id": 6638146,
+      "body": "<p>This is how I would try it:</p>\n\n<pre><code>/** @var Doctrine\\ORM\\EntityManager $em */\n$expr = $em-&gt;getExpressionBuilder();\n$em-&gt;createQueryBuilder()\n   -&gt;select(array('DISTINCT i.id', 'i.name', 'o.name'))\n   -&gt;from('Item', 'i')\n   -&gt;join('i.order', 'o')\n   -&gt;where(\n       $expr-&gt;in(\n           'o.id',\n           $em-&gt;createQueryBuilder()\n               -&gt;select('o2.id')\n               -&gt;from('Order', 'o2')\n               -&gt;join('Item', \n                      'i2', \n                      \\Doctrine\\ORM\\Query\\Expr\\Join::WITH, \n                      $expr-&gt;andX(\n                          $expr-&gt;eq('i2.order', 'o2'),\n                          $expr-&gt;eq('i2.id', '?1')\n                      )\n               )\n               -&gt;getDQL()\n       )\n   )\n   -&gt;andWhere($expr-&gt;neq('i.id', '?2'))\n   -&gt;orderBy('o.orderdate', 'DESC')\n   -&gt;setParameter(1, 5)\n   -&gt;setParameter(2, 5)\n   ;\n</code></pre>\n\n<p>I didn't test this of course, and made some assumptions about your models. Possible problems:</p>\n\n<ul>\n<li>Limit: this has been somewhat of a problem in Doctrine 2, it seems query builder is not very good at accepting limits. Do take a look <a href=\"http://www.doctrine-project.org/docs/orm/2.0/en/reference/dql-doctrine-query-language.html#first-and-max-result-items-dql-query-only\" rel=\"noreferrer\">here</a>, <a href=\"http://www.doctrine-project.org/docs/orm/2.0/en/reference/batch-processing\" rel=\"noreferrer\">here</a> and <a href=\"http://www.doctrine-project.org/docs/orm/2.0/en/cookbook/dql-custom-walkers.html\" rel=\"noreferrer\">here</a>.</li>\n<li>The IN clause is usually used with an array, but I think it will work with a subquery.</li>\n<li>You probably can use the same parameter ?1, instead of two parameters (because they're the same value), but I'm not sure.</li>\n</ul>\n\n<p>Concluding, this may not work first time, but will surely put you on the right track. Do tell us the final 100% correct answer afterwards.</p>\n",
+      "owner": {
+        "display_name": "faken",
+        "link": "https://stackoverflow.com/users/605790/faken"
+      }
+    },
+    {
+      "answer_id": 11168501,
+      "body": "<p>In the Doctrine2 documentation \"<a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/working-with-associations.html#transitive-persistence-cascade-operations\" rel=\"noreferrer\">9.6. Transitive persistence / Cascade Operations</a>\" there are few examples of how you should configure your entities so that when you persist $article, the $topic would be also persisted. In your case I'd suggest this annotation for Topic entity:</p>\n\n<pre><code>/**\n * @OneToMany(targetEntity=\"Article\", mappedBy=\"topic\", cascade={\"persist\", \"remove\"})\n */\n private $articles;  \n</code></pre>\n\n<p>The drawback of this solution is that you have to include $articles collection to Topic entity, but you can leave it private without getter/setter.</p>\n\n<p>And as @kurt-krueckeberg mentioned, you must pass the real Topic entity when creating new Article, i.e.:</p>\n\n<pre><code>$topic = $em-&gt;getRepository('Entity\\Topic')-&gt;find($id);\n$article = new Article($topic);\n$em-&gt;persist($article);\n$em-&gt;flush();\n\n// perhaps, in this case you don't even need to configure cascade operations\n</code></pre>\n\n<p>Good luck!</p>\n",
+      "owner": {
+        "display_name": "Serhii Sokolenko",
+        "link": "https://stackoverflow.com/users/131337/serhii-sokolenko"
+      }
+    },
+    {
+      "answer_id": 52427915,
+      "body": "<p>You can do</p>\n\n<pre><code>$em-&gt;getRepository(Entity::class)-&gt;findBy(array('id' =&gt; $idList));\n</code></pre>\n",
+      "owner": {
+        "display_name": "No&#233;mi Sala&#252;n",
+        "link": "https://stackoverflow.com/users/2459831/no%c3%a9mi-sala%c3%bcn"
+      }
+    },
+    {
+      "answer_id": 12650998,
+      "body": "<p>Answer the question:</p>\n\n<pre><code>use Doctrine\\ORM\\Mapping\\UniqueConstraint;\n\n/**\n * Common\\Model\\Entity\\VideoSettings\n *\n * @Table(name=\"video_settings\", \n *    uniqueConstraints={\n *        @UniqueConstraint(name=\"video_unique\", \n *            columns={\"video_dimension\", \"video_bitrate\"})\n *    }\n * )\n * @Entity\n */\n</code></pre>\n\n<p>See <a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/annotations-reference.html#annref_uniqueconstraint\" rel=\"noreferrer\">@UniqueConstraint</a></p>\n",
+      "owner": {
+        "display_name": "Nikoole",
+        "link": "https://stackoverflow.com/users/1386740/nikoole"
+      }
+    },
+    {
+      "answer_id": 17649661,
+      "body": "<p>EDIT: As said by @Andrew Atkinson, it seems</p>\n\n<pre><code>EntityManager-&gt;contains($entity)\n</code></pre>\n\n<p>is the preferred way now.</p>\n\n<p>Previous answer: You have to use UnitOfWork api like this:</p>\n\n<pre><code>$isPersisted = \\Doctrine\\ORM\\UnitOfWork::STATE_MANAGED === $entityManager-&gt;getUnitOfWork()-&gt;getEntityState($entity);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Florian Klein",
+        "link": "https://stackoverflow.com/users/244058/florian-klein"
+      }
+    },
+    {
+      "answer_id": 7404238,
+      "body": "<p>There is no statement like LIMIT for DQL currently, as far as I know.</p>\n\n<p>You have to use <a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/query-builder.html#limiting-the-result\" rel=\"noreferrer\">Query::setMaxResults()</a>.</p>\n",
+      "owner": {
+        "display_name": "Raffael",
+        "link": "https://stackoverflow.com/users/562440/raffael"
+      }
+    },
+    {
+      "answer_id": 16596178,
+      "body": "<p>For your problem <code>simple_array</code> is the right way, the right way may also create seven boolean fields.</p>\n\n<p>However here's a little vademecum:</p>\n\n<p>The best way to see how a type works in doctrine is to read the code of the type, this is because there are several details that are taken for granted or are not really explained in the documentation.</p>\n\n<p>So you can go into</p>\n\n<pre><code>/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/Type.php\n</code></pre>\n\n<p>find your type and check if its methods work as you want.</p>\n\n<p>Here some details:</p>\n\n<h2>simple_array</h2>\n\n<p>in <code>/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/SimpleArrayType.php</code></p>\n\n<pre><code>return implode(',', $value);\n</code></pre>\n\n<p>it's just a <code>implode()</code>/<code>explode()</code> of items, stores only the values and it's useful because you can easily query the database.</p>\n\n<h2>array</h2>\n\n<p>in <code>/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/ArrayType.php</code></p>\n\n<pre><code>return serialize($value);\n</code></pre>\n\n<p>calls PHP to <code>serialize()</code>/<code>unserialize()</code>, it's faster than <code>json_array</code>. Looking at the code I think it also works with objects. Obviously if you see the field as plain text it's uncomprensible.</p>\n\n<h2>json_array</h2>\n\n<p>in <code>/vendor/doctrine/dbal/lib/Doctrine/DBAL/Types/JsonArrayType.php</code></p>\n\n<pre><code>return json_encode($value);\n</code></pre>\n\n<p>it calls <code>json_encode()</code>/<code>json_decode()</code>, if you look in the field you can see a unformatted JSON array but it's more readable than PHP's serialized object and is really more portable (JSON exists everywhere).</p>\n\n<p><strong>June 2018 update</strong></p>\n\n<ul>\n<li>now there is a complete and more updated documentation <a href=\"https://www.doctrine-project.org/projects/doctrine-dbal/en/2.7/reference/types.html\" rel=\"noreferrer\">here</a></li>\n<li>json_array is deprecated in favor of json type, it will leverage on new database features for json fields</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Marino Di Clemente",
+        "link": "https://stackoverflow.com/users/1681624/marino-di-clemente"
+      }
+    },
+    {
+      "answer_id": 11913896,
+      "body": "<p>Replace <strong>var_dump()</strong> with the debug method <strong><a href=\"https://www.doctrine-project.org/api/common/latest/Doctrine/Common/Util/Debug.html\" rel=\"noreferrer\">dump()</a></strong> provided by <a href=\"https://www.doctrine-project.org/api/common/latest/Doctrine/Common.html\" rel=\"noreferrer\">Doctrine Common</a>.</p>\n\n<pre><code>\\Doctrine\\Common\\Util\\Debug::dump($user);\n</code></pre>\n\n<p>It works for single objects and Doctrine collections and should prevent browser displaying issues you are having.</p>\n",
+      "owner": {
+        "display_name": "mgiagnoni",
+        "link": "https://stackoverflow.com/users/1577240/mgiagnoni"
+      }
+    },
+    {
+      "answer_id": 12495834,
+      "body": "<ul>\n<li><strong>mappedBy</strong> has to be specified on the <em>inversed side</em> of a (bidirectional) association</li>\n<li><strong>inversedBy</strong> has to be specified on the <em>owning side</em> of a (bidirectional) association</li>\n</ul>\n\n<p>from doctrine documentation:</p>\n\n<ul>\n<li>ManyToOne is always the owning side of a bidirectional assocation.</li>\n<li>OneToMany is always the inverse side of a bidirectional assocation.</li>\n<li>The owning side of a OneToOne assocation is the entity with the table containing the foreign key.</li>\n</ul>\n\n<p>See <a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/latest/reference/unitofwork-associations.html\" rel=\"noreferrer\">https://www.doctrine-project.org/projects/doctrine-orm/en/latest/reference/unitofwork-associations.html</a></p>\n",
+      "owner": {
+        "display_name": "Andreas Linden",
+        "link": "https://stackoverflow.com/users/412395/andreas-linden"
+      }
+    },
+    {
+      "answer_id": 6140162,
+      "body": "<p><a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/annotations-reference.html#annref_joincolumn\" rel=\"noreferrer\">https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/annotations-reference.html#annref_joincolumn</a></p>\n\n<p>Add <code>nullable = false</code> to the <code>JoinColumn</code> annotation:</p>\n\n<pre><code>@ORM\\JoinColumn(..., nullable=false)\n</code></pre>\n",
+      "owner": {
+        "display_name": "zim32",
+        "link": "https://stackoverflow.com/users/771453/zim32"
+      }
+    },
+    {
+      "answer_id": 9071208,
+      "body": "<p>Try cloning and add the following method to your entity</p>\n\n<pre><code>public function __clone() {\n    $this-&gt;id = null;\n}\n</code></pre>\n\n<p>You may need to <a href=\"https://www.doctrine-project.org/projects/doctrine-orm/en/latest/reference/working-with-objects.html#detaching-entities\" rel=\"noreferrer\">detach</a> the entity before persisting it. I don't have my dev machine handy to test this right now.</p>\n\n<pre><code>$f = clone $e;\n$em-&gt;detach($f);\n$em-&gt;persist($f);\n$em-&gt;flush();\n</code></pre>\n\n<h2>Update</h2>\n\n<p>Just tried using a simple SQLite demo. You shouldn't need to do anything. The following worked for me without adding a <code>__clone()</code> method or doing anything else out of the ordinary</p>\n\n<pre><code>$new = clone $old;\n$em-&gt;persist($new);\n$em-&gt;flush();\n</code></pre>\n\n<p>Once flushed, the <code>$new</code> entity had a new ID and was saved as a new row in the DB.</p>\n\n<p>I would still null the ID property via the <code>__clone()</code> method as it makes sense from a pure model view.</p>\n\n<h2>Update 2</h2>\n\n<p>Digging into the Doctrine code, this is because the generated proxy classes implement <code>__clone()</code> with this important line</p>\n\n<pre><code>unset($this-&gt;_entityPersister, $this-&gt;_identifier);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Phil",
+        "link": "https://stackoverflow.com/users/283366/phil"
+      }
+    },
+    {
+      "answer_id": 10800481,
+      "body": "<p>The first thing I'd check it that your <em>setName</em> function is actually doing something ($this-> name = $name...) If it's already working, then you could define an event listener on your services.yml that is triggered when you call the flush.</p>\n\n<pre><code>entity.listener:\n  class: YourName\\YourBundle\\EventListener\\EntityListener\n  calls:\n    - [setContainer,  [\"@service_container\"]]\n  tags:\n    - { name: doctrine.event_listener, event: onFlush }\n</code></pre>\n\n<p>Then you define the EntityListener</p>\n\n<pre><code>namespace YourName\\YourBundle\\EventListener;\n\nuse Doctrine\\ORM\\Event;\nuse Symfony\\Component\\DependencyInjection\\ContainerAware;\n\nclass EntityListener extends ContainerAware\n{   \n\n    /**\n     * Gets all the entities to flush\n     *\n     * @param Event\\OnFlushEventArgs $eventArgs Event args\n     */\n    public function onFlush(Event\\OnFlushEventArgs $eventArgs)\n    {   \n        $em = $eventArgs-&gt;getEntityManager();\n        $uow = $em-&gt;getUnitOfWork();\n\n        //Insertions\n        foreach ($uow-&gt;getScheduledEntityInsertions() as $entity) {\n            # your code here for the inserted entities\n        }\n\n        //Updates\n        foreach ($uow-&gt;getScheduledEntityUpdates() as $entity) {\n            # your code here for the updated entities\n        }\n\n        //Deletions\n        foreach ($uow-&gt;getScheduledEntityDeletions() as $entity) {\n            # your code here for the deleted entities\n        }\n    }\n}\n</code></pre>\n\n<p>If you need to know which entities are being changed, but do something with them <em>after</em> they've been saved to the database, just store the entities changed in a private array, an then define a onFlush event that gets the entities from the array.</p>\n\n<p>BTW, to trigger this kind of events you need to add the @ORM\\HasLifecycleCallbacks on the entity.</p>\n",
+      "owner": {
+        "display_name": "Sergi",
+        "link": "https://stackoverflow.com/users/210404/sergi"
+      }
+    },
+    {
+      "answer_id": 13969241,
+      "body": "<h3>PHP &lt; 5.5</h3>\n\n<p>You can use <code>array_map</code>, and since you only have on item per array, you can elegantly use \n<code>'current'</code> as callback, instead of writing a <a href=\"https://stackoverflow.com/a/11685062/2943194\">closure</a>.</p>\n\n<pre><code>$result = $em-&gt;createQuery(\"SELECT a.id FROM Auction a\")-&gt;getScalarResult();\n$ids = array_map('current', $result);\n</code></pre>\n\n<blockquote>\n  <p>See <a href=\"https://stackoverflow.com/a/22424012/133717\">Petr Sobotka's answer below</a> for additional info regarding memory usage. </p>\n</blockquote>\n\n<h3>PHP >= 5.5</h3>\n\n<p>As <a href=\"https://stackoverflow.com/a/26061738/133717\">jcbwlkr's answered below</a>, the recommended way it to use <code>array_column</code>.</p>\n",
+      "owner": {
+        "display_name": "Lionel Gaillard",
+        "link": "https://stackoverflow.com/users/692705/lionel-gaillard"
+      }
+    },
+    {
+      "answer_id": 17120087,
+      "body": "<p>As @Lighthart as shown, yes it's possible, although it adds significant fat to the controller and isn't DRY.</p>\n\n<p>You should really define your own query in the entity repository, it's simple and best practice.</p>\n\n<pre><code>use Doctrine\\ORM\\EntityRepository;\n\nclass UserRepository extends EntityRepository\n{\n    public function findAll()\n    {\n        return $this-&gt;findBy(array(), array('username' =&gt; 'ASC'));\n    }\n}\n</code></pre>\n\n<p>Then you must tell your entity to look for queries in the repository:</p>\n\n<pre><code>/**\n * @ORM\\Table(name=\"User\")\n * @ORM\\Entity(repositoryClass=\"Acme\\UserBundle\\Entity\\Repository\\UserRepository\")\n */\nclass User\n{\n    ...\n}\n</code></pre>\n\n<p>Finally, in your controller:</p>\n\n<pre><code>$this-&gt;getDoctrine()-&gt;getRepository('AcmeBundle:User')-&gt;findAll();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Pier-Luc Gendreau",
+        "link": "https://stackoverflow.com/users/1779688/pier-luc-gendreau"
+      }
+    },
+    {
+      "answer_id": 35752268,
+      "body": "<p>You can catch the <a href=\"https://github.com/doctrine/dbal/blob/master/lib/Doctrine/DBAL/Exception/UniqueConstraintViolationException.php\" rel=\"noreferrer\"><code>UniqueConstraintViolationException</code></a> as such:</p>\n\n<pre><code>use Doctrine\\DBAL\\Exception\\UniqueConstraintViolationException;\n\n// ...\n\ntry {\n   // ...\n   $em-&gt;flush();\n}\ncatch (UniqueConstraintViolationException $e) {\n    // ....\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "DonCallisto",
+        "link": "https://stackoverflow.com/users/814253/doncallisto"
+      }
+    },
+    {
+      "answer_id": 10762751,
+      "body": "<p>The Doctrine team <a href=\"https://github.com/doctrine/doctrine2/issues/5479\" rel=\"noreferrer\">is not willing to implement this feature</a>.</p>\n\n<p>There are several solutions to your problem, each having its own drawbacks:</p>\n\n<ul>\n<li>Add a <a href=\"http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/cookbook/dql-user-defined-functions.html\" rel=\"noreferrer\">custom numeric function</a>: see this <a href=\"https://gist.github.com/919465\" rel=\"noreferrer\">DQL RAND() function</a> <br />\n(might be slow if you have lots of matching rows)</li>\n<li>Use a <a href=\"http://docs.doctrine-project.org/en/latest/reference/native-sql.html\" rel=\"noreferrer\">native query</a> <br />\n(I personally try to avoid this solution, which I found hard to maintain)</li>\n<li>Issue a raw SQL query first to get some IDs randomly, then use the DQL <code>WHERE x.id IN(?)</code> to load the associated objects, by passing the array of IDs as a parameter.<br />\nThis solution involves two separate queries, but <em>might</em> give better performance than the first solution (other raw SQL techniques than <code>ORDER BY RAND()</code> exist, I won't detail them here, you'll find some good resources on this website).</li>\n</ul>\n",
+      "owner": {
+        "display_name": "BenMorel",
+        "link": "https://stackoverflow.com/users/759866/benmorel"
+      }
+    },
+    {
+      "answer_id": 19189240,
+      "body": "<p>You can try this :</p>\n\n<pre><code>use Doctrine\\ORM\\Query\\Expr;\n\n-&gt;leftJoin('a.installations', 'i', Expr\\Join::WITH, 'i.page = :page')\n-&gt;setParameter('page', $page)\n</code></pre>\n\n<p>See function leftJoin in doc: <a href=\"http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/query-builder.html#high-level-api-methods\" rel=\"noreferrer\">http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/query-builder.html#high-level-api-methods</a></p>\n",
+      "owner": {
+        "display_name": "zapcost",
+        "link": "https://stackoverflow.com/users/2836626/zapcost"
+      }
+    },
+    {
+      "answer_id": 7173364,
+      "body": "<p>If you are using the ORM</p>\n\n<pre><code>$em-&gt;persist($object);\n$em-&gt;flush();\n$object-&gt;getId();\n</code></pre>\n\n<p>if you are using the DBAL:</p>\n\n<pre><code>$conn-&gt;lastInsertId();\n</code></pre>\n\n<p><a href=\"http://www.doctrine-project.org/api/dbal/2.5/class-Doctrine.DBAL.Connection.html#_lastInsertId\" rel=\"noreferrer\">http://www.doctrine-project.org/api/dbal/2.5/class-Doctrine.DBAL.Connection.html#_lastInsertId</a></p>\n",
+      "owner": {
+        "display_name": "Flask",
+        "link": "https://stackoverflow.com/users/448501/flask"
+      }
+    },
+    {
+      "answer_id": 15555495,
+      "body": "<p>You're working with DQL, not SQL, so don't reference the IDs in your condition, reference the object instead.</p>\n\n<p>So your first example would be altered to:</p>\n\n<pre><code>$qb = $em-&gt;createQueryBuilder();\n$qb-&gt;delete('Services', 's');\n$qb-&gt;where('s.project = :project');\n$qb-&gt;setParameter('project', $project);\n</code></pre>\n",
+      "owner": {
+        "display_name": "andyhassall",
+        "link": "https://stackoverflow.com/users/620596/andyhassall"
+      }
+    },
+    {
+      "answer_id": 14158815,
+      "body": "<p>\nYou have to implement a <code>__clone()</code> method in your entities that sets the id to null and clones the relations if desired. Because if you keep the id in the related object it assumes that your new entity <code>A</code> has a relation to the existing entities <code>B</code> and <code>C</code>.</p>\n\n<p>Clone-method for <code>A</code>:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>public function __clone() {\n    if ($this-&gt;id) {\n        $this-&gt;setId(null);\n        $this-&gt;B = clone $this-&gt;B;\n        $this-&gt;C = clone $this-&gt;C;\n    }\n}\n</code></pre>\n\n<p>Clone-method for <code>B</code> and <code>C</code>:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>public function __clone() {\n    if ($this-&gt;id) {\n        $this-&gt;setId(null);\n    }\n}\n</code></pre>\n\n<p><a href=\"https://groups.google.com/forum/?fromgroups=#!topic/doctrine-user/Nu2rayrDkgQ\" rel=\"noreferrer\">https://groups.google.com/forum/?fromgroups=#!topic/doctrine-user/Nu2rayrDkgQ</a></p>\n\n<p><a href=\"https://doctrine-orm.readthedocs.org/en/latest/cookbook/implementing-wakeup-or-clone.html\" rel=\"noreferrer\">https://doctrine-orm.readthedocs.org/en/latest/cookbook/implementing-wakeup-or-clone.html</a></p>\n\n<p>Based on the comment of coder4show a clone-method for a OneToMany relationship on <code>A</code> where <code>$this-&gt;M</code> is OneToMany and therefore an <code>ArrayCollection</code>:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>public function __clone() {\n    if ($this-&gt;id) {\n        $this-&gt;setId(null);\n\n        // cloning the relation M which is a OneToMany\n        $mClone = new ArrayCollection();\n        foreach ($this-&gt;M as $item) {\n            $itemClone = clone $item;\n            $itemClone-&gt;setA($this);\n            $mClone-&gt;add($itemClone);\n        }\n        $this-&gt;M = $mClone;\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "flec",
+        "link": "https://stackoverflow.com/users/1123239/flec"
+      }
+    },
+    {
+      "answer_id": 33095281,
+      "body": "<p>Since you mentioned you don't want to use any other framework, you are only leaving yourself one option: <a href=\"http://php.net/uopz\">uopz</a></p>\n\n<p>uopz is a black magic extension of the runkit-and-scary-stuff genre, intended to help with QA infrastructure.</p>\n\n<p><a href=\"http://php.net/uopz_flags\">uopz_flags</a> is a function that can modify the flags of functions, methods and classes.</p>\n\n<pre><code>&lt;?php\nfinal class Test {}\n\n/** ZEND_ACC_CLASS is defined as 0, just looks nicer ... **/\n\nuopz_flags(Test::class, null, ZEND_ACC_CLASS);\n\n$reflector = new ReflectionClass(Test::class);\n\nvar_dump($reflector-&gt;isFinal());\n?&gt;\n</code></pre>\n\n<p>Will yield</p>\n\n<pre><code>bool(false)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Joe Watkins",
+        "link": "https://stackoverflow.com/users/1658631/joe-watkins"
+      }
+    },
+    {
+      "answer_id": 19815201,
+      "body": "<p>How about using the QueryBuilder class:</p>\n\n<pre><code>$qb = $em-&gt;createQueryBuilder();\n$qb-&gt;select('m');\n$qb-&gt;from('MyEntity', 'm');\n$qb-&gt;where($qb-&gt;expr()-&gt;in('m.id', array(12, 10)));\n\n//ArrayCollection\n$result = $qb-&gt;getQuery()-&gt;getResult();\n</code></pre>\n\n<p>Or DQL:</p>\n\n<pre><code>$query = $em-&gt;createQuery('SELECT m FROM MyTable m WHERE m.id IN(12, 10)');\n</code></pre>\n",
+      "owner": {
+        "display_name": "manix",
+        "link": "https://stackoverflow.com/users/1424329/manix"
+      }
+    },
+    {
+      "answer_id": 20231349,
+      "body": "<p>TL;DR You'll just need to generate your proxy classes manually</p>\n\n<pre><code>vendor/bin/doctrine orm:generate-proxies\n</code></pre>\n\n<p>Doctrine uses Proxies to connect the to database. Proxies are generated from the the Entity classes.</p>\n\n<p>In development mode, it generates a Proxies on every request because you could make changes to Entity classes.</p>\n\n<p>In production mode, it does not generate Proxies every time. For performance reason, it assumes the Proxies exist and include them directly.</p>\n\n<p>There are a few mode for Proxies generation:</p>\n\n<ol>\n<li>ALWAYS - It alwayes generates Proxies, this is the default setting for development mode</li>\n<li>NEVER - It never generates Proxies, this is the default setting for production mode</li>\n<li>ON_DEMAND - It only generates the Proxies if the Proxy files do not exist. The drawback of this option is that it has to call file_exists() every time which could potentially cause a performance issue.</li>\n</ol>\n\n<p>Now the command </p>\n\n<pre><code>vendor/bin/doctrine orm:generate-proxies\n</code></pre>\n\n<p>generates Proxy classes to /tmp. I would say this might still cause trouble because other applications\non your server might delete these files unexpectedlly. One option is you can change your /tmp directory access permission to 1777</p>\n\n<pre><code>sudo chmod 1777 /tmp\n</code></pre>\n\n<p>The stricky bit '1' in front of 777 means that, although everyone can read/write to the /tmp directory, but you can only operate on your own files. i.e. You can't remove files created by other users.</p>\n\n<p>For further reading, please have a look at\n<a href=\"http://docs.doctrine-project.org/en/latest/reference/advanced-configuration.html#auto-generating-proxy-classes-optional\" rel=\"noreferrer\">http://docs.doctrine-project.org/en/latest/reference/advanced-configuration.html#auto-generating-proxy-classes-optional</a></p>\n\n<p>You can also set the Proxies directory to somewhere else so no other applications can modify them. <a href=\"http://docs.doctrine-project.org/en/latest/reference/advanced-configuration.html#autoloading-proxies\" rel=\"noreferrer\">http://docs.doctrine-project.org/en/latest/reference/advanced-configuration.html#autoloading-proxies</a></p>\n",
+      "owner": {
+        "display_name": "Zorji",
+        "link": "https://stackoverflow.com/users/412743/zorji"
+      }
+    },
+    {
+      "answer_id": 26769322,
+      "body": "<p>I resolved this by adding <code>--no-debug</code> to my command. It turns out that in debug mode, the profiler was storing information about every single query in memory.</p>\n",
+      "owner": {
+        "display_name": "Jonathan",
+        "link": "https://stackoverflow.com/users/526495/jonathan"
+      }
+    },
+    {
+      "answer_id": 13823167,
+      "body": "<p>You can add a comment to a column name or entire table with the \"options\" argument to the annotation; eg:</p>\n\n<pre><code>/**\n * @ORM\\Column(type=\"string\", options={\"comment\":\"The string to show in the dropdown \"})\n */\n</code></pre>\n\n<p>for a column, or for a table:</p>\n\n<pre><code>/**\n * @ORM\\Entity\n * @ORM\\Table(name=\"application\", options={\"comment\":\"Funding applications\"});\n */\n</code></pre>\n\n<p>Note however this will not add comments to an existing table or column, you have to delete the table from the DB and rebuild it. If it's just adding comments, you could rename the table, create the new table, and import data from the original.</p>\n\n<p>Source: <a href=\"http://doctrine-orm.readthedocs.org/en/latest/reference/annotations-reference.html#column\" rel=\"noreferrer\">Doctrine documentation</a></p>\n",
+      "owner": {
+        "display_name": "ChrisNY",
+        "link": "https://stackoverflow.com/users/420274/chrisny"
+      }
+    },
+    {
+      "answer_id": 17955934,
+      "body": "<blockquote>\n<p>Do you know now what are the 'important' function to add to be able to upload the photo and rename it?</p>\n</blockquote>\n<p>See the <a href=\"http://symfony.com/doc/current/cookbook/doctrine/file_uploads.html\" rel=\"noreferrer\">official documentation</a> on how to do this. There are good working examples for a simple file upload. Also check the doctrine documentation for <a href=\"http://doctrine-orm.readthedocs.org/en/latest/reference/events.html\" rel=\"noreferrer\">lifecycle callbacks</a>.</p>\n<blockquote>\n<p>How do you check the extension to see if the upload is possible?</p>\n</blockquote>\n<p>There is some HTML-Form validation in each browser. See <a href=\"https://stackoverflow.com/questions/181214/file-input-accept-attribute-is-it-useful\">this question</a> for the HTML <code>accept=&quot;&quot;</code> attribute in <code>input</code> elements. Also in Symfony2 you can <a href=\"http://symfony.com/doc/current/reference/constraints/File.html#mimetypes\" rel=\"noreferrer\">specify the MIME-type</a> of an uploaded file using this annotation:</p>\n<pre><code>/**\n * @Assert\\File(\n *     maxSize = &quot;1024k&quot;,\n *     mimeTypes = {&quot;application/pdf&quot;, &quot;application/x-pdf&quot;},\n *     mimeTypesMessage = &quot;Please upload a valid PDF&quot;\n * )\n */\n</code></pre>\n<p>Even though you did not want to use any bundles I'll have to recommend you the <a href=\"https://github.com/KnpLabs/DoctrineBehaviors\" rel=\"noreferrer\">KnpDoctrineBehavioursBundle</a> which makes file uploading way easier.</p>\n<hr />\n<h2>Step-by-step:</h2>\n<p>Because you read the documentation already I'll give you a step by step code-example.</p>\n<p>First of all you need an entity. Let's call it <code>Image</code>:</p>\n<pre><code>/**\n * Class Image\n *\n * @ORM\\Entity()\n * @ORM\\HasLifecycleCallbacks\n */\nclass Image extends BaseEntity\n{\n</code></pre>\n<p>Note the <code>@ORM\\HasLifecycleCallbacks</code> annotation. It is <strong>very</strong> important and you need it later. We create all the basic fields like <code>ID</code> and what not. Also we need a field to store the file path in:</p>\n<pre><code>    /**\n     * Image path\n     *\n     * @var string\n     *\n     * @ORM\\Column(type=&quot;text&quot;, length=255, nullable=false)\n     */\n    protected $path;\n    \n</code></pre>\n<p>And one for the Image itself. Here we also define the Validation for the images. In my example it has to be <code>5M</code> big and of one of the defined <code>mimeTypes</code>. It should be self-explanatory. Otherwise the <a href=\"http://symfony.com/doc/current/reference/constraints/File.html\" rel=\"noreferrer\">official docs</a> help as always.</p>\n<pre><code>    /**\n     * Image file\n     *\n     * @var File\n     *\n     * @Assert\\File(\n     *     maxSize = &quot;5M&quot;,\n     *     mimeTypes = {&quot;image/jpeg&quot;, &quot;image/gif&quot;, &quot;image/png&quot;, &quot;image/tiff&quot;},\n     *     maxSizeMessage = &quot;The maxmimum allowed file size is 5MB.&quot;,\n     *     mimeTypesMessage = &quot;Only the filetypes image are allowed.&quot;\n     * )\n     */\n    protected $file;\n</code></pre>\n<p>Add all the <code>Getters &amp; Setters</code> and update your database schema with this command:</p>\n<pre><code>php app/console doctrine:schema:update --force\n</code></pre>\n<p>Next we need the <strong>lifecycles</strong>. They are methods in the <code>Entity</code> that are called on certain events. For example the <code>@ORM\\PreUpdate()</code> annotation before a method says that this method is being called right before the entity gets updated.</p>\n<pre><code>/**\n * Called before saving the entity\n * \n * @ORM\\PrePersist()\n * @ORM\\PreUpdate()\n */\npublic function preUpload()\n{   \n    if (null !== $this-&gt;file) {\n        // do whatever you want to generate a unique name\n        $filename = sha1(uniqid(mt_rand(), true));\n        $this-&gt;path = $filename.'.'.$this-&gt;file-&gt;guessExtension();\n    }\n}\n</code></pre>\n<p>Before the entity gets stored or updated this method is called. You can use it to e.g. generate a unique file name.</p>\n<pre><code>/**\n * Called before entity removal\n *\n * @ORM\\PreRemove()\n */\npublic function removeUpload()\n{\n    if ($file = $this-&gt;getAbsolutePath()) {\n        unlink($file); \n    }\n}\n</code></pre>\n<p>Called before the entity gets removed. This gives you time to delete the image from your folders or log a message if you want to.</p>\n<pre><code>/**\n * Called after entity persistence\n *\n * @ORM\\PostPersist()\n * @ORM\\PostUpdate()\n */\npublic function upload()\n{\n    // The file property can be empty if the field is not required\n    if (null === $this-&gt;file) {\n        return;\n    }\n\n    // Use the original file name here but you should\n    // sanitize it at least to avoid any security issues\n\n    // move takes the target directory and then the\n    // target filename to move to\n    $this-&gt;file-&gt;move(\n        $this-&gt;getUploadRootDir(),\n        $this-&gt;path\n    );\n\n    // Set the path property to the filename where you've saved the file\n    //$this-&gt;path = $this-&gt;file-&gt;getClientOriginalName();\n\n    // Clean up the file property as you won't need it anymore\n    $this-&gt;file = null;\n}\n</code></pre>\n<p>This is the important part where your file is actually moved to the right directory. Note that I have used some additional methods. You can all get them from the <a href=\"http://symfony.com/doc/current/cookbook/doctrine/file_uploads.html\" rel=\"noreferrer\">official docs</a>.</p>\n<p>Next thing you need is a form. The form class itself is very simple. Just make sure you set the default <code>data_class</code> like this:</p>\n<pre><code>public function setDefaultOptions(OptionsResolverInterface $resolver)\n{\n    $resolver-&gt;setDefaults(\n        array(\n            'data_class' =&gt; 'FSchubert\\SiyabongaBundle\\Entity\\Image',\n       )\n    );\n}\n</code></pre>\n<p>A file upload field can be created very easily in the <code>buildForm()</code> method:</p>\n<pre><code>$builder-&gt;add('file', 'file');\n</code></pre>\n<p>The methods for your <code>Controller</code> are a little long for just pasting them here and IMHO it's not part of answering your question. There are countless examples out there for writing a proper <code>Controller Action</code> for your purpose.</p>\n<hr />\n<p>More things you have to keep in mind:</p>\n<ul>\n<li>You need to give your <code>app</code> writing permissions to the folders you upload the files to. Although it seems obvious it can be annoying if you have multiple servers you run the application on.</li>\n<li>There is an <code>Image Constraint</code> for your entity as well. You can find it <a href=\"http://symfony.com/doc/current/reference/constraints/Image.html\" rel=\"noreferrer\">here</a>. But since you were talking about a <strong>file</strong> upload I used the <code>File Constraint</code> instead.</li>\n<li>As I mentioned in the top of this post, there are many Bundles that handle all these things for you. Check them out if you want an easy life.</li>\n</ul>\n<h3>Edit:</h3>\n<ul>\n<li>Changed from <code>DoctrineExtensionsBundle</code> to <code>DoctrineBehaviours</code> since development on the old one stopped in favour of the <code>DoctrineBehaviours</code> bundle.</li>\n</ul>\n",
+      "owner": {
+        "display_name": "ferdynator",
+        "link": "https://stackoverflow.com/users/1847340/ferdynator"
+      }
+    },
+    {
+      "answer_id": 8245157,
+      "body": "<p>From within a controller you would use:</p>\n\n<pre><code>$em = $this-&gt;getDoctrine()-&gt;getManager();\n$tableName = $em-&gt;getClassMetadata('StoreBundle:User')-&gt;getTableName();\n</code></pre>\n\n<p>Note that the <code>getClassMetadata</code> method returns a bunch of interesting info about the entity.</p>\n",
+      "owner": {
+        "display_name": "Steven Mercatante",
+        "link": "https://stackoverflow.com/users/155175/steven-mercatante"
+      }
+    },
+    {
+      "answer_id": 14089458,
+      "body": "<p>There is no built-in method that allows what you intend to do.</p>\n\n<p>You have to add a method to your repository, like this:</p>\n\n<pre><code>public function getWhatYouWant()\n{\n    $qb = $this-&gt;createQueryBuilder('u');\n    $qb-&gt;where('u.id != :identifier')\n       -&gt;setParameter('identifier', 1);\n\n    return $qb-&gt;getQuery()\n          -&gt;getResult();\n}\n</code></pre>\n\n<p>Hope this helps.</p>\n",
+      "owner": {
+        "display_name": "BADAOUI Mohamed",
+        "link": "https://stackoverflow.com/users/1921639/badaoui-mohamed"
+      }
+    },
+    {
+      "answer_id": 13958127,
+      "body": "<p>You need to use query builder expressions, and this means you need access to the query builder object.  Also, the code is easier to write if you generate the subselect list ahead of time:</p>\n\n<pre><code>$qb = $em-&gt;createQueryBuilder();\n\n$nots = $qb-&gt;select('arl')\n          -&gt;from('$MineMyBundle:MineAssetRequestLine', 'arl')\n          -&gt;where($qb-&gt;expr()-&gt;eq('arl.asset_id',1))\n          -&gt;getQuery()\n          -&gt;getResult();\n\n$linked = $qb-&gt;select('rl')\n             -&gt;from('MineMyBundle:MineRequestLine', 'rl')\n             -&gt;where($qb-&gt;expr()-&gt;notIn('rl.request_id', $nots))\n             -&gt;getQuery()\n             -&gt;getResult();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Lighthart",
+        "link": "https://stackoverflow.com/users/1735848/lighthart"
+      }
+    },
+    {
+      "answer_id": 15131447,
+      "body": "<p>The <a href=\"https://github.com/doctrine/dbal\">DBAL</a> (DataBase Abstraction Layer) is a piece of software that simplifies interaction with SQL databases, by allowing you to use them without worrying about the specific dialects or differences of the different DBMS vendors. It basically allows you to run SQL queries against the DBMS without writing vendor specific SQL.</p>\n\n<p>The <a href=\"https://github.com/doctrine/doctrine2\">ORM</a> (Object Relational Mapper) is a tool that gives you the impression of working with an in-memory data structure represented as an object graph with associated objects. It simplifies application logic related with SQL operations by removing all the SQL and abstracting it into OOP logic. Doctrine 2 ORM simply handles loading and persisting of POPO (Plain Old PHP Objects).</p>\n\n<p>You can find more about this topic on the <a href=\"http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/index.html\">DBAL documentation</a> and the <a href=\"http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/index.html\">ORM documentation</a>.</p>\n",
+      "owner": {
+        "display_name": "Ocramius",
+        "link": "https://stackoverflow.com/users/347063/ocramius"
+      }
+    },
+    {
+      "answer_id": 15630665,
+      "body": "<p>A Many-To-Many association with additional values is not a Many-To-Many, but is indeed a new entity, since it now has an identifier (the two relations to the connected entities) and values.</p>\n\n<p>That's also the reason why Many-To-Many associations are so rare: you tend to store additional properties in them, such as <code>sorting</code>, <code>amount</code>, etc.</p>\n\n<p>What you probably need is something like following (I made both relations bidirectional, consider making at least one of them uni-directional):</p>\n\n\n\n<p>Product:</p>\n\n<pre><code>namespace Entity;\n\nuse Doctrine\\ORM\\Mapping as ORM;\n\n/** @ORM\\Table(name=\"product\") @ORM\\Entity() */\nclass Product\n{\n    /** @ORM\\Id() @ORM\\Column(type=\"integer\") */\n    protected $id;\n\n    /** ORM\\Column(name=\"product_name\", type=\"string\", length=50, nullable=false) */\n    protected $name;\n\n    /** @ORM\\OneToMany(targetEntity=\"Entity\\Stock\", mappedBy=\"product\") */\n    protected $stockProducts;\n}\n</code></pre>\n\n<p>Store:</p>\n\n<pre><code>namespace Entity;\n\nuse Doctrine\\ORM\\Mapping as ORM;\n\n/** @ORM\\Table(name=\"store\") @ORM\\Entity() */\nclass Store\n{\n    /** @ORM\\Id() @ORM\\Column(type=\"integer\") */\n    protected $id;\n\n    /** ORM\\Column(name=\"store_name\", type=\"string\", length=50, nullable=false) */\n    protected $name;\n\n    /** @ORM\\OneToMany(targetEntity=\"Entity\\Stock\", mappedBy=\"store\") */\n    protected $stockProducts;\n}\n</code></pre>\n\n<p>Stock:</p>\n\n<pre><code>namespace Entity;\n\nuse Doctrine\\ORM\\Mapping as ORM;\n\n/** @ORM\\Table(name=\"stock\") @ORM\\Entity() */\nclass Stock\n{\n    /** ORM\\Column(type=\"integer\") */\n    protected $amount;\n\n    /** \n     * @ORM\\Id()\n     * @ORM\\ManyToOne(targetEntity=\"Entity\\Store\", inversedBy=\"stockProducts\") \n     * @ORM\\JoinColumn(name=\"store_id\", referencedColumnName=\"id\", nullable=false) \n     */\n    protected $store;\n\n    /** \n     * @ORM\\Id()\n     * @ORM\\ManyToOne(targetEntity=\"Entity\\Product\", inversedBy=\"stockProducts\") \n     * @ORM\\JoinColumn(name=\"product_id\", referencedColumnName=\"id\", nullable=false) \n     */\n    protected $product;\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ocramius",
+        "link": "https://stackoverflow.com/users/347063/ocramius"
+      }
+    },
+    {
+      "answer_id": 8491954,
+      "body": "<p>Another option is to use the <a href=\"https://github.com/schmittjoh/JMSSerializerBundle/blob/master/Resources/doc/index.rst\" rel=\"noreferrer\">JMSSerializerBundle</a>. In your controller you then do </p>\n\n<pre><code>$serializer = $this-&gt;container-&gt;get('serializer');\n$reports = $serializer-&gt;serialize($doctrineobject, 'json');\nreturn new Response($reports); // should be $reports as $doctrineobject is not serialized\n</code></pre>\n\n<p>You can configure how the serialization is done by using annotations in the entity class. See the documentation in the link above. For example, here's how you would exclude linked entities:</p>\n\n<pre><code> /**\n* Iddp\\RorBundle\\Entity\\Report\n*\n* @ORM\\Table()\n* @ORM\\Entity(repositoryClass=\"Iddp\\RorBundle\\Entity\\ReportRepository\")\n* @ExclusionPolicy(\"None\")\n*/\n....\n/**\n* @ORM\\ManyToOne(targetEntity=\"Client\", inversedBy=\"reports\")\n* @ORM\\JoinColumn(name=\"client_id\", referencedColumnName=\"id\")\n* @Exclude\n*/\nprotected $client;\n</code></pre>\n",
+      "owner": {
+        "display_name": "scc",
+        "link": "https://stackoverflow.com/users/46183/scc"
+      }
+    },
+    {
+      "answer_id": 12706380,
+      "body": "<p>You forgot the <code>%</code> signs around the word:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>-&gt;setParameter('word', '%'.$word.'%')\n</code></pre>\n",
+      "owner": {
+        "display_name": "Elnur Abdurrakhimov",
+        "link": "https://stackoverflow.com/users/745188/elnur-abdurrakhimov"
+      }
+    },
+    {
+      "answer_id": 22253783,
+      "body": "<p>Here is solutions explain with details :</p>\n\n<p><a href=\"https://groups.google.com/forum/#!topic/doctrine-user/fkIaKxifDqc\">https://groups.google.com/forum/#!topic/doctrine-user/fkIaKxifDqc</a></p>\n\n<blockquote>\n  <p>\"fetch\" in the mapping is a <em>hint</em>, that is, if it is possible\n  Doctrine does that, but if its not possible, obviously it does not.\n  Proxying for lazy-loading is simply not always possible, technically.\n  The situations where its not possible are:</p>\n  \n  <p>1) one-to-one from inverse to owning side (appears only in\n  bidirectional one-to-one associations). Precondition a) above can not\n  be met. 2) one-to-one/many-to-one association to a hierarchy and the\n  targeted class has subclasses (is not a leaf in the class hierarchy).\n  Precondition b) above can not be met.</p>\n  \n  <p>In these cases, proxying is technically not possible.</p>\n  \n  <p>Your options to avoid this n+1 problem:</p>\n  \n  <p>1) fetch-join via DQL: \"select c,ca from Customer join c.cart ca\".\n  Single query but join, however, joins on to-one associations are\n  relatively cheap. </p>\n  \n  <p>2) force partial objects. No additional queries but\n  also no lazy-load: $query->setHint(Query::HINT_FORCE_PARTIAL_LOAD,\n  true)</p>\n  \n  <p>3) if an alternative result format (i.e. getArrayResult()) is\n  sufficient for a use-case, these also avoid this problem.</p>\n  \n  <p>Benjamin had some ideas about automatic batching of these loads to\n  avoid n+1 queries but this does not change the fact that proxying is\n  not always possible.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Leto",
+        "link": "https://stackoverflow.com/users/894097/leto"
+      }
+    },
+    {
+      "answer_id": 9308576,
+      "body": "<p>You can use:</p>\n\n<pre><code>$comment-&gt;setArticle($em-&gt;getReference('Article', 10));\n</code></pre>\n",
+      "owner": {
+        "display_name": "meze",
+        "link": "https://stackoverflow.com/users/265712/meze"
+      }
+    },
+    {
+      "answer_id": 19238782,
+      "body": "<p>I find solution 1) as the easiest one to maintain from longer perspective. Solution 2 leads bloated \"Manager\" class which will eventually be broken down into smaller chunks. </p>\n\n<p><a href=\"http://c2.com/cgi/wiki?DontNameClassesObjectManagerHandlerOrData\" rel=\"noreferrer\">http://c2.com/cgi/wiki?DontNameClassesObjectManagerHandlerOrData</a></p>\n\n<p>\"Too many service classes in a big application\" is not a reason to avoid SRP.   </p>\n\n<p>In terms of Domain Language, I find the following code similar: </p>\n\n<pre><code>$groupRoleService-&gt;removeRoleFromGroup($role, $group);\n</code></pre>\n\n<p>and</p>\n\n<pre><code>$group-&gt;removeRole($role);\n</code></pre>\n\n<p>Also from what you described, removing/adding role from group requires many dependencies (dependency inversion principle) and that could be hard with a FAT/bloated manager. </p>\n\n<p>Solution 3) looks very similar to 1) - each subscriber is actually service automatically triggered in background by Entity Manager and in simpler scenarios it can work, but troubles will arise as soon the action (adding/removing role) will require a lot of context eg. which user performed the action, from which page or any other type of complex validation. </p>\n",
+      "owner": {
+        "display_name": "Tomas Dermisek",
+        "link": "https://stackoverflow.com/users/747834/tomas-dermisek"
+      }
+    },
+    {
+      "answer_id": 16871539,
+      "body": "<p>Better (and working) variant for me:</p>\n\n<pre><code>$collection3 = new ArrayCollection(\n    array_merge($collection1-&gt;toArray(), $collection2-&gt;toArray())\n);\n</code></pre>\n",
+      "owner": {
+        "display_name": "pliashkou",
+        "link": "https://stackoverflow.com/users/1238036/pliashkou"
+      }
+    },
+    {
+      "answer_id": 17428623,
+      "body": "<p>@florian gave you the correct answer but let me try to explain it on example:</p>\n\n<p>In sql, joins are done like this:</p>\n\n<pre><code>SELECT * FROM category\n    LEFT JOIN product ON product.category_id = category.id\n</code></pre>\n\n<p>(or something like this)</p>\n\n<p>Now in Doctrine, you don't need to use <code>ON</code> clause because doctrine knows that from relations annotations in your entities. So above example would be:</p>\n\n<pre><code>// CategoryRepository.php\npublic function getCategoriesAndJoinProducts() \n{\n    return $this-&gt;createQueryBuilder(\"o\")\n        -&gt;leftJoin(\"o.products\", \"p\")-&gt;addSelect(\"p\") \n        -&gt;getQuery()-&gt;getResult() ;\n}\n</code></pre>\n\n<p>Both would fetch all categories and join products associated with them.</p>\n\n<p>Now comes the <code>WITH</code> clause. If you want to join only products with price bigger than 50, you would do this in SQL:</p>\n\n<pre><code>SELECT * FROM category\n    LEFT JOIN product ON product.category_id = category.id AND product.price&gt;50\n</code></pre>\n\n<p>In Doctrine:</p>\n\n<pre><code>// CategoryRepository.php\npublic function getCategoriesAndJoinProductsWithPriceBiggerThan($price) \n{\n    return $this-&gt;createQueryBuilder(\"o\")\n        -&gt;leftJoin(\"o.products\", \"p\", \"WITH\", \"p.price&gt;:price\")\n            -&gt;setParameter(\"price\", price)-&gt;addSelect(\"p\") \n        -&gt;getQuery()-&gt;getResult() ;\n}\n</code></pre>\n\n<p>So, in reality you should never, ever use <code>ON</code> if you are using Doctrine. If you have a need for something like that, you can be almost sure that you screwed something else.</p>\n",
+      "owner": {
+        "display_name": "Zeljko",
+        "link": "https://stackoverflow.com/users/377192/zeljko"
+      }
+    },
+    {
+      "answer_id": 5412048,
+      "body": "<p>You want a <a href=\"http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/advanced-configuration.html#reference-proxies\" rel=\"noreferrer\">reference proxy</a></p>\n\n<p>Let's say I have Posts and Tags.  A Post hasMany Tags.  I get a bunch of tags from the user, who checked a bunch of checkboxes.</p>\n\n<p>The following would add tags to an existing post, without fetching each tag entity first.  It does this by using reference proxies, generated by <code>EntityManager::getReference()</code>:</p>\n\n<pre><code>$tag_ids = $_POST['tag_id']; // an array of integers representing tag IDs.\n$post = $em-&gt;getRepository('Post')-&gt;find($post_id); // returns a Post entity.\n\nforeach($tags_ids as $tid){\n   $post-&gt;addTag($em-&gt;getReference('Tag',$tid));\n}\n$em-&gt;persist($post);\n$em-&gt;flush();\n</code></pre>\n",
+      "owner": {
+        "display_name": "timdev",
+        "link": "https://stackoverflow.com/users/172588/timdev"
+      }
+    },
+    {
+      "answer_id": 9092254,
+      "body": "<p><em>last time checked: ZF2.2.*, DoctrineORMModule 0.7.</em></p>\n\n<h1>Official Module</h1>\n\n<p>You may want to load <code>DoctrineORMModule</code> via composer:</p>\n\n<ul>\n<li>add <code>doctrine/doctrine-orm-module</code> to your <em>composer.json</em>'s require (example code after list bcs of formatting problems)</li>\n<li>run <code>php composer.phar install</code></li>\n<li>create the directory <code>./data/DoctrineORMModule/Proxy</code> and ensure write access for your application</li>\n<li><a href=\"https://github.com/doctrine/DoctrineORMModule\" rel=\"noreferrer\">configure doctrine</a> via your applications <code>/config/autoload</code> to give the module the project-specific settings (database etc)</li>\n<li>configure doctrine's entity mapping in your modules <code>config.php</code></li>\n<li>add an entity to your project</li>\n<li>add <code>DoctrineORMModule</code> and <code>DoctrineModule</code> to your <code>config/application.config.php</code></li>\n<li>run the cli tool to generate your tables <code>./vendor/bin/doctrine-module orm:schema-tool:create</code></li>\n</ul>\n\n<p>I strongly discourage you from not using composer, as it is an easy way to install dependencies and have the autoloaders all set up. Also ZF2 ships via composer by default.</p>\n\n<h2>Example Code</h2>\n\n<h3>composer.json</h3>\n\n<pre><code>{  \n    \"require\" : {  \n        \"php\": \"&gt;=5.3.3\",  \n        \"zendframework/zendframework\": \"2.*\"                \n        \"doctrine/doctrine-orm-module\": \"0.*\"                \n    }  \n}  \n</code></pre>\n\n<h3>entities settings</h3>\n\n<pre><code>&lt;?php\nreturn array(\n    'doctrine' =&gt; array(\n        'driver' =&gt; array(\n            // defines an annotation driver with two paths, and names it `my_annotation_driver`\n            'my_annotation_driver' =&gt; array(\n                'class' =&gt; 'Doctrine\\ORM\\Mapping\\Driver\\AnnotationDriver',\n                'cache' =&gt; 'array',\n                'paths' =&gt; array(\n                    'path/to/my/entities',\n                    'another/path'\n                ),\n            ),\n\n            // default metadata driver, aggregates all other drivers into a single one.\n            // Override `orm_default` only if you know what you're doing\n            'orm_default' =&gt; array(\n                'drivers' =&gt; array(\n                    // register `my_annotation_driver` for any entity under namespace `My\\Namespace`\n                    'My\\Namespace' =&gt; 'my_annotation_driver'\n                )\n            )\n        )\n    )\n);\n</code></pre>\n\n<p>A gotcha to be aware of: The paths to your entites should be fully qualified. Best start with <code>__DIR__</code>, else things will break (Every new project I wonder why the command line tool doesn't work until I find this error ... ;)</p>\n\n<h3>connection settings</h3>\n\n<pre><code>&lt;?php\nreturn array(\n    'doctrine' =&gt; array(\n        'connection' =&gt; array(\n            // default connection name\n            'orm_default' =&gt; array(\n                'driverClass' =&gt; 'Doctrine\\DBAL\\Driver\\PDOMySql\\Driver',\n                'params' =&gt; array(\n                    'host'     =&gt; 'localhost',\n                    'port'     =&gt; '3306',\n                    'user'     =&gt; 'username',\n                    'password' =&gt; 'password',\n                    'dbname'   =&gt; 'database',\n                )\n            )\n        )\n    ),\n);\n</code></pre>\n\n<p><a href=\"https://github.com/doctrine/DoctrineORMModule/blob/master/README.md\" rel=\"noreferrer\">All code examples are part of the official doctrine module readme</a></p>\n\n<h2>Further Reading:</h2>\n\n<p>Marco Pivetta made a <a href=\"http://marco-pivetta.com/doctrine-orm-zf2-tutorial/#/\" rel=\"noreferrer\">wonderful presentation about doctrine-module usage</a>, which I recommend to everybody using this module.</p>\n\n<p><a href=\"http://www.jasongrimes.org/2012/01/using-doctrine-2-in-zend-framework-2/\" rel=\"noreferrer\">Jason Grimes wrote a tutorial</a> featured on phpdeveloper.org which should help installing doctrine, before there was an official module.</p>\n",
+      "owner": {
+        "display_name": "Samuel Herzog",
+        "link": "https://stackoverflow.com/users/560276/samuel-herzog"
+      }
+    },
+    {
+      "answer_id": 3379560,
+      "body": "<p>Database default values are not \"portably\" supported. The only way to use database default values is through the <code>columnDefinition</code> mapping attribute where you specify the <code>SQL</code> snippet (<code>DEFAULT</code> cause inclusive) for the column the field is mapped to.</p>\n\n<p>You can use:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>&lt;?php\n/**\n * @Entity\n */\nclass myEntity {\n    /**\n     * @var string\n     *\n     * @Column(name=\"myColumn\", type=\"string\", length=\"50\")\n     */\n    private $myColumn = 'myDefaultValue';\n    ...\n}\n</code></pre>\n\n<p>PHP-level default values are preferred as these are also properly available on newly created and persisted objects (Doctrine will not go back to the database after persisting a new object to get the default values).</p>\n",
+      "owner": {
+        "display_name": "romanb",
+        "link": "https://stackoverflow.com/users/179702/romanb"
+      }
+    },
+    {
+      "answer_id": 9057352,
+      "body": "<p>I usually work with integers mapped to class constants, like</p>\n\n<pre><code>class MyEntity {\n    const STATUS_INACTIVE = 0;\n    const STATUS_ACTIVE = 1;\n    const STATUS_REFUSE = 2;\n\n    protected $status = self::STATUS_ACTIVE;\n}\n</code></pre>\n\n<p>That works quite fine and makes it even easier to work with what you would call ENUMS in an IDE.</p>\n\n<p>You can also <a href=\"http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/cookbook/mysql-enums.html\" rel=\"noreferrer\">use an enumerable type as described by the documentation</a>, but that means you will have to define one custom type per enum column. That's a lot of work with no real benefit.</p>\n\n<p>You may also want to know <a href=\"http://komlenic.com/244/8-reasons-why-mysqls-enum-data-type-is-evil/\" rel=\"noreferrer\">why you shouldn't really use enums</a>. </p>\n",
+      "owner": {
+        "display_name": "Ocramius",
+        "link": "https://stackoverflow.com/users/347063/ocramius"
+      }
+    },
+    {
+      "answer_id": 12048567,
+      "body": "<p>The second parameter of <code>findBy</code> is for ORDER.</p>\n\n<pre><code>$ens = $em-&gt;getRepository('AcmeBinBundle:Marks')\n          -&gt;findBy(\n             array('type'=&gt; 'C12'), \n             array('id' =&gt; 'ASC')\n           );\n</code></pre>\n",
+      "owner": {
+        "display_name": "xdazz",
+        "link": "https://stackoverflow.com/users/762073/xdazz"
+      }
+    },
+    {
+      "answer_id": 15781504,
+      "body": "<p>You can use <a href=\"https://github.com/doctrine/doctrine2/blob/2.3.2/lib/Doctrine/ORM/Query/Expr.php#L459-L468\"><code>isNotNull</code></a>:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>'query_builder' =&gt; function ($er){\n    $qb = $er-&gt;createQueryBuilder('p');\n    $qb\n        -&gt;where($qb-&gt;expr()-&gt;andx(\n            $qb-&gt;expr()-&gt;in('p', '?1'),\n            $qb-&gt;expr()-&gt;isNotNull('p.location')\n        ))\n        -&gt;setParameter(1, $this-&gt;totalScope);\n\n    return $qb;\n},\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ocramius",
+        "link": "https://stackoverflow.com/users/347063/ocramius"
+      }
+    },
+    {
+      "answer_id": 15108579,
+      "body": "<p>You are using a <code>Doctrine\\Common\\Annotations\\SimpleAnnotationReader</code> instead of a <code>Doctrine\\Common\\Annotations\\AnnotationReader</code>. </p>\n\n<p>The <code>SimpleAnnotationReader</code> works with default namespaces and reads annotations in format <code>@Entity</code>, while the <code>AnnotationReader</code> can use the imported classes and namespaces (via <a href=\"http://php.net/manual/en/language.namespaces.php\"><code>use</code> statement</a>) and annotations such as <code>@ORM\\Entity</code>.</p>\n\n<p>You can read more about that on the <a href=\"http://docs.doctrine-project.org/projects/doctrine-common/en/latest/reference/annotations.html\">documentation</a>.</p>\n\n<p>Here's a fixed version of your <code>test.php</code></p>\n\n<pre class=\"lang-php prettyprint-override\"><code>&lt;?php\n\nuse Doctrine\\ORM\\Tools\\Setup;\nuse Doctrine\\ORM\\EntityManager;\nuse Doctrine\\ORM\\Mapping\\Driver\\AnnotationDriver;\nuse Doctrine\\Common\\Annotations\\AnnotationReader;\nuse Doctrine\\Common\\Annotations\\AnnotationRegistry;\n\nrequire_once __DIR__ . '/vendor/autoload.php';\nrequire_once __DIR__ . '/entities/Users.php';\n\n$paths            = array(__DIR__ . '/entities');\n$isDevMode        = false;\n$connectionParams = array(\n    'driver'   =&gt; 'pdo_mysql',\n    'user'     =&gt; 'root',\n    'password' =&gt; 'pass',\n    'dbname'   =&gt; 'dbname',\n);\n\n$config = Setup::createConfiguration($isDevMode);\n$driver = new AnnotationDriver(new AnnotationReader(), $paths);\n\n// registering noop annotation autoloader - allow all annotations by default\nAnnotationRegistry::registerLoader('class_exists');\n$config-&gt;setMetadataDriverImpl($driver);\n\n$em = EntityManager::create($connectionParams, $config);\n\n$user = $em-&gt;find('Users', 5);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ocramius",
+        "link": "https://stackoverflow.com/users/347063/ocramius"
+      }
+    },
+    {
+      "answer_id": 15088250,
+      "body": "<p>If you have an association on a property pointing to the user (let's say <code>Credit\\Entity\\UserCreditHistory#user</code>, picked from your example), then the syntax is quite simple:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>public function getHistory($users) {\n    $qb = $this-&gt;entityManager-&gt;createQueryBuilder();\n    $qb\n        -&gt;select('a', 'u')\n        -&gt;from('Credit\\Entity\\UserCreditHistory', 'a')\n        -&gt;leftJoin('a.user', 'u')\n        -&gt;where('u = :user')\n        -&gt;setParameter('user', $users)\n        -&gt;orderBy('a.created_at', 'DESC');\n\n    return $qb-&gt;getQuery()-&gt;getResult();\n}\n</code></pre>\n\n<p>Since you are applying a condition on the joined result here, using a <code>LEFT JOIN</code> or simply <code>JOIN</code> is the same.</p>\n\n<p>If no association is available, then the query looks like following</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>public function getHistory($users) {\n    $qb = $this-&gt;entityManager-&gt;createQueryBuilder();\n    $qb\n        -&gt;select('a', 'u')\n        -&gt;from('Credit\\Entity\\UserCreditHistory', 'a')\n        -&gt;leftJoin(\n            'User\\Entity\\User',\n            'u',\n            \\Doctrine\\ORM\\Query\\Expr\\Join::WITH,\n            'a.user = u.id'\n        )\n        -&gt;where('u = :user')\n        -&gt;setParameter('user', $users)\n        -&gt;orderBy('a.created_at', 'DESC');\n\n    return $qb-&gt;getQuery()-&gt;getResult();\n}\n</code></pre>\n\n<p>This will produce a resultset that looks like following:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>array(\n    array(\n        0 =&gt; UserCreditHistory instance,\n        1 =&gt; Userinstance,\n    ),\n    array(\n        0 =&gt; UserCreditHistory instance,\n        1 =&gt; Userinstance,\n    ),\n    // ...\n)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ocramius",
+        "link": "https://stackoverflow.com/users/347063/ocramius"
+      }
+    },
+    {
+      "answer_id": 14940635,
+      "body": "<p>Doctrine uses types similar to the SQL types. Decimal happens to be a fixed precision type (unlike floats).</p>\n\n<p>Taken from the <a href=\"http://dev.mysql.com/doc/refman/5.1/en/fixed-point-types.html\" rel=\"noreferrer\">MySQL documentation</a>:</p>\n\n<blockquote>\n  <p>In a DECIMAL column declaration, the precision and scale can be (and usually is) specified; for example:</p>\n  \n  <p>salary DECIMAL(5,2)</p>\n  \n  <p>In this example, 5 is the precision and 2 is the scale. The precision represents the number of significant digits that are stored for values, and the scale represents the number of digits that can be stored following the decimal point.</p>\n  \n  <p>Standard SQL requires that DECIMAL(5,2) be able to store any value with five digits and two decimals, so values that can be stored in the salary column range from -999.99 to 999.99. </p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Louis-Philippe Huberdeau",
+        "link": "https://stackoverflow.com/users/238658/louis-philippe-huberdeau"
+      }
+    },
+    {
+      "answer_id": 14788419,
+      "body": "<p>This is an example using the <a href=\"http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/query-builder.html#the-expr-class\" rel=\"noreferrer\">Expr() Class</a> - I needed this too some days ago and it took me some time to find out what is the exact syntax and way of usage:</p>\n\n<pre><code>/**\n * fetches Products that are more expansive than the given price\n * \n * @param int $price\n * @return array\n */\npublic function findProductsExpensiveThan($price)\n{\n  $em = $this-&gt;getEntityManager();\n  $qb = $em-&gt;createQueryBuilder();\n\n  $q  = $qb-&gt;select(array('p'))\n           -&gt;from('YourProductBundle:Product', 'p')\n           -&gt;where(\n             $qb-&gt;expr()-&gt;gt('p.price', $price)\n           )\n           -&gt;orderBy('p.price', 'DESC')\n           -&gt;getQuery();\n\n  return $q-&gt;getResult();\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "con",
+        "link": "https://stackoverflow.com/users/729991/con"
+      }
+    },
+    {
+      "answer_id": 14261250,
+      "body": "<p>This is a very tricky problem since, at least for Symfony 2.0 and Doctrine 2.1, it is not possible in any way to reopen the EntityManager after it closes.</p>\n\n<p>The only way I found to overcome this problem is to create your own DBAL Connection class, wrap the Doctrine one and provide exception handling (e.g. retrying several times before popping the exception out to the EntityManager). It is a bit hacky and I'm afraid it can cause some inconsistency in transactional environments (i.e. I'm not really sure of what happens if the failing query is in the middle of a transaction).</p>\n\n<p>An example configuration to go for this way is:</p>\n\n<pre><code>doctrine:\n  dbal:\n    default_connection: default\n    connections:\n      default:\n        driver:   %database_driver%\n        host:     %database_host%\n        user:     %database_user%\n        password: %database_password%\n        charset:  %database_charset%\n        wrapper_class: Your\\DBAL\\ReopeningConnectionWrapper\n</code></pre>\n\n<p>The class should start more or less like this:</p>\n\n<pre><code>namespace Your\\DBAL;\n\nclass ReopeningConnectionWrapper extends Doctrine\\DBAL\\Connection {\n  // ...\n}\n</code></pre>\n\n<p>A very annoying thing is that you have to override each method of Connection providing your exception-handling wrapper. Using closures can ease some pain there.</p>\n",
+      "owner": {
+        "display_name": "Aldo Stracquadanio",
+        "link": "https://stackoverflow.com/users/913053/aldo-stracquadanio"
+      }
+    },
+    {
+      "answer_id": 14216878,
+      "body": "<p>You can use the currently undocumented <code>IDENTITY</code> function to select the FK IDs in a query:</p>\n\n<pre><code>SELECT IDENTITY(c.parent) ...\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jani Hartikainen",
+        "link": "https://stackoverflow.com/users/106862/jani-hartikainen"
+      }
+    },
+    {
+      "answer_id": 12475052,
+      "body": "<p>This must be a crazy answer but did you update database schema? <code>onDelete=\"SET NULL\"</code> is on database level, it must work on innoDB.</p>\n",
+      "owner": {
+        "display_name": "Zeljko",
+        "link": "https://stackoverflow.com/users/377192/zeljko"
+      }
+    },
+    {
+      "answer_id": 12431539,
+      "body": "<p>You can do either…</p>\n\n<pre><code>$qb-&gt;where('e.fecha BETWEEN :monday AND :sunday')\n   -&gt;setParameter('monday', $monday-&gt;format('Y-m-d'))\n   -&gt;setParameter('sunday', $sunday-&gt;format('Y-m-d'));\n</code></pre>\n\n<p>or…</p>\n\n<pre><code>$qb-&gt;where('e.fecha &gt; :monday')\n   -&gt;andWhere('e.fecha &lt; :sunday')\n   -&gt;setParameter('monday', $monday-&gt;format('Y-m-d'))\n   -&gt;setParameter('sunday', $sunday-&gt;format('Y-m-d'));\n</code></pre>\n",
+      "owner": {
+        "display_name": "MacDada",
+        "link": "https://stackoverflow.com/users/666907/macdada"
+      }
+    },
+    {
+      "answer_id": 8336879,
+      "body": "<p>The Boris Guéry answer's at this post, may help you:\n<a href=\"https://stackoverflow.com/questions/7064528/doctrine-2-query-inside-entities\">Doctrine 2, query inside entities</a></p>\n\n<pre><code>$idsToFilter = array(1,2,3,4);\n\n$member-&gt;getComments()-&gt;filter(\n    function($entry) use ($idsToFilter) {\n       return in_array($entry-&gt;getId(), $idsToFilter);\n    }\n); \n</code></pre>\n",
+      "owner": {
+        "display_name": "FredRoger",
+        "link": "https://stackoverflow.com/users/1060266/fredroger"
+      }
+    },
+    {
+      "answer_id": 12198200,
+      "body": "<p>Nope. Use:</p>\n\n<pre><code>  return $this-&gt;getEntityManager()\n        -&gt;createQuery('...')\n        -&gt;setMaxResults(5)\n        -&gt;setFirstResult(10)\n        -&gt;getResult();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Thomas K",
+        "link": "https://stackoverflow.com/users/597389/thomas-k"
+      }
+    },
+    {
+      "answer_id": 11709562,
+      "body": "<p>If you extend from <code>ContainerAwareCommand</code> you should be able to get your service</p>\n\n<pre><code>$this-&gt;getContainer()-&gt;get('doctrine');\n</code></pre>\n\n<p><a href=\"https://stackoverflow.com/questions/7597912/how-can-i-inject-dependencies-to-symfony-console-commands\">Here</a> is similar question</p>\n",
+      "owner": {
+        "display_name": "Vitalii Zurian",
+        "link": "https://stackoverflow.com/users/970721/vitalii-zurian"
+      }
+    },
+    {
+      "answer_id": 11708917,
+      "body": "<p>I knew that tommarow gonna be a better day.\nThe solution is simple. Your can make array of OR expressions like so</p>\n\n<pre><code>$ors[] = $qb-&gt;expr()-&gt;orx('e.type = '.$qb-&gt;expr()-&gt;literal($value));\n</code></pre>\n\n<p>And then just add it to andWhere()/Where() method of the query builder via join method like so:</p>\n\n<pre><code>$qb-&gt;andWhere(join(' OR ', $ors));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Bartosz Rychlicki",
+        "link": "https://stackoverflow.com/users/1169194/bartosz-rychlicki"
+      }
+    },
+    {
+      "answer_id": 11031459,
+      "body": "<p>From my point of view, there is only one major difference:</p>\n\n<ul>\n<li>The Listener is signed up specifying the events on which it listens.</li>\n<li>The Subscriber has a method telling the dispatcher what events it is listening to</li>\n</ul>\n\n<p>This might not seem like a big difference, but if you think about it, there are some cases when you want to use one over the other:</p>\n\n<ul>\n<li>You can assign one listener to many dispatchers with different events, as they are set at registration time. You only need to make sure every method is in place in the listener</li>\n<li>You can change the events a subscriber is registered for at runtime and even after registering the subscriber by changing the return value of <code>getSubscribedEvents</code> (Think about a time where you listen to a very noisy event and you only want to execute something one time)</li>\n</ul>\n\n<p>There might be other differences I'm not aware of though!</p>\n",
+      "owner": {
+        "display_name": "Sgoettschkes",
+        "link": "https://stackoverflow.com/users/372562/sgoettschkes"
+      }
+    },
+    {
+      "answer_id": 11000521,
+      "body": "<p>I saw this doc on Symfony's website : <a href=\"http://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html#usage\" rel=\"noreferrer\">http://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html#usage</a></p>\n\n<p>There is <code>doctrine:migrations:execute</code> that allows you to execute a single migration version up or down manually... but never tried, sorry.</p>\n\n<p>Hope this helps !</p>\n\n<p>Keep us posted.</p>\n",
+      "owner": {
+        "display_name": "Aurel",
+        "link": "https://stackoverflow.com/users/1307544/aurel"
+      }
+    },
+    {
+      "answer_id": 10333356,
+      "body": "<p>You don't.  This is a very common question.  Entities should only know about other entities and not about the entity manager or other high level services.  It can be a bit of a challenge to make the transition to this way of developing but it's usually worth it.</p>\n\n<p>What you want to do is to load the role when you load the user.  Typically you will end up with a UserProvider which does this sort of thing.  Have you read through the sections on security?  That should be your starting point:</p>\n\n<p><a href=\"http://symfony.com/doc/current/book/security.html\">http://symfony.com/doc/current/book/security.html</a></p>\n",
+      "owner": {
+        "display_name": "Cerad",
+        "link": "https://stackoverflow.com/users/1146363/cerad"
+      }
+    },
+    {
+      "answer_id": 10285935,
+      "body": "<p><code>ObjectManager</code> is an interface and <code>EntityManager</code> is its ORM implementation. It's not the only implementation; for example, <code>DocumentManager</code> from MongoDB ODM implements it as well. <code>ObjectManager</code> provides only the common subset of all its implementations.</p>\n\n<p>If you want your form type to work with any <code>ObjectManager</code> implementation, then use it. This way you could switch from ORM to ODM and your type would still work the same. But if you need something specific that only <code>EntityManager</code> provides and aren't planning to switch to ODM, use it instead.</p>\n",
+      "owner": {
+        "display_name": "Elnur Abdurrakhimov",
+        "link": "https://stackoverflow.com/users/745188/elnur-abdurrakhimov"
+      }
+    },
+    {
+      "answer_id": 9674597,
+      "body": "<p>Use the JoinColumn annotation on your ManyToOne relation:</p>\n\n<pre><code>/**\n * @ORM\\ManyToOne(targetEntity=\"Package\", inversedBy=\"users\")\n * @ORM\\JoinColumn(name=\"package_id\", referencedColumnName=\"id\", nullable=false)\n */\nprivate $package;\n</code></pre>\n\n<p>The ManyToOne itself cannot be nullable, because it doesn't relate to a specific column. The JoinColumn on the other hand identifies the column in the database. Thus, you can use \"normal\" attributes like nullable or unique!</p>\n",
+      "owner": {
+        "display_name": "Sgoettschkes",
+        "link": "https://stackoverflow.com/users/372562/sgoettschkes"
+      }
+    },
+    {
+      "answer_id": 9259244,
+      "body": "<p>As far as I know this is not a supported feature by Doctrine to use IN() queries with findby. You could do two things:</p>\n\n<ol>\n<li><p>Implement a <code>findByStatus(array $statusTypes)</code> method in your (custom) 'notif' repository class. If you like this approach I can give you a example.</p></li>\n<li><p>Convert your findBy to the following:</p>\n\n<pre><code>$qb = $this-&gt;repos['notif']-&gt;createQueryBuilder('n');\n$data = $qb-&gt;where($qb-&gt;expr()-&gt;in('status', array(1,2,3)))-&gt;getQuery()-&gt;getResult();\n</code></pre></li>\n</ol>\n\n<p>That should work either :)</p>\n",
+      "owner": {
+        "display_name": "Kees Schepers",
+        "link": "https://stackoverflow.com/users/898263/kees-schepers"
+      }
+    },
+    {
+      "answer_id": 7698687,
+      "body": "<p>You map your property as DateTime type then set the value in the constructor using a new DateTime instance:</p>\n\n<pre><code>/**\n * @Entity\n * @Table(name=\"...\")\n */\nclass MyEntity\n{\n    /** @Column(type=\"datetime\") */\n    protected $registration_date;\n\n    public function __construct()\n    {\n        $this-&gt;registration_date = new DateTime(); \n    }\n}\n</code></pre>\n\n<p>This works as the constructor of a persisted class is not called upon hydration.</p>\n",
+      "owner": {
+        "display_name": "BMBM",
+        "link": "https://stackoverflow.com/users/132728/bmbm"
+      }
+    },
+    {
+      "answer_id": 8545712,
+      "body": "<p>These check for the fields individually:</p>\n\n<pre><code>@UniqueEntity(\"name\")\n@UniqueEntity(\"test\")\n</code></pre>\n\n<p>That is, the first one will get triggered when there is a duplicate <code>name</code> value, while the second one — when there is a duplicate <code>test</code> values.</p>\n\n<p>If you want the validation fail when <em>both</em> <code>name</code> and <code>test</code> contain the same <em>combination</em>, you use this:</p>\n\n<pre><code>@UniqueEntity({\"name\", \"test\"})\n</code></pre>\n\n<p>For what you want the first approach should work — unless you did something wrong somewhere else. Also try to clear the cache to make sure it's not its fault.</p>\n\n<p><strong>UPDATE</strong></p>\n\n<p>What I suggested was about the validation part on the app side. If you generate the database schema using Doctrine, you'll need to supply the Doctrine level annotations for <em>each</em> column — if you want to make them unique independently of each other, of course:</p>\n\n<pre><code>@Column(type = \"string\", unique = true)\nprivate $name;\n\n@Column(type = \"string\", unique = true)\nprivate $test;\n</code></pre>\n\n<p>These approaches complement each other — not exclude. <code>@UniqueEntity</code> makes sure a duplicate doesn't even reach the database layer, while <code>@Column</code> ensures that if it does, the database layer won't let it pass.</p>\n",
+      "owner": {
+        "display_name": "Elnur Abdurrakhimov",
+        "link": "https://stackoverflow.com/users/745188/elnur-abdurrakhimov"
+      }
+    },
+    {
+      "answer_id": 8370442,
+      "body": "<p>Yes, repositories are generally used for queries only.</p>\n\n<p>Here is how I do it. The <a href=\"http://martinfowler.com/eaaCatalog/serviceLayer.html\">service layer</a> manages the persistence. The controller layer knows of the service layer, but knows nothing of how the model objects are persisted nor where do they come from. For what the controller layer cares is asking the service layer to persist and return objects — it doesn't care how it's actually done.</p>\n\n<p>The service layer itself is perfectly suitable to know about the the persistence layer: entity or document managers, repositories, etc.</p>\n\n<p>Here's some code to make it clearer:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>class UserController\n{\n    public function indexAction()\n    {\n        $users = $this-&gt;get('user.service')-&gt;findAll();\n        // ...\n    }\n\n    public function createAction()\n    {\n        // ...\n        $user = new User();\n        // fill the user object here\n        $this-&gt;get('user.service')-&gt;create($user);\n        // ...\n    }\n}\n\nclass UserService\n{\n    const ENTITY_NAME = 'UserBundle:User';\n\n    private $em;\n\n    public function __construct(EntityManager $em)\n    {\n        $this-&gt;em = $em;\n    }\n\n    public function findAll()\n    {\n        return $this-&gt;em-&gt;getRepository(self::ENTITY_NAME)-&gt;findAll();\n    }\n\n    public function create(User $user)\n    {\n        // possibly validation here\n\n        $this-&gt;em-&gt;persist($user);\n        $this-&gt;em-&gt;flush($user);\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Elnur Abdurrakhimov",
+        "link": "https://stackoverflow.com/users/745188/elnur-abdurrakhimov"
+      }
+    },
+    {
+      "answer_id": 8206358,
+      "body": "<p>If One organisation has Many Users and Many Users have One and only one organisation then it's not a One-to-One association.</p>\n\n<p>One-to-One associations have to be unique.</p>\n\n<p>Your association is <code>ManyToOne</code> on the User side and <code>OneToMany</code> on the organisation side.</p>\n\n<p>User.php</p>\n\n<pre><code>/**\n * @ManyToOne(targetEntity=\"Organisation\")\n */\nprivate $organisation;\n</code></pre>\n\n<p>Organisation.php</p>\n\n<pre><code>use Doctrine\\Common\\Collections\\ArrayCollection;\n\n/**\n * @OneToMany(targetEntity=\"User\", mappedBy=\"organisation\")\n */\nprivate $users;\n\nfunction __construct() {\n    $this-&gt;users = new ArrayCollection();\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Kasheen",
+        "link": "https://stackoverflow.com/users/545262/kasheen"
+      }
+    },
+    {
+      "answer_id": 8164858,
+      "body": "<p>This is not possible with the magic find methods. Try using the <a href=\"http://www.doctrine-project.org/docs/orm/2.0/en/reference/query-builder.html\">query builder</a>:</p>\n\n<pre><code>$result = $em-&gt;getRepository(\"Orders\")-&gt;createQueryBuilder('o')\n   -&gt;where('o.OrderEmail = :email')\n   -&gt;andWhere('o.Product LIKE :product')\n   -&gt;setParameter('email', 'some@mail.com')\n   -&gt;setParameter('product', 'My Products%')\n   -&gt;getQuery()\n   -&gt;getResult();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Kristian Zondervan",
+        "link": "https://stackoverflow.com/users/751866/kristian-zondervan"
+      }
+    },
+    {
+      "answer_id": 7981737,
+      "body": "<p>I've opened a similar question in the Doctrine user mailing list and got a really simple answer;</p>\n\n<p>consider the many to many relation as an entity itself, and then you realize you have 3 objects, linked between them with a one-to-many and many-to-one relation.</p>\n\n<p><a href=\"http://groups.google.com/group/doctrine-user/browse_thread/thread/d1d87c96052e76f7/436b896e83c10868#436b896e83c10868\" rel=\"noreferrer\">http://groups.google.com/group/doctrine-user/browse_thread/thread/d1d87c96052e76f7/436b896e83c10868#436b896e83c10868</a></p>\n\n<p>Once a relation has data, it's no more a relation !</p>\n",
+      "owner": {
+        "display_name": "FMaz008",
+        "link": "https://stackoverflow.com/users/613365/fmaz008"
+      }
+    },
+    {
+      "answer_id": 7562976,
+      "body": "<p>I had similar problems and the only workaround was to pass the whole container in the constructor (<code>arguments: ['@service_container']</code>).</p>\n\n<pre><code>use Doctrine\\ORM\\Event\\LifecycleEventArgs;\nuse Symfony\\Component\\DependencyInjection\\ContainerInterface;\n\nclass MyListener\n{\n    protected $container;\n\n    public function __construct(ContainerInterface $container)\n    {\n        $this-&gt;container = $container;\n    }\n\n    // ...\n\n    public function prePersist(LifeCycleEventArgs $args)\n    {\n        $securityContext = $this-&gt;container-&gt;get('security.context');\n\n        // ...\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "kgilden",
+        "link": "https://stackoverflow.com/users/766120/kgilden"
+      }
+    },
+    {
+      "answer_id": 7191200,
+      "body": "<p>you could write</p>\n\n<pre><code>select DISTINCT f from t;\n</code></pre>\n\n<p>as</p>\n\n<pre><code>select f from t group by f;\n</code></pre>\n\n<p>thing is, I am just currently myself getting into Doctrine, so I cannot give you a real answer. but you could as shown above, simulate a distinct with <a href=\"http://www.doctrine-project.org/api/orm/2.0/doctrine/orm/query/expr/groupby.html\" rel=\"noreferrer\">group by</a> and transform that into <a href=\"http://www.doctrine-project.org/projects/orm/1.2/docs/manual/dql-doctrine-query-language:group-by,-having-clauses/en\" rel=\"noreferrer\">Doctrine</a>. if you want add further filtering then use <code>HAVING</code> after group by.</p>\n",
+      "owner": {
+        "display_name": "Raffael",
+        "link": "https://stackoverflow.com/users/562440/raffael"
+      }
+    },
+    {
+      "answer_id": 7101339,
+      "body": "<p>I'm tired, but this seems like much ado about nothing.</p>\n\n<p>You missed the important bit of that warning:</p>\n\n<blockquote>\n  <p>If you use a STI/CTI entity <strong>as a many-to-one or one-to-one entity</strong></p>\n</blockquote>\n\n<p>That's not the case in your example!  If you had not omitted the doctrine annotations, you might have noticed.</p>\n\n<p>The association User::pets is OneToMany, not [One|Many]ToOne.  One user has many pets.  </p>\n\n<p>The inverse association <strong>is</strong> OneToOne, but it's targeting User, which has no inheritance.</p>\n\n<p>Robin's answer should have been a good hint -- you can log the sql queries and see what doctrine actually does to  your database!</p>\n\n<hr>\n\n<p>The bad-for-performance scenario is something like:</p>\n\n<pre><code>abstract class Pet { ... }\n\nclass Cat extends Pet { ... } \n\nclass Dog extends Pet { ... }\n\nclass Collar {\n   /**\n    * @Column(length=\"16\")\n    */\n\n   protected $color;\n   /**\n    * ManyToOne(targetEntity=\"Pet\")\n    */\n   protected $owner;\n}\n</code></pre>\n\n<p>Now, if you wanted to iterate over all the blue collars, Doctrine runs into some trouble.  It doesn't know what class $owner is going to be, so it can't use a Proxy.  Instead, it's forced to eagerly load $owner to find out whether it's a Cat or a Dog.</p>\n\n<p>This isn't a problem for OneToMany or ManyToMany relationships, because in that case, lazy loading works fine.  Instead of a proxy, you get a PersistentCollection.  And a PersistentCollection is always just a PersistentCollection.  It doesn't care about it's own contents until you actually ask for them.  So lazy loading works fine.</p>\n",
+      "owner": {
+        "display_name": "timdev",
+        "link": "https://stackoverflow.com/users/172588/timdev"
+      }
+    },
+    {
+      "answer_id": 7045693,
+      "body": "<p>Your Category entity is the <a href=\"http://www.doctrine-project.org/docs/orm/2.0/en/reference/association-mapping.html#association-mapping-owning-inverse\">inverse side</a> of the relationship.  </p>\n\n<p>Try changing addItems to look like this:</p>\n\n<pre><code>public function addItem(\\Ako\\StoreBundle\\Entity\\Item $item)\n    {\n        $item-&gt;addCategory($this);\n        $this-&gt;items[] = $item;\n    }\n</code></pre>\n\n<p>Note that I changed your plural names to singular, since you're dealing with single entities, not collections.</p>\n",
+      "owner": {
+        "display_name": "timdev",
+        "link": "https://stackoverflow.com/users/172588/timdev"
+      }
+    },
+    {
+      "answer_id": 6319643,
+      "body": "<p>In researching this issue, I found something that will be important to anyone running into this same issue and looking for a solution.</p>\n\n<p>From the original post, the following line of code:</p>\n\n<pre><code>$qb-&gt;add('where', $qb-&gt;expr()-&gt;in('r.winner', array('?1')));\n</code></pre>\n\n<p>Wrapping the named parameter as an array causes the bound parameter number issue. By removing it from its array wrapping:</p>\n\n<pre><code>$qb-&gt;add('where', $qb-&gt;expr()-&gt;in('r.winner', '?1'));\n</code></pre>\n\n<p>This issue should be fixed. This might have been a problem in previous versions of Doctrine, but it is fixed in the most recent versions of 2.0.</p>\n",
+      "owner": {
+        "display_name": "Buster Neece",
+        "link": "https://stackoverflow.com/users/794418/buster-neece"
+      }
+    },
+    {
+      "answer_id": 6268497,
+      "body": "<p>I fixed it by following this small tutorial: <a href=\"http://andreys.info/blog/2007-11-07/configuring-terminal-to-work-with-mamp-mysql-on-leopard\" rel=\"noreferrer\">http://andreys.info/blog/2007-11-07/configuring-terminal-to-work-with-mamp-mysql-on-leopard</a></p>\n\n<p><strong>[EDIT]:\nI modified the right php.ini and everything's working fine now.</strong></p>\n\n<p>Now I get the following error:</p>\n\n<pre><code>[Exception]                                                                                            \n DateTime::__construct(): It is not safe to rely on the system's timezone settings.\n You are *required* to use the date.timezone setting or the date_default_timezone_set() function.\n In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier.\n We selected 'Europe/Berlin' for 'CEST/2.0/DST' instead \n</code></pre>\n\n<p>Here's the date.timezone config in php.ini</p>\n\n<pre><code>date.timezone = \"Europe/Paris\"\n</code></pre>\n\n<p>I'll try to figure it out myself but if any of you know how to fix it don't hesitate to comment on this. Thanks!</p>\n",
+      "owner": {
+        "display_name": "LBridge",
+        "link": "https://stackoverflow.com/users/401368/lbridge"
+      }
+    },
+    {
+      "answer_id": 5646068,
+      "body": "<p>I had to use</p>\n\n<pre><code>$entityManager-&gt;merge($data)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dennis",
+        "link": "https://stackoverflow.com/users/81976/dennis"
+      }
+    },
+    {
+      "answer_id": 5353862,
+      "body": "<p>You'll need to write your own query (probably using DQL) if you want something that specific. I believe the built in \"findBy\" methods are more for just grabbing objects quickly if you have less specific criteria. I don't know your entity names or where they are stored.  Could be something like this as a function in your Festival Repository.</p>\n\n<pre><code>public function findActiveFestivals($start, $end)\n{\n    $qb = $this-&gt;_em-&gt;createQueryBuilder();\n    $qb-&gt;select('f')\n        -&gt;from('Festival', 'f')\n        -&gt;where('f.start &gt;= :start')\n        -&gt;andWhere('f.end &lt;= :end')\n        -&gt;setParameters(array('start' =&gt; $start, 'end' =&gt; $end));\n\n    return $qb-&gt;getQuery()-&gt;getArrayResult();\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jeremy Hicks",
+        "link": "https://stackoverflow.com/users/284630/jeremy-hicks"
+      }
+    }
+  ]
+}

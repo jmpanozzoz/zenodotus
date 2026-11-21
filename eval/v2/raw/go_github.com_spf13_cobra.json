@@ -1,0 +1,1471 @@
+{
+  "library": "go:github.com/spf13/cobra",
+  "fetched_at": "2026-11-21T17:28:18Z",
+  "questions": [
+    {
+      "question_id": 49148992,
+      "title": "How to invoke help by default for a Cobra Subcommand?",
+      "accepted_answer_id": 49153754,
+      "score": 28,
+      "link": "https://stackoverflow.com/questions/49148992/how-to-invoke-help-by-default-for-a-cobra-subcommand",
+      "owner": {
+        "display_name": "Christopher",
+        "link": "https://stackoverflow.com/users/8263829/christopher"
+      }
+    },
+    {
+      "question_id": 63495992,
+      "title": "What is the difference between go-Cobra PersistentFlags and Flags?",
+      "accepted_answer_id": 63498490,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/63495992/what-is-the-difference-between-go-cobra-persistentflags-and-flags",
+      "owner": {
+        "display_name": "Vahid",
+        "link": "https://stackoverflow.com/users/2596409/vahid"
+      }
+    },
+    {
+      "question_id": 73986477,
+      "title": "How to put cobra sub commands sources into separate folders",
+      "accepted_answer_id": 73986980,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/73986477/how-to-put-cobra-sub-commands-sources-into-separate-folders",
+      "owner": {
+        "display_name": "aTom",
+        "link": "https://stackoverflow.com/users/3149379/atom"
+      }
+    },
+    {
+      "question_id": 63341006,
+      "title": "What is the difference between StringVar vs StringVarP or String vs StringP when using Go (golang), cobra and viper?",
+      "accepted_answer_id": 63341199,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/63341006/what-is-the-difference-between-stringvar-vs-stringvarp-or-string-vs-stringp-when",
+      "owner": {
+        "display_name": "M_M",
+        "link": "https://stackoverflow.com/users/884502/m-m"
+      }
+    },
+    {
+      "question_id": 66952482,
+      "title": "Cobra init not working,: Command not found",
+      "accepted_answer_id": 66952511,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/66952482/cobra-init-not-working-command-not-found",
+      "owner": {
+        "display_name": "user6715722",
+        "link": null
+      }
+    },
+    {
+      "question_id": 54584221,
+      "title": "Cobra change usage line in help template",
+      "accepted_answer_id": 54617575,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/54584221/cobra-change-usage-line-in-help-template",
+      "owner": {
+        "display_name": "Robert M.",
+        "link": "https://stackoverflow.com/users/9119949/robert-m"
+      }
+    },
+    {
+      "question_id": 51228423,
+      "title": "How to unmarshall viper config to struct with dash character",
+      "accepted_answer_id": 51228490,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/51228423/how-to-unmarshall-viper-config-to-struct-with-dash-character",
+      "owner": {
+        "display_name": "Agung Pratama",
+        "link": "https://stackoverflow.com/users/476917/agung-pratama"
+      }
+    },
+    {
+      "question_id": 59709345,
+      "title": "How to implement unit tests for CLI commands in go",
+      "accepted_answer_id": 59714127,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/59709345/how-to-implement-unit-tests-for-cli-commands-in-go",
+      "owner": {
+        "display_name": "Busch",
+        "link": "https://stackoverflow.com/users/2063643/busch"
+      }
+    },
+    {
+      "question_id": 41578264,
+      "title": "Config file with cobra and viper",
+      "accepted_answer_id": 41591070,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/41578264/config-file-with-cobra-and-viper",
+      "owner": {
+        "display_name": "Sascha",
+        "link": "https://stackoverflow.com/users/66907/sascha"
+      }
+    },
+    {
+      "question_id": 67218261,
+      "title": "Validating flags using Cobra",
+      "accepted_answer_id": 67218742,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/67218261/validating-flags-using-cobra",
+      "owner": {
+        "display_name": "Aurelia Peters",
+        "link": "https://stackoverflow.com/users/132319/aurelia-peters"
+      }
+    },
+    {
+      "question_id": 43847791,
+      "title": "Why is Cobra not reading my configuration file?",
+      "accepted_answer_id": 43850691,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/43847791/why-is-cobra-not-reading-my-configuration-file",
+      "owner": {
+        "display_name": "Joff",
+        "link": "https://stackoverflow.com/users/4400804/joff"
+      }
+    },
+    {
+      "question_id": 71121641,
+      "title": "What does this command do &#39;GOFLAGS=-mod=mod&#39;?",
+      "accepted_answer_id": 71229677,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/71121641/what-does-this-command-do-goflags-mod-mod",
+      "owner": {
+        "display_name": "Harshit Kumar",
+        "link": "https://stackoverflow.com/users/17890136/harshit-kumar"
+      }
+    },
+    {
+      "question_id": 47130308,
+      "title": "Golang Cobra subcommands without arguments matching",
+      "accepted_answer_id": 47227243,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/47130308/golang-cobra-subcommands-without-arguments-matching",
+      "owner": {
+        "display_name": "fzlrhmn",
+        "link": "https://stackoverflow.com/users/2457026/fzlrhmn"
+      }
+    },
+    {
+      "question_id": 49848898,
+      "title": "How to set flags programmatically in tests with Cobra?",
+      "accepted_answer_id": 50880663,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/49848898/how-to-set-flags-programmatically-in-tests-with-cobra",
+      "owner": {
+        "display_name": "sixty4bit",
+        "link": "https://stackoverflow.com/users/1066615/sixty4bit"
+      }
+    },
+    {
+      "question_id": 68585090,
+      "title": "If defallt value of &quot;cobra.Command BoolVarP&quot; is &quot;true&quot;, it is always &quot;true&quot;",
+      "accepted_answer_id": 68585234,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/68585090/if-defallt-value-of-cobra-command-boolvarp-is-true-it-is-always-true",
+      "owner": {
+        "display_name": "WarmSunshine",
+        "link": "https://stackoverflow.com/users/14987535/warmsunshine"
+      }
+    },
+    {
+      "question_id": 67742457,
+      "title": "Why am I getting a nil pointer error depending on where I call BindPFlag?",
+      "accepted_answer_id": 67770295,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/67742457/why-am-i-getting-a-nil-pointer-error-depending-on-where-i-call-bindpflag",
+      "owner": {
+        "display_name": "larsks",
+        "link": "https://stackoverflow.com/users/147356/larsks"
+      }
+    },
+    {
+      "question_id": 51246424,
+      "title": "How to Unmarshall Viper config value to struct containing array of string properly?",
+      "accepted_answer_id": 51328167,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/51246424/how-to-unmarshall-viper-config-value-to-struct-containing-array-of-string-proper",
+      "owner": {
+        "display_name": "Agung Pratama",
+        "link": "https://stackoverflow.com/users/476917/agung-pratama"
+      }
+    },
+    {
+      "question_id": 70146280,
+      "title": "Cannot insert dash in Cobra parameters",
+      "accepted_answer_id": 70146855,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/70146280/cannot-insert-dash-in-cobra-parameters",
+      "owner": {
+        "display_name": "Fulvio",
+        "link": "https://stackoverflow.com/users/10519368/fulvio"
+      }
+    },
+    {
+      "question_id": 49974998,
+      "title": "Share properties from separate commands/process",
+      "accepted_answer_id": 50073142,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/49974998/share-properties-from-separate-commands-process",
+      "owner": {
+        "display_name": "user6124024",
+        "link": null
+      }
+    },
+    {
+      "question_id": 61011873,
+      "title": "Can&#39;t add new cobra CLI command when the file is inside a folder",
+      "accepted_answer_id": 61014129,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/61011873/cant-add-new-cobra-cli-command-when-the-file-is-inside-a-folder",
+      "owner": {
+        "display_name": "E235",
+        "link": "https://stackoverflow.com/users/2153777/e235"
+      }
+    },
+    {
+      "question_id": 64918795,
+      "title": "Unable to unmarshal using viper",
+      "accepted_answer_id": 64919032,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/64918795/unable-to-unmarshal-using-viper",
+      "owner": {
+        "display_name": "Parth Wadhwa",
+        "link": "https://stackoverflow.com/users/5122643/parth-wadhwa"
+      }
+    },
+    {
+      "question_id": 69659223,
+      "title": "how to debug golang cobra cli app in vscode",
+      "accepted_answer_id": 69664713,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/69659223/how-to-debug-golang-cobra-cli-app-in-vscode",
+      "owner": {
+        "display_name": "Chetan",
+        "link": "https://stackoverflow.com/users/7942752/chetan"
+      }
+    },
+    {
+      "question_id": 72098388,
+      "title": "How to pass flags as arguments in cobra (golang)?",
+      "accepted_answer_id": 72100034,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/72098388/how-to-pass-flags-as-arguments-in-cobra-golang",
+      "owner": {
+        "display_name": "fabelx",
+        "link": "https://stackoverflow.com/users/14968568/fabelx"
+      }
+    },
+    {
+      "question_id": 46513718,
+      "title": "How can the default helpCommand be called inside a cobra command?",
+      "accepted_answer_id": 46513804,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/46513718/how-can-the-default-helpcommand-be-called-inside-a-cobra-command",
+      "owner": {
+        "display_name": "adm_",
+        "link": "https://stackoverflow.com/users/2030387/adm"
+      }
+    },
+    {
+      "question_id": 56163092,
+      "title": "API Gateway HTTP client request with IAM auth with Go",
+      "accepted_answer_id": 68487025,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/56163092/api-gateway-http-client-request-with-iam-auth-with-go",
+      "owner": {
+        "display_name": "brainstorm",
+        "link": "https://stackoverflow.com/users/457116/brainstorm"
+      }
+    },
+    {
+      "question_id": 64055288,
+      "title": "cobra PersistentPreRun stack overflow",
+      "accepted_answer_id": 64055332,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/64055288/cobra-persistentprerun-stack-overflow",
+      "owner": {
+        "display_name": "Shang Jian Ding",
+        "link": "https://stackoverflow.com/users/4904673/shang-jian-ding"
+      }
+    },
+    {
+      "question_id": 67295788,
+      "title": "How to pass space to Cobra CLI string slice flag?",
+      "accepted_answer_id": 69659275,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/67295788/how-to-pass-space-to-cobra-cli-string-slice-flag",
+      "owner": {
+        "display_name": "brandon_busby",
+        "link": "https://stackoverflow.com/users/11430360/brandon-busby"
+      }
+    },
+    {
+      "question_id": 72708535,
+      "title": "cobra-cli pass all arguments and flags to an executable",
+      "accepted_answer_id": 72710044,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/72708535/cobra-cli-pass-all-arguments-and-flags-to-an-executable",
+      "owner": {
+        "display_name": "Moazzem Hossen",
+        "link": "https://stackoverflow.com/users/7805254/moazzem-hossen"
+      }
+    },
+    {
+      "question_id": 75277125,
+      "title": "GO cobra: space separated values in StringArray flags",
+      "accepted_answer_id": 75277209,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/75277125/go-cobra-space-separated-values-in-stringarray-flags",
+      "owner": {
+        "display_name": "Piotr Zakrzewski",
+        "link": "https://stackoverflow.com/users/854603/piotr-zakrzewski"
+      }
+    },
+    {
+      "question_id": 79434438,
+      "title": "I need to run commands with elevated privileges on my backend",
+      "accepted_answer_id": 79437751,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/79434438/i-need-to-run-commands-with-elevated-privileges-on-my-backend",
+      "owner": {
+        "display_name": "WNuneZ",
+        "link": "https://stackoverflow.com/users/29561751/wnunez"
+      }
+    },
+    {
+      "question_id": 52322279,
+      "title": "Cobra MarkPersistentFlagRequired not working on Root",
+      "accepted_answer_id": 70774029,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/52322279/cobra-markpersistentflagrequired-not-working-on-root",
+      "owner": {
+        "display_name": "buildmaestro",
+        "link": "https://stackoverflow.com/users/4192486/buildmaestro"
+      }
+    },
+    {
+      "question_id": 53158302,
+      "title": "GO: Run cli command with wrong args",
+      "accepted_answer_id": 53160533,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/53158302/go-run-cli-command-with-wrong-args",
+      "owner": {
+        "display_name": "user6124024",
+        "link": null
+      }
+    },
+    {
+      "question_id": 57167774,
+      "title": "How to use a flag with two different names (short and long)",
+      "accepted_answer_id": 57167873,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/57167774/how-to-use-a-flag-with-two-different-names-short-and-long",
+      "owner": {
+        "display_name": "E235",
+        "link": "https://stackoverflow.com/users/2153777/e235"
+      }
+    },
+    {
+      "question_id": 57290306,
+      "title": "Debug file other than main.go in VS Code",
+      "accepted_answer_id": 57291324,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/57290306/debug-file-other-than-main-go-in-vs-code",
+      "owner": {
+        "display_name": "Deepak Patankar",
+        "link": "https://stackoverflow.com/users/7003331/deepak-patankar"
+      }
+    },
+    {
+      "question_id": 59369883,
+      "title": "How to prevent negative integer treated as shorthand flag",
+      "accepted_answer_id": 59369966,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/59369883/how-to-prevent-negative-integer-treated-as-shorthand-flag",
+      "owner": {
+        "display_name": "andig",
+        "link": "https://stackoverflow.com/users/608395/andig"
+      }
+    },
+    {
+      "question_id": 65213200,
+      "title": "Cobra CMD does not executes completly",
+      "accepted_answer_id": 65213880,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/65213200/cobra-cmd-does-not-executes-completly",
+      "owner": {
+        "display_name": "Mario Garc&#237;a M&#225;rquez",
+        "link": "https://stackoverflow.com/users/13686769/mario-garc%c3%ada-m%c3%a1rquez"
+      }
+    },
+    {
+      "question_id": 67912398,
+      "title": "how do I pass a command status to Postrun in cobra cli",
+      "accepted_answer_id": 67915252,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/67912398/how-do-i-pass-a-command-status-to-postrun-in-cobra-cli",
+      "owner": {
+        "display_name": "gbvikas",
+        "link": "https://stackoverflow.com/users/757021/gbvikas"
+      }
+    },
+    {
+      "question_id": 69993691,
+      "title": "Determine if flags were actually passed in (sub)command invocation in golang&#39;s cobra/viper",
+      "accepted_answer_id": 69993757,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/69993691/determine-if-flags-were-actually-passed-in-subcommand-invocation-in-golangs-c",
+      "owner": {
+        "display_name": "pkaramol",
+        "link": "https://stackoverflow.com/users/2409793/pkaramol"
+      }
+    },
+    {
+      "question_id": 70289408,
+      "title": "cobra failing to mark flag as required",
+      "accepted_answer_id": 70774141,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/70289408/cobra-failing-to-mark-flag-as-required",
+      "owner": {
+        "display_name": "pkaramol",
+        "link": "https://stackoverflow.com/users/2409793/pkaramol"
+      }
+    },
+    {
+      "question_id": 70930177,
+      "title": "Kubectl like output format for my cobra project",
+      "accepted_answer_id": 70930331,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/70930177/kubectl-like-output-format-for-my-cobra-project",
+      "owner": {
+        "display_name": "Jibi Makkar",
+        "link": "https://stackoverflow.com/users/5901424/jibi-makkar"
+      }
+    },
+    {
+      "question_id": 72793344,
+      "title": "Recursively generate golang cobra --help text?",
+      "accepted_answer_id": 74228581,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/72793344/recursively-generate-golang-cobra-help-text",
+      "owner": {
+        "display_name": "Mark Harrison",
+        "link": "https://stackoverflow.com/users/116/mark-harrison"
+      }
+    },
+    {
+      "question_id": 73110888,
+      "title": "Retrieve persistent flags only once in cobra",
+      "accepted_answer_id": 73111369,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/73110888/retrieve-persistent-flags-only-once-in-cobra",
+      "owner": {
+        "display_name": "pkaramol",
+        "link": "https://stackoverflow.com/users/2409793/pkaramol"
+      }
+    },
+    {
+      "question_id": 74421144,
+      "title": "Impossible to scan a filepath with Golang",
+      "accepted_answer_id": 74421219,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/74421144/impossible-to-scan-a-filepath-with-golang",
+      "owner": {
+        "display_name": "Elie",
+        "link": "https://stackoverflow.com/users/18919979/elie"
+      }
+    },
+    {
+      "question_id": 75213919,
+      "title": "Can you specify optional arguments to a flag in Cobra?",
+      "accepted_answer_id": 75759870,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/75213919/can-you-specify-optional-arguments-to-a-flag-in-cobra",
+      "owner": {
+        "display_name": "avlclimber",
+        "link": "https://stackoverflow.com/users/20062829/avlclimber"
+      }
+    },
+    {
+      "question_id": 79134430,
+      "title": "When making a CLI in Go using Cobra, how can I detect whether the user specified a bool flag?",
+      "accepted_answer_id": 79134509,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/79134430/when-making-a-cli-in-go-using-cobra-how-can-i-detect-whether-the-user-specified",
+      "owner": {
+        "display_name": "Matt Welke",
+        "link": "https://stackoverflow.com/users/5051165/matt-welke"
+      }
+    },
+    {
+      "question_id": 54024754,
+      "title": "Golang patterns for stdin testing",
+      "accepted_answer_id": 54151965,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/54024754/golang-patterns-for-stdin-testing",
+      "owner": {
+        "display_name": "Peter Souter",
+        "link": "https://stackoverflow.com/users/2417812/peter-souter"
+      }
+    },
+    {
+      "question_id": 59137751,
+      "title": "Cobra cli fails to initialise new tool",
+      "accepted_answer_id": 59138753,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/59137751/cobra-cli-fails-to-initialise-new-tool",
+      "owner": {
+        "display_name": "pkaramol",
+        "link": "https://stackoverflow.com/users/2409793/pkaramol"
+      }
+    },
+    {
+      "question_id": 59201122,
+      "title": "Trouble using Cobra/Viper",
+      "accepted_answer_id": 59209456,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/59201122/trouble-using-cobra-viper",
+      "owner": {
+        "display_name": "ddibiase",
+        "link": "https://stackoverflow.com/users/1213186/ddibiase"
+      }
+    },
+    {
+      "question_id": 60443941,
+      "title": "In Cobra command-line tool, how to use the same variable for different flags?",
+      "accepted_answer_id": 60444171,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/60443941/in-cobra-command-line-tool-how-to-use-the-same-variable-for-different-flags",
+      "owner": {
+        "display_name": "Kurt Peek",
+        "link": "https://stackoverflow.com/users/995862/kurt-peek"
+      }
+    },
+    {
+      "question_id": 66615747,
+      "title": "How to set command name prefixed with -- in cobra",
+      "accepted_answer_id": 66622629,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/66615747/how-to-set-command-name-prefixed-with-in-cobra",
+      "owner": {
+        "display_name": "Anup",
+        "link": "https://stackoverflow.com/users/1182658/anup"
+      }
+    },
+    {
+      "question_id": 68589913,
+      "title": "How can I use Cobra and Viper to bind a value as the first item in an array in the configuration?",
+      "accepted_answer_id": 68593014,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/68589913/how-can-i-use-cobra-and-viper-to-bind-a-value-as-the-first-item-in-an-array-in-t",
+      "owner": {
+        "display_name": "Russell Seymour",
+        "link": "https://stackoverflow.com/users/783726/russell-seymour"
+      }
+    },
+    {
+      "question_id": 70771218,
+      "title": "Why is Cobra flags not working in this code",
+      "accepted_answer_id": 70773631,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/70771218/why-is-cobra-flags-not-working-in-this-code",
+      "owner": {
+        "display_name": "Chris G.",
+        "link": "https://stackoverflow.com/users/699215/chris-g"
+      }
+    },
+    {
+      "question_id": 74213320,
+      "title": "Require a flag as the first argument in a Cobra command",
+      "accepted_answer_id": 74240831,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/74213320/require-a-flag-as-the-first-argument-in-a-cobra-command",
+      "owner": {
+        "display_name": "NumberOneRobot",
+        "link": "https://stackoverflow.com/users/1493950/numberonerobot"
+      }
+    },
+    {
+      "question_id": 75619862,
+      "title": "on windows, how to execute go bin commands of go cobra package?",
+      "accepted_answer_id": 75620374,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/75619862/on-windows-how-to-execute-go-bin-commands-of-go-cobra-package",
+      "owner": {
+        "display_name": "realtebo",
+        "link": "https://stackoverflow.com/users/1055279/realtebo"
+      }
+    },
+    {
+      "question_id": 75947754,
+      "title": "How to combine cobra and klog",
+      "accepted_answer_id": 75955097,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/75947754/how-to-combine-cobra-and-klog",
+      "owner": {
+        "display_name": "moluzhui",
+        "link": "https://stackoverflow.com/users/11264544/moluzhui"
+      }
+    },
+    {
+      "question_id": 77387892,
+      "title": "Unable to call Anchore syft library command multiple times when embedded in Go app",
+      "accepted_answer_id": 77538329,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/77387892/unable-to-call-anchore-syft-library-command-multiple-times-when-embedded-in-go-a",
+      "owner": {
+        "display_name": "Cowardly Snake",
+        "link": "https://stackoverflow.com/users/22826758/cowardly-snake"
+      }
+    },
+    {
+      "question_id": 78807651,
+      "title": "make flag persistent in one subcommand only",
+      "accepted_answer_id": 79129810,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/78807651/make-flag-persistent-in-one-subcommand-only",
+      "owner": {
+        "display_name": "thiagowfx",
+        "link": "https://stackoverflow.com/users/1745064/thiagowfx"
+      }
+    },
+    {
+      "question_id": 41756540,
+      "title": "How to accept input in a single line using cobra library in Go",
+      "accepted_answer_id": 41761404,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/41756540/how-to-accept-input-in-a-single-line-using-cobra-library-in-go",
+      "owner": {
+        "display_name": "Manu",
+        "link": "https://stackoverflow.com/users/6643210/manu"
+      }
+    },
+    {
+      "question_id": 43551721,
+      "title": "error adding golang cobra package with glide",
+      "accepted_answer_id": 43557669,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/43551721/error-adding-golang-cobra-package-with-glide",
+      "owner": {
+        "display_name": "Amal",
+        "link": "https://stackoverflow.com/users/1096247/amal"
+      }
+    },
+    {
+      "question_id": 49221325,
+      "title": "How to extract registered information?",
+      "accepted_answer_id": 49276716,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/49221325/how-to-extract-registered-information",
+      "owner": {
+        "display_name": "bharat nc",
+        "link": "https://stackoverflow.com/users/5981590/bharat-nc"
+      }
+    },
+    {
+      "question_id": 53468224,
+      "title": "how to have each cobra command parse its own flags? getting initialization loop (expected, but how to avoid?)",
+      "accepted_answer_id": 53469247,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/53468224/how-to-have-each-cobra-command-parse-its-own-flags-getting-initialization-loop",
+      "owner": {
+        "display_name": "a person",
+        "link": "https://stackoverflow.com/users/6402561/a-person"
+      }
+    },
+    {
+      "question_id": 56485807,
+      "title": "How to get 2 flags from a make command cobra",
+      "accepted_answer_id": 56487996,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/56485807/how-to-get-2-flags-from-a-make-command-cobra",
+      "owner": {
+        "display_name": "not_fubar_yet",
+        "link": "https://stackoverflow.com/users/3357984/not-fubar-yet"
+      }
+    },
+    {
+      "question_id": 58452611,
+      "title": "How is a Cobra Flag of type `StringToStringVar` access using Viper?",
+      "accepted_answer_id": 58470849,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/58452611/how-is-a-cobra-flag-of-type-stringtostringvar-access-using-viper",
+      "owner": {
+        "display_name": "Russell Seymour",
+        "link": "https://stackoverflow.com/users/783726/russell-seymour"
+      }
+    },
+    {
+      "question_id": 58543328,
+      "title": "Golang Cobra command flags in common function not getting values from CLI",
+      "accepted_answer_id": 58543837,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/58543328/golang-cobra-command-flags-in-common-function-not-getting-values-from-cli",
+      "owner": {
+        "display_name": "DonOfDen",
+        "link": "https://stackoverflow.com/users/2090453/donofden"
+      }
+    },
+    {
+      "question_id": 65509199,
+      "title": "Moving data access and business logic to CLI and using in graphql server",
+      "accepted_answer_id": 65509345,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/65509199/moving-data-access-and-business-logic-to-cli-and-using-in-graphql-server",
+      "owner": {
+        "display_name": "Jake Lowen",
+        "link": "https://stackoverflow.com/users/981573/jake-lowen"
+      }
+    },
+    {
+      "question_id": 68311787,
+      "title": "How to implement multiple options with cobra",
+      "accepted_answer_id": 68312167,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/68311787/how-to-implement-multiple-options-with-cobra",
+      "owner": {
+        "display_name": "null",
+        "link": "https://stackoverflow.com/users/8007188/null"
+      }
+    },
+    {
+      "question_id": 71260882,
+      "title": "Link another Golang Cobra CLI to current Golang Cobra CLI",
+      "accepted_answer_id": 71310073,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/71260882/link-another-golang-cobra-cli-to-current-golang-cobra-cli",
+      "owner": {
+        "display_name": "jtee",
+        "link": "https://stackoverflow.com/users/16258438/jtee"
+      }
+    },
+    {
+      "question_id": 72341938,
+      "title": "`no such file or directory` with `os.Remove` inside go routine",
+      "accepted_answer_id": 72345957,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/72341938/no-such-file-or-directory-with-os-remove-inside-go-routine",
+      "owner": {
+        "display_name": "hoomz",
+        "link": "https://stackoverflow.com/users/5765493/hoomz"
+      }
+    },
+    {
+      "question_id": 72876309,
+      "title": "Using no flag options with Cobra Command?",
+      "accepted_answer_id": 72905873,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/72876309/using-no-flag-options-with-cobra-command",
+      "owner": {
+        "display_name": "aronchick",
+        "link": "https://stackoverflow.com/users/4322/aronchick"
+      }
+    },
+    {
+      "question_id": 72891199,
+      "title": "Procedurally bind struct fields to command line flag values using reflect",
+      "accepted_answer_id": 72893101,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/72891199/procedurally-bind-struct-fields-to-command-line-flag-values-using-reflect",
+      "owner": {
+        "display_name": "John Hoffman",
+        "link": "https://stackoverflow.com/users/16589436/john-hoffman"
+      }
+    },
+    {
+      "question_id": 74934087,
+      "title": "Golang Cobra multiple flags with no value",
+      "accepted_answer_id": 74935473,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/74934087/golang-cobra-multiple-flags-with-no-value",
+      "owner": {
+        "display_name": "Robert Jensen",
+        "link": "https://stackoverflow.com/users/14712651/robert-jensen"
+      }
+    },
+    {
+      "question_id": 75276474,
+      "title": "Passing Persistant flags for Cobra CLI for testing",
+      "accepted_answer_id": 75295275,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/75276474/passing-persistant-flags-for-cobra-cli-for-testing",
+      "owner": {
+        "display_name": "Mohamed Yasser",
+        "link": "https://stackoverflow.com/users/16516114/mohamed-yasser"
+      }
+    },
+    {
+      "question_id": 77344437,
+      "title": "Context retrieved from cobra subcommand is empty",
+      "accepted_answer_id": 77345083,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/77344437/context-retrieved-from-cobra-subcommand-is-empty",
+      "owner": {
+        "display_name": "pkaramol",
+        "link": "https://stackoverflow.com/users/2409793/pkaramol"
+      }
+    },
+    {
+      "question_id": 78449607,
+      "title": "golang cobra local flags assignment",
+      "accepted_answer_id": 78449819,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/78449607/golang-cobra-local-flags-assignment",
+      "owner": {
+        "display_name": "Simply  Seth",
+        "link": "https://stackoverflow.com/users/215800/simply-seth"
+      }
+    },
+    {
+      "question_id": 47856810,
+      "title": "How to provide go bin with commands",
+      "accepted_answer_id": 47856870,
+      "score": -1,
+      "link": "https://stackoverflow.com/questions/47856810/how-to-provide-go-bin-with-commands",
+      "owner": {
+        "display_name": "07_05_GuyT",
+        "link": "https://stackoverflow.com/users/3012133/07-05-guyt"
+      }
+    },
+    {
+      "question_id": 57181589,
+      "title": "Failed to get flag value",
+      "accepted_answer_id": 57183092,
+      "score": -2,
+      "link": "https://stackoverflow.com/questions/57181589/failed-to-get-flag-value",
+      "owner": {
+        "display_name": "E235",
+        "link": "https://stackoverflow.com/users/2153777/e235"
+      }
+    },
+    {
+      "question_id": 65695502,
+      "title": "How can I get the Flag chosen by the user in my CLI",
+      "accepted_answer_id": 65703162,
+      "score": -4,
+      "link": "https://stackoverflow.com/questions/65695502/how-can-i-get-the-flag-chosen-by-the-user-in-my-cli",
+      "owner": {
+        "display_name": "Wallace Figueiredo",
+        "link": "https://stackoverflow.com/users/1964364/wallace-figueiredo"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 79437751,
+      "body": "<p>I have achieved it, It was necessary to detect the operating system and port the C# script to node.js, I'm not sure if this is the correct way to do it but it works fine for now.</p>\n<p><em><strong>note:</strong></em> any suggestions will be welcome.</p>\n<pre><code>const { exec, spawn } = require('child_process');\nconst os = require('os');\n\n/**\n * Manages application elevation and admin privileges across different platforms\n */\nclass AdminPrivilegesManager {\n    /**\n     * Checks and ensures the application runs with admin privileges\n     * @returns {Promise&lt;void&gt;}\n     */\n    static async ensureAdminPrivileges() {\n        const isAdmin =  this.checkPrivilegesAndRelaunch();\n        console.log('isAdmin',isAdmin);\n    }\n\n    static async checkPrivilegesAndRelaunch() {\n        if (os.platform() === 'win32') {\n            await exec('net session', (err) =&gt; {\n                if (err) {\n                    console.log(&quot;Not running as Administrator. Relaunching...&quot;);\n                    this.relaunchAsAdmin();\n                } else {\n                    console.log(&quot;Running as Administrator.&quot;);\n                }\n            });\n        } else {\n            if (process.getuid &amp;&amp; process.getuid() !== 0) {\n                console.log(&quot;Not running as root. Relaunching...&quot;);\n                this.relaunchAsAdmin();\n            } else {\n                console.log(&quot;Running as root.&quot;);\n            }\n        }\n        return true;\n    }\n\n    static relaunchAsAdmin() {\n        const platform = os.platform();\n        const appPath = process.argv[0]; // Path to Electron executable\n        const scriptPath = process.argv[1]; // Path to main.js (or entry point)\n        const workingDir = process.cwd(); // Ensure correct working directory\n        const args = process.argv.slice(2).join(' '); // Preserve additional arguments\n\n        if (platform === 'win32') {\n            const command = `powershell -Command &quot;Start-Process '${appPath}' -ArgumentList '${scriptPath} ${args}' -WorkingDirectory '${workingDir}' -Verb RunAs&quot;`;\n            exec(command, (err) =&gt; {\n                if (err) {\n                    console.error(&quot;Failed to elevate to administrator:&quot;, err);\n                } else {\n                    console.log(&quot;Restarting with administrator privileges...&quot;);\n                    process.exit(0);\n                }\n            });\n        } else {\n            const elevatedProcess = spawn('sudo', [appPath, scriptPath, ...process.argv.slice(2)], {\n                stdio: 'inherit',\n                detached: true,\n                cwd: workingDir, // Set correct working directory\n            });\n\n            elevatedProcess.on('error', (err) =&gt; {\n                console.error(&quot;Failed to elevate to root:&quot;, err);\n            });\n\n            elevatedProcess.on('spawn', () =&gt; {\n                console.log(&quot;Restarting with root privileges...&quot;);\n                process.exit(0);\n            });\n        }\n    }\n}\n\nmodule.exports = AdminPrivilegesManager;\n</code></pre>\n<p><em><strong>Let's go with the script explanation so you don't feel lost:</strong></em></p>\n<ul>\n<li><code>exec</code>: Executes commands on the command line and returns the output.</li>\n<li><code>spawn</code>: Executes processes in the background.</li>\n<li><code>os</code>: Obtains information about the operating system.</li>\n</ul>\n<p>Additional:</p>\n<ul>\n<li><code>net session</code>: is a command that only works with administrator permissions if it fails <code>err</code> exists, then it will relaunch the application with elevated privileges. For Linux, <code>process.getuid()</code> is used if it is 0 then it will be understood that it is <code>root</code> as if it had been opened with <code>sudo</code>.</li>\n</ul>\n<p>To relaunch the applications in Windows, PowerShell is used with the argument <code>-Verb RunAs</code>. This will allow the application to be relaunched with administrator privileges. In the case of Linux, <code>spawn('sudo', [...])</code>...</p>\n<p>To relaunch the application, it was necessary to perform a series of checks to obtain the platform data, the path to the electron executable, the main.js script, and the option to preserve some arguments, so that it works correctly in the development environment. At this point, I realize that I still have a correction to add for the production environment, but that is not the point of this post. work well on development.</p>\n",
+      "owner": {
+        "display_name": "WNuneZ",
+        "link": "https://stackoverflow.com/users/29561751/wnunez"
+      }
+    },
+    {
+      "answer_id": 79134509,
+      "body": "<p>Lookup the flag and see if it is changed:</p>\n<pre><code>if !cmd.Flags().Changed(&quot;boolFlag) {\n  // Flag was not set\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Burak Serdar",
+        "link": "https://stackoverflow.com/users/11923999/burak-serdar"
+      }
+    },
+    {
+      "answer_id": 79129810,
+      "body": "<p>Here is minimal example that functions as you describe.</p>\n<p>TLDR:</p>\n<p>You may have attached <code>PersistentFlags</code> to the root command <code>prog</code> with <code>start</code> and <code>stop</code> being sub commands, and thus persists by definition.</p>\n<blockquote>\n<p>A flag can be ‘persistent’ meaning that this flag will be available to the command it’s assigned to as well as every command under that command. For global flags, assign a flag as a persistent flag on the root.</p>\n</blockquote>\n<p>In the example below, set <code>PersistenFlags()</code> or <code>Flags()</code> to each <code>start</code> and <code>stop</code> sub command and apply <code>MarkPersistentFlagRequired()</code> or <code>MarkFlagRequired()</code> respectively for each required flag.</p>\n<hr />\n<p>Example File Layout</p>\n<pre><code>├── cmd\n│   ├── root.go\n│   ├── start.go\n│   └── stop.go\n├── go.mod\n├── go.sum\n├── main.go\n</code></pre>\n<p><code>main.go</code></p>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;stackoverflow/78807651/prog/cmd&quot;\n)\n\nfunc main() {\n    cmd.Execute()\n}\n\n</code></pre>\n<p><code>cmd/root.go</code></p>\n<pre class=\"lang-golang prettyprint-override\"><code>package cmd\n\nimport (\n    &quot;github.com/spf13/cobra&quot;\n)\n\nvar RootCmd = &amp;cobra.Command{\n    Use:   &quot;prog&quot;,\n}\n\nfunc Execute() {\n    RootCmd.Execute()\n}\n\n</code></pre>\n<p><code>cmd/start.go</code></p>\n<pre class=\"lang-golang prettyprint-override\"><code>package cmd\n\nimport (\n    &quot;fmt&quot;\n    &quot;github.com/spf13/cobra&quot;\n)\n\nvar startCmd = &amp;cobra.Command{\n    Use:   &quot;start&quot;,\n    Run: func(cmd *cobra.Command, args []string) {\n        fmt.Println(&quot;starting...&quot;)\n    },\n}\n\nfunc init() {\n    RootCmd.AddCommand(startCmd)\n\n    // startCmd.Flags().StringP(&quot;database&quot;, &quot;d&quot;, &quot;&quot;, &quot;testdb&quot;)\n    // startCmd.MarkFlagRequired(&quot;database&quot;)\n\n    startCmd.PersistentFlags().StringP(&quot;database&quot;, &quot;d&quot;, &quot;&quot;, &quot;testdb&quot;)\n    startCmd.MarkPersistentFlagRequired(&quot;database&quot;)\n}\n\n</code></pre>\n<p><code>cmd/stop.go</code></p>\n<pre class=\"lang-golang prettyprint-override\"><code>package cmd\n\nimport (\n    &quot;fmt&quot;\n    &quot;github.com/spf13/cobra&quot;\n)\n\nvar stopCmd = &amp;cobra.Command{\n    Use:   &quot;stop&quot;,\n    Run: func(cmd *cobra.Command, args []string) {\n        fmt.Println(&quot;stopped...&quot;)\n    },\n}\n\nfunc init() {\n    RootCmd.AddCommand(stopCmd)\n\n    // stopCmd.Flags().StringP(&quot;database&quot;, &quot;d&quot;, &quot;&quot;, &quot;testdb&quot;)\n    // stopCmd.MarkFlagRequired(&quot;database&quot;)\n\n    stopCmd.PersistentFlags().StringP(&quot;database&quot;, &quot;d&quot;, &quot;&quot;, &quot;testdb&quot;)\n    // stopCmd.MarkPersistentFlagRequired(&quot;database&quot;)\n\n}\n\n</code></pre>\n<ul>\n<li><a href=\"https://cobra.dev/#persistent-flags\" rel=\"nofollow noreferrer\">https://cobra.dev/#persistent-flags</a></li>\n<li><a href=\"https://cobra.dev/#required-flags\" rel=\"nofollow noreferrer\">https://cobra.dev/#required-flags</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "eephillip",
+        "link": "https://stackoverflow.com/users/1223763/eephillip"
+      }
+    },
+    {
+      "answer_id": 78449819,
+      "body": "<p>You could also use a <a href=\"https://github.com/spf13/cobra/blob/main/site/content/user_guide.md#persistent-flags\" rel=\"nofollow noreferrer\">persistent flag</a> for the parent command. Otherwise, yes you have to assign the flag to every command it is used in. You could use a loop instead of repeating the same line, though.</p>\n",
+      "owner": {
+        "display_name": "eik",
+        "link": "https://stackoverflow.com/users/1232928/eik"
+      }
+    },
+    {
+      "answer_id": 77538329,
+      "body": "<p>I reached out to the Anchore Community who were able to solve my problem.</p>\n<p>I needed to use the Syft library directly rather than via the cobra command.</p>\n<p>For an example see <a href=\"https://gist.github.com/spiffcs/3027638b7ba904d07e482a712bc00d3d\" rel=\"nofollow noreferrer\">https://gist.github.com/spiffcs/3027638b7ba904d07e482a712bc00d3d</a></p>\n<p>Many thanks to Christopher Phillips</p>\n",
+      "owner": {
+        "display_name": "Cowardly Snake",
+        "link": "https://stackoverflow.com/users/22826758/cowardly-snake"
+      }
+    },
+    {
+      "answer_id": 77345083,
+      "body": "<p>As mentioned by @Peter, cmd and rootCmd are not the same. Cobra document describes <code>PersistentPreRun(E)</code>:</p>\n<blockquote>\n<p>children of this command will inherit and execute.</p>\n</blockquote>\n<p>So <code>cmd.SetContext(ctx)</code> is not setting the rootCmd's context, it's setting the subcommand's context instead.</p>\n<p>Then in a subcommand, you can use:</p>\n<pre><code>ctx := cmd.Context()\n</code></pre>\n<p>Instead of <code>rootCmd.Context()</code>.</p>\n",
+      "owner": {
+        "display_name": "Hamed N.",
+        "link": "https://stackoverflow.com/users/20034189/hamed-n"
+      }
+    },
+    {
+      "answer_id": 75955097,
+      "body": "<p>There is nothing wrong in your code. The only issue is that you must use the <code>-flag=false</code> form to turn off a boolean flag (see <a href=\"https://pkg.go.dev/flag#hdr-Command_line_flag_syntax\" rel=\"nofollow noreferrer\">Command line flag syntax</a>).</p>\n<p>Try this command (repalce <code>--logtostderr false</code> with <code>--logtostderr=false</code>):</p>\n<pre><code>go run main2.go --logtostderr=false --log_file_max_size &quot;100&quot; --alsologtostderr true --log_file &quot;/home/test/workspace/klogfile/test2.log&quot;\n</code></pre>\n<p>BTW, I think <code>--log_file_max_size &quot;100&quot;</code> could be simplified to <code>--log_file_max_size 100</code>.</p>\n<hr />\n<p><strong>Update</strong>:</p>\n<p>To reduce the exposed flags of klog:</p>\n<pre><code> package main\n \n import (\n    &quot;flag&quot;\n    &quot;github.com/spf13/cobra&quot;\n    &quot;k8s.io/klog&quot;\n )\n \n var (\n    str     = &quot;hello world&quot;\n+   logFile string\n )\n \n func NewCommand() *cobra.Command {\n+   var fs flag.FlagSet\n+   klog.InitFlags(&amp;fs)\n\n    cmd := &amp;cobra.Command{\n        Use:   &quot;echo&quot;,\n        Short: &quot;use klog with cobra&quot;,\n        Long:  &quot;Use klog together with cobra.&quot;,\n        Run: func(cmd *cobra.Command, args []string) {\n+           fs.Set(&quot;logtostderr&quot;, &quot;false&quot;)\n+           fs.Set(&quot;log_file&quot;, logFile)\n\n            Run()\n        },\n    }\n-   klog.InitFlags(flag.CommandLine)\n-   cmd.Flags().AddGoFlagSet(flag.CommandLine)\n    cmd.Flags().SortFlags = false\n    cmd.Flags().StringVar(&amp;str, &quot;str&quot;, str, &quot;string to print&quot;)\n+   cmd.Flags().StringVar(&amp;logFile, &quot;log_file&quot;, &quot;&quot;, &quot;If non-empty, use this log file&quot;)\n    return cmd\n }\n func Run() {\n    defer klog.Flush()\n    klog.Infof(&quot;Running, str:%s&quot;, str)\n }\n \n func main() {\n    if err := NewCommand().Execute(); err != nil {\n        klog.Fatalf(&quot;root cmd execute failed, err=%v&quot;, err)\n    }\n }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Zeke Lu",
+        "link": "https://stackoverflow.com/users/1369400/zeke-lu"
+      }
+    },
+    {
+      "answer_id": 75759870,
+      "body": "<p>It can be done using NoOptDefVal</p>\n<pre><code>rootCmd.PersistentFlags().Lookup(&quot;someflag&quot;).NoOptDefVal = &quot;5&quot;\n</code></pre>\n<p>In the following code, you can find a complete example of a command line application with cobra that have the behavior you describe</p>\n<pre><code>package main\n\nimport (\n    &quot;fmt&quot;\n    &quot;github.com/spf13/cobra&quot;\n)\n\nfunc main() {\n    var someFlag int\n    var defaultSomeFlag = &quot;5&quot;\n\n    // Create the root command.\n    rootCmd := &amp;cobra.Command{\n        Use:   &quot;program&quot;,\n        Short: &quot;A brief description of your application&quot;,\n        Long:  &quot;A longer description of your application&quot;,\n        Run: func(cmd *cobra.Command, args []string) {\n            // Check whether the flag was explicitly set.\n            if cmd.Flags().Lookup(&quot;someflag&quot;).Changed {\n                fmt.Printf(&quot;someflag: %d\\n&quot;, someFlag)\n            } else {\n                // If the flag was not explicitly set don't print a value.\n                fmt.Printf(&quot;someflag is not set\\n&quot;)\n            }\n        },\n    }\n\n    // Define the flag and set its default value.\n    rootCmd.PersistentFlags().IntVar(&amp;someFlag, &quot;someflag&quot;, 0, &quot;do something (range: x-y)&quot;)\n    rootCmd.PersistentFlags().Lookup(&quot;someflag&quot;).NoOptDefVal = defaultSomeFlag\n\n    // Execute the root command.\n    if err := rootCmd.Execute(); err != nil {\n        fmt.Println(err)\n    }\n}\n</code></pre>\n<p>Below are the results of the execution with different flag values.</p>\n<pre><code>$ ./test\nsomeflag is not set\n$ ./test --someflag\nsomeflag: 5\n$ ./test --someflag=3\nsomeflag: 3\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jose &#193;ngel de Pascual Viciana",
+        "link": "https://stackoverflow.com/users/8362822/jose-%c3%81ngel-de-pascual-viciana"
+      }
+    },
+    {
+      "answer_id": 75620374,
+      "body": "<p>Thanks to comment of @JimB I followd the project readme <a href=\"https://github.com/spf13/cobra/\" rel=\"nofollow noreferrer\">here</a></p>\n<p>First, init a module</p>\n<pre><code>go mod init &lt;package name&gt;\n</code></pre>\n<p>I installed the cobra dep as</p>\n<pre><code>go get -u github.com/spf13/cobra@latest\n</code></pre>\n<p>Then I installed as is the cobra cli</p>\n<pre><code>go install github.com/spf13/cobra-cli@latest\n</code></pre>\n<p>Another usefull REAMDE is <a href=\"https://github.com/spf13/cobra-cli/blob/main/README.md\" rel=\"nofollow noreferrer\">here, about cobra-cli</a></p>\n<p>I can init the cobra project structure using</p>\n<pre><code>cobra-cli init\n</code></pre>\n<p>And the I can create commands like ..</p>\n<pre><code>cobra-cli add list\ncobra-cli add delete \n...\n</code></pre>\n",
+      "owner": {
+        "display_name": "realtebo",
+        "link": "https://stackoverflow.com/users/1055279/realtebo"
+      }
+    },
+    {
+      "answer_id": 75295275,
+      "body": "<p>I think I found the problem. Thanks to the example provided by Iarsks.</p>\n<p>My previous root had</p>\n<pre><code>\nfunc Execute() {\n    RootCmd.CompletionOptions.HiddenDefaultCmd = true\n    RootCmd.PersistentFlags().IntVarP(&amp;threads, &quot;threads&quot;, &quot;t&quot;, 1, &quot;Number of concurrent workers, using Stdin overrides this flag&quot;)\n    RootCmd.PersistentFlags().StringVarP(&amp;delimiter, &quot;delimiter&quot;, &quot;d&quot;, &quot;,&quot;, &quot;Choose delimiter&quot;)\n    if err := RootCmd.Execute(); err != nil {\n        fmt.Fprintf(os.Stderr, &quot;csvutil encountered an error while executing&quot;)\n        os.Exit(1)\n    }\n}\n</code></pre>\n<p>I split this function into:</p>\n<pre><code>\nfunc init() {\n    RootCmd.CompletionOptions.HiddenDefaultCmd = true\n    RootCmd.PersistentFlags().IntVarP(&amp;threads, &quot;threads&quot;, &quot;t&quot;, 1, &quot;Number of concurrent workers, using Stdin overrides this flag&quot;)\n    RootCmd.PersistentFlags().StringVarP(&amp;delimiter, &quot;delimiter&quot;, &quot;d&quot;, &quot;,&quot;, &quot;Choose delimiter&quot;)\n}\n\nfunc Execute() {\n    if err := RootCmd.Execute(); err != nil {\n        fmt.Fprintf(os.Stderr, &quot;csvutil encountered an error while executing&quot;)\n        os.Exit(1)\n    }\n}\n</code></pre>\n<p>And now it works fine.</p>\n",
+      "owner": {
+        "display_name": "Mohamed Yasser",
+        "link": "https://stackoverflow.com/users/16516114/mohamed-yasser"
+      }
+    },
+    {
+      "answer_id": 75277209,
+      "body": "<p>There isn't a built-in way in cobra to do this, as there will be ambiguity. For example, in the case when there is also a sub-command  named <code>valueB1</code> or <code>valueB2</code>, it's not clear whether those should be executed as subcommands or interpreted as additional argument to <code>--flag</code>.</p>\n<p>The standard way to support an input like this is to expect the the input values are quoted, and cobra supports that. E.g.:</p>\n<pre><code>--flag=&quot;valueA1 valueB1&quot; --flag=&quot;valueA2 valueB2&quot;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Shang Jian Ding",
+        "link": "https://stackoverflow.com/users/4904673/shang-jian-ding"
+      }
+    },
+    {
+      "answer_id": 74935473,
+      "body": "<p>Maybe to make the usage a bit cleaner, as stated in the comment from Burak - you can better differentiate between commands and flags. With cobra you have the root command and sub-commands attached to the root command. Additionaly each command can accept flags.</p>\n<p>In your case, <code>charger</code> is the root commands and you want two sub-commands: <code>update_firmware</code> and <code>reboot</code>.</p>\n<p>So as an example to reboot the charger, you would execute the command:</p>\n<pre><code>$ charger reboot\n</code></pre>\n<p>In the code above, you are trying to define sub-commands as flags, which is possible, but likely not good practice.</p>\n<p>Instead, the project should be set-up something like this: <a href=\"https://github.com/hesamchobanlou/stackoverflow/tree/main/74934087\" rel=\"nofollow noreferrer\">https://github.com/hesamchobanlou/stackoverflow/tree/main/74934087</a></p>\n<p>You can then move the <code>UpdateFirmware(...)</code> operation within the respective command definition under cmd/update_firmware.go instead of trying to check each flag variation on the root chargerCmd.</p>\n<p>If that does not help, provide some more details on why you think your approach might not be correct?</p>\n",
+      "owner": {
+        "display_name": "Hesam Chobanlou",
+        "link": "https://stackoverflow.com/users/5923042/hesam-chobanlou"
+      }
+    },
+    {
+      "answer_id": 71229677,
+      "body": "<p>So there are two things here</p>\n<ul>\n<li><code>GOFLAGS</code>\n<ul>\n<li>this is nothing but an environment variable(if you don't understand what an environment variable is, think of it like a value that can be accessed by any process in your current environment. These values are maintained by the OS).</li>\n<li>So this <code>GOFLAGS</code> variable has a space separated list of flags that will automatically be passed to the appropriate go commands.</li>\n<li>The flag we are setting here is <code>mod</code>, this flag is applicable to the <code>go build</code> command and may not be applicable to other go commands.</li>\n<li>If you are curious how <code>go</code> does this, <a href=\"https://go-review.googlesource.com/c/go/+/126656/4\" rel=\"nofollow noreferrer\">refer to this change request</a></li>\n<li>Since we are mentioning this as part of the command, this environment variable is temporarily set and is not actually exported.</li>\n</ul>\n</li>\n<li>what does setting <code>-mod=mod</code> flag, actually do during <code>go build</code>?\n<ul>\n<li>The <code>-mod</code> flag controls whether go.mod may be automatically updated and whether the vendor directory is used.</li>\n<li><code>-mod=mod</code> tells the go command to ignore the vendor directory and to automatically update go.mod, for example, when an imported package is not provided by any known module.</li>\n<li><a href=\"https://go.dev/ref/mod#build-commands\" rel=\"nofollow noreferrer\">Refer this</a>.</li>\n</ul>\n</li>\n</ul>\n<p>Therefore</p>\n<pre class=\"lang-bash prettyprint-override\"><code>GOFLAGS=&quot;-mod=mod&quot; go build main.go\n</code></pre>\n<p>is equivalent to</p>\n<pre class=\"lang-bash prettyprint-override\"><code>go build -mod=mod main.go\n</code></pre>\n",
+      "owner": {
+        "display_name": "Aswin Thiyagarajan",
+        "link": "https://stackoverflow.com/users/11490368/aswin-thiyagarajan"
+      }
+    },
+    {
+      "answer_id": 74421219,
+      "body": "<p>In case if <code>dir</code> variable is <code>nil</code> you'll receive <code>nil pointer dereference</code>.</p>\n<p>It's better to check for any error (<code>errors.Is</code>) before check for dir(<code>dir.IsDir()</code>):</p>\n<pre><code>dir, err := os.Stat(dldpath)\nif errors.Is(err, os.ErrNotExist) {\n    fmt.Println(chalk.Red, &quot;Erreur : Dossier introuvable&quot;)\n    os.Exit(0)\n}\nif !dir.IsDir() {\n    fmt.Println(chalk.Red, &quot;Erreur : Le chemin spécifié n'est pas un dossier&quot;)\n    os.Exit(0)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Roman Kiselenko",
+        "link": "https://stackoverflow.com/users/2057388/roman-kiselenko"
+      }
+    },
+    {
+      "answer_id": 74240831,
+      "body": "<p>It seems like the best option is to just use a subcommand for this instead of a flag.</p>\n",
+      "owner": {
+        "display_name": "NumberOneRobot",
+        "link": "https://stackoverflow.com/users/1493950/numberonerobot"
+      }
+    },
+    {
+      "answer_id": 74228581,
+      "body": "<p>I was able to hack something up. This is just a simple recursive function that filters out some noise by command name (e.g I skip over autogenerated help and bash completion commands)</p>\n<pre><code>var dumpAllHelp = &quot;dump-all-help&quot;\nvar recHelpCmd = &amp;cobra.Command{\n    Use:   dumpAllHelp,\n    Short: &quot;dump all help texts&quot;,\n    Long:  &quot;dump all help texts&quot;,\n    Run: func(_ *cobra.Command, _ []string) {\n        dumpHelp(rootCmd, true)\n    },\n}\n\nfunc dumpHelp(c *cobra.Command, root bool) {\n    if !root {\n        fmt.Println(&quot;&quot;)\n        fmt.Println(&quot;========================================================&quot;)\n        fmt.Println(&quot;&quot;)\n    }\n    c.Help()\n    for _, child := range c.Commands() {\n        if child.Hidden || child.Name() == &quot;completion&quot; || child.Name() == &quot;help&quot; || child.Name() == dumpAllHelp {\n            continue\n        }\n        dumpHelp(child, false)\n    }\n}\n\nfunc init() {\n    rootCmd.AddCommand(recHelpCmd)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Havin Leung",
+        "link": "https://stackoverflow.com/users/8255550/havin-leung"
+      }
+    },
+    {
+      "answer_id": 73986980,
+      "body": "<p>You can't get the layout you want by using the <code>cobra-cli</code> command, but you can certainly set things up manually. Let's start with the <code>cobra-cli</code> layou:</p>\n<pre><code>$ go mod init example\n$ cobra-cli init\n</code></pre>\n<p>And add a couple of commands:</p>\n<pre><code>$ cobra-cli add foo\n$ cobra-cli add bar\n</code></pre>\n<p>This gets us:</p>\n<pre><code>.\n├── cmd\n│   ├── bar.go\n│   ├── foo.go\n│   └── root.go\n├── go.mod\n├── go.sum\n├── LICENSE\n└── main.go\n</code></pre>\n<p>Let's first move the commands into subdirectories so we have the desired layout. That gets us:</p>\n<pre><code>.\n├── cmd\n│   ├── bar\n│   │   └── bar.go\n│   ├── foo\n│   │   └── foo.go\n│   └── root.go\n├── go.mod\n├── go.sum\n├── LICENSE\n└── main.go\n</code></pre>\n<p>Now we need to make some changes to our code so that this works.</p>\n<ol>\n<li><p>Because our subcommands are now in separate packages, we'll need to rename <code>rootCmd</code> so that it is exportable.</p>\n<pre><code>find cmd -name '*.go' -print | xargs sed -i 's/rootCmd/RootCmd/g'\n</code></pre>\n</li>\n<li><p>We need each subcommand to be in its own package, so we'll replace <code>package cmd</code> at the top of <code>cmd/foo/foo.go</code> with <code>package foo</code>, and with <code>package bar</code> in <code>cmd/bar/bar.go</code>.</p>\n</li>\n<li><p>We need the subcommands to import the root command so that they can call <code>RootCmd.AddCommand</code>. That means in <code>cmd/foo/foo.go</code> and <code>cmd/bar/bar.go</code> we need to add <code>example/cmd</code> to our <code>import</code> section (recall that we named our top-level package <code>example</code> via the <code>go mod init</code> command). That means each file will start with:</p>\n<pre><code>package foo\n\nimport (\n        &quot;fmt&quot;\n\n        &quot;example/cmd&quot;\n        &quot;github.com/spf13/cobra&quot;\n)\n</code></pre>\n<p>As part of this change, we will also need to update the reference to <code>AddCommand</code> to use an explicit package name:</p>\n<pre><code>func init() {\n  cmd.RootCmd.AddCommand(fooCmd)\n}\n</code></pre>\n</li>\n<li><p>Lastly, we need to import the subcommands somewhere. Right now we never import the <code>foo</code> or <code>bar</code> packages, so the code is effectively invisible (try introducing an egregious syntax error in one of those files -- you'll see that <code>go build</code> will succeed because those files aren't referenced anywhere).</p>\n<p>We can do this in our top level <code>main.go</code> file:</p>\n<pre><code>package main\n\nimport (\n  &quot;example/cmd&quot;\n  _ &quot;example/cmd/bar&quot;\n  _ &quot;example/cmd/foo&quot;\n)\n\nfunc main() {\n  cmd.Execute()\n}\n</code></pre>\n</li>\n</ol>\n<p>Now if we build and run the code, we see that our <code>foo</code> and <code>bar</code> commands are available:</p>\n<pre><code>$ go build\n$ ./example\nA longer description that spans multiple lines and likely contains\nexamples and usage of using your application. For example:\n\nCobra is a CLI library for Go that empowers applications.\nThis application is a tool to generate the needed files\nto quickly create a Cobra application.\n\nUsage:\n  example [command]\n\nAvailable Commands:\n  bar         A brief description of your command\n  completion  Generate the autocompletion script for the specified shell\n  foo         A brief description of your command\n  help        Help about any command\n\nFlags:\n  -h, --help     help for example\n  -t, --toggle   Help message for toggle\n\nUse &quot;example [command] --help&quot; for more information about a command.\n</code></pre>\n",
+      "owner": {
+        "display_name": "larsks",
+        "link": "https://stackoverflow.com/users/147356/larsks"
+      }
+    },
+    {
+      "answer_id": 73111369,
+      "body": "<p>One way to deal with this is to use &quot;flag structs&quot;:</p>\n<pre><code>type Cmd1Flags struct {\n  Author string\n  ... // Other persistent flags for cmd1\n}\n\nfunc GetCmd1Flags() Cmd1Flags {\n   ret:=Cmd1Flags{}\n   ret.Author=viper.GetString(&quot;author&quot;)\n   ... // Initialize other flags\n   return ret\n}\n</code></pre>\n<p>Then, use <code>GetCmd1Flags()</code> in all the subcommands.</p>\n",
+      "owner": {
+        "display_name": "Burak Serdar",
+        "link": "https://stackoverflow.com/users/11923999/burak-serdar"
+      }
+    },
+    {
+      "answer_id": 72905873,
+      "body": "<blockquote>\n<p>i wish there was a more idiomatic way that this is done</p>\n</blockquote>\n<p>I think there is, and it's the idea I was trying to get across in the comments: don't provide multiple ways of specifying the same option on the command line.</p>\n<p>When choosing between a positional argument vs. an option, the question is usually &quot;is this value the thing on which the command is operating?&quot;. For example, a command like <code>rm</code> operates on files, so files are specified as positional arguments: we don't need to write <code>rm -f file1 -f file2 -f file3</code>, etc.</p>\n<p>Similarly, the <code>ssh</code> command connects to a remote host, so the hostname is a positional argument. Metadata about that connection (the identity to use, the port to use, configuration options, etc) are also specified as command line options instead.</p>\n<p>Your question is a little hard to answer because you haven't told us what your command actually does. If the &quot;id&quot; is required for every invocation of <code>cmd</code> and if it identifies the thing upon which the command operates, you should probably just make it a positional argument:</p>\n<pre><code>cmd 81313\n</code></pre>\n<p>If there are ever situations in which you do <em>not</em> need to specify the ID, then it should be an optional argument:</p>\n<pre><code>cmd -i 81313\n</code></pre>\n<p>There are situations in which you may have &quot;mandatory options&quot;, but these are relatively rare.</p>\n",
+      "owner": {
+        "display_name": "larsks",
+        "link": "https://stackoverflow.com/users/147356/larsks"
+      }
+    },
+    {
+      "answer_id": 72893101,
+      "body": "<p>If I understood your requirements correctly then there's NO need to use <code>unsafe</code>. To get a pointer to a field you can just use the <a href=\"https://pkg.go.dev/reflect@go1.18.3#Value.Addr\" rel=\"nofollow noreferrer\"><code>Value.Addr</code></a> method and <a href=\"https://go.dev/ref/spec#Type_assertions\" rel=\"nofollow noreferrer\">type assertions</a> to get the concrete type.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func GenerateFlags(in interface{}, fs *flag.FlagSet, names []string) {\n    rv := reflect.ValueOf(in)\n    if rv.Kind() != reflect.Ptr || rv.Elem().Kind() != reflect.Struct {\n        return // exit if not pointer-to-a-struct\n    }\n\n    rv = rv.Elem()\n    rt := rv.Type()\n    for i := 0; i &lt; rt.NumField(); i++ {\n        sf := rt.Field(i)\n        fv := rv.Field(i)\n        name := strings.Join(append(names, strings.ToLower(sf.Name)), &quot;.&quot;)\n\n        switch fv.Type() {\n        case reflect.TypeOf(string(&quot;&quot;)):\n            p := fv.Addr().Interface().(*string)\n            fs.StringVar(p, name, &quot;&quot;, &quot;&quot;)\n        case reflect.TypeOf(int(0)):\n            p := fv.Addr().Interface().(*int)\n            fs.IntVar(p, name, 0, &quot;&quot;)\n        case reflect.TypeOf(float64(0)):\n            p := fv.Addr().Interface().(*float64)\n            fs.Float64Var(p, name, 0, &quot;&quot;)\n        default:\n            names := append([]string{}, names...)\n            GenerateFlags(fv.Interface(), fs, append(names, strings.ToLower(sf.Name)))\n        }\n    }\n}\n</code></pre>\n<p><a href=\"https://go.dev/play/p/1F2Kyo0cBuj\" rel=\"nofollow noreferrer\">https://go.dev/play/p/1F2Kyo0cBuj</a></p>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 72710044,
+      "body": "<p>Pass your flags after the <code>--</code>. A double dash (--) is used to signify the end of command options. In our case it is required to distinguish between the flags passed to <code>go</code> and those that aren't. Everything after the double dash wont be considered to be <code>go</code>'s flags.</p>\n<p>I tried with gcloud:</p>\n<pre><code>package cmd\n\nimport (\n    &quot;fmt&quot;\n    &quot;os/exec&quot;\n\n    &quot;github.com/spf13/cobra&quot;\n)\n\nvar gcloudCmd = &amp;cobra.Command{\n    Use:   &quot;gcloud&quot;,\n    Short: &quot;run gcloud&quot;,\n    Run: func(cmd *cobra.Command, args []string) {\n        out, err := exec.Command(&quot;gcloud&quot;, args...).Output()\n        if err != nil {\n            fmt.Println(err)\n        }\n        fmt.Println(string(out))\n    },\n}\n\nfunc init() {\n    rootCmd.AddCommand(gcloudCmd)\n}\n</code></pre>\n<p>Then tried:</p>\n<pre><code>$ go run . gcloud compute regions list -- --filter=&quot;id&lt;1250&quot;\n\nNAME          CPUS  DISKS_GB  ADDRESSES  RESERVED_ADDRESSES  STATUS  TURNDOWN_DATE\nasia-east1    0/24  0/4096    0/8        0/8                 UP\neurope-west1  0/24  0/4096    0/8        0/8                 UP\nus-central1   0/24  0/4096    0/8        0/8                 UP\nus-east1      0/24  0/4096    0/8        0/8                 UP\nus-west1      0/24  0/4096    0/8        0/8                 UP\n</code></pre>\n<p>Adding more flags:</p>\n<pre><code>$ go run . gcloud compute regions list -- --filter=&quot;id&lt;1250&quot; --format=&quot;table(name,id)&quot;\n\nNAME          ID\nasia-east1    1220\neurope-west1  1100\nus-central1   1000\nus-east1      1230\nus-west1      1210\n</code></pre>\n",
+      "owner": {
+        "display_name": "jabbson",
+        "link": "https://stackoverflow.com/users/4190565/jabbson"
+      }
+    },
+    {
+      "answer_id": 66952511,
+      "body": "<p>Use</p>\n<pre><code>go mod init &lt;MODNAME&gt;\n~/go/bin/cobra-cli init\n</code></pre>\n<p>or keep reading to learn how to to make the <code>cobra-cli</code> command available on the command line.</p>\n<p>This seems to be an issue of <code>$PATH</code> configuration. Because the <code>cobra-cli</code> command is not found, the path <code>~/go/bin</code> is not part of the <code>$PATH</code> variable. One can add the path like this:</p>\n<pre class=\"lang-bash prettyprint-override\"><code>export PATH=&quot;~/go/bin:$PATH&quot;\n</code></pre>\n<p>and then use the <code>cobra-cli</code> command on the command-line. One can add that <code>export ...</code> command to <code>~/.bashrc</code> or a similar file to have the <code>PATH</code> configured properly on startup.</p>\n",
+      "owner": {
+        "display_name": "jkr",
+        "link": "https://stackoverflow.com/users/5666087/jkr"
+      }
+    },
+    {
+      "answer_id": 72345957,
+      "body": "<p>I guess the point is \\n in the path you input.</p>\n",
+      "owner": {
+        "display_name": "Comin2021",
+        "link": "https://stackoverflow.com/users/17259898/comin2021"
+      }
+    },
+    {
+      "answer_id": 72100034,
+      "body": "<p>You can pass them after a double dash <code>--</code> which by convention indicates that following flags and args are not meant to be interpreted as args and flags for the main program. They are ignored unless you explicitly use them in some way. i.e.:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>if len(pflag.Args()) != 0 {\n    afterDash := pflag.Args()[pflag.CommandLine.ArgsLenAtDash():]\n    fmt.Printf(&quot;args after dash: %v\\n&quot;, afterDash)\n}\n</code></pre>\n<pre class=\"lang-sh prettyprint-override\"><code>$ go run ./cmd/tpl/ -d yaml -- --foo --bar\nargs after dash: [--foo --bar]\n</code></pre>\n<p>cobra is using the pflag package <a href=\"https://pkg.go.dev/github.com/spf13/pflag\" rel=\"nofollow noreferrer\">https://pkg.go.dev/github.com/spf13/pflag</a></p>\n",
+      "owner": {
+        "display_name": "The Fool",
+        "link": "https://stackoverflow.com/users/9208887/the-fool"
+      }
+    },
+    {
+      "answer_id": 71310073,
+      "body": "<p>I think your best bet is to fork the other repo with fewer commands, then edit it to add your commands. Assuming that both repos are open source.</p>\n<p>If your code is closed-source then you can bring in their repo as a dependency.</p>\n",
+      "owner": {
+        "display_name": "saurabhaditya",
+        "link": "https://stackoverflow.com/users/1965033/saurabhaditya"
+      }
+    },
+    {
+      "answer_id": 70930331,
+      "body": "<p>You can format strings in Go with padding on either side. See <a href=\"https://gosamples.dev/string-padding/\" rel=\"nofollow noreferrer\">this post</a> for example.</p>\n<p>Below, I format all strings with right padding. The first column gets 40 char padding as the pod name might be long. The other columns get only 10 chars padding.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>fmt.Printf(&quot;%-40s %-10s %-10s\\n&quot;, &quot;NAME&quot;, &quot;READY&quot;, &quot;STATUS&quot;)\nfmt.Printf(&quot;%-40s %-10s %-10s\\n&quot;, &quot;my-deployment-5588bf7844-n2nw7&quot;, &quot; 1/1&quot;, &quot;Running&quot;)\nfmt.Printf(&quot;%-40s %-10s %-10s\\n&quot;, &quot;my-deployment-5588bf7844-n2nw7&quot;, &quot; 1/1&quot;, &quot;Running&quot;)\n}\n</code></pre>\n<p><a href=\"https://play.golang.com/p/8ZZH5XmqTpR\" rel=\"nofollow noreferrer\">https://play.golang.com/p/8ZZH5XmqTpR</a></p>\n<p>That said, using <a href=\"https://pkg.go.dev/text/tabwriter\" rel=\"nofollow noreferrer\">tabwriter</a>, may be another, potentially even better option.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>// io.Writer, minwidth, tabwidth, padding int, padchar byte, flags uint\nw := tabwriter.NewWriter(os.Stdout, 10, 1, 5, ' ', 0)\nfmt.Fprintln(w, &quot;NAME\\tREADY\\tSTATUS&quot;)\nfmt.Fprintln(w, &quot;my-deployment-5588bf7844-n2nw7\\t1/1\\tRunning&quot;)\nfmt.Fprintln(w, &quot;my-deployment-5588bf7844-n2nw7\\t1/1\\tRunning&quot;)\nw.Flush()\n</code></pre>\n<p><a href=\"https://play.golang.com/p/QS01cuR34Jx\" rel=\"nofollow noreferrer\">https://play.golang.com/p/QS01cuR34Jx</a></p>\n",
+      "owner": {
+        "display_name": "The Fool",
+        "link": "https://stackoverflow.com/users/9208887/the-fool"
+      }
+    },
+    {
+      "answer_id": 70774141,
+      "body": "<p>I think you should use <code>MarkPersistentFlagRequired</code> instead of <code>MarkFlagRequired</code> as you are trying to mark a persistent flag.\nYou can only use <code>name</code> of the flag and not the <code>shorthand</code>.</p>\n<h1>Code</h1>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;fmt&quot;\n\n    &quot;github.com/spf13/cobra&quot;\n)\n\nfunc main() {\n    rootCmd := &amp;cobra.Command{\n        Use: &quot;root&quot;,\n        Run: func(cmd *cobra.Command, args []string) {\n            fmt.Println(&quot;Mark using `MarkPersistentFlagRequired` &quot;)\n        },\n    }\n\n    rootCmd.PersistentFlags().StringP(&quot;test&quot;, &quot;t&quot;, &quot;&quot;, &quot;test required&quot;)\n    // Change this\n    if err := rootCmd.MarkPersistentFlagRequired(&quot;test&quot;); err != nil {\n        fmt.Println(err.Error())\n        return\n    }\n    rootCmd.Execute()\n}\n</code></pre>\n<h1>Output</h1>\n<pre class=\"lang-golang prettyprint-override\"><code>⇒  go run main.go \nError: required flag(s) &quot;test&quot; not set\nUsage:\n  root [flags]\n\nFlags:\n  -h, --help          help for root\n  -t, --test string   test required\n</code></pre>\n",
+      "owner": {
+        "display_name": "Aswin Thiyagarajan",
+        "link": "https://stackoverflow.com/users/11490368/aswin-thiyagarajan"
+      }
+    },
+    {
+      "answer_id": 70774029,
+      "body": "<p>This works for me.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;fmt&quot;\n\n    &quot;github.com/spf13/cobra&quot;\n)\n\nfunc main() {\n    var strTmp string\n    rootCmd := &amp;cobra.Command{\n        Use: &quot;root&quot;,\n        Run: func(cmd *cobra.Command, args []string) {\n            fmt.Println(strTmp)\n        },\n    }\n    subCmd := &amp;cobra.Command{\n        Use: &quot;sub&quot;,\n        Run: func(cmd *cobra.Command, args []string) {\n            fmt.Println(strTmp)\n        },\n    }\n    rootCmd.PersistentFlags().StringVarP((&amp;strTmp), &quot;test&quot;, &quot;t&quot;, &quot;&quot;, &quot;test required&quot;)\n    rootCmd.MarkPersistentFlagRequired(&quot;test&quot;)\n    rootCmd.AddCommand(subCmd)\n    rootCmd.Execute()\n}\n</code></pre>\n<h1>Output</h1>\n<h2>sub command</h2>\n<pre><code> ⇒  go run test.go sub     \nError: required flag(s) &quot;test&quot; not set\nUsage:\n  root sub [flags]\n\nFlags:\n  -h, --help   help for sub\n\nGlobal Flags:\n  -t, --test string   test required\n</code></pre>\n<h2>root command</h2>\n<pre><code>⇒  go run test.go     \nError: required flag(s) &quot;test&quot; not set\nUsage:\n  root [flags]\n  root [command]\n\nAvailable Commands:\n  completion  generate the autocompletion script for the specified shell\n  help        Help about any command\n  sub         \n\nFlags:\n  -h, --help          help for root\n  -t, --test string   test required\n\nUse &quot;root [command] --help&quot; for more information about a command.\n</code></pre>\n",
+      "owner": {
+        "display_name": "Aswin Thiyagarajan",
+        "link": "https://stackoverflow.com/users/11490368/aswin-thiyagarajan"
+      }
+    },
+    {
+      "answer_id": 70773631,
+      "body": "<p>The <code>Run</code> part of the command gets executed only after the <code>Execute</code> is called on the command (you can also have a <a href=\"https://github.com/spf13/cobra/blob/master/user_guide.md#prerun-and-postrun-hooks\" rel=\"nofollow noreferrer\">prerun-hook</a>.)</p>\n<p>So in your case when execute is called the runtime doesn't know about the flag. We should add the flags before the <code>Execute</code> is called on the command to make the runtime aware of it.</p>\n<h1>Code</h1>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;fmt&quot;\n\n    &quot;github.com/spf13/cobra&quot;\n)\n\nfunc main() {\n    var strTmp string\n    myCmd := &amp;cobra.Command{\n        Use: &quot;myaction&quot;,\n        Run: func(cmd *cobra.Command, args []string) {\n            if len(args) == 1 {\n                fmt.Println(strTmp)\n            }\n        },\n    }\n    myCmd.Flags().StringVarP((&amp;strTmp), &quot;test&quot;, &quot;t&quot;, &quot;&quot;, &quot;Source directory to read from&quot;)\n    myCmd.Execute()\n}\n</code></pre>\n<h1>Output</h1>\n<pre><code>⇒  go run main.go myaction --test &quot;hello&quot;\nhello\n</code></pre>\n<p>But there is an alternate solution to this, when you want to add the flags based on a condition. You can set <code>DisableFlagParsing</code> to <code>true</code> and parse it later.</p>\n<h1>Code</h1>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;fmt&quot;\n\n    &quot;github.com/spf13/cobra&quot;\n)\n\nfunc main() {\n    myCmd := &amp;cobra.Command{\n        Use: &quot;myaction&quot;,\n        RunE: func(cmd *cobra.Command, args []string) error {\n            if len(args) &gt; 1 {\n                flags := cmd.Flags()\n                var strTmp string\n\n                // Add the flag\n                flags.StringVarP(&amp;strTmp, &quot;test&quot;, &quot;t&quot;, &quot;&quot;, &quot;Source directory to read from&quot;)\n                \n                // Enable the flag parsing\n                cmd.DisableFlagParsing = false\n\n                // Parse the flags\n                if err := cmd.ParseFlags(args); err != nil {\n                    return err\n                }\n\n                fmt.Println(strTmp)\n            }\n\n            return nil\n        },\n    }\n\n    // Disable flag parsing\n    myCmd.DisableFlagParsing = true\n    myCmd.Execute()\n}\n</code></pre>\n<h1>Output</h1>\n<pre><code>⇒  go run main.go myaction --test &quot;hello&quot;\nhello\n</code></pre>\n",
+      "owner": {
+        "display_name": "Aswin Thiyagarajan",
+        "link": "https://stackoverflow.com/users/11490368/aswin-thiyagarajan"
+      }
+    },
+    {
+      "answer_id": 70146855,
+      "body": "<p>As with virtual all Unix-style command line utilities and flag parsing libraries, Cobra separates flags from arguments with a <code>--</code>, after which no more arguments will be parsed as flags, even if they start with a <code>-</code>.</p>\n<pre><code>go run myapp exampleCmd set -- &quot;-Dexample&quot;\n</code></pre>\n<p>This is no different than how you interact with other CLI utilities. For example, <code>rm -i</code> sets the <code>interactive</code> flag, while <code>rm -- -i</code> removes a file named <code>-i</code>.</p>\n<p>You definitely do <em>not</em> want to arbitrarily disable flags for certain commands or subcommands which is inconsistent (both within your own app and across all other apps), unnecessary, and breaks basic user expectations: Sometimes, <code>-h</code> will do what the user expects, but for some commands, for reasons the user cannot predict, <code>-h</code> will be treated as an argument and produce unexpected behavior.</p>\n<p>Unix has solved this problem for more than 50 years. Let the user decide whether a argument is a flag via <code>--</code>.</p>\n",
+      "owner": {
+        "display_name": "user229044",
+        "link": "https://stackoverflow.com/users/229044/user229044"
+      }
+    },
+    {
+      "answer_id": 63498490,
+      "body": "<p>When using Cobra you define a top level command:</p>\n<pre class=\"lang-sh prettyprint-override\"><code>prog\n</code></pre>\n<p>This top level command has sub-commands.  For instance, suppose we have three sub-commands, <code>init</code>, <code>start</code>, and <code>stop</code>.</p>\n<pre class=\"lang-sh prettyprint-override\"><code>prog init [-i]         # initialize, but don't start anything: -i means ignore\nprog start [-f] [-q]   # after init, start: -f=fast, -q=quiet\nprog stop [-f]         # stop: -f=force\n</code></pre>\n<p>The <code>-i</code> flag is only for <code>init</code>, so we add a <code>-i</code> flag to the <code>init</code> subcommand.</p>\n<p>The <code>-q</code> flag is only for <code>start</code>, so we add a <code>-q</code> flag to the <code>start</code> subcommand, and so on.</p>\n<p>Now we'd like to add a debug mode to <em>every</em> command.  We could go into each command and add a <code>--debug</code> flag ... but we can also just set a <em>persistent</em> flag for the root command.  This persistent flag will now be available in <em>every</em> sub-command.</p>\n<p>If you have a sub-command that has sub-sub-commands, you can set a persistent flag in the sub-command to make that flag appear in every sub-sub-command, and so on.</p>\n",
+      "owner": {
+        "display_name": "torek",
+        "link": "https://stackoverflow.com/users/1256452/torek"
+      }
+    },
+    {
+      "answer_id": 69993757,
+      "body": "<p>You can do:</p>\n<pre><code>isSet:=cmd.Flags().Lookup(&quot;foobar&quot;).Changed\n</code></pre>\n<p>That should return if the flag was set, or if the default value was used.</p>\n",
+      "owner": {
+        "display_name": "Burak Serdar",
+        "link": "https://stackoverflow.com/users/11923999/burak-serdar"
+      }
+    },
+    {
+      "answer_id": 69664713,
+      "body": "<p>You can configure the VSCode launch configuration to pass arguments using:</p>\n<pre class=\"lang-json prettyprint-override\"><code>        {\n            &quot;name&quot;: &quot;Launch Package&quot;,\n            &quot;type&quot;: &quot;go&quot;,\n            &quot;request&quot;: &quot;launch&quot;,\n            &quot;mode&quot;: &quot;debug&quot;,\n            &quot;program&quot;: &quot;${fileDirname}&quot;\n            &quot;args&quot;: [&quot;arg1&quot;, ...]\n        }\n</code></pre>\n<p>Note that you may prefer to write the path to your main go file in the <code>program</code> field so that you can run/debug no matter what file you are currently on.</p>\n<p>Reference:</p>\n<ul>\n<li>launch.json: <a href=\"https://code.visualstudio.com/docs/editor/debugging#_launchjson-attributes\" rel=\"nofollow noreferrer\">https://code.visualstudio.com/docs/editor/debugging#_launchjson-attributes</a></li>\n<li>VSCode Variables: <a href=\"https://code.visualstudio.com/docs/editor/variables-reference\" rel=\"nofollow noreferrer\">https://code.visualstudio.com/docs/editor/variables-reference</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "saraf.gahl",
+        "link": "https://stackoverflow.com/users/3219421/saraf-gahl"
+      }
+    },
+    {
+      "answer_id": 69659275,
+      "body": "<p>Here is how to do it from a Windows command prompt:</p>\n<pre><code>goapp.exe --string-slice-list \\&quot;a\\&quot;\\&quot;b\\&quot;,c,d,e\n</code></pre>\n<p>yields <code>[a&quot;b c d e]</code> and</p>\n<pre><code>goapp.exe --string-slice-list \\&quot;a\\\\\\&quot;\\&quot;b\\&quot;,c,d,e\n</code></pre>\n<p>does <code>[a\\&quot;b c d e]</code> (I’m not sure which one you actually want).</p>\n<p>The reason for this is, as has been pointed out, that the <a href=\"https://github.com/spf13/pflag/\" rel=\"nofollow noreferrer\">Pflag library</a> makes use of the Go standard library <a href=\"https://pkg.go.dev/encoding/csv\" rel=\"nofollow noreferrer\">encoding/csv</a> supporting the format described in <a href=\"https://www.rfc-editor.org/rfc/rfc4180.html\" rel=\"nofollow noreferrer\">RFC 4180</a>. If we refer to section 2 from paragraphs 5, 6 and 7:</p>\n<blockquote>\n<p>If fields are not enclosed with double quotes, then\ndouble quotes may not appear inside the fields.</p>\n</blockquote>\n<blockquote>\n<p>Fields containing line breaks (CRLF), double quotes, and commas\nshould be enclosed in double-quotes.</p>\n</blockquote>\n<blockquote>\n<p>If double-quotes are used to enclose fields, then a double-quote\nappearing inside a field must be escaped by preceding it with\nanother double quote.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "mat007",
+        "link": "https://stackoverflow.com/users/1195832/mat007"
+      }
+    },
+    {
+      "answer_id": 68593014,
+      "body": "<p>After playing around with this I have the answer.</p>\n<p>Even though I have set the configuation so that it has a slice of project <code>Project []Project</code>, Viper is clever enough to work this out.</p>\n<p>So to bind the project name to the first element of the slice, it is as simple as using:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>viper.BindPFlag(&quot;project.name&quot;, runCmd.Flags().Lookup(&quot;name&quot;))\n</code></pre>\n<p>No index is required. However I can print the value with:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>fmt.Println(Config.Project[0].Name)\n</code></pre>\n<p><a href=\"https://i.sstatic.net/U2iFQ.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/U2iFQ.png\" alt=\"enter image description here\" /></a></p>\n<p>I was over thinking this</p>\n",
+      "owner": {
+        "display_name": "Russell Seymour",
+        "link": "https://stackoverflow.com/users/783726/russell-seymour"
+      }
+    },
+    {
+      "answer_id": 68585234,
+      "body": "<p>If the default value of a boolean flag is true, then not passing that flag and  just passing <code>-r</code> or <code>--require</code> will result in <code>true</code>. To set it to false, use <code>--require=false</code>.</p>\n",
+      "owner": {
+        "display_name": "Burak Serdar",
+        "link": "https://stackoverflow.com/users/11923999/burak-serdar"
+      }
+    },
+    {
+      "answer_id": 68487025,
+      "body": "<p>Unfortunately, it seems that the library has been updated since the accepted answer was written and the solution no longer is the same. After some trial and error, this appears to be the more current method of handling the signing (using <a href=\"https://pkg.go.dev/github.com/aws/aws-sdk-go-v2\" rel=\"noreferrer\">https://pkg.go.dev/github.com/aws/aws-sdk-go-v2</a>):</p>\n<pre><code>import (\n    &quot;context&quot;\n    &quot;net/http&quot;\n    &quot;time&quot;\n\n    &quot;github.com/aws/aws-sdk-go-v2/config&quot;\n    &quot;github.com/aws/aws-sdk-go-v2/aws/signer/v4&quot;\n)\n\nfunc main() {\n    // Context is not being used in this example.\n    cfg, err := config.LoadDefaultConfig(context.TODO())\n\n    if err != nil {\n        // Handle error.\n    }\n\n    credentials, err := cfg.Credentials.Retrieve(context.TODO())\n\n    if err != nil {\n        // Handle error.\n    }\n\n    // The signer requires a payload hash. This hash is for an empty payload.\n    hash := &quot;e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855&quot;\n    req, _ := http.NewRequest(http.MethodGet, &quot;api-gw-url&quot;, nil)\n    signer := v4.NewSigner()\n    err = signer.SignHTTP(context.TODO(), credentials, req, hash, &quot;execute-api&quot;, cfg.Region, time.Now())\n\n    if err != nil {\n        // Handle error.\n    }\n\n    // Use `req`\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alan Wong",
+        "link": "https://stackoverflow.com/users/14423590/alan-wong"
+      }
+    },
+    {
+      "answer_id": 68312167,
+      "body": "<p>Add a second line with the next option you want to add. You are not limited to use one.</p>\n<p>Eg:</p>\n<pre><code>projCmd.Flags().StringVarP(&amp;flag, &quot;type&quot;, &quot;t&quot;, flag, &quot;help&quot;)\nprojCmd.Flags().StringVarP(&amp;flag2, &quot;some&quot;, &quot;s&quot;, flag2, &quot;some description&quot;)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sascha",
+        "link": "https://stackoverflow.com/users/66907/sascha"
+      }
+    },
+    {
+      "answer_id": 67915252,
+      "body": "<p>Cleaner approach would be to leverage the Annotations provided in cobra command</p>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;fmt&quot;\n\n    &quot;github.com/spf13/cobra&quot;\n)\n\n\nfunc main() {\n    var rootCmd = &amp;cobra.Command{\n        Use:   &quot;root [sub]&quot;,\n        Short: &quot;My root command&quot;,\n        Run: func(cmd *cobra.Command, args []string) {\n            // Do your processing here\n            // Set the command annotations\n            cmd.Annotations = make(map[string]string)\n            cmd.Annotations[&quot;status&quot;] = &quot;status_goes_here&quot;\n            cmd.Annotations[&quot;error&quot;] = &quot;error_goes_here&quot;\n        },\n        PostRun: func(cmd *cobra.Command, args []string) {\n            // Retrieve the annotations\n            fmt.Println(cmd.Annotations[&quot;status&quot;])\n            fmt.Println(cmd.Annotations[&quot;error&quot;])\n        },\n    }\n\n    rootCmd.SetArgs([]string{&quot;sub&quot;, &quot;arg1&quot;, &quot;arg2&quot;})\n    rootCmd.Execute()\n}\n</code></pre>\n<p>Really liked the approach @Bracken has taken here, Although there are some tweaks that will make it work</p>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport (\n    &quot;fmt&quot;\n    &quot;errors&quot;\n\n    &quot;github.com/spf13/cobra&quot;\n)\n\ntype wrapper struct {\n    err error\n}\n\n// RunE fails to proceed further in case of error resulting in not executing PostRun actions\nfunc (w *wrapper) Run(f func(cmd *cobra.Command, args []string) error) func(cmd *cobra.Command, args []string) {\n    return func(cmd *cobra.Command, args []string) {\n        err := f(cmd, args)\n        w.err = err\n    }\n}\n\nfunc (w *wrapper) PostRun(f func(cmd *cobra.Command, args []string, cmdErr error)) func(cmd *cobra.Command, args []string) {\n    return func(cmd *cobra.Command, args []string) {\n        f(cmd, args, w.err)\n    }\n}\n\nfunc main() {\n    cmdWrap := wrapper{}\n    var rootCmd = &amp;cobra.Command{\n        Use:   &quot;root [sub]&quot;,\n        Short: &quot;My root command&quot;,\n        Run: cmdWrap.Run(func(cmd *cobra.Command, args []string) error {\n            return errors.New(&quot;i'm not in the book, you know&quot;)\n        }),\n        PostRun: cmdWrap.PostRun(func(cmd *cobra.Command, args []string, cmdErr error) {\n            fmt.Printf(&quot;error was %v\\n&quot;, cmdErr)\n        }),\n    }\n\n    rootCmd.SetArgs([]string{&quot;sub&quot;, &quot;arg1&quot;, &quot;arg2&quot;})\n    rootCmd.Execute()\n}\n\n</code></pre>\n<p>----- Old Answer -----</p>\n<p>If I understand it right, There is some status that needs to be passed from cmd.Execute to PostRun.</p>\n<p>You can use <code>ExecuteContext(ctx context.Context)</code> method instead of <code>Execute()</code> and set whatever key-value needs to be set in context.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>ctx := context.WithValue(context.Background(), &quot;status&quot;, &quot;statusValue&quot;)\nrootCmd.ExecuteContext(ctx)\n</code></pre>\n<p>Same values can be Retrieved inside PostRun using <code>cmd.Context()</code></p>\n<pre class=\"lang-golang prettyprint-override\"><code>PostRun: func(cmd *cobra.Command, args []string) {\n   ctx := cmd.Context()\n   status := ctx.Value(&quot;status&quot;)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "pratish",
+        "link": "https://stackoverflow.com/users/7673736/pratish"
+      }
+    },
+    {
+      "answer_id": 67770295,
+      "body": "<p>I don't have any issue if I use <code>cmd.PersistentFlags().Lookup(&quot;name&quot;)</code>.</p>\n<pre><code>    // *** If I move this to the top of initConfig\n    // *** the code runs correctly.\n    pflag := cmd.PersistentFlags().Lookup(&quot;name&quot;)\n    config.BindPFlag(&quot;name&quot;, pflag)\n</code></pre>\n<p>Considering you just registered <a href=\"https://github.com/spf13/cobra/blob/eb3b6397b1b5d1b0a2cd66a9afe0520f480c0a87/README.md#persistent-flags\" rel=\"nofollow noreferrer\">persistent flags</a> (flag will be available to the command it's assigned to as well as every command under that command), it is safer to call <code>cmd.PersistentFlags().Lookup(&quot;name&quot;)</code>, rather than <code>cmd.Flags().Lookup(&quot;name&quot;)</code>.</p>\n<p>The latter returns <code>nil</code>, since the <code>PersistentPreRun</code> is only called when <code>rootCmd.Execute()</code> is called, which is <em>after</em> <code>cmd.NewCmdRoot()</code>.<br />\nAt <code>cmd.NewCmdRoot()</code> levels, flags have not yet been initialized, even after some were declared &quot;persistent&quot;.</p>\n",
+      "owner": {
+        "display_name": "VonC",
+        "link": "https://stackoverflow.com/users/6309/vonc"
+      }
+    },
+    {
+      "answer_id": 67218742,
+      "body": "<p>Let's say a user runs the command like this: <code>cobra-sketch --flag1 &quot;hello&quot;</code>. &quot;hello&quot; will be stored in the <code>var flag1 string</code> variable you have assigned to the flag, to check if the input matches any regexp, you can do:</p>\n<pre><code>var rootCmd = &amp;cobra.Command{\n    Use:   &quot;cobra-sketch&quot;,\n        ...\n    RunE: func(cmd *cobra.Command, args []string) error {\n        // You can also use MustCompile if you are sure the regular expression \n        // is valid, it panics instead of returning an error\n        re, err := regexp.Compile(`^\\s+\\/\\s+`)\n        if err != nil {\n            return err // Handle error\n        }\n\n        if !regexp.MatchString(flag1) {\n            return fmt.Errorf(&quot;invalid value: %q&quot;, flag1)\n        }\n\n        fmt.Printf(&quot;Flag1 is %s\\n&quot;, flag1)\n        return nil\n    },\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "GGP",
+        "link": "https://stackoverflow.com/users/12574067/ggp"
+      }
+    },
+    {
+      "answer_id": 66622629,
+      "body": "<p>You can't create a command with a name starting with <code>-</code> or <code>--</code>, because in cobra these are flags. See the corresponding <a href=\"https://github.com/spf13/cobra/tree/eb3b6397b1b5d1b0a2cd66a9afe0520f480c0a87/command.go#L577\" rel=\"nofollow noreferrer\">source code</a> in the library, which removes them when <a href=\"https://github.com/spf13/cobra/tree/eb3b6397b1b5d1b0a2cd66a9afe0520f480c0a87/command.go#L626\" rel=\"nofollow noreferrer\">parsing</a> the command.</p>\n",
+      "owner": {
+        "display_name": "jubnzv",
+        "link": "https://stackoverflow.com/users/8541499/jubnzv"
+      }
+    },
+    {
+      "answer_id": 65703162,
+      "body": "<p>This solution has very bad design... You do not know order of eveluating those flags.</p>\n<h2>The issue</h2>\n<p>I am assuming you are using <code>cobra</code>. So when you read documentation you will not find any part of how your flags are evaluated. So sometimes it is called undefined behavior and it may work but if the future it may be changed</p>\n<p>Let's analyze your example:</p>\n<pre><code>deleteCmd.Flags().StringVarP(&amp;option, &quot;wallet&quot;, &quot;w&quot;, &quot;&quot;, &quot;Specify the wallet to be deleted&quot;)\ndeleteCmd.Flags().StringVarP(&amp;option, &quot;holding&quot;, &quot;o&quot;, &quot;&quot;, &quot;Specify the holding to be deleted&quot;)\ndeleteCmd.Flags().StringVarP(&amp;option, &quot;ticker&quot;, &quot;t&quot;, &quot;&quot;, &quot;Specify the ticker to be deleted&quot;)\ndeleteCmd.Flags().StringVarP(&amp;option, &quot;tag&quot;, &quot;g&quot;, &quot;&quot;, &quot;Specify the tag to be deleted&quot;)\n</code></pre>\n<p>You have the following flags: <code>wallet, holding, ticker, tag</code>. We can assume order is how you put it in your code. Let's say potential behavior:</p>\n<p>User put the <code>ticker</code> flag. Default value for all flags is empty. So the <code>option</code> variable has an empty value, which comes from the <code>tag</code> flag.</p>\n<h2>The solution</h2>\n<p>You should use separated variable for each flag. And you should implement your logic to cover the part to determine which flag has been put.</p>\n<pre><code>deleteCmd.Flags().StringVarP(&amp;wallet, &quot;wallet&quot;, &quot;w&quot;, &quot;&quot;, &quot;Specify the wallet to be deleted&quot;)\ndeleteCmd.Flags().StringVarP(&amp;holding, &quot;holding&quot;, &quot;o&quot;, &quot;&quot;, &quot;Specify the holding to be deleted&quot;)\ndeleteCmd.Flags().StringVarP(&amp;ticker, &quot;ticker&quot;, &quot;t&quot;, &quot;&quot;, &quot;Specify the ticker to be deleted&quot;)\ndeleteCmd.Flags().StringVarP(&amp;tag, &quot;tag&quot;, &quot;g&quot;, &quot;&quot;, &quot;Specify the tag to be deleted&quot;)\n\nif wallet != &quot;&quot; {\n    option = wallet\n    selected = &quot;wallet&quot;\n} else if holding != &quot;&quot; {\n    option = holding\n    selected = &quot;holding&quot;\n} else ...\n...\n...\n</code></pre>\n",
+      "owner": {
+        "display_name": "Daniel Hornik",
+        "link": "https://stackoverflow.com/users/4328633/daniel-hornik"
+      }
+    },
+    {
+      "answer_id": 65509345,
+      "body": "<p>Use utility only when individual users use them from terminal.\nLaunching so many cli processes from nodejs servers would not be efficient and scalable in case the node server gets too many concurrent requests.Launching too many cli processes would make it slow and consume system resources.</p>\n<p>I would use an API. The node server would pipe the request to the go api server. Now about cli, to be used in standalone mode from terminal by a user, you need to add all your logic into a separate module (lib). This module lib can be hosted (or used) into Go api server as well as cmd. The cmd utility and go http api server processes would just be host while actual thing in module.</p>\n<p>Or even better the command-line utility will have 2 modes to run as http server or as standalone utility.</p>\n",
+      "owner": {
+        "display_name": "Abhijit-K",
+        "link": "https://stackoverflow.com/users/1063250/abhijit-k"
+      }
+    },
+    {
+      "answer_id": 65213880,
+      "body": "<p>Problem is the <code>import path</code> in <code>main.go</code> vs the module name in <code>go.mod</code>. The capitalization is different:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>package main\n\nimport &quot;github.com/mariogmarq/goshare/cmd&quot;\n</code></pre>\n<p>go.mod:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>module github.com/mariogmarq/GoShare\n</code></pre>\n<p>It is best practice to use all lowercase for package (and module) names. From the <a href=\"https://blog.golang.org/package-names\" rel=\"nofollow noreferrer\">Go Blog</a>:</p>\n<blockquote>\n<p>Good package names are short and clear. They are lower case, with no under_scores or mixedCaps.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "TehSphinX",
+        "link": "https://stackoverflow.com/users/6220193/tehsphinx"
+      }
+    },
+    {
+      "answer_id": 64919032,
+      "body": "<p>Your problem trivially comes down to the fact, if the <code>username</code> field in your <code>MyConfig</code> struct is exported or not. It needs to uppercased to be &quot;exported&quot; for <code>Unmarshal</code> to decode the value into the struct.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>type Myconfig struct {\n    Username string `mapstructure:&quot;username&quot;`\n}\n</code></pre>\n<p>You can look at <a href=\"https://stackoverflow.com/q/11126793/5291015\">JSON and dealing with unexported fields</a> to understand more on why the <code>json</code> package needs it.</p>\n",
+      "owner": {
+        "display_name": "Inian",
+        "link": "https://stackoverflow.com/users/5291015/inian"
+      }
+    },
+    {
+      "answer_id": 64055332,
+      "body": "<p>NVM, I figured it out.</p>\n<p>Intead of</p>\n<pre><code>       PersistentPreRun: func(cmd *cobra.Command, args []string) {\n                cmd.Parent().PersistentPreRun(cmd, args)\n                fmt.Println(&quot;in * pre run&quot;)\n       },\n</code></pre>\n<p>It should be:</p>\n<pre><code>       PersistentPreRun: func(cmd *cobra.Command, args []string) {\n                cmd.Parent().PersistentPreRun(cmd.Parent(), args)\n                fmt.Println(&quot;in * pre run&quot;)\n       },\n\n</code></pre>\n",
+      "owner": {
+        "display_name": "Shang Jian Ding",
+        "link": "https://stackoverflow.com/users/4904673/shang-jian-ding"
+      }
+    },
+    {
+      "answer_id": 63341199,
+      "body": "<p>The <code>P</code> suffix denotes a function that accepts a single letter flag name in addition to the full name, as documented in the <a href=\"https://github.com/spf13/pflag#usage\" rel=\"noreferrer\">usage</a> section of the pflag docs:</p>\n<blockquote>\n<p>The pflag package also defines some new functions that are not in\nflag, that give one-letter shorthands for flags. You can use these by\nappending 'P' to the name of any function that defines a flag.</p>\n</blockquote>\n<p>To answer your individual questions:</p>\n<ul>\n<li>what's the difference: the <code>P</code> functions take an extra parameter: the single letter name. This short flag can be used with a single <code>-</code>.</li>\n<li>which methods have a <code>P</code> counterpart: all of them, as can be seen in the <a href=\"https://godoc.org/github.com/spf13/pflag\" rel=\"noreferrer\">pflag reference</a></li>\n</ul>\n<p>As for why this is documented in pflag and not viper or cobra, this is because both <a href=\"https://github.com/spf13/viper#working-with-flags\" rel=\"noreferrer\">viper</a> and <a href=\"https://github.com/spf13/cobra#flags\" rel=\"noreferrer\">cobra</a> use the pflag library.</p>\n",
+      "owner": {
+        "display_name": "Marc",
+        "link": "https://stackoverflow.com/users/4966953/marc"
+      }
+    },
+    {
+      "answer_id": 61014129,
+      "body": "<p>The package is not included in the build, so the command never initializes.</p>\n\n<p>Go builds packages. When you build the <code>cmd</code> package, all go files in that package will be compiled, and all the <code>init()</code> functions will be called. But if there's nothing referencing to the <code>proxy</code> package, it will not be compiled.</p>\n\n<p>Your proxy package has <code>package cmd</code> in it, so that package is a <code>cmd</code> package under proxy directory. You should rename that to <code>proxy</code> package.</p>\n\n<p>Then, include it in the build. In main.go:</p>\n\n<pre><code>import {\n  _ \"github.com/MyProject/cmd/proxy\"\n}\n</code></pre>\n\n<p>This will cause the <code>init()</code> for that package to run, and it will add itself to the command.</p>\n",
+      "owner": {
+        "display_name": "Burak Serdar",
+        "link": "https://stackoverflow.com/users/11923999/burak-serdar"
+      }
+    },
+    {
+      "answer_id": 43850691,
+      "body": "<p>To combine <code>spf13/cobra</code> and <code>spf13/viper</code>, first define the flag with Cobra:</p>\n\n<pre><code>RootCmd.PersistentFlags().StringP(\"foo\", \"\", \"loaded from config\")\n</code></pre>\n\n<p>Bind it with Viper:</p>\n\n<pre><code>viper.BindPFlag(\"foo\", RootCmd.PersistentFlags().Lookup(\"foo\"))\n</code></pre>\n\n<p>And get the variable via the Viper's method:</p>\n\n<pre><code>fmt.Println(\"fooString is: \", viper.GetString(\"foo\"))\n</code></pre>\n",
+      "owner": {
+        "display_name": "minamijoyo",
+        "link": "https://stackoverflow.com/users/7357841/minamijoyo"
+      }
+    },
+    {
+      "answer_id": 60444171,
+      "body": "<p>I do not know why you would consider that <em>messy</em>.  You have one variable, and you set it in several <code>init</code> functions, so the <em>last</em> setting is the one that remains set: your explanation of what is happening is correct.  Clearly, these are actually two different variables, it's just that at most one of them will actually be <em>used</em>.</p>\n\n<p>(Assuming there are other commands that do other things, perhaps <em>none</em> of these global variables will be used.  If Go were a naturally-more-dynamic language in which <em>everything</em> is decided at runtime, or if you were using a more dynamic runtime setup, you could have none of them be created yet.  But that's not Go: Go is full of static typing and static variables, created at link time.)</p>\n\n<p>If you really do want to use just one global variable, though, the obvious solution is to choose some sentinel value to mean <em>not set</em>, and make that the default value that Cobra sets.  Then, if the variable holds the \"not set\" value upon running the command, you know the user did not supply a value.</p>\n\n<p>If the empty string is suitable as such a sentinel—usually that's the case—this is easy.  Each of your commands gains a few lines:</p>\n\n<pre><code>if deviceUUID == \"\" {\n    deviceUUID = defaultDeviceUUID\n}\n</code></pre>\n\n<p>and you're done.</p>\n\n<p>It might be kind of nice, or at least more convenient for you, if the cobra code saved the default-initializer values away somewhere <em>private</em> when you did:</p>\n\n<blockquote>\n<pre><code>configCmd.Flags().StringVar(&amp;deviceUUID, \"deviceUUID\", \"configDeviceUUID\", \"Device UUID\")\n</code></pre>\n</blockquote>\n\n<p>and then copied those private, saved default values into the (single) global variable <em>when the top level command decided that the <code>config</code> sub-command was to be used</em>, rather than not saving it away somewhere private, and copying it into the (single) global variable in <em>at the time the <code>configCmd.Flags().StringVar()</code> function is called</em>, but that's not how it actually works.  So:</p>\n\n<pre><code>configCmd.Flags().StringVar(&amp;deviceUUID, \"deviceUUID\", \"\", \"Device UUID\")\n</code></pre>\n\n<p>plus the above empty-string tests might suffice.  Note that each <code>init</code> is still overwriting the (single, shared, and maybe-never-even-used) global variable each time, but all of them are setting it from its initial empty-string value to a new empty-string value, leaving it unchanged.</p>\n",
+      "owner": {
+        "display_name": "torek",
+        "link": "https://stackoverflow.com/users/1256452/torek"
+      }
+    },
+    {
+      "answer_id": 59714127,
+      "body": "<p>There are multiple approaches to implementing a CLI using go. This is the basic structure of the CLI I developed which is mostly influenced by the docker CLI and I have added unit tests as well.</p>\n\n<p>The first thing you need is to have CLI as an interface. This will be inside a package named \"cli\".</p>\n\n<pre><code>package cli\n\ntype Cli interface {\n     // Have interface functions here\n     sayHello() error\n}\n</code></pre>\n\n<p>This will be implemented by 2 clis: HelloCli (Our real CLI) and MockCli (used for unit tests)</p>\n\n<pre><code>package cli\n\ntype HelloCli struct {\n}\n\nfunc NewHelloCli() *HelloCli {\n    cli := &amp;HelloCli{\n    }\n    return cli\n}\n</code></pre>\n\n<p>Here the HelloCli will implement sayHello function as follows.</p>\n\n<pre><code>package cli\n\nfunc (cli *HelloCli) SayHello() error {\n    // Implement here\n}\n</code></pre>\n\n<p>Similarly, there will be a mock cli in a package named <code>test</code> that would implement cli interface and it will also implement the sayHello function.</p>\n\n<pre><code>package test\n\ntype MockCli struct {\n    }\n\n    func NewMockCli() *HelloCli {\n        cli := &amp;MockCli{\n        }\n        return cli\n    }\n\nfunc (cli *MockCli) SayHello() error {\n        // Mock implementation here\n    }\n</code></pre>\n\n<p>Now I will show how the command is added. First I would have the main package and this is where I would add all the new commands.</p>\n\n<pre><code>package main\n\nfunc newCliCommand(cli cli.Cli) *cobra.Command {\n    cmd := &amp;cobra.Command{\n        Use:   \"foo &lt;command&gt;\"\n    }\n\n    cmd.AddCommand(\n        newHelloCommand(cli),\n    )\n    return cmd\n}\n\nfunc main() {\n    helloCli := cli.NewHelloCli()\n    cmd := newCliCommand(helloCli)\n    if err := cmd.Execute(); err != nil {\n        // Do something here if execution fails\n    }\n}\n\nfunc newHelloCommand(cli cli.Cli) *cobra.Command {\n    cmd := &amp;cobra.Command{\n        Use:   \"hello\",\n        Short: \"Prints hello\",\n        Run: func(cmd *cobra.Command, args []string) {\n            if err := pkg.RunHello(cli, args[0]); err != nil {\n                // Do something if command fails\n            }\n        },\n        Example: \"  foo hello\",\n    }\n    return cmd\n}\n</code></pre>\n\n<p>Here, I have one command called <code>hello</code>. Next, I will have the implementation in a separate package called \"pkg\". </p>\n\n<pre><code>package pkg\n\nfunc RunHello(cli cli.Cli) error {\n    // Do something in this function\n    cli.SayHello()\n    return nil\n}\n</code></pre>\n\n<p>The unit tests will also be contained in this package in a file named <code>hello_test</code>.</p>\n\n<pre><code>package pkg\n\nfunc TestRunHello(t *testing.T) {\n    mockCli := test.NewMockCli()\n\n    tests := []struct {\n        name     string\n    }{\n        {\n            name:     \"my test 1\",\n        },\n        {\n            name:     \"my test 2\"\n        },\n    }\n    for _, tst := range tests {\n        t.Run(tst.name, func(t *testing.T) {\n            err := SayHello(mockCli)\n            if err != nil {\n                t.Errorf(\"error in SayHello, %v\", err)\n            }\n        })\n    }\n}\n</code></pre>\n\n<p>When you execute <code>foo hello</code>, the <code>HelloCli</code> will be passed to the sayHello() function and when you run unit tests, <code>MockCli</code> will be passed.</p>\n",
+      "owner": {
+        "display_name": "Madhuka Harith",
+        "link": "https://stackoverflow.com/users/10391130/madhuka-harith"
+      }
+    },
+    {
+      "answer_id": 59369966,
+      "body": "<p>It works as expected: it's impossible to distinguish between arguments and flags.</p>\n\n<p>It's the caller responsibility to make it unambiguous using <code>--</code>:</p>\n\n<pre><code>go run main.go write -d 1 -a mock -e int -- 0 2 -1 \n</code></pre>\n\n<p><code>--</code> means \"whatever comes after these dashes are arguments\"</p>\n\n<p>References:</p>\n\n<ul>\n<li><a href=\"https://github.com/spf13/cobra/issues/124\" rel=\"nofollow noreferrer\">https://github.com/spf13/cobra/issues/124</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "zerkms",
+        "link": "https://stackoverflow.com/users/251311/zerkms"
+      }
+    },
+    {
+      "answer_id": 59209456,
+      "body": "<p>Binding cobra flags to viper options only binds cobra flags to viper options, not vice versa. So you can access the password via </p>\n\n<pre><code>pass := viper.GetString(\"password\")\n</code></pre>\n\n<p>if the password is set either via viper or cobra, but not via the variables defined in your flag definitions.</p>\n\n<p>Basically, you have two options here: Either you use cobra without pointing your flags to variables, and then set your globals via various calls to <code>viper.Get*</code> (you can even sanitize them while being at it), or you use viper as sort of a „parameter registry“ and call <code>viper.Get*</code> where needed. I tend to go with the former solution.</p>\n",
+      "owner": {
+        "display_name": "Markus W Mahlberg",
+        "link": "https://stackoverflow.com/users/1296707/markus-w-mahlberg"
+      }
+    },
+    {
+      "answer_id": 59138753,
+      "body": "<p>With modules, a package name is required. See the <a href=\"https://github.com/spf13/cobra/blob/master/cobra/README.md#cobra-init\" rel=\"nofollow noreferrer\">cobra readme</a>.</p>\n",
+      "owner": {
+        "display_name": "chmike",
+        "link": "https://stackoverflow.com/users/75517/chmike"
+      }
+    },
+    {
+      "answer_id": 58543837,
+      "body": "<p>You should use <code>func GetCommandFlags(cmd *cobra.Command, opts *ListOptions)</code> and call the func like <code>cmd = GetCommandFlags(cmd, &amp;opts)</code>. </p>\n\n<p>You can print <code>opts.IgnoreLatest</code> and <code>opts.IgnoreOld</code> to see the changed value.</p>\n\n<p>Works fine for me. Hope it will work for you too.</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>func NewCommand(ctx context.Context) *cobra.Command {\n    var opts ListOptions\n\n    cmd := &amp;cobra.Command{\n        Use:   \"list\",\n        Short: \"List\",\n        RunE: func(cmd *cobra.Command, args []string) error {\n            // fmt.Println(args) // []\n            fmt.Println(opts.IgnoreLatest, \", \", opts.IgnoreOld)\n            opts.refs = args\n            return List(ctx, gh, opts, os.Stdout)\n        },\n    }\n\n    cmd = GetCommandFlags(cmd, &amp;opts)\n    return cmd\n}\n\n// GetListCommandFlags for list\nfunc GetCommandFlags(cmd *cobra.Command, opts *ListOptions) *cobra.Command {\n    flags := cmd.Flags()\n    flags.BoolVar(&amp;opts.IgnoreLatest, \"ignore-latest\", false, \"Do not display latest\")\n    flags.BoolVar(&amp;opts.IgnoreOld, \"ignore-old\", false, \"Do not display old data\")\n    return cmd\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Masudur Rahman",
+        "link": "https://stackoverflow.com/users/6013663/masudur-rahman"
+      }
+    },
+    {
+      "answer_id": 58470849,
+      "body": "<p>As far as the binding part is concerned, it is correct. However, before processing, you can verify if a particular key exists using <a href=\"https://godoc.org/github.com/hyperledger/fabric/vendor/github.com/spf13/viper#IsSet\" rel=\"nofollow noreferrer\">vipver.IsSet()</a>, print all the available keys using <a href=\"https://godoc.org/github.com/hyperledger/fabric/vendor/github.com/spf13/viper#AllKeys\" rel=\"nofollow noreferrer\">viper.AllKeys()</a> or print everything using <a href=\"https://godoc.org/github.com/hyperledger/fabric/vendor/github.com/spf13/viper#AllSettings\" rel=\"nofollow noreferrer\">viper.AllSettings()</a>.</p>\n\n<p>Here's an example (<code>test.go</code>):</p>\n\n<pre><code>package main\n\nimport (\n    \"fmt\"\n\n    \"github.com/spf13/cobra\"\n    \"github.com/spf13/viper\"\n)\n\nfunc main() {\n    var items map[string]string\n\n    rootCmd := &amp;cobra.Command{\n        Use: \"app\",\n        Run: func(ccmd *cobra.Command, args []string) {\n\n            fmt.Println(\"item exists?\", viper.IsSet(\"item\"))\n            fmt.Println(\"GetString  :\", viper.GetString(\"item\"))\n            fmt.Println(\"Keys       :\", viper.AllKeys())\n            fmt.Println(\"Settings   :\", viper.AllSettings())\n        },\n    }\n\n    rootCmd.Flags().StringToStringVarP(&amp;items, \"item\", \"i\", nil, \"Map stating the items to be included\")\n    viper.BindPFlag(\"item\", rootCmd.Flags().Lookup(\"item\"))\n    rootCmd.Execute()\n}\n</code></pre>\n\n<p>Output:</p>\n\n<pre><code>$ ./test.exe -i 'k=v,\"a=b,c\"'\nitem exists? true\nGetString  : [k=v,\"a=b,c\"]\nKeys       : [item]\nSettings   : map[item:[k=v,\"a=b,c\"]]\n</code></pre>\n\n<hr>\n\n<p>The usage of <code>GetStringMap()</code> and <code>GetStringMapString()</code> makes more sense with other formats like JSON, YAML, etc. You can trace the execution of these functions to JSON unmarshalling calls in debugging mode.</p>\n\n<p>For map conversion, you can write your own function like this (<a href=\"https://play.golang.org/p/w7TCJH8szDP\" rel=\"nofollow noreferrer\">live</a>):</p>\n\n<pre><code>func getStringMap(s string) map[string]string {\n    entries := strings.Split(s, \",\")\n\n    m := make(map[string]string)\n    for _, e := range entries {\n        tokens := strings.Split(e, \"=\")\n        k := strings.TrimSpace(tokens[0])\n        v := strings.TrimSpace(tokens[1])\n        m[k] = v\n    }\n\n    return m\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Azeem",
+        "link": "https://stackoverflow.com/users/7670262/azeem"
+      }
+    },
+    {
+      "answer_id": 57291324,
+      "body": "<p>You can add flags to the <code>\"args\": []</code> array in your vscode settings like this:</p>\n\n<pre><code>\"args\": [\"login\", \"-u\", \"username\", \"-p\", \"password\"]\n</code></pre>\n\n<p>This will make sure when you run debug you end up in the login command with the given flags.</p>\n",
+      "owner": {
+        "display_name": "Blokje5",
+        "link": "https://stackoverflow.com/users/9741769/blokje5"
+      }
+    },
+    {
+      "answer_id": 57183092,
+      "body": "<p>You can't print the value of token in <code>init()</code> function as the <code>init()</code> function executes in run time when the package is called for the first time. The value is not yet assigned. </p>\n\n<p>So, you have to declare the variable globally and use it in the <code>Run</code> method of the <code>rootCmd</code> command.</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>var token string\n\nvar rootCmd = &amp;cobra.Command{\n    Use:    \"consoleplay\",\n    Run: func(cmd *cobra.Command, args []string) {\n        fmt.Println(token)\n    },\n}\n\nfunc init() {\n    rootCmd.Flags().StringVarP(&amp;token, \"token\", \"t\", \"\", \"usage\")\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Masudur Rahman",
+        "link": "https://stackoverflow.com/users/6013663/masudur-rahman"
+      }
+    },
+    {
+      "answer_id": 57167873,
+      "body": "<p>The answer is an example in the documentation.  This example uses both <code>--projectbase</code> and <code>-b</code>:</p>\n\n<pre><code>rootCmd.PersistentFlags().StringVarP(&amp;projectBase, \"projectbase\", \"b\", \"\", \"base project directory eg. github.com/spf13/\")\n</code></pre>\n",
+      "owner": {
+        "display_name": "PaulProgrammer",
+        "link": "https://stackoverflow.com/users/1168588/paulprogrammer"
+      }
+    },
+    {
+      "answer_id": 56487996,
+      "body": "<blockquote>\n  <p>make run ARGS=--flag1=arg1--flag2=arg2</p>\n</blockquote>\n\n<p>Has no separator between the flags</p>\n\n<blockquote>\n  <p>make run ARGS=--flag1=arg1,--flag2=arg2</p>\n</blockquote>\n\n<p>Cobra doesn't use ',' as a default flag separator.</p>\n\n<p>Try:<br>\n<code>make run ARGS='--flag1=arg1 --flag2=arg2'</code></p>\n\n<p>Tried against a cobra CLI of my own, works perfectly.</p>\n",
+      "owner": {
+        "display_name": "Sufiyan Parkar",
+        "link": "https://stackoverflow.com/users/9353289/sufiyan-parkar"
+      }
+    },
+    {
+      "answer_id": 51228490,
+      "body": "<p>I got the answer based on this reference <a href=\"https://github.com/spf13/viper/issues/258\" rel=\"noreferrer\">https://github.com/spf13/viper/issues/258</a></p>\n\n<p>So the solution would be to change any <code>json:</code> tag in <code>ConfigureOpts</code> struct to <code>mapstructure:</code>.</p>\n\n<p>So this will solve the problem.</p>\n\n<pre><code>type ConfigureOpts struct {\n    GCPProjectID       string `mapstructure:\"project-id\"`\n    ClusterName        string `mapstructure:\"cluster-name\"`\n    Zone               string `mapstructure:\"zone\"`\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Agung Pratama",
+        "link": "https://stackoverflow.com/users/476917/agung-pratama"
+      }
+    },
+    {
+      "answer_id": 54617575,
+      "body": "<p>To change how usage name look. You can pass it in <code>cobra.Command.Use</code> parameter. So for you it probably will look like this:</p>\n\n<pre><code>var cmdCancel = &amp;cobra.Command{\n    Use:   \"cancel &lt;order_id&gt;\",\n    Args: cobra.ExactArgs(1), // make sure that only one arg can be passed\n    // Your logic here\n} \n</code></pre>\n",
+      "owner": {
+        "display_name": "ttomalak",
+        "link": "https://stackoverflow.com/users/9312230/ttomalak"
+      }
+    },
+    {
+      "answer_id": 54151965,
+      "body": "<pre><code>func TestCreateConfigFileFromPrompts(t *testing.T) {\n\n    var in bytes.Buffer\n    var gotOut, wantOut bytes.Buffer\n\n    // The reader should read to the \\n each of two times.\n    in.Write([]byte(\"example-url.com\\nexampletoken\\n\"))\n\n    // wantOut could just be []byte, but for symmetry's sake I've used another buffer\n    wantOut.Write([]byte(\"TFE URL:TFE API Token (Create one at example-url.com/app/settings/tokens)\"))\n\n    // I don't know enough about Viper to manage ConfigPath()\n    // but it seems youll have to do it here somehow.\n    configFilePath := \"test/file/location\"\n\n    CreateConfigFileFromPrompts(&amp;in, &amp;gotOut)\n\n    // verify that correct prompts were sent to the writer\n    if !bytes.Equal(gotOut.Bytes(), wantOut.Bytes()) {\n        t.Errorf(\"Prompts = %s, want %s\", gotOut.Bytes(), wantOut.Bytes())\n    }\n\n    // May not need/want to test viper's writing of the config file here, or at all, but if so:\n    var fileGot, fileWant []byte\n    fileWant = []byte(\"Correct Config file contents:\\n URL:example-url.com\\nTOKEN:exampletoken\")\n    fileGot, err := ioutil.ReadFile(configFilePath)\n    if err != nil {\n        t.Errorf(\"Error reading config file %s\", configFilePath)\n    }\n    if !bytes.Equal(fileGot, fileWant) {\n        t.Errorf(\"ConfigFile: %s not created correctly got = %s, want %s\", configFilePath, fileGot, fileWant)\n    }\n}\n</code></pre>\n\n<p>As highlighted by @zdebra in comments to his answer, the go-input package is panicing and giving you the error: Reader must be a file. If you are married to using that package, you can avoid the problem by disabling the masking option on the ui.Ask for your second input:</p>\n\n<pre><code>tfeAPIToken, err := ui.Ask(fmt.Sprintf(\"TFE API Token (Create one at %s/app/settings/tokens)\", tfeURL), &amp;input.Options{\n        Default:     \"\",\n        Required:    true,\n        Loop:        true,\n        //Mask:        true, // if this is set to True, the input must be a file for some reason\n        //MaskDefault: true,\n    })\n</code></pre>\n",
+      "owner": {
+        "display_name": "blobdon",
+        "link": "https://stackoverflow.com/users/2471524/blobdon"
+      }
+    },
+    {
+      "answer_id": 53469247,
+      "body": "<p>Each sub command can have their own flags. You can do this as following:</p>\n\n<pre><code>package main\n\nimport (\n    \"fmt\"\n    \"log\"\n\n    \"github.com/spf13/cobra\"\n)\n\nvar rootCmd = &amp;cobra.Command{\n    Use: \"app\",\n}\n\nfunc NewCmdRest() *cobra.Command {\n    var env string\n    var restCmd = &amp;cobra.Command{\n        Use: \"rest\",\n        Run: func(cmd *cobra.Command, args []string) {\n            fmt.Println(\"rest:\", env)\n        },\n    }\n\n    restCmd.Flags().StringVarP(&amp;env, \"env\", \"e\", \"\", \"environment\")\n    return restCmd\n}\n\nfunc NewCmdEvent() *cobra.Command {\n    var env string\n    var eventCmd = &amp;cobra.Command{\n        Use: \"event\",\n        Run: func(cmd *cobra.Command, args []string) {\n            fmt.Println(\"event:\", env)\n        },\n    }\n\n    eventCmd.Flags().StringVarP(&amp;env, \"env\", \"e\", \"\", \"environment\")\n    return eventCmd\n}\n\nfunc init() {\n    rootCmd.AddCommand(NewCmdRest())\n    rootCmd.AddCommand(NewCmdEvent())\n}\n\nfunc main() {\n    if err := rootCmd.Execute(); err != nil {\n        log.Fatal(err)\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "nightfury1204",
+        "link": "https://stackoverflow.com/users/6878708/nightfury1204"
+      }
+    },
+    {
+      "answer_id": 53160533,
+      "body": "<p>Your sample already prints the error both to <code>stdout</code> and <code>stderr</code>.</p>\n\n<p>By default the <code>cobra</code> package prints any errors it encounters to <code>stderr</code>, unless you specifically change that.</p>\n\n<p>So running \n<code>./main provide apps something 2&gt; ./stderr.txt</code> creates a text file with the following content (this is what cobra writes to <code>stderr</code> without your intervention):</p>\n\n<pre><code>Error: app name doesnt exist\n</code></pre>\n\n<p>And running <code>./main provide apps something &gt; ./stdout.txt</code> - creates a text file with the following content (you printed that yourself with <code>fmt.Println(err)</code>, the second line from the bottom in your code):</p>\n\n<pre><code>app name doesnt exist\n</code></pre>\n\n<p>Which means <strong>default behaviour prints errors both to <code>stdout</code> and <code>stderr</code></strong>.</p>\n\n<p>As Devin has advised you, changing the last line to <code>os.Stderr.WriteString(err)</code> or\n<code>fmt.Fprintln(os.Stderr, err)</code> (the one I would use) will make your project to  <strong>print everything to <code>stderr</code> only</strong>, which means printing errors twice:</p>\n\n<pre><code>Error: app name doesnt exist\napp name doesnt exist\n</code></pre>\n\n<p>It might be useful to know that cobra allows you some control of error printing behaviour. For example, you can tell a cobra command which stream to print to:</p>\n\n<pre><code>command.SetOutput(os.Stdout)     // Defaults to os.Stderr\n</code></pre>\n\n<p>you could also prevent printing of errors:</p>\n\n<pre><code>command.SilenceErrors = true\n</code></pre>\n\n<p>or prevent printing of usage text:</p>\n\n<pre><code>command.SilenceUsage = true\n</code></pre>\n",
+      "owner": {
+        "display_name": "quasoft",
+        "link": "https://stackoverflow.com/users/2939061/quasoft"
+      }
+    },
+    {
+      "answer_id": 51328167,
+      "body": "<p>After digging into codes of <code>github.com/spf13/{cobra,viper,pflag}</code>for quite a while, I finally find the problem.</p>\n\n<p>When you call <code>pFlags.StringArrayVar(&amp;submitBugOpts.ReasonTags, \"tag\", nil, ...)</code>, the <code>ReasonTags</code>, of course, binds to a wrapper of <code>pflag.stringArrayValue</code>. <a href=\"https://github.com/spf13/viper/blob/d493c32b69b8c6f2377bf30bc4d70267ffbc0793/viper.go#L831\" rel=\"noreferrer\">source</a>.</p>\n\n<p>And when you call <code>viper.Unmarshall</code>, viper uses <code>v.Get</code> to get the value binds to <code>ReasonTags</code> and then it calls <code>v.find</code>.</p>\n\n<p>In <code>v.find</code>, after the value is found, it uses the wrapper's <code>ValueType()</code> method to determine its type, the wrapper then calls the <code>Type</code> method of the wrapped type, <code>pflag.stringArrayValue</code>, and returns <code>\"stringArray\"</code>. <a href=\"https://github.com/spf13/pflag/blob/3ebe029320b2676d667ae88da602a5f854788a8a/string_array.go#L27\" rel=\"noreferrer\">source</a></p>\n\n<p>But viper only handle <code>\"stringSlice\"</code> as a special case, so the value gets to <code>default</code> part of type switch, which uses its <code>ValueString()</code> method - making it into a string, with <code>\"[\"</code> and <code>\"]\"</code> on both side. <a href=\"https://github.com/spf13/viper/blob/d493c32b69b8c6f2377bf30bc4d70267ffbc0793/viper.go#L921\" rel=\"noreferrer\">source</a></p>\n\n<p>And when finally unmarshalling, as your output param, <code>ReasonTags</code> is of <code>[]string</code>, the program simply splitted the string and set it into the field.</p>\n\n<p>As for solution, if you are ok with prohibitting <code>tag</code> to contain <code>,</code>, simply change <code>StringArrayVar</code> to <code>StringSliceVar</code>, but this will results in <code>--tag \"Yet, the problem re-occurs\"</code> into <code>[]string{\"Yet\",\" the problem re-occrus\"}</code>.</p>\n\n<p>If that is critical, you'll need to ask the developers of viper to create a case for <code>stringArray</code>.</p>\n",
+      "owner": {
+        "display_name": "leaf bebop",
+        "link": "https://stackoverflow.com/users/9143962/leaf-bebop"
+      }
+    },
+    {
+      "answer_id": 50880663,
+      "body": "<p>You can use the <code>(c *Command) SetArgs(a []string)</code> <a href=\"https://github.com/spf13/cobra/blob/4dab30cb33e6633c33c787106bafbfbfdde7842d/command.go#L202\" rel=\"noreferrer\">function</a> for this. The fact that some of your arguments are integers or booleans doesn't matter here - after all, that's what a user will be entering on the command line!</p>\n\n<p>The <code>(c *Command) DebugFlags()</code> <a href=\"https://github.com/spf13/cobra/blob/4dab30cb33e6633c33c787106bafbfbfdde7842d/command.go#L1100\" rel=\"noreferrer\">function</a> can be used when you're developing the test to ensure that the flags you're passing are being interperted properly, too.</p>\n\n<p>My integration tests with Cobra tend to end up looking like this:</p>\n\n<pre><code>...\n\ncmd := cli.RootCmd()\nbuf := new(bytes.Buffer)\ncmd.SetOutput(buf)\ncmd.SetArgs([]string{\n    \"--some-flag\",\n    fmt.Sprintf(\"--some-string=%s\", value),\n    fmt.Sprintf(\"--some-integer=%d\", integer),\n})\nerr := cmd.Execute()\n\n...\n</code></pre>\n",
+      "owner": {
+        "display_name": "laverya",
+        "link": "https://stackoverflow.com/users/5657035/laverya"
+      }
+    },
+    {
+      "answer_id": 50073142,
+      "body": "<h3>Share information between commands</h3>\n\n<p>Like was said in comments, if you need to share data across commands, you'll need to persist it. The structure you use is no relevant, but for simplicity and because of JSON is the current most extended language for data exchange we'll use it.</p>\n\n<p><hr></p>\n\n<h3>Where should I create it (path)?</h3>\n\n<p>My recomendation is to use the home of the user. Many applications save its configuration here. This will allow a solution multi-environment easily. Say that your configuration file will be named <em>myApp</em>.</p>\n\n<pre><code>func configPath() string {\n    cfgFile := \".myApp\"\n    usr, _ := user.Current()\n    return path.Join(usr.HomeDir, cfgFile)\n}\n</code></pre>\n\n<p><hr></p>\n\n<h3>When to clean it ?</h3>\n\n<p>That obviously will depend on your requirements. But, if you always need to run <code>pre</code> and <code>run</code> in that order, I bet that you can clean it inmediately after <code>run</code> execution, when it won't be longer needed.</p>\n\n<p><hr></p>\n\n<h3>How to store it ?</h3>\n\n<p>That's easy. If what you need to save is your <code>config</code> struct you can do this:</p>\n\n<pre><code>func saveConfig(c config) {\n    jsonC, _ := json.Marshal(c)\n    ioutil.WriteFile(configPath(), jsonC, os.ModeAppend)\n}\n</code></pre>\n\n<p><hr></p>\n\n<h3>And to read it ?</h3>\n\n<pre><code>func readConfig() config {\n    data, _ := ioutil.ReadFile(configPath())\n    var cfg config\n    json.Unmarshal(data, &amp;cfg)\n    return cfg\n}\n</code></pre>\n\n<p><hr></p>\n\n<h3>Flow</h3>\n\n<pre><code>// pre command\n// persist to file the data you need\nsaveConfig(config{ \n    id:   \"id\",\n    path: \"path\",\n    wd:   \"wd\",\n}) \n</code></pre>\n\n<p></p>\n\n<pre><code>// run command\n// retrieve the previously stored information\ncfg := readConfig()\n\n// from now you can use the data generated by `pre`\n</code></pre>\n\n<blockquote>\n  <p><strong>DISCLAIMER</strong>: I've removed all error handling for short.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Ivan Beldad",
+        "link": "https://stackoverflow.com/users/6401895/ivan-beldad"
+      }
+    },
+    {
+      "answer_id": 49276716,
+      "body": "<p>You can use the value stored in the <code>Name</code> variable for performing operations within your program. An example usage of cobra is:</p>\n\n<pre><code>var Name = \"sample_\"\n\nvar rootCmd = &amp;cobra.Command{\n    Use:   \"hello\",\n    Short: \"Example short description\",\n    Run:   func(cmd *cobra.Command, args []string) {\n        // Do Stuff Here\n    },\n}\n\nvar echoCmd = &amp;cobra.Command{\n    Use:   \"echo\",\n    Short: \"Echo description\",\n    Run:   func(cmd *cobra.Command, args []string) {\n        fmt.Printf(\"hello %s\", Name)\n    },\n}\n\nfunc init() {\n    rootCmd.AddCommand(echoCmd)\n}\n\nfunc Execute() {\n    if err := rootCmd.Execute(); err != nil {\n        fmt.Println(err)\n        os.Exit(1)\n    }\n}\n</code></pre>\n\n<p>`</p>\n\n<p>In the above code, you can see that <code>hello</code> is the root command and <code>echo</code> is a sub command. If you do <code>hello echo</code>, it'll echo the value <code>sample_</code> which is stored in the <code>Name</code> variable.</p>\n\n<p>You can also do something like this:</p>\n\n<pre><code>var echoCmd = &amp;cobra.Command{\n    Use:   \"echo\",\n    Short: \"Echo description\",\n    Run:   func(cmd *cobra.Command, args []string) {\n        // Perform some logical operations\n        if Name == \"sample_\" {\n            fmt.Printf(\"hello %s\", Name)\n        } else {\n            fmt.Println(\"Name did not match\")\n        }\n    },\n}\n</code></pre>\n\n<p>For knowing more about how to use cobra, you can also view my project from the below link.</p>\n\n<p><a href=\"https://github.com/bharath-srinivas/nephele\" rel=\"nofollow noreferrer\">https://github.com/bharath-srinivas/nephele</a></p>\n\n<p>Hope this helps.</p>\n",
+      "owner": {
+        "display_name": "bharath",
+        "link": "https://stackoverflow.com/users/9490568/bharath"
+      }
+    },
+    {
+      "answer_id": 49153754,
+      "body": "<p>It is possible to do with checking of amount of passed arguments to your program. If there is more then <code>0</code> args you will do actual work, but if it less then you will just show the \"help\" for the command. </p>\n\n<pre><code>var addonCmd = &amp;cobra.Command{\n    Use:   \"addon\",\n    Short: \"Install addon packages\",\n    Long: `Install additional packages`,\n    Run: func(cmd *cobra.Command, args []string) {\n        if len(args) == 0 {\n            cmd.Help()\n            os.Exit(0)\n        }\n        // do actual work\n    },\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Pavlo Strokov",
+        "link": "https://stackoverflow.com/users/8279560/pavlo-strokov"
+      }
+    },
+    {
+      "answer_id": 47856870,
+      "body": "<p>The name of the executable is taken from the directory name. Rename the directory <code>newApp</code> to <code>MZR</code>.  With this change, the <code>go install</code> command will create a executable with the name <code>MZR</code>.  If the executable is on your path, then you can run it from the command line using <code>MZR -h</code> or <code>MZR echo</code>,</p>\n",
+      "owner": {
+        "display_name": "user5728991",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 47227243,
+      "body": "<p>I've solved this. Just add new cobra command to <code>applicationCmd</code> like so</p>\n\n<pre><code>applicationCmd.AddCommand(yourNewCommand)\n</code></pre>\n",
+      "owner": {
+        "display_name": "fzlrhmn",
+        "link": "https://stackoverflow.com/users/2457026/fzlrhmn"
+      }
+    },
+    {
+      "answer_id": 46513804,
+      "body": "<p>I think its just this looking through the lib (not tested):</p>\n\n<pre><code>var infoCmd = &amp;cobra.Command{\n    Use:   \"info\",\n    Short: \"A brief description of your command\",\n    Run: func(cmd *cobra.Command, args []string) {\n        var infoURL string\n        if flag1 != \"\" {\n            doSomething()\n        } else if flag2 { //this is a boolean flag\n            doSomethingElse()\n        } else {\n            // Show the default help here\n            cmd.Help()\n        }\n     },\n }\n</code></pre>\n\n<p>See here:</p>\n\n<pre><code>// Help puts out the help for the command.\n// Used when a user calls help [command].\n// Can be defined by user by overriding HelpFunc.\nfunc (c *Command) Help() error {\n    c.HelpFunc()(c, []string{})\n    return nil\n}\n</code></pre>\n\n<p>Generally speaking a readme is only going to give some get started and overview info, you will often have to open up the godocs (inline documentation) to properly understand a package: <a href=\"https://godoc.org/github.com/spf13/cobra#Command.Help\" rel=\"nofollow noreferrer\">godoc cobra: help command</a></p>\n",
+      "owner": {
+        "display_name": "SwiftD",
+        "link": "https://stackoverflow.com/users/1146094/swiftd"
+      }
+    },
+    {
+      "answer_id": 43557669,
+      "body": "<p>It was problem with glide cache not updating why old version of pflag package was getting installed. More detailed info: <a href=\"https://github.com/spf13/cobra/issues/420\" rel=\"nofollow noreferrer\">https://github.com/spf13/cobra/issues/420</a></p>\n",
+      "owner": {
+        "display_name": "Amal",
+        "link": "https://stackoverflow.com/users/1096247/amal"
+      }
+    },
+    {
+      "answer_id": 41761404,
+      "body": "<p>This will fulfill your purpose. Take your number in a flag <code>--input</code>. Give other numbers to add as arguments.</p>\n\n<pre><code>func NewCmd() *cobra.Command {\n    var input int\n    c := &amp;cobra.Command{\n        Use:   \"add\",\n        Short: \"Addition value of given Numbers\",\n\n        Run: func(cmd *cobra.Command, args []string) {\n            if len(args) != input {\n                fmt.Println(fmt.Sprintf(\"You need to provide %v number to sum up\", input))\n                os.Exit(1)\n            }\n            numbers := make([]int, input)\n            for i := 0; i &lt; input; i++ {\n                num, _ := strconv.Atoi(args[i])\n                numbers[i] = num\n            }\n            sum := 0\n            for _, numbers := range numbers {\n                sum += numbers\n            }\n            fmt.Println(\"The Sum :\", sum)\n        },\n    }\n    c.Flags().IntVar(&amp;input, \"input\", 0, \"Number of input\")\n    return c\n}\n\nfunc init() {\n    cmd := NewCmd()\n    RootCmd.AddCommand(cmd)\n}\n</code></pre>\n\n<p>Input:</p>\n\n<pre><code>Calc add --input=3 6 3 6\n</code></pre>\n\n<p>Output:\n    The Sum : 15</p>\n",
+      "owner": {
+        "display_name": "Shahriar",
+        "link": "https://stackoverflow.com/users/1924666/shahriar"
+      }
+    },
+    {
+      "answer_id": 41591070,
+      "body": "<p>Ok, thanks for the additional information, It helped a lot !</p>\n\n<h2>Problem</h2>\n\n<p>The problem arises from the way you're retrieving the value of the flag. Here is what you currently have:</p>\n\n<pre><code>bind := cmd.Flag(\"bind\").Value.String()\nfmt.Printf(\"Binding definition provided: %s\\n\", bind)\nserver.Listen(bind)\n</code></pre>\n\n<p>When binding a flag with viper, it's actually viper that will hold the final value, according to this priorities:</p>\n\n<pre><code>1. If present, use the flag value\n2. Else, use the value from the config file\n3. Else, use the default flag value\n</code></pre>\n\n<p>Your problem is that you retrieve the flag value from the flag set of the command, and not from viper.</p>\n\n<h2>Behavior</h2>\n\n<p>Here is the code I tested:</p>\n\n<pre><code>bind := cmd.Flag(\"bind\").Value.String()\nfmt.Printf(\"Binding definition provided: %s\\n\", bind)\nfmt.Printf(\"Binding definition provided from viper: %s\\n\", viper.GetString(\"bind\"))\n</code></pre>\n\n<p>Without the bind config param:</p>\n\n<pre><code>$ go-logsink listen\nUsing config file: /xxx/.go-logsink.yaml\nBinding definition provided: :50051\nBinding definition provided from viper: :50051\n</code></pre>\n\n<p>With the bind config param set to \"bla\" (not nested, second config file):</p>\n\n<pre><code>$ go-logsink listen\nUsing config file: /xxx/.go-logsink.yaml\nBinding definition provided: :50051\nBinding definition provided from viper: bla\n</code></pre>\n\n<p>With the bind config param set to \"bla\" (not nested, second config file) and an explicit flag:</p>\n\n<pre><code>$ go-logsink listen --bind \":3333\"\nUsing config file: /xxx/.go-logsink.yaml\nBinding definition provided: :3333\nBinding definition provided from viper: :3333\n</code></pre>\n\n<p><strong>Bottomline</strong> : when binding your flags with viper, use viper to retrieve them.</p>\n\n<p><strong>Additional note</strong> : In your README, the proper way to generate grpc compatible code is by adding the grpc plugin to protobuf generation: <code>protoc --go_out=plugins=grpc:. *.proto</code></p>\n",
+      "owner": {
+        "display_name": "T. Claverie",
+        "link": "https://stackoverflow.com/users/6336139/t-claverie"
+      }
+    }
+  ]
+}

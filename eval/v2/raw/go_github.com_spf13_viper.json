@@ -1,0 +1,939 @@
+{
+  "library": "go:github.com/spf13/viper",
+  "fetched_at": "2026-11-21T17:28:19Z",
+  "questions": [
+    {
+      "question_id": 47185318,
+      "title": "Multiple config files with go-viper",
+      "accepted_answer_id": 47185439,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/47185318/multiple-config-files-with-go-viper",
+      "owner": {
+        "display_name": "madshov",
+        "link": "https://stackoverflow.com/users/948383/madshov"
+      }
+    },
+    {
+      "question_id": 49819509,
+      "title": "Reading in environmental Variable Using Viper Go",
+      "accepted_answer_id": 50460286,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/49819509/reading-in-environmental-variable-using-viper-go",
+      "owner": {
+        "display_name": "Tonespy",
+        "link": "https://stackoverflow.com/users/4646662/tonespy"
+      }
+    },
+    {
+      "question_id": 63341006,
+      "title": "What is the difference between StringVar vs StringVarP or String vs StringP when using Go (golang), cobra and viper?",
+      "accepted_answer_id": 63341199,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/63341006/what-is-the-difference-between-stringvar-vs-stringvarp-or-string-vs-stringp-when",
+      "owner": {
+        "display_name": "M_M",
+        "link": "https://stackoverflow.com/users/884502/m-m"
+      }
+    },
+    {
+      "question_id": 35827147,
+      "title": "Cobra + Viper Golang How to test subcommands?",
+      "accepted_answer_id": 35827855,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/35827147/cobra-viper-golang-how-to-test-subcommands",
+      "owner": {
+        "display_name": "CESCO",
+        "link": "https://stackoverflow.com/users/3074508/cesco"
+      }
+    },
+    {
+      "question_id": 51228423,
+      "title": "How to unmarshall viper config to struct with dash character",
+      "accepted_answer_id": 51228490,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/51228423/how-to-unmarshall-viper-config-to-struct-with-dash-character",
+      "owner": {
+        "display_name": "Agung Pratama",
+        "link": "https://stackoverflow.com/users/476917/agung-pratama"
+      }
+    },
+    {
+      "question_id": 41578264,
+      "title": "Config file with cobra and viper",
+      "accepted_answer_id": 41591070,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/41578264/config-file-with-cobra-and-viper",
+      "owner": {
+        "display_name": "Sascha",
+        "link": "https://stackoverflow.com/users/66907/sascha"
+      }
+    },
+    {
+      "question_id": 43847791,
+      "title": "Why is Cobra not reading my configuration file?",
+      "accepted_answer_id": 43850691,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/43847791/why-is-cobra-not-reading-my-configuration-file",
+      "owner": {
+        "display_name": "Joff",
+        "link": "https://stackoverflow.com/users/4400804/joff"
+      }
+    },
+    {
+      "question_id": 66683505,
+      "title": "Handling Viper Config File Path During Go Tests",
+      "accepted_answer_id": 66863824,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/66683505/handling-viper-config-file-path-during-go-tests",
+      "owner": {
+        "display_name": "Galen Howlett",
+        "link": "https://stackoverflow.com/users/6780959/galen-howlett"
+      }
+    },
+    {
+      "question_id": 42747085,
+      "title": "Working with interfaces using Viper language",
+      "accepted_answer_id": 42748666,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/42747085/working-with-interfaces-using-viper-language",
+      "owner": {
+        "display_name": "jaxxstorm",
+        "link": "https://stackoverflow.com/users/645002/jaxxstorm"
+      }
+    },
+    {
+      "question_id": 67742457,
+      "title": "Why am I getting a nil pointer error depending on where I call BindPFlag?",
+      "accepted_answer_id": 67770295,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/67742457/why-am-i-getting-a-nil-pointer-error-depending-on-where-i-call-bindpflag",
+      "owner": {
+        "display_name": "larsks",
+        "link": "https://stackoverflow.com/users/147356/larsks"
+      }
+    },
+    {
+      "question_id": 63527666,
+      "title": "Using viper to read config from envfile",
+      "accepted_answer_id": 63541140,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/63527666/using-viper-to-read-config-from-envfile",
+      "owner": {
+        "display_name": "xN031x",
+        "link": "https://stackoverflow.com/users/9482841/xn031x"
+      }
+    },
+    {
+      "question_id": 51246424,
+      "title": "How to Unmarshall Viper config value to struct containing array of string properly?",
+      "accepted_answer_id": 51328167,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/51246424/how-to-unmarshall-viper-config-value-to-struct-containing-array-of-string-proper",
+      "owner": {
+        "display_name": "Agung Pratama",
+        "link": "https://stackoverflow.com/users/476917/agung-pratama"
+      }
+    },
+    {
+      "question_id": 45120927,
+      "title": "How to load a list of maps with viper?",
+      "accepted_answer_id": 45121313,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/45120927/how-to-load-a-list-of-maps-with-viper",
+      "owner": {
+        "display_name": "jbrown",
+        "link": "https://stackoverflow.com/users/2400966/jbrown"
+      }
+    },
+    {
+      "question_id": 64918795,
+      "title": "Unable to unmarshal using viper",
+      "accepted_answer_id": 64919032,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/64918795/unable-to-unmarshal-using-viper",
+      "owner": {
+        "display_name": "Parth Wadhwa",
+        "link": "https://stackoverflow.com/users/5122643/parth-wadhwa"
+      }
+    },
+    {
+      "question_id": 49974998,
+      "title": "Share properties from separate commands/process",
+      "accepted_answer_id": 50073142,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/49974998/share-properties-from-separate-commands-process",
+      "owner": {
+        "display_name": "user6124024",
+        "link": null
+      }
+    },
+    {
+      "question_id": 75853288,
+      "title": "How to mention time duration in days so that golang viper config can be loaded without errors?",
+      "accepted_answer_id": 75853366,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/75853288/how-to-mention-time-duration-in-days-so-that-golang-viper-config-can-be-loaded-w",
+      "owner": {
+        "display_name": "Mayukh Sarkar",
+        "link": "https://stackoverflow.com/users/4037927/mayukh-sarkar"
+      }
+    },
+    {
+      "question_id": 72414729,
+      "title": "Can&#39;t get a key from env variable to override YAML config file using Viper",
+      "accepted_answer_id": 72415593,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/72414729/cant-get-a-key-from-env-variable-to-override-yaml-config-file-using-viper",
+      "owner": {
+        "display_name": "yusufmalikul",
+        "link": "https://stackoverflow.com/users/1621857/yusufmalikul"
+      }
+    },
+    {
+      "question_id": 65746929,
+      "title": "Viper mapping environment variable to struct member",
+      "accepted_answer_id": 65747120,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/65746929/viper-mapping-environment-variable-to-struct-member",
+      "owner": {
+        "display_name": "mahendra",
+        "link": "https://stackoverflow.com/users/5435039/mahendra"
+      }
+    },
+    {
+      "question_id": 43176391,
+      "title": "How do I unmarshal environment variables to a slice using viper?",
+      "accepted_answer_id": 43241844,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/43176391/how-do-i-unmarshal-environment-variables-to-a-slice-using-viper",
+      "owner": {
+        "display_name": "user776942",
+        "link": null
+      }
+    },
+    {
+      "question_id": 69993691,
+      "title": "Determine if flags were actually passed in (sub)command invocation in golang&#39;s cobra/viper",
+      "accepted_answer_id": 69993757,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/69993691/determine-if-flags-were-actually-passed-in-subcommand-invocation-in-golangs-c",
+      "owner": {
+        "display_name": "pkaramol",
+        "link": "https://stackoverflow.com/users/2409793/pkaramol"
+      }
+    },
+    {
+      "question_id": 77934046,
+      "title": "Golang Viper: How to take a value from another field if the first one does not exist",
+      "accepted_answer_id": 77948541,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/77934046/golang-viper-how-to-take-a-value-from-another-field-if-the-first-one-does-not-e",
+      "owner": {
+        "display_name": "Евгений",
+        "link": "https://stackoverflow.com/users/17213593/%d0%95%d0%b2%d0%b3%d0%b5%d0%bd%d0%b8%d0%b9"
+      }
+    },
+    {
+      "question_id": 56773979,
+      "title": "Viper is not considering the yaml tags in my structs on unmarshalling",
+      "accepted_answer_id": 56775231,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/56773979/viper-is-not-considering-the-yaml-tags-in-my-structs-on-unmarshalling",
+      "owner": {
+        "display_name": "meshkati",
+        "link": "https://stackoverflow.com/users/1185148/meshkati"
+      }
+    },
+    {
+      "question_id": 52339336,
+      "title": "Removal of key-value pair from viper config file",
+      "accepted_answer_id": 52667799,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/52339336/removal-of-key-value-pair-from-viper-config-file",
+      "owner": {
+        "display_name": "RoKK",
+        "link": "https://stackoverflow.com/users/38413/rokk"
+      }
+    },
+    {
+      "question_id": 46008299,
+      "title": "How to bind config items in an array to environment variables",
+      "accepted_answer_id": 46010194,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/46008299/how-to-bind-config-items-in-an-array-to-environment-variables",
+      "owner": {
+        "display_name": "j3d",
+        "link": "https://stackoverflow.com/users/278659/j3d"
+      }
+    },
+    {
+      "question_id": 44247616,
+      "title": "Replace viper map key without replacing entire map",
+      "accepted_answer_id": 44247901,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/44247616/replace-viper-map-key-without-replacing-entire-map",
+      "owner": {
+        "display_name": "user776942",
+        "link": null
+      }
+    },
+    {
+      "question_id": 34053881,
+      "title": "golang: How can I use pflag with other packages that use flag?",
+      "accepted_answer_id": 34073756,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/34053881/golang-how-can-i-use-pflag-with-other-packages-that-use-flag",
+      "owner": {
+        "display_name": "Ziffusion",
+        "link": "https://stackoverflow.com/users/296923/ziffusion"
+      }
+    },
+    {
+      "question_id": 78730622,
+      "title": "How make viper recognise the json in my envvar?",
+      "accepted_answer_id": 78735021,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/78730622/how-make-viper-recognise-the-json-in-my-envvar",
+      "owner": {
+        "display_name": "spoovy",
+        "link": "https://stackoverflow.com/users/1460827/spoovy"
+      }
+    },
+    {
+      "question_id": 73988842,
+      "title": "How to unmarshall config entry header with Go Viper package?",
+      "accepted_answer_id": 73989091,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/73988842/how-to-unmarshall-config-entry-header-with-go-viper-package",
+      "owner": {
+        "display_name": "user982599",
+        "link": "https://stackoverflow.com/users/982599/user982599"
+      }
+    },
+    {
+      "question_id": 71828392,
+      "title": "Error reading config file. Golang using viper package",
+      "accepted_answer_id": 71832711,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/71828392/error-reading-config-file-golang-using-viper-package",
+      "owner": {
+        "display_name": "Franklyn Omonade",
+        "link": "https://stackoverflow.com/users/17808810/franklyn-omonade"
+      }
+    },
+    {
+      "question_id": 68915944,
+      "title": "viper dynamically loading config file has data race",
+      "accepted_answer_id": 68916714,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/68915944/viper-dynamically-loading-config-file-has-data-race",
+      "owner": {
+        "display_name": "HSAR",
+        "link": "https://stackoverflow.com/users/5966443/hsar"
+      }
+    },
+    {
+      "question_id": 67509078,
+      "title": "Viper config file found on dev but not on production using Dockerfile",
+      "accepted_answer_id": 67510012,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/67509078/viper-config-file-found-on-dev-but-not-on-production-using-dockerfile",
+      "owner": {
+        "display_name": "desenV",
+        "link": "https://stackoverflow.com/users/14719979/desenv"
+      }
+    },
+    {
+      "question_id": 58625464,
+      "title": "Validating configurations files with viper",
+      "accepted_answer_id": 58686801,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/58625464/validating-configurations-files-with-viper",
+      "owner": {
+        "display_name": "Bruce Adams",
+        "link": "https://stackoverflow.com/users/1569204/bruce-adams"
+      }
+    },
+    {
+      "question_id": 55896369,
+      "title": "why the &quot;switch t := policy.Parameter.(type)&quot; does not work with viper.Unmarshal()",
+      "accepted_answer_id": 55896852,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/55896369/why-the-switch-t-policy-parameter-type-does-not-work-with-viper-unmarshal",
+      "owner": {
+        "display_name": "Toni.W",
+        "link": "https://stackoverflow.com/users/5235551/toni-w"
+      }
+    },
+    {
+      "question_id": 50749869,
+      "title": "How Do I Unmarshal Dynamic Viper or JSON keys as part of struct field in go",
+      "accepted_answer_id": 50749936,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/50749869/how-do-i-unmarshal-dynamic-viper-or-json-keys-as-part-of-struct-field-in-go",
+      "owner": {
+        "display_name": "jonnie",
+        "link": "https://stackoverflow.com/users/1568270/jonnie"
+      }
+    },
+    {
+      "question_id": 58452611,
+      "title": "How is a Cobra Flag of type `StringToStringVar` access using Viper?",
+      "accepted_answer_id": 58470849,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/58452611/how-is-a-cobra-flag-of-type-stringtostringvar-access-using-viper",
+      "owner": {
+        "display_name": "Russell Seymour",
+        "link": "https://stackoverflow.com/users/783726/russell-seymour"
+      }
+    },
+    {
+      "question_id": 56485807,
+      "title": "How to get 2 flags from a make command cobra",
+      "accepted_answer_id": 56487996,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/56485807/how-to-get-2-flags-from-a-make-command-cobra",
+      "owner": {
+        "display_name": "not_fubar_yet",
+        "link": "https://stackoverflow.com/users/3357984/not-fubar-yet"
+      }
+    },
+    {
+      "question_id": 78373096,
+      "title": "golang viper initialize config file",
+      "accepted_answer_id": 78384837,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/78373096/golang-viper-initialize-config-file",
+      "owner": {
+        "display_name": "Simply  Seth",
+        "link": "https://stackoverflow.com/users/215800/simply-seth"
+      }
+    },
+    {
+      "question_id": 76608456,
+      "title": "Unmarshaling INI file using Viper Go is not working as expected",
+      "accepted_answer_id": 76609719,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/76608456/unmarshaling-ini-file-using-viper-go-is-not-working-as-expected",
+      "owner": {
+        "display_name": "EnterSB",
+        "link": "https://stackoverflow.com/users/818944/entersb"
+      }
+    },
+    {
+      "question_id": 70885156,
+      "title": "Idiomatic way to conditionally unmarshal a viper config (toml) into structs",
+      "accepted_answer_id": 70932409,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/70885156/idiomatic-way-to-conditionally-unmarshal-a-viper-config-toml-into-structs",
+      "owner": {
+        "display_name": "madhermit",
+        "link": "https://stackoverflow.com/users/797215/madhermit"
+      }
+    },
+    {
+      "question_id": 68407017,
+      "title": "How to iterate over yml sections with structs?",
+      "accepted_answer_id": 68423619,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/68407017/how-to-iterate-over-yml-sections-with-structs",
+      "owner": {
+        "display_name": "user16461680",
+        "link": "https://stackoverflow.com/users/16461680/user16461680"
+      }
+    },
+    {
+      "question_id": 67843868,
+      "title": "Problem accessing nested YAML structure in Viper",
+      "accepted_answer_id": 67844211,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/67843868/problem-accessing-nested-yaml-structure-in-viper",
+      "owner": {
+        "display_name": "D.Sync",
+        "link": "https://stackoverflow.com/users/4831519/d-sync"
+      }
+    },
+    {
+      "question_id": 67303902,
+      "title": "Golang Viper GetSliceString not parsing yml file",
+      "accepted_answer_id": 67304309,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/67303902/golang-viper-getslicestring-not-parsing-yml-file",
+      "owner": {
+        "display_name": "James H",
+        "link": "https://stackoverflow.com/users/5616578/james-h"
+      }
+    },
+    {
+      "question_id": 67268248,
+      "title": "Is it possible to map a prefixed list of env values into a map with Viper?",
+      "accepted_answer_id": 67272185,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/67268248/is-it-possible-to-map-a-prefixed-list-of-env-values-into-a-map-with-viper",
+      "owner": {
+        "display_name": "Andrei Dascalu",
+        "link": "https://stackoverflow.com/users/1885493/andrei-dascalu"
+      }
+    },
+    {
+      "question_id": 66900726,
+      "title": "Writing new key to configuration file with Viper",
+      "accepted_answer_id": 66914932,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/66900726/writing-new-key-to-configuration-file-with-viper",
+      "owner": {
+        "display_name": "Alberto",
+        "link": "https://stackoverflow.com/users/2467035/alberto"
+      }
+    },
+    {
+      "question_id": 61982306,
+      "title": "Unmarshalling config files in go",
+      "accepted_answer_id": 61982693,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/61982306/unmarshalling-config-files-in-go",
+      "owner": {
+        "display_name": "kosta",
+        "link": "https://stackoverflow.com/users/3288346/kosta"
+      }
+    },
+    {
+      "question_id": 59210945,
+      "title": "Golang viper, I can&#39;t get fields after MergeConfigMap",
+      "accepted_answer_id": 59211148,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/59210945/golang-viper-i-cant-get-fields-after-mergeconfigmap",
+      "owner": {
+        "display_name": "Bekmamat",
+        "link": "https://stackoverflow.com/users/6732632/bekmamat"
+      }
+    },
+    {
+      "question_id": 48973336,
+      "title": "go routine with net/http dynamically created using viper config",
+      "accepted_answer_id": 48973593,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/48973336/go-routine-with-net-http-dynamically-created-using-viper-config",
+      "owner": {
+        "display_name": "TheeCodeDragon",
+        "link": "https://stackoverflow.com/users/8493648/theecodedragon"
+      }
+    },
+    {
+      "question_id": 37400832,
+      "title": "viper yaml config sequence",
+      "accepted_answer_id": 37425224,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/37400832/viper-yaml-config-sequence",
+      "owner": {
+        "display_name": "trorbyte",
+        "link": "https://stackoverflow.com/users/5516510/trorbyte"
+      }
+    },
+    {
+      "question_id": 35532732,
+      "title": "Converting JSON object array to YAML",
+      "accepted_answer_id": 35535166,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/35532732/converting-json-object-array-to-yaml",
+      "owner": {
+        "display_name": "Anuruddha",
+        "link": "https://stackoverflow.com/users/1400204/anuruddha"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 78735021,
+      "body": "<pre><code>package main\n\nimport (\n    &quot;encoding/json&quot;\n    &quot;fmt&quot;\n    &quot;os&quot;\n    &quot;github.com/mitchellh/mapstructure&quot;\n    &quot;github.com/spf13/viper&quot;\n)\n\ntype ChannelMap struct {\n    Team    string `mapstructure:&quot;team&quot;`\n    Channel string `mapstructure:&quot;channel&quot;`\n}\n\ntype AllInputChannels struct {\n    Production []ChannelMap `mapstructure:&quot;production&quot;`\n    Staging    []ChannelMap `mapstructure:&quot;staging&quot;`\n}\n\ntype Config struct {\n    AllInputChannels AllInputChannels `mapstructure:&quot;AllInputChannels&quot;`\n}\n\nfunc NewConfig() Config { return Config{} }\n\nfunc Build() Config {\n    conf := NewConfig()\n\n    _ = os.Setenv(&quot;ALLINPUTCHANNELS&quot;, `{&quot;staging&quot;:[{&quot;team&quot;:&quot;Foo&quot;,&quot;channel&quot;:&quot;DEF456&quot;}]}`)\n    viper.AutomaticEnv()\n\n    viper.AddConfigPath(&quot;.&quot;) // Local builds.\n    viper.SetConfigName(&quot;config&quot;)\n    viper.SetConfigType(&quot;yaml&quot;)\n\n    \n    // Load the environment variable and unmarshal the JSON value into the struct\n\n    if envValue := viper.GetString(&quot;ALLINPUTCHANNELS&quot;); envValue != &quot;&quot; {\n\n        var allInputChannels AllInputChannels\n\n        err := json.Unmarshal([]byte(envValue), &amp;allInputChannels)\n\n        if err != nil {\n\n            fmt.Printf(&quot;Error unmarshaling JSON from environment variable: %v\\n&quot;, err)\n\n            return conf\n\n        }\n\n        conf.AllInputChannels = allInputChannels\n\n    }\n\n    _ = viper.ReadInConfig()\n\n    err := viper.Unmarshal(&amp;conf, func(c *mapstructure.DecoderConfig) {\n\n        c.TagName = &quot;mapstructure&quot;\n\n    })\n    if err != nil {\n        fmt.Printf(&quot;unable to decode config, %v&quot;, err)\n    }\n\n    return conf\n}\n\nfunc main() {\n    conf := Build()\n\n    fmt.Printf(&quot;Config: %+v\\n&quot;, conf)\n}\n</code></pre>\n<p>changes made :-</p>\n<ol>\n<li>The <code>mapstructure</code> tags are case-sensitive and must match the keys in the JSON data exactly.</li>\n<li>The <code>os.Setenv(&quot;ALLINPUTCHANNELS&quot;, ...)</code> sets the environment variable correctly.</li>\n<li><code>viper.AutomaticEnv()</code> ensures Viper reads environment variables automatically.</li>\n<li>After loading the environment variable ALLINPUTCHANNELS, its value is parsed as JSON using <code>json.Unmarshal</code> into the <code>AllInputChannels</code> struct.</li>\n<li>The <code>AllInputChannels</code> field in the conf struct is then set to the parsed value.</li>\n<li>Returning <code>conf</code> instead <code>conf,nil</code> where only <code>config</code> required as return value</li>\n</ol>\n",
+      "owner": {
+        "display_name": "Zargham Ahmed",
+        "link": "https://stackoverflow.com/users/14887372/zargham-ahmed"
+      }
+    },
+    {
+      "answer_id": 78384837,
+      "body": "<p>There are two pints to consider:</p>\n<ol>\n<li><p>The line</p>\n<p>err := v.ReadInConfig()</p>\n</li>\n</ol>\n<p>does not return any error if file does not exist, it just creates a new one. So the execution does not go into if block but into else.</p>\n<ol start=\"2\">\n<li><p>And then it depends on how the <code>checkerr()</code> function is implemented (the function does not seem to exist in the golang standard lib). If it looks like this</p>\n<p>func checkerr(e error) {\nos.Exit(0)\n}</p>\n</li>\n</ol>\n<p>you will never reach the line</p>\n<pre><code>fmt.Println(v.ConfigFileUsed())\n</code></pre>\n<p>actually the file is created in user folder and it is a hidden file (starts with .) to see it just use <code>ls -a</code> in your user home directory.</p>\n",
+      "owner": {
+        "display_name": "Sergej Masljukow",
+        "link": "https://stackoverflow.com/users/10664080/sergej-masljukow"
+      }
+    },
+    {
+      "answer_id": 77948541,
+      "body": "<p>After digging around, I realized that there is no native way for this and I had to make a fork and add some code.\nNow you can configure the viper so that the data from the keys is read first and only then the aliases are checked.\nThe possibility of step-by-step verification of each level of aliases has also been added.</p>\n<p><a href=\"https://github.com/EwvwGeN/viper\" rel=\"nofollow noreferrer\">https://github.com/EwvwGeN/viper</a></p>\n<p>Of course, you can do this using the reflect package by specifying, for example, your new tag <code>alias: &quot;field_one, field_two&quot;</code> in the field, But it was more convenient for me to create a full-fledged fork</p>\n<p>Thank you all for rate this question</p>\n",
+      "owner": {
+        "display_name": "Евгений",
+        "link": "https://stackoverflow.com/users/17213593/%d0%95%d0%b2%d0%b3%d0%b5%d0%bd%d0%b8%d0%b9"
+      }
+    },
+    {
+      "answer_id": 76609719,
+      "body": "<p>The <a href=\"https://github.com/spf13/viper\" rel=\"nofollow noreferrer\">https://github.com/spf13/viper</a> project is woefully under documented. Looking at the source I figured out what is needed to make your code work. The key insight is that the key you are trying to unmarshal is implicitly in a section named &quot;default&quot;. So your structure has to put the corresponding variable inside a structure named &quot;Default&quot;.</p>\n<p>I started by creating a file named <em>config.ini</em> with this content:</p>\n<pre><code>message=Welcome!\nhello = goodbye\n</code></pre>\n<p>I then put the following code in a file named <em>x.go</em>:</p>\n<pre><code>package main\n\nimport (\n        &quot;fmt&quot;\n\n        &quot;github.com/spf13/viper&quot;\n)\n\ntype Config struct {\n        Default struct {\n                WelcomeMessage string `mapstructure:&quot;message&quot;`\n                Hello          string\n                Undefined      string\n        }\n}\n\nfunc main() {\n\n        viper.SetConfigName(&quot;config&quot;)\n        viper.SetConfigType(&quot;ini&quot;)\n        viper.AddConfigPath(&quot;.&quot;)\n        err := viper.ReadInConfig() // Find and read the config file\n        if err != nil {             // Handle errors reading the config file\n                panic(err)\n        }\n\n        // var result map[string]interface{}\n        config := Config{}\n\n        err = viper.Unmarshal(&amp;config)\n        if err != nil {\n                panic(err)\n        }\n\n        fmt.Printf(&quot;%#v\\n&quot;, config)\n}\n</code></pre>\n<p>Executing &quot;go run x.go&quot; produces this output (which matches what you expect, modulo the need for a nested struct):</p>\n<pre><code>main.Config{Default:struct { WelcomeMessage string &quot;mapstructure:\\&quot;message\\&quot;&quot;; Hello string; Undefined string }{WelcomeMessage:&quot;Welcome!&quot;, Hello:&quot;goodbye&quot;, Undefined:&quot;&quot;}}\n</code></pre>\n<p>P.S., Having gone to the trouble of solving this question, and looking at the Viper project source code (including its unit tests, API and documentation) I <strong>do not recommend</strong> using that project.</p>\n<p>P.P.S., The INI file format is like the CSV format. Both were created by Microsoft and were horribly underspecified at the time of their introduction. Resulting in many ambiguities and incompatible implementations. Both formats should be avoided.</p>\n",
+      "owner": {
+        "display_name": "Kurtis Rader",
+        "link": "https://stackoverflow.com/users/4276647/kurtis-rader"
+      }
+    },
+    {
+      "answer_id": 75853366,
+      "body": "<p>It is because the <a href=\"https://pkg.go.dev/time#ParseDuration\" rel=\"noreferrer\">ParseDuration</a> called on your time string does not support <code>d</code> as a unit suffix</p>\n<blockquote>\n<p>Valid time units are &quot;ns&quot;, &quot;us&quot; (or &quot;µs&quot;), &quot;ms&quot;, &quot;s&quot;, &quot;m&quot;, &quot;h&quot;.</p>\n</blockquote>\n<p>You are better off using the hours equivalent of <code>30d</code> i.e. <code>720h</code> to resolve the ambiguity.</p>\n<p>Also see issue/explanation in <a href=\"https://github.com/golang/go\" rel=\"noreferrer\">golang/go</a> for why the language designers decided to go with the choice. <a href=\"https://github.com/golang/go/issues/17767\" rel=\"noreferrer\">Why doesn't time.ParseDuration() support days? #17767</a></p>\n",
+      "owner": {
+        "display_name": "Inian",
+        "link": "https://stackoverflow.com/users/5291015/inian"
+      }
+    },
+    {
+      "answer_id": 73989091,
+      "body": "<p>The configuration can be unmarshaled to a map:</p>\n<pre><code>var appconfigs map[string]*AppConfig\n\nviper.UnmarshalKey(&quot;apps&quot;, &amp;appconfigs)\n</code></pre>\n<p>You can get the names from the map key.</p>\n",
+      "owner": {
+        "display_name": "Burak Serdar",
+        "link": "https://stackoverflow.com/users/11923999/burak-serdar"
+      }
+    },
+    {
+      "answer_id": 72415593,
+      "body": "<p>Use <code>viper.SetEnvKeyReplacer</code>, because it wasn't automatically replaced from <code>.</code> to <code>_</code></p>\n<pre><code>viper.SetEnvKeyReplacer(strings.NewReplacer(`.`,`_`))\n</code></pre>\n<p>so it was looking for environment variable <code>STRIPE.SECRET_KEY</code> but since most shell doesn't allow dot in the environment variable name, we have to replace it with underscore.</p>\n",
+      "owner": {
+        "display_name": "Kokizzu",
+        "link": "https://stackoverflow.com/users/1620210/kokizzu"
+      }
+    },
+    {
+      "answer_id": 71832711,
+      "body": "<p>You can use relative or absolute paths, usually, it's better to use relative paths since you don't need to specify the path outside of your project.</p>\n<p>When using the relative path, it searches the path relative to the folder in which you executed the binary.</p>\n<p>Assuming this is the tree:</p>\n<pre><code>├── core_backend\n│   ├── cmd\n│   └── pkg\n│       ├── api \n│       └── app\n│            └── config\n│                  └── env.json\n</code></pre>\n<p>Let's say you run your program in the <code>core_backend</code> directory, you would set your variable <code>myPath</code> to this value</p>\n<pre><code>&quot;pkg/app/config&quot;\n</code></pre>\n",
+      "owner": {
+        "display_name": "oren",
+        "link": "https://stackoverflow.com/users/3738542/oren"
+      }
+    },
+    {
+      "answer_id": 70932409,
+      "body": "<p>This is what I ended up with that allows me to conditionally load a struct based on what is specified in the toml file, and still use an interface to treat it as struct agnostic.</p>\n<p>If anyone has any tips on refactoring this to be more idiomatic, please let me know!</p>\n<pre class=\"lang-go prettyprint-override\"><code>type ProviderService interface {\n    DoAThing()\n}\n\ntype Alpha struct {\n    Apikey string `mapstructure:&quot;apikey&quot;`\n    Domain string `mapstructure:&quot;domain&quot;`\n}\n\ntype Beta struct {\n    Username string `mapstructure:&quot;username&quot;`\n    Password string `mapstructure:&quot;password&quot;`\n    Domain   string `mapstructure:&quot;domain&quot;`\n}\n\nfunc main() {\n    provider := loadConfig()\n    if provider == nil {\n        log.Fatal(&quot;unable to parse config file&quot;)\n    }\n\n    provider.DoAThing()\n}\n\nfunc (a Alpha) DoAThing() {\n    fmt.Println(&quot;domain&quot;, a.Domain)\n}\nfunc (b Beta) DoAThing() {\n    fmt.Println(&quot;domain&quot;, b.Domain)\n}\n\nfunc loadConfig() ProviderService {\n    viper.AddConfigPath(&quot;./&quot;)\n    viper.SetConfigName(&quot;config&quot;)\n    viper.SetConfigType(&quot;toml&quot;)\n\n    err := viper.ReadInConfig()\n    if err != nil {\n        panic(fmt.Errorf(&quot;Fatal error config file: %w \\n&quot;, err))\n    }\n\n    var a Alpha\n    _ = viper.UnmarshalKey(&quot;alpha&quot;, &amp;a)\n    if a != (Alpha{}) {\n        return a\n    }\n\n    var b Beta\n    _ = viper.UnmarshalKey(&quot;beta&quot;, &amp;b)\n    if b != (Beta{}) {\n        return b\n    }\n\n    return nil\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "madhermit",
+        "link": "https://stackoverflow.com/users/797215/madhermit"
+      }
+    },
+    {
+      "answer_id": 69993757,
+      "body": "<p>You can do:</p>\n<pre><code>isSet:=cmd.Flags().Lookup(&quot;foobar&quot;).Changed\n</code></pre>\n<p>That should return if the flag was set, or if the default value was used.</p>\n",
+      "owner": {
+        "display_name": "Burak Serdar",
+        "link": "https://stackoverflow.com/users/11923999/burak-serdar"
+      }
+    },
+    {
+      "answer_id": 68916714,
+      "body": "<p>You lock <code>viperLock</code> called <code>vipe.WatchConfig()</code> and set <code>vipe.OnConfigChange</code>  with a function it is also locking <code>viperLock</code>.</p>\n<p>Because you already called <code>vipe.WatchConfig()</code> and then it started to call <code>vipe.OnConfigChange</code> in separate go routine. it is also try to acquire the same lock. That's why there is a race condition.</p>\n<p>Call <code>vipe.WatchConfig()</code> after setting the <code>vipe.OnConfigChange</code> and after release the lock.</p>\n<p>It should be corrected as below.</p>\n<pre><code>func loadConfigDynamically() {\n    go func() {\n        time.Sleep(time.Second)\n        viperLock.Lock()\n        vipe.OnConfigChange(func(e fsnotify.Event) {\n            viperLock.Lock()\n            log.Println(&quot;config file changed&quot;, e.Name)\n            environment := vipe.GetString(&quot;env&quot;)\n            reloadConfig &lt;- environment\n            viperLock.Unlock()\n        })\n        viperLock.Unlock()\n        vipe.WatchConfig() //this starting call vipe.OnConfigChange\n    }()\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "nipuna",
+        "link": "https://stackoverflow.com/users/10866798/nipuna"
+      }
+    },
+    {
+      "answer_id": 68423619,
+      "body": "<p>I think the only significant problem is that in your data structures you've declared <code>Contacts</code> as a list, but in your YAML file it's a dictionary. If you structure your input file like this:</p>\n<pre><code>user:\n  name: John\n  contacts:\n    - type: email\n      value: test@test.com\n    - type: skype\n      value: skypeacc\n</code></pre>\n<p>Then you can read it like this:</p>\n<pre><code>package main\n\nimport (\n    &quot;fmt&quot;\n\n    &quot;github.com/spf13/viper&quot;\n)\n\ntype Config struct {\n    User User\n}\n\ntype User struct {\n    Name     string\n    Contacts []Contact\n}\n\ntype Contact struct {\n    Type  string\n    Value string\n}\n\nfunc main() {\n    var cfg Config\n\n    viper.SetConfigName(&quot;config&quot;)\n    viper.AddConfigPath(&quot;.&quot;)\n    err := viper.ReadInConfig()\n    if err != nil {\n        panic(err)\n    }\n    viper.Unmarshal(&amp;cfg)\n    fmt.Println(&quot;user: &quot;, cfg.User.Name)\n    for _, contact := range cfg.User.Contacts {\n        fmt.Println(&quot;  &quot;, contact.Type, &quot;: &quot;, contact.Value)\n    }\n}\n</code></pre>\n<p>The above code is runnable as-is; you should just be able to drop it\ninto a file and build it.  When I run the above example, I get as\noutput:</p>\n<pre><code>user:  John\n   email :  test@test.com\n   skype :  skypeacc\n</code></pre>\n",
+      "owner": {
+        "display_name": "larsks",
+        "link": "https://stackoverflow.com/users/147356/larsks"
+      }
+    },
+    {
+      "answer_id": 67844211,
+      "body": "<p>Your struct types do not reflect the YAML type, it looks like you've combined maps and slices together when you're only dealing with slices. In YAML, maps look like this:</p>\n<pre><code>myMap:\n    key1: value1\n</code></pre>\n<p>and arrays look like this:</p>\n<pre><code>myArray:\n    - foo: bar\n</code></pre>\n<p>Unfortunately, your config object is messed up enough that I can't understand the intent so I re-wrote it for you. These types can be decoded by Viper without any issues.</p>\n<pre><code>type Config struct {\n    Zones []Zone `mapstructure:&quot;zones&quot;`\n}\n\ntype Zone struct {\n    ID       int        `mapstructure:&quot;id&quot;`\n    Clusters []Cluster `mapstructure:&quot;clusters&quot;`\n}\n\ntype Cluster struct {\n    ClusterID     int    `mapstructure:&quot;cluster_id&quot;`\n    K3sConfigFile string `mapstructure:&quot;k3s_config_file&quot;`\n}\n</code></pre>\n<p>The <code>Config</code> struct is the root object, make sure to unmarshal into that.</p>\n<pre><code>config := Config{}\nerr = viper.Unmarshal(&amp;config)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Clark McCauley",
+        "link": "https://stackoverflow.com/users/13906951/clark-mccauley"
+      }
+    },
+    {
+      "answer_id": 67770295,
+      "body": "<p>I don't have any issue if I use <code>cmd.PersistentFlags().Lookup(&quot;name&quot;)</code>.</p>\n<pre><code>    // *** If I move this to the top of initConfig\n    // *** the code runs correctly.\n    pflag := cmd.PersistentFlags().Lookup(&quot;name&quot;)\n    config.BindPFlag(&quot;name&quot;, pflag)\n</code></pre>\n<p>Considering you just registered <a href=\"https://github.com/spf13/cobra/blob/eb3b6397b1b5d1b0a2cd66a9afe0520f480c0a87/README.md#persistent-flags\" rel=\"nofollow noreferrer\">persistent flags</a> (flag will be available to the command it's assigned to as well as every command under that command), it is safer to call <code>cmd.PersistentFlags().Lookup(&quot;name&quot;)</code>, rather than <code>cmd.Flags().Lookup(&quot;name&quot;)</code>.</p>\n<p>The latter returns <code>nil</code>, since the <code>PersistentPreRun</code> is only called when <code>rootCmd.Execute()</code> is called, which is <em>after</em> <code>cmd.NewCmdRoot()</code>.<br />\nAt <code>cmd.NewCmdRoot()</code> levels, flags have not yet been initialized, even after some were declared &quot;persistent&quot;.</p>\n",
+      "owner": {
+        "display_name": "VonC",
+        "link": "https://stackoverflow.com/users/6309/vonc"
+      }
+    },
+    {
+      "answer_id": 42748666,
+      "body": "<p>By defining the configuration file type and using <code>viper.Unmarshal</code> you can cast the interface to the specific type you need. Here is an example:</p>\n<p><code>main.go</code></p>\n<pre><code>package main\n\nimport (\n    &quot;fmt&quot;\n\n    &quot;github.com/spf13/viper&quot;\n)\n\ntype Host struct {\n    Name string\n    Port int\n    Key  string\n}\n\ntype Config struct {\n    Hosts []Host\n}\n\nfunc main() {\n    viper.AddConfigPath(&quot;./&quot;)\n    viper.SetConfigName(&quot;test&quot;)\n    viper.ReadInConfig()\n    var config Config\n    err := viper.Unmarshal(&amp;config)\n    if err != nil {\n        panic(&quot;Unable to unmarshal config&quot;)\n    }\n    for _, h := range config.Hosts {\n        fmt.Printf(&quot;Name: %s, Port: %d, Key: %s\\n&quot;, h.Name, h.Port, h.Key)\n    }\n}\n</code></pre>\n<p><code>test.yml</code></p>\n<pre><code>hosts:\n  - name: host1\n    port: 90\n    key: my_key\n  - name: host2\n    port: 90\n    key: prompt\n</code></pre>\n<p>Run:</p>\n<pre><code>$ go run main.go\nName: host1, Port: 90, Key: my_key\nName: host2, Port: 90, Key: prompt\n</code></pre>\n<p>If you want to decode only some keys, not the entire configuration file, use <code>viper.UnmarshalKey</code>.</p>\n<p><code>main.go</code></p>\n<pre><code>package main\n\nimport (\n    &quot;fmt&quot;\n\n    &quot;github.com/spf13/viper&quot;\n)\n\ntype Host struct {\n    Name string\n    Port int\n    Key  string\n}\n\nfunc main() {\n    viper.AddConfigPath(&quot;./&quot;)\n    viper.SetConfigName(&quot;test&quot;)\n    viper.ReadInConfig()\n    var hosts []Host\n    err := viper.UnmarshalKey(&quot;hosts&quot;, &amp;hosts)\n    if err != nil {\n        panic(&quot;Unable to unmarshal hosts&quot;)\n    }\n    for _, h := range hosts {\n        fmt.Printf(&quot;Name: %s, Port: %d, Key: %s\\n&quot;, h.Name, h.Port, h.Key)\n    }\n}\n</code></pre>\n<p>Run:</p>\n<pre><code>$ go run main.go\nName: host1, Port: 90, Key: my_key\nName: host2, Port: 90, Key: prompt\n</code></pre>\n",
+      "owner": {
+        "display_name": "minamijoyo",
+        "link": "https://stackoverflow.com/users/7357841/minamijoyo"
+      }
+    },
+    {
+      "answer_id": 67510012,
+      "body": "<p>From the <a href=\"https://github.com/spf13/viper#establishing-defaults\" rel=\"nofollow noreferrer\">viper docs</a> you can add multiple search paths for configs by calling <code>viper.AddConfigPath</code> multiple times.</p>\n<p>So try:</p>\n<pre><code>viper.AddConfigPath(viperConfig.ConfigAddPath)\nviper.AddConfigPath(&quot;/app/config&quot;) // &lt;- to work with Dockerfile setup\n</code></pre>\n",
+      "owner": {
+        "display_name": "colm.anseo",
+        "link": "https://stackoverflow.com/users/1218512/colm-anseo"
+      }
+    },
+    {
+      "answer_id": 67304309,
+      "body": "<p>I had no issues running this on my machine.<br />\nI suggest you try catching the error on read file and see if that helps.<br />\nYou can also provide the file path if needed.</p>\n<pre><code>func GetElementSliceString(s string) []string {\n    vi := viper.New()\n    vi.SetConfigFile(&quot;element.yml&quot;)\n    vi.AddConfigPath(&quot;./&quot;)          // Path here\n    err := vi.ReadInConfig()        // catch error while reading the configs\n    if err != nil {\n        panic(err)\n    }\n    return vi.GetStringSlice(s)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "advay rajhansa",
+        "link": "https://stackoverflow.com/users/4244550/advay-rajhansa"
+      }
+    },
+    {
+      "answer_id": 67272185,
+      "body": "<p><a href=\"https://github.com/spf13/viper\" rel=\"nofollow noreferrer\">spf13/viper</a> predominantly uses <a href=\"https://pkg.go.dev/github.com/mitchellh/mapstructure?tab=doc\" rel=\"nofollow noreferrer\">mapstructure</a> package to convert between one native Go type to another i.e. when un-marshaling. You need to define an annotation that would cause any unused values to this map. There is an option to collect such <a href=\"https://pkg.go.dev/github.com/mitchellh/mapstructure#hdr-Remainder_Values\" rel=\"nofollow noreferrer\">reminder values</a>. You need to modify the map to take an interface as</p>\n<pre class=\"lang-golang prettyprint-override\"><code>CustomerDB  map[string]interface{} `mapstructure:&quot;,remain&quot;`\n</code></pre>\n<p>which would collect all your <code>DB_*</code> field values to the map as interface types, which you can type assert to get the required string value.</p>\n",
+      "owner": {
+        "display_name": "Inian",
+        "link": "https://stackoverflow.com/users/5291015/inian"
+      }
+    },
+    {
+      "answer_id": 66914932,
+      "body": "<p>try <code>WriteConfigAs(filename)</code> ; you will be able to name the file to write to.</p>\n<p>If there is no error in WriteConfig, it's probably that the changes are not written to the file you expect.</p>\n<p><code>viper.ConfigFileUsed()</code> should return the path used by default.</p>\n",
+      "owner": {
+        "display_name": "LeGEC",
+        "link": "https://stackoverflow.com/users/86072/legec"
+      }
+    },
+    {
+      "answer_id": 66863824,
+      "body": "<p>So apparently the <code>viper.SetConfigFile()</code> call does not respect the <code>viper.AddConfigPath()</code> call... I modified this to using <code>viper.SetConfigName(&quot;.env&quot;)</code> and it would actually pick up the calls to AddConfigPath, so I could then add config paths for the current directory and parent.</p>\n",
+      "owner": {
+        "display_name": "Galen Howlett",
+        "link": "https://stackoverflow.com/users/6780959/galen-howlett"
+      }
+    },
+    {
+      "answer_id": 65747120,
+      "body": "<p>You can use <code>viper.BindEnv(string...) error</code> to bind specific environment variables to configuration.</p>\n<p>From <a href=\"https://github.com/spf13/viper#working-with-environment-variables\" rel=\"noreferrer\">Working with Environment Variables</a>:</p>\n<blockquote>\n<p>BindEnv takes one or more parameters. The first parameter is the key name, the rest are the name of the environment variables to bind to this key. If more than one are provided, they will take precedence in the specified order.</p>\n</blockquote>\n<p>Here the configuration key for the port is <code>server.port</code>, and the environment variable <code>PORT</code> should bind to it.</p>\n<pre><code>...\nviper.AutomaticEnv()\n\n\nerr = viper.BindEnv(&quot;server.port&quot;, &quot;PORT&quot;)\nif err != nil {\n    return\n}\n\n\nerr = viper.ReadInConfig()\n...\n</code></pre>\n<p>With this change in place a call like <code>PORT=9999 ./yourbinary</code> picks up <code>PORT</code> and writes it into <code>server.port</code>. From there, it will be unmarshalled into your struct.</p>\n",
+      "owner": {
+        "display_name": "pscheid",
+        "link": "https://stackoverflow.com/users/3533066/pscheid"
+      }
+    },
+    {
+      "answer_id": 50460286,
+      "body": "<p>The code in my question didn't actually show what I was trying to solve. After understanding what was wrong, I believe, the code here would have ran locally in my <strong>Development Environment.</strong></p>\n<p>According to <a href=\"https://github.com/spf13/viper#working-with-environment-variables\" rel=\"noreferrer\">Viper documentation</a>:</p>\n<blockquote>\n<p>AutomaticEnv is a powerful helper especially when combined with SetEnvPrefix. When called, Viper will check for an environment variable any time a viper.Get request is made. It will apply the following rules. It will check for an environment variable with a name matching the key uppercased and prefixed with the EnvPrefix if set.</p>\n</blockquote>\n<p>This line here says it all:</p>\n<p><strong>It will check for a environment variable with a name matching the key uppercased and prefixed with the EnvPrefix if set</strong></p>\n<p>The prefix set with <code>v.SetEnvPrefix(&quot;restful&quot;)</code> would be expecting a <code>.yaml</code> with key value of:</p>\n<p>Example app.yaml:</p>\n<pre><code>dsn: RESTFUL_DSN\n</code></pre>\n<p>Notice the DSN being the <strong>Lowercased Key</strong> and it being used as a <code>Suffix</code> of <code>RESTFUL_DSN</code></p>\n<p>In my situation, I was doing this instead:</p>\n<p>Example app.yaml:</p>\n<pre><code>dsn: RESTFUL_APP_DSN\n</code></pre>\n<p>So, it was checking for <code>RESTFUL_DSN</code> in my environment instead of <code>RESTFUL_APP_DSN</code></p>\n",
+      "owner": {
+        "display_name": "Tonespy",
+        "link": "https://stackoverflow.com/users/4646662/tonespy"
+      }
+    },
+    {
+      "answer_id": 64919032,
+      "body": "<p>Your problem trivially comes down to the fact, if the <code>username</code> field in your <code>MyConfig</code> struct is exported or not. It needs to uppercased to be &quot;exported&quot; for <code>Unmarshal</code> to decode the value into the struct.</p>\n<pre class=\"lang-golang prettyprint-override\"><code>type Myconfig struct {\n    Username string `mapstructure:&quot;username&quot;`\n}\n</code></pre>\n<p>You can look at <a href=\"https://stackoverflow.com/q/11126793/5291015\">JSON and dealing with unexported fields</a> to understand more on why the <code>json</code> package needs it.</p>\n",
+      "owner": {
+        "display_name": "Inian",
+        "link": "https://stackoverflow.com/users/5291015/inian"
+      }
+    },
+    {
+      "answer_id": 63541140,
+      "body": "<p><a href=\"https://github.com/spf13/viper\" rel=\"noreferrer\">spf13/viper</a> predominantly uses <a href=\"https://pkg.go.dev/github.com/mitchellh/mapstructure?tab=doc\" rel=\"noreferrer\">mapstructure</a> package to convert between one native Go type to another i.e. when un-marshaling. The package internally uses <code>map[string]interface{}</code> type to store your config (see <a href=\"https://github.com/spf13/viper/blob/master/viper.go#L1327\" rel=\"noreferrer\">viper.go - L1327</a>). After that depending on the config type (your case being <code>env</code>), viper calls the right parsing package to store your config values. For envfile type, it uses <a href=\"https://pkg.go.dev/github.com/subosito/gotenv?tab=doc\" rel=\"noreferrer\">subosito/gotenv</a> to put in the above said map type (see <a href=\"https://github.com/spf13/viper/blob/3826be313591f83193f048520482a7b3cf17d506/viper.go#L1501\" rel=\"noreferrer\">viper.go - L1501</a>)</p>\n<p>The crux of your problem is how to make viper unmarshal this config in a map to a struct of your choice. This is where the mapstructure package comes in, to unmarshal the map into a nested structure of you have defined. At this point you are left with two options</p>\n<ol>\n<li>Unmarshal the config as a <code>map[string]interface{}</code> type, and later put in the appropriate structure using mapstructure</li>\n<li>Use the <a href=\"https://pkg.go.dev/github.com/mitchellh/mapstructure?tab=doc#DecodeHookFunc\" rel=\"noreferrer\">DecodeHookFunc</a> as a 2nd argument to your method to unmarshal your config (See <a href=\"https://github.com/spf13/viper/blob/master/viper.go#L904\" rel=\"noreferrer\">viper.go - L904</a>)</li>\n</ol>\n<p>For the sake of simplicity reasons you can do one, which according to a trivial example I've reproduced with your example can be done below</p>\n<pre><code>package main\n\nimport (\n    &quot;fmt&quot;\n    &quot;github.com/mitchellh/mapstructure&quot;\n    &quot;github.com/spf13/viper&quot;\n)\n\ntype ServerConfiguration struct {\n    Port string `mapstructure:&quot;server_port&quot;`\n}\n\ntype Configuration struct {\n    Server ServerConfiguration `mapstructure:&quot;,squash&quot;`\n}\n\nfunc main() {\n    var result map[string]interface{}\n    var config Configuration\n    viper.SetConfigFile(&quot;.env&quot;)\n    if err := viper.ReadInConfig(); err != nil {\n        fmt.Printf(&quot;Error reading config file, %s&quot;, err)\n    }\n\n    err := viper.Unmarshal(&amp;result)\n    if err != nil {\n        fmt.Printf(&quot;Unable to decode into map, %v&quot;, err)\n    }\n\n    decErr := mapstructure.Decode(result, &amp;config)\n\n    if decErr != nil {\n        fmt.Println(&quot;error decoding&quot;)\n    }\n\n    fmt.Printf(&quot;config:%+v\\n&quot;, config)\n}\n</code></pre>\n<p>You can make this working example customized depending on your actual use case. More information about the mapstructure <code>squash</code> tags for embedded structure can be found <a href=\"https://pkg.go.dev/github.com/mitchellh/mapstructure?tab=doc#hdr-Embedded_Structs_and_Squashing\" rel=\"noreferrer\">here</a></p>\n",
+      "owner": {
+        "display_name": "Inian",
+        "link": "https://stackoverflow.com/users/5291015/inian"
+      }
+    },
+    {
+      "answer_id": 63341199,
+      "body": "<p>The <code>P</code> suffix denotes a function that accepts a single letter flag name in addition to the full name, as documented in the <a href=\"https://github.com/spf13/pflag#usage\" rel=\"noreferrer\">usage</a> section of the pflag docs:</p>\n<blockquote>\n<p>The pflag package also defines some new functions that are not in\nflag, that give one-letter shorthands for flags. You can use these by\nappending 'P' to the name of any function that defines a flag.</p>\n</blockquote>\n<p>To answer your individual questions:</p>\n<ul>\n<li>what's the difference: the <code>P</code> functions take an extra parameter: the single letter name. This short flag can be used with a single <code>-</code>.</li>\n<li>which methods have a <code>P</code> counterpart: all of them, as can be seen in the <a href=\"https://godoc.org/github.com/spf13/pflag\" rel=\"noreferrer\">pflag reference</a></li>\n</ul>\n<p>As for why this is documented in pflag and not viper or cobra, this is because both <a href=\"https://github.com/spf13/viper#working-with-flags\" rel=\"noreferrer\">viper</a> and <a href=\"https://github.com/spf13/cobra#flags\" rel=\"noreferrer\">cobra</a> use the pflag library.</p>\n",
+      "owner": {
+        "display_name": "Marc",
+        "link": "https://stackoverflow.com/users/4966953/marc"
+      }
+    },
+    {
+      "answer_id": 61982693,
+      "body": "<p>Use <code>map[string]string</code> or <code>alerts</code> only in  <code>coreconfig</code> struct as your json stucture. </p>\n\n<p>The json tag is used by the <code>json</code> package, not by viper. Viper use <code>github.com/mitchellh/mapstructure</code> package for unmarshaling, so use <code>mapstructure</code> tag.</p>\n\n<pre><code>type coreconfig struct {\n    APIEndpoint      string  `mapstructure:\"api_endpoint\"`\n    BalanceThreshold float64 `mapstructure:\"balance_threshold\"`\n    WalletAddress    string  `mapstructure:\"wallet_address\"`\n    EnableMonitoring bool    `mapstructure:\"enable_monitoring\"`\n    Alerts           alerts\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Eklavya",
+        "link": "https://stackoverflow.com/users/4207306/eklavya"
+      }
+    },
+    {
+      "answer_id": 43850691,
+      "body": "<p>To combine <code>spf13/cobra</code> and <code>spf13/viper</code>, first define the flag with Cobra:</p>\n\n<pre><code>RootCmd.PersistentFlags().StringP(\"foo\", \"\", \"loaded from config\")\n</code></pre>\n\n<p>Bind it with Viper:</p>\n\n<pre><code>viper.BindPFlag(\"foo\", RootCmd.PersistentFlags().Lookup(\"foo\"))\n</code></pre>\n\n<p>And get the variable via the Viper's method:</p>\n\n<pre><code>fmt.Println(\"fooString is: \", viper.GetString(\"foo\"))\n</code></pre>\n",
+      "owner": {
+        "display_name": "minamijoyo",
+        "link": "https://stackoverflow.com/users/7357841/minamijoyo"
+      }
+    },
+    {
+      "answer_id": 59211148,
+      "body": "<p>Field \"log\" is a map in your config. You should be able to access its entries through <code>GetStringMapString</code>.</p>\n\n<pre><code>func init() {\n    conf := defaultConfig()\n    if err := viper.MergeConfigMap(conf); err != nil {\n        panic(err)\n    }\n    fmt.Println(viper.AllSettings())\n    fmt.Println(viper.GetStringMapString(\"log\")[\"filename\"])\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Giulio Micheloni",
+        "link": "https://stackoverflow.com/users/8153816/giulio-micheloni"
+      }
+    },
+    {
+      "answer_id": 58686801,
+      "body": "<p>I think the answer is no. viper does not validate java .properties files.\nI posted a bug report (or feature request depending on your point of view) as <a href=\"https://github.com/spf13/viper/issues/790\" rel=\"nofollow noreferrer\">https://github.com/spf13/viper/issues/790</a></p>\n",
+      "owner": {
+        "display_name": "Bruce Adams",
+        "link": "https://stackoverflow.com/users/1569204/bruce-adams"
+      }
+    },
+    {
+      "answer_id": 58470849,
+      "body": "<p>As far as the binding part is concerned, it is correct. However, before processing, you can verify if a particular key exists using <a href=\"https://godoc.org/github.com/hyperledger/fabric/vendor/github.com/spf13/viper#IsSet\" rel=\"nofollow noreferrer\">vipver.IsSet()</a>, print all the available keys using <a href=\"https://godoc.org/github.com/hyperledger/fabric/vendor/github.com/spf13/viper#AllKeys\" rel=\"nofollow noreferrer\">viper.AllKeys()</a> or print everything using <a href=\"https://godoc.org/github.com/hyperledger/fabric/vendor/github.com/spf13/viper#AllSettings\" rel=\"nofollow noreferrer\">viper.AllSettings()</a>.</p>\n\n<p>Here's an example (<code>test.go</code>):</p>\n\n<pre><code>package main\n\nimport (\n    \"fmt\"\n\n    \"github.com/spf13/cobra\"\n    \"github.com/spf13/viper\"\n)\n\nfunc main() {\n    var items map[string]string\n\n    rootCmd := &amp;cobra.Command{\n        Use: \"app\",\n        Run: func(ccmd *cobra.Command, args []string) {\n\n            fmt.Println(\"item exists?\", viper.IsSet(\"item\"))\n            fmt.Println(\"GetString  :\", viper.GetString(\"item\"))\n            fmt.Println(\"Keys       :\", viper.AllKeys())\n            fmt.Println(\"Settings   :\", viper.AllSettings())\n        },\n    }\n\n    rootCmd.Flags().StringToStringVarP(&amp;items, \"item\", \"i\", nil, \"Map stating the items to be included\")\n    viper.BindPFlag(\"item\", rootCmd.Flags().Lookup(\"item\"))\n    rootCmd.Execute()\n}\n</code></pre>\n\n<p>Output:</p>\n\n<pre><code>$ ./test.exe -i 'k=v,\"a=b,c\"'\nitem exists? true\nGetString  : [k=v,\"a=b,c\"]\nKeys       : [item]\nSettings   : map[item:[k=v,\"a=b,c\"]]\n</code></pre>\n\n<hr>\n\n<p>The usage of <code>GetStringMap()</code> and <code>GetStringMapString()</code> makes more sense with other formats like JSON, YAML, etc. You can trace the execution of these functions to JSON unmarshalling calls in debugging mode.</p>\n\n<p>For map conversion, you can write your own function like this (<a href=\"https://play.golang.org/p/w7TCJH8szDP\" rel=\"nofollow noreferrer\">live</a>):</p>\n\n<pre><code>func getStringMap(s string) map[string]string {\n    entries := strings.Split(s, \",\")\n\n    m := make(map[string]string)\n    for _, e := range entries {\n        tokens := strings.Split(e, \"=\")\n        k := strings.TrimSpace(tokens[0])\n        v := strings.TrimSpace(tokens[1])\n        m[k] = v\n    }\n\n    return m\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Azeem",
+        "link": "https://stackoverflow.com/users/7670262/azeem"
+      }
+    },
+    {
+      "answer_id": 56775231,
+      "body": "<p>Finally found the solution, changing <code>yaml:</code> tags to <code>mapstructure:</code> will fix the problem.</p>\n\n<p>It seems that viper couldn't unmarshal the fields that haven't the same key name in my <code>.yaml</code> file. Like the <code>access_key</code> and <code>secret_key</code> in the question, cause the struct fields where <code>AccessKey</code> and <code>SecretKey</code>.</p>\n\n<p>But the fields like <code>location</code> and <code>url</code> that had the same name in the struct and <code>.yaml</code> file, and there was no problem.</p>\n\n<p>As <a href=\"https://github.com/spf13/viper/issues/385\" rel=\"noreferrer\">this issue</a> says:</p>\n\n<blockquote>\n  <p>The problem is that <code>viper</code> uses mapstructure package for\n  unmarshalling config maps to structs. It doesn't support yaml tags\n  used by the yaml package.</p>\n</blockquote>\n\n<p>So changing the <code>yaml:</code> in the tags to <code>mapstructure:</code> had fixed the problem.</p>\n",
+      "owner": {
+        "display_name": "meshkati",
+        "link": "https://stackoverflow.com/users/1185148/meshkati"
+      }
+    },
+    {
+      "answer_id": 56487996,
+      "body": "<blockquote>\n  <p>make run ARGS=--flag1=arg1--flag2=arg2</p>\n</blockquote>\n\n<p>Has no separator between the flags</p>\n\n<blockquote>\n  <p>make run ARGS=--flag1=arg1,--flag2=arg2</p>\n</blockquote>\n\n<p>Cobra doesn't use ',' as a default flag separator.</p>\n\n<p>Try:<br>\n<code>make run ARGS='--flag1=arg1 --flag2=arg2'</code></p>\n\n<p>Tried against a cobra CLI of my own, works perfectly.</p>\n",
+      "owner": {
+        "display_name": "Sufiyan Parkar",
+        "link": "https://stackoverflow.com/users/9353289/sufiyan-parkar"
+      }
+    },
+    {
+      "answer_id": 55896852,
+      "body": "<p>It's json unmarshal feature</p>\n\n<p>If you use an <code>interface{}</code> as a decoder, the default json object for <code>interface{}</code> is <code>map[string]interface{}</code></p>\n\n<p>You can see it here:</p>\n\n<p><a href=\"https://godoc.org/encoding/json#Unmarshal\" rel=\"nofollow noreferrer\">https://godoc.org/encoding/json#Unmarshal</a></p>\n\n<pre><code>bool, for JSON booleans\nfloat64, for JSON numbers\nstring, for JSON strings\n[]interface{}, for JSON arrays\nmap[string]interface{}, for JSON objects\nnil for JSON null\n</code></pre>\n\n<p>So in <code>t := policy.Parameter.(type)</code>, the <code>t</code> is <code>map[string]interface{}</code></p>\n\n<p>For solving your problem, you can try to define another field to distinguish <code>CatParameter</code> or <code>DogParameter</code></p>\n\n<p>Maybe:</p>\n\n<pre><code>type Policy struct {\n    Name      string      `json:\"name\"`\n    Parameter Parameter   `json:\"parameter\"`\n}\n\ntype Parameter struct {\n    Name      string `json:\"name\"`   // cat or dog\n    Percent   int    `json:\"percent,omitempty\"`\n    Duration  int    `json:\"duration,omitempty\"`\n    Operation string `json:\"operation,omitempty\"`\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "beiping96",
+        "link": "https://stackoverflow.com/users/6863654/beiping96"
+      }
+    },
+    {
+      "answer_id": 51228490,
+      "body": "<p>I got the answer based on this reference <a href=\"https://github.com/spf13/viper/issues/258\" rel=\"noreferrer\">https://github.com/spf13/viper/issues/258</a></p>\n\n<p>So the solution would be to change any <code>json:</code> tag in <code>ConfigureOpts</code> struct to <code>mapstructure:</code>.</p>\n\n<p>So this will solve the problem.</p>\n\n<pre><code>type ConfigureOpts struct {\n    GCPProjectID       string `mapstructure:\"project-id\"`\n    ClusterName        string `mapstructure:\"cluster-name\"`\n    Zone               string `mapstructure:\"zone\"`\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Agung Pratama",
+        "link": "https://stackoverflow.com/users/476917/agung-pratama"
+      }
+    },
+    {
+      "answer_id": 52667799,
+      "body": "<p>Try</p>\n\n<pre><code>delete(viper.Get(\"path.to.key\").(map[string]interface{}), \"key\")\n</code></pre>\n\n<p>Example:</p>\n\n<pre><code>[backends]\n  [backends.setibe]\n    [backends.setibe.servers]\n      [backends.setibe.servers.server0]\n      url = \"http://192.168.1.20:80\"\n      weight = 1\n      [backends.setibe.servers.server1]\n      url = \"http://192.168.1.21:80\"\n      weight = 1\n</code></pre>\n\n<p>To delete \"backends.setibe.servers.server1\"</p>\n\n<pre><code>delete(viper.Get(\"backends.setibe.servers\").(map[string]interface{}), \"server2\")\n</code></pre>\n",
+      "owner": {
+        "display_name": "GuidoV",
+        "link": "https://stackoverflow.com/users/8065356/guidov"
+      }
+    },
+    {
+      "answer_id": 51328167,
+      "body": "<p>After digging into codes of <code>github.com/spf13/{cobra,viper,pflag}</code>for quite a while, I finally find the problem.</p>\n\n<p>When you call <code>pFlags.StringArrayVar(&amp;submitBugOpts.ReasonTags, \"tag\", nil, ...)</code>, the <code>ReasonTags</code>, of course, binds to a wrapper of <code>pflag.stringArrayValue</code>. <a href=\"https://github.com/spf13/viper/blob/d493c32b69b8c6f2377bf30bc4d70267ffbc0793/viper.go#L831\" rel=\"noreferrer\">source</a>.</p>\n\n<p>And when you call <code>viper.Unmarshall</code>, viper uses <code>v.Get</code> to get the value binds to <code>ReasonTags</code> and then it calls <code>v.find</code>.</p>\n\n<p>In <code>v.find</code>, after the value is found, it uses the wrapper's <code>ValueType()</code> method to determine its type, the wrapper then calls the <code>Type</code> method of the wrapped type, <code>pflag.stringArrayValue</code>, and returns <code>\"stringArray\"</code>. <a href=\"https://github.com/spf13/pflag/blob/3ebe029320b2676d667ae88da602a5f854788a8a/string_array.go#L27\" rel=\"noreferrer\">source</a></p>\n\n<p>But viper only handle <code>\"stringSlice\"</code> as a special case, so the value gets to <code>default</code> part of type switch, which uses its <code>ValueString()</code> method - making it into a string, with <code>\"[\"</code> and <code>\"]\"</code> on both side. <a href=\"https://github.com/spf13/viper/blob/d493c32b69b8c6f2377bf30bc4d70267ffbc0793/viper.go#L921\" rel=\"noreferrer\">source</a></p>\n\n<p>And when finally unmarshalling, as your output param, <code>ReasonTags</code> is of <code>[]string</code>, the program simply splitted the string and set it into the field.</p>\n\n<p>As for solution, if you are ok with prohibitting <code>tag</code> to contain <code>,</code>, simply change <code>StringArrayVar</code> to <code>StringSliceVar</code>, but this will results in <code>--tag \"Yet, the problem re-occurs\"</code> into <code>[]string{\"Yet\",\" the problem re-occrus\"}</code>.</p>\n\n<p>If that is critical, you'll need to ask the developers of viper to create a case for <code>stringArray</code>.</p>\n",
+      "owner": {
+        "display_name": "leaf bebop",
+        "link": "https://stackoverflow.com/users/9143962/leaf-bebop"
+      }
+    },
+    {
+      "answer_id": 50749936,
+      "body": "<p>Use a map for dynamic keys:</p>\n\n<pre><code>type X struct {\n    Things map[string]Thing\n}\n\ntype Thing struct {\n    Key1 string\n    Key2 string\n}\n</code></pre>\n\n<p>Unmarshal like this:</p>\n\n<pre><code>var x X\nif err := json.Unmarshal(data, &amp;x); err != nil {\n    // handle error\n}\n</code></pre>\n\n<p><a href=\"https://play.golang.org/p/YpTDrzBvh7x\" rel=\"nofollow noreferrer\">Playground Example</a></p>\n\n<p>If the name must be a member of the struct, then write a loop to add it after unmarshal:</p>\n\n<pre><code>type Thing struct {\n    Name string `json:\"-\"` // &lt;-- add the field\n    Key1 string\n    Key2 string\n}\n\n...\n\n// Fix the name field after unmarshal\nfor k, t := range x.Things {\n    t.Name = k\n    x.Things[k] = t\n}\n</code></pre>\n\n<p><a href=\"https://play.golang.org/p/mOtY-4BdsEZ\" rel=\"nofollow noreferrer\">Playground example</a></p>\n",
+      "owner": {
+        "display_name": "user5728991",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 50073142,
+      "body": "<h3>Share information between commands</h3>\n\n<p>Like was said in comments, if you need to share data across commands, you'll need to persist it. The structure you use is no relevant, but for simplicity and because of JSON is the current most extended language for data exchange we'll use it.</p>\n\n<p><hr></p>\n\n<h3>Where should I create it (path)?</h3>\n\n<p>My recomendation is to use the home of the user. Many applications save its configuration here. This will allow a solution multi-environment easily. Say that your configuration file will be named <em>myApp</em>.</p>\n\n<pre><code>func configPath() string {\n    cfgFile := \".myApp\"\n    usr, _ := user.Current()\n    return path.Join(usr.HomeDir, cfgFile)\n}\n</code></pre>\n\n<p><hr></p>\n\n<h3>When to clean it ?</h3>\n\n<p>That obviously will depend on your requirements. But, if you always need to run <code>pre</code> and <code>run</code> in that order, I bet that you can clean it inmediately after <code>run</code> execution, when it won't be longer needed.</p>\n\n<p><hr></p>\n\n<h3>How to store it ?</h3>\n\n<p>That's easy. If what you need to save is your <code>config</code> struct you can do this:</p>\n\n<pre><code>func saveConfig(c config) {\n    jsonC, _ := json.Marshal(c)\n    ioutil.WriteFile(configPath(), jsonC, os.ModeAppend)\n}\n</code></pre>\n\n<p><hr></p>\n\n<h3>And to read it ?</h3>\n\n<pre><code>func readConfig() config {\n    data, _ := ioutil.ReadFile(configPath())\n    var cfg config\n    json.Unmarshal(data, &amp;cfg)\n    return cfg\n}\n</code></pre>\n\n<p><hr></p>\n\n<h3>Flow</h3>\n\n<pre><code>// pre command\n// persist to file the data you need\nsaveConfig(config{ \n    id:   \"id\",\n    path: \"path\",\n    wd:   \"wd\",\n}) \n</code></pre>\n\n<p></p>\n\n<pre><code>// run command\n// retrieve the previously stored information\ncfg := readConfig()\n\n// from now you can use the data generated by `pre`\n</code></pre>\n\n<blockquote>\n  <p><strong>DISCLAIMER</strong>: I've removed all error handling for short.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Ivan Beldad",
+        "link": "https://stackoverflow.com/users/6401895/ivan-beldad"
+      }
+    },
+    {
+      "answer_id": 48973593,
+      "body": "<p>It's probably because your port is changing in loop before it starts the safest way to done it is to pass argument to goroutine and move all of call to <code>h</code> parameter to goroutine. Something like that should work</p>\n\n<pre><code>for _, h := range configuration.Servers {\n        counter = counter + 1\n        log.Println(counter)\n        go func(h ServerConfiguration) {\n            server := http.NewServeMux()\n            server.HandleFunc(\"/\"+h.ProjectName, foo8001)\n            http.ListenAndServe(\":\"+h.Port, server)\n        }(h)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "ttomalak",
+        "link": "https://stackoverflow.com/users/9312230/ttomalak"
+      }
+    },
+    {
+      "answer_id": 47185439,
+      "body": "<p><code>viper</code> has <a href=\"https://godoc.org/github.com/spf13/viper#ReadInConfig\" rel=\"noreferrer\"><code>ReadInConfig</code></a> and <a href=\"https://godoc.org/github.com/spf13/viper#MergeInConfig\" rel=\"noreferrer\"><code>MergeInConfig</code></a>, which can called multiple times. Here is an (untested) example:</p>\n\n<pre><code>viper.SetConfigName(\"default\")\nviper.AddConfigPath(path)\nviper.ReadInConfig()\n\nif context != \"\" {\n    viper.SetConfigName(context)\n    viper.AddConfigPath(path)\n    viper.MergeInConfig()\n}\n\nviper.SetConfigName(\"config\")\nviper.AddConfigPath(\".\")\nviper.MergeInConfig()\n</code></pre>\n\n<p>It reads these files in this order:</p>\n\n<ul>\n<li><code>$path/default.[yaml|toml|json]</code></li>\n<li><code>$path/$context.[yaml|toml|json]</code></li>\n<li><code>./config.[yaml|toml|json]</code></li>\n</ul>\n",
+      "owner": {
+        "display_name": "svenwltr",
+        "link": "https://stackoverflow.com/users/393157/svenwltr"
+      }
+    },
+    {
+      "answer_id": 46010194,
+      "body": "<p>From <a href=\"https://godoc.org/github.com/spf13/viper#Viper\" rel=\"nofollow noreferrer\"><code>viper.Viper</code></a>:</p>\n\n<blockquote>\n  <p>The priority of the sources is the following:</p>\n  \n  <ol>\n  <li>overrides</li>\n  <li>flags</li>\n  <li>env. variables</li>\n  <li>config file</li>\n  <li>key/value store</li>\n  <li>defaults</li>\n  </ol>\n</blockquote>\n\n<p>You might encounter a problem in determining the name of the environment variable. You essentially need a way to bind <code>hosts[0].Username</code> to the environment variable <code>HOST1_USERNAME</code>. However, there's no way to do this in viper currently. In fact, <code>viper.Get(\"hosts[0].username\")</code> returns <code>nil</code>, meaning array indices apparently cannot be used with <code>viper.BindEnv</code>. You also would need to use this function for as many hosts as can be defined, meaning if you have 20 hosts listed, you'd need to call <code>viper.BindEnv</code> 40 or 60 times, depending on whether the name of a host could be overridden by an environment variable. To work around this limitation, you'd need to dynamically work with hosts as independent tables rather than an array of tables:</p>\n\n<pre><code>[host1]\nusername = \"user1\"\npassword = \"password1\"\n\n[host2]\nusername = \"user2\"\npassword = \"password2\"\n</code></pre>\n\n<p>You can then use <a href=\"https://godoc.org/github.com/spf13/viper#SetEnvKeyReplacer\" rel=\"nofollow noreferrer\"><code>viper.SetEnvKeyReplacer</code></a> with a <code>strings.Replacer</code> to handle the environment variable issue:</p>\n\n<pre><code>// host1.username =&gt; HOST1_USERNAME\n// host2.password =&gt; HOST2_PASSWORD\n// etc.\nviper.SetEnvKeyReplacer(strings.NewReplacer(\".\", \"_\"))\n</code></pre>\n\n<p>Note that at the time of this writing <a href=\"https://github.com/spf13/viper/issues/309\" rel=\"nofollow noreferrer\">some bugs exist when it comes to the resolution order</a>. This issue affects <code>viper.Unmarshal</code> and <code>viper.Get</code>: environment variables should override config file values, but currently the config file values are still used. Strangely, <code>viper.AllSettings</code> works fine. If it didn't, you couldn't do something like the following to work with the hosts in the above format:</p>\n\n<pre><code>// Manually collect hosts for storing in config.\nfunc collectHosts() []Host {\n    hosts := make([]Host, 0, 10)\n    for key, value := range viper.AllSettings() {\n        // viper.GetStringMapString(key)\n        // won't work properly with environment vars, etc. until\n        //   https://github.com/spf13/viper/issues/309\n        // is resolved.\n        v := value.(map[string]interface{})\n        hosts = append(hosts, Host{\n            Name:     key,\n            Username: v[\"username\"].(string),\n            Password: v[\"password\"].(string),\n        })\n    }\n    return hosts\n}\n</code></pre>\n\n<p>To sum things up:</p>\n\n<ol>\n<li>Values are supposed to be taken from the first provided of: overrides, flags, environment variables, config files, key/value stores, defaults. Unfortunately, this isn't always the order followed (because bugs).</li>\n<li>You need to change your config format and use a string replacer to leverage the convenience of <a href=\"https://godoc.org/github.com/spf13/viper#AutomaticEnv\" rel=\"nofollow noreferrer\"><code>viper.AutomaticEnv</code></a>.</li>\n</ol>\n",
+      "owner": {
+        "display_name": "user539810",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 45121313,
+      "body": "<p>Are you sure key is <code>artists</code> in the yaml? Do you mean to supply <code>artist</code>?</p>\n\n<p>Working example:</p>\n\n<pre><code>str := []byte(`artist:\n  name: The Beatles\n  albums:\n  - name: The White Album\n    year: 1968\n  - name: Abbey Road\n    year: 1969\n`)\n\n    viper.SetConfigType(\"yaml\")\n    viper.ReadConfig(bytes.NewBuffer(str))\n\n    var artist Artist\n    err := viper.UnmarshalKey(\"artist\", &amp;artist)\n\n    fmt.Printf(\"%v, %#v\\n\", err, artist)\n</code></pre>\n\n<p>Output:</p>\n\n<pre><code>&lt;nil&gt;, main.Artist{Name:\"The Beatles\", Albums:[]main.Album{main.Album{Name:\"The White Album\", Year:1968}, main.Album{Name:\"Abbey Road\", Year:1969}}}\n</code></pre>\n",
+      "owner": {
+        "display_name": "jeevatkm",
+        "link": "https://stackoverflow.com/users/1343356/jeevatkm"
+      }
+    },
+    {
+      "answer_id": 44247901,
+      "body": "<p>I'm going to guess it's because of this, from the docs on <a href=\"https://github.com/spf13/viper#accessing-nested-keys\" rel=\"nofollow noreferrer\">Accessing nested keys</a>.</p>\n\n<blockquote>\n  <p>However, if datastore.metric was overridden (by a flag, an environment variable, the Set() method, …) with an immediate value, then all sub-keys of datastore.metric become undefined, they are “shadowed” by the higher-priority configuration level.</p>\n</blockquote>\n\n<p>So as soon as <code>people.bob</code> is set, <code>people</code> springs into existence and <code>people.*</code> are no longer considered unpopulated.</p>\n\n<p>I don't know how to work around it.</p>\n",
+      "owner": {
+        "display_name": "Schwern",
+        "link": "https://stackoverflow.com/users/14660/schwern"
+      }
+    },
+    {
+      "answer_id": 43241844,
+      "body": "<p>Thanks to @Charlino here is the answer:</p>\n\n<pre><code>package main\n\nimport (\n    \"log\"\n\n    \"github.com/spf13/viper\"\n)\n\nfunc main() {\n    viper.SetEnvPrefix(\"myprefix\")\n    viper.SetTypeByDefaultValue(true)\n    viper.SetDefault(\"languages\", []string{\"french\", \"spanish\"})\n    viper.BindEnv(\"name\")\n    viper.BindEnv(\"languages\")\n\n    type config struct {\n        Name      string\n        Languages []string\n    }\n\n    var C config\n\n    err := viper.Unmarshal(&amp;C)\n    if err != nil {\n        log.Fatalln(\"unable to decode into struct, %v\", err)\n    }\n\n    log.Println(C)\n    log.Println(len(C.Languages))\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "user776942",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 41591070,
+      "body": "<p>Ok, thanks for the additional information, It helped a lot !</p>\n\n<h2>Problem</h2>\n\n<p>The problem arises from the way you're retrieving the value of the flag. Here is what you currently have:</p>\n\n<pre><code>bind := cmd.Flag(\"bind\").Value.String()\nfmt.Printf(\"Binding definition provided: %s\\n\", bind)\nserver.Listen(bind)\n</code></pre>\n\n<p>When binding a flag with viper, it's actually viper that will hold the final value, according to this priorities:</p>\n\n<pre><code>1. If present, use the flag value\n2. Else, use the value from the config file\n3. Else, use the default flag value\n</code></pre>\n\n<p>Your problem is that you retrieve the flag value from the flag set of the command, and not from viper.</p>\n\n<h2>Behavior</h2>\n\n<p>Here is the code I tested:</p>\n\n<pre><code>bind := cmd.Flag(\"bind\").Value.String()\nfmt.Printf(\"Binding definition provided: %s\\n\", bind)\nfmt.Printf(\"Binding definition provided from viper: %s\\n\", viper.GetString(\"bind\"))\n</code></pre>\n\n<p>Without the bind config param:</p>\n\n<pre><code>$ go-logsink listen\nUsing config file: /xxx/.go-logsink.yaml\nBinding definition provided: :50051\nBinding definition provided from viper: :50051\n</code></pre>\n\n<p>With the bind config param set to \"bla\" (not nested, second config file):</p>\n\n<pre><code>$ go-logsink listen\nUsing config file: /xxx/.go-logsink.yaml\nBinding definition provided: :50051\nBinding definition provided from viper: bla\n</code></pre>\n\n<p>With the bind config param set to \"bla\" (not nested, second config file) and an explicit flag:</p>\n\n<pre><code>$ go-logsink listen --bind \":3333\"\nUsing config file: /xxx/.go-logsink.yaml\nBinding definition provided: :3333\nBinding definition provided from viper: :3333\n</code></pre>\n\n<p><strong>Bottomline</strong> : when binding your flags with viper, use viper to retrieve them.</p>\n\n<p><strong>Additional note</strong> : In your README, the proper way to generate grpc compatible code is by adding the grpc plugin to protobuf generation: <code>protoc --go_out=plugins=grpc:. *.proto</code></p>\n",
+      "owner": {
+        "display_name": "T. Claverie",
+        "link": "https://stackoverflow.com/users/6336139/t-claverie"
+      }
+    },
+    {
+      "answer_id": 37425224,
+      "body": "<p>If you look closely at the different <code>Get</code> methods available, you'll see that the return types are <code>string</code>, <code>[]string</code>, <code>map[string]interface{}</code>, <code>map[string]string</code> and <code>map[string][]string</code>.</p>\n\n<p>However, the type of the value associated with \"issue-types\" is <code>[]map[string]string</code>. So, the only way to get this data is through the <code>Get</code> method and using type assertions.</p>\n\n<p>Now, the following code produces the appropriate type of <code>issue_types</code>, which is <code>[]map[string]string</code>.</p>\n\n<pre><code>issues_types := make([]map[string]string, 0)\nvar m map[string]string\n\nissues_i := viper.Get(\"issue-types\")\n// issues_i is interface{}\n\nissues_s := issues_i.([]interface{})\n// issues_s is []interface{}\n\nfor _, issue := range issues_s {\n    // issue is an interface{}\n\n    issue_map := issue.(map[interface{}]interface{})\n    // issue_map is a map[interface{}]interface{}\n\n    m = make(map[string]string)\n    for k, v := range issue_map {\n        m[k.(string)] = v.(string)\n    }\n    issues_types = append(issues_types, m)\n}\n\nfmt.Println(reflect.TypeOf(issues_types))\n# []map[string]string\n\nfmt.Println(issues_types)\n# [map[source-type:Incident remote-type:Task]\n#  map[source-type:Service Request remote-type:Task]\n#  map[source-type:Change remote-type:Story]\n#  map[source-type:Problem remote-type:Task]]\n</code></pre>\n\n<p>Note that I did not do any safety check in order to make the code smaller.  However, the correct way of doing type assertion is:</p>\n\n<pre><code>var i interface{} = \"42\"\nstr, ok := i.(string)\nif !ok {\n    // A problem occurred, do something\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "T. Claverie",
+        "link": "https://stackoverflow.com/users/6336139/t-claverie"
+      }
+    },
+    {
+      "answer_id": 35827855,
+      "body": "<p>When I use Cobra/Viper or any other combination of CLI helpers, my way of doing this is to have the CLI tool run a function whose sole purpose will be to get arguments and pass them to another method who will do the actual work. </p>\n\n<p>Here is a short (and dumb) example using Cobra :</p>\n\n<pre><code>package main\n\nimport (\n        \"fmt\"\n        \"os\"\n\n        \"github.com/spf13/cobra\"\n)\n\nfunc main() {\n        var Cmd = &amp;cobra.Command{\n                Use:   \"boom\",\n                Short: \"Explode all the things!\",\n                Run:   Boom,\n        }\n\n        if err := Cmd.Execute(); err != nil {\n                fmt.Println(err)\n                os.Exit(-1)\n        }\n}\n\nfunc Boom(cmd *cobra.Command, args []string) {\n        boom(args...)\n}\n\nfunc boom(args ...string) {\n        for _, arg := range args {\n                println(\"boom \" + arg)\n        }\n}\n</code></pre>\n\n<p>Here, the <code>Boom</code> function is hard to test, but the <code>boom</code> one is easy.</p>\n\n<p>You can see another (non-dumb) example of this <a href=\"https://github.com/elwinar/rambler/blob/master/apply.go\" rel=\"noreferrer\">here</a> (and the correspond test <a href=\"https://github.com/elwinar/rambler/blob/master/apply_test.go\" rel=\"noreferrer\">here</a>).</p>\n",
+      "owner": {
+        "display_name": "Elwinar",
+        "link": "https://stackoverflow.com/users/3472656/elwinar"
+      }
+    },
+    {
+      "answer_id": 35535166,
+      "body": "<p>Code is ugly but looks like this library does not like nested arrays of objects.</p>\n\n<pre><code>package main\n\nimport (\n    \"bytes\"\n    \"fmt\"\n    \"github.com/spf13/viper\"\n)\n\nfunc main() {\n    viper.SetConfigType(\"yaml\")\n    var yamlExample = []byte(`---\n  siteidparam: \"lid\"\n  sites:\n    -\n      name: \"default\"\n      routingmethod:\n        method: \"urlparam\"\n        siteid: \"default\"\n        urlpath: \"default\"\n    -\n      name: \"csqcentral\"\n      routingmethod:\n        method: \"urlparam\"\n        siteid: \"capitolsquare\"\n        urlpath: \"csq\"`)\n\n    viper.ReadConfig(bytes.NewReader(yamlExample))\n\n    fmt.Printf(\"%s\\n\", viper.GetString(\"siteidparam\"))\n\n    sites := viper.Get(\"sites\").([]interface{})\n    for i, _ := range sites {\n        site := sites[i].(map[interface{}]interface{})\n        fmt.Printf(\"%s\\n\", site[\"name\"])\n        routingmethod := site[\"routingmethod\"].(map[interface{}]interface{})\n        fmt.Printf(\"  %s\\n\", routingmethod[\"method\"])\n        fmt.Printf(\"  %s\\n\", routingmethod[\"siteid\"])\n        fmt.Printf(\"  %s\\n\", routingmethod[\"urlpath\"])\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "CrazyCrow",
+        "link": "https://stackoverflow.com/users/580709/crazycrow"
+      }
+    },
+    {
+      "answer_id": 34073756,
+      "body": "<p>I got a response from a maintainer for pflag.</p>\n\n<p>The solution is to \"import\" all flags defined for flag into pflag, and then make a call to pflag.Parse() alone.</p>\n\n<p>pflag provides a convenience function called <a href=\"https://github.com/spf13/pflag/blob/master/golangflag.go#L90\" rel=\"nofollow\">AddGoFlagSet()</a> to accomplish this.</p>\n",
+      "owner": {
+        "display_name": "Ziffusion",
+        "link": "https://stackoverflow.com/users/296923/ziffusion"
+      }
+    }
+  ]
+}

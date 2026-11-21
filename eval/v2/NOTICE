@@ -1,0 +1,11 @@
+The questions in questions/ and the responses in raw/ come from Stack Overflow (https://stackoverflow.com) through
+the public Stack Exchange API (https://api.stackexchange.com). Stack Overflow content is licensed under CC BY-SA 4.0
+(https://creativecommons.org/licenses/by-sa/4.0/); every question keeps the link to its Stack Overflow question and
+the names of its question and answer authors in its `target`, and every raw response keeps the authors it returned.
+
+Reproduce them from the repository root:
+
+  cargo run --release -p zenodotus-eval -- source-fetch    # 2 to 3 API requests per library; skips saved libraries
+  cargo run --release -p zenodotus-eval -- source-build    # offline and deterministic
+
+libraries.toml lists the libraries, their Stack Overflow tags and their documentation prefixes.

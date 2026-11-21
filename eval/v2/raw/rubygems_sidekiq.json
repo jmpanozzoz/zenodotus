@@ -1,0 +1,1908 @@
+{
+  "library": "rubygems:sidekiq",
+  "fetched_at": "2026-11-21T17:28:27Z",
+  "questions": [
+    {
+      "question_id": 24886371,
+      "title": "How to clear all the jobs from Sidekiq?",
+      "accepted_answer_id": 24887107,
+      "score": 174,
+      "link": "https://stackoverflow.com/questions/24886371/how-to-clear-all-the-jobs-from-sidekiq",
+      "owner": {
+        "display_name": "Vijikumar M",
+        "link": "https://stackoverflow.com/users/1968826/vijikumar-m"
+      }
+    },
+    {
+      "question_id": 11580954,
+      "title": "Resque vs Sidekiq?",
+      "accepted_answer_id": 11581418,
+      "score": 133,
+      "link": "https://stackoverflow.com/questions/11580954/resque-vs-sidekiq",
+      "owner": {
+        "display_name": "Bhushan Lodha",
+        "link": "https://stackoverflow.com/users/1033503/bhushan-lodha"
+      }
+    },
+    {
+      "question_id": 12683222,
+      "title": "Are there console commands to look at whats in the queue and to clear the queue in Sidekiq?",
+      "accepted_answer_id": 12684970,
+      "score": 113,
+      "link": "https://stackoverflow.com/questions/12683222/are-there-console-commands-to-look-at-whats-in-the-queue-and-to-clear-the-queue",
+      "owner": {
+        "display_name": "perseverance",
+        "link": "https://stackoverflow.com/users/1678772/perseverance"
+      }
+    },
+    {
+      "question_id": 19251976,
+      "title": "Get sidekiq to execute a job immediately",
+      "accepted_answer_id": 19255259,
+      "score": 89,
+      "link": "https://stackoverflow.com/questions/19251976/get-sidekiq-to-execute-a-job-immediately",
+      "owner": {
+        "display_name": "dagda1",
+        "link": "https://stackoverflow.com/users/11755/dagda1"
+      }
+    },
+    {
+      "question_id": 16835963,
+      "title": "Sidekiq not processing queue",
+      "accepted_answer_id": 16836794,
+      "score": 79,
+      "link": "https://stackoverflow.com/questions/16835963/sidekiq-not-processing-queue",
+      "owner": {
+        "display_name": "0x4a6f4672",
+        "link": "https://stackoverflow.com/users/771581/0x4a6f4672"
+      }
+    },
+    {
+      "question_id": 34115213,
+      "title": "Redis raises &quot;NOAUTH Authentication required&quot; error but there is no password setting",
+      "accepted_answer_id": 34149605,
+      "score": 73,
+      "link": "https://stackoverflow.com/questions/34115213/redis-raises-noauth-authentication-required-error-but-there-is-no-password-set",
+      "owner": {
+        "display_name": "Thanh",
+        "link": "https://stackoverflow.com/users/1081668/thanh"
+      }
+    },
+    {
+      "question_id": 12265421,
+      "title": "How can I password-protect my /sidekiq route (i.e. require authentication for the Sidekiq::Web tool)?",
+      "accepted_answer_id": 13409418,
+      "score": 66,
+      "link": "https://stackoverflow.com/questions/12265421/how-can-i-password-protect-my-sidekiq-route-i-e-require-authentication-for-th",
+      "owner": {
+        "display_name": "sagar junnarkar",
+        "link": "https://stackoverflow.com/users/1337996/sagar-junnarkar"
+      }
+    },
+    {
+      "question_id": 15834911,
+      "title": "How do I reset my sidekiq counters?",
+      "accepted_answer_id": 16285445,
+      "score": 64,
+      "link": "https://stackoverflow.com/questions/15834911/how-do-i-reset-my-sidekiq-counters",
+      "owner": {
+        "display_name": "AgostinoX",
+        "link": "https://stackoverflow.com/users/746336/agostinox"
+      }
+    },
+    {
+      "question_id": 21101253,
+      "title": "how to delete a job in sidekiq",
+      "accepted_answer_id": 21101810,
+      "score": 63,
+      "link": "https://stackoverflow.com/questions/21101253/how-to-delete-a-job-in-sidekiq",
+      "owner": {
+        "display_name": "Matthew Berman",
+        "link": "https://stackoverflow.com/users/673859/matthew-berman"
+      }
+    },
+    {
+      "question_id": 17204826,
+      "title": "Sidekiq jobs stuck in enqueue",
+      "accepted_answer_id": 17220726,
+      "score": 59,
+      "link": "https://stackoverflow.com/questions/17204826/sidekiq-jobs-stuck-in-enqueue",
+      "owner": {
+        "display_name": "groffcole",
+        "link": "https://stackoverflow.com/users/957745/groffcole"
+      }
+    },
+    {
+      "question_id": 13770713,
+      "title": "Rails: Starting Sidekiq on Heroku",
+      "accepted_answer_id": 13948786,
+      "score": 55,
+      "link": "https://stackoverflow.com/questions/13770713/rails-starting-sidekiq-on-heroku",
+      "owner": {
+        "display_name": "Greg Rogers",
+        "link": "https://stackoverflow.com/users/1320736/greg-rogers"
+      }
+    },
+    {
+      "question_id": 34729752,
+      "title": "Sidekiq Error connecting to Redis on 127.0.0.1:6379 (Errno::ECONNREFUSED) on docker-compose",
+      "accepted_answer_id": 34730936,
+      "score": 55,
+      "link": "https://stackoverflow.com/questions/34729752/sidekiq-error-connecting-to-redis-on-127-0-0-16379-errnoeconnrefused-on-doc",
+      "owner": {
+        "display_name": "whatAboutJohn",
+        "link": "https://stackoverflow.com/users/3380246/whataboutjohn"
+      }
+    },
+    {
+      "question_id": 29925793,
+      "title": "Sidekiq Rails 4.2 Use Active Job or Worker? What&#39;s the difference",
+      "accepted_answer_id": 29926268,
+      "score": 52,
+      "link": "https://stackoverflow.com/questions/29925793/sidekiq-rails-4-2-use-active-job-or-worker-whats-the-difference",
+      "owner": {
+        "display_name": "NothingToSeeHere",
+        "link": "https://stackoverflow.com/users/3689085/nothingtoseehere"
+      }
+    },
+    {
+      "question_id": 28412913,
+      "title": "Disable automatic retry with ActiveJob, used with Sidekiq",
+      "accepted_answer_id": 28427385,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/28412913/disable-automatic-retry-with-activejob-used-with-sidekiq",
+      "owner": {
+        "display_name": "Jules Ivanic",
+        "link": "https://stackoverflow.com/users/2431728/jules-ivanic"
+      }
+    },
+    {
+      "question_id": 28113940,
+      "title": "What is the best way to use Redis in a Multi-threaded Rails environment? (Puma / Sidekiq)",
+      "accepted_answer_id": 28283255,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/28113940/what-is-the-best-way-to-use-redis-in-a-multi-threaded-rails-environment-puma",
+      "owner": {
+        "display_name": "Daniel Magliola",
+        "link": "https://stackoverflow.com/users/3314/daniel-magliola"
+      }
+    },
+    {
+      "question_id": 23467254,
+      "title": "How to start Sidekiq in RubyMine?",
+      "accepted_answer_id": 24558734,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/23467254/how-to-start-sidekiq-in-rubymine",
+      "owner": {
+        "display_name": "Kanna",
+        "link": "https://stackoverflow.com/users/1942262/kanna"
+      }
+    },
+    {
+      "question_id": 25931019,
+      "title": "Perform sidekiq job synchronously",
+      "accepted_answer_id": 25931020,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/25931019/perform-sidekiq-job-synchronously",
+      "owner": {
+        "display_name": "Sergey Alekseev",
+        "link": "https://stackoverflow.com/users/1085570/sergey-alekseev"
+      }
+    },
+    {
+      "question_id": 18978396,
+      "title": "Sidekiq not deallocating memory after workers have finished",
+      "accepted_answer_id": 20424368,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/18978396/sidekiq-not-deallocating-memory-after-workers-have-finished",
+      "owner": {
+        "display_name": "Guarana Joe",
+        "link": "https://stackoverflow.com/users/2699400/guarana-joe"
+      }
+    },
+    {
+      "question_id": 24446157,
+      "title": "Rails: How to restart sidekiq?",
+      "accepted_answer_id": 24446989,
+      "score": 33,
+      "link": "https://stackoverflow.com/questions/24446157/rails-how-to-restart-sidekiq",
+      "owner": {
+        "display_name": "Vijikumar M",
+        "link": "https://stackoverflow.com/users/1968826/vijikumar-m"
+      }
+    },
+    {
+      "question_id": 23975346,
+      "title": "Why is &quot;❨╯&#176;□&#176;❩╯︵┻━┻&quot; with such an encoding used for a method name?",
+      "accepted_answer_id": 23975845,
+      "score": 30,
+      "link": "https://stackoverflow.com/questions/23975346/why-is-with-such-an-encoding-used-for-a-method-name",
+      "owner": {
+        "display_name": "saihgala",
+        "link": "https://stackoverflow.com/users/1485305/saihgala"
+      }
+    },
+    {
+      "question_id": 44022068,
+      "title": "Quiet vs Stop in Sidekiq",
+      "accepted_answer_id": 44030318,
+      "score": 30,
+      "link": "https://stackoverflow.com/questions/44022068/quiet-vs-stop-in-sidekiq",
+      "owner": {
+        "display_name": "borjagvo",
+        "link": "https://stackoverflow.com/users/1987461/borjagvo"
+      }
+    },
+    {
+      "question_id": 55801097,
+      "title": "What is the difference between perform_later and perform_async?",
+      "accepted_answer_id": 55801723,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/55801097/what-is-the-difference-between-perform-later-and-perform-async",
+      "owner": {
+        "display_name": "sloneorzeszki",
+        "link": "https://stackoverflow.com/users/4000293/sloneorzeszki"
+      }
+    },
+    {
+      "question_id": 13213499,
+      "title": "Can multiple sidekiq instances process the same queue",
+      "accepted_answer_id": 13215521,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/13213499/can-multiple-sidekiq-instances-process-the-same-queue",
+      "owner": {
+        "display_name": "Jacob",
+        "link": "https://stackoverflow.com/users/984137/jacob"
+      }
+    },
+    {
+      "question_id": 59720208,
+      "title": "undefined method `transform_keys&#39; loading Sidekiq web",
+      "accepted_answer_id": 59877421,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/59720208/undefined-method-transform-keys-loading-sidekiq-web",
+      "owner": {
+        "display_name": "rhugo",
+        "link": "https://stackoverflow.com/users/3323040/rhugo"
+      }
+    },
+    {
+      "question_id": 25968728,
+      "title": "Sidekiq - could not obtain a database connection within 5.000 seconds",
+      "accepted_answer_id": 25977841,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/25968728/sidekiq-could-not-obtain-a-database-connection-within-5-000-seconds",
+      "owner": {
+        "display_name": "Nick Ginanto",
+        "link": "https://stackoverflow.com/users/972789/nick-ginanto"
+      }
+    },
+    {
+      "question_id": 34519414,
+      "title": "How can I run an ActiveJob in Rails console for debugging?",
+      "accepted_answer_id": 34519970,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/34519414/how-can-i-run-an-activejob-in-rails-console-for-debugging",
+      "owner": {
+        "display_name": "daveomcd",
+        "link": "https://stackoverflow.com/users/394241/daveomcd"
+      }
+    },
+    {
+      "question_id": 15520676,
+      "title": "Run Sidekiq as daemon on Ubuntu",
+      "accepted_answer_id": 15520986,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/15520676/run-sidekiq-as-daemon-on-ubuntu",
+      "owner": {
+        "display_name": "Philip",
+        "link": "https://stackoverflow.com/users/487397/philip"
+      }
+    },
+    {
+      "question_id": 15843637,
+      "title": "How to tell if sidekiq is connected to redis server?",
+      "accepted_answer_id": 15848274,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/15843637/how-to-tell-if-sidekiq-is-connected-to-redis-server",
+      "owner": {
+        "display_name": "keruilin",
+        "link": "https://stackoverflow.com/users/251257/keruilin"
+      }
+    },
+    {
+      "question_id": 20788368,
+      "title": "Sidekiq: change rate of retry for failed job?",
+      "accepted_answer_id": 20788415,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/20788368/sidekiq-change-rate-of-retry-for-failed-job",
+      "owner": {
+        "display_name": "randombits",
+        "link": "https://stackoverflow.com/users/175836/randombits"
+      }
+    },
+    {
+      "question_id": 28367069,
+      "title": "How can I detect whether my code is running &quot;inside&quot; Sidekiq server or Puma?",
+      "accepted_answer_id": 28370539,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/28367069/how-can-i-detect-whether-my-code-is-running-inside-sidekiq-server-or-puma",
+      "owner": {
+        "display_name": "Daniel Magliola",
+        "link": "https://stackoverflow.com/users/3314/daniel-magliola"
+      }
+    },
+    {
+      "question_id": 12816226,
+      "title": "Sidekiq worker not getting triggered",
+      "accepted_answer_id": 17065723,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/12816226/sidekiq-worker-not-getting-triggered",
+      "owner": {
+        "display_name": "AnkitG",
+        "link": "https://stackoverflow.com/users/662425/ankitg"
+      }
+    },
+    {
+      "question_id": 17606200,
+      "title": "Log inside Sidekiq worker",
+      "accepted_answer_id": 17607555,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/17606200/log-inside-sidekiq-worker",
+      "owner": {
+        "display_name": "migu",
+        "link": "https://stackoverflow.com/users/1076279/migu"
+      }
+    },
+    {
+      "question_id": 35474555,
+      "title": "How set timeout for jobs in sidekiq",
+      "accepted_answer_id": 35487400,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/35474555/how-set-timeout-for-jobs-in-sidekiq",
+      "owner": {
+        "display_name": "huyhoang-vn",
+        "link": "https://stackoverflow.com/users/5242684/huyhoang-vn"
+      }
+    },
+    {
+      "question_id": 22403952,
+      "title": "Is my understanding of Unicorn, Sidekiq and DB Pool size correct?",
+      "accepted_answer_id": 22404491,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/22403952/is-my-understanding-of-unicorn-sidekiq-and-db-pool-size-correct",
+      "owner": {
+        "display_name": "Christian Fazzini",
+        "link": "https://stackoverflow.com/users/501171/christian-fazzini"
+      }
+    },
+    {
+      "question_id": 26006496,
+      "title": "sidekiq does not generate sidekiq.pid file on heroku, using with Redistogo",
+      "accepted_answer_id": 26009922,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/26006496/sidekiq-does-not-generate-sidekiq-pid-file-on-heroku-using-with-redistogo",
+      "owner": {
+        "display_name": "Stephens",
+        "link": "https://stackoverflow.com/users/3282885/stephens"
+      }
+    },
+    {
+      "question_id": 18265427,
+      "title": "Is it possible to run sidekiq on a separate host from the rails host?",
+      "accepted_answer_id": 18265712,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/18265427/is-it-possible-to-run-sidekiq-on-a-separate-host-from-the-rails-host",
+      "owner": {
+        "display_name": "Ovesh",
+        "link": "https://stackoverflow.com/users/3751/ovesh"
+      }
+    },
+    {
+      "question_id": 21670040,
+      "title": "What is server and client terminology mean in Sidekiq?",
+      "accepted_answer_id": 23284148,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/21670040/what-is-server-and-client-terminology-mean-in-sidekiq",
+      "owner": {
+        "display_name": "Sahil Grover",
+        "link": "https://stackoverflow.com/users/574472/sahil-grover"
+      }
+    },
+    {
+      "question_id": 36733475,
+      "title": "What is difference between perform_in and perform_async in sidekiq?",
+      "accepted_answer_id": 36733839,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/36733475/what-is-difference-between-perform-in-and-perform-async-in-sidekiq",
+      "owner": {
+        "display_name": "Prakash Laxkar",
+        "link": "https://stackoverflow.com/users/1885107/prakash-laxkar"
+      }
+    },
+    {
+      "question_id": 42377514,
+      "title": "Getting Action Cable to broadcast in Sidekiq Job",
+      "accepted_answer_id": 42656141,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/42377514/getting-action-cable-to-broadcast-in-sidekiq-job",
+      "owner": {
+        "display_name": "ChrisPalmer",
+        "link": "https://stackoverflow.com/users/3591104/chrispalmer"
+      }
+    },
+    {
+      "question_id": 14343715,
+      "title": "Restarting Sidekiq",
+      "accepted_answer_id": 14348792,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/14343715/restarting-sidekiq",
+      "owner": {
+        "display_name": "Undistraction",
+        "link": "https://stackoverflow.com/users/138601/undistraction"
+      }
+    },
+    {
+      "question_id": 28796293,
+      "title": "Rails 4.2 - Sidekiq not sending emails in development",
+      "accepted_answer_id": 28796333,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/28796293/rails-4-2-sidekiq-not-sending-emails-in-development",
+      "owner": {
+        "display_name": "Anders",
+        "link": "https://stackoverflow.com/users/756148/anders"
+      }
+    },
+    {
+      "question_id": 31673857,
+      "title": "Colon in the front: YAML syntax",
+      "accepted_answer_id": 31674247,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/31673857/colon-in-the-front-yaml-syntax",
+      "owner": {
+        "display_name": "Maikon",
+        "link": "https://stackoverflow.com/users/3029403/maikon"
+      }
+    },
+    {
+      "question_id": 33563161,
+      "title": "How to put sidekiq into Docker in a rails application?",
+      "accepted_answer_id": 33607021,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/33563161/how-to-put-sidekiq-into-docker-in-a-rails-application",
+      "owner": {
+        "display_name": "scho",
+        "link": "https://stackoverflow.com/users/5439557/scho"
+      }
+    },
+    {
+      "question_id": 13306215,
+      "title": "Run Delayed Jobs and Sidekiq at the same time",
+      "accepted_answer_id": 14972111,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/13306215/run-delayed-jobs-and-sidekiq-at-the-same-time",
+      "owner": {
+        "display_name": "lulalala",
+        "link": "https://stackoverflow.com/users/474597/lulalala"
+      }
+    },
+    {
+      "question_id": 25970513,
+      "title": "configure redis auth on sidekiq",
+      "accepted_answer_id": 25979761,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/25970513/configure-redis-auth-on-sidekiq",
+      "owner": {
+        "display_name": "Nick Ginanto",
+        "link": "https://stackoverflow.com/users/972789/nick-ginanto"
+      }
+    },
+    {
+      "question_id": 30384108,
+      "title": "Can&#39;t connect to redis on heroku",
+      "accepted_answer_id": 30384916,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/30384108/cant-connect-to-redis-on-heroku",
+      "owner": {
+        "display_name": "Antarr Byrd",
+        "link": "https://stackoverflow.com/users/504963/antarr-byrd"
+      }
+    },
+    {
+      "question_id": 52284058,
+      "title": "Why use /app/lib instead of /lib in Rails?",
+      "accepted_answer_id": 52284201,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/52284058/why-use-app-lib-instead-of-lib-in-rails",
+      "owner": {
+        "display_name": "ydnaklementine",
+        "link": "https://stackoverflow.com/users/615743/ydnaklementine"
+      }
+    },
+    {
+      "question_id": 76095172,
+      "title": "Sidekiq Worker vs Job",
+      "accepted_answer_id": 76095217,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/76095172/sidekiq-worker-vs-job",
+      "owner": {
+        "display_name": "Giovanii Mirko Terrazas",
+        "link": "https://stackoverflow.com/users/4859433/giovanii-mirko-terrazas"
+      }
+    },
+    {
+      "question_id": 16256147,
+      "title": "multiple methods per sidekiq worker",
+      "accepted_answer_id": 16263274,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/16256147/multiple-methods-per-sidekiq-worker",
+      "owner": {
+        "display_name": "Laurent",
+        "link": "https://stackoverflow.com/users/1498165/laurent"
+      }
+    },
+    {
+      "question_id": 22644761,
+      "title": "Redis pub/sub on rails",
+      "accepted_answer_id": 22678294,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/22644761/redis-pub-sub-on-rails",
+      "owner": {
+        "display_name": "a14m",
+        "link": "https://stackoverflow.com/users/1769515/a14m"
+      }
+    },
+    {
+      "question_id": 33504028,
+      "title": "Pry like debugger for Sidekiq?",
+      "accepted_answer_id": 43738392,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/33504028/pry-like-debugger-for-sidekiq",
+      "owner": {
+        "display_name": "ToddT",
+        "link": "https://stackoverflow.com/users/4386626/toddt"
+      }
+    },
+    {
+      "question_id": 35711734,
+      "title": "How to mark a sidekiq task/job for retry without raising an error?",
+      "accepted_answer_id": 35714028,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/35711734/how-to-mark-a-sidekiq-task-job-for-retry-without-raising-an-error",
+      "owner": {
+        "display_name": "YWCA Hello",
+        "link": "https://stackoverflow.com/users/752837/ywca-hello"
+      }
+    },
+    {
+      "question_id": 16032362,
+      "title": "Ruby on Rails + Sidekiq: How do I change a scheduled job start time?",
+      "accepted_answer_id": 16032646,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/16032362/ruby-on-rails-sidekiq-how-do-i-change-a-scheduled-job-start-time",
+      "owner": {
+        "display_name": "Oktav",
+        "link": "https://stackoverflow.com/users/904773/oktav"
+      }
+    },
+    {
+      "question_id": 16201090,
+      "title": "GitLab email notifications not sending",
+      "accepted_answer_id": 16690884,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/16201090/gitlab-email-notifications-not-sending",
+      "owner": {
+        "display_name": "sadmicrowave",
+        "link": "https://stackoverflow.com/users/281488/sadmicrowave"
+      }
+    },
+    {
+      "question_id": 16316801,
+      "title": "How to start Sidekiq worker on Ubuntu VPS (Digitalocean)",
+      "accepted_answer_id": 16334165,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/16316801/how-to-start-sidekiq-worker-on-ubuntu-vps-digitalocean",
+      "owner": {
+        "display_name": "user1883793",
+        "link": "https://stackoverflow.com/users/1883793/user1883793"
+      }
+    },
+    {
+      "question_id": 22959029,
+      "title": "What&#39;s the meaning of the last part of a redis url?",
+      "accepted_answer_id": 22959225,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/22959029/whats-the-meaning-of-the-last-part-of-a-redis-url",
+      "owner": {
+        "display_name": "canoe",
+        "link": "https://stackoverflow.com/users/2185513/canoe"
+      }
+    },
+    {
+      "question_id": 23089530,
+      "title": "redis attempting to connect to local host in Heroku - WHY?",
+      "accepted_answer_id": 23122413,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/23089530/redis-attempting-to-connect-to-local-host-in-heroku-why",
+      "owner": {
+        "display_name": "Luigi",
+        "link": "https://stackoverflow.com/users/2665588/luigi"
+      }
+    },
+    {
+      "question_id": 26047790,
+      "title": "Sidekiq logging to both terminal and log file",
+      "accepted_answer_id": 26049215,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/26047790/sidekiq-logging-to-both-terminal-and-log-file",
+      "owner": {
+        "display_name": "absessive",
+        "link": "https://stackoverflow.com/users/717216/absessive"
+      }
+    },
+    {
+      "question_id": 66753566,
+      "title": "Sidekiq keeps yelling at CSRF protection, but the route is mounted inside Rails.application.routes.draw",
+      "accepted_answer_id": 66912744,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/66753566/sidekiq-keeps-yelling-at-csrf-protection-but-the-route-is-mounted-inside-rails",
+      "owner": {
+        "display_name": "Jo&#227;o Ramires",
+        "link": "https://stackoverflow.com/users/11876504/jo%c3%a3o-ramires"
+      }
+    },
+    {
+      "question_id": 14713540,
+      "title": "execute only one of many duplicate jobs with sidekiq?",
+      "accepted_answer_id": 14714321,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/14713540/execute-only-one-of-many-duplicate-jobs-with-sidekiq",
+      "owner": {
+        "display_name": "Eric Seifert",
+        "link": "https://stackoverflow.com/users/487728/eric-seifert"
+      }
+    },
+    {
+      "question_id": 17812784,
+      "title": "How can I run a continuous background job with Sidekiq?",
+      "accepted_answer_id": 17980713,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/17812784/how-can-i-run-a-continuous-background-job-with-sidekiq",
+      "owner": {
+        "display_name": "RubyRedGrapefruit",
+        "link": "https://stackoverflow.com/users/465986/rubyredgrapefruit"
+      }
+    },
+    {
+      "question_id": 20473471,
+      "title": "Sidekiq: Ensure all jobs on the queue are unique",
+      "accepted_answer_id": 21612130,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/20473471/sidekiq-ensure-all-jobs-on-the-queue-are-unique",
+      "owner": {
+        "display_name": "mahemoff",
+        "link": "https://stackoverflow.com/users/18706/mahemoff"
+      }
+    },
+    {
+      "question_id": 74314906,
+      "title": "heartbeat: Unsupported command argument type: FalseClass - Redis",
+      "accepted_answer_id": 74356180,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/74314906/heartbeat-unsupported-command-argument-type-falseclass-redis",
+      "owner": {
+        "display_name": "Rashmi Balkur",
+        "link": "https://stackoverflow.com/users/17683683/rashmi-balkur"
+      }
+    },
+    {
+      "question_id": 12792962,
+      "title": "Starting Sidekiq with rails server in development environment",
+      "accepted_answer_id": 12794838,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/12792962/starting-sidekiq-with-rails-server-in-development-environment",
+      "owner": {
+        "display_name": "AnkitG",
+        "link": "https://stackoverflow.com/users/662425/ankitg"
+      }
+    },
+    {
+      "question_id": 14741700,
+      "title": "Work with two separate redis instances with sidekiq?",
+      "accepted_answer_id": 19886023,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/14741700/work-with-two-separate-redis-instances-with-sidekiq",
+      "owner": {
+        "display_name": "Brandon",
+        "link": "https://stackoverflow.com/users/1089153/brandon"
+      }
+    },
+    {
+      "question_id": 17743450,
+      "title": "Sidekiq and rails 4 actionmailer never delivers emails",
+      "accepted_answer_id": 17745694,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/17743450/sidekiq-and-rails-4-actionmailer-never-delivers-emails",
+      "owner": {
+        "display_name": "JohnDel",
+        "link": "https://stackoverflow.com/users/370927/johndel"
+      }
+    },
+    {
+      "question_id": 18112310,
+      "title": "Log to different logger based on call from Sidekiq or Rails",
+      "accepted_answer_id": 18131117,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/18112310/log-to-different-logger-based-on-call-from-sidekiq-or-rails",
+      "owner": {
+        "display_name": "Old Pro",
+        "link": "https://stackoverflow.com/users/712765/old-pro"
+      }
+    },
+    {
+      "question_id": 22206350,
+      "title": "Stack level too deep when using carrierwave versions",
+      "accepted_answer_id": 22450955,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/22206350/stack-level-too-deep-when-using-carrierwave-versions",
+      "owner": {
+        "display_name": "mbajur",
+        "link": "https://stackoverflow.com/users/552936/mbajur"
+      }
+    },
+    {
+      "question_id": 46214171,
+      "title": "Sidekiq sending jobs to test queue instead of developement queue",
+      "accepted_answer_id": 46813208,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/46214171/sidekiq-sending-jobs-to-test-queue-instead-of-developement-queue",
+      "owner": {
+        "display_name": "Graham Slick",
+        "link": "https://stackoverflow.com/users/1236336/graham-slick"
+      }
+    },
+    {
+      "question_id": 48802444,
+      "title": "rails + docker + sidekiq + Error connecting to Redis on 127.0.0.1:6379 (Errno::ECONNREFUSED)",
+      "accepted_answer_id": 52547867,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/48802444/rails-docker-sidekiq-error-connecting-to-redis-on-127-0-0-16379-errnoe",
+      "owner": {
+        "display_name": "Rahul Ojha",
+        "link": "https://stackoverflow.com/users/6848617/rahul-ojha"
+      }
+    },
+    {
+      "question_id": 62125881,
+      "title": "What is perform_async in sidekiq",
+      "accepted_answer_id": 62128884,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/62125881/what-is-perform-async-in-sidekiq",
+      "owner": {
+        "display_name": "hjhku",
+        "link": "https://stackoverflow.com/users/13656177/hjhku"
+      }
+    },
+    {
+      "question_id": 13452020,
+      "title": "Background mailing through sidekiq and devise-async, queue fills up but mails aren&#39;t processed",
+      "accepted_answer_id": 13489946,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/13452020/background-mailing-through-sidekiq-and-devise-async-queue-fills-up-but-mails-ar",
+      "owner": {
+        "display_name": "Julius",
+        "link": "https://stackoverflow.com/users/1835442/julius"
+      }
+    },
+    {
+      "question_id": 14825565,
+      "title": "Sidekiq deploy to multiple environments",
+      "accepted_answer_id": 14837965,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/14825565/sidekiq-deploy-to-multiple-environments",
+      "owner": {
+        "display_name": "d3vkit",
+        "link": "https://stackoverflow.com/users/398696/d3vkit"
+      }
+    },
+    {
+      "question_id": 23820469,
+      "title": "Errno::EIO: Input/output error - &lt;STDOUT&gt;",
+      "accepted_answer_id": 23823459,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/23820469/errnoeio-input-output-error-stdout",
+      "owner": {
+        "display_name": "Dipak Panchal",
+        "link": "https://stackoverflow.com/users/1562574/dipak-panchal"
+      }
+    },
+    {
+      "question_id": 32874510,
+      "title": "How can I test Sidekiq job failures?",
+      "accepted_answer_id": 32875244,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/32874510/how-can-i-test-sidekiq-job-failures",
+      "owner": {
+        "display_name": "Mark Bolusmjak",
+        "link": "https://stackoverflow.com/users/131227/mark-bolusmjak"
+      }
+    },
+    {
+      "question_id": 34525941,
+      "title": "Sidekiq VS RabbitMQ",
+      "accepted_answer_id": 34526164,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/34525941/sidekiq-vs-rabbitmq",
+      "owner": {
+        "display_name": "amitben",
+        "link": "https://stackoverflow.com/users/1767350/amitben"
+      }
+    },
+    {
+      "question_id": 37969031,
+      "title": "exec sidekiq log on heroku",
+      "accepted_answer_id": 37969744,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/37969031/exec-sidekiq-log-on-heroku",
+      "owner": {
+        "display_name": "DonMB",
+        "link": "https://stackoverflow.com/users/2052543/donmb"
+      }
+    },
+    {
+      "question_id": 43795343,
+      "title": "uninitialized constant sidekiq worker",
+      "accepted_answer_id": 43816217,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/43795343/uninitialized-constant-sidekiq-worker",
+      "owner": {
+        "display_name": "Deekor",
+        "link": "https://stackoverflow.com/users/1094339/deekor"
+      }
+    },
+    {
+      "question_id": 15533869,
+      "title": "Sidekiq worker is leaking memory",
+      "accepted_answer_id": 15683472,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/15533869/sidekiq-worker-is-leaking-memory",
+      "owner": {
+        "display_name": "Yosi",
+        "link": "https://stackoverflow.com/users/385882/yosi"
+      }
+    },
+    {
+      "question_id": 15758710,
+      "title": "Limit the amount of workers per queue in Sidekiq",
+      "accepted_answer_id": 16567064,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/15758710/limit-the-amount-of-workers-per-queue-in-sidekiq",
+      "owner": {
+        "display_name": "Philipp",
+        "link": "https://stackoverflow.com/users/1196023/philipp"
+      }
+    },
+    {
+      "question_id": 18501749,
+      "title": "Can I get the ID of my sidekiq worker inside the worker?",
+      "accepted_answer_id": 18514566,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/18501749/can-i-get-the-id-of-my-sidekiq-worker-inside-the-worker",
+      "owner": {
+        "display_name": "Ovesh",
+        "link": "https://stackoverflow.com/users/3751/ovesh"
+      }
+    },
+    {
+      "question_id": 24154013,
+      "title": "Sidekiq without Rails doesn&#39;t load worker classes",
+      "accepted_answer_id": 24154413,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/24154013/sidekiq-without-rails-doesnt-load-worker-classes",
+      "owner": {
+        "display_name": "PJSCopeland",
+        "link": "https://stackoverflow.com/users/1157242/pjscopeland"
+      }
+    },
+    {
+      "question_id": 25907596,
+      "title": "How to share worker among two different applications on heroku?",
+      "accepted_answer_id": 26027530,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/25907596/how-to-share-worker-among-two-different-applications-on-heroku",
+      "owner": {
+        "display_name": "Sachin Singh",
+        "link": "https://stackoverflow.com/users/1262519/sachin-singh"
+      }
+    },
+    {
+      "question_id": 32940007,
+      "title": "Rails how to tell if a sidekiq worker is done with perform_async",
+      "accepted_answer_id": 32940093,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/32940007/rails-how-to-tell-if-a-sidekiq-worker-is-done-with-perform-async",
+      "owner": {
+        "display_name": "TAH",
+        "link": "https://stackoverflow.com/users/2650407/tah"
+      }
+    },
+    {
+      "question_id": 39055708,
+      "title": "Using Sidekiq for Active Job and getting ActiveJob::DeserializationError",
+      "accepted_answer_id": 39055873,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/39055708/using-sidekiq-for-active-job-and-getting-activejobdeserializationerror",
+      "owner": {
+        "display_name": "Tamlyn R",
+        "link": "https://stackoverflow.com/users/5799652/tamlyn-r"
+      }
+    },
+    {
+      "question_id": 43526075,
+      "title": "Is it safe to rename a Sidekiq worker with jobs still in the queue?",
+      "accepted_answer_id": 43528596,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/43526075/is-it-safe-to-rename-a-sidekiq-worker-with-jobs-still-in-the-queue",
+      "owner": {
+        "display_name": "Andrew Cox",
+        "link": "https://stackoverflow.com/users/2277546/andrew-cox"
+      }
+    },
+    {
+      "question_id": 45305175,
+      "title": "Advantages when using ActiveJob with Sidekiq compare with Sidekiq alone",
+      "accepted_answer_id": 45305542,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/45305175/advantages-when-using-activejob-with-sidekiq-compare-with-sidekiq-alone",
+      "owner": {
+        "display_name": "Trần Kim Dự",
+        "link": "https://stackoverflow.com/users/1493868/tr%e1%ba%a7n-kim-d%e1%bb%b1"
+      }
+    },
+    {
+      "question_id": 14790727,
+      "title": "how to detach sidekiq process once started in terminal",
+      "accepted_answer_id": 16263330,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/14790727/how-to-detach-sidekiq-process-once-started-in-terminal",
+      "owner": {
+        "display_name": "Keviv Vivek",
+        "link": "https://stackoverflow.com/users/1213562/keviv-vivek"
+      }
+    },
+    {
+      "question_id": 14868716,
+      "title": "failed with error 10068: &quot;invalid operator: $oid&quot;",
+      "accepted_answer_id": 14869336,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/14868716/failed-with-error-10068-invalid-operator-oid",
+      "owner": {
+        "display_name": "Sagiv Ofek",
+        "link": "https://stackoverflow.com/users/543601/sagiv-ofek"
+      }
+    },
+    {
+      "question_id": 18899464,
+      "title": "Possible to avoid ActiveRecord::ConnectionTimeoutError on Heroku?",
+      "accepted_answer_id": 18927851,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/18899464/possible-to-avoid-activerecordconnectiontimeouterror-on-heroku",
+      "owner": {
+        "display_name": "Nick ONeill",
+        "link": "https://stackoverflow.com/users/812939/nick-oneill"
+      }
+    },
+    {
+      "question_id": 20492550,
+      "title": "Is there any way to tell sidekiq that one job is dependent on another",
+      "accepted_answer_id": 25904327,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/20492550/is-there-any-way-to-tell-sidekiq-that-one-job-is-dependent-on-another",
+      "owner": {
+        "display_name": "hasrthur",
+        "link": "https://stackoverflow.com/users/717336/hasrthur"
+      }
+    },
+    {
+      "question_id": 20790295,
+      "title": "Mongoid/Moped errors when processing jobs with Sidekiq",
+      "accepted_answer_id": 20823354,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/20790295/mongoid-moped-errors-when-processing-jobs-with-sidekiq",
+      "owner": {
+        "display_name": "randombits",
+        "link": "https://stackoverflow.com/users/175836/randombits"
+      }
+    },
+    {
+      "question_id": 22813929,
+      "title": "Redistogo and Sidekiq on Heroku: Can&#39;t connect",
+      "accepted_answer_id": 23165566,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/22813929/redistogo-and-sidekiq-on-heroku-cant-connect",
+      "owner": {
+        "display_name": "Michael Schmitz",
+        "link": "https://stackoverflow.com/users/131260/michael-schmitz"
+      }
+    },
+    {
+      "question_id": 24011860,
+      "title": "Starting sidekiq with capistrano",
+      "accepted_answer_id": 24012377,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/24011860/starting-sidekiq-with-capistrano",
+      "owner": {
+        "display_name": "sagar junnarkar",
+        "link": "https://stackoverflow.com/users/1337996/sagar-junnarkar"
+      }
+    },
+    {
+      "question_id": 30539841,
+      "title": "Sidekiq + Rails: How to see queue of &quot;Busy&quot; jobs?",
+      "accepted_answer_id": 30540181,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/30539841/sidekiq-rails-how-to-see-queue-of-busy-jobs",
+      "owner": {
+        "display_name": "bigpotato",
+        "link": "https://stackoverflow.com/users/1555312/bigpotato"
+      }
+    },
+    {
+      "question_id": 23121233,
+      "title": "Sidekiq perform_at specified datetime",
+      "accepted_answer_id": 23138871,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/23121233/sidekiq-perform-at-specified-datetime",
+      "owner": {
+        "display_name": "maudulus",
+        "link": "https://stackoverflow.com/users/3216297/maudulus"
+      }
+    },
+    {
+      "question_id": 24812189,
+      "title": "Calling/scheduling sidekiq worker from them selves",
+      "accepted_answer_id": 24834261,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/24812189/calling-scheduling-sidekiq-worker-from-them-selves",
+      "owner": {
+        "display_name": "Matjaz Muhic",
+        "link": "https://stackoverflow.com/users/941913/matjaz-muhic"
+      }
+    },
+    {
+      "question_id": 26263024,
+      "title": "Sidekiq jobs stuck in queue on Heroku",
+      "accepted_answer_id": 26303061,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/26263024/sidekiq-jobs-stuck-in-queue-on-heroku",
+      "owner": {
+        "display_name": "Andy Weiss",
+        "link": "https://stackoverflow.com/users/4070791/andy-weiss"
+      }
+    },
+    {
+      "question_id": 34207523,
+      "title": "Rails, Sidekiq - Redis NOAUTH",
+      "accepted_answer_id": 34208337,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/34207523/rails-sidekiq-redis-noauth",
+      "owner": {
+        "display_name": "Philip",
+        "link": "https://stackoverflow.com/users/487397/philip"
+      }
+    },
+    {
+      "question_id": 46407772,
+      "title": "What is the Redis key for a queue in Sidekiq?",
+      "accepted_answer_id": 46411356,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/46407772/what-is-the-redis-key-for-a-queue-in-sidekiq",
+      "owner": {
+        "display_name": "collimarco",
+        "link": "https://stackoverflow.com/users/51387/collimarco"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 55801723,
+      "body": "<p>ActiveJob is a wrapper around the most known background job gems to provide a base API to work with background jobs.</p>\n<p>ActiveJob defines <code>perform_later</code>. Sidekiq defines <code>perform_async</code>. Which method you use depends on how you implemente your workers. If you use ActiveJob workers then you must use <code>perform_later</code>, if you don't use ActiveJob and just go with plain Sidekiq workers then use <code>perform_async</code>.</p>\n",
+      "owner": {
+        "display_name": "arieljuod",
+        "link": "https://stackoverflow.com/users/1430810/arieljuod"
+      }
+    },
+    {
+      "answer_id": 44030318,
+      "body": "<ol>\n<li>Quiet means don't fetch new jobs from Redis anymore.  Current jobs will continue to process indefinitely.</li>\n<li>Stop means quiet immediately + force any jobs still processing after the <code>-t</code> timeout (<a href=\"https://github.com/sidekiq/sidekiq/wiki/Deployment#overview\" rel=\"noreferrer\">default</a>: 25 seconds) to stop <strong>and push those unfinished jobs back to Redis</strong>.</li>\n</ol>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 76095217,
+      "body": "<p><code>Worker</code> is the old term, <code>Job</code> is the modern term. They are the same thing, Sidekiq made the change to adopt industry standard terminology.</p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 31674247,
+      "body": "<p>YAML keys starting with a colon are transformed into symbolized keys in Ruby when parsed, whereas keys without a colon will result in stringified keys:</p>\n<pre><code>require 'yaml'\n\nstring =&lt;&lt;-END_OF_YAML\n:concurrency: 5\n:pidfile: /tmp/pids/sidekiq.pid\n:logfile: log/sidekiq.log\nstaging:\n  :concurrency: 10\nproduction:\n  :concurrency: 20\nqueues:\n  - default\nEND_OF_YAML\n\nYAML.load(string)\n# {\n#     :concurrency =&gt; 5,\n#     :pidfile     =&gt; &quot;/tmp/pids/sidekiq.pid&quot;,\n#     :logfile     =&gt; &quot;log/sidekiq.log&quot;,\n#     &quot;staging&quot;    =&gt; {\n#         :concurrency =&gt; 10\n#     },\n#     &quot;production&quot; =&gt; {\n#         :concurrency =&gt; 20\n#     },\n#     &quot;queues&quot;     =&gt; [\n#         [0] &quot;default&quot;\n#     ]\n# }\n</code></pre>\n<p>Note: When a gem depends on symbolized keys, then a stringified key will not override its defaults.</p>\n",
+      "owner": {
+        "display_name": "spickermann",
+        "link": "https://stackoverflow.com/users/2483313/spickermann"
+      }
+    },
+    {
+      "answer_id": 74356180,
+      "body": "<p>The Redis client for Ruby was recently updated and now checks command argument types strictly. Sidekiq as of 6.4.2 was passing a boolean (in your case <code>FalseClass</code>) in the heartbeat code, which the new Redis client rejected, hence the error. Booleans are invalid because Redis hashes don't support type hints; Redis 4.6 and older would just quietly convert to string.</p>\n<p>Sidekiq has been updated to work with the new Redis client as of 6.5.x. I'm using 6.5.5 and the error is gone:</p>\n<p><code>gem 'sidekiq', '~&gt; 6.5.5'</code></p>\n<p>Here's the PR that introduced the fix for reference: <a href=\"https://github.com/mperham/sidekiq/pull/5298\" rel=\"noreferrer\">https://github.com/mperham/sidekiq/pull/5298</a></p>\n",
+      "owner": {
+        "display_name": "pmv",
+        "link": "https://stackoverflow.com/users/13631843/pmv"
+      }
+    },
+    {
+      "answer_id": 62128884,
+      "body": "<p><code>perform_async</code> - a method that push your job with your params in the async queue (create a record in your async backend, Redis by default), to allow Sidekiq catch and perform it on the order of queue</p>\n<p>Source: <a href=\"https://github.com/mperham/sidekiq/blob/e2f92e8279d1947aa45eb86acc73f9ebe7a92c9c/lib/sidekiq/worker.rb#L6-L43\" rel=\"noreferrer\">https://github.com/mperham/sidekiq/blob/e2f92e8279d1947aa45eb86acc73f9ebe7a92c9c/lib/sidekiq/worker.rb#L6-L43</a></p>\n",
+      "owner": {
+        "display_name": "Xiting",
+        "link": "https://stackoverflow.com/users/5199542/xiting"
+      }
+    },
+    {
+      "answer_id": 13409418,
+      "body": "<p>Put the following into your sidekiq initializer</p>\n<pre><code>require 'sidekiq'\nrequire 'sidekiq/web'\n\nSidekiq::Web.use(Rack::Auth::Basic) do |user, password|\n  # Protect against timing attacks:\n  # - See https://codahale.com/a-lesson-in-timing-attacks/\n  # - See https://thisdata.com/blog/timing-attacks-against-string-comparison/\n  # - Use &amp; (do not use &amp;&amp;) so that it doesn't short circuit.\n  # - Use digests to stop length information leaking\n  Rack::Utils.secure_compare(::Digest::SHA256.hexdigest(user), ::Digest::SHA256.hexdigest(ENV[&quot;SIDEKIQ_USER&quot;])) &amp;\n  Rack::Utils.secure_compare(::Digest::SHA256.hexdigest(password), ::Digest::SHA256.hexdigest(ENV[&quot;SIDEKIQ_PASSWORD&quot;]))\nend\n</code></pre>\n<p>And in the routes file:</p>\n<pre><code>mount Sidekiq::Web =&gt; '/sidekiq'\n</code></pre>\n",
+      "owner": {
+        "display_name": "bravenewweb",
+        "link": "https://stackoverflow.com/users/1825757/bravenewweb"
+      }
+    },
+    {
+      "answer_id": 52284201,
+      "body": "<p>In my experience <code>app/lib</code> is easier to use. You can literally stick in something like <code>Class MathFunction</code> and use it elsewhere (e.g. controllers or modules) with <code>MathFunction.sqrRoot</code>.</p>\n<p>To use <code>/lib</code> you need to configure your Rails app with <code>autoload_paths</code>. <code>autoload_paths</code> also need some tweaking to work properly in <a href=\"https://bigbinary.com/blog/rails-5-disables-autoloading-after-booting-the-app-in-production\" rel=\"noreferrer\">production</a>. Matz himself discourages <code>autoload</code> because it's in the process of <a href=\"https://bugs.ruby-lang.org/issues/5653\" rel=\"noreferrer\">being deprecated</a>.</p>\n<p>The only time I've needed to use the <code>lib</code> directory is for making custom rake tasks. Otherwise I stick to <code>app/lib</code>.</p>\n",
+      "owner": {
+        "display_name": "Joseph Cho",
+        "link": "https://stackoverflow.com/users/4842949/joseph-cho"
+      }
+    },
+    {
+      "answer_id": 66912744,
+      "body": "<p>Solution given by Github user &quot;gagalago&quot; here. It worked for me!</p>\n<p>Have this in your <strong>config/routes.rb</strong> file:</p>\n<pre><code>require 'sidekiq/web'\n\n# Configure Sidekiq-specific session middleware\nSidekiq::Web.use ActionDispatch::Cookies\nSidekiq::Web.use ActionDispatch::Session::CookieStore, key: &quot;_interslice_session&quot;\n\nMyapp::Application.routes.draw do\n  mount Sidekiq::Web =&gt; &quot;/sidekiq&quot;\n  # ...\nend\n</code></pre>\n<p><a href=\"https://github.com/mperham/sidekiq/issues/4850#issuecomment-810880012\" rel=\"noreferrer\">https://github.com/mperham/sidekiq/issues/4850#issuecomment-810880012</a></p>\n",
+      "owner": {
+        "display_name": "Aleksandrus",
+        "link": "https://stackoverflow.com/users/3381662/aleksandrus"
+      }
+    },
+    {
+      "answer_id": 30540181,
+      "body": "<p>That's the <code>Sidekiq::Workers</code> API:</p>\n<p><a href=\"https://github.com/mperham/sidekiq/blob/90190e0dc40744cb07a12291e5ecc20b069981b6/lib/sidekiq/api.rb#L931\" rel=\"nofollow noreferrer\">https://github.com/mperham/sidekiq/blob/90190e0dc40744cb07a12291e5ecc20b069981b6/lib/sidekiq/api.rb#L931</a></p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 34149605,
+      "body": "<p>We also faced a similar issue. Looks like someone scanned AWS, connected to all public redis servers, and possibly ran &quot;CONFIG SET REQUIREPASS ''&quot;, thus locking down the running instance of redis. Once you <strong>restart</strong> redis, the config is restored to normal.</p>\n<p>Best thing would be to use AWS security group policy and <strong>block port 6379</strong> for public.</p>\n",
+      "owner": {
+        "display_name": "Ashutosh Agrawal",
+        "link": "https://stackoverflow.com/users/5653185/ashutosh-agrawal"
+      }
+    },
+    {
+      "answer_id": 24446989,
+      "body": "<p>So after you find you PID, you can use the below commands: the first will stop the workers from getting new jobs and will let existing jobs complete:</p>\n\n<pre><code>kill -USR1 [PID]\n</code></pre>\n\n<p>after that, you can kill the process using:</p>\n\n<pre><code>kill -TERM [PID]\n</code></pre>\n\n<p>Also, there is a page on sidekiq/wiki about this called Signals.</p>\n\n<p>[edit]</p>\n\n<p><a href=\"https://github.com/mperham/sidekiq/wiki/Signals#sidekiqctl\" rel=\"nofollow noreferrer\">Here</a> is the signal page.</p>\n\n<p>[edit]</p>\n\n<p>Check <a href=\"https://www.youtube.com/watch?v=0Q6CbF-ZmB8&amp;list=PLjeHh2LSCFrWGT5uVjUuFKAcrcj5kSai1&amp;index=3\" rel=\"nofollow noreferrer\">video</a></p>\n\n<p>For finding PIDs one can use:</p>\n\n<p>ps aux | grep sidekiq</p>\n",
+      "owner": {
+        "display_name": "alexsmn",
+        "link": "https://stackoverflow.com/users/3778742/alexsmn"
+      }
+    },
+    {
+      "answer_id": 17980713,
+      "body": "<p>Ruby multithreading is just for that. Spawn a thread in your initializers folder:</p>\n\n<pre><code>Thread.new do\n\n  loop do\n\n    for user in User.active\n      data = user.get_data\n      next if data.blank?\n\n      UserDataWorker.perform_async(user.id)\n    end\n\n    sleep 1\n\n  end\nend\n</code></pre>\n\n<p>If your checks don't need much resources, should be allright.</p>\n",
+      "owner": {
+        "display_name": "Utgarda",
+        "link": "https://stackoverflow.com/users/408165/utgarda"
+      }
+    },
+    {
+      "answer_id": 59877421,
+      "body": "<h2>Update: Rack 2.1.2 has been released and it solves this error</h2>\n\n<p>Now the solution is making sure you use 2.1.2 or higher.</p>\n\n<pre><code>bundle update rack\n</code></pre>\n\n<p>might do the trick for you depending on the rest of your Gemfile.</p>\n\n<hr>\n\n<h2>Old answer</h2>\n\n<p>Two options in order to solve this.</p>\n\n<ul>\n<li>Install a previous working release (recommended). This will install the latest release on 2.0.X branch:</li>\n</ul>\n\n<pre><code>gem 'rack', '~&gt; 2.0.0'\n</code></pre>\n\n<ul>\n<li>Install the fixed version from git repository itself</li>\n</ul>\n\n<pre><code>gem 'rack', github: 'rack/rack', ref: 'f690bb71425aa31d7b9b3113829af773950d8ab5'\n</code></pre>\n\n<p>In both cases, you should remove/replace this with the proper fixed release once this happens. Keep track of <a href=\"https://github.com/rack/rack/pull/1428\" rel=\"noreferrer\">https://github.com/rack/rack/pull/1428</a></p>\n",
+      "owner": {
+        "display_name": "jBilbo",
+        "link": "https://stackoverflow.com/users/117382/jbilbo"
+      }
+    },
+    {
+      "answer_id": 28427385,
+      "body": "<p>Ok thanks for the answer.</p>\n\n<p>Just for information, I also asked the question in an issue related to this subject on ActiveJob Github repository : <a href=\"https://github.com/rails/activejob/issues/47\" rel=\"nofollow noreferrer\">https://github.com/rails/activejob/issues/47</a></p>\n\n<p>DHH answered me a solution I haven't tested but that can do the job.</p>\n\n<p>Personnally, I finally put this in an initializer in order to disable Sidekiq retries globally and it works well :</p>\n\n<pre><code>Sidekiq.configure_server do |config|\n   config.server_middleware do |chain|\n      chain.add Sidekiq::Middleware::Server::RetryJobs, :max_retries =&gt; 0\n   end\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jules Ivanic",
+        "link": "https://stackoverflow.com/users/2431728/jules-ivanic"
+      }
+    },
+    {
+      "answer_id": 11581418,
+      "body": "<h3>Resque:</h3>\n\n<p>Pros:</p>\n\n<ul>\n<li>does not require thread safety (works with pretty much any gem out there);</li>\n<li><s>has no interpreter preference (you can use any ruby);</s><br>\n<a href=\"https://github.com/resque/resque/blob/master/README.markdown\" rel=\"noreferrer\">Resque currently supports MRI 2.3.0 or later</a></li>\n<li>loads of plugins.</li>\n</ul>\n\n<p>Cons</p>\n\n<ul>\n<li>runs a process per worker (uses more memory);</li>\n<li>does not retry jobs (out of the box, anyway).</li>\n</ul>\n\n<h3>Sidekiq:</h3>\n\n<p>Pros</p>\n\n<ul>\n<li>runs thread per worker (uses much less memory);</li>\n<li>less forking (works faster);</li>\n<li>more options out of the box.</li>\n</ul>\n\n<p>Cons</p>\n\n<ul>\n<li><strong>[huge]</strong> requires thread-safety of your code and <strong>all dependencies</strong>. If you run thread-unsafe code with threads, you're asking for trouble;</li>\n<li>works on some rubies better than others (jruby is recommended, efficiency on MRI is decreased due to GVL (global VM lock)).</li>\n</ul>\n",
+      "owner": {
+        "display_name": "Sergio Tulentsev",
+        "link": "https://stackoverflow.com/users/125816/sergio-tulentsev"
+      }
+    },
+    {
+      "answer_id": 52547867,
+      "body": "<p>I use  a docker-compose and i add in <code>.env</code> file </p>\n\n<pre><code>REDIS_URL=redis://redis:6379/0\n</code></pre>\n",
+      "owner": {
+        "display_name": "roxdurazo",
+        "link": "https://stackoverflow.com/users/3280686/roxdurazo"
+      }
+    },
+    {
+      "answer_id": 46813208,
+      "body": "<p>You might want to check if you've included the gem 'rspec-sidekiq' in the group :development. If it's the case, remove it from there and only call it in the :test group.</p>\n",
+      "owner": {
+        "display_name": "Thomas Geider",
+        "link": "https://stackoverflow.com/users/3362487/thomas-geider"
+      }
+    },
+    {
+      "answer_id": 46411356,
+      "body": "<pre><code>queue:default\n</code></pre>\n\n<p>is the name of the default queue.  As you state, it is \"queue:$NAME\" but namespaces (if you use them (please don't)) will also prefix the key.</p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 28370539,
+      "body": "<p>You use <a href=\"https://github.com/mperham/sidekiq/blob/528ca61ab270198fe56f65bbf35265790e3ae748/lib/sidekiq.rb#L87\" rel=\"noreferrer\"><code>Sidekiq.server?</code></a> which returns <code>nil</code> when not running inside the Sidekiq process itself.</p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 45305542,
+      "body": "<p>From rails ActiveJob <a href=\"http://edgeguides.rubyonrails.org/active_job_basics.html\" rel=\"noreferrer\">guide</a></p>\n\n<blockquote>\n  <p>The main point is to ensure that all Rails apps will have a job\n  infrastructure in place. We can then have framework features and other\n  gems build on top of that, without having to worry about API\n  differences between various job runners such as Delayed Job and\n  Resque. Picking your queuing backend becomes more of an operational\n  concern, then. And you'll be able to switch between them without\n  having to rewrite your jobs.</p>\n</blockquote>\n\n<p>basically what ActiveJob does is standardising the API interface for job queuer. This  will help you to change from one job backend to the other with ease.</p>\n\n<p>When you use Sidekiq with ActiveJob, you can benefit from the goodies sidekiq has to offer, but the real catch is when you find another queuer is best for your application, ActiveJob allows you to switch to your job queuer of choice with a one liner</p>\n\n<pre><code># application.rb\nconfig.active_job.queue_adapter = :sidekiq\n</code></pre>\n",
+      "owner": {
+        "display_name": "Tony Vincent",
+        "link": "https://stackoverflow.com/users/5898312/tony-vincent"
+      }
+    },
+    {
+      "answer_id": 43816217,
+      "body": "<p>By default, Rails will include all subdirectories of the <code>app</code> folder in the <a href=\"http://guides.rubyonrails.org/autoloading_and_reloading_constants.html#autoload-paths\" rel=\"noreferrer\">autoload paths</a> list.  You can review the list of autoload paths in the console with:</p>\n\n<pre><code>puts ActiveSupport::Dependencies.autoload_paths\n</code></pre>\n\n<p>But Rails only looks for these paths at boot time.  So when you add a new folder, like <code>app/workers</code>, it is not enough to restart the Rails console.  You need to both exit the Rails console and stop the <a href=\"http://guides.rubyonrails.org/4_1_release_notes.html#spring-application-preloader\" rel=\"noreferrer\">Spring Application Preloader</a> with:</p>\n\n<pre><code>spring stop\n</code></pre>\n\n<p>Then start up the Rails console again and the files in the <code>app/workers</code> folder will load properly.</p>\n",
+      "owner": {
+        "display_name": "cschroed",
+        "link": "https://stackoverflow.com/users/2622934/cschroed"
+      }
+    },
+    {
+      "answer_id": 43738392,
+      "body": "<p>The best thing I've come up with is this gem <code>gem 'pry-remote'</code> it works great and stops all processes from running. And it works like <code>pry</code> just put in <code>binding.remote_pry</code> and you've got a stopping point.</p>\n",
+      "owner": {
+        "display_name": "ToddT",
+        "link": "https://stackoverflow.com/users/4386626/toddt"
+      }
+    },
+    {
+      "answer_id": 43528596,
+      "body": "<p>It is not safe.  You can do this:</p>\n\n<pre><code>class A\nend\nB = A\n</code></pre>\n\n<p>to alias B to A instead of copying the code.</p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 18927851,
+      "body": "<p>A sidekiq server (the process running on your server that is actually performing the delayed tasks) will by default dial up to 25 threads to process work off its queue. Each of these threads could be requesting a connection to your primary database through ActiveRecord if your tasks require it. </p>\n\n<p>If you only have a connection pool of 5 connections, but you have 25 threads trying to connect, after 5 seconds the threads will just give up if they can't get an available connection from the pool and you'll get a connection time out error.</p>\n\n<p>Setting the pool size for your Sidekiq server to something closer to your concurrency level (set with the <code>-c</code> flag when you start the process) will help alleviate this issue at the cost of opening many more connections to your database. If you are on Heroku and are using Postgres for example, some of their plans are limited to 20, whereas others have a connection limit of 500 (<a href=\"https://devcenter.heroku.com/articles/heroku-postgres-plans\" rel=\"nofollow noreferrer\">source</a>).</p>\n\n<p>If you are running a multi-process server environment like Unicorn, you also need to monitor the number of connections each forked process makes as well. If you have 4 unicorn processes, and a default connection pool size of 5, your unicorn environment at any given time could have 20 live connections. You can read more about that on <a href=\"https://devcenter.heroku.com/articles/concurrency-and-database-connections#connection-pool\" rel=\"nofollow noreferrer\">Heroku's docs</a>. Note also that the DB pool size doesn’t mean that each dyno will now have that many open connections, but only that if a new connection is needed it will be created until a maximum of that many have been created.</p>\n\n<p>With that said, here is what I do.</p>\n\n<pre><code># config/initializers/unicorn.rb\n\nif ENV['RACK_ENV'] == 'development'\n  worker_processes 1\n  listen \"#{ENV['BOXEN_SOCKET_DIR']}/rails_app\"\n  timeout 120\nelse\n  worker_processes Integer(ENV[\"WEB_CONCURRENCY\"] || 2)\n  timeout 29\nend\n\n# The timeout mechanism in Unicorn is an extreme solution that should be avoided whenever possible. \n# It will help catch bugs in your application where and when your application forgets to use timeouts,\n# but it is expensive as it kills and respawns a worker process.\n# see http://unicorn.bogomips.org/Application_Timeouts.html\n\n# Heroku recommends a timeout of 15 seconds. With a 15 second timeout, the master process will send a \n# SIGKILL to the worker process if processing a request takes longer than 15 seconds. This will \n# generate a H13 error code and you’ll see it in your logs. Note, this will not generate any stacktraces \n# to assist in debugging. Using Rack::Timeout, we can get a stacktrace in the logs that can be used for\n# future debugging, so we set that value to something less than this one\n\npreload_app true # for new relic\n\nbefore_fork do |server, worker|\n  Signal.trap 'TERM' do\n    puts 'Unicorn master intercepting TERM and sending myself QUIT instead'\n    Process.kill 'QUIT', Process.pid\n  end\n\n  if defined?(ActiveRecord::Base)\n    ActiveRecord::Base.connection.disconnect!\n  end\n\nend\n\nafter_fork do |server, worker|\n  Signal.trap 'TERM' do\n    puts 'Unicorn worker intercepting TERM and doing nothing. Wait for master to sent QUIT'\n  end\n\n  Rails.logger.info(\"Done forking unicorn processes\")\n\n  #https://devcenter.heroku.com/articles/concurrency-and-database-connections\n  if defined?(ActiveRecord::Base)\n\n    db_pool_size = if ENV[\"DB_POOL\"]\n      ENV[\"DB_POOL\"]\n    else\n      ENV[\"WEB_CONCURRENCY\"] || 2\n    end\n\n    config = Rails.application.config.database_configuration[Rails.env]\n    config['reaping_frequency'] = ENV['DB_REAP_FREQ'] || 10 # seconds\n    config['pool']              = ENV['DB_POOL'] || 2\n    ActiveRecord::Base.establish_connection(config)\n\n    # Turning synchronous_commit off can be a useful alternative when performance is more important than exact certainty about the durability of a transaction\n    ActiveRecord::Base.connection.execute \"update pg_settings set setting='off' where name = 'synchronous_commit';\"    \n\n    Rails.logger.info(\"Connection pool size for unicorn is now: #{ActiveRecord::Base.connection.pool.instance_variable_get('@size')}\")\n  end\n\nend\n</code></pre>\n\n<p>And for sidekiq:</p>\n\n<pre><code># config/initializers/sidekiq.rb\n\nSidekiq.configure_server do |config|\n\n  sidekiq_pool = ENV['SIDEKIQ_DB_POOL'] || 20\n\n  if defined?(ActiveRecord::Base)\n    Rails.logger.debug(\"Setting custom connection pool size of #{sidekiq_pool} for Sidekiq Server\")\n    db_config = Rails.application.config.database_configuration[Rails.env]\n    db_config['reaping_frequency'] = ENV['DB_REAP_FREQ'] || 10 # seconds\n    cb_config['pool']              = sidekiq_pool\n    ActiveRecord::Base.establish_connection(db_config)\n\n    Rails.logger.info(\"Connection pool size for Sidekiq Server is now: #{ActiveRecord::Base.connection.pool.instance_variable_get('@size')}\")\n  end\nend\n</code></pre>\n\n<p>If all goes well, when you fire up your processes you'll see something like in your log:</p>\n\n<pre><code>Setting custom connection pool size of 10 for Sidekiq Server\nConnection pool size for Sidekiq Server is now: 20\nDone forking unicorn processes\n   (1.4ms)  update pg_settings set setting='off' where name = 'synchronous_commit';\nConnection pool size for unicorn is now: 2\n</code></pre>\n\n<p>Sources: </p>\n\n<ul>\n<li><a href=\"https://devcenter.heroku.com/articles/concurrency-and-database-connections#connection-pool\" rel=\"nofollow noreferrer\">https://devcenter.heroku.com/articles/concurrency-and-database-connections#connection-pool</a></li>\n<li><a href=\"https://github.com/mperham/sidekiq/issues/503\" rel=\"nofollow noreferrer\">https://github.com/mperham/sidekiq/issues/503</a></li>\n<li><a href=\"https://github.com/mperham/sidekiq/wiki/Advanced-Options\" rel=\"nofollow noreferrer\">https://github.com/mperham/sidekiq/wiki/Advanced-Options</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "stereoscott",
+        "link": "https://stackoverflow.com/users/149503/stereoscott"
+      }
+    },
+    {
+      "answer_id": 42656141,
+      "body": "<p>I had the same problem.  Came across this answer: <a href=\"https://stackoverflow.com/questions/35176934/actioncable-server-broadcast-from-the-console\">ActionCable.server.broadcast from the console</a> - worked for me.  Basically just changed cable.yml</p>\n\n<pre><code>development:\n  adapter: async\n</code></pre>\n\n<p>to </p>\n\n<pre><code>development:\n  adapter: redis\n  url: redis://localhost:6379/1\n</code></pre>\n\n<p>and I was able to broadcast from console, models, Sidekiq worker classes, etc.</p>\n",
+      "owner": {
+        "display_name": "Navin Gupta",
+        "link": "https://stackoverflow.com/users/7673431/navin-gupta"
+      }
+    },
+    {
+      "answer_id": 17607555,
+      "body": "<p>There is a <code>Sidekiq.logger</code> and simply <code>logger</code> reference that you can use within your workers.  The default should be to STDOUT and you should just direct your output in production to the log file path of your choice.</p>\n",
+      "owner": {
+        "display_name": "paul",
+        "link": "https://stackoverflow.com/users/2223333/paul"
+      }
+    },
+    {
+      "answer_id": 17065723,
+      "body": "<p>I had a similar problem where Sidekiq was running but when I called <code>perform_async</code> it didn't do anything except return <code>true</code>.</p>\n\n<p>The problem was <strong>rspec-sidekiq</strong> was added to my \"<em>:development, :test</em>\" group. I fixed the problem by moving <strong>rspec-sidekiq</strong> to the \"<em>:test</em>\" group only.</p>\n",
+      "owner": {
+        "display_name": "basgys",
+        "link": "https://stackoverflow.com/users/763799/basgys"
+      }
+    },
+    {
+      "answer_id": 24154413,
+      "body": "<p>So...</p>\n\n<p>In <code>LookupWorker</code>, <code>require</code> was getting confused between <code>sidekiq</code> the gem and <code>sidekiq</code> the script on line 1.</p>\n\n<p>My <code>sidekiq.rb</code> needed to be renamed as <code>sidekiq_script.rb</code> (or anything else really). Only gotcha is, I have to include the directory when running sidekiq:</p>\n\n<pre><code>$ sidekiq -r ./sidekiq_script.rb\n</code></pre>\n\n<p>not</p>\n\n<pre><code>$ sidekiq -r sidekiq_script.rb\n</code></pre>\n\n<p>Well I feel slightly stupid for that.</p>\n",
+      "owner": {
+        "display_name": "PJSCopeland",
+        "link": "https://stackoverflow.com/users/1157242/pjscopeland"
+      }
+    },
+    {
+      "answer_id": 14348792,
+      "body": "<p>Sidekiq comes with the command sidekiqctl, which can stop the PID associated with your Sidekiq process. You pass in the PID file and the # of seconds to wait for all threads to finish.</p>\n\n<p>Sample Usage:</p>\n\n<pre><code>sidekiqctl stop #{rails_root}/tmp/pids/sidekiq_website_crawler.pid 60\n</code></pre>\n\n<p>Here, 60 represents the number of seconds to wait until all Sidekiq threads are done processing. If 60 seconds pass, and all aren't done, they are killed automatically.</p>\n\n<p>I also recommend using the God gem to monitor, stop, start and restart Sidekiq.</p>\n\n<p>Once you do that, you can use bundle exec god stop  to stop all sidekiq threads.</p>\n\n<p>Here is my God file, as an example:</p>\n\n<pre><code>rails_env = ENV['RAILS_ENV'] || \"development\"\nrails_root = ENV['RAILS_ROOT'] || \"/home/hwc218/BuzzSumo\"\n God.watch do |w|\n     w.dir      = \"#{rails_root}\"\n     w.name     = \"website_crawler\"\n     w.interval = 30.seconds\n     w.env      = {\"RAILS_ENV\" =&gt; rails_env}\n     w.interval = 30.seconds\n     w.start = \"bundle exec sidekiq -C #{rails_root}/config/sidekiq_website_crawler.yml\"\n     w.stop = \"sidekiqctl stop #{rails_root}/tmp/pids/sidekiq_website_crawler.pid 60\"\n     w.keepalive\n\n\n    # determine the state on startup\n     w.transition(:init, { true =&gt; :up, false =&gt; :start }) do |on|\n    on.condition(:process_running) do |c|\n      c.running = true\n    end\n    end\n\n     # determine when process has finished starting\n      w.transition([:start, :restart], :up) do |on|\n      on.condition(:process_running) do |c|\n      c.running = true\n      c.interval = 5.seconds\n    end\n\n      # failsafe\n       on.condition(:tries) do |c|\n      c.times = 5\n      c.transition = :start\n      c.interval = 5.seconds\n     end\n    end\n\n    # start if process is not running\n     w.transition(:up, :start) do |on|\n    on.condition(:process_running) do |c|\n      c.running = false\n    end\n    end\n\n    w.restart_if do |restart|\n        restart.condition(:restart_file_touched) do |c|\n          c.interval = 5.seconds\n          c.restart_file = File.join(rails_root, 'tmp', 'restart.txt')\n        end\n    end\n end\n</code></pre>\n",
+      "owner": {
+        "display_name": "Henley Wing Chiu",
+        "link": "https://stackoverflow.com/users/661624/henley-wing-chiu"
+      }
+    },
+    {
+      "answer_id": 39055873,
+      "body": "<p>I don't think it is a good idea to pass the Room object into a Sidekiq worker. I've always passed the primary key for a database object and then re-queried. Try this.</p>\n\n<pre><code>AddEmployeesToRoomJob.perform_later room.id\n\ndef perform(room_id)\n  room = Room.find(room_id)\n  employees = Employee.all\n    if employees.length &gt; 0\n      employees.each do |employee|\n        UserRoom.create(user: employee, room: room)\n      end\n    end\n  end\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "kcdragon",
+        "link": "https://stackoverflow.com/users/617090/kcdragon"
+      }
+    },
+    {
+      "answer_id": 33607021,
+      "body": "<p>Try to mount the volumes. Your <code>docker-compose</code> file should look like this (with PosgtreSQL as database) :</p>\n\n<pre><code>web:\n  build: .\n  volumes:\n    - .:/myapp\n  links:\n    - db\n    - redis\n  ports:\n    - \"3000:3000\"\n  command: bundle exec rails server -b 0.0.0.0\nsidekiq:\n  build: .\n  volumes:\n    - .:/myapp\n  links:\n    - db\n    - redis\n  command: bundle exec sidekiq\ndb:\n  image: postgres\nredis:\n  image: redis\n</code></pre>\n",
+      "owner": {
+        "display_name": "Renaud Kern",
+        "link": "https://stackoverflow.com/users/4071171/renaud-kern"
+      }
+    },
+    {
+      "answer_id": 22678294,
+      "body": "<p>The implementation of <code>Redis#subscribe</code> is <a href=\"https://github.com/redis/redis-rb/blob/fd77358708920b3b7b76955eda22e8c89647aae5/lib/redis/subscribe.rb#L43\" rel=\"noreferrer\">a loop</a> that will assume control of the current thread in order to listen to events. This means the boot process is halted when dropping a subscription into the context of a Rails class in the way you've shown. </p>\n\n<p>You could try wrapping the call in a thread, but this approach would literally create a new subscription each time this class loaded in a new process, like a rails console or multiple unicorns. Plus, you'd have to be careful about shared state and other threading issues. This is probably not what you want.</p>\n\n<p>You're best off starting a different process that loads the rails environment and subscribes to redis separately from the process(es) serving web requests. It could be a rake task like the following:</p>\n\n<pre><code>namespace :subscribe do\n  task :redis =&gt; :environment do\n    $redis.subscribe(\"bravo\") do |on|\n      on.message do |channel, message|\n        Rails.logger.info(\"Broadcast on channel #{channel}: #{message}\")\n        OtherClass.some_method # yada yada\n      end\n    end\n  end\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "rossta",
+        "link": "https://stackoverflow.com/users/771838/rossta"
+      }
+    },
+    {
+      "answer_id": 37969744,
+      "body": "<p>I grabbed the worker logger on heroku</p>\n\n<pre><code>heroku logs -t -a eventbaxx-production | grep worker.1\n</code></pre>\n\n<p>so I could see sidekiq activity.</p>\n",
+      "owner": {
+        "display_name": "DonMB",
+        "link": "https://stackoverflow.com/users/2052543/donmb"
+      }
+    },
+    {
+      "answer_id": 36733839,
+      "body": "<p>You have to pass <code>perform_in</code> a time. <code>perform_async</code> gets pushed to the queue right away. Other than that they're the same. You'd call <code>perform_in(10.minutes)</code> </p>\n",
+      "owner": {
+        "display_name": "toddmetheny",
+        "link": "https://stackoverflow.com/users/1378252/toddmetheny"
+      }
+    },
+    {
+      "answer_id": 26303061,
+      "body": "<p>Not sure exactly what the problem was, but following this tutorial with some modifications worked out for me:\n<a href=\"http://manuelvanrijn.nl/blog/2012/11/13/sidekiq-on-heroku-with-redistogo-nano/\" rel=\"nofollow\">http://manuelvanrijn.nl/blog/2012/11/13/sidekiq-on-heroku-with-redistogo-nano/</a></p>\n\n<p>In short, I moved the configuration into a sidekiq.rb initializer, and deleted all of the url and namespace information.  </p>\n\n<pre><code>require 'sidekiq'\n\nSidekiq.configure_client do |config|\nconfig.redis = { :size =&gt; 1 }\nend\n\nSidekiq.configure_server do |config|\nconfig.redis = { :size =&gt; 4 }\nend\n</code></pre>\n\n<p>The tutorial link I referenced has a handy calculator to detemrine the correct size values.   Still not sure whether that's what was tripping me up or some version of the namespace conflict alluded to in Mark's answer.  </p>\n\n<p>Also, I didn't use the sidekiq.yml portion of the tutorial, because the sidekiq wiki says newer versions of rails don't like it.  Instead, I set concurrency to 2 in the bundle exec command of the Procfile, like this:</p>\n\n<pre><code>worker: bundle exec sidekiq -c 2  \n</code></pre>\n\n<p>Hope this is helpful to anyone who has a similar issue in the future!  Thanks to all who tried to help.  </p>\n",
+      "owner": {
+        "display_name": "Andy Weiss",
+        "link": "https://stackoverflow.com/users/4070791/andy-weiss"
+      }
+    },
+    {
+      "answer_id": 23975845,
+      "body": "<p>If you really do not understand the sense of the method name, that is a (Japanese-style) facemark. Whereas English facemarks are rotated 90 degrees counter-clockwise and are long in the vertical direction of the actual face, Japanese facemarks are to be read in the direction as is, and are long in the horizontal direction. The author of this is likely to be either a Japanese, or someone who is influenced by Japanese culture like anime.</p>\n\n<p>In this particular case, each character expresses a certain part. From left to right:</p>\n\n<ul>\n<li><code>❨</code>   The right edge of the face</li>\n<li><code>╯</code>   The right arm raised</li>\n<li><code>°</code>   The right eye</li>\n<li><code>□</code>   The mouth</li>\n<li><code>°</code>   The left eye</li>\n<li><code>❩</code>   The left edge of the face</li>\n<li><code>╯</code>   The left arm raised</li>\n<li><code>︵</code>   An imaginary curve expressing the trace of a thrown table</li>\n<li><code>┻━┻</code> A thrown upside-down table (most likely a <em>chabudai</em> that used to be seen typically in Japanese homes until some decades ago)</li>\n</ul>\n\n<p><a href=\"https://www.google.com/search?es_sm=93&amp;tbm=isch&amp;q=chabudai+gaeshi&amp;spell=1&amp;sa=X&amp;ei=lXuKU-22Esfh8AWf2ILoDA&amp;ved=0CFMQBSgA&amp;dpr=1&amp;biw=1319&amp;bih=662\">Chabudai gaeshi</a> used to happen often at some feudal Japanese homes until some decades ago. The father had the absolute monarchic right at home, and whenever he was frustrated over something, he would flip the chabudai during dinner to show his anger, and the family (especially the mother) had to prepare the dinner again.</p>\n\n<p><a href=\"https://i.sstatic.net/5EGmu.gif\"><img src=\"https://i.sstatic.net/5EGmu.gif\" alt=\"chabudai gaeshi\"></a></p>\n\n<p><a href=\"http://www.facemark.jp/f-chabudai.htm\">Here</a> are more variations.</p>\n",
+      "owner": {
+        "display_name": "sawa",
+        "link": "https://stackoverflow.com/users/314166/sawa"
+      }
+    },
+    {
+      "answer_id": 35714028,
+      "body": "<p>You raise a specific error and tell the error service to ignore errors of that type.  For NewRelic:</p>\n\n<p><a href=\"https://docs.newrelic.com/docs/agents/ruby-agent/installation-configuration/ruby-agent-configuration#error_collector.ignore_errors\" rel=\"noreferrer\">https://docs.newrelic.com/docs/agents/ruby-agent/installation-configuration/ruby-agent-configuration#error_collector.ignore_errors</a></p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 16334165,
+      "body": "<p>Looks like this is a duplicate of this question: <a href=\"https://stackoverflow.com/questions/14790727/how-to-detach-sidekiq-process-once-started-in-terminal/16263330#16263330\">how to detach sidekiq process once started in terminal</a></p>\n\n<p>You have to run the following command from your Rails root:</p>\n\n<pre><code>bundle exec sidekiq -d -L sidekiq.log -q mailers,5 -q default -e production\n</code></pre>\n\n<p>This will detach the process so you can quit the ssh session and the command will keep running in the background, logging the output to the sidekiq.log file. </p>\n\n<p>Take care to choose the appropriate position for the log file, and don't forget to setup a logrotate rule for it. </p>\n",
+      "owner": {
+        "display_name": "Fabrizio Regini",
+        "link": "https://stackoverflow.com/users/1297909/fabrizio-regini"
+      }
+    },
+    {
+      "answer_id": 35487400,
+      "body": "<p>There's no approved way to do this.  You cannot stop a thread safely while it is executing.  You need to change your job to check periodically if it should stop.</p>\n\n<p>You can set network timeouts on any 3rd party calls you are making so that they time out.</p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 23823459,
+      "body": "<p>The #6 line in your code is this</p>\n\n<pre><code>    logger.warn \"perform is invoked.\"\n</code></pre>\n\n<p>This code needs opened <strong>STDOUT</strong> stream and your error name is <strong>Errno::EIO</strong>.</p>\n\n<p>In linux EIO means, that there was made an attempt to read/write to stream which is currently unavailable. This could happen because of physical error or when orphaned process (whose parent has died) attempts to get stdio from parent process, or when stream is closed.</p>\n",
+      "owner": {
+        "display_name": "media-slave24",
+        "link": "https://stackoverflow.com/users/2450732/media-slave24"
+      }
+    },
+    {
+      "answer_id": 34730936,
+      "body": "<pre><code>Error connecting to Redis on 127.0.0.1:6379 (Errno::ECONNREFUSED)\n</code></pre>\n\n<p>Your app tries to connect on the localhost interface of the container it is running in, but redis is running in a different container.</p>\n\n<p>Modify your app config to use the link name of the redis container (<code>redis</code> in your case) as hostname for the connection.</p>\n",
+      "owner": {
+        "display_name": "Erik Dannenberg",
+        "link": "https://stackoverflow.com/users/5731095/erik-dannenberg"
+      }
+    },
+    {
+      "answer_id": 34526164,
+      "body": "<p>It's quite different things with different usage. <strong>Sidekiq</strong> is full-featured solution for job queueing and processing, while <strong>RabbitMQ</strong> is just a message broker where you can build your own stuff upon it.</p>\n",
+      "owner": {
+        "display_name": "Vlad",
+        "link": "https://stackoverflow.com/users/3012646/vlad"
+      }
+    },
+    {
+      "answer_id": 34519970,
+      "body": "<p>You can run a job with <code>perform_now</code>.</p>\n\n<p>For example...</p>\n\n<pre><code>class Foo &lt; ActiveJob::Base\n  def perform(arg1)\n    puts \"Hello #{arg1}\"\n  end\nend\n\nFoo.perform_now('world')\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rob Di Marco",
+        "link": "https://stackoverflow.com/users/24195/rob-di-marco"
+      }
+    },
+    {
+      "answer_id": 34208337,
+      "body": "<p>You need to configure Redis in both server and client blocks, as explained in the <a href=\"https://github.com/mperham/sidekiq/wiki/Using-Redis\">Using Redis wiki page</a>.</p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 32940093,
+      "body": "<p>Checkout the following extension gem to sidekiq: <a href=\"https://github.com/utgarda/sidekiq-status/blob/master/README.md\" rel=\"noreferrer\">https://github.com/utgarda/sidekiq-status/blob/master/README.md</a></p>\n\n<p>This is from the read me:</p>\n\n<pre><code>job_id = MyJob.perform_async(*args)\ndata = Sidekiq::Status::get_all job_id\ndata # =&gt; {status: 'complete', update_time: 1360006573, vino: 'veritas'}\nSidekiq::Status::get     job_id, :vino #=&gt; 'veritas'\nSidekiq::Status::at      job_id #=&gt; 5\nSidekiq::Status::total   job_id #=&gt; 100\nSidekiq::Status::message job_id #=&gt; \"Almost done\"\n</code></pre>\n",
+      "owner": {
+        "display_name": "Tom Fast",
+        "link": "https://stackoverflow.com/users/4339299/tom-fast"
+      }
+    },
+    {
+      "answer_id": 32875244,
+      "body": "<p>It's designed to be hard because you shouldn't do it.  You should not be testing Sidekiq functionality.  Test your own code, not features provided by other libraries/frameworks.</p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 30384916,
+      "body": "<p>Set <code>REDIS_PROVIDER</code> to the name of the env var with your Redis URL.</p>\n\n<p>Type this: <code>heroku config:set REDIS_PROVIDER=REDISTOGO_URL</code>.  Restart.</p>\n\n<p>Explained here: <a href=\"https://github.com/mperham/sidekiq/wiki/Using-Redis#using-an-env-variable\">https://github.com/mperham/sidekiq/wiki/Using-Redis#using-an-env-variable</a></p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 29926268,
+      "body": "<p>Short answer is they are the same thing.  ActiveJob calls it a Job whereas Sidekiq calls it a Worker.  I've decided to keep the terminology different so that people can distinguish the two.</p>\n\n<p>You can use either one.  Note that ActiveJob does not provide access to the full set of Sidekiq options so if you want to customize options for your job you might need to make it a Worker.</p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 28796333,
+      "body": "<p>You need to bootup sidekiq with the mailer queue for it to pick up these jobs:</p>\n\n<pre><code>bundle exec sidekiq -q default -q mailers\n</code></pre>\n\n<p>The Sidekiq Wiki goes over the scenarios in <a href=\"https://github.com/mperham/sidekiq/wiki/Active-Job#action-mailer\">detail here</a>.</p>\n",
+      "owner": {
+        "display_name": "Anthony",
+        "link": "https://stackoverflow.com/users/3109182/anthony"
+      }
+    },
+    {
+      "answer_id": 28283255,
+      "body": "<p>You use a separate global connection pool for your application code.  Put something like this in your redis.rb initializer:</p>\n\n<pre><code>require 'connection_pool'\nREDIS = ConnectionPool.new(size: 10) { Redis.new }\n</code></pre>\n\n<p>Now in your application code anywhere, you can do this:</p>\n\n<pre><code>REDIS.with do |conn|\n  # some redis operations\nend\n</code></pre>\n\n<p>You'll have up to 10 connections to share amongst your puma/sidekiq workers.  This will lead to better performance since, as you correctly note, you won't have all the threads fighting over a single Redis connection.</p>\n\n<p>All of this is documented here: <a href=\"https://github.com/mperham/sidekiq/wiki/Advanced-Options#connection-pooling\">https://github.com/mperham/sidekiq/wiki/Advanced-Options#connection-pooling</a></p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 26049215,
+      "body": "<p>Get rid of the logfile statement.</p>\n\n<pre><code>bundle exec sidekiq | tee ./log/sidekiq.log\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 26027530,
+      "body": "<p>If both apps are using the same Redis URL and same namespace, you can spin up one worker with that same Redis config and it will be shared by both.</p>\n\n<p>Note that your Sidekiq process will boot one app or the other.  The code for your Workers must be in that app.  The other app won't be able to reference the code but can push jobs using:</p>\n\n<pre><code>Sidekiq::Client.push('class' =&gt; 'SomeWorker', 'args' =&gt; [1,2,3])\n</code></pre>\n\n<p>Note that 'class' is a String so SomeWorker can actually be defined in the other app.</p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 26009922,
+      "body": "<p>This issue has been resolved by the following actions:</p>\n\n<p>1) Thanks to @MikePerham for pointing me to the right direction, first I removed this line in my <code>sidekiq.yml</code> file:</p>\n\n<pre><code>:pidfile: ./tmp/pids/sidekiq.pid\n</code></pre>\n\n<p>2) Then, in my <code>Procfile</code>, I had to use the following line to replace the origin:</p>\n\n<pre><code>web: bundle exec rails server -p $PORT\nworker: bundle exec sidekiq -C config/sidekiq.yml\n</code></pre>\n\n<p>Now sidekiq is working correctly with redistogo on heroku for me.</p>\n",
+      "owner": {
+        "display_name": "Stephens",
+        "link": "https://stackoverflow.com/users/3282885/stephens"
+      }
+    },
+    {
+      "answer_id": 25979761,
+      "body": "<p>Sidekiq passes unrecognized redis options directly to the Redis driver:</p>\n\n<pre><code>config.redis = { password: 'bar' }\n</code></pre>\n\n<p>And redis does not have the concept of users so there's only password.</p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 25977841,
+      "body": "<p>I set database pool to sidekiq concurrency and now it works for me.</p>\n\n<pre><code>bundle exec sidekiq -c 10\n</code></pre>\n\n<p>in my database.yml</p>\n\n<pre><code>development:\n  adapter: postgresql\n  ...\n  host: localhost\n  pool: 10\n</code></pre>\n",
+      "owner": {
+        "display_name": "madoxer",
+        "link": "https://stackoverflow.com/users/1823679/madoxer"
+      }
+    },
+    {
+      "answer_id": 25931020,
+      "body": "<pre class=\"lang-rb prettyprint-override\"><code>SidekiqWorker.new.perform\n</code></pre>\n\n<p>Voila!  </p>\n",
+      "owner": {
+        "display_name": "Sergey Alekseev",
+        "link": "https://stackoverflow.com/users/1085570/sergey-alekseev"
+      }
+    },
+    {
+      "answer_id": 14972111,
+      "body": "<p>For Sidekiq 2.17.1 and later, somewhere in the Rails initializers, call the following:</p>\n\n<pre><code>Sidekiq.hook_rails!\nSidekiq.remove_delay!\n</code></pre>\n\n<p>and you will have only prefixed <code>sidekiq_delay</code> methods and so on.</p>\n\n<p>(<a href=\"https://github.com/mperham/sidekiq/wiki/Delayed-Extensions#disabling-extensions\" rel=\"noreferrer\">official document</a>)</p>\n\n<hr>\n\n<p>For older versions of Sidekiq:</p>\n\n<p>Put the following in <code>config/initializers/sidekiq.rb</code></p>\n\n<pre><code>module Sidekiq::Extensions::Klass\n  alias :sidekiq_delay :delay\n  remove_method :delay\n  alias :sidekiq_delay_for :delay_for\n  remove_method :delay_for\n  alias :sidekiq_delay_until :delay_until\n  remove_method :delay_until\nend\n\nmodule Sidekiq::Extensions::ActiveRecord\n  alias :sidekiq_delay :delay\n  remove_method :delay\n  alias :sidekiq_delay_for :delay_for\n  remove_method :delay_for\n  alias :sidekiq_delay_until :delay_until\n  remove_method :delay_until\nend\n\nmodule Sidekiq::Extensions::ActionMailer\n  alias :sidekiq_delay :delay\n  remove_method :delay\n  alias :sidekiq_delay_for :delay_for\n  remove_method :delay_for\n  alias :sidekiq_delay_until :delay_until\n  remove_method :delay_until\nend\n</code></pre>\n\n<p>And then you can use <code>sidekiq_delay</code> to queue in Sidekiq, and call <code>delay</code> to queue in Delayed Job.</p>\n",
+      "owner": {
+        "display_name": "lulalala",
+        "link": "https://stackoverflow.com/users/474597/lulalala"
+      }
+    },
+    {
+      "answer_id": 25904327,
+      "body": "<p>You can define job dependencies using <a href=\"https://github.com/socialpandas/sidekiq-superworker\" rel=\"noreferrer\">Sidekiq Superworker</a>:</p>\n\n<pre><code># config/initializers/superworkers.rb\nSuperworker.create(:MySuperworker, :user_id) do\n  Worker1 :user_id\n  Worker2 :user_id\nend\n\n# Anywhere\nMySuperworker.perform_async(123)\n</code></pre>\n\n<p>When you run MySuperworker, Worker1 will start. When it finishes, Worker2 will start. This lets you separate the dependency graph from the workers themselves. (Disclaimer: I'm the gem's author.)</p>\n",
+      "owner": {
+        "display_name": "Tom",
+        "link": "https://stackoverflow.com/users/168544/tom"
+      }
+    },
+    {
+      "answer_id": 24887107,
+      "body": "<p>According to this issue on Github: <a href=\"https://github.com/mperham/sidekiq/issues/1732\">https://github.com/mperham/sidekiq/issues/1732</a> you now need to </p>\n\n<pre><code>require 'sidekiq/api'\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jay",
+        "link": "https://stackoverflow.com/users/568076/jay"
+      }
+    },
+    {
+      "answer_id": 24834261,
+      "body": "<p>Yes, it's perfectly normal to reschedule a job from itself.</p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 24558734,
+      "body": "<ol>\n<li>Go to Run/Debug Configurations</li>\n<li>Add a new Gem Command</li>\n<li>Enter 'sidekiq' as the Gem name and Executable name</li>\n<li>Check 'Run the script in the contexst of bundle (bundle exec) under the 'Bundler' tab</li>\n<li>Click 'Apply' and then run it.</li>\n</ol>\n\n<p><img src=\"https://i.sstatic.net/N2RJQ.png\" alt=\"enter image description here\"></p>\n",
+      "owner": {
+        "display_name": "coderberry",
+        "link": "https://stackoverflow.com/users/234318/coderberry"
+      }
+    },
+    {
+      "answer_id": 24012377,
+      "body": "<p>Your problem lies here:</p>\n\n<pre><code>  cd /home/project/current &amp;&amp; bundle exec sidekiq -c 10 -e production -L log/sidekiq.log &amp;\n</code></pre>\n\n<p>When you add <code>&amp;</code> at the end command is being executed in a separate process, but this process is still a child of a current process and is terminated when current process stops. Instead you need to run sidekiq as a deamon.</p>\n\n<pre><code>bundle exec sidekiq -c 10 -e production -L log/sidekiq.log -d\n</code></pre>\n\n<p>Note the extra <code>-d</code> option</p>\n",
+      "owner": {
+        "display_name": "BroiSatse",
+        "link": "https://stackoverflow.com/users/2336231/broisatse"
+      }
+    },
+    {
+      "answer_id": 23284148,
+      "body": "<p>The client is anything that pushes jobs to Redis, typically your passenger, puma or unicorn process running Rails or Sinatra.  The server is the Sidekiq process which pulls jobs from Redis.  One complexity: a Sidekiq server process can push new jobs to Redis thus acting like a client too!</p>\n\n<p><code>config/sidekiq.yml</code> is meant to allow the same config as command line args.  The initializer is meant for more complicated config which requires Ruby, for instance the Redis connection info or custom middleware.</p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 23122413,
+      "body": "<p>The issue is with the ENV variable:</p>\n\n<p>Per sidekiq's documentation:</p>\n\n<blockquote>\n  <p>RedisToGo can be used with the default REDISTOGO_URL env var in\n  Sidekiq 2.x and earlier (REDISTOGO_URL is supported for legacy\n  reasons, the REDIS_PROVIDER and REDIS_URL vars are recommended).</p>\n</blockquote>\n\n<p>You must use the <code>REDIS_PROVIDER</code> or <code>REDIS_URL</code> ENV varibles instead of the <code>REDISTOGO_URL</code> for sidekiq 3 and up. You do not need a sidekiq initializer, and this code will do the trick:</p>\n\n<p>Run the following from your terminal</p>\n\n<p><code>heroku config:set REDIS_PROVIDER=redis://...........</code></p>\n",
+      "owner": {
+        "display_name": "Luigi",
+        "link": "https://stackoverflow.com/users/2665588/luigi"
+      }
+    },
+    {
+      "answer_id": 23165566,
+      "body": "<p>Remove everything from the if and below and run this:</p>\n\n<pre><code>heroku config:set REDIS_PROVIDER=REDISTOGO_URL\n</code></pre>\n\n<p>Sidekiq will automatically use it.</p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 23138871,
+      "body": "<p>The answer is <code>MessageWorker.perform_at(@message.date_time, @message.id)</code></p>\n",
+      "owner": {
+        "display_name": "maudulus",
+        "link": "https://stackoverflow.com/users/3216297/maudulus"
+      }
+    },
+    {
+      "answer_id": 22959225,
+      "body": "<p>The last number is the database number</p>\n",
+      "owner": {
+        "display_name": "Sefa",
+        "link": "https://stackoverflow.com/users/624636/sefa"
+      }
+    },
+    {
+      "answer_id": 22450955,
+      "body": "<p>It turned out, that it's a carrierwave's fault (well, actually, osx fault). Thread with explanation: <a href=\"https://github.com/carrierwaveuploader/carrierwave/issues/1330\" rel=\"noreferrer\">https://github.com/carrierwaveuploader/carrierwave/issues/1330</a></p>\n\n<h3>Solution:</h3>\n\n<pre><code>gem 'rmagick', :require =&gt; 'RMagick'\n</code></pre>\n",
+      "owner": {
+        "display_name": "mbajur",
+        "link": "https://stackoverflow.com/users/552936/mbajur"
+      }
+    },
+    {
+      "answer_id": 22404491,
+      "body": "<p>In Unicorn each process establishes its own connection pool, so you if your db pool setting is 5 and you have 5 Unicorn workers then you can have up to 25 connections. However, since each unicorn worker can handle only one connection at a time, then unless your app uses threading internally each worker will only <em>actually use</em> one db connection.</p>\n\n<p>In Sidekiq, the connections in the pool are shared across threads, so you need to have at least one connection available per worker. If you have a concurrency of 5, then your pool needs to be at least 5.</p>\n\n<p>Having a pool size greater than 1 means each Unicorn worker has access to connections it can't use, but it won't actually open the connections, so that doesn't matter.</p>\n\n<p>The total number of actual connections your app requires, unless you're using threads in your application code (and they don't share a db connection), is one per Sidekiq worker plus one per Unicorn worker.</p>\n",
+      "owner": {
+        "display_name": "Louis Simoneau",
+        "link": "https://stackoverflow.com/users/598211/louis-simoneau"
+      }
+    },
+    {
+      "answer_id": 21612130,
+      "body": "<p>My suggestion is to search for prior scheduled jobs based on some select criteria and delete, before scheduling a new one. This has been useful for me when i want a single scheduled job for a particular Object, and/or one of its methods.</p>\n\n<p>Some example methods in this context:</p>\n\n<pre><code> find_jobs_for_object_by_method(klass, method)\n\n  jobs = Sidekiq::ScheduledSet.new\n\n  jobs.select { |job|\n    job.klass == 'Sidekiq::Extensions::DelayedClass' &amp;&amp;\n        ((job_klass, job_method, args) = YAML.load(job.args[0])) &amp;&amp;\n        job_klass == klass &amp;&amp;\n        job_method == method\n  }\n\nend\n\n##\n# delete job(s) specific to a particular class,method,particular record\n# will only remove djs on an object for that method\n#\ndef self.delete_jobs_for_object_by_method(klass, method, id)\n\n  jobs = Sidekiq::ScheduledSet.new\n  jobs.select do |job|\n    job.klass == 'Sidekiq::Extensions::DelayedClass' &amp;&amp;\n        ((job_klass, job_method, args) = YAML.load(job.args[0])) &amp;&amp;\n        job_klass == klass &amp;&amp;\n        job_method == method  &amp;&amp;\n        args[0] == id\n  end.map(&amp;:delete)\n\nend\n\n##\n# delete job(s) specific to a particular class and particular record\n# will remove any djs on that Object\n#\ndef self.delete_jobs_for_object(klass, id)\n\n  jobs = Sidekiq::ScheduledSet.new\n  jobs.select do |job|\n    job.klass == 'Sidekiq::Extensions::DelayedClass' &amp;&amp;\n        ((job_klass, job_method, args) = YAML.load(job.args[0])) &amp;&amp;\n        job_klass == klass &amp;&amp;\n        args[0] == id\n  end.map(&amp;:delete)\n\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "blotto",
+        "link": "https://stackoverflow.com/users/451488/blotto"
+      }
+    },
+    {
+      "answer_id": 21101810,
+      "body": "<p>According to this <a href=\"https://github.com/mperham/sidekiq/wiki/API\">Sidekiq documentation page</a> to delete a job with a single id you need to iterate the queue and call <code>.delete</code> on it.</p>\n\n<pre><code>queue = Sidekiq::Queue.new(\"mailer\")\nqueue.each do |job|\n  job.klass # =&gt; 'MyWorker'\n  job.args # =&gt; [1, 2, 3]\n  job.delete if job.jid == 'abcdef1234567890'\nend\n</code></pre>\n\n<p>There is also a plugin called <a href=\"https://github.com/utgarda/sidekiq-status\">sidekiq-status</a> that provides you the ability to cancel a single job</p>\n\n<pre><code>scheduled_job_id = MyJob.perform_in 3600\nSidekiq::Status.cancel scheduled_job_id #=&gt; true\n</code></pre>\n",
+      "owner": {
+        "display_name": "Simone Carletti",
+        "link": "https://stackoverflow.com/users/123527/simone-carletti"
+      }
+    },
+    {
+      "answer_id": 20823354,
+      "body": "<p>First thing to check would be <code>mongod</code> connection limit and OS limits on the DB side, since they were fine it seemed likely that connection pool size may have been the limiting factor.</p>\n\n<p>It turns out that <a href=\"https://github.com/mongoid/moped/blob/307cb8f3b3c595b8d6b9cbb704ea93772b085eca/lib/moped/connection/manager.rb#L17\">mongoid connection pool size default was 5</a> which is quite low for your large number of workers.  Raising those <a href=\"https://github.com/mongoid/moped/issues/223#issuecomment-26142703\">as shown in an example here</a> will allow more workers to get a connection simultaneously.</p>\n",
+      "owner": {
+        "display_name": "Asya Kamsky",
+        "link": "https://stackoverflow.com/users/431012/asya-kamsky"
+      }
+    },
+    {
+      "answer_id": 20788415,
+      "body": "<p>According to: <a href=\"https://github.com/mperham/sidekiq/wiki/Error-Handling\" rel=\"noreferrer\">https://github.com/mperham/sidekiq/wiki/Error-Handling</a> you can do this:</p>\n\n<pre><code>class Worker\n  include Sidekiq::Worker\n\n  sidekiq_retry_in do |count|\n    5\n  end\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "Bart",
+        "link": "https://stackoverflow.com/users/1240813/bart"
+      }
+    },
+    {
+      "answer_id": 20424368,
+      "body": "<p><strong>Mike Perham</strong> who wrote Sidekiq addressed this here: <a href=\"http://www.mikeperham.com/2009/05/25/memory-hungry-ruby-daemons/\" rel=\"noreferrer\">http://www.mikeperham.com/2009/05/25/memory-hungry-ruby-daemons/</a></p>\n\n<p><strong>tl;dr version:</strong> MRI will not give the memory back, the most you can do is control the heap, and to do that, <a href=\"http://www.rubyenterpriseedition.com/\" rel=\"noreferrer\">Ruby Enterprise Edition</a> was suggested. </p>\n\n<p>Don't know that any of this helps, but that is the situation - straight from the horse's mouth.</p>\n",
+      "owner": {
+        "display_name": "digitalextremist",
+        "link": "https://stackoverflow.com/users/1169705/digitalextremist"
+      }
+    },
+    {
+      "answer_id": 19886023,
+      "body": "<p>So one thing is that <a href=\"https://github.com/mperham/sidekiq/wiki/FAQ#how-do-i-push-a-job-to-sidekiq-without-ruby\">According to the FAQ</a>, \"The Sidekiq message format is quite simple and <strong>stable</strong>: it's just a Hash in JSON format.\" Emphasis mine-- I don't think sending JSON to sidekiq is too brittle to do. Especially when you want fine-grained control around which Redis instance you send the jobs to, as in the OP's situation, I'd probably just write a little wrapper that would let me indicate a Redis instance along with the job being enqueued.</p>\n\n<p>For Kevin Bedell's more general situation to round-robin jobs into Redis instances, I'd imagine you <em>don't</em> want to have the control of which Redis instance is used-- you just want to enqueue and have the distribution be managed automatically. It looks like <a href=\"https://github.com/mperham/sidekiq/issues/660\">only one person has requested this so far</a>, and <a href=\"https://gist.github.com/xxx/4659986\">they came up with a solution</a> that uses <a href=\"https://github.com/redis/redis-rb/blob/e1881b2fbc7b361aa0aefc9ea520bdee0383f735/lib/redis/distributed.rb\"><code>Redis::Distributed</code></a>:</p>\n\n<pre><code>datastore_config = YAML.load(ERB.new(File.read(File.join(Rails.root, \"config\", \"redis.yml\"))).result)\n\ndatastore_config = datastore_config[\"defaults\"].merge(datastore_config[::Rails.env])\n\nif datastore_config[:host].is_a?(Array)\n  if datastore_config[:host].length == 1\n    datastore_config[:host] = datastore_config[:host].first\n  else\n    datastore_config = datastore_config[:host].map do |host|\n      host_has_port = host =~ /:\\d+\\z/\n\n      if host_has_port\n        \"redis://#{host}/#{datastore_config[:db] || 0}\"\n      else\n        \"redis://#{host}:#{datastore_config[:port] || 6379}/#{datastore_config[:db] || 0}\"\n      end\n    end\n  end\nend\n\nSidekiq.configure_server do |config|\n  config.redis = ::ConnectionPool.new(:size =&gt; Sidekiq.options[:concurrency] + 2, :timeout =&gt; 2) do\n    redis = if datastore_config.is_a? Array\n      Redis::Distributed.new(datastore_config)\n    else\n      Redis.new(datastore_config)\n    end\n\n    Redis::Namespace.new('resque', :redis =&gt; redis)\n  end\nend\n</code></pre>\n\n<p>Another thing to consider in your quest to get high-availability and fail-over is to get <a href=\"http://sidekiq.org/pro/\">Sidekiq Pro</a> which includes reliability features: \"The Sidekiq Pro client can withstand transient Redis outages. It will enqueue jobs locally upon error and attempt to deliver those jobs once connectivity is restored.\" Since sidekiq is for background processes anyway, a short delay if a Redis instance goes down should not affect your application. If one of your two Redis instances goes down and you're using round robin, you've still lost some jobs unless you're using this feature.</p>\n",
+      "owner": {
+        "display_name": "carols10cents",
+        "link": "https://stackoverflow.com/users/51683/carols10cents"
+      }
+    },
+    {
+      "answer_id": 19255259,
+      "body": "<p>There are two questions here.</p>\n\n<p>If you want to execute a job immediately, in the current context you can use:</p>\n\n<pre><code>SyncUser.new.perform(user.id)\n</code></pre>\n\n<p>If you want to decrease the delay between asynchronous work being scheduled and when it's executed in the sidekiq worker, you can decrease the <code>poll_interval</code> setting:</p>\n\n<pre><code>Sidekiq.configure_server do |config|\n  config.poll_interval = 2\nend\n</code></pre>\n\n<p>The <code>poll_interval</code> is the delay within worker backends of how frequently workers check for jobs on the queue.  The average time between a job being scheduled and executed with a free worker will be <code>poll_interval / 2</code>.</p>\n",
+      "owner": {
+        "display_name": "Winfield",
+        "link": "https://stackoverflow.com/users/193313/winfield"
+      }
+    },
+    {
+      "answer_id": 18514566,
+      "body": "<p>You can access the job id using the jid accessor method and the thread id using the Thread.current method. Like this:  </p>\n\n<pre><code>logger.info \"JID #{jid} - TID #{Thread.current.object_id.to_s(36)}\"\n</code></pre>\n",
+      "owner": {
+        "display_name": "mirza",
+        "link": "https://stackoverflow.com/users/91178/mirza"
+      }
+    },
+    {
+      "answer_id": 18265712,
+      "body": "<p><strong>Edit to clarify</strong></p>\n\n<p>Before everything else, you should understand that when you run <code>perform_async</code>, it simply sticks the Jobs into a Redis queue. Sidekiq watches this queue and runs jobs when they come in. So as long as your app and your Sidekiq are looking at the same Redis server (and same database, of course), things will work.</p>\n\n<p><strong>Original answer</strong></p>\n\n<p>First, as you can probably guess, it will need a duplicate checkout of your code so that it can run. No big deal.</p>\n\n<p>Secondly, it will need access to your database and redis servers on the other box. That means making sure those ports are open on the other server. That can get tricky, b/c you ideally don't want those exposed to the open Internet. Usually, for a multi-box setup, you'll have only one box exposed to the open Internet. It communicates with the rest of your boxes over private IPs:</p>\n\n<p><strong>Public Web server</strong></p>\n\n<p>Runs Apache/Nginx and maybe your app servers.</p>\n\n<p><strong>Private App Server(s) (optional)</strong></p>\n\n<p>Runs your app servers, if they aren't running on the Public server. Connects to your Database and Redis server.</p>\n\n<p><strong>Private Sidekiq Server(s) (optional)</strong></p>\n\n<p>Runs Sidekiq. Connects to your Database and Redis server.</p>\n\n<p><strong>Private Database/Redis Server</strong></p>\n\n<p>Runs database and Redis. Of course they can split out to different servers if required.</p>\n",
+      "owner": {
+        "display_name": "bioneuralnet",
+        "link": "https://stackoverflow.com/users/468459/bioneuralnet"
+      }
+    },
+    {
+      "answer_id": 16690884,
+      "body": "<p>This is my entries at the end in /config/environment/production.rb and that is working for me.</p>\n\n<hr>\n\n<h2>Comment out sendmail options and use external SMTP relays</h2>\n\n<pre><code>  ##config.action_mailer.delivery_method = :sendmail ## Comment out this\n  # Defaults to:\n  ## config.action_mailer.sendmail_settings = {\n  ##   :location =&gt; '/usr/sbin/sendmail',\n  ##   :arguments =&gt; '-i -t'\n  ## }\n\n  config.action_mailer.perform_deliveries = true\n  config.action_mailer.raise_delivery_errors = true\n\n  ## SMTP Settings\n  config.action_mailer.delivery_method = :smtp\n  config.action_mailer.smtp_settings = {\n      :address =&gt; '10.146.10.90', ## My SMTP Relay/Gateway\n      :port =&gt; 25, ## SMTP Port\n      :domain =&gt; 'gitlab.example.com', ## My Domain\n      :authentication =&gt; :plain, ## Let it be plain as it is inside my LAN\n      ##:user_name =&gt; 'gitlab@yourserver.com', ## This is not required as long as \n      ##:password =&gt; 'yourPassword', ## SMTP Gateway allows anonymous relay\n      ##:enable_starttls_auto =&gt; true ## In LAN\n      ##:user_name =&gt; '',\n      ##:password =&gt; '',\n      :enable_starttls_auto =&gt; true\n  }\nend\n</code></pre>\n\n<hr>\n",
+      "owner": {
+        "display_name": "Girish KG",
+        "link": "https://stackoverflow.com/users/2028980/girish-kg"
+      }
+    },
+    {
+      "answer_id": 18131117,
+      "body": "<p>Both Sidekiq and Rails use <code>Logger</code> compliant classes from the Ruby StdLib.</p>\n\n<p>You should be able to re-configure the Rails logger to use the Sidekiq logger in the Sidekiq server config block.  Find/create a file like <code>config/inititializers/sidekiq.rb</code>:</p>\n\n<pre><code>Sidekiq.configure_server do |config|\n  Rails.logger = Sidekiq::Logging.logger\n\n  # Sidekiq other server config\n  ...\nend\n</code></pre>\n\n<p>The block passed to the Sidekiq.configure_server call is only executed within the Server component of the Sidekiq backend, not within the client running in your Rails app server or console.</p>\n",
+      "owner": {
+        "display_name": "Winfield",
+        "link": "https://stackoverflow.com/users/193313/winfield"
+      }
+    },
+    {
+      "answer_id": 17745694,
+      "body": "<p>I found it, you have to run sidekiq like this:</p>\n\n<pre><code>RAILS_ENV=production bundle exec sidekiq -D\n</code></pre>\n\n<p>to run in production. It's the same issue as the assets precompile.</p>\n",
+      "owner": {
+        "display_name": "JohnDel",
+        "link": "https://stackoverflow.com/users/370927/johndel"
+      }
+    },
+    {
+      "answer_id": 17220726,
+      "body": "<p>Please check if sidekiq process is actually running:</p>\n\n<pre><code>ps aux | grep sidekiq\n</code></pre>\n\n<p>If it is not, try to run sidekiq in foreground first and check the output.</p>\n\n<pre><code>bundle exec sidekiq -e production\n</code></pre>\n",
+      "owner": {
+        "display_name": "cthulhu",
+        "link": "https://stackoverflow.com/users/986744/cthulhu"
+      }
+    },
+    {
+      "answer_id": 16836794,
+      "body": "<p>The reason was in our case: Sidekiq may look for the wrong queue. By default Sidekiq uses a queue named \"default\". We used two different queue names, and defined them in config/sidekiq.yml</p>\n\n<pre><code># configuration file for Sidekiq\n:queues:\n  - queue_name_1\n  - queue_name_2\n</code></pre>\n\n<p>The problem is that this config file <strong>is not automatically loaded</strong> by default in your development environment (unlike <code>database.yml</code> or <code>thinking_sphinx.yml</code> for instance)  by a simple <code>bundle exec sidekiq</code> command. Thus we wrote our jobs in two certain queues, and Sidekiq was waiting for jobs in a third queue (the default one). You have to pass the path to the config file as a parameter through the <code>-C</code>or <code>--config</code> option:</p>\n\n<pre><code>bundle exec sidekiq -C ./config/sidekiq.yml\n</code></pre>\n\n<p>or you can pass the queue names directly (no spaces allowed here after the comma):</p>\n\n<pre><code>bundle exec sidekiq -q queue_name_1,queue_name_2\n</code></pre>\n\n<p>To find the problem out it is helpful to pass the option <code>-v</code> or <code>--verbose</code> at the command line, too, or to use <code>:verbose: true</code> in the <code>sidekiq.yml</code> file. Everything which is defined in a config file is of course useless if the config file is not loaded.. Therefore make sure you are using the right config file first.</p>\n",
+      "owner": {
+        "display_name": "0x4a6f4672",
+        "link": "https://stackoverflow.com/users/771581/0x4a6f4672"
+      }
+    },
+    {
+      "answer_id": 16567064,
+      "body": "<p>Did you try to set the limit in a sidekiq.rb initializer file?</p>\n\n<p>Like this: </p>\n\n<pre><code>Sidekiq::Queue['recommend'].limit = 1\n</code></pre>\n\n<p>It worked for me.</p>\n",
+      "owner": {
+        "display_name": "Jirico",
+        "link": "https://stackoverflow.com/users/1034681/jirico"
+      }
+    },
+    {
+      "answer_id": 16285445,
+      "body": "<p>To reset processed jobs:</p>\n\n<pre><code>Sidekiq.redis {|c| c.del('stat:processed') }\n</code></pre>\n\n<p>and to reset failed jobs:</p>\n\n<pre><code>Sidekiq.redis {|c| c.del('stat:failed') }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Roberto Barros",
+        "link": "https://stackoverflow.com/users/8581/roberto-barros"
+      }
+    },
+    {
+      "answer_id": 16263330,
+      "body": "<p>The right answer is lower case <strong>-d</strong>: </p>\n\n<pre><code>bundle exec sidekiq -d -q mailer,5 -q default -e production\n</code></pre>\n\n<p><code>sidekiq --help</code> will list the options: </p>\n\n<pre><code>-d, --daemon                     Daemonize process\n</code></pre>\n\n<p>When running -d option, sidekiq will ask for a log file, so the complete command is: </p>\n\n<pre><code>bundle exec sidekiq -d -L sidekiq.log -q mailer,5 -q default -e production\n</code></pre>\n",
+      "owner": {
+        "display_name": "Fabrizio Regini",
+        "link": "https://stackoverflow.com/users/1297909/fabrizio-regini"
+      }
+    },
+    {
+      "answer_id": 16263274,
+      "body": "<p><code>perform</code> method is the entry point of your Worker. Inside of it you can create as many instance methods as you want, to organize your code as it best fits your need. It's a good practice though to keep worker code as slim as possible. Calling other objects from inside of it for example is a way to achieve that. You'll find your code will be easier to test too. </p>\n",
+      "owner": {
+        "display_name": "Fabrizio Regini",
+        "link": "https://stackoverflow.com/users/1297909/fabrizio-regini"
+      }
+    },
+    {
+      "answer_id": 16032646,
+      "body": "<p>I dont think editing/updating jobs is the way. I usually create new job each time something changes. And then in the job itself check if the time to execute certain task is right... If the time is right, continue with the task otherwise just skip...</p>\n",
+      "owner": {
+        "display_name": "Oto Brglez",
+        "link": "https://stackoverflow.com/users/226622/oto-brglez"
+      }
+    },
+    {
+      "answer_id": 15848274,
+      "body": "<p>You can use Redis info provided by Sidekiq:</p>\n\n<pre><code>redis_info = Sidekiq.redis { |conn| conn.info }\nredis_info['connected_clients'] # =&gt; \"16\"\n</code></pre>\n\n<p>Took it from <a href=\"https://github.com/mperham/sidekiq/blob/master/lib/sidekiq/web.rb\" rel=\"noreferrer\">Sidekiq's Sinatra status app</a>.</p>\n",
+      "owner": {
+        "display_name": "iltempo",
+        "link": "https://stackoverflow.com/users/428260/iltempo"
+      }
+    },
+    {
+      "answer_id": 15683472,
+      "body": "<p>I didn't find the cause for the memory leak in sidekiq, but I found a away to get a way from sidekiq.</p>\n\n<p>I have modified git-tf to have server command that accepts command from redis queue, it removes lot of complexity from my code.</p>\n\n<p>The modified version of git-tf is here:\n<a href=\"https://github.com/yosy/gittf\" rel=\"nofollow\">https://github.com/yosy/gittf</a></p>\n\n<p>I will add documentation later about the sever command when I will fix some bugs.</p>\n",
+      "owner": {
+        "display_name": "Yosi",
+        "link": "https://stackoverflow.com/users/385882/yosi"
+      }
+    },
+    {
+      "answer_id": 14714321,
+      "body": "<p>My initial suggestion would be a mutex for this specific job.  But as there's a chance that you may have multiple application servers working the sidekiq jobs, I would suggest something at the redis level.</p>\n\n<p>For instance, use <a href=\"https://github.com/dv/redis-semaphore\" rel=\"noreferrer\" title=\"redis-semaphore\">redis-semaphore</a> within your sidekiq worker definition.  <em>An untested example</em>:</p>\n\n<pre class=\"lang-rb prettyprint-override\"><code>def perform\n  s = Redis::Semaphore.new(:map_reduce_semaphore, connection: \"localhost\")\n\n  # verify that this sidekiq worker is the first to reach this semaphore.\n  unless s.locked?\n\n    # auto-unlocks in 90 seconds. set to what is reasonable for your worker.\n    s.lock(90)\n    your_map_reduce()\n    s.unlock\n  end\nend\n\ndef your_map_reduce\n  # ...\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "crftr",
+        "link": "https://stackoverflow.com/users/18213/crftr"
+      }
+    },
+    {
+      "answer_id": 15520986,
+      "body": "<p>there's an option to Daemonize sidekiq, just pass <code>-d</code> option</p>\n\n<p><a href=\"https://github.com/mperham/sidekiq/commit/7f9d4a39603d2c2cb618104e89e8aab523a48ad9\">commit</a></p>\n",
+      "owner": {
+        "display_name": "Said Kaldybaev",
+        "link": "https://stackoverflow.com/users/952129/said-kaldybaev"
+      }
+    },
+    {
+      "answer_id": 14869336,
+      "body": "<p>adding this to my <code>gemfile</code> fixed the issue:</p>\n\n<pre><code>gem 'multi_json', '1.5.1'\n</code></pre>\n\n<p>i guess something is wrong with the latest version (1.6.0)</p>\n\n<p><strong>EDIT:</strong> the gem has been updated to new version (1.6.1) that fixed this issue. more here:\n<a href=\"https://github.com/intridea/multi_json/issues/89\" rel=\"nofollow\">https://github.com/intridea/multi_json/issues/89</a></p>\n",
+      "owner": {
+        "display_name": "Sagiv Ofek",
+        "link": "https://stackoverflow.com/users/543601/sagiv-ofek"
+      }
+    },
+    {
+      "answer_id": 14837965,
+      "body": "<p>In your initializers/sidekiq.rb file, you specify the Redis queue all environments boot up with.\nFor mine it is:</p>\n\n<pre><code>redisServer = \"localhost\"\nSidekiq.configure_server do |config|\n  config.redis = { :url =&gt; 'redis://' + redisServer + ':6379/0' }\nend\n</code></pre>\n\n<p>If you want each environment to process from separate queues, you can have specific sidekiq.rb files in the environments folder for each environment. Each with different redis servers.</p>\n",
+      "owner": {
+        "display_name": "Henley Wing Chiu",
+        "link": "https://stackoverflow.com/users/661624/henley-wing-chiu"
+      }
+    },
+    {
+      "answer_id": 13948786,
+      "body": "<p>No you do not need any config with Heroku for Sidekiq, just add the <strong>RedisToGo</strong> plugin and you're on.\nDo not forget to attribute at least 1 <em>worker</em> to your app in your Heroku config.</p>\n\n<p>Here is my default Procfile:</p>\n\n<pre><code>web: bundle exec thin start -p $PORT\nworker: bundle exec sidekiq -c 5 -v\n</code></pre>\n",
+      "owner": {
+        "display_name": "gdurelle",
+        "link": "https://stackoverflow.com/users/816534/gdurelle"
+      }
+    },
+    {
+      "answer_id": 13489946,
+      "body": "<p>The answer is rather simple. You just need to tell sidekiq to use the <code>mailer</code> queue, by starting sidekiq with <code>bundle exec sidekiq -q mailer</code>. That way the mailer queue will be processed, without the option sidekiq will simply rely on the <code>default</code> queue.</p>\n",
+      "owner": {
+        "display_name": "Julius",
+        "link": "https://stackoverflow.com/users/1835442/julius"
+      }
+    },
+    {
+      "answer_id": 13215521,
+      "body": "<p>Yes, sidekiq can absolutely run many processes against the same queue. Redis will just give the message to a random process. </p>\n",
+      "owner": {
+        "display_name": "Mike Perham",
+        "link": "https://stackoverflow.com/users/1494519/mike-perham"
+      }
+    },
+    {
+      "answer_id": 12794838,
+      "body": "<p>For apps like yours which require a number of services to be running consider using <a href=\"https://github.com/ddollar/foreman\">foreman</a> and a <code>Procfile</code> to define those processes. Then you can use <code>foreman start</code> to run all of them in a single terminal.</p>\n",
+      "owner": {
+        "display_name": "Jonah",
+        "link": "https://stackoverflow.com/users/552822/jonah"
+      }
+    },
+    {
+      "answer_id": 12684970,
+      "body": "<p>I haven't ever used Sidekiq, so it's possible that there are methods just for viewing the queued jobs, but they would really just be wrappers around Redis commands, since that's basically all Sidekiq (and Resque) is:</p>\n\n<pre><code># See workers\nSidekiq::Client.registered_workers\n\n# See queues\nSidekiq::Client.registered_queues\n\n# See all jobs for one queue\nSidekiq.redis { |r| r.lrange \"queue:app_queue\", 0, -1 }\n\n# See all jobs in all queues\nSidekiq::Client.registered_queues.each do |q|\n  Sidekiq.redis { |r| r.lrange \"queue:#{q}\", 0, -1 }\nend\n\n# Remove a queue and all of its jobs\nSidekiq.redis do |r| \n  r.srem \"queues\", \"app_queue\"\n  r.del  \"queue:app_queue\"\nend\n</code></pre>\n\n<p>Unfortunately, removing a specific job is a little more difficult as you'd have to copy its exact value:</p>\n\n<pre><code># Remove a specific job from a queue\nSidekiq.redis { |r| r.lrem \"queue:app_queue\", -1, \"the payload string stored in Redis\" }\n</code></pre>\n\n<p>You could do all of this even more easily via <code>redis-cli</code> :</p>\n\n<pre><code>$ redis-cli\n&gt; select 0 # (or whichever namespace Sidekiq is using)\n&gt; keys * # (just to get an idea of what you're working with)\n&gt; smembers queues\n&gt; lrange queues:app_queue 0 -1\n&gt; lrem queues:app_queue -1 \"payload\"\n</code></pre>\n",
+      "owner": {
+        "display_name": "bricker",
+        "link": "https://stackoverflow.com/users/885036/bricker"
+      }
+    }
+  ]
+}

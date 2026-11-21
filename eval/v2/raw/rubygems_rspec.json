@@ -1,0 +1,1908 @@
+{
+  "library": "rubygems:rspec",
+  "fetched_at": "2026-11-21T17:28:26Z",
+  "questions": [
+    {
+      "question_id": 5359558,
+      "title": "When to use RSpec let()?",
+      "accepted_answer_id": 5359979,
+      "score": 480,
+      "link": "https://stackoverflow.com/questions/5359558/when-to-use-rspec-let",
+      "owner": {
+        "display_name": "sent-hil",
+        "link": "https://stackoverflow.com/users/236655/sent-hil"
+      }
+    },
+    {
+      "question_id": 6116668,
+      "title": "How to run a single RSpec test?",
+      "accepted_answer_id": 54616209,
+      "score": 388,
+      "link": "https://stackoverflow.com/questions/6116668/how-to-run-a-single-rspec-test",
+      "owner": {
+        "display_name": "AnApprentice",
+        "link": "https://stackoverflow.com/users/149080/anapprentice"
+      }
+    },
+    {
+      "question_id": 143925,
+      "title": "How do you run a single test/spec file in RSpec?",
+      "accepted_answer_id": 144063,
+      "score": 327,
+      "link": "https://stackoverflow.com/questions/143925/how-do-you-run-a-single-test-spec-file-in-rspec",
+      "owner": {
+        "display_name": "Jonathan Tran",
+        "link": "https://stackoverflow.com/users/12887/jonathan-tran"
+      }
+    },
+    {
+      "question_id": 2978922,
+      "title": "Rspec: &quot;array.should == another_array&quot; but without concern for order",
+      "accepted_answer_id": 53483571,
+      "score": 283,
+      "link": "https://stackoverflow.com/questions/2978922/rspec-array-should-another-array-but-without-concern-for-order",
+      "owner": {
+        "display_name": "nicholaides",
+        "link": "https://stackoverflow.com/users/48424/nicholaides"
+      }
+    },
+    {
+      "question_id": 7219732,
+      "title": "Rails: Missing host to link to! Please provide :host parameter or set default_url_options[:host]",
+      "accepted_answer_id": 7219803,
+      "score": 244,
+      "link": "https://stackoverflow.com/questions/7219732/rails-missing-host-to-link-to-please-provide-host-parameter-or-set-default-ur",
+      "owner": {
+        "display_name": "d11wtq",
+        "link": "https://stackoverflow.com/users/322122/d11wtq"
+      }
+    },
+    {
+      "question_id": 1722749,
+      "title": "How to use RSpec&#39;s should_raise with any kind of exception?",
+      "accepted_answer_id": 1722839,
+      "score": 213,
+      "link": "https://stackoverflow.com/questions/1722749/how-to-use-rspecs-should-raise-with-any-kind-of-exception",
+      "owner": {
+        "display_name": "marcgg",
+        "link": "https://stackoverflow.com/users/90691/marcgg"
+      }
+    },
+    {
+      "question_id": 5069677,
+      "title": "How do I run only specific tests in Rspec?",
+      "accepted_answer_id": 5072879,
+      "score": 194,
+      "link": "https://stackoverflow.com/questions/5069677/how-do-i-run-only-specific-tests-in-rspec",
+      "owner": {
+        "display_name": "Nathan Long",
+        "link": "https://stackoverflow.com/users/4376/nathan-long"
+      }
+    },
+    {
+      "question_id": 1542945,
+      "title": "Testing modules in RSpec",
+      "accepted_answer_id": 1568024,
+      "score": 188,
+      "link": "https://stackoverflow.com/questions/1542945/testing-modules-in-rspec",
+      "owner": {
+        "display_name": "Andrius",
+        "link": "https://stackoverflow.com/users/174385/andrius"
+      }
+    },
+    {
+      "question_id": 10503802,
+      "title": "How can I check that a form field is prefilled correctly using capybara?",
+      "accepted_answer_id": 10503901,
+      "score": 176,
+      "link": "https://stackoverflow.com/questions/10503802/how-can-i-check-that-a-form-field-is-prefilled-correctly-using-capybara",
+      "owner": {
+        "display_name": "Marc-Andr&#233; Lafortune",
+        "link": "https://stackoverflow.com/users/8279/marc-andr%c3%a9-lafortune"
+      }
+    },
+    {
+      "question_id": 6728618,
+      "title": "How can I tell Rails to use RSpec instead of test-unit when creating a new Rails app?",
+      "accepted_answer_id": 6728831,
+      "score": 173,
+      "link": "https://stackoverflow.com/questions/6728618/how-can-i-tell-rails-to-use-rspec-instead-of-test-unit-when-creating-a-new-rails",
+      "owner": {
+        "display_name": "aarona",
+        "link": "https://stackoverflow.com/users/43792/aarona"
+      }
+    },
+    {
+      "question_id": 5159882,
+      "title": "How to check for a JSON response using RSpec?",
+      "accepted_answer_id": 5161898,
+      "score": 170,
+      "link": "https://stackoverflow.com/questions/5159882/how-to-check-for-a-json-response-using-rspec",
+      "owner": {
+        "display_name": "Fizz",
+        "link": "https://stackoverflow.com/users/278447/fizz"
+      }
+    },
+    {
+      "question_id": 20403063,
+      "title": "Trouble comparing time with RSpec",
+      "accepted_answer_id": 20403290,
+      "score": 163,
+      "link": "https://stackoverflow.com/questions/20403063/trouble-comparing-time-with-rspec",
+      "owner": {
+        "display_name": "Backo",
+        "link": "https://stackoverflow.com/users/824806/backo"
+      }
+    },
+    {
+      "question_id": 4398262,
+      "title": "Set up RSpec to test a gem (not Rails)",
+      "accepted_answer_id": 4402193,
+      "score": 162,
+      "link": "https://stackoverflow.com/questions/4398262/set-up-rspec-to-test-a-gem-not-rails",
+      "owner": {
+        "display_name": "medihack",
+        "link": "https://stackoverflow.com/users/166229/medihack"
+      }
+    },
+    {
+      "question_id": 1819614,
+      "title": "How do I globally configure RSpec to keep the &#39;--color&#39; and &#39;--format specdoc&#39; options turned on",
+      "accepted_answer_id": 8292088,
+      "score": 160,
+      "link": "https://stackoverflow.com/questions/1819614/how-do-i-globally-configure-rspec-to-keep-the-color-and-format-specdoc-o",
+      "owner": {
+        "display_name": "Evolve",
+        "link": "https://stackoverflow.com/users/172651/evolve"
+      }
+    },
+    {
+      "question_id": 5228371,
+      "title": "How to get current path with query string using Capybara",
+      "accepted_answer_id": 5228425,
+      "score": 158,
+      "link": "https://stackoverflow.com/questions/5228371/how-to-get-current-path-with-query-string-using-capybara",
+      "owner": {
+        "display_name": "kriysna",
+        "link": "https://stackoverflow.com/users/387358/kriysna"
+      }
+    },
+    {
+      "question_id": 14513377,
+      "title": "How to click first link in list of items after upgrading to Capybara 2.0?",
+      "accepted_answer_id": 14517076,
+      "score": 150,
+      "link": "https://stackoverflow.com/questions/14513377/how-to-click-first-link-in-list-of-items-after-upgrading-to-capybara-2-0",
+      "owner": {
+        "display_name": "tomekfranek",
+        "link": "https://stackoverflow.com/users/1103892/tomekfranek"
+      }
+    },
+    {
+      "question_id": 21262309,
+      "title": "RSpec: how to test if a method was called?",
+      "accepted_answer_id": 21263118,
+      "score": 147,
+      "link": "https://stackoverflow.com/questions/21262309/rspec-how-to-test-if-a-method-was-called",
+      "owner": {
+        "display_name": "Mikey Hogarth",
+        "link": "https://stackoverflow.com/users/705589/mikey-hogarth"
+      }
+    },
+    {
+      "question_id": 8297624,
+      "title": "How to check a checkbox in capybara?",
+      "accepted_answer_id": 8297992,
+      "score": 145,
+      "link": "https://stackoverflow.com/questions/8297624/how-to-check-a-checkbox-in-capybara",
+      "owner": {
+        "display_name": "John Dow",
+        "link": "https://stackoverflow.com/users/1041585/john-dow"
+      }
+    },
+    {
+      "question_id": 1328277,
+      "title": "How to say &quot;should_receive&quot; more times in RSpec",
+      "accepted_answer_id": 1328543,
+      "score": 141,
+      "link": "https://stackoverflow.com/questions/1328277/how-to-say-should-receive-more-times-in-rspec",
+      "owner": {
+        "display_name": "Jakub Arnold",
+        "link": "https://stackoverflow.com/users/72583/jakub-arnold"
+      }
+    },
+    {
+      "question_id": 38437162,
+      "title": "What&#39;s the difference between RSpec&#39;s subject and let? When should they be used or not?",
+      "accepted_answer_id": 38459039,
+      "score": 139,
+      "link": "https://stackoverflow.com/questions/38437162/whats-the-difference-between-rspecs-subject-and-let-when-should-they-be-used",
+      "owner": {
+        "display_name": "new2cpp",
+        "link": "https://stackoverflow.com/users/2251303/new2cpp"
+      }
+    },
+    {
+      "question_id": 29388777,
+      "title": "RSpec: Expect to change multiple",
+      "accepted_answer_id": 29389223,
+      "score": 139,
+      "link": "https://stackoverflow.com/questions/29388777/rspec-expect-to-change-multiple",
+      "owner": {
+        "display_name": "Joshua Muheim",
+        "link": "https://stackoverflow.com/users/1439143/joshua-muheim"
+      }
+    },
+    {
+      "question_id": 393622,
+      "title": "RSpec vs Cucumber (RSpec stories)",
+      "accepted_answer_id": 429956,
+      "score": 135,
+      "link": "https://stackoverflow.com/questions/393622/rspec-vs-cucumber-rspec-stories",
+      "owner": {
+        "display_name": "orion3",
+        "link": "https://stackoverflow.com/users/34134/orion3"
+      }
+    },
+    {
+      "question_id": 16525222,
+      "title": "How to Test a Concern in Rails",
+      "accepted_answer_id": 20010923,
+      "score": 134,
+      "link": "https://stackoverflow.com/questions/16525222/how-to-test-a-concern-in-rails",
+      "owner": {
+        "display_name": "Kyle Decot",
+        "link": "https://stackoverflow.com/users/435471/kyle-decot"
+      }
+    },
+    {
+      "question_id": 4308094,
+      "title": "All Ruby tests raising: undefined method `authenticate&#39; for nil:NilClass",
+      "accepted_answer_id": 4308872,
+      "score": 132,
+      "link": "https://stackoverflow.com/questions/4308094/all-ruby-tests-raising-undefined-method-authenticate-for-nilnilclass",
+      "owner": {
+        "display_name": "Jeffrey W.",
+        "link": "https://stackoverflow.com/users/524354/jeffrey-w"
+      }
+    },
+    {
+      "question_id": 8751175,
+      "title": "Skip callbacks on Factory Girl and Rspec",
+      "accepted_answer_id": 8838502,
+      "score": 131,
+      "link": "https://stackoverflow.com/questions/8751175/skip-callbacks-on-factory-girl-and-rspec",
+      "owner": {
+        "display_name": "luizbranco",
+        "link": "https://stackoverflow.com/users/978651/luizbranco"
+      }
+    },
+    {
+      "question_id": 11643747,
+      "title": "RSpec: describe, context, feature, scenario?",
+      "accepted_answer_id": 11665882,
+      "score": 130,
+      "link": "https://stackoverflow.com/questions/11643747/rspec-describe-context-feature-scenario",
+      "owner": {
+        "display_name": "Mike Glaz",
+        "link": "https://stackoverflow.com/users/1220190/mike-glaz"
+      }
+    },
+    {
+      "question_id": 6946303,
+      "title": "How to find which rspec test is taking so long",
+      "accepted_answer_id": 6946446,
+      "score": 130,
+      "link": "https://stackoverflow.com/questions/6946303/how-to-find-which-rspec-test-is-taking-so-long",
+      "owner": {
+        "display_name": "Brian Armstrong",
+        "link": "https://stackoverflow.com/users/76486/brian-armstrong"
+      }
+    },
+    {
+      "question_id": 4271696,
+      "title": "Rspec, Rails: how to test private methods of controllers?",
+      "accepted_answer_id": 4271838,
+      "score": 130,
+      "link": "https://stackoverflow.com/questions/4271696/rspec-rails-how-to-test-private-methods-of-controllers",
+      "owner": {
+        "display_name": "petRUShka",
+        "link": "https://stackoverflow.com/users/359866/petrushka"
+      }
+    },
+    {
+      "question_id": 25066699,
+      "title": "rspec 3 - stub a class method",
+      "accepted_answer_id": 25066720,
+      "score": 122,
+      "link": "https://stackoverflow.com/questions/25066699/rspec-3-stub-a-class-method",
+      "owner": {
+        "display_name": "Peter Sankauskas",
+        "link": "https://stackoverflow.com/users/106717/peter-sankauskas"
+      }
+    },
+    {
+      "question_id": 11762245,
+      "title": "What&#39;s the difference between RSpec and Cucumber?",
+      "accepted_answer_id": 11762741,
+      "score": 121,
+      "link": "https://stackoverflow.com/questions/11762245/whats-the-difference-between-rspec-and-cucumber",
+      "owner": {
+        "display_name": "banditKing",
+        "link": "https://stackoverflow.com/users/657514/banditking"
+      }
+    },
+    {
+      "question_id": 5918606,
+      "title": "Disable a group of tests in rspec?",
+      "accepted_answer_id": 12720109,
+      "score": 121,
+      "link": "https://stackoverflow.com/questions/5918606/disable-a-group-of-tests-in-rspec",
+      "owner": {
+        "display_name": "Jorge Israel Pe&#241;a",
+        "link": "https://stackoverflow.com/users/101090/jorge-israel-pe%c3%b1a"
+      }
+    },
+    {
+      "question_id": 15173946,
+      "title": "RSpec: What is the difference between a feature and a request spec?",
+      "accepted_answer_id": 15193953,
+      "score": 120,
+      "link": "https://stackoverflow.com/questions/15173946/rspec-what-is-the-difference-between-a-feature-and-a-request-spec",
+      "owner": {
+        "display_name": "harm",
+        "link": "https://stackoverflow.com/users/71444/harm"
+      }
+    },
+    {
+      "question_id": 25877734,
+      "title": "Rails 4: How to reset test database?",
+      "accepted_answer_id": 25878014,
+      "score": 119,
+      "link": "https://stackoverflow.com/questions/25877734/rails-4-how-to-reset-test-database",
+      "owner": {
+        "display_name": "Solomons_Ecclesiastes",
+        "link": "https://stackoverflow.com/users/3796050/solomons-ecclesiastes"
+      }
+    },
+    {
+      "question_id": 17507416,
+      "title": "Rspec doesn&#39;t see my model Class. uninitialized constant error",
+      "accepted_answer_id": 17508604,
+      "score": 115,
+      "link": "https://stackoverflow.com/questions/17507416/rspec-doesnt-see-my-model-class-uninitialized-constant-error",
+      "owner": {
+        "display_name": "Stan",
+        "link": "https://stackoverflow.com/users/2557053/stan"
+      }
+    },
+    {
+      "question_id": 1063073,
+      "title": "RSpec controller testing - blank response.body",
+      "accepted_answer_id": 1065354,
+      "score": 112,
+      "link": "https://stackoverflow.com/questions/1063073/rspec-controller-testing-blank-response-body",
+      "owner": {
+        "display_name": "Toms Mikoss",
+        "link": "https://stackoverflow.com/users/123144/toms-mikoss"
+      }
+    },
+    {
+      "question_id": 6963298,
+      "title": "How to set up factory in FactoryBot with has_many association",
+      "accepted_answer_id": 7733555,
+      "score": 106,
+      "link": "https://stackoverflow.com/questions/6963298/how-to-set-up-factory-in-factorybot-with-has-many-association",
+      "owner": {
+        "display_name": "Tonys",
+        "link": "https://stackoverflow.com/users/758725/tonys"
+      }
+    },
+    {
+      "question_id": 5947999,
+      "title": "Can RSpec stubbed method return different values in sequence?",
+      "accepted_answer_id": 5948282,
+      "score": 106,
+      "link": "https://stackoverflow.com/questions/5947999/can-rspec-stubbed-method-return-different-values-in-sequence",
+      "owner": {
+        "display_name": "Mike Blyth",
+        "link": "https://stackoverflow.com/users/449692/mike-blyth"
+      }
+    },
+    {
+      "question_id": 13132506,
+      "title": "Capybara Ambiguity Resolution",
+      "accepted_answer_id": 13387339,
+      "score": 104,
+      "link": "https://stackoverflow.com/questions/13132506/capybara-ambiguity-resolution",
+      "owner": {
+        "display_name": "neilmarion",
+        "link": "https://stackoverflow.com/users/320161/neilmarion"
+      }
+    },
+    {
+      "question_id": 7649037,
+      "title": "How to get rspec-2 to give the full trace associated with a test failure?",
+      "accepted_answer_id": 7653286,
+      "score": 103,
+      "link": "https://stackoverflow.com/questions/7649037/how-to-get-rspec-2-to-give-the-full-trace-associated-with-a-test-failure",
+      "owner": {
+        "display_name": "marcgg",
+        "link": "https://stackoverflow.com/users/90691/marcgg"
+      }
+    },
+    {
+      "question_id": 30358612,
+      "title": "How to create a Gemfile?",
+      "accepted_answer_id": 30358688,
+      "score": 102,
+      "link": "https://stackoverflow.com/questions/30358612/how-to-create-a-gemfile",
+      "owner": {
+        "display_name": "Saurabh Juneja",
+        "link": "https://stackoverflow.com/users/4616851/saurabh-juneja"
+      }
+    },
+    {
+      "question_id": 24145329,
+      "title": "How is spec/rails_helper.rb different from spec/spec_helper.rb? Do I need it?",
+      "accepted_answer_id": 24145760,
+      "score": 102,
+      "link": "https://stackoverflow.com/questions/24145329/how-is-spec-rails-helper-rb-different-from-spec-spec-helper-rb-do-i-need-it",
+      "owner": {
+        "display_name": "user3417583",
+        "link": "https://stackoverflow.com/users/3417583/user3417583"
+      }
+    },
+    {
+      "question_id": 11770552,
+      "title": "How to get Rails.logger printing to the console/stdout when running rspec?",
+      "accepted_answer_id": 21490867,
+      "score": 102,
+      "link": "https://stackoverflow.com/questions/11770552/how-to-get-rails-logger-printing-to-the-console-stdout-when-running-rspec",
+      "owner": {
+        "display_name": "s12chung",
+        "link": "https://stackoverflow.com/users/1090482/s12chung"
+      }
+    },
+    {
+      "question_id": 9322353,
+      "title": "Factory-girl create that bypasses my model validation",
+      "accepted_answer_id": 9322477,
+      "score": 101,
+      "link": "https://stackoverflow.com/questions/9322353/factory-girl-create-that-bypasses-my-model-validation",
+      "owner": {
+        "display_name": "Norto23",
+        "link": "https://stackoverflow.com/users/1188763/norto23"
+      }
+    },
+    {
+      "question_id": 5916126,
+      "title": "How do I prepare test database(s) for Rails rspec tests without running rake spec?",
+      "accepted_answer_id": 11158685,
+      "score": 101,
+      "link": "https://stackoverflow.com/questions/5916126/how-do-i-prepare-test-databases-for-rails-rspec-tests-without-running-rake-spe",
+      "owner": {
+        "display_name": "gerry3",
+        "link": "https://stackoverflow.com/users/161815/gerry3"
+      }
+    },
+    {
+      "question_id": 6729134,
+      "title": "How to assert number of elements using Capybara with proper error message?",
+      "accepted_answer_id": 17033067,
+      "score": 100,
+      "link": "https://stackoverflow.com/questions/6729134/how-to-assert-number-of-elements-using-capybara-with-proper-error-message",
+      "owner": {
+        "display_name": "merryprankster",
+        "link": "https://stackoverflow.com/users/846076/merryprankster"
+      }
+    },
+    {
+      "question_id": 16617052,
+      "title": "rails rspec before all vs before each",
+      "accepted_answer_id": 16617391,
+      "score": 98,
+      "link": "https://stackoverflow.com/questions/16617052/rails-rspec-before-all-vs-before-each",
+      "owner": {
+        "display_name": "Johnny Cash",
+        "link": "https://stackoverflow.com/users/2015350/johnny-cash"
+      }
+    },
+    {
+      "question_id": 5974360,
+      "title": "RSpec: What is the difference between let and a before block?",
+      "accepted_answer_id": 15648208,
+      "score": 97,
+      "link": "https://stackoverflow.com/questions/5974360/rspec-what-is-the-difference-between-let-and-a-before-block",
+      "owner": {
+        "display_name": "kriysna",
+        "link": "https://stackoverflow.com/users/387358/kriysna"
+      }
+    },
+    {
+      "question_id": 8484133,
+      "title": "Difference between an it block and a specify block in RSpec",
+      "accepted_answer_id": 8484295,
+      "score": 96,
+      "link": "https://stackoverflow.com/questions/8484133/difference-between-an-it-block-and-a-specify-block-in-rspec",
+      "owner": {
+        "display_name": "basheps",
+        "link": "https://stackoverflow.com/users/595936/basheps"
+      }
+    },
+    {
+      "question_id": 3663075,
+      "title": "Speeding up RSpec tests in a large Rails application",
+      "accepted_answer_id": 5085842,
+      "score": 96,
+      "link": "https://stackoverflow.com/questions/3663075/speeding-up-rspec-tests-in-a-large-rails-application",
+      "owner": {
+        "display_name": "randombits",
+        "link": "https://stackoverflow.com/users/175836/randombits"
+      }
+    },
+    {
+      "question_id": 15148585,
+      "title": "undefined method `visit&#39; when using RSpec and Capybara in rails",
+      "accepted_answer_id": 15149241,
+      "score": 95,
+      "link": "https://stackoverflow.com/questions/15148585/undefined-method-visit-when-using-rspec-and-capybara-in-rails",
+      "owner": {
+        "display_name": "lightswitch05",
+        "link": "https://stackoverflow.com/users/912563/lightswitch05"
+      }
+    },
+    {
+      "question_id": 4754187,
+      "title": "Capybara: How do I fill in a input field by its ID",
+      "accepted_answer_id": 4755311,
+      "score": 95,
+      "link": "https://stackoverflow.com/questions/4754187/capybara-how-do-i-fill-in-a-input-field-by-its-id",
+      "owner": {
+        "display_name": "Nerian",
+        "link": "https://stackoverflow.com/users/473763/nerian"
+      }
+    },
+    {
+      "question_id": 2504123,
+      "title": "Generate a controller with all the RESTful functions",
+      "accepted_answer_id": 2504164,
+      "score": 94,
+      "link": "https://stackoverflow.com/questions/2504123/generate-a-controller-with-all-the-restful-functions",
+      "owner": {
+        "display_name": "Barb",
+        "link": "https://stackoverflow.com/users/298033/barb"
+      }
+    },
+    {
+      "question_id": 24919976,
+      "title": "Rspec 3 how to test flash messages",
+      "accepted_answer_id": 24920066,
+      "score": 93,
+      "link": "https://stackoverflow.com/questions/24919976/rspec-3-how-to-test-flash-messages",
+      "owner": {
+        "display_name": "Mike Andrianov",
+        "link": "https://stackoverflow.com/users/2892022/mike-andrianov"
+      }
+    },
+    {
+      "question_id": 27647749,
+      "title": "How to test ActionMailer deliver_later with rspec",
+      "accepted_answer_id": 27653104,
+      "score": 91,
+      "link": "https://stackoverflow.com/questions/27647749/how-to-test-actionmailer-deliver-later-with-rspec",
+      "owner": {
+        "display_name": "bobomoreno",
+        "link": "https://stackoverflow.com/users/1007594/bobomoreno"
+      }
+    },
+    {
+      "question_id": 5153550,
+      "title": "capybara assert attributes of an element",
+      "accepted_answer_id": 5153771,
+      "score": 91,
+      "link": "https://stackoverflow.com/questions/5153550/capybara-assert-attributes-of-an-element",
+      "owner": {
+        "display_name": "kriysna",
+        "link": "https://stackoverflow.com/users/387358/kriysna"
+      }
+    },
+    {
+      "question_id": 38573131,
+      "title": "What is the purpose of a `transient do` block in FactoryBot factories?",
+      "accepted_answer_id": 41626919,
+      "score": 89,
+      "link": "https://stackoverflow.com/questions/38573131/what-is-the-purpose-of-a-transient-do-block-in-factorybot-factories",
+      "owner": {
+        "display_name": "tim_xyz",
+        "link": "https://stackoverflow.com/users/4909076/tim-xyz"
+      }
+    },
+    {
+      "question_id": 5787409,
+      "title": "Stubbing authentication in request spec",
+      "accepted_answer_id": 5803121,
+      "score": 89,
+      "link": "https://stackoverflow.com/questions/5787409/stubbing-authentication-in-request-spec",
+      "owner": {
+        "display_name": "Jonas Bylov",
+        "link": "https://stackoverflow.com/users/460351/jonas-bylov"
+      }
+    },
+    {
+      "question_id": 9611276,
+      "title": "What is the best way to write specs for code that depends on environment variables?",
+      "accepted_answer_id": 9611392,
+      "score": 88,
+      "link": "https://stackoverflow.com/questions/9611276/what-is-the-best-way-to-write-specs-for-code-that-depends-on-environment-variabl",
+      "owner": {
+        "display_name": "Luke Francl",
+        "link": "https://stackoverflow.com/users/17965/luke-francl"
+      }
+    },
+    {
+      "question_id": 9364157,
+      "title": "Ruby Rspec : Testing instance variables without adding an accessor to source",
+      "accepted_answer_id": 9364193,
+      "score": 88,
+      "link": "https://stackoverflow.com/questions/9364157/ruby-rspec-testing-instance-variables-without-adding-an-accessor-to-source",
+      "owner": {
+        "display_name": "steve_gallagher",
+        "link": "https://stackoverflow.com/users/925881/steve-gallagher"
+      }
+    },
+    {
+      "question_id": 5446594,
+      "title": "Running ruby debug in rspec?",
+      "accepted_answer_id": 5446825,
+      "score": 88,
+      "link": "https://stackoverflow.com/questions/5446594/running-ruby-debug-in-rspec",
+      "owner": {
+        "display_name": "Allyl Isocyanate",
+        "link": "https://stackoverflow.com/users/320619/allyl-isocyanate"
+      }
+    },
+    {
+      "question_id": 40934345,
+      "title": "Rubocop 25 line block size and RSpec tests",
+      "accepted_answer_id": 41187163,
+      "score": 87,
+      "link": "https://stackoverflow.com/questions/40934345/rubocop-25-line-block-size-and-rspec-tests",
+      "owner": {
+        "display_name": "Neil Slater",
+        "link": "https://stackoverflow.com/users/2001031/neil-slater"
+      }
+    },
+    {
+      "question_id": 10998160,
+      "title": "RSpec: how to test Rails logger message expectations?",
+      "accepted_answer_id": 11426232,
+      "score": 87,
+      "link": "https://stackoverflow.com/questions/10998160/rspec-how-to-test-rails-logger-message-expectations",
+      "owner": {
+        "display_name": "keruilin",
+        "link": "https://stackoverflow.com/users/251257/keruilin"
+      }
+    },
+    {
+      "question_id": 19233047,
+      "title": "How to expect some (but not all) arguments with RSpec should_receive?",
+      "accepted_answer_id": 19233145,
+      "score": 85,
+      "link": "https://stackoverflow.com/questions/19233047/how-to-expect-some-but-not-all-arguments-with-rspec-should-receive",
+      "owner": {
+        "display_name": "B Seven",
+        "link": "https://stackoverflow.com/users/336920/b-seven"
+      }
+    },
+    {
+      "question_id": 9800992,
+      "title": "How to say &quot;any_instance&quot; &quot;should_receive&quot; any number of times in RSpec",
+      "accepted_answer_id": 24461765,
+      "score": 84,
+      "link": "https://stackoverflow.com/questions/9800992/how-to-say-any-instance-should-receive-any-number-of-times-in-rspec",
+      "owner": {
+        "display_name": "Harm de Wit",
+        "link": "https://stackoverflow.com/users/521259/harm-de-wit"
+      }
+    },
+    {
+      "question_id": 8801845,
+      "title": "How to make Capybara check for visibility after some JS has run?",
+      "accepted_answer_id": 8818598,
+      "score": 84,
+      "link": "https://stackoverflow.com/questions/8801845/how-to-make-capybara-check-for-visibility-after-some-js-has-run",
+      "owner": {
+        "display_name": "Kevin Davis",
+        "link": "https://stackoverflow.com/users/49993/kevin-davis"
+      }
+    },
+    {
+      "question_id": 9884033,
+      "title": "Ruby on Rails: Switch from test_unit to rspec",
+      "accepted_answer_id": 9884102,
+      "score": 83,
+      "link": "https://stackoverflow.com/questions/9884033/ruby-on-rails-switch-from-test-unit-to-rspec",
+      "owner": {
+        "display_name": "Explosion Pills",
+        "link": "https://stackoverflow.com/users/454533/explosion-pills"
+      }
+    },
+    {
+      "question_id": 5083804,
+      "title": "Rspec Output Format: Documentation",
+      "accepted_answer_id": 5083828,
+      "score": 83,
+      "link": "https://stackoverflow.com/questions/5083804/rspec-output-format-documentation",
+      "owner": {
+        "display_name": "Spyros",
+        "link": "https://stackoverflow.com/users/1580201/spyros"
+      }
+    },
+    {
+      "question_id": 17566690,
+      "title": "Object.any_instance should_receive vs expect() to receive",
+      "accepted_answer_id": 17577942,
+      "score": 82,
+      "link": "https://stackoverflow.com/questions/17566690/object-any-instance-should-receive-vs-expect-to-receive",
+      "owner": {
+        "display_name": "Calin",
+        "link": "https://stackoverflow.com/users/261363/calin"
+      }
+    },
+    {
+      "question_id": 10032760,
+      "title": "How to define an array / hash in factory_bot?",
+      "accepted_answer_id": 12026947,
+      "score": 82,
+      "link": "https://stackoverflow.com/questions/10032760/how-to-define-an-array-hash-in-factory-bot",
+      "owner": {
+        "display_name": "Doug",
+        "link": "https://stackoverflow.com/users/142098/doug"
+      }
+    },
+    {
+      "question_id": 5591509,
+      "title": "Suppress Ruby warnings when running specs",
+      "accepted_answer_id": 5591812,
+      "score": 82,
+      "link": "https://stackoverflow.com/questions/5591509/suppress-ruby-warnings-when-running-specs",
+      "owner": {
+        "display_name": "Jey Balachandran",
+        "link": "https://stackoverflow.com/users/377549/jey-balachandran"
+      }
+    },
+    {
+      "question_id": 598933,
+      "title": "How do I change the default &quot;www.example.com&quot; domain for testing in rails?",
+      "accepted_answer_id": 599123,
+      "score": 81,
+      "link": "https://stackoverflow.com/questions/598933/how-do-i-change-the-default-www-example-com-domain-for-testing-in-rails",
+      "owner": {
+        "display_name": "Denis Hennessy",
+        "link": "https://stackoverflow.com/users/35958/denis-hennessy"
+      }
+    },
+    {
+      "question_id": 8392884,
+      "title": "Testing hash contents using RSpec",
+      "accepted_answer_id": 8393268,
+      "score": 79,
+      "link": "https://stackoverflow.com/questions/8392884/testing-hash-contents-using-rspec",
+      "owner": {
+        "display_name": "steve_gallagher",
+        "link": "https://stackoverflow.com/users/925881/steve-gallagher"
+      }
+    },
+    {
+      "question_id": 13548375,
+      "title": "Using RSpec to check if something is an instance of another object",
+      "accepted_answer_id": 13965256,
+      "score": 78,
+      "link": "https://stackoverflow.com/questions/13548375/using-rspec-to-check-if-something-is-an-instance-of-another-object",
+      "owner": {
+        "display_name": "Dillon Benson",
+        "link": "https://stackoverflow.com/users/862680/dillon-benson"
+      }
+    },
+    {
+      "question_id": 3768718,
+      "title": "Rails/Rspec Make tests pass with http basic authentication",
+      "accepted_answer_id": 5239091,
+      "score": 77,
+      "link": "https://stackoverflow.com/questions/3768718/rails-rspec-make-tests-pass-with-http-basic-authentication",
+      "owner": {
+        "display_name": "benoitr",
+        "link": "https://stackoverflow.com/users/348386/benoitr"
+      }
+    },
+    {
+      "question_id": 18445828,
+      "title": "FactoryBot: create the same object multiple times",
+      "accepted_answer_id": 18445855,
+      "score": 76,
+      "link": "https://stackoverflow.com/questions/18445828/factorybot-create-the-same-object-multiple-times",
+      "owner": {
+        "display_name": "usha",
+        "link": "https://stackoverflow.com/users/2112633/usha"
+      }
+    },
+    {
+      "question_id": 28006913,
+      "title": "RSpec allow/expect vs just expect/and_return",
+      "accepted_answer_id": 28007007,
+      "score": 75,
+      "link": "https://stackoverflow.com/questions/28006913/rspec-allow-expect-vs-just-expect-and-return",
+      "owner": {
+        "display_name": "Paul Fioravanti",
+        "link": "https://stackoverflow.com/users/567863/paul-fioravanti"
+      }
+    },
+    {
+      "question_id": 25800122,
+      "title": "Error when trying to run rspec: `require&#39;: cannot load such file -- rails_helper (LoadError)",
+      "accepted_answer_id": 25804049,
+      "score": 75,
+      "link": "https://stackoverflow.com/questions/25800122/error-when-trying-to-run-rspec-require-cannot-load-such-file-rails-helper",
+      "owner": {
+        "display_name": "HPJAJ",
+        "link": "https://stackoverflow.com/users/3899985/hpjaj"
+      }
+    },
+    {
+      "question_id": 38209186,
+      "title": "Rails 5, Rspec: Environment data not found in the schema",
+      "accepted_answer_id": 38209363,
+      "score": 73,
+      "link": "https://stackoverflow.com/questions/38209186/rails-5-rspec-environment-data-not-found-in-the-schema",
+      "owner": {
+        "display_name": "steel",
+        "link": "https://stackoverflow.com/users/2317928/steel"
+      }
+    },
+    {
+      "question_id": 4706020,
+      "title": "BDD and TDD for node.js?",
+      "accepted_answer_id": 4707890,
+      "score": 73,
+      "link": "https://stackoverflow.com/questions/4706020/bdd-and-tdd-for-node-js",
+      "owner": {
+        "display_name": "donald",
+        "link": "https://stackoverflow.com/users/435951/donald"
+      }
+    },
+    {
+      "question_id": 14890375,
+      "title": "RSpec: How could I use the array include matcher in the expect syntax",
+      "accepted_answer_id": 14898663,
+      "score": 72,
+      "link": "https://stackoverflow.com/questions/14890375/rspec-how-could-i-use-the-array-include-matcher-in-the-expect-syntax",
+      "owner": {
+        "display_name": "mrzasa",
+        "link": "https://stackoverflow.com/users/580346/mrzasa"
+      }
+    },
+    {
+      "question_id": 13812717,
+      "title": "Shoulda/RSpec matchers - conditional validation",
+      "accepted_answer_id": 13812867,
+      "score": 72,
+      "link": "https://stackoverflow.com/questions/13812717/shoulda-rspec-matchers-conditional-validation",
+      "owner": {
+        "display_name": "alexs333",
+        "link": "https://stackoverflow.com/users/872514/alexs333"
+      }
+    },
+    {
+      "question_id": 7537112,
+      "title": "Rails 3.1, RSpec: testing model validations",
+      "accepted_answer_id": 7537225,
+      "score": 72,
+      "link": "https://stackoverflow.com/questions/7537112/rails-3-1-rspec-testing-model-validations",
+      "owner": {
+        "display_name": "Feech",
+        "link": "https://stackoverflow.com/users/962274/feech"
+      }
+    },
+    {
+      "question_id": 5129423,
+      "title": "Capybara: How to test the title of a page?",
+      "accepted_answer_id": 14139814,
+      "score": 72,
+      "link": "https://stackoverflow.com/questions/5129423/capybara-how-to-test-the-title-of-a-page",
+      "owner": {
+        "display_name": "Nerian",
+        "link": "https://stackoverflow.com/users/473763/nerian"
+      }
+    },
+    {
+      "question_id": 43797133,
+      "title": "Controller spec unknown keyword: id",
+      "accepted_answer_id": 43797196,
+      "score": 71,
+      "link": "https://stackoverflow.com/questions/43797133/controller-spec-unknown-keyword-id",
+      "owner": {
+        "display_name": "user",
+        "link": "https://stackoverflow.com/users/4402478/user"
+      }
+    },
+    {
+      "question_id": 16441280,
+      "title": "Rails/Rspec - testing a redirect in the controller",
+      "accepted_answer_id": 16441911,
+      "score": 71,
+      "link": "https://stackoverflow.com/questions/16441280/rails-rspec-testing-a-redirect-in-the-controller",
+      "owner": {
+        "display_name": "legendary_rob",
+        "link": "https://stackoverflow.com/users/990940/legendary-rob"
+      }
+    },
+    {
+      "question_id": 11498575,
+      "title": "Get select value of dropdown for capybara testing",
+      "accepted_answer_id": 11506969,
+      "score": 70,
+      "link": "https://stackoverflow.com/questions/11498575/get-select-value-of-dropdown-for-capybara-testing",
+      "owner": {
+        "display_name": "Brandon",
+        "link": "https://stackoverflow.com/users/1316445/brandon"
+      }
+    },
+    {
+      "question_id": 19556296,
+      "title": "What&#39;s the difference between &quot;include_examples&quot; and &quot;it_behaves_like&quot;?",
+      "accepted_answer_id": 19557221,
+      "score": 66,
+      "link": "https://stackoverflow.com/questions/19556296/whats-the-difference-between-include-examples-and-it-behaves-like",
+      "owner": {
+        "display_name": "GMA",
+        "link": "https://stackoverflow.com/users/1603071/gma"
+      }
+    },
+    {
+      "question_id": 10804897,
+      "title": "How to fill hidden field with Capybara?",
+      "accepted_answer_id": 10805128,
+      "score": 66,
+      "link": "https://stackoverflow.com/questions/10804897/how-to-fill-hidden-field-with-capybara",
+      "owner": {
+        "display_name": "skalee",
+        "link": "https://stackoverflow.com/users/304175/skalee"
+      }
+    },
+    {
+      "question_id": 8160284,
+      "title": "how to test params passed into a controller in rails 3, using rspec?",
+      "accepted_answer_id": 8273781,
+      "score": 66,
+      "link": "https://stackoverflow.com/questions/8160284/how-to-test-params-passed-into-a-controller-in-rails-3-using-rspec",
+      "owner": {
+        "display_name": "lkahtz",
+        "link": "https://stackoverflow.com/users/323941/lkahtz"
+      }
+    },
+    {
+      "question_id": 1971729,
+      "title": "RSpec: specifying multiple calls to a method with different argument each time",
+      "accepted_answer_id": 1972279,
+      "score": 66,
+      "link": "https://stackoverflow.com/questions/1971729/rspec-specifying-multiple-calls-to-a-method-with-different-argument-each-time",
+      "owner": {
+        "display_name": "Wayne Conrad",
+        "link": "https://stackoverflow.com/users/238886/wayne-conrad"
+      }
+    },
+    {
+      "question_id": 6040479,
+      "title": "Rspec testing redirect_to :back",
+      "accepted_answer_id": 6729817,
+      "score": 65,
+      "link": "https://stackoverflow.com/questions/6040479/rspec-testing-redirect-to-back",
+      "owner": {
+        "display_name": "Cyrus",
+        "link": "https://stackoverflow.com/users/686567/cyrus"
+      }
+    },
+    {
+      "question_id": 5843284,
+      "title": "Clearing out ActionMailer::Base.deliveries after RSpec test",
+      "accepted_answer_id": 5843513,
+      "score": 65,
+      "link": "https://stackoverflow.com/questions/5843284/clearing-out-actionmailerbase-deliveries-after-rspec-test",
+      "owner": {
+        "display_name": "Kevin Pang",
+        "link": "https://stackoverflow.com/users/1574/kevin-pang"
+      }
+    },
+    {
+      "question_id": 9576756,
+      "title": "Using Rspec, how do I test the JSON format of my controller in Rails 3.0.11?",
+      "accepted_answer_id": 9577105,
+      "score": 64,
+      "link": "https://stackoverflow.com/questions/9576756/using-rspec-how-do-i-test-the-json-format-of-my-controller-in-rails-3-0-11",
+      "owner": {
+        "display_name": "gaahrdner",
+        "link": "https://stackoverflow.com/users/1084499/gaahrdner"
+      }
+    },
+    {
+      "question_id": 2556627,
+      "title": "Rails rspec set subdomain",
+      "accepted_answer_id": 2560380,
+      "score": 64,
+      "link": "https://stackoverflow.com/questions/2556627/rails-rspec-set-subdomain",
+      "owner": {
+        "display_name": "RailsSon",
+        "link": "https://stackoverflow.com/users/30786/railsson"
+      }
+    },
+    {
+      "question_id": 4317098,
+      "title": "RSpec documentation...where is it hiding?",
+      "accepted_answer_id": 4317148,
+      "score": 62,
+      "link": "https://stackoverflow.com/questions/4317098/rspec-documentation-where-is-it-hiding",
+      "owner": {
+        "display_name": "Meltemi",
+        "link": "https://stackoverflow.com/users/63761/meltemi"
+      }
+    },
+    {
+      "question_id": 4154409,
+      "title": "How to spec a private method",
+      "accepted_answer_id": 4154550,
+      "score": 62,
+      "link": "https://stackoverflow.com/questions/4154409/how-to-spec-a-private-method",
+      "owner": {
+        "display_name": "Mike",
+        "link": "https://stackoverflow.com/users/143148/mike"
+      }
+    },
+    {
+      "question_id": 24003316,
+      "title": "Guard with RSpec on Rails 4 giving a lot of warnings",
+      "accepted_answer_id": 24005972,
+      "score": 61,
+      "link": "https://stackoverflow.com/questions/24003316/guard-with-rspec-on-rails-4-giving-a-lot-of-warnings",
+      "owner": {
+        "display_name": "foobar",
+        "link": "https://stackoverflow.com/users/389122/foobar"
+      }
+    },
+    {
+      "question_id": 9784118,
+      "title": "How to emulate mouse hover with Capybara",
+      "accepted_answer_id": 16581158,
+      "score": 61,
+      "link": "https://stackoverflow.com/questions/9784118/how-to-emulate-mouse-hover-with-capybara",
+      "owner": {
+        "display_name": "adritha84",
+        "link": "https://stackoverflow.com/users/889453/adritha84"
+      }
+    },
+    {
+      "question_id": 15445716,
+      "title": "In RSpec, what&#39;s the difference between before(:suite) and before(:all)?",
+      "accepted_answer_id": 21173752,
+      "score": 60,
+      "link": "https://stackoverflow.com/questions/15445716/in-rspec-whats-the-difference-between-beforesuite-and-beforeall",
+      "owner": {
+        "display_name": "Mark Rushakoff",
+        "link": "https://stackoverflow.com/users/126042/mark-rushakoff"
+      }
+    },
+    {
+      "question_id": 6004057,
+      "title": "With RSpec, how to seed the database on load?",
+      "accepted_answer_id": 6004198,
+      "score": 60,
+      "link": "https://stackoverflow.com/questions/6004057/with-rspec-how-to-seed-the-database-on-load",
+      "owner": {
+        "display_name": "AnApprentice",
+        "link": "https://stackoverflow.com/users/149080/anapprentice"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 1065354,
+      "body": "<p>By default, rspec-rails hacks into Rails to <strong>prevent</strong> it from actually rendering view templates. You should only test the behavior of your actions &amp; filters your controller tests, not the outcome of template rendering — that's what view specs are for.</p>\n<p>However, if you wish to make your controller specs render templates as the app normally would, use the <a href=\"https://rspec.info/features/7-1/rspec-rails/controller-specs/render-views/\" rel=\"nofollow noreferrer\"><code>render_views</code></a> directive:</p>\n<pre><code>describe YourController do\n  render_views\n  ...\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "mislav",
+        "link": "https://stackoverflow.com/users/11687/mislav"
+      }
+    },
+    {
+      "answer_id": 1328543,
+      "body": "<h1>This is outdated. Please check <a href=\"https://stackoverflow.com/a/25744654/1644614\">Uri's answer</a> below</h1>\n<p>for 2 times:</p>\n<pre><code>Project.should_receive(:find).twice.with(@project).and_return(@project)\n</code></pre>\n<p>for exactly n times:</p>\n<pre><code>Project.should_receive(:find).exactly(n).times.with(@project).and_return(@project)\n</code></pre>\n<p>for at least n times:</p>\n<pre><code>Project.should_receive(:msg).at_least(n).times.with(@project).and_return(@project)\n</code></pre>\n<p>more details at <a href=\"https://rspec.info/documentation/3.5/rspec-mocks/RSpec/Mocks/MessageExpectation.html\" rel=\"noreferrer\">https://rspec.info/documentation/3.5/rspec-mocks/RSpec/Mocks/MessageExpectation.html</a> under <strong>Constraining Receive Counts</strong></p>\n",
+      "owner": {
+        "display_name": "Staelen",
+        "link": "https://stackoverflow.com/users/150750/staelen"
+      }
+    },
+    {
+      "answer_id": 8393268,
+      "body": "<p>It works for hashes too:</p>\n<pre><code>expect(jump_locations).to include(\n  &quot;upper_left&quot;  =&gt; true,\n  &quot;upper_right&quot; =&gt; false,\n  &quot;lower_left&quot;  =&gt; false,\n  &quot;lower_right&quot; =&gt; true\n)\n</code></pre>\n<p>Source:\n<a href=\"https://rubydoc.info/gems/rspec-expectations/RSpec%2FMatchers:include\" rel=\"noreferrer\"><code>include</code> matcher</a></p>\n",
+      "owner": {
+        "display_name": "David Chelimsky",
+        "link": "https://stackoverflow.com/users/293417/david-chelimsky"
+      }
+    },
+    {
+      "answer_id": 53483571,
+      "body": "<p>Use <a href=\"https://rubydoc.info/github/rspec/rspec-expectations/RSpec%2FMatchers:match_array\" rel=\"nofollow noreferrer\"><code>match_array</code></a>, which takes another array as an argument, or <a href=\"https://rubydoc.info/github/rspec/rspec-expectations/RSpec%2FMatchers:contain_exactly\" rel=\"nofollow noreferrer\"><code>contain_exactly</code></a>, which takes each element as a separate argument, and is sometimes useful for readability.</p>\n<p>Examples:</p>\n<pre><code>expect([1, 2, 3]).to match_array [3, 2, 1]\n</code></pre>\n<p>or</p>\n<pre><code>expect([1, 2, 3]).to contain_exactly 3, 2, 1\n</code></pre>\n",
+      "owner": {
+        "display_name": "nicholaides",
+        "link": "https://stackoverflow.com/users/48424/nicholaides"
+      }
+    },
+    {
+      "answer_id": 20010923,
+      "body": "<p>The method you found will certainly work to test a little bit of functionality but seems pretty fragile—your dummy class (actually just a <code>Struct</code> in your solution) may or may not behave like a real class that <code>include</code>s your concern. Additionally if you're trying to test model concerns, you won't be able to do things like test the validity of objects or invoke ActiveRecord callbacks unless you set up the database accordingly (because your dummy class won't have a database table backing it). Moreover, you'll want to not only test the concern but also test the concern's behavior inside your model specs.</p>\n<p>So why not kill two birds with one stone? By using RSpec's <a href=\"https://rspec.info/features/3-12/rspec-core/example-groups/shared-examples/\" rel=\"nofollow noreferrer\">shared example groups</a>, you can test your concerns against the actual classes that use them (e.g., models) <em>and</em> you'll be able to test them everywhere they're used. And you only have to write the tests once and then just include them in any model spec that uses your concern. In your case, this might look something like this:</p>\n<pre><code># app/models/concerns/personable.rb\nmodule Personable\n  extend ActiveSupport::Concern\n\n  def full_name\n    &quot;#{first_name} #{last_name}&quot;\n  end\nend\n\n# spec/concerns/personable_spec.rb\nrequire 'spec_helper'\n\nRSpec.shared_examples_for &quot;personable&quot; do\n  let(:model) { described_class } # the class that includes the concern\n\n  it &quot;has a full name&quot; do\n    person = FactoryBot.build(model.to_s.underscore.to_sym, first_name: &quot;Stewart&quot;, last_name: &quot;Home&quot;)\n    expect(person.full_name).to eq(&quot;Stewart Home&quot;)\n  end\nend\n\n# spec/models/master_spec.rb\nrequire 'spec_helper'\nrequire Rails.root.join &quot;spec/concerns/personable_spec.rb&quot;\n\ndescribe Master do\n  it_behaves_like &quot;personable&quot;\nend\n\n# spec/models/apprentice_spec.rb\nrequire 'spec_helper'\n\ndescribe Apprentice do\n  it_behaves_like &quot;personable&quot;\nend\n</code></pre>\n<p>The advantages of this approach become even more obvious when you start doing things in your concern like invoking AR callbacks, where anything less than an AR object just won't do.</p>\n",
+      "owner": {
+        "display_name": "Josh Leitzel",
+        "link": "https://stackoverflow.com/users/86937/josh-leitzel"
+      }
+    },
+    {
+      "answer_id": 5239091,
+      "body": "<p><strong>Update</strong> (2013): Matt Connolly has provided a GIST which also works for request and controller specs: <a href=\"http://gist.github.com/4158961\" rel=\"nofollow noreferrer\">http://gist.github.com/4158961</a></p>\n<hr />\n<p>Another way of doing this if you have many tests to run and don't want to include it everytime (DRYer code):</p>\n<p><strong>Create a /spec/support/auth_helper.rb file:</strong></p>\n<pre><code>module AuthHelper\n  def http_login\n    user = 'username'\n    pw = 'password'\n    request.env['HTTP_AUTHORIZATION'] = ActionController::HttpAuthentication::Basic.encode_credentials(user,pw)\n  end  \nend\n</code></pre>\n<p><strong>In your test spec file:</strong></p>\n<pre><code>describe HomeController do\n  render_views\n\n  # login to http basic auth\n  include AuthHelper\n  before(:each) do\n    http_login\n  end\n\n  describe &quot;GET 'index'&quot; do\n    it &quot;should be successful&quot; do\n      get 'index'\n      response.should be_success\n    end\n  end\n\nend\n</code></pre>\n<p>Credit <a href=\"http://blog.tristanmedia.com/2010/07/testing-http-basic-authentication-with-rspec-2/\" rel=\"nofollow noreferrer\">here</a> - <a href=\"https://web.archive.org/web/20201022092340/http://blog.tristanmedia.com/2010/07/testing-http-basic-authentication-with-rspec-2/\" rel=\"nofollow noreferrer\">Archived site</a></p>\n",
+      "owner": {
+        "display_name": "iwasrobbed",
+        "link": "https://stackoverflow.com/users/308315/iwasrobbed"
+      }
+    },
+    {
+      "answer_id": 7537225,
+      "body": "<p>CONGRATULATIONS on you endeavor into TDD with ROR I promise once you get going you will not look back.</p>\n<p>The simplest quick and dirty solution will be to generate a new valid model before each of your tests like this:</p>\n<pre><code> before(:each) do\n    @user = User.new\n    @user.username = &quot;a valid username&quot;\n end\n</code></pre>\n<p>BUT what I suggest is you set up factories for all your models that will generate a valid model for you automatically and then you can muddle with individual attributes and see if your validation. I like to use <a href=\"https://github.com/thoughtbot/factory_girl\" rel=\"nofollow noreferrer\">FactoryGirl</a> for this:</p>\n<p>Basically once you get set up your test would look something like this:</p>\n<pre><code>it &quot;should have valid factory&quot; do\n    FactoryGirl.build(:user).should be_valid\nend\n\nit &quot;should require a username&quot; do\n    FactoryGirl.build(:user, :username =&gt; &quot;&quot;).should_not be_valid\nend\n</code></pre>\n<p>Here is <a href=\"http://railscasts.com/episodes/158-factories-not-fixtures\" rel=\"nofollow noreferrer\">a good railscast</a> that explains it all better than me:</p>\n<hr />\n<p><em>UPDATE: As of <a href=\"http://robots.thoughtbot.com/post/19412394597/factory-girl-hits-3-0\" rel=\"nofollow noreferrer\">version 3.0</a> the syntax for factory girl has changed. I have amended my sample code to reflect this.</em></p>\n",
+      "owner": {
+        "display_name": "Matthew",
+        "link": "https://stackoverflow.com/users/818091/matthew"
+      }
+    },
+    {
+      "answer_id": 41626919,
+      "body": "<p><code>transient</code> attributes allow you to pass in data that <strong>isn’t an attribute</strong> on the model.</p>\n<p>Say you have a model called <code>car</code> with the following attributes:</p>\n<ul>\n<li>name</li>\n<li>purchase_price</li>\n<li>model</li>\n</ul>\n<p>You want to capitalize the name of the car when you create the car model in the factory. What we can do is:</p>\n<pre><code>factory :car do\n  transient do\n    # capitalize is not an attribute of the car\n    capitalize  false\n  end\n\n  name           { &quot;Jacky&quot; }\n  purchase_price { 1000 }\n  model          { &quot;Honda&quot; }\n \n  after(:create) do |car, evaluator|\n    car.name.upcase! if evaluator.capitalize\n  end\nend\n</code></pre>\n<p>Hence, whenever you create the car factory and you want to capitalize the name. You can do</p>\n<pre><code>car = FactoryGirl.create(:car, capitalize: true)\ncar.name\n# =&gt; &quot;JACKY&quot;\n</code></pre>\n",
+      "owner": {
+        "display_name": "KC S",
+        "link": "https://stackoverflow.com/users/5649135/kc-s"
+      }
+    },
+    {
+      "answer_id": 15648208,
+      "body": "<p>People seem to have explained some of the basic ways in which they differ, but left out <code>before(:all)</code> and don't explain exactly why they should be used.</p>\n<p>It's my belief that instance variables have no place being used in the vast majority of specs, partly due to the reasons mentioned in <a href=\"https://stackoverflow.com/a/14118197/127311\">this answer</a>, so I won't mention them as an option here.</p>\n<p><strong>let blocks</strong></p>\n<p>Code within a <code>let</code> block is only executed when referenced, lazy loading this means that ordering of these blocks is irrelevant. This gives you a large amount of power to cut down on repeated setup through your specs.</p>\n<p>One (extremely small and contrived) example of this is:</p>\n<pre><code>let(:person)     { build(:person) }\nsubject(:result) { Library.calculate_awesome(person, has_moustache) }\n\ncontext 'with a moustache' do\n  let(:has_moustache) { true } \n  its(:awesome?)      { should be_true }\nend\n\ncontext 'without a moustache' do\n  let(:has_moustache) { false } \n  its(:awesome?)      { should be_false }\nend\n</code></pre>\n<p>You can see that <code>has_moustache</code> is defined differently in each case, but there's no need to repeat the <code>subject</code> definition. Something important to note is that the last <code>let</code> block defined in the current context will be used. This is good for setting a default to be used for the majority of specs, which can be overwritten if needed.</p>\n<p>For instance, checking the return value of <code>calculate_awesome</code> if passed a <code>person</code> model with <code>top_hat</code> set to true, but no moustache would be:</p>\n<pre><code>context 'without a moustache but with a top hat' do\n  let(:has_moustache) { false } \n  let(:person)        { build(:person, top_hat: true) }\n  its(:awesome?)      { should be_true }\nend\n</code></pre>\n<p>Another thing to note about let blocks, they should not be used if you're searching for something which has been saved to the database (i.e. <code>Library.find_awesome_people(search_criteria)</code>) as they will not be saved to the database unless they have already been referenced. <code>let!</code> or <code>before</code> blocks are what should be used here.</p>\n<p>Also, <em>never <strong>ever</strong></em> use <code>before</code> to trigger execution of <code>let</code> blocks, this is what <code>let!</code> is made for!</p>\n<p><strong>let! blocks</strong></p>\n<p><code>let!</code> blocks are executed in the order they are defined (much like a before block). The one core difference to before blocks is that you get an explicit reference to this variable, rather than needing to fall back to instance variables.</p>\n<p>As with <code>let</code> blocks, if multiple <code>let!</code> blocks are defined with the same name, the most recent is what will be used in execution. The core difference being that <code>let!</code> blocks will be executed multiple times if used like this, whereas the <code>let</code> block will only execute the last time.</p>\n<p><strong>before(:each) blocks</strong></p>\n<p><code>before(:each)</code> is the default before block, and can therefore be referenced as <code>before {}</code> rather than specifying the full <code>before(:each) {}</code> each time.</p>\n<p>It's my personal preference to use <code>before</code> blocks in a few core situations. I will use before blocks if:</p>\n<ul>\n<li>I'm using mocking, stubbing or doubles</li>\n<li>There is any reasonable sized setup (generally this is a sign your factory traits haven't been setup correctly)</li>\n<li>There's a number of variables which I don't need to reference directly, but are required for setup</li>\n<li>I'm writing functional controller tests in rails, and I want to execute a specific request to test (i.e. <code>before { get :index }</code>). Even though you could use <code>subject</code> for this in a lot of cases, it sometimes feels more explicit if you don't require a reference.</li>\n</ul>\n<p>If you find yourself writing large <code>before</code> blocks for your specs, check your factories and make sure you fully understand traits and their flexibility.</p>\n<p><strong>before(:all) blocks</strong></p>\n<p>These are only ever executed once, before the specs in the current context (and its children). These can be used to great advantage if written correctly, as there are certain situations this can cut down on execution and effort.</p>\n<p>One example (which would hardly affect execution time at all) is mocking out an ENV variable for a test, which you should only ever need to do once.</p>\n",
+      "owner": {
+        "display_name": "Jay",
+        "link": "https://stackoverflow.com/users/127311/jay"
+      }
+    },
+    {
+      "answer_id": 15193953,
+      "body": "<p>The conceptual difference is that you're usually testing a user story, and all interaction should be driven via the user interface.  That's where Capybara comes in.  A request spec is still testing the behavior of your application and doesn't have the expectation of readability that an acceptance test would have.  So, feature is there for the improved syntax for acceptance tests.</p>\n<p>Technical differences include request specs wrap Rails integration tests, whereas feature specs don't. This means with request specs you can use methods get, post, put, delete and assert against response.  With feature specs you should drive all interaction through the browser and use methods like visit and assert against the page.</p>\n<p>I'd recommend reading the feature_spec.feature in the rspec-rails source code on github.</p>\n",
+      "owner": {
+        "display_name": "Richard Jordan",
+        "link": "https://stackoverflow.com/users/444134/richard-jordan"
+      }
+    },
+    {
+      "answer_id": 5072879,
+      "body": "<p>You can tag examples with <code>:focus</code> hash attribute. For example,</p>\n<pre class=\"lang-ruby prettyprint-override\"><code># spec/foo_spec.rb\nRSpec.describe Foo do\n  it 'is never executed' do\n    raise &quot;never reached&quot;\n  end\n\n  it 'runs this spec', focus: true do\n    expect(1).to eq(1)\n  end\nend\n</code></pre>\n<pre class=\"lang-sh prettyprint-override\"><code>rspec --tag focus spec/foo_spec.rb\n</code></pre>\n<p>More info on <a href=\"https://github.com/rspec/rspec-core/commit/aa6f7e8744abb4bdc2060fb32a58bd2aeea04e14\" rel=\"noreferrer\">GitHub</a>. (anyone with a better link, please advise)</p>\n<p><em>(update)</em></p>\n<p>RSpec is now <a href=\"http://relishapp.com/rspec\" rel=\"noreferrer\">superbly documented on relishapp.com</a>. See the <a href=\"https://relishapp.com/rspec/rspec-core/docs/command-line/tag-option\" rel=\"noreferrer\">--tag option</a> section for details.</p>\n<p>As of v2.6 this kind of tag can be expressed even more simply by including the configuration option <code>treat_symbols_as_metadata_keys_with_true_values</code>, which allows you to do:</p>\n<p><code>describe &quot;Awesome feature&quot;, :awesome do</code></p>\n<p>where <code>:awesome</code> is treated as if it were <code>:awesome =&gt; true</code>.</p>\n<p>Also, see <a href=\"https://stackoverflow.com/a/23877132/17410\">this answer</a> for how to configure RSpec to automatically run 'focused' tests. This works especially well with <a href=\"http://guardgem.org/\" rel=\"noreferrer\">Guard</a>.</p>\n",
+      "owner": {
+        "display_name": "zetetic",
+        "link": "https://stackoverflow.com/users/17410/zetetic"
+      }
+    },
+    {
+      "answer_id": 144063,
+      "body": "<p>Or you can skip rake and use the 'rspec' command:</p>\n<pre><code>bundle exec rspec path/to/spec/file.rb\n</code></pre>\n<p>In your case I think as long as your ./spec/db_spec.rb file includes the appropriate helpers, it should work fine.</p>\n<p>If you're using an older version of rspec it is:</p>\n<pre><code>bundle exec spec path/to/spec/file.rb\n</code></pre>\n",
+      "owner": {
+        "display_name": "Cameron Booth",
+        "link": "https://stackoverflow.com/users/14873/cameron-booth"
+      }
+    },
+    {
+      "answer_id": 9322477,
+      "body": "<p>This isn't very specific to FactoryGirl, but you can always bypass validations when saving models via <code>save(validate: false)</code>:</p>\n<pre class=\"lang-rb prettyprint-override\"><code>describe &quot;.current&quot; do\n  let!(:current_group) { FactoryGirl.create(:group) }\n\n  let!(:old_group) do\n    g = FactoryGirl.build(:group, expiry: Time.now - 3.days)\n    g.save(validate: false)\n    g\n end\n      \n specify { Group.current.should == [current_group] }\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "Brandan",
+        "link": "https://stackoverflow.com/users/1133199/brandan"
+      }
+    },
+    {
+      "answer_id": 5843513,
+      "body": "<pre class=\"lang-ruby prettyprint-override\"><code>RSpec.describe UserMailer do\n  before do\n    # ActionMailer::Base.deliveries is a regular array\n    ActionMailer::Base.deliveries = []\n\n    # or use ActionMailer::Base.deliveries.clear\n  end\n\n  it &quot;sends welcome email&quot; do\n    user = create(:user)\n    UserMailer.welcome_email(user).deliver_now\n    expect(ActionMailer::Base.deliveries).to be_present\n  end\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "Peter Brown",
+        "link": "https://stackoverflow.com/users/167614/peter-brown"
+      }
+    },
+    {
+      "answer_id": 5085842,
+      "body": "<p>10 seconds is a very long time for any single test to run. My gut feeling is that your spec target is running both unit and integration tests at the same time. This is a typical thing that projects fall into and at some stage, you <em>will need to overcome this technical debt</em> if you want to produce more, faster. There are a number of strategies which can help you to do this... and I'll recommend a few that I have used in the past.</p>\n\n<p><strong>1. Separate Unit From Integration Tests</strong></p>\n\n<p>The first thing I would do is to separate unit from integration tests. You can do this either by:</p>\n\n<ol>\n<li>Moving them (into separate folders under the spec directory) - and modifying the rake targets</li>\n<li>Tagging them (rspec allows you to tag your tests)</li>\n</ol>\n\n<p>The philosophy goes, that you want your regular builds to be quick - otherwise people won't be too happy to run them often. So get back to that territory. Get your regular tests to run quick, and use a continuous integration server to run the more complete build.</p>\n\n<p>An integration test is a test that involves external dependencies (e.g. Database, WebService, Queue, and some would argue FileSystem). A unit test just tests the specific item of code that you want checked. It should run fast (9000 in 45 secs is possible), i.e. most of it should run in memory.</p>\n\n<p><strong>2. Convert Integration Tests To Unit Tests</strong></p>\n\n<p>If the bulk of your unit tests is smaller than your integration test suite, you have a problem. What this means is that inconsistencies will begin to appear more easily. So from here, start creating more unit tests to replace integration tests. Things you can do to help in this process are:</p>\n\n<ol>\n<li>Use a mocking framework instead of the real resource. Rspec has an inbuilt mocking framework.</li>\n<li>Run rcov on your unit test suite. Use that to gauge how thorough your unit test suite is.</li>\n</ol>\n\n<p>Once you have a proper unit test(s) to replace an integration test - remove the integration test. Duplicate testing only makes maintenance worse.</p>\n\n<p><strong>3. Don't Use Fixtures</strong></p>\n\n<p>Fixtures are evil. Use a factory instead (machinist or factorybot). These systems can build more adaptable graphs of data, and more importantly, they can build in-memory objects which you can use, rather than load things from an external data source.</p>\n\n<p><strong>4. Add Checks To Stop Unit Tests Becoming Integration Tests</strong></p>\n\n<p>Now that you have faster testing in place, time to put in checks to STOP this from occurring again.</p>\n\n<p>There are libraries which monkey patch active record to throw an error when trying to access the database (UnitRecord).</p>\n\n<p>You could also try pairing and TDD which can help force your team to write faster tests because:</p>\n\n<ol>\n<li>Somebody's checking - so nobody gets lazy</li>\n<li>Proper TDD requires fast feedback. Slow tests just make the whole thing painful.</li>\n</ol>\n\n<p><strong>5. Use Other Libraries To Overcome The Problem</strong></p>\n\n<p>Somebody mentioned spork (speeds up load times for the test suite under rails3), hydra/parallel_tests - to run unit tests in parallel (across multiple cores).</p>\n\n<p>This should probably be used LAST. Your real problem is all the way in step 1, 2, 3. Solve that and you will be in a better position to role out additional infrastructure.</p>\n",
+      "owner": {
+        "display_name": "BlueFish",
+        "link": "https://stackoverflow.com/users/187422/bluefish"
+      }
+    },
+    {
+      "answer_id": 20403290,
+      "body": "<p>Ruby Time object maintains greater precision than the database does.  When the value is read back from the database, it’s only preserved to microsecond precision, while the in-memory representation is precise to nanoseconds.</p>\n\n<p>If you don't care about millisecond difference, you could do a to_s/to_i on both sides of your expectation</p>\n\n<pre><code>expect(@article.updated_at.utc.to_s).to eq(Time.now.to_s)\n</code></pre>\n\n<p>or</p>\n\n<pre><code>expect(@article.updated_at.utc.to_i).to eq(Time.now.to_i)\n</code></pre>\n\n<p>Refer to <a href=\"https://tddium.wordpress.com/2011/08/07/rails-time-comparisons-devil-details-etc/\" rel=\"noreferrer\">this</a> for more information about why the times are different</p>\n",
+      "owner": {
+        "display_name": "usha",
+        "link": "https://stackoverflow.com/users/2112633/usha"
+      }
+    },
+    {
+      "answer_id": 30358688,
+      "body": "<p>The Gemfile is just a text file within your project which contains a list of gems for use in your application.</p>\n\n<p>If you do not have one in your application, you can create the file using an editor of your choice, saving it as <code>Gemfile</code> (with no extension), and in your example, containing:</p>\n\n<pre><code>source 'https://rubygems.org'\n\ngem 'rspec'\n</code></pre>\n",
+      "owner": {
+        "display_name": "CDub",
+        "link": "https://stackoverflow.com/users/1174001/cdub"
+      }
+    },
+    {
+      "answer_id": 18445855,
+      "body": "<p>You can create a list like this (hence create x objects at once):</p>\n\n<pre><code>FactoryBot.create_list(:model_1, 3)\n</code></pre>\n\n<p>Documentation <a href=\"https://github.com/thoughtbot/factory_bot/blob/master/GETTING_STARTED.md\" rel=\"noreferrer\">lives here</a>.</p>\n\n<p><a href=\"https://thoughtbot.com/blog/factory_bot\" rel=\"noreferrer\">Note: FactoryBot was originally named FactoryGirl</a></p>\n",
+      "owner": {
+        "display_name": "apneadiving",
+        "link": "https://stackoverflow.com/users/350087/apneadiving"
+      }
+    },
+    {
+      "answer_id": 11762741,
+      "body": "<p>RSpec and Cucumber are both testing frameworks. RSpec includes traditional Unit Testing (which means testing a class or part of the application in isolation from the rest of the application. So your model does what your model is supposed to do, the controller does what it is supposed to do, etc).</p>\n\n<p>RSpec and Cucumber both are used for Acceptance Testing (Which is called ATDD, BDD, Specification by Example, etc depending on who you ask). These are business-case driven Integration Tests, which mean they simulate the way a user uses the application and uses the full Rails stack so problems with the way the different parts of your application work together can be found in a way that unit testing will not find.</p>\n\n<p>The main difference between RSpec and Cucumber are the business readability factor. Cucumber's main draw is that the specification (features) are separate from the test code, so your product owners can provide or review the specification without having to dig through code. These are the .feature files that you make in Cucumber. RSpec has a similar mechanism, but instead you describe a step with a Describe, Context or It block that contains the business specification, and then immediately have the code that executes that statement. This approach is a little easier for developers to work with but a little harder for non-technical folks.</p>\n\n<p>Which to use? If you are the sole developer and product owner, then I would stick with RSpec, I feel it's easier to a technical person to understand, offers a few advantages in keeping things scoped and under control, and keep you out of messing with RegExs for test steps. If you are building this for a client, and they are hands-on with regard to the Specification, go with Cucumber for your Acceptance Test and use RSpec for Unit Tests.</p>\n\n<p>Just to demonstrate the main difference between the two:</p>\n\n<p>Cucumber:</p>\n\n<pre><code>#articles.feature\nGiven an article exists called \"Testing Demonstration\"\nWhen I visit the list of articles\nThen I should see an article called \"Testing Demonstration\"\n\n#article_steps.rb\nGiven /^an article exists called \"(.+)\"$/ do |title|\n  FactoryGirl.create(:article, title: title)\nend \nWhen /^I visit the list of articles$/ do\n  visit articles_path\nend\nThen /^I should see an article called \"(.+)\"$/ do |title|\n  page.should have_content title\nend\n</code></pre>\n\n<p>Rspec</p>\n\n<pre><code>describe \"Articles\" do\n  let(:article) { FactoryGirl.create(:article) }\n  context \"Index Page\" do\n    before { visit articles_path }\n    it { page.should have_content article.title }\n  end\nend\n</code></pre>\n\n<p>This <a href=\"http://everydayrails.com/2012/03/12/testing-series-intro.html\" rel=\"noreferrer\">blog</a> series is excellent on getting going with RSpec.</p>\n",
+      "owner": {
+        "display_name": "DVG",
+        "link": "https://stackoverflow.com/users/359380/dvg"
+      }
+    },
+    {
+      "answer_id": 54616209,
+      "body": "<p>Not sure how long this has bee available but there is an Rspec configuration for run filtering - so now you can add this to your <code>spec_helper.rb</code>:</p>\n\n<pre><code>RSpec.configure do |config|\n  config.filter_run_when_matching :focus\nend\n</code></pre>\n\n<p>And then add a focus tag to the <code>it</code>, <code>context</code> or <code>describe</code> to run only that block:</p>\n\n<pre><code>it 'runs a test', :focus do\n  ...test code\nend\n</code></pre>\n\n<p>RSpec documentation:</p>\n\n<p><a href=\"https://www.rubydoc.info/github/rspec/rspec-core/RSpec/Core/Configuration#filter_run_when_matching-instance_method\" rel=\"noreferrer\">https://www.rubydoc.info/github/rspec/rspec-core/RSpec/Core/Configuration#filter_run_when_matching-instance_method</a></p>\n",
+      "owner": {
+        "display_name": "eazy_beans",
+        "link": "https://stackoverflow.com/users/1753835/eazy-beans"
+      }
+    },
+    {
+      "answer_id": 7733555,
+      "body": "<p>Creating these kinds of associations requires using FactoryGirl's callbacks.</p>\n\n<p>A perfect set of examples can be found here.</p>\n\n<p><a href=\"https://thoughtbot.com/blog/aint-no-calla-back-girl\" rel=\"noreferrer\">https://thoughtbot.com/blog/aint-no-calla-back-girl</a></p>\n\n<p>To bring it home to your example.</p>\n\n<pre><code>Factory.define :listing_with_features, :parent =&gt; :listing do |listing|\n  listing.after_create { |l| Factory(:feature, :listing =&gt; l)  }\n  #or some for loop to generate X features\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "winfred",
+        "link": "https://stackoverflow.com/users/319042/winfred"
+      }
+    },
+    {
+      "answer_id": 5359979,
+      "body": "<p>I always prefer <code>let</code> to an instance variable for a couple of reasons:</p>\n\n<ul>\n<li>Instance variables spring into existence when referenced.  This means that if you fat finger the spelling of the instance variable, a new one will be created and initialized to <code>nil</code>, which can lead to subtle bugs and false positives.  Since <code>let</code> creates a method, you'll get a <code>NameError</code> when you misspell it, which I find preferable.  It makes it easier to refactor specs, too.</li>\n<li>A <code>before(:each)</code> hook will run before each example, even if the example doesn't use any of the instance variables defined in the hook.  This isn't usually a big deal, but if the setup of the instance variable takes a long time, then you're wasting cycles.  For the method defined by <code>let</code>, the initialization code only runs if the example calls it.</li>\n<li>You can refactor from a local variable in an example directly into a let without changing the\nreferencing syntax in the example.  If you refactor to an instance variable, you have to change\nhow you reference the object in the example (e.g. add an <code>@</code>).</li>\n<li>This is a bit subjective, but as Mike Lewis pointed out, I think it makes the spec easier to read.  I like the organization of defining all my dependent objects with <code>let</code> and keeping my <code>it</code> block nice and short.</li>\n</ul>\n\n<p><em>A related link can be found here: <a href=\"http://www.betterspecs.org/#let\" rel=\"noreferrer\">http://www.betterspecs.org/#let</a></em> </p>\n",
+      "owner": {
+        "display_name": "Myron Marston",
+        "link": "https://stackoverflow.com/users/29262/myron-marston"
+      }
+    },
+    {
+      "answer_id": 41187163,
+      "body": "<blockquote>\n  <p>A recent upgrade of Rubocop brought a new rule into play, that blocks should be no longer than 25 lines. I'm not sure of the rationale for it, because it is not listed in the Ruby style guide.</p>\n</blockquote>\n\n<p>It used to be that all the cops were based on The Ruby Style Guide, and RuboCop was a way to adhere to the practices set out by the community.</p>\n\n<p>Direction has changed since then, and the scope of RuboCop has expanded to help developers ensure consistency in their code bases in general. This has lead to two things:</p>\n\n<ol>\n<li>Cops (even those based on The Ruby Style Guide) are now mostly configuratble.</li>\n<li>There are cops for things that aren't mentioned in the Ruby Style Guide, but are still useful for enforcing consistency in a project.</li>\n</ol>\n\n<p>This cop falls in the second category.</p>\n\n<blockquote>\n  <p>Is RSpec using a now discredited approach for code layout, and what reasonable options do I have to reduce block sizes in our RSpec tests?</p>\n</blockquote>\n\n<p>Short answer is no. DSLs are still cool. :-)</p>\n\n<p>This cop is aimed at large block in the imperative programming sense. As a general guide, it does not apply to DSLs, which are often declarative. For example, having a long <code>routes.rb</code> file in Rails is perfectly benign. It's just a natural result of a large application, rather than a style violation. (And having a lot of tests is purely awesome.)</p>\n\n<p>Now, RuboCop is pretty smart, but it doesn't know what is a DSL and not, so we can't automatically ignore them. One could argue that we could exclude DSL entry methods of popular frameworks, like Rails routes and RSpec specs. The reasons for not doing so are primarily:</p>\n\n<ol>\n<li>False negatives. Any class can implement a method, taking a block, with the same name.</li>\n<li>RuboCop is a Ruby analysis tool, and shouldn't really know about external libraries. (Excluding the <code>/spec</code> directory is a courtesy until we have a proper extension system, and this can be handled by the <code>rubocop-rspec</code> gem.)</li>\n</ol>\n\n<blockquote>\n  <p>I mean, that's do-able, but turning bunches of spec examples into helper functions in this way seems to be the opposite of the readable approach encouraged by RSpec design.</p>\n</blockquote>\n\n<p>The bottom line is: RuboCop is there to help us write better code. If our application design is otherwise sound, and we find ourselves making things less readable merely to please RuboCop, then we should filter, configure, or disable the cop. :-)</p>\n\n<blockquote>\n  <p>In response, we have simply set the Rubocop block size rule to a high threshold. But that makes me wonder - what am I missing?</p>\n</blockquote>\n\n<p>This is a rather blunt tool and, as you're hinting at, you will probably have some false negatives because of it. There are two types of false positives for this cop:</p>\n\n<ol>\n<li>Files that contain purely declarative DSLs, e.g. Rails routes, RSpec specs.</li>\n<li>Files that have a declarative DSL mixed into mostly imperative code, e.g. an <code>aasm</code> state machine declaration in a Rails model.</li>\n</ol>\n\n<p>In the first case, the best solution is to exclude the file or directory, and in the second to use an inline disable.</p>\n\n<p>In your case, you should update your <code>.rubocop.yml</code> with:</p>\n\n<pre><code>Metrics/BlockLength:\n  Exclude:\n    - 'Rakefile'\n    - '**/*.rake'\n    - 'test/**/*.rb'\n</code></pre>\n\n<p>(Note that you need to re-iterate the basic excludes from the default configuration, since the list will be overwritten.)</p>\n",
+      "owner": {
+        "display_name": "Drenmi",
+        "link": "https://stackoverflow.com/users/1520557/drenmi"
+      }
+    },
+    {
+      "answer_id": 9884102,
+      "body": "<p>In your <code>config/application.rb</code> file :</p>\n\n<pre><code>config.generators do |g|\n  g.test_framework :rspec\nend\n</code></pre>\n\n<p>Now when you run your generators (example <code>rails generate scaffold post</code>), you get rspec test files. Remember to restart your server. For more information on generators see:</p>\n\n<p><a href=\"http://railscasts.com/episodes/216-generators-in-rails-3\" rel=\"noreferrer\">RailsCasts #216 Generators in Rails 3</a></p>\n\n<p>If you really want to use the integration_test generator you'll need to specifically modify the command:</p>\n\n<pre><code>rails g integration_test named --integration-tool=rspec\n</code></pre>\n",
+      "owner": {
+        "display_name": "Spyros",
+        "link": "https://stackoverflow.com/users/1580201/spyros"
+      }
+    },
+    {
+      "answer_id": 11665882,
+      "body": "<p>The <code>context</code> is an alias for <code>describe</code>, so they are functionally equivalent. You can use them interchangeably, the only difference is how your spec file reads. There is no difference in test output for example. The RSpec book says:</p>\n\n<blockquote>\n  <p>\"We tend to use <code>describe()</code> for things and <code>context()</code> for context\".</p>\n</blockquote>\n\n<p>Personally I like to use <code>describe</code>, but I can see why people prefer <code>context</code>.</p>\n\n<p><code>feature</code> and <code>scenario</code> are a part of Capybara, and not RSpec, and are meant to be used for acceptance tests. <code>feature</code> is equivalent to <code>describe</code> / <code>context</code>, and <code>scenario</code> equivalent to <code>it</code> / <code>example</code>. </p>\n\n<p>If you're writing acceptance tests with Capybara, use the <code>feature</code> / <code>scenario</code> syntax, if not use <code>describe</code> / <code>it</code> syntax.</p>\n",
+      "owner": {
+        "display_name": "Sam Peacey",
+        "link": "https://stackoverflow.com/users/946270/sam-peacey"
+      }
+    },
+    {
+      "answer_id": 21173752,
+      "body": "<p>When a <code>before(:all)</code> is defined in the <code>RSpec.configure</code> block it is called before each top level example group, while a <code>before(:suite)</code> code block is only called once.</p>\n\n<p>Here's an example:</p>\n\n<pre><code>RSpec.configure do |config|\n  config.before(:all) { puts 'Before :all' }\n  config.after(:all) { puts 'After :all' }\n  config.before(:suite) { puts 'Before :suite' }\n  config.after(:suite) { puts 'After :suite' }\nend\n\ndescribe 'spec1' do\n  example 'spec1' do\n    puts 'spec1'\n  end\nend\n\ndescribe 'spec2' do\n  example 'spec2' do\n    puts 'spec2'\n  end\nend\n</code></pre>\n\n<p>Output:</p>\n\n<pre><code>Before :suite\nBefore :all\nspec1\nAfter :all\nBefore :all\nspec2\nAfter :all\nAfter :suite\n</code></pre>\n",
+      "owner": {
+        "display_name": "Leo",
+        "link": "https://stackoverflow.com/users/1443270/leo"
+      }
+    },
+    {
+      "answer_id": 7219803,
+      "body": "<pre><code>Your::Application.routes.draw do\n  default_url_options :host =&gt; \"example.com\"\n\n  # ... snip ...\nend\n</code></pre>\n\n<p>Somewhere in <code>routes.rb</code> :)</p>\n",
+      "owner": {
+        "display_name": "d11wtq",
+        "link": "https://stackoverflow.com/users/322122/d11wtq"
+      }
+    },
+    {
+      "answer_id": 9577105,
+      "body": "<p>Try moving the <code>:format</code> key inside the params hash of the request, like this:</p>\n\n<pre><code>describe ApplicationsController do\n  render_views\n  disconnect_sunspot\n\n  let(:application) { Factory.create(:application) }\n\n  subject { application }\n\n  context \"JSON\" do\n\n    describe \"creating a new application\" do\n\n      context \"when not authorized\" do\n        it \"should not allow creation of an application\" do\n          params = { :format =&gt; 'json', :application =&gt; { :name =&gt; \"foo\", :description =&gt; \"bar\" } }\n          post :create, params \n          Expect(Application.count).to eq(0)\n          expect(response.status).to eq(403)\n          expect(JSON.parse(response.body)[\"status\"]).to eq(\"error\")\n          expect(JSON.parse(response.body)[\"message\"]).to match(/authorized/)\n        end \n\n\n      end \n\n      context \"authorized\" do\n      end \n    end\n  end\nend\n</code></pre>\n\n<p>Let me know how it goes! thats the way I have set my tests, and they are working just fine! </p>\n",
+      "owner": {
+        "display_name": "Arthur Neves",
+        "link": "https://stackoverflow.com/users/534150/arthur-neves"
+      }
+    },
+    {
+      "answer_id": 29389223,
+      "body": "<p>In RSpec 3 you can setup multiple conditions at once (so the single expectation rule is not broken). It would look sth like:</p>\n\n<pre><code>expect {\n  click_button 'Save'\n  @user.reload\n}.to change { @user.name }.from('donald').to('gustav')\n .and change { @user.updated_at }.by(4)\n .and change { @user.great_field }.by_at_least(23}\n .and change { @user.encrypted_password }\n</code></pre>\n\n<p>It is not a complete solution though - as far as my research went there is no easy way to do <code>and_not</code> yet. I am also unsure about your last check (if it doesn't matter, why test it?). Naturally you should be able to wrap it within your <a href=\"https://www.relishapp.com/rspec/rspec-expectations/v/2-4/docs/custom-matchers/define-matcher\" rel=\"noreferrer\">custom matcher</a>.</p>\n",
+      "owner": {
+        "display_name": "BroiSatse",
+        "link": "https://stackoverflow.com/users/2336231/broisatse"
+      }
+    },
+    {
+      "answer_id": 8484295,
+      "body": "<p>The methods are <a href=\"https://github.com/rspec/rspec-core/blob/80bdf067758678ee32191c04f4d479031e20606d/lib/rspec/core/example_group.rb#L53-L67\" rel=\"noreferrer\">the same</a>; they are provided to make specs read in English nicer based on the body of your test. Consider these two:</p>\n\n<pre><code>describe Array do\n  describe \"with 3 items\" do\n    before { @arr = [1, 2, 3] }\n\n    specify { @arr.should_not be_empty }\n    specify { @arr.count.should eq(3) }\n  end\nend\n\ndescribe Array do\n  describe \"with 3 items\" do\n    subject { [1, 2, 3] }\n\n    it { should_not be_empty }\n    its(:count) { should eq(3) }\n  end\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "Michelle Tilley",
+        "link": "https://stackoverflow.com/users/62082/michelle-tilley"
+      }
+    },
+    {
+      "answer_id": 43797196,
+      "body": "<blockquote>\n  <p>HTTP request methods will accept only the following keyword arguments\n  <code>params, headers, env, xhr, format</code></p>\n</blockquote>\n\n<p>According to the new API, you should use keyword arguments, <code>params</code> in this case:</p>\n\n<pre><code>  it 'should show field' do\n    get :show, params: { id: field.id }\n    expect(response.status).to eq(200)\n  end\n</code></pre>\n",
+      "owner": {
+        "display_name": "Roman Kiselenko",
+        "link": "https://stackoverflow.com/users/2057388/roman-kiselenko"
+      }
+    },
+    {
+      "answer_id": 2504164,
+      "body": "<p>I don't know about an automated way of doing it, but if you do:</p>\n\n<pre><code>script/generate controller your_model_name_in_plural new create update edit destroy index show\n</code></pre>\n\n<p>All of them will be created for you</p>\n\n<p><strong>Update for Rails 4</strong></p>\n\n<pre><code>rails g scaffold_controller Property\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marcos Placona",
+        "link": "https://stackoverflow.com/users/279395/marcos-placona"
+      }
+    },
+    {
+      "answer_id": 38209363,
+      "body": "<p>New Rails 5 command to generate binstubs:</p>\n\n<pre><code>rails app:update:bin\n</code></pre>\n\n<p>Allows me to run the solution as the error suggested:</p>\n\n<pre><code>bin/rails db:environment:set RAILS_ENV=test\n</code></pre>\n\n<p>Tip from @max comment: If you are using <code>database_cleaner</code> and this error keeps popping up then change your config to:</p>\n\n<pre><code>DatabaseCleaner.clean_with(\n  :truncation,\n  except: %w(ar_internal_metadata)\n)\n</code></pre>\n",
+      "owner": {
+        "display_name": "steel",
+        "link": "https://stackoverflow.com/users/2317928/steel"
+      }
+    },
+    {
+      "answer_id": 4755311,
+      "body": "<p><code>fill_in</code> accepts the id as first parameter:</p>\n\n<pre><code>fill_in 'course_group_courses_attributes_2_name', :with =&gt; 'some text'\n</code></pre>\n",
+      "owner": {
+        "display_name": "raid5ive",
+        "link": "https://stackoverflow.com/users/110315/raid5ive"
+      }
+    },
+    {
+      "answer_id": 15149241,
+      "body": "<p>Adding <code>require 'rails_helper'</code> at the top of my feature ended up fixing my problem:\n</p>\n\n<pre class=\"lang-rb prettyprint-override\"><code>require 'rails_helper'\n\ndescribe \"security\", :type =&gt; :feature do\n\n  it \"signs users in\" do\n    visit new_sessions_path\n    fill_in \"username\", :with =&gt; \"user\"\n    fill_in \"password\", :with =&gt; \"pass\"\n    click_button \"Sign In\"\n\n    page.should have_content('Login Successful')\n  end\nend\n</code></pre>\n\n<p>This seems odd to me since every example I've seen for rspec and capybara didn't have that require, but oh well. Problem solved.</p>\n\n<h1>Original Answer (older versions of rspec)</h1>\n\n<p><code>require 'spec_helper'</code> is used by older versions of RSpec. The better answer would be <code>require 'rails_helper'</code>.</p>\n",
+      "owner": {
+        "display_name": "lightswitch05",
+        "link": "https://stackoverflow.com/users/912563/lightswitch05"
+      }
+    },
+    {
+      "answer_id": 12720109,
+      "body": "<p>To disable a tree of specs using <strong>RSpec 3</strong> you can:</p>\n\n<pre><code>before { skip }\n# or \nxdescribe\n# or \nxcontext\n</code></pre>\n\n<p>You can add a message with <em>skip</em> that will show up in the output:</p>\n\n<pre><code>before { skip(\"Awaiting a fix in the gem\") }\n</code></pre>\n\n<p>with <strong>RSpec 2</strong>:</p>\n\n<pre><code>before { pending }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Pyro",
+        "link": "https://stackoverflow.com/users/1466765/pyro"
+      }
+    },
+    {
+      "answer_id": 27653104,
+      "body": "<p>If I understand you correctly, you could do:</p>\n\n<pre><code>message_delivery = instance_double(ActionMailer::MessageDelivery)\nexpect(ServiceMailer).to receive(:new_user).with(@user).and_return(message_delivery)\nallow(message_delivery).to receive(:deliver_later)\n</code></pre>\n\n<p>The key thing is that you need to somehow provide a double for <code>deliver_later</code>.</p>\n",
+      "owner": {
+        "display_name": "Peter Alfvin",
+        "link": "https://stackoverflow.com/users/1008891/peter-alfvin"
+      }
+    },
+    {
+      "answer_id": 4402193,
+      "body": "<p>I've updated this answer to match current best practices:</p>\n\n<p>Bundler supports gem development perfectly. If you are creating a gem, the <strong>only</strong> thing you need to have in your Gemfile is the following:</p>\n\n<pre><code>source \"https://rubygems.org\"\ngemspec\n</code></pre>\n\n<p>This tells Bundler to look inside your gemspec file for the dependencies when you run <code>bundle install</code>.</p>\n\n<p>Next up, make sure that RSpec is a development dependency of your gem. Edit the gemspec so it reads:</p>\n\n<pre><code>spec.add_development_dependency \"rspec\"\n</code></pre>\n\n<p>Next, create <code>spec/spec_helper.rb</code> and add something like:</p>\n\n<pre><code>require 'bundler/setup'\nBundler.setup\n\nrequire 'your_gem_name' # and any other gems you need\n\nRSpec.configure do |config|\n  # some (optional) config here\nend\n</code></pre>\n\n<p>The first two lines tell Bundler to load only the gems inside your gemspec. When you install your own gem on your own machine, this will force your specs to use your current code, not the version you have installed separately.</p>\n\n<p>Create a spec, for example <code>spec/foobar_spec.rb</code>:</p>\n\n<pre><code>require 'spec_helper'\ndescribe Foobar do\n  pending \"write it\"\nend\n</code></pre>\n\n<p>Optional: add a <code>.rspec</code> file for default options and put it in your gem's root path:</p>\n\n<pre><code>--color\n--format documentation\n</code></pre>\n\n<p>Finally: run the specs:</p>\n\n<pre><code>$ rspec spec/foobar_spec.rb\n</code></pre>\n",
+      "owner": {
+        "display_name": "iain",
+        "link": "https://stackoverflow.com/users/525636/iain"
+      }
+    },
+    {
+      "answer_id": 10503901,
+      "body": "<p>You can use an <em>xpath query</em> to check if there's an <code>input</code> element with a particular value (e.g. 'John'):</p>\n\n<pre><code>expect(page).to have_xpath(\"//input[@value='John']\")\n</code></pre>\n\n<p>See <a href=\"http://www.w3schools.com/xpath/xpath_syntax.asp\" rel=\"noreferrer\">http://www.w3schools.com/xpath/xpath_syntax.asp</a> for more info.</p>\n\n<p>For perhaps a prettier way:</p>\n\n<pre><code>expect(find_field('Your name').value).to eq 'John'\n</code></pre>\n\n<p>EDIT: Nowadays I'd probably use have_selector</p>\n\n<pre><code>expect(page).to have_selector(\"input[value='John']\")\n</code></pre>\n\n<p>If you are using the page object pattern(you should be!)</p>\n\n<pre><code>class MyPage &lt; SitePrism::Page\n  element :my_field, \"input#my_id\"\n\n  def has_secret_value?(value)\n    my_field.value == value\n  end\nend\n\nmy_page = MyPage.new\n\nexpect(my_page).to have_secret_value \"foo\"\n</code></pre>\n",
+      "owner": {
+        "display_name": "DVG",
+        "link": "https://stackoverflow.com/users/359380/dvg"
+      }
+    },
+    {
+      "answer_id": 6946446,
+      "body": "<p>In RSpec 2 and 3, you can use the <code>--profile</code> flag or add <code>--profile</code> to your <code>.rspec</code> file. This will track the top 10 slowest examples.</p>\n\n<p>For RSpec 1, you can use <code>--format o</code> with <code>spec</code> command. It shows a text-based progress bar with profiling of 10 slowest examples. For more details <a href=\"http://rspec.info/documentation/tools/spec.html\" rel=\"noreferrer\">see this</a>.</p>\n\n<pre><code>rspec --profile -- path/to/file/spec.rb\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ocaj Nires",
+        "link": "https://stackoverflow.com/users/877249/ocaj-nires"
+      }
+    },
+    {
+      "answer_id": 5228425,
+      "body": "<p>I've updated this answer to reflect modern conventions in capybara. I think this is ideal since this is the accepted answer, and what many people are being referred to when looking for a solution. With that said, the correct way to check the current path is to use the <code>has_current_path?</code> matcher provided by Capybara, as documented here: <a href=\"http://www.rubydoc.info/github/jnicklas/capybara/Capybara/SessionMatchers#has_current_path%3F-instance_method\" rel=\"noreferrer\">Click Here</a></p>\n\n<p>Example usage:</p>\n\n<pre><code>expect(page).to have_current_path(people_path(search: 'name'))\n</code></pre>\n\n<p>As you can see in the documentation, other options are available. If the current page is <code>/people?search=name</code> but you only care that it's on the <code>/people</code> page regardless of the param, you can send the <code>only_path</code> option:</p>\n\n<pre><code>expect(page).to have_current_path(people_path, only_path: true)\n</code></pre>\n\n<p>Additionally, if you want to compare the entire URL:</p>\n\n<pre><code>expect(page).to have_current_path(people_url, url: true)\n</code></pre>\n\n<p>Credit to Tom Walpole for pointing out this method.</p>\n",
+      "owner": {
+        "display_name": "nzifnab",
+        "link": "https://stackoverflow.com/users/649006/nzifnab"
+      }
+    },
+    {
+      "answer_id": 5591812,
+      "body": "<p>If you run your specs directly with the ruby command instead of the spec wrapper, you can use the -W command line option to silence warnings:</p>\n\n<pre><code>$ ruby --help\n[...]\n  -W[level]       set warning level; 0=silence, 1=medium, 2=verbose (default)\n</code></pre>\n\n<p>So in your case:</p>\n\n<pre><code>$ ruby -W0 -Ispec spec/models/event_spec.rb\n</code></pre>\n\n<p>should not show you any warnings.</p>\n\n<p>Alternatively, you could set $VERBOSE=nil before your gems are loaded, ie at the top of your environment.rb (or application.rb if you're on Rails 3). Note that this disables all warnings all the time.</p>\n\n<p>Or, since you are using Rails, you should be able to use Kernel.silence_warnings around the Bundler.require block if you're using Bundler:</p>\n\n<pre><code>Kernel.silence_warnings do\n  Bundler.require(:default, Rails.env) if defined?(Bundler)\nend\n</code></pre>\n\n<p>More selectively, set $VERBOSE only for loading specific gems:</p>\n\n<pre><code>config.gem 'wellbehaving_gem'\noriginal_verbosity = $VERBOSE\n$VERBOSE = nil\nconfig.gem 'noisy_gem_a'\n$VERBOSE = original_verbosity\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jakob S",
+        "link": "https://stackoverflow.com/users/33245/jakob-s"
+      }
+    },
+    {
+      "answer_id": 38459039,
+      "body": "<p>Summary: RSpec's subject is a special variable that refers to the object being tested. Expectations can be set on it implicitly, which supports one-line examples. It is clear to the reader in some idiomatic cases, but is otherwise hard to understand and should be avoided. RSpec's <code>let</code> variables are just lazily instantiated (memoized) variables. They aren't as hard to follow as the subject, but can still lead to tangled tests so should be used with discretion.</p>\n\n<h1>The subject</h1>\n\n<h2>How it works</h2>\n\n<p>The subject is the object being tested. RSpec has an explicit idea of the subject. It may or may not be defined. If it is, RSpec can call methods on it without referring to it explicitly.</p>\n\n<p>By default, if the first argument to an outermost example group (<code>describe</code> or <code>context</code> block) is a class, RSpec creates an instance of that class and assigns it to the subject. For example, the following passes:</p>\n\n<pre><code>class A\nend\n\ndescribe A do\n  it \"is instantiated by RSpec\" do\n    expect(subject).to be_an(A)\n  end\nend\n</code></pre>\n\n<p>You can define the subject yourself with <code>subject</code>:</p>\n\n<pre><code>describe \"anonymous subject\" do\n  subject { A.new }\n  it \"has been instantiated\" do\n    expect(subject).to be_an(A)\n  end\nend\n</code></pre>\n\n<p>You can give the subject a name when you define it:</p>\n\n<pre><code>describe \"named subject\" do\n  subject(:a) { A.new }\n  it \"has been instantiated\" do\n    expect(a).to be_an(A)\n  end\nend\n</code></pre>\n\n<p>Even if you name the subject, you can still refer to it anonymously:</p>\n\n<pre><code>describe \"named subject\" do\n  subject(:a) { A.new }\n  it \"has been instantiated\" do\n    expect(subject).to be_an(A)\n  end\nend\n</code></pre>\n\n<p>You can define more than one named subject. The most recently defined named subject is the anonymous <code>subject</code>.</p>\n\n<p>However the subject is defined,</p>\n\n<ol>\n<li><p>It's instantiated lazily. That is, the implicit instantiation of the described class or the execution of the block passed to <code>subject</code> doesn't happen until <code>subject</code> or the named subject is referred to in an example. If you want your explict subject to be instantiated eagerly (before an example in its group runs), say <code>subject!</code> instead of <code>subject</code>.</p></li>\n<li><p>Expectations can be set on it implicitly (without writing <code>subject</code> or the name of a named subject):</p>\n\n<pre><code>describe A do\n  it { is_expected.to be_an(A) }\nend\n</code></pre>\n\n<p>The subject exists to support this one-line syntax.</p></li>\n</ol>\n\n<h2>When to use it</h2>\n\n<p>An implicit <code>subject</code> (inferred from the example group) is hard to understand because</p>\n\n<ul>\n<li>It's instantiated behind the scenes.</li>\n<li>Whether it's used implicitly (by calling <code>is_expected</code> without an explicit receiver) or explicitly (as <code>subject</code>), it gives the reader no information about the role or nature of the object on which the expectation is being called.</li>\n<li>The one-liner example syntax doesn't have an example description (the string argument to <code>it</code> in the normal example syntax), so the only information the reader has about the purpose of the example is the expectation itself.</li>\n</ul>\n\n<p>Therefore, <strong>it's only helpful to use an implicit subject when the context is likely to be well understood by all readers and there is really no need for an example description</strong>. The canonical case is testing ActiveRecord validations with shoulda matchers:</p>\n\n<pre><code>describe Article do\n  it { is_expected.to validate_presence_of(:title) }\nend\n</code></pre>\n\n<p>An explict anonymous <code>subject</code> (defined with <code>subject</code> without a name) is a little better, because the reader can see how it's instantiated, but</p>\n\n<ul>\n<li>it can still put the instantiation of the subject far from where it's used (e.g. at the top of an example group with many examples that use it), which is still hard to follow, and</li>\n<li>it has the other problems that the implicit subject does.</li>\n</ul>\n\n<p>A named subject provides an intention-revealing name, but the only reason to use a named subject instead of a <code>let</code> variable is if you want to use the anonymous subject some of the time, and we just explained why the anonymous subject is hard to understand.</p>\n\n<p>So, <strong>legitimate uses of an explicit anonymous <code>subject</code> or a named subject are very rare</strong>.</p>\n\n<h1><code>let</code> variables</h1>\n\n<h2>How they work</h2>\n\n<p><code>let</code> variables are just like named subjects except for two differences:</p>\n\n<ul>\n<li>they're defined with <code>let</code>/<code>let!</code> instead of <code>subject</code>/<code>subject!</code></li>\n<li>they do not set the anonymous <code>subject</code> or allow expectations to be called on it implicitly.</li>\n</ul>\n\n<h2>When to use them</h2>\n\n<p><strong>It's completely legitimate to use <code>let</code> to reduce duplication among examples. However, do so only when it doesn't sacrifice test clarity.</strong> The safest time to use <code>let</code> is when the <code>let</code> variable's purpose is completely clear from its name (so that the reader doesn't have to find the definition, which could be many lines away, to understand each example) and it is used in the same way in every example. If either of those things isn't true, consider defining the object in a plain old local variable or calling a factory method right in the example.</p>\n\n<p><strong><code>let!</code> is risky, because it's not lazy.</strong> If someone adds an example to the example group that contains the <code>let!</code>, but the example doesn't need the <code>let!</code> variable,</p>\n\n<ul>\n<li>that example will be hard to understand, because the reader will see the <code>let!</code> variable and wonder whether and how it affects the example</li>\n<li>the example will be slower than it needs to be, because of the time taken to create the <code>let!</code> variablle</li>\n</ul>\n\n<p>So use <code>let!</code>, if at all, only in small, simple example groups where it's less likely that future example writers will fall into that trap.</p>\n\n<h1>The single-expectation-per-example fetish</h1>\n\n<p>There is a common overuse of subjects or <code>let</code> variables that's worth discussing separately. Some people like to use them like this:</p>\n\n<pre><code>describe 'Calculator' do\n  describe '#calculate' do\n    subject { Calculator.calculate }\n    it { is_expected.to be &gt;= 0 }\n    it { is_expected.to be &lt;= 9 }\n  end\nend\n</code></pre>\n\n<p>(This is a simple example of a method that returns a number for which we need two expectations, but this style can have many more examples/expectations if the method returns a more complicated value that needs many expectations and/or has many side effects that all need expectations.)</p>\n\n<p>People do this because they've heard that one should have only one expectation per example (which is mixed up with the valid rule that one should only test one method call per example) or because they're in love with RSpec trickiness. Don't do it, whether with an anonymous or named subject or a <code>let</code> variable! This style has several problems:</p>\n\n<ul>\n<li>The anonymous subject isn't the subject of the examples — the <em>method</em> is the subject. Writing the test this way screws up the language, making it harder to think about.</li>\n<li>As always with one-line examples, there isn't any room to explain the meaning of the expectations.</li>\n<li>The subject has to be constructed for each example, which is slow.</li>\n</ul>\n\n<p>Instead, write a single example:</p>\n\n<pre><code>describe 'Calculator' do\n  describe '#calculate' do\n    it \"returns a single-digit number\" do\n      result = Calculator.calculate\n      expect(result).to be &gt;= 0\n      expect(result).to be &lt;= 9\n    end\n  end\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dave Schweisguth",
+        "link": "https://stackoverflow.com/users/634576/dave-schweisguth"
+      }
+    },
+    {
+      "answer_id": 19557221,
+      "body": "<p>You probably know how to use <code>describe</code>, <code>context</code>, <code>it</code> and <code>specify</code> to clearly communicate one aspect of your code. The nested context provided by <code>it_behaves_like</code> can be used to improve this communication with the reader.</p>\n\n<p>I will base my example on the example given in the RSpec documentation for <a href=\"https://www.relishapp.com/rspec/rspec-core/v/2-14/docs/example-groups/shared-examples\" rel=\"noreferrer\">shared examples</a>:</p>\n\n<pre><code>shared_examples \"a collection\" do\n  context \"initialized with 3 items\" do\n    it \"says it has three items\" do\n      # ...\n    end\n  end\nend\n\ndescribe Array do\n  it_behaves_like \"a collection\"\n  include_examples \"a collection\"\nend\n</code></pre>\n\n<p>If you run RSpec with <code>--format documentation</code> you get the following output:</p>\n\n<pre><code>Array\n  behaves like a collection\n    initialized with 3 items\n      says it has three items\n  initialized with 3 items\n    says it has three items\n</code></pre>\n\n<p>So the difference is how the spec is read eg in case of a failure.</p>\n\n<p>Which style you prefer is a question of aesthetics of how you like your specs to read. Furthermore you would suggest to always use the same style if you work in a team to improve consistency.</p>\n\n<hr>\n\n<blockquote>\n  <p>Also, are it_should_behave_like and it_behaves_like just synonyms?</p>\n</blockquote>\n\n<p>Almost, the context is named differently. <code>it should behave like ...</code> vs <code>behaves like ...</code>. Again a question of aesthetics.</p>\n",
+      "owner": {
+        "display_name": "jayeff",
+        "link": "https://stackoverflow.com/users/409068/jayeff"
+      }
+    },
+    {
+      "answer_id": 599123,
+      "body": "<pre><code>@request.host = 'user.myapp.com'\n</code></pre>\n",
+      "owner": {
+        "display_name": "jcrossley3",
+        "link": "https://stackoverflow.com/users/66451/jcrossley3"
+      }
+    },
+    {
+      "answer_id": 24145760,
+      "body": "<p>rspec-rails 3 generates <code>spec_helper.rb</code> and <code>rails_helper.rb</code>. <code>spec_helper.rb</code> is for specs which don't depend on Rails (such as specs for classes in the lib directory). <code>rails_helper.rb</code> is for specs which do depend on Rails (in a Rails project, most or all of them). <code>rails_helper.rb</code> requires <code>spec_helper.rb</code>. So no, don't get rid of <code>rails_helper.rb</code>; require it (and not <code>spec_helper.rb</code>) in your specs.</p>\n\n<p>If you want your non-Rails-dependent specs to enforce that they're non-Rails-dependent, and to run as fast as possible when you run them by themselves, you could require <code>spec_helper.rb</code> rather than <code>rails_helper.rb</code> in those. But it's very convenient to <code>-r rails_helper</code> in your <code>.rspec</code> rather than requiring one helper or the other in each spec file, so that is sure to be a popular approach.</p>\n\n<p>If you're using the spring preloader, each class only needs to be loaded once, and <a href=\"https://stackoverflow.com/questions/36722038/rspec-doesnt-see-my-class-even-if-it-loads-in-the-rails-console/36723233\">spring loads classes eagerly even if you only run a single spec that requires <code>spec_helper</code></a>, so there isn't as much value in requiring only <code>spec_helper</code> in some files.</p>\n\n<p>Source: <a href=\"https://www.relishapp.com/rspec/rspec-rails/docs/upgrade#default-helper-files\" rel=\"noreferrer\">https://www.relishapp.com/rspec/rspec-rails/docs/upgrade#default-helper-files</a></p>\n",
+      "owner": {
+        "display_name": "Dave Schweisguth",
+        "link": "https://stackoverflow.com/users/634576/dave-schweisguth"
+      }
+    },
+    {
+      "answer_id": 13812867,
+      "body": "<p>It doesn't appear that shoulda_matchers does this, but it's easy enough to write it yourself::</p>\n\n<pre><code>  context \"if eligible\" do\n    before { allow(subject).to receive(:eligible?).and_return(true) }\n    it { should validate_presence_of(:name) }\n  end\n\n  context \"if ineligible\" do\n    before { allow(subject).to receive(:eligible?).and_return(false) }\n    it { should_not validate_presence_of(:name) }\n  end\n</code></pre>\n",
+      "owner": {
+        "display_name": "zetetic",
+        "link": "https://stackoverflow.com/users/17410/zetetic"
+      }
+    },
+    {
+      "answer_id": 4707890,
+      "body": "<p><strong>Update</strong></p>\n\n<p><a href=\"https://mochajs.org/\" rel=\"noreferrer\">Mocha</a> gets my vote now!</p>\n\n<hr>\n\n<p>You could have a look at the <a href=\"https://github.com/joyent/node/wiki/modules#wiki-testing\" rel=\"noreferrer\">testing modules section</a> from the node.js modules page. For example <a href=\"http://vowsjs.org/\" rel=\"noreferrer\">Vows</a> is a pretty popular BDD framework.</p>\n\n<blockquote>\n  <p>Vows is a behavior driven development framework for Node.js.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Alfred",
+        "link": "https://stackoverflow.com/users/11926/alfred"
+      }
+    },
+    {
+      "answer_id": 25804049,
+      "body": "<p>There is some problem with rspec V3. But in your case you are using V2.</p>\n\n<p>change </p>\n\n<pre><code>require 'rails_helper'\n</code></pre>\n\n<p>to</p>\n\n<pre><code>require 'spec_helper'\n</code></pre>\n\n<p>Other description find here <a href=\"https://teamtreehouse.com/forum/problem-with-rspec\">https://teamtreehouse.com/forum/problem-with-rspec</a></p>\n\n<p><strong>For V3 :</strong></p>\n\n<p>If someone using rspec V3 then similar error occurs when generator not run. So before trying anything run generator.</p>\n\n<pre><code>rails generate rspec:install\n</code></pre>\n\n<p>If you are getting a huge list of warning on your console. Then you need to remove <code>--warnings</code> from <code>.rspec</code> file.</p>\n",
+      "owner": {
+        "display_name": "Nitin",
+        "link": "https://stackoverflow.com/users/1743174/nitin"
+      }
+    },
+    {
+      "answer_id": 8292088,
+      "body": "<p>As you can see in the docs <a href=\"https://www.relishapp.com/rspec/rspec-core/docs/configuration/read-command-line-configuration-options-from-files\" rel=\"noreferrer\">here</a>, the intended use is creating <code>~/.rspec</code> and in it putting your options, such as <code>--color</code>.</p>\n\n<p>To quickly create an <code>~/.rspec</code> file with the <code>--color</code> option, just run:</p>\n\n<pre><code>echo '--color' &gt;&gt; ~/.rspec \n</code></pre>\n",
+      "owner": {
+        "display_name": "abyx",
+        "link": "https://stackoverflow.com/users/573/abyx"
+      }
+    },
+    {
+      "answer_id": 21490867,
+      "body": "<p>For Rails 4, see <a href=\"https://stackoverflow.com/a/32628272/798224\">this answer.</a></p>\n\n<p>For Rails 3.x, configure a logger in <code>config/environments/test.rb</code>:</p>\n\n\n\n<pre><code>config.logger = Logger.new(STDOUT)\nconfig.logger.level = Logger::ERROR\n</code></pre>\n\n<p>This will interleave any errors that are logged during testing to STDOUT. You may wish to route the output to STDERR or use a different log level instead.</p>\n\n<p>Sending these messages to both the console and a log file requires something more robust than Ruby's built-in <strong>Logger</strong> class. The <a href=\"https://github.com/TwP/logging\" rel=\"noreferrer\"><strong>logging</strong></a> gem will do what you want. Add it to your <code>Gemfile</code>, then set up two appenders in <code>config/environments/test.rb</code>:</p>\n\n\n\n<pre><code>logger = Logging.logger['test']\nlogger.add_appenders(\n    Logging.appenders.stdout,\n    Logging.appenders.file('example.log')\n)\nlogger.level = :info\nconfig.logger = logger\n</code></pre>\n",
+      "owner": {
+        "display_name": "Phil Calvin",
+        "link": "https://stackoverflow.com/users/798224/phil-calvin"
+      }
+    },
+    {
+      "answer_id": 11158685,
+      "body": "<p>I would recommend dropping your test database, then re-create it and migrate:</p>\n\n<pre><code>bundle exec rake db:drop RAILS_ENV=test\nbundle exec rake db:create RAILS_ENV=test\nbundle exec rake db:schema:load RAILS_ENV=test\n</code></pre>\n\n<p>After these steps you can run your specs:</p>\n\n<pre><code>bundle exec rspec spec\n</code></pre>\n\n<p><strong><a href=\"https://stackoverflow.com/users/161815/gerry3\">gerry3</a> noted that:</strong></p>\n\n<blockquote>\n  <p>A simpler solution is to just run <code>rake db:test:prepare</code></p>\n</blockquote>\n\n<p>However, if you're using PostgreSQL this wont work because the rails environment gets loaded, which opens a database connection. This causes the <code>prepare</code> call to fail, because the DB cannot be dropped. Tricky thing.</p>\n",
+      "owner": {
+        "display_name": "leviathan",
+        "link": "https://stackoverflow.com/users/121158/leviathan"
+      }
+    },
+    {
+      "answer_id": 21263118,
+      "body": "<pre><code>it \"should call 'bar' with appropriate arguments\" do\n  expect(subject).to receive(:bar).with(\"an argument I want\")\n  subject.foo\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "wacko",
+        "link": "https://stackoverflow.com/users/1274726/wacko"
+      }
+    },
+    {
+      "answer_id": 5948282,
+      "body": "<p>You can stub a method to return different values each time it's called;</p>\n\n<pre><code>allow(@family).to receive(:location).and_return('first', 'second', 'other')\n</code></pre>\n\n<p>So the first time you call <code>@family.location</code> it will return 'first', the second time it will return 'second', and all subsequent times you call it, it will return 'other'.</p>\n",
+      "owner": {
+        "display_name": "idlefingers",
+        "link": "https://stackoverflow.com/users/155328/idlefingers"
+      }
+    },
+    {
+      "answer_id": 8818598,
+      "body": "<p>I think that the <code>find</code> statement here is the one with the implicit wait, so Capybara will wait until the element is on the page, but won't wait for it to become visible.</p>\n\n<p>Here, you would want Capybara to wait for the visible element to appear, which should be achievable by specifying the <code>visible</code> option:</p>\n\n<pre><code>expect(page).to have_selector('#blah', visible: true)\n</code></pre>\n\n<p>I haven't tried it, but the <code>ignore_hidden_elements</code> configuration option  might be useful here as well, if you wanted <code>find</code> to always wait for visible elements.</p>\n",
+      "owner": {
+        "display_name": "Jon M",
+        "link": "https://stackoverflow.com/users/74152/jon-m"
+      }
+    },
+    {
+      "answer_id": 24461765,
+      "body": "<p>There's a new syntax for this:</p>\n\n<pre><code>expect_any_instance_of(Model).to receive(:save).at_least(:once)\n</code></pre>\n",
+      "owner": {
+        "display_name": "muirbot",
+        "link": "https://stackoverflow.com/users/352526/muirbot"
+      }
+    },
+    {
+      "answer_id": 13965256,
+      "body": "<p>The preferred syntax is:</p>\n\n<pre><code>expect(@object).to be_a Shirt\n</code></pre>\n\n<p>The older syntax is:</p>\n\n<pre><code>@object.should be_an_instance_of Shirt\n</code></pre>\n\n<p>Note that there is a very subtle difference between the two. If Shirt were to inherit from Garment then <strong>both of these expectations will pass</strong>:</p>\n\n<pre><code>expect(@object).to be_a Shirt\nexpect(@object).to be_a Garment\n</code></pre>\n\n<p>If you do and @object is a Shirt, then the <strong>second expectation will fail</strong>:</p>\n\n<pre><code>@object.should be_an_instance_of Shirt\n@object.should be_an_instance_of Garment\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dillon Benson",
+        "link": "https://stackoverflow.com/users/862680/dillon-benson"
+      }
+    },
+    {
+      "answer_id": 28007007,
+      "body": "<p>See the classic article <a href=\"http://martinfowler.com/articles/mocksArentStubs.html\">Mocks Aren't Stubs</a>. <code>allow</code> makes a stub while <code>expect</code> makes a mock. That is <code>allow</code> allows an object to return X instead of whatever it would return unstubbed, and <code>expect</code> is an <code>allow</code> <em>plus</em> an expectation of some state or event. When you write</p>\n\n<pre><code>allow(Foo).to receive(:bar).with(baz).and_return(foobar_result)\n</code></pre>\n\n<p>... you're telling the spec environment to modify <code>Foo</code> to return <code>foobar_result</code> when it receives <code>:bar</code> with <code>baz</code>. But when you write</p>\n\n<pre><code>expect(Foo).to receive(:bar).with(baz).and_return(foobar_result) \n</code></pre>\n\n<p>... you're doing the same, plus telling the spec to fail <em>unless</em> <code>Foo</code> receives <code>:bar</code> with <code>baz</code>.</p>\n\n<p>To see the difference, try both in examples where <code>Foo</code> does <em>not</em> receive <code>:bar</code> with <code>baz</code>.</p>\n",
+      "owner": {
+        "display_name": "Mori",
+        "link": "https://stackoverflow.com/users/383888/mori"
+      }
+    },
+    {
+      "answer_id": 7653286,
+      "body": "<p>You must run rspec with <code>-b</code> option to see full backtraces</p>\n",
+      "owner": {
+        "display_name": "solnic",
+        "link": "https://stackoverflow.com/users/282051/solnic"
+      }
+    },
+    {
+      "answer_id": 25878014,
+      "body": "<p>An overkill solution would be:</p>\n\n<pre><code>bundle exec rake db:drop RAILS_ENV=test\nbundle exec rake db:create RAILS_ENV=test\nbundle exec rake db:schema:load RAILS_ENV=test\n</code></pre>\n\n<p>You could make this all in a rake task and run that.</p>\n\n<p>Another solution from <a href=\"https://stackoverflow.com/questions/5916126/how-do-i-prepare-test-databases-for-rails-rspec-tests-without-running-rake-spe/18039499#18039499\">here</a> is to include the following your <code>spec_helper.rb</code> file</p>\n\n<pre><code>config.after :all do\n  ActiveRecord::Base.subclasses.each(&amp;:delete_all)\nend\n</code></pre>\n\n<p>Disclaimer: I have not tested this and you should read the <a href=\"https://stackoverflow.com/questions/5916126/how-do-i-prepare-test-databases-for-rails-rspec-tests-without-running-rake-spe/18039499#18039499\">SO post</a> as it may not work in all situations.</p>\n\n<p>That being said, I would recommend using the database cleaner gem to avoid situations such as this.</p>\n",
+      "owner": {
+        "display_name": "ChrisBarthol",
+        "link": "https://stackoverflow.com/users/2232695/chrisbarthol"
+      }
+    },
+    {
+      "answer_id": 17508604,
+      "body": "<p>Your <code>spec_helper</code> file is missing some important commands.  Specifically, it's not including config/environment and initializing <code>rspec-rails</code>.</p>\n\n<p>You can add the following lines to the start of your <code>spec/spec_helper.rb</code> file</p>\n\n<pre><code>ENV[\"RAILS_ENV\"] ||= 'test'\nrequire File.expand_path(\"../../config/environment\", __FILE__)\nrequire 'rspec/rails'\nrequire 'rspec/autorun'\n</code></pre>\n\n<p>or you can just run</p>\n\n<pre><code>rails generate rspec:install\n</code></pre>\n\n<p>and overwrite your <code>spec_helper</code> with one generated for use with <code>rspec-rails</code>.</p>\n",
+      "owner": {
+        "display_name": "gmacdougall",
+        "link": "https://stackoverflow.com/users/2209525/gmacdougall"
+      }
+    },
+    {
+      "answer_id": 25066720,
+      "body": "<p>You should do</p>\n\n<pre><code>allow(MyMod::Utils).to receive(:find_x).and_return({something: 'testing'})\n</code></pre>\n\n<p>Check out the doco <a href=\"https://github.com/rspec/rspec-mocks#method-stubs\"><em>Method  stubs</em></a>.</p>\n",
+      "owner": {
+        "display_name": "Arup Rakshit",
+        "link": "https://stackoverflow.com/users/2767755/arup-rakshit"
+      }
+    },
+    {
+      "answer_id": 24920066,
+      "body": "<p>You are testing for the presence of <code>flash[:success]</code>, but in your controller you are using <code>flash[:notice]</code></p>\n",
+      "owner": {
+        "display_name": "rabusmar",
+        "link": "https://stackoverflow.com/users/663368/rabusmar"
+      }
+    },
+    {
+      "answer_id": 10805128,
+      "body": "<p>You need to locate the hidden field and set its value. There are a couple ways, this is probably the simplest</p>\n\n<pre><code>find(:xpath, \"//input[@id='my_hidden_field_id']\").set \"my value\"\n</code></pre>\n\n<p>If you're executing a client_side script in production, you could just tell capybara to run it with a javascript-compliant driver</p>\n\n<pre><code>page.execute_script(\"$('hidden_field_id').my_function()\")\n</code></pre>\n",
+      "owner": {
+        "display_name": "DVG",
+        "link": "https://stackoverflow.com/users/359380/dvg"
+      }
+    },
+    {
+      "answer_id": 11426232,
+      "body": "<p>While I agree you generally don't want to test loggers, there are times it may be useful.</p>\n\n<p>I have had success with expectations on <code>Rails.logger</code>.</p>\n\n<p>Using RSpec's deprecated <code>should</code> syntax:</p>\n\n<pre><code>Rails.logger.should_receive(:info).with(\"some message\")\n</code></pre>\n\n<p>Using RSpec's newer <code>expect</code> syntax:</p>\n\n<pre><code>expect(Rails.logger).to receive(:info).with(\"some message\")\n</code></pre>\n\n<p><strong>Note:</strong> In controller and model specs, you have to put this line <em>before</em> the message is logged. If you put it after, you'll get an error message like this:</p>\n\n<pre><code>Failure/Error: expect(Rails.logger).to receive(:info).with(\"some message\")\n       (#&lt;ActiveSupport::Logger:0x007f27f72136c8&gt;).info(\"some message\")\n           expected: 1 time with arguments: (\"some message\")\n           received: 0 times\n</code></pre>\n",
+      "owner": {
+        "display_name": "Tanzeeb Khalili",
+        "link": "https://stackoverflow.com/users/654640/tanzeeb-khalili"
+      }
+    },
+    {
+      "answer_id": 24005972,
+      "body": "<p>The rspec generator <code>rails generate rspec:install</code> now puts the <code>--warnings</code> option in the <code>.rspec</code> file by default. Remove that line, and the warnings will go away.</p>\n",
+      "owner": {
+        "display_name": "Edward Anderson",
+        "link": "https://stackoverflow.com/users/87298/edward-anderson"
+      }
+    },
+    {
+      "answer_id": 16617391,
+      "body": "<p><code>before(:all)</code> runs the block one time before all of the examples are run.</p>\n\n<p><code>before(:each)</code> runs the block one time before each of your specs in the file</p>\n\n<p><code>before(:all)</code> sets the instance variables <code>@admission, @project, @creative, @contest_entry</code> one time before all of the <code>it</code> blocks are run.</p>\n\n<p>However, <code>:before(:each)</code> resets the instance variables in the before block every time an <code>it</code> block is run. </p>\n\n<p>Its a subtle distinction but important</p>\n\n<p>again, </p>\n\n<pre><code>before(:all)\n#before block is run\nit { should belong_to(:owner).class_name('User') }\nit { should belong_to(:project) }\nit { should have_many(:entry_comments) }\n\nit { should validate_presence_of(:owner) }\nit { should validate_presence_of(:project) }\nit { should validate_presence_of(:entry_no) }\nit { should validate_presence_of(:title) }\n\nbefore(:each)\n# before block\nit { should belong_to(:owner).class_name('User') }\n# before block\nit { should belong_to(:project) }\n# before block\nit { should have_many(:entry_comments) }\n# before block\n\n# before block\nit { should validate_presence_of(:owner) }\n# before block\nit { should validate_presence_of(:project) }\n# before block\nit { should validate_presence_of(:entry_no) }\n# before block\nit { should validate_presence_of(:title) }\n</code></pre>\n",
+      "owner": {
+        "display_name": "fontno",
+        "link": "https://stackoverflow.com/users/1270219/fontno"
+      }
+    },
+    {
+      "answer_id": 5446825,
+      "body": "<p>You will get what you want by including <code>require 'ruby-debug'</code> at the top of your spec:</p>\n\n<pre><code># spec/models/user_spec.rb\nrequire 'spec_helper'\nrequire 'ruby-debug'\n\ndescribe User do\n  it \"should be valid\" do\n    debugger\n    User.new.should be_valid\n  end\nend\n</code></pre>\n\n<p>You would then run <code>rake spec</code> or <code>rspec</code> as normal</p>\n\n<p><strong>NOTE:</strong> I now prefer Ruby 2.0+ and pry. It is pretty much the same process:</p>\n\n<pre><code>require 'spec_helper'\nrequire 'pry-debugger'\n\ndescribe User do\n  it \"should be valid\" do\n    binding.pry\n    expect(User.new).to be_valid\n  end\nend\n</code></pre>\n\n<p>Also, I generally put requires like this in my spec_helper file, so that pry-debugger is available to all of my specs. </p>\n",
+      "owner": {
+        "display_name": "Christopher Maujean",
+        "link": "https://stackoverflow.com/users/560811/christopher-maujean"
+      }
+    },
+    {
+      "answer_id": 5083828,
+      "body": "<p>From the <code>rspec</code> help page</p>\n\n<pre><code>$ rspec --help\nUsage: rspec [options] [files or directories]\n\n    -f, --format FORMATTER           Choose a formatter\n                                       [p]rogress (default - dots)\n                                       [d]ocumentation (group and example names)\n                                       [h]tml\n                                       [t]extmate\n                                       custom formatter class name\n</code></pre>\n\n<p>Pass the <code>-f</code> parameter. Instead of</p>\n\n<pre><code>$ rake rspec\n</code></pre>\n\n<p>run</p>\n\n<pre><code>$ rspec spec --format d\n</code></pre>\n\n<p>or short format:</p>\n\n<pre><code>$ rspec -fd\n</code></pre>\n\n<p>If you want the configuration to be permanent, create a <code>.rspec</code> file in the root of your project and write there the configurations.</p>\n",
+      "owner": {
+        "display_name": "Simone Carletti",
+        "link": "https://stackoverflow.com/users/123527/simone-carletti"
+      }
+    },
+    {
+      "answer_id": 19233145,
+      "body": "<p>Use the <code>anything</code> matcher:</p>\n\n<pre><code>Foo.should_receive(:bar).with(:baz, anything)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dylan Markow",
+        "link": "https://stackoverflow.com/users/424300/dylan-markow"
+      }
+    },
+    {
+      "answer_id": 4308872,
+      "body": "<p>This question has been answered on Twitter by @MatthewClosson</p>\n\n<blockquote>\n  <p>@jeffehh You need to create a\n  spec/support/devise.rb file as\n  specified here <a href=\"https://github.com/plataformatec/devise#test-helpers\" rel=\"noreferrer\">https://github.com/plataformatec/devise#test-helpers</a> to\n  include the devise test helpers #ruby</p>\n</blockquote>\n\n<p>Thanks once again.</p>\n",
+      "owner": {
+        "display_name": "Jeffrey W.",
+        "link": "https://stackoverflow.com/users/524354/jeffrey-w"
+      }
+    },
+    {
+      "answer_id": 17577942,
+      "body": "<p>There's now a not very well documented method called <code>expect_any_instance_of</code> that handles the <code>any_instance</code> special case.  You should use:</p>\n\n<pre><code>expect_any_instance_of(Object).to receive(:subscribe)\n</code></pre>\n\n<p>Google <code>expect_any_instance_of</code> for more info.</p>\n",
+      "owner": {
+        "display_name": "Peter Alfvin",
+        "link": "https://stackoverflow.com/users/1008891/peter-alfvin"
+      }
+    },
+    {
+      "answer_id": 6728831,
+      "body": "<p>The following should work:</p>\n\n<h3>at command line:</h3>\n\n<pre><code>rails new MYAPP -T # The -T option tells rails not to include Test::Unit\n</code></pre>\n\n<h3>in Gemfile:</h3>\n\n<pre><code>gem 'rspec-rails'\n</code></pre>\n\n<h3>at command line:</h3>\n\n<pre><code>bundle install\nrails g rspec:install\n</code></pre>\n",
+      "owner": {
+        "display_name": "Zabba",
+        "link": "https://stackoverflow.com/users/382818/zabba"
+      }
+    },
+    {
+      "answer_id": 16581158,
+      "body": "<p>Capybara provides <a href=\"http://rubydoc.info/github/jnicklas/capybara/master/Capybara/Node/Element#hover-instance_method\"><code>Element#hover</code> method</a> from version 2.1:</p>\n\n<pre><code>find('.some_class').hover\n</code></pre>\n\n<p>This method is implemented in <code>Capybara::Selenium::Driver</code> in almost the same way as in @AlexD's answer.</p>\n\n<p>Note that to use <code>#hover</code> in Selenium <a href=\"https://code.google.com/p/selenium/wiki/AdvancedUserInteractions#Native_events_versus_synthetic_events\">it's usually better to turn native events on</a>:</p>\n\n<pre><code>Capybara.register_driver :selenium do |app|\n  profile = Selenium::WebDriver::Firefox::Profile.new\n  profile.native_events = true\n  Capybara::Selenium::Driver.new(app, :browser =&gt; :firefox, profile: profile)\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "Andrei Botalov",
+        "link": "https://stackoverflow.com/users/841064/andrei-botalov"
+      }
+    },
+    {
+      "answer_id": 17033067,
+      "body": "<p>I like this much better.</p>\n\n<pre><code>expect(page).to have_selector('input', count: 12)\n</code></pre>\n\n<p><a href=\"https://github.com/jnicklas/capybara/blob/415e2db70d3b19b46a4d3d0fe62f50400f9d2b61/spec/rspec/matchers_spec.rb\">https://github.com/jnicklas/capybara/blob/415e2db70d3b19b46a4d3d0fe62f50400f9d2b61/spec/rspec/matchers_spec.rb</a></p>\n",
+      "owner": {
+        "display_name": "pandaPowder",
+        "link": "https://stackoverflow.com/users/1264442/pandapowder"
+      }
+    },
+    {
+      "answer_id": 16441911,
+      "body": "<p>This line has problem</p>\n\n<pre><code>response.should redirect_to :back\n</code></pre>\n\n<p>The logic is not correct. You should expect <code>#edit</code> to redirect to <code>:back</code> path you set before, which is <code>/scorecard</code>. But you set <code>:back</code> here. In the context of Rspec, <code>:back</code> should be empty at each example.</p>\n\n<p>To revise, just set it as </p>\n\n<pre><code>response.should redirect_to '/scorecard'\n</code></pre>\n",
+      "owner": {
+        "display_name": "Billy Chan",
+        "link": "https://stackoverflow.com/users/1721198/billy-chan"
+      }
+    },
+    {
+      "answer_id": 14139814,
+      "body": "<p>Since the version <strong>2.1.0</strong> of capybara there are methods on the session to deal with the title.\nYou have</p>\n\n<pre><code>page.title\npage.has_title? \"my title\"\npage.has_no_title? \"my not found title\"\n</code></pre>\n\n<p>So you can test the title like:</p>\n\n<pre><code>expect(page).to have_title \"my_title\"\n</code></pre>\n\n<p>According to <a href=\"http://github.com/jnicklas/capybara/issues/863\" rel=\"noreferrer\">github.com/jnicklas/capybara/issues/863</a> the following is also working with capybara <strong>2.0</strong>:</p>\n\n<pre><code>expect(first('title').native.text).to eq \"my title\"\n</code></pre>\n",
+      "owner": {
+        "display_name": "Lars Schirrmeister",
+        "link": "https://stackoverflow.com/users/1383990/lars-schirrmeister"
+      }
+    },
+    {
+      "answer_id": 1568024,
+      "body": "<p>I found a better solution in rspec homepage. Apparently it supports shared example groups. From <a href=\"https://www.relishapp.com/rspec/rspec-core/v/2-13/docs/example-groups/shared-examples\" rel=\"noreferrer\">https://www.relishapp.com/rspec/rspec-core/v/2-13/docs/example-groups/shared-examples</a>!</p>\n\n<blockquote>\n  <p>Shared Example Groups</p>\n  \n  <p>You can create shared example groups\n  and include those groups into other\n  groups.</p>\n  \n  <p>Suppose you have some behavior that\n  applies to all editions of your\n  product, both large and small.</p>\n  \n  <p>First, factor out the “shared”\n  behavior: </p>\n</blockquote>\n\n<pre><code>shared_examples_for \"all editions\" do   \n  it \"should behave like all editions\" do   \n  end \nend\n</code></pre>\n\n<blockquote>\n  <p>then when you need define the behavior\n  for the Large and Small editions,\n  reference the shared behavior using\n  the it_should_behave_like() method.</p>\n</blockquote>\n\n<pre><code>describe \"SmallEdition\" do  \n  it_should_behave_like \"all editions\"\n  it \"should also behave like a small edition\" do   \n  end \nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "Andrius",
+        "link": "https://stackoverflow.com/users/174385/andrius"
+      }
+    },
+    {
+      "answer_id": 14898663,
+      "body": "<p>You need to splat the arguments when passing them to the array matcher:</p>\n\n<pre><code>expect(array1).to include(*array2)\n</code></pre>\n\n<p>This is because you usually list out literals, e.g.:</p>\n\n<pre><code>expect([1, 2, 3]).to include(1, 2)\n</code></pre>\n\n<p>That said, <code>expect(array1).to include(array2)</code> should not fail with a weird error like you got, and in fact it works and passes in an example like:</p>\n\n<pre><code>  it 'includes a sub array' do\n    array2 = [\"a\"]\n    array1 = [array2]\n    expect(array1).to include(array2)\n  end\n</code></pre>\n",
+      "owner": {
+        "display_name": "Myron Marston",
+        "link": "https://stackoverflow.com/users/29262/myron-marston"
+      }
+    },
+    {
+      "answer_id": 14517076,
+      "body": "<p>You can just use:</p>\n\n<pre><code>first('.item').click_link('Agree')\n</code></pre>\n\n<p>or</p>\n\n<pre><code>first('.item &gt; a').click\n</code></pre>\n\n<p>(if your default selector is :css)</p>\n\n<hr>\n\n<p>Code in your question doesn't work as:</p>\n\n<pre><code>within \".item\" do\n  first(:link, \"Agree\").click\nend\n</code></pre>\n\n<p>is equivalent to:</p>\n\n<pre><code>find('.item').first(:link, \"Agree\").click\n</code></pre>\n\n<p>Capybara finds several <code>.item</code>'s so it raises an exception. I consider this behavior of Capybara 2 very good.</p>\n",
+      "owner": {
+        "display_name": "Andrei Botalov",
+        "link": "https://stackoverflow.com/users/841064/andrei-botalov"
+      }
+    },
+    {
+      "answer_id": 1722839,
+      "body": "<pre><code>expect { some_method }.to raise_error\n</code></pre>\n\n<p><strong>RSpec 1 Syntax:</strong></p>\n\n<pre><code>lambda { some_method }.should raise_error\n</code></pre>\n\n<p>See <a href=\"http://rspec.rubyforge.org/rspec/1.2.9/classes/Spec/Matchers.html#M000176\" rel=\"noreferrer\">the documentation</a> (for RSpec 1 syntax) and <a href=\"http://rubydoc.info/gems/rspec-expectations/frames\" rel=\"noreferrer\">RSpec 2 documentation</a> for more.</p>\n",
+      "owner": {
+        "display_name": "Avdi",
+        "link": "https://stackoverflow.com/users/20487/avdi"
+      }
+    },
+    {
+      "answer_id": 13387339,
+      "body": "<p>My solution is </p>\n\n<pre><code>first(:link, link).click\n</code></pre>\n\n<p>instead of </p>\n\n<pre><code>click_link(link)\n</code></pre>\n",
+      "owner": {
+        "display_name": "e-zinc",
+        "link": "https://stackoverflow.com/users/1071587/e-zinc"
+      }
+    },
+    {
+      "answer_id": 8838502,
+      "body": "<p>I'm not sure if it is the best solution, but I have successfully achieved this using:</p>\n\n<pre><code>FactoryGirl.define do\n  factory :user do\n    first_name \"Luiz\"\n    last_name \"Branco\"\n    #...\n\n    after(:build) { |user| user.class.skip_callback(:create, :after, :run_something) }\n\n    factory :user_with_run_something do\n      after(:create) { |user| user.send(:run_something) }\n    end\n  end\nend\n</code></pre>\n\n<p>Running without callback:</p>\n\n<pre><code>FactoryGirl.create(:user)\n</code></pre>\n\n<p>Running with callback:</p>\n\n<pre><code>FactoryGirl.create(:user_with_run_something)\n</code></pre>\n",
+      "owner": {
+        "display_name": "luizbranco",
+        "link": "https://stackoverflow.com/users/978651/luizbranco"
+      }
+    },
+    {
+      "answer_id": 12026947,
+      "body": "<p>I was interested in doing the same thing, also to test a model of mine that operates using a hash of content from a 3rd-party API. I found that by using a few of the built-in features of factory_girl I was able to cleanly construct these sort of data structures.</p>\n\n<p>Here's a contrived example:</p>\n\n<pre><code>  factory :chicken, class:Hash do\n    name \"Sebastian\"\n    colors [\"white\", \"orange\"]\n\n    favorites {{\n      \"PETC\" =&gt; \"http://www.petc.org\"\n    }}\n\n    initialize_with { attributes } \n  end\n</code></pre>\n\n<p>The main trick here is that when you declare initialize_with, factory_girl will no longer attempt to assign the attributes to the resultant object. It also seems to skip the db store in this case. So, instead of constructing anything complicated, we just pass back the already prepared attribute hash as our content. Voila.</p>\n\n<p>It does seem necessary to specify some value for the class, despite it not actually being used. This is  to prevent factory_girl from attempting to instantiate a class based on the factory name. I've chosen to use descriptive classes rather than Object, but it's up to you.</p>\n\n<p>You're still able to override fields when you use one of these hash factories:</p>\n\n<pre><code>chick = FactoryGirl.build(:chicken, name:\"Charles\")\n</code></pre>\n\n<p>..however, if you have nested content and want to override deeper fields you will need to increase the complexity of the initialization block to do some sort of deep merge.</p>\n\n<p>In your case, you're using some mixed array and hash data, and it appears that the Path property should be reused between portions of the data structure. No problem - you know the structure of the content, so you can easy create a factory that constructs the resulting array properly. Here's how I might do it:</p>\n\n<pre><code>  factory :dropbox_hash, class:Array do\n    path \"/home\"\n    revision 48\n    rev \"30054214dc\"\n    thumb_exists false\n    bytes 0\n    modified { 3.days.ago }\n    is_dir true\n    icon \"folder_app\"\n    root \"app_folder\"\n    size \"0 bytes\"\n\n    initialize_with { [ attributes[:path], attributes ] }\n  end\n\n  FactoryGirl.build(:dropbox_hash, path:\"/Chickens\", is_dir:false)\n</code></pre>\n\n<p>You are also still free to omit unnecessary values. Let's imagine only Path and rev are really necessary:</p>\n\n<pre><code>  factory :dropbox_hash, class:Array do\n    path \"/home\"\n    rev \"30054214dc\"\n    initialize_with { [ attributes[:path], attributes ] }\n  end\n\n  FactoryGirl.build(:dropbox_hash, path:\"/Chickens\", revision:99, modified:Time.now)\n</code></pre>\n",
+      "owner": {
+        "display_name": "doublemarked",
+        "link": "https://stackoverflow.com/users/1185112/doublemarked"
+      }
+    },
+    {
+      "answer_id": 11506969,
+      "body": "<pre><code>find_field('restrictions__rating_movies').find('option[selected]').text\n</code></pre>\n",
+      "owner": {
+        "display_name": "Brandon",
+        "link": "https://stackoverflow.com/users/1316445/brandon"
+      }
+    },
+    {
+      "answer_id": 9611392,
+      "body": "<p>That would work.</p>\n\n<p>Another way would be to put a layer of indirection between your code and the environment variables, like some sort of configuration object that's easy to mock.</p>\n",
+      "owner": {
+        "display_name": "nicholaides",
+        "link": "https://stackoverflow.com/users/48424/nicholaides"
+      }
+    },
+    {
+      "answer_id": 9364193,
+      "body": "<p>You can use <a href=\"http://ruby-doc.org/core-1.9.3/Object.html#method-i-instance_variable_get\" rel=\"noreferrer\"><code>Object#instance_variable_get</code></a> method to get value of any instance variable of the object like that:</p>\n\n<pre><code>class Foo \n  def initialize\n    @foo = 5 # no accessor for that variable\n  end \nend\n\nfoo = Foo.new\nputs foo.instance_variable_get(:@foo)\n#=&gt; 5\n</code></pre>\n\n<p>And <a href=\"http://ruby-doc.org/core-1.9.3/Object.html#method-i-instance_variable_set\" rel=\"noreferrer\"><code>Object#instance_variable_set</code></a> can be used to set instance variable values:    </p>\n\n<pre><code>foo.instance_variable_set(:@foo, 12) \nputs foo.instance_variable_get(:@foo)\n#=&gt; 12\n</code></pre>\n",
+      "owner": {
+        "display_name": "KL-7",
+        "link": "https://stackoverflow.com/users/357743/kl-7"
+      }
+    },
+    {
+      "answer_id": 6004198,
+      "body": "<p>Try, something like this</p>\n\n<pre><code>rake db:seed RAILS_ENV=test\n</code></pre>\n\n<p>You can get a list of all rake commands doing</p>\n\n<pre><code>rake -T\n</code></pre>\n\n<p>If this is test data, you may want to look at putting it into fixtures which will be loaded on the start of the tests.</p>\n",
+      "owner": {
+        "display_name": "Scott",
+        "link": "https://stackoverflow.com/users/557451/scott"
+      }
+    },
+    {
+      "answer_id": 8297992,
+      "body": "<p>I found the following worked for me:</p>\n\n<pre><code># Check\nfind(:css, \"#cityID[value='62']\").set(true)\n\n# Uncheck\nfind(:css, \"#cityID[value='62']\").set(false)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jon M",
+        "link": "https://stackoverflow.com/users/74152/jon-m"
+      }
+    },
+    {
+      "answer_id": 8273781,
+      "body": "<pre><code>get :show, {:id =&gt; subcategory.id.to_s, :params =&gt; {:sort =&gt; 'title'}}\n</code></pre>\n\n<p>Should be</p>\n\n<pre><code>get :show, :id =&gt; subcategory.id.to_s, :sort =&gt; 'title'\n</code></pre>\n\n<p>Unless you mean to pass <code>params[:params][:sort]</code>.</p>\n\n<p>Also</p>\n\n<pre><code>helper.params[:sort].should_not be_nil\n</code></pre>\n\n<p>Should be</p>\n\n<pre><code>controller.params[:sort].should_not be_nil\ncontroller.params[:sort].should eql 'title'\n</code></pre>\n\n<p>(If you mean to test a helper, you should write a helper spec.)</p>\n",
+      "owner": {
+        "display_name": "user324312",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 6729817,
+      "body": "<p>Using RSpec, you can set the referer in a <code>before</code> block. When I tried to set the referer directly in the test, it didn't seem to work no matter where I put it, but the before block does the trick.</p>\n\n<pre><code>describe BackController &lt; ApplicationController do\n  before(:each) do\n    request.env[\"HTTP_REFERER\"] = \"where_i_came_from\"\n  end\n\n  describe \"GET /goback\" do\n    it \"redirects back to the referring page\" do\n      get 'goback'\n      response.should redirect_to \"where_i_came_from\"\n    end\n  end\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "jrh",
+        "link": "https://stackoverflow.com/users/722758/jrh"
+      }
+    },
+    {
+      "answer_id": 5803121,
+      "body": "<p>A request spec is a thin wrapper around <a href=\"http://rubydoc.info/gems/actionpack/3.0.7/ActionDispatch/IntegrationTest\"><code>ActionDispatch::IntegrationTest</code></a>, which doesn't work like controller specs (which wrap <a href=\"http://rubydoc.info/gems/actionpack/3.0.7/ActionController/TestCase\"><code>ActionController::TestCase</code></a>). Even though there is a session method available, I don't think it is supported (i.e. it's probably there because a module that gets included for other utilities also includes that method).</p>\n\n<p>I'd recommend logging in by posting to whatever action you use to authenticate users. If you make the password 'password' (for example) for all the User factories, then you can do something like this:</p>\n\n<pre>\ndef login(user)\n  post login_path, :login => user.login, :password => 'password'\nend\n</pre>\n",
+      "owner": {
+        "display_name": "David Chelimsky",
+        "link": "https://stackoverflow.com/users/293417/david-chelimsky"
+      }
+    },
+    {
+      "answer_id": 5161898,
+      "body": "<p>You can examine the response object and verify that it contains the expected value:</p>\n\n<pre><code>@expected = { \n        :flashcard  =&gt; @flashcard,\n        :lesson     =&gt; @lesson,\n        :success    =&gt; true\n}.to_json\nget :action # replace with action name / params as necessary\nresponse.body.should == @expected\n</code></pre>\n\n<p><strong>EDIT</strong></p>\n\n<p>Changing this to a <code>post</code> makes it a bit trickier. Here's a way to handle it:</p>\n\n<pre><code> it \"responds with JSON\" do\n    my_model = stub_model(MyModel,:save=&gt;true)\n    MyModel.stub(:new).with({'these' =&gt; 'params'}) { my_model }\n    post :create, :my_model =&gt; {'these' =&gt; 'params'}, :format =&gt; :json\n    response.body.should == my_model.to_json\n  end\n</code></pre>\n\n<p>Note that <code>mock_model</code> will not respond to <code>to_json</code>, so either <code>stub_model</code> or a real model instance is needed. </p>\n",
+      "owner": {
+        "display_name": "zetetic",
+        "link": "https://stackoverflow.com/users/17410/zetetic"
+      }
+    },
+    {
+      "answer_id": 5153771,
+      "body": "<p>How are you disabling the link? Is it a class you're adding? An attribute?</p>\n\n<pre><code># Check for a link that has a \"disabled\" class:\npage.should have_css(\"a.my_link.disabled\")\npage.should have_xpath(\"//a[@class='disabled']\")\n\n# Check for a link that has a \"disabled\" attribute:\npage.should have_css(\"a.my_link[disabled]\")\npage.should have_xpath(\"//a[@class='disabled' and @disabled='disabled']\")\n\n# Check that the element is visible\nfind(\"a.my_link\").should be_visible\nfind(:xpath, \"//a[@class='disabled']\").should be_visible\n</code></pre>\n\n<p><em>The actual xpath selectors may be incorrect. I don't use xpath often!</em></p>\n",
+      "owner": {
+        "display_name": "idlefingers",
+        "link": "https://stackoverflow.com/users/155328/idlefingers"
+      }
+    },
+    {
+      "answer_id": 4317148,
+      "body": "<p>Not sure why you feel rdoc.info isn't useful - here's the matcher docs there:</p>\n\n<p><a href=\"http://rubydoc.info/gems/rspec-expectations/2.0.1/RSpec/Matchers\" rel=\"noreferrer\">http://rubydoc.info/gems/rspec-expectations/2.0.1/RSpec/Matchers</a></p>\n\n<p>It may be that you're looking in the wrong spot; these were in the RSpec::Expectations gem, which is split out from the core in Rspec 2.</p>\n",
+      "owner": {
+        "display_name": "Keith Gaddis",
+        "link": "https://stackoverflow.com/users/506255/keith-gaddis"
+      }
+    },
+    {
+      "answer_id": 4271838,
+      "body": "<p>Use #instance_eval</p>\n\n<pre><code>@controller = AccountController.new\n@controller.instance_eval{ current_account }   # invoke the private method\n@controller.instance_eval{ @current_account }.should eql ... # check the value of the instance variable\n</code></pre>\n",
+      "owner": {
+        "display_name": "monocle",
+        "link": "https://stackoverflow.com/users/383780/monocle"
+      }
+    },
+    {
+      "answer_id": 4154550,
+      "body": "<p>I always take this approach: <em>I want to test the public API my class exposes.</em></p>\n\n<p>If you have private methods, you only call them from the public methods you expose to other classes. Hence, if you test that those public methods work as expected under all conditions, you have also proven that the private methods they use work as well. </p>\n\n<p>I'll admit that I've come across some especially complex private methods. In that extreme case you want to test them, you can do this:</p>\n\n<pre><code>@obj.send(:private_method)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ariejan",
+        "link": "https://stackoverflow.com/users/117975/ariejan"
+      }
+    },
+    {
+      "answer_id": 2560380,
+      "body": "<p>I figured out how to sort this issue.</p>\n\n<p>In my before block in my specs I simply added:</p>\n\n<pre><code>before(:each) do\n  @request.host = \"#{mock_subdomain}.example.com\"\nend\n</code></pre>\n\n<p>This setups up the request.subdomains.first to be the value of the mock_subdomain.</p>\n\n<p>Hope someone finds this useful as its not explained very well anywhere else on the net.</p>\n",
+      "owner": {
+        "display_name": "RailsSon",
+        "link": "https://stackoverflow.com/users/30786/railsson"
+      }
+    },
+    {
+      "answer_id": 1972279,
+      "body": "<p>Similar to this <a href=\"https://stackoverflow.com/questions/1785382/rspec-expecting-a-message-multiple-times-but-with-differing-parameters\">question</a>. The recommended solution is to call <code>as_null_object</code> to avoid the confusion of messages. So:</p>\n\n<pre><code>describe Object do\n  it \"fails, as expected, (using null object)\" do\n    foo = mock('foo').as_null_object\n    foo.should_receive(:bar).once.ordered.with(1)\n    foo.should_receive(:bar).once.ordered.with(2)\n    foo.bar(1)\n    foo.bar(999) # =&gt; Mock \"foo\" expected :bar with (2) once, but received it 0 times\n  end\nend\n</code></pre>\n\n<p>The output is not the same as your second case (i.e. \"expected 2 but got 999\"), but it does show that the expectation was not met.</p>\n",
+      "owner": {
+        "display_name": "zetetic",
+        "link": "https://stackoverflow.com/users/17410/zetetic"
+      }
+    },
+    {
+      "answer_id": 429956,
+      "body": "<p>If you haven't already, you might want to check out Dan North's excellent article, <a href=\"http://dannorth.net/whats-in-a-story\" rel=\"noreferrer\">What's in a Story?</a> as a starting point.</p>\n\n<p>We have two main uses for Cucumber stories. First, because the story form is very specific it helps focus the product owner's articulation of the features he wants built. This is the \"token for a conversation\" use of stories, and would be valuable whether or not we implemented the stories in code. Second, when the process is working well enough that we have complete stories <em>before</em> we begin writing the feature (more of an ideal that we strive for than a daily reality), you have your acceptance criteria spelled out clearly and you know exactly what and how much to build.</p>\n\n<p>In our Rails work, Cucumber stories do not substitute for rspec unit tests. The two go hand in hand. In practice, the unit tests tend to drive development of the models and controllers, and the stories tend to drive development of the views (we tend not to write rspec for our views) and provide a good test of the application as a whole from the user's perspective.</p>\n\n<p>If you're working solo, the communication aspect may not be that interesting to you, but the integration testing you get from Cucumber might be. If you take advantage of <a href=\"http://github.com/brynary/webrat/tree/master\" rel=\"noreferrer\">webrat</a>, writing Cucumber can be fast and painless for a lot of your basic functionality.</p>\n",
+      "owner": {
+        "display_name": "Abie",
+        "link": "https://stackoverflow.com/users/53166/abie"
+      }
+    }
+  ]
+}

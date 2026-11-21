@@ -1,0 +1,1908 @@
+{
+  "library": "swift:github.com/realm/realm-swift",
+  "fetched_at": "2026-11-21T17:28:32Z",
+  "questions": [
+    {
+      "question_id": 28465706,
+      "title": "How to find my realm file?",
+      "accepted_answer_id": 28465803,
+      "score": 270,
+      "link": "https://stackoverflow.com/questions/28465706/how-to-find-my-realm-file",
+      "owner": {
+        "display_name": "yoshyosh",
+        "link": "https://stackoverflow.com/users/523686/yoshyosh"
+      }
+    },
+    {
+      "question_id": 31100011,
+      "title": "RealmSwift: Convert Results to Swift Array",
+      "accepted_answer_id": 31100497,
+      "score": 178,
+      "link": "https://stackoverflow.com/questions/31100011/realmswift-convert-results-to-swift-array",
+      "owner": {
+        "display_name": "Sahil Kapoor",
+        "link": "https://stackoverflow.com/users/3950397/sahil-kapoor"
+      }
+    },
+    {
+      "question_id": 28478987,
+      "title": "How do I view my Realm file in the Realm Browser?",
+      "accepted_answer_id": 28486297,
+      "score": 139,
+      "link": "https://stackoverflow.com/questions/28478987/how-do-i-view-my-realm-file-in-the-realm-browser",
+      "owner": {
+        "display_name": "Andy Joyce",
+        "link": "https://stackoverflow.com/users/3959246/andy-joyce"
+      }
+    },
+    {
+      "question_id": 31590717,
+      "title": "Proper Realm usage patterns/best practices?",
+      "accepted_answer_id": 31594548,
+      "score": 79,
+      "link": "https://stackoverflow.com/questions/31590717/proper-realm-usage-patterns-best-practices",
+      "owner": {
+        "display_name": "lionpants",
+        "link": "https://stackoverflow.com/users/834285/lionpants"
+      }
+    },
+    {
+      "question_id": 47219257,
+      "title": "Realm VS Room in Android",
+      "accepted_answer_id": 47220250,
+      "score": 78,
+      "link": "https://stackoverflow.com/questions/47219257/realm-vs-room-in-android",
+      "owner": {
+        "display_name": "Rainmaker",
+        "link": "https://stackoverflow.com/users/2339405/rainmaker"
+      }
+    },
+    {
+      "question_id": 29123245,
+      "title": "Using enum as property of Realm model",
+      "accepted_answer_id": 29149329,
+      "score": 75,
+      "link": "https://stackoverflow.com/questions/29123245/using-enum-as-property-of-realm-model",
+      "owner": {
+        "display_name": "Dave Long",
+        "link": "https://stackoverflow.com/users/526895/dave-long"
+      }
+    },
+    {
+      "question_id": 36736178,
+      "title": "How to delete object from Realm Database Android?",
+      "accepted_answer_id": 36736415,
+      "score": 49,
+      "link": "https://stackoverflow.com/questions/36736178/how-to-delete-object-from-realm-database-android",
+      "owner": {
+        "display_name": "Pradeep Bishnoi",
+        "link": "https://stackoverflow.com/users/2264402/pradeep-bishnoi"
+      }
+    },
+    {
+      "question_id": 33363508,
+      "title": "RLMException, Migration is required for object type",
+      "accepted_answer_id": 33363554,
+      "score": 48,
+      "link": "https://stackoverflow.com/questions/33363508/rlmexception-migration-is-required-for-object-type",
+      "owner": {
+        "display_name": "shahin ali agharia",
+        "link": "https://stackoverflow.com/users/5088930/shahin-ali-agharia"
+      }
+    },
+    {
+      "question_id": 30610536,
+      "title": "Correct way to retrieve a single object from Realm database",
+      "accepted_answer_id": 30611031,
+      "score": 46,
+      "link": "https://stackoverflow.com/questions/30610536/correct-way-to-retrieve-a-single-object-from-realm-database",
+      "owner": {
+        "display_name": "Andy",
+        "link": "https://stackoverflow.com/users/528638/andy"
+      }
+    },
+    {
+      "question_id": 26067193,
+      "title": "Clear complete Realm Database",
+      "accepted_answer_id": 26067337,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/26067193/clear-complete-realm-database",
+      "owner": {
+        "display_name": "floriankrueger",
+        "link": "https://stackoverflow.com/users/766873/floriankrueger"
+      }
+    },
+    {
+      "question_id": 26152254,
+      "title": "How to set primary key in Swift for Realm model",
+      "accepted_answer_id": 26152634,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/26152254/how-to-set-primary-key-in-swift-for-realm-model",
+      "owner": {
+        "display_name": "jeffjv",
+        "link": "https://stackoverflow.com/users/2888978/jeffjv"
+      }
+    },
+    {
+      "question_id": 33940233,
+      "title": "&quot;realm migration needed&quot;, exception in android while retrieving values from realm db",
+      "accepted_answer_id": 36498525,
+      "score": 43,
+      "link": "https://stackoverflow.com/questions/33940233/realm-migration-needed-exception-in-android-while-retrieving-values-from-real",
+      "owner": {
+        "display_name": "Sanket Ranaware",
+        "link": "https://stackoverflow.com/users/4274210/sanket-ranaware"
+      }
+    },
+    {
+      "question_id": 56457524,
+      "title": "Primary key property &#39;name&#39; does not exist on object &#39;RealmSwiftPermissionRole&#39;",
+      "accepted_answer_id": 58040290,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/56457524/primary-key-property-name-does-not-exist-on-object-realmswiftpermissionrole",
+      "owner": {
+        "display_name": "Hamed Ghadirian",
+        "link": "https://stackoverflow.com/users/3409515/hamed-ghadirian"
+      }
+    },
+    {
+      "question_id": 26185679,
+      "title": "How can I easily delete all objects in a Realm",
+      "accepted_answer_id": 26244843,
+      "score": 41,
+      "link": "https://stackoverflow.com/questions/26185679/how-can-i-easily-delete-all-objects-in-a-realm",
+      "owner": {
+        "display_name": "CaptainCOOLGUY",
+        "link": "https://stackoverflow.com/users/3916279/captaincoolguy"
+      }
+    },
+    {
+      "question_id": 26252432,
+      "title": "How do I set a auto increment key in Realm?",
+      "accepted_answer_id": 26257616,
+      "score": 39,
+      "link": "https://stackoverflow.com/questions/26252432/how-do-i-set-a-auto-increment-key-in-realm",
+      "owner": {
+        "display_name": "drinking",
+        "link": "https://stackoverflow.com/users/1846773/drinking"
+      }
+    },
+    {
+      "question_id": 33377027,
+      "title": "Xcode unable to find strip-frameworks.sh directory",
+      "accepted_answer_id": 33394966,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/33377027/xcode-unable-to-find-strip-frameworks-sh-directory",
+      "owner": {
+        "display_name": "CodeIt",
+        "link": "https://stackoverflow.com/users/4581321/codeit"
+      }
+    },
+    {
+      "question_id": 34368374,
+      "title": "Kotlin data class of RealmObject",
+      "accepted_answer_id": 34390815,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/34368374/kotlin-data-class-of-realmobject",
+      "owner": {
+        "display_name": "Allen Vork",
+        "link": "https://stackoverflow.com/users/5218585/allen-vork"
+      }
+    },
+    {
+      "question_id": 31265666,
+      "title": "composite primary key realm/swift",
+      "accepted_answer_id": 31266095,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/31265666/composite-primary-key-realm-swift",
+      "owner": {
+        "display_name": "halfred",
+        "link": "https://stackoverflow.com/users/1438480/halfred"
+      }
+    },
+    {
+      "question_id": 40174920,
+      "title": "How to set primary key auto increment in realm android",
+      "accepted_answer_id": 40175572,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/40174920/how-to-set-primary-key-auto-increment-in-realm-android",
+      "owner": {
+        "display_name": "Maaz Patel",
+        "link": "https://stackoverflow.com/users/3440865/maaz-patel"
+      }
+    },
+    {
+      "question_id": 43622407,
+      "title": "How to update an object in Realm Swift",
+      "accepted_answer_id": 43639266,
+      "score": 33,
+      "link": "https://stackoverflow.com/questions/43622407/how-to-update-an-object-in-realm-swift",
+      "owner": {
+        "display_name": "jammyman34",
+        "link": "https://stackoverflow.com/users/3613009/jammyman34"
+      }
+    },
+    {
+      "question_id": 33299523,
+      "title": "How to put an image in a Realm database?",
+      "accepted_answer_id": 33299788,
+      "score": 32,
+      "link": "https://stackoverflow.com/questions/33299523/how-to-put-an-image-in-a-realm-database",
+      "owner": {
+        "display_name": "VivienG",
+        "link": "https://stackoverflow.com/users/3364127/vivieng"
+      }
+    },
+    {
+      "question_id": 30724918,
+      "title": "Realm error: Invalid Value, expecting int and receiving: 0",
+      "accepted_answer_id": 30732775,
+      "score": 31,
+      "link": "https://stackoverflow.com/questions/30724918/realm-error-invalid-value-expecting-int-and-receiving-0",
+      "owner": {
+        "display_name": "Jared",
+        "link": "https://stackoverflow.com/users/4989110/jared"
+      }
+    },
+    {
+      "question_id": 34283405,
+      "title": "How to sort using Realm?",
+      "accepted_answer_id": 34296670,
+      "score": 31,
+      "link": "https://stackoverflow.com/questions/34283405/how-to-sort-using-realm",
+      "owner": {
+        "display_name": "Cody Weaver",
+        "link": "https://stackoverflow.com/users/3475084/cody-weaver"
+      }
+    },
+    {
+      "question_id": 33356382,
+      "title": "Optional Int in Realm",
+      "accepted_answer_id": 33356943,
+      "score": 30,
+      "link": "https://stackoverflow.com/questions/33356382/optional-int-in-realm",
+      "owner": {
+        "display_name": "Cody Weaver",
+        "link": "https://stackoverflow.com/users/3475084/cody-weaver"
+      }
+    },
+    {
+      "question_id": 35376584,
+      "title": "Why does Realm use try! in Swift?",
+      "accepted_answer_id": 35377076,
+      "score": 30,
+      "link": "https://stackoverflow.com/questions/35376584/why-does-realm-use-try-in-swift",
+      "owner": {
+        "display_name": "Jason Leach",
+        "link": "https://stackoverflow.com/users/1131595/jason-leach"
+      }
+    },
+    {
+      "question_id": 35836761,
+      "title": "Right way of doing Realm Migration Android",
+      "accepted_answer_id": 35839235,
+      "score": 30,
+      "link": "https://stackoverflow.com/questions/35836761/right-way-of-doing-realm-migration-android",
+      "owner": {
+        "display_name": "User",
+        "link": "https://stackoverflow.com/users/5001783/user"
+      }
+    },
+    {
+      "question_id": 40167038,
+      "title": "Using Realm in React Native app with Redux",
+      "accepted_answer_id": 42073959,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/40167038/using-realm-in-react-native-app-with-redux",
+      "owner": {
+        "display_name": "oldo.nicho",
+        "link": "https://stackoverflow.com/users/2987737/oldo-nicho"
+      }
+    },
+    {
+      "question_id": 28733024,
+      "title": "Gson deserialization of List&lt;String&gt; into realmList&lt;RealmString&gt;",
+      "accepted_answer_id": 28749863,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/28733024/gson-deserialization-of-liststring-into-realmlistrealmstring",
+      "owner": {
+        "display_name": "avid",
+        "link": "https://stackoverflow.com/users/1272505/avid"
+      }
+    },
+    {
+      "question_id": 30115021,
+      "title": "How to convert RealmResults object to RealmList?",
+      "accepted_answer_id": 30115200,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/30115021/how-to-convert-realmresults-object-to-realmlist",
+      "owner": {
+        "display_name": "Ezio123",
+        "link": "https://stackoverflow.com/users/4852902/ezio123"
+      }
+    },
+    {
+      "question_id": 33796143,
+      "title": "How can I store a Dictionary with RealmSwift?",
+      "accepted_answer_id": 33801227,
+      "score": 26,
+      "link": "https://stackoverflow.com/questions/33796143/how-can-i-store-a-dictionary-with-realmswift",
+      "owner": {
+        "display_name": "gabuchan",
+        "link": "https://stackoverflow.com/users/992461/gabuchan"
+      }
+    },
+    {
+      "question_id": 32891269,
+      "title": "Prevent Realm from overwriting a property when updating an Object",
+      "accepted_answer_id": 32896351,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/32891269/prevent-realm-from-overwriting-a-property-when-updating-an-object",
+      "owner": {
+        "display_name": "Peter Pik",
+        "link": "https://stackoverflow.com/users/4034437/peter-pik"
+      }
+    },
+    {
+      "question_id": 33177283,
+      "title": "Dynamic properties in Realm",
+      "accepted_answer_id": 33177633,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/33177283/dynamic-properties-in-realm",
+      "owner": {
+        "display_name": "Cody Weaver",
+        "link": "https://stackoverflow.com/users/3475084/cody-weaver"
+      }
+    },
+    {
+      "question_id": 37997766,
+      "title": "Enums support with Realm?",
+      "accepted_answer_id": 38007324,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/37997766/enums-support-with-realm",
+      "owner": {
+        "display_name": "MJB22",
+        "link": "https://stackoverflow.com/users/3385533/mjb22"
+      }
+    },
+    {
+      "question_id": 37648071,
+      "title": "How to Clear Database in Realm in Android",
+      "accepted_answer_id": 37648877,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/37648071/how-to-clear-database-in-realm-in-android",
+      "owner": {
+        "display_name": "Nicks",
+        "link": "https://stackoverflow.com/users/6303688/nicks"
+      }
+    },
+    {
+      "question_id": 37887303,
+      "title": "Object is not part of the schema for this Realm",
+      "accepted_answer_id": 41504513,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/37887303/object-is-not-part-of-the-schema-for-this-realm",
+      "owner": {
+        "display_name": "Riyan Fransen",
+        "link": "https://stackoverflow.com/users/6049281/riyan-fransen"
+      }
+    },
+    {
+      "question_id": 35232373,
+      "title": "Declare an array of Int in Realm Swift",
+      "accepted_answer_id": 35268004,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/35232373/declare-an-array-of-int-in-realm-swift",
+      "owner": {
+        "display_name": "Vinicius Albino",
+        "link": "https://stackoverflow.com/users/927838/vinicius-albino"
+      }
+    },
+    {
+      "question_id": 40344801,
+      "title": "Realm access from incorrect thread",
+      "accepted_answer_id": 40345062,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/40344801/realm-access-from-incorrect-thread",
+      "owner": {
+        "display_name": "Shudy",
+        "link": "https://stackoverflow.com/users/1282166/shudy"
+      }
+    },
+    {
+      "question_id": 55678321,
+      "title": "What is the correct way to update swift version in Xcode/Cocoapods project?",
+      "accepted_answer_id": 55678976,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/55678321/what-is-the-correct-way-to-update-swift-version-in-xcode-cocoapods-project",
+      "owner": {
+        "display_name": "Lena Verhoev",
+        "link": "https://stackoverflow.com/users/8394922/lena-verhoev"
+      }
+    },
+    {
+      "question_id": 34598268,
+      "title": "Realm Migration doesn&#39;t work",
+      "accepted_answer_id": 34660203,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/34598268/realm-migration-doesnt-work",
+      "owner": {
+        "display_name": "user2179936",
+        "link": "https://stackoverflow.com/users/2179936/user2179936"
+      }
+    },
+    {
+      "question_id": 34891743,
+      "title": "Realm migrations in Swift",
+      "accepted_answer_id": 34892099,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/34891743/realm-migrations-in-swift",
+      "owner": {
+        "display_name": "Cody Weaver",
+        "link": "https://stackoverflow.com/users/3475084/cody-weaver"
+      }
+    },
+    {
+      "question_id": 27223669,
+      "title": "Update statement in Realm android",
+      "accepted_answer_id": 30454401,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/27223669/update-statement-in-realm-android",
+      "owner": {
+        "display_name": "Dinu",
+        "link": "https://stackoverflow.com/users/772722/dinu"
+      }
+    },
+    {
+      "question_id": 30097810,
+      "title": "List&lt;Object&gt; Or RealmList&lt;RealmObject&gt; on Realm Android",
+      "accepted_answer_id": 30098398,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/30097810/listobject-or-realmlistrealmobject-on-realm-android",
+      "owner": {
+        "display_name": "Bachlet Tansime",
+        "link": "https://stackoverflow.com/users/4673855/bachlet-tansime"
+      }
+    },
+    {
+      "question_id": 30258351,
+      "title": "Android Realm copyToRealmOrUpdate creates duplicates of nested objects",
+      "accepted_answer_id": 30290509,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/30258351/android-realm-copytorealmorupdate-creates-duplicates-of-nested-objects",
+      "owner": {
+        "display_name": "Oleksii Shliama",
+        "link": "https://stackoverflow.com/users/4903519/oleksii-shliama"
+      }
+    },
+    {
+      "question_id": 32322460,
+      "title": "Should I define the primary key for each entity in Realm?",
+      "accepted_answer_id": 32322677,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/32322460/should-i-define-the-primary-key-for-each-entity-in-realm",
+      "owner": {
+        "display_name": "David",
+        "link": "https://stackoverflow.com/users/2378544/david"
+      }
+    },
+    {
+      "question_id": 33651585,
+      "title": "Realm on Android - How to select multiple objects by list of ids (@PrimaryKey)?",
+      "accepted_answer_id": 33692690,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/33651585/realm-on-android-how-to-select-multiple-objects-by-list-of-ids-primarykey",
+      "owner": {
+        "display_name": "Albert Vila Calvo",
+        "link": "https://stackoverflow.com/users/4034572/albert-vila-calvo"
+      }
+    },
+    {
+      "question_id": 34943550,
+      "title": "Realm Swift Models separate or not?",
+      "accepted_answer_id": 34946463,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/34943550/realm-swift-models-separate-or-not",
+      "owner": {
+        "display_name": "Rob212",
+        "link": "https://stackoverflow.com/users/2747146/rob212"
+      }
+    },
+    {
+      "question_id": 40195371,
+      "title": "How to organize React Native with Realm project files?",
+      "accepted_answer_id": 40205170,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/40195371/how-to-organize-react-native-with-realm-project-files",
+      "owner": {
+        "display_name": "acidernt",
+        "link": "https://stackoverflow.com/users/1332157/acidernt"
+      }
+    },
+    {
+      "question_id": 49167886,
+      "title": "Kotlin Realm: Class must declare a public constructor with no arguments if it contains custom constructors",
+      "accepted_answer_id": 49167887,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/49167886/kotlin-realm-class-must-declare-a-public-constructor-with-no-arguments-if-it-co",
+      "owner": {
+        "display_name": "Bhuvanesh BS",
+        "link": "https://stackoverflow.com/users/5558150/bhuvanesh-bs"
+      }
+    },
+    {
+      "question_id": 34914629,
+      "title": "How to use NOT IN with Realm Swift",
+      "accepted_answer_id": 34914825,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/34914629/how-to-use-not-in-with-realm-swift",
+      "owner": {
+        "display_name": "Kalzem",
+        "link": "https://stackoverflow.com/users/836501/kalzem"
+      }
+    },
+    {
+      "question_id": 37396319,
+      "title": "How to completely remove Realm database from iOS?",
+      "accepted_answer_id": 37408455,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/37396319/how-to-completely-remove-realm-database-from-ios",
+      "owner": {
+        "display_name": "Vassily",
+        "link": "https://stackoverflow.com/users/5133852/vassily"
+      }
+    },
+    {
+      "question_id": 37682919,
+      "title": "RealmSwift: No such module &#39;RealmSwift&#39;",
+      "accepted_answer_id": 37686223,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/37682919/realmswift-no-such-module-realmswift",
+      "owner": {
+        "display_name": "Gaurav Vyas",
+        "link": "https://stackoverflow.com/users/6240249/gaurav-vyas"
+      }
+    },
+    {
+      "question_id": 38193265,
+      "title": "How can I avoid migration in RealmSwift",
+      "accepted_answer_id": 38194786,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/38193265/how-can-i-avoid-migration-in-realmswift",
+      "owner": {
+        "display_name": "kangarooChris",
+        "link": "https://stackoverflow.com/users/5765434/kangaroochris"
+      }
+    },
+    {
+      "question_id": 40592350,
+      "title": "Realm - Can&#39;t create object with existing primary key value",
+      "accepted_answer_id": 40595430,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/40592350/realm-cant-create-object-with-existing-primary-key-value",
+      "owner": {
+        "display_name": "Deekshith Bellare",
+        "link": "https://stackoverflow.com/users/3496513/deekshith-bellare"
+      }
+    },
+    {
+      "question_id": 56114345,
+      "title": "Using static libraries in Swift with CocoaPods fails for Realm",
+      "accepted_answer_id": 56901748,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/56114345/using-static-libraries-in-swift-with-cocoapods-fails-for-realm",
+      "owner": {
+        "display_name": "TmKVU",
+        "link": "https://stackoverflow.com/users/1702602/tmkvu"
+      }
+    },
+    {
+      "question_id": 60393230,
+      "title": "App crashes during run-time after updating to Android Studio 3.6",
+      "accepted_answer_id": 60394836,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/60393230/app-crashes-during-run-time-after-updating-to-android-studio-3-6",
+      "owner": {
+        "display_name": "vovahost",
+        "link": "https://stackoverflow.com/users/1502079/vovahost"
+      }
+    },
+    {
+      "question_id": 32256034,
+      "title": "Detach RealmObject from Realm / Convert managed RealmObject to unmanaged Object",
+      "accepted_answer_id": 38637134,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/32256034/detach-realmobject-from-realm-convert-managed-realmobject-to-unmanaged-object",
+      "owner": {
+        "display_name": "Tudor Luca",
+        "link": "https://stackoverflow.com/users/1392423/tudor-luca"
+      }
+    },
+    {
+      "question_id": 32273954,
+      "title": "Unit testing Swift 2.0, @testable import, and scheme targeting issues",
+      "accepted_answer_id": 32276984,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/32273954/unit-testing-swift-2-0-testable-import-and-scheme-targeting-issues",
+      "owner": {
+        "display_name": "Tyler",
+        "link": "https://stackoverflow.com/users/559850/tyler"
+      }
+    },
+    {
+      "question_id": 37861683,
+      "title": "Realm support for Swift 3.0",
+      "accepted_answer_id": 37900792,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/37861683/realm-support-for-swift-3-0",
+      "owner": {
+        "display_name": "Taco",
+        "link": "https://stackoverflow.com/users/3570267/taco"
+      }
+    },
+    {
+      "question_id": 39760940,
+      "title": "How to deploy a Realm Object Server",
+      "accepted_answer_id": 39765850,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/39760940/how-to-deploy-a-realm-object-server",
+      "owner": {
+        "display_name": "chetem",
+        "link": "https://stackoverflow.com/users/3469207/chetem"
+      }
+    },
+    {
+      "question_id": 44443084,
+      "title": "Clean up old Realm objects?",
+      "accepted_answer_id": 45886977,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/44443084/clean-up-old-realm-objects",
+      "owner": {
+        "display_name": "Brandon Zamudio",
+        "link": "https://stackoverflow.com/users/5389995/brandon-zamudio"
+      }
+    },
+    {
+      "question_id": 48810421,
+      "title": "RLMException: &#39;Primary key property &#39;serial&#39; does not exist on object &#39;Book&#39; Migrating to Swift 4",
+      "accepted_answer_id": 48810422,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/48810421/rlmexception-primary-key-property-serial-does-not-exist-on-object-book-mig",
+      "owner": {
+        "display_name": "Hellojeffy",
+        "link": "https://stackoverflow.com/users/813292/hellojeffy"
+      }
+    },
+    {
+      "question_id": 25661023,
+      "title": "Realm accessed from incorrect thread",
+      "accepted_answer_id": 25670511,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/25661023/realm-accessed-from-incorrect-thread",
+      "owner": {
+        "display_name": "Maxim",
+        "link": "https://stackoverflow.com/users/462773/maxim"
+      }
+    },
+    {
+      "question_id": 31083748,
+      "title": "How to use Realm Swift Init",
+      "accepted_answer_id": 31091860,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/31083748/how-to-use-realm-swift-init",
+      "owner": {
+        "display_name": "leech",
+        "link": "https://stackoverflow.com/users/5054702/leech"
+      }
+    },
+    {
+      "question_id": 33884037,
+      "title": "Realm `access from incorrect thread` error when using shared code between IntentService and AsyncTask (Android)",
+      "accepted_answer_id": 33884743,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/33884037/realm-access-from-incorrect-thread-error-when-using-shared-code-between-intent",
+      "owner": {
+        "display_name": "Rock Lee",
+        "link": "https://stackoverflow.com/users/2423194/rock-lee"
+      }
+    },
+    {
+      "question_id": 35060391,
+      "title": "How to save a struct to realm in swift?",
+      "accepted_answer_id": 41997281,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/35060391/how-to-save-a-struct-to-realm-in-swift",
+      "owner": {
+        "display_name": "beseder",
+        "link": "https://stackoverflow.com/users/2181333/beseder"
+      }
+    },
+    {
+      "question_id": 37193959,
+      "title": "iOS Realm Filter objects in a list of a relationship",
+      "accepted_answer_id": 37199070,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/37193959/ios-realm-filter-objects-in-a-list-of-a-relationship",
+      "owner": {
+        "display_name": "Daniel Storch",
+        "link": "https://stackoverflow.com/users/4745640/daniel-storch"
+      }
+    },
+    {
+      "question_id": 38046862,
+      "title": "How to check realm for android data existence?",
+      "accepted_answer_id": 38046903,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/38046862/how-to-check-realm-for-android-data-existence",
+      "owner": {
+        "display_name": "Azlan Jamal",
+        "link": "https://stackoverflow.com/users/4550155/azlan-jamal"
+      }
+    },
+    {
+      "question_id": 40472374,
+      "title": "Realm, avoid to store some property",
+      "accepted_answer_id": 40472567,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/40472374/realm-avoid-to-store-some-property",
+      "owner": {
+        "display_name": "Lory Huz",
+        "link": "https://stackoverflow.com/users/1887988/lory-huz"
+      }
+    },
+    {
+      "question_id": 40493495,
+      "title": "What&#39;s the difference between realm.write and realm.beginWrite+realm.commitWrite?",
+      "accepted_answer_id": 40494857,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/40493495/whats-the-difference-between-realm-write-and-realm-beginwriterealm-commitwrite",
+      "owner": {
+        "display_name": "lozy219",
+        "link": "https://stackoverflow.com/users/3747600/lozy219"
+      }
+    },
+    {
+      "question_id": 40587563,
+      "title": "When should I call realm.close()?",
+      "accepted_answer_id": 40593526,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/40587563/when-should-i-call-realm-close",
+      "owner": {
+        "display_name": "Johannes",
+        "link": "https://stackoverflow.com/users/921534/johannes"
+      }
+    },
+    {
+      "question_id": 26254881,
+      "title": "Proper way to clear Realm table/database?",
+      "accepted_answer_id": 26256708,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/26254881/proper-way-to-clear-realm-table-database",
+      "owner": {
+        "display_name": "chrystolin",
+        "link": "https://stackoverflow.com/users/4074227/chrystolin"
+      }
+    },
+    {
+      "question_id": 32461425,
+      "title": "Check two fields with Realm database",
+      "accepted_answer_id": 32463498,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/32461425/check-two-fields-with-realm-database",
+      "owner": {
+        "display_name": "vicolored",
+        "link": "https://stackoverflow.com/users/3641560/vicolored"
+      }
+    },
+    {
+      "question_id": 33631605,
+      "title": "Realm: Use one or multiple realms in an app (and one or multiple schemas)",
+      "accepted_answer_id": 33645768,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/33631605/realm-use-one-or-multiple-realms-in-an-app-and-one-or-multiple-schemas",
+      "owner": {
+        "display_name": "Addev",
+        "link": "https://stackoverflow.com/users/853836/addev"
+      }
+    },
+    {
+      "question_id": 35144670,
+      "title": "Realm Exception &#39;value&#39; is not a valid managed object",
+      "accepted_answer_id": 35837434,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/35144670/realm-exception-value-is-not-a-valid-managed-object",
+      "owner": {
+        "display_name": "Kim Montano",
+        "link": "https://stackoverflow.com/users/2601957/kim-montano"
+      }
+    },
+    {
+      "question_id": 35902361,
+      "title": "Realm &amp; React Native - Best practice to implement auto-updates?",
+      "accepted_answer_id": 35923260,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/35902361/realm-react-native-best-practice-to-implement-auto-updates",
+      "owner": {
+        "display_name": "ThorbenA",
+        "link": "https://stackoverflow.com/users/2491115/thorbena"
+      }
+    },
+    {
+      "question_id": 36041999,
+      "title": "Why is Realm so fast compared to SQLite?",
+      "accepted_answer_id": 36183931,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/36041999/why-is-realm-so-fast-compared-to-sqlite",
+      "owner": {
+        "display_name": "philoniare",
+        "link": "https://stackoverflow.com/users/5364846/philoniare"
+      }
+    },
+    {
+      "question_id": 40758854,
+      "title": "How to convert RealmResults&lt;Object&gt; to List&lt;Object&gt;",
+      "accepted_answer_id": 40758983,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/40758854/how-to-convert-realmresultsobject-to-listobject",
+      "owner": {
+        "display_name": "Linh",
+        "link": "https://stackoverflow.com/users/5381331/linh"
+      }
+    },
+    {
+      "question_id": 43860885,
+      "title": "Can only delete an object from the Realm it belongs to",
+      "accepted_answer_id": 43865118,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/43860885/can-only-delete-an-object-from-the-realm-it-belongs-to",
+      "owner": {
+        "display_name": "Noah-1",
+        "link": "https://stackoverflow.com/users/4355886/noah-1"
+      }
+    },
+    {
+      "question_id": 29661201,
+      "title": "How do you check if a realm instance has been closed already?",
+      "accepted_answer_id": 35788200,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/29661201/how-do-you-check-if-a-realm-instance-has-been-closed-already",
+      "owner": {
+        "display_name": "zongweil",
+        "link": "https://stackoverflow.com/users/1757776/zongweil"
+      }
+    },
+    {
+      "question_id": 30259676,
+      "title": "Can I have arrayList of string in realm object android",
+      "accepted_answer_id": 50503086,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/30259676/can-i-have-arraylist-of-string-in-realm-object-android",
+      "owner": {
+        "display_name": "Salmaan",
+        "link": "https://stackoverflow.com/users/3828908/salmaan"
+      }
+    },
+    {
+      "question_id": 30476179,
+      "title": "Realm - Add file with initial data to project (iOS/Swift)",
+      "accepted_answer_id": 30478227,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/30476179/realm-add-file-with-initial-data-to-project-ios-swift",
+      "owner": {
+        "display_name": "Max",
+        "link": "https://stackoverflow.com/users/4393209/max"
+      }
+    },
+    {
+      "question_id": 35813731,
+      "title": "Realm Android - How can I convert RealmResults to array of objects?",
+      "accepted_answer_id": 35813887,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/35813731/realm-android-how-can-i-convert-realmresults-to-array-of-objects",
+      "owner": {
+        "display_name": "Alexey K",
+        "link": "https://stackoverflow.com/users/4730700/alexey-k"
+      }
+    },
+    {
+      "question_id": 37728815,
+      "title": "ORDER BY Date - Realm (Android)",
+      "accepted_answer_id": 37729368,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/37728815/order-by-date-realm-android",
+      "owner": {
+        "display_name": "LEE",
+        "link": "https://stackoverflow.com/users/2818619/lee"
+      }
+    },
+    {
+      "question_id": 39366182,
+      "title": "the realm is already in a write transaction",
+      "accepted_answer_id": 39382812,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/39366182/the-realm-is-already-in-a-write-transaction",
+      "owner": {
+        "display_name": "Aye",
+        "link": "https://stackoverflow.com/users/5725440/aye"
+      }
+    },
+    {
+      "question_id": 26260214,
+      "title": "Making GSON &amp; Realm play nice",
+      "accepted_answer_id": 28361096,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/26260214/making-gson-realm-play-nice",
+      "owner": {
+        "display_name": "TomCB",
+        "link": "https://stackoverflow.com/users/3220953/tomcb"
+      }
+    },
+    {
+      "question_id": 29905271,
+      "title": "Unable to use both Swift and Obj-C libs with Cocoapods",
+      "accepted_answer_id": 29954385,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/29905271/unable-to-use-both-swift-and-obj-c-libs-with-cocoapods",
+      "owner": {
+        "display_name": "Adrien Cadet",
+        "link": "https://stackoverflow.com/users/2669008/adrien-cadet"
+      }
+    },
+    {
+      "question_id": 29996999,
+      "title": "How to migrate a realm database to an app group?",
+      "accepted_answer_id": 30005477,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/29996999/how-to-migrate-a-realm-database-to-an-app-group",
+      "owner": {
+        "display_name": "Whoa",
+        "link": "https://stackoverflow.com/users/1299041/whoa"
+      }
+    },
+    {
+      "question_id": 30514420,
+      "title": "Delete all data from specific Realm Object Swift",
+      "accepted_answer_id": 30516724,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/30514420/delete-all-data-from-specific-realm-object-swift",
+      "owner": {
+        "display_name": "YichenBman",
+        "link": "https://stackoverflow.com/users/3786510/yichenbman"
+      }
+    },
+    {
+      "question_id": 36180702,
+      "title": "What&#39;s wrong with my #if TARGET_OS_SIMULATOR code for Realm path definition?",
+      "accepted_answer_id": 36202200,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/36180702/whats-wrong-with-my-if-target-os-simulator-code-for-realm-path-definition",
+      "owner": {
+        "display_name": "alexey",
+        "link": "https://stackoverflow.com/users/6066969/alexey"
+      }
+    },
+    {
+      "question_id": 37351703,
+      "title": "Cannot retrieve field values from realm object, values are null in debugger",
+      "accepted_answer_id": 37374901,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/37351703/cannot-retrieve-field-values-from-realm-object-values-are-null-in-debugger",
+      "owner": {
+        "display_name": "BillHaggerty",
+        "link": "https://stackoverflow.com/users/3887945/billhaggerty"
+      }
+    },
+    {
+      "question_id": 41204648,
+      "title": "Realm adding extra size to my apk",
+      "accepted_answer_id": 41204939,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/41204648/realm-adding-extra-size-to-my-apk",
+      "owner": {
+        "display_name": "Gurleen Sethi",
+        "link": "https://stackoverflow.com/users/6878730/gurleen-sethi"
+      }
+    },
+    {
+      "question_id": 45809717,
+      "title": "After writing to a Realm in background thread, the main thread doesn&#39;t see updated data",
+      "accepted_answer_id": 45810078,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/45809717/after-writing-to-a-realm-in-background-thread-the-main-thread-doesnt-see-updat",
+      "owner": {
+        "display_name": "苏文梁",
+        "link": "https://stackoverflow.com/users/5736017/%e8%8b%8f%e6%96%87%e6%a2%81"
+      }
+    },
+    {
+      "question_id": 48365932,
+      "title": "How to prepopulate Realm database with data?",
+      "accepted_answer_id": 48541639,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/48365932/how-to-prepopulate-realm-database-with-data",
+      "owner": {
+        "display_name": "spin_eight",
+        "link": "https://stackoverflow.com/users/1280794/spin-eight"
+      }
+    },
+    {
+      "question_id": 60045282,
+      "title": "After updating iOS, all applications using the framework stopped running on the device, but they run on the simulator",
+      "accepted_answer_id": 60059840,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/60045282/after-updating-ios-all-applications-using-the-framework-stopped-running-on-the",
+      "owner": {
+        "display_name": "megapihar",
+        "link": "https://stackoverflow.com/users/12726442/megapihar"
+      }
+    },
+    {
+      "question_id": 30616140,
+      "title": "How to make a nested query in Realm?",
+      "accepted_answer_id": 30616257,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/30616140/how-to-make-a-nested-query-in-realm",
+      "owner": {
+        "display_name": "Laranjeiro",
+        "link": "https://stackoverflow.com/users/560040/laranjeiro"
+      }
+    },
+    {
+      "question_id": 33363972,
+      "title": "Realm: Results&lt;T&gt; als List&lt;T&gt;",
+      "accepted_answer_id": 65154780,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/33363972/realm-resultst-als-listt",
+      "owner": {
+        "display_name": "netshark1000",
+        "link": "https://stackoverflow.com/users/997652/netshark1000"
+      }
+    },
+    {
+      "question_id": 38728938,
+      "title": "UITableView with Multiple Sections using Realm and Swift",
+      "accepted_answer_id": 38797693,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/38728938/uitableview-with-multiple-sections-using-realm-and-swift",
+      "owner": {
+        "display_name": "TDN",
+        "link": "https://stackoverflow.com/users/5857526/tdn"
+      }
+    },
+    {
+      "question_id": 50947279,
+      "title": "How to include dSYM file of an embedded framework to an app archive",
+      "accepted_answer_id": 52417617,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/50947279/how-to-include-dsym-file-of-an-embedded-framework-to-an-app-archive",
+      "owner": {
+        "display_name": "DoN1cK",
+        "link": "https://stackoverflow.com/users/2732896/don1ck"
+      }
+    },
+    {
+      "question_id": 54017424,
+      "title": "Carthage update failure saying &quot;Could not find any available simulators for iOS&quot; - Xcode 10.1, macOS Mojave (10.14.2)",
+      "accepted_answer_id": 54051178,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/54017424/carthage-update-failure-saying-could-not-find-any-available-simulators-for-ios",
+      "owner": {
+        "display_name": "Sasi",
+        "link": "https://stackoverflow.com/users/1402675/sasi"
+      }
+    },
+    {
+      "question_id": 33592572,
+      "title": "Realm Swift2: Best practice for model and Realm model class separation",
+      "accepted_answer_id": 33611868,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/33592572/realm-swift2-best-practice-for-model-and-realm-model-class-separation",
+      "owner": {
+        "display_name": "John B.",
+        "link": "https://stackoverflow.com/users/4553802/john-b"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 58040290,
+      "body": "<p>There's an issue with iOS 13 and Xcode 11 which may cause this problem. All String properties of Realm classes with a default <code>String</code> value set are disregarded somehow.\nYou can fix this by updating to the latest version (currently 3.20.0) and then on Xcode: <strong>Product -&gt; Clean Build Folder</strong>.</p>\n<p>If you're using cocoa-pods:</p>\n<p>Open your project's Podfile, and replace RealmSwift line with:</p>\n<pre><code>pod 'RealmSwift', '~&gt; 4.4.1'\n</code></pre>\n<p>Then, open terminal on the project's folder and:</p>\n<pre><code>pod repo update\npod install\n</code></pre>\n",
+      "owner": {
+        "display_name": "Gal Shahar",
+        "link": "https://stackoverflow.com/users/3927046/gal-shahar"
+      }
+    },
+    {
+      "answer_id": 26152634,
+      "body": "<p>As of Realm Swift v10.10.0, you declare a primary key with <code>@Persisted(primaryKey: true)</code>:</p>\n<pre class=\"lang-swift prettyprint-override\"><code>class Foo: Object {\n    @Persisted(primaryKey: true) var id = 0\n    @Persisted var title = &quot;&quot;\n}\n</code></pre>\n<hr />\n<p>Older versions:</p>\n<p><code>primaryKey</code> needs to be a class function which returns the name of the property which is the primary key, not an instance method which returns the value of the primary key.</p>\n<pre><code>@objcMembers class Foo: RLMObject {\n    dynamic var id = 0\n    dynamic var title = &quot;&quot;\n\n    override class func primaryKey() -&gt; String? {\n        return &quot;id&quot;\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Thomas Goyne",
+        "link": "https://stackoverflow.com/users/2340687/thomas-goyne"
+      }
+    },
+    {
+      "answer_id": 33692690,
+      "body": "<p><strong>Update:</strong></p>\n<p>Realm 1.2.0 has added <code>RealmQuery.in()</code> for a comparison against multiple values. <a href=\"https://realm.io/docs/java/latest/api/io/realm/RealmQuery.html\" rel=\"nofollow noreferrer\">The documentation</a> details all the available overloads. <a href=\"https://realm.io/docs/java/latest/api/io/realm/RealmQuery.html#in-java.lang.String-java.lang.Integer:A-\" rel=\"nofollow noreferrer\">This one</a> is the method we can use if our ids are <code>Integer</code>s:</p>\n<pre><code>public RealmQuery&lt;E&gt; in(String fieldName, Integer[] values)\n</code></pre>\n<p><strong>Original answer:</strong></p>\n<p>The answer from @ChristianMelchior returns all articles if the list of ids is empty. I want it to return an empty <code>RealmResults&lt;Article&gt;</code>. That's what I've ended up doing:</p>\n<pre><code>Set&lt;Integer&gt; articleIds = this.getArticleIds();\nRealmQuery&lt;Article&gt; query = realm.where(Article.class);\nif (articleIds.size() == 0) {\n    // We want to return an empty list if the list of ids is empty. \n    // Just use alwaysFalse\n    query = query.alwaysFalse();\n} else {\n    int i = 0;\n    for (int id : articleIds) {\n        // The or() operator requires left hand and right hand elements. \n        // If articleIds had only one element then it would crash with\n        // &quot;Missing right-hand side of OR&quot;\n        if (i++ &gt; 0) {\n            query = query.or();\n        }\n        query = query.equalTo(&quot;id&quot;, id);\n    }\n}\nreturn query.findAll();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Albert Vila Calvo",
+        "link": "https://stackoverflow.com/users/4034572/albert-vila-calvo"
+      }
+    },
+    {
+      "answer_id": 36183931,
+      "body": "<p>The <a href=\"https://www.mongodb.com/developer/learn/?content=Articles&amp;products=Mobile#main\" rel=\"nofollow noreferrer\">Realm blog</a> has great technical talks on the subject, but there was no single repository that goes into depth about the reasons behind its performance. This post is an effort to condense the videos and articles in an easily accessible manner.</p>\n<h3>TL;DR</h3>\n<p>Realm is designed for mobile from the get-go that uses and therefore makes trade-offs that make sense in the mobile platform whereas SQLite is a generic solution that was ported to mobile.</p>\n<h3>The longer answer</h3>\n<p>There are of course a lot of small optimizations that Realm does (integer packing, converting common strings to enums), but in this post I'll try to focus on the differences that account for the most performance benefits.</p>\n<ol>\n<li>The traditional <strong>SQLite + ORM abstraction is leaky</strong> because ORM simply converts Objects and their methods into SQL statements. As a result, it is a trade-off for developer productivity at the cost of performance. Realm, on the other hand, is an <a href=\"https://en.wikipedia.org/wiki/Object_database\" rel=\"nofollow noreferrer\">object database</a>, meaning your objects directly reflect your database. This direct access to the database, leads to the next topic: zero-copy.</li>\n<li><strong>Zero-copy</strong>: the traditional way of reading data from a database leads to unnecessary copying (raw data -&gt; deserialized representation -&gt; language-level objects). Realm avoids this by mapping the whole data in-memory, using B+ trees and whenever data is queried, Realm simply calculates the offset, reads from the memory mapped region and returns the raw value.</li>\n<li><strong>Lazy loading</strong>: because the properties are represented in columns instead of rows, it can lazy load the properties as necessary and because of the column structure, reads are much faster, while inserts are slower. But that is a good trade-off to make in the context of a mobile application.</li>\n<li><strong>MVCC (Multiversion Concurrency Control)</strong>: Realm also handles concurrency well using the MVCC model, which means that multiple read transactions can be done at the same time and reads can also be done while a write transaction is being committed.</li>\n</ol>\n",
+      "owner": {
+        "display_name": "philoniare",
+        "link": "https://stackoverflow.com/users/5364846/philoniare"
+      }
+    },
+    {
+      "answer_id": 65154780,
+      "body": "<p>We can use extensions to make life easier :</p>\n<pre><code>extension Realm {\n    func list&lt;T: Object&gt;(_ type: T.Type) -&gt; List&lt;T&gt; {\n        let objects = self.objects(type)\n        let list = objects.reduce(List&lt;T&gt;()) { list, element -&gt; List&lt;T&gt; in\n            list.append(element)\n            return list\n        }\n        \n        return list\n    }\n}\n</code></pre>\n<p>Usage:</p>\n<pre><code>let objects = realm.list(YourObject.self)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Hossein",
+        "link": "https://stackoverflow.com/users/4210034/hossein"
+      }
+    },
+    {
+      "answer_id": 40595430,
+      "body": "<p>The problem here is that even though you're creating a completely new Realm <code>Dog</code> object, you're not actually persisting that one to the database, and so when you call <code>append</code>, you're trying to add a second copy.</p>\n<p>When you call <code>realm.create(Dog.self, value:dog, update: true)</code>, if an object with that ID already exists in the database, you're simply updating that existing object in with the values in the <code>dog</code> instance you created, but that <code>dog</code> instance is still an independent copy; it's not the <code>Dog</code> object in the database. You can confirm this by checking if <code>dog.realm</code> is equal to <code>nil</code> or not.</p>\n<p>So when you call <code>person.dogs.append(dog)</code>, because <code>dog</code> is not already in the database, Realm tries to create a whole new database entry, but fails because there is already a dog with that ID.</p>\n<p>If you want to append that <code>dog</code> object to a <code>person</code>, it'll be necessary to query Realm to retrieve a proper <code>dog</code> object that's referencing the entry in the database. Thankfully this is really easy with Realm objects backed by primary keys since you can use the <code>Realm.object(ofType:forPrimaryKey:)</code> method:</p>\n<pre><code>if let person = realm.object(ofType: Person.self, forPrimaryKey: &quot;id&quot;) {\n    for (_, dict): (String, JSON) in response {\n        //Create dog using the dict info,my custom init method\n        if let dog = Dog(dict: dict)\n        {\n            try! realm.write {\n                //save it to realm\n                realm.create(Dog.self, value: dog, update: true)\n                //get the dog reference from the database\n                let realmDog = realm.object(ofType: Dog.self, forPrimaryKey: &quot;id&quot;)\n                //append dog to person\n                person.dogs.append(realmDog)\n            }\n        }\n    }\n    try! realm.write {\n        //save person\n        realm.create(person .self, value: collection, update: true)\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "TiM",
+        "link": "https://stackoverflow.com/users/599344/tim"
+      }
+    },
+    {
+      "answer_id": 60394836,
+      "body": "<p>Are you using Realm in your project? I had the same problem and fixed it by upgrading my Realm dependency to the latest stable version because I found <a href=\"https://github.com/realm/realm-java/issues/6557\" rel=\"noreferrer\">this related issue</a>.</p>\n\n<p>On build.gradle(Project):</p>\n\n<pre><code>dependencies {\n\n    classpath 'io.realm:realm-gradle-plugin:6.0.2'\n}\n</code></pre>\n\n<p>After that, I cleaned and rebuilt the project (just in case).</p>\n",
+      "owner": {
+        "display_name": "Ivette",
+        "link": "https://stackoverflow.com/users/4688418/ivette"
+      }
+    },
+    {
+      "answer_id": 60059840,
+      "body": "<p>I had the same issue with realm, it would work on the simulator but crash instantly on the actual devices.\nIt seems when updating to iOS 13.3.1 Apple changed the behaviour of free apple developer accounts, no longer allowing them to use embedded frameworks.</p>\n\n<p>The solution is to remove the <code>use_frameworks!</code> in your Podfile and replace it with <code>use_modular_headers!</code></p>\n\n<p>e.g.</p>\n\n<pre><code>target 'your_project_name' do\n    use_modular_headers!\n    pod 'RealmSwift'\nend\n</code></pre>\n\n<p>This will include them as static libraries instead.\nI stumbled upon the solution in this GitHub issue:\n<a href=\"https://github.com/Alamofire/Alamofire/issues/3051\" rel=\"noreferrer\">https://github.com/Alamofire/Alamofire/issues/3051</a></p>\n",
+      "owner": {
+        "display_name": "NateMS",
+        "link": "https://stackoverflow.com/users/4370087/natems"
+      }
+    },
+    {
+      "answer_id": 31266095,
+      "body": "<p>For <code>1.0.1+</code> of Realm:</p>\n\n<pre><code>class DbLocation: Object{\n    dynamic var id = 0\n    dynamic var tourId = 0\n    dynamic var compoundKey = \"\"\n\n    override static func primaryKey() -&gt; String? {\n        return \"compoundKey\"\n    }\n\n    func setup(id: Int, tourId: Int){\n        self.id = id\n        self.tourId = tourId\n        self.compoundKey = compoundKeyValue()\n    }\n\n    func compoundKeyValue() -&gt; String {\n        return \"\\(id)\\(tourId)\"\n    }\n}\n</code></pre>\n\n<p>Usage example:</p>\n\n<pre><code>let location = DbLocation()\nlocation.setup(id: 0, tourId: 1) \nprint(location.compoundKey) // \"01\"\n</code></pre>\n\n<p>Of course you can play around with using various <code>didSet</code> listeners on <code>id</code> and <code>tourId</code>, to make sure that compoundKey gets properly rewritten every time the values get changed.</p>\n\n<p>For <code>pre-1.0.1</code> of Realm:</p>\n\n<pre><code>class DbLocation: Object {\n    dynamic var id = 0\n    dynamic var tourId = 0\n\n    func setCompoundID(id: Int) {\n        self.id = id\n        compoundKey = compoundKeyValue()\n    }\n\n    func setCompoundTourId(tourId: Int) {\n        self.tourId = tourId\n        compoundKey = compoundKeyValue()\n    }\n\n    dynamic lazy var compoundKey: String = self.compoundKeyValue()\n\n    override static func primaryKey() -&gt; String? {\n        return \"compoundKey\"\n    }\n\n    func compoundKeyValue() -&gt; String {\n        return \"\\(id)\\(tourId)\"\n    }\n}\n</code></pre>\n\n<p>The custom setters make sure, that the compoundKey is always updated, the lazy key word makes sure that the first time you access it, it will be derived from what you've already set.</p>\n\n<p>Find out more on this topic in <a href=\"https://github.com/realm/realm-cocoa/issues/1192\" rel=\"noreferrer\">this thread</a> where this issue has been debated.</p>\n",
+      "owner": {
+        "display_name": "Michal",
+        "link": "https://stackoverflow.com/users/1196908/michal"
+      }
+    },
+    {
+      "answer_id": 49167887,
+      "body": "<p>To clear this error you have to assign default values to properties.</p>\n\n<p>Change the Realm Object like this:</p>\n\n<pre><code>open class PurposeModel(\n    var _id: Long? = 0,\n    var purposeEn: String? = null,\n    var purposeAr: String? = null\n) : RealmObject()\n</code></pre>\n\n<p>Now it will compile.</p>\n\n<p><strong>Reason:</strong></p>\n\n<blockquote>\n  <p>When the default value not assigned it will become the parameters of\n  the constructor, Realm need a public constructor with no arguments.\n  When the default value assigned, it will become the properties of the\n  class. So you will get empty constructor by default and clean code.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Bhuvanesh BS",
+        "link": "https://stackoverflow.com/users/5558150/bhuvanesh-bs"
+      }
+    },
+    {
+      "answer_id": 56901748,
+      "body": "<p>I did the job doing following:</p>\n\n<pre><code>pod 'RealmSwift', '~&gt; 3.17', :modular_headers =&gt; true\npod 'Realm', '~&gt; 3.17', :modular_headers =&gt; true\n</code></pre>\n",
+      "owner": {
+        "display_name": "atereshkov",
+        "link": "https://stackoverflow.com/users/5969121/atereshkov"
+      }
+    },
+    {
+      "answer_id": 48810422,
+      "body": "<p>In Realm, the properties of your model have to have the <code>@objc dynamic var</code> attribute, that is what I was missing.</p>\n\n<p>From <a href=\"https://realm.io/docs/swift/latest/#models\" rel=\"noreferrer\">Realm website</a>:</p>\n\n<blockquote>\n  <p>Realm model properties must have the <code>@objc dynamic var</code> attribute to become accessors for the underlying database data. Note that if the class is declared as <code>@objcMembers</code> (Swift 4 or later), the individual properties can just be declared as <code>dynamic var</code>.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Hellojeffy",
+        "link": "https://stackoverflow.com/users/813292/hellojeffy"
+      }
+    },
+    {
+      "answer_id": 40758983,
+      "body": "<p>To eagerly read every element from the Realm (and therefore make all elements in the list become unmanaged, you can do):</p>\n\n<pre><code> List&lt;StepEntry&gt; arrayListOfUnmanagedObjects = realm.copyFromRealm(realmResults);\n</code></pre>\n\n<p>But you generally have absolutely no reason to do that unless you want to serialize the objects with GSON (specifically, because it reads field data with reflection rather than with getters), because Realm was designed in such a way that the list exposes a change listener, allowing you to keep your UI up to date just by observing changes made to the database.</p>\n",
+      "owner": {
+        "display_name": "EpicPandaForce",
+        "link": "https://stackoverflow.com/users/2413303/epicpandaforce"
+      }
+    },
+    {
+      "answer_id": 55678976,
+      "body": "<p>When updating Xcode version you should just be sure you don't end up in a situation where you can no longer work. </p>\n\n<p>Instead of updating Xcode you could just install two version of Xcode on the same mac and use both of them by trying out the new version.</p>\n\n<p><strong>For now, you can go back to your previous Xcode</strong> by downloading the previous version here <a href=\"https://developer.apple.com/download/more\" rel=\"noreferrer\">https://developer.apple.com/download/more</a>, extract the archive you will download and copy the App file to your Applications folder in macOS.</p>\n\n<p>What I would suggest as a solution before you start upgrading everything, as you don't know how all the new pod updates will work with your code implementation, is to delete the Xcode 10.2 and go back install 10.1 or 10.0 (can download them from the previous link).</p>\n\n<p><strong>For later on, when your project builds fine and it's stable</strong> and you would like to try to upgrade everything (Xcode, Swift and PODs), you should first of all check if your project build with your current Swift version (which Swift version is your project currently set on you can find under Target > Build Settings > Swift Language Version).</p>\n\n<p>At this moment your project doesn't build, so make your project build by using a previous Xcode version to make your life easier and also to be sure that by upgrading everything you don't end up with broken functionality from other PODs that might have changed the way their implementation works with your project.</p>\n\n<p><strong>When your projects build without errors and you want to upgrade to a new version of Swift</strong></p>\n\n<ul>\n<li><strong>Research on the latest version of your PODs</strong> and which Swift version they support (go the project github pages, or in cocoapods)</li>\n<li><p><strong>Try to upgrade just your project without upgrading your PODs</strong>, if that works you are going to upgrade also your PODs later on, to ensure your PODs stays with the current Swift version that is working for you (<em>let's say it is right now <code>Swift 3.2</code> for example</em>) you add this snippet to your Podfile:</p>\n\n<pre><code>post_install do |installer|\n  installer.pods_project.targets.each do |target|\n    target.build_configurations.each do |config|\n      config.build_settings['SWIFT_VERSION'] = '3.2'\n    end\n  end\nend\n</code></pre></li>\n<li><p><strong>To convert just your project to the newer Swift version</strong> go to <code>Edit -&gt; Convert -&gt; Convert to current swift syntax</code> A popup will appear with a list of targets, including the pods. Deselect everything except your project target, the unit and UI tests and press convert. Wait for the project to build and generate the preview and apply the changes. Fix all the issues and warning created by the new Swift version requirements.</p></li>\n<li><p><strong>To update all the PODs that support the new Swift version</strong> you upgraded your project, do it by using the right POD version for each POD that has support to the newer Swift version and for the one that don't support yet the newer Swift version you could replace the code snippet on the Podfile with this</p>\n\n<pre><code>post_install do |installer|\n    installer.pods_project.targets.each do |target|\n        if ['UnsupportedPod1', 'RxSwift', 'RxCocoa'].include? target.name\n            target.build_configurations.each do |config|\n                config.build_settings['SWIFT_VERSION'] = '3.2'\n            end\n        end\n    end\nend\n</code></pre></li>\n</ul>\n",
+      "owner": {
+        "display_name": "denis_lor",
+        "link": "https://stackoverflow.com/users/3564632/denis-lor"
+      }
+    },
+    {
+      "answer_id": 29149329,
+      "body": "<p>You should override your <code>kindEnum</code>'s setter and getter for this case:</p>\n\n<pre><code>enum Kind: String {\n  case CheckedIn\n  case EnRoute\n  case DroppedOff\n}\n\nclass Checkin: Object {\n  @objc dynamic var id = 0\n  var kind = Kind.CheckedIn.rawValue\n  var kindEnum: Kind {\n    get {\n      return Kind(rawValue: kind)!\n    }\n    set {\n      kind = newValue.rawValue\n    }\n  }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "jpsim",
+        "link": "https://stackoverflow.com/users/373262/jpsim"
+      }
+    },
+    {
+      "answer_id": 54051178,
+      "body": "<p>Perhaps some checks you can make to narrow it down a little bit:</p>\n\n<p><strong>Carthage version</strong></p>\n\n<pre><code>carthage version\n</code></pre>\n\n<p>should output </p>\n\n<pre><code>0.31.2\n</code></pre>\n\n<p><strong>Multiple Xcode installed</strong></p>\n\n<pre><code>xcode-select -p\n</code></pre>\n\n<p>should give </p>\n\n<pre><code>/Applications/Xcode.app/Contents/Developer\n</code></pre>\n\n<p>for a standard installation. </p>\n\n<p><strong>Simulator</strong></p>\n\n<pre><code>xcrun simctl list devices --json \n</code></pre>\n\n<p>That should output a list like:</p>\n\n<pre><code>{\n  \"devices\" : {\n    \"iOS 12.1\" : [\n      {\n        \"availability\" : \"(available)\",\n        \"state\" : \"Shutdown\",\n        \"isAvailable\" : true,\n        \"name\" : \"iPhone 5s\",\n        \"udid\" : \"1A6959A0-C10F-474B-96C5-7E8955FBDD80\",\n        \"availabilityError\" : \"\"\n      },\n  ...\n</code></pre>\n\n<p>If there are no simulators add one using Xcode &lt;Window/Devices and Simulators&gt;.</p>\n\n<p>If there are entries please check if there is a 'isAvailable' entry with <code>true</code> as value:</p>\n\n<pre><code>\"isAvailable\" : true,\n</code></pre>\n\n<p>If not, check Xcode installation.</p>\n\n<p><strong>Remove Caches</strong></p>\n\n<p>One could als try to </p>\n\n<ul>\n<li>quit Xcode</li>\n<li>remove caches for Carthage and Xcode derived data folder</li>\n</ul>\n\n<p>As always when using <code>rm -rf</code> you have to be careful:</p>\n\n<pre><code>rm -rf ~/Library/Caches/org.carthage.CarthageKit \nrm -rf &lt;your project folder&gt;/Carthage\nxcrun simctl delete unavailable\n</code></pre>\n\n<p>Then try again:</p>\n\n<pre><code>carthage update --no-use-binaries --platform iOS\n</code></pre>\n\n<p><strong>Debug Carthage</strong></p>\n\n<p>The nice thing about Carthage is that it is open source and even written in Swift.</p>\n\n<p>So to debug it we can:</p>\n\n<ul>\n<li>quit Xcode</li>\n<li>create a folder in Terminal and cd to the folder</li>\n</ul>\n\n<p>Then:</p>\n\n<pre><code>git clone https://github.com/Carthage/Carthage.git\ncd Carthage\ngit checkout 0.31.2\nmake bootstrap\nopen Carthage.xcworkspace\n</code></pre>\n\n<p>Afterwards we need to enter command line arguments. To do so:</p>\n\n<ul>\n<li>in Xcode use &lt;Product/Scheme/Edit Scheme...&gt;</li>\n<li>on the left choose 'Run/Debug'</li>\n<li>on the right choose tab 'Arguments'</li>\n<li>change the 'Arguments Passed on Launch' to <code>update --no-use-binaries --platform iOS</code></li>\n</ul>\n\n<p><a href=\"https://i.sstatic.net/EcPmt.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/EcPmt.png\" alt=\"Arguments\"></a></p>\n\n<ul>\n<li>switch to the tab 'Options'</li>\n<li>enter as `Working Directory' the path where the Cartfile resides</li>\n</ul>\n\n<p><a href=\"https://i.sstatic.net/tPIXV.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/tPIXV.png\" alt=\"Workding Directory\"></a></p>\n\n<p>Finally:</p>\n\n<ul>\n<li>open Carthage/Source/CarthageKit/Simulator.swift</li>\n<li>set breakpoints in the method <code>selectAvailableSimulator</code></li>\n</ul>\n\n<p>Then you can debug what's going wrong.</p>\n\n<p>If everything is fine it would look like this:</p>\n\n<p><a href=\"https://i.sstatic.net/nXHlL.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/nXHlL.png\" alt=\"Debug Session\"></a></p>\n\n<p>If no error occurred when run from Xcode then let it run in Xcode completely without breakpoint and giving it some time to do the compile.</p>\n\n<p>If carthage update is successful from Xcode project then uninstall your current carthage installation as described here.</p>\n\n<p><a href=\"https://stackoverflow.com/questions/39773383/how-to-uninstall-carthage-from-os-x/48040795#48040795\">How to uninstall Carthage from OS X?</a> </p>\n\n<p>Then in Terminal go to the Carthage project folder where the Makefile resides and type: </p>\n\n<pre><code>'make install'\n</code></pre>\n\n<p>Afterwards you can try it from the command line again. It should work!</p>\n",
+      "owner": {
+        "display_name": "Stephan Schlecht",
+        "link": "https://stackoverflow.com/users/2331445/stephan-schlecht"
+      }
+    },
+    {
+      "answer_id": 33363554,
+      "body": "<p><strong>As long as you have not released your app</strong> you can simply delete your app and run it again.</p>\n\n<p>Everytime you change properties on your Realm objects your existing database becomes incompatible to the new one. </p>\n\n<p>As long as you are still in the developing stage you can simply delete the app from the simulator / device and start it again.</p>\n\n<p><strong>Later when your app has been released</strong> and you change properties on your objects you have to implement a migration to the new database version.</p>\n\n<p>To actually perform a migration you implement a Realm migration block. Typically you would add the block to <code>application(application:didFinishLaunchingWithOptions:)</code>:</p>\n\n<pre><code>var configuration = Realm.Configuration(\n    schemaVersion: 1,\n    migrationBlock: { migration, oldSchemaVersion in\n        if oldSchemaVersion &lt; 1 {\n\n            // if just the name of your model's property changed you can do this \n            migration.renameProperty(onType: NotSureItem.className(), from: \"text\", to: \"title\")\n\n            // if you want to fill a new property with some values you have to enumerate\n            // the existing objects and set the new value\n            migration.enumerateObjects(ofType: NotSureItem.className()) { oldObject, newObject in\n                let text = oldObject![\"text\"] as! String\n                newObject![\"textDescription\"] = \"The title is \\(text)\"\n            }\n\n            // if you added a new property or removed a property you don't\n            // have to do anything because Realm automatically detects that\n        }\n    }\n)\nRealm.Configuration.defaultConfiguration = configuration\n\n// opening the Realm file now makes sure that the migration is performed\nlet realm = try! Realm()\n</code></pre>\n\n<p>Whenever your scheme changes your have to increase the <code>schemaVersion</code> in the migration block and update the needed migration within the block.</p>\n",
+      "owner": {
+        "display_name": "joern",
+        "link": "https://stackoverflow.com/users/790877/joern"
+      }
+    },
+    {
+      "answer_id": 52417617,
+      "body": "<p>If you have pre-built frameworks you need to add the dSYM files generated at build time to your Xcode project and add a new \"Copy Files Phase\" to your target's Build phases in order to end up with them in the Xcode archive.</p>\n\n<p>An example of adding the dSYM files for the Realm framework would look like the screenshot below.</p>\n\n<p>Make sure you select the \"Products Directory\" destination and the \"Copy only when installing\" option. </p>\n\n<p><a href=\"https://i.sstatic.net/TZnFo.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/TZnFo.png\" alt=\"Copy Files Phase\"></a></p>\n\n<p>Now, when archiving your target the dSYMS will appear in the right directory.</p>\n",
+      "owner": {
+        "display_name": "Jesse",
+        "link": "https://stackoverflow.com/users/184130/jesse"
+      }
+    },
+    {
+      "answer_id": 40472567,
+      "body": "<p>Check out the RealmSwift docs about <a href=\"https://realm.io/docs/swift/latest/#ignoring-properties\" rel=\"noreferrer\">Ignoring properties</a>. There is some sample code included on that section:</p>\n\n<pre><code>class Person: Object {\n  dynamic var tmpID = 0\n  var name: String { // read-only properties are automatically ignored\n    return \"\\(firstName) \\(lastName)\"\n  }\n  dynamic var firstName = \"\"\n  dynamic var lastName = \"\"\n\n  override static func ignoredProperties() -&gt; [String] {\n    return [\"tmpID\"]\n  }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Orlando",
+        "link": "https://stackoverflow.com/users/3158329/orlando"
+      }
+    },
+    {
+      "answer_id": 37408455,
+      "body": "<p>To completely delete the Realm file from disk and start from scratch, it's simply a matter of using <code>NSFileManager</code> to manually delete it.</p>\n\n<p>For example, to delete the default Realm file:</p>\n\n<pre><code>NSFileManager.defaultManager().removeItemAtURL(Realm.Configuration.defaultConfiguration.fileURL!)\n</code></pre>\n\n<p>If you want to preserve the Realm file, but completely empty it of objects, you can call <code>deleteAll()</code> to do so:</p>\n\n<pre><code>let realm = try! Realm()\ntry! realm.write {\n  realm.deleteAll()\n}\n</code></pre>\n\n<p><strong>Update:</strong> I feel I neglected to mention this in my original answer. If you choose to delete the Realm file from disk, you must do so before you've opened it on any threads in your app. Once it's opened, Realm will internally cache a reference to it, which won't be released even if the file is deleted.</p>\n\n<p>If you absolutely do need to open the Realm file to check its contents before deletion, you can enclose it in an <code>autoreleasepool</code> to do this.</p>\n",
+      "owner": {
+        "display_name": "TiM",
+        "link": "https://stackoverflow.com/users/599344/tim"
+      }
+    },
+    {
+      "answer_id": 33394966,
+      "body": "<p>From the error message, it seems like, you didn't added <code>Realm.framework</code> and <code>RealmSwift.framework</code> to the <em>Embedded Binaries</em> pane, which you find in the <em>General</em> tab of your project, as shown below:</p>\n\n<p><a href=\"https://i.sstatic.net/Wsoe3.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/Wsoe3.png\" alt=\"Embedded Binaries\"></a></p>\n\n<p>For further validation, you can check the tab <em>Build Phases</em>. It should look like below:</p>\n\n<p><a href=\"https://i.sstatic.net/LNZis.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/LNZis.png\" alt=\"Build Phases\"></a></p>\n\n<p>Note: Make sure that the run script phase comes <em>after</em> the <strong>Embed Frameworks</strong> phase.</p>\n\n<h2>Why is this script needed?</h2>\n\n<p>The vendored frameworks are not just single executables, but actually FAT binaries which are archives of linked executables on different architectures. This includes architecture slices for <code>arm64</code> and <code>armv7</code>, which are necessary for deployment on the phone as well as <code>i386</code> and <code>x86_64</code> which are necessary for running the app in the simulator.</p>\n\n<p>The <code>strip-frameworks.sh</code> script main responsibility is to take care of removing unnecessary slices. This reduces the final package size and is necessary for AppStore deployment because iTunes Connect rejects apps with simulator architectures.</p>\n\n<h2>More Details</h2>\n\n<p>The script works on base of the build setting <code>VALID_ARCHS</code>. Because that is changing the signed executable of the framework, it also needs to take care of code signing. Since introduction of bitcode, it also got further post processing as responsibility. It extracts the included <code>*.bcsymbolmap</code> files from the framework bundle and places them into correct path in the <code>*.xcarchive</code>.</p>\n\n<p>The <a href=\"https://pspdfkit.com/guides/ios/current/faq/bitcode/#toc_bcsymbolmaps\" rel=\"noreferrer\">FAQ topic on Bitcode of PSPDFKit</a> has a good explanation on what BCSymbolMaps are:</p>\n\n<blockquote>\n  <p>A BCSymbolMap is a lot like a dSYM for bitcode. Xcode builds it as part of creating the app binary, and also for every dynamic framework. It's required for re-symbolicating function/method names to understand crashers.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "marius",
+        "link": "https://stackoverflow.com/users/4194189/marius"
+      }
+    },
+    {
+      "answer_id": 33884743,
+      "body": "<p>[UPDATED] based on the additional info</p>\n\n<p>RealmDatabase.getInstance() was returning the Realm instance created on the main thread. And this instance was used on the IntentService's thread. Which lead to the crash.</p>\n\n<p>Realm instances can't be used on any other thread except the one on which they were created.</p>\n\n<hr>\n\n<p>You can't pass Realm objects between the threads. What you can do is to pass a unique identifier of the object (i.e. @PrimaryKey), and then fetch the object by its' id on another thread. Like this: realm.where(YourRealmModel.class).equalTo(\"primaryKeyVariable\", id).findFirst().</p>\n\n<p>For more details check out Realm's official documentation and  example:</p>\n\n<ul>\n<li>Using a Realm across Threads <a href=\"https://realm.io/docs/java/latest/#threading\" rel=\"nofollow noreferrer\">https://realm.io/docs/java/latest/#threading</a></li>\n<li>Thread Example <a href=\"https://github.com/realm/realm-java/tree/master/examples/threadExample\" rel=\"nofollow noreferrer\">https://github.com/realm/realm-java/tree/master/examples/threadExample</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Roberto Artiles Astelarra",
+        "link": "https://stackoverflow.com/users/889636/roberto-artiles-astelarra"
+      }
+    },
+    {
+      "answer_id": 50503086,
+      "body": "<p>Now it is possible to work with    RealmList     where T can be the following types: String, Integer, Boolean, Float, Double, Short, Long, Byte, byte[] and Date` (according to the official docs <a href=\"https://realm.io/docs/java/latest/#relationships\" rel=\"noreferrer\">https://realm.io/docs/java/latest/#relationships</a>, see Relationships -> List of Primitives)</p>\n\n<p>For example:</p>\n\n<pre><code>public RealmList&lt;String&gt; telephoneNumbers = new RealmList&lt;&gt;();    \n</code></pre>\n",
+      "owner": {
+        "display_name": "Svetlana Rozhkova",
+        "link": "https://stackoverflow.com/users/6304983/svetlana-rozhkova"
+      }
+    },
+    {
+      "answer_id": 31594548,
+      "body": "<p><em>(Disclaimer: <del>I work for Realm.</del> I've left Realm now, but I'm still happy to help!) :)</em>\nThanks a lot! It's great to hear you're enjoying Realm! </p>\n\n<p><strong><em>Multiple Realm Instances</em></strong> -\nYou don't need to worry about this at all! A Realm file object is created upon the first-time instantiation on each thread, and that same object is subsequently returned each time you try and instance it every time after that.</p>\n\n<p><strong><em>Retaining Realm Instances</em></strong> -\nFollowing on from the first point, no, you don't need to worry about hanging on to Realm reference inside other objects. As Realm tracks its Realm file objects internally and returns the same ones, you won't get penalised for not doing so. That being said, if having a permanent reference to a Realm object inside your object simplifies your code complexity, feel free to keep using it.</p>\n\n<p><strong><em>Accessing Realm Relationship Properties</em></strong> - \nStrictly speaking, data from Realm files aren't copied from disk (Like a normal ORM would do); more it uses memory mapping to directly reference the data from disk straight to your in-memory properties. So, no, you don't need to worry about Realm files getting too large in memory.</p>\n\n<p><strong><em>Auto-refresh</em></strong>\n<del>Auto-refresh is only enabled by default for the Realm file object on the main thread. It has to be manually enabled for Realm file objects on other threads, or you can instead elect to manually refresh them with the <code>refresh</code> method call.</del></p>\n\n<p><strong>EDIT:</strong> I stand corrected! All Realm file objects on multiple threads have <code>autorefresh</code> on by default. When <code>autorefresh</code> is on, the only time you need to call <code>refresh</code> is if you need the changes made to a Realm file to be reflected in the other references before the current iteration of the run loop has completed.</p>\n\n<p><strong><em>Referencing an object's Realm reference</em></strong>\nAbsolutely not, it's not bad practice at all! I actually prefer doing this in my own personal apps that use Realm to provide proper context since invariably it's easier, and provides stronger visual context between the object and its parent Realm file in the code. (Haha yep, if there was a threading problem here, you probably would have discovered it before even reaching the <code>write</code> point).</p>\n\n<hr>\n\n<p>I hope that helped! Let me know if you need clarification on anything here! </p>\n",
+      "owner": {
+        "display_name": "TiM",
+        "link": "https://stackoverflow.com/users/599344/tim"
+      }
+    },
+    {
+      "answer_id": 43865118,
+      "body": "<p>You are trying to delete copies of your Realm objects stored in a collection instead of your actual Realm objects stored in Realm.</p>\n\n<pre><code>try! realm.write {\n    realm.delete(Realm.objects(ChecklistDataModel.self).filter(\"name=%@\",checklists[indexPath.row].name))\n}\n</code></pre>\n\n<p>Without the definition of CheklistDataModel, I am not sure if I got the NSPredicate right, but you should be able to figure it out from here.</p>\n",
+      "owner": {
+        "display_name": "David Pasztor",
+        "link": "https://stackoverflow.com/users/4667835/david-pasztor"
+      }
+    },
+    {
+      "answer_id": 41997281,
+      "body": "<p>I' suggest you to use protocols, to achive what you want.</p>\n\n<p><strong>1) Create your Struct</strong></p>\n\n<pre><code>struct Character {\n    public let identifier: Int\n    public let name: String\n    public let realName: String\n}\n</code></pre>\n\n<p><strong>2) Create your Realm Object</strong></p>\n\n<pre><code>final class CharacterObject: Object {\n    dynamic var identifier = 0\n    dynamic var name = \"\"\n    dynamic var realName = \"\"\n    override static func primaryKey() -&gt; String? {\n        return \"identifier\"\n    }\n}\n</code></pre>\n\n<p><strong>3) Use protocols to transform our struct to Realm Object</strong> </p>\n\n<pre><code>public protocol Persistable {\n    associatedtype ManagedObject: RealmSwift.Object\n    init(managedObject: ManagedObject)\n    func managedObject() -&gt; ManagedObject\n}\n</code></pre>\n\n<p><strong>4) Make your struct persistable</strong></p>\n\n<pre><code>extension Character: Persistable {\n    public init(managedObject: CharacterObject) {\n        identifier = managedObject.identifier\n        name = managedObject.name\n        realName = managedObject.realName\n    }\n    public func managedObject() -&gt; CharacterObject {\n        let character = CharacterObject()\n        character.identifier = identifier\n        character.name = name\n        character.realName = realName\n        return character\n    }\n}\n</code></pre>\n\n<p>With these tools in place, we are ready to implement the insertion methods of our persistence layer.</p>\n\n<p><strong>5) Exemple to write datas</strong></p>\n\n<pre><code>public final class WriteTransaction {\n    private let realm: Realm\n    internal init(realm: Realm) {\n        self.realm = realm\n    }\n    public func add&lt;T: Persistable&gt;(_ value: T, update: Bool) {\n        realm.add(value.managedObject(), update: update)\n    }\n}\n\n// Implement the Container\npublic final class Container { \n    private let realm: Realm\n    public convenience init() throws {\n        try self.init(realm: Realm())\n    }\n    internal init(realm: Realm) {\n        self.realm = realm\n    }\n    public func write(_ block: (WriteTransaction) throws -&gt; Void) \n    throws {\n        let transaction = WriteTransaction(realm: realm)\n        try realm.write {\n            try block(transaction)\n        }\n    }\n}\n</code></pre>\n\n<p><strong>5) Use the magic!</strong></p>\n\n<pre><code>let character = Character(\n    identifier: 1000,\n    name: \"Spiderman\",\n    realName: \"Peter Parker\"\n)\nlet container = try! Container()\ntry! container.write { transaction in\n    transaction.add(character)\n}\n</code></pre>\n\n<p>Amazing source : <a href=\"https://medium.com/@gonzalezreal/using-realm-with-value-types-b69947741e8b#.cnmq2c7ci\" rel=\"noreferrer\">Using Realm with Value Types</a> &amp; <a href=\"https://medium.com/@ludovicjamet/how-to-use-struct-with-realm-615fcbc8f0ee\" rel=\"noreferrer\">My Article</a></p>\n",
+      "owner": {
+        "display_name": "Ludovic",
+        "link": "https://stackoverflow.com/users/1385773/ludovic"
+      }
+    },
+    {
+      "answer_id": 38637134,
+      "body": "<p>Android realm now supports attaching and detaching realm object. So you can do like this:</p>\n\n<pre><code>RealmObject objectCopy = realm.copyFromRealm(RealmObject object);\n</code></pre>\n\n<p>Here are details from the documentation:</p>\n\n<blockquote>\n  <p>Instances of Realm objects can be either managed or unmanaged.</p>\n  \n  <p>Managed objects are persisted in Realm, are always up to date and\n  thread confined. They are generally more lightweight than the\n  unmanaged version as they take up less space on the Java heap.</p>\n  \n  <p>Unmanaged objects are just like ordinary Java objects, they are not\n  persisted and they will not be updated automatically. They can be\n  moved freely across threads.</p>\n  \n  <p>It is possible to convert between the two states using\n  Realm.copyToRealm() and Realm.copyFromRealm()</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Semyon",
+        "link": "https://stackoverflow.com/users/1703675/semyon"
+      }
+    },
+    {
+      "answer_id": 48541639,
+      "body": "<p>Finally I came out with the valid workflow for providing repopulated database.<br>\n1. <strong>Convert your data to json format</strong>, as json files can be imported directly using node's npm <code>require</code> method. (I had file in csv format, and wrote python script to convert it into json), so your file should look like this:  </p>\n\n<pre><code>{\"key0\": [\"property0\", \"property1\"], \"key1\": [\"property0\", \"property1\"]...}\n</code></pre>\n\n<p>actually you create json file having schema of your database in mind, example file will map to the following schema:  </p>\n\n<pre><code>const MyDBSchema = {\n    name: 'MyEntity',\n    primaryKey: 'key',\n    properties: {\n      key:  'string',\n      property0: 'string',\n      property1: 'int',\n      property2: 'int',\n      property3: 'int'\n    }\n};\n</code></pre>\n\n<p>as you can see, I load properties: property0, property1 from son file, other properties are initialized when I create database.<br>\n2. <strong>Create you database for the first time:</strong><br>\nthis includes database generation and selection of place where to put it (be careful on where to put it, as there are limited choices here).<br>\n<strong>The key element here is that we create database only once, only if there is no database, we use <code>RNFS</code> module for that</strong>.<br>\nWe algorithm is fairly strait forward: if file exists - open it, otherwise create and open it.  </p>\n\n<pre><code>export async function openDB() {\n    realm = await Realm.open({\n        path: RNFS.DocumentDirectoryPath + '/myDBname.realm',\n        schema: [MySchema],\n\n    });\n    RNFS.exists(RNFS.DocumentDirectoryPath + '/myDBname.realm').then(exists =&gt; {\n        if(!exists) {\n          createDB(realm);\n        }\n    });\n    return realm;\n}\n</code></pre>\n\n<p>Database creation is described on the Realm's web page, in any case here is my code snippet for that, so you could see how it maps to the overall picture:    </p>\n\n<pre><code>let entities = require('../../data/myJsonFileForDB');\nexport function createDB(realm){\ntry {\n    console.log(\"Creating DB\");\n    console.log(\"db path:\" + realm.path);\n    realm.write(() =&gt; {\n        for (let entity in entities) {\n            let property0 = entities['property0'][0];\n            let property1 = parseInt(entities['property0'][1]);\n            realm.create('myEntity', \n              {\n                property0: property0,\n                property1: property1,\n                property2: 0,\n                property3: 0,\n              }, true);\n          }\n        });\n    } catch (error) {\n      console.log(error)\n        console.log(\"Error on creation\");\n    }\n};\n</code></pre>\n",
+      "owner": {
+        "display_name": "spin_eight",
+        "link": "https://stackoverflow.com/users/1280794/spin-eight"
+      }
+    },
+    {
+      "answer_id": 35839235,
+      "body": "<p>It is described here: <a href=\"https://realm.io/docs/java/latest/#migrations\" rel=\"noreferrer\">https://realm.io/docs/java/latest/#migrations</a></p>\n\n<p>But in essence, you just bump the schema version and set the configuration like this:</p>\n\n<pre><code>RealmConfiguration config = new RealmConfiguration.Builder(context)\n    .schemaVersion(2) // Must be bumped when the schema changes\n    .migration(new MyMigration()) // Migration to run\n    .build();\n\nRealm.setDefaultConfiguration(config);\n\n// This will automatically trigger the migration if needed\nRealm realm = Realm.getDefaultInstance();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Christian Melchior",
+        "link": "https://stackoverflow.com/users/1389357/christian-melchior"
+      }
+    },
+    {
+      "answer_id": 37729368,
+      "body": "<pre><code>RealmResults&lt;A&gt; sorted = realm.where(A.class)\n                              .findAllSorted(\"last_message_time\", Sort.ASCENDING);\n</code></pre>\n\n<p><strong>EDIT:</strong> since Realm 4.3.0, the following is preferred:</p>\n\n<pre><code>RealmResults&lt;A&gt; sorted = realm.where(A.class)\n                              .sort(\"last_message_time\", Sort.ASCENDING) \n                              .findAll();\n</code></pre>\n",
+      "owner": {
+        "display_name": "EpicPandaForce",
+        "link": "https://stackoverflow.com/users/2413303/epicpandaforce"
+      }
+    },
+    {
+      "answer_id": 47220250,
+      "body": "<p>Realm</p>\n\n<p>A relatively fast and convenient library, all links are simply implemented, which is related to the object orientation of the database. Excellent documentation. Is, perhaps, one of the best option for storing data on a mobile device at the moment, the minus can only be an increase in the size of the apk-file by 2.5 MB.</p>\n\n<p>Room</p>\n\n<p>An interesting solution presented on Google I / O 2017 as optimal for working with the database on Android OS. Despite the fact that it is necessary to use explicit sql-requests, the library turned out to be quite convenient and I liked it personally. On performance is in the lead, so I would advise you to choose this particular library. Big advantage of this is  based on build-in SQLite database. Since this solution, submitted by Google, it will quickly become popular, and, therefore, there will be no problems with finding solutions to problems that occur along with it.</p>\n\n<p>Realm uses more RAM and increases the apk size, build time. So I prefer Room.</p>\n\n<p>There are comparison: <a href=\"https://github.com/AlexeyZatsepin/Android-ORM-benchmark\" rel=\"noreferrer\">https://github.com/AlexeyZatsepin/Android-ORM-benchmark</a></p>\n",
+      "owner": {
+        "display_name": "Alexey Zatsepin",
+        "link": "https://stackoverflow.com/users/5632522/alexey-zatsepin"
+      }
+    },
+    {
+      "answer_id": 40345062,
+      "body": "<blockquote>\n  <p>Realm access from incorrect thread. <strong>Realm objects can only be accessed\n  on the thread they were created</strong>.</p>\n</blockquote>\n\n<p>This error message is quite self-explanatory.</p>\n\n<p>As i see you're initializing <code>realm</code> by calling <code>Realm.getDefaultInstance()</code> on the UI thread.</p>\n\n<p>The error is coming from <code>newMessageReceived()</code>, so i guess that method is called from a background thread.</p>\n\n<p>Either obtain a <code>Realm</code> instance on the background thread and use that instead of the global instance:</p>\n\n<pre><code>@Override\npublic void run () {\n    Realm backgroundRealm = Realm.getDefaultInstance();\n    backgroundRealm.executeTransactionAsync(new Realm.Transaction() {\n        @Override\n        public void execute(Realm realm) {\n            Message receivedMessage = realm.createObject(Message.class, message.id);\n            receivedMessage.setBodyMessage(message.message);\n            receivedMessage.setFrom(message.from);\n            receivedMessage.setTo(message.to);\n            receivedMessage.setDelivered(false);\n            receivedMessage.setMine(false);\n            receivedMessage.setDate(Calendar.getInstance().getTime());\n        }\n    });\n}\n</code></pre>\n\n<p><strong>Or</strong>, if you would like to stick to the global <code>Realm</code> instance for some reason, then make sure your code is executed on the UI thread by calling <code>runOnUiThread()</code> (or directly posting a <code>Runnable</code> to the message queue of the main thread through a <code>Handler</code>):</p>\n\n<pre><code>@Override\npublic void newMessageReceived(final ChatMessage message) {\n    runOnUiThread(new Runnable() {\n        @Override\n        public void run() {\n            realm.executeTransactionAsync(new Realm.Transaction() {\n                @Override\n                public void execute(Realm realm) {\n                    Message receivedMessage = realm.createObject(Message.class,\n                        message.id);\n                    receivedMessage.setBodyMessage(message.message);\n                    receivedMessage.setFrom(message.from);\n                    receivedMessage.setTo(message.to);\n                    receivedMessage.setDelivered(false);\n                    receivedMessage.setMine(false);\n                    receivedMessage.setDate(Calendar.getInstance().getTime());\n                }\n            });\n        }\n    });\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "earthw0rmjim",
+        "link": "https://stackoverflow.com/users/3363481/earthw0rmjim"
+      }
+    },
+    {
+      "answer_id": 37374901,
+      "body": "<p>Relevant FAQ in documentation: <a href=\"https://realm.io/docs/java/latest/#debugging\" rel=\"noreferrer\">https://realm.io/docs/java/latest/#debugging</a></p>\n\n<hr>\n\n<p>Realm uses Android Gradle Transform API. It gives a possibility to  manipulate compiled class files before they are converted to dex files.<br>\nMore details inside <strong>io.realm.transformer.RealmTransformer</strong> and <strong>io.realm.transformer. BytecodeModifier</strong> classes which can be found in the realm's github.</p>\n\n<p>What RealmTransformer does, among others, is:</p>\n\n<ul>\n<li>replacing all accesses to fields of user's RealmObjects with the appropriate Realm accessors. </li>\n</ul>\n\n<p>You can also check result classes inside folder <strong>app/build/intermediates/transforms/RealmTransformer/</strong></p>\n\n<p><strong>Example of setter:</strong><br>\nLine of your code: </p>\n\n<pre><code>gr.imageUrl = g.GlyphUrl;\n</code></pre>\n\n<p>will be replaced with something like this: </p>\n\n<pre><code>String var5 = g.GlyphUrl;\ngr.realmSet$imageUrl(var5);\n</code></pre>\n\n<p><strong>Example of getter:</strong><br></p>\n\n<pre><code>String url = gr.imageUrl;\n</code></pre>\n\n<p>will be replaced with something like this:</p>\n\n<pre><code>String url = gr.realmGet$imageUrl();\n</code></pre>\n\n<p><strong>Example use case</strong></p>\n\n<ol>\n<li><p>You have created class <strong>GroupRealm</strong>. Realm using Transform API generates <strong>GroupRealmRealmProxy</strong>. This proxy class looks like this:</p>\n\n<pre><code>public class GroupRealmRealmProxy extends GroupRealm implements RealmObjectProxy, GroupRealmRealmProxyInterface {\n    private final GroupRealmRealmProxy.GroupRealmColumnInfo columnInfo;\n    private final ProxyState proxyState;\n    private RealmList&lt;GroupRealm&gt; childrenRealmList;\n    private RealmList&lt;ContentRealm&gt; contentsRealmList;\n    private static final List&lt;String&gt; FIELD_NAMES;\n\n    GroupRealmRealmProxy(ColumnInfo columnInfo) {\n        ...\n    }\n\n    public String realmGet$id() {\n        this.proxyState.getRealm$realm().checkIfValid();\n        return this.proxyState.getRow$realm().getString(this.columnInfo.idIndex);\n    }\n\n    public void realmSet$id(String value) {\n        this.proxyState.getRealm$realm().checkIfValid();\n        if(value == null) {\n            this.proxyState.getRow$realm().setNull(this.columnInfo.idIndex);\n        } else {\n           this.proxyState.getRow$realm().setString(this.columnInfo.idIndex, value);\n        }\n    }\n\n    public String realmGet$name() {\n        this.proxyState.getRealm$realm().checkIfValid();\n        return this.proxyState.getRow$realm().getString(this.columnInfo.nameIndex);\n    }\n\n    public void realmSet$name(String value) {\n        this.proxyState.getRealm$realm().checkIfValid();\n        if(value == null) {\n            this.proxyState.getRow$realm().setNull(this.columnInfo.nameIndex);\n        } else {\n            this.proxyState.getRow$realm().setString(this.columnInfo.nameIndex, value);\n        }\n     }\n\n    ...\n}\n</code></pre>\n\n<p>You can observe that methods <strong>realmSet$name</strong> and <strong>realmGet$name</strong> don't have access to field <strong>name</strong> declared in the class GroupRealm. They use <strong>proxyState</strong>.</p></li>\n<li><p>Now, let's back to the usage of GroupRealm. When you debug your code:</p>\n\n<pre><code>GroupRealm gr = db.where(GroupRealm.class).equalTo(\"id\",g.GroupID).findFirst();\nif(gr==null){\n    gr = db.createObject(GroupRealm.class,g.GroupID);\n}\ngr.imageUrl = g.GlyphUrl;\ngr.name = g.Title;\ngr.order = g.OrderNum;\n</code></pre>\n\n<p>in a reality it's decompiled version looks like this:</p>\n\n<pre><code>GroupRealm gr = (GroupRealm)realm.where(GroupRealm.class).equalTo(\"id\", g.GroupId).findFirst();\nif(gr == null) {\n    gr = (GroupRealm)realm.createObject(GroupRealm.class, g.GroupId);\n}\n\nString var7 = g.GlyphUrl;\ngr.realmSet$imageUrl(var7);\nvar7 = g.Title;\ngr.realmSet$name(var7);\nint var8 = g.OrderNum;\ngr.realmSet$order(var8);\n</code></pre>\n\n<p>First of all, <strong>gr</strong> is the instance of <strong>GroupRealmRealmProxy</strong> class. As you can see, setting of gr.name is replaced by <strong>gr.realmSet$name(var7)</strong>. It means that the field <strong>name</strong> of <strong>GroupRealm</strong> is never used. The situation is analogous in the case of <strong>realmGet$</strong>.</p></li>\n</ol>\n\n<p>While debugging you see your version of source code but actually you're using a modified version with injected methods <strong>realmSet$</strong> and <strong>realmGet$</strong>.</p>\n",
+      "owner": {
+        "display_name": "PiKos",
+        "link": "https://stackoverflow.com/users/6036690/pikos"
+      }
+    },
+    {
+      "answer_id": 45886977,
+      "body": "<p>Nope, there is not such functionality in Realm itself. </p>\n\n<p>Your alternative is good but I do not recommend to use background service for deleting data, so check/delete data when you query.</p>\n",
+      "owner": {
+        "display_name": "A.jiji",
+        "link": "https://stackoverflow.com/users/5403866/a-jiji"
+      }
+    },
+    {
+      "answer_id": 45810078,
+      "body": "<p>Realm instances on threads with runloops, such as the main thread, <a href=\"https://realm.io/docs/swift/latest/#seeing-changes-from-other-threads\" rel=\"noreferrer\">update to the latest version of the data in the Realm file</a> as a result of a notification being posted to their thread's runloop. A time window exists between committing a write transaction on a background thread and when that notification is received by the other thread's runloop, and due to the order that <code>CFRunLoop</code> processes its dispatch queue relative to its notification sources, it's not uncommon for a <code>dispatch_async</code> to the main queue performed immediately after a write transaction is committed to be serviced before the notification can be delivered.</p>\n\n<p>There are a couple of ways to address this issue:</p>\n\n<ul>\n<li>Use one of Realm's notification mechanisms, such as collection notifications, to react to the changes you made on the background thread rather than explicitly using <code>dispatch_async</code>.</li>\n<li>Explicitly call <a href=\"https://realm.io/docs/swift/latest/api/Classes/Realm.html#/s:FC10RealmSwift5Realm7refreshFT_Sb\" rel=\"noreferrer\"><code>Realm.refresh()</code></a> at the top of the block you dispatch to the main queue to have it bring itself to the latest version, whether or not the thread has had a chance to process the notification that triggers the automatic refresh.</li>\n</ul>\n",
+      "owner": {
+        "display_name": "bdash",
+        "link": "https://stackoverflow.com/users/1991710/bdash"
+      }
+    },
+    {
+      "answer_id": 40494857,
+      "body": "<p><strong><em>Updated on 4/19/2017 to be more concise and to explain the advantages of choosing one over the other.</em></strong></p>\n\n<hr>\n\n<p>Functionally, there's no difference between the two. The method <code>realm.write</code> is a more convenient method to perform write transactions, but <a href=\"https://github.com/realm/realm-cocoa/blob/master/RealmSwift/Realm.swift#L152\" rel=\"noreferrer\">internally</a>, it still simply makes use of the exact same <code>beginWrite</code>/<code>commitWrite</code> transaction APIs: </p>\n\n<pre><code>public func write(_ block: (() throws -&gt; Void)) throws {\n    beginWrite()\n    do {\n        try block()\n    } catch let error {\n        if isInWriteTransaction { cancelWrite() }\n        throw error\n    }\n    if isInWriteTransaction { try commitWrite() }\n}\n</code></pre>\n\n<p>That being said, while <code>realm.write {}</code> is quicker and cleaner to write, there are still instances where you might want to rely on <code>beginWrite</code> / <code>commitWrite</code> instead.</p>\n\n<p><code>beginWrite</code> and <code>commitWrite()</code> are more manual, which is great if you want more control. <code>realm.write {}</code> implements its own error handling routine, but if you'd like to perform your own specific error handling, you can do so with <code>beginWrite</code> / <code>commitWrite</code> (Or alternatively, you could try enclosing <code>try realm.write {}</code> in its own <code>do</code> / <code>catch</code> block).</p>\n\n<p>Another advantage to having more control is that you can implement logic that might choose to outright cancel a transaction that's already started using <code>cancelWrite()</code>.</p>\n\n<p>Ultimately, it depends on the level of control you want with controlling handling specific write transactions, and how you want to organize your code. You could easily consider both depending on the complexity of the write transaction you're planning on performing.</p>\n\n<p><code>realm.write {}</code> uses closures which makes wrapping the transaction code very elegant, and minimal, but at a potential loss of the amount of control you might want. <code>beginWrite</code> / <code>commitWrite</code> gives you more control, but ultimately require you as the user to do more work in terms of handling potential errors.</p>\n\n<hr>\n\n<p><strong><em>Original Answer</em></strong></p>\n\n<p>There's absolutely no difference between the two. The method <code>realm.write</code> is simply a more convenient method to perform write transactions instead of using <code>beginWrite</code>/<code>commitWrite</code>.</p>\n\n<p>In fact, if you check out <a href=\"https://github.com/realm/realm-cocoa/blob/master/RealmSwift/Realm.swift#L152\" rel=\"noreferrer\">the source code for Realm Swift</a>, you'll see that <code>realm.write</code> is actually just a wrapper for <code>beginWrite</code>/<code>commitWrite</code>.</p>\n\n<pre><code>public func write(_ block: (() throws -&gt; Void)) throws {\n    beginWrite()\n    do {\n        try block()\n    } catch let error {\n        if isInWriteTransaction { cancelWrite() }\n        throw error\n    }\n    if isInWriteTransaction { try commitWrite() }\n}\n</code></pre>\n\n<p>So there's no difference between using the two. Both are available to you so you can pick the one that is easiest for you to integrate into your code. :)</p>\n",
+      "owner": {
+        "display_name": "TiM",
+        "link": "https://stackoverflow.com/users/599344/tim"
+      }
+    },
+    {
+      "answer_id": 36498525,
+      "body": "<blockquote>\n  <p>EDIT: for new versions of Realm, Realm.init(Context context) is added</p>\n</blockquote>\n\n<pre><code>Realm.init(context);    \nRealmConfiguration config = new RealmConfiguration\n                                     .Builder()\n                                     .deleteRealmIfMigrationNeeded()\n                                     .build();\n</code></pre>\n\n<p>NOTE: With this config option, <em>any schema change will result in</em> <strong>loss of data</strong>, specifically:</p>\n\n<ul>\n<li>a field is added/removed</li>\n<li>a new RealmObject class is added </li>\n<li>an existing RealmObject is removed</li>\n<li><code>@Required</code> is added/removed</li>\n<li><code>@PrimaryKey</code> is added/removed</li>\n<li><code>@Index</code> is added/removed</li>\n</ul>\n\n<p>So it's primarily recommended while the app is in the development stage.</p>\n\n<hr>\n\n<p>Or add a migration following the official docs:</p>\n\n<p><a href=\"https://realm.io/docs/java/latest/#migrations\" rel=\"noreferrer\">https://realm.io/docs/java/latest/#migrations</a></p>\n\n<p>For example, </p>\n\n<pre><code>public class Migration implements RealmMigration {\n    @Override\n    public void migrate(final DynamicRealm realm, long oldVersion, long newVersion) {\n        RealmSchema schema = realm.getSchema();\n\n        if (oldVersion == 0) {\n            RealmObjectSchema personSchema = schema.get(\"Person\");\n            personSchema\n                .addField(\"fullName\", String.class, FieldAttribute.REQUIRED);\n            oldVersion++;\n            ... \n\n  // hash code, equals \n</code></pre>\n\n<p>And</p>\n\n<pre><code>Realm.init(context);    \nRealmConfiguration config = new RealmConfiguration.Builder() \n                                 .migration(new Migration()) \n                           //      .deleteRealmIfMigrationNeeded()\n                                 .build();\n</code></pre>\n",
+      "owner": {
+        "display_name": "1911z",
+        "link": "https://stackoverflow.com/users/3918995/1911z"
+      }
+    },
+    {
+      "answer_id": 43639266,
+      "body": "<p>Updating objects is just assign a value to a property within a write transaction. See our documentation.</p>\n\n<p><a href=\"https://realm.io/docs/swift/latest/#updating-objects\" rel=\"noreferrer\">https://realm.io/docs/swift/latest/#updating-objects</a></p>\n\n<p>So you don't need to delete and then add an object. Just assign new value to the property in write transaction like the following.</p>\n\n<pre><code>let workouts = realm.objects(WorkoutsCount.self).filter(\"date = %@\", removeTodaysItem)\n\nlet realm = try! Realm()\nif let workout = workouts.first {\n    try! realm.write {\n        workout.date = today\n        workout.count = plusOne\n    }\n}\n</code></pre>\n\n<p>FYI: Please don't use string interpolation in a query. Generally constructing an important string by string interpolation is bad practice. Use NSPredicate's string substitute syntax like <code>filter(\"date = %@\", removeTodaysItem)</code>.</p>\n",
+      "owner": {
+        "display_name": "kishikawa katsumi",
+        "link": "https://stackoverflow.com/users/1733883/kishikawa-katsumi"
+      }
+    },
+    {
+      "answer_id": 34296670,
+      "body": "<p>You can add an <code>ascending</code> parameter to the <code>sorted</code> method:</p>\n\n<pre><code>data = data!.sorted(\"date\", ascending: false)\n</code></pre>\n\n<p>This sorts your WorkoutSet using the date field in descending order.</p>\n\n<p><strong>Update</strong></p>\n\n<p>With Swift 3 and the latest RealmSwift version this has now changed to:</p>\n\n<pre><code>data = data!.sorted(byKeyPath: \"date\", ascending: false)\n</code></pre>\n\n<p>If you want to evaluate the sort criteria yourself you could use: </p>\n\n<pre><code>data = data!.sorted(by: { (lhsData, rhsData) -&gt; Bool in\n   return lshData.something &gt; rhsData.something\n})\n</code></pre>\n\n<p>But be aware that sorting your results by yourself does return an <code>Array</code> instead of a Realm <code>Results</code> object. That means there will be a performance and memory overhead, because <code>Results</code> is lazy and if do the sorting with the above method you will lose that lazy behavior because Realm has to evaluate each object! You should stick to Results whenever possible. Only use the above method if there really is no other way to sort your items.</p>\n",
+      "owner": {
+        "display_name": "joern",
+        "link": "https://stackoverflow.com/users/790877/joern"
+      }
+    },
+    {
+      "answer_id": 28486297,
+      "body": "<p>Currently the Realm Browser doesn't support accessing databases directly on the device, so you need to copy the database from the emulator/phone to view it. That can be done by using ADB:</p>\n\n<p><code>adb pull /data/data/&lt;packagename&gt;/files/ .</code></p>\n\n<p>That command will pull all Realm files created using <code>Realm.getInstance(new RealmConfiguration.Builder().build())</code> . The default database is called <code>default.realm</code>.</p>\n\n<p>Note that this will only work on a emulator or if the device is rooted.</p>\n",
+      "owner": {
+        "display_name": "Christian Melchior",
+        "link": "https://stackoverflow.com/users/1389357/christian-melchior"
+      }
+    },
+    {
+      "answer_id": 30611031,
+      "body": "<p><a href=\"https://realm.io/docs/swift/latest/api/Classes/Realm.html#/s:FC10RealmSwift5Realm6objectu0_RxCS_6ObjectrFT6ofTypeMx13forPrimaryKeyq__GSqx_\" rel=\"noreferrer\">object(ofType:forPrimaryKey:)</a> is what you're looking for: <code>Realm().object(ofType: Book.self, forPrimaryKey: prevBook.nextId)</code>. There's no simpler way than <code>filter().first</code> if you need to search for the object by something other than the primary key.</p>\n",
+      "owner": {
+        "display_name": "Thomas Goyne",
+        "link": "https://stackoverflow.com/users/2340687/thomas-goyne"
+      }
+    },
+    {
+      "answer_id": 40205170,
+      "body": "<p>I recently began organizing my App/Data structure like this, when dealing with Realm, after getting some direction from someone much smarter than I :) I did not go into too much detail about how the Realms are initially created, as I assume you are handling that already. This is just a really solid structure for organization/compartmentalized development. Hope it helps!</p>\n\n<pre><code>.App\n    ├──Assets\n    ├──Data\n    |   ├──Db\n    |   |   ├──Db.js\n    |   |   ├──DbHelper.js\n    |   ├──Models\n    |   |   ├──ModelA.js\n    |   |   ├──ModelB.js\n    |   |   ├──ModelC.js\n    |   ├──Queries.js\n    ├──Scenes\n    |   ├──App.js\n    |   |   ├──(all other scene/view components)\n</code></pre>\n\n<p>--The Models directory contains all my schemas, broken out individually like this:</p>\n\n<pre><code>import Realm from 'realm';\nexport default class ModelA extends Realm.Object {}\nModelA.schema = {\n    name: 'ModelA',\n    primaryKey: 'id',\n    properties: {\n        one: {type: 'int', optional: true},\n        two: 'string',\n        three: {type: 'string', optional: true},\n    }\n}\n</code></pre>\n\n<p>--In <code>Db.js</code>, I keep all my standard Realm related methods. <code>createRealm()</code>, <code>write()</code>, <code>close()</code>, <code>insert()</code>, and a generic query method, like this: </p>\n\n<pre><code>query(model: string, filter?: string) {\n    let results = this.realm.objects(model);\n    if(filter) {\n        return results.filtered(filter);\n    }\n    return results;\n}\n</code></pre>\n\n<p>--<code>DbHelper.js</code> then imports <code>Db.js</code> and all my Models. It handles the setting and getting of my db instance(s), using the standard methods from <code>Db.js</code>, like this:</p>\n\n<pre><code>import Db from 'App/Data/Db/Db';\nimport ModelA from 'App/Data/Models/ModelA';\nimport ModelB from 'App/Data/Models/ModelB';\nimport ModelC from 'App/Data/Models/ModelC';\n\nclass DbHelper {\n\n    modelSchema = [\n        ModelA,\n        ModelB,\n        ModelC\n    ];\n\n    activeInstancePath = (myLocalRealmPath)\n\n    getInstance(): Db {\n        let instance: Db = this.activeInstancePath;\n        if(!instance) {\n            throw new Error('DbHelper.js :: Active Instance Not Set!');\n        }\n        return instance;\n    }\n\n    /* note: this is where you would also setInstance and define a constant, or other method for the instance path */\n}\n</code></pre>\n\n<p>--<code>Queries.js</code> then imports <code>DbHelper.js</code>. <code>Queries.js</code> contains all my methods for specific app related data queries. <code>Queries.js</code> is all I need to import into my <code>Scene</code> components, to obtain Realm data. My <code>Queries.js</code> looks something like this:</p>\n\n<pre><code>import DbHelper from 'App/Data/Db/DbHelper';\n\nclass Queries {\n\n    /* a typical query */\n    getSomeDataFromModelA(filterValue: string = null) {\n        let filter = null;\n        if (filterValue) {\n            filter = `two = ${filterValue}`;\n        }\n        let results = DbHelper.getInstance()\n            .query('ModelA', filter);\n\n        return results;\n    }\n\n    /* return some JSON data that we originally stored in the Realm as a string */\n    getSomeJsonData() {\n        let results = DbHelper.getInstance()\n            .query('ModelB');\n\n        if(results.length) {\n            let parsed = JSON.parse(results[0].objectA);\n            return parsed.objectB;\n        }\n        return null;\n    }\n}\nexport default new Queries();\n</code></pre>\n\n<p>--App.js. So now, in my App Scene I would simply do something like this:</p>\n\n<pre><code>import React, { Component } from 'react';\nimport { View, Text } from 'react-native';\nimport Queries from 'App/Data/Queries';\n\nclass App extends Component {\n\n    constructor(props) {\n        super(props);\n\n        // Get Some Realm Data!\n        let modelAData = Queries.getSomeDataFromModelA()\n        let someJsonData = Queries.getSomeJsonData();\n\n        // Set Initial state\n        this.state = {\n            modelData: modelAData,\n            jsonData: someJsonData\n        }\n    }\n\n    componentDidMount() {\n        console.log(this.state.modelData);\n    }\n\n    render() {\n        return(\n            &lt;View&gt;\n                &lt;Text&gt;{this.state.jsonData.objectKey}&lt;/Text&gt;\n            &lt;/View&gt;\n        );\n    }\n}\n\nexport default App;\n</code></pre>\n",
+      "owner": {
+        "display_name": "fostertime",
+        "link": "https://stackoverflow.com/users/6019768/fostertime"
+      }
+    },
+    {
+      "answer_id": 35923260,
+      "body": "\n\n<p>You can make your example reactive by subscribing to events and updating the ui when you receive a change event. Right now events are only sent when write transactions are committed, but finer grained change events will be added in the future. For now you could add the following constructor to update the ui on changes:</p>\n\n<pre class=\"lang-js prettyprint-override\"><code>constructor(props) {\n  super(props);\n  this.realm = new Realm({schema:[dogSchema]})\n  this.realm.addListener('change', () =&gt; {\n    this.forceUpdate()\n  });\n}\n</code></pre>\n\n<p>You need to hold onto a Realm instance to keep the notifications alive, and you can use this Realm instance throughout the rest of the component.</p>\n\n<p>Instead of calling <code>forceUpdate</code>, you could instead set the component's state or props within the event listener to trigger the refresh, like so: </p>\n\n<pre class=\"lang-js prettyprint-override\"><code>constructor(props) {\n  super(props);\n\n  this.realm = new Realm({schema:[dogSchema]})\n\n  this.state = {...}; // Initial state of component.\n\n  this.realm.addListener('change', () =&gt; {\n    this.setState({...}); // Update state instead of using this.forceUpdate()\n  });\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ari",
+        "link": "https://stackoverflow.com/users/3838048/ari"
+      }
+    },
+    {
+      "answer_id": 30732775,
+      "body": "<p><strong>-EDIT-</strong></p>\n\n<ul>\n<li><p>If you use: <code>id = 'YOUR_VAR_OR VALUE'</code> => means that id is a <strong>String</strong> (Ex: id ='4')</p></li>\n<li><p>But if you use: <code>id = YOUR_VAR_OR VALUE</code> => means that id is an <strong>integer</strong> (Ex: id = 4)</p></li>\n</ul>\n\n<p><strong>NB:</strong> So when your id is an integer don't use quotes ' '</p>\n\n<hr>\n\n<p>Try this:</p>\n\n<pre><code>let idQuery = realm.objects(JournalEntryLine).filter(\"id = \\(item) AND type = 'Debit'\")\n</code></pre>\n\n<p>Transform <strong>id = '\\(item)'</strong> to <strong>id = \\(item)</strong> because id is an Integer, if you use quotes, il will consider id as a string.</p>\n\n<p>Don't forget to <strong>vote Up</strong> if it helps you. :)</p>\n",
+      "owner": {
+        "display_name": "Masterfego",
+        "link": "https://stackoverflow.com/users/3766923/masterfego"
+      }
+    },
+    {
+      "answer_id": 42073959,
+      "body": "<p>The redux store is good when you have only react components dealing with the data. The store is a good way to maintain your application's state. For example, you do not need Realm to store the current login status or flags indicating whether the user has skipped login. The redux store wins the game here.</p>\n\n<p>On the other hand, Realm is the best when you have to deal with complex queries or a large amount of data to be stored. The advantage of having Realm is that the data can be accessed within your react components as well as non-react components/classes easily. Realm gives you the advantage to monitor your data with the Realm Browser and build relationships between your models. Realm also wins the race if you have to do any offline sync. </p>\n\n<p>Will it have to exist external to the store - <strong>Yes</strong>. </p>\n\n<p>Is using Realm within a Redux based app somehow a contradiction - <strong>It depends upon what you are using the storage for.</strong></p>\n",
+      "owner": {
+        "display_name": "Jaseem Abbas",
+        "link": "https://stackoverflow.com/users/1166366/jaseem-abbas"
+      }
+    },
+    {
+      "answer_id": 30454401,
+      "body": "<p>Another way to update an existing object with all its fields in your Realm DB is using the method <code>realm.copyToRealmOrUpdate()</code>:</p>\n\n<pre><code>Object obj = new Object();\nobj.setField1(field1);\nobj.setField2(field2);\nrealm.beginTransaction();\nrealm.copyToRealmOrUpdate(obj);\nrealm.commitTransaction();\n</code></pre>\n\n<p>If your object has a <strong>Primary Key</strong>, this method will update the object automatically without duplicate objects :)</p>\n\n<p>More info: <a href=\"http://realm.io/docs/java/0.79.0/api/io/realm/Realm.html#copyToRealmOrUpdate-E-\" rel=\"noreferrer\">copyToRealmOrUpdate()</a></p>\n",
+      "owner": {
+        "display_name": "j_gonfer",
+        "link": "https://stackoverflow.com/users/3876285/j-gonfer"
+      }
+    },
+    {
+      "answer_id": 32322677,
+      "body": "<p><em>(Disclaimer: I work for Realm.)</em></p>\n\n<p>Yep! Setting a primary key in Realm isn't obligatory, nor necessary, which is why it's completely up to the developer and the requirements of the app to determine whether it's necessary or not in their implementation.</p>\n\n<p>In response to your questions:</p>\n\n<p>1) There are no default values; you specify one of your own properties as a primary key. <code>primaryKey</code> returns nil by default since you need to override that yourself in order to indicate to Realm which property you want to act as a primary key. Some users have set integers as primary keys, but more often than not, using a UUID string is the most common.</p>\n\n<p>2) There's no implicit primary key. You must use the <code>[RLMObject primaryKey]</code> method to explicitly state which property is the primary key, and THEN it will be indexed. :)</p>\n\n<p>3) In my own (spare-time) development experience, I usually find having a primary key makes it a lot easier to identify and handle specific objects. For example, if you're passing an object across threads, you can simply pass the primary key value and use <code>[RLMObject objectForPrimaryKey:]</code> to refetch the object. Obviously this depends on your own implementation requirements. You probably shouldn't add a primary key unless you find out you really need one.</p>\n\n<p>As an example, here's what you would add to your RLMObject subclass if you wanted to set a UUID string as a primary key:</p>\n\n<pre><code>@interface MyObject : RLMObject\n\n@property NSString *uuid;\n\n@end\n\n@implementation MyObject\n\n+ (NSString *)primaryKey\n{\n   return @\"uuid\";\n}\n\n+ (NSDictionary *)defaultPropertyValues\n{\n   @{@\"uuid\": [[NSUUID UUID] UUIDString]};\n}\n\n@end\n</code></pre>\n\n<p>I hope that helped!</p>\n\n<p><strong>Addendum:</strong> To elaborate upon some of the comments made below, primary keys are explicitly necessary for any Realm APIs that change their functionality depending on if an object with the same key already exists in the database. For example <code>+[RLMObject createOrUpdateInRealm:]</code> will add a new Realm object to the database if an object with that primary key doesn't already exist, and will simply update the existing object otherwise. </p>\n\n<p>As such, in these instances where a primary key is a critical component of the subsequent logic, they are required. However, since these APIs are a subset of the different ways in which it is possible to add/update data in Realm, if you choose to not use them, you still not required to have a primary key.</p>\n",
+      "owner": {
+        "display_name": "TiM",
+        "link": "https://stackoverflow.com/users/599344/tim"
+      }
+    },
+    {
+      "answer_id": 41504513,
+      "body": "<p>My problem was solved by declaring <code>apply plugin: 'realm-android'</code> after all other plugins.</p>\n\n<blockquote>\n  <p>App level Gradle</p>\n</blockquote>\n\n<pre><code>apply plugin: 'android-apt'\napply plugin: 'realm-android'\n\nandroid {\n    compileSdkVersion rootProject.ext.compileSdkVersion\n    buildToolsVersion rootProject.ext.buildToolsVersion\n</code></pre>\n",
+      "owner": {
+        "display_name": "harsh_v",
+        "link": "https://stackoverflow.com/users/3600738/harsh-v"
+      }
+    },
+    {
+      "answer_id": 41204939,
+      "body": "<p>You can use abi splits to reduce size of APK. </p>\n\n<p>Normally (without splits) it includes files to support almost all architectures (ARM7, ARMv7, ARM64, x86, MIPS) This is why it's too big. </p>\n\n<p>With abi splits, android studio will generate APK for each architecture, and each APK will not include files for any other architecture</p>\n\n<p>Just add below section in gradle file. Also check this realm <a href=\"https://realm.io/docs/java/latest/#how-big-is-the-realm-base-library\" rel=\"noreferrer\">documentation</a></p>\n\n<pre><code>splits {\n    abi {\n        enable true\n        reset()\n        include 'armeabi', 'armeabi-v7a', 'arm64-v8a', 'mips', 'x86', 'x86_64'\n    }\n}\n</code></pre>\n\n<p><strong>Important</strong></p>\n\n<p>Each distrubtion(APK) will only work on appropriate device. So we can say, <code>app-x86_64-release.apk</code> will not work on <code>armeabi-v7a</code> architectured device. If you try, you'll face <code>Failure [INSTALL_FAILED_NO_MATCHING_ABIS]</code> error. </p>\n\n<p>You can also check these documentations. </p>\n\n<ul>\n<li><a href=\"https://developer.android.com/google/play/publishing/multiple-apks.html\" rel=\"noreferrer\">Multiple APK Support</a></li>\n<li><a href=\"https://developer.android.com/studio/build/configure-apk-splits.html#configure-abi-split\" rel=\"noreferrer\">Configure APK Splits</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "blackkara",
+        "link": "https://stackoverflow.com/users/1281180/blackkara"
+      }
+    },
+    {
+      "answer_id": 34892099,
+      "body": "<p>You will need to invoke the migration. Merely creating a configuration, won't invoke it. There are two ways of doing this:</p>\n\n<ol>\n<li><p>Set your configuration with migration as Realm's default configuration-</p>\n\n<pre><code>let config = Realm.Configuration(\n  // Set the new schema version. This must be greater than the previously used\n  // version (if you've never set a schema version before, the version is 0).\n  schemaVersion: 1,\n\n  // Set the block which will be called automatically when opening a Realm with\n  // a schema version lower than the one set above\n  migrationBlock: { migration, oldSchemaVersion in\n\n    if oldSchemaVersion &lt; 1 {\n      migration.enumerate(WorkoutSet.className()) { oldObject, newObject in\n        newObject?[\"setCount\"] = setCount\n      }    \n    }\n  }\n) \nRealm.Configuration.defaultConfiguration = config   \n</code></pre></li>\n</ol>\n\n<p><strong>OR</strong></p>\n\n<ol start=\"2\">\n<li>Migrate manually using migrateRealm :</li>\n</ol>\n\n<blockquote>\n  <p>migrateRealm(config)</p>\n</blockquote>\n\n<p>Now your migration should work properly. </p>\n",
+      "owner": {
+        "display_name": "Shripada",
+        "link": "https://stackoverflow.com/users/705642/shripada"
+      }
+    },
+    {
+      "answer_id": 30478227,
+      "body": "<p>Implement this function <code>openRealm</code> in AppDelegate and call it in </p>\n\n<pre><code>func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -&gt; Bool { \n    ...\n    openRealm() \n\n    return true\n }\n\nfunc openRealm() {\n\n    let defaultRealmPath = Realm.defaultPath\n    let bundleReamPath = NSBundle.mainBundle().resourcePath?.stringByAppendingPathComponent(\"default.realm\")\n\n    if !NSFileManager.defaultManager().fileExistsAtPath(defaultRealmPath) {\n        NSFileManager.defaultManager().copyItemAtPath(bundleReamPath!, toPath: defaultRealmPath, error: nil)\n    }\n}\n</code></pre>\n\n<p>It will copy your realm file that you bundled in the app to the default realm path, if it doesn't exist already. After that you use Realm normally like you used before.</p>\n\n<p>There's also the Migration example that you talked about in <a href=\"https://github.com/realm/realm-cocoa/blob/master/examples/ios/swift/Migration/AppDelegate.swift\" rel=\"noreferrer\">Swift</a>.</p>\n\n<p>In Swift 3.0.1 you may prefer this:</p>\n\n<pre><code>    let defaultRealmPath = Realm.Configuration.defaultConfiguration.fileURL!\n    let bundleRealmPath = Bundle.main.url(forResource: \"seeds\", withExtension: \"realm\")\n\n    if !FileManager.default.fileExists(atPath: defaultRealmPath.absoluteString) {\n        do {\n            try FileManager.default.copyItem(at: bundleRealmPath!, to: defaultRealmPath)\n        } catch let error {\n            print(\"error copying seeds: \\(error)\")\n        }\n    }\n</code></pre>\n\n<p>(but please be careful with the optionals)</p>\n",
+      "owner": {
+        "display_name": "pteofil",
+        "link": "https://stackoverflow.com/users/4815066/pteofil"
+      }
+    },
+    {
+      "answer_id": 40593526,
+      "body": "<p><code>realm.close()</code> is used when you are done with your current schema. In Realm api page it says the following:</p>\n\n<blockquote>\n  <p>close(): Closes this Realm so it may be re-opened with a newer schema version. All objects and collections from this Realm are no longer valid after calling this method.</p>\n</blockquote>\n\n<p>If you don't want to change your schema, you don't have to worry about <code>close</code> method.</p>\n\n<p>Full reference here: <a href=\"https://realm.io/docs/react-native/0.14.0/api/Realm.html#close\" rel=\"noreferrer\">Realm close method</a>.</p>\n",
+      "owner": {
+        "display_name": "leo7r",
+        "link": "https://stackoverflow.com/users/1216601/leo7r"
+      }
+    },
+    {
+      "answer_id": 40175572,
+      "body": "<p>In a transaction, you can always reliably access the current maximum ID, based on which you can increment that and use it as the basis for the next ID.</p>\n\n<pre><code> realm.executeTransaction(new Realm.Transaction() { // must be in transaction for this to work\n     @Override\n     public void execute(Realm realm) {\n         // increment index\n         Number currentIdNum = realm.where(users.class).max(usersFields.ID);\n         int nextId;\n         if(currentIdNum == null) {\n            nextId = 1;\n         } else {\n            nextId = currentIdNum.intValue() + 1;\n         }\n         users user = new users(); // unmanaged\n         user.setId(nextId);\n         //...\n         realm.insertOrUpdate(user); // using insert API\n     }\n }\n</code></pre>\n",
+      "owner": {
+        "display_name": "EpicPandaForce",
+        "link": "https://stackoverflow.com/users/2413303/epicpandaforce"
+      }
+    },
+    {
+      "answer_id": 38007324,
+      "body": "<p>You can use the pattern described in the issue: <a href=\"https://github.com/realm/realm-java/issues/776#issuecomment-190147079\" rel=\"noreferrer\">https://github.com/realm/realm-java/issues/776#issuecomment-190147079</a></p>\n\n<p>Basically save it as a String in Realm and convert it going in and out:</p>\n\n<pre><code>public enum MyEnum {\n  FOO, BAR;\n}\n\npublic class Foo extends RealmObject {\n  private String enumDescription;\n\n  public void saveEnum(MyEnum val) {\n    this.enumDescription = val.toString();\n  }\n\n  public MyEnum getEnum() {\n    return MyEnum.valueOf(enumDescription);\n  }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Christian Melchior",
+        "link": "https://stackoverflow.com/users/1389357/christian-melchior"
+      }
+    },
+    {
+      "answer_id": 39765850,
+      "body": "<p>It's hard to tell you what the \"best\" way is. There are always drawbacks and benefits to any setup, and everyone has different goals and objectives, so I don't think there is an objective \"best way to run it,\" as you say.</p>\n\n<p>The Realm Object Server doesn't support Heroku for the time being (or at least, no easy one-click-install integration). We know that this is something that people want, so it's on our radar, but I can't give you a definite answer as to when or even if we will do this one day.</p>\n\n<p>The way most people run the Object Server is by running a virtual machine, and running the service inside of that. There are multiple ways to achieve this: start a virtual machine with your favourite cloud provider, and then install the Realm Object Server on top of that. Alternatively, Realm also provides an AMI image, which is Amazon lingo for \"a pre-configured virtual machine image,\" that contains the Object Server pre-installed, and allows you to run your Object Server at the click of a button.</p>\n\n<p>Please bear in mind that Realm Object Server is currently packaged for RHEL/CentOS 6 &amp; 7, and Ubuntu 16.04.</p>\n\n<p>Here are some links that should help you get started:</p>\n\n<ul>\n<li>A basic tutorial on how to <a href=\"https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04\">setup Ubuntu 16.04 on Digital Ocean</a></li>\n<li>AWS' documentation on <a href=\"http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/launching-instance.html\">launching an EC2 instance from an AMI</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "teotwaki",
+        "link": "https://stackoverflow.com/users/1242637/teotwaki"
+      }
+    },
+    {
+      "answer_id": 36736415,
+      "body": "<p>In 0.88.3 and below you can do:</p>\n\n<pre><code>realm.executeTransaction(new Realm.Transaction() {\n    @Override\n    public void execute(Realm realm) {\n        RealmResults&lt;Message&gt; rows = realm.where(Message.class).equalTo(Message.USER_ID,userId).findAll();\n        rows.clear();\n    }\n});\n</code></pre>\n\n<p>From 0.89 (next release) this will be <code>deleteAllFromRealm()</code> instead. </p>\n\n<pre><code>realm.executeTransaction(new Realm.Transaction() {\n    @Override\n    public void execute(Realm realm) {\n        RealmResults&lt;Message&gt; result = realm.where(Message.class).equalTo(Message.USER_ID,userId).findAll();\n        result.deleteAllFromRealm();\n    }\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "Christian Melchior",
+        "link": "https://stackoverflow.com/users/1389357/christian-melchior"
+      }
+    },
+    {
+      "answer_id": 30115200,
+      "body": "<pre><code>RealmList &lt;Student&gt; results = new RealmList&lt;Student&gt;();\n\nresults.addAll(realmResultList.subList(0, realmResultList.size()));\n</code></pre>\n",
+      "owner": {
+        "display_name": "ChaturaM",
+        "link": "https://stackoverflow.com/users/1197454/chaturam"
+      }
+    },
+    {
+      "answer_id": 39382812,
+      "body": "<p>The rule of thumb for Realm is only one write transaction open on an <code>RLMRealm</code> at any given time. You might need to reconsider your logic if you're hitting this error. You shouldn't ever intentionally be trying to open up a second write transaction on a <code>RLMRealm</code> that's already open on the same thread. Doing it on separate threads is fine, but the thread the second write transaction is on will be blocked until the first one completes.</p>\n\n<p>If there's something in your implementation that isn't set right, it's also possible that a transaction you've assumed had completed might have had an error and was left open. Like Sebastian said, you can check this with <code>-[RLMRealm inWriteTransaction]</code>, but in this case, you should definitely backtrack your code to see why that is happening.</p>\n",
+      "owner": {
+        "display_name": "TiM",
+        "link": "https://stackoverflow.com/users/599344/tim"
+      }
+    },
+    {
+      "answer_id": 26244843,
+      "body": "<p>Use <a href=\"https://realm.io/docs/swift/latest/#deleting-objects\"><code>deleteAll()</code></a>:</p>\n\n<pre><code>let realm = try! Realm()\ntry! realm.write {\n    realm.deleteAll()\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "jpsim",
+        "link": "https://stackoverflow.com/users/373262/jpsim"
+      }
+    },
+    {
+      "answer_id": 38797693,
+      "body": "<p>Here's some sample code that does exactly what you're looking for:</p>\n\n<pre><code>import UIKit\nimport RealmSwift\n\nclass Dog: Object {\n    dynamic var name = \"\"\n    dynamic var race = \"\"\n    dynamic var age = 0\n    dynamic var owner = \"\"\n    dynamic var dogID = \"\"\n\n    override static func primaryKey() -&gt; String? {\n        return \"dogID\"\n    }\n\n    convenience init(name: String, race: String, dogID: String) {\n        self.init()\n        self.name = name\n        self.race = race\n        self.dogID = dogID\n    }\n}\n\nclass TableViewController: UITableViewController {\n    let items = try! Realm().objects(Dog.self).sorted([\"race\", \"name\"])\n    var sectionNames: [String] {\n        return Set(items.valueForKeyPath(\"race\") as! [String]).sort()\n    }\n\n    override func viewDidLoad() {\n        super.viewDidLoad()\n\n        tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: \"cell\")\n\n        let realm = try! Realm()\n        if realm.isEmpty {\n            try! realm.write {\n                realm.add(Dog(name: \"Bailey\", race: \"Golden Retrievers\", dogID: \"0\"))\n                realm.add(Dog(name: \"Bella\", race: \"German Shepherds\", dogID: \"1\"))\n                realm.add(Dog(name: \"Max\", race: \"Bulldogs\", dogID: \"2\"))\n                realm.add(Dog(name: \"Lucy\", race: \"Yorkshire Terriers\", dogID: \"3\"))\n                realm.add(Dog(name: \"Charlie\", race: \"Bulldogs\", dogID: \"4\"))\n                realm.add(Dog(name: \"Molly\", race: \"German Shepherds\", dogID: \"5\"))\n                realm.add(Dog(name: \"Buddy\", race: \"German Shepherds\", dogID: \"6\"))\n                realm.add(Dog(name: \"Daisy\", race: \"Siberian Huskies\", dogID: \"7\"))\n            }\n        }\n    }\n\n    override func numberOfSectionsInTableView(tableView: UITableView) -&gt; Int {\n        return sectionNames.count\n    }\n\n    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -&gt; String? {\n        return sectionNames[section]\n    }\n\n    override func tableView(tableView: UITableView?, numberOfRowsInSection section: Int) -&gt; Int {\n        return items.filter(\"race == %@\", sectionNames[section]).count\n    }\n\n    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&gt; UITableViewCell {\n        let cell = tableView.dequeueReusableCellWithIdentifier(\"cell\", forIndexPath: indexPath)\n        cell.textLabel?.text = items.filter(\"race == %@\", sectionNames[indexPath.section])[indexPath.row].name\n        return cell\n    }\n}\n</code></pre>\n\n<p>Which looks like this:</p>\n\n<p><a href=\"https://i.sstatic.net/c7iLs.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/c7iLs.png\" alt=\"screenshot\"></a></p>\n",
+      "owner": {
+        "display_name": "jpsim",
+        "link": "https://stackoverflow.com/users/373262/jpsim"
+      }
+    },
+    {
+      "answer_id": 28465803,
+      "body": "<h1>Finding a Realm File</h1>\n\n<h2>For Android</h2>\n\n<p><a href=\"https://stackoverflow.com/questions/28478987/how-to-view-my-realm-file-in-the-realm-browser\">How to view my Realm file in the Realm Browser?</a></p>\n\n<h2>For iOS</h2>\n\n<h2>If your App is on Device</h2>\n\n<p>Make sure that your device is connected and go to the devices window in the Xcode menu <strong>Window > Devices</strong> (⌘⇧2). There you will be able to choose your device and your app from a list of installed apps with debugging permissions. </p>\n\n<p>After selecting your app, go to the cog in the toolbar at the bottom of the table view and select <strong>“Download Container…“</strong>. There you will be able to pull the file from the documents location to your Mac. It will be saved as an xcappdata bundle. </p>\n\n<p>When you open the local path in Finder, where you saved it, you can tap into that by selecting <strong>“Show Package Contents”</strong> in the context menu of the finder, when you select the file. A new finder window will open, where you find your Realm inside in the following path (e.g.): AppData/Documents/default.realm (The directory '/private/var/mobile' is the path, which is used by iOS on the device filesystem.</p>\n\n<h2>If your App is on the Simulator</h2>\n\n<p>Go to your user’s directory:</p>\n\n<p><code>/Users/&lt;username&gt;/Library/Developer/CoreSimulator/Devices/&lt;simulator-uuid&gt;/data/Containers/Data/Application/&lt;application-uuid&gt;/Documents/default.realm</code></p>\n\n<p>Probably the easiest way to get the current path of the default realm is to pause the simulator and enter the following into the LLDB console: </p>\n\n<p><strong>Objective-C</strong>:<br>\n<code>(lldb) po [RLMRealmConfiguration defaultConfiguration].fileURL</code></p>\n\n<p><strong>Swift using Realm Objective-C</strong>:<br>\n<code>(lldb) po RLMRealmConfiguration.defaultConfiguration().fileURL</code></p>\n\n<p><strong>Swift using Realm Swift</strong>:<br>\n<code>(lldb) po Realm.Configuration.defaultConfiguration.fileURL</code></p>\n\n<p>Or if you have an <code>RLMRealm</code> instance at hand, you can use:<br>\n<code>(lldb) po myRealm.configuration.fileURL</code></p>\n\n<p>Then just copy this path, open your terminal, and type <code>open</code> <strong>[Pasted path here]</strong></p>\n\n<p><strong>NOTE:</strong> Some paths have a space in them so be sure to use \"\\\" before the space to escape it</p>\n\n<h3>Helper Tool SimPholders</h3>\n\n<p>This is probably the fastest way to find the file of an app in the simulator. Install <a href=\"http://simpholders.com/\" rel=\"noreferrer\">SimPholders</a>. This will allow you to access your app’s documents directory directly from your menu bar.</p>\n\n<p><strong>Note</strong> Some people have mentioned that SimPholders has taken them to the wrong simulator app folder, if that's the case for you, print out your realm path by following the steps above, printing out your realm.path</p>\n",
+      "owner": {
+        "display_name": "yoshyosh",
+        "link": "https://stackoverflow.com/users/523686/yoshyosh"
+      }
+    },
+    {
+      "answer_id": 38194786,
+      "body": "<p>There are two ways to skip migration error regardless schema changes.</p>\n\n<ol>\n<li><p>Use <code>deleteRealmIfMigrationNeeded</code> property. If it is <code>true</code>, recreate the Realm file with the provided schema if a migration is required.</p>\n\n<pre><code>let config = Realm.Configuration(deleteRealmIfMigrationNeeded: true)\nRealm.Configuration.defaultConfiguration = config\n\nlet realm = try! Realm()\n...\n</code></pre>\n\n<p>　　</p></li>\n<li><p>Increment schema version every launch. Realm has auto migration feature. If you don't need to migrate existing data, you can just increment schema version. Schema will be changed by Realm automatically.</p>\n\n<pre><code>let config = Realm.Configuration(schemaVersion: try! schemaVersionAtURL(Realm.Configuration.defaultConfiguration.fileURL!) + 1)\nRealm.Configuration.defaultConfiguration = config\n\nlet realm = try! Realm()\n...\n</code></pre></li>\n</ol>\n",
+      "owner": {
+        "display_name": "kishikawa katsumi",
+        "link": "https://stackoverflow.com/users/1733883/kishikawa-katsumi"
+      }
+    },
+    {
+      "answer_id": 30098398,
+      "body": "<p>Christian from Realm here. You can only save objects that extend RealmObject inside a Realm. This is because Realm is not a schemaless database. We do require a schema and that schema is defined by your objects that extend RealmObject. We use RealmList because it abstracts away the communication with the underlying core database, but it implements the List interface.</p>\n\n<p>This means that</p>\n\n<pre><code>public class Foo extends RealmObject {\n  private List&lt;Object&gt; objects;  // not legal\n  private RealmList&lt;Object&gt; objects;  // not legal \n  private RealmList&lt;RealmObject&gt; objects; // not legal\n}\n\npublic class Foo extends RealmObject {\n  private RealmList&lt;Foo&gt; objects; // legal\n}\n\nList&lt;Foo&gt; reference = foo.getObjects(); // Legal\n</code></pre>\n",
+      "owner": {
+        "display_name": "Christian Melchior",
+        "link": "https://stackoverflow.com/users/1389357/christian-melchior"
+      }
+    },
+    {
+      "answer_id": 38046903,
+      "body": "<p>You can perform null check.</p>\n\n<pre><code>User user = realm.where(User.class).equalTo(\"cardId\", cardId).findFirst();\n\nif (user != null) {\n    // Exists\n} else {\n    // Not exist\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Niko",
+        "link": "https://stackoverflow.com/users/1238164/niko"
+      }
+    },
+    {
+      "answer_id": 37900792,
+      "body": "<p>You can use Realm with Swift 3.0, but take into account that the current version is still absolutely experimental.</p>\n\n<p>You can clone the <strong>master branch</strong> of the <a href=\"https://github.com/realm/realm-cocoa\" rel=\"noreferrer\">realm-cocoa</a> repo from GitHub.</p>\n\n<p>Or you can use Carthage:</p>\n\n<pre><code>github \"realm/realm-cocoa.git\" \"master\"\n</code></pre>\n\n<p>Or if you prefer CocoaPods:</p>\n\n<pre><code>pod 'RealmSwift', :git =&gt; 'https://github.com/realm/realm-cocoa.git', :branch =&gt; 'master'\n</code></pre>\n\n<p>If you use Carthage, remember that you must add Realm and RealmSwift frameworks manually (ignore the IBAnimatable framework):</p>\n\n<p><img src=\"https://i.sstatic.net/Vqb6z.png\" alt=\"Project configuration image\"></p>\n\n<p>In fact, I have one of my projects with Xcode 8, Swift 3 and Realm, and it works perfectly :) </p>\n",
+      "owner": {
+        "display_name": "Jose L Molina",
+        "link": "https://stackoverflow.com/users/2242032/jose-l-molina"
+      }
+    },
+    {
+      "answer_id": 37686223,
+      "body": "<p>It looks like you've added the path to <code>RealmSwift.framework</code> to your framework search paths. The <a href=\"https://realm.io/docs/swift/latest/#installation-swift-22\" rel=\"noreferrer\">Realm Swift installation instructions</a> say to add the <em>parent path</em> of <code>RealmSwift.framework</code> (i.e., the containing directory) to your framework search paths.</p>\n",
+      "owner": {
+        "display_name": "bdash",
+        "link": "https://stackoverflow.com/users/1991710/bdash"
+      }
+    },
+    {
+      "answer_id": 37648877,
+      "body": "<p>When you call <a href=\"https://realm.io/docs/java/1.0.0/api/io/realm/Realm.html#deleteRealm-io.realm.RealmConfiguration-\"><code>Realm.deleteRealm()</code></a>, you have to make sure all the Realm instances are closed, otherwise an exception will be thrown without deleting anything. By calling this method, all Realm files are deleted, which means all objects &amp; schemas are gone. Catching all exceptions is a bad practise for any general cases.</p>\n\n<p>Or you can call <a href=\"https://realm.io/docs/java/1.0.0/api/io/realm/Realm.html#deleteAll--\"><code>Realm.delelteAll()</code></a> in a transaction block. This doesn't require all Realm instances closed. It will just delete all the objects in the Realm without clearing the schemas. And again, don't catch all exceptions.</p>\n",
+      "owner": {
+        "display_name": "beeender",
+        "link": "https://stackoverflow.com/users/1396606/beeender"
+      }
+    },
+    {
+      "answer_id": 31100497,
+      "body": "<p>I found a solution. Created extension on Results.</p>\n\n<pre><code>extension Results {\n    func toArray&lt;T&gt;(ofType: T.Type) -&gt; [T] {\n        var array = [T]()\n        for i in 0 ..&lt; count {\n            if let result = self[i] as? T {\n                array.append(result)\n            }\n        }\n\n        return array\n    }\n}\n</code></pre>\n\n<p>and using like</p>\n\n<pre><code>class func getSomeObject() -&gt; [SomeObject]? {\n    let objects = Realm().objects(SomeObject).toArray(SomeObject) as [SomeObject]\n\n    return objects.count &gt; 0 ? objects : nil\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sahil Kapoor",
+        "link": "https://stackoverflow.com/users/3950397/sahil-kapoor"
+      }
+    },
+    {
+      "answer_id": 37199070,
+      "body": "<p>Realm doesn't have any sort of concept of a deep-filtered view, so you can't have a <code>Results&lt;Canteen&gt;</code> which restricts the <code>List</code>s contained in related objects to vegan meals.</p>\n\n<p>There are several similar things which you can do. You could add inverse relationship properties, and then query <code>Meal</code> objects instead:</p>\n\n<pre><code>class Canteen: Object {\n    dynamic var name: String?\n    let lines = List&lt;Line&gt;()\n}\n\nclass Line: Object {\n    dynamic var name: String?\n    let meals = List&lt;Meal&gt;()\n    let canteens = LinkingObjects(fromType: Canteen.self, property: \"lines\")\n}\n\nclass Meal: Object {\n    dynamic var name: String?\n    dynamic var vegan: Bool = false\n    let lines = LinkingObjects(fromType: Line.self, property: \"meals\")\n}\n\nlet meals = realm.objects(Meal).filter(\"vegan = true AND ANY lines.canteens.name = %@\", selectedCanteenType.rawValue)\n</code></pre>\n\n<p>(Or rather, you will be able to once Realm 0.102.1 is out; currently this crashes).</p>\n\n<p>If you just need to iterate over the meals but need to do so from the Canteen down, you could do:</p>\n\n<pre><code>let canteens = realm.objects(Canteen).filter(\"name = %@ AND ANY lines.meals.vegan = true\", selectedCanteenType.rawValue)\nfor canteen in canteens {\n    for line in canteen.lines.filter(\"ANY meals.vegan = true\") {\n        for meal in line.meals.filter(\"vegan = true\") {\n            // do something with your vegan meal\n        }\n    }\n}\n</code></pre>\n\n<p>This unfortunately has some duplication due to needing to repeat the filter for each level of the references.</p>\n",
+      "owner": {
+        "display_name": "Thomas Goyne",
+        "link": "https://stackoverflow.com/users/2340687/thomas-goyne"
+      }
+    },
+    {
+      "answer_id": 34946463,
+      "body": "<p>Both strategies are fine and have their own advantages and disadvantages.</p>\n\n<h3>Value Objects + Realm Objects</h3>\n\n<ul>\n<li>✅ Value objects are thread-safe</li>\n<li>✅ Value objects can be mutated anywhere, without worrying about side-effects</li>\n<li>✅ Value objects can be arbitrary defined and allow to use the full possibilities of the language, which allows to workaround constraints given by object persistence mapping</li>\n<li>❗️ No lazily-loading, which means the full object hierarchy has to be loaded into memory</li>\n<li>❗️ Can't express cycles</li>\n<li>❗️ Requires to maintain your model definitions twice</li>\n<li>❗️ Needs logic to map from transport encoding (e.g. JSON) to Swift Structs and from those to Realm Objects</li>\n</ul>\n\n<h3>Using only Realm Objects</h3>\n\n<ul>\n<li>✅ Zero-copy, which means reading from them is less expensive</li>\n<li>✅ Live, which means their data is always up to date</li>\n<li>✅ Lazily loaded from the database: fewer disk reads</li>\n<li>✅ Can express cycles and arbitrary object hierarchies</li>\n<li>✅ Define your model in one place</li>\n<li>✅ If you can control the transport encoding and you can share naming conventions, you could rely mostly on Realm's integrated Foundation value type mapping logic used by <code>create(_:update:_)</code> and its friends.</li>\n<li>✅ Supports KVO, which allow easy integration with some reactive programming frameworks</li>\n<li>❗️ Adds constraints to the way how you define your model objects (Some language constructs are not directly supported as enums and require workarounds for now)</li>\n<li>❗️ Reference types need more care for mutations to avoid undesirable side-effects, in addition modifications are only possible within write transactions (which should be batched to be as large as possible)</li>\n<li>❗️ Realm Objects are not thread-safe</li>\n</ul>\n\n<h3>TL;DR</h3>\n\n<p>You lose many Realm features when opting out of Realm Objects and will have a hard-time to re-implement them yourselves. Depending on how much you need these and how your use-case looks like, you would buy thread-safety for a high cost.</p>\n\n<p>In the long-term we're working on making Realm objects even easier to use and try to eliminate their disadvantages, so long being aware what those are will be helpful for making a well-informed decision.</p>\n",
+      "owner": {
+        "display_name": "marius",
+        "link": "https://stackoverflow.com/users/4194189/marius"
+      }
+    },
+    {
+      "answer_id": 36202200,
+      "body": "<p><code>TARGET_IPHONE_SIMULATOR</code> macro doesn't work in Swift.\nWhat you want to do is like the following, right?</p>\n\n<pre><code>#if arch(i386) || arch(x86_64)\nlet device = false\nlet RealmDB = try! Realm(path: \"/Users/Admin/Desktop/realm/Realm.realm\")\n#else\nlet device = true\nlet RealmDB = try! Realm()\n#endif\n</code></pre>\n",
+      "owner": {
+        "display_name": "kishikawa katsumi",
+        "link": "https://stackoverflow.com/users/1733883/kishikawa-katsumi"
+      }
+    },
+    {
+      "answer_id": 35837434,
+      "body": "<p>Upon researching there is a method on realm objects to check if it is valid:</p>\n\n<pre><code>realmObject.isValid();\n</code></pre>\n\n<p>There are two ways I know how to instantiate a realmObject:</p>\n\n<pre><code>RealmObject realmObj = new RealObject(); //Invalid\nRealmObject realmObj = realmInstance().createObject(RealmClass.class); //Valid\n</code></pre>\n\n<p>I was using parceler to pass realmObjects around. Passing a realmObject through parceler and unwrapping it and assigning it to a realmObject variable would make it invalid:</p>\n\n<pre><code>RealmObject realmObj = Parcels.unwrap(data.getParcelableExtra(\"realmObject\"));\n</code></pre>\n\n<p>Solution 1 - Pass the unique identifer, then query the realm object:</p>\n\n<pre><code>int uniqueId = Parcels.unwrap(data.getParcelableExtra(\"uniqueId\"));\n</code></pre>\n\n<p>Solution 2 - Pass the values, retrieve it, create a realmObject through a realmInstance and assign the values.</p>\n\n<pre><code>//Retrieve values\nString value1 = Parcels.unwrap(data.getParcelableExtra(\"value1\"));\nString value2 = Parcels.unwrap(data.getParcelableExtra(\"value2\"));\n\n//Create realmObject 'properly'\nRealmObject realmObj = realmInstance().createObject(RealmClass.class);\n\n//Assign retrieved values\nrealmObj.setValue1(value1);\nrealmObj.setValue2(value2);\n</code></pre>\n\n<p>This way you won't get an invalid realm object.</p>\n",
+      "owner": {
+        "display_name": "Kim Montano",
+        "link": "https://stackoverflow.com/users/2601957/kim-montano"
+      }
+    },
+    {
+      "answer_id": 35813887,
+      "body": "<p><code>RealmResults</code> has a <code>toArray()</code> method - also <code>toArray(T[] contents)</code> (note the <a href=\"https://realm.io/docs/java/latest/api/\" rel=\"noreferrer\"><code>RealmResults</code></a> inheritance chain). You can use these as follows:</p>\n\n<pre><code>ArticleList[] resultArray = (ArticleList[]) results.toArray();\n</code></pre>\n\n<p>Or</p>\n\n<pre><code>ArticleList[] resultArray = results.toArray(new ArticleList[results.size()]);\n</code></pre>\n\n<p>Ideally, you'd want to use <code>RealmResults</code> instead. This allows you to get <a href=\"https://realm.io/docs/java/latest/#notifications\" rel=\"noreferrer\">\"free\" updates</a> to your data, as well as all the conveniences of a <code>List</code>.</p>\n",
+      "owner": {
+        "display_name": "Adam S",
+        "link": "https://stackoverflow.com/users/1217087/adam-s"
+      }
+    },
+    {
+      "answer_id": 35788200,
+      "body": "<p>To check if the realm instance is closed, use Realm's method <a href=\"https://realm.io/docs/java/latest/api/io/realm/Realm.html#isClosed--\" rel=\"nofollow\">isClosed</a>:</p>\n\n<pre><code>if(realm.isClosed()) {\n    // Do something\n}\n</code></pre>\n\n<p>To delete all Realm objects without <a href=\"https://realm.io/docs/java/latest/api/io/realm/Realm.html#deleteRealm-io.realm.RealmConfiguration-\" rel=\"nofollow\">deleting the realm file</a>, you can use Realm's method <a href=\"https://realm.io/docs/java/latest/api/io/realm/Realm.html#clear-java.lang.Class-\" rel=\"nofollow\">clear</a>; unfortunately you have to pass the RealmObject's class:</p>\n\n<pre><code>Realm realm = Realm.getInstance(context);\nrealm.beginTransaction();\nrealm.clear(SomeClass.class);\nrealm.clear(AnotherClass.class);\nrealm.commitTransaction();\nrealm.close();\n</code></pre>\n",
+      "owner": {
+        "display_name": "grim",
+        "link": "https://stackoverflow.com/users/2657607/grim"
+      }
+    },
+    {
+      "answer_id": 35377076,
+      "body": "<p>If you're referring to the examples in the Realm <a href=\"https://realm.io/docs/swift/latest/\" rel=\"noreferrer\">Swift Docs</a>, I suspect <code>try!</code> is used liberally for the sake of brevity. The user is given a quick and dirty overview of core concepts without too much mental overhead.</p>\n\n<p>You probably <strong>will</strong> encounter errors at some point in your journey using Realm. You'll notice later on in the docs, in the <a href=\"https://realm.io/docs/swift/latest/#error-handling\" rel=\"noreferrer\">Realms > Error Handling</a> section that a <code>do-catch</code> example is given.</p>\n\n<pre><code>do {\n  let realm = try Realm()\n} catch let error as NSError {\n  // handle error\n}\n</code></pre>\n\n<p>To me, it's implied that the code examples from the docs are not necessarily production-quality, and the user is encouraged to use the relevant error-handling features of Swift.</p>\n",
+      "owner": {
+        "display_name": "caseynolan",
+        "link": "https://stackoverflow.com/users/3649704/caseynolan"
+      }
+    },
+    {
+      "answer_id": 35268004,
+      "body": "<p>Lists of primitives are not supported yet unfortunately. There is issue <a href=\"https://github.com/realm/realm-cocoa/issues/1120\" rel=\"noreferrer\">#1120</a> to track adding support for that. You'll find there some ideas how you can workaround that currently. </p>\n\n<p>The easiest workaround is create a object to hold int values. Then the model to have a List of the object.</p>\n\n<pre><code>class Foo: Object {\n    let integerList = List&lt;IntObject&gt;() // Workaround\n}\n\nclass IntObject: Object {\n    dynamic var value = 0\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "kishikawa katsumi",
+        "link": "https://stackoverflow.com/users/1733883/kishikawa-katsumi"
+      }
+    },
+    {
+      "answer_id": 26067337,
+      "body": "<p><strong>Update:</strong></p>\n\n<p>Since posting, a new method has been added to delete all objects (as jpsim has already mentioned):</p>\n\n<pre><code>// Obj-C\n[realm beginWriteTransaction];\n[realm deleteAllObjects];\n[realm commitWriteTransaction];\n\n\n// Swift\ntry! realm.write {\n  realm.deleteAll()\n}\n</code></pre>\n\n<p>Note that these methods will not alter the data structure; they only delete the existing records. If you are looking to alter the realm model properties without writing a migration (i.e., as you might do in development) the old solution below may still be useful.</p>\n\n<p><strong>Original Answer:</strong></p>\n\n<p>You could simply delete the realm file itself, as they do in their <a href=\"https://github.com/realm/realm-cocoa/blob/master/examples/ios/objc/REST/AppDelegate.m\">sample code for storing a REST response</a>:</p>\n\n<pre><code>- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions\n{\n    //...\n\n    // Ensure we start with an empty database\n    [[NSFileManager defaultManager] removeItemAtPath:[RLMRealm defaultRealmPath] error:nil];\n\n    //...\n}\n</code></pre>\n\n<hr>\n\n<p><strong>Update regarding your comment:</strong></p>\n\n<p>If you need to be sure that the realm database is no longer in use, you could put realm's notifications to use.  If you were to increment an <code>openWrites</code> counter before each write, then you could run a block when each write completes: </p>\n\n<pre><code>self.notificationToken = [realm addNotificationBlock:^(NSString *notification, RLMRealm * realm) {\n    if([notification isEqualToString:RLMRealmDidChangeNotification]) {\n        self.openWrites = self.openWrites - 1;\n\n        if(!self.openWrites &amp;&amp; self.isUserLoggedOut) {\n            [[NSFileManager defaultManager] removeItemAtPath:[RLMRealm defaultRealmPath] error:nil];\n        }\n    }\n}];\n</code></pre>\n",
+      "owner": {
+        "display_name": "uɥƃnɐʌuop",
+        "link": "https://stackoverflow.com/users/881250/u%c9%a5%c6%83n%c9%90%ca%8cuop"
+      }
+    },
+    {
+      "answer_id": 34914825,
+      "body": "<p>According to the <a href=\"https://realm.io/docs/swift/latest/#queries\">Realm document</a>, these ways should work</p>\n\n<pre><code>let predicate = NSPredicate(format: \"NOT (name IN %@)\", namesStr)\nlet predicate = NSPredicate(format: \"!(name IN %@)\", namesStr)\nlet predicate = NSPredicate(format: \"NOT name IN %@\", namesStr)\n</code></pre>\n",
+      "owner": {
+        "display_name": "LE SANG",
+        "link": "https://stackoverflow.com/users/1847431/le-sang"
+      }
+    },
+    {
+      "answer_id": 34660203,
+      "body": "<p>As long as you're in local development only, I'd recommend to reset your Realm database instead of doing a migration. Migrations are the way to go, if you have already shipped a version of your app with another schema and want to keep user data.</p>\n\n<p>You can delete the database by deleting the app from the simulator or the device.\nAlternatively you can use <a href=\"https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSFileManager_Class/\" rel=\"noreferrer\"><code>NSFileManager</code></a> to delete the Realm file before accessing the database.</p>\n\n<pre><code>let defaultPath = Realm.Configuration.defaultConfiguration.path!\ntry NSFileManager.defaultManager().removeItemAtPath(defaultPath)\n</code></pre>\n",
+      "owner": {
+        "display_name": "marius",
+        "link": "https://stackoverflow.com/users/4194189/marius"
+      }
+    },
+    {
+      "answer_id": 33299788,
+      "body": "<p>You can store images as <code>NSData</code>. Given you have the URL of an image, which you want to store locally, here is a code snippet how that can be achieved.</p>\n\n<pre><code>class MyImageBlob {\n    var data: NSData?\n}\n\n// Working Example\nlet url = NSURL(string: \"http://images.apple.com/v/home/cb/images/home_evergreen_hero_iphone_medium.jpg\")!\nif let imgData = NSData(contentsOfURL: url) {\n    var myblob = MyImageBlob()\n    myblob.data = imgData \n\n    let realm = try! Realm()\n    try! realm.write {\n        realm.add(myblob)\n    }\n}\n</code></pre>\n\n<h2>May be it is a bad idea to do that?</h2>\n\n<p>The rule is simple:\nIf the images are small in size, the number of images is small and they are rarely changed, you can stick with storing them in the database.</p>\n\n<p>If there is a bunch images, you are better off writing them directly to the file system and just storing the path of the image in the database.</p>\n\n<p>Here is how that can be done:</p>\n\n<pre><code>class MyImageStorage{\n    var imagePath: NSString?\n}\n\nlet url = NSURL(string: \"http://images.apple.com/v/home/cb/images/home_evergreen_hero_iphone_medium.jpg\")!\nif let imgData = NSData(contentsOfURL: url) {\n    // Storing image in documents folder (Swift 2.0+)\n    let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0]\n    let writePath = documentsPath?.stringByAppendingPathComponent(\"myimage.jpg\")\n\n    imgData.writeToFile(writePath, atomically: true)\n\n    var mystorage = MyImageStorage()\n    mystorage.imagePath = writePath\n\n    let realm = try! Realm()\n    try! realm.write {\n         realm.add(mystorage)\n    }\n}\n</code></pre>\n\n<p><strong>Please note:</strong> Both code samples are not reliable methods for downloading images since there are many pitfalls. In real world apps /  in production, I'd suggest to use a library intended for this purpose like <a href=\"https://github.com/AFNetworking/AFNetworking\">AFNetworking</a> or <a href=\"https://github.com/Alamofire/AlamofireImage\">AlamofireImage</a>.</p>\n",
+      "owner": {
+        "display_name": "ProblemSlover",
+        "link": "https://stackoverflow.com/users/1163224/problemslover"
+      }
+    },
+    {
+      "answer_id": 34390815,
+      "body": "<p>Realm doesn't support Data classes currently. You can see an example of how to write Realm compatible model classes in Kotlin here: <a href=\"https://github.com/realm/realm-java/tree/master/examples/kotlinExample/src/main/kotlin/io/realm/examples/kotlin/model\">https://github.com/realm/realm-java/tree/master/examples/kotlinExample/src/main/kotlin/io/realm/examples/kotlin/model</a></p>\n\n<pre><code>public open class Person(\n        @PrimaryKey public open var name: String = \"\",\n        public open var age: Int = 0,\n        public open var dog: Dog? = null,\n        public open var cats: RealmList&lt;Cat&gt; = RealmList(),\n        @Ignore public open var tempReference: Int = 0,\n        public open var id: Long = 0\n) : RealmObject() {\n</code></pre>\n",
+      "owner": {
+        "display_name": "Christian Melchior",
+        "link": "https://stackoverflow.com/users/1389357/christian-melchior"
+      }
+    },
+    {
+      "answer_id": 33801227,
+      "body": "<p><code>Dictionary</code> is not supported as property type in Realm.\nYou'd need to introduce a new class, whose objects describe each a key-value-pair and to-many relationship to that as seen below:</p>\n\n<pre><code>class Person: Object {\n    dynamic var name = \"\"\n    let hobbies = List&lt;Hobby&gt;()\n}\n\nclass Hobby: Object {\n    dynamic var name = \"\"\n    dynamic var descriptionText = \"\"\n}\n</code></pre>\n\n<p>For deserialization, you'd need to map your dictionary structure in your JSON to Hobby objects and assign the key and value to the appropriate property.</p>\n",
+      "owner": {
+        "display_name": "marius",
+        "link": "https://stackoverflow.com/users/4194189/marius"
+      }
+    },
+    {
+      "answer_id": 33645768,
+      "body": "<p>If your data is really completely disconnected, I would go with option C)\nIt makes for a clean separation. Migrations are easier to handle, and there is also a very small performance gain as Realm has to loop through all model classes in a Realm from time to time.</p>\n\n<p>But none of the options are \"wrong\".</p>\n",
+      "owner": {
+        "display_name": "Christian Melchior",
+        "link": "https://stackoverflow.com/users/1389357/christian-melchior"
+      }
+    },
+    {
+      "answer_id": 33611868,
+      "body": "<p>Officially, (on the iOS side at least), there's no established best practice for abstracting the model class logic away from the actual Realm Object subclasses. That being said, I've definitely heard of apps in the past who do do this sort of logic in order to support multiple types of data frameworks.</p>\n\n<p>If I were to do this, I would make a separate object class for each model implementing my own API on how to get/set data properties, and make the Realm object an internal member of this object. This object would then serve as the generic interface between my app's logic and how to save that data to Realm. That way, if I did want to swap out the data framework down the line, I could simply replace my own data object with a new one, but keep the API consistent.</p>\n\n<p>In regards to that error message you posted, in order to ensure data integrity, you cannot modify a Realm object (UI thread or otherwise) unless it's in a write transaction. That being said, you could encapsulate that logic (i.e. open up a Realm write transaction on the current thread) pretty easily within that abstract object.</p>\n",
+      "owner": {
+        "display_name": "TiM",
+        "link": "https://stackoverflow.com/users/599344/tim"
+      }
+    },
+    {
+      "answer_id": 33356943,
+      "body": "<p>From the Realm docs:</p>\n\n<p><code>String</code>, <code>NSDate</code>, and <code>NSData</code> properties can be declared as optional or non-optional using the standard Swift syntax. </p>\n\n<p>Optional numeric types are declared using <code>RealmOptional</code>:</p>\n\n<pre><code>class Person: Object {\n    // Optional string property, defaulting to nil\n    dynamic var name: String? = nil\n\n    // Optional int property, defaulting to nil\n    // RealmOptional properties should always be declared with `let`,\n    // as assigning to them directly will not work as desired\n    let age = RealmOptional&lt;Int&gt;()\n}\n\nlet realm = try! Realm()\ntry! realm.write() {\n    var person = realm.create(Person.self, value: [\"Jane\", 27])\n    // Reading from or modifying a `RealmOptional` is done via the `value` property\n    person.age.value = 28\n}\n</code></pre>\n\n<p><code>RealmOptional</code> supports <code>Int</code>, <code>Float</code>, <code>Double</code>, <code>Bool</code>, and all of the sized versions of <code>Int</code> (<code>Int8</code>, <code>Int16</code>, <code>Int32</code>, <code>Int64</code>).</p>\n\n<p><strong>UPDATE:</strong></p>\n\n<p>The Optional Ints that were mentioned in the <a href=\"https://twitter.com/realm/status/656621989583548416\">Tweet</a> by Realm were just regarding a bugfix for the <code>RealmOptional</code> way of implementing an Optional numeric value with the sized versions of <code>Int</code></p>\n\n<p><a href=\"https://twitter.com/realm/status/658795663254253568\">According</a> to the guys from Realm you still have to use <code>RealmOptional</code> if you want to have Optional numeric values in a Realm object. You cannot simply use it like other Optional types. </p>\n\n<p>So <code>dynamic var reps: Int?</code> will not work.</p>\n",
+      "owner": {
+        "display_name": "joern",
+        "link": "https://stackoverflow.com/users/790877/joern"
+      }
+    },
+    {
+      "answer_id": 33177633,
+      "body": "<p>Yes, it is mandatory for normal <code>var</code> properties. From the <a href=\"https://realm.io/docs/swift/latest/#property-attributes\" rel=\"noreferrer\"><em>realm docs</em></a>.</p>\n\n<blockquote>\n  <p>Realm model properties need the <code>dynamic var</code> attribute in order for these properties to become accessors for the underlying database data.</p>\n  \n  <p>There are two exceptions to this: <code>List</code> and <code>RealmOptional</code> properties cannot be declared as dynamic because generic properties cannot be represented in the Objective-C runtime, which is used for dynamic dispatch of dynamic properties, and should always be declared with <code>let</code>.</p>\n</blockquote>\n\n<p>The <em>dynamic</em> keyword is what allows for Realm to be notified of changes to model variables, and consequently reflect them to the database.</p>\n",
+      "owner": {
+        "display_name": "Edman",
+        "link": "https://stackoverflow.com/users/5257295/edman"
+      }
+    },
+    {
+      "answer_id": 32896351,
+      "body": "<p>There are two ways to solve this:</p>\n\n<p><strong>1. Use an Ignored Property:</strong></p>\n\n<p>You can tell Realm that a certain property should not be persisted. To prevent that your <code>favorite</code> property will be persisted by Realm you have to do this:</p>\n\n<pre><code>class Pet: Object{\n    dynamic var id: Int = 1\n    dynamic var title: String = \"\"\n    dynamic var type: String = \"\"\n    dynamic var favorite: Bool = false\n\n    override class func primaryKey() -&gt; String {\n        return \"id\"\n    }\n\n    override static func ignoredProperties() -&gt; [String] {\n       return [\"favorite\"]\n   }\n}\n</code></pre>\n\n<p>or you could </p>\n\n<p><strong>2. Do a partial update</strong></p>\n\n<p>Or you could tell Realm explicitly which properties should be updated when you update your <code>Pet</code> object:</p>\n\n<pre><code>try! realm.write {\n  realm.create(Pet.self, value: [\"id\": 2, \"name\": \"Dog\", \"type\": \"German Shepard\"], update: true)\n}\n</code></pre>\n\n<p>This way the <code>favorite</code> property will not be changed.</p>\n\n<p><strong>Conclusion</strong></p>\n\n<p>There is one big difference between the two approaches:</p>\n\n<p><strong>Ignored Property:</strong> Realm won't store the <code>favorite</code> property at all. It is your responsibility to keep track of them.</p>\n\n<p><strong>Partial Update:</strong> Realm will store the 'favorite' property, but it won't be updated. </p>\n\n<p>I suppose that the partial updates are what you need for your purpose.</p>\n",
+      "owner": {
+        "display_name": "joern",
+        "link": "https://stackoverflow.com/users/790877/joern"
+      }
+    },
+    {
+      "answer_id": 32463498,
+      "body": "<p>Multiple conditions are combined with And unless there's an <code>.or()</code> between them, so it's just:</p>\n\n<pre><code> RealmResults&lt;Event&gt; toEdit = realm.where(Event.class)\n        .equalTo(\"day\", day)\n        .equalTo(\"month\", month)\n        .findAll();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Thomas Goyne",
+        "link": "https://stackoverflow.com/users/2340687/thomas-goyne"
+      }
+    },
+    {
+      "answer_id": 32276984,
+      "body": "<blockquote>\n  <p>Due to an issue with not being able to execute subclasses in multiple targets</p>\n</blockquote>\n\n<p>When compiling the same Swift code as part of different targets, the compiler actually generates <em>different classes</em>. So this behaves as designed, but is almost certainly not what you want when running an app's unit tests.</p>\n\n<p>There are two ways I'd recommend you set up your models to allow testing:</p>\n\n<h1>1. Public models (recommended)</h1>\n\n<p>In your app target:</p>\n\n<pre><code>import RealmSwift\npublic class MyModel: Object {}\n</code></pre>\n\n<p>This code should <em>only</em> be compiled as part of your application target, and your unit tests can be set up in the following way:</p>\n\n<pre><code>import MyApp\n// should be able to access `MyModel`\n</code></pre>\n\n<p>Easy enough?</p>\n\n<h1>2. @Testable (Swift 2 only)</h1>\n\n<p>This approach relies on the <code>@testable</code> keyword introduced in Swift 2.</p>\n\n<p>In your app target:</p>\n\n<pre><code>import RealmSwift\ninternal class MyModel: Object {} // ACL cannot be `private`\n</code></pre>\n\n<p>Again, this code should <em>only</em> be compiled as part of your application target, and your unit tests can be set up in the following way:</p>\n\n<pre><code>@testable import MyApp\n// should be able to access `MyModel`\n</code></pre>\n\n<p>Make sure MyApp's build settings have <code>Enable Testability</code> set to <code>YES</code>.</p>\n\n<p>This approach may be preferred to public models if you're building a framework where some internal models shouldn't be accessible from users of that framework.</p>\n\n<p>Realm has a dedicated section of their documentation detailing these common approaches to testing which you can read here: <a href=\"https://realm.io/docs/swift/latest/#avoid-linking-realm-and-tested-code-in-test-targets\">https://realm.io/docs/swift/latest/#avoid-linking-realm-and-tested-code-in-test-targets</a></p>\n",
+      "owner": {
+        "display_name": "jpsim",
+        "link": "https://stackoverflow.com/users/373262/jpsim"
+      }
+    },
+    {
+      "answer_id": 31091860,
+      "body": "<p>Overriding <code>Object.init()</code> and <code>Object.init(_:)</code> are not yet supported in Realm Swift, but you can follow <a href=\"https://github.com/realm/realm-cocoa/issues/1849\" rel=\"noreferrer\">https://github.com/realm/realm-cocoa/issues/1849</a> for updates!</p>\n",
+      "owner": {
+        "display_name": "segiddins",
+        "link": "https://stackoverflow.com/users/1675979/segiddins"
+      }
+    },
+    {
+      "answer_id": 30616257,
+      "body": "<p>How about link query in documentation?\nThere is an example:</p>\n\n<pre><code>RealmResults&lt;ChatRealm&gt; contacts = realm.where(ChatRealm.class).equalTo(\"users.id\", \"some id\").findAll();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Valentin Blokhin",
+        "link": "https://stackoverflow.com/users/4340733/valentin-blokhin"
+      }
+    },
+    {
+      "answer_id": 30516724,
+      "body": "<p>You're looking for this:</p>\n\n<pre><code>let realm = Realm()\nlet deletedValue = \"two\"\nrealm.write {\n  let deletedNotifications = realm.objects(Notifications).filter(\"value == %@\", deletedValue)\n  realm.delete(deletedNotifications)\n}\n</code></pre>\n\n<p>or perhaps this:</p>\n\n<pre><code>let realm = Realm()\nlet serverValues = [\"one\", \"three\"]\nrealm.write {\n  realm.delete(realm.objects(Notifications)) // deletes all 'Notifications' objects from the realm\n  for value in serverValues {\n    let notification = Notifications()\n    notification.value = value\n    realm.add(notification)\n  }\n}\n</code></pre>\n\n<p>Although ideally, you'd be setting a primary key on <code>Notifications</code> so that you can simply update those existing objects rather than taking the extreme approach of nuking all your local objects simply to recreate them all (or almost).</p>\n",
+      "owner": {
+        "display_name": "jpsim",
+        "link": "https://stackoverflow.com/users/373262/jpsim"
+      }
+    },
+    {
+      "answer_id": 30290509,
+      "body": "<p>It is because your Template class doesn't have any primary key. In that case these objects are inserted again as there is no guarantee that the referenced template objects safely can be updated, even if they are part of another object that has a primary key.</p>\n\n<p>If you add a <code>@PrimaryKey</code> to your template class it should work as you expect it to.</p>\n",
+      "owner": {
+        "display_name": "Christian Melchior",
+        "link": "https://stackoverflow.com/users/1389357/christian-melchior"
+      }
+    },
+    {
+      "answer_id": 30005477,
+      "body": "<p>Based on @segiddins comment, I decided to go with moving the old database to the app group using NSFileManager: </p>\n\n<pre><code>    let fileManager = NSFileManager.defaultManager()\n\n    //Cache original realm path (documents directory)\n    let originalDefaultRealmPath = RLMRealm.defaultRealmPath()\n\n    //Generate new realm path based on app group \n    let appGroupURL: NSURL = fileManager.containerURLForSecurityApplicationGroupIdentifier(\"group.AppGroup\")!\n    let realmPath = appGroupURL.path!.stringByAppendingPathComponent(\"default.realm\")\n\n    //Moves the realm to the new location if it hasn't been done previously\n    if (fileManager.fileExistsAtPath(originalDefaultRealmPath) &amp;&amp; !fileManager.fileExistsAtPath(realmPath)) {\n\n        var error: NSError?\n        fileManager.moveItemAtPath(originalDefaultRealmPath, toPath: realmPath, error: &amp;error)\n\n        if (error != nil) {\n            println(error)\n        }\n    }\n\n    //Set the realm path to the new directory\n    RLMRealm.setDefaultRealmPath(realmPath)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Whoa",
+        "link": "https://stackoverflow.com/users/1299041/whoa"
+      }
+    },
+    {
+      "answer_id": 29954385,
+      "body": "<p>Alright, here is the full walkthrough:</p>\n\n<ol>\n<li>Install dependencies using Cocoapods and the <code>use_frameworks!</code> flag.</li>\n<li>As you need to use a Objective-C dependency, create a Bridging header. You can create one easily by importing an Objective-C class to your Swift project, than remove it (the wizard should ask you if need a bridging header). Otherwise, create a new header file. Then, navigate to your target configuration and enter the name of your file in <code>Swift Compiler - Code Generation</code> > <code>Objective-C Bridging header</code>.</li>\n<li>Still in your target configuration, add a new entry in <code>Search Paths</code> > <code>User Header Search Paths</code>: <code>Pods</code> as value and flag it as recursive.</li>\n<li>Remove any <code>import</code> instruction from your code, relative to your Objective-C library. </li>\n<li>Build your project. You should have a success.</li>\n</ol>\n",
+      "owner": {
+        "display_name": "Adrien Cadet",
+        "link": "https://stackoverflow.com/users/2669008/adrien-cadet"
+      }
+    },
+    {
+      "answer_id": 28749863,
+      "body": "<p>The error message \"<code>Expected a string but was NAME</code>\" can be solved by retrieving the name of the json object in the <code>JsonReader</code> before the actual json object (which is a <code>String</code> in your case). </p>\n\n<p>You can take a look at the <a href=\"http://developer.android.com/reference/android/util/JsonReader.html\" rel=\"noreferrer\">Android documentation for JsonReader</a>. It has detailed explanation and code snippet. You can also take a look at the <code>readMessage</code> method in the sample code snippet in the documentation.</p>\n\n<p>I have modified your <code>read</code> method to what I think it should be. <strong>NOTE:</strong> I didn't test the code, so there may be some minor errors in it.</p>\n\n<pre><code>@Override\npublic RealmPerson read(JsonReader in) throws IOException {\n    RealmPerson rList = new RealmPerson();\n    in.beginObject();\n    String name = \"\";\n    while (in.hasNext()) {\n        name = in.nextName();\n\n        if (name.equals(\"userId\")) {\n            String userId = in.nextString();\n            // update rList here \n        } else if (name.equals(\"otherStuff\")) {\n            // since otherStuff is a RealmList of RealmStrings,\n            // your json data would be an array\n            // You would need to loop through the array to retrieve \n            // the json objects\n            in.beginArray();\n            while (in.hasNext()) {\n                // begin each object in the array\n                in.beginObject();\n                name = in.nextName();\n                // the RealmString object has just one property called \"value\"\n                // (according to the code snippet in your question)\n                if (name.equals(\"val\")) {\n                    String val = in.nextString();\n                     // update rList here \n                } else {\n                    in.skipValue();\n                }\n                in.endObject();\n            }\n            in.endArray();\n        } else {\n            in.skipValue();\n        }\n    }\n    in.endObject();\n\n\n    return rList;\n}\n</code></pre>\n\n<p>Let me know if this helps.</p>\n",
+      "owner": {
+        "display_name": "ifeomaro",
+        "link": "https://stackoverflow.com/users/2688283/ifeomaro"
+      }
+    },
+    {
+      "answer_id": 28361096,
+      "body": "<p>U can do it like this:</p>\n\n<pre><code>Gson gson = new GsonBuilder()\n    .setExclusionStrategies(new ExclusionStrategy() {\n        @Override\n        public boolean shouldSkipField(FieldAttributes f) {\n            return f.getDeclaringClass().equals(RealmObject.class);\n        }\n\n        @Override\n        public boolean shouldSkipClass(Class&lt;?&gt; clazz) {\n            return false;\n        }\n    })\n    .create();\n</code></pre>\n\n<p><code>String json = \"{ name : 'John', email : 'john@corporation.com' }\";\nUser user = gson.fromJson(json, User.class);</code></p>\n\n<p><a href=\"http://realm.io/docs/java/0.77.0/#gson\" rel=\"noreferrer\">http://realm.io/docs/java/0.77.0/#gson</a></p>\n",
+      "owner": {
+        "display_name": "KillNono",
+        "link": "https://stackoverflow.com/users/1924667/killnono"
+      }
+    },
+    {
+      "answer_id": 26257616,
+      "body": "<p>Realm doesn't have auto increment behavior, so you'll need to manage that yourself. A question I'd encourage you to ask yourself about your data:</p>\n\n<p><strong>Is it necessary to have sequential, contiguous, integer ID's?</strong></p>\n\n<p>If not, then a unique string primary key might be sufficient. Then you can use something like <code>[[NSUUID UUID] UUIDString]</code> to generate unique string ID's. The nice thing about this is that these UUID's are more or less guaranteed to be unique, even in multithreaded scenarios.</p>\n\n<p>If so, it might be more efficient to always keep the last number in memory, so that queries aren't required every time a new ID should be generated. If objects might be created in multiple threads, make sure to make your <code>nextPrimaryKey()</code> function thread-safe, otherwise it might generate the same number twice (or more!).</p>\n",
+      "owner": {
+        "display_name": "jpsim",
+        "link": "https://stackoverflow.com/users/373262/jpsim"
+      }
+    },
+    {
+      "answer_id": 26256708,
+      "body": "<p>I tried replicating with a small model class (one String, one int) with no success.</p>\n\n<p>Do you use Links and/or LinkLists in your model? Can I take a look at it?</p>\n\n<p>One reason might be in the case you have for example a Person class that has a RealmListdogs field.\nWhen you delete all the elements of the Person type the Dogs are right now retained in the database.</p>\n\n<p>EDIT: After you provided the data I tried with a bit of dummy data:</p>\n\n<pre><code>Realm.deleteRealmFile(this);\nRealm realm = Realm.getInstance(this);\nFile realmFile = new File(this.getFilesDir(), \"default.realm\");\n\nlong tic = System.currentTimeMillis();\nfor (int i = 0; i &lt; 25; i++) {\n    for (int j = 0; j &lt; 100; j++) {\n        realm.beginTransaction();\n        TestObject testObject = realm.createObject(TestObject.class);\n        testObject.setApprovedBy(\"Approver_\" + j);\n        testObject.setAuthor(\"Author_\" + j);\n        testObject.setBannedBy(\"Banner_\" + j);\n        testObject.setClicked(j % 2 == 0);\n        testObject.setCommentCount(j);\n        testObject.setCreated(System.currentTimeMillis());\n        testObject.setCreatedUTC(j*7);\n        testObject.setEdited(j % 3 == 0);\n        realm.commitTransaction();\n    }\n    realm.beginTransaction();\n    realm.where(TestObject.class).findAll().clear();\n    realm.commitTransaction();\n    Log.i(TAG, \"Size: \" + realmFile.length());\n}\nlong toc = System.currentTimeMillis();\nLog.i(TAG, \"Time: \" + (toc - tic));\n</code></pre>\n\n<p>But I still cannot reproduce:</p>\n\n<pre><code>10-08 14:39:01.579  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 24576\n10-08 14:39:01.999  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 24576\n10-08 14:39:02.409  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 24576\n10-08 14:39:02.809  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 24576\n10-08 14:39:03.209  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 24576\n10-08 14:39:03.649  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:04.049  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:04.449  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:04.839  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:05.329  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:05.709  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:06.259  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:06.689  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:07.109  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:07.589  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:08.019  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:09.129  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:09.729  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:10.169  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:10.669  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:11.049  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:11.449  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:11.849  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:12.269  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Size: 49152\n10-08 14:39:12.269  29233-29233/myapp.realm.io.sizeleak I/REALMTEST﹕ Time: 11265\n</code></pre>\n\n<p>The size doubling is expected because of fragmentation, but I still see nothing that can suggest your experience.</p>\n\n<p>The timing is high because of the large number of transactions. Batching them together would increase performance considerably:</p>\n\n<pre><code>10-08 14:45:25.009  31593-31593/myapp.realm.io.sizeleak I/REALMTEST﹕ Time: 408\n</code></pre>\n",
+      "owner": {
+        "display_name": "Emanuelez",
+        "link": "https://stackoverflow.com/users/1213485/emanuelez"
+      }
+    },
+    {
+      "answer_id": 25670511,
+      "body": "<p><a href=\"http://realm.io/docs/cocoa/0.84.0/#background-operations\" rel=\"noreferrer\">From Realm docs</a>: <code>RLMRealm</code> objects are not thread safe and cannot be shared across threads, so you must get an <code>RLMRealm</code> instance in each thread/dispatch_queue in which you want to read or write.</p>\n\n<p><a href=\"http://realm.io/docs/cocoa/0.84.0/api/Classes/RLMRealm.html#//api/name/defaultRealm\" rel=\"noreferrer\">Also from Realm docs</a>: <code>RLMRealm</code> objects are cached internally by Realm, and calling this method multiple times on a single thread within a single iteration of the run loop will normally return the same <code>RLMRealm</code> object.</p>\n\n<p>So knowing this, I modified your code sample to get the <code>RLMRealm</code> directly from the <code>dispatch_async</code> block where it is used, without incurring a performance penalty, since it is cached.</p>\n\n<p>I also noticed that an <code>AccelerationEvent</code> was passed across threads, which is also not allowed. So this modified code sample passes <code>NSString</code>s across threads instead.</p>\n\n<pre><code>self.realmQueue = dispatch_queue_create(\"db\", DISPATCH_QUEUE_SERIAL);\n\nself.motionManager = [[CMMotionManager alloc] init];\nself.motionManager.accelerometerUpdateInterval = 0.001;\n__block int i = 0;\n__block BOOL shouldBeginWriteTransaction = YES;\n\n[self.motionManager startAccelerometerUpdatesToQueue:[[NSOperationQueue alloc] init] withHandler:^(CMAccelerometerData *accelerometerData, NSError *error) {\n\n    dispatch_async(self.realmQueue, ^{\n        RLMRealm *realm = [RLMRealm realmWithPath:[NSTemporaryDirectory() stringByAppendingPathComponent:@\"temp\"]];\n        if (shouldBeginWriteTransaction) {\n            [realm beginWriteTransaction];\n            shouldBeginWriteTransaction = NO;\n        }\n\n        AccelerationEvent *event = [[AccelerationEvent alloc] init];\n        event.x = accelerometerData.acceleration.x;\n        event.y = accelerometerData.acceleration.x;\n        event.z = accelerometerData.acceleration.y;\n        event.time = [NSDate date];\n        [realm addObject:event];\n\n        if (i % 1000) {\n            NSString *xString = [NSString stringWithFormat:@\"%f\", event.x];\n            NSString *yString = [NSString stringWithFormat:@\"%f\", event.y];\n            NSString *zString = [NSString stringWithFormat:@\"%f\", event.z];\n            dispatch_async(dispatch_get_main_queue(), ^{\n                self.xLabel.text = xString;\n                self.yLabel.text = yString;\n                self.zLabel.text = zString;\n            });\n        }\n\n        if (i % 10000 == 0) {\n            NSDate *startDate = [NSDate date];\n            [realm commitWriteTransaction];\n            NSLog(@\"save time: %f\", [[NSDate date] timeIntervalSinceDate:startDate]);\n            shouldBeginWriteTransaction = YES;\n        }\n\n        i++;\n    });\n}];\n</code></pre>\n\n<p>I haven't run this code to confirm that it works, so let me know if this still doesn't resolve the issue.</p>\n",
+      "owner": {
+        "display_name": "jpsim",
+        "link": "https://stackoverflow.com/users/373262/jpsim"
+      }
+    }
+  ]
+}

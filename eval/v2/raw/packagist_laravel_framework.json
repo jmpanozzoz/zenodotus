@@ -1,0 +1,1908 @@
+{
+  "library": "packagist:laravel/framework",
+  "fetched_at": "2026-11-21T17:28:23Z",
+  "questions": [
+    {
+      "question_id": 18236294,
+      "title": "How do I get the query builder to output its raw SQL query as a string?",
+      "accepted_answer_id": 18236656,
+      "score": 879,
+      "link": "https://stackoverflow.com/questions/18236294/how-do-i-get-the-query-builder-to-output-its-raw-sql-query-as-a-string",
+      "owner": {
+        "display_name": "meiryo",
+        "link": "https://stackoverflow.com/users/665518/meiryo"
+      }
+    },
+    {
+      "question_id": 23126562,
+      "title": "How can I remove a package from Laravel using PHP Composer?",
+      "accepted_answer_id": 27440198,
+      "score": 702,
+      "link": "https://stackoverflow.com/questions/23126562/how-can-i-remove-a-package-from-laravel-using-php-composer",
+      "owner": {
+        "display_name": "igaster",
+        "link": "https://stackoverflow.com/users/1680535/igaster"
+      }
+    },
+    {
+      "question_id": 28290332,
+      "title": "How to create custom helper functions in Laravel",
+      "accepted_answer_id": 28290359,
+      "score": 622,
+      "link": "https://stackoverflow.com/questions/28290332/how-to-create-custom-helper-functions-in-laravel",
+      "owner": {
+        "display_name": "Calebe Oliveira",
+        "link": "https://stackoverflow.com/users/1604223/calebe-oliveira"
+      }
+    },
+    {
+      "question_id": 19325312,
+      "title": "How to Create Multiple Where Clause Query Using Laravel Eloquent?",
+      "accepted_answer_id": 27522556,
+      "score": 597,
+      "link": "https://stackoverflow.com/questions/19325312/how-to-create-multiple-where-clause-query-using-laravel-eloquent",
+      "owner": {
+        "display_name": "veksen",
+        "link": "https://stackoverflow.com/users/1732521/veksen"
+      }
+    },
+    {
+      "question_id": 30287896,
+      "title": "Rollback one specific migration in Laravel",
+      "accepted_answer_id": 30288058,
+      "score": 534,
+      "link": "https://stackoverflow.com/questions/30287896/rollback-one-specific-migration-in-laravel",
+      "owner": {
+        "display_name": "code-8",
+        "link": "https://stackoverflow.com/users/4480164/code-8"
+      }
+    },
+    {
+      "question_id": 16791613,
+      "title": "Laravel Add a new column to existing table in a migration",
+      "accepted_answer_id": 16791988,
+      "score": 512,
+      "link": "https://stackoverflow.com/questions/16791613/laravel-add-a-new-column-to-existing-table-in-a-migration",
+      "owner": {
+        "display_name": "kim larsen",
+        "link": "https://stackoverflow.com/users/2079016/kim-larsen"
+      }
+    },
+    {
+      "question_id": 20723803,
+      "title": "PDOException SQLSTATE[HY000] [2002] No such file or directory",
+      "accepted_answer_id": 20733001,
+      "score": 479,
+      "link": "https://stackoverflow.com/questions/20723803/pdoexception-sqlstatehy000-2002-no-such-file-or-directory",
+      "owner": {
+        "display_name": "Daniel Hollands",
+        "link": "https://stackoverflow.com/users/1049688/daniel-hollands"
+      }
+    },
+    {
+      "question_id": 16830405,
+      "title": "Laravel requires the Mcrypt PHP extension",
+      "accepted_answer_id": 16832214,
+      "score": 460,
+      "link": "https://stackoverflow.com/questions/16830405/laravel-requires-the-mcrypt-php-extension",
+      "owner": {
+        "display_name": "Patrick Reck",
+        "link": "https://stackoverflow.com/users/1358522/patrick-reck"
+      }
+    },
+    {
+      "question_id": 44839648,
+      "title": "No Application Encryption Key Has Been Specified",
+      "accepted_answer_id": 44839664,
+      "score": 459,
+      "link": "https://stackoverflow.com/questions/44839648/no-application-encryption-key-has-been-specified",
+      "owner": {
+        "display_name": "Carlos F",
+        "link": "https://stackoverflow.com/users/5547502/carlos-f"
+      }
+    },
+    {
+      "question_id": 29253979,
+      "title": "Displaying HTML with Blade shows the HTML code",
+      "accepted_answer_id": 29254016,
+      "score": 438,
+      "link": "https://stackoverflow.com/questions/29253979/displaying-html-with-blade-shows-the-html-code",
+      "owner": {
+        "display_name": "lesssugar",
+        "link": "https://stackoverflow.com/users/2890610/lesssugar"
+      }
+    },
+    {
+      "question_id": 30639174,
+      "title": "How to set up file permissions for Laravel?",
+      "accepted_answer_id": 37266353,
+      "score": 437,
+      "link": "https://stackoverflow.com/questions/30639174/how-to-set-up-file-permissions-for-laravel",
+      "owner": {
+        "display_name": "Robo Robok",
+        "link": "https://stackoverflow.com/users/4403732/robo-robok"
+      }
+    },
+    {
+      "question_id": 16995102,
+      "title": "Laravel Eloquent Query: Using WHERE with OR AND OR?",
+      "accepted_answer_id": 16995151,
+      "score": 431,
+      "link": "https://stackoverflow.com/questions/16995102/laravel-eloquent-query-using-where-with-or-and-or",
+      "owner": {
+        "display_name": "Farzher",
+        "link": "https://stackoverflow.com/users/845280/farzher"
+      }
+    },
+    {
+      "question_id": 27095090,
+      "title": "Laravel Checking If a Record Exists",
+      "accepted_answer_id": 27095159,
+      "score": 414,
+      "link": "https://stackoverflow.com/questions/27095090/laravel-checking-if-a-record-exists",
+      "owner": {
+        "display_name": "Ben",
+        "link": "https://stackoverflow.com/users/1577959/ben"
+      }
+    },
+    {
+      "question_id": 21084833,
+      "title": "Get the Last Inserted Id Using Laravel Eloquent",
+      "accepted_answer_id": 21084888,
+      "score": 412,
+      "link": "https://stackoverflow.com/questions/21084833/get-the-last-inserted-id-using-laravel-eloquent",
+      "owner": {
+        "display_name": "SoldierCorp",
+        "link": "https://stackoverflow.com/users/1347435/soldiercorp"
+      }
+    },
+    {
+      "question_id": 30231862,
+      "title": "Laravel - Eloquent &quot;Has&quot;, &quot;With&quot;, &quot;WhereHas&quot; - What do they mean?",
+      "accepted_answer_id": 30232227,
+      "score": 407,
+      "link": "https://stackoverflow.com/questions/30231862/laravel-eloquent-has-with-wherehas-what-do-they-mean",
+      "owner": {
+        "display_name": "user4898812",
+        "link": null
+      }
+    },
+    {
+      "question_id": 34199982,
+      "title": "How can I query all the GraphQL type fields without writing a long query?",
+      "accepted_answer_id": 34226484,
+      "score": 392,
+      "link": "https://stackoverflow.com/questions/34199982/how-can-i-query-all-the-graphql-type-fields-without-writing-a-long-query",
+      "owner": {
+        "display_name": "BlackSigma",
+        "link": "https://stackoverflow.com/users/1334945/blacksigma"
+      }
+    },
+    {
+      "question_id": 13917558,
+      "title": "Laravel - Eloquent or Fluent random row",
+      "accepted_answer_id": 13931676,
+      "score": 385,
+      "link": "https://stackoverflow.com/questions/13917558/laravel-eloquent-or-fluent-random-row",
+      "owner": {
+        "display_name": "DigitalWM",
+        "link": "https://stackoverflow.com/users/470017/digitalwm"
+      }
+    },
+    {
+      "question_id": 31847054,
+      "title": "How to use multiple databases in Laravel",
+      "accepted_answer_id": 31847198,
+      "score": 372,
+      "link": "https://stackoverflow.com/questions/31847054/how-to-use-multiple-databases-in-laravel",
+      "owner": {
+        "display_name": "Chintan7027",
+        "link": "https://stackoverflow.com/users/1578380/chintan7027"
+      }
+    },
+    {
+      "question_id": 20563166,
+      "title": "Eloquent Collection: Counting and Detect Empty",
+      "accepted_answer_id": 20585483,
+      "score": 358,
+      "link": "https://stackoverflow.com/questions/20563166/eloquent-collection-counting-and-detect-empty",
+      "owner": {
+        "display_name": "bitinn",
+        "link": "https://stackoverflow.com/users/1677057/bitinn"
+      }
+    },
+    {
+      "question_id": 23411520,
+      "title": "How to fix Error: laravel.log could not be opened?",
+      "accepted_answer_id": 23415081,
+      "score": 356,
+      "link": "https://stackoverflow.com/questions/23411520/how-to-fix-error-laravel-log-could-not-be-opened",
+      "owner": {
+        "display_name": "frankelot",
+        "link": "https://stackoverflow.com/users/1949554/frankelot"
+      }
+    },
+    {
+      "question_id": 13002626,
+      "title": "How to Set Variables in a Laravel Blade Template",
+      "accepted_answer_id": 13019365,
+      "score": 354,
+      "link": "https://stackoverflow.com/questions/13002626/how-to-set-variables-in-a-laravel-blade-template",
+      "owner": {
+        "display_name": "duality_",
+        "link": "https://stackoverflow.com/users/291557/duality"
+      }
+    },
+    {
+      "question_id": 42244541,
+      "title": "Laravel Migration Error: Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes",
+      "accepted_answer_id": 42245921,
+      "score": 349,
+      "link": "https://stackoverflow.com/questions/42244541/laravel-migration-error-syntax-error-or-access-violation-1071-specified-key-wa",
+      "owner": {
+        "display_name": "imbakar",
+        "link": "https://stackoverflow.com/users/3046023/imbakar"
+      }
+    },
+    {
+      "question_id": 19852927,
+      "title": "Get Specific Columns Using “With()” Function in Laravel Eloquent",
+      "accepted_answer_id": 19921418,
+      "score": 347,
+      "link": "https://stackoverflow.com/questions/19852927/get-specific-columns-using-with-function-in-laravel-eloquent",
+      "owner": {
+        "display_name": "Awais Qarni",
+        "link": "https://stackoverflow.com/users/526367/awais-qarni"
+      }
+    },
+    {
+      "question_id": 63807930,
+      "title": "Error “Target class controller does not exist” when using Laravel 8",
+      "accepted_answer_id": 63808132,
+      "score": 345,
+      "link": "https://stackoverflow.com/questions/63807930/error-target-class-controller-does-not-exist-when-using-laravel-8",
+      "owner": {
+        "display_name": "Nguyễn Việt Dũng",
+        "link": "https://stackoverflow.com/users/14246652/nguy%e1%bb%85n-vi%e1%bb%87t-d%c5%a9ng"
+      }
+    },
+    {
+      "question_id": 43408604,
+      "title": "PHP7 : install ext-dom issue",
+      "accepted_answer_id": 43408658,
+      "score": 340,
+      "link": "https://stackoverflow.com/questions/43408604/php7-install-ext-dom-issue",
+      "owner": {
+        "display_name": "alex",
+        "link": "https://stackoverflow.com/users/4061644/alex"
+      }
+    },
+    {
+      "question_id": 17006309,
+      "title": "How to order a Laravel query builder result by multiple columns?",
+      "accepted_answer_id": 17006377,
+      "score": 334,
+      "link": "https://stackoverflow.com/questions/17006309/how-to-order-a-laravel-query-builder-result-by-multiple-columns",
+      "owner": {
+        "display_name": "Sophy",
+        "link": "https://stackoverflow.com/users/833394/sophy"
+      }
+    },
+    {
+      "question_id": 21281504,
+      "title": "How do you check &quot;if not null&quot; with Eloquent?",
+      "accepted_answer_id": 21281718,
+      "score": 334,
+      "link": "https://stackoverflow.com/questions/21281504/how-do-you-check-if-not-null-with-eloquent",
+      "owner": {
+        "display_name": "Marwelln",
+        "link": "https://stackoverflow.com/users/397195/marwelln"
+      }
+    },
+    {
+      "question_id": 37063685,
+      "title": "Facebook OAuth &quot;The domain of this URL isn&#39;t included in the app&#39;s domain&quot;",
+      "accepted_answer_id": 37075525,
+      "score": 334,
+      "link": "https://stackoverflow.com/questions/37063685/facebook-oauth-the-domain-of-this-url-isnt-included-in-the-apps-domain",
+      "owner": {
+        "display_name": "dangelsaurus",
+        "link": "https://stackoverflow.com/users/895810/dangelsaurus"
+      }
+    },
+    {
+      "question_id": 26143315,
+      "title": "Laravel 5 - artisan seed [ReflectionException] Class SongsTableSeeder does not exist",
+      "accepted_answer_id": 26144180,
+      "score": 330,
+      "link": "https://stackoverflow.com/questions/26143315/laravel-5-artisan-seed-reflectionexception-class-songstableseeder-does-not-e",
+      "owner": {
+        "display_name": "Sasha",
+        "link": "https://stackoverflow.com/users/934703/sasha"
+      }
+    },
+    {
+      "question_id": 30046691,
+      "title": "Laravel: How to Get Current Route Name? (v5 ... v7)",
+      "accepted_answer_id": 30052319,
+      "score": 327,
+      "link": "https://stackoverflow.com/questions/30046691/laravel-how-to-get-current-route-name-v5-v7",
+      "owner": {
+        "display_name": "Md Rashedul Hoque Bhuiyan",
+        "link": "https://stackoverflow.com/users/2775615/md-rashedul-hoque-bhuiyan"
+      }
+    },
+    {
+      "question_id": 59149877,
+      "title": "Visual Studio Code PHP Intelephense keeps showing a not existing error",
+      "accepted_answer_id": 59266972,
+      "score": 303,
+      "link": "https://stackoverflow.com/questions/59149877/visual-studio-code-php-intelephense-keeps-showing-a-not-existing-error",
+      "owner": {
+        "display_name": "Adrian Edy Pratama",
+        "link": "https://stackoverflow.com/users/12078001/adrian-edy-pratama"
+      }
+    },
+    {
+      "question_id": 28364496,
+      "title": "How to remove /public/ from a Laravel URL",
+      "accepted_answer_id": 28735930,
+      "score": 301,
+      "link": "https://stackoverflow.com/questions/28364496/how-to-remove-public-from-a-laravel-url",
+      "owner": {
+        "display_name": "user1537360",
+        "link": "https://stackoverflow.com/users/1537360/user1537360"
+      }
+    },
+    {
+      "question_id": 19937565,
+      "title": "Disable Laravel&#39;s Eloquent timestamps",
+      "accepted_answer_id": 19937699,
+      "score": 300,
+      "link": "https://stackoverflow.com/questions/19937565/disable-laravels-eloquent-timestamps",
+      "owner": {
+        "display_name": "mattcdev",
+        "link": "https://stackoverflow.com/users/566005/mattcdev"
+      }
+    },
+    {
+      "question_id": 17429427,
+      "title": "Laravel Eloquent: Ordering results of all()",
+      "accepted_answer_id": 17432174,
+      "score": 299,
+      "link": "https://stackoverflow.com/questions/17429427/laravel-eloquent-ordering-results-of-all",
+      "owner": {
+        "display_name": "MatterGoal",
+        "link": "https://stackoverflow.com/users/499990/mattergoal"
+      }
+    },
+    {
+      "question_id": 17232714,
+      "title": "Add a custom attribute to a Laravel / Eloquent model on load?",
+      "accepted_answer_id": 17250429,
+      "score": 290,
+      "link": "https://stackoverflow.com/questions/17232714/add-a-custom-attribute-to-a-laravel-eloquent-model-on-load",
+      "owner": {
+        "display_name": "coatesap",
+        "link": "https://stackoverflow.com/users/921476/coatesap"
+      }
+    },
+    {
+      "question_id": 38172857,
+      "title": "How to select specific columns in laravel eloquent",
+      "accepted_answer_id": 38172879,
+      "score": 285,
+      "link": "https://stackoverflow.com/questions/38172857/how-to-select-specific-columns-in-laravel-eloquent",
+      "owner": {
+        "display_name": "devnull Ψ",
+        "link": "https://stackoverflow.com/users/6056624/devnull-%ce%a8"
+      }
+    },
+    {
+      "question_id": 17553181,
+      "title": "Laravel 4: how to &quot;order by&quot; using Eloquent ORM",
+      "accepted_answer_id": 18289241,
+      "score": 279,
+      "link": "https://stackoverflow.com/questions/17553181/laravel-4-how-to-order-by-using-eloquent-orm",
+      "owner": {
+        "display_name": "Josh",
+        "link": "https://stackoverflow.com/users/2332251/josh"
+      }
+    },
+    {
+      "question_id": 16871413,
+      "title": "Safely remove migration In Laravel",
+      "accepted_answer_id": 17830269,
+      "score": 277,
+      "link": "https://stackoverflow.com/questions/16871413/safely-remove-migration-in-laravel",
+      "owner": {
+        "display_name": "Globalz",
+        "link": "https://stackoverflow.com/users/213435/globalz"
+      }
+    },
+    {
+      "question_id": 25373188,
+      "title": "How to place the ~/.composer/vendor/bin directory in your PATH?",
+      "accepted_answer_id": 25373254,
+      "score": 277,
+      "link": "https://stackoverflow.com/questions/25373188/how-to-place-the-composer-vendor-bin-directory-in-your-path",
+      "owner": {
+        "display_name": "which1ispink",
+        "link": "https://stackoverflow.com/users/2827463/which1ispink"
+      }
+    },
+    {
+      "question_id": 43187735,
+      "title": "Laravel - create model, controller and migration in single artisan command",
+      "accepted_answer_id": 43187825,
+      "score": 276,
+      "link": "https://stackoverflow.com/questions/43187735/laravel-create-model-controller-and-migration-in-single-artisan-command",
+      "owner": {
+        "display_name": "arun",
+        "link": "https://stackoverflow.com/users/2455896/arun"
+      }
+    },
+    {
+      "question_id": 16549455,
+      "title": "Select Last Row in the Table",
+      "accepted_answer_id": 16549612,
+      "score": 275,
+      "link": "https://stackoverflow.com/questions/16549455/select-last-row-in-the-table",
+      "owner": {
+        "display_name": "Carlos Su&#241;ol",
+        "link": "https://stackoverflow.com/users/2382812/carlos-su%c3%b1ol"
+      }
+    },
+    {
+      "question_id": 23059918,
+      "title": "Laravel: Get base URL",
+      "accepted_answer_id": 23060363,
+      "score": 275,
+      "link": "https://stackoverflow.com/questions/23059918/laravel-get-base-url",
+      "owner": {
+        "display_name": "Inigo",
+        "link": "https://stackoverflow.com/users/521392/inigo"
+      }
+    },
+    {
+      "question_id": 24868586,
+      "title": "What Are the Differences Between PSR-0 and PSR-4?",
+      "accepted_answer_id": 24869629,
+      "score": 271,
+      "link": "https://stackoverflow.com/questions/24868586/what-are-the-differences-between-psr-0-and-psr-4",
+      "owner": {
+        "display_name": "Varun Nath",
+        "link": "https://stackoverflow.com/users/1957448/varun-nath"
+      }
+    },
+    {
+      "question_id": 32368016,
+      "title": "How to comment in laravel .env file?",
+      "accepted_answer_id": 32368522,
+      "score": 266,
+      "link": "https://stackoverflow.com/questions/32368016/how-to-comment-in-laravel-env-file",
+      "owner": {
+        "display_name": "Akshay Khale",
+        "link": "https://stackoverflow.com/users/2541634/akshay-khale"
+      }
+    },
+    {
+      "question_id": 22615926,
+      "title": "Migration: Cannot add foreign key constraint",
+      "accepted_answer_id": 22616100,
+      "score": 257,
+      "link": "https://stackoverflow.com/questions/22615926/migration-cannot-add-foreign-key-constraint",
+      "owner": {
+        "display_name": "user0129e021939232",
+        "link": "https://stackoverflow.com/users/1165028/user0129e021939232"
+      }
+    },
+    {
+      "question_id": 33361628,
+      "title": "How to query between two dates using Laravel and Eloquent?",
+      "accepted_answer_id": 33361741,
+      "score": 256,
+      "link": "https://stackoverflow.com/questions/33361628/how-to-query-between-two-dates-using-laravel-and-eloquent",
+      "owner": {
+        "display_name": "wobsoriano",
+        "link": "https://stackoverflow.com/users/4698790/wobsoriano"
+      }
+    },
+    {
+      "question_id": 26376516,
+      "title": "Laravel PHP command not found",
+      "accepted_answer_id": 26376773,
+      "score": 255,
+      "link": "https://stackoverflow.com/questions/26376516/laravel-php-command-not-found",
+      "owner": {
+        "display_name": "chemitaxis",
+        "link": "https://stackoverflow.com/users/1147273/chemitaxis"
+      }
+    },
+    {
+      "question_id": 28277955,
+      "title": "Laravel Unknown Column &#39;updated_at&#39;",
+      "accepted_answer_id": 28277980,
+      "score": 251,
+      "link": "https://stackoverflow.com/questions/28277955/laravel-unknown-column-updated-at",
+      "owner": {
+        "display_name": "Loko",
+        "link": "https://stackoverflow.com/users/2459641/loko"
+      }
+    },
+    {
+      "question_id": 12702812,
+      "title": "Bulk Insertion in Laravel using eloquent ORM",
+      "accepted_answer_id": 13595393,
+      "score": 246,
+      "link": "https://stackoverflow.com/questions/12702812/bulk-insertion-in-laravel-using-eloquent-orm",
+      "owner": {
+        "display_name": "phoenixwizard",
+        "link": "https://stackoverflow.com/users/600516/phoenixwizard"
+      }
+    },
+    {
+      "question_id": 30365169,
+      "title": "Access Controller method from another controller in Laravel 5",
+      "accepted_answer_id": 30365349,
+      "score": 244,
+      "link": "https://stackoverflow.com/questions/30365169/access-controller-method-from-another-controller-in-laravel-5",
+      "owner": {
+        "display_name": "Iftakharul Alam",
+        "link": "https://stackoverflow.com/users/4555551/iftakharul-alam"
+      }
+    },
+    {
+      "question_id": 19838978,
+      "title": "Laravel Redirect Back with() Message",
+      "accepted_answer_id": 19839060,
+      "score": 235,
+      "link": "https://stackoverflow.com/questions/19838978/laravel-redirect-back-with-message",
+      "owner": {
+        "display_name": "M T",
+        "link": "https://stackoverflow.com/users/1100306/m-t"
+      }
+    },
+    {
+      "question_id": 25849015,
+      "title": "Laravel Eloquent &quot;WHERE NOT IN&quot;",
+      "accepted_answer_id": 25850237,
+      "score": 234,
+      "link": "https://stackoverflow.com/questions/25849015/laravel-eloquent-where-not-in",
+      "owner": {
+        "display_name": "Nur Uddin",
+        "link": "https://stackoverflow.com/users/3978697/nur-uddin"
+      }
+    },
+    {
+      "question_id": 22279435,
+      "title": "What does &quot;Mass Assignment&quot; mean in Laravel?",
+      "accepted_answer_id": 22279580,
+      "score": 231,
+      "link": "https://stackoverflow.com/questions/22279435/what-does-mass-assignment-mean-in-laravel",
+      "owner": {
+        "display_name": "Chen-Tsu Lin",
+        "link": "https://stackoverflow.com/users/3012290/chen-tsu-lin"
+      }
+    },
+    {
+      "question_id": 29723865,
+      "title": "How to insert multiple rows from a single query using eloquent/fluent",
+      "accepted_answer_id": 29723968,
+      "score": 231,
+      "link": "https://stackoverflow.com/questions/29723865/how-to-insert-multiple-rows-from-a-single-query-using-eloquent-fluent",
+      "owner": {
+        "display_name": "Billy",
+        "link": "https://stackoverflow.com/users/3653950/billy"
+      }
+    },
+    {
+      "question_id": 47151886,
+      "title": "How can I run specific migration in laravel",
+      "accepted_answer_id": 47152006,
+      "score": 231,
+      "link": "https://stackoverflow.com/questions/47151886/how-can-i-run-specific-migration-in-laravel",
+      "owner": {
+        "display_name": "Keval Mangukiya",
+        "link": "https://stackoverflow.com/users/8529018/keval-mangukiya"
+      }
+    },
+    {
+      "question_id": 15484404,
+      "title": "How to delete all the rows in a table using Eloquent?",
+      "accepted_answer_id": 15489907,
+      "score": 227,
+      "link": "https://stackoverflow.com/questions/15484404/how-to-delete-all-the-rows-in-a-table-using-eloquent",
+      "owner": {
+        "display_name": "Pete",
+        "link": "https://stackoverflow.com/users/1809762/pete"
+      }
+    },
+    {
+      "question_id": 14174070,
+      "title": "Automatically deleting related rows in Laravel (Eloquent ORM)",
+      "accepted_answer_id": 20108037,
+      "score": 226,
+      "link": "https://stackoverflow.com/questions/14174070/automatically-deleting-related-rows-in-laravel-eloquent-orm",
+      "owner": {
+        "display_name": "Martti Laine",
+        "link": "https://stackoverflow.com/users/239527/martti-laine"
+      }
+    },
+    {
+      "question_id": 17990820,
+      "title": "Set port for php artisan.php serve",
+      "accepted_answer_id": 19944781,
+      "score": 224,
+      "link": "https://stackoverflow.com/questions/17990820/set-port-for-php-artisan-php-serve",
+      "owner": {
+        "display_name": "maan81",
+        "link": "https://stackoverflow.com/users/896561/maan81"
+      }
+    },
+    {
+      "question_id": 15389833,
+      "title": "Laravel redirect back to original destination after login",
+      "accepted_answer_id": 15393229,
+      "score": 223,
+      "link": "https://stackoverflow.com/questions/15389833/laravel-redirect-back-to-original-destination-after-login",
+      "owner": {
+        "display_name": "JOV",
+        "link": "https://stackoverflow.com/users/1143524/jov"
+      }
+    },
+    {
+      "question_id": 30191330,
+      "title": "Laravel 5 - How to access image uploaded in storage within View?",
+      "accepted_answer_id": 30191854,
+      "score": 217,
+      "link": "https://stackoverflow.com/questions/30191330/laravel-5-how-to-access-image-uploaded-in-storage-within-view",
+      "owner": {
+        "display_name": "Tade&#225;š J&#237;lek",
+        "link": "https://stackoverflow.com/users/4591381/tade%c3%a1%c5%a1-j%c3%adlek"
+      }
+    },
+    {
+      "question_id": 22355828,
+      "title": "Doing HTTP requests FROM Laravel to an external API",
+      "accepted_answer_id": 28281787,
+      "score": 212,
+      "link": "https://stackoverflow.com/questions/22355828/doing-http-requests-from-laravel-to-an-external-api",
+      "owner": {
+        "display_name": "Chilion",
+        "link": "https://stackoverflow.com/users/1545292/chilion"
+      }
+    },
+    {
+      "question_id": 14013832,
+      "title": "Make column not nullable in a Laravel migration",
+      "accepted_answer_id": 14015888,
+      "score": 211,
+      "link": "https://stackoverflow.com/questions/14013832/make-column-not-nullable-in-a-laravel-migration",
+      "owner": {
+        "display_name": "bilalq",
+        "link": "https://stackoverflow.com/users/1220479/bilalq"
+      }
+    },
+    {
+      "question_id": 32738763,
+      "title": "Laravel csrf token mismatch for ajax POST Request",
+      "accepted_answer_id": 32738930,
+      "score": 211,
+      "link": "https://stackoverflow.com/questions/32738763/laravel-csrf-token-mismatch-for-ajax-post-request",
+      "owner": {
+        "display_name": "Ashish Singh",
+        "link": "https://stackoverflow.com/users/5292942/ashish-singh"
+      }
+    },
+    {
+      "question_id": 42258185,
+      "title": "How to validate array in Laravel?",
+      "accepted_answer_id": 42258677,
+      "score": 211,
+      "link": "https://stackoverflow.com/questions/42258185/how-to-validate-array-in-laravel",
+      "owner": {
+        "display_name": "Darama",
+        "link": "https://stackoverflow.com/users/7505394/darama"
+      }
+    },
+    {
+      "question_id": 17713730,
+      "title": "How to alias a table in Laravel Eloquent queries (or using Query Builder)?",
+      "accepted_answer_id": 17713900,
+      "score": 208,
+      "link": "https://stackoverflow.com/questions/17713730/how-to-alias-a-table-in-laravel-eloquent-queries-or-using-query-builder",
+      "owner": {
+        "display_name": "prograhammer",
+        "link": "https://stackoverflow.com/users/1110941/prograhammer"
+      }
+    },
+    {
+      "question_id": 29152102,
+      "title": "Laravel 5 Clear Views Cache",
+      "accepted_answer_id": 31619817,
+      "score": 208,
+      "link": "https://stackoverflow.com/questions/29152102/laravel-5-clear-views-cache",
+      "owner": {
+        "display_name": "basagabi",
+        "link": "https://stackoverflow.com/users/1781041/basagabi"
+      }
+    },
+    {
+      "question_id": 20274082,
+      "title": "What are the Differences Between &quot;php artisan dump-autoload&quot; and &quot;composer dump-autoload&quot;?",
+      "accepted_answer_id": 20274231,
+      "score": 207,
+      "link": "https://stackoverflow.com/questions/20274082/what-are-the-differences-between-php-artisan-dump-autoload-and-composer-dump",
+      "owner": {
+        "display_name": "Naing Lin Aung",
+        "link": "https://stackoverflow.com/users/706939/naing-lin-aung"
+      }
+    },
+    {
+      "question_id": 27753868,
+      "title": "How to Get the Query Executed in Laravel 5? DB::getQueryLog() Returning Empty Array",
+      "accepted_answer_id": 27753889,
+      "score": 207,
+      "link": "https://stackoverflow.com/questions/27753868/how-to-get-the-query-executed-in-laravel-5-dbgetquerylog-returning-empty-ar",
+      "owner": {
+        "display_name": "Arsen",
+        "link": "https://stackoverflow.com/users/4396853/arsen"
+      }
+    },
+    {
+      "question_id": 23910553,
+      "title": "Laravel Check If Related Model Exists",
+      "accepted_answer_id": 23911985,
+      "score": 203,
+      "link": "https://stackoverflow.com/questions/23910553/laravel-check-if-related-model-exists",
+      "owner": {
+        "display_name": "Tom Macdonald",
+        "link": "https://stackoverflow.com/users/326154/tom-macdonald"
+      }
+    },
+    {
+      "question_id": 18143061,
+      "title": "Laravel orderBy on a relationship",
+      "accepted_answer_id": 18143469,
+      "score": 201,
+      "link": "https://stackoverflow.com/questions/18143061/laravel-orderby-on-a-relationship",
+      "owner": {
+        "display_name": "PrestonDocks",
+        "link": "https://stackoverflow.com/users/501827/prestondocks"
+      }
+    },
+    {
+      "question_id": 18533080,
+      "title": "Laravel Eloquent groupBy() AND also return count of each group",
+      "accepted_answer_id": 18533772,
+      "score": 197,
+      "link": "https://stackoverflow.com/questions/18533080/laravel-eloquent-groupby-and-also-return-count-of-each-group",
+      "owner": {
+        "display_name": "kJamesy",
+        "link": "https://stackoverflow.com/users/1817899/kjamesy"
+      }
+    },
+    {
+      "question_id": 29647960,
+      "title": "Differences and Similarities Between Lumen and Laravel",
+      "accepted_answer_id": 29648574,
+      "score": 197,
+      "link": "https://stackoverflow.com/questions/29647960/differences-and-similarities-between-lumen-and-laravel",
+      "owner": {
+        "display_name": "Ranjeet Karki",
+        "link": "https://stackoverflow.com/users/3960129/ranjeet-karki"
+      }
+    },
+    {
+      "question_id": 18116261,
+      "title": "PHP Composer update &quot;cannot allocate memory&quot; error (using Laravel 4)",
+      "accepted_answer_id": 19179397,
+      "score": 195,
+      "link": "https://stackoverflow.com/questions/18116261/php-composer-update-cannot-allocate-memory-error-using-laravel-4",
+      "owner": {
+        "display_name": "ericbae",
+        "link": "https://stackoverflow.com/users/181557/ericbae"
+      }
+    },
+    {
+      "question_id": 28256933,
+      "title": "Eloquent - where not equal to",
+      "accepted_answer_id": 28256951,
+      "score": 194,
+      "link": "https://stackoverflow.com/questions/28256933/eloquent-where-not-equal-to",
+      "owner": {
+        "display_name": "aBhijit",
+        "link": "https://stackoverflow.com/users/2455401/abhijit"
+      }
+    },
+    {
+      "question_id": 46466167,
+      "title": "Laravel 5.5 ajax call 419 (unknown status)",
+      "accepted_answer_id": 46466616,
+      "score": 193,
+      "link": "https://stackoverflow.com/questions/46466167/laravel-5-5-ajax-call-419-unknown-status",
+      "owner": {
+        "display_name": "Chris",
+        "link": "https://stackoverflow.com/users/8639310/chris"
+      }
+    },
+    {
+      "question_id": 18839941,
+      "title": "Creating and Update Laravel Eloquent",
+      "accepted_answer_id": 21009418,
+      "score": 191,
+      "link": "https://stackoverflow.com/questions/18839941/creating-and-update-laravel-eloquent",
+      "owner": {
+        "display_name": "1myb",
+        "link": "https://stackoverflow.com/users/235119/1myb"
+      }
+    },
+    {
+      "question_id": 23505875,
+      "title": "Laravel - Route::resource vs Route::controller",
+      "accepted_answer_id": 23506685,
+      "score": 191,
+      "link": "https://stackoverflow.com/questions/23505875/laravel-routeresource-vs-routecontroller",
+      "owner": {
+        "display_name": "Sonique",
+        "link": "https://stackoverflow.com/users/1726507/sonique"
+      }
+    },
+    {
+      "question_id": 33027047,
+      "title": "What is the difference between find(), findOrFail(), first(), firstOrFail(), get(), list(), toArray()",
+      "accepted_answer_id": 33027466,
+      "score": 191,
+      "link": "https://stackoverflow.com/questions/33027047/what-is-the-difference-between-find-findorfail-first-firstorfail-get",
+      "owner": {
+        "display_name": "Halnex",
+        "link": "https://stackoverflow.com/users/3479566/halnex"
+      }
+    },
+    {
+      "question_id": 34420761,
+      "title": "Laravel not reading changes to .env file",
+      "accepted_answer_id": 35966973,
+      "score": 190,
+      "link": "https://stackoverflow.com/questions/34420761/laravel-not-reading-changes-to-env-file",
+      "owner": {
+        "display_name": "andrewtweber",
+        "link": "https://stackoverflow.com/users/704803/andrewtweber"
+      }
+    },
+    {
+      "question_id": 20667761,
+      "title": "Composer killed while updating",
+      "accepted_answer_id": 20699258,
+      "score": 189,
+      "link": "https://stackoverflow.com/questions/20667761/composer-killed-while-updating",
+      "owner": {
+        "display_name": "cherrycoding",
+        "link": "https://stackoverflow.com/users/3038158/cherrycoding"
+      }
+    },
+    {
+      "question_id": 14536165,
+      "title": "Get the Query Executed in Laravel 3/4",
+      "accepted_answer_id": 14536215,
+      "score": 188,
+      "link": "https://stackoverflow.com/questions/14536165/get-the-query-executed-in-laravel-3-4",
+      "owner": {
+        "display_name": "Patrick Maciel",
+        "link": "https://stackoverflow.com/users/791668/patrick-maciel"
+      }
+    },
+    {
+      "question_id": 23786359,
+      "title": "Laravel migration: unique key is too long, even if specified",
+      "accepted_answer_id": 23786522,
+      "score": 188,
+      "link": "https://stackoverflow.com/questions/23786359/laravel-migration-unique-key-is-too-long-even-if-specified",
+      "owner": {
+        "display_name": "harryg",
+        "link": "https://stackoverflow.com/users/1606323/harryg"
+      }
+    },
+    {
+      "question_id": 33268683,
+      "title": "How to get client IP address in Laravel 5+",
+      "accepted_answer_id": 33268732,
+      "score": 188,
+      "link": "https://stackoverflow.com/questions/33268683/how-to-get-client-ip-address-in-laravel-5",
+      "owner": {
+        "display_name": "Amrinder Singh",
+        "link": "https://stackoverflow.com/users/3164751/amrinder-singh"
+      }
+    },
+    {
+      "question_id": 16815551,
+      "title": "How to do this in Laravel, subquery where in",
+      "accepted_answer_id": 19923153,
+      "score": 187,
+      "link": "https://stackoverflow.com/questions/16815551/how-to-do-this-in-laravel-subquery-where-in",
+      "owner": {
+        "display_name": "Marc Buurke",
+        "link": "https://stackoverflow.com/users/1668120/marc-buurke"
+      }
+    },
+    {
+      "question_id": 29183348,
+      "title": "How to disable registration new users in Laravel",
+      "accepted_answer_id": 29183435,
+      "score": 184,
+      "link": "https://stackoverflow.com/questions/29183348/how-to-disable-registration-new-users-in-laravel",
+      "owner": {
+        "display_name": "Milad Rahimi",
+        "link": "https://stackoverflow.com/users/3719087/milad-rahimi"
+      }
+    },
+    {
+      "question_id": 61177995,
+      "title": "Laravel PackageManifest.php: Undefined index: name",
+      "accepted_answer_id": 64663892,
+      "score": 183,
+      "link": "https://stackoverflow.com/questions/61177995/laravel-packagemanifest-php-undefined-index-name",
+      "owner": {
+        "display_name": "arety_",
+        "link": "https://stackoverflow.com/users/11499307/arety"
+      }
+    },
+    {
+      "question_id": 29756194,
+      "title": "Access denied for user &#39;homestead&#39;@&#39;localhost&#39; (using password: YES)",
+      "accepted_answer_id": 29772274,
+      "score": 181,
+      "link": "https://stackoverflow.com/questions/29756194/access-denied-for-user-homesteadlocalhost-using-password-yes",
+      "owner": {
+        "display_name": "code-8",
+        "link": "https://stackoverflow.com/users/4480164/code-8"
+      }
+    },
+    {
+      "question_id": 34449770,
+      "title": "Laravel - Session store not set on request",
+      "accepted_answer_id": 34454031,
+      "score": 181,
+      "link": "https://stackoverflow.com/questions/34449770/laravel-session-store-not-set-on-request",
+      "owner": {
+        "display_name": "mattrick",
+        "link": "https://stackoverflow.com/users/3483261/mattrick"
+      }
+    },
+    {
+      "question_id": 20869072,
+      "title": "Laravel Schema onDelete set null",
+      "accepted_answer_id": 25765839,
+      "score": 180,
+      "link": "https://stackoverflow.com/questions/20869072/laravel-schema-ondelete-set-null",
+      "owner": {
+        "display_name": "M K",
+        "link": "https://stackoverflow.com/users/1734033/m-k"
+      }
+    },
+    {
+      "question_id": 34614753,
+      "title": "Can Anyone Explain Laravel 5.2 Multi Auth with Example",
+      "accepted_answer_id": 34783443,
+      "score": 178,
+      "link": "https://stackoverflow.com/questions/34614753/can-anyone-explain-laravel-5-2-multi-auth-with-example",
+      "owner": {
+        "display_name": "imrealashu",
+        "link": "https://stackoverflow.com/users/3210356/imrealashu"
+      }
+    },
+    {
+      "question_id": 29318709,
+      "title": "How can I resolve &quot;Your requirements could not be resolved to an installable set of packages&quot; error?",
+      "accepted_answer_id": 29324823,
+      "score": 177,
+      "link": "https://stackoverflow.com/questions/29318709/how-can-i-resolve-your-requirements-could-not-be-resolved-to-an-installable-set",
+      "owner": {
+        "display_name": "code-8",
+        "link": "https://stackoverflow.com/users/4480164/code-8"
+      }
+    },
+    {
+      "question_id": 16661292,
+      "title": "Add new methods to a resource controller in Laravel",
+      "accepted_answer_id": 16661375,
+      "score": 175,
+      "link": "https://stackoverflow.com/questions/16661292/add-new-methods-to-a-resource-controller-in-laravel",
+      "owner": {
+        "display_name": "user2403824",
+        "link": "https://stackoverflow.com/users/2403824/user2403824"
+      }
+    },
+    {
+      "question_id": 12736120,
+      "title": "Populating a database in a Laravel migration file",
+      "accepted_answer_id": 12736221,
+      "score": 173,
+      "link": "https://stackoverflow.com/questions/12736120/populating-a-database-in-a-laravel-migration-file",
+      "owner": {
+        "display_name": "Adam Hopkinson",
+        "link": "https://stackoverflow.com/users/12280/adam-hopkinson"
+      }
+    },
+    {
+      "question_id": 21679678,
+      "title": "Laravel Eloquent Sum of relation&#39;s column",
+      "accepted_answer_id": 21680118,
+      "score": 172,
+      "link": "https://stackoverflow.com/questions/21679678/laravel-eloquent-sum-of-relations-column",
+      "owner": {
+        "display_name": "Admiral",
+        "link": "https://stackoverflow.com/users/909999/admiral"
+      }
+    },
+    {
+      "question_id": 45473624,
+      "title": "Laravel Migrate Specific File(s) from Migrations",
+      "accepted_answer_id": 45476287,
+      "score": 172,
+      "link": "https://stackoverflow.com/questions/45473624/laravel-migrate-specific-files-from-migrations",
+      "owner": {
+        "display_name": "Martney Acha",
+        "link": "https://stackoverflow.com/users/2519696/martney-acha"
+      }
+    },
+    {
+      "question_id": 52231248,
+      "title": "Laravel showing &quot;Failed to clear cache. Make sure you have the appropriate permissions&quot;",
+      "accepted_answer_id": 52330607,
+      "score": 172,
+      "link": "https://stackoverflow.com/questions/52231248/laravel-showing-failed-to-clear-cache-make-sure-you-have-the-appropriate-permi",
+      "owner": {
+        "display_name": "E.Akio",
+        "link": "https://stackoverflow.com/users/10287345/e-akio"
+      }
+    },
+    {
+      "question_id": 37107903,
+      "title": "In Laravel is there a way to add values to a request array?",
+      "accepted_answer_id": 37108149,
+      "score": 171,
+      "link": "https://stackoverflow.com/questions/37107903/in-laravel-is-there-a-way-to-add-values-to-a-request-array",
+      "owner": {
+        "display_name": "Vijayanand Premnath",
+        "link": "https://stackoverflow.com/users/1578940/vijayanand-premnath"
+      }
+    },
+    {
+      "question_id": 40917189,
+      "title": "Laravel : Syntax error or access violation: 1055 Error",
+      "accepted_answer_id": 44984930,
+      "score": 171,
+      "link": "https://stackoverflow.com/questions/40917189/laravel-syntax-error-or-access-violation-1055-error",
+      "owner": {
+        "display_name": "Karthikvijayaveni",
+        "link": "https://stackoverflow.com/users/5829419/karthikvijayaveni"
+      }
+    },
+    {
+      "question_id": 29989908,
+      "title": "Laravel where on relationship object",
+      "accepted_answer_id": 29990340,
+      "score": 169,
+      "link": "https://stackoverflow.com/questions/29989908/laravel-where-on-relationship-object",
+      "owner": {
+        "display_name": "Lic",
+        "link": "https://stackoverflow.com/users/1344094/lic"
+      }
+    },
+    {
+      "question_id": 31455829,
+      "title": "Laravel 5 – Clear Cache in Shared Hosting Server",
+      "accepted_answer_id": 31455977,
+      "score": 169,
+      "link": "https://stackoverflow.com/questions/31455829/laravel-5-clear-cache-in-shared-hosting-server",
+      "owner": {
+        "display_name": "Duke",
+        "link": "https://stackoverflow.com/users/510754/duke"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 43408658,
+      "body": "<p>First of all, read the warning! It says do <strong>not</strong> run composer as <strong>root</strong>!\nSecondly, you're probably using Xampp on your local which has the required PHP libraries as default.</p>\n<p>But in your server you're missing <code>ext-dom</code>. <code>php-xml</code> has all the related packages you need. So, you can simply install it by running:</p>\n<pre><code>sudo apt-get update\nsudo apt install php-xml\n</code></pre>\n<p>Most likely you are missing <code>mbstring</code> too. If you get the error, install this package as well with:</p>\n<pre><code>sudo apt-get install php-mbstring\n</code></pre>\n<p>Then run:</p>\n<pre><code>composer update\ncomposer require cviebrock/eloquent-sluggable\n</code></pre>\n",
+      "owner": {
+        "display_name": "Anar Bayramov",
+        "link": "https://stackoverflow.com/users/1408868/anar-bayramov"
+      }
+    },
+    {
+      "answer_id": 19921418,
+      "body": "<p>This can be done one by passing a <code>closure</code> function in <code>with()</code> as second index of array</p>\n<pre class=\"lang-php prettyprint-override\"><code>Post::query()\n    -&gt;with(['user' =&gt; function ($query) {\n        $query-&gt;select('id', 'username');\n    }])\n    -&gt;get()\n</code></pre>\n<p>It will only select <code>id</code> and <code>username</code> from the other table.</p>\n<hr />\n<p><em>Remember that the <strong>primary key (id in this case) needs to be the first param</strong> in the\n<code>$query-&gt;select()</code> to actually retrieve the necessary results.</em></p>\n",
+      "owner": {
+        "display_name": "Awais Qarni",
+        "link": "https://stackoverflow.com/users/526367/awais-qarni"
+      }
+    },
+    {
+      "answer_id": 28290359,
+      "body": "<p>Create a <code>helpers.php</code> file in your app folder and load it up with composer:</p>\n<pre><code>&quot;autoload&quot;: {\n    &quot;classmap&quot;: [\n        ...\n    ],\n    &quot;psr-4&quot;: {\n        &quot;App\\\\&quot;: &quot;app/&quot;\n    },\n    &quot;files&quot;: [\n        &quot;app/helpers.php&quot; // &lt;---- ADD THIS\n    ]\n},\n</code></pre>\n<p>After adding that to your <code>composer.json</code> file, run the following command:</p>\n<pre><code>composer dump-autoload\n</code></pre>\n<hr />\n<p>If you don't like keeping your <code>helpers.php</code> file in your <code>app</code> directory (because it's not a PSR-4 namespaced class file), you can do what the <code>laravel.com</code> website does: store the <code>helpers.php</code> <a href=\"https://github.com/laravel/laravel.com/blob/8d197f1c8f9a6968519e96778d8ed9976fb49590/bootstrap/helpers.php\" rel=\"noreferrer\">in the bootstrap directory</a>. Remember to set it in your <code>composer.json</code> file:</p>\n<pre><code>&quot;files&quot;: [\n    &quot;bootstrap/helpers.php&quot;\n]\n</code></pre>\n<p>Example:</p>\n<p>Create <code>helpers.php</code> in the app directory with name <code>app/helpers.php</code>:</p>\n<pre class=\"lang-php prettyprint-override\"><code>&lt;?php\n    \nif (!function_exists('testHelperFunction')) {\n    function testHelperFunction()\n    {\n        return &quot;Hello, World!&quot;;\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Joseph Silber",
+        "link": "https://stackoverflow.com/users/825568/joseph-silber"
+      }
+    },
+    {
+      "answer_id": 27440198,
+      "body": "<h2>Composer 1.x and 2.x</h2>\n<p>Running the following command will remove the package from vendor (or wherever you install packages), <em>composer.json</em> and <em>composer.lock</em>. Change vendor/package appropriately.</p>\n<pre><code>composer remove vendor/package\n</code></pre>\n<p>Obviously you'll need to remove references to that package within your app.</p>\n<p>I'm currently running the following version of Composer:</p>\n<pre><code>Composer version 1.0-dev (7b13507dd4d3b93578af7d83fbf8be0ca686f4b5) 2014-12-11 21:52:29\n</code></pre>\n<h2>Documentation</h2>\n<p><a href=\"https://getcomposer.org/doc/03-cli.md#remove-rm-uninstall\" rel=\"noreferrer\">https://getcomposer.org/doc/03-cli.md#remove-rm-uninstall</a></p>\n<h3>Updates</h3>\n<ul>\n<li>18/10/2024 - Updated URL to <code>remove-rm-uninstall</code> documentation</li>\n<li>27/12/2023 - Fixed URL to <code>remove-rm</code> documentation</li>\n<li>26/10/2020 - Updated answer to assert command works for v1.x and v2.x of Composer</li>\n</ul>\n",
+      "owner": {
+        "display_name": "steadweb",
+        "link": "https://stackoverflow.com/users/1050507/steadweb"
+      }
+    },
+    {
+      "answer_id": 44839664,
+      "body": "<p>From <a href=\"https://laravel.com/docs/7.x/encryption#configuration\" rel=\"noreferrer\">Encryption - Laravel - The PHP Framework For Web Artisans</a>:</p>\n<blockquote>\n<p>Before using Laravel's encrypter, you must set a key option in your\nconfig/app.php configuration file. You should use the\n<code>php artisan key:generate</code> command to generate this key</p>\n</blockquote>\n<p>I found it using this query in google.com:\n<code>&quot;laravel add encrption key&quot;</code> (Yes, it worked even with the typo!)</p>\n<p>Note that if the <code>.env</code> file contains the key but you are still getting an application key error, then run <code>php artisan config:cache</code> to clear and reset the config.</p>\n",
+      "owner": {
+        "display_name": "Amarnasan",
+        "link": "https://stackoverflow.com/users/1398445/amarnasan"
+      }
+    },
+    {
+      "answer_id": 31455977,
+      "body": "<p>You can call an Artisan command outside the CLI.</p>\n<pre><code>Route::get('/clear-cache', function() {\n    $exitCode = Artisan::call('optimize:clear');\n    // return what you want\n});\n</code></pre>\n<p>You can check the official doc here\n<a href=\"http://laravel.com/docs/5.0/artisan#calling-commands-outside-of-cli\" rel=\"noreferrer\">http://laravel.com/docs/5.0/artisan#calling-commands-outside-of-cli</a></p>\n<p>Note the <em>application cache</em> is stored in the <code>storage/framework/cache</code> directory, but only if you configured the <code>file</code> driver in <code>config/cache.php</code>. You can choose many different drivers, such as <em>Redis</em> or <em>Memcached</em>, to improve performances over a file-based cache.</p>\n",
+      "owner": {
+        "display_name": "Marco Pallante",
+        "link": "https://stackoverflow.com/users/1779017/marco-pallante"
+      }
+    },
+    {
+      "answer_id": 29723968,
+      "body": "<p>It is really easy to do a bulk insert in Laravel using Eloquent or the query builder.</p>\n<p>You can use one of the following techniques.</p>\n<pre class=\"lang-php prettyprint-override\"><code>$data = [\n    ['user_id'=&gt;'Coder 1', 'subject_id'=&gt; 4096],\n    ['user_id'=&gt;'Coder 2', 'subject_id'=&gt; 2048],\n    //...\n];\n</code></pre>\n<ol>\n<li>Eloquent approach:</li>\n</ol>\n<pre class=\"lang-php prettyprint-override\"><code>Model::insert($data); // calls mutators including timestamps\n</code></pre>\n<ol start=\"2\">\n<li>Query Builder approach:</li>\n</ol>\n<pre class=\"lang-php prettyprint-override\"><code>DB::table('table')-&gt;insert($data); // does not call mutators\n</code></pre>\n",
+      "owner": {
+        "display_name": "Kreshnik Hasanaj",
+        "link": "https://stackoverflow.com/users/1551070/kreshnik-hasanaj"
+      }
+    },
+    {
+      "answer_id": 17250429,
+      "body": "<p>The problem is caused by the fact that the <code>Model</code>'s <code>toArray()</code> method ignores any accessors which do not directly relate to a column in the underlying table.</p>\n<p>As Taylor Otwell mentioned <a href=\"https://github.com/laravel/framework/issues/112#issuecomment-12530987\" rel=\"noreferrer\">here</a>, &quot;This is intentional and for performance reasons.&quot; However there is an easy way to achieve this:</p>\n<pre><code>class EventSession extends Eloquent {\n\n    protected $table = 'sessions';\n\n    public function availability()\n    {\n        return new Attribute(\n            get: fn () =&gt; $this-&gt;calculateAvailability()\n        );  \n    }\n}\n</code></pre>\n<p><strong>Laravel versions &lt; 8:</strong></p>\n<p>Any attributes listed in the $appends property will automatically be included in the array or JSON form of the model, provided that you've added the appropriate accessor.</p>\n<pre><code>class EventSession extends Eloquent {\n\n    protected $table = 'sessions';\n    protected $appends = array('availability');\n\n    public function getAvailabilityAttribute()\n    {\n        return $this-&gt;calculateAvailability();  \n    }\n}\n</code></pre>\n<p><strong>Laravel versions &lt; 4.08:</strong></p>\n<p>The best solution that I've found is to override the <code>toArray()</code> method and either explicity set the attribute:</p>\n<pre><code>class Book extends Eloquent {\n\n    protected $table = 'books';\n    \n    public function toArray()\n    {\n        $array = parent::toArray();\n        $array['upper'] = $this-&gt;upper;\n        return $array;\n    }\n    \n    public function getUpperAttribute()\n    {\n        return strtoupper($this-&gt;title);    \n    }\n\n}\n</code></pre>\n<p>or, if you have lots of custom accessors, loop through them all and apply them:</p>\n<pre><code>class Book extends Eloquent {\n\n    protected $table = 'books';\n    \n    public function toArray()\n    {\n        $array = parent::toArray();\n        foreach ($this-&gt;getMutatedAttributes() as $key)\n        {\n            if ( ! array_key_exists($key, $array)) {\n                $array[$key] = $this-&gt;{$key};   \n            }\n        }\n        return $array;\n    }\n    \n    public function getUpperAttribute()\n    {\n        return strtoupper($this-&gt;title);    \n    }\n\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "coatesap",
+        "link": "https://stackoverflow.com/users/921476/coatesap"
+      }
+    },
+    {
+      "answer_id": 59266972,
+      "body": "<p>Intelephense 1.3 added undefined type, function, constant, class constant, method, and property diagnostics, where previously in 1.2 there was only undefined variable diagnostics.</p>\n<p>Some frameworks are written in a way that provide convenient shortcuts for the user but make it difficult for static analysis engines to discover symbols that are available at runtime.</p>\n<p>Stub generators like <a href=\"https://github.com/barryvdh/laravel-ide-helper\" rel=\"noreferrer\">https://github.com/barryvdh/laravel-ide-helper</a> help fill the gap here and using this with Laravel will take care of many of the false diagnostics by providing concrete definitions of symbols that can be easily discovered.</p>\n<p>Still, PHP is a very flexible language and there may be other instances of false undefined symbols depending on how code is written. For this reason, since 1.3.3, intelephense has config options to enable/disable each category of undefined symbol to suit the workspace and coding style.</p>\n<p>These options are:</p>\n<pre class=\"lang-js prettyprint-override\"><code>    &quot;intelephense.diagnostics.undefinedTypes&quot;: false,\n    &quot;intelephense.diagnostics.undefinedFunctions&quot;: false,\n    &quot;intelephense.diagnostics.undefinedConstants&quot;: false,\n    &quot;intelephense.diagnostics.undefinedClassConstants&quot;: false,\n    &quot;intelephense.diagnostics.undefinedMethods&quot;: false,\n    &quot;intelephense.diagnostics.undefinedProperties&quot;: false,\n    &quot;intelephense.diagnostics.undefinedVariables&quot;: true,\n</code></pre>\n<p>Setting all of these to false except <code>intelephense.diagnostics.undefinedVariables</code> will give version 1.2 behaviour. See the VSCode settings UI and search for <code>intelephense</code>.</p>\n",
+      "owner": {
+        "display_name": "bmewburn",
+        "link": "https://stackoverflow.com/users/9109145/bmewburn"
+      }
+    },
+    {
+      "answer_id": 64663892,
+      "body": "<p>As a temporary fix, try this, it worked for me, in the following file:</p>\n<pre><code>vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php\n</code></pre>\n<p>Find line 116 and comment it:</p>\n<pre><code>$packages = json_decode($this-&gt;files-&gt;get($path), true);\n</code></pre>\n<p>Add these lines after the line you just commented:</p>\n<pre><code>$installed = json_decode($this-&gt;files-&gt;get($path), true);\n$packages = $installed['packages'] ?? $installed;\n</code></pre>\n<p>The whole block might look like this (with added comments)</p>\n<pre><code>    if ($this-&gt;files-&gt;exists($path = $this-&gt;vendorPath.'/composer/installed.json')) {\n        // packages is all the files from the path\n        // $packages = json_decode($this-&gt;files-&gt;get($path), true);\n\n        // get all the files from the path\n        $installed = json_decode($this-&gt;files-&gt;get($path), true);\n\n        // if installed contains packages key, use it, otherwise use the whole thing\n        $packages = $installed['packages'] ?? $installed;\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Pulkit Modi",
+        "link": "https://stackoverflow.com/users/9600620/pulkit-modi"
+      }
+    },
+    {
+      "answer_id": 31847198,
+      "body": "<p><a href=\"https://laravel.com/docs/5.4/database#using-multiple-database-connections\" rel=\"noreferrer\">From Laravel Docs</a>: You may access each connection via the connection method on the <code>DB</code> facade when using multiple connections. The name passed to the connection method should correspond to one of the connections listed in your <code>config/database.php</code> configuration file:</p>\n<pre><code>$users = DB::connection('foo')-&gt;select(...);\n</code></pre>\n<h3>Define Connections</h3>\n<p><a href=\"https://github.com/laravel/laravel/blob/master/.env.example\" rel=\"noreferrer\">Using <code>.env</code> &gt;= 5.0 (or higher)</a></p>\n<pre><code>DB_CONNECTION=mysql\nDB_HOST=127.0.0.1\nDB_PORT=3306\nDB_DATABASE=mysql_database\nDB_USERNAME=root\nDB_PASSWORD=secret\n\nDB_CONNECTION_PGSQL=pgsql\nDB_HOST_PGSQL=127.0.0.1\nDB_PORT_PGSQL=5432\nDB_DATABASE_PGSQL=pgsql_database\nDB_USERNAME_PGSQL=root\nDB_PASSWORD_PGSQL=secret\n</code></pre>\n<p>Using <code>config/database.php</code></p>\n<pre><code>'mysql' =&gt; [\n    'driver'    =&gt; env('DB_CONNECTION'),\n    'host'      =&gt; env('DB_HOST'),\n    'port'      =&gt; env('DB_PORT'),\n    'database'  =&gt; env('DB_DATABASE'),\n    'username'  =&gt; env('DB_USERNAME'),\n    'password'  =&gt; env('DB_PASSWORD'),\n],\n\n'pgsql' =&gt; [\n    'driver'    =&gt; env('DB_CONNECTION_PGSQL'),\n    'host'      =&gt; env('DB_HOST_PGSQL'),\n    'port'      =&gt; env('DB_PORT_PGSQL'),\n    'database'  =&gt; env('DB_DATABASE_PGSQL'),\n    'username'  =&gt; env('DB_USERNAME_PGSQL'),\n    'password'  =&gt; env('DB_PASSWORD_PGSQL'),\n],\n</code></pre>\n<blockquote>\n<p><strong>Note:</strong> In <code>pgsql</code>, if <code>DB_username</code> and <code>DB_password</code> are the same, then you can use <code>env('DB_USERNAME')</code>, which is mentioned in <code>.env</code> first few lines.</p>\n</blockquote>\n<p><a href=\"https://github.com/laravel-shift/laravel-4.2/blob/master/app/config/database.php#L47-L86\" rel=\"noreferrer\">Without <code>.env</code> &lt;= 4.0 (or lower)</a></p>\n<p><code>app/config/database.php</code></p>\n<pre><code>return array(\n    'default' =&gt; 'mysql',\n    'connections' =&gt; array(\n        # Primary/Default database connection\n        'mysql' =&gt; array(\n            'driver'    =&gt; 'mysql',\n            'host'      =&gt; '127.0.0.1',\n            'database'  =&gt; 'mysql_database',\n            'username'  =&gt; 'root',\n            'password'  =&gt; 'secret'\n            'charset'   =&gt; 'utf8',\n            'collation' =&gt; 'utf8_unicode_ci',\n            'prefix'    =&gt; '',\n        ),\n\n        # Secondary database connection\n       'pgsql' =&gt; [\n            'driver' =&gt; 'pgsql',\n            'host' =&gt; 'localhost',\n            'port' =&gt; '5432',\n            'database' =&gt; 'pgsql_database',\n            'username' =&gt; 'root',\n            'password' =&gt; 'secret',\n            'charset' =&gt; 'utf8',\n            'prefix' =&gt; '',\n            'schema' =&gt; 'public',\n        ]\n    ),\n);\n</code></pre>\n<h3>Schema / Migration</h3>\n<p>Run the <code>connection()</code> method to specify which connection to use.</p>\n<pre><code>Schema::connection('pgsql')-&gt;create('some_table', function($table)\n{\n    $table-&gt;increments('id'):\n});\n</code></pre>\n<p>Or, at the top, define a connection.</p>\n<pre><code>protected $connection = 'pgsql';\n</code></pre>\n<h3>Query Builder</h3>\n<pre><code>$users = DB::connection('pgsql')-&gt;select(...);\n</code></pre>\n<h3>Model</h3>\n<p>(In Laravel &gt;= 5.0 (or higher))</p>\n<p>Set the <code>$connection</code> variable in your model</p>\n<pre><code>class ModelName extends Model { // extend changed\n\n    protected $connection = 'pgsql';\n\n}\n</code></pre>\n<h3>Eloquent</h3>\n<p>(In Laravel &lt;= 4.0 (or lower))</p>\n<p>Set the <code>$connection</code> variable in your model</p>\n<pre><code>class SomeModel extends Eloquent {\n    protected $connection = 'pgsql';\n}\n</code></pre>\n<h3>Transaction Mode</h3>\n<pre><code>DB::transaction(function () {\n    DB::connection('mysql')-&gt;table('users')-&gt;update(['name' =&gt; 'John']);\n    DB::connection('pgsql')-&gt;table('orders')-&gt;update(['status' =&gt; 'shipped']);\n});\n</code></pre>\n<p>or</p>\n<pre><code>DB::connection('mysql')-&gt;beginTransaction();\ntry {\n    DB::connection('mysql')-&gt;table('users')-&gt;update(['name' =&gt; 'John']);\n    DB::connection('pgsql')-&gt;beginTransaction();\n    DB::connection('pgsql')-&gt;table('orders')-&gt;update(['status' =&gt; 'shipped']);\n    DB::connection('pgsql')-&gt;commit();\n    DB::connection('mysql')-&gt;commit();\n} catch (\\Exception $e) {\n    DB::connection('mysql')-&gt;rollBack();\n    DB::connection('pgsql')-&gt;rollBack();\n    throw $e;\n}\n</code></pre>\n<p>You can also define the connection at runtime via the <code>setConnection</code> method or the <code>on</code> static method:</p>\n<pre><code>class SomeController extends BaseController {\n    public function someMethod()\n    {\n        $someModel = new SomeModel;\n        $someModel-&gt;setConnection('pgsql'); // non-static method\n        $something = $someModel-&gt;find(1);\n        $something = SomeModel::on('pgsql')-&gt;find(1); // static method\n        return $something;\n    }\n}\n</code></pre>\n<blockquote>\n<p><strong>Note:</strong> Be careful about building relationships with tables across databases! It is possible to do, but it can come with caveats depending on your database and settings.</p>\n</blockquote>\n<hr />\n<p><strong>Tested versions (<em>Updated</em>)</strong></p>\n<div class=\"s-table-container\">\n<table class=\"s-table\">\n<thead>\n<tr>\n<th>Version</th>\n<th>Tested (Yes/No)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>4.2</td>\n<td>No</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Yes (5.5)</td>\n</tr>\n<tr>\n<td>6</td>\n<td>No</td>\n</tr>\n<tr>\n<td>7</td>\n<td>No</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Yes (8.4)</td>\n</tr>\n<tr>\n<td>9</td>\n<td>Yes (9.2)</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><strong>Useful Links</strong></p>\n<ol>\n<li><a href=\"https://laracasts.com/discuss/channels/eloquent/laravel-5-multiple-database-connection\" rel=\"noreferrer\">Laravel 5 multiple database connections FROM <code>laracasts.com</code></a></li>\n<li><a href=\"http://tutsnare.com/connect-multiple-databases-in-laravel/\" rel=\"noreferrer\">Connect multiple databases in Laravel FROM <code>tutsnare.com</code></a></li>\n<li><a href=\"http://fideloper.com/laravel-multiple-database-connections\" rel=\"noreferrer\">Multiple DB Connections in Laravel FROM <code>fideloper.com</code></a></li>\n</ol>\n",
+      "owner": {
+        "display_name": "Abdulla Nilam",
+        "link": "https://stackoverflow.com/users/4595675/abdulla-nilam"
+      }
+    },
+    {
+      "answer_id": 16791988,
+      "body": "<p>To create a migration, you may use the migrate:make command on the Artisan CLI.  Use a specific name to avoid clashing with existing models</p>\n<p>for Laravel 5+:</p>\n<pre><code>php artisan make:migration add_paid_to_users_table --table=users\n</code></pre>\n<p>for Laravel 3:</p>\n<pre><code>php artisan migrate:make add_paid_to_users\n</code></pre>\n<p>You then need to use the <code>Schema::table()</code> method (as you're accessing an existing table, not creating a new one).  And you can add a column like this:</p>\n<pre class=\"lang-php prettyprint-override\"><code>public function up()\n{\n    Schema::table('users', function($table) {\n        $table-&gt;integer('paid');\n    });\n}\n</code></pre>\n<p>and don't forget to add the rollback option:</p>\n<pre><code>public function down()\n{\n    Schema::table('users', function($table) {\n        $table-&gt;dropColumn('paid');\n    });\n}\n</code></pre>\n<p>Then you can run your migrations:</p>\n<pre class=\"lang-bash prettyprint-override\"><code>php artisan migrate\n</code></pre>\n<p>This is all well covered in the documentation for both Laravel 4 / Laravel 5:</p>\n<ul>\n<li><a href=\"http://laravel.com/docs/5.0/schema\" rel=\"noreferrer\">Schema Builder</a></li>\n<li><a href=\"http://laravel.com/docs/5.0/migrations\" rel=\"noreferrer\">Migrations</a></li>\n</ul>\n<p>And for Laravel 3:</p>\n<ul>\n<li><a href=\"http://laravel3.veliovgroup.com/docs/database/schema\" rel=\"noreferrer\">Schema Builder</a></li>\n<li><a href=\"http://laravel3.veliovgroup.com/docs/database/migrations\" rel=\"noreferrer\">Migrations</a></li>\n</ul>\n<p>Edit:</p>\n<p>use <code>$table-&gt;integer('paid')-&gt;after('whichever_column');</code> to add this field after specific column. <a href=\"https://laravel.com/docs/10.x/migrations#column-modifiers\" rel=\"noreferrer\">applicable for MySQL only</a></p>\n",
+      "owner": {
+        "display_name": "Phill Sparks",
+        "link": "https://stackoverflow.com/users/1269513/phill-sparks"
+      }
+    },
+    {
+      "answer_id": 20108037,
+      "body": "<p>I believe this is a perfect use-case for <a href=\"https://laravel.com/docs/10.x/eloquent#events-using-closures\" rel=\"noreferrer\">Eloquent events</a>. You can use the &quot;deleting&quot; event to do the cleanup:</p>\n<pre><code>&lt;?php\n\nnamespace App\\Models;\n\nuse Illuminate\\Foundation\\Auth\\User as Authenticatable;\n\nclass User extends Authenticatable\n{\n    public function photos()\n    {\n        return $this-&gt;has_many('Photo');\n    }\n    \n    // this is a recommended way to declare event handlers\n    protected static function booted () {\n        static::deleting(function(User $user) { // before delete() method call this\n             $user-&gt;photos()-&gt;delete();\n             // do the rest of the cleanup...\n        });\n    }\n}\n</code></pre>\n<p>You should probably also put the whole thing inside a transaction, to ensure the referential integrity..</p>\n",
+      "owner": {
+        "display_name": "ivanhoe",
+        "link": "https://stackoverflow.com/users/2744497/ivanhoe"
+      }
+    },
+    {
+      "answer_id": 37075525,
+      "body": "<p>This usually happens if you have entered the wrong details when you created the App in Facebook. Or have you changed a URL's of an existing App?</p>\n<p>Can you please recheck the settings of your APP in this page?</p>\n<p><a href=\"https://developers.facebook.com/apps\" rel=\"nofollow noreferrer\">https://developers.facebook.com/apps</a></p>\n<ol>\n<li><p>Select the correct App and click the edit button;</p>\n</li>\n<li><p>Check the URLs &amp; paths are correctly entered and are pointing to the site where you have installed Ultimate Facebook plugin.</p>\n</li>\n</ol>\n",
+      "owner": {
+        "display_name": "Lei Lionel",
+        "link": "https://stackoverflow.com/users/6125193/lei-lionel"
+      }
+    },
+    {
+      "answer_id": 28735930,
+      "body": "<h3>Note: This introduces very significant security issues and is not recommended.</h3>\n<p>For Laravel 5:</p>\n<ol>\n<li>Rename <code>server.php</code> in your Laravel root folder to <code>index.php</code></li>\n<li>Copy the <code>.htaccess</code> file from <code>/public</code> directory to your Laravel root\nfolder.</li>\n</ol>\n",
+      "owner": {
+        "display_name": "Asfaq Tamim",
+        "link": "https://stackoverflow.com/users/3113904/asfaq-tamim"
+      }
+    },
+    {
+      "answer_id": 12736221,
+      "body": "<p>Don't put the DB::insert() inside of the Schema::create(), because the create method has to finish making the table before you can insert stuff. Try this instead:</p>\n<pre><code>public function up()\n{\n    // Create the table\n    Schema::create('users', function($table){\n        $table-&gt;increments('id');\n        $table-&gt;string('email', 255);\n        $table-&gt;string('password', 64);\n        $table-&gt;boolean('verified');\n        $table-&gt;string('token', 255);\n        $table-&gt;timestamps();\n    });\n\n    // Insert some stuff\n    DB::table('users')-&gt;insert(\n        array(\n            'email' =&gt; 'name@domain.example',\n            'verified' =&gt; true\n        )\n    );\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "BenjaminRH",
+        "link": "https://stackoverflow.com/users/941158/benjaminrh"
+      }
+    },
+    {
+      "answer_id": 18236656,
+      "body": "<p>To output to the screen the last queries ran you can use this:</p>\n<pre class=\"lang-php prettyprint-override\"><code>\\DB::enableQueryLog(); // Enable query log\n\n// Your Eloquent query executed by using get()\n\ndd(\\DB::getQueryLog()); // Show results of log\n</code></pre>\n<p>I believe the most recent queries will be at the bottom of the array.</p>\n<p>You will have something like that:</p>\n<pre class=\"lang-none prettyprint-override\"><code>array(1) {\n  [0]=&gt;\n  array(3) {\n    [&quot;query&quot;]=&gt;\n    string(21) &quot;select * from &quot;users&quot;&quot;\n    [&quot;bindings&quot;]=&gt;\n    array(0) {\n    }\n    [&quot;time&quot;]=&gt;\n    string(4) &quot;0.92&quot;\n  }\n}\n</code></pre>\n<p>(Thanks to <a href=\"https://stackoverflow.com/questions/18236294/how-do-i-get-the-query-builder-to-output-its-raw-sql-query-as-a-string#comment56908005_18236656\">Joshua's</a> comment below.)</p>\n",
+      "owner": {
+        "display_name": "jfortunato",
+        "link": "https://stackoverflow.com/users/813181/jfortunato"
+      }
+    },
+    {
+      "answer_id": 47152006,
+      "body": "<p>TLDR;</p>\n<p>&quot;By the book&quot;:</p>\n<p>If there are already migrated tables and there is some data stored in those tables, be careful with <code>php artisan migrate:refresh</code>. You will lose all your data!</p>\n<p>For this specific question OP has already run the migration and by the book if he wants to run the same migration again, then first he should rollback with <code>php artisan migrate:rollback</code>. This will undo the last migration/s.</p>\n<p>Then you can run <code>php artisan migrate</code> and all NOT migrated migrations will be migrated.</p>\n<hr />\n<p>If you created more migrations and they are not migrated yet, to run only a specific migration use this:</p>\n<pre><code>php artisan migrate --path=/database/migrations/full_migration_file_name_migration.php\n</code></pre>\n<p>And sometimes if there is something messed up and you get errors on migrate, saying that the table already exists you can manually delete that specific entry from <code>migrations</code> AND the table which causes the problem in your DB and run <code>php artisan:migrate</code> to recreate the table.</p>\n",
+      "owner": {
+        "display_name": "Ravi Thummar",
+        "link": "https://stackoverflow.com/users/8783628/ravi-thummar"
+      }
+    },
+    {
+      "answer_id": 13595393,
+      "body": "<p>You can just use <code>Eloquent::insert()</code>.</p>\n<p>For example:</p>\n<pre><code>$data = [\n    ['name'=&gt;'Coder 1', 'rep'=&gt;'4096'],\n    ['name'=&gt;'Coder 2', 'rep'=&gt;'2048'],\n    //...\n];\n\nCoder::insert($data);\n</code></pre>\n",
+      "owner": {
+        "display_name": "GTF",
+        "link": "https://stackoverflow.com/users/907981/gtf"
+      }
+    },
+    {
+      "answer_id": 16995151,
+      "body": "<p>Make use of <a href=\"https://laravel.com/docs/master/queries#logical-grouping\" rel=\"noreferrer\">Logical Grouping</a> (Laravel <a href=\"https://laravel.com/docs/7.x/queries#parameter-grouping\" rel=\"noreferrer\">7.x</a>/<a href=\"https://laravel.com/docs/4.2/queries#advanced-wheres\" rel=\"noreferrer\">4.2</a>). For your example, it'd be something like this:</p>\n<pre><code>Model::where(function ($query) {\n    $query-&gt;where('a', '=', 1)\n          -&gt;orWhere('b', '=', 1);\n})-&gt;where(function ($query) {\n    $query-&gt;where('c', '=', 1)\n          -&gt;orWhere('d', '=', 1);\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "rmobis",
+        "link": "https://stackoverflow.com/users/1661358/rmobis"
+      }
+    },
+    {
+      "answer_id": 19944781,
+      "body": "<h2>Laravel 5.8 to 8.0 and above</h2>\n<p>Simply pass it as a paramter:</p>\n<pre><code>php artisan serve --port=8080\n</code></pre>\n<p>You may also bind to a specific host by:</p>\n<pre><code>php artisan serve --host=0.0.0.0 --port=8080 \n</code></pre>\n<p>Or (for Laravel 6+) you can provide defaults by setting SERVER_PORT and SERVER_HOST in your .env file. You might need to do php artisan cache: clear as well. (thanks @mohd-samgan-khan)</p>\n<p>And if you want to run it on <strong>port 80</strong>, you probably need to sudo.</p>\n",
+      "owner": {
+        "display_name": "Andreas Bergstr&#246;m",
+        "link": "https://stackoverflow.com/users/1202214/andreas-bergstr%c3%b6m"
+      }
+    },
+    {
+      "answer_id": 19839060,
+      "body": "<p>Try</p>\n<pre><code>return Redirect::back()-&gt;withErrors(['msg' =&gt; 'The Message']);\n</code></pre>\n<p>and inside your view call this</p>\n<pre><code>@if($errors-&gt;any())\n&lt;h4&gt;{{$errors-&gt;first()}}&lt;/h4&gt;\n@endif\n</code></pre>\n",
+      "owner": {
+        "display_name": "giannis christofakis",
+        "link": "https://stackoverflow.com/users/839554/giannis-christofakis"
+      }
+    },
+    {
+      "answer_id": 33361741,
+      "body": "<p><strong>The <code>whereBetween</code> method verifies that a column's value is between\ntwo values.</strong></p>\n<pre><code>$from = date('2018-01-01');\n$to = date('2018-05-02');\n\nReservation::whereBetween('reservation_from', [$from, $to])-&gt;get();\n</code></pre>\n<hr />\n<p>In some cases you need to add date range dynamically. Based on <a href=\"https://stackoverflow.com/users/673846/anovative\">@Anovative</a>'s comment you can do this:</p>\n<pre><code>Reservation::all()-&gt;filter(function($item) {\n  if (Carbon::now()-&gt;between($item-&gt;from, $item-&gt;to)) {\n    return $item;\n  }\n});\n</code></pre>\n<hr />\n<p>If you would like to add more condition then you can use <code>orWhereBetween</code>. If you would like to exclude a date interval then you can use <code>whereNotBetween </code>.</p>\n<pre><code>Reservation::whereBetween('reservation_from', [$from1, $to1])\n  -&gt;orWhereBetween('reservation_to', [$from2, $to2])\n  -&gt;whereNotBetween('reservation_to', [$from3, $to3])\n  -&gt;get();\n</code></pre>\n<hr />\n<p>Other useful where clauses: <code>whereIn</code>, <code>whereNotIn</code>, <code>whereNull</code>, <code>whereNotNull</code>, <code>whereDate</code>, <code>whereMonth</code>, <code>whereDay</code>, <code>whereYear</code>, <code>whereTime</code>, <code>whereColumn </code>, <code>whereExists</code>, <code>whereRaw</code>.</p>\n<p><a href=\"https://laravel.com/docs/5.6/queries#where-clauses\" rel=\"noreferrer\">Laravel docs about Where Clauses.</a></p>\n",
+      "owner": {
+        "display_name": "Peter Kota",
+        "link": "https://stackoverflow.com/users/4467014/peter-kota"
+      }
+    },
+    {
+      "answer_id": 14536215,
+      "body": "<h1>Laravel 4+</h1>\n<blockquote>\n<p><strong>Note for Laravel 5 users:</strong> You'll need to call <code>DB::enableQueryLog()</code> before executing the query. Either just above the line that runs the query or inside a middleware.</p>\n</blockquote>\n<p>In Laravel 4 and later, you have to call <code>DB::getQueryLog()</code> to get all ran queries.</p>\n<pre><code>$queries = DB::getQueryLog();\n$last_query = end($queries);\n</code></pre>\n<p>Or you can download a profiler package. I'd recommend <a href=\"https://packagist.org/packages/barryvdh/laravel-debugbar\" rel=\"nofollow noreferrer\">barryvdh/laravel-debugbar</a>, which is pretty neat. You can read for instructions on how to install in their <a href=\"https://github.com/barryvdh/laravel-debugbar\" rel=\"nofollow noreferrer\">repository</a>.</p>\n<hr />\n<h1>Laravel 3</h1>\n<p>In Laravel 3, you can get the last executed query from an <code>Eloquent</code> model calling the static method <code>last_query</code> on the <code>DB</code> class.</p>\n<pre><code>DB::last_query();\n</code></pre>\n<p>This, however, requires that you enable the <code>profiler</code> option in <code>application/config/database.php</code>. Alternatively you could, as @dualed mentioned, enable the <code>profiler</code> option, in <code>application/config/application.php</code> or call <code>DB::profile()</code> to get all queries ran in the current request and their execution time.</p>\n",
+      "owner": {
+        "display_name": "rmobis",
+        "link": "https://stackoverflow.com/users/1661358/rmobis"
+      }
+    },
+    {
+      "answer_id": 20274231,
+      "body": "<p><code>Laravel's</code> <code>Autoload</code> is a bit different:</p>\n<ol>\n<li><p>It will in fact use <code>Composer</code> for some <code>stuff</code></p>\n</li>\n<li><p>It will call <code>Composer</code> with the optimize <code>flag</code></p>\n</li>\n<li><p>It will '<code>recompile</code>' loads of files creating the huge <code>bootstrap/compiled.php</code></p>\n</li>\n<li><p>And also will find all of your Workbench packages and <code>composer dump-autoload</code> them, one by one.</p>\n</li>\n</ol>\n",
+      "owner": {
+        "display_name": "Antonio Ribeiro",
+        "link": "https://stackoverflow.com/users/1959747/antonio-ribeiro"
+      }
+    },
+    {
+      "answer_id": 29990340,
+      "body": "<p>The correct syntax to do this on your relations is:</p>\n<pre><code>Event::whereHas('participants', function ($query) {\n    return $query-&gt;where('IDUser', '=', 1);\n})-&gt;get();\n</code></pre>\n<p>This will return Events where Participants have a user ID of 1. If the Participant doesn't have a user ID of 1, the Event will NOT be returned.</p>\n<p>Read more at <a href=\"https://laravel.com/docs/5.8/eloquent-relationships#eager-loading\" rel=\"noreferrer\">https://laravel.com/docs/5.8/eloquent-relationships#eager-loading</a></p>\n",
+      "owner": {
+        "display_name": "Crembo",
+        "link": "https://stackoverflow.com/users/371737/crembo"
+      }
+    },
+    {
+      "answer_id": 34783443,
+      "body": "<p>After lots of digging and lots of questions &amp; answers I have finally managed to work Laravel 5.2 Multi Auth with two table, So I'm writing Answer of my own Question.</p>\n<p><strong>How to implement Multi Auth in Laravel 5.2</strong></p>\n<p>As Mentioned above.\nTwo table <code>admin</code> and <code>users</code></p>\n<p>Laravel 5.2 has a new <code>artisan</code> command.</p>\n<p><code>php artisan make:auth</code></p>\n<p>it will generate basic login/register <code>route</code>, <code>view</code> and <code>controller</code> for <code>user</code> table.</p>\n<p>Make a <code>admin</code> table as <code>users</code> table for simplicity.</p>\n<p><strong>Controller For Admin</strong><br />\n<code>app/Http/Controllers/AdminAuth/AuthController</code><br />\n<code>app/Http/Controllers/AdminAuth/PasswordController</code><br />\n(note: I just copied these files from <code>app/Http/Controllers/Auth/AuthController</code> here)</p>\n<p><strong><code>config/auth.php</code></strong></p>\n<pre><code>//Authenticating guards\n'guards' =&gt; [\n    'user' =&gt;[\n        'driver' =&gt; 'session',\n        'provider' =&gt; 'user',\n    ],\n    'admin' =&gt; [\n        'driver' =&gt; 'session',\n        'provider' =&gt; 'admin',\n    ],\n],  \n\n//User Providers\n'providers' =&gt; [\n    'user' =&gt; [\n        'driver' =&gt; 'eloquent',\n        'model' =&gt; App\\User::class,\n    ],\n    'admin' =&gt; [\n        'driver' =&gt; 'eloquent',\n        'model' =&gt; App\\Admin::class,\n    ]\n],  \n\n//Resetting Password  \n'passwords' =&gt; [\n    'clients' =&gt; [\n        'provider' =&gt; 'client',\n        'email' =&gt; 'auth.emails.password',\n        'table' =&gt; 'password_resets',\n        'expire' =&gt; 60,\n    ],\n    'admins' =&gt; [\n        'provider' =&gt; 'admin',\n        'email' =&gt; 'auth.emails.password',\n        'table' =&gt; 'password_resets',\n        'expire' =&gt; 60,\n    ],\n],  \n</code></pre>\n<p><strong><code>route.php</code></strong></p>\n<pre><code>Route::group(['middleware' =&gt; ['web']], function () {\n    //Login Routes...\n    Route::get('/admin/login','AdminAuth\\AuthController@showLoginForm');\n    Route::post('/admin/login','AdminAuth\\AuthController@login');\n    Route::get('/admin/logout','AdminAuth\\AuthController@logout');\n\n    // Registration Routes...\n    Route::get('admin/register', 'AdminAuth\\AuthController@showRegistrationForm');\n    Route::post('admin/register', 'AdminAuth\\AuthController@register');\n\n    Route::get('/admin', 'AdminController@index');\n\n});  \n</code></pre>\n<p><strong><code>AdminAuth/AuthController.php</code></strong></p>\n<p>Add two methods and specify <code>$redirectTo</code> and <code>$guard</code></p>\n<pre><code>protected $redirectTo = '/admin';\nprotected $guard = 'admin';\npublic function showLoginForm()\n{\n    if (view()-&gt;exists('auth.authenticate')) {\n        return view('auth.authenticate');\n    }\n\n    return view('admin.auth.login');\n}\npublic function showRegistrationForm()\n{\n    return view('admin.auth.register');\n}  \n</code></pre>\n<p>it will help you to open another login form for admin</p>\n<p><strong>creating a middleware for <code>admin</code></strong></p>\n<pre><code>class RedirectIfNotAdmin\n{\n/**\n * Handle an incoming request.\n *\n * @param  \\Illuminate\\Http\\Request  $request\n * @param  \\Closure  $next\n * @param  string|null  $guard\n * @return mixed\n */\npublic function handle($request, Closure $next, $guard = 'admin')\n{\n    if (!Auth::guard($guard)-&gt;check()) {\n        return redirect('/');\n    }\n\n    return $next($request);\n}\n</code></pre>\n<p>}</p>\n<p>register middleware in <code>kernel.php</code></p>\n<pre><code> protected $routeMiddleware = [\n    'admin' =&gt; \\App\\Http\\Middleware\\RedirectIfNotAdmin::class,\n];\n</code></pre>\n<p>use this middleware in <code>AdminController</code>\ne.g.,</p>\nmiddleware('admin');\n       }\n    public function index(){\n            return view('admin.dashboard');\n        }\n    }\n\n\nThat's all needed to make it working and also to get json of authenticated admin use  \n `Auth::guard('admin')->user()`  \n\n**Edit - 1**  \nWe can access authenticated user directly using  \n`Auth::user()`\nbut if you have two authentication table then you have to use  \n\n    Auth::guard('guard_name')->user()  \n\nfor logout  \n\n    Auth::guard('guard_name')->user()->logout()\n\nfor authenticated user json  \n\n    Auth::guard('guard_name')->user()  \n\n##Edit 2\nNow you can download Laravel 5.2 Multiauth implemented Project http://imrealashu.in/code/laravel/multi-auth-with-laravel-5-2-2/  \n",
+      "owner": {
+        "display_name": "imrealashu",
+        "link": "https://stackoverflow.com/users/3210356/imrealashu"
+      }
+    },
+    {
+      "answer_id": 14015888,
+      "body": "<p>Prior to Laravel 5, there was no Laravel native way of altering an existing table column using the schema builder. You'd need to use raw queries for this.</p>\n<p>However, as of Laravel 5 you can use:</p>\n<pre><code>$table-&gt;string('foo')-&gt;nullable(false)-&gt;change();\n</code></pre>\n<p>You must have the dbal dependency prior to running the above command:</p>\n<pre><code>composer require doctrine/dbal\n</code></pre>\n",
+      "owner": {
+        "display_name": "TLGreg",
+        "link": "https://stackoverflow.com/users/1645181/tlgreg"
+      }
+    },
+    {
+      "answer_id": 23506685,
+      "body": "<h1>RESTful Resource controller</h1>\n<p>A <strong>RESTful resource controller</strong> sets up some default routes for you and even names them.</p>\n<pre><code>Route::resource('users', 'UsersController');\n</code></pre>\n<p>Gives you these named routes:</p>\n<pre><code>Verb          Path                        Action  Route Name\nGET           /users                      index   users.index\nGET           /users/create               create  users.create\nPOST          /users                      store   users.store\nGET           /users/{user}               show    users.show\nGET           /users/{user}/edit          edit    users.edit\nPUT|PATCH     /users/{user}               update  users.update\nDELETE        /users/{user}               destroy users.destroy\n</code></pre>\n<p>And you would set up your controller something like this (actions = methods)</p>\n<pre><code>class UsersController extends BaseController {\n\n    public function index() {}\n\n    public function show($id) {}\n\n    public function store() {}\n\n}\n</code></pre>\n<p>You can also choose what actions are included or excluded like this:</p>\n<pre><code>Route::resource('users', 'UsersController', [\n    'only' =&gt; ['index', 'show']\n]);\n\nRoute::resource('monkeys', 'MonkeysController', [\n    'except' =&gt; ['edit', 'create']\n]);\n</code></pre>\n<h3>API Resource controller</h3>\n<p>Laravel 5.5 added another method for dealing with routes for resource controllers. <strong>API Resource Controller</strong> acts exactly like shown above, but does not register <code>create</code> and <code>edit</code> routes. It is meant to be used for ease of mapping routes used in RESTful APIs - where you typically do not have any kind of data located in <code>create</code> nor <code>edit</code> methods.</p>\n<pre><code>Route::apiResource('users', 'UsersController');\n</code></pre>\n<p><a href=\"https://laravel.com/docs/5.5/controllers#resource-controllers\" rel=\"noreferrer\">RESTful Resource Controller documentation</a></p>\n<br>\n<h1>Implicit controller</h1>\n<p>An <strong>Implicit controller</strong> is more flexible. You get routed to your controller methods based on the HTTP request type and name. However, you don't have route names defined for you and it will catch all subfolders for the same route.</p>\n<pre><code>Route::controller('users', 'UserController');\n</code></pre>\n<p>Would lead you to set up the controller with a sort of RESTful naming scheme:</p>\n<pre><code>class UserController extends BaseController {\n\n    public function getIndex()\n    {\n        // GET request to index\n    }\n\n    public function getShow($id)\n    {\n        // get request to 'users/show/{id}'\n    }\n\n    public function postStore()\n    {\n        // POST request to 'users/store'\n    }\n\n}\n</code></pre>\n<p><a href=\"http://laravel.com/docs/4.2/controllers#implicit-controllers\" rel=\"noreferrer\">Implicit Controller documentation</a></p>\n<br>\n<p>It is good practice to use what you need, as per your preference. I personally don't like the <strong>Implicit controllers</strong>, because they can be messy, don't provide names and can be confusing when using <code>php artisan routes</code>. I typically use <strong>RESTful Resource controllers</strong> in combination with explicit routes.</p>\n",
+      "owner": {
+        "display_name": "ryanwinchester",
+        "link": "https://stackoverflow.com/users/2066155/ryanwinchester"
+      }
+    },
+    {
+      "answer_id": 33268732,
+      "body": "<p>Looking at the <a href=\"https://laravel.com/api/8.x/Illuminate/Http/Request.html#method_ip\" rel=\"noreferrer\">Laravel API</a>:</p>\n<pre><code>Request::ip();\n</code></pre>\n<p>Internally, it uses the <code>getClientIps</code> method from the <a href=\"https://github.com/symfony/http-foundation/blob/master/Request.php#L792\" rel=\"noreferrer\">Symfony Request Object</a>:</p>\n<pre><code>public function getClientIps()\n{\n    $clientIps = array();\n    $ip = $this-&gt;server-&gt;get('REMOTE_ADDR');\n    if (!$this-&gt;isFromTrustedProxy()) {\n        return array($ip);\n    }\n    if (self::$trustedHeaders[self::HEADER_FORWARDED] &amp;&amp; $this-&gt;headers-&gt;has(self::$trustedHeaders[self::HEADER_FORWARDED])) {\n        $forwardedHeader = $this-&gt;headers-&gt;get(self::$trustedHeaders[self::HEADER_FORWARDED]);\n        preg_match_all('{(for)=(&quot;?\\[?)([a-z0-9\\.:_\\-/]*)}', $forwardedHeader, $matches);\n        $clientIps = $matches[3];\n    } elseif (self::$trustedHeaders[self::HEADER_CLIENT_IP] &amp;&amp; $this-&gt;headers-&gt;has(self::$trustedHeaders[self::HEADER_CLIENT_IP])) {\n        $clientIps = array_map('trim', explode(',', $this-&gt;headers-&gt;get(self::$trustedHeaders[self::HEADER_CLIENT_IP])));\n    }\n    $clientIps[] = $ip; // Complete the IP chain with the IP the request actually came from\n    $ip = $clientIps[0]; // Fallback to this when the client IP falls into the range of trusted proxies\n    foreach ($clientIps as $key =&gt; $clientIp) {\n        // Remove port (unfortunately, it does happen)\n        if (preg_match('{((?:\\d+\\.){3}\\d+)\\:\\d+}', $clientIp, $match)) {\n            $clientIps[$key] = $clientIp = $match[1];\n        }\n        if (IpUtils::checkIp($clientIp, self::$trustedProxies)) {\n            unset($clientIps[$key]);\n        }\n    }\n    // Now the IP chain contains only untrusted proxies and the client IP\n    return $clientIps ? array_reverse($clientIps) : array($ip);\n} \n</code></pre>\n",
+      "owner": {
+        "display_name": "samlev",
+        "link": "https://stackoverflow.com/users/1172464/samlev"
+      }
+    },
+    {
+      "answer_id": 37266353,
+      "body": "<p>Just to state the obvious for anyone viewing this discussion.... if you give any of your folders 777 permissions, you are allowing ANYONE to read, write and execute any file in that directory.... what this means is you have given ANYONE (any hacker or malicious person in the entire world) permission to upload ANY file, virus or any other file, and THEN execute that file...</p>\n<blockquote>\n<p>IF YOU ARE SETTING YOUR FOLDER PERMISSIONS TO 777 YOU HAVE OPENED YOUR\nSERVER TO ANYONE THAT CAN FIND THAT DIRECTORY.  Clear enough???  :)</p>\n</blockquote>\n<p>There are basically two ways to setup your ownership and permissions. Either you give yourself ownership or you make the webserver the owner of all files.</p>\n<p><strong>Webserver as owner (the way most people do it, and the Laravel doc's way):</strong></p>\n<p>assuming www-data (it could be something else) is your webserver user.</p>\n <pre>sudo chown -R www-data:www-data /path/to/your/laravel/root/directory</pre>\n<p>if you do that, the webserver owns all the files, and is also the group, and you will have some problems uploading files or working with files via FTP, because your FTP client will be logged in as you, not your webserver, so add your user to the webserver user group:</p>\n<pre>sudo usermod -a -G www-data ubuntu</pre>\n<p>Of course, this assumes your webserver is running as www-data (the Homestead default), and your user is ubuntu (it's vagrant if you are using Homestead).</p>\n<p>Then you set all your directories to 755 and your files to 644...\nSET file permissions</p>\n<pre>sudo find /path/to/your/laravel/root/directory -type f -exec chmod 644 {} \\;    </pre>\n<p>SET directory permissions</p>\n<pre>sudo find /path/to/your/laravel/root/directory -type d -exec chmod 755 {} \\;</pre>\n<p><strong>Your user as owner</strong></p>\n<p>I prefer to own all the directories and files (it makes working with everything much easier), so, go to your laravel root directory:</p>\n<pre><code>cd /var/www/html/laravel &gt;&gt; assuming this is your current root directory\n</code></pre>\n<pre>sudo chown -R $USER:www-data .</pre>\n<p>Then I give both myself and the webserver permissions:</p>\n<pre>sudo find . -type f -exec chmod 664 {} \\;   \nsudo find . -type d -exec chmod 775 {} \\;</pre>\n<p><strong>Then give the webserver the rights to read and write to storage and cache</strong></p>\n<p>Whichever way you set it up, then you need to give read and write permissions to the webserver for storage, cache and any other directories the webserver needs to upload or write too (depending on your situation), so run the commands from bashy above :</p>\n<pre>sudo chgrp -R www-data storage bootstrap/cache\nsudo chmod -R ug+rwx storage bootstrap/cache</pre>\n<p>Now, you're secure and your website works, AND you can work with the files fairly easily</p>\n",
+      "owner": {
+        "display_name": "bgies",
+        "link": "https://stackoverflow.com/users/2626181/bgies"
+      }
+    },
+    {
+      "answer_id": 30288058,
+      "body": "<p>If you look in your <code>migrations</code> table, then you’ll see each migration has a batch number. So when you roll back, it rolls back each migration that was part of the last batch.</p>\n<p>If you only want to roll back the very last migration, then just increment the batch number by one. Then next time you run the <code>rollback</code> command, it’ll only roll back that one migration as it’s in a “batch” of its own.</p>\n<p>Alternatively, from Laravel 5.3 onwards, you can just run:</p>\n<pre><code>php artisan migrate:rollback --step=1\n</code></pre>\n<p>That will rollback the last migration, no matter what its batch number is.</p>\n",
+      "owner": {
+        "display_name": "Martin Bean",
+        "link": "https://stackoverflow.com/users/102205/martin-bean"
+      }
+    },
+    {
+      "answer_id": 63808132,
+      "body": "<p>You are using Laravel 8. In a fresh install of Laravel 8, there is no namespace prefix being applied to your route groups that your routes are loaded into.</p>\n<blockquote>\n<p>&quot;In previous releases of Laravel, the <code>RouteServiceProvider</code> contained a <code>$namespace</code> property. This property's value would automatically be prefixed onto controller route definitions and calls to the <code>action</code> helper / <code>URL::action</code> method. In Laravel 8.x, this property is <code>null</code> by default. This means that no automatic namespace prefixing will be done by Laravel.&quot; <a href=\"https://laravel.com/docs/8.x/releases#laravel-8\" rel=\"noreferrer\">Laravel 8.x Docs - Release Notes</a></p>\n</blockquote>\n<p>You would have to use the Fully Qualified Class Name for your Controllers when referring to them in your routes when not using the namespace prefixing.</p>\n<pre><code>use App\\Http\\Controllers\\UserController;\n\nRoute::get('/users', [UserController::class, 'index']);\n// or\nRoute::get('/users', 'App\\Http\\Controllers\\UserController@index');\n</code></pre>\n<h2><strong>If you prefer the old way:</strong></h2>\n<p><code>App\\Providers\\RouteServiceProvider</code>:</p>\n<pre><code>public function boot()\n{\n    ...\n\n    Route::prefix('api')\n        -&gt;middleware('api')\n        -&gt;namespace('App\\Http\\Controllers') // &lt;---------\n        -&gt;group(base_path('routes/api.php'));\n\n    ...\n}\n</code></pre>\n<p>Do this for any route groups you want a declared namespace for.</p>\n<p><strong>The <code>$namespace</code> property:</strong></p>\n<p>Though there is a mention of a <code>$namespace</code> property to be set on your <code>RouteServiceProvider</code> in the Release notes and commented in your <code>RouteServiceProvider</code> this does not have any effect on your routes. It is currently only for adding a namespace prefix for generating URLs to actions. So you can set this variable, but it by itself won't add these namespace prefixes, you would still have to make sure you would be using this variable when adding the namespace to the route groups.</p>\n<p><strong>This information is now in the Upgrade Guide</strong></p>\n<p><a href=\"https://laravel.com/docs/8.x/upgrade\" rel=\"noreferrer\">Laravel 8.x Docs - Upgrade Guide - Routing</a></p>\n<p>With what the Upgrade Guide is showing the <strong>important</strong> part is that you are defining a namespace on your routes groups. Setting the <code>$namespace</code> variable by itself <strong>only</strong> helps in generating URLs to actions.</p>\n<p>Again, and I can't stress this enough, the <strong>important</strong> part is setting the namespace for the route groups, which they just happen to be doing by referencing the member variable <code>$namespace</code> directly in the example.</p>\n<h2><strong>Update:</strong></h2>\n<p>If you have installed a fresh copy of Laravel 8 since version 8.0.2 of <code>laravel/laravel</code> you can uncomment the <code>protected $namespace</code> member variable in the <code>RouteServiceProvider</code> to go back to the old way, as the route groups are setup to use this member variable for the namespace for the groups.</p>\n<pre><code>// protected $namespace = 'App\\\\Http\\\\Controllers';\n</code></pre>\n<p>The <strong>only</strong> reason uncommenting that would add the namespace prefix to the Controllers assigned to the routes is because the route groups are setup to use this variable as the namespace:</p>\n<pre><code>...\n-&gt;namespace($this-&gt;namespace)\n...\n</code></pre>\n",
+      "owner": {
+        "display_name": "lagbox",
+        "link": "https://stackoverflow.com/users/2109233/lagbox"
+      }
+    },
+    {
+      "answer_id": 42245921,
+      "body": "<p>According to the <a href=\"https://laravel.com/docs/7.x/migrations#creating-indexes\" rel=\"noreferrer\">official Laravel 7.x documentation</a>, you can solve this quite easily.</p>\n<p>Update your <code>/app/Providers/AppServiceProvider.php</code> to contain:</p>\n<pre><code>use Illuminate\\Support\\Facades\\Schema;\n\n/**\n * Bootstrap any application services.\n *\n * @return void\n */\npublic function boot()\n{\n    Schema::defaultStringLength(191);\n}\n</code></pre>\n<blockquote>\n<p>Alternatively, you may enable the <code>innodb_large_prefix</code> option for your database. Refer to your database's documentation for instructions on how to properly enable this option.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "imbakar",
+        "link": "https://stackoverflow.com/users/3046023/imbakar"
+      }
+    },
+    {
+      "answer_id": 13931676,
+      "body": "<p><strong>Laravel &gt;= 5.2:</strong></p>\n<pre><code>User::inRandomOrder()-&gt;get();\n</code></pre>\n<p>or to get the specific number of records</p>\n<pre><code>// 5 indicates the number of records\nUser::inRandomOrder()-&gt;limit(5)-&gt;get();\n// get one random record\nUser::inRandomOrder()-&gt;first();\n</code></pre>\n<p>or using the <a href=\"https://laravel.com/docs/7.x/collections#method-random\" rel=\"noreferrer\">random</a> method for collections:</p>\n<pre><code>User::all()-&gt;random();\nUser::all()-&gt;random(10); // The amount of items you wish to receive\n</code></pre>\n<p>Laravel 4.2.7 - 5.1:</p>\n<pre><code>User::orderByRaw(&quot;RAND()&quot;)-&gt;get();\n</code></pre>\n<p>Laravel 4.0 - 4.2.6:</p>\n<pre><code>User::orderBy(DB::raw('RAND()'))-&gt;get();\n</code></pre>\n<p>Laravel 3:</p>\n<pre><code>User::order_by(DB::raw('RAND()'))-&gt;get();\n</code></pre>\n<p>Check <strong><a href=\"http://www.warpconduit.net/2011/03/23/selecting-a-random-record-using-mysql-benchmark-results/\" rel=\"noreferrer\">this article</a></strong> on MySQL random rows. Laravel 5.2 supports this, for older version, there is no better solution then using <a href=\"http://laravel.com/docs/queries#raw-expressions\" rel=\"noreferrer\">RAW Queries</a>.</p>\n<p><strong>edit 1:</strong> As mentioned by Double Gras, orderBy() doesn't allow anything else then ASC or DESC since <a href=\"https://github.com/laravel/framework/commit/2aaa601aeb6c5efbef536057c855d8c4dcaf10e0\" rel=\"noreferrer\">this</a> change. I updated my answer accordingly.</p>\n<p><strong>edit 2:</strong> Laravel 5.2 finally implements <a href=\"https://laravel.com/docs/5.2/queries#ordering-grouping-limit-and-offset\" rel=\"noreferrer\">a wrapper function</a> for this. It's called <strong>inRandomOrder()</strong>.</p>\n",
+      "owner": {
+        "display_name": "aebersold",
+        "link": "https://stackoverflow.com/users/481823/aebersold"
+      }
+    },
+    {
+      "answer_id": 27753889,
+      "body": "<p>By default, the query log is disabled in Laravel 5:\n<a href=\"https://github.com/laravel/framework/commit/e0abfe5c49d225567cb4dfd56df9ef05cc297448\" rel=\"noreferrer\">https://github.com/laravel/framework/commit/e0abfe5c49d225567cb4dfd56df9ef05cc297448</a></p>\n<p>You will need to enable the query log by calling:</p>\n<pre><code>DB::enableQueryLog();\n\n// and then you can get query log\n\ndd(DB::getQueryLog());\n</code></pre>\n<p>or register an event listener:</p>\n<pre><code>DB::listen(\n    function ($sql, $bindings, $time) {\n        //  $sql - select * from `ncv_users` where `ncv_users`.`id` = ? limit 1\n        //  $bindings - [5]\n        //  $time(in milliseconds) - 0.38 \n    }\n);  \n</code></pre>\n<h3>Some Tips</h3>\n<h3>1. Multiple DB connections</h3> \n<p>If you have more than one DB connection you must specify which connection to log</p>\n<p>To enables query log for <code>my_connection</code>:</p>\n<pre><code>DB::connection('my_connection')-&gt;enableQueryLog();\n</code></pre>\n<p>To get query log for <code>my_connection</code>:</p>\n<pre><code>print_r(\n   DB::connection('my_connection')-&gt;getQueryLog()\n);\n</code></pre>\n<h3>2. Where to enable query log ?</h3> \nFor an HTTP request lifecycle, you can enable query log in the `handle` method of some `BeforeAnyDbQueryMiddleware` [middleware][1] and then retrieve the executed queries in the [`terminate`][2] method of the same middleware.\n<pre><code>class BeforeAnyDbQueryMiddleware\n{\n    public function handle($request, Closure $next)\n    {\n        DB::enableQueryLog();\n        return $next($request);\n    }\n\n    public function terminate($request, $response)\n    {\n        // Store or dump the log data...\n        dd(\n            DB::getQueryLog()\n        );\n    }\n}\n</code></pre>\n<p>A middleware's chain will not run for artisan commands, so for CLI execution you can enable query log in the <code>artisan.start</code> event listener.</p>\n<p>For example you can put it in the <code>bootstrap/app.php</code> file</p>\n<pre><code>$app['events']-&gt;listen('artisan.start', function(){\n    \\DB::enableQueryLog();\n});\n</code></pre>\n<h3>3. Memory</h3>\n<p>Laravel keeps all queries in memory. So in some cases, such as when inserting a large number of rows, or having a long running job with a lot of queries, this can cause the application to use excess memory.</p>\n<p>In most cases you will need the query log only for debugging, and if that is the case I would recommend you enable it only for development.</p>\n<pre><code>if (App::environment('local')) {\n    // The environment is local\n    DB::enableQueryLog();\n}\n</code></pre>\n<p><strong>References</strong></p>\n<ul>\n<li><a href=\"https://laravel.com/docs/5.0/database#query-logging\" rel=\"noreferrer\">https://laravel.com/docs/5.0/database#query-logging</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Marty Aghajanyan",
+        "link": "https://stackoverflow.com/users/744204/marty-aghajanyan"
+      }
+    },
+    {
+      "answer_id": 20699258,
+      "body": "<p>The &quot;Killed&quot; message usually means your process consumed too much memory, so you may simply need to add more memory to your system if possible. At the time of writing this answer, I've had to increase my virtual machine's memory to at least 768MB in order to get <code>composer update</code> to work in some situations.</p>\n<p>However, if you're doing this on a live server, you shouldn't be using <code>composer update</code> at all. What you should instead do is:</p>\n<ol>\n<li>Run <code>composer update</code> in a local environment (such as directly on your physical laptop/desktop, or a docker container/VM running on your laptop/desktop) where memory limitations shouldn't be as severe.</li>\n<li>Upload or <code>git push</code> the composer.lock file.</li>\n<li>Run <code>composer install</code> on the live server.</li>\n</ol>\n<p><code>composer install</code> will then read from the .lock file, fetching the exact same versions every time rather than finding the latest versions of every package. This makes your app less likely to break, and composer uses less memory.</p>\n<p>Read more here: <a href=\"https://getcomposer.org/doc/01-basic-usage.md#installing-with-composer-lock\" rel=\"noreferrer\">https://getcomposer.org/doc/01-basic-usage.md#installing-with-composer-lock</a></p>\n<p>Alternatively, you can upload the entire <code>vendor</code> directory to the server, bypassing the need to run <code>composer install</code> at all, but then you <em>should</em> run <code>composer dump-autoload --optimize</code>.</p>\n",
+      "owner": {
+        "display_name": "Andreas",
+        "link": "https://stackoverflow.com/users/2490608/andreas"
+      }
+    },
+    {
+      "answer_id": 42258677,
+      "body": "<p>Asterisk symbol (*) is used to check <strong><em>values</em></strong> in the array, not the array itself.</p>\n\n<pre><code>$validator = Validator::make($request-&gt;all(), [\n    \"names\"    =&gt; \"required|array|min:3\",\n    \"names.*\"  =&gt; \"required|string|distinct|min:3\",\n]);\n</code></pre>\n\n<p>In the example above:</p>\n\n<ul>\n<li>\"names\" must be an array with at least 3 elements,</li>\n<li><strong><em>values</em></strong> in the \"names\" array must be distinct (unique) strings, at least 3 characters long.</li>\n</ul>\n\n<hr>\n\n<p><strong>EDIT:</strong> Since Laravel 5.5 you can call validate() method directly on Request object like so:</p>\n\n<pre><code>$data = $request-&gt;validate([\n    \"name\"    =&gt; \"required|array|min:3\",\n    \"name.*\"  =&gt; \"required|string|distinct|min:3\",\n]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Filip Sobol",
+        "link": "https://stackoverflow.com/users/4617687/filip-sobol"
+      }
+    },
+    {
+      "answer_id": 26376773,
+      "body": "<p>Ok, I did that and it works:</p>\n\n<pre><code>nano ~/.bash_profile \n</code></pre>\n\n<p>And paste</p>\n\n<pre><code>export PATH=~/.composer/vendor/bin:$PATH\n</code></pre>\n\n<p>do <code>source ~/.bash_profile</code> and enjoy ;)</p>\n\n<p><strong>Important</strong>: If you want to know the difference between <em>bash_profile</em> and <em>bashrc</em> please check this <a href=\"http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html\" rel=\"noreferrer\">link</a></p>\n\n<p><strong>Note:</strong> For Ubuntu 16.04 running laravel 5.1, the path is: ~/.config/composer/vendor/bin</p>\n\n<p><strong>On other platforms:</strong> To check where your Composer global directory is, run <code>composer global about</code>. Add <code>/vendor/bin</code> to the directory that gets listed after \"Changed current directory to ...\" to get the path you should add to your <code>PATH</code>.</p>\n",
+      "owner": {
+        "display_name": "chemitaxis",
+        "link": "https://stackoverflow.com/users/1147273/chemitaxis"
+      }
+    },
+    {
+      "answer_id": 27522556,
+      "body": "<p><strong>In <a href=\"https://laravel.com/docs/5.3/queries#where-clauses\" rel=\"noreferrer\">Laravel 5.3</a></strong> (and still true as of <a href=\"https://laravel.com/docs/7.x/queries#where-clauses\" rel=\"noreferrer\">7.x</a>) you can use more granular wheres passed as an array:</p>\n\n<pre><code>$query-&gt;where([\n    ['column_1', '=', 'value_1'],\n    ['column_2', '&lt;&gt;', 'value_2'],\n    [COLUMN, OPERATOR, VALUE],\n    ...\n])\n</code></pre>\n\n<p>Personally I haven't found use-case for this over just multiple <code>where</code> calls, but fact is you can use it.</p>\n\n<p><strong>Since June 2014 you can pass an array to <code>where</code></strong></p>\n\n<p>As long as you want all the <code>wheres</code> use <code>and</code> operator, you can group them this way:</p>\n\n<pre><code>$matchThese = ['field' =&gt; 'value', 'another_field' =&gt; 'another_value', ...];\n\n// if you need another group of wheres as an alternative:\n$orThose = ['yet_another_field' =&gt; 'yet_another_value', ...];\n</code></pre>\n\n<p>Then:</p>\n\n<pre><code>$results = User::where($matchThese)-&gt;get();\n\n// with another group\n$results = User::where($matchThese)\n    -&gt;orWhere($orThose)\n    -&gt;get();\n</code></pre>\n\n<p>The above will result in such query:</p>\n\n<pre><code>SELECT * FROM users\n  WHERE (field = value AND another_field = another_value AND ...)\n  OR (yet_another_field = yet_another_value AND ...)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jarek Tkaczyk",
+        "link": "https://stackoverflow.com/users/784588/jarek-tkaczyk"
+      }
+    },
+    {
+      "answer_id": 21084888,
+      "body": "<p>After <strong>save</strong>, <code>$data-&gt;id</code> should be the last id inserted.</p>\n\n<pre><code>$data-&gt;save();\n$data-&gt;id;\n</code></pre>\n\n<p>Can be used like this.  </p>\n\n<pre><code>return Response::json(array('success' =&gt; true, 'last_insert_id' =&gt; $data-&gt;id), 200);\n</code></pre>\n\n<p>For updated laravel version try this</p>\n\n<pre><code>return response()-&gt;json(array('success' =&gt; true, 'last_insert_id' =&gt; $data-&gt;id), 200);\n</code></pre>\n",
+      "owner": {
+        "display_name": "xdazz",
+        "link": "https://stackoverflow.com/users/762073/xdazz"
+      }
+    },
+    {
+      "answer_id": 30052319,
+      "body": "<p>Try this </p>\n\n<pre><code>Route::getCurrentRoute()-&gt;getPath();\n</code></pre>\n\n<p>or</p>\n\n<pre><code>\\Request::route()-&gt;getName()\n</code></pre>\n\n<p>from v5.1</p>\n\n<pre><code>use Illuminate\\Support\\Facades\\Route;\n$currentPath= Route::getFacadeRoot()-&gt;current()-&gt;uri();\n</code></pre>\n\n<p><strong>Laravel v5.2</strong></p>\n\n<pre><code>Route::currentRouteName(); //use Illuminate\\Support\\Facades\\Route;\n</code></pre>\n\n<p>Or if you need the action name</p>\n\n<pre><code>Route::getCurrentRoute()-&gt;getActionName();\n</code></pre>\n\n<p><a href=\"https://laravel.com/docs/5.2/routing#accessing-the-current-route\" rel=\"noreferrer\">Laravel 5.2 route documentation</a></p>\n\n<p><strong>Retrieving The Request URI</strong></p>\n\n<p>The path method returns the request's URI. So, if the incoming request is targeted at <code>http://example.com/foo/bar</code>, the path method will return <code>foo/bar</code>:</p>\n\n<pre><code>$uri = $request-&gt;path();\n</code></pre>\n\n<p>The <code>is</code> method allows you to verify that the incoming request URI matches a given pattern. You may use the <code>*</code> character as a wildcard when utilizing this method:</p>\n\n<pre><code>if ($request-&gt;is('admin/*')) {\n    //\n}\n</code></pre>\n\n<p>To get the full URL, not just the path info, you may use the url method on the request instance:</p>\n\n<pre><code>$url = $request-&gt;url();\n</code></pre>\n\n<p><strong>Laravel v5.3 ... v5.8</strong></p>\n\n<pre><code>$route = Route::current();\n\n$name = Route::currentRouteName();\n\n$action = Route::currentRouteAction();\n</code></pre>\n\n<p><a href=\"https://laravel.com/docs/5.3/routing#accessing-the-current-route\" rel=\"noreferrer\">Laravel 5.3 route documentation</a></p>\n\n<p><strong>Laravel v6.x...7.x</strong></p>\n\n<pre><code>$route = Route::current();\n\n$name = Route::currentRouteName();\n\n$action = Route::currentRouteAction();\n</code></pre>\n\n<p>** Current as of Nov 11th 2019 - version 6.5 **</p>\n\n<p><a href=\"https://laravel.com/docs/6.x/routing#accessing-the-current-route\" rel=\"noreferrer\">Laravel 6.x route documentation</a></p>\n\n<p>There is an option to use request to get route</p>\n\n<pre><code>$request-&gt;route()-&gt;getName();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Adnan",
+        "link": "https://stackoverflow.com/users/2457566/adnan"
+      }
+    },
+    {
+      "answer_id": 22279580,
+      "body": "<p>Mass assignment is when you send an array to the model creation, basically setting a bunch of fields on the model in a single go, rather than one by one, something like:</p>\n\n<pre><code>$user = new User(request()-&gt;all());\n</code></pre>\n\n<p>(This is instead of explicitly setting each value on the model separately.) </p>\n\n<p>You can use <code>fillable</code> to protect which fields you want this to actually allow for updating.</p>\n\n<p>You can also block all fields from being mass-assignable by doing this:</p>\n\n<pre><code>protected $guarded = ['*'];\n</code></pre>\n\n<p>Let's say in your user table you have a field that is <code>user_type</code> and that can have values of user / admin</p>\n\n<p>Obviously, you don't want users to be able to update this value. In theory, if you used the above code, someone could inject into a form a new field for <code>user_type</code> and send 'admin' along with the other form data, and easily switch their account to an admin account... bad news.</p>\n\n<p>By adding:</p>\n\n<pre><code>$fillable = ['name', 'password', 'email'];\n</code></pre>\n\n<p>You are ensuring that only those values can be updated using <code>mass assignment</code></p>\n\n<p>To be able to update the <code>user_type</code> value, you need to explicitly set it on the model and save it, like this:</p>\n\n<pre><code>$user-&gt;user_type = 'admin';\n$user-&gt;save();\n</code></pre>\n",
+      "owner": {
+        "display_name": "duellsy",
+        "link": "https://stackoverflow.com/users/1613391/duellsy"
+      }
+    },
+    {
+      "answer_id": 33027466,
+      "body": "<ol>\n<li><p><strong><code>find($id)</code></strong> takes an id and returns a single model. If no matching model exist, it returns <code>null</code>.</p></li>\n<li><p><strong><code>findOrFail($id)</code></strong> takes an id and returns a single model. If no matching model exist, it throws an error<sup>1</sup>.</p></li>\n<li><p><strong><code>first()</code></strong> returns the first record found in the database. If no matching model exist, it returns <code>null</code>.</p></li>\n<li><p><strong><code>firstOrFail()</code></strong> returns the first record found in the database. If no matching model exist, it throws an error<sup>1</sup>.</p></li>\n<li><p><strong><code>get()</code></strong> returns a collection of models matching the query.</p></li>\n<li><p><strong><code>pluck($column)</code></strong> returns a collection of just the values in the given column. In previous versions of Laravel this method was called <code>lists</code>.</p></li>\n<li><p><strong><code>toArray()</code></strong> converts the model/collection into a simple PHP array.</p></li>\n</ol>\n\n<hr>\n\n<p><strong>Note:</strong> <a href=\"http://laravel.com/docs/5.5/eloquent-collections\" rel=\"noreferrer\">a collection</a> is a beefed up array. It functions similarly to an array, but has a lot of added functionality, as you can see in <a href=\"http://laravel.com/docs/5.5/collections#available-methods\" rel=\"noreferrer\">the docs</a>.</p>\n\n<p>Unfortunately, PHP doesn't let you use a collection object everywhere you can use an array. For example, using a collection in a <code>foreach</code> loop is ok, put passing it to <code>array_map</code> is not. Similarly, if you type-hint an argument as <code>array</code>, PHP won't let you pass it a collection. Starting in PHP 7.1, there is the <a href=\"https://www.php.net/manual/en/language.types.iterable.php\" rel=\"noreferrer\"><code>iterable</code> typehint</a>, which can be used to accept both arrays and collections.</p>\n\n<p>If you ever want to get a plain array from a collection, call its <a href=\"http://laravel.com/docs/5.1/collections#method-all\" rel=\"noreferrer\"><code>all()</code></a> method.</p>\n\n<hr>\n\n<p><sup>1</sup> The error thrown by the <code>findOrFail</code> and <code>firstOrFail</code> methods is a <a href=\"https://github.com/laravel/framework/blob/ec8fb5596b67de0edfcc8cc7c2167d6c184f080b/src/Illuminate/Database/Eloquent/ModelNotFoundException.php\" rel=\"noreferrer\"><code>ModelNotFoundException</code></a>. If you don't catch this exception yourself, <a href=\"https://github.com/laravel/framework/blob/ec8fb5596b67de0edfcc8cc7c2167d6c184f080b/src/Illuminate/Foundation/Exceptions/Handler.php#L199-L200\" rel=\"noreferrer\">Laravel will respond with a 404</a>, which is what you want most of the time.</p>\n",
+      "owner": {
+        "display_name": "Joseph Silber",
+        "link": "https://stackoverflow.com/users/825568/joseph-silber"
+      }
+    },
+    {
+      "answer_id": 28277980,
+      "body": "<p>In the model, write the below code;</p>\n\n<pre><code>public $timestamps = false;\n</code></pre>\n\n<p>This would work.</p>\n\n<p>Explanation : By default laravel will expect created_at &amp; updated_at column in your table.\nBy making it to false it will override the default setting.</p>\n",
+      "owner": {
+        "display_name": "Sameer Shaikh",
+        "link": "https://stackoverflow.com/users/1987693/sameer-shaikh"
+      }
+    },
+    {
+      "answer_id": 23786522,
+      "body": "<p>Specify a smaller length for your e-mail:</p>\n\n<pre><code>$table-&gt;string('email', 250);\n</code></pre>\n\n<p>Which is the default, actually:</p>\n\n<pre><code>$table-&gt;string('email');\n</code></pre>\n\n<p>And you should be good.</p>\n\n<p>For Laravel 5.4 you can find a solution in this <a href=\"https://laravel-news.com/laravel-5-4-key-too-long-error\" rel=\"noreferrer\">Laravel 5.4: Specified key was too long error, Laravel News</a> post:</p>\n\n<p><em>As outlined in the Migrations guide to fix this all you have to do is edit your AppServiceProvider.php file and inside the boot method set a default string length:</em></p>\n\n<pre><code>use Illuminate\\Database\\Schema\\Builder;\n\n\npublic function boot()\n{\n    Builder::defaultStringLength(191);\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Antonio Ribeiro",
+        "link": "https://stackoverflow.com/users/1959747/antonio-ribeiro"
+      }
+    },
+    {
+      "answer_id": 21680118,
+      "body": "<pre><code>Auth::user()-&gt;products-&gt;sum('price');\n</code></pre>\n\n<p>The documentation is a little light for some of the <code>Collection</code> methods but all the query builder aggregates are seemingly available besides <code>avg()</code> that can be found at <a href=\"http://laravel.com/docs/queries#aggregates\" rel=\"noreferrer\">http://laravel.com/docs/queries#aggregates</a>.</p>\n",
+      "owner": {
+        "display_name": "user1669496",
+        "link": "https://stackoverflow.com/users/1669496/user1669496"
+      }
+    },
+    {
+      "answer_id": 21009418,
+      "body": "<p>Here's a full example of what \"lu cip\" was talking about:</p>\n\n<pre><code>$user = User::firstOrNew(array('name' =&gt; Input::get('name')));\n$user-&gt;foo = Input::get('foo');\n$user-&gt;save();\n</code></pre>\n\n<p>Below is the updated link of the docs which is on the latest version of Laravel</p>\n\n<p>Docs here: <a href=\"https://laravel.com/docs/6.x/eloquent#other-creation-methods\" rel=\"noreferrer\">Updated link</a></p>\n",
+      "owner": {
+        "display_name": "weotch",
+        "link": "https://stackoverflow.com/users/59160/weotch"
+      }
+    },
+    {
+      "answer_id": 23415081,
+      "body": "<p>To fix this issue, you need to change the ownership of the directory to the unix user that the webserver uses.</p>\n\n<ol>\n<li>Get out of the VM</li>\n<li>Using the console, go to your synced folder (vagrant)</li>\n<li>sudo chown -R $USER:www-data storage</li>\n<li>chmod -R 775 storage</li>\n</ol>\n\n<p>Even though I created the project within the VM using the VM user, the folder belonged to the user in the real computer; so, when trying to </p>\n\n<p>Now it's working.</p>\n\n<p>Thanks to all those that helped me figure this thing out</p>\n\n<p><strong>EDIT:</strong></p>\n\n<p>Actually, it still wasn't working, it still gave me a \"permission denied\" problem.</p>\n\n<p>Here's what I did, I modified my Vagrantfile like this:</p>\n\n<pre><code>config.vm.synced_folder \"./app\",\"/var/www/\", create:true,\n:owner =&gt; \"vagrant\",\n:group =&gt; \"www-data\",\n:mount_options =&gt; [\"dmode=775\",\"fmode=664\"]\n</code></pre>\n",
+      "owner": {
+        "display_name": "frankelot",
+        "link": "https://stackoverflow.com/users/1949554/frankelot"
+      }
+    },
+    {
+      "answer_id": 30365349,
+      "body": "<p>You can access your controller method like this:\n</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>app('App\\Http\\Controllers\\PrintReportController')-&gt;getPrintReport();\n</code></pre>\n\n<p>This will work, but it's bad in terms of code organisation (remember to use the right namespace for your <code>PrintReportController</code>)</p>\n\n<p>You can extend the <code>PrintReportController</code> so <code>SubmitPerformanceController</code> will inherit that method</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>class SubmitPerformanceController extends PrintReportController {\n     // ....\n}\n</code></pre>\n\n<p>But this will also inherit all other methods from <code>PrintReportController</code>. </p>\n\n<p>The best approach will be to create a <code>trait</code> (e.g. in <code>app/Traits</code>), implement the logic there and tell your controllers to use it:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>trait PrintReport {\n\n    public function getPrintReport() {\n        // .....\n    }\n}\n</code></pre>\n\n<p>Tell your controllers to use this trait:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>class PrintReportController extends Controller {\n     use PrintReport;\n}\n\nclass SubmitPerformanceController extends Controller {\n     use PrintReport;\n}\n</code></pre>\n\n<p>Both solutions make <code>SubmitPerformanceController</code> to have <code>getPrintReport</code> method so you can call it with <code>$this-&gt;getPrintReport();</code> from within the controller or directly as a route (if you mapped it in the <code>routes.php</code>)</p>\n\n<p>You can read more about traits <a href=\"https://php.net/manual/en/language.oop5.traits.php\" rel=\"noreferrer\">here</a>.</p>\n",
+      "owner": {
+        "display_name": "Sh1d0w",
+        "link": "https://stackoverflow.com/users/1868830/sh1d0w"
+      }
+    },
+    {
+      "answer_id": 29183435,
+      "body": "<p>Laravel 5.7 introduced the following functionality:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>Auth::routes(['register' =&gt; false]);\n</code></pre>\n\n<p>The currently possible options here are:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>Auth::routes([\n  'register' =&gt; false, // Registration Routes...\n  'reset' =&gt; false, // Password Reset Routes...\n  'verify' =&gt; false, // Email Verification Routes...\n]);\n</code></pre>\n\n<p>For older Laravel versions just override <code>showRegistrationForm()</code> and <code>register()</code> methods in</p>\n\n<ul>\n<li><code>AuthController</code> for Laravel 5.0 - 5.4</li>\n<li><code>Auth/RegisterController.php</code> for Laravel 5.5</li>\n</ul>\n\n<pre class=\"lang-php prettyprint-override\"><code>public function showRegistrationForm()\n{\n    return redirect('login');\n}\n\npublic function register()\n{\n\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Limon Monte",
+        "link": "https://stackoverflow.com/users/1331425/limon-monte"
+      }
+    },
+    {
+      "answer_id": 52330607,
+      "body": "<p>If the <code>data</code> directory doesn't exist under (<code>storage/framework/cache/data</code>), then you will have this error.    </p>\n\n<p>This <code>data</code> directory doesn't exist by default on a fresh/new installation.</p>\n\n<p>Creating the <code>data</code> directory manually at (<code>storage/framework/cache</code>) should fix this issue.</p>\n",
+      "owner": {
+        "display_name": "Mytho XY",
+        "link": "https://stackoverflow.com/users/10363318/mytho-xy"
+      }
+    },
+    {
+      "answer_id": 16549612,
+      "body": "<p>You'll need to order by the same field you're ordering by now, but descending.\nAs an example, if you have a time stamp when the upload was done called <code>upload_time</code>, you'd do something like this;</p>\n\n<p>For Pre-Laravel 4</p>\n\n<pre><code>return DB::table('files')-&gt;order_by('upload_time', 'desc')-&gt;first();\n</code></pre>\n\n<p>For Laravel 4 and onwards</p>\n\n<pre><code>return DB::table('files')-&gt;orderBy('upload_time', 'desc')-&gt;first();\n</code></pre>\n\n<p>For Laravel 5.7 and onwards</p>\n\n<pre><code>return DB::table('files')-&gt;latest('upload_time')-&gt;first();\n</code></pre>\n\n<p>This will order the rows in the files table by upload time, <em>descending order</em>, and take the first one. This will be the latest uploaded file.</p>\n",
+      "owner": {
+        "display_name": "Joachim Isaksson",
+        "link": "https://stackoverflow.com/users/477878/joachim-isaksson"
+      }
+    },
+    {
+      "answer_id": 35966973,
+      "body": "<p>If any of your <code>.env</code> variables contains white space, make sure you wrap them in double-quotes. For example:</p>\n\n<p><code>SITE_NAME=\"My website\"</code></p>\n\n<p>Don't forget to clear your cache before testing:</p>\n\n<pre><code>php artisan config:cache\nphp artisan config:clear\n</code></pre>\n",
+      "owner": {
+        "display_name": "benjolly1989",
+        "link": "https://stackoverflow.com/users/6051644/benjolly1989"
+      }
+    },
+    {
+      "answer_id": 29324823,
+      "body": "<p>Your software dependencies have an incompatible version conflict.</p>\n\n<p>At the same time you want to install any Laravel 4.2.x version, and \"zizaco/entrust\" from its master branch. And that master branch requires at least Laravel 5.0 (roughly speaking).</p>\n\n<p>The problem comes from the dependency on branches. It's likely that the package zizaco/entrust once was using Laravel 4.2 in its master branch, and that you were able to install your dependencies at that day. But the very moment this branch gets updated with an incompatible version requirement, you will never ever be able to run <code>composer update</code> and get updated dependencies.</p>\n\n<p>Always use tagged versions! Ideally you use a relaxed version requirement that allows for compatible updates. This should be expressed as a tilde-two-number version requirement: <code>~1.2</code> would install a version 1.2.0 and up (like 1.2.99 or 1.2.100), and also 1.3 and up. If you need a certain patch release: Caret-three-number version <code>^1.2.10</code> will install 1.2.10 or up, also 1.3 and up.</p>\n\n<p>Using this version requirement instead of <code>dev-master</code> will allow you to use released versions instead of the unstable state in the master branch, and allows you to address the most recent version that still works with Laravel 4.2. I guess that would be zizaco/entrust version 1.3.0, but version 1.2 would also qualify. Go with <code>\"zizaco/entrust\": \"~1.2\"</code>.</p>\n",
+      "owner": {
+        "display_name": "Sven",
+        "link": "https://stackoverflow.com/users/1627406/sven"
+      }
+    },
+    {
+      "answer_id": 29254016,
+      "body": "<p>You need to use</p>\n\n<pre><code>{!! $text !!}\n</code></pre>\n\n<p>The string will auto escape when using <code>{{ $text }}</code>.</p>\n",
+      "owner": {
+        "display_name": "terry low",
+        "link": "https://stackoverflow.com/users/3792240/terry-low"
+      }
+    },
+    {
+      "answer_id": 45476287,
+      "body": "<p>First you should create one <code>migration</code> file for your table like:</p>\n\n<pre><code>public function up()\n    {\n        Schema::create('test', function (Blueprint $table) {\n            $table-&gt;increments('id');\n            $table-&gt;string('fname',255);\n            $table-&gt;string('lname',255);\n            $table-&gt;rememberToken();\n            $table-&gt;timestamps();\n        });\n    }\n</code></pre>\n\n<p>After create <strong>test</strong> folder in <strong>migrations</strong> folder then newly created <strong>migration</strong> moved/copied in <strong>test</strong> folder and run below command in your <strong>terminal/cmd</strong> like:</p>\n\n<pre><code>php artisan migrate --path=/database/migrations/test/\n</code></pre>\n",
+      "owner": {
+        "display_name": "AddWeb Solution Pvt Ltd",
+        "link": "https://stackoverflow.com/users/4939915/addweb-solution-pvt-ltd"
+      }
+    },
+    {
+      "answer_id": 37108149,
+      "body": "<p>Usually, you do not want to add anything to a Request object, it's better to use collection and <a href=\"https://laravel.com/docs/master/collections#method-put\" rel=\"noreferrer\"><code>put()</code></a> helper:</p>\n\n<pre><code>function store(Request $request) \n{\n    // some additional logic or checking\n    User::create(array_merge($request-&gt;all(), ['index' =&gt; 'value']));\n}\n</code></pre>\n\n<p>Or you could <a href=\"http://php.net/manual/en/language.operators.array.php\" rel=\"noreferrer\">union arrays</a>:</p>\n\n<pre><code>User::create($request-&gt;all() + ['index' =&gt; 'value']);\n</code></pre>\n\n<p>But, if you really want to add something to a Request object, do this:</p>\n\n<pre><code>$request-&gt;request-&gt;add(['variable' =&gt; 'value']); //add request\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alexey Mezenin",
+        "link": "https://stackoverflow.com/users/1227923/alexey-mezenin"
+      }
+    },
+    {
+      "answer_id": 21281718,
+      "body": "<p>Eloquent has a method for that (Laravel 4.*/5.*);</p>\n\n<pre><code>Model::whereNotNull('sent_at')\n</code></pre>\n\n<p>Laravel 3:</p>\n\n<pre><code>Model::where_not_null('sent_at')\n</code></pre>\n",
+      "owner": {
+        "display_name": "Bas",
+        "link": "https://stackoverflow.com/users/598688/bas"
+      }
+    },
+    {
+      "answer_id": 25373254,
+      "body": "<p>To put this folder on the PATH environment variable type</p>\n\n<pre><code>export PATH=\"$PATH:$HOME/.composer/vendor/bin\"\n</code></pre>\n\n<p>This appends the folder to your existing PATH, however, it is only active for your current terminal session.</p>\n\n<p>If you want it to be automatically set, it depends on the shell you are using. For bash, you can append this line to <code>$HOME/.bashrc</code> using your favorite editor or type the following on the shell</p>\n\n<pre><code>echo 'export PATH=\"$PATH:$HOME/.composer/vendor/bin\"' &gt;&gt; ~/.bashrc\n</code></pre>\n\n<p>In order to check if it worked, logout and login again or execute</p>\n\n<pre><code>source ~/.bashrc\n</code></pre>\n\n<p>on the shell.</p>\n\n<p>PS: For other systems where there is no <code>~/.bashrc</code>, you can also put this into <code>~/.bash_profile</code></p>\n\n<p>PSS: For more recent laravel you need to put <code>$HOME/.config/composer/vendor/bin</code> on the <code>PATH</code>.</p>\n\n<p>PSSS: If you want to put this folder on the path also for other shells or on the GUI, you should append the said <code>export</code> command to <code>~/.profile</code> (cf. <a href=\"https://help.ubuntu.com/community/EnvironmentVariables\" rel=\"noreferrer\">https://help.ubuntu.com/community/EnvironmentVariables</a>).</p>\n",
+      "owner": {
+        "display_name": "MrTux",
+        "link": "https://stackoverflow.com/users/3906760/mrtux"
+      }
+    },
+    {
+      "answer_id": 23911985,
+      "body": "<p>In <strong>php 7.2+</strong> you can't use <code>count</code> on the relation object, so there's no one-fits-all method for all relations. Use query method instead as @tremby provided below:</p>\n\n<pre><code>$model-&gt;relation()-&gt;exists()\n</code></pre>\n\n<hr>\n\n<p>generic solution working on all the relation types (<strong>pre php 7.2</strong>):</p>\n\n<pre><code>if (count($model-&gt;relation))\n{\n  // exists\n}\n</code></pre>\n\n<p>This will work for every relation since dynamic properties return <code>Model</code> or <code>Collection</code>. Both implement <code>ArrayAccess</code>.</p>\n\n<p>So it goes like this:</p>\n\n<p><strong>single relations:</strong> <code>hasOne</code> / <code>belongsTo</code> / <code>morphTo</code> / <code>morphOne</code></p>\n\n<pre><code>// no related model\n$model-&gt;relation; // null\ncount($model-&gt;relation); // 0 evaluates to false\n\n// there is one\n$model-&gt;relation; // Eloquent Model\ncount($model-&gt;relation); // 1 evaluates to true\n</code></pre>\n\n<p><strong>to-many relations:</strong> <code>hasMany</code> / <code>belongsToMany</code> / <code>morphMany</code> / <code>morphToMany</code> / <code>morphedByMany</code></p>\n\n<pre><code>// no related collection\n$model-&gt;relation; // Collection with 0 items evaluates to true\ncount($model-&gt;relation); // 0 evaluates to false\n\n// there are related models\n$model-&gt;relation; // Collection with 1 or more items, evaluates to true as well\ncount($model-&gt;relation); // int &gt; 0 that evaluates to true\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jarek Tkaczyk",
+        "link": "https://stackoverflow.com/users/784588/jarek-tkaczyk"
+      }
+    },
+    {
+      "answer_id": 43187825,
+      "body": "<p>You can do it if you start from the model</p>\n\n<pre><code>php artisan make:model Todo -mcr\n</code></pre>\n\n<p>if you run <code>php artisan make:model --help</code> you can see all the available options</p>\n\n<blockquote>\n  <p>-m, --migration       Create a new migration file for the model.<br>\n    -c, --controller      Create a new controller for the model.<br>\n      -r, --resource        Indicates if the generated controller should be a resource controller</p>\n</blockquote>\n\n<p><strong>Update</strong></p>\n\n<p>As mentioned in the comments by @arun in newer versions of laravel > 5.6 it is possible to run following command:</p>\n\n<pre><code>php artisan make:model Todo -a\n</code></pre>\n\n<blockquote>\n  <p>-a, --all             Generate a migration, factory, and resource\n  controller for the model</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Christophvh",
+        "link": "https://stackoverflow.com/users/3493752/christophvh"
+      }
+    },
+    {
+      "answer_id": 46466616,
+      "body": "<p>Use this in the head section: </p>\n\n<pre><code>&lt;meta name=\"csrf-token\" content=\"{{ csrf_token() }}\"&gt;\n</code></pre>\n\n<p>and get the csrf token in ajax:</p>\n\n<pre><code>$.ajaxSetup({\n  headers: {\n    'X-CSRF-TOKEN': $('meta[name=\"csrf-token\"]').attr('content')\n  }\n});\n</code></pre>\n\n<p>Please refer Laravel Documentation <a href=\"https://laravel.com/docs/5.6/csrf\" rel=\"noreferrer\">csrf_token</a></p>\n",
+      "owner": {
+        "display_name": "Kannan K",
+        "link": "https://stackoverflow.com/users/6908381/kannan-k"
+      }
+    },
+    {
+      "answer_id": 17830269,
+      "body": "<p>I accidentally created a migration with a bad name (command: <em><code>php artisan migrate:make</code></em>). I <strong>did not run</strong> (<em><code>php artisan migrate</code></em>) the migration, so I decided to remove it.\nMy steps:</p>\n\n<ol>\n<li>Manually delete the migration file under <code>app/database/migrations/my_migration_file_name.php</code></li>\n<li>Reset the composer autoload files: <strong><code>composer dump-autoload</code></strong></li>\n<li>Relax</li>\n</ol>\n\n<hr>\n\n<p>If you did run the migration (<em><code>php artisan migrate</code></em>), you may do this:</p>\n\n<p><strong>a)</strong> Run <code>migrate:rollback</code> - it is the right way to undo the last migration (Thnx @Jakobud)</p>\n\n<p><strong>b)</strong> If <code>migrate:rollback</code> does not work, do it manually (I remember bugs with migrate:rollback in previous versions):</p>\n\n<ol>\n<li>Manually delete the migration file under <code>app/database/migrations/my_migration_file_name.php</code></li>\n<li>Reset the composer autoload files: <strong><code>composer dump-autoload</code></strong></li>\n<li>Modify your database: Remove the last entry from the <em>migrations</em> table</li>\n</ol>\n",
+      "owner": {
+        "display_name": "malisokan",
+        "link": "https://stackoverflow.com/users/1119695/malisokan"
+      }
+    },
+    {
+      "answer_id": 30232227,
+      "body": "<h2>With</h2>\n\n<p><code>with()</code> is for <strong>eager loading</strong>. That basically means, along the main model, Laravel will preload the relationship(s) you specify. This is especially helpful if you have a collection of models and you want to load a relation for all of them. Because with eager loading you run only one additional DB query instead of one for every model in the collection.</p>\n\n<p>Example:</p>\n\n<p><code>User &gt; hasMany &gt; Post</code></p>\n\n<pre><code>$users = User::with('posts')-&gt;get();\nforeach($users as $user){\n    $users-&gt;posts; // posts is already loaded and no additional DB query is run\n}\n</code></pre>\n\n<h2>Has</h2>\n\n<p><code>has()</code> is to filter the selecting model based on a relationship. So it acts very similarly to a normal WHERE condition. If you just use <code>has('relation')</code> that means you only want to get the models that have at least one related model in this relation.</p>\n\n<p>Example:</p>\n\n<p><code>User &gt; hasMany &gt; Post</code></p>\n\n<pre><code>$users = User::has('posts')-&gt;get();\n// only users that have at least one post are contained in the collection\n</code></pre>\n\n<h2>WhereHas</h2>\n\n<p><code>whereHas()</code> works basically the same as <code>has()</code> but allows you to specify additional filters for the related model to check.</p>\n\n<p>Example:</p>\n\n<p><code>User &gt; hasMany &gt; Post</code></p>\n\n<pre><code>$users = User::whereHas('posts', function($q){\n    $q-&gt;where('created_at', '&gt;=', '2015-01-01 00:00:00');\n})-&gt;get();\n// only users that have posts from 2015 on forward are returned\n</code></pre>\n",
+      "owner": {
+        "display_name": "lukasgeiter",
+        "link": "https://stackoverflow.com/users/1903366/lukasgeiter"
+      }
+    },
+    {
+      "answer_id": 16832214,
+      "body": "<p>The web enabled extensions and command line enabled extensions can differ. Run <code>php -m</code> in your terminal and check to see if <code>mcrypt</code> is listed. If it's not then check where the command line is loading your <code>php.ini</code> file from by running <code>php --ini</code> from your terminal.</p>\n\n<p>In this <code>php.ini</code> file you can enable the extension.</p>\n\n<h2>OSX</h2>\n\n<p>I have heard of people on OSX running in to problems due to the terminal pointing to the native PHP shipped with OSX. You should instead update your bash profile to include the actual path to your PHP. Something like this (I don't actually use OSX so this might not be 100%):</p>\n\n<pre><code>export PATH=/usr/local/php5/bin:$PATH\n</code></pre>\n\n<h2>Ubuntu</h2>\n\n<p>On earlier versions of Ubuntu (prior to 14.04) when you run <code>sudo apt-get install php5-mcrypt</code> it doesn't actually install the extension into the <code>mods-available</code>. You'll need to symlink it.</p>\n\n<pre><code>sudo ln -s /etc/php5/conf.d/mcrypt.ini /etc/php5/mods-available/mcrypt.ini\n</code></pre>\n\n<p>On all Ubuntu versions you'll need to enable the mod once it's installed. You can do that with <code>php5enmod</code>.</p>\n\n<pre><code>sudo php5enmod mcrypt\nsudo service apache2 restart\n</code></pre>\n\n<blockquote>\n  <p>NOTES </p>\n  \n  <ul>\n  <li>PHP 7.1 deprecated mcrypt and 7.2 has <a href=\"https://wiki.php.net/rfc/mcrypt-viking-funeral\" rel=\"noreferrer\">removed the mcrypt extension entirely</a></li>\n  <li>Laravel 5.1 and later <a href=\"https://github.com/laravel/framework/issues/9020\" rel=\"noreferrer\">removed the need for mcrypt</a></li>\n  </ul>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Jason Lewis",
+        "link": "https://stackoverflow.com/users/280329/jason-lewis"
+      }
+    },
+    {
+      "answer_id": 19937699,
+      "body": "<p>You either have to declare <code>public $timestamps = false;</code> in every model, or create a BaseModel, define it there, and have all your models extend it instead of eloquent.  Just bare in mind pivot tables MUST have timestamps if you're using Eloquent.</p>\n\n<p>Update: Note that timestamps are no longer REQUIRED in pivot tables after Laravel v3.</p>\n\n<p>Update: You can also disable timestamps by removing <code>$table-&gt;timestamps()</code> from your migration.</p>\n",
+      "owner": {
+        "display_name": "bgallagh3r",
+        "link": "https://stackoverflow.com/users/1154907/bgallagh3r"
+      }
+    },
+    {
+      "answer_id": 15393229,
+      "body": "<h2>For Laravel 5.3 and above</h2>\n\n<p>Check <a href=\"https://stackoverflow.com/a/39595605/908579\">Scott's answer</a> below.</p>\n\n<h2>For Laravel 5 up to 5.2</h2>\n\n<p>Simply put,</p>\n\n<p>On auth middleware:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>// redirect the user to \"/login\"\n// and stores the url being accessed on session\nif (Auth::guest()) {\n    return redirect()-&gt;guest('login');\n}\nreturn $next($request);\n</code></pre>\n\n<p>On login action:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>// redirect the user back to the intended page\n// or defaultpage if there isn't one\nif (Auth::attempt(['email' =&gt; $email, 'password' =&gt; $password])) {\n    return redirect()-&gt;intended('defaultpage');\n}\n</code></pre>\n\n<h2>For Laravel 4 (old answer)</h2>\n\n<p>At the time of this answer there was no official support from the framework itself. Nowadays you can use <del>the method pointed out by bgdrl below</del> this method: <em>(I've tried updating his answer, but it seems he won't accept)</em></p>\n\n<p>On auth filter:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>// redirect the user to \"/login\"\n// and stores the url being accessed on session\nRoute::filter('auth', function() {\n    if (Auth::guest()) {\n        return Redirect::guest('login');\n    }\n});\n</code></pre>\n\n<p>On login action:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>// redirect the user back to the intended page\n// or defaultpage if there isn't one\nif (Auth::attempt(['email' =&gt; $email, 'password' =&gt; $password])) {\n    return Redirect::intended('defaultpage');\n}\n</code></pre>\n\n<h2>For Laravel 3 (even older answer)</h2>\n\n<p>You could implement it like this:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>Route::filter('auth', function() {\n    // If there's no user authenticated session\n    if (Auth::guest()) {\n        // Stores current url on session and redirect to login page\n        Session::put('redirect', URL::full());\n        return Redirect::to('/login');\n    }\n    if ($redirect = Session::get('redirect')) {\n        Session::forget('redirect');\n        return Redirect::to($redirect);\n    }\n});\n</code></pre>\n\n<pre class=\"lang-php prettyprint-override\"><code>// on controller\npublic function get_login()\n{\n    $this-&gt;layout-&gt;nest('content', 'auth.login'); \n}\n\npublic function post_login()\n{\n    $credentials = [\n        'username' =&gt; Input::get('email'),\n        'password' =&gt; Input::get('password')\n    ];\n\n    if (Auth::attempt($credentials)) {\n        return Redirect::to('logged_in_homepage_here');\n    }\n\n    return Redirect::to('login')-&gt;with_input();\n}\n</code></pre>\n\n<p>Storing the redirection on Session has the benefit of persisting it even if the user miss typed his credentials or he doesn't have an account and has to signup.</p>\n\n<p>This also allows for anything else besides Auth to set a redirect on session and it will work magically.</p>\n",
+      "owner": {
+        "display_name": "vFragosop",
+        "link": "https://stackoverflow.com/users/908579/vfragosop"
+      }
+    },
+    {
+      "answer_id": 44984930,
+      "body": "<h2>Short answer</h2>\n\n<p>In <code>config\\database.php</code> --> <code>\"mysql\"</code> array</p>\n\n<p>Set <code>'strict' =&gt; false</code> to disable all.</p>\n\n<h2>....   or</h2>\n\n<p>You can leave <code>'strict' =&gt; true</code> and add modes to <code>\"mysql\"</code> option in </p>\n\n<pre><code>'mysql' =&gt; [\n       ...\n       ....\n       'strict' =&gt; true,\n       'modes' =&gt; [\n            //'ONLY_FULL_GROUP_BY', // Disable this to allow grouping by one column\n            'STRICT_TRANS_TABLES',\n            'NO_ZERO_IN_DATE',\n            'NO_ZERO_DATE',\n            'ERROR_FOR_DIVISION_BY_ZERO',\n            'NO_AUTO_CREATE_USER',\n            'NO_ENGINE_SUBSTITUTION'\n        ],\n ]\n</code></pre>\n\n<hr>\n\n<h2>Detailed answer</h2>\n\n<p>You may not need to disable all <strong>strict</strong> options ...\nKindly have a look on this <a href=\"https://github.com/laravel/framework/issues/14997#issuecomment-242129087\" rel=\"noreferrer\">answer</a> about this issue.</p>\n",
+      "owner": {
+        "display_name": "Husam",
+        "link": "https://stackoverflow.com/users/1599713/husam"
+      }
+    },
+    {
+      "answer_id": 15489907,
+      "body": "<p>The reason <code>MyModel::all()-&gt;delete()</code> doesn't work is because <code>all()</code> actually fires off the query and returns a collection of Eloquent objects. </p>\n\n<p>You can make use of the truncate method, this works for Laravel 4 and 5:</p>\n\n<pre><code>MyModel::truncate();\n</code></pre>\n\n<p>That drops all rows from the table without logging individual row deletions.</p>\n",
+      "owner": {
+        "display_name": "bilalq",
+        "link": "https://stackoverflow.com/users/1220479/bilalq"
+      }
+    },
+    {
+      "answer_id": 34454031,
+      "body": "<p>You'll need to use the <strong>web middleware</strong> if you need session state, CSRF protection, and more.</p>\n\n<pre><code>Route::group(['middleware' =&gt; ['web']], function () {\n    // your routes here\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "Cas Bloem",
+        "link": "https://stackoverflow.com/users/2306988/cas-bloem"
+      }
+    },
+    {
+      "answer_id": 30191854,
+      "body": "<p>The <strong>best</strong> approach is to create a <strong>symbolic link</strong> like @SlateEntropy very well pointed out in <a href=\"https://stackoverflow.com/a/30192351/351330\">the answer below</a>. To help with this, since version 5.3, Laravel <a href=\"https://laravel.com/docs/5.3/filesystem#configuration\" rel=\"noreferrer\">includes a command</a> which makes this incredibly easy to do:</p>\n\n<pre><code>php artisan storage:link\n</code></pre>\n\n<p>That creates a symlink from <code>public/storage</code> to <code>storage/app/public</code> for you and that's all there is to it. Now any file in <code>/storage/app/public</code> can be accessed via a link like:</p>\n\n<pre><code>http://somedomain.com/storage/image.jpg\n</code></pre>\n\n<hr>\n\n<p>If, for any reason, your can't create symbolic links (maybe you're on shared hosting, etc.) or you want to protect some files behind some access control logic, there is the alternative of having a special route that reads and serves the image. For example a simple closure route like this:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>Route::get('storage/{filename}', function ($filename)\n{\n    $path = storage_path('public/' . $filename);\n\n    if (!File::exists($path)) {\n        abort(404);\n    }\n\n    $file = File::get($path);\n    $type = File::mimeType($path);\n\n    $response = Response::make($file, 200);\n    $response-&gt;header(\"Content-Type\", $type);\n\n    return $response;\n});\n</code></pre>\n\n<p>You can now access your files just as you would if you had a symlink:</p>\n\n<pre><code>http://somedomain.com/storage/image.jpg\n</code></pre>\n\n<p>If you're using the <a href=\"http://image.intervention.io/api/response\" rel=\"noreferrer\">Intervention Image Library</a> you can use its built in <code>response</code> method to make things more succinct:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>Route::get('storage/{filename}', function ($filename)\n{\n    return Image::make(storage_path('public/' . $filename))-&gt;response();\n});\n</code></pre>\n\n<hr>\n\n<blockquote>\n  <p><strong>WARNING</strong></p>\n  \n  <p>Keep in mind that by <strong>manually serving</strong> the files you're incurring a <strong>performance penalty</strong>, because you're going through the entire Laravel request lifecycle in order to read and send the file contents, which is <strong>considerably slower</strong> than having the HTTP server handle it.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Bogdan",
+        "link": "https://stackoverflow.com/users/351330/bogdan"
+      }
+    },
+    {
+      "answer_id": 29648574,
+      "body": "<h2>Update (5.2)</h2>\n<p>With the latest version of Lumen (5.2) the Microframework focuses on Stateless APIs.<br />\nThe <a href=\"https://lumen.laravel.com/docs/5.2/releases#5.2.0\" rel=\"noreferrer\">documentation</a> states:</p>\n<blockquote>\n<p>Lumen 5.2 represents a shift on slimming Lumen to focus solely on serving stateless, JSON APIs. <strong>As such, sessions and views are no longer included with the framework.</strong> If you need access to these features, you should use the full Laravel framework.</p>\n</blockquote>\n<hr />\n<h2>Original answer (&lt;= 5.1)</h2>\n<p><strong>Lumen is all about speed</strong>. It's faster and can handle more requests per second than Laravel.</p>\n<p>Laravel is a framework that glues together a lot of components (3rd party and Laravels own components). Now Lumen makes use of a lot of the same components, but strips down the bootstrapping process to a minimum. You could say it is a &quot;different glue&quot;, the components (and therefore a lot of the features) are mostly the same.</p>\n<p>The performance improvement is achieved by taking away some of the flexibility of the framework in terms of configuration and altering the default boot process.</p>\n<p>Besides that, more features are disabled by default and have to be activated before they can be used. As an example: <strong>Facades</strong> (like <code>DB::table()</code>)<br />\nYou first need to uncomment this line in <code>bootstrap/app.php</code> to enable them:</p>\n<pre><code>// $app-&gt;withFacades();\n</code></pre>\n<p>The same goes for Dotenv environment files and Eloquent.</p>\n<p>For routing Lumen uses <a href=\"https://github.com/nikic/FastRoute\" rel=\"noreferrer\">nikic/FastRoute</a> instead of symfonys router because it performs a lot better and gives the micro-framework another big boost.</p>\n<p>Other than that pretty much everything is the same as in Laravel.</p>\n<p><strong>Good reads on Lumen</strong></p>\n<ul>\n<li><a href=\"http://lumen.laravel.com/docs\" rel=\"noreferrer\">Documentation</a> (especially the <a href=\"https://lumen.laravel.com/docs/master/releases\" rel=\"noreferrer\">introduction</a>)</li>\n<li><a href=\"https://mattstauffer.co/blog/introducing-lumen-from-laravel\" rel=\"noreferrer\">Article from Matt Stauffer</a></li>\n<li><a href=\"https://laravel-news.com/2015/04/lumen/\" rel=\"noreferrer\">Interview with Taylor Otwell</a> (especially the last question)</li>\n<li><a href=\"https://www.reddit.com/r/PHP/comments/32kajb/lumen_php_microframework_by_laravel/\" rel=\"noreferrer\">Reddit discussion</a></li>\n<li><a href=\"https://laracasts.com/lessons/introducing-lumen\" rel=\"noreferrer\">Laracast: Introducing Lumen</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "lukasgeiter",
+        "link": "https://stackoverflow.com/users/1903366/lukasgeiter"
+      }
+    },
+    {
+      "answer_id": 20585483,
+      "body": "<p>When using <code>-&gt;get()</code> you cannot simply use any of the below:</p>\n\n<pre><code>if (empty($result)) { }\nif (!$result) { }\nif ($result) { }\n</code></pre>\n\n<p>Because if you <code>dd($result);</code> you'll notice an instance of <code>Illuminate\\Support\\Collection</code> is always returned, even when there are no results. Essentially what you're checking is <code>$a = new stdClass; if ($a) { ... }</code> which will always return true.</p>\n\n<p>To determine if there are any results you can do any of the following:</p>\n\n<pre><code>if ($result-&gt;first()) { } \nif (!$result-&gt;isEmpty()) { }\nif ($result-&gt;count()) { }\nif (count($result)) { }\n</code></pre>\n\n<p>You could also use <code>-&gt;first()</code> instead of <code>-&gt;get()</code> on the query builder which will return an instance of the first found model, or <code>null</code> otherwise. This is useful if you need or are expecting only one result from the database.</p>\n\n<pre><code>$result = Model::where(...)-&gt;first();\nif ($result) { ... }\n</code></pre>\n\n<p><strong>Notes / References</strong></p>\n\n<ul>\n<li><strong><code>-&gt;first()</code></strong> <a href=\"http://laravel.com/api/4.2/Illuminate/Database/Eloquent/Collection.html#method_first\">http://laravel.com/api/4.2/Illuminate/Database/Eloquent/Collection.html#method_first</a></li>\n<li><strong><code>isEmpty()</code></strong> <a href=\"http://laravel.com/api/4.2/Illuminate/Database/Eloquent/Collection.html#method_isEmpty\">http://laravel.com/api/4.2/Illuminate/Database/Eloquent/Collection.html#method_isEmpty</a></li>\n<li><strong><code>-&gt;count()</code></strong> <a href=\"http://laravel.com/api/4.2/Illuminate/Database/Eloquent/Collection.html#method_count\">http://laravel.com/api/4.2/Illuminate/Database/Eloquent/Collection.html#method_count</a></li>\n<li><strong><code>count($result)</code></strong> works because the Collection implements <a href=\"http://php.net/manual/en/class.countable.php\">Countable</a> and an internal <code>count()</code> method: <a href=\"http://laravel.com/api/4.2/Illuminate/Database/Eloquent/Collection.html#method_count\">http://laravel.com/api/4.2/Illuminate/Database/Eloquent/Collection.html#method_count</a></li>\n</ul>\n\n<h1>Bonus Information</h1>\n\n<p>The Collection and the Query Builder differences can be a bit confusing to newcomers of Laravel because the method names are often the same between the two. For that reason it can be confusing to know what one you’re working on. The Query Builder essentially builds a query until you call a method where it will execute the query and hit the database (e.g. when you call certain methods like <code>-&gt;all()</code> <code>-&gt;first()</code> <code>-&gt;lists()</code> and others). Those methods <em>also</em> exist on the <code>Collection</code> object, which can get returned from the Query Builder if there are multiple results. If you're not sure what class you're actually working with, try doing <code>var_dump(User::all())</code> and experimenting to see what classes it's actually returning (with help of <code>get_class(...)</code>). I highly recommend you check out the source code for the Collection class, it's pretty simple. Then check out the Query Builder and see the similarities in function names and find out when it actually hits the database.</p>\n\n<ul>\n<li><a href=\"https://github.com/laravel/framework/blob/5.2/src/Illuminate/Support/Collection.php\">Laravel 5.2 Collection Class</a></li>\n<li><a href=\"https://github.com/laravel/framework/blob/5.2/src/Illuminate/Database/Query/Builder.php\">Laravel 5.2 Query Builder</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Gary Green",
+        "link": "https://stackoverflow.com/users/63523/gary-green"
+      }
+    },
+    {
+      "answer_id": 38172879,
+      "body": "<p>You can do it like this:</p>\n\n<pre><code>Table::select('name','surname')-&gt;where('id', 1)-&gt;get();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marcin Nabiałek",
+        "link": "https://stackoverflow.com/users/3593996/marcin-nabia%c5%82ek"
+      }
+    },
+    {
+      "answer_id": 19923153,
+      "body": "<p>Consider this code:</p>\n\n<pre><code>Products::whereIn('id', function($query){\n    $query-&gt;select('paper_type_id')\n    -&gt;from(with(new ProductCategory)-&gt;getTable())\n    -&gt;whereIn('category_id', ['223', '15'])\n    -&gt;where('active', 1);\n})-&gt;get();\n</code></pre>\n",
+      "owner": {
+        "display_name": "lukaserat",
+        "link": "https://stackoverflow.com/users/2338482/lukaserat"
+      }
+    },
+    {
+      "answer_id": 31619817,
+      "body": "<p>There is now a <code>php artisan view:clear</code> command for this task since Laravel 5.1</p>\n",
+      "owner": {
+        "display_name": "DilipGurung",
+        "link": "https://stackoverflow.com/users/3760066/dilipgurung"
+      }
+    },
+    {
+      "answer_id": 34226484,
+      "body": "<p>Unfortunately what you'd like to do is not possible. GraphQL requires you to be explicit about specifying which fields you would like returned from your query.</p>\n",
+      "owner": {
+        "display_name": "Peter Horne",
+        "link": "https://stackoverflow.com/users/122446/peter-horne"
+      }
+    },
+    {
+      "answer_id": 32738930,
+      "body": "<p>You have to add <strong>data</strong> in your ajax request. I hope so it will be work.</p>\n\n<pre><code>data: {\n        \"_token\": \"{{ csrf_token() }}\",\n        \"id\": id\n        }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Deepak saini",
+        "link": "https://stackoverflow.com/users/3901691/deepak-saini"
+      }
+    },
+    {
+      "answer_id": 32368522,
+      "body": "<p>You use hash commenting:</p>\n\n<pre><code># Test Settings\nACCESS_KEY=qwsdr\nACCESS_TOKEN=Bgcvfsx\n\n# Live Settings\nACCESS_KEY=985AsdefG\nACCCESS_TOKEN=LFP994kL\n</code></pre>\n\n<p>Documentation: <a href=\"https://github.com/vlucas/phpdotenv#comments\" rel=\"noreferrer\">https://github.com/vlucas/phpdotenv#comments</a></p>\n",
+      "owner": {
+        "display_name": "Joel Hinz",
+        "link": "https://stackoverflow.com/users/1520841/joel-hinz"
+      }
+    },
+    {
+      "answer_id": 24869629,
+      "body": "<p>They are very similar so it is not surprising that it's a bit confusing. The summary is that PSR-0 had some backwards compatibility features for PEAR-style classnames that PSR-4 dropped, as such it only supports namespaced code. On top of that PSR-4 does not force you to have the whole namespace as a directory structure, but only the part following the anchor point.</p>\n\n<p>For example if you define that the <code>Acme\\Foo\\</code> namespace is anchored in <code>src/</code>, with PSR-0 it means it will look for <code>Acme\\Foo\\Bar</code> in <code>src/Acme/Foo/Bar.php</code> while in PSR-4 it will look for it in <code>src/Bar.php</code>, allowing for shorter directory structures. On the other hand some prefer to have the full directory structure to clearly see what is in which namespace, so you can also say that <code>Acme\\Foo\\</code> is in <code>src/Acme/Foo</code> with PSR-4 which will gives you the equivalent of the PSR-0 behavior described above.</p>\n\n<p>Long story short for new projects and for most intents and purposes, you can use PSR-4 and forget all about PSR-0.</p>\n",
+      "owner": {
+        "display_name": "Seldaek",
+        "link": "https://stackoverflow.com/users/6512/seldaek"
+      }
+    },
+    {
+      "answer_id": 29772274,
+      "body": "<h1>Check MySQL UNIX Socket</h1>\n<p>Find <strong>unix_socket</strong> location using MySQL</p>\n<p><code>mysql -u homestead -p</code></p>\n<pre><code>mysql&gt; show variables like '%sock%';\n+-----------------------------------------+-----------------------------+\n| Variable_name                           | Value                       |\n+-----------------------------------------+-----------------------------+\n| performance_schema_max_socket_classes   | 10                          |\n| performance_schema_max_socket_instances | 322                         |\n| socket                                  | /var/run/mysqld/mysqld.sock |\n+-----------------------------------------+-----------------------------+\n3 rows in set (0.00 sec)\n</code></pre>\n<p>Then I go to <strong>config/database.php</strong></p>\n<p>I update this line : <code>'unix_socket' =&gt; '/tmp/mysql.sock',</code></p>\n<p>to : <code>'unix_socket'   =&gt; '/var/run/mysqld/mysqld.sock',</code></p>\n<p>That's it. It works for my as my 4th try.I hope these steps help someone. :D</p>\n",
+      "owner": {
+        "display_name": "code-8",
+        "link": "https://stackoverflow.com/users/4480164/code-8"
+      }
+    },
+    {
+      "answer_id": 27095159,
+      "body": "<p>It depends if you want to work with the user afterwards or only check if one exists.</p>\n\n<p>If you want to use the user object if it exists:</p>\n\n<pre><code>$user = User::where('email', '=', Input::get('email'))-&gt;first();\nif ($user === null) {\n   // user doesn't exist\n}\n</code></pre>\n\n<p>And if you only want to check</p>\n\n<pre><code>if (User::where('email', '=', Input::get('email'))-&gt;count() &gt; 0) {\n   // user found\n}\n</code></pre>\n\n<p>Or even nicer</p>\n\n<pre><code>if (User::where('email', '=', Input::get('email'))-&gt;exists()) {\n   // user found\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "lukasgeiter",
+        "link": "https://stackoverflow.com/users/1903366/lukasgeiter"
+      }
+    },
+    {
+      "answer_id": 28281787,
+      "body": "<p>Based upon an answer of a similar question here:\n<a href=\"https://stackoverflow.com/a/22695523/1412268\">https://stackoverflow.com/a/22695523/1412268</a></p>\n\n<p>Take a look at <a href=\"http://guzzle.readthedocs.org/en/latest/\" rel=\"noreferrer\">Guzzle</a></p>\n\n<pre><code>$client = new GuzzleHttp\\Client();\n$res = $client-&gt;get('https://api.github.com/user', ['auth' =&gt;  ['user', 'pass']]);\necho $res-&gt;getStatusCode(); // 200\necho $res-&gt;getBody(); // { \"type\": \"User\", ....\n</code></pre>\n",
+      "owner": {
+        "display_name": "AI Snoek",
+        "link": "https://stackoverflow.com/users/1412268/ai-snoek"
+      }
+    },
+    {
+      "answer_id": 28256951,
+      "body": "<p>Use <code>where</code> with a <code>!=</code> operator in combination with <code>whereNull</code></p>\n\n<pre><code>Code::where('to_be_used_by_user_id', '!=' , 2)-&gt;orWhereNull('to_be_used_by_user_id')-&gt;get()\n</code></pre>\n",
+      "owner": {
+        "display_name": "lukasgeiter",
+        "link": "https://stackoverflow.com/users/1903366/lukasgeiter"
+      }
+    },
+    {
+      "answer_id": 23060363,
+      "body": "<p>You can use the URL facade which lets you do calls to the <a href=\"http://laravel.com/api/4.1/Illuminate/Routing/UrlGenerator.html\">URL generator</a></p>\n\n<p>So you can do:</p>\n\n<pre><code>URL::to('/');\n</code></pre>\n\n<p>You can also use the application container:</p>\n\n<pre><code>$app-&gt;make('url')-&gt;to('/');\n$app['url']-&gt;to('/');\nApp::make('url')-&gt;to('/');\n</code></pre>\n\n<p>Or inject the UrlGenerator:</p>\n\n<pre><code>&lt;?php\nnamespace Vendor\\Your\\Class\\Namespace;\n\nuse Illuminate\\Routing\\UrlGenerator;\n\nclass Classname\n{\n    protected $url;\n\n    public function __construct(UrlGenerator $url)\n    {\n        $this-&gt;url = $url;\n    }\n\n    public function methodName()\n    {\n        $this-&gt;url-&gt;to('/');\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "hannesvdvreken",
+        "link": "https://stackoverflow.com/users/1079360/hannesvdvreken"
+      }
+    },
+    {
+      "answer_id": 26144180,
+      "body": "<p>You need to put <code>SongsTableSeeder</code> into file <code>SongsTableSeeder.php</code> in the same directory where you have your <code>DatabaseSeeder.php</code> file.</p>\n\n<p>And you need to run in your console:</p>\n\n<pre><code>composer dump-autoload\n</code></pre>\n\n<p>to generate new class map and then run:</p>\n\n<pre><code>php artisan db:seed\n</code></pre>\n\n<p>I've just tested it. It is working without a problem in Laravel 5</p>\n",
+      "owner": {
+        "display_name": "Marcin Nabiałek",
+        "link": "https://stackoverflow.com/users/3593996/marcin-nabia%c5%82ek"
+      }
+    },
+    {
+      "answer_id": 25850237,
+      "body": "<p>Query Builder:</p>\n\n<pre><code>DB::table(..)-&gt;select(..)-&gt;whereNotIn('book_price', [100,200])-&gt;get();\n</code></pre>\n\n<p>Eloquent:</p>\n\n<pre><code>SomeModel::select(..)-&gt;whereNotIn('book_price', [100,200])-&gt;get();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jarek Tkaczyk",
+        "link": "https://stackoverflow.com/users/784588/jarek-tkaczyk"
+      }
+    },
+    {
+      "answer_id": 25765839,
+      "body": "<p>If you want to set null on delete: </p>\n\n<pre><code>$table-&gt;...-&gt;onDelete('set null');\n</code></pre>\n\n<p>First make sure you set the foreign key field as nullable:</p>\n\n<pre><code>$table-&gt;integer('foreign_id')-&gt;unsigned()-&gt;nullable();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Johan",
+        "link": "https://stackoverflow.com/users/3419045/johan"
+      }
+    },
+    {
+      "answer_id": 16661375,
+      "body": "<p>Just add a route to that method separately, <strong>before</strong> you register the resource:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>Route::get('foo/bar', 'FooController@bar');\nRoute::resource('foo', 'FooController');\n</code></pre>\n",
+      "owner": {
+        "display_name": "Joseph Silber",
+        "link": "https://stackoverflow.com/users/825568/joseph-silber"
+      }
+    },
+    {
+      "answer_id": 22616100,
+      "body": "<p>Add it in two steps, and it's good to make it unsigned too:</p>\n\n<pre><code>public function up()\n{\n    Schema::create('priorities', function($table) {\n        $table-&gt;increments('id', true);\n        $table-&gt;integer('user_id')-&gt;unsigned();\n        $table-&gt;string('priority_name');\n        $table-&gt;smallInteger('rank');\n        $table-&gt;text('class');\n        $table-&gt;timestamps('timecreated');\n    });\n\n   Schema::table('priorities', function($table) {\n       $table-&gt;foreign('user_id')-&gt;references('id')-&gt;on('users');\n   });\n\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Antonio Ribeiro",
+        "link": "https://stackoverflow.com/users/1959747/antonio-ribeiro"
+      }
+    },
+    {
+      "answer_id": 18289241,
+      "body": "<p>If you are using post as a model (without dependency injection), you can also do:</p>\n\n<pre><code>$posts = Post::orderBy('id', 'DESC')-&gt;get();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Chris G",
+        "link": "https://stackoverflow.com/users/1791532/chris-g"
+      }
+    },
+    {
+      "answer_id": 17713900,
+      "body": "<p>Laravel supports aliases on tables and columns with <code>AS</code>. Try</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>$users = DB::table('really_long_table_name AS t')\n           -&gt;select('t.id AS uid')\n           -&gt;get();\n</code></pre>\n\n<p>Let's see it in action with an awesome <code>tinker</code> tool</p>\n\n<pre>\n$ php artisan tinker\n[1] > Schema::create('really_long_table_name', function($table) {$table->increments('id');});\n// NULL\n[2] > DB::table('really_long_table_name')->insert(['id' => null]);\n// true\n[3] > DB::table('really_long_table_name AS t')->select('t.id AS uid')->get();\n// array(\n//   0 => object(stdClass)(\n//     'uid' => '1'\n//   )\n// )\n</pre>\n",
+      "owner": {
+        "display_name": "peterm",
+        "link": "https://stackoverflow.com/users/1920232/peterm"
+      }
+    },
+    {
+      "answer_id": 20733001,
+      "body": "<p>The error message indicates that a MySQL connection via socket is tried (which is not supported).</p>\n\n<p>In the context of Laravel (artisan), you probably want to use a different / the correct environment. Eg: <code>php artisan migrate --env=production</code> (or whatever environment). See <a href=\"http://laravel.com/docs/artisan#usage\" rel=\"noreferrer\">here</a>.</p>\n",
+      "owner": {
+        "display_name": "ukautz",
+        "link": "https://stackoverflow.com/users/1269006/ukautz"
+      }
+    },
+    {
+      "answer_id": 19179397,
+      "body": "<p>A bit old but just in case someone new is looking for a solution, updating your PHP version can fix the issue.</p>\n\n<p>Also you should be committing your composer.lock file and doing a composer install on a production environment which is less resource intensive.</p>\n\n<p>More details here:\n<a href=\"https://github.com/composer/composer/issues/1898#issuecomment-23453850\">https://github.com/composer/composer/issues/1898#issuecomment-23453850</a></p>\n",
+      "owner": {
+        "display_name": "fl3x7",
+        "link": "https://stackoverflow.com/users/512618/fl3x7"
+      }
+    },
+    {
+      "answer_id": 18533772,
+      "body": "<p>This is working for me:</p>\n\n<pre><code>$user_info = DB::table('usermetas')\n                 -&gt;select('browser', DB::raw('count(*) as total'))\n                 -&gt;groupBy('browser')\n                 -&gt;get();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Antonio Ribeiro",
+        "link": "https://stackoverflow.com/users/1959747/antonio-ribeiro"
+      }
+    },
+    {
+      "answer_id": 18143469,
+      "body": "<p>It is possible to extend the relation with query functions:</p>\n\n<pre><code>&lt;?php\npublic function comments()\n{\n    return $this-&gt;hasMany('Comment')-&gt;orderBy('column');\n}\n</code></pre>\n\n<p>[edit after comment]</p>\n\n<pre><code>&lt;?php\nclass User\n{\n    public function comments()\n    {\n        return $this-&gt;hasMany('Comment');\n    }\n}\n\nclass Controller\n{\n    public function index()\n    {\n        $column = Input::get('orderBy', 'defaultColumn');\n        $comments = User::find(1)-&gt;comments()-&gt;orderBy($column)-&gt;get();\n\n        // use $comments in the template\n    }\n}\n</code></pre>\n\n<p>default User model + simple Controller example; when getting the list of comments, just apply the orderBy() based on Input::get().\n(be sure to do some input-checking ;) )</p>\n",
+      "owner": {
+        "display_name": "Rob",
+        "link": "https://stackoverflow.com/users/1032420/rob"
+      }
+    },
+    {
+      "answer_id": 17432174,
+      "body": "<p>You can actually do this within the query.</p>\n\n<pre><code>$results = Project::orderBy('name')-&gt;get();\n</code></pre>\n\n<p>This will return all results with the proper order.</p>\n",
+      "owner": {
+        "display_name": "Travis B",
+        "link": "https://stackoverflow.com/users/2543702/travis-b"
+      }
+    },
+    {
+      "answer_id": 17006377,
+      "body": "<p>Simply invoke <code>orderBy()</code> as many times as you need it. For instance:</p>\n\n<pre><code>User::orderBy('name', 'DESC')\n    -&gt;orderBy('email', 'ASC')\n    -&gt;get();\n</code></pre>\n\n<p>Produces the following query:</p>\n\n<pre><code>SELECT * FROM `users` ORDER BY `name` DESC, `email` ASC\n</code></pre>\n",
+      "owner": {
+        "display_name": "rmobis",
+        "link": "https://stackoverflow.com/users/1661358/rmobis"
+      }
+    },
+    {
+      "answer_id": 13019365,
+      "body": "<p>It is discouraged to do in a view so there is no blade tag for it.\nIf you do want to do this in your blade view, you can either just open a php tag as you wrote it or register a new blade tag. Just an example:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>&lt;?php\n/**\n * &lt;code&gt;\n * {? $old_section = \"whatever\" ?}\n * &lt;/code&gt;\n */\nBlade::extend(function($value) {\n    return preg_replace('/\\{\\?(.+)\\?\\}/', '&lt;?php ${1} ?&gt;', $value);\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "TLGreg",
+        "link": "https://stackoverflow.com/users/1645181/tlgreg"
+      }
+    }
+  ]
+}

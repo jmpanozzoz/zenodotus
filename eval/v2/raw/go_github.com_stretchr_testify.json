@@ -1,0 +1,939 @@
+{
+  "library": "go:github.com/stretchr/testify",
+  "fetched_at": "2026-11-21T17:28:18Z",
+  "questions": [
+    {
+      "question_id": 34435185,
+      "title": "Unit testing for functions that use gorilla/mux URL parameters",
+      "accepted_answer_id": 48933356,
+      "score": 56,
+      "link": "https://stackoverflow.com/questions/34435185/unit-testing-for-functions-that-use-gorilla-mux-url-parameters",
+      "owner": {
+        "display_name": "Sebastian-Laurenţiu Plesciuc",
+        "link": "https://stackoverflow.com/users/1972313/sebastian-lauren%c5%a3iu-plesciuc"
+      }
+    },
+    {
+      "question_id": 42254513,
+      "title": "golang test error: cannot find package &quot;github.com/stretchr/testify/assert&quot; in any of:",
+      "accepted_answer_id": 42254825,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/42254513/golang-test-error-cannot-find-package-github-com-stretchr-testify-assert-in-a",
+      "owner": {
+        "display_name": "jj1111",
+        "link": "https://stackoverflow.com/users/7221826/jj1111"
+      }
+    },
+    {
+      "question_id": 68349850,
+      "title": "How to assert a partial match with stretchr/testify/mock AssertCalled?",
+      "accepted_answer_id": 68351180,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/68349850/how-to-assert-a-partial-match-with-stretchr-testify-mock-assertcalled",
+      "owner": {
+        "display_name": "BeetleJuice",
+        "link": "https://stackoverflow.com/users/3977061/beetlejuice"
+      }
+    },
+    {
+      "question_id": 44365009,
+      "title": "AssertCalled always fails with testify library",
+      "accepted_answer_id": 44484256,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/44365009/assertcalled-always-fails-with-testify-library",
+      "owner": {
+        "display_name": "Buzzy",
+        "link": "https://stackoverflow.com/users/1501456/buzzy"
+      }
+    },
+    {
+      "question_id": 67137839,
+      "title": "How to run testify setup/teardown with table tests using stretchr/testify in golang?",
+      "accepted_answer_id": 67138582,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/67137839/how-to-run-testify-setup-teardown-with-table-tests-using-stretchr-testify-in-gol",
+      "owner": {
+        "display_name": "Paymahn Moghadasian",
+        "link": "https://stackoverflow.com/users/1489726/paymahn-moghadasian"
+      }
+    },
+    {
+      "question_id": 62695766,
+      "title": "Golang mock context panic",
+      "accepted_answer_id": 62696665,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/62695766/golang-mock-context-panic",
+      "owner": {
+        "display_name": "Dimas Angga Saputra",
+        "link": "https://stackoverflow.com/users/4617276/dimas-angga-saputra"
+      }
+    },
+    {
+      "question_id": 60916779,
+      "title": "Mocking via stretchr/testify, different return args",
+      "accepted_answer_id": 60925199,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/60916779/mocking-via-stretchr-testify-different-return-args",
+      "owner": {
+        "display_name": "J011195",
+        "link": "https://stackoverflow.com/users/3242022/j011195"
+      }
+    },
+    {
+      "question_id": 45310329,
+      "title": "Difference between InDelta and InEpsilon",
+      "accepted_answer_id": 45310587,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/45310329/difference-between-indelta-and-inepsilon",
+      "owner": {
+        "display_name": "Carmageddon",
+        "link": "https://stackoverflow.com/users/373091/carmageddon"
+      }
+    },
+    {
+      "question_id": 76280317,
+      "title": "Mock go function that modifies and returns the value passed as argument",
+      "accepted_answer_id": 78673274,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/76280317/mock-go-function-that-modifies-and-returns-the-value-passed-as-argument",
+      "owner": {
+        "display_name": "beni0888",
+        "link": "https://stackoverflow.com/users/3247800/beni0888"
+      }
+    },
+    {
+      "question_id": 31061683,
+      "title": "Go: Run test from multiple package with DB initialization",
+      "accepted_answer_id": 31063530,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/31061683/go-run-test-from-multiple-package-with-db-initialization",
+      "owner": {
+        "display_name": "Alessio",
+        "link": "https://stackoverflow.com/users/2303988/alessio"
+      }
+    },
+    {
+      "question_id": 74936745,
+      "title": "assert: mock: I don&#39;t know what to return because the method call was unexpected Error while writing unit test in Go",
+      "accepted_answer_id": 74950698,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/74936745/assert-mock-i-dont-know-what-to-return-because-the-method-call-was-unexpected",
+      "owner": {
+        "display_name": "Waleem Ali",
+        "link": "https://stackoverflow.com/users/20165003/waleem-ali"
+      }
+    },
+    {
+      "question_id": 70410983,
+      "title": "Check dynamic value for field in struct in go using testify",
+      "accepted_answer_id": 70412431,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/70410983/check-dynamic-value-for-field-in-struct-in-go-using-testify",
+      "owner": {
+        "display_name": "Amal Jose",
+        "link": "https://stackoverflow.com/users/13865027/amal-jose"
+      }
+    },
+    {
+      "question_id": 47466952,
+      "title": "How to validate that a method is called in a separate go routine",
+      "accepted_answer_id": 47467105,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/47466952/how-to-validate-that-a-method-is-called-in-a-separate-go-routine",
+      "owner": {
+        "display_name": "zaRRoc",
+        "link": "https://stackoverflow.com/users/8526089/zarroc"
+      }
+    },
+    {
+      "question_id": 45537444,
+      "title": "Table driven tests with testify mock",
+      "accepted_answer_id": 45542325,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/45537444/table-driven-tests-with-testify-mock",
+      "owner": {
+        "display_name": "nitimalh",
+        "link": "https://stackoverflow.com/users/3657373/nitimalh"
+      }
+    },
+    {
+      "question_id": 58320160,
+      "title": "How to receive multiple values returned by a method in testify framework &quot;assert&quot; method as an argument?",
+      "accepted_answer_id": 58320268,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/58320160/how-to-receive-multiple-values-returned-by-a-method-in-testify-framework-assert",
+      "owner": {
+        "display_name": "infiniteLearner",
+        "link": "https://stackoverflow.com/users/3649496/infinitelearner"
+      }
+    },
+    {
+      "question_id": 50772163,
+      "title": "Cannot pass Testify Mock object error",
+      "accepted_answer_id": 50772965,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/50772163/cannot-pass-testify-mock-object-error",
+      "owner": {
+        "display_name": "MadzQuestioning",
+        "link": "https://stackoverflow.com/users/4364847/madzquestioning"
+      }
+    },
+    {
+      "question_id": 50732306,
+      "title": "Testify Mock a function return inside a function",
+      "accepted_answer_id": 50732719,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/50732306/testify-mock-a-function-return-inside-a-function",
+      "owner": {
+        "display_name": "MadzQuestioning",
+        "link": "https://stackoverflow.com/users/4364847/madzquestioning"
+      }
+    },
+    {
+      "question_id": 40846738,
+      "title": "Golang testing of functions declared as variable (testify)",
+      "accepted_answer_id": 40846860,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/40846738/golang-testing-of-functions-declared-as-variable-testify",
+      "owner": {
+        "display_name": "ArkadyB",
+        "link": "https://stackoverflow.com/users/2915603/arkadyb"
+      }
+    },
+    {
+      "question_id": 35849985,
+      "title": "Mocking method from golang package",
+      "accepted_answer_id": 35850260,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/35849985/mocking-method-from-golang-package",
+      "owner": {
+        "display_name": "Gregorio Di Stefano",
+        "link": "https://stackoverflow.com/users/974990/gregorio-di-stefano"
+      }
+    },
+    {
+      "question_id": 73311561,
+      "title": "How to use custom flag in tests (with `testify/suite`)",
+      "accepted_answer_id": 73319904,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/73311561/how-to-use-custom-flag-in-tests-with-testify-suite",
+      "owner": {
+        "display_name": "cxc",
+        "link": "https://stackoverflow.com/users/9760713/cxc"
+      }
+    },
+    {
+      "question_id": 73014101,
+      "title": "How do I create an unit test expectation for a method that I imported from external package?",
+      "accepted_answer_id": 73015058,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/73014101/how-do-i-create-an-unit-test-expectation-for-a-method-that-i-imported-from-exter",
+      "owner": {
+        "display_name": "new line",
+        "link": "https://stackoverflow.com/users/18659639/new-line"
+      }
+    },
+    {
+      "question_id": 72988347,
+      "title": "assert: mock: I don&#39;t know what to return because the method call was unexpected",
+      "accepted_answer_id": 72993967,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/72988347/assert-mock-i-dont-know-what-to-return-because-the-method-call-was-unexpected",
+      "owner": {
+        "display_name": "new line",
+        "link": "https://stackoverflow.com/users/18659639/new-line"
+      }
+    },
+    {
+      "question_id": 72692691,
+      "title": "Right way to assert that slice of pointers to strings contains expected strings?",
+      "accepted_answer_id": 72694711,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/72692691/right-way-to-assert-that-slice-of-pointers-to-strings-contains-expected-strings",
+      "owner": {
+        "display_name": "Geoffrey Wiseman",
+        "link": "https://stackoverflow.com/users/141042/geoffrey-wiseman"
+      }
+    },
+    {
+      "question_id": 66028883,
+      "title": "pg-go RunInTransaction not rolling back the transaction",
+      "accepted_answer_id": 66035304,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/66028883/pg-go-runintransaction-not-rolling-back-the-transaction",
+      "owner": {
+        "display_name": "Henrique Oelze",
+        "link": "https://stackoverflow.com/users/10964870/henrique-oelze"
+      }
+    },
+    {
+      "question_id": 63258154,
+      "title": "Verify order of mocks call",
+      "accepted_answer_id": 63258424,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/63258154/verify-order-of-mocks-call",
+      "owner": {
+        "display_name": "kozmo",
+        "link": "https://stackoverflow.com/users/8030651/kozmo"
+      }
+    },
+    {
+      "question_id": 62165773,
+      "title": "Mock interface method twice with different input and output using testify",
+      "accepted_answer_id": 62175140,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/62165773/mock-interface-method-twice-with-different-input-and-output-using-testify",
+      "owner": {
+        "display_name": "dev-x",
+        "link": "https://stackoverflow.com/users/5865411/dev-x"
+      }
+    },
+    {
+      "question_id": 56907401,
+      "title": "How to mock only one method of an interface",
+      "accepted_answer_id": 56907584,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/56907401/how-to-mock-only-one-method-of-an-interface",
+      "owner": {
+        "display_name": "Mozhi",
+        "link": "https://stackoverflow.com/users/7047456/mozhi"
+      }
+    },
+    {
+      "question_id": 52302228,
+      "title": "How to define that mock method gets invoked zero times",
+      "accepted_answer_id": 52302503,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/52302228/how-to-define-that-mock-method-gets-invoked-zero-times",
+      "owner": {
+        "display_name": "Mike Warren",
+        "link": "https://stackoverflow.com/users/2027839/mike-warren"
+      }
+    },
+    {
+      "question_id": 51667411,
+      "title": "Initialization loop Golang",
+      "accepted_answer_id": 51667738,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/51667411/initialization-loop-golang",
+      "owner": {
+        "display_name": "MadzQuestioning",
+        "link": "https://stackoverflow.com/users/4364847/madzquestioning"
+      }
+    },
+    {
+      "question_id": 25365127,
+      "title": "How to test Golang channels / go-routines",
+      "accepted_answer_id": 25365692,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/25365127/how-to-test-golang-channels-go-routines",
+      "owner": {
+        "display_name": "Ariejan",
+        "link": "https://stackoverflow.com/users/117975/ariejan"
+      }
+    },
+    {
+      "question_id": 73561721,
+      "title": "Function like assert.Contains by stretchr/testify but ignore case and whitespace",
+      "accepted_answer_id": 73562751,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/73561721/function-like-assert-contains-by-stretchr-testify-but-ignore-case-and-whitespace",
+      "owner": {
+        "display_name": "cxc",
+        "link": "https://stackoverflow.com/users/9760713/cxc"
+      }
+    },
+    {
+      "question_id": 73174427,
+      "title": "Potentially unused parameter in go when using testify&#39;s suite package",
+      "accepted_answer_id": 73174637,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/73174427/potentially-unused-parameter-in-go-when-using-testifys-suite-package",
+      "owner": {
+        "display_name": "pkaramol",
+        "link": "https://stackoverflow.com/users/2409793/pkaramol"
+      }
+    },
+    {
+      "question_id": 67410367,
+      "title": "Go goroutine test failing Expected number of calls",
+      "accepted_answer_id": 67410925,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/67410367/go-goroutine-test-failing-expected-number-of-calls",
+      "owner": {
+        "display_name": "nerdy_darkknight",
+        "link": "https://stackoverflow.com/users/1778309/nerdy-darkknight"
+      }
+    },
+    {
+      "question_id": 63121007,
+      "title": "How do I not use an interface when mocking?",
+      "accepted_answer_id": 63121376,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/63121007/how-do-i-not-use-an-interface-when-mocking",
+      "owner": {
+        "display_name": "imagineerThat",
+        "link": "https://stackoverflow.com/users/1119779/imagineerthat"
+      }
+    },
+    {
+      "question_id": 50200933,
+      "title": "Difference between SetupSuite &amp; SetupTest in Testify Suites",
+      "accepted_answer_id": 51032098,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/50200933/difference-between-setupsuite-setuptest-in-testify-suites",
+      "owner": {
+        "display_name": "Mohit Jain",
+        "link": "https://stackoverflow.com/users/2720202/mohit-jain"
+      }
+    },
+    {
+      "question_id": 47510225,
+      "title": "Error `The code you are testing needs to make 1 more call(s)` in testify package",
+      "accepted_answer_id": 47696122,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/47510225/error-the-code-you-are-testing-needs-to-make-1-more-calls-in-testify-package",
+      "owner": {
+        "display_name": "Riteek Srivastava",
+        "link": "https://stackoverflow.com/users/4490293/riteek-srivastava"
+      }
+    },
+    {
+      "question_id": 43061814,
+      "title": "Is there a way to chain asserts with testify?",
+      "accepted_answer_id": 43070258,
+      "score": 1,
+      "link": "https://stackoverflow.com/questions/43061814/is-there-a-way-to-chain-asserts-with-testify",
+      "owner": {
+        "display_name": "user6467981",
+        "link": null
+      }
+    },
+    {
+      "question_id": 79235635,
+      "title": "Strange error when mocking using testfy in golang",
+      "accepted_answer_id": 79237254,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/79235635/strange-error-when-mocking-using-testfy-in-golang",
+      "owner": {
+        "display_name": "Abner Matheus",
+        "link": "https://stackoverflow.com/users/14503733/abner-matheus"
+      }
+    },
+    {
+      "question_id": 77137742,
+      "title": "golang unit test failed Expected nil, but got: &quot;null\\n&quot;",
+      "accepted_answer_id": 77137777,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/77137742/golang-unit-test-failed-expected-nil-but-got-null-n",
+      "owner": {
+        "display_name": "Fatih ",
+        "link": "https://stackoverflow.com/users/12008404/fatih"
+      }
+    },
+    {
+      "question_id": 76039348,
+      "title": "Table-driven test always shows parent as failing when using testify",
+      "accepted_answer_id": 76039349,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/76039348/table-driven-test-always-shows-parent-as-failing-when-using-testify",
+      "owner": {
+        "display_name": "Jess The Witch",
+        "link": "https://stackoverflow.com/users/2062731/jess-the-witch"
+      }
+    },
+    {
+      "question_id": 70887990,
+      "title": "Run http.ListenAndServe() On Tests using stretchr/testify suite Stop Test From Proceed",
+      "accepted_answer_id": 70898571,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/70887990/run-http-listenandserve-on-tests-using-stretchr-testify-suite-stop-test-from-p",
+      "owner": {
+        "display_name": "Raphael Salomao",
+        "link": "https://stackoverflow.com/users/14635066/raphael-salomao"
+      }
+    },
+    {
+      "question_id": 67349386,
+      "title": "Testify failing assertion for mocks when passing the correct args",
+      "accepted_answer_id": 67349581,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/67349386/testify-failing-assertion-for-mocks-when-passing-the-correct-args",
+      "owner": {
+        "display_name": "nerdy_darkknight",
+        "link": "https://stackoverflow.com/users/1778309/nerdy-darkknight"
+      }
+    },
+    {
+      "question_id": 62391830,
+      "title": "GoLang Sarama ConsumerGroup Mocking",
+      "accepted_answer_id": 62440567,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/62391830/golang-sarama-consumergroup-mocking",
+      "owner": {
+        "display_name": "Silk13",
+        "link": "https://stackoverflow.com/users/6603220/silk13"
+      }
+    },
+    {
+      "question_id": 58016501,
+      "title": "Returning a Mock from a package function",
+      "accepted_answer_id": 58022874,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/58016501/returning-a-mock-from-a-package-function",
+      "owner": {
+        "display_name": "SynackSA",
+        "link": "https://stackoverflow.com/users/194813/synacksa"
+      }
+    },
+    {
+      "question_id": 55596268,
+      "title": "Golang unit testing using PanicsWithValue",
+      "accepted_answer_id": 55596520,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/55596268/golang-unit-testing-using-panicswithvalue",
+      "owner": {
+        "display_name": "Helder Sepulveda",
+        "link": "https://stackoverflow.com/users/7599833/helder-sepulveda"
+      }
+    },
+    {
+      "question_id": 36580403,
+      "title": "Custom testify output for failing test of xml / strings",
+      "accepted_answer_id": 36581099,
+      "score": 0,
+      "link": "https://stackoverflow.com/questions/36580403/custom-testify-output-for-failing-test-of-xml-strings",
+      "owner": {
+        "display_name": "daino3",
+        "link": "https://stackoverflow.com/users/3233810/daino3"
+      }
+    },
+    {
+      "question_id": 51517227,
+      "title": "Create a mock function",
+      "accepted_answer_id": 51517397,
+      "score": -1,
+      "link": "https://stackoverflow.com/questions/51517227/create-a-mock-function",
+      "owner": {
+        "display_name": "MadzQuestioning",
+        "link": "https://stackoverflow.com/users/4364847/madzquestioning"
+      }
+    },
+    {
+      "question_id": 62448067,
+      "title": "Is there a way to AssertCalled every call when a function is called multiple times",
+      "accepted_answer_id": 62448178,
+      "score": -2,
+      "link": "https://stackoverflow.com/questions/62448067/is-there-a-way-to-assertcalled-every-call-when-a-function-is-called-multiple-tim",
+      "owner": {
+        "display_name": "3tbraden",
+        "link": "https://stackoverflow.com/users/7827687/3tbraden"
+      }
+    },
+    {
+      "question_id": 77787228,
+      "title": "How can I mock a function with no input or output in testify?",
+      "accepted_answer_id": 77793886,
+      "score": -3,
+      "link": "https://stackoverflow.com/questions/77787228/how-can-i-mock-a-function-with-no-input-or-output-in-testify",
+      "owner": {
+        "display_name": "akalpaki",
+        "link": "https://stackoverflow.com/users/20459802/akalpaki"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 79237254,
+      "body": "<p>You tell <a href=\"https://pkg.go.dev/github.com/stretchr/testify/mock#Mock.On\" rel=\"nofollow noreferrer\">testify</a> to expect a specific call to your <code>Save</code> function.</p>\n<p>Let me demonstrate this with a trivial example:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>type Adder interface {\n    Add(x, y int) int\n}\n\ntype MyAdder struct{ adder Adder }\n\nfunc (m MyAdder) Add(x, y int) int {\n    return m.adder.Add(x, y)\n}\n</code></pre>\n<p>We have an <code>Adder</code> interface and a <code>MyAdder</code> which just delegates to an <code>Adder</code>.</p>\n<p>When we ‘test’ it like:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func TestMyAdder_Add(t *testing.T) {\n    type args struct {\n        x, y int\n    }\n    tests := []struct {\n        name string\n        args args\n        want int\n    }{\n        {&quot;zero&quot;, args{0, 0}, 0},\n        {&quot;onetwothree&quot;, args{1, 2}, 3},\n        // {&quot;twoonethree&quot;, args{2, 1}, 3},\n    }\n\n    mock := NewMockAdder(t)\n    mock.On(&quot;Add&quot;, 0, 0).Return(0)\n    mock.On(&quot;Add&quot;, 1, 2).Return(3)\n\n    m := MyAdder{mock}\n    for _, tt := range tests {\n        t.Run(tt.name, func(t *testing.T) {\n            if got := m.Add(tt.args.x, tt.args.y); got != tt.want {\n                t.Errorf(&quot;MyAdder.Add() = %v, want %v&quot;, got, tt.want)\n            }\n        })\n    }\n}\n</code></pre>\n<p>everything is fine, although it is debatable what this test is worth. We assert the test will call the embedded adder twice, once with 0, 0 and once with 1, 2.</p>\n<p>When we now add 2, 1 by uncommenting the line above reading <code>{&quot;twoonethree&quot;, args{2, 1}, 3},</code> we get an error:</p>\n<pre><code>--- FAIL: TestMyAdder_Add (0.00s)\n    mock.go:351: \n        \n        mock: Unexpected Method Call\n        -----------------------------\n        \n        Add(int,int)\n                0: 2\n                1: 1\n        \n        The closest call I have is: \n        \n        Add(int,int)\n                0: 0\n                1: 0\n        \n        \n        Diff: 0: FAIL:  (int=2) != (int=0)\n            1: FAIL:  (int=1) != (int=0)\n        at: [.../mock_Adder.go:14 .../adder.go:12 .../adder_test.go:26]\n    --- FAIL: TestMyAdder_Add/twoonethree (0.00s)\n</code></pre>\n<p>because the mock can only respond to the two specified inputs.</p>\n<p>Since you calculate the non-deterministic arguments <code>passwordHash</code>, <code>activationCode</code> and <code>activationCodeExpires</code>, you can't use a fixed argument set. What would work is</p>\n<pre><code>        repository.On(&quot;Save&quot;, mock.IsType(&amp;User{})).Return(\n            func(user *User) (*User, error) {\n                user.Id = new(int64)\n                return user, nil\n            })\n</code></pre>\n<p>but the reply would obviously non-deterministic as well, so your assertions won't work.</p>\n<p>Also, as a side note, you need not assert the user type <code>assert.IsType(t, &amp;User{}, user)</code>.</p>\n",
+      "owner": {
+        "display_name": "eik",
+        "link": "https://stackoverflow.com/users/1232928/eik"
+      }
+    },
+    {
+      "answer_id": 78673274,
+      "body": "<p>The solution has already been posted as a comment by @mkopriva. Adding that as an answer along with explanation.</p>\n<p>The issue is that when you declare:</p>\n<pre><code>    sut.On(&quot;DoSomething&quot;, mock.Anything).Run(func(args mock.Arguments) {\n        response = args.Get(0).(*doer.Something)\n    }).Return(response)\n</code></pre>\n<p>response is nil.\nIt is actually being initialized inside the Run() block when the function <code>DoSomething</code> is being invoked. But at that point, it doesn't matter. The value of <code>response</code> that was nil at the time of declaration, is copied.</p>\n<p>Changing it to <code>*response = *(args.Get(0).(*doer.Something))</code> ensures that you're actually modifying the memory location that is being pointed to by the <code>response</code> pointer.</p>\n<p>To explain in simpler words: say response is storing an address : <code>0x7FFF5FBFFD98</code>. Now , when you do <code>suite.On(...)</code> you're instructing it to return <code>response</code> i.e. <code>0x7FFF5FBFFD98</code>. And inside, Run() you're modifying the memory being pointed to by <code>0x7FFF5FBFFD98</code>.</p>\n",
+      "owner": {
+        "display_name": "nishantsingh",
+        "link": "https://stackoverflow.com/users/3286661/nishantsingh"
+      }
+    },
+    {
+      "answer_id": 45310587,
+      "body": "<p>They are related but not identical.</p>\n<p><code>InDelta</code> receives an absolute value and checks that the difference is less than that value.</p>\n<p><code>InEpsilon</code> receives a % of difference that would be acceptable.</p>\n<p>The behaviour of <code>InDelta</code> is quite straightforward:</p>\n<pre><code>InDelta(t, 100, 101, 2) // that's OK\nInDelta(t, 100, 103, 2) // fail!\n</code></pre>\n<p>But sometimes, you just care that the actual value is not too far away from the expected value.</p>\n<p>Depending on how small or large the expected value is &quot;not too far away&quot; might get tricky with <code>InDelta</code>.</p>\n<p>It might be a problem to use the same <code>delta</code> value for any number:</p>\n<pre><code>InDelta(t, 100, 101, 2) // ok, 101 is &quot;not too far away&quot; from 100\nInDelta(t,   1,   2, 2) // hm, 2 sounds &quot;too far away&quot; from 1...\n</code></pre>\n<p>If you use <code>InEpsilon</code>, you can always use the same %:</p>\n<pre><code>InEpsilon(t, 100, 101, 0.02) // ok, up to 102 would be acceptable\nInEpsilon(t,   1,   2, 0.02) // will not pass.. this time up to 1.02 would be acceptable\n</code></pre>\n<p>In summary, the use case for <code>InEpsilon</code> is to discard small differences (and making &quot;small&quot; relative to the actual values compared).</p>\n",
+      "owner": {
+        "display_name": "eugenioy",
+        "link": "https://stackoverflow.com/users/4907630/eugenioy"
+      }
+    },
+    {
+      "answer_id": 77793886,
+      "body": "<p>Let's say you have something like this:</p>\n<pre><code>package foo\n\ntype Foo struct {}\n\nfunc New() *Foo {\n    return &amp;Foo{}\n}\n\nfunc (f *Foo) Called() {\n    fmt.Println(&quot;no in/output, does something here&quot;)\n}\n\npackage bar\n\ntype Dependency interface {\n    Called() // the dependency you want to make sure is called\n}\n\ntype Svc struct {\n    dep Dependency\n}\n\nfunc New(d Dependency) *Svc {\n    return &amp;Svc{\n        dep: d,\n    }\n}\n\nfunc (s *Svc) Something() {\n    s.dep.Called()\n}\n</code></pre>\n<p>Now, using mockgen as outlined in <a href=\"https://stackoverflow.com/a/77754824/1230836\">this related answer of mine</a> we can add the following bit:</p>\n<pre><code>package bar\n\n//go:generate go run github.com/golang/mock/mockgen -destination mocks/deps_mock.go -package mocks your.mod/path/to/pkg/bar Dependency\ntype Dependency interface {\n    Called() // the dependency you want to make sure is called\n}\n\ntype Svc struct {\n    dep Dependency\n}\n\nfunc New(d Dependency) *Svc {\n    return &amp;Svc{\n        dep: d,\n    }\n}\n\nfunc (s *Svc) Something() {\n    s.dep.Called()\n}\n</code></pre>\n<p>This will generate a package under <code>bar</code> (as in <code>bar/mocks</code>), which contains the generated mock/fake/spy object you'll want to use in your test like this:</p>\n<pre><code>package bar_test\n\nimport (\n    &quot;testing&quot;\n\n    &quot;your.mod/path/to/bar&quot;\n    &quot;your.mod/path/to/bar/mocks&quot;\n\n    &quot;github.com/golang/mock/gomock&quot;\n)\n\nfunc TestSomething(t *testing.T) {\n    ctrl := gomock.NewController(t)\n    defer ctrl.Finish() // this is when the expected calls are checked\n    dep := mocks.NewMockDependency(ctrl) // create the instance of the mock/spy\n    svc := bar.New(dep) // pass in the spy\n    dep.EXPECT().Called().Times(1)\n    svc.Something() // the test will pass if the call was made\n\n    // alternatively, you can log some output, too:\n    dep.EXPECT().Called().Times(1).Do(func() {\n        // this gets called as though it was s.Called() in your code\n        t.Log(&quot;The dependency was called as expected&quot;)\n    })\n    svc.Something()\n}\n</code></pre>\n<p>mockgen/gomock can do a lot more than just this, read more about it <a href=\"https://github.com/golang/mock\" rel=\"nofollow noreferrer\">here</a>. It seems like the repo was recently archived and moved, I suspect <a href=\"https://github.com/uber-go/mock\" rel=\"nofollow noreferrer\">its replacement</a> is pretty much a drop in replacement + some new functionality though.</p>\n",
+      "owner": {
+        "display_name": "Elias Van Ootegem",
+        "link": "https://stackoverflow.com/users/1230836/elias-van-ootegem"
+      }
+    },
+    {
+      "answer_id": 77137777,
+      "body": "<p>You're sending back JSON. When you marshal nil, it becomes &quot;null&quot;.</p>\n<p>In your test you do</p>\n<pre><code>assert.Nil(t, rec.Body.String())\n</code></pre>\n<p>and <code>rec.Body</code> is the JSON encoded nil (i.e. &quot;null&quot;)</p>\n<p>In fact, because <code>rec.Body.String()</code> returns a <code>string</code>, and not <code>*string</code>, this test could never pass.</p>\n",
+      "owner": {
+        "display_name": "dave",
+        "link": "https://stackoverflow.com/users/2082673/dave"
+      }
+    },
+    {
+      "answer_id": 76039349,
+      "body": "<p>When initializing the testify shorthand, it must use the <code>*testing.T</code> from the sub-test. If you have the same habit as me of putting <code>a := assert.New(t)</code> at the top of every test, you'll end up passing <code>*testing.T</code> from the parent, so the failures will always show as coming from the parent.</p>\n<p>Rewriting as</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func TestFoo(t *testing.T) {\n    tc := []struct {\n        desc string\n        foo  string\n    }{\n        {\n            desc: &quot;fail abc&quot;,\n            foo:  &quot;abc&quot;,\n        },\n        {\n            desc: &quot;fail def&quot;,\n            foo:  &quot;def&quot;,\n        },\n    }\n    for _, tC := range tc {\n        t.Run(tC.desc, func(t *testing.T) {\n            tC := tC\n            a := assert.New(t) // Now using *testing.T from within the sub-test\n            a.Equal(tC.foo, &quot;ghi&quot;)\n        })\n    }\n}\n</code></pre>\n<p>Gets the expected legible output (i.e. failures broken up by sub-test and test names including the description):</p>\n<pre><code>--- FAIL: TestFoo (0.00s)\n    --- FAIL: TestFoo/fail_abc (0.00s)\n        boop_test.go:27: \n                Error Trace:    /test.go:27\n                Error:          Not equal: \n                                expected: &quot;abc&quot;\n                                actual  : &quot;ghi&quot;\n                            \n                                Diff:\n                                --- Expected\n                                +++ Actual\n                                @@ -1 +1 @@\n                                -abc\n                                +ghi\n                Test:           TestFoo/fail_abc\n    --- FAIL: TestFoo/fail_def (0.00s)\n        boop_test.go:27: \n                Error Trace:    /test.go:27\n                Error:          Not equal: \n                                expected: &quot;def&quot;\n                                actual  : &quot;ghi&quot;\n                            \n                                Diff:\n                                --- Expected\n                                +++ Actual\n                                @@ -1 +1 @@\n                                -def\n                                +ghi\n                Test:           TestFoo/fail_def\nFAIL\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jess The Witch",
+        "link": "https://stackoverflow.com/users/2062731/jess-the-witch"
+      }
+    },
+    {
+      "answer_id": 74950698,
+      "body": "<p>Let me try to help you in figuring out the problem. I reproduced the repo with some simplification just to post the relevant code. If I'm not wrong in your solution there is a service (<code>TeamService</code>) that invokes some methods provided by an underlying package (<code>TeamRepo</code>). You wanna test the method <code>Update</code> method of the <code>TeamService</code> struct. After this recap, let me present the code first and I'll try to explain each file:</p>\n<h4><code>repo/repo.go</code></h4>\n<pre class=\"lang-golang prettyprint-override\"><code>package repo\n\ntype Team struct {\n    ID          int\n    TeamOwnerID int\n    Name        string\n}\n\ntype TeamRepo struct{}\n\nfunc (t *TeamRepo) GetByID(id int) (Team, error) {\n    return Team{ID: id, TeamOwnerID: id, Name: &quot;MyTeam&quot;}, nil\n}\n\nfunc (t *TeamRepo) Update(team Team) error {\n    return nil\n}\n</code></pre>\n<p>Within this file, we can find the methods that we've to mock out. The methods are: <code>GetByID</code> and <code>Update</code>. Obviously, this is not your actual code but it doesn't matter for now.</p>\n<h4><code>services/service.go</code></h4>\n<pre class=\"lang-golang prettyprint-override\"><code>package services\n\nimport (\n    &quot;errors&quot;\n\n    &quot;testifymock/repo&quot;\n)\n\ntype TeamService struct {\n    TR TeamRepoInterface\n}\n\nfunc NewTeamService(repo TeamRepoInterface) *TeamService {\n    return &amp;TeamService{\n        TR: repo,\n    }\n}\n\ntype TeamRepoInterface interface {\n    GetByID(id int) (repo.Team, error)\n    Update(team repo.Team) error\n}\n\nfunc (ts *TeamService) Update(team *repo.Team) error {\n    t, err := ts.TR.GetByID(team.ID)\n    if err != nil {\n        return err\n    }\n\n    if t.TeamOwnerID != team.TeamOwnerID {\n        return errors.New(&quot;forbidden&quot;)\n    }\n\n    return ts.TR.Update(*team)\n}\n</code></pre>\n<p>Here, we can see the service that will be our System Under Test (<code>sut</code>) in our test code. Through Dependency Injection, we'll take advantage of the capabilities provided by the <code>repo</code> package that is injected via the interface <code>TeamRepoInterface</code>.</p>\n<h4><code>services/service_test.go</code></h4>\n<pre class=\"lang-golang prettyprint-override\"><code>package services\n\nimport (\n    &quot;errors&quot;\n    &quot;testing&quot;\n\n    &quot;testifymock/repo&quot;\n\n    &quot;github.com/stretchr/testify/assert&quot;\n    &quot;github.com/stretchr/testify/mock&quot;\n)\n\n// 1. declare the mock struct\ntype teamRepoMock struct {\n    mock.Mock\n}\n\n// 2. implement the interface\nfunc (m *teamRepoMock) GetByID(id int) (repo.Team, error) {\n    args := m.Called(id)\n\n    return args.Get(0).(repo.Team), args.Error(1)\n}\n\nfunc (m *teamRepoMock) Update(team repo.Team) error {\n    args := m.Called(team)\n\n    return args.Error(0)\n}\n\nfunc TestUpdate(t *testing.T) {\n    t.Run(&quot;GoodUpdate&quot;, func(t *testing.T) {\n        // 3. instantiate/setup mock\n        repoMock := new(teamRepoMock)\n        repoMock.On(&quot;GetByID&quot;, 1).Return(repo.Team{ID: 1, TeamOwnerID: 1, Name: &quot;test&quot;}, nil).Times(1)\n        repoMock.On(&quot;Update&quot;, repo.Team{ID: 1, TeamOwnerID: 1, Name: &quot;test&quot;}).Return(nil).Times(1)\n\n        sut := NewTeamService(repoMock)\n        err := sut.Update(&amp;repo.Team{ID: 1, TeamOwnerID: 1, Name: &quot;test&quot;})\n\n        // 4. check that all expectations were met on the mock\n        assert.Nil(t, err)\n        assert.True(t, repoMock.AssertExpectations(t))\n    })\n\n    t.Run(&quot;BadUpdate&quot;, func(t *testing.T) {\n        // 3. instantiate/setup mock\n        repoMock := new(teamRepoMock)\n        repoMock.On(&quot;GetByID&quot;, 1).Return(repo.Team{ID: 1, TeamOwnerID: 1, Name: &quot;test&quot;}, nil).Times(1)\n        repoMock.On(&quot;Update&quot;, repo.Team{ID: 1, TeamOwnerID: 1, Name: &quot;test&quot;}).Return(errors.New(&quot;some error while updating&quot;)).Times(1)\n\n        sut := NewTeamService(repoMock)\n        err := sut.Update(&amp;repo.Team{ID: 1, TeamOwnerID: 1, Name: &quot;test&quot;})\n\n        // 4. check that all expectations were met on the mock\n        assert.Equal(t, &quot;some error while updating&quot;, err.Error())\n        assert.True(t, repoMock.AssertExpectations(t))\n    })\n}\n</code></pre>\n<p>Within the code, you can find some comments to better detail what's going on. As you've guessed the issue was this missing call in your code:</p>\n<blockquote>\n<p><code>repoMock.On(&quot;GetByID&quot;, 1).Return(repo.Team{ID: 1, TeamOwnerID: 1, Name: &quot;test&quot;}, nil).Times(1)</code></p>\n</blockquote>\n<p>If you run my solution, it should work also for you.<br />\nLet me know if this solves your issue or if there are any other problems!</p>\n",
+      "owner": {
+        "display_name": "ossan",
+        "link": "https://stackoverflow.com/users/14394371/ossan"
+      }
+    },
+    {
+      "answer_id": 48933356,
+      "body": "<p><code>gorilla/mux</code> provides the <a href=\"https://www.gorillatoolkit.org/pkg/mux#SetURLVars\" rel=\"noreferrer\"><code>SetURLVars</code></a> function for testing purposes, which you can use to inject your mock <code>vars</code>.</p>\n<pre><code>func TestGetRequest(t *testing.T) {\n    r, _ := http.NewRequest(&quot;GET&quot;, &quot;/test/abcd&quot;, nil)\n    w := httptest.NewRecorder()\n\n    //Hack to try to fake gorilla/mux vars\n    vars := map[string]string{\n        &quot;mystring&quot;: &quot;abcd&quot;,\n    }\n\n    // CHANGE THIS LINE!!!\n    r = mux.SetURLVars(r, vars)\n    \n    GetRequest(w, r)\n\n    assert.Equal(t, http.StatusOK, w.Code)\n    assert.Equal(t, []byte(&quot;abcd&quot;), w.Body.Bytes())\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Luiz Fernando",
+        "link": "https://stackoverflow.com/users/4979187/luiz-fernando"
+      }
+    },
+    {
+      "answer_id": 73562751,
+      "body": "<p>You could create a <code>func normalize(s string) string</code> and use that together with <code>assert.Contains</code>, for example:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func normalize(s string) string {\n    return strings.ToLower(strings.Join(strings.Fields(s), &quot;&quot;))\n}\n\nfunc TestFoo(t *testing.T) {\n    assert.Contains(t, normalize(&quot;HELLO     WORLD&quot;), &quot;hello world&quot;)\n    // or you might want to normalize both:\n    assert.Contains(t, normalize(&quot;HELLO     WORLD&quot;), normalize(&quot;hello world&quot;))\n}\n</code></pre>\n<p>If you're really doing this a lot, you could create a custom <code>func assertNormalizedContains(t *testing.T, haystack, needle string)</code> and just use that instead of <code>assert.Contains</code>. Though I'd argue that's not as clear.</p>\n",
+      "owner": {
+        "display_name": "Ben Hoyt",
+        "link": "https://stackoverflow.com/users/68707/ben-hoyt"
+      }
+    },
+    {
+      "answer_id": 73319904,
+      "body": "<p>The test binary generated by <code>go test</code> is already using the <code>flag</code> package internally and calls <code>flag.Parse()</code> during normal operation.\nDefine the flag variable as global (✳️) so they are known before running <code>flag.Parse()</code>.</p>\n<pre><code>type MyTestSuite struct {\n    suite.Suite\n}\n\n// ✳️\nvar flagBoolPtr = flag.Bool(&quot;mycustomflag&quot;, false, &quot;this is a bool flag&quot;)\n\nfunc (suite *MyTestSuite) SetupSuite() {\n    fmt.Printf(&quot;my flag in SetupSuite: %t\\n&quot;, *flagBoolPtr)\n}\n\nfunc TestMyTestSuite(t *testing.T) {\n    fmt.Printf(&quot;my flag in test: %t\\n&quot;, *flagBoolPtr)\n    suite.Run(t, new(MyTestSuite))\n}\n\nfunc (suite *MyTestSuite) TestBuildClosure() {\n    fmt.Println(&quot;my test&quot;)\n}\n\n</code></pre>\n<pre><code>go test -v my_test.go -mycustomflag\n\n=== RUN   TestMyTestSuite\nmy flag in test: true\nmy flag in SetupSuite: true\n=== RUN   TestMyTestSuite/TestBuildClosure\nmy test\n--- PASS: TestMyTestSuite (0.00s)\n    --- PASS: TestMyTestSuite/TestBuildClosure (0.00s)\nPASS\n\n</code></pre>\n<blockquote>\n<p>Although what if I have multiple testsuites aka multiple files in the same package? And I want to use this flag for all testsuites? Since we can define the variable and the flag only once, how can I make sure this declaration in this specific testsuite gets executed first?</p>\n</blockquote>\n<p>To <code>run</code> test separately in the package, create a file for the  <code>package</code> contains only with required <code>flag</code> (✳️) and compile single <code>test</code> with file, which contains <code>flags</code></p>\n<pre><code>.\n├── my_test.go\n├── other_my_test.go\n└── flag_test.go // ✳️\n\n</code></pre>\n<p>👇🏻 <code>flag_test.go</code></p>\n<pre><code>package any\n\nimport &quot;flag&quot;\n\nvar flagBoolPtr = flag.Bool(&quot;mycustomflag&quot;, false, &quot;this is a bool flag&quot;)\n</code></pre>\n<pre><code>go test -v flag_test.go my_test.go -mycustomflag\n\n</code></pre>\n<p>also you can <code>run</code> all tests with required <code>flag</code></p>\n<pre><code> go test -v ./... -mycustomflag\n</code></pre>\n",
+      "owner": {
+        "display_name": "kozmo",
+        "link": "https://stackoverflow.com/users/8030651/kozmo"
+      }
+    },
+    {
+      "answer_id": 73174637,
+      "body": "<p>If you want to declare an unused parameter (usually to satisfy an interface or other requirements), you can name it a single underscore. For example:</p>\n<pre><code>Run(name, func(_ *testing.T) {})\n</code></pre>\n<p>Note that you cannot put a <em>value</em> in function declaration, so <code>func(us.T()) {</code> is always wrong.</p>\n",
+      "owner": {
+        "display_name": "iBug",
+        "link": "https://stackoverflow.com/users/5958455/ibug"
+      }
+    },
+    {
+      "answer_id": 73015058,
+      "body": "<p>In your test, you mock DB on DB provider level, no more mocking is necessary.</p>\n<p>Test without redundant mocking:</p>\n<pre><code>func TestCalculate(t *testing.T) {\n  \n  // transaction is created inside `CalculateTransaction`, it will be started against mocked DB\n  // var tx *sqlx.Tx\n  var expectedError string\n\n  dbMock, mock, err := sqlmock.New()\n  if err != nil {\n    t.Fatalf(&quot;an error '%s' was not expected&quot;, err)\n  }\n  defer dbMock.Close()\n\n  // we use sql mock - no need to mock DB methods\n  // mockSQL = new(mocks.SQLRepository)\n  // mockSQL.On(&quot;BeginTX&quot;).Return(tx, nil)\n  \n  mock.ExpectCommit()\n\n  // here you can add ExpectQuery or ExpectExec if usecase do any DB work\n\n  mock.ExpectRollback()\n\n  usecase := &amp;calculationUsecase{\n    sqlRepo: dbMock\n  }\n\n  actualError := usecase.CalculateTransaction(context.Background(), 1)\n  require.EqualError(t, actualError, expectedError)\n\n  // it is good practice to check is all expectations are met\n  err = mock.ExpectationsWereMet()\n  require.NoError(t, err)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dmitry Harnitski",
+        "link": "https://stackoverflow.com/users/1420332/dmitry-harnitski"
+      }
+    },
+    {
+      "answer_id": 72993967,
+      "body": "<p>You don't actually use your <code>onSQLMock</code> anywhere.\nUse it before you pass the mock repository to the <code>usecase</code> instance</p>\n<pre class=\"lang-golang prettyprint-override\"><code>mockRepo := new(mocks.SQLRepository)\ntestCase.onSQLMock(mockRepo)\n</code></pre>\n<p>Also use the parameter of the function:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>  onSQLMock: func(sqlMock *mocks.SQLRepository) {\n       var tx *sqlx.Tx\n       sqlMock.On(&quot;BeginTxx&quot;).Return(tx, nil)\n     },\n</code></pre>\n",
+      "owner": {
+        "display_name": "aaronlukacs",
+        "link": "https://stackoverflow.com/users/16333114/aaronlukacs"
+      }
+    },
+    {
+      "answer_id": 72694711,
+      "body": "<p>Yes, unfortunately the <code>&amp;&quot;one&quot;</code> syntax isn't valid (a few years ago, I opened an <a href=\"https://github.com/golang/go/issues/22647\" rel=\"nofollow noreferrer\">issue</a> to allow that syntax; it was closed, though Rob Pike opened a similar <a href=\"https://github.com/golang/go/issues/45624\" rel=\"nofollow noreferrer\">issue</a> more recently).</p>\n<p>For now, I think the best approach is to just take the address of a variable, as in your <code>TestSliceContainsPointerToExpectation</code>. Or, if you're doing this often, you can write a simple <code>stringPtr</code> function so you can do it as a one-liner:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func stringPtr(value string) *string {\n    return &amp;value\n}\n\nfunc TestSliceContainsString(t *testing.T) {\n    assert.Contains(t, slice, stringPtr(&quot;one&quot;))\n}\n</code></pre>\n<p>Or, if you're using at least Go 1.18 (with generics), you can make a generic <code>ptr</code> function:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func ptr[T any](value T) *T {\n    return &amp;value\n}\n\nfunc TestSliceContains(t *testing.T) {\n    assert.Contains(t, slice, ptr(&quot;one&quot;))\n}\n</code></pre>\n<p><a href=\"https://go.dev/play/p/k00X-Zwo7bL\" rel=\"nofollow noreferrer\">See these in the Go Playground.</a></p>\n",
+      "owner": {
+        "display_name": "Ben Hoyt",
+        "link": "https://stackoverflow.com/users/68707/ben-hoyt"
+      }
+    },
+    {
+      "answer_id": 70898571,
+      "body": "<p>I figured out how to do it using go routines.</p>\n<p>I read this <a href=\"https://gobyexample.com/signals\" rel=\"nofollow noreferrer\">example</a> which teaches how to deal with <code>os.Signals</code> using channels and I implemented it this way:</p>\n<p>First, I made the following changes at the router:</p>\n<pre><code>func HandleRequests() {\n    router := mux.NewRouter()\n    router.Use(middleware)\n    // lots of router.HandleFunc()\n    \n    go http.ListenAndServe(&quot;:8080&quot;, router)\n\n    quit := make(chan os.Signal, 1)\n    signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)\n\n    &lt;-quit\n\n}\n</code></pre>\n<p>So now <code>http.ListenAndServe()</code> is running in a new thread. I believe that by a default behavior, it stops at the end of the program execution.</p>\n<p>After <code>http.ListenAndServe()</code>, I created a <code>os.Signal</code> chanel which will listen to incomming signals from the system (SIGINT and SIGTERM), then the function will stop at <code>&lt;-quit</code>, which will be wating for one signal to continue.</p>\n<p>Then I fixed my <code>SetupSuite()</code> to run <code>router.HandleRequests()</code> in a goroutine:</p>\n<pre><code>func (s *ReceiptServiceTestSuite) SetupSuite() {\n    s.Require().NoError(godotenv.Load(&quot;test.env&quot;))\n    s.Require().NoError(database.Connect())\n    s.db = database.DB\n    s.m = database.M\n\n    go router.HandleRequests()\n}\n</code></pre>\n<p>And at my <code>TearDownSuite()</code> I send a SIGTERM signal to the current process, wich will be listened by the <code>quit</code> channel I've created before at <code>router.HandleRequests()</code> and the function will proceed to terminate the program.</p>\n<pre><code>func (s *ReceiptServiceTestSuite) TearDownSuite() {\n    // some database code \n    p, _ := os.FindProcess(os.Getpid())\n    p.Signal(syscall.SIGINT)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Raphael Salomao",
+        "link": "https://stackoverflow.com/users/14635066/raphael-salomao"
+      }
+    },
+    {
+      "answer_id": 70412431,
+      "body": "<p>if you don't want to consider <code>mockFirebaseAuthClient.On(&quot;CreateUser&quot;, user).Return(&quot;firebaseuniqueid&quot;, nil)</code> and <code>mockPostgresRepo.On(&quot;CreateUser&quot;, user).Return(nil)</code> and just want to mock that calls, then you can use <code>mock.Anything</code> as the argument in both the calls instead of <code>user</code> like this <code>mockFirebaseAuthClient.On(&quot;CreateUser&quot;, mock.Anything).Return(&quot;firebaseuniqueid&quot;, nil)</code> . So the arguments will not be considerd and the mock calls will return required value.</p>\n",
+      "owner": {
+        "display_name": "albinjose",
+        "link": "https://stackoverflow.com/users/14019973/albinjose"
+      }
+    },
+    {
+      "answer_id": 68351180,
+      "body": "<p>Use <a href=\"https://pkg.go.dev/github.com/stretchr/testify/mock#MatchedBy\" rel=\"noreferrer\"><code>mock.MatchedBy</code></a>.</p>\n<p>In short, it wraps an arbitrary matcher function with a <code>mock.argumentMatcher</code> (unexported):</p>\n<blockquote>\n<p>argumentMatcher performs custom argument matching, returning whether or not the argument is matched by the expectation fixture function.</p>\n</blockquote>\n<p>In particular, the argument of <code>mock.MatchedBy</code> is:</p>\n<blockquote>\n<p>[...] a function accepting a single argument (of the expected type) which returns a bool</p>\n</blockquote>\n<p>So you can use it as follows:</p>\n<pre><code>personNameMatcher := mock.MatchedBy(func(p Person) bool {\n    return p.Name == &quot;John&quot;\n})\nd.AssertCalled(t, &quot;doWithThing&quot;, personNameMatcher)\n</code></pre>\n",
+      "owner": {
+        "display_name": "blackgreen",
+        "link": "https://stackoverflow.com/users/4108803/blackgreen"
+      }
+    },
+    {
+      "answer_id": 67410925,
+      "body": "<p>You need to call <a href=\"https://pkg.go.dev/github.com/stretchr/testify/mock#Mock.Called\" rel=\"nofollow noreferrer\"><code>Called()</code></a> so that <code>mock.Mock</code> records the fact that <code>Execute()</code> has been called. As you are not worried about arguments or return values the following should resolve your issue:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func (m *MockExecutor) Execute() {\n    defer m.wg.Done()\n    m.Called()\n}\n</code></pre>\n<p>However I note that the way your test is currently written this test may not accomplish what you want. This is because:</p>\n<ul>\n<li>you are calling <code>executor.wg.Wait()</code> (which will wait until the function has been called the expected number of times) before calling <code>executor.AssertNumberOfCalls</code> so your test will never complete if <code>Execute()</code> is not called at least the expected number of times (<code>wg.Wait()</code> will block forever).</li>\n<li>After <code>m.Called()</code> has been called the expected number of times there is a race condition (if <code>executor</code> is still be running there is a race between <code>executor.AssertNumberOfCalls</code> and the next <code>m.Called()</code>). If <code>wg.Done()</code> does get called an extra time you will get a panic (which I guess you could consider a fail!) but I'd probably simplify the test a bit:</li>\n</ul>\n<pre class=\"lang-golang prettyprint-override\"><code>scheduler.Schedule(2, 1, 4)\ntime.Sleep(time.Millisecond) // Wait long enough that all executions are guaranteed to have completed (should be quick as Schedule waits for go routines to end)\nexecutor.AssertNumberOfCalls(t, &quot;Execute&quot;, 8)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Brits",
+        "link": "https://stackoverflow.com/users/11810946/brits"
+      }
+    },
+    {
+      "answer_id": 67349581,
+      "body": "<p>You're actually calling <code>m.AssertExpectation(t)</code> before the call <code>r.Calculate(m)</code> is made. Thus, you try to check for the mocked method call before the method was called.</p>\n<p>Just put the assertion after <code>r.Calculate(m)</code> and it should be fine.</p>\n",
+      "owner": {
+        "display_name": "Vaphen",
+        "link": "https://stackoverflow.com/users/4583982/vaphen"
+      }
+    },
+    {
+      "answer_id": 67138582,
+      "body": "<p>This is the intended behaviour of how testify works. The Setup/Before/After are called for the TestSuite rather than per subtest (table test case). There is a <a href=\"https://github.com/stretchr/testify/issues/1031\" rel=\"noreferrer\">Github issue here</a>.</p>\n<p>You can just call <code>s.SetupTest()</code> within the loop before you do the actual test.</p>\n",
+      "owner": {
+        "display_name": "Christian",
+        "link": "https://stackoverflow.com/users/4647559/christian"
+      }
+    },
+    {
+      "answer_id": 60925199,
+      "body": "<p>Yes, it is possible by using <code>args.Get</code> and type assertion.</p>\n<p>From the <a href=\"https://github.com/stretchr/testify/blob/master/mock/doc.go#L38-L40\" rel=\"noreferrer\">docs</a>:</p>\n<pre><code>// For objects of your own type, use the generic Arguments.Get(index) method and make a type assertion:\n//\n//     return args.Get(0).(*MyObject), args.Get(1).(*AnotherObjectOfMine)\n</code></pre>\n<p>So, your example would be:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func (m *someMock) doStuff(p *sql.DB, id int) (res int64, err error) {\n    args := m.Called(p, id)\n    return args.Get(0).(int64), args.Error(1)\n}\n</code></pre>\n<p>Additionaly, if your return value is a pointer (e.g. pointer to struct), you should check if it is nil before performing type assertion.</p>\n",
+      "owner": {
+        "display_name": "wijayaerick",
+        "link": "https://stackoverflow.com/users/11520747/wijayaerick"
+      }
+    },
+    {
+      "answer_id": 66035304,
+      "body": "<p><a href=\"https://github.com/go-pg/pg\" rel=\"nofollow noreferrer\">go-pg</a> uses connection pooling (in common with most go database packages). This means that when you call a database function (e.g. <a href=\"https://github.com/go-pg/pg/blob/v9.2.0/base.go#L199\" rel=\"nofollow noreferrer\"><code>db.Exec</code></a>) it will grab a connection from the pool (establishing a new one if needed), run the command and return the connection to the pool.</p>\n<p>When running a transaction you need to run <a href=\"https://www.postgresql.org/docs/13/sql-begin.html\" rel=\"nofollow noreferrer\"><code>BEGIN</code></a>, whatever updates etc you require, followed by <a href=\"https://www.postgresql.org/docs/13/sql-commit.html\" rel=\"nofollow noreferrer\"><code>COMMIT</code></a>/<a href=\"https://www.postgresql.org/docs/13/sql-rollback.html\" rel=\"nofollow noreferrer\"><code>ROLLBACK</code></a>, on a single connection dedicated to the transaction (any commands sent on other connections are not part of the transaction). This is why <a href=\"https://github.com/go-pg/pg/blob/v9.2.0/tx.go#L47\" rel=\"nofollow noreferrer\">Begin()</a> (and effectively <code>RunInTransaction</code>) provide you with a <a href=\"https://pkg.go.dev/github.com/go-pg/pg/v9@v9.2.0#Tx\" rel=\"nofollow noreferrer\"><code>pg.Tx</code></a>; use this to run commands within the transaction.</p>\n<p><a href=\"https://github.com/go-pg/pg/blob/v9.2.0/example_test.go#L179\" rel=\"nofollow noreferrer\">example_test.go</a> provides an example covering the usage of <a href=\"https://pkg.go.dev/github.com/go-pg/pg/v9@v9.2.0#Conn.RunInTransaction\" rel=\"nofollow noreferrer\"><code>RunInTransaction</code></a>:</p>\n<pre><code>incrInTx := func(db *pg.DB) error {\n        // Transaction is automatically rollbacked on error.\n        return db.RunInTransaction(func(tx *pg.Tx) error {\n            var counter int\n            _, err := tx.QueryOne(\n                pg.Scan(&amp;counter), `SELECT counter FROM tx_test FOR UPDATE`)\n            if err != nil {\n                return err\n            }\n\n            counter++\n\n            _, err = tx.Exec(`UPDATE tx_test SET counter = ?`, counter)\n            return err\n        })\n    }\n</code></pre>\n<p>You will note that this only uses the <code>pg.DB</code> when calling <code>RunInTransaction</code>; all database operations use the transaction <code>tx</code> (a <a href=\"https://pkg.go.dev/github.com/go-pg/pg/v9@v9.2.0#Tx\" rel=\"nofollow noreferrer\">pg.Tx</a>). <code>tx.QueryOne</code> will be run within the transaction; if you ran <code>db.QueryOne</code> then that would be run outside of the transaction.</p>\n<p>So <a href=\"https://pkg.go.dev/github.com/go-pg/pg/v9@v9.2.0#Conn.RunInTransaction\" rel=\"nofollow noreferrer\"><code>RunInTransaction</code></a> begins a transaction and passes the relevant <a href=\"https://pkg.go.dev/github.com/go-pg/pg/v9@v9.2.0#Tx\" rel=\"nofollow noreferrer\">Tx</a> in as a parameter to the function you provide. You wrap this with:</p>\n<pre class=\"lang-golang prettyprint-override\"><code>func (gs *DB) RunInTransaction(fn func() error) error {\n    f := func(*pg.Tx) error { return fn() }\n    return gs.pgDB.RunInTransaction(f)\n}\n</code></pre>\n<p>This effectively ignores the <code>pg.Tx</code> and you then run commands using other connections (e.g. <code>err := db.PutObj(&amp;r)</code>) (i.e. outside of the transaction). To fix this you need to use the transaction (e.g. <code>err := tx.PutObj(&amp;r)</code>).</p>\n",
+      "owner": {
+        "display_name": "Brits",
+        "link": "https://stackoverflow.com/users/11810946/brits"
+      }
+    },
+    {
+      "answer_id": 63258424,
+      "body": "<p>This is not directly supported, even though there is an opened issue (<a href=\"https://github.com/stretchr/testify/issues/741\" rel=\"nofollow noreferrer\">stretchr/testify/issue 741 &quot;assert mock calls in order&quot;</a>)</p>\n<p>The more general issue <a href=\"https://github.com/stretchr/testify/issues/684\" rel=\"nofollow noreferrer\">684 &quot;Assert call order?&quot;</a> includes the rebuttal:</p>\n<blockquote>\n<p>IMO you should check the output of the function but not how it works internally. It may lead to testing implementation which is very hard to maintain.</p>\n</blockquote>\n<p>Although, in the same thread:</p>\n<blockquote>\n<p>IMO there are cases to enforce order. i.e if you mock a mutex, you better check that Lock was always called before Unlock.<br />\nWe can have a simple implementation where the mock has an &quot;<code>assertExpectationsInOrder</code>&quot; true/false flag that can be set before any expectations are added.</p>\n</blockquote>\n<p>This can lead to some test like <a href=\"https://github.com/sky-uk/cassandra-operator/pull/170/commits/c60958bcbb30c9d2f8228c190bc6adf2bf7d7e92\" rel=\"nofollow noreferrer\"><code>cassandra-operator/cmd/operator/controller_test.go</code></a> which records events to test their orders.</p>\n",
+      "owner": {
+        "display_name": "VonC",
+        "link": "https://stackoverflow.com/users/6309/vonc"
+      }
+    },
+    {
+      "answer_id": 63121376,
+      "body": "<p>If the only possible use of an interface is for testing, I agree, that's probably a bad interface, and you should avoid that.</p>\n<p>The best way is to refactor your system to rely on a small, <em>useful</em> interfaces rather than one-off &quot;mocks&quot; of over-complicated structs. A very good example of this is the <code>net.Listener</code> interface. A system built on top of <code>net.Listener</code> is easy to mock, yes, but that's not why you implement <code>net.Listener</code>. You use the interface because it lets you swap in <em>many</em> possible implementations, one of which happens to be for testing.</p>\n<p>Another powerful approach is chain together functions rather than hard-coding functionality as methods. <code>http.HandlerFunc</code> is a great example of this that also demonstrates great interface design. See the many &quot;click-together&quot; functions that return a <code>http.Handler</code>, rather than one, massive &quot;Handler&quot; struct that you'd then have to mock for testing. This is Go at its best IMO.</p>\n<p>Remembering that functions are first-class in Go, you can get a lot of flexibility by passing and returning functions rather than tying them to interfaces. When you do that, you also can bundle those together as a struct. This can give a lot of power that also happens to be useful for testing. For example see, <code>tls.Config</code> which allows you to include your own <code>GetCertificate</code> function (among others). But the <code>tls.Config</code> struct also has sensible defaults so you don't have to configure every piece every time. By passing a specialized version of <code>tls.Config</code>, you can test TLS functionality without &quot;mocking&quot; anything.</p>\n<p>The consistent theme here is to make your system flexible about its implementations, and as a nice side-effect, that makes testing easier. In my experience, this is a much better way to think about the problem than mocking.</p>\n",
+      "owner": {
+        "display_name": "Rob Napier",
+        "link": "https://stackoverflow.com/users/97337/rob-napier"
+      }
+    },
+    {
+      "answer_id": 62696665,
+      "body": "<p>So, you have method:</p>\n<pre><code>GetSavingAccount(*context.Context,uint64,uint64,string,int64)\n</code></pre>\n<p>And you have mocked:</p>\n<pre><code>GetSavingAccount(*context.Context,uint64,uint64,string,int)\n</code></pre>\n<p>You have difference in the last parameter, your problem is <strong>int64</strong> and <strong>int</strong>, so you need:</p>\n<pre><code>mockAccountService.On(&quot;GetSavingAccount&quot;, mock.Anything, a, a, &quot;Hello&quot;, int64(1)).Return(...})\n</code></pre>\n<p>For context parameters always use mock.Anything, it is more easier than to mock context. Be careful with int/int64/int32 and other types, also for pointer/struct parameters.</p>\n",
+      "owner": {
+        "display_name": "Vasile Razdalovschi",
+        "link": "https://stackoverflow.com/users/9601186/vasile-razdalovschi"
+      }
+    },
+    {
+      "answer_id": 62448178,
+      "body": "<p>The example in <a href=\"https://github.com/stretchr/testify#mock-package\" rel=\"nofollow noreferrer\">the docs</a>:</p>\n\n<pre class=\"lang-golang prettyprint-override\"><code>/*\n  Actual test functions\n*/\n\n// TestSomething is an example of how to use our test object to\n// make assertions about some target code we are testing.\nfunc TestSomething(t *testing.T) {\n\n  // create an instance of our test object\n  testObj := new(MyMockedObject)\n\n  // setup expectations\n  testObj.On(\"DoSomething\", 123).Return(true, nil)\n\n  // call the code we are testing\n  targetFuncThatDoesSomethingWithObj(testObj)\n\n  // assert that the expectations were met\n  testObj.AssertExpectations(t)\n\n\n}\n</code></pre>\n\n<p>looks like you can call <code>.On</code> any number of times to record any number of \"called in this and this way\" expectations.</p>\n\n<p>I'd just read the source code, really. Bet it'd be faster than posting on SO.</p>\n",
+      "owner": {
+        "display_name": "kostix",
+        "link": "https://stackoverflow.com/users/720999/kostix"
+      }
+    },
+    {
+      "answer_id": 62440567,
+      "body": "<p>You could write your mock consumer like this below which will satisfy the consumergroup object. </p>\n\n<pre><code>// Consumergroup handler\ntype testConsumerGroupHandler struct {\n}\n\nfunc (C testConsumerGroupHandler) Consume(ctx context.Context, topics []string, handler sarama.ConsumerGroupHandler) error {\n    return nil\n}\nfunc (C testConsumerGroupHandler) Errors() &lt;-chan error {\n    return nil\n}\nfunc (C testConsumerGroupHandler) Close() error {\n    return nil\n}\n</code></pre>\n\n<p>Afterwards, you should write your methods for success and failure and accordingly setup mock testing</p>\n",
+      "owner": {
+        "display_name": "Bhupinder Singh Narang",
+        "link": "https://stackoverflow.com/users/4158062/bhupinder-singh-narang"
+      }
+    },
+    {
+      "answer_id": 62175140,
+      "body": "<p>First, to answer your question: Yes, you can specify how many times you want to return one value vs another. You can do that by using <code>Once()</code>, <code>Twice()</code>, or <code>Times(n)</code> as follows:</p>\n\n<pre><code>m.On(\"foo\", ...).Return(...).Once()\n</code></pre>\n\n<p>Also, at the end of the test, you should confirm that the methods were called correct number of times by doing <code>m.AssertExpectations(t)</code>.</p>\n\n<p>Now, my suggestion: It seems like you are over-complicating your mocks. You only have to use <code>mock.MatchedBy</code> when you wish to check partial equality or do some processing before checking for equality. In your case, <code>m.On(\"Get\", \"book\", &amp;Book{})...</code> should work just fine.</p>\n\n<p>Also, since you have different \"inputs\" to the mocked function - you don't necessarily need to add <code>Once()</code> at the end. It becomes compulsory only when you want to return different values but the arguments remain the same. However, it is mostly a good practice to assert whether the function was called the expected number of times.</p>\n",
+      "owner": {
+        "display_name": "Tarun Khandelwal",
+        "link": "https://stackoverflow.com/users/8849444/tarun-khandelwal"
+      }
+    },
+    {
+      "answer_id": 58320268,
+      "body": "<p>You don't. It has nothing to do with testify--that's just how Go works. Set multiple variables to the return values, then assert each one individually:</p>\n\n<pre><code>x, y := testObject.CreateTenantHandler(nil)\nassertEqual(t, x, expectedX)\nassertEqual(t, y, expectedY)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jonathan Hall",
+        "link": "https://stackoverflow.com/users/13860/jonathan-hall"
+      }
+    },
+    {
+      "answer_id": 58022874,
+      "body": "<p><code>redis.Client</code> is a <em>struct</em> type and in Go struct types are simply <em>not</em> mockable. However interfaces in Go <em>are</em> mockable, so what you can do is to define your own \"newredisclient\" func that instead of returning a struct returns an interface. And since interfaces in Go are satisfied implicitly you can define your interface such that it will be implemented by redis.Client out of the box.</p>\n\n<pre><code>type RedisClient interface {\n    Ping() redis.StatusCmd\n    // include any other methods that you need to use from redis\n}\n\nfunc NewRedisCliennt(options *redis.Options) RedisClient {\n    return redis.NewClient(options)\n}\n\nvar newRedisClient = NewRedisClient\n</code></pre>\n\n<hr>\n\n<p>If you also want to mock the return value from <code>Ping()</code>, you need to do a bit more work.</p>\n\n<pre><code>// First define an interface that will replace the concrete redis.StatusCmd.\ntype RedisStatusCmd interface {\n    Result() (string, error)\n    // include any other methods that you need to use from redis.StatusCmd\n}\n\n// Have the client interface return the new RedisStatusCmd interface\n// instead of the concrete redis.StatusCmd type.\ntype RedisClient interface {\n    Ping() RedisStatusCmd\n    // include any other methods that you need to use from redis.Client\n}\n</code></pre>\n\n<p>Now <code>*redis.Client</code> does <em>not</em> satisfy the <code>RedisClient</code> interface anymore because the return type of <code>Ping()</code> is different. Note that it doesn't matter that the result type of <code>redis.Client.Ping()</code> satisfies the interface type returned by <code>RedisClient.Ping()</code>, what matters is that the method signatures are different and therefore their types are different.</p>\n\n<p>To fix this you can define a thin wrapper that uses <code>*redis.Client</code> directly and also satisfies the new <code>RedisClient</code> interface.</p>\n\n<pre><code>type redisclient struct {\n    rc *redis.Client\n}\n\nfunc (c *redisclient) Ping() RedisStatusCmd {\n    return c.rc.Ping()\n}\n\nfunc NewRedisCliennt(options *redis.Options) RedisClient {\n    // here wrap the *redis.Client into *redisclient\n    return &amp;redisclient{redis.NewClient(options)}\n}\n\nvar newRedisClient = NewRedisClient\n</code></pre>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 56907584,
+      "body": "<p>First, if your interface has 5 methods, and you're only using one, your interface is too big. Use a smaller interface.</p>\n\n<pre><code>type BigInterface interface {\n    Thing1()\n    Thing2()\n    ThingN()\n}\n\ntype SmallInterface interface {\n    Thing1()\n}\n\nfunc MyFunc(i SmallInterface) { ... }\n</code></pre>\n\n<p>Another option is to create a complete implementation of the full interface, by embedding the full interface. This will panic if you try to access one of the other methods, but will work for testing if you're careful. (But please don't do this in production code!)</p>\n\n<pre><code>type BigInterface interface {\n    Thing1()\n    Thing2()\n    ThingN()\n}\n\ntype myImplementation struct {\n    BigInterface\n}\n\nfunc (i *myImplementation) Thing1() { ... }\n</code></pre>\n\n<p>Now <code>myImplementation</code> satisfies the <code>BigInterface</code> interface, by virtue of containing an embedded instance of <code>BigInterface</code>. If you never set that embedded instance to anything, then calling those methods will panic, but you can still define <code>Thing1</code> to do what you want for your tests.</p>\n",
+      "owner": {
+        "display_name": "Jonathan Hall",
+        "link": "https://stackoverflow.com/users/13860/jonathan-hall"
+      }
+    },
+    {
+      "answer_id": 55596520,
+      "body": "<p>The index out of range error has type <code>runtime.errorString</code>.  The application compares the value to a value of type <code>string</code>. This comparison evaluates to false.</p>\n\n<p>To fix, capture the index out of range error and compare to that.</p>\n\n<pre><code>var indexOutOfRangeValue = func() (v interface{}) {\n    defer func() {\n        v = recover()\n    }()\n    x := []int{}\n    return x[1]\n}()\n\nfunc TestIndexOutOfRange(t *testing.T) {\n    assert.PanicsWithValue(t, indexOutOfRangeValue, func() { indexOutOfRange(9) })\n}\n</code></pre>\n\n<p>This code assumes that index out of range panic values compare as equal. There's no guarantee that this assumption will be true in future versions of Go, but it seems unlikely that the runtime break this assumption.</p>\n",
+      "owner": {
+        "display_name": "user5728991",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 47467105,
+      "body": "<p>I use the same technique. Just wait for goroutine end. Very likely it’s not yet set. </p>\n\n<p>Also, I recommend to run such tests with the race-condition detector. It helps to catch such situations. Then you can add some synchronization to the tests to make them reliable. </p>\n\n<p>Example from my test. A tested function should check in parallel that both web pages contain the specified string.  So test should check that tested function has visited both pages</p>\n\n<p><strong>UPDATE</strong>: incorrect test was attached. Fixed. </p>\n\n<pre><code>func TestCheckSites_TwoSlowHandlers_BothContain(t *testing.T) {\n    var config = GetConfig()\n    var v1, v2 bool\n    var wg sync.WaitGroup\n    wg.Add(2)\n    handler1 := http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {\n        defer wg.Done()\n        v1 = true\n        time.Sleep(2 * config.Http.Timeout) // Use double HTTP_TIMEOUT\n        io.WriteString(w, \"Present\")\n    })\n    ts1 := httptest.NewServer(handler1)\n    defer ts1.Close()\n\n    handler2 := http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {\n        defer wg.Done()\n        v2 = true\n        time.Sleep(2 * config.Http.Timeout)\n        io.WriteString(w, \"Present\")\n    })\n    ts2 := httptest.NewServer(handler2)\n    defer ts2.Close()\n\n    result, err := checkSites([]string{ts1.URL, ts2.URL}, \"Present\")\n    assert.Equal(t, nil, err, \"Error should be nil\")\n    assert.Contains(t, []string{\"\"}, result, \"Should be empty string\")\n    //assert.(t, ts1.URL, result, \"Should first or second empty string\")\n    wg.Wait()\n    assert.Equal(t, true, v1, \"First server should be visited\")\n    assert.Equal(t, true, v2, \"Second server should be visited\")\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Eugene Lisitsky",
+        "link": "https://stackoverflow.com/users/5165332/eugene-lisitsky"
+      }
+    },
+    {
+      "answer_id": 52302503,
+      "body": "<p>I feel a bit silly for this. </p>\n\n<p>The problem was that I was bothering with </p>\n\n<pre><code>sessionMock.AssertExpectations(t)\n</code></pre>\n\n<p>when I could have simply said</p>\n\n<pre><code>sessionMock.AssertNotCalled(t, \"SessionRelease\", w)\n</code></pre>\n\n<p>(Documentation on that method <a href=\"https://godoc.org/github.com/stretchr/testify/mock#Mock.AssertNotCalled\" rel=\"nofollow noreferrer\">here</a>)</p>\n\n<p>Doing the latter resolved the issue, and did exactly what I was trying to accomplish.</p>\n",
+      "owner": {
+        "display_name": "Mike Warren",
+        "link": "https://stackoverflow.com/users/2027839/mike-warren"
+      }
+    },
+    {
+      "answer_id": 51667738,
+      "body": "<p>The solution is to not assign values when you declare your <code>downloadFile</code> and <code>doRetry</code> function variables, but \"defer\" the initialization to a package <code>init()</code> function, like this:</p>\n\n<pre><code>var downloadFile func(string) //= DownloadFile\nvar doRetry func(string)      //= DoRetry\n\nfunc init() {\n    downloadFile = DownloadFile\n    doRetry = DoRetry\n}\n</code></pre>\n\n<p>This way the variables first will be initialized with <code>nil</code> (zero value for function types) which means they don't depend on the <code>DownloadFile()</code> and <code>DoRetry()</code> functions, and <em>later</em> when the package <code>init()</code> function runs, that will assign the function values to the variables, so no initialization loop will occur.</p>\n",
+      "owner": {
+        "display_name": "icza",
+        "link": "https://stackoverflow.com/users/1705598/icza"
+      }
+    },
+    {
+      "answer_id": 51517397,
+      "body": "<p>The use of a colon here creates a new function-scoped variable with the same name:</p>\n\n<pre><code>connectDB := func(config *Config) string {\n    return \"Mock response\"\n}\n</code></pre>\n\n<p>Remove the colon to assign to the package variable.</p>\n",
+      "owner": {
+        "display_name": "jrefior",
+        "link": "https://stackoverflow.com/users/1964690/jrefior"
+      }
+    },
+    {
+      "answer_id": 51032098,
+      "body": "<p>Generally you want to use <code>SetupTest</code> so that each individual test function runs with a clean environment. <code>SetupSuite</code> is useful in cases where the setup code is time consuming and isn't modified in any of the tests. An example of when this could be useful is if you were testing code that reads from a database, and all the tests used the same data and only ran <code>SELECT</code> statements. In this scenario, <code>SetupSuite</code> could be used once to load the database with data.</p>\n",
+      "owner": {
+        "display_name": "phiggy",
+        "link": "https://stackoverflow.com/users/384162/phiggy"
+      }
+    },
+    {
+      "answer_id": 50772965,
+      "body": "<p>The line</p>\n\n<pre><code>testobj.On(\"Add\", 1, 2).Return(5)\n</code></pre>\n\n<p>means that you expect the <code>testobj</code> mock to receive a call to its <code>Add</code> method with arguments <code>1</code> and <code>2</code> passed to it, and you also specify that that call should return the integer value <code>5</code>.</p>\n\n<p>But instead on this line</p>\n\n<pre><code>assert.Equal(t, 5, result.Add(5, 6))\n</code></pre>\n\n<p>you are calling the method <code>Add</code> with arguments <code>5</code> and <code>6</code>.</p>\n\n<p>This results in the error you got:</p>\n\n<pre><code>mock: Unexpected Method Call\n-----------------------------\n\nAdd(int,int)\n            0: 5\n            1: 6\n// this is result.Add(5, 6), the 0: and 1: are indexes of the actually passed in aguments.\n\nThe closest call I have is:\n\nAdd(int,int)\n            0: 1\n            1: 2\n// this is testobj.On(\"Add\", 1, 2), and 0: and 1: are indexes of the expected arguments.\n</code></pre>\n\n<p>On top of that your mock implementations are attempting to calculate and return the value. This is not what a mock should do. A mock should instead return the value provided to it through the <code>Return</code> method.</p>\n\n<p>The way you can do this is by using the <a href=\"https://godoc.org/github.com/stretchr/testify/mock#Arguments\" rel=\"noreferrer\"><code>args</code></a> value returned from the <code>Called</code> method call, this value will hold the <code>Return</code> method's arguments indexed in the same order they were passed in to <code>Return</code>.</p>\n\n<p>So the integer value <code>5</code> that you passed to <code>Return</code> on this line</p>\n\n<pre><code>testobj.On(\"Add\", 1, 2).Return(5)\n</code></pre>\n\n<p>can be accessed using the <code>Int</code> utility method and passing it the 0th index. That is <code>return args.Int(0)</code> will return the interger value <code>5</code>.</p>\n\n<p>So your test file should look more like this:</p>\n\n<pre><code>import (\n    \"testing\"\n\n    \"github.com/stretchr/testify/assert\"\n    \"github.com/stretchr/testify/mock\"\n)\n\ntype MyMock struct {\n    mock.Mock\n}\n\nfunc (m *MyMock) Add(num1 int, num2 int) int {\n    args := m.Called(num1, num2)\n    return args.Int(0)\n}\n\nfunc (m *MyMock) Subtract(num1 int, num2 int) int {\n    args := m.Called(num1, num2)\n    return args.Int(0)\n}\n\nfunc TestDoComputation(t *testing.T) {\n    testobj := new(MyMock)\n\n    testobj.On(\"Add\", 1, 2).Return(5)\n\n    // a := GetNewArithmetic(testobj)\n\n    result := GetNewArithmetic(testobj)\n\n    assert.Equal(t, 5, result.Add(1, 2))\n    testobj.AssertExpectations(t)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "mkopriva",
+        "link": "https://stackoverflow.com/users/965900/mkopriva"
+      }
+    },
+    {
+      "answer_id": 50732719,
+      "body": "<p>You should consider passing in the second function is as an parameter to the first.</p>\n\n<p>You have a few options for doing that. You could simply pass it as a parameter.</p>\n\n<pre><code>func DoX(doY func()) {\n   doY()\n}\n</code></pre>\n\n<p>That’s simple but doesn’t work well as the core get more complex. The better alternative is often to make the functions methods on a struct.</p>\n\n<pre><code>type X struct {\n   Y Y\n}\n\ntype Y interface {\n   Do()\n}\n\nfunc (x *X) Do() {\n   x.Y.Do()\n}\n</code></pre>\n\n<p>Then Y can be replaced with a mock.</p>\n",
+      "owner": {
+        "display_name": "dolan",
+        "link": "https://stackoverflow.com/users/5705686/dolan"
+      }
+    },
+    {
+      "answer_id": 47696122,
+      "body": "<p>I read about the goroutine scheduling and come to know that if you are writing the test for the go functions(goroutines) then sometimes they may be called (the case when the test will pass and) and sometimes they may not be called.(the case when the test will fail). To recover from this one should use Gosched() in the test file where we are calling the goroutine. \nThis happens because go uses cooperative scheduling for the scheduling for the goroutines, which is different from preemptive and non-preemptive. If anyone wants to more about it follow this. <a href=\"https://github.com/golang/go/issues/11462\" rel=\"nofollow noreferrer\">https://github.com/golang/go/issues/11462</a></p>\n",
+      "owner": {
+        "display_name": "Riteek Srivastava",
+        "link": "https://stackoverflow.com/users/4490293/riteek-srivastava"
+      }
+    },
+    {
+      "answer_id": 45542325,
+      "body": "<p>Writing unit tests is relatively easy. <strong>Writing good unit tests is hard</strong>. This isn't helped because we are introduced to unit testing with trivial code examples that don't mimic real life usage.</p>\n\n<p>Try to avoid mocking unless you need to verify the invocations of a dependency. Prefer using stubs, fakes or real implementations. Knowing when to use each is a matter of experience and where the difficulty comes in. Also, think about your design. If you are finding it difficult to unit test, this could be because you need to redesign.</p>\n\n<p>Unit tests take time to write and maintain. You will always be quicker writing code without unit tests. However, we write unit tests to give us some assurance that our code works correctly and confidence to re-factor. </p>\n\n<p>Hence it's important to try to write the test against the behaviour (black box) instead of the implementation (white-box). This isn't always possible but unit tests that are tied to the implementation are fragile, discourage refactoring and can also sometimes mask unexpected behaviour.</p>\n\n<p>Some unit testing resources worth reading:</p>\n\n<ol>\n<li><a href=\"https://martinfowler.com/articles/mocksArentStubs.html\" rel=\"noreferrer\">Mocks Aren't Stubs</a></li>\n<li><a href=\"https://testing.googleblog.com/\" rel=\"noreferrer\">Testing on the Toilet Blog</a></li>\n<li><a href=\"https://www.infoq.com/presentations/tdd-original\" rel=\"noreferrer\">TDD - Where it all went wrong</a></li>\n</ol>\n\n<p>As way as an example, think of writing a unit test for a simple email address validator. We want to write a function that will take a string and return true/false based on whether a valid email address was supplied.</p>\n\n<p>A trivial example implementation would be:</p>\n\n<pre><code>var re = regexp.MustCompile(\"[regular expression]\")\nfunc ValidateEmail(s string) bool {\n   return re.MatchString(s)\n}\n</code></pre>\n\n<p>We would then write a table driven test with the various inputs, e.g. <code>\"\"</code>, <code>good@example.com</code>, <code>bad</code> etc and verify the result was correct.</p>\n\n<p>Now this is a bit of a trivial example but illustrates my point. One may argue that this is easy because the function has no dependencies but it does! We are relying on the regexp implementation and the regular expression we are passing it.</p>\n\n<p>This is testing the desired behaviour, not how we implement it. We don't care how it validates an email address, simply that it does. If we were to tweak the regular expression or completely change the implementation then none of this would <em>break</em> the tests unless the result was incorrect.</p>\n\n<p>Very few would suggest that we should isolate the dependency and test the validation function by mocking the regexp and ensuring that it is called with the regular expression we expect. This would be far more fragile but also less useful, i.e. how would we know the regular expression is actually going to work?</p>\n\n<hr>\n\n<p>For your specific example, you could easily avoid mocking &amp; use a trivial fake to test both normal results and the error cases. This would be something like:</p>\n\n<pre><code>// Used to test error result, \nvar errFail = errors.New(\"Failed\")\n\n// Fake type\ntype fakeD func(input int) (int, error)\n\n// Implements Dinterface\nfunc (f fakeD) DoSomethingWithD(input int) (int, error) {\n    return f(input)\n}\n\n// Fake implementation. Returns error on input 5, otherwise input * input\nvar fake fakeD = func(input int) (int, error) {\n    if input == 5 {\n        return nil, errFail\n    }\n    return input * input, nil\n}\n</code></pre>\n\n<p>Then simply use <code>fake</code> as your dependency and run your table based tests as normal. </p>\n",
+      "owner": {
+        "display_name": "Martin Campbell",
+        "link": "https://stackoverflow.com/users/8356442/martin-campbell"
+      }
+    },
+    {
+      "answer_id": 44484256,
+      "body": "<p>I tried with this and works:</p>\n\n<pre><code>type Foo struct {                                                                                                                                                    \n    mock.Mock                                                                                                                                                          \n}                                                                                                                                                                    \n\nfunc (m *Foo) Bar() {                                                                                                                                                \n    m.Called()                                                                                                                                                         \n}                                                                                                                                                                    \n\nfunc TestFoo(t *testing.T) {                                                                                                                                         \n    m := &amp;Foo{}                                                                                                                                                        \n    m.On(\"Bar\").Return(nil)                                                                                                                                            \n\n    m.Bar()                                                                                                                                                            \n    m.AssertCalled(t, \"Bar\")                                                                                                                                           \n}\n</code></pre>\n\n<p>As stated by <strong>Chris Drew</strong>, you've to use a receiver pointer on <em>Bar</em> method's declaration.</p>\n\n<p>Additionally, you've to istantiate a new structure as pointer and mock the method to return a value.</p>\n",
+      "owner": {
+        "display_name": "Dom Corvasce",
+        "link": "https://stackoverflow.com/users/5285360/dom-corvasce"
+      }
+    },
+    {
+      "answer_id": 43070258,
+      "body": "<p>You can use testify/require which has the exact same interface as assert, but it terminates the execution on failure. <a href=\"http://godoc.org/github.com/stretchr/testify/require\" rel=\"noreferrer\">http://godoc.org/github.com/stretchr/testify/require</a></p>\n\n<pre><code>import (\n    \"testing\"\n    \"github.com/stretchr/testify/require\"\n    \"github.com/stretchr/testify/assert\"\n)\n\nfunc TestWithRequire(t *testing.T) {\n    require.True(t, false) // fails and terminates\n    require.True(t, true) // never executed\n}\n\nfunc TestWithAssert(t *testing.T) {\n    assert.True(t, false) // fails\n    assert.True(t, false) // fails as well\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dovydas Bartkevičius",
+        "link": "https://stackoverflow.com/users/1519937/dovydas-bartkevi%c4%8dius"
+      }
+    },
+    {
+      "answer_id": 42254825,
+      "body": "<p>Moving the answer here for others in the future.</p>\n\n<p>You need to both import the package and run <code>go get github.com/package/path</code> to install the package. </p>\n",
+      "owner": {
+        "display_name": "joncalhoun",
+        "link": "https://stackoverflow.com/users/1209538/joncalhoun"
+      }
+    },
+    {
+      "answer_id": 40846860,
+      "body": "<p>That's because your <code>testableFunction</code> variable gets assigned somewhere else in your code.</p>\n\n<p>See this example:</p>\n\n<pre><code>var testableFunction = func(s string) string {\n    return \"re: \" + s\n}\n</code></pre>\n\n<p>Test code:</p>\n\n<pre><code>func TestFunction(t *testing.T) {\n    exp := \"re: a\"\n    if got := testableFunction(\"a\"); got != exp {\n        t.Errorf(\"Expected: %q, got: %q\", exp, got)\n    }\n}\n</code></pre>\n\n<p>Running <code>go test -cover</code>:</p>\n\n<pre><code>PASS\ncoverage: 100.0% of statements\nok      play    0.002s\n</code></pre>\n\n<p>Obviously if a new function value is assigned to <code>testableFunction</code> before the test execution, then the anonymous function used to initialize your variable will not get called by the test.</p>\n\n<p>To demonstrate, change your test function to this:</p>\n\n<pre><code>func TestFunction(t *testing.T) {\n    testableFunction = func(s string) string { return \"re: \" + s }\n\n    exp := \"re: a\"\n    if got := testableFunction(\"a\"); got != exp {\n        t.Errorf(\"Expected: %q, got: %q\", exp, got)\n    }\n}\n</code></pre>\n\n<p>Running <code>go test -cover</code>:</p>\n\n<pre><code>PASS\ncoverage: 0.0% of statements\nok      play    0.003s\n</code></pre>\n",
+      "owner": {
+        "display_name": "icza",
+        "link": "https://stackoverflow.com/users/1705598/icza"
+      }
+    },
+    {
+      "answer_id": 36581099,
+      "body": "<p>Unless the formatting matters a whole bunch, a quick thorough way to test something like xml.Marshal is to marshal to and from and compare the objects</p>\n\n<pre><code>func (suite *BookSuite) TestXMLMarshal() {\n\n    priceXML, priceErr := xml.Marshal(PriceType{Price: 10, Type: \"IND\"})\n\n    suite.Nil(priceErr)\n\n    var secondPrice PriceType\n    unerr :=  xml.Unmarshal(priceXML, &amp;secondPrice)\n    suite.Nil(unerr)\n\n    if !reflect.DeepEqual(&amp;priceXML,&amp;secondPrice){\n        err := fmt.Errorf(\"Expected: '%+v'\\nGot: %+v\\n\",priceXML,secondPrice)\n        suite.Error(err, err.Error())\n        fmt.Println(err)\n    }\n}\n</code></pre>\n\n<p>not tested but should be something like that.</p>\n",
+      "owner": {
+        "display_name": "matt.s",
+        "link": "https://stackoverflow.com/users/151825/matt-s"
+      }
+    },
+    {
+      "answer_id": 35850260,
+      "body": "<p>My own solution was to take the method as an argument, which allow to inject a \"mock\" instead when testing. Additionnaly, create an exported method as public facade and an unexported one for testing.</p>\n\n<p>Example:</p>\n\n<pre><code>    func Foo() int {        \n            return foo(os.Getpid)\n    }                       \n\n    func foo(getpid func() int) int {\n            return getpid()      \n    } \n</code></pre>\n",
+      "owner": {
+        "display_name": "Elwinar",
+        "link": "https://stackoverflow.com/users/3472656/elwinar"
+      }
+    },
+    {
+      "answer_id": 31063530,
+      "body": "<p>If your <code>api</code> package depends on your <code>database</code> package (which it appears to) then your <code>api</code> package should have a way to provide a database connection pool (e.g. a <code>*sql.DB</code>) to it.</p>\n\n<p>In your tests for the <code>api</code> package, you should just pass in an initialised pool (perhaps with the test schema/fixtures pre-populated) that you can use. This can either be a global you initialise in <code>init()</code> for the <code>api</code> package or a <code>setup()</code> and <code>defer teardown()</code> pattern in each test function.</p>\n\n<p>Here's the former (simplest) approach where you just create a shared database and schema for your tests to use.</p>\n\n<pre><code>package database\n\nimport testing\n\nvar testDB *sql.DB\n\n// This gets run before your actual test functions do.\nfunc init() {\n    var err error\n    db, err = sql.Open(...)\n    if err != nil {\n        log.Fatalf(\"test init failed: %s\", err)\n    }\n\n    _, err := db.Exec(`CREATE TABLE ....`)\n    if err != nil {\n        log.Fatalf(\"test schema creation failed: %s\", err)\n    }\n}\n</code></pre>\n\n<p>Some tips:</p>\n\n<ul>\n<li>You can also call a <code>setup()</code> function can create a table with a random suffix and insert your test data so that your tests don't use the same test table (and therefore risk conflicting or relying on each other). Capture that table name and dump it in your <code>defer teardown()</code> function.</li>\n<li><a href=\"https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091\" rel=\"nofollow\">https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091</a> is worth reading for some additional perspective.</li>\n</ul>\n",
+      "owner": {
+        "display_name": "elithrar",
+        "link": "https://stackoverflow.com/users/556573/elithrar"
+      }
+    },
+    {
+      "answer_id": 25365692,
+      "body": "<p>Guessing by the pieces posted here, it doesn't look like you have anything guaranteeing the order of operations when accessing the stored data. You can use a mutex around any data shared between goroutines.</p>\n\n<p>A better option here is to use buffered channels of length 1 to write, store, and read the bytes. </p>\n\n<p>It's always a good idea to test your program with <code>-race</code> to use the race detector.</p>\n\n<p>Since this looks very \"stream\" like, you very well may want some buffering, and to look at some examples of how the <code>io.Reader</code> and <code>io.Writer</code> interfaces are often used. </p>\n",
+      "owner": {
+        "display_name": "Mr_Pink",
+        "link": "https://stackoverflow.com/users/32880/mr-pink"
+      }
+    }
+  ]
+}

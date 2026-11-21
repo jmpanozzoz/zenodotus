@@ -1,0 +1,1908 @@
+{
+  "library": "packagist:guzzlehttp/guzzle",
+  "fetched_at": "2026-11-21T17:28:24Z",
+  "questions": [
+    {
+      "question_id": 22244738,
+      "title": "How can I use Guzzle to send a POST request in JSON?",
+      "accepted_answer_id": 22245541,
+      "score": 247,
+      "link": "https://stackoverflow.com/questions/22244738/how-can-i-use-guzzle-to-send-a-post-request-in-json",
+      "owner": {
+        "display_name": "user3379466",
+        "link": "https://stackoverflow.com/users/3379466/user3379466"
+      }
+    },
+    {
+      "question_id": 30549226,
+      "title": "Guzzlehttp - How get the body of a response from Guzzle 6?",
+      "accepted_answer_id": 30549372,
+      "score": 241,
+      "link": "https://stackoverflow.com/questions/30549226/guzzlehttp-how-get-the-body-of-a-response-from-guzzle-6",
+      "owner": {
+        "display_name": "Greg ",
+        "link": "https://stackoverflow.com/users/472700/greg"
+      }
+    },
+    {
+      "question_id": 30530172,
+      "title": "Guzzle 6: no more json() method for responses",
+      "accepted_answer_id": 30536709,
+      "score": 210,
+      "link": "https://stackoverflow.com/questions/30530172/guzzle-6-no-more-json-method-for-responses",
+      "owner": {
+        "display_name": "rap-2-h",
+        "link": "https://stackoverflow.com/users/978690/rap-2-h"
+      }
+    },
+    {
+      "question_id": 19748105,
+      "title": "Handle Guzzle exception and get HTTP body",
+      "accepted_answer_id": 19748271,
+      "score": 191,
+      "link": "https://stackoverflow.com/questions/19748105/handle-guzzle-exception-and-get-http-body",
+      "owner": {
+        "display_name": "domos",
+        "link": "https://stackoverflow.com/users/1236749/domos"
+      }
+    },
+    {
+      "question_id": 27825667,
+      "title": "PHP GuzzleHttp. How to make a post request with params?",
+      "accepted_answer_id": 27825711,
+      "score": 153,
+      "link": "https://stackoverflow.com/questions/27825667/php-guzzlehttp-how-to-make-a-post-request-with-params",
+      "owner": {
+        "display_name": "Arsen",
+        "link": "https://stackoverflow.com/users/4396853/arsen"
+      }
+    },
+    {
+      "question_id": 17658283,
+      "title": "Catching exceptions from Guzzle",
+      "accepted_answer_id": 17658431,
+      "score": 108,
+      "link": "https://stackoverflow.com/questions/17658283/catching-exceptions-from-guzzle",
+      "owner": {
+        "display_name": "Eric",
+        "link": "https://stackoverflow.com/users/1846298/eric"
+      }
+    },
+    {
+      "question_id": 36548005,
+      "title": "Why use Guzzle instead of cURL?",
+      "accepted_answer_id": 36549547,
+      "score": 81,
+      "link": "https://stackoverflow.com/questions/36548005/why-use-guzzle-instead-of-curl",
+      "owner": {
+        "display_name": "Cato Minor",
+        "link": "https://stackoverflow.com/users/4478158/cato-minor"
+      }
+    },
+    {
+      "question_id": 17766626,
+      "title": "How to set default header in Guzzle?",
+      "accepted_answer_id": 17766649,
+      "score": 58,
+      "link": "https://stackoverflow.com/questions/17766626/how-to-set-default-header-in-guzzle",
+      "owner": {
+        "display_name": "J&#252;rgen Paul",
+        "link": "https://stackoverflow.com/users/1099531/j%c3%bcrgen-paul"
+      }
+    },
+    {
+      "question_id": 30682307,
+      "title": "How to read the response effective URL in Guzzle ~6.0",
+      "accepted_answer_id": 35443523,
+      "score": 54,
+      "link": "https://stackoverflow.com/questions/30682307/how-to-read-the-response-effective-url-in-guzzle-6-0",
+      "owner": {
+        "display_name": "joserobleda",
+        "link": "https://stackoverflow.com/users/1811887/joserobleda"
+      }
+    },
+    {
+      "question_id": 23372598,
+      "title": "Adding Query string params to a Guzzle GET request?",
+      "accepted_answer_id": 28431296,
+      "score": 51,
+      "link": "https://stackoverflow.com/questions/23372598/adding-query-string-params-to-a-guzzle-get-request",
+      "owner": {
+        "display_name": "ehime",
+        "link": "https://stackoverflow.com/users/411141/ehime"
+      }
+    },
+    {
+      "question_id": 24923604,
+      "title": "Guzzle Curl Error 60 SSL unable to get local issuer",
+      "accepted_answer_id": 24934334,
+      "score": 44,
+      "link": "https://stackoverflow.com/questions/24923604/guzzle-curl-error-60-ssl-unable-to-get-local-issuer",
+      "owner": {
+        "display_name": "RedactedProfile",
+        "link": "https://stackoverflow.com/users/817792/redactedprofile"
+      }
+    },
+    {
+      "question_id": 48279382,
+      "title": "cURL request in Laravel",
+      "accepted_answer_id": 48280296,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/48279382/curl-request-in-laravel",
+      "owner": {
+        "display_name": "harunB10",
+        "link": "https://stackoverflow.com/users/4195212/harunb10"
+      }
+    },
+    {
+      "question_id": 29722822,
+      "title": "Guzzle returns cURL error 3: &lt;url&gt; malformed",
+      "accepted_answer_id": 29722864,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/29722822/guzzle-returns-curl-error-3-url-malformed",
+      "owner": {
+        "display_name": "LoveAndHappiness",
+        "link": "https://stackoverflow.com/users/2807996/loveandhappiness"
+      }
+    },
+    {
+      "question_id": 40998662,
+      "title": "How can I send Cookies with Guzzlehttp/guzzle 6?",
+      "accepted_answer_id": 40998808,
+      "score": 40,
+      "link": "https://stackoverflow.com/questions/40998662/how-can-i-send-cookies-with-guzzlehttp-guzzle-6",
+      "owner": {
+        "display_name": "steve",
+        "link": "https://stackoverflow.com/users/3809505/steve"
+      }
+    },
+    {
+      "question_id": 25040436,
+      "title": "Guzzle: handle 400 bad request",
+      "accepted_answer_id": 25040600,
+      "score": 36,
+      "link": "https://stackoverflow.com/questions/25040436/guzzle-handle-400-bad-request",
+      "owner": {
+        "display_name": "Ted",
+        "link": "https://stackoverflow.com/users/407412/ted"
+      }
+    },
+    {
+      "question_id": 32555417,
+      "title": "Guzzle 6, get request string",
+      "accepted_answer_id": 32569976,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/32555417/guzzle-6-get-request-string",
+      "owner": {
+        "display_name": "Nicekiwi",
+        "link": "https://stackoverflow.com/users/505999/nicekiwi"
+      }
+    },
+    {
+      "question_id": 36011790,
+      "title": "Guzzle HTTP - add Authorization header directly into request",
+      "accepted_answer_id": 36012671,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/36011790/guzzle-http-add-authorization-header-directly-into-request",
+      "owner": {
+        "display_name": "Zabs",
+        "link": "https://stackoverflow.com/users/218725/zabs"
+      }
+    },
+    {
+      "question_id": 19520185,
+      "title": "How to perform multiple Guzzle requests at the same time?",
+      "accepted_answer_id": 19599351,
+      "score": 32,
+      "link": "https://stackoverflow.com/questions/19520185/how-to-perform-multiple-guzzle-requests-at-the-same-time",
+      "owner": {
+        "display_name": "Martijn",
+        "link": "https://stackoverflow.com/users/2835449/martijn"
+      }
+    },
+    {
+      "question_id": 38133244,
+      "title": "Upload file using Guzzle 6 to API endpoint",
+      "accepted_answer_id": 38307909,
+      "score": 32,
+      "link": "https://stackoverflow.com/questions/38133244/upload-file-using-guzzle-6-to-api-endpoint",
+      "owner": {
+        "display_name": "Brad",
+        "link": "https://stackoverflow.com/users/26130/brad"
+      }
+    },
+    {
+      "question_id": 25268872,
+      "title": "GuzzleHttp\\Client ignores base path in base_url",
+      "accepted_answer_id": 71380692,
+      "score": 30,
+      "link": "https://stackoverflow.com/questions/25268872/guzzlehttp-client-ignores-base-path-in-base-url",
+      "owner": {
+        "display_name": "Benjamin Nolan",
+        "link": "https://stackoverflow.com/users/2257060/benjamin-nolan"
+      }
+    },
+    {
+      "question_id": 49681530,
+      "title": "Guzzle - Laravel. How to make request with x-www-form-url-encoded",
+      "accepted_answer_id": 49681728,
+      "score": 30,
+      "link": "https://stackoverflow.com/questions/49681530/guzzle-laravel-how-to-make-request-with-x-www-form-url-encoded",
+      "owner": {
+        "display_name": "Aleks Per",
+        "link": "https://stackoverflow.com/users/6310798/aleks-per"
+      }
+    },
+    {
+      "question_id": 31087814,
+      "title": "Can you include raw JSON in Guzzle POST Body?",
+      "accepted_answer_id": 31087986,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/31087814/can-you-include-raw-json-in-guzzle-post-body",
+      "owner": {
+        "display_name": "Jason Hill",
+        "link": "https://stackoverflow.com/users/5055772/jason-hill"
+      }
+    },
+    {
+      "question_id": 34910370,
+      "title": "How do I get the body of SENT data with Guzzle PHP?",
+      "accepted_answer_id": 34911017,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/34910370/how-do-i-get-the-body-of-sent-data-with-guzzle-php",
+      "owner": {
+        "display_name": "ruhnet",
+        "link": "https://stackoverflow.com/users/5735139/ruhnet"
+      }
+    },
+    {
+      "question_id": 22725266,
+      "title": "How to autoload Guzzle in Laravel 4?",
+      "accepted_answer_id": 22725530,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/22725266/how-to-autoload-guzzle-in-laravel-4",
+      "owner": {
+        "display_name": "Iain",
+        "link": "https://stackoverflow.com/users/1913783/iain"
+      }
+    },
+    {
+      "question_id": 32681165,
+      "title": "How do you log all API calls using Guzzle 6",
+      "accepted_answer_id": 32684940,
+      "score": 27,
+      "link": "https://stackoverflow.com/questions/32681165/how-do-you-log-all-api-calls-using-guzzle-6",
+      "owner": {
+        "display_name": "KingKongFrog",
+        "link": "https://stackoverflow.com/users/866206/kingkongfrog"
+      }
+    },
+    {
+      "question_id": 44593272,
+      "title": "Guzzle returns stream empty body instead of json body",
+      "accepted_answer_id": 44600141,
+      "score": 26,
+      "link": "https://stackoverflow.com/questions/44593272/guzzle-returns-stream-empty-body-instead-of-json-body",
+      "owner": {
+        "display_name": "Emeka Mbah",
+        "link": "https://stackoverflow.com/users/2772319/emeka-mbah"
+      }
+    },
+    {
+      "question_id": 35956516,
+      "title": "Send asynchronous request without waiting the response using guzzle",
+      "accepted_answer_id": 44774990,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/35956516/send-asynchronous-request-without-waiting-the-response-using-guzzle",
+      "owner": {
+        "display_name": "gmponos",
+        "link": "https://stackoverflow.com/users/4158811/gmponos"
+      }
+    },
+    {
+      "question_id": 30645996,
+      "title": "Guzzle ~6.0 multipart and form_params",
+      "accepted_answer_id": 30753498,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/30645996/guzzle-6-0-multipart-and-form-params",
+      "owner": {
+        "display_name": "Jordan Dobrev",
+        "link": "https://stackoverflow.com/users/4423291/jordan-dobrev"
+      }
+    },
+    {
+      "question_id": 34726530,
+      "title": "Proper way to send (POST) xml with guzzle 6",
+      "accepted_answer_id": 34739140,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/34726530/proper-way-to-send-post-xml-with-guzzle-6",
+      "owner": {
+        "display_name": "user3485417",
+        "link": "https://stackoverflow.com/users/3485417/user3485417"
+      }
+    },
+    {
+      "question_id": 16939794,
+      "title": "Download or copy remote file using Guzzle",
+      "accepted_answer_id": 16947245,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/16939794/download-or-copy-remote-file-using-guzzle",
+      "owner": {
+        "display_name": "Spir",
+        "link": "https://stackoverflow.com/users/368248/spir"
+      }
+    },
+    {
+      "question_id": 33134274,
+      "title": "How do we specify TLS/SSL options in Guzzle?",
+      "accepted_answer_id": 33134596,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/33134274/how-do-we-specify-tls-ssl-options-in-guzzle",
+      "owner": {
+        "display_name": "MattC",
+        "link": "https://stackoverflow.com/users/1984146/mattc"
+      }
+    },
+    {
+      "question_id": 57578626,
+      "title": "Guzzle 6 download file",
+      "accepted_answer_id": 57606637,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/57578626/guzzle-6-download-file",
+      "owner": {
+        "display_name": "Kevin Lindmark",
+        "link": "https://stackoverflow.com/users/712430/kevin-lindmark"
+      }
+    },
+    {
+      "question_id": 49549155,
+      "title": "Passing client certificates through Curl request using Guzzle",
+      "accepted_answer_id": 49590036,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/49549155/passing-client-certificates-through-curl-request-using-guzzle",
+      "owner": {
+        "display_name": "Ajeesh",
+        "link": "https://stackoverflow.com/users/2897245/ajeesh"
+      }
+    },
+    {
+      "question_id": 30834147,
+      "title": "base_uri not being based from guzzle client instantiation",
+      "accepted_answer_id": 30874624,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/30834147/base-uri-not-being-based-from-guzzle-client-instantiation",
+      "owner": {
+        "display_name": "drrobotnik",
+        "link": "https://stackoverflow.com/users/639437/drrobotnik"
+      }
+    },
+    {
+      "question_id": 22824117,
+      "title": "Not getting expected response from Guzzle",
+      "accepted_answer_id": 22843023,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/22824117/not-getting-expected-response-from-guzzle",
+      "owner": {
+        "display_name": "Johnathan Barrett",
+        "link": "https://stackoverflow.com/users/538577/johnathan-barrett"
+      }
+    },
+    {
+      "question_id": 35655616,
+      "title": "How does Guzzle send async web requests?",
+      "accepted_answer_id": 35675265,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/35655616/how-does-guzzle-send-async-web-requests",
+      "owner": {
+        "display_name": "Code",
+        "link": "https://stackoverflow.com/users/4593869/code"
+      }
+    },
+    {
+      "question_id": 36947844,
+      "title": "GuzzleHttp Hangs When Using Localhost",
+      "accepted_answer_id": 46284277,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/36947844/guzzlehttp-hangs-when-using-localhost",
+      "owner": {
+        "display_name": "spreaderman",
+        "link": "https://stackoverflow.com/users/3264461/spreaderman"
+      }
+    },
+    {
+      "question_id": 44092240,
+      "title": "Queuing Guzzle Requests With Limits",
+      "accepted_answer_id": 57330152,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/44092240/queuing-guzzle-requests-with-limits",
+      "owner": {
+        "display_name": "Daniel Dewhurst",
+        "link": "https://stackoverflow.com/users/4367223/daniel-dewhurst"
+      }
+    },
+    {
+      "question_id": 50135163,
+      "title": "How to Retrieve HTTP Status Code with Guzzle?",
+      "accepted_answer_id": 51789802,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/50135163/how-to-retrieve-http-status-code-with-guzzle",
+      "owner": {
+        "display_name": "sineverba",
+        "link": "https://stackoverflow.com/users/1333012/sineverba"
+      }
+    },
+    {
+      "question_id": 55120359,
+      "title": "Guzzle getContents()-&gt;getBody() - Second calls return empty string",
+      "accepted_answer_id": 55134783,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/55120359/guzzle-getcontents-getbody-second-calls-return-empty-string",
+      "owner": {
+        "display_name": "sineverba",
+        "link": "https://stackoverflow.com/users/1333012/sineverba"
+      }
+    },
+    {
+      "question_id": 31784141,
+      "title": "Retrieve the whole XML response body with Guzzle 6 HTTP Client",
+      "accepted_answer_id": 31791933,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/31784141/retrieve-the-whole-xml-response-body-with-guzzle-6-http-client",
+      "owner": {
+        "display_name": "luqo33",
+        "link": "https://stackoverflow.com/users/3785777/luqo33"
+      }
+    },
+    {
+      "question_id": 47518700,
+      "title": "Laravel Unresolvable dependency resolving [Parameter #0 [ &lt;required&gt; $method ]] in class GuzzleHttp\\Psr7\\Request",
+      "accepted_answer_id": 47524849,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/47518700/laravel-unresolvable-dependency-resolving-parameter-0-required-method",
+      "owner": {
+        "display_name": "Ansib Raza",
+        "link": "https://stackoverflow.com/users/8956281/ansib-raza"
+      }
+    },
+    {
+      "question_id": 27506568,
+      "title": "GuzzlePHP mock response content",
+      "accepted_answer_id": 27515053,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/27506568/guzzlephp-mock-response-content",
+      "owner": {
+        "display_name": "Tzook Bar Noy",
+        "link": "https://stackoverflow.com/users/1033518/tzook-bar-noy"
+      }
+    },
+    {
+      "question_id": 45022631,
+      "title": "How to retrieve cookies from Guzzle client?",
+      "accepted_answer_id": 45054150,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/45022631/how-to-retrieve-cookies-from-guzzle-client",
+      "owner": {
+        "display_name": "Chris Stryczynski",
+        "link": "https://stackoverflow.com/users/1663462/chris-stryczynski"
+      }
+    },
+    {
+      "question_id": 49013014,
+      "title": "PHPUnit and mock request from Guzzle",
+      "accepted_answer_id": 49014306,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/49013014/phpunit-and-mock-request-from-guzzle",
+      "owner": {
+        "display_name": "themazz",
+        "link": "https://stackoverflow.com/users/1700927/themazz"
+      }
+    },
+    {
+      "question_id": 31882080,
+      "title": "Passing cookies from browser to Guzzle 6 client",
+      "accepted_answer_id": 33701574,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/31882080/passing-cookies-from-browser-to-guzzle-6-client",
+      "owner": {
+        "display_name": "Thelonias",
+        "link": "https://stackoverflow.com/users/491319/thelonias"
+      }
+    },
+    {
+      "question_id": 35179397,
+      "title": "Laravel environment variables leaking between applications when they call each other through GuzzleHttp",
+      "accepted_answer_id": 35180114,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/35179397/laravel-environment-variables-leaking-between-applications-when-they-call-each-o",
+      "owner": {
+        "display_name": "JustAMartin",
+        "link": "https://stackoverflow.com/users/217823/justamartin"
+      }
+    },
+    {
+      "question_id": 38589862,
+      "title": "Curl error : No route to host",
+      "accepted_answer_id": 57215724,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/38589862/curl-error-no-route-to-host",
+      "owner": {
+        "display_name": "Mihkel Allorg",
+        "link": "https://stackoverflow.com/users/5122070/mihkel-allorg"
+      }
+    },
+    {
+      "question_id": 28277889,
+      "title": "GuzzleHttp\\Client change base url dynamically",
+      "accepted_answer_id": 32725534,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/28277889/guzzlehttp-client-change-base-url-dynamically",
+      "owner": {
+        "display_name": "Simeon Kolev",
+        "link": "https://stackoverflow.com/users/2599203/simeon-kolev"
+      }
+    },
+    {
+      "question_id": 45406915,
+      "title": "GuzzleHttp:how can I save cookies from a POST response and use it in the next POST?",
+      "accepted_answer_id": 46101506,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/45406915/guzzlehttphow-can-i-save-cookies-from-a-post-response-and-use-it-in-the-next-po",
+      "owner": {
+        "display_name": "Eran Levi",
+        "link": "https://stackoverflow.com/users/1542680/eran-levi"
+      }
+    },
+    {
+      "question_id": 12283075,
+      "title": "Building query string programmatically in Guzzle?",
+      "accepted_answer_id": 51807873,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/12283075/building-query-string-programmatically-in-guzzle",
+      "owner": {
+        "display_name": "Prof. Falken",
+        "link": "https://stackoverflow.com/users/193892/prof-falken"
+      }
+    },
+    {
+      "question_id": 25089960,
+      "title": "How to get past login screen on Guzzle call",
+      "accepted_answer_id": 25120844,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/25089960/how-to-get-past-login-screen-on-guzzle-call",
+      "owner": {
+        "display_name": "Lynx",
+        "link": "https://stackoverflow.com/users/2267668/lynx"
+      }
+    },
+    {
+      "question_id": 41817525,
+      "title": "Use Guzzle to HTTP GET to external API with Symfony",
+      "accepted_answer_id": 41817573,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/41817525/use-guzzle-to-http-get-to-external-api-with-symfony",
+      "owner": {
+        "display_name": "Liz",
+        "link": "https://stackoverflow.com/users/6242161/liz"
+      }
+    },
+    {
+      "question_id": 48530338,
+      "title": "Guzzle vs ReactPHP vs Amphp for parallel requests",
+      "accepted_answer_id": 48618298,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/48530338/guzzle-vs-reactphp-vs-amphp-for-parallel-requests",
+      "owner": {
+        "display_name": "lubosdz",
+        "link": "https://stackoverflow.com/users/1485984/lubosdz"
+      }
+    },
+    {
+      "question_id": 56494526,
+      "title": "Can I use Guzzle for GraphQL API consumption?",
+      "accepted_answer_id": 56494527,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/56494526/can-i-use-guzzle-for-graphql-api-consumption",
+      "owner": {
+        "display_name": "Full Stack Alien",
+        "link": "https://stackoverflow.com/users/3726775/full-stack-alien"
+      }
+    },
+    {
+      "question_id": 25924147,
+      "title": "Moving Curl client ssl to Guzzle",
+      "accepted_answer_id": 25982590,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/25924147/moving-curl-client-ssl-to-guzzle",
+      "owner": {
+        "display_name": "greggles",
+        "link": "https://stackoverflow.com/users/56791/greggles"
+      }
+    },
+    {
+      "question_id": 28221462,
+      "title": "Can&#39;t set Guzzle Content Type",
+      "accepted_answer_id": 28221922,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/28221462/cant-set-guzzle-content-type",
+      "owner": {
+        "display_name": "Bug",
+        "link": "https://stackoverflow.com/users/994090/bug"
+      }
+    },
+    {
+      "question_id": 31019750,
+      "title": "How to make create batch request in Guzzle6?",
+      "accepted_answer_id": 38351680,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/31019750/how-to-make-create-batch-request-in-guzzle6",
+      "owner": {
+        "display_name": "RahulG",
+        "link": "https://stackoverflow.com/users/1252924/rahulg"
+      }
+    },
+    {
+      "question_id": 31609936,
+      "title": "Set request options after initialisation in guzzle 6",
+      "accepted_answer_id": 38528404,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/31609936/set-request-options-after-initialisation-in-guzzle-6",
+      "owner": {
+        "display_name": "tomvo",
+        "link": "https://stackoverflow.com/users/429719/tomvo"
+      }
+    },
+    {
+      "question_id": 42754389,
+      "title": "Guzzle Pool : Wait for Requests",
+      "accepted_answer_id": 43525426,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/42754389/guzzle-pool-wait-for-requests",
+      "owner": {
+        "display_name": "user429620",
+        "link": null
+      }
+    },
+    {
+      "question_id": 50144816,
+      "title": "3rd party dependency conflict in developing Wordpress Plugin",
+      "accepted_answer_id": 50183449,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/50144816/3rd-party-dependency-conflict-in-developing-wordpress-plugin",
+      "owner": {
+        "display_name": "Joseph Bada",
+        "link": "https://stackoverflow.com/users/4348776/joseph-bada"
+      }
+    },
+    {
+      "question_id": 55650920,
+      "title": "Make Guzzle trust self-signed certificate?",
+      "accepted_answer_id": 55650980,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/55650920/make-guzzle-trust-self-signed-certificate",
+      "owner": {
+        "display_name": "TheStoryCoder",
+        "link": "https://stackoverflow.com/users/2404541/thestorycoder"
+      }
+    },
+    {
+      "question_id": 19507471,
+      "title": "Converting this cURL for Guzzle",
+      "accepted_answer_id": 19507524,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/19507471/converting-this-curl-for-guzzle",
+      "owner": {
+        "display_name": "Grug",
+        "link": "https://stackoverflow.com/users/204406/grug"
+      }
+    },
+    {
+      "question_id": 24955070,
+      "title": "cURL works for my REST API but Guzzle not",
+      "accepted_answer_id": 24955921,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/24955070/curl-works-for-my-rest-api-but-guzzle-not",
+      "owner": {
+        "display_name": "marc_aragones",
+        "link": "https://stackoverflow.com/users/2670308/marc-aragones"
+      }
+    },
+    {
+      "question_id": 32857381,
+      "title": "How to return Guzzle JSON response",
+      "accepted_answer_id": 32857508,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/32857381/how-to-return-guzzle-json-response",
+      "owner": {
+        "display_name": "Dbrandt",
+        "link": "https://stackoverflow.com/users/1834866/dbrandt"
+      }
+    },
+    {
+      "question_id": 34577278,
+      "title": "Guzzle not sending PSR-7 POST body correctly",
+      "accepted_answer_id": 34686327,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/34577278/guzzle-not-sending-psr-7-post-body-correctly",
+      "owner": {
+        "display_name": "Jason",
+        "link": "https://stackoverflow.com/users/218208/jason"
+      }
+    },
+    {
+      "question_id": 35236073,
+      "title": "Fatal error: Call to undefined method GuzzleHttp\\Client::request() with Guzzle 6",
+      "accepted_answer_id": 35237661,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/35236073/fatal-error-call-to-undefined-method-guzzlehttp-clientrequest-with-guzzle-6",
+      "owner": {
+        "display_name": "Juliatzin",
+        "link": "https://stackoverflow.com/users/1956558/juliatzin"
+      }
+    },
+    {
+      "question_id": 36771849,
+      "title": "Guzzle get file and forward it",
+      "accepted_answer_id": 36778781,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/36771849/guzzle-get-file-and-forward-it",
+      "owner": {
+        "display_name": "Robin",
+        "link": "https://stackoverflow.com/users/1548788/robin"
+      }
+    },
+    {
+      "question_id": 42057302,
+      "title": "Setting up cookies for Guzzle CookieJar",
+      "accepted_answer_id": 42058067,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/42057302/setting-up-cookies-for-guzzle-cookiejar",
+      "owner": {
+        "display_name": "DrDamnit",
+        "link": "https://stackoverflow.com/users/2662892/drdamnit"
+      }
+    },
+    {
+      "question_id": 16812713,
+      "title": "Guzzle post parameter issue",
+      "accepted_answer_id": 16813250,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/16812713/guzzle-post-parameter-issue",
+      "owner": {
+        "display_name": "Samson",
+        "link": "https://stackoverflow.com/users/971459/samson"
+      }
+    },
+    {
+      "question_id": 28152906,
+      "title": "How do I send parameters for a PUT request in Guzzle 5?",
+      "accepted_answer_id": 28153903,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/28152906/how-do-i-send-parameters-for-a-put-request-in-guzzle-5",
+      "owner": {
+        "display_name": "Gnuffo1",
+        "link": "https://stackoverflow.com/users/196290/gnuffo1"
+      }
+    },
+    {
+      "question_id": 43424608,
+      "title": "Symfony/Console: How to use multiple progress bars?",
+      "accepted_answer_id": 43425440,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/43424608/symfony-console-how-to-use-multiple-progress-bars",
+      "owner": {
+        "display_name": "enumag",
+        "link": "https://stackoverflow.com/users/512485/enumag"
+      }
+    },
+    {
+      "question_id": 44879574,
+      "title": "Laravel server hangs whenever I try to request localhost:8000/any using guzzle",
+      "accepted_answer_id": 59063213,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/44879574/laravel-server-hangs-whenever-i-try-to-request-localhost8000-any-using-guzzle",
+      "owner": {
+        "display_name": "Carl Kroeger Ihl",
+        "link": "https://stackoverflow.com/users/3989826/carl-kroeger-ihl"
+      }
+    },
+    {
+      "question_id": 61317981,
+      "title": "Guzzle HTTP Client is slower than Symfony HTTP Client",
+      "accepted_answer_id": 61319761,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/61317981/guzzle-http-client-is-slower-than-symfony-http-client",
+      "owner": {
+        "display_name": "Umair Khan",
+        "link": "https://stackoverflow.com/users/4903314/umair-khan"
+      }
+    },
+    {
+      "question_id": 24963487,
+      "title": "Composer autoloader not loading GuzzleHttp\\ClientInterface",
+      "accepted_answer_id": 24964057,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/24963487/composer-autoloader-not-loading-guzzlehttp-clientinterface",
+      "owner": {
+        "display_name": "Maykonn",
+        "link": "https://stackoverflow.com/users/590852/maykonn"
+      }
+    },
+    {
+      "question_id": 26555661,
+      "title": "What is the best way to use Guzzle to check if a remote file exists?",
+      "accepted_answer_id": 26556440,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/26555661/what-is-the-best-way-to-use-guzzle-to-check-if-a-remote-file-exists",
+      "owner": {
+        "display_name": "ryanwinchester",
+        "link": "https://stackoverflow.com/users/2066155/ryanwinchester"
+      }
+    },
+    {
+      "question_id": 34916485,
+      "title": "Guzzle 6 progress of download",
+      "accepted_answer_id": 34923682,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/34916485/guzzle-6-progress-of-download",
+      "owner": {
+        "display_name": "Laoneo",
+        "link": "https://stackoverflow.com/users/356375/laoneo"
+      }
+    },
+    {
+      "question_id": 37378092,
+      "title": "PHP: Guzzle 6 + Guzzle-cache-middleware",
+      "accepted_answer_id": 37379482,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/37378092/php-guzzle-6-guzzle-cache-middleware",
+      "owner": {
+        "display_name": "TCB13",
+        "link": "https://stackoverflow.com/users/560745/tcb13"
+      }
+    },
+    {
+      "question_id": 41994839,
+      "title": "Class &#39;GuzzleHttp\\HandlerStack&#39; not found",
+      "accepted_answer_id": 41996147,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/41994839/class-guzzlehttp-handlerstack-not-found",
+      "owner": {
+        "display_name": "MadzQuestioning",
+        "link": "https://stackoverflow.com/users/4364847/madzquestioning"
+      }
+    },
+    {
+      "question_id": 68803095,
+      "title": "Laravel uses incorrect database when Http request is sent from another Laravel app",
+      "accepted_answer_id": 68835180,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/68803095/laravel-uses-incorrect-database-when-http-request-is-sent-from-another-laravel-a",
+      "owner": {
+        "display_name": "Apoorv Pal",
+        "link": "https://stackoverflow.com/users/4822193/apoorv-pal"
+      }
+    },
+    {
+      "question_id": 19360215,
+      "title": "How to bypass Laravel Exception handling",
+      "accepted_answer_id": 21829926,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/19360215/how-to-bypass-laravel-exception-handling",
+      "owner": {
+        "display_name": "Martijn",
+        "link": "https://stackoverflow.com/users/2835449/martijn"
+      }
+    },
+    {
+      "question_id": 31052003,
+      "title": "How to add authentication to GuzzleHTTP Request Objects for asynchronous processing",
+      "accepted_answer_id": 31053244,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/31052003/how-to-add-authentication-to-guzzlehttp-request-objects-for-asynchronous-process",
+      "owner": {
+        "display_name": "Worp",
+        "link": "https://stackoverflow.com/users/2144292/worp"
+      }
+    },
+    {
+      "question_id": 31752981,
+      "title": "Translate cURL request to Guzzle",
+      "accepted_answer_id": 31752982,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/31752981/translate-curl-request-to-guzzle",
+      "owner": {
+        "display_name": "a-am",
+        "link": "https://stackoverflow.com/users/317012/a-am"
+      }
+    },
+    {
+      "question_id": 33162281,
+      "title": "Unit Testing Guzzle inside of Laravel Controller with PHPUnit",
+      "accepted_answer_id": 33174421,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/33162281/unit-testing-guzzle-inside-of-laravel-controller-with-phpunit",
+      "owner": {
+        "display_name": "smb",
+        "link": "https://stackoverflow.com/users/775582/smb"
+      }
+    },
+    {
+      "question_id": 34941668,
+      "title": "Class &#39;Guzzle\\Http\\Client&#39; not found",
+      "accepted_answer_id": 34941838,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/34941668/class-guzzle-http-client-not-found",
+      "owner": {
+        "display_name": "user1860982",
+        "link": null
+      }
+    },
+    {
+      "question_id": 35978180,
+      "title": "curl (7): Failed to connect to localhost port 8000: Connection refused",
+      "accepted_answer_id": 35978255,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/35978180/curl-7-failed-to-connect-to-localhost-port-8000-connection-refused",
+      "owner": {
+        "display_name": "Ris",
+        "link": "https://stackoverflow.com/users/2060096/ris"
+      }
+    },
+    {
+      "question_id": 36347457,
+      "title": "How can I use guzzle to send concurrent requests with timeout limits?",
+      "accepted_answer_id": 36347502,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/36347457/how-can-i-use-guzzle-to-send-concurrent-requests-with-timeout-limits",
+      "owner": {
+        "display_name": "kenske",
+        "link": "https://stackoverflow.com/users/1180762/kenske"
+      }
+    },
+    {
+      "question_id": 37165234,
+      "title": "How to set referer header in Guzzle",
+      "accepted_answer_id": 37180026,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/37165234/how-to-set-referer-header-in-guzzle",
+      "owner": {
+        "display_name": "hansn",
+        "link": "https://stackoverflow.com/users/3719266/hansn"
+      }
+    },
+    {
+      "question_id": 40015253,
+      "title": "Access the response for rejected concurrent requests in Guzzle",
+      "accepted_answer_id": 40016040,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/40015253/access-the-response-for-rejected-concurrent-requests-in-guzzle",
+      "owner": {
+        "display_name": "Yahya Uddin",
+        "link": "https://stackoverflow.com/users/3006737/yahya-uddin"
+      }
+    },
+    {
+      "question_id": 40725797,
+      "title": "How to Stream a Guzzle Response to the browser?",
+      "accepted_answer_id": 40742711,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/40725797/how-to-stream-a-guzzle-response-to-the-browser",
+      "owner": {
+        "display_name": "Matt Bryson",
+        "link": "https://stackoverflow.com/users/4124981/matt-bryson"
+      }
+    },
+    {
+      "question_id": 41773321,
+      "title": "laravel passport oauth function using curl or guzzle",
+      "accepted_answer_id": 41914521,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/41773321/laravel-passport-oauth-function-using-curl-or-guzzle",
+      "owner": {
+        "display_name": "Moauya Meghari",
+        "link": "https://stackoverflow.com/users/6186572/moauya-meghari"
+      }
+    },
+    {
+      "question_id": 42140692,
+      "title": "Mock response and use history middleware at the same time in Guzzle",
+      "accepted_answer_id": 42156530,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/42140692/mock-response-and-use-history-middleware-at-the-same-time-in-guzzle",
+      "owner": {
+        "display_name": "xAoc",
+        "link": "https://stackoverflow.com/users/2169572/xaoc"
+      }
+    },
+    {
+      "question_id": 42822951,
+      "title": "POST Request works with Postman, but not with Guzzle",
+      "accepted_answer_id": 42858331,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/42822951/post-request-works-with-postman-but-not-with-guzzle",
+      "owner": {
+        "display_name": "Cameron Scott",
+        "link": "https://stackoverflow.com/users/4357745/cameron-scott"
+      }
+    },
+    {
+      "question_id": 18782332,
+      "title": "Can Goutte/Guzzle be forced into UTF-8 mode?",
+      "accepted_answer_id": 18793542,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/18782332/can-goutte-guzzle-be-forced-into-utf-8-mode",
+      "owner": {
+        "display_name": "halfer",
+        "link": "https://stackoverflow.com/users/472495/halfer"
+      }
+    },
+    {
+      "question_id": 28478880,
+      "title": "Python RESTful client like Guzzle from PHP",
+      "accepted_answer_id": 28478968,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/28478880/python-restful-client-like-guzzle-from-php",
+      "owner": {
+        "display_name": "vladkens",
+        "link": "https://stackoverflow.com/users/3664464/vladkens"
+      }
+    },
+    {
+      "question_id": 29134007,
+      "title": "How to inspect the payload of a guzzle request",
+      "accepted_answer_id": 29844316,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/29134007/how-to-inspect-the-payload-of-a-guzzle-request",
+      "owner": {
+        "display_name": "Xavier_Ex",
+        "link": "https://stackoverflow.com/users/1264587/xavier-ex"
+      }
+    },
+    {
+      "question_id": 42065838,
+      "title": "when update composer guzzle abandoned error",
+      "accepted_answer_id": 42832485,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/42065838/when-update-composer-guzzle-abandoned-error",
+      "owner": {
+        "display_name": "Bilal Ahmed",
+        "link": "https://stackoverflow.com/users/7477408/bilal-ahmed"
+      }
+    },
+    {
+      "question_id": 46870356,
+      "title": "Laravel Class &#39;App\\Http\\Controllers\\GuzzleHttp\\Client&#39; not found",
+      "accepted_answer_id": 46870385,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/46870356/laravel-class-app-http-controllers-guzzlehttp-client-not-found",
+      "owner": {
+        "display_name": "Ted Heath",
+        "link": "https://stackoverflow.com/users/7314420/ted-heath"
+      }
+    },
+    {
+      "question_id": 54664844,
+      "title": "cURL on local WordPress site returns: Error 6 (Could not resolve host)",
+      "accepted_answer_id": 54699016,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/54664844/curl-on-local-wordpress-site-returns-error-6-could-not-resolve-host",
+      "owner": {
+        "display_name": "Juliatzin",
+        "link": "https://stackoverflow.com/users/1956558/juliatzin"
+      }
+    },
+    {
+      "question_id": 67181329,
+      "title": "Guzzle TransferStats HandlerStats documentation/explanation?",
+      "accepted_answer_id": 67220261,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/67181329/guzzle-transferstats-handlerstats-documentation-explanation",
+      "owner": {
+        "display_name": "RTB",
+        "link": "https://stackoverflow.com/users/1453461/rtb"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 47524849,
+      "body": "<p>I had the same error and found solution by removing following line.</p>\n<pre class=\"lang-php prettyprint-override\"><code>use GuzzleHttp\\Psr7\\Request;\n</code></pre>\n<p>and use following <code>Request</code> class instead.</p>\n<pre class=\"lang-php prettyprint-override\"><code>use Illuminate\\Http\\Request;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nirav Sheth",
+        "link": "https://stackoverflow.com/users/8994570/nirav-sheth"
+      }
+    },
+    {
+      "answer_id": 17766649,
+      "body": "<pre><code>$client = new Guzzle\\Http\\Client();\n\n// Set a single header using path syntax\n$client-&gt;setDefaultOption('headers/X-Foo', 'Bar');\n\n// Set all headers\n$client-&gt;setDefaultOption('headers', ['X-Foo' =&gt; 'Bar']);\n</code></pre>\n<p>See here:</p>\n<p><a href=\"http://docs.guzzlephp.org/en/5.3/clients.html#request-options\" rel=\"nofollow noreferrer\">http://docs.guzzlephp.org/en/5.3/clients.html#request-options</a></p>\n",
+      "owner": {
+        "display_name": "drj201",
+        "link": "https://stackoverflow.com/users/651529/drj201"
+      }
+    },
+    {
+      "answer_id": 19507524,
+      "body": "<p>You can make use of the <a href=\"http://docs.guzzlephp.org/en/stable/quickstart.html#sending-requests\" rel=\"nofollow noreferrer\"><code>Client::post()</code> magic method</a> to create a HTTP POST request:</p>\n<pre><code>$client = new Client($this-&gt;url);\n$request = $client-&gt;post(\n    '', \n    ['Content-Type' =&gt; 'text/xml; charset=utf-8'], \n    $xml, \n    ['timeout' =&gt; 120]\n);\n$response = $request-&gt;send()-&gt;xml();;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Iłya Bursov",
+        "link": "https://stackoverflow.com/users/2864275/i%c5%82ya-bursov"
+      }
+    },
+    {
+      "answer_id": 27825711,
+      "body": "<blockquote>\n<p>This method is now deprecated in 6.0. Instead of <code>body</code> use <code>form_params</code></p>\n</blockquote>\n<p>Try this</p>\n<pre><code>$client = new \\GuzzleHttp\\Client();\n$client-&gt;post(\n    'http://www.example.com/user/create',\n    array(\n        'body' =&gt; array(\n            'email' =&gt; 'test@gmail.com',\n            'name' =&gt; 'Test user',\n            'password' =&gt; 'testpassword'\n        )\n    )\n);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Marco",
+        "link": "https://stackoverflow.com/users/4405896/marco"
+      }
+    },
+    {
+      "answer_id": 31087986,
+      "body": "<p>You can send a regular array as JSON via the <a href=\"http://docs.guzzlephp.org/en/latest/request-options.html#json\" rel=\"nofollow noreferrer\"><code>'json'</code> request option</a>; this will also automatically set the right headers:</p>\n<pre><code>$headers = [\n    'NETOAPI_KEY' =&gt; env('NETO_API_KEY'),\n    'Accept' =&gt; 'application/json',\n    'NETOAPI_ACTION' =&gt; 'GetOrder'\n];\n\n$GetOrder = [\n    'Filter' =&gt; [\n        'OrderID' =&gt; 'N10139',\n        'OutputSelector' =&gt; ['OrderStatus'],\n    ],\n];\n\n$client = new client();\n$res = $client-&gt;post(env('NETO_API_URL'), [\n    'headers' =&gt; $headers, \n    'json' =&gt; $GetOrder,\n]);\n</code></pre>\n<p>Note that Guzzle applies <a href=\"https://www.php.net/json_encode\" rel=\"nofollow noreferrer\"><code>json_encode()</code></a> without any options behind the scenes; if you need any customisation, you're advised to do some of the work yourself</p>\n<pre class=\"lang-php prettyprint-override\"><code>$res = $client-&gt;post(env('NETO_API_URL'), [\n    'headers' =&gt; $headers + ['Content-Type' =&gt; 'application/json'],\n    'body' =&gt; json_encode($getOrders, ...),\n]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ja͢ck",
+        "link": "https://stackoverflow.com/users/1338292/ja%cd%a2ck"
+      }
+    },
+    {
+      "answer_id": 71380692,
+      "body": "<p>Here are examples for <code>Guzzle 7</code> (<code>7.4.1</code>) of what <a href=\"https://stackoverflow.com/a/25291511/2450431\">Michael Dowling</a> wrote</p>\n<pre class=\"lang-php prettyprint-override\"><code>$client = new Client(['base_uri' =&gt; 'http://my-app.com/api/']);\n$response = $client-&gt;get('facets'); // no leading slash - append to base\n//    http://my-app.com/api/facets\n\n$client = new Client(['base_uri' =&gt; 'http://my-app.com/api/']);\n$response = $client-&gt;get('facets/'); // no leading slash - append to base // ending slash preserved\n//    http://my-app.com/api/facets/\n\n$client = new Client(['base_uri' =&gt; 'http://my-app.com/api/']);\n$response = $client-&gt;get('/facets'); // leading slash - absolute path - base path is lost\n//    http://my-app.com/facets\n\n$client = new Client(['base_uri' =&gt; 'http://my-app.com/api']); // no ending slash in base path - ignored\n$response = $client-&gt;get('facets');\n//    http://my-app.com/facets\n\n$client = new Client(['base_uri' =&gt; 'http://my-app.com/api']);\n$response = $client-&gt;get('/facets'); // leading slash - absolute path - base path is lost\n//    http://my-app.com/facets\n</code></pre>\n",
+      "owner": {
+        "display_name": "hrvoj3e",
+        "link": "https://stackoverflow.com/users/2450431/hrvoj3e"
+      }
+    },
+    {
+      "answer_id": 68835180,
+      "body": "<p>I tried hard-coding the <code>database.php</code> configuration values in the recipient app instead of using the env helper and that fixed the issue. It looks like the env helper was causing a conflict by using the sender app's environment variables in the recipient app.</p>\n",
+      "owner": {
+        "display_name": "Apoorv Pal",
+        "link": "https://stackoverflow.com/users/4822193/apoorv-pal"
+      }
+    },
+    {
+      "answer_id": 67220261,
+      "body": "<p>Transfer statistics are delivered by TransferStats class, however the <a href=\"https://docs.guzzlephp.org/en/stable/request-options.html?highlight=transferstats#on-stats\" rel=\"noreferrer\">Guzzle documentation</a> does not describe the return keys and values of the statistics.\nReading <a href=\"https://github.com/guzzle/guzzle/blob/master/src/TransferStats.php\" rel=\"noreferrer\">TransferStats</a> comments gives a bit of a clue.</p>\n<p>TransferStats are created in three classes:</p>\n<p><a href=\"https://github.com/guzzle/guzzle/blob/de6f1e58e735754b888649495ed4cb9ae3b19589/src/Handler/CurlFactory.php#L125\" rel=\"noreferrer\">CurlFactory</a></p>\n<pre><code>private static function invokeStats(EasyHandle $easy): void\n{\n    $curlStats = \\curl_getinfo($easy-&gt;handle);\n    $curlStats['appconnect_time'] = \\curl_getinfo($easy-&gt;handle, \\CURLINFO_APPCONNECT_TIME);\n    $stats = new TransferStats(\n        $easy-&gt;request,\n        $easy-&gt;response,\n        $curlStats['total_time'],\n        $easy-&gt;errno,\n        $curlStats\n    );\n    ($easy-&gt;options['on_stats'])($stats);\n}\n</code></pre>\n<p><a href=\"https://github.com/guzzle/guzzle/blob/de6f1e58e735754b888649495ed4cb9ae3b19589/src/Handler/MockHandler.php#L199\" rel=\"noreferrer\">MockHandler</a></p>\n<pre><code>private function invokeStats(\n        RequestInterface $request,\n        array $options,\n        ResponseInterface $response = null,\n        $reason = null\n): void {\n    if (isset($options['on_stats'])) {\n        $transferTime = $options['transfer_time'] ?? 0;\n        $stats = new TransferStats($request, $response, $transferTime, $reason);\n        ($options['on_stats'])($stats);\n    }\n}\n</code></pre>\n<p><a href=\"https://github.com/guzzle/guzzle/blob/de6f1e58e735754b888649495ed4cb9ae3b19589/src/Handler/StreamHandler.php#L82\" rel=\"noreferrer\">StreamHandler</a></p>\n<pre><code>private function invokeStats(\n    array $options,\n    RequestInterface $request,\n    ?float $startTime,\n    ResponseInterface $response = null,\n    \\Throwable $error = null\n): void {\n    if (isset($options['on_stats'])) {\n        $stats = new TransferStats($request, $response, Utils::currentTime() - $startTime, $error, []);\n        ($options['on_stats'])($stats);\n    }\n}\n</code></pre>\n<p><a href=\"https://docs.guzzlephp.org/en/stable/overview.html#requirements\" rel=\"noreferrer\">Note</a> from the documentation states:</p>\n<blockquote>\n<p>Guzzle <strong>no longer requires cURL</strong> in order to send HTTP requests.\nGuzzle will use the PHP stream wrapper to send HTTP requests if cURL\nis not installed. Alternatively, you can provide your own HTTP handler\nused to send requests. Keep in mind that cURL is still required for\nsending concurrent requests.</p>\n</blockquote>\n<p>Therefore the keys and values you receive from stats will most likely depend on using cURL by Guzzle or not. You may also see at the examples of creation TransferStats that it varies for different Classes (CurlFactory/MockHandler/StramHandler). That's probably why the documentation for the statistics is missing.</p>\n<p>Note that the keys and values you may receive from stats will also depend on version of cURL you use and even the PHP version you use. The Changelog of the PHP's <a href=\"https://www.php.net/manual/en/function.curl-getinfo.php\" rel=\"noreferrer\">curl_getinfo</a> states:</p>\n<pre><code>Version     Description\n7.3.0       Introduced CURLINFO_CONTENT_LENGTH_DOWNLOAD_T, CURLINFO_CONTENT_LENGTH_UPLOAD_T (...)\n</code></pre>\n<p>so versions of PHP below 7.3.0 should not have any stats like <code>CURLINFO_CONTENT_LENGTH_DOWNLOAD_T</code> and many others.</p>\n<p>Caution about expecting any particular keys you may receive is a good idea thus I would always recommend using <a href=\"https://www.php.net/manual/en/function.array-key-exists.php\" rel=\"noreferrer\">array_key_exists</a> with the status array of the trasfer.</p>\n<p>Assuming that Guzzle uses the cURL for requests then the statistics are taken by PHP's native function <a href=\"https://www.php.net/manual/en/function.curl-getinfo.php\" rel=\"noreferrer\">curl_getinfo</a> that has described many statistics:</p>\n<pre><code>CURLINFO_EFFECTIVE_URL - Last effective URL\nCURLINFO_HTTP_CODE - The last response code. As of PHP 5.5.0 and cURL 7.10.8, this is a legacy alias of CURLINFO_RESPONSE_CODE \n(...)\n</code></pre>\n<p>and possible array keys:</p>\n<pre><code>&quot;url&quot;\n&quot;content_type&quot;\n&quot;http_code&quot; \n(...)\n</code></pre>\n<p>however you may notice an inconsistency of ordering descriptions provided by the PHP's predefined constants:</p>\n<pre><code>CURLINFO_HTTP_CODE - The last response code. As of PHP 5.5.0 and cURL 7.10.8, this is a legacy alias of CURLINFO_RESPONSE_CODE \n</code></pre>\n<p>and the list of keys:</p>\n<pre><code>&quot;content_type&quot;\n</code></pre>\n<p><code>CURLINFO_HTTP_CODE</code> is second at the list of the constants and does not match with the second key <code>content_type</code> at the list of returned keys.<br>\nMoreover some of the predefined constants like: <code>APPCONNECT_TIME_T</code> do not have their respective names at the list of the returned array keys. Assuming that <code>APPCONNECT_TIME_T</code> has the array key <code>appconnect_time_t</code> is wrong because it is in fact <code>appconnect_time_us</code>.</p>\n<p><br>PHP's doc of <a href=\"https://www.php.net/manual/en/function.curl-getinfo.php\" rel=\"noreferrer\">curl_getinfo</a> is not extensive nor consistent.</p>\n<p>For getting PHP's predefined constants and respective array key names it is better to have a look at the <a href=\"https://github.com/php/php-src/blob/5caaf40b43303887a38d738a9c2a2f4cf6dc9b1a/ext/curl/interface.c#L3100\" rel=\"noreferrer\">PHP 7.4 source of ext/curl/interface.c</a> code where you may see calls to the native cURL function:</p>\n<pre><code>if (curl_easy_getinfo(ch-&gt;cp, CURLINFO_HTTP_CODE, &amp;l_code) == CURLE_OK) {\n    CAAL(&quot;http_code&quot;, l_code);\n}\n</code></pre>\n<p>and you can easly match <code>CURLINFO_HTTP_CODE</code> that is the second arg of the <code>curl_easy_getinfo</code> with the <code>http_code</code> that is the first arg of <code>CAAL</code>.<br>\nThis way you can build your own matching list like<br><code>[CURLINFO_HTTP_CODE =&gt; 'http_code', &lt;PHPConstant&gt; =&gt; &lt;array-key&gt;]</code><br>from the most reliable source because from the source of the PHP itself.</p>\n<p>Because PHP uses the cURL's <code>curl_easy_getinfo</code> then looking at the doc of:</p>\n<p><a href=\"https://curl.se/libcurl/c/curl_easy_getinfo.html\" rel=\"noreferrer\">curl_easy_getinfo</a> - extract information from a curl</p>\n<p>will bring you even more details, especially interesting are these about TIMES:</p>\n<pre><code>An overview of the six time values available from curl_easy_getinfo()\n\ncurl_easy_perform()\n    |\n    |--NAMELOOKUP\n    |--|--CONNECT\n    |--|--|--APPCONNECT\n    |--|--|--|--PRETRANSFER\n    |--|--|--|--|--STARTTRANSFER\n    |--|--|--|--|--|--TOTAL\n    |--|--|--|--|--|--REDIRECT\n</code></pre>\n<p>for example:</p>\n<blockquote>\n<p>CURLINFO_APPCONNECT_TIME_T</p>\n<p>Time from start until SSL/SSH handshake completed. See\n<a href=\"https://curl.se/libcurl/c/CURLINFO_APPCONNECT_TIME_T.html\" rel=\"noreferrer\">CURLINFO_APPCONNECT_TIME_T</a></p>\n</blockquote>\n<p>and following that link you can get even more detailed explanation:</p>\n<blockquote>\n<p>(...) This time is most often very near to the\nCURLINFO_PRETRANSFER_TIME_T time, except for cases such as HTTP\npipelining where the pretransfer time can be delayed due to waits in\nline for the pipeline and more.</p>\n<p>When a redirect is followed, the time from each request is added\ntogether. (...)</p>\n</blockquote>\n<p>I hope that the whole knowledge combined answers your question and you liked the whole process of digging into it that I revealed instead of just saying X is Y without any proof.</p>\n<p><strong>Let's have some fun now :)</strong></p>\n<p>running this code:</p>\n<pre><code>&lt;?php\n\nerror_reporting(E_ALL);\nheader(&quot;Content-Type: text/plain&quot;);\n\n$urlPhpSource = 'https://raw.githubusercontent.com/php/php-src/5caaf40b43303887a38d738a9c2a2f4cf6dc9b1a/ext/curl/interface.c';\n$phpSourceArr = explode(\\PHP_EOL, file_get_contents($urlPhpSource));\n\n$option = '';\n$optionNameArr = [];\nforeach ($phpSourceArr as $line) {\n\n    $line = trim($line);\n    if (preg_match('/curl_easy_getinfo.+(CURLINFO_[A-Z_]+)/', $line, $matches)) {\n        $option = $matches[1];\n    }\n\n    if (!empty($option) &amp;&amp; preg_match('/^CAA.+\\&quot;(.+)\\&quot;/', $line, $matches)) {\n        $optionNameArr[$option] = $matches[1];\n        $option = '';\n    }\n}\n\n$urlDescriptions = 'https://curl.se/libcurl/c/easy_getinfo_options.html';\n$descriptionsArr = explode(\\PHP_EOL, file_get_contents($urlDescriptions));\n\n$descriptionResultArr = [];\nforeach ($descriptionsArr as $line) {\n    $pattern = '/(CURLINFO_[A-Z_]+).*';\n    $pattern .= '&lt;\\/td&gt;&lt;td&gt;(.*)&lt;\\/td&gt;&lt;\\/tr&gt;/';\n    if (preg_match($pattern, $line, $matches)) {\n        $descriptionResultArr[trim($matches[1])] = ucfirst(trim($matches[2]));\n    }\n}\n\n$resultCombinedArr = [];\nforeach($optionNameArr as $option =&gt; $name) {\n    if (!key_exists($option, $descriptionResultArr)) {\n        $desciption = '&lt;not found&gt;';\n    } else {\n        $desciption = $descriptionResultArr[$option];\n    }\n\n    $tmpArr = [];\n    $tmpArr['name'] = $name;\n    $tmpArr['option'] = $option;\n    if (defined($option)) {\n        $tmpArr['optionValue'] = constant('\\\\' . $option);\n    }\n    $tmpArr['desciption'] = $desciption;\n    $resultCombinedArr[$name] = $tmpArr;\n}\n\necho str_repeat(&quot;-&quot;, 80) . \\PHP_EOL . \\PHP_EOL;\necho &quot;All Options:\\n&quot;;\nprint_r($resultCombinedArr);\necho str_repeat(&quot;-&quot;, 80) . \\PHP_EOL . \\PHP_EOL;\n\necho &quot;Available Options:\\n&quot;;\nprint_r(array_filter($resultCombinedArr, function($data) {\n    return key_exists('optionValue', $data);\n}));\necho str_repeat(&quot;-&quot;, 80) . \\PHP_EOL . \\PHP_EOL;\n\necho &quot;Not available Options:\\n&quot;;\nprint_r(array_filter($resultCombinedArr, function($data) {\n    return !key_exists('optionValue', $data);\n}));\n</code></pre>\n<p>Will give the list of <strong>all</strong> possible</p>\n<ul>\n<li>predefined constants (option)</li>\n<li>option's int value (optionValue)</li>\n<li>option's respective array key (name)</li>\n<li>option's description (description)</li>\n</ul>\n<p>this way:</p>\n<pre><code>All Options:\nArray\n(\n    [url] =&gt; Array\n        (\n            [name] =&gt; url\n            [option] =&gt; CURLINFO_EFFECTIVE_URL\n            [optionValue] =&gt; 1048577\n            [desciption] =&gt; Get the last used URL\n        )\n\n    [content_type] =&gt; Array\n        (\n            [name] =&gt; content_type\n            [option] =&gt; CURLINFO_CONTENT_TYPE\n            [optionValue] =&gt; 1048594\n            [desciption] =&gt; Get Content-Type\n        )\n\n    [http_code] =&gt; Array\n        (\n            [name] =&gt; http_code\n            [option] =&gt; CURLINFO_HTTP_CODE\n            [optionValue] =&gt; 2097154\n            [desciption] =&gt; &lt;not found&gt;\n        )\n\n        (...)\n</code></pre>\n<p>Supported by your PHP options:</p>\n<pre><code>Available Options:\nArray\n(\n    [url] =&gt; Array\n        (\n            [name] =&gt; url\n            [option] =&gt; CURLINFO_EFFECTIVE_URL\n            [optionValue] =&gt; 1048577\n            [desciption] =&gt; Get the last used URL\n        )\n\n    [content_type] =&gt; Array\n        (\n            [name] =&gt; content_type\n            [option] =&gt; CURLINFO_CONTENT_TYPE\n            [optionValue] =&gt; 1048594\n            [desciption] =&gt; Get Content-Type\n        )\n\n    [http_code] =&gt; Array\n        (\n            [name] =&gt; http_code\n            [option] =&gt; CURLINFO_HTTP_CODE\n            [optionValue] =&gt; 2097154\n            [desciption] =&gt; &lt;not found&gt;\n        )\n\n     (...)\n</code></pre>\n<p>and not supported:</p>\n<pre><code>Not available Options:\nArray\n(\n    [appconnect_time_us] =&gt; Array\n        (\n            [name] =&gt; appconnect_time_us\n            [option] =&gt; CURLINFO_APPCONNECT_TIME_T\n            [desciption] =&gt; Get the time until the SSL/SSH handshake is completed\n        )\n\n    [connect_time_us] =&gt; Array\n        (\n            [name] =&gt; connect_time_us\n            [option] =&gt; CURLINFO_CONNECT_TIME_T\n            [desciption] =&gt; Get the time until connect\n        )\n\n    [namelookup_time_us] =&gt; Array\n        (\n            [name] =&gt; namelookup_time_us\n            [option] =&gt; CURLINFO_NAMELOOKUP_TIME_T\n            [desciption] =&gt; Get the name lookup time in microseconds\n        )\n\n    (...)\n</code></pre>\n<p>Note that if a predefined constant like <code>CURLINFO_APPCONNECT_TIME_T</code> is not defined in the PHP the option <code>CURLINFO_APPCONNECT_TIME_T</code> is considered not supported but this does not neccessarly mean that you will  get transfer stat without the respective key <code>appconnect_time_us</code> or the key <code>appconnect_time_us</code> will have some undefined value.<br></p>\n<p>the other odd thing is that I ran this scipt for the PHP version:</p>\n<blockquote>\n<p>PHP 7.3.27-9+ubuntu18.04.1+deb.sury.org+1 (cli) (built: Feb 23 2021\n15:10:08) ( NTS )</p>\n</blockquote>\n<p>and I got these constants not defined:</p>\n<pre><code>Array\n(\n    [0] =&gt; CURLINFO_APPCONNECT_TIME_T\n    [1] =&gt; CURLINFO_CONNECT_TIME_T\n    [2] =&gt; CURLINFO_NAMELOOKUP_TIME_T\n    [3] =&gt; CURLINFO_PRETRANSFER_TIME_T\n    [4] =&gt; CURLINFO_REDIRECT_TIME_T\n    [5] =&gt; CURLINFO_STARTTRANSFER_TIME_T\n    [6] =&gt; CURLINFO_TOTAL_TIME_T\n)\n</code></pre>\n<p>that is mutually exclusive to the statement in the documentation of the <a href=\"https://www.php.net/manual/en/function.curl-getinfo.php\" rel=\"noreferrer\">curl_getinfo</a> that states under the Changelog section all of them should be already introduced for PHP version 7.3.0 and above. Either I did something wrong or the documentation of <a href=\"https://www.php.net/manual/en/function.curl-getinfo.php\" rel=\"noreferrer\">curl_getinfo</a> proved to be inaccurate again.</p>\n<p>However on my own image based on the official</p>\n<blockquote>\n<p>PHP 7.3.8 (cli) (built: Aug  2 2019 05:16:32) ( NTS )</p>\n</blockquote>\n<p>Docker image every option was available.</p>\n<p>Here's the generated unofficial documentation for the parameters you can just copy and paste to your project:</p>\n<pre><code>&lt;?php\n\narray (\n  'url' =&gt; \n  array (\n    'name' =&gt; 'url',\n    'option' =&gt; 'CURLINFO_EFFECTIVE_URL',\n    'optionValue' =&gt; 1048577,\n    'desciption' =&gt; 'Get the last used URL',\n  ),\n  'content_type' =&gt; \n  array (\n    'name' =&gt; 'content_type',\n    'option' =&gt; 'CURLINFO_CONTENT_TYPE',\n    'optionValue' =&gt; 1048594,\n    'desciption' =&gt; 'Get Content-Type',\n  ),\n  'http_code' =&gt; \n  array (\n    'name' =&gt; 'http_code',\n    'option' =&gt; 'CURLINFO_HTTP_CODE',\n    'optionValue' =&gt; 2097154,\n    'desciption' =&gt; '&lt;not found&gt;',\n  ),\n  'header_size' =&gt; \n  array (\n    'name' =&gt; 'header_size',\n    'option' =&gt; 'CURLINFO_HEADER_SIZE',\n    'optionValue' =&gt; 2097163,\n    'desciption' =&gt; 'Get size of retrieved headers',\n  ),\n  'request_size' =&gt; \n  array (\n    'name' =&gt; 'request_size',\n    'option' =&gt; 'CURLINFO_REQUEST_SIZE',\n    'optionValue' =&gt; 2097164,\n    'desciption' =&gt; 'Get size of sent request',\n  ),\n  'filetime' =&gt; \n  array (\n    'name' =&gt; 'filetime',\n    'option' =&gt; 'CURLINFO_FILETIME',\n    'optionValue' =&gt; 2097166,\n    'desciption' =&gt; 'Get the remote time of the retrieved document',\n  ),\n  'ssl_verify_result' =&gt; \n  array (\n    'name' =&gt; 'ssl_verify_result',\n    'option' =&gt; 'CURLINFO_SSL_VERIFYRESULT',\n    'optionValue' =&gt; 2097165,\n    'desciption' =&gt; 'Get the result of the certificate verification',\n  ),\n  'redirect_count' =&gt; \n  array (\n    'name' =&gt; 'redirect_count',\n    'option' =&gt; 'CURLINFO_REDIRECT_COUNT',\n    'optionValue' =&gt; 2097172,\n    'desciption' =&gt; 'Get the number of redirects',\n  ),\n  'total_time' =&gt; \n  array (\n    'name' =&gt; 'total_time',\n    'option' =&gt; 'CURLINFO_TOTAL_TIME',\n    'optionValue' =&gt; 3145731,\n    'desciption' =&gt; 'Get total time of previous transfer',\n  ),\n  'namelookup_time' =&gt; \n  array (\n    'name' =&gt; 'namelookup_time',\n    'option' =&gt; 'CURLINFO_NAMELOOKUP_TIME',\n    'optionValue' =&gt; 3145732,\n    'desciption' =&gt; 'Get the name lookup time',\n  ),\n  'connect_time' =&gt; \n  array (\n    'name' =&gt; 'connect_time',\n    'option' =&gt; 'CURLINFO_CONNECT_TIME',\n    'optionValue' =&gt; 3145733,\n    'desciption' =&gt; 'Get the time until connect',\n  ),\n  'pretransfer_time' =&gt; \n  array (\n    'name' =&gt; 'pretransfer_time',\n    'option' =&gt; 'CURLINFO_PRETRANSFER_TIME',\n    'optionValue' =&gt; 3145734,\n    'desciption' =&gt; 'Get the time until the file transfer start',\n  ),\n  'size_upload' =&gt; \n  array (\n    'name' =&gt; 'size_upload',\n    'option' =&gt; 'CURLINFO_SIZE_UPLOAD',\n    'optionValue' =&gt; 3145735,\n    'desciption' =&gt; 'Get the number of uploaded bytes',\n  ),\n  'size_download' =&gt; \n  array (\n    'name' =&gt; 'size_download',\n    'option' =&gt; 'CURLINFO_SIZE_DOWNLOAD',\n    'optionValue' =&gt; 3145736,\n    'desciption' =&gt; 'Get the number of downloaded bytes',\n  ),\n  'speed_download' =&gt; \n  array (\n    'name' =&gt; 'speed_download',\n    'option' =&gt; 'CURLINFO_SPEED_DOWNLOAD',\n    'optionValue' =&gt; 3145737,\n    'desciption' =&gt; 'Get download speed',\n  ),\n  'speed_upload' =&gt; \n  array (\n    'name' =&gt; 'speed_upload',\n    'option' =&gt; 'CURLINFO_SPEED_UPLOAD',\n    'optionValue' =&gt; 3145738,\n    'desciption' =&gt; 'Get upload speed',\n  ),\n  'download_content_length' =&gt; \n  array (\n    'name' =&gt; 'download_content_length',\n    'option' =&gt; 'CURLINFO_CONTENT_LENGTH_DOWNLOAD',\n    'optionValue' =&gt; 3145743,\n    'desciption' =&gt; 'Get content-length of download',\n  ),\n  'upload_content_length' =&gt; \n  array (\n    'name' =&gt; 'upload_content_length',\n    'option' =&gt; 'CURLINFO_CONTENT_LENGTH_UPLOAD',\n    'optionValue' =&gt; 3145744,\n    'desciption' =&gt; 'Get the specified size of the upload',\n  ),\n  'starttransfer_time' =&gt; \n  array (\n    'name' =&gt; 'starttransfer_time',\n    'option' =&gt; 'CURLINFO_STARTTRANSFER_TIME',\n    'optionValue' =&gt; 3145745,\n    'desciption' =&gt; 'Get the time until the first byte is received',\n  ),\n  'redirect_time' =&gt; \n  array (\n    'name' =&gt; 'redirect_time',\n    'option' =&gt; 'CURLINFO_REDIRECT_TIME',\n    'optionValue' =&gt; 3145747,\n    'desciption' =&gt; 'Get the time for all redirection steps',\n  ),\n  'redirect_url' =&gt; \n  array (\n    'name' =&gt; 'redirect_url',\n    'option' =&gt; 'CURLINFO_REDIRECT_URL',\n    'optionValue' =&gt; 1048607,\n    'desciption' =&gt; 'Get the URL a redirect would go to',\n  ),\n  'primary_ip' =&gt; \n  array (\n    'name' =&gt; 'primary_ip',\n    'option' =&gt; 'CURLINFO_PRIMARY_IP',\n    'optionValue' =&gt; 1048608,\n    'desciption' =&gt; 'Get IP address of last connection',\n  ),\n  'certinfo' =&gt; \n  array (\n    'name' =&gt; 'certinfo',\n    'option' =&gt; 'CURLINFO_CERTINFO',\n    'optionValue' =&gt; 4194338,\n    'desciption' =&gt; 'Get the TLS certificate chain',\n  ),\n  'primary_port' =&gt; \n  array (\n    'name' =&gt; 'primary_port',\n    'option' =&gt; 'CURLINFO_PRIMARY_PORT',\n    'optionValue' =&gt; 2097192,\n    'desciption' =&gt; 'Get the latest destination port number',\n  ),\n  'local_ip' =&gt; \n  array (\n    'name' =&gt; 'local_ip',\n    'option' =&gt; 'CURLINFO_LOCAL_IP',\n    'optionValue' =&gt; 1048617,\n    'desciption' =&gt; 'Get local IP address of last connection',\n  ),\n  'local_port' =&gt; \n  array (\n    'name' =&gt; 'local_port',\n    'option' =&gt; 'CURLINFO_LOCAL_PORT',\n    'optionValue' =&gt; 2097194,\n    'desciption' =&gt; 'Get the latest local port number',\n  ),\n  'http_version' =&gt; \n  array (\n    'name' =&gt; 'http_version',\n    'option' =&gt; 'CURLINFO_HTTP_VERSION',\n    'optionValue' =&gt; 2097198,\n    'desciption' =&gt; 'Get the http version used in the connection',\n  ),\n  'protocol' =&gt; \n  array (\n    'name' =&gt; 'protocol',\n    'option' =&gt; 'CURLINFO_PROTOCOL',\n    'optionValue' =&gt; 2097200,\n    'desciption' =&gt; 'Get the protocol used in the connection',\n  ),\n  'ssl_verifyresult' =&gt; \n  array (\n    'name' =&gt; 'ssl_verifyresult',\n    'option' =&gt; 'CURLINFO_PROXY_SSL_VERIFYRESULT',\n    'optionValue' =&gt; 2097199,\n    'desciption' =&gt; 'Get the result of the proxy certificate verification',\n  ),\n  'scheme' =&gt; \n  array (\n    'name' =&gt; 'scheme',\n    'option' =&gt; 'CURLINFO_SCHEME',\n    'optionValue' =&gt; 1048625,\n    'desciption' =&gt; 'Get the URL scheme (sometimes called protocol) used in the connection',\n  ),\n  'appconnect_time_us' =&gt; \n  array (\n    'name' =&gt; 'appconnect_time_us',\n    'option' =&gt; 'CURLINFO_APPCONNECT_TIME_T',\n    'optionValue' =&gt; 6291512,\n    'desciption' =&gt; 'Get the time until the SSL/SSH handshake is completed',\n  ),\n  'connect_time_us' =&gt; \n  array (\n    'name' =&gt; 'connect_time_us',\n    'option' =&gt; 'CURLINFO_CONNECT_TIME_T',\n    'optionValue' =&gt; 6291508,\n    'desciption' =&gt; 'Get the time until connect',\n  ),\n  'namelookup_time_us' =&gt; \n  array (\n    'name' =&gt; 'namelookup_time_us',\n    'option' =&gt; 'CURLINFO_NAMELOOKUP_TIME_T',\n    'optionValue' =&gt; 6291507,\n    'desciption' =&gt; 'Get the name lookup time in microseconds',\n  ),\n  'pretransfer_time_us' =&gt; \n  array (\n    'name' =&gt; 'pretransfer_time_us',\n    'option' =&gt; 'CURLINFO_PRETRANSFER_TIME_T',\n    'optionValue' =&gt; 6291509,\n    'desciption' =&gt; 'Get the time until the file transfer start',\n  ),\n  'redirect_time_us' =&gt; \n  array (\n    'name' =&gt; 'redirect_time_us',\n    'option' =&gt; 'CURLINFO_REDIRECT_TIME_T',\n    'optionValue' =&gt; 6291511,\n    'desciption' =&gt; 'Get the time for all redirection steps',\n  ),\n  'starttransfer_time_us' =&gt; \n  array (\n    'name' =&gt; 'starttransfer_time_us',\n    'option' =&gt; 'CURLINFO_STARTTRANSFER_TIME_T',\n    'optionValue' =&gt; 6291510,\n    'desciption' =&gt; 'Get the time until the first byte is received',\n  ),\n  'total_time_us' =&gt; \n  array (\n    'name' =&gt; 'total_time_us',\n    'option' =&gt; 'CURLINFO_TOTAL_TIME_T',\n    'optionValue' =&gt; 6291506,\n    'desciption' =&gt; 'Get total time of previous transfer in microseconds',\n  ),\n)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jimmix",
+        "link": "https://stackoverflow.com/users/1174405/jimmix"
+      }
+    },
+    {
+      "answer_id": 33134596,
+      "body": "<p>It is simple and easy.</p>\n<pre><code>$client = new Client();\n$guzzle = new GuzzleClient('https://www.yourweb.com', array(\n    'curl.options' =&gt; array(\n        CURLOPT_SSLVERSION =&gt; CURL_SSLVERSION_TLSv1_2\n    )\n));\n$client-&gt;setClient($guzzle);\n...\n</code></pre>\n<p>In Guzzle 3.0+ (update as per @limos' comment):</p>\n<pre><code>'curl' =&gt; array(\n    CURLOPT_SSLVERSION =&gt; CURL_SSLVERSION_TLSv1_2\n)\n</code></pre>\n<p>The possible <code>CURLOPT_SSLVERSION</code> options can be found at the official cURL page: <a href=\"http://curl.haxx.se/libcurl/c/CURLOPT_SSLVERSION.html\" rel=\"noreferrer\">http://curl.haxx.se/libcurl/c/CURLOPT_SSLVERSION.html</a></p>\n<p>--- UPDATE (based on the comments) ---</p>\n<p>Choosing proper SSL protocol version involves not just the <code>CURLOPT_SSLVERSION</code> setting, but a lot more cURL settings. The desired and important result is called &quot;Maximum forward secrecy&quot;.\nThis is valid not just for cURL!</p>\n<p>You can't use multiple <code>CURLOPT_SSLVERSION</code> parameters (at least, I didn't find such option in the Guzzle documentation). When you define <code>CURLOPT_SSLVERSION</code>, cURL will make an attempt to use that SSL version - from the cURL documentation (the link provided above about the <code>CURLOPT_SSLVERSION</code>) - &quot;Pass a long as parameter to control which version of SSL/TLS to attempt to use.&quot;</p>\n<p>You can define multiple secure ciphers, but only one SSL version parameter. I wouldn't use anything earlier than TLS 1.1. Any earlier SSL version is vulnerable to attack. Version TLS 1.1 is also vulnerable, but then you might run into client compatibility issues at 1.2, if you go that route. The only secure (for now, until they discover some vulnerability) is TLS 1.2.</p>\n<p>If security is top priority, go with the highest available TLS version (TLS1.2). Client compatibility is not your problem when there is service provider security liability.</p>\n<p>If security is important, here are other cURL options to look at:</p>\n<ul>\n<li><a href=\"http://curl.haxx.se/libcurl/c/CURLOPT_SSL_VERIFYHOST.html\" rel=\"noreferrer\"><code>CURLOPT_SSL_VERIFYHOST</code></a></li>\n<li><a href=\"http://curl.haxx.se/libcurl/c/CURLOPT_SSL_VERIFYPEER.html\" rel=\"noreferrer\"><code>CURLOPT_SSL_VERIFYPEER</code></a></li>\n<li><a href=\"http://curl.haxx.se/libcurl/c/CURLOPT_CAINFO.html\" rel=\"noreferrer\"><code>CURLOPT_CAINFO</code></a> (cURL provides at their website <a href=\"http://curl.haxx.se/docs/caextract.html\" rel=\"noreferrer\">CA CERTs</a>)</li>\n<li><a href=\"http://curl.haxx.se/libcurl/c/CURLOPT_SSL_CIPHER_LIST.html\" rel=\"noreferrer\"><code>CURLOPT_SSL_CIPHER_LIST</code></a></li>\n</ul>\n<p>Setting proper <code>CURLOPT_SSL_VERIFYHOST</code> and <code>CURLOPT_SSL_VERIFYPEER</code> will prevent MITM attacks.</p>\n<p><code>CURLOPT_CAINFO</code> - Fix Error: 35 - Unknown SSL protocol error in connections. Improve maximum forward secrecy.</p>\n<p>Here's a list with cURL ciphers (<code>CURLOPT_SSL_CIPHER_LIST</code>) to look into, which will improve maximum forward secrecy:</p>\n<pre><code>'DHE-RSA-AES256-SHA',\n'DHE-DSS-AES256-SHA',\n'AES256-SHA',\n'ADH-AES256-SHA',\n'KRB5-DES-CBC3-SHA',\n'EDH-RSA-DES-CBC3-SHA',\n'EDH-DSS-DES-CBC3-SHA',\n'DHE-RSA-AES128-SHA',\n'DHE-DSS-AES128-SHA',\n'ADH-AES128-SHA',\n'AES128-SHA',\n'KRB5-DES-CBC-SHA',\n'EDH-RSA-DES-CBC-SHA',\n'EDH-DSS-DES-CBC-SHA:DES-CBC-SHA',\n'EXP-KRB5-DES-CBC-SHA',\n'EXP-EDH-RSA-DES-CBC-SHA',\n'EXP-EDH-DSS-DES-CBC-SHA',\n'EXP-DES-CBC-SHA'\n</code></pre>\n<p>These ciphers were checked against the strong Qualys SSL Labs list (2014) and weak ciphers were removed. Feel free to add/remove any ciphers.</p>\n<p>If you still want to pursue multiple <code>CURLOPT_SSLVERSION</code> options, I would write a script to do so (which, I don't think it is a good practice or necessary). But still, if you decide to pursue that functionality for any reason, write some code which will attempt to use the strongest possible SSL encryption and then fallback to the next version, if it fails to connect.</p>\n<ol>\n<li>Before you make a decision take a look at the Qualys SSL Labs' <a href=\"https://www.ssllabs.com/projects/\" rel=\"noreferrer\">projects</a> about security.</li>\n<li>Take a look at <a href=\"https://community.qualys.com/blogs/securitylabs/2013/08/05/configuring-apache-nginx-and-openssl-for-forward-secrecy\" rel=\"noreferrer\">this SSL Labs' article</a> about perfect forward secrecy and best practices.</li>\n<li>Test your client (web browser) for any vulnerabilities with <a href=\"https://www.ssllabs.com/ssltest/viewMyClient.html\" rel=\"noreferrer\">SSL Labs' web tool</a>. This will give you an idea what to look at and what to improve and secure on your server and app.</li>\n<li>Test your website/web service with Qualys' SSL Labs <a href=\"https://www.ssllabs.com/ssltest/\" rel=\"noreferrer\">SSL tool</a>.</li>\n</ol>\n<p>Vulnerabilities and attacks: Longjam, FREAK, POODLE, you name it! Who knows what other attacks or vulnerabilities are undiscovered? Yes! They all affect your choice of SSL/TLS connection.</p>\n<p>You have no control over the client (unless you develop it), but you have control over the server and server-client negotiations.</p>\n<p>No matter what app you build, you should look at best practices, depending on your needs and per case basis, you should decide on the following options:</p>\n<ol>\n<li>Security</li>\n<li>Compatibility</li>\n<li>Maintainability</li>\n<li>Complexity</li>\n</ol>\n<p>If security is so important, go with TLS1.1 at minimum.\nLook at cipher lists also, I wouldn't overlook that part.</p>\n<p>Here's also a nice <a href=\"https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet\" rel=\"noreferrer\">OWASP guide for creating a secure layer</a> around your app.</p>\n<p>OWASP and Qualys SSL Labs are great resources to start with. I would even do some research on cURL and OpenSSL to get familiar with weaknesses, possible security options and best practices.</p>\n<p>There are security points, which I am not mentioning and are missing, but we can't cover everything. This is just the tip of the iceberg.\nAnything not mentioned here is for you to research.</p>\n<p>Good Luck!</p>\n<p>I will be around to answer any questions, if I can.</p>\n",
+      "owner": {
+        "display_name": "GTodorov",
+        "link": "https://stackoverflow.com/users/1549092/gtodorov"
+      }
+    },
+    {
+      "answer_id": 49590036,
+      "body": "<p>You can use <a href=\"http://docs.guzzlephp.org/en/stable/request-options.html#ssl-key\" rel=\"noreferrer\">ssl_key</a> and <a href=\"http://docs.guzzlephp.org/en/stable/request-options.html#cert\" rel=\"noreferrer\">cert</a>:</p>\n<pre><code>$response = $client-&gt;post(\n    $endpoint, [\n        'json' =&gt; $content,\n        'headers' =&gt; $headers,\n        'connect_timeout' =&gt; 650,\n        // add these\n        'cert' =&gt; '/path/to/openyes.crt.pem',\n        'ssl_key' =&gt; '/path/to/openyes.key.pem'\n    ]\n);\n</code></pre>\n<p>if they have a pass phrase, you can set them like this:</p>\n<pre><code>        'cert' =&gt; ['/path/to/openyes.crt.pem', 'password'],\n        'ssl_key' =&gt; ['/path/to/openyes.key.pem', 'password']\n</code></pre>\n",
+      "owner": {
+        "display_name": "Federkun",
+        "link": "https://stackoverflow.com/users/711206/federkun"
+      }
+    },
+    {
+      "answer_id": 36012671,
+      "body": "<p>From the looks of things, you are attempting to use an API key.  To obtain your desired effect, simply pass <code>null</code> in as the username, like below.</p>\n<pre><code>$client-&gt;request(\n    $method,\n    $url,\n    [\n        'auth' =&gt; [\n            null,\n            $api_key\n        ],\n    ]\n);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Shaun Bramley",
+        "link": "https://stackoverflow.com/users/4678308/shaun-bramley"
+      }
+    },
+    {
+      "answer_id": 22245541,
+      "body": "<p>For <strong>Guzzle &lt;= 4</strong>:</p>\n<p>It's a raw post request so putting the JSON in the body solved the problem</p>\n<pre><code>$request = $this-&gt;client-&gt;post(\n    $url,\n    [\n        'content-type' =&gt; 'application/json'\n    ],\n);\n$request-&gt;setBody($data); #set body!\n$response = $request-&gt;send();\n</code></pre>\n",
+      "owner": {
+        "display_name": "user3379466",
+        "link": "https://stackoverflow.com/users/3379466/user3379466"
+      }
+    },
+    {
+      "answer_id": 25040600,
+      "body": "<p>As written in Guzzle official documentation: <a href=\"http://guzzle.readthedocs.org/en/latest/quickstart.html\" rel=\"noreferrer\">http://guzzle.readthedocs.org/en/latest/quickstart.html</a></p>\n<blockquote>\n<p>A GuzzleHttp\\Exception\\ClientException is thrown for 400 level errors if the exceptions request option is set to true</p>\n</blockquote>\n<p>For correct error handling I would use this code:</p>\n<pre><code>use GuzzleHttp\\Client;\nuse GuzzleHttp\\Exception\\RequestException;\n\ntry {\n\n    $response = $client-&gt;get(YOUR_URL, [\n        'connect_timeout' =&gt; 10\n    ]);\n        \n    // Here the code for successful request\n\n} catch (RequestException $e) {\n\n    // Catch all 4XX errors \n    \n    // To catch exactly error 400 use \n    if ($e-&gt;hasResponse()){\n        if ($e-&gt;getResponse()-&gt;getStatusCode() == '400') {\n                echo &quot;Got response 400&quot;;\n        }\n    }\n\n    // You can check for whatever error status code you need \n    \n} catch (\\Exception $e) {\n\n    // There was another exception.\n\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Hpatoio",
+        "link": "https://stackoverflow.com/users/1803148/hpatoio"
+      }
+    },
+    {
+      "answer_id": 35443523,
+      "body": "\n<p>Guzzle 6.1 solution right from the <a href=\"http://docs.guzzlephp.org/en/latest/request-options.html#on-stats\" rel=\"noreferrer\">docs</a>.</p>\n<pre class=\"lang-php prettyprint-override\"><code>use GuzzleHttp\\Client;\nuse GuzzleHttp\\TransferStats;\n\n$client = new Client;\n\n$client-&gt;get('http://some.site.com', [\n    'query'   =&gt; ['get' =&gt; 'params'],\n    'on_stats' =&gt; function (TransferStats $stats) use (&amp;$url) {\n        $url = $stats-&gt;getEffectiveUri();\n    }\n])-&gt;getBody()-&gt;getContents();\n\necho $url; // http://some.site.com?get=params\n</code></pre>\n",
+      "owner": {
+        "display_name": "Yauheni Prakopchyk",
+        "link": "https://stackoverflow.com/users/4308354/yauheni-prakopchyk"
+      }
+    },
+    {
+      "answer_id": 61319761,
+      "body": "<p>That's because the Symfony Client executes the request not on $http->request().\nThis is done when it is required the first time.</p>\n\n<p>When you change your code for both test cases you see the time difference melt away</p>\n\n<pre><code>...\n$response = $http-&gt;request($method, $url, $httpOpt);\nreturn $response-&gt;getStatusCode();\n</code></pre>\n\n<p>When checking your results for plausibility you should have noticed that the times before are impossible to achieve. </p>\n\n<p>My tests before the fix where<br>\nSymfony:        0.00944495201<br>\nGuzzle:         0.18365287780</p>\n\n<p>The Symfony result is faster than any simple network ping</p>\n",
+      "owner": {
+        "display_name": "Bernhard",
+        "link": "https://stackoverflow.com/users/1793719/bernhard"
+      }
+    },
+    {
+      "answer_id": 33701574,
+      "body": "<p>Try something like:</p>\n\n<pre><code>/**\n * First parameter is for cookie \"strictness\"\n */\n$cookieJar = new \\GuzzleHttp\\Cookie\\CookieJar(true);\n/**\n  * Read in our cookies. In this case, they are coming from a\n  * PSR7 compliant ServerRequestInterface such as Slim3\n  */\n$cookies = $request-&gt;getCookieParams();\n/**\n  * Now loop through the cookies adding them to the jar\n  */\n foreach ($cookies as $cookie) {\n           $newCookie =\\GuzzleHttp\\Cookie\\SetCookie::fromString($cookie);\n           /**\n             * You can also do things such as $newCookie-&gt;setSecure(false);\n            */\n           $cookieJar-&gt;setCookie($newCookie);\n }\n/**\n * Create a PSR7 guzzle request\n */\n$guzzleRequest = new \\GuzzleHttp\\Psr7\\Request(\n                   $request-&gt;getMethod(), $url, $headers, $body\n        );\n /**\n  * Now actually prepare Guzzle - here's where we hand over the\n  * delicious cookies!\n  */\n $client = new \\GuzzleHttp\\Client(['cookies'=&gt;$cookieJar]);\n /**\n  * Now get the response\n  */\n $guzzleResponse = $client-&gt;send($guzzleRequest, ['timeout' =&gt; 5]);\n</code></pre>\n\n<p>and here's how to get them out again:</p>\n\n<pre><code>$newCookies = $guzzleResponse-&gt;getHeader('set-cookie');\n</code></pre>\n",
+      "owner": {
+        "display_name": "Richy B.",
+        "link": "https://stackoverflow.com/users/136771/richy-b"
+      }
+    },
+    {
+      "answer_id": 48280296,
+      "body": "<p>Give the query-option from Guzzle a try:</p>\n\n<pre><code>$endpoint = \"http://my.domain.com/test.php\";\n$client = new \\GuzzleHttp\\Client();\n$id = 5;\n$value = \"ABC\";\n\n$response = $client-&gt;request('GET', $endpoint, ['query' =&gt; [\n    'key1' =&gt; $id, \n    'key2' =&gt; $value,\n]]);\n\n// url will be: http://my.domain.com/test.php?key1=5&amp;key2=ABC;\n\n$statusCode = $response-&gt;getStatusCode();\n$content = $response-&gt;getBody();\n\n// or when your server returns json\n// $content = json_decode($response-&gt;getBody(), true);\n</code></pre>\n\n<p>I use this option to build my get-requests with guzzle. In combination with json_decode($json_values, true) you can transform json to a php-array.</p>\n",
+      "owner": {
+        "display_name": "Brotzka",
+        "link": "https://stackoverflow.com/users/2935014/brotzka"
+      }
+    },
+    {
+      "answer_id": 59063213,
+      "body": "<p>Carl has a great solution to this. If you are looking for a quick fix to test your updates - you can get this done by opening up two command prompts. The first would be running <code>php artisan serve</code> (locally my default port is 8000 and you would be running your site on <code>http://localhost:8000</code>). The second would run <code>php artisan serve --port 8001</code>.</p>\n\n<p>Then you would update your post request to:</p>\n\n<pre><code>$response = $http-&gt;post('http://localhost:8001/oauth/token', [\n    'form_params' =&gt; [\n        'grant_type' =&gt; 'authorization_code',\n        'client_id' =&gt; 'client-id',\n        'client_secret' =&gt; 'client-secret',\n        'redirect_uri' =&gt; 'http://example.com/callback',\n        'code' =&gt; $request-&gt;code,\n    ],\n]);\n</code></pre>\n\n<p>This should help during your testing until you are able to everything on server or a local virtual host.</p>\n",
+      "owner": {
+        "display_name": "busytraining",
+        "link": "https://stackoverflow.com/users/912900/busytraining"
+      }
+    },
+    {
+      "answer_id": 51789802,
+      "body": "<p>You can use the <code>getStatusCode</code> function.</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>$response = $client-&gt;request('GET', $url);\n$statusCode = $response-&gt;getStatusCode();\n</code></pre>\n\n<p><strong>Note:</strong> If your URL redirects to some other URL then you need to set <code>false</code> value for <code>allow_redirects</code> property to be able to detect initial status code for parent URL.</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>// On client creation\n$client = new GuzzleHttp\\Client([\n  'allow_redirects' =&gt; false\n]);\n\n// Using with request function\n$client-&gt;request('GET', '/url/with/redirect', ['allow_redirects' =&gt; false]);\n</code></pre>\n\n<p>If you want to check status code in <code>catch</code> block, then you need to use <code>$exception-&gt;getCode()</code></p>\n\n<ul>\n<li><a href=\"http://docs.guzzlephp.org/en/stable/quickstart.html#using-responses\" rel=\"noreferrer\">More about responses</a> </li>\n<li><a href=\"http://docs.guzzlephp.org/en/stable/request-options.html#allow-redirects\" rel=\"noreferrer\">More about <code>allow_redirects</code></a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Scofield",
+        "link": "https://stackoverflow.com/users/1536172/scofield"
+      }
+    },
+    {
+      "answer_id": 57606637,
+      "body": "<p>Just do research inside Guzzle's docs, for example <a href=\"http://docs.guzzlephp.org/en/latest/request-options.html#sink\" rel=\"noreferrer\">here</a></p>\n\n<p>Pass a string to specify the path to a file that will store the contents of the response body:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>$client-&gt;request('GET', '/stream/20', ['sink' =&gt; '/path/to/file']);\n</code></pre>\n\n<p>Pass a resource returned from fopen() to write the response to a PHP stream:</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>$resource = fopen('/path/to/file', 'w');\n$client-&gt;request('GET', '/stream/20', ['sink' =&gt; $resource]);\n</code></pre>\n\n<p>Pass a Psr\\Http\\Message\\StreamInterface object to stream the response body to an open PSR-7 stream.</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>$resource = fopen('/path/to/file', 'w');\n$stream = GuzzleHttp\\Psr7\\stream_for($resource);\n$client-&gt;request('GET', '/stream/20', ['save_to' =&gt; $stream]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Chris",
+        "link": "https://stackoverflow.com/users/1363265/chris"
+      }
+    },
+    {
+      "answer_id": 57330152,
+      "body": "<ol>\n<li><p>Wrap your API calls with <a href=\"https://github.com/mxl/laravel-queue-rate-limit\" rel=\"nofollow noreferrer\">Jobs</a> and push them to separate queue:</p>\n\n<pre><code>ApiJob::dispatch()-&gt;onQueue('api');\n</code></pre></li>\n<li><p>Use <a href=\"https://github.com/mxl/laravel-queue-rate-limit\" rel=\"nofollow noreferrer\">mxl/laravel-queue-rate-limit</a> package (I'm the author) to rate limit <code>api</code> queue. Add this to <code>config/queue.php</code>:</p>\n\n<pre><code>'rateLimit' =&gt; [\n    'api' =&gt; [\n        'allows' =&gt; 40,\n        'every' =&gt; 10\n    ]\n]\n</code></pre></li>\n<li><p>Run queue worker:</p>\n\n<pre><code>$ php artisan queue:work --queue api\n</code></pre></li>\n</ol>\n\n<p>See also <a href=\"https://stackoverflow.com/a/57329506/746347\">this answer</a>.</p>\n",
+      "owner": {
+        "display_name": "mixel",
+        "link": "https://stackoverflow.com/users/746347/mixel"
+      }
+    },
+    {
+      "answer_id": 57215724,
+      "body": "<p>After a lot of debugging and testing all of my code I contacted the service, whose API I was trying to consume. </p>\n\n<p>They were an European service provider and they had whitelisted European IP's. Our production server was in the USA and after they whitelisted our IP, everything worked.</p>\n",
+      "owner": {
+        "display_name": "Mihkel Allorg",
+        "link": "https://stackoverflow.com/users/5122070/mihkel-allorg"
+      }
+    },
+    {
+      "answer_id": 56494527,
+      "body": "<p>I didn't want to pull these packages in when I barely understood what they provided and I just wanted to use the same tools I was used to in the REST world for a lightweight transition. The answer is Yes, you can use Guzzle for consuming a GraphQL API.</p>\n\n<p>There are probably ways to make this prettier, but for now, this is what's working. You pass authorization through the Authorization header and Content-Type must be set to application/json.</p>\n\n<p>When constructing your query be wary of quotes, spacing, and line breaks. I haven't yet figured out a way to make the code prettier and still maintain a valid query. The first portion <code>{\"query\": \"query {</code> is a requirement for every query. The object name must be wrapped in double quotes and the query body <code>\"query { }\"</code> must be wrapped in double quotes as well.</p>\n\n<pre><code>$graphQLquery = '{\"query\": \"query { viewer { repositories(last: 100) { nodes { name id isPrivate nameWithOwner } } } } \"}';\n\nuse GuzzleHttp\\Client;\n\n$response = (new Client)-&gt;request('post', '{graphql-endpoint}', [\n    'headers' =&gt; [\n        'Authorization' =&gt; 'bearer ' . $token,\n        'Content-Type' =&gt; 'application/json'\n    ],\n    'body' =&gt; $graphQLquery\n]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Full Stack Alien",
+        "link": "https://stackoverflow.com/users/3726775/full-stack-alien"
+      }
+    },
+    {
+      "answer_id": 55650980,
+      "body": "<p>A self-signed certificate is its own authority, so simply set the verify option to the filename of the certificate:</p>\n\n<pre><code>// Use a custom SSL certificate on disk.\nnew GuzzleClient(['verify' =&gt; '/path/to/self-signed/cert.pem']);\n</code></pre>\n\n<p><a href=\"http://docs.guzzlephp.org/en/stable/request-options.html#verify-option\" rel=\"noreferrer\">http://docs.guzzlephp.org/en/stable/request-options.html#verify-option</a></p>\n",
+      "owner": {
+        "display_name": "Peter",
+        "link": "https://stackoverflow.com/users/603316/peter"
+      }
+    },
+    {
+      "answer_id": 55134783,
+      "body": "<p>It's expected behaviour, because response body is a stream (read more in <a href=\"https://www.php-fig.org/psr/psr-7/\" rel=\"noreferrer\">PSR-7 spec</a>).</p>\n\n<p>To be able to read the body again, you need to call <code>-&gt;getBody()-&gt;rewind()</code> to rewind the stream to the beginning. Just be aware that it can cause an exception in rare cases, because not all stream types support rewind operation.</p>\n",
+      "owner": {
+        "display_name": "Alexey Shokov",
+        "link": "https://stackoverflow.com/users/322079/alexey-shokov"
+      }
+    },
+    {
+      "answer_id": 42156530,
+      "body": "<p>@Alex Blex was very close.</p>\n\n<p><strong>Solution:</strong></p>\n\n<pre><code>$container = [];\n$history = \\GuzzleHttp\\Middleware::history($container);\n\n$guzzleMock = new \\GuzzleHttp\\Handler\\MockHandler([\n    new \\GuzzleHttp\\Psr7\\Response(201, [], 'user created response'),\n]);\n\n$stack = \\GuzzleHttp\\HandlerStack::create($guzzleMock);\n\n$stack-&gt;push($history);\n\n$guzzleClient = new \\GuzzleHttp\\Client(['handler' =&gt; $stack]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "xAoc",
+        "link": "https://stackoverflow.com/users/2169572/xaoc"
+      }
+    },
+    {
+      "answer_id": 54699016,
+      "body": "<p>Add </p>\n\n<blockquote>\n  <p><strong><em>ip</em>  catalogue3.test</strong></p>\n</blockquote>\n\n<p>to your <strong>/etc/hosts</strong> file</p>\n",
+      "owner": {
+        "display_name": "cmac",
+        "link": "https://stackoverflow.com/users/1771679/cmac"
+      }
+    },
+    {
+      "answer_id": 50183449,
+      "body": "<p>Welcome to WordPress hell. We have 2018 and WordPress still does not have any dependency management and still didn't notice Composer existence. </p>\n\n<p>WordPress ecosystem simply relies on assumption, that functions/classes names of plugins/themes should be unique. Obviously distributing popular 3rd-part Composer libraries with your plugin/theme is asking for trouble - it is easy to get names collision when other plugin is doing the same. There is no good way out of this situation.</p>\n\n<p>If you want a bulletproof solution for standalone plugins, you should prefix namespaces of every package in your <code>vendor</code> directory with plugin prefix, for example <code>myplygin\\vendor</code>. Then <code>GuzzleHttp\\Client</code> becomes <code>myplugin\\vendors\\GuzzleHttp\\Client</code>, so there is no risk of name collisions. This will require some work to write script for this (or you may use some existing solutions, like <a href=\"https://github.com/humbug/php-scoper\" rel=\"noreferrer\"><code>humbug/php-scoper</code></a>), and you may get many duplicated dependencies (10 plugins may bring the same library 10 times, but with different namespaces), but this is the cost of integrating modern tools and patterns into outdated software.</p>\n\n<p>If you're writing this plugin for yourself and you're controlling final installation, you may try to <a href=\"https://roots.io/using-composer-with-wordpress/\" rel=\"noreferrer\">use Composer for installing WordPress and its plugins</a>. You still may need to fix 3rd-party plugins (via forking) if they're have bundled some composer library, but in the long run it should simplify many things and you may avoid duplicating libraries for every plugin.</p>\n",
+      "owner": {
+        "display_name": "rob006",
+        "link": "https://stackoverflow.com/users/5812455/rob006"
+      }
+    },
+    {
+      "answer_id": 28478968,
+      "body": "<p>Not exactly like that, but you likely want <a href=\"http://docs.python-requests.org/en/latest/\" rel=\"nofollow noreferrer\">requests</a></p>\n\n<p>edit: since you want to ommit your base URL, try something like this:</p>\n\n<pre><code>base_url = \"http://example.com/\"\ndef requests_get(url, *args, **kwargs):\n    return requests.get(base_url + url,*args,**kwargs)\n</code></pre>\n\n<p>An alternative solution is to subclass <code>requests.Session</code> as shown in <a href=\"https://stackoverflow.com/a/51026159/1016216\">this answer</a>.</p>\n",
+      "owner": {
+        "display_name": "L3viathan",
+        "link": "https://stackoverflow.com/users/1016216/l3viathan"
+      }
+    },
+    {
+      "answer_id": 26556440,
+      "body": "<p>I did manage to find part of the answer in the docs. <a href=\"http://docs.guzzlephp.org/en/latest/http-messages.html?highlight=header#request-methods\" rel=\"nofollow noreferrer\">Guzzle - Request Methods</a></p>\n\n<p>Combined with a <a href=\"https://gist.github.com/ycombinator/9395033\" rel=\"nofollow noreferrer\">gist</a> that has a similar function, that checks for 404 status.</p>\n\n<pre><code>/**\n * @return boolean\n */\nfunction exists()\n{\n    $client = new GuzzleHttp\\Client();\n\n    try {\n        $client-&gt;head($this-&gt;file);\n        return true;\n    } catch (GuzzleHttp\\Exception\\ClientException $e) {\n        return false;\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "ryanwinchester",
+        "link": "https://stackoverflow.com/users/2066155/ryanwinchester"
+      }
+    },
+    {
+      "answer_id": 42058067,
+      "body": "<p><a href=\"https://github.com/guzzle/guzzle/blob/master/src/Cookie/CookieJar.php\" rel=\"noreferrer\">The source code</a> provided the answer I needed. </p>\n\n<p>The CookieJar class provides a method for building cookies from an associative array. Example:</p>\n\n<pre><code>$domain = 'example.org';\n$values = ['users_token' =&gt; '2c26b46b68ffc68ff99b453c1d30113413422d706483bfa0f98a5e886266e7ae'];\n\n$cookieJar = \\GuzzleHttp\\Cookie\\CookieJar::fromArray($values, $domain);\n\n$client = new \\GuzzleHttp\\Client([\n    'base_uri' =&gt; 'https://example.org',\n    'cookies'  =&gt; $cookieJar \n]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "DrDamnit",
+        "link": "https://stackoverflow.com/users/2662892/drdamnit"
+      }
+    },
+    {
+      "answer_id": 51807873,
+      "body": "<p>Guzzle 6 - you could use query option param</p>\n\n<pre><code>// Send a GET request to /get?foo=bar\n$client-&gt;request('GET', '/get', ['query' =&gt; ['foo' =&gt; 'bar']]);\n</code></pre>\n\n<p><a href=\"http://docs.guzzlephp.org/en/stable/request-options.html#query\" rel=\"noreferrer\">http://docs.guzzlephp.org/en/stable/request-options.html#query</a></p>\n",
+      "owner": {
+        "display_name": "Vladimir Pak",
+        "link": "https://stackoverflow.com/users/2889205/vladimir-pak"
+      }
+    },
+    {
+      "answer_id": 42832485,
+      "body": "<p>this message is not an error</p>\n\n<p>Try</p>\n\n<p><code>composer update</code></p>\n\n<pre><code>composer why guzzle/guzzle\n</code></pre>\n",
+      "owner": {
+        "display_name": "Bilal Ahmed",
+        "link": "https://stackoverflow.com/users/7477408/bilal-ahmed"
+      }
+    },
+    {
+      "answer_id": 49681728,
+      "body": "<p>The problem is that in Postman you're sending the data as a form, but in Guzzle you're passing the data in the <code>'json'</code> key of the options array.</p>\n\n<p>I bet that if you would switch the <code>'json'</code> to <code>'form_params'</code> you would get the result you're looking for.</p>\n\n<pre><code>$res = $client-&gt;post('http://example.co.uk/auth/token', [\n    'form_params' =&gt; [\n        'client_id' =&gt; 'SOMEID',\n        'client_secret' =&gt; '9999jjjj67Y0LBLq8CbftgfdreehYEI=',\n        'grant_type' =&gt; 'client_credentials'\n    ]\n]);\n</code></pre>\n\n<p>Here's a link to the docs in question: <a href=\"http://docs.guzzlephp.org/en/stable/quickstart.html#sending-form-fields\" rel=\"noreferrer\">http://docs.guzzlephp.org/en/stable/quickstart.html#sending-form-fields</a></p>\n\n<p>Also, I noticed a typo - you have <code>cliend_id</code> instead of <code>client_id</code>.</p>\n",
+      "owner": {
+        "display_name": "Dylan Pierce",
+        "link": "https://stackoverflow.com/users/1128632/dylan-pierce"
+      }
+    },
+    {
+      "answer_id": 44600141,
+      "body": "<p><code>getBody()</code> returns a stream. If you want to get all the content at once you can use <code>getContents()</code> method and decode json while at it (if you need to)</p>\n\n<pre class=\"lang-sql prettyprint-override\"><code>$payload = json_decode($response-&gt;getBody()-&gt;getContents());\n</code></pre>\n\n<p>Further reading - <a href=\"http://docs.guzzlephp.org/en/stable/psr7.html#responses\" rel=\"noreferrer\">Guzzle Responses</a></p>\n",
+      "owner": {
+        "display_name": "peterm",
+        "link": "https://stackoverflow.com/users/1920232/peterm"
+      }
+    },
+    {
+      "answer_id": 49014306,
+      "body": "<p>I think as suggested is better to use <a href=\"http://docs.guzzlephp.org/en/stable/testing.html#mock-handler\" rel=\"noreferrer\">http://docs.guzzlephp.org/en/stable/testing.html#mock-handler</a></p>\n\n<p>as it looks like the most elegant way to do it properly.</p>\n\n<p>Thank you all</p>\n",
+      "owner": {
+        "display_name": "themazz",
+        "link": "https://stackoverflow.com/users/1700927/themazz"
+      }
+    },
+    {
+      "answer_id": 48618298,
+      "body": "<p>The main difference between those is that Guzzle is an HTTP client, while Amp and ReactPHP are generic async / event loop libraries. Both of these offer HTTP clients based on the core event loop they offer. Those are <a href=\"https://github.com/amphp/artax\" rel=\"noreferrer\"><code>amphp/artax</code></a> and <a href=\"https://github.com/reactphp/http-client\" rel=\"noreferrer\"><code>reactphp/http-client</code></a>.</p>\n\n<p>Now, the difference between <em>those</em> and Guzzle is that those can do other things concurrently that are not HTTP requests. That is, because the user has full control over the event loop and can register own I/O watchers and timers, while the event loop that Guzzle uses is hidden from the user inside Curl.</p>\n\n<p>If you just want to make a few concurrent HTTP requests, the decision mainly boils down to the API you like and a performance consideration maybe. If you want to do other I/O related things concurrently, use Amp or ReactPHP. If you want to stream your bodies, I'd suggest against using Guzzle, too.</p>\n",
+      "owner": {
+        "display_name": "kelunik",
+        "link": "https://stackoverflow.com/users/2373138/kelunik"
+      }
+    },
+    {
+      "answer_id": 43525426,
+      "body": "<p>Unfortunately, you cannot do that with a generator, only with a custom iterator.</p>\n\n<p>I prepared <strong><a href=\"https://gist.github.com/alexeyshockov/cf20fd85d908ac30e295d0fc4d27be5c\" rel=\"noreferrer\">a gist with the full example</a></strong>, but the main idea is just to create an Iterator that will change its state in both ways (it can became valid again after the end).</p>\n\n<p>An example with ArrayIterator in <a href=\"http://psysh.org/\" rel=\"noreferrer\">psysh</a>:</p>\n\n<pre><code>&gt;&gt;&gt; $a = new ArrayIterator([1, 2])\n=&gt; ArrayIterator {#186\n     +0: 1,\n     +1: 2,\n   }\n&gt;&gt;&gt; $a-&gt;current()\n=&gt; 1\n&gt;&gt;&gt; $a-&gt;next()\n=&gt; null\n&gt;&gt;&gt; $a-&gt;current()\n=&gt; 2\n&gt;&gt;&gt; $a-&gt;next()\n=&gt; null\n&gt;&gt;&gt; $a-&gt;valid()\n=&gt; false\n&gt;&gt;&gt; $a[] = 2\n=&gt; 2\n&gt;&gt;&gt; $a-&gt;valid()\n=&gt; true\n&gt;&gt;&gt; $a-&gt;current()\n=&gt; 2\n</code></pre>\n\n<p>With this idea in mind we can pass such dynamic iterator to Guzzle and leave it do the work:</p>\n\n<pre><code>// MapIterator mainly needed for readability.\n$generator = new MapIterator(\n    // Initial data. This object will be always passed as the second parameter to the callback below\n    new \\ArrayIterator(['http://google.com']),\n    function ($request, $array) use ($httpClient, $next) {\n        return $httpClient-&gt;requestAsync('GET', $request)\n            -&gt;then(function (Response $response) use ($request, $array, $next) {\n                // The status code for example.\n                echo $request . ': ' . $response-&gt;getStatusCode() . PHP_EOL;\n                // New requests.\n                $array-&gt;append($next-&gt;shift());\n                $array-&gt;append($next-&gt;shift());\n            });\n    }\n);\n// The \"magic\".\n$generator = new ExpectingIterator($generator);\n// And the concurrent runner.\n$promise = \\GuzzleHttp\\Promise\\each_limit($generator, 5);\n$promise-&gt;wait();\n</code></pre>\n\n<p>As I said before, <strong>the full example is in <a href=\"https://gist.github.com/alexeyshockov/cf20fd85d908ac30e295d0fc4d27be5c\" rel=\"noreferrer\">the gist</a></strong>, with <code>MapIterator</code> and <code>ExpectingIterator</code>.</p>\n",
+      "owner": {
+        "display_name": "Alexey Shokov",
+        "link": "https://stackoverflow.com/users/322079/alexey-shokov"
+      }
+    },
+    {
+      "answer_id": 46870385,
+      "body": "<p>You're going to want to get acquainted with PHP <a href=\"http://php.net/manual/en/language.namespaces.php\" rel=\"noreferrer\">namespaces</a>.</p>\n\n<p>Most files in Laravel are namespaced. Calls to functions within a namespace start within that namespace, with two exceptions:</p>\n\n<p>If you start the class name with a <code>\\</code>, that tells PHP to start at the root-level namespace:</p>\n\n<pre><code>$client = new \\GuzzleHttp\\Client(); \n</code></pre>\n\n<p>Or, you can put:</p>\n\n<pre><code>use GuzzleHttp\\Client;\n</code></pre>\n\n<p>at the top of the file (you'll see a <em>lot</em> of these already throughout Laravel's default files) and then do</p>\n\n<pre><code>$client = new Client();\n</code></pre>\n",
+      "owner": {
+        "display_name": "ceejayoz",
+        "link": "https://stackoverflow.com/users/1902010/ceejayoz"
+      }
+    },
+    {
+      "answer_id": 46284277,
+      "body": "<p>I was having the same issue. I got around it by defining <code>base_uri</code> as below.</p>\n\n<pre><code>$client = new \\GuzzleHttp\\Client([\n    'base_uri' =&gt; 'http://localhost:8000',\n    'defaults' =&gt; [\n        'exceptions' =&gt; false\n    ]\n]);\n\n$response = $client-&gt;get('/api/user/1');\n</code></pre>\n",
+      "owner": {
+        "display_name": "Coder1",
+        "link": "https://stackoverflow.com/users/711852/coder1"
+      }
+    },
+    {
+      "answer_id": 46101506,
+      "body": "<p>As per the the documentation <a href=\"http://docs.guzzlephp.org/en/stable/quickstart.html#cookies\" rel=\"noreferrer\">here</a>, <code>['cookies' =&gt; true]</code> indicates the use of a shared cookie jar for all requests, while <code>['cookies' =&gt; $jar]</code> indicated the use of a <em>specific</em> cookie jar (<code>$jar</code>) for use with client's requests/ responses. So you would need to use either:</p>\n\n<pre><code>$client = new Client(array(\n    'cookies' =&gt; true\n));\n\n\n$response = $client-&gt;request('POST', 'http://myapi.com/login', [\n    'timeout' =&gt; 30,\n    'form_params' =&gt; [\n        'email' =&gt; $request-&gt;get('email'),\n        'password' =&gt; $request-&gt;get('password'),\n    ]\n]);\n\n// and using the same client\n\n$response = $client-&gt;request('GET', 'http://myapi.com/next-url');\n\n// or elsewhere ...\n\n$client = new Client(array(\n    'cookies' =&gt; true\n));\n\n$response = $client-&gt;request('GET', 'http://myapi.com/next-url');\n</code></pre>\n\n<p>or</p>\n\n<pre><code>$jar = new CookieJar;\n\n$client = new Client(array(\n    'cookies' =&gt; $jar\n));\n\n\n$response = $client-&gt;request('POST', 'http://myapi.com/login', [\n    'timeout' =&gt; 30,\n    'form_params' =&gt; [\n        'email' =&gt; $request-&gt;get('email'),\n        'password' =&gt; $request-&gt;get('password'),\n    ]\n]);\n\n// and using the same client\n\n$response = $client-&gt;request('GET', 'http://myapi.com/next-url');\n\n// or elsewhere ...\n\n$client = new Client(array(\n    'cookies' =&gt; $jar // the same $jar as above\n));\n\n$response = $client-&gt;request('GET', 'http://myapi.com/another-url');\n</code></pre>\n",
+      "owner": {
+        "display_name": "Francis Eytan Dortort",
+        "link": "https://stackoverflow.com/users/5459413/francis-eytan-dortort"
+      }
+    },
+    {
+      "answer_id": 45054150,
+      "body": "<p>Read <a href=\"http://docs.guzzlephp.org/en/stable/quickstart.html#cookies\" rel=\"noreferrer\">the docs</a>, please. You have to use <code>CookieJar</code> class to work with cookies.</p>\n\n<pre><code>$client = new \\GuzzleHttp\\Client(['cookies' =&gt; true]);\n$r = $client-&gt;request('GET', 'http://httpbin.org/cookies');\n\n$cookieJar = $client-&gt;getConfig('cookies');\n$cookieJar-&gt;toArray();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alexey Shokov",
+        "link": "https://stackoverflow.com/users/322079/alexey-shokov"
+      }
+    },
+    {
+      "answer_id": 44774990,
+      "body": "<p>To get it off the unanswered list:</p>\n\n<hr>\n\n<p>Guzzle does not support \"fire and forget\" asynchronous requests without deep hacking.</p>\n\n<p>The async methods are abstractions for <code>Client::requestAsync()</code>, which returns a promise. See <a href=\"https://github.com/guzzle/promises#synchronous-wait\" rel=\"noreferrer\">https://github.com/guzzle/promises#synchronous-wait</a> - calling <code>Promise::wait()</code> \"is used to synchronously force a promise to complete\".</p>\n\n<p>Reference: <a href=\"https://github.com/guzzle/guzzle/issues/1429#issuecomment-197119452\" rel=\"noreferrer\">https://github.com/guzzle/guzzle/issues/1429#issuecomment-197119452</a></p>\n",
+      "owner": {
+        "display_name": "cweiske",
+        "link": "https://stackoverflow.com/users/282601/cweiske"
+      }
+    },
+    {
+      "answer_id": 34739140,
+      "body": "<p>After some experiments, I have figured it out. Here is my solution in case someone reaches a dead end.</p>\n\n<pre><code>$request = new Request(\n    'POST', \n    $uri,\n    ['Content-Type' =&gt; 'text/xml; charset=UTF8'],\n    $xml\n);\n</code></pre>\n",
+      "owner": {
+        "display_name": "user3485417",
+        "link": "https://stackoverflow.com/users/3485417/user3485417"
+      }
+    },
+    {
+      "answer_id": 43425440,
+      "body": "<p>I found something here: <a href=\"https://github.com/symfony/symfony/pull/10356\" rel=\"noreferrer\">[Console] A better progress bar #10356</a></p>\n\n<pre class=\"lang-php prettyprint-override\"><code>use Symfony\\Component\\Console\\Helper\\ProgressBar;\nuse Symfony\\Component\\Console\\Output\\ConsoleOutput;\n\n$output = new ConsoleOutput();\n\n$bar1 = new ProgressBar($output, 10);\n$bar2 = new ProgressBar($output, 20);\n$bar2-&gt;setProgressCharacter('#');\n$bar1-&gt;start();\nprint \"\\n\";\n$bar2-&gt;start();\n\nfor ($i = 1; $i &lt;= 20; $i++) {\n    // up one line\n    $output-&gt;write(\"\\033[1A\");\n    usleep(100000);\n    if ($i &lt;= 10) {\n        $bar1-&gt;advance();\n    }\n    print \"\\n\";\n    $bar2-&gt;advance();\n}\n</code></pre>\n\n<p>Effect:</p>\n\n<p><img src=\"https://i.sstatic.net/obIpE.gif\" alt=\"ProgressBar\"></p>\n\n<p>You must move the console cursor to the appropriate line (up and down) before updating the bar. But it works. I confirm.</p>\n",
+      "owner": {
+        "display_name": "Gander",
+        "link": "https://stackoverflow.com/users/4559414/gander"
+      }
+    },
+    {
+      "answer_id": 42858331,
+      "body": "<p>You have to use <code>headers</code> config sections for headers, not the root level.</p>\n\n<pre><code>return new Client([\n    'base_uri' =&gt; env('API_HOST'),\n    'headers' =&gt; [\n        'Accept' =&gt; 'application/json',\n        'Authorization' =&gt; 'Bearer ' . $token,\n        'Content-Type' =&gt; 'application/json',\n    ],\n]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alexey Shokov",
+        "link": "https://stackoverflow.com/users/322079/alexey-shokov"
+      }
+    },
+    {
+      "answer_id": 41996147,
+      "body": "<p>Have you looked at the dependency of the <strong>launchdarkly-php</strong>?</p>\n\n<p>It uses guzzlehttp v6. </p>\n\n<p><strong>Want the proof it's over here:</strong></p>\n\n<p>Just have a look at the <code>composer.json</code> over here:</p>\n\n<p><a href=\"https://github.com/launchdarkly/php-client/blob/master/composer.json#L22\" rel=\"noreferrer\">https://github.com/launchdarkly/php-client/blob/master/composer.json#L22</a></p>\n\n<blockquote>\n  <p>\"guzzlehttp/guzzle\": \"^6.2.1\",</p>\n</blockquote>\n\n<p>And since you are working on guzzle v5 there is no any class that you have specified.</p>\n\n<p>So, <strong>if you are trying to work on <code>launchdarkly v2 sdk</code> try to upgrade to guzzlehttp v6.</strong></p>\n\n<p>Else as you mentioned that there is <strong>more dependency with guzzlehttp v5 then you need to use:</strong> </p>\n\n<pre><code>\"launchdarkly/launchdarkly-php\": \"0.7.0\"\n</code></pre>\n\n<p>Hope this helps you.</p>\n",
+      "owner": {
+        "display_name": "Paladin",
+        "link": "https://stackoverflow.com/users/3887342/paladin"
+      }
+    },
+    {
+      "answer_id": 41914521,
+      "body": "<p>the problem was the <strong>curl</strong> do not work when the url contains port like </p>\n\n<p>localhost:8000</p>\n",
+      "owner": {
+        "display_name": "Moauya Meghari",
+        "link": "https://stackoverflow.com/users/6186572/moauya-meghari"
+      }
+    },
+    {
+      "answer_id": 41817573,
+      "body": "<p>This line:\n<code>$client = new GuzzleHttp\\Client(['base_uri' =&gt; 'http://my.api.url/']);</code></p>\n\n<p>Should be:</p>\n\n<p><code>$client = new Client(['base_uri' =&gt; 'http://my.api.url/']);</code></p>\n\n<p>or:</p>\n\n<p><code>$client = new \\GuzzleHttp\\Client(['base_uri' =&gt; 'http://my.api.url/']);</code></p>\n\n<p>Either one would work since you imported the namespace. You probably want the first option. When you put GuzzleHttp\\Client PHP thinks it's a relative namespace that's why it's saying \"AppBundle\\Controller\\GuzzleHttp\\Client\" cannot be found.</p>\n",
+      "owner": {
+        "display_name": "Chip Dean",
+        "link": "https://stackoverflow.com/users/2408332/chip-dean"
+      }
+    },
+    {
+      "answer_id": 28153903,
+      "body": "<p>According to <a href=\"https://web.archive.org/web/20150116073119/http://guzzle.readthedocs.org/en/latest/clients.html\" rel=\"noreferrer\">the manual</a>, </p>\n\n<blockquote>\n  <p>The <strong>body</strong> option is used to control the body of an entity enclosing\n  request (e.g., PUT, POST, PATCH).</p>\n</blockquote>\n\n<p>The documented method of <code>put</code>'ing is:</p>\n\n<pre><code>$client = new GuzzleHttp\\Client();\n\n$client-&gt;put('http://httpbin.org', [\n    'headers'         =&gt; ['X-Foo' =&gt; 'Bar'],\n    'body'            =&gt; [\n        'field' =&gt; 'abc',\n        'other_field' =&gt; '123'\n    ],\n    'allow_redirects' =&gt; false,\n    'timeout'         =&gt; 5\n]);\n</code></pre>\n\n<h2>Edit</h2>\n\n<p>Based on your comment:</p>\n\n<p>You are missing the third parameter of the <code>createRequest</code> function - an array of key/value pairs making up the <code>post</code> or <code>put</code> data: </p>\n\n<pre><code>$request = $client-&gt;createRequest('PUT', '/put', ['body' =&gt; ['foo' =&gt; 'bar']]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Richard Parnaby-King",
+        "link": "https://stackoverflow.com/users/351785/richard-parnaby-king"
+      }
+    },
+    {
+      "answer_id": 40998808,
+      "body": "<pre><code>use GuzzleHttp\\Cookie\\CookieJar;\n\n$cookieJar = CookieJar::fromArray([\n    'cookie_name' =&gt; 'cookie_value'\n], 'example.com');\n\n$client-&gt;request('GET', '/get', ['cookies' =&gt; $cookieJar]);\n</code></pre>\n\n<p>You can read the documentation <a href=\"http://docs.guzzlephp.org/en/latest/request-options.html?highlight=cookie#cookies\" rel=\"noreferrer\">here</a>.</p>\n",
+      "owner": {
+        "display_name": "Federkun",
+        "link": "https://stackoverflow.com/users/711206/federkun"
+      }
+    },
+    {
+      "answer_id": 34686327,
+      "body": "<p>The <code>GuzzleHttp\\Client</code> provides all necessary wrapping.</p>\n\n<pre><code>$response = $client-&gt;post(\n    $uri,\n    [\n        'auth' =&gt; [null, 'Bearer ' . $token],\n        'form_params' =&gt; $parameters,\n]);\n</code></pre>\n\n<p>Documentation available <a href=\"http://guzzle.readthedocs.org/en/latest/request-options.html#form-params\" rel=\"noreferrer\">Guzzle Request Options</a></p>\n\n<p>Edit: However, if your requests are being used within GuzzleHttp\\Pool then, you can simply everything into the following:</p>\n\n<pre><code>$request = new GuzzleHttp\\Psr7\\Request(\n    'POST',\n    $uri,\n    [\n       'Authorization' =&gt; 'Bearer ' . $token,\n       'Content-Type' =&gt; 'application/x-www-form-urlencoded'\n\n    ],\n    http_build_query($form_params, null, '&amp;')\n);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Shaun Bramley",
+        "link": "https://stackoverflow.com/users/4678308/shaun-bramley"
+      }
+    },
+    {
+      "answer_id": 40742711,
+      "body": "<p>If anyone else was looking at this...</p>\n\n<p>Guzzle 4 responses are NOT streams by default (they are in the latest version) you have to enable that in the request options..</p>\n\n<pre><code>['stream'=&gt;true]\n</code></pre>\n\n<p>And then use the <code>Stream</code> util to read each line of the stream..</p>\n\n<pre><code>GuzzleHttp\\Stream\\Utils::readline\n</code></pre>\n\n<p>So....</p>\n\n<pre><code>&lt;?php\n\n$client = new GuzzleHttp\\Client();\n\n// Download the video as a stream\n$response = $client-&gt;request('GET', $url, ['stream'=&gt;true])-&gt;send();\n\n//$body is now a Guzzle stream object.\n$body = $response-&gt;getBody();\n\nheader(\"Content-Type:{$response-&gt;getHeader('Content-Type')}\");\n\nwhile (!$body-&gt;eof()) {\n  echo GuzzleHttp\\Stream\\Utils::readline($body);\n  ob_flush();\n  flush();\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Matt Bryson",
+        "link": "https://stackoverflow.com/users/4124981/matt-bryson"
+      }
+    },
+    {
+      "answer_id": 40016040,
+      "body": "<p>After some effort I finally managed to answer my own question. The <code>$reason</code> is a <code>GuzzleException</code>. </p>\n\n<p>Therefore we can check what type of exception it is and perform the appropriate logic like so:</p>\n\n<pre><code>[\n    ...,\n    'rejected' =&gt; function ($reason, $index) {\n        if ($reason instanceof GuzzleHttp\\Exception\\ClientException) {\n            $body = $reason-&gt;getResponse()-&gt;getBody();\n        }\n    },\n]\n</code></pre>\n\n<p>Note that not all GuzzleException has a response. See <a href=\"http://docs.guzzlephp.org/en/latest/quickstart.html#exceptions\" rel=\"noreferrer\">http://docs.guzzlephp.org/en/latest/quickstart.html#exceptions</a> for more details.</p>\n",
+      "owner": {
+        "display_name": "Yahya Uddin",
+        "link": "https://stackoverflow.com/users/3006737/yahya-uddin"
+      }
+    },
+    {
+      "answer_id": 38528404,
+      "body": "<p>The best option for Guzzle 6+ is to recreate the Client. Guzzle's HTTP client is now immutable, so whenever you want to change something you should create a new object.</p>\n\n<p>This doesn't mean that you have to recreate the whole object graph, HandlerStack and middlewares can stay the same:</p>\n\n<pre><code>use GuzzleHttp\\Client;\nuse GuzzleHttp\\HandlerStack;\n\n$stack = HandlerStack::create();\n$stack-&gt;push(Middleware::retry(/* ... */));\n$stack-&gt;push(Middleware::log(/* ... */));\n\n$client = new Client([\n    'handler' =&gt; $stack,\n    'base_url' =&gt; $url,\n]);\n\n// ...\n\n$newClient = new Client([\n    'handler' =&gt; $stack,\n    'base_url' =&gt; $url,\n    'auth' =&gt; [$username, $password]\n]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alexey Shokov",
+        "link": "https://stackoverflow.com/users/322079/alexey-shokov"
+      }
+    },
+    {
+      "answer_id": 38351680,
+      "body": "<p>try something like this</p>\n\n<pre><code>    $client = new Client();\n    foreach ($links as $link) {\n        $requests[] = new Request('GET', $link);\n    }\n\n    $responses = Pool::batch($client, $requests, array(\n        'concurrency' =&gt; 15,\n    ));\n\n    foreach ($responses as $response) {\n         //do something\n    }\n</code></pre>\n\n<p>don't forget</p>\n\n<pre><code>use GuzzleHttp\\Pool;\nuse GuzzleHttp\\Client;\nuse GuzzleHttp\\Psr7\\Request;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Kirill Sulimovsky",
+        "link": "https://stackoverflow.com/users/6418773/kirill-sulimovsky"
+      }
+    },
+    {
+      "answer_id": 38307909,
+      "body": "<p>The way you are POSTing data is wrong, hence received data is malformed.</p>\n\n<p><a href=\"http://docs.guzzlephp.org/en/latest/request-options.html#multipart\" rel=\"noreferrer\">Guzzle docs</a>:</p>\n\n<blockquote>\n  <p>The value of <code>multipart</code> is an array of associative arrays, each\n  containing the following key value pairs:</p>\n  \n  <p><code>name</code>: (string, required) the form field name</p>\n  \n  <p><code>contents</code>:(StreamInterface/resource/string, required) The data to use in the\n  form element.</p>\n  \n  <p><code>headers</code>: (array) Optional associative array of custom headers to use with the form element.</p>\n  \n  <p><code>filename</code>: (string) Optional\n  string to send as the filename in the part.</p>\n</blockquote>\n\n<p>Using keys out of above list and setting unnecessary headers without separating each field into one array will result in making a bad request.</p>\n\n<pre><code>$res = $client-&gt;request('POST', $this-&gt;base_api . $endpoint, [\n    'auth'      =&gt; [ env('API_USERNAME'), env('API_PASSWORD') ],\n    'multipart' =&gt; [\n        [\n            'name'     =&gt; 'FileContents',\n            'contents' =&gt; file_get_contents($path . $name),\n            'filename' =&gt; $name\n        ],\n        [\n            'name'     =&gt; 'FileInfo',\n            'contents' =&gt; json_encode($fileinfo)\n        ]\n    ],\n]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "revo",
+        "link": "https://stackoverflow.com/users/1020526/revo"
+      }
+    },
+    {
+      "answer_id": 37379482,
+      "body": "<p>I managed to fix this by replacing <code>$stack-&gt;push(</code> with:</p>\n\n<pre><code>$stack-&gt;push(\n      new CacheMiddleware(\n        new GreedyCacheStrategy(\n          new FlysystemStorage(\n            new Local(\"/tmp/sitex\")\n          ),\n          180\n        )\n      ), \n      \"cache\"\n    );\n</code></pre>\n\n<ul>\n<li>GreedyCacheStrategy: Always cache the response without checking it's headers for cache information;</li>\n<li>180 is the TTL we want to have the cache stored.</li>\n</ul>\n\n<p>Also replace <code>use Kevinrob\\GuzzleCache\\Strategy\\PrivateCacheStrategy;</code> by <code>use Kevinrob\\GuzzleCache\\Strategy\\GreedyCacheStrategy;</code></p>\n",
+      "owner": {
+        "display_name": "TCB13",
+        "link": "https://stackoverflow.com/users/560745/tcb13"
+      }
+    },
+    {
+      "answer_id": 37180026,
+      "body": "<p>if it v6</p>\n\n<pre><code>$headers = ['Referer' =&gt; 'test.referer.com'];\n$guzzle = new \\GuzzleHttp\\Client([\n    'headers' =&gt; $headers\n]);\n$result = $guzzle-&gt;get('http://google.com');\nreturn $result;\n</code></pre>\n\n<p>You don't need strange param <code>default</code></p>\n\n<p>And need <code>Referer</code>. Not <code>referer</code></p>\n",
+      "owner": {
+        "display_name": "trijin",
+        "link": "https://stackoverflow.com/users/1079487/trijin"
+      }
+    },
+    {
+      "answer_id": 36778781,
+      "body": "<pre><code>public function streamAction()\n{\n     $response = $client-&gt;request(\n        'GET', 'http://httpbin.org/stream-bytes/1024', ['stream' =&gt; true]\n     );\n\n     $body = $response-&gt;getBody();\n\n     $response = new StreamedResponse(function() use ($body) {\n         while (!$body-&gt;eof()) {\n             echo $body-&gt;read(1024);\n         }\n     });\n\n     $response-&gt;headers-&gt;set('Content-Type', 'text/xml');\n\n     return $response;\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "d.garanzha",
+        "link": "https://stackoverflow.com/users/397862/d-garanzha"
+      }
+    },
+    {
+      "answer_id": 36549547,
+      "body": "<p>Why use Guzzle?</p>\n\n<p>First of all Guzzle is an abstraction layer for http request, although it uses cURL by default you can use any other http client that you want:</p>\n\n<blockquote>\n  <p><strong>Does Guzzle require cURL?</strong></p>\n  \n  <p>No. Guzzle can use any HTTP handler to send requests. This means that\n  Guzzle can be used with cURL, PHP's stream wrapper, sockets, and\n  non-blocking libraries like React. You just need to configure an HTTP\n  handler to use a different method of sending requests</p>\n  \n  <p><strong>Note:</strong> Guzzle has historically only utilized cURL to send HTTP requests.\n  cURL is an amazing HTTP client (arguably the best), and Guzzle will\n  continue to use it by default when it is available. It is rare, but\n  some developers don't have cURL installed on their systems or run into\n  version specific issues. By allowing swappable HTTP handlers, Guzzle\n  is now much more customizable and able to adapt to fit the needs of\n  more developers.</p>\n</blockquote>\n\n<p>Since you are using Laravel, if by any chances you use any email API then by now you already have Guzzle installed. On your Laravel's <strong>composer.json</strong> you can see a suggestion:</p>\n\n<pre><code>\"suggest\": {\n    ...\n    \"guzzlehttp/guzzle\": \"Required to use the Mailgun and Mandrill mail drivers and the ping methods on schedules (~5.3|~6.0).\",\n    ...\n}\n</code></pre>\n\n<p>Another reason will be reusing code, take a look at the comment made by <a href=\"https://stackoverflow.com/users/351330/bogdan\">bogdan</a> the amount of code needed to do a simple http request with cURL. With Guzzle is way more simpler, cleaner, readable and reusable. Its quite easy to create a service that will encapsulate your Http requests.</p>\n\n<p>Guzzle also allows you to do <a href=\"http://docs.guzzlephp.org/en/latest/faq.html?highlight=curl#can-guzzle-send-asynchronous-requests\" rel=\"noreferrer\">async requests</a>, in a very similar way you do with javascript using promises.</p>\n\n<p>Last but not least, tests! It's way more easier to do tests to your API or create Unit tests for your app and mock the http requests with Guzzle than using cURL. More info about the tests <a href=\"http://docs.guzzlephp.org/en/latest/testing.html\" rel=\"noreferrer\">here</a></p>\n\n<p><strong>BUT</strong> if you only want to do <strong>only a couple</strong> of simple http requests (which doesn't seem to be the case) you don't care about tests and you don't want to have a dependency on Guzzle go for cURL.</p>\n",
+      "owner": {
+        "display_name": "Fabio Antunes",
+        "link": "https://stackoverflow.com/users/1449157/fabio-antunes"
+      }
+    },
+    {
+      "answer_id": 36347502,
+      "body": "<p>I found the answer before I finished writing the question, but I thought I would still post it in case it helps someone else. </p>\n\n<p>The solution was to replace this call:</p>\n\n<p><code>$results = Promise\\unwrap($promises);</code></p>\n\n<p>With this:</p>\n\n<p><code>$results = Promise\\settle($promises)-&gt;wait(true);</code></p>\n\n<p>The <code>settle</code> function will not throw an exception if a promise is rejected, allowing you to get the full responses array (with both fulfilled and rejected responses).</p>\n",
+      "owner": {
+        "display_name": "kenske",
+        "link": "https://stackoverflow.com/users/1180762/kenske"
+      }
+    },
+    {
+      "answer_id": 30874624,
+      "body": "<p>You need to terminate your base_uri with a forward slash /</p>\n\n<p>E.g.,</p>\n\n<pre class=\"lang-php prettyprint-override\"><code>use GuzzleHttp\\Client;\n\n$client = new Client([\n    'base_uri' =&gt; 'https://siteurl.com/api/v2/'\n]);\n</code></pre>\n\n<p>Edit: <strong>Note</strong> that base_uri is for Guzzle 6+, whereas previous versions used base_url.</p>\n",
+      "owner": {
+        "display_name": "Avindra Goolcharan",
+        "link": "https://stackoverflow.com/users/270302/avindra-goolcharan"
+      }
+    },
+    {
+      "answer_id": 35978255,
+      "body": "<p>if you are using linux, make sure the server is running using </p>\n\n<pre><code>/etc/init.d/httpd status\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ahmed H. Saab",
+        "link": "https://stackoverflow.com/users/1891745/ahmed-h-saab"
+      }
+    },
+    {
+      "answer_id": 35675265,
+      "body": "<p>One of the <a href=\"https://github.com/guzzle/guzzle/\" rel=\"noreferrer\">Guzzle</a>'s transport handlers is <a href=\"https://github.com/guzzle/guzzle/blob/master/src/Handler/CurlMultiHandler.php\" rel=\"noreferrer\"><code>CurlMultiHandler</code></a> that uses PHP's <a href=\"http://php.net/manual/en/function.curl-multi-init.php\" rel=\"noreferrer\"><code>curl_multi_*</code></a> functions which allows for asynchronous transfers.</p>\n\n<p>The requests are launched asynchronously and the function <a href=\"http://php.net/manual/en/function.curl-multi-select.php\" rel=\"noreferrer\"><code>curl_multi_select()</code></a> allows <code>Guzzle</code> to wait until one of the curl requests receives data and process it.</p>\n",
+      "owner": {
+        "display_name": "axiac",
+        "link": "https://stackoverflow.com/users/4265352/axiac"
+      }
+    },
+    {
+      "answer_id": 22843023,
+      "body": "<p>The body that you are var_dumping is a Guzzle stream object. This object can be treated like a string or read from as needed. <a href=\"http://docs.guzzlephp.org/en/latest/psr7.html#streams\" rel=\"noreferrer\">Documentation for Guzzle Stream here</a></p>\n",
+      "owner": {
+        "display_name": "Michael Dowling",
+        "link": "https://stackoverflow.com/users/151504/michael-dowling"
+      }
+    },
+    {
+      "answer_id": 35237661,
+      "body": "<p>I am also using guzzle, and its working for me, Try like this</p>\n\n<pre><code>use GuzzleHttp;\nuse GuzzleHttp\\Subscriber\\Oauth\\Oauth1;\n\n$client = new GuzzleHttp\\Client();\n</code></pre>\n\n<p>And to get response try this</p>\n\n<pre><code>$response = $client-&gt;request('GET', 'tournaments',['query' =&gt; ['base_uri' =&gt; getenv('URL_BASE').'api/v1/']]);\n</code></pre>\n\n<p>OR try this if not work </p>\n\n<pre><code>$response = $client-&gt;request('GET', getenv('URL_BASE').'api/v1/tournaments');\n</code></pre>\n",
+      "owner": {
+        "display_name": "Niklesh Raut",
+        "link": "https://stackoverflow.com/users/2815635/niklesh-raut"
+      }
+    },
+    {
+      "answer_id": 35180114,
+      "body": "<p>The problem is that you are using a shared instance of PHP, so when one of the apps sets an environment variable that is shared with the other app. I believe phpdotenv treats them as immutable, so once they are set, the other application cannot override them.</p>\n\n<p><code>mod_php</code> (which i presume you are using since you mentioned apache) basically provides a php interpreter inside each apache process. An apache process will be shared between all your vhosts hence why you are having this issue. You would also get the same issue if you were running nginx and php-fpm, however its easier to solve if you were running the latter software stack.</p>\n\n<p>Unfortunately one port can only be bound to one process. So the only way to stick with mod_php and apache is too place your vhosts on seperate port numbers, which means you'll have to place the port number of at least one of them in the url when accessing it. I don't really use apache anymore so i can't give you specific details on doing this, it might be a case of just setting different ports in your vhost config and apache will just do it, but i'll have to defer you too google.</p>\n\n<p>If you were running nginx/php-fpm it would probably just be a case of creating a second php-fpm process config running on a different port or socket and pointing the second vhost at that php instance and away you go.</p>\n\n<p>So in summary you have a few solutions:</p>\n\n<ol>\n<li>Stay with apache and mod_php, and spend the rest of the week googling how to do what i said.</li>\n<li>Look into running php as a cgi module on apache will will then give you the flexibility you need (this is akin to using nginx/php-fpm but without changing your webserver software). </li>\n<li>Stop using phpdotenv and find an alternative approach (such as loading your config in htaccess or inside the vhost so its available as $_ENV or $_SERVER keys)</li>\n<li>Install a dev stack that includes nginx/php-fpm and it should be easily solvable by creating two php processes</li>\n<li>Use virtual machines (possibly look at vagrant or docker)\n.</li>\n</ol>\n\n<p>Sorry i don't have better news, but unfortunately your WAMP stack is just a little too restrictive out of the box. </p>\n",
+      "owner": {
+        "display_name": "Lee",
+        "link": "https://stackoverflow.com/users/887728/lee"
+      }
+    },
+    {
+      "answer_id": 34941838,
+      "body": "<p>It is,</p>\n\n<pre><code>use GuzzleHttp\\Client;\n</code></pre>\n\n<p>It seems your following tutorial which is based on <code>Guzzle 3.7</code> and You have installed <code>Guzzle 6</code>.</p>\n\n<p><a href=\"http://docs.guzzlephp.org/en/latest/quickstart.html\" rel=\"noreferrer\">Learn more.</a></p>\n",
+      "owner": {
+        "display_name": "pinkal vansia",
+        "link": "https://stackoverflow.com/users/1606631/pinkal-vansia"
+      }
+    },
+    {
+      "answer_id": 34923682,
+      "body": "<p>Though, its not mentioned within the documentation, you can use the \"progress\" request option.</p>\n\n<p>References to it can be found <a href=\"https://github.com/guzzle/guzzle/blob/master/src/RequestOptions.php\">here</a>.</p>\n\n<pre><code>$options = [\n    'progress' =&gt; function ($dl_total_size, $dl_size_so_far, $ul_total_size, $ul_size_so_far) {\n        // do something.\n    }\n];\n</code></pre>\n",
+      "owner": {
+        "display_name": "Shaun Bramley",
+        "link": "https://stackoverflow.com/users/4678308/shaun-bramley"
+      }
+    },
+    {
+      "answer_id": 34911017,
+      "body": "<p>You can do this work by creating a <a href=\"http://guzzle.readthedocs.org/en/latest/handlers-and-middleware.html#middleware\" rel=\"noreferrer\">Middleware</a>. </p>\n\n<pre><code>use GuzzleHttp\\Client;\nuse GuzzleHttp\\HandlerStack;\nuse GuzzleHttp\\Middleware;\nuse Psr\\Http\\Message\\RequestInterface;\n\n$stack = HandlerStack::create();\n// my middleware\n$stack-&gt;push(Middleware::mapRequest(function (RequestInterface $request) {\n    $contentsRequest = (string) $request-&gt;getBody();\n    //var_dump($contentsRequest);\n\n    return $request;\n}));\n\n$client = new Client([\n    'base_uri' =&gt; 'http://www.example.com/api/',\n    'handler' =&gt; $stack\n]);\n\n$response = $client-&gt;request('POST', 'itemupdate', [\n    'auth' =&gt; [$username, $password],\n    'json' =&gt; [\n        \"key\" =&gt; \"value\",\n        \"key2\" =&gt; \"value\",\n    ]\n]);\n</code></pre>\n\n<p>This, however, is triggered before to receive the response. You may want to do something like this:</p>\n\n<pre><code>$stack-&gt;push(function (callable $handler) {\n    return function (RequestInterface $request, array $options) use ($handler) {\n        return $handler($request, $options)-&gt;then(\n            function ($response) use ($request) {\n                // work here\n                $contentsRequest = (string) $request-&gt;getBody();\n                //var_dump($contentsRequest);\n                return $response;\n            }\n        );\n    };\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "Federkun",
+        "link": "https://stackoverflow.com/users/711206/federkun"
+      }
+    },
+    {
+      "answer_id": 30549372,
+      "body": "<p>Guzzle implements <a href=\"http://www.php-fig.org/psr/psr-7/\">PSR-7</a>. That means that it will by default store the body of a message in a <a href=\"https://github.com/php-fig/http-message/blob/master/src/StreamInterface.php\">Stream</a> that uses PHP temp streams. To retrieve all the data, you can use casting operator:</p>\n\n<pre><code>$contents = (string) $response-&gt;getBody();\n</code></pre>\n\n<p>You can also do it with</p>\n\n<pre><code>$contents = $response-&gt;getBody()-&gt;getContents();\n</code></pre>\n\n<p>The difference between the two approaches is that <code>getContents</code> returns the remaining contents, so that a second call returns nothing unless you seek the position of the stream with <code>rewind</code> or <code>seek</code> .</p>\n\n<pre><code>$stream = $response-&gt;getBody();\n$contents = $stream-&gt;getContents(); // returns all the contents\n$contents = $stream-&gt;getContents(); // empty string\n$stream-&gt;rewind(); // Seek to the beginning\n$contents = $stream-&gt;getContents(); // returns all the contents\n</code></pre>\n\n<p>Instead, usings PHP's string casting operations, it will reads all the data from the stream from the beginning until the end is reached.</p>\n\n<pre><code>$contents = (string) $response-&gt;getBody(); // returns all the contents\n$contents = (string) $response-&gt;getBody(); // returns all the contents\n</code></pre>\n\n<p>Documentation: <a href=\"http://docs.guzzlephp.org/en/latest/psr7.html#responses\">http://docs.guzzlephp.org/en/latest/psr7.html#responses</a></p>\n",
+      "owner": {
+        "display_name": "Federkun",
+        "link": "https://stackoverflow.com/users/711206/federkun"
+      }
+    },
+    {
+      "answer_id": 33174421,
+      "body": "<p>The \"classic TDD\" response to this would be that you shouldn't unit test Guzzle at all. Guzzle is a third-party library which should be (and is) tested perfectly adequately by its own developer.</p>\n\n<p>What you need to test is whether your code correctly calls Guzzle, not whether Guzzle works when your code calls it.</p>\n\n<p>The way to do this is as follows:</p>\n\n<p>Rather than doing a <code>new Guzzle()</code> in your controller, you should instead pass a Guzzle object into your controller using dependency injection. Fortunately, Laravel makes this very easy; all you need to do is have a constructor method for your controller class, and have a Guzzle object defined as one of its arguments. Laravel will do the rest of creating the object and passing it in for you. Your constructor can then copy it to a class property so that your other methods can use it.</p>\n\n<p>Your class should now look something like this:</p>\n\n<pre><code>class Widgets extends Controller {\n    private $guzzle;\n    public function __construct(GuzzleHttp\\Client $guzzle)\n    {\n        $this-&gt;guzzle = $guzzle;\n    }\n\n    public function index(){\n        // Stuff\n\n        $url = \"api.example.com\";\n\n        $response = $this-&gt;guzzle-&gt;request('POST', $url, ['body' =&gt; array(...)]);\n\n        // More stuff\n    }\n}\n</code></pre>\n\n<p>Now your test should be a lot easier to write. You can pass a mock Guzzle object into your class when you test it.</p>\n\n<p>Now you can just watch your mock class to make sure that the calls to it match what the Guzzle API would expect to recieve in order to make the call.</p>\n\n<p>If the rest of your class depends on the output received from Guzzle then you can define that in your mock as well.</p>\n",
+      "owner": {
+        "display_name": "Simba",
+        "link": "https://stackoverflow.com/users/3913358/simba"
+      }
+    },
+    {
+      "answer_id": 32857508,
+      "body": "<p>After some more research on SO I tumbled head first into this post</p>\n\n<p><a href=\"https://stackoverflow.com/questions/30530172/guzzle-6-no-more-json-method-for-responses?rq=1\">Guzzle 6: no more json() method for responses</a></p>\n\n<p>Essentially doing the following will return the raw output.</p>\n\n<pre><code>return $response-&gt;getBody()-&gt;getContents();\n</code></pre>\n\n<p>Huge headache gone. Hope this helps someone</p>\n",
+      "owner": {
+        "display_name": "Dbrandt",
+        "link": "https://stackoverflow.com/users/1834866/dbrandt"
+      }
+    },
+    {
+      "answer_id": 32725534,
+      "body": "<p>As it is written in GuzzleHttp's documentation, if you pass absolute path to post/get/put, etc. it will override the current base url. So, if you prepend the absolute path it will get the job done. <a href=\"http://guzzle3.readthedocs.org/http-client/client.html#base-urls\" rel=\"noreferrer\">Check here, GuzzleHttp documentation</a></p>\n",
+      "owner": {
+        "display_name": "Konstantin Rachev",
+        "link": "https://stackoverflow.com/users/5362655/konstantin-rachev"
+      }
+    },
+    {
+      "answer_id": 32684940,
+      "body": "<p>You can use any logger which implements PSR-3 interface with Guzzle 6</p>\n\n<p>I used Monolog as logger and builtin middleware of Guzzle with MessageFormatter in below example.</p>\n\n<pre><code>use GuzzleHttp\\HandlerStack;\nuse GuzzleHttp\\Middleware;\nuse GuzzleHttp\\MessageFormatter;\nuse Monolog\\Logger;\n\n$stack = HandlerStack::create();\n$stack-&gt;push(\n    Middleware::log(\n        new Logger('Logger'),\n        new MessageFormatter('{req_body} - {res_body}')\n    )\n);\n$client = new \\GuzzleHttp\\Client(\n    [\n        'base_uri' =&gt; 'http://httpbin.org',\n        'handler' =&gt; $stack,\n    ]\n);\n\necho (string) $client-&gt;get('ip')-&gt;getBody();\n</code></pre>\n\n<p>The details about the log middleware and message formatter has not well documented yet. But you can <a href=\"https://github.com/guzzle/guzzle/blob/master/src/MessageFormatter.php#L12\">check the list</a> which variables you can use in MessageFormatter</p>\n\n<p>Also there is a <a href=\"https://github.com/rtheunissen/guzzle-log-middleware\">guzzle-logmiddleware</a> which allows you to customize formatter etc.  </p>\n",
+      "owner": {
+        "display_name": "velioglu",
+        "link": "https://stackoverflow.com/users/464708/velioglu"
+      }
+    },
+    {
+      "answer_id": 32569976,
+      "body": "<p>As per Guzzle documentation there is debug option, here is the link from guzzle documentation\n<a href=\"http://guzzle.readthedocs.org/en/latest/request-options.html#debug\" rel=\"noreferrer\">http://guzzle.readthedocs.org/en/latest/request-options.html#debug</a></p>\n\n<pre><code>$client-&gt;request('GET', '/get', ['debug' =&gt; true]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mohammed Safeer",
+        "link": "https://stackoverflow.com/users/2293686/mohammed-safeer"
+      }
+    },
+    {
+      "answer_id": 31791933,
+      "body": "<p>The <a href=\"https://github.com/guzzle/psr7/blob/master/src/Stream.php\" rel=\"noreferrer\"><strong>GuzzleHttp\\Psr7\\Stream</strong></a> implemtents the contract of <a href=\"http://www.php-fig.org/psr/psr-7/#3-4-psr-http-message-streaminterface\" rel=\"noreferrer\"><em>Psr\\Http\\Message\\StreamInterface</em></a> which has the following to offer to you:</p>\n\n<pre><code>/** @var $body GuzzleHttp\\Psr7\\Stream */\n$contents = (string) $body;\n</code></pre>\n\n<p>Casting the object to string will call the underlying <code>__toString()</code> method which is part of the interface. The <a href=\"https://stackoverflow.com/q/5172261/367456\">method name <em><code>__toString()</code></em> is special  in PHP</a>.</p>\n\n<p>As the implementation within <em>GuzzleHttp</em> \"missed\" to provide access to the actual stream handle, so you can't make use of PHP's stream functions which allows more \"stream-lined\" (<em>stream-like</em>) operations under circumstances,  like <code>stream_copy_to_stream</code>, <code>stream_get_contents</code> or <code>file_put_contents</code>. This might not be obvious on first sight.</p>\n",
+      "owner": {
+        "display_name": "hakre",
+        "link": "https://stackoverflow.com/users/367456/hakre"
+      }
+    },
+    {
+      "answer_id": 31752982,
+      "body": "<p>Here is the solution: </p>\n\n<pre><code>$client = new \\Guzzle\\Http\\Client();\n$request = $client-&gt;get($url);\n\n$request-&gt;getCurlOptions()-&gt;set(CURLOPT_SSL_VERIFYHOST, false);\n$request-&gt;getCurlOptions()-&gt;set(CURLOPT_SSL_VERIFYPEER, false);\n$request-&gt;getCurlOptions()-&gt;set(CURLOPT_RETURNTRANSFER, true);\n$request-&gt;getCurlOptions()-&gt;set(CURLOPT_FOLLOWLOCATION, true);\n$request-&gt;getCurlOptions()-&gt;set(CURLOPT_HTTPAUTH, CURLAUTH_BASIC);\n$request-&gt;getCurlOptions()-&gt;set(CURLOPT_USERPWD, \"$token:X\");\n\n$response = $request-&gt;send();\n</code></pre>\n",
+      "owner": {
+        "display_name": "a-am",
+        "link": "https://stackoverflow.com/users/317012/a-am"
+      }
+    },
+    {
+      "answer_id": 30753498,
+      "body": "<p>I ran into the same problem. You need to add your form_params to the <a href=\"http://guzzle.readthedocs.org/en/latest/request-options.html#multipart\" rel=\"noreferrer\">multipart</a> array. Where 'name' is the form element name and 'contents' is the value. The example code you supplied would become:</p>\n\n<pre><code>$response = $client-&gt;post('http://example.com/api', [\n    'multipart' =&gt; [\n        [\n            'name'     =&gt; 'image',\n            'contents' =&gt; fopen('/path/to/image', 'r')\n        ],\n        [\n            'name'     =&gt; 'name',\n            'contents' =&gt; 'Example name'\n        ]\n    ]\n]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Simon Crowfoot",
+        "link": "https://stackoverflow.com/users/4994356/simon-crowfoot"
+      }
+    },
+    {
+      "answer_id": 19599351,
+      "body": "<p>From the docs:\n<a href=\"http://guzzle3.readthedocs.org/http-client/client.html#sending-requests-in-parallel\">http://guzzle3.readthedocs.org/http-client/client.html#sending-requests-in-parallel</a></p>\n\n<p>For an easy to use solution that returns a hash of request objects mapping to a response or error, see <a href=\"http://guzzle3.readthedocs.org/batching/batching.html#batching\">http://guzzle3.readthedocs.org/batching/batching.html#batching</a></p>\n\n<p>Short example:</p>\n\n<pre><code>&lt;?php\n\n$client-&gt;send(array(\n    $client-&gt;get('http://www.example.com/foo'),\n    $client-&gt;get('http://www.example.com/baz'),\n    $client-&gt;get('http://www.example.com/bar')\n));\n</code></pre>\n",
+      "owner": {
+        "display_name": "Michael Dowling",
+        "link": "https://stackoverflow.com/users/151504/michael-dowling"
+      }
+    },
+    {
+      "answer_id": 31053244,
+      "body": "<p>You can add Basic Authentication header in Request as below</p>\n\n<pre><code>$headers = [\n    'Authorization: Basic '. base64_encode($this-&gt;username.':'.$this-&gt;password)\n];\n\n$myRequest = new Request(\n    'GET',\n    $url,\n    $headers\n);\n</code></pre>\n\n<p>I hope this Helps.</p>\n\n<p><strong>UPDATE</strong></p>\n\n<p>As @worps pointed out <code>header</code> needs to be a <code>key =&gt; value</code> pair. so final solution is like below, </p>\n\n<pre><code>$headers = [\n    'Authorization' =&gt; 'Basic '. base64_encode($this-&gt;username.':'.$this-&gt;password)\n];\n\n$myRequest = new Request(\n    'GET',\n     $url,\n     $headers\n);\n</code></pre>\n",
+      "owner": {
+        "display_name": "pinkal vansia",
+        "link": "https://stackoverflow.com/users/1606631/pinkal-vansia"
+      }
+    },
+    {
+      "answer_id": 19748271,
+      "body": "<h1>Guzzle 3.x</h1>\n\n<p>Per <a href=\"http://guzzle3.readthedocs.org/http-client/request.html#http-errors\">the docs</a>, you can catch the appropriate exception type (<code>ClientErrorResponseException</code> for 4xx errors) and call its <code>getResponse()</code> method to get the response object, then call <code>getBody()</code> on that:</p>\n\n<pre><code>use Guzzle\\Http\\Exception\\ClientErrorResponseException;\n\n...\n\ntry {\n    $response = $request-&gt;send();\n} catch (ClientErrorResponseException $exception) {\n    $responseBody = $exception-&gt;getResponse()-&gt;getBody(true);\n}\n</code></pre>\n\n<p>Passing <code>true</code> to the <a href=\"http://guzzle3.readthedocs.org/http-client/response.html#response-body\"><code>getBody</code></a> function indicates that you want to get the response body as a string. Otherwise you will get it as instance of class <code>Guzzle\\Http\\EntityBody</code>.</p>\n",
+      "owner": {
+        "display_name": "sebbo",
+        "link": "https://stackoverflow.com/users/2551894/sebbo"
+      }
+    },
+    {
+      "answer_id": 30536709,
+      "body": "<p>I use <code>json_decode($response-&gt;getBody())</code> now instead of <code>$response-&gt;json()</code>. </p>\n\n<p>I suspect this might be a casualty of PSR-7 compliance.</p>\n",
+      "owner": {
+        "display_name": "meriial",
+        "link": "https://stackoverflow.com/users/514784/meriial"
+      }
+    },
+    {
+      "answer_id": 29844316,
+      "body": "<p>I use that to inspect and debug my request payload</p>\n\n<p><code>$request-&gt;getBody()-&gt;read($request-&gt;getBody()-&gt;getSize())</code></p>\n",
+      "owner": {
+        "display_name": "guillaumepotier",
+        "link": "https://stackoverflow.com/users/404581/guillaumepotier"
+      }
+    },
+    {
+      "answer_id": 29722864,
+      "body": "<p>If you want to disable verification (<strong>don't do this!</strong>):</p>\n\n<pre><code>$response = $client-&gt;get('https://api.github.com/', ['verify' =&gt; false]);\n</code></pre>\n\n<p>Rather than disabling verification entirely, this can likely be fixed by providing proper CA bundle file. See <a href=\"http://guzzle.readthedocs.org/en/latest/clients.html#verify\" rel=\"noreferrer\"><code>verify</code></a> in Guzzle documentation.</p>\n\n<pre><code>$client-&gt;setDefaultOption(\n    'verify', \n    'C:\\Program Files (x86)\\Git\\bin\\curl-ca-bundle.crt'\n);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Limon Monte",
+        "link": "https://stackoverflow.com/users/1331425/limon-monte"
+      }
+    },
+    {
+      "answer_id": 28431296,
+      "body": "<p>I have the same problem. I found solution</p>\n\n<pre><code>public static function getGroupList($current=false) {\n$response = self::getRestClient()-&gt;get(\n    [\n        'domains/{domainId}/pricelists',\n        ['domainId' =&gt; self::getDomainId()]\n    ],\n    [\n        'query' =&gt; [\n        current =&gt; $current\n        ]\n    ]\n);\n\nreturn new RestResponse($response);\n</code></pre>\n\n<p>Try</p>\n\n<pre><code>$response = $client-&gt;get(\n        [\n            $config-&gt;Layout['server'],\n            []\n        ],\n        [\n            'query' =&gt; [\n                $config-&gt;Layout['switches'], // ([ '-db' =&gt; 'database', '-lay' =&gt; 'layout', '-find' =&gt; true)\n                $config-&gt;Layout['options'], // other params\n            ]\n        ]\n);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dariusz Andryskowski",
+        "link": "https://stackoverflow.com/users/4550315/dariusz-andryskowski"
+      }
+    },
+    {
+      "answer_id": 28221922,
+      "body": "<p>Ok .. the problem was that I was setting body and headers outside of defautls. the solution is:</p>\n\n<pre><code>$client = new GuzzleHttp\\Client([\n'base_url' =&gt; [$url, []],\n'defaults' =&gt; [\n     'auth' =&gt; [$publishable_key, ''],\n     'headers'  =&gt; ['content-type' =&gt; 'application/json', 'Accept' =&gt; 'application/json'],\n     'body' =&gt; json_encode($body),\n],\n]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Bug",
+        "link": "https://stackoverflow.com/users/994090/bug"
+      }
+    },
+    {
+      "answer_id": 27515053,
+      "body": "<p>The previous answer is for Guzzle 3. Guzzle 5 uses the following:</p>\n\n<pre><code>&lt;?php\n$body = GuzzleHttp\\Stream\\Stream::factory('some mocked content');\n$response = new Response(200, ['X-Foo' =&gt; 'Bar'], $body);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Michael Dowling",
+        "link": "https://stackoverflow.com/users/151504/michael-dowling"
+      }
+    },
+    {
+      "answer_id": 25982590,
+      "body": "<p>try like this:</p>\n\n<pre><code> $client = new Client();\n $response = $client-&gt;get($url, array(), array('cert' =&gt; $cert_file));\n</code></pre>\n\n<p>and for check add this line:</p>\n\n<pre><code> $this-&gt;assertEquals($cert_file, $request-&gt;getCurlOptions()-&gt;get(CURLOPT_SSLCERT));\n</code></pre>\n\n<p>or use this:</p>\n\n<pre><code> $client = new Client();\n $request = $client-&gt;createRequest('GET', $url);\n $request-&gt;getCurlOptions()-&gt;set(CURLOPT_SSLCERT, $cert_file);\n $response = $client-&gt;send($request);\n</code></pre>\n\n<p>if you use self singed certificate set this options :</p>\n\n<pre><code>$request-&gt;getCurlOptions()-&gt;set(CURLOPT_SSL_VERIFYHOST, false);\n$request-&gt;getCurlOptions()-&gt;set(CURLOPT_SSL_VERIFYPEER, false);\n</code></pre>\n\n<p>set this line before send request :</p>\n\n<pre><code>$request = $client-&gt;get( .... )\n.\n.\n.\n$request-&gt;setResponse(new Response(200), true);\n$request-&gt;send();\n</code></pre>\n\n<p>check your url and enter it compelete like this :</p>\n\n<pre><code>$url = 'https://example.com/index.php';\n</code></pre>\n\n<p>and you can add default options like your curl code :</p>\n\n<pre><code>$request-&gt;getCurlOptions()-&gt;set(CURLOPT_RETURNTRANSFER , true);\n$request-&gt;getCurlOptions()-&gt;set(CURLOPT_FOLLOWLOCATION , true);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Pouya Darabi",
+        "link": "https://stackoverflow.com/users/1422370/pouya-darabi"
+      }
+    },
+    {
+      "answer_id": 25120844,
+      "body": "<p><code>curl -F</code> submits a POST request instead of a GET request. So you'll need to modify your code accordingly, something like</p>\n\n<pre><code>$client = new \\GuzzleHttp\\Client();\n\n$response = $client-&gt;post('http://website.com/page/login/', [\n    'body' =&gt; [\n        'username' =&gt; $username,\n        'password' =&gt; $password,\n        'action' =&gt; 'login'\n    ],\n    'cookies' =&gt; true\n]\n);\n\n$xml = $response;\necho $xml;\n</code></pre>\n\n<p>See <a href=\"http://guzzle.readthedocs.org/en/latest/quickstart.html#post-requests\">http://guzzle.readthedocs.org/en/latest/quickstart.html#post-requests</a>, <a href=\"http://curl.haxx.se/docs/manpage.html#-F\">http://curl.haxx.se/docs/manpage.html#-F</a></p>\n\n<p>Edit:</p>\n\n<p>Just add <code>['cookies' =&gt; true]</code> to requests in order to use the auth cookie associated with this <code>GuzzleHttp\\Client()</code>. <a href=\"http://guzzle.readthedocs.org/en/latest/clients.html#cookies\">http://guzzle.readthedocs.org/en/latest/clients.html#cookies</a></p>\n\n<pre><code>$response2 = $client-&gt;get('http://website.com/otherpage/', ['cookies' =&gt; true]);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jeremiah Winsley",
+        "link": "https://stackoverflow.com/users/3794472/jeremiah-winsley"
+      }
+    },
+    {
+      "answer_id": 24964057,
+      "body": "<p>The namespace for guzzle 4 is <code>GuzzleHttp</code> in guzzle 3 the namespace was simply <code>Guzzle</code>.</p>\n\n<p>A <code>composer.json</code> of:</p>\n\n<pre><code>{\n    \"require\": {\n        \"guzzlehttp/guzzle\": \"~4\"\n    }\n}\n</code></pre>\n\n<p>Should allow you to run a php script of:</p>\n\n<pre><code>require 'vendor/autoload.php';\n\nuse GuzzleHttp\\Client;\n\n$client = new Client();\n\n$requests = Array(\n    $client-&gt;createRequest('GET', 'ams1.myapp.com:8080/api/ffmpeg_make_snapshots.php'),\n    $client-&gt;createRequest('GET', 'ams2.myapp.com:8080/api/ffmpeg_make_snapshots.php'),\n    $client-&gt;createRequest('GET', 'ams3.myapp.com:8080/api/ffmpeg_make_snapshots.php'),\n);\n\n$client-&gt;sendAll($requests);\n</code></pre>\n\n<p>If the autoloader still fails after changing the namespace it could be that your version of composer is out of date and does not recognize <code>PSR4</code> autoloading.  If there is no file in <code>vendor/composer/autoload_psr4.php</code> try doing a <code>composer self-update</code> followed by a <code>composer dump-autoload</code> to see if the problem is resolved.</p>\n",
+      "owner": {
+        "display_name": "Steve Buzonas",
+        "link": "https://stackoverflow.com/users/816584/steve-buzonas"
+      }
+    },
+    {
+      "answer_id": 24955921,
+      "body": "<p>There's no need to have the square brackets around the <code>body</code> value. Also, make sure there is an <code>Accept</code> header defined. You should use this instead:</p>\n\n<pre><code>$response = GuzzleHttp\\post('http://www.example.com:1234/rest/user/validat', [\n        'headers' =&gt; ['Content-Type' =&gt; 'application/json', 'Accept' =&gt; 'application/json'],\n        'body'    =&gt; '{\"email\":\"user@domain.com\", \"pwd\":\"xxxxxx\"}'\n]);     \nprint_r($response-&gt;json());\n</code></pre>\n",
+      "owner": {
+        "display_name": "lowerends",
+        "link": "https://stackoverflow.com/users/3855399/lowerends"
+      }
+    },
+    {
+      "answer_id": 24934334,
+      "body": "<blockquote>\n  <p><code>[curl] 60: SSL certificate problem: unable to get local issuer certificate</code></p>\n</blockquote>\n\n<p>Well, from the outside looking in, it looks like the server certificate is bad. It does not include the name \"googleapis.com\".</p>\n\n<p>First, fetch the certificate with <code>openssl s_client</code>:</p>\n\n<pre><code>openssl s_client -connect googleapis.com:443\n</code></pre>\n\n<p>Then save the certificate to a file. The certificate starts with <code>-----BEGIN CERTIFICATE-----</code> and ends with <code>-----END CERTIFICATE-----</code>.</p>\n\n<p>Next, print the certificate with <code>openssl x509</code> (shown below). Its missing <code>googleapis.com</code>.</p>\n\n<p>You probably need to accept the name mismatch, and pin the server's public key. Google rotates their certificates every 30 days or so to keep CRLs small for mobile clients. That means you can't pin the certificate. However, Google re-certifies the same public key, so key continuity schemes like public key pinning work.</p>\n\n<p>There's a smaller, second issue when using <code>openssl s_client</code>. <code>s_client</code> needs the option <code>CAfile</code> using <code>Google Internet Authority G2</code>. The missing CA is causing the error <code>unable to get local issuer certificate</code> below. You can download Google's CA file at <a href=\"https://pki.google.com/\" rel=\"noreferrer\">pki.google.com</a>.</p>\n\n<pre><code>$ openssl s_client -connect googleapis.com:443\nCONNECTED(00000003)\ndepth=2 C = US, O = GeoTrust Inc., CN = GeoTrust Global CA\nverify error:num=20:unable to get local issuer certificate\nverify return:0\n---\nCertificate chain\n 0 s:/C=US/ST=California/L=Mountain View/O=Google Inc/CN=google.com\n   i:/C=US/O=Google Inc/CN=Google Internet Authority G2\n 1 s:/C=US/O=Google Inc/CN=Google Internet Authority G2\n   i:/C=US/O=GeoTrust Inc./CN=GeoTrust Global CA\n 2 s:/C=US/O=GeoTrust Inc./CN=GeoTrust Global CA\n   i:/C=US/O=Equifax/OU=Equifax Secure Certificate Authority\n</code></pre>\n\n<p>You could also use <code>Equifax Secure Certificate Authority</code> as the root of trust because it appears Equifax cross-certified Google's CA.</p>\n\n<p>But the name mismatch is a deal breaker. That's the one thing an X509 certificate is supposed to do: bind a entity, like a server name or user, to a public key through a trusted authority. It does not matter who signed the broken certificate (I could have signed it).</p>\n\n<hr>\n\n<pre><code>$ openssl x509 -in googleapis-com.txt -inform PEM -text -noout \nCertificate:\n    Data:\n        Version: 3 (0x2)\n        Serial Number: 9106978240760957072 (0x7e627c7589c4c890)\n    Signature Algorithm: sha1WithRSAEncryption\n        Issuer: C=US, O=Google Inc, CN=Google Internet Authority G2\n        Validity\n            Not Before: Jul  2 13:04:27 2014 GMT\n            Not After : Sep 30 00:00:00 2014 GMT\n        Subject: C=US, ST=California, L=Mountain View, O=Google Inc, CN=google.com\n        Subject Public Key Info:\n            Public Key Algorithm: rsaEncryption\n                Public-Key: (2048 bit)\n                Modulus:\n                    00:ab:02:29:67:f1:08:cc:f0:5c:63:ff:75:b3:bd:\n                    41:62:c6:83:0c:3b:e6:1b:9a:41:0d:dc:5a:b3:34:\n                    db:a3:37:6f:4f:bf:f5:8a:01:39:6a:91:b7:d1:a6:\n                    83:6d:c6:28:60:79:c9:07:f2:ad:23:00:f2:31:74:\n                    b0:a3:d0:d6:ac:5a:f4:31:c8:98:9c:49:c6:20:0b:\n                    ce:81:2b:51:b6:54:0f:65:54:f2:b3:08:c9:c0:c8:\n                    ca:a6:ec:bb:fc:8e:a5:64:70:6b:dc:08:45:9c:14:\n                    cd:cd:aa:49:fd:e9:a5:f1:7d:c6:f8:5d:52:e8:d8:\n                    3d:21:81:46:49:ba:f7:bd:7d:07:42:31:cf:79:61:\n                    b1:47:2c:ba:ce:5a:cd:52:4a:5f:d2:b6:88:d0:a2:\n                    94:53:e2:65:d6:66:80:43:17:e1:2e:43:ab:ca:2f:\n                    79:e6:11:8b:4a:35:fa:e1:43:e3:49:66:5a:1f:e0:\n                    a3:1c:5e:1c:6e:aa:de:0d:ba:cb:20:e3:3d:9e:66:\n                    47:32:25:3c:01:22:b3:69:a6:96:0e:2e:13:c7:fd:\n                    70:c6:61:7e:a9:f0:ad:a4:a6:41:13:36:8c:46:74:\n                    c8:a5:ac:b0:b5:17:00:b8:0e:62:79:1a:fc:7e:7c:\n                    2b:f7:2e:c0:ab:07:fc:8e:46:3c:8f:f2:e5:6e:8f:\n                    83:17\n                Exponent: 65537 (0x10001)\n        X509v3 extensions:\n            X509v3 Extended Key Usage: \n                TLS Web Server Authentication, TLS Web Client Authentication\n            X509v3 Subject Alternative Name: \n\n                DNS:google.com, DNS:*.2mdn.net, DNS:*.android.com, DNS:*.appengine.google.com, \nDNS:*.au.doubleclick.net, DNS:*.cc-dt.com, DNS:*.cloud.google.com, DNS:*.de.doubleclick.net, \nDNS:*.doubleclick.com, DNS:*.doubleclick.net, DNS:*.fls.doubleclick.net, DNS:*.fr.doubleclick.net, \nDNS:*.google-analytics.com, DNS:*.google.ac, DNS:*.google.ad, DNS:*.google.ae, DNS:*.google.af, \nDNS:*.google.ag, DNS:*.google.al, DNS:*.google.am, DNS:*.google.as, DNS:*.google.at, \nDNS:*.google.az, DNS:*.google.ba, DNS:*.google.be, DNS:*.google.bf, DNS:*.google.bg, \nDNS:*.google.bi, DNS:*.google.bj, DNS:*.google.bs, DNS:*.google.bt, DNS:*.google.by, \nDNS:*.google.ca, DNS:*.google.cat, DNS:*.google.cc, DNS:*.google.cd, DNS:*.google.cf, \nDNS:*.google.cg, DNS:*.google.ch, DNS:*.google.ci, DNS:*.google.cl, DNS:*.google.cm, \nDNS:*.google.cn, DNS:*.google.co.ao, DNS:*.google.co.bw, DNS:*.google.co.ck, DNS:*.google.co.cr, \nDNS:*.google.co.hu, DNS:*.google.co.id, DNS:*.google.co.il, DNS:*.google.co.im, DNS:*.google.co.in, \nDNS:*.google.co.je, DNS:*.google.co.jp, DNS:*.google.co.ke, DNS:*.google.co.kr, DNS:*.google.co.ls, \nDNS:*.google.co.ma, DNS:*.google.co.mz, DNS:*.google.co.nz, DNS:*.google.co.th, DNS:*.google.co.tz, \nDNS:*.google.co.ug, DNS:*.google.co.uk, DNS:*.google.co.uz, DNS:*.google.co.ve, DNS:*.google.co.vi, \nDNS:*.google.co.za, DNS:*.google.co.zm, DNS:*.google.co.zw, DNS:*.google.com, DNS:*.google.com.af, \nDNS:*.google.com.ag, DNS:*.google.com.ai, DNS:*.google.com.ar, DNS:*.google.com.au, \nDNS:*.google.com.bd, DNS:*.google.com.bh, DNS:*.google.com.bn, DNS:*.google.com.bo, \nDNS:*.google.com.br, DNS:*.google.com.by, DNS:*.google.com.bz, DNS:*.google.com.cn, \nDNS:*.google.com.co, DNS:*.google.com.cu, DNS:*.google.com.cy, DNS:*.google.com.do, \nDNS:*.google.com.ec, DNS:*.google.com.eg, DNS:*.google.com.et, DNS:*.google.com.fj, \nDNS:*.google.com.ge, DNS:*.google.com.gh, DNS:*.google.com.gi, DNS:*.google.com.gr, \nDNS:*.google.com.gt, DNS:*.google.com.hk, DNS:*.google.com.iq, DNS:*.google.com.jm, \nDNS:*.google.com.jo, DNS:*.google.com.kh, DNS:*.google.com.kw, DNS:*.google.com.lb, \nDNS:*.google.com.ly, DNS:*.google.com.mm, DNS:*.google.com.mt, DNS:*.google.com.mx, \nDNS:*.google.com.my, DNS:*.google.com.na, DNS:*.google.com.nf, DNS:*.google.com.ng, \nDNS:*.google.com.ni, DNS:*.google.com.np, DNS:*.google.com.nr, DNS:*.google.com.om, \nDNS:*.google.com.pa, DNS:*.google.com.pe, DNS:*.google.com.pg, DNS:*.google.com.ph, \nDNS:*.google.com.pk, DNS:*.google.com.pl, DNS:*.google.com.pr, DNS:*.google.com.py, \nDNS:*.google.com.qa, DNS:*.google.com.ru, DNS:*.google.com.sa, DNS:*.google.com.sb, \nDNS:*.google.com.sg, DNS:*.google.com.sl, DNS:*.google.com.sv, DNS:*.google.com.tj, \nDNS:*.google.com.tn, DNS:*.google.com.tr, DNS:*.google.com.tw, DNS:*.google.com.ua, \nDNS:*.google.com.uy, DNS:*.google.com.vc, DNS:*.google.com.ve, DNS:*.google.com.vn, DNS:*.google.cv, \nDNS:*.google.cz, DNS:*.google.de, DNS:*.google.dj, DNS:*.google.dk, DNS:*.google.dm, \nDNS:*.google.dz, DNS:*.google.ee, DNS:*.google.es, DNS:*.google.fi, DNS:*.google.fm, \nDNS:*.google.fr, DNS:*.google.ga, DNS:*.google.ge, DNS:*.google.gg, DNS:*.google.gl, \nDNS:*.google.gm, DNS:*.google.gp, DNS:*.google.gr, DNS:*.google.gy, DNS:*.google.hk, \nDNS:*.google.hn, DNS:*.google.hr, DNS:*.google.ht, DNS:*.google.hu, DNS:*.google.ie, \nDNS:*.google.im, DNS:*.google.info, DNS:*.google.iq, DNS:*.google.ir, DNS:*.google.is, \nDNS:*.google.it, DNS:*.google.it.ao, DNS:*.google.je, DNS:*.google.jo, DNS:*.google.jobs, \nDNS:*.google.jp, DNS:*.google.kg, DNS:*.google.ki, DNS:*.google.kz, DNS:*.google.la, \nDNS:*.google.li, DNS:*.google.lk, DNS:*.google.lt, DNS:*.google.lu, DNS:*.google.lv, \nDNS:*.google.md, DNS:*.google.me, DNS:*.google.mg, DNS:*.google.mk, DNS:*.google.ml, \nDNS:*.google.mn, DNS:*.google.ms, DNS:*.google.mu, DNS:*.google.mv, DNS:*.google.mw, \nDNS:*.google.ne, DNS:*.google.ne.jp, DNS:*.google.net, DNS:*.google.ng, DNS:*.google.nl, \nDNS:*.google.no, DNS:*.google.nr, DNS:*.google.nu, DNS:*.google.off.ai, DNS:*.google.pk, \nDNS:*.google.pl, DNS:*.google.pn, DNS:*.google.ps, DNS:*.google.pt, DNS:*.google.ro, \nDNS:*.google.rs, DNS:*.google.ru, DNS:*.google.rw, DNS:*.google.sc, DNS:*.google.se, \nDNS:*.google.sh, DNS:*.google.si, DNS:*.google.sk, DNS:*.google.sm, DNS:*.google.sn, \nDNS:*.google.so, DNS:*.google.sr, DNS:*.google.st, DNS:*.google.td, DNS:*.google.tg, \nDNS:*.google.tk, DNS:*.google.tl, DNS:*.google.tm, DNS:*.google.tn, DNS:*.google.to, \nDNS:*.google.tt, DNS:*.google.us, DNS:*.google.uz, DNS:*.google.vg, DNS:*.google.vu, \nDNS:*.google.ws, DNS:*.googleapis.cn, DNS:*.googlecommerce.com, DNS:*.googlevideo.com, \nDNS:*.gstatic.com, DNS:*.gvt1.com, DNS:*.jp.doubleclick.net, DNS:*.metric.gstatic.com, \nDNS:*.uk.doubleclick.net, DNS:*.urchin.com, DNS:*.url.google.com, DNS:*.youtube-nocookie.com, \nDNS:*.youtube.com, DNS:*.youtubeeducation.com, DNS:*.ytimg.com, DNS:ad.mo.doubleclick.net, \nDNS:android.com, DNS:doubleclick.net, DNS:g.co, DNS:goo.gl, DNS:google-analytics.com, DNS:google.ac, \nDNS:google.ad, DNS:google.ae, DNS:google.af, DNS:google.ag, DNS:google.al, DNS:google.am, \nDNS:google.as, DNS:google.at, DNS:google.az, DNS:google.ba, DNS:google.be, DNS:google.bf, \nDNS:google.bg, DNS:google.bi, DNS:google.bj, DNS:google.bs, DNS:google.bt, DNS:google.by, \nDNS:google.ca, DNS:google.cat, DNS:google.cc, DNS:google.cd, DNS:google.cf, DNS:google.cg, \nDNS:google.ch, DNS:google.ci, DNS:google.cl, DNS:google.cm, DNS:google.cn, DNS:google.co.ao, \nDNS:google.co.bw, DNS:google.co.ck, DNS:google.co.cr, DNS:google.co.hu, DNS:google.co.id, \nDNS:google.co.il, DNS:google.co.im, DNS:google.co.in, DNS:google.co.je, DNS:google.co.jp, \nDNS:google.co.ke, DNS:google.co.kr, DNS:google.co.ls, DNS:google.co.ma, DNS:google.co.mz, \nDNS:google.co.nz, DNS:google.co.th, DNS:google.co.tz, DNS:google.co.ug, DNS:google.co.uk, \nDNS:google.co.uz, DNS:google.co.ve, DNS:google.co.vi, DNS:google.co.za, DNS:google.co.zm, \nDNS:google.co.zw, DNS:google.com.af, DNS:google.com.ag, DNS:google.com.ai, DNS:google.com.ar, \nDNS:google.com.au, DNS:google.com.bd, DNS:google.com.bh, DNS:google.com.bn, DNS:google.com.bo, \nDNS:google.com.br, DNS:google.com.by, DNS:google.com.bz, DNS:google.com.cn, DNS:google.com.co, \nDNS:google.com.cu, DNS:google.com.cy, DNS:google.com.do, DNS:google.com.ec, DNS:google.com.eg, \nDNS:google.com.et, DNS:google.com.fj, DNS:google.com.ge, DNS:google.com.gh, DNS:google.com.gi, \nDNS:google.com.gr, DNS:google.com.gt, DNS:google.com.hk, DNS:google.com.iq, DNS:google.com.jm, \nDNS:google.com.jo, DNS:google.com.kh, DNS:google.com.kw, DNS:google.com.lb, DNS:google.com.ly, \nDNS:google.com.mm, DNS:google.com.mt, DNS:google.com.mx, DNS:google.com.my, DNS:google.com.na, \nDNS:google.com.nf, DNS:google.com.ng, DNS:google.com.ni, DNS:google.com.np, DNS:google.com.nr, \nDNS:google.com.om, DNS:google.com.pa, DNS:google.com.pe, DNS:google.com.pg, DNS:google.com.ph, \nDNS:google.com.pk, DNS:google.com.pl, DNS:google.com.pr, DNS:google.com.py, DNS:google.com.qa, \nDNS:google.com.ru, DNS:google.com.sa, DNS:google.com.sb, DNS:google.com.sg, DNS:google.com.sl, \nDNS:google.com.sv, DNS:google.com.tj, DNS:google.com.tn, DNS:google.com.tr, DNS:google.com.tw, \nDNS:google.com.ua, DNS:google.com.uy, DNS:google.com.vc, DNS:google.com.ve, DNS:google.com.vn, \nDNS:google.cv, DNS:google.cz, DNS:google.de, DNS:google.dj, DNS:google.dk, DNS:google.dm, \nDNS:google.dz, DNS:google.ee, DNS:google.es, DNS:google.fi, DNS:google.fm, DNS:google.fr, \nDNS:google.ga, DNS:google.ge, DNS:google.gg, DNS:google.gl, DNS:google.gm, DNS:google.gp, \nDNS:google.gr, DNS:google.gy, DNS:google.hk, DNS:google.hn, DNS:google.hr, DNS:google.ht, \nDNS:google.hu, DNS:google.ie, DNS:google.im, DNS:google.info, DNS:google.iq, DNS:google.ir, \nDNS:google.is, DNS:google.it, DNS:google.it.ao, DNS:google.je, DNS:google.jo, DNS:google.jobs, \nDNS:google.jp, DNS:google.kg, DNS:google.ki, DNS:google.kz, DNS:google.la, DNS:google.li, \nDNS:google.lk, DNS:google.lt, DNS:google.lu, DNS:google.lv, DNS:google.md, DNS:google.me, \nDNS:google.mg, DNS:google.mk, DNS:google.ml, DNS:google.mn, DNS:google.ms, DNS:google.mu, \nDNS:google.mv, DNS:google.mw, DNS:google.ne, DNS:google.ne.jp, DNS:google.net, DNS:google.ng, \nDNS:google.nl, DNS:google.no, DNS:google.nr, DNS:google.nu, DNS:google.off.ai, DNS:google.pk, \nDNS:google.pl, DNS:google.pn, DNS:google.ps, DNS:google.pt, DNS:google.ro, DNS:google.rs, \nDNS:google.ru, DNS:google.rw, DNS:google.sc, DNS:google.se, DNS:google.sh, DNS:google.si, \nDNS:google.sk, DNS:google.sm, DNS:google.sn, DNS:google.so, DNS:google.sr, DNS:google.st, \nDNS:google.td, DNS:google.tg, DNS:google.tk, DNS:google.tl, DNS:google.tm, DNS:google.tn, \nDNS:google.to, DNS:google.tt, DNS:google.us, DNS:google.uz, DNS:google.vg, DNS:google.vu, \nDNS:google.ws, DNS:googlecommerce.com, DNS:gstatic.com, DNS:urchin.com, DNS:youtu.be, \nDNS:youtube.com, DNS:youtubeeducation.com\n            Authority Information Access: \n                CA Issuers - URI:http://pki.google.com/GIAG2.crt\n                OCSP - URI:http://clients1.google.com/ocsp\n\n            X509v3 Subject Key Identifier: \n                71:D7:BB:09:DE:42:EB:E5:E0:75:3D:49:64:97:E5:9A:8D:6E:C3:8E\n            X509v3 Basic Constraints: critical\n                CA:FALSE\n            X509v3 Authority Key Identifier: \n                keyid:4A:DD:06:16:1B:BC:F6:68:B5:76:F5:81:B6:BB:62:1A:BA:5A:81:2F\n\n            X509v3 Certificate Policies: \n                Policy: 1.3.6.1.4.1.11129.2.5.1\n\n            X509v3 CRL Distribution Points: \n\n                Full Name:\n                  URI:http://pki.google.com/GIAG2.crl\n\n    Signature Algorithm: sha1WithRSAEncryption\n         8f:f3:ec:dd:ca:45:d2:20:12:40:cd:ce:72:10:42:b5:ac:4b:\n         8c:45:15:15:d7:9f:fb:01:e7:84:63:c6:41:b4:93:8b:79:ab:\n         51:56:b9:3f:07:74:5b:c7:38:ad:f0:ee:97:53:3b:f8:2d:bc:\n         94:23:ca:2e:1f:0c:5b:21:82:ae:b8:0f:55:43:1a:58:8f:4d:\n         25:0a:80:32:a6:c9:ff:3f:43:f5:1f:39:63:9f:a6:82:20:b4:\n         74:d4:e1:ef:e0:f9:92:c5:63:b6:e2:61:e4:e7:4e:c7:a3:dd:\n         44:1b:32:e0:06:7f:84:b6:45:20:57:6a:71:07:c2:54:b0:69:\n         9c:a2:f6:3f:5f:52:ca:9e:ba:77:b3:0b:4f:2a:b7:14:ca:c9:\n         7a:6c:f3:ce:2b:aa:c1:0d:ea:33:8f:e6:39:24:83:84:dc:3c:\n         ac:f0:83:2e:98:9f:2f:54:de:c4:c5:b0:05:a3:e3:ca:a5:13:\n         9c:28:ba:6b:e9:ee:e0:10:41:4a:d7:78:cd:60:0f:79:0f:0a:\n         e3:76:46:ce:7a:b4:84:1b:07:91:21:83:23:17:7a:77:e8:32:\n         3b:14:7c:3a:a8:fb:d6:c2:bf:18:4a:ad:d7:c1:d6:30:cd:67:\n         b4:8f:7d:27:43:97:b8:12:9d:0b:7e:ae:de:27:83:fa:89:29:\n         d9:be:e4:43\n</code></pre>\n",
+      "owner": {
+        "display_name": "jww",
+        "link": "https://stackoverflow.com/users/608639/jww"
+      }
+    },
+    {
+      "answer_id": 22725530,
+      "body": "<p>You don't need to add Guzzle to your composer.json, it's already autoloaded by it's own composer.json.</p>\n<h2>Guzzle 4</h2>\n<h3>PHP 5.4.x+ required</h3>\n<pre><code>composer require &quot;guzzlehttp/guzzle&quot; &quot;~4.0&quot;\n</code></pre>\n<p>Create a client:</p>\n<pre><code>$client = new \\GuzzleHttp\\Client();\n</code></pre>\n<p>Get results:</p>\n<pre><code>$response = $client-&gt;get('http://api.github.com/users/antonioribeiro');\n\ndd($response-&gt;getBody());\n</code></pre>\n<h2>Guzzle 3</h2>\n<p>Install it:</p>\n<pre><code>composer require &quot;guzzle/guzzle&quot; &quot;~3.0&quot;\n</code></pre>\n<p>Create a client setting the base URL:</p>\n<pre><code>$client = new \\Guzzle\\Service\\Client('http://api.github.com/users/');\n</code></pre>\n<p>Get your response:</p>\n<pre><code>$username = 'antonioribeiro';\n\n$response = $client-&gt;get(&quot;users/$username&quot;)-&gt;send();\n</code></pre>\n<p>And display it:</p>\n<pre><code>dd($response);\n</code></pre>\n<p>If you still don't get it running, check the file <code>vendor/composer/autoload_psr4.php</code>, Guzzle must appear in it. If it doesn't, remove your vendor folder and install it again:</p>\n<pre><code>rm -rf vendor\nrm composer.lock\ncomposer install\n</code></pre>\n",
+      "owner": {
+        "display_name": "Antonio Ribeiro",
+        "link": "https://stackoverflow.com/users/1959747/antonio-ribeiro"
+      }
+    },
+    {
+      "answer_id": 16947245,
+      "body": "<p>Your code can be simplified a great deal. My example code below will stream the body of the response directly to the filesystem.</p>\n\n<pre><code>&lt;?php\n\nfunction copyRemote($fromUrl, $toFile) {\n    try {\n        $client = new Guzzle\\Http\\Client();\n        $response = $client-&gt;get($fromUrl)\n            -&gt;setAuth('login', 'password') // in case your resource is under protection\n            -&gt;setResponseBody($toFile)\n            -&gt;send();\n        return true;\n    } catch (Exception $e) {\n        // Log the error or something\n        return false;\n    }\n}\n</code></pre>\n\n<blockquote>\n  <p>When I do this my mime type is set to application/x-empty</p>\n</blockquote>\n\n<p>A filesystem mimetype?</p>\n\n<blockquote>\n  <p>Also it looks like when status is different from 200 Guzzle will automatically throw an exception. How can I stop this behaviour and check status myself so I can custom error message?</p>\n</blockquote>\n\n<p>Guzzle will throw an exception for bad responses like 4xx and 5xx. No need to disable this. Just catch an exception and deal with the error there.</p>\n",
+      "owner": {
+        "display_name": "Michael Dowling",
+        "link": "https://stackoverflow.com/users/151504/michael-dowling"
+      }
+    },
+    {
+      "answer_id": 21829926,
+      "body": "<p>Actually this exception can be catched in Laravel, you just have to respect (and understand)  namespacing:</p>\n\n<p>If you have </p>\n\n<pre><code>namespace App;\n</code></pre>\n\n<p>and you do </p>\n\n<pre><code>catch (Guzzle\\Http\\Exception\\BadResponseException $e) \n</code></pre>\n\n<p>PHP understands that you are trying to </p>\n\n<pre><code>catch (\\App\\Guzzle\\Http\\Exception\\BadResponseException $e) \n</code></pre>\n\n<p>So, for it to work you just need a root slash:</p>\n\n<pre><code>catch (\\Guzzle\\Http\\Exception\\BadResponseException $e) \n</code></pre>\n\n<p>And it will work.</p>\n",
+      "owner": {
+        "display_name": "Antonio Ribeiro",
+        "link": "https://stackoverflow.com/users/1959747/antonio-ribeiro"
+      }
+    },
+    {
+      "answer_id": 18793542,
+      "body": "<p>The issue is actually with symfony/browser-kit and symfony/domcrawler. The browserkit's <code>Client</code> <a href=\"https://github.com/symfony/symfony/blob/42f4b6db7b56a27fa8eba7e164f9258a653c0258/src/Symfony/Component/BrowserKit/Client.php#L343\">does not examine the HTML meta tags</a> to determine the charset, content-type header only. When the response body is handed over to the domcrawler, it is <a href=\"https://github.com/symfony/symfony/blob/42f4b6db7b56a27fa8eba7e164f9258a653c0258/src/Symfony/Component/DomCrawler/Crawler.php#L140-L147\">treated</a> as <a href=\"https://github.com/symfony/symfony/blob/42f4b6db7b56a27fa8eba7e164f9258a653c0258/src/Symfony/Component/DomCrawler/Crawler.php#L105-L111\">the default charset ISO-8859-1</a>. After examining the meta tags that decision should be reverted and the DomDocument rebuilt, but that never happens.</p>\n\n<p>The easy workaround is to wrap <code>$crawler-&gt;text()</code> with <code>utf8_decode()</code>:</p>\n\n<pre><code>$text = utf8_decode($crawler-&gt;text());\n</code></pre>\n\n<p>This works if the input is UTF-8. I suppose for other encodings something similar can be achieved with <a href=\"http://php.net/manual/en/function.iconv.php\"><code>iconv()</code></a> or so. However, you have to remember to do that every time you call <code>text()</code>.</p>\n\n<p>A more generic approach is to make the Domcrawler believe that it deals with UTF-8. To that end I've come up with a Guzzle plugin that overwrites (or adds) the charset in the content-type response header. You can find it at <a href=\"https://gist.github.com/pschultz/6554265\">https://gist.github.com/pschultz/6554265</a>. Usage is like this:</p>\n\n<pre><code>&lt;?php\n\nuse Goutte\\Client;\n\n\n$plugin = new ForceCharsetPlugin();\n$plugin-&gt;setForcedCharset('utf-8');\n\n$client = new Client();\n$client-&gt;getClient()-&gt;addSubscriber($plugin);\n$crawler = $client-&gt;request('get', $url);\n\necho $crawler-&gt;text();\n</code></pre>\n",
+      "owner": {
+        "display_name": "Peter",
+        "link": "https://stackoverflow.com/users/603316/peter"
+      }
+    },
+    {
+      "answer_id": 17658431,
+      "body": "<p>If the Exception is being thrown in that <code>try</code> block then at worst case scenario <code>Exception</code> should be catching anything uncaught.</p>\n\n<p>Consider that the first part of the test is throwing the Exception and wrap that in the <code>try</code> block as well.</p>\n",
+      "owner": {
+        "display_name": "user2584140",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 16813250,
+      "body": "<p>Seems to be an known issue with cURL itself: </p>\n\n<p><a href=\"https://stackoverflow.com/questions/12553842/using-curl-in-php-to-post-text-data-starting-with\">Using CURL in PHP to post text data starting with &quot;@&quot;</a></p>\n\n<p>One solution would be to use the percent encoding and '@' symbols would be '%40', even though that needs some extra work.</p>\n\n<p>Also see <a href=\"http://bugs.php.net/bug.php?id=50060\" rel=\"nofollow noreferrer\">this</a> thread.</p>\n",
+      "owner": {
+        "display_name": "Samson",
+        "link": "https://stackoverflow.com/users/971459/samson"
+      }
+    }
+  ]
+}

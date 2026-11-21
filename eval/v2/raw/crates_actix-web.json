@@ -1,0 +1,1908 @@
+{
+  "library": "crates:actix-web",
+  "fetched_at": "2026-11-21T17:28:22Z",
+  "questions": [
+    {
+      "question_id": 58473606,
+      "title": "Cache Rust dependencies with Docker build",
+      "accepted_answer_id": 58474618,
+      "score": 65,
+      "link": "https://stackoverflow.com/questions/58473606/cache-rust-dependencies-with-docker-build",
+      "owner": {
+        "display_name": "Arek C.",
+        "link": "https://stackoverflow.com/users/10364449/arek-c"
+      }
+    },
+    {
+      "question_id": 62269278,
+      "title": "How can I make protected routes in actix-web",
+      "accepted_answer_id": 65785300,
+      "score": 38,
+      "link": "https://stackoverflow.com/questions/62269278/how-can-i-make-protected-routes-in-actix-web",
+      "owner": {
+        "display_name": "Karol",
+        "link": "https://stackoverflow.com/users/11731092/karol"
+      }
+    },
+    {
+      "question_id": 58599539,
+      "title": "Cannot borrow in a Rc as mutable",
+      "accepted_answer_id": 58599995,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/58599539/cannot-borrow-in-a-rc-as-mutable",
+      "owner": {
+        "display_name": "Andrea Mucci",
+        "link": "https://stackoverflow.com/users/1745729/andrea-mucci"
+      }
+    },
+    {
+      "question_id": 57976096,
+      "title": "How do I resolve &quot;implementation of serde::Deserialize is not general enough&quot; with actix-web&#39;s Json type?",
+      "accepted_answer_id": 57977257,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/57976096/how-do-i-resolve-implementation-of-serdedeserialize-is-not-general-enough-wi",
+      "owner": {
+        "display_name": "thesdev",
+        "link": "https://stackoverflow.com/users/6676654/thesdev"
+      }
+    },
+    {
+      "question_id": 71886453,
+      "title": "error &quot;/lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33&#39; not found&quot;",
+      "accepted_answer_id": 71887982,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/71886453/error-lib-x86-64-linux-gnu-libc-so-6-version-glibc-2-33-not-found",
+      "owner": {
+        "display_name": "Jahadul Rakib",
+        "link": "https://stackoverflow.com/users/14117478/jahadul-rakib"
+      }
+    },
+    {
+      "question_id": 73255421,
+      "title": "Actix Web: Requested application data is not configured correctly. View/enable debug logs for more details",
+      "accepted_answer_id": 73255782,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/73255421/actix-web-requested-application-data-is-not-configured-correctly-view-enable-d",
+      "owner": {
+        "display_name": "Tobias S.",
+        "link": "https://stackoverflow.com/users/8613630/tobias-s"
+      }
+    },
+    {
+      "question_id": 59351973,
+      "title": "How do I configure actix-web to accept CORS requests from any origin?",
+      "accepted_answer_id": 59352069,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/59351973/how-do-i-configure-actix-web-to-accept-cors-requests-from-any-origin",
+      "owner": {
+        "display_name": "Bopsi",
+        "link": "https://stackoverflow.com/users/4558302/bopsi"
+      }
+    },
+    {
+      "question_id": 64434912,
+      "title": "How to correctly call async functions in a WebSocket handler in Actix-web",
+      "accepted_answer_id": 64576921,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/64434912/how-to-correctly-call-async-functions-in-a-websocket-handler-in-actix-web",
+      "owner": {
+        "display_name": "Saad Attieh",
+        "link": "https://stackoverflow.com/users/1875850/saad-attieh"
+      }
+    },
+    {
+      "question_id": 72732296,
+      "title": "Error: proc macro `main` not expanded: Cannot create expander for",
+      "accepted_answer_id": 72732978,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/72732296/error-proc-macro-main-not-expanded-cannot-create-expander-for",
+      "owner": {
+        "display_name": "Roman Mahotskyi",
+        "link": "https://stackoverflow.com/users/7291317/roman-mahotskyi"
+      }
+    },
+    {
+      "question_id": 65645622,
+      "title": "How do I pass a trait as application data to Actix Web?",
+      "accepted_answer_id": 65646165,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/65645622/how-do-i-pass-a-trait-as-application-data-to-actix-web",
+      "owner": {
+        "display_name": "Oskar Persson",
+        "link": "https://stackoverflow.com/users/1523238/oskar-persson"
+      }
+    },
+    {
+      "question_id": 58766267,
+      "title": "Should diesel be run using a sync actor, actix_web::web::block or futures-cpupool?",
+      "accepted_answer_id": 58768893,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/58766267/should-diesel-be-run-using-a-sync-actor-actix-webwebblock-or-futures-cpupoo",
+      "owner": {
+        "display_name": "logina",
+        "link": "https://stackoverflow.com/users/12343090/logina"
+      }
+    },
+    {
+      "question_id": 66300243,
+      "title": "Why do I get &quot;System is not running&quot; error after upgrading actix-rt to 2.0.2?",
+      "accepted_answer_id": 66334156,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/66300243/why-do-i-get-system-is-not-running-error-after-upgrading-actix-rt-to-2-0-2",
+      "owner": {
+        "display_name": "Marcus Ruddick",
+        "link": "https://stackoverflow.com/users/3901400/marcus-ruddick"
+      }
+    },
+    {
+      "question_id": 62372448,
+      "title": "How to run a callback function on actix-web server start?",
+      "accepted_answer_id": 62372962,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/62372448/how-to-run-a-callback-function-on-actix-web-server-start",
+      "owner": {
+        "display_name": "high incompetance",
+        "link": "https://stackoverflow.com/users/6772899/high-incompetance"
+      }
+    },
+    {
+      "question_id": 66989780,
+      "title": "How to retrieve the IP address of the client from HttpRequest in actix-web?",
+      "accepted_answer_id": 66990054,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/66989780/how-to-retrieve-the-ip-address-of-the-client-from-httprequest-in-actix-web",
+      "owner": {
+        "display_name": "captain-yossarian from Ukraine",
+        "link": "https://stackoverflow.com/users/8495254/captain-yossarian-from-ukraine"
+      }
+    },
+    {
+      "question_id": 59772857,
+      "title": "How to pass many params to rust actix_web route",
+      "accepted_answer_id": 59773073,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/59772857/how-to-pass-many-params-to-rust-actix-web-route",
+      "owner": {
+        "display_name": "Piotr Płaczek",
+        "link": "https://stackoverflow.com/users/9018487/piotr-p%c5%82aczek"
+      }
+    },
+    {
+      "question_id": 68729449,
+      "title": "How to log all requests in Actix-Web?",
+      "accepted_answer_id": 68734912,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/68729449/how-to-log-all-requests-in-actix-web",
+      "owner": {
+        "display_name": "Allan K",
+        "link": "https://stackoverflow.com/users/2050158/allan-k"
+      }
+    },
+    {
+      "question_id": 65787479,
+      "title": "use of undeclared crate or module, &quot;use crate_name::schema::posts&quot; doesn&#39;t always work",
+      "accepted_answer_id": 65789099,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/65787479/use-of-undeclared-crate-or-module-use-crate-nameschemaposts-doesnt-alway",
+      "owner": {
+        "display_name": "commonUser",
+        "link": "https://stackoverflow.com/users/2861867/commonuser"
+      }
+    },
+    {
+      "question_id": 57892819,
+      "title": "How to return an early response from an actix-web middleware?",
+      "accepted_answer_id": 58070229,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/57892819/how-to-return-an-early-response-from-an-actix-web-middleware",
+      "owner": {
+        "display_name": "ThinkPat",
+        "link": "https://stackoverflow.com/users/8291090/thinkpat"
+      }
+    },
+    {
+      "question_id": 63828267,
+      "title": "What is the mechanism for converting a function to a trait in Rust?",
+      "accepted_answer_id": 63828556,
+      "score": 11,
+      "link": "https://stackoverflow.com/questions/63828267/what-is-the-mechanism-for-converting-a-function-to-a-trait-in-rust",
+      "owner": {
+        "display_name": "dav_i",
+        "link": "https://stackoverflow.com/users/1185053/dav-i"
+      }
+    },
+    {
+      "question_id": 72748775,
+      "title": "Error: The trait `Handler&lt;_&gt;` is not implemented for `fn() -&gt; HttpResponse",
+      "accepted_answer_id": 72749958,
+      "score": 10,
+      "link": "https://stackoverflow.com/questions/72748775/error-the-trait-handler-is-not-implemented-for-fn-httpresponse",
+      "owner": {
+        "display_name": "Xavi Font",
+        "link": "https://stackoverflow.com/users/13808207/xavi-font"
+      }
+    },
+    {
+      "question_id": 67811502,
+      "title": "Rust actix-web: the trait `Handler&lt;_, _&gt;` is not implemented",
+      "accepted_answer_id": 67815871,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/67811502/rust-actix-web-the-trait-handler-is-not-implemented",
+      "owner": {
+        "display_name": "ilmoi",
+        "link": "https://stackoverflow.com/users/6782615/ilmoi"
+      }
+    },
+    {
+      "question_id": 64693182,
+      "title": "Rust: expected type, found opaque type",
+      "accepted_answer_id": 64696253,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/64693182/rust-expected-type-found-opaque-type",
+      "owner": {
+        "display_name": "Djent",
+        "link": "https://stackoverflow.com/users/855472/djent"
+      }
+    },
+    {
+      "question_id": 59642576,
+      "title": "Run multiple actix app on different ports",
+      "accepted_answer_id": 59644846,
+      "score": 9,
+      "link": "https://stackoverflow.com/questions/59642576/run-multiple-actix-app-on-different-ports",
+      "owner": {
+        "display_name": "Etienne Prothon",
+        "link": "https://stackoverflow.com/users/5269531/etienne-prothon"
+      }
+    },
+    {
+      "question_id": 64291039,
+      "title": "How to return the error description in a invalid JSON request body to the client in Rust?",
+      "accepted_answer_id": 64295653,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/64291039/how-to-return-the-error-description-in-a-invalid-json-request-body-to-the-client",
+      "owner": {
+        "display_name": "azzamsa",
+        "link": "https://stackoverflow.com/users/6000005/azzamsa"
+      }
+    },
+    {
+      "question_id": 64026629,
+      "title": "Actix-Web: Run service every 10 seconds",
+      "accepted_answer_id": 64028451,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/64026629/actix-web-run-service-every-10-seconds",
+      "owner": {
+        "display_name": "Samuel Dressel",
+        "link": "https://stackoverflow.com/users/11378334/samuel-dressel"
+      }
+    },
+    {
+      "question_id": 59276996,
+      "title": "Why does my shared actix-web state sometimes reset back to the original value?",
+      "accepted_answer_id": 59521179,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/59276996/why-does-my-shared-actix-web-state-sometimes-reset-back-to-the-original-value",
+      "owner": {
+        "display_name": "HelloWorld",
+        "link": "https://stackoverflow.com/users/8448348/helloworld"
+      }
+    },
+    {
+      "question_id": 56117273,
+      "title": "Actix-Web reports &quot;App data is not configured&quot; when processing a file upload",
+      "accepted_answer_id": 56373912,
+      "score": 8,
+      "link": "https://stackoverflow.com/questions/56117273/actix-web-reports-app-data-is-not-configured-when-processing-a-file-upload",
+      "owner": {
+        "display_name": "Samuel Dressel",
+        "link": "https://stackoverflow.com/users/11378334/samuel-dressel"
+      }
+    },
+    {
+      "question_id": 66119865,
+      "title": "How do I use actix-web 3 and rusoto 0.46 together?",
+      "accepted_answer_id": 66120852,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/66119865/how-do-i-use-actix-web-3-and-rusoto-0-46-together",
+      "owner": {
+        "display_name": "Matt Roberts",
+        "link": "https://stackoverflow.com/users/970736/matt-roberts"
+      }
+    },
+    {
+      "question_id": 63673447,
+      "title": "How can I pass structs from an Actix middleware to the handler?",
+      "accepted_answer_id": 68114475,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/63673447/how-can-i-pass-structs-from-an-actix-middleware-to-the-handler",
+      "owner": {
+        "display_name": "Rob123",
+        "link": "https://stackoverflow.com/users/8500995/rob123"
+      }
+    },
+    {
+      "question_id": 62670069,
+      "title": "How to get Cookie from Request in Actix 2.0",
+      "accepted_answer_id": 62671921,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/62670069/how-to-get-cookie-from-request-in-actix-2-0",
+      "owner": {
+        "display_name": "SaltyAom",
+        "link": "https://stackoverflow.com/users/13844890/saltyaom"
+      }
+    },
+    {
+      "question_id": 60441600,
+      "title": "Cannot use UUID as a primary key: Uuid: diesel::Expression is not satisfied",
+      "accepted_answer_id": 60848415,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/60441600/cannot-use-uuid-as-a-primary-key-uuid-dieselexpression-is-not-satisfied",
+      "owner": {
+        "display_name": "Ayush Singh",
+        "link": "https://stackoverflow.com/users/5400847/ayush-singh"
+      }
+    },
+    {
+      "question_id": 60309300,
+      "title": "How to use routes attributes macros for multiple methods in Actix-Web",
+      "accepted_answer_id": 65550910,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/60309300/how-to-use-routes-attributes-macros-for-multiple-methods-in-actix-web",
+      "owner": {
+        "display_name": "mattgathu",
+        "link": "https://stackoverflow.com/users/3078304/mattgathu"
+      }
+    },
+    {
+      "question_id": 57870379,
+      "title": "How to read a request&#39;s body in an actix-web 1.0 middleware?",
+      "accepted_answer_id": 57890157,
+      "score": 7,
+      "link": "https://stackoverflow.com/questions/57870379/how-to-read-a-requests-body-in-an-actix-web-1-0-middleware",
+      "owner": {
+        "display_name": "svenstaro",
+        "link": "https://stackoverflow.com/users/161775/svenstaro"
+      }
+    },
+    {
+      "question_id": 75386470,
+      "title": "Running an actix web server on a separate thread",
+      "accepted_answer_id": 75387575,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/75386470/running-an-actix-web-server-on-a-separate-thread",
+      "owner": {
+        "display_name": "14159",
+        "link": "https://stackoverflow.com/users/5559035/14159"
+      }
+    },
+    {
+      "question_id": 65550182,
+      "title": "Actix Web is not handling post request?",
+      "accepted_answer_id": 65550747,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/65550182/actix-web-is-not-handling-post-request",
+      "owner": {
+        "display_name": "Alchemist",
+        "link": "https://stackoverflow.com/users/10921521/alchemist"
+      }
+    },
+    {
+      "question_id": 60405947,
+      "title": "actix_web middleware ErrorHandlers return error message in ServiceResponse",
+      "accepted_answer_id": 60425490,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/60405947/actix-web-middleware-errorhandlers-return-error-message-in-serviceresponse",
+      "owner": {
+        "display_name": "rpascal",
+        "link": "https://stackoverflow.com/users/4717937/rpascal"
+      }
+    },
+    {
+      "question_id": 58484319,
+      "title": "How to get (binary) payload from actix_web::HttpRequest",
+      "accepted_answer_id": 58485638,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/58484319/how-to-get-binary-payload-from-actix-webhttprequest",
+      "owner": {
+        "display_name": "Piotr Płaczek",
+        "link": "https://stackoverflow.com/users/9018487/piotr-p%c5%82aczek"
+      }
+    },
+    {
+      "question_id": 57066292,
+      "title": "How to use pooling of database inside function using actix?",
+      "accepted_answer_id": 57122463,
+      "score": 6,
+      "link": "https://stackoverflow.com/questions/57066292/how-to-use-pooling-of-database-inside-function-using-actix",
+      "owner": {
+        "display_name": "Cliff Anger",
+        "link": "https://stackoverflow.com/users/11622790/cliff-anger"
+      }
+    },
+    {
+      "question_id": 58326137,
+      "title": "How can I fix &quot;AsyncFactory&lt;_, _&gt; is not implemented&quot; error in Actix-Web?",
+      "accepted_answer_id": 59001084,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/58326137/how-can-i-fix-asyncfactory-is-not-implemented-error-in-actix-web",
+      "owner": {
+        "display_name": "Rokit",
+        "link": "https://stackoverflow.com/users/996314/rokit"
+      }
+    },
+    {
+      "question_id": 68668229,
+      "title": "How to share reqwest clients in Actix-web server?",
+      "accepted_answer_id": 68669180,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/68668229/how-to-share-reqwest-clients-in-actix-web-server",
+      "owner": {
+        "display_name": "tamuhey",
+        "link": "https://stackoverflow.com/users/10051099/tamuhey"
+      }
+    },
+    {
+      "question_id": 56634370,
+      "title": "HTTP request inside actix-web handler -&gt; Multiple executors at once: EnterError",
+      "accepted_answer_id": 56681536,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/56634370/http-request-inside-actix-web-handler-multiple-executors-at-once-entererror",
+      "owner": {
+        "display_name": "Techradar",
+        "link": "https://stackoverflow.com/users/6360083/techradar"
+      }
+    },
+    {
+      "question_id": 76377499,
+      "title": "decltype, dyn, impl traits, and how to declare the return type of a function when refactoring",
+      "accepted_answer_id": 76377714,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/76377499/decltype-dyn-impl-traits-and-how-to-declare-the-return-type-of-a-function-whe",
+      "owner": {
+        "display_name": "lewis",
+        "link": "https://stackoverflow.com/users/6814658/lewis"
+      }
+    },
+    {
+      "question_id": 73098788,
+      "title": "&#39;Access-Control-Allow-Origin&#39; missing using actix-web",
+      "accepted_answer_id": 73100943,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/73098788/access-control-allow-origin-missing-using-actix-web",
+      "owner": {
+        "display_name": "Muhammad Najid",
+        "link": "https://stackoverflow.com/users/19306153/muhammad-najid"
+      }
+    },
+    {
+      "question_id": 63974092,
+      "title": "How to cache or memoize data in actix-web route?",
+      "accepted_answer_id": 63975843,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/63974092/how-to-cache-or-memoize-data-in-actix-web-route",
+      "owner": {
+        "display_name": "turtle",
+        "link": "https://stackoverflow.com/users/1255817/turtle"
+      }
+    },
+    {
+      "question_id": 63749269,
+      "title": "tokio-postgres and database query",
+      "accepted_answer_id": 63881070,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/63749269/tokio-postgres-and-database-query",
+      "owner": {
+        "display_name": "Mikhail Krivosheev",
+        "link": "https://stackoverflow.com/users/7078168/mikhail-krivosheev"
+      }
+    },
+    {
+      "question_id": 57457202,
+      "title": "How can I return a configured App in Actix-Web?",
+      "accepted_answer_id": 58053141,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/57457202/how-can-i-return-a-configured-app-in-actix-web",
+      "owner": {
+        "display_name": "jinreal",
+        "link": "https://stackoverflow.com/users/816109/jinreal"
+      }
+    },
+    {
+      "question_id": 57064126,
+      "title": "Catch GET &amp; POST requests from HTML page using actix-web",
+      "accepted_answer_id": 57064474,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/57064126/catch-get-post-requests-from-html-page-using-actix-web",
+      "owner": {
+        "display_name": "Cliff Anger",
+        "link": "https://stackoverflow.com/users/11622790/cliff-anger"
+      }
+    },
+    {
+      "question_id": 56146025,
+      "title": "Save File with original filename when using the actix-web-Framework to upload a File on a webserver in Rust",
+      "accepted_answer_id": 56201871,
+      "score": 5,
+      "link": "https://stackoverflow.com/questions/56146025/save-file-with-original-filename-when-using-the-actix-web-framework-to-upload-a",
+      "owner": {
+        "display_name": "Samuel Dressel",
+        "link": "https://stackoverflow.com/users/11378334/samuel-dressel"
+      }
+    },
+    {
+      "question_id": 57540455,
+      "title": "Error &quot;BlockingClientInFutureContext&quot; when trying to make a request from within an actix-web route handler function",
+      "accepted_answer_id": 57581649,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/57540455/error-blockingclientinfuturecontext-when-trying-to-make-a-request-from-within",
+      "owner": {
+        "display_name": "C14L",
+        "link": "https://stackoverflow.com/users/5520354/c14l"
+      }
+    },
+    {
+      "question_id": 75582355,
+      "title": "How to add a route to actix web only if external condition is met",
+      "accepted_answer_id": 75583104,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/75582355/how-to-add-a-route-to-actix-web-only-if-external-condition-is-met",
+      "owner": {
+        "display_name": "Markus",
+        "link": "https://stackoverflow.com/users/911790/markus"
+      }
+    },
+    {
+      "question_id": 74505207,
+      "title": "How to read HttpRequest body",
+      "accepted_answer_id": 74505807,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/74505207/how-to-read-httprequest-body",
+      "owner": {
+        "display_name": "Zerok",
+        "link": "https://stackoverflow.com/users/2903610/zerok"
+      }
+    },
+    {
+      "question_id": 72889851,
+      "title": "Cross-domain cookie is lost at refresh",
+      "accepted_answer_id": 72890222,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/72889851/cross-domain-cookie-is-lost-at-refresh",
+      "owner": {
+        "display_name": "Ershetz",
+        "link": "https://stackoverflow.com/users/10998388/ershetz"
+      }
+    },
+    {
+      "question_id": 71497831,
+      "title": "Is there a way to split server routes declaration in actix-web?",
+      "accepted_answer_id": 71498461,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/71497831/is-there-a-way-to-split-server-routes-declaration-in-actix-web",
+      "owner": {
+        "display_name": "nxyt",
+        "link": "https://stackoverflow.com/users/17735956/nxyt"
+      }
+    },
+    {
+      "question_id": 71483124,
+      "title": "Idiomatic way to handle errors with an early return in Rust",
+      "accepted_answer_id": 71483198,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/71483124/idiomatic-way-to-handle-errors-with-an-early-return-in-rust",
+      "owner": {
+        "display_name": "JamesGill",
+        "link": "https://stackoverflow.com/users/8924420/jamesgill"
+      }
+    },
+    {
+      "question_id": 71455275,
+      "title": "How to use actix-redis session in async-graphql resolvers",
+      "accepted_answer_id": 71615129,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/71455275/how-to-use-actix-redis-session-in-async-graphql-resolvers",
+      "owner": {
+        "display_name": "Oyelowo",
+        "link": "https://stackoverflow.com/users/11907087/oyelowo"
+      }
+    },
+    {
+      "question_id": 69833626,
+      "title": "How to use actix_web::client::Client in Actix-web 4.0",
+      "accepted_answer_id": 69833795,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/69833626/how-to-use-actix-webclientclient-in-actix-web-4-0",
+      "owner": {
+        "display_name": "Pamungkas Jayuda",
+        "link": "https://stackoverflow.com/users/4287229/pamungkas-jayuda"
+      }
+    },
+    {
+      "question_id": 68758767,
+      "title": "How to modify request data in actix-web middleware?",
+      "accepted_answer_id": 68822754,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/68758767/how-to-modify-request-data-in-actix-web-middleware",
+      "owner": {
+        "display_name": "Allan K",
+        "link": "https://stackoverflow.com/users/2050158/allan-k"
+      }
+    },
+    {
+      "question_id": 68360932,
+      "title": "Rust Sqlx handle INSERT ON CONFLICT",
+      "accepted_answer_id": 68464584,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/68360932/rust-sqlx-handle-insert-on-conflict",
+      "owner": {
+        "display_name": "Johann Esburgo",
+        "link": "https://stackoverflow.com/users/14306209/johann-esburgo"
+      }
+    },
+    {
+      "question_id": 64350894,
+      "title": "How can I set default options for query parameters in actix handler?",
+      "accepted_answer_id": 64351785,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/64350894/how-can-i-set-default-options-for-query-parameters-in-actix-handler",
+      "owner": {
+        "display_name": "LongHike",
+        "link": "https://stackoverflow.com/users/716568/longhike"
+      }
+    },
+    {
+      "question_id": 61472244,
+      "title": "the trait `std::convert::From&lt;mongodb::error::Error&gt;` is not implemented for `std::io::Error`",
+      "accepted_answer_id": 61473496,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/61472244/the-trait-stdconvertfrommongodberrorerror-is-not-implemented-for-st",
+      "owner": {
+        "display_name": "Niraj Gawande",
+        "link": "https://stackoverflow.com/users/7677739/niraj-gawande"
+      }
+    },
+    {
+      "question_id": 58618394,
+      "title": "How do you tackle the distinct tasks of logging HTTP requests and outputting trace and error messages deeper in your code?",
+      "accepted_answer_id": 58633515,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/58618394/how-do-you-tackle-the-distinct-tasks-of-logging-http-requests-and-outputting-tra",
+      "owner": {
+        "display_name": "Paul Chernoch",
+        "link": "https://stackoverflow.com/users/127251/paul-chernoch"
+      }
+    },
+    {
+      "question_id": 58436748,
+      "title": "How do I pass App data to service route handler function in actix-web when using function decorations?",
+      "accepted_answer_id": 58445960,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/58436748/how-do-i-pass-app-data-to-service-route-handler-function-in-actix-web-when-using",
+      "owner": {
+        "display_name": "Paul Chernoch",
+        "link": "https://stackoverflow.com/users/127251/paul-chernoch"
+      }
+    },
+    {
+      "question_id": 57963082,
+      "title": "&quot;Urlencoded payload size is bigger than allowed (default: 256kB)&quot;",
+      "accepted_answer_id": 57964802,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/57963082/urlencoded-payload-size-is-bigger-than-allowed-default-256kb",
+      "owner": {
+        "display_name": "Brian Leishman",
+        "link": "https://stackoverflow.com/users/728236/brian-leishman"
+      }
+    },
+    {
+      "question_id": 57785707,
+      "title": "How do I convert an async / standard library future to futures 0.1?",
+      "accepted_answer_id": 57801958,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/57785707/how-do-i-convert-an-async-standard-library-future-to-futures-0-1",
+      "owner": {
+        "display_name": "Mr.Wang from Next Door",
+        "link": "https://stackoverflow.com/users/325320/mr-wang-from-next-door"
+      }
+    },
+    {
+      "question_id": 57683515,
+      "title": "How to execute an async function in actix-web?",
+      "accepted_answer_id": 57701438,
+      "score": 4,
+      "link": "https://stackoverflow.com/questions/57683515/how-to-execute-an-async-function-in-actix-web",
+      "owner": {
+        "display_name": "Mr.Wang from Next Door",
+        "link": "https://stackoverflow.com/users/325320/mr-wang-from-next-door"
+      }
+    },
+    {
+      "question_id": 77367421,
+      "title": "How to effeciently Serve Large Files using Actix Web for Rust",
+      "accepted_answer_id": 77388183,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/77367421/how-to-effeciently-serve-large-files-using-actix-web-for-rust",
+      "owner": {
+        "display_name": "OddlyGhost",
+        "link": "https://stackoverflow.com/users/11172212/oddlyghost"
+      }
+    },
+    {
+      "question_id": 77141328,
+      "title": "What does `actix-web` use a provided `tokio` runtime for?",
+      "accepted_answer_id": 77144068,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/77141328/what-does-actix-web-use-a-provided-tokio-runtime-for",
+      "owner": {
+        "display_name": "Dreamer",
+        "link": "https://stackoverflow.com/users/3736861/dreamer"
+      }
+    },
+    {
+      "question_id": 76401029,
+      "title": "the trait `Clone` is not implemented for `actix_web::Scope`",
+      "accepted_answer_id": 76401292,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/76401029/the-trait-clone-is-not-implemented-for-actix-webscope",
+      "owner": {
+        "display_name": "javad bat",
+        "link": "https://stackoverflow.com/users/4488265/javad-bat"
+      }
+    },
+    {
+      "question_id": 75718400,
+      "title": "error[E0277]: the trait bound `FieldAttr: ToTokens` is not satisfied",
+      "accepted_answer_id": 75719917,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/75718400/errore0277-the-trait-bound-fieldattr-totokens-is-not-satisfied",
+      "owner": {
+        "display_name": "MrSmail",
+        "link": "https://stackoverflow.com/users/11686932/mrsmail"
+      }
+    },
+    {
+      "question_id": 75289729,
+      "title": "what is the correct way of implementing auth in actix_web?",
+      "accepted_answer_id": 75311227,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/75289729/what-is-the-correct-way-of-implementing-auth-in-actix-web",
+      "owner": {
+        "display_name": "dzCodes",
+        "link": "https://stackoverflow.com/users/7449110/dzcodes"
+      }
+    },
+    {
+      "question_id": 74867363,
+      "title": "actix: cannot start server service 0",
+      "accepted_answer_id": 74867364,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/74867363/actix-cannot-start-server-service-0",
+      "owner": {
+        "display_name": "Tristan F.-R.",
+        "link": "https://stackoverflow.com/users/7589775/tristan-f-r"
+      }
+    },
+    {
+      "question_id": 73737124,
+      "title": "How do you create an actix-web HttpServer with session-based authentication?",
+      "accepted_answer_id": 73737576,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/73737124/how-do-you-create-an-actix-web-httpserver-with-session-based-authentication",
+      "owner": {
+        "display_name": "piccoloser",
+        "link": "https://stackoverflow.com/users/14915698/piccoloser"
+      }
+    },
+    {
+      "question_id": 71473973,
+      "title": "Actix Actor calling an async function (HTTP get request)",
+      "accepted_answer_id": 71481681,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/71473973/actix-actor-calling-an-async-function-http-get-request",
+      "owner": {
+        "display_name": "Athanor",
+        "link": "https://stackoverflow.com/users/2058537/athanor"
+      }
+    },
+    {
+      "question_id": 71197359,
+      "title": "How do I configure app_data() for actix_web()",
+      "accepted_answer_id": 71428223,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/71197359/how-do-i-configure-app-data-for-actix-web",
+      "owner": {
+        "display_name": "Adam Kalinowski",
+        "link": "https://stackoverflow.com/users/13001784/adam-kalinowski"
+      }
+    },
+    {
+      "question_id": 68947277,
+      "title": "How can I launch a daemon in a websocket handler with actix-web?",
+      "accepted_answer_id": 68990233,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/68947277/how-can-i-launch-a-daemon-in-a-websocket-handler-with-actix-web",
+      "owner": {
+        "display_name": "vadersfather",
+        "link": "https://stackoverflow.com/users/3599414/vadersfather"
+      }
+    },
+    {
+      "question_id": 68543729,
+      "title": "&quot;there is no reactor running, must be called from the context of a Tokio 1.x runtime&quot; when using mongodb 2 with actix-web 3",
+      "accepted_answer_id": 68548210,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/68543729/there-is-no-reactor-running-must-be-called-from-the-context-of-a-tokio-1-x-run",
+      "owner": {
+        "display_name": "Kingfisher Phuoc",
+        "link": "https://stackoverflow.com/users/972671/kingfisher-phuoc"
+      }
+    },
+    {
+      "question_id": 68333173,
+      "title": "POST request using curl to Actix Server failing with &quot;400 Bad Request&quot;",
+      "accepted_answer_id": 68335583,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/68333173/post-request-using-curl-to-actix-server-failing-with-400-bad-request",
+      "owner": {
+        "display_name": "AMP_035",
+        "link": "https://stackoverflow.com/users/14752417/amp-035"
+      }
+    },
+    {
+      "question_id": 68170643,
+      "title": "How to get body of request as text with actix?",
+      "accepted_answer_id": 68170956,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/68170643/how-to-get-body-of-request-as-text-with-actix",
+      "owner": {
+        "display_name": "DungeonTiger",
+        "link": "https://stackoverflow.com/users/1293828/dungeontiger"
+      }
+    },
+    {
+      "question_id": 67939767,
+      "title": "Rust Actix-Web v4 creating a response with custom header",
+      "accepted_answer_id": 67940775,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/67939767/rust-actix-web-v4-creating-a-response-with-custom-header",
+      "owner": {
+        "display_name": "Johannes Maria Frank",
+        "link": "https://stackoverflow.com/users/1277977/johannes-maria-frank"
+      }
+    },
+    {
+      "question_id": 67298503,
+      "title": "How to set the status code of a response?",
+      "accepted_answer_id": 67299333,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/67298503/how-to-set-the-status-code-of-a-response",
+      "owner": {
+        "display_name": "Attilah",
+        "link": "https://stackoverflow.com/users/91607/attilah"
+      }
+    },
+    {
+      "question_id": 66231657,
+      "title": "How can I pass a json schema as data to actix web?",
+      "accepted_answer_id": 66303830,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/66231657/how-can-i-pass-a-json-schema-as-data-to-actix-web",
+      "owner": {
+        "display_name": "Matt Roberts",
+        "link": "https://stackoverflow.com/users/970736/matt-roberts"
+      }
+    },
+    {
+      "question_id": 65856184,
+      "title": "How to fix &quot;the trait Factory&lt;_, _, _&gt; is not implemented for {function}&quot; error in actix_web?",
+      "accepted_answer_id": 65866038,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/65856184/how-to-fix-the-trait-factory-is-not-implemented-for-function-error",
+      "owner": {
+        "display_name": "sudoExclamationExclamation",
+        "link": "https://stackoverflow.com/users/1634905/sudoexclamationexclamation"
+      }
+    },
+    {
+      "question_id": 65675602,
+      "title": "How do I turn invalid enum variants into None when used as query parameters in actix-web",
+      "accepted_answer_id": 65685829,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/65675602/how-do-i-turn-invalid-enum-variants-into-none-when-used-as-query-parameters-in-a",
+      "owner": {
+        "display_name": "Oskar Persson",
+        "link": "https://stackoverflow.com/users/1523238/oskar-persson"
+      }
+    },
+    {
+      "question_id": 64032247,
+      "title": "How can I get web::Data&lt;Pool&lt;MySql&gt;&gt; in actix-web 2.0 middleware?",
+      "accepted_answer_id": 64058241,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/64032247/how-can-i-get-webdatapoolmysql-in-actix-web-2-0-middleware",
+      "owner": {
+        "display_name": "Anunaki",
+        "link": "https://stackoverflow.com/users/13482951/anunaki"
+      }
+    },
+    {
+      "question_id": 62972342,
+      "title": "Using redis-rs with actix-web",
+      "accepted_answer_id": 63153702,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/62972342/using-redis-rs-with-actix-web",
+      "owner": {
+        "display_name": "Philipp Molitor",
+        "link": "https://stackoverflow.com/users/2502158/philipp-molitor"
+      }
+    },
+    {
+      "question_id": 60895982,
+      "title": "Serde deserialization of partial structs with actix_web",
+      "accepted_answer_id": 60896650,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/60895982/serde-deserialization-of-partial-structs-with-actix-web",
+      "owner": {
+        "display_name": "Sam Gomena",
+        "link": "https://stackoverflow.com/users/4668680/sam-gomena"
+      }
+    },
+    {
+      "question_id": 56846492,
+      "title": "Why does reading from a Rusoto S3 stream inside an Actix Web handler cause a deadlock?",
+      "accepted_answer_id": 56866791,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/56846492/why-does-reading-from-a-rusoto-s3-stream-inside-an-actix-web-handler-cause-a-dea",
+      "owner": {
+        "display_name": "Augusto",
+        "link": "https://stackoverflow.com/users/684562/augusto"
+      }
+    },
+    {
+      "question_id": 56659643,
+      "title": "Rust actix-web thread unsafe movement",
+      "accepted_answer_id": 56750700,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/56659643/rust-actix-web-thread-unsafe-movement",
+      "owner": {
+        "display_name": "CallMeNorm",
+        "link": "https://stackoverflow.com/users/1437652/callmenorm"
+      }
+    },
+    {
+      "question_id": 54298923,
+      "title": "Forward request body to response in Actix-Web",
+      "accepted_answer_id": 54303297,
+      "score": 3,
+      "link": "https://stackoverflow.com/questions/54298923/forward-request-body-to-response-in-actix-web",
+      "owner": {
+        "display_name": "David Tex",
+        "link": "https://stackoverflow.com/users/10903524/david-tex"
+      }
+    },
+    {
+      "question_id": 79458270,
+      "title": "I need a real struct after a web::Json deserialize",
+      "accepted_answer_id": 79458293,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/79458270/i-need-a-real-struct-after-a-webjson-deserialize",
+      "owner": {
+        "display_name": "Nacho B",
+        "link": "https://stackoverflow.com/users/594214/nacho-b"
+      }
+    },
+    {
+      "question_id": 76477527,
+      "title": "Rust cannot represent Postgres numeric type as BigDecimal type",
+      "accepted_answer_id": 76477579,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/76477527/rust-cannot-represent-postgres-numeric-type-as-bigdecimal-type",
+      "owner": {
+        "display_name": "Sharmiko",
+        "link": "https://stackoverflow.com/users/14681038/sharmiko"
+      }
+    },
+    {
+      "question_id": 75100628,
+      "title": "Implement actix_web::Responder trait on a custom structure",
+      "accepted_answer_id": 75105426,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/75100628/implement-actix-webresponder-trait-on-a-custom-structure",
+      "owner": {
+        "display_name": "Xobtah",
+        "link": "https://stackoverflow.com/users/5217010/xobtah"
+      }
+    },
+    {
+      "question_id": 73169494,
+      "title": "Statically deploy SvelteKit to Actix",
+      "accepted_answer_id": 73170109,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/73169494/statically-deploy-sveltekit-to-actix",
+      "owner": {
+        "display_name": "Brandon Kauffman",
+        "link": "https://stackoverflow.com/users/14256876/brandon-kauffman"
+      }
+    },
+    {
+      "question_id": 70631899,
+      "title": "What&#39;s the proper way to call a async function in another async function?",
+      "accepted_answer_id": 70632143,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/70631899/whats-the-proper-way-to-call-a-async-function-in-another-async-function",
+      "owner": {
+        "display_name": "sh1yu",
+        "link": "https://stackoverflow.com/users/17745619/sh1yu"
+      }
+    },
+    {
+      "question_id": 69794257,
+      "title": "How passing ScyllaDB connection in Rust Actix",
+      "accepted_answer_id": 69794518,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/69794257/how-passing-scylladb-connection-in-rust-actix",
+      "owner": {
+        "display_name": "Pamungkas Jayuda",
+        "link": "https://stackoverflow.com/users/4287229/pamungkas-jayuda"
+      }
+    },
+    {
+      "question_id": 67125073,
+      "title": "How to config payload limit for a actix websocket server",
+      "accepted_answer_id": 67135574,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/67125073/how-to-config-payload-limit-for-a-actix-websocket-server",
+      "owner": {
+        "display_name": "f91kdash",
+        "link": "https://stackoverflow.com/users/1762581/f91kdash"
+      }
+    },
+    {
+      "question_id": 66106706,
+      "title": "Get the app state in FromRequest implementation",
+      "accepted_answer_id": 66107666,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/66106706/get-the-app-state-in-fromrequest-implementation",
+      "owner": {
+        "display_name": "S&#233;bastien Besnier",
+        "link": "https://stackoverflow.com/users/15170789/s%c3%a9bastien-besnier"
+      }
+    },
+    {
+      "question_id": 65863107,
+      "title": "How to set &quot;expire&quot; or &quot;Cache-Control&quot; header when serving static files with actix-files?",
+      "accepted_answer_id": 65876263,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/65863107/how-to-set-expire-or-cache-control-header-when-serving-static-files-with-act",
+      "owner": {
+        "display_name": "Sergey",
+        "link": "https://stackoverflow.com/users/388427/sergey"
+      }
+    },
+    {
+      "question_id": 65466800,
+      "title": "actix pass appliction state with string",
+      "accepted_answer_id": 65466904,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/65466800/actix-pass-appliction-state-with-string",
+      "owner": {
+        "display_name": "Ace of Spade",
+        "link": "https://stackoverflow.com/users/7503033/ace-of-spade"
+      }
+    },
+    {
+      "question_id": 64624475,
+      "title": "How to use actix field stream by two consumers?",
+      "accepted_answer_id": 64634963,
+      "score": 2,
+      "link": "https://stackoverflow.com/questions/64624475/how-to-use-actix-field-stream-by-two-consumers",
+      "owner": {
+        "display_name": "Jonas Wolf",
+        "link": "https://stackoverflow.com/users/2516756/jonas-wolf"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 79458293,
+      "body": "<p>Use <a href=\"https://docs.rs/actix-web/4.9.0/actix_web/web/struct.Json.html#method.into_inner\" rel=\"nofollow noreferrer\"><code>.into_inner()</code></a>:</p>\n<pre><code>info.into_inner()\n</code></pre>\n<hr />\n<p>Or, <a href=\"https://docs.rs/actix-web/4.9.0/actix_web/web/struct.Json.html#method.into_inner\" rel=\"nofollow noreferrer\"><code>Json</code></a> is a tuple struct with public fields:</p>\n<pre><code>pub struct Json&lt;T&gt;(pub T);\n</code></pre>\n<p>So you can access the nested structure via the anonymous tuple field:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>async fn index(info: web::Json&lt;Info&gt;) -&gt; impl Responder {\n    format!(&quot;Welcome {}!&quot;, info.0)\n}\n</code></pre>\n<p>or by pattern matching:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>async fn index(Json(info): web::Json&lt;Info&gt;) -&gt; impl Responder {\n    format!(&quot;Welcome {}!&quot;, info)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "kmdreko",
+        "link": "https://stackoverflow.com/users/2189130/kmdreko"
+      }
+    },
+    {
+      "answer_id": 58474618,
+      "body": "<p>Seems like you are not alone in your endeavor to cache rust dependencies via the docker build process. <a href=\"https://web.archive.org/web/20221028051630/https://blog.mgattozzi.dev/caching-rust-docker-builds/\" rel=\"nofollow noreferrer\">Here is a great article</a> that helps you along the way.</p>\n<p>The gist of it is you need a <code>dummy.rs</code> and your <code>Cargo.toml</code> first, then build it to cache the dependencies and then copy your application source later in order to not invalidate the cache with every build.</p>\n<p><strong>Dockerfile</strong></p>\n<pre><code>FROM rust\nWORKDIR /var/www/app\nCOPY dummy.rs .\nCOPY Cargo.toml .\nRUN sed -i 's#src/main.rs#dummy.rs#' Cargo.toml\nRUN cargo build --release\nRUN sed -i 's#dummy.rs#src/main.rs#' Cargo.toml\nCOPY . .\nRUN cargo build --release\nCMD [&quot;target/release/app&quot;]\n</code></pre>\n<p>CMD application name &quot;app&quot; is based on what you have specified in your Cargo.toml for your binary.</p>\n<p><strong>dummy.rs</strong></p>\n<pre><code>fn main() {}\n</code></pre>\n<p><strong>Cargo.toml</strong></p>\n<pre><code>[package]\nname = &quot;app&quot;\nversion = &quot;0.1.0&quot;\nauthors = [&quot;...&quot;]\n[[bin]]\nname = &quot;app&quot;\npath = &quot;src/main.rs&quot;\n\n[dependencies]\nactix-web = &quot;1.0.0&quot;\n</code></pre>\n<p><strong>src/main.rs</strong></p>\n<pre><code>extern crate actix_web;\n\nuse actix_web::{web, App, HttpServer, Responder};\n\nfn index() -&gt; impl Responder {\n    &quot;Hello world&quot;\n}\n\nfn main() -&gt; std::io::Result&lt;()&gt; {\n    HttpServer::new(|| App::new().service(web::resource(&quot;/&quot;).to(index)))\n        .bind(&quot;0.0.0.0:8080&quot;)?\n        .run()\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "ckaserer",
+        "link": "https://stackoverflow.com/users/12153397/ckaserer"
+      }
+    },
+    {
+      "answer_id": 77388183,
+      "body": "<p>I went up with the idea provided by @Ross Rogers and used a Stream-based approach.</p>\n<p>I used the <code>async_stream</code> crate to use the <code>stream!()</code> macro to create a stream.\nThen I declared a vector called <code>chunk</code> which basically tells me how big should my chunk size be.</p>\n<p>Finally, I loop in and read the file with the declared chunk size and then finally yield them to create a stream</p>\n<p>Here is my code:</p>\n<pre><code>#[get(&quot;/api/v1/download/file.zip&quot;)]\npub async fn download_file_zip(req: HttpRequest, credential: BearerAuth) -&gt; impl Responder {\n\n   let file_path = &quot;path/to/file.zip&quot;;\n\n   debug!(&quot;File path was set to {}&quot;, file_path);\n\n if let Ok(mut file) = NamedFile::open(file_path.clone()) {\n\n     debug!(&quot;File was opened Successfully&quot;);\n\n      let my_data_stream = stream! {\n\n        let mut chunk = vec![0u8; 10 * 1024 *1024]; // I decalare the chunk size here as 10 mb \n\n        loop {\n\n            match file.read(&amp;mut chunk) {\n\n                Ok(n) =&gt; {\n                    if n == 0 {\n                        break;\n                    }\n\n                    info!(&quot;Read {} bytes from file&quot;, n);\n\n                    yield Result::&lt;Bytes, std::io::Error&gt;::Ok(Bytes::from(chunk[..n].to_vec())); // Yielding the chunk here\n\n                }\n\n                Err(e) =&gt; {\n\n                    error!(&quot;Error reading file: {}&quot;, e);\n                    yield Result::&lt;Bytes, std::io::Error&gt;::Err(e);\n                    break;\n                }\n            }\n        }\n    };\n\n    debug!(&quot;Sending response...&quot;);\n    HttpResponse::Ok()\n        .content_type(&quot;application/octet-stream&quot;)\n        .streaming(my_data_stream)  // Streaming my response here\n} else {\n    HttpResponse::NotFound().finish()\n  }\n}\n</code></pre>\n<p>I am accepting this as the solution for time being until I find some better way to implement</p>\n<p>Thank you again! @Ross Rogers</p>\n",
+      "owner": {
+        "display_name": "OddlyGhost",
+        "link": "https://stackoverflow.com/users/11172212/oddlyghost"
+      }
+    },
+    {
+      "answer_id": 77144068,
+      "body": "<p>The provided Tokio runtime is used to run the internal TCP server that listens for and accepts connections before the HTTP requests are parsed and processed on Actix Web's worker threads. See the <a href=\"https://crates.io/crates/actix-server\" rel=\"nofollow noreferrer\">actix-server</a> crate.</p>\n",
+      "owner": {
+        "display_name": "kmdreko",
+        "link": "https://stackoverflow.com/users/2189130/kmdreko"
+      }
+    },
+    {
+      "answer_id": 68114475,
+      "body": "<p>You can pass data from middleware (service) to handler via extensions.</p>\n<p>First of all you have to insert extension (in service).\nThe <code>HttpMessage</code> trait is implemented for <code>ServiceRequest</code> struct  and provides <code>extensions_mut()</code> function. It must be mutable because you will be inserting new extension.</p>\n<p>It might look something like this:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>req.extensions_mut().insert(user);\n</code></pre>\n<p>Then you have to implement <code>FromRequest</code> trait for your data structure.</p>\n<pre class=\"lang-rust prettyprint-override\"><code>impl FromRequest for User {\n    type Error = actix_web::Error;\n    type Future = futures::future::Ready&lt;Result&lt;Self, Self::Error&gt;&gt;;\n    type Config = ();\n\n    fn from_request(req: &amp;HttpRequest, payload: &amp;mut Payload) -&gt; Self::Future {\n        match req.extensions().get::&lt;User&gt;() {\n            Some(user) =&gt; return ok(user.clone()),\n            None =&gt; return err(actix_web::error::ErrorBadRequest(&quot;ups...&quot;))\n        };\n    }\n\n}\n</code></pre>\n<p>Then you're ready to use it in handler.</p>\n<pre class=\"lang-rust prettyprint-override\"><code>pub async fn get_user_handler(user: User) {}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Albert Klinkovsk&#253;",
+        "link": "https://stackoverflow.com/users/14127300/albert-klinkovsk%c3%bd"
+      }
+    },
+    {
+      "answer_id": 61473496,
+      "body": "<p><strong>Reasoning</strong></p>\n<p>It means that one of the functions you are calling with a <code>?</code> at the end can return a <code>mongodb::error::Error</code>. But the signature of the <code>main</code> is a <code>std::io::Result&lt;()&gt;</code>, which is an implied <code>Result&lt;(), std::io::Error&gt;</code>. The only error type it can accept is an io::Error, not a mongodb::Error.</p>\n<p>It looks like all the functions you are escaping might return this <code>mongodb::error::Error</code>, so you can try to change the main signature to such a result: <code>Result&lt;(). mongodb::error::Error&gt;</code>.\nBut I would recommend you do proper error handling on those potential errors, as this is your main().</p>\n<p><strong>Solution</strong></p>\n<p>Change those <code>?</code> to <code>.expect(&quot;Some error message&quot;);</code> at least. The program will still crash, but it will crash in a way that is <em>meaningful</em> to you.</p>\n",
+      "owner": {
+        "display_name": "LotB",
+        "link": "https://stackoverflow.com/users/11811572/lotb"
+      }
+    },
+    {
+      "answer_id": 76477579,
+      "body": "<p>You need to match the version of <code>bigdecimal</code> that sqlx uses (for sqlx 0.6.3, that would be bigdecimal 0.3.0).</p>\n<p>It's actually a <a href=\"https://crates.io/crates/sqlx-core/0.6.3/dependencies\" rel=\"nofollow noreferrer\">dependency of <code>sqlx_core</code></a></p>\n",
+      "owner": {
+        "display_name": "PitaJ",
+        "link": "https://stackoverflow.com/users/847382/pitaj"
+      }
+    },
+    {
+      "answer_id": 76401292,
+      "body": "<p>You just have to move the <code>comment_scope</code> declaration into <code>new</code> closure:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>HttpServer::new(move || {\n      \n        let comment_scope = web::scope(&quot;/comments&quot;)\n        .service(delete_comment)\n        .service(update_comment)\n        .service(get_comments)\n        .service(create_comment);\n\n        App::new()\n            .service(comment_scope)\n    })\n    .bind((&quot;127.0.0.1&quot;, 8080))?\n    .run()\n    .await\n</code></pre>\n",
+      "owner": {
+        "display_name": "javad bat",
+        "link": "https://stackoverflow.com/users/4488265/javad-bat"
+      }
+    },
+    {
+      "answer_id": 76377714,
+      "body": "<p>The ideal solution would be to do <code>impl Fn(...) -&gt; impl Future&lt;...&gt;</code>, but using <code>impl</code> twice like this is <a href=\"https://github.com/rust-lang/rust/issues/99697\" rel=\"nofollow noreferrer\">currently not allowed</a>. There is a workaround that is mentioned in <a href=\"https://github.com/rust-lang/rust/pull/93082\" rel=\"nofollow noreferrer\">another thread</a> that works for this. This will hopefully be solved by either fully allowing it or by <a href=\"https://doc.rust-lang.org/unstable-book/language-features/type-alias-impl-trait.html\" rel=\"nofollow noreferrer\"><code>type_alias_impl_trait</code></a> in the future. For now, you can work around it by creating a new trait. <a href=\"https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2021&amp;gist=10bdc3c47c80b32d4bbb287e1363d821\" rel=\"nofollow noreferrer\">(playground)</a></p>\n<pre class=\"lang-rs prettyprint-override\"><code>pub trait BearerFuture: Fn(ServiceRequest, BearerAuth) -&gt; Self::Fut {\n    type Fut: Future&lt;Output = Result&lt;ServiceRequest, (Error, ServiceRequest)&gt;&gt;;\n}\n\nimpl&lt;F, Fut&gt; BearerFuture for F\nwhere\n    F: Fn(ServiceRequest, BearerAuth) -&gt; Fut,\n    Fut: Future&lt;Output = Result&lt;ServiceRequest, (Error, ServiceRequest)&gt;&gt;,\n{\n    type Fut = Fut;\n}\n\npub fn create_auth_middleware_5() -&gt; HttpAuthentication&lt;BearerAuth, impl BearerFuture&gt; {\n    HttpAuthentication::bearer(validate_bearer)\n}\n</code></pre>\n<p>There's some nightly features which make these easier. Since these haven't entered stabilization, they are at a minimum 12 weeks from being in stable (1.70 releases today), and will likely take 6 months or more. I would expect <code>type_alias_impl_trait</code> to be released first, with high likelihood of being released eventually, since it is incredibly useful for <code>async</code> code and seems to cover the uses of <code>impl_trait_in_fn_trait_return</code>. I mention these mostly for future readers or those already using nightly. Others should use the new trait method.</p>\n<p>With <code>type_alias_impl_trait</code>, you could do this. <a href=\"https://play.rust-lang.org/?version=nightly&amp;mode=debug&amp;edition=2021&amp;gist=4957325a9e5e145a8ba4e3f60a2b2e2f\" rel=\"nofollow noreferrer\">(playground)</a></p>\n<pre class=\"lang-rs prettyprint-override\"><code>#![feature(type_alias_impl_trait)]\n\ntype BearerFn = impl Fn(ServiceRequest, BearerAuth) -&gt; BearerFuture;\ntype BearerFuture = impl Future&lt;Output = Result&lt;ServiceRequest, (Error, ServiceRequest)&gt;&gt;;\n\npub fn create_auth_middleware_5() -&gt; HttpAuthentication&lt;BearerAuth, BearerFn&gt; {\n    HttpAuthentication::bearer(validate_bearer)\n}\n</code></pre>\n<p>And with <code>impl_trait_in_fn_trait_return</code> you could create this ugly mess. <a href=\"https://play.rust-lang.org/?version=nightly&amp;mode=debug&amp;edition=2021&amp;gist=22d3d21556cdc77c8a926edc54fc2cdf\" rel=\"nofollow noreferrer\">(playground)</a></p>\n<pre class=\"lang-rs prettyprint-override\"><code>#![feature(impl_trait_in_fn_trait_return)]\n\npub fn create_auth_middleware_5() -&gt; HttpAuthentication&lt;\n    BearerAuth,\n    impl Fn(\n        ServiceRequest,\n        BearerAuth,\n    ) -&gt; impl Future&lt;Output = Result&lt;ServiceRequest, (Error, ServiceRequest)&gt;&gt;,\n&gt; {\n    HttpAuthentication::bearer(validate_bearer)\n}\n</code></pre>\n<p>Note: You will almost never use the <code>fn</code> type in rust. You'll usually use one of the <a href=\"https://doc.rust-lang.org/std/ops/trait.Fn.html\" rel=\"nofollow noreferrer\"><code>Fn</code>/<code>FnMut</code>/<code>FnOnce</code></a> traits.</p>\n",
+      "owner": {
+        "display_name": "drewtato",
+        "link": "https://stackoverflow.com/users/6274355/drewtato"
+      }
+    },
+    {
+      "answer_id": 58053141,
+      "body": "<p>First, <code>App</code> takes two generic type arguments, <a href=\"https://docs.rs/actix-web/2.0.0-alpha.2/actix_web/struct.App.html\" rel=\"noreferrer\"><code>App&lt;AppEntry, Body&gt;</code></a>, you've only given one.</p>\n<p>Second, <code>AppState</code> is not <code>AppEntry</code>.</p>\n<p>Third, instantiating <code>App</code> outside actix-web is hard, if not impossible, as the types you need from actix-web are not public.</p>\n<p>Instead, you should use <a href=\"https://actix.rs/docs/application/#configure\" rel=\"noreferrer\">configure</a> to achieve the same, here is a simplified example:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use actix_web::web::{Data, ServiceConfig};\nuse actix_web::{web, App, HttpResponse, HttpServer};\n\nfn main() {\n    let db = String::from(&quot;simplified example&quot;);\n\n    HttpServer::new(move || App::new().configure(config_app(db.clone())))\n        .bind(&quot;127.0.0.1:3000&quot;)\n        .expect(&quot;Can not bind to '127.0.0.1:3000'&quot;)\n        .run()\n        .unwrap();\n}\n\nfn config_app(db: String) -&gt; Box&lt;dyn Fn(&amp;mut ServiceConfig)&gt; {\n    Box::new(move |cfg: &amp;mut ServiceConfig| {\n        cfg.app_data(db.clone())\n            .service(web::resource(&quot;/notes&quot;).route(web::get().to(notes)));\n    })\n}\n\nfn notes(db: Data&lt;String&gt;) -&gt; HttpResponse {\n    HttpResponse::Ok().body([&quot;notes from &quot;, &amp;db].concat())\n}\n</code></pre>\n<p>Read more about <code>ServiceConfig</code> in the <a href=\"https://docs.rs/actix-web/1.0.7/actix_web/web/struct.ServiceConfig.html\" rel=\"noreferrer\">api documentation</a>.</p>\n",
+      "owner": {
+        "display_name": "arve0",
+        "link": "https://stackoverflow.com/users/2597447/arve0"
+      }
+    },
+    {
+      "answer_id": 75719917,
+      "body": "<p>I think this is happening due to a breaking change in &quot;quote&quot;\n<a href=\"https://github.com/diesel-rs/diesel/issues/3541\" rel=\"nofollow noreferrer\">issue link</a></p>\n",
+      "owner": {
+        "display_name": "user3580598",
+        "link": "https://stackoverflow.com/users/3580598/user3580598"
+      }
+    },
+    {
+      "answer_id": 75583104,
+      "body": "<p>Since <code>route</code> not just consumes <code>self</code> but also returns it, you can re-assign it to <code>app</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>let mut app = App::new()\n    .app_data(server_data.clone())\n    .route(&quot;/shoobidoo&quot;, web::get().to(handlers::shoobidoo_handler));\n\nif let Some(login_path) = &amp;config.login_path {\n    app = app.route(login_path, web::get().to(handlers::login));\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Chayim Friedman",
+        "link": "https://stackoverflow.com/users/7884305/chayim-friedman"
+      }
+    },
+    {
+      "answer_id": 75387575,
+      "body": "<p>There are a couple of things wrong with your code; the biggest one being that you never <code>.await</code> the <code>run()</code> method.</p>\n<p>For that fact alone you cannot run it in a normal thread, it has to exist in an async task.</p>\n<p>So what happens is:</p>\n<ul>\n<li>you create the server</li>\n<li>the server never runs because it doesn't get <code>await</code>ed</li>\n<li>you query the server for a response</li>\n<li>the response never comes because the server doesn't run, so you get stuck in <code>reqwest::get</code></li>\n</ul>\n<p>What you should do instead:</p>\n<ul>\n<li>start the server.</li>\n</ul>\n<p>Also:</p>\n<ul>\n<li>You don't need to propagate the server object out to stop it. You can create a <code>.handle()</code> <strong>first</strong> before you move it into the task. The server handle does not contain a reference to the server, it's based on smart pointers instead.</li>\n<li><strong>NEVER</strong> use synchronous channels with async tasks. It will block the runtime, dead-locking everything. (The only reason it worked in your second example is because it is most likely a multi-threaded runtime and you only dead-locked one of the runtime cores. Still bad.)</li>\n<li>(Maybe) don't <code>tokio::spawn</code> if you use <code>#[actix_web::main]</code>. <code>actix-web</code> has its own runtime, you need to <code>actix_web::rt::spawn</code> with it. If you want to use <code>tokio</code> based tasks, you need to do <code>#[tokio::main]</code>. <code>actix-web</code> is compatible with the tokio runtime. (<strong>EDIT</strong>: actix-web <em>might</em> be compatible with <code>tokio::spawn()</code>, I just didn't find documentation anywhere that says it is)</li>\n</ul>\n<p>With all that fixed, here is a working version:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use actix_web::{rt, web, App, HttpResponse, HttpServer};\n\n#[actix_web::main]\nasync fn main() {\n    let srv = HttpServer::new(|| App::new().default_service(web::to(|| HttpResponse::NotFound())))\n        .bind(&quot;localhost:12347&quot;)\n        .unwrap()\n        .run();\n    let srv_handle = srv.handle();\n\n    rt::spawn(srv);\n\n    let response = reqwest::get(&quot;http://localhost:12347&quot;).await.unwrap();\n    println!(&quot;Response code: {:?}&quot;, response.status());\n\n    srv_handle.stop(false).await;\n}\n</code></pre>\n<pre><code>Response code: 404\n</code></pre>\n",
+      "owner": {
+        "display_name": "Finomnis",
+        "link": "https://stackoverflow.com/users/2902833/finomnis"
+      }
+    },
+    {
+      "answer_id": 71483198,
+      "body": "<p>If you can, use <code>?</code>:</p>\n<pre><code>let value = func_that_could_error()?;\n</code></pre>\n<p>Optionally mapping it to your error as @Jmb suggests:</p>\n<pre><code>let value = func_that_could_error()\n    .map_err(|_| HttpResponse::InternalServerError())?;\n</code></pre>\n<p>Otherwise, use <code>let else</code>:</p>\n<pre><code>let Ok(value) = func_that_could_error() else {\n    return HttpResponse::InternalServerError();\n};\n</code></pre>\n<p>Or, for Rust &lt; 1.65, <code>match</code>:</p>\n<pre><code>let value = match func_that_could_error() {\n    Err(_) =&gt; return HttpResponse::InternalServerError(),\n    Ok(v) =&gt; v,\n};\n</code></pre>\n",
+      "owner": {
+        "display_name": "Acorn",
+        "link": "https://stackoverflow.com/users/9305398/acorn"
+      }
+    },
+    {
+      "answer_id": 75311227,
+      "body": "<p>Ok so I feel little dumb but the answer is - you (or I) don't need the <code>extract</code> function. Only <code>from_request</code> is required.</p>\n<p>So solution is, move the code from <code>extract</code> function to <code>from_request</code>, omit <code>extract</code>, and don't set anything on the request:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>impl FromRequest for CustomClaim {\n    type Error = actix_web::Error;\n    type Future = std::pin::Pin&lt;Box&lt;dyn std::future::Future&lt;Output = Result&lt;Self, Self::Error&gt;&gt;&gt;&gt;;\n\n    fn from_request(req: &amp;HttpRequest, _payload: &amp;mut actix_web::dev::Payload) -&gt; Self::Future {\n        let auth_header = req\n            .headers()\n            .get(&quot;Authorization&quot;)\n            .unwrap()\n            .to_str()\n            .unwrap()\n            .to_owned();\n\n        Box::pin(async move {\n                let claim_future = get_claim(&amp;auth_header).await;\n                claim_future\n        })\n    }\n}\n</code></pre>\n<p>Then it's possible to add a parameter in authenticated handlers:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[post(&quot;/authed-post&quot;)]\nasync fn authed_post(\n    _req: HttpRequest,\n    claim: CustomClaim,\n// ...\n) -&gt; impl Responder \n</code></pre>\n",
+      "owner": {
+        "display_name": "dzCodes",
+        "link": "https://stackoverflow.com/users/7449110/dzcodes"
+      }
+    },
+    {
+      "answer_id": 75105426,
+      "body": "<p>The following should work:</p>\n<pre class=\"lang-rs prettyprint-override\"><code>impl actix_web::Responder for ApiError {\n    type Body = actix_web::body::BoxBody;\n\n    fn respond_to(self, req: &amp;actix_web::HttpRequest) -&gt; actix_web::HttpResponse&lt;Self::Body&gt; {\n        err_to_http(&amp;self.api_error)\n    }\n}\n</code></pre>\n<p>Although, this technically isn't accurate because implementing <code>Responder</code> for ApiError will not solve your problem. I recommend something like this instead:</p>\n<pre class=\"lang-rs prettyprint-override\"><code>pub async fn my_handler(req: actix_web::HttpRequest) -&gt; Result&lt;actix_web::HttpResponse, ApiError&gt; {\n    my_func_that_fails()?;\n}\n</code></pre>\n<p>and then have <code>ApiError</code> implement the <code>ResponseError</code> trait, like so:</p>\n<pre class=\"lang-rs prettyprint-override\"><code>impl actix_web::error::ResponseError for ApiError {\n    fn error_response(&amp;self) -&gt; actix_web::HttpResponse {\n        match error.code {\n            ErrorEnum::NotFound =&gt; actix_web::HttpResponse::NotFound()\n                .content_type(&quot;application/json; charset=utf-8&quot;)\n                .json(error),\n            //...\n        }\n    }\n\n    fn status_code(&amp;self) -&gt; actix_web::http::StatusCode {\n        // get status code here\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Bale",
+        "link": "https://stackoverflow.com/users/8849702/bale"
+      }
+    },
+    {
+      "answer_id": 74867364,
+      "body": "<p>The underlying issue is actually with CORS, specifically, the implicit call made to <code>Cors#allowed_origin(&quot;*&quot;)</code>.</p>\n<p>This is probably a bug, but as of now, you can replace it with <code>::default</code> and manually call the security laxing that you need:</p>\n<pre class=\"lang-rs prettyprint-override\"><code>use actix_cors::Cors;\nuse anyhow::Result;\nuse actix_web::{App, HttpServer};\n\n#[actix_web::main]\nasync fn main() -&gt; Result&lt;()&gt; {\n    HttpServer::new(|| App::new().wrap(Cors::default().allow_any_origin().send_wildcard()))\n        .bind((&quot;localhost&quot;, 8080))?\n        .run()\n        .await\n        .map_err(anyhow::Error::from)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Tristan F.-R.",
+        "link": "https://stackoverflow.com/users/7589775/tristan-f-r"
+      }
+    },
+    {
+      "answer_id": 73255782,
+      "body": "<p>To see the logs of Actix Web, add the <code>env_logger</code> dependency to the <code>cargo.toml</code>.</p>\n<pre><code>[dependencies]\nenv_logger = &quot;0.10.0&quot;\n</code></pre>\n<p>You will also have to set the environment variable <code>RUST_LOG</code> to determine the log level. This can be done at runtime using <code>std::env::set_var</code>.</p>\n<pre><code>#[actix_web::main]\nasync fn main() -&gt; std::io::Result&lt;()&gt; {\n    std::env::set_var(&quot;RUST_LOG&quot;, &quot;debug&quot;);\n    env_logger::init();\n\n    /* ... */\n}\n</code></pre>\n<p>This enables debug logging for Rust and Actix Web.</p>\n<hr />\n<p>To solve the original issue: You always need to wrap data passed to <code>app_data()</code> with <code>Data::new()</code>.</p>\n<p>This is how I did it before:</p>\n<pre><code>HttpServer::new(move || {\n  App::new()\n    /* ... */\n    .app_data(client.clone())\n    /* ... */\n})\n</code></pre>\n<p><strong>How it should be instead:</strong></p>\n<pre><code>HttpServer::new(move || {\n  App::new()\n    /* ... */\n    .app_data(Data::new(client.clone())) // &lt;-- Data::new() here\n    /* ... */\n})\n</code></pre>\n",
+      "owner": {
+        "display_name": "Tobias S.",
+        "link": "https://stackoverflow.com/users/8613630/tobias-s"
+      }
+    },
+    {
+      "answer_id": 74505807,
+      "body": "<p>Actix Web uses <a href=\"https://actix.rs/docs/extractors\" rel=\"nofollow noreferrer\"><em>&quot;extractors&quot;</em></a> as a type-safe way to extract information from the request. One of those extractors is <code>web::Json</code> which allows deserializing of the body into a given type.</p>\n<p>Your <code>struct</code> needs to implement the <code>Deserialize</code> trait provided by <a href=\"https://serde.rs\" rel=\"nofollow noreferrer\">serde</a>.</p>\n<pre><code>#[derive(serde::Deserialize)]\nstruct Book {\n    title: String,\n}\n</code></pre>\n<p>The only thing left to do is to specify the extractor of type <code>web::Json&lt;Book&gt;</code> as the parameter of your route function.</p>\n<pre><code>async fn some_route(book: web::Json&lt;Book&gt;) -&gt; Result&lt;String&gt; {\n    Ok(format!(&quot;This book is called {}!&quot;, book.title))\n}\n</code></pre>\n<p>Actix Web will automatically call the <code>from_request</code> method of <code>web::Json</code> to deserialize the JSON body into the <code>struct</code> when the route is called.</p>\n",
+      "owner": {
+        "display_name": "Tobias S.",
+        "link": "https://stackoverflow.com/users/8613630/tobias-s"
+      }
+    },
+    {
+      "answer_id": 73100943,
+      "body": "<p>Okay, so I've done some testing. If you're writing a public API, you probably want to allow all origins. For that you may use the following code:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>HttpServer::new(|| {\n    let cors = Cors::default().allow_any_origin().send_wildcard();\n\n    App::new().wrap(cors).service(greet)\n})\n</code></pre>\n<p>If you're not writing a public API... well, I'm not sure what they want you to do. I've not figured out how to tell the library to send that header. I guess I will look at the code.</p>\n<p><strong>UPDATE:</strong></p>\n<p>So funny story, this is how you allow specific origins:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>let cors = Cors::default()\n    .allowed_origin(&quot;localhost:3000&quot;)\n    .allowed_origin(&quot;localhost:2020&quot;);\n</code></pre>\n<p>BUT, and oh boy, is that but juicy. The <code>Access-Control-Allow-Origin</code> response header is only set when there is a <code>Origin</code> <strong>request</strong> header. That header is normally added by the browser in certain cases <sub><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin#description\" rel=\"noreferrer\">1</a></sub>. So I did that (using the Developer tools in the browser). What did I get? <code>&quot;Origin is not allowed to make this request&quot;</code>. I set my origin header to <code>localhost:3000</code>. Turns out, the arctix library simply discards that header if no protocol was provided... (e.g. <strong><code>http://</code></strong>) (I assume it discards it, if it deems its format invalid). That internally results in the header being the <em>string</em> <code>&quot;null&quot;</code>. Which is, <em>checks notes</em>, not in the list of allowed origins.</p>\n<p>And now the grand finale:</p>\n<ol>\n<li>Your origin header needs to be set to (by either you or the browser): <code>&quot;http://localhost:3000&quot;</code>.</li>\n<li>Your configuration needs to include: <code>.allowed_origin(&quot;http://localhost:3000&quot;)</code>.</li>\n</ol>\n<p>After doing that, the server will happily echo back your <code>origin</code> header in the <code>Access-Control-Allow-Origin</code> header. And it will only send that <strong>one</strong>.</p>\n<p>I've no idea if <strong>any</strong> of that is what the standard specifies (or not). I encourage you to read through it, and if it doesn't comply, please open an issue on GitHub. I would do it myself, but I'm done with programming for today.</p>\n<p>Cheers!</p>\n",
+      "owner": {
+        "display_name": "Elias",
+        "link": "https://stackoverflow.com/users/10315665/elias"
+      }
+    },
+    {
+      "answer_id": 68734912,
+      "body": "<p>There is logging middleware available as part of <code>actix_web</code>: <a href=\"https://docs.rs/actix-web/4.2.1/actix_web/middleware/struct.Logger.html\" rel=\"noreferrer\"><code>actix_web::middleware::Logger</code></a></p>\n<blockquote>\n<p><code>Middleware</code> for logging request and response info to the terminal. <code>Logger</code> middleware uses standard <code>log</code> crate to log information.</p>\n</blockquote>\n<p>Middleware is called for each request (so long no other middleware or route handles it beforehand), so putting it on your <code>App</code> at the top level should get all requests, whether the endpoint exists or not.</p>\n<pre><code>use actix_web::{middleware::Logger, App};\n\nlet app = App::new()\n    .wrap(Logger::default())\n    // ...\n</code></pre>\n",
+      "owner": {
+        "display_name": "kmdreko",
+        "link": "https://stackoverflow.com/users/2189130/kmdreko"
+      }
+    },
+    {
+      "answer_id": 66334156,
+      "body": "<p>You have incompatible versions of actix crates. You can either downgrade <code>actix-rt</code> to <code>1</code>, or upgrade to beta versions like:</p>\n<pre class=\"lang-toml prettyprint-override\"><code>actix = &quot;0.11.0-beta.2&quot;\nactix-web = &quot;4.0.0-beta.3&quot;\nactix-rt = &quot;2.0.2&quot;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Max",
+        "link": "https://stackoverflow.com/users/750875/max"
+      }
+    },
+    {
+      "answer_id": 73737576,
+      "body": "<p>As it turns out, the cookie was not being transmitted because our local network is not using <code>https</code>.</p>\n<p>Changing this...</p>\n<pre class=\"lang-rust prettyprint-override\"><code>.wrap(SessionMiddleware::new(\n    CookieSessionStore::default(),\n    secret_key.clone(),\n))\n</code></pre>\n<p>to the following...</p>\n<pre class=\"lang-rust prettyprint-override\"><code>.wrap(\n    SessionMiddleware::builder(CookieSessionStore::default(), secret_key.clone())\n        .cookie_secure(false)\n        .build(),\n)\n</code></pre>\n<p>solves the issue.</p>\n",
+      "owner": {
+        "display_name": "piccoloser",
+        "link": "https://stackoverflow.com/users/14915698/piccoloser"
+      }
+    },
+    {
+      "answer_id": 73170109,
+      "body": "<p>You're using SPA mode by specifying fallback. You need to serve each endpoint with index.html.</p>\n<p>This is what is looks like in actix:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>async fn main() -&gt; std::io::Result&lt;()&gt; {\n    let path = &quot;/home/bk/rust_dev/portfolio/frontend/portfolio/build&quot;;\n    let static_files = String::from(path.strip_suffix('/').unwrap_or(path));\n    HttpServer::new(move || {\n        App::new().service(\n            fs::Files::new(&quot;/&quot;, static_files.clone())\n                .index_file(&quot;index.html&quot;)\n                .default_handler(\n                    fs::NamedFile::open(\n                        vec![static_files.clone(), &quot;index.html&quot;.to_string()].join(&quot;/&quot;),\n                    )\n                    .expect(&quot;index file should exist&quot;),\n                ),\n        )\n    })\n    .bind((&quot;127.0.0.1&quot;, 8080))?\n    .run()\n    .await\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Brandon Kauffman",
+        "link": "https://stackoverflow.com/users/14256876/brandon-kauffman"
+      }
+    },
+    {
+      "answer_id": 72732978,
+      "body": "<h1>VS Code</h1>\n<hr />\n<p>Thanks, @Smitop for the tip</p>\n<p>I <a href=\"https://code.visualstudio.com/Download\" rel=\"noreferrer\">reinstalled VSCode</a> with universal build and the errors are gone</p>\n<p><a href=\"https://i.sstatic.net/WznA8.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/WznA8.png\" alt=\"enter image description here\" /></a></p>\n<p>P.S. I tried to install the build for Apple Silicon, but it didn't help</p>\n<h1>NVIM (macOS, arm64, m1)</h1>\n<hr />\n<p>For those experiencing the same issue in NeoVim, the following steps helped resolve the errors.</p>\n<ol>\n<li>Open a terminal</li>\n<li>Execute <code>rustup toolchain list</code></li>\n</ol>\n<p>It should print</p>\n<pre><code>stable-aarch64-apple-darwin (default)\nstable-x86_64-apple-darwin \n</code></pre>\n<ol start=\"3\">\n<li>Copy the <code>stable-x86_64-apple-darwin</code> and make it default, by using <code>rustup default stable-x86_64-apple-darwin</code></li>\n<li>Re-open NeoVim.</li>\n<li>Errors should disappear</li>\n</ol>\n",
+      "owner": {
+        "display_name": "Roman Mahotskyi",
+        "link": "https://stackoverflow.com/users/7291317/roman-mahotskyi"
+      }
+    },
+    {
+      "answer_id": 72890222,
+      "body": "<p>I think you need to make sure the domain you set for the cookie is correct.</p>\n<p>Sites deployed on Render get an <code>.onrender.com</code> subdomain by default (not <code>.render.com</code>, and you can add a custom domain if you want. Make sure you're setting the cookie domain to your backend API domain.</p>\n",
+      "owner": {
+        "display_name": "crcastle",
+        "link": "https://stackoverflow.com/users/618710/crcastle"
+      }
+    },
+    {
+      "answer_id": 72749958,
+      "body": "<p>You are not meant to implement <code>Handler</code> yourself, the issue is that handlers are required to be <code>async</code> functions, <a href=\"https://docs.rs/actix-web/latest/actix_web/trait.Handler.html#what-is-a-request-handler\" rel=\"noreferrer\">see the docs for more details</a>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>// 👇\nasync fn hello_world() -&gt; HttpResponse {\n    HttpResponse::Ok().body(&quot;Hello, Mr. World&quot;)\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ibraheem Ahmed",
+        "link": "https://stackoverflow.com/users/8858995/ibraheem-ahmed"
+      }
+    },
+    {
+      "answer_id": 71887982,
+      "body": "<p>ITs works for me when i avoid <code>/target</code> directory and now working both version of <code>ubuntu 20.04</code> and <code>21.10</code>. Giving thanks to <strong>@Charles Duffy</strong> and <strong>@Herohtar</strong> for their important and useful instruction,</p>\n<pre><code>FROM ubuntu:21.10\nRUN apt-get update &amp;&amp; apt-get upgrade -y\nRUN apt-get install libssl-dev\n\nRUN apt-get install -y -q build-essential curl\nRUN curl https://sh.rustup.rs -sSf | sh -s -- -y\nENV PATH=&quot;/root/.cargo/bin:${PATH}&quot;\n\nWORKDIR /command-agent\nCOPY ./src/. /command-agent/src/\nCOPY .env /command-agent/\nCOPY Cargo.toml /command-agent/\nCOPY Cargo.lock /command-agent/\nRUN cargo build --release\n\nEXPOSE 8080\nENTRYPOINT /command-agent/target/release/command-agent\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jahadul Rakib",
+        "link": "https://stackoverflow.com/users/14117478/jahadul-rakib"
+      }
+    },
+    {
+      "answer_id": 71615129,
+      "body": "<p>I resolved this using a temporary hack. If you check session definition, you will notice that it wraps a RefCell as below and does not implement <code>send</code></p>\n<pre class=\"lang-rs prettyprint-override\"><code>pub struct Session(Rc&lt;RefCell&lt;SessionInner&gt;&gt;);\n</code></pre>\n<p>Ideally, <code>Session</code> should implement sync, so that we can use it in a multi-threaded context.</p>\n<p>The approach I am using presently is to wrap in a SendWrapper, which isn't ideal as it is meant for when you're sure the wrapped item will be used in a single-threaded fashion.</p>\n<pre class=\"lang-rs prettyprint-override\"><code>use std::ops::Deref;\nuse actix_session::Session;\nuse actix_web::Error;\nuse send_wrapper::SendWrapper;\nuse uuid::Uuid;\n\n#[derive(Clone, Debug)]\nstruct Shared&lt;T&gt;(pub Option&lt;SendWrapper&lt;T&gt;&gt;);\n\nimpl&lt;T&gt; Shared&lt;T&gt; {\n    pub fn new(v: T) -&gt; Self {\n        Self(Some(SendWrapper::new(v)))\n    }\n}\n\nimpl&lt;T&gt; Deref for Shared&lt;T&gt; {\n    type Target = T;\n\n    fn deref(&amp;self) -&gt; &amp;Self::Target {\n        &amp;*self.0.as_deref().clone().unwrap()\n    }\n}\n\ntype SessionShared = Shared&lt;actix_session::Session&gt;;\n\n\npub struct TypedSession(SessionShared);\n\nimpl TypedSession {\n    const USER_ID_KEY: &amp;'static str = &quot;user_id&quot;;\n\n    pub fn new(session: Session) -&gt; Self {\n        Self(Shared::new(session))\n    }\n\n    pub fn renew(&amp;self) {\n        self.0.renew();\n    }\n\n    pub fn insert_user_uuid(&amp;self, user_id: Uuid) -&gt; Result&lt;(), Error&gt; {\n        self.0.insert(Self::USER_ID_KEY, user_id)\n    }\n\n    pub fn get_user_uuid(&amp;self) -&gt; Result&lt;Option&lt;Uuid&gt;, Error&gt; {\n        self.0.get::&lt;Uuid&gt;(Self::USER_ID_KEY)\n    }\n\n    pub fn clear(&amp;self) {\n        self.0.clear()\n    }\n}\n\n</code></pre>\n",
+      "owner": {
+        "display_name": "Oyelowo",
+        "link": "https://stackoverflow.com/users/11907087/oyelowo"
+      }
+    },
+    {
+      "answer_id": 71481681,
+      "body": "<p>I finally found 2 solutions:</p>\n<h3>Solution 1</h3>\n<pre class=\"lang-rust prettyprint-override\"><code>pub struct Scheduler;\nimpl actix::actor::Actor for Scheduler {\n  type Context = Context&lt;Self&gt;;\n  fn started(&amp;mut self, ctx: &amp;mut Context&lt;Self&gt;) {\n      ctx.run_interval(Duration::from_secs(60), move |this, ctx| { this.announce(ctx, EVENT_NONE); });\n  }\n}\nimpl Scheduler {\n  fn announce(&amp;self, ctx: &amp;mut Context&lt;Self&gt;, event: &amp;str) {\n      //...\n      self.send_announce(ctx, url, id); //outside the announce function because it is in a loop\n      //...\n  }\n  fn send_announce(&amp;self, _ctx: &amp;mut Context&lt;Self&gt;, url:String, id: u32) {\n      actix_web::rt::spawn(async move {\n          let client = reqwest::Client::builder().build().expect(&quot;Cannot build web client&quot;);\n          let res = client.get(&amp;url).send().await;\n          if res.is_ok() {\n              info!(&quot;It works!&quot;);\n          }\n      }\n  }\n}\n</code></pre>\n<p>I don't know if it is the best way but it works</p>\n<h3>Solution 2</h3>\n<p>It is to use <a href=\"https://crates.io/crates/ureq\" rel=\"nofollow noreferrer\">ureq</a> as the HTTP client that is using a blocking I/O and I can call <code>ctx.run_later</code>.</p>\n<p>Everything can stay in the <code>announce()</code> function</p>\n",
+      "owner": {
+        "display_name": "Athanor",
+        "link": "https://stackoverflow.com/users/2058537/athanor"
+      }
+    },
+    {
+      "answer_id": 71498461,
+      "body": "<p>You can create a route scope:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>HttpServer::new(|| {\n    let stocks_controller = actix_web::web::scope(&quot;/stocks&quot;)\n        .service(get_all)\n        .service(find_one)\n        .service(insert_one);\n    App::new()\n        .service(ping)\n        .service(stocks_controller)\n})\n</code></pre>\n<p>More info <a href=\"https://actix.rs/docs/url-dispatch/\" rel=\"noreferrer\">here</a>.</p>\n",
+      "owner": {
+        "display_name": "aedm",
+        "link": "https://stackoverflow.com/users/1043137/aedm"
+      }
+    },
+    {
+      "answer_id": 71428223,
+      "body": "<p>Look at the examples in the docs for <a href=\"https://docs.rs/actix-web/latest/actix_web/web/struct.Data.html\" rel=\"nofollow noreferrer\">Data</a>. It seems you have to put your initialized struct in a <code>Mutex</code> and then add that to your <code>App</code>. Also beware that you need to include it in your path <code>fn</code> as a Mutex as well.</p>\n<pre class=\"lang-rust prettyprint-override\"><code>\nlet data = Data::new(Mutex::new(YOUR_DATA))\napp.app_data(Data::clone(&amp;data));\n\nasync fn index(data: Data&lt;Mutex&lt;YOUR_DATA_TYPE&gt;&gt;) -&gt; impl Responder {\n\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "bertus W",
+        "link": "https://stackoverflow.com/users/5410923/bertus-w"
+      }
+    },
+    {
+      "answer_id": 70632143,
+      "body": "<p>An async function returns a <code>Future</code>, you need to <strong><code>await</code></strong> the future to get the result. In your case the <code>Responder</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[get(&quot;/&quot;)]\nasync fn greet2(req: HttpRequest) -&gt; impl Responder {\n    greet(req).await\n}\n\n</code></pre>\n<p><strong>But</strong> this may not even be enough. <a href=\"https://docs.rs/actix-web/latest/actix_web/attr.get.html\" rel=\"nofollow noreferrer\"><code>get</code></a> is a macro that modifies your function definition. Look <a href=\"https://docs.rs/actix-web-codegen/0.4.0/src/actix_web_codegen/lib.rs.html#140\" rel=\"nofollow noreferrer\">source</a>.</p>\n<p>You can not call it itself. Would be better to take the implementation outside of the macro wrapped call:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>async fn greet_prime(req: HttpRequest) -&gt; impl Responder {\n    let name = req.match_info().get(&quot;name&quot;).unwrap_or(&quot;World&quot;);\n    format!(&quot;Hello {}!&quot;, &amp;name)\n}\n\n#[get(&quot;/{name}&quot;)]\nasync fn greet(req: HttpRequest) -&gt; impl Responder {\n    greet_prime(req).await\n}\n\n#[get(&quot;/&quot;)]\nasync fn greet2(req: HttpRequest) -&gt; impl Responder {\n    greet_prime(req).await\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Netwave",
+        "link": "https://stackoverflow.com/users/1695172/netwave"
+      }
+    },
+    {
+      "answer_id": 69833795,
+      "body": "<p>This is mentioned in the <code>actix_web</code> <a href=\"https://github.com/actix/actix-web/blob/master/CHANGES.md#400-beta5---2021-04-02\" rel=\"noreferrer\">Changes.md</a> for v4.0:</p>\n<blockquote>\n<p>The <code>client</code> mod was removed. Clients should now use <code>awc</code> directly.</p>\n</blockquote>\n<p>The <code>actix_web::client</code> module has long since largely been a wrapper around the <a href=\"https://crates.io/crates/awc\" rel=\"noreferrer\"><code>awc</code></a> crate ever since the 1.0 release, but it seems they now want to separate them entirely.</p>\n<p>The types from <code>awc</code> should be near identical to those exposed in prior <code>actix_web</code> releases, however if you're using it with <code>actix_web:4.0</code> (currently in beta) then you'll want to use <code>awc:3.0</code> (currently in beta) for compatibility.</p>\n",
+      "owner": {
+        "display_name": "kmdreko",
+        "link": "https://stackoverflow.com/users/2189130/kmdreko"
+      }
+    },
+    {
+      "answer_id": 69794518,
+      "body": "<p>There is nothing special with Session, as seen here <a href=\"https://github.com/scylladb/scylla-rust-driver/blob/main/examples/parallel-prepared.rs\" rel=\"nofollow noreferrer\">https://github.com/scylladb/scylla-rust-driver/blob/main/examples/parallel-prepared.rs</a></p>\n<p>The solution is to wrap it in an <code>Arc</code>. We don't necessary need to do so ourselves as <code>web::Data</code> does this itself.  Here is what I got.</p>\n<pre><code>use actix_web::{web, App, HttpResponse, HttpServer, Responder};\n\nuse scylla::{Session, SessionBuilder};\n\nstruct AppState {\n    scy_session: Session,\n    app_name: String,\n}\n\n/// Use the `Data&lt;T&gt;` extractor to access data in a handler.\nasync fn index(data: web::Data&lt;AppState&gt;) -&gt; impl Responder {\n    let app_name = &amp;data.app_name; // &lt;- get app_name\n    HttpResponse::Ok().body(format!(&quot;Hello {}!&quot;, app_name))\n}\n\n#[actix_web::main]\nasync fn main() -&gt; std::io::Result&lt;()&gt; {\n    let session: Session = SessionBuilder::new()\n        .known_node(&quot;localhost:9042&quot;)\n        .user(&quot;username&quot;, &quot;passwor&quot;)\n        .build()\n        .await\n        .expect(&quot;Some error message&quot;);\n    let data = web::Data::new(AppState {\n        scy_session: session,\n        app_name: String::from(&quot;Actix-web&quot;),\n    });\n\n    HttpServer::new(move || {\n        App::new()\n            .data(data.clone())\n            .route(&quot;/&quot;, web::get().to(index))\n    })\n    .bind(&quot;127.0.0.1:8080&quot;)?\n    .run()\n    .await\n}\n</code></pre>\n<p>See also: <a href=\"https://stackoverflow.com/a/67772754/1418750\">https://stackoverflow.com/a/67772754/1418750</a></p>\n",
+      "owner": {
+        "display_name": "Njuguna Mureithi",
+        "link": "https://stackoverflow.com/users/1418750/njuguna-mureithi"
+      }
+    },
+    {
+      "answer_id": 57977257,
+      "body": "<p>From <a href=\"https://docs.rs/actix-web/3.3.2/actix_web/web/struct.Json.html#impl-FromRequest\" rel=\"noreferrer\">the <code>actix-web</code> documentation</a>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>impl&lt;T&gt; FromRequest for Json&lt;T&gt;\nwhere\n    T: DeserializeOwned + 'static, \n</code></pre>\n<p>It basically says you can only use owned, not borrowed, data with the <code>Json</code> type if you want <code>actix-web</code> to extract types from the request for you. Thus you have to use <code>String</code> here:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use actix_web::{post, web, Responder};\nuse serde::Deserialize;\n\n#[derive(Deserialize)]\nstruct UserModel {\n    username: String,\n    password: String,\n}\n\n#[post(&quot;/&quot;)]\npub fn register(user_model: web::Json&lt;UserModel&gt;) -&gt; impl Responder {\n    unimplemented!()\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "edwardw",
+        "link": "https://stackoverflow.com/users/794457/edwardw"
+      }
+    },
+    {
+      "answer_id": 68990233,
+      "body": "<p>The issue with your application is that the actix-web runtime (i.e. Tokio) is multi-threaded. This is a problem because the <code>fork()</code> call (used internaly by <code>daemon()</code>) only replicates the thread that called <code>fork()</code>.</p>\n<p>Even if your parent process has N threads, your child process will have only 1. If your parent process has any mutexes locked by those threads, their state will be replicated in the child process, but as those threads do not exist there, they will remain locked for forever.</p>\n<p>If you have an <code>Rc</code>/<code>Arc</code> it will never de-allocate its memory, because it will never be dropped, thus its internal count will never reach zero. The same applies for any pointers and shared state.</p>\n<p>Or said more simply - <strong>your forked child will end up in undefined state.</strong></p>\n<p>This is best explained in <a href=\"http://www.doublersolutions.com/docs/dce/osfdocs/htmls/develop/appdev/Appde193.htm\" rel=\"nofollow noreferrer\">Calling fork() in a Multithreaded Environment</a>:</p>\n<blockquote>\n<p>The fork( ) system call creates an exact duplicate of the address\nspace from which it is called, resulting in two address spaces\nexecuting the same code. Problems can occur if the forking address\nspace has multiple threads executing at the time of the fork( ). When\nmultithreading is a result of library invocation, threads are not\nnecessarily aware of each other's presence, purpose, actions, and so\non. Suppose that one of the other threads (any thread other than the\none doing the fork( )) has the job of deducting money from your\nchecking account. Clearly, you do not want this to happen twice as a\nresult of some other thread's decision to call fork( ).</p>\n<p>Because of these types of problems, which in general are problems of\nthreads modifying persistent state, POSIX defined the behavior of\nfork( ) in the presence of threads to propagate only the forking\nthread. This solves the problem of improper changes being made to\npersistent state. However, it causes other problems, as discussed in\nthe next paragraph.</p>\n<p>In the POSIX model, only the forking thread is propagated. All the\nother threads are eliminated without any form of notice; no cancels\nare sent and no handlers are run. However, all the other portions of\nthe address space are cloned, including all the mutex state. If the\nother thread has a mutex locked, the mutex will be locked in the child\nprocess, but the lock owner will not exist to unlock it. Therefore,\nthe resource protected by the lock will be permanently unavailable.</p>\n</blockquote>\n<p>Here you can find <a href=\"https://pubs.opengroup.org/onlinepubs/9699919799/functions/fork.html\" rel=\"nofollow noreferrer\">a more reputable source</a> with more details</p>\n<h4>To answer your other question:</h4>\n<blockquote>\n<p>&quot;how can I launch a daemon inside my message handler?&quot;</p>\n</blockquote>\n<p>I assume you want to implement the classical unix <strong>&quot;fork() on accept()&quot;</strong> model.\nIn that case you are out of luck, because servers such as actix-web, and async/await\nin general are not designed with that in mind. Even if you have a\nsingle-threaded async/await server, then:</p>\n<ol>\n<li><p>When a child is forked it inherits all file descriptors from the parent. So it's\ncommon after a fork, the child to close its listening socket in order to avoid a\nresource leak - but there is no way to do that on any of the async/await based servers,\nnot because it's impossible to do, but because it's not implemented.</p>\n</li>\n<li><p>And even more important reason to do that is to prevent the child process\nfrom accepting new connections - because even if you run a single threaded\nserver, it's still capable of processing many tasks concurrently - i.e.\nwhen your handler calls <code>.await</code> on something, the acceptor would be free to\naccept a new connection (by stealing it from the socket's queue) and start processing it.</p>\n</li>\n<li><p>Your parent server may have already spawned a lot of tasks and those would be\nreplicated in each forked child, thus executing the very same thing multiple times,\nindependently in each process</p>\n</li>\n</ol>\n<p>And well... there is no way to prevent any of that on any of the async/await\nbased servers I'm familiar with. You would need a custom server that:</p>\n<ol>\n<li>Checks in its acceptor task if it's a child and if it detects that it's the child\nit should close the listening socket and drop the acceptor.</li>\n<li>It should not execute any other task that was forked from the parent,\nbut there is no way to achieve that.</li>\n</ol>\n<p>In other words - async/await and &quot;fork() on accept()&quot; are two different and\n<strong>incompatible</strong> models for processing tasks concurrently.</p>\n<p>A possible solution would be to have a non-async acceptor daemon that only\naccepts connections and forks itself. Then spawns a web-server in the child\nthen feeding it the accepted socket. But although possible, none of the servers\ncurrently have support for that.</p>\n",
+      "owner": {
+        "display_name": "Svetlin Zarev",
+        "link": "https://stackoverflow.com/users/2588800/svetlin-zarev"
+      }
+    },
+    {
+      "answer_id": 68822754,
+      "body": "<p>I was just looking at how to do this as well, disappointing that they talk about it in their docs but do not show any examples.</p>\n<p>I found that you can either edit the headers or extensions as follows, I'm not sure how to edit it otherwise.</p>\n<p><a href=\"https://docs.rs/actix-web/3.3.2/actix_web/dev/struct.ServiceRequest.html#method.headers_mut\" rel=\"nofollow noreferrer\">Headers</a></p>\n<ul>\n<li>Grab the headers from the Service request, <code>let headers = req.headers_mut()</code></li>\n<li>Take the <a href=\"https://docs.rs/actix-web/3.3.2/actix_web/http/struct.HeaderMap.html\" rel=\"nofollow noreferrer\">HeaderMap</a> and you can from there either insert, remove, clear, etc</li>\n<li>Insert example: <code>headers.insert(HeaderName::from_lowercase(b&quot;content-length&quot;).unwrap(), HeaderValue::from_static(&quot;hello&quot;));</code></li>\n</ul>\n<p><a href=\"https://docs.rs/actix-web/3.3.2/actix_web/struct.HttpRequest.html#method.extensions_mut\" rel=\"nofollow noreferrer\">Extensions</a></p>\n<ul>\n<li>Get the extensions for the request <code>let extensions = req.extensions_mut()</code></li>\n<li>Add to the extension <code>extensions.insert(&quot;foo&quot;.to_string());</code></li>\n<li>One liner: <code>req.extensions_mut().insert(&quot;foo&quot;.to_string());</code></li>\n<li>Get that extension later: <code>req.extensions().get::&lt;String&gt;()</code></li>\n</ul>\n",
+      "owner": {
+        "display_name": "Peyton Schmidt",
+        "link": "https://stackoverflow.com/users/9301563/peyton-schmidt"
+      }
+    },
+    {
+      "answer_id": 68669180,
+      "body": "<p>Actually suggestion in the <a href=\"https://docs.rs/reqwest/0.11.4/reqwest/struct.Client.html\" rel=\"noreferrer\">documentation</a> is the solution:</p>\n<blockquote>\n<p>You do not have to wrap the Client in an Rc or Arc to reuse it, because it already uses an Arc internally.</p>\n</blockquote>\n<p>Simply <code>clone</code> the client.</p>\n<p>Please check the <code>Client</code> definition from the <a href=\"https://docs.rs/reqwest/0.11.4/src/reqwest/async_impl/client.rs.html#60\" rel=\"noreferrer\">source</a>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Clone)]\npub struct Client {\n    inner: Arc&lt;ClientRef&gt;,\n}\n</code></pre>\n<p>You can think <code>Client</code> as a reference holder</p>\n<p>The inner type(<code>ClientRef</code>) has wrapped with <code>Arc</code> as the documentation says and <code>Client</code> has <code>Clone</code> implementation, since there is no other fields except <code>inner: Arc&lt;_&gt;</code>, cloning the client will not cause any runtime overhead comparing to wrapping it with <code>Arc</code> by yourself.</p>\n<p>Additionally <code>Client</code> implements <code>Send</code> this means clone of clients can be send across threads, since there is no explicit mutable operation over <code>Client</code> then <code>Mutex</code> is not needed in here. (I said explicit because there might be an interior mutability)</p>\n",
+      "owner": {
+        "display_name": "&#214;mer Erden",
+        "link": "https://stackoverflow.com/users/1601571/%c3%96mer-erden"
+      }
+    },
+    {
+      "answer_id": 68548210,
+      "body": "<p>The problem is that you are using Actix web 3.x with Tokio 1.x and mongoDB client 2.x. You need to use Actix web 4.x for it to work with the other two.</p>\n",
+      "owner": {
+        "display_name": "moy2010",
+        "link": "https://stackoverflow.com/users/4172752/moy2010"
+      }
+    },
+    {
+      "answer_id": 68464584,
+      "body": "<p>You can check the error code using <a href=\"https://docs.rs/sqlx/0.5.5/sqlx/postgres/struct.PgDatabaseError.html#method.code\" rel=\"noreferrer\"><code>get_code</code></a>.</p>\n<pre><code>match new_user {\n    Ok(user) =&gt; HttpResponse::Ok().json(user),\n    Err(err) if err.get_code() == &quot;23505&quot; {\n    // returns unique constraint violation response.\n    },\n    _ =&gt; HttpResponse::BadRequest().body(ERROR_MESSAGE),\n}\n</code></pre>\n<p>To make this work as @MichaelAnderson pointed out in the comments,</p>\n<blockquote>\n<p>you'd need to change the return type of create to <code>Result&lt;User, sqlx::postgres::PgDatabaseError&gt;</code>, or instead of changing the return type of create, you could use <code>anyhow::Error::downcast</code> or its related functions to get back to a <code>PgDatabaseError</code></p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Sede Soukossi",
+        "link": "https://stackoverflow.com/users/3100115/sede-soukossi"
+      }
+    },
+    {
+      "answer_id": 68335583,
+      "body": "<p>Your request is being rejected because it doesn't specify the content type.</p>\n<p>In order to do so, you have to add the <code>Content-Type</code> header. In cURL you do it like this:</p>\n<p><code>-H &quot;Content-Type: application/json&quot;</code></p>\n",
+      "owner": {
+        "display_name": "moy2010",
+        "link": "https://stackoverflow.com/users/4172752/moy2010"
+      }
+    },
+    {
+      "answer_id": 66120852,
+      "body": "<p><a href=\"https://github.com/rusoto/rusoto\" rel=\"nofollow noreferrer\"><code>rusoto</code></a> v0.46 depends on <a href=\"https://github.com/tokio-rs/tokio/\" rel=\"nofollow noreferrer\"><code>tokio</code></a> v1.0. <code>actix-web</code> v3 however, is still using <code>tokio</code> v0.2. The two versions are not backward compatible, hence the error message. To solve this, you can upgrade to a newer version of actix-web:</p>\n<pre><code>actix-web = &quot;4.0.0-beta.8&quot;\n</code></pre>\n<p>Or you can use the <a href=\"https://docs.rs/tokio-compat-02/0.2.0/tokio_compat_02/\" rel=\"nofollow noreferrer\"><code>tokio-compat2</code></a> compatibility layer. This requires prefixing any incompatible <code>.await</code> call with <code>.compat()</code></p>\n<pre class=\"lang-rust prettyprint-override\"><code>async fn index() -&gt; impl Responder {\n    let client = DynamoDbClient::new(&quot;[region]&quot;);\n    let tables = client.list_tables(list_tables_input).compat().await;\n    // ...\n}\n</code></pre>\n<p><em>Or</em> you could downgrade <code>rusoto</code> to an older version that uses <code>tokio</code> v0.2:</p>\n<pre><code>rusoto_core = &quot;0.43&quot;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ibraheem Ahmed",
+        "link": "https://stackoverflow.com/users/8858995/ibraheem-ahmed"
+      }
+    },
+    {
+      "answer_id": 68170956,
+      "body": "<p>You can use the <code>Bytes</code> extractor, which provides the request body as a slice of bytes, and save directly to a file:</p>\n<pre><code>use actix_web::{web, App, Error, HttpResponse, HttpServer};\nuse std::{\n    fs::OpenOptions,\n    io::{self, Write},\n};\n\nasync fn create_process(body: web::Bytes) -&gt; Result&lt;HttpResponse, Error&gt; {\n    let mut file = OpenOptions::new()\n        .write(true)\n        .create_new(true)\n        .open(&quot;file.json&quot;)?;\n    file.write_all(&amp;body)?;\n    Ok(HttpResponse::Ok().body(&quot;Successful&quot;))\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Peter Hall",
+        "link": "https://stackoverflow.com/users/493729/peter-hall"
+      }
+    },
+    {
+      "answer_id": 65646165,
+      "body": "<p>When adding the <code>data</code> to your <code>App</code>, you have to specify that you want it to be downcasted as a trait object. <code>Data</code> does not accept unsized types directly, so you have to first create an <code>Arc</code> (<a href=\"https://stackoverflow.com/a/61800859/8858995\">which does accept unsized types</a>) and then convert it to a <code>Data</code>. We will use the <code>app_data</code> method to avoid wrapping the searcher in a double arc.</p>\n<pre class=\"lang-rust prettyprint-override\"><code>pub fn create_server(\n    search: impl Search + Send + Sync + 'static,\n) -&gt; Result&lt;Server, std::io::Error&gt; {\n    let search: Data&lt;dyn Search&gt; = Data::from(Arc::new(search));\n    \n    HttpServer::new(move || {\n        App::new()\n            .app_data(search.clone())\n    })\n}\n\nasync fn index(\n    query: Path&lt;String&gt;,\n    search: Data&lt;dyn Search&gt;,\n) -&gt; impl Responder {     \n    search.into_inner().search(&amp;*query)\n}\n</code></pre>\n<p>An alternative approach is using generics. Your handler and <code>create_server</code> functions would be generic over a <code>Search</code> implementation:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>async fn index&lt;T: Search&gt;(\n    web::Path(query): web::Path&lt;String&gt;,\n    search: web::Data&lt;T&gt;,\n-&gt; impl Responder {\n    search.into_inner().search(&amp;query)\n}\n\npub fn create_server&lt;T: Search + Send + Sync + 'static + Clone&gt;(\n    search: T,\n) -&gt; Result&lt;Server, std::io::Error&gt; {\n    let server = HttpServer::new(move || {\n        App::new()\n            .data(search.clone())\n            .route(&quot;/{query}&quot;, web::get().to(index::&lt;T&gt;))\n    })\n    .bind(&quot;127.0.0.1:8080&quot;)?\n    .run();\n    Ok(server)\n}\n</code></pre>\n<p>Now, when you create the server in <code>main</code>, you can use <code>SearchClient</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[actix_web::main]\nasync fn main() -&gt; std::io::Result&lt;()&gt; {\n     let search_client = SearchClient::new();\n     create_server(search_client).unwrap().await\n}\n</code></pre>\n<p>And when you create the server for testing purposes, you could use a <code>TestClient</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[actix_rt::test]\nasync fn test_search() {\n    let search_client = TestClient {};\n    let server = create_server(search_client).unwrap();\n}\n</code></pre>\n<p>The downside to the generics based approach is that you cannot use the <code>#[get(&quot;&quot;)]</code> macros for routing because you have to specify the handler's generic parameters:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>App::new()\n    .route(&quot;/{query}&quot;, web::get().to(index::&lt;T&gt;))\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ibraheem Ahmed",
+        "link": "https://stackoverflow.com/users/8858995/ibraheem-ahmed"
+      }
+    },
+    {
+      "answer_id": 67940775,
+      "body": "<pre class=\"lang-rust prettyprint-override\"><code>pub fn append_header&lt;H&gt;(&amp;mut self, header: H) -&gt; &amp;mut Self where\n    H: IntoHeaderPair, \n</code></pre>\n<p>The <code>append_header</code> method takes any type implementing <a href=\"https://docs.rs/actix-web/4.0.0-beta.6/actix_web/http/header/trait.IntoHeaderPair.html\" rel=\"nofollow noreferrer\"><code>IntoHeaderPair</code></a>. If you look at the documentation for the trait you will see that it is implemented for:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>(&amp;'_ HeaderName, V)\n(&amp;'_ str, V)\n(HeaderName, V)\n(&amp;'_ [u8], V)\n(String, V)\n</code></pre>\n<p><code>V</code> is any type implementing <a href=\"https://docs.rs/actix-web/4.0.0-beta.6/actix_web/http/header/trait.IntoHeaderValue.html\" rel=\"nofollow noreferrer\"><code>IntoHeaderValue</code></a>, which includes <code>String</code>, <code>&amp;str</code>, <code>Vec</code>, and integer types.</p>\n<p>Therefore you can simply write <code>.append_header((&quot;X-Hdr&quot;, &quot;sample&quot;))</code></p>\n",
+      "owner": {
+        "display_name": "Ibraheem Ahmed",
+        "link": "https://stackoverflow.com/users/8858995/ibraheem-ahmed"
+      }
+    },
+    {
+      "answer_id": 67815871,
+      "body": "<p>After sufficient trial and error I discovered that:</p>\n<ol>\n<li>What the error is actually saying is that the <em>return value</em> is missing the necessary implementation, not the function itself (if you're a beginner like me it's not obvious from the error message...)</li>\n<li>More specifically, it seems actix didn't like the built-in <code>HttpResponse</code> error type and I had to replace with my own:</li>\n</ol>\n<pre><code>#[derive(Debug)]\npub struct MyError(String); // &lt;-- needs debug and display\n\nimpl std::fmt::Display for MyError {\n    fn fmt(&amp;self, f: &amp;mut std::fmt::Formatter&lt;'_&gt;) -&gt; std::fmt::Result {\n        write!(f, &quot;A validation error occured on the input.&quot;)\n    }\n}\n\nimpl ResponseError for MyError {} // &lt;-- key\n\n#[get(&quot;/tweets4&quot;)]\npub async fn tweets4(\n    form: web::Query&lt;TweetParams&gt;,\n    pool: web::Data&lt;PgPool&gt;,\n) -&gt; Result&lt;HttpResponse, MyError&gt; {\n    let fake_json_data = r#&quot;\n    { &quot;name&quot;: &quot;hi&quot; }\n    &quot;#;\n\n    let v: Value = serde_json::from_str(fake_json_data).map_err(|e| {\n        println!(&quot;error is {}&quot;, e);\n        MyError(String::from(&quot;oh no&quot;)) // &lt;-- here\n    })?;\n\n    sqlx::query!(\n        //query\n    )\n        .execute(pool.as_ref())\n        .await\n        .map_err(|e| {\n            println!(&quot;error is {}&quot;, e);\n            MyError(String::from(&quot;oh no&quot;)) // &lt;-- and here\n        })?;\n\n    Ok(HttpResponse::Ok().finish())\n}\n</code></pre>\n<p>Hope helps someone in the future!</p>\n",
+      "owner": {
+        "display_name": "ilmoi",
+        "link": "https://stackoverflow.com/users/6782615/ilmoi"
+      }
+    },
+    {
+      "answer_id": 67299333,
+      "body": "<p>There are several ways to explicitly set the status code. The easiest way is to make use of actix-web's <a href=\"https://docs.rs/actix-web/3.3.2/actix_web/trait.Responder.html#impl-Responder-for-(T%2C%20StatusCode)\" rel=\"nofollow noreferrer\">implementation of <code>Responder</code> for <code>(T, StatusCode)</code> whenever <code>T: Responder</code></a>. Assuming <code>Status</code> is some custom struct implementing <code>Serialize</code>, you should be able to write something like</p>\n<pre><code>use actix_web::{HttpRequest, Responder, http, web};\n\nfn foo(req: HttpRequest) -&gt; impl Responder {\n    (\n        web::Json(Status {\n            value: val,\n            isOn: true,\n        }),\n        http::StatusCode::CONFLICT,\n    )\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Sven Marnach",
+        "link": "https://stackoverflow.com/users/279627/sven-marnach"
+      }
+    },
+    {
+      "answer_id": 67135574,
+      "body": "<p>Instead of using <code>ws::start()</code> you have to create the WebSocket with a specific codec, as that is the place where you can set the size of the payload <a href=\"https://docs.rs/actix-http/2.2.0/actix_http/ws/struct.Codec.html\" rel=\"nofollow noreferrer\">https://docs.rs/actix-http/2.2.0/actix_http/ws/struct.Codec.html</a>.</p>\n<p>So create your start function:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>use actix_web::error::PayloadError;\nuse ws::{handshake, WebsocketContext};                        \nuse actix_http::ws::{Codec, Message, ProtocolError};\nuse bytes::Bytes;\n\nfn start_with_codec&lt;A, S&gt;(actor: A, req: &amp;HttpRequest, stream: S, codec: Codec) -&gt; Result&lt;HttpResponse, Error&gt;\nwhere\n    A: Actor&lt;Context = WebsocketContext&lt;A&gt;&gt;\n        + StreamHandler&lt;Result&lt;Message, ProtocolError&gt;&gt;,\n    S: Stream&lt;Item = Result&lt;Bytes, PayloadError&gt;&gt; + 'static,\n{   \n    let mut res = handshake(req)?;\n    Ok(res.streaming(WebsocketContext::with_codec(actor, stream, codec)))\n} \n</code></pre>\n<p>Then you change your code invoking the new function and passing the codec:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>async fn ws_index(\n    req: HttpRequest,\n    stream: web::Payload,\n    addr: web::Data&lt;Addr&lt;Connections&gt;&gt;,\n) -&gt; Result&lt;HttpResponse, Error&gt; {\n    let id = Uuid::new_v4().to_simple().to_string();\n    let client = Connection::new(id, addr.get_ref().clone());\n    let resp = start_with_codec(client, &amp;req, stream, Codec::new().max_size(MAX_SIZE));\n    resp\n}\n</code></pre>\n<p><strong>UPDATED</strong></p>\n<p>On big payload the Message can be broken up in several smaller pices through the <code>Message::Continuation</code> variant.</p>\n<p>This variant contains an Item enum with the following variants:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>pub enum Item {\n    FirstText(Bytes),\n    FirstBinary(Bytes),\n    Continue(Bytes),\n    Last(Bytes),\n}\n</code></pre>\n<p>To recompose the original message you have to collect all the pieces from the FirstText / FirstBinary until the Last, or be sure to forward all those messages in the proper order to the destination where the Message will be retrieved.</p>\n",
+      "owner": {
+        "display_name": "Mario Santini",
+        "link": "https://stackoverflow.com/users/6452829/mario-santini"
+      }
+    },
+    {
+      "answer_id": 66990054,
+      "body": "<p>If you do not have a proxy in front of the service, it should be retrievable from the request <a href=\"https://docs.rs/actix-web/3.3.2/actix_web/struct.HttpRequest.html#method.peer_addr\" rel=\"noreferrer\"><code>peer_addr()</code></a>.</p>\n<p>Otherwise, you can retrieve the request <a href=\"https://docs.rs/actix-web/3.3.2/actix_web/struct.HttpRequest.html#method.connection_info\" rel=\"noreferrer\"><code>connection_info()</code></a>, and from there, the <a href=\"https://docs.rs/actix-web/3.3.2/actix_web/dev/struct.ConnectionInfo.html#method.realip_remote_addr\" rel=\"noreferrer\"><code>realip_remote_addr()</code></a>.</p>\n<p>Example:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[get(&quot;/collect&quot;)]\npub async fn collect(req: HttpRequest) -&gt; impl Responder {\n    if let Some(val) = req.peer_addr() {\n        println!(&quot;Address {:?}&quot;, val.ip());\n    };\n    HttpResponse::Ok()\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "John Ledbetter",
+        "link": "https://stackoverflow.com/users/130641/john-ledbetter"
+      }
+    },
+    {
+      "answer_id": 66303830,
+      "body": "<p>The root cause of the problem is that <code>JSONSchema</code> does not own <code>Value</code>, but we can work around that. First we place the <code>Value</code> on the stack using <code>Box::new</code>. Then we leak a reference (which will last for the lifetime of the application) using <code>Box::leak</code>. Finally we use <code>Arc::new</code> so that we can call <code>clone()</code> on the schema in the inner scope (this last step allows you to move the schema code elsewhere, which is nice).</p>\n<pre><code>use jsonschema::JSONSchema;\nuse serde_json::{from_str, Value};\nuse actix_web::{web, get, App, HttpServer, HttpResponse, Responder};\nuse std::sync::Arc;\n\n#[actix_web::main]\nasync fn main() -&gt; std::io::Result&lt;()&gt; {\n    let schema_str = include_str!(&quot;schema.json&quot;);\n    let schema_value:  &amp;'static Value = Box::leak(Box::new(from_str(schema_str).unwrap()));\n    let schema_compiled: JSONSchema&lt;'static&gt; = JSONSchema::compile(schema_value).unwrap();\n    let schema_arc = Arc::new(schema_compiled);\n    HttpServer::new(move || {\n        App::new()\n            .data(schema_arc.clone())\n            .service(index)\n    })\n    .bind(&quot;0.0.0.0:8080&quot;)?\n    .run()\n    .await\n}\n\n#[get(&quot;/&quot;)]\nasync fn index&lt;'a&gt;(_schema: web::Data&lt;Arc&lt;JSONSchema&lt;'a&gt;&gt;&gt;) -&gt; impl Responder {\n    HttpResponse::Ok().finish() // todo: use schema for something\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Matt Roberts",
+        "link": "https://stackoverflow.com/users/970736/matt-roberts"
+      }
+    },
+    {
+      "answer_id": 66107666,
+      "body": "<p>You can do:</p>\n<pre><code>fn from_request(req: &amp;HttpRequest, pl: &amp;mut Payload) -&gt; Self::Future {\n   let _state = req.app_data::&lt;Data&lt;State&gt;&gt;();\n   ....\n}\n</code></pre>\n<p>See docs for <a href=\"https://actix.rs/actix-web/actix_web/struct.HttpRequest.html#method.app_data\" rel=\"nofollow noreferrer\">app_data</a></p>\n",
+      "owner": {
+        "display_name": "Njuguna Mureithi",
+        "link": "https://stackoverflow.com/users/1418750/njuguna-mureithi"
+      }
+    },
+    {
+      "answer_id": 65876263,
+      "body": "<p>My suggested approach is through <a href=\"https://actix.rs/docs/middleware/\" rel=\"nofollow noreferrer\">middleware</a>.\nThis code could be made less verbose using <code>.wrap_fn</code>.</p>\n<pre><code>use actix_files::Files;\nuse actix_service::{Service, Transform};\nuse actix_web::{\n    dev::ServiceRequest,\n    dev::ServiceResponse,\n    http::header::{HeaderValue, EXPIRES},\n    middleware, web, App, Error, HttpServer,\n};\n// use actix_http::http::header::Expires;\nuse futures::{\n    future::{ok, Ready},\n    Future,\n};\n\nuse std::pin::Pin;\nuse std::task::{Context, Poll};\n\nstruct MyCacheInterceptor;\n\nimpl&lt;S, B&gt; Transform&lt;S&gt; for MyCacheInterceptor\nwhere\n    S: Service&lt;Request = ServiceRequest, Response = ServiceResponse&lt;B&gt;, Error = Error&gt;,\n    S::Future: 'static,\n    B: 'static,\n{\n    type Request = ServiceRequest;\n    type Response = ServiceResponse&lt;B&gt;;\n    type Error = Error;\n    type InitError = ();\n    type Transform = MyCacheInterceptorMiddleware&lt;S&gt;;\n    type Future = Ready&lt;Result&lt;Self::Transform, Self::InitError&gt;&gt;;\n\n    fn new_transform(&amp;self, service: S) -&gt; Self::Future {\n        ok(MyCacheInterceptorMiddleware { service })\n    }\n}\n\npub struct MyCacheInterceptorMiddleware&lt;S&gt; {\n    service: S,\n}\n\nimpl&lt;S, B&gt; Service for MyCacheInterceptorMiddleware&lt;S&gt;\nwhere\n    S: Service&lt;Request = ServiceRequest, Response = ServiceResponse&lt;B&gt;, Error = Error&gt;,\n    S::Future: 'static,\n    B: 'static,\n{\n    type Request = ServiceRequest;\n    type Response = ServiceResponse&lt;B&gt;;\n    type Error = Error;\n    type Future = Pin&lt;Box&lt;dyn Future&lt;Output = Result&lt;Self::Response, Self::Error&gt;&gt;&gt;&gt;;\n\n    fn poll_ready(&amp;mut self, cx: &amp;mut Context&lt;'_&gt;) -&gt; Poll&lt;Result&lt;(), Self::Error&gt;&gt; {\n        self.service.poll_ready(cx)\n    }\n\n    fn call(&amp;mut self, req: ServiceRequest) -&gt; Self::Future {\n        let fut = self.service.call(req);\n\n        Box::pin(async move {\n            let mut res = fut.await?;\n            let headers = res.headers_mut();\n            headers.append(\n                EXPIRES,\n                HeaderValue::from_static(&quot;Thu, 31 Dec 2037 23:55:55 GMT&quot;),\n            );\n            return Ok(res);\n        })\n    }\n}\n\n#[actix_web::main]\nasync fn main() {\n    HttpServer::new(move || {\n        App::new()\n            .wrap(middleware::Logger::default())\n            .wrap(middleware::Compress::default())\n            .service(\n                web::scope(&quot;/dist&quot;)\n                    .wrap(MyCacheInterceptor)\n                    .service(Files::new(&quot;&quot;, &quot;.&quot;).show_files_listing()),\n            )\n    })\n    .bind(&quot;0.0.0.0:8080&quot;)\n    .unwrap()\n    .run()\n    .await\n    .unwrap();\n}\n\n#[cfg(test)]\nmod tests {\n    use super::*;\n    use actix_web::{test, web, App};\n\n    #[actix_rt::test]\n    async fn test_expire_header() {\n        let mut app = test::init_service(\n            App::new().service(\n                web::scope(&quot;/&quot;)\n                    .wrap(MyCacheInterceptor)\n                    .service(Files::new(&quot;&quot;, &quot;.&quot;).show_files_listing()),\n            ),\n        )\n        .await;\n        let req = test::TestRequest::with_header(&quot;content-type&quot;, &quot;text/plain&quot;).to_request();\n        let resp = test::call_service(&amp;mut app, req).await;\n        assert!(resp.status().is_success());\n        assert!(resp.headers().get(EXPIRES).is_some());\n        assert_eq!(\n            resp.headers().get(EXPIRES).unwrap(),\n            HeaderValue::from_static(&quot;Thu, 31 Dec 2037 23:55:55 GMT&quot;),\n        );\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Njuguna Mureithi",
+        "link": "https://stackoverflow.com/users/1418750/njuguna-mureithi"
+      }
+    },
+    {
+      "answer_id": 65866038,
+      "body": "<p>I figured it out. Changing <code>Result&lt;serde_json::Value, ValidationError&gt;</code> to <code>HttpResponse</code> and returning the json in <code>HttpResponse</code> worked.</p>\n<pre><code>#[post(&quot;/auth&quot;)]\nasync fn auth(form: web::Json&lt;Auth&gt;) -&gt; HttpResponse {\n    match form.validate() {\n        Ok(_) =&gt; HttpResponse::Ok().json(json!{ {&quot;success&quot;:true}}),\n        Err(e) =&gt; HttpResponse::NotAcceptable().body(format!(&quot;{}&quot;, e))\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "sudoExclamationExclamation",
+        "link": "https://stackoverflow.com/users/1634905/sudoexclamationexclamation"
+      }
+    },
+    {
+      "answer_id": 65789099,
+      "body": "<p>The difference between <code>example.rs</code> and <code>post.rs</code> is that <code>post.rs</code> is in the library crate <code>web_project_core</code> while <code>example.rs</code> is in the binary crate <code>main</code>.\nThe path <code>web_project_core::schema::posts</code> is not available in <code>post.rs</code> as <code>web_project_core</code> is the current crate, rather than a dependency.\nInstead of <code>web_project_core::schema::posts</code> you could use <code>crate::schema::posts</code>, when referring to the current crate. The binary implicitly depends on the library as they are in the same package, making the path <code>web_project_core::schema::posts</code> available in <code>example.rs</code></p>\n",
+      "owner": {
+        "display_name": "Skgland",
+        "link": "https://stackoverflow.com/users/7847252/skgland"
+      }
+    },
+    {
+      "answer_id": 65785300,
+      "body": "<h1>Try extractors instead</h1>\n<p>Trying to implement this pattern in Actix 3 I banged my head for awhile trying to use middleware, basically making a guard and then figuring out how to pass data from the middleware into the handler.  It was painful and eventually I realized that I was working against Actix rather than with it.</p>\n<p>Finally I learned out that the way to get information to a handler is to create a struct (<code>AuthedUser</code>, perhaps?) and implement the <code>FromRequest</code> trait on that struct.</p>\n<p>Then every handler that asks for an <code>AuthedUser</code> in the function signature will be auth gated and if the user is logged in will have any user information you attach to <code>AuthedUser</code> in the <code>FromRequest::from_request</code> method.</p>\n<p>Actix refers to these structs that implement <code>FromRequest</code> as <em>extractors</em>.  It's a bit of magic that could use more attention in the guide.</p>\n",
+      "owner": {
+        "display_name": "Doug Bradshaw",
+        "link": "https://stackoverflow.com/users/456878/doug-bradshaw"
+      }
+    },
+    {
+      "answer_id": 65685829,
+      "body": "<p>This can be dealt with <a href=\"https://serde.rs/field-attrs.html#deserialize_with\" rel=\"nofollow noreferrer\">deserialize_with</a>.</p>\n<pre><code>use actix_web::{web, App, HttpServer};\nuse serde::Deserialize;\nuse serde::de::{Deserializer};\n\n#[derive(Debug, Deserialize)]\npub enum ResponseType {\n    Token,\n    Code,\n}\n\nfn from_response_type&lt;'de, D&gt;(deserializer: D) -&gt; Result&lt;Option&lt;ResponseType&gt;, D::Error&gt;\nwhere\n    D: Deserializer&lt;'de&gt;,\n{\n    let res: Option&lt;ResponseType&gt; = Deserialize::deserialize(deserializer).unwrap_or(None);\n    Ok(res)\n}\n\n#[derive(Debug, Deserialize)]\npub struct AuthRequest {\n    id: u64,\n    #[serde(deserialize_with = &quot;from_response_type&quot;)]\n    response_type: Option&lt;ResponseType&gt;,\n}\n\nasync fn index(web::Query(info): web::Query&lt;AuthRequest&gt;) -&gt; String {\n    format!(\n        &quot;Authorization request for client with id={} and type={:?}!&quot;,\n        info.id, info.response_type\n    )\n}\n\n#[actix_web::main]\nasync fn main() -&gt; std::io::Result&lt;()&gt; {\n    HttpServer::new(|| App::new().route(&quot;/&quot;, web::get().to(index)))\n        .bind((&quot;127.0.0.1&quot;, 8080))?\n        .run()\n        .await\n}\n</code></pre>\n<p>Any invalid value is considered a <code>None</code>. The key line being</p>\n<pre><code>let res: Option&lt;ResponseType&gt; = Deserialize::deserialize(deserializer).unwrap_or(None);\n</code></pre>\n",
+      "owner": {
+        "display_name": "Njuguna Mureithi",
+        "link": "https://stackoverflow.com/users/1418750/njuguna-mureithi"
+      }
+    },
+    {
+      "answer_id": 65550910,
+      "body": "<p>you can do</p>\n<pre><code>#[route(&quot;/&quot;, method=&quot;GET&quot;, method=&quot;POST&quot;, method=&quot;PUT&quot;)]\nasync fn index() -&gt; impl Responder {\n  HttpResponse::Ok().body(&quot;Hello world!&quot;)\n}\n\n#[actix_web::main]\nasync fn main() -&gt; std::io::Result&lt;()&gt; {\n  HttpServer::new(move || {\n    App::new()\n        .service(index)\n  })\n  .bind(&quot;127.0.0.1:8080&quot;)?\n  .run()\n  .await\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "tbounsiar",
+        "link": "https://stackoverflow.com/users/9554834/tbounsiar"
+      }
+    },
+    {
+      "answer_id": 65550747,
+      "body": "<p><em>Just reading over everything, your curl might actually be the culprit.</em></p>\n<p>If you include <code>-i</code> to show the response headers, then you can see you're actually receiving a 400 Bad Request.</p>\n<pre class=\"lang-sh prettyprint-override\"><code>$ curl -i -H &quot;Content-Type: application/json&quot; -X POST -d '{ \\\n&gt;     &quot;content&quot;: &quot;This is my first post&quot; \\\n&gt; }' localhost:8080/api/posts/new\nHTTP/1.1 400 Bad Request\ncontent-length: 0\ndate: Sun, 03 Jan 2021 14:04:12 GMT\n</code></pre>\n<p>If you change <code>create_post</code> to take <code>post: String</code> instead of <code>post: web::Json&lt;NewPost&gt;</code>, then it makes it easier to inspect the payload the endpoint is receiving.</p>\n<pre class=\"lang-rust prettyprint-override\"><code>pub async fn create_post(post: String) -&gt; impl Responder {\n    println!(&quot;{}&quot;, post);\n</code></pre>\n<p>Now performing the same <code>curl</code> reveals the following output:</p>\n<pre><code>{ \\\n    &quot;content&quot;: &quot;This is my first post&quot; \\\n}\n</code></pre>\n<p>In short, the issue is that the backslashes remain in the payload. So the only thing you need to do to get it working, is to remove the backslashes.</p>\n<pre class=\"lang-sh prettyprint-override\"><code>curl -H &quot;Content-Type: application/json&quot; -X POST -d '{\n    &quot;content&quot;: &quot;This is my first post&quot;\n}' localhost:8080/api/posts/new\n</code></pre>\n",
+      "owner": {
+        "display_name": "vallentin",
+        "link": "https://stackoverflow.com/users/2470818/vallentin"
+      }
+    },
+    {
+      "answer_id": 65466904,
+      "body": "<p>Both the <a href=\"https://docs.rs/actix-web/3.3.2/actix_web/struct.App.html#method.data\" rel=\"nofollow noreferrer\">API docs</a> and the <a href=\"https://actix.rs/docs/application/\" rel=\"nofollow noreferrer\">Get Started docs</a> explain:</p>\n<blockquote>\n<p><code>HttpServer</code> accepts an application factory rather than an application instance. An <code>HttpServer</code> constructs an application instance <strong>for each thread</strong>. Therefore, <strong>application data must be constructed multiple times</strong>. If you want to share data between different threads, a shareable object should be used, e.g. <code>Send + Sync</code>.</p>\n</blockquote>\n<p>If your <code>clients</code> list is only initialized on server start and otherwise stays immutable then you can just clone it in your app factory function, but if it's suppose to be mutable then you must wrap it in a <code>Arc&lt;Mutex&lt;T&gt;&gt;</code> so that it can safely be cloned, shared, and mutated across <strong>the multiple threads running your app</strong>.</p>\n<p>If the <code>clients</code> list does not change then update your client to <code>derive</code> the <code>Clone</code> trait:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Serialize, Deserialize, Debug, Clone)] // Clone added here\npub struct Client {\n    pub id: String,\n    pub password: String,\n}\n</code></pre>\n<p>And then update your app factory function to <code>move</code> your <code>app_config</code> into itself so you can repeatedly call <code>clone</code> on <code>clients</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>async fn launch_server(app_config: CmkClientServerConfig) -&gt; std::io::Result&lt;()&gt; {\n    HttpServer::new(move || App::new() // move added here\n        .data(Config::default().realm(&quot;Restricted area&quot;))\n        .data(AppState {\n            clients: app_config.clients.clone() // clone() added here\n        })\n        .app_data(web::PayloadConfig::new(1000000))\n        .service(web::resource(&quot;/&quot;).route(web::post().to(index))))\n        .bind(&quot;127.0.0.1:8080&quot;)?\n        .workers(1)\n        .run()\n        .await\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "pretzelhammer",
+        "link": "https://stackoverflow.com/users/2766908/pretzelhammer"
+      }
+    },
+    {
+      "answer_id": 64058241,
+      "body": "<p>I think <a href=\"https://docs.rs/actix-web/2.0.0/actix_web/dev/struct.ServiceRequest.html#method.app_data\" rel=\"noreferrer\"><code>req.app_data()</code></a> is what you want.</p>\n<pre><code>fn call(&amp;mut self, req: ServiceRequest) -&gt; Self::Future {\n    let pool = req.app_data::&lt;web::Data&lt;Pool&lt;MySql&gt;&gt;&gt;().unwrap();\n    // ...\n}\n</code></pre>\n<p>When you call <code>App::data()</code>, actix-web will store the given value into an inner map. The key is its type. When you call <code>app_data()</code>, you try to get value from this map.</p>\n<blockquote>\n<p>I don't know how actix-web passes the arguments to the final route function.</p>\n</blockquote>\n<p>The final route functions just call the <code>&lt;ParamType as FromRequest&gt;::from_request</code> to get values. For example, this what happened when you try to get a <code>web::Data</code>:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>impl&lt;T: 'static&gt; FromRequest for Data&lt;T&gt; {\n    type Config = ();\n    type Error = Error;\n    type Future = Ready&lt;Result&lt;Self, Error&gt;&gt;;\n\n    #[inline]\n    fn from_request(req: &amp;HttpRequest, _: &amp;mut Payload) -&gt; Self::Future {\n        if let Some(st) = req.app_data::&lt;Data&lt;T&gt;&gt;() {\n            ok(st.clone())\n        } else {\n            log::debug!(\n                &quot;Failed to construct App-level Data extractor. \\\n                 Request path: {:?}&quot;,\n                req.path()\n            );\n            err(ErrorInternalServerError(\n                &quot;App data is not configured, to configure use App::data()&quot;,\n            ))\n        }\n    }\n}\n</code></pre>\n<p>You can see that inside <code>from_request</code>, <code>web::Data</code> gets values (your <code>web::Data&lt;T&gt;</code> params) from <code>req.app_data()</code>.</p>\n<p>By the way, I noticed that you are using <code>sqlx</code>, whose <code>Pool</code> actually has an <code>Arc</code> inside. But <code>Data</code> also has an <code>Arc</code> inside. It is redundant. If you mind this, you can define a wrapper type of <code>Pool</code>, and implement the <code>FromRequest</code> trait for it.</p>\n",
+      "owner": {
+        "display_name": "QuarticCat",
+        "link": "https://stackoverflow.com/users/14258517/quarticcat"
+      }
+    },
+    {
+      "answer_id": 63975843,
+      "body": "<p>Seems like you can use the <a href=\"https://github.com/jaemk/cached\" rel=\"nofollow noreferrer\">cached</a> crate.</p>\n<p>Move the logic to another function. Something like the following code works:</p>\n<pre><code>use actix_web::{web, App, HttpServer, HttpResponse};\nuse cached::proc_macro::cached;\n\nasync fn index() -&gt; HttpResponse {\n    dbg!(&quot;in index&quot;);\n    let number = get_number(2);\n    HttpResponse::Ok().body(number.to_string())\n}\n\n#[cached]\nfn get_number(n: i32) -&gt; i32 {\n    dbg!(&quot;in get_number&quot;);\n    n * 2\n}\n\n#[actix_web::main]\nasync fn main() -&gt; std::io::Result&lt;()&gt; {\n    HttpServer::new(move || {\n            App::new()\n                .route(&quot;/&quot;, web::get().to(index))\n        })\n        .bind(&quot;127.0.0.1:8080&quot;)?\n        .run()\n        .await\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Omid",
+        "link": "https://stackoverflow.com/users/377970/omid"
+      }
+    },
+    {
+      "answer_id": 64696253,
+      "body": "<p>When a function returns something like <code>impl Responder</code>, it means that it returns <em>some</em> type that implements <code>Responder</code>. The compiler can deduce the type, but it is &quot;opaque&quot; to any caller, meaning you can't assume anything about what the type actually is. Even if the compiler has a bit more information, types are always matched at function boundaries. This is important so that humans can reason about the code at the function level, without having to hold all of the information about individual lines of a program in their heads.</p>\n<p>A function also must only return one type, so when the compiler comes across a function like this:</p>\n<pre><code>async fn login(tera: web::Data&lt;Tera&gt;, id: Identity) -&gt; impl Responder {\n    let mut data = Context::new();\n    data.insert(&quot;title&quot;, &quot;Login&quot;);\n\n    if let Some(id) = id.identity() {\n        return HttpResponse::Ok().body(format!(&quot;Already logged in: {}.&quot;, id));\n    }\n\n    render_response(tera, &quot;login.html&quot;, &amp;data)\n}\n</code></pre>\n<p>it sees the final statement returning an opaque <code>impl Responder</code> and the early <code>return</code> statement returning a concrete <code>HttpResponse</code>. Even though you know they are actually the same type, that's only because you happen to know how <code>render_response</code> is implemented. This is good because it prevents a change in an unrelated part of your code from breaking this function: you wouldn't want a change to the <em>body</em> of <code>render_response</code> to cause a <em>type</em> mismatch in <code>login</code>.</p>\n<p>Change the return type of <code>render_response</code> to the concrete type and it will work:</p>\n<pre><code>fn render_response(\n    tera: web::Data&lt;Tera&gt;,\n    template_name: &amp;str,\n    context: &amp;Context,\n) -&gt; HttpResponse;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Peter Hall",
+        "link": "https://stackoverflow.com/users/493729/peter-hall"
+      }
+    },
+    {
+      "answer_id": 64634963,
+      "body": "<p>The answer from dmitryvm (thanks for your effort) showed me that there are actually two problems. At first, flatten the <code>Bytes</code> into <code>u8</code>'s and, secondly, to &quot;split&quot; the stream into a buffer for later storage and the <code>async-gcode</code> parser.</p>\n<p>This shows how I solved it:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>#[post(&quot;/upload&quot;)]\npub async fn upload_job(\n    mut payload: Multipart,\n) -&gt; Result&lt;HttpResponse, Error&gt; {\n    let mut contents : Vec&lt;u8&gt; = Vec::new();\n    while let Ok(Some(mut field)) = payload.try_next().await {\n        let content_disp = field.content_disposition().unwrap();\n        match content_disp.get_name().unwrap() {\n            &quot;file&quot; =&gt; {\n                let field_stream = field\n                    .map_err(|_| async_gcode::Error::BadNumberFormat) // Translate error\n                    .map_ok(|y| { // Translate Bytes into stream with Vec&lt;u8&gt;\n                        contents.extend_from_slice(&amp;y);   // Copy and store for later usage\n                        stream::iter(y).map(Result::&lt;_, async_gcode::Error&gt;::Ok) \n                    })\n                    .try_flatten(); // Flatten the streams of u8's\n                let mut parser = Parser::new(field_stream);\n                while let Some(gcode) = parser.next().await {\n                    // Process result from parser\n                }\n            }\n            _ =&gt; (),\n        }\n    }\n    Ok(HttpResponse::Ok().finish())\n}\n\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jonas Wolf",
+        "link": "https://stackoverflow.com/users/2516756/jonas-wolf"
+      }
+    },
+    {
+      "answer_id": 64576921,
+      "body": "<p>Here are the basics. You may need to do a little work here and there but this works.</p>\n<pre><code>use actix::prelude::*;\nuse tokio::process::Command;\nuse actix_web::{ web, App, Error, HttpRequest, HttpResponse, HttpServer};\nuse actix_web_actors::ws;\nuse tokio::io::{ AsyncBufReadExt};\nuse actix::AsyncContext;\nuse tokio::stream::{ StreamExt};\n\nuse tokio::io::{BufReader};\n\nuse std::process::Stdio;\n\n#[derive(Message)]\n#[rtype(result = &quot;Result&lt;(), ()&gt;&quot;)]\nstruct CommandRunner(String);\n\n\n/// Define HTTP actor\nstruct MyWs;\n\nimpl Actor for MyWs {\n    type Context = ws::WebsocketContext&lt;Self&gt;;\n}\n\n#[derive(Debug)]\nstruct Line(String);\n\nimpl StreamHandler&lt;Result&lt;Line, ws::ProtocolError&gt;&gt; for MyWs {\n    fn handle(\n        &amp;mut self,\n        msg: Result&lt;Line, ws::ProtocolError&gt;,\n        ctx: &amp;mut Self::Context,\n    ) {\n        match msg {\n            Ok(line) =&gt; ctx.text(line.0),\n            _ =&gt; () //Handle errors\n        }\n    }\n}\n\n/// Handler for ws::Message message\nimpl StreamHandler&lt;Result&lt;ws::Message, ws::ProtocolError&gt;&gt; for MyWs {\n    fn handle(\n        &amp;mut self,\n        msg: Result&lt;ws::Message, ws::ProtocolError&gt;,\n        ctx: &amp;mut Self::Context,\n    ) {\n        match msg {\n            Ok(ws::Message::Ping(msg)) =&gt; ctx.pong(&amp;msg),\n            Ok(ws::Message::Text(text)) =&gt; {\n                ctx.notify(CommandRunner(text.to_string()));\n            },\n            Ok(ws::Message::Binary(bin)) =&gt; ctx.binary(bin),\n            _ =&gt; (),\n        }\n    }\n}\n\nimpl Handler&lt;CommandRunner&gt; for MyWs {\n    type Result = Result&lt;(), ()&gt;;\n    fn handle(&amp;mut self, msg: CommandRunner, ctx: &amp;mut Self::Context) -&gt; Self::Result  {\n        let mut cmd = Command::new(msg.0);\n\n        // Specify that we want the command's standard output piped back to us.\n        // By default, standard input/output/error will be inherited from the\n        // current process (for example, this means that standard input will\n        // come from the keyboard and standard output/error will go directly to\n        // the terminal if this process is invoked from the command line).\n        cmd.stdout(Stdio::piped());\n\n        let mut child = cmd.spawn()\n            .expect(&quot;failed to spawn command&quot;);\n\n        let stdout = child.stdout.take()\n            .expect(&quot;child did not have a handle to stdout&quot;);\n\n        let reader = BufReader::new(stdout).lines();\n        \n        // Ensure the child process is spawned in the runtime so it can\n        // make progress on its own while we await for any output.\n        let fut = async move {\n            let status = child.await\n                .expect(&quot;child process encountered an error&quot;);\n    \n            println!(&quot;child status was: {}&quot;, status);\n        };\n        let fut = actix::fut::wrap_future::&lt;_, Self&gt;(fut);\n        ctx.spawn(fut);\n        ctx.add_stream(reader.map(|l| Ok(Line(l.expect(&quot;Not a line&quot;)))));\n        Ok(())\n    }\n}\n\nasync fn index(req: HttpRequest, stream: web::Payload) -&gt; Result&lt;HttpResponse, Error&gt; {\n    let resp = ws::start(MyWs {}, &amp;req, stream);\n    println!(&quot;{:?}&quot;, resp);\n    resp\n}\n\n#[actix_web::main]\nasync fn main() -&gt; std::io::Result&lt;()&gt; {\n    HttpServer::new(|| App::new().route(&quot;/ws/&quot;, web::get().to(index)))\n        .bind(&quot;127.0.0.1:8080&quot;)?\n        .run()\n        .await\n}\n</code></pre>\n<p>Running <code>ls</code> Looks like this.</p>\n<p><a href=\"https://i.sstatic.net/F2qGe.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/F2qGe.png\" alt=\"Example\" /></a></p>\n",
+      "owner": {
+        "display_name": "Njuguna Mureithi",
+        "link": "https://stackoverflow.com/users/1418750/njuguna-mureithi"
+      }
+    },
+    {
+      "answer_id": 64351785,
+      "body": "<p>The <code>[derive(Default)]</code> Macro derive the Default Implementation by calling <code>::default</code> on all elements. For i64 this results in 0. What you actually want to do is implement <code>Default</code> yourself:</p>\n<pre><code>#[derive(Deserialize)]\npub struct ListQuery {\n  page: i64,\n  per_page: i64,\n}\nimpl Default for ListQuery {\n  fn default() -&gt; Self {\n    ListQuery {\n      page: 1,\n      per_page: 10\n    }\n  }\n}\n</code></pre>\n<p>This should now provide you with the defaults you wanted.</p>\n",
+      "owner": {
+        "display_name": "standard_revolution",
+        "link": "https://stackoverflow.com/users/13331579/standard-revolution"
+      }
+    },
+    {
+      "answer_id": 64295653,
+      "body": "<p>I am always looking for answers.</p>\n<p>Unfortunately, some web frameworks including actix handle JSON error before we can do any validation. I keep searching for using various keywords. One of them is &quot;actix-web validate JSON&quot; which leads me to many validator crates. But I get insight from this <a href=\"https://blog.sentry.io/2018/12/04/safe-web-services-actix-sentry\" rel=\"noreferrer\">blog</a> saying that:</p>\n<blockquote>\n<p>Extractors are helpers that implement the FromRequest trait. In other words, they construct any object from a request and perform validation along the way. A handful of useful extractors are shipped with Actix web, such as JSON which uses serde_json to deserialize a JSON request body</p>\n</blockquote>\n<p>So, I search for &quot;actix Extractor&quot; and bring me <a href=\"https://actix.rs/docs/extractors/\" rel=\"noreferrer\">Extractor Doc</a> and <a href=\"https://github.com/actix/actix-web/issues/181\" rel=\"noreferrer\">custom handling of extractor errors</a></p>\n<p>So this snippet is taken from <a href=\"https://github.com/zupzup/rust-web-example/blob/ae230ce2e77dc0306fea5a342f75aaa856ebb191/src/handlers/mod.rs#L34\" rel=\"noreferrer\">this boilerplate</a> solves my current problem.</p>\n<pre><code>   App::new()\n       .configure(health::init)\n       .configure(students::init)\n+      .app_data(web::JsonConfig::default().error_handler(|err, _req| {\n+          error::InternalError::from_response(\n+              &quot;&quot;,\n+              HttpResponse::BadRequest()\n+                  .content_type(&quot;application/json&quot;)\n+                  .body(format!(r#&quot;{{&quot;error&quot;:&quot;{}&quot;}}&quot;#, err)),\n+          )\n+          .into()\n+      }))\n\n</code></pre>\n<p><a href=\"https://i.sstatic.net/04sTx.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/04sTx.png\" alt=\"enter image description here\" /></a></p>\n<p><a href=\"https://i.sstatic.net/b8oYD.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/b8oYD.png\" alt=\"enter image description here\" /></a></p>\n",
+      "owner": {
+        "display_name": "azzamsa",
+        "link": "https://stackoverflow.com/users/6000005/azzamsa"
+      }
+    },
+    {
+      "answer_id": 64028451,
+      "body": "<p>See <a href=\"https://docs.rs/actix-rt/1.1.1/actix_rt/fn.spawn.html\" rel=\"noreferrer\"><code>actix_rt::spawn</code></a> and <a href=\"https://docs.rs/actix-rt/1.1.1/actix_rt/time/fn.interval.html\" rel=\"noreferrer\"><code>actix_rt::time::interval</code></a>.</p>\n<p>Here is an example:</p>\n<pre class=\"lang-rust prettyprint-override\"><code>spawn(async move {\n    let mut interval = time::interval(Duration::from_secs(10));\n    loop {\n        interval.tick().await;\n        // do something\n    }\n});\n</code></pre>\n",
+      "owner": {
+        "display_name": "QuarticCat",
+        "link": "https://stackoverflow.com/users/14258517/quarticcat"
+      }
+    },
+    {
+      "answer_id": 63881070,
+      "body": "<p><code>client.query(statement, params)</code> will convert the first argument <code>statement</code> to a prepared statement and execute it with the <code>params</code>.</p>\n<p>To be safe from sql injection, make sure that all user data is passed in the second <code>params</code> argument.</p>\n<p><strong>DO NOT DO THIS:</strong></p>\n<pre class=\"lang-rust prettyprint-override\"><code>let id = &quot;SOME DATA FROM THE USER&quot;;\n\nlet rows = client\n  .query(format!(&quot;SELECT * FROM SomeTable WHERE id = {}&quot;, id), &amp;[])\n  .await?;\n</code></pre>\n<p><strong>DO THIS:</strong></p>\n<pre class=\"lang-rust prettyprint-override\"><code>let id = &quot;SOME DATA FROM THE USER&quot;;\n\nlet rows = client\n  .query(&quot;SELECT * FROM SomeTable WHERE id = $1&quot;, &amp;[&amp;id])\n  .await?;\n</code></pre>\n<p><strong>Explanation:</strong></p>\n<p>In <code>tokio-postgres</code> most client methods (<code>query*</code> or <code>execute*</code>) can accept either a <code>&amp;str</code> or <code>Statement</code> for the sql statement.  If passed a <code>&amp;str</code> it will create a prepared statement (<code>Statement</code> object) for you.</p>\n",
+      "owner": {
+        "display_name": "Neopallium",
+        "link": "https://stackoverflow.com/users/98107/neopallium"
+      }
+    },
+    {
+      "answer_id": 63828556,
+      "body": "<p>There is <a href=\"https://github.com/actix/actix-web/blob/74491dca59b3173f75fda2799ee7a44c755866a1/src/handler.rs#L27\" rel=\"noreferrer\">an implementation of the trait</a> just after your snippet:</p>\n<pre><code>impl&lt;F, R, O&gt; Factory&lt;(), R, O&gt; for F\nwhere\n    F: Fn() -&gt; R + Clone + 'static,\n    R: Future&lt;Output = O&gt;,\n    O: Responder,\n{\n    fn call(&amp;self, _: ()) -&gt; R {\n        (self)()\n    }\n}\n</code></pre>\n<p>This can be read as: if a type <code>F</code> implements <code>Fn() -&gt; Future&lt;Output = impl Responder&gt; + ...</code> then it also implements <code>Factory&lt;(), _, _&gt;</code>.</p>\n<p>And an <code>async fn</code> is syntactic sugar for a function which returns a <code>Future</code> of some sort (and can use <code>.await</code> internally), so <code>async fn index() -&gt; impl Responder</code> implements <code>Fn() -&gt; impl Future&lt;Output = impl Responder&gt;</code> so it also implements <code>Factory&lt;(), _, _&gt;</code>.</p>\n",
+      "owner": {
+        "display_name": "rodrigo",
+        "link": "https://stackoverflow.com/users/865874/rodrigo"
+      }
+    },
+    {
+      "answer_id": 63153702,
+      "body": "<p>This answer is a bear minimum example of the Actix way to solve your problem. There may be shorter ways to achieve what you want though.</p>\n<p>First you need to import the <code>actix</code> crate:</p>\n<pre><code>[package]\nname = &quot;test-actix-redis&quot;\nversion = &quot;0.1.0&quot;\nauthors = [&quot;Njuguna Mureithi &lt;email@gmail.com&gt;&quot;]\nedition = &quot;2018&quot;\n\n# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html\n\n[dependencies]\nactix-web = &quot;2.0&quot;\nactix-rt = &quot;1.0&quot;\nredis = &quot;0.15&quot;\nactix = &quot;0.10.0-alpha.3&quot;\n</code></pre>\n<p>Then define your actor:</p>\n<pre><code>use actix_web::{web, App, HttpResponse, HttpServer, Responder};\nuse redis::{Client, aio::MultiplexedConnection};\nuse actix::prelude::*;\n\nstruct RedisActor {\n    conn: MultiplexedConnection,\n}\n\nimpl RedisActor {\n    pub async fn new(redis_url: &amp;'static str) -&gt; Self {\n        let client = Client::open(redis_url).unwrap();// not recommended\n        let (conn, call) = client.get_multiplexed_async_connection().await.unwrap();\n        actix_rt::spawn(call);\n        RedisActor { conn }\n    }\n}\n\n#[derive(Message, Debug)]\n#[rtype(result = &quot;Result&lt;Option&lt;String&gt;, redis::RedisError&gt;&quot;)]\nstruct InfoCommand;\n\n\n\nimpl Handler&lt;InfoCommand&gt; for RedisActor {\n    type Result = ResponseFuture&lt;Result&lt;Option&lt;String&gt;, redis::RedisError&gt;&gt;;\n\n    fn handle(&amp;mut self, _msg: InfoCommand, _: &amp;mut Self::Context) -&gt; Self::Result {\n        let mut con = self.conn.clone();\n        let cmd = redis::cmd(&quot;INFO&quot;);\n        let fut = async move {\n            cmd\n                .query_async(&amp;mut con)\n                .await\n        };\n        Box::pin(fut)\n    }\n}\n\n\nimpl Actor for RedisActor {\n    type Context = Context&lt;Self&gt;;\n}\n\nasync fn info(redis: web::Data&lt;Addr&lt;RedisActor&gt;&gt;) -&gt; impl Responder {\n    let res = redis.send(InfoCommand).await.unwrap().unwrap().unwrap();\n    HttpResponse::Ok().body(res)\n}\n\n\n\n\n#[actix_rt::main]\nasync fn main() -&gt; std::io::Result&lt;()&gt; {\n    let actor = RedisActor::new(&quot;redis://127.0.0.1:6379&quot;).await;\n    let addr = actor.start();\n    HttpServer::new(move || {\n        App::new()\n            .data(addr.clone())\n            .route(&quot;/&quot;, web::get().to(info))\n    })\n    .bind(&quot;127.0.0.1:8088&quot;)?\n    .run()\n    .await\n}\n</code></pre>\n<p>Now run your project:</p>\n<pre><code>cargo run\n</code></pre>\n<p>Going to <code>http://localhost:8088/</code> should give you your redis info as a string.</p>\n",
+      "owner": {
+        "display_name": "Njuguna Mureithi",
+        "link": "https://stackoverflow.com/users/1418750/njuguna-mureithi"
+      }
+    },
+    {
+      "answer_id": 62671921,
+      "body": "<p><a href=\"https://docs.rs/actix-web/2.0.0/actix_web/struct.HttpRequest.html#impl-HttpMessage\" rel=\"noreferrer\">HttpRequest implements</a> <a href=\"https://docs.rs/actix-web/2.0.0/actix_web/trait.HttpMessage.html\" rel=\"noreferrer\">HttpMessage</a> which <a href=\"https://docs.rs/actix-web/2.0.0/actix_web/trait.HttpMessage.html#method.cookie\" rel=\"noreferrer\">has a cookie method</a> so just call that?</p>\n",
+      "owner": {
+        "display_name": "Masklinn",
+        "link": "https://stackoverflow.com/users/8182118/masklinn"
+      }
+    },
+    {
+      "answer_id": 62372962,
+      "body": "<p>I have solved this by joining 2 async functions,\ncreated another async function</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>async fn another_func() -&gt; Result&lt;()&gt; {\n...\n}\n</code></pre>\n\n<p>and have used <em>future::join()</em> like this</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>let server = HttpServer::new(move || {\n        let app_state = {...some state};\n        App::new()\n            .data(app_state)\n            .wrap(middleware::Logger::default())\n            .service(network_api::init_service())\n    })    \n    .bind(address)?\n    .run();\n\nfuture::join(server, another_func()).await;\n\nOk(()\n</code></pre>\n\n<p>Of course if anyone has a better answer please post it</p>\n",
+      "owner": {
+        "display_name": "high incompetance",
+        "link": "https://stackoverflow.com/users/6772899/high-incompetance"
+      }
+    },
+    {
+      "answer_id": 60896650,
+      "body": "<p>You can use <code>Option&lt;T&gt;</code> as the type for a field to have it be optional. If a field is missing during deserialization, the field is set to <code>None</code>, otherwise it is set to <code>Some(value)</code>.</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Deserialize)]\nstruct IncomingPayload {\n    pub field1: Option&lt;i32&gt;,\n    pub field2: Option&lt;String&gt;,\n}\n</code></pre>\n\n<p>For types that implement <code>Default</code>, you can also use the <code>#[serde(default)]</code> to set the field to the default value if the field is missing.</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>#[derive(Deserialize)]\nstruct IncomingPayload {\n    #[serde(default)] // default = 0\n    pub field1: i32,\n    #[serde(default)] // default = empty string\n    pub field2: String,\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Freyja",
+        "link": "https://stackoverflow.com/users/423170/freyja"
+      }
+    },
+    {
+      "answer_id": 60848415,
+      "body": "<p>It's always good to see what's in your <code>Cargo.lock</code> file and look are pointing for package dependencies.</p>\n\n<pre><code>[[package]]\nname = \"diesel\"\nversion = \"1.4.4\"\n...\n \"uuid 0.6.5\", &lt;-- It was older version even I've installed newest version of uuid\n]\n</code></pre>\n\n<p>as soon as change features to <code>uuidv07</code> and run <code>cargo update</code> Cargo.lock file also changes. If you want to check which <code>Uuid</code> is applied by diesel. It's possible checking it by looking to the source of the <code>diesel::sql_types::Uuid</code> to be sure they are using the same versions as <code>uuid::Uuid</code>.</p>\n\n<p>P.S: Answer was commented by @weiznich in the question post, just adding little bit detailed information and as an answer post whom, who not read comments and look for answer only </p>\n",
+      "owner": {
+        "display_name": "rashad",
+        "link": "https://stackoverflow.com/users/3269916/rashad"
+      }
+    },
+    {
+      "answer_id": 60425490,
+      "body": "<p>To solve this <code>format!(\"{:?}\", res.reponse().error())</code> was needed. That does return <code>Some(error message)</code> so just to account for that the following worked.</p>\n\n<pre><code>let errorMsg: String = match res.response().error() {\n    Some(e) =&gt; format!(\"{:?}\", e),\n    None =&gt;  String::from(\"Unknown Error\")\n};\nlet new_res: ServiceResponse&lt;Body&gt; = res.map_body(|_head, _body| {\n    ResponseBody::Other(Body::Message(Box::new(errorMsg)))\n});\nOk(ErrorHandlerResponse::Response(new_res))\n</code></pre>\n",
+      "owner": {
+        "display_name": "rpascal",
+        "link": "https://stackoverflow.com/users/4717937/rpascal"
+      }
+    },
+    {
+      "answer_id": 59773073,
+      "body": "<p>That is a perfect fit for <a href=\"https://doc.rust-lang.org/stable/std/primitive.tuple.html\" rel=\"noreferrer\">tuple</a>:</p>\n\n<pre><code>pub fn setExtConfig(\n    param: web::Path&lt;(String, String)&gt;,\n    _req: HttpRequest,\n) -&gt; HttpResponse {\n    println!(\"{} {}\", param.0, param.1);\n    HttpResponse::Ok().content_type(\"text/html\").body(\"OK\")\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "edwardw",
+        "link": "https://stackoverflow.com/users/794457/edwardw"
+      }
+    },
+    {
+      "answer_id": 59644846,
+      "body": "<p>As far as <code>actix-web</code>'s own API is concerned, there really isn't much changed between <code>1.0</code> and <code>2.0</code>. That's a good thing since you still have the familiar API at your disposal to configure routes, application data, logger, etc.</p>\n\n<p>One thing that does change is <code>actix-web</code> has moved to async / await. Your application needs to adapt to it as well:</p>\n\n<pre><code>//# actix-rt = \"1.0\"\n//# actix-web = \"2.0\"\n//# futures = \"0.3\"\nuse actix_web::{web, App, HttpServer, Responder};\nuse futures::future;\n\nasync fn utils_one() -&gt; impl Responder {\n    \"Utils one reached\\n\"\n}\n\nasync fn health() -&gt; impl Responder {\n    \"All good\\n\"\n}\n\n#[actix_rt::main]\nasync fn main() -&gt; std::io::Result&lt;()&gt; {\n    let s1 = HttpServer::new(move || {\n            App::new().service(web::scope(\"/utils\").route(\"/one\", web::get().to(utils_one)))\n        })\n        .bind(\"0.0.0.0:3006\")?\n        .run();\n    let s2 = HttpServer::new(move || {\n            App::new().service(web::resource(\"/health\").route(web::get().to(health)))\n        })\n        .bind(\"0.0.0.0:8080\")?\n        .run();\n    future::try_join(s1, s2).await?;\n\n    Ok(())\n}\n</code></pre>\n\n<p>I suppose you can still use <code>Server::build</code> API to build up multiple bindings, but the approach showed here is more modular. <code>HttpServer::run</code> just returns a <code>Future</code> now. You then join the two and await on both of them.</p>\n\n<p>It works as expected:</p>\n\n<pre><code>$ curl http://127.0.0.1:3006/utils/one\nUtils one reached\n$ curl http://127.0.0.1:8080/health\nAll good\n</code></pre>\n",
+      "owner": {
+        "display_name": "edwardw",
+        "link": "https://stackoverflow.com/users/794457/edwardw"
+      }
+    },
+    {
+      "answer_id": 59521179,
+      "body": "<p><code>HttpServer::new</code> takes a closure which is called for each thread that runs the server. This means that multiple instances of <code>AppState</code> is created, one for each thread. Depending on which thread answers the HTTP request, you will get different instances of <code>data</code> and therefor different counter values.</p>\n\n<p>To prevent this from happening, create <code>web::Data&lt;AppState&gt;</code> outside the closure and use a cloned reference inside the <code>HttpServer::new</code> closure. </p>\n",
+      "owner": {
+        "display_name": "arve0",
+        "link": "https://stackoverflow.com/users/2597447/arve0"
+      }
+    },
+    {
+      "answer_id": 59352069,
+      "body": "<p>By default <code>All</code> origins is <a href=\"https://docs.rs/actix-cors/0.2.0-alpha.3/actix_cors/struct.Cors.html#method.allowed_origin\" rel=\"noreferrer\">allowed</a></p>\n\n<p>This is my simple CORS setup (allow all origins and methods + allow send credentials)</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>Cors::new().supports_credentials() \n</code></pre>\n\n<p>You can start with it, and disallow methods, origins and headers step-by-step.</p>\n",
+      "owner": {
+        "display_name": "estin",
+        "link": "https://stackoverflow.com/users/258194/estin"
+      }
+    },
+    {
+      "answer_id": 59001084,
+      "body": "<p><a href=\"https://docs.rs/actix-web/1.0.9/actix_web/struct.Route.html#method.to_async\" rel=\"nofollow noreferrer\">to_async</a> requires a handler function that implements the trait <code>AsyncFactory</code>. Changing the <code>Future</code>'s <code>Item</code> to <code>actix_web::HttpResponse</code> and putting the <code>reqwest</code> request inside <code>actix_web::web::block</code> satisfies that constraint.</p>\n\n<p>I also tested this with slow responses, and despite the word \"block\" in <code>actix_web::web::block</code>, it seemed to handle concurrent requests, and I think that's because the handler itself is async.</p>\n\n<pre><code>use actix_web::{middleware, web, App, HttpResponse, HttpServer};\nuse futures::Future;\nuse reqwest;\nuse reqwest::Client;\n\nstatic REDDIT: &amp;str = \"http://www.reddit.com/r/rust.json\";\n\nfn get_rust_posts(\n    _req: actix_web::HttpRequest,\n    client: web::Data&lt;Client&gt;,\n) -&gt; impl Future&lt;Item = HttpResponse, Error = actix_web::Error&gt; {\n    let builder = client.get(REDDIT);\n    actix_web::web::block(move || builder.send())\n        .from_err()\n        .and_then(|mut res| match res.text() {\n            Ok(body) =&gt; HttpResponse::Ok()\n                .content_type(\"application/json\")\n                .body(body),\n            Err(error) =&gt; {\n                println!(\"get_request error: {}\", error);\n                HttpResponse::InternalServerError()\n                    .content_type(\"application/json\")\n                    .body(format!(\"{{\\\"error\\\": \\\"Error getting response text.\\\"}}\"))\n            }\n        })\n}\n\nfn main() {\n    HttpServer::new(|| {\n        App::new()\n            .data(Client::new())\n            .wrap(middleware::Logger::default())\n            .service(web::resource(\"/get/rust/posts\").route(web::get().to_async(get_rust_posts)))\n    })\n    .bind(\"127.0.0.1:5000\")\n    .unwrap()\n    .run()\n    .unwrap();\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Rokit",
+        "link": "https://stackoverflow.com/users/996314/rokit"
+      }
+    },
+    {
+      "answer_id": 58768893,
+      "body": "<p>I am going with futures-cpupool. It is the best solution due to the blocking nature of my interactions.</p>\n\n<p>Using actix_web::web::block is decent enough, but will use a shared thread-pool in actix (and due to the blocking calls I use this can block the entire thread pool and interfere with other tasks given to actix_web).</p>\n\n<p>It is better to use futures-cpupool to create a separate threadpool per database just for database interactions. This way you group all the tasks that need to wait for each other (when there are more tasks than connections) into one pool, preventing them from blocking any other tasks that don't need a connection and potentially limiting the number of threads to the number of connections (so that the task will only be scheduled when it won't be blocked).</p>\n\n<p>In the case where you only want to use one database connection (or very few) the sync actor is a pretty good option. It will act like a futures-cpupool with one thread, ensuring that all tasks are run one at a time, except that it will use one of actix-web's underlying threads rather than a separate one (therefore, only good for very few connections). I find the boilerplate too big to be worth it, though.</p>\n",
+      "owner": {
+        "display_name": "logina",
+        "link": "https://stackoverflow.com/users/12343090/logina"
+      }
+    },
+    {
+      "answer_id": 58633515,
+      "body": "<p>You can use the same logger for Actix-web and the rest of your application. The key is to distinguish the calls to the macros (trace!, debug!, info!, warn! and error!) by including the optional parameter <code>target</code>. Then you have to set the RUST_LOG environment variable.</p>\n\n<p>Example invocation:</p>\n\n<pre><code>RUST_LOG=\"info,parser::expression=trace,actix_web=info\" cargo run\n</code></pre>\n\n<ul>\n<li>The <code>actix_web</code> targets their code and prints the info and higher level messages.</li>\n<li>The <code>parser::expression</code> targets a portion of my code and enables trace level messages.</li>\n</ul>\n\n<p>In my code, here is a sample trace message:</p>\n\n<pre><code>    trace!(target: \"parser::expression\", \"Tracing: {}\", self.expression_source);\n\n</code></pre>\n\n<p>If you omit the <code>target</code> parameter, your module path becomes the default target, or so the docs say, but every spelling I have used for the module path, including more and fewer pieces, including the class name, etc, all fail, so I do not understand the docs. Specifying it manually does work, so that is what I do.</p>\n\n<p>It is also important to setup the crate import correctly in the Cargo.toml file:</p>\n\n<pre><code>[dependencies]\nlog = { version = \"0.4\", features = [\"max_level_trace\", \"release_max_level_warn\", \"std\", \"serde\"] }\n</code></pre>\n\n<p>The above permits trace messages on the dev build, but only warnings on the release build. The compiler will discard the code at compile time, so changing the environment variable at run time will have no effect on this kind of change.</p>\n\n<p>Here is some useful documentation:</p>\n\n<p><a href=\"https://rust-lang-nursery.github.io/rust-cookbook/development_tools/debugging/config_log.html\" rel=\"nofollow noreferrer\">https://rust-lang-nursery.github.io/rust-cookbook/development_tools/debugging/config_log.html</a></p>\n",
+      "owner": {
+        "display_name": "Paul Chernoch",
+        "link": "https://stackoverflow.com/users/127251/paul-chernoch"
+      }
+    },
+    {
+      "answer_id": 57801958,
+      "body": "<p><code>std::future</code> -> <code>future@0.1</code> conversion steps:</p>\n\n<ul>\n<li>The future needs to be <code>TryFuture</code> (<code>Output = Result&lt;T, E&gt;</code>)</li>\n<li>The future needs to be <code>Unpin</code> (you can use <code>boxed</code> combinator)</li>\n<li>Finally, you can call the <code>compat</code> combinator</li>\n</ul>\n\n<p>Your <code>inbound</code> function:</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>fn inbound(\n    req: HttpRequest,\n    stream: web::Payload,\n) -&gt; impl Future&lt;Item = HttpResponse, Error = Error&gt; {\n    let fut = async_inbound(&amp;req, &amp;stream);\n    fut.unit_error().boxed_local().compat()\n}\n</code></pre>\n\n<p>The <code>inbound</code> function signature is fine, but the conversion isn't.</p>\n\n<p>The <code>async_inbound</code> function isn't <code>TryFuture</code> (because of <code>-&gt; HttpResponse</code>). You're trying to convert it with the <code>unit_error</code> combinator, but the result is <code>Result&lt;HttpResponse, ()&gt;</code> and you want <code>Result&lt;HttpResponse, Error&gt;</code>. Fixed <code>inbound</code> function:</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>fn inbound(\n    req: HttpRequest,\n    stream: web::Payload,\n) -&gt; impl Future&lt;Item = HttpResponse, Error = Error&gt; {\n    let fut = async_inbound(req, stream);\n    fut.boxed_local().compat()\n}\n</code></pre>\n\n<p>Your <code>async_inbound</code> function:</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>async fn async_inbound(req: &amp;HttpRequest, stream: &amp;web::Payload) -&gt; HttpResponse {\n    // ...\n}\n</code></pre>\n\n<p>The first issue here is to replace <code>-&gt; HttpResponse</code> with <code>-&gt; Result&lt;HttpResponse&gt;</code>. Another problem is that you're passing <code>reg</code> and <code>stream</code> by reference. Move them as there's no need to take a reference and you'll need <code>'static</code>. Fixed <code>async_inbound</code> function:</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>async fn async_inbound(req: HttpRequest, stream: web::Payload) -&gt; Result&lt;HttpResponse&gt; {\n    let mut compat_stream = stream.compat();\n\n    while let Some(data) = compat_stream.try_next().await? {\n        println!(\"{:?}\", data);\n    }\n\n    Ok(HttpResponse::Ok().content_type(\"text/html\").body(\"RESP\"))\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "zrzka",
+        "link": "https://stackoverflow.com/users/581190/zrzka"
+      }
+    },
+    {
+      "answer_id": 58599995,
+      "body": "<p>You cannot borrow a reference-counting pointer as mutable; this is because one of the guarantees it provides is only possible if the structure is read-only.</p>\n\n<p>You can, however, get around it, but it will require some signature changes.</p>\n\n<h1>Enter interior mutability</h1>\n\n<p>Interior mutability is a concept you may know from other programming languages in the form of mutexes, atomics and synchronization primitives. In practice, those structures allow you to temporarily guarantee that you are the <em>only</em> accessor of a given variable.</p>\n\n<p>In Rust, this is particularly good, as it allows us to extract a mutable reference to an interior member from a structure that only requires immutable references to itself to function. Perfect to fit in <code>Rc</code>.</p>\n\n<p>Depending on what you need for your needs, you will find the <a href=\"https://doc.rust-lang.org/std/cell/struct.Cell.html\" rel=\"noreferrer\"><code>Cell</code></a> and <a href=\"https://doc.rust-lang.org/std/cell/struct.RefCell.html\" rel=\"noreferrer\"><code>RefCell</code></a> structures to be exactly what you need for this. These are not thread-safe, but then again, neither is <code>Rc</code> so it's not exactly a deal-breaker.</p>\n\n<p>In practice, it works very simply:</p>\n\n<pre><code>let data = Rc::new(RefCell::new(true));\n{\n  let mut reference = data.borrow_mut();\n  *reference = false;\n}\nprintln!(\"{:?}\", data);\n</code></pre>\n\n<p><a href=\"https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2018&amp;gist=dca128696b2f7d51caa6240d21cf1d83\" rel=\"noreferrer\"><strong>playground</strong></a></p>\n\n<p>(If you ever want the threaded versions, <code>Arc</code> replaces <code>Rc</code> and <code>Mutex</code> or <code>RwLock</code> replaces <code>Cell</code>/<code>RefCell</code>)</p>\n",
+      "owner": {
+        "display_name": "S&#233;bastien Renauld",
+        "link": "https://stackoverflow.com/users/2167834/s%c3%a9bastien-renauld"
+      }
+    },
+    {
+      "answer_id": 58485638,
+      "body": "<p>Bytes extractor works fine</p>\n\n<pre><code>pub fn user_login_bin(req: HttpRequest, body: Bytes) -&gt; HttpResponse {\n   println!(\"{:?}\", req);\n   println!(\"{:?}\", body);\n\n   HttpResponse::Ok().into()\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Piotr Płaczek",
+        "link": "https://stackoverflow.com/users/9018487/piotr-p%c5%82aczek"
+      }
+    },
+    {
+      "answer_id": 58445960,
+      "body": "<p>The two cases you listed really don't have much difference:</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>//# actix-web = \"1.0.8\"\nuse actix_web::{get, web, App, HttpResponse, HttpServer, Responder};\nuse std::sync::Mutex;\n\nconst SERVICE_NAME : &amp;str = \"Shy Rules Engine\";\nconst SERVICE_VERSION : &amp;str  = \"0.1\";\n\nstruct MyData {\n    counter: usize,\n}\n\n#[get(\"/\")]\nfn index(data: web::Data&lt;Mutex&lt;MyData&gt;&gt;) -&gt; impl Responder {\n    let mut data = data.lock().unwrap();\n    data.counter += 1;\n    println!(\"Endpoint visited: {}\", data.counter);\n    HttpResponse::Ok().body(format!(\"{} version {}\", SERVICE_NAME, SERVICE_VERSION))\n}\n\npub fn shy_service(ip : &amp;str, port : &amp;str) {\n    let data = web::Data::new(Mutex::new(MyData{ counter: 0 }));\n\n    HttpServer::new(move || {\n        App::new()\n            .register_data(data.clone())\n            .service(index)\n    })\n    .bind(format!(\"{}:{}\", ip, port))\n    .unwrap()\n    .run()\n    .unwrap();\n}\n\nfn main() {\n    shy_service(\"127.0.0.1\", \"8080\");\n}\n</code></pre>\n\n<p>You can verify that it works by simply <code>curl</code> the http endpoint. For <a href=\"https://actix.rs/docs/extractors/\" rel=\"noreferrer\">multiple extractors</a>, you'll have to use tuple:</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>    #[post(\"/expression/execute\")]\n    fn route((req, data): (web::Json&lt;ExpressionExecuteRequest&gt;, web::Data&lt;Mutex&lt;MyData&gt;&gt;)) -&gt; HttpResponse {\n        unimplemented!()\n    }\n</code></pre>\n",
+      "owner": {
+        "display_name": "edwardw",
+        "link": "https://stackoverflow.com/users/794457/edwardw"
+      }
+    },
+    {
+      "answer_id": 58070229,
+      "body": "<p>You can create your own type, <code>Authorized</code>, implement <a href=\"https://docs.rs/actix-web/1.0.7/actix_web/trait.FromRequest.html\" rel=\"noreferrer\"><code>FromRequest</code></a> for it and define <code>Authorized</code> as an argument in the handlers that should be checked for authorization.</p>\n\n<p>Simplified example:</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>use actix_web::dev::Payload;\nuse actix_web::error::ErrorUnauthorized;\nuse actix_web::{web, App, Error, FromRequest, HttpRequest, HttpResponse, HttpServer};\n\nfn main() {\n    HttpServer::new(move || App::new().route(\"/\", web::to(index)))\n        .bind(\"127.0.0.1:3000\")\n        .expect(\"Can not bind to '127.0.0.1:3000'\")\n        .run()\n        .unwrap();\n}\n\nfn index(_: Authorized) -&gt; HttpResponse {\n    HttpResponse::Ok().body(\"authorized\")\n}\n\nstruct Authorized;\n\nimpl FromRequest for Authorized {\n    type Error = Error;\n    type Future = Result&lt;Self, Error&gt;;\n    type Config = ();\n\n    fn from_request(req: &amp;HttpRequest, _: &amp;mut Payload) -&gt; Self::Future {\n        if is_authorized(req) {\n            Ok(Authorized)\n        } else {\n            Err(ErrorUnauthorized(\"not authorized\"))?\n        }\n    }\n}\n\nfn is_authorized(req: &amp;HttpRequest) -&gt; bool {\n    if let Some(value) = req.headers().get(\"authorized\") {\n        // actual implementation that checks header here\n        dbg!(value);\n        true\n    } else {\n        false\n    }\n}\n</code></pre>\n\n<p>This code yields:</p>\n\n<pre class=\"lang-sh prettyprint-override\"><code>$ curl localhost:3000\nnot authorized⏎\n$ curl localhost:3000 -H 'Authorized: i am root'\nauthorized⏎\n</code></pre>\n\n<p>You could probably do something in the same lines with middlewares, but I have not got my head around the middleware abstraction. Also, you might want to provide useful information to the handlers, like username:</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>struct Authorized {\n    username: String\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "arve0",
+        "link": "https://stackoverflow.com/users/2597447/arve0"
+      }
+    },
+    {
+      "answer_id": 57964802,
+      "body": "<p>The quick answer is that there is a second config (<code>FormConfig</code>), which is what you're hitting your head against. It is unclear as it returns the same error type as <code>PayloadConfig</code> (there is a reason for that, which I will explain in the \"longer version\")</p>\n\n<p>Change your actix server definition to this to change it to, say, 256kb:</p>\n\n<pre><code>HttpServer::new(|| {\n    App::new().service(\n        web::resource(\"/\")\n            .route(web::post()\n                .to(index)\n            )\n            .data(web::Form::&lt;MyParams&gt;::configure(|cfg| cfg.limit(256 * 1024)))\n    )\n})\n.bind(\"127.0.0.1:48627\")?\n.run()\n</code></pre>\n\n<p>You will also need to import <code>actix_web::FromRequest</code>, as this is where the object type change from a request to a urlencoded form happens and where the <code>configure()</code> method lives.</p>\n\n<p>Now, for the explanation!</p>\n\n<p>Actix, much like other frameworks, has multiple layers of limits in place. You've found one of them, this is another.</p>\n\n<p>The one you found prevents denial of service through memory exhaustion (i.e. somebody sending a deliberately large payload to oom your server, as it will have to store the body somewhere to process). It governs the <em>entire</em> payload of the request.</p>\n\n<p>The one you are hitting against is a much smaller limitation placed on each individual field, and it exists to prevent a different kind of exhaustion attack. Suppose your attacker knows you're parsing the input with something; let's pretend it's JSON. By sending an arbitrarily large and convoluted JSON, they can effectively lock your server down while processing a single request. Small data input, <em>very</em> large consequences.</p>\n\n<p>For that reason, the two limits are typically independent of each other, and allow you to fine-tune the restrictions based on your requirements. Lots of small fields? No problem. One huge chunk? Also not a problem.</p>\n\n<p>The effect of the <code>FormConfig</code> limit is located <a href=\"https://github.com/actix/actix-web/blob/23d768a77b42c5df45ef76bbc1f84cfee62ee09c/src/types/form.rs#L117\" rel=\"nofollow noreferrer\">here</a> in case you want to see the code itself. As the type return is the same as that of the <code>PayloadConfig</code> limit ( (the <code>Overflow</code> variant of this struct)[<a href=\"https://docs.rs/actix-web/1.0.7/actix_web/error/enum.UrlencodedError.html]\" rel=\"nofollow noreferrer\">https://docs.rs/actix-web/1.0.7/actix_web/error/enum.UrlencodedError.html]</a>), the message is unclear and you end up scratching your head as a result.</p>\n\n<p>The main aim of the error being \"similar\" was, I think, to prevent the server from indicating to a potential attacker which limit they hit, and <a href=\"https://docs.rs/actix-web/1.0.7/src/actix_web/error.rs.html#52\" rel=\"nofollow noreferrer\">it seems to be what they had in mind</a>. The user-facing error description is the problem, and that's something that may get adjusted with a well-placed PR.</p>\n",
+      "owner": {
+        "display_name": "S&#233;bastien Renauld",
+        "link": "https://stackoverflow.com/users/2167834/s%c3%a9bastien-renauld"
+      }
+    },
+    {
+      "answer_id": 57890157,
+      "body": "<p>With the help of the fine people in the actix-web Gitter channel, I came to this solution which I also made <a href=\"https://github.com/actix/examples/pull/170\" rel=\"nofollow noreferrer\">a PR</a> for.</p>\n\n<p>Full solution is:</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>pub struct Logging;\n\nimpl&lt;S: 'static, B&gt; Transform&lt;S&gt; for Logging\nwhere\n    S: Service&lt;Request = ServiceRequest, Response = ServiceResponse&lt;B&gt;, Error = Error&gt;,\n    S::Future: 'static,\n    B: 'static,\n{\n    type Request = ServiceRequest;\n    type Response = ServiceResponse&lt;B&gt;;\n    type Error = Error;\n    type InitError = ();\n    type Transform = LoggingMiddleware&lt;S&gt;;\n    type Future = FutureResult&lt;Self::Transform, Self::InitError&gt;;\n\n    fn new_transform(&amp;self, service: S) -&gt; Self::Future {\n        ok(LoggingMiddleware {\n            service: Rc::new(RefCell::new(service)),\n        })\n    }\n}\n\npub struct LoggingMiddleware&lt;S&gt; {\n    // This is special: We need this to avoid lifetime issues.\n    service: Rc&lt;RefCell&lt;S&gt;&gt;,\n}\n\nimpl&lt;S, B&gt; Service for LoggingMiddleware&lt;S&gt;\nwhere\n    S: Service&lt;Request = ServiceRequest, Response = ServiceResponse&lt;B&gt;, Error = Error&gt;\n        + 'static,\n    S::Future: 'static,\n    B: 'static,\n{\n    type Request = ServiceRequest;\n    type Response = ServiceResponse&lt;B&gt;;\n    type Error = Error;\n    type Future = Box&lt;dyn Future&lt;Item = Self::Response, Error = Self::Error&gt;&gt;;\n\n    fn poll_ready(&amp;mut self) -&gt; Poll&lt;(), Self::Error&gt; {\n        self.service.poll_ready()\n    }\n\n    fn call(&amp;mut self, mut req: ServiceRequest) -&gt; Self::Future {\n        let mut svc = self.service.clone();\n\n        Box::new(\n            req.take_payload()\n                .fold(BytesMut::new(), move |mut body, chunk| {\n                    body.extend_from_slice(&amp;chunk);\n                    Ok::&lt;_, PayloadError&gt;(body)\n                })\n                .map_err(|e| e.into())\n                .and_then(move |bytes| {\n                    println!(\"request body: {:?}\", bytes);\n                    svc.call(req).and_then(|res| Ok(res))\n                }),\n        )\n    }\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "svenstaro",
+        "link": "https://stackoverflow.com/users/161775/svenstaro"
+      }
+    },
+    {
+      "answer_id": 57701438,
+      "body": "<pre><code>let future01 = future03.unit_error().boxed_local().compat();\n</code></pre>\n\n<p><code>boxed_local()</code> wraps the future in a Box, pinning it.\nSimilar to <code>boxed()</code>, but without the Send requirement.</p>\n",
+      "owner": {
+        "display_name": "Mr.Wang from Next Door",
+        "link": "https://stackoverflow.com/users/325320/mr-wang-from-next-door"
+      }
+    },
+    {
+      "answer_id": 57581649,
+      "body": "<p>I had a similar issue. The resolution for me was to lock the Reqwest crate version at 0.9.17 in your cargo file then rebuild.</p>\n\n<pre><code>reqwest = \"=0.9.17\"\n</code></pre>\n\n<p>It appears that newer version of Reqwest are broken with Actix-web unless you're using the async functionality on both. For reference: <a href=\"https://github.com/seanmonstar/reqwest/issues/541\" rel=\"noreferrer\">https://github.com/seanmonstar/reqwest/issues/541</a></p>\n",
+      "owner": {
+        "display_name": "LoganSmith",
+        "link": "https://stackoverflow.com/users/11948536/logansmith"
+      }
+    },
+    {
+      "answer_id": 57122463,
+      "body": "<p>For your handlers; just add the pool as a parameter, then you can pass a pinned connection to downstream functions:</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>// Data = actix_web::web::Data\npub fn get_all_books(pool: Data&lt;Pool&gt;) -&gt; HttpResponse {\n    let connection = pool.get().expect(\"Failed to get connection\");\n    let books = get_infos(&amp;connection);\n\n    HttpResponse::Ok().json(books)\n}\n\npub fn get_infos(connection: &amp;MysqlConnection) -&gt; Vec&lt;Book&gt; {\n    all_books\n        .order(books::id.desc())\n        .load::&lt;Book&gt;(conn)\n        .expect(\"error loading the books\")\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "Martin Gallagher",
+        "link": "https://stackoverflow.com/users/687438/martin-gallagher"
+      }
+    },
+    {
+      "answer_id": 57064474,
+      "body": "<p>As is <a href=\"https://actix.rs/docs/extractors/\" rel=\"nofollow noreferrer\">mentioned in code comments in the documentation</a>, FormData deserialization is only possible with Post/x-www-form-urlencoded requests (for the moment):</p>\n\n<pre><code>/// extract form data using serde\n/// this handler gets called only if the content type is *x-www-form-urlencoded*\n/// and the content of the request could be deserialized to a `FormData` struct\nfn index(form: web::Form&lt;FormData&gt;) -&gt; Result&lt;String&gt; {\n    Ok(format!(\"Welcome {}!\", form.username))\n}\n</code></pre>\n\n<p>So you have two solutions:</p>\n\n<p>1) change your form to a post/x-www-form-urlencoded one. This is easy in your example but it's not always possible in real applications</p>\n\n<p>2) use another form of data extraction (there are several other extractors)</p>\n",
+      "owner": {
+        "display_name": "Denys S&#233;guret",
+        "link": "https://stackoverflow.com/users/263525/denys-s%c3%a9guret"
+      }
+    },
+    {
+      "answer_id": 56866791,
+      "body": "<pre class=\"lang-rust prettyprint-override\"><code>let mut stream = res.body.unwrap().into_blocking_read();\n</code></pre>\n\n<p>Check the <a href=\"https://github.com/rusoto/rusoto/blob/0fa9217a47ef5d573eb0f28a5a497137635e31cb/rusoto/core/src/stream.rs#L121\" rel=\"nofollow noreferrer\">implementation of <code>into_blocking_read()</code></a>: it calls <code>.wait()</code>. You shouldn't call blocking code inside a <code>Future</code>. </p>\n\n<p>Since Rusoto's <code>body</code> is a <code>Stream</code>, there is a way to read it asynchronously:</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>.and_then(move |res| {\n    info!(\"Response {:?}\", res);\n    let stream = res.body.unwrap();\n\n    stream.concat2().map(move |file| {\n        process_file(&amp;file[..]).unwrap()\n    })\n    .map_err(|e| RusotoError::from(e)))\n})\n</code></pre>\n\n<p><code>process_file</code> should not block the enclosing <code>Future</code>. If it needs to block, you may consider running it on new thread or encapsulate with <a href=\"https://docs.rs/tokio-threadpool/0.1.14/tokio_threadpool/fn.blocking.html\" rel=\"nofollow noreferrer\">tokio_threadpool's <code>blocking</code></a>. </p>\n\n<p><strong>Note:</strong> You can use tokio_threadpool's <code>blocking</code> in your implementation, but I recommend you understand how it works first.  </p>\n\n<hr>\n\n<p>If you are not aiming to load the whole file into memory, you can use <code>for_each</code>:</p>\n\n<pre class=\"lang-rust prettyprint-override\"><code>stream.for_each(|part| {\n    //process each part in here \n    //Warning! Do not add blocking code here either.\n})\n</code></pre>\n\n<p><strong>See also</strong>: </p>\n\n<ul>\n<li><a href=\"https://stackoverflow.com/questions/41932137/what-is-the-best-approach-to-encapsulate-blocking-i-o-in-future-rs\">What is the best approach to encapsulate blocking I/O in future-rs?</a></li>\n<li><a href=\"https://stackoverflow.com/questions/48735952/why-does-futureselect-choose-the-future-with-a-longer-sleep-period-first\">Why does Future::select choose the future with a longer sleep period first?</a></li>\n</ul>\n",
+      "owner": {
+        "display_name": "&#214;mer Erden",
+        "link": "https://stackoverflow.com/users/1601571/%c3%96mer-erden"
+      }
+    },
+    {
+      "answer_id": 56750700,
+      "body": "<p>Well, first, <code>HttpResponse</code> does not implement <code>Send</code>. Since <code>web::block()</code> runs the closure on a threadpool, that is a problem. So you need to return a value that <em>is</em> <code>Send</code> from <code>web::block</code>, and then create a <code>HttpResponse</code> from that - using <code>and_then()</code> for example.</p>\n\n<p>Second, in your router you are using <code>web::get().to(login)</code>. If you want to call a function that returns a <code>Future</code>, that needs to be <code>web::get().to_async(login)</code>.</p>\n\n<p>Third, the closure in <code>web::block</code> needs to return <code>Result</code>. Since you never return an error value, the compiler cannot infer the error type. You need to give the compiler a hint. Usually <code>std::io::Error</code> will do,so return <code>Ok::&lt;_, std::io::Error&gt;(...value...)</code>.</p>\n\n<p>Fourth, <code>web::block</code> returns a <code>BlockingError&lt;E&gt;</code>. You can use <code>from_err()</code> to map that to something that you can return.</p>\n\n<p>So, with all that, the relevant part of your code would look like:</p>\n\n<pre><code>pub fn login(\n    login_user: web::Json&lt;LoginUser&gt;,\n) -&gt; impl Future&lt;Item = HttpResponse, Error = Error&gt; {\n    web::block(move || {\n        let login_user = login_user.into_inner();\n        let user = LoginUser {\n            username: login_user.username,\n            password: login_user.password,\n        };\n        Ok::&lt;_, std::io::Error&gt;(user)\n    })\n        .from_err()\n        .and_then(|user| HttpResponse::Ok().json(user))\n}\n\npub fn router(cfg: &amp;mut web::ServiceConfig) {\n    cfg.service(web::scope(\"/\").service(web::resource(\"\").route(web::get().to_async(login))));\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "miquels",
+        "link": "https://stackoverflow.com/users/11694170/miquels"
+      }
+    },
+    {
+      "answer_id": 56681536,
+      "body": "<p>Got it working by using the <code>tokio</code> function <code>spawn</code> to add the future to the running executor of tokio.</p>\n\n<p>So instead of:</p>\n\n<pre><code>System::new(\"test\").block_on(lazy(|| {\n</code></pre>\n\n<p>use:</p>\n\n<pre><code>spawn(lazy(move || {\n</code></pre>\n\n<p>and of course add <code>tokio</code> as dependency in <code>cargo.toml</code> and include the crate.</p>\n",
+      "owner": {
+        "display_name": "Techradar",
+        "link": "https://stackoverflow.com/users/6360083/techradar"
+      }
+    },
+    {
+      "answer_id": 56373912,
+      "body": "<p>I asked people in the rust-jp community to tell you the correct answer.</p>\n\n<p>Use <code>Arc</code> outer <code>HttpServer</code>.</p>\n\n<pre><code>/*\n~~~Cargo.toml\n[package]\nname = \"actix-data-example\"\nversion = \"0.1.0\"\nauthors = [\"ncaq &lt;ncaq@ncaq.net&gt;\"]\nedition = \"2018\"\n\n[dependencies]\nactix-web = \"1.0.0-rc\"\nenv_logger = \"0.6.0\"\n~~~\n */\n\nuse actix_web::*;\nuse std::sync::*;\n\nfn main() -&gt; std::io::Result&lt;()&gt; {\n    std::env::set_var(\"RUST_LOG\", \"actix_web=trace\");\n    env_logger::init();\n\n    let data = Arc::new(Mutex::new(ActixData::default()));\n    HttpServer::new(move || {\n        App::new()\n            .wrap(middleware::Logger::default())\n            .data(data.clone())\n            .service(web::resource(\"/index/\").route(web::get().to(index)))\n            .service(web::resource(\"/create/\").route(web::get().to(create)))\n    })\n    .bind(\"0.0.0.0:3000\")?\n    .run()\n}\n\nfn index(actix_data: web::Data&lt;Arc&lt;Mutex&lt;ActixData&gt;&gt;&gt;) -&gt; HttpResponse {\n    println!(\"actix_data: {:?}\", actix_data);\n    HttpResponse::Ok().body(format!(\"{:?}\", actix_data))\n}\n\nfn create(actix_data: web::Data&lt;Arc&lt;Mutex&lt;ActixData&gt;&gt;&gt;) -&gt; HttpResponse {\n    println!(\"actix_data: {:?}\", actix_data);\n    actix_data.lock().unwrap().counter += 1;\n    HttpResponse::Ok().body(format!(\"{:?}\", actix_data))\n}\n\n/// actix-webが保持する状態\n#[derive(Debug, Default)]\nstruct ActixData {\n    counter: usize,\n}\n</code></pre>\n\n<p>This post report to upstream.\n<a href=\"https://github.com/actix/actix-web/issues/874\" rel=\"nofollow noreferrer\">Official document data cause <code>App data is not configured, to configure use App::data()</code> · Issue #874 · actix/actix-web</a></p>\n",
+      "owner": {
+        "display_name": "ncaq",
+        "link": "https://stackoverflow.com/users/8198583/ncaq"
+      }
+    },
+    {
+      "answer_id": 56201871,
+      "body": "<p>The content_disposition() method as suggested by NK is potentially what you are after here. So you could perhaps replace:</p>\n\n<pre><code>let file_path_string = \"upload.png\";\n</code></pre>\n\n<p>with something like:</p>\n\n<pre><code>let file_path_string = match field.content_disposition().unwrap().get_filename() {\n    Some(filename) =&gt; filename.replace(' ', \"_\").to_string(),\n    None =&gt; return Either::A(err(error::ErrorInternalServerError(\"Couldn't read the filename.\")))\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "sonfangos",
+        "link": "https://stackoverflow.com/users/7641279/sonfangos"
+      }
+    },
+    {
+      "answer_id": 54303297,
+      "body": "<p>You are trying to return a <code>Future</code> without <code>Box</code>ing, you are <code>Box</code>ing the response in <code>Map</code>'s closure, not the expected <code>Future</code>. Using <code>futures::future::ok</code> is not necessary because your <code>request.body</code> is already future. </p>\n\n<pre><code>fn show_request(\n    request: &amp;actix_web::HttpRequest,\n) -&gt; Box&lt;Future&lt;Item = HttpResponse, Error = Error&gt;&gt; {\n    Box::new(request.body().map_err(|e| e.into()).map(move |f| {\n        actix_web::HttpResponse::Ok()\n            .content_type(\"text/plain\")\n            .body(f)\n    }))\n}\n</code></pre>\n",
+      "owner": {
+        "display_name": "&#214;mer Erden",
+        "link": "https://stackoverflow.com/users/1601571/%c3%96mer-erden"
+      }
+    }
+  ]
+}

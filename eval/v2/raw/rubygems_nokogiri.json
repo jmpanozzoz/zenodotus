@@ -1,0 +1,1908 @@
+{
+  "library": "rubygems:nokogiri",
+  "fetched_at": "2026-11-21T17:28:27Z",
+  "questions": [
+    {
+      "question_id": 7977945,
+      "title": "HTML-parser on Node.js",
+      "accepted_answer_id": 7978072,
+      "score": 214,
+      "link": "https://stackoverflow.com/questions/7977945/html-parser-on-node-js",
+      "owner": {
+        "display_name": "asci",
+        "link": "https://stackoverflow.com/users/967355/asci"
+      }
+    },
+    {
+      "question_id": 5528839,
+      "title": "Why does installing Nokogiri on Mac OS fail with libiconv is missing?",
+      "accepted_answer_id": 6163052,
+      "score": 163,
+      "link": "https://stackoverflow.com/questions/5528839/why-does-installing-nokogiri-on-mac-os-fail-with-libiconv-is-missing",
+      "owner": {
+        "display_name": "polarblau",
+        "link": "https://stackoverflow.com/users/564721/polarblau"
+      }
+    },
+    {
+      "question_id": 19643153,
+      "title": "Error to install Nokogiri on OSX 10.9 Maverick?",
+      "accepted_answer_id": 19643909,
+      "score": 110,
+      "link": "https://stackoverflow.com/questions/19643153/error-to-install-nokogiri-on-osx-10-9-maverick",
+      "owner": {
+        "display_name": "squiter",
+        "link": "https://stackoverflow.com/users/937506/squiter"
+      }
+    },
+    {
+      "question_id": 6802410,
+      "title": "Mac user and getting WARNING: Nokogiri was built against LibXML version 2.7.8, but has dynamically loaded 2.7.3",
+      "accepted_answer_id": 7840255,
+      "score": 83,
+      "link": "https://stackoverflow.com/questions/6802410/mac-user-and-getting-warning-nokogiri-was-built-against-libxml-version-2-7-8-b",
+      "owner": {
+        "display_name": "Binary Logic",
+        "link": "https://stackoverflow.com/users/851181/binary-logic"
+      }
+    },
+    {
+      "question_id": 1230741,
+      "title": "Convert a Nokogiri document to a Ruby Hash",
+      "accepted_answer_id": 1231297,
+      "score": 74,
+      "link": "https://stackoverflow.com/questions/1230741/convert-a-nokogiri-document-to-a-ruby-hash",
+      "owner": {
+        "display_name": "Ivan",
+        "link": "https://stackoverflow.com/users/16957/ivan"
+      }
+    },
+    {
+      "question_id": 24251494,
+      "title": "nokogiri gem installation error",
+      "accepted_answer_id": 24259690,
+      "score": 73,
+      "link": "https://stackoverflow.com/questions/24251494/nokogiri-gem-installation-error",
+      "owner": {
+        "display_name": "Claudiu Creanga",
+        "link": "https://stackoverflow.com/users/3711219/claudiu-creanga"
+      }
+    },
+    {
+      "question_id": 28999906,
+      "title": "&#39;require&#39;: cannot load such file -- &#39;nokogiri\\nokogiri&#39; (LoadError) when running `rails server`",
+      "accepted_answer_id": 29007731,
+      "score": 73,
+      "link": "https://stackoverflow.com/questions/28999906/require-cannot-load-such-file-nokogiri-nokogiri-loaderror-when-running",
+      "owner": {
+        "display_name": "Shef",
+        "link": "https://stackoverflow.com/users/2079775/shef"
+      }
+    },
+    {
+      "question_id": 40038953,
+      "title": "How to install Nokogiri on Mac OS Sierra 10.12",
+      "accepted_answer_id": 40038954,
+      "score": 73,
+      "link": "https://stackoverflow.com/questions/40038953/how-to-install-nokogiri-on-mac-os-sierra-10-12",
+      "owner": {
+        "display_name": "Julian Popov",
+        "link": "https://stackoverflow.com/users/44537/julian-popov"
+      }
+    },
+    {
+      "question_id": 23668684,
+      "title": "Nokogiri &#39;Failed to build gem native extension&#39; when I run bundle install",
+      "accepted_answer_id": 25068003,
+      "score": 70,
+      "link": "https://stackoverflow.com/questions/23668684/nokogiri-failed-to-build-gem-native-extension-when-i-run-bundle-install",
+      "owner": {
+        "display_name": "FabKremer",
+        "link": "https://stackoverflow.com/users/2701135/fabkremer"
+      }
+    },
+    {
+      "question_id": 1708504,
+      "title": "How do I remove a node with Nokogiri?",
+      "accepted_answer_id": 1720322,
+      "score": 66,
+      "link": "https://stackoverflow.com/questions/1708504/how-do-i-remove-a-node-with-nokogiri",
+      "owner": {
+        "display_name": "all jazz",
+        "link": "https://stackoverflow.com/users/202662/all-jazz"
+      }
+    },
+    {
+      "question_id": 24091869,
+      "title": "Installing Nokogiri on OSX 10.10 Yosemite",
+      "accepted_answer_id": 24151574,
+      "score": 54,
+      "link": "https://stackoverflow.com/questions/24091869/installing-nokogiri-on-osx-10-10-yosemite",
+      "owner": {
+        "display_name": "gdavis",
+        "link": "https://stackoverflow.com/users/189292/gdavis"
+      }
+    },
+    {
+      "question_id": 1474688,
+      "title": "How to select nodes by matching text",
+      "accepted_answer_id": 15324291,
+      "score": 53,
+      "link": "https://stackoverflow.com/questions/1474688/how-to-select-nodes-by-matching-text",
+      "owner": {
+        "display_name": "Zando",
+        "link": "https://stackoverflow.com/users/178779/zando"
+      }
+    },
+    {
+      "question_id": 34651519,
+      "title": "Error while installing Nokogiri (1.6.7) on El Capitan",
+      "accepted_answer_id": 34653921,
+      "score": 48,
+      "link": "https://stackoverflow.com/questions/34651519/error-while-installing-nokogiri-1-6-7-on-el-capitan",
+      "owner": {
+        "display_name": "Cjoerg",
+        "link": "https://stackoverflow.com/users/1413388/cjoerg"
+      }
+    },
+    {
+      "question_id": 3569966,
+      "title": "Using XPath on single node returns elements in all nodes",
+      "accepted_answer_id": 3569982,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/3569966/using-xpath-on-single-node-returns-elements-in-all-nodes",
+      "owner": {
+        "display_name": "Sabrina",
+        "link": "https://stackoverflow.com/users/431177/sabrina"
+      }
+    },
+    {
+      "question_id": 4690737,
+      "title": "Nokogiri/Xpath namespace query",
+      "accepted_answer_id": 4691008,
+      "score": 45,
+      "link": "https://stackoverflow.com/questions/4690737/nokogiri-xpath-namespace-query",
+      "owner": {
+        "display_name": "Jamie",
+        "link": "https://stackoverflow.com/users/100203/jamie"
+      }
+    },
+    {
+      "question_id": 856706,
+      "title": "extract links (URLs), with nokogiri in ruby, from a href html tags?",
+      "accepted_answer_id": 856878,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/856706/extract-links-urls-with-nokogiri-in-ruby-from-a-href-html-tags",
+      "owner": {
+        "display_name": "gustavgans",
+        "link": "https://stackoverflow.com/users/106072/gustavgans"
+      }
+    },
+    {
+      "question_id": 7107642,
+      "title": "Getting attribute&#39;s value in Nokogiri to extract link URLs",
+      "accepted_answer_id": 7107693,
+      "score": 42,
+      "link": "https://stackoverflow.com/questions/7107642/getting-attributes-value-in-nokogiri-to-extract-link-urls",
+      "owner": {
+        "display_name": "Kreeki",
+        "link": "https://stackoverflow.com/users/559316/kreeki"
+      }
+    },
+    {
+      "question_id": 8003523,
+      "title": "Error installing Nokogiri 1.5.0 with rails 3.1.0 and ubuntu",
+      "accepted_answer_id": 8003640,
+      "score": 37,
+      "link": "https://stackoverflow.com/questions/8003523/error-installing-nokogiri-1-5-0-with-rails-3-1-0-and-ubuntu",
+      "owner": {
+        "display_name": "user938363",
+        "link": "https://stackoverflow.com/users/938363/user938363"
+      }
+    },
+    {
+      "question_id": 5714117,
+      "title": "Errors using rspec, missing libraries after installing Homebrew and uninstalling MacPorts",
+      "accepted_answer_id": 5783919,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/5714117/errors-using-rspec-missing-libraries-after-installing-homebrew-and-uninstalling",
+      "owner": {
+        "display_name": "markstewie",
+        "link": "https://stackoverflow.com/users/334304/markstewie"
+      }
+    },
+    {
+      "question_id": 29020478,
+      "title": "Error installing Nokogiri on bundle install but already installed",
+      "accepted_answer_id": 29021223,
+      "score": 35,
+      "link": "https://stackoverflow.com/questions/29020478/error-installing-nokogiri-on-bundle-install-but-already-installed",
+      "owner": {
+        "display_name": "T0nylombardi",
+        "link": "https://stackoverflow.com/users/2332825/t0nylombardi"
+      }
+    },
+    {
+      "question_id": 1898829,
+      "title": "How do I pretty-print HTML with Nokogiri?",
+      "accepted_answer_id": 1901693,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/1898829/how-do-i-pretty-print-html-with-nokogiri",
+      "owner": {
+        "display_name": "Jarsen",
+        "link": "https://stackoverflow.com/users/165248/jarsen"
+      }
+    },
+    {
+      "question_id": 12336160,
+      "title": "How to install Nokogiri Ruby gem with mkmf.log saying libiconv not found?",
+      "accepted_answer_id": 12336375,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/12336160/how-to-install-nokogiri-ruby-gem-with-mkmf-log-saying-libiconv-not-found",
+      "owner": {
+        "display_name": "joelparkerhenderson",
+        "link": "https://stackoverflow.com/users/528726/joelparkerhenderson"
+      }
+    },
+    {
+      "question_id": 64653051,
+      "title": "make: /usr/bin/mkdir: Command not found during `gem install nokogiri` in Ubuntu 20.04",
+      "accepted_answer_id": 64653052,
+      "score": 34,
+      "link": "https://stackoverflow.com/questions/64653051/make-usr-bin-mkdir-command-not-found-during-gem-install-nokogiri-in-ubuntu",
+      "owner": {
+        "display_name": "dem1tris",
+        "link": "https://stackoverflow.com/users/11802344/dem1tris"
+      }
+    },
+    {
+      "question_id": 2062051,
+      "title": "How do I parse an HTML table with Nokogiri?",
+      "accepted_answer_id": 2062210,
+      "score": 33,
+      "link": "https://stackoverflow.com/questions/2062051/how-do-i-parse-an-html-table-with-nokogiri",
+      "owner": {
+        "display_name": "Radek",
+        "link": "https://stackoverflow.com/users/250422/radek"
+      }
+    },
+    {
+      "question_id": 10466566,
+      "title": "Rails Tutorial: nokogiri-1.5.2 error on bundle install",
+      "accepted_answer_id": 10466866,
+      "score": 30,
+      "link": "https://stackoverflow.com/questions/10466566/rails-tutorial-nokogiri-1-5-2-error-on-bundle-install",
+      "owner": {
+        "display_name": "Dan",
+        "link": "https://stackoverflow.com/users/866618/dan"
+      }
+    },
+    {
+      "question_id": 2080799,
+      "title": "How do I use XPath in Nokogiri?",
+      "accepted_answer_id": 2080816,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/2080799/how-do-i-use-xpath-in-nokogiri",
+      "owner": {
+        "display_name": "Radek",
+        "link": "https://stackoverflow.com/users/250422/radek"
+      }
+    },
+    {
+      "question_id": 13320851,
+      "title": "Custom css with kaminari with bootstrap",
+      "accepted_answer_id": 13321101,
+      "score": 29,
+      "link": "https://stackoverflow.com/questions/13320851/custom-css-with-kaminari-with-bootstrap",
+      "owner": {
+        "display_name": "duykhoa",
+        "link": "https://stackoverflow.com/users/1659807/duykhoa"
+      }
+    },
+    {
+      "question_id": 1556028,
+      "title": "How do I do a regex search in Nokogiri for text that matches a certain beginning?",
+      "accepted_answer_id": 1556128,
+      "score": 28,
+      "link": "https://stackoverflow.com/questions/1556028/how-do-i-do-a-regex-search-in-nokogiri-for-text-that-matches-a-certain-beginning",
+      "owner": {
+        "display_name": "bcolfer",
+        "link": "https://stackoverflow.com/users/111275/bcolfer"
+      }
+    },
+    {
+      "question_id": 2572396,
+      "title": "Nokogiri, open-uri, and Unicode Characters",
+      "accepted_answer_id": 2572509,
+      "score": 28,
+      "link": "https://stackoverflow.com/questions/2572396/nokogiri-open-uri-and-unicode-characters",
+      "owner": {
+        "display_name": "Moe",
+        "link": "https://stackoverflow.com/users/269120/moe"
+      }
+    },
+    {
+      "question_id": 4861517,
+      "title": "How can I get the absolute URL when extracting links using Nokogiri?",
+      "accepted_answer_id": 4864170,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/4861517/how-can-i-get-the-absolute-url-when-extracting-links-using-nokogiri",
+      "owner": {
+        "display_name": "Mridang Agarwalla",
+        "link": "https://stackoverflow.com/users/304151/mridang-agarwalla"
+      }
+    },
+    {
+      "question_id": 8895438,
+      "title": "How can I generate XML with Nokogiri without &quot;&lt;?xml version=...&quot;?",
+      "accepted_answer_id": 8895613,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/8895438/how-can-i-generate-xml-with-nokogiri-without-xml-version",
+      "owner": {
+        "display_name": "mibon",
+        "link": "https://stackoverflow.com/users/1033364/mibon"
+      }
+    },
+    {
+      "question_id": 14822153,
+      "title": "Escape single quote in XPath with Nokogiri?",
+      "accepted_answer_id": 14822893,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/14822153/escape-single-quote-in-xpath-with-nokogiri",
+      "owner": {
+        "display_name": "abhir",
+        "link": "https://stackoverflow.com/users/1653594/abhir"
+      }
+    },
+    {
+      "question_id": 19753060,
+      "title": "Is it possible to &#39;unload&#39; (&#39;un-require&#39;) a Ruby library?",
+      "accepted_answer_id": 19755506,
+      "score": 25,
+      "link": "https://stackoverflow.com/questions/19753060/is-it-possible-to-unload-un-require-a-ruby-library",
+      "owner": {
+        "display_name": "Louis Maddox",
+        "link": "https://stackoverflow.com/users/2668831/louis-maddox"
+      }
+    },
+    {
+      "question_id": 2888587,
+      "title": "Nokogiri vs Hpricot?",
+      "accepted_answer_id": 2888922,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/2888587/nokogiri-vs-hpricot",
+      "owner": {
+        "display_name": "roshan",
+        "link": "https://stackoverflow.com/users/344587/roshan"
+      }
+    },
+    {
+      "question_id": 3614458,
+      "title": "How to add attribute to Nokogiri node?",
+      "accepted_answer_id": 3614570,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/3614458/how-to-add-attribute-to-nokogiri-node",
+      "owner": {
+        "display_name": "Yuval Karmi",
+        "link": "https://stackoverflow.com/users/118175/yuval-karmi"
+      }
+    },
+    {
+      "question_id": 6487101,
+      "title": "How to get the page source with Mechanize/Nokogiri",
+      "accepted_answer_id": 6487164,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/6487101/how-to-get-the-page-source-with-mechanize-nokogiri",
+      "owner": {
+        "display_name": "Waley Chen",
+        "link": "https://stackoverflow.com/users/472803/waley-chen"
+      }
+    },
+    {
+      "question_id": 11165496,
+      "title": "How to get the raw HTML of a node",
+      "accepted_answer_id": 11165545,
+      "score": 24,
+      "link": "https://stackoverflow.com/questions/11165496/how-to-get-the-raw-html-of-a-node",
+      "owner": {
+        "display_name": "icn",
+        "link": "https://stackoverflow.com/users/96864/icn"
+      }
+    },
+    {
+      "question_id": 1737572,
+      "title": "How to use xmlns declarations with XPath in Nokogiri",
+      "accepted_answer_id": 1737593,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/1737572/how-to-use-xmlns-declarations-with-xpath-in-nokogiri",
+      "owner": {
+        "display_name": "Mark Rendle",
+        "link": "https://stackoverflow.com/users/64120/mark-rendle"
+      }
+    },
+    {
+      "question_id": 17204152,
+      "title": "Nokogiri error when running bundle install",
+      "accepted_answer_id": 17204395,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/17204152/nokogiri-error-when-running-bundle-install",
+      "owner": {
+        "display_name": "wikichen",
+        "link": "https://stackoverflow.com/users/850548/wikichen"
+      }
+    },
+    {
+      "question_id": 17863477,
+      "title": "Error installing nokogiri 1.6.0 on mac (libxml2)",
+      "accepted_answer_id": 17871777,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/17863477/error-installing-nokogiri-1-6-0-on-mac-libxml2",
+      "owner": {
+        "display_name": "Jose Enrique",
+        "link": "https://stackoverflow.com/users/2619591/jose-enrique"
+      }
+    },
+    {
+      "question_id": 39937394,
+      "title": "gem install nokogiri -v &#39;1.6.8.1&#39; fails",
+      "accepted_answer_id": 39940668,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/39937394/gem-install-nokogiri-v-1-6-8-1-fails",
+      "owner": {
+        "display_name": "Greg",
+        "link": "https://stackoverflow.com/users/2565086/greg"
+      }
+    },
+    {
+      "question_id": 54786580,
+      "title": "ERROR: While executing gem ... (TypeError) incompatible marshal file format (can&#39;t be read)",
+      "accepted_answer_id": 54790592,
+      "score": 23,
+      "link": "https://stackoverflow.com/questions/54786580/error-while-executing-gem-typeerror-incompatible-marshal-file-format-can",
+      "owner": {
+        "display_name": "R&#233;mi JUHE",
+        "link": "https://stackoverflow.com/users/11089895/r%c3%a9mi-juhe"
+      }
+    },
+    {
+      "question_id": 6478005,
+      "title": "How to convert Nokogiri Document object into JSON",
+      "accepted_answer_id": 6495415,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/6478005/how-to-convert-nokogiri-document-object-into-json",
+      "owner": {
+        "display_name": "berkes",
+        "link": "https://stackoverflow.com/users/73673/berkes"
+      }
+    },
+    {
+      "question_id": 18470672,
+      "title": "How to get node text without children?",
+      "accepted_answer_id": 18471491,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/18470672/how-to-get-node-text-without-children",
+      "owner": {
+        "display_name": "Denis Kreshikhin",
+        "link": "https://stackoverflow.com/users/1062636/denis-kreshikhin"
+      }
+    },
+    {
+      "question_id": 29782968,
+      "title": "How to &quot;gem install nokogiri -- --use-system-libraries&quot; via Gemfile",
+      "accepted_answer_id": 29783034,
+      "score": 22,
+      "link": "https://stackoverflow.com/questions/29782968/how-to-gem-install-nokogiri-use-system-libraries-via-gemfile",
+      "owner": {
+        "display_name": "s2t2",
+        "link": "https://stackoverflow.com/users/670433/s2t2"
+      }
+    },
+    {
+      "question_id": 4381710,
+      "title": "How do I get Nokogiri to add the right XML encoding?",
+      "accepted_answer_id": 4382249,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/4381710/how-do-i-get-nokogiri-to-add-the-right-xml-encoding",
+      "owner": {
+        "display_name": "Luc",
+        "link": "https://stackoverflow.com/users/231957/luc"
+      }
+    },
+    {
+      "question_id": 4476047,
+      "title": "how to make Nokogiri not to convert &amp;nbsp; to space",
+      "accepted_answer_id": 4511618,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/4476047/how-to-make-nokogiri-not-to-convert-nbsp-to-space",
+      "owner": {
+        "display_name": "ywenbo",
+        "link": "https://stackoverflow.com/users/531581/ywenbo"
+      }
+    },
+    {
+      "question_id": 5315898,
+      "title": "What&#39;s the difference between .at_css to .css in Nokogiri?",
+      "accepted_answer_id": 5319518,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/5315898/whats-the-difference-between-at-css-to-css-in-nokogiri",
+      "owner": {
+        "display_name": "Ariel",
+        "link": "https://stackoverflow.com/users/652170/ariel"
+      }
+    },
+    {
+      "question_id": 8406251,
+      "title": "Nokogiri to_xml without carriage returns",
+      "accepted_answer_id": 8406635,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/8406251/nokogiri-to-xml-without-carriage-returns",
+      "owner": {
+        "display_name": "Cameron",
+        "link": "https://stackoverflow.com/users/498080/cameron"
+      }
+    },
+    {
+      "question_id": 69807153,
+      "title": "MacOS (M1 Arm64) unable to load Nokogiri - Using system default Ruby",
+      "accepted_answer_id": 69817978,
+      "score": 21,
+      "link": "https://stackoverflow.com/questions/69807153/macos-m1-arm64-unable-to-load-nokogiri-using-system-default-ruby",
+      "owner": {
+        "display_name": "ethanmclark",
+        "link": "https://stackoverflow.com/users/12250625/ethanmclark"
+      }
+    },
+    {
+      "question_id": 1947307,
+      "title": "How do I create XML using Nokogiri::XML::Builder with a hyphen in the element name?",
+      "accepted_answer_id": 1947681,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/1947307/how-do-i-create-xml-using-nokogirixmlbuilder-with-a-hyphen-in-the-element-na",
+      "owner": {
+        "display_name": "Theozaurus",
+        "link": "https://stackoverflow.com/users/101515/theozaurus"
+      }
+    },
+    {
+      "question_id": 6958506,
+      "title": "How to check during Nokogiri/Ruby parsing if element exists on page?",
+      "accepted_answer_id": 6959361,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/6958506/how-to-check-during-nokogiri-ruby-parsing-if-element-exists-on-page",
+      "owner": {
+        "display_name": "Chris",
+        "link": "https://stackoverflow.com/users/880832/chris"
+      }
+    },
+    {
+      "question_id": 10799136,
+      "title": "Get text directly inside a tag in Nokogiri",
+      "accepted_answer_id": 10799591,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/10799136/get-text-directly-inside-a-tag-in-nokogiri",
+      "owner": {
+        "display_name": "Mridang Agarwalla",
+        "link": "https://stackoverflow.com/users/304151/mridang-agarwalla"
+      }
+    },
+    {
+      "question_id": 27496498,
+      "title": "Failing to install Nokogiri gem",
+      "accepted_answer_id": 27496640,
+      "score": 20,
+      "link": "https://stackoverflow.com/questions/27496498/failing-to-install-nokogiri-gem",
+      "owner": {
+        "display_name": "Katie H",
+        "link": "https://stackoverflow.com/users/2736647/katie-h"
+      }
+    },
+    {
+      "question_id": 939853,
+      "title": "How can I add a child to a node at a specific position?",
+      "accepted_answer_id": 943577,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/939853/how-can-i-add-a-child-to-a-node-at-a-specific-position",
+      "owner": {
+        "display_name": "Manuel",
+        "link": "https://stackoverflow.com/users/106243/manuel"
+      }
+    },
+    {
+      "question_id": 2695197,
+      "title": "Changing href attributes with nokogiri and ruby on rails",
+      "accepted_answer_id": 2699994,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/2695197/changing-href-attributes-with-nokogiri-and-ruby-on-rails",
+      "owner": {
+        "display_name": "Joao Pereira",
+        "link": "https://stackoverflow.com/users/211225/joao-pereira"
+      }
+    },
+    {
+      "question_id": 66032448,
+      "title": "Ruby open-uri can&#39;t open url (m1 mac)",
+      "accepted_answer_id": 66032553,
+      "score": 19,
+      "link": "https://stackoverflow.com/questions/66032448/ruby-open-uri-cant-open-url-m1-mac",
+      "owner": {
+        "display_name": "Maxime Crespo",
+        "link": "https://stackoverflow.com/users/10570889/maxime-crespo"
+      }
+    },
+    {
+      "question_id": 2279513,
+      "title": "How can I create a nokogiri case insensitive Xpath selector?",
+      "accepted_answer_id": 2279611,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/2279513/how-can-i-create-a-nokogiri-case-insensitive-xpath-selector",
+      "owner": {
+        "display_name": "Rick",
+        "link": "https://stackoverflow.com/users/275065/rick"
+      }
+    },
+    {
+      "question_id": 11452380,
+      "title": "WARNING: Nokogiri was built against LibXML version 2.7.3, but has dynamically loaded 2.7.8",
+      "accepted_answer_id": 11452381,
+      "score": 18,
+      "link": "https://stackoverflow.com/questions/11452380/warning-nokogiri-was-built-against-libxml-version-2-7-3-but-has-dynamically-lo",
+      "owner": {
+        "display_name": "David Morales",
+        "link": "https://stackoverflow.com/users/267705/david-morales"
+      }
+    },
+    {
+      "question_id": 3938810,
+      "title": "Parsing simple XML with Nokogiri",
+      "accepted_answer_id": 3938889,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/3938810/parsing-simple-xml-with-nokogiri",
+      "owner": {
+        "display_name": "Vincent",
+        "link": "https://stackoverflow.com/users/270663/vincent"
+      }
+    },
+    {
+      "question_id": 4767430,
+      "title": "XPath axis, get all following nodes until",
+      "accepted_answer_id": 4768711,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/4767430/xpath-axis-get-all-following-nodes-until",
+      "owner": {
+        "display_name": "Lee Jarvis",
+        "link": "https://stackoverflow.com/users/310892/lee-jarvis"
+      }
+    },
+    {
+      "question_id": 16219343,
+      "title": "set tag attribute and add plain text content to the tag using nokogiri builder (ruby)",
+      "accepted_answer_id": 16220588,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/16219343/set-tag-attribute-and-add-plain-text-content-to-the-tag-using-nokogiri-builder",
+      "owner": {
+        "display_name": "fflyer05",
+        "link": "https://stackoverflow.com/users/398299/fflyer05"
+      }
+    },
+    {
+      "question_id": 24711508,
+      "title": "Failure to install nokogiri libiconv is missing on Yosemite Mac OS X 10.10",
+      "accepted_answer_id": 26465572,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/24711508/failure-to-install-nokogiri-libiconv-is-missing-on-yosemite-mac-os-x-10-10",
+      "owner": {
+        "display_name": "Maxim Veksler",
+        "link": "https://stackoverflow.com/users/48062/maxim-veksler"
+      }
+    },
+    {
+      "question_id": 34781600,
+      "title": "How to parse a HTML table with Nokogiri?",
+      "accepted_answer_id": 34836816,
+      "score": 17,
+      "link": "https://stackoverflow.com/questions/34781600/how-to-parse-a-html-table-with-nokogiri",
+      "owner": {
+        "display_name": "verrom",
+        "link": "https://stackoverflow.com/users/5384436/verrom"
+      }
+    },
+    {
+      "question_id": 4906681,
+      "title": "Using Nokogiri HTML Builder to create fragment with multiple root nodes",
+      "accepted_answer_id": 4907450,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/4906681/using-nokogiri-html-builder-to-create-fragment-with-multiple-root-nodes",
+      "owner": {
+        "display_name": "Gerry",
+        "link": "https://stackoverflow.com/users/452931/gerry"
+      }
+    },
+    {
+      "question_id": 5774957,
+      "title": "How do I search for &quot;text&quot; then traverse the DOM from the found node?",
+      "accepted_answer_id": 5775199,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/5774957/how-do-i-search-for-text-then-traverse-the-dom-from-the-found-node",
+      "owner": {
+        "display_name": "Nick Faraday",
+        "link": "https://stackoverflow.com/users/109672/nick-faraday"
+      }
+    },
+    {
+      "question_id": 6096327,
+      "title": "Strip style attributes with nokogiri",
+      "accepted_answer_id": 6103735,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/6096327/strip-style-attributes-with-nokogiri",
+      "owner": {
+        "display_name": "keepitterron",
+        "link": "https://stackoverflow.com/users/715129/keepitterron"
+      }
+    },
+    {
+      "question_id": 13393491,
+      "title": "rails nokogiri no such file or directory",
+      "accepted_answer_id": 13393515,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/13393491/rails-nokogiri-no-such-file-or-directory",
+      "owner": {
+        "display_name": "Tom",
+        "link": "https://stackoverflow.com/users/1203424/tom"
+      }
+    },
+    {
+      "question_id": 29287517,
+      "title": "How to save my changes in XML file with Nokogiri",
+      "accepted_answer_id": 29289566,
+      "score": 16,
+      "link": "https://stackoverflow.com/questions/29287517/how-to-save-my-changes-in-xml-file-with-nokogiri",
+      "owner": {
+        "display_name": "click",
+        "link": "https://stackoverflow.com/users/4151972/click"
+      }
+    },
+    {
+      "question_id": 610473,
+      "title": "Find and replace HTML tags",
+      "accepted_answer_id": 610653,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/610473/find-and-replace-html-tags",
+      "owner": {
+        "display_name": "Javier",
+        "link": "https://stackoverflow.com/users/61427/javier"
+      }
+    },
+    {
+      "question_id": 7920639,
+      "title": "find first level children in nokogiri rails",
+      "accepted_answer_id": 7921158,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/7920639/find-first-level-children-in-nokogiri-rails",
+      "owner": {
+        "display_name": "Dzmitry",
+        "link": "https://stackoverflow.com/users/382851/dzmitry"
+      }
+    },
+    {
+      "question_id": 10476783,
+      "title": "trying to get content inside cdata tags in xml file using nokogiri",
+      "accepted_answer_id": 10477214,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/10476783/trying-to-get-content-inside-cdata-tags-in-xml-file-using-nokogiri",
+      "owner": {
+        "display_name": "Aaron Thomas",
+        "link": "https://stackoverflow.com/users/966036/aaron-thomas"
+      }
+    },
+    {
+      "question_id": 16141347,
+      "title": "How to get the last element of a sequence in XPath?",
+      "accepted_answer_id": 16142142,
+      "score": 15,
+      "link": "https://stackoverflow.com/questions/16141347/how-to-get-the-last-element-of-a-sequence-in-xpath",
+      "owner": {
+        "display_name": "Alexander.Iljushkin",
+        "link": "https://stackoverflow.com/users/720097/alexander-iljushkin"
+      }
+    },
+    {
+      "question_id": 4841238,
+      "title": "Add a class to an element with Nokogiri",
+      "accepted_answer_id": 4841269,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/4841238/add-a-class-to-an-element-with-nokogiri",
+      "owner": {
+        "display_name": "Tom Lehman",
+        "link": "https://stackoverflow.com/users/25068/tom-lehman"
+      }
+    },
+    {
+      "question_id": 5393593,
+      "title": "How do I get the next HTML element in Nokogiri?",
+      "accepted_answer_id": 5394051,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/5393593/how-do-i-get-the-next-html-element-in-nokogiri",
+      "owner": {
+        "display_name": "cbmeeks",
+        "link": "https://stackoverflow.com/users/59202/cbmeeks"
+      }
+    },
+    {
+      "question_id": 6675128,
+      "title": "How do I use Nokogiri::XML::Reader to parse large XML files?",
+      "accepted_answer_id": 6675340,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/6675128/how-do-i-use-nokogirixmlreader-to-parse-large-xml-files",
+      "owner": {
+        "display_name": "neilfws",
+        "link": "https://stackoverflow.com/users/89482/neilfws"
+      }
+    },
+    {
+      "question_id": 10076190,
+      "title": "Nokogiri recursively get all children",
+      "accepted_answer_id": 10077772,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/10076190/nokogiri-recursively-get-all-children",
+      "owner": {
+        "display_name": "wmarbut",
+        "link": "https://stackoverflow.com/users/701368/wmarbut"
+      }
+    },
+    {
+      "question_id": 16028028,
+      "title": "nokogiri will not install - ERROR: Failed to build gem native extension",
+      "accepted_answer_id": 16028181,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/16028028/nokogiri-will-not-install-error-failed-to-build-gem-native-extension",
+      "owner": {
+        "display_name": "Tampa",
+        "link": "https://stackoverflow.com/users/1203556/tampa"
+      }
+    },
+    {
+      "question_id": 16084144,
+      "title": "libxslt is missing while installing ruby gem nokogiri",
+      "accepted_answer_id": 16178923,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/16084144/libxslt-is-missing-while-installing-ruby-gem-nokogiri",
+      "owner": {
+        "display_name": "sadmicrowave",
+        "link": "https://stackoverflow.com/users/281488/sadmicrowave"
+      }
+    },
+    {
+      "question_id": 21114933,
+      "title": "How to avoid creating non-significant white space text nodes when creating a `Nokogiri::XML` or `Nokogiri::HTML` object",
+      "accepted_answer_id": 21115496,
+      "score": 14,
+      "link": "https://stackoverflow.com/questions/21114933/how-to-avoid-creating-non-significant-white-space-text-nodes-when-creating-a-no",
+      "owner": {
+        "display_name": "CodingMo",
+        "link": "https://stackoverflow.com/users/997743/codingmo"
+      }
+    },
+    {
+      "question_id": 1761306,
+      "title": "nokogiri multiple css classes",
+      "accepted_answer_id": 1765402,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/1761306/nokogiri-multiple-css-classes",
+      "owner": {
+        "display_name": "massinissa",
+        "link": "https://stackoverflow.com/users/166327/massinissa"
+      }
+    },
+    {
+      "question_id": 1829425,
+      "title": "How to create an XML document with a namespaced root element with Nokogiri Builder",
+      "accepted_answer_id": 1856280,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/1829425/how-to-create-an-xml-document-with-a-namespaced-root-element-with-nokogiri-build",
+      "owner": {
+        "display_name": "Luke Francl",
+        "link": "https://stackoverflow.com/users/17965/luke-francl"
+      }
+    },
+    {
+      "question_id": 2940472,
+      "title": "Is it possible to parse a stylesheet with Nokogiri?",
+      "accepted_answer_id": 2986622,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/2940472/is-it-possible-to-parse-a-stylesheet-with-nokogiri",
+      "owner": {
+        "display_name": "wbharding",
+        "link": "https://stackoverflow.com/users/153610/wbharding"
+      }
+    },
+    {
+      "question_id": 7466822,
+      "title": "creating large file xml in ruby",
+      "accepted_answer_id": 7467141,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/7466822/creating-large-file-xml-in-ruby",
+      "owner": {
+        "display_name": "Gaurav Shah",
+        "link": "https://stackoverflow.com/users/619036/gaurav-shah"
+      }
+    },
+    {
+      "question_id": 7697662,
+      "title": "How do I get innerHtml using Nokogiri gem",
+      "accepted_answer_id": 7697743,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/7697662/how-do-i-get-innerhtml-using-nokogiri-gem",
+      "owner": {
+        "display_name": "Sasha",
+        "link": "https://stackoverflow.com/users/2246271/sasha"
+      }
+    },
+    {
+      "question_id": 8218711,
+      "title": "Print an XML document without the XML header line at the top",
+      "accepted_answer_id": 8219362,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/8218711/print-an-xml-document-without-the-xml-header-line-at-the-top",
+      "owner": {
+        "display_name": "RubyRedGrapefruit",
+        "link": "https://stackoverflow.com/users/465986/rubyredgrapefruit"
+      }
+    },
+    {
+      "question_id": 9549354,
+      "title": "How to let Ruby Mechanize get a page which lives in a string",
+      "accepted_answer_id": 9549620,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/9549354/how-to-let-ruby-mechanize-get-a-page-which-lives-in-a-string",
+      "owner": {
+        "display_name": "Just a learner",
+        "link": "https://stackoverflow.com/users/170931/just-a-learner"
+      }
+    },
+    {
+      "question_id": 17014854,
+      "title": "libxml2 missing for nokogiri gem on Windows 8 x64 with Ruby 1.9.3",
+      "accepted_answer_id": 23437057,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/17014854/libxml2-missing-for-nokogiri-gem-on-windows-8-x64-with-ruby-1-9-3",
+      "owner": {
+        "display_name": "jzig",
+        "link": "https://stackoverflow.com/users/2469215/jzig"
+      }
+    },
+    {
+      "question_id": 17600037,
+      "title": "How do I use Nokogiri to parse an XML file?",
+      "accepted_answer_id": 17600295,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/17600037/how-do-i-use-nokogiri-to-parse-an-xml-file",
+      "owner": {
+        "display_name": "camdixon",
+        "link": "https://stackoverflow.com/users/2573654/camdixon"
+      }
+    },
+    {
+      "question_id": 47038472,
+      "title": "Nokogiri v 1.8.1 issue when running Bundle Install",
+      "accepted_answer_id": 47040117,
+      "score": 13,
+      "link": "https://stackoverflow.com/questions/47038472/nokogiri-v-1-8-1-issue-when-running-bundle-install",
+      "owner": {
+        "display_name": "user7406101",
+        "link": "https://stackoverflow.com/users/7406101/user7406101"
+      }
+    },
+    {
+      "question_id": 1287952,
+      "title": "How do I validate XHTML with nokogiri?",
+      "accepted_answer_id": 1289422,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/1287952/how-do-i-validate-xhtml-with-nokogiri",
+      "owner": {
+        "display_name": "NeilS",
+        "link": "https://stackoverflow.com/users/149397/neils"
+      }
+    },
+    {
+      "question_id": 4727610,
+      "title": "What&#39;s the xpath syntax to get tag names?",
+      "accepted_answer_id": 4727671,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/4727610/whats-the-xpath-syntax-to-get-tag-names",
+      "owner": {
+        "display_name": "Nathan Long",
+        "link": "https://stackoverflow.com/users/4376/nathan-long"
+      }
+    },
+    {
+      "question_id": 6082866,
+      "title": "Get all elements by partial match of class attribute",
+      "accepted_answer_id": 6082989,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/6082866/get-all-elements-by-partial-match-of-class-attribute",
+      "owner": {
+        "display_name": "Matt Facer",
+        "link": "https://stackoverflow.com/users/235267/matt-facer"
+      }
+    },
+    {
+      "question_id": 6700367,
+      "title": "Getting all links of a webpage using Ruby",
+      "accepted_answer_id": 6700406,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/6700367/getting-all-links-of-a-webpage-using-ruby",
+      "owner": {
+        "display_name": "F&#225;bio Perez",
+        "link": "https://stackoverflow.com/users/604734/f%c3%a1bio-perez"
+      }
+    },
+    {
+      "question_id": 12657558,
+      "title": "Installing nokogiri Mac OS X 10.8.2 XCode installed",
+      "accepted_answer_id": 14030170,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/12657558/installing-nokogiri-mac-os-x-10-8-2-xcode-installed",
+      "owner": {
+        "display_name": "Ravin",
+        "link": "https://stackoverflow.com/users/844384/ravin"
+      }
+    },
+    {
+      "question_id": 13303287,
+      "title": "Xpath doesn&#39;t return anything in Nokogiri",
+      "accepted_answer_id": 13303409,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/13303287/xpath-doesnt-return-anything-in-nokogiri",
+      "owner": {
+        "display_name": "Alan Coromano",
+        "link": "https://stackoverflow.com/users/1708058/alan-coromano"
+      }
+    },
+    {
+      "question_id": 17213728,
+      "title": "Error about nokogiri while capistrano deployment on ubuntu server",
+      "accepted_answer_id": 17279810,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/17213728/error-about-nokogiri-while-capistrano-deployment-on-ubuntu-server",
+      "owner": {
+        "display_name": "&#199;ağdaş",
+        "link": "https://stackoverflow.com/users/735960/%c3%87a%c4%9fda%c5%9f"
+      }
+    },
+    {
+      "question_id": 30780988,
+      "title": "Error installing nokogiri in ubuntu 14.0.4 (Ruby 1.8.7)",
+      "accepted_answer_id": 30781484,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/30780988/error-installing-nokogiri-in-ubuntu-14-0-4-ruby-1-8-7",
+      "owner": {
+        "display_name": "Nani",
+        "link": "https://stackoverflow.com/users/2617906/nani"
+      }
+    },
+    {
+      "question_id": 50326433,
+      "title": "Parse &#39;ul&#39; and &#39;ol&#39; tags",
+      "accepted_answer_id": 50386524,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/50326433/parse-ul-and-ol-tags",
+      "owner": {
+        "display_name": "Aniket Tiwari",
+        "link": "https://stackoverflow.com/users/5787849/aniket-tiwari"
+      }
+    },
+    {
+      "question_id": 70963924,
+      "title": "Unable to load nokogiri in docker container on M1 Mac",
+      "accepted_answer_id": 71014474,
+      "score": 12,
+      "link": "https://stackoverflow.com/questions/70963924/unable-to-load-nokogiri-in-docker-container-on-m1-mac",
+      "owner": {
+        "display_name": "Andy Davis",
+        "link": "https://stackoverflow.com/users/516236/andy-davis"
+      }
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": 29289566,
+      "body": "<p>Read the file into an in-memory XML document, modify the document as needed, then serialize the document back into the original file:</p>\n<pre class=\"lang-rb prettyprint-override\"><code>filename = 'exam.xml'\nxml = File.read(filename)\ndoc = Nokogiri::XML(xml)\n# ... make changes to doc ...\nFile.write(filename, doc)\n</code></pre>\n",
+      "owner": {
+        "display_name": "maerics",
+        "link": "https://stackoverflow.com/users/244128/maerics"
+      }
+    },
+    {
+      "answer_id": 7978072,
+      "body": "<p>If you want to build <a href=\"http://en.wikipedia.org/wiki/Document_Object_Model\" rel=\"noreferrer\">DOM</a> you can use <a href=\"https://github.com/tmpvar/jsdom\" rel=\"noreferrer\">jsdom</a>.</p>\n<p>There's also <a href=\"https://github.com/MatthewMueller/cheerio\" rel=\"noreferrer\">cheerio</a>, it has the <a href=\"http://jquery.com/\" rel=\"noreferrer\">jQuery</a> interface and it's a lot faster than older versions of jsdom, although these days they are similar in performance.</p>\n<p>You might wanna have a look at <a href=\"https://github.com/fb55/htmlparser2\" rel=\"noreferrer\">htmlparser2</a>, which is a streaming parser, and according to its benchmark, it seems to be faster than others, and no DOM by default. It can also produce a DOM, as it is also bundled with a handler that creates a DOM. This is the parser that is used by cheerio.</p>\n<p><a href=\"https://github.com/inikulin/parse5\" rel=\"noreferrer\">parse5</a> also looks like a good solution. It's fairly active (11 days since the last commit as of this update), WHATWG-compliant, and is used in <a href=\"https://github.com/tmpvar/jsdom\" rel=\"noreferrer\">jsdom</a>, <a href=\"https://github.com/angular/angular\" rel=\"noreferrer\">Angular</a>, and <a href=\"https://github.com/Polymer/polymer\" rel=\"noreferrer\">Polymer</a>.</p>\n<p>If the website you're trying to scrape is <a href=\"http://en.wikipedia.org/wiki/Dynamic_web_page\" rel=\"noreferrer\">dynamic</a> then you should be using a <a href=\"https://en.wikipedia.org/wiki/Headless_browser\" rel=\"noreferrer\">headless browser</a> like <a href=\"http://phantomjs.org/\" rel=\"noreferrer\">phantomjs</a>. Also have a look at <a href=\"http://casperjs.org/\" rel=\"noreferrer\">casperjs</a>, if you're considering phantomjs. And you can control casperjs from node with <a href=\"https://github.com/WaterfallEngineering/SpookyJS\" rel=\"noreferrer\">SpookyJS</a>.</p>\n<p>Beside phantomjs there's <a href=\"http://zombie.labnotes.org/\" rel=\"noreferrer\">zombiejs</a>. Unlike phantomjs that cannot be embedded in nodejs, zombiejs is just a node module.</p>\n<p>There's a <a href=\"http://net.tutsplus.com/tutorials/javascript-ajax/web-scraping-with-node-js/\" rel=\"noreferrer\">nettuts+ toturial</a> for the latter solutions.</p>\n",
+      "owner": {
+        "display_name": "Farid Nouri Neshat",
+        "link": "https://stackoverflow.com/users/774086/farid-nouri-neshat"
+      }
+    },
+    {
+      "answer_id": 71014474,
+      "body": "<p>I had a similar problem with a Rails app that has dependency on Nokogiri running on an Alpine based container on my Macbook M1. Here is what I did:</p>\n<ol>\n<li><p>Reading the <a href=\"https://nokogiri.org/tutorials/installing_nokogiri.html#supported-platforms\" rel=\"noreferrer\">Nokogiri documentation</a>, I found out that <code>aarch64-linux</code> (the architecture used inside the Docker container) is actually supported, but it requires <code>glibc &gt;= 2.29</code>.</p>\n</li>\n<li><p>I am far from being an expert but, as far as I know, Alpine distributions don't include <code>glibc</code> but <code>musl</code>. Fortunately, there <a href=\"https://wiki.alpinelinux.org/wiki/Running_glibc_programs\" rel=\"noreferrer\">are ways to run programs that need <code>glibc</code> in Alpine</a>.</p>\n</li>\n<li><p>I personally followed the first option, that is, I installed <a href=\"https://git.adelielinux.org/adelie/gcompat\" rel=\"noreferrer\"><code>gcompat</code></a>. I just needed to add <code>gcompat</code> to the list of packages to install in my <code>Dockerfile</code>.</p>\n<p><code>RUN apk add --no-cache ... gcompat</code></p>\n</li>\n<li><p>After that change, things went smoothly and the Rails app started up with no issues.</p>\n</li>\n</ol>\n<p>Again, I am not an expert and the above might be inaccurate, but it did the magic for me. I hope it can help you too.</p>\n",
+      "owner": {
+        "display_name": "Pedro Galan",
+        "link": "https://stackoverflow.com/users/3691161/pedro-galan"
+      }
+    },
+    {
+      "answer_id": 69817978,
+      "body": "<p>Well, it's trying with <code>Using nokogiri 1.12.5 (x86_64-darwin)</code> which is for x86 processors, but you'll need the <code>arm64-darwin</code> version. I have no M1 machines to try it out, but you might try <a href=\"https://nokogiri.org/tutorials/installing_nokogiri.html#how-can-i-avoid-using-a-precompiled-native-gem\" rel=\"noreferrer\">reinstalling Nokogiri with</a>:</p>\n<pre><code>gem uninstall nokogiri\nbundle config set force_ruby_platform true\nbundle install\n</code></pre>\n",
+      "owner": {
+        "display_name": "Alter Lagos",
+        "link": "https://stackoverflow.com/users/895789/alter-lagos"
+      }
+    },
+    {
+      "answer_id": 6163052,
+      "body": "<p>I had the same issue.  Unfortunately the &quot;<a href=\"https://nokogiri.org/tutorials/installing_nokogiri.html\" rel=\"nofollow noreferrer\">Installing Nokogiri</a>&quot; doesn't cover Iconv issues. Here's how I resolved the issue.</p>\n<p>First install <a href=\"https://brew.sh/\" rel=\"nofollow noreferrer\">homebrew</a>, it'll make your life easier.  If you already have it installed, be sure to grab the latest formulae by updating like so:</p>\n<pre><code>brew update\n</code></pre>\n<p><strong>Note</strong>: In OSX 10.9+ you may need to install xCode command tools to allow you to install libiconv.</p>\n<pre><code>xcode-select --install\n</code></pre>\n<p>then install a newer version of libiconv</p>\n<pre><code>brew install libiconv\n</code></pre>\n<p>then install your gem</p>\n<pre><code>gem install nokogiri -- --with-iconv-dir=/usr/local/Cellar/libiconv/1.14\n</code></pre>\n",
+      "owner": {
+        "display_name": "Cory",
+        "link": "https://stackoverflow.com/users/331813/cory"
+      }
+    },
+    {
+      "answer_id": 8406635,
+      "body": "<p><code>Builder#to_xml</code> by default outputs formatted (i.e. indented) XML. You can use the <a href=\"http://nokogiri.rubyforge.org/nokogiri/Nokogiri/XML/Node/SaveOptions.html\" rel=\"nofollow noreferrer\"><code>Nokogiri::XML::Node::SaveOptions</code></a> to get an almost unformatted result.</p>\n<pre class=\"lang-rb prettyprint-override\"><code>b = Nokogiri::XML::Builder.new do |xml|\n  xml.root do\n    xml.foo do\n      xml.text(&quot;Value&quot;)\n    end\n  end\nend\n\nb.to_xml\n# =&gt; &quot;&lt;?xml version=\\&quot;1.0\\&quot;?&gt;\\n&lt;root&gt;\\n  &lt;foo&gt;Value&lt;/foo&gt;\\n&lt;/root&gt;\\n&quot;\n\nb.to_xml(:save_with =&gt; Nokogiri::XML::Node::SaveOptions::AS_XML)\n# =&gt; &quot;&lt;?xml version=\\&quot;1.0\\&quot;?&gt;\\n&lt;root&gt;&lt;foo&gt;Value&lt;/foo&gt;&lt;/root&gt;\\n&quot;\n</code></pre>\n<p>Now you could either just get rid of the XML header (which is optional anyway) and remove the last newline</p>\n<pre class=\"lang-rb prettyprint-override\"><code>b.to_xml(:save_with =&gt; Nokogiri::XML::Node::SaveOptions::AS_XML | Nokogiri::XML::Node::SaveOptions::NO_DECLARATION).strip\n# =&gt; &quot;&lt;root&gt;&lt;foo&gt;Value&lt;/foo&gt;&lt;/root&gt;&quot;\n</code></pre>\n<p>Just removing all newlines in the XML is probably a bad idea as newlines can actually be significant (e.g. in <code>&lt;pre&gt;</code> blocks of XHTML). If that is not the case for you (and you are really sure of that) you could just do it.</p>\n",
+      "owner": {
+        "display_name": "Holger Just",
+        "link": "https://stackoverflow.com/users/421705/holger-just"
+      }
+    },
+    {
+      "answer_id": 66032553,
+      "body": "<p>The problem is likely that you are using ruby 3.0.0.</p>\n<p>Under Ruby 2.7, I receive the following warning:</p>\n<blockquote>\n<p>warning: calling URI.open via Kernel#open is deprecated, call URI.open directly or use URI#open</p>\n</blockquote>\n<p>And under Ruby 3.0, it has been removed.</p>\n<p>So the solution, per the warning:</p>\n<pre class=\"lang-rb prettyprint-override\"><code>document = URI.open(&quot;https://en.wikipedia.org/wiki/Douglas_Adams&quot;).read\n</code></pre>\n",
+      "owner": {
+        "display_name": "John Ledbetter",
+        "link": "https://stackoverflow.com/users/130641/john-ledbetter"
+      }
+    },
+    {
+      "answer_id": 1856280,
+      "body": "<pre><code>require 'rubygems'\nrequire 'nokogiri'\n\nputs Nokogiri::XML::Builder.new do |xml| \n  xml.root(&quot;xmlns:foo&quot;=&gt;&quot;url&quot;) do\n    xml.parent.namespace = xml.parent.namespace_definitions.find{|ns|ns.prefix==&quot;foo&quot;}\n    xml['foo'].child\n  end\nend.to_xml\n</code></pre>\n<p>You cannot use <code>xml['foo']</code> before the namespace is defined, I.E. before you pass it as an argument to the root node, thus, the code above added the namespace after-the-fact to the root node.</p>\n",
+      "owner": {
+        "display_name": "akuhn",
+        "link": "https://stackoverflow.com/users/24468/akuhn"
+      }
+    },
+    {
+      "answer_id": 64653052,
+      "body": "<p><code>sudo ln -s /bin/mkdir /usr/bin/mkdir</code></p>\n",
+      "owner": {
+        "display_name": "dem1tris",
+        "link": "https://stackoverflow.com/users/11802344/dem1tris"
+      }
+    },
+    {
+      "answer_id": 13321101,
+      "body": "<p>After I posted this question I found the solution:\n<a href=\"https://github.com/amatsuda/kaminari\" rel=\"nofollow noreferrer\">kaminari: A Scope &amp; Engine based, clean, powerful, customizable and sophisticated paginator for Rails 3</a>.</p>\n<p>Just go to the console and type:</p>\n<pre><code>rails generate kaminari:views bootstrap4\n</code></pre>\n<p>It will download some Haml files to your application, and the views are changed.  It also supports bootstrap 2 and 3 e.g</p>\n<pre><code>rails generate kaminari:views bootstrap3\n</code></pre>\n<p>Here are some themes for Kaminari views: <a href=\"https://github.com/amatsuda/kaminari_themes\" rel=\"nofollow noreferrer\">https://github.com/amatsuda/kaminari_themes</a></p>\n",
+      "owner": {
+        "display_name": "duykhoa",
+        "link": "https://stackoverflow.com/users/1659807/duykhoa"
+      }
+    },
+    {
+      "answer_id": 6487164,
+      "body": "<p>Use <code>.body</code>:</p>\n\n<pre><code>puts jobShortListPg.body\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dogbert",
+        "link": "https://stackoverflow.com/users/320615/dogbert"
+      }
+    },
+    {
+      "answer_id": 13303409,
+      "body": "<p>Your XML is in the namespace <code>some_namespace</code> but your XPaths don't have a namespace binding. You're essentially querying different elements than are in your XML. </p>\n\n<p>Using \"<a href=\"http://www.xmlsh.org/QNameClarkNotation\" rel=\"nofollow noreferrer\">Clark notation</a>\", the element you're trying to get to is </p>\n\n<pre><code>{some_namespace}ShortMessage\n</code></pre>\n\n<p>but you're querying for <code>ShortMessage</code> in the no-namespace. </p>\n\n<p>Just because there is no prefix, i.e. the namespace is the default namespace, doesn't mean you can ignore it.</p>\n",
+      "owner": {
+        "display_name": "nine9ths",
+        "link": "https://stackoverflow.com/users/1796854/nine9ths"
+      }
+    },
+    {
+      "answer_id": 1737593,
+      "body": "<p>That XPath query looks for elements that are not in any namespace. You need to tell your XPath processor that you are looking for elements in the <code>http://sdb.amazonaws.com/doc/2007-11-07/</code> namespace.</p>\n\n<p>One way to do that with Nokogiri is:</p>\n\n<pre><code>doc = Nokogiri::XML.parse(...)\ndoc.xpath(\"//aws:Item/aws:Attribute[Name='Foo']/aws:Value\", {\"aws\" =&gt; \"http://sdb.amazonaws.com/doc/2007-11-07/\"})\n</code></pre>\n",
+      "owner": {
+        "display_name": "hrnt",
+        "link": "https://stackoverflow.com/users/120471/hrnt"
+      }
+    },
+    {
+      "answer_id": 19755506,
+      "body": "<p>Like @Alex said, you could use the <a href=\"http://www.ruby-doc.org/core-2.0.0/Kernel.html#method-i-fork\" rel=\"nofollow noreferrer\"><code>Kernel#fork</code></a> to create a new ruby process where you will <code>require</code> your libraries. The new forked process will have access to data loaded in the parent process:</p>\n\n<pre><code>def talk(msg)\n  # this will allow us to see which process is\n  # talking\n  puts \"#{Process.pid}: #{msg}\"\nend\n\n# this data was loaded on the parent process\n# and will be use in the child (and in the parent)\nthis_is_data = [\"a\", \"b\", \"c\"]\n\ntalk \"I'm the father process, and I see #{this_is_data}\"\n\n# this will create a new ruby process\nfork{\n  talk \"I'm another process, and I also see #{this_is_data}\"\n  talk \"But when I change `this_is_data`, a new copy of it is created\"\n  this_is_data &lt;&lt; \"d\"\n  talk \"My own #{this_is_data}\"\n}\n\n# let's wait and give a chance to the child process\n# finishes before the parent\nsleep 3\n\ntalk \"Now, in the father again, data is: #{this_is_data}\"\n</code></pre>\n\n<p>The result of this execution will vary in your machine, the <code>Process.id</code> will return different values, but it will be like these:</p>\n\n<pre><code>23520: I'm the father process, and I see [\"a\", \"b\", \"c\"]\n23551: I'm another process, and I also see [\"a\", \"b\", \"c\"]\n23551: But when I change `this_is_data`, a new copy of it is created\n23551: My own [\"a\", \"b\", \"c\", \"d\"]\n23520: Now, in the father again, data is: [\"a\", \"b\", \"c\"]\n</code></pre>\n\n<p>And this is good! Each process created by <code>fork</code> is an O.S. level process and run in it's own memory space.</p>\n\n<p>Another thing you can do to somehow manage the globals created by loading a file, is replace the use of <code>require</code> by <code>load</code>. This approach doesn't solve all the problems already pointed, but really can help. See the following specs:</p>\n\n<pre><code>require \"minitest/autorun\"\n\ndescribe \"Loading files inside a scope\" do\n\n  def create_lib_file(version)\n    libfile = &lt;&lt;CODE\n      class MyLibrary#{version}\n        VERSION = \"0.0.#{version}\"\n      end\n\n      class String\n        def omg_danger!\n        end\n      end\n\n      puts \"loaded \\#{MyLibrary#{version}::VERSION}\"\n    CODE\n\n    File.write(\"my_library.rb\", libfile)\n  end\n\n  after do\n    File.delete(\"my_library.rb\") if File.exists?(\"my_library.rb\")\n  end\n\n  describe \"loading with require\" do\n    it \"sees the MyLibrary definition\" do\n      create_lib_file(\"1\")\n      require_relative \"my_library.rb\"\n      MyLibrary1::VERSION.must_be :==, \"0.0.1\"\n      \"\".respond_to?(:omg_danger!).must_be :==, true\n    end\n  end\n\n  describe \"loading with #load \" do\n    describe \"without wrapping\" do\n      it \"sees the MyLibrary definition\" do\n        create_lib_file(\"2\")\n        load \"my_library.rb\"\n        MyLibrary2::VERSION.must_be :==, \"0.0.2\"\n        \"\".respond_to?(:omg_danger!).must_be :==, true\n      end\n    end\n\n    describe \"using anonymous module wraping\" do\n      it \"doesn't sees MyLibrary definition\" do\n        create_lib_file(\"3\")\n        load \"my_library.rb\", true\n        -&gt;{ MyLibrary3 }.must_raise NameError\n        \"\".respond_to?(:omg_danger!).must_be :==, false\n      end\n    end\n  end\nend\n</code></pre>\n\n<p>And the result of execution:</p>\n\n<pre><code>Run options: --seed 16453\n\n# Running tests:\n\nloaded 0.0.3\n.loaded 0.0.2\n.loaded 0.0.1\n.\n\nFinished tests in 0.004707s, 637.3486 tests/s, 1274.6973 assertions/s.\n\n3 tests, 6 assertions, 0 failures, 0 errors, 0 skips\n</code></pre>\n",
+      "owner": {
+        "display_name": "Ricardo Valeriano",
+        "link": "https://stackoverflow.com/users/332429/ricardo-valeriano"
+      }
+    },
+    {
+      "answer_id": 1901693,
+      "body": "<p>By \"pretty printing\" of HTML page I presume you meant that you want to reformat the HTML structure with proper indentation. Nokogiri doesn't support this; the <code>pretty_print</code> method is for the \"pp\" library and the output is useful for debugging only.</p>\n\n<p>There are several projects that understand HTML well enough to be able to reformat it without destroying whitespace that is actually significant (the famous one is <a href=\"http://tidy.sourceforge.net/\" rel=\"nofollow noreferrer\">HTML Tidy</a>), but by Googling I've found this post titled <a href=\"http://emmanueloga.wordpress.com/2009/09/29/pretty-printing-xhtml-with-nokogiri-and-xslt/\" rel=\"nofollow noreferrer\">\"Pretty printing XHTML with Nokogiri and XSLT\"</a>.</p>\n\n<p>It comes down to this:</p>\n\n<pre><code>xsl = Nokogiri::XSLT(File.open(\"pretty_print.xsl\"))\nhtml = Nokogiri(File.open(\"source.html\"))\nputs xsl.apply_to(html).to_s\n</code></pre>\n\n<p>It requires you, of course, to download the linked XSL file to your filesystem. I've tried it very quickly on my machine and it works like a charm.</p>\n",
+      "owner": {
+        "display_name": "mislav",
+        "link": "https://stackoverflow.com/users/11687/mislav"
+      }
+    },
+    {
+      "answer_id": 7467141,
+      "body": "<p><strong>Solution 1</strong></p>\n\n<p>If speed is your main concern, I'd just use <a href=\"http://libxml.rubyforge.org/rdoc/\" rel=\"nofollow noreferrer\">libxml-ruby</a> directly:</p>\n\n<pre><code>$ time ruby test.rb \n\nreal    0m7.352s\nuser    0m5.867s\nsys     0m0.921s\n</code></pre>\n\n<p>The API is pretty straight forward:</p>\n\n<pre><code>require 'rubygems'\nrequire 'xml'\ndoc = XML::Document.new()\ndoc.root = XML::Node.new('root_node')\nroot = doc.root\n\n500000.times do |k|\n  root &lt;&lt; elem1 = XML::Node.new('products')\n  elem1 &lt;&lt; elem2 = XML::Node.new('widget')\n  elem2['id'] = k.to_s\n  elem2['name'] = 'Awesome widget'\nend\n\ndoc.save('foo.xml', :indent =&gt; false, :encoding =&gt; XML::Encoding::UTF_8)\n</code></pre>\n\n<p>Using <code>:indent =&gt; true</code> doesn't make much difference in this case, but for more complex XML files it might.</p>\n\n<pre><code>$ time ruby test.rb #(with indent)\n\nreal    0m7.395s\nuser    0m6.050s\nsys     0m0.847s\n</code></pre>\n\n<p><strong>Solution 2</strong></p>\n\n<p>Of course the fastest solution, and that doesn't build up on memory is just to write the XML manually but that will easily generate other sources of error like possibly invalid XML:</p>\n\n<pre><code>$ time ruby test.rb \n\nreal    0m1.131s\nuser    0m0.873s\nsys     0m0.126s\n</code></pre>\n\n<p>Here's the code:</p>\n\n<pre><code>f = File.open(\"foo.xml\", \"w\")\nf.puts('&lt;doc&gt;')\n500000.times do |k|\n  f.puts \"&lt;product&gt;&lt;widget id=\\\"#{k}\\\" name=\\\"Awesome widget\\\" /&gt;&lt;/product&gt;\"\nend\nf.puts('&lt;/doc&gt;')\nf.close\n</code></pre>\n",
+      "owner": {
+        "display_name": "sunkencity",
+        "link": "https://stackoverflow.com/users/155031/sunkencity"
+      }
+    },
+    {
+      "answer_id": 2080816,
+      "body": "<p>Seems you need to read a <a href=\"https://www.w3schools.com/xml/xpath_intro.asp\" rel=\"noreferrer\">XPath Tutorial</a></p>\n\n<p>Your <code>//table/tbody[@id=\"threadbits_forum_251\"]/tr</code> expression means:</p>\n\n<ul>\n<li><code>//</code> - Anywhere in your XML document</li>\n<li><code>table/tbody</code> - take a table element with a tbody child</li>\n<li><code>[@id=\"threadbits_forum_251\"]</code> - <em>where</em> id attribute are equals to \"threadbits_forum_251\"</li>\n<li><code>tr</code> - and take its <code>tr</code> elements</li>\n</ul>\n\n<p>So, basically, you need to know:</p>\n\n<ul>\n<li>attributes begins with <code>@</code></li>\n<li>conditions go inside <code>[]</code> brackets</li>\n</ul>\n\n<p>If I correcly understood that API, you can go with <code>doc.xpath(\"td[3]/div[1]/a\")[\"href\"]</code>, or <code>td[3]/div[1]/a/@href</code> if there is just one <code>&lt;a&gt;</code> element.</p>\n",
+      "owner": {
+        "display_name": "Rubens Farias",
+        "link": "https://stackoverflow.com/users/113794/rubens-farias"
+      }
+    },
+    {
+      "answer_id": 54790592,
+      "body": "<p>Thanks to Morgan Jarry answer, this is what worked for me :</p>\n\n<p>I checked my current sources and indeed they were outdated :</p>\n\n<pre><code>gem sources\n</code></pre>\n\n<p>It printed </p>\n\n<pre><code>*** CURRENT SOURCES ***\nhttp://gems.rubyforge.org/\nhttp://gems.github.com\n</code></pre>\n\n<p>So I ran this script to remove them and replaced them with <a href=\"https://rubygems.org/\" rel=\"noreferrer\">https://rubygems.org/</a></p>\n\n<pre><code>gem sources -r  http://gems.rubyforge.org/\ngem sources -r http://gems.github.com\ngem sources -a https://rubygems.org/\n</code></pre>\n",
+      "owner": {
+        "display_name": "R&#233;mi JUHE",
+        "link": "https://stackoverflow.com/users/11089895/r%c3%a9mi-juhe"
+      }
+    },
+    {
+      "answer_id": 25068003,
+      "body": "<p>Previous advises didn't help me, here is the solution for OS 10.9:</p>\n\n<pre><code>brew install libxml2\nbundle config build.nokogiri \"--use-system-libraries --with-xml2-include=/usr/local/opt/libxml2/include/libxml2\"\nbundle install\n</code></pre>\n",
+      "owner": {
+        "display_name": "Kir",
+        "link": "https://stackoverflow.com/users/531272/kir"
+      }
+    },
+    {
+      "answer_id": 6959361,
+      "body": "<p>Comparing with <code>true</code> isn't the right way to go. The <a href=\"http://nokogiri.org/Nokogiri/XML/Node.html#method-i-at\" rel=\"noreferrer\"><code>at</code></a> call will return <code>nil</code> if it doesn't find anything so:</p>\n\n<pre><code>if page.at_css('div.errorMsg')\n  puts 'Error message found on page'\nelse\n  puts 'No error message found on page'\nend\n</code></pre>\n\n<p>is one way as <code>nil</code> is falsey in a boolean context but a <a href=\"http://nokogiri.org/Nokogiri/XML/Node.html\" rel=\"noreferrer\"><code>Nokogiri::XML::Node</code></a> won't be. I also switched to <a href=\"http://nokogiri.org/Nokogiri/XML/Node.html#method-i-at_css\" rel=\"noreferrer\">CSS notation</a> as I find that clearer than XPath for simple things like this but you're free to use <a href=\"http://nokogiri.org/Nokogiri/XML/Node.html#method-i-at_xpath\" rel=\"noreferrer\"><code>at_xpath</code></a> or feed XPath or a CSS selector to <code>at</code> if you like that better.</p>\n\n<p>Also, the three <code>at</code> methods return the first matching element or <code>nil</code> so they're good choices if you just want to check existence.</p>\n",
+      "owner": {
+        "display_name": "mu is too short",
+        "link": "https://stackoverflow.com/users/479863/mu-is-too-short"
+      }
+    },
+    {
+      "answer_id": 50386524,
+      "body": "<p>I've come up with a solution that handles multiple identations with configurable numeration rules per level:</p>\n\n<pre><code>require 'nokogiri'\nROMANS = %w[i ii iii iv v vi vii viii ix]\n\nRULES = {\n  ol: {\n    1 =&gt; -&gt;(index) { \"#{index + 1}. \" },\n    2 =&gt; -&gt;(index) { \"#{('a'..'z').to_a[index]}. \" },\n    3 =&gt; -&gt;(index) { \"#{ROMANS.to_a[index]}. \" },\n    4 =&gt; -&gt;(index) { \"#{ROMANS.to_a[index].upcase}. \" }\n  },\n  ul: {\n    1 =&gt; -&gt;(_) { \"\\u2022 \" },\n    2 =&gt; -&gt;(_) { \"\\u25E6 \" },\n    3 =&gt; -&gt;(_) { \"* \" },\n    4 =&gt; -&gt;(_) { \"- \" },\n  }\n}\n\ndef ol_rule(group, deepness: 1)\n  group.search('&gt; li').each_with_index do |item, i|\n    prefix = RULES[:ol][deepness].call(i)\n    item.prepend_child(prefix)\n    descend(item, deepness + 1)\n  end\nend\n\ndef ul_rule(group, deepness: 1)\n  group.search('&gt; li').each_with_index do |item, i|\n    prefix = RULES[:ul][deepness].call(i)\n    item.prepend_child(prefix)\n    descend(item, deepness + 1)\n  end\nend\n\ndef descend(item, deepness)\n  item.search('&gt; ol').each do |ol|\n    ol_rule(ol, deepness: deepness)\n  end\n  item.search('&gt; ul').each do |ul|\n    ul_rule(ul, deepness: deepness)\n  end\nend\n\ndoc = Nokogiri::HTML.fragment(text)\n\ndoc.search('ol:root').each do |group|\n  binding.pry\n  ol_rule(group, deepness: 1)\nend\n\ndoc.search('ul:root').each do |group|\n  ul_rule(group, deepness: 1)\nend\n</code></pre>\n\n<p>You can then remove the tags or use doc.inner_text depending on your environment.</p>\n\n<p>Two caveats though:</p>\n\n<ol>\n<li>Your entry selector must be carefully selected. I used your snippet verbatim without root element, thus i had to use ul:root/ol:root. Maybe \"body > ol\" works for your situation too. Maybe selecting each ol/ul but than walking each and only find those, that have no list parent.</li>\n<li>Using your example verbatim, Nokogiri does not handle the last 2 list items of the first group ol very well (\"hey\", \"Three\")\nWhen parsing with nokogiri, thus elements already \"left\" their ol tree and got placed in the root tree. </li>\n</ol>\n\n<p>Current Output:</p>\n\n<pre><code>  1. One\n  2. Two\n      a. Inner One\n      b. inner Two\n        ◦ hey\n        ◦ hey\n      3. hey\n      4. hey\n  hey\n  Three\n\n  1. Introduction\n    a. Introduction\n  2. Description\n  3. Observation\n  4. Results\n  5. Summary\n\n  • Introduction\n  • Description\n      ◦ Observation\n          * Results\n              - Summary\n  • Overview\n</code></pre>\n",
+      "owner": {
+        "display_name": "stwienert",
+        "link": "https://stackoverflow.com/users/220292/stwienert"
+      }
+    },
+    {
+      "answer_id": 40038954,
+      "body": "<p>Open Xcode and, from the menu <code>XCode</code> -> <code>Preferences</code> update your Command Line Tools (Xcode 8.0). </p>\n\n<p>Then do:</p>\n\n<pre><code>bundle config build.nokogiri --use-system-libraries=true --with-xml2-include=\"$(xcrun --show-sdk-path)\"/usr/include/libxml2\nbundle install\n</code></pre>\n\n<p>or just:</p>\n\n<pre><code>gem install nokogiri -v 1.6.8.1 -- --use-system-libraries=true --with-xml2-include=\"$(xcrun --show-sdk-path)\"/usr/include/libxml2\n</code></pre>\n",
+      "owner": {
+        "display_name": "Julian Popov",
+        "link": "https://stackoverflow.com/users/44537/julian-popov"
+      }
+    },
+    {
+      "answer_id": 47040117,
+      "body": "<p>Nokogiri fails to build normaly because you don't have dev libraries like libxml2. Look at the log file to see what happens or try to install libxml2 directly with <code>brew install libxml2</code></p>\n\n<p>See throubleshoting guide provided by Nokogiry at <a href=\"http://www.nokogiri.org/tutorials/installing_nokogiri.html\" rel=\"noreferrer\">http://www.nokogiri.org/tutorials/installing_nokogiri.html</a></p>\n",
+      "owner": {
+        "display_name": "TlmaK0",
+        "link": "https://stackoverflow.com/users/327786/tlmak0"
+      }
+    },
+    {
+      "answer_id": 16142142,
+      "body": "<p>You can access the last element in XPath using <code>last()</code> in a predicate.</p>\n\n<pre><code>node.xpath('.//ROOT/TAG[last()]/KEY_NAME')\n</code></pre>\n\n<p>And use <code>[last()-1]</code> for the second-to-last position.</p>\n",
+      "owner": {
+        "display_name": "Jens Erat",
+        "link": "https://stackoverflow.com/users/695343/jens-erat"
+      }
+    },
+    {
+      "answer_id": 39940668,
+      "body": "<p>I tried @the_basterd's recommendation. That didn't work, but the reference was good—thank you the_basterd. What worked from that reference was:</p>\n\n<p><code>brew install libxml2</code> </p>\n\n<p><code>bundle config build.nokogiri --use-system-libraries --with-xml2-include=/usr/local/opt/libxml2/include/libxml2</code></p>\n\n<p>Reference: <a href=\"https://github.com/sparklemotion/nokogiri/issues/1483\">https://github.com/sparklemotion/nokogiri/issues/1483</a></p>\n\n<p>Later postings at that ref said that what I posted above \"is strongly recommended against by the Nokogiri.\" </p>\n\n<blockquote>\n  <p><code>brew unlink xz; bundle install; brew link xz</code> <strong>is preferred</strong>.</p>\n</blockquote>\n",
+      "owner": {
+        "display_name": "Greg",
+        "link": "https://stackoverflow.com/users/2565086/greg"
+      }
+    },
+    {
+      "answer_id": 21115496,
+      "body": "<p>You can use the <a href=\"http://nokogiri.org/Nokogiri/XML/ParseOptions.html\" rel=\"noreferrer\"><code>NOBLANKS</code> option</a> for parsing the XML string, consider this example:</p>\n\n<pre><code>require 'nokogiri'\n\nstring = \"&lt;foo&gt;\\n  &lt;bar&gt;bar&lt;/bar&gt;\\n&lt;/foo&gt;\"\nputs string\n# &lt;foo&gt;\n#   &lt;bar&gt;bar&lt;/bar&gt;\n# &lt;/foo&gt;\n\ndocument_with_blanks = Nokogiri::XML.parse(s)\n\ndocument_without_blanks = Nokogiri::XML.parse(s) do |config|\n  config.noblanks\nend\n\ndocument_with_blanks.root.children.each { |child| p child }\n#&lt;Nokogiri::XML::Text:0x3ffa4e153dac \"\\n  \"&gt;\n#&lt;Nokogiri::XML::Element:0x3fdce3f78488 name=\"bar\" children=[#&lt;Nokogiri::XML::Text:0x3fdce3f781f4 \"bar\"&gt;]&gt;\n#&lt;Nokogiri::XML::Text:0x3ffa4e15335c \"\\n\"&gt;\n\ndocument_without_blanks.root.children.each { |child| p child }\n#&lt;Nokogiri::XML::Element:0x3f81bef42034 name=\"bar\" children=[#&lt;Nokogiri::XML::Text:0x3f81bef43ee8 \"bar\"&gt;]&gt;\n</code></pre>\n\n<hr>\n\n<p>The <code>NOBLANKS</code> shouldn't remove empty nodes:</p>\n\n<pre><code>doc = Nokogiri.XML('&lt;foo&gt;&lt;bar&gt;&lt;/bar&gt;&lt;/foo&gt;') do |config|\n  config.noblanks\nend\n\ndoc.root.children.each { |child| p child }\n#&lt;Nokogiri::XML::Element:0x3fad0fafbfa8 name=\"bar\"&gt;\n</code></pre>\n\n<hr>\n\n<p>As OP pointed out the documentation on the Nokogiri website (and also on the <a href=\"http://xmlsoft.org/html/libxml-parser.html#xmlParserOption\" rel=\"noreferrer\">libxml website</a>) about the parser options is quite cryptic, following a specification of the behaviour ot the <code>NOBLANKS</code> option:</p>\n\n<pre><code>require 'rspec/autorun'\nrequire 'nokogiri'\n\ndef parse_xml(xml_string)\n  Nokogiri.XML(xml_string) { |config| config.noblanks }\nend\n\ndescribe \"Nokogiri NOBLANKS parser option\" do\n\n  it \"removes whitespace nodes if they have siblings\" do\n    doc = parse_xml(\"&lt;root&gt;\\n &lt;child&gt;&lt;/child&gt;&lt;/root&gt;\")\n    expect(doc.root.children.size).to eq(1)\n    expect(doc.root.children.first).to be_kind_of(Nokogiri::XML::Node)\n  end\n\n  it \"doesn't remove whitespaces nodes if they have no siblings\" do\n    doc = parse_xml(\"&lt;root&gt;\\n &lt;/root&gt;\")\n    expect(doc.root.children.size).to eq(1)\n    expect(doc.root.children.first).to be_kind_of(Nokogiri::XML::Text)\n  end\n\n  it \"doesn't remove empty nodes\" do\n    doc = parse_xml('&lt;root&gt;&lt;child&gt;&lt;/child&gt;&lt;/root&gt;')\n    expect(doc.root.children.size).to eq(1)\n    expect(doc.root.children.first).to be_kind_of(Nokogiri::XML::Node)\n  end\n\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "toro2k",
+        "link": "https://stackoverflow.com/users/1375209/toro2k"
+      }
+    },
+    {
+      "answer_id": 34836816,
+      "body": "<p>The key of the problem is that calling <code>#text</code> on multiple results will return the concatenation of the <code>#text</code> of each individual element.</p>\n\n<p>Lets examine what each step does:</p>\n\n<pre><code># Finds all &lt;table&gt;s with class open\n# I'm assuming you have only one &lt;table&gt; so\n#  you don't actually have to loop through\n#  all tables, instead you can just operate\n#  on the first one. If that is not the case,\n#  you can use a loop the way you did\ntables = doc.css('table.open')\n\n# The text of all &lt;th&gt;s in &lt;tr&gt; one in the table\ntitle = table.css('tr[1] &gt; th').text\n\n# The text of all &lt;td&gt;s in all &lt;tr&gt;s in the table\n# You obviously wanted just the &lt;td&gt;s in one &lt;tr&gt;\ncell_data = table.css('tr &gt; td').text\n\n# The text of all &lt;th&gt;s in all &lt;tr&gt;s in the table\n# You obviously wanted just the &lt;th&gt;s in one &lt;tr&gt;\nraw_name = table.css('tr &gt; th').text\n</code></pre>\n\n<hr>\n\n<p>Now that we know what is wrong, here is a possible solution:</p>\n\n<pre><code>html = &lt;&lt;EOT\n    &lt;table class=\"open\"&gt;\n        &lt;tr&gt;\n            &lt;th&gt;Table name&lt;/th&gt;\n            &lt;th&gt;Column name 1&lt;/th&gt;\n            &lt;th&gt;Column name 2&lt;/th&gt;\n            &lt;th&gt;Column name 3&lt;/th&gt;\n            &lt;th&gt;Column name 4&lt;/th&gt;\n            &lt;th&gt;Column name 5&lt;/th&gt;\n        &lt;/tr&gt;\n        &lt;tr&gt;\n            &lt;th&gt;Raw name 1&lt;/th&gt;\n            &lt;td&gt;1001&lt;/td&gt;\n            &lt;td&gt;1002&lt;/td&gt;\n            &lt;td&gt;1003&lt;/td&gt;\n            &lt;td&gt;1004&lt;/td&gt;\n            &lt;td&gt;1005&lt;/td&gt;         \n        &lt;/tr&gt;\n        &lt;tr&gt;\n            &lt;th&gt;Raw name 2&lt;/th&gt;\n            &lt;td&gt;2001&lt;/td&gt;\n            &lt;td&gt;2002&lt;/td&gt;\n            &lt;td&gt;2003&lt;/td&gt;\n            &lt;td&gt;2004&lt;/td&gt;\n            &lt;td&gt;2005&lt;/td&gt;         \n        &lt;/tr&gt;\n        &lt;tr&gt;\n            &lt;th&gt;Raw name 3&lt;/th&gt;\n            &lt;td&gt;3001&lt;/td&gt;\n            &lt;td&gt;3002&lt;/td&gt;\n            &lt;td&gt;3003&lt;/td&gt;\n            &lt;td&gt;3004&lt;/td&gt;\n            &lt;td&gt;3005&lt;/td&gt;         \n        &lt;/tr&gt;\n    &lt;/table&gt;\nEOT\n</code></pre>\n\n<hr>\n\n<pre><code>doc = Nokogiri::HTML(html, nil, 'UTF-8')\n\n# Fetches only the first &lt;table&gt;. If you have\n#  more than one, you can loop the way you\n#  originally did.\ntable = doc.css('table.open').first\n\n# Fetches all rows (&lt;tr&gt;s)\nrows = table.css('tr')\n\n# The column names are the first row (shift returns\n#  the first element and removes it from the array).\n# On that row we get the text of each individual &lt;th&gt;\n# This will be Table name, Column name 1, Column name 2...\ncolumn_names = rows.shift.css('th').map(&amp;:text)\n\n# On each of the remaining rows\ntext_all_rows = rows.map do |row|\n\n  # We get the name (&lt;th&gt;)\n  # On the first row this will be Raw name 1\n  #  on the second - Raw name 2, etc.\n  row_name = row.css('th').text\n\n  # We get the text of each individual value (&lt;td&gt;)\n  # On the first row this will be 1001, 1002, 1003...\n  #  on the second - 2001, 2002, 2003... etc\n  row_values = row.css('td').map(&amp;:text)\n\n  # We map the name, followed by all the values\n  [row_name, *row_values]\nend\n\np column_names  # =&gt; [\"Table name\", \"Column name 1\", \"Column name 2\",\n                #     \"Column name 3\", \"Column name 4\", \"Column name 5\"]\np text_all_rows # =&gt; [[\"Raw name 1\", \"1001\", \"1002\", \"1003\", \"1004\", \"1005\"],\n                #     [\"Raw name 2\", \"2001\", \"2002\", \"2003\", \"2004\", \"2005\"],\n                #     [\"Raw name 3\", \"3001\", \"3002\", \"3003\", \"3004\", \"3005\"]]\n\n# If you want to combine them\ntext_all_rows.each do |row_as_text|\n  p column_names.zip(row_as_text).to_h\nend # =&gt;\n    # {\"Table name\"=&gt;\"Raw name 1\", \"Column name 1\"=&gt;\"1001\", \"Column name 2\"=&gt;\"1002\", \"Column name 3\"=&gt;\"1003\", \"Column name 4\"=&gt;\"1004\", \"Column name 5\"=&gt;\"1005\"}\n    # {\"Table name\"=&gt;\"Raw name 2\", \"Column name 1\"=&gt;\"2001\", \"Column name 2\"=&gt;\"2002\", \"Column name 3\"=&gt;\"2003\", \"Column name 4\"=&gt;\"2004\", \"Column name 5\"=&gt;\"2005\"}\n    # {\"Table name\"=&gt;\"Raw name 3\", \"Column name 1\"=&gt;\"3001\", \"Column name 2\"=&gt;\"3002\", \"Column name 3\"=&gt;\"3003\", \"Column name 4\"=&gt;\"3004\", \"Column name 5\"=&gt;\"3005\"}\n</code></pre>\n",
+      "owner": {
+        "display_name": "ndnenkov",
+        "link": "https://stackoverflow.com/users/2423164/ndnenkov"
+      }
+    },
+    {
+      "answer_id": 34653921,
+      "body": "<p>You should install <code>xcode-select</code> packages first, then try installing nokogiri again. Try these commands,</p>\n\n<pre><code>xcode-select --install\n</code></pre>\n\n<p>then try</p>\n\n<pre><code>gem install nokogiri\n</code></pre>\n\n<p>with whatever Nokogiri version you want.</p>\n\n<p>Nokogiri depends on multiple libraries like libxslt, libxml and zlib. Dev versions (including source) of these should be installed before installing Nokogiri in any Linux distribution. For OS X, the above command should work I guess.</p>\n\n<p>The actual solution is in the comments below.</p>\n",
+      "owner": {
+        "display_name": "Prasanna Sundar",
+        "link": "https://stackoverflow.com/users/3715103/prasanna-sundar"
+      }
+    },
+    {
+      "answer_id": 4768711,
+      "body": "<p><strong>Use</strong>:</p>\n\n<pre class=\"lang-none prettyprint-override\"><code>(//h2[. = 'Foo bar'])[1]/following-sibling::p\n   [1 = count(preceding-sibling::h2[1] | (//h2[. = 'Foo bar'])[1])]\n</code></pre>\n\n<p>In case it is guaranteed that every <code>h2</code> has a distinct value, this may be simplified to:</p>\n\n<pre class=\"lang-none prettyprint-override\"><code>//h2[. = 'Foo bar']/following-sibling::p\n   [1 = count(preceding-sibling::h2[1] | ../h2[. = 'Foo bar'])]\n</code></pre>\n\n<p><strong>This means</strong>: Select all <code>p</code> elements that are following siblings of the <code>h2</code> (first or only one in the document) whose string value is <code>'Foo bar'</code> and also the first preceding sibling <code>h2</code> for all these <code>p</code> elements is exactly the h2<code>(first or only one in the document) whose string value is</code>'Foo bar'`.</p>\n\n<p><strong>Here we use a method of finding whether two nodes are identical</strong>:</p>\n\n<pre><code>count($n1 | $n2) = 1\n</code></pre>\n\n<p>is <code>true()</code> exactly when the nodes <code>$n1</code> and <code>$n2</code> are the same node.</p>\n\n<p><strong>This expression can be generalized</strong>:</p>\n\n<pre><code>$x/following-sibling::p\n       [1 = count(preceding-sibling::node()[name() = name($x)][1] | $x)]\n</code></pre>\n\n<p><strong>selects all \"immediate following siblings\" of any node specified by $x</strong>.</p>\n",
+      "owner": {
+        "display_name": "Dimitre Novatchev",
+        "link": "https://stackoverflow.com/users/36305/dimitre-novatchev"
+      }
+    },
+    {
+      "answer_id": 29007731,
+      "body": "<p>Nokogiri doesn't support Ruby 2.2 on Windows yet. The next release will. See <a href=\"https://github.com/sparklemotion/nokogiri/issues/1256\" rel=\"noreferrer\">https://github.com/sparklemotion/nokogiri/issues/1256</a></p>\n\n<p>Nokogiri doesn't support native builds (e.g. with devkit) on Windows. Instead it provides gems containing prebuilt DLLs.</p>\n\n<p>There's a discussion which you may want to join or watch on the topic of devkit build support here: <a href=\"https://github.com/sparklemotion/nokogiri/issues/1190\" rel=\"noreferrer\">https://github.com/sparklemotion/nokogiri/issues/1190</a></p>\n",
+      "owner": {
+        "display_name": "Mike Dalessio",
+        "link": "https://stackoverflow.com/users/65190/mike-dalessio"
+      }
+    },
+    {
+      "answer_id": 24259690,
+      "body": "<p>Finally, the problem was caused by nokogiri itself by shipping it's own libxml2 that's incompatible with some systems.<br>\nSo to install nokogiri I had to tell it that it should use the system libraries.</p>\n\n<p>I installed it manually by:</p>\n\n<pre><code>gem install nokogiri -v 1.6.2.1 -- --use-system-libraries\n</code></pre>\n\n<p>And it worked well. Other answers didn't solve it.</p>\n",
+      "owner": {
+        "display_name": "Claudiu Creanga",
+        "link": "https://stackoverflow.com/users/3711219/claudiu-creanga"
+      }
+    },
+    {
+      "answer_id": 8219362,
+      "body": "<p>The simplest way to get the XML for a <code>Document</code> without the leading \"PI\" (<a href=\"http://en.wikipedia.org/wiki/Processing_instruction\">processing instruction</a>) is to call <code>to_s</code> on the root element instead of the document itself:</p>\n\n<pre class=\"lang-ruby prettyprint-override\"><code>require 'nokogiri'\ndoc = Nokogiri.XML('&lt;hello world=\"true\" /&gt;')\n\nputs doc\n#=&gt; &lt;?xml version=\"1.0\"?&gt;\n#=&gt; &lt;hello world=\"true\"/&gt;\n\nputs doc.root\n#=&gt; &lt;hello world=\"true\"/&gt;\n</code></pre>\n\n<p>The 'correct' way to do it at the document or builder level, though, is to use <a href=\"http://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML/Node/SaveOptions\"><code>SaveOptions</code></a>:</p>\n\n<pre><code>formatted_no_decl = Nokogiri::XML::Node::SaveOptions::FORMAT +\n                    Nokogiri::XML::Node::SaveOptions::NO_DECLARATION\n\nputs doc.to_xml( save_with:formatted_no_decl )\n#=&gt; &lt;hello world=\"true\"/&gt;\n\n# Making your code shorter, but horribly confusing for future readers\nputs doc.to_xml save_with:3\n#=&gt; &lt;hello world=\"true\"/&gt;\n</code></pre>\n\n<p>&nbsp;</p>\n\n<hr>\n\n<p>Note that <a href=\"http://nokogiri.org/Nokogiri/XML/DocumentFragment.html\"><code>DocumentFragment</code></a>s do <em>not</em> automatically include this PI:</p>\n\n<pre><code>frag = Nokogiri::XML::DocumentFragment.parse('&lt;hello world=\"true\" /&gt;')\nputs frag\n#=&gt; &lt;hello world=\"true\"/&gt;\n</code></pre>\n\n<p>If you are seeing a PI in your fragment output, it means it was there when you parsed it.</p>\n\n<pre><code>xml = '&lt;?xml version=\"1.0\"?&gt;&lt;hello world=\"true\" /&gt;'\nfrag = Nokogiri::XML::DocumentFragment.parse(xml)\nputs frag\n#=&gt; &lt;?xml version=\"1.0\"?&gt;&lt;hello world=\"true\"/&gt;\n</code></pre>\n\n<p>If so, and you want to get rid of any PIs, you <strike>can do so</strike> <em>should</em> be able to do so with a little XPath:</p>\n\n<pre><code>frag.xpath('//processing-instruction()').remove\nputs frag\n</code></pre>\n\n<p>…except that <a href=\"https://github.com/sparklemotion/nokogiri/issues/572\">this does not appear to work</a> due to <a href=\"https://github.com/sparklemotion/nokogiri/issues/370\">oddness with XPath in DocumentFragments</a>. To work around these bugs do this instead:</p>\n\n<pre><code># To remove only PIs at the root level of the fragment\nfrag.xpath('processing-instruction()').remove\nputs frag\n#=&gt; &lt;hello world=\"true\"/&gt;\n\n# Alternatively, to remove all PIs everywhere, including inside child nodes\nfrag.xpath('processing-instruction()|.//processing-instruction()').remove\n</code></pre>\n\n<p>&nbsp;</p>\n\n<hr>\n\n<p>If you have a <a href=\"http://nokogiri.org/Nokogiri/XML/Builder.html\"><code>Builder</code></a> object, do either of:</p>\n\n<pre><code>builder = Nokogiri::XML::Builder.new{ |xml| xml.hello(world:\"true\") }\n\nputs builder.to_xml\n#=&gt; &lt;?xml version=\"1.0\"?&gt;\n#=&gt; &lt;hello world=\"true\"/&gt;\n\nputs builder.doc.root.to_xml\n#=&gt; &lt;hello world=\"true\"/&gt;\n\nformatted_no_decl = Nokogiri::XML::Node::SaveOptions::FORMAT +\n                    Nokogiri::XML::Node::SaveOptions::NO_DECLARATION\n\nputs builder.to_xml save_with:formatted_no_decl\n#=&gt; &lt;hello world=\"true\"/&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Phrogz",
+        "link": "https://stackoverflow.com/users/405017/phrogz"
+      }
+    },
+    {
+      "answer_id": 30781484,
+      "body": "<p>I tried the following commands and I've got it. Thanks to <a href=\"https://stackoverflow.com/users/381874/m-kumar\">Mr.Kumar</a></p>\n\n<pre><code>$ sudo apt-get update \n$ sudo apt-get install libxml2-dev\n$ sudo apt-get install libxslt-dev\n$ sudo gem install nokogiri -v '1.4.7'\n\n$ gem list nokogiri\n*** LOCAL GEMS ***\nnokogiri (1.4.7)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Nani",
+        "link": "https://stackoverflow.com/users/2617906/nani"
+      }
+    },
+    {
+      "answer_id": 9549620,
+      "body": "<p>Mechanize uses Nokogiri to parse the HTML. If you are accessing the HTML without the need of an internet transfer protocol you don't need Mechanize. All you are looking to do is to parse the input HTML, right?</p>\n\n<p>The following will let you do this:</p>\n\n<pre><code>require 'Nokogiri'\nhtml = 'html here'\npage = Nokogiri::HTML html\n</code></pre>\n\n<p>If you have the Mechanize gem installed you will already have Nokogiri.</p>\n\n<p>Otherwise you can still create a new Mechanize page using:</p>\n\n<pre><code>require 'Mechanize'\nhtml = 'html here'\na = Mechanize.new\npage2 = Mechanize::Page.new(nil,{'content-type'=&gt;'text/html'},html,nil,a)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Kassym Dorsel",
+        "link": "https://stackoverflow.com/users/991805/kassym-dorsel"
+      }
+    },
+    {
+      "answer_id": 29783034,
+      "body": "<p>Run </p>\n\n<pre><code>bundle config build.nokogiri --use-system-libraries\n</code></pre>\n\n<p>After running this command, every time Bundler needs to install the nokogiri gem, it will pass along the flags you specified.</p>\n\n<p>It remembers this setting by adding an entry to your <code>~/.bundle/config</code> file:</p>\n\n<pre><code>---\nBUNDLE_BUILD__NOKOGIRI: \"--use-system-libraries\"\n</code></pre>\n",
+      "owner": {
+        "display_name": "infused",
+        "link": "https://stackoverflow.com/users/2456433/infused"
+      }
+    },
+    {
+      "answer_id": 7840255,
+      "body": "<p>I just spent the better part of the morning working through this warning.  This fix is for people using Mac OS Lion.  The fix above using </p>\n\n<pre><code>bundle config build.nokogiri --with-xml2-include=/opt/local/include/libxml2 --with-xml2-lib=/opt/local/lib --with-xslt-dir=/opt/local\n</code></pre>\n\n<p>is for Snow Leopard with libxml2 installed via MacPorts.</p>\n\n<p>With Lion, libxml2 is loaded as part of the bootstrap process.  Regardless of which libxml2 Nokogiri is pointing to, the Lion system default library for libxml2 will be used at runtime.  Lion uses libxml2.2.7.3 found in <code>/usr</code> (not <code>/usr/local</code>).</p>\n\n<p>As mentioned many other places, one can just ignore the warning.  If, like me, the warning drives you crazy, you can do this:</p>\n\n<pre class=\"lang-none prettyprint-override\"><code>bundle config build.nokogiri --with-xml2-dir=/usr --with-xslt-dir=/opt/local --with-iconv-dir=/opt/local\n</code></pre>\n\n<p>Interestingly, if you type <code>nokogiri -v</code> at the command line you will get the opposite warning:</p>\n\n<pre><code>WARNING: Nokogiri was built against LibXML version 2.7.3, but has dynamically loaded 2.7.8\n</code></pre>\n\n<p>This suggests there is more to how libxml2 is being loaded, with Ruby and Rails using the system loaded libxml2 and the command line using libxml2 from the environment path.  Anyway, this silences the error for me.</p>\n\n<p>I’ll say it again – this is only for Lion.  The previous fix will work for Snow Leopard.</p>\n\n<p>This is the end of the answer.  Stop reading here.</p>\n\n<hr>\n\n<p>OK, you didn’t stop reading... well...</p>\n\n<p><em>NOT RECOMMENDED!!!!!!</em></p>\n\n<p>You have been warned.  You can verify that Mac OSX is loading the libxml2 library in its bootstrap by disabling libxml2 found in <code>/usr/lib</code>.  Do something like copying all versions of <code>libxml2*.dylib</code> to <code>libxml2*.dylib.old</code> (on my machine this was <code>libxml2.2.7.3</code>, <code>libxml2.2</code> and <code>libxml2</code>).</p>\n\n<p>After you have done this, running Nokogiri will not produce any errors.  That is because it can’t find the loaded libxml2 and will now follow the environment path, eventually finding <code>libxml2.2.7.8</code> in <code>/opt/local</code>.</p>\n\n<p>BUT you won’t be able to copy the old libxml files back.  This is because the OS needs the libxml2 that was loaded in the bootstrap.</p>\n\n<p>Powering off and powering on again will brick your machine.  The login screen will hang and hang and hang.  Power off and power on again in single-user mode (hold <kbd>Command</kbd>-<kbd>S</kbd> while rebooting).  You can watch the bootstrap occur.  Low and behold, it throws an error that it can’t load libxml2 and then stops working.</p>\n\n<p>Power off and power on again.  This time boot into recovery mode (either hold <kbd>Command</kbd>-<kbd>R</kbd> or hold <kbd>Option</kbd> and then select the recovery disk).  In recovery mode open the terminal (<code>utilities/terminal</code>).  Mount <code>/usr/lib</code> on your HD (try <code>/Volumes/Macintosh\\ HD/usr/lib</code>) and copy the libxml2 files back.  Reboot and all will be fine.</p>\n",
+      "owner": {
+        "display_name": "Kenton",
+        "link": "https://stackoverflow.com/users/1005808/kenton"
+      }
+    },
+    {
+      "answer_id": 17600295,
+      "body": "<p>Here I will try to explain you all the questions/confusions you are having:</p>\n\n<pre><code>require 'nokogiri'\n\ndoc = Nokogiri::XML.parse &lt;&lt;-XML\n&lt;Collection version=\"2.0\" id=\"74j5hc4je3b9\"&gt;\n  &lt;Name&gt;A Funfair in Bangkok&lt;/Name&gt;\n  &lt;PermaLink&gt;Funfair in Bangkok&lt;/PermaLink&gt;\n  &lt;PermaLinkIsName&gt;True&lt;/PermaLinkIsName&gt;\n  &lt;Description&gt;A small funfair near On Nut in Bangkok.&lt;/Description&gt;\n  &lt;Date&gt;2009-08-03T00:00:00&lt;/Date&gt;\n  &lt;IsHidden&gt;False&lt;/IsHidden&gt;\n  &lt;Items&gt;\n    &lt;Item filename=\"AGC_1998.jpg\"&gt;\n      &lt;Title&gt;Funfair in Bangkok&lt;/Title&gt;\n      &lt;Caption&gt;A small funfair near On Nut in Bangkok.&lt;/Caption&gt;\n      &lt;Authors&gt;Anthony Bouch&lt;/Authors&gt;\n      &lt;Copyright&gt;Copyright © Anthony Bouch&lt;/Copyright&gt;\n      &lt;CreatedDate&gt;2009-08-07T19:22:08&lt;/CreatedDate&gt;\n      &lt;Keywords&gt;\n        &lt;Keyword&gt;Funfair&lt;/Keyword&gt;\n        &lt;Keyword&gt;Bangkok&lt;/Keyword&gt;\n        &lt;Keyword&gt;Thailand&lt;/Keyword&gt;\n      &lt;/Keywords&gt;\n      &lt;ThumbnailSize width=\"133\" height=\"200\" /&gt;\n      &lt;PreviewSize width=\"532\" height=\"800\" /&gt;\n      &lt;OriginalSize width=\"2279\" height=\"3425\" /&gt;\n    &lt;/Item&gt;\n    &lt;Item filename=\"AGC_1164.jpg\" iscover=\"True\"&gt;\n      &lt;Title&gt;Bumper Cars at a Funfair in Bangkok&lt;/Title&gt;\n      &lt;Caption&gt;Bumper cars at a small funfair near On Nut in Bangkok.&lt;/Caption&gt;\n      &lt;Authors&gt;Anthony Bouch&lt;/Authors&gt;\n      &lt;Copyright&gt;Copyright © Anthony Bouch&lt;/Copyright&gt;\n      &lt;CreatedDate&gt;2009-08-03T22:08:24&lt;/CreatedDate&gt;\n      &lt;Keywords&gt;\n        &lt;Keyword&gt;Bumper Cars&lt;/Keyword&gt;\n        &lt;Keyword&gt;Funfair&lt;/Keyword&gt;\n        &lt;Keyword&gt;Bangkok&lt;/Keyword&gt;\n        &lt;Keyword&gt;Thailand&lt;/Keyword&gt;\n      &lt;/Keywords&gt;\n      &lt;ThumbnailSize width=\"200\" height=\"133\" /&gt;\n      &lt;PreviewSize width=\"800\" height=\"532\" /&gt;\n      &lt;OriginalSize width=\"3725\" height=\"2479\" /&gt;\n    &lt;/Item&gt;\n  &lt;/Items&gt;\n&lt;/Collection&gt;\nXML\n</code></pre>\n\n<hr>\n\n<blockquote>\n  <p>So from my understanding of Nokogiri, each 'Items' is a node, and under that there are children nodes of 'Item'?</p>\n</blockquote>\n\n<p>No, each <em>Items</em> are <code>Nokogiri::XML::NodeSet</code>. And under that there are 2 children nodes of <em>Items</em>,which are of <code>Nokogiri::XML::Element</code> class object. You can say them also <code>Nokogiri::XML::Node</code></p>\n\n<pre><code>doc.class # =&gt; Nokogiri::XML::Document\n@block = doc.xpath(\"//Items/Item\")\n@block.class # =&gt; Nokogiri::XML::NodeSet\n@block.count # =&gt; 2\n@block.map { |node| node.name }\n# =&gt; [\"Item\", \"Item\"]\n@block.map { |node| node.class }\n# =&gt; [Nokogiri::XML::Element, Nokogiri::XML::Element]\n@block.map { |node| node.children.count }\n# =&gt; [19, 19]\n@block.map { |node| node.class.superclass }\n# =&gt; [Nokogiri::XML::Node, Nokogiri::XML::Node]\n</code></pre>\n\n<hr>\n\n<blockquote>\n  <p>We create a map of this, which returns a hash I believe, and the code in {} goes through each node and places the children text into @block. Then I can display all of this child node's text to the screen.</p>\n</blockquote>\n\n<p>I don't understand this. Although I tried to explain below to show what is <em>Node</em>,and what is <em>Nodeset</em> in <em>Nokogiri</em>. Remember <code>Nodeset</code> is a collection of <em>Nodes</em>.</p>\n\n<pre><code>@chld_class = @block.map do |node|\n  node.children.class\nend\n@chld_class\n# =&gt; [Nokogiri::XML::NodeSet, Nokogiri::XML::NodeSet]\n@chld_name = @block.map do |node|\n  node.children.map { |n| [n.name,n.class] }\nend\n@chld_name\n# =&gt; [[[\"text\", Nokogiri::XML::Text],\n#      [\"Title\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"Caption\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"Authors\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"Copyright\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"CreatedDate\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"Keywords\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"ThumbnailSize\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"PreviewSize\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"OriginalSize\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text]],\n#     [[\"text\", Nokogiri::XML::Text],\n#      [\"Title\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"Caption\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"Authors\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"Copyright\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"CreatedDate\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"Keywords\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"ThumbnailSize\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"PreviewSize\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text],\n#      [\"OriginalSize\", Nokogiri::XML::Element],\n#      [\"text\", Nokogiri::XML::Text]]]\n</code></pre>\n\n<hr>\n\n<pre><code>@chld_name = @block.map do |node|\n  node.children.map{|n| [n.name,n.text.strip] if n.elem? }.compact\nend.compact\n@chld_name\n# =&gt; [[[\"Title\", \"Funfair in Bangkok\"],\n#      [\"Caption\", \"A small funfair near On Nut in Bangkok.\"],\n#      [\"Authors\", \"Anthony Bouch\"],\n#      [\"Copyright\", \"Copyright © Anthony Bouch\"],\n#      [\"CreatedDate\", \"2009-08-07T19:22:08\"],\n#      [\"Keywords\", \"Funfair\\n        Bangkok\\n        Thailand\"],\n#      [\"ThumbnailSize\", \"\"],\n#      [\"PreviewSize\", \"\"],\n#      [\"OriginalSize\", \"\"]],\n#     [[\"Title\", \"Bumper Cars at a Funfair in Bangkok\"],\n#      [\"Caption\", \"Bumper cars at a small funfair near On Nut in Bangkok.\"],\n#      [\"Authors\", \"Anthony Bouch\"],\n#      [\"Copyright\", \"Copyright © Anthony Bouch\"],\n#      [\"CreatedDate\", \"2009-08-03T22:08:24\"],\n#      [\"Keywords\",\n#       \"Bumper Cars\\n        Funfair\\n        Bangkok\\n        Thailand\"],\n#      [\"ThumbnailSize\", \"\"],\n#      [\"PreviewSize\", \"\"],\n#      [\"OriginalSize\", \"\"]]]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Arup Rakshit",
+        "link": "https://stackoverflow.com/users/2767755/arup-rakshit"
+      }
+    },
+    {
+      "answer_id": 29021223,
+      "body": "<p>Try running <code>bundle config build.nokogiri --use-system-libraries</code> as noted in the bundler output. Then re-run <code>bundle</code>.</p>\n",
+      "owner": {
+        "display_name": "Joe Van Dyk",
+        "link": "https://stackoverflow.com/users/17076/joe-van-dyk"
+      }
+    },
+    {
+      "answer_id": 14822893,
+      "body": "<p>XPath doesn’t have any way of escaping special characters, so this is a little tricky. A solution in this specific case would be to use double quotes instead of single quotes in the XPath expression:</p>\n\n<pre><code>text()=\"Frank's car\"\n</code></pre>\n\n<p>If you did this, you’d have to escape the quotes from Ruby if you used double quotes around the whole expression:</p>\n\n<pre><code>\"//li[text()=\\\"Frank's car\\\"]\"\n</code></pre>\n\n<p>You could use single quotes here if you aren’t doing any interpolation, and then escape the single quote:</p>\n\n<pre><code>'//li[text()=\"Frank\\'s car\"]'\n</code></pre>\n\n<p>A better option would perhaps be to make use of Ruby’s flexible quoting, so that none of the quotes would need escaping ,e.g.:</p>\n\n<pre><code>%{//li[text()=\"Frank's car\"]}\n</code></pre>\n\n<p>Note that all the examples here doing escaping <em>in Ruby</em>, so that the string that reaches the XPath processor is <code>//li[text()=\"Frank's car\"]</code>.</p>\n\n<p>The more general case, when the text is variable that could contain single or double quotes is more difficult. XPath’s string literals can’t contain both types of quotes; you need to construct the string using the <a href=\"http://www.w3.org/TR/xpath/#function-concat\" rel=\"noreferrer\">XPath <code>concat</code> function</a>.</p>\n\n<p>For example, if you wanted to match the string <code>\"That's mine\", he said.</code>, you would need to do something like:</p>\n\n<pre><code>text()=concat('\"That', \"'\", 's mine\", he said.')\n</code></pre>\n\n<p>And then you’d have to escape the quotes from Ruby (using <code>%{}</code> would be easiest).</p>\n\n<p>I found <a href=\"https://stackoverflow.com/q/1341847/214790\">another question on SO dealing with this issue in C#</a>, and a <a href=\"https://groups.google.com/forum/?fromgroups=#!topic/nokogiri-talk/6stziv8GcJM\" rel=\"noreferrer\">thread on the Nokogiri mailing list</a>, both of which might be worth looking at if you need to take this further.</p>\n",
+      "owner": {
+        "display_name": "matt",
+        "link": "https://stackoverflow.com/users/214790/matt"
+      }
+    },
+    {
+      "answer_id": 6082989,
+      "body": "<p>This should get you started:</p>\n\n<pre><code>doc.xpath('//p[starts-with(@class, \"matt\")]').each do |el|\n  p [el.attributes['class'].value, el.children[0].text]\nend\n[\"mattFacer\", \"Matty\"]\n[\"mattSmith\", \"Matthew\"]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Michael Kohl",
+        "link": "https://stackoverflow.com/users/220147/michael-kohl"
+      }
+    },
+    {
+      "answer_id": 16028181,
+      "body": "<p>You should have the necessary required packages: </p>\n\n<p><strong>Ruby</strong></p>\n\n<pre><code>sudo apt-get install ruby1.8-dev ruby1.8 ri1.8 rdoc1.8 irb1.8\nsudo apt-get install libreadline-ruby1.8 libruby1.8 libopenssl-ruby\n</code></pre>\n\n<p><strong>nokogiri</strong> </p>\n\n<pre><code>sudo apt-get install libxslt-dev libxml2-dev zlib1g-dev\nsudo gem install nokogiri\n</code></pre>\n\n<p>This should fix this. Or alternatively see <a href=\"https://stackoverflow.com/questions/8003523/error-installing-nokogiri-1-5-0-with-rails-3-1-0-and-ubuntu\">Problems installing Nokogiri (1.5.2) on Ubuntu 12.10</a> Which should also be able to answer your question. Pointer for future reference. Try to research on stackoverflow or other resources that may have the answer because you may find that your problem has already been solved\nWi</p>\n",
+      "owner": {
+        "display_name": "Deej",
+        "link": "https://stackoverflow.com/users/529640/deej"
+      }
+    },
+    {
+      "answer_id": 7107693,
+      "body": "<pre><code>html = &lt;&lt;HTML\n  &lt;div id=\"block\"&gt;\n    &lt;a href=\"http://google.com\"&gt;link&lt;/a&gt;\n  &lt;/div&gt;\nHTML\ndoc = Nokogiri::HTML(html)\ndoc.xpath('//div/a/@href')\n#=&gt; [#&lt;Nokogiri::XML::Attr:0x80887798 name=\"href\" value=\"http://google.com\"&gt;]\n</code></pre>\n\n<p>Or if you wanna be more specific about the div:</p>\n\n<pre><code>&gt;&gt; doc.xpath('//div[@id=\"block\"]/a/@href')\n=&gt; [#&lt;Nokogiri::XML::Attr:0x80887798 name=\"href\" value=\"http://google.com\"&gt;]\n&gt;&gt; doc.xpath('//div[@id=\"block\"]/a/@href').first.value\n=&gt; \"http://google.com\"\n</code></pre>\n",
+      "owner": {
+        "display_name": "Michael Kohl",
+        "link": "https://stackoverflow.com/users/220147/michael-kohl"
+      }
+    },
+    {
+      "answer_id": 27496640,
+      "body": "<p>This works like a charm!</p>\n\n<pre><code>gem install nokogiri -- --use-system-libraries=true --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/libxml2\n</code></pre>\n\n<p><a href=\"https://stackoverflow.com/a/24511149\">https://stackoverflow.com/a/24511149</a></p>\n",
+      "owner": {
+        "display_name": "Katie H",
+        "link": "https://stackoverflow.com/users/2736647/katie-h"
+      }
+    },
+    {
+      "answer_id": 5319518,
+      "body": "<p>Nokogiri has synonyms for the search-and-find-everything, and the find-the-first-one methods.</p>\n\n<p><a href=\"http://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML/NodeSet#search-instance_method\" rel=\"noreferrer\"><code>search</code></a>, <a href=\"http://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML/NodeSet#search-instance_method\" rel=\"noreferrer\"><code>/</code></a>, <a href=\"http://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML/NodeSet#xpath-instance_method\" rel=\"noreferrer\"><code>xpath</code></a> and <a href=\"http://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML/NodeSet#css-instance_method\" rel=\"noreferrer\"><code>css</code></a> all search for every occurrence of the accessor and return a <a href=\"http://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML/NodeSet\" rel=\"noreferrer\">NodeSet</a>.</p>\n\n<p><a href=\"http://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML/NodeSet#at-instance_method\" rel=\"noreferrer\"><code>at</code></a>, <a href=\"http://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML/NodeSet#at-instance_method\" rel=\"noreferrer\"><code>%</code></a>, <a href=\"http://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML/NodeSet#at_xpath-instance_method\" rel=\"noreferrer\"><code>at_xpath</code></a> and <a href=\"http://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML/NodeSet#at_css-instance_method\" rel=\"noreferrer\"><code>at_css</code></a> search for the first occurrence and return a <a href=\"http://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML/Node\" rel=\"noreferrer\">Node</a>. That is why the docs say they're equivalent to saying <code>search('//some/path').first</code> or <code>css('some path').first</code>.</p>\n",
+      "owner": {
+        "display_name": "the Tin Man",
+        "link": "https://stackoverflow.com/users/128421/the-tin-man"
+      }
+    },
+    {
+      "answer_id": 10077772,
+      "body": "<p>the <a href=\"http://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML/Node#traverse-instance_method\" rel=\"noreferrer\">traverse method</a> yields the current node and all children to a block, recursively.</p>\n\n<pre><code># if you would like it to be returned as an array, rather than each node being yielded to a block, you can do this\nresult = []\ndoc.traverse {|node| result &lt;&lt; node }\nresult\n\n# or, \nrequire 'enumerator'\nresult = doc.enum_for(:traverse).map\n</code></pre>\n",
+      "owner": {
+        "display_name": "John Douthat",
+        "link": "https://stackoverflow.com/users/2774/john-douthat"
+      }
+    },
+    {
+      "answer_id": 24151574,
+      "body": "<p>I managed to install Nokogiri under Yosemite (OS X 10.10 Preview).</p>\n\n<h3>Step 1: Install Brew</h3>\n\n<p>Skip this if brew was installed.</p>\n\n<pre><code>ruby -e \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\"\n</code></pre>\n\n<h3>Step 2: Install brew libs</h3>\n\n<pre><code>brew tap homebrew/dupes\nbrew install libxml2 libxslt\nbrew install libiconv\n</code></pre>\n\n<h3>Step 3: Download and install Apple Commandline Tools for 10.10</h3>\n\n<p>It's important that you need to restart after installation. </p>\n\n<p>Link: <a href=\"http://adcdownload.apple.com/Developer_Tools/command_line_tools_os_x_10.10_for_xcode__june_2014/command_line_tools_for_osx_10_10_june_2014.dmg\">command_line_tools_for_osx_10_10_june_2014.dmg</a></p>\n\n<p>After restarted, you can check installation in Terminal:</p>\n\n<pre><code>&gt; xcode-select --install\n-&gt; xcode-select: error: command line tools are already installed, use \"Software Update\" to install updates\n</code></pre>\n\n<p>This error means you have commandline tool installed correctly. </p>\n\n<h3>Installing Nokogiri</h3>\n\n<p>Try using n previous version 1.6.1 in your Gemfile, version 1.6.2.1 has issues currently with \"10.10 Preview\". It only works with my rbenv Ruby 2.0.0p247, failed to install on 2.1.1. You can give your existing Ruby versions a couple of tries.</p>\n\n<pre><code>gem install nokogiri  -v '1.6.1' -- --with-iconv-dir=/usr/local/Cellar/libiconv/1.14/\n</code></pre>\n",
+      "owner": {
+        "display_name": "activars",
+        "link": "https://stackoverflow.com/users/1041418/activars"
+      }
+    },
+    {
+      "answer_id": 26465572,
+      "body": "<p>The <a href=\"http://www.nokogiri.org/tutorials/installing_nokogiri.html\" rel=\"noreferrer\">nokogiri install tutorial</a> provides the solution:</p>\n\n<pre><code># bash\nbrew unlink gcc\ngem uninstall nokogiri\nxcode-select --install\ngem install nokogiri\n</code></pre>\n\n<p>If you don't have Xcode 6.1, yet, you may install it from the <a href=\"https://developer.apple.com/xcode/downloads/\" rel=\"noreferrer\">apple developer download site</a> (section <em>additional tools</em>), as described in <a href=\"https://medium.com/@Dom_T4/yosemite-homebrew-81695c3dac31\" rel=\"noreferrer\">this blog post</a>.</p>\n",
+      "owner": {
+        "display_name": "fiedl",
+        "link": "https://stackoverflow.com/users/2066546/fiedl"
+      }
+    },
+    {
+      "answer_id": 16220588,
+      "body": "<p>There are two approaches you can use.</p>\n\n<p><strong>Using <code>.text</code></strong></p>\n\n<p>You can call the <code>.text</code> method to set the text of a node:</p>\n\n<pre><code>builder = Nokogiri::XML::Builder.new { |xml|\n  xml.Transaction(\"requestName\" =&gt; \"OrderRequest\") do\n    xml.Option(\"b\" =&gt; \"hive\"){ xml.text(\"hello\") }\n  end\n}\n</code></pre>\n\n<p>which produces:</p>\n\n<pre><code>&lt;?xml version=\"1.0\"?&gt;\n&lt;Transaction requestName=\"OrderRequest\"&gt;\n  &lt;Option b=\"hive\"&gt;hello&lt;/Option&gt;\n&lt;/Transaction&gt;\n</code></pre>\n\n<p><strong>Solution using text parameter</strong></p>\n\n<p>Alternatively, you can pass the text in as a parameter. The text should be passed in before the attribute values. In other words, the tag is added in the form:</p>\n\n<pre><code>tag \"text\", :attribute =&gt; 'value'\n</code></pre>\n\n<p>In this case, the desired builder would be:</p>\n\n<pre><code>builder = Nokogiri::XML::Builder.new { |xml|\n  xml.Transaction(\"requestName\" =&gt; \"OrderRequest\") do\n    xml.Option(\"hello\", \"b\" =&gt; \"hive\")\n  end\n}\n</code></pre>\n\n<p>Produces the same XML:</p>\n\n<pre><code>&lt;?xml version=\"1.0\"?&gt;\n&lt;Transaction requestName=\"OrderRequest\"&gt;\n  &lt;Option b=\"hive\"&gt;hello&lt;/Option&gt;\n&lt;/Transaction&gt;\n</code></pre>\n",
+      "owner": {
+        "display_name": "Justin Ko",
+        "link": "https://stackoverflow.com/users/1200545/justin-ko"
+      }
+    },
+    {
+      "answer_id": 1947681,
+      "body": "<p>Here you go:</p>\n\n<pre><code>require 'nokogiri'\n\nb = Nokogiri::XML::Builder.new do |xml|\n  xml.send(:\"fooo-bar\", \"hello\")\nend\n\nputs b.to_xml\n</code></pre>\n",
+      "owner": {
+        "display_name": "Aaron Patterson",
+        "link": "https://stackoverflow.com/users/178850/aaron-patterson"
+      }
+    },
+    {
+      "answer_id": 10466866,
+      "body": "<p>You need the header files for compiling extension modules for Ruby.</p>\n\n<p>You can get the proper version for your version of ruby with:</p>\n\n<p><code>sudo aptitude install ruby-dev</code></p>\n",
+      "owner": {
+        "display_name": "Zabba",
+        "link": "https://stackoverflow.com/users/382818/zabba"
+      }
+    },
+    {
+      "answer_id": 23437057,
+      "body": "<p>@Steve - There is a <a href=\"https://groups.google.com/forum/#!topic/nokogiri-talk/hZCp6TPXekI\" rel=\"noreferrer\">new version of nokogiri (1.6.2)</a> that supports x64 Ruby (this worked for me on Win7 x64 Ruby 200).  At time of writing it's in pre-release, install using:</p>\n\n<pre><code> gem install nokogiri --prerelease\n</code></pre>\n",
+      "owner": {
+        "display_name": "rogersillito",
+        "link": "https://stackoverflow.com/users/998793/rogersillito"
+      }
+    },
+    {
+      "answer_id": 6103735,
+      "body": "<pre><code>require 'nokogiri'\n\nhtml = '&lt;p class=\"post\"&gt;&lt;span style=\"font-size: x-large\"&gt;bla bla&lt;/span&gt;&lt;/p&gt;'\ndoc = Nokogiri::HTML(html)\ndoc.xpath('//@style').remove\nputs doc.css('.post')\n#=&gt; &lt;p class=\"post\"&gt;&lt;span&gt;bla bla&lt;/span&gt;&lt;/p&gt;\n</code></pre>\n\n<p><em>Edited to show that you can just call <a href=\"http://nokogiri.org/Nokogiri/XML/NodeSet.html#method-i-remove\" rel=\"noreferrer\"><code>NodeSet#remove</code></a> instead of having to use <code>.each(&amp;:remove)</code>.</em></p>\n\n<p>Note that if you have a DocumentFragment instead of a Document, Nokogiri has <a href=\"https://github.com/sparklemotion/nokogiri/issues/572\" rel=\"noreferrer\">a longstanding bug</a> where searching from a fragment does not work as you would expect. The workaround is to use:</p>\n\n<pre><code>doc.xpath('@style|.//@style').remove\n</code></pre>\n",
+      "owner": {
+        "display_name": "Phrogz",
+        "link": "https://stackoverflow.com/users/405017/phrogz"
+      }
+    },
+    {
+      "answer_id": 19643909,
+      "body": "<p>I found this log and saw that gcc-4.2 was not found:</p>\n\n<pre><code>package configuration for libxslt\ncflags: -I/usr/local/Cellar/libxslt/1.1.28/include -I/usr/local/Cellar/libxml2/2.9.1/include/libxml2\nldflags: -L/usr/local/Cellar/libxslt/1.1.28/lib -L/usr/local/Cellar/libxml2/2.9.1/lib\nlibs: -lxslt -lxml2 -lz -lpthread -liconv -lm -lxml2\n\npackage configuration for libxml-2.0\ncflags: -I/usr/local/Cellar/libxml2/2.9.1/include/libxml2\nldflags: -L/usr/local/Cellar/libxml2/2.9.1/lib\nlibs: -lxml2\n\npackage configuration for libiconv is not found\n\"/usr/bin/gcc-4.2 -o conftest -I/Users/ericcamalionte/.rvm/rubies/ruby-1.9.2-p320/include/ruby-1.9.1/x86_64-darwin11.4.0 -I/Users/ericcamalionte/.rvm/rubies/ruby-1.9.2-p320/include/ruby-1.9.1/ruby/backward -I/Users/ericcamalionte/.rvm/rubies/ruby-1.9.2-p320/include/ruby-1.9.1 -I. -I/usr/local/Cellar/libxslt/1.1.28/include -I/usr/local/Cellar/libxml2/2.9.1/include/libxml2 -I/usr/local/Cellar/libiconv/1.14/include -I/Users/ericcamalionte/.rvm/gems/ruby-1.9.2-p320@dns-panel/gems/nokogiri-1.6.0/ports/x86_64-apple-darwin13.0.0/libxml2/2.8.0/include -I/Users/ericcamalionte/.rvm/gems/ruby-1.9.2-p320@dns-panel/gems/nokogiri-1.6.0/ports/x86_64-apple-darwin13.0.0/libxslt/1.1.26/include -I/Users/ericcamalionte/.rvm/usr/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE    -O3 -ggdb -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wshorten-64-to-32 -Wno-long-long  -fno-common -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='\"/Users/ericcamalionte/.rvm/gems/ruby-1.9.2-p320@dns-panel/gems/nokogiri-1.6.0/ports/x86_64-apple-darwin13.0.0/libxml2/2.8.0\"' -DNOKOGIRI_LIBXSLT_PATH='\"/Users/ericcamalionte/.rvm/gems/ruby-1.9.2-p320@dns-panel/gems/nokogiri-1.6.0/ports/x86_64-apple-darwin13.0.0/libxslt/1.1.26\"' -I/usr/local/Cellar/libxslt/1.1.28/include -I/usr/local/Cellar/libxml2/2.9.1/include/libxml2  -I/usr/local/Cellar/libxml2/2.9.1/include/libxml2  conftest.c  -L. -L/Users/ericcamalionte/.rvm/rubies/ruby-1.9.2-p320/lib -L/usr/local/Cellar/libxslt/1.1.28/lib -L/usr/local/Cellar/libxml2/2.9.1/lib -L/usr/local/Cellar/libiconv/1.14/lib -L/Users/ericcamalionte/.rvm/gems/ruby-1.9.2-p320@dns-panel/gems/nokogiri-1.6.0/ports/x86_64-apple-darwin13.0.0/libxml2/2.8.0/lib -L/Users/ericcamalionte/.rvm/gems/ruby-1.9.2-p320@dns-panel/gems/nokogiri-1.6.0/ports/x86_64-apple-darwin13.0.0/libxslt/1.1.26/lib -L/Users/ericcamalionte/.rvm/usr/lib -L.  -Wl,-rpath,/Users/ericcamalionte/.rvm/gems/ruby-1.9.2-p320@dns-panel/gems/nokogiri-1.6.0/ports/x86_64-apple-darwin13.0.0/libxml2/2.8.0/lib -Wl,-rpath,/Users/ericcamalionte/.rvm/gems/ruby-1.9.2-p320@dns-panel/gems/nokogiri-1.6.0/ports/x86_64-apple-darwin13.0.0/libxslt/1.1.26/lib -L/usr/local/Cellar/libxslt/1.1.28/lib -L/usr/local/Cellar/libxml2/2.9.1/lib -L/usr/local/Cellar/libxml2/2.9.1/lib     -lxslt -lxml2 -lz -lpthread -liconv -lm -lxml2  -lxml2  -lruby.1.9.1-static  -lpthread -ldl -lobjc  \"\nsh: /usr/bin/gcc-4.2: No such file or directory\nchecked program was:\n/* begin */\n1: #include \"ruby.h\"\n2:\n3: int main() {return 0;}\n/* end */\n</code></pre>\n\n<p>To solve this problem I intalled apple-gcc42 using homebrew <code>brew install apple-gcc42</code> and created a symlink to my /usr/bin :</p>\n\n<p><code>sudo ln -s /usr/local/Cellar/apple-gcc42/4.2.1-5666.3/bin/gcc-4.2 /usr/bin/gcc-4.2</code></p>\n",
+      "owner": {
+        "display_name": "squiter",
+        "link": "https://stackoverflow.com/users/937506/squiter"
+      }
+    },
+    {
+      "answer_id": 12336375,
+      "body": "<p>To diagnose and solve, here's what worked for me.</p>\n\n<p>To find out what failed, go to your ruby gems directory.</p>\n\n<p>For example:</p>\n\n<pre><code>$ cd &lt;MY RUBY DIRECTORY&gt;/lib/ruby/gems/2.0.0/gems\n</code></pre>\n\n<p>If you don't know your gem directory, try this:</p>\n\n<pre><code>$ echo $GEM_HOME\n/opt/gems/2.0.0\n$ cd /opt/gems/2.0.0/gems\n</code></pre>\n\n<p>What version of nokogiri am I installing?</p>\n\n<pre><code>$ ls -ladg nokogiri-*\nnokogiri-1.5.5\n</code></pre>\n\n<p>Go to the installer directory:</p>\n\n<pre><code>$ cd nokogiri-1.5.5/ext/nokogiri\n</code></pre>\n\n<p>Try installing manually:</p>\n\n<pre><code>$ ruby extconf.rb\n</code></pre>\n\n<p>Result:</p>\n\n<pre><code>checking for libxml/parser.h... *** extconf.rb failed ***\n...\n</code></pre>\n\n<p>I'm using Ubuntu so I search for any similar packages:</p>\n\n<pre><code>$ aptitude search libxml\n</code></pre>\n\n<p>Results:</p>\n\n<pre><code>p libxml2 - GNOME XML library\np libxml2-dev - Development files for the GNOME XML library\n...\n</code></pre>\n\n<p>I believe that libxml2 will work fine.</p>\n\n<pre><code>$ apt-get install libxml2\n</code></pre>\n\n<p>Ruby native gems often need the *-dev packages for headers so install them:</p>\n\n<pre><code>$ apt-get install libxml2-dev\n</code></pre>\n\n<p>Now do I have the parser file?</p>\n\n<pre><code>$ find / | grep libxml/parser.h\n</code></pre>\n\n<p>Yes, the result shows the parser:</p>\n\n<pre><code>/usr/include/libxml2/libxml/parser.h\n</code></pre>\n\n<p>Now try installing again, this time providing the libxml2 path:</p>\n\n<pre><code>$ gem install nokogiri -- --with-xml2-dir=/usr/include/libxml2\n</code></pre>\n\n<p>It still fails, so read the mkmf error log:</p>\n\n<pre><code>$ more mkmf.log \n</code></pre>\n\n<p>The error log shows what failed and has these lines that look promising:</p>\n\n<pre><code>package configuration for libxslt is not found\n</code></pre>\n\n<p>Is there a package for it?</p>\n\n<pre><code>$ aptitude search libxslt\n</code></pre>\n\n<p>Results:</p>\n\n<pre><code>v   libxslt-dev\ni   libxslt-ruby\n...\n</code></pre>\n\n<p>Install the dev package:</p>\n\n<pre><code>$ apt-get install libxslt-dev\n</code></pre>\n\n<p>Now try installing again, and also put xslt on the path:</p>\n\n<pre><code>$ gem install nokogiri -- \\\n--with-xml2-dir=/usr/include/libxml2 \\\n--with-xslt-dir=/usr/include/libxslt\n</code></pre>\n\n<p>Success!</p>\n",
+      "owner": {
+        "display_name": "joelparkerhenderson",
+        "link": "https://stackoverflow.com/users/528726/joelparkerhenderson"
+      }
+    },
+    {
+      "answer_id": 18471491,
+      "body": "<p>XPath includes the <code>text()</code> node test for selecting text nodes, so you could do:</p>\n\n<pre><code>page.xpath('//p[@class=\"parent\"]/text()')\n</code></pre>\n\n<p>Using XPath to select HTML classes can become quite tricky if the element in question could belong to more than one class, so this might not be ideal.</p>\n\n<p>Fortunately Nokogiri adds the <code>text()</code> selector to CSS, so you can use:</p>\n\n<pre><code>page.css('p.parent &gt; text()')\n</code></pre>\n\n<p>to get the text nodes that are direct children of <code>p.parent</code>. This will also return some nodes that are whtespace only, so you may have to filter them out.</p>\n",
+      "owner": {
+        "display_name": "matt",
+        "link": "https://stackoverflow.com/users/214790/matt"
+      }
+    },
+    {
+      "answer_id": 17871777,
+      "body": "<p>I found the answer in another thread. The workaround I used is to tell Nokogiri to use the system libraries instead:</p>\n\n<pre><code>NOKOGIRI_USE_SYSTEM_LIBRARIES=1 bundle install\n</code></pre>\n",
+      "owner": {
+        "display_name": "Jose Enrique",
+        "link": "https://stackoverflow.com/users/2619591/jose-enrique"
+      }
+    },
+    {
+      "answer_id": 17279810,
+      "body": "<p>I faced the same issue with Nokogiri 1.6.0. The problem, as you can see from the logs, it's caused by a failed compilation of libxml2 that, together with libxslt, is now shipped embedded in the gem and compiled when you install it.</p>\n\n<p>To find out what exactly went wrong with the compilation, have a look at the suggested file <strong>compile.log</strong> that, in your case, you can find at:</p>\n\n<pre><code>/home/deployer/.rvm/gems/ruby-2.0.0-p0/gems/nokogiri-1.6.0/ext/nokogiri/tmp/x86_64-linux-gnu/ports/libxml2/2.8.0/compile.log\n</code></pre>\n\n<p>As a workaround (assuming you have libxml2-dev and libxslt-dev installed), you can do:</p>\n\n<pre><code>NOKOGIRI_USE_SYSTEM_LIBRARIES=1 bundle install\n</code></pre>\n\n<p>I hope it helps.</p>\n",
+      "owner": {
+        "display_name": "zekus",
+        "link": "https://stackoverflow.com/users/471647/zekus"
+      }
+    },
+    {
+      "answer_id": 17204395,
+      "body": "<p>Turned out I was using the default system Ruby (and thus installing all the gems there in <code>/Library/Ruby/Gems</code>) even though rbenv points to ruby-1.9.3 so that's why Nokogiri was complaining. </p>\n\n<p>Fixed this by adding this to $PATH, so rbenv loads before the system ruby: </p>\n\n<p><code>export PATH=\"$HOME/.rbenv/bin:$PATH\"</code></p>\n",
+      "owner": {
+        "display_name": "wikichen",
+        "link": "https://stackoverflow.com/users/850548/wikichen"
+      }
+    },
+    {
+      "answer_id": 16178923,
+      "body": "<p>Try Nokogiri 1.6.0.rc1, which bundles libxml2 and libxslt in the gem. This should address your installation problem:</p>\n\n<pre><code>gem install nokogiri --pre\n</code></pre>\n\n<p>should do the trick.</p>\n",
+      "owner": {
+        "display_name": "Mike Dalessio",
+        "link": "https://stackoverflow.com/users/65190/mike-dalessio"
+      }
+    },
+    {
+      "answer_id": 15324291,
+      "body": "<p>Nokogiri can do this (now) using jQuery extensions to CSS:</p>\n\n<pre><code>require 'nokogiri'\n\nhtml = '\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;p&gt;foo&lt;/p&gt;\n    &lt;p&gt;bar&lt;/p&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n'\n\ndoc = Nokogiri::HTML(html)\ndoc.at('p:contains(\"bar\")').text.strip\n=&gt; \"bar\"\n</code></pre>\n",
+      "owner": {
+        "display_name": "the Tin Man",
+        "link": "https://stackoverflow.com/users/128421/the-tin-man"
+      }
+    },
+    {
+      "answer_id": 1556128,
+      "body": "<p>Use the xpath function <code>starts-with</code>:</p>\n\n<pre><code>value.xpath('//p[starts-with(@id, \"para-\")]').each { |x| puts x['id'] }\n</code></pre>\n",
+      "owner": {
+        "display_name": "Aaron Patterson",
+        "link": "https://stackoverflow.com/users/178850/aaron-patterson"
+      }
+    },
+    {
+      "answer_id": 2888922,
+      "body": "<p>Pick Nokogiri, for all points and especially point one: Hpricot is <a href=\"https://github.com/hpricot/hpricot/commit/ed79ca369ccb42c0858f2e0a2f9403e2eb57937b\" rel=\"noreferrer\">no longer maintained</a>.</p>\n\n<p>Meta answer: See <a href=\"http://ruby-toolbox.com/categories/html_parsing.html\" rel=\"noreferrer\">ruby-toolbox</a> to get an idea of the popularity of different tools in a given area.</p>\n",
+      "owner": {
+        "display_name": "Marc-Andr&#233; Lafortune",
+        "link": "https://stackoverflow.com/users/8279/marc-andr%c3%a9-lafortune"
+      }
+    },
+    {
+      "answer_id": 14030170,
+      "body": "<p>After short research I find out what problem can be simply solved by creating symbolic link</p>\n\n<pre><code>sudo ln -s /usr/bin/gcc /usr/bin/gcc-4.2\n</code></pre>\n\n<p>works for me hope for you too</p>\n\n<pre><code>gem install nokogiri\nBuilding native extensions.  This could take a while...\nERROR:  Error installing nokogiri:\n    ERROR: Failed to build gem native extension.\n\n        /Users/morozovm/.rvm/rubies/ruby-1.9.3-p327/bin/ruby extconf.rb\nchecking for libxml/parser.h... *** extconf.rb failed ***\n\nbash-3.2$ sudo ln -s /usr/bin/gcc /usr/bin/gcc-4.2\nPassword:\nbash-3.2$ gem install nokogiri\nBuilding native extensions.  This could take a while...\nSuccessfully installed nokogiri-1.5.6\n1 gem installed\n</code></pre>\n",
+      "owner": {
+        "display_name": "Maksim Morozov",
+        "link": "https://stackoverflow.com/users/1391418/maksim-morozov"
+      }
+    },
+    {
+      "answer_id": 13393515,
+      "body": "<p>You need to <code>require 'open-uri'</code> if you want to pass URLs to <code>open()</code>. Additionally, you'll need to  read the file after opening it:</p>\n\n<pre><code>require 'open-uri'\ndoc = Nokogiri::HTML(open('http://google.com').read)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Chris Heald",
+        "link": "https://stackoverflow.com/users/271475/chris-heald"
+      }
+    },
+    {
+      "answer_id": 4864170,
+      "body": "<p>Nokogiri is unrelated, other than the fact that it gives you the link anchor to begin with. Use Ruby's <a href=\"http://ruby-doc.org/stdlib/libdoc/uri/rdoc/index.html\" rel=\"noreferrer\">URI</a> library to manage paths:</p>\n\n<pre><code>absolute_uri = URI.join( page_url, href ).to_s\n</code></pre>\n\n<p>Seen in action:</p>\n\n<pre><code>require 'uri'\n\n# The URL of the page with the links\npage_url = 'http://foo.com/zee/zaw/zoom.html'\n\n# A variety of links to test.\nhrefs = %w[\n  http://zork.com/             http://zork.com/#id\n  http://zork.com/bar          http://zork.com/bar#id\n  http://zork.com/bar/         http://zork.com/bar/#id\n  http://zork.com/bar/jim.html http://zork.com/bar/jim.html#id\n  /bar                         /bar#id\n  /bar/                        /bar/#id\n  /bar/jim.html                /bar/jim.html#id\n  jim.html                     jim.html#id\n  ../jim.html                  ../jim.html#id\n  ../                          ../#id\n  #id\n]\n\nhrefs.each do |href|\n  root_href = URI.join(page_url,href).to_s\n  puts \"%-32s -&gt; %s\" % [ href, root_href ]\nend\n#=&gt; http://zork.com/                 -&gt; http://zork.com/\n#=&gt; http://zork.com/#id              -&gt; http://zork.com/#id\n#=&gt; http://zork.com/bar              -&gt; http://zork.com/bar\n#=&gt; http://zork.com/bar#id           -&gt; http://zork.com/bar#id\n#=&gt; http://zork.com/bar/             -&gt; http://zork.com/bar/\n#=&gt; http://zork.com/bar/#id          -&gt; http://zork.com/bar/#id\n#=&gt; http://zork.com/bar/jim.html     -&gt; http://zork.com/bar/jim.html\n#=&gt; http://zork.com/bar/jim.html#id  -&gt; http://zork.com/bar/jim.html#id\n#=&gt; /bar                             -&gt; http://foo.com/bar\n#=&gt; /bar#id                          -&gt; http://foo.com/bar#id\n#=&gt; /bar/                            -&gt; http://foo.com/bar/\n#=&gt; /bar/#id                         -&gt; http://foo.com/bar/#id\n#=&gt; /bar/jim.html                    -&gt; http://foo.com/bar/jim.html\n#=&gt; /bar/jim.html#id                 -&gt; http://foo.com/bar/jim.html#id\n#=&gt; jim.html                         -&gt; http://foo.com/zee/zaw/jim.html\n#=&gt; jim.html#id                      -&gt; http://foo.com/zee/zaw/jim.html#id\n#=&gt; ../jim.html                      -&gt; http://foo.com/zee/jim.html\n#=&gt; ../jim.html#id                   -&gt; http://foo.com/zee/jim.html#id\n#=&gt; ../                              -&gt; http://foo.com/zee/\n#=&gt; ../#id                           -&gt; http://foo.com/zee/#id\n#=&gt; #id                              -&gt; http://foo.com/zee/zaw/zoom.html#id\n</code></pre>\n\n<p><em>The more convoluted answer here previously used <code>URI.parse(root).merge(URI.parse(href)).to_s</code>.<br>\nThanks to @pguardiario for the improvement.</em></p>\n",
+      "owner": {
+        "display_name": "Phrogz",
+        "link": "https://stackoverflow.com/users/405017/phrogz"
+      }
+    },
+    {
+      "answer_id": 8895613,
+      "body": "<p>Maybe take just the root node of the current Document object being built &ndash; <a href=\"http://nokogiri.org/Nokogiri/XML/Builder.html#attributes\" rel=\"noreferrer\"><code>.doc</code></a> &ndash; instead of the whole document?</p>\n\n<pre><code>builder.doc.root.to_s\n</code></pre>\n",
+      "owner": {
+        "display_name": "Christopher Creutzig",
+        "link": "https://stackoverflow.com/users/254252/christopher-creutzig"
+      }
+    },
+    {
+      "answer_id": 11452381,
+      "body": "<p>I have found some fixes for Lion, but none for Mountain Lion yet. Nonetheless I have tried this and it works:</p>\n\n<pre><code>gem uninstall nokogiri libxml-ruby\n\nbrew update\nbrew uninstall libxml2\nbrew install libxml2 --with-xml2-config\nbrew link libxml2\n\nbrew install libxslt\nbrew link libxslt\n\ngem install nokogiri -- --with-xml2-include=/usr/local/Cellar/libxml2/2.8.0/include/libxml2/ --with-xml2-lib=/usr/local/Cellar/libxml2/2.8.0/lib/ --with-xslt-dir=/usr/local/Cellar/libxslt/1.1.26/\n</code></pre>\n\n<p>Source (for Lion): <a href=\"https://gist.github.com/1349681\">https://gist.github.com/1349681</a></p>\n",
+      "owner": {
+        "display_name": "David Morales",
+        "link": "https://stackoverflow.com/users/267705/david-morales"
+      }
+    },
+    {
+      "answer_id": 1765402,
+      "body": "<p>Finally I found the RIGHT way to search multiple css classes with nokogiri (libxml) :</p>\n\n<pre><code>doc.xpath('//p[contains(@class, \"class1\") and contains(@class, \"class2\")]')\n</code></pre>\n\n<p>It's not perfect, because if <code>&lt;p&gt;</code> contains classes such as <code>class10</code> and <code>class20</code> the element will be selected, but for now it's enough for what I need. If you have more suggestions they are welcome!</p>\n\n<h3>Update</h3>\n\n<p>Here is a better solution to this problem using css only : </p>\n\n<pre><code>doc.css('p.class1.class2')\n</code></pre>\n\n<p>Thanks to Aaron Patterson :-)</p>\n",
+      "owner": {
+        "display_name": "massinissa",
+        "link": "https://stackoverflow.com/users/166327/massinissa"
+      }
+    },
+    {
+      "answer_id": 11165545,
+      "body": "<p>Use <code>node.to_s</code>, or just <code>node</code>:</p>\n\n<pre><code>nodes = doc.search(\"//tr[@class='tablebX']\")\nnodes.each do |node|\n   puts node.to_s\n   puts '-'*40\nend\n</code></pre>\n\n<p>With additional sanity-check HTML (yours, doubled, with a <code>tr</code> of a different class in the middle) I get:</p>\n\n<pre><code>&lt;tr class=\"tableX\"&gt;\n&lt;td align=\"center\"&gt;\n&lt;font size=\"2\"&gt;&lt;a href=\"javascript:open('9746')\"&gt;9746&lt;/a&gt;&lt;/font&gt; \n            &lt;/td&gt;\n            &lt;td align=\"center\"&gt;&lt;font size=\"2\"&gt;2012-06-26&lt;/font&gt;&lt;/td&gt;\n&lt;/tr&gt;\n----------------------------------------\n&lt;tr class=\"tableX\"&gt;\n&lt;td align=\"center\"&gt;\n&lt;font size=\"2\"&gt;&lt;a href=\"javascript:open('9746')\"&gt;9746&lt;/a&gt;&lt;/font&gt; \n            &lt;/td&gt;\n            &lt;td align=\"center\"&gt;&lt;font size=\"2\"&gt;2012-06-26&lt;/font&gt;&lt;/td&gt;\n&lt;/tr&gt;\n----------------------------------------\n</code></pre>\n",
+      "owner": {
+        "display_name": "Dave Newton",
+        "link": "https://stackoverflow.com/users/438992/dave-newton"
+      }
+    },
+    {
+      "answer_id": 10799591,
+      "body": "<p>To get all the direct children with text, but not any further sub-children, you can use XPath like so:</p>\n\n<pre><code>doc.xpath('//dt/text()')\n</code></pre>\n\n<p>Or if you wish to use search:</p>\n\n<pre><code>doc.search('dt').xpath('text()')\n</code></pre>\n",
+      "owner": {
+        "display_name": "Casper",
+        "link": "https://stackoverflow.com/users/823617/casper"
+      }
+    },
+    {
+      "answer_id": 2986622,
+      "body": "<p>@molf definitely had a great start there, but it still required debugging a handful of problems to get it working in production.  Here is the current, tested version of this:</p>\n\n<pre><code>html = Nokogiri::HTML(html_string)\ncss = CssParser::Parser.new\ncss.add_block!(html_string) # Warning:  This line modifies the string passed into it.  In potentially bad ways.  Make sure the string has been duped and stored elsewhere before passing this.\n\ncss.each_selector do |selector, declarations, specificity|\n  next unless selector =~ /^[\\d\\w\\s\\#\\.\\-]*$/ # Some of the selectors given by css_parser aren't actually selectors.\n  begin\n    elements = html.css(selector)\n    elements.each do |match|\n      match[\"style\"] = [match[\"style\"], declarations].compact.join(\" \")\n    end\n  rescue\n    logger.info(\"Couldn't parse selector '#{selector}'\")\n  end\nend\n\nhtml_with_inline_styles = html.to_s \n</code></pre>\n",
+      "owner": {
+        "display_name": "wbharding",
+        "link": "https://stackoverflow.com/users/153610/wbharding"
+      }
+    },
+    {
+      "answer_id": 6495415,
+      "body": "<p>Here's one way to do it. As noted by my comment, the 'right' answer depends on what your output should be. There is no canonical representation of XML nodes in JSON, and hence no such capability is built into the libraries involved:</p>\n\n<pre class=\"lang-ruby prettyprint-override\"><code>require 'nokogiri'\nrequire 'json'\nclass Nokogiri::XML::Node\n  def to_json(*a)\n    {\"$name\"=&gt;name}.tap do |h|\n      kids = children.to_a\n      h.merge!(attributes)\n      h.merge!(\"$text\"=&gt;text) unless text.empty?\n      h.merge!(\"$kids\"=&gt;kids) unless kids.empty?\n    end.to_json(*a)\n  end\nend\nclass Nokogiri::XML::Document\n  def to_json(*a); root.to_json(*a); end\nend\nclass Nokogiri::XML::Text\n  def to_json(*a); text.to_json(*a); end\nend\nclass Nokogiri::XML::Attr\n  def to_json(*a); value.to_json(*a); end\nend\n\nxml = Nokogiri::XML '&lt;root a=\"b\" xmlns:z=\"zzz\"&gt;\n  &lt;z:a&gt;Hello &lt;b z:x=\"y\"&gt;World&lt;/b&gt;!&lt;/z:a&gt;\n&lt;/root&gt;'\nputs xml.to_json\n</code></pre>\n\n<pre class=\"lang-js prettyprint-override\"><code>{\n  \"$name\":\"root\",\n  \"a\":\"b\",\n  \"$text\":\"Hello World!\",\n  \"$kids\":[\n    {\n      \"$name\":\"a\",\n      \"$text\":\"Hello World!\",\n      \"$kids\":[\n        \"Hello \",\n        {\n          \"$name\":\"b\",\n          \"x\":\"y\",\n          \"$text\":\"World\",\n          \"$kids\":[\n            \"World\"\n          ]\n        },\n        \"!\"\n      ]\n    }\n  ]\n}\n</code></pre>\n\n<p>Note that the above completely ignores namespaces, which may or may not be what you want.</p>\n\n<hr>\n\n<h2>Converting to <a href=\"http://jsonml.org/\" rel=\"noreferrer\">JsonML</a></h2>\n\n<p>Here's another alternative that converts to JsonML. While this is a lossy conversion (it does not support comment nodes, DTDs, or namespace URLs) and the format is a little bit \"goofy\" by design (the first child element is at <code>[1]</code> or <code>[2]</code> depending on whether or not attributes are present), it <em>does</em> indicate namespace prefixes for elements and attributes:</p>\n\n<pre><code>require 'nokogiri'\nrequire 'json'\nclass Nokogiri::XML::Node\n  def namespaced_name\n    \"#{namespace &amp;&amp; \"#{namespace.prefix}:\"}#{name}\"\n  end\nend\nclass Nokogiri::XML::Element\n  def to_json(*a)\n    [namespaced_name].tap do |parts|\n      unless attributes.empty?\n        parts &lt;&lt; Hash[ attribute_nodes.map{ |a| [a.namespaced_name,a.value] } ]\n      end\n      parts.concat(children.select{|n| n.text? ? (n.text=~/\\S/) : n.element? })\n    end.to_json(*a)\n  end\nend\nclass Nokogiri::XML::Document\n  def to_json(*a); root.to_json(*a); end\nend\nclass Nokogiri::XML::Text\n  def to_json(*a); text.to_json(*a); end\nend\nclass Nokogiri::XML::Attr\n  def to_json(*a); value.to_json(*a); end\nend\n\nxml = Nokogiri::XML '&lt;root a=\"b\" xmlns:z=\"zzz\"&gt;\n  &lt;z:a&gt;Hello &lt;b z:x=\"y\"&gt;World&lt;/b&gt;!&lt;/z:a&gt;\n&lt;/root&gt;'\nputs xml.to_json\n#=&gt; [\"root\",{\"a\":\"b\"},[\"z:a\",\"Hello \",[\"b\",{\"z:x\":\"y\"},\"World\"],\"!\"]]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Phrogz",
+        "link": "https://stackoverflow.com/users/405017/phrogz"
+      }
+    },
+    {
+      "answer_id": 10477214,
+      "body": "<p>You're trying to parse XML using Nokogiri's HMTL parser. If <code>node</code> as from the XML parser then <code>r</code> would be <code>nil</code> since XML is case sensitive; your <code>r</code> is not <code>nil</code> so you're using the HTML parser which is case insensitive.</p>\n\n<p>Use Nokogiri's XML parser and you will get things like this:</p>\n\n<pre><code>&gt;&gt; r = doc.at_xpath('.//NewsLineText')\n=&gt; #&lt;Nokogiri::XML::Element:0x8066ad34 name=\"NewsLineText\" children=[#&lt;Nokogiri::XML::Text:0x8066aac8 \"\\n  \"&gt;, #&lt;Nokogiri::XML::CDATA:0x8066a9c4 \"\\n  Anna Kendrick is ''obsessed'' with 'Game of Thrones' and loves to cook, particularly     creme brulee.\\n  \"&gt;, #&lt;Nokogiri::XML::Text:0x8066a8d4 \"\\n\"&gt;]&gt;\n&gt;&gt; r.text\n=&gt; \"\\n  \\n  Anna Kendrick is ''obsessed'' with 'Game of Thrones' and loves to cook, particularly     creme brulee.\\n  \\n\"\n</code></pre>\n\n<p>and you'll be able to get at the CDATA through <code>r.text</code> or <code>r.children</code>.</p>\n",
+      "owner": {
+        "display_name": "mu is too short",
+        "link": "https://stackoverflow.com/users/479863/mu-is-too-short"
+      }
+    },
+    {
+      "answer_id": 2062210,
+      "body": "<pre><code>#!/usr/bin/ruby1.8\n\nrequire 'nokogiri'\nrequire 'pp'\n\nhtml = &lt;&lt;-EOS\n  (The HTML from the question goes here)\nEOS\n\ndoc = Nokogiri::HTML(html)\nrows = doc.xpath('//table/tbody[@id=\"threadbits_forum_251\"]/tr')\ndetails = rows.collect do |row|\n  detail = {}\n  [\n    [:title, 'td[3]/div[1]/a/text()'],\n    [:name, 'td[3]/div[2]/span/a/text()'],\n    [:date, 'td[4]/text()'],\n    [:time, 'td[4]/span/text()'],\n    [:number, 'td[5]/a/text()'],\n    [:views, 'td[6]/text()'],\n  ].each do |name, xpath|\n    detail[name] = row.at_xpath(xpath).to_s.strip\n  end\n  detail\nend\npp details\n\n# =&gt; [{:time=&gt;\"23:35\",\n# =&gt;   :title=&gt;\"Vb4 Gold Released\",\n# =&gt;   :number=&gt;\"24\",\n# =&gt;   :date=&gt;\"06 Jan 2010\",\n# =&gt;   :views=&gt;\"1,320\",\n# =&gt;   :name=&gt;\"Paul M\"}]\n</code></pre>\n",
+      "owner": {
+        "display_name": "Wayne Conrad",
+        "link": "https://stackoverflow.com/users/238886/wayne-conrad"
+      }
+    },
+    {
+      "answer_id": 8003640,
+      "body": "<p>You need to have all the necessary libraries installed on your machine. When you installed RVM , it should have listed this for you. On the current version of rvm, you can run <code>rvm requirements</code> to see the exact list. Right now, that list is:</p>\n\n<p><code>sudo apt-get install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion</code></p>\n",
+      "owner": {
+        "display_name": "Dylan Markow",
+        "link": "https://stackoverflow.com/users/424300/dylan-markow"
+      }
+    },
+    {
+      "answer_id": 7921158,
+      "body": "<p>When you say this:</p>\n\n<pre><code>table = page.css('table')\n</code></pre>\n\n<p>you're grabbing both tables rather than just the top level table. So you can either go back to the document root and use a selector that only matches the rows in the first table as mosch says or you can fix <code>table</code> to be only the outer table with something like this:</p>\n\n<pre><code>table = page.css('table').first\ntrs   = table.xpath('./tr')\n</code></pre>\n\n<p>or even this (depending on the HTML's real structure):</p>\n\n<pre><code>table = page.xpath('/html/body/table')\ntrs   = table.xpath('./tr')\n</code></pre>\n\n<p>or perhaps one of these for <code>table</code> (thanks Phrogz, again):</p>\n\n<pre><code>table = page.at('table')\ntable = page.at_css('table')\n# or various other CSS and XPath incantations\n</code></pre>\n",
+      "owner": {
+        "display_name": "mu is too short",
+        "link": "https://stackoverflow.com/users/479863/mu-is-too-short"
+      }
+    },
+    {
+      "answer_id": 7697743,
+      "body": "<p>If you just need the string:</p>\n\n<pre><code>doc.css(\"div.item:first\").inner_html\n</code></pre>\n",
+      "owner": {
+        "display_name": "Orangenhain",
+        "link": "https://stackoverflow.com/users/978815/orangenhain"
+      }
+    },
+    {
+      "answer_id": 6700406,
+      "body": "<p>why you dont use groups in your pattern?\ne.g.</p>\n\n<pre><code>/http[s]?:\\/\\/(.+)/i\n</code></pre>\n\n<p>so the first group will already be the link you searched for.</p>\n",
+      "owner": {
+        "display_name": "gorootde",
+        "link": "https://stackoverflow.com/users/822052/gorootde"
+      }
+    },
+    {
+      "answer_id": 6675340,
+      "body": "<p>Each element in the stream comes through as two events: one to open the element and one to close it. The opening event will have</p>\n\n<pre><code>node.node_type == Nokogiri::XML::Reader::TYPE_ELEMENT\n</code></pre>\n\n<p>and the closing event will have</p>\n\n<pre><code>node.node_type == Nokogiri::XML::Reader::TYPE_END_ELEMENT\n</code></pre>\n\n<p>The empty strings you're seeing are just the element closing events. Remember that with SAX parsing, you're basically walking through a tree so you need the second event to tell you when you're going back up and closing an element.</p>\n\n<p>You probably want something more like this:</p>\n\n<pre><code>reader.each do |node|\n  if node.name == \"PMID\" &amp;&amp; node.node_type == Nokogiri::XML::Reader::TYPE_ELEMENT\n    p &lt;&lt; node.inner_xml\n  end\nend\n</code></pre>\n\n<p>Or perhaps:</p>\n\n<pre><code>reader.each do |node|\n  next if node.name      != 'PMID'\n  next if node.node_type != Nokogiri::XML::Reader::TYPE_ELEMENT\n  p &lt;&lt; node.inner_xml\nend\n</code></pre>\n\n<p>Or some other variation on that.</p>\n",
+      "owner": {
+        "display_name": "mu is too short",
+        "link": "https://stackoverflow.com/users/479863/mu-is-too-short"
+      }
+    },
+    {
+      "answer_id": 5783919,
+      "body": "<p>I got things working again for anyone interested. I removed and re-installed nokogiri gem and everything seems to be working again.</p>\n",
+      "owner": {
+        "display_name": "markstewie",
+        "link": "https://stackoverflow.com/users/334304/markstewie"
+      }
+    },
+    {
+      "answer_id": 5775199,
+      "body": "<p><a href=\"http://nokogiri.org/Nokogiri/XML/Node.html#method-i-next\"><code>next_element</code></a> is probably the method you're looking for.</p>\n\n<pre><code>require 'nokogiri'\n\ndata = File.read \"html.htm\"\n\ndoc  = Nokogiri::HTML data\n\nels  = doc.search \"[text()*='Name:']\"\nel   = els.first\n\nputs \"Found element:\"\nputs el\nputs\n\nputs \"Parent element:\"\nputs el.parent\nputs\n\nputs \"Parent's next_element():\"\nputs el.parent.next_element\n\n# Output:\n#\n# Found element:\n# &lt;b&gt;Name:&lt;/b&gt;\n#\n# Parent element:\n# &lt;td&gt; \n#     &lt;b&gt;Name:&lt;/b&gt;\n# &lt;/td&gt;\n#\n# Parent's next_element():\n# &lt;td&gt;Joe Smith &lt;small&gt;&lt;a href=\"/Joe\"&gt;&lt;img src=\"/joe.png\"&gt;&lt;/a&gt;&lt;/small&gt;\n# &lt;/td&gt;\n</code></pre>\n\n<p>Note that since the text is inside <code>&lt;b&gt;&lt;/b&gt;</code> tags, you have to go up a level (to the found element's parent <code>&lt;td&gt;</code>) before you can get to the next sibling. If the HTML structure isn't stable, you'd have to find the first parent that is a <code>&lt;td&gt;</code> and go from there.</p>\n",
+      "owner": {
+        "display_name": "Michelle Tilley",
+        "link": "https://stackoverflow.com/users/62082/michelle-tilley"
+      }
+    },
+    {
+      "answer_id": 4511618,
+      "body": "<p>I encountered a similar situation, and what I came up was a bit of a hack, but it seems to work well.</p>\n\n<pre><code>nbsp = Nokogiri::HTML(\"&amp;nbsp;\").text\ntext.gsub(nbsp, \" \")\n</code></pre>\n\n<p>In my case, I wanted the nbsp to be a regular space.  I think in your case, you want them to be returned to a \"&amp;nbsp;\", so you could do something like:</p>\n\n<pre><code>nbsp = Nokogiri::HTML(\"&amp;nbsp;\").text\nhtml.gsub(nbsp, \"&amp;nbsp;\")\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mike Dotterer",
+        "link": "https://stackoverflow.com/users/188452/mike-dotterer"
+      }
+    },
+    {
+      "answer_id": 5394051,
+      "body": "<p>You want <a href=\"http://nokogiri.org/Nokogiri/XML/Node.html#method-i-next_element\">Node#next_element</a>:</p>\n\n<pre><code>doc.css(\".headline\").each do |item|\n  puts item.text\n  puts item.next_element.text\nend\n</code></pre>\n\n<p>There is also <code>item.next</code>, but that will also return text nodes, where <code>item.next_element</code> will return only element nodes (like <code>p</code>).</p>\n",
+      "owner": {
+        "display_name": "Nathan Ostgard",
+        "link": "https://stackoverflow.com/users/648615/nathan-ostgard"
+      }
+    },
+    {
+      "answer_id": 4907450,
+      "body": "<p>As you noted, <code>Builder</code> will not allow you to build an HTML document with multiple root nodes. You'll need to use <code>DocumentFragment</code></p>\n\n<pre><code>@doc = Nokogiri::HTML::DocumentFragment.parse \"\"\n\nNokogiri::HTML::Builder.with(@doc) do |doc|\n    doc.div {\n      doc.p \"first test\"\n    }\n    doc.div {\n      doc.p \"second test\"\n    }\nend\n\nputs @doc.to_html\n</code></pre>\n",
+      "owner": {
+        "display_name": "michaelmichael",
+        "link": "https://stackoverflow.com/users/150746/michaelmichael"
+      }
+    },
+    {
+      "answer_id": 4841269,
+      "body": "<p>A CSS class is just another attribute on an element:</p>\n\n<pre><code>doc.search('a').each do |anchor|\n  anchor.inner_text = \"hello!\"\n  anchor['class']=\"whatever\"\nend\n</code></pre>\n\n<p>Since CSS classes are space-delimited in the attribute, if you're not sure if one or more classes might already exist you'll need something like</p>\n\n<pre><code>anchor['class'] ||= \"\"\nanchor['class'] = anchor['class'] &lt;&lt; \" whatever\"\n</code></pre>\n\n<p>You need to explicitly set the attribute using <code>=</code> instead of just mutating the string returned for the attribute. This, for example, will not change the DOM:</p>\n\n<pre><code>anchor['class'] ||= \"\"\nanchor['class'] &lt;&lt; \" whatever\"\n</code></pre>\n\n<p>Even though it results in more work being done, I'd probably do this like so:</p>\n\n<pre><code>class Nokogiri::XML::Node\n  def add_css_class( *classes )\n    existing = (self['class'] || \"\").split(/\\s+/)\n    self['class'] = existing.concat(classes).uniq.join(\" \")\n  end\nend\n</code></pre>\n\n<p>If you don't want to monkey-patch the class, you could alternatively:</p>\n\n<pre><code>module ClassMutator\n  def add_css_class( *classes )\n    existing = (self['class'] || \"\").split(/\\s+/)\n    self['class'] = existing.concat(classes).uniq.join(\" \")\n  end\nend\n\nanchor.extend ClassMutator\nanchor.add_css_class \"whatever\"\n</code></pre>\n\n<p><strong>Edit</strong>: You can see that this is basically what Nokogiri does internally for the <code>add_class</code> method you found by clicking on the class to view the source:</p>\n\n<pre><code># File lib/nokogiri/xml/node_set.rb, line 136\ndef add_class name\n  each do |el|\n    next unless el.respond_to? :get_attribute\n    classes = el.get_attribute('class').to_s.split(\" \")\n    el.set_attribute('class', classes.push(name).uniq.join(\" \"))\n  end\n  self\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "Phrogz",
+        "link": "https://stackoverflow.com/users/405017/phrogz"
+      }
+    },
+    {
+      "answer_id": 4727671,
+      "body": "<p>You can use the <a href=\"http://zvon.org/xxl/XSLTreference/Output/function_name.html\" rel=\"noreferrer\"><code>name()</code></a> or <a href=\"http://zvon.org/xxl/XSLTreference/Output/function_local-name.html\" rel=\"noreferrer\"><code>local-name()</code></a> XPath function.</p>\n\n<p>See the examples on <a href=\"http://zvon.org/xxl/XSLTreference/OutputExamples/example_2_74_frame.html\" rel=\"noreferrer\">zvon</a>.</p>\n",
+      "owner": {
+        "display_name": "Oded",
+        "link": "https://stackoverflow.com/users/1583/oded"
+      }
+    },
+    {
+      "answer_id": 4691008,
+      "body": "<p>All namespaces need to be registered when parsing. Nokogiri automatically registers namespaces on the root node. Any namespaces that are not on the root node you have to register yourself. This should work:</p>\n\n<pre><code>puts doc.xpath('//dc:title', 'dc' =&gt; \"URI\")\n</code></pre>\n\n<p>Alternately, you can remove namespaces altogether. Only do this if you are certain there will be no conflicting node names.</p>\n\n<pre><code>doc.remove_namespaces!\nputs doc.xpath('//title')\n</code></pre>\n",
+      "owner": {
+        "display_name": "Mark Thomas",
+        "link": "https://stackoverflow.com/users/182590/mark-thomas"
+      }
+    },
+    {
+      "answer_id": 4382249,
+      "body": "<p>Are you using Nokogiri <a href=\"http://nokogiri.rubyforge.org/nokogiri/Nokogiri/XML/Builder.html\">XML Builder</a>? You can pass an encoding option to the new() method:</p>\n\n<blockquote>\n  <p>new(options = {}) </p>\n  \n  <p>Create a new Builder object. options\n  are sent to the top level Document\n  that is being built.</p>\n  \n  <p>Building a document with a particular encoding for example:</p>\n</blockquote>\n\n<pre><code>  Nokogiri::XML::Builder.new(:encoding =&gt; 'UTF-8') do |xml|\n    ...\n  end\n</code></pre>\n\n<p>Also <a href=\"http://nokogiri.org/\">this page</a> says you can do the following (when not using Builder):</p>\n\n<pre><code>doc = Nokogiri.XML('&lt;foo&gt;&lt;bar /&gt;&lt;foo&gt;', nil, 'EUC-JP')\n</code></pre>\n\n<p>Presumably you could change 'EUC-JP' to 'UTF-8'.</p>\n",
+      "owner": {
+        "display_name": "LarsH",
+        "link": "https://stackoverflow.com/users/423105/larsh"
+      }
+    },
+    {
+      "answer_id": 1720322,
+      "body": "<p>have a try!</p>\n\n<pre><code>f = Nokogiri::XML.fragment(str)\n\nf.search('.//img').remove\nputs f\n</code></pre>\n",
+      "owner": {
+        "display_name": "xds2000",
+        "link": "https://stackoverflow.com/users/193584/xds2000"
+      }
+    },
+    {
+      "answer_id": 3938889,
+      "body": "<p><strong>Replace this</strong>:</p>\n\n<pre><code>@links = doc.xpath('//links/item').map do |i| \n  {'title' =&gt; i.xpath('//title'), 'url' =&gt; i.xpath('//url')} \n</code></pre>\n\n<p><strong>with</strong>:</p>\n\n<pre><code>@links = doc.xpath('//links/item').map do |i| \n  {'title' =&gt; i.xpath('title'), 'url' =&gt; i.xpath('url')} \n</code></pre>\n\n<p><strong>Explanation</strong>:</p>\n\n<pre><code>//title \n</code></pre>\n\n<p>and </p>\n\n<pre><code>//url\n</code></pre>\n\n<p>are <em>absolute</em> XPath expressions and they select all (respectively) <code>title</code> and all <code>url</code> elements in the XML document.</p>\n\n<p><strong>Contrast this with</strong>:</p>\n\n<pre><code>title\n</code></pre>\n\n<p>and</p>\n\n<pre><code>url\n</code></pre>\n\n<p>These are <em>relative</em> XPath expressions and select all (respectively) <code>title</code> and <code>url</code> children of the <em>current</em> node only.</p>\n",
+      "owner": {
+        "display_name": "Dimitre Novatchev",
+        "link": "https://stackoverflow.com/users/36305/dimitre-novatchev"
+      }
+    },
+    {
+      "answer_id": 3614570,
+      "body": "<p>I believe you should just need to use <a href=\"http://nokogiri.org/Nokogiri/XML/Node.html#method-i-[]%3D\" rel=\"noreferrer\">the []= method</a>, i.e.</p>\n\n<pre><code>node['foo'] = 'bar'\n</code></pre>\n\n<p>You could also use <code>node.set_attribute('foo', 'bar')</code>.</p>\n",
+      "owner": {
+        "display_name": "Greg Campbell",
+        "link": "https://stackoverflow.com/users/68054/greg-campbell"
+      }
+    },
+    {
+      "answer_id": 3569982,
+      "body": "<p>When you use <code>//title</code> this searches for all <code>&lt;title&gt;</code> elements starting at the root of the document. Use either simply <code>title</code> to find child titles, or <code>.//title</code> if you want to find titles even if they are nested inside of other elements.</p>\n",
+      "owner": {
+        "display_name": "John Kugelman",
+        "link": "https://stackoverflow.com/users/68587/john-kugelman"
+      }
+    },
+    {
+      "answer_id": 2699994,
+      "body": "<p>If you choose to use Nokogiri, I think this should work:</p>\n\n<pre><code>require 'cgi'\nrequire 'rubygems' rescue nil\nrequire 'nokogiri'\n\nfile_path = \"your_page.html\"\ndoc = Nokogiri::HTML(open(file_path))\ndoc.css(\"a\").each do |link|\n  link.attributes[\"href\"].value = \"http://myproxy.com/?url=#{CGI.escape link.attributes[\"href\"].value}\"\nend\ndoc.write_to(open(file_path, 'w'))\n</code></pre>\n\n<p>If I'm not mistaken rails loads REXML up by default, depending on what you're trying to do you could use this also.</p>\n",
+      "owner": {
+        "display_name": "user324312",
+        "link": null
+      }
+    },
+    {
+      "answer_id": 2572509,
+      "body": "<p>When you say \"looks like this,\" are you viewing this value IRB? It's going to escape non-ASCII range characters with C-style escaping of the byte sequences that represent the characters.</p>\n\n<p>If you print them with puts, you'll get them back as you expect, presuming your shell console is using the same encoding as the string in question (Apparently UTF-8 in this case, based on the two bytes returned for that character). If you are storing the values in a text file, printing to a handle should also result in UTF-8 sequences.</p>\n\n<p>If you need to translate between UTF-8 and other encodings, the specifics depend on whether you're in Ruby 1.9 or 1.8.6.</p>\n\n<p>For 1.9: <a href=\"http://blog.grayproductions.net/articles/ruby_19s_string\" rel=\"noreferrer\">http://blog.grayproductions.net/articles/ruby_19s_string</a>\nfor 1.8, you probably need to look at Iconv.</p>\n\n<p>Also, if you need to interact with COM components in Windows, you'll need to tell ruby to use the correct encoding with something like the following:</p>\n\n<pre><code>require 'win32ole'\n\nWIN32OLE.codepage = WIN32OLE::CP_UTF8\n</code></pre>\n\n<p>If you're interacting with mysql, you'll need to set the collation on the table to one that supports the encoding that you're working with. In general, it's best to set the collation to UTF-8, even if some of your content is coming back in other encodings; you'll just need to convert as necessary.</p>\n\n<p>Nokogiri has some features for dealing with different encodings (probably through Iconv), but I'm a little out of practice with that, so I'll leave explanation of that to someone else.</p>\n",
+      "owner": {
+        "display_name": "JasonTrue",
+        "link": "https://stackoverflow.com/users/13433/jasontrue"
+      }
+    },
+    {
+      "answer_id": 2279611,
+      "body": "<p>Wrapped for legibility:</p>\n\n<pre><code>puts page.parser.xpath(\"\n  //meta[\n    translate(\n      @name, \n      'ABCDEFGHIJKLMNOPQRSTUVWXYZ', \n      'abcdefghijklmnopqrstuvwxyz'\n    ) = 'keywords'\n  ]\n\").to_html\n</code></pre>\n\n<p>There is no \"to lower case\" function in XPath 1.0, so you have to use <code>translate()</code> for this kind of thing. Add accented letters as necessary.</p>\n",
+      "owner": {
+        "display_name": "Tomalak",
+        "link": "https://stackoverflow.com/users/18771/tomalak"
+      }
+    },
+    {
+      "answer_id": 1289422,
+      "body": "<p>It's not just you.  What you're doing is supposed to be the right way to do it, but I've never had any luck with it.  As far as I can tell, there's some disconnect somewhere between Nokogiri and libxml which causes it to not load <code>SYSTEM</code> DTDs, or to recognize <code>PUBLIC</code> DTDs.  It <em>will</em> work if you define the DTD within the XML file, but good luck doing that with the XHTML DTDs.</p>\n\n<p>The best thing I can recommend is to use the <a href=\"http://www.w3.org/TR/xhtml1-schema/#schemas\" rel=\"noreferrer\">schemas for XHTML</a> instead:</p>\n\n<pre><code>require 'nokogiri'\nrequire 'open-uri'\n\ndoc = Nokogiri::XML(open('http://www.w3.org'))\nxsd = Nokogiri::XML::Schema(open('http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd'))\n\n#this is a true/false validation\nxsd.valid?(doc)    # =&gt; true\n\n#this gives a listing of errors\nxsd.validate(doc)  # =&gt; []\n</code></pre>\n",
+      "owner": {
+        "display_name": "Pesto",
+        "link": "https://stackoverflow.com/users/23921/pesto"
+      }
+    },
+    {
+      "answer_id": 1231297,
+      "body": "<p>I use this code with libxml-ruby (1.1.3). I have not used nokogiri myself, but I understand that it uses libxml-ruby anyway. I would also encourage you to look at ROXML (<a href=\"http://github.com/Empact/roxml/tree\" rel=\"noreferrer\">http://github.com/Empact/roxml/tree</a>) which maps xml elements to ruby objects; it is built atop libxml.</p>\n\n<pre><code># USAGE: Hash.from_libxml(YOUR_XML_STRING)\nrequire 'xml/libxml'\n# adapted from \n# http://movesonrails.com/articles/2008/02/25/libxml-for-active-resource-2-0\n\nclass Hash \n  class &lt;&lt; self\n        def from_libxml(xml, strict=true) \n          begin\n            XML.default_load_external_dtd = false\n            XML.default_pedantic_parser = strict\n            result = XML::Parser.string(xml).parse \n            return { result.root.name.to_s =&gt; xml_node_to_hash(result.root)} \n          rescue Exception =&gt; e\n            # raise your custom exception here\n          end\n        end \n\n        def xml_node_to_hash(node) \n          # If we are at the root of the document, start the hash \n          if node.element? \n           if node.children? \n              result_hash = {} \n\n              node.each_child do |child| \n                result = xml_node_to_hash(child) \n\n                if child.name == \"text\"\n                  if !child.next? and !child.prev?\n                    return result\n                  end\n                elsif result_hash[child.name.to_sym]\n                    if result_hash[child.name.to_sym].is_a?(Object::Array)\n                      result_hash[child.name.to_sym] &lt;&lt; result\n                    else\n                      result_hash[child.name.to_sym] = [result_hash[child.name.to_sym]] &lt;&lt; result\n                    end\n                  else \n                    result_hash[child.name.to_sym] = result\n                  end\n                end\n\n              return result_hash \n            else \n              return nil \n           end \n           else \n            return node.content.to_s \n          end \n        end          \n    end\nend\n</code></pre>\n",
+      "owner": {
+        "display_name": "A.Ali",
+        "link": "https://stackoverflow.com/users/114687/a-ali"
+      }
+    },
+    {
+      "answer_id": 943577,
+      "body": "<p>Thanks Pesto for your almost correct solution.</p>\n\n<p>The working solution is:</p>\n\n<pre><code>node.children.first.add_previous_sibling(span_node)\n</code></pre>\n",
+      "owner": {
+        "display_name": "Manuel",
+        "link": "https://stackoverflow.com/users/106243/manuel"
+      }
+    },
+    {
+      "answer_id": 856878,
+      "body": "<p>You can do it like this:</p>\n\n<pre><code>doc = Nokogiri::HTML.parse(&lt;&lt;-HTML_END)\n&lt;div class=\"heat\"&gt;\n   &lt;a href='http://example.org/site/1/'&gt;site 1&lt;/a&gt;\n   &lt;a href='http://example.org/site/2/'&gt;site 2&lt;/a&gt;\n   &lt;a href='http://example.org/site/3/'&gt;site 3&lt;/a&gt;\n&lt;/div&gt;\n&lt;div class=\"wave\"&gt;\n   &lt;a href='http://example.org/site/4/'&gt;site 4&lt;/a&gt;\n   &lt;a href='http://example.org/site/5/'&gt;site 5&lt;/a&gt;\n   &lt;a href='http://example.org/site/6/'&gt;site 6&lt;/a&gt;\n&lt;/div&gt;\nHTML_END\n\nl = doc.css('div.heat a').map { |link| link['href'] }\n</code></pre>\n\n<p>This solution finds all anchor elements using a css selector and collects their href attributes.</p>\n",
+      "owner": {
+        "display_name": "sris",
+        "link": "https://stackoverflow.com/users/83996/sris"
+      }
+    },
+    {
+      "answer_id": 610653,
+      "body": "<p>Try this:</p>\n\n<pre><code>require 'nokogiri'\n\nhtml_text = \"&lt;html&gt;&lt;body&gt;&lt;h1&gt;Foo&lt;/h1&gt;&lt;p&gt;The quick brown fox.&lt;/p&gt;&lt;h1&gt;Bar&lt;/h1&gt;&lt;p&gt;Jumps over the lazy dog.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;\"\n\nfrag = Nokogiri::HTML(html_text)\nfrag.xpath(\"//h1\").each { |div|  div.name= \"p\"; div.set_attribute(\"class\" , \"title\") }\n</code></pre>\n",
+      "owner": {
+        "display_name": "SimonV",
+        "link": "https://stackoverflow.com/users/73167/simonv"
+      }
+    }
+  ]
+}
