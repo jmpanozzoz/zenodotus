@@ -18,16 +18,25 @@ pub struct Fence {
 }
 
 impl Fence {
-    /// The fence `line` opens, if any: three or more backticks or tildes, indented by at most three spaces.
+    /// The fence `line` opens, if any: three or more backticks or tildes, indented by at most three spaces. A backtick
+    /// fence's info string cannot contain a backtick.
     #[must_use]
     pub fn opened_by(line: &str) -> Option<Self> {
-        fence_of(line)
+        let indent = line.len() - line.trim_start_matches(' ').len();
+        let rest = &line[indent..];
+        let marker = rest.chars().next().filter(|&c| indent <= 3 && (c == '`' || c == '~'))?;
+        let len = rest.len() - rest.trim_start_matches(marker).len();
+        let info = &rest[len..];
+        (len >= 3 && !(marker == '`' && info.contains('`'))).then_some(Self { marker, len })
     }
 
     /// Whether `line` closes this fence: the same character, at least as long, and nothing after it.
     #[must_use]
     pub fn is_closed_by(self, line: &str) -> bool {
-        fence_of(line).is_some_and(|fence| closes(self, fence, line))
+        Self::opened_by(line).is_some_and(|fence| {
+            let after = line.trim_start_matches(' ')[fence.len..].trim();
+            fence.marker == self.marker && fence.len >= self.len && after.is_empty()
+        })
     }
 }
 
@@ -38,30 +47,16 @@ pub fn split_code(text: &str) -> Split {
     let mut split = Split::default();
     let mut open: Option<Fence> = None;
     for line in text.split_inclusive('\n') {
-        match (open, fence_of(line)) {
-            (Some(current), Some(fence)) if closes(current, fence, line) => open = None,
-            (Some(_), _) => split.code.push_str(line),
-            (None, Some(fence)) => open = Some(fence),
-            (None, None) => split.prose.push_str(line),
+        match open {
+            Some(current) if current.is_closed_by(line) => open = None,
+            Some(_) => split.code.push_str(line),
+            None => match Fence::opened_by(line) {
+                Some(fence) => open = Some(fence),
+                None => split.prose.push_str(line),
+            },
         }
     }
     split
-}
-
-/// The fence that `line` starts with, if any. A backtick fence's info string cannot contain a backtick.
-fn fence_of(line: &str) -> Option<Fence> {
-    let indent = line.len() - line.trim_start_matches(' ').len();
-    let rest = &line[indent..];
-    let marker = rest.chars().next().filter(|&c| indent <= 3 && (c == '`' || c == '~'))?;
-    let len = rest.len() - rest.trim_start_matches(marker).len();
-    let info = &rest[len..];
-    (len >= 3 && !(marker == '`' && info.contains('`'))).then_some(Fence { marker, len })
-}
-
-/// Whether `fence`, found on `line`, closes `current`: same character, at least as long, and nothing after it.
-fn closes(current: Fence, fence: Fence, line: &str) -> bool {
-    let after = line.trim_start_matches(' ')[fence.len..].trim();
-    fence.marker == current.marker && fence.len >= current.len && after.is_empty()
 }
 
 #[cfg(test)]

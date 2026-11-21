@@ -55,8 +55,10 @@ and versions follow [Semantic Versioning](https://semver.org/).
   character at least as long with nothing after it, so a four-backtick example holding a three-backtick block stays
   whole. Statements start at the beginning of a line: "export your data" or "import the file" is prose, not a
   statement, and an `import` whose module never follows is kept. A line that holds text outside its tags, such as
-  `<Note>text</Note> <Br />`, is kept. Imports that span lines and `export` followed by a tab are removed. A front
-  matter block after a byte order mark is read. Pages that hit these cases change on the next `sync --rebuild`.
+  `<Note>text</Note> <Br />`, is kept, and a `>` inside a `{…}` attribute no longer ends the tag. A statement whose
+  braces never balance keeps its lines instead of dropping the rest of the page. Imports that span lines and `export`
+  followed by a tab are removed. A front matter block after a byte order mark is read. Pages that hit these cases
+  change on the next `sync --rebuild`.
 - `zenodotus-eval` keeps the corpus sources in `zenodotus-eval-sources` next to the repository root by default, not
   under `target/`, whose paths Grounded Docs skips: it used to index one empty page and score 0 on every question.
   `compare` now reports Grounded Docs as not run when it indexes one page or fewer, or does not print a page count,

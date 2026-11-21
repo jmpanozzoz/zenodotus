@@ -8,7 +8,7 @@ request produce a byte-identical response.
 
 ```text
 crates/
-  core     zenodotus-core     ids, settings, library config, domain types, clock; config load and edit; the code-fence rule
+  core     zenodotus-core     ids, settings, library config, domain types, clock; config load/edit; code fences
   ingest   zenodotus-ingest   sources, secure fetching, Markdown and HTML parsing, sectioning, change detection
   search   zenodotus-search   the Tantivy store: schema, analyzers, apply, query, resolve
   mcp      zenodotus-mcp      the rmcp server: tools, rendering, stdio and Streamable HTTP transports
@@ -47,7 +47,8 @@ Store::query / Store::resolve  ◄── the MCP tools and `zenodotus search`
 
 A document is split at every heading of level 1 to 4. A section keeps its heading path, its code blocks and the
 paragraph that introduces each code block. A section longer than 6,000 characters splits at paragraph boundaries,
-never inside a code fence. Front matter and MDX import, export and self-closing component lines are removed.
+never inside a code fence. Front matter is removed, and so are import, export and self-closing component lines in
+`.mdx` files.
 HTML pages are reduced to their main content (`main`, `article`, documentation-framework roots, or a Readability
 port when none exists) and converted to Markdown before sectioning.
 
