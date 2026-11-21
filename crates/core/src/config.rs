@@ -213,6 +213,9 @@ pub struct RankingSettings {
     pub language_boost: f32,
     /// Fraction of non-stop words that must match; 0 means at least one.
     pub min_should_match: f32,
+    /// Largest share of the sections a non-stop word may appear in and still be required. A word in more sections
+    /// only adds to the score, unless every non-stop word does; 1 disables it.
+    pub common_word_share: f32,
     /// Most prose characters between a section and the code block that continues it; 0 disables the expansion.
     pub adjacent_max_prose_chars: u64,
     /// Words that also match their listed synonyms, at half weight.
@@ -226,6 +229,7 @@ impl Default for RankingSettings {
             quoted_phrase_boost: 2.0,
             language_boost: 1.0,
             min_should_match: 0.0,
+            common_word_share: 0.2,
             adjacent_max_prose_chars: 0,
             synonyms: BTreeMap::new(),
         }
@@ -370,6 +374,9 @@ impl RankingSettings {
         }
         if !(0.0..=1.0).contains(&self.min_should_match) {
             return invalid("ranking.min_should_match", "must be between 0 and 1");
+        }
+        if !(self.common_word_share > 0.0 && self.common_word_share <= 1.0) {
+            return invalid("ranking.common_word_share", "must be above 0 and at most 1");
         }
         let blank = |word: &String| word.trim().is_empty();
         if self
@@ -800,6 +807,14 @@ source = { kind = "local", path = "/srv/tokio" }
             message("ranking.min_should_match", "must be between 0 and 1")
         );
         assert!(parse("[settings.ranking]\nmin_should_match = 1.0").is_ok());
+        for value in ["0.0", "1.5", "nan"] {
+            assert_eq!(
+                settings_error(&format!("[settings.ranking]\ncommon_word_share = {value}")),
+                message("ranking.common_word_share", "must be above 0 and at most 1")
+            );
+        }
+        assert!(parse("[settings.ranking]\ncommon_word_share = 1.0").is_ok());
+        assert_eq!(RankingSettings::default().common_word_share, 0.2);
         assert_eq!(
             settings_error("[settings.index]\nbody_weight = 0"),
             message("index.body_weight", "must be at least 1")

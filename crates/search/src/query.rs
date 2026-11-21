@@ -180,11 +180,43 @@ fn minimum_should_match(fraction: f32, count: usize) -> usize {
     wanted.max(1)
 }
 
-/// Builds the query for `analyzed` in `scope`, as described in the design's query construction.
+/// Whether a word in `doc_freq` of `sections` sections is in more than `share` of them.
+#[expect(clippy::cast_precision_loss, reason = "section counts are far below 2^52")]
+fn exceeds_share(doc_freq: u64, sections: u64, share: f32) -> bool {
+    doc_freq as f64 > f64::from(share) * sections as f64
+}
+
+/// The required words of `analyzed` that more than `ranking.common_word_share` of the sections contain, counted as
+/// the scorer counts them. [`build`] turns them into optional clauses.
+///
+/// # Errors
+///
+/// An index error.
+pub fn common_words(
+    store: &Store,
+    searcher: &Searcher,
+    analyzed: &Analyzed,
+    ranking: &RankingSettings,
+) -> Result<Vec<String>, SearchError> {
+    let statistics = SectionStatistics::new(store, searcher)?;
+    let mut common = Vec::new();
+    for word in &analyzed.required {
+        let doc_freq = searcher.doc_freq(&Term::from_field_text(store.fields().combined, word))?;
+        if exceeds_share(doc_freq, statistics.sections, ranking.common_word_share) {
+            common.push(word.clone());
+        }
+    }
+    Ok(common)
+}
+
+/// Builds the query for `analyzed` in `scope`, as described in the design's query construction. The required words
+/// in `common` become optional clauses, and `min_should_match` counts the others; with every required word in
+/// `common`, nothing matches.
 #[must_use]
 pub fn build(
     fields: &Fields,
     analyzed: &Analyzed,
+    common: &[String],
     scope: &Scope,
     language: Option<&str>,
     ranking: &RankingSettings,
@@ -198,8 +230,9 @@ pub fn build(
             0.0,
         )),
     )];
-    let group: Vec<(Occur, Box<dyn Query>)> = analyzed
-        .required
+    let (demoted, kept): (Vec<&String>, Vec<&String>) =
+        analyzed.required.iter().partition(|word| common.contains(word));
+    let group: Vec<(Occur, Box<dyn Query>)> = kept
         .iter()
         .map(|word| (Occur::Should, word_query(fields, word, ranking)))
         .collect();
@@ -208,6 +241,9 @@ pub fn build(
         Occur::Must,
         Box::new(BooleanQuery::with_minimum_required_clauses(group, minimum)),
     ));
+    for word in demoted {
+        clauses.push((Occur::Should, word_query(fields, word, ranking)));
+    }
     for word in &analyzed.optional {
         clauses.push((
             Occur::Should,
@@ -508,8 +544,21 @@ pub fn query_docs(
     let searcher = store.searcher();
     let states = store.version_states_at(&searcher)?;
     let (state, resolution) = resolve_version(&states, request.library_id, request.version)?;
-    let query = build(store.fields(), &analyzed, &state.scope, request.language, ranking);
+    let common = common_words(store, &searcher, &analyzed, ranking)?;
+    let query = build(
+        store.fields(),
+        &analyzed,
+        &common,
+        &state.scope,
+        request.language,
+        ranking,
+    );
     let mut hits = top_sections(store, &searcher, &query, request.max_results)?;
+    if hits.is_empty() && !common.is_empty() {
+        // No section matches a word that is not common: the common words are required again.
+        let query = build(store.fields(), &analyzed, &[], &state.scope, request.language, ranking);
+        hits = top_sections(store, &searcher, &query, request.max_results)?;
+    }
     dedup(&mut hits);
     expand_adjacent(store, &searcher, &mut hits, ranking.adjacent_max_prose_chars)?;
     fit_budget(&mut hits, request.max_chars);
@@ -771,6 +820,87 @@ mod tests {
         assert_eq!(
             sources(&result),
             ["local:phrase.md", "local:synonym.md", "local:word.md"]
+        );
+    }
+
+    #[test]
+    fn common_words_only_add_to_the_score() {
+        let s = lib();
+        let fixture = one_version(&[
+            section(&s, "a.md", 0, &["A"], "alpha common usual"),
+            section(&s, "b.md", 0, &["B"], "common bravo"),
+            section(&s, "c.md", 0, &["C"], "common charlie"),
+            section(&s, "d.md", 0, &["D"], "other"),
+        ]);
+        let with_share = |share: f32| {
+            let mut ranking = RankingSettings {
+                common_word_share: share,
+                ..RankingSettings::default()
+            };
+            ranking.synonyms.insert("common".to_owned(), vec!["usual".to_owned()]);
+            ranking
+        };
+        let demoted = query_docs(&fixture.store, &request("alpha common"), &with_share(0.5)).unwrap();
+        assert_eq!(sources(&demoted), ["local:a.md"], "common is in 3 of 4 sections");
+        let kept = query_docs(&fixture.store, &request("alpha common"), &with_share(1.0)).unwrap();
+        assert_eq!(sources(&kept), ["local:a.md", "local:b.md", "local:c.md"]);
+        assert_eq!(
+            demoted.results[0].score, kept.results[0].score,
+            "the synonym moves with its word"
+        );
+        let at_share = query_docs(&fixture.store, &request("alpha common"), &with_share(0.75)).unwrap();
+        assert_eq!(
+            sources(&at_share),
+            sources(&kept),
+            "a word in exactly the share stays required"
+        );
+        let alone = query_docs(&fixture.store, &request("common"), &with_share(0.5)).unwrap();
+        assert_eq!(
+            sources(&alone),
+            ["local:a.md", "local:b.md", "local:c.md"],
+            "when every word is common, all stay required"
+        );
+        let absent = query_docs(&fixture.store, &request("common zulu"), &with_share(0.5)).unwrap();
+        assert_eq!(
+            sources(&absent),
+            sources(&kept),
+            "when no section has another word, the common ones are required again"
+        );
+    }
+
+    #[test]
+    fn common_words_are_counted_against_sections_only() {
+        let s = lib();
+        let fixture = one_version(&[
+            section(&s, "a.md", 0, &["A"], "alpha common"),
+            section(&s, "b.md", 0, &["B"], "common"),
+            section(&s, "c.md", 0, &["C"], "other"),
+            section(&s, "d.md", 0, &["D"], "other"),
+        ]);
+        let ranking = RankingSettings {
+            common_word_share: 0.4,
+            ..RankingSettings::default()
+        };
+        let searcher = fixture.store.searcher();
+        let analyzed = analyze("alpha common").unwrap();
+        assert_eq!(
+            common_words(&fixture.store, &searcher, &analyzed, &ranking).unwrap(),
+            ["common"],
+            "2 of 4 sections, though the index also holds a version-state document"
+        );
+        let none = RankingSettings {
+            common_word_share: 0.5,
+            ..RankingSettings::default()
+        };
+        let no_words: [&str; 0] = [];
+        assert_eq!(
+            common_words(&fixture.store, &searcher, &analyzed, &none).unwrap(),
+            no_words
+        );
+        let empty = one_version(&[]);
+        assert_eq!(
+            common_words(&empty.store, &empty.store.searcher(), &analyzed, &ranking).unwrap(),
+            no_words
         );
     }
 
@@ -1106,8 +1236,11 @@ mod tests {
     fn zero_boosts_drop_their_clauses() {
         let (_, fields) = crate::schema::build_schema();
         let analyzed = analyze("how tokio::spawn \"run tests\"").unwrap();
-        let count =
-            |ranking: &RankingSettings| build(&fields, &analyzed, &lib(), Some("Rust"), ranking).clauses().len();
+        let count = |ranking: &RankingSettings| {
+            build(&fields, &analyzed, &[], &lib(), Some("Rust"), ranking)
+                .clauses()
+                .len()
+        };
         let base = 2 + analyzed.optional.len();
         assert_eq!(
             count(&RankingSettings::default()),
@@ -1123,7 +1256,7 @@ mod tests {
         assert_eq!(count(&off), base);
         let single = analyze("tokio").unwrap();
         assert_eq!(
-            build(&fields, &single, &lib(), None, &RankingSettings::default())
+            build(&fields, &single, &[], &lib(), None, &RankingSettings::default())
                 .clauses()
                 .len(),
             2 + single.identifiers.len()
