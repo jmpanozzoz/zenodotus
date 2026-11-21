@@ -34,6 +34,9 @@ and versions follow [Semantic Versioning](https://semver.org/).
   (improvement-loop iteration 17, identical results, p50 −17% and p95 −20% in `cargo xtask perf`). No rebuild needed.
 - The default `title_weight` is 3 instead of 4 (improvement-loop iteration 19, MRR@10 +0.01% on the dev set). An
   index built with the old default asks for `sync --rebuild`.
+- The index no longer has the unread `chunk_id` field, and only `version_state` documents carry a `key`; sections
+  and `doc_state` documents are found and deleted by `doc_key` (improvement-loop iteration 20, same results, smaller
+  index). An index built before asks for `sync --rebuild`.
 - A website with no `allow_prefixes` whose start page is one segment deep (`/docs`, `/introduction`) now crawls the
   whole host, the start page's directory, so that sites keeping every page at the root are crawled whole; set
   `allow_prefixes = ["/docs"]` to keep such a crawl to one section.

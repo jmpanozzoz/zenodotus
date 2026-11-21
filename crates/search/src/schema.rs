@@ -2,9 +2,9 @@
 
 use serde::Serialize;
 use tantivy::TantivyDocument;
-use tantivy::schema::{FAST, Field, IndexRecordOption, STORED, STRING, Schema, TextFieldIndexing, TextOptions};
+use tantivy::schema::{Field, IndexRecordOption, STORED, STRING, Schema, TextFieldIndexing, TextOptions};
 use zenodotus_core::config::IndexSettings;
-use zenodotus_core::ids::{DocKey, Scope};
+use zenodotus_core::ids::Scope;
 use zenodotus_core::model::{DocState, Section, VersionState};
 
 use crate::analyzer::{CODE_IDENT, CODE_WORDS};
@@ -29,15 +29,13 @@ const KEY_SEPARATOR: char = '\u{1f}';
 pub struct Fields {
     /// `section`, `doc_state` or `version_state`.
     pub kind: Field,
-    /// Unique per index document.
+    /// The key of a `version_state` document, which the store looks the record up and deletes it by; sections and
+    /// `doc_state` documents have none, being deleted by `doc_key`.
     pub key: Field,
     /// `library@version`.
     pub scope: Field,
     /// The source document, on sections and `doc_state` documents.
     pub doc_key: Field,
-    /// The section id, indexed but not stored and never read: ties break on the payload's `chunk_id` (H15 would drop
-    /// it).
-    pub chunk_id: Field,
     /// Every part of a section, each repeated by its index weight.
     pub combined: Field,
     /// Whole identifiers and their qualified suffixes.
@@ -64,7 +62,6 @@ pub fn build_schema() -> (Schema, Fields) {
         key: builder.add_text_field("key", STRING),
         scope: builder.add_text_field("scope", STRING),
         doc_key: builder.add_text_field("doc_key", STRING),
-        chunk_id: builder.add_text_field("chunk_id", STRING | FAST),
         combined: builder.add_text_field("combined", TextOptions::default().set_indexing_options(words)),
         symbols_exact: builder.add_text_field(
             "symbols_exact",
@@ -74,12 +71,6 @@ pub fn build_schema() -> (Schema, Fields) {
         payload: builder.add_text_field("payload", STORED),
     };
     (builder.build(), fields)
-}
-
-/// The `key` of a document's `doc_state` index document.
-#[must_use]
-pub fn doc_state_key(doc_key: &DocKey) -> String {
-    format!("ds{KEY_SEPARATOR}{}", doc_key.as_str())
 }
 
 /// The `key` of a scope's `version_state` index document.
@@ -133,10 +124,8 @@ impl Fields {
     pub fn section_document(&self, scope: &Scope, section: &Section, weights: &IndexSettings) -> TantivyDocument {
         let mut doc = TantivyDocument::new();
         doc.add_text(self.kind, KIND_SECTION);
-        doc.add_text(self.key, section.chunk_id.as_str());
         doc.add_text(self.scope, scope.to_string());
         doc.add_text(self.doc_key, section.doc_key.as_str());
-        doc.add_text(self.chunk_id, section.chunk_id.as_str());
         for (text, weight) in combined_parts(section, weights) {
             for _ in 0..weight {
                 doc.add_text(self.combined, &text);
@@ -157,7 +146,6 @@ impl Fields {
     pub fn doc_state_document(&self, scope: &Scope, state: &DocState) -> TantivyDocument {
         let mut doc = TantivyDocument::new();
         doc.add_text(self.kind, KIND_DOC_STATE);
-        doc.add_text(self.key, doc_state_key(&state.doc_key));
         doc.add_text(self.scope, scope.to_string());
         doc.add_text(self.doc_key, state.doc_key.as_str());
         doc.add_text(self.payload, to_json(state));
@@ -179,7 +167,7 @@ impl Fields {
 #[cfg(test)]
 pub(crate) mod tests {
     use tantivy::schema::Value;
-    use zenodotus_core::ids::{ChunkId, LibraryId, Version};
+    use zenodotus_core::ids::{ChunkId, DocKey, LibraryId, Version};
     use zenodotus_core::model::{Outcome, content_hash};
     use zenodotus_core::time::Timestamp;
 
@@ -247,24 +235,21 @@ pub(crate) mod tests {
                 "key",
                 "scope",
                 "doc_key",
-                "chunk_id",
                 "combined",
                 "symbols_exact",
                 "lang",
                 "payload"
             ]
         );
-        assert!(first.get_field_entry(fields.chunk_id).is_fast());
+        assert!(first.fields().all(|(_, entry)| !entry.is_fast()));
         assert!(first.get_field_entry(fields.payload).is_stored());
         assert!(!first.get_field_entry(fields.combined).is_stored());
     }
 
     #[test]
-    fn keys_are_prefixed_by_kind() {
+    fn version_state_keys_are_prefixed() {
         let scope = scope("a", "1");
         assert_eq!(version_state_key(&scope), "vs\u{1f}a@1");
-        let key = DocKey::new(&scope, "x.md").unwrap();
-        assert_eq!(doc_state_key(&key), "ds\u{1f}a\u{1f}1\u{1f}x.md");
     }
 
     #[test]
@@ -327,10 +312,9 @@ pub(crate) mod tests {
         let weights = IndexSettings::default();
         let doc = fields.section_document(&scope, &s, &weights);
         assert_eq!(texts(&doc, fields.kind), ["section"]);
-        assert_eq!(texts(&doc, fields.key), [s.chunk_id.as_str()]);
+        assert_eq!(texts(&doc, fields.key), [] as [std::string::String; 0]);
         assert_eq!(texts(&doc, fields.scope), ["lib@2.0"]);
         assert_eq!(texts(&doc, fields.doc_key), [s.doc_key.as_str()]);
-        assert_eq!(texts(&doc, fields.chunk_id), [s.chunk_id.as_str()]);
         assert_eq!(texts(&doc, fields.symbols_exact), ["tokio::spawn"]);
         assert_eq!(texts(&doc, fields.lang), ["rust", "sh"]);
         let combined = texts(&doc, fields.combined);
@@ -363,7 +347,7 @@ pub(crate) mod tests {
         let doc = fields.doc_state_document(&scope, &state);
         assert_no_scored_fields(&fields, &doc);
         assert_eq!(texts(&doc, fields.kind), ["doc_state"]);
-        assert_eq!(texts(&doc, fields.key), [doc_state_key(&state.doc_key)]);
+        assert_eq!(texts(&doc, fields.key), [] as [std::string::String; 0]);
         assert_eq!(texts(&doc, fields.scope), ["lib@2.0"]);
         assert_eq!(texts(&doc, fields.doc_key), [state.doc_key.as_str()]);
         let payload: DocState = serde_json::from_str(&texts(&doc, fields.payload)[0]).unwrap();
