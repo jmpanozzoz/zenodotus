@@ -272,9 +272,9 @@ fn title_value(line: &str) -> Option<String> {
 }
 
 /// Removes MDX `import`/`export` blocks and self-closing JSX component lines outside code fences. As in MDX, a block
-/// starts at the beginning of a line with the keyword and a space, and ends at a blank line; while its braces are open
-/// it runs on across a blank line into a line that is indented or starts with a closing bracket. An import block that
-/// never names its module was prose, and is kept.
+/// starts at the beginning of a line with the keyword and whitespace, and ends at a blank line; while its braces are
+/// open it runs on across a blank line into a line that is indented or starts with a closing bracket. An import block
+/// that never names its module was prose, and is kept.
 fn strip_mdx(text: &str) -> String {
     let mut kept = String::with_capacity(text.len());
     let mut fence: Option<Fence> = None;
@@ -333,8 +333,8 @@ struct EsmBlock {
 }
 
 impl EsmBlock {
-    /// The block `line` starts, if any: `import` and a space followed by a module, a binding list or a default
-    /// binding, or `export` and a space followed by a declaration. Prose such as "import the file" or "export your
+    /// The block `line` starts, if any: `import` and whitespace followed by a module, a binding list or a default
+    /// binding, or `export` and whitespace followed by a declaration. Prose such as "import the file" or "export your
     /// data" starts none.
     fn started_by(line: &str) -> Option<Self> {
         let trimmed = line.trim_end();

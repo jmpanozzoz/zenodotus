@@ -51,10 +51,13 @@ and versions follow [Semantic Versioning](https://semver.org/).
   covers `/docs`), to which servers often redirect it. Stored pages outside the new scope are deleted on the next sync.
 - A scored term of a field that the metadata documents share no longer aborts the search.
 - MDX stripping follows MDX's own rule for `import`/`export` blocks, and no longer removes content it should keep.
-  - A block starts at the beginning of a line with the keyword and a space, and ends at a blank line. While its
+  - A block starts at the beginning of a line with the keyword and whitespace, and ends at a blank line. While its
     braces are open it runs on across a blank line, but only into a line that is indented or starts with a closing
-    bracket, so a stray brace cannot drop the rest of a page. Multi-line exports such as `export const A = () => (`
-    are removed whole.
+    bracket, so a stray brace cannot drop the rest of a page.
+  - Known limits: only braces are counted, not `(` or `[`, and braces inside strings count too. A block that spans a
+    blank line can therefore end early and leave JavaScript in the indexed text, and a stray brace can take an
+    indented paragraph after the block with it. Text written directly under a block, with no blank line between,
+    goes with the block, as it does in MDX, which rejects such a file.
   - "export your data" or "import the file" is prose, and an import block that never names its module is kept.
   - Code fences use the `CommonMark` rule the search uses: a fence closes only on a fence of the same character at
     least as long with nothing after it, so a four-backtick example holding a three-backtick block stays whole.
