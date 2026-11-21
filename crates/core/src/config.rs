@@ -217,6 +217,8 @@ pub struct RankingSettings {
     pub adjacent_max_prose_chars: u64,
     /// Words that also match their listed synonyms, at half weight.
     pub synonyms: BTreeMap<String, Vec<String>>,
+    /// Factor on the average length of `combined` in BM25; above 1 weakens the length penalty, below 1 strengthens it.
+    pub combined_length_factor: f32,
 }
 
 impl Default for RankingSettings {
@@ -228,6 +230,7 @@ impl Default for RankingSettings {
             min_should_match: 0.0,
             adjacent_max_prose_chars: 0,
             synonyms: BTreeMap::new(),
+            combined_length_factor: 1.0,
         }
     }
 }
@@ -367,6 +370,9 @@ impl RankingSettings {
             if !boost.is_finite() || boost < 0.0 {
                 return invalid(field, "must be a finite number of at least 0");
             }
+        }
+        if !self.combined_length_factor.is_finite() || self.combined_length_factor <= 0.0 {
+            return invalid("ranking.combined_length_factor", "must be a finite number above 0");
         }
         if !(0.0..=1.0).contains(&self.min_should_match) {
             return invalid("ranking.min_should_match", "must be between 0 and 1");
@@ -817,6 +823,18 @@ source = { kind = "local", path = "/srv/tokio" }
             }
             assert!(parse(&format!("[settings.ranking]\n{key} = 0.0")).is_ok());
         }
+    }
+
+    #[test]
+    fn the_length_factor_must_be_finite_and_above_0() {
+        assert!((RankingSettings::default().combined_length_factor - 1.0).abs() < f32::EPSILON);
+        for value in ["0.0", "-1.0", "nan", "inf"] {
+            assert_eq!(
+                settings_error(&format!("[settings.ranking]\ncombined_length_factor = {value}")),
+                message("ranking.combined_length_factor", "must be a finite number above 0")
+            );
+        }
+        assert!(parse("[settings.ranking]\ncombined_length_factor = 0.5").is_ok());
     }
 
     #[test]
