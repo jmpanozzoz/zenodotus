@@ -48,9 +48,14 @@ Some mutants turn a scanning loop into one that never advances and allocates wit
 the run's memory so the kernel kills only the runaway test, which then counts as caught:
 
 ```bash
+mkdir -p target/mutants-tmp
 systemd-run --user --scope -p MemoryMax=16G -p MemorySwapMax=0 -p OOMPolicy=continue \
+  -E TMPDIR="$PWD/target/mutants-tmp" \
   cargo mutants -p zenodotus-core -p zenodotus-ingest -p zenodotus-search -j 4 --timeout 120
 ```
+
+cargo-mutants builds its copies of the tree under `TMPDIR`. Where `/tmp` is a tmpfs, those files are memory charged
+to the scope, and the cap then kills rustc itself (`Signalled(9)`, reported as FAILED); `TMPDIR` on disk avoids it.
 
 Every surviving mutant is either killed with a new test or justified.
 
