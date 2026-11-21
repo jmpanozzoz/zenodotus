@@ -53,7 +53,8 @@ impl Grounded {
     ///
     /// # Errors
     ///
-    /// [`SystemUnavailable`] when a local copy is missing, indexing fails, or the server cannot start.
+    /// [`SystemUnavailable`] when a local copy is missing or is not a folder, indexing fails,
+    /// or the server cannot start.
     pub async fn start(launcher: &Launcher, corpus: &Corpus, work: &Path) -> Result<Self, SystemUnavailable> {
         let store = work.join("grounded");
         // A missing store is the usual case; any other failure surfaces when indexing writes to it.

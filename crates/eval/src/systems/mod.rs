@@ -135,12 +135,14 @@ fn shown(command: &Command) -> String {
 ///
 /// # Errors
 ///
-/// [`SystemUnavailable`] with the reason when the folder cannot be resolved (it is missing or unreadable) or is not a
-/// folder.
+/// [`SystemUnavailable`] with the reason when the path cannot be resolved (it is missing, or a folder on the way
+/// cannot be searched) or is not a folder.
 pub fn local_docs(case: &ScopeCase) -> Result<PathBuf, SystemUnavailable> {
     let docs = case.docs();
-    let problem = match std::fs::canonicalize(&docs) {
-        Ok(real) if real.is_dir() => return Ok(real),
+    let resolved = std::fs::canonicalize(&docs)
+        .and_then(|real| std::fs::metadata(&real).map(|metadata| (real, metadata.is_dir())));
+    let problem = match resolved {
+        Ok((real, true)) => return Ok(real),
         Ok(_) => "not a folder".to_owned(),
         Err(error) => error.to_string(),
     };

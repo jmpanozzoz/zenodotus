@@ -57,7 +57,8 @@ impl Neuledge {
     ///
     /// # Errors
     ///
-    /// [`SystemUnavailable`] when a local copy is missing, a package cannot be built, or the server cannot start.
+    /// [`SystemUnavailable`] when a local copy is missing or is not a folder, a package cannot be built,
+    /// or the server cannot start.
     pub async fn start(launcher: &Launcher, corpus: &Corpus, work: &Path) -> Result<Self, SystemUnavailable> {
         let home = work.join("neuledge");
         // A missing home is the usual case; any other failure surfaces when a package is built in it.
