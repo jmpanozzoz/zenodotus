@@ -115,8 +115,8 @@ section contains all of its answer strings. Intervals are 95% bootstrap interval
 
 | System | Answered | Excluded | Failed | Recall@5 [95% CI] | MRR@10 [95% CI] | p50 ms | p95 ms | Median tokens (est.) |
 |---|---|---|---|---|---|---|---|---|
-| zenodotus | 65 | 0 | 0 | 0.877 [0.785, 0.954] | 0.736 [0.643, 0.821] | 0.7 | 0.8 | 3092 |
-| context7 | 65 | 0 | 0 | 0.785 [0.677, 0.877] | 0.695 [0.590, 0.792] | 1057.0 | 1278.0 | 1095 |
+| zenodotus | 65 | 0 | 0 | 0.877 [0.785, 0.954] | 0.736 [0.643, 0.821] | 0.7 | 0.9 | 3092 |
+| context7 | 65 | 0 | 0 | 0.785 [0.677, 0.877] | 0.695 [0.590, 0.792] | 1177.8 | 1459.0 | 1111 |
 | grounded-docs | 65 | 0 | 0 | 0.923 [0.846, 0.985] | 0.855 [0.778, 0.927] | 3.7 | 5.7 | 7391 |
 | neuledge-context | 65 | 0 | 0 | 0.108 [0.046, 0.185] | 0.108 [0.046, 0.185] | 0.4 | 0.6 | 54 |
 
@@ -127,7 +127,7 @@ questions. Our pre-registered target was a Recall@5 interval for zenodotus − C
 −0.02; the measured interval is [−0.031, 0.215], so the target is **not met**: zenodotus is ahead of Context7 on
 these questions (0.877 against 0.785), but 65 questions cannot rule out a small deficit. Grounded Docs ranks best at
 full response size (0.923), with responses more than twice as long; cut to Context7's median response size (about
-1,095 tokens), Recall@5 is 0.862 for zenodotus, 0.769 for Context7 and 0.723 for Grounded Docs.
+1,111 tokens), Recall@5 is 0.862 for zenodotus, 0.769 for Context7 and 0.723 for Grounded Docs.
 
 Scores depend on the questions, written for this project, and on everything else in the index. Questions we wrote
 may favour lexical retrieval: each is judged by the API names and code its answer must contain. The harness, the
@@ -142,10 +142,10 @@ with Linux 7.0, and rustc 1.100.0.
 
 | Metric | Measured | Target |
 |---|---|---|
-| Query latency over stdio MCP, p50 / p95 (2,000 calls) | 0.78 ms / 1.65 ms | p95 under 20 ms |
-| `serve` start to the first `tools/list` response (hyperfine) | 3.6 ms | under 300 ms |
-| Peak RSS while serving | 90 MiB (92,384 KiB) | under 150 MB |
-| Indexing throughput | 2,240 documents per CPU second (user + system) | reported |
+| Query latency over stdio MCP, p50 / p95 (2,000 calls) | 0.63 ms / 1.18 ms | p95 under 20 ms |
+| `serve` start to the first `tools/list` response (hyperfine) | 3.4 ms | under 300 ms |
+| Peak RSS while serving | 90 MiB (91,776 KiB) | under 150 MB |
+| Indexing throughput | 2,210 documents per CPU second (user + system) | reported |
 | Re-sync with no upstream change | 0.05 s | reported |
 | Index size on disk | 102.2 MiB | reported |
 
