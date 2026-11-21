@@ -19,6 +19,7 @@ use crate::html::html_to_markdown;
 use crate::llms_txt::collect_llms_txt;
 use crate::local::{Limits, LocalSource, collect_local};
 use crate::sectioner::{SectionRules, SourceRef};
+use crate::sink::{DocumentSink, Flow, replay};
 use crate::url::collect_urls;
 use crate::website::{Website, collect_website};
 
@@ -54,6 +55,27 @@ pub struct Context<'a> {
 /// # Errors
 /// [`IngestError`] when the listing cannot be obtained; the version's sections must then stay as they are.
 pub async fn collect(spec: &SourceSpec, ctx: &Context<'_>) -> Result<VersionChanges, IngestError> {
+    let mut changes = VersionChanges::default();
+    collect_into(spec, ctx, &mut changes).await?;
+    Ok(changes)
+}
+
+/// Lists, fetches and sections the documents of one version into `sink`, and returns [`Flow::Stop`] when the sink
+/// stopped the run. v1's kinds collect the whole version before the first sink call; nothing reaches the sink when
+/// the listing fails.
+///
+/// # Errors
+/// [`IngestError`] when the listing cannot be obtained; the version's sections must then stay as they are.
+pub async fn collect_into<S: DocumentSink + ?Sized>(
+    spec: &SourceSpec,
+    ctx: &Context<'_>,
+    sink: &mut S,
+) -> Result<Flow, IngestError> {
+    Ok(replay(collect_v1(spec, ctx).await?, sink))
+}
+
+/// Collects one version of a v1 kind as a whole.
+async fn collect_v1(spec: &SourceSpec, ctx: &Context<'_>) -> Result<VersionChanges, IngestError> {
     match spec {
         SourceSpec::Local { path, include, exclude } => {
             let root = ctx.base_dir.join(path);
@@ -432,6 +454,59 @@ pub(crate) mod tests {
             report_missing: true,
             moves: None,
         }
+    }
+
+    #[tokio::test]
+    async fn collect_into_streams_what_collect_returns_and_stops_when_the_sink_does() {
+        let dir = tempfile::TempDir::new().unwrap();
+        for (name, text) in [
+            ("a.md", "# A\n\nalpha"),
+            ("b.md", "# B\n\nbeta"),
+            ("c.md", "# C\n\ngamma"),
+        ] {
+            std::fs::write(dir.path().join(name), text).unwrap();
+        }
+        let mut harness = Harness::new();
+        harness.base_dir = dir.path().to_owned();
+        harness.remember("a.md", "# A\n\nalpha", None);
+        harness.remember("gone.md", "old", None);
+        let spec = SourceSpec::Local {
+            path: PathBuf::from("."),
+            include: Vec::new(),
+            exclude: Vec::new(),
+        };
+        let ctx = harness.context();
+        let collected = collect(&spec, &ctx).await.unwrap();
+        assert_eq!(
+            (
+                paths(&collected.unchanged),
+                paths(&collected.deletions),
+                collected.upserts.len()
+            ),
+            (vec!["a.md"], vec!["gone.md"], 2)
+        );
+
+        let mut sink = crate::sink::tests::Recorder::default();
+        assert_eq!(collect_into(&spec, &ctx, &mut sink).await.unwrap(), Flow::Continue);
+        assert_eq!(
+            sink.calls,
+            ["upsert b.md", "upsert c.md", "unchanged a.md", "delete gone.md"]
+        );
+        let mut stopping = crate::sink::tests::Recorder {
+            limit: Some(1),
+            ..crate::sink::tests::Recorder::default()
+        };
+        assert_eq!(collect_into(&spec, &ctx, &mut stopping).await.unwrap(), Flow::Stop);
+        assert_eq!(stopping.calls, ["upsert b.md"]);
+
+        let missing = SourceSpec::Local {
+            path: PathBuf::from("missing"),
+            include: Vec::new(),
+            exclude: Vec::new(),
+        };
+        let mut untouched = crate::sink::tests::Recorder::default();
+        assert!(collect_into(&missing, &ctx, &mut untouched).await.is_err());
+        assert_eq!(untouched.calls, Vec::<String>::new());
     }
 
     #[tokio::test]
