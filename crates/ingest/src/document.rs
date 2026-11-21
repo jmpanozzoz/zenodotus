@@ -49,6 +49,7 @@ pub fn build(
             last_modified: fetched.last_modified.map(str::to_owned),
             content_hash: hash,
             fetched_at: fetched.fetched_at,
+            source: None,
         },
         sections: sectionize(scope, fetched.doc_key, fetched.source, &parsed, rules),
     })

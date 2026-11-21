@@ -6,7 +6,7 @@ use std::sync::Arc;
 
 use zenodotus_core::config::{Config, LibrarySpec, VersionSpec};
 use zenodotus_core::ids::{DocKey, LibraryId, Scope};
-use zenodotus_core::model::{DocState, Outcome, VersionChanges, VersionState};
+use zenodotus_core::model::{DocState, Origin, Outcome, VersionChanges, VersionState};
 use zenodotus_core::time::{Clock, Timestamp};
 use zenodotus_ingest::fetch::Fetcher;
 use zenodotus_ingest::github::GitHub;
@@ -65,6 +65,9 @@ impl Target<'_> {
             document_count: 0,
             section_count: 0,
             resolved_commit: None,
+            origin: Origin::Config,
+            plan: None,
+            bytes: 0,
         }
     }
 }
@@ -331,6 +334,9 @@ mod tests {
             document_count: 0,
             section_count: 0,
             resolved_commit: commit.map(str::to_owned),
+            origin: Origin::Config,
+            plan: None,
+            bytes: 0,
         }
     }
 
@@ -347,6 +353,7 @@ mod tests {
                 last_modified: None,
                 content_hash: "0".repeat(64),
                 fetched_at: Timestamp::from_unix(0),
+                source: None,
             },
             sections: Vec::new(),
         };

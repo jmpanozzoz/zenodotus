@@ -836,6 +836,7 @@ pub(crate) mod tests {
             last_modified: Some("Wed, 21 Oct 2015 07:28:00 GMT".to_owned()),
             content_hash: String::new(),
             fetched_at: zenodotus_core::time::Timestamp::from_unix(0),
+            source: None,
         };
         let validators = Validators::of(&state);
         let conditional = FetchRequest {

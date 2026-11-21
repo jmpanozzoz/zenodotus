@@ -402,6 +402,7 @@ pub(crate) mod tests {
                     last_modified: None,
                     content_hash: content_hash(text),
                     fetched_at: Timestamp::from_unix(1),
+                    source: None,
                 },
             );
         }

@@ -7,7 +7,7 @@ use std::process::{Command, Stdio};
 
 use zenodotus_core::config::{IndexSettings, RankingSettings};
 use zenodotus_core::ids::{ChunkId, DocKey, LibraryId, Scope, Version};
-use zenodotus_core::model::{DocState, Document, Outcome, Section, VersionChanges, VersionState, content_hash};
+use zenodotus_core::model::{DocState, Document, Origin, Outcome, Section, VersionChanges, VersionState, content_hash};
 use zenodotus_core::time::Timestamp;
 use zenodotus_search::query::{QueryRequest, query_docs};
 use zenodotus_search::store::{Store, StoreWriter};
@@ -44,6 +44,9 @@ fn snapshot(at: i64) -> VersionState {
         document_count: 0,
         section_count: 0,
         resolved_commit: None,
+        origin: Origin::Config,
+        plan: None,
+        bytes: 0,
     }
 }
 
@@ -78,6 +81,7 @@ fn revision_changes(revision: u64) -> VersionChanges {
                     last_modified: None,
                     content_hash: content_hash(&format!("{path} r{revision}")),
                     fetched_at: Timestamp::from_unix(0),
+                    source: None,
                 },
                 sections,
             }

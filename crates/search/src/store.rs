@@ -578,6 +578,7 @@ mod tests {
                 last_modified: None,
                 content_hash: content_hash(&texts.concat()),
                 fetched_at: Timestamp::from_unix(1),
+                source: None,
             },
             sections,
         }

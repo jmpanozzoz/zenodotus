@@ -72,7 +72,9 @@ pub(crate) mod tests {
 
     use zenodotus_core::config::IndexSettings;
     use zenodotus_core::ids::{ChunkId, DocKey, Scope};
-    use zenodotus_core::model::{DocState, Document, Outcome, Section, VersionChanges, VersionState, content_hash};
+    use zenodotus_core::model::{
+        DocState, Document, Origin, Outcome, Section, VersionChanges, VersionState, content_hash,
+    };
     use zenodotus_core::time::Timestamp;
     use zenodotus_search::error::SearchError;
     use zenodotus_search::store::StoreWriter;
@@ -101,6 +103,9 @@ pub(crate) mod tests {
             document_count: 0,
             section_count: 0,
             resolved_commit: None,
+            origin: Origin::Config,
+            plan: None,
+            bytes: 0,
         }
     }
 
@@ -119,6 +124,7 @@ pub(crate) mod tests {
                         last_modified: None,
                         content_hash: content_hash(text),
                         fetched_at: Timestamp::from_unix(1),
+                        source: None,
                     },
                     sections: vec![Section {
                         chunk_id: ChunkId::derive(scope, &doc_path, 0),

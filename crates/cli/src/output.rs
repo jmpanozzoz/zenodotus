@@ -161,7 +161,7 @@ pub fn status_json(states: &[VersionState], index_bytes: u64) -> Value {
 #[cfg(test)]
 mod tests {
     use zenodotus_core::ids::{LibraryId, Scope, Version};
-    use zenodotus_core::model::Outcome;
+    use zenodotus_core::model::{Origin, Outcome};
 
     use super::*;
 
@@ -185,6 +185,9 @@ mod tests {
             document_count: 3,
             section_count: 7,
             resolved_commit: Some("abc123".to_owned()),
+            origin: Origin::Config,
+            plan: None,
+            bytes: 0,
         }
     }
 

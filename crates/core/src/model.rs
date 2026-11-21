@@ -8,6 +8,7 @@ use sha2::{Digest, Sha256};
 use url::Url;
 
 use crate::ids::{ChunkId, DocKey, Scope, to_hex};
+use crate::plan::Plan;
 use crate::time::Timestamp;
 
 /// Default page cap for a [`SourceSpec::Website`] crawl.
@@ -228,6 +229,10 @@ pub struct DocState {
     pub content_hash: String,
     /// When the body was last downloaded or read.
     pub fetched_at: Timestamp,
+    /// The `id` of the plan source that produced the document (design §12.4); `None` for a configured library's
+    /// single source.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub source: Option<String>,
 }
 
 /// A new or changed document with its sections.
@@ -358,6 +363,34 @@ pub struct VersionState {
     pub section_count: u64,
     /// The commit a GitHub reference resolved to at the last successful sync.
     pub resolved_commit: Option<String>,
+    /// Where the plan came from; `config` for every schema-1 record.
+    #[serde(default)]
+    pub origin: Origin,
+    /// The sources and revisions; `None` for a configured library.
+    #[serde(default)]
+    pub plan: Option<Plan>,
+    /// The stored text length of the scope's sections, the eviction measure (design §14); 0 until measured.
+    #[serde(default)]
+    pub bytes: u64,
+}
+
+/// Where a scope's plan came from (design §12.5).
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(rename_all = "snake_case")]
+pub enum Origin {
+    /// A library of the config file.
+    Config,
+    /// A recipe, or a built-in runtime plan.
+    Recipe,
+    /// Discovery from registry metadata.
+    Discovered,
+}
+
+impl Default for Origin {
+    /// Every schema-1 record comes from a configured library.
+    fn default() -> Self {
+        Self::Config
+    }
 }
 
 #[cfg(test)]
@@ -594,6 +627,7 @@ mod tests {
                 last_modified: None,
                 content_hash: content_hash(""),
                 fetched_at: Timestamp::from_unix(0),
+                source: None,
             },
             sections: vec![],
         });
@@ -646,8 +680,70 @@ mod tests {
             document_count: 2,
             section_count: 9,
             resolved_commit: None,
+            origin: Origin::Config,
+            plan: None,
+            bytes: 0,
         };
         let text = toml::to_string(&state).unwrap();
         assert_eq!(toml::from_str::<VersionState>(&text).unwrap(), state);
+
+        let source = crate::plan::PlanSource {
+            id: "guides".into(),
+            kind: crate::plan::SourceKind::Url,
+            spec: serde_json::Map::from_iter([("urls".to_owned(), serde_json::json!(["https://a.dev/llms.txt"]))]),
+            revision: None,
+        };
+        let catalog = VersionState {
+            origin: Origin::Discovered,
+            plan: Some(crate::plan::Plan::new(None, None, vec![], vec![source]).unwrap()),
+            bytes: 4096,
+            ..state
+        };
+        let text = serde_json::to_string(&catalog).unwrap();
+        assert!(text.contains(r#""origin":"discovered""#), "{text}");
+        assert_eq!(serde_json::from_str::<VersionState>(&text).unwrap(), catalog);
+    }
+
+    #[test]
+    fn origins_render_in_snake_case_and_default_to_config() {
+        assert_eq!(Origin::default(), Origin::Config);
+        for (origin, name) in [
+            (Origin::Config, "config"),
+            (Origin::Recipe, "recipe"),
+            (Origin::Discovered, "discovered"),
+        ] {
+            assert_eq!(serde_json::to_value(origin).unwrap(), serde_json::json!(name));
+            assert_eq!(
+                serde_json::from_value::<Origin>(serde_json::json!(name)).unwrap(),
+                origin
+            );
+        }
+    }
+
+    #[test]
+    fn schema_one_records_decode_with_the_new_fields_defaulted() {
+        let v1_state = r#"{"scope":{"library":"a","version":"1"},"name":"A","description":"d","aliases":[],
+            "homepage":null,"license":null,"source":"local:/a","default":true,"list_order":0,"revision":1,
+            "last_success":null,"last_attempt":6,"last_verified":null,"outcome":"ok",
+            "last_error":null,"document_count":0,"section_count":0,"resolved_commit":null}"#;
+        let state: VersionState = serde_json::from_str(v1_state).unwrap();
+        assert_eq!(state.origin, Origin::Config);
+        assert_eq!(state.plan, None);
+        assert_eq!(state.bytes, 0);
+        assert_eq!(state.scope.to_string(), "a@1");
+
+        let v1_doc = r#"{"doc_key":"a\u001f1\u001fx.md","etag":null,"last_modified":null,
+            "content_hash":"00","fetched_at":0}"#;
+        let doc: DocState = serde_json::from_str(v1_doc).unwrap();
+        assert_eq!(doc.source, None);
+        assert!(!serde_json::to_string(&doc).unwrap().contains("source"));
+
+        let sourced = DocState {
+            source: Some("guides".into()),
+            ..doc
+        };
+        let text = serde_json::to_string(&sourced).unwrap();
+        assert!(text.contains(r#""source":"guides""#), "{text}");
+        assert_eq!(serde_json::from_str::<DocState>(&text).unwrap(), sourced);
     }
 }
