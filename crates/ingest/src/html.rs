@@ -30,9 +30,9 @@ const CONTENT_ROOTS: [&str; 7] = [
 /// Page furniture removed from the content root before conversion.
 const CHROME: &str = "nav, footer, aside, script, style, .toc, .sidebar";
 
-/// Converts `html`, fetched from `url`. The content root is the first of [`CONTENT_ROOTS`] the page has, without
-/// [`CHROME`]; a page with none goes through Readability, which fails only on pages without any text, which become
-/// empty.
+/// Converts `html`, fetched from `url`. The content root is the first documentation root or HTML landmark the page has
+/// (`CONTENT_ROOTS`), without its navigation and other chrome (`CHROME`); a page with none goes through Readability,
+/// which fails only on pages without any text, which become empty.
 #[must_use]
 pub fn html_to_markdown(html: &str, url: &Url) -> Page {
     let document = Document::from(html);
