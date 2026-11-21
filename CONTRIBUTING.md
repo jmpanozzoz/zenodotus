@@ -12,8 +12,9 @@ cargo install cargo-llvm-cov cargo-deny cargo-machete cargo-mutants
 ## Rules
 
 - **Test first.** Every behaviour starts as a failing test. Every change to `src/` comes with its tests.
-- **Bad paths count.** Every variant of every error enum must be produced and asserted by a test;
-  `cargo xtask check-errors` enforces it.
+- **Bad paths count.** Every variant of every error enum must be produced and asserted by a test.
+  `cargo xtask check-errors` checks that each variant is named in a test; that the test asserts it is checked in
+  review.
 - **No stray files.** Markdown is allowed only as `README.md`, `CONTRIBUTING.md`, `SECURITY.md`, `ARCHITECTURE.md`
   and `CHANGELOG.md` at the root, plus fixtures under `fixtures/`. No plans, notes or reports in the repository.
 - **Library code does not print.** Only the CLI output module, the evaluation report and `xtask` write to stdout or
@@ -56,6 +57,8 @@ systemd-run --user --scope -p MemoryMax=16G -p MemorySwapMax=0 -p OOMPolicy=cont
 
 cargo-mutants builds its copies of the tree under `TMPDIR`. Where `/tmp` is a tmpfs, those files are memory charged
 to the scope, and the cap then kills rustc itself (`Signalled(9)`, reported as FAILED); `TMPDIR` on disk avoids it.
+A run that is killed leaves its copies there, some of them read-only; remove them with
+`chmod -R u+w target/mutants-tmp && rm -rf target/mutants-tmp/*`.
 
 Every surviving mutant is either killed with a new test or justified.
 

@@ -35,8 +35,8 @@ pub struct Fields {
     pub scope: Field,
     /// The source document, on sections and `doc_state` documents.
     pub doc_key: Field,
-    /// The section id, indexed but not stored and never read: ties break on the payload's `chunk_id` (H15 would drop
-    /// it).
+    /// The section id, indexed but not stored and never read: ties break on the payload's `chunk_id`. Dropping it was
+    /// tried and reverted for its p95 cost.
     pub chunk_id: Field,
     /// Every part of a section, each repeated by its index weight.
     pub combined: Field,

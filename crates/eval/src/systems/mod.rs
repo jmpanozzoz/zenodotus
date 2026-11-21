@@ -139,10 +139,8 @@ fn shown(command: &Command) -> String {
 /// cannot be searched) or is not a folder.
 pub fn local_docs(case: &ScopeCase) -> Result<PathBuf, SystemUnavailable> {
     let docs = case.docs();
-    let resolved = std::fs::canonicalize(&docs)
-        .and_then(|real| std::fs::metadata(&real).map(|metadata| (real, metadata.is_dir())));
-    let problem = match resolved {
-        Ok((real, true)) => return Ok(real),
+    let problem = match std::fs::canonicalize(&docs) {
+        Ok(real) if real.is_dir() => return Ok(real),
         Ok(_) => "not a folder".to_owned(),
         Err(error) => error.to_string(),
     };
