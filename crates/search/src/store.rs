@@ -73,11 +73,7 @@ impl Store {
     pub fn open(data_dir: &Path, settings: &IndexSettings) -> Result<Self, SearchError> {
         // Readers never move directories: after a crash between a swap's renames, they read `index.old/`, and only
         // the writer, which holds the sync lock, repairs the layout.
-        let path = [INDEX_DIR, OLD_INDEX_DIR]
-            .map(|dir| data_dir.join(dir))
-            .into_iter()
-            .find(|path| path.join("meta.json").is_file())
-            .ok_or(SearchError::IndexEmpty)?;
+        let path = readable_index(data_dir).ok_or(SearchError::IndexEmpty)?;
         let index = Index::open_in_dir(&path)?;
         let payload = check(&index, settings)?;
         if payload.is_none() {
@@ -94,6 +90,21 @@ impl Store {
             index,
             reader,
         })
+    }
+
+    /// Every scope record of the index under `data_dir`, read without checking the schema or the index settings, so
+    /// that a rebuild can read the records of an index an older version wrote. Records of schema 1 get the defaults
+    /// of design §12.5. Empty when there is no index.
+    ///
+    /// # Errors
+    ///
+    /// An index error, or a payload that does not decode.
+    pub fn read_states_raw(data_dir: &Path) -> Result<Vec<VersionState>, SearchError> {
+        let Some(path) = readable_index(data_dir) else {
+            return Ok(Vec::new());
+        };
+        let store = Self::with_reader(Index::open_in_dir(&path)?, ReloadPolicy::Manual)?;
+        store.version_states()
     }
 
     /// The fields of the index.
@@ -222,6 +233,14 @@ impl Store {
         ]);
         Ok(self.searcher().search(&query, &Count)? as u64)
     }
+}
+
+/// The index a reader opens under `data_dir`: `index/`, or `index.old/` after a crash between a swap's renames.
+fn readable_index(data_dir: &Path) -> Option<std::path::PathBuf> {
+    [INDEX_DIR, OLD_INDEX_DIR]
+        .map(|dir| data_dir.join(dir))
+        .into_iter()
+        .find(|path| path.join("meta.json").is_file())
 }
 
 /// The term of `text` in `field`.

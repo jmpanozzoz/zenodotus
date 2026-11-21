@@ -12,7 +12,7 @@ use zenodotus_core::fences::split_code;
 
 /// Version of the schema and of the way documents are built. Stored in every commit payload; a different value at
 /// open time means the index must be rebuilt.
-pub const SCHEMA_VERSION: u32 = 1;
+pub const SCHEMA_VERSION: u32 = 2;
 
 /// Value of the `kind` field of a section.
 pub const KIND_SECTION: &str = "section";

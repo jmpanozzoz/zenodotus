@@ -10,6 +10,9 @@ authors.workspace = true
 [lints]
 workspace = true
 
+[features]
+test-support = []
+
 [dependencies]
 schemars = "1.2.3"
 serde = { version = "1.0.229", features = ["derive"] }
@@ -23,6 +26,7 @@ zenodotus-core = { version = "0.1.0", path = "../core" }
 criterion = { version = "0.8.2", default-features = false, features = ["cargo_bench_support"] }
 proptest = "1.12.0"
 tempfile = "3.27.0"
+zenodotus-search = { path = ".", features = ["test-support"] }
 
 [[bench]]
 name = "query"
