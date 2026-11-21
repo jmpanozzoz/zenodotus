@@ -1,0 +1,22 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "demo-app",
+      "dependencies": {
+        "react": "^18.2.0",
+      },
+    },
+  },
+  // Packages are keyed by name; the first element is "<name>@<version>".
+  "packages": {
+    "@acme/secret": ["@acme/secret@1.0.0", "https://npm.acme.dev/@acme/secret/-/secret-1.0.0.tgz", {}, "sha512-EEEE"],
+    "glab": ["glab@git+https://gitlab.com/acme/glab.git#89abcdef0123456789abcdef0123456789abcdef", {}, "89abcde"],
+    "local-utils": ["local-utils@workspace:packages/local-utils"],
+    /* A block comment, with a "quote" and a trailing comma, */
+    "loose-envify": ["loose-envify@1.4.0", "", { "dependencies": { "js-tokens": "^3.0.0 || ^4.0.0" } }, "sha512-AAAA"],
+    "react": ["react@18.2.0", "", { "dependencies": { "loose-envify": "^1.1.0" } }, "sha512-BBBB"],
+    "slashes": ["slashes@1.0.0", "https://registry.npmjs.org/slashes//-/slashes-1.0.0.tgz", {}, "sha512-/* kept */,]"],
+    "widget": ["widget@github:acme/widget#0123456789abcdef0123456789abcdef01234567", {}, "acme-widget-0123456"],
+  },
+}

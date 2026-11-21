@@ -8,6 +8,11 @@ use serde::de::DeserializeOwned;
 
 use crate::error::LockfileError;
 
+pub(crate) mod bun_lock;
+pub(crate) mod npm_lock;
+pub(crate) mod pnpm_lock;
+pub(crate) mod yarn_lock;
+
 /// A parse error in `file` at `line`.
 pub(crate) fn parse_error(file: &Path, line: Option<u64>, message: impl Into<String>) -> LockfileError {
     LockfileError::Parse {
