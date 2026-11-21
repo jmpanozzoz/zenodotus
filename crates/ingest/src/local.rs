@@ -314,6 +314,7 @@ mod tests {
         assert_eq!(paths(second.deletions), ["gone.md"]);
     }
 
+    #[cfg(unix)]
     #[test]
     fn symlinks_are_not_followed_so_nothing_escapes_the_root() {
         let outside = tempfile::tempdir().unwrap();
@@ -363,6 +364,7 @@ mod tests {
         assert_eq!(changes.outcome(), Outcome::Partial);
     }
 
+    #[cfg(unix)]
     #[test]
     fn unreadable_files_and_bad_names_are_document_errors() {
         use std::os::unix::ffi::OsStrExt as _;
@@ -382,6 +384,7 @@ mod tests {
         assert_eq!(kinds, [("locked.md", "io"), ("tab\tname.md", "invalid_path")]);
     }
 
+    #[cfg(unix)]
     #[test]
     fn a_missing_root_or_unreadable_directory_fails_the_listing() {
         use std::os::unix::fs::PermissionsExt as _;

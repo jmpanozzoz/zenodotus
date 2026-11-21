@@ -371,6 +371,7 @@ mod tests {
         assert_eq!(std::fs::read_to_string(&path).unwrap(), "");
     }
 
+    #[cfg(unix)]
     #[test]
     fn a_non_utf8_path_is_an_invalid_source() {
         use std::os::unix::ffi::OsStrExt as _;

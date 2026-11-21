@@ -276,6 +276,7 @@ pub(crate) mod tests {
 
     use super::*;
 
+    #[cfg(unix)]
     #[test]
     fn a_local_copy_is_its_real_path() {
         let (root, mut corpus) = crate::corpus::tests::corpus();

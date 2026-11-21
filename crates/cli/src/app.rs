@@ -4,7 +4,6 @@ use std::io::Write;
 use std::path::{Path, PathBuf};
 use std::sync::Arc;
 
-use tokio::signal::unix::{SignalKind, signal};
 use tokio_util::sync::CancellationToken;
 use url::Url;
 use zenodotus_core::config::{Config, Env, VersionSpec, locate_config};
@@ -263,17 +262,36 @@ async fn serve(config_path: &Path, args: &ServeArgs, ctx: &mut Context<'_>) -> R
     let options = HttpOptions::new(&config.settings.http, listen, (ctx.env)(TOKEN_VARIABLE));
     let shutdown = CancellationToken::new();
     let http = HttpServer::bind(options, server, shutdown.clone()).await?;
-    let mut terminate = signal(SignalKind::terminate()).map_err(ServeError::Io)?;
+    let stop = stop_signal().map_err(ServeError::Io)?;
     tokio::spawn(async move {
-        tokio::select! {
-            _ = tokio::signal::ctrl_c() => {}
-            _ = terminate.recv() => {}
-        }
+        stop.await;
         shutdown.cancel();
     });
     writeln!(ctx.out, "Serving MCP on http://{}{MCP_PATH}", http.local_addr()?)?;
     ctx.out.flush()?;
     Ok(http.run().await?)
+}
+
+/// Resolves on Ctrl+C, or on SIGTERM where there are Unix signals.
+#[cfg(unix)]
+fn stop_signal() -> std::io::Result<impl Future<Output = ()>> {
+    use tokio::signal::unix::{SignalKind, signal};
+    let mut terminate = signal(SignalKind::terminate())?;
+    Ok(async move {
+        tokio::select! {
+            _ = tokio::signal::ctrl_c() => {}
+            _ = terminate.recv() => {}
+        }
+    })
+}
+
+/// Resolves on Ctrl+C.
+#[cfg(not(unix))]
+#[allow(clippy::unnecessary_wraps, reason = "the same signature as the Unix version")]
+fn stop_signal() -> std::io::Result<impl Future<Output = ()>> {
+    Ok(async {
+        let _ = tokio::signal::ctrl_c().await;
+    })
 }
 
 #[cfg(test)]
