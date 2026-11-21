@@ -7,7 +7,7 @@ use zenodotus_core::config::Config;
 use zenodotus_core::model::VersionState;
 use zenodotus_core::time::Timestamp;
 
-use crate::sync::{SyncReport, VersionReport};
+use zenodotus_jobs::sync::{SyncReport, VersionReport};
 
 /// A timestamp, or `never`.
 fn when(at: Option<Timestamp>) -> String {

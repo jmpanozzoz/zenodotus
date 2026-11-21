@@ -4172,6 +4172,7 @@ dependencies = [
  "wiremock",
  "zenodotus-core",
  "zenodotus-ingest",
+ "zenodotus-jobs",
  "zenodotus-mcp",
  "zenodotus-search",
 ]
@@ -4236,6 +4237,17 @@ dependencies = [
  "url",
  "wiremock",
  "zenodotus-core",
+]
+
+[[package]]
+name = "zenodotus-jobs"
+version = "0.1.0"
+dependencies = [
+ "tempfile",
+ "thiserror 2.0.21",
+ "zenodotus-core",
+ "zenodotus-ingest",
+ "zenodotus-search",
 ]
 
 [[package]]

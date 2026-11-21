@@ -15,7 +15,7 @@ use zenodotus_ingest::sectioner::SectionRules;
 use zenodotus_ingest::source::{self, Context};
 use zenodotus_search::store::{StoreWriter, discard_rebuilt, swap_rebuilt};
 
-use crate::error::AppError;
+use crate::error::JobsError;
 use crate::lock::SyncLock;
 
 /// Which versions to sync.
@@ -150,15 +150,15 @@ struct Run<'a> {
 ///
 /// # Errors
 ///
-/// [`AppError::Busy`] when another sync runs, [`AppError::Usage`] or [`AppError::Core`] for a selection that is not
-/// configured, [`AppError::Ingest`] when the HTTP client cannot be built, and [`AppError::Search`] for index failures.
+/// [`JobsError::Busy`] when another sync runs, [`JobsError::Usage`] or [`JobsError::Core`] for a selection that is not
+/// configured, [`JobsError::Ingest`] when the HTTP client cannot be built, and [`JobsError::Search`] for index failures.
 /// Versions that end `partial` or `failed`, and an abandoned rebuild, are only reported.
 pub async fn sync(
     config: &Config,
     paths: Paths<'_>,
     selection: Selection<'_>,
     sources: Sources<'_>,
-) -> Result<SyncReport, AppError> {
+) -> Result<SyncReport, JobsError> {
     let targets = select(config, selection)?;
     let settings = &config.settings;
     let fetcher = Fetcher::new(&settings.fetch, &settings.user_agent, Arc::new(SystemResolve))?;
@@ -200,7 +200,7 @@ pub async fn sync(
 }
 
 /// The configured versions `selection` names, in config order.
-fn select<'a>(config: &'a Config, selection: Selection<'_>) -> Result<Vec<Target<'a>>, AppError> {
+fn select<'a>(config: &'a Config, selection: Selection<'_>) -> Result<Vec<Target<'a>>, JobsError> {
     let all = config.libraries.iter().flat_map(|library| {
         library.versions.iter().zip(0..).map(move |(spec, list_order)| Target {
             library,
@@ -220,7 +220,7 @@ fn select<'a>(config: &'a Config, selection: Selection<'_>) -> Result<Vec<Target
         .filter(|target| version.is_none_or(|version| target.spec.version.as_str() == version))
         .collect();
     if chosen.is_empty() {
-        return Err(AppError::Usage(format!(
+        return Err(JobsError::Usage(format!(
             "library {id} has no version {} in the config",
             version.unwrap_or_default()
         )));
@@ -230,7 +230,11 @@ fn select<'a>(config: &'a Config, selection: Selection<'_>) -> Result<Vec<Target
 
 /// Ingests one version and applies it in one commit; a version whose documents cannot be listed is recorded as
 /// `failed` without touching its sections.
-async fn sync_version(writer: &mut StoreWriter, target: &Target<'_>, run: &Run<'_>) -> Result<VersionReport, AppError> {
+async fn sync_version(
+    writer: &mut StoreWriter,
+    target: &Target<'_>,
+    run: &Run<'_>,
+) -> Result<VersionReport, JobsError> {
     let snapshot = target.snapshot(run.clock.now());
     let previous = writer.store().doc_states(&snapshot.scope)?;
     let previous_commit = reusable_commit(writer.store().version_state(&snapshot.scope)?, &snapshot.source);
@@ -244,7 +248,7 @@ fn settle(
     writer: &mut StoreWriter,
     snapshot: &VersionState,
     collected: Result<VersionChanges, String>,
-) -> Result<VersionReport, AppError> {
+) -> Result<VersionReport, JobsError> {
     let error = match collected {
         Ok(changes) => match writer.apply(snapshot, &changes) {
             Ok(state) => {

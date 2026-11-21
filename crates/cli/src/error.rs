@@ -4,6 +4,7 @@ use std::path::PathBuf;
 
 use zenodotus_core::CoreError;
 use zenodotus_ingest::IngestError;
+use zenodotus_jobs::JobsError;
 use zenodotus_mcp::ServeError;
 use zenodotus_search::SearchError;
 
@@ -87,5 +88,63 @@ impl AppError {
     pub(crate) fn io(path: impl Into<PathBuf>) -> impl FnOnce(std::io::Error) -> Self {
         let path = path.into();
         move |source| Self::Io { path, source }
+    }
+}
+
+impl From<JobsError> for AppError {
+    /// Keeps each job error's exit code: a held lock is 4, a selection that is not configured 2.
+    fn from(error: JobsError) -> Self {
+        match error {
+            JobsError::Usage(message) => Self::Usage(message),
+            JobsError::Core(error) => Self::Core(error),
+            JobsError::Search(error) => Self::Search(error),
+            JobsError::Ingest(error) => Self::Ingest(error),
+            JobsError::Busy { path } => Self::Busy { path },
+            JobsError::Io { path, source } => Self::Io { path, source },
+        }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn job_errors_keep_their_exit_codes() {
+        let io = || std::io::Error::other("denied");
+        let cases = [
+            (JobsError::Usage("no such version".to_owned()), 2),
+            (
+                JobsError::Core(CoreError::UnknownLibrary {
+                    library: "a".to_owned(),
+                }),
+                2,
+            ),
+            (JobsError::Search(SearchError::Locked), 4),
+            (
+                JobsError::Ingest(IngestError::Client {
+                    message: "no TLS".to_owned(),
+                }),
+                1,
+            ),
+            (
+                JobsError::Busy {
+                    path: PathBuf::from("sync.lock"),
+                },
+                4,
+            ),
+            (
+                JobsError::Io {
+                    path: PathBuf::from("data"),
+                    source: io(),
+                },
+                1,
+            ),
+        ];
+        for (error, code) in cases {
+            let message = error.to_string();
+            let error = AppError::from(error);
+            assert_eq!((error.exit_code(), error.to_string()), (code, message));
+        }
     }
 }
