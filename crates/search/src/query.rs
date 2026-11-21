@@ -191,8 +191,9 @@ fn exceeds_share(doc_freq: u64, sections: u64, share: f32) -> bool {
 ///
 /// None is common in a query of stop words only, when `min_should_match` asks for more than one required word (over
 /// fewer words the fraction could admit other sections), for a word with synonyms (its clause matches more than the
-/// word), or when the other required words are in fewer than `wanted` sections in all, every required word included:
-/// the search would then come up short and run again.
+/// word), or when the other required words are in fewer than `wanted` sections of the whole index in all: the search
+/// would then come up short and run again. A kept word with synonyms counts as enough, since the sections of its
+/// synonyms are not counted.
 ///
 /// # Errors
 ///
@@ -574,11 +575,11 @@ pub fn query_docs(
         request.language,
         ranking,
     );
-    let mut hits = top_sections(store, &searcher, &query, request.max_results)?;
+    let mut hits = top_sections(store, &searcher, &query, wanted)?;
     if hits.len() < wanted && !common.is_empty() {
         // Fewer sections than asked for match a word that is not common: the common words count again.
         let query = build(store.fields(), &analyzed, &[], &state.scope, request.language, ranking);
-        hits = top_sections(store, &searcher, &query, request.max_results)?;
+        hits = top_sections(store, &searcher, &query, wanted)?;
     }
     dedup(&mut hits);
     expand_adjacent(store, &searcher, &mut hits, ranking.adjacent_max_prose_chars)?;
@@ -911,6 +912,16 @@ mod tests {
         let mut synonyms = share(0.25);
         synonyms.synonyms.insert("common".to_owned(), vec!["usual".to_owned()]);
         same("alpha common", 2, &synonyms, "a word with synonyms stays required");
+        let mut kept_synonyms = share(0.25);
+        kept_synonyms
+            .synonyms
+            .insert("alpha".to_owned(), vec!["zulu".to_owned()]);
+        same(
+            "alpha common",
+            3,
+            &kept_synonyms,
+            "alpha's synonyms match nothing, so the short answer runs again",
+        );
         let strict = RankingSettings {
             min_should_match: 1.0,
             ..share(0.25)

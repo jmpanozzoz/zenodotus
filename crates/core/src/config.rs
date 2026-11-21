@@ -215,7 +215,8 @@ pub struct RankingSettings {
     pub min_should_match: f32,
     /// Largest share of the sections a non-stop word may appear in and still decide which sections are candidates. A
     /// word in more sections only adds to the score, unless the word has synonyms, `min_should_match` asks for more
-    /// than one word, or the other words match fewer sections than asked for; 1 disables it.
+    /// than one word, or the other words are in fewer sections of the whole index than asked for; a search that comes
+    /// up short runs again with every word. 1 disables it.
     pub common_word_share: f32,
     /// Most prose characters between a section and the code block that continues it; 0 disables the expansion.
     pub adjacent_max_prose_chars: u64,
