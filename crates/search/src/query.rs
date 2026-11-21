@@ -211,16 +211,19 @@ pub fn common_words(
     let mut common = Vec::new();
     let mut kept_sections: u64 = 0;
     for word in &analyzed.required {
+        if ranking.synonyms.contains_key(word) {
+            // Its clause also matches the synonyms, whose sections are not counted: assume it fills the answer.
+            kept_sections = u64::MAX;
+            continue;
+        }
         let doc_freq = searcher.doc_freq(&Term::from_field_text(store.fields().combined, word))?;
-        if !ranking.synonyms.contains_key(word)
-            && exceeds_share(doc_freq, statistics.sections, ranking.common_word_share)
-        {
+        if exceeds_share(doc_freq, statistics.sections, ranking.common_word_share) {
             common.push(word.clone());
         } else {
             kept_sections = kept_sections.saturating_add(doc_freq);
         }
     }
-    if kept_sections < wanted as u64 {
+    if kept_sections < wanted.max(1) as u64 {
         common.clear();
     }
     Ok(common)
@@ -561,7 +564,8 @@ pub fn query_docs(
     let searcher = store.searcher();
     let states = store.version_states_at(&searcher)?;
     let (state, resolution) = resolve_version(&states, request.library_id, request.version)?;
-    let common = common_words(store, &searcher, &analyzed, ranking, request.max_results.max(1))?;
+    let wanted = request.max_results.max(1);
+    let common = common_words(store, &searcher, &analyzed, ranking, wanted)?;
     let query = build(
         store.fields(),
         &analyzed,
@@ -571,7 +575,7 @@ pub fn query_docs(
         ranking,
     );
     let mut hits = top_sections(store, &searcher, &query, request.max_results)?;
-    if hits.len() < request.max_results.max(1) && !common.is_empty() {
+    if hits.len() < wanted && !common.is_empty() {
         // Fewer sections than asked for match a word that is not common: the common words count again.
         let query = build(store.fields(), &analyzed, &[], &state.scope, request.language, ranking);
         hits = top_sections(store, &searcher, &query, request.max_results)?;
@@ -963,6 +967,7 @@ mod tests {
             "alpha is in 1 section, 2 are wanted"
         );
         assert_eq!(words("common", &ranking, 1), no_words, "every required word is common");
+        assert_eq!(words("common", &ranking, 0), no_words, "at least one section is wanted");
         assert_eq!(
             words("how to", &ranking, 1),
             no_words,
@@ -984,6 +989,15 @@ mod tests {
             words("alpha common", &synonyms, 1),
             no_words,
             "a word with synonyms stays required"
+        );
+        let mut kept_synonyms = ranking.clone();
+        kept_synonyms
+            .synonyms
+            .insert("alpha".to_owned(), vec!["other".to_owned()]);
+        assert_eq!(
+            words("alpha common", &kept_synonyms, 2),
+            ["common"],
+            "the synonyms of alpha may match the sections wanted"
         );
         let empty = one_version(&[]);
         assert_eq!(

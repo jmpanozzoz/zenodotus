@@ -68,8 +68,9 @@ Tantivy has no BM25F and no separate query-time analyzer, so zenodotus works aro
   `->`, every qualified suffix (`std.sync.arc`, `sync.arc`, `arc`) and the snake-joined form, into `symbols_exact`.
 - **Queries are built in code**, never through Tantivy's query parser: non-stop words must match, stop words and
   exact symbols, quoted phrases and the requested code language add score. A non-stop word in more than
-  `common_word_share` of the index's sections (20% by default) only adds score, unless fewer sections than asked for
-  match another word.
+  `common_word_share` of the index's sections (20% by default) only adds score, unless it has synonyms,
+  `min_should_match` asks for more than one word, or the other words cannot fill the answer; a search that comes up
+  short runs again with every word.
 - **Determinism.** Ties break on the section's `chunk_id`, and the top-k fetch keeps paging while the next hit ties
   the k-th, so no tie straddles the cut.
 
