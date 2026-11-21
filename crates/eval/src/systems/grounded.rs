@@ -24,6 +24,36 @@ pub fn split_results(text: &str) -> Vec<String> {
         .collect()
 }
 
+/// Folder names that Grounded Docs excludes by default wherever they appear in a path (its
+/// `DEFAULT_FOLDER_EXCLUSIONS`), so a local copy under one of them is indexed as one empty page and every search finds
+/// nothing. `target` is the one the default `--sources` lies under.
+pub const EXCLUDED_FOLDERS: [&str; 17] = [
+    "archive",
+    "archived",
+    "deprecated",
+    "legacy",
+    "old",
+    "outdated",
+    "previous",
+    "superseded",
+    "test",
+    "tests",
+    "__tests__",
+    "spec",
+    "dist",
+    "build",
+    "out",
+    "target",
+    ".next",
+];
+
+/// The first folder of `docs` that Grounded Docs would exclude, if any.
+fn excluded_folder(docs: &Path) -> Option<String> {
+    docs.components()
+        .map(|component| component.as_os_str().to_string_lossy().into_owned())
+        .find(|name| EXCLUDED_FOLDERS.contains(&name.as_str()))
+}
+
 /// A Grounded Docs server on its own store.
 pub struct Grounded {
     client: McpClient,
@@ -51,6 +81,14 @@ impl Grounded {
         let _ = std::fs::remove_dir_all(&store);
         for case in &corpus.scopes {
             let docs = super::local_docs(case)?;
+            if let Some(name) = excluded_folder(&docs) {
+                return Err(SystemUnavailable(format!(
+                    "cannot index {}: Grounded Docs skips every path under a `{name}` folder, and {} is under one; \
+                     check the sources out elsewhere and pass `--sources`",
+                    case.key,
+                    docs.display()
+                )));
+            }
             let url = format!("file://{}", docs.display());
             let mut args = vec![
                 "scrape".to_owned(),
@@ -221,5 +259,26 @@ mod tests {
             .err()
             .unwrap();
         assert!(error.0.starts_with("/bin/true mcp --protocol stdio"), "{error:?}");
+    }
+
+    #[tokio::test]
+    async fn a_local_copy_under_a_folder_grounded_docs_excludes_makes_it_unavailable() {
+        let (root, mut corpus) = corpus();
+        let checkout = root.path().join("target/eval-sources/tokio");
+        corpus.scopes[0].checkout.clone_from(&checkout);
+        checkouts(&corpus);
+        let (_dir, launcher) = stub();
+        let error = Grounded::start(&launcher, &corpus, &root.path().join("work"))
+            .await
+            .err()
+            .unwrap();
+        assert!(
+            error
+                .0
+                .starts_with("cannot index tokio: Grounded Docs skips every path under a `target` folder"),
+            "{error:?}"
+        );
+        assert_eq!(excluded_folder(Path::new("/home/u/sources/tokio/content")), None);
+        assert_eq!(excluded_folder(Path::new("/srv/build/x")).as_deref(), Some("build"));
     }
 }

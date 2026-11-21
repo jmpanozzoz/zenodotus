@@ -60,13 +60,14 @@ The question sets live in `eval/questions/{dev,test}.jsonl`. **Tune only on `dev
 checkpoint and final reports and never chooses a change.
 
 1. Check out every corpus source at its pinned commit. `eval/corpus.toml` lists each repository, commit and docs
-   path; each source goes to `target/eval-sources/<library>` (or `<library>-<version>` for a library with several
-   versions), for example:
+   path; each source goes to `<sources>/<library>` (or `<library>-<version>` for a library with several versions).
+   `<sources>` defaults to `target/eval-sources`, but Grounded Docs skips every path under a `target`, `build`,
+   `dist`, `out` or `test` folder, so for `compare` check them out elsewhere and pass `--sources`, for example:
 
    ```bash
-   mkdir -p target/eval-sources/tokio
+   mkdir -p ../zenodotus-eval-sources/tokio
    curl -sL https://codeload.github.com/tokio-rs/website/tar.gz/71cdb3858fbb943843e8cf0e8baf547fe22180f7 \
-     | tar xz --strip-components=1 -C target/eval-sources/tokio
+     | tar xz --strip-components=1 -C ../zenodotus-eval-sources/tokio
    ```
 
 2. Build the index and validate the questions against the real sectioner:
@@ -81,10 +82,11 @@ checkpoint and final reports and never chooses a change.
 
    ```bash
    target/release/zenodotus-eval run                  # zenodotus on the dev set
-   target/release/zenodotus-eval compare              # every system on the test set
+   target/release/zenodotus-eval --sources ../zenodotus-eval-sources compare   # every system on the test set
    ```
 
-   `compare` needs Node 20 or later for Grounded Docs and Neuledge Context, which it starts with `npx`, and network
+   `compare` needs Node 20 or later for Grounded Docs and Neuledge Context, which it starts with `npx` (the same
+   Node that first installed them, since their native modules are built for it), and network
    access for Context7 (`CONTEXT7_API_KEY` is optional). A system that cannot run is reported as `not run: <reason>`.
    Raw results and the summary are written under `eval/results/`, which is not committed.
 

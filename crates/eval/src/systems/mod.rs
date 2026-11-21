@@ -137,7 +137,9 @@ fn shown(command: &Command) -> String {
 pub fn local_docs(case: &ScopeCase) -> Result<PathBuf, SystemUnavailable> {
     let docs = case.docs();
     if docs.is_dir() {
-        return Ok(docs);
+        // Grounded Docs takes the folder as a `file://` URL, which needs an absolute path; `absolute` fails only on
+        // an empty path, which is not a directory.
+        return Ok(std::path::absolute(&docs).unwrap_or(docs));
     }
     Err(SystemUnavailable(format!(
         "no local copy of {} at {}; fetch the corpus sources first",
@@ -270,6 +272,18 @@ pub(crate) mod tests {
     use tempfile::TempDir;
 
     use super::*;
+
+    #[test]
+    fn a_local_copy_under_a_relative_sources_path_is_given_as_an_absolute_path() {
+        let (_root, corpus) = crate::corpus::tests::corpus();
+        let mut case = corpus.scopes[0].clone();
+        // Tests run in the crate directory, which holds `src/systems`.
+        case.checkout = PathBuf::from("src");
+        case.path = "systems".to_owned();
+        let docs = local_docs(&case).unwrap();
+        assert!(docs.is_absolute(), "{}", docs.display());
+        assert_eq!(docs, std::env::current_dir().unwrap().join("src/systems"));
+    }
 
     /// The stand-in program in `fixtures/eval/stub_mcp.py`.
     pub(crate) fn stub_program() -> PathBuf {

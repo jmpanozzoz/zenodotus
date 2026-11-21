@@ -50,6 +50,9 @@ and versions follow [Semantic Versioning](https://semver.org/).
   (a start page one segment deep is under Changed); a prefix that ends in `/` also covers its bare path (`/docs/`
   covers `/docs`), to which servers often redirect it. Stored pages outside the new scope are deleted on the next sync.
 - A scored term of a field that the metadata documents share no longer aborts the search.
+- `zenodotus-eval compare` reports Grounded Docs as not run when the sources lie under a folder it skips by default
+  (`target`, the default location, among them), instead of scoring an empty index; a relative `--sources` path is
+  given to it as an absolute `file://` URL.
 - The HTTP transport refuses a request whose `Origin` is not in `allowed_origins`, also when the list is empty; before,
   an empty list let every origin through.
 - The error of a redirect to a host the source may not reach names the redirect's target once, and names the
