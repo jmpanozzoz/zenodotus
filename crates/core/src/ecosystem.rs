@@ -17,7 +17,7 @@ pub enum Ecosystem {
     Pypi,
     /// Maven Central.
     Maven,
-    /// NuGet.
+    /// The .NET package gallery, nuget.org.
     Nuget,
     /// Go modules.
     Go,
@@ -25,7 +25,7 @@ pub enum Ecosystem {
     Crates,
     /// Packagist.
     Packagist,
-    /// RubyGems.
+    /// The Ruby gem host, rubygems.org.
     Rubygems,
     /// pub.dev.
     Pub,
