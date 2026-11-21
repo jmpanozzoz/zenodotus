@@ -24,8 +24,6 @@ and versions follow [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
-- `query_docs` fills `max_chars` in rank order: a section that does not fit is skipped and later ones that still fit
-  are kept, instead of cutting the list at the tail.
 - A GitHub `reference` that is a full commit id is used without asking the API, so pinned sources sync
   under the API's unauthenticated rate limit.
 - The default `symbol_weight` is 4 instead of 5 (improvement-loop iteration 12, MRR@10 +0.8% on the dev set). An

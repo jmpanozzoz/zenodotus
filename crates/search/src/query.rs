@@ -382,19 +382,12 @@ fn cost(hit: &Hit) -> usize {
         + section.source_ref.chars().count()
 }
 
-/// Keeps hits in rank order while they fit in `max_chars`, skipping any that does not; the first is always kept.
+/// Drops hits from the tail until the rest costs at most `max_chars`, keeping at least one.
 fn fit_budget(hits: &mut Vec<Hit>, max_chars: usize) {
-    let mut total = 0;
-    let mut first = true;
-    hits.retain(|hit| {
-        let cost = cost(hit);
-        let keep = first || total + cost <= max_chars;
-        first = false;
-        if keep {
-            total += cost;
-        }
-        keep
-    });
+    let mut total: usize = hits.iter().map(cost).sum();
+    while hits.len() > 1 && total > max_chars {
+        total -= hits.pop().as_ref().map_or(0, cost);
+    }
 }
 
 /// The words of a section's title, headings, text and symbols.
@@ -1179,21 +1172,17 @@ mod tests {
     }
 
     #[test]
-    fn the_budget_keeps_whole_hits_in_rank_order_while_they_fit() {
-        let fitted = |costs: &[usize], max_chars| {
-            let mut hits: Vec<Hit> = costs.iter().map(|&chars| hit_costing(chars)).collect();
+    fn the_budget_drops_whole_hits_from_the_tail() {
+        let fitted = |max_chars| {
+            let mut hits: Vec<Hit> = (0..4).map(|_| hit_costing(10)).collect();
             fit_budget(&mut hits, max_chars);
-            hits.iter().map(|hit| hit.section.text.len()).collect::<Vec<_>>()
+            hits.len()
         };
-        assert_eq!(fitted(&[10, 10, 10, 10], 20), [10, 10]);
-        assert_eq!(fitted(&[10, 10, 10, 10], 25), [10, 10]);
-        assert_eq!(fitted(&[10, 10, 10, 10], 40), [10, 10, 10, 10]);
-        assert_eq!(fitted(&[10, 10, 10, 10], 39), [10, 10, 10]);
-        assert_eq!(fitted(&[10, 10], 0), [10]);
-        assert_eq!(fitted(&[30, 10], 20), [30]);
-        // A hit that does not fit is skipped, and the later ones that still fit are kept.
-        assert_eq!(fitted(&[10, 30, 5, 4, 2], 20), [10, 5, 4]);
-        assert_eq!(fitted(&[10, 30, 5, 4, 1], 20), [10, 5, 4, 1]);
+        assert_eq!(fitted(20), 2);
+        assert_eq!(fitted(25), 2);
+        assert_eq!(fitted(40), 4);
+        assert_eq!(fitted(39), 3);
+        assert_eq!(fitted(0), 1);
     }
 
     #[test]
