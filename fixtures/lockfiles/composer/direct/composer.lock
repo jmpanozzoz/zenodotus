@@ -1,0 +1,10 @@
+{
+    "_readme": ["Hand-written sample of a composer.lock."],
+    "packages": [
+        { "name": "monolog/monolog", "version": "3.6.0" },
+        { "name": "psr/log", "version": "3.0.0" }
+    ],
+    "packages-dev": [
+        { "name": "phpunit/phpunit", "version": "11.2.5" }
+    ]
+}

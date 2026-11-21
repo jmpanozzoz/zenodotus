@@ -154,4 +154,13 @@ mod tests {
             "{error:?}"
         );
     }
+
+    #[test]
+    fn every_pipfile_lock_entry_is_direct() {
+        let root = crate::testing::root_with(&[(
+            "Pipfile.lock",
+            include_str!("../../../../fixtures/lockfiles/pipfile/Pipfile.lock"),
+        )]);
+        crate::testing::assert_all_direct(root.path());
+    }
 }

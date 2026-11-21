@@ -110,4 +110,13 @@ mod tests {
             "{error:?}"
         );
     }
+
+    #[test]
+    fn every_package_resolved_pin_is_direct() {
+        let root = crate::testing::root_with(&[(
+            "Package.resolved",
+            include_str!("../../../../fixtures/lockfiles/swift/Package.resolved"),
+        )]);
+        crate::testing::assert_all_direct(root.path());
+    }
 }

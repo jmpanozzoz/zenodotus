@@ -11,7 +11,7 @@ use std::time::{Duration, Instant, SystemTime};
 
 use zenodotus_core::Ecosystem;
 
-use crate::diagnostics::Diagnostic;
+use crate::diagnostics::{Diagnostic, DiagnosticKind};
 use crate::error::LockfileError;
 use crate::formats::manifests::{self, Manifest};
 use crate::formats::{
@@ -20,11 +20,11 @@ use crate::formats::{
     poetry_lock, pom, pubspec_lock, requirements, sln, uv_lock, yarn_lock,
 };
 use crate::members::{self, MAX_MEMBERS};
-use crate::private::resolve;
+use crate::private::{canonical_name, resolve};
 use crate::read::{Files, HEAD_LIMIT, limit_for};
 use crate::roots::{has_extension, is_requirements};
 use crate::runtime::{self, Requested, Runtime};
-use crate::{Dependency, Entry, Options};
+use crate::{Dependency, Entry, Options, Source};
 
 /// What one project root holds.
 #[derive(Debug, Clone, PartialEq, Eq)]
@@ -73,6 +73,41 @@ enum Format {
     GemfileLock,
     PubspecLock,
     PackageResolved,
+}
+
+impl Format {
+    /// Where the format's `direct` flags come from (design §8.4, plan §3.6).
+    const fn direct(self) -> DirectFrom {
+        match self {
+            Self::GoMod | Self::GemfileLock | Self::PubspecLock => DirectFrom::Marker,
+            Self::Npm
+            | Self::Pnpm
+            | Self::Yarn
+            | Self::Bun
+            | Self::Uv
+            | Self::Poetry
+            | Self::Pdm
+            | Self::CargoLock
+            | Self::ComposerLock => DirectFrom::Manifests,
+            Self::Pipfile
+            | Self::GradleLockfile
+            | Self::GradleCatalog
+            | Self::GradleBuild
+            | Self::Pom
+            | Self::PackageResolved => DirectFrom::Every,
+        }
+    }
+}
+
+/// Where a file's `direct` flags come from (design §8.4).
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+enum DirectFrom {
+    /// The file's own marker, already on each entry.
+    Marker,
+    /// The names the manifests of the root and of every member declare.
+    Manifests,
+    /// Every entry is direct: the file only declares, or has neither a marker nor a manifest.
+    Every,
 }
 
 /// One row of the precedence table (design §8.4).
@@ -125,7 +160,8 @@ const GROUPS: [Group; 10] = [
 
 type ManifestReader = fn(&str, &Path) -> Result<Manifest, LockfileError>;
 
-/// The manifests, read for their declared names when their ecosystem has no lockfile in the root.
+/// The manifests of the root and of each member, always read for their declared names; their entries are used only
+/// when their ecosystem has no lockfile in the root (design §8.4).
 const MANIFESTS: [(&str, Ecosystem, ManifestReader); 6] = [
     ("package.json", Ecosystem::Npm, manifests::package_json),
     ("pyproject.toml", Ecosystem::Pypi, manifests::pyproject),
@@ -253,7 +289,14 @@ struct Reader<'a> {
     texts: HashMap<PathBuf, Option<Rc<str>>>,
     read: Vec<PathBuf>,
     dependencies: Vec<Dependency>,
-    seen: HashSet<(Ecosystem, String)>,
+    /// The position in `dependencies` of each canonical ID.
+    index: HashMap<(Ecosystem, String), usize>,
+    /// The names the manifests declare, canonical in their ecosystem.
+    declared: HashSet<(Ecosystem, String)>,
+    /// The dependencies whose `direct` the declared names decide, with the name their entry had.
+    pending: Vec<(usize, (Ecosystem, String))>,
+    /// The registry names a file showed private; no other file may add them (design §8.5).
+    private: HashSet<(Ecosystem, String)>,
     diagnostics: Vec<Diagnostic>,
     /// Whether the file limit was already reported; it is reported once.
     file_limit: bool,
@@ -274,7 +317,10 @@ impl<'a> Reader<'a> {
             texts: HashMap::new(),
             read: Vec::new(),
             dependencies: Vec::new(),
-            seen: HashSet::new(),
+            index: HashMap::new(),
+            declared: HashSet::new(),
+            pending: Vec::new(),
+            private: HashSet::new(),
             diagnostics: Vec::new(),
             file_limit: false,
             projects: Vec::new(),
@@ -358,18 +404,52 @@ impl<'a> Reader<'a> {
         parse(&text, path).map_err(|error| self.error(error)).ok()
     }
 
-    /// Each entry resolved: a dependency not seen yet is kept, a git or private one becomes a diagnostic.
-    fn add(&mut self, entries: Vec<Entry>, file: &Path) {
+    /// Each entry resolved: a dependency not seen yet is kept, a git or private one becomes a diagnostic. A
+    /// dependency is direct when any file that names it marks it direct; under [`DirectFrom::Manifests`] that is
+    /// decided by [`Reader::mark_declared`], once every manifest is read.
+    fn add(&mut self, entries: Vec<Entry>, file: &Path, from: DirectFrom) {
         for entry in entries {
             match resolve(&entry, file, self.options) {
                 Ok(dependency) => {
-                    if self.seen.insert((dependency.ecosystem, dependency.name.clone())) {
+                    let direct = from == DirectFrom::Every || dependency.direct;
+                    let key = (dependency.ecosystem, dependency.name.clone());
+                    let next = self.dependencies.len();
+                    let index = *self.index.entry(key).or_insert(next);
+                    if index == next {
                         self.dependencies.push(dependency);
                     }
+                    self.dependencies[index].direct |= direct;
+                    if from == DirectFrom::Manifests {
+                        let name = canonical_name(entry.ecosystem, &entry.name);
+                        self.pending.push((index, (entry.ecosystem, name)));
+                    }
                 }
-                Err(diagnostic) => self.diagnose(diagnostic),
+                Err(diagnostic) => {
+                    let registry = !matches!(entry.source, Source::Git { .. });
+                    if registry && diagnostic.kind == DiagnosticKind::PrivateDependency {
+                        let name = canonical_name(entry.ecosystem, &entry.name);
+                        self.private.insert((entry.ecosystem, name));
+                    }
+                    self.diagnose(diagnostic);
+                }
             }
         }
+    }
+
+    /// Marks direct each dependency whose entry's name a manifest declares.
+    fn mark_declared(&mut self) {
+        for (index, name) in &self.pending {
+            if self.declared.contains(name) {
+                self.dependencies[*index].direct = true;
+            }
+        }
+    }
+
+    /// Drops every dependency whose name a file showed private, whichever file was read first.
+    fn drop_private(&mut self) {
+        let private = &self.private;
+        self.dependencies
+            .retain(|dependency| !private.contains(&(dependency.ecosystem, dependency.name.clone())));
     }
 
     /// The member directories of every member list in the root, in list order, at most [`MAX_MEMBERS`].
@@ -439,7 +519,7 @@ impl<'a> Reader<'a> {
         if let Some((path, format)) = first {
             if let Some(text) = self.text(&path) {
                 match lockfile(format, &text, &path) {
-                    Ok(entries) => self.add(entries, &path),
+                    Ok(entries) => self.add(entries, &path, format.direct()),
                     Err(error) => self.error(error),
                 }
             }
@@ -473,7 +553,7 @@ impl<'a> Reader<'a> {
             return;
         };
         let parsed = requirements::parse(&text);
-        self.add(parsed.entries, path);
+        self.add(parsed.entries, path, DirectFrom::Every);
         let base = path.parent().unwrap_or(Path::new(""));
         for include in parsed.includes {
             match members::normalize(&base.join(&include.path)) {
@@ -526,17 +606,17 @@ impl<'a> Reader<'a> {
         let props = PathBuf::from("Directory.Packages.props");
         for project in self.projects.clone() {
             let lock = project.parent().unwrap_or(Path::new("")).join("packages.lock.json");
-            let (file, entries) = if self.present(&lock) {
+            let (file, entries, from) = if self.present(&lock) {
                 let entries = self.parsed(&lock, nuget_lock::parse);
-                (lock, entries)
+                (lock, entries, DirectFrom::Marker)
             } else if self.present(&props) {
                 let entries = self.parsed(&props, directory_packages::parse);
-                (props.clone(), entries)
+                (props.clone(), entries, DirectFrom::Every)
             } else {
                 let entries = self.parsed(&project, csproj::parse).map(|project| project.entries);
-                (project, entries)
+                (project, entries, DirectFrom::Every)
             };
-            self.add(entries.unwrap_or_default(), &file);
+            self.add(entries.unwrap_or_default(), &file, from);
         }
     }
 
@@ -608,8 +688,9 @@ fn lockfile(format: Format, text: &str, file: &Path) -> Result<Vec<Entry>, Lockf
 }
 
 /// Reads the project at `root` (design §8.2 to §8.6): its lockfiles in precedence order, its members' lockfiles for
-/// the ecosystems the root does not lock, its manifests for the ecosystems with no lockfile in the root, and its
-/// runtime version files. Nothing fails: every problem is a diagnostic.
+/// the ecosystems the root does not lock, the manifests of the root and its members, whose entries count only for
+/// the ecosystems with no lockfile in the root, and its runtime version files. Files are read in that order, so the
+/// file limit always cuts the same files. Nothing fails: every problem is a diagnostic.
 #[must_use]
 pub fn read_project(root: &Path, options: &Options) -> Project {
     read(root, options).0
@@ -636,15 +717,22 @@ fn read(root: &Path, options: &Options) -> (Project, Vec<PathBuf>) {
     }
     for dir in std::iter::once(Path::new("")).chain(members.iter().map(PathBuf::as_path)) {
         for (name, ecosystem, read) in MANIFESTS {
-            if locked.contains(&ecosystem) {
-                continue;
-            }
             let path = dir.join(name);
-            if let Some(manifest) = reader.parsed(&path, read) {
-                reader.add(manifest.entries, &path);
+            let Some(manifest) = reader.parsed(&path, read) else {
+                continue;
+            };
+            let names = manifest
+                .names
+                .iter()
+                .map(|name| (ecosystem, canonical_name(ecosystem, name)));
+            reader.declared.extend(names);
+            if !locked.contains(&ecosystem) {
+                reader.add(manifest.entries, &path, DirectFrom::Every);
             }
         }
     }
+    reader.mark_declared();
+    reader.drop_private();
     let runtimes = reader.runtimes();
     let project = Project {
         root: root.to_path_buf(),
@@ -1389,6 +1477,176 @@ mod tests {
                 ("package.json".to_owned(), Some(Cause::PathEscapesRoot)),
                 ("go.mod".to_owned(), Some(Cause::NotRegularFile)),
                 ("Cargo.lock".to_owned(), Some(Cause::Parse)),
+            ]
+        );
+    }
+
+    #[test]
+    fn manifests_are_read_with_a_lockfile_for_their_names_only_in_a_fixed_order() {
+        let dir = project(&[
+            (
+                "package.json",
+                r#"{"workspaces": ["app"], "devDependencies": {"typescript": "^5"}}"#,
+            ),
+            ("package-lock.json", &lock(&[("react", "18.2.0")])),
+            ("app/package.json", r#"{"dependencies": {"react": "^18"}}"#),
+            (
+                "uv.lock",
+                "version = 1\n[[package]]\nname = \"requests\"\nversion = \"2.32.3\"\n",
+            ),
+            (
+                "pyproject.toml",
+                "[project]\ndependencies = [\"requests\", \"declared-only\"]\n",
+            ),
+            ("Cargo.toml", "[dependencies]\nserde = \"1\"\n"),
+            (
+                "Cargo.lock",
+                "version = 4\n[[package]]\nname = \"serde\"\nversion = \"1.0.203\"\n\
+                 source = \"registry+https://github.com/rust-lang/crates.io-index\"\n",
+            ),
+            (
+                "composer.lock",
+                r#"{"packages": [{"name": "monolog/monolog", "version": "3.6.0"}]}"#,
+            ),
+            ("composer.json", r#"{"require": {"monolog/monolog": "^3"}}"#),
+            (
+                "Gemfile.lock",
+                "GEM\n  remote: https://rubygems.org/\n  specs:\n    rack (3.1.3)\n\nDEPENDENCIES\n  rack\n",
+            ),
+            (
+                "Gemfile",
+                "source \"https://rubygems.org\"\ngem \"rack\"\ngem \"rails\"\n",
+            ),
+        ]);
+        let project = read_project(dir.path(), &Options::default());
+        assert_eq!(
+            ids(&project),
+            [
+                "npm:react@18.2.0",
+                "pypi:requests@2.32.3",
+                "crates:serde@1.0.203",
+                "packagist:monolog/monolog@3.6.0",
+                "rubygems:rack@3.1.3"
+            ]
+        );
+        let files: Vec<String> = project.files.iter().map(|file| file.display().to_string()).collect();
+        assert_eq!(
+            files,
+            [
+                "package.json",
+                "Cargo.toml",
+                "package-lock.json",
+                "uv.lock",
+                "Cargo.lock",
+                "composer.lock",
+                "Gemfile.lock",
+                "pyproject.toml",
+                "composer.json",
+                "Gemfile",
+                "app/package.json",
+            ]
+        );
+    }
+
+    #[test]
+    fn npm_aliases_and_git_dependencies_are_direct_by_their_declared_names() {
+        let dir = project(&[
+            (
+                "package.json",
+                r#"{"dependencies": {"my-react": "npm:react@^18", "widget": "github:acme/widget"}}"#,
+            ),
+            (
+                "package-lock.json",
+                &format!(
+                    "{{\"lockfileVersion\": 3, \"packages\": {{\
+                     \"node_modules/my-react\": {{\"name\": \"react\", \"version\": \"18.3.1\"}},\
+                     \"node_modules/scheduler\": {{\"version\": \"0.23.2\"}},\
+                     \"node_modules/widget\": {{\"version\": \"0.4.0\", \"resolved\": \"git+ssh://git@github.com/acme/widget.git#{WIDGET}\"}}}}}}"
+                ),
+            ),
+        ]);
+        let project = read_project(dir.path(), &Options::default());
+        let flags: Vec<(String, bool)> = project
+            .dependencies
+            .iter()
+            .map(|dependency| (dependency.canonical_id(), dependency.direct))
+            .collect();
+        assert_eq!(
+            flags,
+            [
+                ("npm:react".to_owned(), true),
+                ("npm:scheduler".to_owned(), false),
+                ("github:acme/widget".to_owned(), true),
+            ]
+        );
+    }
+
+    #[test]
+    fn a_name_a_lockfile_shows_private_is_never_kept_from_another_file() {
+        let private = |name: &str| {
+            format!(
+                "{{\"lockfileVersion\": 3, \"packages\": {{\"node_modules/{name}\": {{\"version\": \"1.0.0\", \
+                 \"resolved\": \"https://npm.acme.dev/{name}/-/x-1.0.0.tgz\"}}}}}}"
+            )
+        };
+        let dir = project(&[
+            ("package.json", r#"{"workspaces": ["a", "b", "c"]}"#),
+            ("a/package.json", r#"{"dependencies": {"@acme/secret": "^1"}}"#),
+            ("a/package-lock.json", &private("@acme/secret")),
+            (
+                "b/package-lock.json",
+                &lock(&[("left-pad", "1.3.0"), ("react", "18.2.0")]),
+            ),
+            ("c/package-lock.json", &private("left-pad")),
+        ]);
+        let project = read_project(dir.path(), &Options::default());
+        assert_eq!(ids(&project), ["npm:react@18.2.0"]);
+        let private = DiagnosticKind::PrivateDependency;
+        assert_eq!(
+            kinds(&project),
+            [
+                (
+                    "a/package-lock.json".to_owned(),
+                    private,
+                    Some("@acme/secret".to_owned())
+                ),
+                ("c/package-lock.json".to_owned(), private, Some("left-pad".to_owned())),
+            ]
+        );
+    }
+
+    #[test]
+    fn a_package_direct_in_any_project_is_direct_at_the_first_project_s_version() {
+        let lock = |packages: &[(&str, &str, &str)]| {
+            let entries: Vec<String> = packages
+                .iter()
+                .map(|(id, kind, version)| format!("\"{id}\": {{\"type\": \"{kind}\", \"resolved\": \"{version}\"}}"))
+                .collect();
+            format!(
+                "{{\"version\": 1, \"dependencies\": {{\"net8.0\": {{{}}}}}}}",
+                entries.join(",")
+            )
+        };
+        let sln = "Project(\"{X}\") = \"Lib\", \"Lib\\Lib.csproj\", \"{1}\"\nEndProject\n\
+                   Project(\"{X}\") = \"App\", \"App\\App.csproj\", \"{2}\"\nEndProject\n";
+        let dir = project(&[
+            ("Demo.sln", sln),
+            ("Lib/Lib.csproj", "<Project/>"),
+            (
+                "Lib/packages.lock.json",
+                &lock(&[("Polly", "Direct", "8.4.0"), ("Serilog", "Transitive", "3.1.1")]),
+            ),
+            ("App/App.csproj", "<Project/>"),
+            (
+                "App/packages.lock.json",
+                &lock(&[("Polly", "Transitive", "8.0.0"), ("Serilog", "Direct", "4.0.0")]),
+            ),
+        ]);
+        assert_eq!(
+            crate::testing::direct_flags(dir.path()),
+            [
+                ("nuget:polly@8.4.0".to_owned(), true),
+                ("nuget:serilog@3.1.1".to_owned(), true)
             ]
         );
     }

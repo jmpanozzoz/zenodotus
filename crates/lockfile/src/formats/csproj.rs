@@ -74,4 +74,13 @@ mod tests {
             "{error:?}"
         );
     }
+
+    #[test]
+    fn every_package_reference_is_direct() {
+        let root = crate::testing::root_with(&[(
+            "App.csproj",
+            include_str!("../../../../fixtures/lockfiles/nuget/src/App/App.csproj"),
+        )]);
+        crate::testing::assert_all_direct(root.path());
+    }
 }

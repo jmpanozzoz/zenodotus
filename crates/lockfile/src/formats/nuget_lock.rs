@@ -23,7 +23,8 @@ struct Package {
     resolved: Option<String>,
 }
 
-/// Every package of every target framework, frameworks and ids in ordinal order.
+/// Every package of every target framework, frameworks and ids in ordinal order; `"type": "Direct"` marks the
+/// direct ones.
 pub(crate) fn parse(text: &str, file: &Path) -> Result<Vec<Entry>, LockfileError> {
     let lockfile: Lockfile = json(text, file)?;
     Ok(lockfile
@@ -31,7 +32,10 @@ pub(crate) fn parse(text: &str, file: &Path) -> Result<Vec<Entry>, LockfileError
         .values()
         .flatten()
         .filter(|(_, package)| package.kind.as_deref() != Some("Project"))
-        .map(|(id, package)| Entry::registry(Ecosystem::Nuget, id, package.resolved.as_deref()))
+        .map(|(id, package)| {
+            Entry::registry(Ecosystem::Nuget, id, package.resolved.as_deref())
+                .with_direct(package.kind.as_deref() == Some("Direct"))
+        })
         .collect())
 }
 
@@ -50,9 +54,9 @@ mod tests {
         assert_eq!(
             parse(SAMPLE, Path::new("packages.lock.json")).unwrap(),
             [
-                nuget("Newtonsoft.Json", "13.0.3"),
+                nuget("Newtonsoft.Json", "13.0.3").with_direct(true),
                 nuget("Serilog", "3.1.1"),
-                nuget("Newtonsoft.Json", "13.0.3"),
+                nuget("Newtonsoft.Json", "13.0.3").with_direct(true),
                 nuget("System.Text.Json", "9.0.0"),
             ]
         );
@@ -68,6 +72,25 @@ mod tests {
         assert!(
             matches!(error, Some(LockfileError::Parse { line: Some(3), .. })),
             "{error:?}"
+        );
+    }
+
+    #[test]
+    fn only_packages_of_type_direct_are_direct() {
+        let root = crate::testing::root_with(&[
+            ("App.csproj", "<Project/>"),
+            (
+                "packages.lock.json",
+                include_str!("../../../../fixtures/lockfiles/nuget/packages.lock.json"),
+            ),
+        ]);
+        assert_eq!(
+            crate::testing::direct_flags(root.path()),
+            [
+                ("nuget:newtonsoft.json@13.0.3".to_owned(), true),
+                ("nuget:serilog@3.1.1".to_owned(), false),
+                ("nuget:system.text.json@9.0.0".to_owned(), false),
+            ]
         );
     }
 }

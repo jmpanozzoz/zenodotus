@@ -39,8 +39,8 @@ pub(crate) fn pnpm_workspace(text: &str, file: &Path) -> Result<Vec<String>, Loc
 pub(crate) fn go_work(text: &str) -> Vec<String> {
     directives(text)
         .into_iter()
-        .filter(|(verb, _)| *verb == "use")
-        .flat_map(|(_, arguments)| arguments)
+        .filter(|directive| directive.verb == "use")
+        .flat_map(|directive| directive.arguments)
         .map(str::to_owned)
         .collect()
 }

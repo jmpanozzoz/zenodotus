@@ -20,6 +20,9 @@ struct Lockfile {
 
 #[derive(Deserialize)]
 struct Package {
+    /// `direct main`, `direct dev`, `direct overridden` or `transitive`.
+    #[serde(default)]
+    dependency: String,
     source: String,
     description: Description,
     version: Option<String>,
@@ -36,7 +39,7 @@ enum Description {
     Plain(serde::de::IgnoredAny),
 }
 
-/// Every hosted and git package; path and SDK packages are not from pub.dev.
+/// Every hosted and git package, direct when its `dependency` says so; path and SDK packages are not from pub.dev.
 pub(crate) fn parse(text: &str, file: &Path) -> Result<Vec<Entry>, LockfileError> {
     let lockfile: Lockfile = yaml(text, file)?;
     Ok(lockfile
@@ -55,7 +58,8 @@ pub(crate) fn parse(text: &str, file: &Path) -> Result<Vec<Entry>, LockfileError
                 },
                 _ => return None,
             };
-            Some(Entry::from_source(Ecosystem::Pub, name, package.version, source))
+            let entry = Entry::from_source(Ecosystem::Pub, name, package.version, source);
+            Some(entry.with_direct(package.dependency.starts_with("direct ")))
         })
         .collect())
 }
@@ -79,7 +83,7 @@ mod tests {
                     source: Source::Private {
                         url: "https://pub.acme.dev".to_owned()
                     },
-                    ..package("acme_internal", "2.0.0")
+                    ..package("acme_internal", "2.0.0").with_direct(true)
                 },
                 package("collection", "1.18.0"),
                 Entry::git(
@@ -87,14 +91,16 @@ mod tests {
                     "glab_lib",
                     "https://gitlab.com/acme/glab_lib.git",
                     "89abcdef0123456789abcdef0123456789abcdef"
-                ),
-                package("http", "1.2.1"),
+                )
+                .with_direct(true),
+                package("http", "1.2.1").with_direct(true),
                 Entry::git(
                     Ecosystem::Pub,
                     "widget",
                     "https://github.com/acme/widget.git",
                     "0123456789abcdef0123456789abcdef01234567"
-                ),
+                )
+                .with_direct(true),
             ]
         );
     }
@@ -115,5 +121,27 @@ mod tests {
             matches!(error, Some(LockfileError::Parse { line: Some(3), .. })),
             "{error:?}"
         );
+    }
+
+    #[test]
+    fn direct_main_dev_and_overridden_packages_are_direct() {
+        let root = crate::testing::root_with(&[(
+            "pubspec.lock",
+            include_str!("../../../../fixtures/lockfiles/pubspec/pubspec.lock"),
+        )]);
+        assert_eq!(
+            crate::testing::direct_flags(root.path()),
+            [
+                ("pub:collection@1.18.0".to_owned(), false),
+                ("pub:http@1.2.1".to_owned(), true),
+                (
+                    "github:acme/widget@0123456789abcdef0123456789abcdef01234567".to_owned(),
+                    true
+                ),
+            ]
+        );
+        let overridden = "packages:\n  meta:\n    dependency: \"direct overridden\"\n    description: {name: meta, url: \"https://pub.dev\"}\n    source: hosted\n    version: \"1.15.0\"\n";
+        let entries = parse(overridden, Path::new("pubspec.lock")).unwrap();
+        assert!(entries[0].direct, "{entries:?}");
     }
 }

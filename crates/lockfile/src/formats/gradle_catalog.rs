@@ -148,4 +148,13 @@ mod tests {
             "{error:?}"
         );
     }
+
+    #[test]
+    fn every_catalog_library_is_direct() {
+        let root = crate::testing::root_with(&[(
+            "gradle/libs.versions.toml",
+            include_str!("../../../../fixtures/lockfiles/gradle/gradle/libs.versions.toml"),
+        )]);
+        crate::testing::assert_all_direct(root.path());
+    }
 }

@@ -1,0 +1,8 @@
+[package]
+name = "app"
+version = "0.1.0"
+
+[dependencies]
+anyhow = { workspace = true }
+json = { package = "serde_json", version = "1" }
+widget = { git = "https://github.com/acme/widget", rev = "0123456789abcdef0123456789abcdef01234567" }

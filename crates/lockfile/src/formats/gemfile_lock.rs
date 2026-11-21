@@ -9,7 +9,7 @@ use crate::{Entry, Source};
 /// What a `Gemfile.lock` records.
 #[derive(Debug, Default)]
 pub(crate) struct GemfileLock {
-    /// Every locked gem from a `GEM` or `GIT` section, in file order.
+    /// Every locked gem from a `GEM` or `GIT` section, in file order, direct when `DEPENDENCIES` names it.
     pub(crate) entries: Vec<Entry>,
     /// The `x.y.z` of the `RUBY VERSION` section, for MRI.
     pub(crate) ruby: Option<String>,
@@ -40,10 +40,11 @@ impl Section<'_> {
     }
 }
 
-/// The gems and the Ruby version of a `Gemfile.lock`.
+/// The gems and the Ruby version of a `Gemfile.lock`; the gems its `DEPENDENCIES` section names are direct.
 pub(crate) fn parse(text: &str) -> GemfileLock {
     let mut lock = GemfileLock::default();
     let mut section = Section::default();
+    let mut declared: Vec<&str> = Vec::new();
     for line in text.lines() {
         if !line.starts_with(' ') {
             section = Section {
@@ -62,6 +63,10 @@ pub(crate) fn parse(text: &str) -> GemfileLock {
                 version[..end].to_owned()
             });
             lock.ruby = version;
+        } else if section.name == "DEPENDENCIES" {
+            // `  name`, `  name!` (from a GIT or PATH section) or `  name (requirement)`.
+            let name = line.split_whitespace().next().unwrap_or_default();
+            declared.push(name.trim_end_matches('!'));
         } else if let Some(spec) = line.strip_prefix("    ").filter(|spec| !spec.starts_with(' ')) {
             let Some((name, version)) = spec.split_once(" (") else {
                 continue;
@@ -77,6 +82,9 @@ pub(crate) fn parse(text: &str) -> GemfileLock {
                 ));
             }
         }
+    }
+    for entry in &mut lock.entries {
+        entry.direct = declared.contains(&entry.name.as_str());
     }
     lock
 }
@@ -101,21 +109,22 @@ mod tests {
                     "widget",
                     "https://github.com/acme/widget.git",
                     "0123456789abcdef0123456789abcdef01234567"
-                ),
+                )
+                .with_direct(true),
                 Entry::git(
                     Ecosystem::Rubygems,
                     "glab-lib",
                     "https://gitlab.com/acme/glab-lib.git",
                     "89abcdef0123456789abcdef0123456789abcdef"
                 ),
-                gem("nokogiri", "1.16.6"),
+                gem("nokogiri", "1.16.6").with_direct(true),
                 gem("racc", "1.8.0"),
-                gem("rack", "3.1.3"),
+                gem("rack", "3.1.3").with_direct(true),
                 Entry {
                     source: Source::Private {
                         url: "https://gems.acme.dev/".to_owned()
                     },
-                    ..gem("acme-internal", "2.0.0")
+                    ..gem("acme-internal", "2.0.0").with_direct(true)
                 },
             ]
         );
@@ -127,5 +136,25 @@ mod tests {
         let lock = parse("    stray (1.0)\nGEM\n  specs:\n    bare\n    ok (1.0)\nRUBY VERSION\n   jruby 9.4\n");
         assert_eq!(lock.entries, [Entry::registry(Ecosystem::Rubygems, "ok", Some("1.0"))]);
         assert_eq!(lock.ruby, None);
+    }
+
+    #[test]
+    fn the_dependencies_section_marks_the_direct_gems() {
+        let root = crate::testing::root_with(&[(
+            "Gemfile.lock",
+            include_str!("../../../../fixtures/lockfiles/gemfile/Gemfile.lock"),
+        )]);
+        assert_eq!(
+            crate::testing::direct_flags(root.path()),
+            [
+                (
+                    "github:acme/widget@0123456789abcdef0123456789abcdef01234567".to_owned(),
+                    true
+                ),
+                ("rubygems:nokogiri@1.16.6".to_owned(), true),
+                ("rubygems:racc@1.8.0".to_owned(), false),
+                ("rubygems:rack@3.1.3".to_owned(), true),
+            ]
+        );
     }
 }

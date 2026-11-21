@@ -41,6 +41,7 @@ fn entry(package: &[Value]) -> Option<Entry> {
             name: name.to_owned(),
             version: None,
             source,
+            direct: false,
         });
     }
     let registry = package.get(1).and_then(Value::as_str).unwrap_or_default();
@@ -54,6 +55,7 @@ fn entry(package: &[Value]) -> Option<Entry> {
         name: name.to_owned(),
         version: Some(version.to_owned()),
         source,
+        direct: false,
     })
 }
 
@@ -174,6 +176,20 @@ mod tests {
         assert!(
             matches!(error, Some(LockfileError::Parse { line: Some(3), .. })),
             "{error:?}"
+        );
+    }
+
+    #[test]
+    fn a_member_dependency_is_direct_and_a_transitive_one_is_not() {
+        let root = crate::testing::fixture_root("bun/direct");
+        assert_eq!(
+            crate::testing::direct_flags(root.path()),
+            [
+                ("npm:js-tokens@4.0.0".to_owned(), false),
+                ("npm:loose-envify@1.4.0".to_owned(), false),
+                ("npm:react@18.3.1".to_owned(), true),
+                ("npm:typescript@5.4.5".to_owned(), true),
+            ]
         );
     }
 }

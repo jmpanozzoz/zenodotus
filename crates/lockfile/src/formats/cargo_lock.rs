@@ -107,4 +107,21 @@ mod tests {
             "{error:?}"
         );
     }
+
+    #[test]
+    fn a_member_dependency_is_direct_and_a_transitive_one_is_not() {
+        let root = crate::testing::fixture_root("cargo/direct");
+        assert_eq!(
+            crate::testing::direct_flags(root.path()),
+            [
+                ("crates:anyhow@1.0.86".to_owned(), true),
+                ("crates:itoa@1.0.11".to_owned(), false),
+                ("crates:serde_json@1.0.117".to_owned(), true),
+                (
+                    "github:acme/widget@0123456789abcdef0123456789abcdef01234567".to_owned(),
+                    true
+                ),
+            ]
+        );
+    }
 }

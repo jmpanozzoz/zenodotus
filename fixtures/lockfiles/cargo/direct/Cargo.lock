@@ -1,0 +1,28 @@
+# Hand-written sample of a Cargo.lock (version 4).
+version = 4
+
+[[package]]
+name = "anyhow"
+version = "1.0.86"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "app"
+version = "0.1.0"
+dependencies = ["anyhow", "serde_json", "widget"]
+
+[[package]]
+name = "itoa"
+version = "1.0.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "serde_json"
+version = "1.0.117"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = ["itoa"]
+
+[[package]]
+name = "widget"
+version = "0.4.0"
+source = "git+https://github.com/acme/widget?rev=0123456789abcdef0123456789abcdef01234567#0123456789abcdef0123456789abcdef01234567"

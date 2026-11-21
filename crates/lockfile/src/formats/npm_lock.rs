@@ -86,6 +86,7 @@ fn entry(key: &str, package: &Package) -> Option<Entry> {
         name: name.to_owned(),
         version: package.version.clone(),
         source,
+        direct: false,
     })
 }
 
@@ -189,5 +190,24 @@ mod tests {
         for local in ["file:../x", "link:../x", "workspace:*", "packages/x"] {
             assert_eq!(npm_resolved(local), None, "{local}");
         }
+    }
+
+    #[test]
+    fn a_member_dependency_is_direct_and_a_transitive_one_is_not() {
+        let root = crate::testing::fixture_root("npm/direct");
+        let expected = [
+            ("npm:js-tokens@4.0.0".to_owned(), false),
+            ("npm:loose-envify@1.4.0".to_owned(), false),
+            ("npm:react@18.3.1".to_owned(), true),
+            ("npm:typescript@5.4.5".to_owned(), true),
+        ];
+        assert_eq!(crate::testing::direct_flags(root.path()), expected);
+        let lock = root.path().join("package-lock.json");
+        std::fs::rename(&lock, root.path().join("npm-shrinkwrap.json")).unwrap();
+        assert_eq!(
+            crate::testing::direct_flags(root.path()),
+            expected,
+            "npm-shrinkwrap.json"
+        );
     }
 }

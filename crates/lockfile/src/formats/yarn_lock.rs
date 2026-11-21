@@ -55,6 +55,7 @@ impl Block {
             name: name.to_owned(),
             version: self.version,
             source,
+            direct: false,
         })
     }
 }
@@ -126,6 +127,7 @@ fn berry_entry(entry: &BerryEntry) -> Option<Entry> {
         name: name.to_owned(),
         version: entry.version.clone(),
         source,
+        direct: false,
     })
 }
 
@@ -213,5 +215,29 @@ mod tests {
         assert_eq!(spec_name("plain"), None);
         assert_eq!(berry_commit("https://x/y.git#branch=main&commit=abc&x=1"), Some("abc"));
         assert_eq!(berry_commit("https://x/y.git#main"), None);
+    }
+
+    #[test]
+    fn a_member_dependency_is_direct_and_a_transitive_one_is_not() {
+        let root = crate::testing::fixture_root("yarn/direct");
+        assert_eq!(
+            crate::testing::direct_flags(root.path()),
+            [
+                ("npm:js-tokens@4.0.0".to_owned(), false),
+                ("npm:loose-envify@1.4.0".to_owned(), false),
+                ("npm:react@18.3.1".to_owned(), true),
+                ("npm:typescript@5.4.5".to_owned(), true),
+            ]
+        );
+        let berry = "__metadata:\n  version: 8\n\n\"app@workspace:packages/app\":\n  version: 0.0.0-use.local\n  resolution: \"app@workspace:packages/app\"\n\n\"loose-envify@npm:^1.1.0\":\n  version: 1.4.0\n  resolution: \"loose-envify@npm:1.4.0\"\n\n\"react@npm:^18.3.1\":\n  version: 18.3.1\n  resolution: \"react@npm:18.3.1\"\n";
+        std::fs::write(root.path().join("yarn.lock"), berry).unwrap();
+        assert_eq!(
+            crate::testing::direct_flags(root.path()),
+            [
+                ("npm:loose-envify@1.4.0".to_owned(), false),
+                ("npm:react@18.3.1".to_owned(), true),
+            ],
+            "Berry"
+        );
     }
 }

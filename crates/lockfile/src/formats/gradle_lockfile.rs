@@ -54,4 +54,13 @@ mod tests {
             ]
         );
     }
+
+    #[test]
+    fn every_gradle_lockfile_entry_is_direct() {
+        let root = crate::testing::root_with(&[(
+            "gradle.lockfile",
+            include_str!("../../../../fixtures/lockfiles/gradle/gradle.lockfile"),
+        )]);
+        crate::testing::assert_all_direct(root.path());
+    }
 }

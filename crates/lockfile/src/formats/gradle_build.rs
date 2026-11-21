@@ -74,4 +74,13 @@ mod tests {
     fn an_unterminated_string_is_ignored() {
         assert_eq!(parse("implementation 'a:b:1.0").len(), 0);
     }
+
+    #[test]
+    fn every_build_gradle_dependency_is_direct() {
+        let root = crate::testing::root_with(&[(
+            "build.gradle",
+            include_str!("../../../../fixtures/lockfiles/gradle/build.gradle"),
+        )]);
+        crate::testing::assert_all_direct(root.path());
+    }
 }

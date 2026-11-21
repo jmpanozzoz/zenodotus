@@ -179,6 +179,7 @@ pub(crate) fn resolve(entry: &Entry, file: &Path, options: &Options) -> Result<D
         ecosystem,
         name,
         version,
+        direct: entry.direct,
     })
 }
 
@@ -213,6 +214,7 @@ mod tests {
             ecosystem,
             name: name.to_owned(),
             version: version.map(str::to_owned),
+            direct: false,
         }
     }
 

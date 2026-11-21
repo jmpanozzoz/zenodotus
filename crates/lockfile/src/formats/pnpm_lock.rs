@@ -1,4 +1,4 @@
-//! `pnpm-lock.yaml`, lockfile versions 6 to 9: the root importer's versions, then `packages["<name>@<version>"]`.
+//! `pnpm-lock.yaml`, lockfile versions 6 to 9: every importer's versions, then `packages["<name>@<version>"]`.
 
 use std::collections::BTreeMap;
 use std::path::Path;
@@ -58,7 +58,9 @@ struct Resolution {
     commit: Option<String>,
 }
 
-/// The root importer's packages (version 9's `importers["."]`, or version 6's top-level maps), then every package.
+/// The importers' packages, the root's first (version 9's `importers["."]`, or version 6's top-level maps), then
+/// each workspace member's in path order, then every package. A package an importer names is listed before the
+/// `packages` map's versions of it, so its version wins.
 pub(crate) fn parse(text: &str, file: &Path) -> Result<Vec<Entry>, LockfileError> {
     let mut lockfile: Lockfile = yaml(text, file)?;
     let root = lockfile.importers.remove(".").unwrap_or_else(|| Importer {
@@ -66,8 +68,15 @@ pub(crate) fn parse(text: &str, file: &Path) -> Result<Vec<Entry>, LockfileError
         dev_dependencies: std::mem::take(&mut lockfile.dev_dependencies),
         optional_dependencies: std::mem::take(&mut lockfile.optional_dependencies),
     });
-    let importer = [root.dependencies, root.dev_dependencies, root.optional_dependencies]
-        .into_iter()
+    let importer = std::iter::once(root)
+        .chain(lockfile.importers.into_values())
+        .flat_map(|importer| {
+            [
+                importer.dependencies,
+                importer.dev_dependencies,
+                importer.optional_dependencies,
+            ]
+        })
         .flatten()
         .filter_map(|(name, dependency)| importer_entry(&name, &dependency.version));
     let packages = lockfile
@@ -109,6 +118,7 @@ fn package_entry(key: &str, package: &Package) -> Option<Entry> {
         name: name.to_owned(),
         version: Some(package.version.as_deref().unwrap_or(key_version).to_owned()),
         source,
+        direct: false,
     })
 }
 
@@ -137,7 +147,7 @@ mod tests {
     }
 
     #[test]
-    fn version_9_reads_the_root_importer_then_the_packages() {
+    fn version_9_reads_every_importer_then_the_packages() {
         let text = include_str!("../../../../fixtures/lockfiles/pnpm/pnpm-lock.yaml");
         let entries = parse(text, Path::new("pnpm-lock.yaml")).unwrap();
         assert_eq!(
@@ -147,6 +157,7 @@ mod tests {
                 registry("react", "18.2.0"),
                 registry("styled", "6.1.0"),
                 registry("typescript", "5.4.5"),
+                registry("react", "17.0.2"),
                 with_source(
                     "@acme/secret",
                     "1.0.0",
@@ -204,5 +215,34 @@ mod tests {
             parse("packages: [\n", Path::new("pnpm-lock.yaml")),
             Err(LockfileError::Parse { line: Some(_), .. })
         ));
+    }
+
+    #[test]
+    fn every_importer_is_read_root_first_so_a_member_version_wins_over_the_packages_map() {
+        let text = "lockfileVersion: '9.0'\nimporters:\n  .:\n    devDependencies:\n      typescript: {specifier: ^5.4.5, version: 5.4.5}\n  packages/legacy:\n    dependencies:\n      react: {specifier: ^17.0.2, version: 17.0.2}\n  packages/app:\n    dependencies:\n      react: {specifier: ^18.3.1, version: 18.3.1}\npackages:\n  react@17.0.2: {resolution: {integrity: x}}\n  react@18.3.1: {resolution: {integrity: y}}\n";
+        assert_eq!(
+            parse(text, Path::new("pnpm-lock.yaml")).unwrap(),
+            [
+                registry("typescript", "5.4.5"),
+                registry("react", "18.3.1"),
+                registry("react", "17.0.2"),
+                registry("react", "17.0.2"),
+                registry("react", "18.3.1"),
+            ]
+        );
+    }
+
+    #[test]
+    fn a_member_dependency_is_direct_and_a_transitive_one_is_not() {
+        let root = crate::testing::fixture_root("pnpm/direct");
+        assert_eq!(
+            crate::testing::direct_flags(root.path()),
+            [
+                ("npm:typescript@5.4.5".to_owned(), true),
+                ("npm:react@18.3.1".to_owned(), true),
+                ("npm:js-tokens@4.0.0".to_owned(), false),
+                ("npm:loose-envify@1.4.0".to_owned(), false),
+            ]
+        );
     }
 }

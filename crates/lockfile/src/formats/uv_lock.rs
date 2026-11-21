@@ -109,4 +109,21 @@ mod tests {
             "{error:?}"
         );
     }
+
+    #[test]
+    fn a_declared_dependency_is_direct_and_a_transitive_one_is_not() {
+        let root = crate::testing::fixture_root("uv/direct");
+        assert_eq!(
+            crate::testing::direct_flags(root.path()),
+            [
+                ("pypi:pytest@8.2.2".to_owned(), true),
+                ("pypi:requests@2.32.3".to_owned(), true),
+                ("pypi:urllib3@2.2.2".to_owned(), false),
+                (
+                    "github:acme/widget@0123456789abcdef0123456789abcdef01234567".to_owned(),
+                    true
+                ),
+            ]
+        );
+    }
 }

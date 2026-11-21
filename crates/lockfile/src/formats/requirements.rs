@@ -177,4 +177,13 @@ mod tests {
         let names: Vec<&str> = parsed.entries.iter().map(|entry| entry.name.as_str()).collect();
         assert_eq!(names, ["six", "requests"]);
     }
+
+    #[test]
+    fn every_requirements_entry_is_direct() {
+        let root = crate::testing::root_with(&[(
+            "requirements.txt",
+            include_str!("../../../../fixtures/lockfiles/requirements/requirements.txt"),
+        )]);
+        crate::testing::assert_all_direct(root.path());
+    }
 }

@@ -70,4 +70,19 @@ mod tests {
             "{error:?}"
         );
     }
+
+    #[test]
+    fn every_central_package_version_is_direct() {
+        let root = crate::testing::root_with(&[
+            (
+                "App.csproj",
+                include_str!("../../../../fixtures/lockfiles/nuget/src/App/App.csproj"),
+            ),
+            (
+                "Directory.Packages.props",
+                include_str!("../../../../fixtures/lockfiles/nuget/Directory.Packages.props"),
+            ),
+        ]);
+        crate::testing::assert_all_direct(root.path());
+    }
 }

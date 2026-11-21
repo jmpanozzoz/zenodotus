@@ -99,4 +99,17 @@ mod tests {
             "{error:?}"
         );
     }
+
+    #[test]
+    fn a_declared_dependency_is_direct_and_a_transitive_one_is_not() {
+        let root = crate::testing::fixture_root("composer/direct");
+        assert_eq!(
+            crate::testing::direct_flags(root.path()),
+            [
+                ("packagist:monolog/monolog@3.6.0".to_owned(), true),
+                ("packagist:psr/log@3.0.0".to_owned(), false),
+                ("packagist:phpunit/phpunit@11.2.5".to_owned(), true),
+            ]
+        );
+    }
 }

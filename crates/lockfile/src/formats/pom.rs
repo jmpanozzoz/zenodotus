@@ -91,4 +91,11 @@ mod tests {
             "{error:?}"
         );
     }
+
+    #[test]
+    fn every_pom_dependency_is_direct() {
+        let root =
+            crate::testing::root_with(&[("pom.xml", include_str!("../../../../fixtures/lockfiles/pom/pom.xml"))]);
+        crate::testing::assert_all_direct(root.path());
+    }
 }

@@ -11,6 +11,8 @@ mod project;
 mod read;
 mod roots;
 mod runtime;
+#[cfg(test)]
+mod testing;
 
 pub use diagnostics::{Diagnostic, DiagnosticKind};
 pub use error::{Cause, LockfileError};
@@ -31,7 +33,9 @@ pub struct Dependency {
     /// The locked version, or the commit of a git dependency; `None` for a manifest entry, which resolves to the
     /// latest stable version.
     pub version: Option<String>,
-    // direct: pending design draft 6
+    /// Whether the project itself declares it, rather than only another package (design §8.4). Priority 2 and the
+    /// eviction pins cover only direct dependencies.
+    pub direct: bool,
 }
 
 impl Dependency {
@@ -70,6 +74,8 @@ pub(crate) struct Entry {
     pub(crate) version: Option<String>,
     /// Where it comes from.
     pub(crate) source: Source,
+    /// Whether the file marks it direct; read only for the formats that carry such a marker (design §8.4).
+    pub(crate) direct: bool,
 }
 
 impl Entry {
@@ -80,6 +86,7 @@ impl Entry {
             name: name.to_owned(),
             version: version.map(str::to_owned),
             source: Source::Registry,
+            direct: false,
         }
     }
 
@@ -95,7 +102,14 @@ impl Entry {
             name,
             version,
             source,
+            direct: false,
         }
+    }
+
+    /// The entry with its `direct` marker set to `direct`.
+    pub(crate) fn with_direct(mut self, direct: bool) -> Self {
+        self.direct = direct;
+        self
     }
 
     /// A package pinned to `commit` of the git repository at `url`.
@@ -108,6 +122,7 @@ impl Entry {
                 url: url.to_owned(),
                 commit: commit.to_owned(),
             },
+            direct: false,
         }
     }
 }

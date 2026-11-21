@@ -19,6 +19,9 @@ use crate::{Entry, Source};
 pub(crate) struct Manifest {
     /// The declared registry names, each without a version.
     pub(crate) entries: Vec<Entry>,
+    /// Every declared name as a lockfile writes it, git and path dependencies included, which decides which locked
+    /// packages are direct (design §8.4).
+    pub(crate) names: Vec<String>,
     /// The workspace member patterns, as written.
     pub(crate) members: Vec<String>,
     /// The runtime version text it carries, as written: `engines.node`, `requires-python`, `rust-version`,
@@ -62,26 +65,33 @@ fn npm_name<'a>(key: &'a str, spec: &'a str) -> Option<&'a str> {
     }
 }
 
-/// `package.json`: the four dependency maps, `workspaces` and `engines.node`.
+/// `package.json`: the four dependency maps, `workspaces` and `engines.node`. A git, path or URL dependency is
+/// declared under its key.
 pub(crate) fn package_json(text: &str, file: &Path) -> Result<Manifest, LockfileError> {
     let package: PackageJson = json(text, file)?;
-    let entries = [
+    let declared = [
         &package.dependencies,
         &package.dev_dependencies,
         &package.optional_dependencies,
         &package.peer_dependencies,
     ]
     .into_iter()
-    .flatten()
-    .filter_map(|(key, spec)| npm_name(key, spec))
-    .map(|name| Entry::registry(Ecosystem::Npm, name, None))
-    .collect();
+    .flatten();
+    let entries = declared
+        .clone()
+        .filter_map(|(key, spec)| npm_name(key, spec))
+        .map(|name| Entry::registry(Ecosystem::Npm, name, None))
+        .collect();
+    let names = declared
+        .map(|(key, spec)| npm_name(key, spec).unwrap_or(key).to_owned())
+        .collect();
     let members = match package.workspaces {
         Some(Workspaces::List(members) | Workspaces::Object { packages: members }) => members,
         None => Vec::new(),
     };
     Ok(Manifest {
         entries,
+        names,
         members,
         runtime: package.engines.and_then(|engines| engines.node),
     })
@@ -154,55 +164,56 @@ impl PoetryDependency {
     }
 }
 
-/// The name of a PEP 508 requirement, the text before any extras, specifier or marker; a direct URL reference
-/// (`name @ url`) names no index package.
-fn pep508_name(requirement: &str) -> Option<&str> {
+/// The name of a PEP 508 requirement, the text before any extras, specifier or marker, and whether it is a direct
+/// URL reference (`name @ url`), which names no index package.
+fn pep508(requirement: &str) -> Option<(&str, bool)> {
     let requirement = requirement.trim_start();
     let end = requirement
         .find(|c: char| !(c.is_ascii_alphanumeric() || matches!(c, '.' | '_' | '-')))
         .unwrap_or(requirement.len());
     let (name, rest) = requirement.split_at(end);
-    let direct_url = rest.trim_start().starts_with('@');
-    (!name.is_empty() && !direct_url).then_some(name)
+    (!name.is_empty()).then(|| (name, rest.trim_start().starts_with('@')))
 }
 
 /// `pyproject.toml`: `[project]` dependencies and optional dependencies, `[dependency-groups]`, the Poetry
-/// dependency tables without `python`, and `requires-python`.
+/// dependency tables without `python`, and `requires-python`. Direct URL, git and path dependencies are declared but
+/// name no index package.
 pub(crate) fn pyproject(text: &str, file: &Path) -> Result<Manifest, LockfileError> {
     let pyproject: Pyproject = toml(text, file)?;
-    let mut names: Vec<&str> = Vec::new();
+    let mut requirements: Vec<&str> = Vec::new();
     if let Some(project) = &pyproject.project {
         let optional = project.optional_dependencies.values().flatten();
-        names.extend(
-            project
-                .dependencies
-                .iter()
-                .chain(optional)
-                .filter_map(|item| pep508_name(item)),
-        );
+        requirements.extend(project.dependencies.iter().chain(optional).map(String::as_str));
     }
     let groups = pyproject.dependency_groups.values().flatten();
-    names.extend(groups.filter_map(|item| match item {
-        GroupItem::Requirement(requirement) => pep508_name(requirement),
+    requirements.extend(groups.filter_map(|item| match item {
+        GroupItem::Requirement(requirement) => Some(requirement.as_str()),
         GroupItem::Include(_) => None,
     }));
+    let mut declared: Vec<(&str, bool)> = requirements
+        .into_iter()
+        .filter_map(pep508)
+        .map(|(name, url)| (name, !url))
+        .collect();
     if let Some(poetry) = pyproject.tool.as_ref().and_then(|tool| tool.poetry.as_ref()) {
         let groups = poetry.group.values().map(|group| &group.dependencies);
         let tables = [&poetry.dependencies, &poetry.dev_dependencies]
             .into_iter()
             .chain(groups);
-        names.extend(
+        declared.extend(
             tables
                 .flatten()
-                .filter(|(name, dependency)| *name != "python" && dependency.is_registry())
-                .map(|(name, _)| name.as_str()),
+                .filter(|(name, _)| *name != "python")
+                .map(|(name, dependency)| (name.as_str(), dependency.is_registry())),
         );
     }
     Ok(Manifest {
-        entries: names
-            .into_iter()
-            .map(|name| Entry::registry(Ecosystem::Pypi, name, None))
+        entries: declared
+            .iter()
+            .filter(|(_, registry)| *registry)
+            .map(|(name, _)| Entry::registry(Ecosystem::Pypi, name, None))
             .collect(),
+        names: declared.iter().map(|(name, _)| (*name).to_owned()).collect(),
         members: Vec::new(),
         runtime: pyproject.project.and_then(|project| project.requires_python),
     })
@@ -271,16 +282,14 @@ enum CargoDependency {
     },
 }
 
-/// The crate name of a dependency, `package` when renamed; path and git dependencies name no registry crate.
-fn crate_name<'a>(key: &'a str, dependency: &'a CargoDependency) -> Option<&'a str> {
+/// The crate name of a dependency, `package` when renamed, and whether it comes from a registry: path and git
+/// dependencies name no registry crate.
+fn crate_name<'a>(key: &'a str, dependency: &'a CargoDependency) -> (&'a str, bool) {
     match dependency {
-        CargoDependency::Version(_) => Some(key),
-        CargoDependency::Table {
-            path: None,
-            git: None,
-            package,
-        } => Some(package.as_deref().unwrap_or(key)),
-        CargoDependency::Table { .. } => None,
+        CargoDependency::Version(_) => (key, true),
+        CargoDependency::Table { package, path, git } => {
+            (package.as_deref().unwrap_or(key), path.is_none() && git.is_none())
+        }
     }
 }
 
@@ -296,7 +305,7 @@ pub(crate) fn cargo_toml(text: &str, file: &Path) -> Result<Manifest, LockfileEr
         &manifest.build_dependencies,
     ];
     let targets = manifest.target.values();
-    let entries = workspace_dependencies
+    let declared = workspace_dependencies
         .chain(own)
         .chain(targets.flat_map(|tables| {
             [
@@ -306,8 +315,16 @@ pub(crate) fn cargo_toml(text: &str, file: &Path) -> Result<Manifest, LockfileEr
             ]
         }))
         .flatten()
-        .filter_map(|(key, dependency)| crate_name(key, dependency))
-        .map(|name| Entry::registry(Ecosystem::Crates, name, None))
+        .map(|(key, dependency)| crate_name(key, dependency));
+    let (registry, other): (Vec<_>, Vec<_>) = declared.partition(|(_, registry)| *registry);
+    let entries = registry
+        .iter()
+        .map(|(name, _)| Entry::registry(Ecosystem::Crates, name, None))
+        .collect();
+    let names = registry
+        .into_iter()
+        .chain(other)
+        .map(|(name, _)| name.to_owned())
         .collect();
     let own = manifest.package.and_then(|package| package.rust_version);
     let runtime = match (own, &manifest.workspace) {
@@ -320,6 +337,7 @@ pub(crate) fn cargo_toml(text: &str, file: &Path) -> Result<Manifest, LockfileEr
     };
     Ok(Manifest {
         entries,
+        names,
         members: manifest
             .workspace
             .map(|workspace| workspace.members)
@@ -340,15 +358,19 @@ struct ComposerJson {
 /// `lib-*` and the Composer APIs, and `require.php`.
 pub(crate) fn composer_json(text: &str, file: &Path) -> Result<Manifest, LockfileError> {
     let mut composer: ComposerJson = json(text, file)?;
-    let entries = composer
+    let names: Vec<String> = composer
         .require
         .keys()
         .chain(composer.require_dev.keys())
         .filter(|name| name.contains('/'))
-        .map(|name| Entry::registry(Ecosystem::Packagist, name, None))
+        .cloned()
         .collect();
     Ok(Manifest {
-        entries,
+        entries: names
+            .iter()
+            .map(|name| Entry::registry(Ecosystem::Packagist, name, None))
+            .collect(),
+        names,
         members: Vec::new(),
         runtime: composer.require.remove("php"),
     })
@@ -458,6 +480,7 @@ pub(crate) fn pubspec_yaml(text: &str, file: &Path) -> Result<Manifest, Lockfile
         .collect();
     Ok(Manifest {
         entries,
+        names: Vec::new(),
         members: Vec::new(),
         runtime: pubspec.environment.and_then(|environment| environment.sdk),
     })
@@ -475,7 +498,7 @@ mod tests {
     }
 
     #[test]
-    fn package_json_declares_registry_names_workspaces_and_engines_node() {
+    fn npm_package_json_declares_registry_names_workspaces_and_engines_node() {
         let text = include_str!("../../../../fixtures/lockfiles/manifests/package.json");
         let manifest = package_json(text, Path::new("package.json")).unwrap();
         assert_eq!(
@@ -493,7 +516,7 @@ mod tests {
     }
 
     #[test]
-    fn package_json_workspaces_may_be_an_object_and_errors_have_a_line() {
+    fn npm_package_json_workspaces_may_be_an_object_and_errors_have_a_line() {
         let manifest = package_json(r#"{"workspaces": {"packages": ["apps/*"]}}"#, Path::new("package.json")).unwrap();
         assert_eq!(manifest.members, ["apps/*"]);
         assert_eq!(manifest.entries.len(), 0);
@@ -506,7 +529,7 @@ mod tests {
     }
 
     #[test]
-    fn pyproject_declares_pep_621_dependency_group_and_poetry_names() {
+    fn pypi_pyproject_declares_pep_621_dependency_group_and_poetry_names() {
         let text = include_str!("../../../../fixtures/lockfiles/manifests/pyproject.toml");
         let manifest = pyproject(text, Path::new("pyproject.toml")).unwrap();
         assert_eq!(
@@ -539,7 +562,7 @@ dependencies = [
     }
 
     #[test]
-    fn cargo_toml_declares_dependency_names_members_and_rust_version() {
+    fn crates_cargo_toml_declares_dependency_names_members_and_rust_version() {
         let text = include_str!("../../../../fixtures/lockfiles/manifests/Cargo.toml.sample");
         let manifest = cargo_toml(text, Path::new("Cargo.toml")).unwrap();
         assert_eq!(
@@ -566,7 +589,7 @@ dependencies = [
     }
 
     #[test]
-    fn composer_json_declares_package_names_and_require_php() {
+    fn packagist_composer_json_declares_package_names_and_require_php() {
         let text = include_str!("../../../../fixtures/lockfiles/manifests/composer.json");
         let manifest = composer_json(text, Path::new("composer.json")).unwrap();
         assert_eq!(
@@ -588,7 +611,7 @@ dependencies = [
     }
 
     #[test]
-    fn gemfile_declares_gem_names_with_their_source_block() {
+    fn rubygems_gemfile_declares_gem_names_with_their_source_block() {
         let text = include_str!("../../../../fixtures/lockfiles/manifests/Gemfile");
         let manifest = gemfile(text);
         let gem = |name| Entry::registry(Ecosystem::Rubygems, name, None);
@@ -613,7 +636,7 @@ dependencies = [
     }
 
     #[test]
-    fn pubspec_yaml_declares_hosted_names_and_the_dart_sdk() {
+    fn pub_pubspec_yaml_declares_hosted_names_and_the_dart_sdk() {
         let text = include_str!("../../../../fixtures/lockfiles/manifests/pubspec.yaml");
         let manifest = pubspec_yaml(text, Path::new("pubspec.yaml")).unwrap();
         let package = |name| Entry::registry(Ecosystem::Pub, name, None);
@@ -642,5 +665,59 @@ dependencies = [
             matches!(error, Some(LockfileError::Parse { line: Some(2), .. })),
             "{error:?}"
         );
+    }
+
+    #[test]
+    fn npm_declared_names_without_a_lockfile_are_direct() {
+        let root = crate::testing::root_with(&[(
+            "package.json",
+            include_str!("../../../../fixtures/lockfiles/manifests/package.json"),
+        )]);
+        crate::testing::assert_all_direct(root.path());
+    }
+
+    #[test]
+    fn pypi_declared_names_without_a_lockfile_are_direct() {
+        let root = crate::testing::root_with(&[(
+            "pyproject.toml",
+            include_str!("../../../../fixtures/lockfiles/manifests/pyproject.toml"),
+        )]);
+        crate::testing::assert_all_direct(root.path());
+    }
+
+    #[test]
+    fn crates_declared_names_without_a_lockfile_are_direct() {
+        let root = crate::testing::root_with(&[(
+            "Cargo.toml",
+            include_str!("../../../../fixtures/lockfiles/manifests/Cargo.toml.sample"),
+        )]);
+        crate::testing::assert_all_direct(root.path());
+    }
+
+    #[test]
+    fn packagist_declared_names_without_a_lockfile_are_direct() {
+        let root = crate::testing::root_with(&[(
+            "composer.json",
+            include_str!("../../../../fixtures/lockfiles/manifests/composer.json"),
+        )]);
+        crate::testing::assert_all_direct(root.path());
+    }
+
+    #[test]
+    fn rubygems_declared_names_without_a_lockfile_are_direct() {
+        let root = crate::testing::root_with(&[(
+            "Gemfile",
+            include_str!("../../../../fixtures/lockfiles/manifests/Gemfile"),
+        )]);
+        crate::testing::assert_all_direct(root.path());
+    }
+
+    #[test]
+    fn pub_declared_names_without_a_lockfile_are_direct() {
+        let root = crate::testing::root_with(&[(
+            "pubspec.yaml",
+            include_str!("../../../../fixtures/lockfiles/manifests/pubspec.yaml"),
+        )]);
+        crate::testing::assert_all_direct(root.path());
     }
 }
