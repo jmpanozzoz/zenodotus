@@ -17,4 +17,5 @@ zenodotus-ingest = { version = "0.1.0", path = "../ingest" }
 zenodotus-search = { version = "0.1.0", path = "../search" }
 
 [dev-dependencies]
+dhat = "0.3.3"
 tempfile = "3.27.0"

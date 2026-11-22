@@ -5,5 +5,6 @@
 pub mod error;
 pub mod lock;
 pub mod sync;
+pub mod writer;
 
 pub use error::JobsError;
