@@ -10,7 +10,7 @@ use rmcp::model::{CallToolResult, ContentBlock};
 use rmcp::{ErrorData, ServerHandler, tool, tool_handler, tool_router};
 use schemars::JsonSchema;
 use serde::{Deserialize, Serialize};
-use zenodotus_core::config::{IndexSettings, RankingSettings};
+use zenodotus_core::config::{DEFAULT_MAX_CHARS, IndexSettings, RankingSettings};
 use zenodotus_search::SearchError;
 use zenodotus_search::query::{self, QueryRequest};
 use zenodotus_search::render_model::{QueryDocsResult, ResolveLibraryResult};
@@ -22,7 +22,7 @@ use crate::render::{query_markdown, resolve_markdown};
 /// The range and default of `max_results`.
 pub const MAX_RESULTS: (u64, u64, u64) = (1, 20, 5);
 /// The range and default of `max_chars`.
-pub const MAX_CHARS: (u64, u64, u64) = (1_000, 100_000, 12_000);
+pub const MAX_CHARS: (u64, u64, u64) = (1_000, 100_000, DEFAULT_MAX_CHARS);
 
 /// The index the tools read, opened on first use so that a server started before the first sync answers
 /// `index_empty` instead of failing to start.

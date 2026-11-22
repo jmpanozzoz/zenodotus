@@ -12,7 +12,7 @@ use zenodotus_core::fences::split_code;
 
 /// Version of the schema and of the way documents are built. Stored in every commit payload; a different value at
 /// open time means the index must be rebuilt.
-pub const SCHEMA_VERSION: u32 = 1;
+pub const SCHEMA_VERSION: u32 = 2;
 
 /// Value of the `kind` field of a section.
 pub const KIND_SECTION: &str = "section";
@@ -180,7 +180,7 @@ impl Fields {
 pub(crate) mod tests {
     use tantivy::schema::Value;
     use zenodotus_core::ids::{ChunkId, LibraryId, Version};
-    use zenodotus_core::model::{Outcome, content_hash};
+    use zenodotus_core::model::{Origin, Outcome, content_hash};
     use zenodotus_core::time::Timestamp;
 
     use super::*;
@@ -224,6 +224,9 @@ pub(crate) mod tests {
             document_count: 0,
             section_count: 0,
             resolved_commit: None,
+            origin: Origin::Config,
+            plan: None,
+            bytes: 0,
         }
     }
 
@@ -359,6 +362,7 @@ pub(crate) mod tests {
             last_modified: None,
             content_hash: content_hash("x"),
             fetched_at: Timestamp::from_unix(5),
+            source: None,
         };
         let doc = fields.doc_state_document(&scope, &state);
         assert_no_scored_fields(&fields, &doc);

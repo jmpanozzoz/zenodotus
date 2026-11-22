@@ -21,6 +21,7 @@ tracing-subscriber = { version = "0.3.23", default-features = false, features = 
 url = "2.5.8"
 zenodotus-core = { version = "0.1.0", path = "../core" }
 zenodotus-ingest = { version = "0.1.0", path = "../ingest" }
+zenodotus-jobs = { version = "0.1.0", path = "../jobs" }
 zenodotus-mcp = { version = "0.1.0", path = "../mcp" }
 zenodotus-search = { version = "0.1.0", path = "../search" }
 

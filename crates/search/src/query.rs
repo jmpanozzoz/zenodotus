@@ -672,6 +672,7 @@ mod tests {
                         last_modified: None,
                         content_hash: content_hash("doc"),
                         fetched_at: Timestamp::from_unix(0),
+                        source: None,
                     },
                     sections,
                 })

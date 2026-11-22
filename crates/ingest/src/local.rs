@@ -350,6 +350,7 @@ mod tests {
                 last_modified: None,
                 content_hash: "old".into(),
                 fetched_at: Timestamp::from_unix(1),
+                source: None,
             },
         )]);
         let changes = collect(root, &[], &[], &previous);

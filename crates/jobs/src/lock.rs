@@ -3,7 +3,7 @@
 use std::fs::{File, OpenOptions, TryLockError};
 use std::path::Path;
 
-use crate::error::AppError;
+use crate::error::JobsError;
 
 /// The lock file in the data directory.
 pub const LOCK_FILE: &str = "sync.lock";
@@ -19,21 +19,21 @@ impl SyncLock {
     ///
     /// # Errors
     ///
-    /// [`AppError::Busy`] when another process holds the lock, or [`AppError::Io`].
-    pub fn acquire(data_dir: &Path) -> Result<Self, AppError> {
-        std::fs::create_dir_all(data_dir).map_err(AppError::io(data_dir))?;
+    /// [`JobsError::Busy`] when another process holds the lock, or [`JobsError::Io`].
+    pub fn acquire(data_dir: &Path) -> Result<Self, JobsError> {
+        std::fs::create_dir_all(data_dir).map_err(JobsError::io(data_dir))?;
         let path = data_dir.join(LOCK_FILE);
         let file = OpenOptions::new()
             .create(true)
             .truncate(false)
             .write(true)
             .open(&path)
-            .map_err(AppError::io(&path))?;
+            .map_err(JobsError::io(&path))?;
         let locked = file.try_lock();
         if matches!(locked, Err(TryLockError::WouldBlock)) {
-            return Err(AppError::Busy { path });
+            return Err(JobsError::Busy { path });
         }
-        locked.map_err(std::io::Error::from).map_err(AppError::io(&path))?;
+        locked.map_err(std::io::Error::from).map_err(JobsError::io(&path))?;
         Ok(Self { _file: file })
     }
 }
@@ -48,8 +48,7 @@ mod tests {
         let data_dir = dir.path().join("data");
         let first = SyncLock::acquire(&data_dir).unwrap();
         let error = SyncLock::acquire(&data_dir).unwrap_err();
-        assert!(matches!(error, AppError::Busy { .. }), "{error}");
-        assert_eq!(error.exit_code(), 4);
+        assert!(matches!(error, JobsError::Busy { .. }), "{error}");
         drop(first);
         assert!(SyncLock::acquire(&data_dir).is_ok());
     }
@@ -60,7 +59,7 @@ mod tests {
         let file = dir.path().join("file");
         std::fs::write(&file, "").unwrap();
         let error = SyncLock::acquire(&file).unwrap_err();
-        assert!(matches!(error, AppError::Io { .. }), "{error}");
+        assert!(matches!(error, JobsError::Io { .. }), "{error}");
         std::fs::create_dir(dir.path().join("data")).unwrap();
         std::fs::create_dir(dir.path().join("data").join(LOCK_FILE)).unwrap();
         let error = SyncLock::acquire(&dir.path().join("data")).unwrap_err();

@@ -15,6 +15,7 @@ pub mod markdown;
 pub mod retry;
 pub mod robots;
 pub mod sectioner;
+pub mod sink;
 pub mod sitemap;
 pub mod source;
 pub mod symbols;

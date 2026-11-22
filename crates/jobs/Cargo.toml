@@ -1,0 +1,21 @@
+[package]
+name = "zenodotus-jobs"
+description = "The single index writer of zenodotus: the sync lock, sync jobs and the document sink that streams into the store"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+thiserror = "2.0.21"
+zenodotus-core = { version = "0.1.0", path = "../core" }
+zenodotus-ingest = { version = "0.1.0", path = "../ingest" }
+zenodotus-search = { version = "0.1.0", path = "../search" }
+
+[dev-dependencies]
+dhat = "0.3.3"
+tempfile = "3.27.0"

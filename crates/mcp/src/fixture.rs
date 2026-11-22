@@ -6,7 +6,7 @@ use std::sync::Arc;
 use tempfile::TempDir;
 use zenodotus_core::config::{IndexSettings, RankingSettings};
 use zenodotus_core::ids::{ChunkId, DocKey, LibraryId, Scope, Version};
-use zenodotus_core::model::{DocState, Document, Outcome, Section, VersionChanges, VersionState, content_hash};
+use zenodotus_core::model::{DocState, Document, Origin, Outcome, Section, VersionChanges, VersionState, content_hash};
 use zenodotus_core::time::Timestamp;
 use zenodotus_search::store::StoreWriter;
 
@@ -33,6 +33,9 @@ fn version_state(library: &str, version: &str, list_order: u32, default: bool) -
         document_count: 0,
         section_count: 0,
         resolved_commit: None,
+        origin: Origin::Config,
+        plan: None,
+        bytes: 0,
     }
 }
 
@@ -62,6 +65,7 @@ fn document(scope: &Scope, path: &str, sections: &[(&str, &str)]) -> Document {
             last_modified: None,
             content_hash: content_hash(path),
             fetched_at: Timestamp::from_unix(0),
+            source: None,
         },
         sections,
     }

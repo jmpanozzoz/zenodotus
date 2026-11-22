@@ -65,7 +65,7 @@ fn product_token(user_agent: &str) -> &str {
 mod tests {
     use super::*;
 
-    const AGENT: &str = "zenodotus/0.1.0 (+https://github.com/zenodotus-docs/zenodotus)";
+    const AGENT: &str = "zenodotus/0.1.0 (+https://github.com/jmpanozzoz/zenodotus)";
 
     fn url(text: &str) -> Url {
         Url::parse(text).unwrap()

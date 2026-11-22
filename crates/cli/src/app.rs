@@ -24,7 +24,7 @@ use crate::args::{AddArgs, Cli, Command, SearchArgs, ServeArgs, SetupArgs, SyncA
 use crate::error::AppError;
 use crate::output;
 use crate::setup::{self, Server};
-use crate::sync::{self, Paths, Selection, Sources};
+use zenodotus_jobs::sync::{self, Paths, Selection, Sources};
 
 /// The environment variable holding the HTTP bearer token.
 pub const TOKEN_VARIABLE: &str = "ZENODOTUS_HTTP_TOKEN";
@@ -333,7 +333,7 @@ mod tests {
     use zenodotus_ingest::IngestError;
 
     use super::*;
-    use crate::lock::SyncLock;
+    use zenodotus_jobs::lock::SyncLock;
 
     /// GitHub endpoints that the default fetch settings refuse before connecting, because they use `http`.
     fn unreachable_github() -> GitHub {

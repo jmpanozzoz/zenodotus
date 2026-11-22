@@ -9,5 +9,7 @@ pub mod render_model;
 pub mod resolve;
 pub mod schema;
 pub mod store;
+#[cfg(feature = "test-support")]
+pub mod v1_index;
 
 pub use error::SearchError;
