@@ -427,10 +427,7 @@ mod tests {
     }
 
     fn object(value: serde_json::Value) -> serde_json::Map<String, serde_json::Value> {
-        match value {
-            serde_json::Value::Object(map) => map,
-            other => panic!("not an object: {other}"),
-        }
+        serde_json::from_value(value).expect("an object")
     }
 
     fn plan(sources: Vec<PlanSource>) -> Plan {
@@ -446,11 +443,11 @@ mod tests {
         .unwrap()
     }
 
-    fn invalid_plan(result: Result<Plan, CoreError>) -> String {
-        match result {
-            Err(CoreError::InvalidPlan { reason }) => reason,
-            other => panic!("expected InvalidPlan, got {other:?}"),
-        }
+    /// The message of an [`CoreError::InvalidPlan`] error.
+    fn invalid_plan<T: std::fmt::Debug>(result: Result<T, CoreError>) -> String {
+        let error = result.unwrap_err();
+        assert!(matches!(error, CoreError::InvalidPlan { .. }), "{error:?}");
+        error.to_string()
     }
 
     #[test]
@@ -492,9 +489,7 @@ mod tests {
         let mut discovered = guides();
         discovered.spec = object(json!({"repo": "example/widgets", "candidates": ["docs/", "README*"]}));
         let before = plan(vec![discovered.clone()]);
-        if let Some(revision) = discovered.revision.as_mut() {
-            revision.candidate = Some("docs/".to_owned());
-        }
+        discovered.revision.as_mut().expect("a revision").candidate = Some("docs/".to_owned());
         let after = plan(vec![discovered.clone()]);
         assert_eq!(before.fingerprint(), after.fingerprint());
         assert_ne!(before, after);
@@ -627,9 +622,7 @@ mod tests {
             spec: object(json!({"project_url": "https://widgets.example/"})),
             revision: None,
         };
-        match source.to_source_spec() {
-            Err(CoreError::InvalidPlan { reason }) => assert!(reason.contains("reference"), "{reason}"),
-            other => panic!("expected InvalidPlan, got {other:?}"),
-        }
+        let reason = invalid_plan(source.to_source_spec());
+        assert!(reason.contains("reference"), "{reason}");
     }
 }

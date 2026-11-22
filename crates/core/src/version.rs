@@ -430,8 +430,7 @@ fn cmp_list(a: &[Item], b: &[Item]) -> Ordering {
     (0..a.len().max(b.len()))
         .map(|i| match (a.get(i), b.get(i)) {
             (Some(left), right) => cmp_item(left, right),
-            (None, Some(right)) => cmp_item(right, None).reverse(),
-            (None, None) => Ordering::Equal,
+            (None, right) => right.map_or(Ordering::Equal, |right| cmp_item(right, None).reverse()),
         })
         .find(|order| order.is_ne())
         .unwrap_or(Ordering::Equal)
@@ -609,6 +608,7 @@ mod tests {
         equal(Ecosystem::Nuget, "2.0.0.0", "2.0.0");
         equal(Ecosystem::Nuget, "1.0.0-Beta", "1.0.0-beta");
         equal(Ecosystem::Nuget, "1.0.0+meta", "1.0.0");
+        assert!(nuget("1.0.0-rc.1").unwrap() < nuget("1.0.0").unwrap());
         for bad in ["", "1.2.3.4.5", "a.b", "1..2", "1.0.0-"] {
             assert_eq!(compare(Ecosystem::Nuget, bad, "1.0.0"), None, "{bad:?}");
         }
@@ -699,6 +699,7 @@ mod tests {
             ("1-", "1"),
             ("2.0.0", "02.0"),
             ("1.0-RC1", "1.0-rc1"),
+            ("1a1", "1-alpha-1"),
         ] {
             equal(Ecosystem::Maven, a, b);
         }
@@ -891,6 +892,10 @@ mod tests {
             Err(vec!["v2.0.0".to_owned(), "v1.0.0".to_owned()])
         );
         assert_eq!(select(Ecosystem::Npm, "1", &[]), Err(vec![]));
+        assert_eq!(
+            select(Ecosystem::Npm, "2.5.0", &listed(&[("1.0.0", false), ("3.0.0", false)])),
+            Err(vec!["1.0.0".to_owned(), "3.0.0".to_owned()])
+        );
     }
 
     #[test]

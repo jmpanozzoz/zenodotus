@@ -238,11 +238,11 @@ fn check_name(ecosystem: Ecosystem, name: &str) -> Result<(), &'static str> {
         Ecosystem::Crates => all(name, |b| {
             b.is_ascii_lowercase() || b.is_ascii_digit() || matches!(b, b'_' | b'-')
         }),
-        Ecosystem::Packagist | Ecosystem::Github => two_parts('/', lower_package),
+        // A Swift name reaches this check as the `owner/repo` of its GitHub id (`swift_repo`).
+        Ecosystem::Packagist | Ecosystem::Github | Ecosystem::Swift => two_parts('/', lower_package),
         Ecosystem::Rubygems => all(name, package),
         Ecosystem::Pub => all(name, |b| b.is_ascii_lowercase() || b.is_ascii_digit() || b == b'_'),
         Ecosystem::Runtime => Runtime::from_name(name).is_some(),
-        Ecosystem::Swift => false,
     };
     if valid { Ok(()) } else { Err(grammar(ecosystem)) }
 }
@@ -259,9 +259,8 @@ const fn grammar(ecosystem: Ecosystem) -> &'static str {
         Ecosystem::Packagist => "Packagist names are lowercase `vendor/name`",
         Ecosystem::Rubygems => "gem names are letters, digits, `.`, `_` and `-`",
         Ecosystem::Pub => "pub.dev names are lowercase letters, digits and `_`",
-        Ecosystem::Github => "GitHub names are `owner/repo`",
+        Ecosystem::Github | Ecosystem::Swift => "GitHub names are `owner/repo`",
         Ecosystem::Runtime => "unknown runtime",
-        Ecosystem::Swift => "SwiftPM names must be `github.com/<owner>/<repo>`",
     }
 }
 
@@ -832,6 +831,7 @@ mod tests {
             "go:github.com/../x",
             "go:/github.com/x",
             "go:github.com/x/",
+            "go:github.com/x+y",
             "cargo:serde",
             ":serde",
             "maven:spring-core",
@@ -856,6 +856,7 @@ mod tests {
             "github:a/b c",
             "runtime:cobol",
             "runtime:Rust",
+            "react",
         ] {
             let error = CanonicalId::parse(bad).unwrap_err();
             assert!(
