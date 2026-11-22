@@ -128,7 +128,7 @@ pub(crate) mod tests {
     fn a_recorded_response_splits_into_its_snippets() {
         let snippets = split_snippets(&fixture("context7_query.txt"));
         assert_eq!(snippets.len(), 5);
-        assert!(snippets[0].starts_with("### spawn\n\nSource: https://docs.rs/tokio/"));
+        assert!(snippets[0].starts_with("### open_valve\n\nSource: https://docs.example.com/plumbing/"));
         assert!(snippets.iter().all(|snippet| snippet.starts_with("### ")));
         assert_eq!(
             split_snippets(&format!("{SEPARATOR}a{SEPARATOR}{SEPARATOR}b\n")),

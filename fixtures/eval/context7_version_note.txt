@@ -1,68 +1,56 @@
-Version note: /pydantic/pydantic has no indexed documentation for version v0.0.1; current documentation is served instead.
+Version note: /acme/plumbing has no indexed documentation for version v0.0.1; current documentation is served instead.
 
-### Define before validator using @field_validator decorator
+### Check a pressure before it is applied with @pressure_check
 
-Source: https://github.com/pydantic/pydantic/blob/main/docs/concepts/validators.md
+Source: https://github.com/acme/plumbing/blob/main/docs/concepts/checks.md
 
-Use the @field_validator decorator with mode='before' to transform raw inputs before standard validation occurs. Pydantic continues to validate the returned value against the specified field type.
+Use the @pressure_check decorator with mode='before' to adjust a raw reading before the standard check runs. Plumbing still checks the returned value against the declared gauge.
 
 ```python
 from typing import Any
 
-from pydantic import BaseModel, ValidationError, field_validator
+from plumbing import Gauge, PressureError, pressure_check
 
 
-class Model(BaseModel):
-    numbers: list[int]
+class Boiler(Gauge):
+    readings: list[int]
 
-    @field_validator('numbers', mode='before')
+    @pressure_check('readings', mode='before')
     @classmethod
-    def ensure_list(cls, value: Any) -> Any:  # (1)!
-        if not isinstance(value, list):  # (2)!
+    def ensure_list(cls, value: Any) -> Any:
+        if not isinstance(value, list):
             return [value]
-        else:
-            return value
+        return value
 
 
-print(Model(numbers=2))
-#> numbers=[2]
-try:
-    Model(numbers='str')
-except ValidationError as err:
-    print(err)  # (3)!
-    """
-    1 validation error for Model
-    numbers.0
-      Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='str', input_type=str]
-    """
+print(Boiler(readings=3))
+#> readings=[3]
 ```
 
 --------------------------------
 
-### pydantic.functional_validators.field_validator
+### plumbing.checks.pressure_check
 
-Source: https://github.com/pydantic/pydantic/blob/main/docs/api/functional_validators.md
+Source: https://github.com/acme/plumbing/blob/main/docs/api/checks.md
 
-Decorator for creating field validators. Allows specifying the fields to validate and the mode of validation.
+Decorator for pressure checks. Names the readings to check and when to check them.
 
 ```APIDOC
-## pydantic.functional_validators.field_validator
+## plumbing.checks.pressure_check
 
 ### Description
-Decorator for creating field validators. Allows specifying the fields to validate and the mode of validation.
+Decorator for pressure checks. Names the readings to check and when to check them.
 
 ### Signature
 ```python
-def field_validator(field: str, /, *fields: str, mode: FieldValidatorModes='after', check_fields: bool | None=None, json_schema_input_type: Any=PydanticUndefined) -> Callable[[Any], Any]
+def pressure_check(reading: str, /, *readings: str, mode: CheckMode='after') -> Callable[[Any], Any]
 ```
 
 ### Parameters
-- **field** (str) - Required - The first field to validate.
-- **fields** (str) - Optional - Additional fields to validate.
-- **mode** (FieldValidatorModes) - Optional - The validation mode. Defaults to 'after'.
-- **check_fields** (bool | None) - Optional - Whether to check fields. Defaults to None.
-- **json_schema_input_type** (Any) - Optional - The JSON schema input type. Defaults to PydanticUndefined.
+- **reading** (str) - Required - The first reading to check.
+- **readings** (str) - Optional - More readings to check.
+- **mode** (CheckMode) - Optional - When the check runs. Defaults to 'after'.
 
 ### Returns
-- **Callable[[Any], Any]** - A decorator that can be applied to a validation function.
+- **Callable[[Any], Any]** - A decorator applied to a check function.
 ```

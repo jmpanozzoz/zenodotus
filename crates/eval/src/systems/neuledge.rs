@@ -124,7 +124,9 @@ mod tests {
     fn recorded_responses_parse_into_titled_results() {
         let results = parse_results(&fixture("neuledge_get_docs.json")).unwrap();
         assert!(results.len() >= 2);
-        assert!(results[0].starts_with("## Glossary > Spawning\n\nSpawning is when the [`tokio::spawn`] function"));
+        assert!(
+            results[0].starts_with("## Glossary > Valves\n\nA valve is what the [`plumbing::open_valve`] function")
+        );
         assert_eq!(
             parse_results(&fixture("neuledge_empty.json")).unwrap(),
             [] as [String; 0]

@@ -162,8 +162,8 @@ mod tests {
     fn a_recorded_response_splits_into_its_results() {
         let results = split_results(&fixture("grounded_search.txt"));
         assert_eq!(results.len(), 2);
-        assert!(results[0].starts_with("---\ndate: \"2022-10-27\"\ntitle: \"Announcing async-backtrace\""));
-        assert!(results[1].contains("tokio::select!"));
+        assert!(results[0].starts_with("---\ndate: \"2024-03-14\"\ntitle: \"Announcing plumbing 2.0\""));
+        assert!(results[1].contains("plumbing::merge!"));
         assert_eq!(split_results("No results found."), [] as [String; 0]);
         assert_eq!(split_results(&format!("{SEPARATOR}1: file:///x")), [""]);
     }
