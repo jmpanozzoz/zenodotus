@@ -1,7 +1,7 @@
 //! The Tantivy store: one index for every library version, holding sections and the state needed for incremental
 //! syncs. [`Store`] only reads; [`StoreWriter`] is the single writer, and applies one version per commit.
 
-use std::collections::BTreeMap;
+use std::collections::{BTreeMap, BTreeSet};
 use std::fs;
 use std::path::Path;
 
@@ -16,7 +16,7 @@ use tantivy::{
 };
 use zenodotus_core::config::IndexSettings;
 use zenodotus_core::ids::{DocKey, Scope};
-use zenodotus_core::model::{DocState, Outcome, Section, VersionChanges, VersionState};
+use zenodotus_core::model::{DocState, Document, Outcome, Section, VersionChanges, VersionState};
 
 use crate::analyzer;
 use crate::error::SearchError;
@@ -31,8 +31,10 @@ pub const NEW_INDEX_DIR: &str = "index.new";
 /// Where the live index waits while a rebuilt one takes its place.
 pub const OLD_INDEX_DIR: &str = "index.old";
 
-/// Memory the index writer may use before it flushes a segment.
-const WRITER_MEMORY_BYTES: usize = 64 << 20;
+/// Memory the index writer may use before it flushes a segment (design §12.8).
+const WRITER_MEMORY_BYTES: usize = 32 << 20;
+/// Indexing threads of the writer: one, so that its whole heap is one arena (design §12.8).
+const WRITER_THREADS: usize = 1;
 /// Fraction of deleted documents above which a segment is merged.
 const DELETED_RATIO_BEFORE_MERGE: f32 = 0.1;
 
@@ -302,6 +304,16 @@ pub struct StoreWriter {
     payload: String,
     weights: IndexSettings,
     pending_prune: Vec<Scope>,
+    stream: Option<Stream>,
+}
+
+/// What a stream opened by [`StoreWriter::begin`] has staged so far: only keys and section counts, never documents.
+struct Stream {
+    scope: Scope,
+    /// The section count of every document added and not deleted after.
+    added: BTreeMap<DocKey, usize>,
+    /// Every key added or deleted, whose stored documents the commit replaces.
+    touched: BTreeSet<DocKey>,
 }
 
 impl StoreWriter {
@@ -337,7 +349,10 @@ impl StoreWriter {
             Index::create_in_dir(path, build_schema().0)?
         };
         let store = Store::with_reader(index, ReloadPolicy::Manual)?;
-        let writer: IndexWriter = store.index.writer(WRITER_MEMORY_BYTES).map_err(writer_error)?;
+        let writer: IndexWriter = store
+            .index
+            .writer_with_num_threads(WRITER_THREADS, WRITER_MEMORY_BYTES)
+            .map_err(writer_error)?;
         let mut policy = LogMergePolicy::default();
         policy.set_del_docs_ratio_before_merge(DELETED_RATIO_BEFORE_MERGE);
         writer.set_merge_policy(Box::new(policy));
@@ -347,6 +362,7 @@ impl StoreWriter {
             payload: serde_json::to_string(&CommitPayload::current(settings))?,
             weights: settings.clone(),
             pending_prune: Vec::new(),
+            stream: None,
         })
     }
 
@@ -400,6 +416,140 @@ impl StoreWriter {
             .and_then(|()| self.commit_with_state(&state));
         self.rolled_back(committed)?;
         Ok(state)
+    }
+
+    /// Opens a stream of changes to `scope`, staged one document at a time by [`StoreWriter::add`],
+    /// [`StoreWriter::keep`] and [`StoreWriter::delete`], and committed once by [`StoreWriter::commit_scope`] or
+    /// discarded by [`StoreWriter::rollback`].
+    ///
+    /// # Panics
+    ///
+    /// When a stream is already open.
+    pub fn begin(&mut self, scope: &Scope) {
+        assert!(self.stream.is_none(), "a stream is already open");
+        self.stream = Some(Stream {
+            scope: scope.clone(),
+            added: BTreeMap::new(),
+            touched: BTreeSet::new(),
+        });
+    }
+
+    /// Stages `document` in the open stream, replacing what is stored under its key.
+    ///
+    /// # Errors
+    ///
+    /// [`SearchError::ForeignDocument`] when the document belongs to another scope, which stages nothing, or an index
+    /// error.
+    ///
+    /// # Panics
+    ///
+    /// When no stream is open.
+    pub fn add(&mut self, document: &Document) -> Result<(), SearchError> {
+        let fields = self.store.fields;
+        let stream = open_stream(self.stream.as_mut());
+        let key = &document.state.doc_key;
+        owned(&stream.scope, key)?;
+        self.writer.delete_term(term(fields.doc_key, key.as_str()));
+        for section in &document.sections {
+            self.writer
+                .add_document(fields.section_document(&stream.scope, section, &self.weights))?;
+        }
+        self.writer
+            .add_document(fields.doc_state_document(&stream.scope, &document.state))?;
+        stream.added.insert(key.clone(), document.sections.len());
+        stream.touched.insert(key.clone());
+        Ok(())
+    }
+
+    /// Keeps what is stored under `key` in the open stream. Nothing is staged; the key is only checked.
+    ///
+    /// # Errors
+    ///
+    /// [`SearchError::ForeignDocument`] when the key belongs to another scope.
+    ///
+    /// # Panics
+    ///
+    /// When no stream is open.
+    pub fn keep(&mut self, key: &DocKey) -> Result<(), SearchError> {
+        owned(&open_stream(self.stream.as_mut()).scope, key)
+    }
+
+    /// Stages the deletion of `key` in the open stream, with what an earlier [`StoreWriter::add`] staged under it.
+    ///
+    /// # Errors
+    ///
+    /// [`SearchError::ForeignDocument`] when the key belongs to another scope, which stages nothing.
+    ///
+    /// # Panics
+    ///
+    /// When no stream is open.
+    pub fn delete(&mut self, key: &DocKey) -> Result<(), SearchError> {
+        let stream = open_stream(self.stream.as_mut());
+        owned(&stream.scope, key)?;
+        self.writer.delete_term(term(self.store.fields.doc_key, key.as_str()));
+        stream.added.remove(key);
+        stream.touched.insert(key.clone());
+        Ok(())
+    }
+
+    /// Commits the open stream with the scope record `state`, in one commit, closes the stream and returns the
+    /// stored record.
+    ///
+    /// The caller decides the status fields of `state`; the writer derives the counts from what is stored and
+    /// streamed, and raises the previous `revision` by one when any document was added or deleted.
+    ///
+    /// # Errors
+    ///
+    /// An index error or a corrupt payload. The stream is rolled back then, as in [`StoreWriter::apply`].
+    ///
+    /// # Panics
+    ///
+    /// When no stream is open, or when `state` belongs to another scope than the stream.
+    pub fn commit_scope(&mut self, state: &VersionState) -> Result<VersionState, SearchError> {
+        let stream = open_stream(self.stream.take());
+        assert_eq!(
+            stream.scope, state.scope,
+            "commit_scope for {} in a stream of {}",
+            state.scope, stream.scope
+        );
+        let committed = self
+            .counted_state(&stream, state)
+            .and_then(|counted| self.commit_with_state(&counted).map(|()| counted));
+        if committed.is_err() {
+            self.writer.rollback()?;
+        }
+        committed
+    }
+
+    /// Discards the open stream and everything staged since the last commit. Scopes marked by
+    /// [`StoreWriter::prune`] stay marked.
+    ///
+    /// # Errors
+    ///
+    /// An index error.
+    pub fn rollback(&mut self) -> Result<(), SearchError> {
+        self.stream = None;
+        self.writer.rollback()?;
+        Ok(())
+    }
+
+    /// `state` with the counts and revision of the stored record changed by `stream`.
+    fn counted_state(&self, stream: &Stream, state: &VersionState) -> Result<VersionState, SearchError> {
+        let previous = self.store.version_state(&stream.scope)?;
+        let touched: Vec<&DocKey> = stream.touched.iter().collect();
+        let removed_documents = self.store.count_for_keys(KIND_DOC_STATE, &touched)?;
+        let removed_sections = self.store.count_for_keys(KIND_SECTION, &touched)?;
+        let added_sections: usize = stream.added.values().sum();
+        let mut counted = state.clone();
+        counted.revision = previous.as_ref().map_or(0, |p| p.revision) + u64::from(!touched.is_empty());
+        counted.document_count = previous
+            .as_ref()
+            .map_or(0, |p| p.document_count)
+            .saturating_sub(removed_documents)
+            + stream.added.len() as u64;
+        counted.section_count =
+            previous.map_or(0, |p| p.section_count).saturating_sub(removed_sections) + added_sections as u64;
+        Ok(counted)
     }
 
     /// Records a sync of one version that changed nothing, with `outcome: failed` and `error`. Only the version's
@@ -485,12 +635,7 @@ impl StoreWriter {
             .map(|document| &document.state.doc_key)
             .chain(&changes.deletions);
         for key in keys {
-            if DocKey::new(scope, key.doc_path()).ok().as_ref() != Some(key) {
-                return Err(SearchError::ForeignDocument {
-                    doc_key: key.as_str().replace('\u{1f}', "/"),
-                    scope: scope.to_string(),
-                });
-            }
+            owned(scope, key)?;
             self.writer.delete_term(term(fields.doc_key, key.as_str()));
         }
         for document in &changes.upserts {
@@ -541,6 +686,27 @@ impl StoreWriter {
     }
 }
 
+/// The open stream.
+///
+/// # Panics
+///
+/// When no stream is open.
+fn open_stream<T>(stream: Option<T>) -> T {
+    stream.expect("no stream is open; call begin first")
+}
+
+/// Checks that `key` belongs to `scope`.
+fn owned(scope: &Scope, key: &DocKey) -> Result<(), SearchError> {
+    if DocKey::new(scope, key.doc_path()).ok().as_ref() == Some(key) {
+        Ok(())
+    } else {
+        Err(SearchError::ForeignDocument {
+            doc_key: key.as_str().replace('\u{1f}', "/"),
+            scope: scope.to_string(),
+        })
+    }
+}
+
 /// Replaces the live index with the rebuilt one: `index/` becomes `index.old/`, `index.new/` becomes `index/`, and
 /// `index.old/` is deleted. A crash between the renames is repaired by the next open.
 ///
@@ -578,7 +744,7 @@ fn remove_dir(path: &Path) -> Result<(), SearchError> {
 #[cfg(test)]
 mod tests {
     use tempfile::TempDir;
-    use zenodotus_core::model::{DocError, Document, content_hash};
+    use zenodotus_core::model::{DocError, content_hash};
     use zenodotus_core::time::Timestamp;
 
     use super::*;
@@ -1157,5 +1323,213 @@ mod tests {
         for error in errors {
             assert!(matches!(error, SearchError::Io { .. }), "{error}");
         }
+    }
+
+    /// The keys in `scope` whose documents the writer's store holds.
+    fn doc_paths(store: &Store, scope: &Scope) -> Vec<String> {
+        store
+            .doc_states(scope)
+            .unwrap()
+            .keys()
+            .map(|key| key.doc_path().to_owned())
+            .collect()
+    }
+
+    #[test]
+    fn a_streamed_scope_is_committed_once_by_commit_scope() {
+        let dir = TempDir::new().unwrap();
+        let a = scope("lib", "1");
+        let mut writer = StoreWriter::open(dir.path(), &settings()).unwrap();
+        writer.begin(&a);
+        writer.add(&document(&a, "x.md", &["one", "two"])).unwrap();
+        writer.add(&document(&a, "y.md", &["three"])).unwrap();
+        writer.add(&document(&a, "y.md", &["three again"])).unwrap();
+        writer.store().reload().unwrap();
+        assert_eq!(writer.store().version_state(&a).unwrap(), None);
+        assert_eq!(section_texts(writer.store(), &a), Vec::<String>::new());
+
+        let mut state = snapshot(&a, 10);
+        state.outcome = Outcome::Partial;
+        state.last_error = Some("caller's error".to_owned());
+        state.revision = 40;
+        state.document_count = 40;
+        state.section_count = 40;
+        let stored = writer.commit_scope(&state).unwrap();
+        assert_eq!(
+            (stored.revision, stored.document_count, stored.section_count),
+            (1, 2, 3)
+        );
+        assert_eq!(stored.outcome, Outcome::Partial);
+        assert_eq!(stored.last_error.as_deref(), Some("caller's error"));
+        assert_eq!(writer.store().version_state(&a).unwrap(), Some(stored));
+        assert_eq!(section_texts(writer.store(), &a), ["one", "three again", "two"]);
+        assert_eq!(doc_paths(writer.store(), &a), ["x.md", "y.md"]);
+    }
+
+    #[test]
+    fn a_second_stream_keeps_deletes_and_replaces_documents() {
+        let dir = TempDir::new().unwrap();
+        let (a, b) = (scope("lib", "1"), scope("lib", "2"));
+        let mut writer = StoreWriter::open(dir.path(), &settings()).unwrap();
+        writer
+            .apply(
+                &snapshot(&a, 1),
+                &upserts(vec![
+                    document(&a, "x.md", &["kept"]),
+                    document(&a, "y.md", &["old 1", "old 2"]),
+                    document(&a, "z.md", &["gone"]),
+                ]),
+            )
+            .unwrap();
+        writer
+            .apply(&snapshot(&b, 1), &upserts(vec![document(&b, "x.md", &["other"])]))
+            .unwrap();
+        writer.begin(&a);
+        writer.keep(&DocKey::new(&a, "x.md").unwrap()).unwrap();
+        writer.add(&document(&a, "y.md", &["new"])).unwrap();
+        writer.delete(&DocKey::new(&a, "z.md").unwrap()).unwrap();
+        writer.add(&document(&a, "w.md", &["added", "then"])).unwrap();
+        writer.delete(&DocKey::new(&a, "w.md").unwrap()).unwrap();
+        let stored = writer.commit_scope(&snapshot(&a, 2)).unwrap();
+        assert_eq!(
+            (stored.revision, stored.document_count, stored.section_count),
+            (2, 2, 2)
+        );
+        assert_eq!(section_texts(writer.store(), &a), ["kept", "new"]);
+        assert_eq!(doc_paths(writer.store(), &a), ["x.md", "y.md"]);
+        assert_eq!(section_texts(writer.store(), &b), ["other"]);
+    }
+
+    #[test]
+    fn a_stream_that_only_keeps_leaves_the_revision() {
+        let dir = TempDir::new().unwrap();
+        let a = scope("lib", "1");
+        let mut writer = StoreWriter::open(dir.path(), &settings()).unwrap();
+        writer
+            .apply(&snapshot(&a, 1), &upserts(vec![document(&a, "x.md", &["one"])]))
+            .unwrap();
+        writer.begin(&a);
+        writer.keep(&DocKey::new(&a, "x.md").unwrap()).unwrap();
+        let stored = writer.commit_scope(&snapshot(&a, 2)).unwrap();
+        assert_eq!(
+            (stored.revision, stored.document_count, stored.section_count),
+            (1, 1, 1)
+        );
+        assert_eq!(stored.last_attempt, Timestamp::from_unix(2));
+    }
+
+    #[test]
+    fn a_rolled_back_stream_leaves_the_index_as_it_was() {
+        let dir = TempDir::new().unwrap();
+        let (a, b) = (scope("lib", "1"), scope("lib", "2"));
+        let mut writer = StoreWriter::open(dir.path(), &settings()).unwrap();
+        let before = writer
+            .apply(&snapshot(&a, 1), &upserts(vec![document(&a, "x.md", &["original"])]))
+            .unwrap();
+        writer.begin(&a);
+        writer.add(&document(&a, "x.md", &["replaced"])).unwrap();
+        writer.add(&document(&a, "y.md", &["stray"])).unwrap();
+        writer.delete(&DocKey::new(&a, "x.md").unwrap()).unwrap();
+        writer.rollback().unwrap();
+        writer
+            .apply(&snapshot(&b, 2), &upserts(vec![document(&b, "x.md", &["later"])]))
+            .unwrap();
+        assert_eq!(writer.store().version_state(&a).unwrap(), Some(before));
+        assert_eq!(section_texts(writer.store(), &a), ["original"]);
+
+        writer.begin(&a);
+        let stored = writer.commit_scope(&snapshot(&a, 3)).unwrap();
+        assert_eq!((stored.revision, stored.document_count), (1, 1));
+        assert_eq!(section_texts(writer.store(), &a), ["original"]);
+    }
+
+    #[test]
+    fn a_stream_rejects_documents_of_another_scope() {
+        let dir = TempDir::new().unwrap();
+        let (a, b) = (scope("lib", "1"), scope("other", "1"));
+        let mut writer = StoreWriter::open(dir.path(), &settings()).unwrap();
+        writer.begin(&a);
+        let foreign = DocKey::new(&b, "y.md").unwrap();
+        let errors = [
+            writer.add(&document(&b, "y.md", &["stray"])).unwrap_err(),
+            writer.keep(&foreign).unwrap_err(),
+            writer.delete(&foreign).unwrap_err(),
+        ];
+        for error in errors {
+            assert_eq!(error.to_string(), "document other/1/y.md does not belong to lib@1");
+        }
+        writer.add(&document(&a, "x.md", &["mine"])).unwrap();
+        let stored = writer.commit_scope(&snapshot(&a, 1)).unwrap();
+        assert_eq!((stored.document_count, stored.section_count), (1, 1));
+        assert_eq!(section_texts(writer.store(), &b), Vec::<String>::new());
+    }
+
+    #[test]
+    fn a_streamed_commit_carries_the_pruned_scopes() {
+        let dir = TempDir::new().unwrap();
+        let (a, b) = (scope("a", "1"), scope("b", "1"));
+        let mut writer = StoreWriter::open(dir.path(), &settings()).unwrap();
+        writer
+            .apply(&snapshot(&b, 1), &upserts(vec![document(&b, "x.md", &["text"])]))
+            .unwrap();
+        assert_eq!(
+            writer.prune(std::slice::from_ref(&a)).unwrap(),
+            std::slice::from_ref(&b)
+        );
+        writer.begin(&a);
+        writer.add(&document(&a, "x.md", &["text"])).unwrap();
+        writer.commit_scope(&snapshot(&a, 2)).unwrap();
+        assert_eq!(writer.store().version_state(&b).unwrap(), None);
+        assert_eq!(section_texts(writer.store(), &b), Vec::<String>::new());
+        assert_eq!(section_texts(writer.store(), &a), ["text"]);
+    }
+
+    #[cfg(unix)]
+    #[test]
+    fn a_failed_streamed_commit_rolls_the_stream_back() {
+        let dir = TempDir::new().unwrap();
+        let a = scope("lib", "1");
+        let mut writer = StoreWriter::open(dir.path(), &settings()).unwrap();
+        writer
+            .apply(&snapshot(&a, 1), &upserts(vec![document(&a, "x.md", &["original"])]))
+            .unwrap();
+        writer.begin(&a);
+        writer.add(&document(&a, "x.md", &["replaced"])).unwrap();
+        read_only(&dir, true);
+        let failed = writer.commit_scope(&snapshot(&a, 2));
+        read_only(&dir, false);
+        assert!(failed.is_err(), "{failed:?}");
+        writer.begin(&a);
+        let stored = writer.commit_scope(&snapshot(&a, 3)).unwrap();
+        assert_eq!((stored.revision, stored.document_count), (1, 1));
+        assert_eq!(section_texts(writer.store(), &a), ["original"]);
+    }
+
+    #[test]
+    #[should_panic(expected = "a stream is already open")]
+    fn a_second_begin_without_a_commit_panics() {
+        let dir = TempDir::new().unwrap();
+        let a = scope("lib", "1");
+        let mut writer = StoreWriter::open(dir.path(), &settings()).unwrap();
+        writer.begin(&a);
+        writer.begin(&a);
+    }
+
+    #[test]
+    #[should_panic(expected = "commit_scope for lib@2 in a stream of lib@1")]
+    fn a_commit_for_another_scope_panics() {
+        let dir = TempDir::new().unwrap();
+        let mut writer = StoreWriter::open(dir.path(), &settings()).unwrap();
+        writer.begin(&scope("lib", "1"));
+        let _ = writer.commit_scope(&snapshot(&scope("lib", "2"), 1));
+    }
+
+    #[test]
+    #[should_panic(expected = "no stream is open; call begin first")]
+    fn streaming_without_begin_panics() {
+        let dir = TempDir::new().unwrap();
+        let a = scope("lib", "1");
+        let mut writer = StoreWriter::open(dir.path(), &settings()).unwrap();
+        let _ = writer.add(&document(&a, "x.md", &["one"]));
     }
 }
